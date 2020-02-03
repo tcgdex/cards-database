@@ -1,0 +1,110 @@
+import Card from '../../../interfaces/Card'
+import Type from '../../../interfaces/Type'
+import Tag from '../../../interfaces/Tag'
+import Rarity from '../../../interfaces/Rarity'
+import AbilityType from '../../../interfaces/AbilityType'
+import Category from '../../../interfaces/Category'
+
+const card: Card = {
+
+	// ids
+	id: "dp3-9",
+	localId: 9,
+
+	// Card informations
+	name: {
+		en: "Gastrodon West Sea",
+		fr: "Tritosor Mer Occident",
+	},
+
+	hp: 100,
+
+	type: [
+		Type.FIGHTING,
+	],
+
+	dexId: 423,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/dp/dp3/9/low.png",
+			fr: "https://assets.tcgdex.net/fr/dp/dp3/9/low.png",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/dp/dp3/9/high.png",
+			fr: "https://assets.tcgdex.net/fr/dp/dp3/9/high.png",
+		},
+	},
+
+	evolveFrom: {
+		en: "Shellos West Sea",
+		fr: "Sancoki Mer Occident",
+	},
+
+	tags: [
+		Tag.STAGE1,
+	],
+
+	illustrator: {
+		id: 97,
+		name: "Kazuyuki Kano"
+	},
+
+
+
+	attacks: [{
+		cost: [
+			Type.FIGHTING,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Raging Flood",
+			fr: "Inondation en furie",
+		},
+		text: {
+			en: "Does 20 damage plus 10 more damage for each damage counter on Gastrodon West Sea. Then, remove 2 damage counters from Gastrodon West Sea.",
+			fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Tritosor Mer Occident. Ensuite, retirez à Tritosor Mer Occident\n 2 marqueurs de dégât.",
+		},
+		damage: 20
+	},{
+		cost: [
+			Type.FIGHTING,
+			Type.COLORLESS,
+			Type.COLORLESS,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Wild Waves",
+			fr: "Vagues énormes",
+		},
+		text: {
+			en: "Put 1 damage counter on each Benched Pokémon (both yours and your opponent's).",
+			fr: "Placez 1 marqueur de dégât sur chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+		},
+		damage: 80
+	}],
+
+	weaknesses: [{
+		type: Type.GRASS,
+		value: "+30"
+	}],
+
+	resistances: [{
+		type: Type.LIGHTNING,
+		value: "-20"
+	}],
+
+	retreat: 4,
+
+	rarity: Rarity.RareHolo,
+
+	category: Category.POKEMON,
+
+	set: {
+		name: "Secret Wonders",
+		code: "dp3"
+	}
+}
+
+export default card
+
