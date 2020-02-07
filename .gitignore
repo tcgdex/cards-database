@@ -1,2 +1,5 @@
-*.json
+*/*.json
+
 *.js
+
+node_modules/

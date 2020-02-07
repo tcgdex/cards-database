@@ -1,0 +1,9 @@
+{
+	"include": ["cards/**/**/*.ts"],
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true
+	}
+}
