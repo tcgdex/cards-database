@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Oranguru",
+		fr: "Gouroutan",
 	},
 
 	hp: 120,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/148/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/148/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/148/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/148/high.png",
 		},
 	},
 
@@ -39,16 +42,21 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 51,
+		name: "Shigenori Negishi"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Primate Wisdom",
+			fr: "Sagesse du Primate",
 		},
 		text: {
 			en: "Once during your turn, you may switch a card from your hand with the top card of your deck.",
+			fr: "Une fois pendant votre tour, vous pouvez échanger une carte de votre main contre la carte du dessus de votre deck.",
 		}
 	}],
 
@@ -60,6 +68,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Whap Down",
+			fr: "Assommer",
 		},
 		damage: 70
 	}],
@@ -78,7 +87,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

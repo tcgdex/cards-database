@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Lanturn",
+		fr: "Lanturn",
 	},
 
 	hp: 120,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/69/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/69/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/69/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/69/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Chinchou",
+		fr: "Loupio",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 2,
+		name: "Naoyo Kimura"
+	},
 
 
 
@@ -51,6 +58,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Ram",
+			fr: "Collision",
 		},
 		damage: 30
 	},{
@@ -61,9 +69,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Strobe Shock",
+			fr: "Strobochoc",
 		},
 		text: {
 			en: "Your opponent reveals their hand. If you find any Energy cards there, your opponent’s Active Pokémon is now Paralyzed.",
+			fr: "Votre adversaire dévoile sa main. Si vous y trouvez au moins une carte Énergie, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 		},
 		damage: 90
 	}],
@@ -82,7 +92,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

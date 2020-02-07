@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Ferrothorn",
+		fr: "Noacier",
 	},
 
 	hp: 130,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/131/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/131/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/131/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/131/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Ferroseed",
+		fr: "Grindur",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 41,
+		name: "Midori Harada"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Triple Smash",
+			fr: "Triple Éclate",
 		},
 		text: {
 			en: "Flip 3 coins. This attack does 30 damage for each heads.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
 		},
 		damage: "30×"
 	},{
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Energy Slap",
+			fr: "Volée Énergique",
 		},
 		text: {
 			en: "You may move all Energy from this Pokémon to 1 of your Benched Pokémon.",
+			fr: "Vous pouvez déplacer toute l’Énergie de ce Pokémon vers l’un de vos Pokémon de Banc.",
 		},
 		damage: 100
 	}],
@@ -88,7 +99,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Snom",
+		fr: "Frissonille",
 	},
 
 	hp: 50,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/63/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/63/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/63/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/63/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 16,
+		name: "Mina Nakai"
+	},
 
 
 
@@ -49,6 +55,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Ram",
+			fr: "Collision",
 		},
 		damage: 10
 	}],
@@ -67,7 +74,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

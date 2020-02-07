@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Bisharp",
+		fr: "Scalproie",
 	},
 
 	hp: 120,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/134/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/134/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/134/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/134/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Pawniard",
+		fr: "Scalpion",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 25,
+		name: "kawayoo"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Charge Order",
+			fr: "Ordre de Charge",
 		},
 		text: {
 			en: "This attack does 30 more damage for each of your Benched Pawniard.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Scalpion sur votre Banc.",
 		},
 		damage: "30+"
 	},{
@@ -63,6 +72,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Slicing Blade",
+			fr: "Lame Tranchante",
 		},
 		damage: 60
 	}],
@@ -84,7 +94,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

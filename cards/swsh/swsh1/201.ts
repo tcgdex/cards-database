@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Professor's Research (Professor Magnolia)",
+		fr: "Recherches Professorales (Professeure Magnolia)",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/201/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/201/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/201/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/201/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.SUPPORTER,
 	],
 
-
+	illustrator: {
+		id: 29,
+		name: "kirisAki"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Discard your hand and draw 7 cards.",
+			fr: "Défaussez votre main, puis piochez 7 cartes.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

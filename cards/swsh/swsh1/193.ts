@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Stonjourner V",
+		fr: "Dolman V",
 	},
 
 	hp: 220,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/193/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/193/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/193/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/193/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 39,
+		name: "5ban Graphics"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Guard Press",
+			fr: "Pression de Garde",
 		},
 		text: {
 			en: "During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 		},
 		damage: 40
 	},{
@@ -66,6 +75,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Mega Kick",
+			fr: "Ultimawashi",
 		},
 		damage: 150
 	}],
@@ -84,7 +94,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Wooloo",
+		fr: "Moumouton",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/152/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/152/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/152/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/152/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 58,
+		name: "Mitsuhiro Arita"
+	},
 
 
 
@@ -50,9 +56,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Expand",
+			fr: "Développement",
 		},
 		text: {
 			en: "During your opponent’s next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 10 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 		},
 		damage: 30
 	}],
@@ -71,7 +79,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

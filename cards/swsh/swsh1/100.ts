@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Sudowoodo",
+		fr: "Simularbre",
 	},
 
 	hp: 100,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/100/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/100/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/100/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/100/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 45,
+		name: "Yukiko Baba"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Double Draw",
+			fr: "Double Pioche",
 		},
 		text: {
 			en: "Draw 2 cards.",
+			fr: "Piochez 2 cartes.",
 		},
 	},{
 		cost: [
@@ -59,9 +67,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Flail",
+			fr: "Gigotage",
 		},
 		text: {
 			en: "This attack does 10 damage for each damage counter on this Pokémon.",
+			fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
 		},
 		damage: "10×"
 	}],
@@ -80,7 +90,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

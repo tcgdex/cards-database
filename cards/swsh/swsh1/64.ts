@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Frosmoth",
+		fr: "Beldeneige",
 	},
 
 	hp: 90,
@@ -27,30 +28,38 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/64/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/64/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/64/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/64/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Snom",
+		fr: "Frissonille",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 13,
+		name: "Kagemaru Himeno"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Ice Dance",
+			fr: "Danse de Glace",
 		},
 		text: {
 			en: "As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Benched Water Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Water de votre main à l’un de vos Pokémon Water de Banc.",
 		}
 	}],
 
@@ -61,6 +70,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Aurora Beam",
+			fr: "Onde Boréale",
 		},
 		damage: 30
 	}],
@@ -79,7 +89,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Chinchou",
+		fr: "Loupio",
 	},
 
 	hp: 60,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/68/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/68/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/68/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/68/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 45,
+		name: "Yukiko Baba"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Luring Glow",
+			fr: "Lueur Attrayante",
 		},
 		text: {
 			en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+			fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
 		},
 	},{
 		cost: [
@@ -60,6 +68,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Lightning Ball",
+			fr: "Boule Éclair",
 		},
 		damage: 20
 	}],
@@ -78,7 +87,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

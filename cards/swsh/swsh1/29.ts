@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Turtonator",
+		fr: "Boumata",
 	},
 
 	hp: 130,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/29/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/29/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/29/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/29/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 27,
+		name: "KEIICHIRO ITO"
+	},
 
 
 
@@ -50,6 +56,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Tackle",
+			fr: "Charge",
 		},
 		damage: 30
 	},{
@@ -61,9 +68,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Fire Spin",
+			fr: "Danse Flammes",
 		},
 		text: {
 			en: "Discard 2 Energy from this Pokémon.",
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
 		},
 		damage: 150
 	}],
@@ -82,7 +91,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

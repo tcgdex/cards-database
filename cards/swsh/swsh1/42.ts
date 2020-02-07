@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Krabby",
+		fr: "Krabby",
 	},
 
 	hp: 80,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/42/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/42/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/42/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/42/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 5,
+		name: "ryoma uratsuka"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Aqua Shower",
+			fr: "Aqua-Douche",
 		},
 		text: {
 			en: "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 		},
 	},{
 		cost: [
@@ -60,6 +68,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Vise Grip",
+			fr: "Force Poigne",
 		},
 		damage: 30
 	}],
@@ -78,7 +87,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

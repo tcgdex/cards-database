@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Minccino",
+		fr: "Chinchidou",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/145/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/145/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/145/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/145/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 31,
+		name: "Sekio"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Glance",
+			fr: "Coup d’Œil",
 		},
 		text: {
 			en: "Look at the top card of your opponent’s deck.",
+			fr: "Regardez la carte du dessus du deck de votre adversaire.",
 		},
 	},{
 		cost: [
@@ -60,9 +68,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Tail Slap",
+			fr: "Plumo-Queue",
 		},
 		text: {
 			en: "Flip 2 coins. This attack does 20 damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
 		},
 		damage: "20×"
 	}],
@@ -81,7 +91,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Sandaconda",
+		fr: "Dunaconda",
 	},
 
 	hp: 140,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/109/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/109/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/109/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/109/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Silicobra",
+		fr: "Dunaja",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 10,
+		name: "Kouki Saitou"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Coil",
+			fr: "Enroulement",
 		},
 		text: {
 			en: "During your next turn, this Pokémon’s attacks do 120 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
+			fr: "Pendant votre prochain tour, les attaques de ce Pokémon infligent 120 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 		},
 		damage: 10
 	},{
@@ -64,6 +73,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Skull Bash",
+			fr: "Coud’Krâne",
 		},
 		damage: 100
 	}],
@@ -82,7 +92,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Pokémon Catcher",
+		fr: "Attrape-Pokémon",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/175/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/175/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/175/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/175/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.ITEM,
 	],
 
-
+	illustrator: {
+		id: 65,
+		name: "Ryo Ueda"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Flip a coin. If heads, switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+			fr: "Lancez une pièce. Si c’est face, échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

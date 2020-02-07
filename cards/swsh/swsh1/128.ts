@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Galarian Perrserker",
+		fr: "Berserkatt de Galar",
 	},
 
 	hp: 120,
@@ -27,30 +28,38 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/128/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/128/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/128/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/128/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Galarian Meowth",
+		fr: "Miaouss de Galar",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 58,
+		name: "Mitsuhiro Arita"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Steely Spirit",
+			fr: "Boost Acier",
 		},
 		text: {
 			en: "Your Metal Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			fr: "Les attaques de vos Pokémon Metal infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 		}
 	}],
 
@@ -62,6 +71,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Metal Claw",
+			fr: "Griffe Acier",
 		},
 		damage: 70
 	}],
@@ -83,7 +93,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

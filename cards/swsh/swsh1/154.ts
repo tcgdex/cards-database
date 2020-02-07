@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Dubwool",
+		fr: "Moumouflon",
 	},
 
 	hp: 130,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/154/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/154/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/154/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/154/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Wooloo",
+		fr: "Moumouton",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 48,
+		name: "You Iribi"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Cotton Guard",
+			fr: "Cotogarde",
 		},
 		text: {
 			en: "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 		},
 		damage: 30
 	},{
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Double-Edge",
+			fr: "Damoclès",
 		},
 		text: {
 			en: "This Pokémon also does 30 damage to itself.",
+			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
 		},
 		damage: 120
 	}],
@@ -85,7 +96,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

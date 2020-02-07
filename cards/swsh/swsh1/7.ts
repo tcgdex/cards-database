@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Maractus",
+		fr: "Maracachi",
 	},
 
 	hp: 110,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/7/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/7/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/7/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/7/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 1,
+		name: "Atsuko Nishida"
+	},
 
 
 
@@ -49,6 +55,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Zzzt",
+			fr: "Bzzz",
 		},
 		damage: 20
 	},{
@@ -58,9 +65,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Powerful Needles",
+			fr: "Piquants Puissants",
 		},
 		text: {
 			en: "Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads.",
+			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 60 dégâts pour chaque côté face.",
 		},
 		damage: "60×"
 	}],
@@ -79,7 +88,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

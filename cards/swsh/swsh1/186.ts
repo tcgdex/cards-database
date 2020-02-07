@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Aurora Energy",
+		fr: "Énergie Boréale",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/186/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/186/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/186/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/186/high.png",
 		},
 	},
 
@@ -45,6 +48,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "You can attach this card to 1 of your Pokémon only if you discard another card from your hand.\n\nAs long as this card is attached to a Pokémon, it provides every type of Energy but provides only 1 Energy at a time.",
+			fr: "Vous ne pouvez attacher cette carte à l’un de vos Pokémon que si vous défaussez une autre carte de votre main.\n\nTant que cette carte est attachée à un Pokémon, elle fournit tout type d’Énergie mais seulement une Énergie à la fois.",
 		},
 	}],
 
@@ -59,7 +63,7 @@ const card: Card = {
 	category: Category.ENERGY,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

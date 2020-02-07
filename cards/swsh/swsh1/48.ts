@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Lapras",
+		fr: "Lokhlass",
 	},
 
 	hp: 130,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/48/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/48/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/48/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/48/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 32,
+		name: "Kazuma Koda"
+	},
 
 
 
@@ -52,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Aqua Wash",
+			fr: "Aqua-Lavage",
 		},
 		text: {
 			en: "You may put 2 Energy attached to your opponent’s Active Pokémon into their hand.",
+			fr: "Vous pouvez ajouter à la main de votre adversaire jusqu’à 2 Énergies attachées à son Pokémon Actif.",
 		},
 		damage: 70
 	}],
@@ -73,7 +81,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

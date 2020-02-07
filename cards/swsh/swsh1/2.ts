@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Roselia",
+		fr: "Rosélia",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/2/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/2/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/2/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/2/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 3,
+		name: "sowsow"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Absorb",
+			fr: "Vole-Vie",
 		},
 		text: {
 			en: "Heal 10 damage from this Pokémon.",
+			fr: "Soignez 10 dégâts de ce Pokémon.",
 		},
 		damage: 10
 	}],
@@ -70,7 +78,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

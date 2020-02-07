@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Stonjourner",
+		fr: "Dolman",
 	},
 
 	hp: 120,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/114/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/114/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/114/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/114/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 14,
+		name: "Shin Nagasawa"
+	},
 
 
 
@@ -50,9 +56,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Wild Tackle",
+			fr: "Tacle Brutal",
 		},
 		text: {
 			en: "This Pokémon also does 10 damage to itself.",
+			fr: "Ce Pokémon s’inflige aussi 10 dégâts.",
 		},
 		damage: 70
 	}],
@@ -71,7 +79,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Team Yell Grunt",
+		fr: "Sbire de la Team Yell",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/202/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/202/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/202/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/202/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.SUPPORTER,
 	],
 
-
+	illustrator: {
+		id: 15,
+		name: "nagimiso"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Put an Energy attached to 1 of your opponent’s Pokémon into their hand.",
+			fr: "Ajoutez à la main de votre adversaire une Énergie attachée à l’un de ses Pokémon.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

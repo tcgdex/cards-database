@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Pal Pad",
+		fr: "Registre Ami",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/172/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/172/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/172/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/172/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.ITEM,
 	],
 
-
+	illustrator: {
+		id: 65,
+		name: "Ryo Ueda"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Shuffle up to 2 Supporter cards from your discard pile into your deck.",
+			fr: "Mélangez avec votre deck jusqu’à 2 cartes Supporter de votre pile de défausse.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

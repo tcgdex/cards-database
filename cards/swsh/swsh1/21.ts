@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Eldegoss",
+		fr: "Blancoton",
 	},
 
 	hp: 80,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/21/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/21/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/21/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/21/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Gossifleur",
+		fr: "Tournicoton",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 13,
+		name: "Kagemaru Himeno"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Blessing of Fluff",
+			fr: "Bénédiction Douillette",
 		},
 		text: {
 			en: "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
 		},
 	},{
 		cost: [
@@ -61,6 +70,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Leafage",
+			fr: "Feuillage",
 		},
 		damage: 30
 	}],
@@ -79,7 +89,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Cloyster",
+		fr: "Crustabri",
 	},
 
 	hp: 130,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/41/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/41/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/41/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/41/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Shellder",
+		fr: "Kokiyas",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 33,
+		name: "MAHOU"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Shell Grab",
+			fr: "Carap’Attrape",
 		},
 		text: {
 			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 		},
 		damage: 30
 	},{
@@ -64,6 +73,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Tidal Wave",
+			fr: "Raz-de-Marée",
 		},
 		damage: 100
 	}],
@@ -82,7 +92,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

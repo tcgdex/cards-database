@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Drampa",
+		fr: "Draïeul",
 	},
 
 	hp: 130,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/149/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/149/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/149/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/149/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 34,
+		name: "tetsuya koizumi"
+	},
 
 
 
@@ -50,9 +56,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Dragon Pulse",
+			fr: "Draco-Choc",
 		},
 		text: {
 			en: "Discard the top 2 cards of your deck.",
+			fr: "Défaussez les 2 cartes du dessus de votre deck.",
 		},
 		damage: 80
 	}],
@@ -71,7 +79,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Qwilfish",
+		fr: "Qwilfish",
 	},
 
 	hp: 90,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/51/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/51/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/51/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/51/high.png",
 		},
 	},
 
@@ -39,16 +42,21 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 41,
+		name: "Midori Harada"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Poison Point",
+			fr: "Point Poison",
 		},
 		text: {
 			en: "If this Pokémon is in the Active Spot and is damaged by an opponent’s attack (even if it is Knocked Out), the Attacking Pokémon is now Poisoned.",
+			fr: "Si ce Pokémon est sur le Poste Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même s’il est mis K.O.), le Pokémon Attaquant est maintenant Empoisonné.",
 		}
 	}],
 
@@ -58,9 +66,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Venoshock",
+			fr: "Choc Venin",
 		},
 		text: {
 			en: "If your opponent’s Active Pokémon is Poisoned, this attack does 60 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 60 dégâts supplémentaires.",
 		},
 		damage: "10+"
 	}],
@@ -79,7 +89,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

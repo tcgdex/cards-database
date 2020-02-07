@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Toxicroak",
+		fr: "Coatox",
 	},
 
 	hp: 110,
@@ -27,30 +28,38 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/124/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/124/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/124/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/124/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Croagunk",
+		fr: "Cradopaud",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 46,
+		name: "Ryuta Fuse"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "More Poison",
+			fr: "Poison Sans Fin",
 		},
 		text: {
 			en: "Put 2 more damage counters on your opponent’s Poisoned Pokémon during Pokémon Checkup.",
+			fr: "Pendant le Contrôle Pokémon, placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire.",
 		}
 	}],
 
@@ -62,9 +71,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Poison Claws",
+			fr: "Griffes Empoisonnées",
 		},
 		text: {
 			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 		},
 		damage: 70
 	}],
@@ -83,7 +94,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Mudbray",
+		fr: "Tiboudet",
 	},
 
 	hp: 80,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/105/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/105/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/105/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/105/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 37,
+		name: "Shibuzoh."
+	},
 
 
 
@@ -49,6 +55,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Stampede",
+			fr: "Ruée",
 		},
 		damage: 10
 	},{
@@ -58,6 +65,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Rear Kick",
+			fr: "Ruade",
 		},
 		damage: 30
 	}],
@@ -76,7 +84,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

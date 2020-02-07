@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Indeedee V",
+		fr: "Wimessir V",
 	},
 
 	hp: 180,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/91/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/91/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/91/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/91/high.png",
 		},
 	},
 
@@ -39,22 +42,28 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 39,
+		name: "5ban Graphics"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Watch Over",
+			fr: "Veille",
 		},
 		text: {
 			en: "Once during your turn, you may heal 20 damage from your Active Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Actif.",
 		}
 	}],
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Psychic",
+			fr: "Psyko",
 		},
 		text: {
 			en: "This attack does 60 more damage for each Energy attached to your opponent’s Active Pokémon.",
+			fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 		},
 		damage: "10+"
 	}],
@@ -88,7 +99,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

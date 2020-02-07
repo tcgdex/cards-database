@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Grookey",
+		fr: "Ouistempo",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/11/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/11/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/11/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/11/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 10,
+		name: "Kouki Saitou"
+	},
 
 
 
@@ -49,6 +55,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Scratch",
+			fr: "Griffe",
 		},
 		damage: 10
 	},{
@@ -58,6 +65,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Beat",
+			fr: "Bataille",
 		},
 		damage: 20
 	}],
@@ -76,7 +84,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

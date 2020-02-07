@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Sizzlipede",
+		fr: "Grillepattes",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/38/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/38/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/38/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/38/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 10,
+		name: "Kouki Saitou"
+	},
 
 
 
@@ -50,9 +56,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Relentless Flames",
+			fr: "Flammes Incessantes",
 		},
 		text: {
 			en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+			fr: "Lancez une pièce jusqu’à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
 		},
 		damage: "40×"
 	}],
@@ -71,7 +79,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

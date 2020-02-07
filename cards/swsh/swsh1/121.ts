@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Skorupi",
+		fr: "Rapion",
 	},
 
 	hp: 80,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/121/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/121/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/121/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/121/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 3,
+		name: "sowsow"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Poison Sting",
+			fr: "Dard-Venin",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 		},
 	},{
 		cost: [
@@ -61,6 +69,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Slashing Claw",
+			fr: "Griffe Taillante",
 		},
 		damage: 50
 	}],
@@ -79,7 +88,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

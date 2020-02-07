@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Poké Kid",
+		fr: "Poké Enfant",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/173/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/173/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/173/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/173/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.SUPPORTER,
 	],
 
-
+	illustrator: {
+		id: 20,
+		name: "Hitoshi Ariga"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

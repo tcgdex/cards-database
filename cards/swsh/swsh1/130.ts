@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Ferroseed",
+		fr: "Grindur",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/130/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/130/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/130/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/130/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 60,
+		name: "Yuka Morii"
+	},
 
 
 
@@ -49,6 +55,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Rollout",
+			fr: "Roulade",
 		},
 		damage: 10
 	}],
@@ -70,7 +77,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

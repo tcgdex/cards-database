@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Pikachu",
+		fr: "Pikachu",
 	},
 
 	hp: 60,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/65/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/65/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/65/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/65/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 46,
+		name: "Ryuta Fuse"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Charge",
+			fr: "Chargeur",
 		},
 		text: {
 			en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Énergie Lightning, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 		},
 	},{
 		cost: [
@@ -60,6 +68,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Electro Ball",
+			fr: "Boule Élek",
 		},
 		damage: 20
 	}],
@@ -78,7 +87,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

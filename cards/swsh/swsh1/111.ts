@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Clobbopus",
+		fr: "Poulpaf",
 	},
 
 	hp: 60,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/111/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/111/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/111/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/111/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 16,
+		name: "Mina Nakai"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Bind",
+			fr: "Étreinte",
 		},
 		text: {
 			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 		},
 		damage: 20
 	}],
@@ -70,7 +78,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

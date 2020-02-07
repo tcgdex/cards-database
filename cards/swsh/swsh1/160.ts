@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Energy Retrieval",
+		fr: "Récupération d’Énergie",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/160/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/160/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/160/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/160/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.ITEM,
 	],
 
-
+	illustrator: {
+		id: 65,
+		name: "Ryo Ueda"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Put up to 2 basic Energy cards from your discard pile into your hand.",
+			fr: "Ajoutez à votre main jusqu’à 2 cartes Énergie de base de votre pile de défausse.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

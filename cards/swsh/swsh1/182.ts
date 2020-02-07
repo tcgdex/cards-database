@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Sitrus Berry",
+		fr: "Baie Sitrus",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/182/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/182/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/182/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/182/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.TOOL,
 	],
 
-
+	illustrator: {
+		id: 63,
+		name: "Yoshinobu Saito"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "At the end of each turn, if the Pokémon this card is attached to has 3 or more damage counters on it, heal 30 damage from it and discard this card.",
+			fr: "À la fin de chaque tour, si le Pokémon auquel cette carte est attachée a au moins 3 marqueurs de dégâts, soignez 30 de ses dégâts, puis défaussez cette carte.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

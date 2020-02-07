@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Drednaw",
+		fr: "Torgamord",
 	},
 
 	hp: 130,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/61/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/61/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/61/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/61/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Chewtle",
+		fr: "Khélocrok",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 20,
+		name: "Hitoshi Ariga"
+	},
 
 
 
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Vise Bite",
+			fr: "Étau Mordant",
 		},
 		text: {
 			en: "This attack does 30 more damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
 		},
 		damage: "60+"
 	},{
@@ -67,9 +76,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Jaw Lock",
+			fr: "Croque Fort",
 		},
 		text: {
 			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 		},
 		damage: 130
 	}],
@@ -88,7 +99,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

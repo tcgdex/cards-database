@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Polteageist",
+		fr: "Polthégeist",
 	},
 
 	hp: 60,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/90/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/90/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/90/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/90/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Sinistea",
+		fr: "Théffroi",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 14,
+		name: "Shin Nagasawa"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Teatime",
+			fr: "Thérémonie",
 		},
 		text: {
 			en: "Each player draws 2 cards.",
+			fr: "Chaque joueur pioche 2 cartes.",
 		},
 	},{
 		cost: [
@@ -62,9 +71,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Poltergeist",
+			fr: "Poltergeist",
 		},
 		text: {
 			en: "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.",
+			fr: "Votre adversaire dévoile sa main. Cette attaque inflige 50 dégâts pour chaque carte Dresseur que vous y trouvez.",
 		},
 		damage: "50×"
 	}],
@@ -86,7 +97,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Rhyhorn",
+		fr: "Rhinocorne",
 	},
 
 	hp: 90,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/97/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/97/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/97/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/97/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 54,
+		name: "sui"
+	},
 
 
 
@@ -50,9 +56,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Stomp Off",
+			fr: "Tohu-Bohu",
 		},
 		text: {
 			en: "Discard the top 2 cards of your opponent’s deck.",
+			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
 		},
 	},{
 		cost: [
@@ -62,6 +70,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Land Crush",
+			fr: "Écras’Terre",
 		},
 		damage: 70
 	}],
@@ -80,7 +89,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

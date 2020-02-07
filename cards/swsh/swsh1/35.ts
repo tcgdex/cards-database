@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Cinderace",
+		fr: "Pyrobut",
 	},
 
 	hp: 170,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/35/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/35/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/35/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/35/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Raboot",
+		fr: "Lapyro",
 	},
 
 	tags: [
 		Tag.STAGE2,
 	],
 
-
+	illustrator: {
+		id: 4,
+		name: "Naoki Saito"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Pyro Ball",
+			fr: "Ballon Brûlant",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 		},
 		damage: 50
 	},{
@@ -63,9 +72,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Burning Kick",
+			fr: "Coup de Pied Brûlant",
 		},
 		text: {
 			en: "Discard all Energy from this Pokémon.",
+			fr: "Défaussez toute l’Énergie de ce Pokémon.",
 		},
 		damage: 160
 	}],
@@ -84,7 +95,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

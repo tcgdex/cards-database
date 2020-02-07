@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Hoothoot",
+		fr: "Hoothoot",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/143/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/143/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/143/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/143/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 62,
+		name: "Yumi"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Send Back",
+			fr: "Renvoyer",
 		},
 		text: {
 			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+			fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
 		},
 	},{
 		cost: [
@@ -60,6 +68,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Wing Attack",
+			fr: "Cru-Ailes",
 		},
 		damage: 20
 	}],
@@ -81,7 +90,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

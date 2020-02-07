@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Ninetales",
+		fr: "Feunard",
 	},
 
 	hp: 120,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/23/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/23/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/23/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/23/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Vulpix",
+		fr: "Goupix",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 23,
+		name: "Megumi Higuchi"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Flame Cloak",
+			fr: "Manteau de Feu",
 		},
 		text: {
 			en: "Attach a Fire Energy card from your discard pile to this Pokémon.",
+			fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
 		},
 		damage: 30
 	},{
@@ -63,6 +72,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Fire Mane",
+			fr: "Crinière de Feu",
 		},
 		damage: 70
 	}],
@@ -81,7 +91,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

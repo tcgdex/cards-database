@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Snorlax",
+		fr: "Ronflex",
 	},
 
 	hp: 150,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/140/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/140/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/140/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/140/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 6,
+		name: "chibi"
+	},
 
 
 
@@ -51,6 +57,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Rolling Tackle",
+			fr: "Roulé-Boulé",
 		},
 		damage: 80
 	},{
@@ -62,6 +69,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Heavy Impact",
+			fr: "Gros Impact",
 		},
 		damage: 130
 	}],
@@ -80,7 +88,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

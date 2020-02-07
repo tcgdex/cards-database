@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Thwackey",
+		fr: "Badabouin",
 	},
 
 	hp: 100,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/13/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/13/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/13/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/13/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Grookey",
+		fr: "Ouistempo",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 22,
+		name: "Akira Komayama"
+	},
 
 
 
@@ -52,6 +59,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Beat",
+			fr: "Bataille",
 		},
 		damage: 30
 	},{
@@ -62,9 +70,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Ambush",
+			fr: "Embuscade",
 		},
 		text: {
 			en: "Flip a coin. If heads, this attack does 30 more damage.",
+			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
 		},
 		damage: "50+"
 	}],
@@ -83,7 +93,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

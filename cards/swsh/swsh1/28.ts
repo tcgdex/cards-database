@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Salazzle",
+		fr: "Malamandre",
 	},
 
 	hp: 120,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/28/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/28/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/28/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/28/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Salandit",
+		fr: "Tritox",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 30,
+		name: "Tomokazu Komiya"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Searing Flame",
+			fr: "Flammes Calcinantes",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 		},
 		damage: 20
 	},{
@@ -63,9 +72,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Bright Flame",
+			fr: "Flamme Éclatante",
 		},
 		text: {
 			en: "Discard 2 Energy from this Pokémon.",
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
 		},
 		damage: 120
 	}],
@@ -84,7 +95,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

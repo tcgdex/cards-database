@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Drapion",
+		fr: "Drascore",
 	},
 
 	hp: 140,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/122/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/122/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/122/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/122/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Skorupi",
+		fr: "Rapion",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 56,
+		name: "Masakazu Fukuda"
+	},
 
 
 
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Hard Press",
+			fr: "Pression Robuste",
 		},
 		text: {
 			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 		},
 		damage: 80
 	},{
@@ -67,9 +76,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Toxic Strike",
+			fr: "Frappe Toxique",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 		},
 		damage: 130
 	}],
@@ -88,7 +99,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

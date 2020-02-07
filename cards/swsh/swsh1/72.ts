@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Tapu Koko V",
+		fr: "Tokorico V",
 	},
 
 	hp: 200,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/72/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/72/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/72/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/72/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 24,
+		name: "PLANETA Tsuji"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Spike Draw",
+			fr: "Pique-Pioche",
 		},
 		text: {
 			en: "Draw 2 cards.",
+			fr: "Piochez 2 cartes.",
 		},
 		damage: 20
 	},{
@@ -66,9 +75,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Thunderous Bolt",
+			fr: "Éclair du Tonnerre",
 		},
 		text: {
 			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 		},
 		damage: 200
 	}],
@@ -87,7 +98,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

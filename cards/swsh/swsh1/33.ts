@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Raboot",
+		fr: "Lapyro",
 	},
 
 	hp: 90,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/33/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/33/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/33/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/33/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Scorbunny",
+		fr: "Flambino",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 22,
+		name: "Akira Komayama"
+	},
 
 
 
@@ -51,6 +58,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Kick",
+			fr: "Koud’Pied",
 		},
 		damage: 20
 	},{
@@ -60,6 +68,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Heat Blast",
+			fr: "Explosion de Chaleur",
 		},
 		damage: 50
 	}],
@@ -78,7 +87,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

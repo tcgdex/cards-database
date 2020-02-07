@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Blipbug",
+		fr: "Larvadar",
 	},
 
 	hp: 40,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/17/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/17/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/17/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/17/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 16,
+		name: "Mina Nakai"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Call for Family",
+			fr: "Appel à la Famille",
 		},
 		text: {
 			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
 		},
 	}],
 
@@ -69,7 +77,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

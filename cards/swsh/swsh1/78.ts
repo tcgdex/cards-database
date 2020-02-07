@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Morpeko",
+		fr: "Morpeko",
 	},
 
 	hp: 90,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/78/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/78/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/78/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/78/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 11,
+		name: "Megumi Mizutani"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Attack the Wound",
+			fr: "Défi de la Plaie",
 		},
 		text: {
 			en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 50 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 50 dégâts supplémentaires.",
 		},
 		damage: "10+"
 	}],
@@ -70,7 +78,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

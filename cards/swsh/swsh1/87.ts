@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Munna",
+		fr: "Munna",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/87/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/87/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/87/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/87/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 50,
+		name: "Asako Ito"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Moonlight",
+			fr: "Rayon Lune",
 		},
 		text: {
 			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
 		},
 	},{
 		cost: [
@@ -60,6 +68,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Psychic Sphere",
+			fr: "Sphère Psy",
 		},
 		damage: 30
 	}],
@@ -81,7 +90,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Rhydon",
+		fr: "Rhinoféros",
 	},
 
 	hp: 120,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/98/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/98/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/98/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/98/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Rhyhorn",
+		fr: "Rhinocorne",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 27,
+		name: "KEIICHIRO ITO"
+	},
 
 
 
@@ -53,6 +60,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Horn Drill",
+			fr: "Empal’Korne",
 		},
 		damage: 50
 	},{
@@ -64,9 +72,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Rock Slide",
+			fr: "Éboulement",
 		},
 		text: {
 			en: "This attack also does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 		},
 		damage: 100
 	}],
@@ -85,7 +95,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

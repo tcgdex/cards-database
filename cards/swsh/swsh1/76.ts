@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Boltund",
+		fr: "Fulgudog",
 	},
 
 	hp: 120,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/76/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/76/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/76/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/76/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Yamper",
+		fr: "Voltoutou",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 10,
+		name: "Kouki Saitou"
+	},
 
 
 
@@ -52,6 +59,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Bite",
+			fr: "Morsure",
 		},
 		damage: 50
 	},{
@@ -62,9 +70,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Electrodash",
+			fr: "Sprint Électrique",
 		},
 		text: {
 			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 		},
 		damage: 160
 	}],
@@ -83,7 +93,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

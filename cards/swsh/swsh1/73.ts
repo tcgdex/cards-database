@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Yamper",
+		fr: "Voltoutou",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/73/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/73/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/73/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/73/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 22,
+		name: "Akira Komayama"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Roar",
+			fr: "Hurlement",
 		},
 		text: {
 			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+			fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
 		},
 	},{
 		cost: [
@@ -59,6 +67,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Static Shock",
+			fr: "Choc Statique",
 		},
 		damage: 10
 	}],
@@ -77,7 +86,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

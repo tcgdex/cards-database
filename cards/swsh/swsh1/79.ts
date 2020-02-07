@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Morpeko V",
+		fr: "Morpeko V",
 	},
 
 	hp: 170,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/79/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/79/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/79/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/79/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 39,
+		name: "5ban Graphics"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Spark",
+			fr: "Étincelle",
 		},
 		text: {
 			en: "This attack also does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 20 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 		},
 		damage: 20
 	},{
@@ -66,9 +75,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Electro Wheel",
+			fr: "Électro Roue",
 		},
 		text: {
 			en: "Discard an Energy from this Pokémon. If you do, switch it with 1 of your Benched Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon. Dans ce cas, échangez-le contre l’un de vos Pokémon de Banc.",
 		},
 		damage: 150
 	}],
@@ -87,7 +98,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

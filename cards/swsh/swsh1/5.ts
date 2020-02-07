@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Cottonee",
+		fr: "Doudouvet",
 	},
 
 	hp: 60,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/5/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/5/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/5/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/5/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 5,
+		name: "ryoma uratsuka"
+	},
 
 
 
@@ -49,6 +55,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Attach",
+			fr: "Accrochage",
 		},
 		damage: 10
 	}],
@@ -67,7 +74,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

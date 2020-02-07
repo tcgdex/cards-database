@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Regirock V",
+		fr: "Regirock V",
 	},
 
 	hp: 220,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/104/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/104/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/104/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/104/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 24,
+		name: "PLANETA Tsuji"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -54,9 +61,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Raging Hammer",
+			fr: "Marteau Rageur",
 		},
 		text: {
 			en: "This attack does 10 more damage for each damage counter on this Pokémon.",
+			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
 		},
 		damage: "30+"
 	},{
@@ -67,9 +76,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Rocky Tackle",
+			fr: "Tacle Rocailleux",
 		},
 		text: {
 			en: "This Pokémon also does 30 damage to itself.",
+			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
 		},
 		damage: 190
 	}],
@@ -88,7 +99,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Inteleon",
+		fr: "Lézargus",
 	},
 
 	hp: 160,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/59/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/59/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/59/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/59/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Drizzile",
+		fr: "Arrozard",
 	},
 
 	tags: [
 		Tag.STAGE2,
 	],
 
-
+	illustrator: {
+		id: 22,
+		name: "Akira Komayama"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Silent Shot",
+			fr: "Coup Feutré",
 		},
 		text: {
 			en: "Discard a random card from your opponent’s hand.",
+			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
 		},
 		damage: 40
 	},{
@@ -63,9 +72,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Hydro Snipe",
+			fr: "Hydro-Frappe",
 		},
 		text: {
 			en: "You may put an Energy attached to your opponent’s Active Pokémon into their hand.",
+			fr: "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
 		},
 		damage: 100
 	}],
@@ -84,7 +95,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

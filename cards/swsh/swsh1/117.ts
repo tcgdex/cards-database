@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Galarian Zigzagoon",
+		fr: "Zigzaton de Galar",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/117/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/117/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/117/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/117/high.png",
 		},
 	},
 
@@ -39,16 +42,21 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 29,
+		name: "kirisAki"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Headbutt Tantrum",
+			fr: "Caprice Coup de Tête",
 		},
 		text: {
 			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may put 1 damage counter on 1 of your opponent’s Pokémon.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez placer un marqueur de dégâts sur l’un des Pokémon de votre adversaire.",
 		}
 	}],
 
@@ -59,9 +67,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Surprise Attack",
+			fr: "Attaque Surprise",
 		},
 		text: {
 			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 		},
 		damage: 30
 	}],
@@ -80,7 +90,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

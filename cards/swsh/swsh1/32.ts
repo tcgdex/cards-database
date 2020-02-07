@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Raboot",
+		fr: "Lapyro",
 	},
 
 	hp: 90,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/32/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/32/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/32/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/32/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Scorbunny",
+		fr: "Flambino",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 26,
+		name: "Mizue"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Flame Charge",
+			fr: "Nitrocharge",
 		},
 		text: {
 			en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 		},
 		damage: 20
 	},{
@@ -64,6 +73,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Magnum Kick",
+			fr: "Coup d’Pied Magnum",
 		},
 		damage: 70
 	}],
@@ -82,7 +92,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

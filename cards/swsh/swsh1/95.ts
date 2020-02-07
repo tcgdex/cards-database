@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Hitmonchan",
+		fr: "Tygnon",
 	},
 
 	hp: 120,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/95/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/95/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/95/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/95/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 51,
+		name: "Shigenori Negishi"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Coordinated Beatdown",
+			fr: "Dérouillée Coordonnée",
 		},
 		text: {
 			en: "If Hitmonlee is on your Bench, this attack does 20 more damage.",
+			fr: "Si Kicklee est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires.",
 		},
 		damage: "20+"
 	},{
@@ -61,6 +69,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Mach Cross",
+			fr: "Passage Éclair",
 		},
 		damage: 60
 	}],
@@ -79,7 +88,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

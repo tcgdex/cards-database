@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Drizzile",
+		fr: "Arrozard",
 	},
 
 	hp: 90,
@@ -27,30 +28,38 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/56/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/56/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/56/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/56/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Sobble",
+		fr: "Larméléon",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 4,
+		name: "Naoki Saito"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Shady Dealings",
+			fr: "Affaires Louches",
 		},
 		text: {
 			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez chercher dans votre deck une carte Dresseur, la révéler, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
 		}
 	}],
 
@@ -61,6 +70,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Water Drip",
+			fr: "Goutte à Goutte",
 		},
 		damage: 30
 	}],
@@ -79,7 +89,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Dottler",
+		fr: "Coléodôme",
 	},
 
 	hp: 70,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/18/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/18/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/18/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/18/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Blipbug",
+		fr: "Larvadar",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 21,
+		name: "Misa Tsutsui"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Reflect",
+			fr: "Protection",
 		},
 		text: {
 			en: "During your opponent's next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 40 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 		},
 	},{
 		cost: [
@@ -62,6 +71,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Ram",
+			fr: "Collision",
 		},
 		damage: 30
 	}],
@@ -80,7 +90,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

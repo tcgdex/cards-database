@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Corviknight",
+		fr: "Corvaillus",
 	},
 
 	hp: 170,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/135/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/135/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/135/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/135/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Corvisquire",
+		fr: "Bleuseille",
 	},
 
 	tags: [
 		Tag.STAGE2,
 	],
 
-
+	illustrator: {
+		id: 14,
+		name: "Shin Nagasawa"
+	},
 
 
 
@@ -51,6 +58,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Peck",
+			fr: "Picpic",
 		},
 		damage: 50
 	},{
@@ -61,9 +69,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Iron Wings",
+			fr: "Ailes de Fer",
 		},
 		text: {
 			en: "You may discard 2 Energy from this Pokémon. If you do, during your opponent's next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Vous pouvez défausser 2 Énergies de ce Pokémon. Dans ce cas, pendant le prochain tour de votre adversaire, ce Pokémon subit 100 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 		},
 		damage: 130
 	}],
@@ -85,7 +95,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

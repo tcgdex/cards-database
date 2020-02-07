@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Grapploct",
+		fr: "Krakos",
 	},
 
 	hp: 130,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/113/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/113/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/113/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/113/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Clobbopus",
+		fr: "Poulpaf",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 14,
+		name: "Shin Nagasawa"
+	},
 
 
 
@@ -52,9 +59,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Octolock",
+			fr: "Octoprise",
 		},
 		text: {
 			en: "Until this Grapploct leaves the Active Spot, the Defending Pokémon's attacks cost ColorlessColorless more, and the Defending Pokémon can't retreat. This effect can't be applied more than once.",
+			fr: "Tant que ce Krakos est sur le Poste Actif, les attaques du Pokémon Défenseur coûtent ColorlessColorless de plus, et le Pokémon Défenseur ne peut pas battre en retraite. Cet effet n’est applicable qu’une fois.",
 		},
 	},{
 		cost: [
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Tough Swing",
+			fr: "Frappe Solide",
 		},
 		text: {
 			en: "This attack’s damage isn’t affected by Resistance.",
+			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 		},
 		damage: 130
 	}],
@@ -85,7 +96,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

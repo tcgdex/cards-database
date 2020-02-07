@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Whimsicott",
+		fr: "Farfaduvet",
 	},
 
 	hp: 100,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/6/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/6/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/6/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/6/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Cottonee",
+		fr: "Doudouvet",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 8,
+		name: "kodama"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Cotton Ride",
+			fr: "Chevauchée Cotonneuse",
 		},
 		text: {
 			en: "Flip a coin. If heads, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
+			fr: "Lancez une pièce. Si c’est face, votre adversaire mélange avec son deck son Pokémon Actif et toutes les cartes attachées.",
 		},
 	},{
 		cost: [
@@ -61,6 +70,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Leaf Step",
+			fr: "Enjambée de Feuillage",
 		},
 		damage: 50
 	}],
@@ -79,7 +89,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

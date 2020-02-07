@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Heatmor",
+		fr: "Aflamanoir",
 	},
 
 	hp: 110,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/26/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/26/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/26/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/26/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 25,
+		name: "kawayoo"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Searing Flame",
+			fr: "Flammes Calcinantes",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 		},
 		damage: 10
 	},{
@@ -61,6 +69,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Fire Claws",
+			fr: "Griffes Enflammées",
 		},
 		damage: 50
 	}],
@@ -79,7 +88,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

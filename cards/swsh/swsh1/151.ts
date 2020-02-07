@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Corvisquire",
+		fr: "Bleuseille",
 	},
 
 	hp: 80,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/151/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/151/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/151/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/151/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Rookidee",
+		fr: "Minisange",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 12,
+		name: "Anesaki Dynamic"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Pluck",
+			fr: "Picore",
 		},
 		text: {
 			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+			fr: "Avant d’infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
 		},
 		damage: 20
 	},{
@@ -63,6 +72,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Drill Peck",
+			fr: "Bec Vrille",
 		},
 		damage: 50
 	}],
@@ -84,7 +94,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

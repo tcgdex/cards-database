@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Seaking",
+		fr: "Poissoroy",
 	},
 
 	hp: 110,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/47/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/47/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/47/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/47/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Goldeen",
+		fr: "Poissirène",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 37,
+		name: "Shibuzoh."
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Ripping Horn",
+			fr: "Corne Déchirante",
 		},
 		text: {
 			en: "Flip 3 coins. For each heads, discard an Energy from your opponent’s Active Pokémon.",
+			fr: "Lancez 3 pièces. Pour chaque côté face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
 		},
 	},{
 		cost: [
@@ -62,6 +71,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Pierce",
+			fr: "Transpercement",
 		},
 		damage: 50
 	}],
@@ -80,7 +90,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

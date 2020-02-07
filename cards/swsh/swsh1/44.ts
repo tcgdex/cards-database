@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Kingler",
+		fr: "Krabboss",
 	},
 
 	hp: 130,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/44/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/44/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/44/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/44/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Krabby",
+		fr: "Krabby",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 34,
+		name: "tetsuya koizumi"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Heavy Pincers",
+			fr: "Pinces Lourdes",
 		},
 		text: {
 			en: "Discard the top card of your opponent’s deck.",
+			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 		},
 		damage: 40
 	},{
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Claw Rend",
+			fr: "Déchirure",
 		},
 		text: {
 			en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
 		},
 		damage: "90+"
 	}],
@@ -85,7 +96,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

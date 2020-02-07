@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Drizzile",
+		fr: "Arrozard",
 	},
 
 	hp: 90,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/57/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/57/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/57/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/57/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Sobble",
+		fr: "Larméléon",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 26,
+		name: "Mizue"
+	},
 
 
 
@@ -51,6 +58,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Rain Splash",
+			fr: "Pluie Éclaboussante",
 		},
 		damage: 30
 	},{
@@ -60,6 +68,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Wave Splash",
+			fr: "Grosse Vague",
 		},
 		damage: 40
 	}],
@@ -78,7 +87,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

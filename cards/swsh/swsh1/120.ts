@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Sableye V",
+		fr: "Ténéfix V",
 	},
 
 	hp: 170,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/120/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/120/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/120/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/120/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 7,
+		name: "Eske Yoshinob"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Lode Search",
+			fr: "Recherche du Filon",
 		},
 		text: {
 			en: "Put a Trainer card from your discard pile into your hand.",
+			fr: "Ajoutez à votre main une carte Dresseur de votre pile de défausse.",
 		},
 	},{
 		cost: [
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Crazy Claws",
+			fr: "Griffes Folles",
 		},
 		text: {
 			en: "This attack does 60 more damage for each damage counter on your opponent’s Active Pokémon.",
+			fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
 		},
 		damage: "10+"
 	}],
@@ -85,7 +96,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

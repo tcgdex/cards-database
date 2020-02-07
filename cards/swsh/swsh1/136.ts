@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Cufant",
+		fr: "Charibari",
 	},
 
 	hp: 100,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/136/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/136/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/136/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/136/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 29,
+		name: "kirisAki"
+	},
 
 
 
@@ -50,9 +56,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Stomp",
+			fr: "Écrasement",
 		},
 		text: {
 			en: "Flip a coin. If heads, this attack does 20 more damage.",
+			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 		},
 		damage: "20+"
 	}],
@@ -74,7 +82,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

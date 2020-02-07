@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Rillaboom",
+		fr: "Gorythmic",
 	},
 
 	hp: 170,
@@ -27,30 +28,38 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/14/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/14/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/14/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/14/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Thwackey",
+		fr: "Badabouin",
 	},
 
 	tags: [
 		Tag.STAGE2,
 	],
 
-
+	illustrator: {
+		id: 12,
+		name: "Anesaki Dynamic"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Voltage Beat",
+			fr: "Rythme Voltaïque",
 		},
 		text: {
 			en: "Once during your turn, you may search your deck for up to 2 Grass Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu’à 2 cartes Énergie Grass, puis les attacher à l’un de vos Pokémon. Mélangez ensuite votre deck.",
 		}
 	}],
 
@@ -63,6 +72,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Hammer In",
+			fr: "Enfoncement",
 		},
 		damage: 140
 	}],
@@ -81,7 +91,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

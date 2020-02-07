@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Rillaboom",
+		fr: "Gorythmic",
 	},
 
 	hp: 190,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/15/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/15/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/15/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/15/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Thwackey",
+		fr: "Badabouin",
 	},
 
 	tags: [
 		Tag.STAGE2,
 	],
 
-
+	illustrator: {
+		id: 14,
+		name: "Shin Nagasawa"
+	},
 
 
 
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Drum Roll",
+			fr: "Roulement de Tambour",
 		},
 		text: {
 			en: "This attack also does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 		},
 		damage: 90
 	},{
@@ -67,9 +76,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Drum Beating",
+			fr: "Tambour Battant",
 		},
 		text: {
 			en: "During your next turn, this Pokémon can't use Drum Beating.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Tambour Battant.",
 		},
 		damage: 180
 	}],
@@ -88,7 +99,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

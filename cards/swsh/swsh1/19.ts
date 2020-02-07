@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Orbeetle",
+		fr: "Astronelle",
 	},
 
 	hp: 130,
@@ -27,30 +28,38 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/19/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/19/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/19/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/19/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Dottler",
+		fr: "Coléodôme",
 	},
 
 	tags: [
 		Tag.STAGE2,
 	],
 
-
+	illustrator: {
+		id: 20,
+		name: "Hitoshi Ariga"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Bug’s Radar",
+			fr: "Radar d’Insecte",
 		},
 		text: {
 			en: "Once during your turn, you may look at the top 3 cards of your opponent’s deck and put them back in any order.",
+			fr: "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus du deck de votre adversaire, puis les replacer dans l’ordre désiré.",
 		}
 	}],
 
@@ -61,9 +70,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Brainwave",
+			fr: "Onde Cérébrale",
 		},
 		text: {
 			en: "This attack does 30 more damage for each Psychic Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Psychic attachée à ce Pokémon.",
 		},
 		damage: "90+"
 	}],
@@ -82,7 +93,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

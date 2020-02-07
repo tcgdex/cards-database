@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Morpeko VMAX",
+		fr: "Morpeko VMAX",
 	},
 
 	hp: 300,
@@ -27,27 +28,34 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/80/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/80/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/80/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/80/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Morpeko V",
+		fr: "Morpeko-V",
 	},
 
 	tags: [
 		Tag.VMAX,
 	],
 
-
+	illustrator: {
+		id: 39,
+		name: "5ban Graphics"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "VMAX rule",
+			fr: "Règle VMAX",
 		},
 	},{
 		cost: [
@@ -57,9 +65,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Max Discharge",
+			fr: "Déchargeomax",
 		},
 		text: {
 			en: "This attack also does 20 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 		},
 		damage: 180
 	}],
@@ -78,7 +88,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

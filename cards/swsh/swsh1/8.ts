@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Durant",
+		fr: "Fermite",
 	},
 
 	hp: 110,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/8/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/8/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/8/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/8/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 9,
+		name: "Miki Tanaka"
+	},
 
 
 
@@ -50,9 +56,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Bite Together",
+			fr: "Morsure Commune",
 		},
 		text: {
 			en: "If Durant is on your Bench, this attack does 60 more damage.",
+			fr: "Si Fermite est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
 		},
 		damage: "30+"
 	}],
@@ -71,7 +79,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

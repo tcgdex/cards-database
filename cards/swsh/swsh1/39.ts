@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Centiskorch",
+		fr: "Scolocendre",
 	},
 
 	hp: 130,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/39/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/39/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/39/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/39/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Sizzlipede",
+		fr: "Grillepattes",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 12,
+		name: "Anesaki Dynamic"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Hundred Foot Flames",
+			fr: "Flammes Mille-Pattes",
 		},
 		text: {
 			en: "For each Fire Energy attached to this Pokémon, discard the top card of your opponent’s deck.",
+			fr: "Pour chaque Énergie Fire attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
 		},
 	},{
 		cost: [
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Searing Flame",
+			fr: "Flammes Calcinantes",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 		},
 		damage: 110
 	}],
@@ -85,7 +96,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

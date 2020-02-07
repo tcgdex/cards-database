@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Cinderace",
+		fr: "Pyrobut",
 	},
 
 	hp: 170,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/36/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/36/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/36/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/36/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Raboot",
+		fr: "Lapyro",
 	},
 
 	tags: [
 		Tag.STAGE2,
 	],
 
-
+	illustrator: {
+		id: 14,
+		name: "Shin Nagasawa"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Flame Cloak",
+			fr: "Manteau de Feu",
 		},
 		text: {
 			en: "Attach a Fire Energy card from your discard pile to this Pokémon.",
+			fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
 		},
 		damage: 40
 	},{
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Bright Flame",
+			fr: "Flamme Éclatante",
 		},
 		text: {
 			en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+			fr: "Lancez une pièce. Si c’est pile, défaussez 2 Énergies de ce Pokémon.",
 		},
 		damage: 160
 	}],
@@ -78,14 +89,14 @@ const card: Card = {
 
 
 
-	retreat: 2,
+	retreat: 1,
 
 	rarity: Rarity.Rare,
 
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

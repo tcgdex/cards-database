@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Dhelmise V",
+		fr: "Sinistrail V",
 	},
 
 	hp: 220,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/187/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/187/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/187/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/187/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 7,
+		name: "Eske Yoshinob"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Anchor Anger",
+			fr: "Colère Ancrée",
 		},
 		text: {
 			en: "If any of your Grass Pokémon were Knocked Out by damage from an opponent’s attack during their last turn, this attack does 90 more damage.",
+			fr: "Si l’un de vos Pokémon Grass a été mis K.O. par les dégâts d’une attaque de votre adversaire lors de son dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
 		},
 		damage: "30+"
 	},{
@@ -66,9 +75,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Giga Hammer",
+			fr: "Giga Marteau",
 		},
 		text: {
 			en: "During your next turn, this Pokémon can't use Giga Hammer.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Giga Marteau.",
 		},
 		damage: 200
 	}],
@@ -87,7 +98,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

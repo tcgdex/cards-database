@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Scorbunny",
+		fr: "Flambino",
 	},
 
 	hp: 60,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/30/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/30/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/30/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/30/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 29,
+		name: "kirisAki"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Ember",
+			fr: "Flammèche",
 		},
 		text: {
 			en: "Discard an Energy from this Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon.",
 		},
 		damage: 30
 	}],
@@ -70,7 +78,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

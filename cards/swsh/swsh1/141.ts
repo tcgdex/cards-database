@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Snorlax V",
+		fr: "Ronflex V",
 	},
 
 	hp: 220,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/141/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/141/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/141/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/141/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 56,
+		name: "Masakazu Fukuda"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -55,9 +62,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Swallow",
+			fr: "Avale",
 		},
 		text: {
 			en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
+			fr: "Soignez ce Pokémon du nombre de dégâts que vous avez infligés au Pokémon Actif de votre adversaire.",
 		},
 		damage: 60
 	},{
@@ -69,9 +78,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Falling Down",
+			fr: "Écroulement",
 		},
 		text: {
 			en: "This Pokémon is now Asleep.",
+			fr: "Ce Pokémon est maintenant Endormi.",
 		},
 		damage: 170
 	}],
@@ -90,7 +101,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

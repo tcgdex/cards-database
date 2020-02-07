@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Pokémon Center Lady",
+		fr: "Dame du Centre Pokémon",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/176/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/176/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/176/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/176/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.SUPPORTER,
 	],
 
-
+	illustrator: {
+		id: 29,
+		name: "kirisAki"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Heal 60 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
+			fr: "Soignez 60 dégâts de l’un de vos Pokémon, et il guérit de tous les États Spéciaux.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

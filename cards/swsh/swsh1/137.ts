@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Copperajah",
+		fr: "Pachyradjah",
 	},
 
 	hp: 190,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/137/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/137/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/137/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/137/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Cufant",
+		fr: "Charibari",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 20,
+		name: "Hitoshi Ariga"
+	},
 
 
 
@@ -52,9 +59,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Dig Drain",
+			fr: "Trou Épuisant",
 		},
 		text: {
 			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
 		},
 		damage: 60
 	},{
@@ -65,9 +74,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Muscular Nose",
+			fr: "Nez Musclé",
 		},
 		text: {
 			en: "If this Pokémon has 8 or more damage counters on it, this attack does nothing.",
+			fr: "Si ce Pokémon a au moins 8 marqueurs de dégâts, cette attaque ne fait rien.",
 		},
 		damage: 220
 	}],
@@ -89,7 +100,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

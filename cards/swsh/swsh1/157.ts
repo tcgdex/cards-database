@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Bede",
+		fr: "Travis",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/157/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/157/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/157/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/157/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.SUPPORTER,
 	],
 
-
+	illustrator: {
+		id: 4,
+		name: "Naoki Saito"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Attach a basic Energy card from your hand to 1 of your Benched Pokémon.",
+			fr: "Attachez une carte Énergie de base de votre main à l’un de vos Pokémon de Banc.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

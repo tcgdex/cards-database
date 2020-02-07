@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Haunter",
+		fr: "Spectrum",
 	},
 
 	hp: 70,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/84/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/84/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/84/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/84/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Gastly",
+		fr: "Fantominus",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 47,
+		name: "HYOGONOSUKE"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Nightmare",
+			fr: "Cauchemar",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Asleep.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 		},
 		damage: 20
 	},{
@@ -63,6 +72,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Spooky Shot",
+			fr: "Tir Effrayant",
 		},
 		damage: 40
 	}],
@@ -84,7 +94,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Switch",
+		fr: "Échange",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/183/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/183/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/183/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/183/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.ITEM,
 	],
 
-
+	illustrator: {
+		id: 69,
+		name: "Studio Bora Inc."
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+			fr: "Échangez votre Pokémon Actif contre l’un de vos Pokémon de Banc.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

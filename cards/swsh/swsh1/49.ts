@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Lapras V",
+		fr: "Lokhlass V",
 	},
 
 	hp: 210,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/49/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/49/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/49/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/49/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 40,
+		name: "Hasuno"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -53,9 +60,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Body Surf",
+			fr: "Body Surf",
 		},
 		text: {
 			en: "Attach a Water Energy card from your hand to this Pokémon. If you do, switch it with 1 of your Benched Pokémon.",
+			fr: "Attachez une carte Énergie Water de votre main à ce Pokémon. Dans ce cas, échangez-le contre l’un de vos Pokémon de Banc.",
 		},
 	},{
 		cost: [
@@ -66,9 +75,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Ocean Loop",
+			fr: "Boucle Océanique",
 		},
 		text: {
 			en: "Put 2 Water Energy attached to this Pokémon into your hand.",
+			fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
 		},
 		damage: 210
 	}],
@@ -87,7 +98,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

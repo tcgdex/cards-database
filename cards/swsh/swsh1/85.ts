@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Gengar",
+		fr: "Ectoplasma",
 	},
 
 	hp: 110,
@@ -27,30 +28,38 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/85/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/85/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/85/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/85/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Haunter",
+		fr: "Spectrum",
 	},
 
 	tags: [
 		Tag.STAGE2,
 	],
 
-
+	illustrator: {
+		id: 49,
+		name: "Eri Yamaki"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Life Shaker",
+			fr: "Chamboule Vie",
 		},
 		text: {
 			en: "As often as you like during your turn, you may move 1 damage counter from 1 of your Psychic Pokémon to another of your Psychic Pokémon.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l’un de vos Pokémon Psychic vers un autre de vos Pokémon Psychic.",
 		}
 	}],
 
@@ -62,9 +71,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Hypnoblast",
+			fr: "Hypnoblast",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Asleep.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 		},
 		damage: 90
 	}],
@@ -86,7 +97,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

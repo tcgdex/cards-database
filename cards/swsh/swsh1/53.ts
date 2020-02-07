@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Keldeo V",
+		fr: "Keldeo V",
 	},
 
 	hp: 210,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/53/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/53/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/53/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/53/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 0,
+		name: "PLANETA Igarashi"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -53,6 +60,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Wave Splash",
+			fr: "Grosse Vague",
 		},
 		damage: 40
 	},{
@@ -63,9 +71,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Secret Sword",
+			fr: "Lame Ointe",
 		},
 		text: {
 			en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 		},
 		damage: "50+"
 	}],
@@ -84,7 +94,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

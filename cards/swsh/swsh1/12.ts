@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Thwackey",
+		fr: "Badabouin",
 	},
 
 	hp: 100,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/12/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/12/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/12/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/12/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Grookey",
+		fr: "Ouistempo",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 11,
+		name: "Megumi Mizutani"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Taunt",
+			fr: "Provoc",
 		},
 		text: {
 			en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+			fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
 		},
 	},{
 		cost: [
@@ -63,9 +72,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Double Hit",
+			fr: "Coup Double",
 		},
 		text: {
 			en: "Flip 2 coins. This attack does 60 damage for each heads.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
 		},
 		damage: "60×"
 	}],
@@ -84,7 +95,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

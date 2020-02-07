@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Gossifleur",
+		fr: "Tournicoton",
 	},
 
 	hp: 50,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/20/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/20/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/20/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/20/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 19,
+		name: "Saya Tsuruta"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Call for Family",
+			fr: "Appel à la Famille",
 		},
 		text: {
 			en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu’à 3 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
 		},
 	},{
 		cost: [
@@ -59,6 +67,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Razor Leaf",
+			fr: "Tranch’Herbe",
 		},
 		damage: 10
 	}],
@@ -77,7 +86,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

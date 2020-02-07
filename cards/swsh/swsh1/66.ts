@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Raichu",
+		fr: "Raichu",
 	},
 
 	hp: 130,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/66/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/66/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/66/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/66/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Pikachu",
+		fr: "Pikachu",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 40,
+		name: "Hasuno"
+	},
 
 
 
@@ -51,6 +58,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Pain-Full Punch",
+			fr: "Mise au Poing",
 		},
 		damage: 40
 	},{
@@ -61,6 +69,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Mach Bolt",
+			fr: "Éclair Fulgurant",
 		},
 		damage: 120
 	}],
@@ -79,7 +88,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

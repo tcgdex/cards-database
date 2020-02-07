@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Krabby",
+		fr: "Krabby",
 	},
 
 	hp: 80,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/43/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/43/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/43/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/43/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 35,
+		name: "miki kudo"
+	},
 
 
 
@@ -50,9 +56,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Super Slice",
+			fr: "Super Tranche",
 		},
 		text: {
 			en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
+			fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
 		},
 		damage: 120
 	}],
@@ -71,7 +79,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

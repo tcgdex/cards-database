@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Galarian Ponyta",
+		fr: "Ponyta de Galar",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/81/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/81/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/81/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/81/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 19,
+		name: "Saya Tsuruta"
+	},
 
 
 
@@ -49,9 +55,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Psy Bolt",
+			fr: "Choc Mental",
 		},
 		text: {
 			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 		},
 		damage: 10
 	}],
@@ -73,7 +81,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

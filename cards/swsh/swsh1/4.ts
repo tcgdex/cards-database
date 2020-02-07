@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Roserade",
+		fr: "Roserade",
 	},
 
 	hp: 120,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/4/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/4/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/4/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/4/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Roselia",
+		fr: "Rosélia",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 6,
+		name: "chibi"
+	},
 
 
 
@@ -51,9 +58,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Paralyze Poison",
+			fr: "Poison Paralysant",
 		},
 		text: {
 			en: "Your opponent’s Active Pokémon is now Poisoned. Flip a coin. If heads, your opponent’s Active Pokémon is also Paralyzed.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est également Paralysé.",
 		},
 		damage: 30
 	},{
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Mega Drain",
+			fr: "Méga-Sangsue",
 		},
 		text: {
 			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
 		},
 		damage: 90
 	}],
@@ -85,7 +96,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

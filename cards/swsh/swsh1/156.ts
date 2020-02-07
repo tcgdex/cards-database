@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Air Balloon",
+		fr: "Ballon",
 	},
 
 
@@ -25,9 +26,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/156/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/156/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/156/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/156/high.png",
 		},
 	},
 
@@ -37,7 +40,10 @@ const card: Card = {
 		Tag.TOOL,
 	],
 
-
+	illustrator: {
+		id: 63,
+		name: "Yoshinobu Saito"
+	},
 
 
 
@@ -45,6 +51,7 @@ const card: Card = {
 		name: {},
 		text: {
 			en: "The Retreat Cost of the Pokémon this card is attached to is ColorlessColorless less.",
+			fr: "Le Coût de Retraite du Pokémon auquel cette carte est attachée est diminué de ColorlessColorless.",
 		},
 	}],
 
@@ -59,7 +66,7 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

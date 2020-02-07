@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Sizzlipede",
+		fr: "Grillepattes",
 	},
 
 	hp: 70,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/37/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/37/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/37/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/37/high.png",
 		},
 	},
 
@@ -39,7 +42,10 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-
+	illustrator: {
+		id: 22,
+		name: "Akira Komayama"
+	},
 
 
 
@@ -49,6 +55,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Bite",
+			fr: "Morsure",
 		},
 		damage: 10
 	},{
@@ -59,6 +66,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Combustion",
+			fr: "Fournaise",
 		},
 		damage: 50
 	}],
@@ -77,7 +85,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

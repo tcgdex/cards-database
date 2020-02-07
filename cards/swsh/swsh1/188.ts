@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Torkoal V",
+		fr: "Chartor V",
 	},
 
 	hp: 210,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/188/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/188/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/188/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/188/high.png",
 		},
 	},
 
@@ -39,13 +42,17 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 18,
+		name: "Ayaka Yoshida"
+	},
 
 
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -55,9 +62,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Combustion Pillar",
+			fr: "Pilastre de Combustion",
 		},
 		text: {
 			en: "Discard the top card of your deck. If that card is a Fire Energy card, this attack does 90 more damage.",
+			fr: "Défaussez la carte du dessus de votre deck. Si cette carte-là est une carte Énergie Fire, cette attaque inflige 90 dégâts supplémentaires.",
 		},
 		damage: "90+"
 	},{
@@ -69,9 +78,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Steam Crush",
+			fr: "Écrasement Vapeur",
 		},
 		text: {
 			en: "Discard 2 Energy from your opponent’s Active Pokémon.",
+			fr: "Défaussez 2 Énergies du Pokémon Actif de votre adversaire.",
 		},
 		damage: 120
 	}],
@@ -90,7 +101,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

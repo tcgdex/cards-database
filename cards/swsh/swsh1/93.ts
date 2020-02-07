@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Dugtrio",
+		fr: "Triopikeur",
 	},
 
 	hp: 90,
@@ -27,21 +28,27 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/93/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/93/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/93/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/93/high.png",
 		},
 	},
 
 	evolveFrom: {
 		en: "Diglett",
+		fr: "Taupiqueur",
 	},
 
 	tags: [
 		Tag.STAGE1,
 	],
 
-
+	illustrator: {
+		id: 53,
+		name: "Kyoko Umemoto"
+	},
 
 
 
@@ -51,6 +58,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Mud Bomb",
+			fr: "Boue-Bombe",
 		},
 		damage: 60
 	}],
@@ -69,7 +77,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }

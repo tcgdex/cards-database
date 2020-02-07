@@ -14,6 +14,7 @@ const card: Card = {
 	// Card informations
 	name: {
 		en: "Zamazenta V",
+		fr: "Zamazenta V",
 	},
 
 	hp: 230,
@@ -27,9 +28,11 @@ const card: Card = {
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/196/low.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/196/low.png",
 		},
 		high: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/196/high.png",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/196/high.png",
 		},
 	},
 
@@ -39,22 +42,28 @@ const card: Card = {
 		Tag.V,
 	],
 
-
+	illustrator: {
+		id: 61,
+		name: "aky CG Works"
+	},
 
 	abilities: [{
 		id: -1,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Dauntless Shield",
+			fr: "Égide Inflexible",
 		},
 		text: {
 			en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon VMAX.",
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-VMAX de votre adversaire.",
 		}
 	}],
 
 	attacks: [{
 		name: {
 			en: "V rule",
+			fr: "Règle V",
 		},
 	},{
 		cost: [
@@ -64,9 +73,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Assault Tackle",
+			fr: "Tacle Assaillant",
 		},
 		text: {
 			en: "Discard a Special Energy from your opponent's Active Pokémon.",
+			fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
 		},
 		damage: 130
 	}],
@@ -88,7 +99,7 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "Sword & Shield",
+		name: "undefined",
 		code: "swsh1"
 	}
 }
