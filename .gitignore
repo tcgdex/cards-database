@@ -1,4 +1,4 @@
-*/*.json
+cards/**/*.json
 
 *.js
 
