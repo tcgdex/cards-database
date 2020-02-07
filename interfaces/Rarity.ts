@@ -18,6 +18,10 @@ enum Rarity {
 
 	// Other
 	LEGEND,
+
+	// V & Vmax
+	RareV,
+	RareVMAX,
 }
 
 const en = [
@@ -114,6 +118,12 @@ namespace Rarity {
 			// LEGEND
 			case "LEGEND":
 				return Rarity.LEGEND
+
+			case "V":
+				return Rarity.RareV
+
+			case "VM":
+				return Rarity.RareVMAX
 			default:
 				throw new Error(`Rarity not known (${str})`)
 		}
