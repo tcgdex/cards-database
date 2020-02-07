@@ -1,5 +1,3 @@
-import { Page } from "puppeteer-core"
-
 enum Rarity {
 	Common,
 	Uncommon,
@@ -26,15 +24,54 @@ enum Rarity {
 	RareVMAX,
 }
 
+const en = [
+	"Common",
+	"unCommon",
+	"Rare",
+
+	"Rare Holo",
+	"Rare Holo EX",
+	"Rare Holo GX",
+	"Rare Holo Lv.X",
+
+	"Rare Ultra",
+	"Rare Prime",
+	"Rare ACE",
+	"Rare BREAK",
+	"Rainbow Rare",
+
+	"LEGEND"
+]
+
+const fr = [
+	"Commun",
+	"Non Commun",
+	"Rare",
+
+	"Rare Holo",
+	"Rare Holo EX",
+	"Rare Holo GX",
+	"Rare Holo Lv.X",
+
+	"Rare Ultra",
+	"Rare Prime",
+	"Rare ACE",
+	"Rare BREAK",
+	"Rainbow Rare",
+
+	"LEGEND"
+]
+
 namespace Rarity {
 
-	export async function getRarity(tab: Page): Promise<Rarity> {
-		const rarity = await tab.$eval(".stats-footer span", (el: HTMLElement) => {
-			const arr = el.innerText.split(" ")
-			arr.shift()
-			return arr.join(" ")
-		})
-		return getLocalRarity(rarity)
+	export function toLang(r: Rarity, lang: string): string {
+		switch (lang) {
+			case "en":
+				return en[r]
+			case "fr":
+				return fr[r]
+		}
+		throw new Error(`Error, rarity lang not found! (${lang})`)
 	}
 
 	export function getLocalRarity(str?: string): Rarity {

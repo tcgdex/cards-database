@@ -1,5 +1,3 @@
-import { Page } from "puppeteer-core";
-
 enum Tag {
 	BASIC,
 	BASICENERGY,
@@ -83,20 +81,6 @@ namespace Tag {
 			default:
 				break;
 		}
-	}
-	export async function get(tab: Page): Promise<Array<Tag>> {
-		const h2 = await tab.$eval(".card-type h2", (el: HTMLElement) => {
-			return el.innerText
-		})
-		const list: Array<Tag> = lookup(h2)
-
-		// SP
-		const isNull = await tab.$('h1 img[alt="[G]"]')
-		if (isNull !== null) {
-			list.push(Tag.SP)
-		}
-
-		return list
 	}
 
 	export function lookup(str: string): Array<Tag> {
