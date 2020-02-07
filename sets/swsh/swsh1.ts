@@ -6,6 +6,7 @@ const set: Set = {
 	},
 
 	expansion: swsh,
+	expansionCode: "swsh",
 
 	code: "swsh1",
 	// tcgoCode
@@ -14,6 +15,8 @@ const set: Set = {
 		total: 216,
 		official: 202
 	},
+
+	api: '1-swsh',
 
 	releaseDate: "2020-02-07",
 

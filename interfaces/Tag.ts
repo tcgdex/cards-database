@@ -21,6 +21,8 @@ enum Tag {
 	TAGTEAM,
 	TECHNICALMACHINE,
 	TOOL,
+	V,
+	VMAX,
 }
 
 const en = [
@@ -42,7 +44,9 @@ const en = [
 	"Supporter",
 	"Tag Team",
 	"Technical Machine",
-	"Tool"
+	"Tool",
+	"Pokémon V",
+	"Pokémon VMAX"
 ]
 
 const fr = [
@@ -64,7 +68,9 @@ const fr = [
 	"Supporter",
 	"ESCOUADE",
 	"Machine Technique",
-	"Outil"
+	"Outil",
+	"Pokémon V",
+	"Pokémon VMAX"
 ]
 
 namespace Tag {
@@ -235,6 +241,13 @@ namespace Tag {
 			case "Dresseur [Outil Pokémon]":
 				list.push(Tag.TOOL)
 				break
+
+			case "Pokémon-V":
+				list.push(Tag.V)
+				break
+
+			case "Pokémon-VMAX":
+				list.push(Tag.VMAX)
 			case "null":
 				break
 
