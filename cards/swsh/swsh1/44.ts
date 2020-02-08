@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-44",
 	localId: 44,
 
+	dexId: 99,
+
 	// Card informations
 	name: {
 		en: "Kingler",
@@ -29,11 +31,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/44/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/44/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/44/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/44/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {

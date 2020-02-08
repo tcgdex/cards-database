@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-47",
 	localId: 47,
 
+	dexId: 119,
+
 	// Card informations
 	name: {
 		en: "Seaking",
@@ -29,11 +31,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/47/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/47/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/47/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/47/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {

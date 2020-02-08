@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-40",
 	localId: 40,
 
+	dexId: 90,
+
 	// Card informations
 	name: {
 		en: "Shellder",
@@ -29,14 +31,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/40/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/40/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/40/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/40/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Cloyster",
+		fr: "Crustabri",
+	}],
 
 	tags: [
 		Tag.BASIC,

@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-53",
 	localId: 53,
 
+	dexId: 647,
+
 	// Card informations
 	name: {
 		en: "Keldeo V",
@@ -29,16 +31,11 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/53/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/53/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/53/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/53/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
-
 	tags: [
+		Tag.BASIC,
 		Tag.V,
 	],
 
@@ -70,7 +67,7 @@ const card: Card = {
 		},
 		text: {
 			en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Eau attachée à ce Pokémon.",
 		},
 		damage: "50+"
 	}],

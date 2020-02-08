@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-43",
 	localId: 43,
 
+	dexId: 98,
+
 	// Card informations
 	name: {
 		en: "Krabby",
@@ -29,14 +31,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/43/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/43/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/43/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/43/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Kingler",
+		fr: "Krabboss",
+	}],
 
 	tags: [
 		Tag.BASIC,

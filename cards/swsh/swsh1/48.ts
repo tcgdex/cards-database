@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-48",
 	localId: 48,
 
+	dexId: 131,
+
 	// Card informations
 	name: {
 		en: "Lapras",
@@ -29,14 +31,8 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/48/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/48/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/48/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/48/high.png",
-		},
+		}
 	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,

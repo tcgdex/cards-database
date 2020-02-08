@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-52",
 	localId: 52,
 
+	dexId: 226,
+
 	// Card informations
 	name: {
 		en: "Mantine",
@@ -29,11 +31,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/52/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/52/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/52/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/52/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {},
@@ -59,7 +57,7 @@ const card: Card = {
 		},
 		text: {
 			en: "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Water, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Eau, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		},
 	},{
 		cost: [

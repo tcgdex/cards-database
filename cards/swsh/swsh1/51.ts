@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-51",
 	localId: 51,
 
+	dexId: 211,
+
 	// Card informations
 	name: {
 		en: "Qwilfish",
@@ -29,14 +31,8 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/51/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/51/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/51/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/51/high.png",
-		},
+		}
 	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,

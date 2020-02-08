@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-45",
 	localId: 45,
 
+	dexId: 118,
+
 	// Card informations
 	name: {
 		en: "Goldeen",
@@ -29,14 +31,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/45/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/45/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/45/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/45/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Seaking",
+		fr: "Poissoroy",
+	}],
 
 	tags: [
 		Tag.BASIC,

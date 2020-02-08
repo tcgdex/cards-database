@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-50",
 	localId: 50,
 
+	dexId: 131,
+
 	// Card informations
 	name: {
 		en: "Lapras VMAX",
@@ -29,16 +31,12 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/50/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/50/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/50/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/50/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
 		en: "Lapras V",
-		fr: "Lokhlass-V",
+		fr: "Lokhlass V",
 	},
 
 	tags: [

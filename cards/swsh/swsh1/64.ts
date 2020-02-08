@@ -29,11 +29,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/64/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/64/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/64/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/64/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
@@ -59,7 +55,7 @@ const card: Card = {
 		},
 		text: {
 			en: "As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Benched Water Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Water de votre main à l’un de vos Pokémon Water de Banc.",
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Eau de votre main à l’un de vos Pokémon Eay de Banc.",
 		}
 	}],
 

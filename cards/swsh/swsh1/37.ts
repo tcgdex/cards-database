@@ -23,20 +23,17 @@ const card: Card = {
 		Type.FIRE,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/37/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/37/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/37/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/37/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Centiskorch",
+		fr: "Scolocendre",
+	}],
 
 	tags: [
 		Tag.BASIC,

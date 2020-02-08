@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-49",
 	localId: 49,
 
+	dexId: 131,
+
 	// Card informations
 	name: {
 		en: "Lapras V",
@@ -29,16 +31,11 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/49/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/49/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/49/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/49/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
-
 	tags: [
+		Tag.BASIC,
 		Tag.V,
 	],
 
@@ -46,6 +43,11 @@ const card: Card = {
 		id: 40,
 		name: "Hasuno"
 	},
+
+	evolveTo: [{
+		en: "Lapras VMAX",
+		fr: "Lokhlass VMAX",
+	}],
 
 
 

@@ -29,14 +29,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/60/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/60/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/60/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/60/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Drednaw",
+		fr: "Torgamord",
+	}],
 
 	tags: [
 		Tag.BASIC,

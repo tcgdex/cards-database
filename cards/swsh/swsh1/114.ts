@@ -29,11 +29,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/114/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/114/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/114/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/114/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {},
