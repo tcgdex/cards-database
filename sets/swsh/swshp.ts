@@ -3,7 +3,8 @@ import swsh from '../../expansions/swordShield'
 
 const set: Set = {
 	name: {
-		en: "Promos"
+		en: "Promos",
+		fr: "Promos"
 	},
 
 	expansion: swsh,
