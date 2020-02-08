@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-6",
 	localId: 6,
 
+	dexId: 547,
+
 	// Card informations
 	name: {
 		en: "Whimsicott",
@@ -29,11 +31,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/6/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/6/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/6/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/6/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
@@ -80,8 +78,6 @@ const card: Card = {
 		value: "×2"
 	}],
 
-
-
 	retreat: 1,
 
 	rarity: Rarity.Rare,
@@ -89,10 +85,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

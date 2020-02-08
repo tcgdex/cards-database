@@ -29,14 +29,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/10/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/10/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/10/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/10/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Thwackey",
+		fr: "Badabouin",
+	}],
 
 	tags: [
 		Tag.BASIC,
@@ -46,8 +45,6 @@ const card: Card = {
 		id: 4,
 		name: "Naoki Saito"
 	},
-
-
 
 	attacks: [{
 		cost: [
@@ -69,8 +66,6 @@ const card: Card = {
 		value: "×2"
 	}],
 
-
-
 	retreat: 1,
 
 	rarity: Rarity.Common,
@@ -78,10 +73,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

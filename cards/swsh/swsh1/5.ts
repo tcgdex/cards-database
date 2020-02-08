@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-5",
 	localId: 5,
 
+	dexId: 546,
+
 	// Card informations
 	name: {
 		en: "Cottonee",
@@ -29,14 +31,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/5/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/5/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/5/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/5/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Whimsicott",
+		fr: "Farfaduvet",
+	}],
 
 	tags: [
 		Tag.BASIC,
@@ -74,10 +75,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

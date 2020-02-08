@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-2",
 	localId: 2,
 
+	dexId: 315,
+
 	// Card informations
 	name: {
 		en: "Roselia",
@@ -23,20 +25,17 @@ const card: Card = {
 		Type.GRASS,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/2/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/2/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/2/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/2/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Roserade",
+		fr: "Roserade",
+	}],
 
 	tags: [
 		Tag.BASIC,
@@ -46,8 +45,6 @@ const card: Card = {
 		id: 3,
 		name: "sowsow"
 	},
-
-
 
 	attacks: [{
 		cost: [
@@ -69,8 +66,6 @@ const card: Card = {
 		value: "×2"
 	}],
 
-
-
 	retreat: 1,
 
 	rarity: Rarity.Common,
@@ -78,10 +73,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

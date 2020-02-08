@@ -29,17 +29,18 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/32/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/32/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/32/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/32/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
 		en: "Scorbunny",
 		fr: "Flambino",
 	},
+
+	evolveTo: [{
+		en: "Cinderace",
+		fr: "Pyrobut",
+	}],
 
 	tags: [
 		Tag.STAGE1,
@@ -62,7 +63,7 @@ const card: Card = {
 		},
 		text: {
 			en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck une carte Énergie Feu, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 		},
 		damage: 20
 	},{
@@ -92,10 +93,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

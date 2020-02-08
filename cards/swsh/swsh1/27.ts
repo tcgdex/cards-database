@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-27",
 	localId: 27,
 
+	dexId: 757,
+
 	// Card informations
 	name: {
 		en: "Salandit",
@@ -29,14 +31,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/27/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/27/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/27/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/27/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Salazzle",
+		fr: "Malamandre",
+	}],
 
 	tags: [
 		Tag.BASIC,
@@ -46,8 +47,6 @@ const card: Card = {
 		id: 28,
 		name: "SATOSHI NAKAI"
 	},
-
-
 
 	attacks: [{
 		cost: [
@@ -77,10 +76,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

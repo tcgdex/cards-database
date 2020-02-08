@@ -23,22 +23,15 @@ const card: Card = {
 		Type.FIRE,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/25/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/25/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/25/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/25/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
-
 	tags: [
+		Tag.BASIC,
 		Tag.V,
 	],
 
@@ -50,11 +43,6 @@ const card: Card = {
 
 
 	attacks: [{
-		name: {
-			en: "V rule",
-			fr: "Règle V",
-		},
-	},{
 		cost: [
 			Type.COLORLESS
 		],
@@ -96,10 +84,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

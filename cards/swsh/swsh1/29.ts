@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-29",
 	localId: 29,
 
+	dexId: 776,
+
 	// Card informations
 	name: {
 		en: "Turtonator",
@@ -23,17 +25,11 @@ const card: Card = {
 		Type.FIRE,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/29/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/29/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/29/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/29/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {},
@@ -91,10 +87,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

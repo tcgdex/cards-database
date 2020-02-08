@@ -23,20 +23,17 @@ const card: Card = {
 		Type.GRASS,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/16/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/16/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/16/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/16/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Dottler",
+		fr: "Coléodôme",
+	}],
 
 	tags: [
 		Tag.BASIC,
@@ -74,10 +71,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

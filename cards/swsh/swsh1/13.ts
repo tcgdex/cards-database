@@ -23,23 +23,22 @@ const card: Card = {
 		Type.GRASS,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/13/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/13/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/13/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/13/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
 		en: "Grookey",
 		fr: "Ouistempo",
 	},
+
+	evolveTo: [{
+		en: "Rillaboom",
+		fr: "Gorythmic",
+	}],
 
 	tags: [
 		Tag.STAGE1,
@@ -93,10 +92,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

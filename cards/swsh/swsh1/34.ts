@@ -29,11 +29,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/34/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/34/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/34/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/34/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
@@ -94,10 +90,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

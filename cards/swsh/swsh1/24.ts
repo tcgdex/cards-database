@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-24",
 	localId: 24,
 
+	dexId: 324,
+
 	// Card informations
 	name: {
 		en: "Torkoal V",
@@ -29,16 +31,11 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/24/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/24/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/24/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/24/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
-
 	tags: [
+		Tag.BASIC,
 		Tag.V,
 	],
 
@@ -50,11 +47,6 @@ const card: Card = {
 
 
 	attacks: [{
-		name: {
-			en: "V rule",
-			fr: "Règle V",
-		},
-	},{
 		cost: [
 			Type.FIRE,
 			Type.FIRE,
@@ -66,7 +58,7 @@ const card: Card = {
 		},
 		text: {
 			en: "Discard the top card of your deck. If that card is a Fire Energy card, this attack does 90 more damage.",
-			fr: "Défaussez la carte du dessus de votre deck. Si cette carte-là est une carte Énergie Fire, cette attaque inflige 90 dégâts supplémentaires.",
+			fr: "Défaussez la carte du dessus de votre deck. Si cette carte-là est une carte Énergie Feu, cette attaque inflige 90 dégâts supplémentaires.",
 		},
 		damage: "90+"
 	},{
@@ -101,10 +93,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-22",
 	localId: 22,
 
+	dexId: 37,
+
 	// Card informations
 	name: {
 		en: "Vulpix",
@@ -29,14 +31,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/22/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/22/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/22/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/22/high.png",
-		},
+		}
 	},
 
-	evolveFrom: {},
+	evolveTo: [{
+		en: "Ninetales",
+		fr: "Feunard",
+	}],
 
 	tags: [
 		Tag.BASIC,
@@ -74,10 +75,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

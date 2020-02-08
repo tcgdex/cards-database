@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-1",
 	localId: 1,
 
+	dexId: 251,
+
 	// Card informations
 	name: {
 		en: "Celebi V",
@@ -23,22 +25,15 @@ const card: Card = {
 		Type.GRASS,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/1/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/1/low.png",
 		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/1/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/1/high.png",
-		},
 	},
 
-	evolveFrom: {},
-
 	tags: [
+		Tag.BASIC,
 		Tag.V,
 	],
 
@@ -50,11 +45,6 @@ const card: Card = {
 
 
 	attacks: [{
-		name: {
-			en: "V rule",
-			fr: "Règle V",
-		},
-	},{
 		cost: [
 			Type.GRASS
 		],
@@ -87,8 +77,6 @@ const card: Card = {
 		value: "×2"
 	}],
 
-
-
 	retreat: 1,
 
 	rarity: Rarity.RareV,
@@ -96,10 +84,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-4",
 	localId: 4,
 
+	dexId: 407,
+
 	// Card informations
 	name: {
 		en: "Roserade",
@@ -23,17 +25,11 @@ const card: Card = {
 		Type.GRASS,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/4/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/4/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/4/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/4/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
@@ -49,8 +45,6 @@ const card: Card = {
 		id: 6,
 		name: "chibi"
 	},
-
-
 
 	attacks: [{
 		cost: [
@@ -96,10 +90,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

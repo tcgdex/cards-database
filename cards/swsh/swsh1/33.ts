@@ -29,17 +29,18 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/33/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/33/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/33/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/33/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
 		en: "Scorbunny",
 		fr: "Flambino",
 	},
+
+	evolveTo: [{
+		en: "Cinderace",
+		fr: "Pyrobut",
+	}],
 
 	tags: [
 		Tag.STAGE1,
@@ -87,10 +88,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

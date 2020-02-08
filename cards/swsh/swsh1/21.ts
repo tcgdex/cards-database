@@ -29,11 +29,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/21/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/21/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/21/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/21/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
@@ -62,7 +58,7 @@ const card: Card = {
 		},
 		text: {
 			en: "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Plante, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
 		},
 	},{
 		cost: [
@@ -89,10 +85,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

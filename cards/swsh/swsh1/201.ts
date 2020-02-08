@@ -66,10 +66,9 @@ const card: Card = {
 	category: Category.TRAINER,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

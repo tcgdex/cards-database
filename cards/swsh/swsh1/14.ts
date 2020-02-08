@@ -23,17 +23,11 @@ const card: Card = {
 		Type.GRASS,
 	],
 
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/14/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/14/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/14/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/14/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
@@ -51,7 +45,7 @@ const card: Card = {
 	},
 
 	abilities: [{
-		id: -1,
+		id: 2,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Voltage Beat",
@@ -59,7 +53,7 @@ const card: Card = {
 		},
 		text: {
 			en: "Once during your turn, you may search your deck for up to 2 Grass Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu’à 2 cartes Énergie Grass, puis les attacher à l’un de vos Pokémon. Mélangez ensuite votre deck.",
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu’à 2 cartes Énergie Plante, puis les attacher à l’un de vos Pokémon. Mélangez ensuite votre deck.",
 		}
 	}],
 
@@ -82,8 +76,6 @@ const card: Card = {
 		value: "×2"
 	}],
 
-
-
 	retreat: 3,
 
 	rarity: Rarity.RareHolo,
@@ -91,10 +83,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

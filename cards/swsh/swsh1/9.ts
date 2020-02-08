@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-9",
 	localId: 9,
 
+	dexId: 731,
+
 	// Card informations
 	name: {
 		en: "Dhelmise V",
@@ -29,16 +31,13 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/9/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/9/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/9/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/9/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {},
 
 	tags: [
+		Tag.BASIC,
 		Tag.V,
 	],
 
@@ -50,11 +49,6 @@ const card: Card = {
 
 
 	attacks: [{
-		name: {
-			en: "V rule",
-			fr: "Règle V",
-		},
-	},{
 		cost: [
 			Type.GRASS
 		],
@@ -64,7 +58,7 @@ const card: Card = {
 		},
 		text: {
 			en: "If any of your Grass Pokémon were Knocked Out by damage from an opponent’s attack during their last turn, this attack does 90 more damage.",
-			fr: "Si l’un de vos Pokémon Grass a été mis K.O. par les dégâts d’une attaque de votre adversaire lors de son dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
+			fr: "Si l’un de vos Pokémon Plante a été mis K.O. par les dégâts d’une attaque de votre adversaire lors de son dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
 		},
 		damage: "30+"
 	},{
@@ -98,10 +92,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

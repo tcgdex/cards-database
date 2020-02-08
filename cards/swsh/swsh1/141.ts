@@ -50,11 +50,6 @@ const card: Card = {
 
 
 	attacks: [{
-		name: {
-			en: "V rule",
-			fr: "Règle V",
-		},
-	},{
 		cost: [
 			Type.COLORLESS,
 			Type.COLORLESS,
@@ -101,10 +96,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-

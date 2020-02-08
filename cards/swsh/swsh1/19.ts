@@ -29,11 +29,7 @@ const card: Card = {
 		low: {
 			en: "https://assets.tcgdex.net/en/swsh/swsh1/19/low.png",
 			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/19/low.png",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/19/high.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/19/high.png",
-		},
+		}
 	},
 
 	evolveFrom: {
@@ -51,7 +47,7 @@ const card: Card = {
 	},
 
 	abilities: [{
-		id: -1,
+		id: 2,
 		type: AbilityType.TALENT,
 		name: {
 			en: "Bug’s Radar",
@@ -93,10 +89,9 @@ const card: Card = {
 	category: Category.POKEMON,
 
 	set: {
-		name: "undefined",
+		name: "Sword & Shield",
 		code: "swsh1"
 	}
 }
 
 export default card
-
