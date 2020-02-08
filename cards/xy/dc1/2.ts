@@ -1,9 +1,9 @@
-import Card from '../../../../interfaces/Card'
-import Type from '../../../../interfaces/Type'
-import Tag from '../../../../interfaces/Tag'
-import Rarity from '../../../../interfaces/Rarity'
-import AbilityType from '../../../../interfaces/AbilityType'
-import Category from '../../../../interfaces/Category'
+import Card from '../../../interfaces/Card'
+import Type from '../../../interfaces/Type'
+import Tag from '../../../interfaces/Tag'
+import Rarity from '../../../interfaces/Rarity'
+import AbilityType from '../../../interfaces/AbilityType'
+import Category from '../../../interfaces/Category'
 
 const card: Card = {
 
