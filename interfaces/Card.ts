@@ -6,6 +6,7 @@ import Rarity from "./Rarity";
 import Attack from "./Attack";
 import Illustrator from "./Illutrator";
 import Ability from "./Ability";
+import Set from "./Set";
 
 interface Card {
 
@@ -55,7 +56,7 @@ interface Card {
 	set: {
 		name: string
 		code: string
-	}
+	}| Set
 }
 
 export default Card

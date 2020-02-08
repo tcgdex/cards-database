@@ -3,7 +3,7 @@ import LangList from "./LangList";
 import { promises } from "fs";
 
 interface Ability {
-	id: number
+	id?: number
 	type: AbilityType
 	name: LangList<string>
 	text: LangList<string>

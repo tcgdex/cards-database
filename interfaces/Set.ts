@@ -19,7 +19,6 @@ export default interface Set {
 		official: number
 	}
 
-	// subsets only releaseDate
 	releaseDate?: string // date in format yyyy-mm-dd
 
 	// api endpoint for scrapping
