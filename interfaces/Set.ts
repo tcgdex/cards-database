@@ -19,6 +19,8 @@ export default interface Set {
 		official: number
 	}
 
+	format?: string
+
 	releaseDate?: string // date in format yyyy-mm-dd
 
 	// api endpoint for scrapping

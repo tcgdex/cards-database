@@ -17,7 +17,7 @@ const en = [
 	"Darkness",
 	"Dragon",
 	"Fairy",
-	"Fightning",
+	"Fighting",
 	"Fire",
 	"Grass",
 	"Lightning",
@@ -27,7 +27,7 @@ const en = [
 ]
 
 const fr = [
-	"Sans Couleur",
+	"Incolore",
 	"Obscurité",
 	"Dragon",
 	"Fée",
@@ -78,12 +78,11 @@ namespace Type {
 				return Type.FAIRY
 			case "icon-dragon":
 				return Type.DRAGON
-			default:
-				throw new Error(`Error, type (${classe}) not found !`)
 		}
+		throw new Error(`Error, type (${classe}) not found !`)
 	}
 
-	export function getFromFrench(fr: string): Type {
+	export function getFromFrench(fr: string): Type|undefined {
 		switch (fr.toLowerCase()) {
 			case "plante":
 				return Type.GRASS
@@ -108,6 +107,7 @@ namespace Type {
 			case "dragon":
 				return Type.DRAGON
 		}
+		throw new Error(`Error, type (${fr}) not found !`)
 	}
 
 	export function getFromSpanish(fr: string): Type {
@@ -135,6 +135,7 @@ namespace Type {
 			case "dragón":
 				return Type.DRAGON
 		}
+		throw new Error(`Error, type (${fr}) not found !`)
 	}
 
 	export function getFromEnglish(en: string): Type {

@@ -24,7 +24,7 @@ interface Card {
 	type?: Array<Type> // ex for multiple https://api.pokemon.com/us/pokemon-tcg/pokemon-cards/ex-series/ex13/17/
 
 	image?: {
-		low: LangList<string>,
+		low: LangList<string>
 		high?: LangList<string>
 	}
 
