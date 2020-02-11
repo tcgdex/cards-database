@@ -1,5 +1,5 @@
 import Set from '../../interfaces/Set'
-import swsh from '../../expansions/swordShield'
+import swsh from '../../expansions/swsh'
 const set: Set = {
 	name: {
 		en: "Sword & Shield"

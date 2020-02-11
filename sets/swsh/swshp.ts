@@ -1,5 +1,5 @@
 import Set from '../../interfaces/Set'
-import swsh from '../../expansions/swordShield'
+import swsh from '../../expansions/swsh'
 
 const set: Set = {
 	name: {
@@ -16,6 +16,8 @@ const set: Set = {
 		total: 13,
 		official: 13
 	},
+
+	format: "SWSH[000]",
 
 	releaseDate: "2019-11-15",
 
