@@ -14,11 +14,16 @@ const set: Set = {
 	},
 
 	releaseDate: "2003-10-01",
-//	releaseDate: "2003-01-14",
+	// releaseDate: "2003-01-14",
 
 	legal: {
 		standard: false,
 		expanded: false,
+	},
+
+	images: {
+		symbol: "https://assets.tcgdex.net/sets/pop/np/symbol.png",
+		logo: "https://assets.tcgdex.net/sets/pop/np/logo.png"
 	}
 }
 

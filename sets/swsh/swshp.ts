@@ -25,7 +25,6 @@ const set: Set = {
 		standard: true,
 		expanded: true
 	}
-
 }
 
 export default set

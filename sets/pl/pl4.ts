@@ -19,6 +19,11 @@ const set: Set = {
 	legal: {
 		standard: false,
 		expanded: false,
+	},
+
+	images: {
+		symbol: "https://assets.tcgdex.net/sets/pl/pl4/symbol.png",
+		logo: "https://assets.tcgdex.net/sets/pl/pl4/logo.png"
 	}
 }
 

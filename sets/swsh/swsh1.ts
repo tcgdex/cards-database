@@ -23,8 +23,12 @@ const set: Set = {
 	legal: {
 		standard: true,
 		expanded: true
-	}
+	},
 
+	images: {
+		symbol: "https://assets.tcgdex.net/sets/swsh/swsh1/symbol.png",
+		logo: "https://assets.tcgdex.net/sets/swsh/swsh1/logo.png"
+	}
 }
 
 export default set
