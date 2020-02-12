@@ -27,7 +27,7 @@ export default interface Set {
 	api?: string
 
 	legal?: {
-		standard: boolean,
+		standard: boolean
 		expanded: boolean
 	}
 
