@@ -57,10 +57,11 @@ const card: Card = {
 		],
 		name: {
 			en: "Splash Maker",
-			fr: "Règle des ESCOUADES",
+			fr: "Faiseur de Vagues",
 		},
 		text: {
 			en: "You may attach up to 3 Water Energy cards from your hand to your Pokémon in any way you like. If you do, heal 50 damage from those Pokémon for each card you attached to them in this way.",
+			fr: "Vous pouvez attacher jusqu’à 3 cartes Énergie Water de votre main à vos Pokémon, de la manière que vous voulez. Dans ce cas, soignez 50 dégâts à ces Pokémon pour chaque carte qui leur est attachée de cette façon.",
 		},
 		damage: 150
 	},{
@@ -71,23 +72,10 @@ const card: Card = {
 		],
 		name: {
 			en: "Bubble Launcher-GX",
-			fr: "Faiseur de Vagues",
-		},
-		text: {
-			en: "Your opponent's Active Pokémon is now Paralyzed. If this Pokémon has at least 3 extra Water Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game.)",
-			fr: "Vous pouvez attacher jusqu’à 3 cartes Énergie Water de votre main à vos Pokémon, de la manière que vous voulez. Dans ce cas, soignez 50 dégâts à ces Pokémon pour chaque carte qui leur est attachée de cette façon.",
-		},
-		damage: 100
-	},{
-		cost: [
-			Type.WATER,
-			Type.WATER,
-			Type.COLORLESS
-		],
-		name: {
 			fr: "Lance-Bulles-GX",
 		},
 		text: {
+			en: "Your opponent's Active Pokémon is now Paralyzed. If this Pokémon has at least 3 extra Water Energy attached to it (in addition to this attack's cost), this attack does 150 more damage. (You can't use more than 1 GX attack in a game.)",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Paralysé. Si au moins 3 Énergies Water supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 150 dégâts supplémentaires. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 		},
 		damage: "100+"
@@ -113,4 +101,3 @@ const card: Card = {
 }
 
 export default card
-

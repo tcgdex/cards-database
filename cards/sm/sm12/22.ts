@@ -58,22 +58,10 @@ const card: Card = {
 		],
 		name: {
 			en: "Brilliant Flare",
-			fr: "Règle des ESCOUADES",
-		},
-		text: {
-			en: "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
-		},
-		damage: 180
-	},{
-		cost: [
-			Type.FIRE
-		],
-		name: {
-			en: "Crimson Flame Pillar-GX",
 			fr: "Flamboiement Brillant",
 		},
 		text: {
-			en: "Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pokémon is now Burned and Confused. (You can't use more than 1 GX attack in a game.)",
+			en: "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
 			fr: "Vous pouvez chercher jusqu’à 3 cartes dans votre deck et les ajouter à votre main. Mélangez ensuite votre deck.",
 		},
 		damage: 180
@@ -82,11 +70,13 @@ const card: Card = {
 			Type.FIRE
 		],
 		name: {
+			en: "Crimson Flame Pillar-GX",
 			fr: "Colonne de Flamme Écarlate-GX",
 		},
 		text: {
+			en: "Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack's cost), your opponent's Active Pokémon is now Burned and Confused. (You can't use more than 1 GX attack in a game.)",
 			fr: "Attachez 5 cartes Énergie de base de votre pile de défausse à vos Pokémon, de la manière que vous voulez. Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-		},
+		}
 	}],
 
 	weaknesses: [{
@@ -109,4 +99,3 @@ const card: Card = {
 }
 
 export default card
-
