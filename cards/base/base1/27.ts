@@ -54,7 +54,7 @@ const card: Card = {
 			en: "Leek Slap",
 		},
 		text: {
-			en: "Flip a coin. If tails, this attack does nothing. Either way, use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again.)",
+			en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again.)",
 		},
 		damage: 30
 	},{
@@ -92,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

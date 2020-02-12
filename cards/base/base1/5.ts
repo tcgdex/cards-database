@@ -54,7 +54,7 @@ const card: Card = {
 			en: "Sing",
 		},
 		text: {
-			en: "Flip a coin. If heads, Defending Pokémon is now Asleep.",
+			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 		},
 	},{
 		cost: [
@@ -93,4 +93,3 @@ const card: Card = {
 }
 
 export default card
-

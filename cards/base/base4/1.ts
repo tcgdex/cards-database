@@ -67,7 +67,7 @@ const card: Card = {
 			en: "Confuse Ray",
 		},
 		text: {
-			en: "Flip a coin. If heads, defender is now Confused.",
+			en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 		},
 		damage: 30
 	}],
@@ -92,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

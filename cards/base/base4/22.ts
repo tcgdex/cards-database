@@ -58,7 +58,7 @@ const card: Card = {
 			en: "Slam",
 		},
 		text: {
-			en: "Flip 2 coins. This attack does 30 times number of heads.",
+			en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 		},
 	},{
 		cost: [
@@ -71,7 +71,7 @@ const card: Card = {
 			en: "Hyper Beam",
 		},
 		text: {
-			en: "If the Defending Pokémon has energy cards attached to it, choose 1 of them and discard it.",
+			en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
 		},
 		damage: 20
 	}],
@@ -96,4 +96,3 @@ const card: Card = {
 }
 
 export default card
-

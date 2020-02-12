@@ -53,7 +53,7 @@ const card: Card = {
 			en: "Energy Burn",
 		},
 		text: {
-			en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into R for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
+			en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.",
 		}
 	}],
 
@@ -96,4 +96,3 @@ const card: Card = {
 }
 
 export default card
-

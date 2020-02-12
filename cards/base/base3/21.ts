@@ -34,7 +34,7 @@ const card: Card = {
 	},
 
 	evolveFrom: {
-		en: "Gengar",
+		en: "Gastly",
 	},
 
 	tags: [
@@ -91,4 +91,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -58,7 +58,7 @@ const card: Card = {
 			en: "Water Gun",
 		},
 		text: {
-			en: "Does 30 damage plus 10 more damage for each Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Energy after the 2nd doesn't count.",
+			en: "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Energy after the 2nd doesn't count.",
 		},
 		damage: 30
 	},{
@@ -97,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-

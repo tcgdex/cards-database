@@ -67,9 +67,9 @@ const card: Card = {
 			en: "Hydro Pump",
 		},
 		text: {
-			en: "Does 40 damage plus 10 more damage for each attached to Blastoise but not used to pay for this attack's Energy cost. Extra Energy after the 2nd doesn't count.",
+			en: "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
 		},
-		damage: 40
+		damage: "40+"
 	}],
 
 	weaknesses: [{
@@ -92,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

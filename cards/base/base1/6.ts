@@ -69,7 +69,7 @@ const card: Card = {
 			en: "Bubblebeam",
 		},
 		text: {
-			en: "Flip a coin. If heads, Defending Pokémon is now Paralyzed.",
+			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 		},
 		damage: 40
 	}],
@@ -97,4 +97,3 @@ const card: Card = {
 }
 
 export default card
-
