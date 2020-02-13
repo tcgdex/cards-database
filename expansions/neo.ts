@@ -1,13 +1,14 @@
 import Expansion from "../interfaces/Expansion";
 
 const set: Expansion = {
-	name: {
-		en: "Call of Legends"
-	},
-	code: "col",
-
+	name: "Neo",
+	code: "neo",
 	sets: [
-		"col1"
+		"neo1",
+		"neo2",
+		"neo3",
+		"neo4",
+		"si1",
 	]
 }
 

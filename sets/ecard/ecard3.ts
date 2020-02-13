@@ -21,8 +21,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/sets/ecards/ecard3/symbol.png",
-		logo: "https://assets.tcgdex.net/sets/ecards/ecard3/logo.png"
+		symbol: "https://assets.tcgdex.net/sets/ecard/ecard3/symbol.png",
+		logo: "https://assets.tcgdex.net/sets/ecard/ecard3/logo.png"
 	}
 }
 

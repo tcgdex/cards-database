@@ -2,17 +2,15 @@ import Expansion from "../interfaces/Expansion";
 
 const set: Expansion = {
 	name: {
-		en: "Base"
+		en: "E-Card",
+		fr: "E-Card",
 	},
-	code: "base",
+	code: "ecard",
 	sets: [
-		"base1",
-		"base2",
-		"base3",
-		"base4",
-		"base5",
-		"basep",
-	],
+		"ecard1",
+		"ecard2",
+		"ecard3",
+	]
 }
 
 export default set
