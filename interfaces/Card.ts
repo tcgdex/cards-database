@@ -37,6 +37,9 @@ interface Card {
 
 	attacks?: Array<Attack>
 
+	// If card is trainer or energy effect is here
+	effect?: LangList<string>
+
 	weaknesses?: Array<{
 		type: Type
 		value?: string

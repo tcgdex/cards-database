@@ -4,6 +4,7 @@ import Tag from '../../../interfaces/Tag'
 import Rarity from '../../../interfaces/Rarity'
 import AbilityType from '../../../interfaces/AbilityType'
 import Category from '../../../interfaces/Category'
+import sm from '../../../sets/sm/sm12'
 
 const card: Card = {
 
@@ -17,12 +18,6 @@ const card: Card = {
 		fr: "Énergie de Pioche",
 	},
 
-
-
-
-
-
-
 	image: {
 		low: {
 			en: "https://assets.tcgdex.net/en/sm/sm12/209/low.png",
@@ -34,38 +29,19 @@ const card: Card = {
 		},
 	},
 
-	evolveFrom: {},
-
 	tags: [
 		Tag.SPECIAL,
 	],
 
-
-
-
-
-	attacks: [{
-		name: {},
-		text: {
-			fr: "Cette carte fournit de l’Énergie Colorless. \n\nLorsque vous attachez cette carte de votre main à un Pokémon, piochez une carte.",
-		},
-	}],
-
-
-
-
-
-
+	effect: {
+		fr: "Cette carte fournit de l’Énergie Colorless. \n\nLorsque vous attachez cette carte de votre main à un Pokémon, piochez une carte."
+	},
 
 	rarity: Rarity.Uncommon,
 
 	category: Category.ENERGY,
 
-	set: {
-		name: "Cosmic Eclipse",
-		code: "sm12"
-	}
+	set: sm
 }
 
 export default card
-
