@@ -9,7 +9,7 @@ export default interface Set {
 
 	expansionCode?: string
 
-	code?: string
+	code: string
 	tcgoCode?: string
 
 	cardCount?: {
