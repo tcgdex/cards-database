@@ -69,7 +69,7 @@ const card: Card = {
 		],
 		name: {
 			en: "Forest Dump",
-			fr: "Règle des ESCOUADES",
+			fr: "Rejet Forestier",
 		},
 		damage: 160
 	},{
@@ -80,24 +80,12 @@ const card: Card = {
 		],
 		name: {
 			en: "Solar Plant-GX",
-			fr: "Rejet Forestier",
-		},
-		text: {
-			en: "This attack does 50 damage to each of your opponent's Pokémon. If this Pokémon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)",
-		},
-		damage: 160
-	},{
-		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
 			fr: "Plante Solaire-GX",
 		},
 		text: {
+			en: "This attack does 50 damage to each of your opponent's Pokémon. If this Pokémon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)",
 			fr: "Cette attaque inflige 50 dégâts à chacun des Pokémon de votre adversaire. Si au moins 2 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), soignez tous les dégâts de vos Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-		},
+		}
 	}],
 
 	weaknesses: [{
@@ -120,4 +108,3 @@ const card: Card = {
 }
 
 export default card
-
