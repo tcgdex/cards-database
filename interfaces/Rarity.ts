@@ -40,7 +40,10 @@ const en = [
 	"Rare BREAK",
 	"Rainbow Rare",
 
-	"LEGEND"
+	"LEGEND",
+
+	"V",
+	"VMax"
 ]
 
 const fr = [
@@ -59,7 +62,10 @@ const fr = [
 	"Rare BREAK",
 	"Rainbow Rare",
 
-	"LEGEND"
+	"LEGEND",
+
+	"V",
+	"VMax"
 ]
 
 namespace Rarity {
