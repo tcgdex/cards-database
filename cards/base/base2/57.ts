@@ -1,0 +1,93 @@
+import Card from '../../../interfaces/Card'
+import Type from '../../../interfaces/Type'
+import Tag from '../../../interfaces/Tag'
+import Rarity from '../../../interfaces/Rarity'
+import AbilityType from '../../../interfaces/AbilityType'
+import Category from '../../../interfaces/Category'
+
+const card: Card = {
+
+	// ids
+	id: "base2-57",
+	localId: 57,
+
+	// Card informations
+	name: {
+		en: "Nidoran♀",
+	},
+
+	hp: 60,
+
+	type: [
+		Type.GRASS,
+	],
+
+	dexId: 29,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/base/base2/57/low.png",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/base/base2/57/high.png",
+		},
+	},
+
+	evolveFrom: {},
+
+	tags: [
+		Tag.BASIC,
+	],
+
+	illustrator: {
+		id: 5,
+		name: "Ken Sugimori"
+	},
+
+
+
+	attacks: [{
+		cost: [
+			Type.GRASS
+		],
+		name: {
+			en: "Fury Swipes",
+		},
+		text: {
+			en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+		},
+		damage: 10
+	},{
+		cost: [
+			Type.GRASS,
+			Type.GRASS
+		],
+		name: {
+			en: "Call for Family",
+		},
+		text: {
+			en: "Search your deck for a Basic Pokémon named Nidoran M or Nidoran F and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+		},
+	}],
+
+	weaknesses: [{
+		type: Type.PSYCHIC,
+		value: "×2"
+	}],
+
+
+
+
+
+	rarity: Rarity.Common,
+
+	category: Category.POKEMON,
+
+	set: {
+		name: "Jungle",
+		code: "base2"
+	}
+}
+
+export default card
+

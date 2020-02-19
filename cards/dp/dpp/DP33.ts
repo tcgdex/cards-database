@@ -1,0 +1,98 @@
+import Card from '../../../interfaces/Card'
+import Type from '../../../interfaces/Type'
+import Tag from '../../../interfaces/Tag'
+import Rarity from '../../../interfaces/Rarity'
+import AbilityType from '../../../interfaces/AbilityType'
+import Category from '../../../interfaces/Category'
+
+const card: Card = {
+
+	// ids
+	id: "dpp-DP33",
+	localId: "DP33",
+
+	// Card informations
+	name: {
+		en: "Dusknoir",
+	},
+
+	hp: 130,
+
+	type: [
+		Type.PSYCHIC,
+	],
+
+	dexId: 477,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/dp/dpp/DP33/low.png",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/dp/dpp/DP33/high.png",
+		},
+	},
+
+	evolveFrom: {
+		en: "Dusclops",
+	},
+
+	tags: [
+		Tag.STAGE2,
+	],
+
+	illustrator: {
+		id: 44,
+		name: "Kent Kanetsuna"
+	},
+
+	abilities: [{
+		id: 839,
+		type: AbilityType.POKEPOWER,
+		name: {
+			en: "Dark Hide",
+		},
+		text: {
+			en: "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand, choose a Pokémon you find there, and put it on the bottom of his or her deck. This power can't be used if Dusknoir is affected by a Special Condition.",
+		}
+	}],
+
+	attacks: [{
+		cost: [
+			Type.PSYCHIC,
+			Type.PSYCHIC,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Reaper Pulse",
+		},
+		text: {
+			en: "Move up to 2 damage counters from Dusknoir to 1 of your opponent's Benched Pokémon.",
+		},
+		damage: 70
+	}],
+
+	weaknesses: [{
+		type: Type.DARKNESS,
+		value: "+30"
+	}],
+
+	resistances: [{
+		type: Type.COLORLESS,
+		value: "-20"
+	}],
+
+
+
+	rarity: Rarity.Common,
+
+	category: Category.POKEMON,
+
+	set: {
+		name: "DP Black Star Promos",
+		code: "dpp"
+	}
+}
+
+export default card
+

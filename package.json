@@ -1,0 +1,16 @@
+{
+	"name": "tcgdex-db",
+	"version": "1.0.0",
+	"description": "Database of pokemon TCG",
+	"main": "index.js",
+	"repository": "git@git.delta-wings.net:tcgdex/db.git",
+	"author": "Avior <florian.bouillon@delta-wings.net>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"test": "tsc --noEmit --project tsconfig-cards.json"
+	},
+	"dependencies": {
+		"typescript": "^3.7.5"
+	}
+}

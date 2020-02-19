@@ -1,0 +1,105 @@
+import Card from '../../../interfaces/Card'
+import Type from '../../../interfaces/Type'
+import Tag from '../../../interfaces/Tag'
+import Rarity from '../../../interfaces/Rarity'
+import AbilityType from '../../../interfaces/AbilityType'
+import Category from '../../../interfaces/Category'
+
+const card: Card = {
+
+	// ids
+	id: "hgss4-28",
+	localId: 28,
+
+	// Card informations
+	name: {
+		en: "Nidoqueen",
+		fr: "Nidoqueen",
+	},
+
+	hp: 130,
+
+	type: [
+		Type.PSYCHIC,
+	],
+
+	dexId: 31,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/hgss/hgss4/28/low.png",
+			fr: "https://assets.tcgdex.net/fr/hgss/hgss4/28/low.png",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/hgss/hgss4/28/high.png",
+			fr: "https://assets.tcgdex.net/fr/hgss/hgss4/28/high.png",
+		},
+	},
+
+	evolveFrom: {
+		en: "Nidorina",
+		fr: "Nidorina",
+	},
+
+	tags: [
+		Tag.STAGE2,
+	],
+
+	illustrator: {
+		id: 24,
+		name: "sui"
+	},
+
+
+
+	attacks: [{
+		cost: [
+			Type.COLORLESS
+		],
+		name: {
+			en: "Return",
+			fr: "Retour",
+		},
+		text: {
+			en: "Draw cards until you have 6 cards in your hand.",
+			fr: "Piochez jusqu'à ce que vous ayez 6 cartes en main.",
+		},
+		damage: 30
+	},{
+		cost: [
+			Type.PSYCHIC,
+			Type.COLORLESS,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Prize Count",
+			fr: "Compteur de Récompense",
+		},
+		text: {
+			en: "If you have more Prize cards left than your opponent, this attack does 50 damage plus 30 more damage.",
+			fr: "S'il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+		},
+		damage: 50
+	}],
+
+	weaknesses: [{
+		type: Type.PSYCHIC,
+		value: "×2"
+	}],
+
+
+
+	retreat: 2,
+
+	rarity: Rarity.Rare,
+
+	category: Category.POKEMON,
+
+	set: {
+		name: "HS—Triumphant",
+		code: "hgss4"
+	}
+}
+
+export default card
+

@@ -1,0 +1,5 @@
+cards/**/*.json
+
+*.js
+
+node_modules/

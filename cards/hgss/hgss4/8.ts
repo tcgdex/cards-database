@@ -1,0 +1,103 @@
+import Card from '../../../interfaces/Card'
+import Type from '../../../interfaces/Type'
+import Tag from '../../../interfaces/Tag'
+import Rarity from '../../../interfaces/Rarity'
+import AbilityType from '../../../interfaces/AbilityType'
+import Category from '../../../interfaces/Category'
+
+const card: Card = {
+
+	// ids
+	id: "hgss4-8",
+	localId: 8,
+
+	// Card informations
+	name: {
+		en: "Rapidash",
+		fr: "Galopa",
+	},
+
+	hp: 90,
+
+	type: [
+		Type.FIRE,
+	],
+
+	dexId: 78,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/hgss/hgss4/8/low.png",
+			fr: "https://assets.tcgdex.net/fr/hgss/hgss4/8/low.png",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/hgss/hgss4/8/high.png",
+			fr: "https://assets.tcgdex.net/fr/hgss/hgss4/8/high.png",
+		},
+	},
+
+	evolveFrom: {
+		en: "Ponyta",
+		fr: "Ponyta",
+	},
+
+	tags: [
+		Tag.STAGE1,
+	],
+
+	illustrator: {
+		id: 25,
+		name: "Kyoko Umemoto"
+	},
+
+	abilities: [{
+		id: 807,
+		type: AbilityType.POKEBODY,
+		name: {
+			en: "Fiery Spirit",
+			fr: "Esprit flamboyant",
+		},
+		text: {
+			en: "Rapidash can't be Confused.",
+			fr: "Galopa ne peut pas être Confus.",
+		}
+	}],
+
+	attacks: [{
+		cost: [
+			Type.FIRE,
+			Type.COLORLESS,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Ring of Fire",
+			fr: "Anneau de feu",
+		},
+		text: {
+			en: "The Defending Pokémon is now Burned and can't retreat during your opponent's next turn.",
+			fr: "Le Pokémon Défenseur est maintenant Brûlé et ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+		},
+		damage: 50
+	}],
+
+	weaknesses: [{
+		type: Type.WATER,
+		value: "×2"
+	}],
+
+
+
+	retreat: 1,
+
+	rarity: Rarity.RareHolo,
+
+	category: Category.POKEMON,
+
+	set: {
+		name: "HS—Triumphant",
+		code: "hgss4"
+	}
+}
+
+export default card
+
