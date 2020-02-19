@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Gossifleur",
 		fr: "Tournicoton",
 	},
 
@@ -40,9 +41,11 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Sing",
 			fr: "Berceuse",
 		},
 		text: {
+			en: "Your opponnent's Active Pokémon os now Asleep.",
 			fr: "LE Pokémon Actif de votre adversaire est maintenant Endormi."
 		}
 	}],

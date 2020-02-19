@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Meowth V",
 		fr: "Miaouss V",
 	},
 
@@ -32,6 +33,7 @@ const card: Card = {
 	],
 
 	evolveTo: [{
+		en: "Meowth VMAX",
 		fr: "Miaouss VMAX"
 	}],
 
@@ -45,9 +47,11 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Pay Day",
 			fr: "Jackpot",
 		},
 		text: {
+			en: "Draw a card.",
 			fr: "Piocher une carte."
 		},
 		damage: 30
@@ -58,6 +62,7 @@ const card: Card = {
 			Type.COLORLESS,
 		],
 		name: {
+			en: "Slashing claw",
 			fr: "Griffe Taillante",
 		},
 		damage: 130,

@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Galarian Ponyta",
 		fr: "Ponyta de Galar",
 	},
 
@@ -40,9 +41,11 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Heal Pulse",
 			fr: "Vibra Soin",
 		},
 		text: {
+			en: "Heal 30 damage from 1 of your Pokémon.",
 			fr: "Soignez 30 dégâts de l'un de vos Pokémon."
 		}
 	}, {
@@ -51,6 +54,7 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Flop",
 			fr: "Flop"
 		},
 		damage: 20

@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Frosmoth",
 		fr: "Beldeneige",
 	},
 
@@ -38,9 +39,11 @@ const card: Card = {
 	abilities: [{
 		type: AbilityType.TALENT,
 		name: {
+			en: "Ice Dance",
 			fr: "Dans de Glace"
 		},
 		text: {
+			en: "As often as you like during your turn, you may attach a Wate Energy card from your hand to 1 of your Benched Water Pokémon.",
 			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Eau de votre main à l'un de vos Pokémon Eau de Banc."
 		}
 	}],
@@ -51,6 +54,7 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Aurora Beam",
 			fr: "Onde Boréale",
 		},
 		damage: 30

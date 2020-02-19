@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Rillaboom",
 		fr: "Gorythmic",
 	},
 
@@ -38,9 +39,11 @@ const card: Card = {
 	abilities: [{
 		type: AbilityType.TALENT,
 		name: {
+			en: "Volatge Beat",
 			fr: "Rythme Voltaique",
 		},
 		text: {
+			en : "Once during your turn, you may search your deck for up to 2 Grass Energy cards and atttach them to 1 of your Pokémon. Then, shuffle your deck.",
 			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 cartes Énergie Plante, puis les attacher à l'un de vos Pokémon. Mélangez ensuite votre deck."
 		}
 	}],
@@ -53,6 +56,7 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Hammer In",
 			fr: "Enfoncement",
 		},
 		damage: 140

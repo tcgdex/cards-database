@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Sobble",
 		fr: "Larméléon",
 	},
 
@@ -41,9 +42,11 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Bind",
 			fr: "Étreinte",
 		},
 		text: {
+			en: "Flip a coin. If heads, you opponent's Active Pokémon is now Paralyzed",
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 		},
 		damage: 20

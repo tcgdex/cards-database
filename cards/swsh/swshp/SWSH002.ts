@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Scorbunny",
 		fr: "Falmbino",
 	},
 
@@ -40,9 +41,11 @@ const card: Card = {
 			Type.FIRE
 		],
 		name: {
+			en: "Super Singe",
 			fr: "Super Roussi",
 		},
 		text: {
+			en: "Flip a coin. If heads, your opponent's Active Pokémin is now burned.",
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé."
 		},
 		damage: 10

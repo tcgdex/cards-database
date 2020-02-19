@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Cinccino",
 		fr: "Pashmilla",
 	},
 
@@ -38,9 +39,11 @@ const card: Card = {
 	abilities: [{
 		type: AbilityType.TALENT,
 		name: {
+			en: "Make Do",
 			fr: "Faire Avec",
 		},
 		text: {
+			en: "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.",
 			fr: "Vous devez défausser une carte de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher 2 cartes."
 		}
 	}],
@@ -50,9 +53,11 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Energy Assist",
 			fr: "Assistance Énergétique"
 		},
 		text: {
+			en: "Attach a basic Energy card from your discard pile to 1 od your benched Pokémon.",
 			fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
 		},
 		damage: 40

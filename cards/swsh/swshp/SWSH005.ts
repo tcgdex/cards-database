@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Meowth VMAX",
 		fr: "Miaouss VMAX",
 	},
 
@@ -31,6 +32,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
+		en: "Meowth V",
 		fr: "Miaouss V",
 	},
 
@@ -47,9 +49,11 @@ const card: Card = {
 			Type.COLORLESS,
 		],
 		name: {
+			en: "G-MAX Gold Rush",
 			fr: "Pactole G-MAX",
 		},
 		text: {
+			en: "Draw 3 cards.",
 			fr: "Piochez 3 cartes."
 		},
 		damage: 200

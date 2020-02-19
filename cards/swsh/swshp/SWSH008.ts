@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Galarian Perrserker",
 		fr: "Berserkatt de Galar",
 	},
 
@@ -38,9 +39,11 @@ const card: Card = {
 	abilities: [{
 		type: AbilityType.TALENT,
 		name: {
+			en: "Steely Spirit",
 			fr: "Boost Acier"
 		},
 		text: {
+			en: "Your Steel Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 			fr: "Les attaques de vos Pokémon Acier infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la résistance)."
 		}
 	}],
@@ -52,6 +55,7 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Metal Claw",
 			fr: "Griffe Acier",
 		},
 		damage: 70

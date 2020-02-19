@@ -17,7 +17,8 @@ const card: Card = {
 
 	// Card informations
 	name: {
-		fr: "Moumouton>",
+		en: "Wooloo",
+		fr: "Moumouton",
 	},
 
 	hp: 60,
@@ -40,9 +41,11 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Defense Curl",
 			fr: "Boul'Armure",
 		},
 		text: {
+			en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
 			fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adrversaire."
 		}
 	}, {
@@ -51,6 +54,7 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Headbutt",
 			fr: "Coup d'Boule",
 		},
 		damage: 20

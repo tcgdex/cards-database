@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Morpeko",
 		fr: "Morpeko",
 	},
 
@@ -42,9 +43,11 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Thunder Shock",
 			fr: "Éclair",
 		},
 		text: {
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 			fr: "Lancez une pièces. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		},
 		damage: 60

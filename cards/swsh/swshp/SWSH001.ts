@@ -17,6 +17,7 @@ const card: Card = {
 
 	// Card informations
 	name: {
+		en: "Grookey",
 		fr: "Ouistempo",
 	},
 
@@ -41,6 +42,7 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
+			en: "Branch Poke",
 			fr: "Tapotige",
 		},
 		damage: 30
