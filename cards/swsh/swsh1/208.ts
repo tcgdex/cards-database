@@ -8,13 +8,13 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-178",
-	localId: 178,
+	id: "swsh1-208",
+	localId: 208,
 
 	// Card informations
 	name: {
-		en: "Professor's Research (Professor Magnolia)",
-		fr: "Recherches Professorales (Professeure Magnolia)",
+		en: "Marnie",
+		fr: "Rosemary",
 	},
 
 
@@ -22,13 +22,6 @@ const card: Card = {
 
 
 
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/178/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/178/low.png",
-		}
-	},
 
 	evolveFrom: {},
 
@@ -37,15 +30,15 @@ const card: Card = {
 	],
 
 	illustrator: {
-		id: 70,
-		name: "Yusuke Ohmura"
+		id: 29,
+		name: "kirisAki"
 	},
 
 
 
 	effect: {
-		en: "Discard your hand and draw 7 cards.",
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
+		en: "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, you draw 5 cards, and your opponent draws 4 cards.",
+		fr: "Chaque joueur mélange sa main, puis la place en dessous de son deck. Si l’un des joueurs place ainsi au moins une carte en dessous de son deck, vous piochez 5 cartes et votre adversaire en pioche 4.",
 	},
 
 
@@ -54,7 +47,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.RareHolo,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.TRAINER,
 

@@ -8,35 +8,29 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-115",
-	localId: 115,
+	id: "swsh1-205",
+	localId: 205,
 
 	// Card informations
 	name: {
-		en: "Stonjourner V",
-		fr: "Dolman V",
+		en: "Stonjourner VMAX",
+		fr: "Dolman VMAX",
 	},
 
-	hp: 220,
+	hp: 330,
 
 	type: [
 		Type.FIGHTING,
 	],
 
 
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/115/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/115/low.png",
-		}
+	evolveFrom: {
+		en: "Stonjourner V",
+		fr: "Dolman-V",
 	},
 
-	evolveFrom: {},
-
 	tags: [
-		Tag.BASIC,
-		Tag.V,
+		Tag.VMAX,
 	],
 
 	illustrator: {
@@ -51,14 +45,13 @@ const card: Card = {
 			Type.FIGHTING
 		],
 		name: {
-			en: "Guard Press",
-			fr: "Pression de Garde",
+			en: "Stone Gift",
+			fr: "Cadeau Roc",
 		},
 		text: {
-			en: "During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			en: "Attach a Fighting Energy card from your hand to 1 of your Pokémon. If you do, heal 120 damage from that Pokémon.",
+			fr: "Attachez une carte Énergie Fighting de votre main à l’un de vos Pokémon. Dans ce cas, soignez 120 dégâts de ce Pokémon-là.",
 		},
-		damage: 40
 	},{
 		cost: [
 			Type.FIGHTING,
@@ -66,10 +59,10 @@ const card: Card = {
 			Type.FIGHTING
 		],
 		name: {
-			en: "Mega Kick",
-			fr: "Ultimawashi",
+			en: "Max Rockfall",
+			fr: "Lithomax",
 		},
-		damage: 150
+		damage: 200
 	}],
 
 	weaknesses: [{
@@ -81,7 +74,7 @@ const card: Card = {
 
 	retreat: 3,
 
-	rarity: Rarity.RareV,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.POKEMON,
 

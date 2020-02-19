@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Shuffle up to 2 Supporter cards from your discard pile into your deck.",
-			fr: "Mélangez avec votre deck jusqu’à 2 cartes Supporter de votre pile de défausse.",
-		},
-	}],
+	effect: {
+		en: "Shuffle up to 2 Supporter cards from your discard pile into your deck.",
+		fr: "Mélangez avec votre deck jusqu’à 2 cartes Supporter de votre pile de défausse.",
+	},
 
 
 

@@ -43,18 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Move a basic Energy from 1 of your Pokémon to another of your Pokémon.",
-			fr: "Déplacez une Énergie de base de l’un de vos Pokémon vers un autre de vos Pokémon.",
-		},
-	}],
-
-
-
-
-
+	effect: {
+		en: "Move a basic Energy from 1 of your Pokémon to another of your Pokémon.",
+		fr: "Déplacez une Énergie de base de l’un de vos Pokémon vers un autre de vos Pokémon.",
+	},
 
 
 	rarity: Rarity.Uncommon,

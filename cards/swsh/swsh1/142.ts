@@ -49,11 +49,6 @@ const card: Card = {
 
 
 	attacks: [{
-		name: {
-			en: "VMAX rule",
-			fr: "Règle VMAX",
-		},
-	},{
 		cost: [
 			Type.COLORLESS,
 			Type.COLORLESS,

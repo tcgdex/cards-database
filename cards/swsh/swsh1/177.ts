@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Heal 30 damage from 1 of your Pokémon.",
-			fr: "Soignez 30 dégâts de l’un de vos Pokémon.",
-		},
-	}],
+	effect: {
+		en: "Heal 30 damage from 1 of your Pokémon.",
+		fr: "Soignez 30 dégâts de l’un de vos Pokémon.",
+	},
 
 
 

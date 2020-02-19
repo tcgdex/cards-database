@@ -8,13 +8,13 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-178",
-	localId: 178,
+	id: "swsh1-214",
+	localId: 214,
 
 	// Card informations
 	name: {
-		en: "Professor's Research (Professor Magnolia)",
-		fr: "Recherches Professorales (Professeure Magnolia)",
+		en: "Metal Saucer",
+		fr: "Écusson Métal",
 	},
 
 
@@ -22,30 +22,22 @@ const card: Card = {
 
 
 
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/178/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/178/low.png",
-		}
-	},
 
 	evolveFrom: {},
 
 	tags: [
-		Tag.SUPPORTER,
+		Tag.ITEM,
 	],
 
 	illustrator: {
-		id: 70,
-		name: "Yusuke Ohmura"
+		id: 68,
+		name: "Toyste Beach"
 	},
-
 
 
 	effect: {
-		en: "Discard your hand and draw 7 cards.",
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
+		en: "Attach a Metal Energy card from your discard pile to 1 of your Benched Metal Pokémon.",
+		fr: "Attachez une carte Énergie Metal de votre pile de défausse à l’un de vos Pokémon Metal de Banc.",
 	},
 
 
@@ -54,7 +46,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.RareHolo,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.TRAINER,
 

@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Search your deck for a basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie de base, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-		},
-	}],
+	effect: {
+		en: "Search your deck for a basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
+		fr: "Cherchez dans votre deck une carte Énergie de base, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+	},
 
 
 

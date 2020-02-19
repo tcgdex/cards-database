@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-		},
-	}],
+	effect: {
+		en: "Draw 3 cards.",
+		fr: "Piochez 3 cartes.",
+	},
 
 
 

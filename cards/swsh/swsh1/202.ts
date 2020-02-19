@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Put an Energy attached to 1 of your opponent’s Pokémon into their hand.",
-			fr: "Ajoutez à la main de votre adversaire une Énergie attachée à l’un de ses Pokémon.",
-		},
-	}],
+	effect: {
+		en: "Put an Energy attached to 1 of your opponent’s Pokémon into their hand.",
+		fr: "Ajoutez à la main de votre adversaire une Énergie attachée à l’un de ses Pokémon.",
+	},
 
 
 

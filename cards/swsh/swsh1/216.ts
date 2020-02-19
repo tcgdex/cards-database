@@ -8,13 +8,13 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-178",
-	localId: 178,
+	id: "swsh1-216",
+	localId: 216,
 
 	// Card informations
 	name: {
-		en: "Professor's Research (Professor Magnolia)",
-		fr: "Recherches Professorales (Professeure Magnolia)",
+		en: "Quick Ball",
+		fr: "Rapide Ball",
 	},
 
 
@@ -22,30 +22,23 @@ const card: Card = {
 
 
 
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/178/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/178/low.png",
-		}
-	},
 
 	evolveFrom: {},
 
 	tags: [
-		Tag.SUPPORTER,
+		Tag.ITEM,
 	],
 
 	illustrator: {
-		id: 70,
-		name: "Yusuke Ohmura"
+		id: 64,
+		name: "sadaji"
 	},
 
 
 
 	effect: {
-		en: "Discard your hand and draw 7 cards.",
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
+		en: "You can play this card only if you discard another card from your hand.\n\nSearch your deck for a Basic Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+		fr: "Vous ne pouvez jouer cette carte que si vous défaussez une autre carte de votre main.\n\nCherchez dans votre deck un Pokémon de base, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 	},
 
 
@@ -54,7 +47,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.RareHolo,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.TRAINER,
 

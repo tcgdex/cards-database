@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez votre Pokémon Actif contre l’un de vos Pokémon de Banc.",
-		},
-	}],
+	effect: {
+		en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+		fr: "Échangez votre Pokémon Actif contre l’un de vos Pokémon de Banc.",
+	},
 
 
 

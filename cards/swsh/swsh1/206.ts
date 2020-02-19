@@ -8,35 +8,26 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-50",
-	localId: 50,
-
-	dexId: 131,
+	id: "swsh1-206",
+	localId: 206,
 
 	// Card informations
 	name: {
-		en: "Lapras VMAX",
-		fr: "Lokhlass VMAX",
+		en: "Snorlax VMAX",
+		fr: "Ronflex VMAX",
 	},
 
-	hp: 320,
+	hp: 340,
 
 	type: [
-		Type.WATER,
+		Type.COLORLESS,
 	],
 
 
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/50/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/50/low.png",
-		}
-	},
-
 	evolveFrom: {
-		en: "Lapras V",
-		fr: "Lokhlass V",
+		en: "Snorlax V",
+		fr: "Ronflex-V",
 	},
 
 	tags: [
@@ -44,8 +35,8 @@ const card: Card = {
 	],
 
 	illustrator: {
-		id: 39,
-		name: "5ban Graphics"
+		id: 61,
+		name: "aky CG Works"
 	},
 
 
@@ -57,26 +48,26 @@ const card: Card = {
 			Type.COLORLESS
 		],
 		name: {
-			en: "G-Max Pump",
-			fr: "Pompe G-Max",
+			en: "G-Max Fall",
+			fr: "Chute G-Max",
 		},
 		text: {
-			en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+			en: "This attack does 30 more damage for each of your Benched Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
 		},
-		damage: "90+"
+		damage: "60+"
 	}],
 
 	weaknesses: [{
-		type: Type.LIGHTNING,
+		type: Type.FIGHTING,
 		value: "×2"
 	}],
 
 
 
-	retreat: 3,
+	retreat: 4,
 
-	rarity: Rarity.RareVMAX,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.POKEMON,
 

@@ -8,8 +8,8 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-80",
-	localId: 80,
+	id: "swsh1-204",
+	localId: 204,
 
 	// Card informations
 	name: {
@@ -23,14 +23,6 @@ const card: Card = {
 		Type.LIGHTNING,
 	],
 
-
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/80/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/80/low.png",
-		}
-	},
 
 	evolveFrom: {
 		en: "Morpeko V",
@@ -74,7 +66,7 @@ const card: Card = {
 
 	retreat: 1,
 
-	rarity: Rarity.RareVMAX,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.POKEMON,
 

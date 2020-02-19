@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Put up to 2 basic Energy cards from your discard pile into your hand.",
-			fr: "Ajoutez à votre main jusqu’à 2 cartes Énergie de base de votre pile de défausse.",
-		},
-	}],
+	effect: {
+		en: "Put up to 2 basic Energy cards from your discard pile into your hand.",
+		fr: "Ajoutez à votre main jusqu’à 2 cartes Énergie de base de votre pile de défausse.",
+	},
 
 
 

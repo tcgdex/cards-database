@@ -8,27 +8,19 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-178",
-	localId: 178,
+	id: "swsh1-210",
+	localId: 210,
 
 	// Card informations
 	name: {
-		en: "Professor's Research (Professor Magnolia)",
-		fr: "Recherches Professorales (Professeure Magnolia)",
+		en: "Team Yell Grunt",
+		fr: "Sbire de la Team Yell",
 	},
 
 
 
 
 
-
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/178/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/178/low.png",
-		}
-	},
 
 	evolveFrom: {},
 
@@ -37,15 +29,15 @@ const card: Card = {
 	],
 
 	illustrator: {
-		id: 70,
-		name: "Yusuke Ohmura"
+		id: 15,
+		name: "nagimiso"
 	},
 
 
 
 	effect: {
-		en: "Discard your hand and draw 7 cards.",
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
+		en: "Put an Energy attached to 1 of your opponent’s Pokémon into their hand.",
+		fr: "Ajoutez à la main de votre adversaire une Énergie attachée à l’un de ses Pokémon.",
 	},
 
 
@@ -54,7 +46,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.RareHolo,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.TRAINER,
 

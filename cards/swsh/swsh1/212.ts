@@ -8,8 +8,8 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-196",
-	localId: 196,
+	id: "swsh1-212",
+	localId: 212,
 
 	// Card informations
 	name: {
@@ -22,15 +22,6 @@ const card: Card = {
 	type: [
 		Type.METAL,
 	],
-
-
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/196/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/196/low.png",
-		}
-	},
 
 	evolveFrom: {},
 
@@ -86,7 +77,7 @@ const card: Card = {
 
 	retreat: 2,
 
-	rarity: Rarity.RareUltra,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.POKEMON,
 

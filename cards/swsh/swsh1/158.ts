@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "The Pokémon this card is attached to gets +30 HP.",
-			fr: "Cette carte ajoute 30 PV au Pokémon auquel elle est attachée.",
-		},
-	}],
+	effect: {
+		en: "The Pokémon this card is attached to gets +30 HP.",
+		fr: "Cette carte ajoute 30 PV au Pokémon auquel elle est attachée.",
+	},
 
 
 

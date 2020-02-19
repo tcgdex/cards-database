@@ -8,8 +8,8 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-178",
-	localId: 178,
+	id: "swsh1-209",
+	localId: 209,
 
 	// Card informations
 	name: {
@@ -23,13 +23,6 @@ const card: Card = {
 
 
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/178/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/178/low.png",
-		}
-	},
-
 	evolveFrom: {},
 
 	tags: [
@@ -37,8 +30,8 @@ const card: Card = {
 	],
 
 	illustrator: {
-		id: 70,
-		name: "Yusuke Ohmura"
+		id: 29,
+		name: "kirisAki"
 	},
 
 
@@ -54,7 +47,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.RareHolo,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.TRAINER,
 

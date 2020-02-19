@@ -43,13 +43,10 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Search your deck for an Evolution Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck un Pokémon Évolutif, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-		},
-	}],
+	effect: {
+		en: "Search your deck for an Evolution Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+		fr: "Cherchez dans votre deck un Pokémon Évolutif, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+	},
 
 
 

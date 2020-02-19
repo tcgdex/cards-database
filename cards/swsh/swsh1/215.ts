@@ -8,13 +8,13 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-181",
-	localId: 181,
+	id: "swsh1-215",
+	localId: 215,
 
 	// Card informations
 	name: {
-		en: "Rotom Bike",
-		fr: "Moticyclette",
+		en: "Ordinary Rod",
+		fr: "Canne Ordinaire",
 	},
 
 
@@ -22,13 +22,6 @@ const card: Card = {
 
 
 
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/181/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/181/low.png",
-		}
-	},
 
 	evolveFrom: {},
 
@@ -44,8 +37,8 @@ const card: Card = {
 
 
 	effect: {
-		en: "Draw cards until you have 6 cards in your hand. Your turn ends.",
-		fr: "Piochez des cartes jusqu’à en avoir 6 en main. Votre tour se termine.",
+		en: "Choose 1 or both:\n\n• Shuffle up to 2 Pokémon from your discard pile into your deck.\n\n• Shuffle up to 2 basic Energy cards from your discard pile into your deck.",
+		fr: "Choisissez l’une de ces options ou les deux :\n\n• Mélangez avec votre deck jusqu’à 2 Pokémon de votre pile de défausse.\n\n• Mélangez avec votre deck jusqu’à 2 cartes Énergie de base de votre pile de défausse.",
 	},
 
 
@@ -54,7 +47,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.Uncommon,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.TRAINER,
 

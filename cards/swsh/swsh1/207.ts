@@ -8,13 +8,13 @@ import Category from '../../../interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "swsh1-178",
-	localId: 178,
+	id: "swsh1-207",
+	localId: 207,
 
 	// Card informations
 	name: {
-		en: "Professor's Research (Professor Magnolia)",
-		fr: "Recherches Professorales (Professeure Magnolia)",
+		en: "Bede",
+		fr: "Travis",
 	},
 
 
@@ -23,12 +23,6 @@ const card: Card = {
 
 
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/178/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/178/low.png",
-		}
-	},
 
 	evolveFrom: {},
 
@@ -37,15 +31,15 @@ const card: Card = {
 	],
 
 	illustrator: {
-		id: 70,
-		name: "Yusuke Ohmura"
+		id: 4,
+		name: "Naoki Saito"
 	},
 
 
 
 	effect: {
-		en: "Discard your hand and draw 7 cards.",
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
+		en: "Attach a basic Energy card from your hand to 1 of your Benched Pokémon.",
+		fr: "Attachez une carte Énergie de base de votre main à l’un de vos Pokémon de Banc.",
 	},
 
 
@@ -54,7 +48,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.RareHolo,
+	rarity: Rarity.RareRainbow,
 
 	category: Category.TRAINER,
 
