@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ecard/ecard2/148/low.png",
+			en: "https://assets.tcgdex.net/en/ecard/ecard2/148/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ecard/ecard2/148/high.png",
+			en: "https://assets.tcgdex.net/en/ecard/ecard2/148/high",
 		},
 	},
 
@@ -106,4 +106,3 @@ const card: Card = {
 }
 
 export default card
-

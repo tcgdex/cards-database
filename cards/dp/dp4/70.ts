@@ -31,8 +31,8 @@ const card: Card = {
 			fr: "https://assets.tcgdex.net/fr/dp/dp4/70/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/dp/dp4/70/high.png",
-			fr: "https://assets.tcgdex.net/fr/dp/dp4/70/high.png",
+			en: "https://assets.tcgdex.net/en/dp/dp4/70/high",
+			fr: "https://assets.tcgdex.net/fr/dp/dp4/70/high",
 		},
 	},
 

@@ -27,12 +27,12 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/hgss/hgss4/55/low.png",
-			fr: "https://assets.tcgdex.net/fr/hgss/hgss4/55/low.png",
+			en: "https://assets.tcgdex.net/en/hgss/hgss4/55/low",
+			fr: "https://assets.tcgdex.net/fr/hgss/hgss4/55/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/hgss/hgss4/55/high.png",
-			fr: "https://assets.tcgdex.net/fr/hgss/hgss4/55/high.png",
+			en: "https://assets.tcgdex.net/en/hgss/hgss4/55/high",
+			fr: "https://assets.tcgdex.net/fr/hgss/hgss4/55/high",
 		},
 	},
 
@@ -92,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-

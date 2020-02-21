@@ -29,8 +29,8 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/52/low.png",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/52/low.png",
+			en: "https://assets.tcgdex.net/en/swsh/swsh1/52/low",
+			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/52/low",
 		}
 	},
 
