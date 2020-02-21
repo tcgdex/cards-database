@@ -31,7 +31,7 @@ interface Card {
 	evolveFrom?: LangList<string>
 	evolveTo?: Array<LangList<string>>
 	tags: Array<Tag> // made after
-	illustrator?: Illustrator
+	illustrator?: Illustrator|string
 
 	abilities?: Array<Ability>
 

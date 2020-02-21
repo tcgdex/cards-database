@@ -2,7 +2,7 @@ import Set from '../../interfaces/Set'
 
 const set: Set = {
 	name: {
-		en: "HS—Triumphant",
+		en: "Triumphant",
 		fr: "Triomphant",
 	},
 	code: "hgss4",

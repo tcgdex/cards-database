@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/base/base4/4/low.png",
+			en: "https://assets.tcgdex.net/en/base/base4/4/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/base/base4/4/high.png",
+			en: "https://assets.tcgdex.net/en/base/base4/4/high",
 		},
 	},
 

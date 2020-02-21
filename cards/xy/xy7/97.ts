@@ -27,17 +27,17 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/xy/xy7/97/low.png",
-			fr: "https://assets.tcgdex.net/fr/xy/xy7/97/low.png",
+			en: "https://assets.tcgdex.net/en/xy/xy7/97/low",
+			fr: "https://assets.tcgdex.net/fr/xy/xy7/97/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/xy/xy7/97/high.png",
-			fr: "https://assets.tcgdex.net/fr/xy/xy7/97/high.png",
+			en: "https://assets.tcgdex.net/en/xy/xy7/97/high",
+			fr: "https://assets.tcgdex.net/fr/xy/xy7/97/high",
 		},
 	},
 
 	evolveFrom: {
-		en: "Primal Groudon-EX",
+		en: "Groudon-EX",
 		fr: "Groudon-EX",
 	},
 
@@ -103,4 +103,3 @@ const card: Card = {
 }
 
 export default card
-

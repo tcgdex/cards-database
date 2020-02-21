@@ -24,14 +24,12 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/xy/xy9/98b/low.png",
+			en: "https://assets.tcgdex.net/en/xy/xy9/98b/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/xy/xy9/98b/high.png",
+			en: "https://assets.tcgdex.net/en/xy/xy9/98b/high",
 		},
 	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.SUPPORTER,
@@ -63,4 +61,3 @@ const card: Card = {
 }
 
 export default card
-
