@@ -24,8 +24,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/sets/bw/bw10/symbol.png",
-		logo: "https://assets.tcgdex.net/sets/bw/bw10/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/bw/bw10/symbol.png",
+		logo: "https://assets.tcgdex.net/en/sets/bw/bw10/logo.png"
 	}
 }
 

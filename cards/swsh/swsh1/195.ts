@@ -11,6 +11,8 @@ const card: Card = {
 	id: "swsh1-195",
 	localId: 195,
 
+	dexId: 888,
+
 	// Card informations
 	name: {
 		en: "Zacian V",

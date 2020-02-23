@@ -2,7 +2,8 @@ import Set from '../../interfaces/Set'
 
 const set: Set = {
 	name: {
-		en: "Expedition Base Set"
+		en: "Expedition Base Set",
+		fr: "Expedition"
 	},
 	code: "ecard1",
 	expansionCode: "ecard",
@@ -21,8 +22,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/sets/ecard/ecard1/symbol.png",
-		logo: "https://assets.tcgdex.net/sets/ecard/ecard1/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/ecard/ecard1/symbol.png",
+		logo: "https://assets.tcgdex.net/en/sets/ecard/ecard1/logo.png"
 	}
 }
 

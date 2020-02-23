@@ -60,6 +60,16 @@ interface Card {
 		name: string
 		code: string
 	}| Set
+
+	/**
+	 * Override Set defaults
+	 */
+	cardTypes?: {
+		normal: boolean
+		reverse: boolean
+		holo: boolean
+		firstEd: boolean
+	}
 }
 
 export default Card

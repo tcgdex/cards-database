@@ -1,6 +1,6 @@
 import Expansion from "../interfaces/Expansion";
 
-const set: Expansion = {
+const ecard: Expansion = {
 	name: {
 		en: "E-Card",
 		fr: "E-Card",
@@ -13,4 +13,4 @@ const set: Expansion = {
 	]
 }
 
-export default set
+export default ecard

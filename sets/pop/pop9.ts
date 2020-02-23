@@ -20,8 +20,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/sets/pop/pop9/symbol.png",
-		logo: "https://assets.tcgdex.net/sets/pop/pop9/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/pop/pop9/symbol.png",
+		logo: "https://assets.tcgdex.net/en/sets/pop/pop9/logo.png"
 	}
 }
 

@@ -23,8 +23,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/sets/base/base1/symbol.png",
-		logo: "https://assets.tcgdex.net/sets/base/base1/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/base/base1/symbol.png",
+		logo: "https://assets.tcgdex.net/en/sets/base/base1/logo.png"
 	}
 }
 

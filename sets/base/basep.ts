@@ -2,7 +2,7 @@ import Set from '../../interfaces/Set'
 
 const set: Set = {
 	name: {
-		en: "Wizards of te Coast Promos"
+		en: "Wizards Black Star Promos"
 	},
 	code: "basep",
 	expansionCode: "base",
@@ -10,7 +10,7 @@ const set: Set = {
 
 	cardCount: {
 		total: 53,
-		official: 52
+		official: 53
 	},
 
 	releaseDate: "1999-07-01",
@@ -21,8 +21,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/sets/base/basep/symbol.png",
-		logo: "https://assets.tcgdex.net/sets/base/basep/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/base/basep/symbol.png",
+		logo: "https://assets.tcgdex.net/en/sets/base/basep/logo.png"
 	}
 }
 

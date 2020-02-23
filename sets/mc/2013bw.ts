@@ -20,6 +20,10 @@ const set: Set = {
 	legal: {
 		standard: false,
 		expanded: false,
+	},
+
+	availability: {
+		en: false,
 	}
 }
 

@@ -21,8 +21,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/sets/neo/neo2/symbol.png",
-		logo: "https://assets.tcgdex.net/sets/neo/neo2/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/neo/neo2/symbol.png",
+		logo: "https://assets.tcgdex.net/en/sets/neo/neo2/logo.png"
 	}
 }
 

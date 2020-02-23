@@ -1,6 +1,6 @@
 import Expansion from "../interfaces/Expansion";
 
-const set: Expansion = {
+const base: Expansion = {
 	name: {
 		en: "Base"
 	},
@@ -15,4 +15,4 @@ const set: Expansion = {
 	],
 }
 
-export default set
+export default base
