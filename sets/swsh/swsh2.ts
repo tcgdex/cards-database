@@ -8,7 +8,7 @@ const swsh2: Set = {
 	expansion: swsh,
 	expansionCode: "swsh",
 
-	code: "swsh1",
+	code: "swsh2",
 	// tcgoCode
 
 	cardCount: {
@@ -16,7 +16,7 @@ const swsh2: Set = {
 		official: 192
 	},
 
-	releaseDate: "2020-06-01",
+	releaseDate: "2020-05-01",
 
 	legal: {
 		standard: true,
@@ -24,8 +24,8 @@ const swsh2: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/swsh/swsh1/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/swsh/swsh1/logo"
+		symbol: "https://assets.tcgdex.net/univ/sets/swsh/swsh2/symbol",
+		logo: "https://assets.tcgdex.net/en/sets/swsh/swsh2/logo"
 	}
 }
 
