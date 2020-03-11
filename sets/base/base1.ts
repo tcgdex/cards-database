@@ -1,4 +1,4 @@
-import Set from '../../interfaces/Set'
+import Set from '@tcgdex/sdk/interfaces/Set'
 import base from '../../expansions/base'
 
 const set: Set = {
@@ -23,8 +23,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/base/base1/symbol.png",
-		logo: "https://assets.tcgdex.net/en/sets/base/base1/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/base/base1/symbol",
+		logo: "https://assets.tcgdex.net/en/sets/base/base1/logo"
 	}
 }
 

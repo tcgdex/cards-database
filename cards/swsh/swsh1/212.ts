@@ -1,9 +1,9 @@
-import Card from '../../../interfaces/Card'
-import Type from '../../../interfaces/Type'
-import Tag from '../../../interfaces/Tag'
-import Rarity from '../../../interfaces/Rarity'
-import AbilityType from '../../../interfaces/AbilityType'
-import Category from '../../../interfaces/Category'
+import Card from '@tcgdex/sdk/interfaces/Card'
+import Type from '@tcgdex/sdk/interfaces/Type'
+import Tag from '@tcgdex/sdk/interfaces/Tag'
+import Rarity from '@tcgdex/sdk/interfaces/Rarity'
+import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
+import Category from '@tcgdex/sdk/interfaces/Category'
 
 const card: Card = {
 
@@ -30,10 +30,7 @@ const card: Card = {
 		Tag.V,
 	],
 
-	illustrator: {
-		id: 61,
-		name: "aky CG Works"
-	},
+	illustrator: "aky CG Works",
 
 	abilities: [{
 		id: -1,

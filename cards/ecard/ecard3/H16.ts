@@ -1,9 +1,9 @@
-import Card from '../../../interfaces/Card'
-import Type from '../../../interfaces/Type'
-import Tag from '../../../interfaces/Tag'
-import Rarity from '../../../interfaces/Rarity'
-import AbilityType from '../../../interfaces/AbilityType'
-import Category from '../../../interfaces/Category'
+import Card from '@tcgdex/sdk/interfaces/Card'
+import Type from '@tcgdex/sdk/interfaces/Type'
+import Tag from '@tcgdex/sdk/interfaces/Tag'
+import Rarity from '@tcgdex/sdk/interfaces/Rarity'
+import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
+import Category from '@tcgdex/sdk/interfaces/Category'
 
 const card: Card = {
 
@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 219,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/ecard/ecard3/H16/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/ecard/ecard3/H16/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Slugma",
@@ -41,10 +33,7 @@ const card: Card = {
 		Tag.STAGE1,
 	],
 
-	illustrator: {
-		id: 30,
-		name: "Hajime Kusajima"
-	},
+	illustrator: "Hajime Kusajima",
 
 
 

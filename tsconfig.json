@@ -1,5 +1,5 @@
 {
-	"include": ["cards/**/**/*.ts"],
+	"include": ["cards", "expansions", "sets"],
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",

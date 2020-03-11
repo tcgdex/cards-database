@@ -1,4 +1,4 @@
-import Set from '../../interfaces/Set'
+import Set from '@tcgdex/sdk/interfaces/Set'
 
 const set: Set = {
 	name: {
@@ -16,7 +16,7 @@ const set: Set = {
 
 	api: "a-xy",
 
-	// releaseDate: "2014-02-05",
+	releaseDate: "2014-02-05",
 
 	legal: {
 		standard: false,
@@ -24,8 +24,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/xy/xya/symbol.png",
-		logo: "https://assets.tcgdex.net/en/sets/xy/xya/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/xy/xya/symbol",
+		logo: "https://assets.tcgdex.net/en/sets/xy/xya/logo"
 	}
 }
 

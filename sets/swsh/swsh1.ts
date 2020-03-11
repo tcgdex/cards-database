@@ -1,4 +1,4 @@
-import Set from '../../interfaces/Set'
+import Set from '@tcgdex/sdk/interfaces/Set'
 import swsh from '../../expansions/swsh'
 const set: Set = {
 	name: {
@@ -26,8 +26,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/swsh/swsh1/symbol.png",
-		logo: "https://assets.tcgdex.net/en/sets/swsh/swsh1/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/swsh/swsh1/symbol",
+		logo: "https://assets.tcgdex.net/en/sets/swsh/swsh1/logo"
 	}
 }
 

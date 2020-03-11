@@ -1,4 +1,4 @@
-import Set from '../../interfaces/Set'
+import Set from '@tcgdex/sdk/interfaces/Set'
 import ecard from '../../expansions/ecard'
 
 const set: Set = {

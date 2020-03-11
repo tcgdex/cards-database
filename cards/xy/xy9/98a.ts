@@ -1,7 +1,7 @@
-import Card from "../../../interfaces/Card";
-import Tag from "../../../interfaces/Tag";
-import Category from "../../../interfaces/Category";
-import Rarity from "../../../interfaces/Rarity";
+import Card from "@tcgdex/sdk/interfaces/Card";
+import Tag from "@tcgdex/sdk/interfaces/Tag";
+import Category from "@tcgdex/sdk/interfaces/Category";
+import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import xy9 from "../../../sets/xy/xy9"
 const card: Card = {
 	id: "xy9-98a",
@@ -27,3 +27,4 @@ const card: Card = {
 
 	set: xy9
 }
+export default card

@@ -1,4 +1,4 @@
-import Set from '../../interfaces/Set'
+import Set from '@tcgdex/sdk/interfaces/Set'
 
 const set: Set = {
 	name: {
@@ -24,8 +24,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/sm/sm6/symbol.png",
-		logo: "https://assets.tcgdex.net/en/sets/sm/sm6/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/sm/sm6/symbol",
+		logo: "https://assets.tcgdex.net/en/sets/sm/sm6/logo"
 	}
 }
 

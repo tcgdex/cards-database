@@ -1,4 +1,4 @@
-import Expansion from "../interfaces/Expansion";
+import Expansion from "@tcgdex/sdk/interfaces/Expansion";
 
 const base: Expansion = {
 	name: {

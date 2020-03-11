@@ -1,4 +1,4 @@
-import Set from '../../interfaces/Set'
+import Set from '@tcgdex/sdk/interfaces/Set'
 
 const set: Set = {
 	name: {
@@ -20,8 +20,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/pop/pop5/symbol.png",
-		logo: "https://assets.tcgdex.net/en/sets/pop/pop5/logo.png"
+		symbol: "https://assets.tcgdex.net/univ/sets/pop/pop5/symbol",
+		logo: "https://assets.tcgdex.net/en/sets/pop/pop5/logo"
 	}
 }
 
