@@ -8,4 +8,5 @@ steps:
     image: node:alpine
     commands:
     - apk -q add yarn
+    - yarn
     - yarn compile
