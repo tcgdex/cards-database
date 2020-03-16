@@ -79,7 +79,7 @@ const card: Card = {
 		effect: {
 			fr: "Si Ouisticram est Paralisé, retirez à Ouisticram l'État Spécial Paralysé à la fin du tour de chaque joueurs."
 		}
-	}
+	},
 
 	weaknesses: [{
 		type: Type.WATER,

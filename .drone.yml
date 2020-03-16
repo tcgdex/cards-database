@@ -1,0 +1,11 @@
+kind: pipeline
+name: default
+type: docker
+
+steps:
+
+  - name: test
+    image: node:alpine
+    commands:
+    - apk -q add yarn
+    - yarn compile
