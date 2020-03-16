@@ -21,8 +21,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/base/base5/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/base/base5/logo"
+		symbol: "https://assets.tcgdex.net/univ/base/base5/symbol",
+		logo: "https://assets.tcgdex.net/en/base/base5/logo"
 	}
 }
 

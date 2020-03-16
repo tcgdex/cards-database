@@ -5,11 +5,7 @@ const set: Expansion = {
 		en: "Sword & Shield",
 		fr: "Épée & Bouclier",
 	},
-	code: "swsh",
-	sets: [
-		"swshp",
-		"swsh1",
-	]
+	code: "swsh"
 }
 
 export default set

@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-?",
-	localId: "?",
+	id: "exu-!",
+	localId: "!",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/?/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/!/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/?/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/!/high",
 		},
 	},
 
@@ -60,7 +60,7 @@ const card: Card = {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Choose a card from your hand and put it face down. Your opponent guesses if that card is a Pokémon, Trainer, or Energy card. Reveal the card. If your opponent guessed wrong, draw 2 cards. Put the card back into your hand.",
+			en: "Flip a coin. If heads, put 2 damage counters on 1 of your opponent's Pokémon. If tails, put 2 damage counters on 1 of your Pokémon.",
 		},
 	}],
 
@@ -79,7 +79,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

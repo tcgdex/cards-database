@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-K",
-	localId: "K",
+	id: "exu-L",
+	localId: "L",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/K/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/L/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/K/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/L/high",
 		},
 	},
 
@@ -61,9 +61,8 @@ const card: Card = {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "You may discard any Stadium card in play.",
+			en: "Flip a coin. If heads, put damage counters on the Defending Pokémon until it is 10 HP away from being Knocked Out.",
 		},
-		damage: 20
 	}],
 
 	weaknesses: [{
@@ -81,7 +80,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

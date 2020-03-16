@@ -26,8 +26,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/swsh/swsh1/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/swsh/swsh1/logo"
+		symbol: "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+		logo: "https://assets.tcgdex.net/en/swsh/swsh1/logo"
 	}
 }
 

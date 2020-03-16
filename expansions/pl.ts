@@ -5,15 +5,7 @@ const set: Expansion = {
 		en: "Platinium",
 		fr: "Platine"
 	},
-	code: "pl",
-
-	sets: [
-		"pl1",
-		"pl2",
-		"pl3",
-		"pl4",
-		"ru1",
-	]
+	code: "pl"
 }
 
 export default set

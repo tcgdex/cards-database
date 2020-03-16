@@ -20,6 +20,11 @@ const set: Set = {
 		expanded: false,
 	},
 
+	images: {
+		symbol: "https://assets.tcgdex.net/univ/lc/lc/symbol",
+		logo: "https://assets.tcgdex.net/en/lc/lc/logo"
+	},
+
 	availability: {
 		fr: false
 	}

@@ -70,6 +70,15 @@ const card: Card = {
 		},
 	}],
 
+	item: {
+		name: {
+			fr: "Baie Pecha"
+		},
+		effect: {
+			en: "Si Tiplouf est Empoisonné. Retirez-lui l'État Spécial Empoisonné à la fin du tour de chaque joueurs."
+		}
+	}
+
 	weaknesses: [{
 		type: Type.LIGHTNING,
 		value: "+10"

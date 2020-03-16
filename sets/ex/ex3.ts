@@ -24,8 +24,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/ex/ex3/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/ex/ex3/logo"
+		symbol: "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+		logo: "https://assets.tcgdex.net/en/ex/ex3/logo"
 	}
 }
 

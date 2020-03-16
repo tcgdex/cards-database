@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-A",
-	localId: "A",
+	id: "exu-S",
+	localId: "S",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/A/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/S/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/A/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/S/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Shin-ichi Yoshikawa",
+	illustrator: "Nakaoka",
 
 	abilities: [{
 		id: 88,
@@ -54,14 +54,14 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS
+			Type.PSYCHIC,
+			Type.PSYCHIC
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Search your deck for up to 2 Supporter cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+			en: "If the Defending Pokémon has a Poké-Power or a Poké-Body, choose up to 2 basic Energy cards attached to 1 of your opponent's Pokémon and attach them to the Defending Pokémon.",
 		},
 	}],
 
@@ -80,7 +80,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

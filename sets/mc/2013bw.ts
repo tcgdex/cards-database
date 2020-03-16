@@ -1,10 +1,9 @@
 import Set from '@tcgdex/sdk/interfaces/Set'
 
-const year = "2011"
+const year = "2013"
 
 const set: Set = {
 	name: {
-		en: `Macdonald's Collection ${year}`,
 		fr: `Collection Macdonald ${year}`,
 	},
 	expansionCode: "mc",

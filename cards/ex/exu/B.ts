@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-I",
-	localId: "I",
+	id: "exu-B",
+	localId: "B",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/I/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/B/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/I/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/B/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Nakaoka",
+	illustrator: "Shin-ichi Yoshikawa",
 
 	abilities: [{
 		id: 88,
@@ -54,14 +54,15 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
-			Type.PSYCHIC,
+			Type.COLORLESS,
+			Type.COLORLESS,
 			Type.COLORLESS
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Burned and Confused.",
+			en: "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pokémon.",
 		},
 	}],
 
@@ -80,7 +81,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

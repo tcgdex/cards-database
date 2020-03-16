@@ -24,8 +24,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/xy/xyp/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/xy/xyp/logo"
+		symbol: "https://assets.tcgdex.net/univ/xy/xyp/symbol",
+		logo: "https://assets.tcgdex.net/en/xy/xyp/logo"
 	}
 }
 

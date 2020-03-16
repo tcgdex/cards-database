@@ -24,8 +24,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/sm/sm11/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/sm/sm11/logo"
+		symbol: "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+		logo: "https://assets.tcgdex.net/en/sm/sm11/logo"
 	}
 }
 

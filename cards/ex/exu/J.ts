@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-P",
-	localId: "P",
+	id: "exu-J",
+	localId: "J",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/P/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/J/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/P/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/J/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Kyoko Koizumi",
+	illustrator: "Nakaoka",
 
 	abilities: [{
 		id: 88,
@@ -54,14 +54,13 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
-			Type.COLORLESS,
 			Type.COLORLESS
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Put 1 damage counter on each of your opponent's Pokémon that already has damage counters on it.",
+			en: "Flip a coin. If heads, switch all damage counters on Unown with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)",
 		},
 	}],
 
@@ -80,7 +79,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

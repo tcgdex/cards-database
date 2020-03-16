@@ -22,8 +22,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/pl/pl4/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/pl/pl4/logo"
+		symbol: "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+		logo: "https://assets.tcgdex.net/en/pl/pl4/logo"
 	},
 
 	availability: {

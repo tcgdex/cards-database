@@ -4,11 +4,7 @@ const set: Expansion = {
 	name: {
 		en: "Gym"
 	},
-	code: "gym",
-	sets: [
-		"gym1",
-		"gym2",
-	]
+	code: "gym"
 }
 
 export default set

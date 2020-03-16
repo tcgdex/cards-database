@@ -20,8 +20,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/pl/ru1/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/pl/ru1/logo"
+		symbol: "https://assets.tcgdex.net/univ/pl/ru1/symbol",
+		logo: "https://assets.tcgdex.net/en/pl/ru1/logo"
 	},
 
 	availability: {

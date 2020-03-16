@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-Y",
-	localId: "Y",
+	id: "exu-U",
+	localId: "U",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/Y/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/U/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/Y/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/U/high",
 		},
 	},
 
@@ -54,13 +54,14 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
+			Type.PSYCHIC,
 			Type.COLORLESS
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "The Defending Pokémon is now Asleep.",
+			en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 		},
 		damage: 10
 	}],
@@ -80,7 +81,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

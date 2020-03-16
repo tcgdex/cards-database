@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-H",
-	localId: "H",
+	id: "exu-Y",
+	localId: "Y",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/H/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/Y/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/H/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/Y/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Shin-ichi Yoshikawa",
+	illustrator: "Kyoko Koizumi",
 
 	abilities: [{
 		id: 88,
@@ -60,8 +60,9 @@ const card: Card = {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Search your deck for up to 2 Pokémon Tool cards and attach them to any of your Pokémon (excluding Pokémon that already have a Pokémon Tool attached to them). Shuffle your deck afterward.",
+			en: "The Defending Pokémon is now Asleep.",
 		},
+		damage: 10
 	}],
 
 	weaknesses: [{
@@ -79,7 +80,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

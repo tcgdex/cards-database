@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-U",
-	localId: "U",
+	id: "exu-R",
+	localId: "R",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/U/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/R/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/U/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/R/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Kyoko Koizumi",
+	illustrator: "Nakaoka",
 
 	abilities: [{
 		id: 88,
@@ -54,16 +54,15 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
-			Type.PSYCHIC,
+			Type.COLORLESS,
 			Type.COLORLESS
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+			en: "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand. (If your opponent doesn't have any Benched Pokémon or other Active Pokémon, this attack does nothing.)",
 		},
-		damage: 10
 	}],
 
 	weaknesses: [{
@@ -81,7 +80,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

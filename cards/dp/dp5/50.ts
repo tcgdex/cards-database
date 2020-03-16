@@ -36,8 +36,6 @@ const card: Card = {
 		},
 	},
 
-	evolveFrom: {},
-
 	tags: [
 		Tag.BASIC,
 	],

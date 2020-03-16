@@ -60,18 +60,6 @@ const card: Card = {
 		}
 	}],
 
-	attacks: [{
-		name: {
-			fr: "Règle des Évolutions TURBO",
-		},
-	}],
-
-
-
-
-
-
-
 	rarity: Rarity.RareBREAK,
 
 	category: Category.POKEMON,

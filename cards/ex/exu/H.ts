@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-D",
-	localId: "D",
+	id: "exu-H",
+	localId: "H",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/D/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/H/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/D/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/H/high",
 		},
 	},
 
@@ -60,7 +60,7 @@ const card: Card = {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Flip a coin. If heads, choose 1 of either player's Evolved Pokémon, remove the highest Stage Evolution card from that Pokémon, and put it into that player's hand.",
+			en: "Search your deck for up to 2 Pokémon Tool cards and attach them to any of your Pokémon (excluding Pokémon that already have a Pokémon Tool attached to them). Shuffle your deck afterward.",
 		},
 	}],
 
@@ -79,7 +79,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

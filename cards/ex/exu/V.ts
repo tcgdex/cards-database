@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-E",
-	localId: "E",
+	id: "exu-V",
+	localId: "V",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/E/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/V/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/E/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/V/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Shin-ichi Yoshikawa",
+	illustrator: "Kyoko Koizumi",
 
 	abilities: [{
 		id: 88,
@@ -54,14 +54,17 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
+			Type.PSYCHIC,
+			Type.COLORLESS,
 			Type.COLORLESS
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "If your opponent's Bench isn't full, look at his or her hand. Choose 1 Basic Pokémon you find there and put it onto your opponent's Bench. Then, switch it with the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
+			en: "Does 20 damage plus 10 more damage for each Basic Pokémon and each Evolution card in your discard pile. You can't add more than 60 damage in this way.",
 		},
+		damage: 20
 	}],
 
 	weaknesses: [{
@@ -79,7 +82,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

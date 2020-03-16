@@ -72,6 +72,15 @@ const card: Card = {
 		damage: "10x"
 	}],
 
+	item: {
+		name: {
+			fr: "Baie Ceriz"
+		},
+		effect: {
+			fr: "Si Ouisticram est Paralisé, retirez à Ouisticram l'État Spécial Paralysé à la fin du tour de chaque joueurs."
+		}
+	}
+
 	weaknesses: [{
 		type: Type.WATER,
 		value: "+10"

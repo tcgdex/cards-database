@@ -25,8 +25,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/bw/bwp/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/bw/bwp/logo"
+		symbol: "https://assets.tcgdex.net/univ/bw/bwp/symbol",
+		logo: "https://assets.tcgdex.net/en/bw/bwp/logo"
 	}
 }
 

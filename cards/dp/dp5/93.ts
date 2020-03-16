@@ -34,8 +34,6 @@ const card: Card = {
 		},
 	},
 
-	evolveFrom: {},
-
 	tags: [
 		Tag.SPECIAL,
 	],
@@ -44,12 +42,9 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			fr: "Si le Pokémon auquel Énergie Obscurité est attachée attaque, cette attaque inflige 10 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance). Ignorez cet effet si le Pokémon auquel Énergie Obscurité est attachée n'est pas Darkness. Énergie Obscurité fournit de l'Énergie Darkness. (Elle ne compte pas comme carte Énergie de base).",
-		},
-	}],
+	effect: {
+		fr: "Si le Pokémon auquel Énergie Obscurité est attachée attaque, cette attaque inflige 10 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance). Ignorez cet effet si le Pokémon auquel Énergie Obscurité est attachée n'est pas Darkness. Énergie Obscurité fournit de l'Énergie Darkness. (Elle ne compte pas comme carte Énergie de base).",
+	},
 
 
 

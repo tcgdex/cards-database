@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "xy10-111",
-	localId: 111,
+	id: "xy10-111a",
+	localId: "111a",
 
 	// Card informations
 	name: {

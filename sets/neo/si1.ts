@@ -20,8 +20,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/neo/si1/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/neo/si1/logo"
+		symbol: "https://assets.tcgdex.net/univ/neo/si1/symbol",
+		logo: "https://assets.tcgdex.net/en/neo/si1/logo"
 	},
 
 	availability: {

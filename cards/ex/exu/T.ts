@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-N",
-	localId: "N",
+	id: "exu-T",
+	localId: "T",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/N/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/T/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/N/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/T/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Nakaoka",
+	illustrator: "Kyoko Koizumi",
 
 	abilities: [{
 		id: 88,
@@ -54,13 +54,14 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
+			Type.COLORLESS,
 			Type.COLORLESS
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Remove 5 damage counters from Unown. (All if there are less than 5.)",
+			en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
 		},
 	}],
 
@@ -79,7 +80,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

@@ -23,7 +23,7 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/ecard/sp/symbol"
+		symbol: "https://assets.tcgdex.net/univ/ecard/sp/symbol"
 	},
 
 	availability: {

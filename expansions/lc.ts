@@ -4,10 +4,7 @@ const set: Expansion = {
 	name: {
 		en: "Legendary Collection",
 	},
-	code: "lc",
-	sets: [
-		"lc"
-	]
+	code: "lc"
 }
 
 export default set

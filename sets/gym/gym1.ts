@@ -21,8 +21,8 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/gym/gym1/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/gym/gym1/logo"
+		symbol: "https://assets.tcgdex.net/univ/gym/gym1/symbol",
+		logo: "https://assets.tcgdex.net/en/gym/gym1/logo"
 	},
 
 	availability: {

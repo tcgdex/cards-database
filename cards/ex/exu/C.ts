@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-F",
-	localId: "F",
+	id: "exu-C",
+	localId: "C",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/F/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/C/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/F/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/C/high",
 		},
 	},
 
@@ -54,16 +54,14 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
-			Type.PSYCHIC,
 			Type.COLORLESS
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Flip 3 coins. If 1 of them is heads, the Defending Pokémon is now Asleep. If 2 of them are heads, the Defending Pokémon is now Confused. If all of them are heads, the Defending Pokémon is now Paralyzed.",
+			en: "Search your opponent's discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your opponent's discard pile.)",
 		},
-		damage: 10
 	}],
 
 	weaknesses: [{
@@ -81,7 +79,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

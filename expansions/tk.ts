@@ -4,8 +4,7 @@ const tk: Expansion = {
 	name: {
 		en: "Trainer kit"
 	},
-	code: "tk",
-	sets: []
+	code: "tk"
 }
 
 export default tk

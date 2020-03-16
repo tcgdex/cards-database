@@ -27,7 +27,7 @@ const set: Set = {
 	},
 
 	images: {
-		symbol: `https://assets.tcgdex.net/univ/tk/${code}/symbol`
+		symbol: `https://assets.tcgdex.net/univ//tk/${code}/symbol`
 	},
 }
 

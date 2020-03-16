@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-J",
-	localId: "J",
+	id: "exu-E",
+	localId: "E",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/J/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/E/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/J/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/E/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Nakaoka",
+	illustrator: "Shin-ichi Yoshikawa",
 
 	abilities: [{
 		id: 88,
@@ -60,7 +60,7 @@ const card: Card = {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Flip a coin. If heads, switch all damage counters on Unown with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)",
+			en: "If your opponent's Bench isn't full, look at his or her hand. Choose 1 Basic Pokémon you find there and put it onto your opponent's Bench. Then, switch it with the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
 		},
 	}],
 
@@ -79,7 +79,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 

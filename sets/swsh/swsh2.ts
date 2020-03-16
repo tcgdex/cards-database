@@ -24,8 +24,8 @@ const swsh2: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/sets/swsh/swsh2/symbol",
-		logo: "https://assets.tcgdex.net/en/sets/swsh/swsh2/logo"
+		symbol: "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+		logo: "https://assets.tcgdex.net/en/swsh/swsh2/logo"
 	}
 }
 

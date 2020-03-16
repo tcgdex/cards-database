@@ -8,8 +8,8 @@ import Category from '@tcgdex/sdk/interfaces/Category'
 const card: Card = {
 
 	// ids
-	id: "ex10-X",
-	localId: "X",
+	id: "exu-M",
+	localId: "M",
 
 	// Card informations
 	name: {
@@ -26,10 +26,10 @@ const card: Card = {
 
 	image: {
 		low: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/X/low",
+			en: "https://assets.tcgdex.net/en/ex/exu/M/low",
 		},
 		high: {
-			en: "https://assets.tcgdex.net/en/ex/ex10/X/high",
+			en: "https://assets.tcgdex.net/en/ex/exu/M/high",
 		},
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 		Tag.BASIC,
 	],
 
-	illustrator: "Kyoko Koizumi",
+	illustrator: "Nakaoka",
 
 	abilities: [{
 		id: 88,
@@ -54,16 +54,14 @@ const card: Card = {
 
 	attacks: [{
 		cost: [
-			Type.PSYCHIC,
-			Type.COLORLESS
+			Type.PSYCHIC
 		],
 		name: {
 			en: "Hidden Power",
 		},
 		text: {
-			en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+			en: "Search your deck for a card that evolves from 1 of your Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) If you do, put 1 damage counter on Unown. Shuffle your deck afterward.",
 		},
-		damage: 20
 	}],
 
 	weaknesses: [{
@@ -81,7 +79,7 @@ const card: Card = {
 
 	set: {
 		name: "Unseen Forces",
-		code: "ex10"
+		code: "exu"
 	}
 }
 
