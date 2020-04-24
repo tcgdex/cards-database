@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 641,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/bw/bwp/BW96/low",
-			fr: "https://assets.tcgdex.net/fr/bw/bwp/BW96/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/bw/bwp/BW96/high",
-			fr: "https://assets.tcgdex.net/fr/bw/bwp/BW96/high",
-		},
-	},
 
 	evolveFrom: {},
 

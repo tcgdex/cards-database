@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 164,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY136/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY136/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Noctowl",

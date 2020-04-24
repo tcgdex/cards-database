@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 319,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY200/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY200/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Sharpedo-EX",

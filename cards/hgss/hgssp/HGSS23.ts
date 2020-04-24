@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 233,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/hgss/hsp/HGSS23/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/hgss/hsp/HGSS23/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Porygon",

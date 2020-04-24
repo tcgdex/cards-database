@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 658,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM197/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM197/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Frogadier",

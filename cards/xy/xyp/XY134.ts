@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 395,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY134/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY134/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Empoleon",

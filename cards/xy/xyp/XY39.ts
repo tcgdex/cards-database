@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 230,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY39/low",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY39/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY39/high",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY39/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Seadra",

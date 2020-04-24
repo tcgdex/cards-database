@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 571,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM89/low",
-			fr: "https://assets.tcgdex.net/fr/sm/smp/SM89/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM89/high",
-			fr: "https://assets.tcgdex.net/fr/sm/smp/SM89/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Zorua",

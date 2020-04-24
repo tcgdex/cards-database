@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 652,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY68/low",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY68/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY68/high",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY68/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Quilladin",

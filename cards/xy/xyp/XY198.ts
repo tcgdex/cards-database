@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 323,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY198/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY198/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Camerupt-EX",

@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 244,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/hgss/hsp/HGSS20/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/hgss/hsp/HGSS20/high",
-		},
-	},
 
 	evolveFrom: {},
 

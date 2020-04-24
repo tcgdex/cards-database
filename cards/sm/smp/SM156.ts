@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 149,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM156/low",
-			fr: "https://assets.tcgdex.net/fr/sm/smp/SM156/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM156/high",
-			fr: "https://assets.tcgdex.net/fr/sm/smp/SM156/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Dragonair",

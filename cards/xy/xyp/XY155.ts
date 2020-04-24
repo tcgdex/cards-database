@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 202,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY155/low",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY155/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY155/high",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY155/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Wobbuffet",

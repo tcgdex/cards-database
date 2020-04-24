@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 1,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM198/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM198/high",
-		},
-	},
 
 	evolveFrom: {},
 

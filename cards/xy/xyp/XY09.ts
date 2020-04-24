@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 445,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY09/low",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY09/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY09/high",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY09/high",
-		},
-	},
 
 	evolveFrom: {},
 

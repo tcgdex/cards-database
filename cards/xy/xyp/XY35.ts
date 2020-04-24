@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 376,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY35/low",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY35/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY35/high",
-			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY35/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Metagross-EX",

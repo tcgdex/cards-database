@@ -22,14 +22,6 @@ const card: Card = {
 
 
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY201/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/xy/xyp/XY201/high",
-		},
-	},
 
 	evolveFrom: {},
 

@@ -24,14 +24,6 @@ const card: Card = {
 
 	dexId: 6,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM195/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM195/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Charmeleon",

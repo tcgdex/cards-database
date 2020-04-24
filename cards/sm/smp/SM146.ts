@@ -25,16 +25,6 @@ const card: Card = {
 
 	dexId: 470,
 
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM146/low",
-			fr: "https://assets.tcgdex.net/fr/sm/smp/SM146/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/sm/smp/SM146/high",
-			fr: "https://assets.tcgdex.net/fr/sm/smp/SM146/high",
-		},
-	},
 
 	evolveFrom: {
 		en: "Eevee",
