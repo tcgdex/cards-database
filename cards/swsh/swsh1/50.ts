@@ -4,11 +4,15 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-50",
+	id: `${set.code}-${localId}`,
 	localId: 50,
 
 	dexId: 131,
@@ -25,19 +29,20 @@ const card: Card = {
 		Type.WATER,
 	],
 
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/50/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/50/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/50/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/50/low",
+			},
+
+
 	},
 
 	evolveFrom: {
 		en: "Lapras V",
 		fr: "Lokhlass V",
 	},
+
 
 	tags: [
 		Tag.VMAX,
@@ -46,34 +51,38 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 
+	attacks: [
+		{
+			cost: [
+				Type.COLORLESS,
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
 
-	attacks: [{
-		name: {
-			en: "VMAX rule",
-			fr: "Règle VMAX",
-		},
-	},{
-		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "G-Max Pump",
-			fr: "Pompe G-Max",
-		},
-		text: {
-			en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-		},
-		damage: "90+"
-	}],
+			name: {
+				en: "G-Max Pump",
+				fr: "Pompe G-Max",
+			},
 
-	weaknesses: [{
-		type: Type.LIGHTNING,
-		value: "×2"
-	}],
+			text: {
+				en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+			},
 
+			damage: "90+",
+
+		},
+	],
+
+
+	weaknesses: [
+		{
+			type: Type.LIGHTNING,
+
+			value: "×2",
+
+		},
+	],
 
 
 	retreat: 3,
@@ -82,10 +91,8 @@ const card: Card = {
 
 	category: Category.POKEMON,
 
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+
+	set,
 }
 
 export default card

@@ -13,20 +13,16 @@ const card: Card = {
 
 	// ids
 	id: `${set.code}-${localId}`,
-	localId: 50,
+	localId: 18,
 
-	dexId: 888,
 
 	// Card informations
 	name: {
-		en: "Inteleon VMAX",
+		en: "Rillaboom VMAX",
 	},
 
-	hp: 320,
+	hp: 330,
 
-	type: [
-		Type.WATER,
-	],
 
 
 	// image?: {
@@ -42,12 +38,11 @@ const card: Card = {
 
 
 	evolveFrom: {
-		en: "Inteleon V",
+		en: "Rillaboom V",
 	},
 
 
 	tags: [
-		Tag.VMAX,
 	],
 
 	illustrator: "5ban Graphics",
@@ -56,36 +51,37 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.WATER,
-			],
-
-			name: {
-				en: "Hydro Snipe",
-			},
-
-			text: {
-				en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-			},
-
-			damage: 60,
-
-		},
-		{
-			cost: [
-				Type.WATER,
-				Type.WATER,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Max Bullet",
+				en: "Scratch",
 			},
 
 			text: {
-				en: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: undefined,
 			},
 
-			damage: 160,
+			damage: 50,
+
+		},
+		{
+			cost: [
+				Type.GRASS,
+				Type.GRASS,
+				Type.GRASS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Max Beating",
+			},
+
+			text: {
+				en: "You may discard up to 3 Grass Energy from this Pokémon. If you do, this attack does 50 more damage for each card you discarded in this way.",
+			},
+
+			damage: "130+",
 
 		},
 	],
@@ -93,7 +89,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: Type.LIGHTNING, 
+			type: Type.FIRE, 
 
 			value: "×2",
 
@@ -101,7 +97,7 @@ const card: Card = {
 	],
 
 
-	retreat: 2,
+	retreat: 3,
 
 	rarity: Rarity.RareVMAX, 
 

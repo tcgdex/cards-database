@@ -4,12 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-200",
+	id: `${set.code}-${localId}`,
 	localId: 200,
+
 
 	// Card informations
 	name: {
@@ -19,18 +24,16 @@ const card: Card = {
 
 
 
-
-
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/200/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/200/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/200/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/200/low",
+			},
+
+
 	},
 
-	evolveFrom: {},
+
 
 	tags: [
 		Tag.SUPPORTER,
@@ -40,28 +43,19 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, you draw 5 cards, and your opponent draws 4 cards.",
-			fr: "Chaque joueur mélange sa main, puis la place en dessous de son deck. Si l’un des joueurs place ainsi au moins une carte en dessous de son deck, vous piochez 5 cartes et votre adversaire en pioche 4.",
-		},
-	}],
+	effect: {
+		en: "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, you draw 5 cards, and your opponent draws 4 cards.",
+	},
 
 
 
 
+	rarity: Rarity.RareUltra, 
+
+	category: Category.TRAINER, 
 
 
-
-	rarity: Rarity.RareUltra,
-
-	category: Category.TRAINER,
-
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+	set,
 }
 
 export default card

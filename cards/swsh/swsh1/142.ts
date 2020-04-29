@@ -4,12 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-142",
+	id: `${set.code}-${localId}`,
 	localId: 142,
+
 
 	// Card informations
 	name: {
@@ -23,19 +28,20 @@ const card: Card = {
 		Type.COLORLESS,
 	],
 
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/142/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/142/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/142/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/142/low",
+			},
+
+
 	},
 
 	evolveFrom: {
 		en: "Snorlax V",
 		fr: "Ronflex-V",
 	},
+
 
 	tags: [
 		Tag.VMAX,
@@ -44,34 +50,38 @@ const card: Card = {
 	illustrator: "aky CG Works",
 
 
+	attacks: [
+		{
+			cost: [
+				Type.COLORLESS,
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
 
-	attacks: [{
-		name: {
-			en: "VMAX rule",
-			fr: "Règle VMAX",
-		},
-	},{
-		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "G-Max Fall",
-			fr: "Chute G-Max",
-		},
-		text: {
-			en: "This attack does 30 more damage for each of your Benched Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
-		},
-		damage: "60+"
-	}],
+			name: {
+				en: "G-Max Fall",
+				fr: "Chute G-Max",
+			},
 
-	weaknesses: [{
-		type: Type.FIGHTING,
-		value: "×2"
-	}],
+			text: {
+				en: "This attack does 30 more damage for each of your Benched Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
+			},
 
+			damage: "60+",
+
+		},
+	],
+
+
+	weaknesses: [
+		{
+			type: Type.FIGHTING,
+
+			value: "×2",
+
+		},
+	],
 
 
 	retreat: 4,
@@ -80,10 +90,8 @@ const card: Card = {
 
 	category: Category.POKEMON,
 
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+
+	set,
 }
 
 export default card

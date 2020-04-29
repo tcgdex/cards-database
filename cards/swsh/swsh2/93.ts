@@ -13,20 +13,16 @@ const card: Card = {
 
 	// ids
 	id: `${set.code}-${localId}`,
-	localId: 50,
+	localId: 93,
 
-	dexId: 888,
 
 	// Card informations
 	name: {
-		en: "Inteleon VMAX",
+		en: "Dragapult VMAX",
 	},
 
 	hp: 320,
 
-	type: [
-		Type.WATER,
-	],
 
 
 	// image?: {
@@ -42,29 +38,28 @@ const card: Card = {
 
 
 	evolveFrom: {
-		en: "Inteleon V",
+		en: "Dragapult V",
 	},
 
 
 	tags: [
-		Tag.VMAX,
 	],
 
-	illustrator: "5ban Graphics",
+	illustrator: "aky CG Works",
 
 
 	attacks: [
 		{
 			cost: [
-				Type.WATER,
+				Type.PSYCHIC,
 			],
 
 			name: {
-				en: "Hydro Snipe",
+				en: "Shred",
 			},
 
 			text: {
-				en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
+				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
 			},
 
 			damage: 60,
@@ -72,20 +67,19 @@ const card: Card = {
 		},
 		{
 			cost: [
-				Type.WATER,
-				Type.WATER,
-				Type.COLORLESS,
+				Type.PSYCHIC,
+				Type.PSYCHIC,
 			],
 
 			name: {
-				en: "Max Bullet",
+				en: "Max Phantom",
 			},
 
 			text: {
-				en: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Put 5 damage counters on your opponent’s Benched Pokémon in any way you like.",
 			},
 
-			damage: 160,
+			damage: 130,
 
 		},
 	],
@@ -93,15 +87,23 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: Type.LIGHTNING, 
+			type: Type.DARKNESS, 
 
 			value: "×2",
 
 		},
 	],
 
+	resistances: [
+		{
+			type: Type.FIGHTING, 
 
-	retreat: 2,
+			value: "-30",
+
+		},
+	],
+
+	retreat: 1,
 
 	rarity: Rarity.RareVMAX, 
 

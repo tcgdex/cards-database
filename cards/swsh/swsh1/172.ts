@@ -4,12 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-172",
+	id: `${set.code}-${localId}`,
 	localId: 172,
+
 
 	// Card informations
 	name: {
@@ -19,18 +24,16 @@ const card: Card = {
 
 
 
-
-
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/172/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/172/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/172/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/172/low",
+			},
+
+
 	},
 
-	evolveFrom: {},
+
 
 	tags: [
 		Tag.ITEM,
@@ -40,28 +43,19 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Shuffle up to 2 Supporter cards from your discard pile into your deck.",
-			fr: "Mélangez avec votre deck jusqu’à 2 cartes Supporter de votre pile de défausse.",
-		},
-	}],
+	effect: {
+		en: "Shuffle up to 2 Supporter cards from your discard pile into your deck.",
+	},
 
 
 
 
+	rarity: Rarity.Uncommon, 
+
+	category: Category.TRAINER, 
 
 
-
-	rarity: Rarity.Uncommon,
-
-	category: Category.TRAINER,
-
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+	set,
 }
 
 export default card

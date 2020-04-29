@@ -4,12 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-184",
+	id: `${set.code}-${localId}`,
 	localId: 184,
+
 
 	// Card informations
 	name: {
@@ -19,18 +24,16 @@ const card: Card = {
 
 
 
-
-
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/184/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/184/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/184/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/184/low",
+			},
+
+
 	},
 
-	evolveFrom: {},
+
 
 	tags: [
 		Tag.SUPPORTER,
@@ -40,28 +43,19 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Put an Energy attached to 1 of your opponent’s Pokémon into their hand.",
-			fr: "Ajoutez à la main de votre adversaire une Énergie attachée à l’un de ses Pokémon.",
-		},
-	}],
+	effect: {
+		en: "Put an Energy attached to 1 of your opponent’s Pokémon into their hand.",
+	},
 
 
 
 
+	rarity: Rarity.Uncommon, 
+
+	category: Category.TRAINER, 
 
 
-
-	rarity: Rarity.Uncommon,
-
-	category: Category.TRAINER,
-
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+	set,
 }
 
 export default card

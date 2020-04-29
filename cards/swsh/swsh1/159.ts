@@ -4,12 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-159",
+	id: `${set.code}-${localId}`,
 	localId: 159,
+
 
 	// Card informations
 	name: {
@@ -19,18 +24,16 @@ const card: Card = {
 
 
 
-
-
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/159/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/159/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/159/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/159/low",
+			},
+
+
 	},
 
-	evolveFrom: {},
+
 
 	tags: [
 		Tag.ITEM,
@@ -40,28 +43,19 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.",
-			fr: "Lancez une pièce. Si c’est face, défaussez une Énergie de l’un des Pokémon de votre adversaire.",
-		},
-	}],
+	effect: {
+		en: "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.",
+	},
 
 
 
 
+	rarity: Rarity.Uncommon, 
+
+	category: Category.TRAINER, 
 
 
-
-	rarity: Rarity.Uncommon,
-
-	category: Category.TRAINER,
-
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+	set,
 }
 
 export default card

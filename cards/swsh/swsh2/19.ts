@@ -13,20 +13,16 @@ const card: Card = {
 
 	// ids
 	id: `${set.code}-${localId}`,
-	localId: 50,
+	localId: 19,
 
-	dexId: 888,
 
 	// Card informations
 	name: {
-		en: "Inteleon VMAX",
+		en: "Eldegoss V",
 	},
 
-	hp: 320,
+	hp: 180,
 
-	type: [
-		Type.WATER,
-	],
 
 
 	// image?: {
@@ -41,51 +37,45 @@ const card: Card = {
 	//}
 
 
-	evolveFrom: {
-		en: "Inteleon V",
-	},
 
 
 	tags: [
-		Tag.VMAX,
 	],
 
 	illustrator: "5ban Graphics",
 
+	abilities: [
+		{
+	type: AbilityType.TALENT, 
+
+	name: {
+		en: "Happy Match",
+	},
+
+	text: {
+		en: "When you play this Pokémon from your hand onto your Bench during your turn, you may put a Supporter card from your discard pile into your hand.",
+	},
+
+}
+,
+	],
 
 	attacks: [
 		{
 			cost: [
-				Type.WATER,
-			],
-
-			name: {
-				en: "Hydro Snipe",
-			},
-
-			text: {
-				en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-			},
-
-			damage: 60,
-
-		},
-		{
-			cost: [
-				Type.WATER,
-				Type.WATER,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Max Bullet",
+				en: "Float Up",
 			},
 
 			text: {
-				en: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "You may shuffle this Pokémon and all attached cards into your deck.",
 			},
 
-			damage: 160,
+			damage: 50,
 
 		},
 	],
@@ -93,7 +83,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: Type.LIGHTNING, 
+			type: Type.FIRE, 
 
 			value: "×2",
 
@@ -101,9 +91,9 @@ const card: Card = {
 	],
 
 
-	retreat: 2,
+	retreat: 1,
 
-	rarity: Rarity.RareVMAX, 
+	rarity: Rarity.RareV, 
 
 	category: Category.POKEMON, 
 

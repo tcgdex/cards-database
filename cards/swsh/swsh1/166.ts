@@ -4,12 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-166",
+	id: `${set.code}-${localId}`,
 	localId: 166,
+
 
 	// Card informations
 	name: {
@@ -19,18 +24,16 @@ const card: Card = {
 
 
 
-
-
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/166/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/166/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/166/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/166/low",
+			},
+
+
 	},
 
-	evolveFrom: {},
+
 
 	tags: [
 		Tag.ITEM,
@@ -40,28 +43,19 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Heal 120 damage from 1 of your Pokémon that has at least 2 Energy attached. If you healed any damage in this way, discard 2 Energy from it.",
-			fr: "Soignez 120 dégâts de l’un de vos Pokémon auquel sont attachées au moins 2 Énergies. Si des dégâts sont ainsi soignés, défaussez 2 Énergies de ce Pokémon.",
-		},
-	}],
+	effect: {
+		en: "Heal 120 damage from 1 of your Pokémon that has at least 2 Energy attached. If you healed any damage in this way, discard 2 Energy from it.",
+	},
 
 
 
 
+	rarity: Rarity.Uncommon, 
+
+	category: Category.TRAINER, 
 
 
-
-	rarity: Rarity.Uncommon,
-
-	category: Category.TRAINER,
-
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+	set,
 }
 
 export default card

@@ -13,20 +13,16 @@ const card: Card = {
 
 	// ids
 	id: `${set.code}-${localId}`,
-	localId: 50,
+	localId: 118,
 
-	dexId: 888,
 
 	// Card informations
 	name: {
-		en: "Inteleon VMAX",
+		en: "Garbodor",
 	},
 
-	hp: 320,
+	hp: 120,
 
-	type: [
-		Type.WATER,
-	],
 
 
 	// image?: {
@@ -42,50 +38,48 @@ const card: Card = {
 
 
 	evolveFrom: {
-		en: "Inteleon V",
+		en: "Trubbish",
 	},
 
 
 	tags: [
-		Tag.VMAX,
 	],
 
-	illustrator: "5ban Graphics",
+	illustrator: "AKIRA EGAWA",
 
+	abilities: [
+		{
+	type: AbilityType.TALENT, 
+
+	name: {
+		en: "Poisonous Puddle",
+	},
+
+	text: {
+		en: "Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned.",
+	},
+
+}
+,
+	],
 
 	attacks: [
 		{
 			cost: [
-				Type.WATER,
-			],
-
-			name: {
-				en: "Hydro Snipe",
-			},
-
-			text: {
-				en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-			},
-
-			damage: 60,
-
-		},
-		{
-			cost: [
-				Type.WATER,
-				Type.WATER,
+				Type.DARKNESS,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Max Bullet",
+				en: "Sludge Bomb",
 			},
 
 			text: {
-				en: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: undefined,
 			},
 
-			damage: 160,
+			damage: 80,
 
 		},
 	],
@@ -93,7 +87,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: Type.LIGHTNING, 
+			type: Type.FIGHTING, 
 
 			value: "×2",
 
@@ -103,7 +97,7 @@ const card: Card = {
 
 	retreat: 2,
 
-	rarity: Rarity.RareVMAX, 
+	rarity: Rarity.Rare, 
 
 	category: Category.POKEMON, 
 

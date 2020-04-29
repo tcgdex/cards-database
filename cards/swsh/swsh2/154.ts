@@ -13,20 +13,15 @@ const card: Card = {
 
 	// ids
 	id: `${set.code}-${localId}`,
-	localId: 50,
+	localId: 154,
 
-	dexId: 888,
 
 	// Card informations
 	name: {
-		en: "Inteleon VMAX",
+		en: "Boss’s Orders (Giovanni)",
 	},
 
-	hp: 320,
 
-	type: [
-		Type.WATER,
-	],
 
 
 	// image?: {
@@ -41,71 +36,27 @@ const card: Card = {
 	//}
 
 
-	evolveFrom: {
-		en: "Inteleon V",
-	},
 
 
 	tags: [
-		Tag.VMAX,
 	],
 
-	illustrator: "5ban Graphics",
+	illustrator: "nagimiso",
 
 
 	attacks: [
-		{
-			cost: [
-				Type.WATER,
-			],
-
-			name: {
-				en: "Hydro Snipe",
-			},
-
-			text: {
-				en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-			},
-
-			damage: 60,
-
-		},
-		{
-			cost: [
-				Type.WATER,
-				Type.WATER,
-				Type.COLORLESS,
-			],
-
-			name: {
-				en: "Max Bullet",
-			},
-
-			text: {
-				en: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			},
-
-			damage: 160,
-
-		},
 	],
 
-
-	weaknesses: [
-		{
-			type: Type.LIGHTNING, 
-
-			value: "×2",
-
-		},
-	],
+	effect: {
+		en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+	},
 
 
-	retreat: 2,
 
-	rarity: Rarity.RareVMAX, 
 
-	category: Category.POKEMON, 
+	rarity: Rarity.RareHolo, 
+
+	category: Category.TRAINER, 
 
 
 	set,

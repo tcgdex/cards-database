@@ -4,12 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-201",
+	id: `${set.code}-${localId}`,
 	localId: 201,
+
 
 	// Card informations
 	name: {
@@ -19,18 +24,16 @@ const card: Card = {
 
 
 
-
-
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/201/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/201/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/201/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/201/low",
+			},
+
+
 	},
 
-	evolveFrom: {},
+
 
 	tags: [
 		Tag.SUPPORTER,
@@ -40,28 +43,19 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Discard your hand and draw 7 cards.",
-			fr: "Défaussez votre main, puis piochez 7 cartes.",
-		},
-	}],
+	effect: {
+		en: "Discard your hand and draw 7 cards.",
+	},
 
 
 
 
+	rarity: Rarity.RareUltra, 
+
+	category: Category.TRAINER, 
 
 
-
-	rarity: Rarity.RareUltra,
-
-	category: Category.TRAINER,
-
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+	set,
 }
 
 export default card

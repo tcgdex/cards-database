@@ -4,12 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import path from 'path'
+import set from '../../../sets/swsh/swsh1'
+
+const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
 
 	// ids
-	id: "swsh1-176",
+	id: `${set.code}-${localId}`,
 	localId: 176,
+
 
 	// Card informations
 	name: {
@@ -19,18 +24,16 @@ const card: Card = {
 
 
 
-
-
-
-
 	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/swsh/swsh1/176/low",
-			fr: "https://assets.tcgdex.net/fr/swsh/swsh1/176/low",
-		}
+			low: {
+				en: "https://assets.tcgdex.net/en/swsh/swsh1/176/low",
+				fr: "https://assets.tcgdex.net/fr/swsh/swsh1/176/low",
+			},
+
+
 	},
 
-	evolveFrom: {},
+
 
 	tags: [
 		Tag.SUPPORTER,
@@ -40,28 +43,19 @@ const card: Card = {
 
 
 
-	attacks: [{
-		name: {},
-		text: {
-			en: "Heal 60 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
-			fr: "Soignez 60 dégâts de l’un de vos Pokémon, et il guérit de tous les États Spéciaux.",
-		},
-	}],
+	effect: {
+		en: "Heal 60 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
+	},
 
 
 
 
+	rarity: Rarity.Uncommon, 
+
+	category: Category.TRAINER, 
 
 
-
-	rarity: Rarity.Uncommon,
-
-	category: Category.TRAINER,
-
-	set: {
-		name: "Sword & Shield",
-		code: "swsh1"
-	}
+	set,
 }
 
 export default card

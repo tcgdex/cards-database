@@ -13,20 +13,16 @@ const card: Card = {
 
 	// ids
 	id: `${set.code}-${localId}`,
-	localId: 50,
+	localId: 36,
 
-	dexId: 888,
 
 	// Card informations
 	name: {
-		en: "Inteleon VMAX",
+		en: "Cinderace VMAX",
 	},
 
 	hp: 320,
 
-	type: [
-		Type.WATER,
-	],
 
 
 	// image?: {
@@ -42,12 +38,11 @@ const card: Card = {
 
 
 	evolveFrom: {
-		en: "Inteleon V",
+		en: "Cinderace V",
 	},
 
 
 	tags: [
-		Tag.VMAX,
 	],
 
 	illustrator: "5ban Graphics",
@@ -56,36 +51,37 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.WATER,
-			],
-
-			name: {
-				en: "Hydro Snipe",
-			},
-
-			text: {
-				en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-			},
-
-			damage: 60,
-
-		},
-		{
-			cost: [
-				Type.WATER,
-				Type.WATER,
+				Type.FIRE,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Max Bullet",
+				en: "Counter",
 			},
 
 			text: {
-				en: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage.",
 			},
 
-			damage: 160,
+			damage: "30+",
+
+		},
+		{
+			cost: [
+				Type.FIRE,
+				Type.FIRE,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Max Pyro Ball",
+			},
+
+			text: {
+				en: "Your opponent’s Active Pokémon is now Burned.",
+			},
+
+			damage: 170,
 
 		},
 	],
@@ -93,7 +89,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: Type.LIGHTNING, 
+			type: Type.WATER, 
 
 			value: "×2",
 
