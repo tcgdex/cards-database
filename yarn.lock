@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@tcgdex/sdk@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@tcgdex/sdk/-/sdk-1.0.4.tgz#4603212bcd19cf5bb70f0afb4508b0de987394e2"
-  integrity sha512-4fqSqDFawywt7EvzTmFxB7AKyWl0LiNltppsHlTQgM+glyggT3OOZm/t83jq7mdWli2JqSPqjPhLlSubPvCuGA==
+"@tcgdex/sdk@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@tcgdex/sdk/-/sdk-1.5.0.tgz#892b5aa29ac55c399d5f8130615fc3898f5f76e6"
+  integrity sha512-oPWYQdV26eIywM1JRannDuE2mgn49eRjRfqw5sSi0jZMGFWwR7ZindUeSbUyghno2m4YxpgfJgAaxeyMhnYtkg==
   dependencies:
     isomorphic-unfetch "^3.0.0"
 
-"@types/node@^13.9.1":
-  version "13.9.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.1.tgz#96f606f8cd67fb018847d9b61e93997dabdefc72"
-  integrity sha512-E6M6N0blf/jiZx8Q3nb0vNaswQeEyn0XlupO+xN6DtJ6r6IT4nXrTry7zhIfYvFCl3/8Cu6WIysmUBKiqV0bqQ==
+"@types/node@^13.9.0":
+  version "13.13.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.4.tgz#1581d6c16e3d4803eb079c87d4ac893ee7501c2c"
+  integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
 
 isomorphic-unfetch@^3.0.0:
   version "3.0.0"
@@ -27,7 +27,7 @@ node-fetch@^2.2.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
-typescript@^3.7.5:
+typescript@^3.7.0:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
   integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
