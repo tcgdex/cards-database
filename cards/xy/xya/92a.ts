@@ -54,7 +54,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.Uncommon,
+	rarity: Rarity.UNCOMMON,
 
 	category: Category.TRAINER,
 

@@ -95,7 +95,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.Rare,
+	rarity: Rarity.RARE,
 
 	category: Category.POKEMON,
 

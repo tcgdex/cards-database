@@ -21,7 +21,7 @@ const card: Card = {
 
 	illustrator: "Megumi Mizutani",
 
-	rarity: Rarity.Uncommon,
+	rarity: Rarity.UNCOMMON,
 
 	category: Category.TRAINER,
 

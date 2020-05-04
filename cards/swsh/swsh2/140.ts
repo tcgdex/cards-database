@@ -80,7 +80,7 @@ const card: Card = {
 
 	illustrator: "Hideki Ishikawa",
 
-	rarity: Rarity.Rare,
+	rarity: Rarity.RARE,
 
 	category: Category.POKEMON,
 

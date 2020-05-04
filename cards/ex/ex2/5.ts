@@ -82,7 +82,7 @@ const card: Card = {
 
 
 
-	rarity: Rarity.RareHolo,
+	rarity: Rarity.RARE,
 
 	category: Category.POKEMON,
 

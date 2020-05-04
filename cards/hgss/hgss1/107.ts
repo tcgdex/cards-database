@@ -98,7 +98,7 @@ const card: Card = {
 
 	retreat: 4,
 
-	rarity: Rarity.RarePrime,
+	rarity: Rarity.RARE,
 
 	category: Category.POKEMON,
 
