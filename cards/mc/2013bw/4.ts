@@ -60,7 +60,7 @@ const card: Card = {
 
 	retreat: 1,
 
-	rarity: Rarity.Common,
+	rarity: Rarity.COMMON,
 
 	illustrator: "Rya Ueda",
 
