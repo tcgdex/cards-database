@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-87",
 
-	localId: 139,
+	localId: 87,
 
 	name: {
-		en: "Zacian",
+		en: "Alcremie",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Mizue",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Milcery",
+	},
 
 
 
@@ -39,60 +42,49 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Decorate",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.",
 			},
 
-			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.PSYCHIC,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Draining Kiss",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Heal 30 damage from this Pokémon.",
 			},
 
-			damage: 120,
+			damage: 50,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.METAL, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

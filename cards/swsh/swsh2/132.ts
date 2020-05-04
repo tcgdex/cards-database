@@ -9,12 +9,12 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-132",
 
-	localId: 139,
+	localId: 132,
 
 	name: {
-		en: "Zacian",
+		en: "Durant",
 	},
 
 	tags: [
@@ -22,7 +22,7 @@ const card: Card = {
 
 	illustrator: "Hideki Ishikawa",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -39,37 +39,32 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Gathering Food",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "For each Energy attached to this Pokémon, search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck.",
 			},
 
-			damage: 30,
 
 		},
 		{
 			cost: [
 				Type.METAL,
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Metal Claw",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 80,
 
 		},
 	],
@@ -92,7 +87,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

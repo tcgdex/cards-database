@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-28",
 
-	localId: 139,
+	localId: 28,
 
 	name: {
-		en: "Zacian",
+		en: "Arcanine",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Hasuno",
 
 	rarity: Rarity.RARE, 
 
@@ -30,67 +30,57 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Growlithe",
+	},
 
 
 
 
 
+	abilities: [
+		{
+	type: AbilityType.TALENT, 
+
+	name: {
+		en: "Warming Up",
+	},
+
+	text: {
+		en: "If this Pokémon has a Burning Scarf attached, it gets +100 HP.",
+	},
+
+}
+,
+	],
 
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.FIRE,
+				Type.FIRE,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Fire Mane",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
-			damage: 30,
-
-		},
-		{
-			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS,
-			],
-
-			name: {
-				en: "Smashing Edge",
-			},
-
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
-
-			damage: 120,
+			damage: 130,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.WATER, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
-
-			value: "-30",
-
-		},
-	],
 
 	retreat: 2,
 

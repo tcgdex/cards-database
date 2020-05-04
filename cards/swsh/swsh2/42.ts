@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-42",
 
-	localId: 139,
+	localId: 42,
 
 	name: {
-		en: "Zacian",
+		en: "Pelipper",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Eri Yamaki",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Wingull",
+	},
 
 
 
@@ -39,44 +42,41 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Wing Attack",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
-			damage: 30,
+			damage: 50,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.WATER,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Power Cyclone",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
 			},
 
-			damage: 120,
+			damage: 110,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.LIGHTNING, 
 
 			value: "×2",
 
@@ -85,7 +85,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: Type.GRASS, 
+			type: Type.FIGHTING, 
 
 			value: "-30",
 

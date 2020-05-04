@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-133",
 
-	localId: 139,
+	localId: 133,
 
 	name: {
-		en: "Zacian",
+		en: "Honedge",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Sekio",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.COMMON, 
 
 	category: Category.POKEMON, 
 
@@ -44,32 +44,11 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Slicing Blade",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
 			damage: 30,
-
-		},
-		{
-			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS,
-			],
-
-			name: {
-				en: "Smashing Edge",
-			},
-
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
-
-			damage: 120,
 
 		},
 	],
@@ -92,7 +71,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-82",
 
-	localId: 139,
+	localId: 82,
 
 	name: {
-		en: "Zacian",
+		en: "Palossand",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Hasuno",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Sandygast",
+	},
 
 
 
@@ -39,44 +42,43 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Sand Sink",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Discard the top card of your opponent’s deck. If this Pokémon has a Cursed Shovel attached, discard 2 more cards from the top of your opponent's deck.",
 			},
 
-			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.PSYCHIC,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Super Absorption",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Heal 30 damage from this Pokémon.",
 			},
 
-			damage: 120,
+			damage: 90,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.DARKNESS, 
 
 			value: "×2",
 
@@ -85,14 +87,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: Type.GRASS, 
+			type: Type.FIGHTING, 
 
 			value: "-30",
 
 		},
 	],
 
-	retreat: 2,
+	retreat: 4,
 
 
 	// Card Trainer/Energy informations

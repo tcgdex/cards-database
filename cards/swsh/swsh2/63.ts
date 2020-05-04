@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-63",
 
-	localId: 139,
+	localId: 63,
 
 	name: {
-		en: "Zacian",
+		en: "Helioptile",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "0313",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.COMMON, 
 
 	category: Category.POKEMON, 
 
@@ -39,60 +39,33 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.LIGHTNING,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Thunder Jolt",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "This Pokémon also does 10 damage to itself.",
 			},
 
 			damage: 30,
-
-		},
-		{
-			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS,
-			],
-
-			name: {
-				en: "Smashing Edge",
-			},
-
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
-
-			damage: 120,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.FIGHTING, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

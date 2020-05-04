@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-66",
 
-	localId: 139,
+	localId: 66,
 
 	name: {
-		en: "Zacian",
+		en: "Vikavolt",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "kawayoo",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Charjabug",
+	},
 
 
 
@@ -39,58 +42,52 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.LIGHTNING,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Powerful Storm",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "This attack does 20 more damage for each Energy attached to all of your Pokémon.",
 			},
 
-			damage: 30,
+			damage: "60+",
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.LIGHTNING,
+				Type.COLORLESS,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Thunder Jolt Beam",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "This Pokémon also does 30 damage to itself.",
 			},
 
-			damage: 120,
+			damage: 170,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.FIGHTING, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
-
-			value: "-30",
-
-		},
-	],
 
 	retreat: 2,
 

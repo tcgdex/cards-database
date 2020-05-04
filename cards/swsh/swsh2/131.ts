@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-131",
 
-	localId: 139,
+	localId: 131,
 
 	name: {
-		en: "Zacian",
+		en: "Probopass",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Anesaki Dynamic",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Nosepass",
+	},
 
 
 
@@ -40,18 +43,17 @@ const card: Card = {
 		{
 			cost: [
 				Type.METAL,
-				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Gravitational Drop",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "This attack does 30 more damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
 			},
 
-			damage: 30,
+			damage: "10+",
 
 		},
 		{
@@ -62,12 +64,9 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Heavy Impact",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
 			damage: 120,
 
@@ -92,7 +91,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 4,
 
 
 	// Card Trainer/Energy informations

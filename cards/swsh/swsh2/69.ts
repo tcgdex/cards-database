@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-69",
 
-	localId: 139,
+	localId: 69,
 
 	name: {
-		en: "Zacian",
+		en: "Toxtricity",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "TOKIYA",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Toxel",
+	},
 
 
 
@@ -39,58 +42,45 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.LIGHTNING,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Poison Shout",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Your opponent’s Active Pokémon is now Poisoned.",
 			},
 
-			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.LIGHTNING,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Hammer In",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 90,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.FIGHTING, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
-
-			value: "-30",
-
-		},
-	],
 
 	retreat: 2,
 

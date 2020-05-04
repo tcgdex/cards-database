@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-40",
 
-	localId: 139,
+	localId: 40,
 
 	name: {
-		en: "Zacian",
+		en: "Gyarados",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "hatachu",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Magikarp",
+	},
 
 
 
@@ -39,60 +42,52 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.COLORLESS,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Wrack Down",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
-			damage: 30,
+			damage: 90,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.WATER,
+				Type.WATER,
+				Type.COLORLESS,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Big Storm",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Discard any Stadium in play.",
 			},
 
-			damage: 120,
+			damage: 200,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.LIGHTNING, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 4,
 
 
 	// Card Trainer/Energy informations

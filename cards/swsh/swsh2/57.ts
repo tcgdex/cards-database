@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-57",
 
-	localId: 139,
+	localId: 57,
 
 	name: {
-		en: "Zacian",
+		en: "Electrode",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "otumami",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Voltorb",
+	},
 
 
 
@@ -39,60 +42,45 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Orb Collector",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Search your deck for up to 3 Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
 			},
 
-			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.LIGHTNING,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Rolling Attack",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 70,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.FIGHTING, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
 
 
 	// Card Trainer/Energy informations

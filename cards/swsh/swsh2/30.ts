@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-30",
 
-	localId: 139,
+	localId: 30,
 
 	name: {
-		en: "Zacian",
+		en: "Magmortar",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Kazuma Koda",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Magmar",
+	},
 
 
 
@@ -39,16 +42,16 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.FIRE,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Burst Punch",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Your opponent’s Active Pokémon is now Burned.",
 			},
 
 			damage: 30,
@@ -56,43 +59,35 @@ const card: Card = {
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.FIRE,
+				Type.FIRE,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Ground Burn",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Each player discards the top card of their deck. This attack does 100 more damage for each Energy card discarded in this way.",
 			},
 
-			damage: 120,
+			damage: "80+",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.WATER, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

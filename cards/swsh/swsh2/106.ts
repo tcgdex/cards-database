@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-106",
 
-	localId: 139,
+	localId: 106,
 
 	name: {
-		en: "Zacian",
+		en: "Carkol",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Mitsuhiro Arita",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Rolycoly",
+	},
 
 
 
@@ -39,60 +42,46 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Ram",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
 			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.FIGHTING,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Heat Crash",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 60,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.GRASS, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

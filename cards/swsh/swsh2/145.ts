@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-145",
 
-	localId: 139,
+	localId: 145,
 
 	name: {
-		en: "Zacian",
+		en: "Unfezant",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Naoyo Kimura",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Tranquill",
+	},
 
 
 
@@ -39,44 +42,44 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Daunt",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "During your opponent’s next turn, the Defending Pokémon’s attacks do 50 less damage (before applying Weakness and Resistance).",
 			},
 
-			damage: 30,
+			damage: 50,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.COLORLESS,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Air Slash",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Discard an Energy from this Pokémon.",
 			},
 
-			damage: 120,
+			damage: 150,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.LIGHTNING, 
 
 			value: "×2",
 
@@ -85,14 +88,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: Type.GRASS, 
+			type: Type.FIGHTING, 
 
 			value: "-30",
 
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

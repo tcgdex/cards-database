@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-79",
 
-	localId: 139,
+	localId: 79,
 
 	name: {
-		en: "Zacian",
+		en: "Galarian Cursola",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Kagemaru Himeno",
 
 	rarity: Rarity.RARE, 
 
@@ -30,53 +30,53 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Galarian Corsola",
+	},
 
 
 
 
 
+	abilities: [
+		{
+	type: AbilityType.TALENT, 
+
+	name: {
+		en: "Perish Body",
+	},
+
+	text: {
+		en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out.",
+	},
+
+}
+,
+	],
 
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.PSYCHIC,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Corner",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			},
 
-			damage: 30,
-
-		},
-		{
-			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS,
-			],
-
-			name: {
-				en: "Smashing Edge",
-			},
-
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
-
-			damage: 120,
+			damage: 60,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.DARKNESS, 
 
 			value: "×2",
 
@@ -85,7 +85,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: Type.GRASS, 
+			type: Type.FIGHTING, 
 
 			value: "-30",
 

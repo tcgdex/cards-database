@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-175",
 
-	localId: 139,
+	localId: 175,
 
 	name: {
-		en: "Zacian",
+		en: "Rillaboom V",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "5ban Graphics",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.ULTRARARE, 
 
 	category: Category.POKEMON, 
 
@@ -39,37 +39,36 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.GRASS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Forest Feast",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.",
 			},
 
-			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.GRASS,
+				Type.GRASS,
+				Type.GRASS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Wood Hammer",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "This Pokémon also does 30 damage to itself.",
 			},
 
-			damage: 120,
+			damage: 220,
 
 		},
 	],
@@ -83,16 +82,8 @@ const card: Card = {
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-183",
 
-	localId: 139,
+	localId: 183,
 
 	name: {
-		en: "Zacian",
+		en: "Dragapult V",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "aky CG Works",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.ULTRARARE, 
 
 	category: Category.POKEMON, 
 
@@ -39,44 +39,39 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.PSYCHIC,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Bite",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
 			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS,
+				Type.PSYCHIC,
+				Type.PSYCHIC,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Jet Assault",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage.",
 			},
 
-			damage: 120,
+			damage: "60+",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.DARKNESS, 
 
 			value: "×2",
 
@@ -85,14 +80,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: Type.GRASS, 
+			type: Type.FIGHTING, 
 
 			value: "-30",
 
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

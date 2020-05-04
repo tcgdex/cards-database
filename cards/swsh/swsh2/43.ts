@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-43",
 
-	localId: 139,
+	localId: 43,
 
 	name: {
-		en: "Zacian",
+		en: "Milotic V",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Ayaka Yoshida",
 
 	rarity: Rarity.RARE, 
 
@@ -39,58 +39,52 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.WATER,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Aqua Impact",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "This attack does 50 more damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
 			},
 
-			damage: 30,
+			damage: "10+",
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.WATER,
+				Type.COLORLESS,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Hypno Splash",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 			},
 
-			damage: 120,
+			damage: 150,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.LIGHTNING, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
-
-			value: "-30",
-
-		},
-	],
 
 	retreat: 2,
 

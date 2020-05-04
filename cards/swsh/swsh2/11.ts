@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-11",
 
-	localId: 139,
+	localId: 11,
 
 	name: {
-		en: "Zacian",
+		en: "Masquerain",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "chibi",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Surskit",
+	},
 
 
 
@@ -39,16 +42,15 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Threatening Pattern",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "During your opponent’s next turn, Energy can’t be attached from your opponent's hand to the Defending Pokémon.",
 			},
 
 			damage: 30,
@@ -56,20 +58,19 @@ const card: Card = {
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "U-turn",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 			},
 
-			damage: 120,
+			damage: 40,
 
 		},
 	],
@@ -83,16 +84,8 @@ const card: Card = {
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

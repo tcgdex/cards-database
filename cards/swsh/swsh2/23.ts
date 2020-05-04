@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-23",
 
-	localId: 139,
+	localId: 23,
 
 	name: {
-		en: "Zacian",
+		en: "Appletun",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Akira Komayama",
 
 	rarity: Rarity.RARE, 
 
@@ -30,46 +30,43 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Applin",
+	},
 
 
 
 
 
+	abilities: [
+		{
+	type: AbilityType.TALENT, 
+
+	name: {
+		en: "Delicious Aroma",
+	},
+
+	text: {
+		en: "Once during your turn, you may flip a coin. If heads, switch 1 of your opponent’s Benched Basic Pokémon with their Active Pokémon.",
+	},
+
+}
+,
+	],
 
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
+				Type.GRASS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Solar Beam",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
-			damage: 30,
-
-		},
-		{
-			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS,
-			],
-
-			name: {
-				en: "Smashing Edge",
-			},
-
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
-
-			damage: 120,
+			damage: 70,
 
 		},
 	],
@@ -83,16 +80,8 @@ const card: Card = {
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

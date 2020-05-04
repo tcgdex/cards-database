@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-5",
 
-	localId: 139,
+	localId: 5,
 
 	name: {
-		en: "Zacian",
+		en: "Shuckle",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "HYOGONOSUKE",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -39,37 +39,35 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Berry Picking",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Shuffle up to 5 basic Energy cards from your discard pile into your deck.",
 			},
 
-			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.GRASS,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Bind",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 			},
 
-			damage: 120,
+			damage: 50,
 
 		},
 	],
@@ -83,16 +81,8 @@ const card: Card = {
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

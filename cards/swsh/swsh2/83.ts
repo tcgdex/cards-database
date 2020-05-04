@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-83",
 
-	localId: 139,
+	localId: 83,
 
 	name: {
-		en: "Zacian",
+		en: "Hatenna",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Mina Nakai",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.COMMON, 
 
 	category: Category.POKEMON, 
 
@@ -39,44 +39,38 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Find a Friend",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
 			},
 
-			damage: 30,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Psyshot",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 20,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.DARKNESS, 
 
 			value: "×2",
 
@@ -85,14 +79,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: Type.GRASS, 
+			type: Type.FIGHTING, 
 
 			value: "-30",
 
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

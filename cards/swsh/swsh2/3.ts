@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-3",
 
-	localId: 139,
+	localId: 3,
 
 	name: {
-		en: "Zacian",
+		en: "Butterfree",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Taira Akitsu",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Metapod",
+	},
 
 
 
@@ -39,16 +42,15 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.GRASS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Panic Poison",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.",
 			},
 
 			damage: 30,
@@ -56,20 +58,16 @@ const card: Card = {
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Cutting Wind",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 80,
 
 		},
 	],
@@ -83,16 +81,8 @@ const card: Card = {
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

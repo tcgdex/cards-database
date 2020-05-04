@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-95",
 
-	localId: 139,
+	localId: 95,
 
 	name: {
-		en: "Zacian",
+		en: "Galarian Sirfetch'd",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "You Iribi",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Galarian Farfetch'd",
+	},
 
 
 
@@ -39,58 +42,46 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.FIGHTING,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Pierce",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
-			damage: 30,
+			damage: 40,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.FIGHTING,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Meteor Assault",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "This Pokémon can't use Meteor Assault again until it leaves the Active Spot.",
 			},
 
-			damage: 120,
+			damage: 180,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.PSYCHIC, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
-
-			value: "-30",
-
-		},
-	],
 
 	retreat: 2,
 

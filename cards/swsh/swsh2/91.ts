@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-91",
 
-	localId: 139,
+	localId: 91,
 
 	name: {
-		en: "Zacian",
+		en: "Dragapult",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Shin Nagasawa",
 
 	rarity: Rarity.RARE, 
 
@@ -30,43 +30,43 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Drakloak",
+	},
 
 
 
 
 
+	abilities: [
+		{
+	type: AbilityType.TALENT, 
+
+	name: {
+		en: "Infiltrator",
+	},
+
+	text: {
+		en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+	},
+
+}
+,
+	],
 
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.PSYCHIC,
+				Type.PSYCHIC,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Phantom Force",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
-
-			damage: 30,
-
-		},
-		{
-			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS,
-			],
-
-			name: {
-				en: "Smashing Edge",
-			},
-
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Put 3 damage counters on your opponent’s Benched Pokémon in any way you like.",
 			},
 
 			damage: 120,
@@ -76,7 +76,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.DARKNESS, 
 
 			value: "×2",
 
@@ -85,14 +85,13 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: Type.GRASS, 
+			type: Type.FIGHTING, 
 
 			value: "-30",
 
 		},
 	],
 
-	retreat: 2,
 
 
 	// Card Trainer/Energy informations

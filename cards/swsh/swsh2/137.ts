@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-137",
 
-	localId: 139,
+	localId: 137,
 
 	name: {
-		en: "Zacian",
+		en: "Copperajah VMAX",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "5ban Graphics",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Copperajah V",
+	},
 
 
 
@@ -40,36 +43,35 @@ const card: Card = {
 		{
 			cost: [
 				Type.METAL,
+				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Dangerous Nose",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 100 more damage.",
 			},
 
-			damage: 30,
+			damage: "100+",
 
 		},
 		{
 			cost: [
 				Type.METAL,
 				Type.METAL,
+				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "G-Max Hammer",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 240,
 
 		},
 	],
@@ -92,7 +94,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 4,
 
 
 	// Card Trainer/Energy informations

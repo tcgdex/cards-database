@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-136",
 
-	localId: 139,
+	localId: 136,
 
 	name: {
-		en: "Zacian",
+		en: "Copperajah V",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "5ban Graphics",
 
 	rarity: Rarity.RARE, 
 
@@ -40,36 +40,35 @@ const card: Card = {
 		{
 			cost: [
 				Type.METAL,
+				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Adamantine Press",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
 			},
 
-			damage: 30,
+			damage: 90,
 
 		},
 		{
 			cost: [
 				Type.METAL,
 				Type.METAL,
+				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Wrack Down",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 180,
 
 		},
 	],
@@ -92,7 +91,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 4,
 
 
 	// Card Trainer/Energy informations

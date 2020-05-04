@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-34",
 
-	localId: 139,
+	localId: 34,
 
 	name: {
-		en: "Zacian",
+		en: "Heatmor",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Satoshi Shirai",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -39,34 +39,33 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Lick",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 			},
 
-			damage: 30,
+			damage: 20,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.FIRE,
+				Type.FIRE,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Flamethrower",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Discard an Energy from this Pokémon.",
 			},
 
 			damage: 120,
@@ -76,21 +75,13 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.WATER, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
-
-			value: "-30",
-
-		},
-	],
 
 	retreat: 2,
 

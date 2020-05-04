@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-135",
 
-	localId: 139,
+	localId: 135,
 
 	name: {
-		en: "Zacian",
+		en: "Aegislash",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Ryuta Fuse",
 
 	rarity: Rarity.RARE, 
 
@@ -30,46 +30,44 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Doublade",
+	},
 
 
 
 
 
+	abilities: [
+		{
+	type: AbilityType.TALENT, 
+
+	name: {
+		en: "Big Shield",
+	},
+
+	text: {
+		en: "All of your Pokémon take 30 less damage from your opponent’s attacks (after applying Weakness and Resistance). You can’t apply more than 1 Big Shield Ability at a time.",
+	},
+
+}
+,
+	],
 
 	attacks: [
 		{
 			cost: [
 				Type.METAL,
-				Type.COLORLESS,
-			],
-
-			name: {
-				en: "Energy Stream",
-			},
-
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
-
-			damage: 30,
-
-		},
-		{
-			cost: [
-				Type.METAL,
 				Type.METAL,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Power Edge",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
-			damage: 120,
+			damage: 130,
 
 		},
 	],
@@ -92,7 +90,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

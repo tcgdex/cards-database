@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-46",
 
-	localId: 139,
+	localId: 46,
 
 	name: {
-		en: "Zacian",
+		en: "Seismitoad",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "SATOSHI NAKAI",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Palpitoad",
+	},
 
 
 
@@ -39,16 +42,15 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.WATER,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Split Spiral Punch",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 			},
 
 			damage: 30,
@@ -56,43 +58,36 @@ const card: Card = {
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.WATER,
+				Type.COLORLESS,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Resonance",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "If your opponent’s Active Pokémon is Confused, this attack does 120 more damage.",
 			},
 
-			damage: 120,
+			damage: "120+",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.LIGHTNING, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

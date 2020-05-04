@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-15",
 
-	localId: 139,
+	localId: 15,
 
 	name: {
-		en: "Zacian",
+		en: "Trevenant",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "kawayoo",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Phantump",
+	},
 
 
 
@@ -39,34 +42,30 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.GRASS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Seed Bomb",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
-			damage: 30,
+			damage: 40,
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.GRASS,
+				Type.GRASS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Shadow Cage",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			},
 
 			damage: 120,
@@ -83,16 +82,8 @@ const card: Card = {
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

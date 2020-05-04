@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-62",
 
-	localId: 139,
+	localId: 62,
 
 	name: {
-		en: "Zacian",
+		en: "Luxray",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Hasuno",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Luxio",
+	},
 
 
 
@@ -39,35 +42,30 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.LIGHTNING,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Raid",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
 			},
 
-			damage: 30,
+			damage: "60+",
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.LIGHTNING,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Head Bolt",
 			},
 
-			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-			},
 
 			damage: 120,
 
@@ -76,23 +74,15 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.FIGHTING, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

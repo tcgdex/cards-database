@@ -4,87 +4,99 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
-import path from 'path'
-import swsh2 from '../../../sets/swsh/swsh2'
+import set from '../../../sets/swsh/swsh2'
 
-const localId = path.basename(__filename).split(".")[0]
 
 const card: Card = {
+	// Card Global Informations
+	id: "swsh2-140",
 
-	// ids
-	id: `swsh2-${localId}`,
-	localId: isNaN(parseInt(localId)) ? localId : parseInt(localId),
+	localId: 140,
 
-	dexId: 889,
-
-	// Card informations
 	name: {
 		en: "Zamazenta",
-		fr: "Zamazenta",
 	},
 
-	hp: 120,
-
-	type: [
-		Type.METAL
-	],
-
 	tags: [
-		Tag.BASIC,
 	],
+
+	illustrator: "Hideki Ishikawa",
+
+	rarity: Rarity.RARE, 
+
+	category: Category.POKEMON, 
+
+	set,
+
+
+	// Card Pokémon Informations
+
+
+
+
+
 
 	attacks: [
 		{
+			cost: [
+				Type.METAL,
+				Type.COLORLESS,
+			],
+
 			name: {
 				en: "Guard Press",
 			},
+
 			text: {
-				en: "During your opponent's next turn, this Pokémon takes 20 less famage from attacks (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
 			},
-			cost: [
-				Type.METAL,
-				Type.COLORLESS
-			],
-			damage: 30
+
+			damage: 30,
+
 		},
 		{
+			cost: [
+				Type.METAL,
+				Type.METAL,
+				Type.COLORLESS,
+			],
+
 			name: {
 				en: "Power Rush",
 			},
+
 			text: {
-				en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack."
+				en: "Flip a coin. If tails, during your next turn, this Pokémon can’t attack.",
 			},
-			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS
-			]
-		}
+
+			damage: 120,
+
+		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE,
-			value: "x2"
-		}
+			type: Type.FIRE, 
+
+			value: "×2",
+
+		},
 	],
 
 	resistances: [
 		{
-			type: Type.GRASS,
-			value: "-30"
-		}
+			type: Type.GRASS, 
+
+			value: "-30",
+
+		},
 	],
 
 	retreat: 2,
 
-	illustrator: "Hideki Ishikawa",
 
-	rarity: Rarity.RARE,
+	// Card Trainer/Energy informations
 
-	category: Category.POKEMON,
-
-	set: swsh2
 }
 
 export default card

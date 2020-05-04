@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-25",
 
-	localId: 139,
+	localId: 25,
 
 	name: {
-		en: "Zacian",
+		en: "Ninetales",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "AKIRA EGAWA",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Vulpix",
+	},
 
 
 
@@ -39,60 +42,51 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.FIRE,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Hex",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 90 more damage.",
 			},
 
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.FIRE,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Flickering Flames",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 			},
 
-			damage: 120,
+			damage: 90,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.WATER, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-184",
 
-	localId: 139,
+	localId: 184,
 
 	name: {
-		en: "Zacian",
+		en: "Sandaconda V",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "aky CG Works",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.ULTRARARE, 
 
 	category: Category.POKEMON, 
 
@@ -39,16 +39,15 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.FIGHTING,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Sand Eater",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Attach a Fighting Energy card from your discard pile to this Pokémon.",
 			},
 
 			damage: 30,
@@ -56,43 +55,35 @@ const card: Card = {
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
+				Type.FIGHTING,
+				Type.FIGHTING,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Sand Breath",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Discard 2 Energy from this Pokémon.",
 			},
 
-			damage: 120,
+			damage: 220,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.GRASS, 
 
 			value: "×2",
 
 		},
 	],
 
-	resistances: [
-		{
-			type: Type.GRASS, 
 
-			value: "-30",
-
-		},
-	],
-
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

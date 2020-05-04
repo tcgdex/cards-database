@@ -9,20 +9,20 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-130",
 
-	localId: 139,
+	localId: 130,
 
 	name: {
-		en: "Zacian",
+		en: "Bronzong",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "MAHOU",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.UNCOMMON, 
 
 	category: Category.POKEMON, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Bronzor",
+	},
 
 
 
@@ -40,16 +43,12 @@ const card: Card = {
 		{
 			cost: [
 				Type.METAL,
-				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Smack",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
 			damage: 30,
 
@@ -57,19 +56,19 @@ const card: Card = {
 		{
 			cost: [
 				Type.METAL,
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Gyro Ball",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Switch this Pokémon with 1 of your Benched Pokémon. If you do, your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
 			},
 
-			damage: 120,
+			damage: 70,
 
 		},
 	],
@@ -92,7 +91,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 3,
 
 
 	// Card Trainer/Energy informations

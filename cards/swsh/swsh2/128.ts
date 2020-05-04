@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-128",
 
-	localId: 139,
+	localId: 128,
 
 	name: {
-		en: "Zacian",
+		en: "Scizor",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Ryuta Fuse",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Scyther",
+	},
 
 
 
@@ -40,36 +43,35 @@ const card: Card = {
 		{
 			cost: [
 				Type.METAL,
-				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Raid",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "If this Pokémon evolved from Scyther during this turn, this attack does 90 more damage.",
 			},
 
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
 			cost: [
 				Type.METAL,
-				Type.METAL,
+				Type.COLORLESS,
 				Type.COLORLESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Guard Claw",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
 			},
 
-			damage: 120,
+			damage: 90,
 
 		},
 	],
@@ -92,7 +94,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
 
 	// Card Trainer/Energy informations

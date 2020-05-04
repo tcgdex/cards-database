@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-120",
 
-	localId: 139,
+	localId: 120,
 
 	name: {
-		en: "Zacian",
+		en: "Mandibuzz",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "kodama",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Vullaby",
+	},
 
 
 
@@ -39,44 +42,41 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				Type.METAL,
-				Type.COLORLESS,
+				Type.DARKNESS,
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Bone Rush",
 			},
 
 			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				en: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
 			},
 
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
 			cost: [
-				Type.METAL,
-				Type.METAL,
-				Type.COLORLESS,
+				Type.DARKNESS,
+				Type.DARKNESS,
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Blindside",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "This attack does 100 damage to 1 of your opponent’s Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 
-			damage: 120,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: Type.FIRE, 
+			type: Type.LIGHTNING, 
 
 			value: "×2",
 
@@ -85,7 +85,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: Type.GRASS, 
+			type: Type.FIGHTING, 
 
 			value: "-30",
 

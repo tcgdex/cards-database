@@ -9,18 +9,18 @@ import set from '../../../sets/swsh/swsh2'
 
 const card: Card = {
 	// Card Global Informations
-	id: "swsh2-139",
+	id: "swsh2-127",
 
-	localId: 139,
+	localId: 127,
 
 	name: {
-		en: "Zacian",
+		en: "Galarian Perrserker",
 	},
 
 	tags: [
 	],
 
-	illustrator: "Hideki Ishikawa",
+	illustrator: "Naoki Saito",
 
 	rarity: Rarity.RARE, 
 
@@ -30,6 +30,9 @@ const card: Card = {
 
 
 	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Galarian Meowth",
+	},
 
 
 
@@ -44,14 +47,11 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Energy Stream",
+				en: "Slash",
 			},
 
-			text: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-			},
 
-			damage: 30,
+			damage: 50,
 
 		},
 		{
@@ -62,14 +62,14 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Smashing Edge",
+				en: "Claw Dagger",
 			},
 
 			text: {
-				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
+				en: "Flip 3 coins. This attack does 80 damage for each heads.",
 			},
 
-			damage: 120,
+			damage: "80×",
 
 		},
 	],
