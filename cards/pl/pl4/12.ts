@@ -23,9 +23,9 @@ const card: Card = {
 
 	illustrator: "Ryota Saito",
 
-	rarity: Rarity.RARE, 
+	rarity: Rarity.RARE,
 
-	category: Category.POKEMON, 
+	category: Category.POKEMON,
 
 	set,
 	image: {
@@ -90,7 +90,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-
+			type: Type.LIGHTNING,
 			value: "×2",
 
 		},
@@ -98,7 +98,7 @@ const card: Card = {
 
 	resistances: [
 		{
-
+			type: Type.FIGHTING,
 			value: "-20",
 
 		},
