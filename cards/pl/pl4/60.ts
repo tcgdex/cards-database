@@ -4,36 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-60",
+
 	localId: 60,
 
-	// Card informations
 	name: {
 		en: "Cherubi",
 	},
-
-	hp: 50,
-
-	type: [
-		Type.GRASS,
-	],
-
-	dexId: 420,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/60/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/60/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,
@@ -41,47 +23,87 @@ const card: Card = {
 
 	illustrator: "Yuka Morii",
 
+	rarity: Rarity.COMMON, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/60/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/60/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.COLORLESS
-		],
-		name: {
-			en: "Ram",
+	// Card Pokémon Informations
+
+	dexId: 420,
+
+
+
+	type: [
+		Type.GRASS,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Ram",
+			},
+
+
+			damage: 10,
+
 		},
-		damage: 10
-	},{
-		cost: [
-			Type.GRASS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Solarbeam",
+		{
+			cost: [
+				Type.GRASS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Solarbeam",
+			},
+
+
+			damage: 20,
+
 		},
-		damage: 20
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "+10"
-	}],
+	weaknesses: [
+		{
+			type: Type.FIRE, 
 
-	resistances: [{
-		type: Type.WATER,
-		value: "-20"
-	}],
+			value: "+10",
+
+		},
+	],
+
+	resistances: [
+		{
+			type: Type.WATER, 
+
+			value: "-20",
+
+		},
+	],
+
+	retreat: 1,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.COMMON,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

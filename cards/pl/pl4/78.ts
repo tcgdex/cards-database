@@ -4,36 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-78",
+
 	localId: 78,
 
-	// Card informations
 	name: {
 		en: "Treecko",
 	},
-
-	hp: 60,
-
-	type: [
-		Type.GRASS,
-	],
-
-	dexId: 252,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/78/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/78/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,
@@ -41,42 +23,77 @@ const card: Card = {
 
 	illustrator: "TOKIYA",
 
+	rarity: Rarity.COMMON, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/78/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/78/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Tail Crush",
+	// Card Pokémon Informations
+
+	dexId: 252,
+
+
+
+	type: [
+		Type.GRASS,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Tail Crush",
+			},
+
+			text: {
+				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+			},
+
+			damage: "20+",
+
 		},
-		text: {
-			en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+	],
+
+	weaknesses: [
+		{
+			type: Type.FIRE, 
+
+			value: "+10",
+
 		},
-		damage: 20
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "+10"
-	}],
+	resistances: [
+		{
+			type: Type.WATER, 
 
-	resistances: [{
-		type: Type.WATER,
-		value: "-20"
-	}],
+			value: "-20",
+
+		},
+	],
+
+	retreat: 1,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.COMMON,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

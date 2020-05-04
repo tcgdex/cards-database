@@ -4,34 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-92",
+
 	localId: 92,
 
-	// Card informations
 	name: {
 		en: "Dome Fossil",
 	},
-
-	hp: 50,
-
-
-
-
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/92/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/92/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.ITEM,
@@ -39,6 +23,24 @@ const card: Card = {
 
 	illustrator: "Ryo Ueda",
 
+	rarity: Rarity.COMMON, 
+
+	category: Category.TRAINER, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/92/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/92/high",
+			},
+
+	},
+
+
+	// Card Pokémon Informations
 
 
 
@@ -49,14 +51,12 @@ const card: Card = {
 
 
 
-	rarity: Rarity.COMMON,
 
-	category: Category.TRAINER,
+	// Card Trainer/Energy informations
+	effect: {
+		en: "Play Dome Fossil as if it were a Colorless Basic Pokémon. (Dome Fossil counts as a Trainer card as well, but if Dome Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Dome Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Dome Fossil from play. (This doesn't count as a Knocked Out Pokémon.)",
+	},
 
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

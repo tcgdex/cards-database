@@ -4,37 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-14",
+
 	localId: 14,
 
-	// Card informations
 	name: {
 		en: "Bronzong",
-	},
-
-	hp: 90,
-
-	type: [
-		Type.METAL,
-	],
-
-	dexId: 437,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/14/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/14/high",
-		},
-	},
-
-	evolveFrom: {
-		en: "Bronzor",
 	},
 
 	tags: [
@@ -43,54 +23,97 @@ const card: Card = {
 
 	illustrator: "Atsuko Nishida",
 
+	rarity: Rarity.RARE, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/14/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/14/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.METAL,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Oracle Arrow",
+	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Bronzor",
+	},
+
+	dexId: 437,
+
+
+
+	type: [
+		Type.METAL,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.METAL,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Oracle Arrow",
+			},
+
+			text: {
+				en: "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			},
+
+
 		},
-		text: {
-			en: "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+		{
+			cost: [
+				Type.METAL,
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Antigravity",
+			},
+
+			text: {
+				en: "The Retreat Cost for Bronzong is 0 until the end of your next turn.",
+			},
+
+			damage: 60,
+
 		},
-	},{
-		cost: [
-			Type.METAL,
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Antigravity",
+	],
+
+	weaknesses: [
+		{
+			type: Type.FIRE, 
+
+			value: "+20",
+
 		},
-		text: {
-			en: "The Retreat Cost for Bronzong is 0 until the end of your next turn.",
+	],
+
+	resistances: [
+		{
+			type: Type.PSYCHIC, 
+
+			value: "-20",
+
 		},
-		damage: 60
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "+20"
-	}],
-
-	resistances: [{
-		type: Type.PSYCHIC,
-		value: "-20"
-	}],
+	retreat: 3,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.RARE,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

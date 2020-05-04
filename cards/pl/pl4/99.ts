@@ -4,36 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-99",
+
 	localId: 99,
 
-	// Card informations
 	name: {
-		en: "Tangrowth",
+		en: "Tangrowth LV. X",
 	},
-
-	hp: 130,
-
-	type: [
-		Type.GRASS,
-	],
-
-	dexId: 465,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/99/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/99/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.LEVELUP,
@@ -41,49 +23,90 @@ const card: Card = {
 
 	illustrator: "Ryo Ueda",
 
-	abilities: [{
-		id: 187,
-		type: AbilityType.POKEPOWER,
-		name: {
-			en: "Healing Growth",
+	rarity: Rarity.RARE, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/99/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/99/high",
+			},
+
+	},
+
+
+	// Card Pokémon Informations
+
+	dexId: 465,
+
+
+
+	type: [
+		Type.GRASS,
+	],
+
+	abilities: [
+		{
+	type: AbilityType.POKEPOWER, 
+
+	name: {
+		en: "Healing Growth",
+	},
+
+	text: {
+		en: "Once during your turn (before your attack), you may flip a coin. If heads, remove 4 damage counters from 1 of your Pokémon. This power can't be used if Tangrowth is affected by a Special Condition.",
+	},
+
+}
+,
+	],
+
+	attacks: [
+		{
+			cost: [
+				Type.GRASS,
+			],
+
+			name: {
+				en: "Big Growth",
+			},
+
+			text: {
+				en: "Search your discard pile for as many Grass Energy cards as you like and attach them to your Pokémon in any way you like.",
+			},
+
+
 		},
-		text: {
-			en: "Once during your turn (before your attack), you may flip a coin. If heads, remove 4 damage counters from 1 of your Pokémon. This power can't be used if Tangrowth is affected by a Special Condition.",
-		}
-	}],
+	],
 
-	attacks: [{
-		cost: [
-			Type.GRASS
-		],
-		name: {
-			en: "Big Growth",
+	weaknesses: [
+		{
+			type: Type.FIRE, 
+
+			value: "×2",
+
 		},
-		text: {
-			en: "Search your discard pile for as many Grass Energy cards as you like and attach them to your Pokémon in any way you like.",
+	],
+
+	resistances: [
+		{
+			type: Type.WATER, 
+
+			value: "-20",
+
 		},
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: Type.WATER,
-		value: "-20"
-	}],
+	retreat: 3,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.RARE,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

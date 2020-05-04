@@ -4,37 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-28",
+
 	localId: 28,
 
-	// Card informations
 	name: {
 		en: "Rapidash",
-	},
-
-	hp: 80,
-
-	type: [
-		Type.FIRE,
-	],
-
-	dexId: 78,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/28/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/28/high",
-		},
-	},
-
-	evolveFrom: {
-		en: "Ponyta",
 	},
 
 	tags: [
@@ -43,57 +23,100 @@ const card: Card = {
 
 	illustrator: "Lee HyunJung",
 
-	abilities: [{
-		id: 882,
-		type: AbilityType.POKEBODY,
-		name: {
-			en: "Wild Guard",
+	rarity: Rarity.RARE, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/28/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/28/high",
+			},
+
+	},
+
+
+	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Ponyta",
+	},
+
+	dexId: 78,
+
+
+
+	type: [
+		Type.FIRE,
+	],
+
+	abilities: [
+		{
+	type: AbilityType.POKEBODY, 
+
+	name: {
+		en: "Wild Guard",
+	},
+
+	text: {
+		en: "Prevent all effects of attacks, including damage, done to Rapidash by your opponent's Pokémon SP.",
+	},
+
+}
+,
+	],
+
+	attacks: [
+		{
+			cost: [
+				Type.FIRE,
+			],
+
+			name: {
+				en: "Fire Mane",
+			},
+
+
+			damage: 20,
+
 		},
-		text: {
-			en: "Prevent all effects of attacks, including damage, done to Rapidash by your opponent's Pokémon SP.",
-		}
-	}],
+		{
+			cost: [
+				Type.FIRE,
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
 
-	attacks: [{
-		cost: [
-			Type.FIRE
-		],
-		name: {
-			en: "Fire Mane",
+			name: {
+				en: "Rising Lunge",
+			},
+
+			text: {
+				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
+			},
+
+			damage: "50+",
+
 		},
-		damage: 20
-	},{
-		cost: [
-			Type.FIRE,
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Rising Lunge",
+	],
+
+	weaknesses: [
+		{
+			type: Type.WATER, 
+
+			value: "+20",
+
 		},
-		text: {
-			en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
-		},
-		damage: 50
-	}],
-
-	weaknesses: [{
-		type: Type.WATER,
-		value: "+20"
-	}],
+	],
 
 
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.RARE,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

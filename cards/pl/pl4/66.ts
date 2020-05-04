@@ -4,36 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-66",
+
 	localId: 66,
 
-	// Card informations
 	name: {
 		en: "Gulpin",
 	},
-
-	hp: 60,
-
-	type: [
-		Type.PSYCHIC,
-	],
-
-	dexId: 316,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/66/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/66/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,
@@ -41,46 +23,81 @@ const card: Card = {
 
 	illustrator: "Sumiyoshi Kizuki",
 
+	rarity: Rarity.COMMON, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/66/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/66/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.COLORLESS
-		],
-		name: {
-			en: "Collect",
+	// Card Pokémon Informations
+
+	dexId: 316,
+
+
+
+	type: [
+		Type.PSYCHIC,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Collect",
+			},
+
+			text: {
+				en: "Draw a card.",
+			},
+
+
 		},
-		text: {
-			en: "Draw a card.",
+		{
+			cost: [
+				Type.PSYCHIC,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Drool",
+			},
+
+
+			damage: 20,
+
 		},
-	},{
-		cost: [
-			Type.PSYCHIC,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Drool",
+	],
+
+	weaknesses: [
+		{
+			type: Type.PSYCHIC, 
+
+			value: "+10",
+
 		},
-		damage: 20
-	}],
-
-	weaknesses: [{
-		type: Type.PSYCHIC,
-		value: "+10"
-	}],
+	],
 
 
+	retreat: 1,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.COMMON,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

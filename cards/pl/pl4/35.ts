@@ -4,37 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-35",
+
 	localId: 35,
 
-	// Card informations
 	name: {
 		en: "Charmeleon",
-	},
-
-	hp: 80,
-
-	type: [
-		Type.FIRE,
-	],
-
-	dexId: 5,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/35/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/35/high",
-		},
-	},
-
-	evolveFrom: {
-		en: "Charmander",
 	},
 
 	tags: [
@@ -43,49 +23,87 @@ const card: Card = {
 
 	illustrator: "Sumiyoshi Kizuki",
 
+	rarity: Rarity.UNCOMMON, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/35/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/35/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Slam",
+	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Charmander",
+	},
+
+	dexId: 5,
+
+
+
+	type: [
+		Type.FIRE,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Slam",
+			},
+
+			text: {
+				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+			},
+
+			damage: "30x",
+
 		},
-		text: {
-			en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+		{
+			cost: [
+				Type.FIRE,
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Fire Punch",
+			},
+
+
+			damage: 50,
+
 		},
-		damage: 30
-	},{
-		cost: [
-			Type.FIRE,
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Fire Punch",
+	],
+
+	weaknesses: [
+		{
+			type: Type.WATER, 
+
+			value: "+20",
+
 		},
-		damage: 50
-	}],
-
-	weaknesses: [{
-		type: Type.WATER,
-		value: "+20"
-	}],
+	],
 
 
+	retreat: 1,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.UNCOMMON,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

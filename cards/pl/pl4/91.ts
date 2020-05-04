@@ -4,37 +4,19 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-91",
+
 	localId: 91,
 
-	// Card informations
 	name: {
 		en: "Ultimate Zone",
 		fr: "Zone ultime",
 	},
-
-
-
-
-
-
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/91/low",
-			fr: "https://assets.tcgdex.net/fr/pl/pl4/91/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/91/high",
-			fr: "https://assets.tcgdex.net/fr/pl/pl4/91/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.STADIUM,
@@ -42,19 +24,26 @@ const card: Card = {
 
 	illustrator: "Yusuke Ishikawa",
 
+	rarity: Rarity.UNCOMMON, 
+
+	category: Category.TRAINER, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/91/low",
+				fr: "https://assets.tcgdex.net/fr/pl/pl4/91/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/91/high",
+				fr: "https://assets.tcgdex.net/fr/pl/pl4/91/high",
+			},
+
+	},
 
 
-	attacks: [{
-		name: {},
-		text: {
-			fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
-		},
-	},{
-		name: {},
-		text: {
-			fr: "Lors du tour de chaque joueur, celui-ci peut déplacer une carte Énergie attachée à 1 de ses Pokémon de Banc sur son Arceus Actif autant de fois qu'il ou elle le veut.",
-		},
-	}],
+	// Card Pokémon Informations
 
 
 
@@ -62,14 +51,15 @@ const card: Card = {
 
 
 
-	rarity: Rarity.UNCOMMON,
 
-	category: Category.TRAINER,
 
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
+
+
+	// Card Trainer/Energy informations
+	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+	},
+
 }
 
 export default card

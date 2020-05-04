@@ -4,36 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-63",
+
 	localId: 63,
 
-	// Card informations
 	name: {
 		en: "Electrike",
 	},
-
-	hp: 60,
-
-	type: [
-		Type.LIGHTNING,
-	],
-
-	dexId: 309,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/63/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/63/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,
@@ -41,38 +23,73 @@ const card: Card = {
 
 	illustrator: "Shin Nagasawa",
 
+	rarity: Rarity.COMMON, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/63/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/63/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.COLORLESS
-		],
-		name: {
-			en: "Bite",
+	// Card Pokémon Informations
+
+	dexId: 309,
+
+
+
+	type: [
+		Type.LIGHTNING,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Bite",
+			},
+
+
+			damage: 10,
+
 		},
-		damage: 10
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.FIGHTING,
-		value: "+10"
-	}],
+	weaknesses: [
+		{
+			type: Type.FIGHTING, 
 
-	resistances: [{
-		type: Type.METAL,
-		value: "-20"
-	}],
+			value: "+10",
+
+		},
+	],
+
+	resistances: [
+		{
+			type: Type.METAL, 
+
+			value: "-20",
+
+		},
+	],
+
+	retreat: 1,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.COMMON,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

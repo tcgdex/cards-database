@@ -4,37 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-37",
+
 	localId: 37,
 
-	// Card informations
 	name: {
 		en: "Graveler",
-	},
-
-	hp: 90,
-
-	type: [
-		Type.FIGHTING,
-	],
-
-	dexId: 75,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/37/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/37/high",
-		},
-	},
-
-	evolveFrom: {
-		en: "Geodude",
 	},
 
 	tags: [
@@ -43,52 +23,95 @@ const card: Card = {
 
 	illustrator: "Sachiko Adachi",
 
+	rarity: Rarity.UNCOMMON, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/37/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/37/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Tackle",
+	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Geodude",
+	},
+
+	dexId: 75,
+
+
+
+	type: [
+		Type.FIGHTING,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Tackle",
+			},
+
+
+			damage: 30,
+
 		},
-		damage: 30
-	},{
-		cost: [
-			Type.FIGHTING,
-			Type.FIGHTING,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Double-edge",
+		{
+			cost: [
+				Type.FIGHTING,
+				Type.FIGHTING,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Double-edge",
+			},
+
+			text: {
+				en: "Graveler does 10 damage to itself.",
+			},
+
+			damage: 70,
+
 		},
-		text: {
-			en: "Graveler does 10 damage to itself.",
+	],
+
+	weaknesses: [
+		{
+			type: Type.GRASS, 
+
+			value: "+20",
+
 		},
-		damage: 70
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.GRASS,
-		value: "+20"
-	}],
+	resistances: [
+		{
+			type: Type.LIGHTNING, 
 
-	resistances: [{
-		type: Type.LIGHTNING,
-		value: "-20"
-	}],
+			value: "-20",
+
+		},
+	],
+
+	retreat: 3,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.UNCOMMON,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

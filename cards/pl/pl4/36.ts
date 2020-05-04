@@ -4,36 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-36",
+
 	localId: 36,
 
-	// Card informations
 	name: {
 		en: "Gastly",
 	},
-
-	hp: 50,
-
-	type: [
-		Type.PSYCHIC,
-	],
-
-	dexId: 92,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/36/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/36/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,
@@ -41,53 +23,93 @@ const card: Card = {
 
 	illustrator: "kawayoo",
 
+	rarity: Rarity.UNCOMMON, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/36/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/36/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.PSYCHIC
-		],
-		name: {
-			en: "Lick",
+	// Card Pokémon Informations
+
+	dexId: 92,
+
+
+
+	type: [
+		Type.PSYCHIC,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.PSYCHIC,
+			],
+
+			name: {
+				en: "Lick",
+			},
+
+			text: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			},
+
+			damage: 10,
+
 		},
-		text: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+		{
+			cost: [
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Night Shade",
+			},
+
+			text: {
+				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			},
+
+			damage: 10,
+
 		},
-		damage: 10
-	},{
-		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Night Shade",
+	],
+
+	weaknesses: [
+		{
+			type: Type.DARKNESS, 
+
+			value: "+10",
+
 		},
-		text: {
-			en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+	],
+
+	resistances: [
+		{
+			type: Type.COLORLESS, 
+
+			value: "-20",
+
 		},
-		damage: 10
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.DARKNESS,
-		value: "+10"
-	}],
-
-	resistances: [{
-		type: Type.COLORLESS,
-		value: "-20"
-	}],
+	retreat: 1,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.UNCOMMON,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

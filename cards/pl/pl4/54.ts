@@ -4,36 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-54",
+
 	localId: 54,
 
-	// Card informations
 	name: {
 		en: "Bronzor",
 	},
-
-	hp: 60,
-
-	type: [
-		Type.METAL,
-	],
-
-	dexId: 436,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/54/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/54/high",
-		},
-	},
-
-	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,
@@ -41,50 +23,90 @@ const card: Card = {
 
 	illustrator: "Masakazu Fukuda",
 
+	rarity: Rarity.COMMON, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/54/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/54/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.METAL
-		],
-		name: {
-			en: "Hypnosis",
+	// Card Pokémon Informations
+
+	dexId: 436,
+
+
+
+	type: [
+		Type.METAL,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.METAL,
+			],
+
+			name: {
+				en: "Hypnosis",
+			},
+
+			text: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+			},
+
+			damage: 10,
+
 		},
-		text: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+		{
+			cost: [
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Spinning Attack",
+			},
+
+
+			damage: 20,
+
 		},
-		damage: 10
-	},{
-		cost: [
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Spinning Attack",
+	],
+
+	weaknesses: [
+		{
+			type: Type.FIRE, 
+
+			value: "+10",
+
 		},
-		damage: 20
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "+10"
-	}],
+	resistances: [
+		{
+			type: Type.PSYCHIC, 
 
-	resistances: [{
-		type: Type.PSYCHIC,
-		value: "-20"
-	}],
+			value: "-20",
+
+		},
+	],
+
+	retreat: 2,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.COMMON,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card

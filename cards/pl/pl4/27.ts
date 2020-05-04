@@ -4,37 +4,17 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/pl/pl4'
+
 
 const card: Card = {
-
-	// ids
+	// Card Global Informations
 	id: "pl4-27",
+
 	localId: 27,
 
-	// Card informations
 	name: {
 		en: "Raichu",
-	},
-
-	hp: 90,
-
-	type: [
-		Type.LIGHTNING,
-	],
-
-	dexId: 26,
-
-	image: {
-		low: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/27/low",
-		},
-		high: {
-			en: "https://assets.tcgdex.net/en/pl/pl4/27/high",
-		},
-	},
-
-	evolveFrom: {
-		en: "Pikachu",
 	},
 
 	tags: [
@@ -43,54 +23,97 @@ const card: Card = {
 
 	illustrator: "Suwama Chiaki",
 
+	rarity: Rarity.RARE, 
+
+	category: Category.POKEMON, 
+
+	set,
+	image: {
+			low: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/27/low",
+			},
+
+			high: {
+				en: "https://assets.tcgdex.net/en/pl/pl4/27/high",
+			},
+
+	},
 
 
-	attacks: [{
-		cost: [
-			Type.LIGHTNING
-		],
-		name: {
-			en: "Boosted Voltage",
+	// Card Pokémon Informations
+	evolveFrom: {
+		en: "Pikachu",
+	},
+
+	dexId: 26,
+
+
+
+	type: [
+		Type.LIGHTNING,
+	],
+
+
+	attacks: [
+		{
+			cost: [
+				Type.LIGHTNING,
+			],
+
+			name: {
+				en: "Boosted Voltage",
+			},
+
+			text: {
+				en: "If Raichu has a Pokémon Tool card attached to it, this attack does 20 damage to each of your opponent's Benched Pokémon that isn't an Evolved Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			},
+
+			damage: 20,
+
 		},
-		text: {
-			en: "If Raichu has a Pokémon Tool card attached to it, this attack does 20 damage to each of your opponent's Benched Pokémon that isn't an Evolved Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+		{
+			cost: [
+				Type.LIGHTNING,
+				Type.COLORLESS,
+				Type.COLORLESS,
+			],
+
+			name: {
+				en: "Thunder Blast",
+			},
+
+			text: {
+				en: "Discard a Lightning Energy card attached to Raichu.",
+			},
+
+			damage: 70,
+
 		},
-		damage: 20
-	},{
-		cost: [
-			Type.LIGHTNING,
-			Type.COLORLESS,
-			Type.COLORLESS
-		],
-		name: {
-			en: "Thunder Blast",
+	],
+
+	weaknesses: [
+		{
+			type: Type.FIGHTING, 
+
+			value: "+20",
+
 		},
-		text: {
-			en: "Discard a Lightning Energy card attached to Raichu.",
+	],
+
+	resistances: [
+		{
+			type: Type.METAL, 
+
+			value: "-20",
+
 		},
-		damage: 70
-	}],
+	],
 
-	weaknesses: [{
-		type: Type.FIGHTING,
-		value: "+20"
-	}],
-
-	resistances: [{
-		type: Type.METAL,
-		value: "-20"
-	}],
+	retreat: 1,
 
 
+	// Card Trainer/Energy informations
 
-	rarity: Rarity.RARE,
-
-	category: Category.POKEMON,
-
-	set: {
-		name: "Arceus",
-		code: "pl4"
-	}
 }
 
 export default card
