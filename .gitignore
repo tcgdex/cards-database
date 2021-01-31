@@ -3,3 +3,4 @@ cards/**/*.json
 *.js
 
 node_modules/
+yarn-error.log

@@ -2,21 +2,21 @@ import Set from '@tcgdex/sdk/interfaces/Set'
 import swsh from '../../expansions/swsh'
 const swsh2: Set = {
 	name: {
-		en: "Rebel Clash"
+		en: "Darkness Ablaze"
 	},
 
 	expansion: swsh,
 	expansionCode: "swsh",
 
-	code: "swsh2",
+	code: "swsh3",
 	// tcgoCode
 
 	cardCount: {
-		total: 209,
-		official: 192
+		total: 201,
+		official: 189
 	},
 
-	releaseDate: "2020-05-01",
+	releaseDate: "2020-08-14",
 
 	legal: {
 		standard: true,
@@ -24,8 +24,8 @@ const swsh2: Set = {
 	},
 
 	images: {
-		symbol: "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
-		logo: "https://assets.tcgdex.net/en/swsh/swsh2/logo"
+		symbol: "https://assets.tcgdex.net/univ/swsh/swsh3/symbol",
+		logo: "https://assets.tcgdex.net/en/swsh/swsh3/logo"
 	}
 }
 
