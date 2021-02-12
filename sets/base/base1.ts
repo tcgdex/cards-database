@@ -3,7 +3,8 @@ import base from '../../expansions/base'
 
 const set: Set = {
 	name: {
-		en: "Base"
+		en: "Base",
+		fr: 'Set de Base'
 	},
 	code: "base1",
 	expansion: base,

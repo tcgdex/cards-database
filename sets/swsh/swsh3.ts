@@ -2,7 +2,8 @@ import Set from '@tcgdex/sdk/interfaces/Set'
 import swsh from '../../expansions/swsh'
 const swsh2: Set = {
 	name: {
-		en: "Darkness Ablaze"
+		en: "Darkness Ablaze",
+		fr: "Ténèbres Embrasées"
 	},
 
 	expansion: swsh,

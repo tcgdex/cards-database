@@ -4,16 +4,13 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
-import path from 'path'
-import set from '../../../sets/swsh/swshp'
-
-const localId = path.basename(__filename).split(".")[0]
+import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
 
 	// ids
-	id: `swshp-${localId}`,
-	localId: localId,
+	id: `2021swsh-8`,
+	localId: 8,
 
 	// Card informations
 	name: {

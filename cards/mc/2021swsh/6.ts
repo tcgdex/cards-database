@@ -4,21 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
-import path from 'path'
-import set from '../../../sets/swsh/swshp'
-
-const localId = path.basename(__filename).split(".")[0]
+import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
 
 	// ids
-	id: `swshp-${localId}`,
-	localId: localId,
+	id: "2021swsh-6",
+	localId: 6,
 
 	// Card informations
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
+		en: "Chespin",
+		fr: "Marisson",
 	},
 
 	hp: 60,
@@ -27,22 +24,48 @@ const card: Card = {
 		Type.GRASS,
 	],
 
+	dexId: 650,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/xy/xy0/3/low",
+			fr: "https://assets.tcgdex.net/fr/xy/xy0/3/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/xy/xy0/3/high",
+			fr: "https://assets.tcgdex.net/fr/xy/xy0/3/high",
+		},
+	},
+
+	evolveFrom: {},
+
 	tags: [
 		Tag.BASIC,
 	],
 
-	illustrator: "kirisAki",
+	illustrator: "5ban Graphics",
+
+
 
 	attacks: [{
+		cost: [
+			Type.GRASS
+		],
+		name: {
+			en: "Vine Whip",
+			fr: "Fouet Lianes",
+		},
+		damage: 10
+	},{
 		cost: [
 			Type.GRASS,
 			Type.COLORLESS
 		],
 		name: {
-			en: "Branch Poke",
-			fr: "Tapotige",
+			en: "Seed Bomb",
+			fr: "Canon Graine",
 		},
-		damage: 30
+		damage: 20
 	}],
 
 	weaknesses: [{
@@ -50,13 +73,15 @@ const card: Card = {
 		value: "×2"
 	}],
 
+
+
 	retreat: 1,
 
 	rarity: Rarity.COMMON,
 
 	category: Category.POKEMON,
 
-	set,
+	set: set
 }
 
 export default card

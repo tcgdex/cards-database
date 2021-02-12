@@ -2,7 +2,8 @@ import Set from '@tcgdex/sdk/interfaces/Set'
 import swsh from '../../expansions/swsh'
 const set: Set = {
 	name: {
-		en: "Sword & Shield"
+		en: "Sword & Shield",
+		fr: "Épée et Bouclier"
 	},
 
 	expansion: swsh,

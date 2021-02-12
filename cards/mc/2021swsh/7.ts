@@ -4,21 +4,18 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
-import path from 'path'
-import set from '../../../sets/swsh/swshp'
-
-const localId = path.basename(__filename).split(".")[0]
+import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
 
 	// ids
-	id: `swshp-${localId}`,
-	localId: localId,
+	id: "2021swsh-7",
+	localId: 7,
 
 	// Card informations
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
+		en: "Rowlet",
+		fr: "Brindibou",
 	},
 
 	hp: 60,
@@ -27,22 +24,48 @@ const card: Card = {
 		Type.GRASS,
 	],
 
+	dexId: 722,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/sm/sm1/9/low",
+			fr: "https://assets.tcgdex.net/fr/sm/sm1/9/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/sm/sm1/9/high",
+			fr: "https://assets.tcgdex.net/fr/sm/sm1/9/high",
+		},
+	},
+
+	evolveFrom: {},
+
 	tags: [
 		Tag.BASIC,
 	],
 
-	illustrator: "kirisAki",
+	illustrator: "Megumi Mizutani",
+
+
 
 	attacks: [{
+		cost: [
+			Type.COLORLESS
+		],
+		name: {
+			en: "Tackle",
+			fr: "Charge",
+		},
+		damage: 10
+	},{
 		cost: [
 			Type.GRASS,
 			Type.COLORLESS
 		],
 		name: {
-			en: "Branch Poke",
-			fr: "Tapotige",
+			en: "Leafage",
+			fr: "Feuillage",
 		},
-		damage: 30
+		damage: 20
 	}],
 
 	weaknesses: [{
@@ -50,13 +73,15 @@ const card: Card = {
 		value: "×2"
 	}],
 
+
+
 	retreat: 1,
 
 	rarity: Rarity.COMMON,
 
 	category: Category.POKEMON,
 
-	set,
+	set: set
 }
 
 export default card

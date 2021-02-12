@@ -4,51 +4,65 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
-import path from 'path'
-import set from '../../../sets/swsh/swshp'
-
-const localId = path.basename(__filename).split(".")[0]
+import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
 
 	// ids
-	id: `swshp-${localId}`,
-	localId: localId,
+	id: "2021sw-9",
+	localId: 9,
 
 	// Card informations
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
+		en: "Charmander",
+		fr: "Salamèche",
 	},
 
-	hp: 60,
+	hp: 70,
 
 	type: [
-		Type.GRASS,
+		Type.FIRE,
 	],
+
+	dexId: 4,
+
+	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,
 	],
 
-	illustrator: "kirisAki",
+	illustrator: "Kagemaru Himeno",
+
+
 
 	attacks: [{
 		cost: [
-			Type.GRASS,
 			Type.COLORLESS
 		],
 		name: {
-			en: "Branch Poke",
-			fr: "Tapotige",
+			en: "Scratch",
+			fr: "Griffe",
 		},
-		damage: 30
+		damage: 10
+	},{
+		cost: [
+			Type.FIRE,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Flame Tail",
+			fr: "Queue de Flammes",
+		},
+		damage: 20
 	}],
 
 	weaknesses: [{
-		type: Type.FIRE,
+		type: Type.WATER,
 		value: "×2"
 	}],
+
+
 
 	retreat: 1,
 
@@ -56,7 +70,7 @@ const card: Card = {
 
 	category: Category.POKEMON,
 
-	set,
+	set: set
 }
 
 export default card

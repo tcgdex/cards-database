@@ -4,51 +4,60 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
-import path from 'path'
-import set from '../../../sets/swsh/swshp'
-
-const localId = path.basename(__filename).split(".")[0]
+import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
 
 	// ids
-	id: `swshp-${localId}`,
-	localId: localId,
+	id: "2021-11",
+	localId: 11,
 
 	// Card informations
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
+		en: "Torchic",
+		fr: "Poussifeu",
 	},
 
 	hp: 60,
 
 	type: [
-		Type.GRASS,
+		Type.FIRE,
 	],
+
+	dexId: 255,
+
+
+	evolveFrom: {},
 
 	tags: [
 		Tag.BASIC,
 	],
 
-	illustrator: "kirisAki",
+	illustrator: "sui",
+
+
 
 	attacks: [{
 		cost: [
-			Type.GRASS,
-			Type.COLORLESS
+			Type.FIRE
 		],
 		name: {
-			en: "Branch Poke",
-			fr: "Tapotige",
+			en: "Ember",
+			fr: "Flammèche",
 		},
-		damage: 30
+		text: {
+			en: "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
+			fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à ce Pokémon.",
+		},
+		damage: 20
 	}],
 
 	weaknesses: [{
-		type: Type.FIRE,
+		type: Type.WATER,
 		value: "×2"
 	}],
+
+
 
 	retreat: 1,
 
@@ -56,7 +65,10 @@ const card: Card = {
 
 	category: Category.POKEMON,
 
-	set,
+	set: {
+		name: "XY Black Star Promos",
+		code: "xyp"
+	}
 }
 
 export default card

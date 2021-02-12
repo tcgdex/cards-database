@@ -4,12 +4,13 @@ import Tag from '@tcgdex/sdk/interfaces/Tag'
 import Rarity from '@tcgdex/sdk/interfaces/Rarity'
 import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
 import Category from '@tcgdex/sdk/interfaces/Category'
+import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
 
 	// ids
-	id: "bwp-BW01",
-	localId: "BW01",
+	id: "2021swsh-5",
+	localId: 5,
 
 	// Card informations
 	name: {
@@ -74,14 +75,11 @@ const card: Card = {
 
 	retreat: 1,
 
-	rarity: Rarity.COMMON,
+	rarity: Rarity.NONE,
 
 	category: Category.POKEMON,
 
-	set: {
-		name: "BW Black Star Promos",
-		code: "bwp"
-	}
+	set: set
 }
 
 export default card

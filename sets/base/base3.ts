@@ -2,7 +2,8 @@ import Set from '@tcgdex/sdk/interfaces/Set'
 
 const set: Set = {
 	name: {
-		en: "Fossil"
+		en: "Fossil",
+		fr: "Fossile"
 	},
 	code: "base3",
 	expansionCode: "base",
