@@ -6,51 +6,81 @@ import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: "2021swsh-22",
+	localId: 22,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Froakie",
+		fr: "Grenousse",
 	},
 
-	hp: 70,
+	hp: 60,
 
 	type: [
-		Type.GRASS
+		Type.WATER,
 	],
+
+	dexId: 656,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/xy/xyp/XY03/low",
+			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY03/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/xy/xyp/XY03/high",
+			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY03/high",
+		},
+	},
+
+	evolveFrom: {},
 
 	tags: [
-		Tag.BASIC
+		Tag.BASIC,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "5ban Graphics",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+
+
+	attacks: [{
+		cost: [
+			Type.WATER
+		],
+		name: {
+			en: "Pound",
+			fr: "Écras'Face",
+		},
+		damage: 10
+	},{
+		cost: [
+			Type.WATER,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Water Drip",
+			fr: "Goutte à Goutte",
+		},
+		damage: 20
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.GRASS,
+		value: "×2"
+	}],
 
-	retreat: 2,
 
-	rarity: Rarity.NONE,
 
-	illustrator: "Sanosuke Sakuma",
+	retreat: 1,
 
-	category: Category.POKEMON
+	rarity: Rarity.COMMON,
+
+	category: Category.POKEMON,
+
+	set: set
 }
 
 export default card

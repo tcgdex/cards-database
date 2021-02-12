@@ -6,51 +6,57 @@ import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: "2021swsh-24",
+	localId: 24,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Sobble",
+		fr: "Larméléon",
 	},
 
-	hp: 70,
+	hp: 60,
 
 	type: [
-		Type.GRASS
+		Type.WATER,
 	],
 
 	tags: [
-		Tag.BASIC
+		Tag.BASIC,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "Mizue",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+	attacks: [{
+		cost: [
+			Type.WATER,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Bind",
+			fr: "Étreinte",
+		},
+		text: {
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+		},
+		damage: 20
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.LIGHTNING,
+		value: "×2"
+	}],
 
-	retreat: 2,
+	retreat: 1,
 
-	rarity: Rarity.NONE,
+	rarity: Rarity.COMMON,
 
-	illustrator: "Sanosuke Sakuma",
+	category: Category.POKEMON,
 
-	category: Category.POKEMON
+	set,
 }
 
 export default card

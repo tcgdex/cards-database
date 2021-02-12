@@ -6,51 +6,81 @@ import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: "2021swsh-14",
+	localId: 14,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Fennekin",
+		fr: "Feunnec",
 	},
 
-	hp: 70,
+	hp: 60,
 
 	type: [
-		Type.GRASS
+		Type.FIRE,
 	],
+
+	dexId: 653,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/xy/xyp/XY02/low",
+			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY02/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/xy/xyp/XY02/high",
+			fr: "https://assets.tcgdex.net/fr/xy/xyp/XY02/high",
+		},
+	},
+
+	evolveFrom: {},
 
 	tags: [
-		Tag.BASIC
+		Tag.BASIC,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "5ban Graphics",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+
+
+	attacks: [{
+		cost: [
+			Type.FIRE
+		],
+		name: {
+			en: "Scratch",
+			fr: "Griffe",
+		},
+		damage: 10
+	},{
+		cost: [
+			Type.FIRE,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Live Coal",
+			fr: "Charbon Mutant",
+		},
+		damage: 20
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.WATER,
+		value: "×2"
+	}],
 
-	retreat: 2,
 
-	rarity: Rarity.NONE,
 
-	illustrator: "Sanosuke Sakuma",
+	retreat: 1,
 
-	category: Category.POKEMON
+	rarity: Rarity.COMMON,
+
+	category: Category.POKEMON,
+
+	set: set
 }
 
 export default card

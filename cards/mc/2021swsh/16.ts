@@ -6,51 +6,56 @@ import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: `2021swsh-16`,
+	localId: 16,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Scorbunny",
+		fr: "Flambino",
 	},
 
-	hp: 70,
+	hp: 60,
 
 	type: [
-		Type.GRASS
+		Type.FIRE,
 	],
 
 	tags: [
-		Tag.BASIC
+		Tag.BASIC,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "Hitoshi Ariga",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+	attacks: [{
+		cost: [
+			Type.FIRE
+		],
+		name: {
+			en: "Super Singe",
+			fr: "Super Roussi",
+		},
+		text: {
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé."
+		},
+		damage: 10
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.WATER,
+		value: "×2"
+	}],
 
-	retreat: 2,
+	retreat: 1,
 
-	rarity: Rarity.NONE,
+	rarity: Rarity.COMMON,
 
-	illustrator: "Sanosuke Sakuma",
+	category: Category.POKEMON,
 
-	category: Category.POKEMON
+	set,
 }
 
 export default card

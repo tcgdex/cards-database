@@ -6,51 +6,78 @@ import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: "2021swsh-12",
+	localId: 12,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Monferno",
+		fr: "Chimpenfeu",
 	},
 
-	hp: 70,
+	hp: 80,
 
 	type: [
-		Type.GRASS
+		Type.FIRE,
 	],
+
+	dexId: 391,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/sm/sm5/22/low",
+			fr: "https://assets.tcgdex.net/fr/sm/sm5/22/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/sm/sm5/22/high",
+			fr: "https://assets.tcgdex.net/fr/sm/sm5/22/high",
+		},
+	},
+
+	evolveFrom: {
+		en: "Chimchar",
+		fr: "Ouisticram",
+	},
 
 	tags: [
-		Tag.BASIC
+		Tag.STAGE1,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "Shigenori Negishi",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+
+
+	attacks: [{
+		cost: [
+			Type.FIRE
+		],
+		name: {
+			en: "Super Singe",
+			fr: "Super Roussi",
+		},
+		text: {
+			en: "Your opponent's Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+		},
+		damage: 20
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.WATER,
+		value: "×2"
+	}],
 
-	retreat: 2,
 
-	rarity: Rarity.NONE,
 
-	illustrator: "Sanosuke Sakuma",
+	retreat: 1,
 
-	category: Category.POKEMON
+	rarity: Rarity.UNCOMMON,
+
+	category: Category.POKEMON,
+
+	set: set
 }
 
 export default card

@@ -6,51 +6,81 @@ import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: "2021swsh-15",
+	localId: 15,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Litten",
+		fr: "Flamiaou",
 	},
 
 	hp: 70,
 
 	type: [
-		Type.GRASS
+		Type.FIRE,
 	],
+
+	dexId: 725,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/sm/sm1/24/low",
+			fr: "https://assets.tcgdex.net/fr/sm/sm1/24/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/sm/sm1/24/high",
+			fr: "https://assets.tcgdex.net/fr/sm/sm1/24/high",
+		},
+	},
+
+	evolveFrom: {},
 
 	tags: [
-		Tag.BASIC
+		Tag.BASIC,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "Akira Komayama",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+
+
+	attacks: [{
+		cost: [
+			Type.FIRE
+		],
+		name: {
+			en: "Bite",
+			fr: "Morsure",
+		},
+		damage: 10
+	},{
+		cost: [
+			Type.FIRE,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Flare",
+			fr: "Flamboiement",
+		},
+		damage: 20
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.WATER,
+		value: "×2"
+	}],
 
-	retreat: 2,
 
-	rarity: Rarity.NONE,
 
-	illustrator: "Sanosuke Sakuma",
+	retreat: 1,
 
-	category: Category.POKEMON
+	rarity: Rarity.COMMON,
+
+	category: Category.POKEMON,
+
+	set: set
 }
 
 export default card

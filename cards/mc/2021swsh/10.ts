@@ -1,56 +1,77 @@
-import Card from "@tcgdex/sdk/interfaces/Card";
-import Tag from "@tcgdex/sdk/interfaces/Tag";
-import Category from "@tcgdex/sdk/interfaces/Category";
-import Type from "@tcgdex/sdk/interfaces/Type";
-import Rarity from "@tcgdex/sdk/interfaces/Rarity";
+import Card from '@tcgdex/sdk/interfaces/Card'
+import Type from '@tcgdex/sdk/interfaces/Type'
+import Tag from '@tcgdex/sdk/interfaces/Tag'
+import Rarity from '@tcgdex/sdk/interfaces/Rarity'
+import AbilityType from '@tcgdex/sdk/interfaces/AbilityType'
+import Category from '@tcgdex/sdk/interfaces/Category'
 import set from '../../../sets/mc/2021swsh'
-
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: "2011swsh-10",
+	localId: 10,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Cyndaquil",
+		fr: "Héricendre",
 	},
 
 	hp: 70,
 
 	type: [
-		Type.GRASS
+		Type.FIRE,
 	],
+
+	dexId: 155,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/sm/sm8/40/low",
+			fr: "https://assets.tcgdex.net/fr/sm/sm8/40/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/sm/sm8/40/high",
+			fr: "https://assets.tcgdex.net/fr/sm/sm8/40/high",
+		},
+	},
+
+	evolveFrom: {},
 
 	tags: [
-		Tag.BASIC
+		Tag.BASIC,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "kirisAki",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+
+
+	attacks: [{
+		cost: [
+			Type.COLORLESS,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Hammer In",
+			fr: "Enfoncement",
+		},
+		damage: 30
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.WATER,
+		value: "×2"
+	}],
 
-	retreat: 2,
 
-	rarity: Rarity.NONE,
 
-	illustrator: "Sanosuke Sakuma",
+	retreat: 1,
 
-	category: Category.POKEMON
+	rarity: Rarity.COMMON,
+
+	category: Category.POKEMON,
+
+	set: set
 }
 
 export default card

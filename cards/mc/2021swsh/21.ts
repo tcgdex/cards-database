@@ -6,51 +6,76 @@ import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: "2021swsh-21",
+	localId: 21,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Oshawott",
+		fr: "Moustillon",
 	},
 
-	hp: 70,
+	hp: 60,
 
 	type: [
-		Type.GRASS
+		Type.WATER,
 	],
+
+	dexId: 501,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/bw/bwp/BW03/low",
+			fr: "https://assets.tcgdex.net/fr/bw/bwp/BW03/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/bw/bwp/BW03/high",
+			fr: "https://assets.tcgdex.net/fr/bw/bwp/BW03/high",
+		},
+	},
+
+	evolveFrom: {},
 
 	tags: [
-		Tag.BASIC
+		Tag.BASIC,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "Ken Sugimori",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+
+
+	attacks: [{
+		cost: [
+			Type.WATER,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Water Pulse",
+			fr: "Vibraqua",
+		},
+		text: {
+			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+		},
+		damage: 20
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.LIGHTNING,
+		value: "×2"
+	}],
 
-	retreat: 2,
 
-	rarity: Rarity.NONE,
 
-	illustrator: "Sanosuke Sakuma",
+	retreat: 1,
 
-	category: Category.POKEMON
+	rarity: Rarity.COMMON,
+
+	category: Category.POKEMON,
+
+	set: set
 }
 
 export default card

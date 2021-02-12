@@ -6,51 +6,81 @@ import Rarity from "@tcgdex/sdk/interfaces/Rarity";
 import set from '../../../sets/mc/2021swsh'
 
 const card: Card = {
-	id: "2021swsh-1",
-	localId: 1,
-	dexId: 1,
 
+	// ids
+	id: "2021swsh-20",
+	localId: 20,
+
+	// Card informations
 	name: {
-		en: "Bulbasaur"
+		en: "Piplup",
+		fr: "Tiplouf",
 	},
 
 	hp: 70,
 
 	type: [
-		Type.GRASS
+		Type.WATER,
 	],
+
+	dexId: 393,
+
+	image: {
+		low: {
+			en: "https://assets.tcgdex.net/en/sm/sm5/32/low",
+			fr: "https://assets.tcgdex.net/fr/sm/sm5/32/low",
+		},
+		high: {
+			en: "https://assets.tcgdex.net/en/sm/sm5/32/high",
+			fr: "https://assets.tcgdex.net/fr/sm/sm5/32/high",
+		},
+	},
+
+	evolveFrom: {},
 
 	tags: [
-		Tag.BASIC
+		Tag.BASIC,
 	],
 
-	attacks: [
-		{
-			name: {
-				en: "Razor Leaf"
-			},
-			cost: [
-				Type.GRASS,
-				Type.COLORLESS
-			],
-			damage: 30
-		}
-	],
+	illustrator: "Shibuzoh.",
 
-	weaknesses: [{
-		type: Type.FIRE,
-		value: "x2"
+
+
+	attacks: [{
+		cost: [
+			Type.COLORLESS
+		],
+		name: {
+			en: "Peck",
+			fr: "Picpic",
+		},
+		damage: 10
+	},{
+		cost: [
+			Type.WATER,
+			Type.COLORLESS
+		],
+		name: {
+			en: "Wave Splash",
+			fr: "Grosse Vague",
+		},
+		damage: 20
 	}],
 
-	set: set,
+	weaknesses: [{
+		type: Type.LIGHTNING,
+		value: "×2"
+	}],
 
-	retreat: 2,
 
-	rarity: Rarity.NONE,
 
-	illustrator: "Sanosuke Sakuma",
+	retreat: 1,
 
-	category: Category.POKEMON
+	rarity: Rarity.COMMON,
+
+	category: Category.POKEMON,
+
+	set: set
 }
 
 export default card
