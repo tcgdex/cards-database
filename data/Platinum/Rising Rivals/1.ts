@@ -1,0 +1,88 @@
+import { Card } from '../../../interfaces'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		en: "Arcanine",
+		fr: "Arcanin Niv. 53",
+	},
+	illustrator: "Masakazu Fukuda",
+	rarity: "Rare",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		59,
+	],
+	hp: 100,
+	types: [
+		"Fire",
+	],
+	evolveFrom: {
+		en: "Growlithe",
+		fr: "Caninos",
+	},
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Flare Condition",
+				fr: "Condition éclatante",
+			},
+			effect: {
+				en: "As long as Arcanine has any Fire Energy attached to it, Arcanine has no Weakness.",
+				fr: "Tant qu'Arcanin possède de l'Énergie Fire, il ne possède pas de Faiblesse.",
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				en: "Burn Out",
+				fr: "Laisser brûler",
+			},
+			effect: {
+				en: "You may do 30 damage plus 30 more damage. If you do, Arcanine is now Burned.",
+				fr: "Vous pouvez infliger 30 dégâts plus 30 dégâts supplémentaires. Arcanin est alors Brûlé.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Flames of Rage",
+				fr: "Flammes de rage",
+			},
+			effect: {
+				en: "Discard a Fire Energy attached to Arcanine. This attack does 60 damage plus 10 more damage for each damage counter on Arcanine.",
+				fr: "Défaussez une Énergie Fire attachée à Arcanin. Cette attaque inflige alors 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Arcanin.",
+			},
+			damage: 60,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "+20"
+		},
+	],
+
+	retreat: 2,
+
+
+
+}
+
+export default card

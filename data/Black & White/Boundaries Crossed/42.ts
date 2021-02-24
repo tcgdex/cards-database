@@ -1,0 +1,58 @@
+import { Card } from '../../../interfaces'
+import Set from '../Boundaries Crossed'
+
+const card: Card = {
+	name: {
+		en: "Ducklett",
+		fr: "Couaneton",
+	},
+	illustrator: "Kouki Saitou",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		580,
+	],
+	hp: 70,
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				en: "Rain Splash",
+				fr: "Pluie Éclaboussante",
+			},
+
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Fightning",
+			value: "-20"
+		},
+	],
+	retreat: 1,
+
+
+
+}
+
+export default card

@@ -1,0 +1,62 @@
+import { Card } from '../../../interfaces'
+import Set from '../Team Rocket Returns'
+
+const card: Card = {
+	name: {
+		en: "Delibird",
+	},
+	illustrator: "Yuka Morii",
+	rarity: "Rare",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		225,
+	],
+	hp: 70,
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				en: "Gift Exchange",
+			},
+			effect: {
+				en: "Once during your turn (before your attack), if Delibird is your Active Pokémon, you may shuffle 1 card from your hand into your deck. Then, draw a card. This power can't be used if Delibird is affected by a Special Condition.",
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Souvenir",
+			},
+			effect: {
+				en: "Flip 3 coins. If 1 of them is heads, put 4 damage counters on the Defending Pokémon. If 2 of them are heads, remove 1 damage counter from the Defending Pokémon. If all of them are heads, put 10 damage counters on the Defending Pokémon. If all of them are tails, remove all damage counters from the Defending Pokémon.",
+			},
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+
+
+
+
+
+}
+
+export default card

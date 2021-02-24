@@ -1,0 +1,67 @@
+import { Card } from '../../../interfaces'
+import Set from '../XY'
+
+const card: Card = {
+	name: {
+		en: "Diglett",
+		fr: "Taupiqueur",
+	},
+	illustrator: "Kanako Eo",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		50,
+	],
+	hp: 50,
+	types: [
+		"Fightning",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Fightning",
+			],
+			name: {
+				en: "Mine",
+				fr: "Mine",
+			},
+			effect: {
+				en: "Look at the top card of your opponent's deck. Then, you may have your opponent shuffle his or her deck.",
+				fr: "Regardez la carte du dessus du deck de votre adversaire. Ensuite, vous pouvez demander à votre adversaire de mélanger son deck.",
+			},
+
+		},
+		{
+			cost: [
+				"Fightning",
+				"Colorless",
+			],
+			name: {
+				en: "Mud-Slap",
+				fr: "Coud'Boue",
+			},
+
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+
+
+}
+
+export default card

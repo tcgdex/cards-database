@@ -1,0 +1,74 @@
+import { Card } from '../../../interfaces'
+import Set from '../Secret Wonders'
+
+const card: Card = {
+	name: {
+		en: "Natu",
+		fr: "Natu",
+	},
+	illustrator: "Midori Harada",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		177,
+	],
+	hp: 40,
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Bothering Wave",
+				fr: "Vague inquiétante",
+			},
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing. If heads, discard an Energy card attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				en: "Future Sight",
+				fr: "Prescience",
+			},
+			effect: {
+				en: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
+				fr: "Regardez les 5 cartes du dessus du deck de chaque joueur et replacez-les au dessus du deck de chaque joueur dans n'importe quel ordre.",
+			},
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "+10"
+		},
+	],
+	resistances: [
+		{
+			type: "Fightning",
+			value: "-20"
+		},
+	],
+	retreat: 1,
+
+
+
+}
+
+export default card

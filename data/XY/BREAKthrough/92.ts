@@ -1,0 +1,63 @@
+import { Card } from '../../../interfaces'
+import Set from '../BREAKthrough'
+
+const card: Card = {
+	name: {
+		en: "Zoroark BREAK",
+		fr: "Zoroark TURBO",
+	},
+	illustrator: "5ban Graphics",
+	rarity: "Rare",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		571,
+	],
+	hp: 140,
+	types: [
+		"Darkness",
+	],
+	evolveFrom: {
+		en: "Zoroark",
+		fr: "Zoroark",
+	},
+	stage: "BREAK",
+
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+			],
+			name: {
+				en: "Foul Play",
+				fr: "Règle des Évolutions TURBO",
+			},
+			effect: {
+				en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+			},
+
+		},
+		{
+			cost: [
+				"Darkness",
+			],
+			name: {
+				fr: "Tricherie",
+			},
+			effect: {
+				fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque.",
+			},
+
+		},
+	],
+
+
+
+
+
+
+}
+
+export default card

@@ -1,0 +1,49 @@
+import { Card } from '../../../interfaces'
+import Set from '../Champion\'s Path'
+
+const card: Card = {
+	name: {
+		en: "Absol",
+	},
+	illustrator: "kodama",
+	rarity: "Uncommon",
+	category: "Pokemon",
+
+	set: Set,
+
+	hp: 100,
+	types: [
+		"Darkness",
+	],
+
+
+
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+				"Darkness",
+			],
+			name: {
+				en: "Dark Cutter",
+			},
+
+			damage: 70,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+
+
+}
+
+export default card

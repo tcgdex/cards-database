@@ -1,0 +1,57 @@
+import { Card } from '../../../interfaces'
+import Set from '../Black & White'
+
+const card: Card = {
+	name: {
+		en: "Woobat",
+		fr: "Chovsourir",
+	},
+	illustrator: "MAHOU",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		527,
+	],
+	hp: 50,
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Gust",
+				fr: "Tornade",
+			},
+
+			damage: 10,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Fightning",
+			value: "-20"
+		},
+	],
+	retreat: 1,
+
+
+
+}
+
+export default card

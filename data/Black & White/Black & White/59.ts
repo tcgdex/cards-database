@@ -1,0 +1,65 @@
+import { Card } from '../../../interfaces'
+import Set from '../Black & White'
+
+const card: Card = {
+	name: {
+		en: "Timburr",
+		fr: "Charpenti",
+	},
+	illustrator: "Masakazu Fukuda",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		532,
+	],
+	hp: 70,
+	types: [
+		"Fightning",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Low Kick",
+				fr: "Balayage",
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Fightning",
+				"Colorless",
+			],
+			name: {
+				en: "Pound",
+				fr: "Écras'Face",
+			},
+
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+
+
+}
+
+export default card

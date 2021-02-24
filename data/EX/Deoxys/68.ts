@@ -1,0 +1,60 @@
+import { Card } from '../../../interfaces'
+import Set from '../Deoxys'
+
+const card: Card = {
+	name: {
+		en: "Numel",
+	},
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		322,
+	],
+	hp: 40,
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Dense",
+			},
+			effect: {
+				en: "Any damage done to Numel by attacks from Evolved Pokémon (both yours and your opponent's) is reduced by 20 (after applying Weakness and Resistance).",
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Ram",
+			},
+
+			damage: 10,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+
+
+
+
+}
+
+export default card

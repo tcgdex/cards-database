@@ -1,0 +1,78 @@
+import { Card } from '../../../interfaces'
+import Set from '../Guardians Rising'
+
+const card: Card = {
+	name: {
+		en: "Mudsdale",
+		fr: "Bourrinos",
+	},
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		750,
+	],
+	hp: 140,
+	types: [
+		"Fightning",
+	],
+	evolveFrom: {
+		en: "Mudbray",
+		fr: "Tiboudet",
+	},
+	stage: "Stage1",
+
+
+	attacks: [
+		{
+			cost: [
+				"Fightning",
+				"Fightning",
+				"Colorless",
+			],
+			name: {
+				en: "Enhanced Stomp",
+				fr: "Piétinement Amélioré",
+			},
+			effect: {
+				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 60 more damage.",
+				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
+			},
+			damage: 60,
+
+		},
+		{
+			cost: [
+				"Fightning",
+				"Fightning",
+				"Fightning",
+				"Colorless",
+			],
+			name: {
+				en: "High Horsepower",
+				fr: "Cavalerie Lourde",
+			},
+			effect: {
+				en: "This Pokémon does 40 damage to itself.",
+				fr: "Ce Pokémon s’inflige 40 dégâts.",
+			},
+			damage: 180,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 4,
+
+
+
+}
+
+export default card

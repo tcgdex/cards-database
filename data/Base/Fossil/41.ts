@@ -1,0 +1,72 @@
+import { Card } from '../../../interfaces'
+import Set from '../Fossil'
+
+const card: Card = {
+	name: {
+		en: "Sandslash",
+	},
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		28,
+	],
+	hp: 70,
+	types: [
+		"Fightning",
+	],
+	evolveFrom: {
+		en: "Sandshrew",
+	},
+	stage: "Stage1",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Slash",
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fightning",
+				"Fightning",
+			],
+			name: {
+				en: "Fury Swipes",
+			},
+			effect: {
+				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
+			},
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],
+
+
+
+
+}
+
+export default card

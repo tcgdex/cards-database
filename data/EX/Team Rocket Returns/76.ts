@@ -1,0 +1,60 @@
+import { Card } from '../../../interfaces'
+import Set from '../Team Rocket Returns'
+
+const card: Card = {
+	name: {
+		en: "Slowpoke",
+	},
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		79,
+	],
+	hp: 50,
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Dense",
+			},
+			effect: {
+				en: "Any damage done to Slowpoke by attacks from your opponent's Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance).",
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Bite",
+			},
+
+			damage: 10,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+
+
+
+
+}
+
+export default card

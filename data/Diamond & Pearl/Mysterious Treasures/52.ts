@@ -1,0 +1,59 @@
+import { Card } from '../../../interfaces'
+import Set from '../Mysterious Treasures'
+
+const card: Card = {
+	name: {
+		en: "Happiny",
+	},
+	illustrator: "Yuka Morii",
+	rarity: "Uncommon",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		440,
+	],
+	hp: 60,
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				en: "Baby Evolution",
+			},
+			effect: {
+				en: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny.",
+			},
+		},
+	],
+	attacks: [
+		{
+
+			name: {
+				en: "Lively",
+			},
+			effect: {
+				en: "Remove 2 damage counters from 1 of your Pokémon.",
+			},
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fightning",
+			value: "+10"
+		},
+	],
+
+
+
+
+
+}
+
+export default card

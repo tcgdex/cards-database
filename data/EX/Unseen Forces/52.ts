@@ -1,0 +1,62 @@
+import { Card } from '../../../interfaces'
+import Set from '../Unseen Forces'
+
+const card: Card = {
+	name: {
+		en: "Chinchou",
+	},
+	illustrator: "Hajime Kusajima",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		170,
+	],
+	hp: 50,
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Thunder Wave",
+			},
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			},
+
+		},
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				en: "Razor Fin",
+			},
+
+			damage: 10,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fightning",
+			value: "×2"
+		},
+	],
+
+
+
+
+
+}
+
+export default card

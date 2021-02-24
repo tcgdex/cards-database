@@ -1,0 +1,70 @@
+import { Card } from '../../../interfaces'
+import Set from '../Noble Victories'
+
+const card: Card = {
+	name: {
+		en: "Deino",
+		fr: "Solochi",
+	},
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		633,
+	],
+	hp: 60,
+	types: [
+		"Darkness",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Headbutt",
+				fr: "Coup d'Boule",
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+			],
+			name: {
+				en: "Bite",
+				fr: "Morsure",
+			},
+
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fightning",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 2,
+
+
+
+}
+
+export default card

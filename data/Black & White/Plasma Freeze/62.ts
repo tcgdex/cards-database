@@ -1,0 +1,70 @@
+import { Card } from '../../../interfaces'
+import Set from '../Plasma Freeze'
+
+const card: Card = {
+	name: {
+		en: "Makuhita",
+		fr: "Makuhita",
+	},
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		296,
+	],
+	hp: 80,
+	types: [
+		"Fightning",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Fightning",
+				"Colorless",
+			],
+			name: {
+				en: "Continuous Slap",
+				fr: "Gifles Sans Fin",
+			},
+			effect: {
+				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fightning",
+				"Fightning",
+				"Colorless",
+			],
+			name: {
+				en: "Hammer In",
+				fr: "Enfoncer",
+			},
+
+			damage: 60,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+
+
+}
+
+export default card

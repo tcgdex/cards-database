@@ -1,0 +1,70 @@
+import { Card } from '../../../interfaces'
+import Set from '../Kalos Starter Set'
+
+const card: Card = {
+	name: {
+		en: "Furfrou",
+		fr: "Couafarel",
+	},
+	illustrator: "5ban Graphics",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		676,
+	],
+	hp: 90,
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Tight Jaw",
+				fr: "Mâchoire Serrée",
+			},
+			effect: {
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Sharp Fang",
+				fr: "Croc Aiguisé",
+			},
+
+			damage: 50,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fightning",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+
+
+}
+
+export default card

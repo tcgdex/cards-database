@@ -1,0 +1,70 @@
+import { Card } from '../../../interfaces'
+import Set from '../Furious Fists'
+
+const card: Card = {
+	name: {
+		en: "Hitmonchan",
+		fr: "Tygnon",
+	},
+	illustrator: "match",
+	rarity: "Uncommon",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		107,
+	],
+	hp: 90,
+	types: [
+		"Fightning",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Bullet Punch",
+				fr: "Pisto-Poing",
+			},
+			effect: {
+				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Mach Cross",
+				fr: "Passage Éclair",
+			},
+
+			damage: 60,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+
+
+}
+
+export default card

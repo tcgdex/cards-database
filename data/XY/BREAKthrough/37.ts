@@ -1,0 +1,59 @@
+import { Card } from '../../../interfaces'
+import Set from '../BREAKthrough'
+
+const card: Card = {
+	name: {
+		en: "Prinplup",
+		fr: "Prinplouf",
+	},
+	illustrator: "kirisAki",
+	rarity: "Uncommon",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		394,
+	],
+	hp: 80,
+	types: [
+		"Water",
+	],
+	evolveFrom: {
+		en: "Piplup",
+		fr: "Tiplouf",
+	},
+	stage: "Stage1",
+
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				en: "Ice Beam",
+				fr: "Laser Glace",
+			},
+			effect: {
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			},
+			damage: 30,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+
+
+}
+
+export default card
