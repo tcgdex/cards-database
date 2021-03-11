@@ -3,6 +3,7 @@ import Set from '../Black & White'
 
 const card: Card = {
 	name: {
+		fr: "Pikachu",
 		en: "Pikachu",
 	},
 	illustrator: "Kouki Saitou",
@@ -10,9 +11,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		25,
-	],
+
 	hp: 60,
 	types: [
 		"Lightning",
@@ -27,10 +26,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
+				fr: "Énergisant",
 				en: "Energize",
 			},
 			effect: {
-				en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+				fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
+				en: "Attach a Lightning Energy card from your discard pile to this Pokémon."
 			},
 
 		},
@@ -41,10 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				fr: "Tonnerre",
 				en: "Thunderbolt",
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon.",
+				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
 			},
 			damage: 80,
 
@@ -57,7 +60,7 @@ const card: Card = {
 		},
 	],
 
-
+	retreat: 1,
 
 
 

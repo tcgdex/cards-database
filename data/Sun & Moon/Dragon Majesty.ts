@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../Sun & Moon'
 
 const sm75: Set = {
-	id: "sm75",
+	id: "sm7.5",
 	name: {
 		en: "Dragon Majesty",
 		fr: "Majesté Des Dragons"

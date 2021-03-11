@@ -1,5 +1,5 @@
 import { Set } from '../../interfaces'
-import serie from '../Black & White'
+import serie from '../Call of Legends'
 
 const col1: Set = {
 	id: "col1",
