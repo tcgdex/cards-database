@@ -5,24 +5,28 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, Aviortheking-patch-1 ]
   pull_request:
     branches: [ master ]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [15.x]
-
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Setup NodeJS
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 15.x
     - run: yarn
     - run: yarn compile
+  push:
+    if: ${{ github.event_name == 'push' }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: CUrl to the compiler
+      run: "curl -XPOST -H 'Accept: application/vnd.github.everest-preview+json' -H 'Authorization: token $PAC' -d '{\"event_type\": \"webhook\"}' 'https://api.github.com/tcgdex/compiler/dispaches'"
+      env:
+        PAC: ${{ secrets.PAC }}
