@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master, Aviortheking-patch-1 ]
+    branches:
+      - master
   pull_request:
-    branches: [ master ]
 
 jobs:
   test:
@@ -27,6 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: CUrl to the compiler
-      run: "curl -XPOST -H 'Accept: application/vnd.github.everest-preview+json' -H 'Authorization: token $PAC' -d '{\"event_type\": \"webhook\"}' 'https://api.github.com/tcgdex/compiler/dispaches'"
+      run: |
+        curl -XPOST -H 'Accept: application/vnd.github.everest-preview+json' -H "Authorization: Bearer $PAC" -d '{"event_type": "webhook"}' 'https://api.github.com/repos/tcgdex/compiler/dispatches'
       env:
         PAC: ${{ secrets.PAC }}
