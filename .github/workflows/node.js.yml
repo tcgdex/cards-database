@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-
+    name: Compilation Test
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +23,7 @@ jobs:
     - run: yarn
     - run: yarn compile
   push:
+    name: Launch the compiler
     if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
     steps:
