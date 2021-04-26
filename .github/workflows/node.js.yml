@@ -28,8 +28,9 @@ jobs:
     if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
     steps:
-    - name: CUrl to the compiler
-      run: |
-        curl -XPOST -H 'Accept: application/vnd.github.everest-preview+json' -H "Authorization: Bearer $PAC" -d '{"event_type": "webhook"}' 'https://api.github.com/repos/tcgdex/compiler/dispatches'
-      env:
-        PAC: ${{ secrets.PAC }}
+    - name: Compiler Dispatch
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.PAC }}
+        repository: tcgdex/compiler
+        event-type: my-event
