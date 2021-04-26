@@ -33,4 +33,4 @@ jobs:
       with:
         token: ${{ secrets.PAC }}
         repository: tcgdex/compiler
-        event-type: my-event
+        event-type: card-database-update
