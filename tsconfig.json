@@ -1,5 +1,5 @@
 {
-	"include": ["data", "interfaces.d.ts", "move.ts"],
+	"include": ["data", "interfaces.d.ts"],
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",
