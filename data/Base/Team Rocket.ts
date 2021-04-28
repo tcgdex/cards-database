@@ -15,7 +15,10 @@ const base5: Set = {
 		total: 83,
 		official: 82
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2000-04-24"
 }
 

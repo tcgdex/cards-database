@@ -15,7 +15,10 @@ const xya: Set = {
 		total: 6,
 		official: 6
 	},
-
+	legal: {
+		expanded: true,
+		standard: false
+	},
 	releaseDate: "2014-02-05"
 }
 

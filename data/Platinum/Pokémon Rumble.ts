@@ -13,7 +13,10 @@ const ru1: Set = {
 		total: 16,
 		official: 16
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2009-12-02"
 }
 

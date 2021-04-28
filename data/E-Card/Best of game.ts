@@ -14,7 +14,10 @@ const bog: Set = {
 		total: 9,
 		official: 9
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2002-12-01"
 }
 

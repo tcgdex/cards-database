@@ -15,7 +15,10 @@ const hgss4: Set = {
 		total: 103,
 		official: 102
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2010-11-03"
 }
 

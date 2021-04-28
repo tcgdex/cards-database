@@ -15,7 +15,10 @@ const ex1: Set = {
 		total: 109,
 		official: 109
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2003-07-01"
 }
 

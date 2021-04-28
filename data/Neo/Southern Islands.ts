@@ -13,7 +13,10 @@ const si1: Set = {
 		total: 18,
 		official: 18
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2001-07-31"
 }
 

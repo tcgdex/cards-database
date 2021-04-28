@@ -15,7 +15,10 @@ const ex3: Set = {
 		total: 100,
 		official: 97
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2003-11-24"
 }
 

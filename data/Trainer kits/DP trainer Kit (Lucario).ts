@@ -15,7 +15,10 @@ const set: Set = {
 		total: 12,
 		official: 12
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2007-09-01"
 }
 

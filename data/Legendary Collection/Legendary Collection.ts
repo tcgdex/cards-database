@@ -14,7 +14,10 @@ const lc: Set = {
 		total: 110,
 		official: 110
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2002-05-24"
 }
 

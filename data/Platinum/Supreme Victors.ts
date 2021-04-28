@@ -16,7 +16,10 @@ const pl3: Set = {
 		total: 153,
 		official: 147
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2009-08-19"
 }
 

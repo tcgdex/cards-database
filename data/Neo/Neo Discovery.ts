@@ -14,7 +14,10 @@ const neo2: Set = {
 		total: 75,
 		official: 75
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2001-06-01"
 }
 
