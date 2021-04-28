@@ -14,7 +14,10 @@ const neo3: Set = {
 		total: 66,
 		official: 64
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2001-09-21"
 }
 

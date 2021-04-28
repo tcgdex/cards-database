@@ -13,7 +13,10 @@ const pop1: Set = {
 		total: 17,
 		official: 17
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2004-09-01"
 }
 

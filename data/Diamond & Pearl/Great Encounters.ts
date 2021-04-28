@@ -15,7 +15,10 @@ const dp4: Set = {
 		total: 106,
 		official: 106
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2008-02-01"
 }
 

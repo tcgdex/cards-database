@@ -15,7 +15,10 @@ const dpp: Set = {
 		total: 56,
 		official: 56
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2007-05-01"
 }
 

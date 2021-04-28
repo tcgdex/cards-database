@@ -15,7 +15,10 @@ const basep: Set = {
 		total: 53,
 		official: 53
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "1999-07-01"
 }
 

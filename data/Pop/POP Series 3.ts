@@ -13,7 +13,10 @@ const pop3: Set = {
 		total: 17,
 		official: 17
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2006-04-01"
 }
 

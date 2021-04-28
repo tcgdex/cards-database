@@ -16,7 +16,10 @@ const pl1: Set = {
 		total: 133,
 		official: 127
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2009-02-11"
 }
 

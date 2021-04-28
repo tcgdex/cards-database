@@ -14,7 +14,10 @@ const np: Set = {
 		total: 40,
 		official: 40
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2003-10-01"
 }
 

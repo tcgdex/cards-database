@@ -14,7 +14,10 @@ const sp: Set = {
 		total: 10,
 		official: 10
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2002-08-01"
 }
 

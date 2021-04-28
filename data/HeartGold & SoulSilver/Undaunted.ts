@@ -15,7 +15,10 @@ const hgss3: Set = {
 		total: 91,
 		official: 90
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2010-08-18"
 }
 

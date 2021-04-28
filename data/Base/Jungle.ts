@@ -15,7 +15,10 @@ const base2: Set = {
 		total: 64,
 		official: 64
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "1999-06-16"
 }
 

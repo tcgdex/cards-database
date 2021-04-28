@@ -15,7 +15,10 @@ const gym2: Set = {
 		total: 132,
 		official: 132
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2000-10-16"
 }
 

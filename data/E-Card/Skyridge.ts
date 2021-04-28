@@ -15,7 +15,10 @@ const ecard3: Set = {
 		total: 182,
 		official: 144
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2003-05-12"
 }
 

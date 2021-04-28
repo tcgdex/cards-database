@@ -20,7 +20,7 @@ const sm6: Set = {
 	releaseDate: "2018-05-04",
 
 	legal: {
-		standard: true,
+		standard: false,
 		expanded: true
 	},
 }

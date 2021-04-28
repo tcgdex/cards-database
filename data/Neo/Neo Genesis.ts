@@ -14,7 +14,10 @@ const neo1: Set = {
 		total: 111,
 		official: 111
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2000-12-16"
 }
 

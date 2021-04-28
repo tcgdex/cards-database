@@ -15,7 +15,10 @@ const ex5: Set = {
 		total: 102,
 		official: 101
 	},
-
+	legal: {
+		expanded: false,
+		standard: false
+	},
 	releaseDate: "2004-06-01"
 }
 
