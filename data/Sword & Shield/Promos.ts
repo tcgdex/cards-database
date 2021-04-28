@@ -15,7 +15,10 @@ const swshp: Set = {
 		total: 107,
 		official: 107
 	},
-
+	legal: {
+		standard: true,
+		expanded: true
+	},
 	releaseDate: "2019-11-15"
 }
 

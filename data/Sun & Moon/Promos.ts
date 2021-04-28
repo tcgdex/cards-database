@@ -20,7 +20,7 @@ const smp: Set = {
 	releaseDate: "2017-02-03",
 
 	legal: {
-		standard: true,
+		standard: false,
 		expanded: true
 	},
 }
