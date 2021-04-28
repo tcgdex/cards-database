@@ -17,9 +17,9 @@ this is a complete rework of the database to make it easier to Add or edit any c
 the new folder architecture is this:
 
 -data
-	- Serie Name <- Each .ts files contains informations for the corresponding serie
-		- Set Name <- Each .ts files contains informations for the corresponding set
-			- Card Identifier <- Each .ts files contains informations for the corresponding card
+  - Serie Name <- Each .ts files contains informations for the corresponding serie
+    - Set Name <- Each .ts files contains informations for the corresponding set
+      - Card Identifier <- Each .ts files contains informations for the corresponding card
 
 ### V1 - [Last Commit](https://github.com/tcgdex/cards-database/tree/8f9e9536567d2ba712fa8bb0ac147c8040903470)
 
