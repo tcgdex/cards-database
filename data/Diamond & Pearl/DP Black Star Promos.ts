@@ -5,7 +5,7 @@ const dpp: Set = {
 	id: "dpp",
 	name: {
 		en: "DP Black Star Promos",
-		fr: "DP Black Star Promos"
+		fr: "Promo DP"
 	},
 	serie: serie,
 
