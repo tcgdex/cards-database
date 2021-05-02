@@ -3,21 +3,31 @@ import serie from '../Neo'
 
 const si1: Set = {
 	id: "si1",
+
 	name: {
 		en: "Southern Islands",
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 18,
 		official: 18
 	},
+
 	legal: {
 		expanded: false,
 		standard: false
 	},
-	releaseDate: "2001-07-31"
+
+	releaseDate: "2001-07-31",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: true
+	}
 }
 
 export default si1

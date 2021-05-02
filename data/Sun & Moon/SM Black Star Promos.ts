@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const smp: Set = {
 	id: "smp",
+
 	name: {
 		en: "SM Black Star Promos",
 		fr: "Promo SM"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PR-SM",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const smp: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default smp

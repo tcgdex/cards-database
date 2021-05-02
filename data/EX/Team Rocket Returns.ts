@@ -3,23 +3,33 @@ import serie from '../EX'
 
 const ex7: Set = {
 	id: "ex7",
+
 	name: {
 		en: "Team Rocket Returns",
 		fr: "Team Rocket Returns"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "RR",
 
 	cardCount: {
 		total: 111,
 		official: 109
 	},
+
 	legal: {
 		expanded: false,
 		standard: false
 	},
-	releaseDate: "2004-11-01"
+
+	releaseDate: "2004-11-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex7

@@ -3,23 +3,33 @@ import serie from '../Miscellaneous'
 
 const jumbo: Set = {
 	id: "jumbo",
+
 	name: {
 		en: "Jumbo cards",
 		fr: "Cartes Jumbo"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 160,
 		official: 160
 	},
+
 	legal: {
 		expanded: false,
 		standard: false
 	},
-	releaseDate: "2000-02-01"
+
+	releaseDate: "2000-02-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default jumbo

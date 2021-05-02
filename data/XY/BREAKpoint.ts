@@ -3,13 +3,14 @@ import serie from '../XY'
 
 const xy9: Set = {
 	id: "xy9",
+
 	name: {
 		en: "BREAKpoint",
 		fr: "Rupture Turbo"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "BKP",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const xy9: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default xy9

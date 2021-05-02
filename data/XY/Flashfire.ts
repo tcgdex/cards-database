@@ -3,13 +3,14 @@ import serie from '../XY'
 
 const xy2: Set = {
 	id: "xy2",
+
 	name: {
 		en: "Flashfire",
 		fr: "Étincelles"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "FLF",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const xy2: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default xy2

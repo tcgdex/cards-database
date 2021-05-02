@@ -3,13 +3,14 @@ import serie from '../XY'
 
 const xy11: Set = {
 	id: "xy11",
+
 	name: {
 		en: "Steam Siege",
 		fr: "Offensive Vapeur"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "STS",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const xy11: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default xy11

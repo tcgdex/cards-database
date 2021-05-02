@@ -3,23 +3,33 @@ import serie from '../EX'
 
 const ex11: Set = {
 	id: "ex11",
+
 	name: {
 		en: "Delta Species",
 		fr: "Delta Species"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "DS",
 
 	cardCount: {
 		total: 114,
 		official: 113
 	},
+
 	legal: {
 		expanded: false,
 		standard: false
 	},
-	releaseDate: "2005-10-31"
+
+	releaseDate: "2005-10-31",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex11

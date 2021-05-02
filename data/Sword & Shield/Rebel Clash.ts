@@ -3,13 +3,14 @@ import serie from '../Sword & Shield'
 
 const swsh2: Set = {
 	id: "swsh2",
+
 	name: {
 		en: "Rebel Clash",
 		fr: "Clash des Rebelles"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 209,
@@ -22,6 +23,13 @@ const swsh2: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default swsh2

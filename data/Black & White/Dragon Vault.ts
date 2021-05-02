@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const dv1: Set = {
 	id: "dv1",
+
 	name: {
 		en: "Dragon Vault",
 		fr: "Coffre des Dragons"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "DRV",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const dv1: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default dv1

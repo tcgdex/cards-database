@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sma: Set = {
 	id: "sma",
+
 	name: {
 		en: "Yellow A Alternate",
 		fr: "Carte Alternative A Jaune"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 94,
@@ -22,6 +23,13 @@ const sma: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sma

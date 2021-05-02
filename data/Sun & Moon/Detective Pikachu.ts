@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const det1: Set = {
 	id: "det1",
+
 	name: {
 		en: "Detective Pikachu",
 		fr: "Détective Pikachu"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "DET",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const det1: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default det1

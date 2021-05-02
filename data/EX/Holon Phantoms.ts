@@ -3,23 +3,33 @@ import serie from '../EX'
 
 const ex13: Set = {
 	id: "ex13",
+
 	name: {
 		en: "Holon Phantoms",
 		fr: "Holon Phantoms"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "HP",
 
 	cardCount: {
 		total: 111,
 		official: 110
 	},
+
 	legal: {
 		expanded: false,
 		standard: false
 	},
-	releaseDate: "2006-05-03"
+
+	releaseDate: "2006-05-03",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex13

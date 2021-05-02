@@ -3,23 +3,33 @@ import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-hs-g",
+
 	name: {
 		en: "HS trainer Kit (Gyarados)",
 		fr: "HS Kit du dresseur (Léviator)"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 30,
 		official: 30
 	},
+
 	legal: {
 		expanded: false,
 		standard: false
 	},
-	releaseDate: "2010-05-01"
+
+	releaseDate: "2010-05-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default set

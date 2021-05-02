@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm10: Set = {
 	id: "sm10",
+
 	name: {
 		en: "Unbroken Bonds",
 		fr: "Alliance Infaillible"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "UNB",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm10: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm10

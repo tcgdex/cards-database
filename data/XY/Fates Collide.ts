@@ -3,13 +3,14 @@ import serie from '../XY'
 
 const xy10: Set = {
 	id: "xy10",
+
 	name: {
 		en: "Fates Collide",
 		fr: "Impact des Destins"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "FCO",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const xy10: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default xy10

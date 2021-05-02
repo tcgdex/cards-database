@@ -3,13 +3,14 @@ import serie from '../Sword & Shield'
 
 const swsh4: Set = {
 	id: "swsh4",
+
 	name: {
 		en: "Vivid Voltage",
 		fr: "Voltage Éclatant"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 203,
@@ -22,6 +23,13 @@ const swsh4: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default swsh4
