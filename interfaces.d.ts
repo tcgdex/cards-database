@@ -83,6 +83,13 @@ export interface Card {
 	set: Set
 
 	/**
+	 * Card regulation Mark
+	 *
+	 * note: added from Sword & Shield
+	 */
+	regulationMark?: string
+
+	/**
 	 * Pokemon only elements
 	 */
 
