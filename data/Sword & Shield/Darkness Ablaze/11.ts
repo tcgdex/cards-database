@@ -5,18 +5,16 @@ const card: Card = {
 	name: {
 		en: "Rowlet",
 	},
+
 	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
-
-
 
 	abilities: [
 		{
@@ -29,6 +27,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -45,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -53,9 +53,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

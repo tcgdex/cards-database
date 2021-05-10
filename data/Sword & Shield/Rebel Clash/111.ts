@@ -5,17 +5,11 @@ const card: Card = {
 	name: {
 		en: "Stonjourner",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -48,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -56,9 +51,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

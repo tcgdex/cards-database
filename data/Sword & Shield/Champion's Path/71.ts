@@ -5,18 +5,16 @@ const card: Card = {
 	name: {
 		en: "Galarian Cursola V",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 190,
+
 	types: [
 		"Psychic",
 	],
-
-
 
 	abilities: [
 		{
@@ -36,16 +34,16 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fightning",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,18 +5,16 @@ const card: Card = {
 	name: {
 		en: "Garbodor",
 	},
+
 	illustrator: "AKIRA EGAWA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
 
 	evolveFrom: {
 		en: "Trubbish",
 	},
-
 
 	abilities: [
 		{
@@ -29,6 +27,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -46,6 +45,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fightning",
@@ -54,9 +54,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

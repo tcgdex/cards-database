@@ -5,27 +5,17 @@ const card: Card = {
 	name: {
 		en: "Rose",
 	},
+
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "Attach up to 2 basic Energy cards from your discard pile to 1 of your Pokémon VMAX. If you attached any Energy cards in this way, discard your hand.",
 	},
 
-
+	regulationMark: "D"
 }
 
 export default card

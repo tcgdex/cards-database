@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Morgrem",
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Impidimp",
 	},
-
-
 
 	attacks: [
 		{
@@ -47,6 +43,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -55,9 +52,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Centiskorch VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Centiskorch V",
 	},
-
-
 
 	attacks: [
 		{
@@ -37,6 +36,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -45,9 +45,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

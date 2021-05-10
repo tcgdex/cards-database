@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Scizor VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Scizor V",
 	},
-
-
 
 	attacks: [
 		{
@@ -50,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

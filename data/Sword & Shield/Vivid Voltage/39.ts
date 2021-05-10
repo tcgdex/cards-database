@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Drednaw",
 	},
+
 	illustrator: "Taira Akitsu",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Chewtle",
 	},
-
-
 
 	attacks: [
 		{
@@ -52,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Diggersby",
 	},
+
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Bunnelby",
 	},
-
-
 
 	attacks: [
 		{
@@ -50,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fightning",
@@ -58,9 +55,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,19 +5,16 @@ const card: Card = {
 	name: {
 		en: "Toxtricity VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
 
 	evolveFrom: {
 		en: "Toxtricity V",
 	},
-
-
 
 	attacks: [
 		{
@@ -36,6 +33,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fightning",
@@ -44,9 +42,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

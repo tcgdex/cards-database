@@ -5,18 +5,16 @@ const card: Card = {
 	name: {
 		en: "Jirachi",
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
-
-
 
 	abilities: [
 		{
@@ -29,6 +27,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -45,22 +44,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

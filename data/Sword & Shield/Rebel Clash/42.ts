@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Pelipper",
 	},
+
 	illustrator: "Eri Yamaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Wingull",
 	},
-
-
 
 	attacks: [
 		{
@@ -48,22 +44,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fightning",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Dewott",
 	},
+
 	illustrator: "Megumi Higuchi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Oshawott",
 	},
-
-
 
 	attacks: [
 		{
@@ -49,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -57,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Carkol",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Rolycoly",
 	},
-
-
 
 	attacks: [
 		{
@@ -46,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -54,9 +51,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Volcarona",
 	},
+
 	illustrator: "NC Empire",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Larvesta",
 	},
-
-
 
 	attacks: [
 		{
@@ -49,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -57,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

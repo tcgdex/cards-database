@@ -5,19 +5,16 @@ const card: Card = {
 	name: {
 		en: "Steelix V",
 	},
+
 	illustrator: "Satoshi Shirai",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 250,
+
 	types: [
 		"Metal",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -52,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

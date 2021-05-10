@@ -5,20 +5,20 @@ const card: Card = {
 	name: {
 		en: "Arctozolt",
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Rare Fossil",
 	},
-
 
 	abilities: [
 		{
@@ -31,6 +31,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -45,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fightning",
@@ -53,9 +55,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

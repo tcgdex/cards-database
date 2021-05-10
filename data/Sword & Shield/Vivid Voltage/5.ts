@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Exeggutor",
 	},
+
 	illustrator: "miki kudo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Exeggcute",
 	},
-
-
 
 	attacks: [
 		{
@@ -49,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -57,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

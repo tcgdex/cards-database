@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Pupitar",
 	},
+
 	illustrator: "Sekio",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Fightning",
 	],
+
 	evolveFrom: {
 		en: "Larvitar",
 	},
-
-
 
 	attacks: [
 		{
@@ -49,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -57,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

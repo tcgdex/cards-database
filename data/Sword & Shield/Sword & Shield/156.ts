@@ -6,27 +6,18 @@ const card: Card = {
 		en: "Air Balloon",
 		fr: "Ballon",
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "The Retreat Cost of the Pokémon this card is attached to is ColorlessColorless less.",
 	},
-	trainerType: "Tool",
 
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

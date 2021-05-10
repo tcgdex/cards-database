@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Salamence VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Salamence V",
 	},
-
-
 
 	attacks: [
 		{
@@ -51,22 +50,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fightning",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

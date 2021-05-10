@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Wigglytuff",
 	},
+
 	illustrator: "Lee HyunJung",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Jigglypuff",
 	},
-
-
 
 	attacks: [
 		{
@@ -51,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -59,9 +59,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

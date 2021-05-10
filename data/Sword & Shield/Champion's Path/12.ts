@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Sharpedo",
 	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Carvanha",
 	},
-
-
 
 	attacks: [
 		{
@@ -36,6 +35,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -44,9 +44,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

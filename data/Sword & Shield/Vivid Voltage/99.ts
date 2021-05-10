@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Coalossal VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 330,
+
 	types: [
 		"Fightning",
 	],
+
 	evolveFrom: {
 		en: "Coalossal V",
 	},
-
-
 
 	attacks: [
 		{
@@ -50,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -58,9 +58,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

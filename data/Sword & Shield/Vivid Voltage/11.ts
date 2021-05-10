@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Nuzleaf",
 	},
+
 	illustrator: "otumami",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Seedot",
 	},
-
-
 
 	attacks: [
 		{
@@ -34,6 +33,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -42,9 +42,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

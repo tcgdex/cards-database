@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Electrode",
 	},
+
 	illustrator: "otumami",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Voltorb",
 	},
-
-
 
 	attacks: [
 		{
@@ -45,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fightning",
@@ -52,10 +49,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

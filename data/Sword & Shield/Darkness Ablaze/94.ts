@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Hippowdon",
 	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Fightning",
 	],
+
 	evolveFrom: {
 		en: "Hippopotas",
 	},
-
-
 
 	attacks: [
 		{
@@ -52,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -60,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

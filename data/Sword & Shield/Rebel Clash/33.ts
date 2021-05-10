@@ -5,18 +5,15 @@ const card: Card = {
 	name: {
 		en: "Chandelure",
 	},
+
 	illustrator: "Taira Akitsu",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Lampent",
 	},
-
 
 	abilities: [
 		{
@@ -29,6 +26,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -45,6 +43,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -53,9 +52,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

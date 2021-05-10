@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Donphan",
 	},
+
 	illustrator: "Hasegawa Saki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Fightning",
 	],
+
 	evolveFrom: {
 		en: "Phanpy",
 	},
-
-
 
 	attacks: [
 		{
@@ -49,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -57,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

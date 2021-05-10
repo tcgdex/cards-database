@@ -6,27 +6,18 @@ const card: Card = {
 		en: "Big Charm",
 		fr: "Grande Amulette",
 	},
+
 	illustrator: "inose yukie",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "The Pokémon this card is attached to gets +30 HP.",
 	},
-	trainerType: "Tool",
 
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

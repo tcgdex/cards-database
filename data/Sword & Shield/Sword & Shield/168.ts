@@ -6,27 +6,18 @@ const card: Card = {
 		en: "Lum Berry",
 		fr: "Baie Prine",
 	},
+
 	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "At the end of each turn, if the Pokémon this card is attached to is affected by any Special Conditions, it recovers from all of them, and discard this card.",
 	},
-	trainerType: "Tool",
 
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

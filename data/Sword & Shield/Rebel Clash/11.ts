@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Masquerain",
 	},
+
 	illustrator: "chibi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Surskit",
 	},
-
-
 
 	attacks: [
 		{
@@ -48,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -56,9 +53,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Butterfree VMAX",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 300,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Butterfree V",
 	},
-
-
 
 	attacks: [
 		{
@@ -38,6 +37,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -45,10 +45,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,18 +5,16 @@ const card: Card = {
 	name: {
 		en: "Dunsparce",
 	},
+
 	illustrator: "Kazuma Koda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
-
-
 
 	abilities: [
 		{
@@ -29,6 +27,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -42,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fightning",
@@ -50,9 +50,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

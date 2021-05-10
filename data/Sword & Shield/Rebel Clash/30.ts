@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Magmortar",
 	},
+
 	illustrator: "Kazuma Koda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Magmar",
 	},
-
-
 
 	attacks: [
 		{
@@ -50,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,9 +55,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

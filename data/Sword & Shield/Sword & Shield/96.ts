@@ -6,19 +6,18 @@ const card: Card = {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
 	},
+
 	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Fightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -55,9 +55,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Melmetal",
 	},
+
 	illustrator: "NC Empire",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Meltan",
 	},
-
-
 
 	attacks: [
 		{
@@ -50,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

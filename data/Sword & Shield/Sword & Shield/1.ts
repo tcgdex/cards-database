@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Celebi V",
 		fr: "Celebi V",
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		251,
 	],
+
 	hp: 180,
+
 	types: [
 		"Grass",
 	],
@@ -54,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

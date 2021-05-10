@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Galarian Darmanitan",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Galarian Darumaka",
 	},
-
-
 
 	attacks: [
 		{
@@ -52,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -60,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

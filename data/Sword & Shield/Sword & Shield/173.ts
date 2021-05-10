@@ -6,27 +6,18 @@ const card: Card = {
 		en: "Poké Kid",
 		fr: "Poké Enfant",
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
 	},
-	trainerType: "Supporter",
 
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

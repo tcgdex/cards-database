@@ -5,20 +5,16 @@ const card: Card = {
 	name: {
 		en: "Grapploct V",
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 210,
+
 	types: [
 		"Fightning",
 	],
-
-
-
-
 
 	weaknesses: [
 		{
@@ -28,9 +24,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,19 +6,19 @@ const card: Card = {
 		en: "Indeedee V",
 		fr: "Wimessir V",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 180,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "V",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -32,6 +32,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,22 +52,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fightning",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -5,22 +5,20 @@ const card: Card = {
 	name: {
 		en: "Alcremie VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 310,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Alcremie V",
 	},
-
-
-
 
 	weaknesses: [
 		{
@@ -30,9 +28,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

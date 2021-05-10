@@ -6,27 +6,18 @@ const card: Card = {
 		en: "Lucky Egg",
 		fr: "Œuf Chance",
 	},
+
 	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "If the Pokémon this card is attached to is Knocked Out by damage from an opponent’s attack, draw cards until you have 7 cards in your hand.",
 	},
-	trainerType: "Tool",
 
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

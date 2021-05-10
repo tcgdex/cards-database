@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Golurk",
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Golett",
 	},
-
-
 
 	attacks: [
 		{
@@ -51,22 +50,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fightning",
 			value: "-30"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

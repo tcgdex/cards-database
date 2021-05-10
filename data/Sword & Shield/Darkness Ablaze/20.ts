@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Charizard VMAX",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 330,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charizard V",
 	},
-
-
 
 	attacks: [
 		{
@@ -53,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -61,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

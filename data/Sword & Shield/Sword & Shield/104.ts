@@ -6,17 +6,16 @@ const card: Card = {
 		en: "Regirock V",
 		fr: "Regirock V",
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 220,
+
 	types: [
 		"Fightning",
 	],
-
 
 	suffix: "V",
 
@@ -55,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

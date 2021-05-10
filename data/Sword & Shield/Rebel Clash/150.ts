@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Bewear",
 	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Stufful",
 	},
-
-
 
 	attacks: [
 		{
@@ -51,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fightning",
@@ -59,9 +56,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

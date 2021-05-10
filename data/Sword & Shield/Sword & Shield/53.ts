@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Keldeo V",
 		fr: "Keldeo V",
 	},
+
 	illustrator: "PLANETA Igarashi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		647,
 	],
+
 	hp: 210,
+
 	types: [
 		"Water",
 	],
@@ -53,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -61,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

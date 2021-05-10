@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Galarian Sirfetch'd",
 	},
+
 	illustrator: "You Iribi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Galarian Farfetch'd",
 	},
-
-
 
 	attacks: [
 		{
@@ -47,6 +43,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -55,9 +52,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

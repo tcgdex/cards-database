@@ -92,13 +92,9 @@ const transformer: Transform = (file, api) => {
 			if (index !== 0) return
 			let simplified = simplify(path.node)
 
-			// Run sodechanges
-			// set(j, simplified.item, j.objectExpression([
-			// 	j.property('init', j.identifier('normal'), j.booleanLiteral(true)),
-			// 	j.property('init', j.identifier('reverse'), j.booleanLiteral(true)),
-			// 	j.property('init', j.identifier('holo'), j.booleanLiteral(false)),
-			// 	j.property('init', j.identifier('firstEdition'), j.booleanLiteral(false)),
-			// ]), 'variants')
+			// Example Set/Add regulationMArk to cards
+			// set(j, simplified.item, j.literal('D'), 'regulationMark')
+
 		})
 		.toSource({useTabs: true, lineTerminator: '\n'}).replace(/    /g, '	')
 }

@@ -6,27 +6,18 @@ const card: Card = {
 		en: "Quick Ball",
 		fr: "Rapide Ball",
 	},
+
 	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "You can play this card only if you discard another card from your hand.\n\nSearch your deck for a Basic Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
 	},
-	trainerType: "Item",
 
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

@@ -5,18 +5,16 @@ const card: Card = {
 	name: {
 		en: "Drednaw V",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 210,
+
 	types: [
 		"Water",
 	],
-
-
 
 	abilities: [
 		{
@@ -38,9 +36,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

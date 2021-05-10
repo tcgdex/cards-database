@@ -5,27 +5,17 @@ const card: Card = {
 	name: {
 		en: "Bird Keeper",
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, draw 3 cards.",
 	},
 
-
+	regulationMark: "D"
 }
 
 export default card

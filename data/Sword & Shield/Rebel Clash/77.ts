@@ -5,19 +5,15 @@ const card: Card = {
 	name: {
 		en: "Xatu",
 	},
+
 	illustrator: "so-taro",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Natu",
 	},
-
-
 
 	attacks: [
 		{
@@ -46,22 +42,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fightning",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

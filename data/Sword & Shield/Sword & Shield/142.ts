@@ -6,22 +6,23 @@ const card: Card = {
 		en: "Snorlax VMAX",
 		fr: "Ronflex VMAX",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 340,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Snorlax V",
 		fr: "Ronflex-V",
 	},
-	stage: "VMAX",
 
+	stage: "VMAX",
 
 	attacks: [
 		{
@@ -42,6 +43,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fightning",
@@ -50,9 +52,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

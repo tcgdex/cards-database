@@ -5,17 +5,11 @@ const card: Card = {
 	name: {
 		en: "Heracross",
 	},
+
 	illustrator: "otumami",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -46,6 +40,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -54,9 +49,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

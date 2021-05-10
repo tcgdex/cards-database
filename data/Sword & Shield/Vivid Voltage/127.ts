@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Aegislash VMAX",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Aegislash V",
 	},
-
-
 
 	attacks: [
 		{
@@ -38,22 +37,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

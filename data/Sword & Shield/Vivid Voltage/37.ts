@@ -5,21 +5,20 @@ const card: Card = {
 	name: {
 		en: "Galarian Darmanitan VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Galarian Darmanitan V",
 	},
-
-
 
 	attacks: [
 		{
@@ -39,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -47,9 +47,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

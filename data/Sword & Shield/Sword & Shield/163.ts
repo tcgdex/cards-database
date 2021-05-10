@@ -6,27 +6,18 @@ const card: Card = {
 		en: "Evolution Incense",
 		fr: "Encens d’Évolution",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "Search your deck for an Evolution Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
 	},
-	trainerType: "Item",
 
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

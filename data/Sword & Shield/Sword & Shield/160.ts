@@ -6,27 +6,18 @@ const card: Card = {
 		en: "Energy Retrieval",
 		fr: "Récupération d’Énergie",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "Put up to 2 basic Energy cards from your discard pile into your hand.",
 	},
-	trainerType: "Item",
 
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

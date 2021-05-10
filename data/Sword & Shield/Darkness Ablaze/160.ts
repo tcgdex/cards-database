@@ -5,27 +5,17 @@ const card: Card = {
 	name: {
 		en: "Cape of Toughness",
 	},
+
 	illustrator: "inose yukie",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "The Basic Pokémon this card is attached to gets +50 HP, except Pokémon-GX.",
 	},
 
-
+	regulationMark: "D"
 }
 
 export default card

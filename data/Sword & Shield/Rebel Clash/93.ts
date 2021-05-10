@@ -5,19 +5,16 @@ const card: Card = {
 	name: {
 		en: "Dragapult VMAX",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
 
 	evolveFrom: {
 		en: "Dragapult V",
 	},
-
-
 
 	attacks: [
 		{
@@ -48,22 +45,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fightning",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

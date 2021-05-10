@@ -5,19 +5,16 @@ const card: Card = {
 	name: {
 		en: "Rillaboom VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 330,
 
 	evolveFrom: {
 		en: "Rillaboom V",
 	},
-
-
 
 	attacks: [
 		{
@@ -50,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -58,9 +56,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card
