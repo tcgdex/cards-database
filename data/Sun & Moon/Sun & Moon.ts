@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm1: Set = {
 	id: "sm1",
+
 	name: {
 		en: "Sun & Moon",
 		fr: "Soleil et Lune"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "SUM",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm1: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm1

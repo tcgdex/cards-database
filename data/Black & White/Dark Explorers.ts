@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw5: Set = {
 	id: "bw5",
+
 	name: {
 		en: "Dark Explorers",
 		fr: "Explorateurs Obscurs"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "DEX",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw5: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw5

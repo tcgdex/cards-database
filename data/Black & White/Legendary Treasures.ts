@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw11: Set = {
 	id: "bw11",
+
 	name: {
 		en: "Legendary Treasures",
 		fr: "Legendary Treasures"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "LTR",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw11: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw11

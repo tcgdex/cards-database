@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bwp: Set = {
 	id: "bwp",
+
 	name: {
 		en: "BW Black Star Promos",
 		fr: "Promo BW"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PR-BLW",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bwp: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bwp

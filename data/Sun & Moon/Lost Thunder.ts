@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm8: Set = {
 	id: "sm8",
+
 	name: {
 		en: "Lost Thunder",
 		fr: "Tonnerre Perdu"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "LOT",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm8: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm8

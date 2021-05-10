@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm5: Set = {
 	id: "sm5",
+
 	name: {
 		en: "Ultra Prism",
 		fr: "Ultra-Prisme"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "UPR",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm5: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm5

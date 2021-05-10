@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm7: Set = {
 	id: "sm7",
+
 	name: {
 		en: "Celestial Storm",
 		fr: "Tempête Céleste"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "CES",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm7: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm7

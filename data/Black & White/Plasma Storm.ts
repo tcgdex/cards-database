@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw8: Set = {
 	id: "bw8",
+
 	name: {
 		en: "Plasma Storm",
 		fr: "Tempète Plasma"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PLS",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw8: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw8

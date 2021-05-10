@@ -3,13 +3,14 @@ import serie from '../XY'
 
 const dc1: Set = {
 	id: "dc1",
+
 	name: {
 		en: "Double Crisis",
 		fr: "Double Danger"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "DCR",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const dc1: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default dc1

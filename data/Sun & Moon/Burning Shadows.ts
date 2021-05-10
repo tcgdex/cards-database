@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm3: Set = {
 	id: "sm3",
+
 	name: {
 		en: "Burning Shadows",
 		fr: "Ombres Ardentes"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "BUS",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm3: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm3

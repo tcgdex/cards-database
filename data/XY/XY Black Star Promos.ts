@@ -3,13 +3,14 @@ import serie from '../XY'
 
 const xyp: Set = {
 	id: "xyp",
+
 	name: {
 		en: "XY Black Star Promos",
 		fr: "Promo XY"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PR-XY",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const xyp: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default xyp

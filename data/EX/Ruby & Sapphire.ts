@@ -3,23 +3,33 @@ import serie from '../EX'
 
 const ex1: Set = {
 	id: "ex1",
+
 	name: {
 		en: "Ruby & Sapphire",
 		fr: "Ruby & Sapphire"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "RS",
 
 	cardCount: {
 		total: 109,
 		official: 109
 	},
+
 	legal: {
 		expanded: false,
 		standard: false
 	},
-	releaseDate: "2003-07-01"
+
+	releaseDate: "2003-07-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex1
