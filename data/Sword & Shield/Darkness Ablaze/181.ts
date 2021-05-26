@@ -13,7 +13,7 @@ const card: Card = {
 
 	hp: 230,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],
@@ -37,7 +37,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 				"Colorless",

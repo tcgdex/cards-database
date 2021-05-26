@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 140,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Crabrawler",
@@ -44,7 +44,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

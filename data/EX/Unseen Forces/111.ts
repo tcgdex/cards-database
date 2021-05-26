@@ -26,7 +26,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Shatter",
@@ -53,7 +53,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Darkness",
 				"Colorless",
 			],
@@ -68,7 +68,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Darkness",
 				"Darkness",
 				"Colorless",
@@ -89,7 +89,7 @@ const card: Card = {
 			value: "×2"
 		},
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

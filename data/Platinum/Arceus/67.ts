@@ -15,7 +15,7 @@ const card: Card = {
 	],
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Dome Fossil",
@@ -38,7 +38,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

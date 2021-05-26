@@ -39,7 +39,7 @@ const card: Card = {
 		{
 			cost: [
 				"Psychic",
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -57,7 +57,7 @@ const card: Card = {
 			cost: [
 				"Psychic",
 				"Psychic",
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "GG End-GX",
@@ -74,7 +74,7 @@ const card: Card = {
 			cost: [
 				"Psychic",
 				"Psychic",
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				fr: "GG Final-GX",

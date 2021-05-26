@@ -38,7 +38,7 @@ const card: Card = {
 			cost: [
 				"Water",
 				"Lightning",
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Dragon Tail",

@@ -13,7 +13,7 @@ const card: Card = {
 
 	hp: 220,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		fr: "Lucario-ex",
@@ -24,9 +24,9 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				fr: "Poing Imminent",

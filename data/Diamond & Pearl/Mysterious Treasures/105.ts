@@ -51,7 +51,7 @@ const card: Card = {
 	],
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "+10"
 		},
 	],
