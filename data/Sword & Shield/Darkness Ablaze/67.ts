@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Common",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mumble",
+				fr: "Murmure"
 			},
 
 			damage: 10,
@@ -38,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Kick",
+				fr: "Coup d’Pied Lunaire"
 			},
 
 			damage: 20,

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Trubbish",
+		fr: "Miamiasme"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -27,9 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lucky Find",
+				fr: "Trouvaille Inespérée"
 			},
 			effect: {
 				en: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck une carte Objet, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sludge Toss",
+				fr: "Giclée Vaseuse"
 			},
 
 			damage: 30,

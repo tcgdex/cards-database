@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Milotic",
+		fr: "Milobellus"
 	},
 	illustrator: "AKIRA EGAWA",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Feebas",
+		fr: "Barpau"
 	},
 
 
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Bright Heal",
+				fr: "Soin Lumineux"
 			},
 			effect: {
 				en: "Once during your turn, you may heal 20 damage from each of your Pokémon.",
+				fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de chacun de vos Pokémon."
 			},
 		},
 	],
@@ -40,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Surf",
+				fr: "Surf"
 			},
 
 			damage: 80,

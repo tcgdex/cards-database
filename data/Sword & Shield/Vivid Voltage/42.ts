@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Barraskewda",
+		fr: "Hastacuda"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Arrokuda",
+		fr: "Embrochet"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Targeted Skewer",
+				fr: "Cible Transpercée"
 			},
 			effect: {
 				en: "This attack does 20 damage to 1 of your opponent’s Benched Pokémon for each damage counter on that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 20 dégâts à l’un des Pokémon de Banc de votre adversaire pour chaque marqueur de dégâts sur ce Pokémon-là. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -41,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Jet Headbutt",
+				fr: "Bélier Volant"
 			},
 
 			damage: 60,

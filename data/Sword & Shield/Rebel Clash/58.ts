@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Electabuzz",
+		fr: "Élektek"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -24,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
+				fr: "Coud’Phalange"
 			},
 
 			damage: 10,
@@ -37,12 +33,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Electroslug",
+				fr: "Électro Frappe"
 			},
 
 			damage: 70,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -51,9 +49,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	hp: 90,
+	types: ["Lightning"]
 }
 
 export default card

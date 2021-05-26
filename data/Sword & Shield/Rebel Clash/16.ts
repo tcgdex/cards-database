@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Grubbin",
+		fr: "Larvibule"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -24,12 +19,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Ronge"
 			},
 
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -38,9 +35,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	hp: 60,
+	types: ["Grass"]
 }
 
 export default card

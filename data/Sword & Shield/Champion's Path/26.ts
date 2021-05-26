@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Machamp",
+		fr: "Mackogneur"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Machoke",
+		fr: "Machopeur"
 	},
 
 
@@ -29,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Macho Revenge",
+				fr: "Revanche Macho"
 			},
 			effect: {
 				en: "This attack does 20 damage for each Fighting Pokémon in your discard pile.",
+				fr: "Cette attaque inflige 20 dégâts pour chaque Pokémon Fighting dans votre pile de défausse."
 			},
 			damage: "20×",
 
@@ -44,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dynamite Punch",
+				fr: "Poing Dynamite"
 			},
 			effect: {
 				en: "This Pokémon also does 50 damage to itself.",
+				fr: "Ce Pokémon s’inflige aussi 50 dégâts."
 			},
 			damage: 200,
 

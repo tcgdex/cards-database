@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Heatran",
+		fr: "Heatran"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Fang",
+				fr: "Crocs Feu"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			},
 			damage: 30,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Raging Flare",
+				fr: "Flambée Furieuse"
 			},
 			effect: {
 				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon."
 			},
 			damage: "80+",
 

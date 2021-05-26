@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Coalossal V",
+		fr: "Monthracite V"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
+				fr: "Flammes Calcinantes"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			},
 			damage: 90,
 
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Boulder Crush",
+				fr: "Rocher Écrasant"
 			},
 
 			damage: 180,

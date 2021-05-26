@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Talonflame",
+		fr: "Flambusard"
 	},
 	illustrator: "kawayoo",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Fletchinder",
+		fr: "Braisillon"
 	},
 
 
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Scorching Feathers",
+				fr: "Plumes Calcinantes"
 			},
 			effect: {
 				en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned.",
+				fr: "Si ce Pokémon est sur le Poste Actif et qu’il subit les dégâts d’une attaque d’un Pokémon de votre adversaire (même si ce Pokémon-ci est mis K.O.), le Pokémon Attaquant est maintenant Brûlé."
 			},
 		},
 	],
@@ -40,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mach Flight",
+				fr: "Vol Supersonique"
 			},
 			effect: {
 				en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 			},
 			damage: 120,
 

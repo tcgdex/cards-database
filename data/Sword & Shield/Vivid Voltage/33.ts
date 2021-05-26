@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Oshawott",
+		fr: "Moustillon"
 	},
 	illustrator: "nagimiso",
 	rarity: "Common",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
+				fr: "Pistolet à O"
 			},
 
 			damage: 10,
@@ -38,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Seashell Attack",
+				fr: "Carap’Attaque"
 			},
 
 			damage: 20,

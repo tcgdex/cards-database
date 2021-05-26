@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Zygarde",
+		fr: "Zygarde"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 30,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Power Blast",
+				fr: "Violente Déflagration"
 			},
 			effect: {
 				en: "Discard a Fighting Energy from this Pokémon.",
+				fr: "Défaussez une Énergie Fighting de ce Pokémon."
 			},
 			damage: 130,
 

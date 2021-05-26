@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Manectric",
+		fr: "Élecsprint"
 	},
 	illustrator: "nagimiso",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Electrike",
+		fr: "Dynavolt"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Strafe",
+				fr: "Bombarder"
 			},
 			effect: {
 				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Vous pouvez échanger ce Pokémon contre l’un de vos Pokémon de Banc."
 			},
 			damage: 30,
 
@@ -43,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flash Impact",
+				fr: "Impact-Flash"
 			},
 			effect: {
 				en: "This attack also does 30 damage to 1 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige aussi 30 dégâts à l’un de vos Pokémon de Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 150,
 

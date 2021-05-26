@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Cramorant",
+		fr: "Nigosier"
 	},
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
@@ -27,9 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Continuous Gulp Missile",
+				fr: "Dégobage Continu"
 			},
 			effect: {
 				en: "Discard any number of Arrokuda from your Bench. This attack does 60 damage for each Arrokuda you discarded in this way.",
+				fr: "Défaussez autant d’Embrochet que vous le voulez de votre Banc. Cette attaque inflige 60 dégâts pour chaque carte Embrochet défaussée de cette façon."
 			},
 			damage: "60×",
 

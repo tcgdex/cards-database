@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Forretress",
+		fr: "Foretress"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Pineco",
+		fr: "Pomdepik"
 	},
 
 
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				fr: "Bélier"
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
+				fr: "Ce Pokémon s’inflige aussi 30 dégâts."
 			},
 			damage: 120,
 
@@ -46,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double KO",
+				fr: "Double K.O."
 			},
 			effect: {
 				en: "Both Active Pokémon are Knocked Out.",
+				fr: "Les deux Pokémon Actifs sont mis K.O."
 			},
 
 		},

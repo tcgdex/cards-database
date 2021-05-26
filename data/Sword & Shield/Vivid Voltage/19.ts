@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Dhelmise",
+		fr: "Sinistrail"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hook",
+				fr: "Crochet"
 			},
 
 			damage: 20,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Special Anchor",
+				fr: "Ancrage Spécial"
 			},
 			effect: {
 				en: "If this Pokémon has any Special Energy attached, this attack does 60 more damage.",
+				fr: "Si de l’Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires."
 			},
 			damage: "60+",
 

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Gogoat",
+		fr: "Chevroum"
 	},
 	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Skiddo",
+		fr: "Cabriolaine"
 	},
 
 
@@ -29,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch’Herbe"
 			},
 
 			damage: 50,
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				fr: "Bélier"
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
+				fr: "Ce Pokémon s’inflige aussi 30 dégâts."
 			},
 			damage: 160,
 

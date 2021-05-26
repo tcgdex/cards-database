@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Zebstrika",
+		fr: "Zéblitz"
 	},
 	illustrator: "0313",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Blitzle",
+		fr: "Zébibron"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
+				fr: "Balayage"
 			},
 
 			damage: 30,
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Zap Kick",
+				fr: "Coup de Pied Ravageur"
 			},
 
 			damage: 70,

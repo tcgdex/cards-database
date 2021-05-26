@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Corvisquire",
+		fr: "Bleuseille"
 	},
 	illustrator: "kirisAki",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Rookidee",
+		fr: "Minisange"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 30,
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
+				fr: "Furie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 40 damage for each heads.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts pour chaque côté face."
 			},
 			damage: "40×",
 

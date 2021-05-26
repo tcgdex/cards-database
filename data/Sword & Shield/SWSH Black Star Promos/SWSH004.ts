@@ -4,6 +4,7 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	name: {
 		fr: "Miaouss V",
+		en: "Meowth V"
 	},
 	illustrator: "aky CG Works",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				fr: "Jackpot",
+				en: "Pay Day"
 			},
 			effect: {
-				fr: "Piocher une carte.",
+				fr: "Piochez une carte.",
+				en: "Draw a card."
 			},
 			damage: 30,
 
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				fr: "Griffe Taillante",
+				en: "Slashing Claw"
 			},
 
 			damage: 130,

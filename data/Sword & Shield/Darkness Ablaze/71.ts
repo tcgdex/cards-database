@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Granbull",
+		fr: "Granbull"
 	},
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Snubbull",
+		fr: "Snubbull"
 	},
 
 
@@ -29,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Jaw Lock",
+				fr: "Croque Fort"
 			},
 			effect: {
 				en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 			},
 			damage: 50,
 
@@ -44,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt Bounce",
+				fr: "Culbute Surprise"
 			},
 
 			damage: 130,

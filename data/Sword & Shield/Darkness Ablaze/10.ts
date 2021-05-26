@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Accelgor",
+		fr: "Limaspeed"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Shelmet",
+		fr: "Escargaume"
 	},
 
 
@@ -29,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Jet Headbutt",
+				fr: "Bélier Volant"
 			},
 
 			damage: 70,

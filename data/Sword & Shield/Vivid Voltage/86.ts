@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Phanpy",
+		fr: "Phanpy"
 	},
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
+				fr: "Ruée"
 			},
 
 			damage: 10,
@@ -38,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Strike Back",
+				fr: "Vengeur"
 			},
 			effect: {
 				en: "This attack does 30 damage for each damage counter on this Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon."
 			},
 			damage: "30×",
 

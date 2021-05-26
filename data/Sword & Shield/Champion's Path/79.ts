@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Charizard V",
+		fr: "Dracaufeu V"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
+				fr: "Tranch’Griffe"
 			},
 
 			damage: 80,
@@ -42,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Spin",
+				fr: "Danse Flammes"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon."
 			},
 			damage: 220,
 

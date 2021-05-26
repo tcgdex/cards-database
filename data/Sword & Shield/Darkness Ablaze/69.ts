@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Mew V",
+		fr: "Mew V"
 	},
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "X Ball",
+				fr: "X Ball"
 			},
 			effect: {
 				en: "This attack does 30 damage for each Energy attached to both Active Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts pour chaque Énergie attachée aux deux Pokémon Actifs."
 			},
 			damage: "30×",
 

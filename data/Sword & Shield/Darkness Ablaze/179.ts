@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Centiskorch V",
+		fr: "Scolocendre V"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Radiating Heat",
+				fr: "Chaleur Irradiante"
 			},
 			effect: {
 				en: "You may discard an Energy from this Pokémon. If you do, discard an Energy from your opponent’s Active Pokémon.",
+				fr: "Vous pouvez défausser une Énergie de ce Pokémon. Dans ce cas, défaussez une Énergie du Pokémon Actif de votre adversaire."
 			},
 			damage: 20,
 
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Burning Train",
+				fr: "Train Brûlant"
 			},
 
 			damage: 180,

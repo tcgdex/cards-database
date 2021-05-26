@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Ferroseed",
+		fr: "Grindur"
 	},
 	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reaction",
+				fr: "Réagir"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc."
 			},
 			damage: 10,
 

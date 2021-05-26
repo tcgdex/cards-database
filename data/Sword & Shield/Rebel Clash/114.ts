@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Stunky",
+		fr: "Moufouette"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -25,14 +20,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Gas",
+				fr: "Gaz Toxik"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 			},
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -41,9 +39,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	hp: 70,
+	types: ["Darkness"]
 }
 
 export default card

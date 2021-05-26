@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Klinklang",
+		fr: "Cliticlic"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Klang",
+		fr: "Clic"
 	},
 
 
@@ -29,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beam",
+				fr: "Rayon"
 			},
 
 			damage: 60,
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Clockwork",
+				fr: "Mécanisme"
 			},
 			effect: {
 				en: "If you don’t have Klink and Klang on your Bench, this attack does nothing.",
+				fr: "Si vous n’avez pas Tic et Clic sur votre Banc, cette attaque ne fait rien."
 			},
 			damage: 200,
 

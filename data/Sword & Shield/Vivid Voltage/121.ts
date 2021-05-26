@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Dialga",
+		fr: "Dialga"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rewind Time",
+				fr: "Saut Temporel"
 			},
 			effect: {
 				en: "Attach up to 2 Metal Energy cards from your discard pile to 1 of your Pokémon.",
+				fr: "Attachez jusqu’à 2 cartes Énergie Metal de votre pile de défausse à l’un de vos Pokémon."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flash of Destruction",
+				fr: "Flash de Destruction"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon."
 			},
 			damage: 130,
 

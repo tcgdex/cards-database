@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Krokorok",
+		fr: "Escroco"
 	},
 	illustrator: "sowsow",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Sandile",
+		fr: "Mascaïman"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dredge Up",
+				fr: "Extraction"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your opponent’s deck.",
+				fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire."
 			},
 
 		},

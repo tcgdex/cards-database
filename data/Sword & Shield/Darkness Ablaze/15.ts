@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Steenee",
+		fr: "Candine"
 	},
 	illustrator: "sui",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Bounsweet",
+		fr: "Croquine"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Captivate",
+				fr: "Séduction"
 			},
 			effect: {
 				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+				fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif."
 			},
 
 		},
@@ -41,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smack",
+				fr: "Claque"
 			},
 
 			damage: 40,

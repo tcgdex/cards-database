@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Charmander",
+		fr: "Salamèche"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collecte"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Flamboiement"
 			},
 
 			damage: 30,

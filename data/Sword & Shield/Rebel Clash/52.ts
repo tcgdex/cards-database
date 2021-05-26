@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Arrokuda",
+		fr: "Embrochet"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -24,12 +19,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Rain Splash",
+				fr: "Pluie Éclaboussante"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -38,9 +35,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	hp: 60,
+	types: ["Water"]
 }
 
 export default card

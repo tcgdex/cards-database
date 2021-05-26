@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Golett",
+		fr: "Gringolem"
 	},
 	illustrator: "Ryuta Fuse",
 	rarity: "Common",
@@ -27,6 +28,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
+				fr: "Roulade"
 			},
 
 			damage: 30,
@@ -40,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncement"
 			},
 
 			damage: 50,

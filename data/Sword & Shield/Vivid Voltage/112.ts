@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Galarian Meowth",
+		fr: "Miaouss de Galar"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 10,
@@ -38,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
+				fr: "Combo-Griffe"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage for each heads.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts pour chaque côté face."
 			},
 			damage: "20×",
 

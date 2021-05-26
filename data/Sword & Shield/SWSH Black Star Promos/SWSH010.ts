@@ -4,6 +4,7 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	name: {
 		fr: "Tournicoton",
+		en: "Gossifleur"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				fr: "Berceuse",
+				en: "Sing"
 			},
 			effect: {
-				fr: "LE Pokémon Actif de votre adversaire est maintenant Endormi.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				en: "Your opponent’s Active Pokémon is now Asleep."
 			},
 
 		},

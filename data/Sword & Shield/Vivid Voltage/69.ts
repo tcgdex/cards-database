@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Duskull",
+		fr: "Skelénox"
 	},
 	illustrator: "nagimiso",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Future Sight",
+				fr: "Prescience"
 			},
 			effect: {
 				en: "Look at the top 4 cards of either player’s deck and put them back in any order.",
+				fr: "Regardez les 4 cartes du dessus du deck de l’un des joueurs, puis replacez-les dans l’ordre de votre choix."
 			},
 
 		},

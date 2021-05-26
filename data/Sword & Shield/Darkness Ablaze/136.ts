@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Furret",
+		fr: "Fouinar"
 	},
 	illustrator: "tetsuya koizumi",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Sentret",
+		fr: "Fouinette"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Feelin’ Fine",
+				fr: "Mode Cool"
 			},
 			effect: {
 				en: "Draw 3 cards.",
+				fr: "Piochez 3 cartes."
 			},
 
 		},
@@ -40,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Smash",
+				fr: "Éclate-Queue"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
 			},
 			damage: 90,
 

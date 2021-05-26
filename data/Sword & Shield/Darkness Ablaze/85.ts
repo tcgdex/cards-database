@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Dugtrio",
+		fr: "Triopikeur"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Diglett",
+		fr: "Taupiqueur"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig",
+				fr: "Tunnel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+				fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d’attaques infligés à ce Pokémon."
 			},
 			damage: 30,
 
@@ -42,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Bomb",
+				fr: "Boue-Bombe"
 			},
 
 			damage: 70,

@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Galarian Cursola V",
+		fr: "Corayôme de Galar V"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -23,9 +24,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Gnawing Aura",
+				fr: "Aura Rongeante"
 			},
 			effect: {
 				en: "As long as this Pokémon is in the Active Spot, whenever your opponent attaches an Energy card from their hand to 1 of their Pokémon, put 3 damage counters on that Pokémon.",
+				fr: "Tant que ce Pokémon est sur le Poste Actif, chaque fois que votre adversaire attache une carte Énergie de sa main à l’un de ses Pokémon, placez 3 marqueurs de dégâts sur ce Pokémon-là."
 			},
 		},
 	],
@@ -37,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hollow Missile",
+				fr: "Missile Éthéré"
 			},
 			effect: {
 				en: "Put 3 damage counters on your opponent’s Benched Pokémon in any way you like.",
+				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de Banc de votre adversaire comme il vous plaît."
 			},
 			damage: 60,
 

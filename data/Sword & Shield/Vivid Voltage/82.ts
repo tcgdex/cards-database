@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Zacian",
+		fr: "Zacian"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Secret Rare",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Armament",
+				fr: "Artillerie Métallique"
 			},
 			effect: {
 				en: "Attach a basic Energy card from your discard pile to this Pokémon.",
+				fr: "Attachez une carte Énergie de base de votre pile de défausse à ce Pokémon."
 			},
 			damage: 30,
 
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Amazing Sword",
+				fr: "Épée Magnifique"
 			},
 			effect: {
 				en: "If your opponent has any Pokémon VMAX in play, this attack does 150 more damage.",
+				fr: "Si votre adversaire a au moins un Pokémon-VMAX en jeu, cette attaque inflige 150 dégâts supplémentaires."
 			},
 			damage: "150+",
 

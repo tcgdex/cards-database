@@ -64,7 +64,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1,
+	retreat: 2,
 
 
 

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Talonflame V",
+		fr: "Flambusard V"
 	},
 	illustrator: "Ryota Murayama",
 	rarity: "Rare",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fast Flight",
+				fr: "Envol Soudain"
 			},
 			effect: {
 				en: "If you go first, you can use this attack during your first turn. Discard your hand and draw 6 cards.",
+				fr: "Si vous jouez en premier, vous pouvez utiliser cette attaque pendant votre premier tour. Défaussez votre main et piochez 6 cartes."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bright Wing",
+				fr: "Ailes Lumineuses"
 			},
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
+				fr: "Défaussez une Énergie de ce Pokémon."
 			},
 			damage: 160,
 

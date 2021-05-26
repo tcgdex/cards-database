@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+		fr: "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
 	},
 	trainerType: "Supporter",
 

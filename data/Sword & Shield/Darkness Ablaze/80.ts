@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Shiinotic",
+		fr: "Lampignon"
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Morelull",
+		fr: "Spododo"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flickering Light",
+				fr: "Lueur Vacillante"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent’s next turn, the Defending Pokémon can’t attack.",
+				fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer."
 			},
 			damage: 30,
 
@@ -42,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fear the Forest",
+				fr: "Peur Sylvestre"
 			},
 			effect: {
 				en: "If Glimwood Tangle is in play, this attack does 60 more damage.",
+				fr: "Si Forêt de Lumirinth est en jeu, cette attaque inflige 60 dégâts supplémentaires."
 			},
 			damage: "60+",
 

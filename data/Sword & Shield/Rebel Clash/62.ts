@@ -4,20 +4,18 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Luxray",
+		fr: "Luxray"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Luxio",
+		fr: "Luxio"
 	},
-
-
 
 	attacks: [
 		{
@@ -26,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Raid",
+				fr: "Razzia Obscure"
 			},
 			effect: {
 				en: "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
+				fr: "Si ce Pokémon a évolué de Luxio pendant ce tour, cette attaque inflige 100 dégâts supplémentaires."
 			},
 			damage: "60+",
 
@@ -40,12 +40,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Head Bolt",
+				fr: "Éclair Frontal"
 			},
 
 			damage: 120,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -54,9 +56,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	hp: 160,
+	types: ["Lightning"]
 }
 
 export default card

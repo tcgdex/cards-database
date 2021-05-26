@@ -3,7 +3,8 @@ import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Falmbino",
+		fr: "Flambino",
+		en: "Scorbunny"
 	},
 	illustrator: "Hitoshi Ariga",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				fr: "Super Roussi",
+				en: "Super Singe"
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Burned."
 			},
 			damage: 10,
 

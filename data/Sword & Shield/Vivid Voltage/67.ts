@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Shuppet",
+		fr: "Polichombr"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Haunt",
+				fr: "Hanter"
 			},
 			effect: {
 				en: "Put 1 damage counter on your opponent’s Active Pokémon.",
+				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire."
 			},
 
 		},

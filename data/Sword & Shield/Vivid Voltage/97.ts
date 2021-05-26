@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Mudsdale",
+		fr: "Bourrinos"
 	},
 	illustrator: "tetsuya koizumi",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Mudbray",
+		fr: "Tiboudet"
 	},
 
 
@@ -29,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Bomb",
+				fr: "Boue-Bombe"
 			},
 
 			damage: 50,
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Slam",
+				fr: "Tacle Lourd"
 			},
 			effect: {
 				en: "This attack does 30 less damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
+				fr: "Cette attaque inflige 30 dégâts de moins pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire."
 			},
 			damage: "180-",
 

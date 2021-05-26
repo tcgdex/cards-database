@@ -4,6 +4,7 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	name: {
 		fr: "Larméléon",
+		en: "Sobble"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -27,9 +28,11 @@ const card: Card = {
 			],
 			name: {
 				fr: "Étreinte",
+				en: "Bind"
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

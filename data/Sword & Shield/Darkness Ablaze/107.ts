@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Liepard",
+		fr: "Léopardus"
 	},
 	illustrator: "Hasuno",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Purrloin",
+		fr: "Chacripan"
 	},
 
 
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Limber",
+				fr: "Échauffement"
 			},
 			effect: {
 				en: "This Pokémon can’t be Paralyzed.",
+				fr: "Ce Pokémon ne peut pas être Paralysé."
 			},
 		},
 	],
@@ -40,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Claw",
+				fr: "Griffe Taillante"
 			},
 
 			damage: 90,

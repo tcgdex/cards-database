@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Ampharos",
+		fr: "Pharamp"
 	},
 	illustrator: "kodama",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Blast",
+				fr: "Explosion de Lumière"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
 			damage: 50,
 
@@ -42,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Electric Ball",
+				fr: "Boule de Foudre"
 			},
 
 			damage: 130,

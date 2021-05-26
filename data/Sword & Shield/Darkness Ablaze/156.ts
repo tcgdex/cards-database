@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Corviknight",
+		fr: "Corvaillus"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Corvisquire",
+		fr: "Bleuseille"
 	},
 
 
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Flying Taxi",
+				fr: "Taxi Volant"
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 1 of your Pokémon, except any Corviknight, and all attached cards into your hand.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon, vous pouvez ajouter à votre main l’un de vos Pokémon, à l’exception d’un Corvaillus, et toutes les cartes attachées."
 			},
 		},
 	],
@@ -40,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Blasting Wind",
+				fr: "Vent Impitoyable"
 			},
 
 			damage: 120,

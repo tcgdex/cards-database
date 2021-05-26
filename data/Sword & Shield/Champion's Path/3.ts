@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Kakuna",
+		fr: "Coconfort"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Weedle",
+		fr: "Aspicot"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bug Bite",
+				fr: "Piqûre"
 			},
 
 			damage: 30,

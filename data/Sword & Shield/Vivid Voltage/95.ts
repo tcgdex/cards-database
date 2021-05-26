@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Lycanroc",
+		fr: "Lougaroc"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Rockruff",
+		fr: "Rocabot"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Throw",
+				fr: "Jet-Pierres"
 			},
 
 			damage: 40,
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Mane",
+				fr: "Crinière Aiguisée"
 			},
 
 			damage: 70,

@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Charizard VMAX",
+		fr: "Dracaufeu VMAX"
 	},
 	illustrator: "aky CG Works",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Charizard V",
+		fr: "Dracaufeu-V"
 	},
 
 
@@ -30,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
+				fr: "Tranch’Griffe"
 			},
 
 			damage: 100,
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "G-Max Wildfire",
+				fr: "Fournaise G-Max"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon."
 			},
 			damage: 300,
 

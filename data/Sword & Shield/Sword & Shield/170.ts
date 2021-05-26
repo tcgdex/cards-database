@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		en: "Attach a Metal Energy card from your discard pile to 1 of your Benched Metal Pokémon.",
+		fr: "Attachez une carte Énergie Metal de votre pile de défausse à l’un de vos Pokémon Metal de Banc."
 	},
 	trainerType: "Item",
 
