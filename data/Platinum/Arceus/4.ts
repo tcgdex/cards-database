@@ -15,7 +15,7 @@ const card: Card = {
 	],
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Kabuto",
@@ -26,7 +26,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Primal Scythe",
@@ -39,7 +39,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

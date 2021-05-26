@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 60,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Cubone",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Bonemerang",
@@ -40,8 +40,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 120,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Nosepass",
@@ -28,7 +28,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Bounce Back",
@@ -43,7 +43,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

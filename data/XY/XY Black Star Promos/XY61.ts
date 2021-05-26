@@ -38,8 +38,8 @@ const card: Card = {
 		{
 			cost: [
 				"Grass",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

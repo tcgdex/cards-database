@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 100,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Geodude",
@@ -45,8 +45,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

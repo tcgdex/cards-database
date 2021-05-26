@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 120,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Riolu",
@@ -40,7 +40,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

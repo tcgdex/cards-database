@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 110,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Hippopotas",
@@ -55,8 +55,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

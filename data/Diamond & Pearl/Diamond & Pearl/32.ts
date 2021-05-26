@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 90,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Meditite",
@@ -28,7 +28,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Force Palm",
@@ -42,8 +42,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

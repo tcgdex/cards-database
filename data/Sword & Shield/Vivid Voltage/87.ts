@@ -13,7 +13,7 @@ const card: Card = {
 
 	hp: 150,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Phanpy",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Earthquake",
@@ -37,7 +37,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

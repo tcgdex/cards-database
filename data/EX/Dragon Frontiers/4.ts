@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 110,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Bayleef",
@@ -36,7 +36,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -50,7 +50,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

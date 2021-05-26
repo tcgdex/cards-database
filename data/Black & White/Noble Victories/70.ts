@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 90,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Mienfoo",
@@ -43,8 +43,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "High Jump Kick",

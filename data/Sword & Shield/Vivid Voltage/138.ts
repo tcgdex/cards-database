@@ -24,7 +24,7 @@ const card: Card = {
 			cost: [
 				"Grass",
 				"Lightning",
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Amazing Burst",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

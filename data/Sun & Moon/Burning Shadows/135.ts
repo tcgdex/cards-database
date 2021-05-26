@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 250,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Machoke",
@@ -28,8 +28,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Cross-Cut",
@@ -44,9 +44,9 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Bedrock Breaker",
@@ -61,9 +61,9 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Muscle Punch-GX",

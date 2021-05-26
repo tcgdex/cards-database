@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 150,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Rhydon",
@@ -28,8 +28,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -44,8 +44,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

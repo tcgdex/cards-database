@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 90,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Rhyhorn",
@@ -28,7 +28,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Fury Attack",
@@ -43,8 +43,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

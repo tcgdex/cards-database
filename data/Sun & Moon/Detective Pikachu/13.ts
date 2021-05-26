@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 160,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Machoke",
@@ -28,7 +28,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Directing Traffic",
@@ -42,8 +42,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Cross Chop",

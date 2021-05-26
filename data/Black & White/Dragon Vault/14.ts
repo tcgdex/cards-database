@@ -40,7 +40,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Metal",
 				"Colorless",
 			],

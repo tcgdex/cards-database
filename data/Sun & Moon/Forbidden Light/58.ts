@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 180,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Grotle",
@@ -28,8 +28,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -45,9 +45,9 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

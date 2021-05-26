@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 70,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Larvitar",
@@ -39,7 +39,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

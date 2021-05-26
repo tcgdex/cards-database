@@ -43,8 +43,8 @@ const card: Card = {
 			cost: [
 				"Lightning",
 				"Lightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Rolling Thunder",

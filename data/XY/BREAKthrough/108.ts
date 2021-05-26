@@ -37,7 +37,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Metal",
 				"Colorless",
 			],

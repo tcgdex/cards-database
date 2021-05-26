@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 60,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Steady Punch",
@@ -40,9 +40,9 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Mach Cross",

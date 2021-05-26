@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 120,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Kabuto",
@@ -40,8 +40,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

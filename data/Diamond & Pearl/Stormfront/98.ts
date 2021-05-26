@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 150,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		fr: "Mackogneur LV.X",
@@ -39,7 +39,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

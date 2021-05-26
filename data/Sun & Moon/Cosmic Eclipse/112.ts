@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 150,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Anorith",
@@ -44,7 +44,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

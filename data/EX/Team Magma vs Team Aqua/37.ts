@@ -34,7 +34,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

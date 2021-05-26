@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 110,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Carbink",
@@ -28,7 +28,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Diamond Gift",
@@ -42,7 +42,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				fr: "Cadeau de Diamant",

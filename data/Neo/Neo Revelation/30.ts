@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 70,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Geodude",
@@ -26,7 +26,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -40,9 +40,9 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Rock Tumble",

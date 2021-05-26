@@ -39,7 +39,7 @@ const card: Card = {
 			cost: [
 				"Water",
 				"Psychic",
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-20"
 		},
 	],

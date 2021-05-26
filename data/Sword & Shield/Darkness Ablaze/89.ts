@@ -13,7 +13,7 @@ const card: Card = {
 
 	hp: 60,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Land’s Pulse",

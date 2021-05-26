@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 100,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Muddy Water",
@@ -37,7 +37,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

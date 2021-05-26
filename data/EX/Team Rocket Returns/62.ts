@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 50,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Larvitar",
@@ -26,7 +26,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Fury Attack",

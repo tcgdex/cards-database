@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 80,
 	types: [
-		"Fightning",
+		"Fighting",
 		"Darkness",
 	],
 	evolveFrom: {
@@ -41,7 +41,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

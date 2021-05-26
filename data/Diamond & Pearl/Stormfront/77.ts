@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 50,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		fr: "Marcacrin",
@@ -41,7 +41,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Take Down",

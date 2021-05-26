@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 120,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "Basic",
@@ -37,9 +37,9 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Diamond Rain",
@@ -53,9 +53,9 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				fr: "Pluie de Diamants",

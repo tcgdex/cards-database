@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 80,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "Basic",
@@ -34,8 +34,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {

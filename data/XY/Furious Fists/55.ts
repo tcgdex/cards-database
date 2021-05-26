@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 220,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Lucario-EX",
@@ -28,9 +28,9 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Rising Fist",

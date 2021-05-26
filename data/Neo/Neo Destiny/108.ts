@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 80,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "Basic",
@@ -24,8 +24,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Lightning",
 			],
 			name: {
@@ -39,8 +39,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Water",
 				"Water",
 			],

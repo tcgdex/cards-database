@@ -44,7 +44,7 @@ const card: Card = {
 		{
 			cost: [
 				"Lightning",
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],
@@ -62,7 +62,7 @@ const card: Card = {
 		{
 			cost: [
 				"Lightning",
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

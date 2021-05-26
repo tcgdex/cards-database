@@ -28,7 +28,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Shout of Power",
@@ -44,7 +44,7 @@ const card: Card = {
 		{
 			cost: [
 				"Lightning",
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Scaly Uppercut",

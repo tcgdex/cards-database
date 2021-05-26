@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 110,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "LEVEL-UP",
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-20"
 		},
 	],

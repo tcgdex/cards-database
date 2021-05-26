@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 150,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Combusken",
@@ -26,7 +26,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -41,7 +41,7 @@ const card: Card = {
 		{
 			cost: [
 				"Fire",
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

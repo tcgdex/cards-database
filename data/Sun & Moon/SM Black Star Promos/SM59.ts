@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 150,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 
@@ -34,8 +34,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -47,7 +47,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Peerless Hundred Blows-GX",

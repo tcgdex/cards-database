@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 80,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "High Jump Kick",
@@ -37,8 +37,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Skyward Kick",
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-20"
 		},
 	],

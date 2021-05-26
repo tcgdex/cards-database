@@ -17,7 +17,7 @@ const card: Card = {
 
 	types: [
 		"Water",
-		"Fightning",
+		"Fighting",
 	],
 
 
@@ -43,8 +43,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

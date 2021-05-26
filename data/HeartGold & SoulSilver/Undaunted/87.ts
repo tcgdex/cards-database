@@ -17,7 +17,7 @@ const card: Card = {
 	hp: 150,
 	types: [
 		"Water",
-		"Fightning",
+		"Fighting",
 	],
 
 

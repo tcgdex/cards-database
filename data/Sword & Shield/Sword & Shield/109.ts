@@ -14,7 +14,7 @@ const card: Card = {
 
 	hp: 140,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Silicobra",
@@ -41,7 +41,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],

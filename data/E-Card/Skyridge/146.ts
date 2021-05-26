@@ -36,7 +36,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Fire",
 				"Fire",
 			],

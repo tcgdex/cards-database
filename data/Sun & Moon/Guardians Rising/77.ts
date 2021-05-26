@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 70,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "Basic",
@@ -40,9 +40,9 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Cosmicsplosion",
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-20"
 		},
 	],
