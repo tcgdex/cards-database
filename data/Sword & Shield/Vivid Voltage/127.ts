@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Aegislash VMAX",
+		fr: "Exagide VMAX"
 	},
 	illustrator: "aky CG Works",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Aegislash V",
+		fr: "Exagide-V"
 	},
 
 
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Max Hack",
+				fr: "Taillomax"
 			},
 			effect: {
 				en: "This attack does 30 more damage for each Prize card you have taken.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée."
 			},
 			damage: "160+",
 

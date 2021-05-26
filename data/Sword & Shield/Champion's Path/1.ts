@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Venusaur V",
+		fr: "Florizarre V"
 	},
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pollen Bomb",
+				fr: "Bombe Pollen"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep and Poisoned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné."
 			},
 			damage: 80,
 
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Solar Typhoon",
+				fr: "Typhon Solaire"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t use Solar Typhoon.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Typhon Solaire."
 			},
 			damage: 220,
 

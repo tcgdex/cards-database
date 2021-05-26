@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Tornadus",
+		fr: "Boréas"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Jet Draft",
+				fr: "Souffle Supersonique"
 			},
 			effect: {
 				en: "Discard a Special Energy from your opponent’s Active Pokémon.",
+				fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire."
 			},
 			damage: 30,
 
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Air Slash",
+				fr: "Lame d’Air"
 			},
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
+				fr: "Défaussez une Énergie de ce Pokémon."
 			},
 			damage: 120,
 

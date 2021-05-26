@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Larvesta",
+		fr: "Pyronille"
 	},
 	illustrator: "Uta",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Singe",
+				fr: "Roussi"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			},
 
 		},

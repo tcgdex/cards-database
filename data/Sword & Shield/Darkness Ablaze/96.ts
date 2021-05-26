@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Diggersby",
+		fr: "Excavarenne"
 	},
 	illustrator: "0313",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Bunnelby",
+		fr: "Sapereau"
 	},
 
 
@@ -30,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncement"
 			},
 
 			damage: 90,
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Crush",
+				fr: "Écras’Terre"
 			},
 
 			damage: 140,

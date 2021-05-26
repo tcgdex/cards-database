@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Scizor V",
+		fr: "Cizayox V"
 	},
 	illustrator: "Satoshi Shirai",
 	rarity: "Ultra Rare",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hack Off",
+				fr: "Sectionnement"
 			},
 			effect: {
 				en: "Discard a Pokémon Tool and a Special Energy from your opponent’s Active Pokémon.",
+				fr: "Défaussez un Outil Pokémon et une Énergie spéciale du Pokémon Actif de votre adversaire."
 			},
 			damage: 30,
 
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Claw",
+				fr: "Griffe Taillante"
 			},
 
 			damage: 140,

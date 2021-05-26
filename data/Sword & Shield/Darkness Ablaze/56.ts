@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Mareep",
+		fr: "Wattouat"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Static Shock",
+				fr: "Choc Statique"
 			},
 
 			damage: 40,

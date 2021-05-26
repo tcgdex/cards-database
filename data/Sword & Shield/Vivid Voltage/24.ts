@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Charmeleon",
+		fr: "Reptincel"
 	},
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Charmander",
+		fr: "Salamèche"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 20,
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Raging Flames",
+				fr: "Flammes Ardentes"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your deck.",
+				fr: "Défaussez les 3 cartes du dessus de votre deck."
 			},
 			damage: 60,
 

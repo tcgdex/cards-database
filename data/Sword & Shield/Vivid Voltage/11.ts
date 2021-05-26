@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Nuzleaf",
+		fr: "Pifeuil"
 	},
 	illustrator: "otumami",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Seedot",
+		fr: "Grainipiot"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch’Herbe"
 			},
 
 			damage: 40,

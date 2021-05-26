@@ -4,6 +4,7 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	name: {
 		fr: "Miaouss VMAX",
+		en: "Meowth VMAX"
 	},
 	illustrator: "aky CG Works",
 	rarity: "Common",
@@ -16,7 +17,8 @@ const card: Card = {
 		"Colorless",
 	],
 	evolveFrom: {
-		fr: "Miaouss V",
+		fr: "Miaouss-V",
+		en: "Meowth V"
 	},
 	stage: "VMAX",
 
@@ -30,10 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Pactole G-MAX",
+				fr: "Pactole G-Max",
+				en: "G-Max Gold Rush"
 			},
 			effect: {
-				fr: "Piochez 3 cartes.",
+				fr: "Piochez 3 cartes.",
+				en: "Draw 3 cards."
 			},
 			damage: 200,
 

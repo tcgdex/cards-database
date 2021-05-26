@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Dusclops",
+		fr: "Téraclope"
 	},
 	illustrator: "Kazuma Koda",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Duskull",
+		fr: "Skelénox"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde Folie"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
 
 		},
@@ -42,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Psypunch",
+				fr: "Coup de Poing Psy"
 			},
 
 			damage: 60,

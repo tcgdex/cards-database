@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Vibrava",
+		fr: "Vibraninf"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Trapinch",
+		fr: "Kraknoix"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand Pulse",
+				fr: "Vibra Sable"
 			},
 			effect: {
 				en: "This attack also does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige aussi 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 20,
 

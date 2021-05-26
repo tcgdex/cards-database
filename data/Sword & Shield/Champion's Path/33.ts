@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Ekans",
+		fr: "Abo"
 	},
 	illustrator: "Uta",
 	rarity: "Common",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,
@@ -38,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Snap",
+				fr: "Coud’ Queue Sec"
 			},
 
 			damage: 30,

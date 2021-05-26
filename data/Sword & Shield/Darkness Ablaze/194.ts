@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Salamence VMAX",
+		fr: "Drattak VMAX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Salamence V",
+		fr: "Drattak-V"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sonic Double",
+				fr: "Double Sonique"
 			},
 			effect: {
 				en: "This attack does 40 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 40 dégâts à 2 des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -43,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Max Wings",
+				fr: "Ailomax"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t use Max Wings.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Ailomax."
 			},
 			damage: 240,
 

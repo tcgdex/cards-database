@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Altaria",
+		fr: "Altaria"
 	},
 	illustrator: "Taira Akitsu",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Swablu",
+		fr: "Tylton"
 	},
 
 
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Miraculous Charm",
+				fr: "Amulette Miraculeuse"
 			},
 			effect: {
 				en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon V and Pokémon-GX.",
+				fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-V et Pokémon-GX de votre adversaire."
 			},
 		},
 	],
@@ -39,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Dive",
+				fr: "Plongée Rapide"
 			},
 
 			damage: 60,

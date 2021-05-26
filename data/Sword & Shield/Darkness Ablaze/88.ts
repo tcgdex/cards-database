@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Tyranitar",
+		fr: "Tyranocif"
 	},
 	illustrator: "nagimiso",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Pupitar",
+		fr: "Ymphect"
 	},
 
 
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bedrock Breaker",
+				fr: "Brise Fondation"
 			},
 			effect: {
 				en: "Discard a Stadium in play.",
+				fr: "Défaussez un Stade en jeu."
 			},
 			damage: 120,
 
@@ -46,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mountain Swing",
+				fr: "Frappe Montagneuse"
 			},
 			effect: {
 				en: "Discard the top 5 cards of your deck.",
+				fr: "Défaussez les 5 cartes du dessus de votre deck."
 			},
 			damage: 250,
 

@@ -4,6 +4,7 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	name: {
 		fr: "Ponyta de Galar",
+		en: "Galarian Ponyta"
 	},
 	illustrator: "kirisAki",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				fr: "Vibra Soin",
+				en: "Heal Pulse"
 			},
 			effect: {
-				fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
+				fr: "Soignez 30 dégâts de l’un de vos Pokémon.",
+				en: "Heal 30 damage from 1 of your Pokémon."
 			},
 
 		},
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				fr: "Flop",
+				en: "Flop"
 			},
 
 			damage: 20,

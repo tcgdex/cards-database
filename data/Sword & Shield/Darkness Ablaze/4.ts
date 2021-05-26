@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Parasect",
+		fr: "Parasect"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Paras",
+		fr: "Paras"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mushroom Tackle",
+				fr: "Champi-Charge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 			damage: 30,
 
@@ -43,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Solar Beam",
+				fr: "Lance-Soleil"
 			},
 
 			damage: 110,

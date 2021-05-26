@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Pikachu VMAX",
+		fr: "Pikachu VMAX"
 	},
 	illustrator: "aky CG Works",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Pikachu V",
+		fr: "Pikachu-V"
 	},
 
 
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "G-Max Volt Tackle",
+				fr: "Électacle G-Max"
 			},
 			effect: {
 				en: "You may discard all Energy from this Pokémon. If you do, this attack does 150 more damage.",
+				fr: "Vous pouvez défausser toute l’Énergie de ce Pokémon. Dans ce cas, cette attaque inflige 150 dégâts supplémentaires."
 			},
 			damage: "120+",
 

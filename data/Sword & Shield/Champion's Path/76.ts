@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Gardevoir VMAX",
+		fr: "Gardevoir VMAX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Gardevoir V",
+		fr: "Gardevoir-V"
 	},
 
 
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Max Cure",
+				fr: "Soignomax"
 			},
 			effect: {
 				en: "Heal 50 damage from this Pokémon.",
+				fr: "Soignez 50 dégâts de ce Pokémon."
 			},
 			damage: 180,
 

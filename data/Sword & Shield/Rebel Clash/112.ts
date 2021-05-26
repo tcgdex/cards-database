@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Koffing",
+		fr: "Smogo"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -24,12 +19,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Suffocating Gas",
+				fr: "Gaz Suffocant"
 			},
 
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -38,9 +35,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	hp: 70,
+	types: ["Darkness"]
 }
 
 export default card

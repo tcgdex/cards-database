@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		en: "Draw 3 cards.",
+		fr: "Piochez 3 cartes."
 	},
 	trainerType: "Supporter",
 

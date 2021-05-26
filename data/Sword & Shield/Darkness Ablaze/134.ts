@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Tauros",
+		fr: "Tauros"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Common",
@@ -27,6 +28,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
+				fr: "Koud’Korne"
 			},
 
 			damage: 60,

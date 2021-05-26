@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Wailmer",
+		fr: "Wailmer"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydro Pump",
+				fr: "Hydrocanon"
 			},
 			effect: {
 				en: "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon."
 			},
 			damage: "10+",
 

@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Rolycoly",
+		fr: "Charbi"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,

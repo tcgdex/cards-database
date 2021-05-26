@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Poochyena",
+		fr: "Medhyèna"
 	},
 	illustrator: "ryoma uratsuka",
 	rarity: "Common",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 10,
@@ -38,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rear Kick",
+				fr: "Ruade"
 			},
 
 			damage: 20,

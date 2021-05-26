@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Hippowdon",
+		fr: "Hippodocus"
 	},
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Hippopotas",
+		fr: "Hippopotas"
 	},
 
 
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Triple Smash",
+				fr: "Triple Éclate"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 80 damage for each heads.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face."
 			},
 			damage: "80×",
 
@@ -46,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Crush",
+				fr: "Écras’Terre"
 			},
 
 			damage: 150,

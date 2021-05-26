@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Tynamo",
+		fr: "Anchwatt"
 	},
 	illustrator: "sowsow",
 	rarity: "Common",
@@ -23,9 +24,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Levitate",
+				fr: "Lévitation"
 			},
 			effect: {
 				en: "If this Pokémon has any Energy attached, it has no Retreat Cost.",
+				fr: "Si de l’Énergie est attachée à ce Pokémon, il n’a pas de Coût de Retraite."
 			},
 		},
 	],
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tiny Charge",
+				fr: "Décharge Mineure"
 			},
 
 			damage: 10,

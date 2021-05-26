@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Nickit",
+		fr: "Goupilou"
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whip",
+				fr: "Mimi-Queue"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent’s next turn, the Defending Pokémon can’t attack.",
+				fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer."
 			},
 
 		},

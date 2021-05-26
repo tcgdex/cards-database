@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Stufful",
+		fr: "Nounourson"
 	},
+
 	illustrator: "so-taro",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -24,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -37,14 +33,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Jump On",
+				fr: "Saut"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires."
 			},
 			damage: "40+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -53,9 +52,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	hp: 80,
+	types: ["Colorless"]
 }
 
 export default card

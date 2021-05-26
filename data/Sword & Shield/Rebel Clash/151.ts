@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Skwovet",
+		fr: "Rongourmand"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -24,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -36,12 +32,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -50,9 +48,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	hp: 70,
+	types: ["Colorless"]
 }
 
 export default card

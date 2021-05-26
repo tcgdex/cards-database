@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Simisage",
+		fr: "Feuiloutan"
 	},
 	illustrator: "Hasegawa Saki",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Pansage",
+		fr: "Feuillajou"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Seed Bomb",
+				fr: "Canon Graine"
 			},
 
 			damage: 30,
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Giga Impact",
+				fr: "Giga Impact"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t attack.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 			},
 			damage: 110,
 

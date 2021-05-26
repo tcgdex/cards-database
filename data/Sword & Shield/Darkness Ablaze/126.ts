@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Klang",
+		fr: "Clic"
 	},
 	illustrator: "NC Empire",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Klink",
+		fr: "Tic"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Backup",
+				fr: "Renforts"
 			},
 			effect: {
 				en: "Search your deck for a Metal Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck un Pokémon Metal, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -42,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Spinning Attack",
+				fr: "Attaque Tournante"
 			},
 
 			damage: 60,

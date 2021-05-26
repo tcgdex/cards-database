@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Hatenna",
+		fr: "Bibichut"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
+				fr: "Ruée"
 			},
 
 			damage: 10,
@@ -38,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magical Shot",
+				fr: "Coup Magique"
 			},
 
 			damage: 30,

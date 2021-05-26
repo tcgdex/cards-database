@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Suicune",
+		fr: "Suicune"
 	},
 	illustrator: "so-taro",
 	rarity: "Rare",
@@ -26,6 +27,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
+				fr: "Grosse Vague"
 			},
 
 			damage: 20,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Loop",
+				fr: "Boucle Aurore"
 			},
 			effect: {
 				en: "Put 2 Water Energy attached to this Pokémon into your hand.",
+				fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon."
 			},
 			damage: 130,
 

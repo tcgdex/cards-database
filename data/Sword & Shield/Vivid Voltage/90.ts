@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Riolu",
+		fr: "Riolu"
 	},
 	illustrator: "ryoma uratsuka",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Best Punch",
+				fr: "Coup de Poing Ultime"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
 			},
 			damage: 30,
 

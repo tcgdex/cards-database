@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Machoke",
+		fr: "Machopeur"
 	},
 	illustrator: "AKIRA EGAWA",
 	rarity: "Uncommon",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Machop",
+		fr: "Machoc"
 	},
 
 
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
+				fr: "Balayage"
 			},
 
 			damage: 30,
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pummel",
+				fr: "Martelage"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 70 more damage.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 70 dégâts supplémentaires."
 			},
 			damage: "50+",
 

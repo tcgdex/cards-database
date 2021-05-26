@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Donphan",
+		fr: "Donphan"
 	},
 	illustrator: "Hasegawa Saki",
 	rarity: "Rare",
@@ -17,6 +18,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Phanpy",
+		fr: "Phanpy"
 	},
 
 
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Earthquake",
+				fr: "Séisme"
 			},
 			effect: {
 				en: "This attack also does 20 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige aussi 20 dégâts à chacun de vos Pokémon de Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 120,
 
@@ -43,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Impact",
+				fr: "Gros Impact"
 			},
 
 			damage: 90,
