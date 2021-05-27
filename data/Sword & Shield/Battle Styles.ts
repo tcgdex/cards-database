@@ -17,7 +17,7 @@ const swsh1: Set = {
 		official: 202
 	},
 
-	releaseDate: "2020-03-19",
+	releaseDate: "2021-03-19",
 
 	legal: {
 		standard: true,
