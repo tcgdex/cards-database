@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nigosier"
+		fr: "Nigosier",
+		en: "Cramorant"
 	},
 
 	illustrator: "Akira Komayama",
@@ -16,22 +17,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Plongée"
+			fr: "Plongée",
+			en: "Dive"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon."
+			fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon.",
+			en: "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon."
 		},
 
 		damage: 20,
 		cost: ["Water"]
 	}, {
 		name: {
-			fr: "Hydrocanon"
+			fr: "Hydrocanon",
+			en: "Hydro Pump"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon."
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+			en: "This attack does 20 more damage for each Water Energy attached to this Pokémon."
 		},
 
 		damage: "50+",

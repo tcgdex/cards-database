@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Wagomine"
+		fr: "Wagomine",
+		en: "Carkol"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -15,19 +16,22 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		fr: "Charbi"
+		fr: "Charbi",
+		en: "Rolycoly"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Collision"
+			fr: "Collision",
+			en: "Ram"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			fr: "Tacle Feu"
+			fr: "Tacle Feu",
+			en: "Heat Crash"
 		},
 
 		damage: 60,

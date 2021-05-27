@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gorythmic"
+		fr: "Gorythmic",
+		en: "Rillaboom"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -15,24 +16,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Badabouin"
+		fr: "Badabouin",
+		en: "Thwackey"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Rythme Voltaïque"
+			fr: "Rythme Voltaïque",
+			en: "Voltage Beat"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu’à 2 cartes Énergie Grass, puis les attacher à l’un de vos Pokémon. Mélangez ensuite votre deck."
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu’à 2 cartes Énergie Grass, puis les attacher à l’un de vos Pokémon. Mélangez ensuite votre deck.",
+			en: "Once during your turn, you may search your deck for up to 2 Grass Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Enfoncement"
+			fr: "Enfoncement",
+			en: "Hammer In"
 		},
 
 		damage: 140,

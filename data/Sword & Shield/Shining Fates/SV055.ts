@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Chapotus"
+		fr: "Chapotus",
+		en: "Hattrem"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -15,26 +16,31 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Bibichut"
+		fr: "Bibichut",
+		en: "Hatenna"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Plénitude"
+			fr: "Plénitude",
+			en: "Calm Mind"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon."
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			en: "Heal 30 damage from this Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Centrifugifle"
+			fr: "Centrifugifle",
+			en: "Brutal Swing"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires."
+			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+			en: "Flip a coin. If heads, this attack does 30 more damage."
 		},
 
 		damage: "30+",

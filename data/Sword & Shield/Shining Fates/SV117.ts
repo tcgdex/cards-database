@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Angoliath VMAX"
+		fr: "Angoliath VMAX",
+		en: "Grimmsnarl VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -15,16 +16,19 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Angoliath-V"
+		fr: "Angoliath-V",
+		en: "Grimmsnarl V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Perceuse G-Max"
+			fr: "Perceuse G-Max",
+			en: "G-Max Drill"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Énergie Darkness supplémentaire attachée à ce Pokémon (en plus du coût de cette attaque). Vous ne pouvez pas ajouter plus de 100 dégâts de cette façon."
+			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Énergie Darkness supplémentaire attachée à ce Pokémon (en plus du coût de cette attaque). Vous ne pouvez pas ajouter plus de 100 dégâts de cette façon.",
+			en: "This attack does 50 more damage for each extra Darkness Energy attached to this Pokémon (in addition to this attack’s cost). You can’t add more than 100 damage in this way."
 		},
 
 		damage: "170+",

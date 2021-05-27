@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Darumarond de Galar"
+		fr: "Darumarond de Galar",
+		en: "Galarian Darumaka"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Poing Glace"
+			fr: "Poing Glace",
+			en: "Ice Punch"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
 		},
 
 		damage: 30,

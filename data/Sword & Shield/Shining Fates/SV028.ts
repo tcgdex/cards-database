@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Khélocrok"
+		fr: "Khélocrok",
+		en: "Chewtle"
 	},
 
 	illustrator: "otumami",
@@ -16,14 +17,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Morsure"
+			fr: "Morsure",
+			en: "Bite"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			fr: "Pistolet à O"
+			fr: "Pistolet à O",
+			en: "Water Gun"
 		},
 
 		damage: 50,

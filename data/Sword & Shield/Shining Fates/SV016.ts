@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Lapyro"
+		fr: "Lapyro",
+		en: "Raboot"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		fr: "Flambino"
+		fr: "Flambino",
+		en: "Scorbunny"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Nitrocharge"
+			fr: "Nitrocharge",
+			en: "Flame Charge"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck."
 		},
 
 		damage: 20,
 		cost: ["Fire"]
 	}, {
 		name: {
-			fr: "Coup d’Pied Magnum"
+			fr: "Coup d’Pied Magnum",
+			en: "Magnum Kick"
 		},
 
 		damage: 70,

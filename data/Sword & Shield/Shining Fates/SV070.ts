@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dunaja"
+		fr: "Dunaja",
+		en: "Silicobra"
 	},
 
 	illustrator: "Akira Komayama",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Jet de Sable"
+			fr: "Jet de Sable",
+			en: "Sand Attack"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d’attaquer, votre adversaire lance une pièce. Si c’est pile, l’attaque n’est pas lancée."
+			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d’attaquer, votre adversaire lance une pièce. Si c’est pile, l’attaque n’est pas lancée.",
+			en: "During your opponent’s next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn’t happen."
 		},
 
 		cost: ["Colorless"]

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Voltoutou"
+		fr: "Voltoutou",
+		en: "Yamper"
 	},
 
 	illustrator: "sowsow",
@@ -16,17 +17,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Hurlement"
+			fr: "Hurlement",
+			en: "Roar"
 		},
 
 		effect: {
-			fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc."
+			fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
+			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Choc Statique"
+			fr: "Choc Statique",
+			en: "Static Shock"
 		},
 
 		damage: 10,

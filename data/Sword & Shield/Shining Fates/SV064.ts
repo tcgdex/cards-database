@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Palarticho de Galar"
+		fr: "Palarticho de Galar",
+		en: "Galarian Sirfetch’d"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		fr: "Canarticho de Galar"
+		fr: "Canarticho de Galar",
+		en: "Galarian Farfetch’d"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Transpercement"
+			fr: "Transpercement",
+			en: "Pierce"
 		},
 
 		damage: 40,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			fr: "Joute Astrale"
+			fr: "Joute Astrale",
+			en: "Meteor Assault"
 		},
 
 		effect: {
-			fr: "Ce Pokémon ne peut pas réutiliser Joute Astrale tant qu’il ne quitte pas le Poste Actif."
+			fr: "Ce Pokémon ne peut pas réutiliser Joute Astrale tant qu’il ne quitte pas le Poste Actif.",
+			en: "This Pokémon can’t use Meteor Assault again until it leaves the Active Spot."
 		},
 
 		damage: 180,

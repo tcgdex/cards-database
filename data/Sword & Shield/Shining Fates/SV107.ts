@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dracaufeu VMAX"
+		fr: "Dracaufeu VMAX",
+		en: "Charizard VMAX"
 	},
 
 	illustrator: "aky CG Works",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		fr: "Dracaufeu-V"
+		fr: "Dracaufeu-V",
+		en: "Charizard V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Tranch’Griffe"
+			fr: "Tranch’Griffe",
+			en: "Claw Slash"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			fr: "Fournaise G-Max"
+			fr: "Fournaise G-Max",
+			en: "G-Max Wildfire"
 		},
 
 		effect: {
-			fr: "Défaussez 2 Énergies de ce Pokémon."
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
+			en: "Discard 2 Energy from this Pokémon."
 		},
 
 		damage: 300,

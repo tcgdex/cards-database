@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Cacnea"
+		fr: "Cacnea",
+		en: "Cacnea"
 	},
 
 	illustrator: "Uta",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Transpercement"
+			fr: "Transpercement",
+			en: "Pierce"
 		},
 
 		damage: 50,

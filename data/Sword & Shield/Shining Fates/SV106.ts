@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gorythmic VMAX"
+		fr: "Gorythmic VMAX",
+		en: "Rillaboom VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Gorythmic-V"
+		fr: "Gorythmic-V",
+		en: "Rillaboom V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Griffe"
+			fr: "Griffe",
+			en: "Scratch"
 		},
 
 		damage: 50,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Battromax"
+			fr: "Battromax",
+			en: "Max Beating"
 		},
 
 		effect: {
-			fr: "Vous pouvez défausser jusqu’à 3 Énergies Grass de ce Pokémon. Dans ce cas, cette attaque inflige 50 dégâts supplémentaires pour chaque carte défaussée de cette façon."
+			fr: "Vous pouvez défausser jusqu’à 3 Énergies Grass de ce Pokémon. Dans ce cas, cette attaque inflige 50 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			en: "You may discard up to 3 Grass Energy from this Pokémon. If you do, this attack does 50 more damage for each card you discarded in this way."
 		},
 
 		damage: "130+",

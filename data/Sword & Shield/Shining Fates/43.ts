@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mimigal"
+		fr: "Mimigal",
+		en: "Spinarak"
 	},
 
 	illustrator: "sowsow",
@@ -16,14 +17,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Suspension"
+			fr: "Suspension",
+			en: "Hang Down"
 		},
 
 		damage: 10,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			fr: "Dard"
+			fr: "Dard",
+			en: "Sting"
 		},
 
 		damage: 20,

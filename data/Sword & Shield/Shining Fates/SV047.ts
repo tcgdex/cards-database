@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ponyta de Galar"
+		fr: "Ponyta de Galar",
+		en: "Galarian Ponyta"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Choc Mental"
+			fr: "Choc Mental",
+			en: "Psy Bolt"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
 		},
 
 		damage: 10,

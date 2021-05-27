@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Minisange"
+		fr: "Minisange",
+		en: "Rookidee"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -16,14 +17,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Battement"
+			fr: "Battement",
+			en: "Flap"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Glissement"
+			fr: "Glissement",
+			en: "Glide"
 		},
 
 		damage: 30,

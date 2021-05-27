@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Grillepattes"
+		fr: "Grillepattes",
+		en: "Sizzlipede"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,14 +17,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Morsure"
+			fr: "Morsure",
+			en: "Bite"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Fournaise"
+			fr: "Fournaise",
+			en: "Combustion"
 		},
 
 		damage: 50,

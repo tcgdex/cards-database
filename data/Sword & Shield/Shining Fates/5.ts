@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tropius"
+		fr: "Tropius",
+		en: "Tropius"
 	},
 
 	illustrator: "Akira Komayama",
@@ -16,17 +17,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Main Verte"
+			fr: "Main Verte",
+			en: "Attach Leaves"
 		},
 
 		effect: {
-			fr: "Attachez jusqu’à 2 cartes Énergie Grass de votre pile de défausse à vos Pokémon de Banc comme il vous plaît."
+			fr: "Attachez jusqu’à 2 cartes Énergie Grass de votre pile de défausse à vos Pokémon de Banc comme il vous plaît.",
+			en: "Attach up to 2 Grass Energy cards from your discard pile to your Benched Pokémon in any way you like."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Tornade"
+			fr: "Tornade",
+			en: "Gust"
 		},
 
 		damage: 30,

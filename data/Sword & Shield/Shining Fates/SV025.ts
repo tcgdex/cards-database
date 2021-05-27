@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Larméléon"
+		fr: "Larméléon",
+		en: "Sobble"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Pistolet à O"
+			fr: "Pistolet à O",
+			en: "Water Gun"
 		},
 
 		damage: 20,

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Badabouin"
+		fr: "Badabouin",
+		en: "Thwackey"
 	},
 
 	illustrator: "0313",
@@ -15,24 +16,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Ouistempo"
+		fr: "Ouistempo",
+		en: "Grookey"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Avantage du Terrain"
+			fr: "Avantage du Terrain",
+			en: "Lay of the Land"
 		},
 
 		effect: {
-			fr: "Si vous avez un Stade en jeu, ce Pokémon n’a pas de Coût de Retraite."
+			fr: "Si vous avez un Stade en jeu, ce Pokémon n’a pas de Coût de Retraite.",
+			en: "If you have a Stadium in play, this Pokémon has no Retreat Cost."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Tapotige"
+			fr: "Tapotige",
+			en: "Branch Poke"
 		},
 
 		damage: 20,

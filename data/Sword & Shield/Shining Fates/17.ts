@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Reshiram"
+		fr: "Reshiram",
+		en: "Reshiram"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Brasier Magnifique"
+			fr: "Brasier Magnifique",
+			en: "Amazing Blaze"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s’inflige aussi 60 dégâts."
+			fr: "Ce Pokémon s’inflige aussi 60 dégâts.",
+			en: "This Pokémon also does 60 damage to itself."
 		},
 
 		damage: 270,

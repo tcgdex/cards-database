@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Évoli"
+		fr: "Évoli",
+		en: "Eevee"
 	},
 
 	illustrator: "so-taro",
@@ -16,21 +17,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Signes d’Évolution"
+			fr: "Signes d’Évolution",
+			en: "Signs of Evolution"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck une carte Évolution d’Évoli, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck."
+			fr: "Cherchez dans votre deck une carte Évolution d’Évoli, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			en: "Search your deck for a card that evolves from Eevee, reveal it, and put it into your hand. Then, shuffle your deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Coup Déchaîné"
+			fr: "Coup Déchaîné",
+			en: "Wild Kick"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+			en: "Flip a coin. If tails, this attack does nothing."
 		},
 
 		damage: 30,

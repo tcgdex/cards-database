@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Larvadar"
+		fr: "Larvadar",
+		en: "Blipbug"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Ronge"
+			fr: "Ronge",
+			en: "Gnaw"
 		},
 
 		damage: 20,

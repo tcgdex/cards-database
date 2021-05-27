@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Charbi"
+		fr: "Charbi",
+		en: "Rolycoly"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Collision"
+			fr: "Collision",
+			en: "Ram"
 		},
 
 		damage: 10,

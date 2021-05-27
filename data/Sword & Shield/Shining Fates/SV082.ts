@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Roublenard"
+		fr: "Roublenard",
+		en: "Thievul"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Goupilou"
+		fr: "Goupilou",
+		en: "Nickit"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Larcin"
+			fr: "Larcin",
+			en: "Thief"
 		},
 
 		effect: {
-			fr: "Votre adversaire dévoile sa main. Choisissez-y une carte, puis placez-la en dessous de son deck."
+			fr: "Votre adversaire dévoile sa main. Choisissez-y une carte, puis placez-la en dessous de son deck.",
+			en: "Your opponent reveals their hand. Choose a card you find there and put it on the bottom of their deck."
 		},
 
 		damage: 20,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			fr: "Croc Obscur"
+			fr: "Croc Obscur",
+			en: "Darkness Fang"
 		},
 
 		damage: 90,

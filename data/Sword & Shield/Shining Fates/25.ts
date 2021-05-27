@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Volcanion"
+		fr: "Volcanion",
+		en: "Volcanion"
 	},
 
 	illustrator: "nagimiso",
@@ -16,18 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Enfoncement"
+			fr: "Enfoncement",
+			en: "Hammer In"
 		},
 
 		damage: 50,
 		cost: ["Water", "Colorless"]
 	}, {
 		name: {
-			fr: "Vapeur Explosive"
+			fr: "Vapeur Explosive",
+			en: "Dynamite Steam"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
+			en: "Flip 2 coins. This attack does 120 damage for each heads."
 		},
 
 		damage: "120×",

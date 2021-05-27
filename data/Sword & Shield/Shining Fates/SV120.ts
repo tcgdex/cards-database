@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Moumouflon V"
+		fr: "Moumouflon V",
+		en: "Dubwool V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,21 +19,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Laine Douce"
+			fr: "Laine Douce",
+			en: "Soft Wool"
 		},
 
 		effect: {
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Explo-Vengeance"
+			fr: "Explo-Vengeance",
+			en: "Revenge Blast"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée."
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
+			en: "This attack does 30 more damage for each Prize card your opponent has taken."
 		},
 
 		damage: "120+",

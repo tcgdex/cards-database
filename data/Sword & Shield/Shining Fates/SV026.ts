@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Arrozard"
+		fr: "Arrozard",
+		en: "Drizzile"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -15,24 +16,28 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Larméléon"
+		fr: "Larméléon",
+		en: "Sobble"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Affaires Louches"
+			fr: "Affaires Louches",
+			en: "Shady Dealings"
 		},
 
 		effect: {
-			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez chercher dans votre deck une carte Dresseur, la révéler, puis l’ajouter à votre main. Mélangez ensuite votre deck."
+			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez chercher dans votre deck une carte Dresseur, la révéler, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
+			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Goutte à Goutte"
+			fr: "Goutte à Goutte",
+			en: "Water Drip"
 		},
 
 		damage: 30,

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Crèmy"
+		fr: "Crèmy",
+		en: "Milcery"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -16,17 +17,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Aromathérapie"
+			fr: "Aromathérapie",
+			en: "Aromatherapy"
 		},
 
 		effect: {
-			fr: "Soignez 10 dégâts de chacun de vos Pokémon."
+			fr: "Soignez 10 dégâts de chacun de vos Pokémon.",
+			en: "Heal 10 damage from each of your Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Charge"
+			fr: "Charge",
+			en: "Tackle"
 		},
 
 		damage: 20,

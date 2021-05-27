@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Monthracite"
+		fr: "Monthracite",
+		en: "Coalossal"
 	},
 
 	illustrator: "nagimiso",
@@ -15,24 +16,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		fr: "Wagomine"
+		fr: "Wagomine",
+		en: "Carkol"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Générateur de Poix"
+			fr: "Générateur de Poix",
+			en: "Tar Generator"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Fire, une carte Énergie Fighting, ou une de chaque de votre pile de défausse à vos Pokémon, comme il vous plaît."
+			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Fire, une carte Énergie Fighting, ou une de chaque de votre pile de défausse à vos Pokémon, comme il vous plaît.",
+			en: "Once during your turn, you may attach a Fire Energy card, a Fighting Energy card, or 1 of each from your discard pile to your Pokémon in any way you like."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Avalanche Ardente"
+			fr: "Avalanche Ardente",
+			en: "Flaming Avalanche"
 		},
 
 		damage: 130,

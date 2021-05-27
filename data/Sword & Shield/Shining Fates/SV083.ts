@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Grimalin"
+		fr: "Grimalin",
+		en: "Impidimp"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -16,14 +17,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Bataille"
+			fr: "Bataille",
+			en: "Beat"
 		},
 
 		damage: 10,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			fr: "Ruée"
+			fr: "Ruée",
+			en: "Stampede"
 		},
 
 		damage: 20,

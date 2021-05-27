@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Beldeneige"
+		fr: "Beldeneige",
+		en: "Frosmoth"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -15,24 +16,28 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Frissonille"
+		fr: "Frissonille",
+		en: "Snom"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Danse de Glace"
+			fr: "Danse de Glace",
+			en: "Ice Dance"
 		},
 
 		effect: {
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Water de votre main à l’un de vos Pokémon Water de Banc."
+			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Water de votre main à l’un de vos Pokémon Water de Banc.",
+			en: "As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Benched Water Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Onde Boréale"
+			fr: "Onde Boréale",
+			en: "Aurora Beam"
 		},
 
 		damage: 30,

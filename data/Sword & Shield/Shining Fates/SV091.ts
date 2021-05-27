@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Pachyradjah"
+		fr: "Pachyradjah",
+		en: "Copperajah"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -15,28 +16,33 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		fr: "Charibari"
+		fr: "Charibari",
+		en: "Cufant"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Peau Stérilisante"
+			fr: "Peau Stérilisante",
+			en: "Antibacterial Skin"
 		},
 
 		effect: {
-			fr: "Ce Pokémon ne peut être affecté par aucun État Spécial."
+			fr: "Ce Pokémon ne peut être affecté par aucun État Spécial.",
+			en: "This Pokémon can’t be affected by any Special Conditions."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Écrasement Vengeur"
+			fr: "Écrasement Vengeur",
+			en: "Vengeful Stomp"
 		},
 
 		effect: {
-			fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 120 dégâts supplémentaires."
+			fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 120 dégâts supplémentaires.",
+			en: "If your Benched Pokémon have any damage counters on them, this attack does 120 more damage."
 		},
 
 		damage: "120+",

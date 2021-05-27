@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Toxizap"
+		fr: "Toxizap",
+		en: "Toxel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,14 +17,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Gifle"
+			fr: "Gifle",
+			en: "Slap"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Choc Statique"
+			fr: "Choc Statique",
+			en: "Static Shock"
 		},
 
 		damage: 20,

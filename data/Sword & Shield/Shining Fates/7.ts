@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Efflèche"
+		fr: "Efflèche",
+		en: "Dartrix"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -15,12 +16,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Brindibou"
+		fr: "Brindibou",
+		en: "Rowlet"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Tranch’Herbe"
+			fr: "Tranch’Herbe",
+			en: "Razor Leaf"
 		},
 
 		damage: 40,

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tournicoton"
+		fr: "Tournicoton",
+		en: "Gossifleur"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Feuillage"
+			fr: "Feuillage",
+			en: "Leafage"
 		},
 
 		damage: 10,

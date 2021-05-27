@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Wimessir"
+		fr: "Wimessir",
+		en: "Indeedee"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,21 +17,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Gain de Temps"
+			fr: "Gain de Temps",
+			en: "Replenish Time"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de chacun de vos Pokémon."
+			fr: "Soignez 30 dégâts de chacun de vos Pokémon.",
+			en: "Heal 30 damage from each of your Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Rafale Psy"
+			fr: "Rafale Psy",
+			en: "Psybeam"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			en: "Your opponent’s Active Pokémon is now Confused."
 		},
 
 		damage: 30,

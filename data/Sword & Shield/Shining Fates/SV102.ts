@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bleuseille"
+		fr: "Bleuseille",
+		en: "Corvisquire"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		fr: "Minisange"
+		fr: "Minisange",
+		en: "Rookidee"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Picore"
+			fr: "Picore",
+			en: "Pluck"
 		},
 
 		effect: {
-			fr: "Avant d’infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire."
+			fr: "Avant d’infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+			en: "Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon."
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Bec Vrille"
+			fr: "Bec Vrille",
+			en: "Drill Peck"
 		},
 
 		damage: 50,

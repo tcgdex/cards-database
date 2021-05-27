@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Pyrobut V"
+		fr: "Pyrobut V",
+		en: "Cinderace V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,17 +19,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Coureur de Fond"
+			fr: "Coureur de Fond",
+			en: "Field Runner"
 		},
 
 		effect: {
-			fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite."
+			fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite.",
+			en: "If a Stadium is in play, this Pokémon has no Retreat Cost."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Jambes Carmin"
+			fr: "Jambes Carmin",
+			en: "Crimson Legs"
 		},
 
 		damage: 140,

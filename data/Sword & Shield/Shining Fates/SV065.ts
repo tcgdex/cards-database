@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tutafeh de Galar"
+		fr: "Tutafeh de Galar",
+		en: "Galarian Yamask"
 	},
 
 	illustrator: "sowsow",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Attaque Imprudente"
+			fr: "Attaque Imprudente",
+			en: "Reckless Charge"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts."
+			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			en: "This Pokémon also does 30 damage to itself."
 		},
 
 		damage: 50,

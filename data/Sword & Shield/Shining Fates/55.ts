@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nigosier VMAX"
+		fr: "Nigosier VMAX",
+		en: "Cramorant VMAX"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -15,16 +16,19 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		fr: "Nigosier-V"
+		fr: "Nigosier-V",
+		en: "Cramorant V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Jetomax"
+			fr: "Jetomax",
+			en: "Max Jet"
 		},
 
 		effect: {
-			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face."
+			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
+			en: "Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads."
 		},
 
 		damage: "80×",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gouroutan"
+		fr: "Gouroutan",
+		en: "Oranguru"
 	},
 
 	illustrator: "nagimiso",
@@ -18,17 +19,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Sagesse du Primate"
+			fr: "Sagesse du Primate",
+			en: "Primate Wisdom"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez échanger une carte de votre main contre la carte du dessus de votre deck."
+			fr: "Une fois pendant votre tour, vous pouvez échanger une carte de votre main contre la carte du dessus de votre deck.",
+			en: "Once during your turn, you may switch a card from your hand with the top card of your deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Assommer"
+			fr: "Assommer",
+			en: "Whap Down"
 		},
 
 		damage: 70,

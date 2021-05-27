@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Salarsen VMAX"
+		fr: "Salarsen VMAX",
+		en: "Toxtricity VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -15,16 +16,19 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		fr: "Salarsen-V"
+		fr: "Salarsen-V",
+		en: "Toxtricity V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Émeute G-Max"
+			fr: "Émeute G-Max",
+			en: "G-Max Riot"
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 80 dégâts supplémentaires."
+			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 80 dégâts supplémentaires.",
+			en: "If your opponent’s Active Pokémon is Poisoned, this attack does 80 more damage."
 		},
 
 		damage: "160+",

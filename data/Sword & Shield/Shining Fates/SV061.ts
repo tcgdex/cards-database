@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dispareptil"
+		fr: "Dispareptil",
+		en: "Drakloak"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -15,22 +16,26 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Fantyrm"
+		fr: "Fantyrm",
+		en: "Dreepy"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Citation"
+			fr: "Citation",
+			en: "Summon"
 		},
 
 		effect: {
-			fr: "Cherchez un Fantyrm dans votre deck, puis placez-le sur votre Banc. Mélangez ensuite votre deck."
+			fr: "Cherchez un Fantyrm dans votre deck, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			en: "Search your deck for a Dreepy and put it onto your Bench. Then, shuffle your deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Morsure"
+			fr: "Morsure",
+			en: "Bite"
 		},
 
 		damage: 40,

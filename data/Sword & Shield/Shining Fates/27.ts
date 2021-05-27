@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Torgamord"
+		fr: "Torgamord",
+		en: "Drednaw"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -15,24 +16,28 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Khélocrok"
+		fr: "Khélocrok",
+		en: "Chewtle"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Exosquelette"
+			fr: "Exosquelette",
+			en: "Exoskeleton"
 		},
 
 		effect: {
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Coud’Krâne"
+			fr: "Coud’Krâne",
+			en: "Skull Bash"
 		},
 
 		damage: 130,

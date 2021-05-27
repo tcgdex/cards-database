@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Blancoton"
+		fr: "Blancoton",
+		en: "Eldegoss"
 	},
 
 	illustrator: "kodama",
@@ -15,26 +16,31 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Tournicoton"
+		fr: "Tournicoton",
+		en: "Gossifleur"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Graines Fortifiantes"
+			fr: "Graines Fortifiantes",
+			en: "Enriching Seeds"
 		},
 
 		effect: {
-			fr: "Soignez tous les dégâts de l’un de vos Pokémon de Banc."
+			fr: "Soignez tous les dégâts de l’un de vos Pokémon de Banc.",
+			en: "Heal all damage from 1 of your Benched Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Attaque Surprise"
+			fr: "Attaque Surprise",
+			en: "Surprise Attack"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+			en: "Flip a coin. If tails, this attack does nothing."
 		},
 
 		damage: 50,

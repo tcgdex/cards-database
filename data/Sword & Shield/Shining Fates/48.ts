@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Roublenard"
+		fr: "Roublenard",
+		en: "​Thievul"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -15,26 +16,31 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Goupilou"
+		fr: "Goupilou",
+		en: "Nickit"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Appel à la Rescousse"
+			fr: "Appel à la Rescousse",
+			en: "Call for Goons"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu’à 3 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck."
+			fr: "Cherchez dans votre deck jusqu’à 3 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Coinçage"
+			fr: "Coinçage",
+			en: "Corner"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat."
 		},
 
 		damage: 80,

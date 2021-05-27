@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Lokhlass VMAX"
+		fr: "Lokhlass VMAX",
+		en: "Lapras VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -15,16 +16,19 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Lokhlass-V"
+		fr: "Lokhlass-V",
+		en: "Lapras V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Pompe G-Max"
+			fr: "Pompe G-Max",
+			en: "G-Max Pump"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon."
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+			en: "This attack does 30 more damage for each Water Energy attached to this Pokémon."
 		},
 
 		damage: "90+",

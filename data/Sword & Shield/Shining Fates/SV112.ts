@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Salarsen V"
+		fr: "Salarsen V",
+		en: "Toxtricity V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -16,22 +17,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Direct Toxik"
+			fr: "Direct Toxik",
+			en: "Poison Jab"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			en: "Your opponent’s Active Pokémon is now Poisoned."
 		},
 
 		damage: 20,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			fr: "Émeute Électrique"
+			fr: "Émeute Électrique",
+			en: "Electric Riot"
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 90 dégâts supplémentaires."
+			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 90 dégâts supplémentaires.",
+			en: "If your opponent’s Active Pokémon is Poisoned, this attack does 90 more damage."
 		},
 
 		damage: "90+",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Poulpaf"
+		fr: "Poulpaf",
+		en: "Clobbopus"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Étreinte"
+			fr: "Étreinte",
+			en: "Bind"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
 		},
 
 		damage: 20,

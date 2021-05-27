@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mustéflott"
+		fr: "Mustéflott",
+		en: "Floatzel"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -15,12 +16,14 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Mustébouée"
+		fr: "Mustébouée",
+		en: "Buizel"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Surf"
+			fr: "Surf",
+			en: "Surf"
 		},
 
 		damage: 50,

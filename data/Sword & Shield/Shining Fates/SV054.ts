@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bibichut"
+		fr: "Bibichut",
+		en: "Hatenna"
 	},
 
 	illustrator: "otumami",
@@ -16,17 +17,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Trouver un Ami"
+			fr: "Trouver un Ami",
+			en: "Find a Friend"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+			fr: "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+			en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Piqûre Psy"
+			fr: "Piqûre Psy",
+			en: "Psyshot"
 		},
 
 		damage: 20,

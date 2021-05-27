@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Morpeko"
+		fr: "Morpeko",
+		en: "Morpeko"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,21 +17,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Glouton"
+			fr: "Glouton",
+			en: "Famished"
 		},
 
 		effect: {
-			fr: "Piochez une carte."
+			fr: "Piochez une carte.",
+			en: "Draw a card."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Éclair"
+			fr: "Éclair",
+			en: "Thunder Shock"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
 		},
 
 		damage: 40,

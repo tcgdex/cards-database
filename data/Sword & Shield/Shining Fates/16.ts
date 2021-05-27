@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Zarude"
+		fr: "Zarude",
+		en: "Zarude"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,18 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Lianes Sangsues"
+			fr: "Lianes Sangsues",
+			en: "Suctioning Vines"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon."
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			en: "Heal 30 damage from this Pokémon."
 		},
 
 		damage: 30,
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			fr: "Courroux de la Jungle"
+			fr: "Courroux de la Jungle",
+			en: "Jungle Blast"
 		},
 
 		damage: 110,

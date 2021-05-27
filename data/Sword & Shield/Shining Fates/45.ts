@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nostenfer VMAX"
+		fr: "Nostenfer VMAX",
+		en: "Crobat VMAX"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Nostenfer-V"
+		fr: "Nostenfer-V",
+		en: "Crobat V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Poison Évasif"
+			fr: "Poison Évasif",
+			en: "Stealth Poison"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Échangez ce Pokémon contre l’un de vos Pokémon de Banc."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+			en: "Your opponent’s Active Pokémon is now Poisoned. Switch this Pokémon with 1 of your Benched Pokémon."
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Colorless"]
 	}, {
 		name: {
-			fr: "Tranchomax"
+			fr: "Tranchomax",
+			en: "Max Cutter"
 		},
 
 		damage: 180,

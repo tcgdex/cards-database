@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Scolocendre V"
+		fr: "Scolocendre V",
+		en: "Centiskorch V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -16,18 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Chaleur Irradiante"
+			fr: "Chaleur Irradiante",
+			en: "Radiating Heat"
 		},
 
 		effect: {
-			fr: "Vous pouvez défausser une Énergie de ce Pokémon. Dans ce cas, défaussez une Énergie du Pokémon Actif de votre adversaire."
+			fr: "Vous pouvez défausser une Énergie de ce Pokémon. Dans ce cas, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			en: "You may discard an Energy from this Pokémon. If you do, discard an Energy from your opponent’s Active Pokémon."
 		},
 
 		damage: 20,
 		cost: ["Fire"]
 	}, {
 		name: {
-			fr: "Train Brûlant"
+			fr: "Train Brûlant",
+			en: "Burning Train"
 		},
 
 		damage: 180,

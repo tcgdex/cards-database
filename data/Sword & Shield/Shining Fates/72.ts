@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Carolina"
+		fr: "Carolina",
+		en: "Skyla"
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Cherchez dans votre deck une carte Dresseur, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck."
+		fr: "Cherchez dans votre deck une carte Dresseur, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+		en: "Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck."
 	},
 
 	trainerType: "Supporter"

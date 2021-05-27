@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Fulgudog"
+		fr: "Fulgudog",
+		en: "Boltund"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -15,27 +16,32 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		fr: "Voltoutou"
+		fr: "Voltoutou",
+		en: "Yamper"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Grosse Morsure"
+			fr: "Grosse Morsure",
+			en: "Big Bite"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat."
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			fr: "Crocs Combatifs"
+			fr: "Crocs Combatifs",
+			en: "Fighting Fangs"
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V ou un Pokémon-GX, cette attaque inflige 90 dégâts supplémentaires."
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V ou un Pokémon-GX, cette attaque inflige 90 dégâts supplémentaires.",
+			en: "If your opponent’s Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 90 more damage."
 		},
 
 		damage: "90+",

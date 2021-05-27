@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Corayon de Galar"
+		fr: "Corayon de Galar",
+		en: "Galarian Corsola"
 	},
 
 	illustrator: "Mizue",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Chute Maudite"
+			fr: "Chute Maudite",
+			en: "Cursed Drop"
 		},
 
 		effect: {
-			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît."
+			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+			en: "Put 3 damage counters on your opponent’s Pokémon in any way you like."
 		},
 
 		cost: ["Psychic"]

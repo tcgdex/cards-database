@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Rongourmand"
+		fr: "Rongourmand",
+		en: "Skwovet"
 	},
 
 	illustrator: "Naoki Saito",
@@ -16,14 +17,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Charge"
+			fr: "Charge",
+			en: "Tackle"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Morsure"
+			fr: "Morsure",
+			en: "Bite"
 		},
 
 		damage: 20,

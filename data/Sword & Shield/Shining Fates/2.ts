@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Yanmega"
+		fr: "Yanmega",
+		en: "Yanmega"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Yanma"
+		fr: "Yanma",
+		en: "Yanma"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Piqûre"
+			fr: "Piqûre",
+			en: "Bug Bite"
 		},
 
 		damage: 30,
 		cost: ["Grass"]
 	}, {
 		name: {
-			fr: "Descente en Piqué"
+			fr: "Descente en Piqué",
+			en: "Nosedive"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts."
+			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			en: "This Pokémon also does 30 damage to itself."
 		},
 
 		damage: 120,

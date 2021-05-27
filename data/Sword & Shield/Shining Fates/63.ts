@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bannière de la Team Yell"
+		fr: "Bannière de la Team Yell",
+		en: "Team Yell Towel"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Soignez 50 dégâts des deux Pokémon Actifs."
+		fr: "Soignez 50 dégâts des deux Pokémon Actifs.",
+		en: "Heal 50 damage from both Active Pokémon."
 	},
 
 	trainerType: "Item"

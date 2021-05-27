@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Yveltal"
+		fr: "Yveltal",
+		en: "Yveltal"
 	},
 
 	illustrator: "Hasuno",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Annihilation Magnifique"
+			fr: "Annihilation Magnifique",
+			en: "Amazing Destruction"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est mis K.O."
+			fr: "Le Pokémon Actif de votre adversaire est mis K.O.",
+			en: "Your opponent’s Active Pokémon is Knocked Out."
 		},
 
 		cost: ["Fire", "Psychic", "Darkness", "Colorless", "Colorless"]

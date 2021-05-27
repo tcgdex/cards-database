@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Linéon de Galar"
+		fr: "Linéon de Galar",
+		en: "Galarian Linoone"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Zigzaton de Galar"
+		fr: "Zigzaton de Galar",
+		en: "Galarian Zigzagoon"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Tranche-Nuit"
+			fr: "Tranche-Nuit",
+			en: "Night Slash"
 		},
 
 		effect: {
-			fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc."
+			fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+			en: "Switch this Pokémon with 1 of your Benched Pokémon."
 		},
 
 		damage: 20,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			fr: "Enfoncement"
+			fr: "Enfoncement",
+			en: "Hammer In"
 		},
 
 		damage: 70,

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Kyogre"
+		fr: "Kyogre",
+		en: "Kyogre"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Déferlante Magnifique"
+			fr: "Déferlante Magnifique",
+			en: "Amazing Surge"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 80 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			fr: "Cette attaque inflige 80 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			en: "This attack does 80 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
 		},
 
 		cost: ["Water", "Lightning", "Metal", "Colorless"]

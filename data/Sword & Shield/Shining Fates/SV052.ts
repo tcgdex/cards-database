@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Théffroi"
+		fr: "Théffroi",
+		en: "Sinistea"
 	},
 
 	illustrator: "MAHOU",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Chute Furtive"
+			fr: "Chute Furtive",
+			en: "Furtive Drop"
 		},
 
 		effect: {
-			fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire."
+			fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+			en: "Put 2 damage counters on your opponent’s Active Pokémon."
 		},
 
 		cost: ["Colorless"]

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Suicune"
+		fr: "Suicune",
+		en: "Suicune"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -16,18 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Grosse Vague"
+			fr: "Grosse Vague",
+			en: "Wave Splash"
 		},
 
 		damage: 20,
 		cost: ["Water"]
 	}, {
 		name: {
-			fr: "Boucle Aurore"
+			fr: "Boucle Aurore",
+			en: "Aurora Loop"
 		},
 
 		effect: {
-			fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon."
+			fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
+			en: "Put 2 Water Energy attached to this Pokémon into your hand."
 		},
 
 		damage: 130,

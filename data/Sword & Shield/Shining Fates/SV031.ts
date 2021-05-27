@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Embrochet"
+		fr: "Embrochet",
+		en: "Arrokuda"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Pluie Éclaboussante"
+			fr: "Pluie Éclaboussante",
+			en: "Rain Splash"
 		},
 
 		damage: 20,

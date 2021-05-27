@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Couaneton"
+		fr: "Couaneton",
+		en: "Ducklett"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -16,7 +17,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Battement"
+			fr: "Battement",
+			en: "Flap"
 		},
 
 		damage: 20,

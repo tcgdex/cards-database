@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Duralugon"
+		fr: "Duralugon",
+		en: "Duraludon"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -16,18 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Affuteur de Métal"
+			fr: "Affuteur de Métal",
+			en: "Metal Sharpener"
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie Metal de votre pile de défausse à l’un de vos Pokémon."
+			fr: "Attachez une carte Énergie Metal de votre pile de défausse à l’un de vos Pokémon.",
+			en: "Attach a Metal Energy card from your discard pile to 1 of your Pokémon."
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Puissant Rayon"
+			fr: "Puissant Rayon",
+			en: "Power Beam"
 		},
 
 		damage: 110,

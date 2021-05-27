@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dedenne"
+		fr: "Dedenne",
+		en: "Dedenne"
 	},
 
 	illustrator: "Mizue",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Folle Aventure"
+			fr: "Folle Aventure",
+			en: "Mad Party"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 20 dégâts pour chaque Pokémon dans votre pile de défausse qui a l’attaque Folle Aventure."
+			fr: "Cette attaque inflige 20 dégâts pour chaque Pokémon dans votre pile de défausse qui a l’attaque Folle Aventure.",
+			en: "This attack does 20 damage for each Pokémon in your discard pile that has the Mad Party attack."
 		},
 
 		damage: "20×",

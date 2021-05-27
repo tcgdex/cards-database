@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hydragon"
+		fr: "Hydragon",
+		en: "Dracovish"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -15,24 +16,28 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Fossile Rare"
+		fr: "Fossile Rare",
+		en: "Rare Fossil"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Loi Primordiale"
+			fr: "Loi Primordiale",
+			en: "Primal Law"
 		},
 
 		effect: {
-			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon."
+			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon.",
+			en: "As long as this Pokémon is in the Active Spot, your opponent can’t play any Pokémon from their hand to evolve their Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Enfoncement"
+			fr: "Enfoncement",
+			en: "Hammer In"
 		},
 
 		damage: 120,

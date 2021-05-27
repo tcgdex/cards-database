@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Corvaillus"
+		fr: "Corvaillus",
+		en: "Corviknight"
 	},
 
 	illustrator: "kirisAki",
@@ -15,23 +16,27 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		fr: "Bleuseille"
+		fr: "Bleuseille",
+		en: "Corvisquire"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Picpic"
+			fr: "Picpic",
+			en: "Peck"
 		},
 
 		damage: 50,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Ailes de Fer"
+			fr: "Ailes de Fer",
+			en: "Iron Wings"
 		},
 
 		effect: {
-			fr: "Vous pouvez défausser 2 Énergies attachées à ce Pokémon. Dans ce cas, pendant le prochain tour de votre adversaire, ce Pokémon subit 100 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+			fr: "Vous pouvez défausser 2 Énergies attachées à ce Pokémon. Dans ce cas, pendant le prochain tour de votre adversaire, ce Pokémon subit 100 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			en: "You may discard 2 Energy from this Pokémon. If you do, during your opponent’s next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance)."
 		},
 
 		damage: 130,

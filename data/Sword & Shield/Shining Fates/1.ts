@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Yanma"
+		fr: "Yanma",
+		en: "Yanma"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,14 +17,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Charge"
+			fr: "Charge",
+			en: "Tackle"
 		},
 
 		damage: 10,
 		cost: ["Grass"]
 	}, {
 		name: {
-			fr: "Cru-Ailes"
+			fr: "Cru-Ailes",
+			en: "Wing Attack"
 		},
 
 		damage: 30,

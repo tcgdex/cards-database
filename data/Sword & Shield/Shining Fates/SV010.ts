@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tournicoton"
+		fr: "Tournicoton",
+		en: "Gossifleur"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -16,17 +17,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Appel à la Famille"
+			fr: "Appel à la Famille",
+			en: "Call for Family"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu’à 3 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck."
+			fr: "Cherchez dans votre deck jusqu’à 3 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Tranch’Herbe"
+			fr: "Tranch’Herbe",
+			en: "Razor Leaf"
 		},
 
 		damage: 10,

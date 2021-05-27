@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ouistempo"
+		fr: "Ouistempo",
+		en: "Grookey"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Combo-Griffe"
+			fr: "Combo-Griffe",
+			en: "Fury Swipes"
 		},
 
 		effect: {
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face."
+			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			en: "Flip 3 coins. This attack does 10 damage for each heads."
 		},
 
 		damage: "10×",

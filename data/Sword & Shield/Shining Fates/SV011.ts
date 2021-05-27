@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Blancoton"
+		fr: "Blancoton",
+		en: "Eldegoss"
 	},
 
 	illustrator: "Mizue",
@@ -15,22 +16,26 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Tournicoton"
+		fr: "Tournicoton",
+		en: "Gossifleur"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Bénédiction Douillette"
+			fr: "Bénédiction Douillette",
+			en: "Blessing of Fluff"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck."
+			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
+			en: "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Feuillage"
+			fr: "Feuillage",
+			en: "Leafage"
 		},
 
 		damage: 30,

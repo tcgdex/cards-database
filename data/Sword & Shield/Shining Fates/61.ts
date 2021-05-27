@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bouclier Rouillé"
+		fr: "Bouclier Rouillé",
+		en: "Rusted Shield"
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Cette carte ajoute 70 PV au Zamazenta-V auquel elle est attachée."
+		fr: "Cette carte ajoute 70 PV au Zamazenta-V auquel elle est attachée.",
+		en: "The Zamazenta V this card is attached to gets +70 HP."
 	},
 
 	trainerType: "Tool"

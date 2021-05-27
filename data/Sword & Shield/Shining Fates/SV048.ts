@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Galopa de Galar"
+		fr: "Galopa de Galar",
+		en: "Galarian Rapidash"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -15,28 +16,33 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Ponyta de Galar"
+		fr: "Ponyta de Galar",
+		en: "Galarian Ponyta"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Voile Pastel"
+			fr: "Voile Pastel",
+			en: "Pastel Veil"
 		},
 
 		effect: {
-			fr: "Vos Pokémon guérissent de tous les États Spéciaux et ne peuvent être affectés par aucun État Spécial."
+			fr: "Vos Pokémon guérissent de tous les États Spéciaux et ne peuvent être affectés par aucun État Spécial.",
+			en: "Your Pokémon recover from all Special Conditions and can’t be affected by any Special Conditions."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Psyko"
+			fr: "Psyko",
+			en: "Psychic"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			en: "This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon."
 		},
 
 		damage: "30+",

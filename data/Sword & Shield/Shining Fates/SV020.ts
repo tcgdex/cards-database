@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "M. Mime de Galar"
+		fr: "M. Mime de Galar",
+		en: "Galarian Mr. Mime"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -16,17 +17,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Protection"
+			fr: "Protection",
+			en: "Reflect"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			en: "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			fr: "Verglas"
+			fr: "Verglas",
+			en: "Icy Snow"
 		},
 
 		damage: 30,

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Verpom"
+		fr: "Verpom",
+		en: "Applin"
 	},
 
 	illustrator: "otumami",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Repli"
+			fr: "Repli",
+			en: "Withdraw"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques."
+			fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques.",
+			en: "Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks."
 		},
 
 		cost: ["Colorless"]

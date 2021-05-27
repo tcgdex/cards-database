@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Rongrigou V"
+		fr: "Rongrigou V",
+		en: "Greedent V"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -16,22 +17,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Mâchouille"
+			fr: "Mâchouille",
+			en: "Crunch"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire."
+			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			en: "Discard an Energy from your opponent’s Active Pokémon."
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			fr: "Écrasement Chancelant"
+			fr: "Écrasement Chancelant",
+			en: "Stumbling Press"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+			en: "Flip a coin. If tails, this attack does nothing."
 		},
 
 		damage: 180,

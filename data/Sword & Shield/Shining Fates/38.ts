@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Morpeko VMAX"
+		fr: "Morpeko VMAX",
+		en: "Morpeko VMAX"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -15,16 +16,19 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		fr: "Morpeko-V"
+		fr: "Morpeko-V",
+		en: "Morpeko V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Déchargeomax"
+			fr: "Déchargeomax",
+			en: "Max Discharge"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige aussi 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			fr: "Cette attaque inflige aussi 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			en: "This attack also does 20 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
 		},
 
 		damage: 180,

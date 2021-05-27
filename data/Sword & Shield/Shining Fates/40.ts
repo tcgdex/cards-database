@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Kraknoix"
+		fr: "Kraknoix",
+		en: "Trapinch"
 	},
 
 	illustrator: "MAHOU",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Vibration Terrestre"
+			fr: "Vibration Terrestre",
+			en: "Land’s Pulse"
 		},
 
 		effect: {
-			fr: "Si un Stade est en jeu, cette attaque inflige 10 dégâts supplémentaires."
+			fr: "Si un Stade est en jeu, cette attaque inflige 10 dégâts supplémentaires.",
+			en: "If a Stadium is in play, this attack does 10 more damage."
 		},
 
 		damage: "10+",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Flambino"
+		fr: "Flambino",
+		en: "Scorbunny"
 	},
 
 	illustrator: "MAHOU",
@@ -16,11 +17,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Flammèche"
+			fr: "Flammèche",
+			en: "Ember"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie de ce Pokémon."
+			fr: "Défaussez une Énergie de ce Pokémon.",
+			en: "Discard an Energy from this Pokémon."
 		},
 
 		damage: 30,

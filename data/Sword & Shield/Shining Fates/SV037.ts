@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hydragla"
+		fr: "Hydragla",
+		en: "Arctovish"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -15,27 +16,32 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Fossile Rare"
+		fr: "Fossile Rare",
+		en: "Rare Fossil"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Visage Dur"
+			fr: "Visage Dur",
+			en: "Hard Face"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 60 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 60 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			en: "During your opponent’s next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance)."
 		},
 
 		damage: 90,
 		cost: ["Water", "Colorless", "Colorless"]
 	}, {
 		name: {
-			fr: "Souffle Froid"
+			fr: "Souffle Froid",
+			en: "Cold Breath"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			en: "Your opponent’s Active Pokémon is now Asleep."
 		},
 
 		damage: 130,

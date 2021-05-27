@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Chinchidou"
+		fr: "Chinchidou",
+		en: "Minccino"
 	},
 
 	illustrator: "MAHOU",
@@ -16,21 +17,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Coup d’Œil"
+			fr: "Coup d’Œil",
+			en: "Glance"
 		},
 
 		effect: {
-			fr: "Regardez la carte du dessus du deck de votre adversaire."
+			fr: "Regardez la carte du dessus du deck de votre adversaire.",
+			en: "Look at the top card of your opponent’s deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Plumo-Queue"
+			fr: "Plumo-Queue",
+			en: "Tail Slap"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
+			en: "Flip 2 coins. This attack does 20 damage for each heads."
 		},
 
 		damage: "20×",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Corayôme de Galar"
+		fr: "Corayôme de Galar",
+		en: "Galarian Cursola"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -15,28 +16,33 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Corayon de Galar"
+		fr: "Corayon de Galar",
+		en: "Galarian Corsola"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Corps Condamné"
+			fr: "Corps Condamné",
+			en: "Perish Body"
 		},
 
 		effect: {
-			fr: "Si ce Pokémon est sur le Poste Actif et est mis K.O. par les dégâts d’une attaque de votre adversaire, lancez une pièce. Si c’est face, le Pokémon Attaquant est mis K.O."
+			fr: "Si ce Pokémon est sur le Poste Actif et est mis K.O. par les dégâts d’une attaque de votre adversaire, lancez une pièce. Si c’est face, le Pokémon Attaquant est mis K.O.",
+			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an opponent’s attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Coinçage"
+			fr: "Coinçage",
+			en: "Corner"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat."
 		},
 
 		damage: 60,
