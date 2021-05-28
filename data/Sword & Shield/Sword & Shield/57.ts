@@ -6,22 +6,23 @@ const card: Card = {
 		en: "Drizzile",
 		fr: "Arrozard",
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Sobble",
 		fr: "Larméléon",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -50,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -58,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

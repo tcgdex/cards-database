@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Zygarde",
 		fr: "Zygarde"
 	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -51,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -59,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

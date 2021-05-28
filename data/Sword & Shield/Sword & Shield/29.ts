@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Turtonator",
 		fr: "Boumata",
 	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		776,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

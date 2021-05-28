@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Swanna",
 		fr: "Lakmécygne"
 	},
+
 	illustrator: "Taira Akitsu",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Ducklett",
 		fr: "Couaneton"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,12 +55,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -67,9 +70,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	regulationMark: "D"
 }
 
 export default card

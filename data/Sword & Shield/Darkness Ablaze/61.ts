@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Tapu Koko",
 		fr: "Tokorico"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -50,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -57,10 +55,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

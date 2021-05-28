@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Regirock",
 		fr: "Regirock"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -55,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Altaria",
 		fr: "Altaria"
 	},
+
 	illustrator: "Taira Akitsu",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,22 +51,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

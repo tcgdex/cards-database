@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Charizard V",
 		fr: "Dracaufeu V"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 220,
+
 	types: [
 		"Fire",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -54,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

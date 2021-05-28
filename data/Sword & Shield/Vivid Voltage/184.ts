@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Lancez 2 pièces. Cherchez dans votre deck un nombre de cartes inférieur ou égal au nombre de côtés face obtenus, ajoutez-les à votre main, puis mélangez votre deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

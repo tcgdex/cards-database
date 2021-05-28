@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Tant que le Pokémon auquel cette carte est attachée est sur le Poste Actif, évitez tous les effets d’attaques infligés à vos Pokémon par les Pokémon de votre adversaire. (Les effets déjà en action ne sont pas retirés.Les dégâts ne sont pas un effet.)"
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Genesect",
 		fr: "Genesect"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -54,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

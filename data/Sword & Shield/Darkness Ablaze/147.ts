@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Staraptor",
 		fr: "Étouraptor"
 	},
+
 	illustrator: "AKIRA EGAWA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Staravia",
 		fr: "Étourvol"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,12 +56,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -70,9 +71,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Soignez 30 dégâts d’un maximum de 2 de vos Pokémon auxquels de l’Énergie est attachée."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

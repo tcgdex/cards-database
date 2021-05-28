@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Chaque joueur échange son Pokémon Actif contre l’un de ses Pokémon de Banc. Votre adversaire échange en premier. (Si l’un des joueurs n’a pas de Pokémon de Banc, il n’échange pas de Pokémon.)"
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "E"
 }
 
 export default card

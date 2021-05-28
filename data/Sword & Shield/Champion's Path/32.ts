@@ -52,7 +52,9 @@ const card: Card = {
 
 		damage: "120+",
 		cost: ["Fighting", "Fighting", "Colorless"]
-	}]
+	}],
+
+	regulationMark: "D"
 }
 
 export default card

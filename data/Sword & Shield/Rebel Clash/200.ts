@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

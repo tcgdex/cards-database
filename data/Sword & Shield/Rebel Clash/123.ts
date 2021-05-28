@@ -49,7 +49,8 @@ const card: Card = {
 
 	retreat: 1,
 	hp: 70,
-	types: ["Darkness"]
+	types: ["Darkness"],
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Greedent",
 		fr: "Rongrigou"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Skwovet",
 		fr: "Rongourmand"
 	},
-
-
 
 	attacks: [
 		{
@@ -56,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -64,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

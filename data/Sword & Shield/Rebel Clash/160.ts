@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Le Coût de Retraite des deux Pokémon Actifs est augmenté de ColorlessColorless."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+	regulationMark: "D"
 }
 
 export default card

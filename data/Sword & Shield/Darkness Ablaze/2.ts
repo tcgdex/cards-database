@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Butterfree VMAX",
 		fr: "Papilusion VMAX"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 300,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Butterfree V",
 		fr: "Papilusion-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -42,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -49,10 +49,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

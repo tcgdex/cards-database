@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Cherchez dans votre deck jusqu’à 2 cartes Fossile Rare, puis placez-les sur votre Banc. Mélangez ensuite votre deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Ampharos",
 		fr: "Pharamp"
 	},
+
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Flaaffy",
 		fr: "Lainergie"
 	},
-
-
 
 	attacks: [
 		{
@@ -53,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

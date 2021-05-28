@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Togekiss VMAX",
 		fr: "Togekiss VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 310,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Togekiss V",
 		fr: "Togekiss-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -41,12 +40,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -54,9 +55,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	regulationMark: "D"
 }
 
 export default card

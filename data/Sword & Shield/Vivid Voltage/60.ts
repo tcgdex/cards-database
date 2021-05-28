@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Zekrom",
 		fr: "Zekrom"
 	},
+
 	illustrator: "hatachu",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Lightning",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -52,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -60,9 +58,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Galvantula",
 		fr: "Mygavolt"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Joltik",
 		fr: "Statitik"
 	},
-
-
 
 	attacks: [
 		{
@@ -56,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -64,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

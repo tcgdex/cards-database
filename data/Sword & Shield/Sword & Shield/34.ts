@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Cinderace",
 		fr: "Pyrobut",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Raboot",
 		fr: "Lapyro",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -35,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

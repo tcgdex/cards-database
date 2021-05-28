@@ -56,7 +56,9 @@ const card: Card = {
 
 		damage: "60×",
 		cost: ["Psychic", "Psychic"]
-	}]
+	}],
+
+	regulationMark: "D"
 }
 
 export default card

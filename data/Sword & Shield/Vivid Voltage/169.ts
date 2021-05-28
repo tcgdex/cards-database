@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Galarian Darmanitan V",
 		fr: "Darumacho de Galar V"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 220,
+
 	types: [
 		"Water",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -55,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -63,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

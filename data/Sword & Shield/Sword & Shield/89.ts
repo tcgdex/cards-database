@@ -6,19 +6,18 @@ const card: Card = {
 		en: "Sinistea",
 		fr: "Théffroi",
 	},
+
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 30,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,22 +35,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

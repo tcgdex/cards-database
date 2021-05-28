@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Si le Pokémon auquel cette carte est attachée est mis K.O. par les dégâts d’une attaque d’un Pokémon de votre adversaire, ce dernier défausse toute carte Récompense qu’il récupérerait avec ce K.O au lieu d’ajouter cette carte à sa main."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

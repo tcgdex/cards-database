@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Milcery",
 		fr: "Crèmy"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -48,6 +45,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -56,9 +54,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

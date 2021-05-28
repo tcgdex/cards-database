@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Malamar",
 		fr: "Sepiatroce"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Inkay",
 		fr: "Sepiatop"
 	},
-
-
 
 	attacks: [
 		{
@@ -58,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

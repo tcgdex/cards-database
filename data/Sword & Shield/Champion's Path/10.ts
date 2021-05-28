@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Centiskorch",
 		fr: "Scolocendre"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Sizzlipede",
 		fr: "Grillepattes"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

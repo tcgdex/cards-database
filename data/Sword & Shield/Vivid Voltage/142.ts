@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Tornadus",
 		fr: "Boréas"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -54,22 +51,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

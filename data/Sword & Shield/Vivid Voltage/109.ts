@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Krookodile",
 		fr: "Crocorible"
 	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Krokorok",
 		fr: "Escroco"
 	},
-
-
 
 	attacks: [
 		{
@@ -58,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

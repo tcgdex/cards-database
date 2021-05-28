@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Taillow",
 		fr: "Nirondelle"
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -38,22 +35,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

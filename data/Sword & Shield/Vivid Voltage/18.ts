@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Gogoat",
 		fr: "Chevroum"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Skiddo",
 		fr: "Cabriolaine"
 	},
-
-
 
 	attacks: [
 		{
@@ -55,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

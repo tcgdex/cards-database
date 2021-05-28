@@ -6,22 +6,23 @@ const card: Card = {
 		en: "Sandaconda",
 		fr: "Dunaconda",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Silicobra",
 		fr: "Dunaja",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -62,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

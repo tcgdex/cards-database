@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Talonflame",
 		fr: "Flambusard"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Fletchinder",
 		fr: "Braisillon"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,22 +55,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

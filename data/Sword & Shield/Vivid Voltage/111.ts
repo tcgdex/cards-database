@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Garbodor",
 		fr: "Miasmax"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Trubbish",
 		fr: "Miamiasme"
 	},
-
-
 
 	attacks: [
 		{
@@ -58,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Grapploct",
 		fr: "Krakos"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Clobbopus",
 		fr: "Poulpaf"
 	},
-
-
 
 	attacks: [
 		{
@@ -56,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

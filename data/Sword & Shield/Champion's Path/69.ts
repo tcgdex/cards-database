@@ -53,7 +53,9 @@ const card: Card = {
 
 		damage: 130,
 		cost: ["Water", "Water", "Colorless"]
-	}]
+	}],
+
+	regulationMark: "D"
 }
 
 export default card

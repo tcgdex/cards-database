@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Lancez une pièce. Si c’est face, cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

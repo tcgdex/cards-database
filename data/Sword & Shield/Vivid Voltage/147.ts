@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Défaussez les 5 cartes du dessus de votre deck et attachez les cartes Énergie défaussées de cette façon à vos Pokémon Fighting de Banc comme il vous plaît."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

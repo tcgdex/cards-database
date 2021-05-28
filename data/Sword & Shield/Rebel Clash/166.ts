@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Cherchez dans votre deck une carte Dresseur, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

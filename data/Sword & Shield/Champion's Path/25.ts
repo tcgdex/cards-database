@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Machoke",
 		fr: "Machopeur"
 	},
+
 	illustrator: "AKIRA EGAWA",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Machop",
 		fr: "Machoc"
 	},
-
-
 
 	attacks: [
 		{
@@ -54,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

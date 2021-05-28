@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut chercher dans son deck un Pokémon Grass Évolutif, le montrer, puis l’ajouter à sa main. Ce joueur mélange ensuite son deck."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+	regulationMark: "D"
 }
 
 export default card

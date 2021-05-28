@@ -6,17 +6,16 @@ const card: Card = {
 		en: "Snorlax V",
 		fr: "Ronflex V",
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 220,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "V",
 
@@ -57,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -65,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

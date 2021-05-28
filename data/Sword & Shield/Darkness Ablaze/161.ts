@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Cherchez dans votre deck un Pokémon du même nom que l’un des Pokémon dans votre pile de défausse, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

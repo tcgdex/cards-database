@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Lancez une pièce. Si c’est face, attachez une carte Énergie de base de votre pile de défausse à l’un de vos Pokémon de base qui n’est pas un Pokémon-GX."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

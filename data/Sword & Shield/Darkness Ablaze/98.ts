@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Galarian Sirfetch’d",
 		fr: "Palarticho de Galar"
 	},
+
 	illustrator: "Ryota Murayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Galarian Farfetch’d",
 		fr: "Canarticho de Galar"
 	},
-
-
 
 	attacks: [
 		{
@@ -54,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

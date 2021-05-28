@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Accelgor",
 		fr: "Limaspeed"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Shelmet",
 		fr: "Escargaume"
 	},
-
-
 
 	attacks: [
 		{
@@ -38,6 +37,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -45,10 +45,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

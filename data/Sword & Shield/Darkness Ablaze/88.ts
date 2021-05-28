@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Tyranitar",
 		fr: "Tyranocif"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 180,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Pupitar",
 		fr: "Ymphect"
 	},
-
-
 
 	attacks: [
 		{
@@ -60,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,9 +68,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Clobbopus",
 		fr: "Poulpaf"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -47,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -55,9 +53,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

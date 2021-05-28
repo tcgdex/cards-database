@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Dugtrio",
 		fr: "Triopikeur"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Diglett",
 		fr: "Taupiqueur"
 	},
-
-
 
 	attacks: [
 		{
@@ -53,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -61,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

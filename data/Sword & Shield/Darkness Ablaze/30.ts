@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Volcarona",
 		fr: "Pyrax"
 	},
+
 	illustrator: "NC Empire",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Larvesta",
 		fr: "Pyronille"
 	},
-
-
 
 	attacks: [
 		{
@@ -54,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

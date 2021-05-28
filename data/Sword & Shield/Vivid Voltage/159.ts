@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Si le Pokémon auquel cette carte est attachée est sur le Poste Actif et qu’il subit les dégâts d’une attaque d’un Pokémon de l’adversaire (même s’il est mis K.O.), placez 2 marqueurs de dégâts sur le Pokémon Attaquant."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Loudred",
 		fr: "Ramboum"
 	},
+
 	illustrator: "miki kudo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Whismur",
 		fr: "Chuchmur"
 	},
-
-
 
 	attacks: [
 		{
@@ -55,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

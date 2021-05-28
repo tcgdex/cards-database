@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Eelektross",
 		fr: "Ohmassacre"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 160,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Eelektrik",
 		fr: "Lampéroie"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -65,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

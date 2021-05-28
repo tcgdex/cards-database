@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Hippopotas",
 		fr: "Hippopotas"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -52,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -60,9 +58,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

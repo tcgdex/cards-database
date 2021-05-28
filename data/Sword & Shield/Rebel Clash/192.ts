@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Cherchez dans votre deck jusqu’à 2 Pokémon de base ou jusqu’à 2 cartes Énergie de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

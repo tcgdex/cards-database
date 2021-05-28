@@ -6,19 +6,18 @@ const card: Card = {
 		en: "Silicobra",
 		fr: "Dunaja",
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +35,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -44,9 +44,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Dusknoir",
 		fr: "Noctunoir"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Dusclops",
 		fr: "Téraclope"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,22 +52,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

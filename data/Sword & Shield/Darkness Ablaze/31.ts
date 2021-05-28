@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Fletchinder",
 		fr: "Braisillon"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Fletchling",
 		fr: "Passerouge"
 	},
-
-
 
 	attacks: [
 		{
@@ -40,22 +39,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

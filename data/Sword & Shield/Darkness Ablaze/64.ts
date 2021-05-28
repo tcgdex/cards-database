@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Pincurchin",
 		fr: "Wattapik"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -53,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,9 +59,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

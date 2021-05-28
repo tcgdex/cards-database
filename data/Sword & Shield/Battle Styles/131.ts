@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Le Pokémon Mille Poings auquel cette carte est attachée peut utiliser l’attaque sur cette carte. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser cette attaque.)\nFightingColorlessColorless Maelström Redoutable\nCette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire.\n(N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "E"
 }
 
 export default card

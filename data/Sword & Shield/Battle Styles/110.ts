@@ -57,7 +57,9 @@ const card: Card = {
 	resistances: [{
 		type: "Grass",
 		value: "-30"
-	}]
+	}],
+
+	regulationMark: "E"
 }
 
 export default card

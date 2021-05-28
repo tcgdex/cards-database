@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Zebstrika",
 		fr: "Zéblitz"
 	},
+
 	illustrator: "0313",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Blitzle",
 		fr: "Zébibron"
 	},
-
-
 
 	attacks: [
 		{
@@ -50,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,9 +58,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

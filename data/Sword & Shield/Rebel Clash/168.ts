@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Choisissez jusqu’à 2 Outils Pokémon attachés aux Pokémon (les vôtres ou ceux de votre adversaire), puis défaussez-les."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

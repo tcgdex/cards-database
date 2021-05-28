@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Piochez 2 cartes. Si Stade de Winscor est en jeu, piochez 2 cartes supplémentaires."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

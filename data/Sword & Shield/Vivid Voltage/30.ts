@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Vaporeon",
 		fr: "Aquali"
 	},
+
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -58,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

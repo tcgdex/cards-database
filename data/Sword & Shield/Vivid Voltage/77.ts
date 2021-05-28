@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Dedenne",
 		fr: "Dedenne"
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -37,6 +34,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -45,9 +43,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

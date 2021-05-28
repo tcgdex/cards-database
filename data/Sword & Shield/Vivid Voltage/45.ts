@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Voltorb",
 		fr: "Voltorbe"
 	},
+
 	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -35,6 +32,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -43,9 +41,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

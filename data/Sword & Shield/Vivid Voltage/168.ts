@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Talonflame V",
 		fr: "Flambusard V"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 190,
+
 	types: [
 		"Fire",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -53,12 +50,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -66,9 +65,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	regulationMark: "D"
 }
 
 export default card

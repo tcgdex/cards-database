@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Piochez des cartes jusqu’à en avoir 6 en main. Votre tour se termine."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

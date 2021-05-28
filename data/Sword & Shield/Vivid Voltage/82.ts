@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Zacian",
 		fr: "Zacian"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -54,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -62,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

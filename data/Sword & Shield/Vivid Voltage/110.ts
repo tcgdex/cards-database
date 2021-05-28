@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Trubbish",
 		fr: "Miamiasme"
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -51,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -59,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

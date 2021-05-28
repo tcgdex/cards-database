@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Chimecho",
 		fr: "Éoko"
 	},
+
 	illustrator: "Asako Ito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -52,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

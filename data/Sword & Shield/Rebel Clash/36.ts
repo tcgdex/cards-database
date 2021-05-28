@@ -62,7 +62,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	types: ["Fire"]
+	types: ["Fire"],
+	regulationMark: "D"
 }
 
 export default card

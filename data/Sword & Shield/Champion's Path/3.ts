@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Kakuna",
 		fr: "Coconfort"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot"
 	},
-
-
 
 	attacks: [
 		{
@@ -37,6 +36,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -45,9 +45,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

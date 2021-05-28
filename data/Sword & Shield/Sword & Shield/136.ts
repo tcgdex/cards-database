@@ -6,19 +6,18 @@ const card: Card = {
 		en: "Cufant",
 		fr: "Charibari",
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,22 +37,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

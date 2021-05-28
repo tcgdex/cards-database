@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Meltan",
 		fr: "Meltan"
 	},
+
 	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -47,22 +44,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

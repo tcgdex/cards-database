@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Si vous jouez en premier, vous pouvez jouer cette carte pendant votre premier tour.\n \n\nPiochez 2 cartes."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Ursaring",
 		fr: "Ursaring"
 	},
+
 	illustrator: "Uta",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Teddiursa",
 		fr: "Teddiursa"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -65,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Chewtle",
 		fr: "Khélocrok"
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Water",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -38,6 +35,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -46,9 +44,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Inteleon VMAX",
 		fr: "Lézargus VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		888,
 	],
+
 	hp: 320,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Inteleon V",
 		fr: "Lézargus-V"
 	},
-	stage: "VMAX",
 
+	stage: "VMAX",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,9 +72,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Si le Pokémon auquel cette carte est attachée est mis K.O. par les dégâts d'une attaque d’un adversaire, défaussez les 2 cartes du dessus du deck de votre adversaire."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

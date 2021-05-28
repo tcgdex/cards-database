@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Les deux Pokémon Actifs sont maintenant Confus."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

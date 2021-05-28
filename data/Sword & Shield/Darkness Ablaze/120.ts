@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Skarmory",
 		fr: "Airmure"
 	},
+
 	illustrator: "NC Empire",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Metal",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -51,22 +48,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

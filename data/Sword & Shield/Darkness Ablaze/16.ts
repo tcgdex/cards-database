@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Tsareena",
 		fr: "Sucreine"
 	},
+
 	illustrator: "so-taro",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Steenee",
 		fr: "Candine"
 	},
-
-
 
 	attacks: [
 		{
@@ -55,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 4 cartes. Si votre Pokémon Actif est votre seul Pokémon en jeu, piochez 8 cartes à la place."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

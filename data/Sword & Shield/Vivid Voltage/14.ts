@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Ninjask",
 		fr: "Ninjask"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -59,10 +61,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

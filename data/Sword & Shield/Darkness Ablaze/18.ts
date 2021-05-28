@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Golisopod",
 		fr: "Sarmuraï"
 	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Wimpod",
 		fr: "Sovkipou"
 	},
-
-
 
 	attacks: [
 		{
@@ -58,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -66,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

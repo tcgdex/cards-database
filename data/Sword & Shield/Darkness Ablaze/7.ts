@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Simisage",
 		fr: "Feuiloutan"
 	},
+
 	illustrator: "Hasegawa Saki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Pansage",
 		fr: "Feuillajou"
 	},
-
-
 
 	attacks: [
 		{
@@ -54,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

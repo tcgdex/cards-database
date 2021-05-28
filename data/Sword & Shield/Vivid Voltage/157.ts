@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Ajoutez à votre main une combinaison d’un maximum de 4 cartes Pokémon Water et Énergie Water de votre pile de défausse."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

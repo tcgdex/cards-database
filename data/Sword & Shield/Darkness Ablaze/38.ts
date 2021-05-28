@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Feebas",
 		fr: "Barpau"
 	},
+
 	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 30,
+
 	types: [
 		"Water",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -36,6 +33,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -44,9 +42,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

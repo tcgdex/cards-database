@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 4 cartes. Si au moins l’un de vos Pokémon a été mis K.O. pendant le dernier tour de votre adversaire, piochez 7 cartes à la place."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "E"
 }
 
 export default card

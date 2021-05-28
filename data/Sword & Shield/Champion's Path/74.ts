@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Charizard VMAX",
 		fr: "Dracaufeu VMAX"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 330,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charizard V",
 		fr: "Dracaufeu-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -58,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -66,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

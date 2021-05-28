@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Salamence VMAX",
 		fr: "Drattak VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Salamence V",
 		fr: "Drattak-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,22 +56,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

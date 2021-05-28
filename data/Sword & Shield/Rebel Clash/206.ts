@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Cette carte ajoute 30 PV au Pokémon auquel elle est attachée."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

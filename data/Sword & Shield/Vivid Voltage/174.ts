@@ -6,18 +6,16 @@ const card: Card = {
 		en: "Galarian Sirfetch’d V",
 		fr: "Palarticho de Galar V"
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 210,
+
 	types: [
 		"Fighting",
 	],
-
-
 
 	abilities: [
 		{
@@ -32,6 +30,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,9 +59,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

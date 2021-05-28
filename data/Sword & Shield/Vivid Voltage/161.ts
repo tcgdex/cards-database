@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Chaque fois qu’un joueur joue un Pokémon-VMAX de sa main pour faire évoluer un Pokémon-V durant son tour, soignez 100 dégâts de ce Pokémon-là."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+	regulationMark: "D"
 }
 
 export default card

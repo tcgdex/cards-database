@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Scrafty",
 		fr: "Baggaïd"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Scraggy",
 		fr: "Baggiguane"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -65,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

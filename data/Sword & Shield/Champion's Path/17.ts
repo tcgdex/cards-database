@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Gardevoir VMAX",
 		fr: "Gardevoir VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gardevoir V",
 		fr: "Gardevoir-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -42,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -50,9 +50,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Lancez 2 pièces. Si les deux sont face, ajoutez une carte de votre pile de défausse à votre main."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

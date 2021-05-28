@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Barraskewda",
 		fr: "Hastacuda"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Arrokuda",
 		fr: "Embrochet"
 	},
-
-
 
 	attacks: [
 		{
@@ -52,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

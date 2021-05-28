@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Blaziken",
 		fr: "Braségali"
 	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Combusken",
 		fr: "Galifeu"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

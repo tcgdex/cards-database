@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Lucario V",
 		fr: "Lucario V"
 	},
+
 	illustrator: "AKIRA EGAWA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 210,
+
 	types: [
 		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -54,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -62,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

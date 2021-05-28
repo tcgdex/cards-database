@@ -6,13 +6,13 @@ const card: Card = {
 		en: "Victini V",
 		fr: "Victini V",
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 190,
+
 	types: [
 		"Fire",
 	],
@@ -52,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -60,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

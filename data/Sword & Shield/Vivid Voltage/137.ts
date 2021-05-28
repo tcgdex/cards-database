@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Exploud",
 		fr: "Brouhabam"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 160,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Loudred",
 		fr: "Ramboum"
 	},
-
-
 
 	attacks: [
 		{
@@ -55,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

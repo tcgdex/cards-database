@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Vous ne pouvez jouer cette carte que si c’est votre dernière carte en main.\nCherchez dans votre deck un Pokémon Poing Final, puis placez-le sur votre Banc. Mélangez ensuite votre deck. Si vous avez cherché dans votre deck de cette façon, piochez 5 cartes."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "E"
 }
 
 export default card

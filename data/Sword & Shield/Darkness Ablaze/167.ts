@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Jouez cette carte comme si c’était un Pokémon Colorless de base avec 70 PV. N’importe quand pendant votre tour, vous pouvez défausser cette carte du jeu.\n\n \n\n\nCette carte ne peut être affectée par aucun État Spécial, et elle ne peut pas battre en retraite."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

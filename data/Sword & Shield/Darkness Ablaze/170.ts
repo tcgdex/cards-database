@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Chaque fois que le Pokémon Actif d’un joueur se déplace vers le Banc pendant son tour, placez 2 marqueurs de dégâts sur ce Pokémon-là."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+	regulationMark: "D"
 }
 
 export default card

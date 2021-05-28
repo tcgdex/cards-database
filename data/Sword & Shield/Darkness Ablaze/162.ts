@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Une fois pendant le tour de chaque joueur, après que ce joueur a lancé des pièces pour une attaque, il peut ignorer le résultat de ces lancers de pièce et lancer ces pièces à nouveau."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+	regulationMark: "D"
 }
 
 export default card

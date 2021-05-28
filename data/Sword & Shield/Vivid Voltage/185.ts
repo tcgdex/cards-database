@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Soignez 60 dégâts de l’un de vos Pokémon, et il guérit de tous les États Spéciaux."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Vanillish",
 		fr: "Sorboul"
 	},
+
 	illustrator: "Shibuzoh.",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Vanillite",
 		fr: "Sorbébé"
 	},
-
-
 
 	attacks: [
 		{
@@ -40,6 +39,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -48,9 +48,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

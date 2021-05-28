@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Mudsdale",
 		fr: "Bourrinos"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Mudbray",
 		fr: "Tiboudet"
 	},
-
-
 
 	attacks: [
 		{
@@ -55,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

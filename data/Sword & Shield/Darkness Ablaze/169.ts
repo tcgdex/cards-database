@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut piocher des cartes jusqu’à en avoir 3 en main."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+	regulationMark: "D"
 }
 
 export default card

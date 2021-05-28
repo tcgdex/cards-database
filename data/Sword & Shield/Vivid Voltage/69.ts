@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Duskull",
 		fr: "Skelénox"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -36,22 +33,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

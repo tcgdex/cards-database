@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Manectric",
 		fr: "Élecsprint"
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Electrike",
 		fr: "Dynavolt"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -65,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

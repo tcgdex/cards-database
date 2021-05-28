@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Wailord",
 		fr: "Wailord"
 	},
+
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 200,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wailmer",
 		fr: "Wailmer"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -63,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Soignez 120 dégâts de l’un de vos Pokémon auquel sont attachées au moins 2 Énergies. Si des dégâts sont ainsi soignés, défaussez 2 Énergies de ce Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

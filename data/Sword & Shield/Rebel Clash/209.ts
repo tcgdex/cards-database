@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Tant que cette carte est attachée à un Pokémon qui n’est ni un Pokémon-V ni un Pokémon-GX, elle fournit 2 Énergies Colorless. \n\nSi cette carte est attachée à un Pokémon-V ou à un Pokémon-GX, elle ne fournit qu’une Énergie Colorless."
 	},
 
-	energyType: "Special"
+	energyType: "Special",
+	regulationMark: "D"
 }
 
 export default card

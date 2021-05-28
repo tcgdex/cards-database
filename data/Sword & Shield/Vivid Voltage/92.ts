@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Terrakion",
 		fr: "Terrakium"
 	},
+
 	illustrator: "NC Empire",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -55,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

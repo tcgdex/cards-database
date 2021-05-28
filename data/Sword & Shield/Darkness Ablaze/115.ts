@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Grimmsnarl VMAX",
 		fr: "Angoliath VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 330,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Grimmsnarl V",
 		fr: "Angoliath-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -42,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -50,9 +50,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Grimer",
 		fr: "Tadmorv"
 	},
+
 	illustrator: "Ryota Murayama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -50,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,9 +56,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

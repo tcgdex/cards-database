@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Ninetales",
 		fr: "Feunard",
 	},
+
 	illustrator: "Megumi Higuchi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		38,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Vulpix",
 		fr: "Goupix",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,9 +68,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

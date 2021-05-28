@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Vous ne pouvez jouer cette carte que si c’est votre dernière carte en main.\nPlacez un Pokémon Mille Poings de votre pile de défausse sur votre Banc. Dans ce cas, piochez 5 cartes."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "E"
 }
 
 export default card

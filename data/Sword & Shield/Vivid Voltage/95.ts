@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Lycanroc",
 		fr: "Lougaroc"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot"
 	},
-
-
 
 	attacks: [
 		{
@@ -50,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -58,9 +58,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

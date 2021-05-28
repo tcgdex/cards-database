@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Eternatus VMAX",
 		fr: "Éthernatos VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 340,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Eternatus V",
 		fr: "Éthernatos-V"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

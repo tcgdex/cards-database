@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Attachez une carte Énergie de base de votre main à l’un de vos Pokémon de Banc."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

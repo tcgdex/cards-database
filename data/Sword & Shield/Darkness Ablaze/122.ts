@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Lairon",
 		fr: "Galegon"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Aron",
 		fr: "Galekid"
 	},
-
-
 
 	attacks: [
 		{
@@ -55,22 +54,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

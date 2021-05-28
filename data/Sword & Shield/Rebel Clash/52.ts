@@ -36,7 +36,8 @@ const card: Card = {
 
 	retreat: 1,
 	hp: 60,
-	types: ["Water"]
+	types: ["Water"],
+	regulationMark: "D"
 }
 
 export default card

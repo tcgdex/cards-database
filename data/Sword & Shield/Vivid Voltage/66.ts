@@ -6,18 +6,16 @@ const card: Card = {
 		en: "Shedinja",
 		fr: "Munja"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 30,
+
 	types: [
 		"Psychic",
 	],
-
-
 
 	abilities: [
 		{
@@ -32,6 +30,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,11 +50,8 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

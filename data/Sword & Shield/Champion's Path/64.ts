@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Regardez les 5 cartes du dessus de votre deck, choisissez l’une d’elles, puis mélangez les autres cartes avec votre deck. Ensuite, placez la carte que vous avez choisie sur le dessus de votre deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

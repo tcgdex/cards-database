@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Samurott",
 		fr: "Clamiral"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 160,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Dewott",
 		fr: "Mateloutre"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -62,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

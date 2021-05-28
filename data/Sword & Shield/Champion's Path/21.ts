@@ -6,18 +6,16 @@ const card: Card = {
 		en: "Galarian Cursola V",
 		fr: "Corayôme de Galar V"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 190,
+
 	types: [
 		"Psychic",
 	],
-
-
 
 	abilities: [
 		{
@@ -32,6 +30,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

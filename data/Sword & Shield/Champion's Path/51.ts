@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Votre Pokémon Actif guérit de tous les États Spéciaux."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

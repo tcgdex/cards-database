@@ -18,7 +18,8 @@ const card: Card = {
 		en: "Heal 50 damage from both Active Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

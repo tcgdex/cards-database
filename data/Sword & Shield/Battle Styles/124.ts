@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Mélangez jusqu’à 5 cartes Énergie de base de votre pile de défausse avec votre deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "E"
 }
 
 export default card

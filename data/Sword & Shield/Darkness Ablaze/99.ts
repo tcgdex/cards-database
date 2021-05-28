@@ -6,18 +6,16 @@ const card: Card = {
 		en: "Galarian Slowbro V",
 		fr: "Flagadoss de Galar V"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 210,
+
 	types: [
 		"Darkness",
 	],
-
-
 
 	abilities: [
 		{
@@ -32,6 +30,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -59,9 +59,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

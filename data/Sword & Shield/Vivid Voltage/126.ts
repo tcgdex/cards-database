@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Aegislash V",
 		fr: "Exagide V"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 210,
+
 	types: [
 		"Metal",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -52,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Muk",
 		fr: "Grotadmorv"
 	},
+
 	illustrator: "Eri Yamaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Grimer",
 		fr: "Tadmorv"
 	},
-
-
 
 	attacks: [
 		{
@@ -54,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

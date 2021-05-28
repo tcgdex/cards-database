@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Ajoutez à la main de votre adversaire une Énergie attachée à l’un de ses Pokémon."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

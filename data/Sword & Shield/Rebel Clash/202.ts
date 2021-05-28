@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Vous ne pouvez jouer cette carte que si vous défaussez 2 autres cartes de votre main.\n\nVotre adversaire dévoile sa main. Placez une carte Dresseur que vous y trouvez en dessous de son deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

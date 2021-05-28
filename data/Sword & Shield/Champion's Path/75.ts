@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Drednaw VMAX",
 		fr: "Torgamord VMAX"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Drednaw V",
 		fr: "Torgamord-V"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -62,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

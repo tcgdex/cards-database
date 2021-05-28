@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Hoopa",
 		fr: "Hoopa"
 	},
+
 	illustrator: "so-taro",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Darkness",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -37,6 +34,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -45,9 +43,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Cherchez dans votre deck jusqu’à 2 cartes Énergie Water, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

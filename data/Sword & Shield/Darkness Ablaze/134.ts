@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Tauros",
 		fr: "Tauros"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -35,6 +32,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -43,9 +41,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

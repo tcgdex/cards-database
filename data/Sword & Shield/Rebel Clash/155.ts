@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Si le Pokémon Fire auquel cette carte est attachée est sur le Poste Actif et qu’il subit les dégâts d’une attaque d’un adversaire (même s’il est mis K.O.), le Pokémon Attaquant est maintenant Brûlé."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

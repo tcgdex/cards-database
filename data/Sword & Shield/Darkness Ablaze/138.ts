@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Teddiursa",
 		fr: "Teddiursa"
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -49,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -57,9 +55,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

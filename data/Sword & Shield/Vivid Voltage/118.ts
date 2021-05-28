@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Metagross",
 		fr: "Métalosse"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Metang",
 		fr: "Métang"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,22 +55,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

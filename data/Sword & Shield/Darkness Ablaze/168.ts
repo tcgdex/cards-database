@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Attachez jusqu’à 2 cartes Énergie de base de votre pile de défausse à l’un de vos Pokémon-VMAX. Si vous avez attaché au moins une carte Énergie de cette façon, défaussez votre main."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

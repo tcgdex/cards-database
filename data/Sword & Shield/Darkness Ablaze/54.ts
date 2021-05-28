@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Arctovish",
 		fr: "Hydragla"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Rare Fossil",
 		fr: "Fossile Rare"
 	},
-
-
 
 	attacks: [
 		{
@@ -60,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -68,9 +68,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

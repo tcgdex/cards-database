@@ -28,7 +28,9 @@ const card: Card = {
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
-	}]
+	}],
+
+	regulationMark: "E"
 }
 
 export default card

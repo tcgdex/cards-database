@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Mightyena",
 		fr: "Grahyèna"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Poochyena",
 		fr: "Medhyèna"
 	},
-
-
 
 	attacks: [
 		{
@@ -54,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -62,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Défaussez votre main, puis piochez 7 cartes."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

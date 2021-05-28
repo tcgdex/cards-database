@@ -6,22 +6,23 @@ const card: Card = {
 		en: "Copperajah",
 		fr: "Pachyradjah",
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 190,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Cufant",
 		fr: "Charibari",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,22 +59,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

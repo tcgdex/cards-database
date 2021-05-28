@@ -57,7 +57,9 @@ const card: Card = {
 	resistances: [{
 		type: "Fighting",
 		value: "-30"
-	}]
+	}],
+
+	regulationMark: "D"
 }
 
 export default card

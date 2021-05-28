@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Gothorita",
 		fr: "Mesmérella"
 	},
+
 	illustrator: "sowsow",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gothita",
 		fr: "Scrutella"
 	},
-
-
 
 	attacks: [
 		{
@@ -55,22 +54,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

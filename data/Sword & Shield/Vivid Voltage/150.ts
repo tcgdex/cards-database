@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Tous les Pokémon de base (les vôtres et ceux de votre adversaire) subissent 20 dégâts de moins provenant des attaques des Pokémon de l’adversaire (après application de la Faiblesse et de la Résistance)."
 	},
 
-	trainerType: "Stadium"
+	trainerType: "Stadium",
+	regulationMark: "D"
 }
 
 export default card

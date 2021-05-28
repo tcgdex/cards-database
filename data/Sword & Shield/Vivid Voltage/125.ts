@@ -6,18 +6,16 @@ const card: Card = {
 		en: "Galarian Stunfisk",
 		fr: "Limonde de Galar"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Metal",
 	],
-
-
 
 	abilities: [
 		{
@@ -32,6 +30,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,22 +50,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

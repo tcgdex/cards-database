@@ -16,7 +16,8 @@ const card: Card = {
 		fr: "Cette carte ajoute 50 PV au Pokémon de base, à l’exception des Pokémon-GX, auquel elle est attachée."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

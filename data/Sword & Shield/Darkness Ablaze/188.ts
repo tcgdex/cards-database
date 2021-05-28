@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Choisissez jusqu’à 2 de vos Pokémon en jeu. Pour chacun de ces Pokémon, cherchez dans votre deck une carte Évolution de ce Pokémon-là, puis placez-la sur ce dernier pour le faire évoluer. Mélangez ensuite votre deck. Vous ne pouvez utiliser cette carte ni pendant votre premier tour ni sur un Pokémon qui a été mis en jeu pendant ce tour."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

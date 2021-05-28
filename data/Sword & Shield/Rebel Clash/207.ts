@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Ajoutez à votre main l’un de vos Pokémon qui n’est ni un Pokémon-V ni un Pokémon-GX. (Défaussez toutes les cartes attachées.)"
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

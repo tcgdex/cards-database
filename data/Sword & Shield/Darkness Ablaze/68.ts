@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Wigglytuff",
 		fr: "Grodoudou"
 	},
+
 	illustrator: "Lee HyunJung",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -65,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

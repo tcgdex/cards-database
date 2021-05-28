@@ -60,7 +60,9 @@ const card: Card = {
 
 		damage: "10+",
 		cost: ["Colorless", "Colorless", "Colorless"]
-	}]
+	}],
+
+	regulationMark: "D"
 }
 
 export default card

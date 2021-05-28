@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Galarian Darmanitan",
 		fr: "Darumacho de Galar"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Galarian Darumaka",
 		fr: "Darumarond de Galar"
 	},
-
-
 
 	attacks: [
 		{
@@ -60,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -68,9 +68,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

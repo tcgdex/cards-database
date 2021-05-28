@@ -6,19 +6,19 @@ const card: Card = {
 		en: "Zacian V",
 		fr: "Zacian V",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 220,
+
 	types: [
 		"Metal",
 	],
 
-
 	suffix: "V",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -32,6 +32,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,22 +52,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

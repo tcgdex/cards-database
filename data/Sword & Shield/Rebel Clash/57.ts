@@ -55,7 +55,8 @@ const card: Card = {
 	],
 
 	hp: 90,
-	types: ["Lightning"]
+	types: ["Lightning"],
+	regulationMark: "D"
 }
 
 export default card

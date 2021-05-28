@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Soignez 30 dégâts de l’un de vos Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

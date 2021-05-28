@@ -18,7 +18,8 @@ const card: Card = {
 		en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

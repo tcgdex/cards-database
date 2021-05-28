@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Kangaskhan",
 		fr: "Kangourex"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -52,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -60,9 +58,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Yanmega",
 		fr: "Yanmega"
 	},
+
 	illustrator: "Uta",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Yanma",
 		fr: "Yanma"
 	},
-
-
 
 	attacks: [
 		{
@@ -56,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,10 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

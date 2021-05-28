@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Pendant ce tour, les dégâts des attaques de vos Pokémon-VMAX ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "E"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Piochez 2 cartes. Jouez à pierre-ciseaux-feuille avec votre adversaire jusqu’à avoir un gagnant. Si vous gagnez, piochez 2 cartes supplémentaires."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

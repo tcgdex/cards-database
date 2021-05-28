@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Mew V",
 		fr: "Mew V"
 	},
+
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 180,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -38,12 +35,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -51,9 +50,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	regulationMark: "D"
 }
 
 export default card

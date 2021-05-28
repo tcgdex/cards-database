@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Charmeleon",
 		fr: "Reptincel"
 	},
+
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche"
 	},
-
-
 
 	attacks: [
 		{
@@ -53,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -61,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Toucannon",
 		fr: "Bazoucan"
 	},
+
 	illustrator: "Sekio",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Trumbeak",
 		fr: "Piclairon"
 	},
-
-
 
 	attacks: [
 		{
@@ -58,22 +57,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

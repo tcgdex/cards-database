@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Vous ne pouvez jouer cette carte que si vous l’avez piochée dans votre deck au début de votre tour, et avant de l’ajouter à votre main. \n\nPiochez 3 cartes."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

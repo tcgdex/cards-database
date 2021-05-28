@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Wailord V",
 		fr: "Wailord V"
 	},
+
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 280,
+
 	types: [
 		"Water",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -54,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -62,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

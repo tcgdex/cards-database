@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Weedle",
 		fr: "Aspicot"
 	},
+
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -36,6 +33,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -44,9 +42,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

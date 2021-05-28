@@ -18,7 +18,8 @@ const card: Card = {
 		en: "Discard your hand and draw 7 cards."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

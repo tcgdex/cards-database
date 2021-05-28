@@ -6,18 +6,16 @@ const card: Card = {
 		en: "Galarian Stunfisk V",
 		fr: "Limonde de Galar V"
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 200,
+
 	types: [
 		"Metal",
 	],
-
-
 
 	abilities: [
 		{
@@ -32,6 +30,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

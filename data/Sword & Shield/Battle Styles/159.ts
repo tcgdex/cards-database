@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Soignez tous les dégâts de chacun de vos Pokémon Évolutifs. Dans ce cas, défaussez toute l’Énergie des Pokémon soignés de cette façon."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "E"
 }
 
 export default card

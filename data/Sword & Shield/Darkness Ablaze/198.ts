@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Coalossal",
 		fr: "Monthracite"
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 160,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Carkol",
 		fr: "Wagomine"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -60,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

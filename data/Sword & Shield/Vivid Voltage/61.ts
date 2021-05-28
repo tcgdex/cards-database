@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Zeraora",
 		fr: "Zeraora"
 	},
+
 	illustrator: "so-taro",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Lightning",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -38,6 +35,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -45,10 +43,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

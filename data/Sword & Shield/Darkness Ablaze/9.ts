@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Shelmet",
 		fr: "Escargaume"
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -34,6 +31,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -42,9 +40,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

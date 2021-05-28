@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Vulpix",
 		fr: "Goupix"
 	},
+
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -49,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -57,9 +55,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

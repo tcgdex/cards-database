@@ -18,7 +18,8 @@ const card: Card = {
 		en: "The attacks of the Zacian V this card is attached to do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

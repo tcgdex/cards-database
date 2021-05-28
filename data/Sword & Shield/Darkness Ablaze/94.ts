@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Hippowdon",
 		fr: "Hippodocus"
 	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Hippopotas",
 		fr: "Hippopotas"
 	},
-
-
 
 	attacks: [
 		{
@@ -57,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -65,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

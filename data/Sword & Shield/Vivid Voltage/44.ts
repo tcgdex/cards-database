@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Pikachu VMAX",
 		fr: "Pikachu VMAX"
 	},
+
 	illustrator: "aky CG Works",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 310,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Pikachu V",
 		fr: "Pikachu-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -42,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -50,9 +50,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

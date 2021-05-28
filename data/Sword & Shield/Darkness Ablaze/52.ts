@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Toxapex",
 		fr: "Prédastérie"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Mareanie",
 		fr: "Vorastérie"
 	},
-
-
 
 	attacks: [
 		{
@@ -56,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -64,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

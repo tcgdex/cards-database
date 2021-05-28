@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Coalossal VMAX",
 		fr: "Monthracite VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 330,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Coalossal V",
 		fr: "Monthracite-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -55,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

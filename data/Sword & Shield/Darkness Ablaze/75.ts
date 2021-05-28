@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Gothitelle",
 		fr: "Sidérella"
 	},
+
 	illustrator: "Eri Yamaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gothorita",
 		fr: "Mesmérella"
 	},
-
-
 
 	attacks: [
 		{
@@ -56,22 +55,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Centiskorch VMAX",
 		fr: "Scolocendre VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 320,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Centiskorch V",
 		fr: "Scolocendre-V"
 	},
-
-
 
 	attacks: [
 		{
@@ -41,6 +40,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -49,9 +49,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

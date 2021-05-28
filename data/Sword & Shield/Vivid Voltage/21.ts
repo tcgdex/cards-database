@@ -6,21 +6,21 @@ const card: Card = {
 		en: "Orbeetle VMAX",
 		fr: "Astronelle VMAX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 310,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Orbeetle V",
 		fr: "Astronelle-V"
 	},
-
 
 	abilities: [
 		{
@@ -35,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -61,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

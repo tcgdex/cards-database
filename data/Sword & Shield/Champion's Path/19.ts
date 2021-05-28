@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Hattrem",
 		fr: "Chapotus"
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Hatenna",
 		fr: "Bibichut"
 	},
-
-
 
 	attacks: [
 		{
@@ -50,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

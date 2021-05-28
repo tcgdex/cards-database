@@ -47,7 +47,9 @@ const card: Card = {
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
-	}]
+	}],
+
+	regulationMark: "E"
 }
 
 export default card

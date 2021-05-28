@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Dracozolt",
 		fr: "Galvagon"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 160,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Rare Fossil",
 		fr: "Fossile Rare"
 	},
-
-
 
 	attacks: [
 		{
@@ -58,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

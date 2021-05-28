@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Raikou",
 		fr: "Raikou"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Secret Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -39,6 +36,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -47,9 +45,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

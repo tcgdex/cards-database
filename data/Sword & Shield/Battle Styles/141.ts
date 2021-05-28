@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Cette carte ne peut être attachée qu’à un Pokémon Poing Final. Si cette carte est attachée à autre chose qu’un Pokémon Poing Final, défaussez-la.\nTant que cette carte est attachée à un Pokémon, elle fournit de l’Énergie Fighting et Darkness (mais seulement une Énergie à la fois), et les attaques du Pokémon auquel cette carte est attachée infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance)."
 	},
 
-	energyType: "Special"
+	energyType: "Special",
+	regulationMark: "E"
 }
 
 export default card

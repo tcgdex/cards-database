@@ -6,19 +6,16 @@ const card: Card = {
 		en: "Swablu",
 		fr: "Tylton"
 	},
+
 	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -34,22 +31,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

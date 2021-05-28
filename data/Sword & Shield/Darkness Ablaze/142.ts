@@ -6,22 +6,21 @@ const card: Card = {
 		en: "Delcatty",
 		fr: "Delcatty"
 	},
+
 	illustrator: "Tika Matsuno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Skitty",
 		fr: "Skitty"
 	},
-
-
 
 	attacks: [
 		{
@@ -53,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,9 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

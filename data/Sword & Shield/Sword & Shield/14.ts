@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Rillaboom",
 		fr: "Gorythmic",
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 170,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Thwackey",
 		fr: "Badabouin",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -35,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -60,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

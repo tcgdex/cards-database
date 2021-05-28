@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Défaussez jusqu’à 2 cartes de votre main, puis piochez 2 cartes pour chaque carte défaussée de cette façon."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Votre adversaire dévoile sa main. Dans ce cas, regardez la carte du dessus du deck de votre adversaire."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "D"
 }
 
 export default card

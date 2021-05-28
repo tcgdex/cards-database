@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Cherchez dans votre deck une carte Énergie et un Pokémon Darkness, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

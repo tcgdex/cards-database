@@ -16,7 +16,8 @@ const card: Card = {
 		fr: "Les attaques du Pokémon auquel cette carte est attachée infligent 30 dégâts supplémentaires aux Pokémon-V de Banc et Pokémon-GX de Banc de votre adversaire."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card
