@@ -12,8 +12,8 @@ const set: Set = {
 
 
 	cardCount: { // NOT confirmed
-		total: 140,
-		official: 140
+		total: 190,
+		official: 190
 	},
 
 	releaseDate: "2021-06-18",
@@ -22,6 +22,13 @@ const set: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default set
