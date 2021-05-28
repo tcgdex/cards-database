@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw3: Set = {
 	id: "bw3",
+
 	name: {
 		en: "Noble Victories",
 		fr: "Nobles Victoires"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "NVI",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw3: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw3

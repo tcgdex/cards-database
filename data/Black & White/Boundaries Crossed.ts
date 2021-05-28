@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw7: Set = {
 	id: "bw7",
+
 	name: {
 		en: "Boundaries Crossed",
 		fr: "Frontières Franchies"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "BCR",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw7: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw7

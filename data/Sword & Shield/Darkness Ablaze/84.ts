@@ -4,34 +4,34 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Diglett",
+		fr: "Taupiqueur"
 	},
+
 	illustrator: "Hideki Ishikawa",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 50,
+
 	types: [
-		"Fightning",
+		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -40,9 +40,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

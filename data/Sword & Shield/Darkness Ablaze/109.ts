@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Zweilous",
+		fr: "Diamat"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Deino",
+		fr: "Solochi"
 	},
-
-
 
 	attacks: [
 		{
@@ -29,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
+				fr: "Poing Tire-Bouchon"
 			},
 
 			damage: 30,
@@ -42,12 +44,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Darkness Fang",
+				fr: "Croc Obscur"
 			},
 
 			damage: 70,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -56,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

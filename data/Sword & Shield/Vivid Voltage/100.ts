@@ -4,28 +4,27 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Clobbopus",
+		fr: "Poulpaf"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
-		"Fightning",
+		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Beat",
+				fr: "Bataille"
 			},
 
 			damage: 20,
@@ -33,17 +32,19 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncement"
 			},
 
 			damage: 40,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -52,9 +53,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

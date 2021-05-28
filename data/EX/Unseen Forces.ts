@@ -3,12 +3,13 @@ import serie from '../EX'
 
 const ex10: Set = {
 	id: "ex10",
+
 	name: {
 		en: "Unseen Forces",
 		fr: "Unseen Forces"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "UF",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const ex10: Set = {
 		official: 115
 	},
 
-	releaseDate: "2005-08-22"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2005-08-22",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex10

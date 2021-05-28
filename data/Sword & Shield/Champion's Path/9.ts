@@ -4,20 +4,18 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Sizzlipede",
+		fr: "Grillepattes"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 10,
@@ -39,12 +38,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -53,9 +54,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

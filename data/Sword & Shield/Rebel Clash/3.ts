@@ -4,20 +4,18 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Butterfree",
+		fr: "Papilusion"
 	},
+
 	illustrator: "Taira Akitsu",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Metapod",
+		fr: "Chrysacier"
 	},
-
-
 
 	attacks: [
 		{
@@ -26,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Panic Poison",
+				fr: "Poison Panique"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Confus et Empoisonné."
 			},
 			damage: 30,
 
@@ -40,12 +40,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Cutting Wind",
+				fr: "Vent Glacial"
 			},
 
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -54,9 +56,9 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	hp: 140,
+	types: ["Grass"],
+	regulationMark: "D"
 }
 
 export default card

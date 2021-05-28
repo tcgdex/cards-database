@@ -14,8 +14,12 @@ interface variants {
 	firstEdition?: boolean
 }
 
+type Mandatory<T extends {}> = {
+	[TK in keyof T]: NonNullable<T[TK]>
+}
+
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
-'Fairy' | 'Fightning' | 'Fire' |
+'Fairy' | 'Fighting' | 'Fire' |
 'Grass' | 'Lightning' | 'Metal' |
 'Psychic' | 'Water'
 
@@ -25,7 +29,7 @@ export interface Set {
 	name: Languages
 	serie: Serie
 	tcgOnline?: string
-	variants?: variants
+	variants: Mandatory<variants>
 
 	cardCount: {
 		total: number
@@ -81,6 +85,13 @@ export interface Card {
 	 * Card Set
 	 */
 	set: Set
+
+	/**
+	 * Card regulation Mark
+	 *
+	 * note: added from Sword & Shield
+	 */
+	regulationMark?: string
 
 	/**
 	 * Pokemon only elements

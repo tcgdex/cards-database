@@ -3,12 +3,13 @@ import serie from '../Base'
 
 const base2: Set = {
 	id: "base2",
+
 	name: {
 		en: "Jungle",
 		fr: "Jungle"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "JU",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const base2: Set = {
 		official: 64
 	},
 
-	releaseDate: "1999-06-16"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "1999-06-16",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: true
+	}
 }
 
 export default base2

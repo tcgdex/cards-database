@@ -3,12 +3,13 @@ import serie from '../HeartGold & SoulSilver'
 
 const hgss2: Set = {
 	id: "hgss2",
+
 	name: {
 		en: "Unleashed",
 		fr: "Déchaînement"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "UL",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const hgss2: Set = {
 		official: 95
 	},
 
-	releaseDate: "2010-05-12"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2010-05-12",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default hgss2

@@ -4,20 +4,18 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Mareanie",
+		fr: "Vorastérie"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Water",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Regeneration",
+				fr: "Rétablissement"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon."
 			},
 
 		},
@@ -39,14 +39,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Tentacles",
+				fr: "Tentacules Empoisonnés"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 			},
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -55,9 +58,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

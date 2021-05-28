@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Lapras VMAX",
 		fr: "Lokhlass VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		131,
 	],
+
 	hp: 320,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Lapras V",
-		fr: "Lokhlass V",
+		fr: "Lokhlass-V",
 	},
-	stage: "VMAX",
 
+	stage: "VMAX",
 
 	attacks: [
 		{
@@ -44,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -52,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

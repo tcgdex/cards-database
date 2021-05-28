@@ -4,20 +4,18 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Wishiwashi",
+		fr: "Froussardine"
 	},
+
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 30,
+
 	types: [
 		"Water",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Deep Sea Swirl",
+				fr: "Remous Abyssal"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 8 cards.",
+				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 8 cartes."
 			},
 
 		},
@@ -38,12 +38,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
+				fr: "Grosse Vague"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -52,9 +54,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -4,20 +4,18 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Gardevoir V",
+		fr: "Gardevoir V"
 	},
+
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 210,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magical Shot",
+				fr: "Coup Magique"
 			},
 
 			damage: 30,
@@ -39,14 +38,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Swelling Pulse",
+				fr: "Pulsation Grandissante"
 			},
 			effect: {
 				en: "If this Pokémon was healed during this turn, this attack does 80 more damage.",
+				fr: "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 80 dégâts supplémentaires."
 			},
 			damage: "120+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -55,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

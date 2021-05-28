@@ -6,27 +6,19 @@ const card: Card = {
 		en: "Hop",
 		fr: "Nabil",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		en: "Draw 3 cards.",
+		fr: "Piochez 3 cartes."
 	},
-	trainerType: "Supporter",
 
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

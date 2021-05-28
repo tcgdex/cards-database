@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Staravia",
+		fr: "Étourvol"
 	},
+
 	illustrator: "chibi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Starly",
+		fr: "Étourmi"
 	},
-
-
 
 	attacks: [
 		{
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ambush",
+				fr: "Embuscade"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires."
 			},
 			damage: "20+",
 
@@ -42,28 +45,30 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
+				fr: "Cru-Ailes"
 			},
 
 			damage: 40,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

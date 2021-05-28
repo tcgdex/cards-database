@@ -3,12 +3,13 @@ import serie from '../EX'
 
 const ex12: Set = {
 	id: "ex12",
+
 	name: {
 		en: "Legend Maker",
 		fr: "Legend Maker"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "LM",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const ex12: Set = {
 		official: 92
 	},
 
-	releaseDate: "2006-02-13"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2006-02-13",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex12

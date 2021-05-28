@@ -4,20 +4,18 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Carkol",
+		fr: "Wagomine"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
 
 	evolveFrom: {
 		en: "Rolycoly",
+		fr: "Charbi"
 	},
-
-
 
 	attacks: [
 		{
@@ -27,6 +25,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 30,
@@ -34,18 +33,20 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],
 			name: {
 				en: "Heat Crash",
+				fr: "Tacle Feu"
 			},
 
 			damage: 60,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -54,9 +55,9 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	hp: 100,
+	types: ["Fighting"],
+	regulationMark: "D"
 }
 
 export default card

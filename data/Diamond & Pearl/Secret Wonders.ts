@@ -3,12 +3,13 @@ import serie from '../Diamond & Pearl'
 
 const dp3: Set = {
 	id: "dp3",
+
 	name: {
 		en: "Secret Wonders",
 		fr: "Merveilles Secrètes"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "SW",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const dp3: Set = {
 		official: 132
 	},
 
-	releaseDate: "2007-11-01"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2007-11-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default dp3

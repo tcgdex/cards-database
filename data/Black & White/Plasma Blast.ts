@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw10: Set = {
 	id: "bw10",
+
 	name: {
 		en: "Plasma Blast",
 		fr: "Explosion Plasma"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PLB",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw10: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw10

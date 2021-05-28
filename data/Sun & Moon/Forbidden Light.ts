@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm6: Set = {
 	id: "sm6",
+
 	name: {
 		en: "Forbidden Light",
 		fr: "Lumière Interdite"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "FLI",
 
 	cardCount: {
@@ -20,9 +21,16 @@ const sm6: Set = {
 	releaseDate: "2018-05-04",
 
 	legal: {
-		standard: true,
+		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm6

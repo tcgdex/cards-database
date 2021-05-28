@@ -3,12 +3,13 @@ import serie from '../EX'
 
 const ex15: Set = {
 	id: "ex15",
+
 	name: {
 		en: "Dragon Frontiers",
 		fr: "Dragon Frontiers"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "DF",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const ex15: Set = {
 		official: 101
 	},
 
-	releaseDate: "2006-11-08"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2006-11-08",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex15

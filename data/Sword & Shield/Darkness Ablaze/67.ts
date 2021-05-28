@@ -4,20 +4,18 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
+
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mumble",
+				fr: "Murmure"
 			},
 
 			damage: 10,
@@ -38,12 +37,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Kick",
+				fr: "Coup d’Pied Lunaire"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -52,9 +53,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

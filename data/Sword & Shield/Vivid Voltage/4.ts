@@ -4,20 +4,18 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Exeggcute",
+		fr: "Noeunoeuf"
 	},
+
 	illustrator: "Hasuno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,12 +24,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Seed Bomb",
+				fr: "Canon Graine"
 			},
 
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -40,9 +40,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

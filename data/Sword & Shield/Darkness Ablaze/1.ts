@@ -4,20 +4,18 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Butterfree V",
+		fr: "Papilusion V"
 	},
+
 	illustrator: "Saki Hayashiro",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 190,
+
 	types: [
 		"Grass",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dizzying Poison",
+				fr: "Poison Étourdissant"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné."
 			},
 
 		},
@@ -40,12 +40,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Blasting Wind",
+				fr: "Vent Impitoyable"
 			},
 
 			damage: 130,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -54,9 +56,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

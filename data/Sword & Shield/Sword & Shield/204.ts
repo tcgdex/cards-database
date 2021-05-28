@@ -6,22 +6,23 @@ const card: Card = {
 		en: "Morpeko VMAX",
 		fr: "Morpeko VMAX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 300,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Morpeko V",
 		fr: "Morpeko-V",
 	},
-	stage: "VMAX",
 
+	stage: "VMAX",
 
 	attacks: [
 		{
@@ -42,17 +43,16 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Frosmoth",
 		fr: "Beldeneige",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Snom",
 		fr: "Frissonille",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -31,10 +33,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Benched Water Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Eau de votre main à l’un de vos Pokémon Eay de Banc.",
+				fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Eau de votre main à l’un de vos Pokémon Eau de Banc.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -58,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

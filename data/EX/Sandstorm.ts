@@ -3,12 +3,13 @@ import serie from '../EX'
 
 const ex2: Set = {
 	id: "ex2",
+
 	name: {
 		en: "Sandstorm",
 		fr: "Sandstorm"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "SS",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const ex2: Set = {
 		official: 100
 	},
 
-	releaseDate: "2003-09-18"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2003-09-18",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex2

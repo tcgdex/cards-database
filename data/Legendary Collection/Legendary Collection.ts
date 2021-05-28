@@ -3,11 +3,12 @@ import serie from '../Legendary Collection'
 
 const lc: Set = {
 	id: "lc",
+
 	name: {
 		en: "Legendary Collection",
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "LC",
 
 	cardCount: {
@@ -15,7 +16,19 @@ const lc: Set = {
 		official: 110
 	},
 
-	releaseDate: "2002-05-24"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2002-05-24",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default lc

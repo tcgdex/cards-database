@@ -3,11 +3,12 @@ import serie from '../Neo'
 
 const neo4: Set = {
 	id: "neo4",
+
 	name: {
 		en: "Neo Destiny",
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "N4",
 
 	cardCount: {
@@ -15,7 +16,19 @@ const neo4: Set = {
 		official: 105
 	},
 
-	releaseDate: "2002-02-28"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2002-02-28",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: true
+	}
 }
 
 export default neo4

@@ -4,22 +4,23 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Yanmega",
+		fr: "Yanmega"
 	},
+
 	illustrator: "Uta",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Yanma",
+		fr: "Yanma"
 	},
-
-
 
 	attacks: [
 		{
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "U-turn",
+				fr: "Demi-Tour"
 			},
 			effect: {
 				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Vous pouvez échanger ce Pokémon contre l’un de vos Pokémon de Banc."
 			},
 			damage: 50,
 
@@ -45,12 +48,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Cutting Wind",
+				fr: "Vent Glacial"
 			},
 
 			damage: 130,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -58,10 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

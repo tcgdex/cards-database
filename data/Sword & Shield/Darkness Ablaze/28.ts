@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Galarian Darmanitan",
+		fr: "Darumacho de Galar"
 	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Galarian Darumaka",
+		fr: "Darumarond de Galar"
 	},
-
-
 
 	attacks: [
 		{
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d’Boule"
 			},
 
 			damage: 40,
@@ -41,14 +43,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Frozen Heat",
+				fr: "Chaleur Gelée"
 			},
 			effect: {
 				en: "You may discard all Water Energy from this Pokémon. If you do, this attack does 60 more damage.",
+				fr: "Vous pouvez défausser toute l’Énergie Water attachée à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires."
 			},
 			damage: "110+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -57,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

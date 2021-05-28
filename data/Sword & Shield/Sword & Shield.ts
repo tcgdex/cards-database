@@ -3,13 +3,14 @@ import serie from '../Sword & Shield'
 
 const swsh1: Set = {
 	id: "swsh1",
+
 	name: {
 		en: "Sword & Shield",
 		fr: "Épée et Bouclier"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 216,
@@ -22,6 +23,13 @@ const swsh1: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default swsh1

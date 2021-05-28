@@ -4,20 +4,18 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Absol",
+		fr: "Absol"
 	},
+
 	illustrator: "kodama",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -27,12 +25,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Cutter",
+				fr: "Tranch’Obscur"
 			},
 
 			damage: 70,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -41,9 +41,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

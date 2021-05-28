@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Simipour",
+		fr: "Flotoutan"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Panpour",
+		fr: "Flotajou"
 	},
-
-
 
 	attacks: [
 		{
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
+				fr: "Pistolet à O"
 			},
 
 			damage: 30,
@@ -41,14 +43,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Giga Impact",
+				fr: "Giga Impact"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t attack.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 			},
 			damage: 110,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -57,9 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

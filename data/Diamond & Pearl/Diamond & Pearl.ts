@@ -3,12 +3,13 @@ import serie from '../Diamond & Pearl'
 
 const dp1: Set = {
 	id: "dp1",
+
 	name: {
 		en: "Diamond & Pearl",
 		fr: "Diamant & Perle"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "DP",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const dp1: Set = {
 		official: 130
 	},
 
-	releaseDate: "2007-05-01"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2007-05-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default dp1

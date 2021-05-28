@@ -53,7 +53,7 @@ const card: Card = {
 		{
 			cost: [
 				"Water",
-				"Fightning",
+				"Fighting",
 				"Metal",
 				"Colorless",
 			],
@@ -71,7 +71,7 @@ const card: Card = {
 	],
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

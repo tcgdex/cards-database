@@ -4,20 +4,18 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Victini",
+		fr: "Victini"
 	},
+
 	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Draw",
+				fr: "Pioche Rapide"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -39,12 +39,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -53,9 +55,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

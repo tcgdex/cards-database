@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw6: Set = {
 	id: "bw6",
+
 	name: {
 		en: "Dragons Exalted",
 		fr: "Dragons Éxaltés"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "DRX",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw6: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw6

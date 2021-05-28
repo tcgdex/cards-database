@@ -4,20 +4,18 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
+
 	illustrator: "Lee HyunJung",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Ronge"
 			},
 
 			damage: 10,
@@ -38,23 +37,23 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
+				fr: "Queue Battoir"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

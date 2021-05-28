@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw1: Set = {
 	id: "bw1",
+
 	name: {
 		en: "Black & White",
 		fr: "Noir & Blanc"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "BLW",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw1: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw1

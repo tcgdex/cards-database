@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Milcery",
+		fr: "Crèmy"
 	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -24,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aromatherapy",
+				fr: "Aromathérapie"
 			},
 			effect: {
 				en: "Heal 10 damage from each of your Pokémon.",
+				fr: "Soignez 10 dégâts de chacun de vos Pokémon."
 			},
 
 		},
@@ -37,12 +34,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -51,9 +50,9 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	hp: 50,
+	types: ["Psychic"],
+	regulationMark: "D"
 }
 
 export default card

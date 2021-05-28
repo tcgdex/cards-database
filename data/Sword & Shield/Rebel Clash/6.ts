@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Heracross",
+		fr: "Scarhino"
 	},
+
 	illustrator: "otumami",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -25,9 +20,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Push Down",
+				fr: "Recul"
 			},
 			effect: {
 				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc."
 			},
 			damage: 30,
 
@@ -40,12 +37,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Superpowered Horns",
+				fr: "Cornes Surpuissantes"
 			},
 
 			damage: 110,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -54,9 +53,9 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	hp: 130,
+	types: ["Grass"],
+	regulationMark: "D"
 }
 
 export default card

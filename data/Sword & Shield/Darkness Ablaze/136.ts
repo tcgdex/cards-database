@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Furret",
+		fr: "Fouinar"
 	},
+
 	illustrator: "tetsuya koizumi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Sentret",
+		fr: "Fouinette"
 	},
-
-
 
 	attacks: [
 		{
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Feelin’ Fine",
+				fr: "Mode Cool"
 			},
 			effect: {
 				en: "Draw 3 cards.",
+				fr: "Piochez 3 cartes."
 			},
 
 		},
@@ -40,25 +43,26 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Smash",
+				fr: "Éclate-Queue"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
 			},
 			damage: 90,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

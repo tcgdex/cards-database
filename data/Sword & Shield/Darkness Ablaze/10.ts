@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Accelgor",
+		fr: "Limaspeed"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Shelmet",
+		fr: "Escargaume"
 	},
-
-
 
 	attacks: [
 		{
@@ -29,12 +30,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Jet Headbutt",
+				fr: "Bélier Volant"
 			},
 
 			damage: 70,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -42,10 +45,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

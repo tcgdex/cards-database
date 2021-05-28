@@ -3,12 +3,13 @@ import serie from '../HeartGold & SoulSilver'
 
 const hgss1: Set = {
 	id: "hgss1",
+
 	name: {
 		en: "HeartGold SoulSilver",
 		fr: "HeartGold SoulSilver"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "HS",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const hgss1: Set = {
 		official: 123
 	},
 
-	releaseDate: "2010-02-10"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2010-02-10",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default hgss1

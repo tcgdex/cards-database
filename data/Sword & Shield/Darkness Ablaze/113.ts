@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Thievul",
+		fr: "Roublenard"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Nickit",
+		fr: "Goupilou"
 	},
-
-
 
 	attacks: [
 		{
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nasty Plot",
+				fr: "Machination"
 			},
 			effect: {
 				en: "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck jusqu’à 2 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -41,12 +44,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fang",
+				fr: "Croc Aiguisé"
 			},
 
 			damage: 70,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -55,9 +60,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

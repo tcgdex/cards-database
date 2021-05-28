@@ -3,13 +3,14 @@ import serie from '../XY'
 
 const xy6: Set = {
 	id: "xy6",
+
 	name: {
 		en: "Roaring Skies",
 		fr: "Ciel Rugissant"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "ROS",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const xy6: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default xy6

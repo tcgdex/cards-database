@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw9: Set = {
 	id: "bw9",
+
 	name: {
 		en: "Plasma Freeze",
 		fr: "Glaciation Plasma"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PLF",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw9: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw9

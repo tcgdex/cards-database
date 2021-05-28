@@ -3,13 +3,14 @@ import serie from '../Platinum'
 
 const pl2: Set = {
 	id: "pl2",
+
 	name: {
 		en: "Rising Rivals",
 		fr: "Rivaux Émergeants"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "RR",
 
 	cardCount: {
@@ -17,7 +18,19 @@ const pl2: Set = {
 		official: 111
 	},
 
-	releaseDate: "2009-05-16"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2009-05-16",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default pl2

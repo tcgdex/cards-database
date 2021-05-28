@@ -4,18 +4,13 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Snover",
+		fr: "Blizzi"
 	},
+
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
-
-
-
-
-
 
 	attacks: [
 		{
@@ -25,6 +20,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
+				fr: "Bataille"
 			},
 
 			damage: 20,
@@ -38,12 +34,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch’Herbe"
 			},
 
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -52,9 +50,9 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	hp: 90,
+	types: ["Grass"],
+	regulationMark: "D"
 }
 
 export default card

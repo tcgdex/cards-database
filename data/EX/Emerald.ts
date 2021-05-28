@@ -3,12 +3,13 @@ import serie from '../EX'
 
 const ex9: Set = {
 	id: "ex9",
+
 	name: {
 		en: "Emerald",
 		fr: "Emerald"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "EM",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const ex9: Set = {
 		official: 106
 	},
 
-	releaseDate: "2005-05-09"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2005-05-09",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default ex9

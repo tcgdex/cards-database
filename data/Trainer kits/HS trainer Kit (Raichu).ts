@@ -3,20 +3,33 @@ import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-hs-r",
+
 	name: {
 		en: "HS trainer Kit (Raichu)",
 		fr: "HS Kit du dresseur (Raichu)"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 30,
 		official: 30
 	},
 
-	releaseDate: "2010-05-01"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2010-05-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default set

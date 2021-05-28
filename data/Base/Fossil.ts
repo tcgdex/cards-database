@@ -3,12 +3,13 @@ import serie from '../Base'
 
 const base3: Set = {
 	id: "base3",
+
 	name: {
 		en: "Fossil",
 		fr: "Fossile"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "FO",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const base3: Set = {
 		official: 62
 	},
 
-	releaseDate: "1999-10-10"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "1999-10-10",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: true
+	}
 }
 
 export default base3

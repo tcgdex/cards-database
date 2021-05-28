@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm9: Set = {
 	id: "sm9",
+
 	name: {
 		en: "Team Up",
 		fr: "Duo de Choc"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "TEU",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm9: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm9

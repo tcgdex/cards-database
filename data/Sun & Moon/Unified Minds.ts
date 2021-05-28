@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm11: Set = {
 	id: "sm11",
+
 	name: {
 		en: "Unified Minds",
 		fr: "Harmonie des Esprits"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "UNM",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm11: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm11

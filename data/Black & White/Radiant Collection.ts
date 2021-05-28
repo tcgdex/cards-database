@@ -3,19 +3,32 @@ import serie from '../Black & White'
 
 const rc: Set = {
 	id: "rc",
+
 	name: {
 		en: "Radiant Collection",
 		fr: "Radiant Collection"
 	},
-	serie: serie,
 
+	serie: serie,
 
 	cardCount: {
 		total: 25,
 		official: 25
 	},
 
-	releaseDate: "2013-11-06"
+	legal: {
+		expanded: true,
+		standard: false
+	},
+
+	releaseDate: "2013-11-06",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default rc

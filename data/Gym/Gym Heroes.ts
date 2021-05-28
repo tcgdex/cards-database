@@ -3,12 +3,13 @@ import serie from '../Gym'
 
 const gym1: Set = {
 	id: "gym1",
+
 	name: {
 		en: "Gym Heroes",
 		fr: "Gym Heroes"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "G1",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const gym1: Set = {
 		official: 132
 	},
 
-	releaseDate: "2000-08-14"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2000-08-14",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: true
+	}
 }
 
 export default gym1

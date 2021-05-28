@@ -3,12 +3,13 @@ import serie from '../Base'
 
 const basep: Set = {
 	id: "basep",
+
 	name: {
 		en: "Wizards Black Star Promos",
 		fr: "Wizards Black Star Promos"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PR",
 
 	cardCount: {
@@ -16,7 +17,19 @@ const basep: Set = {
 		official: 53
 	},
 
-	releaseDate: "1999-07-01"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "1999-07-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: true
+	}
 }
 
 export default basep

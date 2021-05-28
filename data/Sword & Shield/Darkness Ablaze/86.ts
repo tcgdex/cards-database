@@ -4,28 +4,27 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Larvitar",
+		fr: "Embrylex"
 	},
+
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 70,
+
 	types: [
-		"Fightning",
+		"Fighting",
 	],
-
-
-
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Sand Spray",
+				fr: "Jet Sableux"
 			},
 
 			damage: 10,
@@ -38,12 +37,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Pierce",
+				fr: "Transpercement"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -52,9 +53,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Sandaconda",
 		fr: "Dunaconda",
 	},
+
 	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
-		"Fightning",
+		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Silicobra",
 		fr: "Dunaja",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -35,11 +37,12 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Power Press",
@@ -53,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -61,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

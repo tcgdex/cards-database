@@ -3,13 +3,14 @@ import serie from '../Platinum'
 
 const pl4: Set = {
 	id: "pl4",
+
 	name: {
 		en: "Arceus",
 		fr: "Arceus"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "AR",
 
 	cardCount: {
@@ -17,7 +18,19 @@ const pl4: Set = {
 		official: 99
 	},
 
-	releaseDate: "2009-11-04"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2009-11-04",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default pl4

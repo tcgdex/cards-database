@@ -3,13 +3,14 @@ import serie from '../XY'
 
 const xy4: Set = {
 	id: "xy4",
+
 	name: {
 		en: "Phantom Forces",
 		fr: "Vigueur Spectrale"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PHF",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const xy4: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default xy4

@@ -4,20 +4,18 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Morelull",
+		fr: "Spododo"
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
-
-
-
 
 	attacks: [
 		{
@@ -26,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spore",
+				fr: "Spore"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 			},
 
 		},
@@ -39,12 +39,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Flop",
+				fr: "Flop"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -53,9 +55,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

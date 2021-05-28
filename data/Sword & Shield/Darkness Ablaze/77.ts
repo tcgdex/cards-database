@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Golurk",
+		fr: "Golemastoc"
 	},
+
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 150,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Golett",
+		fr: "Gringolem"
 	},
-
-
 
 	attacks: [
 		{
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dynamic Chop",
+				fr: "Coupe Dynamique"
 			},
 
 			damage: 80,
@@ -45,28 +47,30 @@ const card: Card = {
 			],
 			name: {
 				en: "Golurk Hammer",
+				fr: "Maillet Golemastoc"
 			},
 
 			damage: 180,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

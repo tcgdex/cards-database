@@ -43,7 +43,7 @@ const card: Card = {
 		{
 			cost: [
 				"Grass",
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Vibration",

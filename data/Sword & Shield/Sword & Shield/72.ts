@@ -6,17 +6,16 @@ const card: Card = {
 		en: "Tapu Koko V",
 		fr: "Tokorico V",
 	},
+
 	illustrator: "PLANETA Tsuji",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 200,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "V",
 
@@ -54,17 +53,15 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

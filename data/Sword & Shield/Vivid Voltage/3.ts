@@ -4,33 +4,38 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Beedrill",
+		fr: "Dardargnan"
 	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Kakuna",
+		fr: "Coconfort"
 	},
-
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
 				en: "Elusive Master",
+				fr: "Maître Évasif"
 			},
 			effect: {
 				en: "Once during your turn, if this Pokémon is the last card in your hand, you may play it onto your Bench. If you do, draw 3 cards.",
+				fr: "Une fois pendant votre tour, si ce Pokémon est votre dernière carte en main, vous pouvez le placer sur votre Banc. Dans ce cas, piochez 3 cartes."
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -39,12 +44,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Sting",
+				fr: "Piqûre Pointue"
 			},
 
 			damage: 120,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -52,10 +59,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	regulationMark: "D"
 }
 
 export default card

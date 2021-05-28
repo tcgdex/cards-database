@@ -3,11 +3,12 @@ import serie from '../Pop'
 
 const np: Set = {
 	id: "np",
+
 	name: {
 		en: "Nintendo Black Star Promos",
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "PR-NP",
 
 	cardCount: {
@@ -15,7 +16,19 @@ const np: Set = {
 		official: 40
 	},
 
-	releaseDate: "2003-10-01"
+	legal: {
+		expanded: false,
+		standard: false
+	},
+
+	releaseDate: "2003-10-01",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default np

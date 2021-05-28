@@ -4,22 +4,23 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Beartic",
+		fr: "Polagriffe"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Cubchoo",
+		fr: "Polarhume"
 	},
-
-
 
 	attacks: [
 		{
@@ -29,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 40,
@@ -42,14 +44,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Frozen Slice",
+				fr: "Tranche Gelée"
 			},
 			effect: {
 				en: "This Pokémon also does 50 damage to itself.",
+				fr: "Ce Pokémon s’inflige aussi 50 dégâts."
 			},
 			damage: 150,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -58,9 +63,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	regulationMark: "D"
 }
 
 export default card

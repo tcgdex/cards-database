@@ -3,12 +3,13 @@ import serie from '../Black & White'
 
 const bw2: Set = {
 	id: "bw2",
+
 	name: {
 		en: "Emerging Powers",
 		fr: "Pouvoirs Émergents"
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "EPO",
 
 	cardCount: {
@@ -22,6 +23,13 @@ const bw2: Set = {
 		standard: false,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default bw2

@@ -3,13 +3,14 @@ import serie from '../Sun & Moon'
 
 const sm12: Set = {
 	id: "sm12",
+
 	name: {
 		en: "Cosmic Eclipse",
 		fr: "Éclipse Cosmique"
 ,
 	},
-	serie: serie,
 
+	serie: serie,
 	tcgOnline: "CEC",
 
 	cardCount: {
@@ -23,6 +24,13 @@ const sm12: Set = {
 		standard: true,
 		expanded: true
 	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default sm12
