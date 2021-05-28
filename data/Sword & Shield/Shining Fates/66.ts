@@ -18,7 +18,8 @@ const card: Card = {
 		en: "Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, draw 3 cards."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

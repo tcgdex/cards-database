@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Mélangez avec votre deck jusqu’à 2 cartes Énergie Poing Final de votre pile de défausse."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "E"
 }
 
 export default card

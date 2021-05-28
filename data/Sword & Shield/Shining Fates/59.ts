@@ -18,7 +18,8 @@ const card: Card = {
 		en: "Draw 2 cards. If any of your Pokémon were Knocked Out during your opponent’s last turn, draw 2 more cards."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "D"
 }
 
 export default card

@@ -93,7 +93,7 @@ const transformer: Transform = (file, api) => {
 			let simplified = simplify(path.node)
 
 			// Example Set/Add regulationMArk to cards
-			// set(j, simplified.item, j.literal('D'), 'regulationMark')
+			set(j, simplified.item, j.literal('D'), 'regulationMark')
 
 		})
 		.toSource({useTabs: true, lineTerminator: '\n'}).replace(/    /g, '	')

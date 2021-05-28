@@ -17,7 +17,8 @@ const card: Card = {
 		fr: "Cette carte ne peut être attachée qu’à un Pokémon Mille Poings. Si cette carte est attachée à autre chose qu’un Pokémon Mille Poings, défaussez-la.\nTant que cette carte est attachée à un Pokémon, elle fournit une combinaison de 2 cartes Énergie Water et Énergie Fighting."
 	},
 
-	energyType: "Special"
+	energyType: "Special",
+	regulationMark: "E"
 }
 
 export default card

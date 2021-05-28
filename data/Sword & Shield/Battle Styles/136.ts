@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Tant que le Pokémon auquel cette carte est attachée est sur le Poste Actif, les Outils Pokémon attachés au Pokémon Actif de votre adversaire n’ont aucun effet, à l’exception de Bloqueur d’Outil."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "E"
 }
 
 export default card

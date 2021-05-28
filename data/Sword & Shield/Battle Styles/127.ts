@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Placez une Énergie spéciale attachée à l’un des Pokémon de votre adversaire en dessous du deck de celui-ci."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "E"
 }
 
 export default card

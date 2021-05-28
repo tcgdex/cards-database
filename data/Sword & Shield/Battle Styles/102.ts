@@ -54,7 +54,8 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "E"
 }
 
 export default card

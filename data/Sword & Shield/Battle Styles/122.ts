@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Cherchez dans votre deck une carte, puis ajoutez-la à votre main. Mélangez ensuite votre deck. Votre tour se termine."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "E"
 }
 
 export default card

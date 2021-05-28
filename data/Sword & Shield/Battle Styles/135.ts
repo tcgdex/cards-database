@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Choisissez une carte Dresseur dans votre pile de défausse. Ensuite, demandez à votre adversaire si vous pouvez l’ajouter à votre main. Si oui, ajoutez cette carte à votre main. Sinon, piochez 3 cartes."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "E"
 }
 
 export default card

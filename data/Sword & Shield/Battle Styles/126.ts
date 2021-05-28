@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Lorsque votre Pokémon Actif est mis K.O. par les dégâts d’une attaque de l’un des Pokémon de votre adversaire, vous pouvez déplacer une Énergie de base de ce Pokémon-là vers le Pokémon auquel cette carte est attachée."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "E"
 }
 
 export default card

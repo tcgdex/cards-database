@@ -18,7 +18,8 @@ const card: Card = {
 		en: "The Zamazenta V this card is attached to gets +70 HP."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "D"
 }
 
 export default card

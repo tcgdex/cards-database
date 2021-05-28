@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Piochez des cartes jusqu’à en avoir 6 en main."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	regulationMark: "E"
 }
 
 export default card

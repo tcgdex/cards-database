@@ -18,7 +18,8 @@ const card: Card = {
 		fr: "Le Pokémon Poing Final auquel cette carte est attachée peut utiliser l’attaque sur cette carte. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser cette attaque.)\nFighting Colère Furieuse 10+\nCette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	regulationMark: "E"
 }
 
 export default card
