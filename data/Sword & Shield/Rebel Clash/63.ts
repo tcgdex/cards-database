@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Helioptile",
+		fr: "Galvaran"
 	},
 
 	illustrator: "0313",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
+				fr: "Secousse Tonnerre"
 			},
 			effect: {
 				en: "This Pokémon also does 10 damage to itself.",
+				fr: "Ce Pokémon s’inflige aussi 10 dégâts."
 			},
 			damage: 30,
 
@@ -29,12 +32,14 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 1,
+	hp: 70,
+	types: ["Lightning"],
 	regulationMark: "D"
 }
 

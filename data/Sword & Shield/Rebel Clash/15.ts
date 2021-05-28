@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Trevenant",
+		fr: "Desséliande"
 	},
 
 	illustrator: "kawayoo",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Phantump",
+		fr: "Brocélôme"
 	},
 
 	attacks: [
@@ -22,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Seed Bomb",
+				fr: "Canon Graine"
 			},
 
 			damage: 40,
@@ -35,9 +38,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Cage",
+				fr: "Cage d’Ombre"
 			},
 			effect: {
 				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 			},
 			damage: 120,
 
@@ -52,6 +57,8 @@ const card: Card = {
 	],
 
 	retreat: 3,
+	hp: 130,
+	types: ["Grass"],
 	regulationMark: "D"
 }
 

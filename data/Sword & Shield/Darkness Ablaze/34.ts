@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Centiskorch VMAX",
+		fr: "Scolocendre VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Centiskorch V",
+		fr: "Scolocendre-V"
 	},
 
 	attacks: [
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "G-Max Centiferno",
+				fr: "Combustion G-Max"
 			},
 			effect: {
 				en: "This attack does 40 more damage for each Fire Energy attached to this Pokémon. If you did any damage with this attack, you may attach a Fire Energy card from your discard pile to this Pokémon.",
+				fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon. Si vous avez infligé des dégâts avec cette attaque, vous pouvez attacher une carte Énergie Fire de votre pile de défausse à ce Pokémon."
 			},
 			damage: "40+",
 

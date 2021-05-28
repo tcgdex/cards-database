@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Pineco",
+		fr: "Pomdepik"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,
@@ -35,9 +37,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Iron Defense",
+				fr: "Mur de Fer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.",
+				fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques."
 			},
 
 		},

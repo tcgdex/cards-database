@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Arrokuda",
+		fr: "Embrochet"
 	},
 
 	illustrator: "Mina Nakai",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rain Splash",
+				fr: "Pluie Éclaboussante"
 			},
 
 			damage: 20,
@@ -33,6 +35,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 60,
+	types: ["Water"],
 	regulationMark: "D"
 }
 

@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Hatterene",
+		fr: "Sorcilence"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hattrem",
+		fr: "Chapotus"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Hazard Sensor",
+				fr: "Capteur de Danger"
 			},
 			effect: {
 				en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Confused.",
+				fr: "Si ce Pokémon est sur le Poste Actif et qu’il subit les dégâts d’une attaque d’un Pokémon de votre adversaire (même si ce Pokémon-ci est mis K.O.), le Pokémon Attaquant est maintenant Confus."
 			},
 		},
 	],
@@ -40,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Life Sucker",
+				fr: "Aspire-Vie"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon."
 			},
 			damage: 100,
 
@@ -58,7 +64,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

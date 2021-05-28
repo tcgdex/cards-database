@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Spinarak",
+		fr: "Mimigal"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hang Down",
+				fr: "Suspension"
 			},
 
 			damage: 10,
@@ -35,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sting",
+				fr: "Dard"
 			},
 
 			damage: 20,
@@ -44,7 +47,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

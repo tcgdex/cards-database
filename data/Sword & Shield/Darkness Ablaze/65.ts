@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Dracozolt",
+		fr: "Galvagon"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rare Fossil",
+		fr: "Fossile Rare"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Amping Up",
+				fr: "Amplificateur"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon’s Amping Up attack does 90 more damage (before applying Weakness and Resistance).",
+				fr: "Pendant votre prochain tour, l’attaque Amplificateur de ce Pokémon inflige 90 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: 30,
 
@@ -43,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Giga Impact",
+				fr: "Giga Impact"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t attack.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 			},
 			damage: 200,
 
@@ -54,7 +60,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

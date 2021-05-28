@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Golurk",
+		fr: "Golemastoc"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Golett",
+		fr: "Gringolem"
 	},
 
 	attacks: [
@@ -29,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dynamic Chop",
+				fr: "Coupe Dynamique"
 			},
 
 			damage: 80,
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Golurk Hammer",
+				fr: "Maillet Golemastoc"
 			},
 
 			damage: 180,
@@ -60,7 +64,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

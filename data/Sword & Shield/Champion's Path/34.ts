@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Arbok",
+		fr: "Arbok"
 	},
 
 	illustrator: "nagimiso",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ekans",
+		fr: "Abo"
 	},
 
 	attacks: [
@@ -27,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fang",
+				fr: "Croc Aiguisé"
 			},
 
 			damage: 30,
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Snap",
+				fr: "Coud’ Queue Sec"
 			},
 
 			damage: 70,
@@ -48,7 +52,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

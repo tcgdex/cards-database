@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Vanillite",
+		fr: "Sorbébé"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Over",
+				fr: "Frimas"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 			damage: 10,
 

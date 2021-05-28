@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Exeggcute",
+		fr: "Noeunoeuf"
 	},
 
 	illustrator: "Hasuno",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Seed Bomb",
+				fr: "Canon Graine"
 			},
 
 			damage: 10,

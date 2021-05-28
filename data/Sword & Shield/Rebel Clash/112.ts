@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Koffing",
+		fr: "Smogo"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Suffocating Gas",
+				fr: "Gaz Suffocant"
 			},
 
 			damage: 10,
@@ -27,12 +29,14 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 1,
+	hp: 70,
+	types: ["Darkness"],
 	regulationMark: "D"
 }
 

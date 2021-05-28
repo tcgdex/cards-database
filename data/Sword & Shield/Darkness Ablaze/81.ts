@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Mimikyu",
+		fr: "Mimiqui"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -21,9 +22,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Heal Jamming",
+				fr: "Soins Suspendus"
 			},
 			effect: {
 				en: "Your opponent’s Benched Pokémon can’t be healed.",
+				fr: "Les Pokémon de Banc de votre adversaire ne peuvent pas être soignés."
 			},
 		},
 	],
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
+				fr: "Tranch’Griffe"
 			},
 
 			damage: 30,
@@ -52,7 +56,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

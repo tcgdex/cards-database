@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Lycanroc",
+		fr: "Lougaroc"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,11 +14,12 @@ const card: Card = {
 	hp: 120,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	evolveFrom: {
 		en: "Rockruff",
+		fr: "Rocabot"
 	},
 
 	attacks: [
@@ -27,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Throw",
+				fr: "Jet-Pierres"
 			},
 
 			damage: 30,
@@ -34,15 +37,17 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Slashing Strike",
+				fr: "Coup Déchirant"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t use Slashing Strike.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant."
 			},
 			damage: 150,
 

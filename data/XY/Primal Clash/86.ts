@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 240,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Groudon-EX",

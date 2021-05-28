@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Shuckle",
+		fr: "Caratroc"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Berry Picking",
+				fr: "Cueillette de Baies"
 			},
 			effect: {
 				en: "Shuffle up to 5 basic Energy cards from your discard pile into your deck.",
+				fr: "Mélangez avec votre deck jusqu’à 5 cartes Énergie de base de votre pile de défausse."
 			},
 
 		},
@@ -32,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bind",
+				fr: "Étreinte"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 			damage: 50,
 
@@ -49,6 +54,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 80,
+	types: ["Grass"],
 	regulationMark: "D"
 }
 

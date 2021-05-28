@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Pincurchin",
+		fr: "Wattapik"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spinning Fan",
+				fr: "Hélice Tournante"
 			},
 			effect: {
 				en: "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 30,
@@ -45,7 +49,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Ariados",
+		fr: "Migalos"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spinarak",
+		fr: "Mimigal"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Spider Net",
+				fr: "Rets Arachnéens"
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent’s Benched Evolution Pokémon with their Active Pokémon.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez échanger l’un des Pokémon évolutifs de Banc de votre adversaire contre son Pokémon Actif."
 			},
 		},
 	],
@@ -40,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Sting",
+				fr: "Dard-Venin"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 			},
 			damage: 30,
 
@@ -51,7 +57,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Zweilous",
+		fr: "Diamat"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Deino",
+		fr: "Solochi"
 	},
 
 	attacks: [
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
+				fr: "Poing Tire-Bouchon"
 			},
 
 			damage: 30,
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Darkness Fang",
+				fr: "Croc Obscur"
 			},
 
 			damage: 70,

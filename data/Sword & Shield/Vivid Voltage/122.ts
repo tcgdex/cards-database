@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Excadrill",
+		fr: "Minotaupe"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drilbur",
+		fr: "Rototaupe"
 	},
 
 	attacks: [
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Drill Run",
+				fr: "Tunnelier"
 			},
 			effect: {
 				en: "Discard an Energy from your opponent’s Active Pokémon.",
+				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire."
 			},
 			damage: 30,
 
@@ -43,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Claw",
+				fr: "Griffe Taillante"
 			},
 
 			damage: 130,

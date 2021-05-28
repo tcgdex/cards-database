@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Muk",
+		fr: "Grotadmorv"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
+		fr: "Tadmorv"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Triple Poison",
+				fr: "Triple Poison"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned. During Pokémon Checkup, put 3 damage counters on that Pokémon instead of 1.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 3 marqueurs de dégâts sur ce Pokémon-là au lieu d’un."
 			},
 
 		},
@@ -42,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sludge Whirlpool",
+				fr: "Tourbillon de Boue"
 			},
 
 			damage: 120,
@@ -51,7 +56,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

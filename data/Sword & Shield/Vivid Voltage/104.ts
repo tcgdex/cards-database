@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Mightyena",
+		fr: "Grahyèna"
 	},
 
 	illustrator: "Aya Kusube",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poochyena",
+		fr: "Medhyèna"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ferocious Bellow",
+				fr: "Grognement Féroce"
 			},
 			effect: {
 				en: "During your opponent’s next turn, the Defending Pokémon’s attacks do 50 less damage (before applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 50 dégâts de moins (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: 20,
 
@@ -42,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pitch-Black Fangs",
+				fr: "Crocs Nuit Noire"
 			},
 
 			damage: 100,

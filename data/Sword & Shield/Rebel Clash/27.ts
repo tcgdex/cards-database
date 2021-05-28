@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Odor Sleuth",
+				fr: "Flair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, put a card from your discard pile into your hand.",
+				fr: "Lancez une pièce. Si c’est face, ajoutez une carte de votre pile de défausse à votre main."
 			},
 
 		},
@@ -32,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Claws",
+				fr: "Griffes Enflammées"
 			},
 
 			damage: 60,
@@ -47,6 +51,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 80,
+	types: ["Fire"],
 	regulationMark: "D"
 }
 

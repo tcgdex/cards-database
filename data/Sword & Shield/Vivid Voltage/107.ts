@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Sandile",
+		fr: "Mascaïman"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -26,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dredge Up",
+				fr: "Extraction"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your opponent’s deck.",
+				fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire."
 			},
 
 		},

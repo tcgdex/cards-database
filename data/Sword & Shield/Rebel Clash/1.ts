@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Caterpie",
+		fr: "Chenipan"
 	},
 
 	illustrator: "Uta",
@@ -16,9 +17,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Adaptive Evolution",
+				fr: "Évolution Adaptative"
 			},
 			effect: {
 				en: "This Pokémon can evolve during your first turn or the turn you play it.",
+				fr: "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez."
 			},
 		},
 	],
@@ -30,6 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Ronge"
 			},
 
 			damage: 10,
@@ -45,6 +49,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 50,
+	types: ["Grass"],
 	regulationMark: "D"
 }
 

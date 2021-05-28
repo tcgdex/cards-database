@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	illustrator: "kodama",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Torchic",
+		fr: "Poussifeu"
 	},
 
 	attacks: [
@@ -27,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
+				fr: "Coud’Pattes"
 			},
 
 			damage: 20,
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Beak",
+				fr: "Bec Thermique"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			},
 			damage: 40,
 

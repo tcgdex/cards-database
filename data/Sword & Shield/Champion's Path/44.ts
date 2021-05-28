@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Inkay",
+		fr: "Sepiatop"
 	},
 
 	illustrator: "sui",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -35,9 +37,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Attack from Behind",
+				fr: "Attaque Traîtresse"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is Confused, this attack does 50 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 50 dégâts supplémentaires."
 			},
 			damage: "20+",
 

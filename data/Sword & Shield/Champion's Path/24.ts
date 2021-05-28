@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Machop",
+		fr: "Machoc"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,16 +14,17 @@ const card: Card = {
 	hp: 70,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Low Kick",
+				fr: "Balayage"
 			},
 
 			damage: 10,
@@ -30,14 +32,16 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Steady Punch",
+				fr: "Poing Énergétique"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires."
 			},
 			damage: "20+",
 

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Kakuna",
+		fr: "Coconfort"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weedle",
+		fr: "Aspicot"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shed Skin",
+				fr: "Mue"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon."
 			},
 
 		},
@@ -39,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bug Bite",
+				fr: "Piqûre"
 			},
 
 			damage: 20,

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Xerneas",
+		fr: "Xerneas"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Geo Hunt",
+				fr: "Géo-Chasse"
 			},
 			effect: {
 				en: "Put a card from your discard pile into your hand.",
+				fr: "Ajoutez à votre main une carte de votre pile de défausse."
 			},
 
 		},
@@ -37,9 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Gain",
+				fr: "Puissance Boréale"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon."
 			},
 			damage: 100,
 

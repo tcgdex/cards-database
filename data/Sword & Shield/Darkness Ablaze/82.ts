@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Sinistea",
+		fr: "Théffroi"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Furtive Drop",
+				fr: "Chute Furtive"
 			},
 			effect: {
 				en: "Put 2 damage counters on your opponent’s Active Pokémon.",
+				fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire."
 			},
 
 		},
@@ -40,7 +43,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

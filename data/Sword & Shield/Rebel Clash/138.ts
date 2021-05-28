@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Duraludon",
+		fr: "Duralugon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Sharpener",
+				fr: "Affuteur de Métal"
 			},
 			effect: {
 				en: "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
+				fr: "Attachez une carte Énergie Metal de votre pile de défausse à l’un de vos Pokémon."
 			},
 			damage: 30,
 
@@ -33,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Power Beam",
+				fr: "Puissant Rayon"
 			},
 
 			damage: 110,
@@ -55,6 +59,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 130,
+	types: ["Metal"],
 	regulationMark: "D"
 }
 

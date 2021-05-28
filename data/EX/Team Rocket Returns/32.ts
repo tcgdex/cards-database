@@ -66,11 +66,11 @@ const card: Card = {
 	],
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

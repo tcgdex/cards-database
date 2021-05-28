@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Sentret",
+		fr: "Fouinette"
 	},
 
 	illustrator: "Mina Nakai",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
+				fr: "Appel à la Famille"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -33,7 +36,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

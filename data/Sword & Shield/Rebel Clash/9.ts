@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Ludicolo",
+		fr: "Ludicolo"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lombre",
+		fr: "Lombre"
 	},
 
 	attacks: [
@@ -23,9 +25,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spirited Rushdown",
+				fr: "Ruée Impétueuse"
 			},
 			effect: {
 				en: "This attack does 60 damage for each Prize card you have taken.",
+				fr: "Cette attaque inflige 60 dégâts pour chaque carte Récompense que vous avez récupérée."
 			},
 			damage: "60×",
 
@@ -38,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Drain",
+				fr: "Méga-Sangsue"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon."
 			},
 			damage: 120,
 
@@ -55,6 +61,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 160,
+	types: ["Grass"],
 	regulationMark: "D"
 }
 

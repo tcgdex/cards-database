@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Chatot",
+		fr: "Pijako"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -16,9 +17,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Lucky Match",
+				fr: "Accord Opportun"
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand onto your Bench during your turn, you may flip a coin. If heads, put a Supporter card from your discard pile into your hand.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez lancer une pièce. Si c’est face, ajoutez une carte Supporter de votre pile de défausse à votre main."
 			},
 		},
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Glide",
+				fr: "Glissement"
 			},
 
 			damage: 30,
@@ -47,12 +51,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
 
 	retreat: 1,
+	hp: 70,
+	types: ["Colorless"],
 	regulationMark: "D"
 }
 

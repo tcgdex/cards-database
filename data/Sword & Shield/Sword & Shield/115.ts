@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 220,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	suffix: "V",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Guard Press",
@@ -37,9 +37,9 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Mega Kick",

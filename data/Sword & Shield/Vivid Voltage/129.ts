@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Duraludon",
+		fr: "Duralugon"
 	},
 
 	illustrator: "kawayoo",
@@ -24,9 +25,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Raging Claws",
+				fr: "Griffes Enragées"
 			},
 			effect: {
 				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon."
 			},
 			damage: "20+",
 
@@ -39,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Power Blast",
+				fr: "Violente Déflagration"
 			},
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
+				fr: "Défaussez une Énergie de ce Pokémon."
 			},
 			damage: 120,
 

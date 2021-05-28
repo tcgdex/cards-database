@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Tapu Koko",
+		fr: "Tokorico"
 	},
 
 	illustrator: "Hasuno",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Allure",
+				fr: "Allure"
 			},
 			effect: {
 				en: "Draw 2 cards.",
+				fr: "Piochez 2 cartes."
 			},
 
 		},
@@ -37,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Electric Ball",
+				fr: "Boule de Foudre"
 			},
 
 			damage: 110,
@@ -46,7 +50,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

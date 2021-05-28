@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Hippopotas",
+		fr: "Hippopotas"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +14,7 @@ const card: Card = {
 	hp: 100,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -30,16 +32,18 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Double Stomp",
+				fr: "Double Écrasement"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
 			},
 			damage: "70+",
 

@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Victini",
+		fr: "Victini"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Draw",
+				fr: "Pioche Rapide"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 30,

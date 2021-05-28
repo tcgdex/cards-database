@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Skuntank",
+		fr: "Moufflair"
 	},
 
 	illustrator: "sowsow",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Stunky",
+		fr: "Moufouette"
 	},
 
 	attacks: [
@@ -23,6 +25,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 50,
@@ -36,9 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Ring",
+				fr: "Anneau de Poison"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned. During your opponent's next turn, the Defending Pokémon can’t retreat.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 			},
 			damage: 80,
 
@@ -47,12 +52,14 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 3,
+	hp: 120,
+	types: ["Darkness"],
 	regulationMark: "D"
 }
 

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Weedle",
+		fr: "Aspicot"
 	},
 
 	illustrator: "sui",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bug Hunch",
+				fr: "Insec’tuition"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Grass Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck jusqu’à 2 Pokémon Grass, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 			},
 
 		},

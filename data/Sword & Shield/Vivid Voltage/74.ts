@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Swoobat",
+		fr: "Rhinolove"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Woobat",
+		fr: "Chovsourir"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Unaware",
+				fr: "Inconscient"
 			},
 			effect: {
 				en: "Prevent all effects of attacks from your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)",
+				fr: "Évitez tous les effets d’attaques infligés à ce Pokémon par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)"
 			},
 		},
 	],
@@ -40,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Heart Stamp",
+				fr: "Crève-Cœur"
 			},
 
 			damage: 70,
@@ -56,7 +61,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Butterfree V",
+		fr: "Papilusion V"
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dizzying Poison",
+				fr: "Poison Étourdissant"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné."
 			},
 
 		},
@@ -37,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Blasting Wind",
+				fr: "Vent Impitoyable"
 			},
 
 			damage: 130,

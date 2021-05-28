@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Clobbopus",
+		fr: "Poulpaf"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,16 +14,17 @@ const card: Card = {
 	hp: 80,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Beat",
+				fr: "Bataille"
 			},
 
 			damage: 20,
@@ -30,11 +32,12 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncement"
 			},
 
 			damage: 40,

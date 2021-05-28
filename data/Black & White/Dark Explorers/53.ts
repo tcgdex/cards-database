@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 90,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "RESTORED",

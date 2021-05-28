@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Copperajah",
+		fr: "Pachyradjah"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cufant",
+		fr: "Charibari"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Antibacterial Skin",
+				fr: "Peau Stérilisante"
 			},
 			effect: {
 				en: "This Pokémon can’t be affected by any Special Conditions.",
+				fr: "Ce Pokémon ne peut être affecté par aucun État Spécial."
 			},
 		},
 	],
@@ -42,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Vengeful Stomp",
+				fr: "Écrasement Vengeur"
 			},
 			effect: {
 				en: "If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.",
+				fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 120 dégâts supplémentaires."
 			},
 			damage: "120+",
 

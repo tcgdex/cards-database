@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 150,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	evolveFrom: {
@@ -27,9 +27,9 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 			],
 			name: {
 				en: "Double Impact",

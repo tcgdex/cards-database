@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Simisear",
+		fr: "Flamoutan"
 	},
 
 	illustrator: "0313",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pansear",
+		fr: "Flamajou"
 	},
 
 	attacks: [
@@ -27,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Flamboiement"
 			},
 
 			damage: 30,
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Giga Impact",
+				fr: "Giga Impact"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t attack.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 			},
 			damage: 110,
 

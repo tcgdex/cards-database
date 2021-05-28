@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Skwovet",
+		fr: "Rongourmand"
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Whimsy Tackle",
+				fr: "Charge Bizarre"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
 			},
 			damage: 40,
 
@@ -34,7 +37,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

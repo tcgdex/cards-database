@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Honedge",
+		fr: "Monorpale"
 	},
 
 	illustrator: "Sekio",
@@ -19,6 +20,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slicing Blade",
+				fr: "Lame Tranchante"
 			},
 
 			damage: 30,
@@ -41,6 +43,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 60,
+	types: ["Metal"],
 	regulationMark: "D"
 }
 

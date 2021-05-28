@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Beedrill",
+		fr: "Dardargnan"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kakuna",
+		fr: "Coconfort"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Jab",
+				fr: "Direct Toxik"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 			},
 			damage: 80,
 

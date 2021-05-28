@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Nincada",
+		fr: "Ningale"
 	},
 
 	illustrator: "Sekio",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Absorb",
+				fr: "Vole-Vie"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
+				fr: "Soignez 10 dégâts de ce Pokémon."
 			},
 			damage: 10,
 

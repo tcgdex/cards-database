@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Fletchinder",
+		fr: "Braisillon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Fletchling",
+		fr: "Passerouge"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
+				fr: "Flammes Calcinantes"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			},
 			damage: 20,
 
@@ -45,7 +49,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

@@ -14,6 +14,7 @@ const card: Card = {
 
 	effect: {
 		en: "Flip a coin. If heads, switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+		fr: "Lancez une pièce. Si c’est face, échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif."
 	},
 
 	trainerType: "Item",

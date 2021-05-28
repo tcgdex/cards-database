@@ -17,7 +17,7 @@ const card: Card = {
 	hp: 240,
 	types: [
 		"Metal",
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Steelix-EX",

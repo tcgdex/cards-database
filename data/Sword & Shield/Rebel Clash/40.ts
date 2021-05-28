@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Gyarados",
+		fr: "Léviator"
 	},
 
 	illustrator: "hatachu",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	attacks: [
@@ -24,6 +26,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wrack Down",
+				fr: "Réduire en Poussière"
 			},
 
 			damage: 90,
@@ -39,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Big Storm",
+				fr: "Forte Tempête"
 			},
 			effect: {
 				en: "Discard any Stadium in play.",
+				fr: "Défaussez tout Stade en jeu."
 			},
 			damage: 200,
 
@@ -56,6 +61,8 @@ const card: Card = {
 	],
 
 	retreat: 4,
+	hp: 180,
+	types: ["Water"],
 	regulationMark: "D"
 }
 

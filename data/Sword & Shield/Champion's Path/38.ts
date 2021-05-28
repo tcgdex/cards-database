@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Absol",
+		fr: "Absol"
 	},
 
 	illustrator: "kodama",
@@ -24,6 +25,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Cutter",
+				fr: "Tranch’Obscur"
 			},
 
 			damage: 70,

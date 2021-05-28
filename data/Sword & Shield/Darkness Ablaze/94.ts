@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Hippowdon",
+		fr: "Hippodocus"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,38 +14,42 @@ const card: Card = {
 	hp: 150,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	evolveFrom: {
 		en: "Hippopotas",
+		fr: "Hippopotas"
 	},
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Triple Smash",
+				fr: "Triple Éclate"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 80 damage for each heads.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face."
 			},
 			damage: "80×",
 
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Land Crush",
+				fr: "Écras’Terre"
 			},
 
 			damage: 150,

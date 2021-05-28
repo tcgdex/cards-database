@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Staravia",
+		fr: "Étourvol"
 	},
 
 	illustrator: "chibi",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Starly",
+		fr: "Étourmi"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ambush",
+				fr: "Embuscade"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires."
 			},
 			damage: "20+",
 
@@ -41,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
+				fr: "Cru-Ailes"
 			},
 
 			damage: 40,
@@ -57,7 +62,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

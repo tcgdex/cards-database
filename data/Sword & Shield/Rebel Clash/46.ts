@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Seismitoad",
+		fr: "Crapustule"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Palpitoad",
+		fr: "Batracné"
 	},
 
 	attacks: [
@@ -22,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Spiral Punch",
+				fr: "Coup d’Poing en Demi Spirale"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
 			damage: 30,
 
@@ -38,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Resonance",
+				fr: "Résonance"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is Confused, this attack does 120 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 120 dégâts supplémentaires."
 			},
 			damage: "120+",
 
@@ -55,6 +61,8 @@ const card: Card = {
 	],
 
 	retreat: 3,
+	hp: 170,
+	types: ["Water"],
 	regulationMark: "D"
 }
 

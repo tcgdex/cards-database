@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Wigglytuff",
+		fr: "Grodoudou"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Pulse",
+				fr: "Pouls Dodo"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 			},
 			damage: 30,
 
@@ -42,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Smash",
+				fr: "Double Broiement"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 90 damage for each heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face."
 			},
 			damage: "90×",
 

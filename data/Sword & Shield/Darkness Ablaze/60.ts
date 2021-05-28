@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Vikavolt V",
+		fr: "Lucanon V"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -24,9 +25,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Paralyzing Bolt",
+				fr: "Éclair Paralysant"
 			},
 			effect: {
 				en: "During your opponent’s next turn, they can’t play any Item cards from their hand.",
+				fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main."
 			},
 			damage: 50,
 
@@ -39,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Zap Cannon",
+				fr: "Super Élecanon"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon."
 			},
 			damage: 190,
 
@@ -50,7 +55,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

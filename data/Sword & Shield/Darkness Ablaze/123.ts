@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Aggron",
+		fr: "Galeking"
 	},
 
 	illustrator: "Hasuno",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
+		fr: "Galegon"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Sturdy",
+				fr: "Fermeté"
 			},
 			effect: {
 				en: "If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10.",
+				fr: "Si ce Pokémon a tous ses PV et doit être mis K.O. par les dégâts d’une attaque, il n’est pas mis K.O. et il lui reste 10 PV."
 			},
 		},
 	],
@@ -42,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gigaton Stomp",
+				fr: "Écrasement Gigatonne"
 			},
 
 			damage: 160,

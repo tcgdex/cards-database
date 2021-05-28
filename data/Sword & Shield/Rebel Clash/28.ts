@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Arcanine",
+		fr: "Arcanin"
 	},
 
 	illustrator: "Hasuno",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	abilities: [
@@ -20,9 +22,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Warming Up",
+				fr: "Réchauffement"
 			},
 			effect: {
 				en: "If this Pokémon has a Burning Scarf attached, it gets +100 HP.",
+				fr: "Si un Bandana Brûlant est attaché à ce Pokémon, il reçoit +100 PV."
 			},
 		},
 	],
@@ -36,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Mane",
+				fr: "Crinière de Feu"
 			},
 
 			damage: 130,
@@ -51,6 +56,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 130,
+	types: ["Fire"],
 	regulationMark: "D"
 }
 

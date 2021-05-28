@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 90,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	evolveFrom: {
@@ -27,7 +27,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Mud Bomb",

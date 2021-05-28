@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Skiddo",
+		fr: "Cabriolaine"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Synthesis",
+				fr: "Synthèse"
 			},
 			effect: {
 				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck une carte Énergie Grass, puis attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -37,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch’Herbe"
 			},
 
 			damage: 50,

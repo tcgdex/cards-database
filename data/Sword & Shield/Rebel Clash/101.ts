@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Galarian Yamask",
+		fr: "Tutafeh de Galar"
 	},
 
 	illustrator: "Akira Komayama",
@@ -19,9 +20,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reckless Charge",
+				fr: "Attaque Imprudente"
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
+				fr: "Ce Pokémon s’inflige aussi 30 dégâts."
 			},
 			damage: 50,
 
@@ -36,6 +39,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 70,
+	types: ["Fighting"],
 	regulationMark: "D"
 }
 

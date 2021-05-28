@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Copperajah V",
+		fr: "Pachyradjah V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,9 +21,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Adamantine Press",
+				fr: "Charge Adamantine"
 			},
 			effect: {
 				en: "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
 			},
 			damage: 90,
 
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wrack Down",
+				fr: "Réduire en Poussière"
 			},
 
 			damage: 180,
@@ -58,6 +62,8 @@ const card: Card = {
 	],
 
 	retreat: 4,
+	hp: 220,
+	types: ["Metal"],
 	regulationMark: "D"
 }
 

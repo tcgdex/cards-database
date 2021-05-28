@@ -3,7 +3,8 @@ import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Moumouton>",
+		fr: "Moumouton",
+		en: "Wooloo"
 	},
 	illustrator: "Hitoshi Ariga",
 	rarity: "Common",
@@ -25,10 +26,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Boul'Armure",
+				fr: "Boul’Armure",
+				en: "Defense Curl"
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adrversaire.",
+				fr: "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
+				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent’s next turn."
 			},
 
 		},
@@ -38,7 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Coup d'Boule",
+				fr: "Coup d’Boule",
+				en: "Headbutt"
 			},
 
 			damage: 20,
@@ -47,7 +51,7 @@ const card: Card = {
 	],
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

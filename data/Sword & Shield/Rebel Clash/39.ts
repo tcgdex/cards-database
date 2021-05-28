@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	illustrator: "kanahei",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Leap Out",
+				fr: "Bondir"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc."
 			},
 
 		},
@@ -34,6 +37,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 30,
+	types: ["Water"],
 	regulationMark: "D"
 }
 

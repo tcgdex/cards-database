@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Dusknoir",
+		fr: "Noctunoir"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dusclops",
+		fr: "Téraclope"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Spectral Breach",
+				fr: "Brèche Spectrale"
 			},
 			effect: {
 				en: "All Special Energy attached to Pokémon (both yours and your opponent’s) provide Colorless Energy and have no other effect.",
+				fr: "Toutes les Énergies spéciales attachées aux Pokémon (les vôtres et ceux de votre adversaire) fournissent de l’Énergie Colorless et n’ont aucun autre effet."
 			},
 		},
 	],
@@ -41,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Spooky Shot",
+				fr: "Tir Effrayant"
 			},
 
 			damage: 120,
@@ -57,7 +62,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

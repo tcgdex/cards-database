@@ -19,7 +19,7 @@ type Mandatory<T extends {}> = {
 }
 
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
-'Fairy' | 'Fightning' | 'Fire' |
+'Fairy' | 'Fighting' | 'Fire' |
 'Grass' | 'Lightning' | 'Metal' |
 'Psychic' | 'Water'
 

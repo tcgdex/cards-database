@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Ronge"
 			},
 
 			damage: 10,
@@ -35,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
+				fr: "Queue Battoir"
 			},
 
 			damage: 20,
@@ -44,7 +47,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

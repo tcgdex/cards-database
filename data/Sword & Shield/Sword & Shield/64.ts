@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Benched Water Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Eau de votre main à l’un de vos Pokémon Eay de Banc.",
+				fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez attacher une carte Énergie Eau de votre main à l’un de vos Pokémon Eau de Banc.",
 			},
 		},
 	],

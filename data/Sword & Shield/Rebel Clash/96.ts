@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Nosepass",
+		fr: "Tarinor"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -31,6 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
+				fr: "Roulé-Boulé"
 			},
 
 			damage: 50,
@@ -46,6 +49,8 @@ const card: Card = {
 	],
 
 	retreat: 3,
+	hp: 80,
+	types: ["Fighting"],
 	regulationMark: "D"
 }
 

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Flareon",
+		fr: "Pyroli"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Incandescent Awakening",
+				fr: "Éveil Incandescent"
 			},
 			effect: {
 				en: "If this Pokémon has a Memory Capsule attached, Grass Pokémon in play (both yours and your opponent’s) have no Abilities.",
+				fr: "Si une carte Capsule Mémoire est attachée à ce Pokémon, les Pokémon Grass en jeu (les vôtres et ceux de votre adversaire) n’ont pas de talent."
 			},
 		},
 	],
@@ -41,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Mane",
+				fr: "Crinière de Feu"
 			},
 
 			damage: 100,

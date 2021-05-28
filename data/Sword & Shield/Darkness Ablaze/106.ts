@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Purrloin",
+		fr: "Chacripan"
 	},
 
 	illustrator: "sowsow",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig Claws",
+				fr: "Creusogriffes"
 			},
 
 			damage: 10,
@@ -35,9 +37,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fake Out",
+				fr: "Bluff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 			damage: 20,
 

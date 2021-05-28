@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Cinderace VMAX",
+		fr: "Pyrobut VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -14,6 +15,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cinderace V",
+		fr: "Pyrobut-V"
 	},
 
 	attacks: [
@@ -24,9 +26,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Counter",
+				fr: "Riposte"
 			},
 			effect: {
 				en: "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage.",
+				fr: "Si ce Pokémon a subi les dégâts d’une attaque pendant le dernier tour de votre adversaire, cette attaque inflige en plus ce montant-là de dégâts."
 			},
 			damage: "30+",
 
@@ -39,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Max Pyro Ball",
+				fr: "Ballon Brûlomax"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			},
 			damage: 170,
 
@@ -56,6 +62,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	types: ["Fire"],
 	regulationMark: "D"
 }
 

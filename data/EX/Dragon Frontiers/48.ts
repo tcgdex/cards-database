@@ -15,7 +15,7 @@ const card: Card = {
 	],
 	hp: 40,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	stage: "Basic",
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

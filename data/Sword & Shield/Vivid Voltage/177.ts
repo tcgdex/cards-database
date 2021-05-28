@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Aegislash V",
+		fr: "Exagide V"
 	},
 
 	illustrator: "aky CG Works",
@@ -24,6 +25,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 50,
@@ -37,9 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sonic Edge",
+				fr: "Tranchant Sonique"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
+				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
 			},
 			damage: 130,
 

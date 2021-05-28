@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Bronzor",
+		fr: "Archéomire"
 	},
 
 	illustrator: "Midori Harada",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,
@@ -30,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Dive",
+				fr: "Plongée Rapide"
 			},
 
 			damage: 20,
@@ -52,6 +55,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 60,
+	types: ["Metal"],
 	regulationMark: "D"
 }
 

@@ -57,7 +57,7 @@ const card: Card = {
 			value: "×2"
 		},
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

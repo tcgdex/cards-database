@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Diglett",
+		fr: "Taupiqueur"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,16 +14,17 @@ const card: Card = {
 	hp: 50,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 20,

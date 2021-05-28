@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Meltan",
+		fr: "Meltan"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d’Boule"
 			},
 
 			damage: 10,
@@ -35,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beam",
+				fr: "Rayon"
 			},
 
 			damage: 20,

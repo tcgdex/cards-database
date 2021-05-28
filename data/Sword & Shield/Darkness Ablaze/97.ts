@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Passimian",
+		fr: "Quartermac"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +14,7 @@ const card: Card = {
 	hp: 110,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
@@ -23,23 +24,27 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
+				fr: "Appel à la Famille"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+				fr: "Cherchez dans votre deck jusqu’à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck."
 			},
 
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],
 			name: {
 				en: "Rock Hurl",
+				fr: "Lance-Pierre"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 70,
 

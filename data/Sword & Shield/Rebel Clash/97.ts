@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Meditite",
+		fr: "Méditikka"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Yoga Shock",
+				fr: "Yoga Choc"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -35,6 +38,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 70,
+	types: ["Fighting"],
 	regulationMark: "D"
 }
 

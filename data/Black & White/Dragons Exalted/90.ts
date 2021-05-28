@@ -28,7 +28,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Mach Cut",
@@ -44,7 +44,7 @@ const card: Card = {
 		{
 			cost: [
 				"Water",
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Dragonblade",

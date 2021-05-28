@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Palpitoad",
+		fr: "Batracné"
 	},
 
 	illustrator: "MAHOU",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tympole",
+		fr: "Tritonde"
 	},
 
 	attacks: [
@@ -23,9 +25,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Twirling Sign",
+				fr: "Signe Virevoltant"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
 			damage: 30,
 
@@ -40,6 +44,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 90,
+	types: ["Water"],
 	regulationMark: "D"
 }
 

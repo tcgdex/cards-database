@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Vaporeon",
+		fr: "Aquali"
 	},
 
 	illustrator: "kodama",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Torrential Awakening",
+				fr: "Éveil Torrentiel"
 			},
 			effect: {
 				en: "If this Pokémon has a Memory Capsule attached, Fire Pokémon in play (both yours and your opponent’s) have no Abilities.",
+				fr: "Si une carte Capsule Mémoire est attachée à ce Pokémon, les Pokémon Fire en jeu (les vôtres et ceux de votre adversaire) n’ont pas de talent."
 			},
 		},
 	],
@@ -40,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
+				fr: "Onde Boréale"
 			},
 
 			damage: 70,

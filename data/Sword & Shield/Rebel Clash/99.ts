@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Barboach",
+		fr: "Barloche"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -14,10 +15,11 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Razor Fin",
+				fr: "Aileron-Rasoir"
 			},
 
 			damage: 10,
@@ -33,6 +35,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 70,
+	types: ["Fighting"],
 	regulationMark: "D"
 }
 

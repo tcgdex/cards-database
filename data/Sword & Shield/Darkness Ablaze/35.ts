@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Galarian Mr. Mime",
+		fr: "M. Mime de Galar"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reflect",
+				fr: "Protection"
 			},
 			effect: {
 				en: "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
 			},
 
 		},
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Icy Snow",
+				fr: "Verglas"
 			},
 
 			damage: 30,

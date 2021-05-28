@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Metapod",
+		fr: "Chrysacier"
 	},
 
 	illustrator: "Asako Ito",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Caterpie",
+		fr: "Chenipan"
 	},
 
 	abilities: [
@@ -20,9 +22,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Adaptive Evolution",
+				fr: "Évolution Adaptative"
 			},
 			effect: {
 				en: "This Pokémon can evolve during your first turn or the turn you play it.",
+				fr: "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez."
 			},
 		},
 	],
@@ -35,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 20,
@@ -50,6 +55,8 @@ const card: Card = {
 	],
 
 	retreat: 3,
+	hp: 80,
+	types: ["Grass"],
 	regulationMark: "D"
 }
 

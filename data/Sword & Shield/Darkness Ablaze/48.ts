@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Cubchoo",
+		fr: "Polarhume"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Chop",
+				fr: "Coup Tranchant"
 			},
 
 			damage: 10,
@@ -35,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Icicle",
+				fr: "Concrétion Glacée"
 			},
 
 			damage: 30,

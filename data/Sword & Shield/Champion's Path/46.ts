@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Nickit",
+		fr: "Goupilou"
 	},
 
 	illustrator: "Naoki Saito",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Filch",
+				fr: "Maraudage"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Smack",
+				fr: "Coup de Queue"
 			},
 
 			damage: 30,

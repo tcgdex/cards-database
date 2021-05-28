@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Coalossal",
+		fr: "Monthracite"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Carkol",
+		fr: "Wagomine"
 	},
 
 	abilities: [
@@ -20,9 +22,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Tar Generator",
+				fr: "Générateur de Poix"
 			},
 			effect: {
 				en: "Once during your turn, you may attach a Fire Energy card, a Fighting Energy card, or 1 of each from your discard pile to your Pokémon in any way you like.",
+				fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Fire, une carte Énergie Fighting, ou une de chaque de votre pile de défausse à vos Pokémon comme il vous plaît."
 			},
 		},
 	],
@@ -30,13 +34,14 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 				"Colorless",
 			],
 			name: {
 				en: "Flaming Avalanche",
+				fr: "Avalanche Ardente"
 			},
 
 			damage: 130,
@@ -52,6 +57,8 @@ const card: Card = {
 	],
 
 	retreat: 4,
+	hp: 160,
+	types: ["Fighting"],
 	regulationMark: "D"
 }
 

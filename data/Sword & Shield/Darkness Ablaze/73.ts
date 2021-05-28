@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Gothita",
+		fr: "Scrutella"
 	},
 
 	illustrator: "Mizue",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fortunate Eye",
+				fr: "Regard Chanceux"
 			},
 			effect: {
 				en: "Look at the top 5 cards of your opponent’s deck and put them back in any order.",
+				fr: "Regardez les 5 cartes du dessus du deck de votre adversaire, puis replacez-les dans l’ordre de votre choix."
 			},
 
 		},
@@ -36,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gentle Slap",
+				fr: "Gifle Douce"
 			},
 
 			damage: 30,
@@ -52,7 +56,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

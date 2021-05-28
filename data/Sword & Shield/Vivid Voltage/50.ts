@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Raikou",
+		fr: "Raikou"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -25,9 +26,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Amazing Shot",
+				fr: "Coup Magnifique"
 			},
 			effect: {
 				en: "This attack also does 120 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige aussi 120 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 120,
 
@@ -36,7 +39,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

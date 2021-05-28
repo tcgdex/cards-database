@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Wingull",
+		fr: "Goélise"
 	},
 
 	illustrator: "0313",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collecte"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -31,6 +34,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
+				fr: "Grosse Vague"
 			},
 
 			damage: 20,
@@ -47,12 +51,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
 
 	retreat: 1,
+	hp: 70,
+	types: ["Water"],
 	regulationMark: "D"
 }
 

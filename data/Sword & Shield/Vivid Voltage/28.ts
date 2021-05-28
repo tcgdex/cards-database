@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Magcargo",
+		fr: "Volcaropod"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slugma",
+		fr: "Limagma"
 	},
 
 	attacks: [
@@ -29,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Blast",
+				fr: "Explosion de Chaleur"
 			},
 
 			damage: 60,
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bright Flame",
+				fr: "Flamme Éclatante"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon."
 			},
 			damage: 180,
 

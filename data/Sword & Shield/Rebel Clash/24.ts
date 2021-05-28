@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Vulpix",
+		fr: "Goupix"
 	},
 
 	illustrator: "sui",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde Folie"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
 
 		},
@@ -31,6 +34,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
+				fr: "Coud’Pattes"
 			},
 
 			damage: 20,
@@ -46,6 +50,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 60,
+	types: ["Fire"],
 	regulationMark: "D"
 }
 

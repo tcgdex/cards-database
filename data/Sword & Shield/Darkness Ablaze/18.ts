@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Golisopod",
+		fr: "Sarmuraï"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wimpod",
+		fr: "Sovkipou"
 	},
 
 	attacks: [
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hard Times Slash",
+				fr: "Taillade en Panique"
 			},
 			effect: {
 				en: "This attack does 50 more damage for each of your opponent’s Pokémon V and Pokémon-GX in play.",
+				fr: "Cette attaque inflige 50 dégâts supplémentaires pour chacun des Pokémon-V et Pokémon-GX en jeu de votre adversaire."
 			},
 			damage: "30+",
 
@@ -43,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Turn",
+				fr: "Tour Fracassant"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc."
 			},
 			damage: 70,
 

@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Doublade",
+		fr: "Dimoclès"
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Honedge",
+		fr: "Monorpale"
 	},
 
 	attacks: [
@@ -23,6 +25,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 30,
@@ -36,9 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Slash",
+				fr: "Double Lame"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage for each heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face."
 			},
 			damage: "80×",
 
@@ -60,6 +65,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 90,
+	types: ["Metal"],
 	regulationMark: "D"
 }
 

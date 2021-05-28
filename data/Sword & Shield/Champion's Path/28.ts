@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Zygarde",
+		fr: "Zygarde"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +14,7 @@ const card: Card = {
 	hp: 140,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 30,
@@ -30,16 +32,18 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],
 			name: {
 				en: "Power Blast",
+				fr: "Violente Déflagration"
 			},
 			effect: {
 				en: "Discard a Fighting Energy from this Pokémon.",
+				fr: "Défaussez une Énergie Fighting de ce Pokémon."
 			},
 			damage: 130,
 

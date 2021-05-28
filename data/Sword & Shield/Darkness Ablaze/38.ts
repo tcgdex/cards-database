@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Feebas",
+		fr: "Barpau"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
+				fr: "Tit’Sieste"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
+				fr: "Soignez 20 dégâts de ce Pokémon."
 			},
 
 		},

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Exeggutor",
+		fr: "Noadkoko"
 	},
 
 	illustrator: "miki kudo",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
+		fr: "Noeunoeuf"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Head Crack",
+				fr: "Fracture Crânienne"
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Active Pokémon’s attacks. During your opponent’s next turn, that Pokémon can’t use that attack.",
+				fr: "Choisissez l’une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque."
 			},
 			damage: 30,
 
@@ -42,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Solar Beam",
+				fr: "Lance-Soleil"
 			},
 
 			damage: 90,

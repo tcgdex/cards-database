@@ -14,6 +14,7 @@ const card: Card = {
 
 	effect: {
 		en: "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.",
+		fr: "Lancez une pièce. Si c’est face, défaussez une Énergie de l’un des Pokémon de votre adversaire."
 	},
 
 	trainerType: "Item",

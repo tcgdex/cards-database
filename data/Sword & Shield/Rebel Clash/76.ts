@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Natu",
+		fr: "Natu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Me First",
+				fr: "Moi d’Abord"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -35,12 +38,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
 
 	retreat: 1,
+	hp: 60,
+	types: ["Psychic"],
 	regulationMark: "D"
 }
 

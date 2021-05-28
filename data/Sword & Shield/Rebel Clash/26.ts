@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Ninetales V",
+		fr: "Feunard V"
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -20,9 +21,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nine-Tailed Shapeshifter",
+				fr: "Polymorphe Multicaudal"
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.",
+				fr: "Choisissez l’une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque."
 			},
 
 		},
@@ -35,9 +38,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-Flammes"
 			},
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
+				fr: "Défaussez une Énergie de ce Pokémon."
 			},
 			damage: 180,
 
@@ -52,6 +57,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 200,
+	types: ["Fire"],
 	regulationMark: "D"
 }
 

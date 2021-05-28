@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Barraskewda",
+		fr: "Hastacuda"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Arrokuda",
+		fr: "Embrochet"
 	},
 
 	attacks: [
@@ -22,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 30,
@@ -33,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiral Jet",
+				fr: "Jet en Spirale"
 			},
 			effect: {
 				en: "Discard 2 Water Energy cards from your hand. If you don't, this attack does nothing.",
+				fr: "Défaussez 2 cartes Énergie Water de votre main. Sinon, cette attaque ne fait rien."
 			},
 			damage: 130,
 
@@ -50,6 +55,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 120,
+	types: ["Water"],
 	regulationMark: "D"
 }
 

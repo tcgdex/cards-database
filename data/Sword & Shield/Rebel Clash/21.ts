@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Applin",
+		fr: "Verpom"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Withdraw",
+				fr: "Repli"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+				fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques."
 			},
 
 		},
@@ -34,6 +37,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 40,
+	types: ["Grass"],
 	regulationMark: "D"
 }
 

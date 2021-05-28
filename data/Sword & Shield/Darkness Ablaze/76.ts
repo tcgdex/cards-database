@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Golett",
+		fr: "Gringolem"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -24,6 +25,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
+				fr: "Roulade"
 			},
 
 			damage: 30,
@@ -37,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncement"
 			},
 
 			damage: 50,
@@ -53,7 +56,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

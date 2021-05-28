@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Litwick",
+		fr: "Funécire"
 	},
 
 	illustrator: "Sekio",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Scorch",
+				fr: "Brûler"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			},
 
 		},
@@ -34,6 +37,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 60,
+	types: ["Fire"],
 	regulationMark: "D"
 }
 

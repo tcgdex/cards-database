@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Solrock",
+		fr: "Solaroc"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +14,7 @@ const card: Card = {
 	hp: 90,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	abilities: [
@@ -21,9 +22,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Resistance Shade",
+				fr: "Résistance Ombragée"
 			},
 			effect: {
 				en: "If you have Lunatone in play, your opponent’s Pokémon in play have no Resistance.",
+				fr: "Si vous avez Séléroc en jeu, les Pokémon en jeu de votre adversaire n’ont pas de Résistance."
 			},
 		},
 	],
@@ -31,11 +34,12 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Rock Throw",
+				fr: "Jet-Pierres"
 			},
 
 			damage: 30,

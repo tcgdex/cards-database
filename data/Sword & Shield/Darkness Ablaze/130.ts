@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Melmetal",
+		fr: "Melmetal"
 	},
 
 	illustrator: "NC Empire",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meltan",
+		fr: "Meltan"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Link",
+				fr: "Chaîne d’Énergie"
 			},
 			effect: {
 				en: "Attach an Energy card from your discard pile to this Pokémon.",
+				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon."
 			},
 			damage: 30,
 
@@ -43,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Impact",
+				fr: "Gros Impact"
 			},
 
 			damage: 130,

@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Wimpod",
+		fr: "Sovkipou"
 	},
 
 	illustrator: "MAHOU",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw and Run",
+				fr: "Ronger et Courir"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc."
 			},
 			damage: 10,
 

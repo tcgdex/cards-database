@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Milcery",
+		fr: "Crèmy"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sweet Scent",
+				fr: "Doux Parfum"
 			},
 			effect: {
 				en: "Heal 20 damage from 1 of your Pokémon.",
+				fr: "Soignez 20 dégâts de l’un de vos Pokémon."
 			},
 
 		},
@@ -35,6 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,

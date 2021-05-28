@@ -16,7 +16,7 @@ const card: Card = {
 	],
 	hp: 130,
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 	evolveFrom: {
 		en: "Nidorino",
@@ -57,7 +57,7 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 				"Colorless",

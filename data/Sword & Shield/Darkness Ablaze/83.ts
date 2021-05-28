@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Polteageist",
+		fr: "Polthégeist"
 	},
 
 	illustrator: "kirisAki",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sinistea",
+		fr: "Théffroi"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Tea Break",
+				fr: "Heure du Thé"
 			},
 			effect: {
 				en: "You must discard a Pokémon that has the Mad Party attack from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.",
+				fr: "Vous devez défausser un Pokémon qui a l’attaque Folle Aventure de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher 2 cartes."
 			},
 		},
 	],
@@ -40,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mad Party",
+				fr: "Folle Aventure"
 			},
 			effect: {
 				en: "This attack does 20 damage for each Pokémon in your discard pile that has the Mad Party attack.",
+				fr: "Cette attaque inflige 20 dégâts pour chaque Pokémon dans votre pile de défausse qui a l’attaque Folle Aventure."
 			},
 			damage: "20×",
 
@@ -58,7 +64,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

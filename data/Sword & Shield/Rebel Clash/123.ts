@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Impidimp",
+		fr: "Grimalin"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
+				fr: "Bataille"
 			},
 
 			damage: 10,
@@ -30,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
+				fr: "Ruée"
 			},
 
 			damage: 20,
@@ -45,6 +48,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 70,
+	types: ["Darkness"],
 	regulationMark: "D"
 }
 

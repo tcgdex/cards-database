@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Appletun",
+		fr: "Dratatin"
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Applin",
+		fr: "Verpom"
 	},
 
 	abilities: [
@@ -20,9 +22,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Delicious Aroma",
+				fr: "Arôme Délicieux"
 			},
 			effect: {
 				en: "Once during your turn, you may flip a coin. If heads, switch 1 of your opponent’s Benched Basic Pokémon with their Active Pokémon.",
+				fr: "Une fois pendant votre tour, vous pouvez lancer une pièce. Si c’est face, échangez l’un des Pokémon de Banc de base de votre adversaire contre son Pokémon Actif."
 			},
 		},
 	],
@@ -35,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Solar Beam",
+				fr: "Lance-Soleil"
 			},
 
 			damage: 70,
@@ -50,6 +55,8 @@ const card: Card = {
 	],
 
 	retreat: 3,
+	hp: 90,
+	types: ["Grass"],
 	regulationMark: "D"
 }
 

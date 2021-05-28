@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Whimsicott",
+		fr: "Farfaduvet"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cottonee",
+		fr: "Doudouvet"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Triple Draw",
+				fr: "Triple Pioche"
 			},
 			effect: {
 				en: "Draw 3 cards.",
+				fr: "Piochez 3 cartes."
 			},
 
 		},
@@ -39,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flying Fury",
+				fr: "Furie Volante"
 			},
 			effect: {
 				en: "Before doing damage, you may discard any number of Pokémon Tools from your Pokémon. This attack does 40 more damage for each card you discarded in this way.",
+				fr: "Avant d’infliger des dégâts, vous pouvez défausser autant de cartes Outil Pokémon que vous le voulez de vos Pokémon. Cette attaque inflige 40 dégâts supplémentaires pour chaque carte défaussée de cette façon."
 			},
 			damage: "10+",
 

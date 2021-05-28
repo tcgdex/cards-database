@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Diggersby",
+		fr: "Excavarenne"
 	},
 
 	illustrator: "0313",
@@ -13,22 +14,24 @@ const card: Card = {
 	hp: 130,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	evolveFrom: {
 		en: "Bunnelby",
+		fr: "Sapereau"
 	},
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncement"
 			},
 
 			damage: 90,
@@ -36,13 +39,14 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 				"Colorless",
 			],
 			name: {
 				en: "Land Crush",
+				fr: "Écras’Terre"
 			},
 
 			damage: 140,

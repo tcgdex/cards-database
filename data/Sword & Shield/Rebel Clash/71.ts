@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Toxtricity VMAX",
+		fr: "Salarsen VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -14,6 +15,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Toxtricity V",
+		fr: "Salarsen-V"
 	},
 
 	attacks: [
@@ -25,9 +27,11 @@ const card: Card = {
 			],
 			name: {
 				en: "G-Max Riot",
+				fr: "Émeute G-Max"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is Poisoned, this attack does 80 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 80 dégâts supplémentaires."
 			},
 			damage: "160+",
 
@@ -36,12 +40,13 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 2,
+	types: ["Lightning"],
 	regulationMark: "D"
 }
 

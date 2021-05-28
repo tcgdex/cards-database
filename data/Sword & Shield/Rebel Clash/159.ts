@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Full Heal",
+		fr: "Total Soin"
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,8 +14,10 @@ const card: Card = {
 
 	effect: {
 		en: "Your Active Pokémon recovers from all Special Conditions.",
+		fr: "Votre Pokémon Actif guérit de tous les États Spéciaux."
 	},
 
+	trainerType: "Item",
 	regulationMark: "D"
 }
 

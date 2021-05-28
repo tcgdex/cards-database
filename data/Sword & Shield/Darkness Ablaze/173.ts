@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Yell Horn",
+		fr: "Clairon de la Team Yell"
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,8 +14,10 @@ const card: Card = {
 
 	effect: {
 		en: "Both Active Pokémon are now Confused.",
+		fr: "Les deux Pokémon Actifs sont maintenant Confus."
 	},
 
+	trainerType: "Item",
 	regulationMark: "D"
 }
 

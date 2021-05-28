@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Delcatty",
+		fr: "Delcatty"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skitty",
+		fr: "Skitty"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Captivating Tail",
+				fr: "Queue Envoûtante"
 			},
 			effect: {
 				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Confused.",
+				fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Confus."
 			},
 
 		},
@@ -41,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Impact",
+				fr: "Impact Lunaire"
 			},
 
 			damage: 90,
@@ -50,7 +55,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

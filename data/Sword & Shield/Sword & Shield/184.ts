@@ -14,6 +14,7 @@ const card: Card = {
 
 	effect: {
 		en: "Put an Energy attached to 1 of your opponent’s Pokémon into their hand.",
+		fr: "Ajoutez à la main de votre adversaire une Énergie attachée à l’un de ses Pokémon."
 	},
 
 	trainerType: "Supporter",

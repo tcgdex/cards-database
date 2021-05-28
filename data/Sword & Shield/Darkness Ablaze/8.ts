@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Karrablast",
+		fr: "Carabing"
 	},
 
 	illustrator: "Mizue",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Continuous Headbutt",
+				fr: "Coup d’Boule Sans Fin"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+				fr: "Lancez une pièce jusqu’à obtenir un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face."
 			},
 			damage: "20×",
 

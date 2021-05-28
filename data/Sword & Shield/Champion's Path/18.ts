@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Hatenna",
+		fr: "Bibichut"
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
+				fr: "Ruée"
 			},
 
 			damage: 10,
@@ -35,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magical Shot",
+				fr: "Coup Magique"
 			},
 
 			damage: 30,
@@ -51,7 +54,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

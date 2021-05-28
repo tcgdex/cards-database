@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Lucario",
+		fr: "Lucario"
 	},
 
 	illustrator: "kodama",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Riolu",
+		fr: "Riolu"
 	},
 
 	attacks: [
@@ -27,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spike Draw",
+				fr: "Pique-Pioche"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 			damage: 40,
 
@@ -42,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Impact",
+				fr: "Coup d’Articulations"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t attack.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 			},
 			damage: 160,
 

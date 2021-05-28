@@ -14,6 +14,7 @@ const card: Card = {
 
 	effect: {
 		en: "Search your deck for an Evolution Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+		fr: "Cherchez dans votre deck un Pokémon Évolutif, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
 	},
 
 	trainerType: "Item",

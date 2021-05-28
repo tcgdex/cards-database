@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Trapinch",
+		fr: "Kraknoix"
 	},
 
 	illustrator: "Asako Ito",
@@ -13,19 +14,21 @@ const card: Card = {
 	hp: 60,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 			],
 			name: {
 				en: "Land’s Pulse",
+				fr: "Vibration Terrestre"
 			},
 			effect: {
 				en: "If a Stadium is in play, this attack does 10 more damage.",
+				fr: "Si un Stade est en jeu, cette attaque inflige 10 dégâts supplémentaires."
 			},
 			damage: "10+",
 

@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Krookodile",
+		fr: "Crocorible"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Krokorok",
+		fr: "Escroco"
 	},
 
 	attacks: [
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dredge Up",
+				fr: "Extraction"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your opponent’s deck.",
+				fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire."
 			},
 
 		},
@@ -43,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tantrum",
+				fr: "Mauvaise Humeur"
 			},
 			effect: {
 				en: "This Pokémon is now Confused.",
+				fr: "Ce Pokémon est maintenant Confus."
 			},
 			damage: 180,
 

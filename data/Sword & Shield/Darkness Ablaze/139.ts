@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Ursaring",
+		fr: "Ursaring"
 	},
 
 	illustrator: "Uta",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Teddiursa",
+		fr: "Teddiursa"
 	},
 
 	attacks: [
@@ -29,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer Arm",
+				fr: "Marto-Poing"
 			},
 			effect: {
 				en: "Discard the top card of your opponent’s deck.",
+				fr: "Défaussez la carte du dessus du deck de votre adversaire."
 			},
 			damage: 70,
 
@@ -45,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
+				fr: "Tranch’Griffe"
 			},
 
 			damage: 120,
@@ -54,7 +59,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

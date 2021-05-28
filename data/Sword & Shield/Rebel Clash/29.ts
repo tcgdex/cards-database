@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Magmar",
+		fr: "Magmar"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
+				fr: "Koud’Poing"
 			},
 
 			damage: 10,
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Breath",
+				fr: "Souffle Ardent"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: "20+",
 
@@ -47,6 +51,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 90,
+	types: ["Fire"],
 	regulationMark: "D"
 }
 

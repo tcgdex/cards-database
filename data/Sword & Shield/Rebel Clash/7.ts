@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Lotad",
+		fr: "Nénupiot"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mini Drain",
+				fr: "Mini-Assèchement"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
+				fr: "Soignez 10 dégâts de ce Pokémon."
 			},
 			damage: 10,
 
@@ -32,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 20,
@@ -47,6 +51,8 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	hp: 60,
+	types: ["Grass"],
 	regulationMark: "D"
 }
 

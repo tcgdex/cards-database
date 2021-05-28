@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Zapdos",
+		fr: "Électhor"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Drill Peck",
+				fr: "Bec Vrille"
 			},
 
 			damage: 20,
@@ -36,9 +38,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Snipe",
+				fr: "Tir Éclair"
 			},
 			effect: {
 				en: "Discard all Energy from this Pokémon, and this attack does 160 damage to 1 of your opponent’s Pokémon V or Pokémon-GX. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Défaussez toute l’Énergie de ce Pokémon. Cette attaque inflige 160 dégâts à l’un des Pokémon-V ou Pokémon-GX de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -53,7 +57,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

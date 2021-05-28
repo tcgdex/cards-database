@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Liepard",
+		fr: "Léopardus"
 	},
 
 	illustrator: "Hasuno",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Purrloin",
+		fr: "Chacripan"
 	},
 
 	abilities: [
@@ -25,9 +27,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Limber",
+				fr: "Échauffement"
 			},
 			effect: {
 				en: "This Pokémon can’t be Paralyzed.",
+				fr: "Ce Pokémon ne peut pas être Paralysé."
 			},
 		},
 	],
@@ -41,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Claw",
+				fr: "Griffe Taillante"
 			},
 
 			damage: 90,

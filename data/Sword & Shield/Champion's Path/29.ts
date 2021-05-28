@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Rockruff",
+		fr: "Rocabot"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +14,7 @@ const card: Card = {
 	hp: 70,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
@@ -23,19 +24,22 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collecte"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
 		{
 			cost: [
-				"Fightning",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,

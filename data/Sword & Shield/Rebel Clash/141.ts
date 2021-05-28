@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Snorlax",
+		fr: "Ronflex"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -18,9 +19,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collecte"
 			},
 			effect: {
 				en: "Draw 2 cards.",
+				fr: "Piochez 2 cartes."
 			},
 
 		},
@@ -32,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collapse",
+				fr: "Effondrement"
 			},
 			effect: {
 				en: "This Pokémon is now Asleep.",
+				fr: "Ce Pokémon est maintenant Endormi."
 			},
 			damage: 120,
 
@@ -43,12 +48,14 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 4,
+	hp: 150,
+	types: ["Colorless"],
 	regulationMark: "D"
 }
 

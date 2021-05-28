@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Mareep",
+		fr: "Wattouat"
 	},
 
 	illustrator: "sowsow",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Static Shock",
+				fr: "Choc Statique"
 			},
 
 			damage: 20,
@@ -32,7 +34,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

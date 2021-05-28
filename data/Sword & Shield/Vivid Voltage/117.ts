@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Metang",
+		fr: "Métang"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Beldum",
+		fr: "Terhal"
 	},
 
 	attacks: [
@@ -28,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
+				fr: "Griffe Acier"
 			},
 
 			damage: 30,
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnetic Blast",
+				fr: "Explosion Magnétique"
 			},
 
 			damage: 60,

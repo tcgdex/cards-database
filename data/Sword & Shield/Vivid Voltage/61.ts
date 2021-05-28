@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Zeraora",
+		fr: "Zeraora"
 	},
 
 	illustrator: "so-taro",
@@ -24,9 +25,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fighting Lightning",
+				fr: "Foudre Hostile"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 80 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V ou un Pokémon-GX, cette attaque inflige 80 dégâts supplémentaires."
 			},
 			damage: "30+",
 
@@ -35,7 +38,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

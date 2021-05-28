@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Electabuzz",
+		fr: "Élektek"
 	},
 
 	illustrator: "Midori Harada",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
+				fr: "Coud’Phalange"
 			},
 
 			damage: 10,
@@ -31,6 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Electroslug",
+				fr: "Électro Frappe"
 			},
 
 			damage: 70,
@@ -40,12 +43,14 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
 
 	retreat: 2,
+	hp: 90,
+	types: ["Lightning"],
 	regulationMark: "D"
 }
 

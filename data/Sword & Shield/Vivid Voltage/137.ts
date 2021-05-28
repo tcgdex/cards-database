@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Exploud",
+		fr: "Brouhabam"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Loudred",
+		fr: "Ramboum"
 	},
 
 	attacks: [
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Round",
+				fr: "Chant Canon"
 			},
 			effect: {
 				en: "This attack does 50 damage for each of your Pokémon in play that has the Round attack.",
+				fr: "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon en jeu ayant l’attaque Chant Canon."
 			},
 			damage: "50×",
 
@@ -43,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Voice",
+				fr: "Mégaphone"
 			},
 
 			damage: 120,
@@ -52,7 +57,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

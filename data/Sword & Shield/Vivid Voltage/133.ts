@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Taillow",
+		fr: "Nirondelle"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,9 +25,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Peck",
+				fr: "Double Picpic"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage for each heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face."
 			},
 			damage: "20×",
 
@@ -42,7 +45,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

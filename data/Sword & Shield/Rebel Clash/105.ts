@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Rolycoly",
+		fr: "Charbi"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,
@@ -33,6 +35,8 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	hp: 70,
+	types: ["Fighting"],
 	regulationMark: "D"
 }
 

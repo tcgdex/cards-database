@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Galarian Darumaka",
+		fr: "Darumarond de Galar"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -35,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d’Boule"
 			},
 
 			damage: 20,

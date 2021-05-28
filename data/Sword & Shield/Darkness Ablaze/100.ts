@@ -4,6 +4,7 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Grimer",
+		fr: "Tadmorv"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -23,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stomp Off",
+				fr: "Tohu-Bohu"
 			},
 			effect: {
 				en: "Discard the top card of your opponent’s deck.",
+				fr: "Défaussez la carte du dessus du deck de votre adversaire."
 			},
 
 		},
@@ -37,6 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sludge Whirlpool",
+				fr: "Tourbillon de Boue"
 			},
 
 			damage: 50,
@@ -46,7 +50,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "×2"
 		},
 	],

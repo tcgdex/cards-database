@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Hattrem",
+		fr: "Chapotus"
 	},
 
 	illustrator: "kirisAki",
@@ -13,6 +14,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hatenna",
+		fr: "Bibichut"
 	},
 
 	attacks: [
@@ -22,9 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Calm Mind",
+				fr: "Plénitude"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon."
 			},
 
 		},
@@ -35,9 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Brutal Swing",
+				fr: "Centrifugifle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: "30+",
 
@@ -53,12 +59,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
 
 	retreat: 1,
+	hp: 80,
+	types: ["Psychic"],
 	regulationMark: "D"
 }
 

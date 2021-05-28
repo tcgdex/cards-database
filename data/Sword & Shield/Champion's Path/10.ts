@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Centiskorch",
+		fr: "Scolocendre"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sizzlipede",
+		fr: "Grillepattes"
 	},
 
 	attacks: [
@@ -29,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
+				fr: "Flammes Calcinantes"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			},
 			damage: 50,
 
@@ -45,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Crawler",
+				fr: "Mille-Pattes Brûlant"
 			},
 
 			damage: 140,

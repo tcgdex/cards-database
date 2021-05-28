@@ -4,6 +4,7 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Hattrem",
+		fr: "Chapotus"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hatenna",
+		fr: "Bibichut"
 	},
 
 	attacks: [
@@ -27,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
+				fr: "Bataille"
 			},
 
 			damage: 20,
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Psy Bolt",
+				fr: "Super Psy"
 			},
 
 			damage: 40,
@@ -55,7 +59,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],

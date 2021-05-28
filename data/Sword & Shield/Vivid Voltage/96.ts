@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Mudbray",
+		fr: "Tiboudet"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +14,7 @@ const card: Card = {
 	hp: 80,
 
 	types: [
-		"Fightning",
+		"Fighting",
 	],
 
 	attacks: [
@@ -23,6 +24,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,
@@ -30,12 +32,13 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fightning",
-				"Fightning",
+				"Fighting",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
 				en: "Rear Kick",
+				fr: "Ruade"
 			},
 
 			damage: 60,

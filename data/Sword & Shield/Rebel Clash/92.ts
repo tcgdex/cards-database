@@ -4,6 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Dragapult V",
+		fr: "Lanssorien V"
 	},
 
 	illustrator: "aky CG Works",
@@ -18,6 +19,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 30,
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Jet Assault",
+				fr: "Assaut Propulsé"
 			},
 			effect: {
 				en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage.",
+				fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 80 dégâts supplémentaires."
 			},
 			damage: "60+",
 
@@ -48,12 +52,14 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
 
 	retreat: 1,
+	hp: 210,
+	types: ["Psychic"],
 	regulationMark: "D"
 }
 

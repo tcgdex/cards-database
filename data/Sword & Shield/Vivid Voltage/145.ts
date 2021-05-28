@@ -4,6 +4,7 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Toucannon",
+		fr: "Bazoucan"
 	},
 
 	illustrator: "Sekio",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Trumbeak",
+		fr: "Piclairon"
 	},
 
 	attacks: [
@@ -28,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Cutoff",
+				fr: "Coupure d’Énergie"
 			},
 			effect: {
 				en: "Discard an Energy from your opponent’s Active Pokémon.",
+				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire."
 			},
 			damage: 60,
 
@@ -43,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Loop Cannon",
+				fr: "Canon Cyclique"
 			},
 			effect: {
 				en: "Put 2 Energy attached to this Pokémon into your hand.",
+				fr: "Ajoutez à votre main 2 Énergies attachées à ce Pokémon."
 			},
 			damage: 160,
 
@@ -61,7 +67,7 @@ const card: Card = {
 
 	resistances: [
 		{
-			type: "Fightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
