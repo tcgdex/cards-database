@@ -1,5 +1,5 @@
 import { Set } from '../../interfaces'
-import serie from '../Pop'
+import serie from '../POP'
 
 const pop9: Set = {
 	id: "pop9",
