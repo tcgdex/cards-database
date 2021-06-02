@@ -1,19 +1,18 @@
 import { Set } from '../../interfaces'
-import serie from '../Pop'
+import serie from '../POP'
 
-const np: Set = {
-	id: "np",
+const pop4: Set = {
+	id: "pop4",
 
 	name: {
-		en: "Nintendo Black Star Promos",
+		en: "POP Series 4",
 	},
 
 	serie: serie,
-	tcgOnline: "PR-NP",
 
 	cardCount: {
-		total: 40,
-		official: 40
+		total: 17,
+		official: 17
 	},
 
 	legal: {
@@ -21,7 +20,7 @@ const np: Set = {
 		standard: false
 	},
 
-	releaseDate: "2003-10-01",
+	releaseDate: "2006-08-01",
 
 	variants: {
 		normal: true,
@@ -31,4 +30,4 @@ const np: Set = {
 	}
 }
 
-export default np
+export default pop4

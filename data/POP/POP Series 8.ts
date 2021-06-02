@@ -1,11 +1,11 @@
 import { Set } from '../../interfaces'
-import serie from '../Pop'
+import serie from '../POP'
 
-const pop4: Set = {
-	id: "pop4",
+const pop8: Set = {
+	id: "pop8",
 
 	name: {
-		en: "POP Series 4",
+		en: "POP Series 8",
 	},
 
 	serie: serie,
@@ -20,7 +20,7 @@ const pop4: Set = {
 		standard: false
 	},
 
-	releaseDate: "2006-08-01",
+	releaseDate: "2008-09-01",
 
 	variants: {
 		normal: true,
@@ -30,4 +30,4 @@ const pop4: Set = {
 	}
 }
 
-export default pop4
+export default pop8
