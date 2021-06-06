@@ -6,6 +6,7 @@ const swsh35: Set = {
 
 	name: {
 		en: "Champion's Path",
+		fr: 'La Voie du Maître'
 	},
 
 	serie: serie,
