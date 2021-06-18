@@ -7,15 +7,15 @@ const card: Card = {
 		fr: "Cimetière Ancien"
 	},
 
-	illustrator: "Aswaldo KATO",
+	illustrator: "Oswaldo KATO",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
 	trainerType: 'Stadium',
 
 	effect: {
-		en: 'Whenever any player attachez an Energy card fro mtheir hand to 1 of their non-Psychic Pokémon, put 2 damage counters on that Pokémon.',
-		fr: 'Chaque fois qu\'un joueur attache une carte Énergie de sa main à l\'un de ses Pokeḿon non Psy, placez 2 marqueurs des dégâts sur ce Pokémon-là.',
+		en: "Whenever any player attaches an Energy card from their hand to 1 of their non-Psychic Pokémon, put 2 damage counters on that Pokémon.",
+		fr: "Chaque fois qu’un joueur attache une carte Énergie de sa main à l’un de ses Pokémon non Psychic, placez 2 marqueurs de dégâts sur ce Pokémon-là."
 	},
 
 	regulationMark: "E"

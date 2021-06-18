@@ -28,8 +28,8 @@ const card: Card = {
 			fr: "Instinct de Combat"
 		},
 		effect: {
-			en: "This Pokémon attack cost Colorless less for each of your opponent's Active Pokémon V in play.",
-			fr: "Les attaques de ce Pokémon coûtent Incolore de moins pour chaque Pokémon-V en jeu de votre adversaire."
+			en: "This Pokémon’s attacks cost Colorless less for each of your opponent’s Pokémon V in play.",
+			fr: "Les attaques de ce Pokémon coûtent Colorless de moins pour chaque Pokémon-V en jeu de votre adversaire."
 		}
 	}],
 
@@ -46,8 +46,8 @@ const card: Card = {
 				fr: "Coup Fulgurant"
 			},
 			effect: {
-				en: "Before doing damage, discard a Special Energy from your opponent's Active Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				en: "Before doing damage, discard a Special Energy from your opponent’s Active Pokémon.",
+				fr: "Avant d’infliger des dégâts, défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
 			},
 			damage: 170
 		}

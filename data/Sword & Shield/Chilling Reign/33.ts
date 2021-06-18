@@ -32,8 +32,8 @@ const card: Card = {
 			fr: 'Météorologie'
 		},
 		effect: {
-			en: 'If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this pokémon\'s attack costs.',
-			fr: 'Si vous avez 8 cartes STade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.',
+			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon’s attack costs.",
+			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
 		}
 	}],
 
@@ -48,8 +48,8 @@ const card: Card = {
 				fr: "Ondée"
 			},
 			effect: {
-				en: "This attack does 20 damage to each of your opponent\'s Pokémon. (Don\'t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N\'appliquez ni la faiblesse ni la Résistance aux Pokémon du Banc.)"
+				en: "This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			}
 		}
 	],

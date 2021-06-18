@@ -19,7 +19,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: 'Ice Rider Calyrex-V',
+		en: "Ice Rider Calyrex V",
 		fr: 'Sylveroy Cavalier du Froid-V'
 	},
 
@@ -36,8 +36,8 @@ const card: Card = {
 				fr: "Chevauchée Impériale"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each of your opponent\'s Benched Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de banc de votre adversaire.",
+				en: "This attack does 30 more damage for each of your opponent’s Benched Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
 			},
 			damage: '10+'
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard up to 2 Energy from this Pokémon. If you do, this attack does 120 more damage for each card you discarded in this way.",
-				fr: "Vous pouvez défausser jusq\'à 2 Énergies de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+				fr: "Vous pouvez défausser jusqu’à 2 Énergies de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
 			},
 			damage: '10+'
 		}

@@ -33,8 +33,8 @@ const card: Card = {
 				fr: "Poings Croisés"
 			},
 			effect: {
-				en: "If 1 of your other Rapid Strike Pokémon used an attack during your lat turn, this attack also does 160 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si l'un de vos autres Pokémon Mlle Poings a utilisé une attaque pendant votre dernier tour, cette attque infligue aussie 160 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				en: "If 1 of your other Rapid Strike Pokémon used an attack during your last turn, this attack also does 160 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Si l’un de vos autres Pokémon Mille Poings a utilisé une attaque pendant votre dernier tour, cette attaque inflige aussi 160 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 100
 		}

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Morphéo Forme Solaire"
 	},
 
-	illustrator: "Yuko Morii",
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
@@ -32,8 +32,8 @@ const card: Card = {
 			fr: 'Météorologie'
 		},
 		effect: {
-			en: 'If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this pokémon\'s attack costs.',
-			fr: 'Si vous avez 8 cartes STade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.',
+			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon’s attack costs.",
+			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
 		}
 	}],
 
@@ -49,8 +49,8 @@ const card: Card = {
 				fr: "Explosion Sous Pression"
 			},
 			effect: {
-				en: "Discard a Stadium in play. If you can\'t, this attack does nothing",
-				fr: "Défuassez un Stade en jeu. Si vous ne le pouvez pas, cette attaque ne fait rien."
+				en: "Discard a Stadium in play. If you can’t, this attack does nothing.",
+				fr: "Défaussez un Stade en jeu. Si vous ne le pouvez pas, cette attaque ne fait rien."
 			},
 			damage: 150
 		}

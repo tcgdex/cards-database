@@ -24,12 +24,12 @@ const card: Card = {
 	abilities: [{
 		type: 'Ability',
 		name: {
-			en: 'Reconstitue',
+			en: "Reconstitute",
 			fr: 'Reconstitution'
 		},
 		effect: {
-			en: 'You must discard 2 cards from your hand in order to use this Ability, Once during your turn, you may draw a card.',
-			fr: 'Vous devez défausser 2 cartes de votre min pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher une carte.',
+			en: "You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may draw a card.",
+			fr: "Vous devez défausser 2 cartes de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher une carte.",
 		}
 	}],
 
@@ -45,7 +45,7 @@ const card: Card = {
 				fr: "Rayon Psy"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 110

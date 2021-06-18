@@ -32,8 +32,8 @@ const card: Card = {
 			fr: 'Météorologie'
 		},
 		effect: {
-			en: 'If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this pokémon\'s attack costs.',
-			fr: 'Si vous avez 8 cartes STade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.',
+			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon’s attack costs.",
+			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
 		}
 	}],
 
@@ -50,7 +50,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez des cartes jusq'à en avoir 6 en main.",
+				fr: "Piochez des cartes jusqu’à en avoir 6 en main.",
 			},
 			damage: 80
 		}

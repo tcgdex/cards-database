@@ -3,7 +3,7 @@ import Set from '../Chilling Reign'
 
 const card: Card = {
 	name: {
-		en: "Castform Swnowy Form",
+		en: "Castform Snowy Form",
 		fr: "Morphéo Forme Blizzard"
 	},
 
@@ -32,8 +32,8 @@ const card: Card = {
 			fr: 'Météorologie'
 		},
 		effect: {
-			en: 'If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this pokémon\'s attack costs.',
-			fr: 'Si vous avez 8 cartes STade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.',
+			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon’s attack costs.",
+			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
 		}
 	}],
 
@@ -49,8 +49,8 @@ const card: Card = {
 				fr: "Typhon Givré"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can\'t use Frosty Typhoon.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Typhon Givré"
+				en: "During your next turn, this Pokémon can’t use Frosty Typhoon.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Typhon Givré."
 			},
 			damage: 120
 		}
