@@ -217,7 +217,7 @@ export interface Card {
 	'Tool' | // https://www.tcgdex.net/database/neo/neo1/93
 	'Ace Spec' | // https://www.tcgdex.net/database/bw/bw7/139
 	'Technical Machine' | // https://www.tcgdex.net/database/ecard/ecard1/144
-	'Goldenred Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
+	'Goldenrod Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
 	'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
 
 	// Energy Only
