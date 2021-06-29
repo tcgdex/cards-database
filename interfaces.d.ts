@@ -1,4 +1,4 @@
-export type SupportedLanguages = 'en' | 'fr'
+export type SupportedLanguages = 'en' | 'fr' | 'es' | 'it' | 'pt' | 'de'
 
 export type Languages<T = string> = Partial<Record<SupportedLanguages, T>>
 
