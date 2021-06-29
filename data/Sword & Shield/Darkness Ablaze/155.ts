@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Corvisquire",
-		fr: "Bleuseille"
+		fr: "Bleuseille",
+		es: "Corvisquire",
+		it: "Corvisquire",
+		pt: "Corvisquire",
+		de: "Kranoviz"
 	},
 
 	illustrator: "kirisAki",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Pikser"
 			},
 
 			damage: 30,
@@ -43,11 +51,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
-				fr: "Furie"
+				fr: "Furie",
+				es: "Ataque Furia",
+				it: "Furia",
+				pt: "Ataque de Fúria",
+				de: "Furienschlag"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 40 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts pour chaque côté face."
+				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+				es: "Lanza 3 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+				it: "Lancia tre volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+				pt: "Jogue 3 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+				de: "Wirf 3 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 			},
 			damage: "40×",
 

@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Palpitoad",
-		fr: "Batracné"
+		fr: "Batracné",
+		es: "Palpitoad",
+		it: "Palpitoad",
+		pt: "Palpitoad",
+		de: "Mebrana"
 	},
 
 	illustrator: "MAHOU",
@@ -25,11 +29,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Twirling Sign",
-				fr: "Signe Virevoltant"
+				fr: "Signe Virevoltant",
+				es: "Señal Pirueta",
+				it: "Segnale Roteante",
+				pt: "Sinal Espiral",
+				de: "Kreiselndes Schild"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 

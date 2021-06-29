@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
+		es: "Rhyhorn",
+		it: "Rhyhorn",
+		pt: "Rhyhorn",
+		de: "Rihorn"
 	},
 
 	illustrator: "Sekio",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud’Korne",
+				es: "Cornada",
+				it: "Incornata",
+				pt: "Ataque de Chifre",
+				de: "Hornattacke"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 30,

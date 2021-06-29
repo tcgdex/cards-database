@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Flambino",
-		en: "Scorbunny"
+		en: "Scorbunny",
+		es: "Scorbunny",
+		it: "Scorbunny",
+		pt: "Scorbunny",
+		de: "Hopplo"
 	},
 
 	illustrator: "MAHOU",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Flammèche",
-			en: "Ember"
+			en: "Ember",
+			es: "Ascuas",
+			it: "Braciere",
+			pt: "Brasa",
+			de: "Glut"
 		},
 
 		effect: {
 			fr: "Défaussez une Énergie de ce Pokémon.",
-			en: "Discard an Energy from this Pokémon."
+			en: "Discard an Energy from this Pokémon.",
+			es: "Descarta 1 Energía de este Pokémon.",
+			it: "Scarta un’Energia da questo Pokémon.",
+			pt: "Descarte 1 Energia deste Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 30,

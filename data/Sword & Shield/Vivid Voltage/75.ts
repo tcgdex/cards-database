@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Cottonee",
-		fr: "Doudouvet"
+		fr: "Doudouvet",
+		es: "Cottonee",
+		it: "Cottonee",
+		pt: "Cottonee",
+		de: "Waumboll"
 	},
 
 	illustrator: "Mizue",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
-				fr: "Roulé-Boulé"
+				fr: "Roulé-Boulé",
+				es: "Placaje Giro",
+				it: "Rollazione",
+				pt: "Golpe de Colisão Rolante",
+				de: "Rolltackle"
 			},
 
 			damage: 10,

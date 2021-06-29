@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Grillepattes",
-		en: "Sizzlipede"
+		en: "Sizzlipede",
+		es: "Sizzlipede",
+		it: "Sizzlipede",
+		pt: "Sizzlipede",
+		de: "Thermopod"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Morsure",
-			en: "Bite"
+			en: "Bite",
+			es: "Mordisco",
+			it: "Morso",
+			pt: "Mordida",
+			de: "Biss"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Fournaise",
-			en: "Combustion"
+			en: "Combustion",
+			es: "Combustión",
+			it: "Fuoco Continuo",
+			pt: "Combustão",
+			de: "Glühen"
 		},
 
 		damage: 50,

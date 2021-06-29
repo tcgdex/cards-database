@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Kraknoix",
-		en: "Trapinch"
+		en: "Trapinch",
+		es: "Trapinch",
+		it: "Trapinch",
+		pt: "Trapinch",
+		de: "Knacklion"
 	},
 
 	illustrator: "MAHOU",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Vibration Terrestre",
-			en: "Land’s Pulse"
+			en: "Land’s Pulse",
+			es: "Pulso Telúrico",
+			it: "Pulsazione Tellurica",
+			pt: "Pulso da Terra",
+			de: "Bodenpuls"
 		},
 
 		effect: {
 			fr: "Si un Stade est en jeu, cette attaque inflige 10 dégâts supplémentaires.",
-			en: "If a Stadium is in play, this attack does 10 more damage."
+			en: "If a Stadium is in play, this attack does 10 more damage.",
+			es: "Si hay un Estadio en juego, este ataque hace 10 puntos de daño más.",
+			it: "Se c’è in gioco una carta Stadio, questo attacco infligge 10 danni in più.",
+			pt: "Se um Estádio estiver em jogo, este ataque causará 10 pontos de dano a mais.",
+			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+",

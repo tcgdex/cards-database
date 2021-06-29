@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Natu",
-		fr: "Natu"
+		fr: "Natu",
+		es: "Natu",
+		it: "Natu",
+		pt: "Natu",
+		de: "Natu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Me First",
-				fr: "Moi d’Abord"
+				fr: "Moi d’Abord",
+				es: "Yo Primero",
+				it: "Precedenza",
+				pt: "Primeiro Eu",
+				de: "Egotrip"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},

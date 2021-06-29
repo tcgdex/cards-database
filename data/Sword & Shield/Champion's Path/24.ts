@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		es: "Machop",
+		it: "Machop",
+		pt: "Machop",
+		de: "Machollo"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
-				fr: "Balayage"
+				fr: "Balayage",
+				es: "Patada Baja",
+				it: "Colpo Basso",
+				pt: "Rasteira",
+				de: "Fußkick"
 			},
 
 			damage: 10,
@@ -37,11 +45,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Steady Punch",
-				fr: "Poing Énergétique"
+				fr: "Poing Énergétique",
+				es: "Puño Firme",
+				it: "Pugnosecco",
+				pt: "Soco Firme",
+				de: "Ruhiger Schlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires.",
+				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
+				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
+				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 

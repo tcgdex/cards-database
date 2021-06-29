@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Rolycoly",
-		fr: "Charbi"
+		fr: "Charbi",
+		es: "Rolycoly",
+		it: "Rolycoly",
+		pt: "Rolycoly",
+		de: "Klonkett"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,

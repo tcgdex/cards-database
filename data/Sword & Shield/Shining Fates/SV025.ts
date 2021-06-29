@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Larméléon",
-		en: "Sobble"
+		en: "Sobble",
+		es: "Sobble",
+		it: "Sobble",
+		pt: "Sobble",
+		de: "Memmeon"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Pistolet à O",
-			en: "Water Gun"
+			en: "Water Gun",
+			es: "Pistola Agua",
+			it: "Pistolacqua",
+			pt: "Revólver d’Água",
+			de: "Aquaknarre"
 		},
 
 		damage: 20,

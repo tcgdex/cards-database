@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Milcery",
-		fr: "Crèmy"
+		fr: "Crèmy",
+		es: "Milcery",
+		it: "Milcery",
+		pt: "Milcery",
+		de: "Hokumil"
 	},
 
 	illustrator: "Mina Nakai",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Aromatherapy",
-				fr: "Aromathérapie"
+				fr: "Aromathérapie",
+				es: "Aromaterapia",
+				it: "Aromaterapia",
+				pt: "Aromaterapia",
+				de: "Aromakur"
 			},
 			effect: {
 				en: "Heal 10 damage from each of your Pokémon.",
-				fr: "Soignez 10 dégâts de chacun de vos Pokémon."
+				fr: "Soignez 10 dégâts de chacun de vos Pokémon.",
+				es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+				it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
+				pt: "Cure 10 pontos de dano de cada um dos seus Pokémon.",
+				de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
 			},
 
 		},
@@ -34,7 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 20,

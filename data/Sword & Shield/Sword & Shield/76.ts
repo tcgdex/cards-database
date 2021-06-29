@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Boltund",
 		fr: "Fulgudog",
+		es: "Boltund",
+		it: "Boltund",
+		pt: "Boltund",
+		de: "Bellektro"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 50,
@@ -47,10 +55,18 @@ const card: Card = {
 			name: {
 				en: "Electrodash",
 				fr: "Sprint Électrique",
+				es: "Carrera Eléctrica",
+				it: "Elettrocorsa",
+				pt: "Eletroimpulso",
+				de: "Elektrospurt"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can't attack.",
+				en: "During your next turn, this Pokémon can’t attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 160,
 
@@ -64,7 +80,8 @@ const card: Card = {
 		},
 	],
 
-	regulationMark: "D"
+	regulationMark: "D",
+	retreat: 0
 }
 
 export default card

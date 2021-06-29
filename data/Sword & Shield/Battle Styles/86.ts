@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Single Strike Urshifu VMAX",
-		fr: "Shifours Poing Final VMAX"
+		fr: "Shifours Poing Final VMAX",
+		es: "Urshifu Golpe Brusco VMAX",
+		it: "Urshifu Singolcolpo VMAX",
+		pt: "Urshifu Golpe Decisivo VMAX",
+		de: "Fokussierter-Angriff-Wulaosu VMAX"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Beatdown",
-			fr: "Dérouillée"
+			fr: "Dérouillée",
+			es: "Derrumbar",
+			it: "Batosta",
+			pt: "Abater",
+			de: "Niederprügler"
 		},
 
 		damage: 100,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "G-Max One Blow",
-			fr: "Coup Final G-Max"
+			fr: "Coup Final G-Max",
+			es: "Gigagolpe Brusco",
+			it: "Gigacolpo Unico",
+			pt: "Golpe Único G-Max",
+			de: "Giga-Einzelschlag"
 		},
 
 		effect: {
 			en: "Discard all Energy from this Pokémon. This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
-			fr: "Défaussez toute l’Énergie de ce Pokémon. Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+			fr: "Défaussez toute l’Énergie de ce Pokémon. Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			es: "Descarta todas las Energías de este Pokémon. El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			it: "Scarta tutte le Energie da questo Pokémon. I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+			pt: "Descarte todas as Energias deste Pokémon. O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		},
 
 		damage: 270,

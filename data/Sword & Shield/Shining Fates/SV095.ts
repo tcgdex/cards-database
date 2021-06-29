@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Couaneton",
-		en: "Ducklett"
+		en: "Ducklett",
+		es: "Ducklett",
+		it: "Ducklett",
+		pt: "Ducklett",
+		de: "Piccolente"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Battement",
-			en: "Flap"
+			en: "Flap",
+			es: "Aleteo",
+			it: "Alabattito",
+			pt: "Asa",
+			de: "Flattern"
 		},
 
 		damage: 20,

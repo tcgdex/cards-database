@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Paras",
-		fr: "Paras"
+		fr: "Paras",
+		es: "Paras",
+		it: "Paras",
+		pt: "Paras",
+		de: "Paras"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 20,

@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Probopass",
-		fr: "Tarinorme"
+		fr: "Tarinorme",
+		es: "Probopass",
+		it: "Probopass",
+		pt: "Probopass",
+		de: "Voluminas"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Gravitational Drop",
-				fr: "Chute Gravitationnelle"
+				fr: "Chute Gravitationnelle",
+				es: "Caída Gravitacional",
+				it: "Caduta Gravitazionale",
+				pt: "Queda Gravitacional",
+				de: "Gravitationsfall"
 			},
 			effect: {
 				en: "This attack does 30 more damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				es: "Este ataque hace 30 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+				it: "Questo attacco infligge 30 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+				pt: "Este ataque causa 30 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
+				de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -41,7 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Impact",
-				fr: "Gros Impact"
+				fr: "Gros Impact",
+				es: "Impacto Pesado",
+				it: "Impatto Pesante",
+				pt: "Impacto Pesado",
+				de: "Schwerer Einschlag"
 			},
 
 			damage: 120,

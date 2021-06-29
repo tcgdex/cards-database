@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Rolycoly",
-		fr: "Charbi"
+		fr: "Charbi",
+		es: "Rolycoly",
+		it: "Rolycoly",
+		pt: "Rolycoly",
+		de: "Klonkett"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,

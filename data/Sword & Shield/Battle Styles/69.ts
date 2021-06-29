@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Cubone",
-		fr: "Osselait"
+		fr: "Osselait",
+		es: "Cubone",
+		it: "Cubone",
+		pt: "Cubone",
+		de: "Tragosso"
 	},
 
 	illustrator: "You Iribi",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Beat",
-			fr: "Bataille"
+			fr: "Bataille",
+			es: "Toque",
+			it: "Battuta",
+			pt: "Pulso",
+			de: "Verprügler"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Headbutt",
-			fr: "Coup d’Boule"
+			fr: "Coup d’Boule",
+			es: "Golpe Cabeza",
+			it: "Bottintesta",
+			pt: "Cabeçada",
+			de: "Kopfnuss"
 		},
 
 		damage: 30,

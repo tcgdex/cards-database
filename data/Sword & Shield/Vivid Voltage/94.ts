@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Rockruff",
-		fr: "Rocabot"
+		fr: "Rocabot",
+		es: "Rockruff",
+		it: "Rockruff",
+		pt: "Rockruff",
+		de: "Wuffels"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rear Kick",
-				fr: "Ruade"
+				fr: "Ruade",
+				es: "Patada Trasera",
+				it: "Retrocalcio",
+				pt: "Chute Traseiro",
+				de: "Rückwärtskick"
 			},
 
 			damage: 20,

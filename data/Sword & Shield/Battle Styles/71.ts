@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Gligar",
-		fr: "Scorplane"
+		fr: "Scorplane",
+		es: "Gligar",
+		it: "Gligar",
+		pt: "Gligar",
+		de: "Skorgla"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Slash",
-			fr: "Tranche"
+			fr: "Tranche",
+			es: "Cuchillada",
+			it: "Lacerazione",
+			pt: "Talho",
+			de: "Schlitzer"
 		},
 
 		damage: 30,

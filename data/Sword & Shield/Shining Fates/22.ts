@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Mustébouée",
-		en: "Buizel"
+		en: "Buizel",
+		es: "Buizel",
+		it: "Buizel",
+		pt: "Buizel",
+		de: "Bamelin"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Pluie Éclaboussante",
-			en: "Rain Splash"
+			en: "Rain Splash",
+			es: "Golpe de Lluvia",
+			it: "Spruzzapioggia",
+			pt: "Chuva Borrifante",
+			de: "Regenplatscher"
 		},
 
 		damage: 20,

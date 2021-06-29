@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Raichu",
 		fr: "Raichu",
+		es: "Raichu",
+		it: "Raichu",
+		pt: "Raichu",
+		de: "Raichu"
 	},
 
 	illustrator: "Hasuno",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Pain-Full Punch",
 				fr: "Mise au Poing",
+				es: "Puño Doloroso",
+				it: "Dolorpugno",
+				pt: "Soco Doloroso",
+				de: "Schmerzhafter Hieb"
 			},
 
 			damage: 40,
@@ -46,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Mach Bolt",
 				fr: "Éclair Fulgurant",
+				es: "Rayo Mach",
+				it: "Fulmine Mach",
+				pt: "Raio Supersônico",
+				de: "Flotter Sprung"
 			},
 
 			damage: 120,

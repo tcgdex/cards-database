@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Simisear",
-		fr: "Flamoutan"
+		fr: "Flamoutan",
+		es: "Simisear",
+		it: "Simisear",
+		pt: "Simisear",
+		de: "Grillchita"
 	},
 
 	illustrator: "0313",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Flamboiement"
+				fr: "Flamboiement",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Chama",
+				de: "Flackern"
 			},
 
 			damage: 30,
@@ -43,11 +51,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Giga Impact",
-				fr: "Giga Impact"
+				fr: "Giga Impact",
+				es: "Gigaimpacto",
+				it: "Gigaimpatto",
+				pt: "Gigaimpacto",
+				de: "Gigastoß"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t attack.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 110,
 

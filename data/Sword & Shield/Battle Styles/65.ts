@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Orbeetle",
-		fr: "Astronelle"
+		fr: "Astronelle",
+		es: "Orbeetle",
+		it: "Orbeetle",
+		pt: "Orbeetle",
+		de: "Maritellit"
 	},
 
 	illustrator: "Mizue",
@@ -23,19 +27,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Evomancy",
-			fr: "Évomancie"
+			fr: "Évomancie",
+			es: "Evomancia",
+			it: "Evomanzia",
+			pt: "Evomância",
+			de: "Evomagie"
 		},
 
 		effect: {
 			en: "For each Energy attached to this Pokémon, search your deck for a Stage 2 Pokémon, except Orbeetle, and put it onto your Bench. Then, shuffle your deck.",
-			fr: "Pour chaque Énergie attachée à ce Pokémon, cherchez dans votre deck un Pokémon de Niveau 2, à l’exception d’Astronelle, puis placez-le sur votre Banc. Mélangez ensuite votre deck."
+			fr: "Pour chaque Énergie attachée à ce Pokémon, cherchez dans votre deck un Pokémon de Niveau 2, à l’exception d’Astronelle, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			es: "Por cada Energía unida a este Pokémon, busca en tu baraja 1 Pokémon de Fase 2, excepto Orbeetle, y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			it: "Per ogni Energia assegnata a questo Pokémon, cerca nel tuo mazzo un Pokémon di Fase 2, a eccezione di Orbeetle, e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			pt: "Para cada Energia ligada a este Pokémon, procure por 1 Pokémon Estágio 2 no seu baralho, exceto por Orbeetle, e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche für jede an dieses Pokémon angelegte Energie dein Deck nach 1 Phase-2-Pokémon, außer Maritellit, und lege es auf deine Bank. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Zen Headbutt",
-			fr: "Psykoud’Boul"
+			fr: "Psykoud’Boul",
+			es: "Cabezazo Zen",
+			it: "Cozzata Zen",
+			pt: "Cabeçada Zen",
+			de: "Zen-Kopfstoß"
 		},
 
 		damage: 120,

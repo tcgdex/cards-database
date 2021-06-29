@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Wagomine",
-		en: "Carkol"
+		en: "Carkol",
+		es: "Carkol",
+		it: "Carkol",
+		pt: "Carkol",
+		de: "Wagong"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Collision",
-			en: "Ram"
+			en: "Ram",
+			es: "Apisonar",
+			it: "Carica",
+			pt: "Aríete",
+			de: "Ramme"
 		},
 
 		damage: 30,
@@ -31,7 +39,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Tacle Feu",
-			en: "Heat Crash"
+			en: "Heat Crash",
+			es: "Golpe Calor",
+			it: "Marchiafuoco",
+			pt: "Choque de Calor",
+			de: "Brandstempel"
 		},
 
 		damage: 60,

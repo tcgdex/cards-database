@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Hippowdon",
-		fr: "Hippodocus"
+		fr: "Hippodocus",
+		es: "Hippowdon",
+		it: "Hippowdon",
+		pt: "Hippowdon",
+		de: "Hippoterus"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -31,11 +35,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Triple Smash",
-				fr: "Triple Éclate"
+				fr: "Triple Éclate",
+				es: "Golpe Triple",
+				it: "Tripla Schiacciata",
+				pt: "Pancada Tripla",
+				de: "Dreifachschmetterer"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 80 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face."
+				fr: "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+				es: "Lanza 3 monedas. Este ataque hace 80 puntos de daño por cada cara.",
+				it: "Lancia tre volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
+				pt: "Jogue 3 moedas. Este ataque causa 80 pontos de dano para cada cara.",
+				de: "Wirf 3 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 			},
 			damage: "80×",
 
@@ -49,7 +61,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Crush",
-				fr: "Écras’Terre"
+				fr: "Écras’Terre",
+				es: "Aterrizaje",
+				it: "Schiacciaterra",
+				pt: "Aperto de Terra",
+				de: "Schollenbrecher"
 			},
 
 			damage: 150,

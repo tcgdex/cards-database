@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		es: "Machoke",
+		it: "Machoke",
+		pt: "Machoke",
+		de: "Maschock"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
-				fr: "Balayage"
+				fr: "Balayage",
+				es: "Patada Baja",
+				it: "Colpo Basso",
+				pt: "Rasteira",
+				de: "Fußkick"
 			},
 
 			damage: 30,
@@ -43,11 +51,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Pummel",
-				fr: "Martelage"
+				fr: "Martelage",
+				es: "Aporrear",
+				it: "Legnata",
+				pt: "Esmurrar",
+				de: "Trommler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 70 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 70 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 70 dégâts supplémentaires.",
+				es: "Lanza 1 moneda. Si sale cara, este ataque hace 70 puntos de daño más.",
+				it: "Lancia una moneta. Se esce testa, questo attacco infligge 70 danni in più.",
+				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 70 pontos de dano a mais.",
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 

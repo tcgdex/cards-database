@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Arrokuda",
-		fr: "Embrochet"
+		fr: "Embrochet",
+		es: "Arrokuda",
+		it: "Arrokuda",
+		pt: "Arrokuda",
+		de: "Pikuda"
 	},
 
 	illustrator: "Mina Nakai",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rain Splash",
-				fr: "Pluie Éclaboussante"
+				fr: "Pluie Éclaboussante",
+				es: "Golpe de Lluvia",
+				it: "Spruzzapioggia",
+				pt: "Chuva Borrifante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,

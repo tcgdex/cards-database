@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Cherubi",
-		fr: "Ceribou"
+		fr: "Ceribou",
+		es: "Cherubi",
+		it: "Cherubi",
+		pt: "Cherubi",
+		de: "Kikugi"
 	},
 
 	illustrator: "Akira Komayama",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Leafage",
-			fr: "Feuillage"
+			fr: "Feuillage",
+			es: "Follaje",
+			it: "Fogliame",
+			pt: "Folhagem",
+			de: "Blattwerk"
 		},
 
 		damage: 10,

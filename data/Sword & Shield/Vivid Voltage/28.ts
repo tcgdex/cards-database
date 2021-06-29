@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Magcargo",
-		fr: "Volcaropod"
+		fr: "Volcaropod",
+		es: "Magcargo",
+		it: "Magcargo",
+		pt: "Magcargo",
+		de: "Magcargo"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,7 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Blast",
-				fr: "Explosion de Chaleur"
+				fr: "Explosion de Chaleur",
+				es: "Explosión de Calor",
+				it: "Caldobomba",
+				pt: "Raio de Calor",
+				de: "Hitzestoß"
 			},
 
 			damage: 60,
@@ -46,11 +54,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Bright Flame",
-				fr: "Flamme Éclatante"
+				fr: "Flamme Éclatante",
+				es: "Llama Viva",
+				it: "Splendifiamma",
+				pt: "Chama Reluzente",
+				de: "Helle Flamme"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon."
+				fr: "Défaussez 2 Énergies de ce Pokémon.",
+				es: "Descarta 2 Energías de este Pokémon.",
+				it: "Scarta due Energie da questo Pokémon.",
+				pt: "Descarte 2 Energias deste Pokémon.",
+				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 180,
 

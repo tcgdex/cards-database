@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Electrike",
-		fr: "Dynavolt"
+		fr: "Dynavolt",
+		es: "Electrike",
+		it: "Electrike",
+		pt: "Electrike",
+		de: "Frizelbliz"
 	},
 
 	illustrator: "Yumi",
@@ -25,11 +29,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
-				fr: "Tonnerre"
+				fr: "Tonnerre",
+				es: "Rayo",
+				it: "Fulmine",
+				pt: "Relâmpago",
+				de: "Donnerblitz"
 			},
 			effect: {
 				en: "Discard all Energy from this Pokémon.",
-				fr: "Défaussez toute l’Énergie de ce Pokémon."
+				fr: "Défaussez toute l’Énergie de ce Pokémon.",
+				es: "Descarta todas las Energías de este Pokémon.",
+				it: "Scarta tutte le Energie da questo Pokémon.",
+				pt: "Descarte todas as Energias deste Pokémon.",
+				de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 50,
 

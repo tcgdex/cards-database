@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Snover",
-		fr: "Blizzi"
+		fr: "Blizzi",
+		es: "Snover",
+		it: "Snover",
+		pt: "Snover",
+		de: "Shnebedeck"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -20,7 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				es: "Toque",
+				it: "Battuta",
+				pt: "Pulso",
+				de: "Verprügler"
 			},
 
 			damage: 20,
@@ -34,7 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch’Herbe"
+				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 50,

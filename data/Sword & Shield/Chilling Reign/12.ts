@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Sawsbuck",
-		fr: "Haydaim"
+		fr: "Haydaim",
+		es: "Sawsbuck",
+		it: "Sawsbuck",
+		pt: "Sawsbuck",
+		de: "Kronjuwild"
 	},
 
 	illustrator: "Sekio",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Tackle",
-			fr: "Charge"
+			fr: "Charge",
+			es: "Placaje",
+			it: "Azione",
+			pt: "Investida",
+			de: "Tackle"
 		},
 
 		damage: 30,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Winter Horn",
-			fr: "Corne Hivernale"
+			fr: "Corne Hivernale",
+			es: "Cornamenta Invernal",
+			it: "Corna Invernali",
+			pt: "Chifre Invernal",
+			de: "Winterhorn"
 		},
 
 		effect: {
 			en: "If you have a Stadium in play, this attack does 80 more damage.",
-			fr: "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires."
+			fr: "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires.",
+			es: "Si tienes un Estadio en juego, este ataque hace 80 puntos de daño más.",
+			it: "Se hai in gioco una carta Stadio, questo attacco infligge 80 danni in più.",
+			pt: "Se você tiver um Estádio em jogo, este ataque causará 80 pontos de dano a mais.",
+			de: "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+",

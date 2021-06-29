@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Dartrix",
-		fr: "Efflèche"
+		fr: "Efflèche",
+		es: "Dartrix",
+		it: "Dartrix",
+		pt: "Dartrix",
+		de: "Arboretoss"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch’Herbe"
+				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 40,

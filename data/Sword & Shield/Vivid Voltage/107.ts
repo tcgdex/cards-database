@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Sandile",
-		fr: "Mascaïman"
+		fr: "Mascaïman",
+		es: "Sandile",
+		it: "Sandile",
+		pt: "Sandile",
+		de: "Ganovil"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -27,11 +31,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Dredge Up",
-				fr: "Extraction"
+				fr: "Extraction",
+				es: "Ventilar",
+				it: "Dragaggio",
+				pt: "Dragar",
+				de: "Ausbaggern"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your opponent’s deck.",
-				fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire."
+				fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire.",
+				es: "Descarta las 3 primeras cartas de la baraja de tu rival.",
+				it: "Scarta le prime tre carte del mazzo del tuo avversario.",
+				pt: "Descarte as 3 cartas de cima do baralho do seu oponente.",
+				de: "Lege die obersten 3 Karten des Decks deines Gegners auf seinen Ablagestapel."
 			},
 
 		},

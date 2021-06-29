@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Grubbin",
-		fr: "Larvibule"
+		fr: "Larvibule",
+		es: "Grubbin",
+		it: "Grubbin",
+		pt: "Grubbin",
+		de: "Mabula"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
-				fr: "Ronge"
+				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 10,

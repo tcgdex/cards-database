@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Cinderace V",
-		fr: "Pyrobut V"
+		fr: "Pyrobut V",
+		es: "Cinderace V",
+		it: "Cinderace V",
+		pt: "Cinderace V",
+		de: "Liberlo V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,11 +21,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Field Runner",
-				fr: "Coureur de Fond"
+				fr: "Coureur de Fond",
+				es: "",
+				it: "",
+				pt: "",
+				de: ""
 			},
 			effect: {
 				en: "If a Stadium is in play, this Pokémon has no Retreat Cost.",
-				fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite."
+				fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite.",
+				es: "Si hay un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
+				it: "Se c’è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
+				pt: "Se um Estádio estiver em jogo, este Pokémon não terá custo de Recuo.",
+				de: "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten."
 			},
 		},
 	],
@@ -35,7 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Crimson Legs",
-				fr: "Jambes Carmin"
+				fr: "Jambes Carmin",
+				es: "Extremidades Carmesís",
+				it: "Arti Incandescenti",
+				pt: "Pernas Carmesins",
+				de: "Rote Beine"
 			},
 
 			damage: 140,

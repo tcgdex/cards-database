@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Tranquill",
-		fr: "Colombeau"
+		fr: "Colombeau",
+		es: "Tranquill",
+		it: "Tranquill",
+		pt: "Tranquill",
+		de: "Navitaub"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -25,7 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Wing",
-				fr: "Aile Tranchante"
+				fr: "Aile Tranchante",
+				es: "Ala Cortante",
+				it: "Ala Tagliente",
+				pt: "Asa Cortante",
+				de: "Rasierflügel"
 			},
 
 			damage: 40,
@@ -39,7 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
-				fr: "Tornade"
+				fr: "Tornade",
+				es: "Tornado",
+				it: "Raffica",
+				pt: "Lufada de Vento",
+				de: "Windstoß"
 			},
 
 			damage: 60,

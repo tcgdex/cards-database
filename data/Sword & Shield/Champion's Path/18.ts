@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Hatenna",
-		fr: "Bibichut"
+		fr: "Bibichut",
+		es: "Hatenna",
+		it: "Hatenna",
+		pt: "Hatenna",
+		de: "Brimova"
 	},
 
 	illustrator: "Akira Komayama",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
-				fr: "Ruée"
+				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magical Shot",
-				fr: "Coup Magique"
+				fr: "Coup Magique",
+				es: "Disparo Mágico",
+				it: "Magicolpo",
+				pt: "Tiro Mágico",
+				de: "Magischer Schuss"
 			},
 
 			damage: 30,

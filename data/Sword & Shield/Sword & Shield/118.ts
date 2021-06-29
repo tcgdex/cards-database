@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Galarian Linoone",
 		fr: "Linéon de Galar",
+		es: "Linoone de Galar",
+		it: "Linoone di Galar",
+		pt: "Linoone de Galar",
+		de: "Galar-Geradaks"
 	},
 
 	illustrator: "nagimiso",
@@ -32,10 +36,18 @@ const card: Card = {
 			name: {
 				en: "Night Slash",
 				fr: "Tranche-Nuit",
+				es: "Tajo Umbrío",
+				it: "Nottesferza",
+				pt: "Talho Noturno",
+				de: "Nachthieb"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				it: "Scambia questo Pokémon con uno della tua panchina.",
+				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 
@@ -49,6 +61,10 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 70,

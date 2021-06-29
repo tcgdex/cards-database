@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pal Pad",
 		fr: "Registre Ami",
+		es: "Bloc Amigos",
+		it: "Blocco Amici",
+		pt: "Pal Pad",
+		de: "Adressbuch"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,7 +18,11 @@ const card: Card = {
 
 	effect: {
 		en: "Shuffle up to 2 Supporter cards from your discard pile into your deck.",
-		fr: "Mélangez avec votre deck jusqu’à 2 cartes Supporter de votre pile de défausse."
+		fr: "Mélangez avec votre deck jusqu’à 2 cartes Supporter de votre pile de défausse.",
+		es: "Pon hasta 2 cartas de Partidario de tu pila de descartes en tu baraja y barájalas todas.",
+		it: "Rimischia fino a due carte Aiuto dalla tua pila degli scarti nel tuo mazzo.",
+		pt: "Embaralhe até 2 cartas de Apoiador da sua pilha de descarte no seu baralho.",
+		de: "Mische bis zu 2 Unterstützerkarten aus deinem Ablagestapel in dein Deck."
 	},
 
 	trainerType: "Item",

@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Galarian Darumaka",
-		fr: "Darumarond de Galar"
+		fr: "Darumarond de Galar",
+		es: "Darumaka de Galar",
+		it: "Darumaka di Galar",
+		pt: "Darumaka de Galar",
+		de: "Galar-Flampion"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d’Boule"
+				fr: "Coup d’Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,

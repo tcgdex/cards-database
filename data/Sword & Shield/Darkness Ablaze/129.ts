@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Meltan",
-		fr: "Meltan"
+		fr: "Meltan",
+		es: "Meltan",
+		it: "Meltan",
+		pt: "Meltan",
+		de: "Meltan"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d’Boule"
+				fr: "Coup d’Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beam",
-				fr: "Rayon"
+				fr: "Rayon",
+				es: "Transmisión",
+				it: "Raggio",
+				pt: "Feixe",
+				de: "Strahl"
 			},
 
 			damage: 20,

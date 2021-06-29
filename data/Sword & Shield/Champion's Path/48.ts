@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Swablu",
-		fr: "Tylton"
+		fr: "Tylton",
+		es: "Swablu",
+		it: "Swablu",
+		pt: "Swablu",
+		de: "Wablu"
 	},
 
 	illustrator: "0313",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Pikser"
 			},
 
 			damage: 20,

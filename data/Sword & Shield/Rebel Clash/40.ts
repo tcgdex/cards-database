@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Gyarados",
-		fr: "Léviator"
+		fr: "Léviator",
+		es: "Gyarados",
+		it: "Gyarados",
+		pt: "Gyarados",
+		de: "Garados"
 	},
 
 	illustrator: "hatachu",
@@ -26,7 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wrack Down",
-				fr: "Réduire en Poussière"
+				fr: "Réduire en Poussière",
+				es: "Desmoronar",
+				it: "Abbattere",
+				pt: "Desmoronar",
+				de: "Niederschleudern"
 			},
 
 			damage: 90,
@@ -42,11 +50,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Big Storm",
-				fr: "Forte Tempête"
+				fr: "Forte Tempête",
+				es: "Gran Tempestad",
+				it: "Fortempesta",
+				pt: "Tempestade Enorme",
+				de: "Großer Sturm"
 			},
 			effect: {
 				en: "Discard any Stadium in play.",
-				fr: "Défaussez tout Stade en jeu."
+				fr: "Défaussez tout Stade en jeu.",
+				es: "Descarta cualquier Estadio en juego.",
+				it: "Scarta una carta Stadio qualsiasi in gioco.",
+				pt: "Descarte qualquer Estádio em jogo.",
+				de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel."
 			},
 			damage: 200,
 

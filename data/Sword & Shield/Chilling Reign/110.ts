@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Lairon",
-		fr: "Galegon"
+		fr: "Galegon",
+		es: "Lairon",
+		it: "Lairon",
+		pt: "Lairon",
+		de: "Stollrak"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Tackle",
-			fr: "Charge"
+			fr: "Charge",
+			es: "Placaje",
+			it: "Azione",
+			pt: "Investida",
+			de: "Tackle"
 		},
 
 		damage: 50,
@@ -31,7 +39,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Metal Claw",
-			fr: "Griffe Acier"
+			fr: "Griffe Acier",
+			es: "Garra Metal",
+			it: "Ferrartigli",
+			pt: "Garra de Metal",
+			de: "Metallklaue"
 		},
 
 		damage: 90,

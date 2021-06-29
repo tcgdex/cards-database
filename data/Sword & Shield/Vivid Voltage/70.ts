@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Dusclops",
-		fr: "Téraclope"
+		fr: "Téraclope",
+		es: "Dusclops",
+		it: "Dusclops",
+		pt: "Dusclops",
+		de: "Zwirrklop"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde Folie"
+				fr: "Onde Folie",
+				es: "Rayo Confuso",
+				it: "Stordiraggio",
+				pt: "Raio da Confusão",
+				de: "Konfusstrahl"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -45,7 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Psypunch",
-				fr: "Coup de Poing Psy"
+				fr: "Coup de Poing Psy",
+				es: "Psicopuño",
+				it: "Psicopugno",
+				pt: "Soco Psíquico",
+				de: "Psyhieb"
 			},
 
 			damage: 60,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Snorunt",
-		fr: "Stalgamin"
+		fr: "Stalgamin",
+		es: "Snorunt",
+		it: "Snorunt",
+		pt: "Snorunt",
+		de: "Schneppke"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Headbutt",
-			fr: "Coup d’Boule"
+			fr: "Coup d’Boule",
+			es: "Golpe Cabeza",
+			it: "Bottintesta",
+			pt: "Cabeçada",
+			de: "Kopfnuss"
 		},
 
 		damage: 30,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Charibari",
-		en: "Cufant"
+		en: "Cufant",
+		es: "Cufant",
+		it: "Cufant",
+		pt: "Cufant",
+		de: "Kupfanti"
 	},
 
 	illustrator: "sowsow",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Force",
-			en: "Strength"
+			en: "Strength",
+			es: "Fuerza",
+			it: "Forza",
+			pt: "Força",
+			de: "Stärke"
 		},
 
 		damage: 60,

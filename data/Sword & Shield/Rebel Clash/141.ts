@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Snorlax",
-		fr: "Ronflex"
+		fr: "Ronflex",
+		es: "Snorlax",
+		it: "Snorlax",
+		pt: "Snorlax",
+		de: "Relaxo"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collecte"
+				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes."
+				fr: "Piochez 2 cartes.",
+				es: "Roba 2 cartas.",
+				it: "Pesca due carte.",
+				pt: "Compre 2 cartas.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -35,11 +47,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Collapse",
-				fr: "Effondrement"
+				fr: "Effondrement",
+				es: "Colapso",
+				it: "Collassare",
+				pt: "Colapso",
+				de: "Kollaps"
 			},
 			effect: {
 				en: "This Pokémon is now Asleep.",
-				fr: "Ce Pokémon est maintenant Endormi."
+				fr: "Ce Pokémon est maintenant Endormi.",
+				es: "Este Pokémon pasa a estar Dormido.",
+				it: "Questo Pokémon viene addormentato.",
+				pt: "Este Pokémon agora está Adormecido.",
+				de: "Dieses Pokémon schläft jetzt."
 			},
 			damage: 120,
 

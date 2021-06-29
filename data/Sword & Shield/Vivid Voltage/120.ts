@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Lucario",
-		fr: "Lucario"
+		fr: "Lucario",
+		es: "Lucario",
+		it: "Lucario",
+		pt: "Lucario",
+		de: "Lucario"
 	},
 
 	illustrator: "kodama",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Spike Draw",
-				fr: "Pique-Pioche"
+				fr: "Pique-Pioche",
+				es: "Robo Pico",
+				it: "Battipesca",
+				pt: "Comprada Espinhosa",
+				de: "Stachelzug"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 			damage: 40,
 
@@ -46,11 +58,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Impact",
-				fr: "Coup d’Articulations"
+				fr: "Coup d’Articulations",
+				es: "Impacto Nudillo",
+				it: "Impatto Nocche",
+				pt: "Impacto Ossudo",
+				de: "Knöchelprall"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t attack.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 160,
 

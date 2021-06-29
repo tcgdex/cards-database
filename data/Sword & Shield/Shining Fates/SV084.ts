@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Fourbelin",
-		en: "Morgrem"
+		en: "Morgrem",
+		es: "Morgrem",
+		it: "Morgrem",
+		pt: "Morgrem",
+		de: "Pelzebub"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Morsure",
-			en: "Bite"
+			en: "Bite",
+			es: "Mordisco",
+			it: "Morso",
+			pt: "Mordida",
+			de: "Biss"
 		},
 
 		damage: 30,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Fourbette",
-			en: "False Surrender"
+			en: "False Surrender",
+			es: "Irreverencia",
+			it: "Supplicolpo",
+			pt: "Rendição Falsa",
+			de: "Kniefalltrick"
 		},
 
 		effect: {
 			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
-			en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon."
+			en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
+			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		},
 
 		damage: 60,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Walrein",
-		fr: "Kaimorse"
+		fr: "Kaimorse",
+		es: "Walrein",
+		it: "Walrein",
+		pt: "Walrein",
+		de: "Walraisa"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Aurora Beam",
-			fr: "Onde Boréale"
+			fr: "Onde Boréale",
+			es: "Rayo Aurora",
+			it: "Raggiaurora",
+			pt: "Raio Aurora",
+			de: "Aurorastrahl"
 		},
 
 		damage: 70,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Hail Prison",
-			fr: "Prison de Grêle"
+			fr: "Prison de Grêle",
+			es: "Prisión de Granizo",
+			it: "Prigione di Grandine",
+			pt: "Prisão de Granizo",
+			de: "Hagelknast"
 		},
 
 		effect: {
 			en: "Discard 2 Energy from this Pokémon. Your opponent’s Active Pokémon is now Paralyzed.",
-			fr: "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			fr: "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			es: "Descarta 2 Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
+			it: "Scarta due Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
+			pt: "Descarte 2 Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
 		},
 
 		damage: 160,

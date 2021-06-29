@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Purugly",
-		fr: "Chaffreux"
+		fr: "Chaffreux",
+		es: "Purugly",
+		it: "Purugly",
+		pt: "Purugly",
+		de: "Shnurgarst"
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,19 +27,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Caturday",
-			fr: "Chamedi"
+			fr: "Chamedi",
+			es: "Sábado Gatuno",
+			it: "Giornogatto",
+			pt: "Dia de Gato",
+			de: "Schnurrtag"
 		},
 
 		effect: {
 			en: "Draw 3 cards. If you do, this Pokémon is now Asleep.",
-			fr: "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi."
+			fr: "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
+			es: "Roba 3 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
+			it: "Pesca tre carte. Se lo fai, questo Pokémon viene addormentato.",
+			pt: "Compre 3 cartas. Se fizer isto, este Pokémon ficará Adormecido.",
+			de: "Ziehe 3 Karten. Wenn du das machst, schläft dieses Pokémon jetzt."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Claw Slash",
-			fr: "Tranch’Griffe"
+			fr: "Tranch’Griffe",
+			es: "Cuchillada Garra",
+			it: "Lacerartiglio",
+			pt: "Golpe de Garra",
+			de: "Klauenschlitzer"
 		},
 
 		damage: 120,

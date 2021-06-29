@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Carvanha",
-		fr: "Carvanha"
+		fr: "Carvanha",
+		es: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 10,

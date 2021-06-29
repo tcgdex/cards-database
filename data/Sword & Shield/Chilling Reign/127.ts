@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Skwovet",
-		fr: "Rongourmand"
+		fr: "Rongourmand",
+		es: "Skwovet",
+		it: "Skwovet",
+		pt: "Skwovet",
+		de: "Raffel"
 	},
 
 	illustrator: "OKACHEKE",
@@ -18,19 +22,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Scrounge",
-			fr: "Fouissage"
+			fr: "Fouissage",
+			es: "Rebuscar",
+			it: "Sbafo",
+			pt: "Vasculhada",
+			de: "Abstauben"
 		},
 
 		effect: {
 			en: "Put a Pokémon Tool card from your discard pile into your hand.",
-			fr: "Ajoutez une carte Outil Pokémon de votre pile de défausse à votre main."
+			fr: "Ajoutez une carte Outil Pokémon de votre pile de défausse à votre main.",
+			es: "Pon 1 carta de Herramienta Pokémon de tu pila de descartes en tu mano.",
+			it: "Prendi una carta Oggetto Pokémon dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+			pt: "Coloque uma carta de Ferramenta Pokémon da sua pilha de descarte na sua mão.",
+			de: "Nimm 1 Pokémon-Ausrüstung aus deinem Ablagestapel auf deine Hand."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Gnaw",
-			fr: "Ronge"
+			fr: "Ronge",
+			es: "Roer",
+			it: "Rosicchiamento",
+			pt: "Roída",
+			de: "Nagen"
 		},
 
 		damage: 10,

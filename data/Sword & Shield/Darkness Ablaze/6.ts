@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Pansage",
-		fr: "Feuillajou"
+		fr: "Feuillajou",
+		es: "Pansage",
+		it: "Pansage",
+		pt: "Pansage",
+		de: "Vegimak"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Seed Bomb",
-				fr: "Canon Graine"
+				fr: "Canon Graine",
+				es: "Bomba Germen",
+				it: "Semebomba",
+				pt: "Bomba de Sementes",
+				de: "Samenbomben"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,

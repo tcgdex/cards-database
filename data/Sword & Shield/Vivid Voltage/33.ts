@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Oshawott",
-		fr: "Moustillon"
+		fr: "Moustillon",
+		es: "Oshawott",
+		it: "Oshawott",
+		pt: "Oshawott",
+		de: "Ottaro"
 	},
 
 	illustrator: "nagimiso",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
-				fr: "Pistolet à O"
+				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Seashell Attack",
-				fr: "Carap’Attaque"
+				fr: "Carap’Attaque",
+				es: "Conchaataque",
+				it: "Conchigliata",
+				pt: "Ataque de Concha do Mar",
+				de: "Seemuschelangriff"
 			},
 
 			damage: 20,

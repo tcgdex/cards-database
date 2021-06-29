@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Voltoutou",
-		en: "Yamper"
+		en: "Yamper",
+		es: "Yamper",
+		it: "Yamper",
+		pt: "Yamper",
+		de: "Voldi"
 	},
 
 	illustrator: "sowsow",
@@ -18,19 +22,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Hurlement",
-			en: "Roar"
+			en: "Roar",
+			es: "Rugido",
+			it: "Boato",
+			pt: "Rugido",
+			de: "Brüller"
 		},
 
 		effect: {
 			fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
-			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon."
+			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+			es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+			it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+			pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+			de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			fr: "Choc Statique",
-			en: "Static Shock"
+			en: "Static Shock",
+			es: "Impacto Estático",
+			it: "Shock Statico",
+			pt: "Choque de Estática",
+			de: "Statischer Schock"
 		},
 
 		damage: 10,

@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Slugma",
-		fr: "Limagma"
+		fr: "Limagma",
+		es: "Slugma",
+		it: "Slugma",
+		pt: "Slugma",
+		de: "Schneckmag"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Yawn",
-				fr: "Bâillement"
+				fr: "Bâillement",
+				es: "Bostezo",
+				it: "Sbadiglio",
+				pt: "Bocejo",
+				de: "Gähner"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -40,7 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Flamboiement"
+				fr: "Flamboiement",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Chama",
+				de: "Flackern"
 			},
 
 			damage: 30,

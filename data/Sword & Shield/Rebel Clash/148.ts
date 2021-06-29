@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Hawlucha",
-		fr: "Brutalibré"
+		fr: "Brutalibré",
+		es: "Hawlucha",
+		it: "Hawlucha",
+		pt: "Hawlucha",
+		de: "Resladero"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Windfall",
-				fr: "Rafale de Vent"
+				fr: "Rafale de Vent",
+				es: "Maná",
+				it: "Manna",
+				pt: "Maná",
+				de: "Warmer Regen"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 5 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes."
+				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
+				es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 5 cartas.",
+				it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca cinque carte.",
+				pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 5 cartas.",
+				de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten."
 			},
 
 		},
@@ -33,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Attack",
-				fr: "Attaque Rapide"
+				fr: "Attaque Rapide",
+				es: "Ataque Fugaz",
+				it: "Attacco Veloce",
+				pt: "Ataque em Velocidade",
+				de: "Tempoangriff"
 			},
 
 			damage: 30,

@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Sinistea",
-		fr: "Théffroi"
+		fr: "Théffroi",
+		es: "Sinistea",
+		it: "Sinistea",
+		pt: "Sinistea",
+		de: "Fatalitee"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Furtive Drop",
-				fr: "Chute Furtive"
+				fr: "Chute Furtive",
+				es: "Caída Furtiva",
+				it: "Lascito Furtivo",
+				pt: "Gota Furtiva",
+				de: "Hinterhältiger Fall"
 			},
 			effect: {
 				en: "Put 2 damage counters on your opponent’s Active Pokémon.",
-				fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire."
+				fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+				es: "Pon 2 contadores de daño en el Pokémon Activo de tu rival.",
+				it: "Metti due segnalini danno sul Pokémon attivo del tuo avversario.",
+				pt: "Coloque 2 contadores de dano no Pokémon Ativo do seu oponente.",
+				de: "Lege 2 Schadensmarken auf das Aktive Pokémon deines Gegners."
 			},
 
 		},

@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		de: "Glutexo"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -42,11 +50,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Raging Flames",
-				fr: "Flammes Ardentes"
+				fr: "Flammes Ardentes",
+				es: "Llamas Rabiosas",
+				it: "Fiamme Furiose",
+				pt: "Chamas Furiosas",
+				de: "Wütende Flammen"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck."
+				fr: "Défaussez les 3 cartes du dessus de votre deck.",
+				es: "Descarta las 3 primeras cartas de tu baraja.",
+				it: "Scarta le prime tre carte del tuo mazzo.",
+				pt: "Descarte as 3 cartas de cima do seu baralho.",
+				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 60,
 

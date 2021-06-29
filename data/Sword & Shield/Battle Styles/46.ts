@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Shinx",
-		fr: "Lixy"
+		fr: "Lixy",
+		es: "Shinx",
+		it: "Shinx",
+		pt: "Shinx",
+		de: "Sheinux"
 	},
 
 	illustrator: "sowsow",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Rear Kick",
-			fr: "Ruade"
+			fr: "Ruade",
+			es: "Patada Trasera",
+			it: "Retrocalcio",
+			pt: "Chute Traseiro",
+			de: "Rückwärtskick"
 		},
 
 		damage: 20,

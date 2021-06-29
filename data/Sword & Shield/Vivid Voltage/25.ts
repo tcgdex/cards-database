@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Charizard",
-		fr: "Dracaufeu"
+		fr: "Dracaufeu",
+		es: "Charizard",
+		it: "Charizard",
+		pt: "Charizard",
+		de: "Glurak"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -27,11 +31,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Battle Sense",
-				fr: "Sens du Combat"
+				fr: "Sens du Combat",
+				es: "Instinto de Combate",
+				it: "Istinto di Lotta",
+				pt: "Intuição de Batalha",
+				de: "Kampfsinn"
 			},
 			effect: {
 				en: "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards.",
-				fr: "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus de votre deck, puis ajouter l’une d’elles à votre main. Défaussez les autres cartes."
+				fr: "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus de votre deck, puis ajouter l’une d’elles à votre main. Défaussez les autres cartes.",
+				es: "Una vez durante tu turno, puedes mirar las 3 primeras cartas de tu baraja y poner 1 de ellas en tu mano. Descarta el resto de las cartas.",
+				it: "Una sola volta durante il tuo turno, puoi guardare le prime tre carte del tuo mazzo e aggiungerne una alle carte che hai in mano. Scarta le altre carte.",
+				pt: "Uma vez durante o seu turno, você poderá olhar as 3 cartas de cima do seu baralho e colocar 1 delas na sua mão. Descarte as demais cartas.",
+				de: "Einmal während deines Zuges kannst du dir die obersten 3 Karten deines Decks anschauen und 1 davon auf deine Hand nehmen. Lege die anderen Karten auf deinen Ablagestapel."
 			},
 		},
 	],
@@ -44,11 +56,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Royal Blaze",
-				fr: "Flambée Royale"
+				fr: "Flambée Royale",
+				es: "Ascuas Regias",
+				it: "Fiammata Maestosa",
+				pt: "Labareda Real",
+				de: "Königsflamme"
 			},
 			effect: {
 				en: "This attack does 50 more damage for each Leon card in your discard pile.",
-				fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Tarak dans votre pile de défausse."
+				fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Tarak dans votre pile de défausse.",
+				es: "Este ataque hace 50 puntos de daño más por cada carta de Lionel en tu pila de descartes.",
+				it: "Questo attacco infligge 50 danni in più per ogni carta Dandel nella tua pila degli scarti.",
+				pt: "Este ataque causa 50 pontos de dano a mais para cada carta Leon na sua pilha de descarte.",
+				de: "Diese Attacke fügt für jede Delion-Karte in deinem Ablagestapel 50 Schadenspunkte mehr zu."
 			},
 			damage: "100+",
 

@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Arbok",
-		fr: "Arbok"
+		fr: "Arbok",
+		es: "Arbok",
+		it: "Arbok",
+		pt: "Arbok",
+		de: "Arbok"
 	},
 
 	illustrator: "nagimiso",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fang",
-				fr: "Croc Aiguisé"
+				fr: "Croc Aiguisé",
+				es: "Colmillo Afilado",
+				it: "Zannaffilata",
+				pt: "Presa Afiada",
+				de: "Scharfe Fänge"
 			},
 
 			damage: 30,
@@ -42,7 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Snap",
-				fr: "Coud’ Queue Sec"
+				fr: "Coud’ Queue Sec",
+				es: "Pinza Cola",
+				it: "Schioccacoda",
+				pt: "Surpresa de Cauda",
+				de: "Schweifhieb"
 			},
 
 			damage: 70,

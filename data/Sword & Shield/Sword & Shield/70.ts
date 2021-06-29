@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Joltik",
 		fr: "Statitik",
+		es: "Joltik",
+		it: "Joltik",
+		pt: "Joltik",
+		de: "Wattzapf"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Flop",
 				fr: "Flop",
+				es: "Vuelta",
+				it: "Tonfo",
+				pt: "Baque",
+				de: "Plumps"
 			},
 
 			damage: 10,

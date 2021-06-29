@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Torgamord",
-		en: "Drednaw"
+		en: "Drednaw",
+		es: "Drednaw",
+		it: "Drednaw",
+		pt: "Drednaw",
+		de: "Kamalm"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,19 +29,31 @@ const card: Card = {
 
 		name: {
 			fr: "Exosquelette",
-			en: "Exoskeleton"
+			en: "Exoskeleton",
+			es: "Exosqueleto",
+			it: "Esoscheletro",
+			pt: "Exo-esqueleto",
+			de: "Exoskelett"
 		},
 
 		effect: {
 			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
 	attacks: [{
 		name: {
 			fr: "Coud’Krâne",
-			en: "Skull Bash"
+			en: "Skull Bash",
+			es: "Cabezazo",
+			it: "Capocciata",
+			pt: "Quebra-crânio",
+			de: "Schädelwumme"
 		},
 
 		damage: 130,

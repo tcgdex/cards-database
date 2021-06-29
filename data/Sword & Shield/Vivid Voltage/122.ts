@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Excadrill",
-		fr: "Minotaupe"
+		fr: "Minotaupe",
+		es: "Excadrill",
+		it: "Excadrill",
+		pt: "Excadrill",
+		de: "Stalobor"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -30,11 +34,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Drill Run",
-				fr: "Tunnelier"
+				fr: "Tunnelier",
+				es: "Taladradora",
+				it: "Giravvita",
+				pt: "Furação",
+				de: "Schlagbohrer"
 			},
 			effect: {
 				en: "Discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire."
+				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				it: "Scarta un’Energia dal Pokémon attivo del tuo avversario.",
+				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -47,7 +59,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Claw",
-				fr: "Griffe Taillante"
+				fr: "Griffe Taillante",
+				es: "Garra Cuchillazo",
+				it: "Artigli Laceranti",
+				pt: "Garra Cortadora",
+				de: "Schlitzende Klaue"
 			},
 
 			damage: 130,

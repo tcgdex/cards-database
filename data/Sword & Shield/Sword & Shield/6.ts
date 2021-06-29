@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Whimsicott",
 		fr: "Farfaduvet",
+		es: "Whimsicott",
+		it: "Whimsicott",
+		pt: "Whimsicott",
+		de: "Elfun"
 	},
 
 	illustrator: "kodama",
@@ -37,10 +41,18 @@ const card: Card = {
 			name: {
 				en: "Cotton Ride",
 				fr: "Chevauchée Cotonneuse",
+				es: "Viaje Algodón",
+				it: "Cavalca Cotone",
+				pt: "Passeio de Algodão",
+				de: "Baumwollritt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
 				fr: "Lancez une pièce. Si c’est face, votre adversaire mélange avec son deck son Pokémon Actif et toutes les cartes attachées.",
+				es: "Lanza 1 moneda. Si sale cara, tu rival pone su Pokémon Activo y todas las cartas unidas a él en su baraja y las baraja todas.",
+				it: "Lancia una moneta. Se esce testa, il tuo avversario rimischia il suo Pokémon attivo e tutte le carte a esso assegnate nel suo mazzo.",
+				pt: "Jogue 1 moeda. Se sair cara, seu oponente embaralhará o Pokémon Ativo dele(a) e todas as cartas ligadas a ele no próprio baralho.",
+				de: "Wirf 1 Münze. Bei Kopf mischt dein Gegner sein Aktives Pokémon und alle angelegten Karten in sein Deck."
 			},
 
 		},
@@ -51,6 +63,10 @@ const card: Card = {
 			name: {
 				en: "Leaf Step",
 				fr: "Enjambée de Feuillage",
+				es: "Paso Hoja",
+				it: "Passofoglia",
+				pt: "Passo de Folha",
+				de: "Blattschritt"
 			},
 
 			damage: 50,

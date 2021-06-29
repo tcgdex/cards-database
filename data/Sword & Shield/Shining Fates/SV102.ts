@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Bleuseille",
-		en: "Corvisquire"
+		en: "Corvisquire",
+		es: "Corvisquire",
+		it: "Corvisquire",
+		pt: "Corvisquire",
+		de: "Kranoviz"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Picore",
-			en: "Pluck"
+			en: "Pluck",
+			es: "Picoteo",
+			it: "Spennata",
+			pt: "Colher",
+			de: "Pflücker"
 		},
 
 		effect: {
 			fr: "Avant d’infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
-			en: "Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon."
+			en: "Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.",
+			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
+			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
+			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
+			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 20,
@@ -36,7 +48,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Bec Vrille",
-			en: "Drill Peck"
+			en: "Drill Peck",
+			es: "Pico Taladro",
+			it: "Perforbecco",
+			pt: "Bico Broca",
+			de: "Bohrschnabel"
 		},
 
 		damage: 50,

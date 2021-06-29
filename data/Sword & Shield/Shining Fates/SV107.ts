@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Dracaufeu VMAX",
-		en: "Charizard VMAX"
+		en: "Charizard VMAX",
+		es: "Charizard VMAX",
+		it: "Charizard VMAX",
+		pt: "Charizard VMAX",
+		de: "Glurak VMAX"
 	},
 
 	illustrator: "aky CG Works",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Tranch’Griffe",
-			en: "Claw Slash"
+			en: "Claw Slash",
+			es: "Cuchillada Garra",
+			it: "Lacerartiglio",
+			pt: "Golpe de Garra",
+			de: "Klauenschlitzer"
 		},
 
 		damage: 100,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Fournaise G-Max",
-			en: "G-Max Wildfire"
+			en: "G-Max Wildfire",
+			es: "Gigallamarada",
+			it: "Gigavampa",
+			pt: "Queimada G-Max",
+			de: "Giga-Feuerflug"
 		},
 
 		effect: {
 			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			en: "Discard 2 Energy from this Pokémon."
+			en: "Discard 2 Energy from this Pokémon.",
+			es: "Descarta 2 Energías de este Pokémon.",
+			it: "Scarta due Energie da questo Pokémon.",
+			pt: "Descarte 2 Energias deste Pokémon.",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 300,

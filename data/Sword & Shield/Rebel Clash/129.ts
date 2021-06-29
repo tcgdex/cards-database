@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Bronzor",
-		fr: "Archéomire"
+		fr: "Archéomire",
+		es: "Bronzor",
+		it: "Bronzor",
+		pt: "Bronzor",
+		de: "Bronzel"
 	},
 
 	illustrator: "Midori Harada",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -32,7 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Dive",
-				fr: "Plongée Rapide"
+				fr: "Plongée Rapide",
+				es: "Picado Rápido",
+				it: "Immersione Rapida",
+				pt: "Mergulho Veloz",
+				de: "Tempohechtsprung"
 			},
 
 			damage: 20,

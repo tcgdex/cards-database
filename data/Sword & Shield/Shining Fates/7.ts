@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Efflèche",
-		en: "Dartrix"
+		en: "Dartrix",
+		es: "Dartrix",
+		it: "Dartrix",
+		pt: "Dartrix",
+		de: "Arboretoss"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Tranch’Herbe",
-			en: "Razor Leaf"
+			en: "Razor Leaf",
+			es: "Hoja Afilada",
+			it: "Foglielama",
+			pt: "Folha Navalha",
+			de: "Rasierblatt"
 		},
 
 		damage: 40,

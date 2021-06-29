@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Khélocrok",
-		en: "Chewtle"
+		en: "Chewtle",
+		es: "Chewtle",
+		it: "Chewtle",
+		pt: "Chewtle",
+		de: "Kamehaps"
 	},
 
 	illustrator: "otumami",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Morsure",
-			en: "Bite"
+			en: "Bite",
+			es: "Mordisco",
+			it: "Morso",
+			pt: "Mordida",
+			de: "Biss"
 		},
 
 		damage: 30,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Pistolet à O",
-			en: "Water Gun"
+			en: "Water Gun",
+			es: "Pistola Agua",
+			it: "Pistolacqua",
+			pt: "Revólver d’Água",
+			de: "Aquaknarre"
 		},
 
 		damage: 50,

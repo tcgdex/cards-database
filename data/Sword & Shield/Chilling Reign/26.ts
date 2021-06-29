@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Scorbunny",
-		fr: "Flambino"
+		fr: "Flambino",
+		es: "Scorbunny",
+		it: "Scorbunny",
+		pt: "Scorbunny",
+		de: "Hopplo"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Headbutt",
-			fr: "Coup d’Boule"
+			fr: "Coup d’Boule",
+			es: "Golpe Cabeza",
+			it: "Bottintesta",
+			pt: "Cabeçada",
+			de: "Kopfnuss"
 		},
 
 		damage: 20,

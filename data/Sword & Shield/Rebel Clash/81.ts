@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Sandygast",
-		fr: "Bacabouh"
+		fr: "Bacabouh",
+		es: "Sandygast",
+		it: "Sandygast",
+		pt: "Sandygast",
+		de: "Sankabuh"
 	},
 
 	illustrator: "Yuka Morii",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Sneaky Placement",
-				fr: "Placement Vicieux"
+				fr: "Placement Vicieux",
+				es: "Colocación Furtiva",
+				it: "Furtivappoggio",
+				pt: "Posição Sorrateira",
+				de: "Heimlichtuerei"
 			},
 			effect: {
 				en: "Put 1 damage counter on 1 of your opponent’s Pokémon.",
-				fr: "Placez un marqueur de dégâts sur l’un des Pokémon de votre adversaire."
+				fr: "Placez un marqueur de dégâts sur l’un des Pokémon de votre adversaire.",
+				es: "Pon 1 contador de daño en 1 de los Pokémon de tu rival.",
+				it: "Metti un segnalino danno su uno dei Pokémon del tuo avversario.",
+				pt: "Coloque 1 contador de dano em 1 dos Pokémon do seu oponente.",
+				de: "Lege 1 Schadensmarke auf 1 Pokémon deines Gegners."
 			},
 
 		},

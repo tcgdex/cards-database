@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Indeedee",
-		fr: "Wimessir"
+		fr: "Wimessir",
+		es: "Indeedee",
+		it: "Indeedee",
+		pt: "Indeedee",
+		de: "Servol"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -18,24 +22,40 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Collect",
-			fr: "Collecte"
+			fr: "Collecte",
+			es: "Coleccionar",
+			it: "Tassa",
+			pt: "Coleta",
+			de: "Sammeln"
 		},
 
 		effect: {
 			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes."
+			fr: "Piochez 2 cartes.",
+			es: "Roba 2 cartas.",
+			it: "Pesca due carte.",
+			pt: "Compre 2 cartas.",
+			de: "Ziehe 2 Karten."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Hand Kinesis",
-			fr: "Télékinésie en Main"
+			fr: "Télékinésie en Main",
+			es: "Manoquinesis",
+			it: "Manocinèsi",
+			pt: "Cinese de Mão",
+			de: "Handkinese"
 		},
 
 		effect: {
 			en: "This attack does 10 damage for each card in your hand.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque carte dans votre main."
+			fr: "Cette attaque inflige 10 dégâts pour chaque carte dans votre main.",
+			es: "Este ataque hace 10 puntos de daño por cada carta en tu mano.",
+			it: "Questo attacco infligge 10 danni per ogni carta nella tua mano.",
+			pt: "Este ataque causa 10 pontos de dano para cada carta na sua mão.",
+			de: "Diese Attacke fügt für jede Karte auf deiner Hand 10 Schadenspunkte zu."
 		},
 
 		damage: "10×",

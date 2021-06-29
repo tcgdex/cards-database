@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Morelull",
-		fr: "Spododo"
+		fr: "Spododo",
+		es: "Morelull",
+		it: "Morelull",
+		pt: "Morelull",
+		de: "Bubungus"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Spore",
-				fr: "Spore"
+				fr: "Spore",
+				es: "Espora",
+				it: "Spora",
+				pt: "Esporos",
+				de: "Pilzspore"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -39,7 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flop",
-				fr: "Flop"
+				fr: "Flop",
+				es: "Vuelta",
+				it: "Tonfo",
+				pt: "Baque",
+				de: "Plumps"
 			},
 
 			damage: 20,

@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Absol",
-		fr: "Absol"
+		fr: "Absol",
+		es: "Absol",
+		it: "Absol",
+		pt: "Absol",
+		de: "Absol"
 	},
 
 	illustrator: "kodama",
@@ -25,7 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Cutter",
-				fr: "Tranch’Obscur"
+				fr: "Tranch’Obscur",
+				es: "Cuchilla Oscura",
+				it: "Oscurotaglio",
+				pt: "Cortador de Escuridão",
+				de: "Dunkler Zerschneider"
 			},
 
 			damage: 70,

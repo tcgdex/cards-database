@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Toxizap",
-		en: "Toxel"
+		en: "Toxel",
+		es: "Toxel",
+		it: "Toxel",
+		pt: "Toxel",
+		de: "Toxel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Gifle",
-			en: "Slap"
+			en: "Slap",
+			es: "Bofetón",
+			it: "Sberla",
+			pt: "Tapa",
+			de: "Hieb"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Choc Statique",
-			en: "Static Shock"
+			en: "Static Shock",
+			es: "Impacto Estático",
+			it: "Shock Statico",
+			pt: "Choque de Estática",
+			de: "Statischer Schock"
 		},
 
 		damage: 20,

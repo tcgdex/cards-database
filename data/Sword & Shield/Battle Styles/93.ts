@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Murkrow",
-		fr: "Cornèbre"
+		fr: "Cornèbre",
+		es: "Murkrow",
+		it: "Murkrow",
+		pt: "Murkrow",
+		de: "Kramurx"
 	},
 
 	illustrator: "Aya Kusube",
@@ -18,19 +22,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Scout",
-			fr: "Espionnage"
+			fr: "Espionnage",
+			es: "Explorar",
+			it: "Esplorazione",
+			pt: "Explorador",
+			de: "Späher"
 		},
 
 		effect: {
 			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire dévoile sa main."
+			fr: "Votre adversaire dévoile sa main.",
+			es: "Tu rival enseña las cartas de su mano.",
+			it: "Il tuo avversario mostra le carte che ha in mano.",
+			pt: "Seu oponente revela a própria mão.",
+			de: "Dein Gegner zeigt dir seine Handkarten."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Peck",
-			fr: "Picpic"
+			fr: "Picpic",
+			es: "Picotazo",
+			it: "Beccata",
+			pt: "Bicada",
+			de: "Pikser"
 		},
 
 		damage: 20,

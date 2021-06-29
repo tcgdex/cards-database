@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Galvantula",
-		fr: "Mygavolt"
+		fr: "Mygavolt",
+		es: "Galvantula",
+		it: "Galvantula",
+		pt: "Galvantula",
+		de: "Voltula"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Needle",
-				fr: "Para-Dard"
+				fr: "Para-Dard",
+				es: "Aguja Paralizante",
+				it: "Ago Paralizzante",
+				pt: "Agulha Estonteante",
+				de: "Betäubungsnadel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -45,11 +57,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Shocking Pursuit",
-				fr: "Poursuite Choquante"
+				fr: "Poursuite Choquante",
+				es: "Persecución Electrizante",
+				it: "Inseguimento Fulminante",
+				pt: "Perseguição Eletrizante",
+				de: "Elektrojagd"
 			},
 			effect: {
 				en: "This attack does 20 damage for each damage counter on your opponent’s Active Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire."
+				fr: "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
+				es: "Este ataque hace 20 puntos de daño por cada contador de daño en el Pokémon Activo de tu rival.",
+				it: "Questo attacco infligge 20 danni per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+				pt: "Este ataque causa 20 pontos de dano para cada contador de dano no Pokémon Ativo do seu oponente.",
+				de: "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu."
 			},
 			damage: "20×",
 

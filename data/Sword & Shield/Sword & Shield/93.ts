@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dugtrio",
 		fr: "Triopikeur",
+		es: "Dugtrio",
+		it: "Dugtrio",
+		pt: "Dugtrio",
+		de: "Digdri"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Mud Bomb",
 				fr: "Boue-Bombe",
+				es: "Bomba Fango",
+				it: "Pantanobomba",
+				pt: "Bomba de Lama",
+				de: "Schlammbombe"
 			},
 
 			damage: 60,

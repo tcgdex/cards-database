@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Gothita",
-		fr: "Scrutella"
+		fr: "Scrutella",
+		es: "Gothita",
+		it: "Gothita",
+		pt: "Gothita",
+		de: "Mollimorba"
 	},
 
 	illustrator: "Mizue",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Fortunate Eye",
-				fr: "Regard Chanceux"
+				fr: "Regard Chanceux",
+				es: "Ojo Fortuito",
+				it: "Fortunocchio",
+				pt: "Olho da Sorte",
+				de: "Flüchtiger Glücksblick"
 			},
 			effect: {
 				en: "Look at the top 5 cards of your opponent’s deck and put them back in any order.",
-				fr: "Regardez les 5 cartes du dessus du deck de votre adversaire, puis replacez-les dans l’ordre de votre choix."
+				fr: "Regardez les 5 cartes du dessus du deck de votre adversaire, puis replacez-les dans l’ordre de votre choix.",
+				es: "Mira las 5 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
+				it: "Guarda le prime cinque carte del mazzo del tuo avversario e rimettile a posto nell’ordine che preferisci.",
+				pt: "Olhe as 5 cartas de cima do baralho do seu oponente e coloque-as de volta em qualquer ordem.",
+				de: "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck."
 			},
 
 		},
@@ -39,7 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gentle Slap",
-				fr: "Gifle Douce"
+				fr: "Gifle Douce",
+				es: "Bofetada Gentil",
+				it: "Schiaffetto",
+				pt: "Tapinha",
+				de: "Sanfter Hieb"
 			},
 
 			damage: 30,

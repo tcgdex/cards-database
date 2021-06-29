@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Bronzong",
-		fr: "Archéodong"
+		fr: "Archéodong",
+		es: "Bronzong",
+		it: "Bronzong",
+		pt: "Bronzong",
+		de: "Bronzong"
 	},
 
 	illustrator: "MAHOU",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Smack",
-				fr: "Claque"
+				fr: "Claque",
+				es: "Palmetazo",
+				it: "Schiaffo",
+				pt: "Estalo",
+				de: "Klatscher"
 			},
 
 			damage: 30,
@@ -38,11 +46,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Gyro Ball",
-				fr: "Gyroballe"
+				fr: "Gyroballe",
+				es: "Giro Bola",
+				it: "Vortexpalla",
+				pt: "Girobola",
+				de: "Gyroball"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. If you do, your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc. Dans ce cas, votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc."
+				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc. Dans ce cas, votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
+				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca. Si lo haces, tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				it: "Scambia questo Pokémon con uno della tua panchina. Se lo fai, il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco. Se fizer isto, o seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, tauscht dein Gegner sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 70,
 

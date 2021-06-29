@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Grumpig",
-		fr: "Groret"
+		fr: "Groret",
+		es: "Grumpig",
+		it: "Grumpig",
+		pt: "Grumpig",
+		de: "Groink"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Dazzle Dance",
-			fr: "Danse Éblouissante"
+			fr: "Danse Éblouissante",
+			es: "Danza Deslumbrante",
+			it: "Accecadanza",
+			pt: "Dança Fascinante",
+			de: "Verwirrender Tanz"
 		},
 
 		effect: {
 			en: "Your opponent’s Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 30,
@@ -36,7 +48,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Power Gem",
-			fr: "Rayon Gemme"
+			fr: "Rayon Gemme",
+			es: "Joya de Luz",
+			it: "Gemmoforza",
+			pt: "Gema Poderosa",
+			de: "Juwelenkraft"
 		},
 
 		damage: 120,

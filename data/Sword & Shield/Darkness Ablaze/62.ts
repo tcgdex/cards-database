@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Toxel",
-		fr: "Toxizap"
+		fr: "Toxizap",
+		es: "Toxel",
+		it: "Toxel",
+		pt: "Toxel",
+		de: "Toxel"
 	},
 
 	illustrator: "Akira Komayama",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slap",
-				fr: "Gifle"
+				fr: "Gifle",
+				es: "Bofetón",
+				it: "Sberla",
+				pt: "Tapa",
+				de: "Hieb"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Static Shock",
-				fr: "Choc Statique"
+				fr: "Choc Statique",
+				es: "Impacto Estático",
+				it: "Shock Statico",
+				pt: "Choque de Estática",
+				de: "Statischer Schock"
 			},
 
 			damage: 20,

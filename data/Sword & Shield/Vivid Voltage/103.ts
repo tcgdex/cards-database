@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Poochyena",
-		fr: "Medhyèna"
+		fr: "Medhyèna",
+		es: "Poochyena",
+		it: "Poochyena",
+		pt: "Poochyena",
+		de: "Fiffyen"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rear Kick",
-				fr: "Ruade"
+				fr: "Ruade",
+				es: "Patada Trasera",
+				it: "Retrocalcio",
+				pt: "Chute Traseiro",
+				de: "Rückwärtskick"
 			},
 
 			damage: 20,

@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Volcarona",
-		fr: "Pyrax"
+		fr: "Pyrax",
+		es: "Volcarona",
+		it: "Volcarona",
+		pt: "Volcarona",
+		de: "Ramoth"
 	},
 
 	illustrator: "NC Empire",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Cauterize",
-				fr: "Cautérisation"
+				fr: "Cautérisation",
+				es: "Cauterizar",
+				it: "Cauterizzazione",
+				pt: "Cauterizar",
+				de: "Kauterisieren"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n’a aucun marqueur de dégâts avant que cette attaque n’inflige des dégâts, cette attaque ne fait rien."
+				fr: "Si le Pokémon Actif de votre adversaire n’a aucun marqueur de dégâts avant que cette attaque n’inflige des dégâts, cette attaque ne fait rien.",
+				es: "Si el Pokémon Activo de tu rival no tiene ningún contador de daño sobre él antes de que este ataque inflija daño, este ataque no hace nada.",
+				it: "Se il Pokémon attivo del tuo avversario non ha segnalini danno prima che questo attacco infligga danni, questo attacco non ha effetto.",
+				pt: "Se o Pokémon Ativo do seu oponente não tiver nenhum contador de dano nele antes deste ataque causar dano, este ataque não fará nada.",
+				de: "Wenn auf dem Aktiven Pokémon deines Gegners keine Schadensmarken liegen, bevor diese Attacke Schaden zufügt, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 80,
 
@@ -46,7 +58,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Wing",
-				fr: "Aile de Feu"
+				fr: "Aile de Feu",
+				es: "Ala Ígnea",
+				it: "Alafiamma",
+				pt: "Asa de Fogo",
+				de: "Feuerflügel"
 			},
 
 			damage: 110,

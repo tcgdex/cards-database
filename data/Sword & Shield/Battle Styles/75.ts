@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Conkeldurr",
-		fr: "Bétochef"
+		fr: "Bétochef",
+		es: "Conkeldurr",
+		it: "Conkeldurr",
+		pt: "Conkeldurr",
+		de: "Meistagrif"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Hammer Pressure",
-			fr: "Pression Martelante"
+			fr: "Pression Martelante",
+			es: "Presión Martillo",
+			it: "Pressione Martellante",
+			pt: "Pressão Marteladora",
+			de: "Hammerdruck"
 		},
 
 		effect: {
 			en: "If the Defending Pokémon is an Evolution Pokémon, it can’t attack during your opponent’s next turn.",
-			fr: "Si le Pokémon Défenseur est un Pokémon Évolutif, il ne peut pas attaquer pendant le prochain tour de votre adversaire."
+			fr: "Si le Pokémon Défenseur est un Pokémon Évolutif, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+			es: "Si el Pokémon Defensor es un Pokémon Evolución, no puede atacar durante el próximo turno de tu rival.",
+			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon Evoluzione.",
+			pt: "Se o Pokémon Defensor for um Pokémon de Evolução, ele não poderá atacar durante o próximo turno do seu oponente.",
+			de: "Wenn das Verteidigende Pokémon ein Entwicklungs-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
 		},
 
 		damage: 90,
@@ -36,7 +48,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Mega Punch",
-			fr: "Ultimapoing"
+			fr: "Ultimapoing",
+			es: "Megapuño",
+			it: "Megapugno",
+			pt: "Megassoco",
+			de: "Megahieb"
 		},
 
 		damage: 150,

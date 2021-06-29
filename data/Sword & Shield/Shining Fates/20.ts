@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Hypotrempe",
-		en: "Horsea"
+		en: "Horsea",
+		es: "Horsea",
+		it: "Horsea",
+		pt: "Horsea",
+		de: "Seeper"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Pistolet à O",
-			en: "Water Gun"
+			en: "Water Gun",
+			es: "Pistola Agua",
+			it: "Pistolacqua",
+			pt: "Revólver d’Água",
+			de: "Aquaknarre"
 		},
 
 		damage: 10,
@@ -30,7 +38,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	regulationMark: "E"
+	regulationMark: "E",
+	retreat: 0
 }
 
 export default card

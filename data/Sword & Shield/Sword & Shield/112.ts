@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Clobbopus",
 		fr: "Poulpaf",
+		es: "Clobbopus",
+		it: "Clobbopus",
+		pt: "Clobbopus",
+		de: "Klopptopus"
 	},
 
 	illustrator: "Akira Komayama",
@@ -28,6 +32,10 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud’Poing",
+				es: "Puño",
+				it: "Pugno",
+				pt: "Soco",
+				de: "Boxhieb"
 			},
 
 			damage: 50,

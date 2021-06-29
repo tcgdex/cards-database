@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Gardevoir VMAX",
-		fr: "Gardevoir VMAX"
+		fr: "Gardevoir VMAX",
+		es: "Gardevoir VMAX",
+		it: "Gardevoir VMAX",
+		pt: "Gardevoir VMAX",
+		de: "Guardevoir VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,11 +35,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Max Cure",
-				fr: "Soignomax"
+				fr: "Soignomax",
+				es: "Maxicura",
+				it: "Dynacura",
+				pt: "Cura Max",
+				de: "Dyna-Heilung"
 			},
 			effect: {
 				en: "Heal 50 damage from this Pokémon.",
-				fr: "Soignez 50 dégâts de ce Pokémon."
+				fr: "Soignez 50 dégâts de ce Pokémon.",
+				es: "Cura 50 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 50 danni.",
+				pt: "Cure 50 pontos de dano deste Pokémon.",
+				de: "Heile 50 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 180,
 

@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Feebas",
-		fr: "Barpau"
+		fr: "Barpau",
+		es: "Feebas",
+		it: "Feebas",
+		pt: "Feebas",
+		de: "Barschwa"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
-				fr: "Tit’Sieste"
+				fr: "Tit’Sieste",
+				es: "Siesta",
+				it: "Pausa",
+				pt: "Soneca",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts de ce Pokémon."
+				fr: "Soignez 20 dégâts de ce Pokémon.",
+				es: "Cura 20 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 20 danni.",
+				pt: "Cure 20 pontos de dano deste Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},

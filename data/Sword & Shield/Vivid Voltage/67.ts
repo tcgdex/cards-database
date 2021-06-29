@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Shuppet",
-		fr: "Polichombr"
+		fr: "Polichombr",
+		es: "Shuppet",
+		it: "Shuppet",
+		pt: "Shuppet",
+		de: "Shuppet"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Haunt",
-				fr: "Hanter"
+				fr: "Hanter",
+				es: "Espanto",
+				it: "Infestare",
+				pt: "Assombrar",
+				de: "Spuk"
 			},
 			effect: {
 				en: "Put 1 damage counter on your opponent’s Active Pokémon.",
-				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire."
+				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+				es: "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
+				it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
+				pt: "Coloque 1 contador de dano no Pokémon Ativo do seu oponente.",
+				de: "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
 			},
 
 		},

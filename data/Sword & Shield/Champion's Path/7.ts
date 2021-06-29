@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Victini",
-		fr: "Victini"
+		fr: "Victini",
+		es: "Victini",
+		it: "Victini",
+		pt: "Victini",
+		de: "Victini"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Draw",
-				fr: "Pioche Rapide"
+				fr: "Pioche Rapide",
+				es: "Robo Rápido",
+				it: "Pescalesto",
+				pt: "Retirada Rápida",
+				de: "Schnellzieher"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -39,7 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
-				fr: "Fournaise"
+				fr: "Fournaise",
+				es: "Combustión",
+				it: "Fuoco Continuo",
+				pt: "Combustão",
+				de: "Glühen"
 			},
 
 			damage: 30,

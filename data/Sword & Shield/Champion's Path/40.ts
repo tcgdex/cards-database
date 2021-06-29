@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Liepard",
-		fr: "Léopardus"
+		fr: "Léopardus",
+		es: "Liepard",
+		it: "Liepard",
+		pt: "Liepard",
+		de: "Kleoparda"
 	},
 
 	illustrator: "Hasuno",
@@ -27,11 +31,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Limber",
-				fr: "Échauffement"
+				fr: "Échauffement",
+				es: "Flexibilidad",
+				it: "Scioltezza",
+				pt: "Elasticidade",
+				de: "Flexibilität"
 			},
 			effect: {
 				en: "This Pokémon can’t be Paralyzed.",
-				fr: "Ce Pokémon ne peut pas être Paralysé."
+				fr: "Ce Pokémon ne peut pas être Paralysé.",
+				es: "Este Pokémon no puede pasar a estar Paralizado.",
+				it: "Questo Pokémon non può venire paralizzato.",
+				pt: "Este Pokémon não pode ser Paralisado.",
+				de: "Dieses Pokémon kann nicht paralysiert werden."
 			},
 		},
 	],
@@ -45,7 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Claw",
-				fr: "Griffe Taillante"
+				fr: "Griffe Taillante",
+				es: "Garra Cuchillazo",
+				it: "Artigli Laceranti",
+				pt: "Garra Cortadora",
+				de: "Schlitzende Klaue"
 			},
 
 			damage: 90,

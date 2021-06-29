@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Narcisse",
-		en: "Siebold"
+		en: "Siebold",
+		es: "Narciso",
+		it: "Narciso",
+		pt: "Siebold",
+		de: "Narcisse"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -15,7 +19,11 @@ const card: Card = {
 
 	effect: {
 		fr: "Choisissez jusqu’à 2 de vos Pokémon Mille Poings, puis soignez 60 dégâts de chacun de ces Pokémon.",
-		en: "Choose up to 2 of your Rapid Strike Pokémon and heal 60 damage from each of them."
+		en: "Choose up to 2 of your Rapid Strike Pokémon and heal 60 damage from each of them.",
+		es: "Elige hasta 2 de tus Pokémon Golpe Fluido y cura 60 puntos de daño a cada uno de ellos.",
+		it: "Scegli fino a due dei tuoi Pokémon Colpo Rapido e cura ciascuno di essi da 60 danni.",
+		pt: "Escolha até 2 dos seus Pokémon Golpe Fluido e cure 60 pontos de dano de cada um deles.",
+		de: "Wähle bis zu 2 deiner Fließender-Angriff-Pokémon und heile bei jedem von ihnen 60 Schadenspunkte."
 	},
 
 	trainerType: "Supporter",

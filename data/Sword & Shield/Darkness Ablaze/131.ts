@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Cufant",
-		fr: "Charibari"
+		fr: "Charibari",
+		es: "Cufant",
+		it: "Cufant",
+		pt: "Cufant",
+		de: "Kupfanti"
 	},
 
 	illustrator: "Akira Komayama",
@@ -26,7 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Strength",
-				fr: "Force"
+				fr: "Force",
+				es: "Fuerza",
+				it: "Forza",
+				pt: "Força",
+				de: "Stärke"
 			},
 
 			damage: 60,

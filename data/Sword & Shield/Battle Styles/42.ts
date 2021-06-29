@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Jellicent",
-		fr: "Moyade"
+		fr: "Moyade",
+		es: "Jellicent",
+		it: "Jellicent",
+		pt: "Jellicent",
+		de: "Apoquallyp"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Sediment Sink",
-			fr: "Sédiment Visqueux"
+			fr: "Sédiment Visqueux",
+			es: "Sumidero de Sedimentos",
+			it: "Sedimentazione",
+			pt: "Sumidouro de Sedimentos",
+			de: "Sedimentsenke"
 		},
 
 		effect: {
 			en: "This attack does 10 damage for each Water Energy card in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque carte Énergie Water dans votre pile de défausse."
+			fr: "Cette attaque inflige 10 dégâts pour chaque carte Énergie Water dans votre pile de défausse.",
+			es: "Este ataque hace 10 puntos de daño por cada carta de Energía Water en tu pila de descartes.",
+			it: "Questo attacco infligge 10 danni per ogni carta Energia Water nella tua pila degli scarti.",
+			pt: "Este ataque causa 10 pontos de dano para cada carta de Energia Water na sua pilha de descarte.",
+			de: "Diese Attacke fügt für jede Water-Energiekarte in deinem Ablagestapel 10 Schadenspunkte zu."
 		},
 
 		damage: "10×",

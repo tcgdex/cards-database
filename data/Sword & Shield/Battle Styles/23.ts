@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Tepig",
-		fr: "Gruikui"
+		fr: "Gruikui",
+		es: "Tepig",
+		it: "Tepig",
+		pt: "Tepig",
+		de: "Floink"
 	},
 
 	illustrator: "You Iribi",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Ram",
-			fr: "Collision"
+			fr: "Collision",
+			es: "Apisonar",
+			it: "Carica",
+			pt: "Aríete",
+			de: "Ramme"
 		},
 
 		damage: 20,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Combustion",
-			fr: "Fournaise"
+			fr: "Fournaise",
+			es: "Combustión",
+			it: "Fuoco Continuo",
+			pt: "Combustão",
+			de: "Glühen"
 		},
 
 		damage: 50,

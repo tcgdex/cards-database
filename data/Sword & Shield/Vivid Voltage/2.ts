@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Kakuna",
-		fr: "Coconfort"
+		fr: "Coconfort",
+		es: "Kakuna",
+		it: "Kakuna",
+		pt: "Kakuna",
+		de: "Kokuna"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Shed Skin",
-				fr: "Mue"
+				fr: "Mue",
+				es: "Mudar",
+				it: "Muta",
+				pt: "Pele Vertente",
+				de: "Expidermis"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon."
+				fr: "Soignez 30 dégâts de ce Pokémon.",
+				es: "Cura 30 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 30 danni.",
+				pt: "Cure 30 pontos de dano deste Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -43,7 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bug Bite",
-				fr: "Piqûre"
+				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 20,

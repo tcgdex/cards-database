@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Mimigal",
-		en: "Spinarak"
+		en: "Spinarak",
+		es: "Spinarak",
+		it: "Spinarak",
+		pt: "Spinarak",
+		de: "Webarak"
 	},
 
 	illustrator: "sowsow",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Suspension",
-			en: "Hang Down"
+			en: "Hang Down",
+			es: "Prender",
+			it: "Tirar Giù",
+			pt: "Dependurar",
+			de: "Herunterhängen"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Dard",
-			en: "Sting"
+			en: "Sting",
+			es: "Aguijonazo",
+			it: "Puntura",
+			pt: "Ferroada",
+			de: "Einstich"
 		},
 
 		damage: 20,

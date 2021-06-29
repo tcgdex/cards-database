@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Inteleon",
 		fr: "Lézargus",
+		es: "Inteleon",
+		it: "Inteleon",
+		pt: "Inteleon",
+		de: "Intelleon"
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,10 +36,18 @@ const card: Card = {
 			name: {
 				en: "Silent Shot",
 				fr: "Coup Feutré",
+				es: "Disparo Silencioso",
+				it: "Colpo Silente",
+				pt: "Disparo Silencioso",
+				de: "Stiller Schuss"
 			},
 			effect: {
 				en: "Discard a random card from your opponent’s hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
+				it: "Scarta una carta a caso dalla mano del tuo avversario.",
+				pt: "Descarte 1 carta aleatória da mão do seu oponente.",
+				de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -48,10 +60,18 @@ const card: Card = {
 			name: {
 				en: "Hydro Snipe",
 				fr: "Hydro-Frappe",
+				es: "Disparo Acuático",
+				it: "Idromira",
+				pt: "Hidroatirador",
+				de: "Hydroschütze"
 			},
 			effect: {
 				en: "You may put an Energy attached to your opponent’s Active Pokémon into their hand.",
 				fr: "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
+				es: "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
+				it: "Puoi prendere un’Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
+				pt: "Você pode colocar 1 Energia ligada ao Pokémon Ativo do seu oponente na mão dele(a).",
+				de: "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben."
 			},
 			damage: 100,
 

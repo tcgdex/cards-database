@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		es: "Porygon",
+		it: "Porygon",
+		pt: "Porygon",
+		de: "Porygon"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Sharpen",
-			fr: "Affûtage"
+			fr: "Affûtage",
+			es: "Afilar",
+			it: "Affilatore",
+			pt: "Afiar",
+			de: "Schärfer"
 		},
 
 		damage: 20,

@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Toxapex",
-		fr: "Prédastérie"
+		fr: "Prédastérie",
+		es: "Toxapex",
+		it: "Toxapex",
+		pt: "Toxapex",
+		de: "Aggrostella"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Recover",
-				fr: "Soin"
+				fr: "Soin",
+				es: "Recuperación",
+				it: "Ripresa",
+				pt: "Recuperação",
+				de: "Genesung"
 			},
 			effect: {
 				en: "Discard an Energy from this Pokémon and heal all damage from it.",
-				fr: "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon."
+				fr: "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon.",
+				es: "Descarta 1 Energía de este Pokémon y cura todos sus puntos de daño.",
+				it: "Scarta un’Energia da questo Pokémon e curalo da tutti i danni.",
+				pt: "Descarte 1 Energia deste Pokémon e cure todo o dano dele.",
+				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel und heile bei ihm allen Schaden."
 			},
 
 		},
@@ -45,11 +57,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonous Whip",
-				fr: "Fouet Empoisonné"
+				fr: "Fouet Empoisonné",
+				es: "Látigo Venenoso",
+				it: "Frustata Velenosa",
+				pt: "Chicote Venenoso",
+				de: "Giftpeitsche"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 80,
 

@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Ekans",
-		fr: "Abo"
+		fr: "Abo",
+		es: "Ekans",
+		it: "Ekans",
+		pt: "Ekans",
+		de: "Rettan"
 	},
 
 	illustrator: "Uta",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Snap",
-				fr: "Coud’ Queue Sec"
+				fr: "Coud’ Queue Sec",
+				es: "Pinza Cola",
+				it: "Schioccacoda",
+				pt: "Surpresa de Cauda",
+				de: "Schweifhieb"
 			},
 
 			damage: 30,

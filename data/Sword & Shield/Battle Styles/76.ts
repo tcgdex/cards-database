@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Mienfoo",
-		fr: "Kungfouine"
+		fr: "Kungfouine",
+		es: "Mienfoo",
+		it: "Mienfoo",
+		pt: "Mienfoo",
+		de: "Lin-Fu"
 	},
 
 	illustrator: "NC Empire",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Double Stab",
-			fr: "Entaille Double"
+			fr: "Entaille Double",
+			es: "Doble Puñalada",
+			it: "Doppia Pugnalata",
+			pt: "Facada Dupla",
+			de: "Doppelstich"
 		},
 
 		effect: {
 			en: "Flip 2 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×",

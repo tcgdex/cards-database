@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Nosepass",
-		fr: "Tarinor"
+		fr: "Tarinor",
+		es: "Nosepass",
+		it: "Nosepass",
+		pt: "Nosepass",
+		de: "Nasgnet"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -33,7 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
-				fr: "Roulé-Boulé"
+				fr: "Roulé-Boulé",
+				es: "Placaje Giro",
+				it: "Rollazione",
+				pt: "Golpe de Colisão Rolante",
+				de: "Rolltackle"
 			},
 
 			damage: 50,

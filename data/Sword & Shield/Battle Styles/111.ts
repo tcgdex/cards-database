@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		es: "Spearow",
+		it: "Spearow",
+		pt: "Spearow",
+		de: "Habitak"
 	},
 
 	illustrator: "Sekio",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Peck",
-			fr: "Picpic"
+			fr: "Picpic",
+			es: "Picotazo",
+			it: "Beccata",
+			pt: "Bicada",
+			de: "Pikser"
 		},
 
 		damage: 20,

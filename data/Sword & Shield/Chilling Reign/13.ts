@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Bounsweet",
-		fr: "Croquine"
+		fr: "Croquine",
+		es: "Bounsweet",
+		it: "Bounsweet",
+		pt: "Bounsweet",
+		de: "Frubberl"
 	},
 
 	illustrator: "MAHOU",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Splash",
-			fr: "Trempette"
+			fr: "Trempette",
+			es: "Salpicadura",
+			it: "Splash",
+			pt: "Borrifada",
+			de: "Platscher"
 		},
 
 		damage: 30,

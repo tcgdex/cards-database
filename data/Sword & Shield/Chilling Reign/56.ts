@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		es: "Haunter",
+		it: "Haunter",
+		pt: "Haunter",
+		de: "Alpollo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Will-O-Wisp",
-			fr: "Feu Follet"
+			fr: "Feu Follet",
+			es: "Fuego Fatuo",
+			it: "Fuocofatuo",
+			pt: "Fogo Fátuo",
+			de: "Irrlicht"
 		},
 
 		damage: 30,

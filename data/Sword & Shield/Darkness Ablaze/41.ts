@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Panpour",
-		fr: "Flotajou"
+		fr: "Flotajou",
+		es: "Panpour",
+		it: "Panpour",
+		pt: "Panpour",
+		de: "Sodamak"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
-				fr: "Pistolet à O"
+				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,

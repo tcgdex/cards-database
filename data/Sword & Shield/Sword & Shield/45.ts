@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Goldeen",
 		fr: "Poissirène",
+		es: "Goldeen",
+		it: "Goldeen",
+		pt: "Goldeen",
+		de: "Goldini"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud’Korne",
+				es: "Cornada",
+				it: "Incornata",
+				pt: "Ataque de Chifre",
+				de: "Hornattacke"
 			},
 
 			damage: 10,

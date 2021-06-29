@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Charizard VMAX",
-		fr: "Dracaufeu VMAX"
+		fr: "Dracaufeu VMAX",
+		es: "Charizard VMAX",
+		it: "Charizard VMAX",
+		pt: "Charizard VMAX",
+		de: "Glurak VMAX"
 	},
 
 	illustrator: "aky CG Works",
@@ -31,7 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
-				fr: "Tranch’Griffe"
+				fr: "Tranch’Griffe",
+				es: "Cuchillada Garra",
+				it: "Lacerartiglio",
+				pt: "Golpe de Garra",
+				de: "Klauenschlitzer"
 			},
 
 			damage: 100,
@@ -47,11 +55,19 @@ const card: Card = {
 			],
 			name: {
 				en: "G-Max Wildfire",
-				fr: "Fournaise G-Max"
+				fr: "Fournaise G-Max",
+				es: "Gigallamarada",
+				it: "Gigavampa",
+				pt: "Queimada G-Max",
+				de: "Giga-Feuerflug"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon."
+				fr: "Défaussez 2 Énergies de ce Pokémon.",
+				es: "Descarta 2 Energías de este Pokémon.",
+				it: "Scarta due Energie da questo Pokémon.",
+				pt: "Descarte 2 Energias deste Pokémon.",
+				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 300,
 

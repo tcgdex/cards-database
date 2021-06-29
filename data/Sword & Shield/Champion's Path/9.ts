@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Sizzlipede",
-		fr: "Grillepattes"
+		fr: "Grillepattes",
+		es: "Sizzlipede",
+		it: "Sizzlipede",
+		pt: "Sizzlipede",
+		de: "Thermopod"
 	},
 
 	illustrator: "Akira Komayama",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -38,7 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
-				fr: "Fournaise"
+				fr: "Fournaise",
+				es: "Combustión",
+				it: "Fuoco Continuo",
+				pt: "Combustão",
+				de: "Glühen"
 			},
 
 			damage: 50,

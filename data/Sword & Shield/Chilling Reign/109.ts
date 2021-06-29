@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		es: "Aron",
+		it: "Aron",
+		pt: "Aron",
+		de: "Stollunior"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Gnaw",
-			fr: "Ronge"
+			fr: "Ronge",
+			es: "Roer",
+			it: "Rosicchiamento",
+			pt: "Roída",
+			de: "Nagen"
 		},
 
 		damage: 20,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Rolling Tackle",
-			fr: "Roulé-Boulé"
+			fr: "Roulé-Boulé",
+			es: "Placaje Giro",
+			it: "Rollazione",
+			pt: "Golpe de Colisão Rolante",
+			de: "Rolltackle"
 		},
 
 		damage: 50,

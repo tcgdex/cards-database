@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Abomasnow",
-		fr: "Blizzaroi"
+		fr: "Blizzaroi",
+		es: "Abomasnow",
+		it: "Abomasnow",
+		pt: "Abomasnow",
+		de: "Rexblisar"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -26,11 +30,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Soothing Scent",
-				fr: "Senteur Apaisante"
+				fr: "Senteur Apaisante",
+				es: "Aroma Sedante",
+				it: "Aroma Calmante",
+				pt: "Odor Calmante",
+				de: "Beruhigender Duft"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 80,
 
@@ -44,7 +56,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Megaton Lariat",
-				fr: "Lasso Titanesque"
+				fr: "Lasso Titanesque",
+				es: "Lazo Megatón",
+				it: "Lazo Megatonico",
+				pt: "Lariat Megaton",
+				de: "Megatonnenlasso"
 			},
 
 			damage: 140,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Spheal",
-		fr: "Obalie"
+		fr: "Obalie",
+		es: "Spheal",
+		it: "Spheal",
+		pt: "Spheal",
+		de: "Seemops"
 	},
 
 	illustrator: "kirisAki",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Ram",
-			fr: "Collision"
+			fr: "Collision",
+			es: "Apisonar",
+			it: "Carica",
+			pt: "Aríete",
+			de: "Ramme"
 		},
 
 		damage: 10,

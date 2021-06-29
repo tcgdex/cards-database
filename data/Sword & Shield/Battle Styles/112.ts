@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Fearow",
-		fr: "Rapasdepic"
+		fr: "Rapasdepic",
+		es: "Fearow",
+		it: "Fearow",
+		pt: "Fearow",
+		de: "Ibitak"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Drill Peck",
-			fr: "Bec Vrille"
+			fr: "Bec Vrille",
+			es: "Pico Taladro",
+			it: "Perforbecco",
+			pt: "Bico Broca",
+			de: "Bohrschnabel"
 		},
 
 		damage: 70,
@@ -40,7 +48,8 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	regulationMark: "E"
+	regulationMark: "E",
+	retreat: 0
 }
 
 export default card

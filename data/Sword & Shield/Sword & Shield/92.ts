@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		es: "Diglett",
+		it: "Diglett",
+		pt: "Diglett",
+		de: "Digda"
 	},
 
 	illustrator: "Hasegawa Saki",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 10,

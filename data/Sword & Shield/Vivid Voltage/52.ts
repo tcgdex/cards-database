@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Manectric",
-		fr: "Élecsprint"
+		fr: "Élecsprint",
+		es: "Manectric",
+		it: "Manectric",
+		pt: "Manectric",
+		de: "Voltenso"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -27,11 +31,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "High Speed",
-				fr: "Vitesse Éclair"
+				fr: "Vitesse Éclair",
+				es: "Alta Velocidad",
+				it: "Alta Velocità",
+				pt: "Alta Velocidade",
+				de: "Hochgeschwindigkeit"
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may draw 3 cards.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez piocher 3 cartes."
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez piocher 3 cartes.",
+				es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes robar 3 cartas.",
+				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi pescare tre carte.",
+				pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá comprar 3 cartas.",
+				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 3 Karten ziehen."
 			},
 		},
 	],
@@ -45,7 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Electric Ball",
-				fr: "Boule de Foudre"
+				fr: "Boule de Foudre",
+				es: "Bola Eléctrica",
+				it: "Lamposfera",
+				pt: "Bola de Eletricidade",
+				de: "Stromball"
 			},
 
 			damage: 100,
@@ -60,7 +76,8 @@ const card: Card = {
 		},
 	],
 
-	regulationMark: "D"
+	regulationMark: "D",
+	retreat: 0
 }
 
 export default card

@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		es: "Charmander",
+		it: "Charmander",
+		pt: "Charmander",
+		de: "Glumanda"
 	},
 
 	illustrator: "MAHOU",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collecte"
+				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -39,7 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Flamboiement"
+				fr: "Flamboiement",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Chama",
+				de: "Flackern"
 			},
 
 			damage: 30,

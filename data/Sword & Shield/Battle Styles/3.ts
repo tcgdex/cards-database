@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Victreebel",
-		fr: "Empiflor"
+		fr: "Empiflor",
+		es: "Victreebel",
+		it: "Victreebel",
+		pt: "Victreebel",
+		de: "Sarzenia"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Panic Vine",
-			fr: "Liane en Panique"
+			fr: "Liane en Panique",
+			es: "Liana del Pánico",
+			it: "Lianapanico",
+			pt: "Vinha do Pânico",
+			de: "Panikranke"
 		},
 
 		effect: {
 			en: "Your opponent’s Active Pokémon is now Confused. During your opponent’s next turn, that Pokémon can’t retreat.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
 		},
 
 		damage: 40,
@@ -36,7 +48,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Solar Beam",
-			fr: "Lance-Soleil"
+			fr: "Lance-Soleil",
+			es: "Rayo Solar",
+			it: "Solarraggio",
+			pt: "Raio Solar",
+			de: "Solarstrahl"
 		},
 
 		damage: 120,

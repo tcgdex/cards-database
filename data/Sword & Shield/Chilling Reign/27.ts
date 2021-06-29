@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Raboot",
-		fr: "Lapyro"
+		fr: "Lapyro",
+		es: "Raboot",
+		it: "Raboot",
+		pt: "Raboot",
+		de: "Kickerlo"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Volley Kick",
-			fr: "Reprise de Volée"
+			fr: "Reprise de Volée",
+			es: "Patada Volea",
+			it: "Calciata al Volo",
+			pt: "Voleio",
+			de: "Volleyschuss"
 		},
 
 		effect: {
 			en: "During your next turn, this Pokémon can’t attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 60,

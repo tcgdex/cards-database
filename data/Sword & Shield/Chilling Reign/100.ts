@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Galarian Slowking VMAX",
-		fr: "Roigada de Galar VMAX"
+		fr: "Roigada de Galar VMAX",
+		es: "Slowking de Galar VMAX",
+		it: "Slowking di Galar VMAX",
+		pt: "Slowking de Galar VMAX",
+		de: "Galar-Laschoking VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Max Toxify",
-			fr: "Toxomax"
+			fr: "Toxomax",
+			es: "Maxitoxicidad",
+			it: "Dynatossicità",
+			pt: "Intoxicação Max",
+			de: "Dyna-Vergiftung"
 		},
 
 		effect: {
 			en: "Your opponent’s Active Pokémon is now Poisoned. During Pokémon Checkup, put 12 damage counters on that Pokémon instead of 1.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 12 marqueurs de dégâts sur ce Pokémon-là au lieu d’un."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 12 marqueurs de dégâts sur ce Pokémon-là au lieu d’un.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 12 contadores de daño en ese Pokémon en vez de 1.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Metti 12 segnalini danno invece di uno su quel Pokémon durante il controllo Pokémon.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 12 contadores de dano ao invés de 1 naquele Pokémon.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege beim Pokémon-Check 12 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
 		},
 
 		damage: 10,

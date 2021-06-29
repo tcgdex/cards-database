@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Braségali V",
-		en: "Blaziken V"
+		en: "Blaziken V",
+		es: "Blaziken V",
+		it: "Blaziken V",
+		pt: "Blaziken V",
+		de: "Lohgock V"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Pied Voltige",
-			en: "High Jump Kick"
+			en: "High Jump Kick",
+			es: "Patada Salto Alta",
+			it: "Calcinvolo",
+			pt: "Chute de Pulo Alto",
+			de: "Turmkick"
 		},
 
 		damage: 50,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Danse Flammes",
-			en: "Fire Spin"
+			en: "Fire Spin",
+			es: "Giro Fuego",
+			it: "Turbofuoco",
+			pt: "Chama Furacão",
+			de: "Feuerwirbel"
 		},
 
 		effect: {
 			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			en: "Discard 2 Energy from this Pokémon."
+			en: "Discard 2 Energy from this Pokémon.",
+			es: "Descarta 2 Energías de este Pokémon.",
+			it: "Scarta due Energie da questo Pokémon.",
+			pt: "Descarte 2 Energias deste Pokémon.",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 210,

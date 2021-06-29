@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Sinistea",
 		fr: "Théffroi",
+		es: "Sinistea",
+		it: "Sinistea",
+		pt: "Sinistea",
+		de: "Fatalitee"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Teatime",
 				fr: "Thérémonie",
+				es: "Hora del Té",
+				it: "Ora del Tè",
+				pt: "Hora do Chá",
+				de: "Teatime"
 			},
 			effect: {
 				en: "Each player draws 2 cards.",
 				fr: "Chaque joueur pioche 2 cartes.",
+				es: "Cada jugador roba 2 cartas.",
+				it: "Ciascun giocatore pesca due carte.",
+				pt: "Cada jogador compra 2 cartas.",
+				de: "Jeder Spieler zieht 2 Karten."
 			},
 
 		},

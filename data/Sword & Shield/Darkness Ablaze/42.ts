@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Simipour",
-		fr: "Flotoutan"
+		fr: "Flotoutan",
+		es: "Simipour",
+		it: "Simipour",
+		pt: "Simipour",
+		de: "Sodachita"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
-				fr: "Pistolet à O"
+				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -43,11 +51,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Giga Impact",
-				fr: "Giga Impact"
+				fr: "Giga Impact",
+				es: "Gigaimpacto",
+				it: "Gigaimpatto",
+				pt: "Gigaimpacto",
+				de: "Gigastoß"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t attack.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 110,
 

@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Drednaw",
-		fr: "Torgamord"
+		fr: "Torgamord",
+		es: "Drednaw",
+		it: "Drednaw",
+		pt: "Drednaw",
+		de: "Kamalm"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -31,11 +35,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Vise Wave",
-				fr: "Vague Étau"
+				fr: "Vague Étau",
+				es: "Ola Mordedora",
+				it: "Onda Serrata",
+				pt: "Onda Compressora",
+				de: "Klammerwelle"
 			},
 			effect: {
 				en: "If you played Nessa from your hand during this turn, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Si vous avez joué Donna de votre main pendant ce tour, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+				fr: "Si vous avez joué Donna de votre main pendant ce tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				es: "Si has jugado 1 carta de Cathy de tu mano durante este turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				it: "Se hai giocato Azzurra dalla tua mano durante questo turno, il Pokémon attivo del tuo avversario viene paralizzato.",
+				pt: "Se você jogou Vanessa da sua mão durante este turno, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				de: "Wenn du Kate während dieses Zuges aus deiner Hand gespielt hast, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 80,
 
@@ -49,7 +61,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Surf",
-				fr: "Surf"
+				fr: "Surf",
+				es: "Surf",
+				it: "Surf",
+				pt: "Surfar",
+				de: "Surfer"
 			},
 
 			damage: 140,

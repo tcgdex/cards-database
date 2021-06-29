@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Clobbopus",
-		fr: "Poulpaf"
+		fr: "Poulpaf",
+		es: "Clobbopus",
+		it: "Clobbopus",
+		pt: "Clobbopus",
+		de: "Klopptopus"
 	},
 
 	illustrator: "Yuka Morii",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Beat",
-			fr: "Bataille"
+			fr: "Bataille",
+			es: "Toque",
+			it: "Battuta",
+			pt: "Pulso",
+			de: "Verprügler"
 		},
 
 		damage: 30,

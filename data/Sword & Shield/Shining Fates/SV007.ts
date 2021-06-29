@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Larvadar",
-		en: "Blipbug"
+		en: "Blipbug",
+		es: "Blipbug",
+		it: "Blipbug",
+		pt: "Blipbug",
+		de: "Sensect"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Ronge",
-			en: "Gnaw"
+			en: "Gnaw",
+			es: "Roer",
+			it: "Rosicchiamento",
+			pt: "Roída",
+			de: "Nagen"
 		},
 
 		damage: 20,

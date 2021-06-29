@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Ampharos",
-		fr: "Pharamp"
+		fr: "Pharamp",
+		es: "Ampharos",
+		it: "Ampharos",
+		pt: "Ampharos",
+		de: "Ampharos"
 	},
 
 	illustrator: "kodama",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Blast",
-				fr: "Explosion de Lumière"
+				fr: "Explosion de Lumière",
+				es: "Destello Deslumbrante",
+				it: "Accecobomba",
+				pt: "Explosão Fascinante",
+				de: "Blendende Explosion"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -45,7 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Electric Ball",
-				fr: "Boule de Foudre"
+				fr: "Boule de Foudre",
+				es: "Bola Eléctrica",
+				it: "Lamposfera",
+				pt: "Bola de Eletricidade",
+				de: "Stromball"
 			},
 
 			damage: 130,

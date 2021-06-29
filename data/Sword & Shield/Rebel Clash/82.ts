@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Palossand",
-		fr: "Trépassable"
+		fr: "Trépassable",
+		es: "Palossand",
+		it: "Palossand",
+		pt: "Palossand",
+		de: "Colossand"
 	},
 
 	illustrator: "Hasuno",
@@ -25,11 +29,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand Sink",
-				fr: "Sables Mouvants"
+				fr: "Sables Mouvants",
+				es: "Hundimiento Arena",
+				it: "Sabbie Mobili",
+				pt: "Afundar na Areia",
+				de: "Sandgrube"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck. If this Pokémon has a Cursed Shovel attached, discard 2 more cards from the top of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si une Pelle Maudite est attachée à ce Pokémon, défaussez 2 cartes supplémentaires du dessus du deck de votre adversaire."
+				en: "Discard the top card of your opponent’s deck. If this Pokémon has a Cursed Shovel attached, discard 2 more cards from the top of your opponent’s deck.",
+				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si une Pelle Maudite est attachée à ce Pokémon, défaussez 2 cartes supplémentaires du dessus du deck de votre adversaire.",
+				es: "Descarta la primera carta de la baraja de tu rival. Si este Pokémon tiene 1 Pala Maldita unida a él, descarta 2 cartas más de la parte superior de la baraja de tu rival.",
+				it: "Scarta la prima carta del mazzo del tuo avversario. Se questo Pokémon ha una carta Paletta Maledetta assegnata, scarta altre due carte dalla cima del mazzo del tuo avversario.",
+				pt: "Descarte a carta de cima do baralho do seu oponente. Se este Pokémon tiver 1 Pá Amaldiçoada ligada a ele, descarte outras 2 cartas de cima do baralho do seu oponente.",
+				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel. Wenn an dieses Pokémon eine Verfluchte Schaufel angelegt ist, lege 2 Karten mehr vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -41,11 +53,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Absorption",
-				fr: "Super Absorption"
+				fr: "Super Absorption",
+				es: "Superabsorción",
+				it: "Superassimilazione",
+				pt: "Superabsorção",
+				de: "Super-Absorber"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon."
+				fr: "Soignez 30 dégâts de ce Pokémon.",
+				es: "Cura 30 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 30 danni.",
+				pt: "Cure 30 pontos de dano deste Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 90,
 

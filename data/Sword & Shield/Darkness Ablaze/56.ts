@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
-		fr: "Lainergie"
+		fr: "Lainergie",
+		es: "Flaaffy",
+		it: "Flaaffy",
+		pt: "Flaaffy",
+		de: "Waaty"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Static Shock",
-				fr: "Choc Statique"
+				fr: "Choc Statique",
+				es: "Impacto Estático",
+				it: "Shock Statico",
+				pt: "Choque de Estática",
+				de: "Statischer Schock"
 			},
 
 			damage: 40,

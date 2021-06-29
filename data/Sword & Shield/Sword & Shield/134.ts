@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bisharp",
 		fr: "Scalproie",
+		es: "Bisharp",
+		it: "Bisharp",
+		pt: "Bisharp",
+		de: "Caesurio"
 	},
 
 	illustrator: "kawayoo",
@@ -32,10 +36,18 @@ const card: Card = {
 			name: {
 				en: "Charge Order",
 				fr: "Ordre de Charge",
+				es: "Orden de Carga",
+				it: "Alla Carica",
+				pt: "Ordem de Carga",
+				de: "Marschbefehl"
 			},
 			effect: {
 				en: "This attack does 30 more damage for each of your Benched Pawniard.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Scalpion sur votre Banc.",
+				es: "Este ataque hace 30 puntos de daño más por cada uno de tus Pawniard en Banca.",
+				it: "Questo attacco infligge 30 danni in più per ogni Pawniard nella tua panchina.",
+				pt: "Este ataque causa 30 pontos de dano a mais para cada Pawniard no seu Banco.",
+				de: "Diese Attacke fügt für jedes Gladiantri auf deiner Bank 30 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -48,6 +60,10 @@ const card: Card = {
 			name: {
 				en: "Slicing Blade",
 				fr: "Lame Tranchante",
+				es: "Cuchilla Cortante",
+				it: "Affettalama",
+				pt: "Lâmina Fatiante",
+				de: "Schwertschneide"
 			},
 
 			damage: 60,

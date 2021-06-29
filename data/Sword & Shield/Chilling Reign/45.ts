@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Ice Rider Calyrex V",
-		fr: "Sylveroy Cavalier du Froid V"
+		fr: "Sylveroy Cavalier du Froid V",
+		es: "Calyrex Jinete Glacial V",
+		it: "Calyrex Cavaliere Glaciale V",
+		pt: "Calyrex Cavaleiro Glacial V",
+		de: "Schimmelreiter-Coronospa V"
 	},
 
 	illustrator: "D.A.G Inc.",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pierce",
-			fr: "Transpercement"
+			fr: "Transpercement",
+			es: "Perforar",
+			it: "Perforare",
+			pt: "Perfurar",
+			de: "Durchbohren"
 		},
 
 		damage: 40,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Glacial Lance",
-			fr: "Lance de Glace"
+			fr: "Lance de Glace",
+			es: "Lanza Glacial",
+			it: "Lancia Glaciale",
+			pt: "Lança Glacial",
+			de: "Blizzardlanze"
 		},
 
 		effect: {
 			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon."
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
+			es: "Descarta 2 Energías de este Pokémon.",
+			it: "Scarta due Energie da questo Pokémon.",
+			pt: "Descarte 2 Energias deste Pokémon.",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 200,

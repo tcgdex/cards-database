@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Electivire",
-		fr: "Élekable"
+		fr: "Élekable",
+		es: "Electivire",
+		it: "Electivire",
+		pt: "Electivire",
+		de: "Elevoltek"
 	},
 
 	illustrator: "Megumi Higuchi",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Tumbling Attack",
-			fr: "Attaque Trébuchante"
+			fr: "Attaque Trébuchante",
+			es: "Ataque Tambaleante",
+			it: "Attacco Capriola",
+			pt: "Ataque Cambalhota",
+			de: "Taumler"
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires."
+			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+",
@@ -36,12 +48,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Lightning Slam",
-			fr: "Tacle Foudroyant"
+			fr: "Tacle Foudroyant",
+			es: "Golpe Rayo",
+			it: "Fulmischianto",
+			pt: "Pancada de Raios",
+			de: "Wuchtiger Einschlag"
 		},
 
 		effect: {
 			en: "During your next turn, this Pokémon can’t use Lightning Slam.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Tacle Foudroyant."
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Tacle Foudroyant.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Rayo.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Fulmischianto.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Pancada de Raios.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Wuchtiger Einschlag nicht einsetzen."
 		},
 
 		damage: 180,

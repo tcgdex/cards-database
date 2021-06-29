@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Grookey",
 		fr: "Ouistempo",
+		es: "Grookey",
+		it: "Grookey",
+		pt: "Grookey",
+		de: "Chimpep"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				es: "Toque",
+				it: "Battuta",
+				pt: "Pulso",
+				de: "Verprügler"
 			},
 
 			damage: 20,

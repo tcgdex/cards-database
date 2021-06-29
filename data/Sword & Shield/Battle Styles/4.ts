@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Cacnea",
-		fr: "Cacnea"
+		fr: "Cacnea",
+		es: "Cacnea",
+		it: "Cacnea",
+		pt: "Cacnea",
+		de: "Tuska"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Zzzt",
-			fr: "Bzzz"
+			fr: "Bzzz",
+			es: "Bzzz",
+			it: "Bzzz",
+			pt: "Bzzz",
+			de: "Piiieks"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Beat",
-			fr: "Bataille"
+			fr: "Bataille",
+			es: "Toque",
+			it: "Battuta",
+			pt: "Pulso",
+			de: "Verprügler"
 		},
 
 		damage: 20,

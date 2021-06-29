@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Baltoy",
 		fr: "Balbuto",
+		es: "Baltoy",
+		it: "Baltoy",
+		pt: "Baltoy",
+		de: "Puppance"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				es: "Ataque Giratorio",
+				it: "Attacco Rotante",
+				pt: "Ataque Giratório",
+				de: "Rundumangriff"
 			},
 
 			damage: 20,

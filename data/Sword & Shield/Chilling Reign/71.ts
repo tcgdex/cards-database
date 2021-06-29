@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Hatenna",
-		fr: "Bibichut"
+		fr: "Bibichut",
+		es: "Hatenna",
+		it: "Hatenna",
+		pt: "Hatenna",
+		de: "Brimova"
 	},
 
 	illustrator: "Sekio",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Psyshot",
-			fr: "Piqûre Psy"
+			fr: "Piqûre Psy",
+			es: "Disparo Psi",
+			it: "Psicosparo",
+			pt: "Tiro Psíquico",
+			de: "Psychoschuss"
 		},
 
 		damage: 20,

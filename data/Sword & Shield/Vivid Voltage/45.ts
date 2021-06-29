@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		es: "Voltorb",
+		it: "Voltorb",
+		pt: "Voltorb",
+		de: "Voltobal"
 	},
 
 	illustrator: "Sekio",
@@ -25,7 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Electro Ball",
-				fr: "Boule Élek"
+				fr: "Boule Élek",
+				es: "Bola Voltio",
+				it: "Energisfera",
+				pt: "Bola Elétrica",
+				de: "Elektroball"
 			},
 
 			damage: 40,

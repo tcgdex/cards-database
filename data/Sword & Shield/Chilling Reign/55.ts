@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Gastly",
-		fr: "Fantominus"
+		fr: "Fantominus",
+		es: "Gastly",
+		it: "Gastly",
+		pt: "Gastly",
+		de: "Nebulak"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Sleep Pulse",
-			fr: "Pouls Dodo"
+			fr: "Pouls Dodo",
+			es: "Pulso Soñoliento",
+			it: "Sonnopulsar",
+			pt: "Pulso Sonolento",
+			de: "Schlafimpuls"
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Asleep.",
-			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Endormi."
+			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido.",
+			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato.",
+			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido.",
+			de: "Wirf 1 Münze. Bei Kopf schläft das Aktive Pokémon deines Gegners jetzt."
 		},
 
 		damage: 10,

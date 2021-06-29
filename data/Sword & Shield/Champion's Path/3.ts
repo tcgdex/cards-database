@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Kakuna",
-		fr: "Coconfort"
+		fr: "Coconfort",
+		es: "Kakuna",
+		it: "Kakuna",
+		pt: "Kakuna",
+		de: "Kokuna"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bug Bite",
-				fr: "Piqûre"
+				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 30,

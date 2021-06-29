@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Silicobra",
 		fr: "Dunaja",
+		es: "Silicobra",
+		it: "Silicobra",
+		pt: "Silicobra",
+		de: "Salanga"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d’Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue Battoir",
+				es: "Coletón",
+				it: "Codabotta",
+				pt: "Surra de Cauda",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 20,

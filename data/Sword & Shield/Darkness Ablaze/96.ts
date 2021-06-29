@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Diggersby",
-		fr: "Excavarenne"
+		fr: "Excavarenne",
+		es: "Diggersby",
+		it: "Diggersby",
+		pt: "Diggersby",
+		de: "Grebbit"
 	},
 
 	illustrator: "0313",
@@ -31,7 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
-				fr: "Enfoncement"
+				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 90,
@@ -46,7 +54,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Crush",
-				fr: "Écras’Terre"
+				fr: "Écras’Terre",
+				es: "Aterrizaje",
+				it: "Schiacciaterra",
+				pt: "Aperto de Terra",
+				de: "Schollenbrecher"
 			},
 
 			damage: 140,

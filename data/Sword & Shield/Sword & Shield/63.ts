@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Snom",
 		fr: "Frissonille",
+		es: "Snom",
+		it: "Snom",
+		pt: "Snom",
+		de: "Snomnom"
 	},
 
 	illustrator: "Mina Nakai",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,

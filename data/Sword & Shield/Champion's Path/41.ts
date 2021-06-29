@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Scraggy",
-		fr: "Baggiguane"
+		fr: "Baggiguane",
+		es: "Scraggy",
+		it: "Scraggy",
+		pt: "Scraggy",
+		de: "Zurrokex"
 	},
 
 	illustrator: "miki kudo",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
-				fr: "Ruée"
+				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 20,

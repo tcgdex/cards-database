@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Melmetal",
-		fr: "Melmetal"
+		fr: "Melmetal",
+		es: "Melmetal",
+		it: "Melmetal",
+		pt: "Melmetal",
+		de: "Melmetal"
 	},
 
 	illustrator: "NC Empire",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Link",
-				fr: "Chaîne d’Énergie"
+				fr: "Chaîne d’Énergie",
+				es: "Vínculo de Energía",
+				it: "Legame Energetico",
+				pt: "Elo de Energia",
+				de: "Energie-Verbindung"
 			},
 			effect: {
 				en: "Attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon."
+				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				es: "Une 1 carta de Energía de tu pila de descartes a este Pokémon.",
+				it: "Assegna a questo Pokémon una carta Energia dalla tua pila degli scarti.",
+				pt: "Ligue 1 carta de Energia da sua pilha de descarte a este Pokémon.",
+				de: "Lege 1 Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -47,7 +59,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Impact",
-				fr: "Gros Impact"
+				fr: "Gros Impact",
+				es: "Impacto Pesado",
+				it: "Impatto Pesante",
+				pt: "Impacto Pesado",
+				de: "Schwerer Einschlag"
 			},
 
 			damage: 130,

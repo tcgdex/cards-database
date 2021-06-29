@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Tournicoton",
-		en: "Gossifleur"
+		en: "Gossifleur",
+		es: "Gossifleur",
+		it: "Gossifleur",
+		pt: "Gossifleur",
+		de: "Cottini"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Feuillage",
-			en: "Leafage"
+			en: "Leafage",
+			es: "Follaje",
+			it: "Fogliame",
+			pt: "Folhagem",
+			de: "Blattwerk"
 		},
 
 		damage: 10,

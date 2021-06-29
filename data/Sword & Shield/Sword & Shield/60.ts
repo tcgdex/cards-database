@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Chewtle",
 		fr: "Khélocrok",
+		es: "Chewtle",
+		it: "Chewtle",
+		pt: "Chewtle",
+		de: "Kamehaps"
 	},
 
 	illustrator: "Mina Nakai",
@@ -28,6 +32,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 30,
@@ -42,6 +50,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 50,

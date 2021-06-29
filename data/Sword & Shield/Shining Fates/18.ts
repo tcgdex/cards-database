@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Pyrobut V",
-		en: "Cinderace V"
+		en: "Cinderace V",
+		es: "Cinderace V",
+		it: "Cinderace V",
+		pt: "Cinderace V",
+		de: "Liberlo V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,19 +24,31 @@ const card: Card = {
 
 		name: {
 			fr: "Coureur de Fond",
-			en: "Field Runner"
+			en: "Field Runner",
+			es: "Corredor de Campo",
+			it: "[Ability] Corridore",
+			pt: "[Ability] Corredor Campal",
+			de: "Feldspieler"
 		},
 
 		effect: {
 			fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite.",
-			en: "If a Stadium is in play, this Pokémon has no Retreat Cost."
+			en: "If a Stadium is in play, this Pokémon has no Retreat Cost.",
+			es: "Si hay un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
+			it: "Se c’è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
+			pt: "Se um Estádio estiver em jogo, este Pokémon não terá custo de Recuo.",
+			de: "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten."
 		}
 	}],
 
 	attacks: [{
 		name: {
 			fr: "Jambes Carmin",
-			en: "Crimson Legs"
+			en: "Crimson Legs",
+			es: "Extremidades Carmesís",
+			it: "Arti Incandescenti",
+			pt: "Pernas Carmesins",
+			de: "Rote Beine"
 		},
 
 		damage: 140,

@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Beartic",
-		fr: "Polagriffe"
+		fr: "Polagriffe",
+		es: "Beartic",
+		it: "Beartic",
+		pt: "Beartic",
+		de: "Siberio"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 40,
@@ -44,11 +52,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Frozen Slice",
-				fr: "Tranche Gelée"
+				fr: "Tranche Gelée",
+				es: "Tajo Congelado",
+				it: "Tagliaghiaccio",
+				pt: "Corte Congelado",
+				de: "Frostschneide"
 			},
 			effect: {
 				en: "This Pokémon also does 50 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 50 dégâts."
+				fr: "Ce Pokémon s’inflige aussi 50 dégâts.",
+				es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge anche 50 danni a se stesso.",
+				pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 150,
 

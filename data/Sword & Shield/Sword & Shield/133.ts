@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		es: "Pawniard",
+		it: "Pawniard",
+		pt: "Pawniard",
+		de: "Gladiantri"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Cut Up",
 				fr: "Découpage",
+				es: "Trocear",
+				it: "Tagliuzzamento",
+				pt: "Dilacerar",
+				de: "Zerhäckseln"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Metal Claw",
 				fr: "Griffe Acier",
+				es: "Garra Metal",
+				it: "Ferrartigli",
+				pt: "Garra de Metal",
+				de: "Metallklaue"
 			},
 
 			damage: 20,

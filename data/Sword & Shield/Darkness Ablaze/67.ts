@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Jigglypuff",
-		fr: "Rondoudou"
+		fr: "Rondoudou",
+		es: "Jigglypuff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
+		de: "Pummeluff"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mumble",
-				fr: "Murmure"
+				fr: "Murmure",
+				es: "Farfullar",
+				it: "Borbottio",
+				pt: "Resmungo",
+				de: "Grummeln"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Kick",
-				fr: "Coup d’Pied Lunaire"
+				fr: "Coup d’Pied Lunaire",
+				es: "Patada Lunar",
+				it: "Calcioluna",
+				pt: "Chute Lunar",
+				de: "Mondkick"
 			},
 
 			damage: 20,

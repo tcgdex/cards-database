@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Blipbug",
 		fr: "Larvadar",
+		es: "Blipbug",
+		it: "Blipbug",
+		pt: "Blipbug",
+		de: "Sensect"
 	},
 
 	illustrator: "nagimiso",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 20,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ferroseed",
 		fr: "Grindur",
+		es: "Ferroseed",
+		it: "Ferroseed",
+		pt: "Ferroseed",
+		de: "Kastadur"
 	},
 
 	illustrator: "Yuka Morii",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Rodar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 10,

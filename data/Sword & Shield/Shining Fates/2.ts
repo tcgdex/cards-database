@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Yanmega",
-		en: "Yanmega"
+		en: "Yanmega",
+		es: "Yanmega",
+		it: "Yanmega",
+		pt: "Yanmega",
+		de: "Yanmega"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Piqûre",
-			en: "Bug Bite"
+			en: "Bug Bite",
+			es: "Picadura",
+			it: "Coleomorso",
+			pt: "Picada",
+			de: "Käferbiss"
 		},
 
 		damage: 30,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Descente en Piqué",
-			en: "Nosedive"
+			en: "Nosedive",
+			es: "Ataque en Picado",
+			it: "Rapidiscesa",
+			pt: "Mergulhar de Bico",
+			de: "Sturzflugangriff"
 		},
 
 		effect: {
 			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
-			en: "This Pokémon also does 30 damage to itself."
+			en: "This Pokémon also does 30 damage to itself.",
+			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120,
@@ -48,7 +64,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	regulationMark: "E"
+	regulationMark: "E",
+	retreat: 0
 }
 
 export default card

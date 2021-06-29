@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		es: "Koffing",
+		it: "Koffing",
+		pt: "Koffing",
+		de: "Smogon"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Suffocating Gas",
-				fr: "Gaz Suffocant"
+				fr: "Gaz Suffocant",
+				es: "Gas Sofocante",
+				it: "Gas Soffocante",
+				pt: "Gás Asfixiante",
+				de: "Würgegas"
 			},
 
 			damage: 10,

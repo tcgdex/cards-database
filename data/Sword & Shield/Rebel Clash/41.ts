@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Wingull",
-		fr: "Goélise"
+		fr: "Goélise",
+		es: "Wingull",
+		it: "Wingull",
+		pt: "Wingull",
+		de: "Wingull"
 	},
 
 	illustrator: "0313",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collecte"
+				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -34,7 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
-				fr: "Grosse Vague"
+				fr: "Grosse Vague",
+				es: "Chapoteo Ondulante",
+				it: "Schizzi d’Onda",
+				pt: "Onda Borrifante",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,

@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Carkol",
-		fr: "Wagomine"
+		fr: "Wagomine",
+		es: "Carkol",
+		it: "Carkol",
+		pt: "Carkol",
+		de: "Wagong"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 30,
@@ -39,7 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Crash",
-				fr: "Tacle Feu"
+				fr: "Tacle Feu",
+				es: "Golpe Calor",
+				it: "Marchiafuoco",
+				pt: "Choque de Calor",
+				de: "Brandstempel"
 			},
 
 			damage: 60,

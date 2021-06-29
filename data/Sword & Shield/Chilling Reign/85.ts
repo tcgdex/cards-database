@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Crabominable",
-		fr: "Crabominable"
+		fr: "Crabominable",
+		es: "Crabominable",
+		it: "Crabominable",
+		pt: "Crabominable",
+		de: "Krawell"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Double Lariat",
-			fr: "Double Lasso"
+			fr: "Double Lasso",
+			es: "Doble Lazo",
+			it: "Doppio Lazzo",
+			pt: "Laço Duplo",
+			de: "Doppel-Lasso"
 		},
 
 		effect: {
 			en: "Flip 2 coins. This attack does 90 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
+			es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
+			it: "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
+			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "90×",
@@ -36,7 +48,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Crabhammer",
-			fr: "Pince-Masse"
+			fr: "Pince-Masse",
+			es: "Martillazo",
+			it: "Martellata",
+			pt: "Martelo Caranguejo",
+			de: "Krabbhammer"
 		},
 
 		damage: 130,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Pignite",
-		fr: "Grotichon"
+		fr: "Grotichon",
+		es: "Pignite",
+		it: "Pignite",
+		pt: "Pignite",
+		de: "Ferkokel"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Ram",
-			fr: "Collision"
+			fr: "Collision",
+			es: "Apisonar",
+			it: "Carica",
+			pt: "Aríete",
+			de: "Ramme"
 		},
 
 		damage: 30,
@@ -31,7 +39,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Combustion",
-			fr: "Fournaise"
+			fr: "Fournaise",
+			es: "Combustión",
+			it: "Fuoco Continuo",
+			pt: "Combustão",
+			de: "Glühen"
 		},
 
 		damage: 90,

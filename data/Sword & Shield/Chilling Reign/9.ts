@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Snover",
-		fr: "Blizzi"
+		fr: "Blizzi",
+		es: "Snover",
+		it: "Snover",
+		pt: "Snover",
+		de: "Shnebedeck"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Whap Down",
-			fr: "Assommer"
+			fr: "Assommer",
+			es: "Zurrar",
+			it: "Bastonata",
+			pt: "Golpe Ligeiro",
+			de: "Verdreschen"
 		},
 
 		damage: 60,

@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Hop",
-		fr: "Nabil"
+		fr: "Nabil",
+		es: "Paul",
+		it: "Hop",
+		pt: "Lupo",
+		de: "Hop"
 	},
 
 	illustrator: "Naoki Saito",
@@ -14,7 +18,11 @@ const card: Card = {
 
 	effect: {
 		en: "Draw 3 cards.",
-		fr: "Piochez 3 cartes."
+		fr: "Piochez 3 cartes.",
+		es: "Roba 3 cartas.",
+		it: "Pesca tre carte.",
+		pt: "Compre 3 cartas.",
+		de: "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

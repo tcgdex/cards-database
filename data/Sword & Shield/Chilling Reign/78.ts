@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Galarian Farfetch’d",
-		fr: "Canarticho de Galar"
+		fr: "Canarticho de Galar",
+		es: "Farfetch’d de Galar",
+		it: "Farfetch’d di Galar",
+		pt: "Farfetch’d de Galar",
+		de: "Galar-Porenta"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Puncture",
-			fr: "Perforation"
+			fr: "Perforation",
+			es: "Pinchazo",
+			it: "Perforazione",
+			pt: "Perfuração",
+			de: "Durchdringen"
 		},
 
 		effect: {
 			en: "This attack’s damage isn’t affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			es: "El daño de este ataque no se ve afectado por Resistencia.",
+			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
+			pt: "O dano deste ataque não é afetado por Resistência.",
+			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 
 		damage: 20,

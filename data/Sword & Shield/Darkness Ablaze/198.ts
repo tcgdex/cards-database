@@ -4,11 +4,15 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Coalossal",
-		fr: "Monthracite"
+		fr: "Monthracite",
+		es: "Coalossal",
+		it: "Coalossal",
+		pt: "Coalossal",
+		de: "Montecarbo"
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 160,
@@ -27,11 +31,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Tar Generator",
-				fr: "Générateur de Poix"
+				fr: "Générateur de Poix",
+				es: "Generador Alquitrán",
+				it: "Generatore di Catrame",
+				pt: "Gerador de Piche",
+				de: "Teergenerator"
 			},
 			effect: {
 				en: "Once during your turn, you may attach a Fire Energy card, a Fighting Energy card, or 1 of each from your discard pile to your Pokémon in any way you like.",
-				fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Fire, une carte Énergie Fighting, ou une de chaque de votre pile de défausse à vos Pokémon, comme il vous plaît."
+				fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Fire, une carte Énergie Fighting, ou une de chaque de votre pile de défausse à vos Pokémon comme il vous plaît.",
+				es: "Una vez durante tu turno, puedes unir 1 carta de Energía Fire, 1 carta de Energía Fighting o 1 de cada una de tu pila de descartes a tus Pokémon de la manera que desees.",
+				it: "Una sola volta durante il tuo turno, puoi assegnare ai tuoi Pokémon una carta Energia Fire, una carta Energia Fighting o entrambe dalla tua pila degli scarti nel modo che preferisci.",
+				pt: "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Fire, 1 carta de Energia Fighting, ou 1 de cada da sua pilha de descarte aos seus Pokémon como desejar.",
+				de: "Einmal während deines Zuges kannst du 1 Fire-Energiekarte, 1 Fighting-Energiekarte oder von beiden 1 aus deinem Ablagestapel beliebig an deine Pokémon anlegen."
 			},
 		},
 	],
@@ -46,7 +58,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flaming Avalanche",
-				fr: "Avalanche Ardente"
+				fr: "Avalanche Ardente",
+				es: "Avalancha Flamígera",
+				it: "Slavina Fiammeggiante",
+				pt: "Avalanche Flamejante",
+				de: "Lodernde Lawine"
 			},
 
 			damage: 130,

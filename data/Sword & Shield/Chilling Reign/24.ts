@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Volcarona",
-		fr: "Pyrax"
+		fr: "Pyrax",
+		es: "Volcarona",
+		it: "Volcarona",
+		pt: "Volcarona",
+		de: "Ramoth"
 	},
 
 	illustrator: "Mika Pikazo",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Combustion",
-			fr: "Fournaise"
+			fr: "Fournaise",
+			es: "Combustión",
+			it: "Fuoco Continuo",
+			pt: "Combustão",
+			de: "Glühen"
 		},
 
 		damage: 50,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Fire Spin",
-			fr: "Danse Flammes"
+			fr: "Danse Flammes",
+			es: "Giro Fuego",
+			it: "Turbofuoco",
+			pt: "Chama Furacão",
+			de: "Feuerwirbel"
 		},
 
 		effect: {
 			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon."
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
+			es: "Descarta 2 Energías de este Pokémon.",
+			it: "Scarta due Energie da questo Pokémon.",
+			pt: "Descarte 2 Energias deste Pokémon.",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 170,

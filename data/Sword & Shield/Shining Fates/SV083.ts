@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Grimalin",
-		en: "Impidimp"
+		en: "Impidimp",
+		es: "Impidimp",
+		it: "Impidimp",
+		pt: "Impidimp",
+		de: "Bähmon"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Bataille",
-			en: "Beat"
+			en: "Beat",
+			es: "Toque",
+			it: "Battuta",
+			pt: "Pulso",
+			de: "Verprügler"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Ruée",
-			en: "Stampede"
+			en: "Stampede",
+			es: "Estampida",
+			it: "Fuggi Fuggi",
+			pt: "Estouro",
+			de: "Zertrampeln"
 		},
 
 		damage: 20,

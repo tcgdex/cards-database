@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Beedrill",
-		fr: "Dardargnan"
+		fr: "Dardargnan",
+		es: "Beedrill",
+		it: "Beedrill",
+		pt: "Beedrill",
+		de: "Bibor"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Jab",
-				fr: "Direct Toxik"
+				fr: "Direct Toxik",
+				es: "Puya Nociva",
+				it: "Velenpuntura",
+				pt: "Golpe Envenenado",
+				de: "Gifthieb"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 80,
 

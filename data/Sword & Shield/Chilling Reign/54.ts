@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Galarian Slowpoke",
-		fr: "Ramoloss de Galar"
+		fr: "Ramoloss de Galar",
+		es: "Slowpoke de Galar",
+		it: "Slowpoke di Galar",
+		pt: "Slowpoke de Galar",
+		de: "Galar-Flegmon"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Sharpness",
-			fr: "Intellection"
+			fr: "Intellection",
+			es: "Agudeza",
+			it: "Acume",
+			pt: "Espertinho",
+			de: "Schärfe"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Headbutt",
-			fr: "Coup d’Boule"
+			fr: "Coup d’Boule",
+			es: "Golpe Cabeza",
+			it: "Bottintesta",
+			pt: "Cabeçada",
+			de: "Kopfnuss"
 		},
 
 		damage: 20,

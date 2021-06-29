@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Blancoton",
-		en: "Eldegoss"
+		en: "Eldegoss",
+		es: "Eldegoss",
+		it: "Eldegoss",
+		pt: "Eldegoss",
+		de: "Cottomi"
 	},
 
 	illustrator: "Mizue",
@@ -23,19 +27,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Bénédiction Douillette",
-			en: "Blessing of Fluff"
+			en: "Blessing of Fluff",
+			es: "Bendición Sedosa",
+			it: "Preghiera della Morbidezza",
+			pt: "Benção da Fofura",
+			de: "Flauschsegen"
 		},
 
 		effect: {
 			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
-			en: "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck."
+			en: "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+			es: "Busca en tu baraja hasta 3 cartas de Energía Grass y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
+			it: "Cerca nel tuo mazzo fino a tre carte Energia Grass e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
+			pt: "Procure por até 3 cartas de Energia Grass no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
+			de: "Durchsuche dein Deck nach bis zu 3 Grass-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			fr: "Feuillage",
-			en: "Leafage"
+			en: "Leafage",
+			es: "Follaje",
+			it: "Fogliame",
+			pt: "Folhagem",
+			de: "Blattwerk"
 		},
 
 		damage: 30,

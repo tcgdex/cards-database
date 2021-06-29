@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Bunnelby",
-		fr: "Sapereau"
+		fr: "Sapereau",
+		es: "Bunnelby",
+		it: "Bunnelby",
+		pt: "Bunnelby",
+		de: "Scoppel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Burrow",
-				fr: "Terrier"
+				fr: "Terrier",
+				es: "Escarbar",
+				it: "Buca",
+				pt: "Toca",
+				de: "Verbuddeln"
 			},
 			effect: {
 				en: "Discard the top card of your opponent’s deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire."
+				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				es: "Descarta la primera carta de la baraja de tu rival.",
+				it: "Scarta la prima carta del mazzo del tuo avversario.",
+				pt: "Descarte a carta de cima do baralho do seu oponente.",
+				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -35,7 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt Bounce",
-				fr: "Culbute Surprise"
+				fr: "Culbute Surprise",
+				es: "Bote Cabezazo",
+				it: "Rimbalzo Bottintesta",
+				pt: "Cabeçada Ricochete",
+				de: "Abrupter Kopfstoß"
 			},
 
 			damage: 50,

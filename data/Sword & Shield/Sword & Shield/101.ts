@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Baltoy",
 		fr: "Balbuto",
+		es: "Baltoy",
+		it: "Baltoy",
+		pt: "Baltoy",
+		de: "Puppance"
 	},
 
 	illustrator: "Uta",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Beam",
 				fr: "Rayon",
+				es: "Transmisión",
+				it: "Raggio",
+				pt: "Feixe",
+				de: "Strahl"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Sand Spray",
 				fr: "Jet Sableux",
+				es: "Rociado de Arena",
+				it: "Silicospruzzo",
+				pt: "Spray de Areia",
+				de: "Sandspray"
 			},
 
 			damage: 30,

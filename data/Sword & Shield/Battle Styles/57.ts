@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Baltoy",
-		fr: "Balbuto"
+		fr: "Balbuto",
+		es: "Baltoy",
+		it: "Baltoy",
+		pt: "Baltoy",
+		de: "Puppance"
 	},
 
 	illustrator: "sui",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Self-Destruct",
-			fr: "Destruction"
+			fr: "Destruction",
+			es: "Autodestrucción",
+			it: "Autodistruzione",
+			pt: "Autodestruição",
+			de: "Finale"
 		},
 
 		effect: {
 			en: "This Pokémon also does 60 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 60 dégâts."
+			fr: "Ce Pokémon s’inflige aussi 60 dégâts.",
+			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
+			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
+			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
 		},
 
 		damage: 60,

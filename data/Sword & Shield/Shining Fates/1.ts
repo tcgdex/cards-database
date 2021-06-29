@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Yanma",
-		en: "Yanma"
+		en: "Yanma",
+		es: "Yanma",
+		it: "Yanma",
+		pt: "Yanma",
+		de: "Yanma"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Charge",
-			en: "Tackle"
+			en: "Tackle",
+			es: "Placaje",
+			it: "Azione",
+			pt: "Investida",
+			de: "Tackle"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Cru-Ailes",
-			en: "Wing Attack"
+			en: "Wing Attack",
+			es: "Ataque Ala",
+			it: "Attacco d’Ala",
+			pt: "Ataque de Asa",
+			de: "Flügelschlag"
 		},
 
 		damage: 30,

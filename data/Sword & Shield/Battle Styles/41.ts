@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Frillish",
-		fr: "Viskuse"
+		fr: "Viskuse",
+		es: "Frillish",
+		it: "Frillish",
+		pt: "Frillish",
+		de: "Quabbel"
 	},
 
 	illustrator: "miki kudo",
@@ -18,19 +22,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Recover",
-			fr: "Soin"
+			fr: "Soin",
+			es: "Recuperación",
+			it: "Ripresa",
+			pt: "Recuperação",
+			de: "Genesung"
 		},
 
 		effect: {
 			en: "Discard an Energy from this Pokémon and heal all damage from it.",
-			fr: "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon."
+			fr: "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon.",
+			es: "Descarta 1 Energía de este Pokémon y cura todos sus puntos de daño.",
+			it: "Scarta un’Energia da questo Pokémon e curalo da tutti i danni.",
+			pt: "Descarte 1 Energia deste Pokémon e cure todo o dano dele.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel und heile bei ihm allen Schaden."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Rain Splash",
-			fr: "Pluie Éclaboussante"
+			fr: "Pluie Éclaboussante",
+			es: "Golpe de Lluvia",
+			it: "Spruzzapioggia",
+			pt: "Chuva Borrifante",
+			de: "Regenplatscher"
 		},
 
 		damage: 10,

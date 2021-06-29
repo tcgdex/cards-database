@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		es: "Koffing",
+		it: "Koffing",
+		pt: "Koffing",
+		de: "Smogon"
 	},
 
 	illustrator: "Aya Kusube",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Smog",
-			fr: "Purédpois"
+			fr: "Purédpois",
+			es: "Polución",
+			it: "Smog",
+			pt: "Nevoeiro de Fumaça",
+			de: "Smog"
 		},
 
 		effect: {
 			en: "Your opponent’s Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 20,

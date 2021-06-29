@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Galarian Slowpoke",
-		fr: "Ramoloss de Galar"
+		fr: "Ramoloss de Galar",
+		es: "Slowpoke de Galar",
+		it: "Slowpoke di Galar",
+		pt: "Slowpoke de Galar",
+		de: "Galar-Flegmon"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Tantailizing",
-			fr: "Ragoûtant"
+			fr: "Ragoûtant",
+			es: "Cola Tentadora",
+			it: "Stuzzicoda",
+			pt: "Cauda Apetitosa",
+			de: "Ausschweifen"
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-			fr: "Lancez une pièce. Si c’est face, échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif."
+			fr: "Lancez une pièce. Si c’est face, échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+			es: "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+			it: "Lancia una moneta. Se esce testa, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+			pt: "Jogue 1 moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+			de: "Wirf 1 Münze. Tausche bei Kopf 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 		},
 
 		cost: ["Colorless"]

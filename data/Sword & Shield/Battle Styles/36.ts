@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Remoraid",
-		fr: "Rémoraid"
+		fr: "Rémoraid",
+		es: "Remoraid",
+		it: "Remoraid",
+		pt: "Remoraid",
+		de: "Remoraid"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Water Gun",
-			fr: "Pistolet à O"
+			fr: "Pistolet à O",
+			es: "Pistola Agua",
+			it: "Pistolacqua",
+			pt: "Revólver d’Água",
+			de: "Aquaknarre"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Sharp Fin",
-			fr: "Aileron Aiguisé"
+			fr: "Aileron Aiguisé",
+			es: "Cortaleta",
+			it: "Pinnaffilata",
+			pt: "Barbatana Afiada",
+			de: "Schneidige Flosse"
 		},
 
 		damage: 20,

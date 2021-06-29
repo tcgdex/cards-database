@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Vulpix",
 		fr: "Goupix",
+		es: "Vulpix",
+		it: "Vulpix",
+		pt: "Vulpix",
+		de: "Vulpix"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Chama",
+				de: "Flackern"
 			},
 
 			damage: 20,

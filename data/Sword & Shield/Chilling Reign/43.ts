@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Inteleon",
-		fr: "Lézargus"
+		fr: "Lézargus",
+		es: "Inteleon",
+		it: "Inteleon",
+		pt: "Inteleon",
+		de: "Intelleon"
 	},
 
 	illustrator: "NC Empire",
@@ -25,19 +29,31 @@ const card: Card = {
 
 		name: {
 			en: "Quick Shooting",
-			fr: "Tir Rapide"
+			fr: "Tir Rapide",
+			es: "Disparo Rápido",
+			it: "Tiro Istantaneo",
+			pt: "Gatilho Rápido",
+			de: "Schnellschütze"
 		},
 
 		effect: {
 			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent’s Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l’un des Pokémon de votre adversaire."
+			fr: "Une fois pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l’un des Pokémon de votre adversaire.",
+			es: "Una vez durante tu turno, puedes poner 2 contadores de daño en 1 de los Pokémon de tu rival.",
+			it: "Una sola volta durante il tuo turno, puoi mettere due segnalini danno su uno dei Pokémon del tuo avversario.",
+			pt: "Uma vez durante o seu turno, você poderá colocar 2 contadores de dano em 1 dos Pokémon do seu oponente.",
+			de: "Einmal während deines Zuges kannst du 2 Schadensmarken auf 1 Pokémon deines Gegners legen."
 		}
 	}],
 
 	attacks: [{
 		name: {
 			en: "Waterfall",
-			fr: "Cascade"
+			fr: "Cascade",
+			es: "Cascada",
+			it: "Cascata",
+			pt: "Cachoeira",
+			de: "Kaskade"
 		},
 
 		damage: 70,

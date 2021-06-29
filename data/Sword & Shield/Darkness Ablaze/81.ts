@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Mimikyu",
-		fr: "Mimiqui"
+		fr: "Mimiqui",
+		es: "Mimikyu",
+		it: "Mimikyu",
+		pt: "Mimikyu",
+		de: "Mimigma"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -22,11 +26,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Heal Jamming",
-				fr: "Soins Suspendus"
+				fr: "Soins Suspendus",
+				es: "Bloqueo Curación",
+				it: "Interferenza Malsana",
+				pt: "Interferência de Cura",
+				de: "Heilstörung"
 			},
 			effect: {
 				en: "Your opponent’s Benched Pokémon can’t be healed.",
-				fr: "Les Pokémon de Banc de votre adversaire ne peuvent pas être soignés."
+				fr: "Les Pokémon de Banc de votre adversaire ne peuvent pas être soignés.",
+				es: "Los Pokémon en Banca de tu rival no pueden ser curados.",
+				it: "I Pokémon nella panchina del tuo avversario non possono essere curati.",
+				pt: "Os Pokémon no Banco do seu oponente não podem ser curados.",
+				de: "Die Pokémon auf der Bank deines Gegners können nicht geheilt werden."
 			},
 		},
 	],
@@ -39,7 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
-				fr: "Tranch’Griffe"
+				fr: "Tranch’Griffe",
+				es: "Cuchillada Garra",
+				it: "Lacerartiglio",
+				pt: "Golpe de Garra",
+				de: "Klauenschlitzer"
 			},
 
 			damage: 30,

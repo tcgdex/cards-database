@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Clobbopus",
-		fr: "Poulpaf"
+		fr: "Poulpaf",
+		es: "Clobbopus",
+		it: "Clobbopus",
+		pt: "Clobbopus",
+		de: "Klopptopus"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				es: "Toque",
+				it: "Battuta",
+				pt: "Pulso",
+				de: "Verprügler"
 			},
 
 			damage: 20,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
-				fr: "Enfoncement"
+				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 40,

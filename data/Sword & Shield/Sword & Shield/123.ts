@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Croagunk",
 		fr: "Cradopaud",
+		es: "Croagunk",
+		it: "Croagunk",
+		pt: "Croagunk",
+		de: "Glibunkel"
 	},
 
 	illustrator: "otumami",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Stampede",
 				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Lunge Out",
 				fr: "Allonger",
+				es: "Arremeter",
+				it: "Affondo Lungo",
+				pt: "Bote",
+				de: "Sprungangriff"
 			},
 
 			damage: 30,

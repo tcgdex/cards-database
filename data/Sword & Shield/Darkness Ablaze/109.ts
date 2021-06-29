@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Zweilous",
-		fr: "Diamat"
+		fr: "Diamat",
+		es: "Zweilous",
+		it: "Zweilous",
+		pt: "Zweilous",
+		de: "Duodino"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon"
+				fr: "Poing Tire-Bouchon",
+				es: "Puño Tirabuzón",
+				it: "Pugno Rotante",
+				pt: "Soco Saca-rolha",
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 30,
@@ -44,7 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Darkness Fang",
-				fr: "Croc Obscur"
+				fr: "Croc Obscur",
+				es: "Colmillo de Oscuridad",
+				it: "Oscurizanna",
+				pt: "Presa Sombria",
+				de: "Fänge der Dunkelheit"
 			},
 
 			damage: 70,

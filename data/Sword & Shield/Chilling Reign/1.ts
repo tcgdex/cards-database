@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Weedle",
-		fr: "Aspicot"
+		fr: "Aspicot",
+		es: "Weedle",
+		it: "Weedle",
+		pt: "Weedle",
+		de: "Hornliu"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pierce",
-			fr: "Transpercement"
+			fr: "Transpercement",
+			es: "Perforar",
+			it: "Perforare",
+			pt: "Perfurar",
+			de: "Durchbohren"
 		},
 
 		damage: 20,

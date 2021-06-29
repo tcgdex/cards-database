@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mudbray",
 		fr: "Tiboudet",
+		es: "Mudbray",
+		it: "Mudbray",
+		pt: "Mudbray",
+		de: "Pampuli"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Stampede",
 				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Rear Kick",
 				fr: "Ruade",
+				es: "Patada Trasera",
+				it: "Retrocalcio",
+				pt: "Chute Traseiro",
+				de: "Rückwärtskick"
 			},
 
 			damage: 30,

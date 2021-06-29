@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Metang",
-		fr: "Métang"
+		fr: "Métang",
+		es: "Metang",
+		it: "Metang",
+		pt: "Metang",
+		de: "Metang"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
-				fr: "Griffe Acier"
+				fr: "Griffe Acier",
+				es: "Garra Metal",
+				it: "Ferrartigli",
+				pt: "Garra de Metal",
+				de: "Metallklaue"
 			},
 
 			damage: 30,
@@ -44,7 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnetic Blast",
-				fr: "Explosion Magnétique"
+				fr: "Explosion Magnétique",
+				es: "Explosión Magnética",
+				it: "Magnetebomba",
+				pt: "Explosão Magnética",
+				de: "Magnetstoß"
 			},
 
 			damage: 60,

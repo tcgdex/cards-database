@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Dracovish",
-		fr: "Hydragon"
+		fr: "Hydragon",
+		es: "Dracovish",
+		it: "Dracovish",
+		pt: "Dracovish",
+		de: "Pescragon"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -27,11 +31,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Primal Law",
-				fr: "Loi Primordiale"
+				fr: "Loi Primordiale",
+				es: "Ley Primigenia",
+				it: "Legge Primordiale",
+				pt: "Lei Primitiva",
+				de: "Urzeitgesetz"
 			},
 			effect: {
 				en: "As long as this Pokémon is in the Active Spot, your opponent can’t play any Pokémon from their hand to evolve their Pokémon.",
-				fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon."
+				fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon.",
+				es: "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ningún Pokémon de su mano para hacer evolucionar a sus Pokémon.",
+				it: "Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare i Pokémon che ha in mano per far evolvere i suoi Pokémon.",
+				pt: "Enquanto este Pokémon estiver no Campo Ativo, seu oponente não poderá jogar nenhum Pokémon da própria mão para evoluir os Pokémon dele(a).",
+				de: "Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner keine Pokémon aus seiner Hand spielen, um seine Pokémon zu entwickeln."
 			},
 		},
 	],
@@ -45,7 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
-				fr: "Enfoncement"
+				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 120,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Rongourmand",
-		en: "Skwovet"
+		en: "Skwovet",
+		es: "Skwovet",
+		it: "Skwovet",
+		pt: "Skwovet",
+		de: "Raffel"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Charge",
-			en: "Tackle"
+			en: "Tackle",
+			es: "Placaje",
+			it: "Azione",
+			pt: "Investida",
+			de: "Tackle"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Morsure",
-			en: "Bite"
+			en: "Bite",
+			es: "Mordisco",
+			it: "Morso",
+			pt: "Mordida",
+			de: "Biss"
 		},
 
 		damage: 20,

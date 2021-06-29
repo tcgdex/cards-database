@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Thwackey",
-		fr: "Badabouin"
+		fr: "Badabouin",
+		es: "Thwackey",
+		it: "Thwackey",
+		pt: "Thwackey",
+		de: "Chimstix"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Knock Off",
-			fr: "Sabotage"
+			fr: "Sabotage",
+			es: "Desarme",
+			it: "Privazione",
+			pt: "Derrubar",
+			de: "Abschlag"
 		},
 
 		effect: {
 			en: "Discard a random card from your opponent’s hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire."
+			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
+			it: "Scarta una carta a caso dalla mano del tuo avversario.",
+			pt: "Descarte 1 carta aleatória da mão do seu oponente.",
+			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 30,

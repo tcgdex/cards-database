@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Blitzle",
-		fr: "Zébibron"
+		fr: "Zébibron",
+		es: "Blitzle",
+		it: "Blitzle",
+		pt: "Blitzle",
+		de: "Elezeba"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Zap Kick",
-				fr: "Coup de Pied Ravageur"
+				fr: "Coup de Pied Ravageur",
+				es: "Electropatada",
+				it: "Dinamocalcio",
+				pt: "Chute Zap",
+				de: "Stromtritt"
 			},
 
 			damage: 20,

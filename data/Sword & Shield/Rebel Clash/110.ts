@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Falinks V",
-		fr: "Hexadron V"
+		fr: "Hexadron V",
+		es: "Falinks V",
+		it: "Falinks V",
+		pt: "Falinks V",
+		de: "Legios V"
 	},
 
 	illustrator: "aky CG Works",
@@ -17,11 +21,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Iron Defense Formation",
-				fr: "Escadron Mur de Fer"
+				fr: "Escadron Mur de Fer",
+				es: "",
+				it: "",
+				pt: "",
+				de: ""
 			},
 			effect: {
 				en: "All of your Pokémon that have \"Falinks\" in their name take 20 less damage from your opponent’s attacks (after applying Weakness and Resistance).",
-				fr: "Tous vos Pokémon ayant « Hexadron » dans leur nom subissent 20 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance)."
+				fr: "Tous vos Pokémon ayant « Hexadron » dans leur nom subissent 20 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance).",
+				es: "",
+				it: "",
+				pt: "",
+				de: ""
 			},
 		},
 	],
@@ -35,11 +47,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Giga Impact",
-				fr: "Giga Impact"
+				fr: "Giga Impact",
+				es: "Gigaimpacto",
+				it: "Gigaimpatto",
+				pt: "Gigaimpacto",
+				de: "Gigastoß"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can't attack.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+				en: "During your next turn, this Pokémon can’t attack.",
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 210,
 

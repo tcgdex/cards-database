@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Crabrawler",
-		fr: "Crabagarre"
+		fr: "Crabagarre",
+		es: "Crabrawler",
+		it: "Crabrawler",
+		pt: "Crabrawler",
+		de: "Krabbox"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Light Punch",
-			fr: "Poing Léger"
+			fr: "Poing Léger",
+			es: "Puño Ligero",
+			it: "Pugnetto",
+			pt: "Soco de Luz",
+			de: "Leichter Hieb"
 		},
 
 		damage: 20,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Double Lariat",
-			fr: "Double Lasso"
+			fr: "Double Lasso",
+			es: "Doble Lazo",
+			it: "Doppio Lazzo",
+			pt: "Laço Duplo",
+			de: "Doppel-Lasso"
 		},
 
 		effect: {
 			en: "Flip 2 coins. This attack does 40 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "40×",

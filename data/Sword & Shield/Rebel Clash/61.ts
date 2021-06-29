@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Luxio",
-		fr: "Luxio"
+		fr: "Luxio",
+		es: "Luxio",
+		it: "Luxio",
+		pt: "Luxio",
+		de: "Luxio"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -22,11 +26,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Top Entry",
-				fr: "Tombé de Haut"
+				fr: "Tombé de Haut",
+				es: "Entrada Superior",
+				it: "Primacima",
+				pt: "Entrada Superior",
+				de: "Einzug"
 			},
 			effect: {
-				en: "Once during your turn, if you drew this Pokémon from your deck at the beginning of your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench.",
-				fr: "Une fois pendant votre tour, si vous avez pioché ce Pokémon de votre deck au début de votre tour, et si votre Banc n’est pas plein, plutôt que d’ajouter cette carte à votre main, vous pouvez la placer sur votre Banc."
+				en: "Once during your turn, if you drew this Pokémon from your deck at the beginning of your turn and your Bench isn’t full, before you put it into your hand, you may put it onto your Bench.",
+				fr: "Une fois pendant votre tour, si vous avez pioché ce Pokémon de votre deck au début de votre tour, et si votre Banc n’est pas plein, plutôt que d’ajouter cette carte à votre main, vous pouvez la placer sur votre Banc.",
+				es: "Una vez durante tu turno, si has robado este Pokémon de tu baraja al principio de tu turno y tu Banca no está llena, antes de ponerlo en tu mano, puedes ponerlo en tu Banca.",
+				it: "Una sola volta durante il tuo turno, se hai pescato questo Pokémon dal tuo mazzo all’inizio del tuo turno e la tua panchina non è piena, prima di aggiungerlo alle carte che hai in mano, puoi metterlo nella tua panchina.",
+				pt: "Uma vez durante o seu turno, se você tiver comprado este Pokémon do seu baralho no começo do seu turno e o seu Banco não estiver cheio, antes de colocá-lo na sua mão, você poderá colocá-lo no seu Banco.",
+				de: "Einmal während deines Zuges, wenn du zu Beginn deines Zuges dieses Pokémon von deinem Deck gezogen hast und deine Bank nicht voll ist, bevor du es auf deine Hand nimmst, kannst du es auf deine Bank legen."
 			},
 		},
 	],
@@ -38,7 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Zap Kick",
-				fr: "Coup de Pied Ravageur"
+				fr: "Coup de Pied Ravageur",
+				es: "Electropatada",
+				it: "Dinamocalcio",
+				pt: "Chute Zap",
+				de: "Stromtritt"
 			},
 
 			damage: 30,

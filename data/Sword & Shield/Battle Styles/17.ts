@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Blipbug",
-		fr: "Larvadar"
+		fr: "Larvadar",
+		es: "Blipbug",
+		it: "Blipbug",
+		pt: "Blipbug",
+		de: "Sensect"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Stampede",
-			fr: "Ruée"
+			fr: "Ruée",
+			es: "Estampida",
+			it: "Fuggi Fuggi",
+			pt: "Estouro",
+			de: "Zertrampeln"
 		},
 
 		damage: 10,

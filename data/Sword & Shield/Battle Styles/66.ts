@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		es: "Mankey",
+		it: "Mankey",
+		pt: "Mankey",
+		de: "Menki"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Focus Fist",
-			fr: "Poing Concentré"
+			fr: "Poing Concentré",
+			es: "Puño Infalible",
+			it: "Concentrapugno",
+			pt: "Punho Focalizado",
+			de: "Fokussierfaust"
 		},
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 50,

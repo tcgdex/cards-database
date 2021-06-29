@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Nickit",
-		fr: "Goupilou"
+		fr: "Goupilou",
+		es: "Nickit",
+		it: "Nickit",
+		pt: "Nickit",
+		de: "Kleptifux"
 	},
 
 	illustrator: "Naoki Saito",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Filch",
-				fr: "Maraudage"
+				fr: "Maraudage",
+				es: "Birlar",
+				it: "Furtarello",
+				pt: "Furtar",
+				de: "Mopsen"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -39,7 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Smack",
-				fr: "Coup de Queue"
+				fr: "Coup de Queue",
+				es: "Bofetón Cola",
+				it: "Codasberla",
+				pt: "Ataque de Cauda",
+				de: "Schweifschlag"
 			},
 
 			damage: 30,

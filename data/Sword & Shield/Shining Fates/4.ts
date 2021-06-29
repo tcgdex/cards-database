@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Cacnea",
-		en: "Cacnea"
+		en: "Cacnea",
+		es: "Cacnea",
+		it: "Cacnea",
+		pt: "Cacnea",
+		de: "Tuska"
 	},
 
 	illustrator: "Uta",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Transpercement",
-			en: "Pierce"
+			en: "Pierce",
+			es: "Perforar",
+			it: "Perforare",
+			pt: "Perfurar",
+			de: "Durchbohren"
 		},
 
 		damage: 50,

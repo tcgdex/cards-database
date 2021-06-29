@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Impidimp",
-		fr: "Grimalin"
+		fr: "Grimalin",
+		es: "Impidimp",
+		it: "Impidimp",
+		pt: "Impidimp",
+		de: "Bähmon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				es: "Toque",
+				it: "Battuta",
+				pt: "Pulso",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -32,7 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
-				fr: "Ruée"
+				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 20,

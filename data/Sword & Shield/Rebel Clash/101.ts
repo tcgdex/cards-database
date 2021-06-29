@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Galarian Yamask",
-		fr: "Tutafeh de Galar"
+		fr: "Tutafeh de Galar",
+		es: "Yamask de Galar",
+		it: "Yamask di Galar",
+		pt: "Yamask de Galar",
+		de: "Galar-Makabaja"
 	},
 
 	illustrator: "Akira Komayama",
@@ -20,11 +24,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Reckless Charge",
-				fr: "Attaque Imprudente"
+				fr: "Attaque Imprudente",
+				es: "Carga Descuidada",
+				it: "Carica Avventata",
+				pt: "Carga Indomável",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 30 dégâts."
+				fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 50,
 

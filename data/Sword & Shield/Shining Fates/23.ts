@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Mustéflott",
-		en: "Floatzel"
+		en: "Floatzel",
+		es: "Floatzel",
+		it: "Floatzel",
+		pt: "Floatzel",
+		de: "Bojelin"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Surf",
-			en: "Surf"
+			en: "Surf",
+			es: "Surf",
+			it: "Surf",
+			pt: "Surfar",
+			de: "Surfer"
 		},
 
 		damage: 50,

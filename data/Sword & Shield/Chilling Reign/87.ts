@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Lycanroc",
-		fr: "Lougaroc"
+		fr: "Lougaroc",
+		es: "Lycanroc",
+		it: "Lycanroc",
+		pt: "Lycanroc",
+		de: "Wolwerock"
 	},
 
 	illustrator: "Teeziro",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Rogue Fangs",
-			fr: "Crocs Fougueux"
+			fr: "Crocs Fougueux",
+			es: "Colmillos Malvados",
+			it: "Zanne Ferali",
+			pt: "Presas Trapaceiras",
+			de: "Schurkische Fänge"
 		},
 
 		effect: {
 			en: "This attack does 10 more damage for each Single Strike Pokémon in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon Poing Final dans votre pile de défausse."
+			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon Poing Final dans votre pile de défausse.",
+			es: "Este ataque hace 10 puntos de daño más por cada Pokémon Golpe Brusco en tu pila de descartes.",
+			it: "Questo attacco infligge 10 danni in più per ogni Pokémon Colpo Singolo nella tua pila degli scarti.",
+			pt: "Este ataque causa 10 pontos de dano a mais para cada Pokémon Golpe Decisivo na sua pilha de descarte.",
+			de: "Diese Attacke fügt für jedes Fokussierter-Angriff-Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+",

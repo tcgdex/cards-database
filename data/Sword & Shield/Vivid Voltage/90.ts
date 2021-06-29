@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Riolu",
-		fr: "Riolu"
+		fr: "Riolu",
+		es: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+		de: "Riolu"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Best Punch",
-				fr: "Coup de Poing Ultime"
+				fr: "Coup de Poing Ultime",
+				es: "Mejor Puñetazo",
+				it: "Migliorpugno",
+				pt: "Soco Absoluto",
+				de: "Bester Schlag"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 30,
 

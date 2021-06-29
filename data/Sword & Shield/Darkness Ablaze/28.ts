@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Galarian Darmanitan",
-		fr: "Darumacho de Galar"
+		fr: "Darumacho de Galar",
+		es: "Darmanitan de Galar",
+		it: "Darmanitan di Galar",
+		pt: "Darmanitan de Galar",
+		de: "Galar-Flampivian"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d’Boule"
+				fr: "Coup d’Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 40,
@@ -43,11 +51,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Frozen Heat",
-				fr: "Chaleur Gelée"
+				fr: "Chaleur Gelée",
+				es: "Calor Congelado",
+				it: "Gelocalore",
+				pt: "Calor Congelado",
+				de: "Eisige Hitze"
 			},
 			effect: {
 				en: "You may discard all Water Energy from this Pokémon. If you do, this attack does 60 more damage.",
-				fr: "Vous pouvez défausser toute l’Énergie Water attachée à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires."
+				fr: "Vous pouvez défausser toute l’Énergie Water attachée à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires.",
+				es: "Puedes descartar todas las Energías Water de este Pokémon. Si lo haces, este ataque hace 60 puntos de daño más.",
+				it: "Puoi scartare tutte le Energie Water da questo Pokémon. Se lo fai, questo attacco infligge 60 danni in più.",
+				pt: "Você pode descartar todas as Energias Water deste Pokémon. Se fizer isto, este ataque causará 60 pontos de dano a mais.",
+				de: "Du kannst alle Water-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "110+",
 

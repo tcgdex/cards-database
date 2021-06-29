@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Drampa",
 		fr: "Draïeul",
+		es: "Drampa",
+		it: "Drampa",
+		pt: "Drampa",
+		de: "Sen-Long"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -28,10 +32,18 @@ const card: Card = {
 			name: {
 				en: "Dragon Pulse",
 				fr: "Draco-Choc",
+				es: "Pulso Dragón",
+				it: "Dragopulsar",
+				pt: "Pulso do Dragão",
+				de: "Drachenpuls"
 			},
 			effect: {
 				en: "Discard the top 2 cards of your deck.",
 				fr: "Défaussez les 2 cartes du dessus de votre deck.",
+				es: "Descarta las 2 primeras cartas de tu baraja.",
+				it: "Scarta le prime due carte del tuo mazzo.",
+				pt: "Descarte as 2 cartas de cima do seu baralho.",
+				de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 80,
 

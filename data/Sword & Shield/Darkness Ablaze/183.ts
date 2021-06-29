@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Scizor V",
-		fr: "Cizayox V"
+		fr: "Cizayox V",
+		es: "Scizor V",
+		it: "Scizor V",
+		pt: "Scizor V",
+		de: "Scherox V"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Hack Off",
-				fr: "Sectionnement"
+				fr: "Sectionnement",
+				es: "Cercenar",
+				it: "Mozzar Via",
+				pt: "Picotar",
+				de: "Abhacken"
 			},
 			effect: {
 				en: "Discard a Pokémon Tool and a Special Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez un Outil Pokémon et une Énergie spéciale du Pokémon Actif de votre adversaire."
+				fr: "Défaussez un Outil Pokémon et une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				es: "Descarta 1 Herramienta Pokémon y 1 Energía Especial del Pokémon Activo de tu rival.",
+				it: "Scarta un Oggetto Pokémon e un’Energia speciale dal Pokémon attivo del tuo avversario.",
+				pt: "Descarte 1 Ferramenta Pokémon e 1 Energia Especial do Pokémon Ativo do seu oponente.",
+				de: "Lege 1 Pokémon-Ausrüstung und 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -41,7 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Claw",
-				fr: "Griffe Taillante"
+				fr: "Griffe Taillante",
+				es: "Garra Cuchillazo",
+				it: "Artigli Laceranti",
+				pt: "Garra Cortadora",
+				de: "Schlitzende Klaue"
 			},
 
 			damage: 140,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Lickitung",
-		fr: "Excelangue"
+		fr: "Excelangue",
+		es: "Lickitung",
+		it: "Lickitung",
+		pt: "Lickitung",
+		de: "Schlurp"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Tongue Slap",
-			fr: "Gros Coup de Langue"
+			fr: "Gros Coup de Langue",
+			es: "Bofetón Lengua",
+			it: "Linguasberla",
+			pt: "Tapa de Língua",
+			de: "Zungenschelle"
 		},
 
 		damage: 50,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Hammer In",
-			fr: "Enfoncement"
+			fr: "Enfoncement",
+			es: "Martillear",
+			it: "Martello",
+			pt: "Martelada",
+			de: "Einhämmern"
 		},
 
 		damage: 80,

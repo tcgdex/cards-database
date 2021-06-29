@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Clefairy",
-		fr: "Mélofée"
+		fr: "Mélofée",
+		es: "Clefairy",
+		it: "Clefairy",
+		pt: "Clefairy",
+		de: "Piepi"
 	},
 
 	illustrator: "sowsow",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Shining Fingers",
-				fr: "Doigts Brillants"
+				fr: "Doigts Brillants",
+				es: "Dedos Brillantes",
+				it: "Dita Lucenti",
+				pt: "Dedos Brilhantes",
+				de: "Leuchtende Finger"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -33,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magical Shot",
-				fr: "Coup Magique"
+				fr: "Coup Magique",
+				es: "Disparo Mágico",
+				it: "Magicolpo",
+				pt: "Tiro Mágico",
+				de: "Magischer Schuss"
 			},
 
 			damage: 10,

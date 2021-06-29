@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Galarian Slowbro",
-		fr: "Flagadoss de Galar"
+		fr: "Flagadoss de Galar",
+		es: "Slowbro de Galar",
+		it: "Slowbro di Galar",
+		pt: "Slowbro de Galar",
+		de: "Galar-Lahmus"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,24 +27,40 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Splattering Poison",
-			fr: "Poison Éclaboussant"
+			fr: "Poison Éclaboussant",
+			es: "Veneno Salpicante",
+			it: "Spruzzata di Veleno",
+			pt: "Respingar Veneno",
+			de: "Giftgespritze"
 		},
 
 		effect: {
 			en: "Both Active Pokémon are now Poisoned.",
-			fr: "Les deux Pokémon Actifs sont maintenant Empoisonnés."
+			fr: "Les deux Pokémon Actifs sont maintenant Empoisonnés.",
+			es: "Ambos Pokémon Activos pasan a estar Envenenados.",
+			it: "Entrambi i Pokémon attivi vengono avvelenati.",
+			pt: "Ambos os Pokémon Ativos agora estão Envenenados.",
+			de: "Beide Aktiven Pokémon sind jetzt vergiftet."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
 			en: "Unhinged Hammer",
-			fr: "Marteau Dérangé"
+			fr: "Marteau Dérangé",
+			es: "Martillo Desquiciado",
+			it: "Martello Scatenato",
+			pt: "Martelo Ensandecido",
+			de: "Rasender Hammer"
 		},
 
 		effect: {
 			en: "If this Pokémon is affected by a Special Condition, this attack does 120 more damage.",
-			fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 120 dégâts supplémentaires."
+			fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 120 dégâts supplémentaires.",
+			es: "Si este Pokémon se ve afectado por una Condición Especial, este ataque hace 120 puntos de daño más.",
+			it: "Se questo Pokémon è influenzato da una condizione speciale, questo attacco infligge 120 danni in più.",
+			pt: "Se este Pokémon estiver afetado por uma Condição Especial, este ataque causará 120 pontos de dano a mais.",
+			de: "Wenn dieses Pokémon von einem Speziellen Zustand betroffen ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+",

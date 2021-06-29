@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Tauros",
-		fr: "Tauros"
+		fr: "Tauros",
+		es: "Tauros",
+		it: "Tauros",
+		pt: "Tauros",
+		de: "Tauros"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -25,7 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud’Korne"
+				fr: "Koud’Korne",
+				es: "Cornada",
+				it: "Incornata",
+				pt: "Ataque de Chifre",
+				de: "Hornattacke"
 			},
 
 			damage: 60,

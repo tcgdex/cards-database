@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Yanma",
-		fr: "Yanma"
+		fr: "Yanma",
+		es: "Yanma",
+		it: "Yanma",
+		pt: "Yanma",
+		de: "Yanma"
 	},
 
 	illustrator: "MAHOU",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "U-turn",
-				fr: "Demi-Tour"
+				fr: "Demi-Tour",
+				es: "Ida y Vuelta",
+				it: "Retromarcia",
+				pt: "Fazer Retorno",
+				de: "Kehrtwende"
 			},
 			effect: {
 				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger ce Pokémon contre l’un de vos Pokémon de Banc."
+				fr: "Vous pouvez échanger ce Pokémon contre l’un de vos Pokémon de Banc.",
+				es: "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+				it: "Puoi scambiare questo Pokémon con uno della tua panchina.",
+				pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+				de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 10,
 
@@ -41,7 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Cutting Wind",
-				fr: "Vent Glacial"
+				fr: "Vent Glacial",
+				es: "Viento Helado",
+				it: "Vento Tagliente",
+				pt: "Vento Dilacerante",
+				de: "Schneidender Wind"
 			},
 
 			damage: 60,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Shuppet",
-		fr: "Polichombr"
+		fr: "Polichombr",
+		es: "Shuppet",
+		it: "Shuppet",
+		pt: "Shuppet",
+		de: "Shuppet"
 	},
 
 	illustrator: "OKACHEKE",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Will-O-Wisp",
-			fr: "Feu Follet"
+			fr: "Feu Follet",
+			es: "Fuego Fatuo",
+			it: "Fuocofatuo",
+			pt: "Fogo Fátuo",
+			de: "Irrlicht"
 		},
 
 		damage: 20,

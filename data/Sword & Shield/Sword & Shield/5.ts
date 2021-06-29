@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		es: "Cottonee",
+		it: "Cottonee",
+		pt: "Cottonee",
+		de: "Waumboll"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Attach",
 				fr: "Accrochage",
+				es: "Pegarse",
+				it: "Appiccicoso",
+				pt: "Conectar",
+				de: "Festkleben"
 			},
 
 			damage: 10,

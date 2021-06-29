@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Crèmy",
-		en: "Milcery"
+		en: "Milcery",
+		es: "Milcery",
+		it: "Milcery",
+		pt: "Milcery",
+		de: "Hokumil"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -18,19 +22,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Aromathérapie",
-			en: "Aromatherapy"
+			en: "Aromatherapy",
+			es: "Aromaterapia",
+			it: "Aromaterapia",
+			pt: "Aromaterapia",
+			de: "Aromakur"
 		},
 
 		effect: {
 			fr: "Soignez 10 dégâts de chacun de vos Pokémon.",
-			en: "Heal 10 damage from each of your Pokémon."
+			en: "Heal 10 damage from each of your Pokémon.",
+			es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+			it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
+			pt: "Cure 10 pontos de dano de cada um dos seus Pokémon.",
+			de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			fr: "Charge",
-			en: "Tackle"
+			en: "Tackle",
+			es: "Placaje",
+			it: "Azione",
+			pt: "Investida",
+			de: "Tackle"
 		},
 
 		damage: 20,

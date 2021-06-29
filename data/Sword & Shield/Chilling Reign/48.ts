@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Flaaffy",
-		fr: "Lainergie"
+		fr: "Lainergie",
+		es: "Flaaffy",
+		it: "Flaaffy",
+		pt: "Flaaffy",
+		de: "Waaty"
 	},
 
 	illustrator: "sui",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Electro Ball",
-			fr: "Boule Élek"
+			fr: "Boule Élek",
+			es: "Bola Voltio",
+			it: "Energisfera",
+			pt: "Bola Elétrica",
+			de: "Elektroball"
 		},
 
 		damage: 50,

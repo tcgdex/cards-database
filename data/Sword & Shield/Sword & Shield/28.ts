@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Salazzle",
 		fr: "Malamandre",
+		es: "Salazzle",
+		it: "Salazzle",
+		pt: "Salazzle",
+		de: "Amfira"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -37,10 +41,18 @@ const card: Card = {
 			name: {
 				en: "Searing Flame",
 				fr: "Flammes Calcinantes",
+				es: "Llama Abrasadora",
+				it: "Fiamme Ustionanti",
+				pt: "Chama Cauterizante",
+				de: "Sengende Flammen"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -53,10 +65,18 @@ const card: Card = {
 			name: {
 				en: "Bright Flame",
 				fr: "Flamme Éclatante",
+				es: "Llama Viva",
+				it: "Splendifiamma",
+				pt: "Chama Reluzente",
+				de: "Helle Flamme"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
 				fr: "Défaussez 2 Énergies de ce Pokémon.",
+				es: "Descarta 2 Energías de este Pokémon.",
+				it: "Scarta due Energie da questo Pokémon.",
+				pt: "Descarte 2 Energias deste Pokémon.",
+				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 120,
 

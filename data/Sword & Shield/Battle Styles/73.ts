@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Timburr",
-		fr: "Charpenti"
+		fr: "Charpenti",
+		es: "Timburr",
+		it: "Timburr",
+		pt: "Timburr",
+		de: "Praktibalk"
 	},
 
 	illustrator: "Mina Nakai",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras’Face"
+			fr: "Écras’Face",
+			es: "Destructor",
+			it: "Botta",
+			pt: "Pancada",
+			de: "Klaps"
 		},
 
 		damage: 20,

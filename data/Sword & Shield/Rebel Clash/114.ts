@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Stunky",
-		fr: "Moufouette"
+		fr: "Moufouette",
+		es: "Stunky",
+		it: "Stunky",
+		pt: "Stunky",
+		de: "Skunkapuh"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -20,11 +24,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Gas",
-				fr: "Gaz Toxik"
+				fr: "Gaz Toxik",
+				es: "Gas Venenoso",
+				it: "Velenogas",
+				pt: "Gás Venenoso",
+				de: "Giftwolke"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 10,
 

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Venipede",
-		fr: "Venipatte"
+		fr: "Venipatte",
+		es: "Venipede",
+		it: "Venipede",
+		pt: "Venipede",
+		de: "Toxiped"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Poison Sting",
-			fr: "Dard-Venin"
+			fr: "Dard-Venin",
+			es: "Picotazo Veneno",
+			it: "Velenospina",
+			pt: "Ferrão Venenoso",
+			de: "Giftstachel"
 		},
 
 		effect: {
 			en: "Your opponent’s Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 10,

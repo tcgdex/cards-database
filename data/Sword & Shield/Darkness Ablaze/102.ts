@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Spinarak",
-		fr: "Mimigal"
+		fr: "Mimigal",
+		es: "Spinarak",
+		it: "Spinarak",
+		pt: "Spinarak",
+		de: "Webarak"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hang Down",
-				fr: "Suspension"
+				fr: "Suspension",
+				es: "Prender",
+				it: "Tirar Giù",
+				pt: "Dependurar",
+				de: "Herunterhängen"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sting",
-				fr: "Dard"
+				fr: "Dard",
+				es: "Aguijonazo",
+				it: "Puntura",
+				pt: "Ferroada",
+				de: "Einstich"
 			},
 
 			damage: 20,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Gliscor",
-		fr: "Scorvol"
+		fr: "Scorvol",
+		es: "Gliscor",
+		it: "Gliscor",
+		pt: "Gliscor",
+		de: "Skorgro"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Acrobatics",
-			fr: "Acrobatie"
+			fr: "Acrobatie",
+			es: "Acróbata",
+			it: "Acrobazia",
+			pt: "Acrobático",
+			de: "Akrobatik"
 		},
 
 		effect: {
 			en: "Flip 2 coins. This attack does 40 more damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
+			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño más por cada cara.",
+			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni in più ogni volta che esce testa.",
+			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano a mais para cada cara.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte mehr pro Kopf zu."
 		},
 
 		damage: "20+",
@@ -36,7 +48,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Guillotine",
-			fr: "Guillotine"
+			fr: "Guillotine",
+			es: "Guillotina",
+			it: "Ghigliottina",
+			pt: "Guilhotina",
+			de: "Guillotine"
 		},
 
 		damage: 90,

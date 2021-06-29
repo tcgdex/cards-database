@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Sizzlipede",
-		fr: "Grillepattes"
+		fr: "Grillepattes",
+		es: "Sizzlipede",
+		it: "Sizzlipede",
+		pt: "Sizzlipede",
+		de: "Thermopod"
 	},
 
 	illustrator: "Yuka Morii",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Searing Flame",
-			fr: "Flammes Calcinantes"
+			fr: "Flammes Calcinantes",
+			es: "Llama Abrasadora",
+			it: "Fiamme Ustionanti",
+			pt: "Chama Cauterizante",
+			de: "Sengende Flammen"
 		},
 
 		effect: {
 			en: "Your opponent’s Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
+			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 20,

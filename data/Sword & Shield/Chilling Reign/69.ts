@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Inkay",
-		fr: "Sepiatop"
+		fr: "Sepiatop",
+		es: "Inkay",
+		it: "Inkay",
+		pt: "Inkay",
+		de: "Iscalar"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Spinning Attack",
-			fr: "Attaque Tournante"
+			fr: "Attaque Tournante",
+			es: "Ataque Giratorio",
+			it: "Attacco Rotante",
+			pt: "Ataque Giratório",
+			de: "Rundumangriff"
 		},
 
 		damage: 20,

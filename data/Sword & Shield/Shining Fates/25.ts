@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Volcanion",
-		en: "Volcanion"
+		en: "Volcanion",
+		es: "Volcanion",
+		it: "Volcanion",
+		pt: "Volcanion",
+		de: "Volcanion"
 	},
 
 	illustrator: "nagimiso",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Enfoncement",
-			en: "Hammer In"
+			en: "Hammer In",
+			es: "Martillear",
+			it: "Martello",
+			pt: "Martelada",
+			de: "Einhämmern"
 		},
 
 		damage: 50,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Vapeur Explosive",
-			en: "Dynamite Steam"
+			en: "Dynamite Steam",
+			es: "Vapor Dinamita",
+			it: "Vapordinamite",
+			pt: "Vapor de Dinamite",
+			de: "Dynamitdampf"
 		},
 
 		effect: {
 			fr: "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
-			en: "Flip 2 coins. This attack does 120 damage for each heads."
+			en: "Flip 2 coins. This attack does 120 damage for each heads.",
+			es: "Lanza 2 monedas. Este ataque hace 120 puntos de daño por cada cara.",
+			it: "Lancia due volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
+			pt: "Jogue 2 moedas. Este ataque causa 120 pontos de dano para cada cara.",
+			de: "Wirf 2 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "120×",

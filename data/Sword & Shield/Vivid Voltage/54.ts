@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Zebstrika",
-		fr: "Zéblitz"
+		fr: "Zéblitz",
+		es: "Zebstrika",
+		it: "Zebstrika",
+		pt: "Zebstrika",
+		de: "Zebritz"
 	},
 
 	illustrator: "0313",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
-				fr: "Balayage"
+				fr: "Balayage",
+				es: "Patada Baja",
+				it: "Colpo Basso",
+				pt: "Rasteira",
+				de: "Fußkick"
 			},
 
 			damage: 30,
@@ -42,7 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Zap Kick",
-				fr: "Coup de Pied Ravageur"
+				fr: "Coup de Pied Ravageur",
+				es: "Electropatada",
+				it: "Dinamocalcio",
+				pt: "Chute Zap",
+				de: "Stromtritt"
 			},
 
 			damage: 70,

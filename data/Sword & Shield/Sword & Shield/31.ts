@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Scorbunny",
 		fr: "Flambino",
+		es: "Scorbunny",
+		it: "Scorbunny",
+		pt: "Scorbunny",
+		de: "Hopplo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Chama",
+				de: "Flackern"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 20,

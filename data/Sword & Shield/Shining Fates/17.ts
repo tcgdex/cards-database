@@ -6,11 +6,15 @@ const card: Card = {
 
 	name: {
 		fr: "Reshiram",
-		en: "Reshiram"
+		en: "Reshiram",
+		es: "Reshiram",
+		it: "Reshiram",
+		pt: "Reshiram",
+		de: "Reshiram"
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "Secret Rare",
+	rarity: "Amazing",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Brasier Magnifique",
-			en: "Amazing Blaze"
+			en: "Amazing Blaze",
+			es: "Llamarada Increíble",
+			it: "Fiamma Policroma",
+			pt: "Incêndio Incrível",
+			de: "Atemberaubende Feuersbrunst"
 		},
 
 		effect: {
 			fr: "Ce Pokémon s’inflige aussi 60 dégâts.",
-			en: "This Pokémon also does 60 damage to itself."
+			en: "This Pokémon also does 60 damage to itself.",
+			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
+			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
+			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
 		},
 
 		damage: 270,

@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Exploud",
-		fr: "Brouhabam"
+		fr: "Brouhabam",
+		es: "Exploud",
+		it: "Exploud",
+		pt: "Exploud",
+		de: "Krawumms"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -30,11 +34,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Round",
-				fr: "Chant Canon"
+				fr: "Chant Canon",
+				es: "Canon",
+				it: "Coro",
+				pt: "Circular",
+				de: "Kanon"
 			},
 			effect: {
 				en: "This attack does 50 damage for each of your Pokémon in play that has the Round attack.",
-				fr: "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon en jeu ayant l’attaque Chant Canon."
+				fr: "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon en jeu ayant l’attaque Chant Canon.",
+				es: "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon en juego que tenga el ataque Canon.",
+				it: "Questo attacco infligge 50 danni per ogni tuo Pokémon in gioco che ha l’attacco Coro.",
+				pt: "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon em jogo que tenha o ataque Circular.",
+				de: "Diese Attacke fügt für jedes deiner Pokémon im Spiel, das die Attacke Kanon hat, 50 Schadenspunkte zu."
 			},
 			damage: "50×",
 
@@ -47,7 +59,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Voice",
-				fr: "Mégaphone"
+				fr: "Mégaphone",
+				es: "Vozarrón",
+				it: "Granvoce",
+				pt: "Hipervoz",
+				de: "Schallwelle"
 			},
 
 			damage: 120,

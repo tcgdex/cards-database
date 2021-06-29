@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Bruxish",
-		fr: "Denticrisse"
+		fr: "Denticrisse",
+		es: "Bruxish",
+		it: "Bruxish",
+		pt: "Bruxish",
+		de: "Knirfish"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Bite",
-			fr: "Morsure"
+			fr: "Morsure",
+			es: "Mordisco",
+			it: "Morso",
+			pt: "Mordida",
+			de: "Biss"
 		},
 
 		damage: 20,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Surf",
-			fr: "Surf"
+			fr: "Surf",
+			es: "Surf",
+			it: "Surf",
+			pt: "Surfar",
+			de: "Surfer"
 		},
 
 		damage: 110,

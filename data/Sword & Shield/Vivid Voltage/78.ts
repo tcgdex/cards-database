@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Xerneas",
-		fr: "Xerneas"
+		fr: "Xerneas",
+		es: "Xerneas",
+		it: "Xerneas",
+		pt: "Xerneas",
+		de: "Xerneas"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Geo Hunt",
-				fr: "Géo-Chasse"
+				fr: "Géo-Chasse",
+				es: "Geobúsqueda",
+				it: "Geoagguato",
+				pt: "Geocaçada",
+				de: "Geo-Jagd"
 			},
 			effect: {
 				en: "Put a card from your discard pile into your hand.",
-				fr: "Ajoutez à votre main une carte de votre pile de défausse."
+				fr: "Ajoutez à votre main une carte de votre pile de défausse.",
+				es: "Pon 1 carta de tu pila de descartes en tu mano.",
+				it: "Prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
+				pt: "Coloque 1 carta da sua pilha de descarte na sua mão.",
+				de: "Nimm 1 Karte aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -40,11 +52,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Gain",
-				fr: "Puissance Boréale"
+				fr: "Puissance Boréale",
+				es: "Ganar Aurora",
+				it: "Prendiaurora",
+				pt: "Aurora",
+				de: "Aurora-Verstärkung"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon."
+				fr: "Soignez 30 dégâts de ce Pokémon.",
+				es: "Cura 30 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 30 danni.",
+				pt: "Cure 30 pontos de dano deste Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 100,
 

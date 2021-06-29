@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Snubbull",
-		fr: "Snubbull"
+		fr: "Snubbull",
+		es: "Snubbull",
+		it: "Snubbull",
+		pt: "Snubbull",
+		de: "Snubbull"
 	},
 
 	illustrator: "otumami",
@@ -25,7 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fang",
-				fr: "Croc Aiguisé"
+				fr: "Croc Aiguisé",
+				es: "Colmillo Afilado",
+				it: "Zannaffilata",
+				pt: "Presa Afiada",
+				de: "Scharfe Fänge"
 			},
 
 			damage: 30,

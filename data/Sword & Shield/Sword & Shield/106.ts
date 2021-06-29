@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mudsdale",
 		fr: "Bourrinos",
+		es: "Mudsdale",
+		it: "Mudsdale",
+		pt: "Mudsdale",
+		de: "Pampross"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,10 +38,18 @@ const card: Card = {
 			name: {
 				en: "Double Impact",
 				fr: "Double Impact",
+				es: "Impacto Doble",
+				it: "Doppio Impatto",
+				pt: "Impacto Duplo",
+				de: "Doppelter Einschlag"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 120 damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
+				es: "Lanza 2 monedas. Este ataque hace 120 puntos de daño por cada cara.",
+				it: "Lancia due volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
+				pt: "Jogue 2 moedas. Este ataque causa 120 pontos de dano para cada cara.",
+				de: "Wirf 2 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu."
 			},
 			damage: "120×",
 

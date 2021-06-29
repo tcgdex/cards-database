@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Honedge",
-		fr: "Monorpale"
+		fr: "Monorpale",
+		es: "Honedge",
+		it: "Honedge",
+		pt: "Honedge",
+		de: "Gramokles"
 	},
 
 	illustrator: "Sekio",
@@ -20,7 +24,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slicing Blade",
-				fr: "Lame Tranchante"
+				fr: "Lame Tranchante",
+				es: "Cuchilla Cortante",
+				it: "Affettalama",
+				pt: "Lâmina Fatiante",
+				de: "Schwertschneide"
 			},
 
 			damage: 30,

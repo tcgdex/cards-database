@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Wooper",
-		fr: "Axoloto"
+		fr: "Axoloto",
+		es: "Wooper",
+		it: "Wooper",
+		pt: "Wooper",
+		de: "Felino"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Shot",
-				fr: "Tir de Boue"
+				fr: "Tir de Boue",
+				es: "Disparo Lodo",
+				it: "Colpodifango",
+				pt: "Tiro de Lama",
+				de: "Lehmschuss"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				es: "Toque",
+				it: "Battuta",
+				pt: "Pulso",
+				de: "Verprügler"
 			},
 
 			damage: 20,

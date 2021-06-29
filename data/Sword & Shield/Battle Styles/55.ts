@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Spoink",
-		fr: "Spoink"
+		fr: "Spoink",
+		es: "Spoink",
+		it: "Spoink",
+		pt: "Spoink",
+		de: "Spoink"
 	},
 
 	illustrator: "kawayoo",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Headbutt Bounce",
-			fr: "Culbute Surprise"
+			fr: "Culbute Surprise",
+			es: "Bote Cabezazo",
+			it: "Rimbalzo Bottintesta",
+			pt: "Cabeçada Ricochete",
+			de: "Abrupter Kopfstoß"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Power Gem",
-			fr: "Rayon Gemme"
+			fr: "Rayon Gemme",
+			es: "Joya de Luz",
+			it: "Gemmoforza",
+			pt: "Gema Poderosa",
+			de: "Juwelenkraft"
 		},
 
 		damage: 30,

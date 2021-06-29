@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Lycanroc",
-		fr: "Lougaroc"
+		fr: "Lougaroc",
+		es: "Lycanroc",
+		it: "Lycanroc",
+		pt: "Lycanroc",
+		de: "Wolwerock"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Throw",
-				fr: "Jet-Pierres"
+				fr: "Jet-Pierres",
+				es: "Lanzarrocas",
+				it: "Sassata",
+				pt: "Lançamento de Rocha",
+				de: "Steinwurf"
 			},
 
 			damage: 40,
@@ -42,7 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Mane",
-				fr: "Crinière Aiguisée"
+				fr: "Crinière Aiguisée",
+				es: "Melena Afilada",
+				it: "Criniera Affilata",
+				pt: "Juba Afiada",
+				de: "Scharfe Mähne"
 			},
 
 			damage: 70,

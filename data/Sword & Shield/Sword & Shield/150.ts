@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rookidee",
 		fr: "Minisange",
+		es: "Rookidee",
+		it: "Rookidee",
+		pt: "Rookidee",
+		de: "Meikro"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				es: "Aleteo",
+				it: "Alabattito",
+				pt: "Asa",
+				de: "Flattern"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Glide",
 				fr: "Glissement",
+				es: "Planeo",
+				it: "Aliante",
+				pt: "Planeio",
+				de: "Gleiten"
 			},
 
 			damage: 30,

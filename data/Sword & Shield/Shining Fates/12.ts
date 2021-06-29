@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Badabouin",
-		en: "Thwackey"
+		en: "Thwackey",
+		es: "Thwackey",
+		it: "Thwackey",
+		pt: "Thwackey",
+		de: "Chimstix"
 	},
 
 	illustrator: "0313",
@@ -25,19 +29,31 @@ const card: Card = {
 
 		name: {
 			fr: "Avantage du Terrain",
-			en: "Lay of the Land"
+			en: "Lay of the Land",
+			es: "Dominio del Terreno",
+			it: "Dominio del Territorio",
+			pt: "Dono do Pedaço",
+			de: "Ortskunde"
 		},
 
 		effect: {
 			fr: "Si vous avez un Stade en jeu, ce Pokémon n’a pas de Coût de Retraite.",
-			en: "If you have a Stadium in play, this Pokémon has no Retreat Cost."
+			en: "If you have a Stadium in play, this Pokémon has no Retreat Cost.",
+			es: "Si tienes un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
+			it: "Se hai in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
+			pt: "Se você tiver um Estádio em jogo, este Pokémon não terá custo de Recuo.",
+			de: "Wenn du eine Stadionkarte im Spiel hast, hat dieses Pokémon keine Rückzugskosten."
 		}
 	}],
 
 	attacks: [{
 		name: {
 			fr: "Tapotige",
-			en: "Branch Poke"
+			en: "Branch Poke",
+			es: "Punzada Rama",
+			it: "Ramostoccata",
+			pt: "Cutucada com Galho",
+			de: "Zweigstoß"
 		},
 
 		damage: 20,

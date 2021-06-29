@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Hippopotas",
-		fr: "Hippopotas"
+		fr: "Hippopotas",
+		es: "Hippopotas",
+		it: "Hippopotas",
+		pt: "Hippopotas",
+		de: "Hippopotas"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -39,11 +47,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Stomp",
-				fr: "Double Écrasement"
+				fr: "Double Écrasement",
+				es: "Pisotón Doble",
+				it: "Doppio Pestone",
+				pt: "Pisoteada Dupla",
+				de: "Doppelstampfer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
+				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
+				pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano a mais para cada cara.",
+				de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
 			},
 			damage: "70+",
 

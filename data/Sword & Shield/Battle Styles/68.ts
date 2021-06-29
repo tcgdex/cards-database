@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Onix",
-		fr: "Onix"
+		fr: "Onix",
+		es: "Onix",
+		it: "Onix",
+		pt: "Onix",
+		de: "Onix"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Rock Throw",
-			fr: "Jet-Pierres"
+			fr: "Jet-Pierres",
+			es: "Lanzarrocas",
+			it: "Sassata",
+			pt: "Lançamento de Rocha",
+			de: "Steinwurf"
 		},
 
 		damage: 60,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Rocky Tackle",
-			fr: "Tacle Rocailleux"
+			fr: "Tacle Rocailleux",
+			es: "Placaje Rocoso",
+			it: "Azione Rocciosa",
+			pt: "Investida Pedregosa",
+			de: "Steiniger Tackle"
 		},
 
 		effect: {
 			en: "This Pokémon also does 60 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 60 dégâts."
+			fr: "Ce Pokémon s’inflige aussi 60 dégâts.",
+			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
+			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
+			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
 		},
 
 		damage: 170,

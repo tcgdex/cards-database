@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Phanpy",
-		fr: "Phanpy"
+		fr: "Phanpy",
+		es: "Phanpy",
+		it: "Phanpy",
+		pt: "Phanpy",
+		de: "Phanpy"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
-				fr: "Ruée"
+				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,
@@ -37,11 +45,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Strike Back",
-				fr: "Vengeur"
+				fr: "Vengeur",
+				es: "Contraimpacto",
+				it: "Risposta",
+				pt: "Revidar",
+				de: "Kontern"
 			},
 			effect: {
 				en: "This attack does 30 damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon."
+				fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+				es: "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
+				it: "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon.",
+				pt: "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
+				de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu."
 			},
 			damage: "30×",
 

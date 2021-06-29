@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Silicobra",
-		fr: "Dunaja"
+		fr: "Dunaja",
+		es: "Silicobra",
+		it: "Silicobra",
+		pt: "Silicobra",
+		de: "Salanga"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Tail Whap",
-			fr: "Queue Battoir"
+			fr: "Queue Battoir",
+			es: "Coletón",
+			it: "Codabotta",
+			pt: "Surra de Cauda",
+			de: "Schweifvertrimmer"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Mud Shot",
-			fr: "Tir de Boue"
+			fr: "Tir de Boue",
+			es: "Disparo Lodo",
+			it: "Colpodifango",
+			pt: "Tiro de Lama",
+			de: "Lehmschuss"
 		},
 
 		damage: 60,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Golett",
-		fr: "Gringolem"
+		fr: "Gringolem",
+		es: "Golett",
+		it: "Golett",
+		pt: "Golett",
+		de: "Golbit"
 	},
 
 	illustrator: "0313",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras’Face"
+			fr: "Écras’Face",
+			es: "Destructor",
+			it: "Botta",
+			pt: "Pancada",
+			de: "Klaps"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Punch",
-			fr: "Koud’Poing"
+			fr: "Koud’Poing",
+			es: "Puño",
+			it: "Pugno",
+			pt: "Soco",
+			de: "Boxhieb"
 		},
 
 		damage: 30,

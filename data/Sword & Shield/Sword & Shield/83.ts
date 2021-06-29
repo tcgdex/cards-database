@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Gastly",
 		fr: "Fantominus",
+		es: "Gastly",
+		it: "Gastly",
+		pt: "Gastly",
+		de: "Nebulak"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Fade Out",
 				fr: "Faiblir",
+				es: "Difuminar",
+				it: "Dissolvenza",
+				pt: "Desaparecer",
+				de: "Ausblenden"
 			},
 			effect: {
 				en: "Put this Pokémon and all attached cards into your hand.",
 				fr: "Ajoutez à votre main ce Pokémon et toutes les cartes attachées.",
+				es: "Pon este Pokémon y todas las cartas unidas a él en tu mano.",
+				it: "Riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
+				pt: "Coloque este Pokémon e todas as cartas ligadas a ele na sua mão.",
+				de: "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand."
 			},
 			damage: 20,
 

@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Cramorant",
-		fr: "Nigosier"
+		fr: "Nigosier",
+		es: "Cramorant",
+		it: "Cramorant",
+		pt: "Cramorant",
+		de: "Urgl"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -25,11 +29,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Continuous Gulp Missile",
-				fr: "Dégobage Continu"
+				fr: "Dégobage Continu",
+				es: "Tragamisil Incesante",
+				it: "Inghiottimissile Continuo",
+				pt: "Mísseis Gulosos Contínuos",
+				de: "Dauer-Würggeschoss"
 			},
 			effect: {
 				en: "Discard any number of Arrokuda from your Bench. This attack does 60 damage for each Arrokuda you discarded in this way.",
-				fr: "Défaussez autant d’Embrochet que vous le voulez de votre Banc. Cette attaque inflige 60 dégâts pour chaque carte Embrochet défaussée de cette façon."
+				fr: "Défaussez autant d’Embrochet que vous le voulez de votre Banc. Cette attaque inflige 60 dégâts pour chaque carte Embrochet défaussée de cette façon.",
+				es: "Descarta cualquier cantidad de cartas de Arrokuda de tu Banca. Este ataque hace 60 puntos de daño por cada Arrokuda que hayas descartado de esta manera.",
+				it: "Scarta un numero qualsiasi di Arrokuda dalla tua panchina. Questo attacco infligge 60 danni per ogni Arrokuda che hai scartato in questo modo.",
+				pt: "Descarte qualquer número de Arrokuda do seu Banco. Este ataque causa 60 pontos de dano para cada Arrokuda descartado desta forma.",
+				de: "Lege beliebig viele Pikuda von deiner Bank auf deinen Ablagestapel. Diese Attacke fügt für jedes auf diese Weise abgelegte Pikuda 60 Schadenspunkte zu."
 			},
 			damage: "60×",
 

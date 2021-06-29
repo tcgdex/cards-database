@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Wigglytuff",
-		fr: "Grodoudou"
+		fr: "Grodoudou",
+		es: "Wigglytuff",
+		it: "Wigglytuff",
+		pt: "Wigglytuff",
+		de: "Knuddeluff"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Pulse",
-				fr: "Pouls Dodo"
+				fr: "Pouls Dodo",
+				es: "Pulso Soñoliento",
+				it: "Sonnopulsar",
+				pt: "Pulso Sonolento",
+				de: "Schlafimpuls"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 30,
 
@@ -46,11 +58,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Smash",
-				fr: "Double Broiement"
+				fr: "Double Broiement",
+				es: "Golpe Doble",
+				it: "Colpo Duplice",
+				pt: "Bordoada Dupla",
+				de: "Doppelstoß"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 90 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face."
+				fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
+				es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
+				it: "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
+				pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",
+				de: "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu."
 			},
 			damage: "90×",
 

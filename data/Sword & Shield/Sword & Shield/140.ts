@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Snorlax",
 		fr: "Ronflex",
+		es: "Snorlax",
+		it: "Snorlax",
+		pt: "Snorlax",
+		de: "Relaxo"
 	},
 
 	illustrator: "chibi",
@@ -29,6 +33,10 @@ const card: Card = {
 			name: {
 				en: "Rolling Tackle",
 				fr: "Roulé-Boulé",
+				es: "Placaje Giro",
+				it: "Rollazione",
+				pt: "Golpe de Colisão Rolante",
+				de: "Rolltackle"
 			},
 
 			damage: 80,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Heavy Impact",
 				fr: "Gros Impact",
+				es: "Impacto Pesado",
+				it: "Impatto Pesante",
+				pt: "Impacto Pesado",
+				de: "Schwerer Einschlag"
 			},
 
 			damage: 130,

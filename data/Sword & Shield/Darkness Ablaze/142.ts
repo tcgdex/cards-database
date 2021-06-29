@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Delcatty",
-		fr: "Delcatty"
+		fr: "Delcatty",
+		es: "Delcatty",
+		it: "Delcatty",
+		pt: "Delcatty",
+		de: "Enekoro"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Captivating Tail",
-				fr: "Queue Envoûtante"
+				fr: "Queue Envoûtante",
+				es: "Cola Cautivadora",
+				it: "Coda Ammaliante",
+				pt: "Cauda Cativante",
+				de: "Hinreißender Schweif"
 			},
 			effect: {
 				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Confused.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Confus."
+				fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Confus.",
+				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. El nuevo Pokémon Activo pasa a estar Confundido.",
+				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo. Il nuovo Pokémon attivo viene confuso.",
+				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). O novo Pokémon Ativo agora está Confuso.",
+				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Das neue Aktive Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -45,7 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Impact",
-				fr: "Impact Lunaire"
+				fr: "Impact Lunaire",
+				es: "Impacto Lunar",
+				it: "Impatto Lunare",
+				pt: "Impacto Lunar",
+				de: "Mondeinschlag"
 			},
 
 			damage: 90,

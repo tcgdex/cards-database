@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Khélocrok",
-		en: "Chewtle"
+		en: "Chewtle",
+		es: "Chewtle",
+		it: "Chewtle",
+		pt: "Chewtle",
+		de: "Kamehaps"
 	},
 
 	illustrator: "sowsow",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Charge",
-			en: "Tackle"
+			en: "Tackle",
+			es: "Placaje",
+			it: "Azione",
+			pt: "Investida",
+			de: "Tackle"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Morsure",
-			en: "Bite"
+			en: "Bite",
+			es: "Mordisco",
+			it: "Morso",
+			pt: "Mordida",
+			de: "Biss"
 		},
 
 		damage: 30,

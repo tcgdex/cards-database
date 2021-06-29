@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Pansear",
-		fr: "Flamajou"
+		fr: "Flamajou",
+		es: "Pansear",
+		it: "Pansear",
+		pt: "Pansear",
+		de: "Grillmak"
 	},
 
 	illustrator: "Megumi Higuchi",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Live Coal",
-				fr: "Charbon Mutant"
+				fr: "Charbon Mutant",
+				es: "Carbón Activado",
+				it: "Carboni Ardenti",
+				pt: "Carvão Vivo",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,

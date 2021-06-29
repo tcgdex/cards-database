@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Furret",
-		fr: "Fouinar"
+		fr: "Fouinar",
+		es: "Furret",
+		it: "Furret",
+		pt: "Furret",
+		de: "Wiesenior"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Feelin’ Fine",
-				fr: "Mode Cool"
+				fr: "Mode Cool",
+				es: "Buen Rollito",
+				it: "Tuttobene",
+				pt: "Sensação Boa",
+				de: "Wohl fühlen"
 			},
 			effect: {
 				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes."
+				fr: "Piochez 3 cartes.",
+				es: "Roba 3 cartas.",
+				it: "Pesca tre carte.",
+				pt: "Compre 3 cartas.",
+				de: "Ziehe 3 Karten."
 			},
 
 		},
@@ -43,11 +55,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Smash",
-				fr: "Éclate-Queue"
+				fr: "Éclate-Queue",
+				es: "Coletazo",
+				it: "Coda Esplosiva",
+				pt: "Pancada de Cauda",
+				de: "Schwanzschmetterer"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 90,
 

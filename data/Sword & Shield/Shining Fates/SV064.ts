@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Palarticho de Galar",
-		en: "Galarian Sirfetch’d"
+		en: "Galarian Sirfetch’d",
+		es: "Sirfetch’d de Galar",
+		it: "Sirfetch’d di Galar",
+		pt: "Sirfetch’d de Galar",
+		de: "Galar-Lauchzelot"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Transpercement",
-			en: "Pierce"
+			en: "Pierce",
+			es: "Perforar",
+			it: "Perforare",
+			pt: "Perfurar",
+			de: "Durchbohren"
 		},
 
 		damage: 40,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Joute Astrale",
-			en: "Meteor Assault"
+			en: "Meteor Assault",
+			es: "Asalto Estelar",
+			it: "Sfolgorassalto",
+			pt: "Ofensiva Meteórica",
+			de: "Sternensturm"
 		},
 
 		effect: {
 			fr: "Ce Pokémon ne peut pas réutiliser Joute Astrale tant qu’il ne quitte pas le Poste Actif.",
-			en: "This Pokémon can’t use Meteor Assault again until it leaves the Active Spot."
+			en: "This Pokémon can’t use Meteor Assault again until it leaves the Active Spot.",
+			es: "Este Pokémon no puede usar Asalto Estelar de nuevo hasta que deje el Puesto Activo.",
+			it: "Questo Pokémon non può più usare Sfolgorassalto finché non lascia la posizione attiva.",
+			pt: "Este Pokémon não poderá usar Ofensiva Meteórica novamente até sair do Campo Ativo.",
+			de: "Dieses Pokémon kann Sternensturm erst wieder einsetzen, wenn es die Aktive Position verlässt."
 		},
 
 		damage: 180,

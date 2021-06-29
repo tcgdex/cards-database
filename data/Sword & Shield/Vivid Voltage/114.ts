@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Forretress",
-		fr: "Foretress"
+		fr: "Foretress",
+		es: "Forretress",
+		it: "Forretress",
+		pt: "Forretress",
+		de: "Forstellka"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,11 +35,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				es: "Derribo",
+				it: "Riduttore",
+				pt: "Desmantelar",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 30 dégâts."
+				fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -49,11 +61,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Double KO",
-				fr: "Double K.O."
+				fr: "Double K.O.",
+				es: "Doble Noqueo",
+				it: "Doppio KO",
+				pt: "Abate Duplo",
+				de: "Doppel-K.-o."
 			},
 			effect: {
 				en: "Both Active Pokémon are Knocked Out.",
-				fr: "Les deux Pokémon Actifs sont mis K.O."
+				fr: "Les deux Pokémon Actifs sont mis K.O.",
+				es: "Ambos Pokémon Activos quedan Fuera de Combate.",
+				it: "Entrambi i Pokémon attivi vengono messi KO.",
+				pt: "Ambos os Pokémon Ativos são Nocauteados.",
+				de: "Beide Aktiven Pokémon werden kampfunfähig."
 			},
 
 		},

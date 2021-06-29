@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Klinklang",
-		fr: "Cliticlic"
+		fr: "Cliticlic",
+		es: "Klinklang",
+		it: "Klinklang",
+		pt: "Klinklang",
+		de: "Klikdiklak"
 	},
 
 	illustrator: "Naoki Saito",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beam",
-				fr: "Rayon"
+				fr: "Rayon",
+				es: "Transmisión",
+				it: "Raggio",
+				pt: "Feixe",
+				de: "Strahl"
 			},
 
 			damage: 60,
@@ -44,11 +52,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Clockwork",
-				fr: "Mécanisme"
+				fr: "Mécanisme",
+				es: "Mecanismo de Relojería",
+				it: "Ingranaggi",
+				pt: "Mecanismo",
+				de: "Uhrwerk"
 			},
 			effect: {
 				en: "If you don’t have Klink and Klang on your Bench, this attack does nothing.",
-				fr: "Si vous n’avez pas Tic et Clic sur votre Banc, cette attaque ne fait rien."
+				fr: "Si vous n’avez pas Tic et Clic sur votre Banc, cette attaque ne fait rien.",
+				es: "Si no tienes a Klink y Klang en tu Banca, este ataque no hace nada.",
+				it: "Se non hai Klink e Klang nella tua panchina, questo attacco non ha effetto.",
+				pt: "Se Klink e Klang não estiverem no seu Banco, este ataque não fará nada.",
+				de: "Wenn sich Klikk und Kliklak nicht auf deiner Bank befinden, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 200,
 

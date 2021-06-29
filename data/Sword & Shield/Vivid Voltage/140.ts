@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Togekiss V",
-		fr: "Togekiss V"
+		fr: "Togekiss V",
+		es: "Togekiss V",
+		it: "Togekiss V",
+		pt: "Togekiss V",
+		de: "Togekiss V"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "White Wind",
-				fr: "Vent Blanc"
+				fr: "Vent Blanc",
+				es: "Viento Blanco",
+				it: "Vento Bianco",
+				pt: "Vento Branco",
+				de: "Weißer Wind"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 70 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 70 dégâts supplémentaires."
+				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 70 dégâts supplémentaires.",
+				es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 70 puntos de daño más.",
+				it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 70 danni in più.",
+				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 70 pontos de dano a mais.",
+				de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -41,7 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Wing",
-				fr: "Ailes Vives"
+				fr: "Ailes Vives",
+				es: "Ala Veloz",
+				it: "Alaveloce",
+				pt: "Asa da Velocidade",
+				de: "Turboschwinge"
 			},
 
 			damage: 130,

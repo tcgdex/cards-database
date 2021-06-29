@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Regirock",
-		fr: "Regirock"
+		fr: "Regirock",
+		es: "Regirock",
+		it: "Regirock",
+		pt: "Regirock",
+		de: "Regirock"
 	},
 
 	illustrator: "nagimiso",
@@ -25,11 +29,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Tumble",
-				fr: "Roule-Pierre"
+				fr: "Roule-Pierre",
+				es: "Avalancha de Rocas",
+				it: "Tiramassi",
+				pt: "Desabamento de Pedras",
+				de: "Rollende Felsen"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				es: "El daño de este ataque no se ve afectado por Resistencia.",
+				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
+				pt: "O dano deste ataque não é afetado por Resistência.",
+				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 40,
 
@@ -42,11 +54,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Megaton Fall",
-				fr: "Chute Mégatonne"
+				fr: "Chute Mégatonne",
+				es: "Caída Megatón",
+				it: "Caduta Megatonica",
+				pt: "Queda do Megaton",
+				de: "Megatonnenfall"
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 30 dégâts."
+				fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 130,
 

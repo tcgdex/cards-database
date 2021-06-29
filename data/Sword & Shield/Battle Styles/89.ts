@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Zubat",
-		fr: "Nosferapti"
+		fr: "Nosferapti",
+		es: "Zubat",
+		it: "Zubat",
+		pt: "Zubat",
+		de: "Zubat"
 	},
 
 	illustrator: "Asako Ito",
@@ -18,19 +22,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Hide in Shadows",
-			fr: "Cachette d’Ombre"
+			fr: "Cachette d’Ombre",
+			es: "Ocultarse en las Sombras",
+			it: "Tanabuia",
+			pt: "Esconder nas Sombras",
+			de: "Schattenversteck"
 		},
 
 		effect: {
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc."
+			fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			it: "Scambia questo Pokémon con uno della tua panchina.",
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Speed Dive",
-			fr: "Plongée Rapide"
+			fr: "Plongée Rapide",
+			es: "Picado Rápido",
+			it: "Immersione Rapida",
+			pt: "Mergulho Veloz",
+			de: "Tempohechtsprung"
 		},
 
 		damage: 20,

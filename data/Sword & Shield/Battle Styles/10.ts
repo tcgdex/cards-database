@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Durant",
-		fr: "Fermite"
+		fr: "Fermite",
+		es: "Durant",
+		it: "Durant",
+		pt: "Durant",
+		de: "Fermicula"
 	},
 
 	illustrator: "kodama",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Vise Grip",
-			fr: "Force Poigne"
+			fr: "Force Poigne",
+			es: "Agarre",
+			it: "Presa",
+			pt: "Agarramento Compressor",
+			de: "Klammer"
 		},
 
 		damage: 20,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Devour",
-			fr: "Voracité"
+			fr: "Voracité",
+			es: "Devorar",
+			it: "Divoratore",
+			pt: "Devorar",
+			de: "Verschlinger"
 		},
 
 		effect: {
 			en: "For each of your Durant in play, discard the top card of your opponent’s deck.",
-			fr: "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire."
+			fr: "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire.",
+			es: "Por cada uno de tus Durant en juego, descarta la primera carta de la baraja de tu rival.",
+			it: "Per ogni tuo Durant in gioco, scarta la prima carta del mazzo del tuo avversario.",
+			pt: "Para cada um dos seus Durant em jogo, descarte a carta de cima do baralho do seu oponente.",
+			de: "Lege für jedes deiner Fermicula im Spiel die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		cost: ["Colorless", "Colorless"]

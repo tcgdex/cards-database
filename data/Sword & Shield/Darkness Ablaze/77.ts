@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Golurk",
-		fr: "Golemastoc"
+		fr: "Golemastoc",
+		es: "Golurk",
+		it: "Golurk",
+		pt: "Golurk",
+		de: "Golgantes"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -31,7 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dynamic Chop",
-				fr: "Coupe Dynamique"
+				fr: "Coupe Dynamique",
+				es: "Golpe Dinámico",
+				it: "Dinamicolpo",
+				pt: "Golpe Dinâmico",
+				de: "Wuchthieb"
 			},
 
 			damage: 80,
@@ -47,7 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Golurk Hammer",
-				fr: "Maillet Golemastoc"
+				fr: "Maillet Golemastoc",
+				es: "Martillo Golurk",
+				it: "Martello Golurk",
+				pt: "Martelo Golurk",
+				de: "Golgantes-Hammer"
 			},
 
 			damage: 180,

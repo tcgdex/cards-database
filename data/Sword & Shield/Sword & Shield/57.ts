@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Drizzile",
 		fr: "Arrozard",
+		es: "Drizzile",
+		it: "Drizzile",
+		pt: "Drizzile",
+		de: "Phlegleon"
 	},
 
 	illustrator: "Mizue",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				es: "Golpe de Lluvia",
+				it: "Spruzzapioggia",
+				pt: "Chuva Borrifante",
+				de: "Regenplatscher"
 			},
 
 			damage: 30,
@@ -45,6 +53,10 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				es: "Chapoteo Ondulante",
+				it: "Schizzi d’Onda",
+				pt: "Onda Borrifante",
+				de: "Wellenplatscher"
 			},
 
 			damage: 40,

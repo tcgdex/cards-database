@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Glameow",
-		fr: "Chaglam"
+		fr: "Chaglam",
+		es: "Glameow",
+		it: "Glameow",
+		pt: "Glameow",
+		de: "Charmian"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Cat Kick",
-			fr: "Coup d’Patte"
+			fr: "Coup d’Patte",
+			es: "Patada Gato",
+			it: "Calciogatto",
+			pt: "Chute do Gato",
+			de: "Katzenkick"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Claw Slash",
-			fr: "Tranch’Griffe"
+			fr: "Tranch’Griffe",
+			es: "Cuchillada Garra",
+			it: "Lacerartiglio",
+			pt: "Golpe de Garra",
+			de: "Klauenschlitzer"
 		},
 
 		damage: 40,

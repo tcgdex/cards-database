@@ -4,7 +4,11 @@ import Set from '../Vivid Voltage'
 const card: Card = {
 	name: {
 		en: "Pikipek",
-		fr: "Picassaut"
+		fr: "Picassaut",
+		es: "Pikipek",
+		it: "Pikipek",
+		pt: "Pikipek",
+		de: "Peppeck"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Pikser"
 			},
 
 			damage: 10,

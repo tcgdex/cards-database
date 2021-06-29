@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Sobble",
 		fr: "Larméléon",
+		es: "Sobble",
+		it: "Sobble",
+		pt: "Sobble",
+		de: "Memmeon"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras’Face",
+				es: "Destructor",
+				it: "Botta",
+				pt: "Pancada",
+				de: "Klaps"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 20,

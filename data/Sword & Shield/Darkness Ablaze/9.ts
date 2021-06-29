@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Shelmet",
-		fr: "Escargaume"
+		fr: "Escargaume",
+		es: "Shelmet",
+		it: "Shelmet",
+		pt: "Shelmet",
+		de: "Schnuthelm"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spray Fluid",
-				fr: "Fluide Éclaboussant"
+				fr: "Fluide Éclaboussant",
+				es: "Fluido Rociado",
+				it: "Fluidospray",
+				pt: "Fluido Spray",
+				de: "Sprühwasser"
 			},
 
 			damage: 10,

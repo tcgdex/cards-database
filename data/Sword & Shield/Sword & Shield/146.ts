@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Minccino",
 		fr: "Chinchidou",
+		es: "Minccino",
+		it: "Minccino",
+		pt: "Minccino",
+		de: "Picochilla"
 	},
 
 	illustrator: "sowsow",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue Battoir",
+				es: "Coletón",
+				it: "Codabotta",
+				pt: "Surra de Cauda",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 30,

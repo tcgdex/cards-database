@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cramorant",
 		fr: "Nigosier",
+		es: "Cramorant",
+		it: "Cramorant",
+		pt: "Cramorant",
+		de: "Urgl"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Water Arrow",
 				fr: "Flèche d’Eau",
+				es: "Flecha de Agua",
+				it: "Idrofreccia",
+				pt: "Flecha d’Água",
+				de: "Wasserpfeil"
 			},
 			effect: {
 				en: "This attack does 20 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				es: "Este ataque hace 20 puntos de daño a 1 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				it: "Questo attacco infligge 20 danni a uno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+				pt: "Este ataque causa 20 pontos de dano a 1 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				de: "Diese Attacke fügt 1 Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -42,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 50,

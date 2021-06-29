@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Lycanroc",
-		fr: "Lougaroc"
+		fr: "Lougaroc",
+		es: "Lycanroc",
+		it: "Lycanroc",
+		pt: "Lycanroc",
+		de: "Wolwerock"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Throw",
-				fr: "Jet-Pierres"
+				fr: "Jet-Pierres",
+				es: "Lanzarrocas",
+				it: "Sassata",
+				pt: "Lançamento de Rocha",
+				de: "Steinwurf"
 			},
 
 			damage: 30,
@@ -43,11 +51,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Strike",
-				fr: "Coup Déchirant"
+				fr: "Coup Déchirant",
+				es: "Golpe Cuchillazo",
+				it: "Lacerattacco",
+				pt: "Ataque Cortante",
+				de: "Schlitzender Schlag"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon can’t use Slashing Strike.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant."
+				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
+				es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
+				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
+				pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
+				de: "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
 			},
 			damage: 150,
 

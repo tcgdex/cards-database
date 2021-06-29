@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Hattrem",
-		fr: "Chapotus"
+		fr: "Chapotus",
+		es: "Hattrem",
+		it: "Hattrem",
+		pt: "Hattrem",
+		de: "Brimano"
 	},
 
 	illustrator: "miki kudo",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Spiral Drain",
-			fr: "Spirale Épuisante"
+			fr: "Spirale Épuisante",
+			es: "Drenaje Espiral",
+			it: "Assorbimento Spirale",
+			pt: "Dreno Espiral",
+			de: "Spiralsauger"
 		},
 
 		effect: {
 			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon."
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			es: "Cura 30 puntos de daño a este Pokémon.",
+			it: "Cura questo Pokémon da 30 danni.",
+			pt: "Cure 30 pontos de dano deste Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30,

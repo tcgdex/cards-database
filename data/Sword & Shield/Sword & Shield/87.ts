@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Munna",
 		fr: "Munna",
+		es: "Munna",
+		it: "Munna",
+		pt: "Munna",
+		de: "Somniam"
 	},
 
 	illustrator: "Asako Ito",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Moonlight",
 				fr: "Rayon Lune",
+				es: "Luz Lunar",
+				it: "Lucelunare",
+				pt: "Luar",
+				de: "Mondschein"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts de ce Pokémon.",
+				es: "Cura 30 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 30 danni.",
+				pt: "Cure 30 pontos de dano deste Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -42,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Psychic Sphere",
 				fr: "Sphère Psy",
+				es: "Esfera Psíquica",
+				it: "Psicosfera",
+				pt: "Esfera Psíquica",
+				de: "Psychosphäre"
 			},
 
 			damage: 30,

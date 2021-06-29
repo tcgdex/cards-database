@@ -4,7 +4,11 @@ import Set from '../Champion\'s Path'
 const card: Card = {
 	name: {
 		en: "Hattrem",
-		fr: "Chapotus"
+		fr: "Chapotus",
+		es: "Hattrem",
+		it: "Hattrem",
+		pt: "Hattrem",
+		de: "Brimano"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				es: "Toque",
+				it: "Battuta",
+				pt: "Pulso",
+				de: "Verprügler"
 			},
 
 			damage: 20,
@@ -42,7 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Psy Bolt",
-				fr: "Super Psy"
+				fr: "Super Psy",
+				es: "Superrayo Psi",
+				it: "Superpsico",
+				pt: "Super-raio Psíquico",
+				de: "Super-Psischlag"
 			},
 
 			damage: 40,

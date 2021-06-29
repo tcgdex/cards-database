@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Bisharp",
-		fr: "Scalproie"
+		fr: "Scalproie",
+		es: "Bisharp",
+		it: "Bisharp",
+		pt: "Bisharp",
+		de: "Caesurio"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Slash",
-			fr: "Tranche"
+			fr: "Tranche",
+			es: "Cuchillada",
+			it: "Lacerazione",
+			pt: "Talho",
+			de: "Schlitzer"
 		},
 
 		damage: 30,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Steel Slice",
-			fr: "Acier Tranché"
+			fr: "Acier Tranché",
+			es: "Tajo Acerado",
+			it: "Tagliacciaio",
+			pt: "Fatiar Aço",
+			de: "Stahlschnitt"
 		},
 
 		effect: {
 			en: "If your opponent’s Active Pokémon is a Metal Pokémon, this attack does 90 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Metal, cette attaque inflige 90 dégâts supplémentaires."
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Metal, cette attaque inflige 90 dégâts supplémentaires.",
+			es: "Si el Pokémon Activo de tu rival es un Pokémon Metal, este ataque hace 90 puntos de daño más.",
+			it: "Se il Pokémon attivo del tuo avversario è di tipo Metal, questo attacco infligge 90 danni in più.",
+			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Metal, este ataque causará 90 pontos de dano a mais.",
+			de: "Wenn das Aktive Pokémon deines Gegners ein Metal-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+",

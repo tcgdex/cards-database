@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Larvitar",
-		fr: "Embrylex"
+		fr: "Embrylex",
+		es: "Larvitar",
+		it: "Larvitar",
+		pt: "Larvitar",
+		de: "Larvitar"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand Spray",
-				fr: "Jet Sableux"
+				fr: "Jet Sableux",
+				es: "Rociado de Arena",
+				it: "Silicospruzzo",
+				pt: "Spray de Areia",
+				de: "Sandspray"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pierce",
-				fr: "Transpercement"
+				fr: "Transpercement",
+				es: "Perforar",
+				it: "Perforare",
+				pt: "Perfurar",
+				de: "Durchbohren"
 			},
 
 			damage: 20,

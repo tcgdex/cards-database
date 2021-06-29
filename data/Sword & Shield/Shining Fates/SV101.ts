@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Minisange",
-		en: "Rookidee"
+		en: "Rookidee",
+		es: "Rookidee",
+		it: "Rookidee",
+		pt: "Rookidee",
+		de: "Meikro"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Battement",
-			en: "Flap"
+			en: "Flap",
+			es: "Aleteo",
+			it: "Alabattito",
+			pt: "Asa",
+			de: "Flattern"
 		},
 
 		damage: 10,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Glissement",
-			en: "Glide"
+			en: "Glide",
+			es: "Planeo",
+			it: "Aliante",
+			pt: "Planeio",
+			de: "Gleiten"
 		},
 
 		damage: 30,

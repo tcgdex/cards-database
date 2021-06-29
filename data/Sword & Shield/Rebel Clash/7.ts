@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Lotad",
-		fr: "Nénupiot"
+		fr: "Nénupiot",
+		es: "Lotad",
+		it: "Lotad",
+		pt: "Lotad",
+		de: "Loturzel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Mini Drain",
-				fr: "Mini-Assèchement"
+				fr: "Mini-Assèchement",
+				es: "Minidrenaje",
+				it: "Miniassorbimento",
+				pt: "Minidreno",
+				de: "Minisauger"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts de ce Pokémon."
+				fr: "Soignez 10 dégâts de ce Pokémon.",
+				es: "Cura 10 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 10 danni.",
+				pt: "Cure 10 pontos de dano deste Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -35,7 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 20,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Zarude",
-		en: "Zarude"
+		en: "Zarude",
+		es: "Zarude",
+		it: "Zarude",
+		pt: "Zarude",
+		de: "Zarude"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Lianes Sangsues",
-			en: "Suctioning Vines"
+			en: "Suctioning Vines",
+			es: "Lianas Succionadoras",
+			it: "Liane Aspiranti",
+			pt: "Vinhas de Sucção",
+			de: "Saugranken"
 		},
 
 		effect: {
 			fr: "Soignez 30 dégâts de ce Pokémon.",
-			en: "Heal 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon.",
+			es: "Cura 30 puntos de daño a este Pokémon.",
+			it: "Cura questo Pokémon da 30 danni.",
+			pt: "Cure 30 pontos de dano deste Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30,
@@ -31,7 +43,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Courroux de la Jungle",
-			en: "Jungle Blast"
+			en: "Jungle Blast",
+			es: "Explosión Selvática",
+			it: "Giunglascoppio",
+			pt: "Explosão da Selva",
+			de: "Dschungelexplosion"
 		},
 
 		damage: 110,

@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Cubchoo",
-		fr: "Polarhume"
+		fr: "Polarhume",
+		es: "Cubchoo",
+		it: "Cubchoo",
+		pt: "Cubchoo",
+		de: "Petznief"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -24,7 +28,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Chop",
-				fr: "Coup Tranchant"
+				fr: "Coup Tranchant",
+				es: "Cortar",
+				it: "Ceffone",
+				pt: "Trincar",
+				de: "Hacker"
 			},
 
 			damage: 10,
@@ -37,7 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Icicle",
-				fr: "Concrétion Glacée"
+				fr: "Concrétion Glacée",
+				es: "Témpano",
+				it: "Stalattite",
+				pt: "Pingente de Gelo",
+				de: "Eiszapfen"
 			},
 
 			damage: 30,

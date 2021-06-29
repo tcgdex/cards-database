@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Embrochet",
-		en: "Arrokuda"
+		en: "Arrokuda",
+		es: "Arrokuda",
+		it: "Arrokuda",
+		pt: "Arrokuda",
+		de: "Pikuda"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Pluie Éclaboussante",
-			en: "Rain Splash"
+			en: "Rain Splash",
+			es: "Golpe de Lluvia",
+			it: "Spruzzapioggia",
+			pt: "Chuva Borrifante",
+			de: "Regenplatscher"
 		},
 
 		damage: 20,

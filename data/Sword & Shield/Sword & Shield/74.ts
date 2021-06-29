@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Yamper",
 		fr: "Voltoutou",
+		es: "Yamper",
+		it: "Yamper",
+		pt: "Yamper",
+		de: "Voldi"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -27,6 +31,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -40,6 +48,10 @@ const card: Card = {
 			name: {
 				en: "Zap Kick",
 				fr: "Coup de Pied Ravageur",
+				es: "Electropatada",
+				it: "Dinamocalcio",
+				pt: "Chute Zap",
+				de: "Stromtritt"
 			},
 
 			damage: 20,

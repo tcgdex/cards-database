@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Swirlix",
-		fr: "Sucroquin"
+		fr: "Sucroquin",
+		es: "Swirlix",
+		it: "Swirlix",
+		pt: "Swirlix",
+		de: "Flauschling"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Draining Kiss",
-			fr: "Vampibaiser"
+			fr: "Vampibaiser",
+			es: "Beso Drenaje",
+			it: "Assorbibacio",
+			pt: "Beijo Drenante",
+			de: "Diebeskuss"
 		},
 
 		effect: {
 			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon."
+			fr: "Soignez 10 dégâts de ce Pokémon.",
+			es: "Cura 10 puntos de daño a este Pokémon.",
+			it: "Cura questo Pokémon da 10 danni.",
+			pt: "Cure 10 pontos de dano deste Pokémon.",
+			de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 20,

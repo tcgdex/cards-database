@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Tutafeh de Galar",
-		en: "Galarian Yamask"
+		en: "Galarian Yamask",
+		es: "Yamask de Galar",
+		it: "Yamask di Galar",
+		pt: "Yamask de Galar",
+		de: "Galar-Makabaja"
 	},
 
 	illustrator: "sowsow",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Attaque Imprudente",
-			en: "Reckless Charge"
+			en: "Reckless Charge",
+			es: "Carga Descuidada",
+			it: "Carica Avventata",
+			pt: "Carga Indomável",
+			de: "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
 			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
-			en: "This Pokémon also does 30 damage to itself."
+			en: "This Pokémon also does 30 damage to itself.",
+			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 50,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Raboot",
 		fr: "Lapyro",
+		es: "Raboot",
+		it: "Raboot",
+		pt: "Raboot",
+		de: "Kickerlo"
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Kick",
 				fr: "Koud’Pied",
+				es: "Patada",
+				it: "Calcio",
+				pt: "Chute",
+				de: "Tritt"
 			},
 
 			damage: 20,
@@ -45,6 +53,10 @@ const card: Card = {
 			name: {
 				en: "Heat Blast",
 				fr: "Explosion de Chaleur",
+				es: "Explosión de Calor",
+				it: "Caldobomba",
+				pt: "Raio de Calor",
+				de: "Hitzestoß"
 			},
 
 			damage: 50,

@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Ninetales",
-		fr: "Feunard"
+		fr: "Feunard",
+		es: "Ninetales",
+		it: "Ninetales",
+		pt: "Ninetales",
+		de: "Vulnona"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -24,11 +28,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Hex",
-				fr: "Châtiment"
+				fr: "Châtiment",
+				es: "Infortunio",
+				it: "Sciagura",
+				pt: "Feitiço",
+				de: "Bürde"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 90 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 90 dégâts supplémentaires."
+				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 90 dégâts supplémentaires.",
+				es: "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, este ataque hace 90 puntos de daño más.",
+				it: "Se il Pokémon attivo del tuo avversario è influenzato da una condizione speciale, questo attacco infligge 90 danni in più.",
+				pt: "Se o Pokémon Ativo do seu oponente estiver afetado por uma Condição Especial, este ataque causará 90 pontos de dano a mais.",
+				de: "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -41,11 +53,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Flickering Flames",
-				fr: "Flammes Vacillantes"
+				fr: "Flammes Vacillantes",
+				es: "Llamas Titilantes",
+				it: "Guizzafiamme",
+				pt: "Chamas Tremeluzentes",
+				de: "Züngelnde Flammen"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 90,
 

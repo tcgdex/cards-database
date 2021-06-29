@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Galarian Corsola",
-		fr: "Corayon de Galar"
+		fr: "Corayon de Galar",
+		es: "Corsola de Galar",
+		it: "Corsola di Galar",
+		pt: "Corsola de Galar",
+		de: "Galar-Corasonn"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Cursed Drop",
-				fr: "Chute Maudite"
+				fr: "Chute Maudite",
+				es: "Caída Maldita",
+				it: "Caduta Maledetta",
+				pt: "Queda Amaldiçoada",
+				de: "Verfluchter Fall"
 			},
 			effect: {
 				en: "Put 3 damage counters on your opponent’s Pokémon in any way you like.",
-				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît."
+				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+				es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+				it: "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
+				pt: "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
+				de: "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 			},
 
 		},

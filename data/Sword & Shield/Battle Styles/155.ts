@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Tyranitar V",
-		fr: "Tyranocif V"
+		fr: "Tyranocif V",
+		es: "Tyranitar V",
+		it: "Tyranitar V",
+		pt: "Tyranitar V",
+		de: "Despotar V"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Cragalanche",
-			fr: "Lapidalanche"
+			fr: "Lapidalanche",
+			es: "Rocalud",
+			it: "Valanghiaia",
+			pt: "Rochavalanche",
+			de: "Grolllawine"
 		},
 
 		effect: {
 			en: "Discard the top 2 cards of your opponent’s deck.",
-			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire."
+			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
+			it: "Scarta le prime due carte del mazzo del tuo avversario.",
+			pt: "Descarte as 2 cartas de cima do baralho do seu oponente.",
+			de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 60,
@@ -31,12 +43,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Single Strike Crush",
-			fr: "Écrasement Poing Final"
+			fr: "Écrasement Poing Final",
+			es: "Aplastamiento Golpe Brusco",
+			it: "Schianto Colpo Singolo",
+			pt: "Esmagamento Golpe Decisivo",
+			de: "Fokussierter-Angriff-Zermalmer"
 		},
 
 		effect: {
 			en: "Discard the top 4 cards of your deck.",
-			fr: "Défaussez les 4 cartes du dessus de votre deck."
+			fr: "Défaussez les 4 cartes du dessus de votre deck.",
+			es: "Descarta las 4 primeras cartas de tu baraja.",
+			it: "Scarta le prime quattro carte del tuo mazzo.",
+			pt: "Descarte as 4 cartas de cima do seu baralho.",
+			de: "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 240,

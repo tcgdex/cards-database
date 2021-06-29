@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Tympole",
-		fr: "Tritonde"
+		fr: "Tritonde",
+		es: "Tympole",
+		it: "Tympole",
+		pt: "Tympole",
+		de: "Schallquap"
 	},
 
 	illustrator: "Aya Kusube",
@@ -19,11 +23,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiral Attack",
-				fr: "Attaque en Spirale"
+				fr: "Attaque en Spirale",
+				es: "Ataque en Espiral",
+				it: "Spiralattacco",
+				pt: "Ataque Espiral",
+				de: "Spiralangriff"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},

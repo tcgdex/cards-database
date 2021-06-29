@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Ledyba",
-		fr: "Coxy"
+		fr: "Coxy",
+		es: "Ledyba",
+		it: "Ledyba",
+		pt: "Ledyba",
+		de: "Ledyba"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,19 +22,31 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Collect",
-			fr: "Collecte"
+			fr: "Collecte",
+			es: "Coleccionar",
+			it: "Tassa",
+			pt: "Coleta",
+			de: "Sammeln"
 		},
 
 		effect: {
 			en: "Draw a card.",
-			fr: "Piochez une carte."
+			fr: "Piochez une carte.",
+			es: "Roba 1 carta.",
+			it: "Pesca una carta.",
+			pt: "Compre 1 carta.",
+			de: "Ziehe 1 Karte."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Punch",
-			fr: "Koud’Poing"
+			fr: "Koud’Poing",
+			es: "Puño",
+			it: "Pugno",
+			pt: "Soco",
+			de: "Boxhieb"
 		},
 
 		damage: 20,

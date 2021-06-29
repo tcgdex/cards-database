@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Accelgor",
-		fr: "Limaspeed"
+		fr: "Limaspeed",
+		es: "Accelgor",
+		it: "Accelgor",
+		pt: "Accelgor",
+		de: "Hydragil"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Jet Headbutt",
-				fr: "Bélier Volant"
+				fr: "Bélier Volant",
+				es: "Turbocabezazo",
+				it: "Zuccata Jet",
+				pt: "Cabeçada a Jato",
+				de: "Flinke Kopfnuss"
 			},
 
 			damage: 70,
@@ -45,7 +53,8 @@ const card: Card = {
 		},
 	],
 
-	regulationMark: "D"
+	regulationMark: "D",
+	retreat: 0
 }
 
 export default card

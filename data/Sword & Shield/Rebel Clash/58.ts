@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Electabuzz",
-		fr: "Élektek"
+		fr: "Élektek",
+		es: "Electabuzz",
+		it: "Electabuzz",
+		pt: "Electabuzz",
+		de: "Elektek"
 	},
 
 	illustrator: "Midori Harada",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
-				fr: "Coud’Phalange"
+				fr: "Coud’Phalange",
+				es: "Puño con Nudillos",
+				it: "Noccapugno",
+				pt: "Soco com Punho",
+				de: "Knöchelhieb"
 			},
 
 			damage: 10,
@@ -33,7 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Electroslug",
-				fr: "Électro Frappe"
+				fr: "Électro Frappe",
+				es: "Electropuñetazo",
+				it: "Elettropugno",
+				pt: "Lesma Elétrica",
+				de: "Elektroschuss"
 			},
 
 			damage: 70,

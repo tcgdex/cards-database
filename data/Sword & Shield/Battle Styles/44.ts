@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Electabuzz",
-		fr: "Élektek"
+		fr: "Élektek",
+		es: "Electabuzz",
+		it: "Electabuzz",
+		pt: "Electabuzz",
+		de: "Elektek"
 	},
 
 	illustrator: "Hasuno",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Haymaker",
-			fr: "Coup de Poing Fracassant"
+			fr: "Coup de Poing Fracassant",
+			es: "Golpazo",
+			it: "Pugno Tremendo",
+			pt: "Golpe Arrasador",
+			de: "Schwinger"
 		},
 
 		effect: {
 			en: "During your next turn, this Pokémon can’t use Haymaker.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup de Poing Fracassant."
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup de Poing Fracassant.",
+			es: "Durante tu próximo turno, este Pokémon no puede usar Golpazo.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Pugno Tremendo.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Arrasador.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon Schwinger nicht einsetzen."
 		},
 
 		damage: 30,

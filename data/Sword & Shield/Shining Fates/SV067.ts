@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Charbi",
-		en: "Rolycoly"
+		en: "Rolycoly",
+		es: "Rolycoly",
+		it: "Rolycoly",
+		pt: "Rolycoly",
+		de: "Klonkett"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Collision",
-			en: "Ram"
+			en: "Ram",
+			es: "Apisonar",
+			it: "Carica",
+			pt: "Aríete",
+			de: "Ramme"
 		},
 
 		damage: 10,

@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Seadra",
-		fr: "Hypocéan"
+		fr: "Hypocéan",
+		es: "Seadra",
+		it: "Seadra",
+		pt: "Seadra",
+		de: "Seemon"
 	},
 
 	illustrator: "0313",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Water Gun",
-			fr: "Pistolet à O"
+			fr: "Pistolet à O",
+			es: "Pistola Agua",
+			it: "Pistolacqua",
+			pt: "Revólver d’Água",
+			de: "Aquaknarre"
 		},
 
 		damage: 40,

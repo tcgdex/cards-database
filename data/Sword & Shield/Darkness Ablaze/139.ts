@@ -4,7 +4,11 @@ import Set from '../Darkness Ablaze'
 const card: Card = {
 	name: {
 		en: "Ursaring",
-		fr: "Ursaring"
+		fr: "Ursaring",
+		es: "Ursaring",
+		it: "Ursaring",
+		pt: "Ursaring",
+		de: "Ursaring"
 	},
 
 	illustrator: "Uta",
@@ -31,11 +35,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer Arm",
-				fr: "Marto-Poing"
+				fr: "Marto-Poing",
+				es: "Machada",
+				it: "Martelpugno",
+				pt: "Braço de Martelo",
+				de: "Hammerarm"
 			},
 			effect: {
 				en: "Discard the top card of your opponent’s deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire."
+				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				es: "Descarta la primera carta de la baraja de tu rival.",
+				it: "Scarta la prima carta del mazzo del tuo avversario.",
+				pt: "Descarte a carta de cima do baralho do seu oponente.",
+				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -49,7 +61,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
-				fr: "Tranch’Griffe"
+				fr: "Tranch’Griffe",
+				es: "Cuchillada Garra",
+				it: "Lacerartiglio",
+				pt: "Golpe de Garra",
+				de: "Klauenschlitzer"
 			},
 
 			damage: 120,

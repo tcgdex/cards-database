@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Cobalion",
-		fr: "Cobaltium"
+		fr: "Cobaltium",
+		es: "Cobalion",
+		it: "Cobalion",
+		pt: "Cobalion",
+		de: "Kobalium"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Headbang",
-			fr: "Frappe de Tête"
+			fr: "Frappe de Tête",
+			es: "Cabecear",
+			it: "Scuotitesta",
+			pt: "Baque de Cabeça",
+			de: "Headbangen"
 		},
 
 		damage: 40,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Metal Slash",
-			fr: "Tranche Métallique"
+			fr: "Tranche Métallique",
+			es: "Tajo Metálico",
+			it: "Lacerametallo",
+			pt: "Talho de Metal",
+			de: "Metallschlitzer"
 		},
 
 		effect: {
 			en: "During your next turn, this Pokémon can’t attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
+			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 130,

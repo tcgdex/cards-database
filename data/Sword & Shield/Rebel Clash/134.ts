@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Doublade",
-		fr: "Dimoclès"
+		fr: "Dimoclès",
+		es: "Doublade",
+		it: "Doublade",
+		pt: "Doublade",
+		de: "Duokles"
 	},
 
 	illustrator: "Aya Kusube",
@@ -25,7 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 30,
@@ -39,11 +47,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Slash",
-				fr: "Double Lame"
+				fr: "Double Lame",
+				es: "Cuchillada Doble",
+				it: "Doppia Lacerazione",
+				pt: "Talho Duplo",
+				de: "Doppelschlitzer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face."
+				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+				es: "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
+				it: "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
+				pt: "Jogue 2 moedas. Este ataque causa 80 pontos de dano para cada cara.",
+				de: "Wirf 2 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 			},
 			damage: "80×",
 

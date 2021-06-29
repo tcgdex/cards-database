@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Sealeo",
-		fr: "Phogleur"
+		fr: "Phogleur",
+		es: "Sealeo",
+		it: "Sealeo",
+		pt: "Sealeo",
+		de: "Seejong"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Ram",
-			fr: "Collision"
+			fr: "Collision",
+			es: "Apisonar",
+			it: "Carica",
+			pt: "Aríete",
+			de: "Ramme"
 		},
 
 		damage: 30,
@@ -31,7 +39,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Aurora Beam",
-			fr: "Onde Boréale"
+			fr: "Onde Boréale",
+			es: "Rayo Aurora",
+			it: "Raggiaurora",
+			pt: "Raio Aurora",
+			de: "Aurorastrahl"
 		},
 
 		damage: 70,

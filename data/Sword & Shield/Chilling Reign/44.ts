@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Rapid Strike Urshifu",
-		fr: "Shifours Mille Poings"
+		fr: "Shifours Mille Poings",
+		es: "Urshifu Golpe Fluido",
+		it: "Urshifu Pluricolpo",
+		pt: "Urshifu Golpe Fluido",
+		de: "Fließender-Angriff-Wulaosu"
 	},
 
 	illustrator: "Naoki Saito",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Slashing Claw",
-			fr: "Griffe Taillante"
+			fr: "Griffe Taillante",
+			es: "Garra Cuchillazo",
+			it: "Artigli Laceranti",
+			pt: "Garra Cortadora",
+			de: "Schlitzende Klaue"
 		},
 
 		damage: 40,
@@ -31,12 +39,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Rapid-Fisted Rush",
-			fr: "Mille Poings Chargés"
+			fr: "Mille Poings Chargés",
+			es: "Embestida de Puño Fluido",
+			it: "Pugni Raffica Rapida",
+			pt: "Fúria de Punho Rápido",
+			de: "Fließende Fäuste"
 		},
 
 		effect: {
 			en: "This attack does 30 damage for each of your Rapid Strike Pokémon in play.",
-			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Mille Poings en jeu."
+			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Mille Poings en jeu.",
+			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fluido en juego.",
+			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Rapido in gioco.",
+			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fluido em jogo.",
+			de: "Diese Attacke fügt für jedes deiner Fließender-Angriff-Pokémon im Spiel 30 Schadenspunkte zu."
 		},
 
 		damage: "30×",

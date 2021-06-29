@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		fr: "Canarticho de Galar",
-		en: "Galarian Farfetch’d"
+		en: "Galarian Farfetch’d",
+		es: "Farfetch’d de Galar",
+		it: "Farfetch’d di Galar",
+		pt: "Farfetch’d de Galar",
+		de: "Galar-Porenta"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,12 +22,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			fr: "Éclate-Roc",
-			en: "Rock Smash"
+			en: "Rock Smash",
+			es: "Golpe Roca",
+			it: "Spaccaroccia",
+			pt: "Esmagamento de Pedras",
+			de: "Zertrümmerer"
 		},
 
 		effect: {
 			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			en: "Flip a coin. If heads, this attack does 30 more damage.",
+			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+",
@@ -31,7 +43,11 @@ const card: Card = {
 	}, {
 		name: {
 			fr: "Transpercement",
-			en: "Pierce"
+			en: "Pierce",
+			es: "Perforar",
+			it: "Perforare",
+			pt: "Perfurar",
+			de: "Durchbohren"
 		},
 
 		damage: 30,

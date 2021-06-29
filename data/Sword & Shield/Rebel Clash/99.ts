@@ -4,7 +4,11 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Barboach",
-		fr: "Barloche"
+		fr: "Barloche",
+		es: "Barboach",
+		it: "Barboach",
+		pt: "Barboach",
+		de: "Schmerbe"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -19,7 +23,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Fin",
-				fr: "Aileron-Rasoir"
+				fr: "Aileron-Rasoir",
+				es: "Aleta Afilada",
+				it: "Pinnalama",
+				pt: "Barbatana Cortante",
+				de: "Rasierflosse"
 			},
 
 			damage: 10,

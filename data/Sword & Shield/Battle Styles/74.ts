@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Gurdurr",
-		fr: "Ouvrifier"
+		fr: "Ouvrifier",
+		es: "Gurdurr",
+		it: "Gurdurr",
+		pt: "Gurdurr",
+		de: "Strepoli"
 	},
 
 	illustrator: "Uta",
@@ -23,7 +27,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras’Face"
+			fr: "Écras’Face",
+			es: "Destructor",
+			it: "Botta",
+			pt: "Pancada",
+			de: "Klaps"
 		},
 
 		damage: 30,
@@ -31,7 +39,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Hammer In",
-			fr: "Enfoncement"
+			fr: "Enfoncement",
+			es: "Martillear",
+			it: "Martello",
+			pt: "Martelada",
+			de: "Einhämmern"
 		},
 
 		damage: 60,

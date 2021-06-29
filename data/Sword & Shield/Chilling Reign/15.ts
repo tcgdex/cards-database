@@ -6,7 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Tsareena",
-		fr: "Sucreine"
+		fr: "Sucreine",
+		es: "Tsareena",
+		it: "Tsareena",
+		pt: "Tsareena",
+		de: "Fruyal"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Tread On",
-			fr: "Piétinement"
+			fr: "Piétinement",
+			es: "Patear",
+			it: "Calpestare",
+			pt: "Pisão",
+			de: "Zertreten"
 		},
 
 		effect: {
 			en: "This attack does 50 more damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			es: "Este ataque hace 50 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+			it: "Questo attacco infligge 50 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+			pt: "Este ataque causa 50 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
+			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+",
@@ -36,7 +48,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Solar Beam",
-			fr: "Lance-Soleil"
+			fr: "Lance-Soleil",
+			es: "Rayo Solar",
+			it: "Solarraggio",
+			pt: "Raio Solar",
+			de: "Solarstrahl"
 		},
 
 		damage: 120,
