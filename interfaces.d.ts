@@ -62,10 +62,11 @@ export interface Card {
 	 * - Common https://www.tcgdex.net/database/xy/xy9/1
 	 * - Uncommon https://www.tcgdex.net/database/xy/xy9/2
 	 * - Rare https://www.tcgdex.net/database/xy/xy9/3
-	 * - Ultra Rare
-	 * - Secret Rare
+	 * - Ultra Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/18-Cinderace-V
+	 * - Secret Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX
+	 * - Amazing https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/17-Reshiram
 	 */
-	rarity: 'None' | 'Common'| 'Uncommon' | 'Rare' | 'Ultra Rare' | 'Secret Rare'
+	rarity: 'None' | 'Common'| 'Uncommon' | 'Rare' | 'Ultra Rare' | 'Secret Rare' | 'Amazing'
 
 	/**
 	 * Card Category
