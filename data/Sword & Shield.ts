@@ -5,6 +5,7 @@ const set: Serie = {
 	name: {
 		en: "Sword & Shield",
 		fr: "Épée & Bouclier",
+		es: "Espada y Escudo"
 	},
 }
 

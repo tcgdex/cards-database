@@ -5,7 +5,8 @@ const set: Set = {
 	id: "swsh6",
 	name: {
 		en: "Chilling Reign",
-		fr: "Règne de Glace"
+		fr: "Règne de Glace",
+		es: "Reinado Escalofriante"
 ,
 	},
 	serie: serie,

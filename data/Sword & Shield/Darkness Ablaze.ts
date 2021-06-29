@@ -6,7 +6,8 @@ const swsh3: Set = {
 
 	name: {
 		en: "Darkness Ablaze",
-		fr: "Ténèbres Embrasées"
+		fr: "Ténèbres Embrasées",
+		es: "Oscuridad Incandescente"
 ,
 	},
 

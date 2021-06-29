@@ -6,7 +6,8 @@ const swsh1: Set = {
 
 	name: {
 		en: "Sword & Shield",
-		fr: "Épée et Bouclier"
+		fr: "Épée et Bouclier",
+		es: "Espada y Escudo"
 ,
 	},
 

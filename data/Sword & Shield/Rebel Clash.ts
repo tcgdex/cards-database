@@ -6,7 +6,8 @@ const swsh2: Set = {
 
 	name: {
 		en: "Rebel Clash",
-		fr: "Clash des Rebelles"
+		fr: "Clash des Rebelles",
+		es: "Choque Rebelde"
 ,
 	},
 

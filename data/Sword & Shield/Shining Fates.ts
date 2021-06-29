@@ -7,6 +7,7 @@ const swsh1: Set = {
 	name: {
 		en: "Shining Fates",
 		fr: "Déstinées Radieuses",
+		es: "Destinos Brillantes"
 	},
 
 	serie: serie,

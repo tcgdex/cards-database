@@ -6,7 +6,8 @@ const swsh4: Set = {
 
 	name: {
 		en: "Vivid Voltage",
-		fr: "Voltage Éclatant"
+		fr: "Voltage Éclatant",
+		es: "Voltaje Vívido"
 ,
 	},
 
