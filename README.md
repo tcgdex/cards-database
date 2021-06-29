@@ -14,7 +14,7 @@
 		<img src="https://img.shields.io/github/stars/tcgdex/cards-database?style=flat-square" alt="Github stars">
 	</a>
 	<a href="https://github.com/tcgdex/compiler">
-		<img src="https://img.shields.io/github/workflow/status/tcgdex/compiler/Compile%20TCGdex?style=flat-square" alt="Compiler build passing" />
+		<img src="https://img.shields.io/github/workflow/status/tcgdex/cards-database/Compile?style=flat-square" alt="Compiler build passing" />
 	</a>
 </p>
 
