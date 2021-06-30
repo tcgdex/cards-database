@@ -24,11 +24,11 @@ A Multilanguage Pokémon TCG Database with Cards Pictures and most of the inform
 
 ## Translations
 
-|             | English | French | German | Italian | Portugese | Spanish |
-|-------------|---------|--------|--------|---------|-----------|---------|
-| Cards       | 14464   | 12715  | 1539   | 1539    | 1539      | 1539    |
-| Other texts | 51      | 51     | 0      | 0       | 0         | 45      |
-| Translated  | 100%    | 71%    | 11%    | 11%     | 11%       | 11%     |
+|             | English | French | German | Italian | Portuguese | Spanish |
+|-------------|---------|--------|--------|---------|------------|---------|
+| Cards       | 14464   | 12715  | 1539   | 1539    | 1539       | 1539    |
+| Other texts | 51      | 51     | 0      | 0       | 0          | 45      |
+| Translated  | 100%    | 71%    | 11%    | 11%     | 11%        | 11%     |
 
 ## Interact with the Database
 
