@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pikipek",
 		fr: "Picassaut",
+		es: "Pikipek",
+		it: "Pikipek",
+		pt: "Pikipek",
+		de: "Peppeck"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Send Back",
 				fr: "Renvoyer",
+				es: "Retornar",
+				it: "Mandaindietro",
+				pt: "Mandar Embora",
+				de: "Zurückschicken"
 			},
 			effect: {
 				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
 				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 20,

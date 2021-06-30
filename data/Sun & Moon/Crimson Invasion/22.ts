@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Remoraid",
 		fr: "Rémoraid",
+		es: "Remoraid",
+		it: "Remoraid",
+		pt: "Remoraid",
+		de: "Remoraid"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,

@@ -5,25 +5,33 @@ const card: Card = {
 	name: {
 		en: "Sharpedo",
 		fr: "Sharpedo",
+		es: "Sharpedo",
+		it: "Sharpedo",
+		pt: "Sharpedo",
+		de: "Tohaido"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		319,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Carvanha",
 		fr: "Carvanha",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -34,12 +42,17 @@ const card: Card = {
 			name: {
 				en: "Jet Headbutt",
 				fr: "Bélier Volant",
+				es: "Turbocabezazo",
+				it: "Zuccata Jet",
+				pt: "Cabeçada a Jato",
+				de: "Flinke Kopfnuss"
 			},
 
 			damage: 70,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -47,10 +60,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

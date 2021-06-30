@@ -4,27 +4,28 @@ import Set from '../Guardians Rising'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		fr: "Énergie Lightning de base",
+		fr: "Énergie Électrique",
+		es: "Energía Rayo",
+		it: "Energia Lampo",
+		pt: "Energia de Raios",
+		de: "Elektro-Energie"
 	},
+
 	illustrator: undefined,
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	effect: {
+		en: "",
+		fr: "",
+		es: "",
+		it: "",
+		pt: "",
+		de: ""
+	}
 }
 
 export default card

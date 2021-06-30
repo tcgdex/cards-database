@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Turtonator",
 		fr: "Boumata",
+		es: "Turtonator",
+		it: "Turtonator",
+		pt: "Turtonator",
+		de: "Tortunator"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Searing Flame",
 				fr: "Flammes Calcinantes",
+				es: "Llama Abrasadora",
+				it: "Fiamme Ustionanti",
+				pt: "Chama Cauterizante",
+				de: "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned.",
+				en: "Your opponent’s Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -48,6 +60,10 @@ const card: Card = {
 			name: {
 				en: "Steam Artillery",
 				fr: "Artillerie Vapeur",
+				es: "Artillería de Vapor",
+				it: "Artiglieria Vapore",
+				pt: "Artilharia de Vapor",
+				de: "Dampfgeschütz"
 			},
 
 			damage: 100,

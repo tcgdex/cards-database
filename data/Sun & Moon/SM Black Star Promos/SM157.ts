@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Pika Shield",
 				fr: "Pika Bouclier",
+				es: "Escudo Pika",
+				it: "Pika-Difesa",
+				pt: "Escudo Pikachu",
+				de: "Pika-Schutz"
 			},
 			effect: {
-				en: "This Pokémon can't be Paralyzed.",
+				en: "This Pokémon can’t be Paralyzed.",
 				fr: "Ce Pokémon ne peut pas être Paralysé.",
+				es: "Este Pokémon no puede pasar a estar Paralizado.",
+				it: "Questo Pokémon non può venire paralizzato.",
+				pt: "Este Pokémon não pode ser Paralisado.",
+				de: "Dieses Pokémon kann nicht paralysiert werden."
 			},
 		},
 	],
@@ -42,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				es: "Impacto Estático",
+				it: "Shock statico",
+				pt: "Choque de Estática",
+				de: "Statischer Schock"
 			},
 
 			damage: 10,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Finneon",
 		fr: "Écayon",
+		es: "Finneon",
+		it: "Finneon",
+		pt: "Finneon",
+		de: "Finneon"
 	},
 	illustrator: "sui",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				es: "Tornado",
+				it: "Raffica",
+				pt: "Lufada de Vento",
+				de: "Windstoß"
 			},
 
 			damage: 10,

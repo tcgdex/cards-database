@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shuppet",
 		fr: "Polichombr",
+		es: "Shuppet",
+		it: "Shuppet",
+		pt: "Shuppet",
+		de: "Shuppet"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d’Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Will-O-Wisp",
 				fr: "Feu Follet",
+				es: "Fuego Fatuo",
+				it: "Fuocofatuo",
+				pt: "Fogo Fátuo",
+				de: "Irrlicht"
 			},
 
 			damage: 20,

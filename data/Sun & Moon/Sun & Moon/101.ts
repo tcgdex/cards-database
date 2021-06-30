@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Eevee",
 		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
 	},
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
@@ -26,11 +30,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Energy Evolution",
-				fr: "Évolution de l'Énergie",
+				fr: "Évolution de l’Énergie",
+				es: "Evolución de Energía",
+				it: "Evoluzione Energetica",
+				pt: "Evolução por Energia",
+				de: "Energie-Evolution"
 			},
 			effect: {
-				en: "When you attach a basic Energy card from your hand to this Pokémon during your turn, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
-				fr: "Lorsque vous attachez pendant votre tour une carte Énergie de base de votre main à ce Pokémon, vous pouvez chercher dans votre deck une carte qui est l’évolution de ce Pokémon et du même type que cette carte Énergie. Mettez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
+				en: "When you attach a basic Energy card from your hand to this Pokémon, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
+				fr: "Lorsque vous attachez une carte Énergie de base de votre main à ce Pokémon, vous pouvez chercher dans votre deck une carte Évolution de ce Pokémon du même type que la carte Énergie et la placer sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon.) Mélangez ensuite votre deck.",
+				es: "Cuando unas 1 carta de Energía Básica de tu mano a este Pokémon, puedes buscar en tu baraja 1 carta que evolucione de este Pokémon y que sea del mismo tipo que esa carta de Energía y puedes ponerla sobre este Pokémon. (Esto equivale a hacer evolucionar a este Pokémon). Baraja las cartas de tu baraja después.",
+				it: "Quando assegni una carta Energia base dalla tua mano a questo Pokémon, puoi cercare nel tuo mazzo una carta che si evolve da questo Pokémon che sia dello stesso tipo della carta Energia che hai assegnato a questo Pokémon e mettergliela sopra (quest’azione vale come evoluzione del Pokémon). Poi rimischia le carte del tuo mazzo.",
+				pt: "Ao ligar um card de Energia básica da sua mão a este Pokémon, você poderá procurar em seu baralho um card que evolua desse Pokémon e seja do mesmo tipo que esse card de Energia e, em seguida, colocá-lo nesse Pokémon. (Isso conta como evoluir esse Pokémon.) Em seguida, embaralhe seus cards.",
+				de: "Wenn du 1 Basis-Energiekarte von deiner Hand an dieses Pokémon anlegst, kannst du dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt und die denselben Energietyp wie diese Energiekarte hat, durchsuchen und sie auf dieses Pokémon legen. (Dies zählt als Entwicklung dieses Pokémon.) Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -42,10 +54,18 @@ const card: Card = {
 			name: {
 				en: "Quick Draw",
 				fr: "Pioche Rapide",
+				es: "Robo Rápido",
+				it: "Pescalesto",
+				pt: "Retirada Rápida",
+				de: "Schnellzieher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, draw a card.",
-				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
+				fr: "Lancez une pièce. Si c’est face, piochez une carte.",
+				es: "Lanza 1 moneda. Si sale cara, roba 1 carta.",
+				it: "Lancia una moneta. Se esce testa, pesca una carta.",
+				pt: "Jogue 1 moeda. Se sair cara, compre 1 carta.",
+				de: "Wirf 1 Münze. Ziehe bei Kopf 1 Karte."
 			},
 
 		},

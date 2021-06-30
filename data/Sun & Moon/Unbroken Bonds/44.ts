@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Seel",
 		fr: "Otaria",
+		es: "Seel",
+		it: "Seel",
+		pt: "Seel",
+		de: "Jurob"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud’Korne",
+				es: "Cornada",
+				it: "Incornata",
+				pt: "Ataque de Chifre",
+				de: "Hornattacke"
 			},
 
 			damage: 30,

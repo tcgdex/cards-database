@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
+		es: "Exeggcute",
+		it: "Exeggcute",
+		pt: "Exeggcute",
+		de: "Owei"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Hypnosis",
 				fr: "Hypnose",
+				es: "Hipnosis",
+				it: "Ipnosi",
+				pt: "Hipnose",
+				de: "Hypnose"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,

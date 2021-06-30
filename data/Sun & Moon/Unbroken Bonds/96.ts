@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wooper",
 		fr: "Axoloto",
+		es: "Wooper",
+		it: "Wooper",
+		pt: "Wooper",
+		de: "Felino"
 	},
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Mud Bomb",
 				fr: "Boue-Bombe",
+				es: "Bomba Fango",
+				it: "Pantanobomba",
+				pt: "Bomba de Lama",
+				de: "Schlammbombe"
 			},
 
 			damage: 30,

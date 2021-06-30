@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Staryu",
 		fr: "Stari",
+		es: "Staryu",
+		it: "Staryu",
+		pt: "Staryu",
+		de: "Sterndu"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				es: "Ataque Giratorio",
+				it: "Attacco Rotante",
+				pt: "Ataque Giratório",
+				de: "Rundumangriff"
 			},
 
 			damage: 10,

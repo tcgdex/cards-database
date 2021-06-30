@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bulbasaur",
 		fr: "Bulbizarre",
+		es: "Bulbasaur",
+		it: "Bulbasaur",
+		pt: "Bulbasaur",
+		de: "Bisasam"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,

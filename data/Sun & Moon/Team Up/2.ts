@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Weedle",
 		fr: "Aspicot",
+		es: "Weedle",
+		it: "Weedle",
+		pt: "Weedle",
+		de: "Hornliu"
 	},
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Tangle Drag",
 				fr: "Lasso Piège",
+				es: "Arrastre Enmarañado",
+				it: "Trascinavvolgi",
+				pt: "Arrastar e Entrelaçar",
+				de: "Wirrzieher"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
 				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 10,

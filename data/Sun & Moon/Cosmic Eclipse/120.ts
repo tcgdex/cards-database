@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pangoro",
 		fr: "Pandarbare",
+		es: "Pangoro",
+		it: "Pangoro",
+		pt: "Pangoro",
+		de: "Pandagro"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing Léger",
+				es: "Puño Ligero",
+				it: "Pugnetto",
+				pt: "Soco de Luz",
+				de: "Leichter Hieb"
 			},
 
 			damage: 40,
@@ -47,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Magnum Punch",
 				fr: "Poing Magnum",
+				es: "Puño Magnum",
+				it: "Superpugno",
+				pt: "Soco Magnum",
+				de: "Magnum-Schlag"
 			},
 
 			damage: 90,

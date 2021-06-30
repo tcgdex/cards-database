@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wigglytuff",
 		fr: "Grodoudou",
+		es: "Wigglytuff",
+		it: "Wigglytuff",
+		pt: "Wigglytuff",
+		de: "Knuddeluff"
 	},
 	illustrator: "miki kudo",
 	rarity: "Rare",
@@ -33,10 +37,18 @@ const card: Card = {
 			name: {
 				en: "Orb Polish",
 				fr: "Orbe Lustré",
+				es: "Pulidor de Orbes",
+				it: "Lucidasfera",
+				pt: "Polimento de Esfera",
+				de: "Orbpolitur"
 			},
 			effect: {
 				en: "Put 3 Energy cards from your discard pile into your hand.",
 				fr: "Ajoutez 3 cartes Énergie de votre pile de défausse à votre main.",
+				es: "Pon 3 cartas de Energía de tu pila de descartes en tu mano.",
+				it: "Prendi tre carte Energia dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+				pt: "Coloque 3 cartas de Energia da sua pilha de descarte na sua mão.",
+				de: "Nimm 3 Energiekarten aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -49,10 +61,18 @@ const card: Card = {
 			name: {
 				en: "Sleepy Ball",
 				fr: "Boule Dodo",
+				es: "Bola Soporífera",
+				it: "Sonnopalla",
+				pt: "Bola Sonolenta",
+				de: "Schlafball"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 80,
 

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wailmer",
 		fr: "Wailmer",
+		es: "Wailmer",
+		it: "Wailmer",
+		pt: "Wailmer",
+		de: "Wailmer"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				es: "Salpicadura",
+				it: "Splash",
+				pt: "Borrifada",
+				de: "Platscher"
 			},
 
 			damage: 20,
@@ -46,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				es: "Surf",
+				it: "Surf",
+				pt: "Surfe",
+				de: "Surfer"
 			},
 
 			damage: 70,

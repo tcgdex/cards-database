@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spearow",
 		fr: "Piafabec",
+		es: "Spearow",
+		it: "Spearow",
+		pt: "Spearow",
+		de: "Habitak"
 	},
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Glide",
 				fr: "Glissement",
+				es: "Planeo",
+				it: "Aliante",
+				pt: "Planeio",
+				de: "Gleiten"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Speed Dive",
 				fr: "Plongée Rapide",
+				es: "Picado Rápido",
+				it: "Immersione Rapida",
+				pt: "Mergulho Veloz",
+				de: "Tempohechtsprung"
 			},
 
 			damage: 20,

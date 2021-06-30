@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Deerling",
 		fr: "Vivaldaim",
+		es: "Deerling",
+		it: "Deerling",
+		pt: "Deerling",
+		de: "Sesokitz"
 	},
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 20,

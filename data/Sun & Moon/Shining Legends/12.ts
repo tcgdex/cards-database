@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Larvesta",
 		fr: "Pyronille",
+		es: "Larvesta",
+		it: "Larvesta",
+		pt: "Larvesta",
+		de: "Ignivor"
 	},
 	illustrator: "kawayoo",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Chama",
+				de: "Flackern"
 			},
 
 			damage: 30,

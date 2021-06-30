@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Gible",
 		fr: "Griknot",
+		es: "Gible",
+		it: "Gible",
+		pt: "Gible",
+		de: "Kaumalat"
 	},
 	illustrator: "Asako Ito",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Stampede",
 				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Headbutt Bounce",
 				fr: "Culbute Surprise",
+				es: "Bote Cabezazo",
+				it: "Rimbalzo Bottintesta",
+				pt: "Cabeçada Ricochete",
+				de: "Abrupter Kopfstoß"
 			},
 
 			damage: 30,

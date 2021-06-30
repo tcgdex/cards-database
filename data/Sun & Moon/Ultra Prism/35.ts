@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Buizel",
 		fr: "Mustébouée",
+		es: "Buizel",
+		it: "Buizel",
+		pt: "Buizel",
+		de: "Bamelin"
 	},
 	illustrator: "so-taro",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,

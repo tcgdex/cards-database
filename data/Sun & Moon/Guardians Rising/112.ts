@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Stufful",
 		fr: "Nounourson",
+		es: "Stufful",
+		it: "Stufful",
+		pt: "Stufful",
+		de: "Velursi"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,7 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
-				fr: "Enfoncement",
+				fr: "Enfoncer",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 60,

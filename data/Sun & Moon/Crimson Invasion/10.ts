@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Skiddo",
 		fr: "Cabriolaine",
+		es: "Skiddo",
+		it: "Skiddo",
+		pt: "Skiddo",
+		de: "Mähikel"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				es: "Bomba Germen",
+				it: "Semebomba",
+				pt: "Bomba de Sementes",
+				de: "Samenbomben"
 			},
 
 			damage: 20,

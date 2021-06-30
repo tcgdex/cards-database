@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Alolan Grimer",
 		fr: "Tadmorv d’Alola",
+		es: "Grimer de Alola",
+		it: "Grimer di Alola",
+		pt: "Grimer de Alola",
+		de: "Alola-Sleima"
 	},
 	illustrator: "kawayoo",
 	rarity: "Common",
@@ -28,10 +32,18 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 2 cards.",
 				fr: "Piochez 2 cartes.",
+				es: "Roba 2 cartas.",
+				it: "Pesca due carte.",
+				pt: "Compre 2 cartas.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Sludge Bomb",
 				fr: "Bomb-Beurk",
+				es: "Bomba Lodo",
+				it: "Fangobomba",
+				pt: "Bomba de Lodo",
+				de: "Matschbombe"
 			},
 
 			damage: 30,

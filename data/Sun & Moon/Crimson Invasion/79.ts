@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Swablu",
 		fr: "Tylton",
+		es: "Swablu",
+		it: "Swablu",
+		pt: "Swablu",
+		de: "Wablu"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 10,

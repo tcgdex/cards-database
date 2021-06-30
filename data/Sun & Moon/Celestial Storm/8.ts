@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Treecko",
 		fr: "Arcko",
+		es: "Treecko",
+		it: "Treecko",
+		pt: "Treecko",
+		de: "Geckarbor"
 	},
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				es: "Palmetazo",
+				it: "Schiaffo",
+				pt: "Estalo",
+				de: "Klatscher"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue Battoir",
+				es: "Coletón",
+				it: "Codabotta",
+				pt: "Surra de Cauda",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 20,

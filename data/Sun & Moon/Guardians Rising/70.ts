@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Barboach",
 		fr: "Barloche",
+		es: "Barboach",
+		it: "Barboach",
+		pt: "Barboach",
+		de: "Schmerbe"
 	},
 	illustrator: "sui",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Hook",
 				fr: "Crochet",
+				es: "Garfio",
+				it: "Uncino",
+				pt: "Gancho",
+				de: "Haken"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Mud-Slap",
 				fr: "Coud’Boue",
+				es: "Bofetón Lodo",
+				it: "Fangosberla",
+				pt: "Tiro de Lama",
+				de: "Lehmschelle"
 			},
 
 			damage: 20,

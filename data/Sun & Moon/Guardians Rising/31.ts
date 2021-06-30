@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Snorunt",
 		fr: "Stalgamin",
+		es: "Snorunt",
+		it: "Snorunt",
+		pt: "Snorunt",
+		de: "Schneppke"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Chilly",
 				fr: "Glacial",
+				es: "Fresquito",
+				it: "Addiaccio",
+				pt: "Frio",
+				de: "Frösteln"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Frost Breath",
 				fr: "Souffle Glacé",
+				es: "Vaho Gélido",
+				it: "Alitogelido",
+				pt: "Respiração de Gelo",
+				de: "Eisesodem"
 			},
 
 			damage: 20,

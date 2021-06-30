@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Sealeo",
 		fr: "Phogleur",
+		es: "Sealeo",
+		it: "Sealeo",
+		pt: "Sealeo",
+		de: "Seejong"
 	},
 	illustrator: "miki kudo",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Desenrollar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -48,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Ice Ball",
 				fr: "Ball’Glace",
+				es: "Bola Hielo",
+				it: "Palla Gelo",
+				pt: "Bola de Gelo",
+				de: "Frostbeule"
 			},
 
 			damage: 90,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bounsweet",
 		fr: "Croquine",
+		es: "Bounsweet",
+		it: "Bounsweet",
+		pt: "Bounsweet",
+		de: "Frubberl"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				es: "Salpicadura",
+				it: "Splash",
+				pt: "Borrifada",
+				de: "Platscher"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				es: "Ataque Giratorio",
+				it: "Attacco Rotante",
+				pt: "Ataque Giratório",
+				de: "Rundumangriff"
 			},
 
 			damage: 20,

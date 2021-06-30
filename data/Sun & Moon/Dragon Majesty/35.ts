@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dratini",
 		fr: "Minidraco",
+		es: "Dratini",
+		it: "Dratini",
+		pt: "Dratini",
+		de: "Dratini"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue Battoir",
+				es: "Coletón",
+				it: "Codabotta",
+				pt: "Surra de Cauda",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 30,

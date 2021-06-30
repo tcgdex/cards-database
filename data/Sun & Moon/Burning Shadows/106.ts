@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Hoothoot",
 		fr: "Hoothoot",
+		es: "Hoothoot",
+		it: "Hoothoot",
+		pt: "Hoothoot",
+		de: "Hoothoot"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "See Through",
 				fr: "Main Transparente",
+				es: "Transparencia",
+				it: "Sbirciatina",
+				pt: "Transparência",
+				de: "Durchblick"
 			},
 			effect: {
 				en: "Your opponent reveals their hand.",
 				fr: "Votre adversaire dévoile sa main.",
+				es: "Tu rival enseña las cartas de su mano.",
+				it: "Il tuo avversario mostra le carte che ha in mano.",
+				pt: "Seu oponente revela a própria mão.",
+				de: "Dein Gegner zeigt dir seine Handkarten."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 20,

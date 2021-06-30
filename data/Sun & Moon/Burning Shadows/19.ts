@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		de: "Glutexo"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Claw Slash",
 				fr: "Tranch’Griffe",
+				es: "Cuchillada Garra",
+				it: "Lacerartiglio",
+				pt: "Golpe de Garra",
+				de: "Klauenschlitzer"
 			},
 
 			damage: 30,
@@ -48,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Heat Blast",
 				fr: "Explosion de Chaleur",
+				es: "Explosión de Calor",
+				it: "Caldobomba",
+				pt: "Raio de Calor",
+				de: "Hitzestoß"
 			},
 
 			damage: 70,

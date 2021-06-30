@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Litwick",
 		fr: "Funécire",
+		es: "Litwick",
+		it: "Litwick",
+		pt: "Litwick",
+		de: "Lichtel"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Flickering Flames",
 				fr: "Flammes Vacillantes",
+				es: "Llamas Titilantes",
+				it: "Guizzafiamme",
+				pt: "Chamas Tremeluzentes",
+				de: "Züngelnde Flammen"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 10,
 

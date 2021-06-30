@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Moltres",
 		fr: "Sulfura",
+		es: "Moltres",
+		it: "Moltres",
+		pt: "Moltres",
+		de: "Lavados"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				es: "Ataque Ala",
+				it: "Attacco d’Ala",
+				pt: "Ataque de Asa",
+				de: "Flügelschlag"
 			},
 
 			damage: 70,
@@ -47,10 +55,18 @@ const card: Card = {
 			name: {
 				en: "Sky Attack",
 				fr: "Piqué",
+				es: "Ataque Aéreo",
+				it: "Aeroattacco",
+				pt: "Ataque do Céu",
+				de: "Himmelsfeger"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 150,
 

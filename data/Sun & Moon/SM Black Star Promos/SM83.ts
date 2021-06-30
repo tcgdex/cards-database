@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Zorua",
 		fr: "Zorua",
+		es: "Zorua",
+		it: "Zorua",
+		pt: "Zorua",
+		de: "Zorua"
 	},
 	illustrator: "kodama",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Stampede",
 				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 20,

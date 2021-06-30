@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "nagimiso",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Pika Ball",
 				fr: "Pika Ball",
+				es: "Pika Ball",
+				it: "Pikasfera",
+				pt: "Bola Pikachu",
+				de: "Pikaball"
 			},
 
 			damage: 30,

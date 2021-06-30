@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bunnelby",
 		fr: "Sapereau",
+		es: "Bunnelby",
+		it: "Bunnelby",
+		pt: "Bunnelby",
+		de: "Scoppel"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 20,

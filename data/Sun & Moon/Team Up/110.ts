@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Klefki",
 		fr: "Trousselin",
+		es: "Klefki",
+		it: "Klefki",
+		pt: "Klefki",
+		de: "Clavion"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Key of Secrets",
 				fr: "Clé des Secrets",
+				es: "Llave de Secretos",
+				it: "Chiave dei Segreti",
+				pt: "Chave de Segredos",
+				de: "Schlüssel der Geheimnisse"
 			},
 			effect: {
-				en: "Each of your Metal Pokémon's Resistance is now -40.",
+				en: "Each of your Metal Pokémon’s Resistance is now -40.",
 				fr: "La Résistance de chacun de vos Pokémon Metal est maintenant -40.",
+				es: "La Resistencia de cada uno de tus Pokémon Metal pasa a ser -40.",
+				it: "La resistenza di ciascuno dei tuoi Pokémon Metal è -40.",
+				pt: "A Resistência de cada um dos seus Pokémon Metal agora é - 40.",
+				de: "Die Resistenz jedes deiner Metal-Pokémon ist jetzt -40."
 			},
 		},
 	],
@@ -43,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 30,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ivysaur",
 		fr: "Herbizarre",
+		es: "Ivysaur",
+		it: "Ivysaur",
+		pt: "Ivysaur",
+		de: "Bisaknosp"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,
@@ -49,10 +57,18 @@ const card: Card = {
 			name: {
 				en: "Toxic Whip",
 				fr: "Fouet Toxique",
+				es: "Látigo Tóxico",
+				it: "Frustata Tossica",
+				pt: "Chicote Tóxico",
+				de: "Giftgeißel"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
 			},
 			damage: 50,
 

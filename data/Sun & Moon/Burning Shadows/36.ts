@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Panpour",
 		fr: "Flotajou",
+		es: "Panpour",
+		it: "Panpour",
+		pt: "Panpour",
+		de: "Sodamak"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 10,

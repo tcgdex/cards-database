@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pidove",
 		fr: "Poichigeon",
+		es: "Pidove",
+		it: "Pidove",
+		pt: "Pidove",
+		de: "Dusselgurr"
 	},
 	illustrator: "ryoma uratsuka",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Glide",
 				fr: "Glissement",
+				es: "Planeo",
+				it: "Aliante",
+				pt: "Planeio",
+				de: "Gleiten"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				es: "Aleteo",
+				it: "Alabattito",
+				pt: "Asa",
+				de: "Flattern"
 			},
 
 			damage: 20,

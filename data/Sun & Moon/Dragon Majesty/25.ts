@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wooper",
 		fr: "Axoloto",
+		es: "Wooper",
+		it: "Wooper",
+		pt: "Wooper",
+		de: "Felino"
 	},
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				es: "Golpe de Lluvia",
+				it: "Spruzzapioggia",
+				pt: "Chuva Borrifante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,

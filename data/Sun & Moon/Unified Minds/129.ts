@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Murkrow",
 		fr: "Cornèbre",
+		es: "Murkrow",
+		it: "Murkrow",
+		pt: "Murkrow",
+		de: "Kramurx"
 	},
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 10,

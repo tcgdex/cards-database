@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lycanroc",
 		fr: "Lougaroc",
+		es: "Lycanroc",
+		it: "Lycanroc",
+		pt: "Lycanroc",
+		de: "Wolwerock"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Rock Throw",
 				fr: "Jet-Pierres",
+				es: "Lanzarrocas",
+				it: "Sassata",
+				pt: "Lançamento de Rocha",
+				de: "Steinwurf"
 			},
 
 			damage: 30,
@@ -48,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Accelerock",
 				fr: "Vif Roc",
+				es: "Roca Veloz",
+				it: "Rocciarapida",
+				pt: "Rocha Veloz",
+				de: "Turbofelsen"
 			},
 
 			damage: 100,

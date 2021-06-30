@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Larvesta",
 		fr: "Pyronille",
+		es: "Larvesta",
+		it: "Larvesta",
+		pt: "Larvesta",
+		de: "Ignivor"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				es: "Combustión",
+				it: "Fuoco Continuo",
+				pt: "Combustão",
+				de: "Glühen"
 			},
 
 			damage: 50,

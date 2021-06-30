@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Sliggoo",
 		fr: "Colimucus",
+		es: "Sliggoo",
+		it: "Sliggoo",
+		pt: "Sliggoo",
+		de: "Viscargot"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -34,23 +38,35 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-Vie",
+				es: "Absorber",
+				it: "Assorbimento",
+				pt: "Absorção",
+				de: "Absorber"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				es: "Cura 30 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 30 danni.",
+				pt: "Cure 30 pontos de dano deste Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 30,
 
 		},
 		{
 			cost: [
-				"Water",
 				"Fairy",
+				"Water",
 				"Colorless",
 			],
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 50,

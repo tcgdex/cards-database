@@ -4,7 +4,11 @@ import Set from '../Ultra Prism'
 const card: Card = {
 	name: {
 		en: "Solgaleo ◇",
-		fr: "Solgaleo ",
+		fr: "Solgaleo ◇",
+		es: "Solgaleo ◇",
+		it: "Solgaleo ◇",
+		pt: "Solgaleo ◇",
+		de: "Solgaleo ◇"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -29,10 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Radiant Star",
-				fr: "Règle pour les cartes  (Prisme Étoile)",
+				fr: "Étoile Soleil Levant",
+				es: "Estrella Sol Ascendente",
+				it: "Stella del Sole Nascente",
+				pt: "Estrela Radiante",
+				de: "Aufgangsstern"
 			},
 			effect: {
-				en: "For each of your opponent's Pokémon in play, attach a Metal Energy card from your discard pile to your Pokémon in any way you like.",
+				en: "For each of your opponent’s Pokémon in play, attach a Metal Energy card from your discard pile to your Pokémon in any way you like.",
+				fr: "Pour chaque Pokémon de votre adversaire en jeu, attachez une carte Énergie Metal de votre pile de défausse à vos Pokémon, de la manière que vous voulez.",
+				es: "Por cada uno de los Pokémon de tu rival en juego, une 1 carta de Energía Metal de tu pila de descartes a tus Pokémon de la manera que desees.",
+				it: "Per ogni Pokémon del tuo avversario in gioco, assegna a piacimento ai tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
+				pt: "Para cada Pokémon em jogo do seu oponente, ligue 1 carta de Energia Metal da sua pilha de descarte aos seus Pokémon como desejar.",
+				de: "Lege für jedes Pokémon deines Gegners im Spiel 1 Metal-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
 			},
 
 		},
@@ -45,11 +58,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Corona Impact",
-				fr: "Étoile Soleil Levant",
+				fr: "Impact de Couronne",
+				es: "Impacto Corona",
+				it: "Impatto della Corona",
+				pt: "Impacto Coronal",
+				de: "Korona-Einschlag"
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
-				fr: "Pour chaque Pokémon de votre adversaire en jeu, attachez une carte Énergie Metal de votre pile de défausse à vos Pokémon, de la manière que vous voulez.",
+				en: "This Pokémon can’t attack during your next turn.",
+				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				es: "Este Pokémon no puede atacar durante tu próximo turno.",
+				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				pt: "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 160,
 

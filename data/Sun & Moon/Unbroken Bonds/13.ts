@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bellsprout",
 		fr: "Chétiflor",
+		es: "Bellsprout",
+		it: "Bellsprout",
+		pt: "Bellsprout",
+		de: "Knofensa"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,

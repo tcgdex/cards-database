@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Skiddo",
 		fr: "Cabriolaine",
+		es: "Skiddo",
+		it: "Skiddo",
+		pt: "Skiddo",
+		de: "Mähikel"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Growth",
 				fr: "Croissance",
+				es: "Desarrollo",
+				it: "Crescita",
+				pt: "Crescimento",
+				de: "Wachstum"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to this Pokémon.",
 				fr: "Attachez une carte Énergie Grass de votre main à ce Pokémon.",
+				es: "Une 1 carta de Energía Grass de tu mano a este Pokémon.",
+				it: "Assegna a questo Pokémon una carta Energia Grass dalla tua mano.",
+				pt: "Ligue 1 carta de Energia Grass da sua mão a este Pokémon.",
+				de: "Lege1 Grass-Energiekarte aus deiner Hand an dieses Pokémon an."
 			},
 
 		},
@@ -46,6 +58,10 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 40,

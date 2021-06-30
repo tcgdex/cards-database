@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wartortle",
 		fr: "Carabaffe",
+		es: "Wartortle",
+		it: "Wartortle",
+		pt: "Wartortle",
+		de: "Schillok"
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Uncommon",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 30,
@@ -48,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				es: "Cascada",
+				it: "Cascata",
+				pt: "Cachoeira",
+				de: "Kaskade"
 			},
 
 			damage: 70,

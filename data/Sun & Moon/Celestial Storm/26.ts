@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Torchic",
 		fr: "Poussifeu",
+		es: "Torchic",
+		it: "Torchic",
+		pt: "Torchic",
+		de: "Flemmli"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				es: "Carbón Activado",
+				it: "Carboni Ardenti",
+				pt: "Carvão Vivo",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 20,

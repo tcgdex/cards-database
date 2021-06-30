@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wailmer",
 		fr: "Wailmer",
+		es: "Wailmer",
+		it: "Wailmer",
+		pt: "Wailmer",
+		de: "Wailmer"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				es: "Chapoteo Ondulante",
+				it: "Schizzi d’Onda",
+				pt: "Onda Borrifante",
+				de: "Wellenplatscher"
 			},
 
 			damage: 30,

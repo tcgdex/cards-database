@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Litleo",
 		fr: "Hélionceau",
+		es: "Litleo",
+		it: "Litleo",
+		pt: "Litleo",
+		de: "Leufeo"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d’Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,

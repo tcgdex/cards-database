@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dwebble",
 		fr: "Crabicoque",
+		es: "Dwebble",
+		it: "Dwebble",
+		pt: "Dwebble",
+		de: "Lithomith"
 	},
 	illustrator: "kawayoo",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Dig Claws",
 				fr: "Creusogriffes",
+				es: "Hundir Garras",
+				it: "Scavazanne",
+				pt: "Fincar Garras",
+				de: "Schaufelkrallen"
 			},
 
 			damage: 10,

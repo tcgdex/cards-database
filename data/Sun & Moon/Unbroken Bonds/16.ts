@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		es: "Tangela",
+		it: "Tangela",
+		pt: "Tangela",
+		de: "Tangela"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Tangle Drag",
 				fr: "Lasso Piège",
+				es: "Arrastre Enmarañado",
+				it: "Trascinavvolgi",
+				pt: "Arrastar e Entrelaçar",
+				de: "Wirrzieher"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
 				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Gentle Slap",
 				fr: "Gifle Douce",
+				es: "Bofetada Gentil",
+				it: "Schiaffetto",
+				pt: "Tapinha",
+				de: "Sanfter Hieb"
 			},
 
 			damage: 30,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Alolan Ninetales",
 		fr: "Feunard d’Alola",
+		es: "Ninetales de Alola",
+		it: "Ninetales di Alola",
+		pt: "Ninetales de Alola",
+		de: "Alola Vulnona"
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Rare",
@@ -31,12 +35,20 @@ const card: Card = {
 			name: {
 				en: "Rubbish Blizzard",
 				fr: "Blizzard de Déchets",
+				es: "Ventisca Basura",
+				it: "Bufera di Rifiuti",
+				pt: "Nevasca Imunda",
+				de: "Abfallblizzard"
 			},
 			effect: {
 				en: "This attack does 10 damage for each Pokémon Tool card in your discard pile.",
 				fr: "Cette attaque inflige 10 dégâts pour chaque carte Outil Pokémon dans votre pile de défausse.",
+				es: "Este ataque hace 10 puntos de daño por cada carta de Herramienta Pokémon en tu pila de descartes.",
+				it: "Questo attacco infligge 10 danni per ogni carta Oggetto Pokémon nella tua pila degli scarti.",
+				pt: "Este ataque causa 10 pontos de dano para cada carta de Ferramenta Pokémon na sua pilha de descarte.",
+				de: "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der Pokémon-Ausrüstungen in deinem Ablagestapel zu."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

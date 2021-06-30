@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wimpod",
 		fr: "Sovkipou",
+		es: "Wimpod",
+		it: "Wimpod",
+		pt: "Wimpod",
+		de: "Reißlaus"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Wimp Out",
 				fr: "Escampette",
+				es: "Huida",
+				it: "Fuggifuggi",
+				pt: "Amarelar",
+				de: "Reißaus"
 			},
 			effect: {
 				en: "During your first turn, this Pokémon has no Retreat Cost.",
 				fr: "Pendant votre premier tour, ce Pokémon n’a pas de Coût de Retraite.",
+				es: "Durante tu primer turno, este Pokémon no tiene ningún Coste de Retirada.",
+				it: "Durante il tuo primo turno, questo Pokémon non ha costo di ritirata.",
+				pt: "Durante a sua primeira vez de jogar, este Pokémon não terá custo de Recuo.",
+				de: "Während deines ersten Zuges hat dieses Pokémon keine Rückzugskosten."
 			},
 		},
 	],
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 30,

@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Zygarde",
 		fr: "Zygarde",
+		es: "Zygarde",
+		it: "Zygarde",
+		pt: "Zygarde",
+		de: "Zygarde"
 	},
 	illustrator: "kawayoo",
-	rarity: "Common",
+	rarity: "Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -31,7 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pulse Blast",
-				fr: "Explosion Vibrante",
+				fr: "Explosion vibrante",
+				es: "Pulso explosivo",
+				it: "Scoppimpulso",
+				pt: "Pulso Explosivo",
+				de: "Pulsierender Schuss"
 			},
 
 			damage: 60,
@@ -45,8 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land's Wrath",
+				en: "Land’s Wrath",
 				fr: "Force Chtonienne",
+				es: "Fuerza Telúrica",
+				it: "Forza Tellurica",
+				pt: "Ira da Terra",
+				de: "Bodengewalt"
 			},
 
 			damage: 130,

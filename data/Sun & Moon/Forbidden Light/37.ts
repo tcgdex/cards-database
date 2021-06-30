@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Helioptile",
 		fr: "Galvaran",
+		es: "Helioptile",
+		it: "Helioptile",
+		pt: "Helioptile",
+		de: "Eguana"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue Battoir",
+				es: "Coletón",
+				it: "Codabotta",
+				pt: "Surra de Cauda",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 20,

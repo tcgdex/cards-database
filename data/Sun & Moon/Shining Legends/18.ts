@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Totodile",
 		fr: "Kaiminus",
+		es: "Totodile",
+		it: "Totodile",
+		pt: "Totodile",
+		de: "Karnimani"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,

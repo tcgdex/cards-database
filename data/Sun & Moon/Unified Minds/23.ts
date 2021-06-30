@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Numel",
 		fr: "Chamallot",
+		es: "Numel",
+		it: "Numel",
+		pt: "Numel",
+		de: "Camaub"
 	},
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -45,10 +53,18 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flammes",
+				es: "Lanzallamas",
+				it: "Lanciafiamme",
+				pt: "Lança-chamas",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
 				fr: "Défaussez une Énergie de ce Pokémon.",
+				es: "Descarta 1 Energía de este Pokémon.",
+				it: "Scarta un’Energia assegnata a questo Pokémon.",
+				pt: "Descarte 1 Energia deste Pokémon.",
+				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 80,
 

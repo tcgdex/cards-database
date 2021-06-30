@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		es: "Drifloon",
+		it: "Drifloon",
+		pt: "Drifloon",
+		de: "Driftlon"
 	},
 	illustrator: "Asako Ito",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Creepy Wind",
 				fr: "Vent Perturbant",
+				es: "Viento Escalofriante",
+				it: "Ventolosco",
+				pt: "Vento Amedrontador",
+				de: "Schauriger Wind"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Hang Down",
 				fr: "Suspension",
+				es: "Prender",
+				it: "Tirar Giù",
+				pt: "Dependurar",
+				de: "Herunterhängen"
 			},
 
 			damage: 10,

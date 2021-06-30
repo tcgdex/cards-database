@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Metapod",
 		fr: "Chrysacier",
+		es: "Metapod",
+		it: "Metapod",
+		pt: "Metapod",
+		de: "Safcon"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -46,10 +54,18 @@ const card: Card = {
 			name: {
 				en: "Shed Skin",
 				fr: "Mue",
+				es: "Mudar",
+				it: "Muta",
+				pt: "Pele Vertente",
+				de: "Expidermis"
 			},
 			effect: {
 				en: "Heal 40 damage from this Pokémon.",
 				fr: "Soignez 40 dégâts à ce Pokémon.",
+				es: "Cura 40 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 40 danni.",
+				pt: "Cure 40 pontos de dano deste Pokémon.",
+				de: "Heile 40 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},

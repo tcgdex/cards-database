@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Hakamo-o",
 		fr: "Écaïd",
+		es: "Hakamo-o",
+		it: "Hakamo-o",
+		pt: "Hakamo-o",
+		de: "Mediras"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d’Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 30,
@@ -40,13 +48,17 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Lightning",
 				"Fighting",
+				"Lightning",
 				"Colorless",
 			],
 			name: {
 				en: "Dragon Claw",
 				fr: "Dracogriffe",
+				es: "Garra Dragón",
+				it: "Dragartigli",
+				pt: "Garra de Dragão",
+				de: "Drachenklaue"
 			},
 
 			damage: 80,

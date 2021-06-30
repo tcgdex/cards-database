@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Salazzle",
 		fr: "Malamandre",
+		es: "Salazzle",
+		it: "Salazzle",
+		pt: "Salazzle",
+		de: "Amfira"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				es: "Palmetazo",
+				it: "Schiaffo",
+				pt: "Estalo",
+				de: "Klatscher"
 			},
 
 			damage: 40,
@@ -47,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Slashing Claw",
 				fr: "Griffe Taillante",
+				es: "Garra Cuchillazo",
+				it: "Artigli Laceranti",
+				pt: "Garra Cortadora",
+				de: "Schlitzende Klaue"
 			},
 
 			damage: 90,

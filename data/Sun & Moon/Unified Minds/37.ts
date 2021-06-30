@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Snorunt",
 		fr: "Stalgamin",
+		es: "Snorunt",
+		it: "Snorunt",
+		pt: "Snorunt",
+		de: "Schneppke"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Icicle",
 				fr: "Concrétion Glacée",
+				es: "Témpano",
+				it: "Stalattite",
+				pt: "Pingente de Gelo",
+				de: "Eiszapfen"
 			},
 
 			damage: 20,

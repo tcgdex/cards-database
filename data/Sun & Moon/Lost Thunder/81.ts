@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Blitzle",
 		fr: "Zébibron",
+		es: "Blitzle",
+		it: "Blitzle",
+		pt: "Blitzle",
+		de: "Elezeba"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Flop",
 				fr: "Flop",
+				es: "Vuelta",
+				it: "Tonfo",
+				pt: "Baque",
+				de: "Plumps"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Zap Kick",
 				fr: "Coup de Pied Ravageur",
+				es: "Electropatada",
+				it: "Dinamocalcio",
+				pt: "Chute Zap",
+				de: "Stromtritt"
 			},
 
 			damage: 20,

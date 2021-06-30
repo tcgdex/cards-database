@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cherrim",
 		fr: "Ceriflor",
+		es: "Cherrim",
+		it: "Cherrim",
+		pt: "Cherrim",
+		de: "Kinoso"
 	},
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Weather Guard",
 				fr: "Protection Météo",
+				es: "Meteoroguardia",
+				it: "Meteodifesa",
+				pt: "Guarda do Clima",
+				de: "Wetterschutz"
 			},
 			effect: {
 				en: "Your Grass Pokémon have no Weakness.",
 				fr: "Vos Pokémon Grass n’ont pas de Faiblesse.",
+				es: "Tus Pokémon Grass no tienen Debilidad.",
+				it: "I tuoi Pokémon Grass non hanno debolezza.",
+				pt: "Seus Pokémon Grass não têm Fraqueza.",
+				de: "Deine Grass-Pokémon haben keine Schwäche."
 			},
 		},
 	],
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				es: "Bomba Germen",
+				it: "Semebomba",
+				pt: "Bomba de Sementes",
+				de: "Samenbomben"
 			},
 
 			damage: 30,

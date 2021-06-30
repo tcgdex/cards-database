@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Stunky",
 		fr: "Moufouette",
+		es: "Stunky",
+		it: "Stunky",
+		pt: "Stunky",
+		de: "Skunkapuh"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Gas Bond",
 				fr: "Liaison de Gaz",
+				es: "Mismo Gas",
+				it: "Vincolo di Gas",
+				pt: "Vínculo Gasoso",
+				de: "Gasbund"
 			},
 			effect: {
 				en: "Both Active Pokémon are now Confused.",
 				fr: "Les deux Pokémon Actifs sont maintenant Confus.",
+				es: "Ambos Pokémon Activos pasan a estar Confundidos.",
+				it: "Entrambi i Pokémon attivi vengono confusi.",
+				pt: "Ambos os Pokémon Ativos agora estão Confusos.",
+				de: "Beide Aktiven Pokémon sind jetzt verwirrt."
 			},
 			damage: 10,
 

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Binacle",
 		fr: "Opermine",
+		es: "Binacle",
+		it: "Binacle",
+		pt: "Binacle",
+		de: "Bithora"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Allotment",
 				fr: "Attribution",
+				es: "Asignación",
+				it: "Assegnazione",
+				pt: "Atribuição",
+				de: "Anteil"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 			damage: 10,
 

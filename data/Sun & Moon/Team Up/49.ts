@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Helioptile",
 		fr: "Galvaran",
+		es: "Helioptile",
+		it: "Helioptile",
+		pt: "Helioptile",
+		de: "Eguana"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras’Face",
+				es: "Destructor",
+				it: "Botta",
+				pt: "Pancada",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				es: "Impacto Estático",
+				it: "Shock Statico",
+				pt: "Choque de Estática",
+				de: "Statischer Schock"
 			},
 
 			damage: 40,

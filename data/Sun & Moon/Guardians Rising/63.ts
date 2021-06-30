@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Machop",
 		fr: "Machoc",
+		es: "Machop",
+		it: "Machop",
+		pt: "Machop",
+		de: "Machollo"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Dynamic Chop",
 				fr: "Coupe Dynamique",
+				es: "Golpe Dinámico",
+				it: "Dinamicolpo",
+				pt: "Golpe Dinâmico",
+				de: "Wuchthieb"
 			},
 
 			damage: 50,

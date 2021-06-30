@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Golett",
 		fr: "Gringolem",
+		es: "Golett",
+		it: "Golett",
+		pt: "Golett",
+		de: "Golbit"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Mega Punch",
 				fr: "Ultimapoing",
+				es: "Megapuño",
+				it: "Megapugno",
+				pt: "Megassoco",
+				de: "Megahieb"
 			},
 
 			damage: 60,

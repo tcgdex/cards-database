@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
+		es: "Growlithe",
+		it: "Growlithe",
+		pt: "Growlithe",
+		de: "Fukano"
 	},
 	illustrator: "tetsuya koizumi",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				es: "Carbón Activado",
+				it: "Carboni Ardenti",
+				pt: "Carvão Vivo",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				es: "Combustión",
+				it: "Fuoco Continuo",
+				pt: "Combustão",
+				de: "Glühen"
 			},
 
 			damage: 30,

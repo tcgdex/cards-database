@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shieldon",
 		fr: "Dinoclier",
+		es: "Shieldon",
+		it: "Shieldon",
+		pt: "Shieldon",
+		de: "Schilterus"
 	},
 	illustrator: "so-taro",
 	rarity: "Uncommon",
@@ -34,10 +38,18 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				es: "Derribo",
+				it: "Riduttore",
+				pt: "Desmantelar",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s’inflige 10 dégâts.",
+				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge 10 danni a se stesso.",
+				pt: "Este Pokémon causa 10 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -51,6 +63,10 @@ const card: Card = {
 			name: {
 				en: "Confront",
 				fr: "Confrontation",
+				es: "Confrontar",
+				it: "Confronto",
+				pt: "Confrontar",
+				de: "Konfrontieren"
 			},
 
 			damage: 80,

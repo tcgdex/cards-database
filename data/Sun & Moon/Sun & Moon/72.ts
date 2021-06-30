@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
+		es: "Crabrawler",
+		it: "Crabrawler",
+		pt: "Crabrawler",
+		de: "Krabbox"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Koud'Poing",
+				fr: "Koud’Poing",
+				es: "Puño",
+				it: "Pugno",
+				pt: "Soco",
+				de: "Boxhieb"
 			},
 
 			damage: 20,
@@ -45,6 +53,10 @@ const card: Card = {
 			name: {
 				en: "Crabhammer",
 				fr: "Pince-Masse",
+				es: "Martillazo",
+				it: "Martellata",
+				pt: "Martelo Caranguejo",
+				de: "Krabbhammer"
 			},
 
 			damage: 40,

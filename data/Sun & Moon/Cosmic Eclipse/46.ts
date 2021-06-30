@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wailord",
 		fr: "Wailord",
+		es: "Wailord",
+		it: "Wailord",
+		pt: "Wailord",
+		de: "Wailord"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -35,6 +39,10 @@ const card: Card = {
 			name: {
 				en: "Heavy Impact",
 				fr: "Gros Impact",
+				es: "Impacto Pesado",
+				it: "Impatto Pesante",
+				pt: "Impacto Pesado",
+				de: "Schwerer Einschlag"
 			},
 
 			damage: 90,
@@ -50,6 +58,10 @@ const card: Card = {
 			name: {
 				en: "Hydro Splash",
 				fr: "Hydro-Éclaboussure",
+				es: "Hidroestallido",
+				it: "Idrosplash",
+				pt: "Hidroborrifada",
+				de: "Hydroplatscher"
 			},
 
 			damage: 140,

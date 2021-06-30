@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Drilbur",
 		fr: "Rototaupe",
+		es: "Drilbur",
+		it: "Drilbur",
+		pt: "Drilbur",
+		de: "Rotomurf"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Dig Claws",
 				fr: "Creusogriffes",
+				es: "Hundir Garras",
+				it: "Scavazanne",
+				pt: "Fincar Garras",
+				de: "Schaufelkrallen"
 			},
 
 			damage: 20,

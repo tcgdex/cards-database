@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shellos",
 		fr: "Sancoki",
+		es: "Shellos",
+		it: "Shellos",
+		pt: "Shellos",
+		de: "Schalellos"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Regeneration",
 				fr: "Rétablissement",
+				es: "Reanimación",
+				it: "Rigenerazione",
+				pt: "Regeneração",
+				de: "Regeneration"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				es: "Cura 30 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 30 danni.",
+				pt: "Cure 30 pontos de dano deste Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Mud-Slap",
 				fr: "Coud’Boue",
+				es: "Bofetón Lodo",
+				it: "Fangosberla",
+				pt: "Tapa de Lama",
+				de: "Lehmschelle"
 			},
 
 			damage: 10,

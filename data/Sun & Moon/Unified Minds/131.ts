@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Sneasel",
 		fr: "Farfuret",
+		es: "Sneasel",
+		it: "Sneasel",
+		pt: "Sneasel",
+		de: "Sniebel"
 	},
 	illustrator: "sui",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 30,

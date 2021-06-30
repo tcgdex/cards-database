@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Fletchling",
 		fr: "Passerouge",
+		es: "Fletchling",
+		it: "Fletchling",
+		pt: "Fletchling",
+		de: "Dartiri"
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				es: "Aleteo",
+				it: "Alabattito",
+				pt: "Asa",
+				de: "Flattern"
 			},
 
 			damage: 10,

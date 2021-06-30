@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mareanie",
 		fr: "Vorastérie",
+		es: "Mareanie",
+		it: "Mareanie",
+		pt: "Mareanie",
+		de: "Garstella"
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 10,

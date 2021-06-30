@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Yanma",
 		fr: "Yanma",
+		es: "Yanma",
+		it: "Yanma",
+		pt: "Yanma",
+		de: "Yanma"
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Cutting Wind",
 				fr: "Vent Glacial",
+				es: "Viento Helado",
+				it: "Vento Tagliente",
+				pt: "Vento Dilacerante",
+				de: "Schneidender Wind"
 			},
 
 			damage: 20,

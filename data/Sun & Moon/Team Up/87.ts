@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mightyena",
 		fr: "Grahyèna",
+		es: "Mightyena",
+		it: "Mightyena",
+		pt: "Mightyena",
+		de: "Magnayen"
 	},
 	illustrator: "kirisAki",
 	rarity: "Rare",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 30,
@@ -46,10 +54,18 @@ const card: Card = {
 			name: {
 				en: "Dark Fang",
 				fr: "Croc Obscurité",
+				es: "Colmillo Siniestro",
+				it: "Zanna Oscura",
+				pt: "Presa da Escuridão",
+				de: "Finsterzahn"
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
+				en: "Discard a random card from your opponent’s hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
+				it: "Scarta una carta a caso dalla mano del tuo avversario.",
+				pt: "Descarte 1 carta aleatória da mão do seu oponente.",
+				de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 50,
 

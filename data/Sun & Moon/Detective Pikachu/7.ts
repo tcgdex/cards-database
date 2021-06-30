@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		es: "Psyduck",
+		it: "Psyduck",
+		pt: "Psyduck",
+		de: "Enton"
 	},
 	illustrator: undefined,
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Panic",
 				fr: "Panique",
+				es: "Pánico",
+				it: "Ansia",
+				pt: "Pânico",
+				de: "Panik"
 			},
 			effect: {
 				en: "This Pokémon is now Confused.",
 				fr: "Ce Pokémon est maintenant Confus.",
+				es: "Este Pokémon pasa a estar Confundido.",
+				it: "Questo Pokémon viene confuso.",
+				pt: "Este Pokémon agora está Confuso.",
+				de: "Dieses Pokémon ist jetzt verwirrt."
 			},
 			damage: 10,
 

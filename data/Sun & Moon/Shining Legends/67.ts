@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Switch",
 		fr: "Échange",
+		es: "Cambio",
+		it: "Scambio",
+		pt: "Substituição",
+		de: "Tausch"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
@@ -23,7 +27,12 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Échangez votre Pokémon Actif avec l’un de vos Pokémon de Banc.",
+		fr: "",
+		en: "",
+		es: "",
+		it: "",
+		pt: "",
+		de: ""
 	},
 	trainerType: "Item",
 

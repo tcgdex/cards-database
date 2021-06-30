@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Zeraora",
 		fr: "Zeraora",
+		es: "Zeraora",
+		it: "Zeraora",
+		pt: "Zeraora",
+		de: "Zeraora"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -44,10 +52,18 @@ const card: Card = {
 			name: {
 				en: "Wild Charge",
 				fr: "Éclair Fou",
+				es: "Voltio Cruel",
+				it: "Sprizzalampo",
+				pt: "Ataque Selvagem",
+				de: "Stromstoß"
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
 				fr: "Ce Pokémon s’inflige 20 dégâts.",
+				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge 20 danni a se stesso.",
+				pt: "Este Pokémon causa 20 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 120,
 

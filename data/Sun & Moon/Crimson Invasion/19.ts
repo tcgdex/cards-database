@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Swinub",
 		fr: "Marcacrin",
+		es: "Swinub",
+		it: "Swinub",
+		pt: "Swinub",
+		de: "Quiekel"
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 30,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Excadrill",
 		fr: "Minotaupe",
+		es: "Excadrill",
+		it: "Excadrill",
+		pt: "Excadrill",
+		de: "Stalobor"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -33,10 +37,18 @@ const card: Card = {
 			name: {
 				en: "Rototiller",
 				fr: "Fertilisation",
+				es: "Fertilizante",
+				it: "Aracampo",
+				pt: "Rototiller",
+				de: "Pflüger"
 			},
 			effect: {
 				en: "Shuffle 4 cards from your discard pile into your deck.",
 				fr: "Mélangez 4 cartes de votre pile de défausse avec votre deck.",
+				es: "Pon 4 cartas de tu pila de descartes en tu baraja y baraja todas las cartas.",
+				it: "Rimischia quattro carte dalla tua pila degli scarti nel tuo mazzo.",
+				pt: "Embaralhe 4 cartas da sua pilha de descarte no seu baralho.",
+				de: "Mische 4 Karten aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -49,6 +61,10 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 90,

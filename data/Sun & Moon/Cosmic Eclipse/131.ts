@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Alolan Muk",
 		fr: "Grotadmorv d’Alola",
+		es: "Muk de Alola",
+		it: "Muk di Alola",
+		pt: "Muk de Alola",
+		de: "Alola-Sleimok"
 	},
 	illustrator: "MAHOU",
 	rarity: "Rare",
@@ -34,10 +38,18 @@ const card: Card = {
 			name: {
 				en: "Panic Poison",
 				fr: "Poison Panique",
+				es: "Pánico Venenoso",
+				it: "Velenostress",
+				pt: "Veneno do Pânico",
+				de: "Panikgift"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Confus et Empoisonné.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido, Envenenado y Quemado.",
+				it: "Il Pokémon attivo del tuo avversario viene bruciato, confuso e avvelenato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso, Envenenado e Queimado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, verwirrt und vergiftet."
 			},
 			damage: 20,
 
@@ -51,6 +63,10 @@ const card: Card = {
 			name: {
 				en: "Sludge Bomb",
 				fr: "Bomb-Beurk",
+				es: "Bomba Lodo",
+				it: "Fangobomba",
+				pt: "Bomba de Lodo",
+				de: "Matschbombe"
 			},
 
 			damage: 110,

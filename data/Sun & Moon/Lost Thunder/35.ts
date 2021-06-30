@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Skiddo",
 		fr: "Cabriolaine",
+		es: "Skiddo",
+		it: "Skiddo",
+		pt: "Skiddo",
+		de: "Mähikel"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				es: "Látigo Cepa",
+				it: "Frustata",
+				pt: "Chicote de Vinha",
+				de: "Rankenhieb"
 			},
 
 			damage: 20,

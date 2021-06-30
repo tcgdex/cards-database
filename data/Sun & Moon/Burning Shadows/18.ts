@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Charmander",
 		fr: "Salamèche",
+		es: "Charmander",
+		it: "Charmander",
+		pt: "Charmander",
+		de: "Glumanda"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Flame Tail",
 				fr: "Queue de Flammes",
+				es: "Cola de Fuego",
+				it: "Codafiamma",
+				pt: "Cauda de Chamas",
+				de: "Flammenschweif"
 			},
 
 			damage: 20,

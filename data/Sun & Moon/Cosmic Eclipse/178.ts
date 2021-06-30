@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Braviary",
 		fr: "Gueriaigle",
+		es: "Braviary",
+		it: "Braviary",
+		pt: "Braviary",
+		de: "Washakwil"
 	},
 	illustrator: "chibi",
 	rarity: "Rare",
@@ -33,10 +37,18 @@ const card: Card = {
 			name: {
 				en: "Clutch",
 				fr: "Serre",
+				es: "Embrague",
+				it: "Grinfie",
+				pt: "Agarramento",
+				de: "Greifer"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -51,10 +63,18 @@ const card: Card = {
 			name: {
 				en: "Aero Fall",
 				fr: "Chute Aérienne",
+				es: "Descenso Aéreo",
+				it: "Aerocaduta",
+				pt: "Aeroqueda",
+				de: "Aero-Fall"
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
 				fr: "Défaussez 2 Énergies de ce Pokémon.",
+				es: "Descarta 2 Energías de este Pokémon.",
+				it: "Scarta due Energie assegnate a questo Pokémon.",
+				pt: "Descarte 2 Energias deste Pokémon.",
+				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 140,
 

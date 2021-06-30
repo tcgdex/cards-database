@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mudkip",
 		fr: "Gobou",
+		es: "Mudkip",
+		it: "Mudkip",
+		pt: "Mudkip",
+		de: "Hydropi"
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				es: "Chapoteo Ondulante",
+				it: "Schizzi d’Onda",
+				pt: "Onda Borrifante",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,

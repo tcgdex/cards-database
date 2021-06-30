@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Metang",
 		fr: "Métang",
+		es: "Metang",
+		it: "Metang",
+		pt: "Metang",
+		de: "Metang"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -47,10 +55,18 @@ const card: Card = {
 			name: {
 				en: "Core Beam",
 				fr: "Faisceau Central",
+				es: "Rayo Nuclear",
+				it: "Raggio Nucleico",
+				pt: "Feixe do Núcleo",
+				de: "Kernstrahl"
 			},
 			effect: {
 				en: "Discard a Metal Energy from this Pokémon.",
 				fr: "Défaussez une Énergie Metal de ce Pokémon.",
+				es: "Descarta 1 Energía Metal de este Pokémon.",
+				it: "Scarta un’Energia Metal assegnata a questo Pokémon.",
+				pt: "Descarte 1 Energia Metal deste Pokémon.",
+				de: "Lege 1 Metal-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 80,
 

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Kricketot",
 		fr: "Crikzik",
+		es: "Kricketot",
+		it: "Kricketot",
+		pt: "Kricketot",
+		de: "Zirpurze"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 10,
