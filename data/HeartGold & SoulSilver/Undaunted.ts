@@ -17,11 +17,6 @@ const hgss3: Set = {
 		official: 90
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2010-08-18",
 
 	variants: {

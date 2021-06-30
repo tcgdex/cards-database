@@ -17,11 +17,6 @@ const basep: Set = {
 		official: 53
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "1999-07-01",
 
 	variants: {

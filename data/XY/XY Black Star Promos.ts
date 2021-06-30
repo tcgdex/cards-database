@@ -20,11 +20,6 @@ const xyp: Set = {
 
 	releaseDate: "2013-10-12",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

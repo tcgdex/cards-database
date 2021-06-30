@@ -17,11 +17,6 @@ const dp3: Set = {
 		official: 132
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2007-11-01",
 
 	variants: {

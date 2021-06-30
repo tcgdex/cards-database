@@ -16,11 +16,6 @@ const np: Set = {
 		official: 40
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2003-10-01",
 
 	variants: {

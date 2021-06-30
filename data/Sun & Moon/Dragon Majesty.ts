@@ -20,11 +20,6 @@ const sm75: Set = {
 
 	releaseDate: "2018-09-07",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

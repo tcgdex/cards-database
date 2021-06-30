@@ -20,11 +20,6 @@ const dc1: Set = {
 
 	releaseDate: "2015-03-25",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

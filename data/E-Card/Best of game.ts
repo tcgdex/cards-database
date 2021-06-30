@@ -16,11 +16,6 @@ const bog: Set = {
 		official: 9
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2002-12-01",
 
 	variants: {

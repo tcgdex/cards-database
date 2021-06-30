@@ -19,11 +19,6 @@ const sma: Set = {
 
 	releaseDate: "2019-08-23",
 
-	legal: {
-		standard: true,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

@@ -20,11 +20,6 @@ const g1: Set = {
 
 	releaseDate: "2016-02-22",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

@@ -17,11 +17,6 @@ const jumbo: Set = {
 		official: 160
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2000-02-01",
 
 	variants: {

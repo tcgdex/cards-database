@@ -17,11 +17,6 @@ const set: Set = {
 		official: 30
 	},
 
-	legal: {
-		expanded: true,
-		standard: false
-	},
-
 	releaseDate: "2015-04-29",
 
 	variants: {

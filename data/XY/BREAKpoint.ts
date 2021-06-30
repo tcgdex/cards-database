@@ -20,11 +20,6 @@ const xy9: Set = {
 
 	releaseDate: "2016-02-03",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

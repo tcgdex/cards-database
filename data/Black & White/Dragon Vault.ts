@@ -19,11 +19,6 @@ const dv1: Set = {
 
 	releaseDate: "2012-10-05",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

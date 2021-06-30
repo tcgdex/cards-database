@@ -18,11 +18,6 @@ const pl4: Set = {
 		official: 99
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2009-11-04",
 
 	variants: {

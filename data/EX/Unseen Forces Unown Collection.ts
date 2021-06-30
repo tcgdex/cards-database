@@ -16,11 +16,6 @@ const exu: Set = {
 		official: 28
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2005-08-22",
 
 	variants: {

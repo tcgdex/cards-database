@@ -16,11 +16,6 @@ const neo3: Set = {
 		official: 64
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2001-09-21",
 
 	variants: {
