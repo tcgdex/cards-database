@@ -22,6 +22,14 @@
 
 A Multilanguage Pokémon TCG Database with Cards Pictures and most of the informations contained on the cards.
 
+## Translations
+
+|             | English | French | German | Italian | Portugese | Spanish |
+|-------------|---------|--------|--------|---------|-----------|---------|
+| Cards       | 14464   | 12715  | 1539   | 1539    | 1539      | 1539    |
+| Other texts | 51      | 51     | 0      | 0       | 0         | 45      |
+| Translated  | 100%    | 71%    | 11%    | 11%     | 11%       | 11%     |
+
 ## Interact with the Database
 
 The easiest way to interact with the database is by using one of our SDKs _list below_.
