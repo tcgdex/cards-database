@@ -17,11 +17,6 @@ const dp6: Set = {
 		official: 146
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2008-08-01",
 
 	variants: {

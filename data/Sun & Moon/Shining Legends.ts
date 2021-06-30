@@ -20,11 +20,6 @@ const sm35: Set = {
 
 	releaseDate: "2017-10-06",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

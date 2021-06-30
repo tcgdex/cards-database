@@ -20,11 +20,6 @@ const swsh1: Set = {
 
 	releaseDate: "2020-02-07",
 
-	legal: {
-		standard: true,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

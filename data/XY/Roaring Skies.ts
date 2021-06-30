@@ -20,11 +20,6 @@ const xy6: Set = {
 
 	releaseDate: "2015-05-06",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

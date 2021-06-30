@@ -19,11 +19,6 @@ const swsh35: Set = {
 
 	releaseDate: "2020-09-25",
 
-	legal: {
-		standard: true,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

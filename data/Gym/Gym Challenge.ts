@@ -17,11 +17,6 @@ const gym2: Set = {
 		official: 132
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2000-10-16",
 
 	variants: {

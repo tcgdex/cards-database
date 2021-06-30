@@ -16,11 +16,6 @@ const sp: Set = {
 		official: 10
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2002-08-01",
 
 	variants: {
