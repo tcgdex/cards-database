@@ -6,8 +6,9 @@ const sm4: Set = {
 
 	name: {
 		en: "Crimson Invasion",
-		fr: "Invasion Carmin"
-,
+		fr: "Invasion Carmin",
+		it: "Invasione Scarlatta",
+		de: "Aufziehen der Sturmröte"
 	},
 
 	serie: serie,
