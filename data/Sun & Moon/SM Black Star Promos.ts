@@ -6,8 +6,9 @@ const smp: Set = {
 
 	name: {
 		en: "SM Black Star Promos",
-		fr: "Promo SM"
-,
+		fr: "Promo SM",
+		it: "SL Promo",
+		de: "SM Promokarten"
 	},
 
 	serie: serie,

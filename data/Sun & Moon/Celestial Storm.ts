@@ -6,8 +6,9 @@ const sm7: Set = {
 
 	name: {
 		en: "Celestial Storm",
-		fr: "Tempête Céleste"
-,
+		fr: "Tempête Céleste",
+		de: "Sturm Am Firmament",
+		it: "Tempesta Astrale"
 	},
 
 	serie: serie,

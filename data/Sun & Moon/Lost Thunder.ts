@@ -6,8 +6,9 @@ const sm8: Set = {
 
 	name: {
 		en: "Lost Thunder",
-		fr: "Tonnerre Perdu"
-,
+		fr: "Tonnerre Perdu",
+		it: "Tuoni Perduti",
+		de: "Echo des Donners",
 	},
 
 	serie: serie,

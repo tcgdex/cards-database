@@ -6,8 +6,9 @@ const sm12: Set = {
 
 	name: {
 		en: "Cosmic Eclipse",
-		fr: "Éclipse Cosmique"
-,
+		fr: "Éclipse Cosmique",
+		it: "Eclissi Cosmica",
+		de: "Welten im Wandel"
 	},
 
 	serie: serie,

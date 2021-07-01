@@ -6,8 +6,9 @@ const sma: Set = {
 
 	name: {
 		en: "Yellow A Alternate",
-		fr: "Carte Alternative A Jaune"
-,
+		fr: "Carte Alternative A Jaune",
+		it: "Carta Alternativa A Gialla",
+		de: "Gelbes A-Alternativkarte"
 	},
 
 	serie: serie,

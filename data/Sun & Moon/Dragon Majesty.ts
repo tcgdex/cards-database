@@ -6,8 +6,9 @@ const sm75: Set = {
 
 	name: {
 		en: "Dragon Majesty",
-		fr: "Majesté Des Dragons"
-,
+		fr: "Majesté Des Dragons",
+		it: "Trionfo Dei Draghi",
+		de: "Majestät Der Drachen"
 	},
 
 	serie: serie,

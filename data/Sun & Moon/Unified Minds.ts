@@ -6,8 +6,9 @@ const sm11: Set = {
 
 	name: {
 		en: "Unified Minds",
-		fr: "Harmonie des Esprits"
-,
+		fr: "Harmonie des Esprits",
+		it: "Sintonia Mentale",
+		de: "Bund der Gleichgesinnten",
 	},
 
 	serie: serie,
