@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Poing Chance",
 			},
 			effect: {
-				en: "If you don't have exactly 7 cards in your hand, this attack does nothing.",
+				en: "If you don’t have exactly 7 cards in your hand, this attack does nothing.",
 				fr: "Si vous n'avez pas exactement 7 cartes dans votre main, cette attaque ne fait rien.",
 			},
 			damage: 100,

@@ -3,11 +3,11 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Gallade-EX",
+		en: "Gallade EX",
 		fr: "Gallame-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "This attack does 20 more damage for each of your remaining Prize cards.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacune des cartes Récompense qu'il vous reste.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

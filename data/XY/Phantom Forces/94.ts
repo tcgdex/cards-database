@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Défaussez une Énergie spéciale attachée à l'un des Pokémon de votre adversaire.",
+		en: "Discard a Special Energy attached to 1 of your opponent’s Pokémon."
 	},
 	trainerType: "Item",
 

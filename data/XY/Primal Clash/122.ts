@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Regardez les 2 cartes du dessus de votre deck et ajoutez l'une d'entre elles à votre main. Défaussez l'autre carte.",
+		en: "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card."
 	},
 	trainerType: "Item",
 

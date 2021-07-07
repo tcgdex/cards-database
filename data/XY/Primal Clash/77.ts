@@ -26,14 +26,23 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Ability",
+			type: "Ancient Trait",
 			name: {
-				en: "Rock Wall",
+				en: "Ω Barrier",
 				fr: "Barrière Ω",
 			},
 			effect: {
-				en: "Any damage done to your Pokémon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
+				en: "Whenever your opponent plays a Trainer card (excluding Pokémon Tools and Stadium cards), prevent all effects of that card done to this Pokémon.",
 				fr: "Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon.",
+			},
+		},
+		{
+			type: "Ability",
+			name: {
+				en: "Rock Wall",
+			},
+			effect: {
+				en: "Any damage done to your Pokémon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
 			},
 		},
 	],
@@ -50,7 +59,7 @@ const card: Card = {
 				fr: "Marto-Poing",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
+				en: "Discard the top card of your opponent’s deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 100,

@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Chute Maudite",
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+				en: "Put 3 damage counters on your opponent’s Pokémon in any way you like.",
 				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
 			},
 
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the number of Pokémon in your discard pile that have the Night March attack.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon dans votre pile de défausse possédant l'attaque Marche Nocturne.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

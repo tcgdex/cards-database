@@ -3,11 +3,11 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Florges-EX",
+		en: "Florges EX",
 		fr: "Florges-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -50,7 +50,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the number of Grass Pokémon and Fairy Pokémon you have in play.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon Grass et de Pokémon Fairy que vous avez en jeu.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

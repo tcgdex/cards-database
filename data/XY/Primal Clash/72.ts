@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Tentacules Dansantes",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Colle et Absorbe",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon. The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "Heal 30 damage from this Pokémon. The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Soignez 30 dégâts à ce Pokémon. Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,

@@ -3,27 +3,31 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "M Manectric-EX",
+		en: "M Manectric EX",
 		fr: "M-Élecsprint-EEX",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		310,
 	],
+
 	hp: 210,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Manectric-EX",
 		fr: "Élecsprint-eEX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -43,12 +47,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -56,9 +62,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Groudon-EX",
+		en: "Groudon EX",
 		fr: "Groudon-EX",
 	},
 	illustrator: "5ban Graphics",
@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Griffe Déchirante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,

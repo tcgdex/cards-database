@@ -3,11 +3,11 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Aegislash-EX",
+		en: "Aegislash EX",
 		fr: "Exagide-EX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Bouclier Sublime",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from each of your opponent's Pokémon that has Special Energy attached to it.",
+				en: "Prevent all damage done to this Pokémon by attacks from each of your opponent’s Pokémon that has Special Energy attached to it.",
 				fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques de chacun des Pokémon de votre adversaire auquel de l'Énergie spéciale est attachée.",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				en: "This attack does 20 more damage for each Metal Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

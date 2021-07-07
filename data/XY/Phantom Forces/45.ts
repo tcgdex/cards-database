@@ -50,7 +50,7 @@ const card: Card = {
 				en: "This attack does 10 damage times the number of cards in your hand.",
 				fr: "Si de l'Énergie Grass est attachée à ce Pokémon, ses PV maximum sont de 200.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{

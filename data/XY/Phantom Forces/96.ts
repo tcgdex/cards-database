@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Votre adversaire montre sa main.",
+		en: "Your opponent reveals his or her hand."
 	},
 	trainerType: "Item",
 

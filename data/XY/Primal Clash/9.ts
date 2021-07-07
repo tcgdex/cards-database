@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Barrière Ω",
+				en: "Ω Barrier"
 			},
 			effect: {
 				fr: "Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon.",
+				en: "Whenever your opponent plays a Trainer card (excluding Pokémon Tools and Stadium cards), prevent all effects of that card done to this Pokémon."
 			},
 		},
 	],
@@ -48,7 +50,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -62,7 +64,7 @@ const card: Card = {
 				fr: "Poison Puissant",
 			},
 			effect: {
-				en: "Discard 1 Energy attached to this Pokémon. Your opponent's Active Pokémon is now Poisoned.",
+				en: "Discard 1 Energy attached to this Pokémon. Your opponent’s Active Pokémon is now Poisoned.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 120,

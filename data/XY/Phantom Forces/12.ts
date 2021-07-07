@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Ordre Flamboyant",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Fire Energy attached to this Pokémon. If you do, switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				en: "Once during your turn (before your attack), you may discard a Fire Energy attached to this Pokémon. If you do, switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une Énergie Fire attachée à ce Pokémon. Dans ce cas, échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 			},
 		},

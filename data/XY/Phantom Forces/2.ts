@@ -51,7 +51,7 @@ const card: Card = {
 				fr: "Écailles Nocives",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 			},
 			damage: 50,

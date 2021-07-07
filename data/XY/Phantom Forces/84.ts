@@ -50,10 +50,10 @@ const card: Card = {
 				fr: "Pression Énergétique",
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+				en: "This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

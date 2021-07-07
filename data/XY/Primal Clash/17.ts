@@ -35,7 +35,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -48,10 +48,10 @@ const card: Card = {
 				fr: "Tarabustage",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 30 more damage.",
+				en: "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 30 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

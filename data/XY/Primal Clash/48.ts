@@ -54,10 +54,10 @@ const card: Card = {
 				fr: "Trempette Glacée",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Fighting Pokémon, this attack does 70 more damage.",
+				en: "If your opponent’s Active Pokémon is a Fighting Pokémon, this attack does 70 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Fighting, cette attaque inflige 70 dégâts supplémentaires.",
 			},
-			damage: 70,
+			damage: "70+",
 
 		},
 	],

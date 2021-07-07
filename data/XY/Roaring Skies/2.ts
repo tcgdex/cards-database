@@ -38,7 +38,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the number of Colorless Pokémon your opponent has in play.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon Colorless que votre adversaire a en jeu.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{

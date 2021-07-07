@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Cherchez dans votre deck un Pokémon du même nom que l'un de vos Pokémon en jeu, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+		en: "Search your deck for a Pokémon with the same name as 1 of your Pokémon in play, reveal it, and put it into your hand. Shuffle your deck afterward."
 	},
 	trainerType: "Item",
 

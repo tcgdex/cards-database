@@ -3,11 +3,11 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Dialga-EX",
+		en: "Dialga EX",
 		fr: "Dialga-EX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,7 +34,7 @@ const card: Card = {
 				fr: "Vent Temporel",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon-EX, it can't attack during your opponent's next turn.",
+				en: "If the Defending Pokémon is a Pokémon-EX, it can’t attack during your opponent’s next turn.",
 				fr: "Si le Pokémon Défenseur est un Pokémon-EX, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 60,

@@ -50,7 +50,7 @@ const card: Card = {
 				en: "If this Pokémon has any Psychic Energy attached to it, this attack does 30 more damage.",
 				fr: "Si de l'Énergie Psychic est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

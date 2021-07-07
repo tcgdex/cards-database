@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Poison Neural",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and Poisoned.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné.",
 			},
 

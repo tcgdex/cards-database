@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Régénération α",
+				en: "α Recovery"
 			},
 			effect: {
 				fr: "Lorsque ce Pokémon est soigné, doublez la quantité de soins.",
+				en: "When this Pokémon is healed, double the amount healed."
 			},
 		},
 	],
@@ -49,7 +51,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -66,7 +68,7 @@ const card: Card = {
 				en: "This attack does 100 damage minus 10 damage for each damage counter on this Pokémon.",
 				fr: "Cette attaque inflige 100 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
-			damage: 100,
+			damage: "100−",
 
 		},
 	],

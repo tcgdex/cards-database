@@ -3,11 +3,11 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Primal Kyogre-EX",
+		en: "Primal Kyogre EX",
 		fr: "Primo-Kyogre-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Croissance α",
+				en: "α Growth"
 			},
 			effect: {
 				fr: "Lorsque vous attachez une carte Énergie de votre main à ce Pokémon (excepté à la suite d'une attaque, d'un talent ou d'une carte Dresseur), vous pouvez attacher 2 cartes Énergie au lieu d'une.",
+				en: "When you attach an Energy card from your hand to this Pokémon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards."
 			},
 		},
 	],
@@ -48,7 +50,7 @@ const card: Card = {
 				fr: "Règle des Primo-Résurgences",
 			},
 			effect: {
-				en: "Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack does 30 damage to each of your opponent's Benched Pokémon-EX. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack does 30 damage to each of your opponent’s Benched Pokémon-EX. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 150,
 
