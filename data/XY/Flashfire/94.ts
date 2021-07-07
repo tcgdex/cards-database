@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Cherchez jusqu'à 2 Pokémon de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		en: "Search your deck for up to 2 Basic Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward."
 	},
 	trainerType: "Supporter",
 

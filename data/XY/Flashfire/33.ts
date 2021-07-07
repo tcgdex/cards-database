@@ -52,7 +52,7 @@ const card: Card = {
 				en: "This attack does 40 damage times the number of Prize cards your opponent has taken.",
 				fr: "Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Récompense que votre adversaire a récupérées.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],

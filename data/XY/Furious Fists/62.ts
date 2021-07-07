@@ -37,10 +37,10 @@ const card: Card = {
 				fr: "Mâchoires Affamées",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon has any Special Energy attached to it, this attack does 90 more damage.",
+				en: "If your opponent’s Active Pokémon has any Special Energy attached to it, this attack does 90 more damage.",
 				fr: "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 		{
@@ -55,7 +55,7 @@ const card: Card = {
 				fr: "Giga Impact",
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
+				en: "This Pokémon can’t attack during your next turn.",
 				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 150,

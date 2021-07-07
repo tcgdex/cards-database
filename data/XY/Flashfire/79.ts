@@ -3,11 +3,11 @@ import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "M Kangaskhan-EX",
+		en: "M Kangaskhan EX",
 		fr: "M Kangourex-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 		{

@@ -3,11 +3,11 @@ import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Magnezone-EX",
+		en: "Magnezone EX",
 		fr: "Magnézone-EEX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Double Décharge",
 			},
 			effect: {
-				en: "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 50 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 50 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 

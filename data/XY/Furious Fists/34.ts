@@ -46,10 +46,10 @@ const card: Card = {
 				fr: "Énergie Dérivée",
 			},
 			effect: {
-				en: "This attack does 20 damage times the amount of Energy attached to your opponent's Active Pokémon.",
+				en: "This attack does 20 damage times the amount of Energy attached to your opponent’s Active Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Actif de votre adversaire.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

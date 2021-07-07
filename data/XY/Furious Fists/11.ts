@@ -56,7 +56,7 @@ const card: Card = {
 				en: "If Electivire is on your Bench, this attack does 80 more damage.",
 				fr: "Si Élekable est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

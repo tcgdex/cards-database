@@ -51,10 +51,10 @@ const card: Card = {
 				fr: "Déchirure",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 30 more damage.",
+				en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 30 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

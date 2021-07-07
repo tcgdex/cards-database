@@ -40,7 +40,7 @@ const card: Card = {
 				en: "If there is any Stadium card in play, this attack does 60 more damage. Discard that Stadium card.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 60 dégâts supplémentaires. Défaussez la carte Stade.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 		{

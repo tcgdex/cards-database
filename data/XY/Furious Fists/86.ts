@@ -53,7 +53,7 @@ const card: Card = {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.",
 				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

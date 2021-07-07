@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Chaque Pokémon en jeu n'a pas de Résistance.",
+		en: "Each Pokémon in play has no Resistance."
 	},
 	trainerType: "Stadium",
 

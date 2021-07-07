@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Réapparition",
 			},
 			effect: {
-				en: "Put a Basic Pokémon from your opponent's discard pile onto his or her Bench.",
+				en: "Put a Basic Pokémon from your opponent’s discard pile onto his or her Bench.",
 				fr: "Prenez un Pokémon de base dans la pile de défausse de votre adversaire et placez-le sur son Banc.",
 			},
 
@@ -46,7 +46,7 @@ const card: Card = {
 				fr: "Placement Vicieux",
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent's Active Pokémon.",
+				en: "Put 1 damage counter on your opponent’s Active Pokémon.",
 				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
 			},
 

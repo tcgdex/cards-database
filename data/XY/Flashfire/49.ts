@@ -39,7 +39,7 @@ const card: Card = {
 				en: "Discard as many Fighting Energy cards as you like from your hand. This attack does 30 damage times the number of Energy cards you discarded.",
 				fr: "Défaussez autant de cartes Énergie Fighting que vous voulez de votre main. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{

@@ -3,11 +3,11 @@ import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak-EX",
+		en: "Toxicroak EX",
 		fr: "Coatox-EX",
 	},
 	illustrator: "PLANETA",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Triple Poison",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned. Put 3 damage counters instead of 1 on that Pokémon between turns.",
+				en: "Your opponent’s Active Pokémon is now Poisoned. Put 3 damage counters instead of 1 on that Pokémon between turns.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 3 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
 			},
 
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Poing Fracassant",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 80,

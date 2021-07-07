@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Mélangez 2 cartes Supporter de votre pile de défausse avec votre deck.",
+		en: "Shuffle 2 Supporter cards from your discard pile into your deck."
 	},
 	trainerType: "Item",
 

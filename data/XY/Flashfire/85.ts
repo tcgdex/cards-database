@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Rebond Ressort",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can't attack during your next turn.",
+				en: "Flip a coin. If tails, this Pokémon can’t attack during your next turn.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 80,

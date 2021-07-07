@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Défaussez toutes les cartes Outil Pokémon attachées à chacun des Pokémon de votre adversaire.",
+		en: "Discard all Pokémon Tool cards attached to each of your opponent’s Pokémon."
 	},
 	trainerType: "Item",
 

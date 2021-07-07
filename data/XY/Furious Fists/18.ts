@@ -28,11 +28,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "King's Song",
+				en: "King’s Song",
 				fr: "Chant du Roi",
 			},
 			effect: {
-				en: "Ignore all Colorless Energy in the attack cost of each of your Poliwag, Poliwhirl, and Poliwrath's attacks.",
+				en: "Ignore all Colorless Energy in the attack cost of each of your Poliwag, Poliwhirl, and Poliwrath’s attacks.",
 				fr: "Ignorez toutes les Énergies Colorless dans les coûts d'attaque des attaques de vos Ptitard, Têtarte et Tartard.",
 			},
 		},

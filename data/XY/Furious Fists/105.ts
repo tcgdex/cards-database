@@ -3,7 +3,7 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Heracross-EX",
+		en: "Heracross EX",
 		fr: "Scarhino-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Pression de Garde",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 40,
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
 				fr: "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

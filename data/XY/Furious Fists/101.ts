@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Choisissez jusqu'à 2 cartes Outil Pokémon attachées à vos Pokémon et placez-les dans votre main.",
+		en: "Choose up to 2 Pokémon Tool cards attached to your Pokémon and put them into your hand."
 	},
 	trainerType: "Item",
 

@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Points de Douleur",
 			},
 			effect: {
-				en: "Put damage counters on 1 of your opponent's Pokémon equal to the number of damage counters on this Pokémon.",
+				en: "Put damage counters on 1 of your opponent’s Pokémon equal to the number of damage counters on this Pokémon.",
 				fr: "Placez autant de marqueurs de dégâts sur l'un des Pokémon de votre adversaire qu'il y a de marqueurs de dégâts sur ce Pokémon.",
 			},
 
