@@ -27,39 +27,13 @@ import { Filter } from './interfaces'
 
 export const standard: Filter = {
 	includes: {
-		series: ['sm', 'swsh'],
-		sets: ['sm9', 'det1', 'sm10', 'sm11', 'sm115', 'sm12'],
-		regulationMark: ['D']
+		series: [],
+		sets: [],
+		regulationMark: ['D', 'E']
 	},
 	excludes: {
 		sets: [],
-		cards: [
-			// SM
-			'smp-SM85',
-
-			'sm35-45',
-
-			'sm5-114',
-
-			'sm6-83',
-
-			'sm8-90',
-			'sm8-91',
-
-			'sm10-78',
-			'sm10-165',
-			'sm10-178',
-
-			'sm11-206',
-			'sm11-253',
-
-			'sm115-58',
-			'sm115-68',
-
-			'sm12-186',
-			'sm12-194',
-			'sm12-265',
-		]
+		cards: []
 	}
 }
 
