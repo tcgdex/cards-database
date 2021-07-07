@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous pouvez jouer cette carte seulement s'il vous reste plus de cartes Récompense que votre adversaire.\n\nChaque joueur mélange sa main avec son deck. Ensuite, piochez 6 cartes. Votre adversaire pioche 3 cartes.",
+		en: "You can play this card only if you have more Prize cards left than your opponent. \n\nEach player shuffles his or her hand into his or her deck. Then, draw 6 cards. Your opponent draws 3 cards."
 	},
 	trainerType: "Supporter",
 

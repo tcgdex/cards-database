@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Parfum Enivrant",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused. Put 6 damage counters instead of 3 on that Pokémon for this Special Condition.",
+				en: "Your opponent’s Active Pokémon is now Confused. Put 6 damage counters instead of 3 on that Pokémon for this Special Condition.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Placez 6 marqueurs de dégâts au lieu de 3 sur le Pokémon ciblé pour cet État Spécial.",
 			},
 
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Câlin",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,

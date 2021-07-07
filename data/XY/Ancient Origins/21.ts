@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 30 more damage for each damage counter on each of your Benched Magikarp.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 more damage. If tails, this Pokémon does 30 damage to itself.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque marqueur de dégâts placé sur chacun de vos Magicarpe de Banc.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 		{

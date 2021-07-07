@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Étreinte Équilibre",
 			},
 			effect: {
-				en: "If you and your opponent have the same number of Benched Pokémon, your opponent's Active Pokémon is now Paralyzed.",
+				en: "If you and your opponent have the same number of Benched Pokémon, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Si votre adversaire et vous avez le même nombre de Pokémon de Banc, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 30,

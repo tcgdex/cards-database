@@ -3,7 +3,7 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "M Mewtwo-EX",
+		en: "M Mewtwo EX",
 		fr: "Méga-Mewtwo-EEX",
 	},
 	illustrator: "5ban Graphics",
@@ -38,10 +38,10 @@ const card: Card = {
 				fr: "Frappe Fuyante",
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 50 more damage, and this attack's damage isn't affected by Resistance or any effects on your opponent's Active Pokémon.",
+				en: "If there is any Stadium card in play, this attack does 50 more damage, and this attack’s damage isn’t affected by Resistance or any effects on your opponent’s Active Pokémon.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 50 dégâts supplémentaires, et les dégâts de cette attaque ne sont pas affectés par la Résistance ou tout effet en action sur le Pokémon Actif de votre adversaire.",
 			},
-			damage: 150,
+			damage: "150+",
 
 		},
 	],

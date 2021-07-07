@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Proclamation Nocturne",
 			},
 			effect: {
-				en: "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
+				en: "Your opponent can’t play any Item cards from his or her hand during his or her next turn.",
 				fr: "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour.",
 			},
 

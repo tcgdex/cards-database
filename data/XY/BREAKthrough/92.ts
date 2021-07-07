@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Zoroark BREAK",
 		fr: "Zoroark TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		571,
 	],
+
 	hp: 140,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Zoroark",
 		fr: "Zoroark",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -35,7 +39,7 @@ const card: Card = {
 				fr: "Règle des Évolutions TURBO",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+				en: "Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.",
 			},
 
 		},
@@ -53,11 +57,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

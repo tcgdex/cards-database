@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Chesnaught BREAK",
 		fr: "Blindépique TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		652,
 	],
+
 	hp: 190,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Chesnaught",
 		fr: "Blindépique",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 				fr: "Règle des Évolutions TURBO",
 			},
 			effect: {
-				en: "This Pokémon does 30 damage to itself. This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This Pokémon does 30 damage to itself. This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 160,
 
@@ -61,11 +65,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

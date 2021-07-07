@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Aboiement Surprenant",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 3 random cards from your opponent's hand. Your opponent reveals those cards and shuffles them into his or her deck.",
+				en: "Flip a coin. If heads, choose 3 random cards from your opponent’s hand. Your opponent reveals those cards and shuffles them into his or her deck.",
 				fr: "Lancez une pièce. Si c'est face, choisissez 3 cartes au hasard de la main de votre adversaire. Votre adversaire montre les cartes choisies et les mélange avec son deck.",
 			},
 

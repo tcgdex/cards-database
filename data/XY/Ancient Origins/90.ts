@@ -3,7 +3,7 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Machamp-EX",
+		en: "Machamp EX",
 		fr: "Mackogneur-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the number of damage counters on this Pokémon. This Pokémon is now Confused.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon. Ce Pokémon est maintenant Confus.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "If this Pokémon is affected by a Special Condition, this attack does 80 more damage. Then, remove all Special Conditions from this Pokémon.",
 				fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 80 dégâts supplémentaires. Ensuite, retirez tous les États Spéciaux de ce Pokémon.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

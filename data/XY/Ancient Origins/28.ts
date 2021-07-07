@@ -3,11 +3,11 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "M Ampharos-EX",
+		en: "M Ampharos EX",
 		fr: "M Pharamp-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -38,9 +38,9 @@ const card: Card = {
 				fr: "Règle des Méga-Évolutions",
 			},
 			effect: {
-				en: "You may do 50 more damage and leave your opponent's Active Pokémon Paralyzed. If you do, this Pokémon does 30 damage to itself.",
+				en: "You may do 50 more damage and leave your opponent’s Active Pokémon Paralyzed. If you do, this Pokémon does 30 damage to itself.",
 			},
-			damage: 120,
+			damage: "120+",
 
 		},
 		{

@@ -51,7 +51,7 @@ const card: Card = {
 				en: "If you played a Supporter card from your hand during this turn, this attack does 70 more damage.",
 				fr: "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 70 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

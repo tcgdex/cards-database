@@ -49,7 +49,7 @@ const card: Card = {
 				en: "This attack does 20 more damage for each Lightning Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Lightning attachée à ce Pokémon.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

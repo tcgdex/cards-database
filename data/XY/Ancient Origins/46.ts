@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Contrôle Emmêlant",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon. The new Active Pokémon is now Confused.",
+				en: "Switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon. The new Active Pokémon is now Confused.",
 				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Confus.",
 			},
 

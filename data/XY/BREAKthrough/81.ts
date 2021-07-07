@@ -56,7 +56,7 @@ const card: Card = {
 				en: "This attack does 10 more damage for each Colorless in the Retreat Cost of your Swinub, Piloswine, and Mamoswine.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite de votre Marcacrin, Cochignon et Mammochon.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

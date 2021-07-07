@@ -48,10 +48,10 @@ const card: Card = {
 				fr: "Emprise Mentale",
 			},
 			effect: {
-				en: "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
+				en: "This attack does 30 more damage for each of your opponent’s Benched Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

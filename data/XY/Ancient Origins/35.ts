@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 		{

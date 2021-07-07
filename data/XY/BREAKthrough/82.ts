@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Isograisse",
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks from your opponent's Fire or Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				en: "Any damage done to this Pokémon by attacks from your opponent’s Fire or Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à ce Pokémon par des attaques des Pokémon Fire ou Water de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "If you have a Stadium card in play, this attack does 40 more damage. If your opponent has a Stadium card in play, heal 40 damage from this Pokémon.",
 				fr: "Si vous avez une carte Stade en jeu, cette attaque inflige 40 dégâts supplémentaires. Si votre adversaire a une carte Stade en jeu, soignez 40 dégâts à ce Pokémon.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

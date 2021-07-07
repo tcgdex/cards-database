@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Noivern BREAK",
 		fr: "Bruyverne TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		715,
 	],
+
 	hp: 130,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Noivern",
 		fr: "Bruyverne",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -39,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.",
 			},
-			damage: 70,
+			damage: "70+",
 
 		},
 		{
@@ -59,11 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

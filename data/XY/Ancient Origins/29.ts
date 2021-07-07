@@ -45,7 +45,7 @@ const card: Card = {
 				fr: "Espièglerie Électrique",
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+				en: "Flip 3 coins. For each heads, choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into his or her deck.",
 				fr: "Lancez 3 pièces. Pour chaque côté face, choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck.",
 			},
 

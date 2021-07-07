@@ -3,7 +3,7 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Primal Groudon-EX",
+		en: "Primal Groudon EX",
 		fr: "Primo-Groudon-EX",
 	},
 	illustrator: "5ban Graphics",
@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 		{
