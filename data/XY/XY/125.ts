@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Lancez une pièce. Si c'est face, piochez 3 cartes.",
+		en: "Flip a coin. If heads, draw 3 cards."
 	},
 	trainerType: "Item",
 

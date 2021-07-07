@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Lueur Attrayante",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with your opponent's Active Pokémon.",
+				en: "Switch 1 of your opponent’s Benched Pokémon with your opponent’s Active Pokémon.",
 				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec le Pokémon Actif de votre adversaire.",
 			},
 
@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Rayon Signal",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 30,

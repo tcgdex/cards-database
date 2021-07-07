@@ -3,11 +3,11 @@ import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Yveltal-EX",
+		en: "Yveltal EX",
 		fr: "Yveltal-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "This attack does 20 more damage times the amount of Energy attached to both Active Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d'Énergies attachées aux deux Pokémon Actifs.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{

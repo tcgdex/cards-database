@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Direct Toxik",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 20,
@@ -51,10 +51,10 @@ const card: Card = {
 				fr: "Luminodard",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 40 damage times the number of heads. If all of them are heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				en: "Flip 3 coins. This attack does 40 damage times the number of heads. If all of them are heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Si vous obtenez seulement des côtés face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
-			damage: 40,
+			damage: '40×',
 
 		},
 	],

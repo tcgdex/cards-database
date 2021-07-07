@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Gluco-Voile",
 			},
 			effect: {
-				en: "Each of your Pokémon that has any Fairy Energy attached to it can't be affected by any Special Conditions. (Remove any Special Conditions affecting those Pokémon.)",
+				en: "Each of your Pokémon that has any Fairy Energy attached to it can’t be affected by any Special Conditions. (Remove any Special Conditions affecting those Pokémon.)",
 				fr: "Chacun de vos Pokémon auquel de l'Énergie Fairy est attachée ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant les Pokémon concernés.)",
 			},
 		},

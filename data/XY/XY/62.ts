@@ -38,7 +38,7 @@ const card: Card = {
 				en: "Flip a coin for each Fighting Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque Énergie Fighting attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Roc-Boulet",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance. This Pokémon can't attack during your next turn.",
+				en: "This attack’s damage isn’t affected by Weakness or Resistance. This Pokémon can’t attack during your next turn.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 130,

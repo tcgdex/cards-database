@@ -3,11 +3,11 @@ import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "M Venusaur-EX",
+		en: "M Venusaur EX",
 		fr: "M-Florizarre-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -38,7 +38,7 @@ const card: Card = {
 				fr: "Crise-Lianes",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Paralyzed and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné.",
 			},
 			damage: 120,

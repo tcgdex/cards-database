@@ -3,22 +3,24 @@ import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Emolga-EX",
+		en: "Emolga EX",
 		fr: "Emolga-EX",
 	},
-	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Eske Yoshinob",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		587,
 	],
+
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "EX",
 
@@ -51,16 +53,18 @@ const card: Card = {
 				en: "You may discard an Energy attached to this Pokémon. If you do, this attack does 30 more damage.",
 				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -68,9 +72,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Frotte-Frimousse",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

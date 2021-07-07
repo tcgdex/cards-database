@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Mine",
 			},
 			effect: {
-				en: "Look at the top card of your opponent's deck. Then, you may have your opponent shuffle his or her deck.",
+				en: "Look at the top card of your opponent’s deck. Then, you may have your opponent shuffle his or her deck.",
 				fr: "Regardez la carte du dessus du deck de votre adversaire. Ensuite, vous pouvez demander à votre adversaire de mélanger son deck.",
 			},
 

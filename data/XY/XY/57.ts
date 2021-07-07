@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Voix Lugubre",
 			},
 			effect: {
-				en: "Put 2 damage counters on each of your opponent's Pokémon.",
+				en: "Put 2 damage counters on each of your opponent’s Pokémon.",
 				fr: "Placez 2 marqueurs de dégâts sur chaque Pokémon de votre adversaire.",
 			},
 

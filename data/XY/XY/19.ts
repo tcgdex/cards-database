@@ -54,7 +54,7 @@ const card: Card = {
 				en: "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.",
 				fr: "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
 			},
-			damage: 70,
+			damage: "70+",
 
 		},
 	],

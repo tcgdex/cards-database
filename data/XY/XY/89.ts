@@ -51,7 +51,7 @@ const card: Card = {
 				fr: "Abracadabra",
 			},
 			effect: {
-				en: "The Defending Pokémon can't attack during your opponent's next turn.",
+				en: "The Defending Pokémon can’t attack during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 60,

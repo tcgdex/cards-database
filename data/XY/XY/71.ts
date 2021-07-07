@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Supplice",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't play any Supporter cards from his or her hand during his or her next turn.",
+				en: "Flip a coin. If heads, your opponent can’t play any Supporter cards from his or her hand during his or her next turn.",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter de sa main pendant son prochain tour.",
 			},
 			damage: 50,

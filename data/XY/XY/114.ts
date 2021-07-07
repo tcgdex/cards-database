@@ -44,7 +44,7 @@ const card: Card = {
 				fr: "Toison Épaisse",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 80,
