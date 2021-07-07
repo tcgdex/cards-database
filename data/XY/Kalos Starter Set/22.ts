@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Snubbull",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

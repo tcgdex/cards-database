@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Scalproie",
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Piqûre Infernale",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 20,
