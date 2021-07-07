@@ -36,7 +36,7 @@ const card: Card = {
 				en: "If Solosis is on your Bench, this attack does 30 more damage.",
 				fr: "Si Nucléos est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 10,
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 10 more damage. If tails, this Pokémon does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

@@ -35,7 +35,7 @@ const card: Card = {
 				en: "This attack does 10 damage times the number of your Pawniard.",
 				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de vos Scalpion.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

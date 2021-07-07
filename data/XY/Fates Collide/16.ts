@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Souffle Glacial",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed. If tails, your opponent's Active Pokémon is now Asleep.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed. If tails, your opponent’s Active Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé. Si c'est pile, le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 20,

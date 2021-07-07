@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Montrez des cartes du dessus de votre deck jusqu'à ce que vous montriez une carte Supporter. Ajoutez-la à votre main. Mélangez les autres cartes avec votre deck.",
+		en: "Reveal cards from the top of your deck until you reveal a Supporter card. Put it into your hand. Shuffle the other cards back into your deck."
 	},
 	trainerType: "Item",
 

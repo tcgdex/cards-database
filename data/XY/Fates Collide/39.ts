@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Corps à Corps",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 50,
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 60 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

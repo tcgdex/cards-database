@@ -3,11 +3,11 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Darkrai-EX",
+		en: "Darkrai EX",
 		fr: "Darkrai-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "This attack does 20 more damage for each Darkness Energy attached to all of your Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Darkness attachée à tous vos Pokémon.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -50,10 +50,10 @@ const card: Card = {
 				fr: "Tête Obscure",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Asleep, this attack does 80 more damage.",
+				en: "If your opponent’s Active Pokémon is Asleep, this attack does 80 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 80 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

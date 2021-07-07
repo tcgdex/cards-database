@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Tête Riposte",
 			},
 			effect: {
-				en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.",
+				en: "During your opponent’s next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.",
 				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d’une attaque (même si ce Pokémon est mis K.O.), placez des marqueurs de dégâts sur le Pokémon Attaquant équivalents au nombre de dégâts infligés à ce Pokémon.",
 			},
 
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "This attack does 10 more damage for each of your Benched Pokémon that has any damage counters on it.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire ayant au moins 1 marqueur de dégâts.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 	],

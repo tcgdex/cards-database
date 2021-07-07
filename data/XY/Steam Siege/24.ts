@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Pyroar BREAK",
 		fr: "Némélios TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		668,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Pyroar",
 		fr: "Némélios",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -59,11 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

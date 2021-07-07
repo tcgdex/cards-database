@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Écailles Scintillantes",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused. If tails, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Confused. If tails, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Confus. Si c’est pile, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 20,

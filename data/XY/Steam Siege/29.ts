@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Coup Gluant",
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.",
+				en: "During your opponent’s next turn, the Defending Pokémon’s attacks cost Colorless more, and its Retreat Cost is Colorless more.",
 				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur coûtent Colorless de plus, et son Coût de Retraite est augmenté de Colorless.",
 			},
 			damage: 20,
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Vibraqua",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 60,

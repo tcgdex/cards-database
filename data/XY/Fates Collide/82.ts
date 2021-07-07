@@ -40,7 +40,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 		{
@@ -54,7 +54,7 @@ const card: Card = {
 				fr: "Cacophonie",
 			},
 			effect: {
-				en: "At the end of your opponent's next turn, discard the Defending Pokémon and all cards attached to it.",
+				en: "At the end of your opponent’s next turn, discard the Defending Pokémon and all cards attached to it.",
 				fr: "À la fin du prochain tour de votre adversaire, défaussez le Pokémon Défenseur et toutes les cartes qui lui sont attachées.",
 			},
 

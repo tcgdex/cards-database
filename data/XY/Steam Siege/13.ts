@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Spore Folle",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Étrange Réaction",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Confused, it is now Paralyzed.",
+				en: "If your opponent’s Active Pokémon is Confused, it is now Paralyzed.",
 				fr: "Si le Pokémon Actif de votre adversaire est Confus, il est maintenant Paralysé.",
 			},
 			damage: 30,

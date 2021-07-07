@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Bidouillage",
 			},
 			effect: {
-				en: "Look at the top 3 cards of your opponent's deck and put them back in any order.",
+				en: "Look at the top 3 cards of your opponent’s deck and put them back in any order.",
 				fr: "Regardez les 3 cartes du dessus du deck de votre adversaire et replacez-les dans l’ordre de votre choix.",
 			},
 

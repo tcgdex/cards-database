@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Diglett",
 		fr: "Taupiqueur",
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		50,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -43,10 +46,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

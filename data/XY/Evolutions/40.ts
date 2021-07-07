@@ -31,7 +31,7 @@ const card: Card = {
 				en: "Buzzap Thunder",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may Knock Out this Pokémon and attach it to one of your Lightning Pokémon as a Special Energy card. This card provides 2 Lightning Energy only while this card is attached to a Pokémon.",
+				en: "Once during your turn (before your attack), you may Knock Out this Pokémon and attach it to one of your Lightning Pokémon as a Special Energy card. This card provides 2 Lightning Energy only while this card is attached to a Lightning Pokémon.",
 			},
 		},
 	],
@@ -42,15 +42,13 @@ const card: Card = {
 				"Lightning",
 				"Colorless",
 			],
+
 			name: {
 				en: "Head Bolt",
 				fr: "Talent : Tonnerre Buzzap",
 			},
-			effect: {
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez mettre K.O. ce Pokémon et l’attacher à l’un de vos Pokémon Lightning en tant que carte Énergie spéciale. Cette carte ne fournit 2 Énergies Lightning que pendant qu’elle est attachée à un Pokémon.",
-			},
-			damage: 70,
 
+			damage: 70
 		},
 		{
 			cost: [

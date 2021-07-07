@@ -35,10 +35,10 @@ const card: Card = {
 				fr: "Arôme Enivrant",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 40 more damage.",
+				en: "If your opponent’s Active Pokémon is a Pokémon-EX, this attack does 40 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{

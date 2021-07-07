@@ -3,7 +3,7 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot-EX",
+		en: "Pidgeot EX",
 		fr: "Roucarnage-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Mimique",
 			},
 			effect: {
-				en: "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does the same amount of damage to your opponent's Active Pokémon.",
+				en: "If this Pokémon was damaged by an attack during your opponent’s last turn, this attack does the same amount of damage to your opponent’s Active Pokémon.",
 				fr: "Si ce Pokémon a subi les dégâts d’une attaque pendant le dernier tour de votre adversaire, cette attaque inflige la même quantité de dégâts au Pokémon Actif de votre adversaire.",
 			},
 
@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Lance Plume",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 80,

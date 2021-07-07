@@ -31,7 +31,7 @@ const card: Card = {
 				en: "Counterattack",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
+				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
 			},
 		},
 	],
@@ -42,15 +42,12 @@ const card: Card = {
 				"Fighting",
 				"Fighting",
 			],
+
 			name: {
 				en: "Seismic Toss",
-				fr: "Talent : Contre-Attaque",
 			},
-			effect: {
-				fr: "Si ce Pokémon est votre Pokémon Actif et qu'il subit les dégâts d'une attaque de votre adversaire (même si ce Pokémon est mis K.O.), placez 3 marqueurs de dégâts sur le Pokémon Attaquant.",
-			},
-			damage: 120,
 
+			damage: 120,
 		},
 		{
 			cost: [

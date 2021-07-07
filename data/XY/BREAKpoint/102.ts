@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Regardez les 6 cartes du dessus de votre deck et attachez une carte Énergie de base que vous y trouvez à un Pokémon de base sur votre Banc. Mélangez les autres cartes avec votre deck.",
+		en: "Look at the top 6 cards of your deck and attach a basic Energy card you find there to a Basic Pokémon on your Bench. Shuffle the other cards back into your deck."
 	},
 	trainerType: "Item",
 

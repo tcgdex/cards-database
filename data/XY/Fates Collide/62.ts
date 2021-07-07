@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Bronzong BREAK",
 		fr: "Archéodong TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		437,
 	],
+
 	hp: 130,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Bronzong",
 		fr: "Archéodong",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -36,7 +40,7 @@ const card: Card = {
 				fr: "Règle des Évolutions TURBO",
 			},
 			effect: {
-				en: "Discard as many Metal Energy attached to this Pokémon as you like. For each Energy card discarded in this way, choose 1 of your opponent's Pokémon and do 30 damage to it. Don't apply Weakness and Resistance. (You may choose the same Pokémon more than once.)",
+				en: "Discard as many Metal Energy attached to this Pokémon as you like. For each Energy card discarded in this way, choose 1 of your opponent’s Pokémon and do 30 damage to it. Don’t apply Weakness and Resistance. (You may choose the same Pokémon more than once.)",
 			},
 
 		},
@@ -55,11 +59,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

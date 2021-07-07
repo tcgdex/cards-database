@@ -3,7 +3,7 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Sylveon-EX",
+		en: "Sylveon EX",
 		fr: "Nymphali-EX",
 	},
 	illustrator: "Kanako Eo",
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 30 more damage.",
 				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{

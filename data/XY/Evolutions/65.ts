@@ -3,27 +3,31 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "M Pidgeot-EX",
+		en: "M Pidgeot EX",
 		fr: "M-Roucarnage-EX",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		18,
 	],
+
 	hp: 220,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Pidgeot-EX",
 		fr: "Roucarnage-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -44,12 +48,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -57,9 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

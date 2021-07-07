@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Mew",
 		fr: "Mew",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		151,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -57,10 +62,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

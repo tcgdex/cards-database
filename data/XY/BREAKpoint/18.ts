@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Golduck BREAK",
 		fr: "Akwakwak TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		55,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Golduck",
 		fr: "Akwakwak",
 	},
+
 	stage: "BREAK",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -48,11 +54,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

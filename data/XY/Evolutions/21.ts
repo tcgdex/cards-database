@@ -3,11 +3,11 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Blastoise-EX",
+		en: "Blastoise EX",
 		fr: "Tortank-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

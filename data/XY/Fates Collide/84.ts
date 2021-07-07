@@ -3,11 +3,11 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Audino-EX",
+		en: "Audino EX",
 		fr: "Nanméouïe-EXEX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "This attack does 10 more damage for each of your Benched Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

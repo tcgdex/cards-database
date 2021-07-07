@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Miasmotoxine",
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).",
+				en: "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Garbotoxin).",
 				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent (à part Miasmotoxine).",
 			},
 		},
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Bombe Offenseuse",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 			},
 			damage: 60,

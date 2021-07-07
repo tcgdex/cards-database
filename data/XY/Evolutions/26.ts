@@ -3,11 +3,11 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Slowbro-EX",
+		en: "Slowbro EX",
 		fr: "Flagadoss-EX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Paresse",
 			},
 			effect: {
-				en: "Heal 60 damage from this Pokémon. This Pokémon can't attack during your next turn.",
+				en: "Heal 60 damage from this Pokémon. This Pokémon can’t attack during your next turn.",
 				fr: "Soignez 60 dégâts à ce Pokémon. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 

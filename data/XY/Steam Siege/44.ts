@@ -53,7 +53,7 @@ const card: Card = {
 				en: "If Nidorina is on your Bench, this attack does 40 more damage.",
 				fr: "Si Nidorina est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

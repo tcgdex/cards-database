@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Soutien de Retraite",
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
+				en: "As long as this Pokémon is on your Bench, your Active Pokémon’s Retreat Cost is ColorlessColorless less.",
 				fr: "Tant que ce Pokémon est sur votre Banc, le Coût de Retraite de votre Pokémon Actif est diminué de ColorlessColorless.",
 			},
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],

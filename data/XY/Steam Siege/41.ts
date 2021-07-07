@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Joltik",
 		fr: "Statitik",
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		595,
 	],
+
 	hp: 30,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,12 +38,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -49,9 +53,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

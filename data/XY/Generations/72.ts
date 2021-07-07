@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
+		en: "Shuffle your hand into your deck. Then, draw 5 cards."
 	},
 	trainerType: "Supporter",
 

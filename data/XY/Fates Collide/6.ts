@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Étranglement Serpentin",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 		},

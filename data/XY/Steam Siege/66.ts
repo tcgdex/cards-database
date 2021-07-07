@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Yveltal BREAK",
 		fr: "Yveltal TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		717,
 	],
+
 	hp: 150,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Yveltal",
 		fr: "Yveltal",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -37,7 +41,7 @@ const card: Card = {
 				fr: "Règle des Évolutions TURBO",
 			},
 			effect: {
-				en: "This attack does 30 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 30 damage to each of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 120,
 
@@ -59,11 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

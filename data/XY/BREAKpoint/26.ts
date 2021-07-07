@@ -3,11 +3,11 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Gyarados-EX",
+		en: "Gyarados EX",
 		fr: "Léviator-eEX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Éclaboussure Brûlante",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 130,

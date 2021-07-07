@@ -3,7 +3,7 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
+		en: "Farfetch’d",
 		fr: "Canarticho",
 	},
 	illustrator: "Ken Sugimori",
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Coup d’oignon",
 			},
 			effect: {
-				en: "This Pokémon can't use Leek Slap during your next turn.",
+				en: "This Pokémon can’t use Leek Slap during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Coup d’Oignon pendant votre prochain tour.",
 			},
 			damage: 50,

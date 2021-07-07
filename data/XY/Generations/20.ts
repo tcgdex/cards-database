@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Pince Broyeuse",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and discard an Energy attached to that Pokémon.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and discard an Energy attached to that Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé, et vous défaussez une Énergie lui étant attachée.",
 			},
 			damage: 30,
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Flip 5 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 5 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],

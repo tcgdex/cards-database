@@ -3,11 +3,11 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Blastoise-EX",
+		en: "Blastoise EX",
 		fr: "Tortank-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,7 +34,7 @@ const card: Card = {
 				fr: "Hyper Tourbillon",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 60,
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Hydro Presse",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 100,

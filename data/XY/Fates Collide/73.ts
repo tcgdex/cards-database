@@ -3,11 +3,11 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Kingdra-EX",
+		en: "Kingdra EX",
 		fr: "Hyporoi-EX",
 	},
 	illustrator: "hatachu",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "This attack does 30 more damage for each basic Lightning Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Lightning de base attachée à ce Pokémon.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

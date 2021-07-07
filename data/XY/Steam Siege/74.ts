@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Prévention",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from Basic Pokémon during your opponent's next turn. This Pokémon can't use Quick Guard during your next turn.",
+				en: "Prevent all damage done to this Pokémon by attacks from Basic Pokémon during your opponent’s next turn. This Pokémon can’t use Quick Guard during your next turn.",
 				fr: "Évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base pendant le prochain tour de votre adversaire. Ce Pokémon ne peut pas utiliser Prévention pendant votre prochain tour.",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				en: "This attack does 30 more damage for each Prize card your opponent has taken.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

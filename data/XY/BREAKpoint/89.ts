@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Raticate BREAK",
 		fr: "Rattatac TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		20,
 	],
+
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Raticate",
 		fr: "Rattatac",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -36,7 +40,7 @@ const card: Card = {
 				fr: "Règle des Évolutions TURBO",
 			},
 			effect: {
-				en: "Put damage counters on your opponent's Active Pokémon until its remaining HP is 10.",
+				en: "Put damage counters on your opponent’s Active Pokémon until its remaining HP is 10.",
 			},
 
 		},
@@ -55,11 +59,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

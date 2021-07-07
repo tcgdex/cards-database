@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Blocage Manuel",
 			},
 			effect: {
-				en: "If you have a Stadium card in play, your opponent can't attach any Special Energy cards from his or her hand to his or her Pokémon.",
+				en: "If you have a Stadium card in play, your opponent can’t attach any Special Energy cards from his or her hand to his or her Pokémon.",
 				fr: "Si vous avez une carte Stade en jeu, votre adversaire ne peut pas attacher de carte Énergie spéciale de sa main à ses Pokémon.",
 			},
 		},

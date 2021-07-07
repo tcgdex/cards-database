@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Staryu",
 		fr: "Stari",
 	},
+
 	illustrator: "Hiroki Asanuma",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		120,
 	],
+
 	hp: 40,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -43,10 +46,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

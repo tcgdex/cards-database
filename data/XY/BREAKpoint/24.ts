@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Pince Surprise",
 			},
 			effect: {
-				en: "If this Pokémon evolved from Shellder during this turn, your opponent's Active Pokémon is now Paralyzed.",
+				en: "If this Pokémon evolved from Shellder during this turn, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Si ce Pokémon a évolué de Kokiyas pendant ce tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 10,

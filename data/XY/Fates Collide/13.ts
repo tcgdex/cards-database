@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Flammes Vacillantes",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 40,
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the amount of Energy attached to all Pokémon in play.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous les Pokémon en jeu.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

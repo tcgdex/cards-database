@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Onde Vide",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
+				en: "This attack’s damage isn’t affected by Weakness or Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
 			},
 			damage: 50,
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "If you have fewer Pokémon in play than your opponent, this attack does 60 more damage for each Pokémon fewer you have in play.",
 				fr: "Si vous avez moins de Pokémon en jeu que votre adversaire, cette attaque inflige 60 dégâts supplémentaires pour chaque Pokémon de moins que vous avez en jeu.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Double Fil",
 			},
 			effect: {
-				en: "This attack does 30 damage to 2 of your opponent's Pokémon. Also apply Weakness and Resistance for Benched Pokémon.",
+				en: "This attack does 30 damage to 2 of your opponent’s Pokémon. Also apply Weakness and Resistance for Benched Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts à 2 des Pokémon de votre adversaire. Appliquez aussi la Faiblesse et la Résistance aux Pokémon de Banc.",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Toile Élek",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,

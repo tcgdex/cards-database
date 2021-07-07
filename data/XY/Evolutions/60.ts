@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Machamp BREAK",
 		fr: "Mackogneur TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Machamp",
 		fr: "Mackogneur",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -37,7 +41,7 @@ const card: Card = {
 				fr: "Règle des Évolutions TURBO",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's attacks do 100 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+				en: "During your next turn, this Pokémon’s attacks do 100 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
 			},
 			damage: 100,
 
@@ -59,11 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

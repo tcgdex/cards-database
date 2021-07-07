@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Implore",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand. Choose a card you find there and put it on the bottom of your opponent's deck.",
+				en: "Your opponent reveals his or her hand. Choose a card you find there and put it on the bottom of your opponent’s deck.",
 				fr: "Votre adversaire montre sa main. Choisissez une carte que vous y trouvez et mettez-la en dessous du deck de votre adversaire.",
 			},
 

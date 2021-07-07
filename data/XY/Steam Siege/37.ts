@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Banquise Fondante",
 			},
 			effect: {
-				en: "Discard the top 3 cards of your deck. For each Water Energy card you discarded in this way, discard the top 3 cards of your opponent's deck.",
+				en: "Discard the top 3 cards of your deck. For each Water Energy card you discarded in this way, discard the top 3 cards of your opponent’s deck.",
 				fr: "Défaussez les 3 cartes du dessus de votre deck. Pour chaque carte Énergie Water défaussée de cette façon, défaussez les 3 cartes du dessus du deck de votre adversaire.",
 			},
 

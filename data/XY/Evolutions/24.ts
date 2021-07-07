@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Amnésie",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				en: "Choose 1 of your opponent’s Active Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.",
 				fr: "Choisissez l’une des attaques du Pokémon Actif de votre adversaire. Ce Pokémon ne peut pas utiliser cette attaque pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],

@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Étreinte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 20,
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Poudre Toxik",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 30,

@@ -3,7 +3,7 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Glaceon-EX",
+		en: "Glaceon EX",
 		fr: "Givrali-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -33,10 +33,10 @@ const card: Card = {
 				fr: "Double Morsure",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+				en: "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Rayon de Cristal",
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.",
+				en: "During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.",
 				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon Évolutifs.",
 			},
 			damage: 70,

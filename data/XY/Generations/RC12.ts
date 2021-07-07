@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Starvin'",
+				en: "Starvin’",
 				fr: "Affamé",
 			},
 			effect: {

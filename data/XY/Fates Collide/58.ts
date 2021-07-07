@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Chute Osseuse",
 			},
 			effect: {
-				en: "This attack does 60 damage to 1 of your opponent's Pokémon that has an Ability. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 60 damage to 1 of your opponent’s Pokémon that has an Ability. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 60 dégâts à l'un des Pokémon de votre adversaire ayant un talent. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 

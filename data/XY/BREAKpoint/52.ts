@@ -3,11 +3,11 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Espeon-EX",
+		en: "Espeon EX",
 		fr: "Mentali-EX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Éclat Miracle",
 			},
 			effect: {
-				en: "Devolve each of your opponent's evolved Pokémon and put the highest Stage Evolution card on it into your opponent's hand.",
+				en: "Devolve each of your opponent’s evolved Pokémon and put the highest Stage Evolution card on it into your opponent’s hand.",
 				fr: "Faites dés-évoluer chacun des Pokémon évolués de votre adversaire et mettez sa carte Évolution de plus haut Niveau dans la main de votre adversaire.",
 			},
 
@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Choc Psy",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 			damage: 70,

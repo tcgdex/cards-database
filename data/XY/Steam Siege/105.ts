@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Mélangez 2 cartes Énergie spéciale de votre pile de défausse avec votre deck.",
+		en: "Shuffle 2 Special Energy cards from your discard pile into your deck."
 	},
 	trainerType: "Item",
 

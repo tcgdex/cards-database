@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Xerneas BREAK",
 		fr: "Xerneas TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		716,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Xerneas",
 		fr: "Xerneas",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 20 damage times the amount of Energy attached to all of your Pokémon.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -57,11 +61,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card
