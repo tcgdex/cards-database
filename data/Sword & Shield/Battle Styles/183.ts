@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Diese Karte kann nur an ein Fokussierter-Angriff-Pokémon angelegt sein. Wenn diese Karte an etwas anderes als ein Fokussierter-Angriff-Pokémon angelegt ist, lege diese Karte auf deinen Ablagestapel.\n\nSolange diese Karte an ein Pokémon angelegt ist, liefert sie Fighting- und Darkness-Energie, aber immer nur 1 Energie. Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu \n(bevor Schwäche und Resistenz verrechnet werden)."
 	},
 
-	energyType: "Special"
+	energyType: "Special",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

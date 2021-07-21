@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Wähle bis zu 2 deiner Fließender-Angriff-Pokémon und heile bei jedem von ihnen 60 Schadenspunkte."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

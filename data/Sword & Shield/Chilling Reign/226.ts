@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Lege 1 an ein Pokémon deines Gegners angelegte Spezial-Energie unter sein Deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

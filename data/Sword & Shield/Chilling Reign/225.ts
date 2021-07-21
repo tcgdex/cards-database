@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Lege 1 Basis-Pokémon aus dem Ablagestapel deines Gegners auf seine Bank."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

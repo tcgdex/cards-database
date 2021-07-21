@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Nimm 1 Fokussierter-Angriff-Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

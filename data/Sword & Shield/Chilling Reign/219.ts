@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Nimm bis zu 3 Preiskarten auf deine Hand. Lege anschließend für jede auf diese Weise auf deine Hand genommene Preiskarte 1 Karte aus deiner Hand verdeckt als Preiskarte ab."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

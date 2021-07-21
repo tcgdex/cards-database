@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, ziehe stattdessen 7 Karten."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

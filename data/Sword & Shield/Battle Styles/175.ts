@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Während dieses Zuges wird der Schaden durch Attacken deiner Pokémon-VMAX durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
