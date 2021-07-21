@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Vullaby",
 		fr: "Vostourno",
+		es: "Vullaby",
+		it: "Vullaby",
+		pt: "Vullaby",
+		de: "Skallyk"
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Corkscrew Punch",
 				fr: "Poing Tire-Bouchon",
+				es: "Puño Tirabuzón",
+				it: "Pugno Rotante",
+				pt: "Soco Saca-rolha",
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 10,

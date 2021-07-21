@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Salandit",
 		fr: "Tritox",
+		es: "Salandit",
+		it: "Salandit",
+		pt: "Salandit",
+		de: "Molunk"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Suffocating Gas",
 				fr: "Gaz Suffocant",
+				es: "Gas Sofocante",
+				it: "Gas Soffocante",
+				pt: "Gás Asfixiante",
+				de: "Würgegas"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 30,

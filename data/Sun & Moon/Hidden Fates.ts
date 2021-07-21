@@ -6,8 +6,9 @@ const sm115: Set = {
 
 	name: {
 		en: "Hidden Fates",
-		fr: "Destinnées Occultes"
-,
+		fr: "Destinnées Occultes",
+		it: "Destino Sfuggente",
+		de: "Verborgenes Schicksal",
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm115: Set = {
 	},
 
 	releaseDate: "2019-08-23",
-
-	legal: {
-		standard: true,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

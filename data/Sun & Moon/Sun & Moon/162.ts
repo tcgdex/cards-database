@@ -4,27 +4,28 @@ import Set from '../Sun & Moon'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
-		fr: "Énergie Psychic de base",
+		fr: "Énergie Psy",
+		es: "Energía Psíquica",
+		it: "Energia Psiche",
+		pt: "Energia Psíquica",
+		de: "Psycho-Energie"
 	},
+
 	illustrator: undefined,
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	effect: {
+		en: "",
+		fr: "",
+		es: "",
+		it: "",
+		pt: "",
+		de: ""
+	}
 }
 
 export default card

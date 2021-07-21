@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pidgey",
 		fr: "Roucool",
+		es: "Pidgey",
+		it: "Pidgey",
+		pt: "Pidgey",
+		de: "Taubsi"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				es: "Coleccionar",
+				it: "Tassa",
+				pt: "Coleta",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre 1 carta.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				es: "Tornado",
+				it: "Raffica",
+				pt: "Lufada de Vento",
+				de: "Windstoß"
 			},
 
 			damage: 20,

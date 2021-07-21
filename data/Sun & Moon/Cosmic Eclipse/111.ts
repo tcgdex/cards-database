@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Anorith",
 		fr: "Anorith",
+		es: "Anorith",
+		it: "Anorith",
+		pt: "Anorith",
+		de: "Anorith"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 40,
@@ -48,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Claw Slash",
 				fr: "Tranch’Griffe",
+				es: "Cuchillada Garra",
+				it: "Lacerartiglio",
+				pt: "Golpe de Garra",
+				de: "Klauenschlitzer"
 			},
 
 			damage: 80,

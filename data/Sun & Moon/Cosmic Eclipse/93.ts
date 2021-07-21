@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Phantump",
 		fr: "Brocélôme",
+		es: "Phantump",
+		it: "Phantump",
+		pt: "Phantump",
+		de: "Paragoni"
 	},
 	illustrator: "miki kudo",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Mumble",
 				fr: "Murmure",
+				es: "Farfullar",
+				it: "Borbottio",
+				pt: "Resmungo",
+				de: "Grummeln"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Spooky Shot",
 				fr: "Tir Effrayant",
+				es: "Disparo Embrujado",
+				it: "Colpomistero",
+				pt: "Tiro Assustador",
+				de: "Spukschuss"
 			},
 
 			damage: 20,

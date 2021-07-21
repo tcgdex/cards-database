@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Turtwig",
 		fr: "Tortipouss",
+		es: "Turtwig",
+		it: "Turtwig",
+		pt: "Turtwig",
+		de: "Chelast"
 	},
 	illustrator: "OOYAMA",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -45,6 +53,10 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 50,

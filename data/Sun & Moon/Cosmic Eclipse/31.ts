@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tepig",
 		fr: "Gruikui",
+		es: "Tepig",
+		it: "Tepig",
+		pt: "Tepig",
+		de: "Floink"
 	},
 	illustrator: "Mina Nakai",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				es: "Carbón Activado",
+				it: "Carboni Ardenti",
+				pt: "Carvão Vivo",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Desenrollar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 40,

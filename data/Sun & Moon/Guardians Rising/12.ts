@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lampent",
 		fr: "Mélancolux",
+		es: "Lampent",
+		it: "Lampent",
+		pt: "Lampent",
+		de: "Laternecto"
 	},
 	illustrator: "0313",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Will-O-Wisp",
 				fr: "Feu Follet",
+				es: "Llama abrasadora",
+				it: "Fulminshock",
+				pt: "Fogo-fátuo",
+				de: "Irrlicht"
 			},
 
 			damage: 30,

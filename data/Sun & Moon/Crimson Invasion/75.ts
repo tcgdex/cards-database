@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Jangmo-o",
 		fr: "Bébécaille",
+		es: "Jangmo-o",
+		it: "Jangmo-o",
+		pt: "Jangmo-o",
+		de: "Miniras"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d’Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -37,12 +45,16 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Lightning",
 				"Fighting",
+				"Lightning",
 			],
 			name: {
 				en: "Gentle Slap",
 				fr: "Gifle Douce",
+				es: "Bofetada Gentil",
+				it: "Schiaffetto",
+				pt: "Tapinha",
+				de: "Sanfter Hieb"
 			},
 
 			damage: 20,

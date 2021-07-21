@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Hoothoot",
 		fr: "Hoothoot",
+		es: "Hoothoot",
+		it: "Hoothoot",
+		pt: "Hoothoot",
+		de: "Hoothoot"
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
@@ -31,10 +35,18 @@ const card: Card = {
 			name: {
 				en: "Air Slash",
 				fr: "Lame d’Air",
+				es: "Tajo Aéreo",
+				it: "Eterelama",
+				pt: "Golpe de Ar",
+				de: "Luftschnitt"
 			},
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
 				fr: "Défaussez une Énergie de ce Pokémon.",
+				es: "Descarta 1 Energía de este Pokémon.",
+				it: "Scarta un’Energia assegnata a questo Pokémon.",
+				pt: "Descarte 1 Energia deste Pokémon.",
+				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 30,
 

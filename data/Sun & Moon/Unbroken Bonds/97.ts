@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Quagsire",
 		fr: "Maraiste",
+		es: "Quagsire",
+		it: "Quagsire",
+		pt: "Quagsire",
+		de: "Morlord"
 	},
 	illustrator: "kirisAki",
 	rarity: "Rare",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 20,
@@ -47,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				es: "Surf",
+				it: "Surf",
+				pt: "Surfar",
+				de: "Surfer"
 			},
 
 			damage: 120,

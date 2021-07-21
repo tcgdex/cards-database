@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Onix",
 		fr: "Onix",
+		es: "Onix",
+		it: "Onix",
+		pt: "Onix",
+		de: "Onix"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Land Crush",
 				fr: "Écras’Terre",
+				es: "Aterrizaje",
+				it: "Schiacciaterra",
+				pt: "Aperto de Terra",
+				de: "Schollenbrecher"
 			},
 
 			damage: 120,

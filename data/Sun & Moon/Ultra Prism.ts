@@ -6,8 +6,9 @@ const sm5: Set = {
 
 	name: {
 		en: "Ultra Prism",
-		fr: "Ultra-Prisme"
-,
+		fr: "Ultra-Prisme",
+		it: "Ultraprisma",
+		de: "Ultra-Prisma",
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm5: Set = {
 	},
 
 	releaseDate: "2018-02-02",
-
-	legal: {
-		standard: true,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

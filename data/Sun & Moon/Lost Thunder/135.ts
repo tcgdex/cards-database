@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Marill",
 		fr: "Marill",
+		es: "Marill",
+		it: "Marill",
+		pt: "Marill",
+		de: "Marill"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Magical Shot",
 				fr: "Coup Magique",
+				es: "Disparo Mágico",
+				it: "Magicolpo",
+				pt: "Tiro Mágico",
+				de: "Magischer Schuss"
 			},
 
 			damage: 30,

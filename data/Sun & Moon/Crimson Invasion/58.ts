@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Houndour",
 		fr: "Malosse",
+		es: "Houndour",
+		it: "Houndour",
+		pt: "Houndour",
+		de: "Hunduster"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Rear Kick",
 				fr: "Ruade",
+				es: "Patada Trasera",
+				it: "Retrocalcio",
+				pt: "Chute Traseiro",
+				de: "Rückwärtskick"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Darkness Fang",
 				fr: "Croc Obscur",
+				es: "Colmillo de Oscuridad",
+				it: "Oscurizanna",
+				pt: "Presa Sombria",
+				de: "Fänge der Dunkelheit"
 			},
 
 			damage: 20,

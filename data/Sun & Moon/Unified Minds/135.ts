@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Purrloin",
 		fr: "Chacripan",
+		es: "Purrloin",
+		it: "Purrloin",
+		pt: "Purrloin",
+		de: "Felilou"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Cleaning Up",
 				fr: "Nettoyage",
+				es: "Purgar",
+				it: "Pulizie",
+				pt: "Limpar",
+				de: "Putzen"
 			},
 			effect: {
-				en: "Discard a Pokémon Tool card from 1 of your opponent's Pokémon.",
+				en: "Discard a Pokémon Tool card from 1 of your opponent’s Pokémon.",
 				fr: "Défaussez une carte Outil Pokémon de l’un des Pokémon de votre adversaire.",
+				es: "Descarta 1 carta de Herramienta Pokémon de 1 de los Pokémon de tu rival.",
+				it: "Scarta una carta Oggetto Pokémon assegnata a uno dei Pokémon del tuo avversario.",
+				pt: "Descarte 1 carta de Ferramenta Pokémon de 1 dos Pokémon do seu oponente.",
+				de: "Lege 1 Pokémon-Ausrüstung von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 
 		},

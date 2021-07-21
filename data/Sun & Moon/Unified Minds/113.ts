@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Gabite",
 		fr: "Carmache",
+		es: "Gabite",
+		it: "Gabite",
+		pt: "Gabite",
+		de: "Knarksel"
 	},
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Corkscrew Punch",
 				fr: "Poing Tire-Bouchon",
+				es: "Puño Tirabuzón",
+				it: "Pugno Rotante",
+				pt: "Soco Saca-rolha",
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 20,
@@ -46,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Sharp Scythe",
 				fr: "Faucille Acérée",
+				es: "Guadaña Afilada",
+				it: "Falcetagliente",
+				pt: "Foice Afiada",
+				de: "Scharfe Sense"
 			},
 
 			damage: 40,

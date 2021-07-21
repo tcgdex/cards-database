@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spoink",
 		fr: "Spoink",
+		es: "Spoink",
+		it: "Spoink",
+		pt: "Spoink",
+		de: "Spoink"
 	},
 	illustrator: "Sekio",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				es: "Salpicadura",
+				it: "Splash",
+				pt: "Borrifada",
+				de: "Platscher"
 			},
 
 			damage: 10,

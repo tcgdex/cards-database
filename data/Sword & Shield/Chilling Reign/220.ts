@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Lege deine Handkarten auf deinen Ablagestapel und durchsuche dein Deck nach bis zu 2 Trainerkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

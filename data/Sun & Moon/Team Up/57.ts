@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Nidoran♂",
 		fr: "Nidoran♂",
+		es: "Nidoran♂",
+		it: "Nidoran♂",
+		pt: "Nidoran♂",
+		de: "Nidoran♂"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud’Korne",
+				es: "Cornada",
+				it: "Incornata",
+				pt: "Ataque de Chifre",
+				de: "Hornattacke"
 			},
 
 			damage: 20,

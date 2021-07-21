@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Electabuzz",
 		fr: "Élektek",
+		es: "Electabuzz",
+		it: "Electabuzz",
+		pt: "Electabuzz",
+		de: "Elektek"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
+				es: "Patada Baja",
+				it: "Colpo Basso",
+				pt: "Rasteira",
+				de: "Fußkick"
 			},
 
 			damage: 30,
@@ -45,10 +53,18 @@ const card: Card = {
 			name: {
 				en: "Thunder",
 				fr: "Fatal-Foudre",
+				es: "Trueno",
+				it: "Tuono",
+				pt: "Trovão",
+				de: "Donner"
 			},
 			effect: {
 				en: "This Pokémon does 30 damage to itself.",
 				fr: "Ce Pokémon s’inflige 30 dégâts.",
+				es: "Este Pokémon se hace 30 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge 30 danni a se stesso.",
+				pt: "Este Pokémon causa 30 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 90,
 

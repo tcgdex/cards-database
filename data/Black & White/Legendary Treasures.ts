@@ -19,11 +19,6 @@ const bw11: Set = {
 
 	releaseDate: "2013-11-06",
 
-	legal: {
-		standard: false,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

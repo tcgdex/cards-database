@@ -17,11 +17,6 @@ const ex3: Set = {
 		official: 97
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2003-11-24",
 
 	variants: {

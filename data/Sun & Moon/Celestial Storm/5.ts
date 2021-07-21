@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spinarak",
 		fr: "Mimigal",
+		es: "Spinarak",
+		it: "Spinarak",
+		pt: "Spinarak",
+		de: "Webarak"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Stun Poison",
 				fr: "Poison Neural",
+				es: "Veneno Paralizador",
+				it: "Bloccanervi",
+				pt: "Veneno Paralisante",
+				de: "Nervengift"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and Poisoned.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné et Paralysé.",
+				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado y Paralizado.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato e avvelenato.",
+				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado e Paralisado.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert und vergiftet."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercer",
+				es: "Perforar",
+				it: "Perforare",
+				pt: "Perfurar",
+				de: "Durchbohren"
 			},
 
 			damage: 20,

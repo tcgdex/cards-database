@@ -15,11 +15,6 @@ const ru1: Set = {
 		official: 16
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2009-12-02",
 
 	variants: {

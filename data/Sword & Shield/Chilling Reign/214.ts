@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Ziehe 2 Karten. Wenn das Aktive Pokémon deines Gegners ein Pokémon-VMAX ist, ziehe 2 Karten mehr."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

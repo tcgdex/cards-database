@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Counter Catcher",
 		fr: "Attrape-Riposte",
+		es: "Capturador Contraataque",
+		it: "Contracchiappa-Pokémon",
+		pt: "Pegador de Contra-ataque",
+		de: "Konterfänger"
 	},
 	illustrator: "Toyste Beach",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Trainer",
 
 	set: Set,
@@ -23,7 +27,12 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Vous pouvez jouer cette carte seulement s’il vous reste plus de cartes Récompense que votre adversaire.\n\nÉchangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+		fr: "",
+		en: "",
+		es: "",
+		it: "",
+		pt: "",
+		de: ""
 	},
 	trainerType: "Item",
 

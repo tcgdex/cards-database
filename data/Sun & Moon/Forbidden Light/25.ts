@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Clauncher",
 		fr: "Flingouste",
+		es: "Clauncher",
+		it: "Clauncher",
+		pt: "Clauncher",
+		de: "Scampisto"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 10,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wimpod",
 		fr: "Sovkipou",
+		es: "Wimpod",
+		it: "Wimpod",
+		pt: "Wimpod",
+		de: "Reißlaus"
 	},
 	illustrator: "match",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Scamper Away",
 				fr: "Cavalcade",
+				es: "Escabullirse",
+				it: "Fuggivia",
+				pt: "Escapulir",
+				de: "Weghuschen"
 			},
 			effect: {
 				en: "Shuffle this Pokémon and all cards attached to it into your deck.",
 				fr: "Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				es: "Pon este Pokémon y todas las cartas unidas a él en tu baraja y barájalas todas.",
+				it: "Rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
+				pt: "Embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho.",
+				de: "Mische dieses Pokémon und alle an es angelegten Karten in dein Deck."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,

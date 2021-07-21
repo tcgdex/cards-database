@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Poipole",
 		fr: "Vémini",
+		es: "Poipole",
+		it: "Poipole",
+		pt: "Poipole",
+		de: "Venicro"
 	},
 	illustrator: "Hitoshi Ariga",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Eye Opener",
 				fr: "Ouvrir les Yeux",
+				es: "Bebida Amanecer",
+				it: "Sbirciata",
+				pt: "Olhos Abertos",
+				de: "Spähen"
 			},
 			effect: {
 				en: "Look at your face-down Prize cards.",
 				fr: "Regardez vos cartes Récompense (actuellement face cachée).",
+				es: "Mira tus cartas de Premio que están boca abajo.",
+				it: "Guarda le tue carte Premio coperte.",
+				pt: "Olhe as suas cartas de Prêmio viradas para baixo.",
+				de: "Sieh dir deine verdeckten Preiskarten an."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 20,

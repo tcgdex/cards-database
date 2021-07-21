@@ -15,11 +15,6 @@ const pop6: Set = {
 		official: 17
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2007-09-01",
 
 	variants: {

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
+		es: "Growlithe",
+		it: "Growlithe",
+		pt: "Growlithe",
+		de: "Fukano"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -32,10 +36,18 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				es: "Derribo",
+				it: "Riduttore",
+				pt: "Desmantelar",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
 				fr: "Ce Pokémon s’inflige 20 dégâts.",
+				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge 20 danni a se stesso.",
+				pt: "Este Pokémon causa 20 pontos de dano a si mesmo.",
+				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 

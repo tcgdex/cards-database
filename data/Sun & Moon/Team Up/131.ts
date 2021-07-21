@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lugia",
 		fr: "Lugia",
+		es: "Lugia",
+		it: "Lugia",
+		pt: "Lugia",
+		de: "Lugia"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Power Charger",
 				fr: "Charge Puissance",
+				es: "Cargador de Poder",
+				it: "Caricatore Potenza",
+				pt: "Carregador de Poder",
+				de: "Energie tanken"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card and attach it to this Pokémon. Then, shuffle your deck.",
 				fr: "Cherchez une carte Énergie de base dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				es: "Busca en tu baraja 1 carta de Energía Básica y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
+				it: "Cerca nel tuo mazzo una carta Energia base e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+				pt: "Procure por 1 carta de Energia básica no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
+				de: "Durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 			damage: 30,
 
@@ -48,6 +60,10 @@ const card: Card = {
 			name: {
 				en: "Blasting Wind",
 				fr: "Vent Impitoyable",
+				es: "Vientos Explosivos",
+				it: "Vento Distruttivo",
+				pt: "Vendaval Avassalador",
+				de: "Peitschender Wind"
 			},
 
 			damage: 110,

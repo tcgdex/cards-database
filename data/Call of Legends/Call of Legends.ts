@@ -17,11 +17,6 @@ const col1: Set = {
 		official: 95
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2011-02-09",
 
 	variants: {

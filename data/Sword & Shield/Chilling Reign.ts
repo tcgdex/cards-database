@@ -19,11 +19,6 @@ const set: Set = {
 
 	releaseDate: "2021-06-18",
 
-	legal: {
-		standard: true,
-		expanded: true
-	},
-
 	variants: {
 		normal: true,
 		reverse: true,

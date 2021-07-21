@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Wähle 1 oder beide aus:\n• Nimm bis zu 2 Pokémon aus deinem Ablagestapel auf deine Hand.\n• Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Amaura",
 		fr: "Amagara",
+		es: "Amaura",
+		it: "Amaura",
+		pt: "Amaura",
+		de: "Amarino"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -34,10 +38,18 @@ const card: Card = {
 			name: {
 				en: "Powder Snow",
 				fr: "Poudreuse",
+				es: "Nieve Polvo",
+				it: "Polneve",
+				pt: "Neve em Pó",
+				de: "Pulverschnee"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 30,
 
@@ -51,6 +63,10 @@ const card: Card = {
 			name: {
 				en: "Aurora Beam",
 				fr: "Onde Boréale",
+				es: "Rayo Aurora",
+				it: "Raggiaurora",
+				pt: "Raio Aurora",
+				de: "Aurorastrahl"
 			},
 
 			damage: 60,

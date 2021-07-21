@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Jangmo-o",
 		fr: "Bébécaille",
+		es: "Jangmo-o",
+		it: "Jangmo-o",
+		pt: "Jangmo-o",
+		de: "Miniras"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Dragon Headbutt",
 				fr: "Dracoud’Boule",
+				es: "Cabezazo Dragón",
+				it: "Dragozuccata",
+				pt: "Cabeçada do Dragão",
+				de: "Drachen-Kopfnuss"
 			},
 
 			damage: 50,

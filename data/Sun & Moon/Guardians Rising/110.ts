@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Fletchinder",
 		fr: "Braisillon",
+		es: "Fletchinder",
+		it: "Fletchinder",
+		pt: "Fletchinder",
+		de: "Dartignis"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				es: "Aleteo",
+				it: "Alabattito",
+				pt: "Asa",
+				de: "Flattern"
 			},
 
 			damage: 20,
@@ -46,10 +54,18 @@ const card: Card = {
 			name: {
 				en: "Razor Wind",
 				fr: "Coupe-Vent",
+				es: "Viento Cortante",
+				it: "Ventagliente",
+				pt: "Vento Cortante",
+				de: "Klingensturm"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 40,
 

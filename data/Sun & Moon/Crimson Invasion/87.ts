@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bunnelby",
 		fr: "Sapereau",
+		es: "Bunnelby",
+		it: "Bunnelby",
+		pt: "Bunnelby",
+		de: "Scoppel"
 	},
 	illustrator: "kirisAki",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Mud Shot",
 				fr: "Tir de Boue",
+				es: "Disparo Lodo",
+				it: "Colpodifango",
+				pt: "Tiro de Lama",
+				de: "Lehmschuss"
 			},
 
 			damage: 30,

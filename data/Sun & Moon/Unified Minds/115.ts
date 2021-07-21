@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Riolu",
 		fr: "Riolu",
+		es: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+		de: "Riolu"
 	},
 	illustrator: "kirisAki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Kick",
 				fr: "Koud’Pied",
+				es: "Patada",
+				it: "Calcio",
+				pt: "Chute",
+				de: "Tritt"
 			},
 
 			damage: 20,

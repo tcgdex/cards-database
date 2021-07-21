@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Krokorok",
 		fr: "Escroco",
+		es: "Krokorok",
+		it: "Krokorok",
+		pt: "Krokorok",
+		de: "Rokkaiman"
 	},
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -47,10 +55,18 @@ const card: Card = {
 			name: {
 				en: "Corner",
 				fr: "Coinçage",
+				es: "Arrinconar",
+				it: "Trappola",
+				pt: "Quina",
+				de: "Bedrängen"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 50,
 

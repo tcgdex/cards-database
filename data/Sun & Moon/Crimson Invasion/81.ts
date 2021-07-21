@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Starly",
 		fr: "Étourmi",
+		es: "Starly",
+		it: "Starly",
+		pt: "Starly",
+		de: "Staralili"
 	},
 	illustrator: "miki kudo",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Bug Search",
 				fr: "Recherche Insecte",
+				es: "Búsqueda de Bichos",
+				it: "Coleoricerca",
+				pt: "Busca de Inseto",
+				de: "Käfersuche"
 			},
 			effect: {
 				en: "Your opponent reveals their hand.",
 				fr: "Votre adversaire dévoile sa main.",
+				es: "Tu rival enseña las cartas de su mano.",
+				it: "Il tuo avversario mostra le carte che ha in mano.",
+				pt: "Seu oponente revela a própria mão.",
+				de: "Dein Gegner zeigt dir seine Handkarten."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				es: "Aleteo",
+				it: "Alabattito",
+				pt: "Asa",
+				de: "Flattern"
 			},
 
 			damage: 20,

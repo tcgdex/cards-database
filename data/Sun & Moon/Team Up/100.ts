@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bronzor",
 		fr: "Archéomire",
+		es: "Bronzor",
+		it: "Bronzor",
+		pt: "Bronzor",
+		de: "Bronzel"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Evolutionary Advantage",
 				fr: "Avantage Évolutif",
+				es: "Ventaja Evolutiva",
+				it: "Vantaggio Evolutivo",
+				pt: "Vantagem Evolucionária",
+				de: "Entwicklungsvorteil"
 			},
 			effect: {
 				en: "If you go second, this Pokémon can evolve during your first turn.",
 				fr: "Si vous jouez en second, ce Pokémon peut évoluer pendant votre premier tour.",
+				es: "Si sales segundo, este Pokémon puede evolucionar durante tu primer turno.",
+				it: "Se inizi per secondo, questo Pokémon può evolversi nel tuo primo turno.",
+				pt: "Se você for o segundo a jogar, este Pokémon poderá evoluir durante a sua primeira vez de jogar.",
+				de: "Wenn du als Zweiter am Zug bist, kann sich dieses Pokémon während deines ersten Zuges entwickeln."
 			},
 		},
 	],
@@ -43,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 20,

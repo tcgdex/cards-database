@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cranidos",
 		fr: "Kranidos",
+		es: "Cranidos",
+		it: "Cranidos",
+		pt: "Cranidos",
+		de: "Koknodon"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Corkscrew Punch",
 				fr: "Poing Tire-Bouchon",
+				es: "Puño Tirabuzón",
+				it: "Pugno Rotante",
+				pt: "Soco Saca-rolha",
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 30,
@@ -46,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Headstrike",
 				fr: "Coup de Tête",
+				es: "Testarada",
+				it: "Testata",
+				pt: "Golpe de Cabeça",
+				de: "Kopftreffer"
 			},
 
 			damage: 50,

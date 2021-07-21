@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Alolan Graveler",
 		fr: "Gravalanch d’Alola",
+		es: "Graveler de Alola",
+		it: "Graveler di Alola",
+		pt: "Graveler de Alola",
+		de: "Alola-Georok"
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Uncommon",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Desenrollar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 30,
@@ -46,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Electroslug",
 				fr: "Électro Frappe",
+				es: "Electropuñetazo",
+				it: "Elettropugno",
+				pt: "Lesma Elétrica",
+				de: "Elektroschuss"
 			},
 
 			damage: 100,

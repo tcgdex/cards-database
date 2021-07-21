@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mareanie",
 		fr: "Vorastérie",
+		es: "Mareanie",
+		it: "Mareanie",
+		pt: "Mareanie",
+		de: "Garstella"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Bail Out",
 				fr: "Renflouage",
+				es: "Sacar de Apuros",
+				it: "Soccorso",
+				pt: "Salvamento",
+				de: "Freilassen"
 			},
 			effect: {
 				en: "Put a Pokémon from your discard pile into your hand.",
 				fr: "Ajoutez un Pokémon de votre pile de défausse à votre main.",
+				es: "Pon 1 Pokémon de tu pila de descartes en tu mano.",
+				it: "Prendi un Pokémon dalla tua pila degli scarti e aggiungilo alle carte che hai in mano.",
+				pt: "Coloque 1 Pokémon da sua pilha de descarte na sua mão.",
+				de: "Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -43,7 +55,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
+				fr: "Pluie éclaboussante",
+				es: "Golpe de Lluvia",
+				it: "Spruzzapioggia",
+				pt: "Chuva Borrifante",
+				de: "Regenplatscher"
 			},
 
 			damage: 10,

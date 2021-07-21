@@ -6,8 +6,9 @@ const sm10: Set = {
 
 	name: {
 		en: "Unbroken Bonds",
-		fr: "Alliance Infaillible"
-,
+		fr: "Alliance Infaillible",
+		it: "Legami Inossidabili",
+		de: "Kräfte im Einklang"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm10: Set = {
 	},
 
 	releaseDate: "2019-05-03",
-
-	legal: {
-		standard: true,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

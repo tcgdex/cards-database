@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue Battoir",
+				es: "Coletón",
+				it: "Codabotta",
+				pt: "Surra de Cauda",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Electric Ball",
 				fr: "Boule de Foudre",
+				es: "Bola Eléctrica",
+				it: "Lamposfera",
+				pt: "Bola de Eletricidade",
+				de: "Stromball"
 			},
 
 			damage: 50,

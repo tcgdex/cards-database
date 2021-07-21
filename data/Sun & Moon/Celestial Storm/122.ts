@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Kecleon",
 		fr: "Kecleon",
+		es: "Kecleon",
+		it: "Kecleon",
+		pt: "Kecleon",
+		de: "Kecleon"
 	},
 	illustrator: "OOYAMA",
 	rarity: "Uncommon",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Unit Color 2",
 				fr: "Couleur Unitaire 2",
+				es: "Color Unidad 2",
+				it: "Unione Colore 2",
+				pt: "Cor Unitária 2",
+				de: "Aggregat-Farbe 2"
 			},
 			effect: {
 				en: "As long as this Pokémon has Unit Energy LightningPsychicMetal attached to it, it is a Lightning, Psychic, and Metal Pokémon.",
 				fr: "Tant que de l’Énergie Unitaire LightningPsychicMetal est attachée à ce Pokémon, c’est un Pokémon Lightning, Psychic et Metal.",
+				es: "Mientras este Pokémon tenga alguna carta de Energía Unidad LightningPsychicMetal unida a él, es un Pokémon Lightning, Psychic y Metal.",
+				it: "Fintanto che ha delle carte Energia Unione LightningPsychicMetal assegnate, questo Pokémon è di tipo Lightning, Psychic e Metal.",
+				pt: "Enquanto este Pokémon tiver Energia Unitária LightningPsychicMetal ligada a ele, será um Pokémon Lightning, Psychic e Metal.",
+				de: "Solang an dieses Pokémon Aggregat-Energie LightningPsychicMetal angelegt ist, ist es ein Lightning-, Psychic- und Metal-Pokémon."
 			},
 		},
 	],
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 80,

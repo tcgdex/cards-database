@@ -16,11 +16,6 @@ const wp: Set = {
 		official: 53
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "1999-09-01",
 
 	variants: {

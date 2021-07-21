@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
+		es: "Rhyhorn",
+		it: "Rhyhorn",
+		pt: "Rhyhorn",
+		de: "Rihorn"
 	},
 	illustrator: "miki kudo",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Lunge Out",
 				fr: "Allonger",
+				es: "Arremeter",
+				it: "Affondo Lungo",
+				pt: "Bote",
+				de: "Sprungangriff"
 			},
 
 			damage: 20,
@@ -45,6 +53,10 @@ const card: Card = {
 			name: {
 				en: "Horn Drill",
 				fr: "Empal’Korne",
+				es: "Perforador",
+				it: "Perforcorno",
+				pt: "Chifre Broca",
+				de: "Hornbohrer"
 			},
 
 			damage: 60,

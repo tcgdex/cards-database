@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Hau",
 		fr: "Tili",
+		es: "Tilo",
+		it: "Hau",
+		pt: "Hibi",
+		de: "Tali"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Uncommon",
@@ -24,6 +28,11 @@ const card: Card = {
 
 	effect: {
 		fr: "Piochez 3 cartes.",
+		en: "Draw 3 cards.",
+		es: "Roba 3 cartas.",
+		it: "Pesca tre carte.",
+		pt: "Compre 3 cartas.",
+		de: "Ziehe 3 Karten."
 	},
 	trainerType: "Supporter",
 

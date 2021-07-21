@@ -6,8 +6,9 @@ const sm12: Set = {
 
 	name: {
 		en: "Cosmic Eclipse",
-		fr: "Éclipse Cosmique"
-,
+		fr: "Éclipse Cosmique",
+		it: "Eclissi Cosmica",
+		de: "Welten im Wandel"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm12: Set = {
 	},
 
 	releaseDate: "2019-11-01",
-
-	legal: {
-		standard: true,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

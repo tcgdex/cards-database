@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shuppet",
 		fr: "Polichombr",
+		es: "Shuppet",
+		it: "Shuppet",
+		pt: "Shuppet",
+		de: "Shuppet"
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Perplex",
 				fr: "Affolement",
+				es: "Desconcierto",
+				it: "Sconcerto",
+				pt: "Perplexo",
+				de: "Perplex"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},

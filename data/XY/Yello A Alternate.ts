@@ -17,11 +17,6 @@ const xya: Set = {
 		official: 6
 	},
 
-	legal: {
-		expanded: true,
-		standard: false
-	},
-
 	releaseDate: "2014-02-05",
 
 	variants: {

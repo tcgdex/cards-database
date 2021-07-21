@@ -6,8 +6,9 @@ const sm1: Set = {
 
 	name: {
 		en: "Sun & Moon",
-		fr: "Soleil et Lune"
-,
+		fr: "Soleil et Lune",
+		it: "Sole e Luna",
+		de: "Sonne & Mond"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm1: Set = {
 	},
 
 	releaseDate: "2017-02-03",
-
-	legal: {
-		standard: false,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

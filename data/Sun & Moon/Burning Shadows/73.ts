@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
+		es: "Crabrawler",
+		it: "Crabrawler",
+		pt: "Crabrawler",
+		de: "Krabbox"
 	},
 	illustrator: "kirisAki",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing Léger",
+				es: "Puño Ligero",
+				it: "Pugnetto",
+				pt: "Soco de Luz",
+				de: "Leichter Hieb"
 			},
 
 			damage: 40,

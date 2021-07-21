@@ -17,11 +17,6 @@ const base3: Set = {
 		official: 62
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "1999-10-10",
 
 	variants: {

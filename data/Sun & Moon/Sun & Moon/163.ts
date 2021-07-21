@@ -4,27 +4,28 @@ import Set from '../Sun & Moon'
 const card: Card = {
 	name: {
 		en: "Metal Energy",
-		fr: "Énergie Metal de base",
+		fr: "Énergie Métal",
+		es: "Energía Metálica",
+		it: "Energia Metallo",
+		pt: "Energia de Metal",
+		de: "Metall-Energie"
 	},
+
 	illustrator: undefined,
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	effect: {
+		en: "",
+		fr: "",
+		es: "",
+		it: "",
+		pt: "",
+		de: ""
+	}
 }
 
 export default card

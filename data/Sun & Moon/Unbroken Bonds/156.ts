@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Porygon2",
 		fr: "Porygon2",
+		es: "Porygon2",
+		it: "Porygon2",
+		pt: "Porygon2",
+		de: "Porygon2"
 	},
 	illustrator: "sowsow",
 	rarity: "Uncommon",
@@ -33,10 +37,18 @@ const card: Card = {
 			name: {
 				en: "Double Draw",
 				fr: "Double Pioche",
+				es: "Roba Doble",
+				it: "Pescata Doppia",
+				pt: "Compra Dupla",
+				de: "Zweifachzug"
 			},
 			effect: {
 				en: "Draw 2 cards.",
 				fr: "Piochez 2 cartes.",
+				es: "Roba 2 cartas.",
+				it: "Pesca due carte.",
+				pt: "Compre 2 cartas.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -48,6 +60,10 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				es: "Ataque Giratorio",
+				it: "Attacco Rotante",
+				pt: "Ataque Giratório",
+				de: "Rundumangriff"
 			},
 
 			damage: 30,

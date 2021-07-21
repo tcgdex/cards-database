@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Feraligatr",
 		fr: "Aligatueur",
+		es: "Feraligatr",
+		it: "Feraligatr",
+		pt: "Feraligatr",
+		de: "Impergator"
 	},
 	illustrator: "nagimiso",
 	rarity: "Uncommon",
@@ -35,10 +39,18 @@ const card: Card = {
 			name: {
 				en: "Crunch",
 				fr: "Mâchouille",
+				es: "Triturar",
+				it: "Sgranocchio",
+				pt: "Mastigada",
+				de: "Knirscher"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent's Active Pokémon.",
+				en: "Discard an Energy from your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -53,6 +65,10 @@ const card: Card = {
 			name: {
 				en: "Hydro Splash",
 				fr: "Hydro-Éclaboussure",
+				es: "Hidroestallido",
+				it: "Idrosplash",
+				pt: "Hidroborrifada",
+				de: "Hydroplatscher"
 			},
 
 			damage: 130,

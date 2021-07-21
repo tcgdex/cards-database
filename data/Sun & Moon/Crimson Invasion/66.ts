@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lairon",
 		fr: "Galegon",
+		es: "Lairon",
+		it: "Lairon",
+		pt: "Lairon",
+		de: "Stollrak"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Metal Claw",
 				fr: "Griffe Acier",
+				es: "Garra Metal",
+				it: "Ferrartigli",
+				pt: "Garra de Metal",
+				de: "Metallklaue"
 			},
 
 			damage: 20,
@@ -48,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 80,

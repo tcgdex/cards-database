@@ -37,11 +37,6 @@ export interface Set {
 	}
 
 	releaseDate: string
-
-	legal?: {
-		standard: boolean
-		expanded: boolean
-	}
 }
 
 export interface Card {

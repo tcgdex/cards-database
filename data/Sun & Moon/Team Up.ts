@@ -6,8 +6,9 @@ const sm9: Set = {
 
 	name: {
 		en: "Team Up",
-		fr: "Duo de Choc"
-,
+		fr: "Duo de Choc",
+		it: "Gioco di Squadra",
+		de: "Teams Sind Trumpf"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm9: Set = {
 	},
 
 	releaseDate: "2019-01-31",
-
-	legal: {
-		standard: true,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

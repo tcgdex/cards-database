@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Toxapex",
 		fr: "Prédastérie",
+		es: "Toxapex",
+		it: "Toxapex",
+		pt: "Toxapex",
+		de: "Aggrostella"
 	},
 	illustrator: "chibi",
 	rarity: "Rare",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Spike Shot",
 				fr: "Tir d’Épines",
+				es: "Disparo Púas",
+				it: "Sparaculeo",
+				pt: "Disparo de Espinhos",
+				de: "Dornensalve"
 			},
 
 			damage: 70,

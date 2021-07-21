@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pancham",
 		fr: "Pandespiègle",
+		es: "Pancham",
+		it: "Pancham",
+		pt: "Pancham",
+		de: "Pam-Pam"
 	},
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud’Poing",
+				es: "Puño",
+				it: "Pugno",
+				pt: "Soco",
+				de: "Boxhieb"
 			},
 
 			damage: 10,

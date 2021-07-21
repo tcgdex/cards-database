@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bellsprout",
 		fr: "Chétiflor",
+		es: "Bellsprout",
+		it: "Bellsprout",
+		pt: "Bellsprout",
+		de: "Knofensa"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				es: "Látigo Cepa",
+				it: "Frustata",
+				pt: "Chicote de Vinha",
+				de: "Rankenhieb"
 			},
 
 			damage: 30,

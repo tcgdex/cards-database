@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Oddish",
 		fr: "Mystherbe",
+		es: "Oddish",
+		it: "Oddish",
+		pt: "Oddish",
+		de: "Myrapla"
 	},
 	illustrator: "Asako Ito",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Hook",
 				fr: "Crochet",
+				es: "Garfio",
+				it: "Uncino",
+				pt: "Gancho",
+				de: "Haken"
 			},
 
 			damage: 10,

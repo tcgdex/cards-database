@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Grubbin",
 		fr: "Larvibule",
+		es: "Grubbin",
+		it: "Grubbin",
+		pt: "Grubbin",
+		de: "Mabula"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Vice Grip",
 				fr: "Force Poigne",
+				es: "Agarre",
+				it: "Presa",
+				pt: "Agarramento Viciado",
+				de: "Klammer"
 			},
 
 			damage: 20,

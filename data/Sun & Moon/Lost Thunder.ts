@@ -6,8 +6,9 @@ const sm8: Set = {
 
 	name: {
 		en: "Lost Thunder",
-		fr: "Tonnerre Perdu"
-,
+		fr: "Tonnerre Perdu",
+		it: "Tuoni Perduti",
+		de: "Echo des Donners",
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm8: Set = {
 	},
 
 	releaseDate: "2018-11-02",
-
-	legal: {
-		standard: false,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

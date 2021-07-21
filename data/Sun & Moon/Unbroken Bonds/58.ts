@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Charjabug",
 		fr: "Chrysapile",
+		es: "Charjabug",
+		it: "Charjabug",
+		pt: "Charjabug",
+		de: "Akkup"
 	},
 	illustrator: "Sekio",
 	rarity: "Uncommon",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Battery",
 				fr: "Batterie",
+				es: "Batería",
+				it: "Batteria",
+				pt: "Bateria",
+				de: "Batterie"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach this card from your hand to 1 of your Vikavolt or Vikavolt-GX as a Special Energy card. This card provides 2 Lightning Energy only while it's attached to a Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher cette carte de votre main à l’un de vos Lucanon ou Lucanon-GX comme carte Énergie spéciale. Cette carte ne fournit 2 Énergies Lightning que lorsqu’elle est attachée à ce Pokémon.",
+				en: "Attach to Vikavolt or Vikavolt-GX as a Special Energy card.",
+				fr: "L’attacher à Lucanon ou Lucanon-GX comme carte Énergie spéciale.",
+				es: "Une a Vikavolt o Vikavolt-GX como una carta de Energía Especial.",
+				it: "Assegna a Vikavolt o Vikavolt-GX come carta Energia speciale.",
+				pt: "Ligar a Vikavolt ou Vikavolt-GX como uma carta de Energia Especial.",
+				de: "Lege sie als Spezial-Energiekarte an Donarion oder Donarion-GX an."
 			},
 		},
 	],
@@ -47,6 +59,10 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercement",
+				es: "Perforar",
+				it: "Perforare",
+				pt: "Perfurar",
+				de: "Durchbohren"
 			},
 
 			damage: 60,

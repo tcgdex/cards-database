@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Salazzle",
 		fr: "Malamandre",
+		es: "Salazzle",
+		it: "Salazzle",
+		pt: "Salazzle",
+		de: "Amfira"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Fire Claws",
 				fr: "Griffes Enflammées",
+				es: "Garras de Fuego",
+				it: "Artigli Infuocati",
+				pt: "Garras de Fogo",
+				de: "Feuerkrallen"
 			},
 
 			damage: 70,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
+		es: "Crabrawler",
+		it: "Crabrawler",
+		pt: "Crabrawler",
+		de: "Krabbox"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Jab",
 				fr: "Taquet",
+				es: "Puya",
+				it: "Stoccata",
+				pt: "Murro",
+				de: "Boxschlag"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Confront",
 				fr: "Confrontation",
+				es: "Confrontar",
+				it: "Confronto",
+				pt: "Confrontar",
+				de: "Konfrontieren"
 			},
 
 			damage: 30,

@@ -6,8 +6,9 @@ const det1: Set = {
 
 	name: {
 		en: "Detective Pikachu",
-		fr: "Détective Pikachu"
-,
+		fr: "Détective Pikachu",
+		it: "Detective Pikachu",
+		de: "Meisterdetektiv Pikachu",
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const det1: Set = {
 	},
 
 	releaseDate: "2019-03-29",
-
-	legal: {
-		standard: true,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

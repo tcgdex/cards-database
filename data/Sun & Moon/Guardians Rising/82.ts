@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pangoro",
 		fr: "Pandarbare",
+		es: "Pangoro",
+		it: "Pangoro",
+		pt: "Pangoro",
+		de: "Pandagro"
 	},
 	illustrator: "kodama",
 	rarity: "Rare",
@@ -35,10 +39,18 @@ const card: Card = {
 			name: {
 				en: "Sky Uppercut",
 				fr: "Stratopercut",
+				es: "Gancho Alto",
+				it: "Stramontante",
+				pt: "Direto Celeste",
+				de: "Himmelhieb"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				es: "El daño de este ataque no se ve afectado por Resistencia.",
+				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
+				pt: "O dano deste ataque não é afetado por Resistência.",
+				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -52,7 +64,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnum Punch",
-				fr: "Poing Magnum",
+				fr: "Poing magnum",
+				es: "Puño magnum",
+				it: "Superpugno",
+				pt: "Soco Magnum",
+				de: "Magnum-Schlag"
 			},
 
 			damage: 130,

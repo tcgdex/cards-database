@@ -6,8 +6,9 @@ const sm3: Set = {
 
 	name: {
 		en: "Burning Shadows",
-		fr: "Ombres Ardentes"
-,
+		fr: "Ombres Ardentes",
+		it: "Ombre Infuocate",
+		de: "Nacht in Flammen"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm3: Set = {
 	},
 
 	releaseDate: "2017-08-04",
-
-	legal: {
-		standard: false,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

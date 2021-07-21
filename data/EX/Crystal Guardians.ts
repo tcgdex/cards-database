@@ -17,11 +17,6 @@ const ex14: Set = {
 		official: 100
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2006-08-30",
 
 	variants: {

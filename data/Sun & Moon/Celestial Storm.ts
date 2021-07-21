@@ -6,8 +6,9 @@ const sm7: Set = {
 
 	name: {
 		en: "Celestial Storm",
-		fr: "Tempête Céleste"
-,
+		fr: "Tempête Céleste",
+		de: "Sturm Am Firmament",
+		it: "Tempesta Astrale"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm7: Set = {
 	},
 
 	releaseDate: "2018-08-03",
-
-	legal: {
-		standard: false,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

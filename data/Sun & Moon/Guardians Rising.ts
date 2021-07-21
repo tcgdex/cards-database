@@ -6,8 +6,9 @@ const sm2: Set = {
 
 	name: {
 		en: "Guardians Rising",
-		fr: "Gardiens Ascendants"
-,
+		fr: "Gardiens Ascendants",
+		it: "Guardiani Nascenti",
+		de: "Stunde der Wächter"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm2: Set = {
 	},
 
 	releaseDate: "2017-05-05",
-
-	legal: {
-		standard: false,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

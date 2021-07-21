@@ -22,6 +22,14 @@
 
 A Multilanguage Pokémon TCG Database with Cards Pictures and most of the informations contained on the cards.
 
+## Translations
+
+|             | English | French | German | Italian | Portuguese | Spanish |
+|-------------|---------|--------|--------|---------|------------|---------|
+| Cards       | 14464   | 12715  | 1539   | 1539    | 1539       | 1539    |
+| Other texts | 51      | 51     | 0      | 0       | 0          | 45      |
+| Translated  | 100%    | 71%    | 11%    | 11%     | 11%        | 11%     |
+
 ## Interact with the Database
 
 The easiest way to interact with the database is by using one of our SDKs _list below_.
@@ -40,7 +48,7 @@ _If you have a SDK you can start a [discussion](https://github.com/tcgdex/cards-
 
 ## Join Us on Discord
 
-You have a quation or you just want to discuss anything from an idea/improvement to why Furret should be in the next Pokken Tournament game...
+You want to ask something or you just want to discuss anything from an idea/improvement about the API to why Furret should be in the next Pokken Tournament game...
 
 Well you can join us on [Discord](https://discord.gg/NehYTAhsZE) !
 
@@ -48,9 +56,9 @@ Well you can join us on [Discord](https://discord.gg/NehYTAhsZE) !
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-TD::DR
+TL::DR
 - Fork
-- make your change
+- make your changes
 - pull request
 
 ## Deprecation

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wurmple",
 		fr: "Chenipotte",
+		es: "Wurmple",
+		it: "Wurmple",
+		pt: "Wurmple",
+		de: "Waumpel"
 	},
 	illustrator: "kirisAki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,

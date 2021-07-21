@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cyndaquil",
 		fr: "Héricendre",
+		es: "Cyndaquil",
+		it: "Cyndaquil",
+		pt: "Cyndaquil",
+		de: "Feurigel"
 	},
 	illustrator: "kirisAki",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncement",
+				es: "Martillear",
+				it: "Martello",
+				pt: "Martelada",
+				de: "Einhämmern"
 			},
 
 			damage: 30,

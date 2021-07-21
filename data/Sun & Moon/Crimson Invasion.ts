@@ -6,8 +6,9 @@ const sm4: Set = {
 
 	name: {
 		en: "Crimson Invasion",
-		fr: "Invasion Carmin"
-,
+		fr: "Invasion Carmin",
+		it: "Invasione Scarlatta",
+		de: "Aufziehen der Sturmröte"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm4: Set = {
 	},
 
 	releaseDate: "2017-11-03",
-
-	legal: {
-		standard: false,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

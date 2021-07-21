@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Yungoos",
 		fr: "Manglouton",
+		es: "Yungoos",
+		it: "Yungoos",
+		pt: "Yungoos",
+		de: "Mangunior"
 	},
 	illustrator: "match",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,

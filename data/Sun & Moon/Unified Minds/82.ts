@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Skorupi",
 		fr: "Rapion",
+		es: "Skorupi",
+		it: "Skorupi",
+		pt: "Skorupi",
+		de: "Pionskora"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -31,10 +35,18 @@ const card: Card = {
 			name: {
 				en: "Knock Off",
 				fr: "Sabotage",
+				es: "Desarme",
+				it: "Privazione",
+				pt: "Derrubar",
+				de: "Abschlag"
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
+				en: "Discard a random card from your opponent’s hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
+				it: "Scarta una carta a caso dalla mano del tuo avversario.",
+				pt: "Descarte 1 carta aleatória da mão do seu oponente.",
+				de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -47,6 +59,10 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 40,

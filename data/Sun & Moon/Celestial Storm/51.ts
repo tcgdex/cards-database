@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Electrike",
 		fr: "Dynavolt",
+		es: "Electrike",
+		it: "Electrike",
+		pt: "Electrike",
+		de: "Frizelbliz"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Zap Kick",
 				fr: "Coup de Pied Ravageur",
+				es: "Electropatada",
+				it: "Dinamocalico",
+				pt: "Chute Zap",
+				de: "Stromtritt"
 			},
 
 			damage: 20,

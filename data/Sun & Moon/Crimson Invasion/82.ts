@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Staravia",
 		fr: "Étourvol",
+		es: "Staravia",
+		it: "Staravia",
+		pt: "Staravia",
+		de: "Staravia"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				es: "Aleteo",
+				it: "Alabattito",
+				pt: "Asa",
+				de: "Flattern"
 			},
 
 			damage: 20,
@@ -47,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				es: "Ataque Ala",
+				it: "Attacco d’Ala",
+				pt: "Ataque de Asa",
+				de: "Flügelschlag"
 			},
 
 			damage: 60,

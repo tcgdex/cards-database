@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pignite",
 		fr: "Grotichon",
+		es: "Pignite",
+		it: "Pignite",
+		pt: "Pignite",
+		de: "Ferkokel"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 30,
@@ -48,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Heat Crash",
 				fr: "Tacle Feu",
+				es: "Golpe Calor",
+				it: "Marchiafuoco",
+				pt: "Choque de Calor",
+				de: "Brandstempel"
 			},
 
 			damage: 60,

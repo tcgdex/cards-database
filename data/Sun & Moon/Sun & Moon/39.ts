@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Popplio",
 		fr: "Otaquin",
+		es: "Popplio",
+		it: "Popplio",
+		pt: "Popplio",
+		de: "Robball"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras’Face",
+				es: "Destructor",
+				it: "Botta",
+				pt: "Pancada",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revolver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 20,

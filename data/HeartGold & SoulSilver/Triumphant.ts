@@ -17,11 +17,6 @@ const hgss4: Set = {
 		official: 102
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2010-11-03",
 
 	variants: {

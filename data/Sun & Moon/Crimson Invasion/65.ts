@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Aron",
 		fr: "Galekid",
+		es: "Aron",
+		it: "Aron",
+		pt: "Aron",
+		de: "Stollunior"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Metal Claw",
 				fr: "Griffe Acier",
+				es: "Garra Metal",
+				it: "Ferrartigli",
+				pt: "Garra de Metal",
+				de: "Metallklaue"
 			},
 
 			damage: 30,

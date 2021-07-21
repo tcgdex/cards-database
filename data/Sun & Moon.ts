@@ -5,6 +5,8 @@ const set: Serie = {
 	name: {
 		en: "Sun & Moon",
 		fr: "Soleil & Lune",
+		it: "Sole e Luna",
+		de: "Sonne & Mond"
 	}
 }
 

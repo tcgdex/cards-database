@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wailord",
 		fr: "Wailord",
+		es: "Wailord",
+		it: "Wailord",
+		pt: "Wailord",
+		de: "Wailord"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
@@ -36,12 +40,20 @@ const card: Card = {
 			name: {
 				en: "Dwindling Wave",
 				fr: "Vague Faiblissante",
+				es: "Ola Menguante",
+				it: "Onda Evanescente",
+				pt: "Onda Decrescente",
+				de: "Schwindende Welle"
 			},
 			effect: {
 				en: "This attack does 40 less damage for each damage counter on this Pokémon.",
 				fr: "Cette attaque inflige 40 dégâts de moins pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				es: "Este ataque hace 40 puntos de daño menos por cada contador de daño en este Pokémon.",
+				it: "Questo attacco infligge 40 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+				pt: "Este ataque causa 40 pontos de dano a menos para cada contador de dano neste Pokémon.",
+				de: "Diese Attacke fügt 40 Schadenspunkte weniger mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
 			},
-			damage: 200,
+			damage: "200-",
 
 		},
 	],

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Litten",
 		fr: "Flamiaou",
+		es: "Litten",
+		it: "Litten",
+		pt: "Litten",
+		de: "Flamiau"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				es: "Carbón Activado",
+				it: "Carboni Ardenti",
+				pt: "Carvão Vivo",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 20,

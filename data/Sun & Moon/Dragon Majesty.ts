@@ -6,8 +6,9 @@ const sm75: Set = {
 
 	name: {
 		en: "Dragon Majesty",
-		fr: "Majesté Des Dragons"
-,
+		fr: "Majesté Des Dragons",
+		it: "Trionfo Dei Draghi",
+		de: "Majestät Der Drachen"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm75: Set = {
 	},
 
 	releaseDate: "2018-09-07",
-
-	legal: {
-		standard: false,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

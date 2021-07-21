@@ -6,8 +6,9 @@ const sm6: Set = {
 
 	name: {
 		en: "Forbidden Light",
-		fr: "Lumière Interdite"
-,
+		fr: "Lumière Interdite",
+		it: "Apocalisse Di Luce",
+		de: "Grauen Der Lichtfinsternis"
 	},
 
 	serie: serie,
@@ -19,11 +20,6 @@ const sm6: Set = {
 	},
 
 	releaseDate: "2018-05-04",
-
-	legal: {
-		standard: false,
-		expanded: true
-	},
 
 	variants: {
 		normal: true,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tranquill",
 		fr: "Colombeau",
+		es: "Tranquill",
+		it: "Tranquill",
+		pt: "Tranquill",
+		de: "Navitaub"
 	},
 	illustrator: "Sekio",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Glide",
 				fr: "Glissement",
+				es: "Planeo",
+				it: "Aliante",
+				pt: "Planeio",
+				de: "Gleiten"
 			},
 
 			damage: 20,
@@ -46,10 +54,18 @@ const card: Card = {
 			name: {
 				en: "Air Slash",
 				fr: "Lame d’Air",
+				es: "Tajo Aéreo",
+				it: "Eterelama",
+				pt: "Golpe de Ar",
+				de: "Luftschnitt"
 			},
 			effect: {
 				en: "Discard an Energy from this Pokémon.",
 				fr: "Défaussez une Énergie de ce Pokémon.",
+				es: "Descarta 1 Energía de este Pokémon.",
+				it: "Scarta un’Energia assegnata a questo Pokémon.",
+				pt: "Descarte 1 Energia deste Pokémon.",
+				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 40,
 

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Yungoos",
 		fr: "Manglouton",
+		es: "Yungoos",
+		it: "Yungoos",
+		pt: "Yungoos",
+		de: "Mangunior"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Cavernous Chomp",
 				fr: "Mâchoire Caverneuse",
+				es: "Mordisco Cavernoso",
+				it: "Mandibola Cavernosa",
+				pt: "Mastigada Cavernosa",
+				de: "Riesiger Biss"
 			},
 
 			damage: 30,

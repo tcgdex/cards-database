@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
+		es: "Weepinbell",
+		it: "Weepinbell",
+		pt: "Weepinbell",
+		de: "Ultrigaria"
 	},
 	illustrator: "otumami",
 	rarity: "Uncommon",
@@ -33,10 +37,18 @@ const card: Card = {
 			name: {
 				en: "Burning Venom",
 				fr: "Venin Brûlant",
+				es: "Veneno Abrasador",
+				it: "Tossina Ardente",
+				pt: "Veneno Abrasador",
+				de: "Brennendes Gift"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Burned and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Empoisonné.",
+				es: "El Pokémon Activo de tu rival pasa a estar Envenenado y Quemado.",
+				it: "Il Pokémon attivo del tuo avversario viene bruciato e avvelenato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Envenenado e Queimado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und vergiftet."
 			},
 
 		},
@@ -48,6 +60,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 30,

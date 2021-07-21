@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spheal",
 		fr: "Obalie",
+		es: "Spheal",
+		it: "Spheal",
+		pt: "Spheal",
+		de: "Seemops"
 	},
 	illustrator: "sui",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Desenrollar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Icy Snow",
 				fr: "Verglas",
+				es: "Nieve Helada",
+				it: "Geloneve",
+				pt: "Neve Congelada",
+				de: "Eisiger Schnee"
 			},
 
 			damage: 20,

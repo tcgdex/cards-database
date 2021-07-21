@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bayleef",
 		fr: "Macronium",
+		es: "Bayleef",
+		it: "Bayleef",
+		pt: "Bayleef",
+		de: "Lorblatt"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -33,10 +37,18 @@ const card: Card = {
 			name: {
 				en: "Soothing Scent",
 				fr: "Senteur Apaisante",
+				es: "Aroma Sedante",
+				it: "Aroma Calmante",
+				pt: "Odor Calmante",
+				de: "Beruhigender Duft"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 20,
 
@@ -50,6 +62,10 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 50,

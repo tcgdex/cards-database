@@ -16,11 +16,6 @@ const lc: Set = {
 		official: 110
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2002-05-24",
 
 	variants: {

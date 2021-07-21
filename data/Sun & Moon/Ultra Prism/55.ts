@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Drapion",
 		fr: "Drascore",
+		es: "Drapion",
+		it: "Drapion",
+		pt: "Drapion",
+		de: "Piondragi"
 	},
 	illustrator: "Studio Bora Inc.",
 	rarity: "Rare",
@@ -36,10 +40,18 @@ const card: Card = {
 			name: {
 				en: "Dangerous Stinger",
 				fr: "Dard Redoutable",
+				es: "Aguijón Peligroso",
+				it: "Pungiglione Letale",
+				pt: "Ferrão Pernicioso",
+				de: "Stachel der Gefahr"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Paralyzed and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné.",
+				es: "El Pokémon Activo de tu rival pasa a estar Envenenado y Paralizado.",
+				it: "Il Pokémon attivo del tuo avversario viene paralizzato e avvelenato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Envenenado e Paralisado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt paralysiert und vergiftet."
 			},
 			damage: 100,
 

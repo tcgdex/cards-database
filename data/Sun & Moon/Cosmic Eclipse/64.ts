@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dewpider",
 		fr: "Araqua",
+		es: "Dewpider",
+		it: "Dewpider",
+		pt: "Dewpider",
+		de: "Araqua"
 	},
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -45,6 +53,10 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				es: "Chapoteo Ondulante",
+				it: "Schizzi d’Onda",
+				pt: "Onda Borrifante",
+				de: "Wellenplatscher"
 			},
 
 			damage: 40,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tirtouga",
 		fr: "Carapagos",
+		es: "Tirtouga",
+		it: "Tirtouga",
+		pt: "Tirtouga",
+		de: "Galapaflos"
 	},
 	illustrator: "HYOGONOSUKE",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Shell Attack",
 				fr: "Coquill-Attaque",
+				es: "Ataque Caparazón",
+				it: "Gusciattacco",
+				pt: "Ataque Carapaça",
+				de: "Muschelangriff"
 			},
 
 			damage: 20,
@@ -47,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Boulder Crush",
 				fr: "Rocher Écrasant",
+				es: "Alud de Rocas",
+				it: "Macignata",
+				pt: "Rocha Esmagadora",
+				de: "Felsenquetscher"
 			},
 
 			damage: 60,

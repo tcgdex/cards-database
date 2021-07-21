@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rowlet",
 		fr: "Brindibou",
+		es: "Rowlet",
+		it: "Rowlet",
+		pt: "Rowlet",
+		de: "Bauz"
 	},
 	illustrator: "Megumi Mizutani",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Leafage",
 				fr: "Feuillage",
+				es: "Follaje",
+				it: "Fogliame",
+				pt: "Folhagem",
+				de: "Blattwerk"
 			},
 
 			damage: 20,

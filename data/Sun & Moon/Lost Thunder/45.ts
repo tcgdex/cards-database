@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Houndour",
 		fr: "Malosse",
+		es: "Houndour",
+		it: "Houndour",
+		pt: "Houndour",
+		de: "Hunduster"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Team Hunt",
 				fr: "Chasse en Équipe",
+				es: "Caza en Equipo",
+				it: "Caccia in Branco",
+				pt: "Caçada em Equipe",
+				de: "Teamjagd"
 			},
 			effect: {
 				en: "Draw a card for each of your Houndour in play.",
 				fr: "Piochez une carte pour chacun de vos Malosse en jeu.",
+				es: "Roba 1 carta por cada uno de tus Houndour en juego.",
+				it: "Pesca una carta per ciascuno dei tuoi Houndour in gioco.",
+				pt: "Compre 1 carta para cada um dos seus Houndour em jogo.",
+				de: "Ziehe 1 Karte für jedes deiner Hunduster im Spiel."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Chama",
+				de: "Flackern"
 			},
 
 			damage: 10,

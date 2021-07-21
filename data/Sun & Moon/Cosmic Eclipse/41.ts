@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Golduck",
 		fr: "Akwakwak",
+		es: "Golduck",
+		it: "Golduck",
+		pt: "Golduck",
+		de: "Entoron"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 30,
@@ -46,10 +54,18 @@ const card: Card = {
 			name: {
 				en: "Energy Loop",
 				fr: "Boucle d’Énergie",
+				es: "Bucle de Energía",
+				it: "Circuito Energetico",
+				pt: "Loop de Energia",
+				de: "Energieschleife"
 			},
 			effect: {
 				en: "Put an Energy attached to this Pokémon into your hand.",
 				fr: "Placez une Énergie attachée à ce Pokémon dans votre main.",
+				es: "Pon 1 Energía unida a este Pokémon en tu mano.",
+				it: "Prendi un’Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
+				pt: "Coloque 1 Energia ligada a este Pokémon na sua mão.",
+				de: "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand."
 			},
 			damage: 80,
 

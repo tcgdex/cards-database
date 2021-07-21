@@ -4,27 +4,28 @@ import Set from '../Burning Shadows'
 const card: Card = {
 	name: {
 		en: "Fire Energy",
-		fr: "Énergie Fire de base",
+		fr: "Énergie Feu",
+		es: "Energía Fuego",
+		it: "Energia Fuoco",
+		pt: "Energia de Fogo",
+		de: "Feuer-Energie"
 	},
+
 	illustrator: undefined,
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	effect: {
+		en: "",
+		fr: "",
+		es: "",
+		it: "",
+		pt: "",
+		de: ""
+	}
 }
 
 export default card

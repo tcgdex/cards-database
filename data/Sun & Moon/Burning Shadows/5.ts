@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Gloom",
 		fr: "Ortide",
+		es: "Gloom",
+		it: "Gloom",
+		pt: "Gloom",
+		de: "Duflor"
 	},
 	illustrator: "Shibuzoh.",
 	rarity: "Uncommon",
@@ -33,10 +37,18 @@ const card: Card = {
 			name: {
 				en: "Stinky Scent",
 				fr: "Parfum Nauséabond",
+				es: "Olor Apestoso",
+				it: "Profumino Puzzoso",
+				pt: "Aroma Fétido",
+				de: "Stinkduft"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -48,6 +60,10 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Gilete",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Alolan Diglett",
 		fr: "Taupiqueur d’Alola",
+		es: "Diglett de Alola",
+		it: "Diglett di Alola",
+		pt: "Diglett de Alola",
+		de: "Alola-Digda"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,6 +32,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,

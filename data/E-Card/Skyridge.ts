@@ -17,11 +17,6 @@ const ecard3: Set = {
 		official: 144
 	},
 
-	legal: {
-		expanded: false,
-		standard: false
-	},
-
 	releaseDate: "2003-05-12",
 
 	variants: {

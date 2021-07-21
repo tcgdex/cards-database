@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Corphish",
 		fr: "Écrapince",
+		es: "Corphish",
+		it: "Corphish",
+		pt: "Corphish",
+		de: "Krebscorps"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Crabhammer",
 				fr: "Pince-Masse",
+				es: "Martillazo",
+				it: "Martellata",
+				pt: "Martelo Caranguejo",
+				de: "Krabbhammer"
 			},
 
 			damage: 30,

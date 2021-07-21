@@ -4,27 +4,28 @@ import Set from '../Crimson Invasion'
 const card: Card = {
 	name: {
 		en: "Water Energy",
-		fr: "Énergie Water de base",
+		fr: "Énergie Eau",
+		es: "Energía Agua",
+		it: "Energia Acqua",
+		pt: "Energia de Água",
+		de: "Wasser-Energie"
 	},
+
 	illustrator: undefined,
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Energy",
-
 	set: Set,
-
-
-
-
 	stage: "Basic",
+	energyType: "Normal",
 
-
-
-
-
-
-
-
-energyType: "Normal",
+	effect: {
+		en: "",
+		fr: "",
+		es: "",
+		it: "",
+		pt: "",
+		de: ""
+	}
 }
 
 export default card

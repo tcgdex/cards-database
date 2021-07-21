@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Nidorino",
 		fr: "Nidorino",
+		es: "Nidorino",
+		it: "Nidorino",
+		pt: "Nidorino",
+		de: "Nidorino"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 20,
@@ -47,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Horn Drill",
 				fr: "Empal’Korne",
+				es: "Perforador",
+				it: "Perforcorno",
+				pt: "Chifre Broca",
+				de: "Hornbohrer"
 			},
 
 			damage: 60,

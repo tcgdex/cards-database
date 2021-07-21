@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Skrelp",
 		fr: "Venalgue",
+		es: "Skrelp",
+		it: "Skrelp",
+		pt: "Skrelp",
+		de: "Algitt"
 	},
 	illustrator: "Mina Nakai",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Hook",
 				fr: "Crochet",
+				es: "Garfio",
+				it: "Uncino",
+				pt: "Gancho",
+				de: "Haken"
 			},
 
 			damage: 10,
