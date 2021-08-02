@@ -80,7 +80,14 @@ const card: Card = {
 	retreat: 1,
 	hp: 80,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

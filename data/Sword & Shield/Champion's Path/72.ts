@@ -74,7 +74,14 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"]
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -59,7 +59,14 @@ const card: Card = {
 
 	retreat: 2,
 	types: ["Lightning"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

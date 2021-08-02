@@ -26,7 +26,14 @@ const card: Card = {
 	},
 
 	trainerType: "Tool",
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card
