@@ -26,11 +26,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Bide Barricade",
-				fr: "Épreuve d'Endurance",
+				fr: "Épreuve d’Endurance",
 			},
 			effect: {
 				en: "As long as this Pokémon is your Active Pokémon, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Psychic Pokémon).",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent (à part les Pokémon Psychic).",
+				fr: "Tant que ce Pokémon est votre Pokémon Actif, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n’a pas de talent (à part les Pokémon Psychic).",
 			},
 		},
 	],

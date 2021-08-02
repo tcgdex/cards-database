@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Placez l'un de vos Pokémon dans votre main. (Défaussez toutes les cartes attachées au Pokémon.)",
+		fr: "Placez l’un de vos Pokémon dans votre main. (Défaussez toutes les cartes attachées au Pokémon.)",
 		en: "Put 1 of your Pokémon into your hand. (Discard all cards attached to that Pokémon.)"
 	},
 	trainerType: "Supporter",

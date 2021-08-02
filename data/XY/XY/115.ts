@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Mélangez l'un de vos Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+		fr: "Mélangez l’un de vos Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
 		en: "Shuffle 1 of your Pokémon and all cards attached to it into your deck."
 	},
 	trainerType: "Supporter",

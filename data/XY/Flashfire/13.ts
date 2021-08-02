@@ -4,7 +4,7 @@ import Set from '../Flashfire'
 const card: Card = {
 	name: {
 		en: "M Charizard EX",
-		fr: "M Dracaufeu-EX",
+		fr: "M Dracaufeu EX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -36,10 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Crimson Dive",
-				fr: "Règle des Méga-Évolutions",
+				fr: "Plongeon Écarlate",
 			},
 			effect: {
 				en: "This Pokémon does 50 damage to itself.",
+				fr: "Ce Pokémon s’inflige 50 dégâts."
 			},
 			damage: 300,
 

@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can’t play any Supporter cards from his or her hand during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter de sa main pendant son prochain tour.",
+				fr: "Lancez une pièce. Si c’est face, votre adversaire ne peut pas jouer de cartes Supporter de sa main pendant son prochain tour.",
 			},
 			damage: 50,
 
@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
 			},
 			damage: 80,
 

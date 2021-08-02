@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
+				fr: "Tranch’Herbe",
 			},
 
 			damage: 10,

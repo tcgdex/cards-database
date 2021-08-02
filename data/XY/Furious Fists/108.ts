@@ -4,7 +4,7 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "Dragonite EX",
-		fr: "Dracolosse-EX",
+		fr: "Dracolosse EX",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",

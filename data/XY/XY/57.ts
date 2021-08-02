@@ -47,11 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spirit Scream",
-				fr: "Cri de l'Âme",
+				fr: "Cri de l’Âme",
 			},
 			effect: {
 				en: "Put damage counters on both Active Pokémon until the remaining HP of each Pokémon is 10.",
-				fr: "Placez des marqueurs de dégâts sur les deux Pokémon Actifs jusqu'à ce que chaque Pokémon ait 10 PV.",
+				fr: "Placez des marqueurs de dégâts sur les deux Pokémon Actifs jusqu’à ce que chaque Pokémon ait 10 PV.",
 			},
 
 		},

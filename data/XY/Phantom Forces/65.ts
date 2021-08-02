@@ -4,7 +4,7 @@ import Set from '../Phantom Forces'
 const card: Card = {
 	name: {
 		en: "Aegislash EX",
-		fr: "Exagide-EX",
+		fr: "Exagide EX",
 	},
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Prevent all damage done to this Pokémon by attacks from each of your opponent’s Pokémon that has Special Energy attached to it.",
-				fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques de chacun des Pokémon de votre adversaire auquel de l'Énergie spéciale est attachée.",
+				fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques de chacun des Pokémon de votre adversaire auquel de l’Énergie spéciale est attachée.",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash Blast",
-				fr: "Rafale d'Entailles",
+				fr: "Rafale d’Entailles",
 			},
 			effect: {
 				en: "This attack does 20 more damage for each Metal Energy attached to this Pokémon.",

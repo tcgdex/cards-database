@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "During your next turn, this Pokémon’s Strong Gust attack does 60 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Souffle Puissant de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				fr: "Pendant votre prochain tour, l’attaque Souffle Puissant de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 60,
 

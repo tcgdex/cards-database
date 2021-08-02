@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon has no Abilities until the end of your next turn.",
-				fr: "Le Pokémon Défenseur n'a pas de talent jusqu'à la fin de votre prochain tour.",
+				fr: "Le Pokémon Défenseur n’a pas de talent jusqu’à la fin de votre prochain tour.",
 			},
 			damage: 20,
 

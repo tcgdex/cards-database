@@ -4,7 +4,7 @@ import Set from '../Phantom Forces'
 const card: Card = {
 	name: {
 		en: "M Manectric EX",
-		fr: "M-Élecsprint-EEX",
+		fr: "M Elecsprint EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à l’un de vos Pokémon de Banc.",
 			},
 			damage: 110,
 

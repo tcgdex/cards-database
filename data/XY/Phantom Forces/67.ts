@@ -4,7 +4,7 @@ import Set from '../Phantom Forces'
 const card: Card = {
 	name: {
 		en: "Florges EX",
-		fr: "Florges-EX",
+		fr: "Florges EX",
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",

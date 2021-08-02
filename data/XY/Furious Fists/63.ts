@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon isn’t a Pokémon-EX, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n'est pas un Pokémon-EX, cette attaque ne fait rien.",
+				fr: "Si le Pokémon Actif de votre adversaire n’est pas un Pokémon-EX, cette attaque ne fait rien.",
 			},
 			damage: 60,
 

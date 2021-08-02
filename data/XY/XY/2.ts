@@ -4,7 +4,7 @@ import Set from '../XY'
 const card: Card = {
 	name: {
 		en: "M Venusaur EX",
-		fr: "M-Florizarre-EX",
+		fr: "M Florizarre EX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

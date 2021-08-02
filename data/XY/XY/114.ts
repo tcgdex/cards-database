@@ -57,10 +57,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Coupure d'Énergie",
+				fr: "Coupure d’Énergie",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 80,
 

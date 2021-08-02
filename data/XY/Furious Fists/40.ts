@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at the top 5 cards of your opponent’s deck and put them back on top of his or her deck in any order.",
-				fr: "Regardez les 5 cartes du dessus du deck de votre adversaire et replacez-les sur le dessus de son deck dans l'ordre de votre choix.",
+				fr: "Regardez les 5 cartes du dessus du deck de votre adversaire et replacez-les sur le dessus de son deck dans l’ordre de votre choix.",
 			},
 
 		},

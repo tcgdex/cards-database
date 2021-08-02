@@ -4,7 +4,7 @@ import Set from '../XY'
 const card: Card = {
 	name: {
 		en: "Emolga EX",
-		fr: "Emolga-EX",
+		fr: "Emolga EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward. If you attached Energy in this way, switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Cherchez une carte Énergie Lightning dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck. Si vous avez attaché de l'Énergie de cette façon, échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				fr: "Cherchez une carte Énergie Lightning dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck. Si vous avez attaché de l’Énergie de cette façon, échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
 			},
 
 		},

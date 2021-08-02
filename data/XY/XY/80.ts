@@ -4,7 +4,7 @@ import Set from '../XY'
 const card: Card = {
 	name: {
 		en: "Skarmory EX",
-		fr: "Airmure-EX",
+		fr: "Airmure EX",
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Before doing damage, discard all Pokémon Tool cards attached to your opponent’s Active Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
+				fr: "Avant d’infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
 

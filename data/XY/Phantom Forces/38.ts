@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If, before doing damage, your opponent’s Active Pokémon has fewer remaining HP than this Pokémon, this attack does 50 more damage.",
-				fr: "Si, avant d'infliger des dégâts, il reste moins de PV au Pokémon Actif de votre adversaire qu'à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
+				fr: "Si, avant d’infliger des dégâts, il reste moins de PV au Pokémon Actif de votre adversaire qu’à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
 			},
 			damage: "50+",
 

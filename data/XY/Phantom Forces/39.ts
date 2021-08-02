@@ -44,7 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Headbutt",
-				fr: "Double Coup d'Boule",
+				fr: "Double Coup d’Boule",
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",

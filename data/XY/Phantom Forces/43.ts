@@ -29,11 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Fainting Spell",
-				fr: "Sort d'Évanouissement",
+				fr: "Sort d’Évanouissement",
 			},
 			effect: {
 				en: "If this Pokémon is Knocked Out by damage from an opponent’s attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out.",
-				fr: "Si ce Pokémon est mis K.O. par les dégâts d'une attaque de votre adversaire, lancez une pièce. Si c'est face, le Pokémon Attaquant est mis K.O.",
+				fr: "Si ce Pokémon est mis K.O. par les dégâts d’une attaque de votre adversaire, lancez une pièce. Si c’est face, le Pokémon Attaquant est mis K.O.",
 			},
 		},
 	],

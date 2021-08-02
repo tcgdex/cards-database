@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon has any Special Energy attached to it, this attack does 90 more damage.",
-				fr: "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
+				fr: "Si de l’Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
 			},
 			damage: "60+",
 

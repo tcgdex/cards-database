@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard cards from your opponent’s hand at random until he or she has 4 cards in his or her hand.",
-				fr: "Défaussez des cartes de la main de votre adversaire au hasard jusqu'à ce qu'il ait 4 cartes dans sa main.",
+				fr: "Défaussez des cartes de la main de votre adversaire au hasard jusqu’à ce qu’il ait 4 cartes dans sa main.",
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: "20+",
 

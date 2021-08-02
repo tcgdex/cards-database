@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "During your next turn, this Pokémon’s Metal Wallop attack does 40 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Torgnole Métallique de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				fr: "Pendant votre prochain tour, l’attaque Torgnole Métallique de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 40,
 
