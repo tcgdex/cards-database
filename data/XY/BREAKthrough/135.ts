@@ -3,7 +3,7 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Buddy-Buddy Rescue",
+		en: "Buddy Buddy Rescue",
 		fr: "Rescousse Copain-Copain",
 	},
 	illustrator: "Toyste Beach",
@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Chaque joueur place un Pokémon de sa pile de défausse dans sa main. (Votre adversaire choisit en premier.)",
+		en: "Each player puts a Pokémon from his or her discard pile into his or her hand. (Your opponent chooses first.)"
 	},
 	trainerType: "Item",
 

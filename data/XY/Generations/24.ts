@@ -3,11 +3,11 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon-EX",
+		en: "Vaporeon EX",
 		fr: "Aquali-EX",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "This attack does 130 damage minus 10 damage for each damage counter on this Pokémon.",
 				fr: "Cette attaque inflige 130 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
-			damage: 130,
+			damage: "130−",
 
 		},
 	],

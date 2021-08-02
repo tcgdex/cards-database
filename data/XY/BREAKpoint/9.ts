@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Dévore-Montagne",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
+				en: "Discard the top card of your opponent’s deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 10,
@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Racleur",
 			},
 			effect: {
-				en: "If this Pokémon has any damage counters on it, discard the top 4 cards of your opponent's deck.",
+				en: "If this Pokémon has any damage counters on it, discard the top 4 cards of your opponent’s deck.",
 				fr: "Si ce Pokémon a des marqueurs de dégâts, défaussez les 4 cartes du dessus du deck de votre adversaire.",
 			},
 

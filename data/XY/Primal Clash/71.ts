@@ -26,9 +26,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Régénération α",
+				en: "α Recovery"
 			},
 			effect: {
 				fr: "Lorsque ce Pokémon est soigné, doublez la quantité de soins.",
+				en: "When this Pokémon is healed, double the amount healed."
 			},
 		},
 	],

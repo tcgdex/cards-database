@@ -3,11 +3,11 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "M Gallade-EX",
+		en: "M Gallade EX",
 		fr: "M Gallame-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Règle des Méga-Évolutions",
 			},
 			effect: {
-				en: "This attack does 30 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 30 damage to each of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 110,
 

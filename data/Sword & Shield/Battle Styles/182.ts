@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Diese Karte kann nur an ein Fließender-Angriff-Pokémon angelegt sein. Wenn diese Karte an etwas anderes als ein Fließender-Angriff-Pokémon angelegt ist, lege diese Karte auf deinen Ablagestapel.\n\nSolange diese Karte an ein Pokémon angelegt ist, liefert sie 2 Energien in beliebiger Kombination aus Water-Energie und Fighting-Energie."
 	},
 
-	energyType: "Special"
+	energyType: "Special",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

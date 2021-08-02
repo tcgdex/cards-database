@@ -51,7 +51,7 @@ const card: Card = {
 				en: "This attack does 90 damage minus 10 damage for each damage counter on this Pokémon.",
 				fr: "Cette attaque inflige 90 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
-			damage: 90,
+			damage: "90−",
 
 		},
 	],

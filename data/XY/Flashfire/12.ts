@@ -4,7 +4,7 @@ import Set from '../Flashfire'
 const card: Card = {
 	name: {
 		en: "Charizard EX",
-		fr: "Dracaufeu-EX",
+		fr: "Dracaufeu EX",
 	},
 	illustrator: "PLANETA",
 	rarity: "Ultra Rare",

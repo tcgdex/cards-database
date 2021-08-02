@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Lege 1 Water-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon-V an. Wenn du das machst, ziehe 3 Karten."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

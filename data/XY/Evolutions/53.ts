@@ -28,7 +28,7 @@ const card: Card = {
 				en: "Neutral Shield",
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Evolution Pokémon.",
+				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Evolution Pokémon.",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 				fr: "Talent : Bouclier Neutre",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon Évolutifs de votre adversaire.",
 			},
 			damage: 30,

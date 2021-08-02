@@ -3,11 +3,11 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Houndoom-EX",
+		en: "Houndoom EX",
 		fr: "Démolosse-EEX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Corne de Fusion",
 			},
 			effect: {
-				en: "Discard the top 2 cards of your opponent's deck.",
+				en: "Discard the top 2 cards of your opponent’s deck.",
 				fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
 			},
 

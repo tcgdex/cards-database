@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Lame Douloureuse",
 			},
 			effect: {
-				en: "Double the number of damage counters on each of your opponent's Pokémon.",
+				en: "Double the number of damage counters on each of your opponent’s Pokémon.",
 				fr: "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
 			},
 
@@ -54,7 +54,7 @@ const card: Card = {
 				fr: "Tranche Mégatonne",
 			},
 			effect: {
-				en: "This attack does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 100,

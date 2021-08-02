@@ -3,7 +3,7 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "M Rayquaza-EX",
+		en: "M Rayquaza EX",
 		fr: "M-Rayquaza-EX",
 	},
 	illustrator: "5ban Graphics",
@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 30 damage times the number of your Benched Pokémon.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{

@@ -3,11 +3,11 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "M Charizard-EX",
+		en: "M Charizard EX",
 		fr: "M-Dracaufeu-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -41,7 +41,7 @@ const card: Card = {
 				en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Fire attachée à ce Pokémon. Cette attaque inflige 50 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 	],

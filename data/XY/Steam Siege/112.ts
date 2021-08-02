@@ -3,7 +3,7 @@ import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "M Gardevoir-EX",
+		en: "M Gardevoir EX",
 		fr: "M-Gardevoir-EX",
 	},
 	illustrator: "5ban Graphics",
@@ -40,7 +40,7 @@ const card: Card = {
 				en: "Discard as many of your Benched Pokémon as you like. This attack does 10 more damage for each Benched Pokémon you discarded in this way.",
 				fr: "Défaussez autant de vos Pokémon de Banc que vous voulez. Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon de Banc défaussé de cette façon.",
 			},
-			damage: 110,
+			damage: "110+",
 
 		},
 	],

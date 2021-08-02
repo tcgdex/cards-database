@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Frein",
 			},
 			effect: {
-				en: "You can use this attack only if you go second, and only on your first turn. Discard an Energy attached to 1 of your opponent's Pokémon.",
+				en: "You can use this attack only if you go second, and only on your first turn. Discard an Energy attached to 1 of your opponent’s Pokémon.",
 				fr: "Vous ne pouvez utiliser cette attaque que si vous jouez en second et uniquement pendant votre premier tour. Défaussez une Énergie attachée à l’un des Pokémon de votre adversaire.",
 			},
 

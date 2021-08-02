@@ -26,9 +26,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Régénération α",
+				en: "α Recovery"
 			},
 			effect: {
 				fr: "Lorsque ce Pokémon est soigné, doublez la quantité de soins.",
+				en: "When this Pokémon is healed, double the amount healed."
 			},
 		},
 	],
@@ -46,7 +48,7 @@ const card: Card = {
 				en: "If this Pokémon has any Water Energy attached to it, this attack does 20 more damage.",
 				fr: "Si de l'Énergie Water est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

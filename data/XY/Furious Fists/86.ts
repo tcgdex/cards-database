@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				fr: "Vous pouvez demander à votre adversaire d’échanger son Pokémon Actif avec l’un de ses Pokémon de Banc.",
 			},
 			damage: 20,
 

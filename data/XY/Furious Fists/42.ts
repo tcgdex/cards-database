@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'Face",
+				fr: "Écras’Face",
 			},
 
 			damage: 20,
@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "30+",
 

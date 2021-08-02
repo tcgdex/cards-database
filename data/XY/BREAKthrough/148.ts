@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Cherchez une carte Dresseur dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+		en: "Search your deck for a Trainer card, reveal it, and put it into your hand. Shuffle your deck afterward."
 	},
 	trainerType: "Supporter",
 

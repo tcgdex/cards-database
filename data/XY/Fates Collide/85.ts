@@ -3,11 +3,11 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "M Audino-EX",
+		en: "M Audino EX",
 		fr: "M-Nanméouïe-EXEX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Symphonie Magique",
 			},
 			effect: {
-				en: "If you played a Supporter card from your hand during this turn, this attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If you played a Supporter card from your hand during this turn, this attack does 50 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 50 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 110,

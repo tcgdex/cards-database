@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Lege beliebig viele Karten aus deiner Hand in beliebiger Reihenfolge unter dein Deck. Ziehe anschließend genauso viele Karten."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

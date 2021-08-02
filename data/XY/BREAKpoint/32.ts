@@ -3,11 +3,11 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Manaphy-EX",
+		en: "Manaphy EX",
 		fr: "Manaphy-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

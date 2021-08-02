@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Conversion 3",
 			},
 			effect: {
-				en: "Choose Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy, or Dragon type. The Defending Pokémon's Weakness is now that type until the end of your next turn. (The amount of Weakness doesn't change.)",
+				en: "Choose Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy, or Dragon type. The Defending Pokémon’s Weakness is now that type until the end of your next turn. (The amount of Weakness doesn’t change.)",
 				fr: "Choisissez le type Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy ou Dragon. La Faiblesse du Pokémon Défenseur est maintenant de ce type jusqu’à la fin de votre prochain tour. (La valeur de la Faiblesse ne change pas.)",
 			},
 

@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Placez dans votre main autant d'Énergies attachées à votre Pokémon que vous voulez.",
+		en: "Put as many Energy attached to your Pokémon as you like into your hand."
 	},
 	trainerType: "Item",
 

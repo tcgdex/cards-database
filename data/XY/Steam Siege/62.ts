@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Cauchemar",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 10,
@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Jeu de Dégâts",
 			},
 			effect: {
-				en: "Move as many damage counters on your opponent's Benched Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
+				en: "Move as many damage counters on your opponent’s Benched Pokémon as you like to any of your opponent’s other Pokémon in any way you like.",
 				fr: "Déplacez autant de marqueurs de dégâts que vous voulez des Pokémon de Banc de votre adversaire vers les autres Pokémon de votre adversaire, de la manière que vous voulez.",
 			},
 

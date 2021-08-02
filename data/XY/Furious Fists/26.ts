@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Any damage done by an opponent’s attack to each of your Water Pokémon that has any Water Energy attached to it is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés par une attaque de votre adversaire à chacun de vos Pokémon Water auquel de l'Énergie Water est attachée sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				fr: "Tous les dégâts infligés par une attaque de votre adversaire à chacun de vos Pokémon Water auquel de l’Énergie Water est attachée sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],

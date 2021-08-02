@@ -3,11 +3,11 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Umbreon-EX",
+		en: "Umbreon EX",
 		fr: "Noctali-EX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Phase Finale",
 			},
 			effect: {
-				en: "If your opponent's Mega Evolution Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards.",
+				en: "If your opponent’s Mega Evolution Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards.",
 				fr: "Si le Pokémon Méga-Évolution de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez 2 cartes Récompense supplémentaires.",
 			},
 			damage: 70,

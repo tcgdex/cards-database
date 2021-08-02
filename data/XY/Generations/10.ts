@@ -3,11 +3,11 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Leafeon-EX",
+		en: "Leafeon EX",
 		fr: "Phyllali-EX",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nature's Breath",
+				en: "Nature’s Breath",
 				fr: "Souffle de la Nature",
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
-			damage: 90,
+			damage: "90+",
 
 		},
 	],

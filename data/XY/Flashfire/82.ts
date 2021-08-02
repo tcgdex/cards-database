@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at the top 4 cards of your deck and put 2 of them into your hand. Discard the other cards.",
-				fr: "Regardez les 4 cartes du dessus de votre deck et ajoutez 2 d'entre elles à votre main. Défaussez les autres cartes.",
+				fr: "Regardez les 4 cartes du dessus de votre deck et ajoutez 2 d’entre elles à votre main. Défaussez les autres cartes.",
 			},
 
 		},

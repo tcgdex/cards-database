@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Arnaque",
 			},
 			effect: {
-				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+				en: "Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into his or her deck.",
 				fr: "Choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck.",
 			},
 
@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Rafale Psy",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 20,

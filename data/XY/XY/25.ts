@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at the top 3 cards of your deck and put them back on top of your deck in any order.",
-				fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
+				fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l’ordre de votre choix.",
 			},
 
 		},

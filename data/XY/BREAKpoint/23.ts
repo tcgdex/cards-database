@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Claquoir",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If tails, this attack does nothing. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 30,

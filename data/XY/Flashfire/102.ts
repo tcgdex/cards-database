@@ -4,7 +4,7 @@ import Set from '../Flashfire'
 const card: Card = {
 	name: {
 		en: "Toxicroak EX",
-		fr: "Coatox-EX",
+		fr: "Coatox EX",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned. Put 3 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 3 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 3 marqueurs de dégâts au lieu d’un sur le Pokémon ciblé entre chaque tour.",
 			},
 
 		},

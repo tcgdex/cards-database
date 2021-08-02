@@ -3,11 +3,11 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "M Rayquaza-EX",
+		en: "M Rayquaza EX",
 		fr: "M Rayquaza-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Évolution Δ",
+				en: "Δ Evolution"
 			},
 			effect: {
 				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
+				en: "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon."
 			},
 		},
 	],
@@ -49,7 +51,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 30 damage times the number of your Benched Pokémon.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{

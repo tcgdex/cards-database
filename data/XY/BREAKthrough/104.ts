@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Florges BREAK",
 		fr: "Florges TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		671,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Florges",
 		fr: "Florges",
 	},
+
 	stage: "BREAK",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -48,11 +54,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

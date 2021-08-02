@@ -3,7 +3,7 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "M Gardevoir-EX",
+		en: "M Gardevoir EX",
 		fr: "M-Gardevoir-EX",
 	},
 	illustrator: "Megumi Mizutani",
@@ -40,7 +40,7 @@ const card: Card = {
 				en: "This attack does 30 damage times the amount of Fairy Energy attached to all of your Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Fairy attachées à tous vos Pokémon.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],

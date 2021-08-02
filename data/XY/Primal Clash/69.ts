@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Offensive Ω",
+				en: "Ω Barrage"
 			},
 			effect: {
 				fr: "Ce Pokémon peut attaquer deux fois par tour. (Si la première attaque met K.O. le Pokémon Actif de votre adversaire, vous pouvez encore attaquer après que votre adversaire a choisi un nouveau Pokémon Actif.)",
+				en: "This Pokémon may attack twice a turn. (If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.)"
 			},
 		},
 	],
@@ -45,7 +47,7 @@ const card: Card = {
 				fr: "Direct Toxik",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 30,
@@ -62,7 +64,7 @@ const card: Card = {
 				fr: "Poing Dynamite",
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself. Don't apply Weakness to this damage.",
+				en: "This Pokémon does 20 damage to itself. Don’t apply Weakness to this damage.",
 				fr: "Ce Pokémon s'inflige 20 dégâts. Ne pas appliquer la Faiblesse à ces dégâts.",
 			},
 			damage: 70,

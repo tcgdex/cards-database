@@ -51,7 +51,7 @@ const card: Card = {
 				en: "This attack does 10 more damage for each Supporter card in your discard pile.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque carte Supporter dans votre pile de défausse.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

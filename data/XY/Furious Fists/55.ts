@@ -4,7 +4,7 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "M Lucario EX",
-		fr: "M-Lucario-EX",
+		fr: "M Lucario EX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

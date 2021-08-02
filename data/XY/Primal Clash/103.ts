@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Bulles d'O",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 30,
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "You may do 30 more damage. If you do, this Pokémon does 30 damage to itself.",
 				fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 30 dégâts.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

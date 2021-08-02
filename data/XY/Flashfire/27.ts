@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can’t draw a card at the beginning of his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas piocher de carte au début de son prochain tour.",
+				fr: "Lancez une pièce. Si c’est face, votre adversaire ne peut pas piocher de carte au début de son prochain tour.",
 			},
 
 		},

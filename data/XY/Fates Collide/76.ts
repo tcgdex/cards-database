@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Aerodactyl",
 		fr: "Ptéra",
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		142,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "RESTORED",
-
 
 	attacks: [
 		{
@@ -45,19 +47,21 @@ const card: Card = {
 				fr: "Souffle Supersonique",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to your opponent's Active Pokémon.",
+				en: "Discard a Special Energy attached to your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 120,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -65,9 +69,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

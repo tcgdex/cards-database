@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Interruption B",
 			},
 			effect: {
-				en: "Your opponent can't play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.",
+				en: "Your opponent can’t play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.",
 				fr: "Votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer le Pokémon Défenseur pendant son prochain tour.",
 			},
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				fr: "Onde Folie",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 30,
 

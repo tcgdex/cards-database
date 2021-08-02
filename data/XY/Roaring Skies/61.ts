@@ -3,11 +3,11 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "M Rayquaza-EX",
+		en: "M Rayquaza EX",
 		fr: "M Rayquaza-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Jungle Δ",
+				en: "Δ Wild"
 			},
 			effect: {
 				fr: "Tous les dégâts infligés à ce Pokémon par des attaques des Pokémon Grass, Fire, Water ou Lightning de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				en: "Any damage done to this Pokémon by attacks from your opponent’s Grass, Fire, Water, or Lightning Pokémon is reduced by 20 (after applying Weakness and Resistance)."
 			},
 		},
 	],

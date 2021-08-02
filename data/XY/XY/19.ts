@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Supporter cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 2 cartes Supporter dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				fr: "Cherchez jusqu’à 2 cartes Supporter dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.",
-				fr: "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
+				fr: "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s’inflige 20 dégâts.",
 			},
 			damage: "70+",
 

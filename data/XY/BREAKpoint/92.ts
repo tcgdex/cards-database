@@ -3,11 +3,11 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh-EX",
+		en: "Ho-Oh EX",
 		fr: "Ho-Oh-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -46,7 +46,7 @@ const card: Card = {
 				fr: "Plume Élémentaire",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 130,

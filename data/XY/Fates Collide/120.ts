@@ -3,7 +3,7 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Genesect-EX",
+		en: "Genesect EX",
 		fr: "Genesect-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -49,7 +49,7 @@ const card: Card = {
 				en: "Discard as many Metal Energy attached to this Pokémon as you like. This attack does 20 more damage for each Energy card discarded in this way.",
 				fr: "Défaussez autant d'Énergies Metal attachées à ce Pokémon que vous voulez. Cette attaque inflige 20 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 	],

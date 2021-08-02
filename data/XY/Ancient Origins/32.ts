@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Stop Θ",
 			},
 			effect: {
-				en: "Look at the top 3 cards of either player's deck and put them back on top of that player's deck in any order.",
+				en: "Look at the top 3 cards of either player’s deck and put them back on top of that player’s deck in any order.",
 			},
 
 		},

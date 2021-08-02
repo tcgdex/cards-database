@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may move an Energy attached to your opponent’s Active Pokémon to 1 of your opponent’s Benched Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie attachée au Pokémon Actif de votre adversaire vers l'un des Pokémon de Banc de votre adversaire.",
+				fr: "Vous pouvez déplacer une Énergie attachée au Pokémon Actif de votre adversaire vers l’un des Pokémon de Banc de votre adversaire.",
 			},
 			damage: 30,
 

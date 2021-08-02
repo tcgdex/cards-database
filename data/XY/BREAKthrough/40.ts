@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Période Glaciaire",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Dragon Pokémon, it is now Paralyzed.",
+				en: "If your opponent’s Active Pokémon is a Dragon Pokémon, it is now Paralyzed.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Dragon, il est maintenant Paralysé.",
 			},
 			damage: 80,

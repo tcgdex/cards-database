@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Coup d'Poing Solennel",
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
+				en: "Discard a random card from your opponent’s hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
 			},
 			damage: 10,

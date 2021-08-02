@@ -3,27 +3,31 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "M Latios-EX",
+		en: "M Latios EX",
 		fr: "M Latios-EX",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		381,
 	],
+
 	hp: 220,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Latios-EX",
 		fr: "Latios-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -37,7 +41,7 @@ const card: Card = {
 				fr: "Règle des Méga-Évolutions",
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 
 		},
@@ -56,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -63,10 +68,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

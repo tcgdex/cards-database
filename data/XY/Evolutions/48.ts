@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Hypnose",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Dévorêve",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is not Asleep, this attack does nothing.",
+				en: "If your opponent’s Active Pokémon is not Asleep, this attack does nothing.",
 				fr: "Si le Pokémon Actif de votre adversaire n’est pas Endormi, cette attaque ne fait rien.",
 			},
 			damage: 80,

@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Déraillement",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to your opponent's Active Pokémon.",
+				en: "Discard a Special Energy attached to your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 20,

@@ -35,7 +35,7 @@ const card: Card = {
 				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 20 more damage.",
 				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{

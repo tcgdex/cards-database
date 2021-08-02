@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Armure Résistante",
 			},
 			effect: {
-				en: "If this Pokémon has full HP, any damage done to this Pokémon by an opponent's attack is reduced by 50 (after applying Weakness and Resistance).",
+				en: "If this Pokémon has full HP, any damage done to this Pokémon by an opponent’s attack is reduced by 50 (after applying Weakness and Resistance).",
 				fr: "Si ce Pokémon a tous ses PV, tous les dégâts infligés à ce Pokémon par une attaque de votre adversaire sont réduits de 50 (après application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -50,10 +50,10 @@ const card: Card = {
 				fr: "Boost Atomisant",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Overdrive Smash attack does 40 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Boost Atomisant de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				en: "During your next turn, this Pokémon’s Overdrive Smash attack does 40 more damage (before applying Weakness and Resistance).",
+				fr: "Pendant votre prochain tour, l’attaque Boost Atomisant de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

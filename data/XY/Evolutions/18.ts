@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Talent : Route Enflammée",
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
+				en: "This Pokémon can’t attack during your next turn.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon était sur le Banc et est devenu votre Pokémon Actif lors de ce tour, vous pouvez déplacer des Énergies Fire attachées à vos Pokémon vers ce Pokémon.",
 			},
 			damage: 150,

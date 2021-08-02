@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose either Asleep or Poisoned. Your opponent’s Active Pokémon is now affected by that Special Condition.",
-				fr: "Choisissez soit Endormi, soit Empoisonné. Le Pokémon Actif de votre adversaire est maintenant affecté par l'État Spécial choisi.",
+				fr: "Choisissez soit Endormi, soit Empoisonné. Le Pokémon Actif de votre adversaire est maintenant affecté par l’État Spécial choisi.",
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 more damage for each different type of basic Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque différent type d'Énergie de base attaché à ce Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque différent type d’Énergie de base attaché à ce Pokémon.",
 			},
 			damage: "30+",
 

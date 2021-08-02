@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Trevenant BREAK",
 		fr: "Desséliande TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		709,
 	],
+
 	hp: 160,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Trevenant",
 		fr: "Desséliande",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -36,7 +40,7 @@ const card: Card = {
 				fr: "Règle des Évolutions TURBO",
 			},
 			effect: {
-				en: "Put 3 damage counters on each of your opponent's Pokémon.",
+				en: "Put 3 damage counters on each of your opponent’s Pokémon.",
 			},
 
 		},
@@ -55,11 +59,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

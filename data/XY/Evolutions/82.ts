@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Regardez les 5 cartes du dessus de votre deck et replacez-les dans l’ordre de votre choix.",
+		en: "Look at the top 5 cards of your deck and put them back in any order."
 	},
 	trainerType: "Item",
 

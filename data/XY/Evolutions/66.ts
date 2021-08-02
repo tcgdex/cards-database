@@ -28,7 +28,7 @@ const card: Card = {
 				en: "Mischievous Fang",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand onto your Bench, you may discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
+				en: "When you play this Pokémon from your hand onto your Bench, you may discard all Pokémon Tool cards attached to your opponent’s Active Pokémon.",
 			},
 		},
 	],
@@ -37,15 +37,12 @@ const card: Card = {
 			cost: [
 				"Colorless",
 			],
+
 			name: {
 				en: "Bite",
-				fr: "Talent : Croc Facétieux",
 			},
-			effect: {
-				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez défausser toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
-			},
-			damage: 10,
 
+			damage: 10
 		},
 		{
 			cost: [

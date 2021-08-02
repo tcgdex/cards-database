@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

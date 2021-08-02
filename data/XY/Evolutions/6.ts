@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Raidissement",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance).",
 			},
 
@@ -51,7 +51,7 @@ const card: Card = {
 				fr: "Poudre Toxik",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 20,

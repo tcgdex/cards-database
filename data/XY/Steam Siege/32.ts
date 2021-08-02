@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Ultime Lame",
 			},
 			effect: {
-				en: "If the damage from this attack reduces your opponent's Active Pokémon's HP to 60 or less, that Pokémon is Knocked Out.",
+				en: "If the damage from this attack reduces your opponent’s Active Pokémon’s HP to 60 or less, that Pokémon is Knocked Out.",
 				fr: "Si les dégâts de cette attaque réduisent les PV du Pokémon Actif de votre adversaire à 60 ou moins, ce dernier est mis K.O.",
 			},
 			damage: 40,
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Javelot",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 90,

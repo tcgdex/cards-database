@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at 1 of your face-down Prize cards.",
-				fr: "Regardez l'une de vos cartes Récompense face cachée.",
+				fr: "Regardez l’une de vos cartes Récompense face cachée.",
 			},
 
 		},

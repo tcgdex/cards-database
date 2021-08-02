@@ -2,7 +2,6 @@ import { Card } from '../../../interfaces'
 import Set from '../Chilling Reign'
 
 const card: Card = {
-
 	name: {
 		fr: "Boule de Cristal Brume",
 		en: "Fog Crystal",
@@ -27,7 +26,14 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach 1 Psychic-Energiekarte oder 1 Basis-Psychic-Pokémon, zeige jene Karte deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

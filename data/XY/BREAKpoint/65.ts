@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Graine Angoisse",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.",
+				en: "As long as this Pokémon is your Active Pokémon, your opponent’s Basic Pokémon’s attacks cost Colorless more.",
 				fr: "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent Colorless de plus.",
 			},
 		},
@@ -49,10 +49,10 @@ const card: Card = {
 				fr: "Pression Énergétique",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
+				en: "This attack does 10 more damage for each Energy attached to your opponent’s Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
-			damage: 70,
+			damage: "70+",
 
 		},
 	],

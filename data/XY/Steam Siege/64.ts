@@ -36,10 +36,10 @@ const card: Card = {
 				fr: "Vengeance",
 			},
 			effect: {
-				en: "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 60 more damage.",
+				en: "If any of your Pokémon were Knocked Out by damage from an opponent’s attack during his or her last turn, this attack does 60 more damage.",
 				fr: "Si l’un de vos Pokémon a été mis K.O. par les dégâts d’une attaque de votre adversaire pendant son dernier tour, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Instagriffe",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 60,

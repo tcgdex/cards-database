@@ -29,11 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Thorn Tempest",
-				fr: "Tempête d'Épines",
+				fr: "Tempête d’Épines",
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent’s Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez placer un marqueur de dégâts sur chacun des Pokémon de votre adversaire.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon, vous pouvez placer un marqueur de dégâts sur chacun des Pokémon de votre adversaire.",
 			},
 		},
 	],

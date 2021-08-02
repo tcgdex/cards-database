@@ -3,11 +3,11 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Venusaur-EX",
+		en: "Venusaur EX",
 		fr: "Florizarre-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,7 +37,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Impact Poison",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep and Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Asleep and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
 			},
 			damage: 80,

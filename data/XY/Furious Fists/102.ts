@@ -4,7 +4,7 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "Training Center",
-		fr: "Centre d'Entraînement",
+		fr: "Centre d’Entraînement",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",

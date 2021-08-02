@@ -47,11 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Midair Strike",
-				fr: "Coup en l'Air",
+				fr: "Coup en l’Air",
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: "50+",
 

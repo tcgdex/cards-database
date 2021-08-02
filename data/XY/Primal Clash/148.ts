@@ -3,7 +3,7 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Kyogre-EX",
+		en: "Kyogre EX",
 		fr: "Kyogre-EX",
 	},
 	illustrator: "5ban Graphics",
@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Vibraqua",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 30,

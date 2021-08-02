@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Delphox BREAK",
 		fr: "Goupelin TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		655,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Delphox",
 		fr: "Goupelin",
 	},
+
 	stage: "BREAK",
 
 	abilities: [
@@ -38,12 +43,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

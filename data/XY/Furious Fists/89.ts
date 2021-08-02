@@ -4,7 +4,7 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "Energy Switch",
-		fr: "Échange d'Énergie",
+		fr: "Échange d’Énergie",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",

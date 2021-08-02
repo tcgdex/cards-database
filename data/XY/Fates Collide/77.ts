@@ -37,7 +37,7 @@ const card: Card = {
 				en: "This attack can be used even if this Pokémon is Asleep. If it is, this attack does 90 more damage.",
 				fr: "Cette attaque peut être utilisée même si ce Pokémon est Endormi. S'il l'est, cette attaque inflige 90 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Avale",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 50,

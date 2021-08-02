@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Barrière Lunaire",
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon by Dragon Pokémon.",
+				en: "During your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon by Dragon Pokémon.",
 				fr: "Pendant le prochain tour de votre adversaire, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par des Pokémon Dragon.",
 			},
 			damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

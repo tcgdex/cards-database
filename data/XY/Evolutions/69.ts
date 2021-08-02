@@ -6,22 +6,23 @@ const card: Card = {
 		en: "Doduo",
 		fr: "Doduo",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
-	category: "Trainer",
-
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		84,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
-
 
 	weaknesses: [
 		{
@@ -29,19 +30,28 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
-	effect: {
-		en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-		fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
-	},
 
+	attacks: [{
+		name: {
+			en: "Fury Attack"
+		},
 
+		effect: {
+			en: "Flip 3 coins. This attack does 10 damage times the number of heads."
+		},
+
+		damage: "10×",
+		cost: ["Colorless"]
+	}]
 }
 
 export default card

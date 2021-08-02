@@ -53,7 +53,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 20 more damage and heal 20 damage from this Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires et vous soignez 20 dégâts à ce Pokémon.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

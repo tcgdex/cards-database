@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Garchomp",
 		fr: "Carchacrok",
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		445,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Gabite",
 		fr: "Carmache",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -51,13 +55,14 @@ const card: Card = {
 				fr: "Arrachage",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 80 more damage.",
+				en: "If your opponent’s Active Pokémon is a Pokémon-EX, this attack does 80 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 80 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -65,10 +70,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

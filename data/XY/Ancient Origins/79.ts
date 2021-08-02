@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Défaussez toute carte Stade en jeu. Ensuite, piochez une carte.",
+		en: "Discard any Stadium card in play. Then, draw a card."
 	},
 	trainerType: "Item",
 

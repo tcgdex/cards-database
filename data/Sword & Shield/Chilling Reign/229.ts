@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Mische bis zu 2 Fokussierter-Angriff-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -50,7 +50,7 @@ const card: Card = {
 				en: "If you have more Prize cards left than your opponent, this attack does 80 more damage.",
 				fr: "S'il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Folle Éclaboussure",
 			},
 			effect: {
-				en: "This attack does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 80,
@@ -58,7 +58,7 @@ const card: Card = {
 				en: "Flip a coin for each Water Energy attached to this Pokémon. This attack does 30 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Water attachée à ce Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 90,
+			damage: "90+",
 
 		},
 	],

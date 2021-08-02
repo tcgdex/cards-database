@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Pression",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, any damage done by attacks from your opponent's Active Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				en: "As long as this Pokémon is your Active Pokémon, any damage done by attacks from your opponent’s Active Pokémon is reduced by 20 (before applying Weakness and Resistance).",
 				fr: "Tant que ce Pokémon est votre Pokémon Actif, tous les dégâts infligés par des attaques du Pokémon Actif de votre adversaire sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				fr: "Rage Brûlante",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 60 more damage.",
+				en: "If your opponent’s Active Pokémon is a Pokémon-EX, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

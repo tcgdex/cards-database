@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à l'un des Pokémon de votre adversaire.",
+		fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée à l’un des Pokémon de votre adversaire.",
 		en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent’s Pokémon."
 	},
 	trainerType: "Item",

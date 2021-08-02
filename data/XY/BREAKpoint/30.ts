@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Amulette Éolienne",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, prevent all effects of your opponent's attacks, except damage, done to each of your Pokémon. (Existing effects are not removed.)",
+				en: "As long as this Pokémon is your Active Pokémon, prevent all effects of your opponent’s attacks, except damage, done to each of your Pokémon. (Existing effects are not removed.)",
 				fr: "Tant que ce Pokémon est votre Pokémon Actif, évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon. (Les effets déjà en action ne sont pas retirés.)",
 			},
 		},

@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Forteresse Métallique",
 			},
 			effect: {
-				en: "Prevent all effects of your opponent's attacks, including damage, done to your Benched Pokémon.",
+				en: "Prevent all effects of your opponent’s attacks, including damage, done to your Benched Pokémon.",
 				fr: "Évitez tous les effets des attaques de votre adversaire, y compris les dégâts, infligés à vos Pokémon de Banc.",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Pression de Garde",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 60,

@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Carnareket",
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon. The Defending Pokémon is Knocked Out at the end of your opponent's next turn.",
+				en: "Discard all Energy attached to this Pokémon. The Defending Pokémon is Knocked Out at the end of your opponent’s next turn.",
 				fr: "Défaussez toutes les Énergies attachées à ce Pokémon. Le Pokémon Défenseur est mis K.O. à la fin du prochain tour de votre adversaire.",
 			},
 

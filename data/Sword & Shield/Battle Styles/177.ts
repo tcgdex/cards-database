@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Du kannst diese Karte nur spielen, wenn es die letzte Karte auf deiner Hand ist.\n\nDurchsuche dein Deck nach 1 Fokussierter-Angriff-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ziehe 5 Karten."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

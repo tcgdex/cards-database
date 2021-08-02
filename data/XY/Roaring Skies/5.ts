@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Beautifly",
 		fr: "Charmillon",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		267,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Silcoon",
 		fr: "Armulys",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -32,11 +37,12 @@ const card: Card = {
 				fr: "Écailles Miraculeuses",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon-EX.",
+				en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon-EX.",
 				fr: "Évitez tous les dégâts infligés à ce Pokémon par des attaques des Pokémon-EX de votre adversaire.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,10 +70,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

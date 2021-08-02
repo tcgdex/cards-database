@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Plasmagie",
 			},
 			effect: {
-				en: "Move 2 damage counters from each of your Pokémon to your opponent's Active Pokémon.",
+				en: "Move 2 damage counters from each of your Pokémon to your opponent’s Active Pokémon.",
 				fr: "Déplacez 2 marqueurs de dégâts de chacun de vos Pokémon vers le Pokémon Actif de votre adversaire.",
 			},
 

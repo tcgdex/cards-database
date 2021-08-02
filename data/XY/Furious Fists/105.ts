@@ -4,7 +4,7 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "Heracross EX",
-		fr: "Scarhino-EX",
+		fr: "Scarhino EX",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
-				fr: "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
+				fr: "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s’inflige 20 dégâts.",
 			},
 			damage: "80+",
 

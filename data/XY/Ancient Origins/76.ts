@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Cherchez dans votre deck un Pokémon avec 90 PV ou moins, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+		en: "Search your deck for a Pokémon with 90 HP or less, reveal it, and put it into your hand. Shuffle your deck afterward."
 	},
 	trainerType: "Item",
 

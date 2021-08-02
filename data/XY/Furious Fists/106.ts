@@ -4,7 +4,7 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "Seismitoad EX",
-		fr: "Crapustule-EX",
+		fr: "Crapustule EX",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 damage to 2 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à 2 de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Cette attaque inflige 30 dégâts à 2 de vos Pokémon de Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 130,
 

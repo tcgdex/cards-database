@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Expansion",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 30,
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 60,
+			damage: "60×",
 
 		},
 	],

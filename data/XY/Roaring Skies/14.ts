@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Fletchinder",
 		fr: "Braisillon",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		662,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Fletchling",
 		fr: "Passerouge",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,13 +39,14 @@ const card: Card = {
 				fr: "Picpic Piqueur",
 			},
 			effect: {
-				en: "Before doing damage, discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
+				en: "Before doing damage, discard all Pokémon Tool cards attached to your opponent’s Active Pokémon.",
 				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
 			},
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -49,10 +54,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

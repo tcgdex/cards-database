@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Déraillement",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to your opponent's Active Pokémon.",
+				en: "Discard a Special Energy attached to your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],

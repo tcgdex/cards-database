@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Discard the top 2 cards of your deck. This attack does 50 more damage for each Supporter card discarded in this way.",
 				fr: "Défaussez les 2 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Supporter défaussée de cette façon.",
 			},
-			damage: 150,
+			damage: "150+",
 
 		},
 	],

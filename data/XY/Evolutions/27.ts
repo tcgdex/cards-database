@@ -3,11 +3,11 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "M Slowbro-EX",
+		en: "M Slowbro EX",
 		fr: "M-Flagadoss-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,10 +37,10 @@ const card: Card = {
 				fr: "Tournicote",
 			},
 			effect: {
-				en: "This Pokémon is now Confused. During your next turn, this Pokémon's Loll Roll Spin attack does 100 more damage (before applying Weakness and Resistance).",
+				en: "This Pokémon is now Confused. During your next turn, this Pokémon’s Loll Roll Spin attack does 100 more damage (before applying Weakness and Resistance).",
 				fr: "Ce Pokémon est maintenant Confus. Pendant votre prochain tour, l’attaque Tournicote de ce Pokémon inflige 100 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 	],

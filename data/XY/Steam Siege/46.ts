@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Transfert de Douleur",
 			},
 			effect: {
-				en: "Move 1 damage counter from 1 of your Pokémon to 1 of your opponent's Pokémon.",
+				en: "Move 1 damage counter from 1 of your Pokémon to 1 of your opponent’s Pokémon.",
 				fr: "Déplacez 1 marqueur de dégâts de l’un de vos Pokémon vers l’un des Pokémon de votre adversaire.",
 			},
 

@@ -38,7 +38,7 @@ const card: Card = {
 				en: "If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 50 more damage.",
 				fr: "Si ce Pokémon était sur le Banc et est devenu votre Pokémon Actif pendant ce tour, cette attaque inflige 50 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Siphon",
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 80,

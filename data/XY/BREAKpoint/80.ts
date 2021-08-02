@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Coup d'Fouet à Clous",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Pokémon for each Colorless in that Pokémon's Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your opponent’s Pokémon for each Colorless in that Pokémon’s Retreat Cost. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire pour chaque Colorless dans son Coût de Retraite. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 

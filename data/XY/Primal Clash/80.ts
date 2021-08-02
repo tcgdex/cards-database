@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Force Pure",
 			},
 			effect: {
-				en: "Put 4 damage counters on your opponent's Pokémon in any way you like.",
+				en: "Put 4 damage counters on your opponent’s Pokémon in any way you like.",
 				fr: "Placez 4 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Coup d'Pied Éolien",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 60,

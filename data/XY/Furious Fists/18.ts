@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Ignore all Colorless Energy in the attack cost of each of your Poliwag, Poliwhirl, and Poliwrath’s attacks.",
-				fr: "Ignorez toutes les Énergies Colorless dans les coûts d'attaque des attaques de vos Ptitard, Têtarte et Tartard.",
+				fr: "Ignorez toutes les Énergies Colorless dans les coûts d’attaque des attaques de vos Ptitard, Têtarte et Tartard.",
 			},
 		},
 	],

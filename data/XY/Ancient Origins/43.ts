@@ -3,11 +3,11 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "M Tyranitar-EX",
+		en: "M Tyranitar EX",
 		fr: "M Tyranocif-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -38,9 +38,9 @@ const card: Card = {
 				fr: "Double Θ",
 			},
 			effect: {
-				en: "This attack does 60 more damage for each damage counter on your opponent's Active Pokémon.",
+				en: "This attack does 60 more damage for each damage counter on your opponent’s Active Pokémon.",
 			},
-			damage: 110,
+			damage: "110+",
 
 		},
 		{

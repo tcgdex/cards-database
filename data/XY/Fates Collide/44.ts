@@ -52,7 +52,7 @@ const card: Card = {
 				en: "If Mothim is on your Bench, this attack does 60 more damage.",
 				fr: "Si Papilord est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

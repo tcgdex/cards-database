@@ -3,7 +3,7 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Primal Groudon-EX",
+		en: "Primal Groudon EX",
 		fr: "Primo-Groudon-EX",
 	},
 	illustrator: "5ban Graphics",
@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Barrière Ω",
+				en: "Ω Barrier"
 			},
 			effect: {
 				fr: "Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon.",
+				en: "Whenever your opponent plays a Trainer card (excluding Pokémon Tools and Stadium cards), prevent all effects of that card done to this Pokémon."
 			},
 		},
 	],
@@ -50,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 		{

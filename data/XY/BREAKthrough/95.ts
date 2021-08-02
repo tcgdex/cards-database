@@ -36,7 +36,7 @@ const card: Card = {
 				en: "If your opponent has only 1 Prize card left, this attack does 60 more damage.",
 				fr: "S'il ne reste qu'une seule carte Récompense à votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
