@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Feu de Brousse",
 			},
 			effect: {
-				en: "Discard a Grass Energy attached to your opponent's Active Pokémon.",
+				en: "Discard a Grass Energy attached to your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie Grass attachée au Pokémon Actif de votre adversaire.",
 			},
 

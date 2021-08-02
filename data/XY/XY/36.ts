@@ -48,16 +48,16 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "��2"
+			value: "×2"
 		},
 	],
 

@@ -19,7 +19,7 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "タマタマ[Exeggcute]",
+		en: "Exeggcute",
 		fr: "Noeunoeuf",
 	},
 	stage: "Stage1",
@@ -36,10 +36,10 @@ const card: Card = {
 				fr: "ふみつけ [Écrasement]",
 			},
 			effect: {
-				en: "コインを1回投げオモテなら、10ダメージを追加。 Flip a coin. If heads, this attack does 10 more damage.",
+				en: "コインを1回投げオモテなら、10ダメージを追加。\nFlip a coin. If heads, this attack does 10 more damage.",
 				fr: "コインを1回投げオモテなら、10ダメージを追加。\nLancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

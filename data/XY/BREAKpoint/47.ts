@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Luxray BREAK",
 		fr: "Luxray TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		405,
 	],
+
 	hp: 170,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Luxray",
 		fr: "Luxray",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -40,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 40 more damage for each heads.",
 			},
-			damage: 130,
+			damage: "130+",
 
 		},
 		{
@@ -61,11 +65,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

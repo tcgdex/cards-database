@@ -38,7 +38,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the number of damage counters on this Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

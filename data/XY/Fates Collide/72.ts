@@ -3,11 +3,11 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Diancie-EX",
+		en: "Diancie EX",
 		fr: "Diancie-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Voile Étincelant",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 30 (after applying Weakness and Resistance).",
+				en: "As long as this Pokémon is your Active Pokémon, any damage done to your Pokémon by an opponent’s attack is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Tant que ce Pokémon est votre Pokémon Actif, tous les dégâts infligés à vos Pokémon par une attaque de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				en: "If there is any Stadium card in play, this attack does 50 more damage.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 50 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Défaussez votre main et piochez 7 cartes.",
+		en: "Discard your hand and draw 7 cards."
 	},
 	trainerType: "Supporter",
 

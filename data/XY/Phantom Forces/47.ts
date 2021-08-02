@@ -35,8 +35,8 @@ const card: Card = {
 				fr: "Prise Pétrifiante",
 			},
 			effect: {
-				en: "Your opponent can't attach Energy from his or her hand to the Defending Pokémon during his or her next turn.",
-				fr: "Votre adversaire ne peut pas attacher d'Énergie de sa main au Pokémon Défenseur pendant son prochain tour.",
+				en: "Your opponent can’t attach Energy from his or her hand to the Defending Pokémon during his or her next turn.",
+				fr: "Votre adversaire ne peut pas attacher d’Énergie de sa main au Pokémon Défenseur pendant son prochain tour.",
 			},
 			damage: 20,
 
@@ -52,8 +52,8 @@ const card: Card = {
 				fr: "Direct Toxik",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 60,
 

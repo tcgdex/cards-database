@@ -26,11 +26,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Bide Barricade",
-				fr: "Épreuve d'Endurance",
+				fr: "Épreuve d’Endurance",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Psychic Pokémon).",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent (à part les Pokémon Psychic).",
+				en: "As long as this Pokémon is your Active Pokémon, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Psychic Pokémon).",
+				fr: "Tant que ce Pokémon est votre Pokémon Actif, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n’a pas de talent (à part les Pokémon Psychic).",
 			},
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 				fr: "Assaut Psychique",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+				en: "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

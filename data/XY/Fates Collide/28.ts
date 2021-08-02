@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Bombe Ballon",
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, discard 2 cards from the top of your opponent's deck.",
+				en: "Flip 2 coins. For each heads, discard 2 cards from the top of your opponent’s deck.",
 				fr: "Lancez 2 pièces. Pour chaque côté face, défaussez 2 cartes du dessus du deck de votre adversaire.",
 			},
 

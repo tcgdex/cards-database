@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Surveillance",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				en: "Switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon.",
 				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 			},
 
@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Aura Inversée",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Darkness or Fairy Pokémon, it can't attack during your opponent's next turn.",
+				en: "If the Defending Pokémon is a Darkness or Fairy Pokémon, it can’t attack during your opponent’s next turn.",
 				fr: "Si le Pokémon Défenseur est un Pokémon Darkness ou Fairy, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 70,

@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Avale",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
@@ -54,7 +54,7 @@ const card: Card = {
 				fr: "Vibraqua",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 70,

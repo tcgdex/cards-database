@@ -3,7 +3,7 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Primal Kyogre-EX",
+		en: "Primal Kyogre EX",
 		fr: "Primo-Kyogre-EX",
 	},
 	illustrator: "5ban Graphics",
@@ -38,7 +38,7 @@ const card: Card = {
 				fr: "Max Θ",
 			},
 			effect: {
-				en: "Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack does 30 damage to each of your opponent's Benched Pokémon-EX. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack does 30 damage to each of your opponent’s Benched Pokémon-EX. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 150,
 

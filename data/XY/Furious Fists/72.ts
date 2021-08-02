@@ -35,8 +35,8 @@ const card: Card = {
 				fr: "Ruban Bouclé",
 			},
 			effect: {
-				en: "Move an Energy attached to your opponent's Active Pokémon to 1 of his or her Benched Pokémon.",
-				fr: "Déplacez une Énergie attachée au Pokémon Actif de votre adversaire vers l'un des Pokémon de Banc de votre adversaire.",
+				en: "Move an Energy attached to your opponent’s Active Pokémon to 1 of his or her Benched Pokémon.",
+				fr: "Déplacez une Énergie attachée au Pokémon Actif de votre adversaire vers l’un des Pokémon de Banc de votre adversaire.",
 			},
 			damage: 30,
 
@@ -52,8 +52,8 @@ const card: Card = {
 				fr: "Écho",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				en: "During your next turn, this Pokémon’s Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
+				fr: "Pendant votre prochain tour, l’attaque Écho de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 50,
 

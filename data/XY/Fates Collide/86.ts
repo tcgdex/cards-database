@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Nettoyage",
 			},
 			effect: {
-				en: "Discard a Pokémon Tool card attached to 1 of your opponent's Pokémon.",
+				en: "Discard a Pokémon Tool card attached to 1 of your opponent’s Pokémon.",
 				fr: "Défaussez une carte Outil Pokémon attachée à l'un des Pokémon de votre adversaire.",
 			},
 

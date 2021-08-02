@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Carvanha",
+		en: "Team Aqua’s Carvanha",
 		fr: "Carvanha de la Team Aqua",
 	},
 	illustrator: "Sanosuke Sakuma",
@@ -35,7 +35,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

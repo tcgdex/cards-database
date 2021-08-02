@@ -3,7 +3,7 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Dragonite-EX",
+		en: "Dragonite EX",
 		fr: "Dracolosse-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -45,7 +45,7 @@ const card: Card = {
 				fr: "Talent : Élévation",
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez ajouter 2 Pokémon de base (sauf Dracolosse-EX) de votre pile de défausse à votre main.",
 			},
 			damage: 130,

@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Hanter",
 			},
 			effect: {
-				en: "Put 2 damage counters on your opponent's Active Pokémon.",
+				en: "Put 2 damage counters on your opponent’s Active Pokémon.",
 				fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
 			},
 

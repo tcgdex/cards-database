@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Apprentissage",
 			},
 			effect: {
-				en: "If your opponent's Pokémon used an attack during his or her last turn, use it as this attack.",
+				en: "If your opponent’s Pokémon used an attack during his or her last turn, use it as this attack.",
 				fr: "Si l'un des Pokémon de votre adversaire a utilisé une attaque pendant son dernier tour, utilisez-la en tant que cette attaque.",
 			},
 

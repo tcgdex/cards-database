@@ -35,7 +35,7 @@ const card: Card = {
 				en: "If this Pokémon has any Darkness Energy attached to it, this attack does 20 more damage.",
 				fr: "Si de l'Énergie Darkness est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

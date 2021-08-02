@@ -29,11 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Thorn Tempest",
-				fr: "Tempête d'Épines",
+				fr: "Tempête d’Épines",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent's Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez placer un marqueur de dégâts sur chacun des Pokémon de votre adversaire.",
+				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent’s Pokémon.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon, vous pouvez placer un marqueur de dégâts sur chacun des Pokémon de votre adversaire.",
 			},
 		},
 	],
@@ -48,10 +48,10 @@ const card: Card = {
 				fr: "Fer Destructeur",
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+				en: "This attack does 20 more damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

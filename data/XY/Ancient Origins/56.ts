@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Espièglerie Venteuse",
 			},
 			effect: {
-				en: "Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.",
+				en: "Move all damage counters from 1 of your Benched Pokémon to your opponent’s Active Pokémon.",
 				fr: "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de Banc vers le Pokémon Actif de votre adversaire.",
 			},
 

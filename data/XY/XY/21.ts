@@ -39,7 +39,7 @@ const card: Card = {
 				en: "You may discard the top card of your deck. If that card is a Fire Energy card, this attack does 50 more damage.",
 				fr: "Vous pouvez défausser la carte du dessus de votre deck. Si cette carte est une carte Énergie Fire, cette attaque inflige 50 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{

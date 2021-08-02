@@ -3,11 +3,11 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Trevenant-EX",
+		en: "Trevenant EX",
 		fr: "Desséliande-EEX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Forêt Sombre",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "This attack does 20 more damage for each Grass Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Grass attachée à ce Pokémon.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

@@ -3,11 +3,11 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Charizard-EX",
+		en: "Charizard EX",
 		fr: "Dracaufeu-EX",
 	},
 	illustrator: "PLANETA",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Explo-Combustion",
 			},
 			effect: {
-				en: "This Pokémon can't use Combustion Blast during your next turn.",
+				en: "This Pokémon can’t use Combustion Blast during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
 			},
 			damage: 150,

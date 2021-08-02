@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach as many basic Energy cards as you like from your hand to your Pokémon in any way you like.",
-				fr: "Attachez autant d'Énergies de base que vous voulez de votre main à vos Pokémon, de la manière que vous voulez.",
+				fr: "Attachez autant d’Énergies de base que vous voulez de votre main à vos Pokémon, de la manière que vous voulez.",
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 30 damage from each of your Pokémon that has any Energy attached to it.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon auquel de l'Énergie est attachée.",
+				fr: "Soignez 30 dégâts à chacun de vos Pokémon auquel de l’Énergie est attachée.",
 			},
 			damage: 70,
 

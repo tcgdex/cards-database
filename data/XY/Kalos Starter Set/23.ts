@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Granbull",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,7 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'Boule",
+				fr: "Coup d’Boule",
 			},
 
 			damage: 30,
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

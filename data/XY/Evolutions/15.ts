@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Leurre",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon. The new Active Pokémon can't retreat during your opponent's next turn.",
+				en: "Switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon. The new Active Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Le nouveau Pokémon Actif ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Ninetales BREAK",
 		fr: "Feunard TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		38,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Ninetales",
 		fr: "Feunard",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Discard all Fire Energy attached to this Pokémon. This attack does 60 more damage for each Energy card discarded in this way.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -57,11 +61,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

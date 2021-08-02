@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Slammeur",
 			},
 			effect: {
-				en: "Put a Basic Pokémon from your opponent's discard pile onto his or her Bench. Then, put 3 damage counters on that Pokémon.",
+				en: "Put a Basic Pokémon from your opponent’s discard pile onto his or her Bench. Then, put 3 damage counters on that Pokémon.",
 				fr: "Prenez un Pokémon de base dans la pile de défausse de votre adversaire et placez-le sur son Banc. Ensuite, placez 3 marqueurs de dégâts sur le Pokémon.",
 			},
 

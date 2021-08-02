@@ -3,11 +3,11 @@ import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Steelix-EX",
+		en: "Steelix EX",
 		fr: "Steelix-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -38,7 +38,7 @@ const card: Card = {
 				en: "You may do 50 more damage. If you do, this Pokémon does 20 damage to itself.",
 				fr: "Vous pouvez infliger 50 dégâts supplémentaires. Dans ce cas, ce Pokémon s’inflige 20 dégâts.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 		{
@@ -57,7 +57,7 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 100 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 100 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 100,
+			damage: "100×",
 
 		},
 	],

@@ -38,7 +38,7 @@ const card: Card = {
 				en: "If this Pokémon was healed during this turn, this attack does 80 more damage.",
 				fr: "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{

@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Ajoutez 2 Pokémon Grass de votre pile de défausse à votre main.",
+		en: "Put 2 Grass Pokémon from your discard pile into your hand."
 	},
 	trainerType: "Item",
 

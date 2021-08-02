@@ -39,7 +39,7 @@ const card: Card = {
 				en: "Each player reveals his or her hand. This attack does 20 damage times the number of Item cards revealed.",
 				fr: "Chaque joueur montre sa main. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Objet montrées.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{

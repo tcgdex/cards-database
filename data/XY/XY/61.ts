@@ -34,7 +34,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Drill",
-				fr: "Empal'Korne",
+				fr: "Empal’Korne",
 			},
 
 			damage: 50,
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Montagne Enragée",
 			},
 			effect: {
-				en: "Flip 2 coins. If both are heads, discard the top card of your opponent's deck for each damage counter on this Pokémon.",
+				en: "Flip 2 coins. If both are heads, discard the top card of your opponent’s deck for each damage counter on this Pokémon.",
 				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez la carte du dessus du deck de votre adversaire pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
 

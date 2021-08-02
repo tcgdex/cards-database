@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "À la fin du tour de votre adversaire, soignez 20 dégâts au Pokémon de base auquel cette carte est attachée.",
+		en: "At the end of your opponent’s turn, heal 20 damage from the Basic Pokémon this card is attached to."
 	},
 	trainerType: "Tool",
 

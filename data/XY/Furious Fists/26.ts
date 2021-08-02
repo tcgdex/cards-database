@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Bouclier de Glace",
 			},
 			effect: {
-				en: "Any damage done by an opponent's attack to each of your Water Pokémon that has any Water Energy attached to it is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés par une attaque de votre adversaire à chacun de vos Pokémon Water auquel de l'Énergie Water est attachée sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				en: "Any damage done by an opponent’s attack to each of your Water Pokémon that has any Water Energy attached to it is reduced by 20 (after applying Weakness and Resistance).",
+				fr: "Tous les dégâts infligés par une attaque de votre adversaire à chacun de vos Pokémon Water auquel de l’Énergie Water est attachée sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Vent Glace",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 70,

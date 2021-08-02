@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Enroulement",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's attacks do 60 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+				en: "During your next turn, this Pokémon’s attacks do 60 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, les attaques de ce Pokémon infligent 60 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 40,
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Coup Déchirant",
 			},
 			effect: {
-				en: "This Pokémon can't use Slashing Strike during your next turn.",
+				en: "This Pokémon can’t use Slashing Strike during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
 			},
 			damage: 80,

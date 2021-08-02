@@ -53,7 +53,7 @@ const card: Card = {
 				en: "Each player discards the top card of his or her deck. This attack does 60 more damage for each Energy card discarded in this way.",
 				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 60 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

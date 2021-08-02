@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Transport Coton",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				en: "Switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon.",
 				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 			},
 
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the number of your remaining Prize cards.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de vos cartes Récompense.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

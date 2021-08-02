@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Mélangez 5 Pokémon de votre pile de défausse avec votre deck.",
+		en: "Shuffle 5 Pokémon from your discard pile into your deck."
 	},
 	trainerType: "Item",
 

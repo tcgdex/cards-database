@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Échange",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,
@@ -23,7 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Échangez votre Pokémon Actif avec l'un de vos Pokémon de Banc.",
+		fr: "Échangez votre Pokémon Actif avec l’un de vos Pokémon de Banc.",
+		en: "Switch your Active Pokémon with 1 of your Benched Pokémon."
 	},
 	trainerType: "Item",
 

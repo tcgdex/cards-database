@@ -28,11 +28,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Forest's Curse",
+				en: "Forest’s Curse",
 				fr: "Maléfice Sylvain",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent can't play any Item cards from his or her hand.",
+				en: "As long as this Pokémon is your Active Pokémon, your opponent can’t play any Item cards from his or her hand.",
 				fr: "Tant que ce Pokémon est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Objet de sa main.",
 			},
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				fr: "Tacle Arborescent",
 			},
 			effect: {
-				en: "This attack does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 20 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 

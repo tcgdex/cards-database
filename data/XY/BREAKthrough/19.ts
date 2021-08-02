@@ -39,7 +39,7 @@ const card: Card = {
 				en: "Discard the top card of your deck. If that card is an Energy card, this attack does 30 more damage.",
 				fr: "Défaussez la carte du dessus de votre deck. Si c'est une carte Énergie, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

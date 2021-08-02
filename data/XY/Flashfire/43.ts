@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Influence Otique",
 			},
 			effect: {
-				en: "Move as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
+				en: "Move as many damage counters on your opponent’s Pokémon as you like to any of your opponent’s other Pokémon in any way you like.",
 				fr: "Déplacez autant de marqueurs de dégâts que vous voulez des Pokémon de votre adversaire vers les autres Pokémon de votre adversaire, de la manière que vous voulez.",
 			},
 
@@ -51,10 +51,10 @@ const card: Card = {
 				fr: "Psyko",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
+				en: "This attack does 10 more damage for each Energy attached to your opponent’s Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

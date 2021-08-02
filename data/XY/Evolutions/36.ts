@@ -54,7 +54,7 @@ const card: Card = {
 				en: "You may discard all Energy attached to this Pokémon. If you do, this attack does 70 more damage.",
 				fr: "Vous pouvez défausser toutes les Énergies attachées à ce Pokémon. Dans ce cas, cette attaque inflige 70 dégâts supplémentaires.",
 			},
-			damage: 70,
+			damage: "70+",
 
 		},
 	],

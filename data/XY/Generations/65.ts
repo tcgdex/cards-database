@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Mettez un Pokémon de votre pile de défausse sur le dessus de votre deck.",
+		en: "Put a Pokémon from your discard pile on top of your deck."
 	},
 	trainerType: "Item",
 

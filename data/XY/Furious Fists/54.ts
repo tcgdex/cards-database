@@ -3,11 +3,11 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Lucario-EX",
-		fr: "Lucario-EX",
+		en: "Lucario EX",
+		fr: "Lucario EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Coup Propulsé",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 30,
@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may draw cards until you have 6 cards in your hand.",
-				fr: "Vous pouvez piocher des cartes jusqu'à ce que vous ayez 6 cartes en main.",
+				fr: "Vous pouvez piocher des cartes jusqu’à ce que vous ayez 6 cartes en main.",
 			},
 			damage: 60,
 

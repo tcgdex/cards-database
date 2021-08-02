@@ -3,11 +3,11 @@ import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Venusaur-EX",
-		fr: "Florizarre-EX",
+		en: "Venusaur EX",
+		fr: "Florizarre EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

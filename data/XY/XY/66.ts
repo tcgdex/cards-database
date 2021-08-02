@@ -37,9 +37,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Marto-Poing",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
+				en: "Discard the top card of your opponent’s deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 60,

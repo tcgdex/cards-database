@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				fr: "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

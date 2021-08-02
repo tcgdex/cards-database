@@ -35,8 +35,8 @@ const card: Card = {
 				fr: "Ondes Étranges",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à l'un des Pokémon de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent’s Pokémon.",
+				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée à l’un des Pokémon de votre adversaire.",
 			},
 
 		},

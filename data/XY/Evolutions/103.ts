@@ -3,7 +3,7 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-EX",
+		en: "Mewtwo EX",
 		fr: "Mewtwo-EX",
 	},
 	illustrator: "Ryo Ueda",

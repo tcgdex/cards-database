@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Si le Pokémon auquel cette carte est attachée est mis K.O. par les dégâts d'une attaque de votre adversaire, placez toutes les Énergies de base lui étant attachées dans votre main.",
+		en: "If the Pokémon this card is attached to is Knocked Out by damage from an opponent’s attack, put all basic Energy attached to that Pokémon into your hand."
 	},
 	trainerType: "Tool",
 

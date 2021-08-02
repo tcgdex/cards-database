@@ -35,10 +35,10 @@ const card: Card = {
 				fr: "Chance Fourrure",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck. If that card is an Energy card, this attack does 60 more damage.",
+				en: "Discard the top card of your opponent’s deck. If that card is an Energy card, this attack does 60 more damage.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si c’est une carte Énergie, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],

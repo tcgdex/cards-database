@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Garde du Corps",
 			},
 			effect: {
-				en: "Prevent all effects of attacks done to you or your hand by your opponent's Pokémon. Remove any existing effects.",
+				en: "Prevent all effects of attacks done to you or your hand by your opponent’s Pokémon. Remove any existing effects.",
 				fr: "Évitez tous les effets d'attaques infligés à vous-même ou à votre main par les Pokémon de votre adversaire. Retirez tous les effets déjà en action.",
 			},
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 60,
+			damage: "60×",
 
 		},
 	],

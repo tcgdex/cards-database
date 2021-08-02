@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Dernier Mot",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon. During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 60 (before applying Weakness and Resistance).",
+				en: "Switch this Pokémon with 1 of your Benched Pokémon. During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 60 (before applying Weakness and Resistance).",
 				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc. Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 60 (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 10,
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Repoussoir",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 90,

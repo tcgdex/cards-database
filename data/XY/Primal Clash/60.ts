@@ -26,9 +26,11 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Barrière Ω",
+				en: "Ω Barrier"
 			},
 			effect: {
 				fr: "Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon.",
+				en: "Whenever your opponent plays a Trainer card (excluding Pokémon Tools and Stadium cards), prevent all effects of that card done to this Pokémon."
 			},
 		},
 	],
@@ -42,7 +44,7 @@ const card: Card = {
 				fr: "Crocs Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 10,

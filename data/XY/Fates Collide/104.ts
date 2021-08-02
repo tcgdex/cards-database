@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Échangez l'un des Pokémon Méga-Évolution du Banc de votre adversaire avec son Pokémon Actif.",
+		en: "Switch 1 of your opponent’s Benched Mega Evolution Pokémon with his or her Active Pokémon."
 	},
 	trainerType: "Item",
 

@@ -53,7 +53,7 @@ const card: Card = {
 				en: "This attack does 10 damage times the number of cards in your hand.",
 				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de cartes dans votre main.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

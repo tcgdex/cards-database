@@ -3,11 +3,11 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "M Heracross-EX",
-		fr: "M-Scarhino-EX",
+		en: "M Heracross EX",
+		fr: "M Scarhino EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -40,7 +40,7 @@ const card: Card = {
 				en: "This attack does 180 damage minus 10 damage for each damage counter on this Pokémon.",
 				fr: "Cette attaque inflige 180 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
-			damage: 180,
+			damage: "180−",
 
 		},
 	],

@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				fr: "Cherchez jusqu’à 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -51,10 +51,10 @@ const card: Card = {
 				fr: "Déchirure",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 30 more damage.",
+				en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 30 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

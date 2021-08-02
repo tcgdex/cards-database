@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Mâchouille",
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 10,
@@ -50,10 +50,10 @@ const card: Card = {
 				fr: "Morsure d’Ombre",
 			},
 			effect: {
-				en: "This attack does 60 damage times the number of Special Energy cards in your opponent's discard pile.",
+				en: "This attack does 60 damage times the number of Special Energy cards in your opponent’s discard pile.",
 				fr: "Cette attaque inflige 60 dégâts multipliés par le nombre de cartes Énergie spéciale dans la pile de défausse de votre adversaire.",
 			},
-			damage: 60,
+			damage: "60×",
 
 		},
 	],

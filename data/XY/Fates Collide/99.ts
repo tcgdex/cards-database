@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Soignez 50 dégâts à l'un de vos Pokémon auquel de l'Énergie Fairy est attachée.",
+		en: "Heal 50 damage from 1 of your Pokémon that has any Fairy Energy attached to it."
 	},
 	trainerType: "Item",
 

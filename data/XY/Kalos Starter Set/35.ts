@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Poké Ball",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,
@@ -23,7 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Lancez une pièce. Si c'est face, cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+		fr: "Lancez une pièce. Si c’est face, cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+		en: "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
 	},
 	trainerType: "Item",
 

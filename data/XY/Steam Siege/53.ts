@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Vantardise",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 20,
@@ -51,10 +51,10 @@ const card: Card = {
 				fr: "Lancer Plein d’Esprit",
 			},
 			effect: {
-				en: "If, before doing damage, your opponent's Active Pokémon has more remaining HP than this Pokémon, this attack does 60 more damage.",
+				en: "If, before doing damage, your opponent’s Active Pokémon has more remaining HP than this Pokémon, this attack does 60 more damage.",
 				fr: "Si, avant d’infliger des dégâts, il reste plus de PV au Pokémon Actif de votre adversaire qu’à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

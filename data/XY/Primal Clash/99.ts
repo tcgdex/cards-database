@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Faux-Chage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, put damage counters on your opponent's Active Pokémon until its remaining HP is 10.",
+				en: "Flip a coin. If heads, put damage counters on your opponent’s Active Pokémon until its remaining HP is 10.",
 				fr: "Lancez une pièce. Si c'est face, placez des marqueurs de dégâts sur le Pokémon Actif de votre adversaire jusqu'à ce qu'il ait 10 PV.",
 			},
 

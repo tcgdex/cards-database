@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Dévore-Montagne",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
+				en: "Discard the top card of your opponent’s deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 

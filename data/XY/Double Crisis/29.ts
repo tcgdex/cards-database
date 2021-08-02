@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Ajoutez jusqu'à 3 Pokémon de la Team Magma de votre pile de défausse à votre main.",
+		en: "Put up to 3 Team Magma Pokémon from your discard pile into your hand."
 	},
 	trainerType: "Supporter",
 

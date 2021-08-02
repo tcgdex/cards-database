@@ -3,7 +3,7 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "M Charizard-EX",
+		en: "M Charizard EX",
 		fr: "M-Dracaufeu-EX",
 	},
 	illustrator: "5ban Graphics",

@@ -44,30 +44,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Horror Note",
-				fr: "Gigantrouye",
-			},
-			effect: {
-				en: "This attack does 10 damage times the number of cards in your hand.",
-				fr: "Si de l'Énergie Grass est attachée à ce Pokémon, ses PV maximum sont de 200.",
-			},
-			damage: 10,
-
-		},
-		{
-			cost: [
-				"Psychic",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Note Angoissante",
 			},
 			effect: {
+				en: "This attack does 10 damage times the number of cards in your hand.",
 				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de cartes dans votre main.",
 			},
-			damage: "10x",
+			damage: "10×",
 
-		},
+		}
 	],
 	weaknesses: [
 		{

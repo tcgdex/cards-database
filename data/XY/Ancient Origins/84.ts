@@ -3,7 +3,7 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Sceptile-EX",
+		en: "Sceptile EX",
 		fr: "Jungko-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Poison Dodo",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Asleep and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
 			},
 			damage: 10,
@@ -48,10 +48,10 @@ const card: Card = {
 				fr: "Griffe Invisible",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 70 more damage.",
+				en: "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 70 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 70 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

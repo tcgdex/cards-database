@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Puissance",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Flop attack's base damage is 50.",
+				en: "During your next turn, this Pokémon’s Flop attack’s base damage is 50.",
 				fr: "Pendant votre prochain tour, les dégâts de base de l’attaque Flop de ce Pokémon sont de 50.",
 			},
 

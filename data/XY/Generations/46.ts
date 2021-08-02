@@ -3,11 +3,11 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Golem-EX",
+		en: "Golem EX",
 		fr: "Grolem-EX",
 	},
 	illustrator: "Toyste Beach",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

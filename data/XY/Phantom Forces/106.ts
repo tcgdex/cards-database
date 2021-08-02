@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Prenez un Pokémon de base dans la pile de défausse de votre adversaire et placez-le sur son Banc.",
+		en: "Put a Basic Pokémon from your opponent’s discard pile onto his or her Bench."
 	},
 	trainerType: "Item",
 

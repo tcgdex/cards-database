@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Soignez 20 dégâts à chacun de vos Pokémon.",
+		en: "Heal 20 damage from each of your Pokémon."
 	},
 	trainerType: "Item",
 

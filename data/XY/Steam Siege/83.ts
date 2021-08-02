@@ -36,7 +36,7 @@ const card: Card = {
 				en: "If your opponent has any Pokémon BREAK in play, this attack does 60 more damage.",
 				fr: "Si votre adversaire a un Pokémon TURBO en jeu, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{

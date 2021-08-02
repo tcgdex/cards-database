@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 50 damage times the number of heads. This Pokémon is now Confused.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face. Ce Pokémon est maintenant Confus.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],

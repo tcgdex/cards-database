@@ -3,11 +3,11 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "M Sceptile-EX",
+		en: "M Sceptile EX",
 		fr: "M Jungko-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

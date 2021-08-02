@@ -46,7 +46,7 @@ const card: Card = {
 				fr: "Courant Tourbillonnant",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused. That Pokémon can't retreat during your opponent's next turn.",
+				en: "Your opponent’s Active Pokémon is now Confused. That Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Ce dernier ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,

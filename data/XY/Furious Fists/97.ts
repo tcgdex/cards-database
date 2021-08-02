@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Évitez tous les dégâts infligés à des Pokémon de Banc par des attaques (les vôtres et ceux de votre adversaire).",
+		en: "Prevent all damage done to Benched Pokémon by attacks (both yours and your opponent’s)."
 	},
 	trainerType: "Stadium",
 

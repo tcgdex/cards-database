@@ -45,7 +45,7 @@ const card: Card = {
 				fr: "Mimi-Queue",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				en: "Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 

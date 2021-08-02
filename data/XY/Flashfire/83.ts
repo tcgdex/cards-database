@@ -29,13 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Powerful Friends",
-				fr: "Force de l'Amitié",
+				fr: "Force de l’Amitié",
 			},
 			effect: {
 				en: "If you have any Stage 2 Pokémon on your Bench, this attack does 70 more damage.",
 				fr: "Si vous avez un Pokémon de Niveau 2 sur votre Banc, cette attaque inflige 70 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{

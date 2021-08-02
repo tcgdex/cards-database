@@ -53,7 +53,7 @@ const card: Card = {
 				en: "You may discard all Lightning Energy attached to this Pokémon. If you do, this attack does 50 more damage.",
 				fr: "Vous pouvez défausser toutes les Énergies Lightning attachées à ce Pokémon. Dans ce cas, cette attaque inflige 50 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

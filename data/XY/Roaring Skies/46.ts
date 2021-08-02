@@ -26,14 +26,23 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Ability",
+			type: "Ancient Trait",
 			name: {
-				en: "Serene Grace",
+				en: "Δ Evolution",
 				fr: "Évolution Δ",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may look at the top 8 cards of your deck. Choose any basic Energy cards you find there and attach them to your Pokémon in any way you like. Shuffle the other cards back into your deck.",
+				en: "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
 				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
+			},
+		},
+		{
+			type: "Ability",
+			name: {
+				en: "Serene Grace",
+			},
+			effect: {
+				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may look at the top 8 cards of your deck. Choose any basic Energy cards you find there and attach them to your Pokémon in any way you like. Shuffle the other cards back into your deck.",
 			},
 		},
 	],

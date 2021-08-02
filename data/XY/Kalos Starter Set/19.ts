@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Scalpion",
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

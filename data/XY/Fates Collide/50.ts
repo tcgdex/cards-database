@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Rune Protect",
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-EX.",
+				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Pokémon-EX.",
 				fr: "Évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon-EX de votre adversaire.",
 			},
 		},

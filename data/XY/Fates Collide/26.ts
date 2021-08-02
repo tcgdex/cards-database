@@ -3,11 +3,11 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "M Alakazam-EX",
+		en: "M Alakazam EX",
 		fr: "M-Alakazam-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -36,10 +36,10 @@ const card: Card = {
 				fr: "Force Zen",
 			},
 			effect: {
-				en: "This attack does 30 more damage for each damage counter on your opponent's Active Pokémon.",
+				en: "This attack does 30 more damage for each damage counter on your opponent’s Active Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

@@ -36,8 +36,8 @@ const card: Card = {
 				fr: "Pas Délicats",
 			},
 			effect: {
-				en: "You may move an Energy attached to your opponent's Active Pokémon to 1 of your opponent's Benched Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie attachée au Pokémon Actif de votre adversaire vers l'un des Pokémon de Banc de votre adversaire.",
+				en: "You may move an Energy attached to your opponent’s Active Pokémon to 1 of your opponent’s Benched Pokémon.",
+				fr: "Vous pouvez déplacer une Énergie attachée au Pokémon Actif de votre adversaire vers l’un des Pokémon de Banc de votre adversaire.",
 			},
 			damage: 30,
 
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Rafale Psy",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 60,

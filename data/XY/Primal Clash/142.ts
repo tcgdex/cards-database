@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Le Pokémon auquel cette carte est attachée n'a pas de Faiblesse.",
+		en: "The Pokémon this card is attached to has no Weakness."
 	},
 	trainerType: "Tool",
 

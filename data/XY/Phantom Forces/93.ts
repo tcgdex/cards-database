@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Les attaques de chaque Pokémon Psychic (les vôtres et ceux de votre adversaire) coûtent Colorless de moins.",
+		en: "Each Psychic Pokémon’s attacks (both yours and your opponent’s) cost Colorless less."
 	},
 	trainerType: "Stadium",
 

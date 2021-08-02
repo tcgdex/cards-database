@@ -50,10 +50,10 @@ const card: Card = {
 				fr: "Charge Miaou",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage. If tails, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, this attack does 40 more damage. If tails, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires. Si c'est pile, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

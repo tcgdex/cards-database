@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Hypnoblast",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 20,
@@ -52,10 +52,10 @@ const card: Card = {
 				fr: "Valse Hantée",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Asleep, this attack does 60 more damage.",
+				en: "If your opponent’s Active Pokémon is Asleep, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

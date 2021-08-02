@@ -3,7 +3,7 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Porygon-Z",
+		en: "Porygon Z",
 		fr: "Porygon-Z",
 	},
 	illustrator: "Naoki Saito",
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Redémarrage Numérique",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Faites dés-évoluer autant de vos Pokémon de Banc autant de fois que vous voulez. Placez chaque carte Évolution retirée de cette façon dans votre main.",
 			},
 			damage: 50,

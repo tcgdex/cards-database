@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Blessure",
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent's Active Pokémon.",
+				en: "Put 1 damage counter on your opponent’s Active Pokémon.",
 				fr: "Placez 1 marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
 			},
 

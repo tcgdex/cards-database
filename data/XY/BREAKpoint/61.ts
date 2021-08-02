@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Blessure Profonde",
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent's Active Pokémon.",
+				en: "Put 3 damage counters on your opponent’s Active Pokémon.",
 				fr: "Placez 3 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
 			},
 

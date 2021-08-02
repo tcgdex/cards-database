@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Chacun des Pokémon de base en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent.",
+		en: "Each Basic Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities."
 	},
 	trainerType: "Stadium",
 

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Raticate",
 		fr: "Rattatac",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		20,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Rattata",
 		fr: "Rattata",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -32,11 +37,12 @@ const card: Card = {
 				fr: "Anticorps",
 			},
 			effect: {
-				en: "This Pokémon can't be affected by any Special Conditions. (Remove any Special Conditions affecting this Pokémon.)",
+				en: "This Pokémon can’t be affected by any Special Conditions. (Remove any Special Conditions affecting this Pokémon.)",
 				fr: "Ce Pokémon ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant ce Pokémon.)",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -47,12 +53,13 @@ const card: Card = {
 				fr: "Choc Crasseux",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned. Discard all Pokémon Tool cards attached to that Pokémon.",
+				en: "Your opponent’s Active Pokémon is now Poisoned. Discard all Pokémon Tool cards attached to that Pokémon.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Défaussez toutes les cartes Outil Pokémon attachées au Pokémon ciblé.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -60,10 +67,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

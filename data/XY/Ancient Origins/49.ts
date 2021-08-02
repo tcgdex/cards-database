@@ -53,7 +53,7 @@ const card: Card = {
 				en: "You may discard all Metal Energy attached to this Pokémon. If you do, this attack does 80 more damage.",
 				fr: "Vous pouvez défausser toutes les Énergies Metal attachées à ce Pokémon. Dans ce cas, cette attaque inflige 80 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

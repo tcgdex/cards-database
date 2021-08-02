@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Prenez 2 cartes Énergie de base dans votre pile de défausse et ajoutez-les à votre main.",
+		en: "Put 2 basic Energy cards from your discard pile into your hand."
 	},
 	trainerType: "Item",
 

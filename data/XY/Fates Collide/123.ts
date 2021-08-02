@@ -3,7 +3,7 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Altaria-EX",
+		en: "Altaria EX",
 		fr: "Altaria-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "If this Pokémon was healed during this turn, this attack does 60 more damage and heal 30 damage from this Pokémon.",
 				fr: "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 60 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Vent Étincelant",
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon has no Weakness.",
+				en: "During your opponent’s next turn, this Pokémon has no Weakness.",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
 			},
 			damage: 80,

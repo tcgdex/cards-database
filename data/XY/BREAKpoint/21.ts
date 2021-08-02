@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Flash Royal",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, move an Energy from your opponent's Active Pokémon to 1 of his or her Benched Pokémon.",
+				en: "Once during your turn (before your attack), you may flip a coin. If heads, move an Energy from your opponent’s Active Pokémon to 1 of his or her Benched Pokémon.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, déplacez une Énergie attachée au Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
 			},
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Boost",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Psych Up attack does 40 more damage (before applying Weakness and Resistance).",
+				en: "During your next turn, this Pokémon’s Psych Up attack does 40 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, l'attaque Boost de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 40,

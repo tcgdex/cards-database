@@ -39,7 +39,7 @@ const card: Card = {
 				en: "You may discard an Item card from your hand. If you do, this attack does 40 more damage.",
 				fr: "Vous pouvez défausser une carte Objet de votre main. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Marto-Poing",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
+				en: "Discard the top card of your opponent’s deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 80,

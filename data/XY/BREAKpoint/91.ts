@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Mysti-Cornes",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				en: "If you have any Mega Evolution Pokémon on your Bench, this attack does 50 more damage.",
 				fr: "Si vous avez un Pokémon Méga-Évolution sur votre Banc, cette attaque inflige 50 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

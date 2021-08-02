@@ -3,7 +3,7 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Imakuni?'s Doduo",
+		en: "Imakuni?’s Doduo",
 		fr: "Doduo d’Imakuni?",
 	},
 	illustrator: "Imakuni?",
@@ -26,9 +26,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Frenzied Escape",
+				fr: "Sortie Précipitée",
 			},
 			effect: {
 				en: "When this Doduo retreats, hold this card and throw it as hard as you can because Doduo is running away. Throw the card horizontally with a snap to get the farthest distance!",
+				fr: "Lorsque ce Doduo bat en retraite, saisissez cette carte et jetez-la aussi fort que possible car Doduo s’enfuit. Jetez la carte horizontalement et fort pour qu'elle aille le plus loin possible !",
 			},
 		},
 	],
@@ -39,12 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Harmonize ",
-				fr: "Pouvoir Pokémon : Sortie Précipitée",
+				en: "Harmonize",
 			},
 			effect: {
 				en: "From the moment you use this attack, you must begin to sing a song. (While the song is being sung, the game continues.) When the song is finished, this attack does 30 damage.",
-				fr: "Lorsque ce Doduo bat en retraite, saisissez cette carte et jetez-la aussi fort que possible car Doduo s’enfuit. Jetez la carte horizontalement et fort pour qu'elle aille le plus loin possible !",
 			},
 			damage: 30,
 

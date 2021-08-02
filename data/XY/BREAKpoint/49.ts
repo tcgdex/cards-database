@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Zone Électrique",
 			},
 			effect: {
-				en: "Damage from the attacks of your Lightning Pokémon isn't affected by any effects on your opponent's Active Pokémon.",
+				en: "Damage from the attacks of your Lightning Pokémon isn’t affected by any effects on your opponent’s Active Pokémon.",
 				fr: "Les dégâts des attaques de vos Pokémon Lightning ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 		},
@@ -48,10 +48,10 @@ const card: Card = {
 				fr: "Éclair Fracassant",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon has Fighting Resistance, this attack does 60 more damage.",
+				en: "If your opponent’s Active Pokémon has Fighting Resistance, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire a une Résistance à Fighting, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
