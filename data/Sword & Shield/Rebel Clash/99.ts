@@ -45,7 +45,14 @@ const card: Card = {
 	retreat: 2,
 	hp: 70,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

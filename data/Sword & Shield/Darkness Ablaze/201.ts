@@ -26,7 +26,14 @@ const card: Card = {
 	},
 
 	energyType: "Special",
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
