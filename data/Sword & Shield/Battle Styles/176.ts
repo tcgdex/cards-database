@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Du kannst diese Karte nur spielen, wenn es die letzte Karte auf deiner Hand ist.\n\nLege 1 Fließender-Angriff-Pokémon aus deinem Ablagestapel auf deine Bank. Wenn du das machst, ziehe 5 Karten."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

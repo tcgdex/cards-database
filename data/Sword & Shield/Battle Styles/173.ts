@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Heile allen Schaden bei jedem deiner Entwicklungs-Pokémon. Wenn du das machst, lege alle Energien von den auf diese Weise geheilten Pokémon auf deinen Ablagestapel."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

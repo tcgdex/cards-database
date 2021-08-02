@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

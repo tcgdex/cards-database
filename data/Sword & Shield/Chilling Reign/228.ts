@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), gib deinem Gegner 1 an das Angreifende Pokémon angelegte Energie auf seine Hand."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

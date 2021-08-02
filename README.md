@@ -48,7 +48,7 @@ _If you have a SDK you can start a [discussion](https://github.com/tcgdex/cards-
 
 ## Join Us on Discord
 
-You have a quation or you just want to discuss anything from an idea/improvement to why Furret should be in the next Pokken Tournament game...
+You want to ask something or you just want to discuss anything from an idea/improvement about the API to why Furret should be in the next Pokken Tournament game...
 
 Well you can join us on [Discord](https://discord.gg/NehYTAhsZE) !
 
@@ -56,9 +56,9 @@ Well you can join us on [Discord](https://discord.gg/NehYTAhsZE) !
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-TD::DR
+TL::DR
 - Fork
-- make your change
+- make your changes
 - pull request
 
 ## Deprecation

@@ -26,7 +26,14 @@ const card: Card = {
 		de: "Lege jedes Mal, wenn ein Spieler 1 Energiekarte aus seiner Hand an 1 seiner Pokémon, das kein Psychic-Pokémon ist, anlegt, 2 Schadensmarken auf jenes Pokémon."
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

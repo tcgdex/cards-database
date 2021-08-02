@@ -27,7 +27,14 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "E"
+	regulationMark: "E",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

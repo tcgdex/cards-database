@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Während dieses Zuges fügen die Attacken deiner Fokussierter-Angriff-Pokémon dem Aktiven Pokémon deines Gegners für jede von deinem Gegner genommene Preiskarte 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -25,7 +25,14 @@ const card: Card = {
 		de: "Ziehe 3 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, legt dein Gegner so lange Pokémon von seiner Bank auf seinen Ablagestapel, bis er 3 Pokémon auf seiner Bank hat."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
