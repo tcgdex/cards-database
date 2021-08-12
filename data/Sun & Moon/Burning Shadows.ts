@@ -18,14 +18,7 @@ const sm3: Set = {
 		official: 147
 	},
 
-	releaseDate: "2017-08-04",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-08-04"
 }
 
 export default sm3

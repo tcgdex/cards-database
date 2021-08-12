@@ -16,14 +16,7 @@ const gym1: Set = {
 		official: 132
 	},
 
-	releaseDate: "2000-08-14",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "2000-08-14"
 }
 
 export default gym1

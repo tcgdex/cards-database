@@ -18,14 +18,7 @@ const sm11: Set = {
 		official: 236
 	},
 
-	releaseDate: "2019-08-02",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-08-02"
 }
 
 export default sm11

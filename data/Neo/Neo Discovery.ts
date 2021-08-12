@@ -15,14 +15,7 @@ const neo2: Set = {
 		official: 75
 	},
 
-	releaseDate: "2001-06-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "2001-06-01"
 }
 
 export default neo2

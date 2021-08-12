@@ -16,14 +16,7 @@ const ex6: Set = {
 		official: 112
 	},
 
-	releaseDate: "2004-09-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2004-09-01"
 }
 
 export default ex6

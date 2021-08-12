@@ -17,14 +17,7 @@ const g1: Set = {
 		official: 83
 	},
 
-	releaseDate: "2016-02-22",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2016-02-22"
 }
 
 export default g1

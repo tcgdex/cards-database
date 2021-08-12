@@ -18,14 +18,7 @@ const sm75: Set = {
 		official: 70
 	},
 
-	releaseDate: "2018-09-07",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2018-09-07"
 }
 
 export default sm75

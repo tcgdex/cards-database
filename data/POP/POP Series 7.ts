@@ -14,14 +14,7 @@ const pop7: Set = {
 		official: 17
 	},
 
-	releaseDate: "2008-03-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2008-03-01"
 }
 
 export default pop7

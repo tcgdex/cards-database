@@ -17,14 +17,7 @@ const pl2: Set = {
 		official: 111
 	},
 
-	releaseDate: "2009-05-16",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2009-05-16"
 }
 
 export default pl2

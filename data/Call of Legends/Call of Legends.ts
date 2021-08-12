@@ -16,14 +16,7 @@ const col1: Set = {
 		official: 95
 	},
 
-	releaseDate: "2011-02-09",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2011-02-09"
 }
 
 export default col1

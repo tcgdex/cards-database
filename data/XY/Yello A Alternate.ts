@@ -16,14 +16,7 @@ const xya: Set = {
 		official: 6
 	},
 
-	releaseDate: "2014-02-05",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2014-02-05"
 }
 
 export default xya

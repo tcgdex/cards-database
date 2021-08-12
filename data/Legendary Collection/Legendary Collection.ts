@@ -15,14 +15,7 @@ const lc: Set = {
 		official: 110
 	},
 
-	releaseDate: "2002-05-24",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2002-05-24"
 }
 
 export default lc

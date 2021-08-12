@@ -16,14 +16,7 @@ const hgss2: Set = {
 		official: 95
 	},
 
-	releaseDate: "2010-05-12",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2010-05-12"
 }
 
 export default hgss2

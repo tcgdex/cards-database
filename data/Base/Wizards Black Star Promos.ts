@@ -16,14 +16,7 @@ const basep: Set = {
 		official: 53
 	},
 
-	releaseDate: "1999-07-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "1999-07-01"
 }
 
 export default basep

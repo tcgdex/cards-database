@@ -14,10 +14,6 @@ interface variants {
 	firstEdition?: boolean
 }
 
-type Mandatory<T extends {}> = {
-	[TK in keyof T]: NonNullable<T[TK]>
-}
-
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
 'Fairy' | 'Fighting' | 'Fire' |
 'Grass' | 'Lightning' | 'Metal' |
@@ -29,7 +25,6 @@ export interface Set {
 	name: Languages
 	serie: Serie
 	tcgOnline?: string
-	variants: Mandatory<variants>
 
 	cardCount: {
 		official: number

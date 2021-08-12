@@ -16,14 +16,7 @@ const dpp: Set = {
 		official: 56
 	},
 
-	releaseDate: "2007-05-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2007-05-01"
 }
 
 export default dpp

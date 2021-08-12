@@ -17,14 +17,7 @@ const xy9: Set = {
 		official: 122
 	},
 
-	releaseDate: "2016-02-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2016-02-03"
 }
 
 export default xy9

@@ -15,14 +15,7 @@ const np: Set = {
 		official: 40
 	},
 
-	releaseDate: "2003-10-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2003-10-01"
 }
 
 export default np

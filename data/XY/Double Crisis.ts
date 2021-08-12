@@ -17,14 +17,7 @@ const dc1: Set = {
 		official: 34
 	},
 
-	releaseDate: "2015-03-25",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2015-03-25"
 }
 
 export default dc1

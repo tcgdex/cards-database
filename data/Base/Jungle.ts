@@ -16,14 +16,7 @@ const base2: Set = {
 		official: 64
 	},
 
-	releaseDate: "1999-06-16",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "1999-06-16"
 }
 
 export default base2

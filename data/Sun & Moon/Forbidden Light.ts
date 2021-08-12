@@ -18,14 +18,7 @@ const sm6: Set = {
 		official: 131
 	},
 
-	releaseDate: "2018-05-04",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2018-05-04"
 }
 
 export default sm6

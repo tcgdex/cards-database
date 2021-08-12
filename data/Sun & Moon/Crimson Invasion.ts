@@ -18,14 +18,7 @@ const sm4: Set = {
 		official: 111
 	},
 
-	releaseDate: "2017-11-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-11-03"
 }
 
 export default sm4

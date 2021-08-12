@@ -17,14 +17,7 @@ const xyp: Set = {
 		official: 211
 	},
 
-	releaseDate: "2013-10-12",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2013-10-12"
 }
 
 export default xyp

@@ -16,14 +16,7 @@ const ecard3: Set = {
 		official: 144
 	},
 
-	releaseDate: "2003-05-12",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2003-05-12"
 }
 
 export default ecard3
