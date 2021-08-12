@@ -13,7 +13,6 @@ const dpp: Set = {
 	tcgOnline: "PR-DPP",
 
 	cardCount: {
-		total: 56,
 		official: 56
 	},
 

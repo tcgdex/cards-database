@@ -13,7 +13,6 @@ const ecard3: Set = {
 	tcgOnline: "SK",
 
 	cardCount: {
-		total: 182,
 		official: 144
 	},
 

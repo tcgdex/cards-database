@@ -13,7 +13,6 @@ const s2021swsh: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 25,
 		official: 25
 	},
 

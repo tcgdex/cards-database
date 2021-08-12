@@ -13,7 +13,6 @@ const bw8: Set = {
 	tcgOnline: "PLS",
 
 	cardCount: {
-		total: 138,
 		official: 135
 	},
 

@@ -14,7 +14,6 @@ const xy0: Set = {
 	tcgOnline: "KSS",
 
 	cardCount: {
-		total: 45,
 		official: 45
 	},
 

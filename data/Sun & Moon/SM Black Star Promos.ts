@@ -15,7 +15,6 @@ const smp: Set = {
 	tcgOnline: "PR-SM",
 
 	cardCount: {
-		total: 238,
 		official: 236
 	},
 

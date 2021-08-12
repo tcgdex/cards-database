@@ -14,7 +14,6 @@ const xy12: Set = {
 	tcgOnline: "EVO",
 
 	cardCount: {
-		total: 113,
 		official: 108
 	},
 

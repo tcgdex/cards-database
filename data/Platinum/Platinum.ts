@@ -14,7 +14,6 @@ const pl1: Set = {
 	tcgOnline: "PL",
 
 	cardCount: {
-		total: 133,
 		official: 127
 	},
 

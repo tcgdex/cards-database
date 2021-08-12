@@ -13,7 +13,6 @@ const base4: Set = {
 	tcgOnline: "B2",
 
 	cardCount: {
-		total: 130,
 		official: 130
 	},
 

@@ -13,7 +13,6 @@ const bwp: Set = {
 	tcgOnline: "PR-BLW",
 
 	cardCount: {
-		total: 101,
 		official: 101
 	},
 

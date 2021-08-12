@@ -14,7 +14,6 @@ const sma: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 94,
 		official: 94
 	},
 

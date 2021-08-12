@@ -15,7 +15,6 @@ const sm75: Set = {
 	tcgOnline: "DRM",
 
 	cardCount: {
-		total: 78,
 		official: 70
 	},
 

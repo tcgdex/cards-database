@@ -13,7 +13,6 @@ const bw4: Set = {
 	tcgOnline: "NXD",
 
 	cardCount: {
-		total: 103,
 		official: 99
 	},
 

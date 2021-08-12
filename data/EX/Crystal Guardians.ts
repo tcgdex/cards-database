@@ -13,7 +13,6 @@ const ex14: Set = {
 	tcgOnline: "CG",
 
 	cardCount: {
-		total: 100,
 		official: 100
 	},
 

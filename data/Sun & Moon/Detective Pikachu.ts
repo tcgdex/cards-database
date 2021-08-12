@@ -15,7 +15,6 @@ const det1: Set = {
 	tcgOnline: "DET",
 
 	cardCount: {
-		total: 18,
 		official: 18
 	},
 

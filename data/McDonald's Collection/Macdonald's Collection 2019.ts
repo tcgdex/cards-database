@@ -13,7 +13,6 @@ const s2019sm: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 12,
 		official: 12
 	},
 

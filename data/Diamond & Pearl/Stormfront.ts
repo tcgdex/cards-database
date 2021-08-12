@@ -13,7 +13,6 @@ const dp7: Set = {
 	tcgOnline: "SF",
 
 	cardCount: {
-		total: 106,
 		official: 100
 	},
 

@@ -15,7 +15,6 @@ const sm4: Set = {
 	tcgOnline: "CIN",
 
 	cardCount: {
-		total: 111,
 		official: 111
 	},
 

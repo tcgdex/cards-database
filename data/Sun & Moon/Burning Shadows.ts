@@ -15,7 +15,6 @@ const sm3: Set = {
 	tcgOnline: "BUS",
 
 	cardCount: {
-		total: 169,
 		official: 147
 	},
 

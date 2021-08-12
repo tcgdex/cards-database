@@ -15,7 +15,6 @@ const sm11: Set = {
 	tcgOnline: "UNM",
 
 	cardCount: {
-		total: 258,
 		official: 236
 	},
 

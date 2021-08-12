@@ -13,7 +13,6 @@ const bw3: Set = {
 	tcgOnline: "NVI",
 
 	cardCount: {
-		total: 102,
 		official: 101
 	},
 

@@ -13,7 +13,6 @@ const bw7: Set = {
 	tcgOnline: "BCR",
 
 	cardCount: {
-		total: 149,
 		official: 149
 	},
 

@@ -13,7 +13,6 @@ const s2015xy: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 12,
 		official: 12
 	},
 

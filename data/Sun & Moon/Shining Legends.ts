@@ -15,7 +15,6 @@ const sm35: Set = {
 	tcgOnline: "SLG",
 
 	cardCount: {
-		total: 78,
 		official: 73
 	},
 

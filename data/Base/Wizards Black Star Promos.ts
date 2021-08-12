@@ -13,7 +13,6 @@ const basep: Set = {
 	tcgOnline: "PR",
 
 	cardCount: {
-		total: 53,
 		official: 53
 	},
 

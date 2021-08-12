@@ -13,7 +13,6 @@ const hgssp: Set = {
 	tcgOnline: "PR-HS",
 
 	cardCount: {
-		total: 25,
 		official: 25
 	},
 

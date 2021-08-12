@@ -13,7 +13,6 @@ const xya: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 6,
 		official: 6
 	},
 

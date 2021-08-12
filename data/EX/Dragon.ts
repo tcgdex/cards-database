@@ -13,7 +13,6 @@ const ex3: Set = {
 	tcgOnline: "DR",
 
 	cardCount: {
-		total: 100,
 		official: 97
 	},
 

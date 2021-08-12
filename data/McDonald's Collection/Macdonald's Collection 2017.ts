@@ -13,7 +13,6 @@ const s2017sm: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 12,
 		official: 12
 	},
 

@@ -13,7 +13,6 @@ const ex11: Set = {
 	tcgOnline: "DS",
 
 	cardCount: {
-		total: 114,
 		official: 113
 	},
 

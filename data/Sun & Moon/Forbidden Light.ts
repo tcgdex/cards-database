@@ -15,7 +15,6 @@ const sm6: Set = {
 	tcgOnline: "FLI",
 
 	cardCount: {
-		total: 146,
 		official: 131
 	},
 

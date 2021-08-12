@@ -15,7 +15,6 @@ const sm1: Set = {
 	tcgOnline: "SUM",
 
 	cardCount: {
-		total: 172,
 		official: 149
 	},
 

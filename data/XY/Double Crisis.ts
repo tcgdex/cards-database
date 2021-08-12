@@ -14,7 +14,6 @@ const dc1: Set = {
 	tcgOnline: "DCR",
 
 	cardCount: {
-		total: 34,
 		official: 34
 	},
 

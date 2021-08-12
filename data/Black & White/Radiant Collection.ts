@@ -12,7 +12,6 @@ const rc: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 25,
 		official: 25
 	},
 

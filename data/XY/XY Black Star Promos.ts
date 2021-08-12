@@ -14,7 +14,6 @@ const xyp: Set = {
 	tcgOnline: "PR-XY",
 
 	cardCount: {
-		total: 211,
 		official: 211
 	},
 

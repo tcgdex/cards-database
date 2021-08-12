@@ -14,7 +14,6 @@ const xy3: Set = {
 	tcgOnline: "FFI",
 
 	cardCount: {
-		total: 113,
 		official: 111
 	},
 

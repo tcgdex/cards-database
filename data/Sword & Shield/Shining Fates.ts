@@ -13,7 +13,6 @@ const swsh1: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 195,
 		official: 72
 	},
 

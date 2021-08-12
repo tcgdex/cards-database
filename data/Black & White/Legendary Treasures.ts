@@ -13,7 +13,6 @@ const bw11: Set = {
 	tcgOnline: "LTR",
 
 	cardCount: {
-		total: 115,
 		official: 113
 	},
 

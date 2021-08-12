@@ -13,7 +13,6 @@ const dp3: Set = {
 	tcgOnline: "SW",
 
 	cardCount: {
-		total: 132,
 		official: 132
 	},
 

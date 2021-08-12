@@ -13,7 +13,6 @@ const ex9: Set = {
 	tcgOnline: "EM",
 
 	cardCount: {
-		total: 107,
 		official: 106
 	},
 

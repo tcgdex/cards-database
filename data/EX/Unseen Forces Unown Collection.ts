@@ -12,7 +12,6 @@ const exu: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 28,
 		official: 28
 	},
 

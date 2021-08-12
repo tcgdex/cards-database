@@ -15,7 +15,6 @@ const sm12: Set = {
 	tcgOnline: "CEC",
 
 	cardCount: {
-		total: 271,
 		official: 236
 	},
 

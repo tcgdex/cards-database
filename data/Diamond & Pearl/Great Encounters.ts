@@ -13,7 +13,6 @@ const dp4: Set = {
 	tcgOnline: "GE",
 
 	cardCount: {
-		total: 106,
 		official: 106
 	},
 

@@ -13,7 +13,6 @@ const set: Set = {
 
 
 	cardCount: { // NOT confirmed
-		total: 190,
 		official: 190
 	},
 

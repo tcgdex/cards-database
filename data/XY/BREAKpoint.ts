@@ -14,7 +14,6 @@ const xy9: Set = {
 	tcgOnline: "BKP",
 
 	cardCount: {
-		total: 123,
 		official: 122
 	},
 
