@@ -13,7 +13,6 @@ const gym2: Set = {
 	tcgOnline: "G2",
 
 	cardCount: {
-		total: 132,
 		official: 132
 	},
 

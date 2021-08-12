@@ -12,7 +12,6 @@ const np: Set = {
 	tcgOnline: "PR-NP",
 
 	cardCount: {
-		total: 40,
 		official: 40
 	},
 

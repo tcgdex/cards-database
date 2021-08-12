@@ -14,7 +14,6 @@ const g1: Set = {
 	tcgOnline: "GEN",
 
 	cardCount: {
-		total: 115,
 		official: 83
 	},
 

@@ -15,7 +15,6 @@ const sm2: Set = {
 	tcgOnline: "GRI",
 
 	cardCount: {
-		total: 169,
 		official: 145
 	},
 

@@ -14,7 +14,6 @@ const xy4: Set = {
 	tcgOnline: "PHF",
 
 	cardCount: {
-		total: 122,
 		official: 119
 	},
 

@@ -15,7 +15,6 @@ const sm9: Set = {
 	tcgOnline: "TEU",
 
 	cardCount: {
-		total: 181,
 		official: 181
 	},
 

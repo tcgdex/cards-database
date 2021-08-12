@@ -13,7 +13,6 @@ const col1: Set = {
 	tcgOnline: "CL",
 
 	cardCount: {
-		total: 106,
 		official: 95
 	},
 

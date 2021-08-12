@@ -13,7 +13,6 @@ const bw1: Set = {
 	tcgOnline: "BLW",
 
 	cardCount: {
-		total: 115,
 		official: 114
 	},
 

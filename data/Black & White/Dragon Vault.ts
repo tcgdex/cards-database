@@ -13,7 +13,6 @@ const dv1: Set = {
 	tcgOnline: "DRV",
 
 	cardCount: {
-		total: 21,
 		official: 20
 	},
 

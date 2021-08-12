@@ -15,7 +15,6 @@ const sm7: Set = {
 	tcgOnline: "CES",
 
 	cardCount: {
-		total: 183,
 		official: 168
 	},
 

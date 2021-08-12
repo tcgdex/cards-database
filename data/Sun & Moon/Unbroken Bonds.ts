@@ -15,7 +15,6 @@ const sm10: Set = {
 	tcgOnline: "UNB",
 
 	cardCount: {
-		total: 234,
 		official: 214
 	},
 

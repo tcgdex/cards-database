@@ -14,7 +14,6 @@ const xy10: Set = {
 	tcgOnline: "FCO",
 
 	cardCount: {
-		total: 125,
 		official: 124
 	},
 

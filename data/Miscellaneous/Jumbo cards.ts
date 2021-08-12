@@ -13,7 +13,6 @@ const jumbo: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 160,
 		official: 160
 	},
 

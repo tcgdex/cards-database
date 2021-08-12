@@ -12,7 +12,6 @@ const bog: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 9,
 		official: 9
 	},
 

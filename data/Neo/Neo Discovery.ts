@@ -12,7 +12,6 @@ const neo2: Set = {
 	tcgOnline: "N2",
 
 	cardCount: {
-		total: 75,
 		official: 75
 	},
 

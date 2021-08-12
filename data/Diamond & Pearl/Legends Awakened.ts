@@ -13,7 +13,6 @@ const dp6: Set = {
 	tcgOnline: "LA",
 
 	cardCount: {
-		total: 146,
 		official: 146
 	},
 

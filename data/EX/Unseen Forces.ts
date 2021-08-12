@@ -13,7 +13,6 @@ const ex10: Set = {
 	tcgOnline: "UF",
 
 	cardCount: {
-		total: 117,
 		official: 115
 	},
 

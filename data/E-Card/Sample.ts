@@ -12,7 +12,6 @@ const sp: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 10,
 		official: 10
 	},
 

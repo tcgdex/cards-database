@@ -13,7 +13,6 @@ const ex12: Set = {
 	tcgOnline: "LM",
 
 	cardCount: {
-		total: 93,
 		official: 92
 	},
 

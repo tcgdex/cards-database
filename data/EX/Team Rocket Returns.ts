@@ -13,7 +13,6 @@ const ex7: Set = {
 	tcgOnline: "RR",
 
 	cardCount: {
-		total: 111,
 		official: 109
 	},
 

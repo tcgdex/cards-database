@@ -13,7 +13,6 @@ const ex16: Set = {
 	tcgOnline: "PK",
 
 	cardCount: {
-		total: 108,
 		official: 108
 	},
 

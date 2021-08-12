@@ -13,7 +13,6 @@ const bw5: Set = {
 	tcgOnline: "DEX",
 
 	cardCount: {
-		total: 111,
 		official: 108
 	},
 

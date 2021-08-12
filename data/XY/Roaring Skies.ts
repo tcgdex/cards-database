@@ -14,7 +14,6 @@ const xy6: Set = {
 	tcgOnline: "ROS",
 
 	cardCount: {
-		total: 110,
 		official: 108
 	},
 

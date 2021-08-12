@@ -14,7 +14,6 @@ const xy7: Set = {
 	tcgOnline: "AOR",
 
 	cardCount: {
-		total: 100,
 		official: 98
 	},
 

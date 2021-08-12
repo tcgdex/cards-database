@@ -12,7 +12,6 @@ const wp: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 53,
 		official: 53
 	},
 

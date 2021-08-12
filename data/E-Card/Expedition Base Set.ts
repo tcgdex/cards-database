@@ -13,7 +13,6 @@ const ecard1: Set = {
 	tcgOnline: "EX",
 
 	cardCount: {
-		total: 165,
 		official: 165
 	},
 

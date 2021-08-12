@@ -11,7 +11,6 @@ const pop9: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 17,
 		official: 17
 	},
 

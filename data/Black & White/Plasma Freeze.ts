@@ -13,7 +13,6 @@ const bw9: Set = {
 	tcgOnline: "PLF",
 
 	cardCount: {
-		total: 122,
 		official: 116
 	},
 

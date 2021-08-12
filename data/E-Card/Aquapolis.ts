@@ -13,7 +13,6 @@ const ecard2: Set = {
 	tcgOnline: "AQ",
 
 	cardCount: {
-		total: 182,
 		official: 147
 	},
 

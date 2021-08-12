@@ -13,7 +13,6 @@ const hgss2: Set = {
 	tcgOnline: "UL",
 
 	cardCount: {
-		total: 96,
 		official: 95
 	},
 

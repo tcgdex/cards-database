@@ -15,7 +15,6 @@ const sm8: Set = {
 	tcgOnline: "LOT",
 
 	cardCount: {
-		total: 236,
 		official: 214
 	},
 

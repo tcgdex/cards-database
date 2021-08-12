@@ -32,7 +32,6 @@ export interface Set {
 	variants: Mandatory<variants>
 
 	cardCount: {
-		total: number
 		official: number
 	}
 

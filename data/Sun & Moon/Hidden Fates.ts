@@ -15,7 +15,6 @@ const sm115: Set = {
 	tcgOnline: "HIF",
 
 	cardCount: {
-		total: 163,
 		official: 68
 	},
 

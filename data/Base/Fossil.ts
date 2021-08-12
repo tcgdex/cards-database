@@ -13,7 +13,6 @@ const base3: Set = {
 	tcgOnline: "FO",
 
 	cardCount: {
-		total: 62,
 		official: 62
 	},
 

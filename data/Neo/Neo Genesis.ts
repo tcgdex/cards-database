@@ -12,7 +12,6 @@ const neo1: Set = {
 	tcgOnline: "N1",
 
 	cardCount: {
-		total: 111,
 		official: 111
 	},
 

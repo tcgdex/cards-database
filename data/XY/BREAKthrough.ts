@@ -14,7 +14,6 @@ const xy8: Set = {
 	tcgOnline: "BKT",
 
 	cardCount: {
-		total: 164,
 		official: 162
 	},
 

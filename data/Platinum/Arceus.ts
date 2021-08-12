@@ -14,7 +14,6 @@ const pl4: Set = {
 	tcgOnline: "AR",
 
 	cardCount: {
-		total: 111,
 		official: 99
 	},
 

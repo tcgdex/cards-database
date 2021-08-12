@@ -13,7 +13,6 @@ const ex4: Set = {
 	tcgOnline: "MA",
 
 	cardCount: {
-		total: 97,
 		official: 95
 	},
 

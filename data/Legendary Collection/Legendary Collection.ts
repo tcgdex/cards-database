@@ -12,7 +12,6 @@ const lc: Set = {
 	tcgOnline: "LC",
 
 	cardCount: {
-		total: 110,
 		official: 110
 	},
 

@@ -11,7 +11,6 @@ const si1: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 18,
 		official: 18
 	},
 

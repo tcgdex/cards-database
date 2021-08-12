@@ -14,7 +14,6 @@ const xy5: Set = {
 	tcgOnline: "PRC",
 
 	cardCount: {
-		total: 164,
 		official: 160
 	},
 

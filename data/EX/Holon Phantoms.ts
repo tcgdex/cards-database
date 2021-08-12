@@ -13,7 +13,6 @@ const ex13: Set = {
 	tcgOnline: "HP",
 
 	cardCount: {
-		total: 111,
 		official: 110
 	},
 

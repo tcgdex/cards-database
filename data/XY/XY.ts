@@ -14,7 +14,6 @@ const xy1: Set = {
 	tcgOnline: "XY",
 
 	cardCount: {
-		total: 146,
 		official: 146
 	},
 

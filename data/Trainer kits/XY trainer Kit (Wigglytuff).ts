@@ -13,7 +13,6 @@ const set: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 30,
 		official: 30
 	},
 

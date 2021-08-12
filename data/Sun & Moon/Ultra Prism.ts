@@ -15,7 +15,6 @@ const sm5: Set = {
 	tcgOnline: "UPR",
 
 	cardCount: {
-		total: 173,
 		official: 156
 	},
 

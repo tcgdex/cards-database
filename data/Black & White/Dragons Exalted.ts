@@ -13,7 +13,6 @@ const bw6: Set = {
 	tcgOnline: "DRX",
 
 	cardCount: {
-		total: 128,
 		official: 124
 	},
 

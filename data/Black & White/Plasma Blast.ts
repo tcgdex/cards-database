@@ -13,7 +13,6 @@ const bw10: Set = {
 	tcgOnline: "PLB",
 
 	cardCount: {
-		total: 105,
 		official: 101
 	},
 

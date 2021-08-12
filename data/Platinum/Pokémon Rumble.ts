@@ -11,7 +11,6 @@ const ru1: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 16,
 		official: 16
 	},
 

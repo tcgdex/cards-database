@@ -13,7 +13,6 @@ const ex15: Set = {
 	tcgOnline: "DF",
 
 	cardCount: {
-		total: 101,
 		official: 101
 	},
 

@@ -13,7 +13,6 @@ const bw2: Set = {
 	tcgOnline: "EPO",
 
 	cardCount: {
-		total: 98,
 		official: 98
 	},
 
