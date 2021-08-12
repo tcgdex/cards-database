@@ -16,14 +16,7 @@ const dp6: Set = {
 		official: 146
 	},
 
-	releaseDate: "2008-08-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2008-08-01"
 }
 
 export default dp6

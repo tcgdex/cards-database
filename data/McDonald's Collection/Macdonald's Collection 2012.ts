@@ -16,14 +16,7 @@ const s2012bw: Set = {
 		official: 12
 	},
 
-	releaseDate: "2012-06-15",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-06-15"
 }
 
 export default s2012bw

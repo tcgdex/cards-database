@@ -16,14 +16,7 @@ const set: Set = {
 		official: 30
 	},
 
-	releaseDate: "2015-04-29",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2015-04-29"
 }
 
 export default set

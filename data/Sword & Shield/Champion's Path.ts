@@ -16,14 +16,7 @@ const swsh35: Set = {
 		official: 70
 	},
 
-	releaseDate: "2020-09-25",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2020-09-25"
 }
 
 export default swsh35

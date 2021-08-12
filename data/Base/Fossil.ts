@@ -16,14 +16,7 @@ const base3: Set = {
 		official: 62
 	},
 
-	releaseDate: "1999-10-10",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "1999-10-10"
 }
 
 export default base3

@@ -17,14 +17,7 @@ const swsh2: Set = {
 		official: 192
 	},
 
-	releaseDate: "2020-05-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2020-05-01"
 }
 
 export default swsh2

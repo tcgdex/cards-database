@@ -16,14 +16,7 @@ const swshp: Set = {
 		official: 107
 	},
 
-	releaseDate: "2019-11-15",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-11-15"
 }
 
 export default swshp

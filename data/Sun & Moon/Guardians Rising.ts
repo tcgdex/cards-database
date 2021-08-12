@@ -18,14 +18,7 @@ const sm2: Set = {
 		official: 145
 	},
 
-	releaseDate: "2017-05-05",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-05-05"
 }
 
 export default sm2

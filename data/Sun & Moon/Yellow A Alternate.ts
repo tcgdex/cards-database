@@ -17,14 +17,7 @@ const sma: Set = {
 		official: 94
 	},
 
-	releaseDate: "2019-08-23",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-08-23"
 }
 
 export default sma

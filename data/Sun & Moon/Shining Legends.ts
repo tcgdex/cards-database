@@ -18,14 +18,7 @@ const sm35: Set = {
 		official: 73
 	},
 
-	releaseDate: "2017-10-06",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-10-06"
 }
 
 export default sm35

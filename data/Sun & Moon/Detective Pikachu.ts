@@ -18,14 +18,7 @@ const det1: Set = {
 		official: 18
 	},
 
-	releaseDate: "2019-03-29",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-03-29"
 }
 
 export default det1

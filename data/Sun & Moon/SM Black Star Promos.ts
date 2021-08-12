@@ -18,14 +18,7 @@ const smp: Set = {
 		official: 236
 	},
 
-	releaseDate: "2017-02-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-02-03"
 }
 
 export default smp

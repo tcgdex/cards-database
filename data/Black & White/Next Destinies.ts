@@ -16,14 +16,7 @@ const bw4: Set = {
 		official: 99
 	},
 
-	releaseDate: "2012-02-08",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-02-08"
 }
 
 export default bw4

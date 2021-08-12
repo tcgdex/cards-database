@@ -16,14 +16,7 @@ const hgssp: Set = {
 		official: 25
 	},
 
-	releaseDate: "2010-02-11",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2010-02-11"
 }
 
 export default hgssp

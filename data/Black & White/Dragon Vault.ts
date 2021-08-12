@@ -16,14 +16,7 @@ const dv1: Set = {
 		official: 20
 	},
 
-	releaseDate: "2012-10-05",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-10-05"
 }
 
 export default dv1

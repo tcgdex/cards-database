@@ -15,14 +15,7 @@ const bog: Set = {
 		official: 9
 	},
 
-	releaseDate: "2002-12-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2002-12-01"
 }
 
 export default bog

@@ -16,14 +16,7 @@ const s2016xy: Set = {
 		official: 12
 	},
 
-	releaseDate: "2016-08-20",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2016-08-20"
 }
 
 export default s2016xy
