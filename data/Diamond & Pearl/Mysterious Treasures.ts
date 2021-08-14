@@ -6,7 +6,10 @@ const dp2: Set = {
 
 	name: {
 		en: "Mysterious Treasures",
-		fr: "Mysterious Treasures"
+		fr: "Trésors Mystérieux",
+		es: "Tesoros Misteriosos",
+		it: "Tesori Misteriosi",
+		de: "Geheimnisvolle Schätze"
 	},
 
 	serie: serie,

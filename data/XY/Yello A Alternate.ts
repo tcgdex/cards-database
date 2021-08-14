@@ -6,8 +6,10 @@ const xya: Set = {
 
 	name: {
 		en: "Yello A Alternate",
-		fr: "carte alternative A Jaune"
-,
+		fr: "carte alternative A Jaune",
+		es: "Cartas alternativas",
+		it: "Carta Alternatica A Gialla",
+		de: "Gelbes-A-Alternativkarten"
 	},
 
 	serie: serie,

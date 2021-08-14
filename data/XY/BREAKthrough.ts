@@ -6,8 +6,10 @@ const xy8: Set = {
 
 	name: {
 		en: "BREAKthrough",
-		fr: "Impulsion Turbo"
-,
+		fr: "Impulsion Turbo",
+		es: "Turbo Impulso",
+		it: "Turbo Blitz",
+		de: "TURBOstart"
 	},
 
 	serie: serie,

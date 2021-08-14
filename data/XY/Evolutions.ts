@@ -6,8 +6,10 @@ const xy12: Set = {
 
 	name: {
 		en: "Evolutions",
-		fr: "Évolutions"
-,
+		fr: "Évolutions",
+		es: "Evoluciones",
+		it: "Evoluzioni",
+		de: "Evolution"
 	},
 
 	serie: serie,

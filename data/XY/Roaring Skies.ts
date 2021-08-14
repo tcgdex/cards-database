@@ -6,8 +6,10 @@ const xy6: Set = {
 
 	name: {
 		en: "Roaring Skies",
-		fr: "Ciel Rugissant"
-,
+		fr: "Ciel Rugissant",
+		es: "Cielos Rugientes",
+		it: "Furie Volanti",
+		de: "Drachenleuchten"
 	},
 
 	serie: serie,
