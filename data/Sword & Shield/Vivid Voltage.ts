@@ -7,8 +7,9 @@ const swsh4: Set = {
 	name: {
 		en: "Vivid Voltage",
 		fr: "Voltage Éclatant",
-		es: "Voltaje Vívido"
-,
+		es: "Voltaje Vívido",
+		it: "Voltaggio Sfolgorante",
+		de: "Farbenschock"
 	},
 
 	serie: serie,

@@ -6,8 +6,10 @@ const xyp: Set = {
 
 	name: {
 		en: "XY Black Star Promos",
-		fr: "Promo XY"
-,
+		fr: "Promo XY",
+		es: "XY Cartas de promoción",
+		it: "XY Promo",
+		de: "XY Promokarten"
 	},
 
 	serie: serie,

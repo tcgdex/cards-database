@@ -6,7 +6,10 @@ const dp6: Set = {
 
 	name: {
 		en: "Legends Awakened",
-		fr: "Éveil des Légendes"
+		fr: "Éveil des Légendes",
+		es: "Despertar de las Leyendas",
+		it: "Il Risveglio dei Miti",
+		de: "Erwachte Legenden"
 	},
 
 	serie: serie,

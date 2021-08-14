@@ -6,8 +6,10 @@ const xy7: Set = {
 
 	name: {
 		en: "Ancient Origins",
-		fr: "Origines Antiques"
-,
+		fr: "Origines Antiques",
+		es: "Antiguos Orígenes",
+		it: "Antiche Origini",
+		de: "Ewiger Anfang"
 	},
 
 	serie: serie,

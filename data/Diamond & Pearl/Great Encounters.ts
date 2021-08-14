@@ -6,7 +6,9 @@ const dp4: Set = {
 
 	name: {
 		en: "Great Encounters",
-		fr: "Duels au Sommets"
+		fr: "Duels au Sommets",
+		es: "Grandes Encuentros",
+		de: "Epische Begegnungen"
 	},
 
 	serie: serie,
