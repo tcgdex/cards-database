@@ -3,15 +3,15 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Lycanroc-GX",
-		fr: "Lougaroc-GX",
-		es: "Lycanroc-GX",
-		it: "Lycanroc-GX",
-		pt: "Lycanroc-GX",
-		de: "Wolwerock-GX"
+		en: "Lycanroc GX",
+		fr: "Lougaroc GX",
+		es: "Lycanroc GX",
+		it: "Lycanroc GX",
+		pt: "Lycanroc GX",
+		de: "Wolwerock GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

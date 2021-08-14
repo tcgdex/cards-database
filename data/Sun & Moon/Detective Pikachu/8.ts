@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Magikarp",
 		de: "Karpador"
 	},
-	illustrator: undefined,
+	illustrator: "Framestore",
 	rarity: "Common",
 	category: "Pokemon",
 

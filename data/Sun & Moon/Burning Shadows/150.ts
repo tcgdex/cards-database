@@ -3,12 +3,12 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Charizard-GX",
-		fr: "Dracaufeu-GX",
-		es: "Charizard-GX",
-		it: "Charizard-GX",
-		pt: "Charizard-GX",
-		de: "Glurak-GX"
+		en: "Charizard GX",
+		fr: "Dracaufeu GX",
+		es: "Charizard GX",
+		it: "Charizard GX",
+		pt: "Charizard GX",
+		de: "Glurak GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

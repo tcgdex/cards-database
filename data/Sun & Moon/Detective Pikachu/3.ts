@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Morelull",
 		de: "Bubungus"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Common",
 	category: "Pokemon",
 

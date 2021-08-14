@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Venomoth-GX",
-		fr: "Aéromite-GX",
-		es: "Venomoth-GX",
-		it: "Venomoth-GX",
-		pt: "Venomoth-GX",
-		de: "Omot-GX"
+		en: "Venomoth GX",
+		fr: "Aéromite GX",
+		es: "Venomoth GX",
+		it: "Venomoth GX",
+		pt: "Venomoth GX",
+		de: "Omot GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Heatran-GX",
-		fr: "Heatran-GX",
-		es: "Heatran-GX",
-		it: "Heatran-GX",
-		pt: "Heatran-GX",
-		de: "Heatran-GX"
+		en: "Heatran GX",
+		fr: "Heatran GX",
+		es: "Heatran GX",
+		it: "Heatran GX",
+		pt: "Heatran GX",
+		de: "Heatran GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "ConceptLab",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,
@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Brennender Weg"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon was on the Bench and became your Active Pokémon this turn, you may move any number of Fire Energy attached to your Pokémon to this Pokémon.",
+				en: "Once during your turn, when this Pokémon moves from your Bench to become your Active Pokémon, you may move any number of Fire Energy from your other Pokémon to it.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon était sur le Banc et est devenu votre Pokémon Actif lors de ce tour, vous pouvez déplacer des Énergies Fire attachées à vos Pokémon vers ce Pokémon.",
 				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon estaba en la Banca y se ha convertido en tu Pokémon Activo en este turno, puedes mover cualquier cantidad de Energía Fire unida a tus Pokémon a este Pokémon.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon era in panchina ed è diventato il tuo Pokémon attivo in questo turno, puoi spostare un numero qualsiasi di Energie Fire assegnate ai tuoi Pokémon su questo Pokémon.",

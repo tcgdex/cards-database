@@ -3,12 +3,12 @@ import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Xurkitree-GX",
-		fr: "Câblifère-GX",
-		es: "Xurkitree-GX",
-		it: "Xurkitree-GX",
-		pt: "Xurkitree-GX",
-		de: "Voltriant-GX"
+		en: "Xurkitree GX",
+		fr: "Câblifère GX",
+		es: "Xurkitree GX",
+		it: "Xurkitree GX",
+		pt: "Xurkitree GX",
+		de: "Voltriant GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

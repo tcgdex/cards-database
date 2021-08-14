@@ -3,15 +3,15 @@ import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Palossand-GX",
-		fr: "Trépassable-GX",
-		es: "Palossand-GX",
-		it: "Palossand-GX",
-		pt: "Palossand-GX",
-		de: "Colossand-GX"
+		en: "Palossand GX",
+		fr: "Trépassable GX",
+		es: "Palossand GX",
+		it: "Palossand GX",
+		pt: "Palossand GX",
+		de: "Colossand GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

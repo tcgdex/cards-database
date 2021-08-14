@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl-GX",
-		fr: "Ptéra-GX",
-		es: "Aerodactyl-GX",
-		it: "Aerodactyl-GX",
-		pt: "Aerodactyl-GX",
-		de: "Aerodactyl-GX"
+		en: "Aerodactyl GX",
+		fr: "Ptéra GX",
+		es: "Aerodactyl GX",
+		it: "Aerodactyl GX",
+		pt: "Aerodactyl GX",
+		de: "Aerodactyl GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "ConceptLab",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,
@@ -27,7 +27,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "UnidentifiedFossil",
+		en: "Unidentified Fossil",
 	},
 
 	stage: "Stage1",

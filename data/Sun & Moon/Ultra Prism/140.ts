@@ -3,12 +3,12 @@ import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Pheromosa-GX",
-		fr: "Cancrelove-GX",
-		es: "Pheromosa-GX",
-		it: "Pheromosa-GX",
-		pt: "Pheromosa-GX",
-		de: "Schabelle-GX"
+		en: "Pheromosa GX",
+		fr: "Cancrelove GX",
+		es: "Pheromosa GX",
+		it: "Pheromosa GX",
+		pt: "Pheromosa GX",
+		de: "Schabelle GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

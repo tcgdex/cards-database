@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Tapu Bulu-GX",
-		fr: "Tokotoro-GX",
-		es: "Tapu Bulu-GX",
-		it: "Tapu Bulu-GX",
-		pt: "Tapu Bulu-GX",
-		de: "Kapu-Toro-GX"
+		en: "Tapu Bulu GX",
+		fr: "Tokotoro GX",
+		es: "Tapu Bulu GX",
+		it: "Tapu Bulu GX",
+		pt: "Tapu Bulu GX",
+		de: "Kapu-Toro GX"
 	},
 	illustrator: "PLANETA",
 	rarity: "Rare",

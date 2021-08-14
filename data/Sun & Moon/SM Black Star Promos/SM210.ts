@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Moltres & Zapdos & Articuno-GX",
-		fr: "Sulfura, Électhor et Artikodin-GX",
-		es: "Moltres, Zapdos y Articuno-GX",
-		it: "Moltres, Zapdos e Articuno-GX",
-		pt: "Moltres, Zapdos e Articuno-GX",
-		de: "Lavados & Zapdos & Arktos-GX"
+		en: "Moltres & Zapdos & Articuno GX",
+		fr: "Sulfura, Électhor et Artikodin GX",
+		es: "Moltres, Zapdos y Articuno GX",
+		it: "Moltres, Zapdos e Articuno GX",
+		pt: "Moltres, Zapdos e Articuno GX",
+		de: "Lavados & Zapdos & Arktos GX"
 	},
 	illustrator: "HYOGONOSUKE",
 	rarity: "Rare",

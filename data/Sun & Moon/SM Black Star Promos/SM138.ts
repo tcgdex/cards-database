@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Zekrom-GX",
-		fr: "Zekrom-GX",
-		es: "Zekrom-GX",
-		it: "Zekrom-GX",
-		pt: "Zekrom-GX",
-		de: "Zekrom-GX"
+		en: "Zekrom GX",
+		fr: "Zekrom GX",
+		es: "Zekrom GX",
+		it: "Zekrom GX",
+		pt: "Zekrom GX",
+		de: "Zekrom GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

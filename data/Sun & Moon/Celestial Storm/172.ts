@@ -3,12 +3,12 @@ import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Electrode-GX",
-		fr: "Électrode-GX",
-		es: "Electrode-GX",
-		it: "Electrode-GX",
-		pt: "Electrode-GX",
-		de: "Lektrobal-GX"
+		en: "Electrode GX",
+		fr: "Électrode GX",
+		es: "Electrode GX",
+		it: "Electrode GX",
+		pt: "Electrode GX",
+		de: "Lektrobal GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

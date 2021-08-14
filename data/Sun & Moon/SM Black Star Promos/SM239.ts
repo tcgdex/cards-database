@@ -5,12 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carracosta-GX",
-		fr: "Mégapagos-GX",
-		es: "Carracosta-GX",
-		it: "Carracosta-GX",
-		pt: "Carracosta-GX",
-		de: "Karippas-GX"
+		en: "Carracosta GX",
+		fr: "Mégapagos GX",
+		es: "Carracosta GX",
+		it: "Carracosta GX",
+		pt: "Carracosta GX",
+		de: "Karippas GX"
 	},
 
 	rarity: "Rare",

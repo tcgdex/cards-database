@@ -3,12 +3,12 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Sigilyph-GX",
-		fr: "Cryptéro-GX",
-		es: "Sigilyph-GX",
-		it: "Sigilyph-GX",
-		pt: "Sigilyph-GX",
-		de: "Symvolara-GX"
+		en: "Sigilyph GX",
+		fr: "Cryptéro GX",
+		es: "Sigilyph GX",
+		it: "Sigilyph GX",
+		pt: "Sigilyph GX",
+		de: "Symvolara GX"
 	},
 	illustrator: "PLANETA Igarashi",
 	rarity: "Ultra Rare",

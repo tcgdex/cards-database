@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Snorlax-GX",
-		fr: "Ronflex-GX",
-		es: "Snorlax-GX",
-		it: "Snorlax-GX",
-		pt: "Snorlax-GX",
-		de: "Relaxo-GX"
+		en: "Snorlax GX",
+		fr: "Ronflex GX",
+		es: "Snorlax GX",
+		it: "Snorlax GX",
+		pt: "Snorlax GX",
+		de: "Relaxo GX"
 	},
 
 	illustrator: "5ban Graphics",

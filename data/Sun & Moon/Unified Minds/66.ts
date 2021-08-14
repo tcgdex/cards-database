@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Elektrosumpf"
 			},
 			effect: {
-				en: "Play this Pokémon onto your Bench.",
+				en: "Once during your turn (before your attack), if this Pokémon is in your hand and you have at least 4 Lightning Energy cards in play, you may play this Pokémon onto your Bench. If you do, move any number of Lightning Energy from your other Pokémon to this Pokémon.",
 				fr: "Jouez ce Pokémon sur votre Banc.",
 				es: "Pon este Pokémon en tu Banca.",
 				it: "Metti questo Pokémon nella tua panchina.",

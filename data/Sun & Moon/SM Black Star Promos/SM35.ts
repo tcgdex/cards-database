@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Espeon-GX",
-		fr: "Mentali-GX",
-		es: "Espeon-GX",
-		it: "Espeon-GX",
-		pt: "Espeon-GX",
-		de: "Psiana-GX"
+		en: "Espeon GX",
+		fr: "Mentali GX",
+		es: "Espeon GX",
+		it: "Espeon GX",
+		pt: "Espeon GX",
+		de: "Psiana GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

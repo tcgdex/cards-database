@@ -3,12 +3,12 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Marshadow-GX",
-		fr: "Marshadow-GX",
-		es: "Marshadow-GX",
-		it: "Marshadow-GX",
-		pt: "Marshadow-GX",
-		de: "Marshadow-GX"
+		en: "Marshadow GX",
+		fr: "Marshadow GX",
+		es: "Marshadow GX",
+		it: "Marshadow GX",
+		pt: "Marshadow GX",
+		de: "Marshadow GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

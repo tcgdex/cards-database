@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Mega Sableye & Tyranitar-GX",
-		fr: "Méga-Ténéfix et Tyranocif-GX",
-		es: "Mega-Sableye y Tyranitar-GX",
-		it: "Mega Sableye e Tyranitar-GX",
-		pt: "Mega Sableye e Tyranitar-GX",
-		de: "Mega-Zobiris & Despotar-GX"
+		en: "Mega Sableye & Tyranitar GX",
+		fr: "Méga-Ténéfix et Tyranocif GX",
+		es: "Mega-Sableye y Tyranitar GX",
+		it: "Mega Sableye e Tyranitar GX",
+		pt: "Mega Sableye e Tyranitar GX",
+		de: "Mega-Zobiris & Despotar GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,

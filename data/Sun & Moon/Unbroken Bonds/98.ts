@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Freiflug"
 			},
 			effect: {
-				en: "If this Pokémon has no Energy attached to it, this Pokémon has no Retreat Cost.",
+				en: "If this Pokémon has no Energy attached to it, it has no Retreat Cost.",
 				fr: "Si aucune Énergie n’est attachée à ce Pokémon, ce Pokémon n’a pas de coût de Retraite.",
 				es: "Si este Pokémon no tiene ninguna Energía unida a él, este Pokémon no tiene ningún Coste de Retirada.",
 				it: "Se questo Pokémon non ha delle Energie assegnate, non ha costo di ritirata.",

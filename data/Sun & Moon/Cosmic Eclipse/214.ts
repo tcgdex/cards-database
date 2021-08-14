@@ -3,12 +3,12 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Blastoise & Piplup-GX",
-		fr: "Tortank et Tiplouf-GX",
-		es: "Blastoise y Piplup-GX",
-		it: "Blastoise e Piplup-GX",
-		pt: "Blastoise e Piplup-GX",
-		de: "Turtok & Plinfa-GX"
+		en: "Blastoise & Piplup GX",
+		fr: "Tortank et Tiplouf GX",
+		es: "Blastoise y Piplup GX",
+		it: "Blastoise e Piplup GX",
+		pt: "Blastoise e Piplup GX",
+		de: "Turtok & Plinfa GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

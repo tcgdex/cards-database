@@ -3,12 +3,12 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Magikarp & Wailord-GX",
-		fr: "Magicarpe et Wailord-GX",
-		es: "Magikarp y Wailord-GX",
-		it: "Magikarp e Wailord-GX",
-		pt: "Magikarp e Wailord-GX",
-		de: "Karpador & Wailord-GX"
+		en: "Magikarp & Wailord GX",
+		fr: "Magicarpe et Wailord GX",
+		es: "Magikarp y Wailord GX",
+		it: "Magikarp e Wailord GX",
+		pt: "Magikarp e Wailord GX",
+		de: "Karpador & Wailord GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

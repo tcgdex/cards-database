@@ -31,7 +31,6 @@ const card: Card = {
 
 	attacks: [
 		{
-
 			name: {
 				en: "Electromagnetic Bomb",
 				fr: "Bombe Électromagnétique",
@@ -40,6 +39,7 @@ const card: Card = {
 				pt: "Bomba Eletromagnética",
 				de: "Elektromagnetische Bombe"
 			},
+
 			effect: {
 				en: "Move any number of Lightning Energy from your Benched Pokémon to this Pokémon. This attack does 20 damage for each Energy card you moved in this way.",
 				fr: "Déplacez autant d’Énergies Lightning que vous voulez de vos Pokémon de Banc vers ce Pokémon. Cette attaque inflige 20 dégâts pour chaque carte Énergie déplacée de cette façon.",
@@ -48,6 +48,8 @@ const card: Card = {
 				pt: "Mova qualquer número de Energia Lightning dos seus Pokémon no Banco para este Pokémon. Este ataque causa 20 pontos de dano para cada carta de Energia movida desta forma.",
 				de: "Verschiebe beliebig viele Lightning-Energien von den Pokémon auf deiner Bank auf dieses Pokémon. Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der von dir auf diese Weise verschobenen Energiekarten zu."
 			},
+
+			damage: "20×"
 		},
 		{
 			cost: [

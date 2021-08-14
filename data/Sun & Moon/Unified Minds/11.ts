@@ -32,7 +32,7 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Swaddling Leaves",
+				en: "Shell Armor",
 				fr: "Feuillage Enveloppant",
 				es: "Hojas Envolventes",
 				it: "Fogliefascia",

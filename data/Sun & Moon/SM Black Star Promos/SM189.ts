@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Tortank-GX",
-		en: "Blastoise-GX",
-		es: "Blastoise-GX",
-		it: "Blastoise-GX",
-		pt: "Blastoise-GX",
-		de: "Turtok-GX"
+		fr: "Tortank GX",
+		en: "Blastoise GX",
+		es: "Blastoise GX",
+		it: "Blastoise GX",
+		pt: "Blastoise GX",
+		de: "Turtok GX"
 	},
 	illustrator: "sadaji",
 	rarity: "Rare",

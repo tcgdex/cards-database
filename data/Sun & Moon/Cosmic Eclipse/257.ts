@@ -3,12 +3,12 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Alolan Persian-GX",
-		fr: "Persian d’Alola-GX",
-		es: "Persian de Alola-GX",
-		it: "Persian di Alola-GX",
-		pt: "Persian de Alola-GX",
-		de: "Alola-Snobilikat-GX"
+		en: "Alolan Persian GX",
+		fr: "Persian d’Alola GX",
+		es: "Persian de Alola GX",
+		it: "Persian di Alola GX",
+		pt: "Persian de Alola GX",
+		de: "Alola-Snobilikat GX"
 	},
 	illustrator: "PLANETA Tsuji",
 	rarity: "Secret Rare",

@@ -3,15 +3,15 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Togepi & Cleffa & Igglybuff-GX",
-		fr: "Togepi, Mélo et Toudoudou-GX",
-		es: "Togepi, Cleffa e Igglybuff-GX",
-		it: "Togepi, Cleffa e Igglybuff-GX",
-		pt: "Togepi, Cleffa e Igglybuff-GX",
-		de: "Togepi & Pii & Fluffeluff-GX"
+		en: "Togepi & Cleffa & Igglybuff GX",
+		fr: "Togepi, Mélo et Toudoudou GX",
+		es: "Togepi, Cleffa e Igglybuff GX",
+		it: "Togepi, Cleffa e Igglybuff GX",
+		pt: "Togepi, Cleffa e Igglybuff GX",
+		de: "Togepi & Pii & Fluffeluff GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

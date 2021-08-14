@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Eevee-GX",
-		fr: "Évoli-GX",
-		es: "Eevee-GX",
-		it: "Eevee-GX",
-		pt: "Eevee-GX",
-		de: "Evoli-GX"
+		en: "Eevee GX",
+		fr: "Évoli GX",
+		es: "Eevee GX",
+		it: "Eevee GX",
+		pt: "Eevee GX",
+		de: "Evoli GX"
 	},
 	illustrator: "PLANETA Otani",
 	rarity: "Rare",

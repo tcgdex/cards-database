@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Celesteela-GX",
-		fr: "Bamboiselle-GX",
-		es: "Celesteela-GX",
-		it: "Celesteela-GX",
-		pt: "Celesteela-GX",
-		de: "Kaguron-GX"
+		en: "Celesteela GX",
+		fr: "Bamboiselle GX",
+		es: "Celesteela GX",
+		it: "Celesteela GX",
+		pt: "Celesteela GX",
+		de: "Kaguron GX"
 	},
 	illustrator: "PLANETA Igarashi",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

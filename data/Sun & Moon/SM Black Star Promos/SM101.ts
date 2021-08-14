@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Dawn Wings Necrozma-GX",
-		fr: "Necrozma Ailes de l’Aurore-GX",
-		es: "Necrozma Alas del Alba-GX",
-		it: "Necrozma Ali dell’Aurora-GX",
-		pt: "Necrozma Asas Alvorada-GX",
-		de: "Morgenschwingen-Necrozma-GX"
+		en: "Dawn Wings Necrozma GX",
+		fr: "Necrozma Ailes de l’Aurore GX",
+		es: "Necrozma Alas del Alba GX",
+		it: "Necrozma Ali dell’Aurora GX",
+		pt: "Necrozma Asas Alvorada GX",
+		de: "Morgenschwingen-Necrozma GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

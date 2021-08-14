@@ -3,12 +3,12 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Alolan Muk-GX",
-		fr: "Grotadmorv d’Alola-GX",
-		es: "Muk de Alola-GX",
-		it: "Muk di Alola-GX",
-		pt: "Muk de Alola-GX",
-		de: "Alola-Sleimok-GX"
+		en: "Alolan Muk GX",
+		fr: "Grotadmorv d’Alola GX",
+		es: "Muk de Alola GX",
+		it: "Muk di Alola GX",
+		pt: "Muk de Alola GX",
+		de: "Alola-Sleimok GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

@@ -3,15 +3,15 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Blacephalon-GX",
-		fr: "Pierroteknik-GX",
-		es: "Blacephalon-GX",
-		it: "Blacephalon-GX",
-		pt: "Blacephalon-GX",
-		de: "Kopplosio-GX"
+		en: "Blacephalon GX",
+		fr: "Pierroteknik GX",
+		es: "Blacephalon GX",
+		it: "Blacephalon GX",
+		pt: "Blacephalon GX",
+		de: "Kopplosio GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

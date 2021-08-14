@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Reshiram & Charizard-GX",
-		fr: "Reshiram et Dracaufeu-GX",
-		es: "Reshiram y Charizard-GX",
-		it: "Reshiram e Charizard-GX",
-		pt: "Reshiram e Charizard-GX",
-		de: "Reshiram & Glurak-GX"
+		en: "Reshiram & Charizard GX",
+		fr: "Reshiram et Dracaufeu GX",
+		es: "Reshiram y Charizard GX",
+		it: "Reshiram e Charizard GX",
+		pt: "Reshiram e Charizard GX",
+		de: "Reshiram & Glurak GX"
 	},
 	illustrator: "Ryota Murayama",
 	rarity: "Ultra Rare",

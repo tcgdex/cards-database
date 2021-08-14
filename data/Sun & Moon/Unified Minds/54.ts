@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Raichu & Alolan Raichu-GX",
-		fr: "Raichu et Raichu d’Alola-GX",
-		es: "Raichu y Raichu de Alola-GX",
-		it: "Raichu e Raichu di Alola-GX",
-		pt: "Raichu e Raichu de Alola-GX",
-		de: "Raichu & Alola-Raichu-GX"
+		en: "Raichu & Alolan Raichu GX",
+		fr: "Raichu et Raichu d’Alola GX",
+		es: "Raichu y Raichu de Alola GX",
+		it: "Raichu e Raichu di Alola GX",
+		pt: "Raichu e Raichu de Alola GX",
+		de: "Raichu & Alola-Raichu GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

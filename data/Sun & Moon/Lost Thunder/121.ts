@@ -3,15 +3,15 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Tyranitar-GX",
-		fr: "Tyranocif-GX",
-		es: "Tyranitar-GX",
-		it: "Tyranitar-GX",
-		pt: "Tyranitar-GX",
-		de: "Despotar-GX"
+		en: "Tyranitar GX",
+		fr: "Tyranocif GX",
+		es: "Tyranitar GX",
+		it: "Tyranitar GX",
+		pt: "Tyranitar GX",
+		de: "Despotar GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
