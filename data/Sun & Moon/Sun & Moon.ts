@@ -7,6 +7,7 @@ const sm1: Set = {
 	name: {
 		en: "Sun & Moon",
 		fr: "Soleil et Lune",
+		es: "Sol y Luna",
 		it: "Sole e Luna",
 		de: "Sonne & Mond"
 	},

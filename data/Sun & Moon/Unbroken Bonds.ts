@@ -7,6 +7,7 @@ const sm10: Set = {
 	name: {
 		en: "Unbroken Bonds",
 		fr: "Alliance Infaillible",
+		es: "Vínculos Indestructibles",
 		it: "Legami Inossidabili",
 		de: "Kräfte im Einklang"
 	},
