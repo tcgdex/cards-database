@@ -7,6 +7,7 @@ const sm9: Set = {
 	name: {
 		en: "Team Up",
 		fr: "Duo de Choc",
+		es: "Union de Aliados",
 		it: "Gioco di Squadra",
 		de: "Teams Sind Trumpf"
 	},

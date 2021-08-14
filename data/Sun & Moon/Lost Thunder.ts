@@ -7,6 +7,7 @@ const sm8: Set = {
 	name: {
 		en: "Lost Thunder",
 		fr: "Tonnerre Perdu",
+		es: "Truenos Perdidos",
 		it: "Tuoni Perduti",
 		de: "Echo des Donners",
 	},
