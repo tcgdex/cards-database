@@ -6,8 +6,10 @@ const pl1: Set = {
 
 	name: {
 		en: "Platinum",
-		fr: "Platine"
-,
+		fr: "Platine",
+		es: "Platino",
+		it: "Platino",
+		de: "Platin"
 	},
 
 	serie: serie,

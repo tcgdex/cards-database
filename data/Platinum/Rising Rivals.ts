@@ -6,8 +6,9 @@ const pl2: Set = {
 
 	name: {
 		en: "Rising Rivals",
-		fr: "Rivaux Émergeants"
-,
+		fr: "Rivaux Émergeants",
+		it: "L'Ascesa dei Rivali",
+		de: "Aufstieg der Rivalen"
 	},
 
 	serie: serie,
