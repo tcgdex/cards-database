@@ -6,7 +6,9 @@ const hgss3: Set = {
 
 	name: {
 		en: "Undaunted",
-		fr: "Indomptable"
+		fr: "Indomptable",
+		it: "Senza Paura",
+		de: "Unerschrocken"
 	},
 
 	serie: serie,

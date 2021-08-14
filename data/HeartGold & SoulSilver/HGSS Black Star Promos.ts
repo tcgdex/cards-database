@@ -6,7 +6,10 @@ const hgssp: Set = {
 
 	name: {
 		en: "HGSS Black Star Promos",
-		fr: "Promo HGSS"
+		fr: "Promo HGSS",
+		es: "Promo HGSS",
+		it: "Promo HGSS",
+		de: "Promo HGSS"
 	},
 
 	serie: serie,
