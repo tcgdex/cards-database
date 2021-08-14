@@ -6,7 +6,10 @@ const dp7: Set = {
 
 	name: {
 		en: "Stormfront",
-		fr: "Tempête"
+		fr: "Tempête",
+		es: "Frente Tormentoso",
+		it: "Fronte di Tempesta",
+		de: "Sturmtief"
 	},
 
 	serie: serie,

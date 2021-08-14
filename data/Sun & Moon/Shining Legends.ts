@@ -7,6 +7,7 @@ const sm35: Set = {
 	name: {
 		en: "Shining Legends",
 		fr: "Légendes Brillantes",
+		es: "Leyendas Luminosas",
 		it: "Leggende Iridescenti",
 		de: "Schimmernde Legenden"
 	},

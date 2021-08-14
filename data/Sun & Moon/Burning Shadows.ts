@@ -7,6 +7,7 @@ const sm3: Set = {
 	name: {
 		en: "Burning Shadows",
 		fr: "Ombres Ardentes",
+		es: "Sombras Ardientes",
 		it: "Ombre Infuocate",
 		de: "Nacht in Flammen"
 	},
