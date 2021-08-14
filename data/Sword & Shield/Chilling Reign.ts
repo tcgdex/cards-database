@@ -6,8 +6,9 @@ const set: Set = {
 	name: {
 		en: "Chilling Reign",
 		fr: "Règne de Glace",
-		es: "Reinado Escalofriante"
-,
+		es: "Reinado Escalofriante",
+		it: "Regno Glaciale",
+		de: "Schaurige Herrschaft"
 	},
 	serie: serie,
 

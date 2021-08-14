@@ -4,8 +4,10 @@ const set: Serie = {
 	id: "swsh",
 	name: {
 		en: "Sword & Shield",
-		fr: "Épée & Bouclier",
-		es: "Espada y Escudo"
+		fr: "Épée et Bouclier",
+		es: "Espada y Escudo",
+		it: "Spada e Scudo",
+		de: "Schwert & Schild"
 	},
 }
 
