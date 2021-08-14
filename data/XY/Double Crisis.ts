@@ -6,8 +6,7 @@ const dc1: Set = {
 
 	name: {
 		en: "Double Crisis",
-		fr: "Double Danger"
-,
+		fr: "Double Danger",
 	},
 
 	serie: serie,

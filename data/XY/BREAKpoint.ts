@@ -6,8 +6,10 @@ const xy9: Set = {
 
 	name: {
 		en: "BREAKpoint",
-		fr: "Rupture Turbo"
-,
+		fr: "Rupture Turbo",
+		es: "TURBOLímite",
+		it: "Turbo Crash",
+		de: "TURBOfieber"
 	},
 
 	serie: serie,
