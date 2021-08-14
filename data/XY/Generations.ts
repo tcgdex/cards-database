@@ -6,8 +6,10 @@ const g1: Set = {
 
 	name: {
 		en: "Generations",
-		fr: "Générations"
-,
+		fr: "Générations",
+		es: "Generaciones",
+		it: "Generazioni",
+		de: "Generationen"
 	},
 
 	serie: serie,

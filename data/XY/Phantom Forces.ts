@@ -6,8 +6,10 @@ const xy4: Set = {
 
 	name: {
 		en: "Phantom Forces",
-		fr: "Vigueur Spectrale"
-,
+		fr: "Vigueur Spectrale",
+		es: "Fuerzas Fantasmales",
+		it: "Forze Spettrali",
+		de: "Phantomkräfte"
 	},
 
 	serie: serie,
