@@ -7,6 +7,7 @@ const sm6: Set = {
 	name: {
 		en: "Forbidden Light",
 		fr: "Lumière Interdite",
+		es: "Luz Prohibida",
 		it: "Apocalisse Di Luce",
 		de: "Grauen Der Lichtfinsternis"
 	},

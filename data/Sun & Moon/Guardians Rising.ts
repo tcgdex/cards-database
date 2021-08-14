@@ -7,6 +7,7 @@ const sm2: Set = {
 	name: {
 		en: "Guardians Rising",
 		fr: "Gardiens Ascendants",
+		es: "Albor de Guadianes",
 		it: "Guardiani Nascenti",
 		de: "Stunde der Wächter"
 	},
