@@ -6,8 +6,8 @@ const pl3: Set = {
 
 	name: {
 		en: "Supreme Victors",
-		fr: "Vainqueurs Suprêmes"
-,
+		fr: "Vainqueurs Suprêmes",
+		de: "Ultimative Sieger"
 	},
 
 	serie: serie,
