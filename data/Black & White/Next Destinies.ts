@@ -6,7 +6,10 @@ const bw4: Set = {
 
 	name: {
 		en: "Next Destinies",
-		fr: "Destinées Futures"
+		fr: "Destinées Futures",
+		es: "Próximos Destinos",
+		it: "Destini Futuri",
+		de: "Kommende Schicksale"
 	},
 
 	serie: serie,

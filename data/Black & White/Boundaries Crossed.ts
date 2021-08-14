@@ -6,7 +6,10 @@ const bw7: Set = {
 
 	name: {
 		en: "Boundaries Crossed",
-		fr: "Frontières Franchies"
+		fr: "Frontières Franchies",
+		es: "Fronteras Cruzadas",
+		it: "Confini Varcati",
+		de: "Überschrittene Schwellen"
 	},
 
 	serie: serie,
