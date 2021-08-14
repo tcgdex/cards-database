@@ -7,6 +7,7 @@ const sm5: Set = {
 	name: {
 		en: "Ultra Prism",
 		fr: "Ultra-Prisme",
+		es: "Ultraprisma",
 		it: "Ultraprisma",
 		de: "Ultra-Prisma",
 	},

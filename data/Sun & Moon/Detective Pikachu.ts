@@ -7,6 +7,7 @@ const det1: Set = {
 	name: {
 		en: "Detective Pikachu",
 		fr: "Détective Pikachu",
+		es: "Detective Pikachu",
 		it: "Detective Pikachu",
 		de: "Meisterdetektiv Pikachu",
 	},
