@@ -6,7 +6,9 @@ const col1: Set = {
 
 	name: {
 		en: "Call of Legends",
-		fr: "L'appel des Légendes"
+		fr: "L'appel des Légendes",
+		it: "Richiamo delle Leggende",
+		de: "Ruf der Legenden"
 	},
 
 	serie: serie,
