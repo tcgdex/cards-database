@@ -6,7 +6,10 @@ const bwp: Set = {
 
 	name: {
 		en: "BW Black Star Promos",
-		fr: "Promo BW"
+		fr: "Promo BW",
+		es: "NB Promo",
+		it: "NB Promo",
+		de: "SW Promokarten"
 	},
 
 	serie: serie,

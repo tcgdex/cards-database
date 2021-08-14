@@ -6,7 +6,9 @@ const hgss4: Set = {
 
 	name: {
 		en: "Triumphant",
-		fr: "Triomphant"
+		fr: "Triomphant",
+		it: "Triumphant",
+		de: "Triumphant"
 	},
 
 	serie: serie,

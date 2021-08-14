@@ -6,7 +6,9 @@ const dp5: Set = {
 
 	name: {
 		en: "Majestic Dawn",
-		fr: "Aube Majestueuse"
+		fr: "Aube Majestueuse",
+		it: "Alba Suprema",
+		de: "Majestätischer Morgen"
 	},
 
 	serie: serie,

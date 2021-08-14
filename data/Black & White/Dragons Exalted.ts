@@ -6,7 +6,10 @@ const bw6: Set = {
 
 	name: {
 		en: "Dragons Exalted",
-		fr: "Dragons Éxaltés"
+		fr: "Dragons Éxaltés",
+		es: "Dragones Majestuosos",
+		it: "Stirpe dei Draghi",
+		de: "Hoheit der Drachen"
 	},
 
 	serie: serie,

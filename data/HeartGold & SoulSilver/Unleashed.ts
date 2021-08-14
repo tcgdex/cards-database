@@ -6,7 +6,10 @@ const hgss2: Set = {
 
 	name: {
 		en: "Unleashed",
-		fr: "Déchaînement"
+		fr: "Déchaînement",
+		es: "Liberados",
+		it: "Forze Scatenate",
+		de: "Entfesselt"
 	},
 
 	serie: serie,

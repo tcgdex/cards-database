@@ -6,7 +6,10 @@ const bw3: Set = {
 
 	name: {
 		en: "Noble Victories",
-		fr: "Nobles Victoires"
+		fr: "Nobles Victoires",
+		es: "Nobles Victorias",
+		it: "Vittorie Regali",
+		de: "Königliche Siege"
 	},
 
 	serie: serie,
