@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Ditto",
 		de: "Ditto"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 

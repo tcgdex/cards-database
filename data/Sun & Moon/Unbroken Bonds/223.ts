@@ -3,12 +3,12 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Honchkrow-GX",
-		fr: "Corboss-GX",
-		es: "Honchkrow-GX",
-		it: "Honchkrow-GX",
-		pt: "Honchkrow-GX",
-		de: "Kramshef-GX"
+		en: "Honchkrow GX",
+		fr: "Corboss GX",
+		es: "Honchkrow GX",
+		it: "Honchkrow GX",
+		pt: "Honchkrow GX",
+		de: "Kramshef GX"
 	},
 
 	illustrator: "sadaji",

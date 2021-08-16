@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Umkehrboard"
 	},
 
-	illustrator: undefined,
+	illustrator: "sadaji",
 	rarity: "Secret Rare",
 	category: "Trainer",
 	set: Set,

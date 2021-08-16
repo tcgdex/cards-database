@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Espeon & Deoxys-GX",
-		fr: "Mentali et Deoxys-GX",
-		es: "Espeon y Deoxys-GX",
-		it: "Espeon e Deoxys-GX",
-		pt: "Espeon e Deoxys-GX",
-		de: "Psiana & Deoxys-GX"
+		en: "Espeon & Deoxys GX",
+		fr: "Mentali et Deoxys GX",
+		es: "Espeon y Deoxys GX",
+		it: "Espeon e Deoxys GX",
+		pt: "Espeon e Deoxys GX",
+		de: "Psiana & Deoxys GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

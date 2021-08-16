@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Weavile-GX",
-		fr: "Dimoret-GX",
-		es: "Weavile-GX",
-		it: "Weavile-GX",
-		pt: "Weavile-GX",
-		de: "Snibunna-GX"
+		en: "Weavile GX",
+		fr: "Dimoret GX",
+		es: "Weavile GX",
+		it: "Weavile GX",
+		pt: "Weavile GX",
+		de: "Snibunna GX"
 	},
 	illustrator: "aky CG Works",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

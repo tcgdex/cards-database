@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Exoskelett"
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				es: "Cualquier daño infligido a este Pokémon por ataques se reduce en 10 (después de aplicar Debilidad y Resistencia).",
 				it: "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 10, dopo aver applicato debolezza e resistenza.",

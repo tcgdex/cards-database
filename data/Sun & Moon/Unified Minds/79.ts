@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Jirachi-GX",
-		fr: "Jirachi-GX",
-		es: "Jirachi-GX",
-		it: "Jirachi-GX",
-		pt: "Jirachi-GX",
-		de: "Jirachi-GX"
+		en: "Jirachi GX",
+		fr: "Jirachi GX",
+		es: "Jirachi GX",
+		it: "Jirachi GX",
+		pt: "Jirachi GX",
+		de: "Jirachi GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

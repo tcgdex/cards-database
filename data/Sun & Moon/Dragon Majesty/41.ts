@@ -3,15 +3,15 @@ import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Altaria-GX",
-		fr: "Altaria-GX",
-		es: "Altaria-GX",
-		it: "Altaria-GX",
-		pt: "Altaria-GX",
-		de: "Altaria-GX"
+		en: "Altaria GX",
+		fr: "Altaria GX",
+		es: "Altaria GX",
+		it: "Altaria GX",
+		pt: "Altaria GX",
+		de: "Altaria GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

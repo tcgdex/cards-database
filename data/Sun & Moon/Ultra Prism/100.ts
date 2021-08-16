@@ -3,15 +3,15 @@ import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Dialga-GX",
-		fr: "Dialga-GX",
-		es: "Dialga-GX",
-		it: "Dialga-GX",
-		pt: "Dialga-GX",
-		de: "Dialga-GX"
+		en: "Dialga GX",
+		fr: "Dialga GX",
+		es: "Dialga GX",
+		it: "Dialga GX",
+		pt: "Dialga GX",
+		de: "Dialga GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

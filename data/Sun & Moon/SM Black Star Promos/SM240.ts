@@ -5,12 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espeon & Deoxys-GX",
-		fr: "Mentali et Deoxys-GX",
-		es: "Espeon y Deoxys-GX",
-		it: "Espeon e Deoxys-GX",
-		pt: "Espeon e Deoxys-GX",
-		de: "Psiana & Deoxys-GX"
+		en: "Espeon & Deoxys GX",
+		fr: "Mentali et Deoxys GX",
+		es: "Espeon y Deoxys GX",
+		it: "Espeon e Deoxys GX",
+		pt: "Espeon e Deoxys GX",
+		de: "Psiana & Deoxys GX"
 	},
 
 	rarity: "Rare",

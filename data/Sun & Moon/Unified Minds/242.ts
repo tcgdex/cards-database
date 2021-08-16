@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo & Mew-GX",
-		fr: "Mewtwo et Mew-GX",
-		es: "Mewtwo y Mew-GX",
-		it: "Mewtwo e Mew-GX",
-		pt: "Mewtwo e Mew-GX",
-		de: "Mewtu & Mew-GX"
+		en: "Mewtwo & Mew GX",
+		fr: "Mewtwo et Mew GX",
+		es: "Mewtwo y Mew GX",
+		it: "Mewtwo e Mew GX",
+		pt: "Mewtwo e Mew GX",
+		de: "Mewtu & Mew GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,

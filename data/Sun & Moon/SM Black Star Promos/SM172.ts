@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon-GX",
-		fr: "Aquali-GX",
-		es: "Vaporeon-GX",
-		it: "Vaporeon-GX",
-		pt: "Vaporeon-GX",
-		de: "Aquana-GX"
+		en: "Vaporeon GX",
+		fr: "Aquali GX",
+		es: "Vaporeon GX",
+		it: "Vaporeon GX",
+		pt: "Vaporeon GX",
+		de: "Aquana GX"
 	},
 	illustrator: "PLANETA Otani",
 	rarity: "Rare",

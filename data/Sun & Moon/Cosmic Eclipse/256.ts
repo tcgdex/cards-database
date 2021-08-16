@@ -3,12 +3,12 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Flygon-GX",
-		fr: "Libégon-GX",
-		es: "Flygon-GX",
-		it: "Flygon-GX",
-		pt: "Flygon-GX",
-		de: "Libelldra-GX"
+		en: "Flygon GX",
+		fr: "Libégon GX",
+		es: "Flygon GX",
+		it: "Flygon GX",
+		pt: "Flygon GX",
+		de: "Libelldra GX"
 	},
 	illustrator: "PLANETA Tsuji",
 	rarity: "Secret Rare",

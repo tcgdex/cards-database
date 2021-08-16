@@ -3,15 +3,15 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Metagross-GX",
-		fr: "Métalosse-GX",
-		es: "Metagross-GX",
-		it: "Metagross-GX",
-		pt: "Metagross-GX",
-		de: "Metagross-GX"
+		en: "Metagross GX",
+		fr: "Métalosse GX",
+		es: "Metagross GX",
+		it: "Metagross GX",
+		pt: "Metagross GX",
+		de: "Metagross GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,15 +3,15 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Eevee & Snorlax-GX",
-		fr: "Évoli et Ronflex-GX",
-		es: "Eevee y Snorlax-GX",
-		it: "Eevee e Snorlax-GX",
-		pt: "Eevee e Snorlax-GX",
-		de: "Evoli & Relaxo-GX"
+		en: "Eevee & Snorlax GX",
+		fr: "Évoli et Ronflex GX",
+		es: "Eevee y Snorlax GX",
+		it: "Eevee e Snorlax GX",
+		pt: "Eevee e Snorlax GX",
+		de: "Evoli & Relaxo GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Whimsicott-GX",
-		fr: "Farfaduvet-GX",
-		es: "Whimsicott-GX",
-		it: "Whimsicott-GX",
-		pt: "Whimsicott-GX",
-		de: "Elfun-GX"
+		en: "Whimsicott GX",
+		fr: "Farfaduvet GX",
+		es: "Whimsicott GX",
+		it: "Whimsicott GX",
+		pt: "Whimsicott GX",
+		de: "Elfun GX"
 	},
 
-	illustrator: "PLANETA Igarashi",
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,

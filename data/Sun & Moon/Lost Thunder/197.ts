@@ -3,12 +3,12 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Virizion-GX",
-		fr: "Viridium-GX",
-		es: "Virizion-GX",
-		it: "Virizion-GX",
-		pt: "Virizion-GX",
-		de: "Viridium-GX"
+		en: "Virizion GX",
+		fr: "Viridium GX",
+		es: "Virizion GX",
+		it: "Virizion GX",
+		pt: "Virizion GX",
+		de: "Viridium GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

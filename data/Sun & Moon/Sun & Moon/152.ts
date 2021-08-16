@@ -3,12 +3,12 @@ import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Espeon-GX",
-		fr: "Mentali-GX",
-		es: "Espeon-GX",
-		it: "Espeon-GX",
-		pt: "Espeon-GX",
-		de: "Psiana-GX"
+		en: "Espeon GX",
+		fr: "Mentali GX",
+		es: "Espeon GX",
+		it: "Espeon GX",
+		pt: "Espeon GX",
+		de: "Psiana GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

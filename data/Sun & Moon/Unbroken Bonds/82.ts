@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Marshadow & Machamp-GX",
-		fr: "Marshadow et Mackogneur-GX",
-		es: "Marshadow y Machamp-GX",
-		it: "Marshadow e Machamp-GX",
-		pt: "Marshadow e Machamp-GX",
-		de: "Marshadow & Machomei-GX"
+		en: "Marshadow & Machamp GX",
+		fr: "Marshadow et Mackogneur GX",
+		es: "Marshadow y Machamp GX",
+		it: "Marshadow e Machamp GX",
+		pt: "Marshadow e Machamp GX",
+		de: "Marshadow & Machomei GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

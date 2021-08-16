@@ -3,12 +3,12 @@ import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Xerneas-GX",
-		fr: "Xerneas-GX",
-		es: "Xerneas-GX",
-		it: "Xerneas-GX",
-		pt: "Xerneas-GX",
-		de: "Xerneas-GX"
+		en: "Xerneas GX",
+		fr: "Xerneas GX",
+		es: "Xerneas GX",
+		it: "Xerneas GX",
+		pt: "Xerneas GX",
+		de: "Xerneas GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

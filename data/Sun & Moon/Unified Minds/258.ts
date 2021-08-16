@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Schwächewächter-Energie"
 	},
 
-	illustrator: undefined,
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Energy",
 	set: Set,

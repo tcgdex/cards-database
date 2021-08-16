@@ -3,15 +3,15 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Évoli et Ronflex-GX",
-		en: "Eevee & Snorlax-GX",
-		es: "Eevee y Snorlax-GX",
-		it: "Eevee e Snorlax-GX",
-		pt: "Eevee e Snorlax-GX",
-		de: "Evoli & Relaxo-GX"
+		fr: "Évoli et Ronflex GX",
+		en: "Eevee & Snorlax GX",
+		es: "Eevee y Snorlax GX",
+		it: "Eevee e Snorlax GX",
+		pt: "Eevee e Snorlax GX",
+		de: "Evoli & Relaxo GX"
 	},
 	illustrator: "Tomokazu Komiya",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

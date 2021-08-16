@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Solider Panzer"
 			},
 			effect: {
-				en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				en: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
 				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 				es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 				it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",

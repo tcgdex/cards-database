@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Garchomp & Giratina-GX",
-		fr: "Carchacrok et Giratina-GX",
-		es: "Garchomp y Giratina-GX",
-		it: "Garchomp e Giratina-GX",
-		pt: "Garchomp e Giratina-GX",
-		de: "Knakrack & Giratina-GX"
+		en: "Garchomp & Giratina GX",
+		fr: "Carchacrok et Giratina GX",
+		es: "Garchomp y Giratina GX",
+		it: "Garchomp e Giratina GX",
+		pt: "Garchomp e Giratina GX",
+		de: "Knakrack & Giratina GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "aky CG Works",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,
@@ -53,8 +53,8 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Fighting",
 				"Psychic",
+				"Fighting",
 				"Colorless",
 			],
 			name: {
@@ -78,9 +78,9 @@ const card: Card = {
 		},
 		{
 			cost: [
+				"Psychic",
+				"Psychic",
 				"Fighting",
-				"Psychic",
-				"Psychic",
 			],
 			name: {
 				en: "GG End GX",

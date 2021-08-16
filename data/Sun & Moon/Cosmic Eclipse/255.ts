@@ -3,12 +3,12 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Oricorio-GX",
-		fr: "Plumeline-GX",
-		es: "Oricorio-GX",
-		it: "Oricorio-GX",
-		pt: "Oricorio-GX",
-		de: "Choreogel-GX"
+		en: "Oricorio GX",
+		fr: "Plumeline GX",
+		es: "Oricorio GX",
+		it: "Oricorio GX",
+		pt: "Oricorio GX",
+		de: "Choreogel GX"
 	},
 	illustrator: "PLANETA Tsuji",
 	rarity: "Secret Rare",

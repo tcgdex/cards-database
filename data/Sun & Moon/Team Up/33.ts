@@ -3,15 +3,15 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Pikachu & Zekrom-GX",
-		fr: "Pikachu et Zekrom-GX",
-		es: "Pikachu y Zekrom-GX",
-		it: "Pikachu e Zekrom-GX",
-		pt: "Pikachu e Zekrom-GX",
-		de: "Pikachu & Zekrom-GX"
+		en: "Pikachu & Zekrom GX",
+		fr: "Pikachu et Zekrom GX",
+		es: "Pikachu y Zekrom GX",
+		it: "Pikachu e Zekrom GX",
+		pt: "Pikachu e Zekrom GX",
+		de: "Pikachu & Zekrom GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

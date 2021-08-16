@@ -3,15 +3,15 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Turtonator-GX",
-		fr: "Boumata-GX",
-		es: "Turtonator-GX",
-		it: "Turtonator-GX",
-		pt: "Turtonator-GX",
-		de: "Tortunator-GX"
+		en: "Turtonator GX",
+		fr: "Boumata GX",
+		es: "Turtonator GX",
+		it: "Turtonator GX",
+		pt: "Turtonator GX",
+		de: "Tortunator GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

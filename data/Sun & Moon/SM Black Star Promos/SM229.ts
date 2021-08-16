@@ -5,12 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venusaur & Snivy-GX",
-		fr: "Florizarre et Vipélierre-GX",
-		es: "Venusaur y Snivy-GX",
-		it: "Venusaur e Snivy-GX",
-		pt: "Venusaur e Snivy-GX",
-		de: "Bisaflor & Serpifeu-GX"
+		en: "Venusaur & Snivy GX",
+		fr: "Florizarre et Vipélierre GX",
+		es: "Venusaur y Snivy GX",
+		it: "Venusaur e Snivy GX",
+		pt: "Venusaur e Snivy GX",
+		de: "Bisaflor & Serpifeu GX"
 	},
 
 	rarity: "Rare",

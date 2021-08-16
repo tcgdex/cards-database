@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Batterie"
 			},
 			effect: {
-				en: "Attach to Vikavolt or Vikavolt-GX as a Special Energy card.",
+				en: "Once during your turn (before your attack), you may attach this card from your hand to 1 of your Vikavolt or Vikavolt-GX as a Special Energy card. This card provides 2 Lightning Energy only while it’s attached to a Pokémon.",
 				fr: "L’attacher à Lucanon ou Lucanon-GX comme carte Énergie spéciale.",
 				es: "Une a Vikavolt o Vikavolt-GX como una carta de Energía Especial.",
 				it: "Assegna a Vikavolt o Vikavolt-GX come carta Energia speciale.",

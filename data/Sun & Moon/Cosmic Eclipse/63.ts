@@ -3,15 +3,15 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Wishiwashi-GX",
-		fr: "Froussardine-GX",
-		es: "Wishiwashi-GX",
-		it: "Wishiwashi-GX",
-		pt: "Wishiwashi-GX",
-		de: "Lusardin-GX"
+		en: "Wishiwashi GX",
+		fr: "Froussardine GX",
+		es: "Wishiwashi GX",
+		it: "Wishiwashi GX",
+		pt: "Wishiwashi GX",
+		de: "Lusardin GX"
 	},
 	illustrator: "sadaji",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

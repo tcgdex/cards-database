@@ -3,12 +3,12 @@ import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Greninja-GX",
-		fr: "Amphinobi-GX",
-		es: "Greninja-GX",
-		it: "Greninja-GX",
-		pt: "Greninja-GX",
-		de: "Quajutsu-GX"
+		en: "Greninja GX",
+		fr: "Amphinobi GX",
+		es: "Greninja GX",
+		it: "Greninja GX",
+		pt: "Greninja GX",
+		de: "Quajutsu GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
