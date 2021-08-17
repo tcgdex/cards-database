@@ -26,24 +26,23 @@ A Multilanguage Pokémon TCG Database with Cards Pictures and most of the inform
 
 |             | English | French | German | Italian | Portuguese | Spanish |
 |-------------|---------|--------|--------|---------|------------|---------|
-| Cards       | 14464   | 12715  | 1539   | 1539    | 1539       | 1539    |
-| Other texts | 51      | 51     | 0      | 0       | 0          | 45      |
-| Translated  | 100%    | 71%    | 11%    | 11%     | 11%        | 11%     |
+| Cards       | 13581   | 9122   | 4253   | 4253    | 4253       | 4253    |
+| Translated  | 100%    | 67%    | 31%    | 31%     | 31%        | 31%     |
 
 ## Interact with the Database
 
 The easiest way to interact with the database is by using one of our SDKs _list below_.
 
-You can however build the API yourself by using our [compiler](https://github.com/tcgdex/compiler) or download the already built [compiled database](https://github.com/tcgdex/distribution).
+You can however build the API yourself by using our [compiler](https://github.com/tcgdex/compiler) or download the already [compiled database](https://github.com/tcgdex/distribution).
 
-## SDKs (API Wrapper but SDK is way cooler 😄)
+## SDKs / API Wrappers
 
 We currently officially support theses SDKs
 
 - [Javascript/Typescript SDK](https://github.com/tcgdex/javascript-sdk)
 - [PHP SDK](https://github.com/tcgdex/php-sdk)
 
-_If you have a SDK you can start a [discussion](https://github.com/tcgdex/cards-database/discussions/new) to be added here_
+_If you have a SDK, start a [discussion](https://github.com/tcgdex/cards-database/discussions/new) to be added here_
 
 
 ## Join Us on Discord
