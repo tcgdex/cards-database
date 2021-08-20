@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tornadus-EX",
 		fr: "Boréas-EX",
+		es: "Tornadus-EX",
+		it: "Tornadus-EX",
+		pt: "Tornadus-EX",
+		de: "Boreos-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",

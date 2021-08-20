@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Kingdra",
 		fr: "Hyporoi",
+		es: "Kingdra",
+		it: "Kingdra",
+		pt: "Kingdra",
+		de: "Seedraking"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",

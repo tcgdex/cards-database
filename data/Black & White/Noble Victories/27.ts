@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Vanillite",
 		fr: "Sorbébé",
+		es: "Vanillite",
+		it: "Vanillite",
+		pt: "Vanillite",
+		de: "Gelatini"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",

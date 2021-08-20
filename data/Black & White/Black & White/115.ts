@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		fr: "Pikachu",
 		en: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -5,19 +5,21 @@ const card: Card = {
 	name: {
 		en: "Black Kyurem-EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		646,
 	],
+
 	hp: 180,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "EX",
 
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -61,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Marowak",
 		fr: "Ossatueur",
+		es: "Marowak",
+		it: "Marowak",
+		pt: "Marowak",
+		de: "Knogga"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",

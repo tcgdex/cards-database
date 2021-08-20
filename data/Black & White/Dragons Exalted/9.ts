@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cascoon",
 		fr: "Blindalys",
+		es: "Cascoon",
+		it: "Cascoon",
+		pt: "Cascoon",
+		de: "Panekon"
 	},
 	illustrator: "match",
 	rarity: "Uncommon",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Galvantula",
 		fr: "Mygavolt",
+		es: "Galvantula",
+		it: "Galvantula",
+		pt: "Galvantula",
+		de: "Voltula"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",

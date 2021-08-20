@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Vileplume",
 		fr: "Rafflesia",
+		es: "Vileplume",
+		it: "Vileplume",
+		pt: "Vileplume",
+		de: "Giflor"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Allergy Panic",
 				fr: "Panique Allergique",
+				es: "Pánico Alérgico",
+				it: "Allergipanico",
+				pt: "Pânico Alérgico",
+				de: "Allergieschock"
 			},
 			effect: {
 				en: "Apply Weakness for each Pokémon (both yours and your opponent's) as ×4 instead.",
 				fr: "Appliquez une Faiblesse de x4 à chacun des Pokémon (les vôtres et ceux de votre adversaire).",
+				es: "Aplica una Debilidad de x4 a cada Pokémon (tanto tuyos como de tu rival).",
+				it: "La debolezza di tutti i Pokémon, sia tuoi che del tuo avversario, diventa x4.",
+				pt: "Aplique Fraqueza x 4 a cada Pokémon (seu e do seu oponente).",
+				de: "Der Schwächefaktor jedes Pokémon (deiner und der deines Gegners) wird durch x4 ersetzt."
 			},
 		},
 	],

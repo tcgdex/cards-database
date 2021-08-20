@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
+		es: "Teddiursa",
+		it: "Teddiursa",
+		pt: "Teddiursa",
+		de: "Teddiursa"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",

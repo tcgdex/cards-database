@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Vibrava",
 		fr: "Vibraninf",
+		es: "Vibrava",
+		it: "Vibrava",
+		pt: "Vibrava",
+		de: "Vibrava"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Houndour",
 		fr: "Malosse",
+		es: "Houndour",
+		it: "Houndour",
+		pt: "Houndour",
+		de: "Hunduster"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",

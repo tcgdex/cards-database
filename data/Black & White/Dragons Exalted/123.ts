@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rayquaza-EX",
 		fr: "Rayquaza-EX",
+		es: "Rayquaza-EX",
+		it: "Rayquaza-EX",
+		pt: "Rayquaza-EX",
+		de: "Rayquaza-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Lucario",
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Riolu",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -29,10 +34,11 @@ const card: Card = {
 				en: "Reflexive Retaliation",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -56,10 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

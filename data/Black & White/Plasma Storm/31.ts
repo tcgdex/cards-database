@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ludicolo",
 		fr: "Ludicolo",
+		es: "Ludicolo",
+		it: "Ludicolo",
+		pt: "Ludicolo",
+		de: "Kappalores"
 	},
 	illustrator: "match",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Rain Dish",
 				fr: "Cuvette",
+				es: "Cura Lluvia",
+				it: "Copripioggia",
+				pt: "Prato de Chuva",
+				de: "Regengenuss"
 			},
 			effect: {
 				en: "At any time between turns, heal 20 damage from this Pokémon.",
-				fr: "N'importe quand entre chaque tour, soignez 20 dégâts à ce Pokémon.",
+				fr: "N’importe quand entre chaque tour, soignez 20 dégâts à ce Pokémon.",
+				es: "En cualquier momento entre turnos, cura 20 puntos de daño a este Pokémon.",
+				it: "Tra un turno e l’altro, in qualsiasi momento, cura questo Pokémon da 20 danni.",
+				pt: "A qualquer momento entre as vezes de jogar, cure 20 de danos deste Pokémon.",
+				de: "Heile zu einem beliebigen Zeitpunkt zwischen den Zügen 20 Schadenspunkte bei diesem Pokémon."
 			},
 		},
 	],

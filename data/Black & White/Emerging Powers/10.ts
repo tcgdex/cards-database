@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		es: "Cottonee",
+		it: "Cottonee",
+		pt: "Cottonee",
+		de: "Waumboll"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",

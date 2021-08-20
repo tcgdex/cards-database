@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Hippowdon",
 		fr: "Hippodocus",
+		es: "Hippowdon",
+		it: "Hippowdon",
+		pt: "Hippowdon",
+		de: "Hippoterus"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",

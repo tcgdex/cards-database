@@ -4,20 +4,27 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Raikou-EX",
+		fr: "Raikou-EX",
+		es: "Raikou-EX",
+		it: "Raikou-EX",
+		pt: "Raikou-EX",
+		de: "Raikou-EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		243,
 	],
+
 	hp: 170,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "EX",
 
@@ -51,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,10 +66,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

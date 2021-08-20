@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Sigilyph",
 		fr: "Cryptéro",
+		es: "Sigilyph",
+		it: "Sigilyph",
+		pt: "Sigilyph",
+		de: "Symvolara"
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Safeguard",
 				fr: "Rune Protect",
+				es: "Velo Sagrado",
+				it: "Salvaguardia",
+				pt: "Salvaguarda",
+				de: "Bodyguard"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
-				fr: "Évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon par des Pokémon-EX.",
+				fr: "Évitez tous les effets d’attaques (y compris les dégâts) infligés à ce Pokémon par des Pokémon-EX.",
+				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por Pokémon-EX.",
+				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon da Pokémon-EX.",
+				pt: "Impede todos os efeitos de ataques, inclusive danos, causados a este Pokémon por Pokémon-EX.",
+				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch Pokémon-EX zugefügt werden."
 			},
 		},
 	],

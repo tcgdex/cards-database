@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Heracross",
 		fr: "Scarhino",
+		es: "Heracross",
+		it: "Heracross",
+		pt: "Heracross",
+		de: "Skaraborn"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",

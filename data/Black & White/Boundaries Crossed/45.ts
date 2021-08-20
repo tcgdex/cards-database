@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Jellicent",
 		fr: "Moyade",
+		es: "Jellicent",
+		it: "Jellicent",
+		pt: "Jellicent",
+		de: "Apoquallyp"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Stickiness",
 				fr: "Viscosité",
+				es: "Pegajosidad",
+				it: "Colla",
+				pt: "Colante",
+				de: "Superkleber"
 			},
 			effect: {
-				en: "The Retreat Cost of each of your opponent's Pokémon in play is Colorless more.",
+				en: "The Retreat Cost of each of your opponent’s Pokémon in play is Colorless more.",
 				fr: "Le coût de Retraite de chacun des Pokémon de votre adversaire est augmenté de Colorless.",
+				es: "El Coste de Retirada de cada uno de los Pokémon en juego de tu rival es de Colorless más.",
+				it: "Il costo di ritirata di ciascun Pokémon in gioco del tuo avversario aumenta di Colorless.",
+				pt: "O Custo para Recuar de cada um dos Pokémon do seu oponente em jogo será de Colorless a mais.",
+				de: "Die Rückzugskosten aller Pokémon deines Gegners im Spiel erhöhen sich um Colorless."
 			},
 		},
 	],

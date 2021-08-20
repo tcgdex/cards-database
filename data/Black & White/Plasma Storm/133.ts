@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cobalion-EX",
 		fr: "Cobaltium-EX",
+		es: "Cobalion-EX",
+		it: "Cobalion-EX",
+		pt: "Cobalion-EX",
+		de: "Kobalium-EX"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",

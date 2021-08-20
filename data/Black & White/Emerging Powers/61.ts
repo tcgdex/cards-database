@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Krokorok",
 		fr: "Escroco",
+		es: "Krokorok",
+		it: "Krokorok",
+		pt: "Krokorok",
+		de: "Rokkaiman"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",

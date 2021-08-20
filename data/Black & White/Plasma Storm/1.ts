@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Turtwig",
 		fr: "Tortipouss",
+		es: "Turtwig",
+		it: "Turtwig",
+		pt: "Turtwig",
+		de: "Chelast"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",

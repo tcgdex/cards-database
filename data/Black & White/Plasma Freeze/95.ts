@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Starly",
 		fr: "Étourmi",
+		es: "Starly",
+		it: "Starly",
+		pt: "Starly",
+		de: "Staralili"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		es: "Voltorb",
+		it: "Voltorb",
+		pt: "Voltorb",
+		de: "Voltobal"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",

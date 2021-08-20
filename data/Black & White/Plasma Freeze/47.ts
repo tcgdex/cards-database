@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mr. Mime",
 		fr: "M. Mime",
+		es: "Mr. Mime",
+		it: "Mr. Mime",
+		pt: "Mr. Mime",
+		de: "Pantimos"
 	},
 	illustrator: "Hiroki Asanuma",
 	rarity: "Rare",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Bench Barrier",
 				fr: "Barrière de Banc",
+				es: "Barrera de Banca",
+				it: "Panchinafranca",
+				pt: "Barreira de Banco",
+				de: "Bankbarriere"
 			},
 			effect: {
 				en: "Prevent all damage done to your Benched Pokémon by attacks.",
 				fr: "Évitez tous les dégâts infligés à vos Pokémon de Banc par des attaques.",
+				es: "Evita todo el daño infligido a tus Pokémon en Banca por ataques.",
+				it: "Previeni tutto il danno inflitto dagli attacchi ai tuoi Pokémon in panchina.",
+				pt: "Impede todos os danos causados por ataques a seus Pokémon no Banco.",
+				de: "Verhindere allen Schaden, der Pokémon auf deiner Bank durch Angriffe zugefügt wird."
 			},
 		},
 	],

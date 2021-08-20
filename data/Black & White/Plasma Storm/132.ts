@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Articuno-EX",
 		fr: "Artikodin-EX",
+		es: "Articuno-EX",
+		it: "Articuno-EX",
+		pt: "Articuno-EX",
+		de: "Arktos-EX"
 	},
 	illustrator: "Toyste Beach",
 	rarity: "Ultra Rare",

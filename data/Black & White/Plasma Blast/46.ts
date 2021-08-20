@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Golurk",
 		fr: "Golemastoc",
+		es: "Golurk",
+		it: "Golurk",
+		pt: "Golurk",
+		de: "Golgantes"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Rare",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Serperior",
 		fr: "Majaspic",
+		es: "Serperior",
+		it: "Serperior",
+		pt: "Serperior",
+		de: "Serpiroyal"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -29,9 +33,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Royal Heal",
+				fr: "Soin Royal",
+				es: "Curación Regia",
+				it: "Cura Reale",
+				pt: "Cura Real",
+				de: "Königsheiler"
 			},
 			effect: {
 				en: "At any time between turns, heal 10 damage from each of your Pokémon.",
+				fr: "N’importe quand entre chaque tour, soignez 10 dégâts à chacun de vos Pokémon.",
+				es: "En cualquier momento entre turnos, cura 10 puntos de daño a cada uno de tus Pokémon.",
+				it: "Tra un turno e l’altro, in qualsiasi momento, cura ciascuno dei tuoi Pokémon da 10 danni.",
+				pt: "A qualquer momento entre as vezes de jogar, cura 10 de danos de cada um dos seus Pokémon.",
+				de: "Heile zu einem beliebigen Zeitpunkt zwischen den Zügen 10 Schadenspunkte bei jedem deiner Pokémon."
 			},
 		},
 	],

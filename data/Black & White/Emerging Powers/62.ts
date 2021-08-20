@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Krookodile",
 		fr: "Crocorible",
+		es: "Krookodile",
+		it: "Krookodile",
+		pt: "Krookodile",
+		de: "Rabigator"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Black Eyes",
 				fr: "Œil Noir",
+				es: "Ojos Negros",
+				it: "Nerosguardo",
+				pt: "Olhos Negros",
+				de: "Blaues Auge"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez lancer une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon es tu Pokémon Activo, puedes lanzar una moneda. Si sale cara, descarta una Energía unida al Pokémon Activo de tu rival.",
+				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è il tuo Pokémon attivo, puoi lanciare una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				pt: "Uma vez na sua vez de jogar (antes de atacar), se este Pokémon for seu Pokémon Ativo, você poderá jogar uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn dieses Pokémon dein Aktives Pokémon ist, 1 Münze werfen. Lege bei „Kopf“ 1 Energie, die an das Aktive Pokémon deines Gegners angelegt ist, auf dessen Ablagestapel."
 			},
 		},
 	],

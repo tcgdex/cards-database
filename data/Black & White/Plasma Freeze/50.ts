@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
+		es: "Beldum",
+		it: "Beldum",
+		pt: "Beldum",
+		de: "Tanhel"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",

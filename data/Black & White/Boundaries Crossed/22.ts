@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Camerupt",
 		fr: "Camérupt",
+		es: "Camerupt",
+		it: "Camerupt",
+		pt: "Camerupt",
+		de: "Camerupt"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Rare",

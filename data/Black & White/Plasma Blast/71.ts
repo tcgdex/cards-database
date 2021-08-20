@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Kangaskhan",
 		fr: "Kangourex",
+		es: "Kangaskhan",
+		it: "Kangaskhan",
+		pt: "Kangaskhan",
+		de: "Kangama"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",

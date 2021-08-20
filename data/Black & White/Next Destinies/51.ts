@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Zekrom-EX",
 		fr: "Zekrom-EX",
+		es: "Zekrom-EX",
+		it: "Zekrom-EX",
+		pt: "Zekrom-EX",
+		de: "Zekrom-EX"
 	},
 	illustrator: "Shizurow",
 	rarity: "Rare",
@@ -62,7 +66,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "��2"
+			value: "×2"
 		},
 	],
 

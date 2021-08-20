@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Purrloin",
 		fr: "Chacripan",
+		es: "Purrloin",
+		it: "Purrloin",
+		pt: "Purrloin",
+		de: "Felilou"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",

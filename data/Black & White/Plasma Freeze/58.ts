@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Nidoking",
 		fr: "Nidoking",
+		es: "Nidoking",
+		it: "Nidoking",
+		pt: "Nidoking",
+		de: "Nidoking"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Giratina-EX",
 		fr: "Giratina-EX",
+		es: "Giratina-EX",
+		it: "Giratina-EX",
+		pt: "Giratina-EX",
+		de: "Giratina-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",

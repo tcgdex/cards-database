@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Garbodor",
 	},
+
 	illustrator: "Tomoaki Imakuni",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		569,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Trubbish",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -29,10 +34,11 @@ const card: Card = {
 				en: "Garbotoxin",
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).",
+				en: "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Garbotoxin).",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -55,10 +62,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

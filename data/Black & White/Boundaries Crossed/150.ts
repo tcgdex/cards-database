@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Golurk",
 		fr: "Golemastoc",
+		es: "Golurk",
+		it: "Golurk",
+		pt: "Golurk",
+		de: "Golgantes"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

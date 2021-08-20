@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Duskull",
 		fr: "Skelénox",
+		es: "Duskull",
+		it: "Duskull",
+		pt: "Duskull",
+		de: "Zwirrlicht"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",

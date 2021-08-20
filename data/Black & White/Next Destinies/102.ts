@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Zoroark",
 		fr: "Zoroark",
+		es: "Zoroark",
+		it: "Zoroark",
+		pt: "Zoroark",
+		de: "Zoroark"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spheal",
 		fr: "Obalie",
+		es: "Spheal",
+		it: "Spheal",
+		pt: "Spheal",
+		de: "Seemops"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",

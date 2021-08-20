@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Magnezone",
 		fr: "Magnézone",
+		es: "Magnezone",
+		it: "Magnezone",
+		pt: "Magnezone",
+		de: "Magnezone"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Dual Brains",
 				fr: "Double Cerveau",
+				es: "Doble Cerebro",
+				it: "Doppiamente",
+				pt: "Cérebros Duplos",
+				de: "Doppelhirn"
 			},
 			effect: {
 				en: "During your turn, you may play 2 Supporter cards.",
 				fr: "Pendant votre tour, vous pouvez jouer 2 cartes Supporter.",
+				es: "Durante tu turno, puedes jugar 2 cartas de Partidario.",
+				it: "Durante il tuo turno, puoi giocare due carte Aiuto.",
+				pt: "Durante sua vez de jogar, você poderá jogar 2 cards de Apoiador.",
+				de: "Während deines Zuges kannst du 2 Unterstützerkarten spielen."
 			},
 		},
 	],

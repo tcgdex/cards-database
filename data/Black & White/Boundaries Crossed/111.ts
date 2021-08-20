@@ -5,22 +5,28 @@ const card: Card = {
 	name: {
 		en: "Dunsparce",
 		fr: "Insolourdo",
+		es: "Dunsparce",
+		it: "Dunsparce",
+		pt: "Dunsparce",
+		de: "Dummisel"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		206,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -60,10 +67,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

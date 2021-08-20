@@ -4,7 +4,11 @@ import Set from '../Plasma Blast'
 const card: Card = {
 	name: {
 		en: "Kyurem-EX",
-		fr: "Kyurem ex",
+		fr: "Kyurem EX",
+		es: "Kyurem-EX",
+		it: "Kyurem-EX",
+		pt: "Kyurem-EX",
+		de: "Kyurem-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",

@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Reuniclus",
 		fr: "Symbios",
+		es: "Reuniclus",
+		it: "Reuniclus",
+		pt: "Reuniclus",
+		de: "Zytomega"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Damage Swap",
 				fr: "Échange de Dégâts",
+				es: "Intercambio de Daño",
+				it: "Dannoscambio",
+				pt: "Troca de Danos",
+				de: "Schadenstausch"
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another of your Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts de l'un de vos Pokémon vers un autre de vos Pokémon.",
+				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts de l’un de vos Pokémon vers un autre de vos Pokémon.",
+				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 contador de daño de 1 de tus Pokémon a otro de tus Pokémon.",
+				it: "Durante il tuo turno, prima di attaccare, puoi distribuire a piacimento i segnalini danno presenti sui tuoi Pokémon.",
+				pt: "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você pode mover 1 marcador de danos de 1 dos seus Pokémon para outro dos seus Pokémon.",
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 deiner Pokémon auf ein anderes deiner Pokémon verschieben."
 			},
 		},
 	],

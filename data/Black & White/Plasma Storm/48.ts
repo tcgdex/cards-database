@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Zapdos-EX",
 		fr: "Électhor-EX",
+		es: "Zapdos-EX",
+		it: "Zapdos-EX",
+		pt: "Zapdos-EX",
+		de: "Zapdos-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",

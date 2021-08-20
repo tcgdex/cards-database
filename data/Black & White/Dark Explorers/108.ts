@@ -4,20 +4,27 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Tornadus-EX",
+		fr: "Boréas-EX",
+		es: "Tornadus-EX",
+		it: "Tornadus-EX",
+		pt: "Tornadus-EX",
+		de: "Boreos-EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		641,
 	],
+
 	hp: 170,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "EX",
 
@@ -52,12 +59,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -65,9 +74,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

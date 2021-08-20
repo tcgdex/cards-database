@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Meowth",
 		fr: "Miaouss",
+		es: "Meowth",
+		it: "Meowth",
+		pt: "Meowth",
+		de: "Mauzi"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

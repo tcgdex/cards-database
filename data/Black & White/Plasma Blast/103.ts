@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Virizion",
 		fr: "Viridium",
+		es: "Virizion",
+		it: "Virizion",
+		pt: "Virizion",
+		de: "Viridium"
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,
