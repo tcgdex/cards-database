@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Regieleki"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],

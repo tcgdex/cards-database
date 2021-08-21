@@ -16,8 +16,13 @@ const card: Card = {
 	},
 
 	rarity: "Uncommon",
-	category: "Pokemon",
-	types: ["Item"]
+	category: "Trainer",
+
+	effect: {
+		en: "Switch a card from your hand with the top card of your deck."
+	},
+
+	trainerType: "Item"
 }
 
 export default card

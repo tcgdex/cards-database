@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Zygarde"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Dragon"],

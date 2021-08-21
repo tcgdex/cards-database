@@ -16,8 +16,13 @@ const card: Card = {
 	},
 
 	rarity: "Uncommon",
-	category: "Pokemon",
-	types: ["Tool"]
+	category: "Trainer",
+
+	effect: {
+		en: "Attach a Pokemon Tool to 1 of your Pokemon that doesn’t already have a Pokemon Tool attached.\n\nIf the Pokemon V this card is attached to has \"Vaporeon\", \"Jolteon\", or \"Flareon\" in its name, its attacks cost Colorless less."
+	},
+
+	trainerType: "Tool"
 }
 
 export default card

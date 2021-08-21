@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Sylveon VMAX "
+		en: "Sylveon VMAX"
 	},
 
 	rarity: "Secret Rare",

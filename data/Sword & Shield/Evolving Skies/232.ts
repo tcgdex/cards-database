@@ -12,12 +12,17 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Stormy Mountains "
+		en: "Stormy Mountains"
 	},
 
 	rarity: "Secret Rare",
-	category: "Pokemon",
-	types: ["Stadium"]
+	category: "Trainer",
+
+	effect: {
+		en: "Once during each player’s turn, that player may search their deck for a Basic Lightning Pokemon or Basic Dragon Pokemon and put it onto their Bench. Then, that player shuffles their deck."
+	},
+
+	trainerType: "Stadium"
 }
 
 export default card

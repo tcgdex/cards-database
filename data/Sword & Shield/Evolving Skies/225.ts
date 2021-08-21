@@ -12,12 +12,17 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Zinnia’s Resolve "
+		en: "Zinnia’s Resolve"
 	},
 
 	rarity: "Secret Rare",
-	category: "Pokemon",
-	types: ["Supporter"]
+	category: "Trainer",
+
+	effect: {
+		en: "You can play this card only if you discard 2 other cards from your hand.\nDraw a card for each of your opponent’s Pokemon in play."
+	},
+
+	trainerType: "Supporter"
 }
 
 export default card

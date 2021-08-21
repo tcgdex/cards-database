@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Volcarona V "
+		en: "Volcarona V"
 	},
 
 	rarity: "Ultra Rare",

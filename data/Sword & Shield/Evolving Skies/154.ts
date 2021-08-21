@@ -16,8 +16,13 @@ const card: Card = {
 	},
 
 	rarity: "Uncommon",
-	category: "Pokemon",
-	types: ["Item"]
+	category: "Trainer",
+
+	effect: {
+		en: "Put up to 2 Pokemon, each with 90 HP or less, from your discard pile into your hand."
+	},
+
+	trainerType: "Item"
 }
 
 export default card

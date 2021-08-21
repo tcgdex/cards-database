@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Slaking"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Colorless"],

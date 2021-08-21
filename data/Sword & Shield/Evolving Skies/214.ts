@@ -4,8 +4,15 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
+
 	name: {
-		en: "Umbreon VMAX "
+		en: "Umbreon VMAX"
 	},
 
 	rarity: "Secret Rare",

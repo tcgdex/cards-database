@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Ludicolo"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Water"],

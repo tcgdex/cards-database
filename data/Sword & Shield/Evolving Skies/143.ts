@@ -16,8 +16,13 @@ const card: Card = {
 	},
 
 	rarity: "Uncommon",
-	category: "Pokemon",
-	types: ["Supporter"]
+	category: "Trainer",
+
+	effect: {
+		en: "Shuffle your hand into your deck. Then, draw a card for each card in your opponent’s hand."
+	},
+
+	trainerType: "Supporter"
 }
 
 export default card

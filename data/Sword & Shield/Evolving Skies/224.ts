@@ -12,12 +12,17 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Raihan "
+		en: "Raihan"
 	},
 
 	rarity: "Secret Rare",
-	category: "Pokemon",
-	types: ["Supporter"]
+	category: "Trainer",
+
+	effect: {
+		en: "You can play this card only if any of your Pokemon were Knocked Out during your opponent’s last turn.\nAttach a basic Energy from your discard pile to 1 of your Pokemon. If you do, search your deck for a card and put it into your hand. Then, shuffle your deck."
+	},
+
+	trainerType: "Supporter"
 }
 
 export default card

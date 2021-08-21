@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Hydreigon"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Dragon"],

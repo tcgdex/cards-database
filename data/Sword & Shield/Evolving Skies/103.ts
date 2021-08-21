@@ -4,11 +4,18 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
 	name: {
 		en: "Zoroark"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],

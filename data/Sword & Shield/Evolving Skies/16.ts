@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Eldegoss"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

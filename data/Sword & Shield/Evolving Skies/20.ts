@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Victini"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],

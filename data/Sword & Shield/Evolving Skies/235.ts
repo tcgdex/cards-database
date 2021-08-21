@@ -12,12 +12,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Lightning Energy "
+		en: "Lightning Energy"
 	},
 
 	rarity: "Secret Rare",
-	category: "Pokemon",
-	types: ["Basic energy"]
+	category: "Energy",
+	energyType: "Normal"
 }
 
 export default card

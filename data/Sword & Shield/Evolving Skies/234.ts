@@ -12,12 +12,17 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Turffield Stadium "
+		en: "Turffield Stadium"
 	},
 
 	rarity: "Secret Rare",
-	category: "Pokemon",
-	types: ["Stadium"]
+	category: "Trainer",
+
+	effect: {
+		en: "Once during each player’s turn, that player may search their deck for an Evolution Grass Pokemon, reveal it, and put it into their hand. Then, that player shuffles their deck."
+	},
+
+	trainerType: "Stadium"
 }
 
 export default card

@@ -12,12 +12,17 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Copycat "
+		en: "Copycat"
 	},
 
 	rarity: "Ultra Rare",
-	category: "Pokemon",
-	types: ["Supporter"]
+	category: "Trainer",
+
+	effect: {
+		en: "Shuffle your hand into your deck. Then, draw a card for each card in your opponent’s hand."
+	},
+
+	trainerType: "Supporter"
 }
 
 export default card

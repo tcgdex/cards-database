@@ -16,8 +16,13 @@ const card: Card = {
 	},
 
 	rarity: "Uncommon",
-	category: "Pokemon",
-	types: ["Stadium"]
+	category: "Trainer",
+
+	effect: {
+		en: "Once during each player’s turn, that player may put a Pokemon Tool attached to 1 of their Pokemon into their hand."
+	},
+
+	trainerType: "Stadium"
 }
 
 export default card

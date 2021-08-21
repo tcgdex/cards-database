@@ -12,12 +12,17 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Aroma Lady "
+		en: "Aroma Lady"
 	},
 
 	rarity: "Secret Rare",
-	category: "Pokemon",
-	types: ["Supporter"]
+	category: "Trainer",
+
+	effect: {
+		en: "Draw 2 cards. If you do, your Active Pokemon recovers from all Special Conditions."
+	},
+
+	trainerType: "Supporter"
 }
 
 export default card

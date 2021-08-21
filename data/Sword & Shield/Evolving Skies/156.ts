@@ -16,8 +16,13 @@ const card: Card = {
 	},
 
 	rarity: "Uncommon",
-	category: "Pokemon",
-	types: ["Tool"]
+	category: "Trainer",
+
+	effect: {
+		en: "Attach a Pokemon Tool to 1 of your Pokemon that doesn’t already have a Pokemon Tool attached.\n\nThe attacks of the Pokemon this card is attached to do 30 more damage to your opponent’s Active Lightning Pokemon (before applying Weakness and Resistance)."
+	},
+
+	trainerType: "Tool"
 }
 
 export default card

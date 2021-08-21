@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Salamence"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Dragon"],

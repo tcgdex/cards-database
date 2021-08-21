@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Galarian Moltres"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],

@@ -16,8 +16,13 @@ const card: Card = {
 	},
 
 	rarity: "Uncommon",
-	category: "Pokemon",
-	types: ["Supporter"]
+	category: "Trainer",
+
+	effect: {
+		en: "Draw 2 cards. If you do, your Active Pokemon recovers from all Special Conditions."
+	},
+
+	trainerType: "Supporter"
 }
 
 export default card

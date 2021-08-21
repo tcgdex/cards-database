@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Trevenant V "
+		en: "Trevenant V"
 	},
 
 	rarity: "Ultra Rare",

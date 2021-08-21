@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Galarian Articuno"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],

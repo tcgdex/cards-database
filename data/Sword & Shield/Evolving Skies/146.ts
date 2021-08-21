@@ -16,8 +16,13 @@ const card: Card = {
 	},
 
 	rarity: "Uncommon",
-	category: "Pokemon",
-	types: ["Item"]
+	category: "Trainer",
+
+	effect: {
+		en: "You can play this card only if you took it as a face-down Prize card, before you put it into your hand.\nSearch your deck for a Pokemon and put it onto your Bench. Then, shuffle your deck."
+	},
+
+	trainerType: "Item"
 }
 
 export default card

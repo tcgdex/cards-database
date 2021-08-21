@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Kyurem"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Dragon"],

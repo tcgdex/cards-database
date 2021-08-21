@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Marshadow"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

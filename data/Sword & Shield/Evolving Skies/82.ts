@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Galarian Zapdos"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],

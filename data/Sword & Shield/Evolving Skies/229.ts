@@ -12,12 +12,17 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Boost Shake "
+		en: "Boost Shake"
 	},
 
 	rarity: "Secret Rare",
-	category: "Pokemon",
-	types: ["Item"]
+	category: "Trainer",
+
+	effect: {
+		en: "Search your deck for a card that evolves from 1 of your Pokemon and put it onto that Pokemon to evolve it. Then, shuffle your deck. You can use this card during your first turn or on a Pokemon that was put into play this turn. Your turn ends."
+	},
+
+	trainerType: "Item"
 }
 
 export default card

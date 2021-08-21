@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Ampharos"
 	},
 
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Lightning"],
