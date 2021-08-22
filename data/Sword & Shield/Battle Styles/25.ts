@@ -73,6 +73,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire."
 	}
 }
 

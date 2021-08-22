@@ -75,7 +75,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage2",
+
+	description: {
+		en: "It emits psychic energy to observe and study what’s around it—and what’s around it can include things over six miles away."
+	}
 }
 
 export default card

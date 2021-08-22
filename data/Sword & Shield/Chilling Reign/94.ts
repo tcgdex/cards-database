@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now."
 	}
 }
 

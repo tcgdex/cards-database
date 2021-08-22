@@ -98,6 +98,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws."
 	}
 }
 

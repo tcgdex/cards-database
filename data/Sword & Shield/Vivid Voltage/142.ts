@@ -94,6 +94,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away."
 	}
 }
 

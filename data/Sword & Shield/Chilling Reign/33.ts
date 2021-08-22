@@ -25,7 +25,7 @@ const card: Card = {
 	stage: 'Basic',
 
 	description: {
-		en: 'This is Castform\'s form when pelted by rain. In an\n experiment where it was placed in a shower,\n this Pokémon didn\'t change to this form.',
+		en: "This is Castform’s form when pelted by rain. In an experiment where it was placed in a shower, this Pokémon didn’t change to this form.",
 		fr: 'Morphéo adopte cette apparence uniquement\n les jours de pluie. On a tenté de reproduire ce\nphénomène sous une douche, sans succès.'
 	},
 

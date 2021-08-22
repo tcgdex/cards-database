@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
 	}
 }
 

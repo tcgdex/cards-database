@@ -80,7 +80,12 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "They came over from another region long ago and worked together with humans. Their green skin is resistant to water."
+	}
 }
 
 export default card

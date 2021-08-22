@@ -93,6 +93,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers."
 	}
 }
 

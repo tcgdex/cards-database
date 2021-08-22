@@ -62,6 +62,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty."
 	}
 }
 

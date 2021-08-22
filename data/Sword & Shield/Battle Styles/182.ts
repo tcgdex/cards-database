@@ -17,7 +17,7 @@ const card: Card = {
 	category: "Energy",
 
 	effect: {
-		en: "This card can only be attached to a Rapid Strike Pokémon. If this card is attached to anything other than a Rapid Strike Pokémon, discard this card.\n\nAs long as this card is attached to a Pokémon, it provides 2 in any combination of Water Energy and Fighting Energy.",
+		en: "This card can only be attached to a Rapid Strike Pokémon. If this card is attached to anything other than a Rapid Strike Pokémon, discard this card.\nAs long as this card is attached to a Pokémon, it provides 2 in any combination of Water Energy and Fighting Energy.",
 		fr: "Cette carte ne peut être attachée qu’à un Pokémon Mille Poings. Si cette carte est attachée à autre chose qu’un Pokémon Mille Poings, défaussez-la.\n\n\nTant que cette carte est attachée à un Pokémon, elle fournit une combinaison de 2 cartes Énergie Water et Énergie Fighting.",
 		es: "Esta carta solo puede unirse a Pokémon Golpe Fluido. Si esta carta está unida a cualquier otra carta que no sea un Pokémon Golpe Fluido, descarta esta carta.\n\nMientras esta carta esté unida a 1 Pokémon, proporciona\n un total de 2 Energías, Water y Fighting, en cualquier combinación.",
 		it: "Questa carta può essere assegnata solo a Pokémon Colpo Rapido. Scarta questa carta se è assegnata a un Pokémon che non è un Pokémon Colpo Rapido.\n\nFintanto che questa carta è assegnata a un Pokémon, fornisce due Energie Water e Fighting in qualsiasi combinazione.",

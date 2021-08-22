@@ -62,6 +62,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead."
 	}
 }
 

@@ -66,6 +66,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly."
 	}
 }
 

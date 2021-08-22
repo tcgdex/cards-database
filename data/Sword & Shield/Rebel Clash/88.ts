@@ -89,6 +89,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "These intelligent Pokémon touch horns with each other to share information between them."
 	}
 }
 

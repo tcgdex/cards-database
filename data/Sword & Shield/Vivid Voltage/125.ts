@@ -93,6 +93,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Living in mud with a high iron content has given it a strong steel body."
 	}
 }
 

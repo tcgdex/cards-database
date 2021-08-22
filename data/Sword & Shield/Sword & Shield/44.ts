@@ -99,6 +99,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "The large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
 	}
 }
 

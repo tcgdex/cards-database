@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
 	}
 }
 

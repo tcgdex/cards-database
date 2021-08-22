@@ -32,7 +32,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	illustrator: "Kagemaru Himeno"
 }
 
 export default card

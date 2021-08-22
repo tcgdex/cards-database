@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
 	}
 }
 

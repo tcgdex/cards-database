@@ -73,7 +73,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "When it trusts a Trainer, it will treat them to berries it’s decorated with cream."
+	}
 }
 
 export default card

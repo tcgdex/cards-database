@@ -46,6 +46,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It flies straight at its target’s face then clamps down on the startled victim to inject poison."
 	}
 }
 

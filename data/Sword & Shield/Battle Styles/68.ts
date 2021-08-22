@@ -67,6 +67,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
 	}
 }
 

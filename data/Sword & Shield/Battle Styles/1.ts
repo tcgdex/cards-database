@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant."
 	}
 }
 

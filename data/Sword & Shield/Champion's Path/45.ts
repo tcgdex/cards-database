@@ -93,6 +93,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar’s control."
 	}
 }
 

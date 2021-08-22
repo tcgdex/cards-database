@@ -65,7 +65,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
+	}
 }
 
 export default card

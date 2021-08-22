@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck’s horns."
 	}
 }
 

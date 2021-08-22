@@ -90,6 +90,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents."
 	}
 }
 

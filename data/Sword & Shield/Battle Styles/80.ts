@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "While it’s engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area."
 	}
 }
 

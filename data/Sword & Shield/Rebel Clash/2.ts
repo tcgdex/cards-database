@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack."
 	}
 }
 

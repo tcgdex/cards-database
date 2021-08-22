@@ -77,6 +77,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
 	}
 }
 

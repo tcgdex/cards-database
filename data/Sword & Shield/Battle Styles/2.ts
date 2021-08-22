@@ -73,6 +73,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid."
 	}
 }
 

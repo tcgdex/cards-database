@@ -53,7 +53,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away."
+	}
 }
 
 export default card

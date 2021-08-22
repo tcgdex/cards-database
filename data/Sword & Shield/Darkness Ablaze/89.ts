@@ -62,6 +62,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
 	}
 }
 

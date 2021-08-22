@@ -52,6 +52,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud."
 	}
 }
 

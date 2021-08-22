@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
 	}
 }
 

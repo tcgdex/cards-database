@@ -92,6 +92,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean."
 	}
 }
 

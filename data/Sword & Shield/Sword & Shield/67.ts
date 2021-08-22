@@ -58,6 +58,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights."
 	}
 }
 

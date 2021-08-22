@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks."
 	}
 }
 

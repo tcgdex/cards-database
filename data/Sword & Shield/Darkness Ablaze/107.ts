@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
 	}
 }
 

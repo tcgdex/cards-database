@@ -78,7 +78,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
+	}
 }
 
 export default card

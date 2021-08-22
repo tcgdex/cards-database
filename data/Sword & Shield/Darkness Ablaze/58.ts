@@ -63,6 +63,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
 	}
 }
 

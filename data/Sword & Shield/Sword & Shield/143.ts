@@ -87,6 +87,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It begins to hoot at the same time every day. Some Trainers use them in place of clocks."
 	}
 }
 

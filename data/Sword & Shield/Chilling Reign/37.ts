@@ -46,6 +46,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
 	}
 }
 

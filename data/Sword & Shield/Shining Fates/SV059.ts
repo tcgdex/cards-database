@@ -73,7 +73,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "These intelligent Pokémon touch horns with each other to share information between them."
+	}
 }
 
 export default card

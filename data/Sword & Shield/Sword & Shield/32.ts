@@ -87,6 +87,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
 	}
 }
 

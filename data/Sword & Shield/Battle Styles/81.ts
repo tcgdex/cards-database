@@ -58,6 +58,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
 	}
 }
 

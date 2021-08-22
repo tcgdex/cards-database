@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
 	}
 }
 

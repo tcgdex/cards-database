@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its body gives off a sweet, fruity scent that is extremely appetizing to bird Pokémon."
 	}
 }
 

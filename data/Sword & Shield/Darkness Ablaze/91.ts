@@ -91,6 +91,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it."
 	}
 }
 

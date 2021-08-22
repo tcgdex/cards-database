@@ -71,6 +71,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
 	}
 }
 

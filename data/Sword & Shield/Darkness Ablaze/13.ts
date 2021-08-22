@@ -90,6 +90,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye’s shots never miss."
 	}
 }
 

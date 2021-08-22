@@ -88,6 +88,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon."
 	}
 }
 

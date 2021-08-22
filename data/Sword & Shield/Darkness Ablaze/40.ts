@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The reason it hasn’t changed at all in a hundred million years is that it’s apparently already a perfect life-form."
 	}
 }
 

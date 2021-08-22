@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The rocks in its mane are sharper than a knife. Fragments that break off are treasured as good luck charms."
 	}
 }
 

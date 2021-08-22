@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "AKIRA EGAWA",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Grass"],
@@ -75,7 +75,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

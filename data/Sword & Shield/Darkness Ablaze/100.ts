@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They’re said to be on the verge of extinction."
 	}
 }
 

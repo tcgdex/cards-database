@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up."
 	}
 }
 

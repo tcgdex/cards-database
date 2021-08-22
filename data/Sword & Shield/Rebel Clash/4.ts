@@ -74,6 +74,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating."
 	}
 }
 

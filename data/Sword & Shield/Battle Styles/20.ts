@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It is said that when it roars, a volcano erupts somewhere around the globe."
 	}
 }
 

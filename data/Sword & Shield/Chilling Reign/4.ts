@@ -66,6 +66,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "These very cowardly Pokémon join together and use Reflect to protect their nest."
 	}
 }
 

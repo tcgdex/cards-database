@@ -70,7 +70,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

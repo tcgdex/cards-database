@@ -98,6 +98,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner."
 	}
 }
 

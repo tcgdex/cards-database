@@ -76,7 +76,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "VMAX",
+	illustrator: "aky CG Works"
 }
 
 export default card

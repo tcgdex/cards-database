@@ -94,6 +94,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
 	}
 }
 

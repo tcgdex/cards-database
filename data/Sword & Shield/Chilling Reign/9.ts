@@ -46,6 +46,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
 	}
 }
 

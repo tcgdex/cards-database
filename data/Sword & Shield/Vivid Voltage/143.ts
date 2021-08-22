@@ -62,6 +62,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!"
 	}
 }
 

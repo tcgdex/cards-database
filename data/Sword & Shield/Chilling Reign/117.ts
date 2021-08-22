@@ -60,6 +60,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Even though it doesn’t die in the vacuum of space, it can’t move around very well in zero gravity."
 	}
 }
 

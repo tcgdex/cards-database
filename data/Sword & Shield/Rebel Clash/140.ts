@@ -92,6 +92,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its ability to deflect any attack led to it being known as the Fighting Master’s Shield. It was feared and respected by all."
 	}
 }
 

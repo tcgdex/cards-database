@@ -88,6 +88,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey."
 	}
 }
 

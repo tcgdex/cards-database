@@ -77,6 +77,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt."
 	}
 }
 

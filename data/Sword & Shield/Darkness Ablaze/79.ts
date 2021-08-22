@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Pokémon living in the forest eat the delicious caps on Morelull’s head. The caps regrow overnight."
 	}
 }
 

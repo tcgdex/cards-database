@@ -83,6 +83,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "When Vaporeon’s fins begin to vibrate, it is a sign that rain will come within a few hours."
 	}
 }
 

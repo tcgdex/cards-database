@@ -93,6 +93,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
 	}
 }
 

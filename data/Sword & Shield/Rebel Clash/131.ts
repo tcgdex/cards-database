@@ -89,6 +89,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders."
 	}
 }
 

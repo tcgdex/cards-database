@@ -83,6 +83,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
 	}
 }
 

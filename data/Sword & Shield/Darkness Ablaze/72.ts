@@ -92,6 +92,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The phase of the moon apparently has some effect on its power. It’s active on the night of a full moon."
 	}
 }
 
