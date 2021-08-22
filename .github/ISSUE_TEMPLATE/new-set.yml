@@ -1,0 +1,17 @@
+name: New Set
+description: Use this Issue Template when you found a New set!
+title: "[Set]: {Set Name}"
+labels: [type/new-set, project/database]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this set informations
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Where did you find out about this new set
+      placeholder: "ex: https://www.pokemon.com/us/pokemon-tcg/sword-shield-evolving-skies/explore-and-watch/"
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+name: Incorect Data
+description: Use this when you found an incorrect information on a card/set/serie
+title: "[Data]: "
+labels: [project/database, type/incorect-data]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to help correct incorrect informations about the database!
+        It should take less than a day to get an answer!
+  - type: textarea
+    id: incorrect
+    attributes:
+      label: Path of the incorrect file(s)
+      description: Fill the different files that have incorrect informations (one per line) (you can use * if it concern a lot of files)
+      placeholder: "ex: data/Sword & Shield/Sword & Shield/1.ts"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Incorrect informations
+      description: Describe the incorrect informations
+      placeholder: "ex: The cards have an incorrect name"
+    validations:
+      required: true
