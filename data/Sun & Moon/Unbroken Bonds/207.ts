@@ -3,12 +3,12 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Persian-GX",
-		fr: "Persian-GX",
-		es: "Persian-GX",
-		it: "Persian-GX",
-		pt: "Persian-GX",
-		de: "Snobilikat-GX"
+		en: "Persian GX",
+		fr: "Persian GX",
+		es: "Persian GX",
+		it: "Persian GX",
+		pt: "Persian GX",
+		de: "Snobilikat GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

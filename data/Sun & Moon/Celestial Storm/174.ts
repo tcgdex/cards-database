@@ -3,12 +3,12 @@ import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Banette-GX",
-		fr: "Branette-GX",
-		es: "Banette-GX",
-		it: "Banette-GX",
-		pt: "Banette-GX",
-		de: "Banette-GX"
+		en: "Banette GX",
+		fr: "Branette GX",
+		es: "Banette GX",
+		it: "Banette GX",
+		pt: "Banette GX",
+		de: "Banette GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

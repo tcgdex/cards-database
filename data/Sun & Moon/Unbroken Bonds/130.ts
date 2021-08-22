@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir & Sylveon-GX",
-		fr: "Gardevoir et Nymphali-GX",
-		es: "Gardevoir y Sylveon-GX",
-		it: "Gardevoir e Sylveon-GX",
-		pt: "Gardevoir e Sylveon-GX",
-		de: "Guardevoir & Feelinara-GX"
+		en: "Gardevoir & Sylveon GX",
+		fr: "Gardevoir et Nymphali GX",
+		es: "Gardevoir y Sylveon GX",
+		it: "Gardevoir e Sylveon GX",
+		pt: "Gardevoir e Sylveon GX",
+		de: "Guardevoir & Feelinara GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

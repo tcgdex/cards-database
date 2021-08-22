@@ -3,15 +3,15 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Reshiram & Zekrom-GX",
-		fr: "Reshiram et Zekrom-GX",
-		es: "Reshiram y Zekrom-GX",
-		it: "Reshiram e Zekrom-GX",
-		pt: "Reshiram e Zekrom-GX",
-		de: "Reshiram & Zekrom-GX"
+		en: "Reshiram & Zekrom GX",
+		fr: "Reshiram et Zekrom GX",
+		es: "Reshiram y Zekrom GX",
+		it: "Reshiram e Zekrom GX",
+		pt: "Reshiram e Zekrom GX",
+		de: "Reshiram & Zekrom GX"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

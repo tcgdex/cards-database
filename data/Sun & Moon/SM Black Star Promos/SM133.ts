@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Thundurus-GX",
-		fr: "Fulguris-GX",
-		es: "Thundurus-GX",
-		it: "Thundurus-GX",
-		pt: "Thundurus-GX",
-		de: "Voltolos-GX"
+		en: "Thundurus GX",
+		fr: "Fulguris GX",
+		es: "Thundurus GX",
+		it: "Thundurus GX",
+		pt: "Thundurus GX",
+		de: "Voltolos GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

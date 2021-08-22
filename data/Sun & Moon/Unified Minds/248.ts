@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Dragonite-GX",
-		fr: "Dracolosse-GX",
-		es: "Dragonite-GX",
-		it: "Dragonite-GX",
-		pt: "Dragonite-GX",
-		de: "Dragoran-GX"
+		en: "Dragonite GX",
+		fr: "Dracolosse GX",
+		es: "Dragonite GX",
+		it: "Dragonite GX",
+		pt: "Dragonite GX",
+		de: "Dragoran GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "ConceptLab",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,
@@ -35,8 +35,8 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Lightning",
 				"Water",
+				"Lightning",
 				"Colorless",
 			],
 			name: {

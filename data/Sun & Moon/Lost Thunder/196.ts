@@ -3,12 +3,12 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Sceptile-GX",
-		fr: "Jungko-GX",
-		es: "Sceptile-GX",
-		it: "Sceptile-GX",
-		pt: "Sceptile-GX",
-		de: "Gewaldro-GX"
+		en: "Sceptile GX",
+		fr: "Jungko GX",
+		es: "Sceptile GX",
+		it: "Sceptile GX",
+		pt: "Sceptile GX",
+		de: "Gewaldro GX"
 	},
 	illustrator: "Yoshinobu Saito",
 	rarity: "Ultra Rare",

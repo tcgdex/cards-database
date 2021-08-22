@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
 				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],

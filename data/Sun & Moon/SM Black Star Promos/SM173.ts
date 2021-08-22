@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Jolteon-GX",
-		fr: "Voltali-GX",
-		es: "Jolteon-GX",
-		it: "Jolteon-GX",
-		pt: "Jolteon-GX",
-		de: "Blitza-GX"
+		en: "Jolteon GX",
+		fr: "Voltali GX",
+		es: "Jolteon GX",
+		it: "Jolteon GX",
+		pt: "Jolteon GX",
+		de: "Blitza GX"
 	},
 
 	illustrator: "PLANETA Otani",

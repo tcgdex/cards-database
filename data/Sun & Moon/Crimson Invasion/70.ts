@@ -3,15 +3,15 @@ import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Kartana-GX",
-		fr: "Katagami-GX",
-		es: "Kartana-GX",
-		it: "Kartana-GX",
-		pt: "Kartana-GX",
-		de: "Katagami-GX"
+		en: "Kartana GX",
+		fr: "Katagami GX",
+		es: "Kartana GX",
+		it: "Kartana GX",
+		pt: "Kartana GX",
+		de: "Katagami GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

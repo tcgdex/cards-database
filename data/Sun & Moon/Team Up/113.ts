@@ -3,15 +3,15 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Latias & Latios-GX",
-		fr: "Latias et Latios-GX",
-		es: "Latias y Latios-GX",
-		it: "Latias e Latios-GX",
-		pt: "Latias e Latios-GX",
-		de: "Latias & Latios-GX"
+		en: "Latias & Latios GX",
+		fr: "Latias et Latios GX",
+		es: "Latias y Latios GX",
+		it: "Latias e Latios GX",
+		pt: "Latias e Latios GX",
+		de: "Latias & Latios GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

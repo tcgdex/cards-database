@@ -3,12 +3,12 @@ import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Dusk Mane Necrozma-GX",
-		fr: "Necrozma Crinière du Couchant-GX",
-		es: "Necrozma Melena Crepuscular-GX",
-		it: "Necrozma Criniera del Vespro-GX",
-		pt: "Necrozma Juba Crepúsculo-GX",
-		de: "Abendmähne-Necrozma-GX"
+		en: "Dusk Mane Necrozma GX",
+		fr: "Necrozma Crinière du Couchant GX",
+		es: "Necrozma Melena Crepuscular GX",
+		it: "Necrozma Criniera del Vespro GX",
+		pt: "Necrozma Juba Crepúsculo GX",
+		de: "Abendmähne-Necrozma GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

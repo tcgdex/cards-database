@@ -3,15 +3,15 @@ import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Umbreon-GX",
-		fr: "Noctali-GX",
-		es: "Umbreon-GX",
-		it: "Umbreon-GX",
-		pt: "Umbreon-GX",
-		de: "Nachtara-GX"
+		en: "Umbreon GX",
+		fr: "Noctali GX",
+		es: "Umbreon GX",
+		it: "Umbreon GX",
+		pt: "Umbreon GX",
+		de: "Nachtara GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

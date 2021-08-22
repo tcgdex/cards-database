@@ -3,12 +3,12 @@ import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Buzzwole-GX",
-		fr: "Mouscoto-GX",
-		es: "Buzzwole-GX",
-		it: "Buzzwole-GX",
-		pt: "Buzzwole-GX",
-		de: "Masskito-GX"
+		en: "Buzzwole GX",
+		fr: "Mouscoto GX",
+		es: "Buzzwole GX",
+		it: "Buzzwole GX",
+		pt: "Buzzwole GX",
+		de: "Masskito GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

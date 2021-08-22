@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Dragonite-GX",
-		fr: "Dracolosse-GX",
-		es: "Dragonite-GX",
-		it: "Dragonite-GX",
-		pt: "Dragonite-GX",
-		de: "Dragoran-GX"
+		en: "Dragonite GX",
+		fr: "Dracolosse GX",
+		es: "Dragonite GX",
+		it: "Dragonite GX",
+		pt: "Dragonite GX",
+		de: "Dragoran GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

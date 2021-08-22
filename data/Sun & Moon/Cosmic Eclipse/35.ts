@@ -3,15 +3,15 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Volcarona-GX",
-		fr: "Pyrax-GX",
-		es: "Volcarona-GX",
-		it: "Volcarona-GX",
-		pt: "Volcarona-GX",
-		de: "Ramoth-GX"
+		en: "Volcarona GX",
+		fr: "Pyrax GX",
+		es: "Volcarona GX",
+		it: "Volcarona GX",
+		pt: "Volcarona GX",
+		de: "Ramoth GX"
 	},
 	illustrator: "Hiroyuki Yamamoto",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

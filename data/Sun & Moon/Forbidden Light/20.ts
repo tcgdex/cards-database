@@ -3,15 +3,15 @@ import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Palkia-GX",
-		fr: "Palkia-GX",
-		es: "Palkia-GX",
-		it: "Palkia-GX",
-		pt: "Palkia-GX",
-		de: "Palkia-GX"
+		en: "Palkia GX",
+		fr: "Palkia GX",
+		es: "Palkia GX",
+		it: "Palkia GX",
+		pt: "Palkia GX",
+		de: "Palkia GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Latios-GX",
-		fr: "Latios-GX",
-		es: "Latios-GX",
-		it: "Latios-GX",
-		pt: "Latios-GX",
-		de: "Latios-GX"
+		en: "Latios GX",
+		fr: "Latios GX",
+		es: "Latios GX",
+		it: "Latios GX",
+		pt: "Latios GX",
+		de: "Latios GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "ConceptLab",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,

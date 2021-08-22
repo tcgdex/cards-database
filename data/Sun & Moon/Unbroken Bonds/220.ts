@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Muk & Alolan Muk-GX",
-		fr: "Grotadmorv et Grotadmorv d’Alola-GX",
-		es: "Muk y Muk de Alola-GX",
-		it: "Muk e Muk di Alola-GX",
-		pt: "Muk e Muk de Alola-GX",
-		de: "Sleimok & Alola-Sleimok-GX"
+		en: "Muk & Alolan Muk GX",
+		fr: "Grotadmorv et Grotadmorv d’Alola GX",
+		es: "Muk y Muk de Alola GX",
+		it: "Muk e Muk di Alola GX",
+		pt: "Muk e Muk de Alola GX",
+		de: "Sleimok & Alola-Sleimok GX"
 	},
 
-	illustrator: "Mitsuhiro Arita",
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,

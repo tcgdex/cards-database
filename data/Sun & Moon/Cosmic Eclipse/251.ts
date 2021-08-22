@@ -3,12 +3,12 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Charizard & Braixen-GX",
-		fr: "Dracaufeu et Roussil-GX",
-		es: "Charizard y Braixen-GX",
-		it: "Charizard e Braixen-GX",
-		pt: "Charizard e Braixen-GX",
-		de: "Glurak & Rutena-GX"
+		en: "Charizard & Braixen GX",
+		fr: "Dracaufeu et Roussil GX",
+		es: "Charizard y Braixen GX",
+		it: "Charizard e Braixen GX",
+		pt: "Charizard e Braixen GX",
+		de: "Glurak & Rutena GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

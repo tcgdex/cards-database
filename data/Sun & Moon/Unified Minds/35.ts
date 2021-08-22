@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke & Psyduck-GX",
-		fr: "Ramoloss et Psykokwak-GX",
-		es: "Slowpoke y Psyduck-GX",
-		it: "Slowpoke e Psyduck-GX",
-		pt: "Slowpoke e Psyduck-GX",
-		de: "Flegmon & Enton-GX"
+		en: "Slowpoke & Psyduck GX",
+		fr: "Ramoloss et Psykokwak GX",
+		es: "Slowpoke y Psyduck GX",
+		it: "Slowpoke e Psyduck GX",
+		pt: "Slowpoke e Psyduck GX",
+		de: "Flegmon & Enton GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

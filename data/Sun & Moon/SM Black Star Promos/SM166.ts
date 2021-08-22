@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Magikarp & Wailord-GX",
-		fr: "Magicarpe et Wailord-GX",
-		es: "Magikarp y Wailord-GX",
-		it: "Magikarp e Wailord-GX",
-		pt: "Magikarp e Wailord-GX",
-		de: "Karpador & Wailord-GX"
+		en: "Magikarp & Wailord GX",
+		fr: "Magicarpe et Wailord GX",
+		es: "Magikarp y Wailord GX",
+		it: "Magikarp e Wailord GX",
+		pt: "Magikarp e Wailord GX",
+		de: "Karpador & Wailord GX"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",

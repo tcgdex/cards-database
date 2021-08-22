@@ -3,15 +3,15 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Celebi & Venusaur-GX",
-		fr: "Celebi et Florizarre-GX",
-		es: "Celebi y Venusaur-GX",
-		it: "Celebi e Venusaur-GX",
-		pt: "Celebi e Venusaur-GX",
-		de: "Celebi & Bisaflor-GX"
+		en: "Celebi & Venusaur GX",
+		fr: "Celebi et Florizarre GX",
+		es: "Celebi y Venusaur GX",
+		it: "Celebi e Venusaur GX",
+		pt: "Celebi e Venusaur GX",
+		de: "Celebi & Bisaflor GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

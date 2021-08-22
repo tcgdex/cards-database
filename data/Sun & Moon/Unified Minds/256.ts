@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Vertania-Wald"
 	},
 
-	illustrator: undefined,
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Trainer",
 	set: Set,

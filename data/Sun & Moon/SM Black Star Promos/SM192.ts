@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Lucario & Melmetal-GX",
-		fr: "Lucario et Melmetal-GX",
-		es: "Lucario y Melmetal-GX",
-		it: "Lucario e Melmetal-GX",
-		pt: "Lucario e Melmetal-GX",
-		de: "Lucario & Melmetal-GX"
+		en: "Lucario & Melmetal GX",
+		fr: "Lucario et Melmetal GX",
+		es: "Lucario y Melmetal GX",
+		it: "Lucario e Melmetal GX",
+		pt: "Lucario e Melmetal GX",
+		de: "Lucario & Melmetal GX"
 	},
 
 	illustrator: "nagimiso",

@@ -5,12 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Sandslash-GX",
-		fr: "Sablaireau d’Alola-GX",
-		es: "Sandslash de Alola-GX",
-		it: "Sandslash di Alola-GX",
-		pt: "Sandslash de Alola-GX",
-		de: "Alola-Sandamer-GX"
+		en: "Alolan Sandslash GX",
+		fr: "Sablaireau d’Alola GX",
+		es: "Sandslash de Alola GX",
+		it: "Sandslash di Alola GX",
+		pt: "Sandslash de Alola GX",
+		de: "Alola-Sandamer GX"
 	},
 
 	rarity: "Rare",

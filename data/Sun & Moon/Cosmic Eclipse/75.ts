@@ -3,15 +3,15 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Solgaleo & Lunala-GX",
-		fr: "Solgaleo et Lunala-GX",
-		es: "Solgaleo y Lunala-GX",
-		it: "Solgaleo e Lunala-GX",
-		pt: "Solgaleo e Lunala-GX",
-		de: "Solgaleo & Lunala-GX"
+		en: "Solgaleo & Lunala GX",
+		fr: "Solgaleo et Lunala GX",
+		es: "Solgaleo y Lunala GX",
+		it: "Solgaleo e Lunala GX",
+		pt: "Solgaleo e Lunala GX",
+		de: "Solgaleo & Lunala GX"
 	},
 	illustrator: "Hideki Ishikawa",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

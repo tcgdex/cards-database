@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Dernier Motif",
 			},
 			effect: {
-				en: "If this Pokémon is Knocked Out by damage from an opponent's attack, discard 2 random cards from your opponent's hand.",
+				en: "If this Pokémon is Knocked Out by damage from an opponent’s attack, discard 2 random cards from your opponent’s hand.",
 				fr: "Si ce Pokémon est mis K.O. par les dégâts d’une attaque de votre adversaire, défaussez 2 cartes au hasard de la main de votre adversaire.",
 			},
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "If Jessie & James is in your discard pile, this attack does 80 more damage.",
 				fr: "Si la carte Jessie et James est dans votre pile de défausse, cette attaque inflige 80 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

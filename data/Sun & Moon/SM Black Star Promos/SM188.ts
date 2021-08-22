@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Kangourex-GX",
-		en: "Kangaskhan-GX",
-		es: "Kangaskhan-GX",
-		it: "Kangaskhan-GX",
-		pt: "Kangaskhan-GX",
-		de: "Kangama-GX"
+		fr: "Kangourex GX",
+		en: "Kangaskhan GX",
+		es: "Kangaskhan GX",
+		it: "Kangaskhan GX",
+		pt: "Kangaskhan GX",
+		de: "Kangama GX"
 	},
 	illustrator: "aky CG Works",
 	rarity: "Rare",

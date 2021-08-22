@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Garchomp & Giratina-GX",
-		fr: "Carchacrok et Giratina-GX",
-		es: "Garchomp y Giratina-GX",
-		it: "Garchomp e Giratina-GX",
-		pt: "Garchomp e Giratina-GX",
-		de: "Knakrack & Giratina-GX"
+		en: "Garchomp & Giratina GX",
+		fr: "Carchacrok et Giratina GX",
+		es: "Garchomp y Giratina GX",
+		it: "Garchomp e Giratina GX",
+		pt: "Garchomp e Giratina GX",
+		de: "Knakrack & Giratina GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

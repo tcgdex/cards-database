@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo & Mew-GX",
-		fr: "Mewtwo et Mew-GX",
-		es: "Mewtwo y Mew-GX",
-		it: "Mewtwo e Mew-GX",
-		pt: "Mewtwo e Mew-GX",
-		de: "Mewtu & Mew-GX"
+		en: "Mewtwo & Mew GX",
+		fr: "Mewtwo et Mew GX",
+		es: "Mewtwo y Mew GX",
+		it: "Mewtwo e Mew GX",
+		pt: "Mewtwo e Mew GX",
+		de: "Mewtu & Mew GX"
 	},
 
 	illustrator: "sui",
