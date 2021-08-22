@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Zygarde",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		718,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -31,7 +33,7 @@ const card: Card = {
 				en: "Rumble",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 			},
 			damage: 30,
 
@@ -46,12 +48,13 @@ const card: Card = {
 				en: "Geostrike",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 120,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -59,10 +62,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

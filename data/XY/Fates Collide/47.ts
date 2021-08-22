@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lucario",
 		fr: "Lucario",
+		es: "Lucario",
+		it: "Lucario",
+		pt: "Lucario",
+		de: "Lucario"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Beatdown",
 				fr: "Dérouillée",
+				es: "Derrumbar",
+				it: "Batosta",
+				pt: "Abater",
+				de: "Niederprügler"
 			},
 
 			damage: 40,
@@ -46,7 +54,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnum Kick",
-				fr: "Coup d'Pied Magnum",
+				fr: "Coup d’Pied Magnum",
+				es: "Patada Mágnum",
+				it: "Supercalcio",
+				pt: "Chute Magnum",
+				de: "Magnumtritt"
 			},
 
 			damage: 70,

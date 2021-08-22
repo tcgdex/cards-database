@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Hyporoi",
 	},
 	illustrator: "hatachu",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -46,7 +46,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 4 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 4 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				fr: "Cherchez jusqu’à 4 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},

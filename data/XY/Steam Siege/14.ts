@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Larvesta",
 		fr: "Pyronille",
+		es: "Larvesta",
+		it: "Larvesta",
+		pt: "Larvesta",
+		de: "Ignivor"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 30,

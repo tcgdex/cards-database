@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Absol-EX",
-		fr: "M Absol-EX",
+		en: "M Absol EX",
+		fr: "M Absol EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,12 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Disaster Wing",
-				fr: "Règle des Méga-Évolutions",
+				fr: "Aile du Désastre",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck. If that card is a Trainer card, this attack does 80 more damage.",
+				en: "Discard the top card of your opponent’s deck. If that card is a Trainer card, this attack does 80 more damage.",
+				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si c’est une carte Dresseur, cette attaque inflige 80 dégâts supplémentaires."
 			},
-			damage: 80,
+			damage: "80＋",
 
 		},
 		{

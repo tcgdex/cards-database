@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ponyta",
 		fr: "Ponyta",
+		es: "Ponyta",
+		it: "Ponyta",
+		pt: "Ponyta",
+		de: "Ponita"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Smash Kick",
 				fr: "Coud’Pattes",
+				es: "Patada Destrucción",
+				it: "Calcio Esplosivo",
+				pt: "Chute Poderoso",
+				de: "Schmetterkick"
 			},
 
 			damage: 20,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Flame Tail",
 				fr: "Queue de Flammes",
+				es: "Cola de Fuego",
+				it: "Coda-Fiamma",
+				pt: "Cauda de Chamas",
+				de: "Flammenschweif"
 			},
 
 			damage: 30,

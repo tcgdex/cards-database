@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Lien Spirituel Mysdibule",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,
@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Mysdibule-EX.",
+		en: "Your turn does not end if the Pokémon this card is attached to becomes M Mawile-EX."
 	},
 	trainerType: "Tool",
 

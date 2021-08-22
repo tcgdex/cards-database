@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
+		es: "Growlithe",
+		it: "Growlithe",
+		pt: "Growlithe",
+		de: "Fukano"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Hind Kick",
 				fr: "Coup d’Pied Arrière",
+				es: "Patada Posterior",
+				it: "Calcio Posteriore",
+				pt: "Patada Traseira",
+				de: "Austreten"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				it: "Scambia questo Pokémon con uno della tua panchina.",
+				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 
@@ -46,6 +58,10 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Labareda",
+				de: "Flackern"
 			},
 
 			damage: 20,

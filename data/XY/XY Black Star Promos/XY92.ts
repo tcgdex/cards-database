@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Ténéfix",
 	},
 	illustrator: "match",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

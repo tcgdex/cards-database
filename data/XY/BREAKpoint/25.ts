@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Staryu",
 		fr: "Stari",
+		es: "Staryu",
+		it: "Staryu",
+		pt: "Staryu",
+		de: "Sterndu"
 	},
 
 	illustrator: "Hiroki Asanuma",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				es: "Palmetazo",
+				it: "Schiaffo",
+				pt: "Esbofetear",
+				de: "Klatscher"
 			},
 
 			damage: 20,

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Regirock",
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Maker",
-				fr: "Fabric'Roc",
+				fr: "Fabric’Roc",
 			},
 			effect: {
 				en: "Put 2 Stadium cards from your discard pile into your hand.",
@@ -50,9 +50,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80＋",
 
 		},
 	],

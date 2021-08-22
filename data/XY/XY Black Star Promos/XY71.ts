@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Hoopa-EX",
-		fr: "Hoopa-EX",
+		en: "Hoopa EX",
+		fr: "Hoopa EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand onto your Bench, you may search your deck for up to 3 Pokémon-EX (except for Hoopa-EX), reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez chercher jusqu'à 3 Pokémon-EX(à part Hoopa-EX) dans votre deck, les montrer et les ajouter à votre main. Mélangez ensuite votre deck.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez chercher jusqu’à 3 Pokémon-EX(à part Hoopa-EX) dans votre deck, les montrer et les ajouter à votre main. Mélangez ensuite votre deck.",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 				en: "Hyperspace Fury",
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon. This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Discard 2 Energy attached to this Pokémon. This attack does 100 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 
 		},

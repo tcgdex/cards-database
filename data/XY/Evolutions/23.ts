@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Poliwag",
 		fr: "Ptitard",
+		es: "Poliwag",
+		it: "Poliwag",
+		pt: "Poliwag",
+		de: "Quapsel"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revolver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,

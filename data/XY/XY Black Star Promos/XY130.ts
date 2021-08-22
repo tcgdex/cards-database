@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Tyranitar",
 	},
-	illustrator: "Satoshi Shirai",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Satoshi Shirai",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 160,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Pupitar",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,16 +54,18 @@ const card: Card = {
 			effect: {
 				en: "Discard the top 2 cards of your deck. This attack does 50 more damage for each Supporter card discarded in this way.",
 			},
-			damage: 150,
+			damage: "150+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -65,9 +73,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 4
 }
 
 export default card

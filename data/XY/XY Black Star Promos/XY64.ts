@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Rayquaza",
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -26,10 +26,10 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Ozone Wall",
-				fr: "Mur d'Ozone",
+				fr: "Mur d’Ozone",
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+				en: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).",
 				fr: "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à ce Pokémon par des attaques (les vôtres et celles de votre adversaire).",
 			},
 		},

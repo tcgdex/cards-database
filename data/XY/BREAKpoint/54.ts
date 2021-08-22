@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Drapion",
 		fr: "Drascore",
+		es: "Drapion",
+		it: "Drapion",
+		pt: "Drapion",
+		de: "Piondragi"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -35,10 +39,18 @@ const card: Card = {
 			name: {
 				en: "Poison Claws",
 				fr: "Griffes Empoisonnées",
+				es: "Garras Venenosas",
+				it: "Velenartigli",
+				pt: "Garras Venenosas",
+				de: "Giftkrallen"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 70,
 
@@ -53,6 +65,10 @@ const card: Card = {
 			name: {
 				en: "Heavy Impact",
 				fr: "Gros Impact",
+				es: "Impacto Pesado",
+				it: "Impatto Pesante",
+				pt: "Impacto Pesado",
+				de: "Schwerer Einschlag"
 			},
 
 			damage: 130,

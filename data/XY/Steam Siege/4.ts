@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Skiploom",
 		fr: "Floravol",
+		es: "Skiploom",
+		it: "Skiploom",
+		pt: "Skiploom",
+		de: "Hubelupf"
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				es: "Salpicadura",
+				it: "Splash",
+				pt: "Borrifada",
+				de: "Platscher"
 			},
 
 			damage: 20,

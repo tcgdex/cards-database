@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Lugia",
 	},
 	illustrator: "Hajime Kusajima",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

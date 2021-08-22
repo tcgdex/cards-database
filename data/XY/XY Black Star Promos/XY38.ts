@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Gobou",
 	},
 	illustrator: "Aya Kusube",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud-Slap",
-				fr: "Coud'Boue",
+				fr: "Coud’Boue",
 			},
 
 			damage: 20,

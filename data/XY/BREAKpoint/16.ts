@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		es: "Psyduck",
+		it: "Psyduck",
+		pt: "Psyduck",
+		de: "Enton"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Stampede",
 				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 20,
