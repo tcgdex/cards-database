@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "As long as this card is attached to a Pokémon, it provides Grass Energy.\n\n\n\n\n\n\n\nThe Grass Pokémon this card is attached to recovers from all Special Conditions and can’t be affected by any Special Conditions.",
+		en: "As long as this card is attached to a Pokémon, it provides Grass Energy.\nThe Grass Pokémon this card is attached to recovers from all Special Conditions and can’t be affected by any Special Conditions.",
 		fr: "Tant que cette carte est attachée à un Pokémon, elle fournit une Énergie Grass.\n\n\nLe Pokémon Grass auquel cette carte est attachée guérit de tous les États Spéciaux et ne peut être affecté par aucun État Spécial.",
 		es: "Mientras esta carta esté unida a 1 Pokémon, proporciona 1 Energía Grass.\n\nEl Pokémon Grass al que esté unida esta carta se recupera de todas las Condiciones Especiales y no puede verse afectado por ninguna Condición Especial.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia Grass.\n \nIl Pokémon Grass a cui è assegnata questa carta guarisce da tutte le condizioni speciali e non può esserne influenzato.",

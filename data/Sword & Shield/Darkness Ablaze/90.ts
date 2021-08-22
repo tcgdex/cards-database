@@ -67,6 +67,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches."
 	}
 }
 

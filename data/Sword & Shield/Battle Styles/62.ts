@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Psychic"],
@@ -81,7 +81,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns."
 	}
 }
 

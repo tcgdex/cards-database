@@ -94,6 +94,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
 	}
 }
 

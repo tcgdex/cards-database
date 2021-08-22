@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
 	}
 }
 

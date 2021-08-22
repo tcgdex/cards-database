@@ -71,6 +71,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away."
 	}
 }
 

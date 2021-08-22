@@ -69,7 +69,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "It’s capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
+	}
 }
 
 export default card

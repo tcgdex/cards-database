@@ -93,6 +93,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found."
 	}
 }
 

@@ -25,7 +25,7 @@ const card: Card = {
 	stage: 'Basic',
 
 	description: {
-		en: 'This is Castform\'s form when caught in a hailstrom. Its\nwhole body is chilled, and its skin is partially frozen!',
+		en: "Its form changes depending on the weather. The rougher conditions get, the rougher Castform’s disposition!",
 		fr: 'Il n\'y a pas que son apparence qui change en\nfonction de la météo: son tempérament aussi !\nPlus il y a de vent, plus il se montre agressif.'
 	},
 

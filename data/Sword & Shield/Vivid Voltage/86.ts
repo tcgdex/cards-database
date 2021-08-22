@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
 	}
 }
 

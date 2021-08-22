@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It can learn and speak human words. If they gather, they all learn the same saying."
 	}
 }
 

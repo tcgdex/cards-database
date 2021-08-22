@@ -46,6 +46,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it."
 	}
 }
 

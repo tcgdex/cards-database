@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year."
 	}
 }
 

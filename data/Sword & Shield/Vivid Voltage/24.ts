@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws."
 	}
 }
 

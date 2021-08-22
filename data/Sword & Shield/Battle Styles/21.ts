@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Fire"],
@@ -76,7 +76,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

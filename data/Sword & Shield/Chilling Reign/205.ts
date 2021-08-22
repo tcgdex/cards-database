@@ -79,9 +79,12 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "VMAX",
+	illustrator: "Mitsuhiro Arita"
 }
 
 export default card

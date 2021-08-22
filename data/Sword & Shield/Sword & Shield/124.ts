@@ -93,6 +93,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries."
 	}
 }
 

@@ -68,6 +68,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other."
 	}
 }
 

@@ -66,6 +66,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
 	}
 }
 

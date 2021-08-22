@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions."
 	}
 }
 

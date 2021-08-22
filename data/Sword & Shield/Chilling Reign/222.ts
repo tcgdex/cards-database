@@ -66,6 +66,13 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+	illustrator: "Ryo Ueda",
+
+	description: {
+		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
 	}
 }
 

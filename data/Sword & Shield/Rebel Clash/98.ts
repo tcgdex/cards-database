@@ -89,6 +89,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Through yoga training, it gained the psychic power to predict its foe’s next move."
 	}
 }
 

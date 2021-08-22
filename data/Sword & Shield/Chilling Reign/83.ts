@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Never touch its shadowlike body, or you’ll be shown the horrific memories behind the picture carved into it."
 	}
 }
 

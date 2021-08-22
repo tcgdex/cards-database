@@ -92,6 +92,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form."
 	}
 }
 

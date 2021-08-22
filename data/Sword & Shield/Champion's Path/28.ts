@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem."
 	}
 }
 

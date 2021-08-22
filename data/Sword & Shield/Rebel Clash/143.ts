@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Where people go, these Pokémon follow. If you’re scattering food for them, be careful—several hundred of them can gather at once."
 	}
 }
 

@@ -29,7 +29,7 @@ const card: Card = {
 	regulationMark: "D",
 
 	variants: {
-		normal: false,
+		normal: true,
 		reverse: false,
 		holo: false,
 		firstEdition: false

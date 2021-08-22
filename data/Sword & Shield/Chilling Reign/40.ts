@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Although it’s called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini."
 	}
 }
 

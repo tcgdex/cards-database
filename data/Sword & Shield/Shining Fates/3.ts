@@ -68,6 +68,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has the power to travel across time, but it is said to appear only in peaceful times."
 	}
 }
 

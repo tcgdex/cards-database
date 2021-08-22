@@ -68,6 +68,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity."
 	}
 }
 

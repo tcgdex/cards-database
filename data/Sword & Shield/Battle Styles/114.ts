@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It uses its tongue much more skillfully than its hands or its feet. It can deftly pick up a single small bean with its tongue."
 	}
 }
 

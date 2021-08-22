@@ -73,6 +73,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it’s eaten, creating strange potions."
 	}
 }
 

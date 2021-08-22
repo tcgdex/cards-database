@@ -74,6 +74,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started."
 	}
 }
 

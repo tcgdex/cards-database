@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all."
 	}
 }
 

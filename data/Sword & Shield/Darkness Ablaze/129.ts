@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy."
 	}
 }
 

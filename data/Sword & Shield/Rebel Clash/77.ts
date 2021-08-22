@@ -93,6 +93,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time."
 	}
 }
 

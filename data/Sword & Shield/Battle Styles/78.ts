@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it."
 	}
 }
 

@@ -93,6 +93,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
 	}
 }
 

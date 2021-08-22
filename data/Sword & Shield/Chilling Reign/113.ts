@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Metal"],
@@ -85,7 +85,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "VMAX"
 }
 
 export default card

@@ -66,6 +66,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
 	}
 }
 

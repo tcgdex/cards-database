@@ -98,6 +98,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock."
 	}
 }
 

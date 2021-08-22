@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Six of them form a single Pokémon. Should one of the six be lost, the next morning there will once more be six."
 	}
 }
 

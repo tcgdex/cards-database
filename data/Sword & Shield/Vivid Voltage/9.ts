@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "This Pokémon has the ability to move through time. Records describing it as a forest deity can be found from many different eras."
 	}
 }
 

@@ -99,6 +99,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "After captivating opponents with its sweet scent, it lashes them with its thorny whips."
 	}
 }
 

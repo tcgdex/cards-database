@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large."
 	}
 }
 

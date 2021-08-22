@@ -57,6 +57,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads."
 	}
 }
 

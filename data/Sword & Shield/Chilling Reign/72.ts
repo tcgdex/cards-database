@@ -65,6 +65,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer."
 	}
 }
 

@@ -73,7 +73,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "When this Pokémon sounds as if it’s strumming a guitar, it’s actually clawing at the protrusions on its chest to generate electricity."
+	}
 }
 
 export default card

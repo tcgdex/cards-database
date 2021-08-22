@@ -90,6 +90,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "A Pokémon that was feared as a forest guardian. It can read the foe’s mind and take preemptive action."
 	}
 }
 

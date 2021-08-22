@@ -59,6 +59,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It has a psychic power that enables it to distort the space around it and see into the future."
 	}
 }
 

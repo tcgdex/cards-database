@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
 	}
 }
 

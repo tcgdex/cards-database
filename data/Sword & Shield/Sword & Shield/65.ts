@@ -80,6 +80,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	}
 }
 

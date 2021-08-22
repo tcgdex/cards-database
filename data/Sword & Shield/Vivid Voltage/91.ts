@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It brings its claws together and whirls around at high speed before rushing toward its prey."
 	}
 }
 

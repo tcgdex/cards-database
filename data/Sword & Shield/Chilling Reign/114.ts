@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon."
 	}
 }
 

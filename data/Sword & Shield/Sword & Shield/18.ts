@@ -85,6 +85,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution."
 	}
 }
 

@@ -66,6 +66,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
 	}
 }
 

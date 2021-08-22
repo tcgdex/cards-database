@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "chibi",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Lightning"],
@@ -55,7 +55,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

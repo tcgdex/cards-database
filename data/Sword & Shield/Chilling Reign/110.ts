@@ -68,6 +68,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders."
 	}
 }
 

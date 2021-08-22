@@ -73,6 +73,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head."
 	}
 }
 

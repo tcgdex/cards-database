@@ -79,7 +79,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage2",
+
+	description: {
+		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others."
+	}
 }
 
 export default card

@@ -15,24 +15,16 @@ const card: Card = {
 
 	rarity: "Secret Rare",
 	category: "Energy",
-
-	effect: {
-		en: "",
-		fr: "",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
-	},
-
-	energyType: "Special",
+	energyType: "Normal",
 
 	variants: {
 		normal: false,
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic"
 }
 
 export default card

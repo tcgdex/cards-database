@@ -79,6 +79,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves."
 	}
 }
 

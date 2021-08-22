@@ -59,7 +59,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+	}
 }
 
 export default card

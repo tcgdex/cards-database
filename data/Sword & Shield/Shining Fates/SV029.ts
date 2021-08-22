@@ -74,7 +74,12 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
+	}
 }
 
 export default card

@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "According to legends, it was hatched from a flaming cocoon to save people and Pokémon that were suffering from the cold."
 	}
 }
 

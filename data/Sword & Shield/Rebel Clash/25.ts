@@ -89,6 +89,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
 	}
 }
 

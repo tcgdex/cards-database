@@ -81,6 +81,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
 	}
 }
 

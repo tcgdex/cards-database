@@ -70,6 +70,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
 	}
 }
 

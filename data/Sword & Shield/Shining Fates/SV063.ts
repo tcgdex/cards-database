@@ -60,7 +60,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "The Farfetch’d of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+	}
 }
 
 export default card

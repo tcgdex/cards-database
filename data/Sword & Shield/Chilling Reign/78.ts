@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The stalks of leeks are thicker and longer in the Galar region. Farfetch’d that adapted to these stalks took on a unique form."
 	}
 }
 

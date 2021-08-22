@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Because they scatter germs everywhere, they’ve long been targeted for extermination, leading to a steep decline in their population."
 	}
 }
 

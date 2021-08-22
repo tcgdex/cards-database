@@ -79,6 +79,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
 	}
 }
 

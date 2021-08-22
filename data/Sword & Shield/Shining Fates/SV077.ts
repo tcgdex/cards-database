@@ -74,7 +74,12 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
+	}
 }
 
 export default card

@@ -60,6 +60,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
 	}
 }
 

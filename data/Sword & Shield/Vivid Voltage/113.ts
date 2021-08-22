@@ -92,6 +92,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
 	}
 }
 

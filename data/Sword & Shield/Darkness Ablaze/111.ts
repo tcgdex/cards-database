@@ -62,6 +62,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place."
 	}
 }
 

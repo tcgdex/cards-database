@@ -25,7 +25,7 @@ const card: Card = {
 	stage: 'Basic',
 
 	description: {
-		en: 'Castform changes to this form when it basks\nin bright sunlight. When you touch its\nglowing skin, it feels all dried out!',
+		en: "Castform changes to this form when it basks in bright sunlight. When you touch its glowing skin, it feels all dried out!",
 		fr: 'Morphéo adopte cette apparence lorsqu\'il y a du soleil.\nSon corps rougeoyant est très sec au toucher.'
 	},
 

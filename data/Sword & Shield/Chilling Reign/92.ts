@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
 	}
 }
 
