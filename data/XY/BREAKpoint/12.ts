@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Numel",
 		fr: "Chamallot",
+		es: "Numel",
+		it: "Numel",
+		pt: "Numel",
+		de: "Camaub"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				es: "Combustión",
+				it: "Vulcanpestone",
+				pt: "Combustão",
+				de: "Glühen"
 			},
 
 			damage: 40,

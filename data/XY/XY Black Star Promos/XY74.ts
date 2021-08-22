@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Reshiram",
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
 			},
-			damage: 90,
+			damage: "90+",
 
 		},
 	],

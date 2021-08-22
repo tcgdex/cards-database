@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Darkrai",
 	},
 	illustrator: "kawayoo",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Cutter",
-				fr: "Tranch'Obscur",
+				fr: "Tranch’Obscur",
 			},
 
 			damage: 30,
@@ -47,8 +47,8 @@ const card: Card = {
 				fr: "Sommeil Abyssal",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep. Your opponent flips 2 coins instead of 1 between turns. If either of them is tails, that Pokémon is still Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi. Votre adversaire lance 2 pièces au lieu d'une entre chaque tour. Si vous obtenez au moins un côté pile, le Pokémon reste Endormi.",
+				en: "Your opponent’s Active Pokémon is now Asleep. Your opponent flips 2 coins instead of 1 between turns. If either of them is tails, that Pokémon is still Asleep.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi. Votre adversaire lance 2 pièces au lieu d’une entre chaque tour. Si vous obtenez au moins un côté pile, le Pokémon reste Endormi.",
 			},
 			damage: 80,
 

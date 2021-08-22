@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Kangaskhan",
 		fr: "Kangourex",
+		es: "Kangaskhan",
+		it: "Kangaskhan",
+		pt: "Kangaskhan",
+		de: "Kangama"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tiny Punch",
-				fr: "P'tit Coup d'Poing",
+				fr: "P’tit Coup d’Poing",
+				es: "Minipuño",
+				it: "Micropugno",
+				pt: "Soco Bebê",
+				de: "Mickriger Hieb"
 			},
 
 			damage: 40,
@@ -46,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Mega Punch",
 				fr: "Ultimapoing",
+				es: "Megapuño",
+				it: "Megapugno",
+				pt: "Mega Soco",
+				de: "Megahieb"
 			},
 
 			damage: 100,

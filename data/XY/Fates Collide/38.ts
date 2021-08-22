@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Kabuto",
 		fr: "Kabuto",
+		es: "Kabuto",
+		it: "Kabuto",
+		pt: "Kabuto",
+		de: "Kabuto"
 	},
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Mud Shot",
 				fr: "Tir de Boue",
+				es: "Disparo Lodo",
+				it: "Colpodifango",
+				pt: "Água Viscosa",
+				de: "Lehmschuss"
 			},
 
 			damage: 30,

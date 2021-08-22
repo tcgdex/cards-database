@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pikachu",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Cage-Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "If Hoopa is on your Bench, this attack does 30 more damage.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

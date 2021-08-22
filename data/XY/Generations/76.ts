@@ -3,7 +3,7 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Basic Fire Energy",
+		en: "Fire Energy",
 		fr: "Énergie Fire de base",
 	},
 	illustrator: undefined,

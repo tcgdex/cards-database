@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Léviator",
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 30 more damage for each damage counter on each of your Benched Magikarp.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage. If tails, this Pokémon does 30 damage to itself.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 	],

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Rayquaza",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{

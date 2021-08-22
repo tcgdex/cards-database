@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Latios",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -48,7 +48,7 @@ const card: Card = {
 			effect: {
 				en: "If Latias is on your Bench, this attack does 50 more damage.",
 			},
-			damage: 70,
+			damage: "70+",
 
 		},
 	],

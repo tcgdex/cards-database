@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl-EX",
-		fr: "Ptéra-eEX",
+		en: "Aerodactyl EX",
+		fr: "Ptéra EX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,9 +34,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{

@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Swampert-EX",
-		fr: "Laggron-EX",
+		en: "Swampert EX",
+		fr: "Laggron EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,7 +37,7 @@ const card: Card = {
 				en: "Reveal the top 4 cards of your deck. This attack does 40 more damage for each Water Energy you find there. Shuffle the revealed cards back into your deck.",
 				fr: "Montrez les 4 cartes du dessus de votre deck. Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie Water que vous y trouvez. Mélangez les cartes montrées avec votre deck.",
 			},
-			damage: 40,
+			damage: "40＋",
 
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
+				fr: "Ce Pokémon s’inflige 20 dégâts.",
 			},
 			damage: 120,
 

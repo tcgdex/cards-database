@@ -3,21 +3,23 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-EX",
+		en: "Mewtwo EX",
 	},
-	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Eske Yoshinob",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -31,7 +33,7 @@ const card: Card = {
 				en: "Photon Wave",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
 			},
 			damage: 30,
 
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -58,10 +61,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

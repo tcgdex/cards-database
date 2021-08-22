@@ -3,23 +3,26 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Shaymin-EX",
+		en: "Shaymin EX",
 	},
-	illustrator: "Kanako Eo",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Kanako Eo",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		492,
 	],
+
 	hp: 110,
+
 	types: [
 		"Grass",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -55,10 +60,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

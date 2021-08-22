@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Blindépique",
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,10 +37,10 @@ const card: Card = {
 				fr: "Lasso à Piques",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
+				en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 		{
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Adamantine Press",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 			},
 			damage: 100,
 

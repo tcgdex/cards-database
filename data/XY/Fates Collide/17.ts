@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Omanyte",
 		fr: "Amonita",
+		es: "Omanyte",
+		it: "Omanyte",
+		pt: "Omanyte",
+		de: "Amonitas"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revolver d’Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,

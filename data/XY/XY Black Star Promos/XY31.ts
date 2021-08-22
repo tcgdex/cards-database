@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Xerneas",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,8 +34,8 @@ const card: Card = {
 				fr: "Puissance Boréale",
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				en: "During your opponent’s next turn, this Pokémon has no Weakness.",
+				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n’a pas de Faiblesse.",
 			},
 			damage: 50,
 
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "If your opponent has Yveltal (including Yveltal-EX) in play, this attack does 40 more damage.",
 				fr: "Si votre adversaire a Yveltal (y compris Yveltal-EX) en jeu, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80＋",
 
 		},
 	],
@@ -68,7 +68,7 @@ const card: Card = {
 	resistances: [
 		{
 			type: "Darkness",
-			value: "-20"
+			value: "−20"
 		},
 	],
 	retreat: 2,

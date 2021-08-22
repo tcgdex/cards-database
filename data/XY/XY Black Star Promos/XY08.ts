@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Yveltal-EX",
-		fr: "Xerneas-EX",
+		en: "Yveltal EX",
+		fr: "Yveltal EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,13 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Evil Ball",
-				fr: "Percée",
+				fr: "Balle Maléfique",
 			},
 			effect: {
 				en: "This attack does 20 more damage times the amount of Energy attached to both Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d'Énergies attachées aux Pokémon Actifs.",
 			},
-			damage: 20,
+			damage: '20+',
 
 		},
 		{
@@ -47,11 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Y Cyclone",
-				fr: "Explosion X",
+				fr: "Cyclone Y",
 			},
 			effect: {
 				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Ce Pokémon ne peut pas utiliser Explosion X pendant votre prochain tour.",
+				fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
 			},
 			damage: 90,
 

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Noctali",
 	},
 	illustrator: "kawayoo",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Instagriffe",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 30,

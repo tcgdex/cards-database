@@ -3,7 +3,7 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Basic Psychic Energy",
+		en: "Psychic Energy",
 		fr: "Énergie Psychic de base",
 	},
 	illustrator: undefined,

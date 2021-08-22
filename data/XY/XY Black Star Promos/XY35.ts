@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Metagross-EX",
-		fr: "M Métalosse-EEX",
+		en: "M Metagross EX",
+		fr: "M Métalosse EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -41,7 +41,7 @@ const card: Card = {
 				en: "This attack does 10 more damage for each Metal Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon.",
 			},
-			damage: 130,
+			damage: "130＋",
 
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 	resistances: [
 		{
 			type: "Psychic",
-			value: "-20"
+			value: "−20"
 		},
 	],
 	retreat: 4,

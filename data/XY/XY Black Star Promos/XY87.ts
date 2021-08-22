@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Swampert-EX",
-		fr: "M Laggron-EX",
+		en: "M Swampert EX",
+		fr: "M Laggron EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -35,12 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Strongarm Impact",
-				fr: "Règle des Méga-Évolutions",
+				fr: "Impact Bras d’Fer",
 			},
 			effect: {
-				en: "You may do 30 more damage. If you do, discard the top 3 cards of each player's deck.",
+				en: "You may do 30 more damage. If you do, discard the top 3 cards of each player’s deck.",
+				fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur."
 			},
-			damage: 130,
+			damage: "130+",
 
 		},
 		{

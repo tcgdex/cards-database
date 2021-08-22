@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Amphinobi",
 	},
 	illustrator: "Akira Komayama",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Voile de Brume",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon during your opponent's next turn.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez éviter tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon de votre adversaire pendant son prochain tour.",
+				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Pokémon during your opponent’s next turn.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon, vous pouvez éviter tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon de votre adversaire pendant son prochain tour.",
 			},
 		},
 	],
@@ -48,8 +48,8 @@ const card: Card = {
 				fr: "Kunaï Sournois",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 20 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	resistances: [
 		{
 			type: "Psychic",
-			value: "-20"
+			value: "−20"
 		},
 	],
 	retreat: 1,

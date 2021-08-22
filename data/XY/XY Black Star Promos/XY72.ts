@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latios-EX",
-		fr: "Latios-EX",
+		en: "Latios EX",
+		fr: "Latios EX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,7 +49,7 @@ const card: Card = {
 				en: "Light Pulse",
 			},
 			effect: {
-				en: "Prevent all effects of your opponent's attacks, except damage, done to this Pokémon during your opponent's next turn.",
+				en: "Prevent all effects of your opponent’s attacks, except damage, done to this Pokémon during your opponent’s next turn.",
 			},
 			damage: 110,
 

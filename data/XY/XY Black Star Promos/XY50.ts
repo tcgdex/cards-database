@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pandarbare",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "If this Pokémon is affected by a Special Condition, this attack does 40 more damage.",
 				fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80＋",
 
 		},
 	],

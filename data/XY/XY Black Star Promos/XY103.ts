@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mawile-EX",
-		fr: "Mysdibule-EX",
+		en: "Mawile EX",
+		fr: "Mysdibule EX",
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -46,8 +46,8 @@ const card: Card = {
 				fr: "Bombe Miracle",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
+				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 100,
 

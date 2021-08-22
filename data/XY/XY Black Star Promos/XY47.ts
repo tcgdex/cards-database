@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Iguolta",
 	},
 	illustrator: "kawayoo",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Peau Sèche",
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks from your opponent's Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				en: "Any damage done to this Pokémon by attacks from your opponent’s Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à ce Pokémon par des attaques des Pokémon Water de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				fr: "Ultralaser",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
+				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 60,
 

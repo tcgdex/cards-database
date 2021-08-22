@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
+		es: "Growlithe",
+		it: "Growlithe",
+		pt: "Growlithe",
+		de: "Fukano"
 	},
 	illustrator: "match",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,

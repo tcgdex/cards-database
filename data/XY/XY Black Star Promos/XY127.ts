@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Moltres",
 	},
-	illustrator: "OOYAMA",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "OOYAMA",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		146,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -46,16 +48,18 @@ const card: Card = {
 			effect: {
 				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -63,9 +67,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

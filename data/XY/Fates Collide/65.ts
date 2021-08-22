@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		es: "Jigglypuff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
+		de: "Pummeluff"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'Face",
+				fr: "Écras’Face",
+				es: "Destructor",
+				it: "Botta",
+				pt: "Pancada",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Desenrollar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 20,

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Grenousse",
 	},
 	illustrator: "Sanosuke Sakuma",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Écume",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 
 		},

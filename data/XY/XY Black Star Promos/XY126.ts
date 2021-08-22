@@ -3,23 +3,26 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mew-EX",
+		en: "Mew EX",
 	},
-	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Eske Yoshinob",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		151,
 	],
+
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Versatile",
 			},
 			effect: {
-				en: "This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent's). (You still need the necessary Energy to use each attack.)",
+				en: "This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent’s). (You still need the necessary Energy to use each attack.)",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -45,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -52,10 +57,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card
