@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Arcanine",
 		de: "Arkani"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Rare",
 	category: "Pokemon",
 

@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Greninja",
 		de: "Quajutsu"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 

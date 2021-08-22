@@ -3,15 +3,15 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Hoopa-GX",
-		fr: "Hoopa-GX",
-		es: "Hoopa-GX",
-		it: "Hoopa-GX",
-		pt: "Hoopa-GX",
-		de: "Hoopa-GX"
+		en: "Hoopa GX",
+		fr: "Hoopa GX",
+		es: "Hoopa GX",
+		it: "Hoopa GX",
+		pt: "Hoopa GX",
+		de: "Hoopa GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

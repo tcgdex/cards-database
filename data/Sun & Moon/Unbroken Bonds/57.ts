@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Dedenne-GX",
-		fr: "Dedenne-GX",
-		es: "Dedenne-GX",
-		it: "Dedenne-GX",
-		pt: "Dedenne-GX",
-		de: "Dedenne-GX"
+		en: "Dedenne GX",
+		fr: "Dedenne GX",
+		es: "Dedenne GX",
+		it: "Dedenne GX",
+		pt: "Dedenne GX",
+		de: "Dedenne GX"
 	},
 	illustrator: "PLANETA Igarashi",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

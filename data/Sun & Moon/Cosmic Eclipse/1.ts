@@ -3,15 +3,15 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Venusaur & Snivy-GX",
-		fr: "Florizarre et Vipélierre-GX",
-		es: "Venusaur y Snivy-GX",
-		it: "Venusaur e Snivy-GX",
-		pt: "Venusaur e Snivy-GX",
-		de: "Bisaflor & Serpifeu-GX"
+		en: "Venusaur & Snivy GX",
+		fr: "Florizarre et Vipélierre GX",
+		es: "Venusaur y Snivy GX",
+		it: "Venusaur e Snivy GX",
+		pt: "Venusaur e Snivy GX",
+		de: "Bisaflor & Serpifeu GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

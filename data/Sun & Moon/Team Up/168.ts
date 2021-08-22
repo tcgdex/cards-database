@@ -3,12 +3,12 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Cobalion-GX",
-		fr: "Cobaltium-GX",
-		es: "Cobalion-GX",
-		it: "Cobalion-GX",
-		pt: "Cobalion-GX",
-		de: "Kobalium-GX"
+		en: "Cobalion GX",
+		fr: "Cobaltium GX",
+		es: "Cobalion GX",
+		it: "Cobalion GX",
+		pt: "Cobalion GX",
+		de: "Kobalium GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

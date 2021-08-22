@@ -5,12 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charizard & Braixen-GX",
-		fr: "Dracaufeu et Roussil-GX",
-		es: "Charizard y Braixen-GX",
-		it: "Charizard e Braixen-GX",
-		pt: "Charizard e Braixen-GX",
-		de: "Glurak & Rutena-GX"
+		en: "Charizard & Braixen GX",
+		fr: "Dracaufeu et Roussil GX",
+		es: "Charizard y Braixen GX",
+		it: "Charizard e Braixen GX",
+		pt: "Charizard e Braixen GX",
+		de: "Glurak & Rutena GX"
 	},
 
 	rarity: "Rare",

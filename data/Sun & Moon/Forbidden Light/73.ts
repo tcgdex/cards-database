@@ -3,15 +3,15 @@ import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Zygarde-GX",
-		fr: "Zygarde-GX",
-		es: "Zygarde-GX",
-		it: "Zygarde-GX",
-		pt: "Zygarde-GX",
-		de: "Zygarde-GX"
+		en: "Zygarde GX",
+		fr: "Zygarde GX",
+		es: "Zygarde GX",
+		it: "Zygarde GX",
+		pt: "Zygarde GX",
+		de: "Zygarde GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

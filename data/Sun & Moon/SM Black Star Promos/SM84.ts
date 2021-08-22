@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Zoroark-GX",
-		fr: "Zoroark-GX",
-		es: "Zoroark-GX",
-		it: "Zoroark-GX",
-		pt: "Zoroark-GX",
-		de: "Zoroark-GX"
+		en: "Zoroark GX",
+		fr: "Zoroark GX",
+		es: "Zoroark GX",
+		it: "Zoroark GX",
+		pt: "Zoroark GX",
+		de: "Zoroark GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

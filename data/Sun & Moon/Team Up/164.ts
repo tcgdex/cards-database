@@ -3,12 +3,12 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Gengar & Mimikyu-GX",
-		fr: "Ectoplasma et Mimiqui-GX",
-		es: "Gengar y Mimikyu-GX",
-		it: "Gengar e Mimikyu-GX",
-		pt: "Gengar e Mimikyu-GX",
-		de: "Gengar & Mimigma-GX"
+		en: "Gengar & Mimikyu GX",
+		fr: "Ectoplasma et Mimiqui GX",
+		es: "Gengar y Mimikyu GX",
+		it: "Gengar e Mimikyu GX",
+		pt: "Gengar e Mimikyu GX",
+		de: "Gengar & Mimigma GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

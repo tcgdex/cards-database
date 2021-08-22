@@ -3,15 +3,15 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Mega Lopunny & Jigglypuff-GX",
-		fr: "Méga-Lockpin et Rondoudou-GX",
-		es: "Mega-Lopunny y Jigglypuff-GX",
-		it: "Mega Lopunny e Jigglypuff-GX",
-		pt: "Mega Lopunny e Jigglypuff-GX",
-		de: "Mega-Schlapor & Pummeluff-GX"
+		en: "Mega Lopunny & Jigglypuff GX",
+		fr: "Méga-Lockpin et Rondoudou GX",
+		es: "Mega-Lopunny y Jigglypuff GX",
+		it: "Mega Lopunny e Jigglypuff GX",
+		pt: "Mega Lopunny e Jigglypuff GX",
+		de: "Mega-Schlapor & Pummeluff GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

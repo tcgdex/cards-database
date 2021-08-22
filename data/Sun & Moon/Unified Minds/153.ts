@@ -47,7 +47,7 @@ const card: Card = {
 				pt: "Este ataque causa 20 pontos de dano vezes a quantidade de Energia ligada a 1 dos Pokémon do seu oponente àquele Pokémon. Este dano não é afetado por Fraqueza ou Resistência.",
 				de: "Diese Attacke fügt 1 Pokémon deines Gegners 20 Schadenspunkte mal der Anzahl der an jenes Pokémon angelegten Energien zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
 			},
-			damage: '20x',
+			damage: "20×",
 
 		},
 		{

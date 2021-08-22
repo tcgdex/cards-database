@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Jigglypuff",
 		de: "Pummeluff"
 	},
-	illustrator: undefined,
+	illustrator: "Framestore",
 	rarity: "Common",
 	category: "Pokemon",
 

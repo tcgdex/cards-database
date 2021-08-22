@@ -3,15 +3,15 @@ import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Tauros-GX",
-		fr: "Tauros-GX",
-		es: "Tauros-GX",
-		it: "Tauros-GX",
-		pt: "Tauros-GX",
-		de: "Tauros-GX"
+		en: "Tauros GX",
+		fr: "Tauros GX",
+		es: "Tauros GX",
+		it: "Tauros GX",
+		pt: "Tauros GX",
+		de: "Tauros GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

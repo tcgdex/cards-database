@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Lickitung",
 		de: "Schlurp"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Common",
 	category: "Pokemon",
 

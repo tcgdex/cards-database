@@ -3,15 +3,15 @@ import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Raichu-GX",
-		fr: "Raichu-GX",
-		es: "Raichu-GX",
-		it: "Raichu-GX",
-		pt: "Raichu-GX",
-		de: "Raichu-GX"
+		en: "Raichu GX",
+		fr: "Raichu GX",
+		es: "Raichu GX",
+		it: "Raichu GX",
+		pt: "Raichu GX",
+		de: "Raichu GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Garchomp & Giratina-GX",
-		fr: "Carchacrok et Giratina-GX",
-		es: "Garchomp y Giratina-GX",
-		it: "Garchomp e Giratina-GX",
-		pt: "Garchomp e Giratina-GX",
-		de: "Knakrack & Giratina-GX"
+		en: "Garchomp & Giratina GX",
+		fr: "Carchacrok et Giratina GX",
+		es: "Garchomp y Giratina GX",
+		it: "Garchomp e Giratina GX",
+		pt: "Garchomp e Giratina GX",
+		de: "Knakrack & Giratina GX"
 	},
 
 	illustrator: "Anesaki Dynamic",

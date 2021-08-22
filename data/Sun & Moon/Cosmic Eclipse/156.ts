@@ -3,15 +3,15 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Arceus & Dialga & Palkia-GX",
-		fr: "Arceus, Dialga et Palkia-GX",
-		es: "Arceus, Dialga y Palkia-GX",
-		it: "Arceus, Dialga e Palkia-GX",
-		pt: "Arceus, Dialga e Palkia-GX",
-		de: "Arceus & Dialga & Palkia-GX"
+		en: "Arceus & Dialga & Palkia GX",
+		fr: "Arceus, Dialga et Palkia GX",
+		es: "Arceus, Dialga y Palkia GX",
+		it: "Arceus, Dialga e Palkia GX",
+		pt: "Arceus, Dialga e Palkia GX",
+		de: "Arceus & Dialga & Palkia GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

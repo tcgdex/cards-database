@@ -3,12 +3,12 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Wishiwashi-GX",
-		fr: "Froussardine-GX",
-		es: "Wishiwashi-GX",
-		it: "Wishiwashi-GX",
-		pt: "Wishiwashi-GX",
-		de: "Lusardin-GX"
+		en: "Wishiwashi GX",
+		fr: "Froussardine GX",
+		es: "Wishiwashi GX",
+		it: "Wishiwashi GX",
+		pt: "Wishiwashi GX",
+		de: "Lusardin GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

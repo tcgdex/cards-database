@@ -3,12 +3,12 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Vileplume-GX",
-		fr: "Rafflesia-GX",
-		es: "Vileplume-GX",
-		it: "Vileplume-GX",
-		pt: "Vileplume-GX",
-		de: "Giflor-GX"
+		en: "Vileplume GX",
+		fr: "Rafflesia GX",
+		es: "Vileplume GX",
+		it: "Vileplume GX",
+		pt: "Vileplume GX",
+		de: "Giflor GX"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Ultra Rare",

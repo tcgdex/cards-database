@@ -3,15 +3,15 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Darkrai-GX",
-		fr: "Darkrai-GX",
-		es: "Darkrai-GX",
-		it: "Darkrai-GX",
-		pt: "Darkrai-GX",
-		de: "Darkrai-GX"
+		en: "Darkrai GX",
+		fr: "Darkrai GX",
+		es: "Darkrai GX",
+		it: "Darkrai GX",
+		pt: "Darkrai GX",
+		de: "Darkrai GX"
 	},
 	illustrator: "PLANETA",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Trevenant & Dusknoir-GX",
-		fr: "Desséliande et Noctunoir-GX",
-		es: "Trevenant y Dusknoir-GX",
-		it: "Trevenant e Dusknoir-GX",
-		pt: "Trevenant e Dusknoir-GX",
-		de: "Trombork & Zwirrfinst-GX"
+		en: "Trevenant & Dusknoir GX",
+		fr: "Desséliande et Noctunoir GX",
+		es: "Trevenant y Dusknoir GX",
+		it: "Trevenant e Dusknoir GX",
+		pt: "Trevenant e Dusknoir GX",
+		de: "Trombork & Zwirrfinst GX"
 	},
 
 	illustrator: undefined,

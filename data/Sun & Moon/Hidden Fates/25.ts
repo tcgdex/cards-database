@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Ligotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+				en: "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
 			},
 			damage: 10,

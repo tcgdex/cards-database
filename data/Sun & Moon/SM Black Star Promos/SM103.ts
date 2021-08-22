@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Lunala-GX",
-		fr: "Lunala-GX",
-		es: "Lunala-GX",
-		it: "Lunala-GX",
-		pt: "Lunala-GX",
-		de: "Lunala-GX"
+		en: "Lunala GX",
+		fr: "Lunala GX",
+		es: "Lunala GX",
+		it: "Lunala GX",
+		pt: "Lunala GX",
+		de: "Lunala GX"
 	},
 
 	illustrator: "PLANETA",

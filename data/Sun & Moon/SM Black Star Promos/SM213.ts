@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Raichu-GX",
-		fr: "Raichu-GX",
-		es: "Raichu-GX",
-		it: "Raichu-GX",
-		pt: "Raichu-GX",
-		de: "Raichu-GX"
+		en: "Raichu GX",
+		fr: "Raichu GX",
+		es: "Raichu GX",
+		it: "Raichu GX",
+		pt: "Raichu GX",
+		de: "Raichu GX"
 	},
 
 	illustrator: undefined,

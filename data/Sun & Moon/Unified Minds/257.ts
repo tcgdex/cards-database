@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Wiederverwertungsenergie"
 	},
 
-	illustrator: undefined,
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Energy",
 	set: Set,

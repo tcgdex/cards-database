@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Detective Pikachu",
 		de: "Meisterdetektiv Pikachu"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Rare",
 	category: "Pokemon",
 

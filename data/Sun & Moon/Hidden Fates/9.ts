@@ -3,11 +3,11 @@ import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Charizard-GX",
+		en: "Charizard GX",
 		fr: "Dracaufeu-GX",
 	},
 	illustrator: "aky CG Works",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,11 +49,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Blitz-GX",
+				en: "Flare Blitz GX",
 				fr: "Boutefeu-GX",
 			},
 			effect: {
-				en: "(You can't use more than 1 GX attack in a game.)",
+				en: "(You can’t use more than 1 GX attack in a game.)",
 				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 300,

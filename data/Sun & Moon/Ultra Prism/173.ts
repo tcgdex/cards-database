@@ -3,12 +3,12 @@ import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Solgaleo-GX",
-		fr: "Solgaleo-GX",
-		es: "Solgaleo-GX",
-		it: "Solgaleo-GX",
-		pt: "Solgaleo-GX",
-		de: "Solgaleo-GX"
+		en: "Solgaleo GX",
+		fr: "Solgaleo GX",
+		es: "Solgaleo GX",
+		it: "Solgaleo GX",
+		pt: "Solgaleo GX",
+		de: "Solgaleo GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

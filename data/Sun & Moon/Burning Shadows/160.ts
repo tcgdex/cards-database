@@ -3,12 +3,12 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Noivern-GX",
-		fr: "Bruyverne-GX",
-		es: "Noivern-GX",
-		it: "Noivern-GX",
-		pt: "Noivern-GX",
-		de: "UHaFnir-GX"
+		en: "Noivern GX",
+		fr: "Bruyverne GX",
+		es: "Noivern GX",
+		it: "Noivern GX",
+		pt: "Noivern GX",
+		de: "UHaFnir GX"
 	},
 
 	illustrator: "5ban Graphics",
