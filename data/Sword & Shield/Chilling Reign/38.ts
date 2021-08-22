@@ -63,6 +63,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease."
 	}
 }
 

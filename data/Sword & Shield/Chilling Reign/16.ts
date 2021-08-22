@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped."
 	}
 }
 

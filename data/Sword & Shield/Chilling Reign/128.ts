@@ -73,6 +73,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Common throughout the Galar region, this Pokémon has strong teeth and can chew through the toughest of berry shells."
 	}
 }
 

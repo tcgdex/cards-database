@@ -57,6 +57,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Joltik can be found clinging to other Pokémon. It’s soaking up static electricity because it can’t produce a charge on its own."
 	}
 }
 

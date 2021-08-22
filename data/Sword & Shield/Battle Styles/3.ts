@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Once ingested into this Pokémon’s body, even the hardest object will melt into nothing."
 	}
 }
 

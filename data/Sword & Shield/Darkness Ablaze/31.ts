@@ -74,6 +74,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
 	}
 }
 

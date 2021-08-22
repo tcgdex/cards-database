@@ -58,6 +58,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
 	}
 }
 

@@ -75,7 +75,8 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "VMAX"
 }
 
 export default card

@@ -82,9 +82,13 @@ const card: Card = {
 
 	variants: {
 		normal: true,
-		reverse: false,
+		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms."
 	}
 }
 

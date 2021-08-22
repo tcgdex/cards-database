@@ -59,6 +59,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper."
 	}
 }
 

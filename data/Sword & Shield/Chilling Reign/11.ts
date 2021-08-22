@@ -66,6 +66,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The turning of the seasons changes the color and scent of this Pokémon’s fur. People use it to mark the seasons."
 	}
 }
 

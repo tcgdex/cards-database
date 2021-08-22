@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It buries some of its prey in the sand to use as emergency meals when its hunts are unsuccessful."
 	}
 }
 

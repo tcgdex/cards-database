@@ -46,6 +46,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Timburr that have started carrying logs that are about three times their size are nearly ready to evolve."
 	}
 }
 

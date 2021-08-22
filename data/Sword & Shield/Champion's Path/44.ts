@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light."
 	}
 }
 

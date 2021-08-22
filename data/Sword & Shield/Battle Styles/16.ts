@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Although it’s called a guardian deity, it’s violent enough to crush anyone it sees as an enemy."
 	}
 }
 

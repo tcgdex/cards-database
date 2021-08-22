@@ -93,6 +93,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy."
 	}
 }
 

@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure."
 	}
 }
 

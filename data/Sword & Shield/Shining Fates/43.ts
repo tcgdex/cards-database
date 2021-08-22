@@ -58,6 +58,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Although the poison from its fangs isn’t that strong, it’s potent enough to weaken prey that gets caught in its web."
 	}
 }
 

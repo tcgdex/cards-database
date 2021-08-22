@@ -88,6 +88,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack."
 	}
 }
 

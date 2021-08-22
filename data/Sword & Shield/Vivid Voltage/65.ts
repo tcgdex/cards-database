@@ -92,6 +92,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting."
 	}
 }
 

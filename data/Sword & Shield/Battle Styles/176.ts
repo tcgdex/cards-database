@@ -17,7 +17,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "You can play this card only when it is the last card in your hand.\n\nPut a Rapid Strike Pokémon from your discard pile onto your Bench. If you do, draw 5 cards.",
+		en: "You can play this card only when it is the last card in your hand.\nPut a Rapid Strike Pokémon from your discard pile onto your Bench. If you do, draw 5 cards.",
 		fr: "Vous ne pouvez jouer cette carte que si c’est votre dernière carte en main.\n\n\nPlacez un Pokémon Mille Poings de votre pile de défausse sur votre Banc. Dans ce cas, piochez 5 cartes.",
 		es: "Puedes jugar esta carta solo cuando sea la última carta en tu mano.\n\nPon 1 Pokémon Golpe Fluido de tu pila de descartes en tu Banca. Si lo haces, roba 5 cartas.",
 		it: "Puoi giocare questa carta solo se è l’ultima carta che hai in mano.\n\nPrendi un Pokémon Colpo Rapido dalla tua pila degli scarti e mettilo in panchina. Se lo fai, pesca cinque carte.",
@@ -32,7 +32,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	illustrator: "Naoki Saito"
 }
 
 export default card

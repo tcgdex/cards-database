@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "D.A.G Inc.",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Psychic"],
@@ -80,7 +80,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		fr: "Roublenard",
-		en: "Thievul",
+		en: "​Thievul",
 		es: "Thievul",
 		it: "Thievul",
 		pt: "Thievul",
@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
 	}
 }
 

@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
 	}
 }
 

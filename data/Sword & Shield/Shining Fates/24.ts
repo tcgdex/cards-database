@@ -68,6 +68,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
 	}
 }
 

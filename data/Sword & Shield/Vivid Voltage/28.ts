@@ -88,6 +88,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
 	}
 }
 

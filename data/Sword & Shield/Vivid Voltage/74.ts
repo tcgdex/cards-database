@@ -90,6 +90,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Emitting powerful sound waves tires it out. Afterward, it won’t be able to fly for a little while."
 	}
 }
 

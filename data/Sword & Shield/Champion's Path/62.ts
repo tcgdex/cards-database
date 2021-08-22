@@ -33,6 +33,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Professor’s Research (Magnolia)"
 	}
 }
 

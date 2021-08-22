@@ -88,6 +88,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
 	}
 }
 

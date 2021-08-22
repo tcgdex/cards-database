@@ -58,6 +58,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Using its dorsal fin as a suction pad, it clings to a Mantine’s underside to scavenge for leftovers."
 	}
 }
 

@@ -77,6 +77,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil."
 	}
 }
 

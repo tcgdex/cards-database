@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole."
 	}
 }
 

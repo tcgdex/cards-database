@@ -67,6 +67,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it’s not that good at flying."
 	}
 }
 

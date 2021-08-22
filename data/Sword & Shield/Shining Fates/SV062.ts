@@ -80,7 +80,12 @@ const card: Card = {
 	}],
 
 	regulationMark: "D",
-	retreat: 0
+	retreat: 0,
+	stage: "Stage2",
+
+	description: {
+		en: "When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles."
+	}
 }
 
 export default card

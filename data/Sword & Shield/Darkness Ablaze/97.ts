@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries."
 	}
 }
 

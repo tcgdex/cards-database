@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves."
 	}
 }
 

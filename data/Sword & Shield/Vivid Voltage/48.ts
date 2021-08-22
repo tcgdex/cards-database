@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
 	}
 }
 

@@ -65,6 +65,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It’s said that Malamar’s hypnotic powers played a role in certain history-changing events."
 	}
 }
 

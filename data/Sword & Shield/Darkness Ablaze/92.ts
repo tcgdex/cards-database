@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes."
 	}
 }
 

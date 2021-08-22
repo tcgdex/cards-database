@@ -59,6 +59,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
 	}
 }
 

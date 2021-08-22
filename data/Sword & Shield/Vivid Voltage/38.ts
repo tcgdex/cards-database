@@ -63,6 +63,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Apparently the itch of its teething impels it to snap its jaws at anything in front of it."
 	}
 }
 

@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes."
 	}
 }
 

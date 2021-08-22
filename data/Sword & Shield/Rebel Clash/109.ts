@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Five of them are troopers, and one is the brass. The brass’s orders are absolute."
 	}
 }
 

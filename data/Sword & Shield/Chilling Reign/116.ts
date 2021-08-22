@@ -46,6 +46,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It was built 20 years ago by scientists who dreamed of exploring space. Their dreams have yet to come true."
 	}
 }
 

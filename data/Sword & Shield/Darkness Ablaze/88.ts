@@ -95,6 +95,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies."
 	}
 }
 

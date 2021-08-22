@@ -77,6 +77,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "One alone can emit only trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
 	}
 }
 

@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power."
 	}
 }
 

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saki Hayashiro",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Colorless"],
@@ -77,7 +77,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

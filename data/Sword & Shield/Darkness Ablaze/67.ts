@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they’re shouting!"
 	}
 }
 

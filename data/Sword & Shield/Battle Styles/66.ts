@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
 	}
 }
 

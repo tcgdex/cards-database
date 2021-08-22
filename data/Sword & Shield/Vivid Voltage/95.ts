@@ -77,6 +77,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power."
 	}
 }
 

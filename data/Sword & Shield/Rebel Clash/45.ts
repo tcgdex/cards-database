@@ -65,6 +65,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue."
 	}
 }
 

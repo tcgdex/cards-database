@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration."
 	}
 }
 

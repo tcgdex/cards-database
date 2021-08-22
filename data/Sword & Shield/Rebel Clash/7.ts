@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts."
 	}
 }
 

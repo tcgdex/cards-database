@@ -46,6 +46,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
 	}
 }
 

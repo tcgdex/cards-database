@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people."
 	}
 }
 

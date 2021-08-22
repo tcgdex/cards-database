@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
 	}
 }
 

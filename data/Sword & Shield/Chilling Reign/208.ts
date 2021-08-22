@@ -79,7 +79,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "VMAX",
+	illustrator: "Ryota Murayama"
 }
 
 export default card

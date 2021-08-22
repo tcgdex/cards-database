@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle."
 	}
 }
 

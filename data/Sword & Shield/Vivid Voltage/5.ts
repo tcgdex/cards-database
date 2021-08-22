@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Each of its three heads has its own thoughts. When they want to go in different directions, Exeggutor becomes unable to move."
 	}
 }
 

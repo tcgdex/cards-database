@@ -97,6 +97,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others."
 	}
 }
 
