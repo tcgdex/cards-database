@@ -48,7 +48,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+	}
 }
 
 export default card

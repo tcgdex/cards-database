@@ -63,6 +63,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws."
 	}
 }
 

@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When Reshiram’s tail flares, the heat energy moves the atmosphere and changes the world’s weather."
 	}
 }
 

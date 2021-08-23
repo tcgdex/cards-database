@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Joltik",
 		fr: "Statitik",
+		es: "Joltik",
+		it: "Joltik",
+		pt: "Joltik",
+		de: "Wattzapf"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Attach",
 				fr: "Accrochage",
+				es: "Pegarse",
+				it: "Appiccicoso",
+				pt: "Conectar",
+				de: "Festkleben"
 			},
 
 			damage: 10,

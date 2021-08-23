@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
 	}
 }
 

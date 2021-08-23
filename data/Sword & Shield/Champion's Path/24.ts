@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups."
 	}
 }
 

@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	}
 }
 

@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body."
 	}
 }
 

@@ -17,7 +17,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Search your deck for a Pokémon with 90 HP or less, reveal it, and put it into your hand. Shuffle your deck afterward.",
+		en: "Search your deck for a Pokémon with 90 HP or less, reveal it, and put it into your hand. Then, shuffle your deck.",
 		fr: "Cherchez dans votre deck un Pokémon avec 90 PV ou moins, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 		es: "Busca en tu baraja a un Pokémon con 90 PV o menos, enséñalo y ponlo en tu mano. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo un Pokémon con un massimo di 90 PV, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
@@ -32,7 +32,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	illustrator: "Ryo Ueda"
 }
 
 export default card

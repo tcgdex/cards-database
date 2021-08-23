@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Minccino",
 		fr: "Chinchidou",
+		es: "Minccino",
+		it: "Minccino",
+		pt: "Minccino",
+		de: "Picochilla"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tail Smack",
 				fr: "Coup de Queue",
+				es: "Bofetón Cola",
+				it: "Codasberla",
+				pt: "Ataque de Cauda",
+				de: "Schweifstreich"
 			},
 
 			damage: 20,

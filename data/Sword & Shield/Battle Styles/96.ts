@@ -73,6 +73,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Identifiable by its eerie howls, people a long time ago thought it was the grim reaper and feared it."
 	}
 }
 

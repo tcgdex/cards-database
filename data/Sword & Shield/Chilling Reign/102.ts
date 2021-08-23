@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Constant polishing makes the edge of the blade on its tail extremely sharp. It’s Zangoose’s archrival."
 	}
 }
 

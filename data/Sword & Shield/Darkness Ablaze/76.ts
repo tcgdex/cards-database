@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders."
 	}
 }
 

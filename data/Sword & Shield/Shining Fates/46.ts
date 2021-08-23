@@ -59,6 +59,12 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
 	}
 }
 

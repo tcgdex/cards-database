@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Cabriolaine",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				fr: "Ce Pokémon s’inflige 10 dégâts.",
 			},
 			damage: 30,
 

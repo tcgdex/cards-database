@@ -85,6 +85,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer."
 	}
 }
 

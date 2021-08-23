@@ -41,7 +41,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
-			damage: 130,
+			damage: "130+",
 
 		},
 	],

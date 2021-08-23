@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "With power equal to an excavator, it can dig through dense bedrock. It’s a huge help during tunnel construction."
 	}
 }
 

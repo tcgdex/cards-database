@@ -51,6 +51,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail."
 	}
 }
 

@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Chesnaught-EX",
-		fr: "Blindépique-EEX",
+		en: "Chesnaught EX",
+		fr: "Blindépique EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,7 +37,7 @@ const card: Card = {
 				en: "Flip 4 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
+				fr: "Ce Pokémon s’inflige 20 dégâts.",
 			},
 			damage: 120,
 

@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The defensive instinct of the males is strong. It’s when they’re protecting themselves or their partners that they unleash their full power."
 	}
 }
 

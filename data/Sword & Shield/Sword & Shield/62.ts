@@ -80,6 +80,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight."
 	}
 }
 

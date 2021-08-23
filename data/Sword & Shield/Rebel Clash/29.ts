@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!"
 	}
 }
 

@@ -60,6 +60,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask’s dark power."
 	}
 }
 

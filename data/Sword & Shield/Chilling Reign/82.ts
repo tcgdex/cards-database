@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It’s said that this Pokémon was formed when an ancient clay tablet was drawn to a vengeful spirit."
 	}
 }
 

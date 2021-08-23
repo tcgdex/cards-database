@@ -56,6 +56,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
 	}
 }
 

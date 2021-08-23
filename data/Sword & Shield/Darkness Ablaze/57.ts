@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors."
 	}
 }
 

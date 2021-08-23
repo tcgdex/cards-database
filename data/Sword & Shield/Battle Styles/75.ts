@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "When going all out, this Pokémon throws aside its concrete pillars and leaps at opponents to pummel them with its fists."
 	}
 }
 

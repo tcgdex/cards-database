@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden."
 	}
 }
 

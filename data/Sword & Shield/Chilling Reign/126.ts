@@ -75,6 +75,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it."
 	}
 }
 

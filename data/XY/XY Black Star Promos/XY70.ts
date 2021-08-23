@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Tyrantrum-EX",
-		fr: "Rexillius-EX",
+		en: "Tyrantrum EX",
+		fr: "Rexillius EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Croc Despotique",
 			},
 			effect: {
-				en: "Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon.",
+				en: "Damage from this Pokémon’s attacks isn’t affected by any effects on your opponent’s Active Pokémon.",
 				fr: "Les dégâts des attaques de ce Pokémon ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 		},

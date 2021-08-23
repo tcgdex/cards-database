@@ -87,6 +87,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
 	}
 }
 

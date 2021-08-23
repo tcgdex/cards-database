@@ -60,6 +60,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
 	}
 }
 

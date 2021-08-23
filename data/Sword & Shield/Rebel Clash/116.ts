@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago."
 	}
 }
 

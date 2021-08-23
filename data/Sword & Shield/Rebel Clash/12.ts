@@ -71,6 +71,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down."
 	}
 }
 

@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Its roar in battle shakes the ground like a tremor—or like an earthquake has struck."
 	}
 }
 

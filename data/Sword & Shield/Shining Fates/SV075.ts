@@ -60,7 +60,12 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "It stands in grasslands, watching the sun’s descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
+	}
 }
 
 export default card

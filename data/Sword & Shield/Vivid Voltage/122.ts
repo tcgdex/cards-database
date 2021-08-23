@@ -93,6 +93,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It’s not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill’s rampant digging."
 	}
 }
 

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Grenousse",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'Face",
+				fr: "Écras’Face",
 			},
 
 			damage: 10,

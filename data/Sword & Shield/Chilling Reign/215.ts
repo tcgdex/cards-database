@@ -32,7 +32,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	illustrator: "Ryuta Fuse"
 }
 
 export default card

@@ -57,6 +57,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
 	}
 }
 

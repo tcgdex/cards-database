@@ -90,6 +90,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away."
 	}
 }
 

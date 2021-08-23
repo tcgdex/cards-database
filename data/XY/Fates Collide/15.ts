@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Seel",
 		fr: "Otaria",
+		es: "Seel",
+		it: "Seel",
+		pt: "Seel",
+		de: "Jurob"
 	},
 	illustrator: "Hasuno",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Icy Snow",
 				fr: "Verglas",
+				es: "Nieve Helada",
+				it: "Geloneve",
+				pt: "Neve Congelada",
+				de: "Eisiger Schnee"
 			},
 
 			damage: 10,

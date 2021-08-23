@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon."
 	}
 }
 

@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu-EX",
-		fr: "Pikachu-EX",
+		en: "Pikachu EX",
+		fr: "Pikachu EX",
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,9 +33,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -46,13 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Overspark",
-				fr: "Max'Étincelle",
+				fr: "Max’Étincelle",
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to this Pokémon. This attack does 50 damage times the number of Energy cards you discarded.",
 				fr: "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],

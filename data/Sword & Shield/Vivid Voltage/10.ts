@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon."
 	}
 }
 

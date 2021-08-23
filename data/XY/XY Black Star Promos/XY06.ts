@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Xerneas",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -27,16 +27,18 @@ const card: Card = {
 			cost: [
 				"Darkness",
 			],
+
 			name: {
 				en: "Oblivion Wing",
-				fr: "Géo-Contrôle",
+				fr: "Mort-Ailes",
 			},
+
 			effect: {
 				en: "Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Choisissez 2 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez une carte Énergie Fairy dans votre deck et attachez-la au Pokémon choisi. Mélangez ensuite votre deck.",
+				fr: "Attachez une carte Énergie Darkness de votre pile de défausse à l’un de vos Pokémon de Banc.",
 			},
-			damage: 30,
 
+			damage: 30
 		},
 		{
 			cost: [
@@ -46,11 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Darkness Blade",
-				fr: "Javelot Arc-En-Ciel",
+				fr: "Lame Obscure",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can't attack during your next turn.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				en: "Flip a coin. If tails, this Pokémon can’t attack during your next turn.",
+				fr: "Lancez une pièce. Si c’est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 100,
 

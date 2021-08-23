@@ -87,6 +87,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It is said to emerge from darkness to steal the lives of those who become lost in mountains."
 	}
 }
 

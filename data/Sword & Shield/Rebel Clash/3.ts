@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
 	}
 }
 

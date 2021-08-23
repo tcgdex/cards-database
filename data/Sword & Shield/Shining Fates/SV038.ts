@@ -70,7 +70,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "One boy’s invention led to the development of many different machines that take advantage of Rotom’s unique capabilities."
+	}
 }
 
 export default card

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		es: "Cottonee",
+		it: "Cottonee",
+		pt: "Cottonee",
+		de: "Waumboll"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Fairy Wind",
 				fr: "Vent Féérique",
+				es: "Viento Feérico",
+				it: "Vento di Fata",
+				pt: "Vento de Fada",
+				de: "Feenbrise"
 			},
 
 			damage: 10,

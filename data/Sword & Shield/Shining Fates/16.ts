@@ -67,6 +67,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Once the vines on Zarude’s body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
 	}
 }
 

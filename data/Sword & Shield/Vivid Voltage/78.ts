@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
 	}
 }
 

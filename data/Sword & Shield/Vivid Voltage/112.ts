@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Living with a savage, seafaring people has toughened this Pokémon’s body so much that parts of it have turned to iron."
 	}
 }
 

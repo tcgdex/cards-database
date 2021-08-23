@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Drowzee",
 		fr: "Soporifik",
+		es: "Drowzee",
+		it: "Drowzee",
+		pt: "Drowzee",
+		de: "Traumato"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras’Face",
+				es: "Destructor",
+				it: "Botta",
+				pt: "Pancada",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -43,10 +51,18 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde Folie",
+				es: "Rayo Confuso",
+				it: "Stordiraggio",
+				pt: "Raio da Confusão",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				it: "Il Pokémon attivo del tuo avversario viene confuso.",
+				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 10,
 

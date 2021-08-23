@@ -60,6 +60,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere."
 	}
 }
 

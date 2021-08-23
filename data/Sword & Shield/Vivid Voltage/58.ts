@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity."
 	}
 }
 

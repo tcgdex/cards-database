@@ -65,6 +65,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey."
 	}
 }
 

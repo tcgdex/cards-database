@@ -68,6 +68,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is."
 	}
 }
 

@@ -93,6 +93,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It conceals itself in sandstorms that Flygon whip up and waits patiently for prey to appear."
 	}
 }
 

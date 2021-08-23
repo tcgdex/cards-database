@@ -69,6 +69,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is."
 	}
 }
 

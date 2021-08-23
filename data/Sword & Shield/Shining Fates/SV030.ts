@@ -74,7 +74,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight."
+	}
 }
 
 export default card

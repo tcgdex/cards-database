@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit."
 	}
 }
 

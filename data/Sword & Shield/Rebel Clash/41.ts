@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
 	}
 }
 

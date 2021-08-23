@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spritzee",
 		fr: "Fluvetin",
+		es: "Spritzee",
+		it: "Spritzee",
+		pt: "Spritzee",
+		de: "Parfi"
 	},
 	illustrator: "kirisAki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				es: "Toque",
+				it: "Battuta",
+				pt: "Pulso",
+				de: "Verprügler"
 			},
 
 			damage: 10,

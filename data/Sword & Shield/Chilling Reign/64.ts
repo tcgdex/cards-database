@@ -25,7 +25,7 @@ const card: Card = {
 	stage: 'Basic',
 
 	description: {
-		en: "Those who sleep holding cresselia's\nfeather are assured of joyful dreams. It is\nsaid to represent the crescent moon.",
+		en: "Those who sleep holding Cresselia’s feather are assured of joyful dreams. It is said to represent the crescent moon.",
 		fr: "Dormir aec une de ses plumes à la main\npermet de faire de beaux rêves. On le\nsurnomme « avatar d croissant de lune »."
 	},
 

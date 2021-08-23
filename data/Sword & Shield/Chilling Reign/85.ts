@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches."
 	}
 }
 

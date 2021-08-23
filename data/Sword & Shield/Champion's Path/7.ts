@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When it shares the infinite energy it creates, that being’s entire body will be overflowing with power."
 	}
 }
 

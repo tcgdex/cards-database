@@ -75,7 +75,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "Living in mud with a high iron content has given it a strong steel body."
+	}
 }
 
 export default card

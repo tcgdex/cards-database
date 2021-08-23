@@ -74,6 +74,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies."
 	}
 }
 

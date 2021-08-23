@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
 	}
 }
 

@@ -97,6 +97,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
 	}
 }
 

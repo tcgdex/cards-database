@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Surfing Pikachu",
 		fr: "Pikachu Surfeur",
+		es: "Pikachu Surf",
+		it: "Pikachu Surf",
+		pt: "Pikachu Surfista",
+		de: "Surfendes Pikachu"
 	},
 	illustrator: "Toshinao Aoki",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				es: "Surf",
+				it: "Surf",
+				pt: "Surfe",
+				de: "Surfer"
 			},
 
 			damage: 30,

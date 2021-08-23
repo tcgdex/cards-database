@@ -58,6 +58,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
 	}
 }
 

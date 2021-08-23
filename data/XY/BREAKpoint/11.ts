@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Arcanine",
 		fr: "Arcanin",
+		es: "Arcanine",
+		it: "Arcanine",
+		pt: "Arcanine",
+		de: "Arkani"
 	},
 	illustrator: "match",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Flop",
 				fr: "Flop",
+				es: "Vuelta",
+				it: "Tonfo",
+				pt: "Baque",
+				de: "Plumps"
 			},
 
 			damage: 30,
@@ -47,10 +55,18 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flammes",
+				es: "Lanzallamas",
+				it: "Lanciafiamme",
+				pt: "Lança-Chamas",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				es: "Descarta 1 Energía unida a este Pokémon.",
+				it: "Scarta un’Energia assegnata a questo Pokémon.",
+				pt: "Descarte uma Energia ligada a este Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 

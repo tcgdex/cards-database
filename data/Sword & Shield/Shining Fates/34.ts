@@ -77,6 +77,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "One boy’s invention led to the development of many different machines that take advantage of Rotom’s unique capabilities."
 	}
 }
 

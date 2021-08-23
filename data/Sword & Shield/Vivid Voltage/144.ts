@@ -91,6 +91,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "From its mouth, it fires the seeds of berries it has eaten. The scattered seeds give rise to new plants."
 	}
 }
 
