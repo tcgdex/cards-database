@@ -31,9 +31,11 @@ A Multilanguage Pokémon TCG Database with Cards Pictures and most of the inform
 
 ## Interact with the Database
 
-The easiest way to interact with the database is by using one of our SDKs _list below_.
+_documentation available at https://www.tcgdex.net/docs
 
-You can however build the API yourself by using our [compiler](https://github.com/tcgdex/compiler) or download the already [compiled database](https://github.com/tcgdex/distribution).
+- The easiest way to interact with the database is by using one of our SDKs _list below_.
+- You can also direcly use the endpoints at `api.tcgdex.net`.
+- You can build the API yourself by using our [compiler](https://github.com/tcgdex/compiler) or download the already [compiled database](https://github.com/tcgdex/distribution).
 
 ## SDKs / API Wrappers
 
