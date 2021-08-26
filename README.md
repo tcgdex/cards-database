@@ -31,7 +31,7 @@ A Multilanguage Pokémon TCG Database with Cards Pictures and most of the inform
 
 ## Interact with the Database
 
-_documentation available at https://www.tcgdex.net/docs
+_documentation available at https://www.tcgdex.net/docs_
 
 - The easiest way to interact with the database is by using one of our SDKs _list below_.
 - You can also direcly use the endpoints at `api.tcgdex.net`.
