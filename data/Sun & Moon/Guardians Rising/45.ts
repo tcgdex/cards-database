@@ -3,15 +3,15 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Vikavolt-GX",
-		fr: "Lucanon-GX",
-		es: "Vikavolt-GX",
-		it: "Vikavolt-GX",
-		pt: "Vikavolt-GX",
-		de: "Donarion-GX"
+		en: "Vikavolt GX",
+		fr: "Lucanon GX",
+		es: "Vikavolt GX",
+		it: "Vikavolt GX",
+		pt: "Vikavolt GX",
+		de: "Donarion GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

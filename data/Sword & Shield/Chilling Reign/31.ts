@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "With its claws, it leaves behind signs for its friends to find. The number of distinct signs is said to be over 500."
 	}
 }
 

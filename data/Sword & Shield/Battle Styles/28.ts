@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it."
 	}
 }
 

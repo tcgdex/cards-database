@@ -3,12 +3,12 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir-GX",
-		fr: "Gardevoir-GX",
-		es: "Gardevoir-GX",
-		it: "Gardevoir-GX",
-		pt: "Gardevoir-GX",
-		de: "Guardevoir-GX"
+		en: "Gardevoir GX",
+		fr: "Gardevoir GX",
+		es: "Gardevoir GX",
+		it: "Gardevoir GX",
+		pt: "Gardevoir GX",
+		de: "Guardevoir GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

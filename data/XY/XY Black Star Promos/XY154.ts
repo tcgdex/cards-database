@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Ho-Oh BREAK",
 		fr: "Ho-Oh TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		250,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Ho-Oh",
 		fr: "Ho-Oh",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -36,10 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shining Flame",
-				fr: "Règle des Évolutions TURBO",
+				fr: "Flamme Brillante",
 			},
 			effect: {
-				en: "This Pokémon can't use Shining Flame during your next turn.",
+				en: "This Pokémon can’t use Shining Flame during your next turn.",
+				fr: "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour."
 			},
 			damage: 160,
 
@@ -63,11 +68,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

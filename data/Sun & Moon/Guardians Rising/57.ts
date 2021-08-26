@@ -3,15 +3,15 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Toxapex-GX",
-		fr: "Prédastérie-GX",
-		es: "Toxapex-GX",
-		it: "Toxapex-GX",
-		pt: "Toxapex-GX",
-		de: "Aggrostella-GX"
+		en: "Toxapex GX",
+		fr: "Prédastérie GX",
+		es: "Toxapex GX",
+		it: "Toxapex GX",
+		pt: "Toxapex GX",
+		de: "Aggrostella GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,15 +3,15 @@ import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Reshiram-GX",
-		fr: "Reshiram-GX",
-		es: "Reshiram-GX",
-		it: "Reshiram-GX",
-		pt: "Reshiram-GX",
-		de: "Reshiram-GX"
+		en: "Reshiram GX",
+		fr: "Reshiram GX",
+		es: "Reshiram GX",
+		it: "Reshiram GX",
+		pt: "Reshiram GX",
+		de: "Reshiram GX"
 	},
 	illustrator: "PLANETA Otani",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

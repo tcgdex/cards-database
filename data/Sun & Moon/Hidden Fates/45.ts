@@ -3,7 +3,7 @@ import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
+		en: "Farfetch’d",
 		fr: "Canarticho",
 	},
 	illustrator: "Eri Yamaki",

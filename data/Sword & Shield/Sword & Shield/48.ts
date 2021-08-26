@@ -72,6 +72,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it."
 	}
 }
 

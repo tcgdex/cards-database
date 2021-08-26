@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Emitting ultrasonic cries, it floats on winds to travel great distances."
 	}
 }
 

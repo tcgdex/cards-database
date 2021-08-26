@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Burmy",
 		fr: "Cheniti",
+		es: "Burmy",
+		it: "Burmy",
+		pt: "Burmy",
+		de: "Burmy"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Hang Down",
 				fr: "Suspension",
+				es: "Prender",
+				it: "Tirar Giù",
+				pt: "Dependurar",
+				de: "Herunterhängen"
 			},
 
 			damage: 10,

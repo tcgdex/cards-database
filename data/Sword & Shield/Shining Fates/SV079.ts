@@ -65,7 +65,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+	}
 }
 
 export default card

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Arceus",
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Move as many Energy as you like from your Benched Pokémon to this Pokémon.",
-				fr: "Déplacez autant d'Énergies que vous voulez de vos Pokémon de Banc vers ce Pokémon.",
+				fr: "Déplacez autant d’Énergies que vous voulez de vos Pokémon de Banc vers ce Pokémon.",
 			},
 
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 30 more damage for each different type of basic Energy attached to this Pokémon.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

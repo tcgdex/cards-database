@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Bewear-GX",
-		fr: "Chelours-GX",
-		es: "Bewear-GX",
-		it: "Bewear-GX",
-		pt: "Bewear-GX",
-		de: "Kosturso-GX"
+		en: "Bewear GX",
+		fr: "Chelours GX",
+		es: "Bewear GX",
+		it: "Bewear GX",
+		pt: "Bewear GX",
+		de: "Kosturso GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

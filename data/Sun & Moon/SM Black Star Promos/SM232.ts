@@ -5,12 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu-GX",
-		fr: "Pikachu-GX",
-		es: "Pikachu-GX",
-		it: "Pikachu-GX",
-		pt: "Pikachu-GX",
-		de: "Pikachu-GX"
+		en: "Pikachu GX",
+		fr: "Pikachu GX",
+		es: "Pikachu GX",
+		it: "Pikachu GX",
+		pt: "Pikachu GX",
+		de: "Pikachu GX"
 	},
 
 	rarity: "Rare",

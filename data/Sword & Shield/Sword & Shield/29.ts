@@ -89,6 +89,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation."
 	}
 }
 

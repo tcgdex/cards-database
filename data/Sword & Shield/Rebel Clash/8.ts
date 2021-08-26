@@ -88,6 +88,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed."
 	}
 }
 

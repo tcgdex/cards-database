@@ -66,6 +66,13 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+	illustrator: "PLANETA Mochizuki",
+
+	description: {
+		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head."
 	}
 }
 

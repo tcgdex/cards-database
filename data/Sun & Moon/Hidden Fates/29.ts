@@ -44,9 +44,6 @@ const card: Card = {
 				en: "Tackle",
 				fr: "Rendez-Vous Tous",
 			},
-			effect: {
-				fr: "Une seule fois pendant votre tour, si ce Pokémon est défaussé du fait de l’effet de la carte Jessie et James, vous pouvez demander à votre adversaire de défausser une carte de sa main. (Cette carte est défaussée après l’effet de Jessie et James.)",
-			},
 			damage: 40,
 
 		},

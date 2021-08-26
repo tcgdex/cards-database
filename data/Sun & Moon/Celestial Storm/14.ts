@@ -3,15 +3,15 @@ import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Shiftry-GX",
-		fr: "Tengalice-GX",
-		es: "Shiftry-GX",
-		it: "Shiftry-GX",
-		pt: "Shiftry-GX",
-		de: "Tengulist-GX"
+		en: "Shiftry GX",
+		fr: "Tengalice GX",
+		es: "Shiftry GX",
+		it: "Shiftry GX",
+		pt: "Shiftry GX",
+		de: "Tengulist GX"
 	},
 	illustrator: "PLANETA Igarashi",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

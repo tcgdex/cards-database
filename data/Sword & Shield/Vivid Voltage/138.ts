@@ -71,6 +71,12 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
 	}
 }
 

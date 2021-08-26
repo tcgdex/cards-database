@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Greninja & Zoroark-GX",
-		fr: "Amphinobi et Zoroark-GX",
-		es: "Greninja y Zoroark-GX",
-		it: "Greninja e Zoroark-GX",
-		pt: "Greninja e Zoroark-GX",
-		de: "Quajutsu & Zoroark-GX"
+		en: "Greninja & Zoroark GX",
+		fr: "Amphinobi et Zoroark GX",
+		es: "Greninja y Zoroark GX",
+		it: "Greninja e Zoroark GX",
+		pt: "Greninja e Zoroark GX",
+		de: "Quajutsu & Zoroark GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

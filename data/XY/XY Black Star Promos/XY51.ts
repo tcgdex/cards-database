@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Kyogre",
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,9 +34,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -50,7 +50,7 @@ const card: Card = {
 				en: "Ocean Cyclone",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 80,
 

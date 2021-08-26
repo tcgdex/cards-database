@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Gamblast",
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

@@ -91,6 +91,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings."
 	}
 }
 

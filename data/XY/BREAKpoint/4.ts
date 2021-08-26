@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Seedot",
 		fr: "Grainipiot",
+		es: "Seedot",
+		it: "Seedot",
+		pt: "Seedot",
+		de: "Samurzel"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,

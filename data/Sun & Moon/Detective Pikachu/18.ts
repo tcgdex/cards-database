@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Slaking",
 		de: "Letarking"
 	},
-	illustrator: undefined,
+	illustrator: "Framestore",
 	rarity: "Rare",
 	category: "Pokemon",
 

@@ -99,6 +99,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey."
 	}
 }
 

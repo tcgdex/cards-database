@@ -58,6 +58,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It’s very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
 	}
 }
 

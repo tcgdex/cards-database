@@ -75,6 +75,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged."
 	}
 }
 

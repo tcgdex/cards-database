@@ -3,15 +3,15 @@ import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Mr. Mime-GX",
-		fr: "M. Mime-GX",
-		es: "Mr. Mime-GX",
-		it: "Mr. Mime-GX",
-		pt: "Mr. Mime-GX",
-		de: "Pantimos-GX"
+		en: "Mr. Mime GX",
+		fr: "M. Mime GX",
+		es: "Mr. Mime GX",
+		it: "Mr. Mime GX",
+		pt: "Mr. Mime GX",
+		de: "Pantimos GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

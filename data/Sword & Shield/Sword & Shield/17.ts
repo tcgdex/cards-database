@@ -63,6 +63,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "A constant collector of information, this Pokémon is very smart. Very strong is what it isn’t."
 	}
 }
 

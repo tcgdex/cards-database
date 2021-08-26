@@ -90,6 +90,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively."
 	}
 }
 

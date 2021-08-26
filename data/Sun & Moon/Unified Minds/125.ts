@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Umbreon & Darkrai-GX",
-		fr: "Noctali et Darkrai-GX",
-		es: "Umbreon y Darkrai-GX",
-		it: "Umbreon e Darkrai-GX",
-		pt: "Umbreon e Darkrai-GX",
-		de: "Nachtara & Darkrai-GX"
+		en: "Umbreon & Darkrai GX",
+		fr: "Noctali et Darkrai GX",
+		es: "Umbreon y Darkrai GX",
+		it: "Umbreon e Darkrai GX",
+		pt: "Umbreon e Darkrai GX",
+		de: "Nachtara & Darkrai GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

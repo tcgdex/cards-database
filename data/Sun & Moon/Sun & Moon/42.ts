@@ -3,15 +3,15 @@ import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Primarina-GX",
-		fr: "Oratoria-GX",
-		es: "Primarina-GX",
-		it: "Primarina-GX",
-		pt: "Primarina-GX",
-		de: "Primarene-GX"
+		en: "Primarina GX",
+		fr: "Oratoria GX",
+		es: "Primarina GX",
+		it: "Primarina GX",
+		pt: "Primarina GX",
+		de: "Primarene GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

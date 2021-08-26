@@ -3,15 +3,15 @@ import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Yveltal-GX",
-		fr: "Yveltal-GX",
-		es: "Yveltal-GX",
-		it: "Yveltal-GX",
-		pt: "Yveltal-GX",
-		de: "Yveltal-GX"
+		en: "Yveltal GX",
+		fr: "Yveltal GX",
+		es: "Yveltal GX",
+		it: "Yveltal GX",
+		pt: "Yveltal GX",
+		de: "Yveltal GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns."
 	}
 }
 

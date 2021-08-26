@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Hoopa",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],

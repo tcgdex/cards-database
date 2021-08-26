@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
 	}
 }
 

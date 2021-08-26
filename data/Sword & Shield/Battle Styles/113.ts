@@ -58,6 +58,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it’s really clean is…questionable."
 	}
 }
 

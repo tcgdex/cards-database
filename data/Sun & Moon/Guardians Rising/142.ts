@@ -3,12 +3,12 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Drampa-GX",
-		fr: "Draïeul-GX",
-		es: "Drampa-GX",
-		it: "Drampa-GX",
-		pt: "Drampa-GX",
-		de: "Sen-Long-GX"
+		en: "Drampa GX",
+		fr: "Draïeul GX",
+		es: "Drampa GX",
+		it: "Drampa GX",
+		pt: "Drampa GX",
+		de: "Sen-Long GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

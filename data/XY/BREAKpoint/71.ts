@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pancham",
 		fr: "Pandespiègle",
+		es: "Pancham",
+		it: "Pancham",
+		pt: "Pancham",
+		de: "Pam-Pam"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing Léger",
+				es: "Puño Ligero",
+				it: "Pugnetto",
+				pt: "Soco de Luz",
+				de: "Leichter Hieb"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Confront",
 				fr: "Confrontation",
+				es: "Confrontar",
+				it: "Confronto",
+				pt: "Confrontar",
+				de: "Konfrontieren"
 			},
 
 			damage: 20,

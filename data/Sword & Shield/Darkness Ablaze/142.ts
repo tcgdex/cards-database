@@ -84,6 +84,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest."
 	}
 }
 

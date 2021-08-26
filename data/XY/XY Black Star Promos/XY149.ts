@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Xerneas-EX",
-		fr: "Xerneas-EX",
+		en: "Xerneas EX",
+		fr: "Xerneas EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,8 +34,8 @@ const card: Card = {
 				fr: "Percée",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Explosion X",
 			},
 			effect: {
-				en: "This Pokémon can't use X Blast during your next turn.",
+				en: "This Pokémon can’t use X Blast during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Explosion X pendant votre prochain tour.",
 			},
 			damage: 140,

@@ -68,6 +68,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "While inside a cave, if you look up and see lots of heart-shaped marks lining the walls, it’s evidence that Woobat live there."
 	}
 }
 

@@ -94,6 +94,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
 	}
 }
 

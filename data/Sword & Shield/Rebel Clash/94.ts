@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The Farfetch’d of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
 	}
 }
 

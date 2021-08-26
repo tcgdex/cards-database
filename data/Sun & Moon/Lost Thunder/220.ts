@@ -3,12 +3,12 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Suicune-GX",
-		fr: "Suicune-GX",
-		es: "Suicune-GX",
-		it: "Suicune-GX",
-		pt: "Suicune-GX",
-		de: "Suicune-GX"
+		en: "Suicune GX",
+		fr: "Suicune GX",
+		es: "Suicune GX",
+		it: "Suicune GX",
+		pt: "Suicune GX",
+		de: "Suicune GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

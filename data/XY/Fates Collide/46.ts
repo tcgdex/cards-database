@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Riolu",
 		fr: "Riolu",
+		es: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+		de: "Riolu"
 	},
 	illustrator: "match",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Smash Punch",
 				fr: "Poing Écrasant",
+				es: "Puño Aplastante",
+				it: "Devastapugno",
+				pt: "Soco Destruidor",
+				de: "Schmetterschlag"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 

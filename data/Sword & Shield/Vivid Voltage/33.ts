@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
 	}
 }
 

@@ -56,6 +56,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
 	}
 }
 

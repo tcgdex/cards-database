@@ -67,6 +67,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides."
 	}
 }
 

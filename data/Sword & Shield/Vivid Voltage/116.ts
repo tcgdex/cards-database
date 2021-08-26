@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If you anger it, it will do more than rampage. It will also burst out strong magnetism, causing nearby machines to break."
 	}
 }
 

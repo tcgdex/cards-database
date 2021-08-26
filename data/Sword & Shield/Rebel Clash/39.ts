@@ -58,6 +58,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
 	}
 }
 

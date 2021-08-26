@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It can instantly create many diamonds by compressing the carbon in the air between its hands."
 	}
 }
 

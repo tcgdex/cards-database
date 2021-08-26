@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Chikorita",
 		fr: "Germignon",
+		es: "Chikorita",
+		it: "Chikorita",
+		pt: "Chikorita",
+		de: "Endivie"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,10 +51,18 @@ const card: Card = {
 			name: {
 				en: "Blot",
 				fr: "Pâté",
+				es: "Absorción",
+				it: "Macchia",
+				pt: "Borrão",
+				de: "Klecks"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				es: "Cura 10 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 10 danni.",
+				pt: "Cure 10 de danos deste Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 

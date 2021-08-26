@@ -68,6 +68,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "There’s a proverb that says, “Shun the house where Shuppet gather in the growing dusk.”"
 	}
 }
 

@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
 	}
 }
 

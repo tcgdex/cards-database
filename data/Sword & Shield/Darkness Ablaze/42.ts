@@ -85,6 +85,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail."
 	}
 }
 

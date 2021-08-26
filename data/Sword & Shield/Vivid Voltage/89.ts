@@ -88,6 +88,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The same rocks that form its body have been found in ground layers around the world."
 	}
 }
 

@@ -3,15 +3,15 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Pikachu et Zekrom-GX",
-		en: "Pikachu & Zekrom-GX",
-		es: "Pikachu y Zekrom-GX",
-		it: "Pikachu e Zekrom-GX",
-		pt: "Pikachu e Zekrom-GX",
-		de: "Pikachu & Zekrom-GX"
+		fr: "Pikachu et Zekrom GX",
+		en: "Pikachu & Zekrom GX",
+		es: "Pikachu y Zekrom GX",
+		it: "Pikachu e Zekrom GX",
+		pt: "Pikachu e Zekrom GX",
+		de: "Pikachu & Zekrom GX"
 	},
 	illustrator: "kawayoo",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

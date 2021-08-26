@@ -54,7 +54,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "VMAX",
+	illustrator: "PLANETA Tsuji"
 }
 
 export default card

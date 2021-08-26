@@ -3,12 +3,12 @@ import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "White Kyurem-GX",
-		fr: "Kyurem Blanc-GX",
-		es: "Kyurem Blanco-GX",
-		it: "Kyurem Bianco-GX",
-		pt: "Kyurem Branco-GX",
-		de: "Weißes Kyurem-GX"
+		en: "White Kyurem GX",
+		fr: "Kyurem Blanc GX",
+		es: "Kyurem Blanco GX",
+		it: "Kyurem Bianco GX",
+		pt: "Kyurem Branco GX",
+		de: "Weißes Kyurem GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

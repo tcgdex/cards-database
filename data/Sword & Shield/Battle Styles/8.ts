@@ -73,6 +73,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The faint scent that emanates from its full blossom entices bug Pokémon to it."
 	}
 }
 

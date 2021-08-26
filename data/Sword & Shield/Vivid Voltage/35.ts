@@ -91,6 +91,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody."
 	}
 }
 

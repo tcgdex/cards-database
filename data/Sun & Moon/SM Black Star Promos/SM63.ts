@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Salazzle-GX",
-		fr: "Malamandre-GX",
-		es: "Salazzle-GX",
-		it: "Salazzle-GX",
-		pt: "Salazzle-GX",
-		de: "Amfira-GX"
+		en: "Salazzle GX",
+		fr: "Malamandre GX",
+		es: "Salazzle GX",
+		it: "Salazzle GX",
+		pt: "Salazzle GX",
+		de: "Amfira GX"
 	},
 
 	illustrator: "5ban Graphics",

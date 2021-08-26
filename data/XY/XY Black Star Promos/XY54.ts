@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Blaziken-EX",
-		fr: "Braségali-EEX",
+		en: "Blaziken EX",
+		fr: "Braségali EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 20 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Fire attachée à ce Pokémon. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 100,
+			damage: "100＋",
 
 		},
 	],

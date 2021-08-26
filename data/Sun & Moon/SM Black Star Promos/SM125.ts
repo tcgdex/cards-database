@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Naganadel-GX",
-		fr: "Mandrillon-GX",
-		es: "Naganadel-GX",
-		it: "Naganadel-GX",
-		pt: "Naganadel-GX",
-		de: "Agoyon-GX"
+		en: "Naganadel GX",
+		fr: "Mandrillon GX",
+		es: "Naganadel GX",
+		it: "Naganadel GX",
+		pt: "Naganadel GX",
+		de: "Agoyon GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

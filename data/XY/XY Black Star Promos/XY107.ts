@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-EX",
-		fr: "Mewtwo-EX",
+		en: "Mewtwo EX",
+		fr: "Mewtwo EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,9 +33,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 damage times the amount of Psychic Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Psychic attachées à ce Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies Psychic attachées à ce Pokémon.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -46,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				fr: "Change Dégâts",
+				en: "Damage Change"
 			},
 			effect: {
 				fr: "Échangez tous les marqueurs de dégâts de ce Pokémon avec ceux du Pokémon Actif de votre adversaire.",
+				en: "Switch all damage counters on this Pokémon with those on your opponent’s Active Pokémon."
 			},
 
 		},

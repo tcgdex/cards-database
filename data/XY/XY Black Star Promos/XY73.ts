@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza-EX",
-		fr: "Rayquaza-EX",
+		en: "Rayquaza EX",
+		fr: "Rayquaza EX",
 	},
 	illustrator: "PLANETA",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -47,7 +47,7 @@ const card: Card = {
 				en: "Dragon Strike",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can't use Dragon Strike during your next turn.",
+				en: "Flip a coin. If tails, this Pokémon can’t use Dragon Strike during your next turn.",
 			},
 			damage: 130,
 

@@ -3,15 +3,15 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Zeraora-GX",
-		fr: "Zeraora-GX",
-		es: "Zeraora-GX",
-		it: "Zeraora-GX",
-		pt: "Zeraora-GX",
-		de: "Zeraora-GX"
+		en: "Zeraora GX",
+		fr: "Zeraora GX",
+		es: "Zeraora GX",
+		it: "Zeraora GX",
+		pt: "Zeraora GX",
+		de: "Zeraora GX"
 	},
 	illustrator: "PLANETA Otani",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

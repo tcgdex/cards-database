@@ -3,12 +3,12 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Tapu Fini-GX",
-		fr: "Tokopisco-GX",
-		es: "Tapu Fini-GX",
-		it: "Tapu Fini-GX",
-		pt: "Tapu Fini-GX",
-		de: "Kapu-Kime-GX"
+		en: "Tapu Fini GX",
+		fr: "Tokopisco GX",
+		es: "Tapu Fini GX",
+		it: "Tapu Fini GX",
+		pt: "Tapu Fini GX",
+		de: "Kapu-Kime GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

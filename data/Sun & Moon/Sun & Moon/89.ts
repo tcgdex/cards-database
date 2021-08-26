@@ -3,15 +3,15 @@ import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Solgaleo-GX",
-		fr: "Solgaleo-GX",
-		es: "Solgaleo-GX",
-		it: "Solgaleo-GX",
-		pt: "Solgaleo-GX",
-		de: "Solgaleo-GX"
+		en: "Solgaleo GX",
+		fr: "Solgaleo GX",
+		es: "Solgaleo GX",
+		it: "Solgaleo GX",
+		pt: "Solgaleo GX",
+		de: "Solgaleo GX"
 	},
 	illustrator: "PLANETA",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Keldeo-GX",
-		fr: "Keldeo-GX",
-		es: "Keldeo-GX",
-		it: "Keldeo-GX",
-		pt: "Keldeo-GX",
-		de: "Keldeo-GX"
+		en: "Keldeo GX",
+		fr: "Keldeo GX",
+		es: "Keldeo GX",
+		it: "Keldeo GX",
+		pt: "Keldeo GX",
+		de: "Keldeo GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

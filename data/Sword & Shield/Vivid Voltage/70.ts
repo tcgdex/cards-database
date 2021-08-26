@@ -91,6 +91,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole."
 	}
 }
 

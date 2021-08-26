@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Robustheit"
 			},
 			effect: {
-				en: "If this Pokémon has full HP and would be Knocked Out by damage from an attack, this Pokémon is not Knocked Out and its remaining HP becomes 10 instead.",
+				en: "If this Pokémon has full HP and would be Knocked Out by damage from an attack, this Pokémon is not Knocked Out, and its remaining HP becomes 10.",
 				fr: "Si ce Pokémon a tous ses PV et doit être mis K.O. par les dégâts d’une attaque, ce Pokémon n’est pas mis K.O. mais il ne lui reste que 10 PV.",
 				es: "Si este Pokémon tiene todos sus PV y fuese a quedar Fuera de Combate por el daño de un ataque, no queda Fuera de Combate y sus PV restantes pasan a ser 10.",
 				it: "Se questo Pokémon ha tutti i PV e sta per essere messo K.O. dal danno di un attacco, non viene messo K.O. e i suoi PV rimanenti diventano 10.",

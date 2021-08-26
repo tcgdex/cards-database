@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Aurorus-EX",
-		fr: "Dragmara-EX",
+		en: "Aurorus EX",
+		fr: "Dragmara EX",
 	},
 	illustrator: "Toyste Beach",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,8 +29,8 @@ const card: Card = {
 				fr: "Amulette Gelée",
 			},
 			effect: {
-				en: "Each of your Pokémon that has any Water Energy attached to it can't be Paralyzed. (If any of those Pokémon are Paralyzed, remove that Special Condition.)",
-				fr: "Aucun de vos Pokémon auquel de l'Énergie Water est attachée ne peut être Paralysé. (Si l'un de ces Pokémon est déjà Paralysé, retirez cet État Spécial.)",
+				en: "Each of your Pokémon that has any Water Energy attached to it can’t be Paralyzed. (If any of those Pokémon are Paralyzed, remove that Special Condition.)",
+				fr: "Aucun de vos Pokémon auquel de l’Énergie Water est attachée ne peut être Paralysé. (Si l’un de ces Pokémon est déjà Paralysé, retirez cet État Spécial.)",
 			},
 		},
 	],

@@ -91,6 +91,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
 	}
 }
 

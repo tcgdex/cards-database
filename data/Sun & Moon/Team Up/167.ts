@@ -3,12 +3,12 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Incineroar-GX",
-		fr: "Félinferno-GX",
-		es: "Incineroar-GX",
-		it: "Incineroar-GX",
-		pt: "Incineroar-GX",
-		de: "Fuegro-GX"
+		en: "Incineroar GX",
+		fr: "Félinferno GX",
+		es: "Incineroar GX",
+		it: "Incineroar GX",
+		pt: "Incineroar GX",
+		de: "Fuegro GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

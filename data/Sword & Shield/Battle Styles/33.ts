@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It stores energy by sleeping at underwater depths at which no other life forms can survive."
 	}
 }
 

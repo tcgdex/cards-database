@@ -3,7 +3,7 @@ import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Thievul",
+		en: "​Thievul",
 		fr: "Roublenard",
 		es: "​Thievul",
 		it: "Thievul",
@@ -87,6 +87,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
 	}
 }
 

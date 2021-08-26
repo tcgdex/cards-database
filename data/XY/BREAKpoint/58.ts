@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Espurr",
 		fr: "Psystigri",
+		es: "Espurr",
+		it: "Espurr",
+		pt: "Espurr",
+		de: "Psiau"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 10,

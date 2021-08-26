@@ -92,6 +92,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it."
 	}
 }
 

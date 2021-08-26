@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Chevroum",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Flip a coin for each Grass Energy attached to this Pokémon. This attack does 30 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Grass attachée à ce Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

@@ -3,12 +3,12 @@ import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Entei-GX",
-		fr: "Entei-GX",
-		es: "Entei-GX",
-		it: "Entei-GX",
-		pt: "Entei-GX",
-		de: "Entei-GX"
+		en: "Entei GX",
+		fr: "Entei GX",
+		es: "Entei GX",
+		it: "Entei GX",
+		pt: "Entei GX",
+		de: "Entei GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

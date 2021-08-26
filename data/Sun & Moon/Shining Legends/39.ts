@@ -3,15 +3,15 @@ import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-GX",
-		fr: "Mewtwo-GX",
-		es: "Mewtwo-GX",
-		it: "Mewtwo-GX",
-		pt: "Mewtwo-GX",
-		de: "Mewtu-GX"
+		en: "Mewtwo GX",
+		fr: "Mewtwo GX",
+		es: "Mewtwo GX",
+		it: "Mewtwo GX",
+		pt: "Mewtwo GX",
+		de: "Mewtu GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

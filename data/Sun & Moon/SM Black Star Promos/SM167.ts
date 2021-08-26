@@ -3,15 +3,15 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Celebi et Florizarre-GX",
-		en: "Celebi & Venusaur-GX",
-		es: "Celebi y Venusaur-GX",
-		it: "Celebi e Venusaur-GX",
-		pt: "Celebi e Venusaur-GX",
-		de: "Celebi & Bisaflor-GX"
+		fr: "Celebi et Florizarre GX",
+		en: "Celebi & Venusaur GX",
+		es: "Celebi y Venusaur GX",
+		it: "Celebi e Venusaur GX",
+		pt: "Celebi e Venusaur GX",
+		de: "Celebi & Bisaflor GX"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

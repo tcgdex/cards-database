@@ -87,6 +87,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It’s capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
 	}
 }
 

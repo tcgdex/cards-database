@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Yveltal",
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,8 +34,8 @@ const card: Card = {
 				fr: "Crash Aérien",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
+				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 50,
 
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "If your opponent has Xerneas (including Xerneas-EX) in play, this attack does 40 more damage.",
 				fr: "Si votre adversaire a Xerneas (y compris Xerneas-EX) en jeu, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80＋",
 
 		},
 	],
@@ -68,7 +68,7 @@ const card: Card = {
 	resistances: [
 		{
 			type: "Fighting",
-			value: "-20"
+			value: "−20"
 		},
 	],
 	retreat: 2,

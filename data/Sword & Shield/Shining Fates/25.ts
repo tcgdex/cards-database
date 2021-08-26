@@ -67,6 +67,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
 	}
 }
 

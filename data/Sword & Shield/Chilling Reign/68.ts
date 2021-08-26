@@ -71,6 +71,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Slurpuff’s fur contains a lot of air, making it soft to the touch and lighter than it looks."
 	}
 }
 

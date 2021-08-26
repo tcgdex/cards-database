@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Team-Wechsel"
 	},
 
-	illustrator: undefined,
+	illustrator: "Yoshinobu Saito",
 	rarity: "Secret Rare",
 	category: "Trainer",
 	set: Set,

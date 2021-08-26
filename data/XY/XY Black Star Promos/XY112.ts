@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Jirachi",
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

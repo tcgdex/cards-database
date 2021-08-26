@@ -78,6 +78,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
 	}
 }
 

@@ -77,6 +77,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
 	}
 }
 

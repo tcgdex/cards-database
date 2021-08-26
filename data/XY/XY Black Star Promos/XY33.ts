@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Trovato",
 	},
 	illustrator: "Ken Sugimori",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,
@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+		en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
 	},
 	trainerType: "Supporter",
 

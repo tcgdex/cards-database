@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Electabuzz",
 		fr: "Élektek",
+		es: "Electabuzz",
+		it: "Electabuzz",
+		pt: "Electabuzz",
+		de: "Elektek"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
-				fr: "Coud'Phalange",
+				fr: "Coud’Phalange",
+				es: "Puño con Nudillos",
+				it: "Nocca-Pugno",
+				pt: "Soco com Punho",
+				de: "Knöchelhieb"
 			},
 
 			damage: 20,

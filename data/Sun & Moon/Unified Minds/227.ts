@@ -3,12 +3,12 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Mawile-GX",
-		fr: "Mysdibule-GX",
-		es: "Mawile-GX",
-		it: "Mawile-GX",
-		pt: "Mawile-GX",
-		de: "Flunkifer-GX"
+		en: "Mawile GX",
+		fr: "Mysdibule GX",
+		es: "Mawile GX",
+		it: "Mawile GX",
+		pt: "Mawile GX",
+		de: "Flunkifer GX"
 	},
 	illustrator: "ConceptLab",
 	rarity: "Ultra Rare",

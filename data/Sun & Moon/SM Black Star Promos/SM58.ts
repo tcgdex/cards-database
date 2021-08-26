@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Necrozma-GX",
-		fr: "Necrozma-GX",
-		es: "Necrozma-GX",
-		it: "Necrozma-GX",
-		pt: "Necrozma-GX",
-		de: "Necrozma-GX"
+		en: "Necrozma GX",
+		fr: "Necrozma GX",
+		es: "Necrozma GX",
+		it: "Necrozma GX",
+		pt: "Necrozma GX",
+		de: "Necrozma GX"
 	},
 
 	illustrator: "5ban Graphics",

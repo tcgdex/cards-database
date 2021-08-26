@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Glameow",
 		fr: "Chaglam",
+		es: "Glameow",
+		it: "Glameow",
+		pt: "Glameow",
+		de: "Charmian"
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Act Cute",
 				fr: "Si Mignon",
+				es: "Hacerse el Lindo",
+				it: "Furbetto",
+				pt: "Atuação Fofa",
+				de: "Kokettieren"
 			},
 			effect: {
 				en: "Your opponent puts a card from his or her hand on the bottom of his or her deck.",
 				fr: "Votre adversaire place une carte de sa main en dessous de son deck.",
+				es: "Tu rival pone 1 carta de su mano en la parte inferior de su baraja.",
+				it: "Il tuo avversario prende una carta dalla sua mano e la aggiunge in fondo al suo mazzo.",
+				pt: "Seu oponente coloca um card da mão dele(a) no fundo de seu próprio baralho.",
+				de: "Dein Gegner legt 1 seiner Handkarten unter sein Deck."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 20,

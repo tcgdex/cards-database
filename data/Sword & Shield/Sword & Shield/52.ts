@@ -85,6 +85,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet."
 	}
 }
 

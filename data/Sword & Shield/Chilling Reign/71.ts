@@ -51,6 +51,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
 	}
 }
 

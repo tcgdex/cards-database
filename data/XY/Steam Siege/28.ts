@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shellos",
 		fr: "Sancoki",
+		es: "Shellos",
+		it: "Shellos",
+		pt: "Shellos",
+		de: "Schalellos"
 	},
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				es: "Golpe de Lluvia",
+				it: "Spruzzapioggia",
+				pt: "Chuva Borrifante",
+				de: "Regenplatscher"
 			},
 
 			damage: 10,

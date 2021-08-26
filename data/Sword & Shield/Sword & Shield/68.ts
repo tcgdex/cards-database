@@ -80,6 +80,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them."
 	}
 }
 

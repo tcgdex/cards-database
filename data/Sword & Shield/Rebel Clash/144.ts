@@ -83,6 +83,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest."
 	}
 }
 

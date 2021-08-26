@@ -3,15 +3,15 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Magcargo-GX",
-		fr: "Volcaropod-GX",
-		es: "Magcargo-GX",
-		it: "Magcargo-GX",
-		pt: "Magcargo-GX",
-		de: "Magcargo-GX"
+		en: "Magcargo GX",
+		fr: "Volcaropod GX",
+		es: "Magcargo GX",
+		it: "Magcargo GX",
+		pt: "Magcargo GX",
+		de: "Magcargo GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

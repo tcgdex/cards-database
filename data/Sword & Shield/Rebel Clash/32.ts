@@ -86,6 +86,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "This Pokémon appears just before someone passes away, so it’s feared as an emissary of death."
 	}
 }
 

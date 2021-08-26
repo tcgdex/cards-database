@@ -3,15 +3,15 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh-GX",
-		fr: "Ho-Oh-GX",
-		es: "Ho-Oh-GX",
-		it: "Ho-Oh-GX",
-		pt: "Ho-Oh-GX",
-		de: "Ho-Oh-GX"
+		en: "Ho-Oh GX",
+		fr: "Ho-Oh GX",
+		es: "Ho-Oh GX",
+		it: "Ho-Oh GX",
+		pt: "Ho-Oh GX",
+		de: "Ho-Oh GX"
 	},
 	illustrator: "PLANETA",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Metagross-EX",
-		fr: "Métalosse-EEX",
+		en: "Metagross EX",
+		fr: "Métalosse EX",
 	},
 	illustrator: "PLANETA",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may move a Metal Energy from 1 of your Benched Pokémon to this Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie Metal de l'un de vos Pokémon de Banc vers ce Pokémon.",
+				fr: "Vous pouvez déplacer une Énergie Metal de l’un de vos Pokémon de Banc vers ce Pokémon.",
 			},
 			damage: 20,
 
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],
@@ -67,7 +67,7 @@ const card: Card = {
 	resistances: [
 		{
 			type: "Psychic",
-			value: "-20"
+			value: "−20"
 		},
 	],
 	retreat: 4,

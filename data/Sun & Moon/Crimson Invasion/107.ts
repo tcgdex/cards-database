@@ -3,12 +3,12 @@ import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Alolan Exeggutor-GX",
-		fr: "Noadkoko d’Alola-GX",
-		es: "Exeggutor de Alola-GX",
-		it: "Exeggutor di Alola-GX",
-		pt: "Exeggutor de Alola-GX",
-		de: "Alola-Kokowei-GX"
+		en: "Alolan Exeggutor GX",
+		fr: "Noadkoko d’Alola GX",
+		es: "Exeggutor de Alola GX",
+		it: "Exeggutor di Alola GX",
+		pt: "Exeggutor de Alola GX",
+		de: "Alola-Kokowei GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

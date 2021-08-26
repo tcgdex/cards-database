@@ -91,6 +91,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide."
 	}
 }
 

@@ -3,11 +3,11 @@ import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-GX",
+		en: "Mewtwo GX",
 		fr: "Mewtwo-GX",
 	},
 	illustrator: "aky CG Works",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -44,11 +44,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psycrush-GX",
+				en: "Psycrush GX",
 				fr: "Écrasement Psy-GX",
 			},
 			effect: {
-				en: "Discard all Energy from your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)",
+				en: "Discard all Energy from your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
 				fr: "Défaussez toute l’Énergie du Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 120,

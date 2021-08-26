@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Machamp",
 		de: "Machomei"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Rare",
 	category: "Pokemon",
 

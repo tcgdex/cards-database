@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Fletchinder",
 		fr: "Braisillon",
+		es: "Fletchinder",
+		it: "Fletchinder",
+		pt: "Fletchinder",
+		de: "Dartignis"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Glide",
 				fr: "Glissement",
+				es: "Planeo",
+				it: "Aliante",
+				pt: "Planeio",
+				de: "Gleiten"
 			},
 
 			damage: 30,

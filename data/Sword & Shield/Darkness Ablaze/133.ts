@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "You shouldn’t get close to the child when it’s playing outside its mother’s pouch. Its mother is always nearby watching over it."
 	}
 }
 

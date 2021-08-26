@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Naganadel-GX",
-		fr: "Mandrillon-GX",
-		es: "Naganadel-GX",
-		it: "Naganadel-GX",
-		pt: "Naganadel-GX",
-		de: "Agoyon-GX"
+		en: "Naganadel GX",
+		fr: "Mandrillon GX",
+		es: "Naganadel GX",
+		it: "Naganadel GX",
+		pt: "Naganadel GX",
+		de: "Agoyon GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "ConceptLab",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,

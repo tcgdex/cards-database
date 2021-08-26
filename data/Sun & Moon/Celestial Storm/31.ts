@@ -3,15 +3,15 @@ import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Articuno-GX",
-		fr: "Artikodin-GX",
-		es: "Articuno-GX",
-		it: "Articuno-GX",
-		pt: "Articuno-GX",
-		de: "Arktos-GX"
+		en: "Articuno GX",
+		fr: "Artikodin GX",
+		es: "Articuno GX",
+		it: "Articuno GX",
+		pt: "Articuno GX",
+		de: "Arktos GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

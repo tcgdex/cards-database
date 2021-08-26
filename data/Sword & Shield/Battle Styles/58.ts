@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move."
 	}
 }
 

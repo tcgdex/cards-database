@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Persian-GX",
-		fr: "Persian-GX",
-		es: "Persian-GX",
-		it: "Persian-GX",
-		pt: "Persian-GX",
-		de: "Snobilikat-GX"
+		en: "Persian GX",
+		fr: "Persian GX",
+		es: "Persian GX",
+		it: "Persian GX",
+		pt: "Persian GX",
+		de: "Snobilikat GX"
 	},
 	illustrator: "PLANETA Igarashi",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

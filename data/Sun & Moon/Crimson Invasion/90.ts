@@ -3,15 +3,15 @@ import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Silvally-GX",
-		fr: "Silvallié-GX",
-		es: "Silvally-GX",
-		it: "Silvally-GX",
-		pt: "Silvally-GX",
-		de: "Amigento-GX"
+		en: "Silvally GX",
+		fr: "Silvallié GX",
+		es: "Silvally GX",
+		it: "Silvally GX",
+		pt: "Silvally GX",
+		de: "Amigento GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

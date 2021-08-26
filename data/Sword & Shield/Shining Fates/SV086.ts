@@ -66,7 +66,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "Living with a savage, seafaring people has toughened this Pokémon’s body so much that parts of it have turned to iron."
+	}
 }
 
 export default card

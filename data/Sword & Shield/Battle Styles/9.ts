@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
 	}
 }
 

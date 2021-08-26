@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
+		es: "Monferno",
+		it: "Monferno",
+		pt: "Monferno",
+		de: "Panpyro"
 	},
 	illustrator: "Mizue",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -46,6 +54,10 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				es: "Llama",
+				it: "Fiammata",
+				pt: "Labareda",
+				de: "Flackern"
 			},
 
 			damage: 30,

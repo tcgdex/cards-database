@@ -56,6 +56,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "In contrast to its appearance, it’s quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
 	}
 }
 

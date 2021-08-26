@@ -85,6 +85,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
 	}
 }
 

@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph."
 	}
 }
 

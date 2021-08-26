@@ -97,6 +97,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
 	}
 }
 

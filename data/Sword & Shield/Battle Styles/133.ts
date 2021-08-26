@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "The Single Strike Pokémon this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)\n\nFighting Furious Anger 10+\nThis attack does 10 more damage for each damage counter on this Pokémon.",
+		en: "The Single Strike Pokémon this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)",
 		fr: "Le Pokémon Poing Final auquel cette carte est attachée peut utiliser l’attaque sur cette carte. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser cette attaque.)\n\n\nFighting Colère Furieuse 10+\nCette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
 		es: "El Pokémon Golpe Brusco al que esté unida esta carta puede usar el ataque de esta carta. (Sigues necesitando las Energías necesarias para usar este ataque).\n\nFighting \nIra Furiosa 10+\nEste ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 		it: "Il Pokémon Colpo Singolo a cui è assegnata questa carta può usare l’attacco di questa carta. Devi comunque avere l’Energia necessaria per usare questo attacco.\n\nFighting Rabbia Furiosa 10+\nQuesto attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",

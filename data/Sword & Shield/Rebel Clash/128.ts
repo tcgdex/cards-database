@@ -96,6 +96,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there’s nothing left but scraps."
 	}
 }
 

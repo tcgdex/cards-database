@@ -59,6 +59,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
 	}
 }
 

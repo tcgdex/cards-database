@@ -79,6 +79,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go."
 	}
 }
 

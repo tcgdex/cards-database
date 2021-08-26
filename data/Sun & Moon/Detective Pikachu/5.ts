@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Charizard",
 		de: "Glurak"
 	},
-	illustrator: undefined,
+	illustrator: "Framestore",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 

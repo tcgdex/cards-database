@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Leuphorie",
 	},
 	illustrator: "Akira Komayama",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -39,7 +39,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 		{
@@ -50,7 +50,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nurse's Egg",
+				en: "Nurse’s Egg",
 				fr: "Œuf Soin",
 			},
 			effect: {

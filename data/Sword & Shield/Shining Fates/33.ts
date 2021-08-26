@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Luxray’s ability to see through objects comes in handy when it’s scouting for danger."
 	}
 }
 

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Purugly",
 		fr: "Chaffreux",
+		es: "Purugly",
+		it: "Purugly",
+		pt: "Purugly",
+		de: "Shnurgarst"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -34,6 +38,10 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 30,
@@ -48,10 +56,18 @@ const card: Card = {
 			name: {
 				en: "Nyan Press",
 				fr: "Charge Miaou",
+				es: "Presión Nyan",
+				it: "Pressa Felina",
+				pt: "Aperto do Nyan",
+				de: "Miaumangel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 more damage. If tails, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires. Si c'est pile, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires. Si c’est pile, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más. Si sale cruz, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più. Se esce croce, il Pokémon attivo del tuo avversario viene paralizzato.",
+				pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais. Se sair coroa, o Pokémon Ativo do seu oponente será Paralisado.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 weitere Schadenspunkte zu. Bei „Zahl“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: "40+",
 

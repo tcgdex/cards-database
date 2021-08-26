@@ -73,6 +73,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason."
 	}
 }
 

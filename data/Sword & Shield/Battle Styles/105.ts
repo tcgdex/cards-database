@@ -60,6 +60,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The blue eye on the sword’s handguard is the true body of Honedge. With its old cloth, it drains people’s lives away."
 	}
 }
 

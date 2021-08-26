@@ -60,7 +60,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+	}
 }
 
 export default card

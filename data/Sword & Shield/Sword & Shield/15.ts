@@ -97,6 +97,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
 	}
 }
 

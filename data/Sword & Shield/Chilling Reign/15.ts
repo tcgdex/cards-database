@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "A kick from the hardened tips of this Pokémon’s legs leaves a wound in the opponent’s body and soul that will never heal."
 	}
 }
 
