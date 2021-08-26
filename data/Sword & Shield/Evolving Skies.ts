@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../Sword & Shield'
 
 const swsh6: Set = {
-	id: "swsh6",
+	id: "swsh7",
 
 	name: {
 		en: "Evolving Skies"
