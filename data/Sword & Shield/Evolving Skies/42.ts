@@ -12,14 +12,41 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Tympole"
+		en: "Tympole",
+		fr: "Tritonde",
+		es: "Tympole",
+		it: "Tympole",
+		pt: "Tympole",
+		de: "Schallquap"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "Mina Nakai",
+
+	attacks: [{
+		name: {
+			en: "Mud-Slap",
+			fr: "Coud’Boue",
+			es: "Bofetón Lodo",
+			it: "Fangosberla",
+			pt: "Mud-Slap",
+			de: "Lehmschelle"
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	retreat: 2
 }
 
 export default card

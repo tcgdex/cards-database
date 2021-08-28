@@ -12,14 +12,48 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Bagon"
+		en: "Bagon",
+		fr: "Draby",
+		es: "Bagon",
+		it: "Bagon",
+		pt: "Bagon",
+		de: "Kindwurm"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Dragon"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "ryoma uratsuka",
+
+	attacks: [{
+		name: {
+			en: "Gnaw",
+			fr: "Ronge",
+			es: "Roer",
+			it: "Rosicchiamento",
+			pt: "Gnaw",
+			de: "Nagen"
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
+	}, {
+		name: {
+			en: "Headbutt",
+			fr: "Coup d’Boule",
+			es: "Golpe Cabeza",
+			it: "Bottintesta",
+			pt: "Headbutt",
+			de: "Kopfnuss"
+		},
+
+		damage: 30,
+		cost: ["Fire", "Water"]
+	}],
+
+	retreat: 2
 }
 
 export default card

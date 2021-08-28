@@ -12,17 +12,28 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Dream Ball"
+		en: "Dream Ball",
+		fr: "Rêve Ball",
+		es: "Ensueño Ball",
+		it: "Dream Ball",
+		pt: "Dream Ball",
+		de: "Traumball"
 	},
 
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "You can play this card only if you took it as a face-down Prize card, before you put it into your hand.\nSearch your deck for a Pokemon and put it onto your Bench. Then, shuffle your deck."
+		en: "You can play this card only if you took it as a face-down Prize card, before you put it into your hand.\nSearch your deck for a Pokémon and put it onto your Bench. Then, shuffle your deck.",
+		fr: "Vous ne pouvez jouer cette carte que si vous l’avez obtenue en récupérant une carte Récompense face cachée, et avant de l’ajouter à votre main.\nCherchez dans votre deck un Pokémon, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+		es: "Puedes jugar esta carta solo si la has cogido de entre las cartas de Premio que están boca abajo, antes de ponerla en tu mano.\nBusca en tu baraja 1 Pokémon y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+		it: "Puoi giocare questa carta solo se l’hai presa come carta Premio coperta, prima di aggiungerla alle carte che hai in mano.\nCerca nel tuo mazzo un Pokémon e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+		pt: "You can play this card only if you took it as a face-down Prize card, before you put it into your hand.\nSearch your deck for a Pokémon and put it onto your Bench. Then, shuffle your deck.",
+		de: "Du kannst diese Karte nur spielen, wenn du sie als verdeckte Preiskarte genommen hast und bevor du sie auf deine Hand nimmst.\nDurchsuche dein Deck nach 1 Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	illustrator: "Ryo Ueda"
 }
 
 export default card

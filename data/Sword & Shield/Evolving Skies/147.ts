@@ -12,17 +12,28 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Elemental Badge"
+		en: "Elemental Badge",
+		fr: "Badge Élémentaire",
+		es: "Medalla Elemental",
+		it: "Medaglia degli Elementi",
+		pt: "Elemental Badge",
+		de: "Elementarorden"
 	},
 
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Attach a Pokemon Tool to 1 of your Pokemon that doesn’t already have a Pokemon Tool attached.\n\nIf the Pokemon V this card is attached to has \"Vaporeon\", \"Jolteon\", or \"Flareon\" in its name, its attacks cost Colorless less."
+		en: "If the Pokémon V this card is attached to has “Vaporeon,” “Jolteon,” or “Flareon” in its name, its attacks cost Colorless less.",
+		fr: "Si le Pokémon-V auquel cette carte est attachée a « Aquali », « Voltali » ou « Pyroli » dans son nom, ses attaques coûtent Colorless de moins.",
+		es: "Si el Pokémon V al que está unida esta carta tiene “Vaporeon”, “Jolteon” o “Flareon” en su nombre, sus ataques cuestan Colorless menos.",
+		it: "Se il Pokémon-V a cui è assegnata questa carta ha “Vaporeon”, “Jolteon” o “Flareon” nel nome, il costo dei suoi attacchi è ridotto di Colorless.",
+		pt: "If the Pokémon V this card is attached to has “Vaporeon,” “Jolteon,” or “Flareon” in its name, its attacks cost Colorless less.",
+		de: "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, „Aquana“, „Blitza“ oder „Flamara“ zum Namen gehört, verringern sich die Kosten seiner Attacken um Colorless."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	illustrator: "Studio Bora Inc."
 }
 
 export default card

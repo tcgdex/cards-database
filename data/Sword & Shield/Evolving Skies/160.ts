@@ -12,17 +12,28 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Spirit Mask"
+		en: "Spirit Mask",
+		fr: "Masque Spirituel",
+		es: "Máscara de los Espíritus",
+		it: "Maschera degli Spiriti",
+		pt: "Spirit Mask",
+		de: "Seelenmaske"
 	},
 
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Attach a Pokemon Tool to 1 of your Pokemon that doesn’t already have a Pokemon Tool attached.\n\nIf the Pokemon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokemon (even if it is Knocked Out), your opponent discards a card from their hand."
+		en: "If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if it is Knocked Out), your opponent discards a card from their hand.",
+		fr: "Si le Pokémon auquel cette carte est attachée est sur le Poste Actif et qu’il subit les dégâts d’une attaque d’un Pokémon de votre adversaire (même s’il est mis K.O.), votre adversaire défausse une carte de sa main.",
+		es: "Si el Pokémon al que está unida esta carta está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si queda Fuera de Combate), tu rival descarta 1 carta de su mano.",
+		it: "Se il Pokémon a cui è assegnata questa carta è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, il tuo avversario scarta una carta che ha in mano.",
+		pt: "If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if it is Knocked Out), your opponent discards a card from their hand.",
+		de: "Wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), legt dein Gegner 1 Karte aus seiner Hand auf seinen Ablagestapel."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	illustrator: "AYUMI ODASHIMA"
 }
 
 export default card

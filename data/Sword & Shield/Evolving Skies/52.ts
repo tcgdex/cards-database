@@ -12,14 +12,41 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Chinchou"
+		en: "Chinchou",
+		fr: "Loupio",
+		es: "Chinchou",
+		it: "Chinchou",
+		pt: "Chinchou",
+		de: "Lampi"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "sowsow",
+
+	attacks: [{
+		name: {
+			en: "Electro Ball",
+			fr: "Boule Élek",
+			es: "Bola Voltio",
+			it: "Energisfera",
+			pt: "Electro Ball",
+			de: "Elektroball"
+		},
+
+		damage: 10,
+		cost: ["Lightning"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 1
 }
 
 export default card

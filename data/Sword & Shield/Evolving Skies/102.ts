@@ -12,14 +12,41 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Zorua"
+		en: "Zorua",
+		fr: "Zorua",
+		es: "Zorua",
+		it: "Zorua",
+		pt: "Zorua",
+		de: "Zorua"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "ryoma uratsuka",
+
+	attacks: [{
+		name: {
+			en: "Rear Kick",
+			fr: "Ruade",
+			es: "Patada Trasera",
+			it: "Retrocalcio",
+			pt: "Rear Kick",
+			de: "Rückwärtskick"
+		},
+
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	retreat: 1
 }
 
 export default card

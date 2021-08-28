@@ -12,17 +12,28 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Toy Catcher"
+		en: "Toy Catcher",
+		fr: "Jouet Attrapeur",
+		es: "Capturador de Juguete",
+		it: "Acchiappa-Pokémon Giocattolo",
+		pt: "Toy Catcher",
+		de: "Spielzeugfänger"
 	},
 
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Switch 1 of your opponent’s Benched Pokemon that has 50 HP or less remaining with your opponent’s Active Pokemon."
+		en: "Switch 1 of your opponent’s Benched Pokémon that has 50 HP or less remaining with your opponent’s Active Pokémon.",
+		fr: "Échangez l’un des Pokémon de Banc de votre adversaire auquel il reste 50 PV ou moins contre son Pokémon Actif.",
+		es: "Cambia 1 de los Pokémon en Banca de tu rival al que le queden 50 PS o menos por el Pokémon Activo de tu rival.",
+		it: "Scambia uno dei Pokémon nella panchina del tuo avversario che ha 50 PS o meno rimanenti con il Pokémon attivo del tuo avversario.",
+		pt: "Switch 1 of your opponent’s Benched Pokémon that has 50 HP or less remaining with your opponent’s Active Pokémon.",
+		de: "Tausche 1 Pokémon auf der Bank deines Gegners, das 50 oder weniger verbleibende KP hat, gegen das Aktive Pokémon deines Gegners aus."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	illustrator: "sadaji"
 }
 
 export default card

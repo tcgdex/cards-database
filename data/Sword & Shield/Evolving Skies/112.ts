@@ -12,14 +12,57 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Dialga"
+		en: "Dialga",
+		fr: "Dialga",
+		es: "Dialga",
+		it: "Dialga",
+		pt: "Dialga",
+		de: "Dialga"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Dragon"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "Ryuta Fuse",
+
+	attacks: [{
+		name: {
+			en: "Chrono Wind",
+			fr: "Vent Temporel",
+			es: "Retroceso Cronológico",
+			it: "Cronolancetta",
+			pt: "Chrono Wind",
+			de: "Zeitsturm"
+		},
+
+		effect: {
+			en: "If the Defending Pokémon is a Pokémon V, it can’t attack during your opponent’s next turn.",
+			fr: "Si le Pokémon Défenseur est un Pokémon-V, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+			es: "Si el Pokémon Defensor es un Pokémon V, no puede atacar durante el próximo turno de tu rival.",
+			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon-V.",
+			pt: "If the Defending Pokémon is a Pokémon V, it can’t attack during your opponent’s next turn.",
+			de: "Wenn das Verteidigende Pokémon ein Pokémon-V ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+		},
+
+		damage: 80,
+		cost: ["Colorless", "Colorless", "Colorless"]
+	}, {
+		name: {
+			en: "Heavy Impact",
+			fr: "Gros Impact",
+			es: "Impacto Pesado",
+			it: "Impatto Pesante",
+			pt: "Heavy Impact",
+			de: "Schwerer Einschlag"
+		},
+
+		damage: 210,
+		cost: ["Psychic", "Metal", "Metal", "Colorless"]
+	}],
+
+	retreat: 2
 }
 
 export default card

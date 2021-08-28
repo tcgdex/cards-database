@@ -12,14 +12,41 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Psyduck"
+		en: "Psyduck",
+		fr: "Psykokwak",
+		es: "Psyduck",
+		it: "Psyduck",
+		pt: "Psyduck",
+		de: "Enton"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "OKACHEKE",
+
+	attacks: [{
+		name: {
+			en: "Rain Splash",
+			fr: "Pluie Éclaboussante",
+			es: "Golpe de Lluvia",
+			it: "Spruzzapioggia",
+			pt: "Rain Splash",
+			de: "Regenplatscher"
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	retreat: 2
 }
 
 export default card

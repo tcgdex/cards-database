@@ -12,14 +12,53 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Roggenrola"
+		en: "Roggenrola",
+		fr: "Nodulithe",
+		es: "Roggenrola",
+		it: "Roggenrola",
+		pt: "Roggenrola",
+		de: "Kiesling"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "Tomokazu Komiya",
+
+	attacks: [{
+		name: {
+			en: "Mud-Slap",
+			fr: "Coud’Boue",
+			es: "Bofetón Lodo",
+			it: "Fangosberla",
+			pt: "Mud-Slap",
+			de: "Lehmschelle"
+		},
+
+		damage: 10,
+		cost: ["Fighting"]
+	}, {
+		name: {
+			en: "Rolling Tackle",
+			fr: "Roulé-Boulé",
+			es: "Placaje Giro",
+			it: "Rollazione",
+			pt: "Rolling Tackle",
+			de: "Rolltackle"
+		},
+
+		damage: 20,
+		cost: ["Fighting", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	retreat: 3
 }
 
 export default card

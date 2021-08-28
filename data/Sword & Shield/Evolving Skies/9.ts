@@ -12,14 +12,41 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Petilil"
+		en: "Petilil",
+		fr: "Chlorobule",
+		es: "Petilil",
+		it: "Petilil",
+		pt: "Petilil",
+		de: "Lilminip"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "Mika Pikazo",
+
+	attacks: [{
+		name: {
+			en: "Seed Bomb",
+			fr: "Canon Graine",
+			es: "Bomba Germen",
+			it: "Semebomba",
+			pt: "Seed Bomb",
+			de: "Samenbomben"
+		},
+
+		damage: 20,
+		cost: ["Grass", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	retreat: 1
 }
 
 export default card

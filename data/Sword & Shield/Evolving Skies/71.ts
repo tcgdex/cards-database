@@ -12,14 +12,49 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Flabebe"
+		en: "Flabébé",
+		fr: "Flabébé",
+		es: "Flabébé",
+		it: "Flabébé",
+		pt: "Flabébé",
+		de: "Flabébé"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
 	types: ["Psychic"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "OKACHEKE",
+
+	attacks: [{
+		name: {
+			en: "Hypnotic Gaze",
+			fr: "Regard Hypnotique",
+			es: "Mirada Hipnótica",
+			it: "Ipnosguardo",
+			pt: "Hypnotic Gaze",
+			de: "Hypnotischer Blick"
+		},
+
+		effect: {
+			en: "Your opponent’s Active Pokémon is now Asleep.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+			pt: "Your opponent’s Active Pokémon is now Asleep.",
+			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+		},
+
+		cost: ["Psychic"]
+	}],
+
+	weaknesses: [{
+		type: "Metal",
+		value: "×2"
+	}],
+
+	retreat: 1
 }
 
 export default card

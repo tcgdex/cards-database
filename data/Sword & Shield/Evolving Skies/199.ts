@@ -12,17 +12,28 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Aroma Lady"
+		en: "Aroma Lady",
+		fr: "Aromathérapeute",
+		es: "Señorita Aroma",
+		it: "Profumina",
+		pt: "Aroma Lady",
+		de: "Aromalady"
 	},
 
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 2 cards. If you do, your Active Pokemon recovers from all Special Conditions."
+		en: "Draw 2 cards. If you do, your Active Pokémon recovers from all Special Conditions.",
+		fr: "Piochez 2 cartes. Dans ce cas, votre Pokémon Actif guérit de tous les États Spéciaux.",
+		es: "Roba 2 cartas. Si lo haces, tu Pokémon Activo se recupera de todas las Condiciones Especiales.",
+		it: "Pesca due carte. Se lo fai, il tuo Pokémon attivo guarisce da tutte le condizioni speciali.",
+		pt: "Draw 2 cards. If you do, your Active Pokémon recovers from all Special Conditions.",
+		de: "Ziehe 2 Karten. Wenn du das machst, erholt sich dein Aktives Pokémon von allen Speziellen Zuständen."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	illustrator: "En Morikura"
 }
 
 export default card

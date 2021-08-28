@@ -12,14 +12,41 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Cutiefly"
+		en: "Cutiefly",
+		fr: "Bombydou",
+		es: "Cutiefly",
+		it: "Cutiefly",
+		pt: "Cutiefly",
+		de: "Wommel"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Psychic"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "Yukiko Baba",
+
+	attacks: [{
+		name: {
+			en: "Flap",
+			fr: "Battement",
+			es: "Aleteo",
+			it: "Alabattito",
+			pt: "Flap",
+			de: "Flattern"
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Metal",
+		value: "×2"
+	}],
+
+	retreat: 0
 }
 
 export default card

@@ -12,17 +12,28 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Switching Cups"
+		en: "Switching Cups",
+		fr: "Gobelets d’Échange",
+		es: "Cubiletes de Cambio",
+		it: "Bicchieri di Scambio",
+		pt: "Switching Cups",
+		de: "Tauschbecher"
 	},
 
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Switch a card from your hand with the top card of your deck."
+		en: "Switch a card from your hand with the top card of your deck.",
+		fr: "Échangez une carte de votre main contre la carte du dessus de votre deck.",
+		es: "Cambia 1 carta de tu mano por la primera carta de tu baraja.",
+		it: "Scambia una carta che hai in mano con la prima carta del tuo mazzo.",
+		pt: "Switch a card from your hand with the top card of your deck.",
+		de: "Tausche 1 Karte aus deiner Hand gegen die oberste Karte deines Decks aus."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	illustrator: "Ryo Ueda"
 }
 
 export default card

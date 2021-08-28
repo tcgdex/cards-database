@@ -12,14 +12,46 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Drowzee"
+		en: "Drowzee",
+		fr: "Soporifik",
+		es: "Drowzee",
+		it: "Drowzee",
+		pt: "Drowzee",
+		de: "Traumato"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "nagimiso",
+
+	attacks: [{
+		name: {
+			en: "Pound",
+			fr: "Écras’Face",
+			es: "Destructor",
+			it: "Botta",
+			pt: "Pound",
+			de: "Klaps"
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	retreat: 2
 }
 
 export default card

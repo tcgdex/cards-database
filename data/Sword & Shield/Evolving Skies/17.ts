@@ -12,14 +12,41 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Applin"
+		en: "Applin",
+		fr: "Verpom",
+		es: "Applin",
+		it: "Applin",
+		pt: "Applin",
+		de: "Knapfel"
 	},
 
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
 	types: ["Grass"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "Miki Tanaka",
+
+	attacks: [{
+		name: {
+			en: "Rollout",
+			fr: "Roulade",
+			es: "Rodar",
+			it: "Rotolamento",
+			pt: "Rollout",
+			de: "Walzer"
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	retreat: 1
 }
 
 export default card

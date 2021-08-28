@@ -12,17 +12,28 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Full Face Guard"
+		en: "Full Face Guard",
+		fr: "Casque Intégral",
+		es: "Escafandra",
+		it: "Difesa Integrale",
+		pt: "Full Face Guard",
+		de: "Gesichtsschutz"
 	},
 
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
-		en: "Attach a Pokemon Tool to 1 of your Pokemon that doesn’t already have a Pokemon Tool attached.\n\nIf the Pokemon this card is attached to has no Abilities, it takes 20 less damage from attacks from your opponent’s Pokemon (after applying Weakness and Resistance)."
+		en: "If the Pokémon this card is attached to has no Abilities, it takes 20 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance).",
+		fr: "Si le Pokémon auquel cette carte est attachée n’a pas de talent, il subit 20 dégâts de moins provenant des attaques des Pokémon de votre adversaire (après application de la Faiblesse et de la Résistance).",
+		es: "Si el Pokémon al que está unida esta carta no tiene ninguna habilidad, los ataques de los Pokémon de tu rival le hacen 20 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
+		it: "Se il Pokémon a cui è assegnata questa carta non ha abilità, subisce 20 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza.",
+		pt: "If the Pokémon this card is attached to has no Abilities, it takes 20 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance).",
+		de: "Wenn das Pokémon, an das diese Karte angelegt ist, keine Fähigkeiten hat, werden ihm durch Attacken der Pokémon deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
 
-	trainerType: "Tool"
+	trainerType: "Tool",
+	illustrator: "AYUMI ODASHIMA"
 }
 
 export default card
