@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Houndoom",
 		fr: "Démolosse",
+		es: "Houndoom",
+		it: "Houndoom",
+		pt: "Houndoom",
+		de: "Hundemon"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Rare",

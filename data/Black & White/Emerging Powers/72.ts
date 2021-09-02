@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ferrothorn",
 		fr: "Noacier",
+		es: "Ferrothorn",
+		it: "Ferrothorn",
+		pt: "Ferrothorn",
+		de: "Tentantel"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",

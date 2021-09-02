@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Haxorus",
 		fr: "Tranchodon",
+		es: "Haxorus",
+		it: "Haxorus",
+		pt: "Haxorus",
+		de: "Maxax"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",

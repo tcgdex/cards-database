@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Togetic",
 		fr: "Togetic",
+		es: "Togetic",
+		it: "Togetic",
+		pt: "Togetic",
+		de: "Togetic"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",

@@ -3,8 +3,12 @@ import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
+		en: "Farfetch’d",
 		fr: "Canarticho",
+		es: "Farfetch’d",
+		it: "Farfetch’d",
+		pt: "Farfetch’d",
+		de: "Porenta"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Horsea",
 		fr: "Hypotrempe",
+		es: "Horsea",
+		it: "Horsea",
+		pt: "Horsea",
+		de: "Seeper"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",

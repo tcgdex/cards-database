@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Venipede",
 		fr: "Venipatte",
+		es: "Venipede",
+		it: "Venipede",
+		pt: "Venipede",
+		de: "Toxiped"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",

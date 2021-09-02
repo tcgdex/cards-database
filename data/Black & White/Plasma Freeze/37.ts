@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pachirisu",
 		fr: "Pachirisu",
+		es: "Pachirisu",
+		it: "Pachirisu",
+		pt: "Pachirisu",
+		de: "Pachirisu"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",

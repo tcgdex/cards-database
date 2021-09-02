@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lapras",
 		fr: "Lokhlass",
+		es: "Lapras",
+		it: "Lapras",
+		pt: "Lapras",
+		de: "Lapras"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",

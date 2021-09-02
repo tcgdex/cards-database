@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Victini",
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		494,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Victory Star",
 			},
 			effect: {
-				en: "Once during your turn, after you flip any coins for an attack, you may ignore all effects of those coin flips and begin flipping those coins again. You can't use more than 1 Victory Star Ability each turn.",
+				en: "Once during your turn, after you flip any coins for an attack, you may ignore all effects of those coin flips and begin flipping those coins again. You can’t use more than 1 Victory Star Ability each turn.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -47,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -54,10 +59,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

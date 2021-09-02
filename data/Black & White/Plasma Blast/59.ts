@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Aggron",
 		fr: "Galeking",
+		es: "Aggron",
+		it: "Aggron",
+		pt: "Aggron",
+		de: "Stolloss"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",

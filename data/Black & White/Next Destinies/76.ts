@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bronzong",
 		fr: "Archéodong",
+		es: "Bronzong",
+		it: "Bronzong",
+		pt: "Bronzong",
+		de: "Bronzong"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Heal Block",
 				fr: "Anti-Soin",
+				es: "Anticura",
+				it: "Anticura",
+				pt: "Bloqueio de Cura",
+				de: "Heilblockade"
 			},
 			effect: {
-				en: "Damage can't be healed from any Pokémon (both yours and your opponent's). (Damage counters can still be moved.)",
+				en: "Damage can’t be healed from any Pokémon (both yours and your opponent’s). (Damage counters can still be moved.)",
 				fr: "Les dégâts ne peuvent être soignés pour aucun Pokémon (les vôtres et ceux de votre adversaire). (Les marqueurs de dégâts peuvent toujours être déplacés.)",
+				es: "No se puede curar el daño de ningún Pokémon (tanto tuyos como de tu rival). (Todavía se pueden mover los contadores de daño).",
+				it: "Non è possibile curare i danni da nessun Pokémon, né i tuoi né quelli del tuo avversario. I segnalini danno possono comunque essere spostati.",
+				pt: "Não é possível curar danos de nenhum Pokémon (seus e do seu oponente). (Os marcadores de danos ainda podem ser movidos.)",
+				de: "Es kann kein Schaden bei Pokémon (deinen und denen deines Gegners) geheilt werden. (Schadensmarken können jedoch weiterhin verschoben werden.)"
 			},
 		},
 	],

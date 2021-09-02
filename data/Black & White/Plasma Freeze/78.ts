@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Hydreigon",
 		fr: "Trioxhydre",
+		es: "Hydreigon",
+		it: "Hydreigon",
+		pt: "Hydreigon",
+		de: "Trikephalo"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

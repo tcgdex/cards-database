@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cofagrigus",
 		fr: "Tutankafer",
+		es: "Cofagrigus",
+		it: "Cofagrigus",
+		pt: "Cofagrigus",
+		de: "Echnatoll"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ferroseed",
 		fr: "Grindur",
+		es: "Ferroseed",
+		it: "Ferroseed",
+		pt: "Ferroseed",
+		de: "Kastadur"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",

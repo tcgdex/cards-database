@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Musharna",
 		fr: "Mushana",
+		es: "Musharna",
+		it: "Musharna",
+		pt: "Musharna",
+		de: "Somnivora"
 	},
 	illustrator: "Satoshi Shirai",
 	rarity: "Rare",

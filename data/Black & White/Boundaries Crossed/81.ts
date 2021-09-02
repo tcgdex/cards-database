@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Gliscor",
 		fr: "Scorvol",
+		es: "Gliscor",
+		it: "Gliscor",
+		pt: "Gliscor",
+		de: "Skorgro"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",

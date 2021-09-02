@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
+		es: "Monferno",
+		it: "Monferno",
+		pt: "Monferno",
+		de: "Panpyro"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",

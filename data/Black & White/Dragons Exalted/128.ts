@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Rayquaza",
 		fr: "Rayquaza",
+		es: "Rayquaza",
+		it: "Rayquaza",
+		pt: "Rayquaza",
+		de: "Rayquaza"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Garchomp",
 		fr: "Carchacrok",
+		es: "Garchomp",
+		it: "Garchomp",
+		pt: "Garchomp",
+		de: "Knakrack"
 	},
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

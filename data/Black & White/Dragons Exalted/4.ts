@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Yanma",
 		fr: "Yanma",
+		es: "Yanma",
+		it: "Yanma",
+		pt: "Yanma",
+		de: "Yanma"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",

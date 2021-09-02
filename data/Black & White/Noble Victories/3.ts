@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Leavanny",
 		fr: "Manternel",
+		es: "Leavanny",
+		it: "Leavanny",
+		pt: "Leavanny",
+		de: "Matrifol"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Leaf Tailor",
 				fr: "Couturier",
+				es: "Sastre de Hojas",
+				it: "Sartofoglia",
+				pt: "Alfaiate de Folhas",
+				de: "Blattschneider"
 			},
 			effect: {
 				en: "Each of your Pokémon that has any Energy attached to it has no Weakness.",
-				fr: "Chacun de vos Pokémon auquel de l'Énergie est attachée n'a pas de Faiblesse.",
+				fr: "Chacun de vos Pokémon auquel de l’Énergie est attachée n’a pas de Faiblesse.",
+				es: "Cada uno de tus Pokémon que tenga cualquier Energía unida a él no tiene ninguna Debilidad.",
+				it: "Nessuno dei tuoi Pokémon che ha delle Energie assegnate ha debolezza.",
+				pt: "Cada um de seus Pokémon que possui qualquer Energia ligada não possui Fraquezas.",
+				de: "Jedes deiner Pokémon, an dem Energie angelegt ist, hat keine Schwäche."
 			},
 		},
 	],

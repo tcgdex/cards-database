@@ -4,7 +4,11 @@ import Set from '../Plasma Blast'
 const card: Card = {
 	name: {
 		en: "Palkia-EX",
-		fr: "Palkia ex",
+		fr: "Palkia EX",
+		es: "Palkia-EX",
+		it: "Palkia-EX",
+		pt: "Palkia-EX",
+		de: "Palkia-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

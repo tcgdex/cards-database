@@ -4,7 +4,11 @@ import Set from '../Boundaries Crossed'
 const card: Card = {
 	name: {
 		en: "White Kyurem-EX",
-		fr: "Kyurem Blanc-EX",
+		fr: "Kyurem Blanc EX",
+		es: "Kyurem Blanco-EX",
+		it: "Kyurem Bianco-EX",
+		pt: "Kyurem Branco-EX",
+		de: "Weißes Kyurem-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

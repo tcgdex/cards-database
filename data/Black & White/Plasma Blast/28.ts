@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Carracosta",
 		fr: "Mégapagos",
+		es: "Carracosta",
+		it: "Carracosta",
+		pt: "Carracosta",
+		de: "Karippas"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",

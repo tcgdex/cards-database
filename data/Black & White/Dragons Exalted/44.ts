@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Manectric",
 		fr: "Élecsprint",
+		es: "Manectric",
+		it: "Manectric",
+		pt: "Manectric",
+		de: "Voltenso"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",

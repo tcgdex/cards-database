@@ -4,22 +4,29 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Sableye",
+		fr: "Ténéfix",
+		es: "Sableye",
+		it: "Sableye",
+		pt: "Sableye",
+		de: "Zobiris"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		302,
 	],
+
 	hp: 70,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,11 +56,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 1
 }
 
 export default card

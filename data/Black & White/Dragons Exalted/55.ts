@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Gothita",
 		fr: "Scrutella",
+		es: "Gothita",
+		it: "Gothita",
+		pt: "Gothita",
+		de: "Mollimorba"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -41,7 +45,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "��2"
+			value: "×2"
 		},
 	],
 

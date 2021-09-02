@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ampharos",
 		fr: "Pharamp",
+		es: "Ampharos",
+		it: "Ampharos",
+		pt: "Ampharos",
+		de: "Ampharos"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Electromagnetic Wall",
 				fr: "Mur Électromagnétique",
+				es: "Muro Electromagnético",
+				it: "Magnetomuro",
+				pt: "Parede Eletromagnética",
+				de: "Elektromagnetischer Wall"
 			},
 			effect: {
 				en: "As long as this Pokémon is your Active Pokémon, whenever your opponent attaches an Energy from his or her hand to 1 of his or her Pokémon, put 3 damage counters on that Pokémon.",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, chaque fois que votre adversaire attache une Énergie de sa main à 1 de ses Pokémon, placez 3 marqueurs de dégâts sur le Pokémon auquel l'Énergie a été attachée.",
+				fr: "Tant que ce Pokémon est votre Pokémon Actif, chaque fois que votre adversaire attache une Énergie de sa main à 1 de ses Pokémon, placez 3 marqueurs de dégâts sur le Pokémon auquel l’Énergie a été attachée.",
+				es: "Mientras este Pokémon sea tu Pokémon Activo, cada vez que tu rival una a 1 de sus Pokémon una Energía de su mano, pon 3 contadores de daño en ese Pokémon.",
+				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, ogni volta che il tuo avversario assegna un’Energia dalla sua mano a uno dei suoi Pokémon, metti tre segnalini danno su quel Pokémon.",
+				pt: "Enquanto este Pokémon for seu Pokémon Ativo, sempre que seu oponente ligar uma Energia da própria mão a 1 dos Pokémon dele ou dela, coloque 3 marcadores de danos nesse Pokémon.",
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, lege jedes Mal, wenn dein Gegner 1 Energie von seiner Hand an 1 seiner Pokémon anlegt, 3 Schadensmarken auf Letzteres."
 			},
 		},
 	],

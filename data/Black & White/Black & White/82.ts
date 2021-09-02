@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Herdier",
 		fr: "Ponchien",
+		es: "Herdier",
+		it: "Herdier",
+		pt: "Herdier",
+		de: "Terribark"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",

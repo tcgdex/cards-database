@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Braviary",
 		fr: "Gueriaigle",
+		es: "Braviary",
+		it: "Braviary",
+		pt: "Braviary",
+		de: "Washakwil"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",

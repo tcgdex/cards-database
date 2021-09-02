@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dusclops",
 		fr: "Téraclope",
+		es: "Dusclops",
+		it: "Dusclops",
+		pt: "Dusclops",
+		de: "Zwirrklop"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",

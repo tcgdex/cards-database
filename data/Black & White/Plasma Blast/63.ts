@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shelgon",
 		fr: "Drackhaus",
+		es: "Shelgon",
+		it: "Shelgon",
+		pt: "Shelgon",
+		de: "Draschel"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",

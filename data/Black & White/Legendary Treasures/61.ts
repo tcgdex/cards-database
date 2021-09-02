@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Sableye",
 	},
+
 	illustrator: "Hiroki Asanuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		302,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,11 +40,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 1
 }
 
 export default card

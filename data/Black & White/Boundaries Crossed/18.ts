@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Charmander",
 		fr: "Salamèche",
+		es: "Charmander",
+		it: "Charmander",
+		pt: "Charmander",
+		de: "Glumanda"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Alomomola",
 		fr: "Mamanbo",
+		es: "Alomomola",
+		it: "Alomomola",
+		pt: "Alomomola",
+		de: "Mamolida"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",

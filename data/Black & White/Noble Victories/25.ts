@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tirtouga",
 		fr: "Carapagos",
+		es: "Tirtouga",
+		it: "Tirtouga",
+		pt: "Tirtouga",
+		de: "Galapaflos"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Conkeldurr",
 		fr: "Bétochef",
+		es: "Conkeldurr",
+		it: "Conkeldurr",
+		pt: "Conkeldurr",
+		de: "Meistagrif"
 	},
 	illustrator: "kawayoo",
 	rarity: "Rare",
@@ -29,11 +33,19 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Craftsmanship",
-				fr: "Maître d'Œuvre",
+				fr: "Maître d’Œuvre",
+				es: "Maestro de Obras",
+				it: "Maestria",
+				pt: "Manufatura",
+				de: "Handwerkskunst"
 			},
 			effect: {
 				en: "This Pokémon gets +20 HP for each Fighting Energy attached to it.",
 				fr: "Chaque Énergie Fighting attachée à ce Pokémon lui ajoute 20 PV.",
+				es: "Este Pokémon obtiene 20 PV más por cada Energía Fighting unida a él.",
+				it: "Questo Pokémon ha 20 PV in più per ogni Energia Fighting assegnatagli.",
+				pt: "Este Pokémon recebe mais 20 PS para cada Energia Fighting ligada a ele.",
+				de: "Dieses Pokémon erhält +20 KP für jede an es angelegte Fighting-Energie."
 			},
 		},
 	],

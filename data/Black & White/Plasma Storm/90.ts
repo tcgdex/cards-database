@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Klinklang",
 		fr: "Cliticlic",
+		es: "Klinklang",
+		it: "Klinklang",
+		pt: "Klinklang",
+		de: "Klikdiklak"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Plasma Steel",
 				fr: "Acier Plasma",
+				es: "Acero Plasma",
+				it: "Acciaio Plasma",
+				pt: "Aço de Plasma",
+				de: "Plasmastahl"
 			},
 			effect: {
-				en: "Prevent all damage done to your Metal Pokémon by attacks from your opponent's Pokémon-EX.",
+				en: "Prevent all damage done to your Metal Pokémon by attacks from your opponent’s Pokémon-EX.",
 				fr: "Évitez tous les dégâts infligés à vos Pokémon Metal par des attaques des Pokémon-EX de votre adversaire.",
+				es: "Evita todo el daño infligido a tus Pokémon Metal por ataques de los Pokémon-EX de tu rival.",
+				it: "Previeni tutti i danni da attacchi inflitti ai tuoi Pokémon Metal dai Pokémon-EX del tuo avversario.",
+				pt: "Previne todos os danos causados a seus Pokémon Metal causados pelos ataques dos Pokémon-EX do seu oponente.",
+				de: "Verhindere allen Schaden, der deinen Metal-Pokémon durch Angriffe von Pokémon-EX deines Gegners zugefügt würde."
 			},
 		},
 	],

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Darumaka",
 		fr: "Darumarond",
+		es: "Darumaka",
+		it: "Darumaka",
+		pt: "Darumaka",
+		de: "Flampion"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",

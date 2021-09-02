@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Karrablast",
 		fr: "Carabing",
+		es: "Karrablast",
+		it: "Karrablast",
+		pt: "Karrablast",
+		de: "Laukaps"
 	},
 	illustrator: "sui",
 	rarity: "Common",

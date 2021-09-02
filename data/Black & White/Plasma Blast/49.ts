@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Machamp",
 		fr: "Mackogneur",
+		es: "Machamp",
+		it: "Machamp",
+		pt: "Machamp",
+		de: "Machomei"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Badge of Discipline",
 				fr: "Badge de la Discipline",
+				es: "Medalla a la Disciplina",
+				it: "Medaglia Disciplina",
+				pt: "Distintivo da Disciplina",
+				de: "Zeugnis der Selbstkontrolle"
 			},
 			effect: {
-				en: "The damage of each of your Fighting Pokémon's attacks isn't affected by Resistance.",
+				en: "The damage of each of your Fighting Pokémon’s attacks isn’t affected by Resistance.",
 				fr: "Les dégâts des attaques de chacun de vos Pokémon Fighting ne sont pas affectés par la Résistance.",
+				es: "El daño de los ataques de cada uno de tus Pokémon Fighting no se ve afectado por Resistencia.",
+				it: "Il danno degli attacchi di ciascuno dei tuoi Pokémon Fighting non è influenzato dalla resistenza.",
+				pt: "Os danos de ataque de cada um de seus Pokémon Fighting não são afetados por Resistência.",
+				de: "Der Schaden jedes Angriffs deiner Fighting-Pokémon wird durch Resistenz nicht verändert."
 			},
 		},
 	],

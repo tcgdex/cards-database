@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Boldore",
 		fr: "Géolithe",
+		es: "Boldore",
+		it: "Boldore",
+		pt: "Boldore",
+		de: "Sedimantur"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",

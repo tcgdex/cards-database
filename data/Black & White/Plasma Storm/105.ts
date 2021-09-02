@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Whismur",
 		fr: "Chuchmur",
+		es: "Whismur",
+		it: "Whismur",
+		pt: "Whismur",
+		de: "Flurmel"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",

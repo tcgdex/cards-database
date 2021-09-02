@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Toxicroak",
 		fr: "Coatox",
+		es: "Toxicroak",
+		it: "Toxicroak",
+		pt: "Toxicroak",
+		de: "Toxiquak"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",

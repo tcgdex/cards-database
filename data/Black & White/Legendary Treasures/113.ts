@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Double Colorless Energy",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Special",
 
-
-
-
-
-
-
-
-
-
-
-
-
-energyType: "Special",
+	effect: {
+		en: "Double Colorless Energy provides ColorlessColorless Energy."
+	}
 }
 
 export default card

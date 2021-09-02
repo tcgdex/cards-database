@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Crushing Hammer",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
-
-
 	trainerType: "Item",
 
+	effect: {
+		en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent’s Pokémon."
+	}
 }
 
 export default card

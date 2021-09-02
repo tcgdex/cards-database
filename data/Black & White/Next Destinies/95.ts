@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Reshiram-EX",
 		fr: "Reshiram-EX",
+		es: "Reshiram-EX",
+		it: "Reshiram-EX",
+		pt: "Reshiram-EX",
+		de: "Reshiram-EX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

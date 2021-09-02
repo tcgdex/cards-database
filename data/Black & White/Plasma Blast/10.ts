@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Genesect",
 		fr: "Genesect",
+		es: "Genesect",
+		it: "Genesect",
+		pt: "Genesect",
+		de: "Genesect"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",

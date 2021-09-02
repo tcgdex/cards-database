@@ -4,20 +4,27 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Kyogre-EX",
+		fr: "Kyogre-EX",
+		es: "Kyogre-EX",
+		it: "Kyogre-EX",
+		pt: "Kyogre-EX",
+		de: "Kyogre-EX"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		382,
 	],
+
 	hp: 170,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -51,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -58,10 +66,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 4
 }
 
 export default card

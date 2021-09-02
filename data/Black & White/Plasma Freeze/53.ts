@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Deoxys-EX",
 		fr: "Deoxys-EX",
+		es: "Deoxys-EX",
+		it: "Deoxys-EX",
+		pt: "Deoxys-EX",
+		de: "Deoxys-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Power Connect",
 				fr: "Connexion Renforcée",
+				es: "Conectar Poder",
+				it: "Collegaforza",
+				pt: "Conexão de Poder",
+				de: "Volltreffer"
 			},
 			effect: {
-				en: "Your Team Plasma Pokémon's attacks (excluding Deoxys-EX) do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				en: "Your Team Plasma Pokémon’s attacks (excluding Deoxys-EX) do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Les attaques de vos Pokémon de la Team Plasma (excepté Deoxys-EX) infligent 10 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+				es: "Los ataques de tus Pokémon del Equipo Plasma (excepto Deoxys-EX) hacen 10 puntos de daño más a los Pokémon Activos (antes de aplicar Debilidad y Resistencia).",
+				it: "Gli attacchi dei tuoi Pokémon Team Plasma (eccetto Deoxys-EX) infliggono 10 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza.",
+				pt: "Os ataques dos seus Pokémon da Equipe Plasma (exceto Deoxys-EX) causam 10 de danos adicionais ao Pokémon Ativo (antes da aplicação de Fraqueza e Resistência).",
+				de: "Die Angriffe deiner Team-Plasma-Pokémon (mit Ausnahme von Deoxys-EX) fügen den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],

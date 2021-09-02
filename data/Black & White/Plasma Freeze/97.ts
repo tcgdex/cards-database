@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Staraptor",
 		fr: "Étouraptor",
+		es: "Staraptor",
+		it: "Staraptor",
+		pt: "Staraptor",
+		de: "Staraptor"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
