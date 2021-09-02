@@ -26,8 +26,8 @@ A Multilanguage Pokémon TCG Database with Cards Pictures and most of the inform
 
 |             | English | French | German | Italian | Portuguese | Spanish |
 |-------------|---------|--------|--------|---------|------------|---------|
-| Cards       | 13581   | 9125   | 4730   | 4730    | 4730       | 4730    |
-| Translated  | 100%    | 67%    | 34%    | 34%     | 34%        | 34%     |
+| Cards       | 13818   | 9439   | 6108   | 6108    | 6108       | 6108    |
+| Translated  | 100%    | 68%    | 44%    | 44%     | 44%        | 44%     |
 
 ## Interact with the Database
 
