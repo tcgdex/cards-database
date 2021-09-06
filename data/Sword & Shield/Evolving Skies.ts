@@ -5,7 +5,12 @@ const swsh6: Set = {
 	id: "swsh7",
 
 	name: {
-		en: "Evolving Skies"
+		en: "Evolving Skies",
+		fr: "Évolution Céleste",
+		es: "Cielos Evolutivos",
+		de: "Drachenwandel",
+		it: "Evoluzioni Eteree",
+		pt: "Céus em Evolução",
 	},
 
 	serie: serie,
