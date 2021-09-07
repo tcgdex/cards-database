@@ -52,7 +52,7 @@ const card: Card = {
 				en: "You may do 40 damage plus 60 more damage. If you do, discard all Lightning Energy attached to Electrode.",
 				fr: "Vous pouvez infliger 40 dégâts plus 60 dégâts supplémentaires. Dans ce cas, défaussez toutes les cartes Énergie Lightning attachées à Electrode.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

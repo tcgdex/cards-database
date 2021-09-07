@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Coup déchirant",
 			},
 			effect: {
-				en: "During your next turn, Scyther can't use Slashing Strike.",
+				en: "During your next turn, Scyther can’t use Slashing Strike.",
 				fr: "Insécateur ne peut pas utiliser son Coup déchirant pendant votre prochain tour.",
 			},
 			damage: 50,

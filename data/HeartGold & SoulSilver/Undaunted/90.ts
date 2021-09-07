@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Rayquaza & Deoxys LEGEND",
 		fr: "Rayquaza & Deoxys LÉGENDE",
 	},
-	illustrator: undefined,
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		384,
 	],
@@ -20,8 +21,8 @@ const card: Card = {
 		"Psychic",
 	],
 
-
 	suffix: "Legend",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -30,11 +31,12 @@ const card: Card = {
 				fr: "Virus spatial",
 			},
 			effect: {
-				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card.",
+				en: "If your opponent’s Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card.",
 				fr: "Si le Pokémon de votre adversaire est mis K.O. par une attaque de Rayquaza & Deoxys LÉGENDE, prenez une carte Récompense supplémentaire.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -65,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
@@ -77,9 +80,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

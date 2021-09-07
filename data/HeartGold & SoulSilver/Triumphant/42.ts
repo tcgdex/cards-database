@@ -35,7 +35,7 @@ const card: Card = {
 				en: "Each player discards the top card of his or her deck. This attack does 20 damage times the number of Energy cards discarded in this way.",
 				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie ainsi défaussées.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{

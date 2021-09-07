@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Atterrissage",
 			},
 			effect: {
-				en: "Remove 4 damage counters from Spearow. Spearow can't retreat during your next turn.",
+				en: "Remove 4 damage counters from Spearow. Spearow can’t retreat during your next turn.",
 				fr: "Retirez 4 marqueurs de dégât à Piafabec. Piafabec ne peut pas battre en retraite pendant votre prochain tour.",
 			},
 

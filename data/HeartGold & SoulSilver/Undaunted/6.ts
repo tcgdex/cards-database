@@ -56,7 +56,7 @@ const card: Card = {
 				en: "You may discard any number of Fire Energy cards attached to Magcargo. If you do, this attack does 60 damage plus 20 damage for each Fire Energy card you discarded.",
 				fr: "Vous pouvez défausser autant de cartes Énergie Fire attachées à Volcaropod que vous le souhaitez. Dans ce cas, cette attaque inflige 60 dégâts plus 20 dégâts pour chaque carte Énergie Fire que vous avez défaussée.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

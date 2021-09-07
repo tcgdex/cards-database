@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Étonnement",
 			},
 			effect: {
-				en: "Choose 2 cards from your opponent's hand without looking. Look at the cards you chose, then have your opponent shuffle those cards into his or her deck.",
+				en: "Choose 2 cards from your opponent’s hand without looking. Look at the cards you chose, then have your opponent shuffle those cards into his or her deck.",
 				fr: "Choisissez au hasard 2 cartes dans la main de votre adversaire. Regardez les cartes que vous avez choisies, puis demandez à votre adversaire de les mélanger avec son deck.",
 			},
 			damage: 20,
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Matraqueue",
 			},
 			effect: {
-				en: "Discard 2 cards from your hand. (If you can't discard 2 cards from your hand, this attack does nothing.)",
+				en: "Discard 2 cards from your hand. (If you can’t discard 2 cards from your hand, this attack does nothing.)",
 				fr: "Défaussez 2 cartes de votre main. (Si vous ne pouvez pas, cette attaque ne fait rien.)",
 			},
 			damage: 60,

@@ -49,7 +49,7 @@ const card: Card = {
 				en: "Flip a coin for each Volbeat you have in play. This attack does 30 damage times the number of heads.",
 				fr: "Lancez une pièce pour chacun de vos Muciole en jeu. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],

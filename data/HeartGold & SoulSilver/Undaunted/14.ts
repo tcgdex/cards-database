@@ -55,7 +55,7 @@ const card: Card = {
 				en: "You may do 80 damage plus 20 more damage. If you do, Hariyama does 20 damage to itself.",
 				fr: "Vous pouvez infliger 80 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Hariyama s'inflige 20 dégâts.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Léchouille",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon for each Energy attached to Lickilicky. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon for each Energy attached to Lickilicky. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez l'un des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon pour chaque carte Énergie attachée à Coudlangue. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
@@ -51,7 +51,7 @@ const card: Card = {
 				fr: "Colle et absorbe",
 			},
 			effect: {
-				en: "Remove 2 damage counters from Lickilicky. The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "Remove 2 damage counters from Lickilicky. The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Retirez 2 marqueurs de dégât à Coudlangue. Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 			},
 			damage: 50,

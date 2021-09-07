@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Placement vicieux",
 			},
 			effect: {
-				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
+				en: "Put 1 damage counter on 1 of your opponent’s Pokémon.",
 				fr: "Placez un marqueur de dégât sur l'un des Pokémon de votre adversaire.",
 			},
 

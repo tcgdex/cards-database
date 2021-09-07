@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Visée corrosive",
 			},
 			effect: {
-				en: "Filp a coin. If heads, look at your opponent's hand, choose 1 card, and discard it.",
+				en: "Filp a coin. If heads, look at your opponent’s hand, choose 1 card, and discard it.",
 				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire, choisissez une carte et défaussez-la.",
 			},
 			damage: 10,

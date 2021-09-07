@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Puissance",
 			},
 			effect: {
-				en: "During your next turn, Carvanha's Bite attack's base damage is 40.",
+				en: "During your next turn, Carvanha’s Bite attack’s base damage is 40.",
 				fr: "Pendant votre prochain tour, l'attaque Morsure de Carvanha inflige 40 dégâts de base.",
 			},
 

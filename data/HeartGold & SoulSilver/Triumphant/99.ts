@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Darkrai & Cresselia LEGEND",
 		fr: "Darkrai & Cresselia LÉGENDE",
 	},
-	illustrator: "Shinji Higuchi + Noriko Takaya/樋口真嗣+高屋法子",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi + Noriko Takaya/樋口真嗣+高屋法子",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		488,
 	],
+
 	hp: 150,
+
 	types: [
 		"Darkness",
 		"Psychic",
 	],
-
 
 	suffix: "Legend",
 
@@ -36,11 +38,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	stage: "Basic",
+	retreat: 0
 }
 
 export default card

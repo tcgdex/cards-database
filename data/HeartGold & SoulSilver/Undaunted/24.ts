@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Fleur allergène",
 			},
 			effect: {
-				en: "Each player can't play any Trainer cards from his or her hand.",
+				en: "Each player can’t play any Trainer cards from his or her hand.",
 				fr: "Aucun joueur ne peut jouer de carte Dresseur de sa main.",
 			},
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

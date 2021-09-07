@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Magby",
 		fr: "Magby",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		240,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fire",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -49,11 +53,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

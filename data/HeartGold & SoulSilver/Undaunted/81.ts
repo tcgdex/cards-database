@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Mentali",
 	},
 	illustrator: "Hideaki Hakozaki",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

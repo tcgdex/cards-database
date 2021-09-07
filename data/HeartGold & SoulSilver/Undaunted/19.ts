@@ -51,10 +51,10 @@ const card: Card = {
 				fr: "Poltergeist",
 			},
 			effect: {
-				en: "Look at your opponent's hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent's hand.",
+				en: "Look at your opponent’s hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent’s hand.",
 				fr: "Regardez la main de votre adversaire. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Dresseur, Supporter et Stade qui se trouvent dans la main de votre adversaire.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],

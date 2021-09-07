@@ -40,7 +40,7 @@ const card: Card = {
 				en: "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.",
 				fr: "Défaussez les 3 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 		{

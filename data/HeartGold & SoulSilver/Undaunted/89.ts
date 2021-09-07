@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Rayquaza & Deoxys LEGEND",
 		fr: "Rayquaza & Deoxys LÉGENDE",
 	},
-	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 140,
+
 	types: [
 		"Colorless",
 		"Psychic",
 	],
-
 
 	suffix: "Legend",
 
@@ -36,11 +38,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	stage: "Basic",
+	retreat: 0
 }
 
 export default card

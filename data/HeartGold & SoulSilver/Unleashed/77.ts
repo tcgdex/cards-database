@@ -3,7 +3,7 @@ import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Interviewer's Questions",
+		en: "Interviewer’s Questions",
 		fr: "Questionnaire d'interview",
 	},
 	illustrator: "Kouki Saitou",

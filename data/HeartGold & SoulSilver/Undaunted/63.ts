@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Puissance",
 			},
 			effect: {
-				en: "During your next turn, Pineco's Surprise Attack attack's base damage is 80.",
+				en: "During your next turn, Pineco’s Surprise Attack attack’s base damage is 80.",
 				fr: "Pendant votre prochain tour, l'Attaque surprise de Pomdepik inflige 80 dégâts de base.",
 			},
 

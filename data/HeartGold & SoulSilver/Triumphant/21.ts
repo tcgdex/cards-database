@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Elekid",
 		fr: "Elekid",
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		239,
 	],
+
 	hp: 30,
+
 	types: [
 		"Lightning",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -42,18 +46,14 @@ const card: Card = {
 				fr: "Boule étincelante",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance. Elekid is now Asleep.",
+				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. This attack’s damage isn’t affected by Weakness or Resistance. Elekid is now Asleep.",
 				fr: "Choisissez l'un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Elekid est maintenant Endormi.",
 			},
 
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

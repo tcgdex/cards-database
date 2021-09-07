@@ -50,7 +50,7 @@ const card: Card = {
 				en: "If you have more cards in your hand than your opponent, this attack does 20 damage plus 30 more damage.",
 				fr: "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

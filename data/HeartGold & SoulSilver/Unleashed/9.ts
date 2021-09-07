@@ -35,7 +35,7 @@ const card: Card = {
 				en: "Does 20 damage times the amount of Fighting Energy attached to Sudowoodo.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie Fighting attachées à Simularbre.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Bagarre",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 			},
 			damage: 40,

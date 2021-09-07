@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Soutien de retraite",
 			},
 			effect: {
-				en: "As long as Dodrio is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
+				en: "As long as Dodrio is on your Bench, your Active Pokémon’s Retreat Cost is ColorlessColorless less.",
 				fr: "Tant que Dodrio est sur votre Banc, le Coût de retraite de votre Pokémon Actif est réduit de ColorlessColorless.",
 			},
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.",
 				fr: "Lancez une pièce jusqu'à ce qu'elle tombe sur pile.  Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

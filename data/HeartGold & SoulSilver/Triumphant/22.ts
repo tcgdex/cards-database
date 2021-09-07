@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Does 30 damage plus 10 more damage for each Water Energy attached to all of your Pokémon.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Water attachée à tous vos Pokémon.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

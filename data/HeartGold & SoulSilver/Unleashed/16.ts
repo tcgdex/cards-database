@@ -6,21 +6,26 @@ const card: Card = {
 		en: "Floatzel",
 		fr: "Mustéflott",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		419,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		fr: "Mustébouée",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -31,11 +36,12 @@ const card: Card = {
 				fr: "Hydro-accélération",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can't be used if Floatzel is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can’t be used if Floatzel is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à Mustéflott. Ce pouvoir ne peut pas être utilisé si Mustéflott est affecté par un État Spécial.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -59,10 +66,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

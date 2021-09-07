@@ -39,7 +39,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 60,
+			damage: "60×",
 
 		},
 		{
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "If there is any Stadium card in play, this attack does 20 damage plus 60 more damage. Discard that Stadium card.",
 				fr: "Si une carte Stade est en jeu, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires. Défaussez cette carte Stade.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

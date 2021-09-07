@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Suggestion solaire",
 			},
 			effect: {
-				en: "Move up to 4 damage counters from any of your Pokémon to any of your opponent's Pokémon in any way you like.",
+				en: "Move up to 4 damage counters from any of your Pokémon to any of your opponent’s Pokémon in any way you like.",
 				fr: "Retirez jusqu'à 4 marqueurs de dégât à vos Pokémon et placez-les comme vous le voulez sur les Pokémon de votre adversaire.",
 			},
 

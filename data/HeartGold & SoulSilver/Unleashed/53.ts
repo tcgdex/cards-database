@@ -48,7 +48,7 @@ const card: Card = {
 				en: "Does 40 damage minus 10 damage for each damage counter on Mankey.",
 				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Férosinge.",
 			},
-			damage: 40,
+			damage: "40-",
 
 		},
 	],

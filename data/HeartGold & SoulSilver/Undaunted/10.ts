@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Croc lunaire",
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent's Pokémon that has any Poké-Powers or Poké-Bodies.",
+				en: "During your opponent’s next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent’s Pokémon that has any Poké-Powers or Poké-Bodies.",
 				fr: "Pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques (y compris les dégâts) infligés à Noctali par un Pokémon de votre adversaire possédant des Poké-Powers ou des Poké-Bodies.",
 			},
 			damage: 30,
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

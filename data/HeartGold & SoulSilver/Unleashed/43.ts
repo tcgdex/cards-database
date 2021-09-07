@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Queue codée",
 			},
 			effect: {
-				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
+				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent’s Pokémon.",
 				fr: "Prenez une carte Énergie attachée au Pokémon Défenseur et attachez-la à un autre des Pokémon de votre adversaire.",
 			},
 

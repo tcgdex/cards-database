@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Puissance illimitée",
 			},
 			effect: {
-				en: "Onix can't attack during your next turn.",
+				en: "Onix can’t attack during your next turn.",
 				fr: "Pendant votre prochain tour, Onix ne peut pas attaquer.",
 			},
 			damage: 80,

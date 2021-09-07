@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Transfert dimensionnel",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it on top of your deck. This power can't be used if Porygon-Z is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it on top of your deck. This power can’t be used if Porygon-Z is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez une carte Dresseur dans votre pile de défausse, montrez-la à votre adversaire, puis placez-la sur le dessus de votre deck. Ce Poké-Power ne peut pas être utilisé si Porygon-Z est affecté par un État Spécial.",
 			},
 		},

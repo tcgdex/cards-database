@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Liquide gluant",
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless more.",
+				en: "During your opponent’s next turn, the Defending Pokémon’s Retreat Cost is Colorless more.",
 				fr: "Pendant le prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est augmenté de Colorless.",
 			},
 

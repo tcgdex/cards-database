@@ -49,7 +49,7 @@ const card: Card = {
 				en: "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
 				fr: "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Does 50 damage plus 10 more damage for each damage counter on Sharpedo.",
 				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât placé sur Sharpedo.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

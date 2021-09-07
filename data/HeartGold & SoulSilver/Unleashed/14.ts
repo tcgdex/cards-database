@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Crobat",
 		fr: "Nostenfer",
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		169,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Golbat",
 		fr: "Nosferalto",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -55,16 +59,18 @@ const card: Card = {
 				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -72,9 +78,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

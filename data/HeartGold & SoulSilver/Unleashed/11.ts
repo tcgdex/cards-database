@@ -38,7 +38,7 @@ const card: Card = {
 				en: "Does 20 damage times the amount of Energy attached to the Defending Pokémon.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{

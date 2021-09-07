@@ -37,7 +37,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

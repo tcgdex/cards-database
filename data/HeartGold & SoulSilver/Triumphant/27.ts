@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Super pyro",
 			},
 			effect: {
-				en: "For each Fire Energy attached to Magmortar, discard the top card from your opponent's deck. Then, flip a coin. If tails, discard all Fire Energy attached to Magmortar.",
+				en: "For each Fire Energy attached to Magmortar, discard the top card from your opponent’s deck. Then, flip a coin. If tails, discard all Fire Energy attached to Magmortar.",
 				fr: "Pour chaque carte Énergie Fire attachée à Maganon, défaussez la carte du dessus du deck de votre adversaire. Lancez ensuite une pièce. Si c'est pile, défaussez toutes les cartes Énergie Fire attachées à Maganon.",
 			},
 

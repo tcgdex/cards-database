@@ -38,7 +38,7 @@ const card: Card = {
 				en: "You may do 40 damage plus 20 more damage. If you do, Machamp does 20 damage to itself.",
 				fr: "Vous pouvez infliger 40 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Mackogneur s'inflige 20 dégâts.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 		{
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Does 60 damage plus 10 more damage for each Fighting Energy attached to Machamp.",
 				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Fighting attachée à Mackogneur.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

@@ -38,7 +38,7 @@ const card: Card = {
 				en: "If your opponent has any Fighting Pokémon in play, this attack does 20 damage plus 60 more damage.",
 				fr: "Si votre adversaire dispose de n'importe quel Pokémon Fighting en jeu, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{

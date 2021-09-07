@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Does 20 damage plus 10 more damage for each damage counter on Pupitar.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât placé sur Ymphect.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

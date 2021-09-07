@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Vol gratuit",
 			},
 			effect: {
-				en: "If Yanma has no Energy attached to it, Yanma's Retreat Cost is 0.",
+				en: "If Yanma has no Energy attached to it, Yanma’s Retreat Cost is 0.",
 				fr: "Si aucune carte Énergie n'est attachée à Yanma, son Coût de retraite est de 0.",
 			},
 		},

@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Gonflette",
 			},
 			effect: {
-				en: "During your next turn, each of Lucario's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				en: "During your next turn, each of Lucario’s attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
 				fr: "Lors de votre prochain tour, chaque attaque de Lucario inflige 30 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 30,

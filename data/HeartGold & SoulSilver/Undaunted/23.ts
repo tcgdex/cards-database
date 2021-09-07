@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Vent frénétique",
 			},
 			effect: {
-				en: "During your next turn, Vespiquen's Retreat Cost is 0.",
+				en: "During your next turn, Vespiquen’s Retreat Cost is 0.",
 				fr: "Pendant votre prochain tour, le Coût de retraite d'Apireine est de 0.",
 			},
 			damage: 60,

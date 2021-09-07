@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Palkia & Dialga LEGEND",
 		fr: "Palkia & Dialga LÉGENDE",
 	},
-	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 160,
+
 	types: [
 		"Water",
 		"Metal",
 	],
-
 
 	suffix: "Legend",
 
@@ -36,11 +38,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	stage: "Basic",
+	retreat: 0
 }
 
 export default card

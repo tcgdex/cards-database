@@ -34,7 +34,7 @@ const card: Card = {
 				fr: "Double attaque",
 			},
 			effect: {
-				en: "Choose 2 of your opponent's Pokémon. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 2 of your opponent’s Pokémon. This attack does 20 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 2 des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à chacun d'entre eux. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 

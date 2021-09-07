@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Frap'Invisible",
 			},
 			effect: {
-				en: "During your opponent's next turn, if Scyther would be damaged by an attack, flip a coin. If heads, prevent that attack's damage done to Scyther.",
+				en: "During your opponent’s next turn, if Scyther would be damaged by an attack, flip a coin. If heads, prevent that attack’s damage done to Scyther.",
 				fr: "Pendant le prochain tour de votre adversaire, si Insécateur doit subir les dégâts d'une attaque, lancez une pièce. Si c'est face, Insécateur ne subit pas les",
 			},
 			damage: 20,

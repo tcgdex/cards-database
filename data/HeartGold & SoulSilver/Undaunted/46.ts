@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Lilliput",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Drifloon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to Drifloon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Baudrive par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 
@@ -46,7 +46,7 @@ const card: Card = {
 				fr: "Tirer",
 			},
 			effect: {
-				en: "Flip a coin. If heads, switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				en: "Flip a coin. If heads, switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, échangez le Pokémon Défenseur avec un Pokémon de Banc de votre adversaire.",
 			},
 

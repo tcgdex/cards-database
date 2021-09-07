@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Cizayox",
 	},
 	illustrator: "Noriko Hotta",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Armure rouge",
 			},
 			effect: {
-				en: "Prevent all damage done to Scizor by attacks from your opponent's Pokémon that have any Special Energy cards attached to them.",
+				en: "Prevent all damage done to Scizor by attacks from your opponent’s Pokémon that have any Special Energy cards attached to them.",
 				fr: "Évitez tous les dégâts d'attaque infligés à Cizayox par les Pokémon de votre adversaire auxquels sont attachées des cartes Énergie spéciale.",
 			},
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Does 30 damage plus 20 more damage for each Metal Energy attached to Scizor.",
 				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Metal attachée à Cizayox.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

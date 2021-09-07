@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Haunter",
 		fr: "Spectrum",
 	},
+
 	illustrator: "Takashi Yamaguchi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		93,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,7 +39,7 @@ const card: Card = {
 				fr: "Placement vicieux",
 			},
 			effect: {
-				en: "Put 2 damage counters on 1 of your opponent's Pokémon.",
+				en: "Put 2 damage counters on 1 of your opponent’s Pokémon.",
 				fr: "Placez 2 marqueurs de dégât sur l'un des Pokémon de votre adversaire.",
 			},
 
@@ -50,18 +54,20 @@ const card: Card = {
 				fr: "Poison dodo",
 			},
 			effect: {
-				en: "The Defending Pok��mon is now Asleep and Poisoned.",
+				en: "The Defending Pokémon is now Asleep and Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
@@ -69,9 +75,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Toutes les cartes Stade en jeu sont restituées dans la main de leur joueur !",
+		en: "Return any Stadium card in play to its player’s hand!"
 	},
 	trainerType: "Item",
 

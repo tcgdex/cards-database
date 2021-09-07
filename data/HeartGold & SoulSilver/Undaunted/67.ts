@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Volcan actif",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard the top card of your deck. If that card is a Fire Energy card, attach it to Slugma. This power can't be used if Slugma is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may discard the top card of your deck. If that card is a Fire Energy card, attach it to Slugma. This power can’t be used if Slugma is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser la carte du dessus de votre deck. S'il s'agit d'une carte Énergie Fire, attachez-la à Limagma. Ce pouvoir ne peut pas être utilisé si Limagma est affecté par un État Spécial.",
 			},
 		},

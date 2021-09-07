@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Signal d'énergie",
 			},
 			effect: {
-				en: "When you attach a Grass Energy card or Psychic Energy card from your hand to Roserade during your turn, you may use this power. If you attach a Grass Energy card, the Defending Pokémon is now Confused. If you attach a Psychic Energy card, the Defending Pokémon is now Poisoned. This power can't be used if Roserade is affected by a Special Condition.",
+				en: "When you attach a Grass Energy card or Psychic Energy card from your hand to Roserade during your turn, you may use this power. If you attach a Grass Energy card, the Defending Pokémon is now Confused. If you attach a Psychic Energy card, the Defending Pokémon is now Poisoned. This power can’t be used if Roserade is affected by a Special Condition.",
 				fr: "Lorsque vous attachez une carte Énergie Grass ou Énergie Psychic de votre main à Roserade, vous pouvez utiliser ce pouvoir. Si vous attachez une carte Énergie Grass, le Pokémon Défenseur est maintenant Confus. Si vous attachez une carte Énergie Psychic, le Pokémon Défenseur est maintenant Empoisonné. Ce pouvoir ne peut pas être utilisé si Roserade est affecté par un État Spécial.",
 			},
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Does 20 damage times the amount of Energy attached to Roserade.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie attachées à Roserade.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Mange-montagne",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck. Then, remove 2 damage counters from Larvitar.",
+				en: "Discard the top card of your opponent’s deck. Then, remove 2 damage counters from Larvitar.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire. Ensuite, retirez 2 marqueurs de dégât à Embrylex.",
 			},
 

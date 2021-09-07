@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Vent de Papipoison",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned. If tails, your Active Pokémon is now Poisoned. This power can't be used if Venomoth is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned. If tails, your Active Pokémon is now Poisoned. This power can’t be used if Venomoth is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné. Si c'est pile, votre Pokémon Actif est maintenant Empoisonné. Ce Poké-Power ne peut pas être utilisé si Aéromite est affecté par un État Spécial.",
 			},
 		},

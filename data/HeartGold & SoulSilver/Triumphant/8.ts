@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Esprit flamboyant",
 			},
 			effect: {
-				en: "Rapidash can't be Confused.",
+				en: "Rapidash can’t be Confused.",
 				fr: "Galopa ne peut pas être Confus.",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Anneau de feu",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned and can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon is now Burned and can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé et ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 			},
 			damage: 50,

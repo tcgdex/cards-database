@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Mackogneur",
 	},
 	illustrator: "Shizurow",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -70,7 +70,7 @@ const card: Card = {
 				en: "Does 100 damage plus 10 more damage for each of your Benched Pokémon that has any damage counters on it.",
 				fr: "Inflige 100 dégâts plus 10 dégâts supplémentaires pour chacun de vos Pokémon de Banc ayant des marqueurs de dégât.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 	],

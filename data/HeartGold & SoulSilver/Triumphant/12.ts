@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Enchevêtrement végétal",
 			},
 			effect: {
-				en: "As long as Victreebel is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
+				en: "As long as Victreebel is your Active Pokémon, your opponent’s Active Pokémon’s Retreat Cost is ColorlessColorless more.",
 				fr: "Tant qu'Empiflor est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ColorlessColorless.",
 			},
 		},

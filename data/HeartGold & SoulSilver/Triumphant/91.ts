@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Absol",
 	},
 	illustrator: "Hideaki Hakozaki",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -45,7 +45,7 @@ const card: Card = {
 				fr: "Pince vicieuse",
 			},
 			effect: {
-				en: "Choose 1 Pokémon from your hand and put it in the Lost Zone. (If you can't put a Pokémon in the Lost Zone, this attack does nothing.)",
+				en: "Choose 1 Pokémon from your hand and put it in the Lost Zone. (If you can’t put a Pokémon in the Lost Zone, this attack does nothing.)",
 				fr: "Choisissez un Pokémon dans votre main et placez-le dans la Zone Perdue. (Si vous ne pouvez pas, cette attaque ne fait rien.)",
 			},
 			damage: 70,
