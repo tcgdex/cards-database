@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at the top card of your deck. You may put it into your hand. If not, discard it and draw a card.",
-				fr: "Regardez la carte du dessus de votre deck. Vous pouvez l'ajouter à votre main.  Sinon, défaussez-la et piochez une carte.",
+				fr: "Regardez la carte du dessus de votre deck. Vous pouvez l’ajouter à votre main.  Sinon, défaussez-la et piochez une carte.",
 			},
 
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et vous devez défausser une carte Énergie qui lui est attachée.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé et vous devez défausser une carte Énergie qui lui est attachée.",
 			},
 			damage: 30,
 

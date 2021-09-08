@@ -29,11 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
-				fr: "Feux d'artifice",
+				fr: "Feux d’artifice",
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie Fire attachée à Goupix.",
+				fr: "Lancez une pièce. Si c’est pile, défaussez une carte Énergie Fire attachée à Goupix.",
 			},
 			damage: 20,
 

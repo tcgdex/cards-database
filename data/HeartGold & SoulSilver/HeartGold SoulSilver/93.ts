@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Retirez tous les États spéciaux de votre Pokémon actif.",
+		en: "Remove all Special Conditions from your Active Pokémon."
 	},
 	trainerType: "Item",
 

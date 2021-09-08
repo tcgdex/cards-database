@@ -32,7 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sludge Drag",
-				fr: "Gliss'Crade",
+				fr: "Gliss’Crade",
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon. The new Defending Pokémon is now Confused and Poisoned.",

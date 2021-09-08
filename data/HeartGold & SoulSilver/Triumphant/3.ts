@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at the top 5 cards of either player’s deck and put them back on top of that player’s deck in any order.",
-				fr: "Regardez les 5 cartes du dessus d'un deck (le vôtre ou celui de votre adversaire) et replacez-les au-dessus du même deck dans n'importe quel ordre.",
+				fr: "Regardez les 5 cartes du dessus d’un deck (le vôtre ou celui de votre adversaire) et replacez-les au-dessus du même deck dans n’importe quel ordre.",
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 30,
 

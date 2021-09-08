@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Boul’armure",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent's next turn.",
+				en: "Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent’s next turn.",
 				fr: "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à Sabelette par des attaques pendant le prochain tour de votre adversaire.",
 			},
 

@@ -4,7 +4,7 @@ import Set from '../Undaunted'
 const card: Card = {
 	name: {
 		en: "Energy Exchanger",
-		fr: "Chang'Énergie",
+		fr: "Chang’Énergie",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",

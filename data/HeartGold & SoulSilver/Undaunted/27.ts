@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
-				fr: "Lancez une pièce. Si c'est face, choisissez un État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
+				fr: "Lancez une pièce. Si c’est face, choisissez un État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
 			},
 			damage: 30,
 

@@ -33,7 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe",
+				fr: "Tranch’herbe",
 			},
 
 			damage: 30,
@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 50,
 

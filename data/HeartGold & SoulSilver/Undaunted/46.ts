@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, échangez le Pokémon Défenseur avec un Pokémon de Banc de votre adversaire.",
+				fr: "Lancez une pièce. Si c’est face, échangez le Pokémon Défenseur avec un Pokémon de Banc de votre adversaire.",
 			},
 
 		},

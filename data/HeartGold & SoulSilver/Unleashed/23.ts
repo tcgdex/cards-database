@@ -29,7 +29,7 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Energy Signal",
-				fr: "Signal d'énergie",
+				fr: "Signal d’énergie",
 			},
 			effect: {
 				en: "When you attach a Grass Energy card or Psychic Energy card from your hand to Roserade during your turn, you may use this power. If you attach a Grass Energy card, the Defending Pokémon is now Confused. If you attach a Psychic Energy card, the Defending Pokémon is now Poisoned. This power can’t be used if Roserade is affected by a Special Condition.",

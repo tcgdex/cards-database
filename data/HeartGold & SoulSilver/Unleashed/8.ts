@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, when you put Shaymin from your hand onto your Bench, you may move as many Energy cards attached to your Pokémon as you like to any of your other Pokémon.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Shaymin de votre main sur votre Banc, vous pouvez prendre une ou plusieurs cartes Énergie attachées à l'un de vos Pokémon et les attacher à un autre Pokémon.",
+				fr: "Une seule fois pendant votre tour, lorsque vous placez Shaymin de votre main sur votre Banc, vous pouvez prendre une ou plusieurs cartes Énergie attachées à l’un de vos Pokémon et les attacher à un autre Pokémon.",
 			},
 		},
 	],

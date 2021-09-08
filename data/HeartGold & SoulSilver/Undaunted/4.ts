@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If, before Gliscor does damage, the Defending Pokémon has no damage counters on it and is then damaged by this attack (after applying Weakness and Resistance), the Defending Pokémon is now Paralyzed.",
-				fr: "Si, avant que Scorvol n'inflige de dégâts, le Pokémon Défenseur n'a aucun marqueur de dégât et qu'il subit ensuite des dégâts à cause de cette attaque (après application de la Faiblesse et de la Résistance), il est maintenant Paralysé.",
+				fr: "Si, avant que Scorvol n’inflige de dégâts, le Pokémon Défenseur n’a aucun marqueur de dégât et qu’il subit ensuite des dégâts à cause de cette attaque (après application de la Faiblesse et de la Résistance), il est maintenant Paralysé.",
 			},
 			damage: 30,
 

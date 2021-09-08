@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "L’énergie doublement incolore fournit de l’énergie ColorlessColorless.",
+		en: "Double Colorless Energy provides 2 Colorless Energy."
 	},
 
 energyType: "Special",

@@ -38,7 +38,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, Gyarados does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c’est pile, Léviator s’inflige 20 dégâts.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{

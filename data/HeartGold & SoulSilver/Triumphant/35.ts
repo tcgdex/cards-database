@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Put 2 damage counters on 1 of your opponent’s Pokémon.",
-				fr: "Placez 2 marqueurs de dégât sur l'un des Pokémon de votre adversaire.",
+				fr: "Placez 2 marqueurs de dégât sur l’un des Pokémon de votre adversaire.",
 			},
 
 		},

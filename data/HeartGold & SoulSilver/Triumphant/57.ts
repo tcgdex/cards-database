@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec l'un des Pokémon de Banc de votre adversaire.",
+				fr: "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
 			},
 
 		},
@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Bellsprout does 10 damage to itself.",
-				fr: "Chetiflor s'inflige 10 dégâts.",
+				fr: "Chetiflor s’inflige 10 dégâts.",
 			},
 			damage: 20,
 

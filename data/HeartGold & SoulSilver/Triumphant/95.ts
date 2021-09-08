@@ -64,7 +64,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Champ Buster",
-				fr: "Explos'tout",
+				fr: "Explos’tout",
 			},
 			effect: {
 				en: "Does 100 damage plus 10 more damage for each of your Benched Pokémon that has any damage counters on it.",

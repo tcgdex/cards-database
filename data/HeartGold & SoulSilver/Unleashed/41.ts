@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud'pattes",
+				fr: "Coud’pattes",
 			},
 
 			damage: 20,

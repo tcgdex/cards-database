@@ -50,7 +50,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires. Si c’est pile, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: "50+",
 

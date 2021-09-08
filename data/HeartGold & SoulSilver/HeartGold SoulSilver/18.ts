@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque carte Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],

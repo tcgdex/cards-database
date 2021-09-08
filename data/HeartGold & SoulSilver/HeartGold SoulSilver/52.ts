@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Does 30 damage plus 20 more damage for each Psychic Energy attached to Slowbro.",
 				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Psychic attachée à Flagadoss.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

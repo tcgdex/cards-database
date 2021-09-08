@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				fr: "Lancez une pièce. Si c’est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 50,
 

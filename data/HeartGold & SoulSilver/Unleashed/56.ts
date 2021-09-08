@@ -26,7 +26,7 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Energy Healer",
-				fr: "Guérisseur d'énergie",
+				fr: "Guérisseur d’énergie",
 			},
 			effect: {
 				en: "Whenever you attach an Energy card from you hand to 1 of your Pokémon, remove 1 damage counter from that Pokémon.",

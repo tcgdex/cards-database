@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Lairon does 20 damage to itself.",
-				fr: "Galegon s'inflige 20 dégâts.",
+				fr: "Galegon s’inflige 20 dégâts.",
 			},
 			damage: 80,
 

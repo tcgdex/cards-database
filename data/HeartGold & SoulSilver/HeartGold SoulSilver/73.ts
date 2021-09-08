@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Électricité statique",
 			},
 			effect: {
-				en: "Search your deck for a number of Lightning Energy cards up to the number of Mareep in play (both yours and your opponent's) and attach them to Mareep. Shuffle your deck afterward.",
+				en: "Search your deck for a number of Lightning Energy cards up to the number of Mareep in play (both yours and your opponent’s) and attach them to Mareep. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck un nombre de cartes Énergie Lightning allant jusqu’au nombre de Wattouat en jeu (les vôtres et ceux de votre adversaire) et attachez-les à Wattouat. Mélangez ensuite votre deck.",
 			},
 

@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Lilliput",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Clefairy by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to Clefairy by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Mélofée par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 

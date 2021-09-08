@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Lance-pierre",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 50,
@@ -58,7 +58,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 70,
+			damage: "70×",
 
 		},
 	],

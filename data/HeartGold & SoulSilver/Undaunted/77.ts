@@ -23,8 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous jouez cette carte, placez-la près de votre Pokémon Actif. Une fois votre tour terminé, défaussez cette carte.",
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card."
+		fr: "Regardez les 5 cartes du dessus de votre deck. Choisissez-en 2 et ajoutez-les à votre main. Défaussez les autres cartes.",
+		en: "Look at the top 5 cards of your deck. Choose any 2 cards you find there and put them into your hand. Discard the other cards."
 	},
 	trainerType: "Supporter",
 

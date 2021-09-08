@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "",
 			},
 			effect: {
-				fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l'autre moitié de Palkia & Dialga LÉGENDE.",
+				fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l’autre moitié de Palkia & Dialga LÉGENDE.",
 			},
 
 		},

@@ -3,7 +3,7 @@ import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
+		en: "Farfetch’d",
 		fr: "Canarticho",
 	},
 	illustrator: "Aya Kusube",
@@ -46,7 +46,7 @@ const card: Card = {
 				fr: "Tournoyer",
 			},
 			effect: {
-				en: "Switch Farfetch'd with 1 of your Benched Pokémon.",
+				en: "Switch Farfetch’d with 1 of your Benched Pokémon.",
 				fr: "Échangez Canarticho avec un Pokémon de votre Banc.",
 			},
 			damage: 20,

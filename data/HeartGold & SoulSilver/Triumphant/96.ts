@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may draw cards until you have 6 cards in your hand. This power can’t be used if Magnezone is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher jusqu'à ce que vous ayez 6 cartes en main. Ce Poké-Power ne peut pas être utilisé si Magnézone est affecté par un État Spécial.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher jusqu’à ce que vous ayez 6 cartes en main. Ce Poké-Power ne peut pas être utilisé si Magnézone est affecté par un État Spécial.",
 			},
 		},
 	],

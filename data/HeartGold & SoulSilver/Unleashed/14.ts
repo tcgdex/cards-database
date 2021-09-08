@@ -53,7 +53,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hurricane Wing",
-				fr: "Tornad'aile",
+				fr: "Tornad’aile",
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",

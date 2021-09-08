@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Before doing damage, count the remaining HP of the Defending Pokémon and Wailord. If the Defending Pokémon has fewer remaining HP than Wailord, this attack does 50 damage plus 50 more damage.",
-				fr: "Avant d'infliger des dégâts, comptez les PV restant au Pokémon Défenseur et à Wailord. S'il reste moins de PV au Pokémon Défenseur qu'à Wailord, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires.",
+				fr: "Avant d’infliger des dégâts, comptez les PV restant au Pokémon Défenseur et à Wailord. S’il reste moins de PV au Pokémon Défenseur qu’à Wailord, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires.",
 			},
 			damage: "50+",
 

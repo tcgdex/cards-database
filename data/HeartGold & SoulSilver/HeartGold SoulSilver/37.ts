@@ -50,7 +50,7 @@ const card: Card = {
 				en: "Flip 2 coins. If both of them are heads, this attack does 20 damage plus 50 more damage.",
 				fr: "Lancez 2 pièces. Si les deux pièces tombent sur face, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

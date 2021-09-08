@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 40 damage plus 20 more damage. If you do, Machamp does 20 damage to itself.",
-				fr: "Vous pouvez infliger 40 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Mackogneur s'inflige 20 dégâts.",
+				fr: "Vous pouvez infliger 40 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Mackogneur s’inflige 20 dégâts.",
 			},
 			damage: "40+",
 

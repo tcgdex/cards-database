@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 
 		},
@@ -44,7 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'boule",
+				fr: "Coup d’boule",
 			},
 
 			damage: 20,

@@ -35,7 +35,7 @@ const card: Card = {
 				en: "Does 10 damage times the number of damage counters on Phanpy.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Phanpy.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

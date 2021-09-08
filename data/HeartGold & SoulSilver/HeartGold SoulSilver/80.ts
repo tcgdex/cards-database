@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Espion",
 			},
 			effect: {
-				en: "Look at your opponent's hand.",
+				en: "Look at your opponent’s hand.",
 				fr: "Regardez la main de votre adversaire.",
 			},
 

@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep. Switch Spoink with 1 of your Benched Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi. Échangez Spoink avec l'un de vos Pokémon de Banc.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi. Échangez Spoink avec l’un de vos Pokémon de Banc.",
 			},
 
 		},

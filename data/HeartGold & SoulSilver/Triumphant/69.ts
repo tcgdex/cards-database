@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Friend Search",
-				fr: "À la recherche d'amis",
+				fr: "À la recherche d’amis",
 			},
 			effect: {
 				en: "Look at the top 5 cards of your deck, choose 1 Pokémon you find there, show it to your opponent, and put it into your hand. Shuffle the other cards back into your deck.",

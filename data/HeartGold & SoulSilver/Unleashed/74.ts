@@ -4,7 +4,7 @@ import Set from '../Unleashed'
 const card: Card = {
 	name: {
 		en: "Energy Returner",
-		fr: "Récupérateur d'énergie",
+		fr: "Récupérateur d’énergie",
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Uncommon",

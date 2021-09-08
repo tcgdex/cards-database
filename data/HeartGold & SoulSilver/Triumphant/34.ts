@@ -46,7 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Strike",
-				fr: "Frap'éclair",
+				fr: "Frap’éclair",
 			},
 			effect: {
 				en: "You may do 40 damage plus 60 more damage. If you do, discard all Lightning Energy attached to Electrode.",

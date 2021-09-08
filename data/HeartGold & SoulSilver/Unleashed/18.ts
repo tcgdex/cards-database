@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -49,11 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reflect Energy",
-				fr: "Renvoi d'énergie",
+				fr: "Renvoi d’énergie",
 			},
 			effect: {
 				en: "Move an Energy card attached to Lanturn to 1 of your Benched Pokémon.",
-				fr: "Prenez une carte Énergie attachée à Lanturn et attachez-la à l'un des Pokémon de votre Banc.",
+				fr: "Prenez une carte Énergie attachée à Lanturn et attachez-la à l’un des Pokémon de votre Banc.",
 			},
 			damage: 60,
 

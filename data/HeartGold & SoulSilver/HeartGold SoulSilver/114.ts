@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Lugia LEGEND",
 		fr: "Lugia LÉGENDAIRE",
 	},
-	illustrator: "Shinji Higuchi",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		249,
 	],
@@ -19,8 +20,8 @@ const card: Card = {
 		"Water",
 	],
 
-
 	suffix: "Legend",
+
 	abilities: [
 		{
 			type: "Poke-POWER",
@@ -34,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,22 +55,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

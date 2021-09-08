@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Vision de nuit",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw a card. This power can't be used if Noctowl is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may draw a card. This power can’t be used if Noctowl is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial.",
 			},
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.",
 				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

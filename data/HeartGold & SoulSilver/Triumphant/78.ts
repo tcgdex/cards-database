@@ -29,11 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Flick",
-				fr: "Battement d'aile",
+				fr: "Battement d’aile",
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec l'un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange le Pokémon Défenseur avec l’un de ses Pokémon de Banc.",
 			},
 			damage: 10,
 

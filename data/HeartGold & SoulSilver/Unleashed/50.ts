@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Larvitar does 10 damage to itself.",
-				fr: "Embrylex s'inflige 10 dégâts.",
+				fr: "Embrylex s’inflige 10 dégâts.",
 			},
 			damage: 20,
 

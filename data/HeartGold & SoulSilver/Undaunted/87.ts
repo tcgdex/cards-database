@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Kyogre & Groudon LÉGENDE",
 	},
 
-	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	illustrator: "Shinji Higuchi + Sachiko Eba/樋口 真嗣 + 江場 左知子",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "",
 			},
 			effect: {
-				fr: "Placez cette carte sur votre Banc uniquement avec l'autre moitié de Kyogre & Groudon LÉGENDE.",
+				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Kyogre & Groudon LÉGENDE.",
 			},
 
 		},

@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Colorless",
+				"Grass",
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Leech Life",
 				fr: "Vampirisme",
 			},
 			effect: {
 				en: "Remove from Venomat the number of damage counters equal to the damage you did to the Definding Pokémon.",
 				fr: "Retirez à Mimitoss un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 		{

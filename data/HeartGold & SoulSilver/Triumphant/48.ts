@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire. Si c'est pile, cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire. Si c’est pile, cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 40,
 

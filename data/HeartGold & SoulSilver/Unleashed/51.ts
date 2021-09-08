@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
-				fr: "Coud'phalange",
+				fr: "Coud’phalange",
 			},
 
 			damage: 20,

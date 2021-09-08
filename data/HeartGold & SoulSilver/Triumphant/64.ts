@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Remove 3 damage counters from 1 of your Pokémon.",
-				fr: "Retirez 3 marqueurs de dégât à l'un de vos Pokémon.",
+				fr: "Retirez 3 marqueurs de dégât à l’un de vos Pokémon.",
 			},
 
 		},

@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Pichu",
 		fr: "Pichu",
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		172,
 	],
+
 	hp: 30,
+
 	types: [
 		"Lightning",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -49,11 +53,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

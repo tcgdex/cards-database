@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Copie",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
+				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand.",
 				fr: "Mélangez votre main dans votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes de la main de votre adversaire.",
 			},
 

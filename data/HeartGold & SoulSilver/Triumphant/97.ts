@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Mew can use the attacks of all of the Pokémon in the Lost Zone (both yours and your opponent’s). (You still need the necessary Energy to use each attack.)",
-				fr: "Mew peut utiliser les attaques de tous les Pokémon dans la Zone Perdue (les vôtres et ceux de votre adversaire). (Vous devrez néanmoins avoir suffisamment d'Énergie pour utiliser chaque attaque.)",
+				fr: "Mew peut utiliser les attaques de tous les Pokémon dans la Zone Perdue (les vôtres et ceux de votre adversaire). (Vous devrez néanmoins avoir suffisamment d’Énergie pour utiliser chaque attaque.)",
 			},
 		},
 	],

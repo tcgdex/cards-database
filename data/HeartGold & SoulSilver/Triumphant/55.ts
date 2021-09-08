@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw cards until you have the same number of cards in your hand as your opponent.",
-				fr: "Piochez jusqu'à ce que vous obteniez le même nombre de cartes dans votre main que votre adversaire.",
+				fr: "Piochez jusqu’à ce que vous obteniez le même nombre de cartes dans votre main que votre adversaire.",
 			},
 
 		},
@@ -43,7 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Punch",
-				fr: "Kogn'Keu",
+				fr: "Kogn’Keu",
 			},
 
 			damage: 10,

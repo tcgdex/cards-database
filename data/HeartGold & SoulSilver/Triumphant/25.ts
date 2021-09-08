@@ -46,7 +46,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.) Lunatone does 60 damage to itself.",
-				fr: "Cette attaque inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).(N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Seleroc s'inflige 60 dégâts.",
+				fr: "Cette attaque inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).(N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Seleroc s’inflige 60 dégâts.",
 			},
 			damage: 60,
 

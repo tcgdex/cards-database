@@ -34,7 +34,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hard Crush",
-				fr: "Écras'dur",
+				fr: "Écras’dur",
 			},
 			effect: {
 				en: "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.",

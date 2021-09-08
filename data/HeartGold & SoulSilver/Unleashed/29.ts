@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez jusqu'à ce que vous ayez 6 cartes en main.",
+				fr: "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
 			},
 			damage: 10,
 

@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare Bonus",
-				fr: "Bonus d'intimidation",
+				fr: "Bonus d’intimidation",
 			},
 			effect: {
 				en: "Discard a Fire Energy card from your hand. Then, draw 3 cards.",

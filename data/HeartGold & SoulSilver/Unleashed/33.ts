@@ -32,11 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Crane",
-				fr: "Grue d'énergie",
+				fr: "Grue d’énergie",
 			},
 			effect: {
 				en: "Search your discard pile for up to 2 Psychic Energy cards and attach them to your Pokémon in any way you like.",
-				fr: "Cherchez jusqu'à 2 cartes Énergie Psychic dans votre pile de défausse et attachez-les à vos Pokémon comme bon vous semble.",
+				fr: "Cherchez jusqu’à 2 cartes Énergie Psychic dans votre pile de défausse et attachez-les à vos Pokémon comme bon vous semble.",
 			},
 
 		},

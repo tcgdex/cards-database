@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Bronzor during your opponent’s next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'attaques (y compris les dégâts) infligés à Archéomire durant le prochain tour de votre adversaire.",
+				fr: "Lancez une pièce. Si c’est face, prévenez tous les effets d’attaques (y compris les dégâts) infligés à Archéomire durant le prochain tour de votre adversaire.",
 			},
 
 		},

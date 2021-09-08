@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Aqua-tranche",
 			},
 			effect: {
-				en: "Mantine can't attack during your next turn.",
+				en: "Mantine can’t attack during your next turn.",
 				fr: "Demanta ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 40,

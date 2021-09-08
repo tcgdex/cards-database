@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Cleffa",
 		fr: "Mélo",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		173,
 	],
+
 	hp: 30,
+
 	types: [
 		"Colorless",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -49,11 +53,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

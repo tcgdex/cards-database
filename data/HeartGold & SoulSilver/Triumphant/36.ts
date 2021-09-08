@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Spiral Punch",
-				fr: "Coup d'poing en demi spirale",
+				fr: "Coup d’poing en demi spirale",
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",

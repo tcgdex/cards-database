@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck jusqu'à deux cartes Pokémon de base et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				fr: "Cherchez dans votre deck jusqu’à deux cartes Pokémon de base et placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},

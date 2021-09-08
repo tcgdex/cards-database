@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn when you put Torkoal from your hand onto your Bench, you may flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Chartor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				fr: "Une seule fois pendant votre tour, lorsque vous placez Chartor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
 			},
 		},
 	],

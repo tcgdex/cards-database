@@ -43,7 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Cutter",
-				fr: "Tranch'Obscur",
+				fr: "Tranch’Obscur",
 			},
 
 			damage: 30,

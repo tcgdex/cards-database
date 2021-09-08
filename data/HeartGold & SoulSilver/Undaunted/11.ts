@@ -45,11 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Incessant Peck",
-				fr: "Rafal'Bec",
+				fr: "Rafal’Bec",
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce qu'elle tombe sur pile.  Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
+				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile.  Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "20+",
 

@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon for each Energy attached to Lickilicky. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez l'un des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon pour chaque carte Énergie attachée à Coudlangue. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon pour chaque carte Énergie attachée à Coudlangue. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},

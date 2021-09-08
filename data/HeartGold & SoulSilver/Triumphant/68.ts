@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch Magnemite with 1 of your Benched Pokémon.",
-				fr: "Échangez Magneti avec l'un de vos Pokémon de Banc.",
+				fr: "Échangez Magneti avec l’un de vos Pokémon de Banc.",
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 

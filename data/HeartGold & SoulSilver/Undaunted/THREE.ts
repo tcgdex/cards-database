@@ -4,7 +4,7 @@ import Set from '../Undaunted'
 const card: Card = {
 	name: {
 		en: "Alph Lithograph",
-		fr: "Lithographie d'Alph",
+		fr: "Lithographie d’Alph",
 	},
 	illustrator: "Milky Isobe",
 	rarity: "Rare",

@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fin Smack",
-				fr: "Coup d'aileron",
+				fr: "Coup d’aileron",
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",

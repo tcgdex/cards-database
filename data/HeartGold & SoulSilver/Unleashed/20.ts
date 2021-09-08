@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for up to 3 Fire Energy cards and attach them to 1 of your Pokémon.",
-				fr: "Cherchez dans votre pile de défausse jusqu'à 3 cartes Énergie Fire et attachez-les à l'un de vos Pokémon.",
+				fr: "Cherchez dans votre pile de défausse jusqu’à 3 cartes Énergie Fire et attachez-les à l’un de vos Pokémon.",
 			},
 
 		},

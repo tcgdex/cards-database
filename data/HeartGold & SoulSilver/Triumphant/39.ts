@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, retirez un marqueur de dégât au Pokémon Défenseur.",
+				fr: "Avant d’infliger des dégâts, retirez un marqueur de dégât au Pokémon Défenseur.",
 			},
 			damage: 30,
 

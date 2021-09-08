@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Gengar is your Active Pokémon, if any of your opponent’s Pokémon would be Knocked Out, put that Pokémon in the Lost Zone instead of discarding it. (Discard all cards attached to that Pokémon.)",
-				fr: "Tant qu'Ectoplasma est votre Pokémon Actif, si l'un des Pokémon de votre adversaire est mis K.O., placez ce Pokémon dans la Zone Perdue au lieu de le défausser. (Défaussez toutes les cartes attachées à ce Pokémon.)",
+				fr: "Tant qu’Ectoplasma est votre Pokémon Actif, si l’un des Pokémon de votre adversaire est mis K.O., placez ce Pokémon dans la Zone Perdue au lieu de le défausser. (Défaussez toutes les cartes attachées à ce Pokémon.)",
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Look at your opponent’s hand and choose a number of Pokémon you find there up to the number of Psychic Energy attached to Gengar. Put the Pokémon you chose in the Lost Zone.",
-				fr: "Regardez la main de votre adversaire et choisissez-y autant de Pokémon qu'il existe de cartes Énergie Psychic attachées à Ectoplasma. Placez les Pokémon que vous avez choisis dans la Zone Perdue.",
+				fr: "Regardez la main de votre adversaire et choisissez-y autant de Pokémon qu’il existe de cartes Énergie Psychic attachées à Ectoplasma. Placez les Pokémon que vous avez choisis dans la Zone Perdue.",
 			},
 
 		},

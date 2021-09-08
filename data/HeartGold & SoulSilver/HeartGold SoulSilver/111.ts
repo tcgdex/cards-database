@@ -6,29 +6,25 @@ const card: Card = {
 		en: "Ho-Oh LEGEND",
 		fr: "Ho-Oh LÉGENDAIRE",
 	},
-	illustrator: "Shinji Higuchi",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		250,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
 
-
 	suffix: "Legend",
-
-
-
-
-
-
-
-
+	stage: "Basic",
+	retreat: 0
 }
 
 export default card

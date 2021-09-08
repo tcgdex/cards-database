@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "",
 			},
 			effect: {
-				fr: "Placez cette carte sur votre Banc uniquement avec l'autre moitié de Darkrai & Cresselia LÉGENDE.",
+				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
 			},
 
 		},

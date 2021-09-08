@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Headstrike",
-				fr: "Double coup d'tête",
+				fr: "Double coup d’tête",
 			},
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",

@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Drifblim does 20 damage to itself.",
-				fr: "Grodrive s'inflige 20 dégâts.",
+				fr: "Grodrive s’inflige 20 dégâts.",
 			},
 			damage: 60,
 

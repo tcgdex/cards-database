@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est aussi Paralysé.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c’est face, le Pokémon Défenseur est aussi Paralysé.",
 			},
 			damage: 20,
 

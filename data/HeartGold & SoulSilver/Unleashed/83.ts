@@ -23,7 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Lancez une pièce. Si c'est face, reprenez dans votre main l'un de vos Pokémon ainsi que toutes les cartes qui lui sont attachées.",
+		fr: "Lancez une pièce. Si c’est face, reprenez dans votre main l’un de vos Pokémon ainsi que toutes les cartes qui lui sont attachées.",
+		en: "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand."
 	},
 	trainerType: "Item",
 

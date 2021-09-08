@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Remove 6 damage counters from 1 of your Benched Pokémon.",
-				fr: "Retirez 6 marqueurs de dégât à l'un des Pokémon de votre Banc.",
+				fr: "Retirez 6 marqueurs de dégât à l’un des Pokémon de votre Banc.",
 			},
 
 		},

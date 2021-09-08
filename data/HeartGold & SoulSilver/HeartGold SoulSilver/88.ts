@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Mouvemend’keu",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				en: "Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur ne peut pas attaquer durant le prochain tour de votre adversaire.",
 			},
 

@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Raikou & Suicune LEGEND",
 		fr: "Raikou & Suicune LÉGENDE (bas)",
 	},
-	illustrator: undefined,
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi + Noriko Takaya",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		243,
 	],
+
 	hp: 160,
+
 	types: [
 		"Lightning",
 		"Water",
 	],
-
 
 	suffix: "Legend",
 
@@ -35,7 +37,7 @@ const card: Card = {
 				fr: "Lance de tonnerre",
 			},
 			effect: {
-				en: "Raikou & Suicune LEGEND does 50 damage to itself, and don't apply Weakness to this damage.",
+				en: "Raikou & Suicune LEGEND does 50 damage to itself, and don’t apply Weakness to this damage.",
 				fr: "Raikou & Suicune LÉGENDE s'infligent 50 dégâts. N'appliquez pas la Faiblesse à ces dégâts.",
 			},
 			damage: 150,
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -71,9 +74,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

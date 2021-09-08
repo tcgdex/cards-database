@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent’s next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à Tygnon pendant le prochain tour de votre adversaire.",
+				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Tygnon pendant le prochain tour de votre adversaire.",
 			},
 
 		},

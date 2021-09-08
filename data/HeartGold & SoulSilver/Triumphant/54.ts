@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Inflige 10 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch Yanmega with 1 of your Benched Pokémon.",
-				fr: "Échangez Yanmega avec l'un de vos Pokémon de Banc.",
+				fr: "Échangez Yanmega avec l’un de vos Pokémon de Banc.",
 			},
 			damage: 50,
 

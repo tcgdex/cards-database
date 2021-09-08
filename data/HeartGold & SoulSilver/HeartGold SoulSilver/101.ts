@@ -3,7 +3,7 @@ import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Professor Oak's New Theory",
+		en: "Professor Oak’s New Theory",
 		fr: "Nouvelle théorie du Prof. Chen",
 	},
 	illustrator: "Ken Sugimori",
@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous ne pouvez jouer qu’une carte Supporter à chaque tour. Lorsque vous jouez cette carte, placez-la près de votre Pokémon actif. Une fois votre tour terminé, défaussez-vous de cette carte.",
+		en: "Shuffle your hand into your deck. Then, draw 6 cards."
 	},
 	trainerType: "Supporter",
 

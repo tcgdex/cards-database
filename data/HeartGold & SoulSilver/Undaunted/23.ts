@@ -50,7 +50,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "During your next turn, Vespiquen’s Retreat Cost is 0.",
-				fr: "Pendant votre prochain tour, le Coût de retraite d'Apireine est de 0.",
+				fr: "Pendant votre prochain tour, le Coût de retraite d’Apireine est de 0.",
 			},
 			damage: 60,
 

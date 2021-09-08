@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Igglybuff",
 		fr: "Toudoudou",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		174,
 	],
+
 	hp: 30,
+
 	types: [
 		"Colorless",
 	],
@@ -32,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -40,18 +44,14 @@ const card: Card = {
 				fr: "Graffiti",
 			},
 			effect: {
-				en: "Igglybuff is now Asleep. During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is Colorless more.",
+				en: "Igglybuff is now Asleep. During your opponent’s next turn, the attack cost of each of the Defending Pokémon’s attacks is Colorless more.",
 				fr: "Toudoudou est maintenant Endormi. Au prochain tour de votre adversaire, le coût de l’attaque de chaque Pokémon Défenseur est plus élevé de Colorless.",
 			},
 
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

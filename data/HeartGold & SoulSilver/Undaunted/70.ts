@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Ask your opponent if you may draw 2 cards. If yes, draw 2 cards. If no, this attack does 20 damage to the Defending Pokémon.",
-				fr: "Demandez à votre adversaire si vous pouvez piocher 2 cartes. S'il accepte, piochez 2 cartes. S'il refuse, cette attaque inflige 20 dégâts au Pokémon Défenseur.",
+				fr: "Demandez à votre adversaire si vous pouvez piocher 2 cartes. S’il accepte, piochez 2 cartes. S’il refuse, cette attaque inflige 20 dégâts au Pokémon Défenseur.",
 			},
 
 		},

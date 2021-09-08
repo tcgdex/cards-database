@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "During your next turn, Pineco’s Surprise Attack attack’s base damage is 80.",
-				fr: "Pendant votre prochain tour, l'Attaque surprise de Pomdepik inflige 80 dégâts de base.",
+				fr: "Pendant votre prochain tour, l’Attaque surprise de Pomdepik inflige 80 dégâts de base.",
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 			},
 			damage: 40,
 

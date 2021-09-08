@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 50 damage times the number of Special Conditions affecting the Defending Pokémon.",
-				fr: "Inflige 50 dégâts multipliés par le nombre d'États Spéciaux affectant le Pokémon Défenseur.",
+				fr: "Inflige 50 dégâts multipliés par le nombre d’États Spéciaux affectant le Pokémon Défenseur.",
 			},
 			damage: "50×",
 

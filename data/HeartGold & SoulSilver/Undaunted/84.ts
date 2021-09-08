@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Prevent all damage done to Scizor by attacks from your opponent’s Pokémon that have any Special Energy cards attached to them.",
-				fr: "Évitez tous les dégâts d'attaque infligés à Cizayox par les Pokémon de votre adversaire auxquels sont attachées des cartes Énergie spéciale.",
+				fr: "Évitez tous les dégâts d’attaque infligés à Cizayox par les Pokémon de votre adversaire auxquels sont attachées des cartes Énergie spéciale.",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Scissors",
-				fr: "Ciseaux d'acier",
+				fr: "Ciseaux d’acier",
 			},
 			effect: {
 				en: "Does 30 damage plus 20 more damage for each Metal Energy attached to Scizor.",

@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 2 Pokémon dans votre deck, montrez-les à votre adversaire et ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				fr: "Cherchez jusqu’à 2 Pokémon dans votre deck, montrez-les à votre adversaire et ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},

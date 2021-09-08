@@ -29,11 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Coat",
-				fr: "Manteau d'acier",
+				fr: "Manteau d’acier",
 			},
 			effect: {
 				en: "Search your deck for a Metal Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie Metal dans votre deck et attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
+				fr: "Cherchez une carte Énergie Metal dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
 			},
 
 		},

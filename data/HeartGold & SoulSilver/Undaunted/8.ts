@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Smeargle is your Active Pokémon, you may look at your opponent's hand. If you do, choose a Supporter card you find there and use the effect of that card as the effect of this power. This power can't be used if Smeargle is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Queulorior est votre Pokémon Actif, vous pouvez demander à voir la main de votre adversaire. Dans ce cas, choisissez l'une des cartes Supporter qui s'y trouvent et utilisez les effets de cette carte pour ce Poké-Power. Ce pouvoir ne peut pas être utilisé si Queulorior est affecté par un État Spécial.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si Queulorior est votre Pokémon Actif, vous pouvez demander à voir la main de votre adversaire. Dans ce cas, choisissez l’une des cartes Supporter qui s’y trouvent et utilisez les effets de cette carte pour ce Poké-Power. Ce pouvoir ne peut pas être utilisé si Queulorior est affecté par un État Spécial.",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Rap",
-				fr: "Frap'keu",
+				fr: "Frap’keu",
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",

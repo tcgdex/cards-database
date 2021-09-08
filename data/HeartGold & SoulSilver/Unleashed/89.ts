@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Ursaring",
 	},
 	illustrator: "Wataru Kawahara",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Fou-furieux",
 			},
 			effect: {
-				en: "If Ursaring has any damage counters on it, each of Ursaring's attacks does 60 more damage (before applying Weakness and Resistance).",
+				en: "If Ursaring has any damage counters on it, each of Ursaring’s attacks does 60 more damage (before applying Weakness and Resistance).",
 				fr: "Si Ursaring a des marqueurs de dégât, chacune de ses attaques inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Marto-Poing",
 			},
 			effect: {
-				en: "Discard the top card from your opponent's deck.",
+				en: "Discard the top card from your opponent’s deck.",
 				fr: "Défaussez la première carte du dessus du deck de votre adversaire.",
 			},
 			damage: 30,

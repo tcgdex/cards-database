@@ -45,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch Natu with 1 of your Benched Pokémon.",
-				fr: "Échangez Natu avec l'un des Pokémon de votre Banc.",
+				fr: "Échangez Natu avec l’un des Pokémon de votre Banc.",
 			},
 
 		},

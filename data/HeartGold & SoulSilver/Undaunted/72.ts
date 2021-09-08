@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Attachez Défenseur à l'un de vos Pokémon. Défaussez cette carte une fois le prochain tour de votre adversaire terminé. \nTous les dégâts d'attaque infligés par votre adversaire au Pokémon auquel Défenseur est attachée sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+		fr: "Attachez Défenseur à l’un de vos Pokémon. Défaussez cette carte une fois le prochain tour de votre adversaire terminé. \nTous les dégâts d’attaque infligés par votre adversaire au Pokémon auquel Défenseur est attachée sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 		en: "Attach Defender to 1 of your Pokémon. Discard this card  at the end of your opponent’s next turn. \nAny damage done to the Pokémon Defender is attached to by an opponent’s attack is reduced by 20 (after applying Weakness and Resistance)."
 	},
 	trainerType: "Item",

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pharamp",
 	},
 	illustrator: "Kent Kanetsuna",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si c’est pile, défaussez-vous d’une carte Énergie attachée au Pokémon Défenseur.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

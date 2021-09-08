@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous ne pouvez jouer qu’une carte Supporter à chaque tour. Lorsque vous jouez cette carte, placez-la près de votre Pokémon actif. Une fois votre tour terminé, défaussez-vous de cette carte.",
+		en: "Draw 2 cards."
 	},
 	trainerType: "Supporter",
 

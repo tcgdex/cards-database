@@ -45,7 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud'korne",
+				fr: "Koud’korne",
 			},
 
 			damage: 20,

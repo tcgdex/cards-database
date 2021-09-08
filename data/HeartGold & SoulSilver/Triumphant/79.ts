@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'boule",
+				fr: "Coup d’boule",
 			},
 
 			damage: 10,
@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Ball",
-				fr: "Ball'glace",
+				fr: "Ball’glace",
 			},
 
 			damage: 20,

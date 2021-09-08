@@ -57,7 +57,7 @@ const card: Card = {
 				en: "Does 40 damage plus 10 more damage for each damage counter on Granbull.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Granbull.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

@@ -4,7 +4,7 @@ import Set from '../Triumphant'
 const card: Card = {
 	name: {
 		en: "Alph Lithograph",
-		fr: "Lithographie d'Alpha",
+		fr: "Lithographie d’Alpha",
 	},
 	illustrator: "Milky Isobe",
 	rarity: "Rare",

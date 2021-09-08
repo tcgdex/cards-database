@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à l'un des Pokémon se trouvant sur le Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Inflige 20 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 40,
 
@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 40 more damage and the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: "60+",
 

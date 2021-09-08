@@ -43,11 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shock Bolt",
-				fr: "Choc'éclair",
+				fr: "Choc’éclair",
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard all Lightning Energy attached to Electabuzz.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les cartes Énergie Lightning attachées à Elektek.",
+				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les cartes Énergie Lightning attachées à Elektek.",
 			},
 			damage: 60,
 

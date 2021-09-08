@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Benched Pokémon. Put that Pokémon and all cards attached to it back into your opponent’s hand.",
-				fr: "Choisissez l'un des Pokémon de Banc de votre adversaire. Remettez ce Pokémon et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
+				fr: "Choisissez l’un des Pokémon de Banc de votre adversaire. Remettez ce Pokémon et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
 			},
 
 		},
@@ -62,7 +62,7 @@ const card: Card = {
 				fr: "",
 			},
 			effect: {
-				fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l'autre moitié de Palkia & Dialga LÉGENDE.",
+				fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l’autre moitié de Palkia & Dialga LÉGENDE.",
 			},
 
 		},

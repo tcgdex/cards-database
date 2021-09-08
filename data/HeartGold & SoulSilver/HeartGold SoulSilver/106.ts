@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Leuphorie",
 	},
 	illustrator: "Noriko Hotta",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

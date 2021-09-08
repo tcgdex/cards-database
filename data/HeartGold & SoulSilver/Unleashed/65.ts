@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Teddiursa does 10 damage to itself.",
-				fr: "Teddiursa s'inflige 10 dégâts.",
+				fr: "Teddiursa s’inflige 10 dégâts.",
 			},
 			damage: 20,
 

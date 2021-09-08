@@ -63,7 +63,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 2 of your opponent’s Benched Pokémon. This attack does 40 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 2 des Pokémon se trouvant sur le Banc de votre adversaire. Cette attaque inflige 40 dégâts à chacun d'entre eux. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Choisissez 2 des Pokémon se trouvant sur le Banc de votre adversaire. Cette attaque inflige 40 dégâts à chacun d’entre eux. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},

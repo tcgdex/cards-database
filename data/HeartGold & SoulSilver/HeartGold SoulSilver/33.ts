@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Tyrogue",
 		fr: "Debugant",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		236,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fighting",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -42,7 +46,7 @@ const card: Card = {
 				fr: "Coquipoing",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance. Tyrogue is now Asleep.",
+				en: "This attack’s damage isn’t affected by Weakness or Resistance. Tyrogue is now Asleep.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Debugant est maintenant Endormi.",
 			},
 			damage: 30,
@@ -50,11 +54,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

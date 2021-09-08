@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Donphan",
 	},
 	illustrator: "Kent Kanetsuna",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Séisme",
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 			},
 			damage: 60,

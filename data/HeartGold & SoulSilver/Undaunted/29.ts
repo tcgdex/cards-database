@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Metal Energy card and attach it to Lairon.",
-				fr: "Lancez une pièce. Si c'est face, récupérez une carte Énergie Metal dans votre pile de défausse et attachez-la à Galegon.",
+				fr: "Lancez une pièce. Si c’est face, récupérez une carte Énergie Metal dans votre pile de défausse et attachez-la à Galegon.",
 			},
 			damage: 20,
 

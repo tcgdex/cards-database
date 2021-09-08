@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez jusqu'à ce que vous ayez 6 cartes en main.",
+				fr: "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
 			},
 			damage: 30,
 
@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have more Prize cards left than your opponent, this attack does 50 damage plus 30 more damage.",
-				fr: "S'il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				fr: "S’il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
 			},
 			damage: "50+",
 

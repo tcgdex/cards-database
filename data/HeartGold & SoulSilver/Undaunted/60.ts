@@ -45,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Grass Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez un Pokémon Grass dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				fr: "Lancez une pièce. Si c’est face, cherchez un Pokémon Grass dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},

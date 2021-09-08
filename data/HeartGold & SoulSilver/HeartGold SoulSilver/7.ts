@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Rôtir",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can’t be used if Ninetales is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez vous défausser d’une carte Énergie Fire. Dans ce cas, piochez 3 cartes. Ce pouvoir ne peut pas être utilisé si Feunard est affecté par un État spécial.",
 			},
 		},
@@ -45,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-o'-the-wisp",
+				en: "Will-o’-the-wisp",
 				fr: "Feu follet",
 			},
 

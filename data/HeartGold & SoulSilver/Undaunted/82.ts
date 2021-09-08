@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Burned. This power can’t be used if Houndoom is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé. Ce pouvoir ne peut pas être utilisé si Démolosse est affecté par un État Spécial.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé. Ce pouvoir ne peut pas être utilisé si Démolosse est affecté par un État Spécial.",
 			},
 		},
 	],

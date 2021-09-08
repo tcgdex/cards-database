@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, Plusle does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Posipi s'inflige 10 dégâts.",
+				fr: "Lancez une pièce. Si c’est pile, Posipi s’inflige 10 dégâts.",
 			},
 			damage: 20,
 

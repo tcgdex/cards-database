@@ -33,7 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Bind",
-				fr: "Étreinte d'ombre",
+				fr: "Étreinte d’ombre",
 			},
 			effect: {
 				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",

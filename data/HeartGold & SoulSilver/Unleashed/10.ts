@@ -52,7 +52,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Crush",
-				fr: "Écras'terre",
+				fr: "Écras’terre",
 			},
 
 			damage: 80,

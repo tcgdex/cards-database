@@ -50,7 +50,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Pokémon. Flip a coin until you get tails. This attack does 50 damage times the number of heads to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez l'un des Pokémon de votre adversaire. Lancez une pièce jusqu'à ce qu'elle tombe sur pile. Cette attaque inflige à ce Pokémon 50 dégâts multipliés par le nombre de côtés face. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Choisissez l’un des Pokémon de votre adversaire. Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige à ce Pokémon 50 dégâts multipliés par le nombre de côtés face. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},

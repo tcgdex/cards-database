@@ -52,7 +52,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Swing",
-				fr: "Frappe d'acier",
+				fr: "Frappe d’acier",
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",

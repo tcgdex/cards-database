@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may move a Water Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can’t be used if Blastoise is affected by a Special Condition.",
-				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre une carte Énergie Water attachée à l'un des Pokémon de votre Banc et l'attacher à votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Tortank est affecté par un État Spécial.",
+				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre une carte Énergie Water attachée à l’un des Pokémon de votre Banc et l’attacher à votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Tortank est affecté par un État Spécial.",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Return 2 Water Energy attached to Blastoise to your hand. Choose 1 of your opponent’s Pokémon. This attack does 100 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Récupérez dans votre main 2 cartes Énergie Water attachées à Tortank. Choisissez l'un des Pokémon de votre adversaire. Cette attaque inflige 100 dégâts à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				fr: "Récupérez dans votre main 2 cartes Énergie Water attachées à Tortank. Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 100 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},

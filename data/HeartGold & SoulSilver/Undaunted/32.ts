@@ -29,11 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Charging Horn",
-				fr: "Corne d'attaque",
+				fr: "Corne d’attaque",
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
 			},
 			damage: "10+",
 

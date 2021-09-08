@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Super explosion",
 			},
 			effect: {
-				en: "Weezing does 90 damage to itself, and don't apply Weakness to this damage.",
+				en: "Weezing does 90 damage to itself, and don’t apply Weakness to this damage.",
 				fr: "Smogogo s’inflige 90 dégâts et n’appliquez pas la Faiblesse à ces dégâts.",
 			},
 			damage: 90,

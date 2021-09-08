@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The number of Benched Pokémon your opponent can have is now 4. If your opponent has 5 Benched Pokémon, your opponent must discard 1 of them and all cards attached to it.",
-				fr: "Le nombre de Pokémon de Banc de votre adversaire est maintenant limité à 4. Si votre adversaire a 5 Pokémon de Banc, il doit défausser l'un d'entre eux et toutes les cartes qui lui sont attachées.",
+				fr: "Le nombre de Pokémon de Banc de votre adversaire est maintenant limité à 4. Si votre adversaire a 5 Pokémon de Banc, il doit défausser l’un d’entre eux et toutes les cartes qui lui sont attachées.",
 			},
 		},
 	],

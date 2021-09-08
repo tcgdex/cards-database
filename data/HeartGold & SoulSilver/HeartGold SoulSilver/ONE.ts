@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Regardez la main de votre adversaire !",
+		en: "Look at your opponent’s hand!"
 	},
 	trainerType: "Item",
 

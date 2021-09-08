@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Move up to 4 damage counters from any of your Pokémon to any of your opponent’s Pokémon in any way you like.",
-				fr: "Retirez jusqu'à 4 marqueurs de dégât à vos Pokémon et placez-les comme vous le voulez sur les Pokémon de votre adversaire.",
+				fr: "Retirez jusqu’à 4 marqueurs de dégât à vos Pokémon et placez-les comme vous le voulez sur les Pokémon de votre adversaire.",
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 30,
 

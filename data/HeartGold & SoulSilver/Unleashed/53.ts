@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Koud'poing",
+				fr: "Koud’poing",
 			},
 
 			damage: 10,
