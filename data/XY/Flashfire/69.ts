@@ -3,11 +3,11 @@ import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "M Charizard-EX",
-		fr: "M Dracaufeu-EX",
+		en: "M Charizard EX",
+		fr: "M Dracaufeu EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -36,10 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wild Blaze",
-				fr: "Règle des Méga-Évolutions",
+				fr: "Feu Furieux",
 			},
 			effect: {
 				en: "Discard the top 5 cards of your deck.",
+				fr: "Défaussez les 5 cartes du dessus de votre deck."
 			},
 			damage: 300,
 

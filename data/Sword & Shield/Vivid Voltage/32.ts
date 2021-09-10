@@ -85,7 +85,20 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water."
+	}
 }
 
 export default card

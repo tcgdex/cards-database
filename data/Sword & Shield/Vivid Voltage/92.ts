@@ -81,7 +81,20 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon."
+	}
 }
 
 export default card

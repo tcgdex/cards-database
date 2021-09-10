@@ -55,6 +55,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
 	}
 }
 

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Minccino",
 		fr: "Chinchidou",
+		es: "Minccino",
+		it: "Minccino",
+		pt: "Minccino",
+		de: "Picochilla"
 	},
 	illustrator: "Tomohiro Kitakaze",
 	rarity: "Uncommon",

@@ -4,22 +4,29 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Zorua",
+		fr: "Zorua",
+		es: "Zorua",
+		it: "Zorua",
+		pt: "Zorua",
+		de: "Zorua"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		570,
 	],
+
 	hp: 60,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,12 +56,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -62,9 +71,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

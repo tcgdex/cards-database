@@ -7,6 +7,7 @@ const sm6: Set = {
 	name: {
 		en: "Forbidden Light",
 		fr: "Lumière Interdite",
+		es: "Luz Prohibida",
 		it: "Apocalisse Di Luce",
 		de: "Grauen Der Lichtfinsternis"
 	},
@@ -15,18 +16,10 @@ const sm6: Set = {
 	tcgOnline: "FLI",
 
 	cardCount: {
-		total: 146,
 		official: 131
 	},
 
-	releaseDate: "2018-05-04",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2018-05-04"
 }
 
 export default sm6

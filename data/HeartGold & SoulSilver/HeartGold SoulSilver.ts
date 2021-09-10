@@ -6,25 +6,20 @@ const hgss1: Set = {
 
 	name: {
 		en: "HeartGold SoulSilver",
-		fr: "HeartGold SoulSilver"
+		fr: "HeartGold SoulSilver",
+		es: "HeartGold SoulSilver",
+		it: "HeartGold SoulSilver",
+		de: "HeartGold SoulSilver"
 	},
 
 	serie: serie,
 	tcgOnline: "HS",
 
 	cardCount: {
-		total: 124,
 		official: 123
 	},
 
-	releaseDate: "2010-02-10",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2010-02-10"
 }
 
 export default hgss1

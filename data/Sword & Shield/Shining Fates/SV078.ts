@@ -70,7 +70,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
+	}
 }
 
 export default card

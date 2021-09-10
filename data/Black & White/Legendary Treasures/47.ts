@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Plusle",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		311,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -55,10 +58,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

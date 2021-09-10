@@ -72,7 +72,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If it has sunshine and water, it doesn’t need to eat, because it can generate energy from the leaves on its back."
+	}
 }
 
 export default card

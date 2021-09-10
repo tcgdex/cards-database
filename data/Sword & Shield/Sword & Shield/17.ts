@@ -56,7 +56,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "A constant collector of information, this Pokémon is very smart. Very strong is what it isn’t."
+	}
 }
 
 export default card

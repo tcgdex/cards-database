@@ -13,18 +13,10 @@ const ex15: Set = {
 	tcgOnline: "DF",
 
 	cardCount: {
-		total: 101,
 		official: 101
 	},
 
-	releaseDate: "2006-11-08",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2006-11-08"
 }
 
 export default ex15

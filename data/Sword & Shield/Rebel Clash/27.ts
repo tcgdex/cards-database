@@ -69,7 +69,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 80,
 	types: ["Fire"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+	}
 }
 
 export default card

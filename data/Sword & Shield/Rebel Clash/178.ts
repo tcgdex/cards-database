@@ -69,7 +69,17 @@ const card: Card = {
 	retreat: 2,
 	hp: 210,
 	types: ["Fire"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

@@ -80,7 +80,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back."
+	}
 }
 
 export default card

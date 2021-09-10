@@ -75,7 +75,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles."
+	}
 }
 
 export default card

@@ -86,7 +86,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It conceals itself in sandstorms that Flygon whip up and waits patiently for prey to appear."
+	}
 }
 
 export default card

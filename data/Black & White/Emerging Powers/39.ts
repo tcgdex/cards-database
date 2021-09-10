@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Whirlipede",
 		fr: "Scobolide",
+		es: "Whirlipede",
+		it: "Whirlipede",
+		pt: "Whirlipede",
+		de: "Rollum"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",

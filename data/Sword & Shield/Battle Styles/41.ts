@@ -66,6 +66,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
 	}
 }
 

@@ -83,7 +83,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames."
+	}
 }
 
 export default card

@@ -3,15 +3,15 @@ import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Ampharos-GX",
-		fr: "Pharamp-GX",
-		es: "Ampharos-GX",
-		it: "Ampharos-GX",
-		pt: "Ampharos-GX",
-		de: "Ampharos-GX"
+		en: "Ampharos GX",
+		fr: "Pharamp GX",
+		es: "Ampharos GX",
+		it: "Ampharos GX",
+		pt: "Ampharos GX",
+		de: "Ampharos GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

@@ -62,7 +62,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It defends itself by launching spikes, but its aim isn’t very good at first. Only after a lot of practice will it improve."
+	}
 }
 
 export default card

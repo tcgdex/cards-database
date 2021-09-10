@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Couafarel",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,8 +33,8 @@ const card: Card = {
 				fr: "Mâchoire Serrée",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 20,
 

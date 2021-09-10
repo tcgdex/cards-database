@@ -73,7 +73,20 @@ const card: Card = {
 
 	retreat: 2,
 	types: ["Darkness"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
+	}
 }
 
 export default card

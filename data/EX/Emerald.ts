@@ -13,18 +13,10 @@ const ex9: Set = {
 	tcgOnline: "EM",
 
 	cardCount: {
-		total: 107,
 		official: 106
 	},
 
-	releaseDate: "2005-05-09",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2005-05-09"
 }
 
 export default ex9

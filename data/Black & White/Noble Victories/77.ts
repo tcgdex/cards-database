@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Deino",
 		fr: "Solochi",
+		es: "Deino",
+		it: "Deino",
+		pt: "Deino",
+		de: "Kapuno"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",

@@ -85,7 +85,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It emits psychic energy to observe and study what’s around it—and what’s around it can include things over six miles away."
+	}
 }
 
 export default card

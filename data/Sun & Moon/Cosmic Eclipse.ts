@@ -7,6 +7,7 @@ const sm12: Set = {
 	name: {
 		en: "Cosmic Eclipse",
 		fr: "Éclipse Cosmique",
+		es: "Eclipse Cósmico",
 		it: "Eclissi Cosmica",
 		de: "Welten im Wandel"
 	},
@@ -15,18 +16,10 @@ const sm12: Set = {
 	tcgOnline: "CEC",
 
 	cardCount: {
-		total: 271,
 		official: 236
 	},
 
-	releaseDate: "2019-11-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-11-01"
 }
 
 export default sm12

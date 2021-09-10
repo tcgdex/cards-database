@@ -86,7 +86,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Living in mud with a high iron content has given it a strong steel body."
+	}
 }
 
 export default card

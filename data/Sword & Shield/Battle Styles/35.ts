@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly."
 	}
 }
 

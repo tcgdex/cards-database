@@ -81,7 +81,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 90,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed."
+	}
 }
 
 export default card

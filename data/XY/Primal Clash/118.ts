@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Bâillement",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 80 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 80,
+			damage: "80×",
 
 		},
 	],

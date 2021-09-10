@@ -6,25 +6,19 @@ const dp3: Set = {
 
 	name: {
 		en: "Secret Wonders",
-		fr: "Merveilles Secrètes"
+		fr: "Merveilles Secrètes",
+		es: "Maravillas Secretas",
+		it: "Prodigi Segreti"
 	},
 
 	serie: serie,
 	tcgOnline: "SW",
 
 	cardCount: {
-		total: 132,
 		official: 132
 	},
 
-	releaseDate: "2007-11-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2007-11-01"
 }
 
 export default dp3

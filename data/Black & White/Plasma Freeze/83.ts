@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dragonite",
 		fr: "Dracolosse",
+		es: "Dragonite",
+		it: "Dragonite",
+		pt: "Dragonite",
+		de: "Dragoran"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Rare",

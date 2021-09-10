@@ -84,7 +84,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "From its mouth, it fires the seeds of berries it has eaten. The scattered seeds give rise to new plants."
+	}
 }
 
 export default card

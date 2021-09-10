@@ -13,18 +13,10 @@ const s2012bw: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 12,
 		official: 12
 	},
 
-	releaseDate: "2012-06-15",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-06-15"
 }
 
 export default s2012bw

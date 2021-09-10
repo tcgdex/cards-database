@@ -6,25 +6,19 @@ const swshp: Set = {
 
 	name: {
 		en: "SWSH Black Star Promos",
-		fr: "Promo SWSH"
-,
+		fr: "Promo SWSH",
+		es: "Cartas de promoción ESES",
+		it: "SPSC Promo",
+		de: "SCSC Promokarten"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		total: 107,
 		official: 107
 	},
 
-	releaseDate: "2019-11-15",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-11-15"
 }
 
 export default swshp

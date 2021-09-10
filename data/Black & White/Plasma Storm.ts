@@ -6,25 +6,20 @@ const bw8: Set = {
 
 	name: {
 		en: "Plasma Storm",
-		fr: "Tempète Plasma"
+		fr: "Tempète Plasma",
+		es: "Tormenta Plasma",
+		it: "Uragano Plasma",
+		de: "Plasma-Sturm"
 	},
 
 	serie: serie,
 	tcgOnline: "PLS",
 
 	cardCount: {
-		total: 138,
 		official: 135
 	},
 
-	releaseDate: "2013-02-06",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2013-02-06"
 }
 
 export default bw8

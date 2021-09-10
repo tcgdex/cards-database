@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It has an easygoing nature. It doesn’t care if it bumps its head on boats and boulders while swimming."
+	}
 }
 
 export default card

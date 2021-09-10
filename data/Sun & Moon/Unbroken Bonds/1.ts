@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Pheromosa & Buzzwole-GX",
-		fr: "Cancrelove et Mouscoto-GX",
-		es: "Pheromosa y Buzzwole-GX",
-		it: "Pheromosa e Buzzwole-GX",
-		pt: "Pheromosa e Buzzwole-GX",
-		de: "Schabelle & Masskito-GX"
+		en: "Pheromosa & Buzzwole GX",
+		fr: "Cancrelove et Mouscoto GX",
+		es: "Pheromosa y Buzzwole GX",
+		it: "Pheromosa e Buzzwole GX",
+		pt: "Pheromosa e Buzzwole GX",
+		de: "Schabelle & Masskito GX"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

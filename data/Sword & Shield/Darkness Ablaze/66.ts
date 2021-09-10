@@ -76,7 +76,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around."
+	}
 }
 
 export default card

@@ -6,26 +6,20 @@ const xy2: Set = {
 
 	name: {
 		en: "Flashfire",
-		fr: "Étincelles"
-,
+		fr: "Étincelles",
+		es: "Destellos de Fuego",
+		it: "Fuoco Infernale",
+		de: "Flammenmeer"
 	},
 
 	serie: serie,
 	tcgOnline: "FLF",
 
 	cardCount: {
-		total: 109,
 		official: 106
 	},
 
-	releaseDate: "2014-05-07",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2014-05-07"
 }
 
 export default xy2

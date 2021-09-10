@@ -3,11 +3,11 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "M Lucario-EX",
-		fr: "M-Lucario-EX",
+		en: "M Lucario EX",
+		fr: "M Lucario EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Poing Imminent",
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 140,

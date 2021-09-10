@@ -7,6 +7,7 @@ const sm1: Set = {
 	name: {
 		en: "Sun & Moon",
 		fr: "Soleil et Lune",
+		es: "Sol y Luna",
 		it: "Sole e Luna",
 		de: "Sonne & Mond"
 	},
@@ -15,18 +16,10 @@ const sm1: Set = {
 	tcgOnline: "SUM",
 
 	cardCount: {
-		total: 172,
 		official: 149
 	},
 
-	releaseDate: "2017-02-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-02-03"
 }
 
 export default sm1

@@ -81,7 +81,20 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves."
+	}
 }
 
 export default card

@@ -6,25 +6,20 @@ const dpp: Set = {
 
 	name: {
 		en: "DP Black Star Promos",
-		fr: "Promo DP"
+		fr: "Promo DP",
+		es: "Promo DP",
+		it: "Promo DP",
+		de: "Promo DP"
 	},
 
 	serie: serie,
 	tcgOnline: "PR-DPP",
 
 	cardCount: {
-		total: 56,
 		official: 56
 	},
 
-	releaseDate: "2007-05-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2007-05-01"
 }
 
 export default dpp

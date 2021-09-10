@@ -59,7 +59,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Psychic"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas."
+	}
 }
 
 export default card

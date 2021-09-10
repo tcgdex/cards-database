@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Plasma Energy",
 		fr: "Énergie Plasma",
+		es: "Energía Plasma",
+		it: "Energia Plasma",
+		pt: "Energia de Plasma",
+		de: "Plasma-Energie"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
@@ -12,21 +16,15 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
 	effect: {
-		fr: "Cette carte fournit de l'Énergie Colorless.",
+		fr: "Cette carte fournit de l’Énergie Colorless.",
+		en: "This card provides Colorless Energy.",
+		es: "Esta carta proporciona Energía Colorless.",
+		it: "Cette carte fournit de l’Énergie Colorless.",
+		pt: "Este card fornece Energia Colorless.",
+		de: "Diese Karte liefert Colorless-Energie."
 	},
-	trainerType: "Tool",
-energyType: "Special",
+	energyType: "Special",
 }
 
 export default card

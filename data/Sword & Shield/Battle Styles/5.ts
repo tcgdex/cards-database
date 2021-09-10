@@ -80,6 +80,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Packs of them follow travelers through the desert until the travelers can no longer move."
 	}
 }
 

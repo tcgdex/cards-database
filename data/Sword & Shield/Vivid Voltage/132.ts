@@ -82,7 +82,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+	}
 }
 
 export default card

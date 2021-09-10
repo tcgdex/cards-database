@@ -84,7 +84,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 140,
 	types: ["Colorless"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones."
+	}
 }
 
 export default card

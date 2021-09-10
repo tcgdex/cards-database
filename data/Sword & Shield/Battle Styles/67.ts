@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging."
 	}
 }
 

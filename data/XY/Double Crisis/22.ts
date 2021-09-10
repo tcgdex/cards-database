@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Zangoose",
+		en: "Team Magma’s Zangoose",
 		fr: "Mangriff de la Team Magma",
 	},
 	illustrator: "Shin Nagasawa",
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the number of Team Magma Pokémon on your Bench.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon de la Team Magma sur votre Banc.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

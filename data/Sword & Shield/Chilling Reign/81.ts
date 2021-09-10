@@ -81,6 +81,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Sharply attuned to others’ wishes for help, this Pokémon seeks out those in need and aids them in battle."
 	}
 }
 

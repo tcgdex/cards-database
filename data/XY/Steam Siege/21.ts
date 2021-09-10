@@ -5,25 +5,33 @@ const card: Card = {
 	name: {
 		en: "Talonflame BREAK",
 		fr: "Flambusard TURBO",
+		es: "Talonflame TURBO",
+		it: "Talonflame TURBO",
+		pt: "Talonflame TURBO",
+		de: "Fiaro-TURBO"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		663,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Talonflame",
 		fr: "Flambusard",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -33,35 +41,26 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare Blitz",
-				fr: "Règle des Évolutions TURBO",
+				fr: "Boutefeu",
+				es: "Envite Ígneo",
+				it: "Fuococarica",
+				pt: "Blitz de Labaredas",
+				de: "Flammenblitz"
 			},
 			effect: {
 				en: "Discard all Fire Energy attached to this Pokémon.",
-			},
-			damage: 150,
-
-		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-			],
-			name: {
-				fr: "Boutefeu",
-			},
-			effect: {
 				fr: "Défaussez toutes les Énergies Fire attachées à ce Pokémon.",
+				es: "Descarta todas las Energías Fire unidas a este Pokémon.",
+				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
+				pt: "Descarte toda a Energia Fire ligada a este Pokémon.",
+				de: "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 
-		},
+		}
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

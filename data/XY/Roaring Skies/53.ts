@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Écho Mélodique",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of Benched Pokémon (both yours and your opponent's).",
+				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of Benched Pokémon (both yours and your opponent’s).",
 				fr: "Mélangez votre main avec votre deck. Ensuite, piochez un nombre de cartes égal au nombre de Pokémon de Banc (les vôtres et ceux de votre adversaire).",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Yeux de Minuit",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 30,

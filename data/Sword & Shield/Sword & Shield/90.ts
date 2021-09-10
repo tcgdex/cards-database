@@ -92,7 +92,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
+	}
 }
 
 export default card

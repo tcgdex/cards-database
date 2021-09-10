@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Latios-EX",
 		fr: "Latios-EX",
+		es: "Latios-EX",
+		it: "Latios-EX",
+		pt: "Latios-EX",
+		de: "Latios-EX"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",

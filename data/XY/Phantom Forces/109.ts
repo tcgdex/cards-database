@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Ajoutez une carte Supporter de votre pile de défausse à votre main.",
+		en: "Put a Supporter card from your discard pile into your hand."
 	},
 	trainerType: "Item",
 

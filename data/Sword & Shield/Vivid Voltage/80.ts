@@ -70,7 +70,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
+	}
 }
 
 export default card

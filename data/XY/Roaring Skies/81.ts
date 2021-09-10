@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Unfezant",
 		fr: "Déflaisan",
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		521,
 	],
+
 	hp: 140,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Tranquill",
 		fr: "Colombeau",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -29,12 +34,15 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Évolution Δ",
+				en: "Δ Evolution"
 			},
 			effect: {
 				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
+				en: "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon."
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -46,7 +54,7 @@ const card: Card = {
 				fr: "Danse-Plume",
 			},
 			effect: {
-				en: "During your next turn, each of this Pokémon's attacks does 80 more damage (before applying Weakness and Resistance).",
+				en: "During your next turn, each of this Pokémon’s attacks does 80 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 
@@ -69,12 +77,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -82,9 +92,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

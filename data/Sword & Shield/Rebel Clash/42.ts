@@ -83,7 +83,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 120,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+	}
 }
 
 export default card

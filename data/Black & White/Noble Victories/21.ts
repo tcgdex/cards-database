@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Volcarona",
 		fr: "Pyrax",
+		es: "Volcarona",
+		it: "Volcarona",
+		pt: "Volcarona",
+		de: "Ramoth"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",

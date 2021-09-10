@@ -73,7 +73,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+	}
 }
 
 export default card

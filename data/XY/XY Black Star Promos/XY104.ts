@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Mawile-EX",
-		fr: "M-Mysdibule-EX",
+		en: "M Mawile EX",
+		fr: "M Mysdibule EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Lutte Duo",
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Flip 2 coins. For each heads, discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 130,

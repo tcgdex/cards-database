@@ -65,7 +65,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
+	}
 }
 
 export default card

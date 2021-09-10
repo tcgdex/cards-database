@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				fr: "Vous pouvez demander à votre adversaire d’échanger son Pokémon Actif avec l’un de ses Pokémon de Banc.",
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.",
 				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

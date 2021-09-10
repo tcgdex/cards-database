@@ -52,7 +52,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 70,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper."
+	}
 }
 
 export default card

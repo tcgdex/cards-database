@@ -73,7 +73,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move."
+	}
 }
 
 export default card

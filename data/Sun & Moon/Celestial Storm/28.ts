@@ -3,15 +3,15 @@ import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Blaziken-GX",
-		fr: "Braségali-GX",
-		es: "Blaziken-GX",
-		it: "Blaziken-GX",
-		pt: "Blaziken-GX",
-		de: "Lohgock-GX"
+		en: "Blaziken GX",
+		fr: "Braségali GX",
+		es: "Blaziken GX",
+		it: "Blaziken GX",
+		pt: "Blaziken GX",
+		de: "Lohgock GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

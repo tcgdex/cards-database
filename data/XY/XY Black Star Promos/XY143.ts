@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Magicarpe",
 	},
 	illustrator: "Saya Tsuruta",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

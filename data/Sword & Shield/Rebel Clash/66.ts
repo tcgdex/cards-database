@@ -85,7 +85,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 150,
 	types: ["Lightning"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams."
+	}
 }
 
 export default card

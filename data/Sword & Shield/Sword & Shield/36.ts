@@ -86,8 +86,19 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1,
-	regulationMark: "D"
+	retreat: 2,
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched."
+	}
 }
 
 export default card

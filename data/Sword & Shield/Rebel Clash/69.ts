@@ -74,7 +74,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 130,
 	types: ["Lightning"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "When this Pokémon sounds as if it’s strumming a guitar, it’s actually clawing at the protrusions on its chest to generate electricity."
+	}
 }
 
 export default card

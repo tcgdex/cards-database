@@ -88,7 +88,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its body resembles polished metal, and it’s both lightweight and strong. The only drawback is that it rusts easily."
+	}
 }
 
 export default card

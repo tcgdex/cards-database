@@ -4,22 +4,29 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		133,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +43,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -43,10 +51,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

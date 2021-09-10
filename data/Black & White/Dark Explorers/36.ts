@@ -4,24 +4,33 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Swanna",
+		fr: "Lakmécygne",
+		es: "Swanna",
+		it: "Swanna",
+		pt: "Swanna",
+		de: "Swaroness"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		581,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Ducklett",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -65,9 +76,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

@@ -68,7 +68,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
+	}
 }
 
 export default card

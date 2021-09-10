@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Solrock",
 		fr: "Solaroc",
+		es: "Solrock",
+		it: "Solrock",
+		pt: "Solrock",
+		de: "Sonnfel"
 	},
 	illustrator: "Kouji Tajima",
 	rarity: "Uncommon",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Magmar",
 		fr: "Magmar",
+		es: "Magmar",
+		it: "Magmar",
+		pt: "Magmar",
+		de: "Magmar"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",

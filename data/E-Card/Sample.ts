@@ -12,18 +12,10 @@ const sp: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 10,
 		official: 10
 	},
 
-	releaseDate: "2002-08-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2002-08-01"
 }
 
 export default sp

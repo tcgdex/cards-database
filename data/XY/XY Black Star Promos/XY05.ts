@@ -27,16 +27,16 @@ const card: Card = {
 			cost: [
 				"Fairy",
 			],
+
 			name: {
 				en: "Geomancy",
-				fr: "Mort-Ailes",
+				fr: "Géo-Contrôle",
 			},
+
 			effect: {
 				en: "Choose 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a Fairy Energy card and attach it to that Pokémon. Shuffle your deck afterward.",
-				fr: "Attachez une carte Énergie Darkness de votre pile de défausse à l'un de vos Pokémon de Banc.",
-			},
-			damage: 30,
-
+				fr: "Choisissez 2 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez une carte Énergie Fairy dans votre deck et attachez-la au Pokémon choisi. Mélangez ensuite votre deck.",
+			}
 		},
 		{
 			cost: [
@@ -46,11 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rainbow Spear",
-				fr: "Lame Obscure",
+				fr: "Javelot Arc-En-Ciel",
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				fr: "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 100,
 

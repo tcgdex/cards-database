@@ -3,15 +3,15 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Machamp-GX",
-		fr: "Mackogneur-GX",
-		es: "Machamp-GX",
-		it: "Machamp-GX",
-		pt: "Machamp-GX",
-		de: "Machomei-GX"
+		en: "Machamp GX",
+		fr: "Mackogneur GX",
+		es: "Machamp GX",
+		it: "Machamp GX",
+		pt: "Machamp GX",
+		de: "Machomei GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

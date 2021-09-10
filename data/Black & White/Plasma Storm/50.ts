@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Joltik",
 		fr: "Statitik",
+		es: "Joltik",
+		it: "Joltik",
+		pt: "Joltik",
+		de: "Wattzapf"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",

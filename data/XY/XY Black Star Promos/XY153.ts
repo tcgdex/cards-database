@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh",
+		en: "Ho Oh",
 		fr: "Ho-Oh",
 	},
 	illustrator: "You Iribi",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for up to 2 Fire Energy cards and attach them to this Pokémon. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez jusqu'à 2 cartes Énergie Fire dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+				fr: "Lancez une pièce. Si c’est face, cherchez jusqu’à 2 cartes Énergie Fire dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
 			},
 
 		},

@@ -3,15 +3,15 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Genesect-GX",
-		fr: "Genesect-GX",
-		es: "Genesect-GX",
-		it: "Genesect-GX",
-		pt: "Genesect-GX",
-		de: "Genesect-GX"
+		en: "Genesect GX",
+		fr: "Genesect GX",
+		es: "Genesect GX",
+		it: "Genesect GX",
+		pt: "Genesect GX",
+		de: "Genesect GX"
 	},
 	illustrator: "Yoshinobu Saito",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

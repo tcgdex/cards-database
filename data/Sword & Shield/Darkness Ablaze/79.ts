@@ -71,7 +71,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Pokémon living in the forest eat the delicious caps on Morelull’s head. The caps regrow overnight."
+	}
 }
 
 export default card

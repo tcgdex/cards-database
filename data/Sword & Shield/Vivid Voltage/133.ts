@@ -63,7 +63,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
+	}
 }
 
 export default card

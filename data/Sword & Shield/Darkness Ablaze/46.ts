@@ -60,7 +60,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "By drinking pure water, it grows its icy body. This Pokémon can be hard to find on days with warm, sunny weather."
+	}
 }
 
 export default card

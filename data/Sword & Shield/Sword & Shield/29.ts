@@ -82,7 +82,18 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation."
+	}
 }
 
 export default card

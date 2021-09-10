@@ -6,26 +6,19 @@ const pl2: Set = {
 
 	name: {
 		en: "Rising Rivals",
-		fr: "Rivaux Émergeants"
-,
+		fr: "Rivaux Émergeants",
+		it: "L'Ascesa dei Rivali",
+		de: "Aufstieg der Rivalen"
 	},
 
 	serie: serie,
 	tcgOnline: "RR",
 
 	cardCount: {
-		total: 120,
 		official: 111
 	},
 
-	releaseDate: "2009-05-16",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2009-05-16"
 }
 
 export default pl2

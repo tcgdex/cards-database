@@ -85,7 +85,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting."
+	}
 }
 
 export default card

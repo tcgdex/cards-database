@@ -6,25 +6,19 @@ const dp5: Set = {
 
 	name: {
 		en: "Majestic Dawn",
-		fr: "Aube Majestueuse"
+		fr: "Aube Majestueuse",
+		it: "Alba Suprema",
+		de: "Majestätischer Morgen"
 	},
 
 	serie: serie,
 	tcgOnline: "MD",
 
 	cardCount: {
-		total: 100,
 		official: 100
 	},
 
-	releaseDate: "2008-05-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2008-05-01"
 }
 
 export default dp5

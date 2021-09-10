@@ -65,7 +65,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track."
+	}
 }
 
 export default card

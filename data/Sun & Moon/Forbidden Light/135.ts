@@ -3,12 +3,12 @@ import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Lucario-GX",
-		fr: "Lucario-GX",
-		es: "Lucario-GX",
-		it: "Lucario-GX",
-		pt: "Lucario-GX",
-		de: "Lucario-GX"
+		en: "Lucario GX",
+		fr: "Lucario GX",
+		es: "Lucario GX",
+		it: "Lucario GX",
+		pt: "Lucario GX",
+		de: "Lucario GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

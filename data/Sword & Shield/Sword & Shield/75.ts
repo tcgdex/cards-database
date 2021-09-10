@@ -88,7 +88,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	description: {
+		en: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days."
+	}
 }
 
 export default card

@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Altaria",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		334,
 	],
+
 	hp: 80,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Swablu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -59,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

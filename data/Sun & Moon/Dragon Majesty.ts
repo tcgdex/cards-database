@@ -7,6 +7,7 @@ const sm75: Set = {
 	name: {
 		en: "Dragon Majesty",
 		fr: "Majesté Des Dragons",
+		es: "Majestad De Dragones",
 		it: "Trionfo Dei Draghi",
 		de: "Majestät Der Drachen"
 	},
@@ -15,18 +16,10 @@ const sm75: Set = {
 	tcgOnline: "DRM",
 
 	cardCount: {
-		total: 78,
 		official: 70
 	},
 
-	releaseDate: "2018-09-07",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2018-09-07"
 }
 
 export default sm75

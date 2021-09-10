@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Mud that hardens around a Mudsdale’s legs sets harder than stone. It’s so hard that it allows this Pokémon to scrap a truck with a single kick."
+	}
 }
 
 export default card

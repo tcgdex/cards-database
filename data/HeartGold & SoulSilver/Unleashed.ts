@@ -6,25 +6,20 @@ const hgss2: Set = {
 
 	name: {
 		en: "Unleashed",
-		fr: "Déchaînement"
+		fr: "Déchaînement",
+		es: "Liberados",
+		it: "Forze Scatenate",
+		de: "Entfesselt"
 	},
 
 	serie: serie,
 	tcgOnline: "UL",
 
 	cardCount: {
-		total: 96,
 		official: 95
 	},
 
-	releaseDate: "2010-05-12",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2010-05-12"
 }
 
 export default hgss2

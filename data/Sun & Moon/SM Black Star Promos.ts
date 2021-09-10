@@ -7,6 +7,7 @@ const smp: Set = {
 	name: {
 		en: "SM Black Star Promos",
 		fr: "Promo SM",
+		es: "SL Cartas de promoción",
 		it: "SL Promo",
 		de: "SM Promokarten"
 	},
@@ -15,18 +16,10 @@ const smp: Set = {
 	tcgOnline: "PR-SM",
 
 	cardCount: {
-		total: 238,
 		official: 236
 	},
 
-	releaseDate: "2017-02-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-02-03"
 }
 
 export default smp

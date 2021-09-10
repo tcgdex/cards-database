@@ -7,24 +7,18 @@ const swsh1: Set = {
 	name: {
 		en: "Shining Fates",
 		fr: "Déstinées Radieuses",
-		es: "Destinos Brillantes"
+		es: "Destinos Brillantes",
+		it: "Destino Splendente",
+		de: "Glänzendes Schicksal"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		total: 195,
 		official: 72
 	},
 
-	releaseDate: "2021-02-19",
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2021-02-19"
 }
 
 export default swsh1

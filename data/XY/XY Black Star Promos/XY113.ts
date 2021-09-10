@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Manaphy",
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				fr: "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
 			},
 			damage: 30,
 

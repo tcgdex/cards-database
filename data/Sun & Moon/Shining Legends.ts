@@ -7,6 +7,7 @@ const sm35: Set = {
 	name: {
 		en: "Shining Legends",
 		fr: "Légendes Brillantes",
+		es: "Leyendas Luminosas",
 		it: "Leggende Iridescenti",
 		de: "Schimmernde Legenden"
 	},
@@ -15,18 +16,10 @@ const sm35: Set = {
 	tcgOnline: "SLG",
 
 	cardCount: {
-		total: 78,
 		official: 73
 	},
 
-	releaseDate: "2017-10-06",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-10-06"
 }
 
 export default sm35

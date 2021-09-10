@@ -3,12 +3,12 @@ import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Lurantis-GX",
-		fr: "Floramantis-GX",
-		es: "Lurantis-GX",
-		it: "Lurantis-GX",
-		pt: "Lurantis-GX",
-		de: "Mantidea-GX"
+		en: "Lurantis GX",
+		fr: "Floramantis GX",
+		es: "Lurantis GX",
+		it: "Lurantis GX",
+		pt: "Lurantis GX",
+		de: "Mantidea GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

@@ -6,26 +6,20 @@ const xy10: Set = {
 
 	name: {
 		en: "Fates Collide",
-		fr: "Impact des Destins"
-,
+		fr: "Impact des Destins",
+		es: "Destinos Enfrentados",
+		it: "Destini Incrociati",
+		de: "Schicksalsschmiede"
 	},
 
 	serie: serie,
 	tcgOnline: "FCO",
 
 	cardCount: {
-		total: 125,
 		official: 124
 	},
 
-	releaseDate: "2016-05-02",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2016-05-02"
 }
 
 export default xy10

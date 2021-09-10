@@ -70,7 +70,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Individually, they’re incredibly weak. It’s by gathering up into schools that they’re able to confront opponents."
+	}
 }
 
 export default card

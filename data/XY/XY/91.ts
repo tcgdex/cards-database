@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 60 damage from 1 of your Benched Pokémon.",
-				fr: "Soignez 60 dégâts à l'un de vos Pokémon de Banc.",
+				fr: "Soignez 60 dégâts à l’un de vos Pokémon de Banc.",
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

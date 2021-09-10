@@ -76,7 +76,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 100,
 	types: ["Metal"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles."
+	}
 }
 
 export default card

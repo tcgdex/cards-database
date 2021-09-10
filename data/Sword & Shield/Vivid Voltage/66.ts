@@ -71,7 +71,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves."
+	}
 }
 
 export default card

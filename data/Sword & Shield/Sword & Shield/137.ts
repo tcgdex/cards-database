@@ -95,7 +95,18 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	description: {
+		en: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder."
+	}
 }
 
 export default card

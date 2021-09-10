@@ -7,24 +7,18 @@ const swsh35: Set = {
 	name: {
 		en: "Champion's Path",
 		fr: 'La Voie du Maître',
-		es: "Camino de Campeones"
+		es: "Camino de Campeones",
+		it: "Futuri Campioni",
+		de: "Weg des Champs"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		total: 80,
 		official: 70
 	},
 
-	releaseDate: "2020-09-25",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2020-09-25"
 }
 
 export default swsh35

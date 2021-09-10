@@ -75,6 +75,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength."
 	}
 }
 

@@ -55,7 +55,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
+	}
 }
 
 export default card

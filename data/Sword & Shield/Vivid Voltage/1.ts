@@ -54,7 +54,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+	}
 }
 
 export default card

@@ -74,7 +74,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 130,
 	types: ["Fire"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The sight of it running over 6,200 miles in a single day and night has captivated many people."
+	}
 }
 
 export default card

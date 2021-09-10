@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Krookodile",
 		fr: "Crocorible",
+		es: "Krookodile",
+		it: "Krookodile",
+		pt: "Krookodile",
+		de: "Rabigator"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",

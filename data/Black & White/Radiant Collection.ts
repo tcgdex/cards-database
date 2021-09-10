@@ -12,18 +12,10 @@ const rc: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 25,
 		official: 25
 	},
 
-	releaseDate: "2013-11-06",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2013-11-06"
 }
 
 export default rc

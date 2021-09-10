@@ -13,18 +13,10 @@ const gym1: Set = {
 	tcgOnline: "G1",
 
 	cardCount: {
-		total: 132,
 		official: 132
 	},
 
-	releaseDate: "2000-08-14",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "2000-08-14"
 }
 
 export default gym1

@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Spiritomb",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		442,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Sealing Scream",
 			},
 			effect: {
-				en: "Each player can't play any ACE SPEC cards from his or her hand.",
+				en: "Each player can’t play any ACE SPEC cards from his or her hand.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -46,11 +50,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 1
 }
 
 export default card

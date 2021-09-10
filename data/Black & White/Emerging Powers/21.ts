@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Darmanitan",
 		fr: "Darumacho",
+		es: "Darmanitan",
+		it: "Darmanitan",
+		pt: "Darmanitan",
+		de: "Flampivian"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",

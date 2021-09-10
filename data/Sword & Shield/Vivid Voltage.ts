@@ -7,25 +7,18 @@ const swsh4: Set = {
 	name: {
 		en: "Vivid Voltage",
 		fr: "Voltage Éclatant",
-		es: "Voltaje Vívido"
-,
+		es: "Voltaje Vívido",
+		it: "Voltaggio Sfolgorante",
+		de: "Farbenschock"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		total: 203,
 		official: 185
 	},
 
-	releaseDate: "2020-11-13",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2020-11-13"
 }
 
 export default swsh4

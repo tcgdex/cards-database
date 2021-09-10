@@ -78,7 +78,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power."
+	}
 }
 
 export default card

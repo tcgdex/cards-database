@@ -80,7 +80,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 140,
 	types: ["Fire"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames."
+	}
 }
 
 export default card

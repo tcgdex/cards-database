@@ -71,7 +71,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its body gives off a sweet, fruity scent that is extremely appetizing to bird Pokémon."
+	}
 }
 
 export default card

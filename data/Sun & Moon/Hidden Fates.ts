@@ -7,6 +7,7 @@ const sm115: Set = {
 	name: {
 		en: "Hidden Fates",
 		fr: "Destinnées Occultes",
+		es: "Destinos Ocultos",
 		it: "Destino Sfuggente",
 		de: "Verborgenes Schicksal",
 	},
@@ -15,18 +16,10 @@ const sm115: Set = {
 	tcgOnline: "HIF",
 
 	cardCount: {
-		total: 163,
 		official: 68
 	},
 
-	releaseDate: "2019-08-23",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-08-23"
 }
 
 export default sm115

@@ -90,7 +90,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 150,
 	types: ["Colorless"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed."
+	}
 }
 
 export default card

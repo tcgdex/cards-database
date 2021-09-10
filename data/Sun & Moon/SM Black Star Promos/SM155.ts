@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Kingdra-GX",
-		fr: "Hyporoi-GX",
-		es: "Kingdra-GX",
-		it: "Kingdra-GX",
-		pt: "Kingdra-GX",
-		de: "Seedraking-GX"
+		en: "Kingdra GX",
+		fr: "Hyporoi GX",
+		es: "Kingdra GX",
+		it: "Kingdra GX",
+		pt: "Kingdra GX",
+		de: "Seedraking GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

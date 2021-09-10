@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Druddigon",
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		621,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Rough Skin",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,11 +53,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 2
 }
 
 export default card

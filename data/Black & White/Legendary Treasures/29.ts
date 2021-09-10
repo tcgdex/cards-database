@@ -5,19 +5,21 @@ const card: Card = {
 	name: {
 		en: "Reshiram-EX",
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		643,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -61,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

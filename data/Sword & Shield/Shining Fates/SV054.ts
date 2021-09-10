@@ -64,7 +64,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "Via the protrusion on its head, it senses other creatures’ emotions. If you don’t have a calm disposition, it will never warm up to you."
+	}
 }
 
 export default card

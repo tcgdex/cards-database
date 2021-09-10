@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Electivire",
 		fr: "Élekable",
+		es: "Electivire",
+		it: "Electivire",
+		pt: "Electivire",
+		de: "Elevoltek"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
@@ -33,7 +37,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
-				fr: "Coud'Phalange",
+				fr: "Coud’Phalange",
+				es: "Puño con Nudillos",
+				it: "Nocca-Pugno",
+				pt: "Soco com Punho",
+				de: "Knöchelhieb"
 			},
 
 			damage: 30,
@@ -48,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Electroslug",
 				fr: "Électro Frappe",
+				es: "Electropuñetazo",
+				it: "Elettropugno",
+				pt: "Lesma Elétrica",
+				de: "Elektroschuss"
 			},
 
 			damage: 90,

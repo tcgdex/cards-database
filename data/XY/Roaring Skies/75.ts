@@ -3,11 +3,11 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza-EX",
+		en: "Rayquaza EX",
 		fr: "Rayquaza-EX",
 	},
 	illustrator: "Ryota Murayama",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,10 +32,10 @@ const card: Card = {
 				fr: "Rage Brûlante",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 50 more damage.",
+				en: "If your opponent’s Active Pokémon is a Pokémon-EX, this attack does 50 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 50 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{

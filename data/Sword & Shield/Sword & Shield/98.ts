@@ -83,7 +83,18 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit."
+	}
 }
 
 export default card

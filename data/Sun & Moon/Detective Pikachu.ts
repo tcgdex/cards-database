@@ -7,6 +7,7 @@ const det1: Set = {
 	name: {
 		en: "Detective Pikachu",
 		fr: "Détective Pikachu",
+		es: "Detective Pikachu",
 		it: "Detective Pikachu",
 		de: "Meisterdetektiv Pikachu",
 	},
@@ -15,18 +16,10 @@ const det1: Set = {
 	tcgOnline: "DET",
 
 	cardCount: {
-		total: 18,
 		official: 18
 	},
 
-	releaseDate: "2019-03-29",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-03-29"
 }
 
 export default det1

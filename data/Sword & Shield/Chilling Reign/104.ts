@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Darkness"],
@@ -77,7 +77,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

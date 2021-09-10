@@ -52,7 +52,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 70,
 	types: ["Lightning"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon’s electric moves."
+	}
 }
 
 export default card

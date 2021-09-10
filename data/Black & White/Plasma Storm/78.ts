@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lucario",
 		fr: "Lucario",
+		es: "Lucario",
+		it: "Lucario",
+		pt: "Lucario",
+		de: "Lucario"
 	},
 	illustrator: "Satoshi Shirai",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Dual Armor",
 				fr: "Double Armure",
+				es: "Armadura Dual",
+				it: "Doppiarmatura",
+				pt: "Armadura Dupla",
+				de: "Doppelte Rüstung"
 			},
 			effect: {
-				en: "If this Pokémon has any { Metal } Energy attached to it, this Pokémon's type is both { Fighting } and { Metal }.",
-				fr: "Si de l'Énergie Metal est attachée à ce Pokémon, le type de ce Pokémon est Fighting et Metal.",
+				en: "If this Pokémon has any Metal Energy attached to it, this Pokémon’s type is both Fighting and Metal.",
+				fr: "Si de l’Énergie Metal est attachée à ce Pokémon, le type de ce Pokémon est Fighting et Metal.",
+				es: "Si este Pokémon tiene alguna Energía Metal unida a él, el tipo de este Pokémon es Fighting y Metal.",
+				it: "Se questo Pokémon ha delle Energie Metal assegnate, il tipo di questo Pokémon è sia Fighting che Metal.",
+				pt: "Se este Pokémon possui alguma Energia Metal ligada a ele, o tipo desse Pokémon é Fighting e Metal.",
+				de: "Wenn an dieses Pokémon bereits Metal-Energie angelegt ist, ist dieses Pokémon sowohl vom Typ Fighting als auch Metal."
 			},
 		},
 	],

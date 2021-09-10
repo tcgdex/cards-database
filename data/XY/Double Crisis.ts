@@ -6,26 +6,17 @@ const dc1: Set = {
 
 	name: {
 		en: "Double Crisis",
-		fr: "Double Danger"
-,
+		fr: "Double Danger",
 	},
 
 	serie: serie,
 	tcgOnline: "DCR",
 
 	cardCount: {
-		total: 34,
 		official: 34
 	},
 
-	releaseDate: "2015-03-25",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2015-03-25"
 }
 
 export default dc1

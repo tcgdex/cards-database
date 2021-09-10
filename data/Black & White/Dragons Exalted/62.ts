@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Nosepass",
 		fr: "Tarinor",
+		es: "Nosepass",
+		it: "Nosepass",
+		pt: "Nosepass",
+		de: "Nasgnet"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",

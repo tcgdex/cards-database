@@ -3,12 +3,12 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Lugia-GX",
-		fr: "Lugia-GX",
-		es: "Lugia-GX",
-		it: "Lugia-GX",
-		pt: "Lugia-GX",
-		de: "Lugia-GX"
+		en: "Lugia GX",
+		fr: "Lugia GX",
+		es: "Lugia GX",
+		it: "Lugia GX",
+		pt: "Lugia GX",
+		de: "Lugia GX"
 	},
 	illustrator: "PLANETA Igarashi",
 	rarity: "Secret Rare",

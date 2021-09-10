@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Seismitoad",
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		537,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Palpitoad",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -59,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

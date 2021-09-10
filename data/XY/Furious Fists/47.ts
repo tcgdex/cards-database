@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Allonge",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -44,7 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiral Kick",
-				fr: "Coup'd Pied en Spirale",
+				fr: "Coup’d Pied en Spirale",
 			},
 
 			damage: 30,

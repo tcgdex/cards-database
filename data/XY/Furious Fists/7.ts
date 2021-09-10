@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Senteur Apaisante",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
+				en: "Your opponent’s Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 more damage and heal 30 damage from this Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

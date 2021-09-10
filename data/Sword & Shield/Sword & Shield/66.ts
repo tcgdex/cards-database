@@ -73,7 +73,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its long tail serves as a ground to protect itself from its own high-voltage power."
+	}
 }
 
 export default card

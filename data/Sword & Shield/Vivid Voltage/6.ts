@@ -73,7 +73,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
+	}
 }
 
 export default card

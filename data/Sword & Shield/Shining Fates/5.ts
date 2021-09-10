@@ -59,7 +59,20 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
+	}
 }
 
 export default card

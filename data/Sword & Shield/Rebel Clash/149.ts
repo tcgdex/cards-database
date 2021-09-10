@@ -70,7 +70,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 80,
 	types: ["Colorless"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation."
+	}
 }
 
 export default card

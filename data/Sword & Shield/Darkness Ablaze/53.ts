@@ -77,7 +77,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction."
+	}
 }
 
 export default card

@@ -72,7 +72,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves."
+	}
 }
 
 export default card

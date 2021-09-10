@@ -26,14 +26,23 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Ability",
+			type: "Ancient Trait",
 			name: {
-				en: "Clear Humming",
+				en: "Δ Evolution",
 				fr: "Évolution Δ",
 			},
 			effect: {
-				en: "Each of your Colorless Pokémon has no Weakness.",
+				en: "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
 				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
+			},
+		},
+		{
+			type: "Ability",
+			name: {
+				en: "Clear Humming",
+			},
+			effect: {
+				en: "Each of your Colorless Pokémon has no Weakness.",
 			},
 		},
 	],

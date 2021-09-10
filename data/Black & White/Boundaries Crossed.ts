@@ -6,25 +6,20 @@ const bw7: Set = {
 
 	name: {
 		en: "Boundaries Crossed",
-		fr: "Frontières Franchies"
+		fr: "Frontières Franchies",
+		es: "Fronteras Cruzadas",
+		it: "Confini Varcati",
+		de: "Überschrittene Schwellen"
 	},
 
 	serie: serie,
 	tcgOnline: "BCR",
 
 	cardCount: {
-		total: 149,
 		official: 149
 	},
 
-	releaseDate: "2012-11-07",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-11-07"
 }
 
 export default bw7

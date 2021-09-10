@@ -78,7 +78,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail."
+	}
 }
 
 export default card

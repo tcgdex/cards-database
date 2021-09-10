@@ -3,15 +3,15 @@ import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Golisopod-GX",
-		fr: "Sarmuraï-GX",
-		es: "Golisopod-GX",
-		it: "Golisopod-GX",
-		pt: "Golisopod-GX",
-		de: "Tectass-GX"
+		en: "Golisopod GX",
+		fr: "Sarmuraï GX",
+		es: "Golisopod GX",
+		it: "Golisopod GX",
+		pt: "Golisopod GX",
+		de: "Tectass GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

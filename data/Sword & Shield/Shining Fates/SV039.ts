@@ -59,7 +59,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail."
+	}
 }
 
 export default card

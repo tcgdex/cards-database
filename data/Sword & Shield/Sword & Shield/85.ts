@@ -93,7 +93,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	description: {
+		en: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar’s doing."
+	}
 }
 
 export default card

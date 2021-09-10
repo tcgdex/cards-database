@@ -7,6 +7,7 @@ const sm11: Set = {
 	name: {
 		en: "Unified Minds",
 		fr: "Harmonie des Esprits",
+		es: "Mentes Unidas",
 		it: "Sintonia Mentale",
 		de: "Bund der Gleichgesinnten",
 	},
@@ -15,18 +16,10 @@ const sm11: Set = {
 	tcgOnline: "UNM",
 
 	cardCount: {
-		total: 258,
 		official: 236
 	},
 
-	releaseDate: "2019-08-02",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-08-02"
 }
 
 export default sm11

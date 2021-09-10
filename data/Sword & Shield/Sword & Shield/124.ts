@@ -86,7 +86,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries."
+	}
 }
 
 export default card

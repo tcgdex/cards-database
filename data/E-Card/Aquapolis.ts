@@ -13,18 +13,10 @@ const ecard2: Set = {
 	tcgOnline: "AQ",
 
 	cardCount: {
-		total: 182,
 		official: 147
 	},
 
-	releaseDate: "2003-01-15",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2003-01-15"
 }
 
 export default ecard2

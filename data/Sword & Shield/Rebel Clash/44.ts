@@ -51,7 +51,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Graceful ripples running across the water’s surface are a sure sign that Tympole are singing in high-pitched voices below."
+	}
 }
 
 export default card

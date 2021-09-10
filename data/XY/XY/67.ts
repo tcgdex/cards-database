@@ -35,10 +35,10 @@ const card: Card = {
 				fr: "Réveil Forcé",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 60 more damage. Then, remove all Special Conditions from that Pokémon.",
+				en: "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 60 more damage. Then, remove all Special Conditions from that Pokémon.",
 				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 60 dégâts supplémentaires. Ensuite, retirez tous les États Spéciaux de ce dernier.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -52,10 +52,10 @@ const card: Card = {
 				fr: "Dynamopoing",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage and your opponent's Active Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires et le Pokémon Actif de votre adversaire est maintenant Confus.",
+				en: "Flip a coin. If heads, this attack does 40 more damage and your opponent’s Active Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires et le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

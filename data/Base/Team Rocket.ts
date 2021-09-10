@@ -13,18 +13,10 @@ const base5: Set = {
 	tcgOnline: "TR",
 
 	cardCount: {
-		total: 83,
 		official: 82
 	},
 
-	releaseDate: "2000-04-24",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "2000-04-24"
 }
 
 export default base5

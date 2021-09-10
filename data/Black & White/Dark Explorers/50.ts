@@ -4,22 +4,29 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Woobat",
+		fr: "Chovsourir",
+		es: "Woobat",
+		it: "Woobat",
+		pt: "Woobat",
+		de: "Fleknoil"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		527,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,12 +54,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -60,9 +69,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

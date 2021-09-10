@@ -66,6 +66,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has a generous habit of sharing its food with people and Pokémon, so it’s always scrounging around for more food."
 	}
 }
 

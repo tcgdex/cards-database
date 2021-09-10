@@ -6,26 +6,18 @@ const pl3: Set = {
 
 	name: {
 		en: "Supreme Victors",
-		fr: "Vainqueurs Suprêmes"
-,
+		fr: "Vainqueurs Suprêmes",
+		de: "Ultimative Sieger"
 	},
 
 	serie: serie,
 	tcgOnline: "SV",
 
 	cardCount: {
-		total: 153,
 		official: 147
 	},
 
-	releaseDate: "2009-08-19",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2009-08-19"
 }
 
 export default pl3

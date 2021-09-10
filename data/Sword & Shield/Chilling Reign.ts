@@ -6,25 +6,18 @@ const set: Set = {
 	name: {
 		en: "Chilling Reign",
 		fr: "Règne de Glace",
-		es: "Reinado Escalofriante"
-,
+		es: "Reinado Escalofriante",
+		it: "Regno Glaciale",
+		de: "Schaurige Herrschaft"
 	},
 	serie: serie,
 
 
 	cardCount: { // NOT confirmed
-		total: 190,
 		official: 190
 	},
 
-	releaseDate: "2021-06-18",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2021-06-18"
 }
 
 export default set

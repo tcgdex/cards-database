@@ -86,7 +86,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
+	}
 }
 
 export default card

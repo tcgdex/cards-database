@@ -65,7 +65,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they’re shouting!"
+	}
 }
 
 export default card

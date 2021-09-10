@@ -48,7 +48,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+	}
 }
 
 export default card

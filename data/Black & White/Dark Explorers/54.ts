@@ -4,20 +4,27 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Groudon-EX",
+		fr: "Groudon-EX",
+		es: "Groudon-EX",
+		it: "Groudon-EX",
+		pt: "Groudon-EX",
+		de: "Groudon-EX"
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		383,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -52,12 +59,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -65,9 +74,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 4
 }
 
 export default card

@@ -66,7 +66,20 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers."
+	}
 }
 
 export default card

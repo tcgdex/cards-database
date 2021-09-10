@@ -4,22 +4,29 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Chansey",
+		fr: "Leveinard",
+		es: "Chansey",
+		it: "Chansey",
+		pt: "Chansey",
+		de: "Chaneira"
 	},
+
 	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		113,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -37,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -44,10 +52,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

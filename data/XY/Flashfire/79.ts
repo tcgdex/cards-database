@@ -3,11 +3,11 @@ import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "M Kangaskhan-EX",
-		fr: "M Kangourex-EX",
+		en: "M Kangaskhan EX",
+		fr: "M Kangourex EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -34,12 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Wham Bam Punch",
-				fr: "Règle des Méga-Évolutions",
+				fr: "Poing Boum",
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 		{

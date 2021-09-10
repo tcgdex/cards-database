@@ -80,7 +80,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It eats dreams and releases mist. The mist is pink when it’s eating a good dream, and black when it’s eating a nightmare."
+	}
 }
 
 export default card

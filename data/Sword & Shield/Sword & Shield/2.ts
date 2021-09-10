@@ -62,7 +62,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is."
+	}
 }
 
 export default card

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Limagma",
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

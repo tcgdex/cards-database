@@ -5,25 +5,33 @@ const card: Card = {
 	name: {
 		en: "Accelgor",
 		fr: "Limaspeed",
+		es: "Accelgor",
+		it: "Accelgor",
+		pt: "Accelgor",
+		de: "Hydragil"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		617,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Shelmet",
 		fr: "Escargaume",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,10 +74,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

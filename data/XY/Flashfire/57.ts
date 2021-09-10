@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Pince des Ténèbres",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 10,
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 60,
+			damage: "60×",
 
 		},
 	],

@@ -82,7 +82,20 @@ const card: Card = {
 	retreat: 4,
 	hp: 140,
 	types: ["Metal"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders."
+	}
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Grass"],
@@ -69,7 +69,17 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

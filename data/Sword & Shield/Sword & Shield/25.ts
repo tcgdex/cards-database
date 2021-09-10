@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 190,
@@ -81,7 +81,14 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

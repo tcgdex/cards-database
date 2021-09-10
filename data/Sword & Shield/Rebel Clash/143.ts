@@ -75,7 +75,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Colorless"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Where people go, these Pokémon follow. If you’re scattering food for them, be careful—several hundred of them can gather at once."
+	}
 }
 
 export default card

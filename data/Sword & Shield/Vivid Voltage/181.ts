@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "If you go first, you may play this card during your first turn.\n\n\n\n \n\n\n\nDraw 2 cards.\n\n\n\n ",
+		en: "If you go first, you may play this card during your first turn.\nDraw 2 cards.",
 		fr: "Si vous jouez en premier, vous pouvez jouer cette carte pendant votre premier tour.\n \n\nPiochez 2 cartes.\n ",
 		es: "Si sales primero, puedes jugar esta carta durante tu primer turno.\n \nRoba 2 cartas.\n\n ",
 		it: "Se inizi per primo, puoi giocare questa carta durante il tuo primo turno.\n \nPesca due carte.\n\n ",
@@ -26,7 +26,14 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

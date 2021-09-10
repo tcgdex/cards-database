@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Colorless"],
@@ -52,7 +52,16 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "VMAX"
 }
 
 export default card

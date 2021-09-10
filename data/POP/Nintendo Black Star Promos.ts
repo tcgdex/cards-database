@@ -12,18 +12,10 @@ const np: Set = {
 	tcgOnline: "PR-NP",
 
 	cardCount: {
-		total: 40,
 		official: 40
 	},
 
-	releaseDate: "2003-10-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2003-10-01"
 }
 
 export default np

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Raichu",
 		fr: "Raichu",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		26,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -39,7 +43,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the number of your Benched Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de vos Pokémon de Banc.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -60,12 +64,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -73,9 +79,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

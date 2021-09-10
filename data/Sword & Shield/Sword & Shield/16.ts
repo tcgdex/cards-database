@@ -50,7 +50,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
+	}
 }
 
 export default card

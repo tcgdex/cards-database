@@ -81,7 +81,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
+	}
 }
 
 export default card

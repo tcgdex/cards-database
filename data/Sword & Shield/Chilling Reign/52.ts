@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked."
 	}
 }
 

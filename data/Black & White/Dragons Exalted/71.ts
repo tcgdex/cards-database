@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Terrakion-EX",
 		fr: "Terrakium-EX",
+		es: "Terrakion-EX",
+		it: "Terrakion-EX",
+		pt: "Terrakion-EX",
+		de: "Terrakium-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",

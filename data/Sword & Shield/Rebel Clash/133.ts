@@ -53,7 +53,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Metal"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Honedge’s soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge’s body."
+	}
 }
 
 export default card

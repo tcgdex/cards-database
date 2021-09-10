@@ -5,25 +5,33 @@ const card: Card = {
 	name: {
 		en: "Infernape",
 		fr: "Simiabraz",
+		es: "Infernape",
+		it: "Infernape",
+		pt: "Infernape",
+		de: "Panferno"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		392,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -58,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,10 +74,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

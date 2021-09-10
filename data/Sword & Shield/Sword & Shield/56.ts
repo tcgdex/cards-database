@@ -78,7 +78,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms."
+	}
 }
 
 export default card

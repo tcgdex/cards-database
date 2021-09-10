@@ -56,6 +56,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "If you get the feeling of being watched in darkness when nobody is around, Haunter is there."
 	}
 }
 

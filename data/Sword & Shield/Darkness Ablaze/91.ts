@@ -84,7 +84,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it."
+	}
 }
 
 export default card

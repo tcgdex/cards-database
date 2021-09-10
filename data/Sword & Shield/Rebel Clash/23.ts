@@ -73,7 +73,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 90,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on."
+	}
 }
 
 export default card

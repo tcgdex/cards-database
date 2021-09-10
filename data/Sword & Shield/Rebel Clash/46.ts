@@ -83,7 +83,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 170,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species."
+	}
 }
 
 export default card

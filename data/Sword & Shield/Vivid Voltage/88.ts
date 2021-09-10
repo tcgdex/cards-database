@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
+	}
 }
 
 export default card

@@ -47,7 +47,20 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench."
+	}
 }
 
 export default card

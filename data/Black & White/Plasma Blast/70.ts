@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Druddigon",
 		fr: "Drakkarmin",
+		es: "Druddigon",
+		it: "Druddigon",
+		pt: "Druddigon",
+		de: "Shardrago"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",

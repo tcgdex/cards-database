@@ -83,7 +83,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away."
+	}
 }
 
 export default card

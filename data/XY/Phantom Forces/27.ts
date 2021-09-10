@@ -35,8 +35,8 @@ const card: Card = {
 				fr: "Toile Entrave",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with your opponent's Active Pokémon. The new Active Pokémon is now Confused.",
-				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Confus.",
+				en: "Switch 1 of your opponent’s Benched Pokémon with your opponent’s Active Pokémon. The new Active Pokémon is now Confused.",
+				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Confus.",
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 				fr: "Toile Élek",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 60,

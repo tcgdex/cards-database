@@ -75,7 +75,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 130,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it’s kind."
+	}
 }
 
 export default card

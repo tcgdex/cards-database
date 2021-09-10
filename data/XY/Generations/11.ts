@@ -3,11 +3,11 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Charizard-EX",
+		en: "Charizard EX",
 		fr: "Dracaufeu-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 40 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Gothitelle",
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		576,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gothorita",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -29,10 +34,11 @@ const card: Card = {
 				en: "Magic Room",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent can't play any Item cards from his or her hand.",
+				en: "As long as this Pokémon is your Active Pokémon, your opponent can’t play any Item cards from his or her hand.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -57,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

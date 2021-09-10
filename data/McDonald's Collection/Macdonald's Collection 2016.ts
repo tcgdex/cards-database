@@ -13,18 +13,10 @@ const s2016xy: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 12,
 		official: 12
 	},
 
-	releaseDate: "2016-08-20",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2016-08-20"
 }
 
 export default s2016xy

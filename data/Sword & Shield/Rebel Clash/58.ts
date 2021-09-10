@@ -63,7 +63,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 90,
 	types: ["Lightning"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "While it’s often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
+	}
 }
 
 export default card

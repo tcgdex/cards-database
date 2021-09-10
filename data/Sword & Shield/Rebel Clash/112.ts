@@ -45,7 +45,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 70,
 	types: ["Darkness"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
+	}
 }
 
 export default card

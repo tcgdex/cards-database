@@ -73,7 +73,20 @@ const card: Card = {
 	retreat: 4,
 	hp: 140,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It stands in grasslands, watching the sun’s descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
+	}
 }
 
 export default card

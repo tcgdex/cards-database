@@ -74,7 +74,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 140,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
+	}
 }
 
 export default card

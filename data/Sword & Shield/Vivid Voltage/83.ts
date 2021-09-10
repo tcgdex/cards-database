@@ -65,7 +65,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside."
+	}
 }
 
 export default card

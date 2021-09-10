@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel."
+	}
 }
 
 export default card

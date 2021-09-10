@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Gaz Toxik",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 30,
@@ -53,10 +53,10 @@ const card: Card = {
 				fr: "Engloutissement",
 			},
 			effect: {
-				en: "If, before doing damage, your opponent's Active Pokémon has fewer remaining HP than this Pokémon, this attack does 50 more damage.",
-				fr: "Si, avant d'infliger des dégâts, il reste moins de PV au Pokémon Actif de votre adversaire qu'à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
+				en: "If, before doing damage, your opponent’s Active Pokémon has fewer remaining HP than this Pokémon, this attack does 50 more damage.",
+				fr: "Si, avant d’infliger des dégâts, il reste moins de PV au Pokémon Actif de votre adversaire qu’à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

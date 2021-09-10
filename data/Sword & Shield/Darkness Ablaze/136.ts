@@ -82,7 +82,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+	}
 }
 
 export default card

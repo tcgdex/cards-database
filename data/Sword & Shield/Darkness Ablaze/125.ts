@@ -61,7 +61,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other."
+	}
 }
 
 export default card

@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Leavanny",
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		542,
 	],
+
 	hp: 130,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Swadloon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -57,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

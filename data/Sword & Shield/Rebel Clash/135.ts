@@ -81,7 +81,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 140,
 	types: ["Metal"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack."
+	}
 }
 
 export default card

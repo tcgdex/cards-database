@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on this Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

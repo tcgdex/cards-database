@@ -80,7 +80,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its body is draped in steel armor. It looks heavy, but it can fly at speeds of up to 185 miles an hour!"
+	}
 }
 
 export default card

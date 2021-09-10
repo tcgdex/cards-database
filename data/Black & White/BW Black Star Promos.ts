@@ -6,25 +6,20 @@ const bwp: Set = {
 
 	name: {
 		en: "BW Black Star Promos",
-		fr: "Promo BW"
+		fr: "Promo BW",
+		es: "NB Promo",
+		it: "NB Promo",
+		de: "SW Promokarten"
 	},
 
 	serie: serie,
 	tcgOnline: "PR-BLW",
 
 	cardCount: {
-		total: 101,
 		official: 101
 	},
 
-	releaseDate: "2011-04-26",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2011-04-26"
 }
 
 export default bwp

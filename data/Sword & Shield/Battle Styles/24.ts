@@ -63,6 +63,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
 	}
 }
 

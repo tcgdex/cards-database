@@ -78,7 +78,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 130,
 	types: ["Colorless"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "With power equal to an excavator, it can dig through dense bedrock. It’s a huge help during tunnel construction."
+	}
 }
 
 export default card

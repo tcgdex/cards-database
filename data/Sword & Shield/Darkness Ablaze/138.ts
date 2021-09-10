@@ -71,7 +71,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+	}
 }
 
 export default card

@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 180,
@@ -63,7 +63,17 @@ const card: Card = {
 	],
 
 	regulationMark: "D",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

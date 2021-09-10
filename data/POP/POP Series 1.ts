@@ -11,18 +11,10 @@ const pop1: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 17,
 		official: 17
 	},
 
-	releaseDate: "2004-09-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2004-09-01"
 }
 
 export default pop1

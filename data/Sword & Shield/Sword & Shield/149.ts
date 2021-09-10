@@ -58,7 +58,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below."
+	}
 }
 
 export default card

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Celebi",
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -28,7 +28,7 @@ const card: Card = {
 				en: "Leap Through Time",
 			},
 			effect: {
-				en: "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't take a Prize card. Shuffle this Pokémon and all cards attached to it into your deck.",
+				en: "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can’t take a Prize card. Shuffle this Pokémon and all cards attached to it into your deck.",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 				fr: "Stop Θ",
 			},
 			effect: {
-				en: "Put 1 damage counter on each of your opponent's Pokémon.",
+				en: "Put 1 damage counter on each of your opponent’s Pokémon.",
 			},
 
 		},

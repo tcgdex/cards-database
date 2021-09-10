@@ -48,7 +48,20 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
+	}
 }
 
 export default card

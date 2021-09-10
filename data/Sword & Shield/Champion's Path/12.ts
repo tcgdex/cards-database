@@ -60,7 +60,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It drinks in seawater and jets it from its rear to propel itself. It’s very sensitive to the scent of blood."
+	}
 }
 
 export default card

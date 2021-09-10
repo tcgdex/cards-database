@@ -74,7 +74,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 90,
 	types: ["Colorless"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move."
+	}
 }
 
 export default card

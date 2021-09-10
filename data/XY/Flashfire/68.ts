@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Barrière de Cristal",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.",
+				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "This attack does 20 more damage for each Fairy Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Fairy attachée à ce Pokémon.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

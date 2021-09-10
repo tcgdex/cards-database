@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Snubbull",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'Boule",
+				fr: "Coup d’Boule",
 			},
 
 			damage: 20,

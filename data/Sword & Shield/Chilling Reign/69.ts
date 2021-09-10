@@ -51,6 +51,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee."
 	}
 }
 

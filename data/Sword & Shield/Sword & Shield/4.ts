@@ -92,7 +92,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "After captivating opponents with its sweet scent, it lashes them with its thorny whips."
+	}
 }
 
 export default card

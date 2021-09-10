@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Mr. Mime",
 		de: "Pantimos"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Rare",
 	category: "Pokemon",
 

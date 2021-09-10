@@ -45,7 +45,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 70,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud."
+	}
 }
 
 export default card

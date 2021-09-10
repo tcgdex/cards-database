@@ -4,24 +4,33 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Stoutland",
+		fr: "Mastouffe",
+		es: "Stoutland",
+		it: "Stoutland",
+		pt: "Stoutland",
+		de: "Bissbark"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		508,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Herdier",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -56,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,10 +73,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

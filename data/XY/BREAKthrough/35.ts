@@ -3,11 +3,11 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "M Glalie-EX",
+		en: "M Glalie EX",
 		fr: "Méga-Oniglali-EEX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -40,7 +40,7 @@ const card: Card = {
 				en: "If this Pokémon has 10 or more damage counters on it, this attack does 150 more damage.",
 				fr: "Si ce Pokémon a 10 marqueurs de dégâts ou plus, cette attaque inflige 150 dégâts supplémentaires.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 	],

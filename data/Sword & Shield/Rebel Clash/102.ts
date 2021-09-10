@@ -82,7 +82,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 100,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move."
+	}
 }
 
 export default card

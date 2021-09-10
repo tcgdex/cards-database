@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Coinçage",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard 2 Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à ce Pokémon.",
+				fr: "Lancez une pièce. Si c’est pile, défaussez 2 Énergies attachées à ce Pokémon.",
 			},
 			damage: 100,
 

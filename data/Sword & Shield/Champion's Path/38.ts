@@ -49,7 +49,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
+	}
 }
 
 export default card

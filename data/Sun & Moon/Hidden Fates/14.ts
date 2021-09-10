@@ -3,21 +3,25 @@ import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Starmie-GX",
+		en: "Starmie GX",
 		fr: "Staross-GX",
 	},
-	illustrator: "PLANETA Otani",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "PLANETA Otani",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		121,
 	],
+
 	hp: 190,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Staryu",
 		fr: "Stari",
@@ -60,17 +64,18 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump-GX",
+				en: "Hydro Pump GX",
 				fr: "Hydrocanon-GX",
 			},
 			effect: {
-				en: "This attack does 40 more damage times the amount of Water Energy attached to this Pokémon. (You can't use more than 1 GX attack in a game.)",
+				en: "This attack does 40 more damage times the amount of Water Energy attached to this Pokémon. (You can’t use more than 1 GX attack in a game.)",
 				fr: "Cette attaque inflige 40 dégâts supplémentaires multipliés par le nombre d’Énergies Water attachées à ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -78,10 +83,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

@@ -77,7 +77,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
+	}
 }
 
 export default card

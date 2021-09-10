@@ -55,7 +55,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It’s exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience."
+	}
 }
 
 export default card

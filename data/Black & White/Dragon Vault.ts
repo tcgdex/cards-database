@@ -13,18 +13,10 @@ const dv1: Set = {
 	tcgOnline: "DRV",
 
 	cardCount: {
-		total: 21,
 		official: 20
 	},
 
-	releaseDate: "2012-10-05",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-10-05"
 }
 
 export default dv1

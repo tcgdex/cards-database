@@ -75,7 +75,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 70,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
+	}
 }
 
 export default card

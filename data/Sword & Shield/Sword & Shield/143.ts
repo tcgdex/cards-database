@@ -80,7 +80,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It begins to hoot at the same time every day. Some Trainers use them in place of clocks."
+	}
 }
 
 export default card

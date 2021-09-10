@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Géo-Contrôle",
 			},
 			effect: {
-				en: "Choose 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a Fairy Energy card and attach it to that Pokémon. Shuffle your deck afterward.",
+				en: "Choose 2 of your Benched Pokémon. For each of those Pokémon,  search your deck for a Fairy Energy card and attach it to that Pokémon. Shuffle your deck afterward.",
 				fr: "Choisissez 2 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez une carte Énergie Fairy dans votre deck et attachez-la au Pokémon choisi. Mélangez ensuite votre deck.",
 			},
 

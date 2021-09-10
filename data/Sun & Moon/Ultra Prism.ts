@@ -7,6 +7,7 @@ const sm5: Set = {
 	name: {
 		en: "Ultra Prism",
 		fr: "Ultra-Prisme",
+		es: "Ultraprisma",
 		it: "Ultraprisma",
 		de: "Ultra-Prisma",
 	},
@@ -15,18 +16,10 @@ const sm5: Set = {
 	tcgOnline: "UPR",
 
 	cardCount: {
-		total: 173,
 		official: 156
 	},
 
-	releaseDate: "2018-02-02",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2018-02-02"
 }
 
 export default sm5

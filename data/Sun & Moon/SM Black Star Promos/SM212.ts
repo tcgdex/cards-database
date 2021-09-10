@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Gyarados-GX",
-		fr: "Léviator-GX",
-		es: "Gyarados-GX",
-		it: "Gyarados-GX",
-		pt: "Gyarados-GX",
-		de: "Garados-GX"
+		en: "Gyarados GX",
+		fr: "Léviator GX",
+		es: "Gyarados GX",
+		it: "Gyarados GX",
+		pt: "Gyarados GX",
+		de: "Garados GX"
 	},
 
 	illustrator: undefined,

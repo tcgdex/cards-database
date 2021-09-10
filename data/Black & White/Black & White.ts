@@ -6,25 +6,20 @@ const bw1: Set = {
 
 	name: {
 		en: "Black & White",
-		fr: "Noir & Blanc"
+		fr: "Noir & Blanc",
+		es: "Negro y Blanco",
+		it: "Nero e Bianco",
+		de: "Schwarz & Weiß"
 	},
 
 	serie: serie,
 	tcgOnline: "BLW",
 
 	cardCount: {
-		total: 115,
 		official: 114
 	},
 
-	releaseDate: "2011-04-25",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2011-04-25"
 }
 
 export default bw1

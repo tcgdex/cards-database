@@ -60,7 +60,20 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
+	}
 }
 
 export default card

@@ -3,11 +3,11 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Ampharos-EX",
+		en: "Ampharos EX",
 		fr: "Pharamp-EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Queue Étincelante",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon.",
+				en: "This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on your opponent’s Active Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 			damage: 100,

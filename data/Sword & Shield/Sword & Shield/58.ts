@@ -85,7 +85,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air."
+	}
 }
 
 export default card

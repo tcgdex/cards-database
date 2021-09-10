@@ -6,25 +6,19 @@ const hgss3: Set = {
 
 	name: {
 		en: "Undaunted",
-		fr: "Indomptable"
+		fr: "Indomptable",
+		it: "Senza Paura",
+		de: "Unerschrocken"
 	},
 
 	serie: serie,
 	tcgOnline: "UD",
 
 	cardCount: {
-		total: 91,
 		official: 90
 	},
 
-	releaseDate: "2010-08-18",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2010-08-18"
 }
 
 export default hgss3

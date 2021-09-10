@@ -75,7 +75,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 90,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Five of them are troopers, and one is the brass. The brass’s orders are absolute."
+	}
 }
 
 export default card

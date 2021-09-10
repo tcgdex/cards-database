@@ -54,7 +54,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 80,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide."
+	}
 }
 
 export default card

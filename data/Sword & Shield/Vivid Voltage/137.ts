@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Its roar in battle shakes the ground like a tremor—or like an earthquake has struck."
+	}
 }
 
 export default card

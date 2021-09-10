@@ -77,7 +77,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people."
+	}
 }
 
 export default card

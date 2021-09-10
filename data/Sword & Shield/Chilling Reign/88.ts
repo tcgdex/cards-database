@@ -76,6 +76,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Passimian live in groups of about 20, with each member performing an assigned role. Through cooperation, the group survives."
 	}
 }
 

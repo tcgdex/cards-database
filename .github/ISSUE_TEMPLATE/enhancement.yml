@@ -1,0 +1,30 @@
+name: Enhancement
+description: You have an Idea that will enhance the API, Use this issue Template!
+title: "[Up]: "
+labels: [project/database, project/server, project/compiler, type/enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Form!
+  - type: checkboxes
+    id: data-type
+    validations:
+      required: true
+    attributes:
+      label: Data affected
+      description: Select the types of data that will be affected by you enhancement
+      options:
+        - label: Card
+        - label: Set
+        - label: Serie
+        - label: Other
+        - label: new Data Type
+  - type: textarea
+    id: explain
+    attributes:
+      label: Please explain in more details what idea you have
+      description: If you selected Other or new Data Type please put it as the first line
+      placeholder: "Ex: I would love to see the cards have this new field..."
+    validations:
+      required: true

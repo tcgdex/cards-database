@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
 	hp: 310,
@@ -68,7 +68,16 @@ const card: Card = {
 	],
 
 	regulationMark: "D",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "VMAX"
 }
 
 export default card

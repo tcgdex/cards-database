@@ -51,7 +51,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights."
+	}
 }
 
 export default card

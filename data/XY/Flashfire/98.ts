@@ -23,7 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Regardez la carte du dessus du deck de l'un des joueurs. Vous pouvez défausser la carte regardée ou la remettre sur le dessus du deck.",
+		fr: "Regardez la carte du dessus du deck de l’un des joueurs. Vous pouvez défausser la carte regardée ou la remettre sur le dessus du deck.",
+		en: "Look at the top card of either player’s deck. You may discard that card or return it to the top of the deck."
 	},
 	trainerType: "Item",
 

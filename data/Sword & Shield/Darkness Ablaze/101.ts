@@ -78,7 +78,20 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Because they scatter germs everywhere, they’ve long been targeted for extermination, leading to a steep decline in their population."
+	}
 }
 
 export default card

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Persian",
 		fr: "Persian",
+		es: "Persian",
+		it: "Persian",
+		pt: "Persian",
+		de: "Snobilikat"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Rare",

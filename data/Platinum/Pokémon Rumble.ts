@@ -11,18 +11,10 @@ const ru1: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 16,
 		official: 16
 	},
 
-	releaseDate: "2009-12-02",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2009-12-02"
 }
 
 export default ru1

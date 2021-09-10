@@ -6,26 +6,20 @@ const xyp: Set = {
 
 	name: {
 		en: "XY Black Star Promos",
-		fr: "Promo XY"
-,
+		fr: "Promo XY",
+		es: "XY Cartas de promoción",
+		it: "XY Promo",
+		de: "XY Promokarten"
 	},
 
 	serie: serie,
 	tcgOnline: "PR-XY",
 
 	cardCount: {
-		total: 211,
 		official: 211
 	},
 
-	releaseDate: "2013-10-12",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2013-10-12"
 }
 
 export default xyp

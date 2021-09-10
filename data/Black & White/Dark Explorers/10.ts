@@ -4,22 +4,29 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Shelmet",
+		fr: "Escargaume",
+		es: "Shelmet",
+		it: "Shelmet",
+		pt: "Shelmet",
+		de: "Schnuthelm"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		616,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -37,6 +44,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -44,10 +52,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

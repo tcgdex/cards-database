@@ -53,7 +53,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 80,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+	}
 }
 
 export default card

@@ -6,25 +6,20 @@ const bw6: Set = {
 
 	name: {
 		en: "Dragons Exalted",
-		fr: "Dragons Éxaltés"
+		fr: "Dragons Éxaltés",
+		es: "Dragones Majestuosos",
+		it: "Stirpe dei Draghi",
+		de: "Hoheit der Drachen"
 	},
 
 	serie: serie,
 	tcgOnline: "DRX",
 
 	cardCount: {
-		total: 128,
 		official: 124
 	},
 
-	releaseDate: "2012-08-15",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-08-15"
 }
 
 export default bw6

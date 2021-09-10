@@ -7,26 +7,19 @@ const sm7: Set = {
 	name: {
 		en: "Celestial Storm",
 		fr: "Tempête Céleste",
-		de: "Sturm Am Firmament",
-		it: "Tempesta Astrale"
+		es: "Tormenta Celestial",
+		it: "Tempesta Astrale",
+		de: "Sturm Am Firmament"
 	},
 
 	serie: serie,
 	tcgOnline: "CES",
 
 	cardCount: {
-		total: 183,
 		official: 168
 	},
 
-	releaseDate: "2018-08-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2018-08-03"
 }
 
 export default sm7

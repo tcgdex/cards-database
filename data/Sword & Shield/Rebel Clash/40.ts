@@ -79,7 +79,20 @@ const card: Card = {
 	retreat: 4,
 	hp: 180,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets."
+	}
 }
 
 export default card

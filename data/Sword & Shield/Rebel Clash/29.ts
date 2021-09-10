@@ -69,7 +69,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 90,
 	types: ["Fire"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!"
+	}
 }
 
 export default card

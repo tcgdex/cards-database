@@ -6,26 +6,20 @@ const xy12: Set = {
 
 	name: {
 		en: "Evolutions",
-		fr: "Évolutions"
-,
+		fr: "Évolutions",
+		es: "Evoluciones",
+		it: "Evoluzioni",
+		de: "Evolution"
 	},
 
 	serie: serie,
 	tcgOnline: "EVO",
 
 	cardCount: {
-		total: 113,
 		official: 108
 	},
 
-	releaseDate: "2016-11-02",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2016-11-02"
 }
 
 export default xy12

@@ -78,7 +78,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
+	}
 }
 
 export default card

@@ -3,11 +3,11 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Groudon-EX",
-		fr: "Groudon-EX",
+		en: "Groudon EX",
+		fr: "Groudon EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -33,8 +33,8 @@ const card: Card = {
 				fr: "Griffe Déchirante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
+				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
 

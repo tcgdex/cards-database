@@ -53,7 +53,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy."
+	}
 }
 
 export default card

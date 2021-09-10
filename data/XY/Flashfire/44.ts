@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Crache-Venin",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 
 		},

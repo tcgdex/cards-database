@@ -6,25 +6,19 @@ const xya: Set = {
 
 	name: {
 		en: "Yello A Alternate",
-		fr: "carte alternative A Jaune"
-,
+		fr: "carte alternative A Jaune",
+		es: "Cartas alternativas",
+		it: "Carta Alternatica A Gialla",
+		de: "Gelbes-A-Alternativkarten"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		total: 6,
 		official: 6
 	},
 
-	releaseDate: "2014-02-05",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2014-02-05"
 }
 
 export default xya

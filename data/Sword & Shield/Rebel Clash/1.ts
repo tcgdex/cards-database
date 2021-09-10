@@ -67,7 +67,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 50,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies."
+	}
 }
 
 export default card

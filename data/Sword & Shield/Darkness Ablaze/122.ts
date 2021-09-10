@@ -86,7 +86,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It habitually shows off its strength with the sparks it creates by ramming its steel body into boulders."
+	}
 }
 
 export default card

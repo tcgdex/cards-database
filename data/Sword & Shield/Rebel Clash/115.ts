@@ -76,7 +76,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 120,
 	types: ["Darkness"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "In its belly, it reserves stinky fluid that it shoots from its tail during battle. As this Pokémon’s diet varies, so does the stench of its fluid."
+	}
 }
 
 export default card

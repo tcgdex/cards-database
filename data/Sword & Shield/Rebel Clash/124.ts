@@ -75,7 +75,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 90,
 	types: ["Darkness"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "When it gets down on all fours as if to beg for forgiveness, it’s trying to lure opponents in so that it can stab them with its spear-like hair."
+	}
 }
 
 export default card

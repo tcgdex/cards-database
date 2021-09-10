@@ -68,7 +68,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit’s rebirth as this Pokémon."
+	}
 }
 
 export default card

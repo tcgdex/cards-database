@@ -6,26 +6,20 @@ const xy5: Set = {
 
 	name: {
 		en: "Primal Clash",
-		fr: "Primo-Choc"
-,
+		fr: "Primo-Choc",
+		es: "Duelos Primigenios",
+		it: "Scontro Primordiale",
+		de: "Protoshock"
 	},
 
 	serie: serie,
 	tcgOnline: "PRC",
 
 	cardCount: {
-		total: 164,
 		official: 160
 	},
 
-	releaseDate: "2015-02-04",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2015-02-04"
 }
 
 export default xy5

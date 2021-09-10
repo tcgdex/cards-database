@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Krookodile",
 		fr: "Crocorible",
+		es: "Krookodile",
+		it: "Krookodile",
+		pt: "Krookodile",
+		de: "Rabigator"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

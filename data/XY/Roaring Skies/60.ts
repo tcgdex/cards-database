@@ -3,11 +3,11 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza-EX",
+		en: "Rayquaza EX",
 		fr: "Rayquaza-EX",
 	},
 	illustrator: "PLANETA",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Frappe du Dragon",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can't use Dragon Strike during your next turn.",
+				en: "Flip a coin. If tails, this Pokémon can’t use Dragon Strike during your next turn.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas utiliser Frappe du Dragon pendant votre prochain tour.",
 			},
 			damage: 130,

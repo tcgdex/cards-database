@@ -3,11 +3,11 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Dragonite-EX",
-		fr: "Dracolosse-EX",
+		en: "Dragonite EX",
+		fr: "Dracolosse EX",
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -49,7 +49,7 @@ const card: Card = {
 				en: "You may discard an Energy attached to this Pokémon. If you do, this attack does 40 more damage.",
 				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

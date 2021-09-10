@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Starmie",
 		fr: "Staross",
 	},
+
 	illustrator: "HiRON",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		121,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Staryu",
 		fr: "Stari",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,13 +39,14 @@ const card: Card = {
 				fr: "Étoile Synchro",
 			},
 			effect: {
-				en: "If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached to them, this attack does 60 more damage.",
+				en: "If this Pokémon and your opponent’s Active Pokémon have the same amount of Energy attached to them, this attack does 60 more damage.",
 				fr: "Si ce Pokémon et le Pokémon Actif de votre adversaire ont le même nombre d'Énergies leur étant attachées, cette attaque inflige 60 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -49,10 +54,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

@@ -52,7 +52,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Lightning"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
+	}
 }
 
 export default card

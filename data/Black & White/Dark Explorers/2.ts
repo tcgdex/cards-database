@@ -4,24 +4,33 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Ivysaur",
+		fr: "Herbizarre",
+		es: "Ivysaur",
+		it: "Ivysaur",
+		pt: "Ivysaur",
+		de: "Bisaknosp"
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		2,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Bulbasaur",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -67,9 +78,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 3
 }
 
 export default card

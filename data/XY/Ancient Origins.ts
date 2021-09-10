@@ -6,26 +6,20 @@ const xy7: Set = {
 
 	name: {
 		en: "Ancient Origins",
-		fr: "Origines Antiques"
-,
+		fr: "Origines Antiques",
+		es: "Antiguos Orígenes",
+		it: "Antiche Origini",
+		de: "Ewiger Anfang"
 	},
 
 	serie: serie,
 	tcgOnline: "AOR",
 
 	cardCount: {
-		total: 100,
 		official: 98
 	},
 
-	releaseDate: "2015-08-12",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2015-08-12"
 }
 
 export default xy7

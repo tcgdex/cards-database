@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Monorpale",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Danse-Lames",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Slash attack's base damage is 40.",
-				fr: "Pendant votre prochain tour, les dégâts de base de l'attaque Tranche de ce Pokémon sont de 40.",
+				en: "During your next turn, this Pokémon’s Slash attack’s base damage is 40.",
+				fr: "Pendant votre prochain tour, les dégâts de base de l’attaque Tranche de ce Pokémon sont de 40.",
 			},
 
 		},

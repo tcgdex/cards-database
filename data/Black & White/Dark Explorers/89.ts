@@ -4,24 +4,33 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Haxorus",
+		fr: "Tranchodon",
+		es: "Haxorus",
+		it: "Haxorus",
+		pt: "Haxorus",
+		de: "Maxax"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		612,
 	],
+
 	hp: 140,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Fraxure",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -55,11 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 3
 }
 
 export default card

@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Ludicolo",
 		de: "Kappalores"
 	},
-	illustrator: undefined,
+	illustrator: "Framestore",
 	rarity: "Rare",
 	category: "Pokemon",
 

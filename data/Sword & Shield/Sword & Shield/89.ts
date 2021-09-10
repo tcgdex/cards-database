@@ -63,7 +63,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+	}
 }
 
 export default card

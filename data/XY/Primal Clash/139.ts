@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Les Pokémon évolués de chaque joueur peuvent utiliser les attaques de leurs pré-évolutions. (Le joueur a toujours besoin de l'Énergie nécessaire pour utiliser chaque attaque.)",
+		en: "Each player’s evolved Pokémon can use any attack from its previous Evolutions. (That player still needs the necessary Energy to use each attack.)"
 	},
 	trainerType: "Stadium",
 

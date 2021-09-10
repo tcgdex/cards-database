@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Walrein",
 		fr: "Kaimorse",
+		es: "Walrein",
+		it: "Walrein",
+		pt: "Walrein",
+		de: "Walraisa"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",

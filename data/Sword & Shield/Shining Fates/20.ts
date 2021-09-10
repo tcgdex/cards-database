@@ -39,7 +39,20 @@ const card: Card = {
 	}],
 
 	regulationMark: "E",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
+	}
 }
 
 export default card

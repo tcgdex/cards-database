@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Zekrom-EX",
 		fr: "Zekrom-EX",
+		es: "Zekrom-EX",
+		it: "Zekrom-EX",
+		pt: "Zekrom-EX",
+		de: "Zekrom-EX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

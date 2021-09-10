@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Zorua",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		570,
 	],
+
 	hp: 50,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,12 +49,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -60,9 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

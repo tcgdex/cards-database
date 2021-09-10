@@ -3,11 +3,11 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "M Venusaur-EX",
+		en: "M Venusaur EX",
 		fr: "M-Florizarre-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -38,10 +38,10 @@ const card: Card = {
 				fr: "Explo Pousse",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Flip a coin. If heads, this attack does 30 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
-			damage: 130,
+			damage: "130+",
 
 		},
 	],

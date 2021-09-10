@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Hydreigon",
 		fr: "Trioxhydre",
+		es: "Hydreigon",
+		it: "Hydreigon",
+		pt: "Hydreigon",
+		de: "Trikephalo"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Dark Aura",
 				fr: "Aura de Ténèbres",
+				es: "Aura Oscura",
+				it: "Auroscura",
+				pt: "Aura Negra",
+				de: "Finsterer Schein"
 			},
 			effect: {
 				en: "All Energy attached to this Pokémon are Darkness Energy instead of their usual type.",
 				fr: "Toutes les Énergies attachées à ce Pokémon sont des Énergies Darkness au lieu de leur type habituel.",
+				es: "Todas las Energía unidas a este Pokémon son Energía Darkness en vez del tipo habitual.",
+				it: "Tutte le Energie assegnate a questo Pokémon sono Energie Darkness anziché del loro solito tipo.",
+				pt: "Toda Energia ligada a este Pokémon é Energia Darkness em vez do tipo usual.",
+				de: "Alle Energien, die an dieses Pokémon angelegt sind, liefern Darkness-Energie anstelle ihres normalen Typs."
 			},
 		},
 	],

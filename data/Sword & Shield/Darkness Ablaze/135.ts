@@ -54,7 +54,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+	}
 }
 
 export default card

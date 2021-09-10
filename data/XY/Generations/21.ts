@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Krabby",
 		fr: "Krabby",
 	},
+
 	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		98,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -57,10 +60,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

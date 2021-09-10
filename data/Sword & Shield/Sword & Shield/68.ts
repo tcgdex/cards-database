@@ -73,7 +73,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them."
+	}
 }
 
 export default card

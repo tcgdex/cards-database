@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Votre Pokémon Actif est maintenant Confus.",
+		en: "Your Active Pokémon is now Confused."
 	},
 	trainerType: "Supporter",
 

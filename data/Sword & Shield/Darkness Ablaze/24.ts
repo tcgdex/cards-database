@@ -84,7 +84,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings."
+	}
 }
 
 export default card

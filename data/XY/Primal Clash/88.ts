@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Résistance Désertique",
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
+				en: "During your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
 				fr: "Pendant le prochain tour de votre adversaire, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par des Pokémon-EX.",
 			},
 			damage: 60,

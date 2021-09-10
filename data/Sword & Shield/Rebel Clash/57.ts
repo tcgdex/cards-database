@@ -73,7 +73,20 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	regulationMark: "D",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+	}
 }
 
 export default card

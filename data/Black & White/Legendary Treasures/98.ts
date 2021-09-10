@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Zweilous",
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		634,
 	],
+
 	hp: 80,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Deino",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -59,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

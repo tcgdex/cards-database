@@ -3,7 +3,7 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Glalie-EX",
+		en: "Glalie EX",
 		fr: "Oniglali-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Haleine de Glace",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 100 more damage.",
 				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 100 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

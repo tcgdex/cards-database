@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		es: "Pawniard",
+		it: "Pawniard",
+		pt: "Pawniard",
+		de: "Gladiantri"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",

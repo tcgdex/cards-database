@@ -56,7 +56,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
+	}
 }
 
 export default card

@@ -13,18 +13,10 @@ const ex10: Set = {
 	tcgOnline: "UF",
 
 	cardCount: {
-		total: 117,
 		official: 115
 	},
 
-	releaseDate: "2005-08-22",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2005-08-22"
 }
 
 export default ex10

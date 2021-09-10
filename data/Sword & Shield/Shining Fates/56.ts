@@ -68,7 +68,20 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need."
+	}
 }
 
 export default card

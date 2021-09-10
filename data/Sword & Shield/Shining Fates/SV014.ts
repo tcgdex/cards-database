@@ -66,7 +66,12 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on."
+	}
 }
 
 export default card

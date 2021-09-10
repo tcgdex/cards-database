@@ -6,26 +6,20 @@ const pl4: Set = {
 
 	name: {
 		en: "Arceus",
-		fr: "Arceus"
-,
+		fr: "Arceus",
+		es: "Arceus",
+		it: "Arceus",
+		de: "Arceus"
 	},
 
 	serie: serie,
 	tcgOnline: "AR",
 
 	cardCount: {
-		total: 111,
 		official: 99
 	},
 
-	releaseDate: "2009-11-04",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2009-11-04"
 }
 
 export default pl4

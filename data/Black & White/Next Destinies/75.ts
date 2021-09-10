@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bronzor",
 		fr: "Archéomire",
+		es: "Bronzor",
+		it: "Bronzor",
+		pt: "Bronzor",
+		de: "Bronzel"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",

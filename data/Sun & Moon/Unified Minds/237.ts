@@ -3,15 +3,15 @@ import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Rowlet & Alolan Exeggutor-GX",
-		fr: "Brindibou et Noadkoko d’Alola-GX",
-		es: "Rowlet y Exeggutor de Alola-GX",
-		it: "Rowlet e Exeggutor di Alola-GX",
-		pt: "Rowlet e Exeggutor de Alola-GX",
-		de: "Bauz & Alola-Kokowei-GX"
+		en: "Rowlet & Alolan Exeggutor GX",
+		fr: "Brindibou et Noadkoko d’Alola GX",
+		es: "Rowlet y Exeggutor de Alola GX",
+		it: "Rowlet e Exeggutor di Alola GX",
+		pt: "Rowlet e Exeggutor de Alola GX",
+		de: "Bauz & Alola-Kokowei GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "ConceptLab",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,

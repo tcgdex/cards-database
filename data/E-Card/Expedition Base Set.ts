@@ -13,18 +13,10 @@ const ecard1: Set = {
 	tcgOnline: "EX",
 
 	cardCount: {
-		total: 165,
 		official: 165
 	},
 
-	releaseDate: "2002-09-15",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2002-09-15"
 }
 
 export default ecard1

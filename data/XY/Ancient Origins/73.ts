@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "N'importe quand entre chaque tour, placez 2 marqueurs de dégâts sur chacun des Pokémon Méga-Évolution.",
+		en: "At any time between turns, put 2 damage counters on each Mega Evolution Pokémon."
 	},
 	trainerType: "Stadium",
 

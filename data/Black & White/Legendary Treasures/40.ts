@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Tympole",
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		535,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -46,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -53,10 +56,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

@@ -45,7 +45,7 @@ const card: Card = {
 				fr: "Perforation",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 20,

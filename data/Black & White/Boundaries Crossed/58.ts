@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wobbuffet",
 		fr: "Qulbutoké",
+		es: "Wobbuffet",
+		it: "Wobbuffet",
+		pt: "Wobbuffet",
+		de: "Woingenau"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",

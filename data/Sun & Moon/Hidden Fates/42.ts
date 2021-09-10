@@ -3,11 +3,11 @@ import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Wigglytuff-GX",
+		en: "Wigglytuff GX",
 		fr: "Grodoudou-GX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -40,7 +40,7 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
 				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 		{
@@ -50,11 +50,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lovely Star-GX",
+				en: "Lovely Star GX",
 				fr: "Belle Étoile-GX",
 			},
 			effect: {
-				en: "Heal all damage from this Pokémon. (You can't use more than 1 GX attack in a game.)",
+				en: "Heal all damage from this Pokémon. (You can’t use more than 1 GX attack in a game.)",
 				fr: "Soignez tous les dégâts de ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 130,

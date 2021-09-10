@@ -90,7 +90,18 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
+	}
 }
 
 export default card

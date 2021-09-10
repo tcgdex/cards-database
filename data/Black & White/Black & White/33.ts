@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Panpour",
 		fr: "Flotajou",
+		es: "Panpour",
+		it: "Panpour",
+		pt: "Panpour",
+		de: "Sodamak"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",

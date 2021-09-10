@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Aggron",
+		en: "Team Magma’s Aggron",
 		fr: "Galeking de la Team Magma",
 	},
 	illustrator: "TOKIYA",
@@ -19,7 +19,7 @@ const card: Card = {
 		"Fighting",
 	],
 	evolveFrom: {
-		en: "Team Magma's Lairon",
+		en: "Team Magma’s Lairon",
 		fr: "Galegon de la Team Magma",
 	},
 	stage: "Stage2",
@@ -39,7 +39,7 @@ const card: Card = {
 				en: "Discard as many Fighting Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of Fighting Energy you discarded.",
 				fr: "Défaussez autant d'Énergies Fighting attachées à vos Pokémon que vous voulez. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Énergie Fighting que vous avez défaussées.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 		{
@@ -54,7 +54,7 @@ const card: Card = {
 				fr: "Tempête de Roche",
 			},
 			effect: {
-				en: "This attack does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 20 damage to each of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire ayant au moins 1 marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 120,

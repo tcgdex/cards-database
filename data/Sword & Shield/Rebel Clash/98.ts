@@ -82,7 +82,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 110,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Through yoga training, it gained the psychic power to predict its foe’s next move."
+	}
 }
 
 export default card

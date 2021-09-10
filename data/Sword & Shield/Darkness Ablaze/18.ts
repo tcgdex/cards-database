@@ -86,7 +86,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs."
+	}
 }
 
 export default card

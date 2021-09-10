@@ -83,7 +83,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 90,
 	types: ["Metal"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents."
+	}
 }
 
 export default card

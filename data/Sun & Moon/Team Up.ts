@@ -7,6 +7,7 @@ const sm9: Set = {
 	name: {
 		en: "Team Up",
 		fr: "Duo de Choc",
+		es: "Union de Aliados",
 		it: "Gioco di Squadra",
 		de: "Teams Sind Trumpf"
 	},
@@ -15,18 +16,10 @@ const sm9: Set = {
 	tcgOnline: "TEU",
 
 	cardCount: {
-		total: 181,
 		official: 181
 	},
 
-	releaseDate: "2019-01-31",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-01-31"
 }
 
 export default sm9

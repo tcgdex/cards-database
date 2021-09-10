@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Pollen Irritant",
 			},
 			effect: {
-				en: "Each player can't play any Item cards from his or her hand.",
+				en: "Each player can’t play any Item cards from his or her hand.",
 				fr: "Aucun joueur ne peut jouer de cartes Objet de sa main.",
 			},
 		},

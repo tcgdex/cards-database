@@ -69,7 +69,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts."
+	}
 }
 
 export default card

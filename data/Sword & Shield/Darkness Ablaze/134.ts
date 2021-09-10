@@ -49,7 +49,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
+	}
 }
 
 export default card

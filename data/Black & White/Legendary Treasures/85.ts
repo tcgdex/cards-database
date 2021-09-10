@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Landorus",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		645,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,12 +52,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -63,9 +67,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

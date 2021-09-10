@@ -7,6 +7,7 @@ const sm4: Set = {
 	name: {
 		en: "Crimson Invasion",
 		fr: "Invasion Carmin",
+		es: "Invasión Carmesí",
 		it: "Invasione Scarlatta",
 		de: "Aufziehen der Sturmröte"
 	},
@@ -15,18 +16,10 @@ const sm4: Set = {
 	tcgOnline: "CIN",
 
 	cardCount: {
-		total: 111,
 		official: 111
 	},
 
-	releaseDate: "2017-11-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2017-11-03"
 }
 
 export default sm4

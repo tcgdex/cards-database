@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Dunsparce",
 		fr: "Insolourdo",
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		206,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Terrier",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
+				en: "Discard the top card of your opponent’s deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -57,10 +60,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

@@ -78,7 +78,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 140,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers."
+	}
 }
 
 export default card

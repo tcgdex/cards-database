@@ -13,18 +13,10 @@ const ex2: Set = {
 	tcgOnline: "SS",
 
 	cardCount: {
-		total: 100,
 		official: 100
 	},
 
-	releaseDate: "2003-09-18",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2003-09-18"
 }
 
 export default ex2

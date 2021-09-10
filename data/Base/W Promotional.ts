@@ -12,18 +12,10 @@ const wp: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 53,
 		official: 53
 	},
 
-	releaseDate: "1999-09-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "1999-09-01"
 }
 
 export default wp

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Marisson",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,

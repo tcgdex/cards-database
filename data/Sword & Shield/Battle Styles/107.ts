@@ -87,6 +87,12 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Once upon a time, a king with an Aegislash reigned over the land. His Pokémon eventually drained him of life, and his kingdom fell with him."
 	}
 }
 

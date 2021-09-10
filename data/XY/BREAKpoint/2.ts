@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bayleef",
 		fr: "Macronium",
+		es: "Bayleef",
+		it: "Bayleef",
+		pt: "Bayleef",
+		de: "Lorblatt"
 	},
 	illustrator: "Mizue",
 	rarity: "Uncommon",
@@ -21,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chikorita",
 		fr: "Germignon",
+		es: "Chikorita"
 	},
 	stage: "Stage1",
 
@@ -33,10 +38,18 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
+				es: "Golpe Cuerpo",
+				it: "Corposcontro",
+				pt: "Pancada Corporal",
+				de: "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -49,6 +62,10 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				es: "Látigo Cepa",
+				it: "Frustata",
+				pt: "Chicote de Vinha",
+				de: "Rankenhieb"
 			},
 
 			damage: 30,

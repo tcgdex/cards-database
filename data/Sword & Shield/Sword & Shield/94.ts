@@ -76,7 +76,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
+	}
 }
 
 export default card

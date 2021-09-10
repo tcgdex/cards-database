@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Drattak",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -24,17 +24,6 @@ const card: Card = {
 	},
 	stage: "Stage2",
 
-	abilities: [
-		{
-			type: "Ancient Trait",
-			name: {
-				fr: "Évolution Δ",
-			},
-			effect: {
-				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
-			},
-		},
-	],
 	attacks: [
 		{
 			cost: [

@@ -4,24 +4,33 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Blaziken",
+		fr: "Braségali",
+		es: "Blaziken",
+		it: "Blaziken",
+		pt: "Blaziken",
+		de: "Lohgock"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		257,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Combusken",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -54,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -61,10 +71,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

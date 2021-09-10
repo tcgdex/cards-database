@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Solosis",
 		fr: "Nucléos",
+		es: "Solosis",
+		it: "Solosis",
+		pt: "Solosis",
+		de: "Monozyto"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",

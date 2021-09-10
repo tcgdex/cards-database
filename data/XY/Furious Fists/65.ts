@@ -35,10 +35,10 @@ const card: Card = {
 				fr: "Choc Venin",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage.",
+				en: "If your opponent’s Active Pokémon is Poisoned, this attack does 40 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Croc-Poison",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
+				en: "Your opponent’s Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 80,

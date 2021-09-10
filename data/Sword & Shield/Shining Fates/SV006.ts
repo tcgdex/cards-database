@@ -66,7 +66,12 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage2",
+
+	description: {
+		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
+	}
 }
 
 export default card

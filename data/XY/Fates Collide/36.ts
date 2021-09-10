@@ -5,22 +5,28 @@ const card: Card = {
 	name: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		es: "Diglett",
+		it: "Diglett",
+		pt: "Diglett",
+		de: "Digda"
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		50,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,12 +36,17 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -43,10 +54,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

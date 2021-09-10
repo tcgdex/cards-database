@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mesprit",
 		fr: "Créfollet",
+		es: "Mesprit",
+		it: "Mesprit",
+		pt: "Mesprit",
+		de: "Vesprit"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Mental Shroud",
 				fr: "Écran Mental",
+				es: "Velo MentalBarrera Mental",
+				it: "Manto Psichico",
+				pt: "Cortina Mental",
+				de: "Gedankengardine"
 			},
 			effect: {
 				en: "If you have Uxie and Azelf in play, each of your Pokémon has no Weakness.",
-				fr: "Si vous avez Créhelf et Créfadet en jeu, chacun de vos Pokémon n'a pas de Faiblesse.",
+				fr: "Si vous avez Créhelf et Créfadet en jeu, chacun de vos Pokémon n’a pas de Faiblesse.",
+				es: "Si tienes a Uxie y a Azelf en juego, cada uno de tus Pokémon no tiene ninguna Debilidad.",
+				it: "Se hai Uxie e Azelf in gioco, nessuno dei tuoi Pokémon ha debolezza.",
+				pt: "Caso você possua Uxie e Azelf em jogo, seus Pokémon não terão Fraqueza.",
+				de: "Wenn du Selfe und Tobutz im Spiel hast, hat jedes deiner Pokémon keine Schwäche."
 			},
 		},
 	],

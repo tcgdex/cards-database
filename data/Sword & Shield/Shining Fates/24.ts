@@ -61,7 +61,20 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
+	}
 }
 
 export default card

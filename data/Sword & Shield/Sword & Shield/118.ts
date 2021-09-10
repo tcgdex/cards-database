@@ -80,7 +80,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+	}
 }
 
 export default card

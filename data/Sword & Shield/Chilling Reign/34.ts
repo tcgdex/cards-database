@@ -25,7 +25,7 @@ const card: Card = {
 	stage: 'Basic',
 
 	description: {
-		en: 'This is Castform\'s form when caught in a hailstrom. Its\nwhole body is chilled, and its skin is partially frozen!',
+		en: "This is Castform’s form when caught in a hailstorm. Its whole body is chilled, and its skin is partially frozen!",
 		fr: 'Morphéo adopte cette apparence quand\n il est frappé par la grèle. Tout son corps est froid et sa peau est légèrement givrée.'
 	},
 

@@ -82,6 +82,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "They can suck down over 10 ounces of blood in one go. They have been known to drink so much blood that they can no longer fly."
 	}
 }
 

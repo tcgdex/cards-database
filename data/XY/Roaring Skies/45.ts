@@ -38,7 +38,7 @@ const card: Card = {
 				en: "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Aurasphère",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 70,

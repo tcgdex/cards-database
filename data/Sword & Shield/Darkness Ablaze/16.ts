@@ -83,7 +83,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents."
+	}
 }
 
 export default card

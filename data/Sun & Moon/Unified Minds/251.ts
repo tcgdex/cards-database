@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Giga-Bombe"
 	},
 
-	illustrator: undefined,
+	illustrator: "Studio Bora Inc.",
 	rarity: "Secret Rare",
 	category: "Trainer",
 	set: Set,

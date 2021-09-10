@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tympole",
 		fr: "Tritonde",
+		es: "Tympole",
+		it: "Tympole",
+		pt: "Tympole",
+		de: "Schallquap"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",

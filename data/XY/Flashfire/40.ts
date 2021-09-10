@@ -29,11 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Shadow Void",
-				fr: "Crevasse d'Ombre",
+				fr: "Crevasse d’Ombre",
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to this Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer un marqueur de dégâts de l'un de vos Pokémon vers ce Pokémon.",
+				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer un marqueur de dégâts de l’un de vos Pokémon vers ce Pokémon.",
 			},
 		},
 	],
@@ -49,8 +49,8 @@ const card: Card = {
 				fr: "Points de Douleur",
 			},
 			effect: {
-				en: "Put damage counters on 1 of your opponent's Pokémon equal to the number of damage counters on this Pokémon.",
-				fr: "Placez autant de marqueurs de dégâts sur l'un des Pokémon de votre adversaire qu'il y a de marqueurs de dégâts sur ce Pokémon.",
+				en: "Put damage counters on 1 of your opponent’s Pokémon equal to the number of damage counters on this Pokémon.",
+				fr: "Placez autant de marqueurs de dégâts sur l’un des Pokémon de votre adversaire qu’il y a de marqueurs de dégâts sur ce Pokémon.",
 			},
 
 		},

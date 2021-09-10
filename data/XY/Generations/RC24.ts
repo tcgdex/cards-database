@@ -51,7 +51,7 @@ const card: Card = {
 				en: "If you have any Fairy Pokémon on your Bench, this attack does 30 more damage.",
 				fr: "Si vous avez un Pokémon Fairy sur votre Banc, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

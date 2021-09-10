@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Marowak BREAK",
 		fr: "Ossatueur TURBO",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		105,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Marowak",
 		fr: "Ossatueur",
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 40 more damage for each Prize card your opponent has taken.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -57,11 +61,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

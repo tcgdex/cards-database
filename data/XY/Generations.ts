@@ -6,26 +6,20 @@ const g1: Set = {
 
 	name: {
 		en: "Generations",
-		fr: "Générations"
-,
+		fr: "Générations",
+		es: "Generaciones",
+		it: "Generazioni",
+		de: "Generationen"
 	},
 
 	serie: serie,
 	tcgOnline: "GEN",
 
 	cardCount: {
-		total: 115,
 		official: 83
 	},
 
-	releaseDate: "2016-02-22",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2016-02-22"
 }
 
 export default g1

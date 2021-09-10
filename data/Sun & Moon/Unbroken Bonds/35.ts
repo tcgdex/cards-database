@@ -3,15 +3,15 @@ import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Blastoise-GX",
-		fr: "Tortank-GX",
-		es: "Blastoise-GX",
-		it: "Blastoise-GX",
-		pt: "Blastoise-GX",
-		de: "Turtok-GX"
+		en: "Blastoise GX",
+		fr: "Tortank GX",
+		es: "Blastoise GX",
+		it: "Blastoise GX",
+		pt: "Blastoise GX",
+		de: "Turtok GX"
 	},
 	illustrator: "sadaji",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

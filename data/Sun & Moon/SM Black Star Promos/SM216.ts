@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Porygon-Z-GX",
-		fr: "Porygon-Z-GX",
-		es: "Porygon-Z-GX",
-		it: "Porygon-Z-GX",
-		pt: "Porygon-Z-GX",
-		de: "Porygon-Z-GX"
+		en: "Porygon-Z GX",
+		fr: "Porygon-Z GX",
+		es: "Porygon-Z GX",
+		it: "Porygon-Z GX",
+		pt: "Porygon-Z GX",
+		de: "Porygon-Z GX"
 	},
 
 	illustrator: undefined,

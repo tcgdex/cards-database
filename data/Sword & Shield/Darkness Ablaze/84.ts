@@ -48,7 +48,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
+	}
 }
 
 export default card

@@ -72,7 +72,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light."
+	}
 }
 
 export default card

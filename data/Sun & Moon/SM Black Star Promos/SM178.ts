@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Melmetal-GX",
-		fr: "Melmetal-GX",
-		es: "Melmetal-GX",
-		it: "Melmetal-GX",
-		pt: "Melmetal-GX",
-		de: "Melmetal-GX"
+		en: "Melmetal GX",
+		fr: "Melmetal GX",
+		es: "Melmetal GX",
+		it: "Melmetal GX",
+		pt: "Melmetal GX",
+		de: "Melmetal GX"
 	},
 	illustrator: "PLANETA Otani",
 	rarity: "Rare",

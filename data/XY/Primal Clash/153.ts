@@ -3,7 +3,7 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Aggron-EX",
+		en: "Aggron EX",
 		fr: "Galeking-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -37,7 +37,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 		{
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

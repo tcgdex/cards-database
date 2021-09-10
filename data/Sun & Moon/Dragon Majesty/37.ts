@@ -3,15 +3,15 @@ import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Dragonite-GX",
-		fr: "Dracolosse-GX",
-		es: "Dragonite-GX",
-		it: "Dragonite-GX",
-		pt: "Dragonite-GX",
-		de: "Dragoran-GX"
+		en: "Dragonite GX",
+		fr: "Dracolosse GX",
+		es: "Dragonite GX",
+		it: "Dragonite GX",
+		pt: "Dragonite GX",
+		de: "Dragoran GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

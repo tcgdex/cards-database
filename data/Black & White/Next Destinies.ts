@@ -6,25 +6,20 @@ const bw4: Set = {
 
 	name: {
 		en: "Next Destinies",
-		fr: "Destinées Futures"
+		fr: "Destinées Futures",
+		es: "Próximos Destinos",
+		it: "Destini Futuri",
+		de: "Kommende Schicksale"
 	},
 
 	serie: serie,
 	tcgOnline: "NXD",
 
 	cardCount: {
-		total: 103,
 		official: 99
 	},
 
-	releaseDate: "2012-02-08",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-02-08"
 }
 
 export default bw4

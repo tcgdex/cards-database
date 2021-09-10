@@ -82,7 +82,20 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams."
+	}
 }
 
 export default card

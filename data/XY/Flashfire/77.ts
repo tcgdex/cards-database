@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Serre",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 40,
@@ -53,8 +53,8 @@ const card: Card = {
 				fr: "Tornade Puissante",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Strong Gust attack does 60 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Souffle Puissant de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				en: "During your next turn, this Pokémon’s Strong Gust attack does 60 more damage (before applying Weakness and Resistance).",
+				fr: "Pendant votre prochain tour, l’attaque Souffle Puissant de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 60,
 

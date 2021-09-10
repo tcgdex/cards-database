@@ -87,7 +87,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
+	}
 }
 
 export default card

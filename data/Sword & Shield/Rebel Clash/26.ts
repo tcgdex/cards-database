@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saki Hayashiro",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
 
@@ -79,7 +79,17 @@ const card: Card = {
 	retreat: 2,
 	hp: 200,
 	types: ["Fire"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

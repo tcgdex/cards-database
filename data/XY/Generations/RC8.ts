@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Traînée",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out.",
+				en: "If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent’s attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out.",
 				fr: "Si ce Pokémon est votre Pokémon Actif et est mis K.O. par les dégâts d'une attaque de votre adversaire, lancez une pièce. Si c'est face, le Pokémon Attaquant est mis K.O.",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Chute Enneigée",
 			},
 			effect: {
-				en: "Put 4 damage counters on your opponent's Pokémon in any way you like.",
+				en: "Put 4 damage counters on your opponent’s Pokémon in any way you like.",
 				fr: "Placez 4 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
 			},
 

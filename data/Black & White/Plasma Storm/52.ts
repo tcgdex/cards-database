@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Zubat",
 		fr: "Nosferapti",
+		es: "Zubat",
+		it: "Zubat",
+		pt: "Zubat",
+		de: "Zubat"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",

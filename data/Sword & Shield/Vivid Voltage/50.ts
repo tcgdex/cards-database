@@ -57,7 +57,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "This rough Pokémon stores energy inside its body, then sweeps across the land, shooting off electricity."
+	}
 }
 
 export default card

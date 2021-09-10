@@ -83,7 +83,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 140,
 	types: ["Lightning"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year."
+	}
 }
 
 export default card

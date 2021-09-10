@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Palkia",
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -46,7 +46,7 @@ const card: Card = {
 				en: "Cross Slicer",
 			},
 			effect: {
-				en: "Your opponent can't attach Energy from his or her hand to the Defending Pokémon during his or her next turn.",
+				en: "Your opponent can’t attach Energy from his or her hand to the Defending Pokémon during his or her next turn.",
 			},
 			damage: 80,
 

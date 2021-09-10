@@ -5,25 +5,33 @@ const card: Card = {
 	name: {
 		en: "Beedrill",
 		fr: "Dardargnan",
+		es: "Beedrill",
+		it: "Beedrill",
+		pt: "Beedrill",
+		de: "Bibor"
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		15,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Kakuna",
 		fr: "Coconfort",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -56,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,10 +72,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

@@ -4,7 +4,10 @@ const set: Serie = {
 	id: "hgss",
 	name: {
 		en: "HeartGold & SoulSilver",
-		fr: "HeartGold & SoulSilver"
+		fr: "HeartGold SoulSilver",
+		es: "HeartGold SoulSilver",
+		it: "HeartGold SoulSilver",
+		de: "HeartGold SoulSilver"
 	},
 }
 

@@ -72,7 +72,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 90,
 	types: ["Lightning"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+	}
 }
 
 export default card

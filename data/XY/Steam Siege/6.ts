@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Yanma",
 		fr: "Yanma",
+		es: "Yanma",
+		it: "Yanma",
+		pt: "Yanma",
+		de: "Yanma"
 	},
 	illustrator: "match",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Scout",
 				fr: "Espionnage",
+				es: "Explorar",
+				it: "Esplorazione",
+				pt: "Explorador",
+				de: "Späher"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand.",
 				fr: "Votre adversaire montre sa main.",
+				es: "Tu rival enseña las cartas de su mano.",
+				it: "Il tuo avversario mostra le carte che ha in mano.",
+				pt: "Seu oponente revela a própria mão.",
+				de: "Dein Gegner deckt seine Handkarten auf."
 			},
 
 		},
@@ -46,6 +58,10 @@ const card: Card = {
 			name: {
 				en: "Speed Dive",
 				fr: "Plongée Rapide",
+				es: "Picado Rápido",
+				it: "Immersione Rapida",
+				pt: "Mergulho Veloz",
+				de: "Tempohechtsprung"
 			},
 
 			damage: 40,

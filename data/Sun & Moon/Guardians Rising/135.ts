@@ -3,12 +3,12 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Tapu Koko-GX",
-		fr: "Tokorico-GX",
-		es: "Tapu Koko-GX",
-		it: "Tapu Koko-GX",
-		pt: "Tapu Koko-GX",
-		de: "Kapu-Riki-GX"
+		en: "Tapu Koko GX",
+		fr: "Tokorico GX",
+		es: "Tapu Koko GX",
+		it: "Tapu Koko GX",
+		pt: "Tapu Koko GX",
+		de: "Kapu-Riki GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

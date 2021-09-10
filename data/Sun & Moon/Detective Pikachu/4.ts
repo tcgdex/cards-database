@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Charmander",
 		de: "Glumanda"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Common",
 	category: "Pokemon",
 

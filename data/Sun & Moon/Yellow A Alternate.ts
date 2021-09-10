@@ -7,6 +7,7 @@ const sma: Set = {
 	name: {
 		en: "Yellow A Alternate",
 		fr: "Carte Alternative A Jaune",
+		es: "Cartas alternativas",
 		it: "Carta Alternativa A Gialla",
 		de: "Gelbes A-Alternativkarte"
 	},
@@ -14,18 +15,10 @@ const sma: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 94,
 		official: 94
 	},
 
-	releaseDate: "2019-08-23",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-08-23"
 }
 
 export default sma

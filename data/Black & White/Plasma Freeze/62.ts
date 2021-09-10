@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Makuhita",
 		fr: "Makuhita",
+		es: "Makuhita",
+		it: "Makuhita",
+		pt: "Makuhita",
+		de: "Makuhita"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",

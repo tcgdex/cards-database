@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
-				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c'est face, évitez les dégâts.",
+				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c’est face, évitez les dégâts.",
 			},
 		},
 	],
@@ -49,8 +49,8 @@ const card: Card = {
 				fr: "Bang Sonique",
 			},
 			effect: {
-				en: "This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 30 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},

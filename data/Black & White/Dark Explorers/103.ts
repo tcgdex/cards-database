@@ -4,20 +4,27 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Entei-EX",
+		fr: "Entei-EX",
+		es: "Entei-EX",
+		it: "Entei-EX",
+		pt: "Entei-EX",
+		de: "Entei-EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		244,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -52,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -59,10 +67,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

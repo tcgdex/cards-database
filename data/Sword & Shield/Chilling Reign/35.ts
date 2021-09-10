@@ -46,6 +46,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It can only survive in cold areas. It bounces happily around, even in environments as cold as −150 degrees Fahrenheit."
 	}
 }
 

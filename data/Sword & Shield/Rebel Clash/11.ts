@@ -81,7 +81,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 90,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its thin, winglike antennae are highly absorbent. It waits out rainy days in tree hollows."
+	}
 }
 
 export default card

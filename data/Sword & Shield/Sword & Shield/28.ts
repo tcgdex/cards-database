@@ -91,7 +91,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit."
+	}
 }
 
 export default card

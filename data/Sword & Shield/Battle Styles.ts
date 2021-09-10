@@ -7,25 +7,18 @@ const swsh1: Set = {
 	name: {
 		en: "Battle Styles",
 		fr: "Styles de combat",
-		es: "Estilos de Combate"
-,
+		es: "Estilos de Combate",
+		it: "Stili di Lotta",
+		de: "Kampfstile"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		total: 216,
 		official: 202
 	},
 
-	releaseDate: "2021-03-19",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2021-03-19"
 }
 
 export default swsh1

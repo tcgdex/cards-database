@@ -93,7 +93,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Known for forming harmonious couples, this Pokémon is brought to wedding ceremonies as a good luck charm."
+	}
 }
 
 export default card

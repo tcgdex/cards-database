@@ -7,25 +7,18 @@ const swsh1: Set = {
 	name: {
 		en: "Sword & Shield",
 		fr: "Épée et Bouclier",
-		es: "Espada y Escudo"
-,
+		es: "Espada y Escudo",
+		it: "Spada e Scudo",
+		de: "Schwert & Schild"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		total: 216,
 		official: 202
 	},
 
-	releaseDate: "2020-02-07",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2020-02-07"
 }
 
 export default swsh1

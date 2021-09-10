@@ -5,19 +5,21 @@ const card: Card = {
 	name: {
 		en: "Zekrom-EX",
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		644,
 	],
+
 	hp: 180,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "EX",
 
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

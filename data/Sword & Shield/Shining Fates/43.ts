@@ -51,7 +51,20 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Although the poison from its fangs isn’t that strong, it’s potent enough to weaken prey that gets caught in its web."
+	}
 }
 
 export default card

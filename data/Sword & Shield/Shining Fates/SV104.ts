@@ -74,7 +74,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Stage1",
+
+	description: {
+		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+	}
 }
 
 export default card

@@ -83,7 +83,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano."
+	}
 }
 
 export default card

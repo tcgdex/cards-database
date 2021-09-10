@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Tierno",
 	},
 	illustrator: "Ken Sugimori",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 
 	set: Set,
@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Piochez 3 cartes.",
+		en: "Draw 3 cards."
 	},
 	trainerType: "Supporter",
 

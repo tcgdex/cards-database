@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Barrière de Poison",
 			},
 			effect: {
-				en: "Your opponent's Poisoned Pokémon can't retreat.",
+				en: "Your opponent’s Poisoned Pokémon can’t retreat.",
 				fr: "Les Pokémon Empoisonnés de votre adversaire ne peuvent pas battre en retraite.",
 			},
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				fr: "Haleine Empoisonnée",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 60,
 

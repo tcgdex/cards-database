@@ -6,25 +6,20 @@ const bw3: Set = {
 
 	name: {
 		en: "Noble Victories",
-		fr: "Nobles Victoires"
+		fr: "Nobles Victoires",
+		es: "Nobles Victorias",
+		it: "Vittorie Regali",
+		de: "Königliche Siege"
 	},
 
 	serie: serie,
 	tcgOnline: "NVI",
 
 	cardCount: {
-		total: 102,
 		official: 101
 	},
 
-	releaseDate: "2011-11-16",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2011-11-16"
 }
 
 export default bw3

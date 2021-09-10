@@ -5,23 +5,32 @@ const card: Card = {
 	name: {
 		en: "Drifblim",
 		fr: "Grodrive",
+		es: "Drifblim",
+		it: "Drifblim",
+		pt: "Drifblim",
+		de: "Drifzepeli"
 	},
+
 	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		426,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -30,13 +39,22 @@ const card: Card = {
 			name: {
 				en: "Drifting Balloon",
 				fr: "Ballon Flottant",
+				es: "Globo a la Deriva",
+				it: "Pallonderiva",
+				pt: "Balão à Deriva",
+				de: "Gleitballon"
 			},
 			effect: {
-				en: "This Pokémon's attacks cost Colorless less for each of your opponent's Team Plasma Pokémon in play.",
+				en: "This Pokémon’s attacks cost Colorless less for each of your opponent’s Team Plasma Pokémon in play.",
 				fr: "Les attaques de ce Pokémon coûtent Colorless de moins pour chaque Pokémon de la Team Plasma de votre adversaire en jeu.",
+				es: "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon del Equipo Plasma de tu rival en juego.",
+				it: "Gli attacchi di questo Pokémon costano Colorless in meno per ogni Pokémon del Team Plasma del tuo avversario in gioco.",
+				pt: "O ataque deste Pokémon custa Colorless a menos para cada Pokémon da Equipe Plasma do oponente em jogo.",
+				de: "Die Angriffskosten dieses Pokémon verringern sich um Colorless für jedes Team Plasma-Pokémon, das dein Gegner im Spiel hat."
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +74,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
@@ -63,10 +82,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

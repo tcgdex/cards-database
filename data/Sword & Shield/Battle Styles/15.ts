@@ -72,6 +72,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "As it slashes into its enemies, it looks like it’s dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokémon."
 	}
 }
 

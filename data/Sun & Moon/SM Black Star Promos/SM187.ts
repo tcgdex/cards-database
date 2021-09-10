@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Alolan Marowak-GX",
-		fr: "Ossatueur d’Alola-GX",
-		es: "Marowak de Alola-GX",
-		it: "Marowak di Alola-GX",
-		pt: "Marowak de Alola-GX",
-		de: "Alola-Knogga-GX"
+		en: "Alolan Marowak GX",
+		fr: "Ossatueur d’Alola GX",
+		es: "Marowak de Alola GX",
+		it: "Marowak di Alola GX",
+		pt: "Marowak de Alola GX",
+		de: "Alola-Knogga GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

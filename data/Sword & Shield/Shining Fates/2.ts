@@ -65,7 +65,20 @@ const card: Card = {
 	}],
 
 	regulationMark: "E",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced."
+	}
 }
 
 export default card

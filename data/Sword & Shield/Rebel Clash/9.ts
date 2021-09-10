@@ -83,7 +83,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 160,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "The rhythm of bright, festive music activates Ludicolo’s cells, making it more powerful."
+	}
 }
 
 export default card

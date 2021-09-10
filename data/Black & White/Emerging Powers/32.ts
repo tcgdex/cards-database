@@ -5,22 +5,28 @@ const card: Card = {
 	name: {
 		en: "Emolga",
 		fr: "Emolga",
+		es: "Emolga",
+		it: "Emolga",
+		pt: "Emolga",
+		de: "Emolga"
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		587,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,10 +69,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

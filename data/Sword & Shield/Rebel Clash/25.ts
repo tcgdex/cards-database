@@ -82,7 +82,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 120,
 	types: ["Fire"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+	}
 }
 
 export default card

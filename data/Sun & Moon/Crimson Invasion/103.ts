@@ -3,12 +3,12 @@ import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Nihilego-GX",
-		fr: "Zéroïd-GX",
-		es: "Nihilego-GX",
-		it: "Nihilego-GX",
-		pt: "Nihilego-GX",
-		de: "Anego-GX"
+		en: "Nihilego GX",
+		fr: "Zéroïd GX",
+		es: "Nihilego GX",
+		it: "Nihilego GX",
+		pt: "Nihilego GX",
+		de: "Anego GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

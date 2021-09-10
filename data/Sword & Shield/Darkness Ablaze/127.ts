@@ -86,7 +86,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy."
+	}
 }
 
 export default card

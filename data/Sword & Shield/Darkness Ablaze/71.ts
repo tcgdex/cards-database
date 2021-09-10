@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Although it’s popular with young people, Granbull is timid and sensitive, so it’s totally incompetent as a watchdog."
+	}
 }
 
 export default card

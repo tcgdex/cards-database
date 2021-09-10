@@ -58,7 +58,20 @@ const card: Card = {
 	retreat: 2,
 	hp: 90,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue."
+	}
 }
 
 export default card

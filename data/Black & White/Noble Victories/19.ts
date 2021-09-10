@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Larvesta",
 		fr: "Pyronille",
+		es: "Larvesta",
+		it: "Larvesta",
+		pt: "Larvesta",
+		de: "Ignivor"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",

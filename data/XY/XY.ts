@@ -6,26 +6,20 @@ const xy1: Set = {
 
 	name: {
 		en: "XY",
-		fr: "XY"
-,
+		fr: "XY",
+		es: "XY",
+		it: "XY",
+		de: "XY"
 	},
 
 	serie: serie,
 	tcgOnline: "XY",
 
 	cardCount: {
-		total: 146,
 		official: 146
 	},
 
-	releaseDate: "2014-02-05",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2014-02-05"
 }
 
 export default xy1

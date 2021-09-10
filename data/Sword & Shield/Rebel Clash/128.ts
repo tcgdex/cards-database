@@ -89,7 +89,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 130,
 	types: ["Metal"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there’s nothing left but scraps."
+	}
 }
 
 export default card

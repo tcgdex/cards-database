@@ -50,7 +50,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads."
+	}
 }
 
 export default card

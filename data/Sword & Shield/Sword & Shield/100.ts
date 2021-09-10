@@ -79,7 +79,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "If a tree branch shakes when there is no wind, it’s a Sudowoodo, not a tree. It hides from the rain."
+	}
 }
 
 export default card

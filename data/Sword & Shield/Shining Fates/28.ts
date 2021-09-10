@@ -47,7 +47,20 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey."
+	}
 }
 
 export default card

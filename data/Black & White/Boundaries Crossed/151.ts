@@ -5,9 +5,13 @@ const card: Card = {
 	name: {
 		en: "Terrakion",
 		fr: "Terrakium",
+		es: "Terrakion",
+		it: "Terrakion",
+		pt: "Terrakion",
+		de: "Terrakium"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 
 	set: Set,

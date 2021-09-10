@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Duosion",
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		578,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Solosis",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -36,6 +40,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -43,10 +48,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

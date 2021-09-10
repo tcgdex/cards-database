@@ -4,24 +4,33 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Excadrill",
+		fr: "Minotaupe",
+		es: "Excadrill",
+		it: "Excadrill",
+		pt: "Excadrill",
+		de: "Stalobor"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		530,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Drilbur",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -51,12 +60,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -64,9 +75,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 3
 }
 
 export default card

@@ -5,25 +5,33 @@ const card: Card = {
 	name: {
 		en: "Garchomp",
 		fr: "Carchacrok",
+		es: "Garchomp",
+		it: "Garchomp",
+		pt: "Garchomp",
+		de: "Knakrack"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		445,
 	],
+
 	hp: 140,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Gabite",
 		fr: "Carmache",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -56,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Dragon",
@@ -63,10 +72,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

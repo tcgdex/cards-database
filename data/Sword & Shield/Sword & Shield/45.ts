@@ -55,7 +55,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots."
+	}
 }
 
 export default card

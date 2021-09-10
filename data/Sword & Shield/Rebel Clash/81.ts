@@ -58,7 +58,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 80,
 	types: ["Psychic"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "If you build sand mounds when you’re playing, destroy them before you go home, or they may get possessed and become Sandygast."
+	}
 }
 
 export default card

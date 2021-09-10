@@ -86,7 +86,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	description: {
+		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
+	}
 }
 
 export default card

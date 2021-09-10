@@ -55,7 +55,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead."
+	}
 }
 
 export default card

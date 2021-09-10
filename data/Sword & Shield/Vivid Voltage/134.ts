@@ -91,7 +91,20 @@ const card: Card = {
 	],
 
 	regulationMark: "D",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws."
+	}
 }
 
 export default card

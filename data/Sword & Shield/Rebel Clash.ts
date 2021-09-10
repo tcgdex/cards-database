@@ -7,25 +7,18 @@ const swsh2: Set = {
 	name: {
 		en: "Rebel Clash",
 		fr: "Clash des Rebelles",
-		es: "Choque Rebelde"
-,
+		es: "Choque Rebelde",
+		it: "Fragore Ribelle",
+		de: "Clash der Rebellen"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		total: 209,
 		official: 192
 	},
 
-	releaseDate: "2020-05-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2020-05-01"
 }
 
 export default swsh2

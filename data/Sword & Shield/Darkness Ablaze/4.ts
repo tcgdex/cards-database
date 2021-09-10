@@ -78,7 +78,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving."
+	}
 }
 
 export default card

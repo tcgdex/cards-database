@@ -76,7 +76,20 @@ const card: Card = {
 	],
 
 	regulationMark: "D",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
+	}
 }
 
 export default card

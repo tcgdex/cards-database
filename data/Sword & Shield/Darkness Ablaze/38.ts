@@ -54,7 +54,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Although unattractive and unpopular, this Pokémon’s marvelous vitality has made it a subject of research."
+	}
 }
 
 export default card

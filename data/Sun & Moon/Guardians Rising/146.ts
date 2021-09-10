@@ -3,12 +3,12 @@ import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Decidueye-GX",
-		fr: "Archéduc-GX",
-		es: "Decidueye-GX",
-		it: "Decidueye-GX",
-		pt: "Decidueye-GX",
-		de: "Silvarro-GX"
+		en: "Decidueye GX",
+		fr: "Archéduc GX",
+		es: "Decidueye GX",
+		it: "Decidueye GX",
+		pt: "Decidueye GX",
+		de: "Silvarro GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

@@ -51,7 +51,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
+	}
 }
 
 export default card

@@ -5,25 +5,33 @@ const card: Card = {
 	name: {
 		en: "Raticate",
 		fr: "Rattatac",
+		es: "Raticate",
+		it: "Raticate",
+		pt: "Raticate",
+		de: "Rattikarl"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		20,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Rattata",
 		fr: "Rattata",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -64,10 +73,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

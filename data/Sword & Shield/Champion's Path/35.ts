@@ -55,7 +55,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight."
+	}
 }
 
 export default card

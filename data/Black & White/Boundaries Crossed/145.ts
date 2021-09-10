@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Black Kyurem-EX",
 		fr: "Kyurem Noir-EX",
+		es: "Kyurem Negro-EX",
+		it: "Kyurem Nero-EX",
+		pt: "Kyurem Preto-EX",
+		de: "Schwarzes Kyurem-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

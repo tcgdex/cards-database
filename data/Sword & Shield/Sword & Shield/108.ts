@@ -67,7 +67,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand."
+	}
 }
 
 export default card

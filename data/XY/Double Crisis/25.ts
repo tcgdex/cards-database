@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Attachez une carte Énergie de base de votre pile de défausse à votre Pokémon Actif de la Team Aqua.",
+		en: "Attach a basic Energy card from your discard pile to your Active Team Aqua Pokémon."
 	},
 	trainerType: "Supporter",
 

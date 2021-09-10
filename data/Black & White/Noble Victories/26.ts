@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Carracosta",
 		fr: "Mégapagos",
+		es: "Carracosta",
+		it: "Carracosta",
+		pt: "Carracosta",
+		de: "Karippas"
 	},
 	illustrator: "match",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Solid Rock",
 				fr: "Solide Roc",
+				es: "Roca Sólida",
+				it: "Solidroccia",
+				pt: "Rocha Sólida",
+				de: "Felskern"
 			},
 			effect: {
 				en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, reduce that damage by 50 (after applying Weakness and Resistance).",
-				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c'est face, les dégâts sont réduits de 50 (après application de la Faiblesse et de la Résistance).",
+				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c’est face, les dégâts sont réduits de 50 (après application de la Faiblesse et de la Résistance).",
+				es: "Si se inflige cualquier daño a este Pokémon por ataques, lanza una moneda. Si sale cara, reduce ese daño en 50 (después de aplicar Debilidad y Resistencia).",
+				it: "Se questo Pokémon subisce danni da attacchi, lancia una moneta. Se esce testa, i danni sono ridotti di 50, dopo aver applicato debolezza e resistenza.",
+				pt: "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, reduza os danos em 50 (após aplicar Fraqueza e Resistência).",
+				de: "Wirf 1 Münze, wenn diesem Pokémon durch Angriffe Schaden zugefügt wird. Bei „Kopf“ wird der Schaden um 50 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],

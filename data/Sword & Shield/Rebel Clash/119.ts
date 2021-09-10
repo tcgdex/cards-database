@@ -59,7 +59,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Darkness"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
+	}
 }
 
 export default card

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Scolipede",
 		fr: "Brutapode",
+		es: "Scolipede",
+		it: "Scolipede",
+		pt: "Scolipede",
+		de: "Cerapendra"
 	},
 	illustrator: "kawayoo",
 	rarity: "Rare",

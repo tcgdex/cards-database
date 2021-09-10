@@ -3,12 +3,12 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Tornadus-GX",
-		fr: "Boréas-GX",
-		es: "Tornadus-GX",
-		it: "Tornadus-GX",
-		pt: "Tornadus-GX",
-		de: "Boreos-GX"
+		en: "Tornadus GX",
+		fr: "Boréas GX",
+		es: "Tornadus GX",
+		it: "Tornadus GX",
+		pt: "Tornadus GX",
+		de: "Boreos GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",

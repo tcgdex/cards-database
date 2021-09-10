@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Pluie de Roche",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Flip 3 coins. This attack does 20 damage times the number of heads to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
@@ -57,7 +57,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

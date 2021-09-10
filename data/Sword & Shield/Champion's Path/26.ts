@@ -86,7 +86,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
+	}
 }
 
 export default card

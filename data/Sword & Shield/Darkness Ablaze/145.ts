@@ -84,7 +84,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying."
+	}
 }
 
 export default card

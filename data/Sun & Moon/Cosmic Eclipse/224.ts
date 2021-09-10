@@ -3,12 +3,12 @@ import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Naganadel & Guzzlord-GX",
-		fr: "Mandrillon et Engloutyran-GX",
-		es: "Naganadel y Guzzlord-GX",
-		it: "Naganadel e Guzzlord-GX",
-		pt: "Naganadel e Guzzlord-GX",
-		de: "Agoyon & Schlingking-GX"
+		en: "Naganadel & Guzzlord GX",
+		fr: "Mandrillon et Engloutyran GX",
+		es: "Naganadel y Guzzlord GX",
+		it: "Naganadel e Guzzlord GX",
+		pt: "Naganadel e Guzzlord GX",
+		de: "Agoyon & Schlingking GX"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Ultra Rare",

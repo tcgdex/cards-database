@@ -3,12 +3,12 @@ import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Alolan Ninetales-GX",
-		fr: "Feunard d’Alola-GX",
-		es: "Ninetales de Alola-GX",
-		it: "Ninetales di Alola-GX",
-		pt: "Ninetales de Alola-GX",
-		de: "Alola Vulnona-GX"
+		en: "Alolan Ninetales GX",
+		fr: "Feunard d’Alola GX",
+		es: "Ninetales de Alola GX",
+		it: "Ninetales di Alola GX",
+		pt: "Ninetales de Alola GX",
+		de: "Alola Vulnona GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",

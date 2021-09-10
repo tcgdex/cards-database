@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Heatmor",
 		fr: "Aflamanoir",
+		es: "Heatmor",
+		it: "Heatmor",
+		pt: "Heatmor",
+		de: "Furnifraß"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",

@@ -73,7 +73,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 80,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack."
+	}
 }
 
 export default card

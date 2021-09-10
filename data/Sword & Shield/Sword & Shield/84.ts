@@ -86,7 +86,18 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+	}
 }
 
 export default card

@@ -20,7 +20,7 @@ const card: Card = {
 		name: {
 			en: 'Destructive Drake GX',
 		},
-		damage: '80x',
+		damage: '80×',
 		effect: {
 			en: 'Discard all basic Energy from this Pokémon. This attack does 80 damage for each card you discarded in this way. (you can\'t use mote than 1 GX attack in a game.)'
 		},

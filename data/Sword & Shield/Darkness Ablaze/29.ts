@@ -54,7 +54,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun."
+	}
 }
 
 export default card

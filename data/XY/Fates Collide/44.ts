@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wormadam",
 		fr: "Cheniselle",
+		es: "Wormadam",
+		it: "Wormadam",
+		pt: "Wormadam",
+		de: "Burmadame"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -33,6 +37,10 @@ const card: Card = {
 			name: {
 				en: "Sand Spray",
 				fr: "Jet Sableux",
+				es: "Rociado de Arena",
+				it: "Silicospruzzo",
+				pt: "Spray de Areia",
+				de: "Sandspray"
 			},
 
 			damage: 30,
@@ -47,12 +55,20 @@ const card: Card = {
 			name: {
 				en: "Twin Bursts",
 				fr: "Explosions en Duo",
+				es: "Estallidos Gemelos",
+				it: "Scoppiogemello",
+				pt: "Erupções Gêmeas",
+				de: "Doppelsalve"
 			},
 			effect: {
 				en: "If Mothim is on your Bench, this attack does 60 more damage.",
 				fr: "Si Papilord est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
+				es: "Si Mothim está en tu Banca, este ataque hace 60 puntos de daño más.",
+				it: "Se Mothim è nella tua panchina, questo attacco infligge 60 danni in più.",
+				pt: "Se Mothim estiver no seu Banco, este ataque causará 60 de danos adicionais.",
+				de: "Wenn sich Moterpel auf deiner Bank befindet, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

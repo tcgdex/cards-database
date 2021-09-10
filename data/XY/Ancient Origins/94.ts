@@ -3,7 +3,7 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Lugia-EX",
+		en: "Lugia EX",
 		fr: "Lugia-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the amount of Energy attached to both Active Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d'Énergies attachées aux deux Pokémon Actifs.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "If there is any Stadium card in play, this attack does 70 more damage. Then, discard that Stadium card.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 70 dégâts supplémentaires. Ensuite, défaussez la carte Stade.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],

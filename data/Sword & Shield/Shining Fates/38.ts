@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Lightning"],
@@ -53,7 +53,16 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "VMAX"
 }
 
 export default card

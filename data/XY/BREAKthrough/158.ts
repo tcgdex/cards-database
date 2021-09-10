@@ -3,7 +3,7 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-EX",
+		en: "Mewtwo EX",
 		fr: "Mewtwo-EX",
 	},
 	illustrator: "Ryo Ueda",
@@ -35,7 +35,7 @@ const card: Card = {
 				en: "This attack does 30 damage times the amount of Psychic Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Psychic attachées à ce Pokémon.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Change Dégâts",
 			},
 			effect: {
-				en: "Switch all damage counters on this Pokémon with those on your opponent's Active Pokémon.",
+				en: "Switch all damage counters on this Pokémon with those on your opponent’s Active Pokémon.",
 				fr: "Échangez tous les marqueurs de dégâts de ce Pokémon avec ceux du Pokémon Actif de votre adversaire.",
 			},
 

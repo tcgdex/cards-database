@@ -83,7 +83,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively."
+	}
 }
 
 export default card

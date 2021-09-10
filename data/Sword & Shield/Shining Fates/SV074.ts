@@ -68,7 +68,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+	stage: "Basic",
+
+	description: {
+		en: "Five of them are troopers, and one is the brass. The brass’s orders are absolute."
+	}
 }
 
 export default card

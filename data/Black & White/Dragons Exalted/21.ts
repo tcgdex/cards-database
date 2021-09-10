@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Magmortar",
 		fr: "Maganon",
+		es: "Magmortar",
+		it: "Magmortar",
+		pt: "Magmortar",
+		de: "Magbrant"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Rare",

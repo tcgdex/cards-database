@@ -6,25 +6,20 @@ const hgssp: Set = {
 
 	name: {
 		en: "HGSS Black Star Promos",
-		fr: "Promo HGSS"
+		fr: "Promo HGSS",
+		es: "Promo HGSS",
+		it: "Promo HGSS",
+		de: "Promo HGSS"
 	},
 
 	serie: serie,
 	tcgOnline: "PR-HS",
 
 	cardCount: {
-		total: 25,
 		official: 25
 	},
 
-	releaseDate: "2010-02-11",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2010-02-11"
 }
 
 export default hgssp

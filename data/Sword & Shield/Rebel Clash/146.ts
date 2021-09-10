@@ -69,7 +69,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 70,
 	types: ["Colorless"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+	}
 }
 
 export default card

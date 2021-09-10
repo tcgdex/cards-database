@@ -74,7 +74,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders."
+	}
 }
 
 export default card

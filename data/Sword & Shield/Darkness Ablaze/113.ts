@@ -76,7 +76,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
+	}
 }
 
 export default card

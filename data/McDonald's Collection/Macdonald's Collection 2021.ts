@@ -13,18 +13,10 @@ const s2021swsh: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 25,
 		official: 25
 	},
 
-	releaseDate: "2021-02-09",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2021-02-09"
 }
 
 export default s2021swsh

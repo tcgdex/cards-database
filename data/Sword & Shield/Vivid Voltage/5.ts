@@ -78,7 +78,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Each of its three heads has its own thoughts. When they want to go in different directions, Exeggutor becomes unable to move."
+	}
 }
 
 export default card

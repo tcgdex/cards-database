@@ -67,7 +67,18 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started."
+	}
 }
 
 export default card

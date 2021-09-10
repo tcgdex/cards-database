@@ -69,7 +69,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Metal"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It appears in ancient ruins. The pattern on its body doesn’t come from any culture in the Galar region, so it remains shrouded in mystery."
+	}
 }
 
 export default card

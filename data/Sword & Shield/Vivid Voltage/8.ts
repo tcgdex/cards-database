@@ -71,7 +71,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It sticks tree bark to itself with its saliva, making itself thicker and larger. Elderly Pineco are ridiculously huge."
+	}
 }
 
 export default card

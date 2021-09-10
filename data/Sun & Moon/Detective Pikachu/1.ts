@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Bulbasaur",
 		de: "Bisasam"
 	},
-	illustrator: undefined,
+	illustrator: "MPC Film",
 	rarity: "Common",
 	category: "Pokemon",
 

@@ -5,25 +5,33 @@ const card: Card = {
 	name: {
 		en: "Zebstrika",
 		fr: "Zéblitz",
+		es: "Zebstrika",
+		it: "Zebstrika",
+		pt: "Zebstrika",
+		de: "Zebritz"
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		523,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Blitzle",
 		fr: "Zébibron",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,10 +75,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

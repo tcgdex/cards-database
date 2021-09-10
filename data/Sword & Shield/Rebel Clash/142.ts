@@ -75,7 +75,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 70,
 	types: ["Colorless"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It can learn and speak human words. If they gather, they all learn the same saying."
+	}
 }
 
 export default card

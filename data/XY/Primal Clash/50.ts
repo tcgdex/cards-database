@@ -38,7 +38,7 @@ const card: Card = {
 				en: "This attack does 20 damage times the amount of Energy attached to all of your Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous vos Pokémon.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 70,

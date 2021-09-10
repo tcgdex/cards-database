@@ -74,7 +74,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "You shouldn’t get close to the child when it’s playing outside its mother’s pouch. Its mother is always nearby watching over it."
+	}
 }
 
 export default card

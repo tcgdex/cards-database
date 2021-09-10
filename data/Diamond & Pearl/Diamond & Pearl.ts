@@ -6,25 +6,20 @@ const dp1: Set = {
 
 	name: {
 		en: "Diamond & Pearl",
-		fr: "Diamant & Perle"
+		fr: "Diamant & Perle",
+		es: "Diamante & Perla",
+		it: "Diamante & Perla",
+		de: "Diamant & Perl"
 	},
 
 	serie: serie,
 	tcgOnline: "DP",
 
 	cardCount: {
-		total: 130,
 		official: 130
 	},
 
-	releaseDate: "2007-05-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2007-05-01"
 }
 
 export default dp1

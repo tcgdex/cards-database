@@ -51,7 +51,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 30,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
+	}
 }
 
 export default card

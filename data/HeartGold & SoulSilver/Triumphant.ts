@@ -6,25 +6,19 @@ const hgss4: Set = {
 
 	name: {
 		en: "Triumphant",
-		fr: "Triomphant"
+		fr: "Triomphant",
+		it: "Triumphant",
+		de: "Triumphant"
 	},
 
 	serie: serie,
 	tcgOnline: "TM",
 
 	cardCount: {
-		total: 103,
 		official: 102
 	},
 
-	releaseDate: "2010-11-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2010-11-03"
 }
 
 export default hgss4

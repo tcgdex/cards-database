@@ -75,7 +75,17 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"]
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
+	}
 }
 
 export default card

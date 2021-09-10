@@ -71,6 +71,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "The beaks of birds can’t begin to scratch its stalwart body. To defend itself, it spews powder."
 	}
 }
 

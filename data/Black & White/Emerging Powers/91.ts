@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Cheren",
 		fr: "Tcheren",
+		es: "Cheren",
+		it: "Komor",
+		pt: "Cheren",
+		de: "Cheren"
 	},
 	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
@@ -24,6 +28,11 @@ const card: Card = {
 
 	effect: {
 		fr: "Piochez 3 cartes.",
+		en: "Draw 3 cards.",
+		es: "Roba 3 cartas.",
+		it: "Pesca tre carte.",
+		pt: "Compre 3 cards.",
+		de: "Ziehe 3 Karten."
 	},
 	trainerType: "Supporter",
 

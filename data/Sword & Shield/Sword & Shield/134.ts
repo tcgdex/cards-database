@@ -86,7 +86,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found."
+	}
 }
 
 export default card

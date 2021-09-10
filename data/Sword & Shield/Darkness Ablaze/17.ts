@@ -55,7 +55,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It’s nature’s cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean."
+	}
 }
 
 export default card

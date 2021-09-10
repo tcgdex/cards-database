@@ -78,7 +78,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power."
+	}
 }
 
 export default card

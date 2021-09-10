@@ -70,7 +70,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "One alone can emit only trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
+	}
 }
 
 export default card

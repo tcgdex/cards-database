@@ -5,21 +5,24 @@ const card: Card = {
 	name: {
 		en: "Lugia-EX",
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		249,
 	],
+
 	hp: 180,
+
 	types: [
 		"Colorless",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Overflow",
 			},
 			effect: {
-				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.",
+				en: "If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,12 +53,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -62,9 +68,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 2
 }
 
 export default card

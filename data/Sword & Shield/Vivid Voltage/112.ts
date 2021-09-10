@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Living with a savage, seafaring people has toughened this Pokémon’s body so much that parts of it have turned to iron."
+	}
 }
 
 export default card

@@ -6,26 +6,20 @@ const xy11: Set = {
 
 	name: {
 		en: "Steam Siege",
-		fr: "Offensive Vapeur"
-,
+		fr: "Offensive Vapeur",
+		es: "Asedio de Vapor",
+		it: "Vapori Accesi",
+		de: "Dampfkessel"
 	},
 
 	serie: serie,
 	tcgOnline: "STS",
 
 	cardCount: {
-		total: 116,
 		official: 114
 	},
 
-	releaseDate: "2016-08-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2016-08-03"
 }
 
 export default xy11

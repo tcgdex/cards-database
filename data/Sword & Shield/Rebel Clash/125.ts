@@ -81,7 +81,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 170,
 	types: ["Darkness"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp."
+	}
 }
 
 export default card

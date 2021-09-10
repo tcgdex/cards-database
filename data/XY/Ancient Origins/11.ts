@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Double Θ",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{

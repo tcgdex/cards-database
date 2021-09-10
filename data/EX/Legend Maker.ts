@@ -13,18 +13,10 @@ const ex12: Set = {
 	tcgOnline: "LM",
 
 	cardCount: {
-		total: 93,
 		official: 92
 	},
 
-	releaseDate: "2006-02-13",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2006-02-13"
 }
 
 export default ex12

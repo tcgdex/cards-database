@@ -73,7 +73,20 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Born when all of Zygarde’s cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
+	}
 }
 
 export default card

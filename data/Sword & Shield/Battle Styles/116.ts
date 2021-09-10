@@ -71,6 +71,12 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails."
 	}
 }
 

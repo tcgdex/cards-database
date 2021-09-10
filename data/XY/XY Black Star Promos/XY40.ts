@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Métamorph",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
@@ -29,8 +29,8 @@ const card: Card = {
 				fr: "Gène Métamorphique",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon, it can use the attacks of your opponent's Active Pokémon. (You still need the necessary Energy to use each attack.)",
-				fr: "Si ce Pokémon est votre Pokémon Actif, il peut utiliser les attaques du Pokémon Actif de votre adversaire. (Vous avez toujours besoin de l'Énergie nécessaire pour utiliser chaque attaque.)",
+				en: "If this Pokémon is your Active Pokémon, it can use the attacks of your opponent’s Active Pokémon. (You still need the necessary Energy to use each attack.)",
+				fr: "Si ce Pokémon est votre Pokémon Actif, il peut utiliser les attaques du Pokémon Actif de votre adversaire. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser chaque attaque.)",
 			},
 		},
 	],

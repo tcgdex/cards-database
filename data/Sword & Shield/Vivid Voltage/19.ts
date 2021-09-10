@@ -73,7 +73,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon."
+	}
 }
 
 export default card

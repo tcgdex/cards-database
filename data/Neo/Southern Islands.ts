@@ -11,18 +11,10 @@ const si1: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 18,
 		official: 18
 	},
 
-	releaseDate: "2001-07-31",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "2001-07-31"
 }
 
 export default si1

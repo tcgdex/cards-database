@@ -49,7 +49,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+	}
 }
 
 export default card

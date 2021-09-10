@@ -13,18 +13,10 @@ const ex5: Set = {
 	tcgOnline: "HL",
 
 	cardCount: {
-		total: 102,
 		official: 101
 	},
 
-	releaseDate: "2004-06-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2004-06-01"
 }
 
 export default ex5

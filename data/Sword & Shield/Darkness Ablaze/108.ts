@@ -48,7 +48,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When it encounters something, its first urge is usually to bite it. If it likes what it tastes, it will commit the associated scent to memory."
+	}
 }
 
 export default card

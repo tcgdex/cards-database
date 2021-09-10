@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient Primo-Kyogre-EX.",
+		en: "Your turn does not end if the Pokémon this card is attached to becomes Primal Kyogre-EX."
 	},
 	trainerType: "Tool",
 

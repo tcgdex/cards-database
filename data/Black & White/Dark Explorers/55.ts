@@ -4,22 +4,29 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Drilbur",
+		fr: "Rototaupe",
+		es: "Drilbur",
+		it: "Drilbur",
+		pt: "Drilbur",
+		de: "Rotomurf"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		529,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -35,12 +42,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -48,9 +57,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 2
 }
 
 export default card

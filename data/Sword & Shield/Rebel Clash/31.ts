@@ -51,7 +51,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Fire"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world."
+	}
 }
 
 export default card

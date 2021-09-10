@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Emboar",
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		500,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Pignite",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -56,10 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 4
 }
 
 export default card

@@ -6,25 +6,20 @@ const bw2: Set = {
 
 	name: {
 		en: "Emerging Powers",
-		fr: "Pouvoirs Émergents"
+		fr: "Pouvoirs Émergents",
+		es: "Fuerzas Emergentes",
+		it: "Nuove Forze",
+		de: "Aufstreben der Mächtigen"
 	},
 
 	serie: serie,
 	tcgOnline: "EPO",
 
 	cardCount: {
-		total: 98,
 		official: 98
 	},
 
-	releaseDate: "2011-08-31",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2011-08-31"
 }
 
 export default bw2

@@ -3,11 +3,11 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "M Gengar-EX",
-		fr: "M-Ectoplasma-EX",
+		en: "M Gengar EX",
+		fr: "M Ectoplasma EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,
@@ -37,8 +37,8 @@ const card: Card = {
 				fr: "Miroir Miroir",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon's attacks and use it as this attack.",
-				fr: "Choisissez l'une des attaques des Pokémon de votre adversaire et utilisez-la en tant que cette attaque.",
+				en: "Choose 1 of your opponent’s Pokémon’s attacks and use it as this attack.",
+				fr: "Choisissez l’une des attaques des Pokémon de votre adversaire et utilisez-la en tant que cette attaque.",
 			},
 
 		},

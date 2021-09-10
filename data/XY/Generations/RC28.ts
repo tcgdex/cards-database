@@ -3,7 +3,7 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Flareon-EX",
+		en: "Flareon EX",
 		fr: "Pyroli-EX",
 	},
 	illustrator: "kirisAki",
@@ -49,7 +49,7 @@ const card: Card = {
 				en: "This attack does 20 more damage for each Fire Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

@@ -34,9 +34,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

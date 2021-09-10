@@ -6,26 +6,20 @@ const xy6: Set = {
 
 	name: {
 		en: "Roaring Skies",
-		fr: "Ciel Rugissant"
-,
+		fr: "Ciel Rugissant",
+		es: "Cielos Rugientes",
+		it: "Furie Volanti",
+		de: "Drachenleuchten"
 	},
 
 	serie: serie,
 	tcgOnline: "ROS",
 
 	cardCount: {
-		total: 110,
 		official: 108
 	},
 
-	releaseDate: "2015-05-06",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2015-05-06"
 }
 
 export default xy6

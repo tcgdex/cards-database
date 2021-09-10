@@ -6,25 +6,20 @@ const dp2: Set = {
 
 	name: {
 		en: "Mysterious Treasures",
-		fr: "Mysterious Treasures"
+		fr: "Trésors Mystérieux",
+		es: "Tesoros Misteriosos",
+		it: "Tesori Misteriosi",
+		de: "Geheimnisvolle Schätze"
 	},
 
 	serie: serie,
 	tcgOnline: "MT",
 
 	cardCount: {
-		total: 123,
 		official: 122
 	},
 
-	releaseDate: "2007-08-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2007-08-01"
 }
 
 export default dp2

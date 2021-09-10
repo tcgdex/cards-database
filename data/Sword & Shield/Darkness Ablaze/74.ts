@@ -90,7 +90,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It’s said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment."
+	}
 }
 
 export default card

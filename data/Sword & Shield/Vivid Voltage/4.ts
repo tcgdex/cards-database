@@ -48,7 +48,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Six of them form a single Pokémon. Should one of the six be lost, the next morning there will once more be six."
+	}
 }
 
 export default card

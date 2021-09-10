@@ -52,7 +52,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 50,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar."
+	}
 }
 
 export default card

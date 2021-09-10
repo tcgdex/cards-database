@@ -79,7 +79,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns."
+	}
 }
 
 export default card

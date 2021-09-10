@@ -72,7 +72,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy."
+	}
 }
 
 export default card

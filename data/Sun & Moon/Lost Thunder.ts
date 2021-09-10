@@ -7,6 +7,7 @@ const sm8: Set = {
 	name: {
 		en: "Lost Thunder",
 		fr: "Tonnerre Perdu",
+		es: "Truenos Perdidos",
 		it: "Tuoni Perduti",
 		de: "Echo des Donners",
 	},
@@ -15,18 +16,10 @@ const sm8: Set = {
 	tcgOnline: "LOT",
 
 	cardCount: {
-		total: 236,
 		official: 214
 	},
 
-	releaseDate: "2018-11-02",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2018-11-02"
 }
 
 export default sm8

@@ -56,7 +56,20 @@ const card: Card = {
 	],
 
 	regulationMark: "D",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws."
+	}
 }
 
 export default card

@@ -70,7 +70,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving."
+	}
 }
 
 export default card

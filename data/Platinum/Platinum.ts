@@ -6,26 +6,20 @@ const pl1: Set = {
 
 	name: {
 		en: "Platinum",
-		fr: "Platine"
-,
+		fr: "Platine",
+		es: "Platino",
+		it: "Platino",
+		de: "Platin"
 	},
 
 	serie: serie,
 	tcgOnline: "PL",
 
 	cardCount: {
-		total: 133,
 		official: 127
 	},
 
-	releaseDate: "2009-02-11",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2009-02-11"
 }
 
 export default pl1

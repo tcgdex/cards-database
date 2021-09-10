@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Folie Obscure",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 

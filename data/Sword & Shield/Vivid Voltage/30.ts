@@ -76,7 +76,20 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "When Vaporeon’s fins begin to vibrate, it is a sign that rain will come within a few hours."
+	}
 }
 
 export default card

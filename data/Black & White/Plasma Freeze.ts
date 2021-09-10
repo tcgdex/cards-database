@@ -6,25 +6,20 @@ const bw9: Set = {
 
 	name: {
 		en: "Plasma Freeze",
-		fr: "Glaciation Plasma"
+		fr: "Glaciation Plasma",
+		es: "Glaciación Plasma",
+		it: "Glaciazione Plasma",
+		de: "Plasma-Frost"
 	},
 
 	serie: serie,
 	tcgOnline: "PLF",
 
 	cardCount: {
-		total: 122,
 		official: 116
 	},
 
-	releaseDate: "2013-05-08",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2013-05-08"
 }
 
 export default bw9

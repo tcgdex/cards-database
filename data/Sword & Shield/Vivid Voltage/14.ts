@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Cast-off Shell",
+				en: "Cast-Off Shell",
 				fr: "Coquille Libérante",
 				es: "Caparazón Desprendido",
 				it: "Scartaguscio",
@@ -82,7 +82,20 @@ const card: Card = {
 	],
 
 	regulationMark: "D",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Its cry leaves a lasting headache if heard for too long. It moves so quickly that it is almost invisible."
+	}
 }
 
 export default card

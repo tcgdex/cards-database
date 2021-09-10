@@ -3,15 +3,15 @@ import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Alolan Raticate-GX",
-		fr: "Rattatac d’Alola-GX",
-		es: "Raticate de Alola-GX",
-		it: "Raticate di Alola-GX",
-		pt: "Raticate de Alola-GX",
-		de: "Alola-Rattikarl-GX"
+		en: "Alolan Raticate GX",
+		fr: "Rattatac d’Alola GX",
+		es: "Raticate de Alola GX",
+		it: "Raticate di Alola GX",
+		pt: "Raticate de Alola GX",
+		de: "Alola-Rattikarl GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

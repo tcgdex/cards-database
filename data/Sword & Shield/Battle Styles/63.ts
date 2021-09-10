@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Psychic"],
@@ -81,7 +81,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

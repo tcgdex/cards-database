@@ -6,25 +6,19 @@ const dp4: Set = {
 
 	name: {
 		en: "Great Encounters",
-		fr: "Duels au Sommets"
+		fr: "Duels au Sommets",
+		es: "Grandes Encuentros",
+		de: "Epische Begegnungen"
 	},
 
 	serie: serie,
 	tcgOnline: "GE",
 
 	cardCount: {
-		total: 106,
 		official: 106
 	},
 
-	releaseDate: "2008-02-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2008-02-01"
 }
 
 export default dp4

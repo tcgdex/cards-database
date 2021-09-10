@@ -82,7 +82,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 100,
 	types: ["Psychic"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "These intelligent Pokémon touch horns with each other to share information between them."
+	}
 }
 
 export default card

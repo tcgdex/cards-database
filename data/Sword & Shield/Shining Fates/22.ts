@@ -39,7 +39,20 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on."
+	}
 }
 
 export default card

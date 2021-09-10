@@ -75,7 +75,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 60,
 	types: ["Psychic"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Via the protrusion on its head, it senses other creatures’ emotions. If you don’t have a calm disposition, it will never warm up to you."
+	}
 }
 
 export default card

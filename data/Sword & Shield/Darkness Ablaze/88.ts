@@ -88,7 +88,20 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies."
+	}
 }
 
 export default card

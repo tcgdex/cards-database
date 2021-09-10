@@ -6,25 +6,20 @@ const dp6: Set = {
 
 	name: {
 		en: "Legends Awakened",
-		fr: "Éveil des Légendes"
+		fr: "Éveil des Légendes",
+		es: "Despertar de las Leyendas",
+		it: "Il Risveglio dei Miti",
+		de: "Erwachte Legenden"
 	},
 
 	serie: serie,
 	tcgOnline: "LA",
 
 	cardCount: {
-		total: 146,
 		official: 146
 	},
 
-	releaseDate: "2008-08-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2008-08-01"
 }
 
 export default dp6

@@ -85,7 +85,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 140,
 	types: ["Water"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later."
+	}
 }
 
 export default card

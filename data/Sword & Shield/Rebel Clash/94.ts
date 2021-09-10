@@ -69,7 +69,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 80,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "The Farfetch’d of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+	}
 }
 
 export default card

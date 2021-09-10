@@ -65,7 +65,18 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it."
+	}
 }
 
 export default card

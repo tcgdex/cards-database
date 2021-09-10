@@ -77,7 +77,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
+	}
 }
 
 export default card

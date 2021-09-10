@@ -6,26 +6,19 @@ const xy0: Set = {
 
 	name: {
 		en: "Kalos Starter Set",
-		fr: "Bienvenue à Kalos"
-,
+		fr: "Bienvenue à Kalos",
+		it: "Benvenuti a Kalos",
+		de: "Willkommen in Kalos"
 	},
 
 	serie: serie,
 	tcgOnline: "KSS",
 
 	cardCount: {
-		total: 45,
 		official: 45
 	},
 
-	releaseDate: "2013-11-08",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2013-11-08"
 }
 
 export default xy0

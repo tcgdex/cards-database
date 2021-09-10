@@ -67,7 +67,20 @@ const card: Card = {
 	retreat: 1,
 	hp: 80,
 	types: ["Grass"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating."
+	}
 }
 
 export default card

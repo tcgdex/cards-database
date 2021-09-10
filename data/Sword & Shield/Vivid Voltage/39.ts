@@ -81,7 +81,20 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey."
+	}
 }
 
 export default card

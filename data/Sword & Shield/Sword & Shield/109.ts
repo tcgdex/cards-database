@@ -80,7 +80,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
+	}
 }
 
 export default card

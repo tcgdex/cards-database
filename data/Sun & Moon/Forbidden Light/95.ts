@@ -3,15 +3,15 @@ import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Ultra Necrozma-GX",
-		fr: "Ultra-Necrozma-GX",
-		es: "Ultra-Necrozma-GX",
-		it: "UltraNecrozma-GX",
-		pt: "Ultra Necrozma-GX",
-		de: "Ultra-Necrozma-GX"
+		en: "Ultra Necrozma GX",
+		fr: "Ultra-Necrozma GX",
+		es: "Ultra-Necrozma GX",
+		it: "UltraNecrozma GX",
+		pt: "Ultra Necrozma GX",
+		de: "Ultra-Necrozma GX"
 	},
 	illustrator: "PLANETA Otani",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 
 	set: Set,

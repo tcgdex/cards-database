@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Strido-Son",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				en: "Your opponent’s Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 
@@ -50,8 +50,8 @@ const card: Card = {
 				fr: "Torgnole Métallique",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Metal Wallop attack does 40 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Torgnole Métallique de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				en: "During your next turn, this Pokémon’s Metal Wallop attack does 40 more damage (before applying Weakness and Resistance).",
+				fr: "Pendant votre prochain tour, l’attaque Torgnole Métallique de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 40,
 

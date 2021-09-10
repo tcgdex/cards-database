@@ -61,7 +61,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "There’s a proverb that says, “Shun the house where Shuppet gather in the growing dusk.”"
+	}
 }
 
 export default card

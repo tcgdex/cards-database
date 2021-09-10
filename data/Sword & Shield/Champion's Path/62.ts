@@ -26,7 +26,18 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Professor’s Research (Magnolia)"
+	}
 }
 
 export default card

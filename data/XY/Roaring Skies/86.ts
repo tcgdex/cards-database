@@ -24,6 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon Méga-Évolution.",
+		en: "Attach a basic Energy card from your discard pile to 1 of your Mega Evolution Pokémon."
 	},
 	trainerType: "Item",
 

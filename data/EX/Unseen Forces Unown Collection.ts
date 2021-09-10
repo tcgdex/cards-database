@@ -12,18 +12,10 @@ const exu: Set = {
 	serie: serie,
 
 	cardCount: {
-		total: 28,
 		official: 28
 	},
 
-	releaseDate: "2005-08-22",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2005-08-22"
 }
 
 export default exu

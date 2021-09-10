@@ -4,7 +4,11 @@ import Set from '../Plasma Blast'
 const card: Card = {
 	name: {
 		en: "Dialga-EX",
-		fr: "Dialga ex",
+		fr: "Dialga EX",
+		es: "Dialga-EX",
+		it: "Dialga-EX",
+		pt: "Dialga-EX",
+		de: "Dialga-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",

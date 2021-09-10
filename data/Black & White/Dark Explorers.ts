@@ -6,25 +6,19 @@ const bw5: Set = {
 
 	name: {
 		en: "Dark Explorers",
-		fr: "Explorateurs Obscurs"
+		fr: "Explorateurs Obscurs",
+		it: "Esploratori delle Tenebre",
+		de: "Erfoscher der Finsternis"
 	},
 
 	serie: serie,
 	tcgOnline: "DEX",
 
 	cardCount: {
-		total: 111,
 		official: 108
 	},
 
-	releaseDate: "2012-05-09",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2012-05-09"
 }
 
 export default bw5

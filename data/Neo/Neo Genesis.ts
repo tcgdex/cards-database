@@ -12,18 +12,10 @@ const neo1: Set = {
 	tcgOnline: "N1",
 
 	cardCount: {
-		total: 111,
 		official: 111
 	},
 
-	releaseDate: "2000-12-16",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: true
-	}
+	releaseDate: "2000-12-16"
 }
 
 export default neo1

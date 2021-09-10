@@ -32,7 +32,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	illustrator: "Yuu Nishida"
 }
 
 export default card

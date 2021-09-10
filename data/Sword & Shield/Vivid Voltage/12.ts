@@ -83,7 +83,20 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage2",
+
+	description: {
+		en: "A Pokémon that was feared as a forest guardian. It can read the foe’s mind and take preemptive action."
+	}
 }
 
 export default card

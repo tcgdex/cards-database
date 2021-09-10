@@ -85,7 +85,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking."
+	}
 }
 
 export default card

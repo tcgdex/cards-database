@@ -87,7 +87,18 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	description: {
+		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+	}
 }
 
 export default card

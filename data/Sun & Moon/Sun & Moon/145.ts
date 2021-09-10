@@ -3,12 +3,12 @@ import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Gumshoos-GX",
-		fr: "Argouste-GX",
-		es: "Gumshoos-GX",
-		it: "Gumshoos-GX",
-		pt: "Gumshoos-GX",
-		de: "Manguspektor-GX"
+		en: "Gumshoos GX",
+		fr: "Argouste GX",
+		es: "Gumshoos GX",
+		it: "Gumshoos GX",
+		pt: "Gumshoos GX",
+		de: "Manguspektor GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",

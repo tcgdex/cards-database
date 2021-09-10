@@ -4,24 +4,33 @@ import Set from '../Dark Explorers'
 const card: Card = {
 	name: {
 		en: "Klang",
+		fr: "Clic",
+		es: "Klang",
+		it: "Klang",
+		pt: "Klang",
+		de: "Kliklak"
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		600,
 	],
+
 	hp: 80,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Klink",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -65,9 +76,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 3
 }
 
 export default card

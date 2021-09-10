@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bouffalant",
 		fr: "Frison",
+		es: "Bouffalant",
+		it: "Bouffalant",
+		pt: "Bouffalant",
+		de: "Bisofank"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
@@ -27,10 +31,18 @@ const card: Card = {
 			name: {
 				en: "Bouffer",
 				fr: "Touffe Protectrice",
+				es: "Amortiguación",
+				it: "Ammortizzatore",
+				pt: "Bouffer",
+				de: "Bisopuffer"
 			},
 			effect: {
 				en: "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				es: "Cualquier daño hecho a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
+				it: "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
+				pt: "Qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
+				de: "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],

@@ -80,7 +80,20 @@ const card: Card = {
 	retreat: 3,
 	hp: 140,
 	types: ["Fighting"],
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it."
+	}
 }
 
 export default card

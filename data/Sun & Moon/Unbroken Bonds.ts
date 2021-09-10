@@ -7,6 +7,7 @@ const sm10: Set = {
 	name: {
 		en: "Unbroken Bonds",
 		fr: "Alliance Infaillible",
+		es: "Vínculos Indestructibles",
 		it: "Legami Inossidabili",
 		de: "Kräfte im Einklang"
 	},
@@ -15,18 +16,10 @@ const sm10: Set = {
 	tcgOnline: "UNB",
 
 	cardCount: {
-		total: 234,
 		official: 214
 	},
 
-	releaseDate: "2019-05-03",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2019-05-03"
 }
 
 export default sm10

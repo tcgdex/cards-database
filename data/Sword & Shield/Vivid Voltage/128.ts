@@ -85,7 +85,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form."
+	}
 }
 
 export default card

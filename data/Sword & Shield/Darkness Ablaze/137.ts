@@ -70,7 +70,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Basic",
+
+	description: {
+		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky."
+	}
 }
 
 export default card

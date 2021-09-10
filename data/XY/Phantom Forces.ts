@@ -6,26 +6,20 @@ const xy4: Set = {
 
 	name: {
 		en: "Phantom Forces",
-		fr: "Vigueur Spectrale"
-,
+		fr: "Vigueur Spectrale",
+		es: "Fuerzas Fantasmales",
+		it: "Forze Spettrali",
+		de: "Phantomkräfte"
 	},
 
 	serie: serie,
 	tcgOnline: "PHF",
 
 	cardCount: {
-		total: 122,
 		official: 119
 	},
 
-	releaseDate: "2014-11-05",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2014-11-05"
 }
 
 export default xy4

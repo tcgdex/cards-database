@@ -77,7 +77,20 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
+	stage: "Stage1",
+
+	description: {
+		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
+	}
 }
 
 export default card

@@ -13,18 +13,10 @@ const ex7: Set = {
 	tcgOnline: "RR",
 
 	cardCount: {
-		total: 111,
 		official: 109
 	},
 
-	releaseDate: "2004-11-01",
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	releaseDate: "2004-11-01"
 }
 
 export default ex7

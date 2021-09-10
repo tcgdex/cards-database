@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lotad",
 		fr: "Nénupiot",
+		es: "Lotad",
+		it: "Lotad",
+		pt: "Lotad",
+		de: "Loturzel"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
