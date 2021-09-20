@@ -72,7 +72,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	stage: "Basic"
+	stage: "Basic",
+
+	description: {
+		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
+	}
 }
 
 export default card

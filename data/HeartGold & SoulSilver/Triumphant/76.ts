@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Skorupi",
 		fr: "Rapion",
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		451,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -40,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -49,8 +52,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

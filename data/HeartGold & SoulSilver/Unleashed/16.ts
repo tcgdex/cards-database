@@ -66,7 +66,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
+	}
 }
 
 export default card

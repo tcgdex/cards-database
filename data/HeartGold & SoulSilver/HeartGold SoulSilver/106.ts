@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Blissey",
 		fr: "Leuphorie",
 	},
+
 	illustrator: "Noriko Hotta",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		242,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Chansey",
 		fr: "Leveinard",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,9 +68,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "Prime"
 }
 
 export default card

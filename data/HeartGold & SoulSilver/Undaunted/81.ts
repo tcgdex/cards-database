@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Espeon",
 		fr: "Mentali",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		196,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,9 +70,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	suffix: "Prime"
 }
 
 export default card

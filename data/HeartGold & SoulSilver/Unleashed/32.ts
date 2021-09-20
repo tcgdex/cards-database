@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Kakuna",
 		fr: "Coconfort",
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		14,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,8 +69,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked."
+	}
 }
 
 export default card

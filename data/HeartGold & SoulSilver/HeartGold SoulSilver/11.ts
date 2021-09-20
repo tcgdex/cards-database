@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Shuckle",
 		fr: "Caratroc",
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		213,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
@@ -32,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -59,8 +64,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "The berries it stores in its vase-like shell decompose and become a gooey liquid."
+	}
 }
 
 export default card

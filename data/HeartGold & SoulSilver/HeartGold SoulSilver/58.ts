@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Chansey",
 		fr: "Leveinard",
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		113,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away."
+	}
 }
 
 export default card

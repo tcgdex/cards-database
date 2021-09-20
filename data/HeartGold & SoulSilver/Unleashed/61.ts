@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Roselia",
 		fr: "Roselia",
 	},
+
 	illustrator: "Takashi Yamaguchi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		315,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -48,8 +51,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom."
+	}
 }
 
 export default card

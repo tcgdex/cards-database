@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Roserade",
 		fr: "Roserade",
 	},
+
 	illustrator: "Takashi Yamaguchi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		407,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Roselia",
 		fr: "Roselia",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,8 +71,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "Its sweet aroma attracts prey. Then it spews poison. The more toxic it is, the sweeter its aroma."
+	}
 }
 
 export default card

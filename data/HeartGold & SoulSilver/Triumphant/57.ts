@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Bellsprout",
 		fr: "Chétiflor",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		69,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,8 +65,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

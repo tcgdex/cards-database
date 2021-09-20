@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Swinub",
 		fr: "Marcacrin",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		220,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

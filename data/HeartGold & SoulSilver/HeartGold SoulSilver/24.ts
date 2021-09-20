@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Lapras",
 		fr: "Lokhlass",
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		131,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled."
+	}
 }
 
 export default card

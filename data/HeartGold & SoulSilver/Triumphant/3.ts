@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Celebi",
 		fr: "Celebi",
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		251,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

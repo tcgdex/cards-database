@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Teddiursa",
 		fr: "Teddiursa",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		216,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -48,8 +51,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+	}
 }
 
 export default card

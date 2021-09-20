@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Ursaring",
 		fr: "Ursaring",
 	},
+
 	illustrator: "Wataru Kawahara",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		217,
 	],
+
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -71,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -79,9 +86,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	suffix: "Prime"
 }
 
 export default card

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Feraligatr",
 		fr: "Aligatueur",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		160,
 	],
+
 	hp: 140,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Croconaw",
 		fr: "Crocodil",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -65,9 +72,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	suffix: "Prime"
 }
 
 export default card

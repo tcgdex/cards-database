@@ -51,7 +51,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things."
+	}
 }
 
 export default card

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Piloswine",
 		fr: "Cochignon",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		221,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Swinub",
 		fr: "Marcacrin",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -68,8 +73,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -77,7 +77,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up."
+	}
 }
 
 export default card

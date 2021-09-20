@@ -72,7 +72,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Vicious in nature, it drives Pidgey from their nests and scavenges any leftovers it can find."
+	}
 }
 
 export default card

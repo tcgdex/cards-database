@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Illumise",
 		fr: "Lumivole",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		314,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,8 +65,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fragrance attracts a swarm of Volbeat, so they draw over 200 patterns in the night sky."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

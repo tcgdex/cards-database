@@ -77,7 +77,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains."
+	}
 }
 
 export default card

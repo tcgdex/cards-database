@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Celebi",
 		fr: "Celebi",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		251,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -61,9 +66,14 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	suffix: "Prime",
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

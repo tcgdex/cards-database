@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Metang",
 		fr: "Metang",
 	},
+
 	illustrator: "Wataru Kawahara",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		375,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Beldum",
 		fr: "Terhal",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,8 +69,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		en: "When two Beldum fuse together, a magnetic nervous system places their brains in union."
+	}
 }
 
 export default card

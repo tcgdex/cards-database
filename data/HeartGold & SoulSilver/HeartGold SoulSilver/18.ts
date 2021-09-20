@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Exeggutor",
 		fr: "Noadkoko",
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		103,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -56,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,8 +70,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster."
+	}
 }
 
 export default card

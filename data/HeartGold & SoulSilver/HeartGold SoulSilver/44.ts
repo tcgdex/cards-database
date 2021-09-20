@@ -51,7 +51,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere."
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Chinchou",
 		fr: "Loupio",
 	},
+
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		170,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,8 +61,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
+	}
 }
 
 export default card

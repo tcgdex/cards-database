@@ -76,7 +76,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Once it catches the wind, it deftly controls its cotton-puff spores—it can even float around the world."
+	}
 }
 
 export default card

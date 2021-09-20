@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Scyther",
 		fr: "Insecateur",
 	},
+
 	illustrator: "Wataru Kawahara/Direc. Shinji Higuchi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		123,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -40,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -49,8 +52,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "When it moves, it leaves only a blur. If it hides in grass, its protective colors make it invisible."
+	}
 }
 
 export default card

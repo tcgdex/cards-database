@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Pinsir",
 		fr: "Scarabrute",
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		127,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,8 +65,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "With its pincer horns, it digs burrows to sleep in at night. In the morning, damp soil clings to its body."
+	}
 }
 
 export default card

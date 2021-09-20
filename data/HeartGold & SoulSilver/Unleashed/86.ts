@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Lanturn",
 		fr: "Lanturn",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		171,
 	],
+
 	hp: 110,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -64,9 +71,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "Prime"
 }
 
 export default card

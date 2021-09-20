@@ -24,7 +24,11 @@ const card: Card = {
 
 	suffix: "Legend",
 	stage: "Basic",
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+	}
 }
 
 export default card

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Typhlosion",
 		fr: "Typhlosion",
 	},
+
 	illustrator: "Wataru Kawahara",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		157,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Quilava",
 		fr: "Fleurisson",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -64,9 +71,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "Prime"
 }
 
 export default card

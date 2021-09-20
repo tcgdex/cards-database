@@ -70,7 +70,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms."
+	}
 }
 
 export default card

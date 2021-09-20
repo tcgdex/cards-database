@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Kangaskhan",
 		fr: "Kangourex",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		115,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,8 +69,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

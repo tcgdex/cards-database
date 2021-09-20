@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Luvdisc",
 		fr: "Lovdisc",
 	},
+
 	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		370,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -62,8 +65,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

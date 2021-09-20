@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Torterra",
 		fr: "Torterra",
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		389,
 	],
+
 	hp: 140,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Grotle",
 		fr: "Boskara",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -68,8 +73,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	description: {
+		en: "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled."
+	}
 }
 
 export default card

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Machamp",
 		fr: "Mackogneur",
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -82,9 +89,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	suffix: "Prime"
 }
 
 export default card

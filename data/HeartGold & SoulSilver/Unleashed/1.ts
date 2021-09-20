@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Jirachi",
 		fr: "Jirachi",
 	},
+
 	illustrator: "Wataru Kawahara",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		385,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,8 +64,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "Generations have believed that any wish written on a note on its head will come true when it awakens."
+	}
 }
 
 export default card

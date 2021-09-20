@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Unown",
 		fr: "Zarbi",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		201,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -57,8 +62,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
+	}
 }
 
 export default card

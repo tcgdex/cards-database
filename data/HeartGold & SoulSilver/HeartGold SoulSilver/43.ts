@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Heracross",
 		fr: "Scarhino",
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		214,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "This powerful Pokémon thrusts its prized horn under its enemies’ bellies, then lifts and throws them."
+	}
 }
 
 export default card

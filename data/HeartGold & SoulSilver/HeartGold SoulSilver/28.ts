@@ -53,7 +53,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+	}
 }
 
 export default card

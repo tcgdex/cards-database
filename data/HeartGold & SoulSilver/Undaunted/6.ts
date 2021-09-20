@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Magcargo",
 		fr: "Volcaropod",
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		219,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -69,8 +74,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body."
+	}
 }
 
 export default card

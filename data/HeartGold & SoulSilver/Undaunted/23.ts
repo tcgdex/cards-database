@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Vespiquen",
 		fr: "Apireine",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		416,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Combee",
 		fr: "Apitrini",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,8 +72,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee."
+	}
 }
 
 export default card

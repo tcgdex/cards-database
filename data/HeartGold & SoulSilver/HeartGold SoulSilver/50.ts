@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Qwilfish",
 		fr: "Qwilfish",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		211,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -40,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -49,8 +52,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once."
+	}
 }
 
 export default card

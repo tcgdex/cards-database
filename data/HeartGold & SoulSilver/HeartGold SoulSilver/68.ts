@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		39,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -40,6 +42,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -49,8 +52,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep."
+	}
 }
 
 export default card

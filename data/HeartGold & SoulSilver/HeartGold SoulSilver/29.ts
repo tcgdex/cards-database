@@ -79,7 +79,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "If it digs at an incredible pace, it may snap off its spike and claws. They grow back in a day."
+	}
 }
 
 export default card

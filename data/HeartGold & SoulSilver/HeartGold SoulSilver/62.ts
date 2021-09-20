@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Drowzee",
 		fr: "Soporifik",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		96,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,8 +63,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier."
+	}
 }
 
 export default card

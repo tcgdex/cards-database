@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Spoink",
 		fr: "Spoink",
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		325,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,6 +40,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -47,8 +50,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Blastoise",
 		fr: "Tortank",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Wartortle",
 		fr: "Carabaffe",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -65,8 +72,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		en: "It deliberately makes itself heavy so it can withstand the recoil of the water jets it fires."
+	}
 }
 
 export default card

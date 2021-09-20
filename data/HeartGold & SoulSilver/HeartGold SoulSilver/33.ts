@@ -54,7 +54,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Even though it is small, it can’t be ignored because it will slug any handy target without warning."
+	}
 }
 
 export default card

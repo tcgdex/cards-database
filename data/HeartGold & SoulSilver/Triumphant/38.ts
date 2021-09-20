@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Lickilicky",
 		fr: "Coudlangue",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		463,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Lickitung",
 		fr: "Excelangue",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -67,8 +72,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has space in its throat to store saliva. It can also roll up its tongue and store it in the same spot."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

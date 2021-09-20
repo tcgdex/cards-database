@@ -77,7 +77,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky."
+	}
 }
 
 export default card

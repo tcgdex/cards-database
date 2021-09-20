@@ -60,7 +60,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
+	}
 }
 
 export default card

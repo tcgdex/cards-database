@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Slowpoke",
 		fr: "Ramoloss",
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		79,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -48,8 +51,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day."
+	}
 }
 
 export default card

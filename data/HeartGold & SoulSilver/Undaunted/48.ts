@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Eevee",
 		fr: "Evoli",
 	},
+
 	illustrator: "Noriko Hotta",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		133,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "Its irregularly configured DNA is affected by its surroundings. It evolves if its environment changes."
+	}
 }
 
 export default card

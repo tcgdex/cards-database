@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Muk",
 		fr: "Grotadmorv",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		89,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Grimer",
 		fr: "Tadmorv",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -67,8 +72,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		en: "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest."
+	}
 }
 
 export default card

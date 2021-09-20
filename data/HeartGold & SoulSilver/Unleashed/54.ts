@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Misdreavus",
 		fr: "Feuforêve",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		200,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,22 +40,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		en: "It likes playing mischievous tricks such as screaming and wailing to startle people at night."
+	}
 }
 
 export default card

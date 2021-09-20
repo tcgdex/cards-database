@@ -74,7 +74,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual."
+	}
 }
 
 export default card

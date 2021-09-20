@@ -53,7 +53,18 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Even in the most vicious storm, this Pokémon plays happily if thunder rumbles in the sky."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

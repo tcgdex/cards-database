@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Primeape",
 		fr: "Colossinge",
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		57,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Mankey",
 		fr: "Férosinge",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,8 +69,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "If approached while asleep, it may awaken and angrily give chase in a groggy state of semi-sleep."
+	}
 }
 
 export default card

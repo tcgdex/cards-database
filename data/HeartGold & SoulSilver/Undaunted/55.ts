@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Makuhita",
 		fr: "Makuhita",
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		296,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit."
+	}
 }
 
 export default card

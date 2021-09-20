@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Sudowoodo",
 		fr: "Simularbre",
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		185,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining."
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Togepi",
 		fr: "Togepi",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		175,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,6 +40,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -47,8 +50,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
+	}
 }
 
 export default card

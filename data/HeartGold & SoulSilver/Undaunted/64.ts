@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Rattata",
 		fr: "Rattata",
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		19,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -45,8 +48,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day."
+	}
 }
 
 export default card

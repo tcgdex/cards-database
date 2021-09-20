@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Torkoal",
 		fr: "Chartor",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		324,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,8 +63,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "You find abandoned coal mines full of them. They dig tirelessly in search of coal."
+	}
 }
 
 export default card

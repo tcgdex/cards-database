@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Remoraid",
 		fr: "Remoraid",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		223,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,8 +63,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet."
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Miltank",
 		fr: "Écrémeuh",
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		241,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		en: "If it is around babies, the milk it produces contains much more nutrition than usual."
+	}
 }
 
 export default card

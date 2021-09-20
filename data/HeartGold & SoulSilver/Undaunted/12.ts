@@ -78,7 +78,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "It can generate and release gas within its body. That’s how it can control the altitude of its drift."
+	}
 }
 
 export default card

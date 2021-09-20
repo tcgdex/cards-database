@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Slowpoke",
 		fr: "Ramoloss",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		79,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,8 +63,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "A sweet sap leaks from its tail’s tip. Although not nutritious, the tail is pleasant to chew on."
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Aipom",
 		fr: "Capumain",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		190,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -59,8 +62,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

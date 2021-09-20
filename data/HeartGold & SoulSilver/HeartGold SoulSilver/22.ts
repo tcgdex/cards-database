@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Granbull",
 		fr: "Granbull",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		210,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Snubbull",
 		fr: "Snubbull",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -61,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,8 +75,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful."
+	}
 }
 
 export default card

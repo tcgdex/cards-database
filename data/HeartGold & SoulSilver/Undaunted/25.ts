@@ -75,7 +75,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others."
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Pineco",
 		fr: "Pomdepik",
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		204,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it."
+	}
 }
 
 export default card

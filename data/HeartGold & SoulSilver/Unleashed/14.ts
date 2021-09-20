@@ -78,7 +78,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest."
+	}
 }
 
 export default card

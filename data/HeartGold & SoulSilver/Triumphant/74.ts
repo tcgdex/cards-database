@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Psyduck",
 		fr: "Psykokwak",
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		54,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -38,6 +40,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -47,8 +50,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has mystical powers but doesn’t recall that it has used them. That is why it always looks puzzled."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -61,7 +61,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
+	}
 }
 
 export default card

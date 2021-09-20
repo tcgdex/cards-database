@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Carvanha",
 		fr: "Carvanha",
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		318,
 	],
+
 	hp: 50,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -59,8 +62,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -75,7 +75,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts."
+	}
 }
 
 export default card

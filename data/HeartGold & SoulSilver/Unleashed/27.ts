@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Ursaring",
 		fr: "Ursaring",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		217,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -56,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -65,8 +70,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		en: "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground."
+	}
 }
 
 export default card

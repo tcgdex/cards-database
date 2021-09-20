@@ -69,7 +69,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down."
+	}
 }
 
 export default card
