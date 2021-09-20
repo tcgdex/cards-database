@@ -9,6 +9,7 @@ on:
       - master
     paths:
       - 'data/**'
+      - 'legals.ts'
   pull_request:
 
 jobs:
