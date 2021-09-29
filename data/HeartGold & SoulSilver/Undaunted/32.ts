@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Pinsir",
 		fr: "Scarabrute",
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		127,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,13 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Charging Horn",
-				fr: "Corne d'attaque",
+				fr: "Corne d’attaque",
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,8 +65,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its pincer horns, it digs burrows to sleep in at night. In the morning, damp soil clings to its body."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

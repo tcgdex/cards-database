@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Exeggutor",
 		fr: "Noadkoko",
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		103,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,10 +56,11 @@ const card: Card = {
 				en: "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque carte Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -65,8 +70,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

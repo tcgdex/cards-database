@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Togekiss",
 		fr: "Togekiss",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		468,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Togetic",
 		fr: "Togetic",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -49,32 +53,43 @@ const card: Card = {
 			],
 			name: {
 				en: "Air Cutter",
-				fr: "Tranch'Air",
+				fr: "Tranch’Air",
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 			},
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

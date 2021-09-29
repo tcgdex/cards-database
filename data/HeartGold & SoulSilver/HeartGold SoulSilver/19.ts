@@ -3,24 +3,26 @@ import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
+		en: "Farfetch’d",
 		fr: "Canarticho",
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		83,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -46,29 +48,40 @@ const card: Card = {
 				fr: "Tournoyer",
 			},
 			effect: {
-				en: "Switch Farfetch'd with 1 of your Benched Pokémon.",
+				en: "Switch Farfetch’d with 1 of your Benched Pokémon.",
 				fr: "Échangez Canarticho avec un Pokémon de votre Banc.",
 			},
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "If it eats the plant stalk it carries as emergency rations, it runs off in search of a new stalk."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

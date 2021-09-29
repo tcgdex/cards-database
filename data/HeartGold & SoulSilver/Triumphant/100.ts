@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Darkrai & Cresselia LEGEND",
 		fr: "Darkrai & Cresselia LÉGENDE",
 	},
-	illustrator: undefined,
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi + Noriko Takaya/樋口真嗣+高屋法子",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		488,
 	],
@@ -19,7 +20,6 @@ const card: Card = {
 		"Darkness",
 		"Psychic",
 	],
-
 
 	suffix: "Legend",
 
@@ -36,8 +36,8 @@ const card: Card = {
 				fr: "Crise perdue",
 			},
 			effect: {
-				en: "Choose 2 Energy attached to Darkrai & Cresselia LEGEND and put them in the Lost Zone. If any of your opponent's Pokémon would be Knocked Out by damage from this attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it.",
-				fr: "Choisissez 2 cartes Énergie attachées à Darkrai & Cresselia LÉGENDE et placez-les dans la Zone Perdue. Si l'un des Pokémon de votre adversaire est mis K.O. par cette attaque, placez ce Pokémon et toutes les cartes qui lui sont attachées dans la Zone Perdue au lieu de le défausser.",
+				en: "Choose 2 Energy attached to Darkrai & Cresselia LEGEND and put them in the Lost Zone. If any of your opponent’s Pokémon would be Knocked Out by damage from this attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it.",
+				fr: "Choisissez 2 cartes Énergie attachées à Darkrai & Cresselia LÉGENDE et placez-les dans la Zone Perdue. Si l’un des Pokémon de votre adversaire est mis K.O. par cette attaque, placez ce Pokémon et toutes les cartes qui lui sont attachées dans la Zone Perdue au lieu de le défausser.",
 			},
 			damage: 100,
 
@@ -47,11 +47,11 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Moon's Invite",
+				en: "Moon’s Invite",
 				fr: "Invitation lunaire",
 			},
 			effect: {
-				en: "Move as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
+				en: "Move as many damage counters on your opponent’s Pokémon as you like to any of your opponent’s other Pokémon in any way you like.",
 				fr: "Retirez autant de marqueurs de dégât que vous le voulez aux Pokémon de votre adversaire et attribuez-les comme bon vous semble aux autres Pokémon de votre adversaire.",
 			},
 
@@ -62,11 +62,12 @@ const card: Card = {
 				fr: "",
 			},
 			effect: {
-				fr: "Placez cette carte sur votre Banc uniquement avec l'autre moitié de Darkrai & Cresselia LÉGENDE.",
+				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -79,9 +80,16 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	stage: "Basic",
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 
-
+	hp: 150
 }
 
 export default card

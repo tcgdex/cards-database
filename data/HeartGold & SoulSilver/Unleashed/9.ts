@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Sudowoodo",
 		fr: "Simularbre",
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		185,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -35,7 +37,7 @@ const card: Card = {
 				en: "Does 20 damage times the amount of Fighting Energy attached to Sudowoodo.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie Fighting attachées à Simularbre.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -49,13 +51,14 @@ const card: Card = {
 				fr: "Bagarre",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 			},
 			damage: 40,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,8 +68,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

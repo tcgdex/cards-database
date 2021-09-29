@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dragonite",
 		fr: "Dracolosse",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		149,
 	],
+
 	hp: 140,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -62,22 +66,33 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
+	description: {
+		en: "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

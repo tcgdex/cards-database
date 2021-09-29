@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Metang",
 		fr: "Metang",
 	},
+
 	illustrator: "Wataru Kawahara",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		375,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Beldum",
 		fr: "Terhal",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -32,11 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Crane",
-				fr: "Grue d'énergie",
+				fr: "Grue d’énergie",
 			},
 			effect: {
 				en: "Search your discard pile for up to 2 Psychic Energy cards and attach them to your Pokémon in any way you like.",
-				fr: "Cherchez jusqu'à 2 cartes Énergie Psychic dans votre pile de défausse et attachez-les à vos Pokémon comme bon vous semble.",
+				fr: "Cherchez jusqu’à 2 cartes Énergie Psychic dans votre pile de défausse et attachez-les à vos Pokémon comme bon vous semble.",
 			},
 
 		},
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,8 +69,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When two Beldum fuse together, a magnetic nervous system places their brains in union."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

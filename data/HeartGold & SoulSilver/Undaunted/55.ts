@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Makuhita",
 		fr: "Makuhita",
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		296,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,7 +38,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 damage plus 10 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

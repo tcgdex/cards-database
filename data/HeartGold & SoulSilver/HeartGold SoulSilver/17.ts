@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Cleffa",
 		fr: "Mélo",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		173,
 	],
+
 	hp: 30,
+
 	types: [
 		"Colorless",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -49,11 +53,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
+	description: {
+		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
+	},
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

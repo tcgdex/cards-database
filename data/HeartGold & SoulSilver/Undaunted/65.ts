@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Scyther",
 		fr: "Insecateur",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		123,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,13 +49,14 @@ const card: Card = {
 				fr: "Coup déchirant",
 			},
 			effect: {
-				en: "During your next turn, Scyther can't use Slashing Strike.",
+				en: "During your next turn, Scyther can’t use Slashing Strike.",
 				fr: "Insécateur ne peut pas utiliser son Coup déchirant pendant votre prochain tour.",
 			},
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,8 +66,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

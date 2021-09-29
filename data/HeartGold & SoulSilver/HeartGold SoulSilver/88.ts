@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Wooper",
 		fr: "Axoloto",
 	},
+
 	illustrator: "match",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		194,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Mouvemend’keu",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				en: "Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur ne peut pas attaquer durant le prochain tour de votre adversaire.",
 			},
 
@@ -50,22 +52,33 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

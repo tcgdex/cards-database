@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Houndoom",
 		fr: "Demolosse",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Houndour",
 		fr: "Malosse",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -36,9 +40,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your opponent has any Fighting Pokémon in play, this attack does 20 damage plus 60 more damage.",
-				fr: "Si votre adversaire dispose de n'importe quel Pokémon Fighting en jeu, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires.",
+				fr: "Si votre adversaire dispose de n’importe quel Pokémon Fighting en jeu, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -58,22 +62,33 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

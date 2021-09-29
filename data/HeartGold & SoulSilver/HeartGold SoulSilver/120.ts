@@ -6,25 +6,21 @@ const card: Card = {
 		en: "Fighting Energy",
 		fr: "Énergie Combat",
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Normal",
 
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
 
-
-
-	stage: "Basic",
-
-
-
-
-
-
-
-
-energyType: "Normal",
+	hp: 0
 }
 
 export default card

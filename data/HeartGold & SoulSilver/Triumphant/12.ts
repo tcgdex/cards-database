@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Victreebel",
 		fr: "Empiflor",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		71,
 	],
+
 	hp: 110,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -32,11 +37,12 @@ const card: Card = {
 				fr: "Enchevêtrement végétal",
 			},
 			effect: {
-				en: "As long as Victreebel is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
-				fr: "Tant qu'Empiflor est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ColorlessColorless.",
+				en: "As long as Victreebel is your Active Pokémon, your opponent’s Active Pokémon’s Retreat Cost is ColorlessColorless more.",
+				fr: "Tant qu’Empiflor est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ColorlessColorless.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,8 +71,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

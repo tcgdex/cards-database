@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Jirachi",
 		fr: "Jirachi",
 	},
+
 	illustrator: "Wataru Kawahara",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		385,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -44,12 +48,13 @@ const card: Card = {
 				fr: "Creux temporel",
 			},
 			effect: {
-				en: "Choose a number of your opponent's Stage 1 or Stage 2 Evolved Pokémon up to the amount of Energy attached to Jirachi. Remove the highest Stage Evolution card from each of those Pokémon and put those cards back into your opponent's hand.",
-				fr: "Choisissez au maximum autant de cartes Pokémon Évolution de votre adversaire (niveau 1 ou 2) qu'il y a de cartes Énergie attachées à Jirachi. Retirez les cartes Évolution de niveau le plus élevé de ces Pokémon et remettez-les dans la main de votre adversaire.",
+				en: "Choose a number of your opponent’s Stage 1 or Stage 2 Evolved Pokémon up to the amount of Energy attached to Jirachi. Remove the highest Stage Evolution card from each of those Pokémon and put those cards back into your opponent’s hand.",
+				fr: "Choisissez au maximum autant de cartes Pokémon Évolution de votre adversaire (niveau 1 ou 2) qu’il y a de cartes Énergie attachées à Jirachi. Retirez les cartes Évolution de niveau le plus élevé de ces Pokémon et remettez-les dans la main de votre adversaire.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,8 +64,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Generations have believed that any wish written on a note on its head will come true when it awakens."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

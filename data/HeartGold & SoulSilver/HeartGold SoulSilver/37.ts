@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Corsola",
 		fr: "Corayon",
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		222,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,10 +52,11 @@ const card: Card = {
 				en: "Flip 2 coins. If both of them are heads, this attack does 20 damage plus 50 more damage.",
 				fr: "Lancez 2 pièces. Si les deux pièces tombent sur face, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,8 +66,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

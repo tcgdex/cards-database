@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Jynx",
 		fr: "Lippoutou",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		124,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Copie",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
+				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand.",
 				fr: "Mélangez votre main dans votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes de la main de votre adversaire.",
 			},
 
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

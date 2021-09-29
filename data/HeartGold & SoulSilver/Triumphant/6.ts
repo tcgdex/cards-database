@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Nidoking",
 		fr: "Nidoking",
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		34,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Nidorino",
 		fr: "Nidorino",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,22 +63,33 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
+	description: {
+		en: "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

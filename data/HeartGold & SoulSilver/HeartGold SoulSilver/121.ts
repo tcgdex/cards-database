@@ -6,25 +6,21 @@ const card: Card = {
 		en: "Darkness Energy",
 		fr: "Énergie Obscurité",
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Normal",
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
 
-
-
-	stage: "Basic",
-
-
-
-
-
-
-
-
-energyType: "Normal",
+	hp: 0
 }
 
 export default card

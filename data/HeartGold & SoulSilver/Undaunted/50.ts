@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Grimer",
 		fr: "Tadmorv",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		88,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Liquide gluant",
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless more.",
+				en: "During your opponent’s next turn, the Defending Pokémon’s Retreat Cost is Colorless more.",
 				fr: "Pendant le prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est augmenté de Colorless.",
 			},
 
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,8 +63,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Wherever Grimer has passed, so many germs are left behind that no plants will ever grow again."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

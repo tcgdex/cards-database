@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Weedle",
 		fr: "Aspicot",
 	},
+
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		13,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -33,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Weedle and put it onto Weedle. (This counts as evolving Weedle.) Shuffle your deck afterward.",
-				fr: "Cherchez une carte Évolution d'Aspicot dans votre deck et placez-la sur Aspicot (cela équivaut à faire évoluer Aspicot). Mélangez ensuite votre deck.",
+				fr: "Cherchez une carte Évolution d’Aspicot dans votre deck et placez-la sur Aspicot (cela équivaut à faire évoluer Aspicot). Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -59,8 +62,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

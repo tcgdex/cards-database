@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Aipom",
 		fr: "Capumain",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		190,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Queue codée",
 			},
 			effect: {
-				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
+				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent’s Pokémon.",
 				fr: "Prenez une carte Énergie attachée au Pokémon Défenseur et attachez-la à un autre des Pokémon de votre adversaire.",
 			},
 
@@ -48,12 +50,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,8 +66,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

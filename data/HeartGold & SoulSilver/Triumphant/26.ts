@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Machamp",
 		fr: "Mackogneur",
 	},
+
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -36,9 +40,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 40 damage plus 20 more damage. If you do, Machamp does 20 damage to itself.",
-				fr: "Vous pouvez infliger 40 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Mackogneur s'inflige 20 dégâts.",
+				fr: "Vous pouvez infliger 40 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Mackogneur s’inflige 20 dégâts.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 		{
@@ -55,10 +59,11 @@ const card: Card = {
 				en: "Does 60 damage plus 10 more damage for each Fighting Energy attached to Machamp.",
 				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Fighting attachée à Mackogneur.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,8 +73,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

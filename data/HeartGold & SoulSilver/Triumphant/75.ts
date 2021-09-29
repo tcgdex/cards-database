@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Shuppet",
 		fr: "Polichombr",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		353,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,8 +34,8 @@ const card: Card = {
 				fr: "Entrave",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, choisissez l'une des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque pendant le prochain tour de votre adversaire.",
+				en: "Flip a coin. If heads, choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.",
+				fr: "Lancez une pièce. Si c’est face, choisissez l’une des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -52,22 +54,33 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "It uses its horn to feed on envy and malice, or so it’s said. It’s very active at night."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

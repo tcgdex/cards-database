@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Nidorino",
 		fr: "Nidorino",
 	},
+
 	illustrator: "match",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		33,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Nidoran♂",
 		fr: "Nidoran♂",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -33,7 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud'korne",
+				fr: "Koud’korne",
 			},
 
 			damage: 30,
@@ -51,12 +55,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 			},
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,8 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

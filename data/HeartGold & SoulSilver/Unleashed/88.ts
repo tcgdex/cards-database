@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Tyranitar",
 		fr: "Tyranocif",
 	},
-	illustrator: "Wataru Kawahara",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Wataru Kawahara",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 160,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Pupitar",
 		fr: "Ymphect",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -35,8 +39,8 @@ const card: Card = {
 				fr: "Obscurlement",
 			},
 			effect: {
-				en: "This attack does 20 damage to each Pokémon in play (both yours and your opponent's) (excluding any Darkness Pokémon). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à chaque Pokémon en jeu (les vôtres et ceux de votre adversaire), à l'exception des Pokémon Darkness. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 20 damage to each Pokémon in play (both yours and your opponent’s) (excluding any Darkness Pokémon). (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 20 dégâts à chaque Pokémon en jeu (les vôtres et ceux de votre adversaire), à l’exception des Pokémon Darkness. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -51,7 +55,7 @@ const card: Card = {
 				fr: "Griffes puissantes",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				en: "This attack’s damage isn’t affected by Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par les Poké-Powers, les Poké-Bodies ou tout autre effet actif sur le Pokémon Défenseur.",
 			},
 			damage: 60,
@@ -76,22 +80,30 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
+	suffix: "Prime",
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

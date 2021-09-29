@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Sentret",
 		fr: "Fouinette",
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		161,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Espion",
 			},
 			effect: {
-				en: "Look at your opponent's hand.",
+				en: "Look at your opponent’s hand.",
 				fr: "Regardez la main de votre adversaire.",
 			},
 
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -59,8 +62,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

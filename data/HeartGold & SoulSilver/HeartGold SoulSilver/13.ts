@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Wobbuffet",
 		fr: "Qulbutoke",
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		202,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,10 +38,11 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Wobbuffet.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts sur Qulbutoke.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -49,8 +52,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It hates light and shock. If attacked, it inflates its body to build up its counterstrike."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Croconaw",
 		fr: "Crocodil",
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		159,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Totodile",
 		fr: "Kaiminus",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -50,13 +54,14 @@ const card: Card = {
 				fr: "Grosse morsure",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 			},
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,8 +71,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

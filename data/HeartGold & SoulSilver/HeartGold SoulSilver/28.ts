@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Pichu",
 		fr: "Pichu",
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		172,
 	],
+
 	hp: 30,
+
 	types: [
 		"Lightning",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -49,11 +53,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
+	description: {
+		en: "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+	},
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

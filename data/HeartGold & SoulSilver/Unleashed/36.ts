@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Plusle",
 		fr: "Posipi",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		311,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,28 +49,39 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, Plusle does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Posipi s'inflige 10 dégâts.",
+				fr: "Lancez une pièce. Si c’est pile, Posipi s’inflige 10 dégâts.",
 			},
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

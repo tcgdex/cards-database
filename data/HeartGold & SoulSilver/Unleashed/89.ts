@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Ursaring",
 		fr: "Ursaring",
 	},
-	illustrator: "Wataru Kawahara",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Wataru Kawahara",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		217,
 	],
+
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -32,11 +37,12 @@ const card: Card = {
 				fr: "Fou-furieux",
 			},
 			effect: {
-				en: "If Ursaring has any damage counters on it, each of Ursaring's attacks does 60 more damage (before applying Weakness and Resistance).",
+				en: "If Ursaring has any damage counters on it, each of Ursaring’s attacks does 60 more damage (before applying Weakness and Resistance).",
 				fr: "Si Ursaring a des marqueurs de dégât, chacune de ses attaques inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,7 +55,7 @@ const card: Card = {
 				fr: "Marto-Poing",
 			},
 			effect: {
-				en: "Discard the top card from your opponent's deck.",
+				en: "Discard the top card from your opponent’s deck.",
 				fr: "Défaussez la première carte du dessus du deck de votre adversaire.",
 			},
 			damage: 30,
@@ -71,6 +77,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -79,9 +86,14 @@ const card: Card = {
 	],
 
 	retreat: 3,
+	suffix: "Prime",
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

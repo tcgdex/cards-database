@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Oddish",
 		fr: "Mystherbe",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		43,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -45,11 +47,12 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Grass Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez un Pokémon Grass dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				fr: "Lancez une pièce. Si c’est face, cherchez un Pokémon Grass dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,8 +62,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Awakened by moonlight, it roams actively at night. In the day it stays quietly underground."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card
