@@ -6,20 +6,22 @@ const card: Card = {
 		en: "Palkia & Dialga LEGEND",
 		fr: "Palkia & Dialga LÉGENDE",
 	},
-	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 160,
+
 	types: [
 		"Water",
 		"Metal",
 	],
-
 
 	suffix: "Legend",
 
@@ -30,17 +32,21 @@ const card: Card = {
 				fr: "",
 			},
 			effect: {
-				fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l'autre moitié de Palkia & Dialga LÉGENDE.",
+				fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l’autre moitié de Palkia & Dialga LÉGENDE.",
 			},
 
 		},
 	],
 
+	stage: "Basic",
+	retreat: 0,
 
-
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

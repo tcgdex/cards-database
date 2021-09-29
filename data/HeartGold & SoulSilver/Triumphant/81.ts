@@ -6,23 +6,41 @@ const card: Card = {
 		en: "Venonat",
 		fr: "Mimitoss",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		48,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
 
-
 	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				en: "Leech Life",
+				fr: "Vampirisme",
+			},
+			effect: {
+				en: "Remove from Venomat the number of damage counters equal to the damage you did to the Definding Pokémon.",
+				fr: "Retirez à Mimitoss un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
+			},
+			damage: 10,
+
+		},
 		{
 			cost: [
 				"Colorless",
@@ -30,20 +48,6 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Vampirisme",
-			},
-			effect: {
-				fr: "Retirez à Mimitoss un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
-			},
-			damage: 20,
-
-		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Charge",
 			},
 
@@ -51,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -60,8 +65,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

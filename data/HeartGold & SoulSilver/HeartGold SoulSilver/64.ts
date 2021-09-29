@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Girafarig",
 		fr: "Girafarig",
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		203,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,8 +63,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

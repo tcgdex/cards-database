@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Lanturn",
 		fr: "Lanturn",
 	},
+
 	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		171,
 	],
+
 	hp: 90,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -36,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -49,16 +53,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Reflect Energy",
-				fr: "Renvoi d'énergie",
+				fr: "Renvoi d’énergie",
 			},
 			effect: {
 				en: "Move an Energy card attached to Lanturn to 1 of your Benched Pokémon.",
-				fr: "Prenez une carte Énergie attachée à Lanturn et attachez-la à l'un des Pokémon de votre Banc.",
+				fr: "Prenez une carte Énergie attachée à Lanturn et attachez-la à l’un des Pokémon de votre Banc.",
 			},
 			damage: 60,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -68,8 +73,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The light it emits is so bright that it can illuminate the sea’s surface from a depth of over three miles."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

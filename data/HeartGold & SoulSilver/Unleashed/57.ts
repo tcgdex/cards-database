@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Onix",
 		fr: "Onix",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		95,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -37,10 +39,11 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -50,8 +53,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

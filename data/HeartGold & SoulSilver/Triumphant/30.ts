@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Sharpedo",
 		fr: "Sharpedo",
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		319,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Carvanha",
 		fr: "Carvanha",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,10 +59,11 @@ const card: Card = {
 				en: "Does 50 damage plus 10 more damage for each damage counter on Sharpedo.",
 				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât placé sur Sharpedo.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -68,8 +73,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

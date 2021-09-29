@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Mankey",
 		fr: "Férosinge",
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		56,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,7 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Koud'poing",
+				fr: "Koud’poing",
 			},
 
 			damage: 10,
@@ -48,10 +50,11 @@ const card: Card = {
 				en: "Does 40 damage minus 10 damage for each damage counter on Mankey.",
 				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Férosinge.",
 			},
-			damage: 40,
+			damage: "40-",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -61,8 +64,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is extremely ill-tempered. Groups of them will attack any handy target for no reason."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

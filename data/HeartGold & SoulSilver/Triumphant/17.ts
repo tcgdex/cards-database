@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Ditto",
 		fr: "Metamorph",
 	},
+
 	illustrator: "match",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		132,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
@@ -30,10 +33,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "The number of Benched Pokémon your opponent can have is now 4. If your opponent has 5 Benched Pokémon, your opponent must discard 1 of them and all cards attached to it.",
-				fr: "Le nombre de Pokémon de Banc de votre adversaire est maintenant limité à 4. Si votre adversaire a 5 Pokémon de Banc, il doit défausser l'un d'entre eux et toutes les cartes qui lui sont attachées.",
+				fr: "Le nombre de Pokémon de Banc de votre adversaire est maintenant limité à 4. Si votre adversaire a 5 Pokémon de Banc, il doit défausser l’un d’entre eux et toutes les cartes qui lui sont attachées.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,8 +63,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its transformation ability is perfect. However, if made to laugh, it can’t maintain its disguise."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

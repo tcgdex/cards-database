@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Drifblim",
 		fr: "Grodrive",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		426,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -37,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Drifblim does 20 damage to itself.",
-				fr: "Grodrive s'inflige 20 dégâts.",
+				fr: "Grodrive s’inflige 20 dégâts.",
 			},
 			damage: 60,
 
@@ -59,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
@@ -72,9 +78,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
+	description: {
+		en: "It can generate and release gas within its body. That’s how it can control the altitude of its drift."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Sableye",
 		fr: "Tenefix",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		302,
 	],
+
 	hp: 60,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,7 +52,7 @@ const card: Card = {
 				en: "If you have more cards in your hand than your opponent, this attack does 20 damage plus 30 more damage.",
 				fr: "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
@@ -61,10 +63,19 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

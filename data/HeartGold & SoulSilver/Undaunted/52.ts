@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Hitmonlee",
 		fr: "Kicklee",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		106,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,7 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Kick",
-				fr: "Koud'pied",
+				fr: "Koud’pied",
 			},
 
 			damage: 20,
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,8 +62,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

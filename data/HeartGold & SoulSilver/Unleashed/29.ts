@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Dunsparce",
 		fr: "Insolourdo",
 	},
+
 	illustrator: "Takashi Yamaguchi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		206,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -33,12 +35,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez jusqu'à ce que vous ayez 6 cartes en main.",
+				fr: "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
 			},
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -48,8 +51,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

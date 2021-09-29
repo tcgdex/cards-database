@@ -6,11 +6,12 @@ const card: Card = {
 		en: "Ho-Oh LEGEND",
 		fr: "Ho-Oh LÉGENDAIRE",
 	},
-	illustrator: "Shinji Higuchi",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		250,
 	],
@@ -19,8 +20,8 @@ const card: Card = {
 		"Fire",
 	],
 
-
 	suffix: "Legend",
+
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -34,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,22 +56,36 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
+	stage: "Basic",
 
+	description: {
+		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
+	},
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 
+	hp: 140
 }
 
 export default card

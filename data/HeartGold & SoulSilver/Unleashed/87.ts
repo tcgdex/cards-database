@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Steelix",
 		fr: "Steelix",
 	},
-	illustrator: "Wataru Kawahara",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Wataru Kawahara",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 140,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -32,11 +37,12 @@ const card: Card = {
 				fr: "Métal parfait",
 			},
 			effect: {
-				en: "Steelix can't be affected by any Special Conditions.",
+				en: "Steelix can’t be affected by any Special Conditions.",
 				fr: "Steelix ne peut pas être affecté par les États Spéciaux.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -45,7 +51,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Stream",
-				fr: "Courant d'énergie",
+				fr: "Courant d’énergie",
 			},
 			effect: {
 				en: "Search your discard pile for an Energy card and attach it to Steelix.",
@@ -68,28 +74,36 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
-				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
+				fr: "Vous pouvez défausser n’importe quelle carte Stade en jeu.",
 			},
 			damage: 100,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
+	suffix: "Prime",
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

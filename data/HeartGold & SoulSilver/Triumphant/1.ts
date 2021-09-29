@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Aggron",
 		fr: "Galeking",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		306,
 	],
+
 	hp: 140,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Lairon",
 		fr: "Galegon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -40,7 +44,7 @@ const card: Card = {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 40 more damage.",
 				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 		{
@@ -55,29 +59,40 @@ const card: Card = {
 				fr: "Griffe de garde",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Aggron by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to Aggron by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à Galeking par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 60,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
+	description: {
+		en: "You can tell its age by the length of its iron horns. It claims an entire mountain as its territory."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

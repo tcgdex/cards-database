@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Onix",
 		fr: "Onix",
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		95,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
@@ -26,7 +29,7 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Energy Healer",
-				fr: "Guérisseur d'énergie",
+				fr: "Guérisseur d’énergie",
 			},
 			effect: {
 				en: "Whenever you attach an Energy card from you hand to 1 of your Pokémon, remove 1 damage counter from that Pokémon.",
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -47,13 +51,14 @@ const card: Card = {
 				fr: "Puissance illimitée",
 			},
 			effect: {
-				en: "Onix can't attack during your next turn.",
+				en: "Onix can’t attack during your next turn.",
 				fr: "Pendant votre prochain tour, Onix ne peut pas attaquer.",
 			},
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,8 +68,16 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Crobat",
 		fr: "Nostenfer",
 	},
+
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		169,
 	],
+
 	hp: 110,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Golbat",
 		fr: "Nosferalto",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -49,22 +53,24 @@ const card: Card = {
 			],
 			name: {
 				en: "Hurricane Wing",
-				fr: "Tornad'aile",
+				fr: "Tornad’aile",
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -72,9 +78,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
+	description: {
+		en: "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

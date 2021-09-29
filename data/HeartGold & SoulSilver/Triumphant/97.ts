@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Mew",
 		fr: "Mew",
 	},
-	illustrator: "Hideaki Hakozaki",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Hideaki Hakozaki",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		151,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
@@ -29,11 +32,12 @@ const card: Card = {
 				fr: "Lien perdu",
 			},
 			effect: {
-				en: "Mew can use the attacks of all of the Pokémon in the Lost Zone (both yours and your opponent's). (You still need the necessary Energy to use each attack.)",
-				fr: "Mew peut utiliser les attaques de tous les Pokémon dans la Zone Perdue (les vôtres et ceux de votre adversaire). (Vous devrez néanmoins avoir suffisamment d'Énergie pour utiliser chaque attaque.)",
+				en: "Mew can use the attacks of all of the Pokémon in the Lost Zone (both yours and your opponent’s). (You still need the necessary Energy to use each attack.)",
+				fr: "Mew peut utiliser les attaques de tous les Pokémon dans la Zone Perdue (les vôtres et ceux de votre adversaire). (Vous devrez néanmoins avoir suffisamment d’Énergie pour utiliser chaque attaque.)",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -57,10 +62,15 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
+	suffix: "Prime",
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

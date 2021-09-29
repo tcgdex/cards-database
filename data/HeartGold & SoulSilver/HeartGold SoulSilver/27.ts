@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Persian",
 		fr: "Persian",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		53,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Miaouss",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,7 +39,7 @@ const card: Card = {
 				fr: "Affûtage des griffes",
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, discard a card from your opponent's hand without looking.",
+				en: "Flip 3 coins. For each heads, discard a card from your opponent’s hand without looking.",
 				fr: "Lancez 3 pièces. Pour chaque face, défaussez une carte de la main de votre adversaire sans la regarder.",
 			},
 
@@ -53,10 +57,11 @@ const card: Card = {
 				en: "If Persian has any Darkness Energy attached to it, this attack does 30 damage plus 30 more damage.",
 				fr: "Si des cartes Énergie Darkness sont attachées à Persian, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,8 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its lithe muscles allow it to walk without making a sound. It attacks in an instant."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

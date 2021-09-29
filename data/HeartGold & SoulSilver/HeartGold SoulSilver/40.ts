@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Donphan",
 		fr: "Donphan",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		232,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Phanpy",
 		fr: "Phanpy",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -37,7 +41,7 @@ const card: Card = {
 				fr: "Lance-pierre",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
+				en: "This attack’s damage isn’t affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 50,
@@ -58,26 +62,37 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 70,
+			damage: "70×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
+	description: {
+		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

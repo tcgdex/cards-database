@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Drapion",
 		fr: "Drascore",
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		452,
 	],
+
 	hp: 100,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Skorupi",
 		fr: "Rapion",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'un seul sur ce Pokémon entre deux tours.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d’un seul sur ce Pokémon entre deux tours.",
 			},
 			damage: 40,
 
@@ -52,29 +56,40 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Crush",
-				fr: "Écras'terre",
+				fr: "Écras’terre",
 			},
 
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
+	description: {
+		en: "It attacks people and Pokémon that cross the desert. This has only furthered its bad reputation."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

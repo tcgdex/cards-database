@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Roserade",
 		fr: "Roserade",
 	},
+
 	illustrator: "Takashi Yamaguchi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		407,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Roselia",
 		fr: "Roselia",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -29,14 +34,15 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Energy Signal",
-				fr: "Signal d'énergie",
+				fr: "Signal d’énergie",
 			},
 			effect: {
-				en: "When you attach a Grass Energy card or Psychic Energy card from your hand to Roserade during your turn, you may use this power. If you attach a Grass Energy card, the Defending Pokémon is now Confused. If you attach a Psychic Energy card, the Defending Pokémon is now Poisoned. This power can't be used if Roserade is affected by a Special Condition.",
+				en: "When you attach a Grass Energy card or Psychic Energy card from your hand to Roserade during your turn, you may use this power. If you attach a Grass Energy card, the Defending Pokémon is now Confused. If you attach a Psychic Energy card, the Defending Pokémon is now Poisoned. This power can’t be used if Roserade is affected by a Special Condition.",
 				fr: "Lorsque vous attachez une carte Énergie Grass ou Énergie Psychic de votre main à Roserade, vous pouvez utiliser ce pouvoir. Si vous attachez une carte Énergie Grass, le Pokémon Défenseur est maintenant Confus. Si vous attachez une carte Énergie Psychic, le Pokémon Défenseur est maintenant Empoisonné. Ce pouvoir ne peut pas être utilisé si Roserade est affecté par un État Spécial.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,10 +57,11 @@ const card: Card = {
 				en: "Does 20 damage times the amount of Energy attached to Roserade.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie attachées à Roserade.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,8 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its sweet aroma attracts prey. Then it spews poison. The more toxic it is, the sweeter its aroma."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

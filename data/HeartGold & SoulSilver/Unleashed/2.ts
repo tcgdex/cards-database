@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Magmortar",
 		fr: "Maganon",
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		467,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Magmar",
 		fr: "Magmar",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -34,13 +38,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hard Crush",
-				fr: "Écras'dur",
+				fr: "Écras’dur",
 			},
 			effect: {
 				en: "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.",
 				fr: "Défaussez les 3 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 		{
@@ -62,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -71,8 +76,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

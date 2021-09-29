@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Skarmory",
 		fr: "Airmure",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		227,
 	],
+
 	hp: 80,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,11 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Coat",
-				fr: "Manteau d'acier",
+				fr: "Manteau d’acier",
 			},
 			effect: {
 				en: "Search your deck for a Metal Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie Metal dans votre deck et attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
+				fr: "Cherchez une carte Énergie Metal dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -52,22 +54,33 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

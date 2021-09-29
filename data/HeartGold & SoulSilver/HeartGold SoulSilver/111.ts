@@ -6,29 +6,36 @@ const card: Card = {
 		en: "Ho-Oh LEGEND",
 		fr: "Ho-Oh LÉGENDAIRE",
 	},
-	illustrator: "Shinji Higuchi",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shinji Higuchi",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		250,
 	],
+
 	hp: 140,
+
 	types: [
 		"Fire",
 	],
 
-
 	suffix: "Legend",
+	stage: "Basic",
+	retreat: 0,
 
+	description: {
+		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
+	},
 
-
-
-
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

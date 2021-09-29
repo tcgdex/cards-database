@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Poliwag",
 		fr: "Ptitard",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		60,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -60,8 +63,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The direction of its belly spiral differs by area. The equator is thought to have an effect on this."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

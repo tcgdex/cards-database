@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Torkoal",
 		fr: "Chartor",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		324,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
@@ -30,10 +33,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn when you put Torkoal from your hand onto your Bench, you may flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Chartor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				fr: "Une seule fois pendant votre tour, lorsque vous placez Chartor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,8 +63,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "You find abandoned coal mines full of them. They dig tirelessly in search of coal."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card
