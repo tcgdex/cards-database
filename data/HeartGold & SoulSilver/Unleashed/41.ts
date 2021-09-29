@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Tauros",
 		fr: "Tauros",
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		128,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,7 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud'pattes",
+				fr: "Coud’pattes",
 			},
 
 			damage: 20,
@@ -49,10 +51,11 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Tauros is now Confused.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Tauros est maintenant Confus.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,8 +65,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

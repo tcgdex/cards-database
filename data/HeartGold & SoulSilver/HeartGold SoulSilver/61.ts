@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Cyndaquil",
 		fr: "Héricendre",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		155,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

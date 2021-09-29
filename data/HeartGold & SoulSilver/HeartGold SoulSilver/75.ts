@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Meowth",
 		fr: "Miaouss",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		52,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,8 +64,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It loves anything that shines. It especially adores coins that it picks up and secretly hoards."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Paras",
 		fr: "Paras",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		46,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -61,8 +64,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As its body grows large, large mushrooms named tochukaso start sprouting out of its back."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

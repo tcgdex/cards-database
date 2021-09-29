@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Meganium",
 		fr: "Meganium",
 	},
-	illustrator: "Takashi Yamaguchi",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Takashi Yamaguchi",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		154,
 	],
+
 	hp: 150,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Bayleef",
 		fr: "Macronium",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -32,11 +37,12 @@ const card: Card = {
 				fr: "Transfo feuille",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Grass Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Meganium is affected by a Special Condition.",
+				en: "As often as you like during your turn (before your attack), you may move a Grass Energy attached to 1 of your Pokémon to another of your Pokémon. This power can’t be used if Meganium is affected by a Special Condition.",
 				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie Grass attachée à l’un de vos Pokémon sur un autre Pokémon. Ce pouvoir ne peut pas être utilisé si Meganium est affecté par un État spécial.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,22 +60,30 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
+	suffix: "Prime",
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

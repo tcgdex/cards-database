@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Metapod",
 		fr: "Chrysacier",
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		11,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Caterpie",
 		fr: "Chenipan",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -35,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -59,8 +66,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It prepares for evolution by hardening its shell as much as possible to protect its soft body."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

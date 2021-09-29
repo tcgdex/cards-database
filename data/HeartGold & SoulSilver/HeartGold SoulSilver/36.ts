@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Blissey",
 		fr: "Leuphorie",
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		242,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Chansey",
 		fr: "Leveinard",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -68,8 +73,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Anyone who takes even one taste of Blissey’s egg becomes unfailingly caring and pleasant to everyone."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

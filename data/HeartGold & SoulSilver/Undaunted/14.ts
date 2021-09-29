@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Hariyama",
 		fr: "Hariyama",
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		297,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Makuhita",
 		fr: "Makuhita",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -53,12 +57,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 80 damage plus 20 more damage. If you do, Hariyama does 20 damage to itself.",
-				fr: "Vous pouvez infliger 80 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Hariyama s'inflige 20 dégâts.",
+				fr: "Vous pouvez infliger 80 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Hariyama s’inflige 20 dégâts.",
 			},
-			damage: 80,
+			damage: "80+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,8 +73,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

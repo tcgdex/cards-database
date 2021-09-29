@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Magby",
 		fr: "Magby",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		240,
 	],
+
 	hp: 30,
+
 	types: [
 		"Fire",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -49,11 +53,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
+	description: {
+		en: "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don’t underestimate it."
+	},
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

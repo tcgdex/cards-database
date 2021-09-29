@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Arcanine",
 		fr: "Arcanin",
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		59,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -64,8 +69,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

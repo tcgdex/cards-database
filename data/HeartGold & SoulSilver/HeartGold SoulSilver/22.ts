@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Granbull",
 		fr: "Granbull",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		210,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Snubbull",
 		fr: "Snubbull",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,10 +61,11 @@ const card: Card = {
 				en: "Does 40 damage plus 10 more damage for each damage counter on Granbull.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Granbull.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -70,8 +75,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

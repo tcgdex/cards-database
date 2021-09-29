@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Dunsparce",
 		fr: "Insolourdo",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		206,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,8 +65,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Typhlosion",
 		fr: "Typhlosion",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		157,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Quilava",
 		fr: "Fleurisson",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -66,8 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

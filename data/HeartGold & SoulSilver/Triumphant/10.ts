@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Spiritomb",
 		fr: "Spiritomb",
 	},
+
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		442,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,10 +61,19 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

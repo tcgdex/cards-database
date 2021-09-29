@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Altaria",
 		fr: "Altaria",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		334,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,16 +59,18 @@ const card: Card = {
 				en: "If there is any Stadium card in play, this attack does 40 damage plus 30 more damage.",
 				fr: "Si une carte Stade est en jeu, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -72,9 +78,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
+	description: {
+		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Vespiquen",
 		fr: "Apireine",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		416,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Combee",
 		fr: "Apitrini",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,13 +55,14 @@ const card: Card = {
 				fr: "Vent frénétique",
 			},
 			effect: {
-				en: "During your next turn, Vespiquen's Retreat Cost is 0.",
-				fr: "Pendant votre prochain tour, le Coût de retraite d'Apireine est de 0.",
+				en: "During your next turn, Vespiquen’s Retreat Cost is 0.",
+				fr: "Pendant votre prochain tour, le Coût de retraite d’Apireine est de 0.",
 			},
 			damage: 60,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,8 +72,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

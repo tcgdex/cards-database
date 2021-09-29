@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Magmortar",
 		fr: "Maganon",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		467,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Magmar",
 		fr: "Magmar",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,8 +39,8 @@ const card: Card = {
 				fr: "Super pyro",
 			},
 			effect: {
-				en: "For each Fire Energy attached to Magmortar, discard the top card from your opponent's deck. Then, flip a coin. If tails, discard all Fire Energy attached to Magmortar.",
-				fr: "Pour chaque carte Énergie Fire attachée à Maganon, défaussez la carte du dessus du deck de votre adversaire. Lancez ensuite une pièce. Si c'est pile, défaussez toutes les cartes Énergie Fire attachées à Maganon.",
+				en: "For each Fire Energy attached to Magmortar, discard the top card from your opponent’s deck. Then, flip a coin. If tails, discard all Fire Energy attached to Magmortar.",
+				fr: "Pour chaque carte Énergie Fire attachée à Maganon, défaussez la carte du dessus du deck de votre adversaire. Lancez ensuite une pièce. Si c’est pile, défaussez toutes les cartes Énergie Fire attachées à Maganon.",
 			},
 
 		},
@@ -48,7 +52,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Burst Punch",
-				fr: "Poing d'enfer",
+				fr: "Poing d’enfer",
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -67,8 +72,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

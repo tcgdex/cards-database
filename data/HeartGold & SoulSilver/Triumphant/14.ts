@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Banette",
 		fr: "Branette",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		354,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Shuppet",
 		fr: "Polichombr",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,8 +39,8 @@ const card: Card = {
 				fr: "Broyage perdu",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and put it in the Lost Zone.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée à l'un des Pokémon de votre adversaire et placez-la dans la Zone Perdue.",
+				en: "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent’s Pokémon and put it in the Lost Zone.",
+				fr: "Lancez une pièce. Si c’est face, choisissez une carte Énergie attachée à l’un des Pokémon de votre adversaire et placez-la dans la Zone Perdue.",
 			},
 
 		},
@@ -51,28 +55,39 @@ const card: Card = {
 				fr: "Réaction",
 			},
 			effect: {
-				en: "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pokémon.",
+				en: "Count the number of cards in your opponent’s hand. Put that many damage counters on the Defending Pokémon.",
 				fr: "Comptez le nombre de cartes dans la main de votre adversaire. Placez un nombre équivalent de marqueurs de dégât sur le Pokémon Défenseur.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Kangaskhan",
 		fr: "Kangourex",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		115,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,7 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Spiral Punch",
-				fr: "Coup d'poing en demi spirale",
+				fr: "Coup d’poing en demi spirale",
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
@@ -53,10 +55,11 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -66,8 +69,16 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

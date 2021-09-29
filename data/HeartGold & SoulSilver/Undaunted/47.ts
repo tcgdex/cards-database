@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Eevee",
 		fr: "Evoli",
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		133,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

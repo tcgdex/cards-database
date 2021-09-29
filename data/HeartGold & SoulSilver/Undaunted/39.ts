@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Togetic",
 		fr: "Togetic",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		176,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Togepi",
 		fr: "Togepi",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -50,29 +54,40 @@ const card: Card = {
 				fr: "Vol",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to Togetic during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à Togetic pendant le prochain tour de votre adversaire.",
+				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to Togetic during your opponent’s next turn.",
+				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Togetic pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

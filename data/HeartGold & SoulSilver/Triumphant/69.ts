@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Nidoran♀",
 		fr: "Nidoran♀",
 	},
+
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		29,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,7 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Friend Search",
-				fr: "À la recherche d'amis",
+				fr: "À la recherche d’amis",
 			},
 			effect: {
 				en: "Look at the top 5 cards of your deck, choose 1 Pokémon you find there, show it to your opponent, and put it into your hand. Shuffle the other cards back into your deck.",
@@ -50,10 +52,11 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although not very combative, it will torment its foes with poison spikes if it is threatened in any way."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

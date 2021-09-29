@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Slowbro",
 		fr: "Flagadoss",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		80,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,12 +56,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Slowbro is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Flagadoss est maintenant Confus.",
+				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus. Si c’est pile, Flagadoss est maintenant Confus.",
 			},
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -67,8 +72,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Naturally dull to begin with, it lost its ability to feel pain due to Shellder’s seeping poison."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

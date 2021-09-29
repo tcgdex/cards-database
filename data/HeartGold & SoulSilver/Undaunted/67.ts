@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Slugma",
 		fr: "Limagma",
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		218,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
@@ -29,11 +32,12 @@ const card: Card = {
 				fr: "Volcan actif",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard the top card of your deck. If that card is a Fire Energy card, attach it to Slugma. This power can't be used if Slugma is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser la carte du dessus de votre deck. S'il s'agit d'une carte Énergie Fire, attachez-la à Limagma. Ce pouvoir ne peut pas être utilisé si Limagma est affecté par un État Spécial.",
+				en: "Once during your turn (before your attack), you may discard the top card of your deck. If that card is a Fire Energy card, attach it to Slugma. This power can’t be used if Slugma is affected by a Special Condition.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser la carte du dessus de votre deck. S’il s’agit d’une carte Énergie Fire, attachez-la à Limagma. Ce pouvoir ne peut pas être utilisé si Limagma est affecté par un État Spécial.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -59,8 +64,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

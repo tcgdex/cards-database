@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Growlithe",
 		fr: "Caninos",
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		58,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -59,8 +62,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

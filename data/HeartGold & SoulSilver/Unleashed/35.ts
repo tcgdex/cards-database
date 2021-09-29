@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Numel",
 		fr: "Chamallot",
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		322,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,7 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare Bonus",
-				fr: "Bonus d'intimidation",
+				fr: "Bonus d’intimidation",
 			},
 			effect: {
 				en: "Discard a Fire Energy card from your hand. Then, draw 3 cards.",
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -61,8 +64,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The flaming magma it stores in the hump on its back is the source of its tremendous power."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

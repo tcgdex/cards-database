@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Poliwhirl",
 		fr: "Tetarte",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		61,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Poliwag",
 		fr: "Ptitard",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -64,8 +69,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Ninetales",
 		fr: "Feunard",
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		38,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Vulpix",
 		fr: "Goupix",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -32,11 +37,12 @@ const card: Card = {
 				fr: "Rôtir",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can’t be used if Ninetales is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez vous défausser d’une carte Énergie Fire. Dans ce cas, piochez 3 cartes. Ce pouvoir ne peut pas être utilisé si Feunard est affecté par un État spécial.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -45,7 +51,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-o'-the-wisp",
+				en: "Will-o’-the-wisp",
 				fr: "Feu follet",
 			},
 
@@ -53,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,8 +69,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

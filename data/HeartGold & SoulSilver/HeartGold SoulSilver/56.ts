@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Wigglytuff",
 		fr: "Grodoudou",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		40,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Jiggylypuff",
 		fr: "Rondoudou",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -39,7 +43,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 		{
@@ -53,13 +57,14 @@ const card: Card = {
 				fr: "Pousstoidla",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Grodoudou par des attaques pendant le prochain tour de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -69,8 +74,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

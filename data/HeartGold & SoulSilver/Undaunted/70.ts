@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Togepi",
 		fr: "Togepi",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		175,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -33,11 +35,12 @@ const card: Card = {
 			},
 			effect: {
 				en: "Ask your opponent if you may draw 2 cards. If yes, draw 2 cards. If no, this attack does 20 damage to the Defending Pokémon.",
-				fr: "Demandez à votre adversaire si vous pouvez piocher 2 cartes. S'il accepte, piochez 2 cartes. S'il refuse, cette attaque inflige 20 dégâts au Pokémon Défenseur.",
+				fr: "Demandez à votre adversaire si vous pouvez piocher 2 cartes. S’il accepte, piochez 2 cartes. S’il refuse, cette attaque inflige 20 dégâts au Pokémon Défenseur.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -47,8 +50,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

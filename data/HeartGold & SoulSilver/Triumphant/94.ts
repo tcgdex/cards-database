@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Gengar",
 		fr: "Ectoplasma",
 	},
-	illustrator: "Takashi Yamaguchi",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Takashi Yamaguchi",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		94,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Haunter",
 		fr: "Spectrum",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -32,11 +37,12 @@ const card: Card = {
 				fr: "Catastrophe",
 			},
 			effect: {
-				en: "As long as Gengar is your Active Pokémon, if any of your opponent's Pokémon would be Knocked Out, put that Pokémon in the Lost Zone instead of discarding it. (Discard all cards attached to that Pokémon.)",
-				fr: "Tant qu'Ectoplasma est votre Pokémon Actif, si l'un des Pokémon de votre adversaire est mis K.O., placez ce Pokémon dans la Zone Perdue au lieu de le défausser. (Défaussez toutes les cartes attachées à ce Pokémon.)",
+				en: "As long as Gengar is your Active Pokémon, if any of your opponent’s Pokémon would be Knocked Out, put that Pokémon in the Lost Zone instead of discarding it. (Discard all cards attached to that Pokémon.)",
+				fr: "Tant qu’Ectoplasma est votre Pokémon Actif, si l’un des Pokémon de votre adversaire est mis K.O., placez ce Pokémon dans la Zone Perdue au lieu de le défausser. (Défaussez toutes les cartes attachées à ce Pokémon.)",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -47,8 +53,8 @@ const card: Card = {
 				fr: "Jet dans les Ténèbres",
 			},
 			effect: {
-				en: "Look at your opponent's hand and choose a number of Pokémon you find there up to the number of Psychic Energy attached to Gengar. Put the Pokémon you chose in the Lost Zone.",
-				fr: "Regardez la main de votre adversaire et choisissez-y autant de Pokémon qu'il existe de cartes Énergie Psychic attachées à Ectoplasma. Placez les Pokémon que vous avez choisis dans la Zone Perdue.",
+				en: "Look at your opponent’s hand and choose a number of Pokémon you find there up to the number of Psychic Energy attached to Gengar. Put the Pokémon you chose in the Lost Zone.",
+				fr: "Regardez la main de votre adversaire et choisissez-y autant de Pokémon qu’il existe de cartes Énergie Psychic attachées à Ectoplasma. Placez les Pokémon que vous avez choisis dans la Zone Perdue.",
 			},
 
 		},
@@ -62,18 +68,20 @@ const card: Card = {
 				fr: "Chute maudite",
 			},
 			effect: {
-				en: "Put 4 damage counters on your opponent's Pokémon in any way you like.",
+				en: "Put 4 damage counters on your opponent’s Pokémon in any way you like.",
 				fr: "Placez 4 marqueurs de dégât sur les Pokémon de votre adversaire, comme bon vous semble.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
@@ -81,9 +89,15 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
+	suffix: "Prime",
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

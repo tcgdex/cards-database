@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Shaymin",
 		fr: "Shaymin",
 	},
+
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		492,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
@@ -30,10 +33,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, when you put Shaymin from your hand onto your Bench, you may move as many Energy cards attached to your Pokémon as you like to any of your other Pokémon.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Shaymin de votre main sur votre Banc, vous pouvez prendre une ou plusieurs cartes Énergie attachées à l'un de vos Pokémon et les attacher à un autre Pokémon.",
+				fr: "Une seule fois pendant votre tour, lorsque vous placez Shaymin de votre main sur votre Banc, vous pouvez prendre une ou plusieurs cartes Énergie attachées à l’un de vos Pokémon et les attacher à un autre Pokémon.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,22 +56,33 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	description: {
+		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

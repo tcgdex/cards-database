@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Weepinbell",
 		fr: "Boustiflor",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		70,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Bellsprout",
 		fr: "Chetiflor",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -50,13 +54,14 @@ const card: Card = {
 				fr: "Visée corrosive",
 			},
 			effect: {
-				en: "Filp a coin. If heads, look at your opponent's hand, choose 1 card, and discard it.",
-				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire, choisissez une carte et défaussez-la.",
+				en: "Filp a coin. If heads, look at your opponent’s hand, choose 1 card, and discard it.",
+				fr: "Lancez une pièce. Si c’est face, regardez la main de votre adversaire, choisissez une carte et défaussez-la.",
 			},
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -66,8 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even though it is filled with acid, it does not melt because it also oozes a protective fluid."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

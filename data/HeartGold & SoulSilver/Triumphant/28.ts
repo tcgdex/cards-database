@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Nidoqueen",
 		fr: "Nidoqueen",
 	},
+
 	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		31,
 	],
+
 	hp: 130,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Nidorina",
 		fr: "Nidorina",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -36,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez jusqu'à ce que vous ayez 6 cartes en main.",
+				fr: "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
 			},
 			damage: 30,
 
@@ -53,12 +57,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have more Prize cards left than your opponent, this attack does 50 damage plus 30 more damage.",
-				fr: "S'il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				fr: "S’il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -68,8 +73,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

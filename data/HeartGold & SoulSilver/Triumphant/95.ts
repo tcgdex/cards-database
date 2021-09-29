@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Machamp",
 		fr: "Mackogneur",
 	},
-	illustrator: "Shizurow",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Shizurow",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		68,
 	],
+
 	hp: 150,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -64,16 +70,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Champ Buster",
-				fr: "Explos'tout",
+				fr: "Explos’tout",
 			},
 			effect: {
 				en: "Does 100 damage plus 10 more damage for each of your Benched Pokémon that has any damage counters on it.",
 				fr: "Inflige 100 dégâts plus 10 dégâts supplémentaires pour chacun de vos Pokémon de Banc ayant des marqueurs de dégât.",
 			},
-			damage: 100,
+			damage: "100+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -82,9 +89,14 @@ const card: Card = {
 	],
 
 	retreat: 3,
+	suffix: "Prime",
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

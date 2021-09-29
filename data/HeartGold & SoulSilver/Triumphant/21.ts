@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Elekid",
 		fr: "Elekid",
 	},
+
 	illustrator: "TOKIYA",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		239,
 	],
+
 	hp: 30,
+
 	types: [
 		"Lightning",
 	],
@@ -30,10 +33,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Elekid is Asleep, prevent all damage done to Elekid by attacks.",
-				fr: "Tant qu'Elekid est Endormi, empêchez tous les dégâts qui lui sont infligés par des attaques.",
+				fr: "Tant qu’Elekid est Endormi, empêchez tous les dégâts qui lui sont infligés par des attaques.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -42,18 +46,25 @@ const card: Card = {
 				fr: "Boule étincelante",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance. Elekid is now Asleep.",
-				fr: "Choisissez l'un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Elekid est maintenant Endormi.",
+				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. This attack’s damage isn’t affected by Weakness or Resistance. Elekid is now Asleep.",
+				fr: "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Elekid est maintenant Endormi.",
 			},
 
 		},
 	],
 
+	retreat: 0,
 
+	description: {
+		en: "Even in the most vicious storm, this Pokémon plays happily if thunder rumbles in the sky."
+	},
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

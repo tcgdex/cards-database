@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Weezing",
 		fr: "Smogogo",
 	},
+
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		110,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Koffing",
 		fr: "Smogo",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -50,13 +54,14 @@ const card: Card = {
 				fr: "Super explosion",
 			},
 			effect: {
-				en: "Weezing does 90 damage to itself, and don't apply Weakness to this damage.",
+				en: "Weezing does 90 damage to itself, and don’t apply Weakness to this damage.",
 				fr: "Smogogo s’inflige 90 dégâts et n’appliquez pas la Faiblesse à ces dégâts.",
 			},
 			damage: 90,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,8 +71,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

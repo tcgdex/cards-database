@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Sandslash",
 		fr: "Sablaireau",
 	},
+
 	illustrator: "Yukiko Baba",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		28,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Sandshrew",
 		fr: "Sabelette",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -56,16 +60,18 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -73,9 +79,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
+	description: {
+		en: "If it digs at an incredible pace, it may snap off its spike and claws. They grow back in a day."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card
