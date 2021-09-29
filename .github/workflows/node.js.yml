@@ -9,6 +9,7 @@ on:
       - master
     paths:
       - 'data/**'
+      - 'legals.ts'
   pull_request:
 
 jobs:
@@ -18,12 +19,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Setup NodeJS
       uses: actions/setup-node@v1
       with:
-        node-version: 15.x
-    - run: yarn
-    - run: yarn compile
+        node-version: 16.x
+
+    - name: Install packages
+      run: npm ci
+
+    - name: Build the database
+      run: npm run compile
+
   push:
     name: Launch the compiler
     needs: test
