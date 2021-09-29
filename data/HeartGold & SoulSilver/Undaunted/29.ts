@@ -79,6 +79,13 @@ const card: Card = {
 
 	description: {
 		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

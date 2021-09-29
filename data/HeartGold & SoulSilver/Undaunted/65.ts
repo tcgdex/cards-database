@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

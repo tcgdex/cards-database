@@ -76,6 +76,13 @@ const card: Card = {
 
 	description: {
 		en: "Vicious in nature, it drives Pidgey from their nests and scavenges any leftovers it can find."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

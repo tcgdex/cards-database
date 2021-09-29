@@ -55,6 +55,13 @@ const card: Card = {
 
 	description: {
 		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

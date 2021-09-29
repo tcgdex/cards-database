@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "Capable of flying safely in dark places, it emits ultrasonic cries to check for any obstacles."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

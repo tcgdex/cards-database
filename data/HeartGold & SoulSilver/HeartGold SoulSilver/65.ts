@@ -64,6 +64,13 @@ const card: Card = {
 
 	description: {
 		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

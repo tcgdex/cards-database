@@ -81,6 +81,13 @@ const card: Card = {
 
 	description: {
 		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

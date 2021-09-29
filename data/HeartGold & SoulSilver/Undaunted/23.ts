@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

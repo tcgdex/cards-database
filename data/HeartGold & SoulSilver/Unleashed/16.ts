@@ -70,6 +70,13 @@ const card: Card = {
 
 	description: {
 		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

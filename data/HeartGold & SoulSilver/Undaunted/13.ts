@@ -80,6 +80,13 @@ const card: Card = {
 
 	description: {
 		en: "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

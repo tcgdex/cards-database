@@ -70,6 +70,13 @@ const card: Card = {
 
 	description: {
 		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

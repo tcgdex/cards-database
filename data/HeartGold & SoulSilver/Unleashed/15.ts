@@ -80,6 +80,13 @@ const card: Card = {
 
 	description: {
 		en: "It shoots itself suddenly high into the sky, then plummets down in one fell swoop to strike its prey."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

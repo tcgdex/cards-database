@@ -57,6 +57,13 @@ const card: Card = {
 
 	description: {
 		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

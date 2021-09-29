@@ -82,6 +82,13 @@ const card: Card = {
 
 	description: {
 		en: "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

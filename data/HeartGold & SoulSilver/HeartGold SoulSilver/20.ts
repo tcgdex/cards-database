@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

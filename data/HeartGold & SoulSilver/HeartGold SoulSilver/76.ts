@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "As its body grows large, large mushrooms named tochukaso start sprouting out of its back."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

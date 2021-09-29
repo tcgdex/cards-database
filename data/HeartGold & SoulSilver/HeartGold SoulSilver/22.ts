@@ -77,6 +77,13 @@ const card: Card = {
 
 	description: {
 		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

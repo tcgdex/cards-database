@@ -53,6 +53,13 @@ const card: Card = {
 
 	description: {
 		en: "Using telepathy only they can employ, they always form a cluster of six Exeggcute."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -76,6 +76,13 @@ const card: Card = {
 
 	description: {
 		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

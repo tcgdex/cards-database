@@ -75,6 +75,13 @@ const card: Card = {
 
 	description: {
 		en: "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled."
+	},
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

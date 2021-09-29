@@ -64,6 +64,13 @@ const card: Card = {
 
 	description: {
 		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "They communicate with one another using their auras. They are able to run all through the night."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

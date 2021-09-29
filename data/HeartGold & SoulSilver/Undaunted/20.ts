@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "Research continues on this Pokémon, which could be the power source of a unique motor."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

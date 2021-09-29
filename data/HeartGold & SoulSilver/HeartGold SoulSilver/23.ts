@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

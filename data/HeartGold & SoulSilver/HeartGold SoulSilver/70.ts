@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

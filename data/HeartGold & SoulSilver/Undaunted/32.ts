@@ -67,6 +67,13 @@ const card: Card = {
 
 	description: {
 		en: "With its pincer horns, it digs burrows to sleep in at night. In the morning, damp soil clings to its body."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

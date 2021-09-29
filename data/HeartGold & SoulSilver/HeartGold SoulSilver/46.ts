@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "It prepares for evolution by hardening its shell as much as possible to protect its soft body."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -64,6 +64,13 @@ const card: Card = {
 
 	description: {
 		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -76,6 +76,13 @@ const card: Card = {
 
 	description: {
 		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

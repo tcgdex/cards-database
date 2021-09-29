@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

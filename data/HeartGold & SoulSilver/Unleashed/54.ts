@@ -59,6 +59,13 @@ const card: Card = {
 
 	description: {
 		en: "It likes playing mischievous tricks such as screaming and wailing to startle people at night."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

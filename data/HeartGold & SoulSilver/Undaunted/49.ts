@@ -61,6 +61,13 @@ const card: Card = {
 
 	description: {
 		en: "It flies straight at its target’s face then clamps down on the startled victim to inject poison."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

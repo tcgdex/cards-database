@@ -82,6 +82,13 @@ const card: Card = {
 
 	description: {
 		en: "It can generate and release gas within its body. That’s how it can control the altitude of its drift."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

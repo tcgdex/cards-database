@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

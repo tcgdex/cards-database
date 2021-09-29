@@ -75,6 +75,13 @@ const card: Card = {
 
 	description: {
 		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

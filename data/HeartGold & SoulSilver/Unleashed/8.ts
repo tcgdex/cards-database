@@ -75,6 +75,13 @@ const card: Card = {
 
 	description: {
 		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

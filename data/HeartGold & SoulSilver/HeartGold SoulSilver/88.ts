@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

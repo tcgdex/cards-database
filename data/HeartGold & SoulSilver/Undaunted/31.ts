@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

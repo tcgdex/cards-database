@@ -16,7 +16,7 @@ const card: Card = {
 		244,
 	],
 
-	hp: 140,
+	hp: 160,
 
 	types: [
 		"Water",
@@ -25,7 +25,14 @@ const card: Card = {
 
 	suffix: "Legend",
 	stage: "Basic",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

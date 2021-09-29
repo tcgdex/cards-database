@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "When the weather turns cold, lots of Ledyba gather from everywhere to cluster and keep each other warm."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

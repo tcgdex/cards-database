@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "Generations have believed that any wish written on a note on its head will come true when it awakens."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

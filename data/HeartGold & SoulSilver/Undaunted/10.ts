@@ -81,6 +81,13 @@ const card: Card = {
 
 	description: {
 		en: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

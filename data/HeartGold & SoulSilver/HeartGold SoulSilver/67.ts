@@ -60,6 +60,13 @@ const card: Card = {
 
 	description: {
 		en: "To keep from being blown away by the wind, they gather in clusters. But they do enjoy gentle breezes."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

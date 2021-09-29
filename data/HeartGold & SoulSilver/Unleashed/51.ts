@@ -70,6 +70,13 @@ const card: Card = {
 
 	description: {
 		en: "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

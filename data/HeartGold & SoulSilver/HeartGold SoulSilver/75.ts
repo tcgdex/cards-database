@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "It loves anything that shines. It especially adores coins that it picks up and secretly hoards."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

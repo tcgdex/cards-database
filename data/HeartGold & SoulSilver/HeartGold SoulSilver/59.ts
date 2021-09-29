@@ -70,6 +70,13 @@ const card: Card = {
 
 	description: {
 		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -80,6 +80,13 @@ const card: Card = {
 
 	description: {
 		en: "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

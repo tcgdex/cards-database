@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "It has incredible intellect and intuition. Whatever the situation, it remains calm and collected."
+	},
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
 	}
 }
 

@@ -75,6 +75,13 @@ const card: Card = {
 
 	description: {
 		en: "As it majestically swims, it doesn’t care if Remoraid attach to it for scavenging its leftovers."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

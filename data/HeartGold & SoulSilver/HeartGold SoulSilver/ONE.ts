@@ -6,28 +6,27 @@ const card: Card = {
 		en: "Alph Lithograph",
 		fr: "Lithographie d’Alph",
 	},
+
 	illustrator: "Milky Isobe",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Regardez la main de votre adversaire !",
 		en: "Look at your opponent’s hand!"
 	},
+
 	trainerType: "Item",
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	hp: 0
 }
 
 export default card

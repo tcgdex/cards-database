@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -65,6 +65,13 @@ const card: Card = {
 
 	description: {
 		en: "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

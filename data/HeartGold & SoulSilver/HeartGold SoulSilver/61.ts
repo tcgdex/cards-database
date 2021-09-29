@@ -63,6 +63,13 @@ const card: Card = {
 
 	description: {
 		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

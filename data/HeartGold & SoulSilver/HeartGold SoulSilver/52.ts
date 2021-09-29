@@ -75,6 +75,13 @@ const card: Card = {
 
 	description: {
 		en: "If the tail-biting Shellder is thrown off in a harsh battle, it reverts to being an ordinary Slowpoke."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

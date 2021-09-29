@@ -85,6 +85,13 @@ const card: Card = {
 
 	description: {
 		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -81,6 +81,13 @@ const card: Card = {
 
 	description: {
 		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

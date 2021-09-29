@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

@@ -65,6 +65,13 @@ const card: Card = {
 
 	description: {
 		en: "Wherever Grimer has passed, so many germs are left behind that no plants will ever grow again."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

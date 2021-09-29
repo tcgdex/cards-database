@@ -67,6 +67,13 @@ const card: Card = {
 
 	description: {
 		en: "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

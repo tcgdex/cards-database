@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

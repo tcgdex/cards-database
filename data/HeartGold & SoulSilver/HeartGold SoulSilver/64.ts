@@ -65,6 +65,13 @@ const card: Card = {
 
 	description: {
 		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

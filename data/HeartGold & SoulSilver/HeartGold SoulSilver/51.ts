@@ -65,6 +65,13 @@ const card: Card = {
 
 	description: {
 		en: "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

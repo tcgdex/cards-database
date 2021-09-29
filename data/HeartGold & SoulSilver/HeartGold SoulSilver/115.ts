@@ -6,13 +6,21 @@ const card: Card = {
 		en: "Grass Energy",
 		fr: "Énergie Plante",
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
-
 	set: Set,
-
 	energyType: "Normal",
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
+
+	hp: 0
 }
 
 export default card

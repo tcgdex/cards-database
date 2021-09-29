@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

@@ -60,6 +60,13 @@ const card: Card = {
 
 	description: {
 		en: "It swings its long snout around playfully, but because it is so strong, that can be dangerous."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

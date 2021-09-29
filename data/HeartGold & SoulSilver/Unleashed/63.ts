@@ -64,6 +64,13 @@ const card: Card = {
 
 	description: {
 		en: "The shell is soft when it is born. It soon becomes so resilient, prodding fingers will bounce off it."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

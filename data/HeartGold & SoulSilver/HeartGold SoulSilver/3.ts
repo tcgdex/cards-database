@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

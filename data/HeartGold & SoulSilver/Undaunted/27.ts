@@ -59,6 +59,13 @@ const card: Card = {
 
 	description: {
 		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

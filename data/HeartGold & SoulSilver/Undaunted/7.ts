@@ -77,6 +77,13 @@ const card: Card = {
 
 	description: {
 		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

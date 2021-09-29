@@ -53,6 +53,13 @@ const card: Card = {
 
 	description: {
 		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

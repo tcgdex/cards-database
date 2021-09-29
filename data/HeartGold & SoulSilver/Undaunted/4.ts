@@ -82,6 +82,13 @@ const card: Card = {
 
 	description: {
 		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest."
+	},
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
 	}
 }
 

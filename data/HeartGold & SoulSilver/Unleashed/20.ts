@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "Some legends claim that each of its nine tails has its own unique type of special mystical power."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

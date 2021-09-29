@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "Its sweet aroma attracts prey. Then it spews poison. The more toxic it is, the sweeter its aroma."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

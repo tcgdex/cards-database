@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

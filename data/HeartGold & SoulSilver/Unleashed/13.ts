@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "It deliberately makes itself heavy so it can withstand the recoil of the water jets it fires."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

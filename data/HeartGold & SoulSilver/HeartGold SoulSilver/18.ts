@@ -72,6 +72,13 @@ const card: Card = {
 
 	description: {
 		en: "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

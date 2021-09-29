@@ -54,6 +54,13 @@ const card: Card = {
 
 	description: {
 		en: "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

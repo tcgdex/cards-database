@@ -68,7 +68,14 @@ const card: Card = {
 	],
 
 	retreat: 2,
-	suffix: "Prime"
+	suffix: "Prime",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

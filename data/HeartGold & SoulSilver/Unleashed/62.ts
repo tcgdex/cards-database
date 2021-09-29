@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "It flaps its short wings to flush out insects from tall grass. It then plucks them with its stubby beak."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

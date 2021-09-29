@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

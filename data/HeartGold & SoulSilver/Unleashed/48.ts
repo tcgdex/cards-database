@@ -63,6 +63,13 @@ const card: Card = {
 
 	description: {
 		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

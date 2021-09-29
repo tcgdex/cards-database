@@ -53,6 +53,13 @@ const card: Card = {
 
 	description: {
 		en: "It inflates its flotation sac, keeping its face above water in order to watch for prey movement."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

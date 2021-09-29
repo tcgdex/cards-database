@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

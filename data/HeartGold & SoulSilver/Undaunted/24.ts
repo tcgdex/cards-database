@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

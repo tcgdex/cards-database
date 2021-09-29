@@ -58,6 +58,13 @@ const card: Card = {
 
 	description: {
 		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

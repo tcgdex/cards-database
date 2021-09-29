@@ -79,6 +79,13 @@ const card: Card = {
 
 	description: {
 		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

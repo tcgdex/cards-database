@@ -50,6 +50,13 @@ const card: Card = {
 
 	description: {
 		en: "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

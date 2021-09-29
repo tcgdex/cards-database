@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

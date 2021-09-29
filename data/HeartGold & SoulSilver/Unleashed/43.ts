@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

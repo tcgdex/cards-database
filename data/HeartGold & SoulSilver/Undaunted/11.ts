@@ -80,6 +80,13 @@ const card: Card = {
 
 	description: {
 		en: "It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

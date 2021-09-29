@@ -72,6 +72,13 @@ const card: Card = {
 
 	description: {
 		en: "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

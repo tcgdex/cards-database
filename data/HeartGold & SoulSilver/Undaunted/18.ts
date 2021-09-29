@@ -82,6 +82,13 @@ const card: Card = {
 
 	description: {
 		en: "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

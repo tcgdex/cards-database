@@ -53,6 +53,13 @@ const card: Card = {
 
 	description: {
 		en: "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

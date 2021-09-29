@@ -72,6 +72,13 @@ const card: Card = {
 
 	description: {
 		en: "Its fin tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

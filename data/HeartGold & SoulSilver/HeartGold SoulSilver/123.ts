@@ -80,6 +80,13 @@ const card: Card = {
 
 	description: {
 		en: "They say that during past strife, Gyarados would appear and leave blazing ruins in its wake."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

@@ -69,6 +69,13 @@ const card: Card = {
 
 	description: {
 		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

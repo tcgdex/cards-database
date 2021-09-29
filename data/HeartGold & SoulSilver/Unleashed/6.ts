@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

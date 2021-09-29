@@ -80,6 +80,13 @@ const card: Card = {
 
 	description: {
 		en: "Once it catches the wind, it deftly controls its cotton-puff spores—it can even float around the world."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

@@ -53,6 +53,13 @@ const card: Card = {
 
 	description: {
 		en: "At night, Combee sleep in a group of about a thousand, packed closely together in a lump."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

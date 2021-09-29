@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

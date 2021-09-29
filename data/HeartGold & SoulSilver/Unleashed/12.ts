@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

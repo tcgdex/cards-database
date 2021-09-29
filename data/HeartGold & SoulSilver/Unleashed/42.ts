@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "It is a well-established symbol of longevity. If its shell has algae on it, that Wartortle is very old."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

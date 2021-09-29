@@ -69,6 +69,13 @@ const card: Card = {
 
 	description: {
 		en: "If it is around babies, the milk it produces contains much more nutrition than usual."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

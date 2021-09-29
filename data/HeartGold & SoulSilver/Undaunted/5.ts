@@ -81,6 +81,13 @@ const card: Card = {
 
 	description: {
 		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests."
+	},
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
 	}
 }
 

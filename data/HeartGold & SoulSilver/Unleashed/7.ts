@@ -74,6 +74,13 @@ const card: Card = {
 
 	description: {
 		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

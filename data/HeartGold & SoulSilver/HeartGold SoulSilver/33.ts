@@ -58,6 +58,13 @@ const card: Card = {
 
 	description: {
 		en: "Even though it is small, it can’t be ignored because it will slug any handy target without warning."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

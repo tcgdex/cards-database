@@ -76,6 +76,13 @@ const card: Card = {
 
 	description: {
 		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

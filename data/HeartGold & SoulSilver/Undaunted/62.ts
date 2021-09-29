@@ -50,6 +50,13 @@ const card: Card = {
 
 	description: {
 		en: "It hangs and waits for flying insect prey to come near. It does not move about much on its own."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

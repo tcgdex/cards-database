@@ -65,6 +65,13 @@ const card: Card = {
 
 	description: {
 		en: "The direction of its belly spiral differs by area. The equator is thought to have an effect on this."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

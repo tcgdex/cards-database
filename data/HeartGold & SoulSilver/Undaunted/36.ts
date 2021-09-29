@@ -54,6 +54,13 @@ const card: Card = {
 
 	description: {
 		en: "When it moves, it leaves only a blur. If it hides in grass, its protective colors make it invisible."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

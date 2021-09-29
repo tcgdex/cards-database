@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

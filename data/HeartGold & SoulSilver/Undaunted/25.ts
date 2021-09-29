@@ -79,6 +79,13 @@ const card: Card = {
 
 	description: {
 		en: "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

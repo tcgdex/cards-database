@@ -72,6 +72,13 @@ const card: Card = {
 
 	description: {
 		en: "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

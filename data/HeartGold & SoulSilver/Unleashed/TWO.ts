@@ -6,28 +6,27 @@ const card: Card = {
 		fr: "Lithographie d'Alpha",
 		en: "Alph Lithograph",
 	},
+
 	illustrator: "Milky Isobe",
-	rarity: "Rare",
+	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
 
 	effect: {
 		fr: "Mélangez votre deck.",
 		en: "Shuffle your deck!"
 	},
 
-
 	trainerType: "Item",
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	hp: 0
 }
 
 export default card

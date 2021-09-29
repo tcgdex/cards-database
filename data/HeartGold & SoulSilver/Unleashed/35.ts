@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "The flaming magma it stores in the hump on its back is the source of its tremendous power."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

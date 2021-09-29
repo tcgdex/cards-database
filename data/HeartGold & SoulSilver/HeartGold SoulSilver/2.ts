@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

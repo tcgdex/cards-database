@@ -80,6 +80,13 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

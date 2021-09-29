@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "It walks around on its tentacles in search of a tree branch where it can dangle down and ambush prey."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

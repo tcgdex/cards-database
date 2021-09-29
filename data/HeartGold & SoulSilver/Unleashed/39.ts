@@ -77,6 +77,13 @@ const card: Card = {
 
 	description: {
 		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

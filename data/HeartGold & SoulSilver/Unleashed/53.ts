@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "It is extremely ill-tempered. Groups of them will attack any handy target for no reason."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "Its irregularly configured DNA is affected by its surroundings. It evolves if its environment changes."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

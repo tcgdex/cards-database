@@ -72,6 +72,13 @@ const card: Card = {
 
 	description: {
 		en: "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground."
+	},
+
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
 	}
 }
 

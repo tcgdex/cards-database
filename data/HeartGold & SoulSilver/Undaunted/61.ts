@@ -60,6 +60,13 @@ const card: Card = {
 
 	description: {
 		en: "This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

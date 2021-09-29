@@ -63,6 +63,13 @@ const card: Card = {
 
 	description: {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

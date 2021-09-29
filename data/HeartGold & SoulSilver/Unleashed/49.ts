@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

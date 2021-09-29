@@ -25,7 +25,14 @@ const card: Card = {
 
 	suffix: "Legend",
 	stage: "Basic",
-	retreat: 0
+	retreat: 0,
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

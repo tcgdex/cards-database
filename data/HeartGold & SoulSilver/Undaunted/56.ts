@@ -76,6 +76,13 @@ const card: Card = {
 
 	description: {
 		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

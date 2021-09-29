@@ -60,6 +60,13 @@ const card: Card = {
 
 	description: {
 		en: "To corner prey, they check each other’s location using barks that only they can understand."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

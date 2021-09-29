@@ -76,6 +76,13 @@ const card: Card = {
 
 	description: {
 		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body."
+	},
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
 	}
 }
 

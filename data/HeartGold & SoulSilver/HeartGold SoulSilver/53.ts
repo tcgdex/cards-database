@@ -58,6 +58,13 @@ const card: Card = {
 
 	description: {
 		en: "The middle section of its body is called the core. It glows in a different color each time it is seen."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

@@ -68,6 +68,13 @@ const card: Card = {
 
 	description: {
 		en: "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

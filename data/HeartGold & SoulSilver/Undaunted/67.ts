@@ -66,6 +66,13 @@ const card: Card = {
 
 	description: {
 		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

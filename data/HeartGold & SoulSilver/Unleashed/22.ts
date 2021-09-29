@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "If approached while asleep, it may awaken and angrily give chase in a groggy state of semi-sleep."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

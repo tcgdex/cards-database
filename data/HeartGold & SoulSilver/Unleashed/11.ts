@@ -82,6 +82,13 @@ const card: Card = {
 
 	description: {
 		en: "In South America, it is said that its right eye sees the future and its left eye views the past."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

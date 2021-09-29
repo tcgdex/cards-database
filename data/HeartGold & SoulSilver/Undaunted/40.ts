@@ -64,6 +64,13 @@ const card: Card = {
 
 	description: {
 		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

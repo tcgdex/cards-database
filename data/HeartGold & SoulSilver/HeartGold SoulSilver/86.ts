@@ -63,6 +63,13 @@ const card: Card = {
 
 	description: {
 		en: "Its powerful, well-developed jaws are capable of crushing anything. Even its trainer must be careful."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

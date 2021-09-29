@@ -82,6 +82,13 @@ const card: Card = {
 
 	description: {
 		en: "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings."
+	},
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
 	}
 }
 

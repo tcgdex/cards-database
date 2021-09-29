@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

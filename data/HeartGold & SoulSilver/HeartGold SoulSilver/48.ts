@@ -71,6 +71,13 @@ const card: Card = {
 
 	description: {
 		en: "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

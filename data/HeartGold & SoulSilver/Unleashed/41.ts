@@ -67,6 +67,13 @@ const card: Card = {
 
 	description: {
 		en: "They fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

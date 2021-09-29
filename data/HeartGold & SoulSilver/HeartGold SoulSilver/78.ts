@@ -73,6 +73,13 @@ const card: Card = {
 
 	description: {
 		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 

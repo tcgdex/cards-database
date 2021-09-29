@@ -81,6 +81,13 @@ const card: Card = {
 
 	description: {
 		en: "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains."
+	},
+
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	}
 }
 
