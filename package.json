@@ -10,7 +10,7 @@
 		"compile": "tsc --project tsconfig.json"
 	},
 	"devDependencies": {
-		"@types/jscodeshift": "^0.11.0",
+		"@types/jscodeshift": "^0.11.2",
 		"@types/node": "^16.10.2",
 		"jscodeshift": "^0.13.0",
 		"ts-node": "^10.2.1",
