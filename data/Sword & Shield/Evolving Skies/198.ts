@@ -63,7 +63,8 @@ const card: Card = {
 		cost: ["Fighting", "Metal", "Metal"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [884]
 }
 
 export default card

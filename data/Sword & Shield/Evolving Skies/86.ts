@@ -58,7 +58,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	description: {
+		en: "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch."
+	},
+
+	dexId: [524]
 }
 
 export default card

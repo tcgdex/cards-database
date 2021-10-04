@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -76,7 +76,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Leafeon V",
+		fr: "Phyllali-V",
+		es: "Leafeon V",
+		it: "Leafeon-V",
+		pt: "Leafeon V",
+		de: "Folipurba-V"
+	},
+
+	dexId: [470],
+	suffix: "V"
 }
 
 export default card

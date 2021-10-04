@@ -50,7 +50,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Metal"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [646],
+
+	description: {
+		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
+	}
 }
 
 export default card

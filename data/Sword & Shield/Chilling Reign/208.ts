@@ -82,7 +82,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "Ryota Murayama"
+	illustrator: "Ryota Murayama",
+
+	evolveFrom: {
+		en: "Metagross V",
+		fr: "Métalosse-V",
+		es: "Metagross V",
+		it: "Metagross-V",
+		pt: "Metagross V",
+		de: "Metagross-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

@@ -3,9 +3,9 @@ import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "​Thievul",
+		en: "Thievul",
 		fr: "Roublenard",
-		es: "​Thievul",
+		es: "Thievul",
 		it: "Thievul",
 		pt: "Thievul",
 		de: "Gaunux"
@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nickit",
 		fr: "Goupilou",
+		es: "Nickit",
+		it: "Nickit",
+		pt: "Nickit",
+		de: "Kleptifux"
 	},
 
 	stage: "Stage1",

@@ -55,7 +55,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+	},
+
+	dexId: [349]
 }
 
 export default card

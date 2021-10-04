@@ -66,7 +66,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "When Pikachu meet, they’ll touch their tails together and exchange electricity through them as a form of greeting."
+	},
+
+	dexId: [25]
 }
 
 export default card

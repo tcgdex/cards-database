@@ -67,7 +67,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Chinchou",
+		fr: "Loupio",
+		es: "Chinchou",
+		it: "Chinchou",
+		pt: "Chinchou",
+		de: "Lampi"
+	},
+
+	description: {
+		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack."
+	},
+
+	dexId: [171]
 }
 
 export default card

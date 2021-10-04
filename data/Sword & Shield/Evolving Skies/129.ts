@@ -55,7 +55,12 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [287],
+
+	description: {
+		en: "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day."
+	}
 }
 
 export default card

@@ -67,7 +67,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	evolveFrom: {
+		en: "Hippopotas",
+		fr: "Hippopotas",
+		es: "Hippopotas",
+		it: "Hippopotas",
+		pt: "Hippopotas",
+		de: "Hippopotas"
+	},
+
+	description: {
+		en: "When roused to violence by its rage, it spews out the quantities of sand it has swallowed and whips up a sandstorm."
+	},
+
+	dexId: [450]
 }
 
 export default card

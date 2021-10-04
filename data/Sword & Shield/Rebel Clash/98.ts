@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meditite",
-		fr: "Méditikka"
+		fr: "Méditikka",
+		es: "Meditite",
+		it: "Meditite",
+		pt: "Meditite",
+		de: "Meditie"
 	},
 
 	attacks: [

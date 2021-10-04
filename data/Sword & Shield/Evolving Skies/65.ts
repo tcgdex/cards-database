@@ -82,7 +82,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Espeon V",
+		fr: "Mentali-V",
+		es: "Espeon V",
+		it: "Espeon-V",
+		pt: "Espeon V",
+		de: "Psiana-V"
+	},
+
+	dexId: [196],
+	suffix: "V"
 }
 
 export default card

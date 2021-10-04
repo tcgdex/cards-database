@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		fr: "Togekiss-V"
+		fr: "Togekiss-V",
+		en: "Togekiss V",
+		es: "Togekiss V",
+		it: "Togekiss-V",
+		pt: "Togekiss V",
+		de: "Togekiss-V"
 	},
 
 	attacks: [{
@@ -66,7 +71,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+	suffix: "V"
 }
 
 export default card

@@ -68,7 +68,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	evolveFrom: {
+		en: "Hoppip",
+		fr: "Granivol",
+		es: "Hoppip",
+		it: "Hoppip",
+		pt: "Hoppip",
+		de: "Hoppspross"
+	},
+
+	description: {
+		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun."
+	},
+
+	dexId: [188]
 }
 
 export default card

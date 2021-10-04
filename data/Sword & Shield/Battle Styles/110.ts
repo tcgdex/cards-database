@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Corviknight V",
-		fr: "Corvaillus-V"
+		fr: "Corvaillus-V",
+		es: "Corviknight V",
+		it: "Corviknight-V",
+		pt: "Corviknight V",
+		de: "Krarmor-V"
 	},
 
 	abilities: [{

@@ -60,7 +60,21 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [662],
+
+	evolveFrom: {
+		en: "Fletchling",
+		fr: "Passerouge",
+		es: "Fletchling",
+		it: "Fletchling",
+		pt: "Fletchling",
+		de: "Dartiri"
+	},
+
+	description: {
+		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
+	}
 }
 
 export default card

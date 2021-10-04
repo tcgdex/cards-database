@@ -67,7 +67,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Psyduck",
+		fr: "Psykokwak",
+		es: "Psyduck",
+		it: "Psyduck",
+		pt: "Psyduck",
+		de: "Enton"
+	},
+
+	description: {
+		en: "A professional swimmer, it can continue swimming for two days straight by waving its long tail skillfully."
+	},
+
+	dexId: [55]
 }
 
 export default card

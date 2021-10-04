@@ -28,7 +28,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Inteleon V",
-		fr: "Lézargus-V"
+		fr: "Lézargus-V",
+		es: "Inteleon V",
+		it: "Inteleon-V",
+		pt: "Inteleon V",
+		de: "Intelleon-V"
 	},
 
 	stage: "VMAX",
@@ -99,7 +103,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	suffix: "V"
 }
 
 export default card

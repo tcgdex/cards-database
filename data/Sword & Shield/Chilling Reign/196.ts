@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Ajoutez jusqu’à 3 cartes Récompense à votre main. Ensuite, pour chaque carte Récompense ajoutée à votre main de cette façon, placez une carte de votre main face cachée comme carte Récompense.",
+		fr: "Ajoutez jusqu’à 3 cartes Récompense à votre main. Ensuite, pour chaque carte Récompense ajoutée à votre main de cette façon, placez une carte de votre main face cachée comme carte Récompense.",
 		en: "Put up to 3 Prize cards into your hand. Then, for each Prize card you put into your hand in this way, put a card from your hand face down as a Prize card.",
 		es: "Pon hasta 3 cartas de Premio en tu mano. Después, por cada carta de Premio que hayas puesto en tu mano de esta manera, pon 1 carta de tu mano boca abajo como carta de Premio.",
 		it: "Aggiungi fino a tre carte Premio a quelle che hai in mano. Poi, per ogni carta Premio aggiunta a quelle che hai in mano in questo modo, prendine una dalla tua mano e mettila a faccia in giù come carta Premio.",

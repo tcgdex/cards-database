@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Corsola",
-		fr: "Corayon de Galar"
+		fr: "Corayon de Galar",
+		es: "Corsola de Galar",
+		it: "Corsola di Galar",
+		pt: "Corsola de Galar",
+		de: "Galar-Corasonn"
 	},
 
 	abilities: [

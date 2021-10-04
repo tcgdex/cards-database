@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sinistea",
-		fr: "Théffroi"
+		fr: "Théffroi",
+		es: "Sinistea",
+		it: "Sinistea",
+		pt: "Sinistea",
+		de: "Fatalitee"
 	},
 
 	abilities: [

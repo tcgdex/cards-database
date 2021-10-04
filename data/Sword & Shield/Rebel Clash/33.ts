@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lampent",
-		fr: "Mélancolux"
+		fr: "Mélancolux",
+		es: "Lampent",
+		it: "Lampent",
+		pt: "Lampent",
+		de: "Laternecto"
 	},
 
 	abilities: [

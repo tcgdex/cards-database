@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Orbeetle V",
-		fr: "Astronelle-V"
+		fr: "Astronelle-V",
+		es: "Orbeetle V",
+		it: "Orbeetle-V",
+		pt: "Orbeetle V",
+		de: "Maritellit-V"
 	},
 
 	abilities: [

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Toxtricity V",
-		fr: "Salarsen-V"
+		fr: "Salarsen-V",
+		es: "Toxtricity V",
+		it: "Toxtricity-V",
+		pt: "Toxtricity V",
+		de: "Riffex-V"
 	},
 
 	attacks: [{

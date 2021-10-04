@@ -46,7 +46,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights."
+	},
+
+	dexId: [170]
 }
 
 export default card

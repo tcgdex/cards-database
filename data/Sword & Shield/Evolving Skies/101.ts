@@ -77,7 +77,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	evolveFrom: {
+		en: "Garbodor V",
+		fr: "Miasmax-V",
+		es: "Garbodor V",
+		it: "Garbodor-V",
+		pt: "Garbodor V",
+		de: "Deponitox-V"
+	},
+
+	dexId: [569]
 }
 
 export default card

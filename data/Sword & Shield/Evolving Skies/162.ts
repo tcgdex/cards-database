@@ -16,7 +16,7 @@ const card: Card = {
 		fr: "Gobelets d’Échange",
 		es: "Cubiletes de Cambio",
 		it: "Bicchieri di Scambio",
-		pt: "Switching Cups",
+		pt: "Copos de Substituição",
 		de: "Tauschbecher"
 	},
 
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Échangez une carte de votre main contre la carte du dessus de votre deck.",
 		es: "Cambia 1 carta de tu mano por la primera carta de tu baraja.",
 		it: "Scambia una carta che hai in mano con la prima carta del tuo mazzo.",
-		pt: "Switch a card from your hand with the top card of your deck.",
+		pt: "Troque 1 carta da sua mão pela carta de cima do seu baralho.",
 		de: "Tausche 1 Karte aus deiner Hand gegen die oberste Karte deines Decks aus."
 	},
 

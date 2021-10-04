@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drilbur",
-		fr: "Rototaupe"
+		fr: "Rototaupe",
+		es: "Drilbur",
+		it: "Drilbur",
+		pt: "Drilbur",
+		de: "Rotomurf"
 	},
 
 	attacks: [

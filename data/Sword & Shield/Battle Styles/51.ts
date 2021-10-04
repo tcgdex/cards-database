@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tapu Koko V",
-		fr: "Tokorico-V"
+		fr: "Tokorico-V",
+		es: "Tapu Koko V",
+		it: "Tapu Koko-V",
+		pt: "Tapu Koko V",
+		de: "Kapu-Riki-V"
 	},
 
 	attacks: [{
@@ -62,7 +66,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+	suffix: "V"
 }
 
 export default card

@@ -67,7 +67,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
+	},
+
+	dexId: [357]
 }
 
 export default card

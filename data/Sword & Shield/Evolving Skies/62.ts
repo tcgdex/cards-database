@@ -80,7 +80,22 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Drowzee",
+		fr: "Soporifik",
+		es: "Drowzee",
+		it: "Drowzee",
+		pt: "Drowzee",
+		de: "Traumato"
+	},
+
+	description: {
+		en: "There are some Hypno that assist doctors with patients who can’t sleep at night in hospitals."
+	},
+
+	dexId: [97]
 }
 
 export default card

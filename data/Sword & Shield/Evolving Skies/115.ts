@@ -62,7 +62,21 @@ const card: Card = {
 		cost: ["Psychic", "Darkness", "Colorless", "Colorless"]
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [635],
+
+	evolveFrom: {
+		en: "Zweilous",
+		fr: "Diamat",
+		es: "Zweilous",
+		it: "Zweilous",
+		pt: "Zweilous",
+		de: "Duodino"
+	},
+
+	description: {
+		en: "The three heads take turns sinking their teeth into the opponent. Their attacks won’t slow until their target goes down."
+	}
 }
 
 export default card

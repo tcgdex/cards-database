@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Butterfree V",
-		fr: "Papilusion-V"
+		fr: "Papilusion-V",
+		es: "Butterfree V",
+		it: "Butterfree-V",
+		pt: "Butterfree V",
+		de: "Smettbo-V"
 	},
 
 	attacks: [

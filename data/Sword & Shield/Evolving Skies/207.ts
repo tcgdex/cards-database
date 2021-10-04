@@ -12,14 +12,60 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Gyarados VMAX"
+		en: "Gyarados VMAX",
+		fr: "Léviator VMAX",
+		es: "Gyarados VMAX",
+		it: "Gyarados VMAX",
+		pt: "Gyarados VMAX",
+		de: "Garados VMAX"
 	},
 
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Water"],
-	stage: "VMAX"
+	stage: "VMAX",
+	illustrator: "Shin Nagasawa",
+	dexId: [130],
+
+	evolveFrom: {
+		en: "Gyarados V",
+		fr: "Léviator-V",
+		es: "Gyarados V",
+		it: "Gyarados-V",
+		pt: "Gyarados V",
+		de: "Garados-V"
+	},
+
+	attacks: [{
+		cost: ["Water", "Water", "Colorless"],
+
+		name: {
+			en: "Hyper Beam"
+		},
+
+		effect: {
+			en: "Discard an Energy from your opponent’s Active Pokémon."
+		},
+
+		damage: 120
+	}, {
+		cost: ["Water", "Water", "Water", "Colorless"],
+
+		name: {
+			en: "Max Tyrant"
+		},
+
+		damage: 240
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	retreat: 4,
+	suffix: "V"
 }
 
 export default card

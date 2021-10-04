@@ -80,7 +80,13 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It feeds on gemstone crystals. In darkness, its eyes sparkle with the glitter of jewels."
+	},
+
+	dexId: [302]
 }
 
 export default card

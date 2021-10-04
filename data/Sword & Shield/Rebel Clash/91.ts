@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drakloak",
-		fr: "Dispareptil"
+		fr: "Dispareptil",
+		es: "Drakloak",
+		it: "Drakloak",
+		pt: "Drakloak",
+		de: "Phandra"
 	},
 
 	abilities: [

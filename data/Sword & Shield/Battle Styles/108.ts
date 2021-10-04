@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Doublade",
-		fr: "Dimoclès"
+		fr: "Dimoclès",
+		es: "Doublade",
+		it: "Doublade",
+		pt: "Doublade",
+		de: "Duokles"
 	},
 
 	abilities: [{

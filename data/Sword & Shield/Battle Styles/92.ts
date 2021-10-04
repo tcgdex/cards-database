@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Slowpoke",
-		fr: "Ramoloss de Galar"
+		fr: "Ramoloss de Galar",
+		es: "Slowpoke de Galar",
+		it: "Slowpoke di Galar",
+		pt: "Slowpoke de Galar",
+		de: "Galar-Flegmon"
 	},
 
 	attacks: [{

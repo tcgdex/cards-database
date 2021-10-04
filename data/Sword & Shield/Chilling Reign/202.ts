@@ -79,7 +79,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "5ban Graphics"
+	illustrator: "5ban Graphics",
+
+	evolveFrom: {
+		en: "Ice Rider Calyrex V",
+		fr: "Sylveroy Cavalier du Froid-V",
+		es: "Calyrex Jinete Glacial V",
+		it: "Calyrex Cavaliere Glaciale-V",
+		pt: "Calyrex Cavaleiro Glacial V",
+		de: "Schimmelreiter-Coronospa-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

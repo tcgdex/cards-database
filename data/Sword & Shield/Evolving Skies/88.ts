@@ -76,7 +76,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	evolveFrom: {
+		en: "Boldore",
+		fr: "Géolithe",
+		es: "Boldore",
+		it: "Boldore",
+		pt: "Boldore",
+		de: "Sedimantur"
+	},
+
+	description: {
+		en: "Although its energy blasts can blow away a dump truck, they have a limitation— they can only be fired when the sun is out."
+	},
+
+	dexId: [526]
 }
 
 export default card

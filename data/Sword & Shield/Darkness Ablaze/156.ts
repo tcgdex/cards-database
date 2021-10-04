@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Corvisquire",
-		fr: "Bleuseille"
+		fr: "Bleuseille",
+		es: "Corvisquire",
+		it: "Corvisquire",
+		pt: "Corvisquire",
+		de: "Kranoviz"
 	},
 
 	abilities: [

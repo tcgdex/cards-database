@@ -77,7 +77,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Gossifleur",
+		fr: "Tournicoton",
+		es: "Gossifleur",
+		it: "Gossifleur",
+		pt: "Gossifleur",
+		de: "Cottini"
+	},
+
+	description: {
+		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
+	},
+
+	dexId: [830]
 }
 
 export default card

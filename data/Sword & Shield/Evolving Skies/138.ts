@@ -80,7 +80,12 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [661],
+
+	description: {
+		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
+	}
 }
 
 export default card

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Espurr",
-		fr: "Psystigri"
+		fr: "Psystigri",
+		es: "Espurr",
+		it: "Espurr",
+		pt: "Espurr",
+		de: "Psiau"
 	},
 
 	abilities: [{

@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spinarak",
-		fr: "Mimigal"
+		fr: "Mimigal",
+		es: "Spinarak",
+		it: "Spinarak",
+		pt: "Spinarak",
+		de: "Webarak"
 	},
 
 	abilities: [

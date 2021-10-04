@@ -77,7 +77,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "When it senses danger, its eyes tear up. The sparkle of its tears signals other Wishiwashi to gather."
+	},
+
+	dexId: [746]
 }
 
 export default card

@@ -75,7 +75,19 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	stage: "VMAX"
+	stage: "VMAX",
+
+	evolveFrom: {
+		en: "Sylveon V",
+		fr: "Nymphali-V",
+		es: "Sylveon V",
+		it: "Sylveon-V",
+		pt: "Sylveon V",
+		de: "Feelinara-V"
+	},
+
+	dexId: [700],
+	suffix: "V"
 }
 
 export default card

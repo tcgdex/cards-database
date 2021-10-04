@@ -55,7 +55,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Seedot",
+		fr: "Grainipiot",
+		es: "Seedot",
+		it: "Seedot",
+		pt: "Seedot",
+		de: "Samurzel"
+	},
+
+	description: {
+		en: "They live in holes bored in large trees. The sound of Nuzleaf’s grass flute fills listeners with dread."
+	},
+
+	dexId: [274]
 }
 
 export default card

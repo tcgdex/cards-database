@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "All Basic Pokémon (both yours and your opponent’s) take 20 less damage from attacks from the opponent’s Pokémon (after applying Weakness and Resistance).",
-		fr: "Tous les Pokémon de base (les vôtres et ceux de votre adversaire) subissent 20 dégâts de moins provenant des attaques des Pokémon de l’adversaire (après application de la Faiblesse et de la Résistance).",
+		fr: "Tous les Pokémon de base (les vôtres et ceux de votre adversaire) subissent 20 dégâts de moins provenant des attaques des Pokémon de l’adversaire (après application de la Faiblesse et de la Résistance).",
 		es: "Los ataques de los Pokémon del rival hacen 20 puntos de daño menos a todos los Pokémon Básicos (tanto tuyos como de tu rival) (después de aplicar Debilidad y Resistencia).",
 		it: "Tutti i Pokémon Base, sia tuoi che del tuo avversario,subiscono 20 danni in meno dagli attacchi dei Pokémon dell’avversario, dopo aver applicato debolezza e resistenza.",
 		pt: "Todos os Pokémon Básicos (seus e do seu oponente) recebem 20 pontos de dano a menos de ataques dos Pokémon do oponente (depois de aplicar Fraqueza e Resistência).",

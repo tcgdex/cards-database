@@ -81,7 +81,21 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	dexId: [663],
+
+	evolveFrom: {
+		en: "Fletchinder",
+		fr: "Braisillon",
+		es: "Fletchinder",
+		it: "Fletchinder",
+		pt: "Fletchinder",
+		de: "Dartignis"
+	},
+
+	description: {
+		en: "Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick."
+	}
 }
 
 export default card

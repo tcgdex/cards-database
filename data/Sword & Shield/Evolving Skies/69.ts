@@ -60,7 +60,22 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Woobat",
+		fr: "Chovsourir",
+		es: "Woobat",
+		it: "Woobat",
+		pt: "Woobat",
+		de: "Fleknoil"
+	},
+
+	description: {
+		en: "The auspicious shape of this Pokémon’s nose apparently led some regions to consider Swoobat a symbol of good luck."
+	},
+
+	dexId: [528]
 }
 
 export default card

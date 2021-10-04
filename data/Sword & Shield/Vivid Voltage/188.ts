@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		fr: "Pikachu-V"
+		fr: "Pikachu-V",
+		en: "Pikachu V",
+		es: "Pikachu V",
+		it: "Pikachu-V",
+		pt: "Pikachu V",
+		de: "Pikachu-V"
 	},
 
 	attacks: [{

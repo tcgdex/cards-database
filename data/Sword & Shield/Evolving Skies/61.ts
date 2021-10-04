@@ -51,7 +51,13 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn’t particularly like eating them."
+	},
+
+	dexId: [96]
 }
 
 export default card

@@ -75,7 +75,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Vaporeon V",
+		fr: "Aquali-V",
+		es: "Vaporeon V",
+		it: "Vaporeon-V",
+		pt: "Vaporeon V",
+		de: "Aquana-V"
+	},
+
+	dexId: [134],
+	suffix: "V"
 }
 
 export default card

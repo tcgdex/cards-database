@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Centiskorch V",
-		fr: "Scolocendre-V"
+		fr: "Scolocendre-V",
+		es: "Centiskorch V",
+		it: "Centiskorch-V",
+		pt: "Centiskorch V",
+		de: "Infernopod-V"
 	},
 
 	attacks: [

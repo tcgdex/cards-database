@@ -77,7 +77,21 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	dexId: [289],
+
+	evolveFrom: {
+		en: "Vigoroth",
+		fr: "Vigoroth",
+		es: "Vigoroth",
+		it: "Vigoroth",
+		pt: "Vigoroth",
+		de: "Muntier"
+	},
+
+	description: {
+		en: "It is the world’s most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once."
+	}
 }
 
 export default card

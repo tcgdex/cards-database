@@ -57,7 +57,16 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "PLANETA Tsuji"
+	illustrator: "PLANETA Tsuji",
+
+	evolveFrom: {
+		en: "Flapple V",
+		fr: "Pomdrapi-V",
+		es: "Flapple V",
+		it: "Flapple-V",
+		pt: "Flapple V",
+		de: "Drapfel-V"
+	}
 }
 
 export default card

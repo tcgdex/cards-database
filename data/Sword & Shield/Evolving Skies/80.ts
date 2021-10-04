@@ -80,7 +80,13 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It sinks into the shadows of people and Pokémon, where it can understand their feelings and copy their capabilities."
+	},
+
+	dexId: [802]
 }
 
 export default card

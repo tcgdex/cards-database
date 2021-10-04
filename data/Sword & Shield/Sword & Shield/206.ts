@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snorlax V",
 		fr: "Ronflex-V",
+		es: "Snorlax V",
+		it: "Snorlax V",
+		pt: "Snorlax V",
+		de: "Relaxo V"
 	},
 
 	stage: "VMAX",

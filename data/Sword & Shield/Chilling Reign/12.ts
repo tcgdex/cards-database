@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Deerling",
-		fr: "Vivaldaim"
+		fr: "Vivaldaim",
+		es: "Deerling",
+		it: "Deerling",
+		pt: "Deerling",
+		de: "Sesokitz"
 	},
 
 	attacks: [{

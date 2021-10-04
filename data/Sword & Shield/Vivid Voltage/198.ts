@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Linéon de Galar"
+		fr: "Linéon de Galar",
+		en: "Galarian Linoone",
+		es: "Linoone de Galar",
+		it: "Linoone di Galar",
+		pt: "Linoone de Galar",
+		de: "Galar-Geradaks"
 	},
 
 	abilities: [{

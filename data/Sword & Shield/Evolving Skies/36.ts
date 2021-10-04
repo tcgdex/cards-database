@@ -75,7 +75,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Carvanha",
+		fr: "Carvanha",
+		es: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+		de: "Kanivanha"
+	},
+
+	description: {
+		en: "It drinks in seawater and jets it from its rear to propel itself. It’s very sensitive to the scent of blood."
+	},
+
+	dexId: [319]
 }
 
 export default card

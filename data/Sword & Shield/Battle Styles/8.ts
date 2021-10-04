@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cherubi",
-		fr: "Ceribou"
+		fr: "Ceribou",
+		es: "Cherubi",
+		it: "Cherubi",
+		pt: "Cherubi",
+		de: "Kikugi"
 	},
 
 	abilities: [{

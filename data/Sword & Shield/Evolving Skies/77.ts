@@ -60,7 +60,22 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Pumpkaboo",
+		fr: "Pitrouille",
+		es: "Pumpkaboo",
+		it: "Pumpkaboo",
+		pt: "Pumpkaboo",
+		de: "Irrbis"
+	},
+
+	description: {
+		en: "In the darkness of a new-moon night, Gourgeist will come knocking. Whoever answers the door will be swept off to the afterlife."
+	},
+
+	dexId: [711]
 }
 
 export default card

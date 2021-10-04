@@ -67,7 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	evolveFrom: {
+		en: "Dracozolt V",
+		fr: "Galvagon-V",
+		es: "Dracozolt V",
+		it: "Dracozolt-V",
+		pt: "Dracozolt V",
+		de: "Lectragon-V"
+	},
+
+	dexId: [880],
+	suffix: "V"
 }
 
 export default card

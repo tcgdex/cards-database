@@ -71,7 +71,21 @@ const card: Card = {
 		cost: ["Grass", "Fire"]
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [841],
+
+	evolveFrom: {
+		en: "Applin",
+		fr: "Verpom",
+		es: "Applin",
+		it: "Applin",
+		pt: "Applin",
+		de: "Knapfel"
+	},
+
+	description: {
+		en: "It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple."
+	}
 }
 
 export default card

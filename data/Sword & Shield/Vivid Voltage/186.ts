@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Astronelle-V"
+		fr: "Astronelle-V",
+		en: "Orbeetle V",
+		es: "Orbeetle V",
+		it: "Orbeetle-V",
+		pt: "Orbeetle V",
+		de: "Maritellit-V"
 	},
 
 	abilities: [{

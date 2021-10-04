@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Arrokuda",
-		fr: "Embrochet"
+		fr: "Embrochet",
+		es: "Arrokuda",
+		it: "Arrokuda",
+		pt: "Arrokuda",
+		de: "Pikuda"
 	},
 
 	attacks: [

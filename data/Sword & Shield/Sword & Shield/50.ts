@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lapras V",
 		fr: "Lokhlass-V",
+		es: "Lapras V",
+		it: "Lapras V",
+		pt: "Lapras V",
+		de: "Lapras V"
 	},
 
 	stage: "VMAX",

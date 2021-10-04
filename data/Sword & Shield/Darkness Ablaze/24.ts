@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		es: "Combusken",
+		it: "Combusken",
+		pt: "Combusken",
+		de: "Jungglut"
 	},
 
 	abilities: [

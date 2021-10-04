@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Purrloin",
-		fr: "Chacripan"
+		fr: "Chacripan",
+		es: "Purrloin",
+		it: "Purrloin",
+		pt: "Purrloin",
+		de: "Felilou"
 	},
 
 	abilities: [

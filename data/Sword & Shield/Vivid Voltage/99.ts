@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Coalossal V",
-		fr: "Monthracite-V"
+		fr: "Monthracite-V",
+		es: "Coalossal V",
+		it: "Coalossal-V",
+		pt: "Coalossal V",
+		de: "Montecarbo-V"
 	},
 
 	attacks: [

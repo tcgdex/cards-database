@@ -73,6 +73,15 @@ const card: Card = {
 
 	description: {
 		en: "Identifiable by its eerie howls, people a long time ago thought it was the grim reaper and feared it."
+	},
+
+	evolveFrom: {
+		en: "Houndour",
+		fr: "Malosse",
+		es: "Houndour",
+		it: "Houndour",
+		pt: "Houndour",
+		de: "Hunduster"
 	}
 }
 

@@ -50,7 +50,21 @@ const card: Card = {
 		cost: ["Fire", "Water"]
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [372],
+
+	evolveFrom: {
+		en: "Bagon",
+		fr: "Draby",
+		es: "Bagon",
+		it: "Bagon",
+		pt: "Bagon",
+		de: "Kindwurm"
+	},
+
+	description: {
+		en: "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly."
+	}
 }
 
 export default card

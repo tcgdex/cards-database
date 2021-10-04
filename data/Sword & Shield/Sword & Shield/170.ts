@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "Attach a Metal Energy card from your discard pile to 1 of your Benched Metal Pokémon.",
-		fr: "Attachez une carte Énergie Metal de votre pile de défausse à l’un de vos Pokémon Metal de Banc.",
+		fr: "Attachez une carte Énergie Metal de votre pile de défausse à l’un de vos Pokémon Metal de Banc.",
 		es: "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon Metal en Banca.",
 		it: "Assegna a uno dei tuoi Pokémon Metal in panchina una carta Energia Metal dalla tua pila degli scarti.",
 		pt: "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon Metal no Banco.",

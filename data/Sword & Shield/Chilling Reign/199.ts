@@ -79,7 +79,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "PLANETA Tsuji"
+	illustrator: "PLANETA Tsuji",
+
+	evolveFrom: {
+		en: "Celebi V",
+		fr: "Celebi-V",
+		es: "Celebi V",
+		it: "Celebi-V",
+		pt: "Celebi V",
+		de: "Celebi-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

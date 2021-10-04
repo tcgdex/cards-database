@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Galarian Ponyta",
 		fr: "Ponyta de Galar",
+		es: "Ponyta de Galar",
+		it: "Ponyta di Galar",
+		pt: "Ponyta de Galar",
+		de: "Galar-Ponita"
 	},
 
 	stage: "Stage1",

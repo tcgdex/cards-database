@@ -79,7 +79,16 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "aky CG Works"
+	illustrator: "aky CG Works",
+
+	evolveFrom: {
+		en: "Sandaconda V",
+		fr: "Dunaconda-V",
+		es: "Sandaconda V",
+		it: "Sandaconda-V",
+		pt: "Sandaconda V",
+		de: "Sanaconda-V"
+	}
 }
 
 export default card

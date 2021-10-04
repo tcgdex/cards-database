@@ -66,7 +66,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola’s branches."
+	},
+
+	dexId: [370]
 }
 
 export default card

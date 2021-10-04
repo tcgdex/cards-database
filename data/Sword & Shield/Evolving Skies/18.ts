@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -55,7 +55,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Flareon V",
+		fr: "Pyroli-V",
+		es: "Flareon V",
+		it: "Flareon-V",
+		pt: "Flareon V",
+		de: "Flamara-V"
+	},
+
+	dexId: [136],
+	suffix: "V"
 }
 
 export default card

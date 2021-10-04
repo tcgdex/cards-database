@@ -17,8 +17,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Galarian Farfetch'd",
-		fr: "Canarticho de Galar"
+		en: "Galarian Farfetch’d",
+		fr: "Canarticho de Galar",
+		es: "Farfetch’d de Galar",
+		it: "Farfetch’d di Galar",
+		pt: "Farfetch’d de Galar",
+		de: "Galar-Porenta"
 	},
 
 	attacks: [

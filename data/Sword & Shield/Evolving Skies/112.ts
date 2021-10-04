@@ -62,7 +62,12 @@ const card: Card = {
 		cost: ["Psychic", "Metal", "Metal", "Colorless"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [483],
+
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
+	}
 }
 
 export default card

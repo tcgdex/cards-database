@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lotad",
-		fr: "Nénupiot"
+		fr: "Nénupiot",
+		es: "Lotad",
+		it: "Lotad",
+		pt: "Lotad",
+		de: "Loturzel"
 	},
 
 	abilities: [

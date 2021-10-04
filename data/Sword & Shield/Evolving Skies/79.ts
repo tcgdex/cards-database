@@ -55,7 +55,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	evolveFrom: {
+		en: "Cutiefly",
+		fr: "Bombydou",
+		es: "Cutiefly",
+		it: "Cutiefly",
+		pt: "Cutiefly",
+		de: "Wommel"
+	},
+
+	description: {
+		en: "Ribombee absolutely hate getting wet or rained on. In the cloudy Galar region, they are very seldom seen."
+	},
+
+	dexId: [743]
 }
 
 export default card

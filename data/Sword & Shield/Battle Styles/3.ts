@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weepinbell",
-		fr: "Boustiflor"
+		fr: "Boustiflor",
+		es: "Weepinbell",
+		it: "Weepinbell",
+		pt: "Weepinbell",
+		de: "Ultrigaria"
 	},
 
 	attacks: [{

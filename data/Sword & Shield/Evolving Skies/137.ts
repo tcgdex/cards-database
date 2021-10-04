@@ -81,7 +81,21 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [628],
+
+	evolveFrom: {
+		en: "Rufflet",
+		fr: "Furaiglon",
+		es: "Rufflet",
+		it: "Rufflet",
+		pt: "Rufflet",
+		de: "Geronimatz"
+	},
+
+	description: {
+		en: "Because this Pokémon is hotheaded and belligerent, it’s Corviknight that’s taken the role of transportation in Galar."
+	}
 }
 
 export default card

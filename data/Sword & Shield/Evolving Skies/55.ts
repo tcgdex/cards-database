@@ -68,7 +68,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Mareep",
+		fr: "Wattouat",
+		es: "Mareep",
+		it: "Mareep",
+		pt: "Mareep",
+		de: "Voltilamm"
+	},
+
+	description: {
+		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
+	},
+
+	dexId: [180]
 }
 
 export default card

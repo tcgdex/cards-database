@@ -55,7 +55,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Petilil",
+		fr: "Chlorobule",
+		es: "Petilil",
+		it: "Petilil",
+		pt: "Petilil",
+		de: "Lilminip"
+	},
+
+	description: {
+		en: "It’s well liked by other Pokémon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot."
+	},
+
+	dexId: [549]
 }
 
 export default card

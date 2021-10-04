@@ -60,7 +60,12 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [627],
+
+	description: {
+		en: "A combative Pokémon, it’s ready to pick a fight with anyone. It has talons that can crush hard berries."
+	}
 }
 
 export default card

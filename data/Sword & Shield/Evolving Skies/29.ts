@@ -67,7 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	evolveFrom: {
+		en: "Gyarados V",
+		fr: "Léviator-V",
+		es: "Gyarados V",
+		it: "Gyarados-V",
+		pt: "Gyarados V",
+		de: "Garados-V"
+	},
+
+	dexId: [130],
+	suffix: "V"
 }
 
 export default card

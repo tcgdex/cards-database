@@ -73,6 +73,15 @@ const card: Card = {
 
 	description: {
 		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+	},
+
+	evolveFrom: {
+		en: "Voltorb",
+		fr: "Voltorbe",
+		es: "Voltorb",
+		it: "Voltorb",
+		pt: "Voltorb",
+		de: "Voltobal"
 	}
 }
 

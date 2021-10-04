@@ -24,7 +24,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shadow Rider Calyrex V",
-		fr: "Sylveroy Cavalier d’Effroi-V"
+		fr: "Sylveroy Cavalier d’Effroi-V",
+		es: "Calyrex Jinete Espectral V",
+		it: "Calyrex Cavaliere Spettrale-V",
+		pt: "Calyrex Cavaleiro Espectral V",
+		de: "Rappenreiter-Coronospa-V"
 	},
 
 	stage: 'VMAX',
@@ -96,7 +100,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	suffix: "V"
 }
 
 export default card

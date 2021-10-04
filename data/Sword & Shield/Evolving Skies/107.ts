@@ -53,7 +53,12 @@ const card: Card = {
 		cost: ["Fire", "Water"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [371],
+
+	description: {
+		en: "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution."
+	}
 }
 
 export default card

@@ -75,7 +75,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	evolveFrom: {
+		en: "Nuzleaf",
+		fr: "Pifeuil",
+		es: "Nuzleaf",
+		it: "Nuzleaf",
+		pt: "Nuzleaf",
+		de: "Blanas"
+	},
+
+	description: {
+		en: "It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds."
+	},
+
+	dexId: [275]
 }
 
 export default card

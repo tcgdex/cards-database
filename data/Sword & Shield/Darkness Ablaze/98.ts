@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Farfetch’d",
-		fr: "Canarticho de Galar"
+		fr: "Canarticho de Galar",
+		es: "Farfetch’d de Galar",
+		it: "Farfetch’d di Galar",
+		pt: "Farfetch’d de Galar",
+		de: "Galar-Porenta"
 	},
 
 	attacks: [

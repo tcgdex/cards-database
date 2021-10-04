@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Binacle",
-		fr: "Opermine"
+		fr: "Opermine",
+		es: "Binacle",
+		it: "Binacle",
+		pt: "Binacle",
+		de: "Bithora"
 	},
 
 	attacks: [

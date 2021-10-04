@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Single Strike Urshifu V",
-		fr: "Shifours Poing Final-V"
+		fr: "Shifours Poing Final-V",
+		es: "Urshifu Golpe Brusco V",
+		it: "Urshifu Singolcolpo-V",
+		pt: "Urshifu Golpe Decisivo V",
+		de: "Fokussierter-Angriff-Wulaosu-V"
 	},
 
 	attacks: [{

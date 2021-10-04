@@ -75,7 +75,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Lycanroc V",
+		fr: "Lougaroc-V",
+		es: "Lycanroc V",
+		it: "Lycanroc-V",
+		pt: "Lycanroc V",
+		de: "Wolwerock-V"
+	},
+
+	dexId: [745],
+	suffix: "V"
 }
 
 export default card

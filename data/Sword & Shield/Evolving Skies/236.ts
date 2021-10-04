@@ -12,7 +12,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Darkness Energy"
+		en: "Darkness Energy",
+		fr: "Énergie Obscurité",
+		es: "Energía Oscura",
+		it: "Energia Oscurità",
+		pt: "Energia Noturna",
+		de: "Finsternis-Energie"
 	},
 
 	rarity: "Secret Rare",

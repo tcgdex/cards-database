@@ -68,7 +68,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Lombre",
+		fr: "Lombre",
+		es: "Lombre",
+		it: "Lombre",
+		pt: "Lombre",
+		de: "Lombrero"
+	},
+
+	description: {
+		en: "If it hears festive music, it begins moving in rhythm in order to amplify its power."
+	},
+
+	dexId: [272]
 }
 
 export default card

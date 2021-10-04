@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Mr. Mime",
-		fr: "M. Mime de Galar"
+		fr: "M. Mime de Galar",
+		es: "Mr. Mime de Galar",
+		it: "Mr. Mime di Galar",
+		pt: "Mr. Mime de Galar",
+		de: "Galar-Pantimos"
 	},
 
 	abilities: [

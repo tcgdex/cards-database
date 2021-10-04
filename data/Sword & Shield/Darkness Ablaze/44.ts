@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Darumaka",
-		fr: "Darumarond de Galar"
+		fr: "Darumarond de Galar",
+		es: "Darumaka de Galar",
+		it: "Darumaka di Galar",
+		pt: "Darumaka de Galar",
+		de: "Galar-Flampion"
 	},
 
 	attacks: [

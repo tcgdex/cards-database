@@ -57,7 +57,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "5ban Graphics"
+	illustrator: "5ban Graphics",
+
+	evolveFrom: {
+		en: "Galarian Slowking V",
+		fr: "Roigada de Galar-V",
+		es: "Slowking de Galar V",
+		it: "Slowking di Galar-V",
+		pt: "Slowking de Galar V",
+		de: "Galar-Laschoking-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

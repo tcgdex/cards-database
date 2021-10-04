@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Métang"
+		fr: "Métang",
+		es: "Metang",
+		it: "Metang",
+		pt: "Metang",
+		de: "Metang"
 	},
 
 	abilities: [

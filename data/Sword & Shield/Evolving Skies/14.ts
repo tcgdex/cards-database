@@ -67,7 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	evolveFrom: {
+		en: "Trevenant V",
+		fr: "Desséliande-V",
+		es: "Trevenant V",
+		it: "Trevenant-V",
+		pt: "Trevenant V",
+		de: "Trombork-V"
+	},
+
+	dexId: [709],
+	suffix: "V"
 }
 
 export default card

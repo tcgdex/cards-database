@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		fr: "Exagide-V"
+		fr: "Exagide-V",
+		en: "Aegislash V",
+		es: "Aegislash V",
+		it: "Aegislash-V",
+		pt: "Aegislash V",
+		de: "Durengard-V"
 	},
 
 	attacks: [{
@@ -66,7 +71,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+	suffix: "V"
 }
 
 export default card

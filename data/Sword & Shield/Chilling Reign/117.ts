@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		es: "Porygon",
+		it: "Porygon",
+		pt: "Porygon",
+		de: "Porygon"
 	},
 
 	attacks: [{

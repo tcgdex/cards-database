@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rare Fossil",
-		fr: "Fossile Rare"
+		fr: "Fossile Rare",
+		es: "Fósil Raro",
+		it: "Fossile Raro",
+		pt: "Fóssil Raro",
+		de: "Seltenes Fossil"
 	},
 
 	attacks: [

@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Galarian Zigzagoon",
 		fr: "Zigzaton de Galar",
+		es: "Zigzagoon de Galar",
+		it: "Zigzagoon di Galar",
+		pt: "Zigzagoon de Galar",
+		de: "Galar-Zigzachs"
 	},
 
 	stage: "Stage1",

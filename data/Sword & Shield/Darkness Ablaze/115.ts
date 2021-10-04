@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimmsnarl V",
-		fr: "Angoliath-V"
+		fr: "Angoliath-V",
+		es: "Grimmsnarl V",
+		it: "Grimmsnarl-V",
+		pt: "Grimmsnarl V",
+		de: "Olangaar-V"
 	},
 
 	attacks: [

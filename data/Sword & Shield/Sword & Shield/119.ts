@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Galarian Linoone",
 		fr: "Linéon de Galar",
+		es: "Linoone de Galar",
+		it: "Linoone di Galar",
+		pt: "Linoone de Galar",
+		de: "Galar-Geradaks"
 	},
 
 	stage: "Stage2",

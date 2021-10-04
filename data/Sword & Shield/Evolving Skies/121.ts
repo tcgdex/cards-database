@@ -71,7 +71,21 @@ const card: Card = {
 		cost: ["Grass", "Fire"]
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [842],
+
+	evolveFrom: {
+		en: "Applin",
+		fr: "Verpom",
+		es: "Applin",
+		it: "Applin",
+		pt: "Applin",
+		de: "Knapfel"
+	},
+
+	description: {
+		en: "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack."
+	}
 }
 
 export default card

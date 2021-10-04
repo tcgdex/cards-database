@@ -63,7 +63,21 @@ const card: Card = {
 		cost: ["Water", "Metal"]
 	}],
 
-	retreat: 0
+	retreat: 0,
+	dexId: [334],
+
+	evolveFrom: {
+		en: "Swablu",
+		fr: "Tylton",
+		es: "Swablu",
+		it: "Swablu",
+		pt: "Swablu",
+		de: "Wablu"
+	},
+
+	description: {
+		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano."
+	}
 }
 
 export default card

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Larvesta",
-		fr: "Pyronille"
+		fr: "Pyronille",
+		es: "Larvesta",
+		it: "Larvesta",
+		pt: "Larvesta",
+		de: "Ignivor"
 	},
 
 	attacks: [{

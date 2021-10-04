@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hattrem",
-		fr: "Chapotus"
+		fr: "Chapotus",
+		es: "Hattrem",
+		it: "Hattrem",
+		pt: "Hattrem",
+		de: "Brimano"
 	},
 
 	abilities: [{

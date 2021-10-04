@@ -54,7 +54,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Flabébé wears a crown made from pollen it’s collected from its flower. The crown has hidden healing properties."
+	},
+
+	dexId: [669]
 }
 
 export default card

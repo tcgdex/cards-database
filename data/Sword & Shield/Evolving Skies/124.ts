@@ -62,7 +62,11 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Fire"]
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	description: {
+		en: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon."
+	}
 }
 
 export default card

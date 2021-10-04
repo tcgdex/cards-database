@@ -68,7 +68,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	evolveFrom: {
+		en: "Skiploom",
+		fr: "Floravol",
+		es: "Skiploom",
+		it: "Skiploom",
+		pt: "Skiploom",
+		de: "Hubelupf"
+	},
+
+	description: {
+		en: "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants."
+	},
+
+	dexId: [189]
 }
 
 export default card

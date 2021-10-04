@@ -77,7 +77,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "PLANETA Mochizuki"
+	illustrator: "PLANETA Mochizuki",
+
+	evolveFrom: {
+		en: "Victini V",
+		fr: "Victini-V",
+		es: "Victini V",
+		it: "Victini-V",
+		pt: "Victini V",
+		de: "Victini-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

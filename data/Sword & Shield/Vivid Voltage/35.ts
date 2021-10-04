@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dewott",
-		fr: "Mateloutre"
+		fr: "Mateloutre",
+		es: "Dewott",
+		it: "Dewott",
+		pt: "Dewott",
+		de: "Zwottronin"
 	},
 
 	abilities: [

@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gothorita",
-		fr: "Mesmérella"
+		fr: "Mesmérella",
+		es: "Gothorita",
+		it: "Gothorita",
+		pt: "Gothorita",
+		de: "Hypnomorba"
 	},
 
 	attacks: [

@@ -84,7 +84,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "Mitsuhiro Arita"
+	illustrator: "Mitsuhiro Arita",
+
+	evolveFrom: {
+		en: "Shadow Rider Calyrex V",
+		fr: "Sylveroy Cavalier d’Effroi-V",
+		es: "Calyrex Jinete Espectral V",
+		it: "Calyrex Cavaliere Spettrale-V",
+		pt: "Calyrex Cavaleiro Espectral V",
+		de: "Rappenreiter-Coronospa-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

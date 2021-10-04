@@ -72,7 +72,21 @@ const card: Card = {
 		cost: ["Fire", "Water"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [373],
+
+	evolveFrom: {
+		en: "Shelgon",
+		fr: "Drackhaus",
+		es: "Shelgon",
+		it: "Shelgon",
+		pt: "Shelgon",
+		de: "Draschel"
+	},
+
+	description: {
+		en: "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart’s desire—wings."
+	}
 }
 
 export default card

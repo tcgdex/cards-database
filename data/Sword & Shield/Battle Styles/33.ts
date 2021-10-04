@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seadra",
-		fr: "Hypocéan"
+		fr: "Hypocéan",
+		es: "Seadra",
+		it: "Seadra",
+		pt: "Seadra",
+		de: "Seemon"
 	},
 
 	abilities: [{

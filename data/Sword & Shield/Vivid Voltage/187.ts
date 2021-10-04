@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Darumacho de Galar-V"
+		fr: "Darumacho de Galar-V",
+		en: "Galarian Darmanitan V",
+		es: "Darmanitan de Galar V",
+		it: "Darmanitan di Galar-V",
+		pt: "Darmanitan de Galar V",
+		de: "Galar-Flampivian-V"
 	},
 
 	attacks: [{
@@ -61,7 +66,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+	suffix: "V"
 }
 
 export default card

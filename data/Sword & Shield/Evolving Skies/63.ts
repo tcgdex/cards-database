@@ -16,7 +16,7 @@ const card: Card = {
 		fr: "Artikodin de Galar",
 		es: "Articuno de Galar",
 		it: "Articuno di Galar",
-		pt: "Galarian Articuno",
+		pt: "Articuno de Galar",
 		de: "Galar-Arktos"
 	},
 
@@ -81,7 +81,13 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "Known as Articuno, this Pokémon fires beams that can immobilize opponents as if they had been frozen solid."
+	},
+
+	dexId: [144]
 }
 
 export default card

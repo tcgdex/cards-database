@@ -46,7 +46,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
+	},
+
+	dexId: [570]
 }
 
 export default card

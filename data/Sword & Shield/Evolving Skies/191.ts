@@ -72,7 +72,8 @@ const card: Card = {
 		cost: ["Water", "Water", "Lightning"]
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [149]
 }
 
 export default card

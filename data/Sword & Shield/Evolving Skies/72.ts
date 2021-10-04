@@ -67,7 +67,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Flabébé",
+		fr: "Flabébé",
+		es: "Flabébé",
+		it: "Flabébé",
+		pt: "Flabébé",
+		de: "Flabébé"
+	},
+
+	description: {
+		en: "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed."
+	},
+
+	dexId: [670]
 }
 
 export default card

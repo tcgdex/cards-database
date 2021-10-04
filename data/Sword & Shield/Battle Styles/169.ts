@@ -77,7 +77,16 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "PLANETA Tsuji"
+	illustrator: "PLANETA Tsuji",
+
+	evolveFrom: {
+		en: "Rapid Strike Urshifu V",
+		fr: "Shifours Mille Poings-V",
+		es: "Urshifu Golpe Fluido V",
+		it: "Urshifu Pluricolpo-V",
+		pt: "Urshifu Golpe Fluido V",
+		de: "Fließender-Angriff-Wulaosu-V"
+	}
 }
 
 export default card

@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Morpeko V",
 		fr: "Morpeko-V",
+		es: "Morpeko V",
+		it: "Morpeko-V",
+		pt: "Morpeko V",
+		de: "Morpeko-V"
 	},
 
 	stage: "VMAX",
@@ -71,7 +75,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	suffix: "V"
 }
 
 export default card

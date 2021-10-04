@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Copperajah V",
-		fr: "Pachyradjah-V"
+		fr: "Pachyradjah-V",
+		es: "Copperajah V",
+		it: "Copperajah-V",
+		pt: "Copperajah V",
+		de: "Patinaraja-V"
 	},
 
 	attacks: [

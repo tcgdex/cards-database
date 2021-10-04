@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Cette carte ajoute 50 PV au Pokémon de base, à l’exception des Pokémon-GX, auquel elle est attachée.",
+		fr: "Cette carte ajoute 50 PV au Pokémon de base, à l’exception des Pokémon-GX, auquel elle est attachée.",
 		en: "The Basic Pokémon this card is attached to gets +50 HP, except Pokémon GX",
 		es: "El Pokémon Básico al que esté unida esta carta obtiene 50 PS más, excepto los Pokémon-GX.",
 		it: "Il Pokémon Base a cui è assegnata questa carta ha 50 PS in più, a eccezione dei Pokémon-GX.",

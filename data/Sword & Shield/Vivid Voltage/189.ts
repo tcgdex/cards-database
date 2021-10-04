@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		fr: "Monthracite-V"
+		fr: "Monthracite-V",
+		en: "Coalossal V",
+		es: "Coalossal V",
+		it: "Coalossal-V",
+		pt: "Coalossal V",
+		de: "Montecarbo-V"
 	},
 
 	attacks: [{

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drizzile",
-		fr: "Arrozard"
+		fr: "Arrozard",
+		es: "Drizzile",
+		it: "Drizzile",
+		pt: "Drizzile",
+		de: "Phlegleon"
 	},
 
 	abilities: [{

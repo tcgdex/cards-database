@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bronzor",
-		fr: "Archéomire"
+		fr: "Archéomire",
+		es: "Bronzor",
+		it: "Bronzor",
+		pt: "Bronzor",
+		de: "Bronzel"
 	},
 
 	attacks: [

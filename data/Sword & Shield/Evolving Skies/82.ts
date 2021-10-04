@@ -16,7 +16,7 @@ const card: Card = {
 		fr: "Électhor de Galar",
 		es: "Zapdos de Galar",
 		it: "Zapdos di Galar",
-		pt: "Galarian Zapdos",
+		pt: "Zapdos de Galar",
 		de: "Galar-Zapdos"
 	},
 
@@ -77,7 +77,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "One kick from its powerful legs will pulverize a dump truck. Supposedly, this Pokémon runs through the mountains at over 180 mph."
+	},
+
+	dexId: [145]
 }
 
 export default card

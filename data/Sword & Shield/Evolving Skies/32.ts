@@ -66,7 +66,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Its leaf grew too large for it to live on land. That is how it began to live floating in the water."
+	},
+
+	dexId: [270]
 }
 
 export default card

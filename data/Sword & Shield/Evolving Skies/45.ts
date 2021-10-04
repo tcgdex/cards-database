@@ -67,7 +67,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	evolveFrom: {
+		en: "Bergmite",
+		fr: "Grelaçon",
+		es: "Bergmite",
+		it: "Bergmite",
+		pt: "Bergmite",
+		de: "Arktip"
+	},
+
+	description: {
+		en: "As Avalugg moves about during the day, the cracks in its body deepen. The Pokémon’s body returns to a pristine state overnight."
+	},
+
+	dexId: [713]
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 	name: {
 		en: "Thievul",
 		fr: "Roublenard",
-		es: "​Thievul",
+		es: "Thievul",
 		it: "Thievul",
 		pt: "Thievul",
 		de: "Gaunux"
@@ -68,7 +68,21 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [828],
+
+	evolveFrom: {
+		en: "Nickit",
+		fr: "Goupilou",
+		es: "Nickit",
+		it: "Nickit",
+		pt: "Nickit",
+		de: "Kleptifux"
+	},
+
+	description: {
+		en: "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy."
+	}
 }
 
 export default card

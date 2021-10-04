@@ -77,7 +77,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Feebas",
+		fr: "Barpau",
+		es: "Feebas",
+		it: "Feebas",
+		pt: "Feebas",
+		de: "Barschwa"
+	},
+
+	description: {
+		en: "It’s said that a glimpse of a Milotic and its beauty will calm any hostile emotions you’re feeling."
+	},
+
+	dexId: [350]
 }
 
 export default card

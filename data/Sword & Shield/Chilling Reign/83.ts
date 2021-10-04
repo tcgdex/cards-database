@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Yamask",
-		fr: "Tutafeh de Galar"
+		fr: "Tutafeh de Galar",
+		es: "Yamask de Galar",
+		it: "Yamask di Galar",
+		pt: "Yamask de Galar",
+		de: "Galar-Makabaja"
 	},
 
 	abilities: [{

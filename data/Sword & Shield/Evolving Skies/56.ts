@@ -5,9 +5,9 @@ const card: Card = {
 	set: Set,
 
 	variants: {
-		normal: false,
+		normal: true,
 		reverse: true,
-		holo: true,
+		holo: false,
 		firstEdition: false
 	},
 
@@ -76,7 +76,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Flaaffy",
+		fr: "Lainergie",
+		es: "Flaaffy",
+		it: "Flaaffy",
+		pt: "Flaaffy",
+		de: "Waaty"
+	},
+
+	description: {
+		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors."
+	},
+
+	dexId: [181]
 }
 
 export default card

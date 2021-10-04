@@ -76,7 +76,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It is said that when it roars, a volcano erupts somewhere around the globe."
+	},
+
+	dexId: [244]
 }
 
 export default card

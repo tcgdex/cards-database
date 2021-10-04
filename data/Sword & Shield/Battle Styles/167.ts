@@ -69,7 +69,16 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "PLANETA Tsuji"
+	illustrator: "PLANETA Tsuji",
+
+	evolveFrom: {
+		en: "Single Strike Urshifu V",
+		fr: "Shifours Poing Final-V",
+		es: "Urshifu Golpe Brusco V",
+		it: "Urshifu Singolcolpo-V",
+		pt: "Urshifu Golpe Decisivo V",
+		de: "Fokussierter-Angriff-Wulaosu-V"
+	}
 }
 
 export default card

@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Carkol",
-		fr: "Wagomine"
+		fr: "Wagomine",
+		es: "Carkol",
+		it: "Carkol",
+		pt: "Carkol",
+		de: "Wagong"
 	},
 
 	abilities: [

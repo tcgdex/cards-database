@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pansage",
-		fr: "Feuillajou"
+		fr: "Feuillajou",
+		es: "Pansage",
+		it: "Pansage",
+		pt: "Pansage",
+		de: "Vegimak"
 	},
 
 	attacks: [

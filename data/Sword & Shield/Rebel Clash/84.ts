@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hatenna",
-		fr: "Bibichut"
+		fr: "Bibichut",
+		es: "Hatenna",
+		it: "Hatenna",
+		pt: "Hatenna",
+		de: "Brimova"
 	},
 
 	attacks: [

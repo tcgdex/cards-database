@@ -77,7 +77,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Floette",
+		fr: "Floette",
+		es: "Floette",
+		it: "Floette",
+		pt: "Floette",
+		de: "Floette"
+	},
+
+	description: {
+		en: "Its life can span several hundred years. It’s said to devote its entire life to protecting gardens."
+	},
+
+	dexId: [671]
 }
 
 export default card

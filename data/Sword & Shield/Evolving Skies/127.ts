@@ -58,7 +58,21 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [217],
+
+	evolveFrom: {
+		en: "Teddiursa",
+		fr: "Teddiursa",
+		es: "Teddiursa",
+		it: "Teddiursa",
+		pt: "Teddiursa",
+		de: "Teddiursa"
+	},
+
+	description: {
+		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+	}
 }
 
 export default card

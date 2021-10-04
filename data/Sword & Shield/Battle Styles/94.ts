@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Murkrow",
-		fr: "Cornèbre"
+		fr: "Cornèbre",
+		es: "Murkrow",
+		it: "Murkrow",
+		pt: "Murkrow",
+		de: "Kramurx"
 	},
 
 	abilities: [{

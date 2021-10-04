@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pignite",
-		fr: "Grotichon"
+		fr: "Grotichon",
+		es: "Pignite",
+		it: "Pignite",
+		pt: "Pignite",
+		de: "Ferkokel"
 	},
 
 	abilities: [{

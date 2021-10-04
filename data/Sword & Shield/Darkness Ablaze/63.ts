@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Toxel",
-		fr: "Toxizap"
+		fr: "Toxizap",
+		es: "Toxel",
+		it: "Toxel",
+		pt: "Toxel",
+		de: "Toxel"
 	},
 
 	attacks: [

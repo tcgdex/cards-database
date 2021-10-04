@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Thievul",
 		fr: "Roublenard",
-		es: "​Thievul",
+		es: "Thievul",
 		it: "Thievul",
 		pt: "Thievul",
 		de: "Gaunux"
@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nickit",
-		fr: "Goupilou"
+		fr: "Goupilou",
+		es: "Nickit",
+		it: "Nickit",
+		pt: "Nickit",
+		de: "Kleptifux"
 	},
 
 	attacks: [

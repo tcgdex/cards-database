@@ -68,7 +68,19 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	stage: "VMAX"
+	stage: "VMAX",
+
+	evolveFrom: {
+		en: "Umbreon V",
+		fr: "Noctali-V",
+		es: "Umbreon V",
+		it: "Umbreon-V",
+		pt: "Umbreon V",
+		de: "Nachtara-V"
+	},
+
+	dexId: [197],
+	suffix: "V"
 }
 
 export default card

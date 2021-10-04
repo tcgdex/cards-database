@@ -78,7 +78,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [470]
 }
 
 export default card

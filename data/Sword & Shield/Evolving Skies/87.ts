@@ -66,7 +66,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	evolveFrom: {
+		en: "Roggenrola",
+		fr: "Nodulithe",
+		es: "Roggenrola",
+		it: "Roggenrola",
+		pt: "Roggenrola",
+		de: "Kiesling"
+	},
+
+	description: {
+		en: "It relies on sound in order to monitor what’s in its vicinity. When angered, it will attack without ever changing the direction it’s facing."
+	},
+
+	dexId: [525]
 }
 
 export default card

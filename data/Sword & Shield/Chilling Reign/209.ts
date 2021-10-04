@@ -74,7 +74,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "Mitsuhiro Arita"
+	illustrator: "Mitsuhiro Arita",
+
+	evolveFrom: {
+		en: "Tornadus V",
+		fr: "Boréas-V",
+		es: "Tornadus V",
+		it: "Tornadus-V",
+		pt: "Tornadus V",
+		de: "Boreos-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

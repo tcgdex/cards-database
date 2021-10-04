@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eternatus V",
-		fr: "Éthernatos-V"
+		fr: "Éthernatos-V",
+		es: "Eternatus V",
+		it: "Eternatus-V",
+		pt: "Eternatus V",
+		de: "Endynalos-V"
 	},
 
 	abilities: [

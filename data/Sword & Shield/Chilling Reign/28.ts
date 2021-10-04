@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Raboot",
-		fr: "Lapyro"
+		fr: "Lapyro",
+		es: "Raboot",
+		it: "Raboot",
+		pt: "Raboot",
+		de: "Kickerlo"
 	},
 
 	abilities: [{

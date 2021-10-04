@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vanillite",
-		fr: "Sorbébé"
+		fr: "Sorbébé",
+		es: "Vanillite",
+		it: "Vanillite",
+		pt: "Vanillite",
+		de: "Gelatini"
 	},
 
 	attacks: [

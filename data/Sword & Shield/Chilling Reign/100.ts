@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Slowking V",
-		fr: "Roigada de Galar-V"
+		fr: "Roigada de Galar-V",
+		es: "Slowking de Galar V",
+		it: "Slowking di Galar-V",
+		pt: "Slowking de Galar V",
+		de: "Galar-Laschoking-V"
 	},
 
 	attacks: [{
@@ -62,7 +66,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+	suffix: "V"
 }
 
 export default card

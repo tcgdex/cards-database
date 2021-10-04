@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zweilous",
-		fr: "Diamat"
+		fr: "Diamat",
+		es: "Zweilous",
+		it: "Zweilous",
+		pt: "Zweilous",
+		de: "Duodino"
 	},
 
 	abilities: [

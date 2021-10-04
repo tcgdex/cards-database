@@ -72,7 +72,17 @@ const card: Card = {
 		cost: ["Fighting", "Metal", "Metal"]
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [884],
+
+	evolveFrom: {
+		en: "Duraludon V",
+		fr: "Duralugon-V",
+		es: "Duraludon V",
+		it: "Duraludon-V",
+		pt: "Duraludon V",
+		de: "Duraludon-V"
+	}
 }
 
 export default card

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandaconda V",
-		fr: "Dunaconda-V"
+		fr: "Dunaconda-V",
+		es: "Sandaconda V",
+		it: "Sandaconda-V",
+		pt: "Sandaconda V",
+		de: "Sanaconda-V"
 	},
 
 	attacks: [{

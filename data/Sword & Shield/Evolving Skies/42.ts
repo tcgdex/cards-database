@@ -46,7 +46,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can’t hear its cries of warning."
+	},
+
+	dexId: [535]
 }
 
 export default card

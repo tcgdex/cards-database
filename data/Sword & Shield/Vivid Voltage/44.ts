@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu V",
-		fr: "Pikachu-V"
+		fr: "Pikachu-V",
+		es: "Pikachu V",
+		it: "Pikachu-V",
+		pt: "Pikachu V",
+		de: "Pikachu-V"
 	},
 
 	attacks: [

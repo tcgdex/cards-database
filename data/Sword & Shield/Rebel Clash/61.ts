@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shinx",
-		fr: "Lixy"
+		fr: "Lixy",
+		es: "Shinx",
+		it: "Shinx",
+		pt: "Shinx",
+		de: "Sheinux"
 	},
 
 	abilities: [

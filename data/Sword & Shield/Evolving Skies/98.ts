@@ -55,7 +55,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It protects itself with its durable skin. It’s thought that this Pokémon will evolve once its skin has completely stretched out."
+	},
+
+	dexId: [559]
 }
 
 export default card

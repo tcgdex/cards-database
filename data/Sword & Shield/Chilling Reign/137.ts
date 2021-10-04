@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Regardez les 3 cartes du dessous de votre deck, puis placez-les sur le dessus de votre deck dans l’ordre de votre choix.",
+		fr: "Regardez les 3 cartes du dessous de votre deck, puis placez-les sur le dessus de votre deck dans l’ordre de votre choix.",
 		en: "Look at the bottom 3 cards of your deck and put them on top of your deck in any order.",
 		es: "Mira las 3 últimas cartas de tu baraja y ponlas en la parte superior de tu baraja en el orden que quieras.",
 		it: "Guarda le ultime tre carte del tuo mazzo e mettile in cima nell’ordine che preferisci.",

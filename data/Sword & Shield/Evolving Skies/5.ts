@@ -55,7 +55,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall."
+	},
+
+	dexId: [273]
 }
 
 export default card

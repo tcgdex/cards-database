@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Litwick",
-		fr: "Funécire"
+		fr: "Funécire",
+		es: "Litwick",
+		it: "Litwick",
+		pt: "Litwick",
+		de: "Lichtel"
 	},
 
 	abilities: [

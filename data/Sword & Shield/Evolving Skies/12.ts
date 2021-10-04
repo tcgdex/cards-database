@@ -67,7 +67,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	evolveFrom: {
+		en: "Dwebble",
+		fr: "Crabicoque",
+		es: "Dwebble",
+		it: "Dwebble",
+		pt: "Dwebble",
+		de: "Lithomith"
+	},
+
+	description: {
+		en: "Its thick claws are its greatest weapons. They’re mighty enough to crack Rhyperior’s carapace."
+	},
+
+	dexId: [558]
 }
 
 export default card

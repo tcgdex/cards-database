@@ -55,7 +55,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "When it shares the infinite energy it creates, that being’s entire body will be overflowing with power."
+	},
+
+	dexId: [494]
 }
 
 export default card

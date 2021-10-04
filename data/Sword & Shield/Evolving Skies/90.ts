@@ -67,7 +67,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	evolveFrom: {
+		en: "Palpitoad",
+		fr: "Batracné",
+		es: "Palpitoad",
+		it: "Palpitoad",
+		pt: "Palpitoad",
+		de: "Mebrana"
+	},
+
+	description: {
+		en: "This Pokémon is popular among the elderly, who say the vibrations of its lumps are great for massages."
+	},
+
+	dexId: [537]
 }
 
 export default card

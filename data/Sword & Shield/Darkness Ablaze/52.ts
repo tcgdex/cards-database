@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mareanie",
-		fr: "Vorastérie"
+		fr: "Vorastérie",
+		es: "Mareanie",
+		it: "Mareanie",
+		pt: "Mareanie",
+		de: "Garstella"
 	},
 
 	attacks: [

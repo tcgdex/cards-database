@@ -77,7 +77,21 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [508],
+
+	evolveFrom: {
+		en: "Herdier",
+		fr: "Ponchien",
+		es: "Herdier",
+		it: "Herdier",
+		pt: "Herdier",
+		de: "Terribark"
+	},
+
+	description: {
+		en: "Its fur is long and thick. A long time ago in cold regions, every household kept a Stoutland."
+	}
 }
 
 export default card

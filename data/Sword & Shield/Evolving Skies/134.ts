@@ -67,7 +67,21 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [507],
+
+	evolveFrom: {
+		en: "Lillipup",
+		fr: "Ponchiot",
+		es: "Lillipup",
+		it: "Lillipup",
+		pt: "Lillipup",
+		de: "Yorkleff"
+	},
+
+	description: {
+		en: "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago."
+	}
 }
 
 export default card

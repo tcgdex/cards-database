@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nincada",
-		fr: "Ningale"
+		fr: "Ningale",
+		es: "Nincada",
+		it: "Nincada",
+		pt: "Nincada",
+		de: "Nincada"
 	},
 
 	abilities: [

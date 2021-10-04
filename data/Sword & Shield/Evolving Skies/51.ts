@@ -55,7 +55,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	evolveFrom: {
+		en: "Jolteon V",
+		fr: "Voltali-V",
+		es: "Jolteon V",
+		it: "Jolteon-V",
+		pt: "Jolteon V",
+		de: "Blitza-V"
+	},
+
+	dexId: [135],
+	suffix: "V"
 }
 
 export default card

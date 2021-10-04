@@ -68,7 +68,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Zorua",
+		fr: "Zorua",
+		es: "Zorua",
+		it: "Zorua",
+		pt: "Zorua",
+		de: "Zorua"
+	},
+
+	description: {
+		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods."
+	},
+
+	dexId: [571]
 }
 
 export default card

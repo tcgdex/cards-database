@@ -78,6 +78,15 @@ const card: Card = {
 
 	description: {
 		en: "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body."
+	},
+
+	evolveFrom: {
+		en: "Bronzor",
+		fr: "Archéomire",
+		es: "Bronzor",
+		it: "Bronzor",
+		pt: "Bronzor",
+		de: "Bronzel"
 	}
 }
 

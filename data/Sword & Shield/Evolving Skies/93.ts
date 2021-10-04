@@ -16,7 +16,7 @@ const card: Card = {
 		fr: "Sulfura de Galar",
 		es: "Moltres de Galar",
 		it: "Moltres di Galar",
-		pt: "Galarian Moltres",
+		pt: "Moltres de Galar",
 		de: "Galar-Lavados"
 	},
 
@@ -77,7 +77,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "The sinister aura that blazes like molten fire around this Pokémon is what inspired the name Moltres."
+	},
+
+	dexId: [146]
 }
 
 export default card

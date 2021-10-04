@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Stonjourner V",
 		fr: "Dolman-V",
+		es: "Stonjourner V",
+		it: "Stonjourner V",
+		pt: "Stonjourner V",
+		de: "Humanolith V"
 	},
 
 	stage: "VMAX",
@@ -86,7 +90,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	suffix: "V"
 }
 
 export default card

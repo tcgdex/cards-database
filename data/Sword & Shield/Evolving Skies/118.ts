@@ -61,7 +61,12 @@ const card: Card = {
 		cost: ["Grass", "Fighting", "Colorless"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [718],
+
+	description: {
+		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem."
+	}
 }
 
 export default card

@@ -75,7 +75,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Pikachu",
+		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
+	},
+
+	description: {
+		en: "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere."
+	},
+
+	dexId: [26]
 }
 
 export default card

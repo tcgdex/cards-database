@@ -57,7 +57,16 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "PLANETA Tsuji"
+	illustrator: "PLANETA Tsuji",
+
+	evolveFrom: {
+		en: "Tapu Koko V",
+		fr: "Tokorico-V",
+		es: "Tapu Koko V",
+		it: "Tapu Koko-V",
+		pt: "Tapu Koko V",
+		de: "Kapu-Riki-V"
+	}
 }
 
 export default card

@@ -46,7 +46,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache."
+	},
+
+	dexId: [54]
 }
 
 export default card

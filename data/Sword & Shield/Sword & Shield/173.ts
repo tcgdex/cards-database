@@ -5,8 +5,8 @@ const card: Card = {
 	name: {
 		en: "Poké Kid",
 		fr: "Poké Enfant",
-		es: "Pokéchico",
-		it: "Poké Bimbo",
+		es: "Pokéchica",
+		it: "Poké Bimba",
 		pt: "Poké Criança",
 		de: "Poké-Kind"
 	},

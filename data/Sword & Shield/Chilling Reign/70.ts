@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Inkay",
-		fr: "Sepiatop"
+		fr: "Sepiatop",
+		es: "Inkay",
+		it: "Inkay",
+		pt: "Inkay",
+		de: "Iscalar"
 	},
 
 	attacks: [{

@@ -68,7 +68,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "Although it’s tough, it can’t handle cold well. When night falls, it buries itself in leafage and sleeps."
+	},
+
+	dexId: [127]
 }
 
 export default card

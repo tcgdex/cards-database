@@ -67,7 +67,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Tentacool",
+		fr: "Tentacool",
+		es: "Tentacool",
+		it: "Tentacool",
+		pt: "Tentacool",
+		de: "Tentacha"
+	},
+
+	description: {
+		en: "It communicates with others of its kind by lighting up the red orbs on its head. When the orbs are blinking, it’s a warning sign."
+	},
+
+	dexId: [73]
 }
 
 export default card

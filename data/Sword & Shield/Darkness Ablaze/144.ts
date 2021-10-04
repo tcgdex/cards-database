@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Salamence V",
-		fr: "Drattak-V"
+		fr: "Drattak-V",
+		es: "Salamence V",
+		it: "Salamence-V",
+		pt: "Salamence V",
+		de: "Brutalanda-V"
 	},
 
 	attacks: [
@@ -101,7 +105,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+	suffix: "V"
 }
 
 export default card

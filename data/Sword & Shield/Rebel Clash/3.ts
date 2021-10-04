@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metapod",
-		fr: "Chrysacier"
+		fr: "Chrysacier",
+		es: "Metapod",
+		it: "Metapod",
+		pt: "Metapod",
+		de: "Safcon"
 	},
 
 	attacks: [

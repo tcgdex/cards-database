@@ -84,7 +84,16 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "PLANETA Mochizuki"
+	illustrator: "PLANETA Mochizuki",
+
+	evolveFrom: {
+		en: "Corviknight V",
+		fr: "Corvaillus-V",
+		es: "Corviknight V",
+		it: "Corviknight-V",
+		pt: "Corviknight V",
+		de: "Krarmor-V"
+	}
 }
 
 export default card

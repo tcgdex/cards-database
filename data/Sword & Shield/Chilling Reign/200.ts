@@ -79,7 +79,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "AKIRA EGAWA"
+	illustrator: "AKIRA EGAWA",
+
+	evolveFrom: {
+		en: "Blaziken V",
+		fr: "Braségali-V",
+		es: "Blaziken V",
+		it: "Blaziken-V",
+		pt: "Blaziken V",
+		de: "Lohgock-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

@@ -73,6 +73,15 @@ const card: Card = {
 
 	description: {
 		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head."
+	},
+
+	evolveFrom: {
+		en: "Remoraid",
+		fr: "Rémoraid",
+		es: "Remoraid",
+		it: "Remoraid",
+		pt: "Remoraid",
+		de: "Remoraid"
 	}
 }
 

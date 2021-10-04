@@ -55,7 +55,13 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way."
+	},
+
+	dexId: [187]
 }
 
 export default card

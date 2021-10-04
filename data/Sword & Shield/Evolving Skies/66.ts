@@ -71,7 +71,13 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack."
+	},
+
+	dexId: [202]
 }
 
 export default card

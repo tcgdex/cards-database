@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Celebi V",
-		fr: "Celebi-V"
+		fr: "Celebi-V",
+		es: "Celebi V",
+		it: "Celebi-V",
+		pt: "Celebi V",
+		de: "Celebi-V"
 	},
 
 	abilities: [{
@@ -84,7 +88,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+	suffix: "V"
 }
 
 export default card

@@ -72,7 +72,19 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	stage: "VMAX"
+	stage: "VMAX",
+	dexId: [384],
+
+	evolveFrom: {
+		en: "Rayquaza V",
+		fr: "Rayquaza-V",
+		es: "Rayquaza V",
+		it: "Rayquaza-V",
+		pt: "Rayquaza V",
+		de: "Rayquaza-V"
+	},
+
+	suffix: "V"
 }
 
 export default card

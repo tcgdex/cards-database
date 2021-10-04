@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dartrix",
-		fr: "Efflèche"
+		fr: "Efflèche",
+		es: "Dartrix",
+		it: "Dartrix",
+		pt: "Dartrix",
+		de: "Arboretoss"
 	},
 
 	abilities: [
