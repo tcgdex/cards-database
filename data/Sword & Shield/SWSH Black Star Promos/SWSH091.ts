@@ -5,11 +5,16 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzong"
+		en: "Bronzong",
+		fr: "Archéodong",
+		es: "Bronzong",
+		it: "Bronzong",
+		pt: "Bronzong",
+		de: "Bronzong"
 	},
 
 	illustrator: "Atsushi Furusawa",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Metal"],
@@ -22,17 +27,30 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Metal Transfer"
+			en: "Metal Transfer",
+			es: "Traspaso Metálico",
+			it: "Spostametallo",
+			pt: "Metal Transfer",
+			de: "Metalltransfer"
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move a Metal Energy from 1 of your Pokémon to another of your Pokémon."
+			en: "As often as you like during your turn, you may move a Metal Energy from 1 of your Pokémon to another of your Pokémon.",
+			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Metal de 1 de tus Pokémon a otro de tus Pokémon.",
+			it: "Durante il tuo turno, puoi spostare un’Energia Metal da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
+			pt: "As often as you like during your turn, you may move a Metal Energy from 1 of your Pokémon to another of your Pokémon.",
+			de: "Beliebig oft während deines Zuges kannst du 1 Metal-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Zen Headbutt"
+			en: "Zen Headbutt",
+			fr: "Psykoud’Boul",
+			es: "Cabezazo Zen",
+			it: "Cozzata Zen",
+			pt: "Zen Headbutt",
+			de: "Zen-Kopfstoß"
 		},
 
 		damage: 70,
@@ -49,7 +67,21 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	description: {
+		en: "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body."
+	},
+
+	stage: "Stage1",
+	dexId: [437],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

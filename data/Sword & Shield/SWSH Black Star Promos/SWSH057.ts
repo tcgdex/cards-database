@@ -6,11 +6,15 @@ const card: Card = {
 
 	name: {
 		en: "Grimmsnarl V",
-		fr: "Angoliath V"
+		fr: "Angoliath V",
+		es: "Grimmsnarl V",
+		it: "Grimmsnarl V",
+		pt: "Grimmsnarl V",
+		de: "Olangaar V"
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Darkness"],
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Bite",
-			fr: "Morsure"
+			fr: "Morsure",
+			es: "Mordisco",
+			it: "Morso",
+			pt: "Bite",
+			de: "Biss"
 		},
 
 		damage: 40,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Spiky Knuckle",
-			fr: "Poing Piquant"
+			fr: "Poing Piquant",
+			es: "Nudillo Puntiagudo",
+			it: "Noccaspina",
+			pt: "Spiky Knuckle",
+			de: "Stachelfaust"
 		},
 
 		effect: {
 			en: "Put 2 Darkness Energy attached to this Pokémon into your hand.",
-			fr: "Ajoutez à votre main 2 Énergies Darkness attachées à ce Pokémon."
+			fr: "Ajoutez à votre main 2 Énergies Darkness attachées à ce Pokémon.",
+			es: "Pon 2 Energías Darkness unidas a este Pokémon en tu mano.",
+			it: "Prendi due Energie Darkness assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
+			pt: "Put 2 Darkness Energy attached to this Pokémon into your hand.",
+			de: "Nimm 2 an dieses Pokémon angelegte Darkness-Energien auf deine Hand."
 		},
 
 		damage: 200,
@@ -43,7 +59,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	stage: "Basic",
+	suffix: "V",
+	dexId: [861],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

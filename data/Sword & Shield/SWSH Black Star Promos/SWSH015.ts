@@ -6,11 +6,15 @@ const card: Card = {
 
 	name: {
 		en: "Cinderace V",
-		fr: "Pyrobut V"
+		fr: "Pyrobut V",
+		es: "Cinderace V",
+		it: "Cinderace V",
+		pt: "Cinderace V",
+		de: "Liberlo V"
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Fire"],
@@ -20,19 +24,31 @@ const card: Card = {
 
 		name: {
 			en: "Field Runner",
-			fr: "Coureur de Fond"
+			fr: "Coureur de Fond",
+			es: "Corredor de Campo",
+			it: "Corridore",
+			pt: "Field Runner",
+			de: "Feldspieler"
 		},
 
 		effect: {
 			en: "If a Stadium is in play, this Pokémon has no Retreat Cost.",
-			fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite."
+			fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite.",
+			es: "Si hay un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
+			it: "Se c’è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
+			pt: "If a Stadium is in play, this Pokémon has no Retreat Cost.",
+			de: "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten."
 		}
 	}],
 
 	attacks: [{
 		name: {
 			en: "Crimson Legs",
-			fr: "Jambes Carmin"
+			fr: "Jambes Carmin",
+			es: "Extremidades Carmesís",
+			it: "Arti Incandescenti",
+			pt: "Crimson Legs",
+			de: "Rote Beine"
 		},
 
 		damage: 140,
@@ -44,7 +60,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	stage: "Basic",
+	suffix: "V",
+	dexId: [815],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

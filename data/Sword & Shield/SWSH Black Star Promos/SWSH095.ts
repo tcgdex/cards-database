@@ -5,28 +5,48 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
 
 	attacks: [{
 		name: {
-			en: "First Step"
+			en: "First Step",
+			fr: "Premier Pas",
+			es: "Primer Paso",
+			it: "Primo Passo",
+			pt: "First Step",
+			de: "Erster Schritt"
 		},
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			es: "Roba 1 carta.",
+			it: "Pesca una carta.",
+			pt: "Draw a card.",
+			de: "Ziehe 1 Karte."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Tail Whap"
+			en: "Tail Whap",
+			fr: "Queue Battoir",
+			es: "Coletón",
+			it: "Codabotta",
+			pt: "Tail Whap",
+			de: "Schweifvertrimmer"
 		},
 
 		damage: 30,
@@ -38,7 +58,21 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+
+	stage: "Basic",
+	dexId: [133],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

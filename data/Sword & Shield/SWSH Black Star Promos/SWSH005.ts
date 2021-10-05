@@ -4,24 +4,29 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	name: {
 		fr: "Miaouss VMAX",
-		en: "Meowth VMAX"
+		en: "Meowth VMAX",
+		es: "Meowth VMAX",
+		it: "Meowth VMAX",
+		pt: "Meowth VMAX",
+		de: "Mauzi VMAX"
 	},
+
 	illustrator: "aky CG Works",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 300,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		fr: "Miaouss-V",
 		en: "Meowth V"
 	},
-	stage: "VMAX",
 
+	stage: "VMAX",
 
 	attacks: [
 		{
@@ -33,16 +38,25 @@ const card: Card = {
 			],
 			name: {
 				fr: "Pactole G-Max",
-				en: "G-Max Gold Rush"
+				en: "G-Max Gold Rush",
+				es: "Gigamonedas",
+				it: "Gigamonete",
+				pt: "G-Max Gold Rush",
+				de: "Giga-Münzregen"
 			},
 			effect: {
-				fr: "Piochez 3 cartes.",
-				en: "Draw 3 cards."
+				fr: "Piochez 3 cartes.",
+				en: "Draw 3 cards.",
+				es: "Roba 3 cartas.",
+				it: "Pesca tre carte.",
+				pt: "Draw 3 cards.",
+				de: "Ziehe 3 Karten."
 			},
 			damage: 200,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -51,9 +65,14 @@ const card: Card = {
 	],
 
 	retreat: 2,
+	dexId: [52],
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
