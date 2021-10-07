@@ -1,7 +1,7 @@
 name: Incorect Data
 description: Use this when you found an incorrect information on a card/set/serie
 title: "[Data]: "
-labels: [project/database, type/incorect-data]
+labels: [project/database, type/incorrect-data]
 body:
   - type: markdown
     attributes:
