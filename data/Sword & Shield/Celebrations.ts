@@ -5,7 +5,7 @@ const set: Set = {
 	id: "swsh7.5",
 
 	name: {
-		en: "Celebration"
+		en: "Celebrations"
 	},
 
 	serie: serie,
