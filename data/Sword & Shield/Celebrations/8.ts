@@ -12,14 +12,42 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Surfing Pikachu V"
+		en: "Surfing Pikachu V",
+		fr: "Pikachu Surfeur V",
+		es: "Pikachu Surf V",
+		it: "Pikachu Surf V",
+		pt: "Pikachu Surfista V",
+		de: "Surfendes Pikachu V"
 	},
 
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Lightning"],
-	stage: "Basic"
+	stage: "Basic",
+	illustrator: "aky CG Works",
+	suffix: "V",
+
+	attacks: [{
+		name: {
+			en: "Surf",
+			fr: "Surf",
+			es: "Surf",
+			it: "Surf",
+			pt: "Surfar",
+			de: "Surfer"
+		},
+
+		damage: "150",
+		cost: ["Water", "Water", "Water"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 1
 }
 
 export default card
