@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../Sword & Shield'
 
 const set: Set = {
-	id: "swsh7.5",
+	id: "cel25",
 
 	name: {
 		en: "Celebrations"
@@ -11,10 +11,10 @@ const set: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 0 // not known
+		official: 50
 	},
 
-	releaseDate: "2021-01-08"
+	releaseDate: "2021-10-08"
 }
 
 export default set
