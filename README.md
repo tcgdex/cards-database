@@ -26,8 +26,11 @@ A Multilanguage Pokémon TCG Database with Cards Pictures and most of the inform
 
 |             | English | French | German | Italian | Portuguese | Spanish |
 |-------------|---------|--------|--------|---------|------------|---------|
-| Cards       | 13818   | 9439   | 6108   | 6108    | 6108       | 6108    |
+| Cards       | 13869   | 9464   | 6133   | 6133    | 6133       | 6133    |
 | Translated  | 100%    | 68%    | 44%    | 44%     | 44%        | 44%     |
+
+_want to help translating? each object fields on cards that have at least en,fr,es,de,it,pt can have the others!,_
+_Also we have another translation files located at `meta/translations`_
 
 ## Interact with the Database
 

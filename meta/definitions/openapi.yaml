@@ -1,0 +1,911 @@
+# OPEN-API API definition
+openapi: 3.0.3
+info:
+  title: TCGdex API
+  description: >-
+    A Multilanguage Pokémon TCG Database with Cards Pictures and most of the
+    informations contained on the cards.
+
+    You can find out more about TCGdex at
+    [https://www.tcgdex.net](https://www.tcgdex.net) or on
+    [Discord](https://discord.gg/NehYTAhsZE).
+  contact:
+    name: TCGdex
+    url: https://github.com/tcgdex/cards-database
+    email: contact@tcgdex.net
+  license:
+    name: MIT License
+    url: https://github.com/tcgdex/cards-database/blob/master/LICENSE
+  version: 2.0.0
+externalDocs:
+  description: Find out more about TCGdex
+  url: http://www.tcgdex.net/docs
+servers:
+  - url: https://api.tcgdex.net/v2/{lang}
+    variables:
+      lang:
+        enum:
+          - en
+          - fr
+          - es
+          - it
+          - pt
+        default: en
+tags:
+  - name: cards
+    description: Fetch cards globally
+  - name: filters
+    description: differents requests to filter cards
+paths:
+  /cards:
+    get:
+      tags:
+        - cards
+      summary: fetch the list of cards
+      description: desc
+      operationId: cards
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+  /cards/{cardId}:
+    get:
+      tags:
+        - cards
+      summary: Finds Card by Global ID
+      description: Find a defined card thatusing its global id
+      operationId: findPetsByTags
+      parameters:
+        - name: cardId
+          in: path
+          description: Tags to filter by
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Card'
+        '404':
+          description: The Card doesn't exist
+  /sets:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: Successful request
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SetResume'
+  /sets/{set}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: set
+          in: path
+          description: the set ID or the set name
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Set'
+        '404':
+          description: The Set doesn't exist
+  /sets/{set}/{cardLocalId}:
+    get:
+      tags:
+        - cards
+      parameters:
+        - name: set
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: cardLocalId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Card'
+        '404':
+          description: the Set or cardLocalId are incorrect
+  /series:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: Successful request
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SerieResume'
+  /series/{serie}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: serie
+          in: path
+          description: the serie ID or name
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Serie'
+        '404':
+          description: The Serie doesn't exist
+  /categories:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: List cards categories
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /categories/{category}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: category
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List cards with the category
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringEndpoint'
+        '404':
+          description: The Category doesn't exist
+  /hp:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: List all different possibilities number of HP a card can have
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /hp/{hp}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: hp
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the Pokémon cards containing specified number of HP
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringEndpoint'
+        '404':
+          description: The HP count doesn't exist
+  /illustrators:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: Get all the Pokémon cards illustrators
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /illustrators/{illustrator}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: illustrator
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the cards containing the specified illustrator
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringEndpoint'
+        '404':
+          description: The Illustrator doesn't exist
+  /rarities:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: List cards rarities
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /rarities/{rarity}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: rarity
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the cards containing the specified rarity
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringEndpoint'
+        '404':
+          description: The Rarity doesn't exist
+  /retreats:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: return the different number of retreats count
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /retreats/{retreat}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: retreat
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the cards containing the specified retreat count
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StringEndpoint'
+        '404':
+          description: The Retreat count doesn't exist
+  /types:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: List all possible cards types
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /types/{type}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: type
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the cards containing the specified type
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+        '404':
+          description: The Type doesn't exist
+  /dex-ids:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: List all possible Pokemon(s) Pokédex Ids that appeared in the TCG
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /dex-ids/{dexId}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: dexId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the cards containing the specified dexId
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+        '404':
+          description: no cards contain the specified dexID
+  /energy-types:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: list the different Energy types an Energy card can have
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /energy-types/{energy-type}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: energy-type
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the Energy cards containing the specified energy-type
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+        '404':
+          description: The specified energy-type doesn't exist
+  /regulation-marks:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: List the current regulation marks
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /regulation-marks/{regulation-mark}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: regulation-mark
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get every cards respecting the specified regulation-mark
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+        '404':
+          description: The regulation-mark doesn't exist
+  /stages:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: Get all the possible stages a Pokémon card can have
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /stages/{stage}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: stage
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get all the cards having the specified stage
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+        '404':
+          description: The stage doesn't exist
+  /suffixes:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: Get all the cards having the specified suffix
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /suffixes/{suffix}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: suffix
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get all the cards having the specified stage suffix
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+        '404':
+          description: The suffix doesn't exist
+  /trainer-types:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: Get the different trainer-types
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /trainer-types/{trainer-type}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: trainer-type
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the cards containing with the specified trainer-type
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+        '404':
+          description: The trainer-type doesn't exist
+  /variants:
+    get:
+      tags:
+        - filters
+      responses:
+        '200':
+          description: Get the different variants available
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /variants/{variant}:
+    get:
+      tags:
+        - filters
+      parameters:
+        - name: variant
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get the cards available in the specified variant
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CardResume'
+        '404':
+          description: The variant doesn't exist
+components:
+  schemas:
+    WeakRes:
+      type: array
+      xml:
+        name: WeakResItem
+        wrapped: true
+      items:
+        required:
+          - type
+        type: object
+        properties:
+          type:
+            type: string
+            example: Psychic
+          value:
+            type: string
+            example: x2
+    SerieResume:
+      required:
+        - id
+        - name
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        logo:
+          type: string
+    Serie:
+      required:
+        - id
+        - name
+        - sets
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        logo:
+          type: string
+        sets:
+          type: array
+          items:
+            $ref: '#/components/schemas/SetResume'
+    Set:
+      required:
+        - cardCount
+        - cards
+        - id
+        - name
+      type: object
+      properties:
+        id:
+          type: string
+          example: base1
+        name:
+          type: string
+          example: Base Set
+        logo:
+          type: string
+          example: https://assets.tcgdex.net/en/base/base1/logo
+        symbol:
+          type: string
+          example: https://assets.tcgdex.net/univ/base/base1/symbol
+        cardCount:
+          required:
+            - official
+            - total
+          type: object
+          properties:
+            total:
+              type: number
+              example: 101
+            official:
+              type: number
+              example: 100
+            normal:
+              type: number
+            reverse:
+              type: number
+            holo:
+              type: number
+            firstEd:
+              type: number
+        cards:
+          type: array
+          items:
+            $ref: '#/components/schemas/CardResume'
+    SetResume:
+      required:
+        - cardCount
+        - id
+        - name
+      type: object
+      properties:
+        id:
+          type: string
+          example: base1
+        name:
+          type: string
+          example: Base Set
+        logo:
+          type: string
+          example: https://assets.tcgdex.net/en/base/base1/logo
+        symbol:
+          type: string
+          example: https://assets.tcgdex.net/univ/base/base1/symbol
+        cardCount:
+          required:
+            - official
+            - total
+          type: object
+          properties:
+            total:
+              type: number
+              example: 101
+            official:
+              type: number
+              example: 100
+    CardResume:
+      required:
+        - id
+        - localId
+        - name
+      type: object
+      properties:
+        id:
+          type: string
+          example: base1-1
+        localId:
+          type: string
+          example: '1'
+        image:
+          type: string
+          example: https://assets.tcgdex.net/en/base/base1/1
+        name:
+          type: string
+          example: Alakazam
+    Card:
+      required:
+        - category
+        - id
+        - legal
+        - localId
+        - name
+        - rarity
+        - set
+      type: object
+      properties:
+        id:
+          type: string
+          example: base1-1
+        localId:
+          type: string
+          example: '1'
+        image:
+          type: string
+          example: https://assets.tcgdex.net/en/base/base1/1
+        name:
+          type: string
+          example: Alakazam
+        illustrator:
+          type: string
+          example: Ken Sugimori
+        category:
+          type: string
+          example: Pokemon
+        rarity:
+          type: string
+          example: Rare
+        set:
+          $ref: '#/components/schemas/SetResume'
+        variants:
+          required:
+            - firstEdition
+            - holo
+            - normal
+            - reverse
+          type: object
+          properties:
+            normal:
+              type: boolean
+            reverse:
+              type: boolean
+            holo:
+              type: boolean
+            firstEdition:
+              type: boolean
+        hp:
+          type: number
+          example: 80
+        types:
+          type: array
+          items:
+            type: string
+            example: Psychic
+        evolveFrom:
+          type: string
+          example: Kadabra
+        stage:
+          type: string
+          example: Stage2
+        suffix:
+          type: string
+        item:
+          required:
+            - effect
+            - name
+          type: object
+          properties:
+            name:
+              type: string
+            effect:
+              type: string
+        trainerType:
+          type: string
+        energyType:
+          type: string
+        regulationMark:
+          type: string
+          example: D
+        legal:
+          type: object
+          properties:
+            standard:
+              type: boolean
+              example: false
+            expanded:
+              type: boolean
+              example: false
+        description:
+          type: string
+        level:
+          type: number
+          example: 30
+        abilities:
+          type: array
+          items:
+            type: object
+            properties:
+              type:
+                type: string
+                example: Poke-POWER
+              name:
+                type: string
+                example: Damage Swap
+              effect:
+                type: string
+                example: As often as you like...
+        attacks:
+          type: array
+          items:
+            required:
+              - name
+            type: object
+            properties:
+              cost:
+                type: array
+                items:
+                  type: string
+                  example: ''
+              name:
+                type: string
+                example: Confuse Ray
+              effect:
+                type: string
+                example: Flip a coin. If heads, ...
+              damage:
+                type: number
+                example: 30
+        retreat:
+          type: number
+          example: 3
+        dexId:
+          type: array
+          xml:
+            name: dexIdItem
+            wrapped: true
+          items:
+            type: number
+        weaknesses:
+          type: array
+          xml:
+            name: weakness
+            wrapped: true
+          items:
+            $ref: '#/components/schemas/WeakRes'
+        resistances:
+          type: array
+          xml:
+            name: resistance
+            wrapped: true
+          items:
+            $ref: '#/components/schemas/WeakRes'
+      # xml:
+      #   name: Card
+    StringEndpoint:
+      required:
+        - cards
+        - name
+      type: object
+      properties:
+        name:
+          type: string
+        cards:
+          type: array
+          items:
+            $ref: '#/components/schemas/CardResume'
