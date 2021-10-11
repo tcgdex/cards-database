@@ -1,0 +1,73 @@
+{
+	"$schema": "./schema.json",
+	"__comment__": "Missing abilityTypes and some Trainer Types",
+	"abilityType": {
+		"Ability": "Ability",
+		"Ancient Trait": "Ancient Trait",
+		"Poke-BODY": "Poke-BODY",
+		"Poke-POWER": "Poke-POWER",
+		"Pokemon Power": "Pokemon Power"
+
+	},
+	"category": {
+		"Energy": "Energie",
+		"Pokemon": "Pokémon",
+		"Trainer": "Trainer"
+	},
+	"energyType": {
+		"Normal": "Basis",
+		"Special": "Spezial"
+	},
+	"rarity": {
+		"Amazing": "Atemberaubend",
+		"Common": "Häufig",
+		"None": "Ninguno",
+		"Rare": "Keine",
+		"Secret Rare": "Heimliche Seltenheit",
+		"Ultra Rare": "ultraselten",
+		"Uncommon": "Nicht so häufig"
+	},
+	"stage": {
+		"BREAK": "TURBO",
+		"Basic": "Basis",
+		"LEVEL-UP": "Level Up",
+		"MEGA": "MEGA",
+		"RESTORED": "Erweckt",
+		"Stage1": "Rang 1",
+		"Stage2": "Rang 2",
+		"VMAX": "VMAX",
+		"V-UNION": "V-UNION"
+	},
+	"suffix": {
+		"EX": "EX",
+		"GX": "GX",
+		"Legend": "LEGENDE",
+		"Prime": "Prime",
+		"SP": "SP",
+		"TAG TEAM-GX": "TAG TEAM-GX",
+		"V": "V"
+	},
+	"trainerType": {
+		"Ace Spec": "Ace Spec",
+		"Goldenrod Game Corner": "Goldenrod Game Corner",
+		"Item": "Itemkarte",
+		"Rocket's Secret Machine": "Rockets Geheime Maschine",
+		"Stadium": "Stadionkarte",
+		"Supporter": "Unterstützerkarte",
+		"Technical Machine": "Technische Maschine",
+		"Tool": "Pokémon-Ausrüstung"
+	},
+	"types": {
+		"Colorless": "Farblos",
+		"Darkness": "Finsternis",
+		"Dragon": "Drache",
+		"Fairy": "Fee",
+		"Fighting": "Kampf",
+		"Fire": "Feuer",
+		"Grass": "Pflanze",
+		"Lightning": "Elektro",
+		"Metal": "Metall",
+		"Psychic": "Psycho",
+		"Water": "Wasser"
+	}
+}

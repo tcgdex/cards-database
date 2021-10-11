@@ -1,0 +1,280 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"abilityType": {
+			"type": "object",
+			"properties": {
+				"Ability": {
+					"type": "string"
+				},
+				"Ancient Trait": {
+					"type": "string"
+				},
+				"Poke-BODY": {
+					"type": "string"
+				},
+				"Poke-POWER": {
+					"type": "string"
+				},
+				"Pokemon Power": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Ability",
+				"Ancient Trait",
+				"Poke-BODY",
+				"Poke-POWER",
+				"Pokemon Power"
+			]
+		},
+		"category": {
+			"type": "object",
+			"properties": {
+				"Energy": {
+					"type": "string"
+				},
+				"Pokemon": {
+					"type": "string"
+				},
+				"Trainer": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Energy",
+				"Pokemon",
+				"Trainer"
+			]
+		},
+		"energyType": {
+			"type": "object",
+			"properties": {
+				"Normal": {
+					"type": "string"
+				},
+				"Special": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Normal",
+				"Special"
+			]
+		},
+		"rarity": {
+			"type": "object",
+			"properties": {
+				"Amazing": {
+					"type": "string"
+				},
+				"Common": {
+					"type": "string"
+				},
+				"None": {
+					"type": "string"
+				},
+				"Rare": {
+					"type": "string"
+				},
+				"Secret Rare": {
+					"type": "string"
+				},
+				"Ultra Rare": {
+					"type": "string"
+				},
+				"Uncommon": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Amazing",
+				"Common",
+				"None",
+				"Rare",
+				"Secret Rare",
+				"Ultra Rare",
+				"Uncommon"
+			]
+		},
+		"stage": {
+			"type": "object",
+			"properties": {
+				"BREAK": {
+					"type": "string"
+				},
+				"Basic": {
+					"type": "string"
+				},
+				"LEVEL-UP": {
+					"type": "string"
+				},
+				"MEGA": {
+					"type": "string"
+				},
+				"RESTORED": {
+					"type": "string"
+				},
+				"Stage1": {
+					"type": "string"
+				},
+				"Stage2": {
+					"type": "string"
+				},
+				"VMAX": {
+					"type": "string"
+				},
+				"V-UNION": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"BREAK",
+				"Basic",
+				"LEVEL-UP",
+				"MEGA",
+				"RESTORED",
+				"Stage1",
+				"Stage2",
+				"VMAX",
+				"V-UNION"
+			]
+		},
+		"suffix": {
+			"type": "object",
+			"properties": {
+				"EX": {
+					"type": "string"
+				},
+				"GX": {
+					"type": "string"
+				},
+				"Legend": {
+					"type": "string"
+				},
+				"Prime": {
+					"type": "string"
+				},
+				"SP": {
+					"type": "string"
+				},
+				"TAG TEAM-GX": {
+					"type": "string"
+				},
+				"V": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"EX",
+				"GX",
+				"Legend",
+				"Prime",
+				"SP",
+				"TAG TEAM-GX",
+				"V"
+			]
+		},
+		"trainerType": {
+			"type": "object",
+			"properties": {
+				"Ace Spec": {
+					"type": "string"
+				},
+				"Goldenrod Game Corner": {
+					"type": "string"
+				},
+				"Item": {
+					"type": "string"
+				},
+				"Rocket's Secret Machine": {
+					"type": "string"
+				},
+				"Stadium": {
+					"type": "string"
+				},
+				"Supporter": {
+					"type": "string"
+				},
+				"Technical Machine": {
+					"type": "string"
+				},
+				"Tool": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Ace Spec",
+				"Goldenrod Game Corner",
+				"Item",
+				"Rocket's Secret Machine",
+				"Stadium",
+				"Supporter",
+				"Technical Machine",
+				"Tool"
+			]
+		},
+		"types": {
+			"type": "object",
+			"properties": {
+				"Colorless": {
+					"type": "string"
+				},
+				"Darkness": {
+					"type": "string"
+				},
+				"Dragon": {
+					"type": "string"
+				},
+				"Fairy": {
+					"type": "string"
+				},
+				"Fighting": {
+					"type": "string"
+				},
+				"Fire": {
+					"type": "string"
+				},
+				"Grass": {
+					"type": "string"
+				},
+				"Lightning": {
+					"type": "string"
+				},
+				"Metal": {
+					"type": "string"
+				},
+				"Psychic": {
+					"type": "string"
+				},
+				"Water": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Colorless",
+				"Darkness",
+				"Dragon",
+				"Fairy",
+				"Fighting",
+				"Fire",
+				"Grass",
+				"Lightning",
+				"Metal",
+				"Psychic",
+				"Water"
+			]
+		}
+	},
+	"required": [
+		"abilityType",
+		"category",
+		"energyType",
+		"rarity",
+		"stage",
+		"suffix",
+		"trainerType",
+		"types"
+	]
+}
