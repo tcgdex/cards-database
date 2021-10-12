@@ -1,4 +1,4 @@
-import { Filter } from './interfaces'
+import { Filter } from '../interfaces'
 
 /**
  * File Explanation
@@ -10,7 +10,7 @@ import { Filter } from './interfaces'
  * - 2021: https://www.pokemon.com/us/pokemon-news/2021-season-pokemon-tcg-format-rotation/
  * - 2020: https://www.pokemon.com/us/pokemon-news/2020-season-pokemon-tcg-format-rotation/
  *
- * For banned cards we are currently following this webpage
+ * For banned cards we are also following this webpage
  * - https://www.pokemon.com/us/pokemon-tcg-banned-card-list/
  */
 

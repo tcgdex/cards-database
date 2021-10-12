@@ -1,9 +1,5 @@
 import { ArrayExpression, Identifier, JSCodeshift, Literal, ObjectExpression, Property, Transform } from "jscodeshift";
 
-/**
- * This file is ran when there is mass changes being done
- */
-
 interface ObjectField {
 	type: 'Object'
 	items: Record<string, Field>
@@ -82,6 +78,9 @@ function set(j: JSCodeshift, path: ObjectExpression | ArrayExpression, value: Po
 	}
 }
 
+/**
+ * Start editing here !
+ */
 const transformer: Transform = (file, api) => {
 	const j = api.jscodeshift
 

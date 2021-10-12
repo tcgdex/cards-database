@@ -1,0 +1,71 @@
+{
+	"$schema": "./schema.json",
+	"abilityType": {
+		"Ability": "Talent",
+		"Ancient Trait": "Trait Antique",
+		"Poke-BODY": "Poké-BODY",
+		"Poke-POWER": "Poké-POWER",
+		"Pokemon Power": "Pouvoir Pokémon"
+	},
+	"category": {
+		"Energy": "Énergie",
+		"Pokemon": "Pokémon",
+		"Trainer": "Dresseur"
+	},
+	"energyType": {
+		"Normal": "De base",
+		"Special": "Spécial"
+	},
+	"rarity": {
+		"Amazing": "Magnifique",
+		"Common": "Commune",
+		"None": "Sans Rareté",
+		"Rare": "Rare",
+		"Secret Rare": "Magnifique rare",
+		"Ultra Rare": "Ultra Rare",
+		"Uncommon": "Peu Commune"
+	},
+	"stage": {
+		"BREAK": "TURBO",
+		"Basic": "De base",
+		"LEVEL-UP": "Niveau Sup",
+		"MEGA": "MÉGA",
+		"RESTORED": "Restauré",
+		"Stage1": "Niveau 1",
+		"Stage2": "Niveau 2",
+		"VMAX": "ESCOUADE",
+		"V-UNION": "V-UNION"
+	},
+	"suffix": {
+		"EX": "EX",
+		"GX": "GX",
+		"Legend": "LÉGENDE",
+		"Prime": "Prime",
+		"SP": "SP",
+		"TAG TEAM-GX": "TAG TEAM-GX",
+		"V": "V"
+	},
+	"trainerType": {
+		"Ace Spec": "High-Tech",
+		"Goldenrod Game Corner": "Salle de jeu de Doublonville",
+		"Item": "Objet",
+		"Rocket's Secret Machine": "Machine secrète des Rocket",
+		"Stadium": "Stade",
+		"Supporter": "Supporter",
+		"Technical Machine": "Machine Technique",
+		"Tool": "Outil"
+	},
+	"types": {
+		"Colorless": "Incolore",
+		"Darkness": "Obscurité",
+		"Dragon": "Dragon",
+		"Fairy": "Fée",
+		"Fighting": "Combat",
+		"Fire": "Feu",
+		"Grass": "Plante",
+		"Lightning": "Électrique",
+		"Metal": "Métal",
+		"Psychic": "Psy",
+		"Water": "Eau"
+	}
+}
