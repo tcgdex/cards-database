@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Plusle",
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		311,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,7 +32,7 @@ const card: Card = {
 				en: "Cheer Up",
 			},
 			effect: {
-				en: "Draw a card. If Minun is in play, draw 2 cards instead.",
+				en: "Draw a card. If you have Minun in play, draw 2 cards instead.",
 			},
 
 		},
@@ -45,7 +47,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -57,18 +59,18 @@ const card: Card = {
 				en: "Body Bolt",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon that has any Poké-bodies. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			},
-			damage: 30,
+				en: "Choose 1 of your opponent’s Pokémon that has any Poké-Bodies. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			}
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fighting"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -76,9 +78,14 @@ const card: Card = {
 		},
 	],
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Manaphy",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		490,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -56,10 +59,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

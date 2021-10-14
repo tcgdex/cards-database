@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Yanmega",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		469,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Yanma",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -53,12 +57,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -66,9 +72,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "By churning its wings, it creates shock waves that inflict critical internal injuries to foes."
+	},
 
+	retreat: 0,
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

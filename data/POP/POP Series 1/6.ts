@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Beautifly",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		267,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Silcoon",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -54,17 +58,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Fire"
 		},
 	],
 
-
-
-
-
+	retreat: 0
 }
 
 export default card

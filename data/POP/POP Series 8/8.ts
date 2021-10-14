@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Luxio",
 	},
-	illustrator: "Ken Sugimori",
+
+	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		404,
 	],
+
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Shinx",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -34,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -52,12 +56,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -65,9 +71,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups."
+	},
 
+	retreat: 0,
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

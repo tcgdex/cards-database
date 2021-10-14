@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Swellow",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		277,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Tailow",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -32,7 +36,7 @@ const card: Card = {
 				en: "Focus Energy",
 			},
 			effect: {
-				en: "During your next turn, base damage of Swellow's Agility is 70 instead of 30.",
+				en: "During your next turn, base damage of Swellow’s Agility is 70 instead of 30.",
 			},
 
 		},
@@ -45,18 +49,19 @@ const card: Card = {
 				en: "Agility",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent's next turn.",
+				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent’s next turn.",
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Lightning"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -64,9 +69,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

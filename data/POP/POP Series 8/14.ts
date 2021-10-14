@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Happiny",
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		440,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -43,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -50,10 +55,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It loves round white things. It carries an egg-shaped rock in imitation of CHANSEY."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

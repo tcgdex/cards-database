@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Latias",
 	},
+
 	illustrator: "Daisuke Ito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		380,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,12 +53,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -64,9 +68,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its body is covered with a down that can refract light in such a way that it becomes invisble."
+	},
 
+	retreat: 1,
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

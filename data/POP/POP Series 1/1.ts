@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Blaziken",
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		257,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Combusken",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -48,21 +52,18 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Water"
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

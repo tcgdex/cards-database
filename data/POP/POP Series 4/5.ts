@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Sceptile",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		254,
 	],
+
 	hp: 100,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Grovyle",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -29,10 +34,11 @@ const card: Card = {
 				en: "Energy Trans",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Sceptile is affected by a Special Condition.",
+				en: "As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can’t be used if Sceptile is affected by a Special Condition.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -46,16 +52,17 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Fire"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -63,9 +70,14 @@ const card: Card = {
 		},
 	],
 
+	retreat: 3,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

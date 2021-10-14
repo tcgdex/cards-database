@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Jolteon",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		135,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -50,16 +54,17 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fighting"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -67,9 +72,14 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

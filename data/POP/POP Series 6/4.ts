@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Pachirisu",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		417,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,12 +50,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -61,9 +65,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes."
+	},
 
+	retreat: 1,
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

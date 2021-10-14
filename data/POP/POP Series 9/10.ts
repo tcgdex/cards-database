@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Pachirisu",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		417,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -41,21 +43,23 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Gulp",
+				en: "Poison Berry",
 			},
 			effect: {
 				en: "If you have Croagunk in play, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Poisoned.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -63,9 +67,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 1,
 
+	description: {
+		en: "It makes electricity with pouches in its cheeks and shoots charges from its tail. It live atop trees."
+	},
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

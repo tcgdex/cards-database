@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Tyranitar ex",
 	},
-	illustrator: "Hikaru Koike",
+
+	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 150,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Pupitar",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -46,22 +50,22 @@ const card: Card = {
 				en: "Critical Crush",
 			},
 			effect: {
-				en: "Discard 2 Basic Energy cards attached to Tyranitar ex or this attack does nothing.",
+				en: "Discard 2 basic Energy cards attached to Tyranitar ex or this attack does nothing.",
 			},
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Grass",
-			value: "×2"
+			type: "Grass"
 		},
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fighting"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -69,9 +73,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	suffix: "EX",
+	retreat: 4
 }
 
 export default card

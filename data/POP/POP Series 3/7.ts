@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Combusken",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		256,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -43,23 +45,27 @@ const card: Card = {
 				en: "Flamethrower",
 			},
 			effect: {
-				en: "Discard a R Energy attached to Combusken.",
+				en: "Discard a Fire Energy attached to Combusken.",
 			},
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Water"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

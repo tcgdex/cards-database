@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Ho-Oh ex",
 	},
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		250,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fire",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Golden Wing",
 			},
 			effect: {
-				en: "If Ho-Oh ex would be Knocked Out by damage from an opponent's attack, you may move up to 2 Energy attached to Ho-Oh ex to your Pokémon in any way you like.",
+				en: "If Ho-Oh ex would be Knocked Out by damage from an opponent’s attack, you may move up to 2 Energy attached to Ho-Oh ex to your Pokémon in any way you like.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -44,21 +48,26 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 20 more damage for each type of basic Energy card attached to Ho-Oh ex.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Water"
 		},
 	],
 
+	suffix: "EX",
+	retreat: 2,
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

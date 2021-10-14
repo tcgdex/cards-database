@@ -3,23 +3,25 @@ import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Zangoose (Delta Species)",
+		en: "Zangoose δ",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		335,
 	],
+
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,7 +32,7 @@ const card: Card = {
 				en: "Detect",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Zangoose during your opponent's next turn.",
+				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Zangoose during your opponent’s next turn.",
 			},
 
 		},
@@ -48,17 +50,21 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fighting"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

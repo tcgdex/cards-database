@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Gible",
 	},
+
 	illustrator: "Hiroki Fuchino",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		443,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,6 +38,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
@@ -43,10 +46,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its nests is small, horizontal holes in cave walls. It pounces to catch prey that stray too close."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card
