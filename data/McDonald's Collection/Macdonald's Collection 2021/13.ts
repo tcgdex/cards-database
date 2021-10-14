@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Tepig",
 		fr: "Gruikui",
 	},
-	illustrator: "Ken Sugimori",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Ken Sugimori",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		498,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -36,10 +38,11 @@ const card: Card = {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
 			},
-			damage: 30,
+			damage: "30",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -49,8 +52,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

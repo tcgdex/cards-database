@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Rowlet",
 		fr: "Brindibou",
 	},
-	illustrator: "Megumi Mizutani",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Megumi Mizutani",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		722,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Charge",
 			},
 
-			damage: 10,
+			damage: "10",
 
 		},
 		{
@@ -45,10 +47,11 @@ const card: Card = {
 				fr: "Feuillage",
 			},
 
-			damage: 20,
+			damage: "20",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

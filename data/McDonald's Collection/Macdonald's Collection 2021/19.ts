@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Mudkip",
 		fr: "Gobou",
 	},
-	illustrator: "Aya Kusube",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Aya Kusube",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		258,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Charge",
 			},
 
-			damage: 10,
+			damage: "10",
 
 		},
 		{
@@ -45,10 +47,11 @@ const card: Card = {
 				fr: "Coud'Boue",
 			},
 
-			damage: 20,
+			damage: "20",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Bulbasaur",
 	},
-	illustrator: "Sanosuke Sakuma",
+
+	illustrator: "Mizue",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		1,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -31,10 +33,11 @@ const card: Card = {
 				en: "Razor Leaf",
 			},
 
-			damage: 30,
+			damage: "30",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -44,8 +47,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
