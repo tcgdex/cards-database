@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Charge Beam"
 		},
 
-		damage: "10",
+		damage: 10,
 
 		effect: {
 			en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon."
@@ -27,7 +27,7 @@ const card: Card = {
 			en: "Irongrip"
 		},
 
-		damage: "20"
+		damage: 20
 	}],
 
 	variants: {

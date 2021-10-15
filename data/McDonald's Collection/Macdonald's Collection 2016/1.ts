@@ -25,8 +25,14 @@ const card: Card = {
 			en: "Gnaw"
 		},
 
-		damage: "10"
-	}]
+		damage: 10
+	}],
+
+	name: {
+		en: "Vulpix"
+	},
+
+	rarity: "None"
 }
 
 export default card

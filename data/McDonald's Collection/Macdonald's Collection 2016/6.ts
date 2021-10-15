@@ -25,8 +25,14 @@ const card: Card = {
 			en: "Electro Ball"
 		},
 
-		damage: "30"
-	}]
+		damage: 30
+	}],
+
+	name: {
+		en: "Pikachu"
+	},
+
+	rarity: "None"
 }
 
 export default card

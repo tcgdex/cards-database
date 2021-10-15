@@ -17,12 +17,18 @@ const card: Card = {
 			en: "Epic Splash"
 		},
 
-		damage: "30",
+		damage: 30,
 
 		effect: {
 			en: "Flip 2 coins. If either of them is tails, this attack does nothing."
 		}
-	}]
+	}],
+
+	name: {
+		en: "Magikarp"
+	},
+
+	rarity: "None"
 }
 
 export default card

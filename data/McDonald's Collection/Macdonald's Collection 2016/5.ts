@@ -22,7 +22,13 @@ const card: Card = {
 		effect: {
 			en: "Flip 3 coins. This attack does 10 damage times the number of heads."
 		}
-	}]
+	}],
+
+	name: {
+		en: "Totodile"
+	},
+
+	rarity: "None"
 }
 
 export default card

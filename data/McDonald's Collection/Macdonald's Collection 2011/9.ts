@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Scratch"
 		},
 
-		damage: "10"
+		damage: 10
 	}, {
 		name: {
 			en: "Fury Swipes"

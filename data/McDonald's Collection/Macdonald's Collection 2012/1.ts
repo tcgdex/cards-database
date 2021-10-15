@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Wrap"
 		},
 
-		damage: "20",
+		damage: 20,
 
 		effect: {
 			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
@@ -27,7 +27,7 @@ const card: Card = {
 			en: "Tackle"
 		},
 
-		damage: "30"
+		damage: 30
 	}],
 
 	variants: {

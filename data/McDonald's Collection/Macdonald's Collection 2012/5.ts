@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Water Gun"
 		},
 
-		damage: "30"
+		damage: 30
 	}, {
 		name: {
 			en: "Razor Shell"

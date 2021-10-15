@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Guard Press"
 		},
 
-		damage: "60",
+		damage: 60,
 
 		effect: {
 			en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."

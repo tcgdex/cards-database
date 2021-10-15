@@ -17,8 +17,14 @@ const card: Card = {
 			en: "Will-O-Wisp"
 		},
 
-		damage: "20"
-	}]
+		damage: 20
+	}],
+
+	name: {
+		en: "Fennekin"
+	},
+
+	rarity: "None"
 }
 
 export default card

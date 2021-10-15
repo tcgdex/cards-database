@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Thundershock"
 		},
 
-		damage: "10",
+		damage: 10,
 
 		effect: {
 			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."

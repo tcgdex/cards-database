@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Flamethrower"
 		},
 
-		damage: "80",
+		damage: 80,
 
 		effect: {
 			en: "Discard an Energy from this Pokémon."

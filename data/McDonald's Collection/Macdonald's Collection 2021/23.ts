@@ -34,7 +34,7 @@ const card: Card = {
 				fr: "Écras’Face",
 			},
 
-			damage: "10",
+			damage: 10,
 
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Pistolet à O",
 			},
 
-			damage: "20",
+			damage: 20,
 
 		},
 	],

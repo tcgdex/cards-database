@@ -17,13 +17,13 @@ const card: Card = {
 			en: "Pound"
 		},
 
-		damage: "20"
+		damage: 20
 	}, {
 		name: {
 			en: "Wave Splash"
 		},
 
-		damage: "60"
+		damage: 60
 	}],
 
 	variants: {

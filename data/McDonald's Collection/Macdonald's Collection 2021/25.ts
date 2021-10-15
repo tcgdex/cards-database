@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Ronge",
 			},
 
-			damage: "20",
+			damage: 20,
 
 		},
 	],

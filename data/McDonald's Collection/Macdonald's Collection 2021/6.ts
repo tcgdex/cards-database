@@ -34,7 +34,7 @@ const card: Card = {
 				fr: "Fouet Lianes",
 			},
 
-			damage: "10",
+			damage: 10,
 
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Canon Graine",
 			},
 
-			damage: "20",
+			damage: 20,
 
 		},
 	],

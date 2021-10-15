@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Enfoncement",
 			},
 
-			damage: "30",
+			damage: 30,
 
 		},
 	],

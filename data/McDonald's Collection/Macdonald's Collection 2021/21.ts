@@ -38,7 +38,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 			},
-			damage: "20",
+			damage: 20,
 
 		},
 	],

@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Mega Drain"
 		},
 
-		damage: "20",
+		damage: 20,
 
 		effect: {
 			en: "Heal 20 damage from this Pokémon."

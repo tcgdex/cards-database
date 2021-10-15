@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Gnaw"
 		},
 
-		damage: "20"
+		damage: 20
 	}],
 
 	variants: {

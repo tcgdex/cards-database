@@ -32,7 +32,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			},
-			damage: "10",
+			damage: 10,
 
 		},
 	],

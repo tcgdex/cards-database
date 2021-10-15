@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Surprise Attack"
 		},
 
-		damage: "20",
+		damage: 20,
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing."

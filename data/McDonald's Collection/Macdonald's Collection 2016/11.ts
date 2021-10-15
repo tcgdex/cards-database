@@ -22,7 +22,13 @@ const card: Card = {
 		effect: {
 			en: "If this Pokémon has any Darkness Energy attached to it, this attack does 20 more damage."
 		}
-	}]
+	}],
+
+	name: {
+		en: "Meowth"
+	},
+
+	rarity: "None"
 }
 
 export default card

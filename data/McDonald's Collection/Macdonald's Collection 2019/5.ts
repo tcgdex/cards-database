@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Aqua Bullet"
 		},
 
-		damage: "20",
+		damage: 20,
 
 		effect: {
 			en: "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"

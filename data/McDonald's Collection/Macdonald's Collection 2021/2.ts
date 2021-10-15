@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 			},
-			damage: "10",
+			damage: 10,
 
 		},
 	],

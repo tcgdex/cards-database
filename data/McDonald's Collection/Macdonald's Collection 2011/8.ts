@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Sand Tomb"
 		},
 
-		damage: "30",
+		damage: 30,
 
 		effect: {
 			en: "The Defending Pokémon can’t retreat during your opponent’s next turn."

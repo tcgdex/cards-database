@@ -17,8 +17,14 @@ const card: Card = {
 			en: "Corkscrew Punch"
 		},
 
-		damage: "30"
-	}]
+		damage: 30
+	}],
+
+	name: {
+		en: "Scraggy"
+	},
+
+	rarity: "None"
 }
 
 export default card

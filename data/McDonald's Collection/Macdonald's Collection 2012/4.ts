@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Heat Crash"
 		},
 
-		damage: "50"
+		damage: 50
 	}],
 
 	variants: {

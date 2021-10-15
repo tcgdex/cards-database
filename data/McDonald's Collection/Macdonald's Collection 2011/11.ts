@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Gust"
 		},
 
-		damage: "10"
+		damage: 10
 	}],
 
 	variants: {

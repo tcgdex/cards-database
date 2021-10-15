@@ -34,7 +34,7 @@ const card: Card = {
 				fr: "Picpic",
 			},
 
-			damage: "10",
+			damage: 10,
 
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Grosse Vague",
 			},
 
-			damage: "20",
+			damage: 20,
 
 		},
 	],

@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Headbutt"
 		},
 
-		damage: "10"
+		damage: 10
 	}],
 
 	variants: {

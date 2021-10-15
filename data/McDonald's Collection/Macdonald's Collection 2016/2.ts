@@ -17,12 +17,18 @@ const card: Card = {
 			en: "Ember"
 		},
 
-		damage: "20",
+		damage: 20,
 
 		effect: {
 			en: "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon."
 		}
-	}]
+	}],
+
+	name: {
+		en: "Torchic"
+	},
+
+	rarity: "None"
 }
 
 export default card

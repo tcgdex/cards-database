@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Psy Bolt"
 		},
 
-		damage: "20",
+		damage: 20,
 
 		effect: {
 			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."

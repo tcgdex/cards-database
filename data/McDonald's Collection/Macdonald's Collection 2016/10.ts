@@ -25,12 +25,18 @@ const card: Card = {
 			en: "Spiral Drain"
 		},
 
-		damage: "60",
+		damage: 60,
 
 		effect: {
 			en: "Heal 20 damage from this Pokémon."
 		}
-	}]
+	}],
+
+	name: {
+		en: "Dedenne"
+	},
+
+	rarity: "None"
 }
 
 export default card

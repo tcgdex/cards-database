@@ -34,7 +34,7 @@ const card: Card = {
 				fr: "Griffe",
 			},
 
-			damage: "10",
+			damage: 10,
 
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Charbon Mutant",
 			},
 
-			damage: "20",
+			damage: 20,
 
 		},
 	],

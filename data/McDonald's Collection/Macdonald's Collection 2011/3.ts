@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Ember"
 		},
 
-		damage: "30",
+		damage: 30,
 
 		effect: {
 			en: "Discard an Energy attached to this Pokémon."

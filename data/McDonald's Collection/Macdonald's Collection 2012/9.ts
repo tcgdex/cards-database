@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Knock Off"
 		},
 
-		damage: "20",
+		damage: 20,
 
 		effect: {
 			en: "Flip a coin. If heads, discard a random card from your opponent’s hand."

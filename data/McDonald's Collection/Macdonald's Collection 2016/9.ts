@@ -17,12 +17,18 @@ const card: Card = {
 			en: "Sweet Kiss"
 		},
 
-		damage: "10",
+		damage: 10,
 
 		effect: {
 			en: "Your opponent draws a card."
 		}
-	}]
+	}],
+
+	name: {
+		en: "Togepi"
+	},
+
+	rarity: "None"
 }
 
 export default card

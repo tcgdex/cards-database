@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Slash"
 		},
 
-		damage: "20"
+		damage: 20
 	}],
 
 	variants: {

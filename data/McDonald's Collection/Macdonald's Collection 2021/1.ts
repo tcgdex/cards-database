@@ -33,7 +33,7 @@ const card: Card = {
 				en: "Razor Leaf",
 			},
 
-			damage: "30",
+			damage: 30,
 
 		},
 	],

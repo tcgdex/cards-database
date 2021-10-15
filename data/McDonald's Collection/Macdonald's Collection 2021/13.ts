@@ -38,7 +38,7 @@ const card: Card = {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
 			},
-			damage: "30",
+			damage: 30,
 
 		},
 	],

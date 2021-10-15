@@ -30,7 +30,7 @@ const card: Card = {
 				fr: "Tapotige",
 			},
 
-			damage: "30",
+			damage: 30,
 
 		},
 	],

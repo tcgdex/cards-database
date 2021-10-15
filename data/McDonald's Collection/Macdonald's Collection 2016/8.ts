@@ -17,7 +17,7 @@ const card: Card = {
 			en: "Rollout"
 		},
 
-		damage: "10"
+		damage: 10
 	}, {
 		name: {
 			en: "Heartfelt Song"
@@ -26,7 +26,13 @@ const card: Card = {
 		effect: {
 			en: "Discard a Darkness Energy attached to your opponent’s Active Pokémon."
 		}
-	}]
+	}],
+
+	name: {
+		en: "Jigglypuff"
+	},
+
+	rarity: "None"
 }
 
 export default card
