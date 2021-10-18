@@ -6,19 +6,18 @@ const card: Card = {
 		en: "Sobble",
 		fr: "Larméléon",
 	},
+
 	illustrator: "Mizue",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -31,13 +30,14 @@ const card: Card = {
 				fr: "Étreinte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -47,8 +47,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

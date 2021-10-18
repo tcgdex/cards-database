@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Turtwig",
 	},
+
 	illustrator: "OOYAMA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		1,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,6 +50,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -57,8 +60,16 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

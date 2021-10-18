@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Piplup",
 		fr: "Tiplouf",
 	},
-	illustrator: "Shibuzoh.",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Shibuzoh.",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		393,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
