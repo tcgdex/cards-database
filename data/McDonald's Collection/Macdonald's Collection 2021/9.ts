@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Charmander",
 		fr: "Salamèche",
 	},
-	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Kagemaru Himeno",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		4,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
