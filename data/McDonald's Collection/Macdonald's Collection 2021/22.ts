@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Froakie",
 		fr: "Grenousse",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		656,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

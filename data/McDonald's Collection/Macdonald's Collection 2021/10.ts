@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Cyndaquil",
 		fr: "Héricendre",
 	},
-	illustrator: "kirisAki",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "kirisAki",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		155,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -37,6 +39,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -46,8 +49,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

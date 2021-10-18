@@ -3,27 +3,31 @@ import Set from '../Macdonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Monferno",
+		en: "Chimchar",
 		fr: "Chimpenfeu",
 	},
-	illustrator: "Shigenori Negishi",
-	rarity: "Uncommon",
-	category: "Pokemon",
 
+	illustrator: "Kouki Saitou",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		391,
 	],
-	hp: 80,
+
+	hp: 60,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Chimchar",
 		fr: "Ouisticram",
 	},
-	stage: "Stage1",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -31,17 +35,18 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Super Singe",
+				en: "Fury Swipes",
 				fr: "Super Roussi",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned.",
+				en: "Flip 3 coins. This attack does 10 damage for each heads.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			},
-			damage: 20,
+			damage: "10×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -51,8 +56,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

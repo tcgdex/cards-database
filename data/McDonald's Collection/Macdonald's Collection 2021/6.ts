@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Chespin",
 		fr: "Marisson",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		650,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
