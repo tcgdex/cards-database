@@ -6,19 +6,18 @@ const card: Card = {
 		en: "Scorbunny",
 		fr: "Flambino",
 	},
+
 	illustrator: "Hitoshi Ariga",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,13 +29,14 @@ const card: Card = {
 				fr: "Super Roussi",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
+				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			},
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -46,8 +46,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A warm-up of running around gets fire energy coursing through this Pokémon’s body. Once that happens, it’s ready to fight at full power."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

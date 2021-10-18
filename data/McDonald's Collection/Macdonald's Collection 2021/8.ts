@@ -6,19 +6,18 @@ const card: Card = {
 		en: "Grookey",
 		fr: "Ouistempo",
 	},
+
 	illustrator: "kirisAki",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -35,6 +34,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -44,8 +44,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

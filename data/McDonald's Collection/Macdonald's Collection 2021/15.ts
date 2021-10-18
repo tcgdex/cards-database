@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Litten",
 		fr: "Flamiaou",
 	},
-	illustrator: "Akira Komayama",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Akira Komayama",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		725,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
