@@ -12,6 +12,8 @@ interface variants {
 	reverse?: boolean
 	holo?: boolean
 	firstEdition?: boolean
+	jumbo?: boolean
+	preRelease?: boolean
 }
 
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
