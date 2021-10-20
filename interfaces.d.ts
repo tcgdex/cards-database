@@ -314,3 +314,23 @@ export interface Filter {
 		cards: Array<string>
 	}
 }
+
+export interface Deck {
+	id: string
+	name: Languages
+	typesFocus: Array<Types>
+	cards: Array<{
+		/**
+		 * Card Global ID
+		 */
+		id: string
+		/**
+		 * Card quantity in the deck
+		 */
+		quantity?: number
+		/**
+		 * Card variant
+		 */
+		variant?: keyof Omit<variants, 'normal' | 'firstEdition'>
+	} | string>
+}
