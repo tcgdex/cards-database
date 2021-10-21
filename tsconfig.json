@@ -1,5 +1,5 @@
 {
-	"include": ["data", "interfaces.d.ts"],
+	"include": ["data", "interfaces.d.ts", "meta"],
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",
