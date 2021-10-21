@@ -40,10 +40,10 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon that have Special Energy attached.",
-			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon de votre adversaire auxquels de l’Énergie spéciale est attachée.",
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached.",
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon de votre adversaire auxquels de l'Énergie spéciale est attachée.",
 			es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon de tu rival que tengan alguna Energía Especial unida a ellos.",
-			pt: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon that have Special Energy attached.",
+			pt: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached.",
 			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon del tuo avversario che hanno Energie speciali assegnate.",
 			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon deines Gegners, an die Spezial-Energie angelegt ist, zugefügt wird."
 		}
@@ -60,11 +60,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
+			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
 			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-			pt: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
+			pt: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
 			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		},
 
@@ -82,7 +82,10 @@ const card: Card = {
 		it: "Duraludon-V",
 		pt: "Duraludon V",
 		de: "Duraludon-V"
-	}
+	},
+
+	regulationMark: "E",
+
 }
 
 export default card

@@ -35,7 +35,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
 			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno della tua panchina.",

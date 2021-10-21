@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its ability to deflect any attack led to it being known as the Fighting Master’s Shield. It was feared and respected by all."
+		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
 	},
 
 	stage: "Basic",
@@ -79,7 +79,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost."
+			en: "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
 		},
 
 		damage: "60×"
@@ -69,7 +69,7 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

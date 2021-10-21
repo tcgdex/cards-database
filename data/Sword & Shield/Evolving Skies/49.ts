@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
+			fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
 			es: "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
 			it: "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
 			pt: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
@@ -69,10 +69,11 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When Pikachu meet, they’ll touch their tails together and exchange electricity through them as a form of greeting."
+		en: "When Pikachu meet, they'll touch their tails together and exchange electricity through them as a form of greeting."
 	},
 
-	dexId: [25]
+	dexId: [25],
+	regulationMark: "E"
 }
 
 export default card

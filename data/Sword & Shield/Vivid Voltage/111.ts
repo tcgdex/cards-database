@@ -46,7 +46,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 damage for each Pokémon Tool card in your discard pile. Then, shuffle those cards into your deck.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque carte Outil Pokémon dans votre pile de défausse. Mélangez ensuite ces cartes avec votre deck.",
+				fr: "Cette attaque inflige 30 dégâts pour chaque carte Outil Pokémon dans votre pile de défausse. Mélangez ensuite ces cartes avec votre deck.",
 				es: "Este ataque hace 30 puntos de daño por cada carta de Herramienta Pokémon en tu pila de descartes. Después, pon esas cartas en tu baraja y barájalas todas.",
 				it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon nella tua pila degli scarti. Poi rimischia quelle carte nel tuo mazzo.",
 				pt: "Este ataque causa 30 pontos de dano para cada carta de Ferramenta Pokémon na sua pilha de descarte. Em seguida, embaralhe aquelas cartas no seu baralho.",
@@ -70,7 +70,7 @@ const card: Card = {
 				de: "Giftspray"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				en: "Your opponent's Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",

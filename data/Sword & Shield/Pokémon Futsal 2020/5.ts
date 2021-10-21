@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping."
+		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	},
 
 	stage: "Basic",
@@ -26,7 +26,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon."
+			en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon."
 		}
 	}, {
 		cost: ["Water", "Colorless"],

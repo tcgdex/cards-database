@@ -64,7 +64,7 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

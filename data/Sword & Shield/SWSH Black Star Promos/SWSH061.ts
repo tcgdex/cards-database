@@ -28,7 +28,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu’à 2 cartes Énergie Lightning, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie Lightning, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
 			en: "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
 			es: "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
@@ -46,7 +46,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Défaussez toute l’Énergie de ce Pokémon.",
+			fr: "Défaussez toute l'Énergie de ce Pokémon.",
 			en: "Discard all Energy from this Pokémon.",
 			es: "Descarta todas las Energías de este Pokémon.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
@@ -64,7 +64,6 @@ const card: Card = {
 
 	retreat: 1,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [25],
 
 	variants: {
@@ -72,7 +71,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

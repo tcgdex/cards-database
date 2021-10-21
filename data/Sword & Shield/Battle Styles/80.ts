@@ -40,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin for each Energy attached to this Pokémon. This attack does 90 damage for each heads.",
-			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 90 dégâts pour chaque côté face.",
+			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 90 dégâts pour chaque côté face.",
 			es: "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 90 puntos de daño por cada cara.",
 			it: "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 90 danni ogni volta che esce testa.",
 			pt: "Jogue 1 moeda para cada Energia ligada a este Pokémon. Este ataque causa 90 pontos de dano para cada cara.",
@@ -61,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 50 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
 			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
 			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "While it’s engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area."
+		en: "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area."
 	}
 }
 

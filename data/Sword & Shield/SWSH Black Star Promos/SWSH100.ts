@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	category: "Pokemon",
 	stage: "Basic",
-	suffix: "V",
 
 	name: {
 		en: "Venusaur V"
@@ -55,7 +54,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

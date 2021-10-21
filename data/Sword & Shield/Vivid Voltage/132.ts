@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your opponent has 5 or fewer cards in their hand, this attack does nothing.",
-				fr: "Si votre adversaire a 5 cartes ou moins dans sa main, cette attaque ne fait rien.",
+				fr: "Si votre adversaire a 5 cartes ou moins dans sa main, cette attaque ne fait rien.",
 				es: "Si tu rival tiene 5 o menos cartas en su mano, este ataque no hace nada.",
 				it: "Se il tuo avversario ha cinque o meno carte in mano, questo attacco non ha effetto.",
 				pt: "Se o seu oponente tiver 5 ou menos cartas na própria mão, este ataque não fará nada.",

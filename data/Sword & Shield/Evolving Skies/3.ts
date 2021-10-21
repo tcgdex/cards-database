@@ -83,7 +83,8 @@ const card: Card = {
 		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun."
 	},
 
-	dexId: [188]
+	dexId: [188],
+	regulationMark: "E"
 }
 
 export default card

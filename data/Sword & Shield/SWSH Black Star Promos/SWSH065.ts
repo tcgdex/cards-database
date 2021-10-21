@@ -69,7 +69,6 @@ const card: Card = {
 
 	retreat: 1,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [133],
 
 	variants: {
@@ -77,7 +76,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

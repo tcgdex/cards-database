@@ -32,7 +32,7 @@ const card: Card = {
 			en: "Wave Splash",
 			fr: "Grosse Vague",
 			es: "Chapoteo Ondulante",
-			it: "Schizzi d’Onda",
+			it: "Schizzi d'Onda",
 			pt: "Wave Splash",
 			de: "Wellenplatscher"
 		},
@@ -58,10 +58,11 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives at the water’s edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night."
+		en: "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night."
 	},
 
-	dexId: [271]
+	dexId: [271],
+	regulationMark: "E"
 }
 
 export default card

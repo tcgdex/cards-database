@@ -44,8 +44,8 @@ const card: Card = {
 				de: "Flackerndes Licht"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent’s next turn, the Defending Pokémon can’t attack.",
-				fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
+				en: "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
 				es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
 				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
 				pt: "Jogue 1 moeda. Se sair cara, durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
@@ -69,9 +69,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Glimwood Tangle is in play, this attack does 60 more damage.",
-				fr: "Si Forêt de Lumirinth est en jeu, cette attaque inflige 60 dégâts supplémentaires.",
+				fr: "Si Forêt de Lumirinth est en jeu, cette attaque inflige 60 dégâts supplémentaires.",
 				es: "Si Bosque Lumirinto está en juego, este ataque hace 60 puntos de daño más.",
-				it: "Se c’è in gioco Bosco Brillabirinto, questo attacco infligge 60 danni in più.",
+				it: "Se c'è in gioco Bosco Brillabirinto, questo attacco infligge 60 danni in più.",
 				pt: "Se Bosque Glimwood estiver em jogo, este ataque causará 60 pontos de dano a mais.",
 				de: "Wenn Wirrschein-Wald im Spiel ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},

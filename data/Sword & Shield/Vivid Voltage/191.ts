@@ -39,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Vous pouvez chercher dans votre deck jusqu’à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
+			fr: "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
 			en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
 			es: "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
@@ -72,7 +72,7 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	suffix: "V"
+
 }
 
 export default card

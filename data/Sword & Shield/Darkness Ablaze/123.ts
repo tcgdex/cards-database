@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10.",
-				fr: "Si ce Pokémon a tous ses PV et doit être mis K.O. par les dégâts d’une attaque, il n’est pas mis K.O. et il lui reste 10 PV.",
+				fr: "Si ce Pokémon a tous ses PV et doit être mis K.O. par les dégâts d'une attaque, il n'est pas mis K.O. et il lui reste 10 PV.",
 				es: "Si este Pokémon tiene todos sus PS y fuese a quedar Fuera de Combate por el daño de un ataque, no queda Fuera de Combate, y sus PS restantes pasan a ser 10.",
 				it: "Se questo Pokémon ha tutti i PS e sta per essere messo KO dai danni di un attacco, non viene messo KO e i suoi PS rimanenti diventano 10.",
 				pt: "Se este Pokémon tiver PS cheio e estiver prestes a ser Nocauteado pelo dano de um ataque, ele não será Nocauteado e o PS restante dele será 10.",

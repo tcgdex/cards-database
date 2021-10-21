@@ -64,7 +64,8 @@ const card: Card = {
 		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
 	},
 
-	dexId: [318]
+	dexId: [318],
+	regulationMark: "E"
 }
 
 export default card

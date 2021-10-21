@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for up to 3 basic Energy cards of different types and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie de base de types différents, puis attachez-les à vos Pokémon comme il vous plaît. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie de base de types différents, puis attachez-les à vos Pokémon comme il vous plaît. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 3 cartas de Energía Básica de diferentes tipos y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a tre carte Energia base di tipo diverso e assegnale ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 3 cartas de Energia básica de tipos diferentes no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
@@ -52,7 +52,7 @@ const card: Card = {
 			en: "Aurora Horns",
 			fr: "Cornes Boréales",
 			es: "Cuernos Aurora",
-			it: "Corni dell’Aurora",
+			it: "Corni dell'Aurora",
 			pt: "Chifres da Aurora",
 			de: "Aurorahörner"
 		},
@@ -66,7 +66,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "E"
 }
 
 export default card

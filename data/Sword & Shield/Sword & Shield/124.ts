@@ -44,8 +44,8 @@ const card: Card = {
 				de: "Giftschub"
 			},
 			effect: {
-				en: "Put 2 more damage counters on your opponent’s Poisoned Pokémon during Pokémon Checkup.",
-				fr: "Pendant le Contrôle Pokémon, placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire.",
+				en: "Put 2 more damage counters on your opponent's Poisoned Pokémon during Pokémon Checkup.",
+				fr: "Pendant le Contrôle Pokémon, placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire.",
 				es: "Pon 2 contadores de daño más en los Pokémon Envenenados de tu rival durante el Chequeo Pokémon.",
 				it: "Metti altri due segnalini danno sui Pokémon avvelenati del tuo avversario durante il controllo Pokémon.",
 				pt: "Coloque 2 contadores de dano a mais nos Pokémon Envenenados do seu oponente durante o Checape Pokémon.",
@@ -70,8 +70,8 @@ const card: Card = {
 				de: "Giftkrallen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
 				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Envenenado.",

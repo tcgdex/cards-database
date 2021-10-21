@@ -35,7 +35,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Soignez tous les dégâts de l’un de vos Pokémon de Banc.",
+			fr: "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
 			en: "Heal all damage from 1 of your Benched Pokémon.",
 			es: "Cura todos los puntos de daño a 1 de tus Pokémon en Banca.",
 			it: "Cura uno dei tuoi Pokémon in panchina da tutti i danni.",
@@ -55,7 +55,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			en: "Flip a coin. If tails, this attack does nothing.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",

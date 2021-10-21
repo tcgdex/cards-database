@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Asleep.",
+			en: "Your opponent's Active Pokémon is now Asleep.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "Your opponent’s Active Pokémon is now Asleep.",
+			pt: "Your opponent's Active Pokémon is now Asleep.",
 			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
@@ -57,10 +57,11 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Flabébé wears a crown made from pollen it’s collected from its flower. The crown has hidden healing properties."
+		en: "Flabébé wears a crown made from pollen it's collected from its flower. The crown has hidden healing properties."
 	},
 
-	dexId: [669]
+	dexId: [669],
+	regulationMark: "E"
 }
 
 export default card

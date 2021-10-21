@@ -35,7 +35,7 @@ const card: Card = {
 				de: "Davonstapfen"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck.",
+				en: "Discard the top card of your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 				es: "Descarta la primera carta de la baraja de tu rival.",
 				it: "Scarta la prima carta del mazzo del tuo avversario.",
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They’re said to be on the verge of extinction."
+		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction."
 	}
 }
 

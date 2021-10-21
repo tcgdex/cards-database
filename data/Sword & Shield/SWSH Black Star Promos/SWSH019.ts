@@ -32,11 +32,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon VMAX.",
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX.",
 			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-VMAX de votre adversaire.",
 			es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon VMAX de tu rival.",
 			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-VMAX del tuo avversario.",
-			pt: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon VMAX.",
+			pt: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX.",
 			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-VMAX deines Gegners zugefügt wird."
 		}
 	}],
@@ -46,17 +46,17 @@ const card: Card = {
 			en: "Assault Tackle",
 			fr: "Tacle Assaillant",
 			es: "Placaje Asalto",
-			it: "Azione d’Assalto",
+			it: "Azione d'Assalto",
 			pt: "Assault Tackle",
 			de: "Überfalltackle"
 		},
 
 		effect: {
-			en: "Discard a Special Energy from your opponent’s Active Pokémon.",
+			en: "Discard a Special Energy from your opponent's Active Pokémon.",
 			fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
 			es: "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
-			it: "Scarta un’Energia speciale dal Pokémon attivo del tuo avversario.",
-			pt: "Discard a Special Energy from your opponent’s Active Pokémon.",
+			it: "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
+			pt: "Discard a Special Energy from your opponent's Active Pokémon.",
 			de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -76,7 +76,6 @@ const card: Card = {
 
 	retreat: 2,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [889],
 
 	variants: {
@@ -84,7 +83,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

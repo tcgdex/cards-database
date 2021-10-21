@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Cherchez dans votre deck jusqu’à 3 cartes Objet différentes dont le nom contient le mot « Ball », montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Cherchez dans votre deck jusqu'à 3 cartes Objet différentes dont le nom contient le mot « Ball », montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "Search your deck for up to 3 different Item cards that have the word \"Ball\" in their name, reveal them, and put them into your hand. Then, shuffle your deck.",
 		es: "Busca en tu baraja hasta 3 cartas de Objeto diferentes que tengan la palabra \"Ball\" en su nombre, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a tre diverse carte Strumento con “Ball” nel nome, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",

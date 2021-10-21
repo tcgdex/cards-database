@@ -31,7 +31,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras’Face",
+			fr: "Écras'Face",
 			es: "Destructor",
 			it: "Botta",
 			pt: "Pancada",
@@ -51,7 +51,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Confused. Shuffle this Pokémon and all attached cards into your deck.",
+			en: "Your opponent's Active Pokémon is now Confused. Shuffle this Pokémon and all attached cards into your deck.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Mélangez dans votre deck ce Pokémon et toutes les cartes attachées.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Pon este Pokémon y todas las cartas unidas a él en tu baraja, y baraja todas las cartas.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso. Rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
@@ -81,7 +81,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When Mienshao lets out a bizarre wail, you’re in danger. A flurry of kicks and chops too fast to see is about to be unleashed!"
+		en: "When Mienshao lets out a bizarre wail, you're in danger. A flurry of kicks and chops too fast to see is about to be unleashed!"
 	}
 }
 

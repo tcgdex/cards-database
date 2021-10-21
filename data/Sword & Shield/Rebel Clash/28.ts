@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon has a Burning Scarf attached, it gets +100 HP.",
-				fr: "Si un Bandana Brûlant est attaché à ce Pokémon, il reçoit +100 PV.",
+				fr: "Si un Bandana Brûlant est attaché à ce Pokémon, il reçoit +100 PV.",
 				es: "Si este Pokémon tiene 1 Bandana Ardiente unida a él, obtiene 100 PS más.",
 				it: "Se questo Pokémon ha una carta Bandana Ardente assegnata, ha 100 PS in più.",
 				pt: "Se este Pokémon tiver 1 Cachecol em Chamas ligado a ele, receberá 100 PS a mais.",

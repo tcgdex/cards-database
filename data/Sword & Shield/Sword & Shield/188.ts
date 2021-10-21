@@ -21,8 +21,6 @@ const card: Card = {
 		"Fire",
 	],
 
-	suffix: "V",
-
 	attacks: [
 		{
 			cost: [
@@ -40,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard the top card of your deck. If that card is a Fire Energy card, this attack does 90 more damage.",
-				fr: "Défaussez la carte du dessus de votre deck. Si cette carte-là est une carte Énergie Fire, cette attaque inflige 90 dégâts supplémentaires.",
+				fr: "Défaussez la carte du dessus de votre deck. Si cette carte-là est une carte Énergie Fire, cette attaque inflige 90 dégâts supplémentaires.",
 				es: "Descarta la primera carta de tu baraja. Si es una carta de Energía Fire, este ataque hace 90 puntos de daño más.",
 				it: "Scarta la prima carta del tuo mazzo. Se quella carta è una carta Energia Fire, questo attacco infligge 90 danni in più.",
 				pt: "Descarte a carta de cima do seu baralho. Se aquela carta for uma carta de Energia Fire, este ataque causará 90 pontos de dano a mais.",
@@ -65,8 +63,8 @@ const card: Card = {
 				de: "Dampfmalmer"
 			},
 			effect: {
-				en: "Discard 2 Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez 2 Énergies du Pokémon Actif de votre adversaire.",
+				en: "Discard 2 Energy from your opponent's Active Pokémon.",
+				fr: "Défaussez 2 Énergies du Pokémon Actif de votre adversaire.",
 				es: "Descarta 2 Energías del Pokémon Activo de tu rival.",
 				it: "Scarta due Energie dal Pokémon attivo del tuo avversario.",
 				pt: "Descarte 2 Energias do Pokémon Ativo do seu oponente.",
@@ -94,7 +92,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "Basic"
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

@@ -32,7 +32,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 10 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+			fr: "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
 			es: "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
 			it: "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
 			pt: "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
@@ -66,7 +66,9 @@ const card: Card = {
 		it: "Flapple-V",
 		pt: "Flapple V",
 		de: "Drapfel-V"
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

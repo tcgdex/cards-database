@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach up to 3 Water Energy cards from your discard pile to this Pokémon.",
-				fr: "Attachez jusqu’à 3 cartes Énergie Water de votre pile de défausse à ce Pokémon.",
+				fr: "Attachez jusqu'à 3 cartes Énergie Water de votre pile de défausse à ce Pokémon.",
 				es: "Une hasta 3 cartas de Energía Water de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon fino a tre carte Energia Water dalla tua pila degli scarti.",
 				pt: "Ligue até 3 cartas de Energia Water da sua pilha de descarte a este Pokémon.",
@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 120 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
 				es: "Lanza 3 monedas. Este ataque hace 120 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 120 pontos de dano para cada cara.",

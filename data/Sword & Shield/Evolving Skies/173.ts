@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Basic",
 	illustrator: "Ayaka Yoshida",
-	suffix: "V",
 
 	abilities: [{
 		type: "Ability",
@@ -61,11 +60,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent’s).",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+			en: "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
 			es: "Este ataque hace 20 puntos de daño más por cada Pokémon en Banca (tanto tuyos como de tu rival).",
 			it: "Questo attacco infligge 20 danni in più per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
-			pt: "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent’s).",
+			pt: "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
 			de: "Diese Attacke fügt für jedes Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte mehr zu."
 		},
 
@@ -79,7 +78,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	dexId: [245]
+	dexId: [245],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

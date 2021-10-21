@@ -28,7 +28,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
-				fr: "Tit’Sieste",
+				fr: "Tit'Sieste",
 				es: "Siesta",
 				it: "Pausa",
 				pt: "Soneca",
@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts de ce Pokémon.",
+				fr: "Soignez 20 dégâts de ce Pokémon.",
 				es: "Cura 20 puntos de daño a este Pokémon.",
 				it: "Cura questo Pokémon da 20 danni.",
 				pt: "Cure 20 pontos de dano deste Pokémon.",
@@ -66,7 +66,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Although unattractive and unpopular, this Pokémon’s marvelous vitality has made it a subject of research."
+		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research."
 	}
 }
 

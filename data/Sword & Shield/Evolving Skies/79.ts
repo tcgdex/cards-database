@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "You may move an Energy from your opponent’s Active Pokémon to 1 of their Benched Pokémon.",
-			fr: "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l’un de ses Pokémon de Banc.",
+			en: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+			fr: "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
 			es: "Puedes mover 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
-			it: "Puoi spostare un’Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
-			pt: "You may move an Energy from your opponent’s Active Pokémon to 1 of their Benched Pokémon.",
+			it: "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
+			pt: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
 			de: "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben."
 		},
 
@@ -70,7 +70,8 @@ const card: Card = {
 		en: "Ribombee absolutely hate getting wet or rained on. In the cloudy Galar region, they are very seldom seen."
 	},
 
-	dexId: [743]
+	dexId: [743],
+	regulationMark: "E"
 }
 
 export default card

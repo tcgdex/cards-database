@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent’s Active Pokémon."
+			en: "Discard an Energy from your opponent's Active Pokémon."
 		},
 
 		damage: 120
@@ -65,7 +65,7 @@ const card: Card = {
 	}],
 
 	retreat: 4,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

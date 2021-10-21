@@ -44,7 +44,7 @@ const card: Card = {
 				de: "Jammerstimme"
 			},
 			effect: {
-				en: "Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into their deck.",
+				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
 				fr: "Choisissez une carte au hasard dans la main de votre adversaire. Votre adversaire montre cette carte, puis la mélange avec son deck.",
 				es: "Elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esa carta, la pone en su baraja y las baraja todas.",
 				it: "Scegli una carta a caso dalla mano del tuo avversario. Il tuo avversario mostra quella carta e la rimischia nel suo mazzo.",
@@ -68,7 +68,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
 				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
@@ -106,7 +106,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It’s said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment."
+		en: "It's said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment."
 	}
 }
 

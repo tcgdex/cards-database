@@ -37,8 +37,8 @@ const card: Card = {
 				de: "Wundschmerz"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 50 dégâts supplémentaires.",
+				en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 50 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 50 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 50 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 50 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 50 pontos de dano a mais.",
@@ -67,7 +67,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It’s also generating electricity."
+		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity."
 	}
 }
 

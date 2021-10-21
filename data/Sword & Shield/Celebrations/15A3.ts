@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rocket’s Zapdos"
+		en: "Rocket's Zapdos"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -21,7 +21,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket’s Zapdos."
+			en: "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
 		},
 
 		damage: 20,
@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Rocket’s Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
+			en: "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
 		},
 
 		damage: 70,

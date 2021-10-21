@@ -7,7 +7,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "It’s highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
+		en: "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch 1 of your opponent’s face-down Prize cards with the top card of their deck. (The cards stay face down.)"
+			en: "Once during your turn, you may switch 1 of your opponent's face-down Prize cards with the top card of their deck. (The cards stay face down.)"
 		}
 	}],
 
@@ -62,7 +62,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, you may have your opponent discard cards from their hand until they have 4 cards in their hand.",
-				fr: "Une fois pendant votre tour, vous pouvez demander à votre adversaire de défausser des cartes de sa main jusqu’à en avoir 4 en main.",
+				fr: "Une fois pendant votre tour, vous pouvez demander à votre adversaire de défausser des cartes de sa main jusqu'à en avoir 4 en main.",
 				es: "Una vez durante tu turno, puedes hacer que tu rival descarte cartas de su mano hasta que tenga 4 cartas en su mano.",
 				it: "Una sola volta durante il tuo turno, puoi far scartare al tuo avversario delle carte che ha in mano fino a lasciarlo con quattro carte in mano.",
 				pt: "Uma vez durante o seu turno, você poderá fazer com que o seu oponente descarte cartas da própria mão até que ele(a) tenha 4 cartas na própria mão.",
@@ -57,14 +57,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Impact",
-				fr: "Coup d’Articulations",
+				fr: "Coup d'Articulations",
 				es: "Impacto Nudillo",
 				it: "Impatto Nocche",
 				pt: "Impacto Ossudo",
 				de: "Knöchelprall"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t attack.",
+				en: "During your next turn, this Pokémon can't attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",

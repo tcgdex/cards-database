@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Heilwoge"
 			},
 			effect: {
-				fr: "Soignez 30 dégâts de l’un de vos Pokémon.",
+				fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
 				en: "Heal 30 damage from 1 of your Pokémon.",
 				es: "Cura 30 puntos de daño a 1 de tus Pokémon.",
 				it: "Cura uno dei tuoi Pokémon da 30 danni.",
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its small horn hides a healing power. With a few rubs from this Pokémon’s horn, any slight wound you have will be healed."
+		en: "Its small horn hides a healing power. With a few rubs from this Pokémon's horn, any slight wound you have will be healed."
 	},
 
 	dexId: [77],
@@ -92,7 +92,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

@@ -34,7 +34,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	illustrator: "Studio Bora Inc."
+	illustrator: "Studio Bora Inc.",
+	regulationMark: "E"
 }
 
 export default card

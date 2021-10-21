@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
-			fr: "Attachez une carte Énergie Metal de votre pile de défausse à l’un de vos Pokémon.",
+			fr: "Attachez une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon.",
 			es: "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon.",
 			it: "Assegna a uno dei tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
 			pt: "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body resembles polished metal, and it’s both lightweight and strong. The only drawback is that it rusts easily."
+		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	},
 
 	stage: "Basic",
@@ -78,7 +78,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

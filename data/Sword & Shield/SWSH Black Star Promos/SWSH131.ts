@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	stage: "Basic",
-	suffix: "V",
 
 	name: {
 		en: "Shadow Rider Calyrex V"
@@ -34,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat."
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
 		},
 
 		damage: 130
@@ -57,7 +56,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

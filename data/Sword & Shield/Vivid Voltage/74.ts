@@ -42,8 +42,8 @@ const card: Card = {
 				de: "Unkenntnis"
 			},
 			effect: {
-				en: "Prevent all effects of attacks from your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)",
-				fr: "Évitez tous les effets d’attaques infligés à ce Pokémon par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
+				en: "Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+				fr: "Évitez tous les effets d'attaques infligés à ce Pokémon par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
 				es: "Evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos a este Pokémon.",
 				it: "Previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti a questo Pokémon.",
 				pt: "Previne todos os efeitos de ataques do seu oponente, exceto dano, causados a este Pokémon.",
@@ -99,7 +99,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Emitting powerful sound waves tires it out. Afterward, it won’t be able to fly for a little while."
+		en: "Emitting powerful sound waves tires it out. Afterward, it won't be able to fly for a little while."
 	}
 }
 

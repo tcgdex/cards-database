@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+				fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 				it: "Scambia questo Pokémon con uno della tua panchina.",
 				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
@@ -74,7 +74,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It defends itself by launching spikes, but its aim isn’t very good at first. Only after a lot of practice will it improve."
+		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
 	}
 }
 

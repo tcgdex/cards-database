@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	stage: "Basic",
-	suffix: "V",
 
 	variants: {
 		normal: false,
@@ -21,7 +20,34 @@ const card: Card = {
 
 	rarity: "None",
 	hp: 210,
-	types: ["Water"]
+	types: ["Water"],
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			en: "Triple Draw"
+		},
+
+		effect: {
+			en: "Draw 3 cards."
+		}
+	}, {
+		cost: ["Water", "Water", "Colorless"],
+
+		name: {
+			en: "Splash Jump"
+		},
+
+		damage: 90,
+
+		effect: {
+			en: "Switch this Pokémon with 1 of your Benched Pokémon."
+		}
+	}],
+
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

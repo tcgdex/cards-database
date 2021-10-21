@@ -13,7 +13,7 @@ const card: Card = {
 
 	name: {
 		en: "Switching Cups",
-		fr: "Gobelets d’Échange",
+		fr: "Gobelets d'Échange",
 		es: "Cubiletes de Cambio",
 		it: "Bicchieri di Scambio",
 		pt: "Copos de Substituição",
@@ -33,7 +33,8 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
-	illustrator: "Ryo Ueda"
+	illustrator: "Ryo Ueda",
+	regulationMark: "E"
 }
 
 export default card

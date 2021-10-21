@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may have each player draw a card.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez demander à chaque joueur de piocher une carte.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez demander à chaque joueur de piocher une carte.",
 				es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes hacer que cada jugador robe 1 carta.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi far pescare una carta a ciascun giocatore.",
 				pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá fazer com que cada jogador compre 1 carta.",
@@ -68,7 +68,7 @@ const card: Card = {
 				de: "Wunderglanz"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",
@@ -100,7 +100,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it trusts a Trainer, it will treat them to berries it’s decorated with cream."
+		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
 	}
 }
 

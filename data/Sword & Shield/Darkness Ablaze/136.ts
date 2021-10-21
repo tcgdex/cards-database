@@ -36,7 +36,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feelin’ Fine",
+				en: "Feelin' Fine",
 				fr: "Mode Cool",
 				es: "Buen Rollito",
 				it: "Tuttobene",
@@ -45,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
+				fr: "Piochez 3 cartes.",
 				es: "Roba 3 cartas.",
 				it: "Pesca tre carte.",
 				pt: "Compre 3 cartas.",
@@ -67,7 +67,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",

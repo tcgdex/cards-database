@@ -28,7 +28,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon."
+			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
 		},
 
 		damage: 60
@@ -40,7 +40,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Put 5 damage counters on your opponent’s Benched Pokémon in any way you like."
+			en: "Put 5 damage counters on your opponent's Benched Pokémon in any way you like."
 		},
 
 		damage: 130
@@ -63,7 +63,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

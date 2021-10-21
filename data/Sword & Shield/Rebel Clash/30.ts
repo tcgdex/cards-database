@@ -33,14 +33,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Burst Punch",
-				fr: "Poing d’Enfer",
+				fr: "Poing d'Enfer",
 				es: "Puño Explosivo",
 				it: "Fiammatapugno",
 				pt: "Soco Rajada",
 				de: "Explosionshieb"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
@@ -66,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Each player discards the top card of their deck. This attack does 100 more damage for each Energy card discarded in this way.",
-				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 100 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 100 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
 				es: "Cada jugador descarta la primera carta de su baraja. Este ataque hace 100 puntos de daño más por cada carta de Energía descartada de esta manera.",
 				it: "Ciascun giocatore scarta la prima carta del proprio mazzo. Questo attacco infligge 100 danni in più per ogni carta Energia scartata in questo modo.",
 				pt: "Cada jogador descarta a carta de cima do próprio baralho. Este ataque causa 100 pontos de dano a mais para cada carta de Energia descartada desta forma.",

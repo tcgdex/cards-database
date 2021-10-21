@@ -35,7 +35,7 @@ const card: Card = {
 				de: "Spuk"
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent’s Active Pokémon.",
+				en: "Put 1 damage counter on your opponent's Active Pokémon.",
 				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
 				es: "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
 				it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "There’s a proverb that says, “Shun the house where Shuppet gather in the growing dusk.”"
+		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
 	}
 }
 

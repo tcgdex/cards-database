@@ -30,11 +30,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard the top 2 cards of your opponent’s deck.",
+			en: "Discard the top 2 cards of your opponent's deck.",
 			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
 			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
 			it: "Scarta le prime due carte del mazzo del tuo avversario.",
-			pt: "Discard the top 2 cards of your opponent’s deck.",
+			pt: "Discard the top 2 cards of your opponent's deck.",
 			de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -70,7 +70,6 @@ const card: Card = {
 
 	retreat: 3,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [248],
 
 	variants: {
@@ -78,7 +77,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

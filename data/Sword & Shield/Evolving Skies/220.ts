@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon that have Special Energy attached."
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached."
 		}
 	}],
 
@@ -57,14 +57,14 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon."
+			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
 		},
 
 		damage: 220
 	}],
 
 	retreat: 3,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

@@ -38,17 +38,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Cutoff",
-				fr: "Coupure d’Énergie",
+				fr: "Coupure d'Énergie",
 				es: "Corte de Energía",
 				it: "Calopotenza",
 				pt: "Corte de Energia",
 				de: "Energiesperre"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
+				en: "Discard an Energy from your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
 				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia dal Pokémon attivo del tuo avversario.",
+				it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
 				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
 				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
@@ -71,7 +71,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Put 2 Energy attached to this Pokémon into your hand.",
-				fr: "Ajoutez à votre main 2 Énergies attachées à ce Pokémon.",
+				fr: "Ajoutez à votre main 2 Énergies attachées à ce Pokémon.",
 				es: "Pon 2 Energías unidas a este Pokémon en tu mano.",
 				it: "Prendi due Energie assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 2 Energias ligadas a este Pokémon na sua mão.",

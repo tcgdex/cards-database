@@ -73,7 +73,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard the top 5 cards of your deck.",
-				fr: "Défaussez les 5 cartes du dessus de votre deck.",
+				fr: "Défaussez les 5 cartes du dessus de votre deck.",
 				es: "Descarta las 5 primeras cartas de tu baraja.",
 				it: "Scarta le prime cinque carte del tuo mazzo.",
 				pt: "Descarte as 5 cartas de cima do seu baralho.",
@@ -104,7 +104,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies."
+		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies."
 	}
 }
 

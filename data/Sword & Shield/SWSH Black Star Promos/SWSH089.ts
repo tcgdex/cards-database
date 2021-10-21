@@ -35,10 +35,10 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for a Rapid Strike card, reveal it, and put it into your hand. Then, shuffle your deck. You can’t use more than 1 Rapid Strike Search Ability each turn.",
+			en: "Once during your turn, you may search your deck for a Rapid Strike card, reveal it, and put it into your hand. Then, shuffle your deck. You can't use more than 1 Rapid Strike Search Ability each turn.",
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Golpe Fluido, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja. No puedes usar más de 1 habilidad Búsqueda de Golpe Fluido en cada turno.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Colpo Rapido, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo. Puoi usare l’abilità Ricerca Colpo Rapido solo una volta per turno.",
-			pt: "Once during your turn, you may search your deck for a Rapid Strike card, reveal it, and put it into your hand. Then, shuffle your deck. You can’t use more than 1 Rapid Strike Search Ability each turn.",
+			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Colpo Rapido, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo. Puoi usare l'abilità Ricerca Colpo Rapido solo una volta per turno.",
+			pt: "Once during your turn, you may search your deck for a Rapid Strike card, reveal it, and put it into your hand. Then, shuffle your deck. You can't use more than 1 Rapid Strike Search Ability each turn.",
 			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Fließender-Angriff-Karte durchsuchen, sie deinem Gegner zeigen und sie auf deine Hand nehmen. Mische anschließend dein Deck. Du kannst die Fähigkeit Fließender-Angriff-Suche nur einmal pro Zug einsetzen."
 		}
 	}],
@@ -76,7 +76,9 @@ const card: Card = {
 
 		damage: 50,
 		cost: ["Water", "Colorless", "Colorless"]
-	}]
+	}],
+
+	regulationMark: "E"
 }
 
 export default card

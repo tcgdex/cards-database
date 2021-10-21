@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for up to 2 Rapid Strike cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu’à 2 cartes Mille Poings, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes Mille Poings, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 2 cartas de Golpe Fluido, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due carte Colpo Rapido, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			pt: "Search your deck for up to 2 Rapid Strike cards, reveal them, and put them into your hand. Then, shuffle your deck.",
@@ -86,7 +86,8 @@ const card: Card = {
 		en: "It sinks into the shadows of people and Pokémon, where it can understand their feelings and copy their capabilities."
 	},
 
-	dexId: [802]
+	dexId: [802],
+	regulationMark: "E"
 }
 
 export default card

@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Cherchez dans votre deck jusqu’à 2 cartes Fossile Rare, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+		fr: "Cherchez dans votre deck jusqu'à 2 cartes Fossile Rare, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
 		en: "Search your deck for up to 2 Rare Fossil cards and put them onto your Bench. Then, shuffle your deck.",
 		es: "Busca en tu baraja hasta 2 cartas de Fósil Raro y ponlas en tu Banca. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a due carte Fossile Raro e mettile nella tua panchina. Poi rimischia le carte del tuo mazzo.",

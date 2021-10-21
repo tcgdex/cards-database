@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Due to its short wings, it can’t fly long distances. It wanders about restlessly and pecks at bug Pokémon."
+		en: "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon."
 	}
 }
 

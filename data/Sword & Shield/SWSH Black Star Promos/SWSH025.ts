@@ -37,11 +37,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, if a Stadium is in play, you may make your opponent’s Active Pokémon Poisoned.",
+			en: "Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned.",
 			fr: "Une fois pendant votre tour, si un Stade est en jeu, vous pouvez laisser le Pokémon Actif de votre adversaire Empoisonné.",
 			es: "Una vez durante tu turno, si hay un Estadio en juego, puedes dejar al Pokémon Activo de tu rival Envenenado.",
-			it: "Una sola volta durante il tuo turno, se c’è in gioco una carta Stadio, puoi lasciare il Pokémon attivo del tuo avversario avvelenato.",
-			pt: "Once during your turn, if a Stadium is in play, you may make your opponent’s Active Pokémon Poisoned.",
+			it: "Una sola volta durante il tuo turno, se c'è in gioco una carta Stadio, puoi lasciare il Pokémon attivo del tuo avversario avvelenato.",
+			pt: "Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned.",
 			de: "Einmal während deines Zuges, wenn eine Stadionkarte im Spiel ist, kannst du das Aktive Pokémon deines Gegners vergiften."
 		}
 	}],
@@ -79,7 +79,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

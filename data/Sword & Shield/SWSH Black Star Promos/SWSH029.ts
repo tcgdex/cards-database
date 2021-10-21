@@ -28,10 +28,10 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			pt: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+			pt: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 		},
 
@@ -82,7 +82,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

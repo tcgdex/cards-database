@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard up to 6 cards from the top of your deck. If you do, this attack does 30 damage for each card you discarded in this way.",
-				fr: "Défaussez jusqu’à 6 cartes du dessus de votre deck. Dans ce cas, cette attaque inflige 30 dégâts pour chaque carte défaussée de cette façon.",
+				fr: "Défaussez jusqu'à 6 cartes du dessus de votre deck. Dans ce cas, cette attaque inflige 30 dégâts pour chaque carte défaussée de cette façon.",
 				es: "Descarta hasta 6 cartas de la parte superior de tu baraja. Si lo haces, este ataque hace 30 puntos de daño por cada carta que hayas descartado de esta manera.",
 				it: "Scarta fino a sei carte dalla cima del tuo mazzo. Se lo fai, questo attacco infligge 30 danni per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte até 6 cartas de cima do seu baralho. Se fizer isto, este ataque causará 30 pontos de dano para cada carta descartada desta forma.",
@@ -94,7 +94,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "With power equal to an excavator, it can dig through dense bedrock. It’s a huge help during tunnel construction."
+		en: "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction."
 	}
 }
 

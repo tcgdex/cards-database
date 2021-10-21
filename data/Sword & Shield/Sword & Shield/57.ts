@@ -58,7 +58,7 @@ const card: Card = {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
 				es: "Chapoteo Ondulante",
-				it: "Schizzi d’Onda",
+				it: "Schizzi d'Onda",
 				pt: "Onda Borrifante",
 				de: "Wellenplatscher"
 			},

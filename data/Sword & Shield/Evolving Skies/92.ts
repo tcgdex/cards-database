@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Knock Out 1 of your opponent’s Pokémon in play that has 60 HP or less remaining.",
-			fr: "Mettez K.O. l’un des Pokémon en jeu de votre adversaire auquel il reste 60 PV ou moins.",
+			en: "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.",
+			fr: "Mettez K.O. l'un des Pokémon en jeu de votre adversaire auquel il reste 60 PV ou moins.",
 			es: "Deja Fuera de Combate a 1 de los Pokémon en juego de tu rival al que le queden 60 PS o menos.",
 			it: "Metti KO uno dei Pokémon in gioco del tuo avversario che ha 60 PS o meno rimanenti.",
-			pt: "Knock Out 1 of your opponent’s Pokémon in play that has 60 HP or less remaining.",
+			pt: "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.",
 			de: "Mache 1 Pokémon deines Gegners im Spiel, das 60 oder weniger verbleibende KP hat, kampfunfähig."
 		},
 
@@ -58,11 +58,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque también hace 30 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			pt: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
@@ -87,7 +87,8 @@ const card: Card = {
 	},
 
 	dexId: [745],
-	suffix: "V"
+	regulationMark: "E",
+
 }
 
 export default card

@@ -33,7 +33,8 @@ const card: Card = {
 	},
 
 	trainerType: "Tool",
-	illustrator: "Studio Bora Inc."
+	illustrator: "Studio Bora Inc.",
+	regulationMark: "E"
 }
 
 export default card

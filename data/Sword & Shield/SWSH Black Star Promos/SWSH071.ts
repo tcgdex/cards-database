@@ -21,7 +21,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Me First",
-			fr: "Moi d’Abord",
+			fr: "Moi d'Abord",
 			es: "Yo Primero",
 			pt: "Me First",
 			de: "Egotrip"
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A warm-up of running around gets fire energy coursing through this Pokémon’s body. Once that happens, it’s ready to fight at full power."
+		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
 	},
 
 	stage: "Basic",
@@ -68,7 +68,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

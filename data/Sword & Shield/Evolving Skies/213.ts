@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Knock Out 1 of your opponent’s Pokémon in play that has 60 HP or less remaining."
+			en: "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
@@ -55,7 +55,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 		},
 
 		damage: 190
@@ -67,7 +67,7 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

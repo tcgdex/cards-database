@@ -41,7 +41,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Prevent all effects of your opponent’s Pokémon’s Abilities done to this Pokémon.",
+			en: "Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.",
 			fr: "Évitez tous les effets des talents des Pokémon de votre adversaire infligés à ce Pokémon.",
 			es: "Evita todos los efectos de las habilidades de los Pokémon de tu rival infligidos a este Pokémon.",
 			it: "Previeni tutti gli effetti delle abilità dei Pokémon del tuo avversario inflitti a questo Pokémon.",
@@ -61,7 +61,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t use G-Max Hurricane.",
+			en: "During your next turn, this Pokémon can't use G-Max Hurricane.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Vent Violent G-Max.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Gigavendaval.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Gigatifone.",

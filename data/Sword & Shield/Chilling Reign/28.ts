@@ -41,8 +41,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon for each Prize card your opponent has taken (before applying Weakness and Resistance).",
-			fr: "Les attaques de ce Pokémon infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire pour chaque carte Récompense que votre adversaire a récupérée (avant application de la Faiblesse et de la Résistance).",
+			en: "This Pokémon's attacks do 30 more damage to your opponent's Active Pokémon for each Prize card your opponent has taken (before applying Weakness and Resistance).",
+			fr: "Les attaques de ce Pokémon infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire pour chaque carte Récompense que votre adversaire a récupérée (avant application de la Faiblesse et de la Résistance).",
 			es: "Los ataques de este Pokémon hacen 30 puntos de daño más al Pokémon Activo de tu rival por cada carta de Premio que haya cogido tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Gli attacchi di questo Pokémon infliggono 30 danni in più al Pokémon attivo del tuo avversario per ogni carta Premio che ha preso, prima di aver applicato debolezza e resistenza.",
 			pt: "Os ataques deste Pokémon causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente para cada carta de Prêmio que seu oponente pegou (antes de aplicar Fraqueza e Resistência).",
@@ -61,7 +61,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t attack.",
+			en: "During your next turn, this Pokémon can't attack.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It’s skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
 	}
 }
 

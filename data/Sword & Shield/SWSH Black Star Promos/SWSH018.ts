@@ -52,11 +52,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t attack.",
+			en: "During your next turn, this Pokémon can't attack.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "During your next turn, this Pokémon can’t attack.",
+			pt: "During your next turn, this Pokémon can't attack.",
 			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
@@ -76,7 +76,6 @@ const card: Card = {
 
 	retreat: 2,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [888],
 
 	variants: {
@@ -84,7 +83,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

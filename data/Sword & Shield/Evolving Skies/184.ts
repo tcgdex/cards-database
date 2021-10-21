@@ -19,7 +19,6 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 	illustrator: "Yuu Nishida",
-	suffix: "V",
 
 	abilities: [{
 		type: "Ability",
@@ -35,8 +34,8 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck. If you use this Ability, your turn ends.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Objet, la montrer, puis l’ajouter à votre main. Mélangez ensuite votre deck. Si vous utilisez ce talent, votre tour se termine.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Objeto, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja. Si usas esta habilidad, tu turno termina.",
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Objet, la montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck. Si vous utilisez ce talent, votre tour se termine.",
+			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Objeto, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja. Si usas esta habilidad, tu turno termina.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Strumento, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo. Se usi questa abilità, il tuo turno finisce.",
 			pt: "Once during your turn, you may search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck. If you use this Ability, your turn ends.",
 			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Itemkarte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck. Wenn du diese Fähigkeit einsetzt, endet dein Zug."
@@ -63,7 +62,9 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	dexId: [700]
+	dexId: [700],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

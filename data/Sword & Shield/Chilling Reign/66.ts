@@ -40,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "If this Pokémon has a Pokémon Tool attached, this attack does 90 more damage.",
-			fr: "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires.",
+			fr: "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires.",
 			es: "Si este Pokémon tiene 1 Herramienta Pokémon unida a él, este ataque hace 90 puntos de daño más.",
 			it: "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 90 danni in più.",
 			pt: "Se este Pokémon tiver uma Ferramenta Pokémon ligada a ele, este ataque causará 90 pontos de dano a mais.",
@@ -61,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "There’s a theory that inside Golurk is a perpetual motion machine that produces limitless energy, but this belief hasn’t been proven."
+		en: "There's a theory that inside Golurk is a perpetual motion machine that produces limitless energy, but this belief hasn't been proven."
 	}
 }
 

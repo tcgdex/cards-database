@@ -41,7 +41,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "You may discard all Energy from this Pokémon. If you do, your opponent’s Active Pokémon is now Paralyzed."
+			en: "You may discard all Energy from this Pokémon. If you do, your opponent's Active Pokémon is now Paralyzed."
 		},
 
 		damage: 70
@@ -59,7 +59,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

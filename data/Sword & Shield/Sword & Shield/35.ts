@@ -46,7 +46,7 @@ const card: Card = {
 				de: "Feuerball"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
@@ -71,7 +71,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Energy from this Pokémon.",
-				fr: "Défaussez toute l’Énergie de ce Pokémon.",
+				fr: "Défaussez toute l'Énergie de ce Pokémon.",
 				es: "Descarta todas las Energías de este Pokémon.",
 				it: "Scarta tutte le Energie da questo Pokémon.",
 				pt: "Descarte todas as Energias deste Pokémon.",

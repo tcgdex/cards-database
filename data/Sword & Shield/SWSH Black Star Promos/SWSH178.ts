@@ -7,7 +7,7 @@ const card: Card = {
 	category: "Trainer",
 
 	name: {
-		en: "Professor’s Research"
+		en: "Professor's Research"
 	},
 
 	rarity: "None",
@@ -23,7 +23,9 @@ const card: Card = {
 		reverse: false,
 		holo: false,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

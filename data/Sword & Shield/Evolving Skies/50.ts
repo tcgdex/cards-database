@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 50 damage to each Pokémon V and Pokémon-GX (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 50 dégâts à chacun des Pokémon-V et Pokémon-GX (les vôtres et ceux de votre adversaire). (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			en: "This attack does 50 damage to each Pokémon V and Pokémon-GX (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige 50 dégâts à chacun des Pokémon-V et Pokémon-GX (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque hace 50 puntos de daño a cada Pokémon V y Pokémon-GX (tanto tuyos como de tu rival). (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Questo attacco infligge 50 danni a ciascun Pokémon-V e Pokémon-GX, sia tuo che del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "This attack does 50 damage to each Pokémon V and Pokémon-GX (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			pt: "This attack does 50 damage to each Pokémon V and Pokémon-GX (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			de: "Diese Attacke fügt jedem Pokémon-V und Pokémon-GX (deinen und denen deines Gegners) 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
@@ -59,7 +59,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toute l’Énergie de ce Pokémon.",
+			fr: "Défaussez toute l'Énergie de ce Pokémon.",
 			es: "Descarta todas las Energías de este Pokémon.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
 			pt: "Discard all Energy from this Pokémon.",
@@ -90,7 +90,8 @@ const card: Card = {
 		en: "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere."
 	},
 
-	dexId: [26]
+	dexId: [26],
+	regulationMark: "E"
 }
 
 export default card

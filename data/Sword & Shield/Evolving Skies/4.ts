@@ -40,11 +40,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This Pokémon may attack twice each turn. If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.",
+			en: "This Pokémon may attack twice each turn. If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.",
 			fr: "Ce Pokémon peut attaquer deux fois par tour. Si la première attaque met K.O. le Pokémon Actif de votre adversaire, vous pouvez encore attaquer après que votre adversaire a choisi un nouveau Pokémon Actif.",
 			es: "Este Pokémon puede atacar 2 veces cada turno. Si el primer ataque deja Fuera de Combate al Pokémon Activo de tu rival, puedes atacar otra vez después de que tu rival elija un nuevo Pokémon Activo.",
 			it: "Questo Pokémon può attaccare due volte per turno. Se il primo attacco mette KO il Pokémon attivo del tuo avversario, puoi attaccare di nuovo dopo che il tuo avversario ha scelto un nuovo Pokémon attivo.",
-			pt: "This Pokémon may attack twice each turn. If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.",
+			pt: "This Pokémon may attack twice each turn. If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.",
 			de: "Dieses Pokémon kann während jedes Zuges zweimal angreifen. Falls die erste Attacke das Aktive Pokémon deines Gegners kampfunfähig macht, kannst du erneut angreifen, nachdem dein Gegner ein neues Aktives Pokémon gewählt hat."
 		}
 	}],
@@ -83,7 +83,8 @@ const card: Card = {
 		en: "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants."
 	},
 
-	dexId: [189]
+	dexId: [189],
+	regulationMark: "E"
 }
 
 export default card

@@ -32,8 +32,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Pokémon Tool from a Pokémon (yours or your opponent’s).",
-			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez défausser un Outil Pokémon d’un Pokémon (le vôtre ou celui de votre adversaire).",
+			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Pokémon Tool from a Pokémon (yours or your opponent's).",
+			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez défausser un Outil Pokémon d'un Pokémon (le vôtre ou celui de votre adversaire).",
 			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes descartar 1 Herramienta Pokémon de 1 Pokémon (tuyo o de tu rival).",
 			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi scartare una carta Oggetto Pokémon da un Pokémon, tuo o del tuo avversario.",
 			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá descartar 1 Ferramenta Pokémon de 1 Pokémon (seu ou do seu oponente).",

@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Supporter card in your opponent’s discard pile."
+			en: "This attack does 40 damage for each Supporter card in your opponent's discard pile."
 		},
 
 		damage: "40×"
@@ -65,7 +65,7 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

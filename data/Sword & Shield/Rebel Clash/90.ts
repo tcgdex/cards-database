@@ -96,7 +96,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It’s capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
+		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
 	}
 }
 

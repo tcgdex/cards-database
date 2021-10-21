@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	stage: "Basic",
-	suffix: "V",
 
 	name: {
 		en: "Victini V",
@@ -29,7 +28,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 3 Fire Energy cards from your discard pile to your Pokémon in any way you like.",
-			fr: "Attachez jusqu’à 3 cartes Énergie Fire de votre pile de défausse à vos Pokémon comme il vous plaît.",
+			fr: "Attachez jusqu'à 3 cartes Énergie Fire de votre pile de défausse à vos Pokémon comme il vous plaît.",
 			es: "Une hasta 3 cartas de Energía Fire de tu pila de descartes a tus Pokémon de la manera que desees.",
 			pt: "Attach up to 3 Fire Energy cards from your discard pile to your Pokémon in any way you like."
 		},
@@ -38,7 +37,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Energy Burst",
-			fr: "Explosion d’Énergie",
+			fr: "Explosion d'Énergie",
 			es: "Explosión de Energía",
 			pt: "Energy Burst"
 		},
@@ -67,7 +66,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

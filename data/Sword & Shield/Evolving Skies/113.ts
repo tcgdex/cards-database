@@ -65,8 +65,10 @@ const card: Card = {
 	dexId: [633],
 
 	description: {
-		en: "Because it can’t see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings."
-	}
+		en: "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

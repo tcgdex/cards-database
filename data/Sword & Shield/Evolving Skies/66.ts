@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Put damage counters on your opponent’s Active Pokémon equal to the number of damage counters on 1 of your Benched Pokémon.",
-			fr: "Placez autant de marqueurs de dégâts sur le Pokémon Actif de votre adversaire qu’il y a de marqueurs de dégâts sur l’un de vos Pokémon de Banc.",
+			en: "Put damage counters on your opponent's Active Pokémon equal to the number of damage counters on 1 of your Benched Pokémon.",
+			fr: "Placez autant de marqueurs de dégâts sur le Pokémon Actif de votre adversaire qu'il y a de marqueurs de dégâts sur l'un de vos Pokémon de Banc.",
 			es: "Pon una cantidad de contadores de daño en el Pokémon Activo de tu rival equivalente a la cantidad de contadores de daño en 1 de tus Pokémon en Banca.",
 			it: "Metti sul Pokémon attivo del tuo avversario un numero di segnalini danno pari al numero di segnalini danno presenti su uno dei Pokémon della tua panchina.",
-			pt: "Put damage counters on your opponent’s Active Pokémon equal to the number of damage counters on 1 of your Benched Pokémon.",
+			pt: "Put damage counters on your opponent's Active Pokémon equal to the number of damage counters on 1 of your Benched Pokémon.",
 			de: "Lege Schadensmarken auf das Aktive Pokémon deines Gegners entsprechend der Anzahl der Schadensmarken auf 1 Pokémon auf deiner Bank."
 		},
 
@@ -77,7 +77,8 @@ const card: Card = {
 		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack."
 	},
 
-	dexId: [202]
+	dexId: [202],
+	regulationMark: "E"
 }
 
 export default card

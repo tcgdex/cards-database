@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a card from your hand. If you do, draw 3 cards.",
-				fr: "Défaussez une carte de votre main. Dans ce cas, piochez 3 cartes.",
+				fr: "Défaussez une carte de votre main. Dans ce cas, piochez 3 cartes.",
 				es: "Descarta 1 carta de tu mano. Si lo haces, roba 3 cartas.",
 				it: "Scarta una delle carte che hai in mano. Se lo fai, pesca tre carte.",
 				pt: "Descarte 1 carta da sua mão. Se fizer isto, compre 3 cartas.",
@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you played Bea from your hand during this turn, this attack does 80 more damage.",
-				fr: "Si vous avez joué Faïza de votre main pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
+				fr: "Si vous avez joué Faïza de votre main pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
 				es: "Si has jugado 1 carta de Judith de tu mano durante este turno, este ataque hace 80 puntos de daño más.",
 				it: "Se hai giocato Fabia dalla tua mano durante questo turno, questo attacco infligge 80 danni in più.",
 				pt: "Se você jogou Bia da sua mão durante este turno, este ataque causará 80 pontos de dano a mais.",

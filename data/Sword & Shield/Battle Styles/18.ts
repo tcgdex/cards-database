@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, the Defending Pokémon’s attacks cost ColorlessColorless more.",
+			en: "During your opponent's next turn, the Defending Pokémon's attacks cost ColorlessColorless more.",
 			fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur coûtent ColorlessColorless de plus.",
 			es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan ColorlessColorless más.",
 			it: "Durante il prossimo turno del tuo avversario, il costo degli attacchi del Pokémon difensore aumenta di Colorless Colorless.",
@@ -45,7 +45,7 @@ const card: Card = {
 			en: "Wing Attack",
 			fr: "Cru-Ailes",
 			es: "Ataque Ala",
-			it: "Attacco d’Ala",
+			it: "Attacco d'Ala",
 			pt: "Ataque de Asa",
 			de: "Flügelschlag"
 		},

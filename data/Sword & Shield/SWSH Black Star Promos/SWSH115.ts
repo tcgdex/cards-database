@@ -29,7 +29,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your Rapid Strike Pokémon’s attacks do 30 more damage to your opponent’s Benched Pokémon V and Benched Pokémon-GX (before applying Weakness and Resistance). You can’t apply more than 1 Throwing Coach Ability at a time."
+			en: "Your Rapid Strike Pokémon's attacks do 30 more damage to your opponent's Benched Pokémon V and Benched Pokémon-GX (before applying Weakness and Resistance). You can't apply more than 1 Throwing Coach Ability at a time."
 		}
 	}],
 
@@ -41,7 +41,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 20 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			en: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 		}
 	}],
 
@@ -57,7 +57,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

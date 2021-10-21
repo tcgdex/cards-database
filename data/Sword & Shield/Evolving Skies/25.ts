@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Confused.",
+			en: "Your opponent's Active Pokémon is now Confused.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "Your opponent’s Active Pokémon is now Confused.",
+			pt: "Your opponent's Active Pokémon is now Confused.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
@@ -82,7 +82,8 @@ const card: Card = {
 		en: "A professional swimmer, it can continue swimming for two days straight by waving its long tail skillfully."
 	},
 
-	dexId: [55]
+	dexId: [55],
+	regulationMark: "E"
 }
 
 export default card

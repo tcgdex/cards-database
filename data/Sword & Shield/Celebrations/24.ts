@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Professor’s Research (Professor Oak)",
+		en: "Professor's Research (Professor Oak)",
 		fr: "Recherches Professorales",
 		es: "Investigación de Profesores",
 		it: "Ricerca Accademica",
@@ -33,7 +33,8 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	illustrator: "Ken Sugimori"
+	illustrator: "Ken Sugimori",
+	regulationMark: "D"
 }
 
 export default card

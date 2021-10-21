@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 	illustrator: "Eske Yoshinob",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -51,11 +50,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent’s hand.",
+			en: "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.",
 			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon évolué, faites-le dés-évoluer en plaçant la carte Évolution la plus élevée placée dessus dans la main de votre adversaire.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon evolucionado, involuciónalo poniendo la carta de Evolución de fase más alta que tenga sobre él en la mano de tu rival.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon evoluto, annulla la sua evoluzione mettendone la carta Evoluzione di fase più alta nella mano del tuo avversario.",
-			pt: "If your opponent’s Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent’s hand.",
+			pt: "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand.",
 			de: "Wenn das Aktive Pokémon deines Gegners ein entwickeltes Pokémon ist, rückentwickle es, indem du deinem Gegner die Karte mit der höchsten Entwicklungsstufe auf die Hand gibst."
 		},
 
@@ -74,7 +73,9 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	dexId: [623]
+	dexId: [623],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

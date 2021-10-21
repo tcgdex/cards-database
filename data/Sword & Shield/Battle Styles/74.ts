@@ -31,7 +31,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras’Face",
+			fr: "Écras'Face",
 			es: "Destructor",
 			it: "Botta",
 			pt: "Pancada",
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Gurdurr excels at demolition—construction is not its forte. In any case, there’s skill in the way this Pokémon wields its metal beam."
+		en: "Gurdurr excels at demolition—construction is not its forte. In any case, there's skill in the way this Pokémon wields its metal beam."
 	}
 }
 

@@ -30,7 +30,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Mud-Slap",
-			fr: "Coud’Boue",
+			fr: "Coud'Boue",
 			es: "Bofetón Lodo",
 			it: "Fangosberla",
 			pt: "Mud-Slap",
@@ -64,7 +64,8 @@ const card: Card = {
 		en: "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch."
 	},
 
-	dexId: [524]
+	dexId: [524],
+	regulationMark: "E"
 }
 
 export default card

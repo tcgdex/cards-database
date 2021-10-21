@@ -61,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "If this Pokémon has any damage counters on it, this attack does 100 more damage.",
-			fr: "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque inflige 100 dégâts supplémentaires.",
+			fr: "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque inflige 100 dégâts supplémentaires.",
 			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
 			it: "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 100 danni in più.",
 			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais.",

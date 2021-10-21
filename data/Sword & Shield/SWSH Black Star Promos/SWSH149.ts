@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	stage: "Basic",
-	suffix: "V",
 
 	variants: {
 		normal: false,
@@ -21,7 +20,36 @@ const card: Card = {
 
 	rarity: "None",
 	hp: 210,
-	types: ["Fire"]
+	types: ["Fire"],
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			en: "Flaming Breath"
+		},
+
+		damage: 20,
+
+		effect: {
+			en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck."
+		}
+	}, {
+		cost: ["Fire", "Fire", "Colorless"],
+
+		name: {
+			en: "Scorching Column"
+		},
+
+		damage: 120,
+
+		effect: {
+			en: "Your opponent's Active Pokémon is now Burned."
+		}
+	}],
+
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

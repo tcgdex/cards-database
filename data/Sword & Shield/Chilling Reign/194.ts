@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Choisissez l’une de ces options ou les deux :\n• Ajoutez jusqu’à 2 Pokémon de votre pile de défausse à votre main.\n• Ajoutez jusqu’à 2 cartes Énergie de base de votre pile de défausse à votre main.",
+		fr: "Choisissez l'une de ces options ou les deux :\n• Ajoutez jusqu'à 2 Pokémon de votre pile de défausse à votre main.\n• Ajoutez jusqu'à 2 cartes Énergie de base de votre pile de défausse à votre main.",
 		en: "Choose 1 or both:\n• Put up to 2 Pokémon from your discard pile into your hand.\n• Put up to 2 basic Energy cards from your discard pile into your hand.",
 		es: "Elige 1 o ambas opciones:\n• Pon hasta 2 Pokémon de tu pila de descartes en tu mano.\n• Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
 		it: "Scegli uno o entrambi gli effetti:\n• Prendi fino a due Pokémon dalla tua pila degli scarti e aggiungili alle carte che hai in mano.\n• Prendi fino a due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",

@@ -61,10 +61,11 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Rubbing its fleece generates electricity. You’ll want to pet it because it’s cute, but if you use your bare hand, you’ll get a painful shock."
+		en: "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
 	},
 
-	dexId: [179]
+	dexId: [179],
+	regulationMark: "E"
 }
 
 export default card

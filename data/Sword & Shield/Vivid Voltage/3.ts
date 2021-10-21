@@ -43,9 +43,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, if this Pokémon is the last card in your hand, you may play it onto your Bench. If you do, draw 3 cards.",
-				fr: "Une fois pendant votre tour, si ce Pokémon est votre dernière carte en main, vous pouvez le placer sur votre Banc. Dans ce cas, piochez 3 cartes.",
+				fr: "Une fois pendant votre tour, si ce Pokémon est votre dernière carte en main, vous pouvez le placer sur votre Banc. Dans ce cas, piochez 3 cartes.",
 				es: "Una vez durante tu turno, si este Pokémon es la última carta en tu mano, puedes jugarlo a tu Banca. Si lo haces, roba 3 cartas.",
-				it: "Una sola volta durante il tuo turno, se questo Pokémon è l’ultima carta che hai in mano, puoi giocarlo e metterlo in panchina. Se lo fai, pesca tre carte.",
+				it: "Una sola volta durante il tuo turno, se questo Pokémon è l'ultima carta che hai in mano, puoi giocarlo e metterlo in panchina. Se lo fai, pesca tre carte.",
 				pt: "Uma vez durante o seu turno, se este Pokémon for a última carta na sua mão, você poderá colocá-lo no seu Banco. Se fizer isto, compre 3 cartas.",
 				de: "Einmal während deines Zuges, wenn dieses Pokémon die letzte Karte auf deiner Hand ist, kannst du es auf deine Bank spielen. Wenn du das machst, ziehe 3 Karten."
 			},

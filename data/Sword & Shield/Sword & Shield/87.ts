@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon.",
 				es: "Cura 30 puntos de daño a este Pokémon.",
 				it: "Cura questo Pokémon da 30 danni.",
 				pt: "Cure 30 pontos de dano deste Pokémon.",
@@ -90,7 +90,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It eats dreams and releases mist. The mist is pink when it’s eating a good dream, and black when it’s eating a nightmare."
+		en: "It eats dreams and releases mist. The mist is pink when it's eating a good dream, and black when it's eating a nightmare."
 	}
 }
 

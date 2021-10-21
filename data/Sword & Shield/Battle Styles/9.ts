@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -52,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 3 coins. This attack does 60 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
 			es: "Lanza 3 monedas. Este ataque hace 60 puntos de daño por cada cara.",
 			it: "Lancia tre volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
 			pt: "Jogue 3 moedas. Este ataque causa 60 pontos de dano para cada cara.",

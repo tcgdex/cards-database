@@ -39,8 +39,8 @@ const card: Card = {
 				de: "Bedrohliches Muster"
 			},
 			effect: {
-				en: "During your opponent’s next turn, Energy can’t be attached from your opponent’s hand to the Defending Pokémon.",
-				fr: "Pendant le prochain tour de votre adversaire, de l’Énergie ne peut pas être attachée de la main de votre adversaire au Pokémon Défenseur.",
+				en: "During your opponent's next turn, Energy can't be attached from your opponent's hand to the Defending Pokémon.",
+				fr: "Pendant le prochain tour de votre adversaire, de l'Énergie ne peut pas être attachée de la main de votre adversaire au Pokémon Défenseur.",
 				es: "Durante el próximo turno de tu rival, no se puede unir Energía de la mano de tu rival al Pokémon Defensor.",
 				it: "Durante il prossimo turno del tuo avversario, nessuna Energia può essere assegnata dalla mano del tuo avversario al Pokémon difensore.",
 				pt: "Durante o próximo turno do seu oponente, Energias não poderão ser ligadas da mão do seu oponente ao Pokémon Defensor.",
@@ -64,7 +64,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+				fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 				it: "Scambia questo Pokémon con uno della tua panchina.",
 				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",

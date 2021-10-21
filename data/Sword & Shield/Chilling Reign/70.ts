@@ -40,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Reveal any number of Rapid Strike cards from your hand. This attack does 40 damage for each card you revealed in this way. Then, shuffle those cards into your deck.",
-			fr: "Montrez autant de cartes Mille Poings que vous le voulez de votre main. Cette attaque inflige 40 dégâts pour chaque carte montrée de cette façon. Mélangez ensuite ces cartes avec votre deck.",
+			fr: "Montrez autant de cartes Mille Poings que vous le voulez de votre main. Cette attaque inflige 40 dégâts pour chaque carte montrée de cette façon. Mélangez ensuite ces cartes avec votre deck.",
 			es: "Enseña cualquier cantidad de cartas de Golpe Fluido de tu mano. Este ataque hace 40 puntos de daño por cada carta que hayas enseñado de esta manera. Después, pon esas cartas en tu baraja y barájalas todas.",
 			it: "Mostra un numero qualsiasi di carte Colpo Rapido che hai in mano. Questo attacco infligge 40 danni per ogni carta che hai mostrato in questo modo. Poi rimischia quelle carte nel tuo mazzo.",
 			pt: "Revele qualquer número de cartas Golpe Fluido da sua mão. Este ataque causa 40 pontos de dano para cada carta revelada desta forma. Em seguida, embaralhe aquelas cartas no seu baralho.",
@@ -74,7 +74,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It’s said that Malamar’s hypnotic powers played a role in certain history-changing events."
+		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events."
 	}
 }
 

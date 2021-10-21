@@ -64,7 +64,8 @@ const card: Card = {
 		en: "This Pokémon lives in areas of frigid cold. It secures itself to the back of an Avalugg by freezing its feet in place."
 	},
 
-	dexId: [712]
+	dexId: [712],
+	regulationMark: "E"
 }
 
 export default card

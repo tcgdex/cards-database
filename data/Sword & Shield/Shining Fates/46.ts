@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			fr: "Le Pokémon Actif de votre adversaire est mis K.O.",
-			en: "Your opponent’s Active Pokémon is Knocked Out.",
+			en: "Your opponent's Active Pokémon is Knocked Out.",
 			es: "El Pokémon Activo de tu rival queda Fuera de Combate.",
 			it: "Il Pokémon attivo del tuo avversario viene messo KO.",
 			pt: "O Pokémon Ativo do seu oponente é Nocauteado.",

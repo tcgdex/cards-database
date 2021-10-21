@@ -40,9 +40,9 @@ const card: Card = {
 
 		effect: {
 			en: "Look at the top 4 cards of your deck and put them back in any order.",
-			fr: "Regardez les 4 cartes du dessus de votre deck, puis replacez-les dans l’ordre de votre choix.",
+			fr: "Regardez les 4 cartes du dessus de votre deck, puis replacez-les dans l'ordre de votre choix.",
 			es: "Mira las 4 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras.",
-			it: "Guarda le prime quattro carte del tuo mazzo e rimettile a posto nell’ordine che preferisci.",
+			it: "Guarda le prime quattro carte del tuo mazzo e rimettile a posto nell'ordine che preferisci.",
 			pt: "Olhe as 4 cartas de cima do seu baralho e coloque-as de volta em qualquer ordem.",
 			de: "Schau dir die obersten 4 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
 		},

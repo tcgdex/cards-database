@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
-			fr: "Lancez une pièce jusqu’à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
 			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
 			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
 			pt: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
@@ -73,7 +73,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

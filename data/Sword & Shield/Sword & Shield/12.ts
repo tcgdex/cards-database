@@ -46,8 +46,8 @@ const card: Card = {
 				de: "Verhöhner"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+				en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+				fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
 				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
@@ -71,7 +71,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 60 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
 				es: "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 60 pontos de dano para cada cara.",

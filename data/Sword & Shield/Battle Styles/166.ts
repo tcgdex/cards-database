@@ -32,7 +32,7 @@ const card: Card = {
 
 		effect: {
 			en: "If you have more Prize cards remaining than your opponent, their Active Pokémon is now Paralyzed.",
-			fr: "S’il vous reste plus de cartes Récompense qu’à votre adversaire, son Pokémon Actif est maintenant Paralysé.",
+			fr: "S'il vous reste plus de cartes Récompense qu'à votre adversaire, son Pokémon Actif est maintenant Paralysé.",
 			es: "Si te quedan más cartas de Premio que a tu rival, su Pokémon Activo pasa a estar Paralizado.",
 			it: "Se hai più carte Premio rimanenti del tuo avversario, il suo Pokémon attivo viene paralizzato.",
 			pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, o Pokémon Ativo dele(a) ficará Paralisado.",
@@ -66,7 +66,9 @@ const card: Card = {
 		it: "Tapu Koko-V",
 		pt: "Tapu Koko V",
 		de: "Kapu-Riki-V"
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

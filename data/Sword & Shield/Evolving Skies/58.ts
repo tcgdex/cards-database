@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Lightning"],
 	stage: "Basic",
 	illustrator: "Ryota Murayama",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -39,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, Energy cards can’t be attached from your opponent’s hand to the Defending Pokémon.",
+			en: "During your opponent's next turn, Energy cards can't be attached from your opponent's hand to the Defending Pokémon.",
 			fr: "Pendant le prochain tour de votre adversaire, aucune carte Énergie ne peut être attachée de la main de votre adversaire au Pokémon Défenseur.",
 			es: "Durante el próximo turno de tu rival, no se pueden unir cartas de Energía de la mano de tu rival al Pokémon Defensor.",
 			it: "Durante il prossimo turno del tuo avversario, nessuna carta Energia può essere assegnata dalla mano del tuo avversario al Pokémon difensore.",
-			pt: "During your opponent’s next turn, Energy cards can’t be attached from your opponent’s hand to the Defending Pokémon.",
+			pt: "During your opponent's next turn, Energy cards can't be attached from your opponent's hand to the Defending Pokémon.",
 			de: "Während des nächsten Zuges deines Gegners können keine Energiekarten aus der Hand deines Gegners an das Verteidigende Pokémon angelegt werden."
 		},
 
@@ -61,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard the top 3 cards of your deck.",
-			fr: "Défaussez les 3 cartes du dessus de votre deck.",
+			fr: "Défaussez les 3 cartes du dessus de votre deck.",
 			es: "Descarta las 3 primeras cartas de tu baraja.",
 			it: "Scarta le prime tre carte del tuo mazzo.",
 			pt: "Discard the top 3 cards of your deck.",
@@ -78,7 +77,9 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	dexId: [880]
+	dexId: [880],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

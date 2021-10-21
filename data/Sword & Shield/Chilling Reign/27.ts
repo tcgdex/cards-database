@@ -39,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t attack.",
+			en: "During your next turn, this Pokémon can't attack.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",

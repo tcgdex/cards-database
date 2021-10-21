@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 		},
 
 		damage: 60,

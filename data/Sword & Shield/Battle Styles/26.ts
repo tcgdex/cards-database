@@ -42,10 +42,10 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip 2 coins. For each heads, discard an Energy from your opponent’s Active Pokémon.",
-			fr: "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			en: "Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon.",
+			fr: "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
 			es: "Lanza 2 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Lancia due volte una moneta. Ogni volta che esce testa, scarta un’Energia dal Pokémon attivo del tuo avversario.",
+			it: "Lancia due volte una moneta. Ogni volta che esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
 			pt: "Jogue 2 moedas. Para cada cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
 			de: "Wirf 2 Münzen. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},

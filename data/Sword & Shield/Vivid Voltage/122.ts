@@ -45,10 +45,10 @@ const card: Card = {
 				de: "Schlagbohrer"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
+				en: "Discard an Energy from your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
 				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia dal Pokémon attivo del tuo avversario.",
+				it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
 				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
 				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
@@ -102,7 +102,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It’s not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill’s rampant digging."
+		en: "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging."
 	}
 }
 

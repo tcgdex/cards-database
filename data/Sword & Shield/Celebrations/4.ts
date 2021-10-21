@@ -40,7 +40,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, your opponent can’t play any Stadium cards from their hand.",
+			en: "As long as this Pokémon is in the Active Spot, your opponent can't play any Stadium cards from their hand.",
 			fr: "Tant que ce Pokémon est sur le Poste Actif, votre adversaire ne peut pas jouer de cartes Stade de sa main.",
 			es: "Mientras este Pokémon esté en el Puesto Activo, tu rival no puede jugar ninguna carta de Estadio de su mano.",
 			it: "Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare le carte Stadio che ha in mano.",
@@ -60,10 +60,10 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon’s Overdrive Smash attack does 80 more damage (before applying Weakness and Resistance).",
-			fr: "Pendant votre prochain tour, l’attaque Boost Atomisant de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+			en: "During your next turn, this Pokémon's Overdrive Smash attack does 80 more damage (before applying Weakness and Resistance).",
+			fr: "Pendant votre prochain tour, l'attaque Boost Atomisant de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			es: "Durante tu próximo turno, el ataque Sacudida Superdirecta de este Pokémon hace 80 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-			it: "Durante il tuo prossimo turno, l’attacco Devastacolpo di questo Pokémon infligge 80 danni in più, prima di aver applicato debolezza e resistenza.",
+			it: "Durante il tuo prossimo turno, l'attacco Devastacolpo di questo Pokémon infligge 80 danni in più, prima di aver applicato debolezza e resistenza.",
 			pt: "Durante o seu próximo turno, o ataque Golpe Exaustivo deste Pokémon causará 80 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
 			de: "Während deines nächsten Zuges fügt die Attacke Turbosmash dieses Pokémon 80 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		},
@@ -77,7 +77,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "E"
 }
 
 export default card

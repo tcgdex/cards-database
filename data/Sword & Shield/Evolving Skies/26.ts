@@ -52,7 +52,8 @@ const card: Card = {
 		en: "Its body is 99% water. The remaining 1% contains the organ that makes its poison."
 	},
 
-	dexId: [72]
+	dexId: [72],
+	regulationMark: "E"
 }
 
 export default card

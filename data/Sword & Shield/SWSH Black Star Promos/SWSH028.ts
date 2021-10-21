@@ -40,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 40 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 40 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 40 dégâts.",
 			es: "Este Pokémon también se hace 40 puntos de daño a sí mismo.",
 			pt: "This Pokémon also does 40 damage to itself.",
 			de: "Dieses Pokémon fügt auch sich selbst 40 Schadenspunkte zu."
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body resembles polished metal, and it’s both lightweight and strong. The only drawback is that it rusts easily."
+		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	},
 
 	stage: "Basic",
@@ -74,7 +74,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

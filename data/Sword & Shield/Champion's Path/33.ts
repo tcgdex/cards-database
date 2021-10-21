@@ -45,7 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Snap",
-				fr: "Coud’ Queue Sec",
+				fr: "Coud' Queue Sec",
 				es: "Pinza Cola",
 				it: "Schioccacoda",
 				pt: "Surpresa de Cauda",

@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de chacun de vos Pokémon.",
+			fr: "Soignez 30 dégâts de chacun de vos Pokémon.",
 			en: "Heal 30 damage from each of your Pokémon.",
 			es: "Cura 30 puntos de daño a cada uno de tus Pokémon.",
 			it: "Cura ciascuno dei tuoi Pokémon da 30 danni.",
@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			en: "Your opponent’s Active Pokémon is now Confused.",
+			en: "Your opponent's Active Pokémon is now Confused.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso.",
 			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",

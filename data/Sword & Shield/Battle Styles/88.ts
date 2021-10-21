@@ -31,7 +31,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Gale Thrust",
-			fr: "Coup d’Bourrasque",
+			fr: "Coup d'Bourrasque",
 			es: "Impulso Vendaval",
 			it: "Raffica di Stoccate",
 			pt: "Propulsão de Tempestade",
@@ -40,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 120 more damage.",
-			fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 120 dégâts supplémentaires.",
+			fr: "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 120 dégâts supplémentaires.",
 			es: "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque hace 120 puntos de daño más.",
 			it: "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, questo attacco infligge 120 danni in più.",
 			pt: "Se este Pokémon foi movido do seu Banco para o Campo Ativo durante este turno, este ataque causará 120 pontos de dano a mais.",
@@ -60,8 +60,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon. This attack does 120 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Défaussez toute l’Énergie de ce Pokémon. Cette attaque inflige 120 dégâts à 2 des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			en: "Discard all Energy from this Pokémon. This attack does 120 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Défaussez toute l'Énergie de ce Pokémon. Cette attaque inflige 120 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Descarta todas las Energías de este Pokémon. Este ataque hace 120 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Scarta tutte le Energie da questo Pokémon. Questo attacco infligge 120 danni a due dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			pt: "Descarte todas as Energias deste Pokémon. Este ataque causa 120 pontos de dano a 2 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",

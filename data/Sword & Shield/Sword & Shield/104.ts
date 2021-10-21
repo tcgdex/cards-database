@@ -21,8 +21,6 @@ const card: Card = {
 		"Fighting",
 	],
 
-	suffix: "V",
-
 	attacks: [
 		{
 			cost: [
@@ -39,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
 				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
 				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
@@ -64,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
@@ -92,7 +90,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "Basic"
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

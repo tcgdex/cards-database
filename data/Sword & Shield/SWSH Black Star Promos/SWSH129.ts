@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 60 damage to 1 of your opponent’s Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			en: "This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
@@ -43,7 +43,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Confused."
+			en: "Your opponent's Active Pokémon is now Confused."
 		},
 
 		damage: 80
@@ -61,7 +61,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

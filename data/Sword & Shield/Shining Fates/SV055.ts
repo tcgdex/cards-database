@@ -35,7 +35,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
 			en: "Heal 30 damage from this Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
@@ -55,7 +55,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			en: "Flip a coin. If heads, this attack does 30 more damage.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",

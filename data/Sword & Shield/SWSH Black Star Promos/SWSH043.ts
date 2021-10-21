@@ -5,11 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Sirfetch’d V",
+		en: "Galarian Sirfetch'd V",
 		fr: "Palarticho de Galar V",
-		es: "Sirfetch’d de Galar V",
-		it: "Sirfetch’d di Galar V",
-		pt: "Galarian Sirfetch’d V",
+		es: "Sirfetch'd de Galar V",
+		it: "Sirfetch'd di Galar V",
+		pt: "Galarian Sirfetch'd V",
 		de: "Galar-Lauchzelot V"
 	},
 
@@ -33,7 +33,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may move any amount of Fighting Energy from your other Pokémon to it.",
-			fr: "Une fois pendant votre tour, lorsque ce Pokémon se déplace de votre Banc vers le Poste Actif, vous pouvez déplacer autant d’Énergies Fighting que vous le voulez de vos autres Pokémon vers celui-ci.",
+			fr: "Une fois pendant votre tour, lorsque ce Pokémon se déplace de votre Banc vers le Poste Actif, vous pouvez déplacer autant d'Énergies Fighting que vous le voulez de vos autres Pokémon vers celui-ci.",
 			es: "Una vez durante tu turno, cuando este Pokémon se mueve de tu Banca al Puesto Activo, puedes mover cualquier cantidad de Energías Fighting de tus otros Pokémon a este Pokémon.",
 			it: "Una sola volta durante il tuo turno, quando questo Pokémon si sposta dalla tua panchina in posizione attiva, puoi spostare un numero qualsiasi di Energie Fighting dai tuoi altri Pokémon su questo Pokémon.",
 			pt: "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may move any amount of Fighting Energy from your other Pokémon to it.",
@@ -52,11 +52,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t attack.",
+			en: "During your next turn, this Pokémon can't attack.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "During your next turn, this Pokémon can’t attack.",
+			pt: "During your next turn, this Pokémon can't attack.",
 			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
@@ -71,7 +71,6 @@ const card: Card = {
 
 	retreat: 2,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [865],
 
 	variants: {
@@ -79,7 +78,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

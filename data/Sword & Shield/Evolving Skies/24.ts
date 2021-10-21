@@ -52,7 +52,8 @@ const card: Card = {
 		en: "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache."
 	},
 
-	dexId: [54]
+	dexId: [54],
+	regulationMark: "E"
 }
 
 export default card

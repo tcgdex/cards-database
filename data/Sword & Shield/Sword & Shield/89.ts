@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Each player draws 2 cards.",
-				fr: "Chaque joueur pioche 2 cartes.",
+				fr: "Chaque joueur pioche 2 cartes.",
 				es: "Cada jugador roba 2 cartas.",
 				it: "Ciascun giocatore pesca due carte.",
 				pt: "Cada jogador compra 2 cartas.",

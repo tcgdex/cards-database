@@ -61,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
-			fr: "Attachez jusqu’à 2 cartes Énergie de base de votre pile de défausse à l’un de vos Pokémon de Banc.",
+			fr: "Attachez jusqu'à 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
 			es: "Une hasta 2 cartas de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
 			it: "Assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia base dalla tua pila degli scarti.",
 			pt: "Ligue até 2 cartas de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
@@ -91,7 +91,9 @@ const card: Card = {
 		it: "Cosmoem",
 		pt: "Cosmoem",
 		de: "Cosmovum"
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

@@ -73,7 +73,7 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	suffix: "V"
+
 }
 
 export default card

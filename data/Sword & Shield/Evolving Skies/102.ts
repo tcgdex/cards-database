@@ -52,7 +52,8 @@ const card: Card = {
 		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
 	},
 
-	dexId: [570]
+	dexId: [570],
+	regulationMark: "E"
 }
 
 export default card

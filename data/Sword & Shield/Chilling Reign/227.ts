@@ -34,7 +34,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	illustrator: "sadaji"
+	illustrator: "sadaji",
+	regulationMark: "E"
 }
 
 export default card

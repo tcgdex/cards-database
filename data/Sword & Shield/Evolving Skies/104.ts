@@ -52,7 +52,8 @@ const card: Card = {
 		en: "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder."
 	},
 
-	dexId: [827]
+	dexId: [827],
+	regulationMark: "E"
 }
 
 export default card

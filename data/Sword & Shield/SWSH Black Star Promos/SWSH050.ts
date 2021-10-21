@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Claw Slash",
-			fr: "Tranch’Griffe",
+			fr: "Tranch'Griffe",
 			es: "Cuchillada Garra",
 			it: "Lacerartiglio",
 			pt: "Claw Slash",
@@ -61,7 +61,6 @@ const card: Card = {
 
 	retreat: 3,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [6],
 
 	variants: {
@@ -69,7 +68,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

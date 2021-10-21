@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 damage for each Energy attached to both Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque Énergie attachée aux deux Pokémon Actifs.",
+				fr: "Cette attaque inflige 30 dégâts pour chaque Énergie attachée aux deux Pokémon Actifs.",
 				es: "Este ataque hace 30 puntos de daño por cada Energía unida a ambos Pokémon Activos.",
 				it: "Questo attacco infligge 30 danni per ogni Energia assegnata a ciascuno dei Pokémon attivi.",
 				pt: "Este ataque causa 30 pontos de dano para cada Energia ligada a ambos os Pokémon Ativos.",

@@ -33,8 +33,8 @@ const card: Card = {
 				de: "Resistenzschatten"
 			},
 			effect: {
-				en: "If you have Lunatone in play, your opponent’s Pokémon in play have no Resistance.",
-				fr: "Si vous avez Séléroc en jeu, les Pokémon en jeu de votre adversaire n’ont pas de Résistance.",
+				en: "If you have Lunatone in play, your opponent's Pokémon in play have no Resistance.",
+				fr: "Si vous avez Séléroc en jeu, les Pokémon en jeu de votre adversaire n'ont pas de Résistance.",
 				es: "Si tienes a Lunatone en juego, los Pokémon en juego de tu rival no tienen Resistencia.",
 				it: "Se hai Lunatone in gioco, i Pokémon in gioco del tuo avversario non hanno resistenza.",
 				pt: "Se você tiver Lunatone em jogo, os Pokémon em jogo do seu oponente não terão Resistência.",

@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d’Boule",
+				fr: "Coup d'Boule",
 				es: "Golpe Cabeza",
 				it: "Bottintesta",
 				pt: "Cabeçada",

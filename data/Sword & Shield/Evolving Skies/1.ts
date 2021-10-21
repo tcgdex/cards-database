@@ -40,11 +40,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Damage from your Single Strike Pokémon’s attacks isn’t affected by your opponent’s Active Pokémon’s Resistance.",
-			fr: "Les dégâts des attaques de vos Pokémon Poing Final ne sont pas affectés par la Résistance du Pokémon Actif de votre adversaire.",
+			en: "Damage from your Single Strike Pokémon's attacks isn't affected by your opponent's Active Pokémon's Resistance.",
+			fr: "Les dégâts des attaques de vos Pokémon Poing Final ne sont pas affectés par la Résistance du Pokémon Actif de votre adversaire.",
 			es: "El daño de los ataques de tus Pokémon Golpe Brusco no se ve afectado por la Resistencia del Pokémon Activo de tu rival.",
 			it: "I danni degli attacchi dei tuoi Pokémon Colpo Singolo non sono influenzati dalla resistenza del Pokémon attivo del tuo avversario.",
-			pt: "Damage from your Single Strike Pokémon’s attacks isn’t affected by your opponent’s Active Pokémon’s Resistance.",
+			pt: "Damage from your Single Strike Pokémon's attacks isn't affected by your opponent's Active Pokémon's Resistance.",
 			de: "Schaden durch Attacken deiner Fokussierter-Angriff-Pokémon wird durch Resistenz auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		}
 	}],
@@ -71,10 +71,11 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Although it’s tough, it can’t handle cold well. When night falls, it buries itself in leafage and sleeps."
+		en: "Although it's tough, it can't handle cold well. When night falls, it buries itself in leafage and sleeps."
 	},
 
-	dexId: [127]
+	dexId: [127],
+	regulationMark: "E"
 }
 
 export default card

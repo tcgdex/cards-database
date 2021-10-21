@@ -52,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "If you have a Stadium in play, this attack does 80 more damage.",
-			fr: "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires.",
+			fr: "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si tienes un Estadio en juego, este ataque hace 80 puntos de daño más.",
 			it: "Se hai in gioco una carta Stadio, questo attacco infligge 80 danni in più.",
 			pt: "Se você tiver um Estádio em jogo, este ataque causará 80 pontos de dano a mais.",
@@ -81,7 +81,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck’s horns."
+		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns."
 	}
 }
 

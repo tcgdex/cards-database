@@ -64,7 +64,7 @@ const card: Card = {
 				de: "Blitzschock"
 			},
 			effect: {
-				en: "Your opponent reveals their hand. If you find any Energy cards there, your opponent’s Active Pokémon is now Paralyzed.",
+				en: "Your opponent reveals their hand. If you find any Energy cards there, your opponent's Active Pokémon is now Paralyzed.",
 				fr: "Votre adversaire dévoile sa main. Si vous y trouvez au moins une carte Énergie, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Tu rival enseña las cartas de su mano. Si encuentras alguna carta de Energía entre ellas, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Il tuo avversario mostra le carte che ha in mano. Se ci trovi delle carte Energia, il Pokémon attivo del tuo avversario viene paralizzato.",

@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Put a Water Pokémon from your discard pile onto your Bench. If you do, attach up to 3 Water Energy cards from your discard pile to that Pokémon.",
-			fr: "Placez un Pokémon Water de votre pile de défausse sur votre Banc. Dans ce cas, attachez jusqu’à 3 cartes Énergie Water de votre pile de défausse à ce Pokémon-là.",
+			fr: "Placez un Pokémon Water de votre pile de défausse sur votre Banc. Dans ce cas, attachez jusqu'à 3 cartes Énergie Water de votre pile de défausse à ce Pokémon-là.",
 			es: "Pon 1 Pokémon Water de tu pila de descartes en tu Banca. Si lo haces, une hasta 3 cartas de Energía Water de tu pila de descartes a ese Pokémon.",
 			it: "Prendi un Pokémon Water dalla tua pila degli scarti e mettilo nella tua panchina. Se lo fai, assegna a quel Pokémon fino a tre carte Energia Water dalla tua pila degli scarti.",
 			pt: "Put a Water Pokémon from your discard pile onto your Bench. If you do, attach up to 3 Water Energy cards from your discard pile to that Pokémon.",
@@ -58,11 +58,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 100 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 100 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 100 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 100 danni in più.",
-			pt: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 100 more damage.",
+			pt: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage.",
 			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
@@ -87,7 +87,8 @@ const card: Card = {
 	},
 
 	dexId: [134],
-	suffix: "V"
+	regulationMark: "E",
+
 }
 
 export default card

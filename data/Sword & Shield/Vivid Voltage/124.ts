@@ -45,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 damage for each Metal Energy attached to this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque Énergie Metal attachée à ce Pokémon. Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+				fr: "Cette attaque inflige 30 dégâts pour chaque Énergie Metal attachée à ce Pokémon. Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 				es: "Este ataque hace 30 puntos de daño por cada Energía Metal unida a este Pokémon. Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 				it: "Questo attacco infligge 30 danni per ogni Energia Metal assegnata a questo Pokémon. Scambia questo Pokémon con uno della tua panchina.",
 				pt: "Este ataque causa 30 pontos de dano para cada Energia Metal ligada a este Pokémon. Troque este Pokémon por 1 dos seus Pokémon no Banco.",

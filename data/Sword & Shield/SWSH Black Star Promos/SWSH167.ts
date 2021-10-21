@@ -18,7 +18,13 @@ const card: Card = {
 	},
 
 	rarity: "None",
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	effect: {
+		en: "Search your deck for up to 2 cards and discard them. Then, shuffle your deck."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

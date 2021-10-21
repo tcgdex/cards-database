@@ -30,11 +30,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Put 3 damage counters on your opponent’s Pokémon in any way you like.",
+			en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
 			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
 			es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
 			it: "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-			pt: "Put 3 damage counters on your opponent’s Pokémon in any way you like.",
+			pt: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
 			de: "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 		},
 
@@ -50,11 +50,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each card in your opponent’s hand.",
+			en: "This attack does 30 damage for each card in your opponent's hand.",
 			fr: "Cette attaque inflige 30 dégâts pour chaque carte dans la main de votre adversaire.",
 			es: "Este ataque hace 30 puntos de daño por cada carta en la mano de tu rival.",
 			it: "Questo attacco infligge 30 danni per ogni carta nella mano del tuo avversario.",
-			pt: "This attack does 30 damage for each card in your opponent’s hand.",
+			pt: "This attack does 30 damage for each card in your opponent's hand.",
 			de: "Diese Attacke fügt für jede Karte auf der Hand deines Gegners 30 Schadenspunkte zu."
 		},
 
@@ -74,7 +74,6 @@ const card: Card = {
 
 	retreat: 1,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [65],
 
 	variants: {
@@ -82,7 +81,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

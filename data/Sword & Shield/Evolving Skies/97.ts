@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon has any damage counters on it, put it and all attached cards into your opponent’s hand.",
+			en: "If your opponent's Active Pokémon has any damage counters on it, put it and all attached cards into your opponent's hand.",
 			fr: "Si au moins un marqueur de dégâts est placé sur le Pokémon Actif de votre adversaire, placez ce Pokémon-là et toutes les cartes attachées dans la main de votre adversaire.",
 			es: "Si el Pokémon Activo de tu rival tiene algún contador de daño sobre él, pon ese Pokémon y todas las cartas unidas a él en la mano de tu rival.",
 			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, aggiungilo alla mano del tuo avversario insieme a tutte le carte a esso assegnate.",
-			pt: "If your opponent’s Active Pokémon has any damage counters on it, put it and all attached cards into your opponent’s hand.",
+			pt: "If your opponent's Active Pokémon has any damage counters on it, put it and all attached cards into your opponent's hand.",
 			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, gib deinem Gegner es und alle angelegten Karten auf seine Hand."
 		},
 
@@ -58,11 +58,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent’s hand.",
+			en: "Discard a random card from your opponent's hand.",
 			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
 			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
 			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Discard a random card from your opponent’s hand.",
+			pt: "Discard a random card from your opponent's hand.",
 			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -90,7 +90,8 @@ const card: Card = {
 		en: "It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds."
 	},
 
-	dexId: [275]
+	dexId: [275],
+	regulationMark: "E"
 }
 
 export default card

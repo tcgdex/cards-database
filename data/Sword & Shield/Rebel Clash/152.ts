@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, you may search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Outil Pokémon, la montrer, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
+				fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Outil Pokémon, la montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
 				es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Herramienta Pokémon, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Oggetto Pokémon, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Uma vez durante o seu turno, você poderá procurar por 1 carta de Ferramenta Pokémon no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn’t notice the loss."
+		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss."
 	}
 }
 

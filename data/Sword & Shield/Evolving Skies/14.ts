@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Supporter card in your opponent’s discard pile.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire.",
+			en: "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
+			fr: "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire.",
 			es: "Este ataque hace 40 puntos de daño por cada carta de Partidario en la pila de descartes de tu rival.",
 			it: "Questo attacco infligge 40 danni per ogni carta Aiuto nella pila degli scarti del tuo avversario.",
-			pt: "This attack does 40 damage for each Supporter card in your opponent’s discard pile.",
+			pt: "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
 			de: "Diese Attacke fügt für jede Unterstützerkarte im Ablagestapel deines Gegners 40 Schadenspunkte zu."
 		},
 
@@ -79,7 +79,8 @@ const card: Card = {
 	},
 
 	dexId: [709],
-	suffix: "V"
+	regulationMark: "E",
+
 }
 
 export default card

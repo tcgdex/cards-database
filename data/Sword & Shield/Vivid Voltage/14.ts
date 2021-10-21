@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for a Shedinja and put it onto your Bench. Then, shuffle your deck.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez chercher dans votre deck un Munja, puis le placer sur votre Banc. Mélangez ensuite votre deck.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez chercher dans votre deck un Munja, puis le placer sur votre Banc. Mélangez ensuite votre deck.",
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes buscar en tu baraja a Shedinja y ponerlo en tu Banca. Baraja las cartas de tu baraja después.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi cercare nel tuo mazzo uno Shedinja e aggiungerlo alla tua panchina. Poi rimischia le carte del tuo mazzo.",
 				pt: "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você pode procurar Shedinja em seu baralho e colocá-lo no Banco. Em seguida, embaralhe seus cards.",
@@ -67,7 +67,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon.",
 				es: "Cura 30 puntos de daño a este Pokémon.",
 				it: "Cura questo Pokémon da 30 danni.",
 				pt: "Cure 30 pontos de dano deste Pokémon.",

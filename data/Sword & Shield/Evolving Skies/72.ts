@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 2 coins. This attack does 50 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
 			es: "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
 			pt: "Flip 2 coins. This attack does 50 damage for each heads.",
@@ -82,7 +82,8 @@ const card: Card = {
 		en: "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed."
 	},
 
-	dexId: [670]
+	dexId: [670],
+	regulationMark: "E"
 }
 
 export default card

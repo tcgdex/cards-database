@@ -47,7 +47,7 @@ const card: Card = {
 				de: "Mächtiger Biss"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 				es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -72,8 +72,8 @@ const card: Card = {
 				de: "Kämpfende Reißzähne"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 90 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V ou un Pokémon-GX, cette attaque inflige 90 dégâts supplémentaires.",
+				en: "If your opponent's Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 90 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V ou un Pokémon-GX, cette attaque inflige 90 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival es un Pokémon V o un Pokémon-GX, este ataque hace 90 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è un Pokémon-V o un Pokémon-GX, questo attacco infligge 90 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon V ou um Pokémon-GX, este ataque causará 90 pontos de dano a mais.",

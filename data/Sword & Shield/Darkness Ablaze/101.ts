@@ -44,8 +44,8 @@ const card: Card = {
 				de: "Dreifachgift"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned. During Pokémon Checkup, put 3 damage counters on that Pokémon instead of 1.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 3 marqueurs de dégâts sur ce Pokémon-là au lieu d’un.",
+				en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 3 damage counters on that Pokémon instead of 1.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 3 marqueurs de dégâts sur ce Pokémon-là au lieu d'un.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 3 contadores de daño en ese Pokémon en vez de 1.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il controllo Pokémon, metti tre segnalini danno invece di uno su quel Pokémon.",
 				pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 3 contadores de dano ao invés de 1 naquele Pokémon.",
@@ -94,7 +94,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Because they scatter germs everywhere, they’ve long been targeted for extermination, leading to a steep decline in their population."
+		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population."
 	}
 }
 

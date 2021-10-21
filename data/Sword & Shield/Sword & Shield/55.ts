@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras’Face",
+				fr: "Écras'Face",
 				es: "Destructor",
 				it: "Botta",
 				pt: "Pancada",
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Pistolet à O",
 				es: "Pistola Agua",
 				it: "Pistolacqua",
-				pt: "Revólver d’Água",
+				pt: "Revólver d'Água",
 				de: "Aquaknarre"
 			},
 
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping."
+		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	}
 }
 

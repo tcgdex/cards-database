@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "Saki Hayashiro",
 	category: "Pokemon",
 	stage: "Basic",
-	suffix: "V",
 
 	name: {
 		en: "Galarian Rapidash V",
@@ -24,8 +23,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Put damage counters on 1 of your opponent’s Pokémon until its remaining HP is 100.",
-			pt: "Put damage counters on 1 of your opponent’s Pokémon until its remaining HP is 100."
+			en: "Put damage counters on 1 of your opponent's Pokémon until its remaining HP is 100.",
+			pt: "Put damage counters on 1 of your opponent's Pokémon until its remaining HP is 100."
 		},
 
 		cost: ["Colorless", "Colorless"]
@@ -36,8 +35,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.",
-			pt: "This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon."
+			en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+			pt: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
 		},
 
 		damage: "60+",
@@ -62,7 +61,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

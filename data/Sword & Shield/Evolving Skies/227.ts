@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent’s Pokémon."
+			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon."
 		}
 	}],
 
@@ -64,7 +64,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "E"
 }
 
 export default card

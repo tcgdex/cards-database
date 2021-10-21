@@ -52,7 +52,8 @@ const card: Card = {
 		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights."
 	},
 
-	dexId: [170]
+	dexId: [170],
+	regulationMark: "E"
 }
 
 export default card

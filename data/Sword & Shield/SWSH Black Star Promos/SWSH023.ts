@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Luxray’s ability to see through objects comes in handy when it’s scouting for danger."
+		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
 	},
 
 	stage: "Stage2",
@@ -78,7 +78,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

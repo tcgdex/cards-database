@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Lightning"],
 	stage: "Basic",
 	illustrator: "aky CG Works",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -47,7 +46,9 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

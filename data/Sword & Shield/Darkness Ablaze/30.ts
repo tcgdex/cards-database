@@ -44,8 +44,8 @@ const card: Card = {
 				de: "Kauterisieren"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n’a aucun marqueur de dégâts avant que cette attaque n’inflige des dégâts, cette attaque ne fait rien.",
+				en: "If your opponent's Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",
+				fr: "Si le Pokémon Actif de votre adversaire n'a aucun marqueur de dégâts avant que cette attaque n'inflige des dégâts, cette attaque ne fait rien.",
 				es: "Si el Pokémon Activo de tu rival no tiene ningún contador de daño sobre él antes de que este ataque inflija daño, este ataque no hace nada.",
 				it: "Se il Pokémon attivo del tuo avversario non ha segnalini danno prima che questo attacco infligga danni, questo attacco non ha effetto.",
 				pt: "Se o Pokémon Ativo do seu oponente não tiver nenhum contador de dano nele antes deste ataque causar dano, este ataque não fará nada.",

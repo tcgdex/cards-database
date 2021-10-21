@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Water Gun",
 			es: "Pistola Agua",
 			it: "Pistolacqua",
-			pt: "Revólver d’Água",
+			pt: "Revólver d'Água",
 			de: "Aquaknarre"
 		},
 

@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it trusts a Trainer, it will treat them to berries it’s decorated with cream."
+		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
 	},
 
 	stage: "Stage1",
@@ -86,7 +86,9 @@ const card: Card = {
 		reverse: false,
 		holo: false,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

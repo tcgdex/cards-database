@@ -67,7 +67,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It defends itself by launching spikes, but its aim isn’t very good at first. Only after a lot of practice will it improve."
+		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
 	}
 }
 

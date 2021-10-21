@@ -50,14 +50,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Cage",
-				fr: "Cage d’Ombre",
+				fr: "Cage d'Ombre",
 				es: "Jaula Sombría",
 				it: "Gabbiombra",
 				pt: "Gaiola Sombria",
 				de: "Schattenverlies"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 				es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it’s kind."
+		en: "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it's kind."
 	}
 }
 

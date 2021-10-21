@@ -41,8 +41,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your Single Strike Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
-			fr: "Les attaques de vos Pokémon Poing Final infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			en: "Your Single Strike Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			fr: "Les attaques de vos Pokémon Poing Final infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 			es: "Los ataques de tus Pokémon Golpe Brusco hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Gli attacchi dei tuoi Pokémon Colpo Singolo infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			pt: "Os ataques dos seus Pokémon Golpe Decisivo causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",

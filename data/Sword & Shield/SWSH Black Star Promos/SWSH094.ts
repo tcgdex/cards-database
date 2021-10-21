@@ -55,7 +55,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 			pt: "This Pokémon also does 30 damage to itself.",
@@ -84,7 +84,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

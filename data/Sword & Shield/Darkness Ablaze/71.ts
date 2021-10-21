@@ -45,7 +45,7 @@ const card: Card = {
 				de: "Fesselbiss"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 				es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Although it’s popular with young people, Granbull is timid and sensitive, so it’s totally incompetent as a watchdog."
+		en: "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog."
 	}
 }
 

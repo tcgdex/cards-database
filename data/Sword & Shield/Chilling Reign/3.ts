@@ -39,8 +39,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon has any Special Energy attached, it is Knocked Out.",
-			fr: "Si de l’Énergie spéciale est attachée au Pokémon Actif de votre adversaire, il est mis K.O.",
+			en: "If your opponent's Active Pokémon has any Special Energy attached, it is Knocked Out.",
+			fr: "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, il est mis K.O.",
 			es: "Si el Pokémon Activo de tu rival tiene alguna Energía Especial unida a él, queda Fuera de Combate.",
 			it: "Se il Pokémon attivo del tuo avversario ha delle Energie speciali assegnate, viene messo KO.",
 			pt: "Se o Pokémon Ativo do seu oponente tiver alguma Energia Especial ligada a ele, ele será Nocauteado.",
@@ -62,7 +62,7 @@ const card: Card = {
 			en: "Discard an Energy from this Pokémon.",
 			fr: "Défaussez une Énergie de ce Pokémon.",
 			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un’Energia da questo Pokémon.",
+			it: "Scarta un'Energia da questo Pokémon.",
 			pt: "Descarte 1 Energia deste Pokémon.",
 			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},

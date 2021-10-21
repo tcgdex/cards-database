@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+			pt: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "You may discard 3 Lightning Energy from this Pokémon. If you do, this attack does 120 more damage.",
-			fr: "Vous pouvez défausser 3 Énergies Lightning de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires.",
+			fr: "Vous pouvez défausser 3 Énergies Lightning de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires.",
 			es: "Puedes descartar 3 Energías Lightning de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más.",
 			it: "Puoi scartare tre Energie Lightning da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più.",
 			pt: "You may discard 3 Lightning Energy from this Pokémon. If you do, this attack does 120 more damage.",
@@ -91,7 +91,8 @@ const card: Card = {
 		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors."
 	},
 
-	dexId: [181]
+	dexId: [181],
+	regulationMark: "E"
 }
 
 export default card

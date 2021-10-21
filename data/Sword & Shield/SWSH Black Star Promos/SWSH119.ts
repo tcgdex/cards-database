@@ -7,7 +7,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "This Pokémon’s stomach is so strong, even eating moldy or rotten food will not affect it."
+		en: "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it."
 	},
 
 	stage: "Basic",
@@ -55,7 +55,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

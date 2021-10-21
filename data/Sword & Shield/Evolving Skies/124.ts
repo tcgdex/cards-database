@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 20 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
 			es: "Este ataque hace 20 puntos de daño menos por cada contador de daño en este Pokémon.",
 			it: "Questo attacco infligge 20 danni in meno per ogni segnalino danno presente su questo Pokémon.",
 			pt: "This attack does 20 less damage for each damage counter on this Pokémon.",
@@ -66,7 +66,9 @@ const card: Card = {
 
 	description: {
 		en: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon."
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

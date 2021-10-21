@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
 				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
 				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
@@ -64,7 +64,7 @@ const card: Card = {
 				en: "Discard an Energy from this Pokémon.",
 				fr: "Défaussez une Énergie de ce Pokémon.",
 				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia da questo Pokémon.",
+				it: "Scarta un'Energia da questo Pokémon.",
 				pt: "Descarte 1 Energia deste Pokémon.",
 				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
@@ -100,7 +100,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body resembles polished metal, and it’s both lightweight and strong. The only drawback is that it rusts easily."
+		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	}
 }
 

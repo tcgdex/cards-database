@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It’s good at finding berries and gathers them from all over. It’s kind enough to share them with friends."
+		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
 	}
 }
 

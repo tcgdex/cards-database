@@ -45,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 				es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 				it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
@@ -69,10 +69,10 @@ const card: Card = {
 				de: "Powerdruck"
 			},
 			effect: {
-				en: "If this Pokémon has at least 1 extra Fighting Energy attached (in addition to this attack’s cost), this attack does 70 more damage.",
-				fr: "Si au moins une Énergie Fighting supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 70 dégâts supplémentaires.",
+				en: "If this Pokémon has at least 1 extra Fighting Energy attached (in addition to this attack's cost), this attack does 70 more damage.",
+				fr: "Si au moins une Énergie Fighting supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 70 dégâts supplémentaires.",
 				es: "Si este Pokémon tiene por lo menos 1 Energía Fighting adicional unida a él (además de las del coste de este ataque), este ataque hace 70 puntos de daño más.",
-				it: "Se questo Pokémon ha almeno un’Energia Fighting extra assegnata, in aggiunta a quelle del costo di questo attacco, questo attacco infligge 70 danni in più.",
+				it: "Se questo Pokémon ha almeno un'Energia Fighting extra assegnata, in aggiunta a quelle del costo di questo attacco, questo attacco infligge 70 danni in più.",
 				pt: "Se este Pokémon tiver pelo menos 1 Energia Fighting adicional ligada a ele (além do custo deste ataque), este ataque causará 70 pontos de dano a mais.",
 				de: "Wenn an dieses Pokémon mindestens 1 extra Fighting-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},

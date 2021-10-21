@@ -50,11 +50,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned.",
+			en: "Your opponent's Active Pokémon is now Poisoned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "Your opponent’s Active Pokémon is now Poisoned.",
+			pt: "Your opponent's Active Pokémon is now Poisoned.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
@@ -69,7 +69,6 @@ const card: Card = {
 
 	retreat: 2,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [849],
 
 	variants: {
@@ -77,7 +76,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

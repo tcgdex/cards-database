@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon VMAX, except any Glaceon VMAX."
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX, except any Glaceon VMAX."
 		}
 	}],
 
@@ -57,7 +57,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 		},
 
 		damage: 150
@@ -69,7 +69,7 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

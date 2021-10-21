@@ -49,10 +49,11 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "An opponent’s aura can tell Cutiefly what that opponent’s next move will be. Then Cutiefly can glide around the attack and strike back."
+		en: "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back."
 	},
 
-	dexId: [742]
+	dexId: [742],
+	regulationMark: "E"
 }
 
 export default card

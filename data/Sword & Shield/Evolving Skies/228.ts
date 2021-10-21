@@ -36,7 +36,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. If you go second and it’s your first turn, instead search for up to 3 Psychic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck."
+			en: "Search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. If you go second and it's your first turn, instead search for up to 3 Psychic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
@@ -62,7 +62,8 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "E"
 }
 
 export default card

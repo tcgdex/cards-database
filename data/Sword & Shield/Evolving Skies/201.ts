@@ -33,7 +33,8 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	illustrator: "Hitoshi Ariga"
+	illustrator: "Hitoshi Ariga",
+	regulationMark: "E"
 }
 
 export default card

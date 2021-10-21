@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
 			pt: "Flip a coin. If heads, this attack does 30 more damage.",
@@ -73,7 +73,8 @@ const card: Card = {
 		en: "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon."
 	},
 
-	dexId: [557]
+	dexId: [557],
+	regulationMark: "E"
 }
 
 export default card

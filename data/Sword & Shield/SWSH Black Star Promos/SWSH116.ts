@@ -7,7 +7,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It’s also generating electricity."
+		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity."
 	},
 
 	stage: "Basic",
@@ -39,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
 		},
 
 		damage: 40
@@ -57,7 +57,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

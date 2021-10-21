@@ -25,7 +25,33 @@ const card: Card = {
 
 	rarity: "None",
 	hp: 70,
-	types: ["Colorless"]
+	types: ["Colorless"],
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			en: "Happy Delivery"
+		},
+
+		effect: {
+			en: "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck."
+		}
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Rock Smash"
+		},
+
+		damage: "30+",
+
+		effect: {
+			en: "Flip a coin. If heads, this attack does 30 more damage."
+		}
+	}],
+
+	regulationMark: "E"
 }
 
 export default card

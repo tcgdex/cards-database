@@ -33,9 +33,9 @@ const card: Card = {
 
 		effect: {
 			en: "If a Stadium is in play, this Pokémon has no Retreat Cost.",
-			fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite.",
+			fr: "Si un Stade est en jeu, ce Pokémon n'a pas de Coût de Retraite.",
 			es: "Si hay un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
-			it: "Se c’è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
+			it: "Se c'è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
 			pt: "If a Stadium is in play, this Pokémon has no Retreat Cost.",
 			de: "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten."
 		}
@@ -62,7 +62,6 @@ const card: Card = {
 
 	retreat: 2,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [815],
 
 	variants: {
@@ -70,7 +69,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

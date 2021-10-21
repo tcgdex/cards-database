@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "All of your Pokémon that have Energy attached have no Weakness.",
-				fr: "Vos Pokémon auxquels de l’Énergie est attachée n’ont pas de Faiblesse.",
+				fr: "Vos Pokémon auxquels de l'Énergie est attachée n'ont pas de Faiblesse.",
 				es: "Ninguno de tus Pokémon que tenga alguna Energía unida a él tiene Debilidad.",
 				it: "Tutti i tuoi Pokémon che hanno delle Energie assegnate non hanno debolezza.",
 				pt: "Todos os seus Pokémon que tenham Energia ligada a eles não têm Fraqueza.",
@@ -62,7 +62,7 @@ const card: Card = {
 				de: "Illusionsflackern"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",

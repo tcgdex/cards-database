@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Basic",
 	illustrator: "PLANETA Tsuji",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -40,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 20 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
 			es: "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
 			it: "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
 			pt: "This attack does 20 damage for each damage counter on this Pokémon.",
@@ -69,7 +68,9 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	dexId: [130]
+	dexId: [130],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

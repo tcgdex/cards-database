@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	category: "Pokemon",
 	stage: "V-UNION",
-	suffix: "V",
 
 	variants: {
 		normal: false,
@@ -21,7 +20,54 @@ const card: Card = {
 
 	rarity: "None",
 	hp: 320,
-	types: ["Metal"]
+	types: ["Metal"],
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			en: "Union Gain"
+		},
+
+		effect: {
+			en: "Attach up to 2 Metal Energy cards from your discard pile to this Pokémon."
+		}
+	}, {
+		cost: ["Metal", "Metal", "Colorless"],
+
+		name: {
+			en: "Dance of the Crowned Sword"
+		},
+
+		damage: 150,
+
+		effect: {
+			en: "During your opponent's next turn, the Defending Pokémon's attacks do 150 less damage (before applying Weakness and Resistance)."
+		}
+	}, {
+		cost: ["Metal", "Metal", "Colorless"],
+
+		name: {
+			en: "Steel Cut"
+		},
+
+		damage: 200
+	}, {
+		cost: ["Metal", "Metal", "Metal", "Colorless"],
+
+		name: {
+			en: "Master Blade"
+		},
+
+		damage: 340,
+
+		effect: {
+			en: "Discard 3 Energy from this Pokémon."
+		}
+	}],
+
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

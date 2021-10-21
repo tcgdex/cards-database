@@ -39,7 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Kick",
-				fr: "Koud’Pied",
+				fr: "Koud'Pied",
 				es: "Patada",
 				it: "Calcio",
 				pt: "Chute",

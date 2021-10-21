@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-			fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+			en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+			fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
 			es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 			it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-			pt: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+			pt: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
 			de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 		},
 
@@ -58,11 +58,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t attack.",
+			en: "During your next turn, this Pokémon can't attack.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "During your next turn, this Pokémon can’t attack.",
+			pt: "During your next turn, this Pokémon can't attack.",
 			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
@@ -87,10 +87,11 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It drinks in seawater and jets it from its rear to propel itself. It’s very sensitive to the scent of blood."
+		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
 	},
 
-	dexId: [319]
+	dexId: [319],
+	regulationMark: "E"
 }
 
 export default card

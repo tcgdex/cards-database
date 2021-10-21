@@ -30,7 +30,7 @@ const card: Card = {
 				de: "Eissturm"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
@@ -55,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
 				es: "Lanza 3 monedas. Este ataque hace 20 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 20 pontos de dano para cada cara.",

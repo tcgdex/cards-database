@@ -41,7 +41,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This Pokémon can’t be Asleep.",
+			en: "This Pokémon can't be Asleep.",
 			fr: "Ce Pokémon ne peut pas être Endormi.",
 			es: "Este Pokémon no puede pasar a estar Dormido.",
 			it: "Questo Pokémon non può venire addormentato.",
@@ -61,8 +61,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon has any Special Energy attached, this attack does 80 more damage.",
-			fr: "Si de l’Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon has any Special Energy attached, this attack does 80 more damage.",
+			fr: "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival tiene alguna Energía Especial unida a él, este ataque hace 80 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario ha delle Energie speciali assegnate, questo attacco infligge 80 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente tiver alguma Energia Especial ligada a ele, este ataque causará 80 pontos de dano a mais.",

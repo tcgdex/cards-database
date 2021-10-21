@@ -36,8 +36,8 @@ const card: Card = {
 				de: "Blitzfäuste"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 80 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V ou un Pokémon-GX, cette attaque inflige 80 dégâts supplémentaires.",
+				en: "If your opponent's Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 80 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V ou un Pokémon-GX, cette attaque inflige 80 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival es un Pokémon V o un Pokémon-GX, este ataque hace 80 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è un Pokémon-V o un Pokémon-GX, questo attacco infligge 80 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon V ou um Pokémon-GX, este ataque causará 80 pontos de dano a mais.",

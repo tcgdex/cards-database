@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Each player draws 2 cards.",
-				fr: "Chaque joueur pioche 2 cartes.",
+				fr: "Chaque joueur pioche 2 cartes.",
 				es: "Cada jugador roba 2 cartas.",
 				it: "Ciascun giocatore pesca due carte.",
 				pt: "Cada jogador compra 2 cartas.",
@@ -70,7 +70,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.",
-				fr: "Votre adversaire dévoile sa main. Cette attaque inflige 50 dégâts pour chaque carte Dresseur que vous y trouvez.",
+				fr: "Votre adversaire dévoile sa main. Cette attaque inflige 50 dégâts pour chaque carte Dresseur que vous y trouvez.",
 				es: "Tu rival enseña las cartas de su mano. Este ataque hace 50 puntos de daño por cada carta de Entrenador que encuentres entre ellas.",
 				it: "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 50 danni per ogni carta Allenatore presente tra quelle carte.",
 				pt: "Seu oponente revela a própria mão. Este ataque causa 50 pontos de dano para cada carta de Treinador que encontrar lá.",

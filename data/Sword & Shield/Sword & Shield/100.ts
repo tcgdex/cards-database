@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
+				fr: "Piochez 2 cartes.",
 				es: "Roba 2 cartas.",
 				it: "Pesca due carte.",
 				pt: "Compre 2 cartas.",
@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 10 damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+				fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
 				es: "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon.",
 				it: "Questo attacco infligge 10 danni per ogni segnalino danno presente su questo Pokémon.",
 				pt: "Este ataque causa 10 pontos de dano para cada contador de dano neste Pokémon.",
@@ -89,7 +89,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If a tree branch shakes when there is no wind, it’s a Sudowoodo, not a tree. It hides from the rain."
+		en: "If a tree branch shakes when there is no wind, it's a Sudowoodo, not a tree. It hides from the rain."
 	}
 }
 

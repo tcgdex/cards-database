@@ -35,7 +35,7 @@ const card: Card = {
 				de: "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your Benched Fire Pokémon have any damage counters on them, this attack does 100 more damage.",
-				fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon Fire de Banc, cette attaque inflige 100 dégâts supplémentaires.",
+				fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon Fire de Banc, cette attaque inflige 100 dégâts supplémentaires.",
 				es: "Si tus Pokémon Fire en Banca tienen algún contador de daño sobre ellos, este ataque hace 100 puntos de daño más.",
 				it: "Se i tuoi Pokémon Fire in panchina hanno dei segnalini danno, questo attacco infligge 100 danni in più.",
 				pt: "Se os seus Pokémon Fire no Banco tiverem algum contador de dano neles, este ataque causará 100 pontos de dano a mais.",

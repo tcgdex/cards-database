@@ -38,7 +38,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
 			fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
 			es: "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
 			it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
@@ -71,7 +71,7 @@ const card: Card = {
 		de: "Fliegendes Pikachu-V"
 	},
 
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

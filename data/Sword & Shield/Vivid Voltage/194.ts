@@ -18,8 +18,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Si vous jouez en premier, vous pouvez jouer cette carte pendant votre premier tour.\n\n\nPiochez 2 cartes.",
-		en: "If you go first, you may play this card during your first turn.\n\n\n\n\n\n\n\nDraw 2 cards.",
+		fr: "Si vous jouez en premier, vous pouvez jouer cette carte pendant votre premier tour.\n\nPiochez 2 cartes.",
+		en: "If you go first, you may play this card during your first turn.\n\nDraw 2 cards.",
 		es: "Si sales primero, puedes jugar esta carta durante tu primer turno.\n\nRoba 2 cartas.",
 		it: "Se inizi per primo, puoi giocare questa carta durante il tuo primo turno.\n\nPesca due carte.",
 		pt: "Se você for primeiro, poderá jogar esta carta no seu primeiro turno.\n\nCompre 2 cartas.",

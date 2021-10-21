@@ -40,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 10 damage for each Water Energy card in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque carte Énergie Water dans votre pile de défausse.",
+			fr: "Cette attaque inflige 10 dégâts pour chaque carte Énergie Water dans votre pile de défausse.",
 			es: "Este ataque hace 10 puntos de daño por cada carta de Energía Water en tu pila de descartes.",
 			it: "Questo attacco infligge 10 danni per ogni carta Energia Water nella tua pila degli scarti.",
 			pt: "Este ataque causa 10 pontos de dano para cada carta de Energia Water na sua pilha de descarte.",

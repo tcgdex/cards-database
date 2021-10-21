@@ -30,7 +30,7 @@ const card: Card = {
 				de: "Gifthieb"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				en: "Your opponent's Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
@@ -55,8 +55,8 @@ const card: Card = {
 				de: "Elektro-Aufstand"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is Poisoned, this attack does 90 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 90 dégâts supplémentaires.",
+				en: "If your opponent's Active Pokémon is Poisoned, this attack does 90 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 90 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 90 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 90 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 90 pontos de dano a mais.",

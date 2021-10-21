@@ -42,7 +42,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may choose 1 of your Pokémon and flip a coin. If heads, heal 90 damage from that Pokémon. If tails, put 3 damage counters on that Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez choisir l’un de vos Pokémon et lancer une pièce. Si c’est face, soignez 90 dégâts de ce Pokémon-là. Si c’est pile, placez 3 marqueurs de dégâts sur ce même Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez choisir l'un de vos Pokémon et lancer une pièce. Si c'est face, soignez 90 dégâts de ce Pokémon-là. Si c'est pile, placez 3 marqueurs de dégâts sur ce même Pokémon.",
 			es: "Una vez durante tu turno, puedes elegir 1 de tus Pokémon y lanzar 1 moneda. Si sale cara, cura 90 puntos de daño a ese Pokémon. Si sale cruz, pon 3 contadores de daño en ese Pokémon.",
 			it: "Una sola volta durante il tuo turno, puoi scegliere uno dei tuoi Pokémon e lanciare una moneta. Se esce testa, cura quel Pokémon da 90 danni. Se esce croce, metti tre segnalini danno sul quel Pokémon.",
 			pt: "Uma vez durante o seu turno, você poderá escolher 1 dos seus Pokémon e jogar 1 moeda. Se sair cara, cure 90 pontos de dano daquele Pokémon. Se sair coroa, coloque 3 contadores de dano naquele Pokémon.",
@@ -82,7 +82,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it’s eaten, creating strange potions."
+		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions."
 	}
 }
 

@@ -27,7 +27,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-	suffix: "V",
 
 	attacks: [
 		{
@@ -38,7 +37,7 @@ const card: Card = {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
 				es: "Chapoteo Ondulante",
-				it: "Schizzi d’Onda",
+				it: "Schizzi d'Onda",
 				pt: "Onda Borrifante",
 				de: "Wellenplatscher"
 			},
@@ -62,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 				es: "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
@@ -88,7 +87,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	suffix: "V"
 }
 
 export default card

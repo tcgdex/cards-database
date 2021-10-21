@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 20 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
 			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
 			pt: "This Pokémon also does 20 damage to itself.",
@@ -81,7 +81,9 @@ const card: Card = {
 
 	description: {
 		en: "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago."
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

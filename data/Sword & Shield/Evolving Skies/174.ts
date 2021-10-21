@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Basic",
 	illustrator: "5ban Graphics",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -77,7 +76,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	dexId: [471]
+	dexId: [471],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

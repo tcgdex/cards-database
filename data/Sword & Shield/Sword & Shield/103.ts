@@ -46,7 +46,7 @@ const card: Card = {
 				de: "Psystrahl"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",
@@ -71,7 +71,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon also does 120 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 120 dégâts.",
+				fr: "Ce Pokémon s'inflige aussi 120 dégâts.",
 				es: "Este Pokémon también se hace 120 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge anche 120 danni a se stesso.",
 				pt: "Este Pokémon também causa 120 pontos de dano a si mesmo.",

@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Fire Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
+				fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
 				es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
@@ -72,7 +72,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-				fr: "Lancez une pièce. Si c’est pile, défaussez 2 Énergies de ce Pokémon.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies de ce Pokémon.",
 				es: "Lanza 1 moneda. Si sale cruz, descarta 2 Energías de este Pokémon.",
 				it: "Lancia una moneta. Se esce croce, scarta due Energie da questo Pokémon.",
 				pt: "Jogue 1 moeda. Se sair coroa, descarte 2 Energias deste Pokémon.",

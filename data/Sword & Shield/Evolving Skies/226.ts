@@ -57,7 +57,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t attack."
+			en: "During your next turn, this Pokémon can't attack."
 		},
 
 		damage: 90
@@ -68,7 +68,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "E"
 }
 
 export default card

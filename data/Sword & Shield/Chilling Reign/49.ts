@@ -39,8 +39,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
@@ -61,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent reveals their hand. If you find any Energy cards there, this attack does 90 more damage.",
-			fr: "Votre adversaire dévoile sa main. Si vous y trouvez au moins une carte Énergie, cette attaque inflige 90 dégâts supplémentaires.",
+			fr: "Votre adversaire dévoile sa main. Si vous y trouvez au moins une carte Énergie, cette attaque inflige 90 dégâts supplémentaires.",
 			es: "Tu rival enseña las cartas de su mano. Si encuentras alguna carta de Energía entre ellas, este ataque hace 90 puntos de daño más.",
 			it: "Il tuo avversario mostra le carte che ha in mano. Se ci trovi delle carte Energia, questo attacco infligge 90 danni in più.",
 			pt: "Seu oponente revela a própria mão. Se você encontrar alguma carta de Energia lá, este ataque causará 90 pontos de dano a mais.",

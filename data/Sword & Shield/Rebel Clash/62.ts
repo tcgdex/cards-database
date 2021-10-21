@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
-				fr: "Si ce Pokémon a évolué de Luxio pendant ce tour, cette attaque inflige 100 dégâts supplémentaires.",
+				fr: "Si ce Pokémon a évolué de Luxio pendant ce tour, cette attaque inflige 100 dégâts supplémentaires.",
 				es: "Si este Pokémon ha evolucionado de Luxio durante este turno, este ataque hace 100 puntos de daño más.",
 				it: "Se questo Pokémon si è evoluto da Luxio durante questo turno, questo attacco infligge 100 danni in più.",
 				pt: "Se este Pokémon evoluiu de Luxio durante este turno, este ataque causará 100 pontos de dano a mais.",
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Luxray’s ability to see through objects comes in handy when it’s scouting for danger."
+		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
 	}
 }
 

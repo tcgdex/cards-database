@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If the Defending Pokémon is a Pokémon V, it can’t attack during your opponent’s next turn.",
+			en: "If the Defending Pokémon is a Pokémon V, it can't attack during your opponent's next turn.",
 			fr: "Si le Pokémon Défenseur est un Pokémon-V, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			es: "Si el Pokémon Defensor es un Pokémon V, no puede atacar durante el próximo turno de tu rival.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon-V.",
-			pt: "If the Defending Pokémon is a Pokémon V, it can’t attack during your opponent’s next turn.",
+			pt: "If the Defending Pokémon is a Pokémon V, it can't attack during your opponent's next turn.",
 			de: "Wenn das Verteidigende Pokémon ein Pokémon-V ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
 		},
 
@@ -67,7 +67,9 @@ const card: Card = {
 
 	description: {
 		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

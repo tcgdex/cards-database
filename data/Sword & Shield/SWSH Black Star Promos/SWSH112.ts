@@ -7,7 +7,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "It’s skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
 	},
 
 	stage: "Stage2",
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon for each Prize card your opponent has taken (before applying Weakness and Resistance)."
+			en: "This Pokémon's attacks do 30 more damage to your opponent's Active Pokémon for each Prize card your opponent has taken (before applying Weakness and Resistance)."
 		}
 	}],
 
@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t attack."
+			en: "During your next turn, this Pokémon can't attack."
 		},
 
 		damage: 150
@@ -63,7 +63,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

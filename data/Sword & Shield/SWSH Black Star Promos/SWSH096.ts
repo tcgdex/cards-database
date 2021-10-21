@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	category: "Pokemon",
 	stage: "Basic",
-	suffix: "V",
 
 	name: {
 		en: "Dragapult V"
@@ -56,7 +55,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

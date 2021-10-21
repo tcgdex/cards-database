@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "Put up to 3 Prize cards into your hand. Then, for each Prize card you put into your hand in this way, put a card from your hand face down as a Prize card.",
-		fr: "Ajoutez jusqu’à 3 cartes Récompense à votre main. Ensuite, pour chaque carte Récompense ajoutée à votre main de cette façon, placez une carte de votre main face cachée comme carte Récompense.",
+		fr: "Ajoutez jusqu'à 3 cartes Récompense à votre main. Ensuite, pour chaque carte Récompense ajoutée à votre main de cette façon, placez une carte de votre main face cachée comme carte Récompense.",
 		es: "Pon hasta 3 cartas de Premio en tu mano. Después, por cada carta de Premio que hayas puesto en tu mano de esta manera, pon 1 carta de tu mano boca abajo como carta de Premio.",
 		it: "Aggiungi fino a tre carte Premio a quelle che hai in mano. Poi, per ogni carta Premio aggiunta a quelle che hai in mano in questo modo, prendine una dalla tua mano e mettila a faccia in giù come carta Premio.",
 		pt: "Coloque até 3 cartas de Prêmio na sua mão. Em seguida, para cada carta de Prêmio que você colocou em sua mão desta forma, coloque uma carta da sua mão virada para baixo como uma carta de Prêmio.",
@@ -34,7 +34,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	illustrator: "kirisAki"
+	illustrator: "kirisAki",
+	regulationMark: "E"
 }
 
 export default card

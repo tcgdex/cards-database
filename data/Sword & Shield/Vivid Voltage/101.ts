@@ -44,7 +44,7 @@ const card: Card = {
 				de: "Doppelnelson"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 				es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -69,7 +69,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon used Full Nelson during your last turn, this attack does 120 more damage.",
-				fr: "Si ce Pokémon a utilisé Double Nelson pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires.",
+				fr: "Si ce Pokémon a utilisé Double Nelson pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires.",
 				es: "Si este Pokémon usó Nelson Completa durante tu último turno, este ataque hace 120 puntos de daño más.",
 				it: "Se questo Pokémon ha usato Doppia Nelson durante il tuo ultimo turno, questo attacco infligge 120 danni in più.",
 				pt: "Se este Pokémon usou Chave Imobilizadora durante o seu último turno, este ataque causará 120 pontos de dano a mais.",

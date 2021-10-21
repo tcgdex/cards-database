@@ -63,8 +63,8 @@ const card: Card = {
 				de: "Uhrwerk"
 			},
 			effect: {
-				en: "If you don’t have Klink and Klang on your Bench, this attack does nothing.",
-				fr: "Si vous n’avez pas Tic et Clic sur votre Banc, cette attaque ne fait rien.",
+				en: "If you don't have Klink and Klang on your Bench, this attack does nothing.",
+				fr: "Si vous n'avez pas Tic et Clic sur votre Banc, cette attaque ne fait rien.",
 				es: "Si no tienes a Klink y Klang en tu Banca, este ataque no hace nada.",
 				it: "Se non hai Klink e Klang nella tua panchina, questo attacco non ha effetto.",
 				pt: "Se Klink e Klang não estiverem no seu Banco, este ataque não fará nada.",

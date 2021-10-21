@@ -30,7 +30,7 @@ const card: Card = {
 				de: "Versengen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",

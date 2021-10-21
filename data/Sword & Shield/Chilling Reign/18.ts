@@ -40,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
 			pt: "Cure 30 pontos de dano deste Pokémon.",
@@ -61,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard any amount of Energy from your Pokémon. This attack does 30 more damage for each card you discarded in this way.",
-			fr: "Défaussez autant d’Énergies que vous le voulez de vos Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			fr: "Défaussez autant d'Énergies que vous le voulez de vos Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
 			es: "Descarta cualquier cantidad de Energías de tus Pokémon. Este ataque hace 30 puntos de daño más por cada carta que hayas descartado de esta manera.",
 			it: "Scarta tutte le Energie che vuoi dai tuoi Pokémon. Questo attacco infligge 30 danni in più per ogni carta che hai scartato in questo modo.",
 			pt: "Descarte qualquer quantidade de Energia dos seus Pokémon. Este ataque causa 30 pontos de dano a mais para cada carta descartada desta forma.",

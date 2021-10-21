@@ -52,7 +52,8 @@ const card: Card = {
 		en: "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area."
 	},
 
-	dexId: [548]
+	dexId: [548],
+	regulationMark: "E"
 }
 
 export default card

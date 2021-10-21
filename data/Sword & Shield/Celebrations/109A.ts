@@ -23,7 +23,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn (before your attack), when you put Luxray GL LV.X from your hand onto your Active Luxray GL, you may switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon."
+			en: "Once during your turn (before your attack), when you put Luxray GL LV.X from your hand onto your Active Luxray GL, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon."
 		}
 	}],
 
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Does 30 damage to 1 of your Pokémon, and don’t apply Weakness and Resistance to this damage."
+			en: "Does 30 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage."
 		},
 
 		damage: 60,

@@ -38,10 +38,10 @@ const card: Card = {
 			},
 			effect: {
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "Your opponent’s Active Pokémon is now Asleep.",
+				pt: "Your opponent's Active Pokémon is now Asleep.",
 				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
@@ -68,7 +68,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

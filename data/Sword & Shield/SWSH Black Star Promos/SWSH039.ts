@@ -28,10 +28,10 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent’s next turn, the Defending Pokémon can’t attack.",
-			fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
+			en: "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
+			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
 			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
-			pt: "Flip a coin. If heads, during your opponent’s next turn, the Defending Pokémon can’t attack.",
+			pt: "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
 			de: "Wirf 1 Münze. Bei Kopf kann sich das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht zurückziehen."
 		},
 
@@ -39,7 +39,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Pika Bolt",
-			fr: "Pik’Éclair",
+			fr: "Pik'Éclair",
 			es: "Rayo Pika",
 			pt: "Pika Bolt",
 			de: "Pikaschuss"
@@ -68,7 +68,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

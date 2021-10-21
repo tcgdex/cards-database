@@ -30,8 +30,8 @@ const card: Card = {
 				de: "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
@@ -58,7 +58,7 @@ const card: Card = {
 				en: "Discard an Energy from this Pokémon.",
 				fr: "Défaussez une Énergie de ce Pokémon.",
 				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia da questo Pokémon.",
+				it: "Scarta un'Energia da questo Pokémon.",
 				pt: "Descarte 1 Energia deste Pokémon.",
 				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
@@ -89,7 +89,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "There’s a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill."
+		en: "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill."
 	}
 }
 

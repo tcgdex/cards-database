@@ -41,7 +41,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Lightning de votre pile de défausse à l’un de vos Pokémon de Banc.",
+			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Lightning de votre pile de défausse à l'un de vos Pokémon de Banc.",
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Lightning de tu pila de descartes a 1 de tus Pokémon en Banca.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Lightning dalla tua pila degli scarti.",
 			pt: "Once during your turn, you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon.",
@@ -83,7 +83,8 @@ const card: Card = {
 		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
 	},
 
-	dexId: [180]
+	dexId: [180],
+	regulationMark: "E"
 }
 
 export default card

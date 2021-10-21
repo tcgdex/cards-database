@@ -7,7 +7,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "Its nictitating membranes let it pick out foes’ weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
+		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
 	},
 
 	stage: "Stage2",
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent’s Pokémon."
+			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon."
 		}
 	}],
 
@@ -59,7 +59,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

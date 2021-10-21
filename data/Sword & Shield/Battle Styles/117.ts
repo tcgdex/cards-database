@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Basic Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.",
+			en: "If your opponent's Basic Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.",
 			fr: "Si le Pokémon de base de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez une carte Récompense supplémentaire.",
 			es: "Si un Pokémon Básico de tu rival queda Fuera de Combate por el daño de este ataque, coge 1 carta de Premio más.",
 			it: "Se un Pokémon Base del tuo avversario viene messo KO dai danni di questo attacco, prendi una carta Premio in più.",
@@ -52,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",

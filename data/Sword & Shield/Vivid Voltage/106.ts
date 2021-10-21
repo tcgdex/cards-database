@@ -56,8 +56,8 @@ const card: Card = {
 				de: "Bedrohliche Krallen"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon. Your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
-				fr: "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné.",
+				en: "Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed and Poisoned.",
+				fr: "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné.",
 				es: "Descarta 2 Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Envenenado y Paralizado.",
 				it: "Scarta due Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato e avvelenato.",
 				pt: "Descarte 2 Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Envenenado e Paralisado.",

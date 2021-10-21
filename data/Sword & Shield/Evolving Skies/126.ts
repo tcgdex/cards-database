@@ -51,7 +51,9 @@ const card: Card = {
 
 	description: {
 		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
-	}
+	},
+
+	regulationMark: "E"
 }
 
 export default card

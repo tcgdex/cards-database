@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "Heal 30 damage from up to 2 of your Pokémon that have Energy attached.",
-		fr: "Soignez 30 dégâts d’un maximum de 2 de vos Pokémon auxquels de l’Énergie est attachée.",
+		fr: "Soignez 30 dégâts d'un maximum de 2 de vos Pokémon auxquels de l'Énergie est attachée.",
 		es: "Cura 30 puntos de daño de hasta 2 de tus Pokémon que tengan alguna Energía unida a ellos.",
 		it: "Cura fino a due Pokémon che hanno Energie assegnate da 30 danni.",
 		pt: "Cure 30 pontos de dano de até 2 dos seus Pokémon que tenham Energia ligada a eles.",

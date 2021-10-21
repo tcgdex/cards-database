@@ -26,7 +26,7 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Tranch’Herbe",
+			fr: "Tranch'Herbe",
 			en: "Razor Leaf",
 			es: "Hoja Afilada",
 			it: "Foglielama",

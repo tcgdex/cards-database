@@ -42,11 +42,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack’s damage isn’t affected by Resistance.",
+			en: "This attack's damage isn't affected by Resistance.",
 			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			es: "El daño de este ataque no se ve afectado por Resistencia.",
 			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "This attack’s damage isn’t affected by Resistance.",
+			pt: "This attack's damage isn't affected by Resistance.",
 			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 
@@ -61,7 +61,6 @@ const card: Card = {
 
 	retreat: 2,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [892],
 
 	variants: {
@@ -69,7 +68,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

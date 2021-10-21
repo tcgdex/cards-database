@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent’s Benched Pokémon with their Active Pokémon."
+			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent's Benched Pokémon with their Active Pokémon."
 		}
 	}],
 
@@ -65,7 +65,7 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

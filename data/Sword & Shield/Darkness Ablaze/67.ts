@@ -45,7 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Kick",
-				fr: "Coup d’Pied Lunaire",
+				fr: "Coup d'Pied Lunaire",
 				es: "Patada Lunar",
 				it: "Calcioluna",
 				pt: "Chute Lunar",
@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they’re shouting!"
+		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
 	}
 }
 

@@ -33,10 +33,10 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Burned.",
+			en: "Your opponent's Active Pokémon is now Burned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			pt: "Your opponent’s Active Pokémon is now Burned.",
+			pt: "Your opponent's Active Pokémon is now Burned.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
@@ -51,10 +51,10 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent’s Active Pokémon.",
+			en: "Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon.",
 			fr: "Défaussez une Énergie de ce Pokémon. Dans ce cas, défaussez une Énergie du Pokémon Actif de votre adversaire.",
 			es: "Descarta 1 Energía de este Pokémon. Si lo haces, descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent’s Active Pokémon.",
+			pt: "Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon.",
 			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Once it has stored up enough heat, this Pokémon’s body temperature can reach up to 1,700 degrees Fahrenheit."
+		en: "Once it has stored up enough heat, this Pokémon's body temperature can reach up to 1,700 degrees Fahrenheit."
 	},
 
 	stage: "Stage1",
@@ -81,7 +81,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Professor’s Research (Professor Magnolia)",
+		en: "Professor's Research (Professor Magnolia)",
 		fr: "Recherches Professorales (Professeure Magnolia)",
 		es: "Investigación de Profesores",
 		it: "Ricerca Accademica",

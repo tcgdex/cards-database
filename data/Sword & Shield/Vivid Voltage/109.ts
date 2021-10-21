@@ -45,8 +45,8 @@ const card: Card = {
 				de: "Ausbaggern"
 			},
 			effect: {
-				en: "Discard the top 3 cards of your opponent’s deck.",
-				fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire.",
+				en: "Discard the top 3 cards of your opponent's deck.",
+				fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire.",
 				es: "Descarta las 3 primeras cartas de la baraja de tu rival.",
 				it: "Scarta le prime tre carte del mazzo del tuo avversario.",
 				pt: "Descarte as 3 cartas de cima do baralho do seu oponente.",

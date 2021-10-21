@@ -24,7 +24,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Once during each player’s turn, that player may search their deck for a Basic Lightning Pokémon or Basic Dragon Pokémon and put it onto their Bench. Then, that player shuffles their deck.",
+		en: "Once during each player's turn, that player may search their deck for a Basic Lightning Pokémon or Basic Dragon Pokémon and put it onto their Bench. Then, that player shuffles their deck.",
 		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut chercher dans son deck un Pokémon Lightning de base ou un Pokémon Dragon de base, puis le placer sur son Banc. Ce joueur mélange ensuite son deck.",
 		es: "Una vez durante el turno de cada jugador, ese jugador puede buscar en su baraja 1 Pokémon Lightning Básico o 1 Pokémon Dragon Básico y ponerlo en su Banca. Después, ese jugador baraja las cartas de su baraja.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può cercare nel suo mazzo un Pokémon Base Lightning o Dragon e metterlo nella sua panchina. Poi quel giocatore rimischia le carte del suo mazzo.",
@@ -33,7 +33,8 @@ const card: Card = {
 	},
 
 	trainerType: "Stadium",
-	illustrator: "Toyste Beach"
+	illustrator: "Toyste Beach",
+	regulationMark: "E"
 }
 
 export default card

@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu’à 2 Pokémon Grass de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon Grass de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 2 Pokémon Grass Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due Pokémon Base Grass e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 			pt: "Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.",
@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 			pt: "This Pokémon also does 30 damage to itself.",
@@ -69,7 +69,6 @@ const card: Card = {
 
 	retreat: 3,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [812],
 
 	variants: {
@@ -77,7 +76,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

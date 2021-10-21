@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 10 damage for each damage counter on all of your Benched Single Strike Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts placé sur tous vos Pokémon Poing Final de Banc.",
+			fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts placé sur tous vos Pokémon Poing Final de Banc.",
 			es: "Este ataque hace 10 puntos de daño por cada contador de daño en todos tus Pokémon Golpe Brusco en Banca.",
 			it: "Questo attacco infligge 10 danni per ogni segnalino danno presente sui tuoi Pokémon Colpo Singolo in panchina.",
 			pt: "This attack does 10 damage for each damage counter on all of your Benched Single Strike Pokémon.",
@@ -60,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 			pt: "This Pokémon also does 30 damage to itself.",
@@ -82,7 +82,8 @@ const card: Card = {
 		en: "It is said that when it roars, a volcano erupts somewhere around the globe."
 	},
 
-	dexId: [244]
+	dexId: [244],
+	regulationMark: "E"
 }
 
 export default card

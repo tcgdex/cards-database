@@ -24,7 +24,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "The attacks of the Pokémon this card is attached to do 30 more damage to your opponent’s Active Fighting Pokémon (before applying Weakness and Resistance).",
+		en: "The attacks of the Pokémon this card is attached to do 30 more damage to your opponent's Active Fighting Pokémon (before applying Weakness and Resistance).",
 		fr: "Les attaques du Pokémon auquel cette carte est attachée infligent 30 dégâts supplémentaires au Pokémon Fighting Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 		es: "Los ataques del Pokémon al que esté unida esta carta hacen 30 puntos de daño más al Pokémon Fighting Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi del Pokémon a cui è assegnata questa carta infliggono 30 danni in più al Pokémon attivo Fighting del tuo avversario, prima di aver applicato debolezza e resistenza.",
@@ -33,7 +33,8 @@ const card: Card = {
 	},
 
 	trainerType: "Tool",
-	illustrator: "Toyste Beach"
+	illustrator: "Toyste Beach",
+	regulationMark: "E"
 }
 
 export default card

@@ -39,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent’s hand.",
+			en: "Discard a random card from your opponent's hand.",
 			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
 			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
 			it: "Scarta una carta a caso dalla mano del tuo avversario.",
@@ -69,7 +69,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it’s drumming out rapid beats in battle, it gets so caught up in the rhythm that it won’t even notice that it’s already knocked out its opponent."
+		en: "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent."
 	}
 }
 

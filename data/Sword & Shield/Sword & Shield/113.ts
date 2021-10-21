@@ -47,8 +47,8 @@ const card: Card = {
 				de: "Octoklammer"
 			},
 			effect: {
-				en: "Until this Grapploct leaves the Active Spot, the Defending Pokémon’s attacks cost ColorlessColorless more, and the Defending Pokémon can’t retreat. This effect can’t be applied more than once.",
-				fr: "Tant que ce Krakos est sur le Poste Actif, les attaques du Pokémon Défenseur coûtent ColorlessColorless de plus, et le Pokémon Défenseur ne peut pas battre en retraite. Cet effet n’est applicable qu’une fois.",
+				en: "Until this Grapploct leaves the Active Spot, the Defending Pokémon's attacks cost ColorlessColorless more, and the Defending Pokémon can't retreat. This effect can't be applied more than once.",
+				fr: "Tant que ce Krakos est sur le Poste Actif, les attaques du Pokémon Défenseur coûtent ColorlessColorless de plus, et le Pokémon Défenseur ne peut pas battre en retraite. Cet effet n'est applicable qu'une fois.",
 				es: "Hasta que este Grapploct deje el Puesto Activo, los ataques del Pokémon Defensor cuestan ColorlessColorless más, y el Pokémon Defensor no puede retirarse. Este efecto no puede aplicarse más de una vez.",
 				it: "Finché questo Grapploct è in posizione attiva, il costo degli attacchi del Pokémon difensore aumenta di ColorlessColorless e il Pokémon difensore non può ritirarsi. Questo effetto non può essere applicato più di una volta.",
 				pt: "Até este Grapploct sair do Campo Ativo, o custo dos ataques do Pokémon Defensor será ColorlessColorless a mais e o Pokémon Defensor não poderá recuar. Este efeito não pode ser aplicado mais de uma vez.",
@@ -71,7 +71,7 @@ const card: Card = {
 				de: "Wuchtiger Hieb"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
+				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 				es: "El daño de este ataque no se ve afectado por Resistencia.",
 				it: "I danni di questo attacco non sono influenzati dalla resistenza.",

@@ -29,7 +29,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			pt: "Flip a coin. If tails, this attack does nothing.",
 			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
@@ -58,7 +58,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

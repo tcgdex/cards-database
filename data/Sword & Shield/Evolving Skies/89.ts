@@ -73,7 +73,8 @@ const card: Card = {
 		en: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds."
 	},
 
-	dexId: [536]
+	dexId: [536],
+	regulationMark: "E"
 }
 
 export default card

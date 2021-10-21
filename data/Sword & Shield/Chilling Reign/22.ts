@@ -40,8 +40,8 @@ const card: Card = {
 			de: "Wetterlesen"
 		},
 		effect: {
-			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon’s attack costs.",
-			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
+			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon's attack costs.",
+			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
 			es: "Si tienes 8 cartas de Estadio o más en tu pila de descartes, ignora todas las Energías en el coste de los ataques de este Pokémon.",
 			it: "Sei hai otto o più carte Stadio nella tua pila degli scarti, ignora tutte le Energie necessarie per usare gli attacchi di questo Pokémon.",
 			pt: "Se você tiver 8 ou mais cartas de Estádio na sua pilha de descarte, ignore todas as Energias nos custos dos ataques deste Pokémon.",
@@ -65,7 +65,7 @@ const card: Card = {
 				de: "Hochdruckstoß"
 			},
 			effect: {
-				en: "Discard a Stadium in play. If you can’t, this attack does nothing.",
+				en: "Discard a Stadium in play. If you can't, this attack does nothing.",
 				fr: "Défaussez un Stade en jeu. Si vous ne le pouvez pas, cette attaque ne fait rien.",
 				es: "Descarta un Estadio en juego. Si no puedes, este ataque no hace nada.",
 				it: "Scarta una carta Stadio in gioco. Se non puoi, questo attacco non ha effetto.",

@@ -30,7 +30,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Headbutt",
-			fr: "Coup d’Boule",
+			fr: "Coup d'Boule",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
 			pt: "Headbutt",
@@ -50,11 +50,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent’s hand.",
+			en: "Discard a random card from your opponent's hand.",
 			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
 			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
 			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Discard a random card from your opponent’s hand.",
+			pt: "Discard a random card from your opponent's hand.",
 			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -82,7 +82,8 @@ const card: Card = {
 		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory."
 	},
 
-	dexId: [560]
+	dexId: [560],
+	regulationMark: "E"
 }
 
 export default card

@@ -22,7 +22,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 		},
 
 		damage: 60,
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This Pokémon can’t use X Blast during your next turn."
+			en: "This Pokémon can't use X Blast during your next turn."
 		},
 
 		damage: 140,

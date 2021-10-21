@@ -22,7 +22,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-	suffix: "V",
 
 	attacks: [
 		{
@@ -83,7 +82,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

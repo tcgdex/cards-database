@@ -63,7 +63,9 @@ const card: Card = {
 		reverse: false,
 		holo: false,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

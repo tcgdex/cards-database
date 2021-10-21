@@ -41,7 +41,7 @@ const card: Card = {
 				de: "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck.",
+				en: "Discard the top card of your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 				es: "Descarta la primera carta de la baraja de tu rival.",
 				it: "Scarta la prima carta del mazzo del tuo avversario.",
@@ -67,8 +67,8 @@ const card: Card = {
 				de: "Großer Wurf"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard your opponent’s Active Pokémon and all attached cards.",
-				fr: "Lancez une pièce. Si c’est face, défaussez le Pokémon Actif de votre adversaire et toutes les cartes attachées.",
+				en: "Flip a coin. If heads, discard your opponent's Active Pokémon and all attached cards.",
+				fr: "Lancez une pièce. Si c'est face, défaussez le Pokémon Actif de votre adversaire et toutes les cartes attachées.",
 				es: "Lanza 1 moneda. Si sale cara, descarta el Pokémon Activo de tu rival y todas las cartas unidas a él.",
 				it: "Lancia una moneta. Se esce testa, scarta il Pokémon attivo del tuo avversario e tutte le carte a esso assegnate.",
 				pt: "Jogue 1 moeda. Se sair cara, descarte o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele.",

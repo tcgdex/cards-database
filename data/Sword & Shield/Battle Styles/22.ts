@@ -40,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 3 Fire Energy cards from your discard pile to your Pokémon in any way you like.",
-			fr: "Attachez jusqu’à 3 cartes Énergie Fire de votre pile de défausse à vos Pokémon comme il vous plaît.",
+			fr: "Attachez jusqu'à 3 cartes Énergie Fire de votre pile de défausse à vos Pokémon comme il vous plaît.",
 			es: "Une hasta 3 cartas de Energía Fire de tu pila de descartes a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon fino a tre carte Energia Fire dalla tua pila degli scarti nel modo che preferisci.",
 			pt: "Ligue até 3 cartas de Energia Fire da sua pilha de descarte aos seus Pokémon como desejar.",
@@ -59,8 +59,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon is a Pokémon V, this attack does 120 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 120 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon is a Pokémon V, this attack does 120 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 120 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon V, este ataque hace 120 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-V, questo attacco infligge 120 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon V, este ataque causará 120 pontos de dano a mais.",
@@ -87,7 +87,7 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	suffix: "V"
+
 }
 
 export default card

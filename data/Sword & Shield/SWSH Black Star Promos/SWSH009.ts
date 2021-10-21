@@ -59,7 +59,7 @@ const card: Card = {
 				de: "Energieförderung"
 			},
 			effect: {
-				fr: "Attachez une carte Énergie de base de votre pile de défausse à l’un de vos Pokémon de Banc.",
+				fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
 				en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
 				es: "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti.",
@@ -86,7 +86,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its body secrets oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won’t tolerate even a speck of the stuff."
+		en: "Its body secrets oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff."
 	},
 
 	dexId: [573],
@@ -96,7 +96,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Dragon"],
 	stage: "Basic",
 	illustrator: "PLANETA Mochizuki",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -40,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard the top 2 cards of your deck.",
-			fr: "Défaussez les 2 cartes du dessus de votre deck.",
+			fr: "Défaussez les 2 cartes du dessus de votre deck.",
 			es: "Descarta las 2 primeras cartas de tu baraja.",
 			it: "Scarta le prime due carte del tuo mazzo.",
 			pt: "Discard the top 2 cards of your deck.",
@@ -61,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "You may discard up to 2 basic Fire Energy or up to 2 basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
-			fr: "Vous pouvez défausser jusqu’à 2 Énergies Fire de base ou jusqu’à 2 Énergies Lightning de base de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			fr: "Vous pouvez défausser jusqu'à 2 Énergies Fire de base ou jusqu'à 2 Énergies Lightning de base de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
 			es: "Puedes descartar hasta 2 Energías Fire Básicas o hasta 2 Energías Lightning Básicas de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
 			it: "Puoi scartare fino a due Energie base Fire o due Energie base Lightning da questo Pokémon. Questo attacco infligge 80 danni in più per ogni carta che hai scartato in questo modo.",
 			pt: "You may discard up to 2 basic Fire Energy or up to 2 basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
@@ -73,7 +72,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	dexId: [384]
+	dexId: [384],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

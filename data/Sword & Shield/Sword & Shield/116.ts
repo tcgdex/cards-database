@@ -47,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Fighting Energy card from your hand to 1 of your Pokémon. If you do, heal 120 damage from that Pokémon.",
-				fr: "Attachez une carte Énergie Fighting de votre main à l’un de vos Pokémon. Dans ce cas, soignez 120 dégâts de ce Pokémon-là.",
+				fr: "Attachez une carte Énergie Fighting de votre main à l'un de vos Pokémon. Dans ce cas, soignez 120 dégâts de ce Pokémon-là.",
 				es: "Une 1 carta de Energía Fighting de tu mano a 1 de tus Pokémon. Si lo haces, cura 120 puntos de daño a ese Pokémon.",
 				it: "Assegna a uno dei tuoi Pokémon una carta Energia Fighting dalla tua mano. Se lo fai, cura quel Pokémon da 120 danni.",
 				pt: "Ligue 1 carta de Energia Fighting da sua mão a 1 dos seus Pokémon. Se fizer isto, cure 120 pontos de dano daquele Pokémon.",
@@ -92,7 +92,7 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	suffix: "V"
+
 }
 
 export default card

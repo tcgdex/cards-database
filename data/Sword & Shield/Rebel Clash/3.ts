@@ -39,7 +39,7 @@ const card: Card = {
 				de: "Panikgift"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned, Confused, and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Confus et Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido, Envenenado y Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato, confuso e avvelenato.",

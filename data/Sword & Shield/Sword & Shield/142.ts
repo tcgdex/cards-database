@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 more damage for each of your Benched Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
 				es: "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon en Banca.",
 				it: "Questo attacco infligge 30 danni in più per ogni Pokémon nella tua panchina.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon no seu Banco.",

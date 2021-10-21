@@ -58,7 +58,7 @@ const card: Card = {
 
 		effect: {
 			fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire pour chaque Pokémon dans votre pile de défausse.",
-			en: "Put 1 damage counter on your opponent’s Active Pokémon for each Pokémon in your discard pile.",
+			en: "Put 1 damage counter on your opponent's Active Pokémon for each Pokémon in your discard pile.",
 			es: "Pon 1 contador de daño en el Pokémon Activo de tu rival por cada Pokémon en tu pila de descartes.",
 			it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario per ogni Pokémon nella tua pila degli scarti.",
 			pt: "Coloque 1 contador de dano no Pokémon Ativo do seu oponente para cada Pokémon na sua pilha de descarte.",

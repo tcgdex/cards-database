@@ -33,7 +33,8 @@ const card: Card = {
 	},
 
 	trainerType: "Supporter",
-	illustrator: "take"
+	illustrator: "take",
+	regulationMark: "E"
 }
 
 export default card

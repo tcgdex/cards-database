@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Cherchez dans votre deck une carte Énergie et un Pokémon Darkness, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Cherchez dans votre deck une carte Énergie et un Pokémon Darkness, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "Search your deck for an Energy card and a Darkness Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
 		es: "Busca en tu baraja 1 carta de Energía y 1 carta de Pokémon Darkness, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo una carta Energia e un Pokémon Darkness, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",

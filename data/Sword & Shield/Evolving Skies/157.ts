@@ -24,8 +24,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Once during each player’s turn, that player may put a Pokémon Tool attached to 1 of their Pokémon into their hand.",
-		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut ajouter à sa main un Outil Pokémon attaché à l’un de ses Pokémon.",
+		en: "Once during each player's turn, that player may put a Pokémon Tool attached to 1 of their Pokémon into their hand.",
+		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut ajouter à sa main un Outil Pokémon attaché à l'un de ses Pokémon.",
 		es: "Una vez durante el turno de cada jugador, ese jugador puede poner 1 Herramienta Pokémon unida a 1 de sus Pokémon en su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può prendere una carta Oggetto Pokémon assegnata a uno dei suoi Pokémon e aggiungerla alle carte che ha in mano.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá colocar 1 Ferramenta Pokémon ligada a 1 dos próprios Pokémon na própria mão.",
@@ -33,7 +33,8 @@ const card: Card = {
 	},
 
 	trainerType: "Stadium",
-	illustrator: "Oswaldo KATO"
+	illustrator: "Oswaldo KATO",
+	regulationMark: "E"
 }
 
 export default card

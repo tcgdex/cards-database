@@ -6,7 +6,6 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
 	stage: "Basic",
-	suffix: "V",
 
 	name: {
 		en: "Crobat V"
@@ -25,7 +24,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may draw cards until you have 6 cards in your hand. You can’t use more than 1 Dark Asset Ability each turn."
+			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may draw cards until you have 6 cards in your hand. You can't use more than 1 Dark Asset Ability each turn."
 		}
 	}],
 
@@ -37,7 +36,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned."
 		},
 
 		damage: 70
@@ -55,7 +54,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

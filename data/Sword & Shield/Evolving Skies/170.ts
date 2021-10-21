@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Basic",
 	illustrator: "Eske Yoshinob",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -40,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 20 more damage for each basic Energy card in your discard pile. Then, shuffle those Energy cards into your deck.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque carte Énergie de base dans votre pile de défausse. Mélangez ensuite ces cartes Énergie avec votre deck.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque carte Énergie de base dans votre pile de défausse. Mélangez ensuite ces cartes Énergie avec votre deck.",
 			es: "Este ataque hace 20 puntos de daño más por cada carta de Energía Básica en tu pila de descartes. Después, pon esas cartas de Energía en tu baraja y barájalas todas.",
 			it: "Questo attacco infligge 20 danni in più per ogni carta Energia base nella tua pila degli scarti. Poi rimischia quelle carte Energia nel tuo mazzo.",
 			pt: "This attack does 20 more damage for each basic Energy card in your discard pile. Then, shuffle those Energy cards into your deck.",
@@ -63,7 +62,7 @@ const card: Card = {
 			en: "Discard an Energy from this Pokémon.",
 			fr: "Défaussez une Énergie de ce Pokémon.",
 			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un’Energia da questo Pokémon.",
+			it: "Scarta un'Energia da questo Pokémon.",
 			pt: "Discard an Energy from this Pokémon.",
 			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
@@ -78,7 +77,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	dexId: [637]
+	dexId: [637],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon."
+			en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon."
 		},
 
 		damage: 60
@@ -65,7 +65,7 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	suffix: "V"
+	regulationMark: "E"
 }
 
 export default card

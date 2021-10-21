@@ -26,8 +26,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon VMAX.",
-			pt: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon VMAX.",
+			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX.",
+			pt: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX.",
 			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-VMAX deines Gegners zugefügt wird."
 		}
 	}],
@@ -40,8 +40,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a Special Energy from your opponent’s Active Pokémon.",
-			pt: "Discard a Special Energy from your opponent’s Active Pokémon.",
+			en: "Discard a Special Energy from your opponent's Active Pokémon.",
+			pt: "Discard a Special Energy from your opponent's Active Pokémon.",
 			de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -61,7 +61,6 @@ const card: Card = {
 
 	retreat: 2,
 	stage: "Basic",
-	suffix: "V",
 	dexId: [889],
 
 	variants: {
@@ -69,7 +68,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

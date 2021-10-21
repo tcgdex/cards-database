@@ -38,7 +38,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards.",
-			fr: "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus de votre deck, puis ajouter l’une d’elles à votre main. Défaussez les autres cartes.",
+			fr: "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus de votre deck, puis ajouter l'une d'elles à votre main. Défaussez les autres cartes.",
 			es: "Una vez durante tu turno, puedes mirar las 3 primeras cartas de tu baraja y poner 1 de ellas en tu mano. Descarta el resto de las cartas.",
 			it: "Una sola volta durante il tuo turno, puoi guardare le prime tre carte del tuo mazzo e aggiungerne una alle carte che hai in mano. Scarta le altre carte.",
 			pt: "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards.",
@@ -88,7 +88,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	regulationMark: "D"
 }
 
 export default card

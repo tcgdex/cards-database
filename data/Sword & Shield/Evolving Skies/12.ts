@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 60 more damage.",
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 60 dégâts supplémentaires.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
 			pt: "Flip a coin. If heads, this attack does 60 more damage.",
@@ -79,10 +79,11 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its thick claws are its greatest weapons. They’re mighty enough to crack Rhyperior’s carapace."
+		en: "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace."
 	},
 
-	dexId: [558]
+	dexId: [558],
+	regulationMark: "E"
 }
 
 export default card

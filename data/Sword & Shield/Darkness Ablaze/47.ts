@@ -42,8 +42,8 @@ const card: Card = {
 				de: "Bitterkalt"
 			},
 			effect: {
-				en: "Once during your turn, if this Pokémon is in the Active Spot, you may flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez lancer une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Once during your turn, if this Pokémon is in the Active Spot, you may flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes lanzar 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Uma vez durante o seu turno, se este Pokémon estiver no Campo Ativo, você poderá jogar 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",

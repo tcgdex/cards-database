@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Lightning"],
 	stage: "Basic",
 	illustrator: "5ban Graphics",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -39,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 20 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 20 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			en: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque hace 20 puntos de daño a 1 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Questo attacco infligge 20 danni a uno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "This attack does 20 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			pt: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			de: "Diese Attacke fügt 1 Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
@@ -60,7 +59,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 4 coins. This attack does 60 damage for each heads.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
+			fr: "Lancez 4 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
 			es: "Lanza 4 monedas. Este ataque hace 60 puntos de daño por cada cara.",
 			it: "Lancia quattro volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
 			pt: "Flip 4 coins. This attack does 60 damage for each heads.",
@@ -77,7 +76,9 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	dexId: [135]
+	dexId: [135],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card
