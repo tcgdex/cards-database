@@ -103,7 +103,9 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days."
-	}
+	},
+
+	dexId: [836]
 }
 
 export default card

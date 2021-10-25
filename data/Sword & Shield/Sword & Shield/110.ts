@@ -100,7 +100,9 @@ const card: Card = {
 
 	description: {
 		en: "When it contracts its body, over 220 pounds of sand sprays from its nose. If it ever runs out of sand, it becomes disheartened."
-	}
+	},
+
+	dexId: [844]
 }
 
 export default card

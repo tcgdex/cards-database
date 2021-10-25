@@ -100,7 +100,9 @@ const card: Card = {
 
 	description: {
 		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
-	}
+	},
+
+	dexId: [862]
 }
 
 export default card

@@ -101,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
-	}
+	},
+
+	dexId: [93]
 }
 
 export default card

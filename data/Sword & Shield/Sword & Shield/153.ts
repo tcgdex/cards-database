@@ -79,7 +79,9 @@ const card: Card = {
 
 	description: {
 		en: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed."
-	}
+	},
+
+	dexId: [831]
 }
 
 export default card

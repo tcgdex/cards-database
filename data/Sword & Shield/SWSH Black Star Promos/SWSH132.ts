@@ -39,7 +39,17 @@ const card: Card = {
 		}
 	}],
 
-	suffix: "Prime"
+	suffix: "Prime",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	hp: 150,
+	types: ["Psychic"]
 }
 
 export default card

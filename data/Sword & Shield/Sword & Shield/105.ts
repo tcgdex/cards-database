@@ -78,7 +78,9 @@ const card: Card = {
 
 	description: {
 		en: "Loads weighing up to 50 times as much as its own body weight pose no issue for this Pokémon. It's skilled at making use of mud."
-	}
+	},
+
+	dexId: [749]
 }
 
 export default card

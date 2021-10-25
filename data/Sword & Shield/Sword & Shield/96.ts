@@ -78,7 +78,9 @@ const card: Card = {
 
 	description: {
 		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started."
-	}
+	},
+
+	dexId: [111]
 }
 
 export default card

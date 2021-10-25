@@ -75,7 +75,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	dexId: [143]
 }
 
 export default card

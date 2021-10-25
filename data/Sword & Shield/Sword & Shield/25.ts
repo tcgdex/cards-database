@@ -89,7 +89,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	suffix: "V"
+	suffix: "V",
+	dexId: [494]
 }
 
 export default card

@@ -37,7 +37,17 @@ const card: Card = {
 		effect: {
 			en: "During your next turn, this Pokémon can't attack."
 		}
-	}]
+	}],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	hp: 160,
+	types: ["Metal"]
 }
 
 export default card

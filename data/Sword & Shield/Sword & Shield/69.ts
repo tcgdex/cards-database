@@ -95,7 +95,9 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack."
-	}
+	},
+
+	dexId: [171]
 }
 
 export default card

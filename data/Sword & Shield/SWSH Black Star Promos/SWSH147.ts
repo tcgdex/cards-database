@@ -40,7 +40,17 @@ const card: Card = {
 	}],
 
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
+
+	hp: 210,
+	types: ["Dragon"]
 }
 
 export default card

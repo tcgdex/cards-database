@@ -105,7 +105,9 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
-	}
+	},
+
+	dexId: [834]
 }
 
 export default card

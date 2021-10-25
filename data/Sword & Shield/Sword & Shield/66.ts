@@ -88,7 +88,9 @@ const card: Card = {
 
 	description: {
 		en: "Its long tail serves as a ground to protect itself from its own high-voltage power."
-	}
+	},
+
+	dexId: [26]
 }
 
 export default card

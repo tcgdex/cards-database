@@ -61,7 +61,9 @@ const card: Card = {
 
 	description: {
 		en: "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
-	}
+	},
+
+	dexId: [595]
 }
 
 export default card

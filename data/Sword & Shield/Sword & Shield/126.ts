@@ -95,7 +95,9 @@ const card: Card = {
 
 	description: {
 		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
-	}
+	},
+
+	dexId: [828]
 }
 
 export default card

@@ -85,7 +85,9 @@ const card: Card = {
 
 	description: {
 		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
-	}
+	},
+
+	dexId: [107]
 }
 
 export default card

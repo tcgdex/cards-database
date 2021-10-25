@@ -101,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
-	}
+	},
+
+	dexId: [815]
 }
 
 export default card

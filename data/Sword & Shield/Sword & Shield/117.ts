@@ -91,7 +91,9 @@ const card: Card = {
 
 	description: {
 		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
-	}
+	},
+
+	dexId: [263]
 }
 
 export default card

@@ -107,7 +107,9 @@ const card: Card = {
 
 	description: {
 		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
-	}
+	},
+
+	dexId: [855]
 }
 
 export default card

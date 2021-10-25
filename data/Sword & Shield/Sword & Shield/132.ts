@@ -98,7 +98,9 @@ const card: Card = {
 
 	description: {
 		en: "Living in mud with a high iron content has given it a strong steel body."
-	}
+	},
+
+	dexId: [618]
 }
 
 export default card

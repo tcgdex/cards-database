@@ -91,7 +91,8 @@ const card: Card = {
 	},
 
 	stage: "Basic",
-	suffix: "V"
+	suffix: "V",
+	dexId: [377]
 }
 
 export default card

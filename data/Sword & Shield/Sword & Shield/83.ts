@@ -75,7 +75,9 @@ const card: Card = {
 
 	description: {
 		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
-	}
+	},
+
+	dexId: [92]
 }
 
 export default card

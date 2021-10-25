@@ -67,7 +67,9 @@ const card: Card = {
 
 	description: {
 		en: "A constant collector of information, this Pokémon is very smart. Very strong is what it isn't."
-	}
+	},
+
+	dexId: [824]
 }
 
 export default card

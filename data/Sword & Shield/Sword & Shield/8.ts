@@ -69,7 +69,9 @@ const card: Card = {
 
 	description: {
 		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles."
-	}
+	},
+
+	dexId: [632]
 }
 
 export default card

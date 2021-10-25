@@ -101,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago."
-	}
+	},
+
+	dexId: [344]
 }
 
 export default card

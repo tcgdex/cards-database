@@ -102,7 +102,9 @@ const card: Card = {
 
 	description: {
 		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
-	}
+	},
+
+	dexId: [164]
 }
 
 export default card

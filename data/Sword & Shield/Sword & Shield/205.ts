@@ -92,7 +92,7 @@ const card: Card = {
 		firstEdition: false
 	},
 
-
+	dexId: [874]
 }
 
 export default card

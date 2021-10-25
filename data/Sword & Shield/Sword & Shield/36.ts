@@ -102,7 +102,9 @@ const card: Card = {
 
 	description: {
 		en: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched."
-	}
+	},
+
+	dexId: [815]
 }
 
 export default card

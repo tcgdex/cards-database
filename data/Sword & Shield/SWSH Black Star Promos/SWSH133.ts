@@ -28,7 +28,17 @@ const card: Card = {
 	}],
 
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	hp: 220,
+	types: ["Fire"]
 }
 
 export default card

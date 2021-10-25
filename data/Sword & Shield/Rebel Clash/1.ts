@@ -80,7 +80,9 @@ const card: Card = {
 
 	description: {
 		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies."
-	}
+	},
+
+	dexId: [251]
 }
 
 export default card

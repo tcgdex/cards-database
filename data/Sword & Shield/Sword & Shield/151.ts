@@ -101,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
-	}
+	},
+
+	dexId: [822]
 }
 
 export default card

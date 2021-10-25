@@ -68,7 +68,9 @@ const card: Card = {
 
 	description: {
 		en: "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
-	}
+	},
+
+	dexId: [813]
 }
 
 export default card

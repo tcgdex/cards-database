@@ -101,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found."
-	}
+	},
+
+	dexId: [625]
 }
 
 export default card

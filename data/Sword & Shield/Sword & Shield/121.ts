@@ -85,7 +85,9 @@ const card: Card = {
 
 	description: {
 		en: "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokémon's poison seeps in."
-	}
+	},
+
+	dexId: [451]
 }
 
 export default card

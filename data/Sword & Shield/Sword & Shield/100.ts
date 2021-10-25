@@ -90,7 +90,9 @@ const card: Card = {
 
 	description: {
 		en: "If a tree branch shakes when there is no wind, it's a Sudowoodo, not a tree. It hides from the rain."
-	}
+	},
+
+	dexId: [185]
 }
 
 export default card

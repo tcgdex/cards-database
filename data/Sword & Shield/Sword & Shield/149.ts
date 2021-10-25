@@ -69,7 +69,9 @@ const card: Card = {
 
 	description: {
 		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below."
-	}
+	},
+
+	dexId: [780]
 }
 
 export default card

@@ -86,7 +86,9 @@ const card: Card = {
 
 	description: {
 		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles."
-	}
+	},
+
+	dexId: [111]
 }
 
 export default card

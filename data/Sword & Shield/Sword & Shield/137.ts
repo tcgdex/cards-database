@@ -110,7 +110,9 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder."
-	}
+	},
+
+	dexId: [879]
 }
 
 export default card

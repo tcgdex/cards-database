@@ -77,7 +77,7 @@ const card: Card = {
 		firstEdition: false
 	},
 
-
+	dexId: [877]
 }
 
 export default card

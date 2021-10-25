@@ -95,7 +95,9 @@ const card: Card = {
 
 	description: {
 		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
-	}
+	},
+
+	dexId: [264]
 }
 
 export default card
