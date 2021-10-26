@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vulpix",
 		fr: "Goupix",
+		es: "Vulpix",
+		it: "Vulpix",
+		pt: "Vulpix",
+		de: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -48,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Fire Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
+				fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
 				es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",

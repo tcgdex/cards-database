@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Doublade",
-		fr: "Dimoclès"
+		fr: "Dimoclès",
+		es: "Doublade",
+		it: "Doublade",
+		pt: "Doublade",
+		de: "Duokles"
 	},
 
 	abilities: [{
@@ -58,7 +62,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard 2 Metal Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies Metal de ce Pokémon.",
+			fr: "Défaussez 2 Énergies Metal de ce Pokémon.",
 			es: "Descarta 2 Energías Metal de este Pokémon.",
 			it: "Scarta due Energie Metal da questo Pokémon.",
 			pt: "Descarte 2 Energias Metal deste Pokémon.",

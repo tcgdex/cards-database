@@ -23,7 +23,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can’t be used if Claydol is affected by a Special Condition."
+			en: "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can't be used if Claydol is affected by a Special Condition."
 		}
 	}],
 

@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent’s Pokémon. This attack does 80 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Garchomp C can’t use Dragon Rush during your next turn."
+			en: "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Garchomp C can't use Dragon Rush during your next turn."
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]

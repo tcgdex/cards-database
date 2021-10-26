@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sneasel",
-		fr: "Farfuret"
+		fr: "Farfuret",
+		es: "Sneasel",
+		it: "Sneasel",
+		pt: "Sneasel",
+		de: "Sniebel"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "During your next turn, if the Defending Pokémon is damaged by an attack from a Rapid Strike Pokémon, it will be Knocked Out.",
-			fr: "Pendant votre prochain tour, si le Pokémon Défenseur subit les dégâts d’une attaque d’un Pokémon Mille Poings, il sera mis K.O.",
+			fr: "Pendant votre prochain tour, si le Pokémon Défenseur subit les dégâts d'une attaque d'un Pokémon Mille Poings, il sera mis K.O.",
 			es: "Durante tu próximo turno, si el Pokémon Defensor resulta dañado por un ataque de un Pokémon Golpe Fluido, quedará Fuera de Combate.",
 			it: "Durante il tuo prossimo turno, il Pokémon difensore viene messo KO se viene danneggiato da un attacco di un Pokémon Colpo Rapido.",
 			pt: "Durante o seu próximo turno, se o Pokémon Defensor for danificado por um ataque de um Pokémon Golpe Fluido, ele será Nocauteado.",
@@ -56,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu’à 2 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 2 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 2 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",

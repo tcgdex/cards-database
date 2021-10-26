@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Milcery",
-		fr: "Crèmy"
+		fr: "Crèmy",
+		es: "Milcery",
+		it: "Milcery",
+		pt: "Milcery",
+		de: "Hokumil"
 	},
 
 	attacks: [
@@ -59,7 +63,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon.",
 				es: "Cura 30 puntos de daño a este Pokémon.",
 				it: "Cura questo Pokémon da 30 danni.",
 				pt: "Cure 30 pontos de dano deste Pokémon.",
@@ -92,7 +96,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it trusts a Trainer, it will treat them to berries it’s decorated with cream."
+		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
 	}
 }
 

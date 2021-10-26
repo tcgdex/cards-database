@@ -58,11 +58,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			pt: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+			pt: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 		},
 
@@ -80,7 +80,14 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It feeds on gemstone crystals. In darkness, its eyes sparkle with the glitter of jewels."
+	},
+
+	dexId: [302],
+	regulationMark: "E"
 }
 
 export default card

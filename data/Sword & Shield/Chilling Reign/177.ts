@@ -32,10 +32,10 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Darkness de votre pile de défausse à ce Pokémon. Vous ne pouvez utiliser qu’un talent Ailes Ténébraises par tour.",
-			en: "Once during your turn, you may attach a Darkness Energy card from your discard pile to this Pokémon. You can’t use more than 1 Direflame Wings Ability each turn.",
+			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Darkness de votre pile de défausse à ce Pokémon. Vous ne pouvez utiliser qu'un talent Ailes Ténébraises par tour.",
+			en: "Once during your turn, you may attach a Darkness Energy card from your discard pile to this Pokémon. You can't use more than 1 Direflame Wings Ability each turn.",
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Darkness de tu pila de descartes a este Pokémon. No puedes usar más de 1 habilidad Alas Incendiarias en cada turno.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia Darkness dalla tua pila degli scarti. Puoi usare l’abilità Ali Estremafiamma solo una volta per turno.",
+			it: "Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon una carta Energia Darkness dalla tua pila degli scarti. Puoi usare l'abilità Ali Estremafiamma solo una volta per turno.",
 			pt: "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Darkness da sua pilha de descarte a este Pokémon. Você não pode usar mais de 1 Habilidade Asas de Fogaréu por turno.",
 			de: "Einmal während deines Zuges kannst du 1 Darkness-Energiekarte aus deinem Ablagestapel an dieses Pokémon anlegen. Du kannst immer nur jeweils 1 Fähigkeit Flammende Schattenflügel einsetzen."
 		}
@@ -52,7 +52,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			en: "This Pokémon also does 30 damage to itself.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",

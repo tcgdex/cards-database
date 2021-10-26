@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rolycoly",
-		fr: "Charbi"
+		fr: "Charbi",
+		es: "Rolycoly",
+		it: "Rolycoly",
+		pt: "Rolycoly",
+		de: "Klonkett"
 	},
 
 	attacks: [{
@@ -48,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 10 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
 			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
 			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",

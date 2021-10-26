@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 60 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 60 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 60 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 60 danni in più.",
-			pt: "If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
+			pt: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
 			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 50 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
 			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
 			pt: "This Pokémon also does 50 damage to itself.",
@@ -81,7 +81,23 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [628],
+
+	evolveFrom: {
+		en: "Rufflet",
+		fr: "Furaiglon",
+		es: "Rufflet",
+		it: "Rufflet",
+		pt: "Rufflet",
+		de: "Geronimatz"
+	},
+
+	description: {
+		en: "Because this Pokémon is hotheaded and belligerent, it's Corviknight that's taken the role of transportation in Galar."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

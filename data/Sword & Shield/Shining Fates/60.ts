@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		fr: "Recherches Professorales (Professeure Keteleeria)",
-		en: "Professor’s Research (Professor Juniper)",
+		en: "Professor's Research (Professor Juniper)",
 		es: "Investigación de Profesores",
 		it: "Ricerca Accademica",
 		pt: "Pesquisa de Professores",
@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
+		fr: "Défaussez votre main, puis piochez 7 cartes.",
 		en: "Discard your hand and draw 7 cards.",
 		es: "Descarta las cartas de tu mano y roba 7 cartas.",
 		it: "Scarta le carte che hai in mano e pesca sette carte.",

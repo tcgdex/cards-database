@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Blaziken V",
-		fr: "Braségali-V"
+		fr: "Braségali-V",
+		es: "Blaziken V",
+		it: "Blaziken-V",
+		pt: "Blaziken V",
+		de: "Lohgock-V"
 	},
 
 	attacks: [{
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -57,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "Choose up to 2 of your Benched Rapid Strike Pokémon and attach an Energy card from your discard pile to each of them.",
-			fr: "Choisissez jusqu’à 2 de vos Pokémon Mille Poings de Banc, puis attachez une carte Énergie de votre pile de défausse à chacun d’eux.",
+			fr: "Choisissez jusqu'à 2 de vos Pokémon Mille Poings de Banc, puis attachez une carte Énergie de votre pile de défausse à chacun d'eux.",
 			es: "Elige hasta 2 de tus Pokémon Golpe Fluido en Banca y une 1 carta de Energía de tu pila de descartes a cada uno de ellos.",
 			it: "Scegli fino a due dei tuoi Pokémon Colpo Rapido in panchina e assegna a ognuno di essi una carta Energia dalla tua pila degli scarti.",
 			pt: "Escolha até 2 dos seus Pokémon Golpe Fluido no Banco e ligue 1 carta de Energia da sua pilha de descarte a cada um deles.",
@@ -83,7 +87,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
 }
 
 export default card

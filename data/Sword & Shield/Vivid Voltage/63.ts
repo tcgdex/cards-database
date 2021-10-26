@@ -28,7 +28,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras’Face",
+				fr: "Écras'Face",
 				es: "Destructor",
 				it: "Botta",
 				pt: "Pancada",
@@ -52,8 +52,8 @@ const card: Card = {
 				de: "Mini-Metronom"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.",
-				fr: "Lancez une pièce. Si c’est face, choisissez l’une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque.",
+				en: "Flip a coin. If heads, choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+				fr: "Lancez une pièce. Si c'est face, choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque.",
 				es: "Lanza 1 moneda. Si sale cara, elige 1 de los ataques del Pokémon Activo de tu rival y úsalo para este ataque.",
 				it: "Lancia una moneta. Se esce testa, scegli un attacco del Pokémon attivo del tuo avversario e usalo al posto di questo attacco.",
 				pt: "Jogue 1 moeda. Se sair cara, escolha 1 dos ataques do Pokémon Ativo do seu oponente e use-o como este ataque.",

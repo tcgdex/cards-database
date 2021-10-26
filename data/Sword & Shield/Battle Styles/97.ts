@@ -30,8 +30,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard the top 2 cards of your opponent’s deck.",
-			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+			en: "Discard the top 2 cards of your opponent's deck.",
+			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
 			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
 			it: "Scarta le prime due carte del mazzo del tuo avversario.",
 			pt: "Descarte as 2 cartas de cima do baralho do seu oponente.",
@@ -52,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard the top 4 cards of your deck.",
-			fr: "Défaussez les 4 cartes du dessus de votre deck.",
+			fr: "Défaussez les 4 cartes du dessus de votre deck.",
 			es: "Descarta las 4 primeras cartas de tu baraja.",
 			it: "Scarta le prime quattro carte del tuo mazzo.",
 			pt: "Descarte as 4 cartas de cima do seu baralho.",

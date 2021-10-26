@@ -69,7 +69,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It digs up the ground with its trunk. It’s also very strong, being able to carry loads of over five tons without any problem at all."
+		en: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
 	}
 }
 

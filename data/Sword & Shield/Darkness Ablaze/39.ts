@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Feebas",
-		fr: "Barpau"
+		fr: "Barpau",
+		es: "Feebas",
+		it: "Feebas",
+		pt: "Feebas",
+		de: "Barschwa"
 	},
 
 	abilities: [
@@ -39,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn, you may heal 20 damage from each of your Pokémon.",
-				fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de chacun de vos Pokémon.",
+				fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de chacun de vos Pokémon.",
 				es: "Una vez durante tu turno, puedes curar 20 puntos de daño a cada uno de tus Pokémon.",
 				it: "Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon da 20 danni.",
 				pt: "Uma vez durante o seu turno, você poderá curar 20 pontos de dano de cada um dos seus Pokémon.",

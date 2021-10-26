@@ -58,7 +58,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	evolveFrom: {
+		en: "Tympole",
+		fr: "Tritonde",
+		es: "Tympole",
+		it: "Tympole",
+		pt: "Tympole",
+		de: "Schallquap"
+	},
+
+	description: {
+		en: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds."
+	},
+
+	dexId: [536],
+	regulationMark: "E"
 }
 
 export default card

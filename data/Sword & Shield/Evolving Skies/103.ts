@@ -41,7 +41,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may choose a Stage 1 Pokémon, except any Zoroark, from your discard pile. If you do, discard this Pokémon and all attached cards, and put the chosen Pokémon in its place.",
-			fr: "Une fois pendant votre tour, vous pouvez choisir un Pokémon de Niveau 1 de votre pile de défausse, à l’exception d’un Zoroark. Dans ce cas, défaussez ce Pokémon-ci et toutes les cartes attachées, puis remplacez-le par le Pokémon choisi.",
+			fr: "Une fois pendant votre tour, vous pouvez choisir un Pokémon de Niveau 1 de votre pile de défausse, à l'exception d'un Zoroark. Dans ce cas, défaussez ce Pokémon-ci et toutes les cartes attachées, puis remplacez-le par le Pokémon choisi.",
 			es: "Una vez durante tu turno, puedes elegir 1 Pokémon de Fase 1, excepto un Zoroark, de tu pila de descartes. Si lo haces, descarta este Pokémon y todas las cartas unidas a él, y pon el Pokémon elegido en su lugar.",
 			it: "Una sola volta durante il tuo turno, puoi scegliere un Pokémon di Fase 1, a eccezione di qualsiasi Zoroark, dalla tua pila degli scarti. Se lo fai, scarta questo Pokémon e tutte le carte a esso assegnate, e metti al suo posto il Pokémon che hai scelto.",
 			pt: "Once during your turn, you may choose a Stage 1 Pokémon, except any Zoroark, from your discard pile. If you do, discard this Pokémon and all attached cards, and put the chosen Pokémon in its place.",
@@ -68,7 +68,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Zorua",
+		fr: "Zorua",
+		es: "Zorua",
+		it: "Zorua",
+		pt: "Zorua",
+		de: "Zorua"
+	},
+
+	description: {
+		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods."
+	},
+
+	dexId: [571],
+	regulationMark: "E"
 }
 
 export default card

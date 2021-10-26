@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez chercher dans votre deck jusqu’à 2 cartes Objet dont le nom contient le mot « Moti », montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 cartes Objet dont le nom contient le mot « Moti », montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for up to 2 Item cards that have the word \"Rotom\" in their name, reveal them, and put them into your hand. Then, shuffle your deck.",
 			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes buscar en tu baraja hasta 2 cartas de Objeto que tengan la palabra \"Rotom\" en su nombre, enseñarlas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi cercare nel tuo mazzo fino a due carte Strumento con “Rotom” nel nome, mostrarle e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
@@ -52,8 +52,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
@@ -74,7 +74,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "One boy’s invention led to the development of many different machines that take advantage of Rotom’s unique capabilities."
+		en: "One boy's invention led to the development of many different machines that take advantage of Rotom's unique capabilities."
 	}
 }
 

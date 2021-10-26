@@ -33,7 +33,7 @@ const card: Card = {
 				de: "Heilstörung"
 			},
 			effect: {
-				en: "Your opponent’s Benched Pokémon can’t be healed.",
+				en: "Your opponent's Benched Pokémon can't be healed.",
 				fr: "Les Pokémon de Banc de votre adversaire ne peuvent pas être soignés.",
 				es: "Los Pokémon en Banca de tu rival no pueden ser curados.",
 				it: "I Pokémon nella panchina del tuo avversario non possono essere curati.",
@@ -51,7 +51,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
-				fr: "Tranch’Griffe",
+				fr: "Tranch'Griffe",
 				es: "Cuchillada Garra",
 				it: "Lacerartiglio",
 				pt: "Golpe de Garra",

@@ -38,7 +38,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach an Energy card from your hand to 1 of your Benched Pokémon. If you do, heal 120 damage from that Pokémon.",
-			fr: "Attachez une carte Énergie de votre main à l’un de vos Pokémon de Banc. Dans ce cas, soignez 120 dégâts de ce Pokémon-là.",
+			fr: "Attachez une carte Énergie de votre main à l'un de vos Pokémon de Banc. Dans ce cas, soignez 120 dégâts de ce Pokémon-là.",
 			es: "Une 1 carta de Energía de tu mano a 1 de tus Pokémon en Banca. Si lo haces, cura 120 puntos de daño a ese Pokémon.",
 			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia dalla tua mano. Se lo fai, cura quel Pokémon da 120 danni.",
 			pt: "Attach an Energy card from your hand to 1 of your Benched Pokémon. If you do, heal 120 damage from that Pokémon.",
@@ -75,7 +75,20 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	stage: "VMAX"
+	stage: "VMAX",
+
+	evolveFrom: {
+		en: "Sylveon V",
+		fr: "Nymphali-V",
+		es: "Sylveon V",
+		it: "Sylveon-V",
+		pt: "Sylveon V",
+		de: "Feelinara-V"
+	},
+
+	dexId: [700],
+	regulationMark: "E",
+
 }
 
 export default card

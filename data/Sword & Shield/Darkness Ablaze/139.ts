@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Teddiursa",
-		fr: "Teddiursa"
+		fr: "Teddiursa",
+		es: "Teddiursa",
+		it: "Teddiursa",
+		pt: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	attacks: [
@@ -42,7 +46,7 @@ const card: Card = {
 				de: "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck.",
+				en: "Discard the top card of your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
 				es: "Descarta la primera carta de la baraja de tu rival.",
 				it: "Scarta la prima carta del mazzo del tuo avversario.",
@@ -61,7 +65,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
-				fr: "Tranch’Griffe",
+				fr: "Tranch'Griffe",
 				es: "Cuchillada Garra",
 				it: "Lacerartiglio",
 				pt: "Golpe de Garra",

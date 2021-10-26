@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
 			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
@@ -52,7 +52,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
 			en: "This attack does 30 more damage for each Prize card your opponent has taken.",
 			es: "Este ataque hace 30 puntos de daño más por cada carta de Premio que haya cogido tu rival.",
 			it: "Questo attacco infligge 30 danni in più per ogni carta Premio presa dal tuo avversario.",

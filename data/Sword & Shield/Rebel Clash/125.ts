@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Morgrem",
-		fr: "Fourbelin"
+		fr: "Fourbelin",
+		es: "Morgrem",
+		it: "Morgrem",
+		pt: "Morgrem",
+		de: "Pelzebub"
 	},
 
 	abilities: [
@@ -33,7 +37,7 @@ const card: Card = {
 				de: "Finsterer Schwur"
 			},
 			effect: {
-				en: "As long as this Pokémon is in the Active Spot, your opponent’s Active Pokémon’s attacks cost Colorless more.",
+				en: "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon's attacks cost Colorless more.",
 				fr: "Tant que ce Pokémon est sur le Poste Actif, les attaques du Pokémon Actif de votre adversaire coûtent Colorless de plus.",
 				es: "Mientras este Pokémon esté en el Puesto Activo, los ataques del Pokémon Activo de tu rival cuestan Colorless más.",
 				it: "Fintanto che questo Pokémon è in posizione attiva, il costo degli attacchi del Pokémon attivo del tuo avversario aumenta di Colorless.",
@@ -59,8 +63,8 @@ const card: Card = {
 				de: "Energiedruck"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 				es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",

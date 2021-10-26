@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Horsea",
-		fr: "Hypotrempe"
+		fr: "Hypotrempe",
+		es: "Horsea",
+		it: "Horsea",
+		pt: "Horsea",
+		de: "Seeper"
 	},
 
 	attacks: [{
@@ -30,7 +34,7 @@ const card: Card = {
 			fr: "Pistolet à O",
 			es: "Pistola Agua",
 			it: "Pistolacqua",
-			pt: "Revólver d’Água",
+			pt: "Revólver d'Água",
 			de: "Aquaknarre"
 		},
 

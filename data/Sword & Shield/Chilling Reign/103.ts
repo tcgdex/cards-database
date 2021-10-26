@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "For each Pokémon in your opponent’s discard pile, put 1 damage counter on your opponent’s Pokémon in any way you like. If you placed any damage counters in this way, your opponent shuffles all Pokémon from their discard pile into their deck.",
+			en: "For each Pokémon in your opponent's discard pile, put 1 damage counter on your opponent's Pokémon in any way you like. If you placed any damage counters in this way, your opponent shuffles all Pokémon from their discard pile into their deck.",
 			fr: "Pour chaque Pokémon dans la pile de défausse de votre adversaire, placez un marqueur de dégâts sur les Pokémon de votre adversaire comme il vous plaît. Si vous avez placé des marqueurs de dégâts de cette façon, votre adversaire mélange tous les Pokémon de sa pile de défausse avec son deck.",
 			es: "Por cada Pokémon en la pila de descartes de tu rival, pon 1 contador de daño en los Pokémon de tu rival de la manera que desees. Si has puesto algún contador de daño de esta manera, tu rival pone todos los Pokémon de su pila de descartes en su baraja y baraja todas las cartas.",
 			it: "Per ogni Pokémon nella pila degli scarti del tuo avversario, metti un segnalino danno sui suoi Pokémon nel modo che preferisci. Se hai messo dei segnalini danno in questo modo, il tuo avversario rimischia tutti i Pokémon dalla sua pila degli scarti nel suo mazzo.",

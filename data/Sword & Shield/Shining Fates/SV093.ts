@@ -21,7 +21,7 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Coup d’Œil",
+			fr: "Coup d'Œil",
 			en: "Glance",
 			es: "Ojeada",
 			it: "Occhiatina",
@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			fr: "Regardez la carte du dessus du deck de votre adversaire.",
-			en: "Look at the top card of your opponent’s deck.",
+			en: "Look at the top card of your opponent's deck.",
 			es: "Mira la primera carta de la baraja de tu rival.",
 			it: "Guarda la prima carta del mazzo del tuo avversario.",
 			pt: "Olhe a carta de cima do baralho do seu oponente.",
@@ -50,7 +50,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
 			en: "Flip 2 coins. This attack does 20 damage for each heads.",
 			es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",

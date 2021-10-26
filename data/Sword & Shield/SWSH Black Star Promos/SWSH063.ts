@@ -6,11 +6,15 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu V",
-		fr: "Pikachu V"
+		fr: "Pikachu V",
+		es: "Pikachu V",
+		it: "Pikachu V",
+		pt: "Pikachu V",
+		de: "Pikachu V"
 	},
 
 	illustrator: "Ryota Murayama",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pika Ball",
-			fr: "Pika Ball"
+			fr: "Pika Ball",
+			es: "Pika Ball",
+			it: "Pikasfera",
+			pt: "Pika Ball",
+			de: "Pikaball"
 		},
 
 		damage: 30,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Circle Circuit",
-			fr: "Cercle Électrik"
+			fr: "Cercle Électrik",
+			es: "Circuito Circular",
+			it: "Elettroruota",
+			pt: "Circle Circuit",
+			de: "Rundparcours"
 		},
 
 		effect: {
 			en: "This attack does 30 damage for each of your Benched Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de Banc."
+			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de Banc.",
+			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca.",
+			it: "Questo attacco infligge 30 danni per ogni Pokémon nella tua panchina.",
+			pt: "This attack does 30 damage for each of your Benched Pokémon.",
+			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank 30 Schadenspunkte zu."
 		},
 
 		damage: "30×",
@@ -43,7 +59,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	stage: "Basic",
+	dexId: [25],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

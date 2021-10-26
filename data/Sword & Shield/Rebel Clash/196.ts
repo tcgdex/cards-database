@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Toxtricity V",
-		fr: "Salarsen-V"
+		fr: "Salarsen-V",
+		es: "Toxtricity V",
+		it: "Toxtricity-V",
+		pt: "Toxtricity V",
+		de: "Riffex-V"
 	},
 
 	attacks: [{
@@ -35,8 +39,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon is Poisoned, this attack does 80 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 80 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon is Poisoned, this attack does 80 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 80 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 80 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 80 pontos de dano a mais.",

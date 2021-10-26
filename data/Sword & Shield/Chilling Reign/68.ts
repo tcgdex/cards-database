@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Swirlix",
-		fr: "Sucroquin"
+		fr: "Sucroquin",
+		es: "Swirlix",
+		it: "Swirlix",
+		pt: "Swirlix",
+		de: "Flauschling"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand.",
-			fr: "Lancez 3 pièces. Ajoutez à votre main un nombre de cartes de votre pile de défausse inférieur ou égal au nombre de côtés face obtenus.",
+			fr: "Lancez 3 pièces. Ajoutez à votre main un nombre de cartes de votre pile de défausse inférieur ou égal au nombre de côtés face obtenus.",
 			es: "Lanza 3 monedas. Pon tantas cartas como veces haya salido cara de tu pila de descartes en tu mano.",
 			it: "Lancia tre volte una moneta. Prendi dalla tua pila degli scarti un numero di carte uguale o inferiore al numero di volte in cui è uscito testa e aggiungile a quelle che hai in mano.",
 			pt: "Jogue 3 moedas. Coloque um número de cartas da sua pilha de descarte na sua mão até o número de caras.",
@@ -76,7 +80,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Slurpuff’s fur contains a lot of air, making it soft to the touch and lighter than it looks."
+		en: "Slurpuff's fur contains a lot of air, making it soft to the touch and lighter than it looks."
 	}
 }
 

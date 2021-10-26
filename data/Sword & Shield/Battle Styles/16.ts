@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-			fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
+			fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
 			es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 			it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
 			pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
@@ -42,7 +42,7 @@ const card: Card = {
 		cost: ["Grass"]
 	}, {
 		name: {
-			en: "Nature’s Judgment",
+			en: "Nature's Judgment",
 			fr: "Jugement de la Nature",
 			es: "Sentencia de la Naturaleza",
 			it: "Giudizio della Natura",
@@ -52,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "You may discard all Energy from this Pokémon. If you do, this attack does 80 more damage.",
-			fr: "Vous pouvez défausser toute l’Énergie de ce Pokémon. Dans ce cas, cette attaque inflige 80 dégâts supplémentaires.",
+			fr: "Vous pouvez défausser toute l'Énergie de ce Pokémon. Dans ce cas, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Puedes descartar todas las Energías de este Pokémon. Si lo haces, este ataque hace 80 puntos de daño más.",
 			it: "Puoi scartare tutte le Energie da questo Pokémon. Se lo fai, questo attacco infligge 80 danni in più.",
 			pt: "Você pode descartar todas as Energias deste Pokémon. Se fizer isto, este ataque causará 80 pontos de dano a mais.",
@@ -81,7 +81,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Although it’s called a guardian deity, it’s violent enough to crush anyone it sees as an enemy."
+		en: "Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy."
 	}
 }
 

@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Toxel",
-		fr: "Toxizap"
+		fr: "Toxizap",
+		es: "Toxel",
+		it: "Toxel",
+		pt: "Toxel",
+		de: "Toxel"
 	},
 
 	attacks: [
@@ -35,8 +39,8 @@ const card: Card = {
 				de: "Giftschrei"
 			},
 			effect: {
-				en: "This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				en: "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Your opponent's Active Pokémon is now Poisoned.",
+				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "Este ataque hace 20 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca). El Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Questo attacco infligge 20 danni a ciascuno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina. Il Pokémon attivo del tuo avversario viene avvelenato.",
 				pt: "Este ataque causa 20 pontos de dano a cada um dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco). O Pokémon Ativo do seu oponente agora está Envenenado.",
@@ -86,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When this Pokémon sounds as if it’s strumming a guitar, it’s actually clawing at the protrusions on its chest to generate electricity."
+		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity."
 	}
 }
 

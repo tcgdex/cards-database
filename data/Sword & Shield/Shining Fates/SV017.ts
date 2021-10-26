@@ -37,7 +37,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, lorsque ce Pokémon se déplace de votre Banc vers le Poste Actif, vous pouvez lui attacher jusqu’à 2 cartes Énergie Fire de votre pile de défausse.",
+			fr: "Une fois pendant votre tour, lorsque ce Pokémon se déplace de votre Banc vers le Poste Actif, vous pouvez lui attacher jusqu'à 2 cartes Énergie Fire de votre pile de défausse.",
 			en: "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may attach up to 2 Fire Energy cards from your discard pile to it.",
 			es: "Una vez durante tu turno, cuando este Pokémon se mueve de tu Banca al Puesto Activo, puedes unirle hasta 2 cartas de Energía Fire de tu pila de descartes.",
 			it: "Una sola volta durante il tuo turno, quando questo Pokémon si sposta dalla tua panchina in posizione attiva, puoi assegnargli fino a due carte Energia Fire dalla tua pila degli scarti.",
@@ -57,7 +57,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
 			en: "Discard 2 Energy from this Pokémon.",
 			es: "Descarta 2 Energías de este Pokémon.",
 			it: "Scarta due Energie da questo Pokémon.",
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It’s skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
 	}
 }
 

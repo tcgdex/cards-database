@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seedot",
-		fr: "Grainipiot"
+		fr: "Grainipiot",
+		es: "Seedot",
+		it: "Seedot",
+		pt: "Seedot",
+		de: "Samurzel"
 	},
 
 	attacks: [
@@ -33,7 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
+				fr: "Tranch'Herbe",
 				es: "Hoja Afilada",
 				it: "Foglielama",
 				pt: "Folha Navalha",

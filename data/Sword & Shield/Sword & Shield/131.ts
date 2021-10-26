@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ferroseed",
 		fr: "Grindur",
+		es: "Ferroseed",
+		it: "Ferroseed",
+		pt: "Ferroseed",
+		de: "Kastadur"
 	},
 
 	stage: "Stage1",
@@ -43,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
 				es: "Lanza 3 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 30 pontos de dano para cada cara.",
@@ -68,7 +72,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may move all Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Vous pouvez déplacer toute l’Énergie de ce Pokémon vers l’un de vos Pokémon de Banc.",
+				fr: "Vous pouvez déplacer toute l'Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
 				es: "Puedes mover todas las Energías de este Pokémon a 1 de tus Pokémon en Banca.",
 				it: "Puoi spostare tutte le Energie da questo Pokémon a uno di quelli nella tua panchina.",
 				pt: "Você pode mover todas as Energias deste Pokémon para 1 dos seus Pokémon no Banco.",
@@ -105,7 +109,9 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone."
-	}
+	},
+
+	dexId: [598]
 }
 
 export default card

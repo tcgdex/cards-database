@@ -32,9 +32,9 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This Pokémon is the same type as any basic Energy attached to it. (If it has 2 or more different types of basic Energy attached, this Pokémon is each of those types.)",
-			fr: "Ce Pokémon est du même type que l’Énergie de base qui lui est attachée. (Si de l’Énergie de base de 2 types différents ou plus est attachée à ce Pokémon, ce Pokémon est de chacun de ces types.)",
-			es: "Este Pokémon es del mismo tipo que el de cualquier Energía Básica unida a él. (Si tiene 2 o más tipos de Energía Básica diferentes unidas a él, este Pokémon es de cada uno de esos tipos).",
+			en: "This Pokémon is the same type as any basic Energy attached to it. (If it has 2 or more different types of basic Energy attached, this Pokémon is each of those types.)",
+			fr: "Ce Pokémon est du même type que l'Énergie de base qui lui est attachée. (Si de l'Énergie de base de 2 types différents ou plus est attachée à ce Pokémon, ce Pokémon est de chacun de ces types.)",
+			es: "Este Pokémon es del mismo tipo que el de cualquier Energía Básica unida a él. (Si tiene 2 o más tipos de Energía Básica diferentes unidas a él, este Pokémon es de cada uno de esos tipos).",
 			it: "Questo Pokémon è dello stesso tipo di qualsiasi Energia base a esso assegnata. Se ha due o più Energie base di tipo diverso assegnate, questo Pokémon è di ciascuno di quei tipi.",
 			pt: "Este Pokémon é do mesmo tipo de qualquer Energia básica ligada a ele (se ele tiver 2 ou mais tipos diferentes de Energias básicas ligadas a ele, este Pokémon será de cada um destes tipos).",
 			de: "Dieses Pokémon ist vom selben Typ wie jede an es angelegte Basis-Energie. (Wenn 2 oder mehr verschiedene Typen von Basis-Energie angelegt sind, ist dieses Pokémon von jedem dieser Typen.)"

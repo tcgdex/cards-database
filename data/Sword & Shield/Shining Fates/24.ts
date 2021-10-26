@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez regarder les 6 cartes du dessus de votre deck, montrer un Pokémon que vous y trouvez, puis l’ajouter à votre main. Mélangez les autres cartes avec votre deck.",
+			fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez regarder les 6 cartes du dessus de votre deck, montrer un Pokémon que vous y trouvez, puis l'ajouter à votre main. Mélangez les autres cartes avec votre deck.",
 			en: "Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal a Pokémon you find there, and put it into your hand. Shuffle the other cards back into your deck.",
 			es: "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes mirar las 6 primeras cartas de tu baraja, enseñar 1 Pokémon que encuentres entre ellas y ponerlo en tu mano. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
 			it: "Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi guardare le prime sei carte del tuo mazzo, mostrare un Pokémon presente tra esse e aggiungerlo alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
@@ -46,7 +46,7 @@ const card: Card = {
 			fr: "Grosse Vague",
 			en: "Wave Splash",
 			es: "Chapoteo Ondulante",
-			it: "Schizzi d’Onda",
+			it: "Schizzi d'Onda",
 			pt: "Onda Borrifante",
 			de: "Wellenplatscher"
 		},

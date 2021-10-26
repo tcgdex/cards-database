@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			en: "Flip a coin. If heads, this attack does 10 more damage.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",

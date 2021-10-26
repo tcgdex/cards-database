@@ -41,7 +41,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez demander à votre adversaire d’échanger son Pokémon Actif contre l’un de ses Pokémon de Banc.",
+			fr: "Une fois pendant votre tour, vous pouvez demander à votre adversaire d'échanger son Pokémon Actif contre l'un de ses Pokémon de Banc.",
 			es: "Una vez durante tu turno, puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
 			it: "Una sola volta durante il tuo turno, puoi far scambiare al tuo avversario il suo Pokémon attivo con uno della sua panchina.",
 			pt: "Once during your turn, you may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.",
@@ -60,11 +60,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 120 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 120 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 120 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 120 danni in più.",
-			pt: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 120 more damage.",
+			pt: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 120 more damage.",
 			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
@@ -72,7 +72,23 @@ const card: Card = {
 		cost: ["Fire", "Water"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [373],
+
+	evolveFrom: {
+		en: "Shelgon",
+		fr: "Drackhaus",
+		es: "Shelgon",
+		it: "Shelgon",
+		pt: "Shelgon",
+		de: "Draschel"
+	},
+
+	description: {
+		en: "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart's desire—wings."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your opponent has any Pokémon VMAX in play, this attack does 150 more damage.",
-				fr: "Si votre adversaire a au moins un Pokémon-VMAX en jeu, cette attaque inflige 150 dégâts supplémentaires.",
+				fr: "Si votre adversaire a au moins un Pokémon-VMAX en jeu, cette attaque inflige 150 dégâts supplémentaires.",
 				es: "Si tu rival tiene algún Pokémon VMAX en juego, este ataque hace 150 puntos de daño más.",
 				it: "Se il tuo avversario ha dei Pokémon-VMAX in gioco, questo attacco infligge 150 danni in più.",
 				pt: "Se o seu oponente tiver algum Pokémon VMAX em jogo, este ataque causará 150 pontos de dano a mais.",

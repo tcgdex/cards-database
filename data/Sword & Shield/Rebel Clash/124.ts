@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Impidimp",
-		fr: "Grimalin"
+		fr: "Grimalin",
+		es: "Impidimp",
+		it: "Impidimp",
+		pt: "Impidimp",
+		de: "Bähmon"
 	},
 
 	attacks: [
@@ -53,7 +57,7 @@ const card: Card = {
 				de: "Kniefalltrick"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
+				en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 				es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 				it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
@@ -87,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it gets down on all fours as if to beg for forgiveness, it’s trying to lure opponents in so that it can stab them with its spear-like hair."
+		en: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair."
 	}
 }
 

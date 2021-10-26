@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Fletchling",
-		fr: "Passerouge"
+		fr: "Passerouge",
+		es: "Fletchling",
+		it: "Fletchling",
+		pt: "Fletchling",
+		de: "Dartiri"
 	},
 
 	attacks: [
@@ -40,7 +44,7 @@ const card: Card = {
 				de: "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",

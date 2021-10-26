@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
+		es: "Gastly",
+		it: "Gastly",
+		pt: "Gastly",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -42,7 +46,7 @@ const card: Card = {
 				de: "Nachtmahr"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
@@ -97,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
-	}
+	},
+
+	dexId: [93]
 }
 
 export default card

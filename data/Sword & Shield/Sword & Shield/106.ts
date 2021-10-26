@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mudbray",
 		fr: "Tiboudet",
+		es: "Mudbray",
+		it: "Mudbray",
+		pt: "Mudbray",
+		de: "Pampuli"
 	},
 
 	stage: "Stage1",
@@ -45,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 120 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
 				es: "Lanza 2 monedas. Este ataque hace 120 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 120 pontos de dano para cada cara.",
@@ -74,8 +78,10 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Mud that hardens around a Mudsdale’s legs sets harder than stone. It’s so hard that it allows this Pokémon to scrap a truck with a single kick."
-	}
+		en: "Mud that hardens around a Mudsdale's legs sets harder than stone. It's so hard that it allows this Pokémon to scrap a truck with a single kick."
+	},
+
+	dexId: [750]
 }
 
 export default card

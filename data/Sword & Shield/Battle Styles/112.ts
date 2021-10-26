@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		es: "Spearow",
+		it: "Spearow",
+		pt: "Spearow",
+		de: "Habitak"
 	},
 
 	attacks: [{
@@ -61,7 +65,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Carrying food through Fearow’s territory is dangerous. It will snatch the food away from you in a flash!"
+		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!"
 	}
 }
 

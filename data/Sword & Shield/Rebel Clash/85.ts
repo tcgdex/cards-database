@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hattrem",
-		fr: "Chapotus"
+		fr: "Chapotus",
+		es: "Hattrem",
+		it: "Hattrem",
+		pt: "Hattrem",
+		de: "Brimano"
 	},
 
 	abilities: [
@@ -57,7 +61,7 @@ const card: Card = {
 				de: "Tropfender Groll"
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent’s Active Pokémon for each Pokémon in your discard pile.",
+				en: "Put 1 damage counter on your opponent's Active Pokémon for each Pokémon in your discard pile.",
 				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire pour chaque Pokémon dans votre pile de défausse.",
 				es: "Pon 1 contador de daño en el Pokémon Activo de tu rival por cada Pokémon en tu pila de descartes.",
 				it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario per ogni Pokémon nella tua pila degli scarti.",

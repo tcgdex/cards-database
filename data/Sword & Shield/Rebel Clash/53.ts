@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Arrokuda",
-		fr: "Embrochet"
+		fr: "Embrochet",
+		es: "Arrokuda",
+		it: "Arrokuda",
+		pt: "Arrokuda",
+		de: "Pikuda"
 	},
 
 	attacks: [
@@ -51,8 +55,8 @@ const card: Card = {
 				de: "Spiralstrahl"
 			},
 			effect: {
-				en: "Discard 2 Water Energy cards from your hand. If you don’t, this attack does nothing.",
-				fr: "Défaussez 2 cartes Énergie Water de votre main. Sinon, cette attaque ne fait rien.",
+				en: "Discard 2 Water Energy cards from your hand. If you don't, this attack does nothing.",
+				fr: "Défaussez 2 cartes Énergie Water de votre main. Sinon, cette attaque ne fait rien.",
 				es: "Descarta 2 cartas de Energía Water de tu mano. Si no lo haces, este ataque no hace nada.",
 				it: "Scarta due carte Energia Water che hai in mano. Se non lo fai, questo attacco non ha effetto.",
 				pt: "Descarte 2 cartas de Energia Water da sua mão. Se não fizer isto, este ataque não fará nada.",
@@ -85,7 +89,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon has a jaw that’s as sharp as a spear and as strong as steel. Apparently Barraskewda’s flesh is surprisingly tasty, too."
+		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
 	}
 }
 

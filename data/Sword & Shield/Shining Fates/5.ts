@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Attachez jusqu’à 2 cartes Énergie Grass de votre pile de défausse à vos Pokémon de Banc comme il vous plaît.",
+			fr: "Attachez jusqu'à 2 cartes Énergie Grass de votre pile de défausse à vos Pokémon de Banc comme il vous plaît.",
 			en: "Attach up to 2 Grass Energy cards from your discard pile to your Benched Pokémon in any way you like.",
 			es: "Une hasta 2 cartas de Energía Grass de tu pila de descartes a tus Pokémon en Banca de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon in panchina fino a due carte Energia Grass dalla tua pila degli scarti nel modo che preferisci.",

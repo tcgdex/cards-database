@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
 				es: "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
 				it: "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon.",
 				pt: "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",

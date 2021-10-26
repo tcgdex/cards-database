@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Bedrängen"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 				es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -66,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you played Piers from your hand during this turn, this attack does 90 more damage.",
-				fr: "Si vous avez joué Peterson de votre main pendant ce tour, cette attaque inflige 90 dégâts supplémentaires.",
+				fr: "Si vous avez joué Peterson de votre main pendant ce tour, cette attaque inflige 90 dégâts supplémentaires.",
 				es: "Si has jugado 1 carta de Nerio de tu mano durante este turno, este ataque hace 90 puntos de daño más.",
 				it: "Se hai giocato Ginepro dalla tua mano durante questo turno, questo attacco infligge 90 danni in più.",
 				pt: "Se você jogou Pietro da sua mão durante este turno, este ataque causará 90 pontos de dano a mais.",
@@ -97,7 +97,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "As halfhearted as this Pokémon’s kicks may seem, they pack enough power to shatter Conkeldurr’s concrete pillars."
+		en: "As halfhearted as this Pokémon's kicks may seem, they pack enough power to shatter Conkeldurr's concrete pillars."
 	}
 }
 

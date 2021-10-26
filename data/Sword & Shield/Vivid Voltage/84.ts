@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wooper",
-		fr: "Axoloto"
+		fr: "Axoloto",
+		es: "Wooper",
+		it: "Wooper",
+		pt: "Wooper",
+		de: "Felino"
 	},
 
 	attacks: [
@@ -60,7 +64,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have exactly 2, 4, or 6 Prize cards remaining, this attack does nothing.",
-				fr: "S’il vous reste exactement 2, 4 ou 6 cartes Récompense, cette attaque ne fait rien.",
+				fr: "S'il vous reste exactement 2, 4 ou 6 cartes Récompense, cette attaque ne fait rien.",
 				es: "Si te quedan exactamente 2, 4 o 6 cartas de Premio, este ataque no hace nada.",
 				it: "Se hai esattamente due, quattro o sei carte Premio rimanenti, questo attacco non ha effetto.",
 				pt: "Se você tiver exatamente 2, 4 ou 6 cartas de Prêmio restantes, este ataque não fará nada.",
@@ -91,7 +95,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It has an easygoing nature. It doesn’t care if it bumps its head on boats and boulders while swimming."
+		en: "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming."
 	}
 }
 

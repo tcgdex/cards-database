@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon has any Special Energy attached, this attack does 60 more damage.",
-				fr: "Si de l’Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
+				fr: "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
 				es: "Si este Pokémon tiene alguna Energía Especial unida a él, este ataque hace 60 puntos de daño más.",
 				it: "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 60 danni in più.",
 				pt: "Se este Pokémon tiver alguma Energia Especial ligada a ele, este ataque causará 60 pontos de dano a mais.",

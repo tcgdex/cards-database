@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "If your Benched Pokémon have any damage counters on them, this attack does 90 more damage.",
-			fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 90 dégâts supplémentaires.",
+			fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 90 dégâts supplémentaires.",
 			es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 90 puntos de daño más.",
 			it: "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 90 danni in più.",
 			pt: "If your Benched Pokémon have any damage counters on them, this attack does 90 more damage.",
@@ -62,7 +62,14 @@ const card: Card = {
 		cost: ["Water", "Fighting"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [780],
+
+	description: {
+		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

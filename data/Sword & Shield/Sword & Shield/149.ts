@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard the top 2 cards of your deck.",
-				fr: "Défaussez les 2 cartes du dessus de votre deck.",
+				fr: "Défaussez les 2 cartes du dessus de votre deck.",
 				es: "Descarta las 2 primeras cartas de tu baraja.",
 				it: "Scarta le prime due carte del tuo mazzo.",
 				pt: "Descarte as 2 cartas de cima do seu baralho.",
@@ -69,7 +69,9 @@ const card: Card = {
 
 	description: {
 		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below."
-	}
+	},
+
+	dexId: [780]
 }
 
 export default card

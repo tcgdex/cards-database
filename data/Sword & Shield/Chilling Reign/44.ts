@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kubfu",
-		fr: "Wushours"
+		fr: "Wushours",
+		es: "Kubfu",
+		it: "Kubfu",
+		pt: "Kubfu",
+		de: "Dakuma"
 	},
 
 	attacks: [{
@@ -48,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 30 damage for each of your Rapid Strike Pokémon in play.",
-			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Mille Poings en jeu.",
+			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Mille Poings en jeu.",
 			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fluido en juego.",
 			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Rapido in gioco.",
 			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fluido em jogo.",

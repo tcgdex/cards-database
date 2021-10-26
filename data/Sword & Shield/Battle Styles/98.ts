@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "If you have no cards in your hand, this attack does 90 more damage.",
-			fr: "Si vous n’avez aucune carte dans votre main, cette attaque inflige 90 dégâts supplémentaires.",
+			fr: "Si vous n'avez aucune carte dans votre main, cette attaque inflige 90 dégâts supplémentaires.",
 			es: "Si no tienes ninguna carta en tu mano, este ataque hace 90 puntos de daño más.",
 			it: "Se non hai carte in mano, questo attacco infligge 90 danni in più.",
 			pt: "Se você não tiver cartas na sua mão, este ataque causará 90 pontos de dano a mais.",

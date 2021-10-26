@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Vous pouvez attacher une carte Énergie Darkness de votre main à l’un de vos Pokémon de Banc.",
+			fr: "Vous pouvez attacher une carte Énergie Darkness de votre main à l'un de vos Pokémon de Banc.",
 			en: "You may attach a Darkness Energy card from your hand to 1 of your Benched Pokémon.",
 			es: "Puedes unir 1 carta de Energía Darkness de tu mano a 1 de tus Pokémon en Banca.",
 			it: "Puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Darkness dalla tua mano.",
@@ -51,8 +51,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-VMAX, cette attaque inflige 120 dégâts supplémentaires.",
-			en: "If your opponent’s Active Pokémon is a Pokémon VMAX, this attack does 120 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-VMAX, cette attaque inflige 120 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 120 more damage.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon VMAX, este ataque hace 120 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-VMAX, questo attacco infligge 120 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon VMAX, este ataque causará 120 pontos de dano a mais.",

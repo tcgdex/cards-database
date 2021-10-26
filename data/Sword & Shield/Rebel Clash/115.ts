@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Stunky",
-		fr: "Moufouette"
+		fr: "Moufouette",
+		es: "Stunky",
+		it: "Stunky",
+		pt: "Stunky",
+		de: "Skunkapuh"
 	},
 
 	attacks: [
@@ -54,7 +58,7 @@ const card: Card = {
 				de: "Giftring"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned. During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				en: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, the Defending Pokémon can't retreat.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -88,7 +92,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "In its belly, it reserves stinky fluid that it shoots from its tail during battle. As this Pokémon’s diet varies, so does the stench of its fluid."
+		en: "In its belly, it reserves stinky fluid that it shoots from its tail during battle. As this Pokémon's diet varies, so does the stench of its fluid."
 	}
 }
 

@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Blipbug",
 		fr: "Larvadar",
+		es: "Blipbug",
+		it: "Blipbug",
+		pt: "Blipbug",
+		de: "Sensect"
 	},
 
 	stage: "Stage1",
@@ -42,8 +46,8 @@ const card: Card = {
 				de: "Reflektor"
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 40 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				en: "During your opponent's next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 40 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 				es: "Durante el próximo turno de tu rival, los ataques hacen 40 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 				it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 40 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 40 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
@@ -89,7 +93,9 @@ const card: Card = {
 
 	description: {
 		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution."
-	}
+	},
+
+	dexId: [825]
 }
 
 export default card

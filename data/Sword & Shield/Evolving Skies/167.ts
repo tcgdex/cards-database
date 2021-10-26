@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Basic",
 	illustrator: "You Iribi",
-	suffix: "V",
 
 	abilities: [{
 		type: "Ability",
@@ -42,7 +41,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability, your turn ends.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie Grass, puis l’attacher à l’un de vos Pokémon. Mélangez ensuite votre deck. Si vous utilisez ce talent, votre tour se termine.",
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie Grass, puis l'attacher à l'un de vos Pokémon. Mélangez ensuite votre deck. Si vous utilisez ce talent, votre tour se termine.",
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía Grass y unirla a 1 de tus Pokémon. Después, baraja las cartas de tu baraja. Si usas esta habilidad, tu turno termina.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia Grass e assegnarla a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo. Se usi questa abilità, il tuo turno finisce.",
 			pt: "Once during your turn, you may search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability, your turn ends.",
@@ -62,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 60 more damage.",
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 60 dégâts supplémentaires.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
 			pt: "Flip a coin. If heads, this attack does 60 more damage.",
@@ -78,7 +77,10 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [470],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

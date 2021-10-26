@@ -23,7 +23,7 @@ const card: Card = {
 			en: "Ride of the High King",
 			fr: "Chevauchée Impériale",
 			es: "Paseo del Emperador",
-			it: "Cavalcata dell’Imperatore",
+			it: "Cavalcata dell'Imperatore",
 			pt: "Montaria do Rei Supremo",
 			de: "Ritt des Kaisers"
 		},
@@ -31,8 +31,8 @@ const card: Card = {
 		damage: "10+",
 
 		effect: {
-			en: "This attack does 30 more damage for each of your opponent’s Benched Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
+			en: "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
 			es: "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
 			it: "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
@@ -54,7 +54,7 @@ const card: Card = {
 
 		effect: {
 			en: "You may discard up to 2 Energy from this Pokémon. If you do, this attack does 120 more damage for each card you discarded in this way.",
-			fr: "Vous pouvez défausser jusqu’à 2 Énergies de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			fr: "Vous pouvez défausser jusqu'à 2 Énergies de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
 			es: "Puedes descartar hasta 2 Energías de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más por cada carta que hayas descartado de esta manera.",
 			it: "Puoi scartare fino a due Energie da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più per ogni carta che hai scartato in questo modo.",
 			pt: "Você pode descartar até 2 Energias deste Pokémon. Se fizer isto, este ataque causará 120 pontos de dano a mais para cada carta descartada desta forma.",
@@ -79,7 +79,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "Oswaldo KATO"
+	illustrator: "Oswaldo KATO",
+
+	evolveFrom: {
+		en: "Ice Rider Calyrex V",
+		fr: "Sylveroy Cavalier du Froid-V",
+		es: "Calyrex Jinete Glacial V",
+		it: "Calyrex Cavaliere Glaciale-V",
+		pt: "Calyrex Cavaleiro Glacial V",
+		de: "Schimmelreiter-Coronospa-V"
+	},
+
+	regulationMark: "E"
 }
 
 export default card

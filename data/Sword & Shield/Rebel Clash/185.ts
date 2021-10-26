@@ -28,8 +28,8 @@ const card: Card = {
 				de: ""
 			},
 			effect: {
-				en: "All of your Pokémon that have \"Falinks\" in their name take 20 less damage from your opponent’s attacks (after applying Weakness and Resistance).",
-				fr: "Tous vos Pokémon ayant « Hexadron » dans leur nom subissent 20 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance).",
+				en: "All of your Pokémon that have \"Falinks\" in their name take 20 less damage from your opponent's attacks (after applying Weakness and Resistance).",
+				fr: "Tous vos Pokémon ayant « Hexadron » dans leur nom subissent 20 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance).",
 				es: "",
 				it: "",
 				pt: "",
@@ -54,7 +54,7 @@ const card: Card = {
 				de: "Gigastoß"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t attack.",
+				en: "During your next turn, this Pokémon can't attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",

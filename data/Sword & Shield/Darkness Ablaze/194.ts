@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Salamence V",
-		fr: "Drattak-V"
+		fr: "Drattak-V",
+		es: "Salamence V",
+		it: "Salamence-V",
+		pt: "Salamence V",
+		de: "Brutalanda-V"
 	},
 
 	attacks: [
@@ -40,8 +44,8 @@ const card: Card = {
 				de: "Doppelschall"
 			},
 			effect: {
-				en: "This attack does 40 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 40 dégâts à 2 des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 40 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 40 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				es: "Este ataque hace 40 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Questo attacco infligge 40 danni a due dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Este ataque causa 40 pontos de dano a 2 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
@@ -65,7 +69,7 @@ const card: Card = {
 				de: "Dyna-Flügel"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t use Max Wings.",
+				en: "During your next turn, this Pokémon can't use Max Wings.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Ailomax.",
 				es: "Durante tu próximo turno, este Pokémon no puede usar Maxialas.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Ali Max.",
@@ -101,7 +105,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
 }
 
 export default card

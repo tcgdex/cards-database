@@ -33,8 +33,8 @@ const card: Card = {
 				de: "Letzter Schaufler"
 			},
 			effect: {
-				en: "If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, discard the top 2 cards of your opponent’s deck.",
-				fr: "Si ce Pokémon est mis K.O. par les dégâts d’une attaques d’un Pokémon de votre adversaire, défaussez les 2 cartes du dessus du deck de votre adversaire.",
+				en: "If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, discard the top 2 cards of your opponent's deck.",
+				fr: "Si ce Pokémon est mis K.O. par les dégâts d'une attaques d'un Pokémon de votre adversaire, défaussez les 2 cartes du dessus du deck de votre adversaire.",
 				es: "Si este Pokémon queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, descarta las 2 primeras cartas de la baraja de tu rival.",
 				it: "Se questo Pokémon viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, scarta le prime due carte del mazzo del tuo avversario.",
 				pt: "Se este Pokémon for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, descarte as 2 cartas de cima do baralho do seu oponente.",

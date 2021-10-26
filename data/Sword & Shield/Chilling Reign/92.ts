@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clobbopus",
-		fr: "Poulpaf"
+		fr: "Poulpaf",
+		es: "Clobbopus",
+		it: "Clobbopus",
+		pt: "Clobbopus",
+		de: "Klopptopus"
 	},
 
 	abilities: [{
@@ -37,7 +41,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, your opponent’s Active Pokémon’s Retreat Cost is ColorlessColorless more.",
+			en: "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
 			fr: "Tant que ce Pokémon est sur le Poste Actif, le Coût de Retraite du Pokémon Actif de votre adversaire est augmenté de ColorlessColorless.",
 			es: "Mientras este Pokémon esté en el Puesto Activo, el Coste de Retirada del Pokémon Activo de tu rival es de ColorlessColorless más.",
 			it: "Fintanto che questo Pokémon è in posizione attiva, il costo di ritirata del Pokémon attivo del tuo avversario aumenta di Colorless Colorless.",
@@ -58,7 +62,7 @@ const card: Card = {
 
 		effect: {
 			en: "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.",
-			fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si tienes la misma cantidad de cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más.",
 			it: "Se hai lo stesso numero di carte in mano del tuo avversario, questo attacco infligge 80 danni in più.",
 			pt: "Se você tiver o mesmo número de cartas na sua mão do que seu oponente, este ataque causará 80 pontos de dano a mais.",

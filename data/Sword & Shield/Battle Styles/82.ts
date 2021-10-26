@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Silicobra",
-		fr: "Dunaja"
+		fr: "Dunaja",
+		es: "Silicobra",
+		it: "Silicobra",
+		pt: "Silicobra",
+		de: "Salanga"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard the top 6 cards of your deck. This attack does 60 damage for each Fighting Energy card you discarded in this way.",
-			fr: "Défaussez les 6 cartes du dessus de votre deck. Cette attaque inflige 60 dégâts pour chaque carte Énergie Fighting défaussée de cette façon.",
+			fr: "Défaussez les 6 cartes du dessus de votre deck. Cette attaque inflige 60 dégâts pour chaque carte Énergie Fighting défaussée de cette façon.",
 			es: "Descarta las 6 primeras cartas de tu baraja. Este ataque hace 60 puntos de daño por cada carta de Energía Fighting que hayas descartado de esta manera.",
 			it: "Scarta le prime sei carte del tuo mazzo. Questo attacco infligge 60 danni per ogni carta Energia Fighting che hai scartato in questo modo.",
 			pt: "Descarte as 6 cartas de cima do seu baralho. Este ataque causa 60 pontos de dano para cada carta de Energia Fighting descartada desta forma.",
@@ -48,7 +52,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Skull Bash",
-			fr: "Coud’Krâne",
+			fr: "Coud'Krâne",
 			es: "Cabezazo",
 			it: "Capocciata",
 			pt: "Quebra-crânio",

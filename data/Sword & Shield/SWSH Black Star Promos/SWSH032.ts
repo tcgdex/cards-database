@@ -6,11 +6,15 @@ const card: Card = {
 
 	name: {
 		en: "Snorlax",
-		fr: "Ronflex"
+		fr: "Ronflex",
+		es: "Snorlax",
+		it: "Snorlax",
+		pt: "Snorlax",
+		de: "Relaxo"
 	},
 
 	illustrator: "Tika Matsuno",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Rolling Tackle",
-			fr: "Roulé-Boulé"
+			fr: "Roulé-Boulé",
+			es: "Placaje Giro",
+			it: "Rollazione",
+			pt: "Rolling Tackle",
+			de: "Rolltackle"
 		},
 
 		damage: 80,
@@ -26,7 +34,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Heavy Impact",
-			fr: "Gros Impact"
+			fr: "Gros Impact",
+			es: "Impacto Pesado",
+			it: "Impatto Pesante",
+			pt: "Heavy Impact",
+			de: "Schwerer Einschlag"
 		},
 
 		damage: 130,
@@ -38,7 +50,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	description: {
+		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+	},
+
+	stage: "Basic",
+	dexId: [143],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
+
+	regulationMark: "D"
 }
 
 export default card

@@ -33,7 +33,7 @@ const card: Card = {
 			fr: "Défaussez une Énergie de ce Pokémon.",
 			en: "Discard an Energy from this Pokémon.",
 			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un’Energia da questo Pokémon.",
+			it: "Scarta un'Energia da questo Pokémon.",
 			pt: "Descarte 1 Energia deste Pokémon.",
 			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has special pads on the backs of its feet, and one on its nose. Once it’s raring to fight, these pads radiate tremendous heat."
+		en: "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
 	}
 }
 

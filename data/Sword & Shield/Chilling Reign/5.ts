@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ledyba",
-		fr: "Coxy"
+		fr: "Coxy",
+		es: "Ledyba",
+		it: "Ledyba",
+		pt: "Ledyba",
+		de: "Ledyba"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
+			fr: "Piochez 2 cartes.",
 			es: "Roba 2 cartas.",
 			it: "Pesca due carte.",
 			pt: "Compre 2 cartas.",
@@ -48,7 +52,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Air Slash",
-			fr: "Lame d’Air",
+			fr: "Lame d'Air",
 			es: "Tajo Aéreo",
 			it: "Eterelama",
 			pt: "Golpe de Ar",
@@ -59,7 +63,7 @@ const card: Card = {
 			en: "Discard an Energy from this Pokémon.",
 			fr: "Défaussez une Énergie de ce Pokémon.",
 			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un’Energia da questo Pokémon.",
+			it: "Scarta un'Energia da questo Pokémon.",
 			pt: "Descarte 1 Energia deste Pokémon.",
 			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},

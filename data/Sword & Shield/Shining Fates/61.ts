@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Cette carte ajoute 70 PV au Zamazenta-V auquel elle est attachée.",
+		fr: "Cette carte ajoute 70 PV au Zamazenta-V auquel elle est attachée.",
 		en: "The Zamazenta V this card is attached to gets +70 HP.",
 		es: "El Zamazenta V al que esté unida esta carta obtiene 70 PS más.",
 		it: "Lo Zamazenta-V a cui è assegnata questa carta ha 70 PS in più.",

@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon also does 10 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 10 dégâts.",
+				fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
 				es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge anche 10 danni a se stesso.",
 				pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
@@ -68,8 +68,10 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It stands in grasslands, watching the sun’s descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
-	}
+		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
+	},
+
+	dexId: [874]
 }
 
 export default card

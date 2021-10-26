@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		es: "Eevee",
+		it: "Eevee",
+		pt: "Eevee",
+		de: "Evoli"
 	},
 
 	abilities: [
@@ -38,8 +42,8 @@ const card: Card = {
 				de: "Weißglühendes Erwachen"
 			},
 			effect: {
-				en: "If this Pokémon has a Memory Capsule attached, Grass Pokémon in play (both yours and your opponent’s) have no Abilities.",
-				fr: "Si une carte Capsule Mémoire est attachée à ce Pokémon, les Pokémon Grass en jeu (les vôtres et ceux de votre adversaire) n’ont pas de talent.",
+				en: "If this Pokémon has a Memory Capsule attached, Grass Pokémon in play (both yours and your opponent's) have no Abilities.",
+				fr: "Si une carte Capsule Mémoire est attachée à ce Pokémon, les Pokémon Grass en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
 				es: "Si este Pokémon tiene 1 Cápsula de Memoria unida a él, los Pokémon Grass en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
 				it: "Se questo Pokémon ha una carta Capsula della Memoria assegnata, i Pokémon Grass in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
 				pt: "Se este Pokémon tiver 1 Cápsula de Memória ligada a ele, Pokémon Grass em jogo (seus e do seu oponente) não terão Habilidades.",
@@ -89,7 +93,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Once it has stored up enough heat, this Pokémon’s body temperature can reach up to 1,700 degrees Fahrenheit."
+		en: "Once it has stored up enough heat, this Pokémon's body temperature can reach up to 1,700 degrees Fahrenheit."
 	}
 }
 

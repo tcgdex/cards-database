@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		es: "Pawniard",
+		it: "Pawniard",
+		pt: "Pawniard",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -43,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 more damage for each of your Benched Pawniard.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Scalpion sur votre Banc.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Scalpion sur votre Banc.",
 				es: "Este ataque hace 30 puntos de daño más por cada uno de tus Pawniard en Banca.",
 				it: "Questo attacco infligge 30 danni in più per ogni Pawniard nella tua panchina.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Pawniard no seu Banco.",
@@ -97,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found."
-	}
+	},
+
+	dexId: [625]
 }
 
 export default card

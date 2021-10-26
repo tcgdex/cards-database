@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		es: "Porygon",
+		it: "Porygon",
+		pt: "Porygon",
+		de: "Porygon"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 3 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
 			es: "Lanza 3 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 			it: "Lancia tre volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 			pt: "Jogue 3 moedas. Este ataque causa 30 pontos de dano para cada cara.",
@@ -65,7 +69,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Even though it doesn’t die in the vacuum of space, it can’t move around very well in zero gravity."
+		en: "Even though it doesn't die in the vacuum of space, it can't move around very well in zero gravity."
 	}
 }
 

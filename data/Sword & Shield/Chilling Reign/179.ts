@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Défaussez une carte de votre main. Dans ce cas, piochez 3 cartes.",
+			fr: "Défaussez une carte de votre main. Dans ce cas, piochez 3 cartes.",
 			en: "Discard a card from your hand. If you do, draw 3 cards.",
 			es: "Descarta 1 carta de tu mano. Si lo haces, roba 3 cartas.",
 			it: "Scarta una delle carte che hai in mano. Se lo fai, pesca tre carte.",
@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur sera mis K.O.",
-			en: "At the end of your opponent’s next turn, the Defending Pokémon will be Knocked Out.",
+			en: "At the end of your opponent's next turn, the Defending Pokémon will be Knocked Out.",
 			es: "Al final del próximo turno de tu rival, el Pokémon Defensor quedará Fuera de Combate.",
 			it: "Alla fine del prossimo turno del tuo avversario, il Pokémon difensore verrà messo KO.",
 			pt: "O Pokémon Defensor será Nocauteado no final do próximo turno do seu oponente.",

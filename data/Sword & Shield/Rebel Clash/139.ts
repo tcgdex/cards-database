@@ -24,9 +24,9 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Stream",
-				fr: "Courant d’Énergie",
+				fr: "Courant d'Énergie",
 				es: "Torrente de Energía",
-				it: "Getto d’Energia",
+				it: "Getto d'Energia",
 				pt: "Fluxo de Energia",
 				de: "Energiestrom"
 			},
@@ -57,7 +57,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard 2 Energy from this Pokémon.",
-				fr: "Lancez une pièce. Si c’est pile, défaussez 2 Énergies de ce Pokémon.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies de ce Pokémon.",
 				es: "Lanza 1 moneda. Si sale cruz, descarta 2 Energías de este Pokémon.",
 				it: "Lancia una moneta. Se esce croce, scarta due Energie da questo Pokémon.",
 				pt: "Jogue 1 moeda. Se sair coroa, descarte 2 Energias deste Pokémon.",

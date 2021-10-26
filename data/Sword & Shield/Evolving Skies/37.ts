@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
 			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 			pt: "Flip 3 coins. This attack does 10 damage for each heads.",
@@ -55,7 +55,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+	},
+
+	dexId: [349],
+	regulationMark: "E"
 }
 
 export default card

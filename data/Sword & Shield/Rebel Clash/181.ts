@@ -31,7 +31,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Lightning Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu’à 2 cartes Énergie Lightning, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
+				fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie Lightning, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 more damage for each Lightning Energy attached to all of your Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Lightning attachée à tous vos Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Lightning attachée à tous vos Pokémon.",
 				es: "Este ataque hace 30 puntos de daño más por cada Energía Lightning unida a todos tus Pokémon.",
 				it: "Questo attacco infligge 30 danni in più per ogni Energia Lightning assegnata ai tuoi Pokémon.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Lightning ligada a todos os seus Pokémon.",

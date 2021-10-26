@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "You may attach a Fire Energy card from your hand to this Pokémon.",
-			fr: "Vous pouvez attacher une carte Énergie Fire de votre main à ce Pokémon.",
+			fr: "Vous pouvez attacher une carte Énergie Fire de votre main à ce Pokémon.",
 			es: "Puedes unir 1 carta de Energía Fire de tu mano a este Pokémon.",
 			it: "Puoi assegnare a questo Pokémon una carta Energia Fire dalla tua mano.",
 			pt: "Você pode ligar 1 carta de Energia Fire da sua mão a este Pokémon.",
@@ -51,7 +51,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Burned.",
+			en: "Your opponent's Active Pokémon is now Burned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",

@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Basic",
 	illustrator: "MUGENUP",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -40,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
 			pt: "Heal 30 damage from this Pokémon.",
@@ -60,11 +59,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent’s hand.",
+			en: "Discard a random card from your opponent's hand.",
 			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
 			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
 			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Discard a random card from your opponent’s hand.",
+			pt: "Discard a random card from your opponent's hand.",
 			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -77,7 +76,10 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [709],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

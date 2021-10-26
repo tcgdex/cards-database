@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gossifleur",
 		fr: "Tournicoton",
+		es: "Gossifleur",
+		it: "Gossifleur",
+		pt: "Gossifleur",
+		de: "Cottini"
 	},
 
 	stage: "Stage1",
@@ -43,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu’à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
+				fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja hasta 3 cartas de Energía Grass y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a tre carte Energia Grass e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 3 cartas de Energia Grass no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
@@ -88,7 +92,9 @@ const card: Card = {
 
 	description: {
 		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
-	}
+	},
+
+	dexId: [830]
 }
 
 export default card

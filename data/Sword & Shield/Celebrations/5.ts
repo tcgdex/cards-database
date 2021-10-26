@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin. If tails, this Pokémon also does 10 damage to itself.",
-			fr: "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige aussi 10 dégâts.",
+			fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige aussi 10 dégâts.",
 			es: "Lanza 1 moneda. Si sale cruz, este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			it: "Lancia una moneta. Se esce croce, questo Pokémon infligge anche 10 danni a se stesso.",
 			pt: "Jogue 1 moeda. Se sair coroa, este Pokémon também causará 10 pontos de dano a si mesmo.",
@@ -67,7 +67,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "E"
 }
 
 export default card

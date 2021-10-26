@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Malamar V",
-		fr: "Sepiatroce-V"
+		fr: "Sepiatroce-V",
+		es: "Malamar V",
+		it: "Malamar-V",
+		pt: "Malamar V",
+		de: "Calamanero-V"
 	},
 
 	attacks: [
@@ -68,7 +72,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
 }
 
 export default card

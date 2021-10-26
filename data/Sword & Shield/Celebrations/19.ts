@@ -30,7 +30,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Cry of Destruction",
-			fr: "Cri d’Annihilation",
+			fr: "Cri d'Annihilation",
 			es: "Alaridos de Destrucción",
 			it: "Grido della Distruzione",
 			pt: "Grito da Destruição",
@@ -38,8 +38,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard up to 3 Special Energy from your opponent’s Pokémon.",
-			fr: "Défaussez jusqu’à 3 Énergies spéciales des Pokémon de votre adversaire.",
+			en: "Discard up to 3 Special Energy from your opponent's Pokémon.",
+			fr: "Défaussez jusqu'à 3 Énergies spéciales des Pokémon de votre adversaire.",
 			es: "Descarta hasta 3 Energías Especiales de los Pokémon de tu rival.",
 			it: "Scarta fino a tre Energie speciali dai Pokémon del tuo avversario.",
 			pt: "Descarte até 3 Energias Especiais dos Pokémon do seu oponente.",
@@ -71,7 +71,8 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "E"
 }
 
 export default card

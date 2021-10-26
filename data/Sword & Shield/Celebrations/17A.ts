@@ -23,7 +23,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "You can’t have more than 1 Pokémon★ in your deck."
+			en: "You can't have more than 1 Pokémon★ in your deck."
 		}
 	}],
 
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon."
+			en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon."
 		},
 
 		cost: ["Darkness", "Darkness"]

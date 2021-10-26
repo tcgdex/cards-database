@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Aegislash V",
-		fr: "Exagide-V"
+		fr: "Exagide-V",
+		es: "Aegislash V",
+		it: "Aegislash-V",
+		pt: "Aegislash V",
+		de: "Durengard-V"
 	},
 
 	attacks: [
@@ -43,7 +47,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 more damage for each Prize card you have taken.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
 				es: "Este ataque hace 30 puntos de daño más por cada carta de Premio que hayas cogido.",
 				it: "Questo attacco infligge 30 danni in più per ogni carta Premio che hai preso.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada carta de Prêmio que você pegou.",
@@ -78,7 +82,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
 }
 
 export default card

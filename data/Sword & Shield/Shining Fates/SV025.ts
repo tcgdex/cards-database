@@ -25,7 +25,7 @@ const card: Card = {
 			en: "Water Gun",
 			es: "Pistola Agua",
 			it: "Pistolacqua",
-			pt: "Revólver d’Água",
+			pt: "Revólver d'Água",
 			de: "Aquaknarre"
 		},
 
@@ -43,7 +43,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping."
+		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	}
 }
 

@@ -58,7 +58,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+	},
+
+	dexId: [318],
+	regulationMark: "E"
 }
 
 export default card

@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon gets +20 HP for each Metal Energy attached to it.",
-				fr: "Chaque Énergie Metal attachée à ce Pokémon lui ajoute 20 PV.",
+				fr: "Chaque Énergie Metal attachée à ce Pokémon lui ajoute 20 PV.",
 				es: "Este Pokémon obtiene 20 PS más por cada Energía Metal unida a él.",
 				it: "Questo Pokémon ha 20 PS in più per ogni Energia Metal a esso assegnata.",
 				pt: "Este Pokémon recebe 20 PS a mais para cada Energia Metal ligada a ele.",
@@ -58,8 +58,8 @@ const card: Card = {
 				de: "Fangbiss"
 			},
 			effect: {
-				en: "During your opponent’s next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.",
-				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d’une attaque (même s’il est mis K.O.), placez 12 marqueurs de dégâts sur le Pokémon Attaquant.",
+				en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.",
+				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même s'il est mis K.O.), placez 12 marqueurs de dégâts sur le Pokémon Attaquant.",
 				es: "Durante el próximo turno de tu rival, si este Pokémon resulta dañado por un ataque (incluso si queda Fuera de Combate), pon 12 contadores de daño en el Pokémon Atacante.",
 				it: "Durante il prossimo turno del tuo avversario, se questo Pokémon viene danneggiato da un attacco, anche se viene messo KO, metti 12 segnalini danno sul Pokémon attaccante.",
 				pt: "Durante o próximo turno do seu oponente, se este Pokémon for danificado por um ataque (mesmo que ele seja Nocauteado), coloque 12 contadores de dano no Pokémon Atacante.",

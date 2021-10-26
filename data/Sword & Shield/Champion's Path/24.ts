@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
 				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups."
+		en: "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups."
 	}
 }
 

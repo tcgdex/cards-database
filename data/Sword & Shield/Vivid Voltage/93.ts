@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have more Prize cards remaining than your opponent, this attack does 80 more damage.",
-				fr: "S’il vous reste plus de cartes Récompense qu’à votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+				fr: "S'il vous reste plus de cartes Récompense qu'à votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
 				es: "Si te quedan más cartas de Premio que a tu rival, este ataque hace 80 puntos de daño más.",
 				it: "Se hai più carte Premio rimanenti del tuo avversario, questo attacco infligge 80 danni in più.",
 				pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, este ataque causará 80 pontos de dano a mais.",
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Born when all of Zygarde’s cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
+		en: "Born when all of Zygarde's cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
 	}
 }
 

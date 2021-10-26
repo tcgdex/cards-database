@@ -31,7 +31,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 30 damage from each of your Pokémon.",
-				fr: "Soignez 30 dégâts de chacun de vos Pokémon.",
+				fr: "Soignez 30 dégâts de chacun de vos Pokémon.",
 				es: "Cura 30 puntos de daño a cada uno de tus Pokémon.",
 				it: "Cura ciascuno dei tuoi Pokémon da 30 danni.",
 				pt: "Cure 30 pontos de dano de cada um dos seus Pokémon.",
@@ -53,7 +53,7 @@ const card: Card = {
 				de: "Psystrahl"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",
