@@ -11,9 +11,9 @@
 	},
 	"devDependencies": {
 		"@types/jscodeshift": "^0.11.2",
-		"@types/node": "^16.11.1",
+		"@types/node": "^16.11.5",
 		"jscodeshift": "^0.13.0",
-		"ts-node": "^10.3.0",
+		"ts-node": "^10.4.0",
 		"typescript": "^4.4.4"
 	}
 }
