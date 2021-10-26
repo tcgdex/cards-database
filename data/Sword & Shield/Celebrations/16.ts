@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -79,7 +79,8 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+	dexId: [888]
 }
 
 export default card

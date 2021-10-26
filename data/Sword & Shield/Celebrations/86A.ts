@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	effect: {

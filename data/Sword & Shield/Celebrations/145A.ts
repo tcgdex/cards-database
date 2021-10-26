@@ -5,11 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Garchomp  LV. X C"
+		en: "Garchomp C LV.X"
 	},
 
 	illustrator: "Shizurow",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
@@ -44,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	suffix: "SP"
 }
 
 export default card

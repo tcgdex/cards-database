@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fire"],
@@ -38,7 +38,23 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	description: {
+		en: "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires."
+	},
+
+	abilities: [{
+		type: "Pokemon Power",
+
+		name: {
+			en: "Energy Burn"
+		},
+
+		effect: {
+			en: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
+		}
+	}]
 }
 
 export default card

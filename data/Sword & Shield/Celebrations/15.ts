@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -66,7 +66,7 @@ const card: Card = {
 			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
-		damage: "130",
+		damage: 130,
 		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
@@ -91,7 +91,13 @@ const card: Card = {
 		de: "Cosmovum"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds."
+	},
+
+	dexId: [792]
 }
 
 export default card

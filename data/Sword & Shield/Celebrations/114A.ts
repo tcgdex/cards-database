@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
@@ -44,7 +44,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
+	}
 }
 
 export default card

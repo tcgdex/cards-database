@@ -78,7 +78,13 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology."
+	},
+
+	dexId: [484]
 }
 
 export default card

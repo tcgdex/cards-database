@@ -9,9 +9,13 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Trainer",
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+
+	effect: {
+		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards."
+	}
 }
 
 export default card

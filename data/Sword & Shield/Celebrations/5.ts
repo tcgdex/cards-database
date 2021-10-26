@@ -37,7 +37,7 @@ const card: Card = {
 			de: "Nagen"
 		},
 
-		damage: "10",
+		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
@@ -58,7 +58,7 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Zahl fügt dieses Pokémon auch sich selbst 10 Schadenspunkte zu."
 		},
 
-		damage: "30",
+		damage: 30,
 		cost: ["Lightning", "Colorless"]
 	}],
 
@@ -68,7 +68,13 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
+	},
+
+	dexId: [25]
 }
 
 export default card
