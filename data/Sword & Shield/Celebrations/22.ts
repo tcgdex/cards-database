@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -67,7 +67,7 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
-		damage: "160",
+		damage: 160,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"]
 	}],
 
@@ -82,7 +82,13 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+	},
+
+	dexId: [249]
 }
 
 export default card

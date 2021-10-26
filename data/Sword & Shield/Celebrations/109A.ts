@@ -5,11 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luxray  LV. X GL"
+		en: "Luxray GL LV.X"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Lightning"],
@@ -50,7 +50,8 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	suffix: "SP"
 }
 
 export default card

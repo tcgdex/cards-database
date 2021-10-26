@@ -7,17 +7,17 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
 	name: {
 		en: "Professor's Research (Professor Oak)",
-		fr: "Recherches Professorales",
-		es: "Investigación de Profesores",
-		it: "Ricerca Accademica",
+		fr: "Recherches Professorales (Professeur Chen)",
+		es: "Investigación de Profesores (Profesor Oak)",
+		it: "Ricerca Accademica (Professor Oak)",
 		pt: "Pesquisa de Professores",
-		de: "Forschung des Professors"
+		de: "Forschung des Professors (Prof. Eich)"
 	},
 
 	rarity: "Rare",

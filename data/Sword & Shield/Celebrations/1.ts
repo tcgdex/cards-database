@@ -66,7 +66,7 @@ const card: Card = {
 			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
-		damage: "120",
+		damage: 120,
 		cost: ["Fire", "Fire", "Colorless"]
 	}],
 
@@ -81,7 +81,13 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings."
+	},
+
+	dexId: [250]
 }
 
 export default card

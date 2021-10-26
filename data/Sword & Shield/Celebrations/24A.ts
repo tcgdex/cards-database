@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Lightning"],
@@ -33,7 +33,11 @@ const card: Card = {
 		value: ""
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Your Birthdate: ______________________________"
+	}
 }
 
 export default card

@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -59,7 +59,7 @@ const card: Card = {
 			de: "Psychoschuss"
 		},
 
-		damage: "30",
+		damage: 30,
 		cost: ["Psychic", "Colorless"]
 	}],
 
@@ -74,7 +74,13 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques."
+	},
+
+	dexId: [151]
 }
 
 export default card

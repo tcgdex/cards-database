@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -38,7 +38,23 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "Normally found only in the deep ocean, it has recently been seen in shallow waters as well."
+	},
+
+	abilities: [{
+		type: "Pokemon Power",
+
+		name: {
+			en: "Final Beam"
+		},
+
+		effect: {
+			en: "When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each Water Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed."
+		}
+	}]
 }
 
 export default card

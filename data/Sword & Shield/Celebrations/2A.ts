@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
@@ -33,7 +33,23 @@ const card: Card = {
 		value: ""
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	description: {
+		en: "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles."
+	},
+
+	abilities: [{
+		type: "Pokemon Power",
+
+		name: {
+			en: "Rain Dance"
+		},
+
+		effect: {
+			en: "As often as you like during your turn (before your attack), you may attach 1 Water Energy card to 1 of your Water Pokémon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
+		}
+	}]
 }
 
 export default card

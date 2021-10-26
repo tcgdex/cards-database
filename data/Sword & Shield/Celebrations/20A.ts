@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Colorless"],
@@ -27,7 +27,11 @@ const card: Card = {
 		cost: ["Colorless"]
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
+	}
 }
 
 export default card

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Water"],
@@ -42,7 +42,11 @@ const card: Card = {
 		value: ""
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet."
+	}
 }
 
 export default card

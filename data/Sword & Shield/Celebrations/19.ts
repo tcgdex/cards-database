@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -57,7 +57,7 @@ const card: Card = {
 			de: "Dunkelfeder"
 		},
 
-		damage: "100",
+		damage: 100,
 		cost: ["Darkness", "Colorless", "Colorless"]
 	}],
 
@@ -72,7 +72,13 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+	},
+
+	dexId: [717]
 }
 
 export default card
