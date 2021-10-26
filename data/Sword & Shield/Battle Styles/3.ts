@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weepinbell",
-		fr: "Boustiflor"
+		fr: "Boustiflor",
+		es: "Weepinbell",
+		it: "Weepinbell",
+		pt: "Weepinbell",
+		de: "Ultrigaria"
 	},
 
 	attacks: [{
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Confused. During your opponent’s next turn, that Pokémon can’t retreat.",
+			en: "Your opponent's Active Pokémon is now Confused. During your opponent's next turn, that Pokémon can't retreat.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
@@ -77,7 +81,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Once ingested into this Pokémon’s body, even the hardest object will melt into nothing."
+		en: "Once ingested into this Pokémon's body, even the hardest object will melt into nothing."
 	}
 }
 

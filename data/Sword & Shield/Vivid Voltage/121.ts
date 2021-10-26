@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach up to 2 Metal Energy cards from your discard pile to 1 of your Pokémon.",
-				fr: "Attachez jusqu’à 2 cartes Énergie Metal de votre pile de défausse à l’un de vos Pokémon.",
+				fr: "Attachez jusqu'à 2 cartes Énergie Metal de votre pile de défausse à l'un de vos Pokémon.",
 				es: "Une hasta 2 cartas de Energía Metal de tu pila de descartes a 1 de tus Pokémon.",
 				it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia Metal dalla tua pila degli scarti.",
 				pt: "Ligue até 2 cartas de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon.",
@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon.",
 				es: "Descarta 2 Energías de este Pokémon.",
 				it: "Scarta due Energie da questo Pokémon.",
 				pt: "Descarte 2 Energias deste Pokémon.",

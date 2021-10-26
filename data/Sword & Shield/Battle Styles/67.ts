@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		es: "Mankey",
+		it: "Mankey",
+		pt: "Mankey",
+		de: "Menki"
 	},
 
 	attacks: [{
@@ -47,7 +51,7 @@ const card: Card = {
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Steamin’ Mad Strike",
+			en: "Steamin' Mad Strike",
 			fr: "Poing Furibond",
 			es: "Golpe Enfurecimiento",
 			it: "Colpo Escandescenza",
@@ -57,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 50 damage for each of your Benched Pokémon that has any damage counters on it.",
-			fr: "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon de Banc ayant au moins un marqueur de dégâts.",
+			fr: "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon de Banc ayant au moins un marqueur de dégâts.",
 			es: "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon en Banca que tenga algún contador de daño sobre él.",
 			it: "Questo attacco infligge 50 danni per ogni Pokémon nella tua panchina che ha dei segnalini danno.",
 			pt: "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon no Banco que tiver algum contador de dano nele.",

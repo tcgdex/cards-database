@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Honedge",
-		fr: "Monorpale"
+		fr: "Monorpale",
+		es: "Honedge",
+		it: "Honedge",
+		pt: "Honedge",
+		de: "Gramokles"
 	},
 
 	attacks: [
@@ -55,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
 				es: "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 80 pontos de dano para cada cara.",

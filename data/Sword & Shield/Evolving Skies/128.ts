@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Reveal any number of basic Energy cards from your hand. This attack does 30 more damage for each type of basic Energy you revealed in this way.",
-			fr: "Montrez autant de cartes Énergie de base que vous le voulez de votre main. Cette attaque inflige 30 dégâts supplémentaires pour chaque type d’Énergie de base montrée de cette façon.",
+			fr: "Montrez autant de cartes Énergie de base que vous le voulez de votre main. Cette attaque inflige 30 dégâts supplémentaires pour chaque type d'Énergie de base montrée de cette façon.",
 			es: "Enseña cualquier cantidad de cartas de Energía Básica de tu mano. Este ataque hace 30 puntos de daño más por cada tipo de Energía Básica que hayas enseñado de esta manera.",
 			it: "Mostra un numero qualsiasi di carte Energia base che hai in mano. Questo attacco infligge 30 danni in più per ogni tipo di Energia base che hai mostrato in questo modo.",
 			pt: "Reveal any number of basic Energy cards from your hand. This attack does 30 more damage for each type of basic Energy you revealed in this way.",
@@ -55,7 +55,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [235],
+
+	description: {
+		en: "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

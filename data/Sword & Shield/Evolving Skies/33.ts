@@ -32,7 +32,7 @@ const card: Card = {
 			en: "Wave Splash",
 			fr: "Grosse Vague",
 			es: "Chapoteo Ondulante",
-			it: "Schizzi d’Onda",
+			it: "Schizzi d'Onda",
 			pt: "Wave Splash",
 			de: "Wellenplatscher"
 		},
@@ -46,7 +46,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	evolveFrom: {
+		en: "Lotad",
+		fr: "Nénupiot",
+		es: "Lotad",
+		it: "Lotad",
+		pt: "Lotad",
+		de: "Loturzel"
+	},
+
+	description: {
+		en: "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night."
+	},
+
+	dexId: [271],
+	regulationMark: "E"
 }
 
 export default card

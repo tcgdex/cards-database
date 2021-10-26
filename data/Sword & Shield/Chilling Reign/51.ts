@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Blitzle",
-		fr: "Zébibron"
+		fr: "Zébibron",
+		es: "Blitzle",
+		it: "Blitzle",
+		pt: "Blitzle",
+		de: "Elezeba"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "If 1 of your other Rapid Strike Pokémon used an attack during your last turn, this attack does 90 more damage.",
-			fr: "Si l’un de vos autres Pokémon Mille Poings a utilisé une attaque pendant votre dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
+			fr: "Si l'un de vos autres Pokémon Mille Poings a utilisé une attaque pendant votre dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
 			es: "Si 1 de tus otros Pokémon Golpe Fluido usó un ataque durante tu último turno, este ataque hace 90 puntos de daño más.",
 			it: "Se uno dei tuoi altri Pokémon Colpo Rapido ha usato un attacco durante il tuo ultimo turno, questo attacco infligge 90 danni in più.",
 			pt: "Se 1 dos seus outros Pokémon Golpe Fluido usou um ataque durante o seu último turno, este ataque causará 90 pontos de dano a mais.",
@@ -57,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin until you get tails. This attack does 90 damage for each heads.",
-			fr: "Lancez une pièce jusqu’à obtenir un côté pile. Cette attaque inflige 90 dégâts pour chaque côté face.",
+			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 90 dégâts pour chaque côté face.",
 			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 90 puntos de daño por cada cara.",
 			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 90 danni ogni volta che esce testa.",
 			pt: "Jogue 1 moeda até sair coroa. Este ataque causa 90 pontos de dano para cada cara.",

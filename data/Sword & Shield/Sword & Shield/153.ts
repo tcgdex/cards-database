@@ -48,7 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d’Boule",
+				fr: "Coup d'Boule",
 				es: "Golpe Cabeza",
 				it: "Bottintesta",
 				pt: "Cabeçada",
@@ -79,7 +79,9 @@ const card: Card = {
 
 	description: {
 		en: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed."
-	}
+	},
+
+	dexId: [831]
 }
 
 export default card

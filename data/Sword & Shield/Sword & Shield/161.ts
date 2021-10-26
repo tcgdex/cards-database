@@ -4,7 +4,7 @@ import Set from '../Sword & Shield'
 const card: Card = {
 	name: {
 		en: "Energy Search",
-		fr: "Recherche d’Énergie",
+		fr: "Recherche d'Énergie",
 		es: "Búsqueda de Energía",
 		it: "Ricerca di Energia",
 		pt: "Busca de Energia",

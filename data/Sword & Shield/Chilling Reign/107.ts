@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Whirlipede",
-		fr: "Scobolide"
+		fr: "Scobolide",
+		es: "Whirlipede",
+		it: "Whirlipede",
+		pt: "Whirlipede",
+		de: "Rollum"
 	},
 
 	attacks: [{
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned.",
+			en: "Your opponent's Active Pokémon is now Poisoned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
@@ -56,8 +60,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon is Poisoned, this attack does 120 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 120 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon is Poisoned, this attack does 120 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 120 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 120 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 120 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 120 pontos de dano a mais.",

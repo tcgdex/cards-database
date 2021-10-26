@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "Flip 2 coins. If both are heads, put a card from your discard pile into your hand.",
-		fr: "Lancez 2 pièces. Si les deux sont face, ajoutez une carte de votre pile de défausse à votre main.",
+		fr: "Lancez 2 pièces. Si les deux sont face, ajoutez une carte de votre pile de défausse à votre main.",
 		es: "Lanza 2 monedas. Si ambas son cara, pon 1 carta de tu pila de descartes en tu mano.",
 		it: "Lancia due volte una moneta. Se esce entrambe le volte testa, prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
 		pt: "Jogue 2 moedas. Se ambas saírem cara, coloque 1 carta da sua pilha de descarte na sua mão.",

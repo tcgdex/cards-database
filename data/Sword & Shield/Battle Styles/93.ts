@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It searches for shiny things for its boss. Murkrow’s presence is said to be unlucky, so many people detest it."
+		en: "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it."
 	}
 }
 

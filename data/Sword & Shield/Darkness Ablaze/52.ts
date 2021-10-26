@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mareanie",
-		fr: "Vorastérie"
+		fr: "Vorastérie",
+		es: "Mareanie",
+		it: "Mareanie",
+		pt: "Mareanie",
+		de: "Garstella"
 	},
 
 	attacks: [
@@ -43,7 +47,7 @@ const card: Card = {
 				en: "Discard an Energy from this Pokémon and heal all damage from it.",
 				fr: "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon.",
 				es: "Descarta 1 Energía de este Pokémon y cura todos sus puntos de daño.",
-				it: "Scarta un’Energia da questo Pokémon e curalo da tutti i danni.",
+				it: "Scarta un'Energia da questo Pokémon e curalo da tutti i danni.",
 				pt: "Descarte 1 Energia deste Pokémon e cure todo o dano dele.",
 				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel und heile bei ihm allen Schaden."
 			},
@@ -64,7 +68,7 @@ const card: Card = {
 				de: "Giftpeitsche"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				en: "Your opponent's Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",

@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -80,7 +80,14 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "E",
+
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
+	},
+
+	dexId: [483]
 }
 
 export default card

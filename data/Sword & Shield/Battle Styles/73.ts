@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras’Face",
+			fr: "Écras'Face",
 			es: "Destructor",
 			it: "Botta",
 			pt: "Pancada",

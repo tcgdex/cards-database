@@ -32,8 +32,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon, put 6 damage counters on the Attacking Pokémon.",
-			fr: "Si ce Pokémon est sur le Poste Actif et est mis K.O. par les dégâts d’une attaque d’un Pokémon de votre adversaire, placez 6 marqueurs de dégâts sur le Pokémon Attaquant.",
+			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, put 6 damage counters on the Attacking Pokémon.",
+			fr: "Si ce Pokémon est sur le Poste Actif et est mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire, placez 6 marqueurs de dégâts sur le Pokémon Attaquant.",
 			es: "Si este Pokémon está en el Puesto Activo y queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, pon 6 contadores de daño en el Pokémon Atacante.",
 			it: "Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, metti sei segnalini danno sul Pokémon attaccante.",
 			pt: "Se este Pokémon estiver no Campo Ativo e for Nocauteado pelo dano de um ataque do Pokémon do seu oponente, coloque 6 contadores de dano no Pokémon Atacante.",
@@ -52,7 +52,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned.",
+			en: "Your opponent's Active Pokémon is now Poisoned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",

@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ce Pokémon s’inflige aussi 60 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 60 dégâts.",
 			en: "This Pokémon also does 60 damage to itself.",
 			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When Reshiram’s tail flares, the heat energy moves the atmosphere and changes the world’s weather."
+		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
 	}
 }
 

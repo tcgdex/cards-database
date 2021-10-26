@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
-			fr: "Cette attaque inflige 60 dégâts pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			en: "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+			fr: "Cette attaque inflige 60 dégâts pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
 			es: "Este ataque hace 60 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 60 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			pt: "This attack does 60 damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
+			pt: "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
 			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 60 Schadenspunkte zu."
 		},
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
 			pt: "Heal 30 damage from this Pokémon.",
@@ -76,7 +76,20 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Leafeon V",
+		fr: "Phyllali-V",
+		es: "Leafeon V",
+		it: "Leafeon-V",
+		pt: "Leafeon V",
+		de: "Folipurba-V"
+	},
+
+	dexId: [470],
+	regulationMark: "E",
+
 }
 
 export default card

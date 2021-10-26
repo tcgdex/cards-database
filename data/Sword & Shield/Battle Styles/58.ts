@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Baltoy",
-		fr: "Balbuto"
+		fr: "Balbuto",
+		es: "Baltoy",
+		it: "Baltoy",
+		pt: "Baltoy",
+		de: "Puppance"
 	},
 
 	attacks: [{
@@ -35,8 +39,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Attach Psychic Energy cards from your discard pile to your Pokémon in any way you like until your Pokémon and your opponent’s Pokémon have the same total amount of Energy attached.",
-			fr: "Attachez des cartes Énergie Psychic de votre pile de défausse à vos Pokémon comme il vous plaît, jusqu’à ce que vos Pokémon et ceux de votre adversaire aient la même quantité d’Énergie attachée.",
+			en: "Attach Psychic Energy cards from your discard pile to your Pokémon in any way you like until your Pokémon and your opponent's Pokémon have the same total amount of Energy attached.",
+			fr: "Attachez des cartes Énergie Psychic de votre pile de défausse à vos Pokémon comme il vous plaît, jusqu'à ce que vos Pokémon et ceux de votre adversaire aient la même quantité d'Énergie attachée.",
 			es: "Une cartas de Energía Psychic de tu pila de descartes a tus Pokémon de la manera que desees hasta que tus Pokémon y los Pokémon de tu rival tengan la misma cantidad total de Energías unidas a ellos.",
 			it: "Assegna ai tuoi Pokémon delle carte Energia Psychic dalla tua pila degli scarti nel modo che preferisci finché i tuoi Pokémon e quelli del tuo avversario non hanno lo stesso numero totale di Energie assegnate.",
 			pt: "Ligue cartas de Energia Psychic da sua pilha de descarte aos seus Pokémon como desejar até que seus Pokémon e os Pokémon do seu oponente tenham a mesma quantidade total de Energia ligada a eles.",

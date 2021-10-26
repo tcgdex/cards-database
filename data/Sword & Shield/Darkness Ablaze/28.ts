@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Darumaka",
-		fr: "Darumarond de Galar"
+		fr: "Darumarond de Galar",
+		es: "Darumaka de Galar",
+		it: "Darumaka di Galar",
+		pt: "Darumaka de Galar",
+		de: "Galar-Flampion"
 	},
 
 	attacks: [
@@ -33,7 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d’Boule",
+				fr: "Coup d'Boule",
 				es: "Golpe Cabeza",
 				it: "Bottintesta",
 				pt: "Cabeçada",
@@ -59,7 +63,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard all Water Energy from this Pokémon. If you do, this attack does 60 more damage.",
-				fr: "Vous pouvez défausser toute l’Énergie Water attachée à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires.",
+				fr: "Vous pouvez défausser toute l'Énergie Water attachée à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires.",
 				es: "Puedes descartar todas las Energías Water de este Pokémon. Si lo haces, este ataque hace 60 puntos de daño más.",
 				it: "Puoi scartare tutte le Energie Water da questo Pokémon. Se lo fai, questo attacco infligge 60 danni in più.",
 				pt: "Você pode descartar todas as Energias Water deste Pokémon. Se fizer isto, este ataque causará 60 pontos de dano a mais.",

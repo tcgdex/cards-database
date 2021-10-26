@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -26,14 +26,13 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	hp: 220,
 	stage: "Basic",
-	suffix: "V",
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
 			en: "Roar of the Sword",
-			fr: "Hurlement de l’Épée",
+			fr: "Hurlement de l'Épée",
 			es: "Rugido de la Espada",
 			it: "Boato della Spada",
 			pt: "Rugido da Espada",
@@ -42,7 +41,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability, your turn ends.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie Psychic, puis l’attacher à l’un de vos Pokémon. Mélangez ensuite votre deck. Si vous utilisez ce talent, votre tour se termine.",
+			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie Psychic, puis l'attacher à l'un de vos Pokémon. Mélangez ensuite votre deck. Si vous utilisez ce talent, votre tour se termine.",
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía Psychic y unirla a 1 de tus Pokémon. Después, baraja las cartas de tu baraja. Si usas esta habilidad, tu turno termina.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia Psychic e assegnarla a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo. Se usi questa abilità, il tuo turno finisce.",
 			pt: "Uma vez durante o seu turno, você poderá procurar por 1 carta de Energia Psychic no seu baralho e ligá-la a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho. Se você usar esta Habilidade, o seu turno acabará.",
@@ -78,7 +77,10 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "E",
+	suffix: "V",
+	dexId: [888]
 }
 
 export default card

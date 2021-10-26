@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Piochez 3 cartes. Si vous avez pioché des cartes de cette façon, votre adversaire défausse ses Pokémon de Banc jusqu’à en avoir 3.",
+		fr: "Piochez 3 cartes. Si vous avez pioché des cartes de cette façon, votre adversaire défausse ses Pokémon de Banc jusqu'à en avoir 3.",
 		en: "Draw 3 cards. If you drew any cards in this way, your opponent discards Pokémon from their Bench until they have 3.",
 		es: "Roba 3 cartas. Si has robado alguna carta de esta manera, tu rival descarta Pokémon de su Banca hasta que tenga 3.",
 		it: "Pesca tre carte. Se hai pescato delle carte in questo modo, il tuo avversario scarta i Pokémon dalla sua panchina fino ad averne tre.",

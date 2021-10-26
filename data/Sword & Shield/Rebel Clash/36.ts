@@ -19,7 +19,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cinderace V",
-		fr: "Pyrobut-V"
+		fr: "Pyrobut-V",
+		es: "Cinderace V",
+		it: "Cinderace-V",
+		pt: "Cinderace V",
+		de: "Liberlo-V"
 	},
 
 	attacks: [
@@ -37,10 +41,10 @@ const card: Card = {
 				de: "Konter"
 			},
 			effect: {
-				en: "If this Pokémon was damaged by an attack during your opponent’s last turn, this attack does that much more damage.",
-				fr: "Si ce Pokémon a subi les dégâts d’une attaque pendant le dernier tour de votre adversaire, cette attaque inflige en plus ce montant-là de dégâts.",
+				en: "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage.",
+				fr: "Si ce Pokémon a subi les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige en plus ce montant-là de dégâts.",
 				es: "Si este Pokémon resultó dañado por un ataque durante el último turno de tu rival, este ataque hace ese número de puntos de daño más.",
-				it: "Se questo Pokémon è stato danneggiato da un attacco durante l’ultimo turno del tuo avversario, questo attacco infligge altrettanti danni in più.",
+				it: "Se questo Pokémon è stato danneggiato da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge altrettanti danni in più.",
 				pt: "Se este Pokémon tiver sido danificado por um ataque durante o último turno do seu oponente, este ataque causará a mesma quantidade de dano a mais.",
 				de: "Wenn diesem Pokémon während des letzten Zuges deines Gegners durch eine Attacke Schaden zugefügt wurde, fügt diese Attacke genauso viel Schaden mehr zu."
 			},
@@ -62,7 +66,7 @@ const card: Card = {
 				de: "Dyna-Feuerball"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
@@ -92,7 +96,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
 }
 
 export default card

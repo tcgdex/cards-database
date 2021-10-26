@@ -38,8 +38,8 @@ const card: Card = {
 				de: "Davonstapfen"
 			},
 			effect: {
-				en: "Discard the top 2 cards of your opponent’s deck.",
-				fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+				en: "Discard the top 2 cards of your opponent's deck.",
+				fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
 				es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
 				it: "Scarta le prime due carte del mazzo del tuo avversario.",
 				pt: "Descarte as 2 cartas de cima do baralho do seu oponente.",
@@ -55,7 +55,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Crush",
-				fr: "Écras’Terre",
+				fr: "Écras'Terre",
 				es: "Aterrizaje",
 				it: "Schiacciaterra",
 				pt: "Aperto de Terra",
@@ -86,7 +86,9 @@ const card: Card = {
 
 	description: {
 		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles."
-	}
+	},
+
+	dexId: [111]
 }
 
 export default card

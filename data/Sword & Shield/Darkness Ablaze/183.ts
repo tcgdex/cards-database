@@ -35,10 +35,10 @@ const card: Card = {
 				de: "Abhacken"
 			},
 			effect: {
-				en: "Discard a Pokémon Tool and a Special Energy from your opponent’s Active Pokémon.",
+				en: "Discard a Pokémon Tool and a Special Energy from your opponent's Active Pokémon.",
 				fr: "Défaussez un Outil Pokémon et une Énergie spéciale du Pokémon Actif de votre adversaire.",
 				es: "Descarta 1 Herramienta Pokémon y 1 Energía Especial del Pokémon Activo de tu rival.",
-				it: "Scarta un Oggetto Pokémon e un’Energia speciale dal Pokémon attivo del tuo avversario.",
+				it: "Scarta un Oggetto Pokémon e un'Energia speciale dal Pokémon attivo del tuo avversario.",
 				pt: "Descarte 1 Ferramenta Pokémon e 1 Energia Especial do Pokémon Ativo do seu oponente.",
 				de: "Lege 1 Pokémon-Ausrüstung und 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},

@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
 			es: "Descarta 2 Energías de este Pokémon.",
 			it: "Scarta due Energie da questo Pokémon.",
 			pt: "Discard 2 Energy from this Pokémon.",
@@ -67,7 +67,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	evolveFrom: {
+		en: "Hippopotas",
+		fr: "Hippopotas",
+		es: "Hippopotas",
+		it: "Hippopotas",
+		pt: "Hippopotas",
+		de: "Hippopotas"
+	},
+
+	description: {
+		en: "When roused to violence by its rage, it spews out the quantities of sand it has swallowed and whips up a sandstorm."
+	},
+
+	dexId: [450],
+	regulationMark: "E"
 }
 
 export default card

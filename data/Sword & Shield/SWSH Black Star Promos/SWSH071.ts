@@ -6,11 +6,14 @@ const card: Card = {
 
 	name: {
 		en: "Scorbunny",
-		fr: "Flambino"
+		fr: "Flambino",
+		es: "Scorbunny",
+		pt: "Scorbunny",
+		de: "Hopplo"
 	},
 
 	illustrator: "Akira Komayama",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],
@@ -18,19 +21,28 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Me First",
-			fr: "Moi d’Abord"
+			fr: "Moi d'Abord",
+			es: "Yo Primero",
+			pt: "Me First",
+			de: "Egotrip"
 		},
 
 		effect: {
 			en: "Draw a card.",
-			fr: "Piochez une carte."
+			fr: "Piochez une carte.",
+			es: "Roba 1 carta.",
+			pt: "Draw a card.",
+			de: "Ziehe 1 Karte."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			en: "Live Coal",
-			fr: "Charbon Mutant"
+			fr: "Charbon Mutant",
+			es: "Carbón Activado",
+			pt: "Live Coal",
+			de: "Glühende Kohlen"
 		},
 
 		damage: 20,
@@ -42,7 +54,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
+	},
+
+	stage: "Basic",
+	dexId: [813],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	regulationMark: "D"
 }
 
 export default card

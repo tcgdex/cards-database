@@ -17,8 +17,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Once during each player’s turn, that player may draw cards until they have 3 cards in their hand.",
-		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut piocher des cartes jusqu’à en avoir 3 en main.",
+		en: "Once during each player's turn, that player may draw cards until they have 3 cards in their hand.",
+		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut piocher des cartes jusqu'à en avoir 3 en main.",
 		es: "Una vez durante el turno de cada jugador, ese jugador puede robar cartas hasta que tenga 3 cartas en su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può pescare fino ad avere tre carte in mano.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá comprar cartas até ter 3 cartas na própria mão.",

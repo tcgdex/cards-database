@@ -25,7 +25,7 @@ const card: Card = {
 	stage: 'Basic',
 
 	description: {
-		en: "This is Castform’s form when caught in a hailstorm. Its whole body is chilled, and its skin is partially frozen!",
+		en: "This is Castform's form when caught in a hailstorm. Its whole body is chilled, and its skin is partially frozen!",
 		fr: 'Morphéo adopte cette apparence quand\n il est frappé par la grèle. Tout son corps est froid et sa peau est légèrement givrée.'
 	},
 
@@ -40,8 +40,8 @@ const card: Card = {
 			de: "Wetterlesen"
 		},
 		effect: {
-			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon’s attack costs.",
-			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
+			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon's attack costs.",
+			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
 			es: "Si tienes 8 cartas de Estadio o más en tu pila de descartes, ignora todas las Energías en el coste de los ataques de este Pokémon.",
 			it: "Sei hai otto o più carte Stadio nella tua pila degli scarti, ignora tutte le Energie necessarie per usare gli attacchi di questo Pokémon.",
 			pt: "Se você tiver 8 ou mais cartas de Estádio na sua pilha de descarte, ignore todas as Energias nos custos dos ataques deste Pokémon.",
@@ -65,7 +65,7 @@ const card: Card = {
 				de: "Frosttaifun"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t use Frosty Typhoon.",
+				en: "During your next turn, this Pokémon can't use Frosty Typhoon.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Typhon Givré.",
 				es: "Durante tu próximo turno, este Pokémon no puede usar Tifón Gélido.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Gelotifone.",

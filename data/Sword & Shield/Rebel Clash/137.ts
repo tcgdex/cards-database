@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Copperajah V",
-		fr: "Pachyradjah-V"
+		fr: "Pachyradjah-V",
+		es: "Copperajah V",
+		it: "Copperajah-V",
+		pt: "Copperajah V",
+		de: "Patinaraja-V"
 	},
 
 	attacks: [
@@ -37,8 +41,8 @@ const card: Card = {
 				de: "Gefährliche Nase"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 100 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 100 dégâts supplémentaires.",
+				en: "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 100 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 100 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Básico, este ataque hace 100 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo attacco infligge 100 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este ataque causará 100 pontos de dano a mais.",

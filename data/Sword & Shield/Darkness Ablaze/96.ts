@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bunnelby",
-		fr: "Sapereau"
+		fr: "Sapereau",
+		es: "Bunnelby",
+		it: "Bunnelby",
+		pt: "Bunnelby",
+		de: "Scoppel"
 	},
 
 	attacks: [
@@ -54,7 +58,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Crush",
-				fr: "Écras’Terre",
+				fr: "Écras'Terre",
 				es: "Aterrizaje",
 				it: "Schiacciaterra",
 				pt: "Aperto de Terra",
@@ -86,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "With power equal to an excavator, it can dig through dense bedrock. It’s a huge help during tunnel construction."
+		en: "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction."
 	}
 }
 

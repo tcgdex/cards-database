@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 	illustrator: "sowsow",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -39,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 60 damage to 1 of your opponent’s Pokémon V. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 60 dégâts à l’un des Pokémon-V de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			en: "This attack does 60 damage to 1 of your opponent's Pokémon V. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige 60 dégâts à l'un des Pokémon-V de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque hace 60 puntos de daño a 1 de los Pokémon V de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Questo attacco infligge 60 danni a uno dei Pokémon-V del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "This attack does 60 damage to 1 of your opponent’s Pokémon V. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			pt: "This attack does 60 damage to 1 of your opponent's Pokémon V. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			de: "Diese Attacke fügt 1 Pokémon-V deines Gegners 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
@@ -72,7 +71,10 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [196],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

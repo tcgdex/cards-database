@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		es: "Kirlia",
+		it: "Kirlia",
+		pt: "Kirlia",
+		de: "Kirlia"
 	},
 
 	attacks: [{
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack’s damage isn’t affected by Resistance.",
+			en: "This attack's damage isn't affected by Resistance.",
 			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			es: "El daño de este ataque no se ve afectado por Resistencia.",
 			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
@@ -56,8 +60,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each of your opponent’s Pokémon V in play.",
-			fr: "Cette attaque inflige 60 dégâts pour chacun des Pokémon-V en jeu de votre adversaire.",
+			en: "This attack does 60 damage for each of your opponent's Pokémon V in play.",
+			fr: "Cette attaque inflige 60 dégâts pour chacun des Pokémon-V en jeu de votre adversaire.",
 			es: "Este ataque hace 60 puntos de daño por cada uno de los Pokémon V en juego de tu rival.",
 			it: "Questo attacco infligge 60 danni per ogni Pokémon-V in gioco del tuo avversario.",
 			pt: "Este ataque causa 60 pontos de dano para cada Pokémon V do seu oponente em jogo.",
@@ -86,7 +90,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Sharply attuned to others’ wishes for help, this Pokémon seeks out those in need and aids them in battle."
+		en: "Sharply attuned to others' wishes for help, this Pokémon seeks out those in need and aids them in battle."
 	}
 }
 

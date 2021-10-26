@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sobble",
 		fr: "Larméléon",
+		es: "Sobble",
+		it: "Sobble",
+		pt: "Sobble",
+		de: "Memmeon"
 	},
 
 	stage: "Stage1",
@@ -54,7 +58,7 @@ const card: Card = {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
 				es: "Chapoteo Ondulante",
-				it: "Schizzi d’Onda",
+				it: "Schizzi d'Onda",
 				pt: "Onda Borrifante",
 				de: "Wellenplatscher"
 			},
@@ -83,7 +87,9 @@ const card: Card = {
 
 	description: {
 		en: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms."
-	}
+	},
+
+	dexId: [817]
 }
 
 export default card

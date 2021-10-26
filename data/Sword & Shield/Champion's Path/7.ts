@@ -83,7 +83,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it shares the infinite energy it creates, that being’s entire body will be overflowing with power."
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
 	}
 }
 

@@ -31,7 +31,7 @@ const card: Card = {
 				fr: "Pistolet à O",
 				es: "Pistola Agua",
 				it: "Pistolacqua",
-				pt: "Revólver d’Água",
+				pt: "Revólver d'Água",
 				de: "Aquaknarre"
 			},
 
@@ -45,7 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Seashell Attack",
-				fr: "Carap’Attaque",
+				fr: "Carap'Attaque",
 				es: "Conchaataque",
 				it: "Conchigliata",
 				pt: "Ataque de Concha do Mar",

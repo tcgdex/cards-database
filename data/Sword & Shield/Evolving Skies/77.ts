@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Reveal the top 6 cards of your deck. This attack does 60 damage for each Psychic Pokémon you find there. Then, shuffle those Pokémon back into your deck and discard the other cards.",
-			fr: "Montrez les 6 cartes du dessus de votre deck. Cette attaque inflige 60 dégâts pour chaque Pokémon Psychic que vous y trouvez. Mélangez ensuite ces Pokémon avec votre deck et défaussez les autres cartes.",
+			fr: "Montrez les 6 cartes du dessus de votre deck. Cette attaque inflige 60 dégâts pour chaque Pokémon Psychic que vous y trouvez. Mélangez ensuite ces Pokémon avec votre deck et défaussez les autres cartes.",
 			es: "Enseña las 6 primeras cartas de tu baraja. Este ataque hace 60 puntos de daño por cada Pokémon Psychic que encuentres entre ellas. Después, pon esos Pokémon de nuevo en tu baraja, baraja todas las cartas y descarta el resto de las cartas que enseñaste.",
 			it: "Mostra le prime sei carte del tuo mazzo. Questo attacco infligge 60 danni per ogni Pokémon Psychic presente tra esse. Poi rimischia quei Pokémon nel tuo mazzo e scarta le altre carte.",
 			pt: "Reveal the top 6 cards of your deck. This attack does 60 damage for each Psychic Pokémon you find there. Then, shuffle those Pokémon back into your deck and discard the other cards.",
@@ -60,7 +60,23 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Pumpkaboo",
+		fr: "Pitrouille",
+		es: "Pumpkaboo",
+		it: "Pumpkaboo",
+		pt: "Pumpkaboo",
+		de: "Irrbis"
+	},
+
+	description: {
+		en: "In the darkness of a new-moon night, Gourgeist will come knocking. Whoever answers the door will be swept off to the afterlife."
+	},
+
+	dexId: [711],
+	regulationMark: "E"
 }
 
 export default card

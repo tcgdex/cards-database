@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cufant",
-		fr: "Charibari"
+		fr: "Charibari",
+		es: "Cufant",
+		it: "Cufant",
+		pt: "Cufant",
+		de: "Kupfanti"
 	},
 
 	abilities: [
@@ -38,7 +42,7 @@ const card: Card = {
 				de: "Antibakterielle Haut"
 			},
 			effect: {
-				en: "This Pokémon can’t be affected by any Special Conditions.",
+				en: "This Pokémon can't be affected by any Special Conditions.",
 				fr: "Ce Pokémon ne peut être affecté par aucun État Spécial.",
 				es: "Este Pokémon no puede verse afectado por ninguna Condición Especial.",
 				it: "Questo Pokémon non può essere influenzato da condizioni speciali.",
@@ -66,7 +70,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.",
-				fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 120 dégâts supplémentaires.",
+				fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 120 dégâts supplémentaires.",
 				es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 120 puntos de daño más.",
 				it: "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 120 danni in più.",
 				pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 120 pontos de dano a mais.",

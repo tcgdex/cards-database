@@ -71,7 +71,14 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon."
+	},
+
+	dexId: [527],
+	regulationMark: "E"
 }
 
 export default card

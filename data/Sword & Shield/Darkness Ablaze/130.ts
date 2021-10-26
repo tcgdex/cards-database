@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meltan",
-		fr: "Meltan"
+		fr: "Meltan",
+		es: "Meltan",
+		it: "Meltan",
+		pt: "Meltan",
+		de: "Meltan"
 	},
 
 	attacks: [
@@ -33,7 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Link",
-				fr: "Chaîne d’Énergie",
+				fr: "Chaîne d'Énergie",
 				es: "Vínculo de Energía",
 				it: "Legame Energetico",
 				pt: "Elo de Energia",

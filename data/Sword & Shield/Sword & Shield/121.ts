@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Giftstachel"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				en: "Your opponent's Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
@@ -84,8 +84,10 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokémon’s poison seeps in."
-	}
+		en: "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokémon's poison seeps in."
+	},
+
+	dexId: [451]
 }
 
 export default card

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon2",
-		fr: "Porygon2"
+		fr: "Porygon2",
+		es: "Porygon2",
+		it: "Porygon2",
+		pt: "Porygon2",
+		de: "Porygon2"
 	},
 
 	abilities: [{
@@ -37,7 +41,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Whenever you attach an Energy card from your hand to this Pokémon during your turn, you may make your opponent’s Active Pokémon Confused.",
+			en: "Whenever you attach an Energy card from your hand to this Pokémon during your turn, you may make your opponent's Active Pokémon Confused.",
 			fr: "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon pendant votre tour, vous pouvez laisser le Pokémon Actif de votre adversaire Confus.",
 			es: "Cada vez que unas 1 carta de Energía de tu mano a este Pokémon durante tu turno, puedes dejar al Pokémon Activo de tu rival Confundido.",
 			it: "Ogni volta che assegni una carta Energia a questo Pokémon dalla tua mano durante il tuo turno, puoi lasciare il Pokémon attivo del tuo avversario confuso.",
@@ -58,7 +62,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
 			es: "Descarta 2 Energías de este Pokémon.",
 			it: "Scarta due Energie da questo Pokémon.",
 			pt: "Descarte 2 Energias deste Pokémon.",

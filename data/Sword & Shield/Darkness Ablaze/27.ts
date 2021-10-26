@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pansear",
-		fr: "Flamajou"
+		fr: "Flamajou",
+		es: "Pansear",
+		it: "Pansear",
+		pt: "Pansear",
+		de: "Grillmak"
 	},
 
 	attacks: [
@@ -58,7 +62,7 @@ const card: Card = {
 				de: "Gigastoß"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t attack.",
+				en: "During your next turn, this Pokémon can't attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",

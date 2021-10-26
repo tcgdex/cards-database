@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rookidee",
 		fr: "Minisange",
+		es: "Rookidee",
+		it: "Rookidee",
+		pt: "Rookidee",
+		de: "Meikro"
 	},
 
 	stage: "Stage1",
@@ -42,8 +46,8 @@ const card: Card = {
 				de: "Pflücker"
 			},
 			effect: {
-				en: "Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.",
-				fr: "Avant d’infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+				en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+				fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
 				es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
 				it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
 				pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
@@ -97,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
-	}
+	},
+
+	dexId: [822]
 }
 
 export default card

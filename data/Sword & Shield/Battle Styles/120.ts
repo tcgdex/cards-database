@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
+			fr: "Piochez 2 cartes.",
 			es: "Roba 2 cartas.",
 			it: "Pesca due carte.",
 			pt: "Compre 2 cartas.",
@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 10 damage for each card in your hand.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque carte dans votre main.",
+			fr: "Cette attaque inflige 10 dégâts pour chaque carte dans votre main.",
 			es: "Este ataque hace 10 puntos de daño por cada carta en tu mano.",
 			it: "Questo attacco infligge 10 danni per ogni carta nella tua mano.",
 			pt: "Este ataque causa 10 pontos de dano para cada carta na sua mão.",

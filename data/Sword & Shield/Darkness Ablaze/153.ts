@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skwovet",
-		fr: "Rongourmand"
+		fr: "Rongourmand",
+		es: "Skwovet",
+		it: "Skwovet",
+		pt: "Skwovet",
+		de: "Raffel"
 	},
 
 	attacks: [
@@ -40,8 +44,8 @@ const card: Card = {
 				de: "Wegkratzen"
 			},
 			effect: {
-				en: "Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.",
-				fr: "Avant d’infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+				en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+				fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
 				es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
 				it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
 				pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
@@ -96,7 +100,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn’t notice the loss."
+		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss."
 	}
 }
 

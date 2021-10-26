@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tranquill",
-		fr: "Colombeau"
+		fr: "Colombeau",
+		es: "Tranquill",
+		it: "Tranquill",
+		pt: "Tranquill",
+		de: "Navitaub"
 	},
 
 	attacks: [
@@ -36,8 +40,8 @@ const card: Card = {
 				de: "Entmutigen"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon’s attacks do 50 less damage (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 50 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
+				en: "During your opponent's next turn, the Defending Pokémon's attacks do 50 less damage (before applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 50 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
 				es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 50 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
 				it: "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 50 danni in meno, prima di aver applicato debolezza e resistenza.",
 				pt: "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor causarão 50 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
@@ -54,7 +58,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Air Slash",
-				fr: "Lame d’Air",
+				fr: "Lame d'Air",
 				es: "Tajo Aéreo",
 				it: "Eterelama",
 				pt: "Golpe de Ar",
@@ -64,7 +68,7 @@ const card: Card = {
 				en: "Discard an Energy from this Pokémon.",
 				fr: "Défaussez une Énergie de ce Pokémon.",
 				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia da questo Pokémon.",
+				it: "Scarta un'Energia da questo Pokémon.",
 				pt: "Descarte 1 Energia deste Pokémon.",
 				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},

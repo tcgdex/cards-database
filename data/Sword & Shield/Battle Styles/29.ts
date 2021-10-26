@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Burned.",
+			en: "Your opponent's Active Pokémon is now Burned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It wraps prey up with its heated body, cooking them in its coils. Once they’re well-done, it will voraciously nibble them down to the last morsel."
+		en: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
 	}
 }
 

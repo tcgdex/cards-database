@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Glameow",
-		fr: "Chaglam"
+		fr: "Chaglam",
+		es: "Glameow",
+		it: "Glameow",
+		pt: "Glameow",
+		de: "Charmian"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Draw 3 cards. If you do, this Pokémon is now Asleep.",
-			fr: "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
+			fr: "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
 			es: "Roba 3 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
 			it: "Pesca tre carte. Se lo fai, questo Pokémon viene addormentato.",
 			pt: "Compre 3 cartas. Se fizer isto, este Pokémon ficará Adormecido.",
@@ -47,7 +51,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Claw Slash",
-			fr: "Tranch’Griffe",
+			fr: "Tranch'Griffe",
 			es: "Cuchillada Garra",
 			it: "Lacerartiglio",
 			pt: "Golpe de Garra",

@@ -37,7 +37,7 @@ const card: Card = {
 		},
 		effect: {
 			en: "You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may draw a card.",
-			fr: "Vous devez défausser 2 cartes de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher une carte.",
+			fr: "Vous devez défausser 2 cartes de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher une carte.",
 			es: "Debes descartar 2 cartas de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes robar 1 carta.",
 			it: "Devi scartare due carte che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare una carta.",
 			pt: "Você deve descartar 2 cartas da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar 1 carta.",
@@ -61,7 +61,7 @@ const card: Card = {
 				de: "Psyschein"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",

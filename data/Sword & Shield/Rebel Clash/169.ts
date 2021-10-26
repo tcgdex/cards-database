@@ -4,7 +4,7 @@ import Set from '../Rebel Clash'
 const card: Card = {
 	name: {
 		en: "Training Court",
-		fr: "Court d’Entraînement",
+		fr: "Court d'Entraînement",
 		es: "Pista de Entrenamiento",
 		it: "Cortile di Allenamento",
 		pt: "Quadra de Treino",
@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Once during each player’s turn, that player may put a basic Energy card from their discard pile into their hand.",
+		en: "Once during each player's turn, that player may put a basic Energy card from their discard pile into their hand.",
 		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut ajouter à sa main une carte Énergie de base de sa pile de défausse.",
 		es: "Una vez durante el turno de cada jugador, ese jugador puede poner 1 carta de Energía Básica de su pila de descartes en su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può prendere una carta Energia base dalla propria pila degli scarti e aggiungerla alle carte che ha in mano.",

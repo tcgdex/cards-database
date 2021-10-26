@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Pollenbombe"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Asleep and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
@@ -63,7 +63,7 @@ const card: Card = {
 				de: "Solartaifun"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t use Solar Typhoon.",
+				en: "During your next turn, this Pokémon can't use Solar Typhoon.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Typhon Solaire.",
 				es: "Durante tu próximo turno, este Pokémon no puede usar Tifón Solar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Tifone Solare.",

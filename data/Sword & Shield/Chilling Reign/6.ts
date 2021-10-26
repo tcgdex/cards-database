@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Horn Attack",
-			fr: "Koud’Korne",
+			fr: "Koud'Korne",
 			es: "Cornada",
 			it: "Incornata",
 			pt: "Ataque de Chifre",
@@ -43,7 +43,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 2 coins. If both of them are heads, this attack does 160 more damage.",
-			fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 160 dégâts supplémentaires.",
+			fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 160 dégâts supplémentaires.",
 			es: "Lanza 2 monedas. Si ambas son cara, este ataque hace 160 puntos de daño más.",
 			it: "Lancia due volte una moneta. Se esce entrambe le volte testa, questo attacco infligge 160 danni in più.",
 			pt: "Jogue 2 moedas. Se as 2 saírem cara, este ataque causará 160 pontos de dano a mais.",
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it’s not that good at flying."
+		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
 	}
 }
 

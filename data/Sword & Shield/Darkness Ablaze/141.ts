@@ -51,7 +51,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Cat Kick",
-				fr: "Coup d’Patte",
+				fr: "Coup d'Patte",
 				es: "Patada Gato",
 				it: "Calciogatto",
 				pt: "Chute do Gato",

@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dewott",
-		fr: "Mateloutre"
+		fr: "Mateloutre",
+		es: "Dewott",
+		it: "Dewott",
+		pt: "Dewott",
+		de: "Zwottronin"
 	},
 
 	abilities: [
@@ -39,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 				es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 				it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
@@ -64,8 +68,8 @@ const card: Card = {
 				de: "Aquawäsche"
 			},
 			effect: {
-				en: "You may put 2 Energy attached to your opponent’s Active Pokémon into their hand.",
-				fr: "Vous pouvez ajouter à la main de votre adversaire 2 Énergies attachées à son Pokémon Actif.",
+				en: "You may put 2 Energy attached to your opponent's Active Pokémon into their hand.",
+				fr: "Vous pouvez ajouter à la main de votre adversaire 2 Énergies attachées à son Pokémon Actif.",
 				es: "Puedes poner 2 Energías unidas al Pokémon Activo de tu rival en su mano.",
 				it: "Puoi prendere due Energie assegnate al Pokémon attivo del tuo avversario e aggiungerle alle carte che ha in mano.",
 				pt: "Você pode colocar 2 Energias ligadas ao Pokémon Ativo do seu oponente na mão dele(a).",

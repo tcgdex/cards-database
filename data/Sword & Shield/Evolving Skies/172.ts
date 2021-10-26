@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Basic",
 	illustrator: "5ban Graphics",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -40,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
+			fr: "Piochez 3 cartes.",
 			es: "Roba 3 cartas.",
 			it: "Pesca tre carte.",
 			pt: "Draw 3 cards.",
@@ -60,7 +59,7 @@ const card: Card = {
 
 		effect: {
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno della tua panchina.",
 			pt: "Switch this Pokémon with 1 of your Benched Pokémon.",
@@ -76,7 +75,10 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [134],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spewpa",
-		fr: "Pérégrain"
+		fr: "Pérégrain",
+		es: "Spewpa",
+		it: "Spewpa",
+		pt: "Spewpa",
+		de: "Puponcho"
 	},
 
 	attacks: [{
@@ -76,7 +80,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "The patterns on this Pokémon’s wings depend on the climate and topography of its habitat. It scatters colorful scales."
+		en: "The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales."
 	}
 }
 

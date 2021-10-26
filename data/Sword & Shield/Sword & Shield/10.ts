@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
 				es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
@@ -68,7 +68,9 @@ const card: Card = {
 
 	description: {
 		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
-	}
+	},
+
+	dexId: [810]
 }
 
 export default card

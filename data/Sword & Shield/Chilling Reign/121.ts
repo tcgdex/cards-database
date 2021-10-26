@@ -25,7 +25,7 @@ const card: Card = {
 	stage: 'Basic',
 
 	description: {
-		en: "Its form changes depending on the weather. The rougher conditions get, the rougher Castform’s disposition!",
+		en: "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
 		fr: 'Il n\'y a pas que son apparence qui change en\nfonction de la météo: son tempérament aussi !\nPlus il y a de vent, plus il se montre agressif.'
 	},
 
@@ -40,8 +40,8 @@ const card: Card = {
 			de: "Wetterlesen"
 		},
 		effect: {
-			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon’s attack costs.",
-			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
+			en: "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon's attack costs.",
+			fr: "Si vous avez 8 cartes Stade ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût des attaques de ce Pokémon.",
 			es: "Si tienes 8 cartas de Estadio o más en tu pila de descartes, ignora todas las Energías en el coste de los ataques de este Pokémon.",
 			it: "Sei hai otto o più carte Stadio nella tua pila degli scarti, ignora tutte le Energie necessarie per usare gli attacchi di questo Pokémon.",
 			pt: "Se você tiver 8 ou mais cartas de Estádio na sua pilha de descarte, ignore todas as Energias nos custos dos ataques deste Pokémon.",
@@ -66,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez des cartes jusqu’à en avoir 6 en main.",
+				fr: "Piochez des cartes jusqu'à en avoir 6 en main.",
 				es: "Roba cartas hasta que tengas 6 cartas en tu mano.",
 				it: "Pesca fino ad avere sei carte in mano.",
 				pt: "Compre cartas até ter 6 cartas na sua mão.",

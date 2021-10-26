@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon.",
 				es: "Cura 30 puntos de daño a este Pokémon.",
 				it: "Cura questo Pokémon da 30 danni.",
 				pt: "Cure 30 pontos de dano deste Pokémon.",
@@ -58,7 +58,7 @@ const card: Card = {
 				de: "Giftige Tentakel"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				en: "Your opponent's Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The first symptom of its sting is numbness. The next is an itching sensation so intense that it’s impossible to resist the urge to claw at your skin."
+		en: "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin."
 	}
 }
 

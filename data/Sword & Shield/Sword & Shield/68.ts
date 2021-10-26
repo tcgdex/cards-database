@@ -37,8 +37,8 @@ const card: Card = {
 				de: "Lockendes Glühen"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+				en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+				fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
 				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
@@ -84,7 +84,9 @@ const card: Card = {
 
 	description: {
 		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them."
-	}
+	},
+
+	dexId: [170]
 }
 
 export default card

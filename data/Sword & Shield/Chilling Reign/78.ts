@@ -5,11 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Farfetch’d",
+		en: "Galarian Farfetch'd",
 		fr: "Canarticho de Galar",
-		es: "Farfetch’d de Galar",
-		it: "Farfetch’d di Galar",
-		pt: "Farfetch’d de Galar",
+		es: "Farfetch'd de Galar",
+		it: "Farfetch'd di Galar",
+		pt: "Farfetch'd de Galar",
 		de: "Galar-Porenta"
 	},
 
@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack’s damage isn’t affected by Resistance.",
+			en: "This attack's damage isn't affected by Resistance.",
 			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			es: "El daño de este ataque no se ve afectado por Resistencia.",
 			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The stalks of leeks are thicker and longer in the Galar region. Farfetch’d that adapted to these stalks took on a unique form."
+		en: "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form."
 	}
 }
 

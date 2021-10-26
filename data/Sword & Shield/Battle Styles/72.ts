@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gligar",
-		fr: "Scorplane"
+		fr: "Scorplane",
+		es: "Gligar",
+		it: "Gligar",
+		pt: "Gligar",
+		de: "Skorgla"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 2 coins. This attack does 40 more damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
 			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño más por cada cara.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni in più ogni volta che esce testa.",
 			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano a mais para cada cara.",

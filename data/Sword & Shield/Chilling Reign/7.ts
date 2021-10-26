@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach any number of Grass Energy cards from your hand to your Pokémon in any way you like.",
-			fr: "Attachez le nombre de cartes Énergie Grass voulues de votre main à vos Pokémon comme il vous plaît.",
+			fr: "Attachez le nombre de cartes Énergie Grass voulues de votre main à vos Pokémon comme il vous plaît.",
 			es: "Une cualquier cantidad de cartas de Energía Grass de tu mano a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia Grass dalla tua mano nel modo che preferisci.",
 			pt: "Ligue qualquer número de cartas de Energia Grass da sua mão aos seus Pokémon como desejar.",
@@ -51,7 +51,7 @@ const card: Card = {
 
 		effect: {
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno della tua panchina.",
 			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",

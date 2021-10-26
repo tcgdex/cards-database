@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venipede",
-		fr: "Venipatte"
+		fr: "Venipatte",
+		es: "Venipede",
+		it: "Venipede",
+		pt: "Venipede",
+		de: "Toxiped"
 	},
 
 	attacks: [{
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned.",
+			en: "Your opponent's Active Pokémon is now Poisoned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",

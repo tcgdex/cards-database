@@ -4,7 +4,7 @@ import Set from '../Sword & Shield'
 const card: Card = {
 	name: {
 		en: "Evolution Incense",
-		fr: "Encens d’Évolution",
+		fr: "Encens d'Évolution",
 		es: "Incienso Evolución",
 		it: "Evoaroma",
 		pt: "Incenso de Evolução",

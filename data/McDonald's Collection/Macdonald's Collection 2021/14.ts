@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Fennekin",
 		fr: "Feunnec",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		653,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,8 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
+	},
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

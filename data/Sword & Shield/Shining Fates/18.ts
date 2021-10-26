@@ -32,10 +32,10 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Si un Stade est en jeu, ce Pokémon n’a pas de Coût de Retraite.",
+			fr: "Si un Stade est en jeu, ce Pokémon n'a pas de Coût de Retraite.",
 			en: "If a Stadium is in play, this Pokémon has no Retreat Cost.",
 			es: "Si hay un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
-			it: "Se c’è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
+			it: "Se c'è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
 			pt: "Se um Estádio estiver em jogo, este Pokémon não terá custo de Recuo.",
 			de: "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten."
 		}

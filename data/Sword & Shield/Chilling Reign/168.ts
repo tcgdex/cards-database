@@ -30,8 +30,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Placez des marqueurs de dégâts sur l’un des Pokémon de votre adversaire jusqu’à ce qu’il ne lui reste que 100 PV.",
-			en: "Put damage counters on 1 of your opponent’s Pokémon until its remaining HP is 100.",
+			fr: "Placez des marqueurs de dégâts sur l'un des Pokémon de votre adversaire jusqu'à ce qu'il ne lui reste que 100 PV.",
+			en: "Put damage counters on 1 of your opponent's Pokémon until its remaining HP is 100.",
 			es: "Pon contadores de daño en 1 de los Pokémon de tu rival hasta que le queden 100 PS.",
 			it: "Metti dei segnalini danno su uno dei Pokémon del tuo avversario finché i suoi PS rimanenti diventano 100.",
 			pt: "Coloque contadores de dano em 1 dos Pokémon do seu oponente até o PS restante dele ser 100.",
@@ -50,8 +50,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			en: "This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
 			es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",

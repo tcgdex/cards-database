@@ -46,7 +46,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Its body is 99% water. The remaining 1% contains the organ that makes its poison."
+	},
+
+	dexId: [72],
+	regulationMark: "E"
 }
 
 export default card

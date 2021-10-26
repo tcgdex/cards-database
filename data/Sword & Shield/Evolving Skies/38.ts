@@ -61,7 +61,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 2 coins. This attack does 70 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
 			es: "Lanza 2 monedas. Este ataque hace 70 puntos de daño por cada cara.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
 			pt: "Flip 2 coins. This attack does 70 damage for each heads.",
@@ -77,7 +77,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Feebas",
+		fr: "Barpau",
+		es: "Feebas",
+		it: "Feebas",
+		pt: "Feebas",
+		de: "Barschwa"
+	},
+
+	description: {
+		en: "It's said that a glimpse of a Milotic and its beauty will calm any hostile emotions you're feeling."
+	},
+
+	dexId: [350],
+	regulationMark: "E"
 }
 
 export default card

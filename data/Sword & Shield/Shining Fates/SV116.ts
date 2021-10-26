@@ -42,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ajoutez à votre main 2 Énergies Darkness attachées à ce Pokémon.",
+			fr: "Ajoutez à votre main 2 Énergies Darkness attachées à ce Pokémon.",
 			en: "Put 2 Darkness Energy attached to this Pokémon into your hand.",
 			es: "Pon 2 Energías Darkness unidas a este Pokémon en tu mano.",
 			it: "Prendi due Energie Darkness assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",

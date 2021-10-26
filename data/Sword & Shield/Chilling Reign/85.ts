@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Crabrawler",
-		fr: "Crabagarre"
+		fr: "Crabagarre",
+		es: "Crabrawler",
+		it: "Crabrawler",
+		pt: "Crabrawler",
+		de: "Krabbox"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 2 coins. This attack does 90 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
 			es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
 			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",

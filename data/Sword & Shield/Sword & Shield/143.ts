@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
 				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
 				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Wing Attack",
 				fr: "Cru-Ailes",
 				es: "Ataque Ala",
-				it: "Attacco d’Ala",
+				it: "Attacco d'Ala",
 				pt: "Ataque de Asa",
 				de: "Flügelschlag"
 			},
@@ -91,7 +91,9 @@ const card: Card = {
 
 	description: {
 		en: "It begins to hoot at the same time every day. Some Trainers use them in place of clocks."
-	}
+	},
+
+	dexId: [163]
 }
 
 export default card

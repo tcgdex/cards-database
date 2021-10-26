@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skiddo",
-		fr: "Cabriolaine"
+		fr: "Cabriolaine",
+		es: "Skiddo",
+		it: "Skiddo",
+		pt: "Skiddo",
+		de: "Mähikel"
 	},
 
 	attacks: [
@@ -34,7 +38,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
+				fr: "Tranch'Herbe",
 				es: "Hoja Afilada",
 				it: "Foglielama",
 				pt: "Folha Navalha",
@@ -60,7 +64,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",

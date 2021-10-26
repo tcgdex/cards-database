@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Call Sign",
-			fr: "Signe d’Appel",
+			fr: "Signe d'Appel",
 			es: "Señal de Llamada",
 			it: "Chiamata",
 			pt: "Sinal de Chamada",

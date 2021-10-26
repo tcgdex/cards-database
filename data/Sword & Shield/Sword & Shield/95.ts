@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Hitmonlee is on your Bench, this attack does 20 more damage.",
-				fr: "Si Kicklee est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires.",
+				fr: "Si Kicklee est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires.",
 				es: "Si Hitmonlee está en tu Banca, este ataque hace 20 puntos de daño más.",
 				it: "Se Hitmonlee è nella tua panchina, questo attacco infligge 20 danni in più.",
 				pt: "Se Hitmonlee estiver no seu Banco, este ataque causará 20 pontos de dano a mais.",
@@ -85,7 +85,9 @@ const card: Card = {
 
 	description: {
 		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
-	}
+	},
+
+	dexId: [107]
 }
 
 export default card

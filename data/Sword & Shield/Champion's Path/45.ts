@@ -41,7 +41,7 @@ const card: Card = {
 				de: "Gespenstische Woge"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",
@@ -59,7 +59,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Random Peck",
-				fr: "Coup d’Bec au Pif",
+				fr: "Coup d'Bec au Pif",
 				es: "Picotazo al Azar",
 				it: "Beccata Casuale",
 				pt: "Bicada Aleatória",
@@ -67,7 +67,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
 				es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 40 danni in più ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano a mais para cada cara.",
@@ -98,7 +98,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar’s control."
+		en: "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar's control."
 	}
 }
 

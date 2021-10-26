@@ -44,9 +44,9 @@ const card: Card = {
 
 		effect: {
 			en: "If a Stadium is in play, this attack does 120 more damage. Then, discard that Stadium.",
-			fr: "Si un Stade est en jeu, cette attaque inflige 120 dégâts supplémentaires. Ensuite, défaussez ce Stade.",
+			fr: "Si un Stade est en jeu, cette attaque inflige 120 dégâts supplémentaires. Ensuite, défaussez ce Stade.",
 			es: "Si hay un Estadio en juego, este ataque hace 120 puntos de daño más. Después, descarta ese Estadio.",
-			it: "Se c’è in gioco una carta Stadio, questo attacco infligge 120 danni in più. Poi scarta quella carta Stadio.",
+			it: "Se c'è in gioco una carta Stadio, questo attacco infligge 120 danni in più. Poi scarta quella carta Stadio.",
 			pt: "Se um Estádio estiver em jogo, este ataque causará 120 pontos de dano a mais. Em seguida, descarte aquele Estádio.",
 			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 120 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
 		},
@@ -74,7 +74,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "Mitsuhiro Arita"
+	illustrator: "Mitsuhiro Arita",
+
+	evolveFrom: {
+		en: "Tornadus V",
+		fr: "Boréas-V",
+		es: "Tornadus V",
+		it: "Tornadus-V",
+		pt: "Tornadus V",
+		de: "Boreos-V"
+	},
+
+	regulationMark: "E"
 }
 
 export default card

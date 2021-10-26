@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		es: "Cottonee",
+		it: "Cottonee",
+		pt: "Cottonee",
+		de: "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -48,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
-				fr: "Lancez une pièce. Si c’est face, votre adversaire mélange avec son deck son Pokémon Actif et toutes les cartes attachées.",
+				fr: "Lancez une pièce. Si c'est face, votre adversaire mélange avec son deck son Pokémon Actif et toutes les cartes attachées.",
 				es: "Lanza 1 moneda. Si sale cara, tu rival pone su Pokémon Activo y todas las cartas unidas a él en su baraja y las baraja todas.",
 				it: "Lancia una moneta. Se esce testa, il tuo avversario rimischia il suo Pokémon attivo e tutte le carte a esso assegnate nel suo mazzo.",
 				pt: "Jogue 1 moeda. Se sair cara, seu oponente embaralhará o Pokémon Ativo dele(a) e todas as cartas ligadas a ele no próprio baralho.",
@@ -92,7 +96,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It scatters cotton all over the place as a prank. If it gets wet, it’ll become too heavy to move and have no choice but to answer for its mischief."
+		en: "It scatters cotton all over the place as a prank. If it gets wet, it'll become too heavy to move and have no choice but to answer for its mischief."
 	}
 }
 

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Slowpoke",
-		fr: "Ramoloss de Galar"
+		fr: "Ramoloss de Galar",
+		es: "Slowpoke de Galar",
+		it: "Slowpoke di Galar",
+		pt: "Slowpoke de Galar",
+		de: "Galar-Flegmon"
 	},
 
 	attacks: [{
@@ -56,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "If this Pokémon is affected by a Special Condition, this attack does 120 more damage.",
-			fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 120 dégâts supplémentaires.",
+			fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 120 dégâts supplémentaires.",
 			es: "Si este Pokémon se ve afectado por una Condición Especial, este ataque hace 120 puntos de daño más.",
 			it: "Se questo Pokémon è influenzato da una condizione speciale, questo attacco infligge 120 danni in più.",
 			pt: "Se este Pokémon estiver afetado por uma Condição Especial, este ataque causará 120 pontos de dano a mais.",

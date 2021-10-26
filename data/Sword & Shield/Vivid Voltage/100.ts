@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It’s very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
+		en: "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
 	}
 }
 

@@ -21,8 +21,6 @@ const card: Card = {
 		"Water",
 	],
 
-	suffix: "V",
-
 	attacks: [
 		{
 			cost: [
@@ -38,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Water Energy card from your hand to this Pokémon. If you do, switch it with 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie Water de votre main à ce Pokémon. Dans ce cas, échangez-le contre l’un de vos Pokémon de Banc.",
+				fr: "Attachez une carte Énergie Water de votre main à ce Pokémon. Dans ce cas, échangez-le contre l'un de vos Pokémon de Banc.",
 				es: "Une 1 carta de Energía Water de tu mano a este Pokémon. Si lo haces, cámbialo por 1 de tus Pokémon en Banca.",
 				it: "Assegna a questo Pokémon una carta Energia Water dalla tua mano. Se lo fai, scambialo con uno della tua panchina.",
 				pt: "Ligue 1 carta de Energia Water da sua mão a este Pokémon. Se fizer isto, troque-o por 1 dos seus Pokémon no Banco.",
@@ -63,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Put 2 Water Energy attached to this Pokémon into your hand.",
-				fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
+				fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
 				es: "Pon 2 Energías Water unidas a este Pokémon en tu mano.",
 				it: "Prendi due Energie Water assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 2 cartas de Energia Water ligadas a este Pokémon na sua mão.",
@@ -91,7 +89,9 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "Basic"
+	stage: "Basic",
+	suffix: "V",
+	dexId: [131]
 }
 
 export default card

@@ -6,10 +6,10 @@ const card: Card = {
 
 	name: {
 		fr: "Canarticho de Galar",
-		en: "Galarian Farfetch’d",
-		es: "Farfetch’d de Galar",
-		it: "Farfetch’d di Galar",
-		pt: "Farfetch’d de Galar",
+		en: "Galarian Farfetch'd",
+		es: "Farfetch'd de Galar",
+		it: "Farfetch'd di Galar",
+		pt: "Farfetch'd de Galar",
 		de: "Galar-Porenta"
 	},
 
@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			en: "Flip a coin. If heads, this attack does 30 more damage.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
@@ -64,7 +64,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The Farfetch’d of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
 	}
 }
 

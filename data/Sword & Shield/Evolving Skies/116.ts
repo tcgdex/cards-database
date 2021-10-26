@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard any amount of Water Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way.",
-			fr: "Défaussez autant d’Énergies Water que vous le voulez de vos Pokémon. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon.",
+			fr: "Défaussez autant d'Énergies Water que vous le voulez de vos Pokémon. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon.",
 			es: "Descarta cualquier cantidad de Energías Water de tus Pokémon. Este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
 			it: "Scarta tutte le Energie Water che vuoi dai tuoi Pokémon. Questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo.",
 			pt: "Discard any amount of Water Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way.",
@@ -50,7 +50,14 @@ const card: Card = {
 		cost: ["Water", "Water", "Metal"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [646],
+
+	description: {
+		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-			fr: "Vous pouvez chercher dans votre deck jusqu’à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
+			fr: "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
 			es: "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			pt: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
@@ -55,7 +55,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
+	},
+
+	dexId: [494],
+	regulationMark: "E"
 }
 
 export default card

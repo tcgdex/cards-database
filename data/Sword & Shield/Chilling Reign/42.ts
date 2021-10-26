@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sobble",
-		fr: "Larméléon"
+		fr: "Larméléon",
+		es: "Sobble",
+		it: "Sobble",
+		pt: "Sobble",
+		de: "Memmeon"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l’un de vos Pokémon de Banc.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno della tua panchina.",
 			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",

@@ -35,8 +35,8 @@ const card: Card = {
 				de: "Deck-Destillateur"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard the top card of your opponent’s deck.",
-				fr: "Lancez une pièce jusqu’à obtenir un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
+				en: "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
+				fr: "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
 				es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta la primera carta de la baraja de tu rival.",
 				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scarta la prima carta del mazzo del tuo avversario.",
 				pt: "Jogue 1 moeda até sair coroa. Para cada cara, descarte a carta de cima do baralho do seu oponente.",

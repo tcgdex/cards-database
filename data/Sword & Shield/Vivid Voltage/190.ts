@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		fr: "Exagide-V"
+		fr: "Exagide-V",
+		en: "Aegislash V",
+		es: "Aegislash V",
+		it: "Aegislash-V",
+		pt: "Aegislash V",
+		de: "Durengard-V"
 	},
 
 	attacks: [{
@@ -34,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
 			en: "This attack does 30 more damage for each Prize card you have taken.",
 			es: "Este ataque hace 30 puntos de daño más por cada carta de Premio que hayas cogido.",
 			it: "Questo attacco infligge 30 danni in più per ogni carta Premio che hai preso.",
@@ -66,7 +71,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "VMAX"
+	stage: "VMAX",
+
 }
 
 export default card

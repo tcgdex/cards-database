@@ -30,8 +30,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon is a Pokémon V, this attack does 50 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 50 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon is a Pokémon V, this attack does 50 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 50 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon V, este ataque hace 50 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-V, questo attacco infligge 50 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon V, este ataque causará 50 pontos de dano a mais.",
@@ -52,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toute l’Énergie de ce Pokémon.",
+			fr: "Défaussez toute l'Énergie de ce Pokémon.",
 			es: "Descarta todas las Energías de este Pokémon.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
 			pt: "Descarte todas as Energias deste Pokémon.",

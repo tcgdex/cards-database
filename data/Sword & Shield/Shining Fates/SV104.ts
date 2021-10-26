@@ -35,8 +35,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			en: "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
 			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
@@ -56,7 +56,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			en: "This Pokémon also does 30 damage to itself.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",

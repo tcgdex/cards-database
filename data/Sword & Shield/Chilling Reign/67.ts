@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
+			fr: "Soignez 10 dégâts de ce Pokémon.",
 			es: "Cura 10 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 10 danni.",
 			pt: "Cure 10 pontos de dano deste Pokémon.",
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The sweet smell of cotton candy perfumes Swirlix’s fluffy fur. This Pokémon spits out sticky string to tangle up its enemies."
+		en: "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies."
 	}
 }
 

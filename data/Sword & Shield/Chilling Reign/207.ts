@@ -31,8 +31,8 @@ const card: Card = {
 		damage: 10,
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned. During Pokémon Checkup, put 12 damage counters on that Pokémon instead of 1.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 12 marqueurs de dégâts sur ce Pokémon-là au lieu d’un.",
+			en: "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 12 damage counters on that Pokémon instead of 1.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le Contrôle Pokémon, placez 12 marqueurs de dégâts sur ce Pokémon-là au lieu d'un.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el Chequeo Pokémon, pon 12 contadores de daño en ese Pokémon en vez de 1.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Metti 12 segnalini danno invece di uno su quel Pokémon durante il controllo Pokémon.",
 			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o Checape Pokémon, coloque 12 contadores de dano ao invés de 1 naquele Pokémon.",
@@ -57,7 +57,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
-	illustrator: "5ban Graphics"
+	illustrator: "5ban Graphics",
+
+	evolveFrom: {
+		en: "Galarian Slowking V",
+		fr: "Roigada de Galar-V",
+		es: "Slowking de Galar V",
+		it: "Slowking di Galar-V",
+		pt: "Slowking de Galar V",
+		de: "Galar-Laschoking-V"
+	},
+
+	regulationMark: "E"
 }
 
 export default card

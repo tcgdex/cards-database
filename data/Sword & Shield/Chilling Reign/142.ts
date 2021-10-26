@@ -19,7 +19,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Piochez une carte pour chacun des Pokémon-V de Banc de votre adversaire.",
-		en: "Draw a card for each of your opponent’s Benched Pokémon V.",
+		en: "Draw a card for each of your opponent's Benched Pokémon V.",
 		es: "Roba 1 carta por cada uno de los Pokémon V en Banca de tu rival.",
 		it: "Pesca una carta per ciascuno dei Pokémon-V nella panchina del tuo avversario.",
 		pt: "Compre 1 carta para cada Pokémon V no Banco do seu oponente.",
