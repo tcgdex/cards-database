@@ -36,7 +36,7 @@ const card: Card = {
 			fr: "Cru-Ailes",
 			en: "Wing Attack",
 			es: "Ataque Ala",
-			it: "Attacco d’Ala",
+			it: "Attacco d'Ala",
 			pt: "Ataque de Asa",
 			de: "Flügelschlag"
 		},

@@ -37,8 +37,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
 			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
@@ -48,7 +48,7 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Coud’Krâne",
+			fr: "Coud'Krâne",
 			en: "Skull Bash",
 			es: "Cabezazo",
 			it: "Capocciata",

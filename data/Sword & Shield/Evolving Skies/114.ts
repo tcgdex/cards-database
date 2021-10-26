@@ -42,7 +42,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Dragon Headbutt",
-			fr: "Dracoud’Boule",
+			fr: "Dracoud'Boule",
 			es: "Cabezazo Dragón",
 			it: "Dragozuccata",
 			pt: "Dragon Headbutt",
@@ -53,7 +53,23 @@ const card: Card = {
 		cost: ["Psychic", "Darkness", "Colorless", "Colorless"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [634],
+
+	evolveFrom: {
+		en: "Deino",
+		fr: "Solochi",
+		es: "Deino",
+		it: "Deino",
+		pt: "Deino",
+		de: "Kapuno"
+	},
+
+	description: {
+		en: "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

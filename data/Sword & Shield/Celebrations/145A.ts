@@ -5,11 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Garchomp  LV. X C"
+		en: "Garchomp C LV.X"
 	},
 
 	illustrator: "Shizurow",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent’s Pokémon. This attack does 80 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Garchomp C can’t use Dragon Rush during your next turn."
+			en: "Discard 2 Energy attached to Garchomp C. Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Garchomp C can't use Dragon Rush during your next turn."
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]
@@ -44,7 +44,8 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	suffix: "SP"
 }
 
 export default card

@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yamper",
 		fr: "Voltoutou",
+		es: "Yamper",
+		it: "Yamper",
+		pt: "Yamper",
+		de: "Voldi"
 	},
 
 	stage: "Stage1",
@@ -61,7 +65,7 @@ const card: Card = {
 				de: "Elektrospurt"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t attack.",
+				en: "During your next turn, this Pokémon can't attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
@@ -92,7 +96,9 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days."
-	}
+	},
+
+	dexId: [836]
 }
 
 export default card

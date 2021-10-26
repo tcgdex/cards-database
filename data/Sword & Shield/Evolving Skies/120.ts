@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 50 damage for each of your opponent’s Pokémon in play that has an Ability.",
-			fr: "Cette attaque inflige 50 dégâts pour chacun des Pokémon en jeu de votre adversaire ayant un talent.",
+			en: "This attack does 50 damage for each of your opponent's Pokémon in play that has an Ability.",
+			fr: "Cette attaque inflige 50 dégâts pour chacun des Pokémon en jeu de votre adversaire ayant un talent.",
 			es: "Este ataque hace 50 puntos de daño por cada uno de los Pokémon en juego de tu rival que tenga una habilidad.",
-			it: "Questo attacco infligge 50 danni per ogni Pokémon in gioco del tuo avversario che ha un’abilità.",
-			pt: "This attack does 50 damage for each of your opponent’s Pokémon in play that has an Ability.",
+			it: "Questo attacco infligge 50 danni per ogni Pokémon in gioco del tuo avversario che ha un'abilità.",
+			pt: "This attack does 50 damage for each of your opponent's Pokémon in play that has an Ability.",
 			de: "Diese Attacke fügt für jedes Pokémon deines Gegners im Spiel, das eine Fähigkeit hat, 50 Schadenspunkte zu."
 		},
 
@@ -59,11 +59,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If your opponent’s Active Pokémon is a Pokémon V, this attack does 80 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 80 dégâts supplémentaires.",
+			en: "If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 80 dégâts supplémentaires.",
 			es: "Si el Pokémon Activo de tu rival es un Pokémon V, este ataque hace 80 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-V, questo attacco infligge 80 danni in più.",
-			pt: "If your opponent’s Active Pokémon is a Pokémon V, this attack does 80 more damage.",
+			pt: "If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage.",
 			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-V ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
@@ -71,7 +71,23 @@ const card: Card = {
 		cost: ["Grass", "Fire"]
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [841],
+
+	evolveFrom: {
+		en: "Applin",
+		fr: "Verpom",
+		es: "Applin",
+		it: "Applin",
+		pt: "Applin",
+		de: "Knapfel"
+	},
+
+	description: {
+		en: "It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

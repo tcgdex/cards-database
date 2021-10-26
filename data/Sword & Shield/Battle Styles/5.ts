@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cacnea",
-		fr: "Cacnea"
+		fr: "Cacnea",
+		es: "Cacnea",
+		it: "Cacnea",
+		pt: "Cacnea",
+		de: "Tuska"
 	},
 
 	attacks: [{
@@ -35,8 +39,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-			fr: "Échangez l’un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+			en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+			fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
 			es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 			it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 			pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
@@ -56,7 +60,7 @@ const card: Card = {
 
 		effect: {
 			en: "If this Pokémon has any Darkness Energy attached, this attack does 70 more damage.",
-			fr: "Si de l’Énergie Darkness est attachée à ce Pokémon, cette attaque inflige 70 dégâts supplémentaires.",
+			fr: "Si de l'Énergie Darkness est attachée à ce Pokémon, cette attaque inflige 70 dégâts supplémentaires.",
 			es: "Si este Pokémon tiene alguna Energía Darkness unida a él, este ataque hace 70 puntos de daño más.",
 			it: "Se questo Pokémon ha delle Energie Darkness assegnate, questo attacco infligge 70 danni in più.",
 			pt: "Se este Pokémon tiver alguma Energia Darkness ligada a ele, este ataque causará 70 pontos de dano a mais.",

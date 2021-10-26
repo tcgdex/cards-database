@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Each player draws 2 cards.",
-				fr: "Chaque joueur pioche 2 cartes.",
+				fr: "Chaque joueur pioche 2 cartes.",
 				es: "Cada jugador roba 2 cartas.",
 				it: "Ciascun giocatore pesca due carte.",
 				pt: "Cada jogador compra 2 cartas.",
@@ -74,7 +74,9 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
-	}
+	},
+
+	dexId: [854]
 }
 
 export default card

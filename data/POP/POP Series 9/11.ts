@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Pichu",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		172,
 	],
+
 	hp: 40,
+
 	types: [
 		"Lightning",
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -43,12 +47,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -56,9 +62,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It plays with others by touching tails and setting off sparks. This appears to be a test of courage."
+	},
 
+	retreat: 1,
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

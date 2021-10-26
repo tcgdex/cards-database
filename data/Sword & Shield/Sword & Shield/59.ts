@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drizzile",
 		fr: "Arrozard",
+		es: "Drizzile",
+		it: "Drizzile",
+		pt: "Drizzile",
+		de: "Phlegleon"
 	},
 
 	stage: "Stage2",
@@ -42,7 +46,7 @@ const card: Card = {
 				de: "Stiller Schuss"
 			},
 			effect: {
-				en: "Discard a random card from your opponent’s hand.",
+				en: "Discard a random card from your opponent's hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
 				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
 				it: "Scarta una carta a caso dalla mano del tuo avversario.",
@@ -66,10 +70,10 @@ const card: Card = {
 				de: "Hydroschütze"
 			},
 			effect: {
-				en: "You may put an Energy attached to your opponent’s Active Pokémon into their hand.",
+				en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
 				fr: "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
 				es: "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
-				it: "Puoi prendere un’Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
+				it: "Puoi prendere un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
 				pt: "Você pode colocar 1 Energia ligada ao Pokémon Ativo do seu oponente na mão dele(a).",
 				de: "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben."
 			},
@@ -97,7 +101,9 @@ const card: Card = {
 
 	description: {
 		en: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air."
-	}
+	},
+
+	dexId: [818]
 }
 
 export default card

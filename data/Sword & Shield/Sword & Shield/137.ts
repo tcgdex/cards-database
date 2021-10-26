@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cufant",
 		fr: "Charibari",
+		es: "Cufant",
+		it: "Cufant",
+		pt: "Cufant",
+		de: "Kupfanti"
 	},
 
 	stage: "Stage1",
@@ -44,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
+				fr: "Soignez 30 dégâts de ce Pokémon.",
 				es: "Cura 30 puntos de daño a este Pokémon.",
 				it: "Cura questo Pokémon da 30 danni.",
 				pt: "Cure 30 pontos de dano deste Pokémon.",
@@ -69,7 +73,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon has 8 or more damage counters on it, this attack does nothing.",
-				fr: "Si ce Pokémon a au moins 8 marqueurs de dégâts, cette attaque ne fait rien.",
+				fr: "Si ce Pokémon a au moins 8 marqueurs de dégâts, cette attaque ne fait rien.",
 				es: "Si este Pokémon tiene 8 contadores de daño o más sobre él, este ataque no hace nada.",
 				it: "Se questo Pokémon ha otto o più segnalini danno, questo attacco non ha effetto.",
 				pt: "Se este Pokémon tiver 8 ou mais contadores de dano nele, este ataque não fará nada.",
@@ -106,7 +110,9 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder."
-	}
+	},
+
+	dexId: [879]
 }
 
 export default card

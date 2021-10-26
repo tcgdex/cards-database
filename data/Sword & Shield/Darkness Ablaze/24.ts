@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		es: "Combusken",
+		it: "Combusken",
+		pt: "Combusken",
+		de: "Jungglut"
 	},
 
 	abilities: [
@@ -65,7 +69,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie de base de votre pile de défausse à l’un de vos Pokémon de Banc.",
+				fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
 				es: "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",

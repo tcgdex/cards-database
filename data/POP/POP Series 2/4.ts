@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Suicune",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		245,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Mirror Coat",
 			},
 			effect: {
-				en: "If Suicune is Burned or Poisoned by an opponent's attack (even if Suicune is Knocked Out), the Attacking Pokémon is now affected by the same Special Conditions (1 if there is only 1).",
+				en: "If Suicune is Burned or Poisoned by an opponent’s attack (even if Suicune is Knocked Out), the Attacking Pokémon is now affected by the same Special Conditions (1 if there is only 1).",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -47,17 +51,21 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Lightning"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

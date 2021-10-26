@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d’Boule",
+				fr: "Coup d'Boule",
 				es: "Golpe Cabeza",
 				it: "Bottintesta",
 				pt: "Cabeçada",
@@ -78,7 +78,9 @@ const card: Card = {
 
 	description: {
 		en: "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand."
-	}
+	},
+
+	dexId: [843]
 }
 
 export default card

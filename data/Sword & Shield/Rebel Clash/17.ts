@@ -31,7 +31,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu’à 2 Pokémon Grass de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon Grass de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja hasta 2 Pokémon Grass Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due Pokémon Base Grass e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 Pokémon Grass Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",

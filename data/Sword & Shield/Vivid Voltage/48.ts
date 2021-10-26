@@ -53,8 +53,8 @@ const card: Card = {
 				de: "Donnerschütze"
 			},
 			effect: {
-				en: "Discard all Energy from this Pokémon, and this attack does 160 damage to 1 of your opponent’s Pokémon V or Pokémon-GX. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez toute l’Énergie de ce Pokémon. Cette attaque inflige 160 dégâts à l’un des Pokémon-V ou Pokémon-GX de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "Discard all Energy from this Pokémon, and this attack does 160 damage to 1 of your opponent's Pokémon V or Pokémon-GX. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Défaussez toute l'Énergie de ce Pokémon. Cette attaque inflige 160 dégâts à l'un des Pokémon-V ou Pokémon-GX de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				es: "Descarta todas las Energías de este Pokémon, y este ataque hace 160 puntos de daño a 1 de los Pokémon V o Pokémon-GX de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Scarta tutte le Energie da questo Pokémon. Questo attacco infligge 160 danni a un Pokémon-V o a un Pokémon-GX del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Descarte todas as Energias deste Pokémon e este ataque causará 160 pontos de dano a 1 dos Pokémon V ou Pokémon-GX do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",

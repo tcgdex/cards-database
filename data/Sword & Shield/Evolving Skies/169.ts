@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Basic",
 	illustrator: "5ban Graphics",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -40,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
@@ -60,11 +59,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Burned.",
+			en: "Your opponent's Active Pokémon is now Burned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "Your opponent’s Active Pokémon is now Burned.",
+			pt: "Your opponent's Active Pokémon is now Burned.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
@@ -77,7 +76,10 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [136],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

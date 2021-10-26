@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Galarian Ponyta",
 		fr: "Ponyta de Galar",
+		es: "Ponyta de Galar",
+		it: "Ponyta di Galar",
+		pt: "Ponyta de Galar",
+		de: "Galar-Ponita"
 	},
 
 	stage: "Stage1",
@@ -40,7 +44,7 @@ const card: Card = {
 				de: "Pastellhülle"
 			},
 			effect: {
-				en: "Your Pokémon recover from all Special Conditions and can’t be affected by any Special Conditions.",
+				en: "Your Pokémon recover from all Special Conditions and can't be affected by any Special Conditions.",
 				fr: "Vos Pokémon guérissent de tous les États Spéciaux et ne peuvent être affectés par aucun État Spécial.",
 				es: "Tu Pokémon se recupera de todas las Condiciones Especiales y no puede verse afectado por ninguna Condición Especial.",
 				it: "I tuoi Pokémon guariscono da tutte le condizioni speciali e non possono esserne influenzati.",
@@ -65,8 +69,8 @@ const card: Card = {
 				de: "Psychokinese"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 				es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
@@ -103,7 +107,9 @@ const card: Card = {
 
 	description: {
 		en: "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks."
-	}
+	},
+
+	dexId: [78]
 }
 
 export default card

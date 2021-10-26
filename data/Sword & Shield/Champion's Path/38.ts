@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Cutter",
-				fr: "Tranch’Obscur",
+				fr: "Tranch'Obscur",
 				es: "Cuchilla Oscura",
 				it: "Oscurotaglio",
 				pt: "Cortador de Escuridão",

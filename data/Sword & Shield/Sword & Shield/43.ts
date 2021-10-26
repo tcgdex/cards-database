@@ -44,7 +44,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
 				es: "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
 				it: "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
 				pt: "Jogue 2 moedas. Se qualquer uma delas sair coroa, este ataque não fará nada.",

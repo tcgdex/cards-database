@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		es: "Diglett",
+		it: "Diglett",
+		pt: "Diglett",
+		de: "Digda"
 	},
 
 	stage: "Stage1",
@@ -66,7 +70,9 @@ const card: Card = {
 
 	description: {
 		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
-	}
+	},
+
+	dexId: [51]
 }
 
 export default card

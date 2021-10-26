@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Probopass",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		476,
 	],
+
 	hp: 90,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Nosepass",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -33,7 +37,7 @@ const card: Card = {
 				en: "Rock Slide",
 			},
 			effect: {
-				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 20,
 
@@ -50,16 +54,18 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 50 damage plus 20 more damage for each heads.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -67,9 +73,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It exudes strong magnetium from all cover. It controls three small units called Mini-Noses."
+	},
 
+	retreat: 3,
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

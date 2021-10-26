@@ -30,8 +30,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
-			en: "Put 2 damage counters on your opponent’s Active Pokémon.",
+			fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+			en: "Put 2 damage counters on your opponent's Active Pokémon.",
 			es: "Pon 2 contadores de daño en el Pokémon Activo de tu rival.",
 			it: "Metti due segnalini danno sul Pokémon attivo del tuo avversario.",
 			pt: "Coloque 2 contadores de dano no Pokémon Ativo do seu oponente.",

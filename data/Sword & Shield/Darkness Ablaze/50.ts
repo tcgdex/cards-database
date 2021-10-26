@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 8 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 8 cartes.",
+				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 8 cartes.",
 				es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 8 cartas.",
 				it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca otto carte.",
 				pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 8 cartas.",
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
 				es: "Chapoteo Ondulante",
-				it: "Schizzi d’Onda",
+				it: "Schizzi d'Onda",
 				pt: "Onda Borrifante",
 				de: "Wellenplatscher"
 			},
@@ -82,7 +82,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Individually, they’re incredibly weak. It’s by gathering up into schools that they’re able to confront opponents."
+		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
 	}
 }
 

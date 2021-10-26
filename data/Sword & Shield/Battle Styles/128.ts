@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Korrina’s Focus",
+		en: "Korrina's Focus",
 		fr: "Concentration de Cornélia",
 		es: "Enfoque de Corelia",
 		it: "Impegno di Ornella",
@@ -19,7 +19,7 @@ const card: Card = {
 
 	effect: {
 		en: "Draw cards until you have 6 cards in your hand.",
-		fr: "Piochez des cartes jusqu’à en avoir 6 en main.",
+		fr: "Piochez des cartes jusqu'à en avoir 6 en main.",
 		es: "Roba cartas hasta que tengas 6 cartas en tu mano.",
 		it: "Pesca fino ad avere sei carte in mano.",
 		pt: "Compre cartas até ter 6 cartas na sua mão.",

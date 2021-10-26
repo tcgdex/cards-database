@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud’Korne",
+				fr: "Koud'Korne",
 				es: "Cornada",
 				it: "Incornata",
 				pt: "Ataque de Chifre",

@@ -37,10 +37,10 @@ const card: Card = {
 				de: "Schlagbohrer"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
+				en: "Discard an Energy from your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
 				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia dal Pokémon attivo del tuo avversario.",
+				it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
 				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
 				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
@@ -63,7 +63,7 @@ const card: Card = {
 				de: "Schweres Felsgeschütz"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t use Heavy Rock Artillery.",
+				en: "During your next turn, this Pokémon can't use Heavy Rock Artillery.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Artillerie Roche Lourde.",
 				es: "Durante tu próximo turno, este Pokémon no puede usar Artillería de Rocas Pesada.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Artiglieria Roccia Pesante.",

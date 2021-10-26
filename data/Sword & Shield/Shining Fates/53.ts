@@ -31,9 +31,9 @@ const card: Card = {
 
 		effect: {
 			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			en: "Discard an Energy from your opponent’s Active Pokémon.",
+			en: "Discard an Energy from your opponent's Active Pokémon.",
 			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Scarta un’Energia dal Pokémon attivo del tuo avversario.",
+			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
 			pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
 			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			en: "Flip a coin. If tails, this attack does nothing.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",

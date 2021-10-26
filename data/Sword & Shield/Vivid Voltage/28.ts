@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slugma",
-		fr: "Limagma"
+		fr: "Limagma",
+		es: "Slugma",
+		it: "Slugma",
+		pt: "Slugma",
+		de: "Schneckmag"
 	},
 
 	attacks: [
@@ -62,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon.",
 				es: "Descarta 2 Energías de este Pokémon.",
 				it: "Scarta due Energie da questo Pokémon.",
 				pt: "Descarte 2 Energias deste Pokémon.",

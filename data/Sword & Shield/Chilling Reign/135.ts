@@ -19,7 +19,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Les Pokémon (les vôtres et ceux de votre adversaire) ne peuvent pas être soignés.",
-		en: "Pokémon (both yours and your opponent’s) can’t be healed.",
+		en: "Pokémon (both yours and your opponent's) can't be healed.",
 		es: "Los Pokémon (tanto tuyos como de tu rival) no pueden ser curados.",
 		it: "I Pokémon, sia tuoi che del tuo avversario, non possono essere curati.",
 		pt: "Os Pokémon (seus e do seu oponente) não podem ser curados.",

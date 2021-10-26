@@ -17,7 +17,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Once during each player’s turn, after that player flips any coins for an attack, they may ignore all results of those coin flips and begin flipping those coins again.",
+		en: "Once during each player's turn, after that player flips any coins for an attack, they may ignore all results of those coin flips and begin flipping those coins again.",
 		fr: "Une fois pendant le tour de chaque joueur, après que ce joueur a lancé des pièces pour une attaque, il peut ignorer le résultat de ces lancers de pièce et lancer ces pièces à nouveau.",
 		es: "Una vez durante el turno de cada jugador, después de que ese jugador lance las monedas para un ataque, puede ignorar todos los resultados de esos lanzamientos de monedas y lanzar esas monedas de nuevo.",
 		it: "Una sola volta durante il turno di ciascun giocatore, dopo che quel giocatore ha lanciato una moneta come richiesto da un attacco, questi può ignorare i risultati di quei lanci e lanciare nuovamente la moneta lo stesso numero di volte.",

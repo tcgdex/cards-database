@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Palpitoad",
-		fr: "Batracné"
+		fr: "Batracné",
+		es: "Palpitoad",
+		it: "Palpitoad",
+		pt: "Palpitoad",
+		de: "Mebrana"
 	},
 
 	attacks: [
@@ -28,14 +32,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Spiral Punch",
-				fr: "Coup d’Poing en Demi Spirale",
+				fr: "Coup d'Poing en Demi Spirale",
 				es: "Puño en Espiral Cortante",
 				it: "Spiralpugno Squarciante",
 				pt: "Soco Espiral Dividido",
 				de: "Spiralhieb"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",
@@ -61,8 +65,8 @@ const card: Card = {
 				de: "Resonanz"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is Confused, this attack does 120 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 120 dégâts supplémentaires.",
+				en: "If your opponent's Active Pokémon is Confused, this attack does 120 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 120 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival está Confundido, este ataque hace 120 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è confuso, questo attacco infligge 120 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente estiver Confuso, este ataque causará 120 pontos de dano a mais.",

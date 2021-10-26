@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu’à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 			pt: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
@@ -66,7 +66,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Its leaf grew too large for it to live on land. That is how it began to live floating in the water."
+	},
+
+	dexId: [270],
+	regulationMark: "E"
 }
 
 export default card

@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
 			pt: "Flip a coin. If heads, this attack does 20 more damage.",
@@ -60,7 +60,23 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [662],
+
+	evolveFrom: {
+		en: "Fletchling",
+		fr: "Passerouge",
+		es: "Fletchling",
+		it: "Fletchling",
+		pt: "Fletchling",
+		de: "Dartiri"
+	},
+
+	description: {
+		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

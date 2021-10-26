@@ -53,7 +53,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 30 more damage for each Energy attached to this Pokémon. If you did any damage with this attack, you may attach up to 3 Energy cards from your discard pile to this Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée à ce Pokémon. Si vous avez infligé des dégâts avec cette attaque, vous pouvez attacher jusqu’à 3 cartes Énergie de votre pile de défausse à ce Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée à ce Pokémon. Si vous avez infligé des dégâts avec cette attaque, vous pouvez attacher jusqu'à 3 cartes Énergie de votre pile de défausse à ce Pokémon.",
 			es: "Este ataque hace 30 puntos de daño más por cada Energía unida a este Pokémon. Si has infligido daño con este ataque, puedes unir hasta 3 cartas de Energía de tu pila de descartes a este Pokémon.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata a questo Pokémon. Sei hai inflitto dei danni con questo attacco, puoi assegnare a questo Pokémon fino a tre carte Energia dalla tua pila degli scarti.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada a este Pokémon. Se tiver causado qualquer dano com este ataque, você poderá ligar até 3 cartas de Energia da sua pilha de descarte a este Pokémon.",

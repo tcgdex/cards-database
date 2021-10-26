@@ -27,7 +27,6 @@ const card: Card = {
 	],
 
 	stage: "Basic",
-	suffix: "V",
 
 	attacks: [
 		{
@@ -44,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu’à 2 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja hasta 2 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
@@ -67,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 20 more damage for each of your Benched Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
 				es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca.",
 				it: "Questo attacco infligge 20 danni in più per ogni Pokémon nella tua panchina.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no seu Banco.",
@@ -93,7 +92,9 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	}
+	},
+
+	suffix: "V"
 }
 
 export default card

@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -58,7 +58,7 @@ const card: Card = {
 			de: "Riesiger Riss"
 		},
 
-		damage: "120",
+		damage: 120,
 		cost: ["Fighting", "Fighting", "Colorless", "Colorless"]
 	}],
 
@@ -67,7 +67,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "E",
+
+	description: {
+		en: "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre."
+	},
+
+	dexId: [383]
 }
 
 export default card

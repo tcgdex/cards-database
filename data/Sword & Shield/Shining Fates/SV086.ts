@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Vous devez défausser 2 cartes de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez chercher dans votre deck un Berserkatt de Galar, le montrer, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
+			fr: "Vous devez défausser 2 cartes de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez chercher dans votre deck un Berserkatt de Galar, le montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
 			en: "You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may search your deck for a Galarian Perrserker, reveal it, and put it into your hand. Then, shuffle your deck.",
 			es: "Debes descartar 2 cartas de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes buscar en tu baraja 1 Perrserker de Galar, enseñarlo y ponerlo en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Devi scartare due carte che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo un Perrserker di Galar, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
@@ -70,7 +70,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Living with a savage, seafaring people has toughened this Pokémon’s body so much that parts of it have turned to iron."
+		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
 	}
 }
 

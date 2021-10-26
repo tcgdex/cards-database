@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Durant is on your Bench, this attack does 60 more damage.",
-				fr: "Si Fermite est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
+				fr: "Si Fermite est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
 				es: "Si Durant está en tu Banca, este ataque hace 60 puntos de daño más.",
 				it: "Se Durant è nella tua panchina, questo attacco infligge 60 danni in più.",
 				pt: "Se Durant estiver no seu Banco, este ataque causará 60 pontos de dano a mais.",
@@ -69,7 +69,9 @@ const card: Card = {
 
 	description: {
 		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles."
-	}
+	},
+
+	dexId: [632]
 }
 
 export default card

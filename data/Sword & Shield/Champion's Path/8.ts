@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach up to 2 Fire Energy cards from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez jusqu’à 2 cartes Énergie Fire de votre pile de défausse à l’un de vos Pokémon de Banc.",
+				fr: "Attachez jusqu'à 2 cartes Énergie Fire de votre pile de défausse à l'un de vos Pokémon de Banc.",
 				es: "Une hasta 2 cartas de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue até 2 cartas de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
@@ -64,7 +64,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",

@@ -30,8 +30,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
-			en: "Put 3 damage counters on your opponent’s Pokémon in any way you like.",
+			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+			en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
 			es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
 			it: "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
 			pt: "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",

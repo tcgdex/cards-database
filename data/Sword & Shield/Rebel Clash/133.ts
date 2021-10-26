@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Honedge’s soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge’s body."
+		en: "Honedge's soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge's body."
 	}
 }
 

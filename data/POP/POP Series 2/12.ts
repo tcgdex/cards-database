@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Bulbasaur",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		1,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -46,17 +48,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Psychic"
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

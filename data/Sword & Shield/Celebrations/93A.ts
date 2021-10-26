@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masahiko Ishii",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fire"],
@@ -24,7 +24,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "When a Pokémon-ex has been knocked out, your opponent takes 2 Prize cards."
+			en: "Once during your turn (before your attack), if Gardevoir ex is your Active Pokémon, you may put an Imprison marker on 1 of your opponent's Pokémon. Any Pokémon that has any Imprison markers on it can't use any Poké-Powers or Poké-Bodies. This power can't be used if Gardevoir ex is affected by a Special Condition."
 		}
 	}],
 

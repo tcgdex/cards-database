@@ -34,7 +34,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Headbutt",
-			fr: "Coup d’Boule",
+			fr: "Coup d'Boule",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
 			pt: "Cabeçada",
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It wears its mother’s skull on its head, so no one knows what its bare face looks like. However, it’s clear that it’s always crying."
+		en: "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying."
 	}
 }
 

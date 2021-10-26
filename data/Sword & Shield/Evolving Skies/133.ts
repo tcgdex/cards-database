@@ -66,7 +66,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [506],
+
+	description: {
+		en: "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

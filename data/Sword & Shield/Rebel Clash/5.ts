@@ -31,7 +31,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Shuffle up to 5 basic Energy cards from your discard pile into your deck.",
-				fr: "Mélangez avec votre deck jusqu’à 5 cartes Énergie de base de votre pile de défausse.",
+				fr: "Mélangez avec votre deck jusqu'à 5 cartes Énergie de base de votre pile de défausse.",
 				es: "Pon hasta 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 				it: "Rimischia fino a cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
 				pt: "Embaralhe até 5 cartas de Energia básica da sua pilha de descarte no seu baralho.",
@@ -54,8 +54,8 @@ const card: Card = {
 				de: "Klammergriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",

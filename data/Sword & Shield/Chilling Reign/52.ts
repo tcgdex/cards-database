@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "You may attach a Lightning Energy card from your hand to 1 of your Benched Pokémon.",
-			fr: "Vous pouvez attacher une carte Énergie Lightning de votre main à l’un de vos Pokémon de Banc.",
+			fr: "Vous pouvez attacher une carte Énergie Lightning de votre main à l'un de vos Pokémon de Banc.",
 			es: "Puedes unir 1 carta de Energía Lightning de tu mano a 1 de tus Pokémon en Banca.",
 			it: "Puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Lightning dalla tua mano.",
 			pt: "Você pode ligar 1 carta de Energia Lightning da sua mão a 1 dos seus Pokémon no Banco.",
@@ -52,7 +52,7 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",

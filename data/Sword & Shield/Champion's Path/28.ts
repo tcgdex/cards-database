@@ -55,9 +55,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fighting Energy from this Pokémon.",
-				fr: "Défaussez une Énergie Fighting de ce Pokémon.",
+				fr: "Défaussez une Énergie Fighting de ce Pokémon.",
 				es: "Descarta 1 Energía Fighting de este Pokémon.",
-				it: "Scarta un’Energia Fighting da questo Pokémon.",
+				it: "Scarta un'Energia Fighting da questo Pokémon.",
 				pt: "Descarte 1 Energia Fighting deste Pokémon.",
 				de: "Lege 1 Fighting-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},

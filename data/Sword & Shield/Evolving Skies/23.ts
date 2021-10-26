@@ -50,11 +50,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent’s Active Pokémon.",
+			en: "Discard an Energy from your opponent's Active Pokémon.",
 			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
 			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Scarta un’Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Discard an Energy from your opponent’s Active Pokémon.",
+			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			pt: "Discard an Energy from your opponent's Active Pokémon.",
 			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -67,7 +67,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Litleo",
+		fr: "Hélionceau",
+		es: "Litleo",
+		it: "Litleo",
+		pt: "Litleo",
+		de: "Leufeo"
+	},
+
+	description: {
+		en: "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokémon prefers to eat raw meat."
+	},
+
+	dexId: [668],
+	regulationMark: "E"
 }
 
 export default card

@@ -17,7 +17,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "During this turn, damage from your Pokémon VMAX’s attacks isn’t affected by any effects on your opponent’s Active Pokémon.",
+		en: "During this turn, damage from your Pokémon VMAX's attacks isn't affected by any effects on your opponent's Active Pokémon.",
 		fr: "Pendant ce tour, les dégâts des attaques de vos Pokémon-VMAX ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 		es: "Durante este turno, el daño de los ataques de tus Pokémon VMAX no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 		it: "Durante questo turno, i danni degli attacchi dei tuoi Pokémon-VMAX non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
@@ -34,7 +34,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	illustrator: "Kagemaru Himeno"
+	illustrator: "Kagemaru Himeno",
+	regulationMark: "E"
 }
 
 export default card

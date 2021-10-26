@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Discard the top 5 cards of your deck. This attack does 100 damage for each Energy card you discarded in this way.",
-			fr: "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 100 dégâts pour chaque carte Énergie défaussée de cette façon.",
+			fr: "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 100 dégâts pour chaque carte Énergie défaussée de cette façon.",
 			es: "Descarta las 5 primeras cartas de tu baraja. Este ataque hace 100 puntos de daño por cada carta de Energía que hayas descartado de esta manera.",
 			it: "Scarta le prime cinque carte del tuo mazzo. Questo attacco infligge 100 danni per ogni carta Energia che hai scartato in questo modo.",
 			pt: "Discard the top 5 cards of your deck. This attack does 100 damage for each Energy card you discarded in this way.",
@@ -55,7 +55,20 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	evolveFrom: {
+		en: "Flareon V",
+		fr: "Pyroli-V",
+		es: "Flareon V",
+		it: "Flareon-V",
+		pt: "Flareon V",
+		de: "Flamara-V"
+	},
+
+	dexId: [136],
+	regulationMark: "E",
+
 }
 
 export default card

@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Cat Kick",
-			fr: "Coup d’Patte",
+			fr: "Coup d'Patte",
 			es: "Patada Gato",
 			it: "Calciogatto",
 			pt: "Chute do Gato",
@@ -34,7 +34,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Claw Slash",
-			fr: "Tranch’Griffe",
+			fr: "Tranch'Griffe",
 			es: "Cuchillada Garra",
 			it: "Lacerartiglio",
 			pt: "Golpe de Garra",
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it’s happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
+		en: "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
 	}
 }
 

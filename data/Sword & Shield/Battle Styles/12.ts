@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scatterbug",
-		fr: "Lépidonille"
+		fr: "Lépidonille",
+		es: "Scatterbug",
+		it: "Scatterbug",
+		pt: "Scatterbug",
+		de: "Purmel"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "Heal 40 damage from this Pokémon.",
-			fr: "Soignez 40 dégâts de ce Pokémon.",
+			fr: "Soignez 40 dégâts de ce Pokémon.",
 			es: "Cura 40 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 40 danni.",
 			pt: "Cure 40 pontos de dano deste Pokémon.",
@@ -76,7 +80,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The beaks of birds can’t begin to scratch its stalwart body. To defend itself, it spews powder."
+		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder."
 	}
 }
 

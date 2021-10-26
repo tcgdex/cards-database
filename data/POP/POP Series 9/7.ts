@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Croagunk",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		453,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,7 +32,7 @@ const card: Card = {
 				en: "Knock Off",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
+				en: "Flip a coin. If heads, choose 1 card from your opponent’s hand without looking and discard it.",
 			},
 
 		},
@@ -49,17 +51,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "+10"
 		},
 	],
 
+	retreat: 2,
 
+	description: {
+		en: "Inflating its poison sacs, it makes an eerie blubbering sound for intimidation."
+	},
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -9,11 +9,11 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Colorless"],
-	stage: "Basic",
+	stage: "MEGA",
 	suffix: "EX",
 
 	abilities: [{

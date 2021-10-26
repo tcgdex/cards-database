@@ -29,11 +29,11 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Smack ’n’ Slack",
+			en: "Smack 'n' Slack",
 			fr: "Raclée Dodo",
 			es: "Manotazo y Relajo",
 			it: "Schiaffopisolo",
-			pt: "Smack ’n’ Slack",
+			pt: "Smack 'n' Slack",
 			de: "Raufen und Ratzen"
 		},
 
@@ -55,7 +55,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [287],
+
+	description: {
+		en: "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

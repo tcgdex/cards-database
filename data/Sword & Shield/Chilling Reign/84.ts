@@ -43,7 +43,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 2 coins. This attack does 40 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
 			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
 			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
 			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",

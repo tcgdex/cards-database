@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Stantler",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		234,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -41,12 +43,13 @@ const card: Card = {
 				en: "Frighten Horn",
 			},
 			effect: {
-				en: "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon is now Confused.",
+				en: "If the Defending Pokémon isn’t an Evolved Pokémon, that Pokémon is now Confused.",
 			},
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -54,10 +57,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Staring at its antlers creates an odd sensation as if one were being drawn into their centers."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

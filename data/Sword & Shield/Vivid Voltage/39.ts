@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chewtle",
-		fr: "Khélocrok"
+		fr: "Khélocrok",
+		es: "Chewtle",
+		it: "Chewtle",
+		pt: "Chewtle",
+		de: "Kamehaps"
 	},
 
 	attacks: [
@@ -42,7 +46,7 @@ const card: Card = {
 				de: "Klammerwelle"
 			},
 			effect: {
-				en: "If you played Nessa from your hand during this turn, your opponent’s Active Pokémon is now Paralyzed.",
+				en: "If you played Nessa from your hand during this turn, your opponent's Active Pokémon is now Paralyzed.",
 				fr: "Si vous avez joué Donna de votre main pendant ce tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Si has jugado 1 carta de Cathy de tu mano durante este turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Se hai giocato Azzurra dalla tua mano durante questo turno, il Pokémon attivo del tuo avversario viene paralizzato.",

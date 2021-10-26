@@ -5,11 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rocket’s Admin."
+		en: "Rocket's Admin."
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	effect: {

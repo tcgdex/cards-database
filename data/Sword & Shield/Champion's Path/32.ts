@@ -41,7 +41,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If the Defending Pokémon is a Basic Pokémon, it can’t attack during your opponent’s next turn.",
+			en: "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.",
 			fr: "Si le Pokémon Défenseur est un Pokémon de base, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			es: "Si el Pokémon Defensor es un Pokémon Básico, no puede atacar durante el próximo turno de tu rival.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon Base.",
@@ -63,7 +63,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 100 more damage.",
-			fr: "Lancez une pièce. Si c’est face, cette attaque inflige 100 dégâts supplémentaires.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts supplémentaires.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 100 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 100 danni in più.",
 			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 100 pontos de dano a mais.",

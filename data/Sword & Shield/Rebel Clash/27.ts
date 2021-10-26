@@ -31,7 +31,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, put a card from your discard pile into your hand.",
-				fr: "Lancez une pièce. Si c’est face, ajoutez une carte de votre pile de défausse à votre main.",
+				fr: "Lancez une pièce. Si c'est face, ajoutez une carte de votre pile de défausse à votre main.",
 				es: "Lanza 1 moneda. Si sale cara, pon 1 carta de tu pila de descartes en tu mano.",
 				it: "Lancia una moneta. Se esce testa, prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
 				pt: "Jogue 1 moeda. Se sair cara, coloque 1 carta da sua pilha de descarte na sua mão.",

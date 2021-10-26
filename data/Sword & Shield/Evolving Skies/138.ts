@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Draw a card. If you go second and it’s your first turn, draw 3 more cards.",
-			fr: "Piochez une carte. Si vous jouez en second et que c’est votre premier tour, piochez 3 cartes supplémentaires.",
+			en: "Draw a card. If you go second and it's your first turn, draw 3 more cards.",
+			fr: "Piochez une carte. Si vous jouez en second et que c'est votre premier tour, piochez 3 cartes supplémentaires.",
 			es: "Roba 1 carta. Si sales segundo y es tu primer turno, roba 3 cartas más.",
 			it: "Pesca una carta. Se inizi per secondo ed è il tuo primo turno, pesca altre tre carte.",
-			pt: "Draw a card. If you go second and it’s your first turn, draw 3 more cards.",
+			pt: "Draw a card. If you go second and it's your first turn, draw 3 more cards.",
 			de: "Ziehe 1 Karte. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, ziehe 3 Karten mehr."
 		},
 
@@ -59,7 +59,7 @@ const card: Card = {
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 			pt: "Flip a coin. If tails, this attack does nothing.",
@@ -80,7 +80,14 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [661],
+
+	description: {
+		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

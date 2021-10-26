@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
 				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
 				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
@@ -83,7 +83,9 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail."
-	}
+	},
+
+	dexId: [835]
 }
 
 export default card

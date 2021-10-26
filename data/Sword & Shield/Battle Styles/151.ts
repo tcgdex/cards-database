@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for up to 2 Fighting Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu’à 2 cartes Énergie Fighting, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie Fighting, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 2 cartas de Energía Fighting y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due carte Energia Fighting e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 2 cartas de Energia Fighting no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
@@ -50,7 +50,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t use Impact Blow.",
+			en: "During your next turn, this Pokémon can't use Impact Blow.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup à Impact.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Impactante.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Colpoimpatto.",

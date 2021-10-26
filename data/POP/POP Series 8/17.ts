@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Turtwig",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		387,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -43,12 +45,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -56,9 +60,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes."
+	},
 
+	retreat: 2,
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

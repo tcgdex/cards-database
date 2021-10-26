@@ -42,7 +42,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Headbutt",
-			fr: "Coup d’Boule",
+			fr: "Coup d'Boule",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
 			pt: "Headbutt",
@@ -53,7 +53,14 @@ const card: Card = {
 		cost: ["Fire", "Water"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	dexId: [371],
+
+	description: {
+		en: "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

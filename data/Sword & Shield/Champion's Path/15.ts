@@ -39,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 				es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 				it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
@@ -57,7 +57,7 @@ const card: Card = {
 			],
 			name: {
 				en: "G-Max Headbutt",
-				fr: "Coup d’Boule G-Max",
+				fr: "Coup d'Boule G-Max",
 				es: "Gigagolpe Cabeza",
 				it: "Gigabottintesta",
 				pt: "Cabeçada G-Max",
@@ -65,7 +65,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 80 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 80 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 80 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 80 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 80 danni in più.",
 				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 80 pontos de dano a mais.",

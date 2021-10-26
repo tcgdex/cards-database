@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -51,7 +51,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t use Sky Hurricane.",
+			en: "During your next turn, this Pokémon can't use Sky Hurricane.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Vent Violent Céleste.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Vendaval de los Cielos.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Tifone Aereo.",

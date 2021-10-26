@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud’Korne",
+				fr: "Koud'Korne",
 				es: "Cornada",
 				it: "Incornata",
 				pt: "Ataque de Chifre",
@@ -78,7 +78,9 @@ const card: Card = {
 
 	description: {
 		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started."
-	}
+	},
+
+	dexId: [111]
 }
 
 export default card

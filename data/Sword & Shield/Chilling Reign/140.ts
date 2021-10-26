@@ -18,7 +18,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Cherchez dans votre deck une carte Énergie Psychic ou une carte Pokémon Psychic de base, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+		fr: "Cherchez dans votre deck une carte Énergie Psychic ou une carte Pokémon Psychic de base, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 		en: "Search your deck for a Psychic Energy card or a Basic Psychic Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
 		es: "Busca en tu baraja 1 carta de Energía Psychic o 1 Pokémon Psychic Básico, enseña esa carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo una carta Energia Psychic o un Pokémon Base Psychic, mostra la carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",

@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scorbunny",
 		fr: "Flambino",
+		es: "Scorbunny",
+		it: "Scorbunny",
+		pt: "Scorbunny",
+		de: "Hopplo"
 	},
 
 	stage: "Stage1",
@@ -35,7 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Kick",
-				fr: "Koud’Pied",
+				fr: "Koud'Pied",
 				es: "Patada",
 				it: "Calcio",
 				pt: "Chute",
@@ -83,7 +87,9 @@ const card: Card = {
 
 	description: {
 		en: "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves."
-	}
+	},
+
+	dexId: [814]
 }
 
 export default card

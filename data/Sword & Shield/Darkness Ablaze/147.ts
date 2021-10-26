@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Staravia",
-		fr: "Étourvol"
+		fr: "Étourvol",
+		es: "Staravia",
+		it: "Staravia",
+		pt: "Staravia",
+		de: "Staravia"
 	},
 
 	attacks: [
@@ -43,7 +47,7 @@ const card: Card = {
 				en: "Move any amount of Energy from your Pokémon to your other Pokémon in any way you like.",
 				fr: "Déplacez autant de cartes Énergie attachées à vos Pokémon que vous le voulez vers vos autres Pokémon, comme il vous plaît.",
 				es: "Mueve cualquier cantidad de Energías de tus Pokémon a tus otros Pokémon de la manera que desees.",
-				it: "Sposta un numero qualsiasi di Energie dall’uno all’altro dei tuoi Pokémon nel modo che preferisci.",
+				it: "Sposta un numero qualsiasi di Energie dall'uno all'altro dei tuoi Pokémon nel modo che preferisci.",
 				pt: "Mova qualquer quantidade de Energia dos seus Pokémon para outros Pokémon seus como desejar.",
 				de: "Verschiebe beliebig viele Energien von deinen Pokémon beliebig auf deine anderen Pokémon."
 			},
@@ -66,7 +70,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 30 dégâts.",
+				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
 				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
 				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",

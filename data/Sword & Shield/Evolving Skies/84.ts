@@ -58,7 +58,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	description: {
+		en: "This Pokémon is active during the day and passes the cold desert nights burrowed snugly into the sand."
+	},
+
+	dexId: [449],
+	regulationMark: "E"
 }
 
 export default card

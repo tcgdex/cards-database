@@ -67,7 +67,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [288],
+
+	evolveFrom: {
+		en: "Slakoth",
+		fr: "Parecool",
+		es: "Slakoth",
+		it: "Slakoth",
+		pt: "Slakoth",
+		de: "Bummelz"
+	},
+
+	description: {
+		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

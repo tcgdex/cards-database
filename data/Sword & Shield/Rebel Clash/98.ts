@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meditite",
-		fr: "Méditikka"
+		fr: "Méditikka",
+		es: "Meditite",
+		it: "Meditite",
+		pt: "Meditite",
+		de: "Meditie"
 	},
 
 	attacks: [
@@ -35,7 +39,7 @@ const card: Card = {
 				de: "Yogakick"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness or Resistance.",
+				en: "This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
 				es: "El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
 				it: "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
@@ -60,8 +64,8 @@ const card: Card = {
 				de: "Psychokinese"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Energy attached to your opponent’s Active Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 				es: "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
@@ -94,7 +98,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Through yoga training, it gained the psychic power to predict its foe’s next move."
+		en: "Through yoga training, it gained the psychic power to predict its foe's next move."
 	}
 }
 

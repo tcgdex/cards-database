@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Meowth",
-		fr: "Miaouss de Galar"
+		fr: "Miaouss de Galar",
+		es: "Meowth de Galar",
+		it: "Meowth di Galar",
+		pt: "Meowth de Galar",
+		de: "Galar-Mauzi"
 	},
 
 	attacks: [
@@ -55,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 80 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
 				es: "Lanza 3 monedas. Este ataque hace 80 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 80 pontos de dano para cada cara.",

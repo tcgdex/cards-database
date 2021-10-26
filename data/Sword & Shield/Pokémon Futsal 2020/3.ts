@@ -26,7 +26,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your opponent’s next turn, the Defending Pokémon can’t retreat."
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
 		}
 	}, {
 		cost: ["Grass", "Grass", "Colorless"],

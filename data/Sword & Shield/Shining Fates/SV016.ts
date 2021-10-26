@@ -35,7 +35,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 			en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
 			es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
@@ -47,7 +47,7 @@ const card: Card = {
 		cost: ["Fire"]
 	}, {
 		name: {
-			fr: "Coup d’Pied Magnum",
+			fr: "Coup d'Pied Magnum",
 			en: "Magnum Kick",
 			es: "Patada Mágnum",
 			it: "Supercalcio",

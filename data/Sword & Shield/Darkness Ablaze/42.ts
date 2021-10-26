@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Panpour",
-		fr: "Flotajou"
+		fr: "Flotajou",
+		es: "Panpour",
+		it: "Panpour",
+		pt: "Panpour",
+		de: "Sodamak"
 	},
 
 	attacks: [
@@ -36,7 +40,7 @@ const card: Card = {
 				fr: "Pistolet à O",
 				es: "Pistola Agua",
 				it: "Pistolacqua",
-				pt: "Revólver d’Água",
+				pt: "Revólver d'Água",
 				de: "Aquaknarre"
 			},
 
@@ -58,7 +62,7 @@ const card: Card = {
 				de: "Gigastoß"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t attack.",
+				en: "During your next turn, this Pokémon can't attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",

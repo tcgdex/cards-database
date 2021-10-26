@@ -61,7 +61,14 @@ const card: Card = {
 		cost: ["Psychic", "Darkness"]
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [633],
+
+	description: {
+		en: "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

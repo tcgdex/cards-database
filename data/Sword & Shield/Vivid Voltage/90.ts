@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
@@ -67,7 +67,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It’s exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience."
+		en: "It's exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience."
 	}
 }
 

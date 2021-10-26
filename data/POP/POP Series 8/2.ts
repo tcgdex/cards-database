@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Lucario",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Riolu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -33,7 +37,7 @@ const card: Card = {
 				en: "Blocking Punch",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Lucario by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent’s next turn, any damage done to Lucario by attacks is reduced by 20 (after applying Weakness and Resistance).",
 			},
 			damage: 40,
 
@@ -48,23 +52,32 @@ const card: Card = {
 				en: "Striking Kick",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects of the Defending Pokémon.",
+				en: "This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 			},
 			damage: 60,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "+20"
 		},
 	],
 
+	description: {
+		en: "By catching the aura emanating from others, it can read their thoughts and movements."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -84,7 +88,9 @@ const card: Card = {
 
 	description: {
 		en: "Its long tail serves as a ground to protect itself from its own high-voltage power."
-	}
+	},
+
+	dexId: [26]
 }
 
 export default card

@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sealeo",
-		fr: "Phogleur"
+		fr: "Phogleur",
+		es: "Sealeo",
+		it: "Sealeo",
+		pt: "Sealeo",
+		de: "Seejong"
 	},
 
 	attacks: [{
@@ -47,8 +51,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon. Your opponent’s Active Pokémon is now Paralyzed.",
-			fr: "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			en: "Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			es: "Descarta 2 Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Scarta due Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
 			pt: "Descarte 2 Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",

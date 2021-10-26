@@ -31,7 +31,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If your opponent has 3 or fewer Prize cards remaining, this attack does 50 more damage.",
-				fr: "S’il reste 3 cartes Récompense ou moins à votre adversaire, cette attaque inflige 50 dégâts supplémentaires.",
+				fr: "S'il reste 3 cartes Récompense ou moins à votre adversaire, cette attaque inflige 50 dégâts supplémentaires.",
 				es: "Si a tu rival le quedan 3 o menos cartas de Premio, este ataque hace 50 puntos de daño más.",
 				it: "Se il tuo avversario ha tre o meno carte Premio rimanenti, questo attacco infligge 50 danni in più.",
 				pt: "Se o seu oponente tiver 3 ou menos cartas de Prêmio restantes, este ataque causará 50 pontos de dano a mais.",

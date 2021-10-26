@@ -34,7 +34,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	illustrator: "Ryo Ueda"
+	illustrator: "Ryo Ueda",
+	regulationMark: "E"
 }
 
 export default card

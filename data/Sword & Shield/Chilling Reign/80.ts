@@ -36,8 +36,8 @@ const card: Card = {
 			de: "Kampfinstinkt"
 		},
 		effect: {
-			en: "This Pokémon’s attacks cost Colorless less for each of your opponent’s Pokémon V in play.",
-			fr: "Les attaques de ce Pokémon coûtent Colorless de moins pour chaque Pokémon-V en jeu de votre adversaire.",
+			en: "This Pokémon's attacks cost Colorless less for each of your opponent's Pokémon V in play.",
+			fr: "Les attaques de ce Pokémon coûtent Colorless de moins pour chaque Pokémon-V en jeu de votre adversaire.",
 			es: "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon V en juego de tu rival.",
 			it: "Il costo degli attacchi di questo Pokémon è ridotto di Colorless per ogni Pokémon-V in gioco del tuo avversario.",
 			pt: "Os ataques deste Pokémon custam Colorless a menos para cada Pokémon V do seu oponente em jogo.",
@@ -62,10 +62,10 @@ const card: Card = {
 				de: "Donnernder Tritt"
 			},
 			effect: {
-				en: "Before doing damage, discard a Special Energy from your opponent’s Active Pokémon.",
-				fr: "Avant d’infliger des dégâts, défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				en: "Before doing damage, discard a Special Energy from your opponent's Active Pokémon.",
+				fr: "Avant d'infliger des dégâts, défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
 				es: "Antes de infligir daño, descarta 1 Energía Especial del Pokémon Activo de tu rival.",
-				it: "Prima di infliggere danni, scarta un’Energia speciale dal Pokémon attivo del tuo avversario.",
+				it: "Prima di infliggere danni, scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
 				pt: "Antes de causar dano, descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
 				de: "Bevor du Schaden zufügst, lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},

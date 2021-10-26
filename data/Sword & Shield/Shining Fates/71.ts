@@ -18,7 +18,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Attachez jusqu’à 2 cartes Énergie de base de votre pile de défausse à l’un de vos Pokémon-VMAX. Si vous avez attaché au moins une carte Énergie de cette façon, défaussez votre main.",
+		fr: "Attachez jusqu'à 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon-VMAX. Si vous avez attaché au moins une carte Énergie de cette façon, défaussez votre main.",
 		en: "Attach up to 2 basic Energy cards from your discard pile to 1 of your Pokémon VMAX. If you attached any Energy cards in this way, discard your hand.",
 		es: "Une hasta 2 cartas de Energía Básica de tu pila de descartes a 1 de tus Pokémon VMAX. Si has unido alguna carta de Energía de esta manera, descarta las cartas de tu mano.",
 		it: "Assegna a uno dei tuoi Pokémon-VMAX fino a due carte Energia base dalla tua pila degli scarti. Se hai assegnato delle carte Energia in questo modo, scarta le carte che hai in mano.",

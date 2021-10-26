@@ -31,7 +31,7 @@ const card: Card = {
 
 		effect: {
 			en: "You may draw cards until you have 6 cards in your hand.",
-			fr: "Vous pouvez piocher des cartes jusqu’à en avoir 6 en main.",
+			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
 			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
 			it: "Puoi pescare fino ad avere sei carte in mano.",
 			pt: "Você pode comprar cartas até ter 6 cartas na sua mão.",

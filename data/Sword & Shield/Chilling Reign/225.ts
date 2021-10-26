@@ -17,7 +17,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put a Basic Pokémon from your opponent’s discard pile onto their Bench.",
+		en: "Put a Basic Pokémon from your opponent's discard pile onto their Bench.",
 		fr: "Placez un Pokémon de base de la pile de défausse de votre adversaire sur son Banc.",
 		es: "Pon 1 Pokémon Básico de la pila de descartes de tu rival en su Banca.",
 		it: "Prendi un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua panchina.",
@@ -34,7 +34,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	illustrator: "Studio Bora Inc."
+	illustrator: "Studio Bora Inc.",
+	regulationMark: "E"
 }
 
 export default card

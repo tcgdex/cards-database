@@ -6,11 +6,15 @@ const card: Card = {
 
 	name: {
 		en: "Luxray",
-		fr: "Luxray"
+		fr: "Luxray",
+		es: "Luxray",
+		it: "Luxray",
+		pt: "Luxray",
+		de: "Luxtra"
 	},
 
 	illustrator: "Megumi Higuchi",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
@@ -23,12 +27,20 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Raid",
-			fr: "Razzia Obscure"
+			fr: "Razzia Obscure",
+			es: "Raid Oscuro",
+			it: "Raid",
+			pt: "Raid",
+			de: "Überfall"
 		},
 
 		effect: {
 			en: "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
-			fr: "Si ce Pokémon a évolué de Luxio pendant ce tour, cette attaque inflige 100 dégâts supplémentaires."
+			fr: "Si ce Pokémon a évolué de Luxio pendant ce tour, cette attaque inflige 100 dégâts supplémentaires.",
+			es: "Si este Pokémon ha evolucionado de Luxio durante este turno, este ataque hace 100 puntos de daño más.",
+			it: "Se questo Pokémon si è evoluto da Luxio durante questo turno, questo attacco infligge 100 danni in più.",
+			pt: "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
+			de: "Wenn sich dieses Pokémon während dieses Zuges aus Luxio entwickelt hat, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+",
@@ -36,7 +48,11 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Head Bolt",
-			fr: "Éclair Frontal"
+			fr: "Éclair Frontal",
+			es: "Rayo de Cabeza",
+			it: "Zuccalampo",
+			pt: "Head Bolt",
+			de: "Kopf-Blitz"
 		},
 
 		damage: 120,
@@ -48,7 +64,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
+	},
+
+	stage: "Stage2",
+	dexId: [405],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	regulationMark: "D"
 }
 
 export default card

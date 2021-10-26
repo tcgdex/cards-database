@@ -54,8 +54,8 @@ const card: Card = {
 				de: "Wilder Schock"
 			},
 			effect: {
-				en: "This Pokémon also does 60 damage to itself. Your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Ce Pokémon s’inflige aussi 60 dégâts. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "This Pokémon also does 60 damage to itself. Your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Ce Pokémon s'inflige aussi 60 dégâts. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Este Pokémon también se hace 60 puntos de daño a sí mismo. El Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Questo Pokémon infligge anche 60 danni a se stesso. Il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Este Pokémon também causa 60 pontos de dano a si mesmo. O Pokémon Ativo do seu oponente agora está Paralisado.",

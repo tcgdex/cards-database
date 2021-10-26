@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "Draw 3 cards.",
-		fr: "Piochez 3 cartes.",
+		fr: "Piochez 3 cartes.",
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cartas.",
