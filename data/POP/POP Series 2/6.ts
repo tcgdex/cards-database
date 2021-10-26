@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Venusaur",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Ivysaur",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -34,7 +38,7 @@ const card: Card = {
 				en: "Wide Solarbeam",
 			},
 			effect: {
-				en: "Does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 20 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 20,
 
@@ -50,23 +54,27 @@ const card: Card = {
 				en: "Hard Plant",
 			},
 			effect: {
-				en: "Venusaur can't use Hard Plant during your next turn.",
+				en: "Venusaur can’t use Hard Plant during your next turn.",
 			},
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Fire"
 		},
 	],
 
+	retreat: 3,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

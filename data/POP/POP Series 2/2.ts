@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Pidgeot",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		18,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Pidgeotto",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -29,10 +34,11 @@ const card: Card = {
 				en: "Beating Wings",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), If Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it in your deck. This power can't be used if Pidgeot is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it into your deck. This power can’t be used if Pidgeot is affected by a Special Condition.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -46,16 +52,17 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 30 more damage.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Lightning"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -63,9 +70,14 @@ const card: Card = {
 		},
 	],
 
+	retreat: 0,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

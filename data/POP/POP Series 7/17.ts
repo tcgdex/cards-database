@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Spinda",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		327,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,10 +46,11 @@ const card: Card = {
 			effect: {
 				en: "If any basic Energy card attached to Spinda is the same type as any Energy attached to the Defending Pokémon, this attack does 10 damage plus 30 more damage.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -55,10 +58,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "No two SPINDA have the same pattern of spots. Its tottering step fouls the aim of foes."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

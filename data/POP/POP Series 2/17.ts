@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Celebi ex",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		251,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -41,23 +45,21 @@ const card: Card = {
 				en: "Psychic Shield",
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent's Pokémon",
+				en: "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent’s Pokémon-ex during your opponent’s next turn.",
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Psychic"
 		},
 	],
 
-
-
-
-
+	suffix: "EX",
+	retreat: 1
 }
 
 export default card

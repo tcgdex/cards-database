@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Regigigas",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		486,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,10 +52,11 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,10 +64,18 @@ const card: Card = {
 		},
 	],
 
+	retreat: 4,
 
+	description: {
+		en: "There is an enduring legend that states this Pokémon towed continents with ropes."
+	},
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

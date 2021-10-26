@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Mew",
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		151,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Reactive Barrier",
 			},
 			effect: {
-				en: "As long as Mew has any React Energy cards attached to it, prevent all effects, excluding damage, done to Mew by attacks from your opponent's Pokémon.",
+				en: "As long as Mew has any React Energy cards attached to it, prevent all effects, excluding damage, done to Mew by attacks from your opponent’s Pokémon.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -47,17 +51,21 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Psychic"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

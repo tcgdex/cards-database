@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Mothim",
 	},
+
 	illustrator: "Kazuyuki Kano",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		414,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Burmy",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -45,16 +49,18 @@ const card: Card = {
 			effect: {
 				en: "If Mothim has any damage counters on it, this attack does 30 damage plus 40 more damage.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -62,9 +68,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It loves the honey of flowers and steals honey collected by COMBEE."
+	},
 
+	retreat: 0,
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

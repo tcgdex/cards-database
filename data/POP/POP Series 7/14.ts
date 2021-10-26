@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Mareep",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		179,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,12 +50,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -61,9 +65,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking."
+	},
 
+	retreat: 1,
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

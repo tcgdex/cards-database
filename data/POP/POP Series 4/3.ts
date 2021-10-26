@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Flygon",
 	},
+
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		330,
 	],
+
 	hp: 120,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Vibrava",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -33,6 +38,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,23 +63,27 @@ const card: Card = {
 				en: "Sand Pit",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
 			},
 			damage: 70,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Water"
 		},
 	],
 
+	retreat: 2,
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

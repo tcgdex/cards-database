@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Entei",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		244,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -33,7 +35,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -52,17 +54,21 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Water"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

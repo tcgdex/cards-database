@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Rayquaza",
 	},
+
 	illustrator: "Katsura Tabata",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,7 +32,7 @@ const card: Card = {
 				en: "Fly",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Rayquaza during your opponent's next turn.",
+				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Rayquaza during your opponent’s next turn.",
 			},
 			damage: 10,
 
@@ -48,17 +50,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Colorless",
-			value: "×2"
+			type: "Colorless"
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

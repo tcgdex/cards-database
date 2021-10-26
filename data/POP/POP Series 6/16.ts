@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Starly",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		396,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,16 +46,18 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -61,9 +65,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "They flock in great numbers. Though small, they flap their wings with great power."
+	},
 
+	retreat: 1,
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

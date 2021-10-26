@@ -3,25 +3,29 @@ import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon (Delta Species)",
+		en: "Charmeleon δ",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		5,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Charmander",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,17 +56,21 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Water"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

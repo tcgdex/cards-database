@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Blastoise",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Unown",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -49,23 +53,27 @@ const card: Card = {
 				en: "Rocket Tackle",
 			},
 			effect: {
-				en: "Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent's next turn.",
+				en: "Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent’s next turn.",
 			},
 			damage: 60,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Lightning"
 		},
 	],
 
+	retreat: 2,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

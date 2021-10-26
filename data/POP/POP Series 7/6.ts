@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Delibird",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		225,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -51,10 +54,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card
