@@ -21,43 +21,41 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Setup NodeJS
-      uses: actions/setup-node@v2.4.1
-      with:
-        node-version: 16.x
+      - name: Setup NodeJS
+        uses: actions/setup-node@v2.4.1
+        with:
+          node-version: 16.x
 
-    - name: Install packages
-      run: npm ci
+      - name: Install packages
+        run: npm ci
 
-    # Compile the DB To make sure Typescript types are respected !
-    - name: Compile the database
-      run: npm run compile
+      # Compile the DB To make sure Typescript types are respected !
+      - name: Compile the database
+        run: npm run compile
 
-    # Build the database
-    - name: Build the database
-      run: cd meta/compiler && npm ci && npm run start
+      # Build the database
+      - name: Build the database
+        run: npm run build
 
-    # Upload Artifact
-    - uses: actions/upload-artifact@v2
-      with:
-        name: Compiled Database
-        path: dist # or path/to/artifact
+      # Upload Artifact
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Compiled Database
+          path: dist # or path/to/artifact
 
-    # Zip compiled DB
-    - name: Zip Release
-      if: startsWith( github.ref, 'refs/tags/releases/')
-      uses: TheDoctor0/zip-release@0.6.0
-      with:
-        type: zip
-        filename: 'db.zip'
-        path: dist
+      # Zip compiled DB
+      - name: Zip Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: TheDoctor0/zip-release@0.6.0
+        with:
+          type: zip
+          filename: 'db.zip'
+          path: dist
 
-    # Upload to release
-    - name: Upload Release
-      if: startsWith( github.ref, 'refs/tags/releases/')
-      uses: ncipollo/release-action@v1
-      with:
-        artifacts: "db.zip"
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: db.zip
