@@ -28,18 +28,13 @@ jobs:
     - name: Install packages
       run: npm ci
 
-    - name: Build the database
+    - name: Compile the database
       run: npm run compile
 
-  push:
-    name: Launch the compiler
-    needs: test
-    if: ${{ github.event_name == 'push' }}
-    runs-on: ubuntu-latest
-    steps:
-    - name: Compiler Dispatch
-      uses: peter-evans/repository-dispatch@v1
+    - name: Compile the database
+      run: npm run compile
+
+   - uses: actions/upload-artifact@v2
       with:
-        token: ${{ secrets.PAC }}
-        repository: tcgdex/compiler
-        event-type: card-database-update
+      name: Compiled Database
+      path: dist # or path/to/artifact
