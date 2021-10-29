@@ -4,6 +4,7 @@
 		"target": "es5",
 		"module": "commonjs",
 		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true
 	}
 }
