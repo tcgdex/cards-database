@@ -34,7 +34,7 @@ jobs:
     - name: Compile the database
       run: npm run compile
 
-   - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v2
       with:
       name: Compiled Database
       path: dist # or path/to/artifact
