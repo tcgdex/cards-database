@@ -1,10 +1,10 @@
-import { smartGlob } from './util'
+import { DB_PATH, smartGlob } from './util'
 import { setToSetSimple, getSets } from './setUtil'
 import { Serie, SupportedLanguages, Set } from '../../../interfaces'
 import { Serie as SerieSingle, SerieResume } from '../../definitions/api'
 
 export async function getSerie(name: string): Promise<Serie> {
-	return (await import(`../db/data/${name}.js`)).default
+	return (await import(`../${DB_PATH}/data/${name}.js`)).default
 }
 
 export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): Promise<boolean> {
@@ -16,7 +16,7 @@ export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): 
 }
 
 export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>> {
-	let series: Array<Serie> = (await Promise.all((await smartGlob('./db/data/*.js'))
+	let series: Array<Serie> = (await Promise.all((await smartGlob(`${DB_PATH}/data/*.js`))
 		// Find Serie's name
 		.map((it) => it.substring(it.lastIndexOf('/') + 1, it.length - 3))
 		// Fetch the Serie

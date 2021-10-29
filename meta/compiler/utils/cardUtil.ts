@@ -1,6 +1,6 @@
 /* eslint-disable sort-keys */
 import { setToSetSimple } from './setUtil'
-import { cardIsLegal, fetchRemoteFile, smartGlob } from './util'
+import { cardIsLegal, DB_PATH, fetchRemoteFile, smartGlob } from './util'
 import { Set, SupportedLanguages, Card, Types } from '../../../interfaces'
 import { Card as CardSingle, CardResume } from '../../definitions/api'
 import translate from './translationUtil'
@@ -117,11 +117,11 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
  * @returns [the local id, the Card object]
  */
 export async function getCard(serie: string, setName: string, id: string): Promise<Card> {
-	return (await import(`../db/data/${serie}/${setName}/${id}.js`)).default
+	return (await import(`../${DB_PATH}/data/${serie}/${setName}/${id}.js`)).default
 }
 
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	const cards = await smartGlob(`./db/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.js`)
+	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.js`)
 	const list: Array<[string, Card]> = []
 	for (const path of cards) {
 		const id = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'))

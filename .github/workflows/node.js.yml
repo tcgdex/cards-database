@@ -11,6 +11,8 @@ on:
       - 'data/**'
       - 'meta/**'
       - '.github/workflows/**'
+    tags:
+    - '*'
   pull_request:
 
 jobs:
@@ -29,13 +31,33 @@ jobs:
     - name: Install packages
       run: npm ci
 
+    # Compile the DB To make sure Typescript types are respected !
     - name: Compile the database
       run: npm run compile
 
+    # Build the database
     - name: Build the database
       run: cd meta/compiler && npm ci && npm run start
 
+    # Upload Artifact
     - uses: actions/upload-artifact@v2
       with:
         name: Compiled Database
         path: dist # or path/to/artifact
+
+    # Zip compiled DB
+    - name: Zip Release
+      if: startsWith( github.ref, 'refs/tags/releases/')
+      uses: TheDoctor0/zip-release@0.6.0
+      with:
+        type: zip
+        filename: 'db.zip'
+        path: dist
+
+    # Upload to release
+    - name: Upload Release
+      if: startsWith( github.ref, 'refs/tags/releases/')
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "db.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}

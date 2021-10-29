@@ -7,6 +7,8 @@ interface fileCacheInterface {
 	[key: string]: any
 }
 
+export const DB_PATH = "../../"
+
 const fileCache: fileCacheInterface = {}
 
 export async function fetchRemoteFile<T = any>(url: string): Promise<T> {
