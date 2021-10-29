@@ -2,9 +2,6 @@
 import { Endpoint } from './compilerInterfaces'
 import { promises as fs } from 'fs'
 import { fetchRemoteFile } from './utils/util'
-import { config } from 'dotenv'
-
-config()
 
 const LANGS = ['en', 'fr', 'es', 'it', 'pt', 'de']
 
