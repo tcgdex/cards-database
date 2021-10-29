@@ -10,6 +10,7 @@ on:
     paths:
       - 'data/**'
       - 'meta/**'
+      - '.github/workflows/**'
   pull_request:
 
 jobs:
@@ -36,5 +37,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-      name: Compiled Database
-      path: dist # or path/to/artifact
+        name: Compiled Database
+        path: dist # or path/to/artifact
