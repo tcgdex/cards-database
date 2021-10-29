@@ -52,7 +52,7 @@ jobs:
         with:
           type: zip
           filename: 'db.zip'
-          path: dist
+          directory: dist
 
       - name: Release
         uses: softprops/action-gh-release@v1
