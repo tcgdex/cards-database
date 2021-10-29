@@ -58,4 +58,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: db.zip
+          files: dist/db.zip
