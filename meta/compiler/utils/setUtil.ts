@@ -1,7 +1,7 @@
 import { Set, SupportedLanguages } from '../../../interfaces'
 import { fetchRemoteFile, setIsLegal, smartGlob } from './util'
 import { cardToCardSimple, getCards } from './cardUtil'
-import { SetResume, Set as SetSingle } from '@tcgdex/sdk/dist/types/interfaces'
+import { SetResume, Set as SetSingle } from '../../definitions/api'
 
 interface t {
 	[key: string]: Set

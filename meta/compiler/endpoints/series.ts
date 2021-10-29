@@ -1,7 +1,9 @@
-import { Serie as SerieSingle, SerieList, SerieResume } from '@tcgdex/sdk/dist/types/interfaces'
+import { Serie as SerieSingle, SerieResume } from '../../definitions/api'
 import { Languages, Serie } from '../../../interfaces'
 import { Endpoint } from '../compilerInterfaces'
 import { getSeries, serieToSerieSimple, serieToSerieSingle } from '../utils/serieUtil'
+
+type SerieList = Array<SerieResume>
 
 export default class implements Endpoint<SerieList, SerieSingle, Record<string, any>, Array<Serie>> {
 

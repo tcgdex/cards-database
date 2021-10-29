@@ -1,8 +1,10 @@
-import { SetList, Set as SetSingle, Card as CardSingle } from '@tcgdex/sdk/dist/types/interfaces'
+import { Set as SetSingle, Card as CardSingle, SetResume } from '../../definitions/api'
 import { getSets, isSetAvailable, setToSetSimple, setToSetSingle } from '../utils/setUtil'
 import { Languages, Set } from '../../../interfaces'
 import { Endpoint } from '../compilerInterfaces'
 import { cardToCardSingle, getCards } from '../utils/cardUtil'
+
+type SetList = Array<SetResume>
 
 export default class implements Endpoint<SetList, SetSingle, CardSingle, Array<Set>> {
 

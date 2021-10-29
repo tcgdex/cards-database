@@ -2,7 +2,7 @@
 import { setToSetSimple } from './setUtil'
 import { cardIsLegal, fetchRemoteFile, smartGlob } from './util'
 import { Set, SupportedLanguages, Card, Types } from '../../../interfaces'
-import { Card as CardSingle, CardResume } from '@tcgdex/sdk/dist/types/interfaces'
+import { Card as CardSingle, CardResume } from '../../definitions/api'
 import translate from './translationUtil'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {

@@ -1,7 +1,9 @@
-import { CardList, Card as CardSingle } from '@tcgdex/sdk/dist/types/interfaces'
+import { Card as CardSingle, CardResume } from '../../definitions/api'
 import { Card, Languages } from '../../../interfaces'
 import { Endpoint } from '../compilerInterfaces'
 import { cardToCardSimple, cardToCardSingle, getCards } from '../utils/cardUtil'
+
+type CardList = Array<CardResume>
 
 export default class implements Endpoint<CardList, CardSingle, Record<string, unknown>, Array<[string, Card]>> {
 

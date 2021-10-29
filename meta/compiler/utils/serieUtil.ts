@@ -1,7 +1,7 @@
 import { smartGlob } from './util'
 import { setToSetSimple, getSets } from './setUtil'
 import { Serie, SupportedLanguages, Set } from '../../../interfaces'
-import { Serie as SerieSingle, SerieResume } from '@tcgdex/sdk/dist/types/interfaces'
+import { Serie as SerieSingle, SerieResume } from '../../definitions/api'
 
 export async function getSerie(name: string): Promise<Serie> {
 	return (await import(`../db/data/${name}.js`)).default
