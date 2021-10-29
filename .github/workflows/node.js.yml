@@ -31,8 +31,8 @@ jobs:
     - name: Compile the database
       run: npm run compile
 
-    - name: Compile the database
-      run: npm run compile
+    - name: Build the database
+      run: cd meta/compiler && npm ci && npm run start
 
     - uses: actions/upload-artifact@v2
       with:
