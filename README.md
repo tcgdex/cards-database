@@ -1,7 +1,4 @@
 <p align="center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 	<a href="https://www.tcgdex.net">
 		<img src="https://repository-images.githubusercontent.com/241652591/01dd7200-ca01-11eb-98e0-d8f04e7dfe42" width="50%" alt="Discord Link">
 	</a>
@@ -19,6 +16,11 @@
 	<a href="https://github.com/tcgdex/compiler">
 		<img src="https://img.shields.io/github/workflow/status/tcgdex/cards-database/Compile?style=flat-square" alt="Compiler build passing" />
 	</a>
+	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+	<a href="#contributors-">
+		<img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" alt="Compiler build passing" />
+	</a>
+	<!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
 # Pokemon TCGdex Cards Database
