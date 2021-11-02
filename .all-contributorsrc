@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "badgeTemplate": "<a href=\"#contributors-\"><img src=\"https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square\" alt=\"All Contributors Badge\" /></a>",
+  "contributors": [
+    {
+      "login": "Aviortheking",
+      "name": "Avior",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15822031?v=4",
+      "profile": "https://www.avior.me/",
+      "contributions": [
+        "code",
+        "data"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cards-database",
+  "projectOwner": "tcgdex",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

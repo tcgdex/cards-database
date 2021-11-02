@@ -16,6 +16,11 @@
 	<a href="https://github.com/tcgdex/compiler">
 		<img src="https://img.shields.io/github/workflow/status/tcgdex/cards-database/Compile?style=flat-square" alt="Compiler build passing" />
 	</a>
+	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+	<a href="#contributors-">
+		<img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" alt="Compiler build passing" />
+	</a>
+	<!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
 # Pokemon TCGdex Cards Database
@@ -74,3 +79,23 @@ As of February 2021, the v1 API is no longer supported.
 This database is not produced, endorsed, supported or affiliated with Nintendo or The Pokémon Company
 
 The Database is licensed under the MIT License. A copy of the license is available in [LICENSE](./LICENSE)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.avior.me/"><img src="https://avatars.githubusercontent.com/u/15822031?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avior</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/commits?author=Aviortheking" title="Code">💻</a> <a href="#data-Aviortheking" title="Data">🔣</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
