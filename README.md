@@ -65,6 +65,10 @@ TL::DR
 - make your changes
 - pull request
 
+<a href = "https://github.com/tcgdex/cards-database/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=tcgdex/cards-database"/>
+</a>
+
 ## Deprecation
 
 As of February 2021, the v1 API is no longer supported.
