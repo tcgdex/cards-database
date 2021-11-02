@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Aviortheking",
+      "name": "Avior",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15822031?v=4",
+      "profile": "https://www.avior.me/",
+      "contributions": [
+        "code",
+        "data"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cards-database",
+  "projectOwner": "tcgdex",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
