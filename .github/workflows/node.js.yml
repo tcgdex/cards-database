@@ -11,6 +11,9 @@ on:
       - 'data/**'
       - 'meta/**'
   pull_request:
+    paths:
+      - 'data/**'
+      - 'meta/**'
 
 jobs:
   test:
