@@ -17,10 +17,8 @@
 		<img src="https://img.shields.io/github/workflow/status/tcgdex/cards-database/Compile?style=flat-square" alt="Compiler build passing" />
 	</a>
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-	<a href="#contributors-">
-		<img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" alt="Compiler build passing" />
-	</a>
-	<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square" alt="All Contributors Badge" /></a>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
 # Pokemon TCGdex Cards Database
@@ -90,6 +88,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.avior.me/"><img src="https://avatars.githubusercontent.com/u/15822031?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avior</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/commits?author=Aviortheking" title="Code">💻</a> <a href="#data-Aviortheking" title="Data">🔣</a></td>
+    <td align="center"><a href="https://github.com/JuneTwooo"><img src="https://avatars.githubusercontent.com/u/1458019?v=4?s=100" width="100px;" alt=""/><br /><sub><b>June</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/issues?q=author%3AJuneTwooo" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
