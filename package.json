@@ -1,8 +1,7 @@
 {
 	"private": true,
 	"scripts": {
-		"compile": "tsc --project tsconfig.json",
-		"build": "cd meta/compiler && node --require ts-node/register --unhandled-rejections=strict index.ts"
+		"compile": "tsc --project tsconfig.json"
 	},
 	"devDependencies": {
 		"@types/node": "^16.11.6",
