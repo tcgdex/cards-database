@@ -1,10 +1,10 @@
 import { DB_PATH, smartGlob } from './util'
 import { setToSetSimple, getSets } from './setUtil'
 import { Serie, SupportedLanguages, Set } from '../../../interfaces'
-import { Serie as SerieSingle, SerieResume } from '../../definitions/api'
+import { Serie as SerieSingle, SerieResume } from '../../../meta/definitions/api'
 
 export async function getSerie(name: string): Promise<Serie> {
-	return (await import(`../${DB_PATH}/data/${name}.js`)).default
+	return (await import(`../../${DB_PATH}/data/${name}.js`)).default
 }
 
 export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): Promise<boolean> {

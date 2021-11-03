@@ -1,4 +1,4 @@
-import { Set as SetSingle, Card as CardSingle, SetResume } from '../../definitions/api'
+import { Set as SetSingle, Card as CardSingle, SetResume } from '../../../meta/definitions/api'
 import { getSets, isSetAvailable, setToSetSimple, setToSetSingle } from '../utils/setUtil'
 import { Languages, Set } from '../../../interfaces'
 import { Endpoint } from '../compilerInterfaces'

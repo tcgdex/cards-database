@@ -2,7 +2,7 @@
 import { setToSetSimple } from './setUtil'
 import { cardIsLegal, DB_PATH, fetchRemoteFile, smartGlob } from './util'
 import { Set, SupportedLanguages, Card, Types } from '../../../interfaces'
-import { Card as CardSingle, CardResume } from '../../definitions/api'
+import { Card as CardSingle, CardResume } from '../../../meta/definitions/api'
 import translate from './translationUtil'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
@@ -117,7 +117,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
  * @returns [the local id, the Card object]
  */
 export async function getCard(serie: string, setName: string, id: string): Promise<Card> {
-	return (await import(`../${DB_PATH}/data/${serie}/${setName}/${id}.js`)).default
+	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.js`)).default
 }
 
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {

@@ -1,7 +1,7 @@
 import { Set, SupportedLanguages } from '../../../interfaces'
 import { DB_PATH, fetchRemoteFile, setIsLegal, smartGlob } from './util'
 import { cardToCardSimple, getCards } from './cardUtil'
-import { SetResume, Set as SetSingle } from '../../definitions/api'
+import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 
 interface t {
 	[key: string]: Set
@@ -21,7 +21,7 @@ export async function getSet(name: string, serie = '*'): Promise<Set> {
 	if (!setCache[name]) {
 		try {
 			const [path] = await smartGlob(`${DB_PATH}/data/${serie}/${name}.js`)
-			setCache[name] = (await import('../' + path)).default
+			setCache[name] = (await import('../../' + path)).default
 		} catch (error) {
 			console.error(error)
 			console.error(`Error trying to import importing (${`db/data/${serie}/${name}.js`})`)

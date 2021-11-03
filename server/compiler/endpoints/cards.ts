@@ -1,4 +1,4 @@
-import { Card as CardSingle, CardResume } from '../../definitions/api'
+import { Card as CardSingle, CardResume } from '../../../meta/definitions/api'
 import { Card, Languages } from '../../../interfaces'
 import { Endpoint } from '../compilerInterfaces'
 import { cardToCardSimple, cardToCardSingle, getCards } from '../utils/cardUtil'

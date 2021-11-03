@@ -1,7 +1,7 @@
 import { Card, Set } from '../../../interfaces'
 import glob from 'glob'
 import fetch from 'node-fetch'
-import * as legals from '../../legals'
+import * as legals from '../../../meta/legals'
 
 interface fileCacheInterface {
 	[key: string]: any

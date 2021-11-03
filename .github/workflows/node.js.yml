@@ -17,6 +17,7 @@ on:
     paths:
       - 'data/**'
       - 'meta/**'
+      - '.github/workflows/**'
 
 jobs:
   test:

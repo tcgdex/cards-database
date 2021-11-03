@@ -59,6 +59,12 @@ You want to ask something or you just want to discuss anything from an idea/impr
 
 Well you can join us on [Discord](https://discord.gg/NehYTAhsZE) !
 
+## Project Architecture
+
+- `/data`: Contains Cards Data architectured around `Series/Set/localId` folders
+- `/meta`: Contains misc informations for the project (more details in the README.md in `/meta`)
+- `/server`: The server that allow to communicate with the database
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)

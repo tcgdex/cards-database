@@ -1,0 +1,167 @@
+##################
+#     Global     #
+##################
+
+# Locale Directive ex: {sets @locale(fr)}
+directive @locale (
+	lang: String!
+) on FIELD
+
+# Queries to use on the DB
+type Query {
+	cards(filters: CardsFilters, pagination: Pagination): [Card]
+	sets: [Set]
+	series: [Serie]
+	card(
+		id: ID!,
+		set: String
+	): Card
+	set(
+		id: ID!
+	): Set
+	serie(
+		id: ID!
+	): Serie
+
+}
+
+# Pagination input
+input Pagination {
+	page: Float!
+	count: Float!
+}
+
+##################
+#      Card      #
+##################
+
+# Filters to be used with the Card query
+input CardsFilters {
+	category: String
+	description: String
+	energyType: String
+	evolveFrom: String
+	hp: Float
+	id: ID
+	localId: String
+	dexId: Float
+	illustrator: String
+	image: String
+	level: Float
+	levelId: String
+	name: String
+	rarity: String
+	regulationMark: String
+	stage: String
+	suffix: String
+	trainerType: String
+	retreat: Float
+}
+
+type Card {
+	abilities: [AbilitiesListItem]
+	attacks: [AttacksListItem]
+	category: String!
+	description: String
+	dexId: [Float]
+	energyType: String
+	evolveFrom: String
+	hp: Float
+	id: String!
+	illustrator: String
+	image: String
+	item: Item
+	legal: Legal!
+	level: Float
+	localId: String!
+	name: String!
+	rarity: String!
+	regulationMark: String
+	resistances: [[WeakResListItem]]
+	retreat: Float
+	set: Set!
+	stage: String
+	suffix: String
+	trainerType: String
+	types: [String]
+	variants: Variants
+	weaknesses: [[WeakResListItem]]
+}
+
+type AbilitiesListItem {
+	effect: String
+	name: String
+	type: String
+}
+
+type AttacksListItem {
+	cost: [String]
+	damage: String
+	effect: String
+	name: String!
+}
+
+type Item {
+	effect: String!
+	name: String!
+}
+
+type Legal {
+	expanded: Boolean
+	standard: Boolean
+}
+
+type WeakResListItem {
+	type: String!
+	value: String
+}
+
+type Variants {
+	firstEdition: Boolean!
+	holo: Boolean!
+	normal: Boolean!
+	reverse: Boolean!
+}
+
+##################
+#      Set       #
+##################
+
+type Set {
+	cardCount: CardCount!
+	cards: [Card]!
+	id: String!
+	logo: String
+	name: String!
+	symbol: String
+	serie: Serie!
+}
+
+type CardCount {
+	firstEd: Float
+	holo: Float
+	normal: Float
+	official: Float!
+	reverse: Float
+	total: Float!
+}
+
+##################
+#     Serie      #
+##################
+
+type Serie {
+	id: String!
+	logo: String
+	name: String!
+	sets: [Set]!
+}
+
+##################
+# StringEndpoint #
+##################
+
+type StringEndpoint {
+	cards: [Card]!
+	name: String!
+}

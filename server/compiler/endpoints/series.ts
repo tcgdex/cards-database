@@ -1,4 +1,4 @@
-import { Serie as SerieSingle, SerieResume } from '../../definitions/api'
+import { Serie as SerieSingle, SerieResume } from '../../../meta/definitions/api'
 import { Languages, Serie } from '../../../interfaces'
 import { Endpoint } from '../compilerInterfaces'
 import { getSeries, serieToSerieSimple, serieToSerieSingle } from '../utils/serieUtil'

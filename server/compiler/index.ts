@@ -5,10 +5,10 @@ import { fetchRemoteFile } from './utils/util'
 
 const LANGS = ['en', 'fr', 'es', 'it', 'pt', 'de']
 
-const DIST_FOLDER = '../../dist'
+const DIST_FOLDER = './generated'
 
 ;(async () => {
-	const paths = (await fs.readdir('./endpoints')).filter((p) => p.endsWith('.ts'))
+	const paths = (await fs.readdir('./compiler/endpoints')).filter((p) => p.endsWith('.ts'))
 
 	console.log('Prefetching pictures')
 	await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
@@ -55,5 +55,9 @@ const DIST_FOLDER = '../../dist'
 		}
 	}
 
+	// Finally copy definitions files to the public folder :D
+	for await (const file of await fs.readdir('../meta/definitions')) {
+		await fs.copyFile('../meta/definitions/' + file, './public/v2/' + file)
+	}
 
 })()

@@ -1,0 +1,6 @@
+/node_modules
+/dist
+/generated
+/public/**/graphl.gql
+/public/**/api.d.ts
+/public/**/openapi.yaml
