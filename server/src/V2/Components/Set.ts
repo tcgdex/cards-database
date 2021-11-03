@@ -46,7 +46,7 @@ export default class Set implements LocalSet {
 	}
 
 	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKSet, any>> = {}, pagination?: Pagination) {
-		let list = (require(`../../generated/${lang}/sets.json`) as Array<SDKSet>)
+		let list = (require(`../../../generated/${lang}/sets.json`) as Array<SDKSet>)
 			.filter((c) => objectLoop(params, (it, key) => {
 				return c[key as 'id'].includes(it)
 			}))
@@ -58,7 +58,7 @@ export default class Set implements LocalSet {
 	}
 
 	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof Set, any>> = {}) {
-		const res = (require(`../../generated/${lang}/sets.json`) as Array<SDKSet>).find((c) => {
+		const res = (require(`../../../generated/${lang}/sets.json`) as Array<SDKSet>).find((c) => {
 			return objectLoop(params, (it, key) => {
 				return c[key as 'id'].includes(it)
 			})

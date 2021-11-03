@@ -60,7 +60,7 @@ export default class Card implements LocalCard {
 	}
 
 	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKCard, any>> = {}, pagination?: Pagination) {
-		let list : Array<SDKCard> = (require(`../../generated/${lang}/cards.json`) as Array<SDKCard>)
+		let list : Array<SDKCard> = (require(`../../../generated/${lang}/cards.json`) as Array<SDKCard>)
 		.filter((c) => objectLoop(params, (it, key) => {
 			if (typeof it === "string") {
 				return c[key as 'localId'].toLowerCase().includes(it.toLowerCase())

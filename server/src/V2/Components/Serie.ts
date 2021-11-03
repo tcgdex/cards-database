@@ -40,7 +40,7 @@ export default class Serie implements LocalSerie {
 	}
 
 	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof Serie, any>> = {}): Serie | undefined {
-		const res = (require(`../../generated/${lang}/series.json`) as Array<SDKSerie>)
+		const res = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
 			.find((c) => {
 				return objectLoop(params, (it, key) => {
 					return c[key as 'id'].includes(it)
