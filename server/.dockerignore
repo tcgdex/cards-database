@@ -25,4 +25,4 @@ npm-debug.log*
 dist/
 *.asc
 
-.vercel
+/compiler
