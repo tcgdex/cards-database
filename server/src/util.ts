@@ -1,5 +1,6 @@
 import { SupportedLanguages } from '@tcgdex/sdk'
 import { Response } from 'express'
+import fs from 'fs'
 
 export function checkLanguage(str: string): str is SupportedLanguages {
 	return ['en', 'fr', 'es', 'it', 'pt', 'de'].includes(str)
@@ -41,4 +42,16 @@ export function betterSorter(a: string, b: string) {
 		return ra - rb
 	}
 	return a >= b ? 1 : -1
+}
+
+export function tree(path: string, padding = 0) {
+	const folder = fs.readdirSync(path)
+	for (const file of folder) {
+		const filePath = path + '/' + file
+		console.log(filePath.padStart(padding, '-'))
+		try {
+			fs.lstatSync(filePath).isDirectory()
+			tree(filePath)
+		} catch {}
+	}
 }

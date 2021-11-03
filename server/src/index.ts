@@ -1,3 +1,6 @@
+import { tree } from './util'
+tree('.')
+
 import express from 'express'
 import graphql from './V2/graphql'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'

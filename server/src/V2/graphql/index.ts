@@ -6,9 +6,6 @@ import fs from 'fs'
 
 // Init Express Router
 const router = express.Router()
-
-console.log(fs.readdirSync('./public/v2'))
-
 /**
  * Drawbacks
  * Attack.damage is a string instead of possibly being a number or a string
