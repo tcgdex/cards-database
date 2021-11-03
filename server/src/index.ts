@@ -22,6 +22,8 @@ server.get('/', (_, res) => {
 	res.redirect('https://www.tcgdex.net/docs?ref=api.tcgdex.net')
 })
 
+server.use(express.static('../public'))
+
 // Setup GraphQL
 server.use(`/v${VERSION}/graphql`, graphql)
 

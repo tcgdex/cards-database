@@ -26,7 +26,7 @@ WORKDIR /app
 COPY --from=BUILD_IMAGE /app/generated ./generated
 COPY --from=BUILD_IMAGE /app/node_modules ./node_modules
 COPY --from=BUILD_IMAGE /app/dist ./dist
-COPY --from=BUILD_IMAGE /app/schema.gql ./schema.gql
+COPY --from=BUILD_IMAGE /app/public ./public
 COPY --from=BUILD_IMAGE /app/package.json ./package.json
 
 # Expose port
