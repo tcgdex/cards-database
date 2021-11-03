@@ -47,7 +47,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
       - name: Prebuild
-        run: npm ci && npm run compile && cd server && npm ci && npm run prebuild
+        run: npm ci && npm run compile && cd server && npm ci && npm run compile
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
