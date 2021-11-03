@@ -6,23 +6,23 @@ ADD package.json package-lock.json ./
 ADD server/package.json server/package-lock.json ./server/
 
 # install dependencies
-RUN npm ci &&\
-	cd server &&\
-	npm ci
+RUN npm ci && \
+cd server && \
+npm ci
 
 # Add project files
 ADD . .
 
 # build
-RUN npm run compile &&\
-	cd server &&\
-	npm run compile &&\
-	npm run build
+RUN npm run compile && \
+cd server && \
+npm run compile && \
+npm run build
 
 # remove dev dependencies
-RUN npm prune --production &&\
-	cd server &&\
-	npm prune --production
+RUN npm prune --production && \
+cd server && \
+npm prune --production
 
 # go to another VM
 FROM node:alpine
