@@ -11,7 +11,7 @@ const router = express.Router()
  * Drawbacks
  * Attack.damage is a string instead of possibly being a number or a string
  */
-const schema = buildSchema(fs.readFileSync('./public/v2/schema.gql').toString())
+const schema = buildSchema(fs.readFileSync('./public/v2/graphql.gql').toString())
 
 // Add graphql to the route
 router.use(graphqlHTTP({
