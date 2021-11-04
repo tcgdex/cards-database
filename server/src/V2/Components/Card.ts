@@ -75,11 +75,11 @@ export default class Card implements LocalCard {
 	}
 
 	public static raw(lang: SupportedLanguages): Array<SDKCard> {
-		return require(`../../generated/${lang}/cards.json`)
+		return require(`../../../generated/${lang}/cards.json`)
 	}
 
 	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof SDKCard, any>> = {}) {
-		const res = (require(`../../generated/${lang}/cards.json`) as Array<SDKCard>).find((c) => {
+		const res = (require(`../../../generated/${lang}/cards.json`) as Array<SDKCard>).find((c) => {
 			return objectLoop(params, (it, key) => {
 				if (key === 'set') {
 					return c['set'].id.includes(it) || c['set'].name.includes(it)
