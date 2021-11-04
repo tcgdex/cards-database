@@ -28,7 +28,7 @@ export default class Serie implements LocalSerie {
 	}
 
 	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKSerie, any>> = {}, pagination?: Pagination) {
-		let list = (require(`../../generated/${lang}/series.json`) as Array<SDKSerie>)
+		let list = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
 			.filter((c) => objectLoop(params, (it, key) => {
 				return c[key as 'id'].includes(it)
 			}))
