@@ -1,4 +1,4 @@
-import { objectKeys, objectSize } from '@dzeio/object-util'
+import { objectKeys } from '@dzeio/object-util'
 import { Card as SDKCard } from '@tcgdex/sdk'
 import Card from '../Components/Card'
 import Serie from '../Components/Serie'
