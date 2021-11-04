@@ -62,14 +62,9 @@ server
 
 		switch (endpoint) {
 			case 'cards':
-				// to be quicker we directly return the raw file
-				if (objectSize(req.query) === 0) {
-					result = Card.raw(lang)
-				} else {
-					result = Card
+				result = Card
 					.find(lang, req.query)
 					.map((c) => c.resume())
-				}
 				break
 
 			case 'sets':
