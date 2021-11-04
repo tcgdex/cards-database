@@ -65,7 +65,6 @@ server
 				// to be quicker we directly return the raw file
 				if (objectSize(req.query) === 0) {
 					result = Card.raw(lang)
-					return
 				} else {
 					result = Card
 					.find(lang, req.query)
