@@ -5,7 +5,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"compile": "ts-node compiler/index.ts",
+		"compile": "ts-node --project ../tsconfig.json compiler/index.ts",
 		"dev": "ts-node-dev -T src/index.ts",
 		"build": "tsc --project tsconfig.json",
 		"start": "node dist/index.js"

@@ -21,7 +21,7 @@ export async function getSet(name: string, serie = '*'): Promise<Set> {
 	if (!setCache[name]) {
 		try {
 			const [path] = await smartGlob(`${DB_PATH}/data/${serie}/${name}.js`)
-			setCache[name] = (await import('../../' + path)).default
+			setCache[name] = (await import(`../../${path}`)).default
 		} catch (error) {
 			console.error(error)
 			console.error(`Error trying to import importing (${`db/data/${serie}/${name}.js`})`)
