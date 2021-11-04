@@ -7,7 +7,7 @@ interface fileCacheInterface {
 	[key: string]: any
 }
 
-export const DB_PATH = "../../"
+export const DB_PATH = "../"
 
 const fileCache: fileCacheInterface = {}
 
