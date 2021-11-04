@@ -2,6 +2,7 @@
 import { Endpoint } from './compilerInterfaces'
 import { promises as fs } from 'fs'
 import { fetchRemoteFile } from './utils/util'
+import { objectValues } from '@dzeio/object-util'
 
 const LANGS = ['en', 'fr', 'es', 'it', 'pt', 'de']
 
@@ -49,7 +50,9 @@ const DIST_FOLDER = './generated'
 			const item = await endpoint.item(common)
 
 			// Write to file
-			await fs.writeFile(`${folder}/${file.replace('.ts', '')}.json`, JSON.stringify(item))
+			await fs.writeFile(`${folder}/${file.replace('.ts', '')}.json`, JSON.stringify(
+				objectValues(item)
+			))
 
 			console.log(file, 'Finished Item')
 		}
