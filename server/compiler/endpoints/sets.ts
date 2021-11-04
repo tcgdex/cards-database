@@ -27,7 +27,6 @@ export default class implements Endpoint<SetList, SetSingle, CardSingle, Array<S
 		const res: Record<string, SetSingle> = {}
 
 		for (const set of sets) {
-			res[set.name] = set
 			res[set.id] = set
 		}
 
