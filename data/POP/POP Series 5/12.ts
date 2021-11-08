@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,17 +51,21 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fighting"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

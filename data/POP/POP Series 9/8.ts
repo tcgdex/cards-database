@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Gabite",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		444,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Gible",
 	},
-	stage: "Basic",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -32,7 +36,7 @@ const card: Card = {
 				en: "Burrow",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent's next turn.",
+				en: "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent’s next turn.",
 			},
 
 		},
@@ -52,17 +56,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "+20"
 		},
 	],
 
+	retreat: 1,
 
+	description: {
+		en: "It habitually digs up and hoards gems in its nest. Its loot is constantly targeted by thieves."
+	},
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

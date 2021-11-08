@@ -3,23 +3,25 @@ import Set from '../POP Series 4'
 
 const card: Card = {
 	name: {
-		en: "Treecko (Delta Species)",
+		en: "Treecko δ",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		252,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,12 +49,13 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Fire"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -60,9 +63,14 @@ const card: Card = {
 		},
 	],
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

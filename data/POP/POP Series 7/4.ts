@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Latios",
 	},
+
 	illustrator: "Daisuke Ito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		381,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,12 +54,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -65,9 +69,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes."
+	},
 
+	retreat: 2,
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

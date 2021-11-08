@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird."
 		},
 
-		damage: "160",
+		damage: 160,
 		cost: ["Lightning", "Colorless", "Colorless"]
 	}],
 
@@ -71,7 +71,8 @@ const card: Card = {
 		de: "Fliegendes Pikachu-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+	dexId: [25]
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Corsola",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		222,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,7 +32,7 @@ const card: Card = {
 				en: "Rally",
 			},
 			effect: {
-				en: "Search your deck for up to 3 different types of Basic Pok��mon and put them onto your Bench. Shuffle your deck afterward.",
+				en: "Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
 			},
 
 		},
@@ -47,6 +49,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -54,10 +57,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Many live in the clean seas of the south. They apparently can’t live in polluted waters."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

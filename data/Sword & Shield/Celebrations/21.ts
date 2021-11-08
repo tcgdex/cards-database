@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -34,18 +34,18 @@ const card: Card = {
 			en: "Rush In",
 			fr: "Intervention",
 			es: "Apremio",
-			it: "Assalto",
+			it: "Capofitto",
 			pt: "Pressa",
 			de: "Hineinstürmen"
 		},
 
 		effect: {
 			en: "Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon.",
-			fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est sur votre Banc, vous pouvez échanger ce Pokémon avec votre Pokémon Actif.",
-			es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon está en tu Banca, puedes cambiar a este Pokémon por tu Pokémon Activo.",
-			it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è nella tua panchina, puoi scambiarlo con il tuo Pokémon attivo.",
+			fr: "Une fois pendant votre tour, si ce Pokémon est sur votre Banc, vous pouvez l'échanger contre votre Pokémon Actif.",
+			es: "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes cambiarlo por tu Pokémon Activo.",
+			it: "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi scambiarlo con il tuo Pokémon attivo.",
 			pt: "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estiver em seu Banco, você poderá trocá-lo com seu Pokémon Ativo.",
-			de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich dieses Pokémon auf deiner Bank befindet, dieses Pokémon gegen dein Aktives Pokémon austauschen."
+			de: "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du es gegen dein Aktives Pokémon austauschen."
 		}
 	}],
 
@@ -68,7 +68,7 @@ const card: Card = {
 			de: "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 		},
 
-		damage: "100",
+		damage: 100,
 		cost: ["Colorless", "Colorless"]
 	}],
 
@@ -93,7 +93,13 @@ const card: Card = {
 		de: "Cosmovum"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "In writings from the distant past, it's called by the name \"the beast that devours the sun.\""
+	},
+
+	dexId: [791]
 }
 
 export default card

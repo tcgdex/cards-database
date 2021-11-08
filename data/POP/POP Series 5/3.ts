@@ -3,23 +3,25 @@ import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Mew (Delta Species)",
+		en: "Mew δ",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		151,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -30,7 +32,7 @@ const card: Card = {
 				en: "Copy",
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Mew doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Mew performs that attack.",
+				en: "Choose 1 of the Defending Pokémon’s attacks. Copy copies that attack. This attack does nothing if Mew doesn’t have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Mew performs that attack.",
 			},
 
 		},
@@ -47,17 +49,21 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Psychic"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

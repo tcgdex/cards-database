@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
@@ -24,7 +24,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "When a Pokémon-ex has been knocked out, your opponent takes 2 Prize cards."
+			en: "Mew ex can use the attacks of all Pokémon in play as its own. (You still need the necessary Energy to use each attack.)"
 		}
 	}],
 

@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -59,7 +59,7 @@ const card: Card = {
 			de: "Schwerer Einschlag"
 		},
 
-		damage: "150",
+		damage: 150,
 		cost: ["Fighting", "Fighting", "Colorless"]
 	}],
 
@@ -70,7 +70,8 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+	dexId: [889]
 }
 
 export default card

@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Masquerain",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		284,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Surskit",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -34,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -51,12 +55,13 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Lightning"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -64,9 +69,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 0
 }
 
 export default card

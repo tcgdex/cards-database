@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Metagross",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		376,
 	],
+
 	hp: 100,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Metang",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -53,12 +57,13 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Fire"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Grass",
@@ -66,9 +71,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 3
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Manaphy",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		490,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,23 +44,31 @@ const card: Card = {
 				en: "Water Glow",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, remove from Manaphy the number of damage counters equal to the damage you did to that Pokémon.",
-			},
-			damage: 20,
+				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Remove from Manaphy the number of damage counters equal to the damage you did to that Pokémon.",
+			}
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "+20"
 		},
 	],
 
+	retreat: 1,
 
+	description: {
+		en: "It is born with a wondrous power that lets it bond with any kind of Pokémon."
+	},
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

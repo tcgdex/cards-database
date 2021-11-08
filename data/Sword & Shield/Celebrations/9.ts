@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			de: "Diese Attacke fügt auch jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
-		damage: "160",
+		damage: 160,
 		cost: ["Water", "Water", "Water"]
 	}],
 
@@ -66,7 +66,8 @@ const card: Card = {
 		de: "Surfendes Pikachu-V"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+	dexId: [25]
 }
 
 export default card

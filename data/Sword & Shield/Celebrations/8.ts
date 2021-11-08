@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -37,7 +37,7 @@ const card: Card = {
 			de: "Surfer"
 		},
 
-		damage: "150",
+		damage: 150,
 		cost: ["Water", "Water", "Water"]
 	}],
 
@@ -48,7 +48,8 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+	dexId: [25]
 }
 
 export default card

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Phanpy",
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		231,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -32,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -50,17 +52,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Grass",
-			value: "×2"
+			type: "Grass"
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

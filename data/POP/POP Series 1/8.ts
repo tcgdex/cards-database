@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Murkrow",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		198,
 	],
+
 	hp: 60,
+
 	types: [
 		"Darkness",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Insomnia",
 			},
 			effect: {
-				en: "Murkrow can't be Asleep.",
+				en: "Murkrow can’t be Asleep.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -41,17 +45,18 @@ const card: Card = {
 				en: "Feint Attack",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fighting"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -59,9 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 1
 }
 
 export default card

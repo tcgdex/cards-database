@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Luxray",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		405,
 	],
+
 	hp: 120,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Luxio",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -29,10 +34,11 @@ const card: Card = {
 				en: "Intimidating Fang",
 			},
 			effect: {
-				en: "As long as Luxray is your Active Pokémon, any damage done by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
+				en: "As long as Luxray is your Active Pokémon, any damage done by an opponent’s attack is reduced by 10 (before applying Weakness and Resistance).",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,12 +57,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -64,9 +72,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "When its eyes gleam gold, it can spot hiding prey–even those taking shelter behind a wall."
+	},
 
+	retreat: 1,
 
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

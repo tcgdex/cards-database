@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Tauros",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		128,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -33,7 +35,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Tauros.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -52,17 +54,21 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fighting"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

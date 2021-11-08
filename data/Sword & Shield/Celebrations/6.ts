@@ -46,7 +46,7 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
-		damage: "20",
+		damage: 20,
 		cost: ["Lightning"]
 	}, {
 		name: {
@@ -67,7 +67,7 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
 		},
 
-		damage: "120",
+		damage: 120,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
@@ -83,7 +83,8 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "E",
-	suffix: "V"
+	suffix: "V",
+	dexId: [25]
 }
 
 export default card

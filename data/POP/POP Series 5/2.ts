@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Lugia",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		249,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -40,26 +42,33 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Aerowing",
 			},
+
 			effect: {
 				en: "Before doing damage, you may flip a coin. If tails, this attack does nothing. If heads, this attack does 60 damage instead.",
 			},
 
+			damage: 30
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Psychic"
 		},
 	],
 
+	retreat: 2,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

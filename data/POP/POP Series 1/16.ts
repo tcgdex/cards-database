@@ -5,23 +5,27 @@ const card: Card = {
 	name: {
 		en: "Armaldo ex",
 	},
+
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		348,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Anorith",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -30,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twin Blade",
+				en: "Twin-blade",
 			},
 			effect: {
 				en: "Does 30 damage to each Defending Pokémon.",
@@ -41,7 +45,7 @@ const card: Card = {
 			cost: [
 				"Fighting",
 				"Fighting",
-				"Fighting",
+				"Colorless",
 				"Colorless",
 				"Colorless",
 			],
@@ -49,27 +53,24 @@ const card: Card = {
 				en: "Supersonic Claws",
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
+				en: "This attack’s damage is not affected by Resistance.",
 			},
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Grass",
-			value: "×2"
+			type: "Grass"
 		},
 		{
-			type: "Water",
-			value: "×2"
+			type: "Water"
 		},
 	],
 
-
-
-
-
+	suffix: "EX",
+	retreat: 3
 }
 
 export default card

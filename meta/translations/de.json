@@ -1,11 +1,11 @@
 {
 	"$schema": "./schema.json",
-	"__comment__": "Missing abilityTypes and some Trainer Types",
+	"__comment__": "Should be complete",
 	"abilityType": {
-		"Ability": "Ability",
-		"Ancient Trait": "Ancient Trait",
-		"Poke-BODY": "Poke-BODY",
-		"Poke-POWER": "Poke-POWER",
+		"Ability": "Fähigkeit",
+		"Ancient Trait": "Uralte Eigenschaft",
+		"Poke-BODY": "Poké-BODY",
+		"Poke-POWER": "Poké-POWER",
 		"Pokemon Power": "Pokemon Power"
 
 	},
@@ -21,11 +21,11 @@
 	"rarity": {
 		"Amazing": "Atemberaubend",
 		"Common": "Häufig",
-		"None": "Ninguno",
-		"Rare": "Keine",
-		"Secret Rare": "Heimliche Seltenheit",
-		"Ultra Rare": "ultraselten",
-		"Uncommon": "Nicht so häufig"
+		"None": "Keine",
+		"Rare": "Selten",
+		"Secret Rare": "Versteckt Selten",
+		"Ultra Rare": "Ultra Selten",
+		"Uncommon": "Ungewöhnlich"
 	},
 	"stage": {
 		"BREAK": "TURBO",
@@ -49,8 +49,8 @@
 		"V": "V"
 	},
 	"trainerType": {
-		"Ace Spec": "Ace Spec",
-		"Goldenrod Game Corner": "Goldenrod Game Corner",
+		"Ace Spec": "ASS-KLASSE",
+		"Goldenrod Game Corner": "Dukatias Spielhalle",
 		"Item": "Itemkarte",
 		"Rocket's Secret Machine": "Rockets Geheime Maschine",
 		"Stadium": "Stadionkarte",
@@ -60,7 +60,7 @@
 	},
 	"types": {
 		"Colorless": "Farblos",
-		"Darkness": "Finsternis",
+		"Darkness": "Unlicht",
 		"Dragon": "Drache",
 		"Fairy": "Fee",
 		"Fighting": "Kampf",

@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Buneary",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		427,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,12 +44,13 @@ const card: Card = {
 				en: "Jump Kick",
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -55,10 +58,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It slams foes by sharply uncoiling is rolled ears. It stings enough to make a grown-up cry in pain."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

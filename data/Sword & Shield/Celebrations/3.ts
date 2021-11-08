@@ -57,7 +57,7 @@ const card: Card = {
 			de: "Surfer"
 		},
 
-		damage: "120",
+		damage: 120,
 		cost: ["Water", "Water", "Colorless", "Colorless"]
 	}],
 
@@ -67,7 +67,13 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench."
+	},
+
+	dexId: [382]
 }
 
 export default card

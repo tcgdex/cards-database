@@ -5,21 +5,23 @@ const card: Card = {
 	name: {
 		en: "Donphan",
 	},
+
 	illustrator: "Tomoaki Imakuni",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		232,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -46,21 +48,25 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Grass",
-			value: "×2"
+			type: "Grass"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

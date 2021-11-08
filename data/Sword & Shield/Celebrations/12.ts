@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -57,7 +57,7 @@ const card: Card = {
 			de: "Aurorahörner"
 		},
 
-		damage: "100",
+		damage: 100,
 		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
@@ -67,7 +67,13 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
+	},
+
+	dexId: [716]
 }
 
 export default card

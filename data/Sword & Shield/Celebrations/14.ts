@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -70,7 +70,13 @@ const card: Card = {
 		de: "Cosmog"
 	},
 
-	regulationMark: "E"
+	regulationMark: "E",
+
+	description: {
+		en: "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid."
+	},
+
+	dexId: [790]
 }
 
 export default card

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kent Kanetsuna",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
@@ -57,7 +57,8 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	suffix: "Prime"
 }
 
 export default card
