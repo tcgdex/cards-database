@@ -1,0 +1,36 @@
+name: API Issue Report
+description: Use this when you found an issue involving the TCGdex Server
+title: "issue:"
+labels: [issue, server]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to help advance the project witg your issue report!
+
+  - type: checkboxes
+    id: issue-location
+    validations:
+      required: true
+    attributes:
+      label: Where are you having the issue
+      options:
+        - label: GraphQL
+        - label: JSON API
+
+  - type: checkboxes
+    id: issue-item
+    attributes:
+      label: Is the issue affecting one of the two elements below ?
+      options:
+        - label: Translations
+        - label: Definitions Files (Open API, GraphQL Schema, etc)
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is happening
+    validations:
+      required: true
