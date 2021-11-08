@@ -19,7 +19,7 @@
 		"apicache": "^1.6.3",
 		"express": "^4.17.1",
 		"express-graphql": "^0.12.0",
-		"graphql": "^15.7.0",
+		"graphql": "^16.0.1",
 		"js2xmlparser": "^4.0.1"
 	},
 	"devDependencies": {
