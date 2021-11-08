@@ -1,0 +1,53 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "badgeTemplate": "<a href=\"#contributors-\"><img src=\"https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square\" alt=\"All Contributors Badge\" /></a>",
+  "contributors": [
+    {
+      "login": "Aviortheking",
+      "name": "Avior",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15822031?v=4",
+      "profile": "https://www.avior.me/",
+      "contributions": [
+        "code",
+        "data"
+      ]
+    },
+    {
+      "login": "JuneTwooo",
+      "name": "June",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1458019?v=4",
+      "profile": "https://github.com/JuneTwooo",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Kevin-Adrea",
+      "name": "Kevin-Adrea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36231620?v=4",
+      "profile": "https://github.com/Kevin-Adrea",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Maxopoly",
+      "name": "Maxopoly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12138136?v=4",
+      "profile": "https://github.com/Maxopoly",
+      "contributions": [
+        "data"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cards-database",
+  "projectOwner": "tcgdex",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
