@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="https://www.tcgdex.net">
-		<img src="https://repository-images.githubusercontent.com/241652591/01dd7200-ca01-11eb-98e0-d8f04e7dfe42" width="50%" alt="Discord Link">
+		<img src="https://www.tcgdex.net/assets/og.png" width="90%" alt="TCGdex Main Image">
 	</a>
 </p>
 <p align="center">
@@ -21,49 +21,51 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
-# Pokemon TCGdex Cards Database
+# TCGdex - Pokémon TCG Cards Database
 
 A Multilanguage Pokémon TCG Database with Cards Pictures and most of the informations contained on the cards.
 
-## Translations
+## Getting Started
 
-|             | English | French | German | Italian | Portuguese | Spanish |
-|-------------|---------|--------|--------|---------|------------|---------|
-| Cards       | 13869   | 9464   | 6133   | 6133    | 6133       | 6133    |
-| Translated  | 100%    | 68%    | 44%    | 44%     | 44%        | 44%     |
+_If you need help for using/editing the database, [join our Discord server](https://discord.gg/NehYTAhsZE)!_
 
-_want to help translating? each object fields on cards that have at least en,fr,es,de,it,pt can have the others!,_
-_Also we have another translation files located at `meta/translations`_
+### Using the Database
 
-## Interact with the Database
+_The full documentation is available at <https://www.tcgdex.dev>_
 
-_documentation available at https://www.tcgdex.net/docs_
+- The easiest way to interact with the database is by using one of our SDKs listed below.
+- You can also direcly use the endpoints at `api.tcgdex.net` (see the documentation).
+- You can build the API yourself by using our `Dockerfile` and using it on the port 3000
 
-- The easiest way to interact with the database is by using one of our SDKs _list below_.
-- You can also direcly use the endpoints at `api.tcgdex.net`.
-- You can build the API yourself by using our [compiler](https://github.com/tcgdex/compiler) or download the already [compiled database](https://github.com/tcgdex/distribution).
-
-## SDKs / API Wrappers
+#### SDKs / API Wrappers
 
 We currently officially support theses SDKs
 
 - [Javascript/Typescript SDK](https://github.com/tcgdex/javascript-sdk)
 - [PHP SDK](https://github.com/tcgdex/php-sdk)
+- [Java SDK](https://github.com/tcgdex/java-sdk)
 
-_If you have a SDK, start a [discussion](https://github.com/tcgdex/cards-database/discussions/new) to be added here_
+### Editing the Database
 
+There is three sub folders that will allow you to edit some faces of the database
 
-## Join Us on Discord
-
-You want to ask something or you just want to discuss anything from an idea/improvement about the API to why Furret should be in the next Pokken Tournament game...
-
-Well you can join us on [Discord](https://discord.gg/NehYTAhsZE) !
-
-## Project Architecture
-
-- `/data`: Contains Cards Data architectured around `Series/Set/localId` folders
-- `/meta`: Contains misc informations for the project (more details in the README.md in `/meta`)
+- `/data`: Contains Cards Data architectured around `SerieName/SetName/CardLocalId` folders
+- `/meta`: Contains informations for the project (definitions files, Translations for some fields)
 - `/server`: The server that allow to communicate with the database
+
+## Translations
+
+We have a big effort on translating datas for older sets
+
+_note: numbers updated manually_
+
+|             | English | French | German | Italian | Portuguese | Spanish |
+|-------------|---------|--------|--------|---------|------------|---------|
+| Cards       | 14419   | 9846   | 6590   | 6576    | 6593       | 6590    |
+| Translated  | 100%    | 68.2%  | 45.7%  | 45.6%   | 45.7%      | 45.7%   |
+
+_want to help translating? each object fields on cards that have at least en,fr,es,de,it or pt can have the others!,_
+_Also we have another translation files located at `meta/translations`_
 
 ## Contributing
 
@@ -77,12 +79,6 @@ TL::DR
 ## Deprecation
 
 As of February 2021, the v1 API is no longer supported.
-
-## License
-
-This database is not produced, endorsed, supported or affiliated with Nintendo or The Pokémon Company
-
-The Database is licensed under the MIT License. A copy of the license is available in [LICENSE](./LICENSE)
 
 ## Contributors ✨
 
@@ -106,3 +102,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Licenses
+
+This database is not produced, endorsed, supported or affiliated with Nintendo or The Pokémon Company
+
+The Database is licensed under the MIT License. A copy of the license is available in [LICENSE](./LICENSE)
