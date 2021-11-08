@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Actif.",
+			fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Actif.",
 			en: "Once during your turn, you may heal 20 damage from your Active Pokémon.",
 			es: "Una vez durante tu turno, puedes curar 20 puntos de daño a tu Pokémon Activo.",
 			it: "Una sola volta durante il tuo turno, puoi curare il tuo Pokémon attivo da 20 danni.",
@@ -52,8 +52,8 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			en: "This attack does 60 more damage for each Energy attached to your opponent’s Active Pokémon.",
+			fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			en: "This attack does 60 more damage for each Energy attached to your opponent's Active Pokémon.",
 			es: "Este ataque hace 60 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 60 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
 			pt: "Este ataque causa 60 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",

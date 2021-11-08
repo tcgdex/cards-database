@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grookey",
 		fr: "Ouistempo",
+		es: "Grookey",
+		it: "Grookey",
+		pt: "Grookey",
+		de: "Chimpep"
 	},
 
 	stage: "Stage1",
@@ -62,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
@@ -92,7 +96,9 @@ const card: Card = {
 
 	description: {
 		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers."
-	}
+	},
+
+	dexId: [811]
 }
 
 export default card

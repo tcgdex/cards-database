@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
 			en: "Heal 30 damage from this Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Once the vines on Zarude’s body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
 	}
 }
 

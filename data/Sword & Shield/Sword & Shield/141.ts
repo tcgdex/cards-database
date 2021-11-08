@@ -21,8 +21,6 @@ const card: Card = {
 		"Colorless",
 	],
 
-	suffix: "V",
-
 	attacks: [
 		{
 			cost: [
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Verzehrer"
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
 				fr: "Soignez ce Pokémon du nombre de dégâts que vous avez infligés au Pokémon Actif de votre adversaire.",
 				es: "Cura a este Pokémon la misma cantidad de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
 				it: "Cura questo Pokémon da una quantità di danni pari a quelli che hai inflitto al Pokémon attivo del tuo avversario.",
@@ -94,7 +92,9 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "Basic"
+	stage: "Basic",
+	suffix: "V",
+	dexId: [143]
 }
 
 export default card

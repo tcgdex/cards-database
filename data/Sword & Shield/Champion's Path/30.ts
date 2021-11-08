@@ -58,7 +58,7 @@ const card: Card = {
 				de: "Schlitzender Schlag"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t use Slashing Strike.",
+				en: "During your next turn, this Pokémon can't use Slashing Strike.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
 				es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",

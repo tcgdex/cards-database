@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sizzlipede",
-		fr: "Grillepattes"
+		fr: "Grillepattes",
+		es: "Sizzlipede",
+		it: "Sizzlipede",
+		pt: "Sizzlipede",
+		de: "Thermopod"
 	},
 
 	abilities: [{
@@ -37,7 +41,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Whenever your opponent flips a coin for their Burned Pokémon during Pokémon Checkup, it doesn’t recover from that Special Condition even if the result is heads.",
+			en: "Whenever your opponent flips a coin for their Burned Pokémon during Pokémon Checkup, it doesn't recover from that Special Condition even if the result is heads.",
 			fr: "Chaque fois que votre adversaire lance une pièce pour son Pokémon Brûlé pendant le Contrôle Pokémon, celui-ci ne guérit pas de cet État Spécial même si le résultat est face.",
 			es: "Cada vez que tu rival lance 1 moneda para su Pokémon Quemado durante el Chequeo Pokémon, no se recupera de esa Condición Especial incluso si sale cara.",
 			it: "Ogni volta che il tuo avversario lancia una moneta per il suo Pokémon bruciato durante il controllo Pokémon, questo non guarisce da quella condizione speciale anche se esce testa.",
@@ -57,7 +61,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Burned.",
+			en: "Your opponent's Active Pokémon is now Burned.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato.",

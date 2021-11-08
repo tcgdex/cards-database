@@ -30,7 +30,7 @@ const card: Card = {
 				de: "Spiralangriff"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Graceful ripples running across the water’s surface are a sure sign that Tympole are singing in high-pitched voices below."
+		en: "Graceful ripples running across the water's surface are a sure sign that Tympole are singing in high-pitched voices below."
 	}
 }
 

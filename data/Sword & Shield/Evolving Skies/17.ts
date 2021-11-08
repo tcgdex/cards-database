@@ -46,7 +46,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution."
+	},
+
+	dexId: [840],
+	regulationMark: "E"
 }
 
 export default card

@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -46,7 +46,7 @@ const card: Card = {
 			de: "Wenn dein Gegner eine Stadionkarte im Spiel hat, lege sie auf seinen Ablagestapel."
 		},
 
-		damage: "30",
+		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
@@ -76,7 +76,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "E",
+
+	description: {
+		en: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail."
+	},
+
+	dexId: [644]
 }
 
 export default card

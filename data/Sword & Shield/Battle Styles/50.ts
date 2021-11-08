@@ -42,8 +42,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 40 more damage for each Energy attached to all of your opponent’s Pokémon.",
-			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
+			en: "This attack does 40 more damage for each Energy attached to all of your opponent's Pokémon.",
+			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
 			es: "Este ataque hace 40 puntos de daño más por cada Energía unida a todos los Pokémon de tu rival.",
 			it: "Questo attacco infligge 40 danni in più per ogni Energia assegnata ai Pokémon del tuo avversario.",
 			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia ligada a todos os Pokémon do seu oponente.",

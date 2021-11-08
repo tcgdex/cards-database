@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Although the poison from its fangs isn’t that strong, it’s potent enough to weaken prey that gets caught in its web."
+		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
 	}
 }
 

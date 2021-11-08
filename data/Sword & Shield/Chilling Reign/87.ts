@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rockruff",
-		fr: "Rocabot"
+		fr: "Rocabot",
+		es: "Rockruff",
+		it: "Rockruff",
+		pt: "Rockruff",
+		de: "Wuffels"
 	},
 
 	attacks: [{
@@ -36,7 +40,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 10 more damage for each Single Strike Pokémon in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon Poing Final dans votre pile de défausse.",
+			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon Poing Final dans votre pile de défausse.",
 			es: "Este ataque hace 10 puntos de daño más por cada Pokémon Golpe Brusco en tu pila de descartes.",
 			it: "Questo attacco infligge 10 danni in più per ogni Pokémon Colpo Singolo nella tua pila degli scarti.",
 			pt: "Este ataque causa 10 pontos de dano a mais para cada Pokémon Golpe Decisivo na sua pilha de descarte.",

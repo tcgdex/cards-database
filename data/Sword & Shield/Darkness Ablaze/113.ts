@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Thievul",
 		fr: "Roublenard",
-		es: "​Thievul",
+		es: "Thievul",
 		it: "Thievul",
 		pt: "Thievul",
 		de: "Gaunux"
@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nickit",
-		fr: "Goupilou"
+		fr: "Goupilou",
+		es: "Nickit",
+		it: "Nickit",
+		pt: "Nickit",
+		de: "Kleptifux"
 	},
 
 	attacks: [
@@ -41,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu’à 2 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				fr: "Cherchez dans votre deck jusqu'à 2 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja hasta 2 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",

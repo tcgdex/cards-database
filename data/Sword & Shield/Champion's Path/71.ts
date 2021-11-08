@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as this Pokémon is in the Active Spot, whenever your opponent attaches an Energy card from their hand to 1 of their Pokémon, put 3 damage counters on that Pokémon.",
-				fr: "Tant que ce Pokémon est sur le Poste Actif, chaque fois que votre adversaire attache une carte Énergie de sa main à l’un de ses Pokémon, placez 3 marqueurs de dégâts sur ce Pokémon-là.",
+				fr: "Tant que ce Pokémon est sur le Poste Actif, chaque fois que votre adversaire attache une carte Énergie de sa main à l'un de ses Pokémon, placez 3 marqueurs de dégâts sur ce Pokémon-là.",
 				es: "Mientras este Pokémon esté en el Puesto Activo, cada vez que tu rival una 1 carta de Energía de su mano a 1 de sus Pokémon, pon 3 contadores de daño en ese Pokémon.",
 				it: "Fintanto che questo Pokémon è in posizione attiva, ogni volta che il tuo avversario assegna a uno dei suoi Pokémon una carta Energia dalla sua mano, metti tre segnalini danno su quel Pokémon.",
 				pt: "Enquanto este Pokémon estiver no Campo Ativo, sempre que seu oponente ligar 1 carta de Energia da própria mão a 1 dos próprios Pokémon, coloque 3 contadores de dano naquele Pokémon.",
@@ -70,8 +70,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Put 3 damage counters on your opponent’s Benched Pokémon in any way you like.",
-			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de Banc de votre adversaire comme il vous plaît.",
+			en: "Put 3 damage counters on your opponent's Benched Pokémon in any way you like.",
+			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de Banc de votre adversaire comme il vous plaît.",
 			es: "Pon 3 contadores de daño en los Pokémon en Banca de tu rival de la manera que desees.",
 			it: "Metti tre segnalini danno sui Pokémon nella panchina del tuo avversario nel modo che preferisci.",
 			pt: "Coloque 3 contadores de dano nos Pokémon no Banco do seu oponente como desejar.",

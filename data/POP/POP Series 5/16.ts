@@ -3,17 +3,20 @@ import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Espeon Star",
+		en: "Espeon ★",
 	},
-	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Masakazu Fukuda",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		196,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Purple Ray",
 			},
 			effect: {
-				en: "Once during your turn, when you put Espeon * from your hand onto your Bench, you may use this power. Each Active Pokémon (both yours and your opponent's) is now Confused.",
+				en: "Once during your turn, when you put Espeon Star from your hand onto your Bench, you may use this power. Each Active Pokémon (both yours and your opponent’s) is now Confused.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -44,21 +48,25 @@ const card: Card = {
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Psychic"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

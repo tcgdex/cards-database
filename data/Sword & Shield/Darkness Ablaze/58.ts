@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Energy from this Pokémon.",
-				fr: "Défaussez toute l’Énergie de ce Pokémon.",
+				fr: "Défaussez toute l'Énergie de ce Pokémon.",
 				es: "Descarta todas las Energías de este Pokémon.",
 				it: "Scarta tutte le Energie da questo Pokémon.",
 				pt: "Descarte todas as Energias deste Pokémon.",

@@ -35,10 +35,10 @@ const card: Card = {
 				de: "Düsendurchzug"
 			},
 			effect: {
-				en: "Discard a Special Energy from your opponent’s Active Pokémon.",
+				en: "Discard a Special Energy from your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
 				es: "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia speciale dal Pokémon attivo del tuo avversario.",
+				it: "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
 				pt: "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
 				de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
@@ -53,7 +53,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Air Slash",
-				fr: "Lame d’Air",
+				fr: "Lame d'Air",
 				es: "Tajo Aéreo",
 				it: "Eterelama",
 				pt: "Golpe de Ar",
@@ -63,7 +63,7 @@ const card: Card = {
 				en: "Discard an Energy from this Pokémon.",
 				fr: "Défaussez une Énergie de ce Pokémon.",
 				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia da questo Pokémon.",
+				it: "Scarta un'Energia da questo Pokémon.",
 				pt: "Descarte 1 Energia deste Pokémon.",
 				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},

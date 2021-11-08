@@ -35,8 +35,8 @@ const card: Card = {
 				de: "Zen-Löffel"
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent’s Pokémon in any way you like.",
-				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+				en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
 				es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
 				it: "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
 				pt: "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
@@ -58,8 +58,8 @@ const card: Card = {
 				de: "Gedankenherrscher"
 			},
 			effect: {
-				en: "This attack does 30 damage for each card in your opponent’s hand.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque carte dans la main de votre adversaire.",
+				en: "This attack does 30 damage for each card in your opponent's hand.",
+				fr: "Cette attaque inflige 30 dégâts pour chaque carte dans la main de votre adversaire.",
 				es: "Este ataque hace 30 puntos de daño por cada carta en la mano de tu rival.",
 				it: "Questo attacco infligge 30 danni per ogni carta nella mano del tuo avversario.",
 				pt: "Este ataque causa 30 pontos de dano para cada carta na mão do seu oponente.",

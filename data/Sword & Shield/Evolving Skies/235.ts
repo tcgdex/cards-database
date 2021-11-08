@@ -12,7 +12,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Lightning Energy"
+		en: "Lightning Energy",
+		fr: "Énergie Electrik",
+		es: "Energía Rayo",
+		it: "Energia Lampo",
+		pt: "Energia de Raios",
+		de: "Elektro-Energie"
 	},
 
 	rarity: "Secret Rare",

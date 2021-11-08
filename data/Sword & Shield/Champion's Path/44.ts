@@ -52,8 +52,8 @@ const card: Card = {
 				de: "Hinterhältiger Angriff"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is Confused, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 50 dégâts supplémentaires.",
+				en: "If your opponent's Active Pokémon is Confused, this attack does 50 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 50 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival está Confundido, este ataque hace 50 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è confuso, questo attacco infligge 50 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente estiver Confuso, este ataque causará 50 pontos de dano a mais.",

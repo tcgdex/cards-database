@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Binacle",
-		fr: "Opermine"
+		fr: "Opermine",
+		es: "Binacle",
+		it: "Binacle",
+		pt: "Binacle",
+		de: "Bithora"
 	},
 
 	attacks: [
@@ -36,7 +40,7 @@ const card: Card = {
 				de: "Steinschleuderer"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
+				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 				es: "El daño de este ataque no se ve afectado por Resistencia.",
 				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
@@ -62,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have more cards in your hand than your opponent, this attack does 80 more damage.",
-				fr: "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+				fr: "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
 				es: "Si tienes más cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más.",
 				it: "Se hai più carte in mano del tuo avversario, questo attacco infligge 80 danni in più.",
 				pt: "Se você tiver mais cartas na sua mão do que seu oponente, este ataque causará 80 pontos de dano a mais.",

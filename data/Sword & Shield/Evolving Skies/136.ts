@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-			fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
+			fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
 			es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 			it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
 			pt: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
@@ -60,7 +60,14 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	dexId: [627],
+
+	description: {
+		en: "A combative Pokémon, it's ready to pick a fight with anyone. It has talons that can crush hard berries."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

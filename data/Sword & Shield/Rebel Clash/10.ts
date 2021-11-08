@@ -30,8 +30,8 @@ const card: Card = {
 				de: "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, pendant le prochain tour de votre adversaire, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon.",
+				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon.",
 				es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, evita todos los efectos de ataques, incluido el daño, infligidos a este Pokémon.",
 				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon.",
 				pt: "Jogue 1 moeda. Se sair cara, durante o próximo turno do seu oponente, previna todos os efeitos de ataques, incluindo dano, causados a este Pokémon.",

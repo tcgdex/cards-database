@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 6 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
 				es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 6 cartas.",
 				it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca sei carte.",
 				pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 6 cartas.",
@@ -58,8 +58,8 @@ const card: Card = {
 				de: "Aufziehkanone"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each of your opponent’s Benched Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
+				en: "This attack does 20 more damage for each of your opponent's Benched Pokémon.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
 				es: "Este ataque hace 20 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
 				it: "Questo attacco infligge 20 danni in più per ogni Pokémon nella panchina del tuo avversario.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",

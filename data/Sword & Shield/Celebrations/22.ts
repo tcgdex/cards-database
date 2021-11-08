@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -59,7 +59,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can’t attack.",
+			en: "During your next turn, this Pokémon can't attack.",
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
@@ -67,7 +67,7 @@ const card: Card = {
 			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
-		damage: "160",
+		damage: 160,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"]
 	}],
 
@@ -81,7 +81,14 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "E",
+
+	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+	},
+
+	dexId: [249]
 }
 
 export default card

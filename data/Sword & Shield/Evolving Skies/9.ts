@@ -46,7 +46,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area."
+	},
+
+	dexId: [548],
+	regulationMark: "E"
 }
 
 export default card

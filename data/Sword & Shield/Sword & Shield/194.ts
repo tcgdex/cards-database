@@ -21,8 +21,6 @@ const card: Card = {
 		"Darkness",
 	],
 
-	suffix: "V",
-
 	attacks: [
 		{
 			cost: [
@@ -60,8 +58,8 @@ const card: Card = {
 				de: "Verrückte Krallen"
 			},
 			effect: {
-				en: "This attack does 60 more damage for each damage counter on your opponent’s Active Pokémon.",
-				fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+				en: "This attack does 60 more damage for each damage counter on your opponent's Active Pokémon.",
+				fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
 				es: "Este ataque hace 60 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 60 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 60 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
@@ -89,7 +87,9 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "Basic"
+	stage: "Basic",
+	suffix: "V",
+	dexId: [302]
 }
 
 export default card

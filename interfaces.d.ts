@@ -12,6 +12,8 @@ interface variants {
 	reverse?: boolean
 	holo?: boolean
 	firstEdition?: boolean
+	jumbo?: boolean
+	preRelease?: boolean
 }
 
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
@@ -136,7 +138,7 @@ export interface Card {
 	 * - Stage2 https://www.tcgdex.net/database/xy/xy9/3
 	 * - VMAX https://www.tcgdex.net/database/swsh/swsh1/50
 	 */
-	stage?: 'Basic' | 'BREAK' | 'LEVEL-UP' | 'MEGA' | 'RESTORED' | 'Stage1' | 'Stage2' | 'VMAX'
+	stage?: 'Basic' | 'BREAK' | 'LEVEL-UP' | 'MEGA' | 'RESTORED' | 'Stage1' | 'Stage2' | 'VMAX' | 'V-UNION'
 
 	/**
 	 * Card Suffix

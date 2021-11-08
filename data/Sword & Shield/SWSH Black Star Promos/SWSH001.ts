@@ -5,20 +5,23 @@ const card: Card = {
 	name: {
 		en: "Grookey",
 		fr: "Ouistempo",
+		es: "Grookey",
+		it: "Grookey",
+		pt: "Grookey",
+		de: "Chimpep"
 	},
+
 	illustrator: "kirisAki",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
-
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,12 +32,17 @@ const card: Card = {
 			name: {
 				en: "Branch Poke",
 				fr: "Tapotige",
+				es: "Punzada Rama",
+				it: "Ramostoccata",
+				pt: "Branch Poke",
+				de: "Zweigstoß"
 			},
 
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -44,8 +52,20 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+	},
 
+	dexId: [810],
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	regulationMark: "D"
 }
 
 export default card

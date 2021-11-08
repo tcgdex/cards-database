@@ -5,11 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Magma’s Groudon"
+		en: "Team Magma's Groudon"
 	},
 
 	illustrator: "Kazuo Yazawa",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],
@@ -23,7 +23,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "As long as the number of Pokémon in play (both yours and your opponent’s) that has Team Magma in its name is 3 or less, Team Magma’s Groudon can’t attack."
+			en: "As long as the number of Pokémon in play (both yours and your opponent's) that has Team Magma in its name is 3 or less, Team Magma's Groudon can't attack."
 		}
 	}],
 
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 		},
 
 		cost: ["Fighting", "Colorless"]

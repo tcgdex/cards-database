@@ -31,8 +31,8 @@ const card: Card = {
 				de: "Schutzdruck"
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				en: "During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 				es: "Durante el próximo turno de tu rival, los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 				it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
@@ -56,8 +56,8 @@ const card: Card = {
 				de: "Power-Ansturm"
 			},
 			effect: {
-				en: "Flip a coin. If tails, during your next turn, this Pokémon can’t attack.",
-				fr: "Lancez une pièce. Si c’est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
+				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 				es: "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
 				it: "Lancia una moneta. Se esce croce, questo Pokémon non può attaccare durante il tuo prossimo turno.",
 				pt: "Jogue 1 moeda. Se sair coroa, este Pokémon não poderá atacar durante o seu próximo turno.",
@@ -97,7 +97,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its ability to deflect any attack led to it being known as the Fighting Master’s Shield. It was feared and respected by all."
+		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
 	}
 }
 

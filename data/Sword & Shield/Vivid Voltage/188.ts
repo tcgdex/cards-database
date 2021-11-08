@@ -20,7 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		fr: "Pikachu-V"
+		fr: "Pikachu-V",
+		en: "Pikachu V",
+		es: "Pikachu V",
+		it: "Pikachu-V",
+		pt: "Pikachu V",
+		de: "Pikachu-V"
 	},
 
 	attacks: [{
@@ -34,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Vous pouvez défausser toute l’Énergie de ce Pokémon. Dans ce cas, cette attaque inflige 150 dégâts supplémentaires.",
+			fr: "Vous pouvez défausser toute l'Énergie de ce Pokémon. Dans ce cas, cette attaque inflige 150 dégâts supplémentaires.",
 			en: "You may discard all Energy from this Pokémon. If you do, this attack does 150 more damage.",
 			es: "Puedes descartar todas las Energías de este Pokémon. Si lo haces, este ataque hace 150 puntos de daño más.",
 			it: "Puoi scartare tutte le Energie da questo Pokémon. Se lo fai, questo attacco infligge 150 danni in più.",

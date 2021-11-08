@@ -73,7 +73,14 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it."
+	},
+
+	dexId: [710],
+	regulationMark: "E"
 }
 
 export default card

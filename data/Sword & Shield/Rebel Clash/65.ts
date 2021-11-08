@@ -18,7 +18,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grubbin",
-		fr: "Larvibule"
+		fr: "Larvibule",
+		es: "Grubbin",
+		it: "Grubbin",
+		pt: "Grubbin",
+		de: "Mabula"
 	},
 
 	attacks: [
@@ -36,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 2 cartes Énergie Lightning dans votre deck, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+				fr: "Cherchez jusqu'à 2 cartes Énergie Lightning dans votre deck, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",

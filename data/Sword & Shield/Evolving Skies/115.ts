@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "This attack does 100 more damage for each Prize card your opponent took during their last turn.",
-			fr: "Cette attaque inflige 100 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée pendant son dernier tour.",
+			fr: "Cette attaque inflige 100 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée pendant son dernier tour.",
 			es: "Este ataque hace 100 puntos de daño más por cada carta de Premio que haya cogido tu rival durante su último turno.",
 			it: "Questo attacco infligge 100 danni in più per ogni carta Premio presa dal tuo avversario durante il suo ultimo turno.",
 			pt: "This attack does 100 more damage for each Prize card your opponent took during their last turn.",
@@ -62,7 +62,23 @@ const card: Card = {
 		cost: ["Psychic", "Darkness", "Colorless", "Colorless"]
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [635],
+
+	evolveFrom: {
+		en: "Zweilous",
+		fr: "Diamat",
+		es: "Zweilous",
+		it: "Zweilous",
+		pt: "Zweilous",
+		de: "Duodino"
+	},
+
+	description: {
+		en: "The three heads take turns sinking their teeth into the opponent. Their attacks won't slow until their target goes down."
+	},
+
+	regulationMark: "E"
 }
 
 export default card

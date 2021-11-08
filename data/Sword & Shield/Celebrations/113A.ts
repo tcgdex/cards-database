@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
@@ -44,7 +44,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
+	}
 }
 
 export default card

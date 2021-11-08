@@ -28,13 +28,13 @@ const card: Card = {
 				en: "Darkness Guard",
 				fr: "Parade Obscure",
 				es: "Defensa Oscuridad",
-				it: "Guardia dell’Oscurità",
+				it: "Guardia dell'Oscurità",
 				pt: "Guarda Sombria",
 				de: "Finsterschutz"
 			},
 			effect: {
 				en: "If this Pokémon has any Darkness Energy attached, it takes 20 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Si de l’Énergie Darkness est attachée à ce Pokémon, il subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				fr: "Si de l'Énergie Darkness est attachée à ce Pokémon, il subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 				es: "Si este Pokémon tiene alguna Energía Darkness unida a él, los ataques le hacen 20 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
 				it: "Se questo Pokémon ha delle Energie Darkness assegnate, subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Se este Pokémon tiver alguma Energia Darkness ligada a ele, receberá 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 20 more damage for each Darkness Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Darkness attachée à ce Pokémon.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Darkness attachée à ce Pokémon.",
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Darkness unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Darkness assegnata a questo Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Darkness ligada a este Pokémon.",

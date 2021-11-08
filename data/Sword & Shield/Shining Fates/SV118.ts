@@ -32,7 +32,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez choisir un Pokémon-V de base dans votre pile de défausse et l’échanger contre ce Pokémon. Les cartes attachées, les marqueurs de dégâts, les États Spéciaux, le nombre de tours de jeu, et tous les autres effets restent sur le nouveau Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez choisir un Pokémon-V de base dans votre pile de défausse et l'échanger contre ce Pokémon. Les cartes attachées, les marqueurs de dégâts, les États Spéciaux, le nombre de tours de jeu, et tous les autres effets restent sur le nouveau Pokémon.",
 			en: "Once during your turn, you may choose a Basic Pokémon V from your discard pile and switch it with this Pokémon. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.",
 			es: "Una vez durante tu turno, puedes elegir 1 Pokémon V Básico de tu pila de descartes y cambiarlo por este Pokémon. Todas las cartas unidas a este Pokémon, los contadores de daño, las Condiciones Especiales, los turnos de juego y todos los demás efectos permanecen en el nuevo Pokémon.",
 			it: "Una sola volta durante il tuo turno, puoi scegliere un Pokémon-V Base dalla tua pila degli scarti e scambiarlo con questo Pokémon. Le carte assegnate, i segnalini danno, le condizioni speciali, il numero di turni da cui è in gioco e qualsiasi altro effetto restano sul nuovo Pokémon.",

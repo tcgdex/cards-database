@@ -30,7 +30,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie Water de votre main à ce Pokémon. Dans ce cas, échangez-le contre l’un de vos Pokémon de Banc.",
+			fr: "Attachez une carte Énergie Water de votre main à ce Pokémon. Dans ce cas, échangez-le contre l'un de vos Pokémon de Banc.",
 			en: "Attach a Water Energy card from your hand to this Pokémon. If you do, switch it with 1 of your Benched Pokémon.",
 			es: "Une 1 carta de Energía Water de tu mano a este Pokémon. Si lo haces, cámbialo por 1 de tus Pokémon en Banca.",
 			it: "Assegna a questo Pokémon una carta Energia Water dalla tua mano. Se lo fai, scambialo con uno della tua panchina.",
@@ -50,7 +50,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
+			fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
 			en: "Put 2 Water Energy attached to this Pokémon into your hand.",
 			es: "Pon 2 Energías Water unidas a este Pokémon en tu mano.",
 			it: "Prendi due Energie Water assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",

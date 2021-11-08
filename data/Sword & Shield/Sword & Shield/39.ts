@@ -24,6 +24,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sizzlipede",
 		fr: "Grillepattes",
+		es: "Sizzlipede",
+		it: "Sizzlipede",
+		pt: "Sizzlipede",
+		de: "Thermopod"
 	},
 
 	stage: "Stage1",
@@ -42,8 +46,8 @@ const card: Card = {
 				de: "Hundertfußflammen"
 			},
 			effect: {
-				en: "For each Fire Energy attached to this Pokémon, discard the top card of your opponent’s deck.",
-				fr: "Pour chaque Énergie Fire attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
+				en: "For each Fire Energy attached to this Pokémon, discard the top card of your opponent's deck.",
+				fr: "Pour chaque Énergie Fire attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
 				es: "Por cada Energía Fire unida a este Pokémon, descarta la primera carta de la baraja de tu rival.",
 				it: "Per ogni Energia Fire assegnata a questo Pokémon, scarta la prima carta del mazzo del tuo avversario.",
 				pt: "Para cada Energia Fire ligada a este Pokémon, descarte a carta de cima do baralho do seu oponente.",
@@ -67,7 +71,7 @@ const card: Card = {
 				de: "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
@@ -98,7 +102,9 @@ const card: Card = {
 
 	description: {
 		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies."
-	}
+	},
+
+	dexId: [851]
 }
 
 export default card

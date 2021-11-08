@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cubchoo",
-		fr: "Polarhume"
+		fr: "Polarhume",
+		es: "Cubchoo",
+		it: "Cubchoo",
+		pt: "Cubchoo",
+		de: "Petznief"
 	},
 
 	attacks: [
@@ -60,7 +64,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon also does 50 damage to itself.",
-				fr: "Ce Pokémon s’inflige aussi 50 dégâts.",
+				fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
 				es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge anche 50 danni a se stesso.",
 				pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",

@@ -71,7 +71,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has a generous habit of sharing its food with people and Pokémon, so it’s always scrounging around for more food."
+		en: "It has a generous habit of sharing its food with people and Pokémon, so it's always scrounging around for more food."
 	}
 }
 

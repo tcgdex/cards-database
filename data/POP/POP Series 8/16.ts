@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Riolu",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		447,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
@@ -27,10 +30,11 @@ const card: Card = {
 				en: "Inner Focus",
 			},
 			effect: {
-				en: "Riolu can't be Paralyzed.",
+				en: "Riolu can’t be Paralyzed.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -42,21 +46,30 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "+10"
 		},
 	],
 
+	description: {
+		en: "Its body is lithe yet powerful. It can crest three mountains and cross two canyons in one night."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card

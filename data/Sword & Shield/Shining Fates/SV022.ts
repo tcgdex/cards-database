@@ -24,7 +24,7 @@ const card: Card = {
 			fr: "Grosse Vague",
 			en: "Wave Splash",
 			es: "Chapoteo Ondulante",
-			it: "Schizzi d’Onda",
+			it: "Schizzi d'Onda",
 			pt: "Onda Borrifante",
 			de: "Wellenplatscher"
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
+			fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
 			en: "Put 2 Water Energy attached to this Pokémon into your hand.",
 			es: "Pon 2 Energías Water unidas a este Pokémon en tu mano.",
 			it: "Prendi due Energie Water assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",

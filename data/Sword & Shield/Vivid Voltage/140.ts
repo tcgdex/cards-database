@@ -35,8 +35,8 @@ const card: Card = {
 				de: "Weißer Wind"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 70 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 70 dégâts supplémentaires.",
+				en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 70 more damage.",
+				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 70 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 70 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 70 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 70 pontos de dano a mais.",

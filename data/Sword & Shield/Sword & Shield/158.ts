@@ -18,7 +18,7 @@ const card: Card = {
 
 	effect: {
 		en: "The Pokémon this card is attached to gets +30 HP.",
-		fr: "Cette carte ajoute 30 PV au Pokémon auquel elle est attachée.",
+		fr: "Cette carte ajoute 30 PV au Pokémon auquel elle est attachée.",
 		es: "El Pokémon al que está unida esta carta obtiene 30 PS más.",
 		it: "Il Pokémon a cui è assegnata questa carta ha 30 PS in più.",
 		pt: "O Pokémon ao qual esta carta está ligada recebe 30 PS a mais.",

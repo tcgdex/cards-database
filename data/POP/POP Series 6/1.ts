@@ -5,21 +5,26 @@ const card: Card = {
 	name: {
 		en: "Bastiodon",
 	},
+
 	illustrator: "Kazuyuki Kano",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		411,
 	],
+
 	hp: 130,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Shieldon",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -29,10 +34,11 @@ const card: Card = {
 				en: "Protective Wall",
 			},
 			effect: {
-				en: "Prevent all damage done to your Benched Pokémon by your opponent's attacks.",
+				en: "Prevent all damage done to your Benched Pokémon by your opponent’s attacks.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -44,18 +50,20 @@ const card: Card = {
 				en: "Anger Revenge",
 			},
 			effect: {
-				en: "If Bastiodon was damaged by an attack during your opponent's last turn, this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If Bastiodon was damaged by an attack during your opponent’s last turn, this attack does 40 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 60,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+40"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -63,9 +71,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries."
+	},
 
+	retreat: 3,
 
-
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

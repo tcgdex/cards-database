@@ -39,7 +39,7 @@ const card: Card = {
 
 		effect: {
 			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
+			fr: "Soignez 10 dégâts de ce Pokémon.",
 			es: "Cura 10 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 10 danni.",
 			pt: "Heal 10 damage from this Pokémon.",
@@ -55,7 +55,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+	},
+
+	dexId: [829],
+	regulationMark: "E"
 }
 
 export default card

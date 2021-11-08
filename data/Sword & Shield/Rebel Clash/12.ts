@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
+				fr: "Tranch'Herbe",
 				es: "Hoja Afilada",
 				it: "Foglielama",
 				pt: "Folha Navalha",

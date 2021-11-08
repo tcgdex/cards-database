@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it’s really clean is…questionable."
+		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable."
 	}
 }
 

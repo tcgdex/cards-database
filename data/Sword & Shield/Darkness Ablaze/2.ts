@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Butterfree V",
-		fr: "Papilusion-V"
+		fr: "Papilusion-V",
+		es: "Butterfree V",
+		it: "Butterfree-V",
+		pt: "Butterfree V",
+		de: "Smettbo-V"
 	},
 
 	attacks: [
@@ -42,7 +46,7 @@ const card: Card = {
 				de: "Giga-Giftbrise"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",

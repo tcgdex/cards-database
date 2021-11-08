@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Shuffle your hand into your deck. Then, draw a card for each card in your opponent’s hand.",
+			en: "Shuffle your hand into your deck. Then, draw a card for each card in your opponent's hand.",
 			fr: "Mélangez votre main avec votre deck. Ensuite, piochez une carte pour chaque carte dans la main de votre adversaire.",
 			es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 1 carta por cada carta en la mano de tu rival.",
 			it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca una carta per ogni carta nella mano del tuo avversario.",
-			pt: "Shuffle your hand into your deck. Then, draw a card for each card in your opponent’s hand.",
+			pt: "Shuffle your hand into your deck. Then, draw a card for each card in your opponent's hand.",
 			de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 1 Karte für jede Karte auf der Hand deines Gegners."
 		},
 
@@ -66,7 +66,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola's branches."
+	},
+
+	dexId: [370],
+	regulationMark: "E"
 }
 
 export default card

@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras’Face",
+			fr: "Écras'Face",
 			es: "Destructor",
 			it: "Botta",
 			pt: "Pancada",
@@ -71,7 +71,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It can radiate chilliness from the bottoms of its feet. It’ll spend the whole day tap-dancing on a frozen floor."
+		en: "It can radiate chilliness from the bottoms of its feet. It'll spend the whole day tap-dancing on a frozen floor."
 	}
 }
 

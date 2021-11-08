@@ -3,11 +3,11 @@ import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Galarian Sirfetch’d",
+		en: "Galarian Sirfetch'd",
 		fr: "Palarticho de Galar",
-		es: "Sirfetch’d de Galar",
-		it: "Sirfetch’d di Galar",
-		pt: "Sirfetch’d de Galar",
+		es: "Sirfetch'd de Galar",
+		it: "Sirfetch'd di Galar",
+		pt: "Sirfetch'd de Galar",
 		de: "Galar-Lauchzelot"
 	},
 
@@ -22,8 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Galarian Farfetch’d",
-		fr: "Canarticho de Galar"
+		en: "Galarian Farfetch'd",
+		fr: "Canarticho de Galar",
+		es: "Farfetch'd de Galar",
+		it: "Farfetch'd di Galar",
+		pt: "Farfetch'd de Galar",
+		de: "Galar-Porenta"
 	},
 
 	attacks: [
@@ -58,8 +62,8 @@ const card: Card = {
 				de: "Sternensturm"
 			},
 			effect: {
-				en: "This Pokémon can’t use Meteor Assault again until it leaves the Active Spot.",
-				fr: "Ce Pokémon ne peut pas réutiliser Joute Astrale tant qu’il ne quitte pas le Poste Actif.",
+				en: "This Pokémon can't use Meteor Assault again until it leaves the Active Spot.",
+				fr: "Ce Pokémon ne peut pas réutiliser Joute Astrale tant qu'il ne quitte pas le Poste Actif.",
 				es: "Este Pokémon no puede usar Asalto Estelar de nuevo hasta que deje el Puesto Activo.",
 				it: "Questo Pokémon non può più usare Sfolgorassalto finché non lascia la posizione attiva.",
 				pt: "Este Pokémon não poderá usar Ofensiva Meteórica novamente até sair do Campo Ativo.",
@@ -90,7 +94,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Only Farfetch’d that have survived many battles can attain this evolution. When this Pokémon’s leek withers, it will retire from combat."
+		en: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
 	}
 }
 

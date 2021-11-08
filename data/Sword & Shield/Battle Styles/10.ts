@@ -42,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "For each of your Durant in play, discard the top card of your opponent’s deck.",
+			en: "For each of your Durant in play, discard the top card of your opponent's deck.",
 			fr: "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire.",
 			es: "Por cada uno de tus Durant en juego, descarta la primera carta de la baraja de tu rival.",
 			it: "Per ogni tuo Durant in gioco, scarta la prima carta del mazzo del tuo avversario.",

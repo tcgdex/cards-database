@@ -61,7 +61,9 @@ const card: Card = {
 
 	description: {
 		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
-	}
+	},
+
+	dexId: [50]
 }
 
 export default card

@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Torchic",
-		fr: "Poussifeu"
+		fr: "Poussifeu",
+		es: "Torchic",
+		it: "Torchic",
+		pt: "Torchic",
+		de: "Flemmli"
 	},
 
 	attacks: [
@@ -33,7 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud’Pattes",
+				fr: "Coud'Pattes",
 				es: "Patada Destrucción",
 				it: "Calcio Esplosivo",
 				pt: "Chute Poderoso",
@@ -58,7 +62,7 @@ const card: Card = {
 				de: "Hitzeschnabel"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",

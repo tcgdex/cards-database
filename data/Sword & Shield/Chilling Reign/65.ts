@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Pound",
-			fr: "Écras’Face",
+			fr: "Écras'Face",
 			es: "Destructor",
 			it: "Botta",
 			pt: "Pancada",
@@ -34,7 +34,7 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Punch",
-			fr: "Koud’Poing",
+			fr: "Koud'Poing",
 			es: "Puño",
 			it: "Pugno",
 			pt: "Soco",

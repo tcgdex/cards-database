@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Salandit",
-		fr: "Tritox"
+		fr: "Tritox",
+		es: "Salandit",
+		it: "Salandit",
+		pt: "Salandit",
+		de: "Molunk"
 	},
 
 	attacks: [{
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Confused.",
+			en: "Your opponent's Active Pokémon is now Confused.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 			it: "Il Pokémon attivo del tuo avversario viene confuso.",
@@ -55,8 +59,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 90 damage for each Special Condition affecting your opponent’s Active Pokémon.",
-			fr: "Cette attaque inflige 90 dégâts pour chaque État Spécial affectant le Pokémon Actif de votre adversaire.",
+			en: "This attack does 90 damage for each Special Condition affecting your opponent's Active Pokémon.",
+			fr: "Cette attaque inflige 90 dégâts pour chaque État Spécial affectant le Pokémon Actif de votre adversaire.",
 			es: "Este ataque hace 90 puntos de daño por cada Condición Especial que afecte al Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 90 danni per ogni condizione speciale che influenza il Pokémon attivo del tuo avversario.",
 			pt: "Este ataque causa 90 pontos de dano para cada Condição Especial afetando o Pokémon Ativo do seu oponente.",

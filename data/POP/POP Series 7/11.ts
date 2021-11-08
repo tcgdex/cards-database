@@ -5,15 +5,18 @@ const card: Card = {
 	name: {
 		en: "Burmy Plant Cloak",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		412,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -42,10 +46,11 @@ const card: Card = {
 			effect: {
 				en: "If Burmy Plant Cloak has any Grass Energy attached to it, this attack does 10 damage plus 10 more damage.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -53,10 +58,18 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
+	},
 
+	retreat: 1,
 
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck une carte Énergie Grass, puis attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
+				fr: "Cherchez dans votre deck une carte Énergie Grass, puis attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja 1 carta de Energía Grass y únela a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Grass e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia Grass no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
@@ -52,7 +52,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
+				fr: "Tranch'Herbe",
 				es: "Hoja Afilada",
 				it: "Foglielama",
 				pt: "Folha Navalha",
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If it has sunshine and water, it doesn’t need to eat, because it can generate energy from the leaves on its back."
+		en: "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back."
 	}
 }
 

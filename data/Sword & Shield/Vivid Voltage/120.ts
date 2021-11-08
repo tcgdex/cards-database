@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Riolu",
-		fr: "Riolu"
+		fr: "Riolu",
+		es: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+		de: "Riolu"
 	},
 
 	attacks: [
@@ -58,14 +62,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Impact",
-				fr: "Coup d’Articulations",
+				fr: "Coup d'Articulations",
 				es: "Impacto Nudillo",
 				it: "Impatto Nocche",
 				pt: "Impacto Ossudo",
 				de: "Knöchelprall"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t attack.",
+				en: "During your next turn, this Pokémon can't attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",

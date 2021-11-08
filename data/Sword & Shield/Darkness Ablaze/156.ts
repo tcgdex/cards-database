@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Corvisquire",
-		fr: "Bleuseille"
+		fr: "Bleuseille",
+		es: "Corvisquire",
+		it: "Corvisquire",
+		pt: "Corvisquire",
+		de: "Kranoviz"
 	},
 
 	abilities: [
@@ -39,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 1 of your Pokémon, except any Corviknight, and all attached cards into your hand.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon, vous pouvez ajouter à votre main l’un de vos Pokémon, à l’exception d’un Corvaillus, et toutes les cartes attachées.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez ajouter à votre main l'un de vos Pokémon, à l'exception d'un Corvaillus, et toutes les cartes attachées.",
 				es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes poner 1 de tus Pokémon, excepto un Corviknight, y todas las cartas unidas a él en tu mano.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi riprendere in mano uno dei tuoi Pokémon, a eccezione di qualsiasi Corviknight, e tutte le carte a esso assegnate.",
 				pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá colocar 1 dos seus Pokémon, exceto por quaisquer Corviknight, e todas as cartas ligadas a ele na sua mão.",

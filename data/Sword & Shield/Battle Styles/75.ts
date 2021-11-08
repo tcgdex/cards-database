@@ -21,7 +21,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gurdurr",
-		fr: "Ouvrifier"
+		fr: "Ouvrifier",
+		es: "Gurdurr",
+		it: "Gurdurr",
+		pt: "Gurdurr",
+		de: "Strepoli"
 	},
 
 	attacks: [{
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If the Defending Pokémon is an Evolution Pokémon, it can’t attack during your opponent’s next turn.",
+			en: "If the Defending Pokémon is an Evolution Pokémon, it can't attack during your opponent's next turn.",
 			fr: "Si le Pokémon Défenseur est un Pokémon Évolutif, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			es: "Si el Pokémon Defensor es un Pokémon Evolución, no puede atacar durante el próximo turno de tu rival.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon Evoluzione.",

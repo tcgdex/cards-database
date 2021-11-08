@@ -6,11 +6,15 @@ const card: Card = {
 
 	name: {
 		en: "Charizard V",
-		fr: "Dracaufeu V"
+		fr: "Dracaufeu V",
+		es: "Charizard V",
+		it: "Charizard V",
+		pt: "Charizard V",
+		de: "Glurak V"
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fire"],
@@ -18,7 +22,11 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Claw Slash",
-			fr: "Tranch’Griffe"
+			fr: "Tranch'Griffe",
+			es: "Cuchillada Garra",
+			it: "Lacerartiglio",
+			pt: "Claw Slash",
+			de: "Klauenschlitzer"
 		},
 
 		damage: 80,
@@ -26,12 +34,20 @@ const card: Card = {
 	}, {
 		name: {
 			en: "Fire Spin",
-			fr: "Danse Flammes"
+			fr: "Danse Flammes",
+			es: "Giro Fuego",
+			it: "Turbofuoco",
+			pt: "Fire Spin",
+			de: "Feuerwirbel"
 		},
 
 		effect: {
 			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon."
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
+			es: "Descarta 2 Energías de este Pokémon.",
+			it: "Scarta due Energie da questo Pokémon.",
+			pt: "Discard 2 Energy from this Pokémon.",
+			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 220,
@@ -43,7 +59,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	stage: "Basic",
+	dexId: [6],
+
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
+	regulationMark: "D",
+	suffix: "V"
 }
 
 export default card

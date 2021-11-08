@@ -21,8 +21,6 @@ const card: Card = {
 		"Psychic",
 	],
 
-	suffix: "V",
-
 	attacks: [
 		{
 			cost: [
@@ -38,7 +36,7 @@ const card: Card = {
 				de: "Mutiges Comeback"
 			},
 			effect: {
-				en: "Switch all damage counters on this Pokémon with those on your opponent’s Active Pokémon.",
+				en: "Switch all damage counters on this Pokémon with those on your opponent's Active Pokémon.",
 				fr: "Échangez tous les marqueurs de dégâts de ce Pokémon contre ceux du Pokémon Actif de votre adversaire.",
 				es: "Cambia todos los contadores de daño de este Pokémon por los del Pokémon Activo de tu rival.",
 				it: "Scambia tutti i segnalini danno presenti su questo Pokémon con quelli sul Pokémon attivo del tuo avversario.",
@@ -54,14 +52,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Bind",
-				fr: "Étreinte d’Ombre",
+				fr: "Étreinte d'Ombre",
 				es: "Atadura Sombría",
-				it: "Legami d’Ombra",
+				it: "Legami d'Ombra",
 				pt: "Aprisionamento Sombrio",
 				de: "Schattenbindung"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon can’t retreat.",
+				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
 				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
 				es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
@@ -97,7 +95,9 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "Basic"
+	stage: "Basic",
+	suffix: "V",
+	dexId: [202]
 }
 
 export default card

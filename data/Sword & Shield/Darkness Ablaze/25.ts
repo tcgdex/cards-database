@@ -36,7 +36,7 @@ const card: Card = {
 				de: "Feuerzahn"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
 				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
 				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
 				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",

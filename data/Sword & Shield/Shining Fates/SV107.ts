@@ -26,7 +26,7 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Tranch’Griffe",
+			fr: "Tranch'Griffe",
 			en: "Claw Slash",
 			es: "Cuchillada Garra",
 			it: "Lacerartiglio",
@@ -47,7 +47,7 @@ const card: Card = {
 		},
 
 		effect: {
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
+			fr: "Défaussez 2 Énergies de ce Pokémon.",
 			en: "Discard 2 Energy from this Pokémon.",
 			es: "Descarta 2 Energías de este Pokémon.",
 			it: "Scarta due Energie da questo Pokémon.",

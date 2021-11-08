@@ -35,7 +35,7 @@ const card: Card = {
 				de: "Gähner"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden."
+		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
 	}
 }
 

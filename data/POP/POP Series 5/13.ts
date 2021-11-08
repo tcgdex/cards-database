@@ -3,23 +3,25 @@ import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Pikachu (Delta Species)",
+		en: "Pikachu δ",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 40,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -42,23 +44,27 @@ const card: Card = {
 				en: "Heavy Metal",
 			},
 			effect: {
-				en: "Flip a coin for each Energy attached to Pikachu. This attack does 10 damage plus 20 more damage for each heads.",
+				en: "Flip a coin for each Metal Energy attached to Pikachu. This attack does 10 damage plus 20 more damage for each heads.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Fighting"
 		},
 	],
 
+	retreat: 1,
 
-
-
-
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

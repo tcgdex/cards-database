@@ -38,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent’s Active Pokémon.",
+			en: "Discard an Energy from your opponent's Active Pokémon.",
 			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
 			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Scarta un’Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Discard an Energy from your opponent’s Active Pokémon.",
+			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			pt: "Discard an Energy from your opponent's Active Pokémon.",
 			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
@@ -67,7 +67,20 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	evolveFrom: {
+		en: "Gyarados V",
+		fr: "Léviator-V",
+		es: "Gyarados V",
+		it: "Gyarados-V",
+		pt: "Gyarados V",
+		de: "Garados-V"
+	},
+
+	dexId: [130],
+	regulationMark: "E",
+
 }
 
 export default card

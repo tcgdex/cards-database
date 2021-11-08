@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Pistolet à O",
 				es: "Pistola Agua",
 				it: "Pistolacqua",
-				pt: "Revólver d’Água",
+				pt: "Revólver d'Água",
 				de: "Aquaknarre"
 			},
 
@@ -80,7 +80,9 @@ const card: Card = {
 
 	description: {
 		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
-	}
+	},
+
+	dexId: [833]
 }
 
 export default card

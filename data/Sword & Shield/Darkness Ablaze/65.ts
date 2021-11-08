@@ -23,7 +23,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rare Fossil",
-		fr: "Fossile Rare"
+		fr: "Fossile Rare",
+		es: "Fósil Raro",
+		it: "Fossile Raro",
+		pt: "Fóssil Raro",
+		de: "Seltenes Fossil"
 	},
 
 	attacks: [
@@ -40,10 +44,10 @@ const card: Card = {
 				de: "Verstärker"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Amping Up attack does 90 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l’attaque Amplificateur de ce Pokémon inflige 90 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				en: "During your next turn, this Pokémon's Amping Up attack does 90 more damage (before applying Weakness and Resistance).",
+				fr: "Pendant votre prochain tour, l'attaque Amplificateur de ce Pokémon inflige 90 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 				es: "Durante tu próximo turno, el ataque Amplificación de este Pokémon hace 90 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il tuo prossimo turno, l’attacco Incremento di questo Pokémon infligge 90 danni in più, prima di aver applicato debolezza e resistenza.",
+				it: "Durante il tuo prossimo turno, l'attacco Incremento di questo Pokémon infligge 90 danni in più, prima di aver applicato debolezza e resistenza.",
 				pt: "Durante o seu próximo turno, o ataque Amplificando deste Pokémon causará 90 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
 				de: "Während deines nächsten Zuges fügt die Attacke Verstärker dieses Pokémon 90 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
@@ -66,7 +70,7 @@ const card: Card = {
 				de: "Gigastoß"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t attack.",
+				en: "During your next turn, this Pokémon can't attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",

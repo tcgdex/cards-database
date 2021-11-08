@@ -21,8 +21,6 @@ const card: Card = {
 		"Lightning",
 	],
 
-	suffix: "V",
-
 	attacks: [
 		{
 			cost: [
@@ -38,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
+				fr: "Piochez 2 cartes.",
 				es: "Roba 2 cartas.",
 				it: "Pesca due carte.",
 				pt: "Compre 2 cartas.",
@@ -62,7 +60,7 @@ const card: Card = {
 				de: "Donnernder Einschlag"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can’t attack.",
+				en: "During your next turn, this Pokémon can't attack.",
 				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
@@ -91,7 +89,8 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	stage: "Basic"
+	stage: "Basic",
+	suffix: "V"
 }
 
 export default card

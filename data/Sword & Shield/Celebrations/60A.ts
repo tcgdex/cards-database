@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Psychic"],
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "This attack does 20 damage times the amount of Energy attached to both Active Pokémon. This damage isn’t affected by Weakness or Resistance."
+			en: "This attack does 20 damage times the amount of Energy attached to both Active Pokémon. This damage isn't affected by Weakness or Resistance."
 		},
 
 		damage: "20×",
@@ -45,7 +45,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Heal all damage from 2 of your Benched Pokémon. (You can’t use more than 1 GX attack in a game.)"
+			en: "Heal all damage from 2 of your Benched Pokémon. (You can't use more than 1 GX attack in a game.)"
 		},
 
 		cost: ["Psychic"]

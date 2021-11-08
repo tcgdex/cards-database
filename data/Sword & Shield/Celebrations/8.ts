@@ -7,7 +7,7 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false,
-		holo: false,
+		holo: true,
 		firstEdition: false
 	},
 
@@ -26,7 +26,6 @@ const card: Card = {
 	types: ["Lightning"],
 	stage: "Basic",
 	illustrator: "aky CG Works",
-	suffix: "V",
 
 	attacks: [{
 		name: {
@@ -38,7 +37,7 @@ const card: Card = {
 			de: "Surfer"
 		},
 
-		damage: "150",
+		damage: 150,
 		cost: ["Water", "Water", "Water"]
 	}],
 
@@ -47,7 +46,10 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "E",
+	suffix: "V",
+	dexId: [25]
 }
 
 export default card

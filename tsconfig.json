@@ -1,9 +1,10 @@
 {
-	"include": ["data", "interfaces.d.ts"],
+	"include": ["data", "server/compiler", "interfaces.d.ts"],
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",
 		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true
 	}
 }

@@ -26,12 +26,11 @@ const card: Card = {
 	types: ["Darkness"],
 	stage: "Basic",
 	illustrator: "Uta",
-	suffix: "V",
 
 	attacks: [{
 		name: {
 			en: "Trash Stench",
-			fr: "Relents d’Ordures",
+			fr: "Relents d'Ordures",
 			es: "Basura Pestilente",
 			it: "Tanfo di Spazzatura",
 			pt: "Trash Stench",
@@ -39,11 +38,11 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Poisoned. During your opponent’s next turn, that Pokémon can’t retreat.",
+			en: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
-			pt: "Your opponent’s Active Pokémon is now Poisoned. During your opponent’s next turn, that Pokémon can’t retreat.",
+			pt: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
 		},
 
@@ -68,7 +67,10 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	dexId: [569],
+	regulationMark: "E",
+	suffix: "V"
 }
 
 export default card

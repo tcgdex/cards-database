@@ -38,7 +38,7 @@ const card: Card = {
 				de: "Flexibilität"
 			},
 			effect: {
-				en: "This Pokémon can’t be Paralyzed.",
+				en: "This Pokémon can't be Paralyzed.",
 				fr: "Ce Pokémon ne peut pas être Paralysé.",
 				es: "Este Pokémon no puede pasar a estar Paralizado.",
 				it: "Questo Pokémon non può venire paralizzato.",
@@ -89,7 +89,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
+		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
 	}
 }
 

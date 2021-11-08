@@ -32,7 +32,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif contre l’un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
 				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
 				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
@@ -83,7 +83,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it’s not that good at flying."
+		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
 	}
 }
 

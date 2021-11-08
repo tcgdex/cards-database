@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Salandit",
 		fr: "Tritox",
+		es: "Salandit",
+		it: "Salandit",
+		pt: "Salandit",
+		de: "Molunk"
 	},
 
 	stage: "Stage1",
@@ -47,7 +51,7 @@ const card: Card = {
 				de: "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
+				en: "Your opponent's Active Pokémon is now Burned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
 				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
@@ -72,7 +76,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
+				fr: "Défaussez 2 Énergies de ce Pokémon.",
 				es: "Descarta 2 Energías de este Pokémon.",
 				it: "Scarta due Energie da questo Pokémon.",
 				pt: "Descarte 2 Energias deste Pokémon.",

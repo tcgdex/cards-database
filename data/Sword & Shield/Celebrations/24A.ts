@@ -5,11 +5,11 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "_____’s Pikachu"
+		en: "_____'s Pikachu"
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "None",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Lightning"],
@@ -21,7 +21,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "If it’s not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage."
+			en: "If it's not your birthday, this attack does 30 damage. If it is your birthday, flip a coin. If heads, this attack does 30 damage plus 50 more damage; if tails, this attack does 30 damage."
 		},
 
 		damage: "30+",
@@ -33,7 +33,11 @@ const card: Card = {
 		value: ""
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Your Birthdate: ______________________________"
+	}
 }
 
 export default card
