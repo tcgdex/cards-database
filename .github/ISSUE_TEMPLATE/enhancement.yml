@@ -1,7 +1,7 @@
 name: Enhancement
-description: You have an Idea that will enhance the API, Use this issue Template!
-title: "[Up]: "
-labels: [project/database, project/server, project/compiler, type/enhancement]
+description: Use this template if you have an Idea that will enhance the API/Database
+title: "enhancement: "
+labels: [enhancement]
 body:
   - type: markdown
     attributes:
@@ -25,6 +25,6 @@ body:
     attributes:
       label: Please explain in more details what idea you have
       description: If you selected Other or new Data Type please put it as the first line
-      placeholder: "Ex: I would love to see the cards have this new field..."
+      placeholder: "Ex: I would love to see the cards have this new awesome field..."
     validations:
       required: true
