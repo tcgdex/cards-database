@@ -10,13 +10,21 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    versioning-strategy: lockfile-only
+    commit-message:
+      prefix: build
 
   - package-ecosystem: "npm"
     directory: "/server"
     schedule:
       interval: "daily"
+    versioning-strategy: lockfile-only
+    commit-message:
+      prefix: build
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
+    commit-message:
+      prefix: build
