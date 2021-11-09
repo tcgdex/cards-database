@@ -9,6 +9,14 @@ const set: Serie = {
 		it: "Platino",
 		de: "Platin"
 	},
+
+	energies: [
+		'Darkness',
+		'Fighting',
+		'Fire', 'Grass',
+		'Lightning', 'Metal',
+		'Psychic', 'Water'
+	]
 }
 
 export default set
