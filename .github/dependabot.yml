@@ -5,13 +5,26 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "github-actions"
-    # Workflow files stored in the
-    # default location of `.github/workflows`
+
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
+    versioning-strategy: lockfile-only
+    commit-message:
+      prefix: build
+
+  - package-ecosystem: "npm"
+    directory: "/server"
+    schedule:
+      interval: "daily"
+    versioning-strategy: lockfile-only
+    commit-message:
+      prefix: build
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: build
