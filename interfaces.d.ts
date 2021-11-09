@@ -316,7 +316,8 @@ export interface Filter {
 }
 
 export interface Deck {
-	id: string
+	id: `td.${string}.${string}`
+	set: Set
 	name: Languages
 	typesFocus: Array<Types>
 	cards: Array<{

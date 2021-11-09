@@ -1,12 +1,12 @@
 import { Deck } from '../../../../interfaces'
+import Set from "../../Noble Victories"
 
 const deck: Deck = {
-	id: 'deck.bw.nv.fd',
-	// id: 'd-bw3-1',
-	// id: 'card.bw.nv.1',
+	id: 'td.bw3.fd',
 	name: {
 		en: 'Fast Daze'
 	},
+	set: Set,
 	typesFocus: ['Fire', 'Grass'],
 	cards: [
 		{ id: 'bw3-12', variant: 'holo' },
