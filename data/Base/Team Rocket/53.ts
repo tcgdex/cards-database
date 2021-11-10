@@ -4,22 +4,25 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dratini",
+		fr: "Minidraco"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		147,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wrap",
+				fr: "Ligotage"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -45,9 +50,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "La capture du premier Minidraco a inspiré la quêtre d'autres Pokémon légendaires."
+	}
 }
 
 export default card

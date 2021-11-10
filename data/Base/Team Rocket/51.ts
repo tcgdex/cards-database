@@ -4,24 +4,29 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Raticate",
+		fr: "Rattatac obscur"
 	},
+
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		20,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Rattata",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -31,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Machouille"
 			},
 
 			damage: 20,
@@ -42,21 +48,28 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Hyper Fang",
-			},
-			effect: {
-				en: "Flip a coin. if tails, this attack does nothing.",
+				fr: "Croc de mort"
 			},
 
+			effect: {
+				en: "Flip a coin. if tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 50
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -64,9 +77,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Les incisives d'un Rattatac sont incroyablement puissantes ; grâce à elle, il est capable de détruire une maison de 2 étages en 5 minutes."
+	}
 }
 
 export default card

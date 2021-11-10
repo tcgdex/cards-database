@@ -4,35 +4,44 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Dragonite",
+		fr: "Dracolosse obscur"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		149,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Dragonair",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
 				en: "Summon Minions",
+				fr: "Convocation de serviteurs"
 			},
 			effect: {
 				en: "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				fr: "Lorsque vous jouez Dracolosse obscur depuis votre main, cherchez jusqu'à 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -41,13 +50,18 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Giant Tail",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Longue queue"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 70
 		},
 	],
 
@@ -58,9 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il est parfois appelé \"Le dieu destructeur\". Ses ailes le supportent en dépit de sa masse imposante."
+	}
 }
 
 export default card

@@ -4,22 +4,25 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Hitmonchan",
+		fr: "Tygnon"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		107,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Jab",
+				fr: "Taquet"
 			},
 
 			damage: 20,
@@ -41,12 +45,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Special Punch",
+				fr: "Punch Spécial"
 			},
 
 			damage: 40,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -54,10 +60,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu."
+	}
 }
 
 export default card
