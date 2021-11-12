@@ -1,0 +1,24 @@
+import { Set } from '../../interfaces'
+import serie from '../Sword & Shield'
+
+const set: Set = {
+	id: "swsh6",
+	name: {
+		en: "Fusion Strike",
+		fr: "Poing de Fusion",
+		es: "Golpe Fusión",
+		it: "Colpo Fusione",
+		de: "Fusions Angriff",
+		pt: "Golpe Fusão"
+	},
+	serie: serie,
+
+
+	cardCount: {
+		official: 264
+	},
+
+	releaseDate: "2021-11-12"
+}
+
+export default set
