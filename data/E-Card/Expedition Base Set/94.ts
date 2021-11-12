@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
+		fr: "Bulbizarre"
 	},
 	illustrator: "Sachi Matoba",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -38,13 +40,18 @@ const card: Card = {
 				"Grass",
 				"Colorless",
 			],
+
 			name: {
 				en: "Poison Seed",
-			},
-			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				fr: "Graine poison"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+			},
+
+			damage: 10
 		},
 	],
 	weaknesses: [

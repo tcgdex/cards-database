@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Charizard",
+		fr: "Dracaufeu"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -28,13 +29,18 @@ const card: Card = {
 			cost: [
 				"Colorless",
 			],
+
 			name: {
 				en: "Tail Smash",
-			},
-			effect: {
-				en: "Flip a coin. If heads, this attack does nothing.",
+				fr: "Éclate-queue"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 40
 		},
 		{
 			cost: [
@@ -44,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-flammes"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charizard.",
+				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu."
 			},
 			damage: 60,
 

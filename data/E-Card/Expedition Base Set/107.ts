@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Dratini",
+		fr: "Minidraco"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -24,16 +25,21 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Water",
 				"Lightning",
+				"Water",
 			],
+
 			name: {
 				en: "Dragon Smash",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Coup du dragon"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 40
 		},
 	],
 

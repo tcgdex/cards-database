@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Geodude",
+		fr: "Racaillou"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Hurl",
+				fr: "Lance-pierre"
 			},
 			effect: {
 				en: "Don't apply Resistance.",
+				fr: "N'appliquez pas la Résistance."
 			},
 			damage: 10,
 

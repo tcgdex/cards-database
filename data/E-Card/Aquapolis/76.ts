@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Exeggcute",
+		fr: "Nœufnœuf"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Growth Spurt",
+				fr: "Jaillissement"
 			},
 			effect: {
 				en: "Attach an Energy card from your hand to Exeggcute.",
+				fr: "Attachez une cartes Énergie de votre main à Nœufnœuf."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
+				fr: "Poudre dodo"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 

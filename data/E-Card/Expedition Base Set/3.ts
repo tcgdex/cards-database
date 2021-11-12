@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Arbok",
+		fr: "Arbok"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -30,12 +31,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Spray",
+				fr: "Jet-venin"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-			},
-			damage: 10,
-
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+			}
 		},
 		{
 			cost: [
@@ -44,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Reaction",
+				fr: "Allergie poison"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
+				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

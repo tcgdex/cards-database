@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Horsea",
+		fr: "Hypotrempe"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reverse Thrust",
+				fr: "Poussée inverse"
 			},
 			effect: {
 				en: "Switch Horsea with 1 of your Benched Pokémon, if any.",
+				fr: "Échangez Hypotrempe contre l'un des Pokémon de votre Banc, si vous en avez."
 			},
 			damage: 20,
 

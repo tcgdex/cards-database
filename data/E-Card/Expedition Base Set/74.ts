@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Croconaw",
+		fr: "Crocrodil"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				fr: "Bélier"
 			},
 			effect: {
 				en: "Croconaw does 10 damage to itself.",
+				fr: "Crocrodil s'inflige 10 dégâts."
 			},
 			damage: 40,
 

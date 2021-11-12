@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Magby",
+		fr: "Magby"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Catch",
+				fr: "Attrape-énergie"
 			},
 			effect: {
 				en: "Flip a coin. If heads, put a basic Energy cards from your discard pile into your hand.",
+				fr: "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main."
 			},
 
 		},

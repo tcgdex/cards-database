@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Hoppip",
+		fr: "Granivol"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Lightweight",
+				fr: "Poids-plume"
 			},
 			effect: {
 				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
+				fr: "Vous payez  de moins pour faire battre Granivol en retraite pour chaque Énergie  qui lui est attachée."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Careless Tackle",
+				fr: "Plaquage imprudent"
 			},
 			effect: {
 				en: "Hoppip does 10 damage to itself.",
+				fr: "Granivol s'inflige 30 dégâts."
 			},
 			damage: 20,
 

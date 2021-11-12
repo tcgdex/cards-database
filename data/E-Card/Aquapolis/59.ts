@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Seaking",
+		fr: "Poissoroy"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
+				fr: "Fléau"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Seaking.",
+				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Poissoroy."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Undulate",
+				fr: "Annulation"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seaking.",
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Poissoroy."
 			},
 			damage: 30,
 
