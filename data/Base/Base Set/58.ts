@@ -4,22 +4,25 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 40,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Rogne"
 			},
 
 			damage: 10,
@@ -40,14 +44,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
+				fr: "Secousse Tonnerre"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
+				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts."
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -55,10 +62,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
+	}
 }
 
 export default card

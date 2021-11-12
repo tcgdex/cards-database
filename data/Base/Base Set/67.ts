@@ -4,22 +4,25 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Voltorb",
+		fr: "Voltorbe"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		100,
 	],
+
 	hp: 40,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,12 +31,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -41,10 +46,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball."
+	}
 }
 
 export default card
