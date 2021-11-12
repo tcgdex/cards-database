@@ -43,6 +43,9 @@ export default class Serie implements LocalSerie {
 		const res = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
 			.find((c) => {
 				return objectLoop(params, (it, key) => {
+					if (typeof it === 'string') {
+						return c[key as 'id'].toLowerCase().includes(it.toLowerCase())
+					}
 					return c[key as 'id'].includes(it)
 				})
 			})
