@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Fighting Energy",
+		fr: "Énergie Combat"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",

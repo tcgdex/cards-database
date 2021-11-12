@@ -4,22 +4,25 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Machop",
+		fr: "Machoc"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		66,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
+				fr: "Koud'poing"
 			},
 
 			damage: 20,
@@ -42,12 +46,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Kick",
+				fr: "Koud'pied"
 			},
 
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -55,10 +61,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc."
+	}
 }
 
 export default card

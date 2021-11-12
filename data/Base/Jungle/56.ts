@@ -4,22 +4,25 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Meowth",
+		fr: "Miaouss"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		52,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,20 +32,24 @@ const card: Card = {
 			],
 			name: {
 				en: "Pay Day",
+				fr: "Jackpot"
 			},
 			effect: {
 				en: "Flip a coin. If heads, draw a card.",
+				fr: "Lancez une pièce. Si c'est face, piochez une carte."
 			},
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -50,9 +57,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants."
+	}
 }
 
 export default card

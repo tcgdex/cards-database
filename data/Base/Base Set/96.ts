@@ -4,6 +4,7 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Double Colorless Energy",
+		fr: "Double Énergie Incolore"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",

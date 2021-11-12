@@ -4,22 +4,25 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Hitmonlee",
+		fr: "Kicklee"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		106,
 	],
+
 	hp: 60,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,11 +32,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Stretch Kick",
+				fr: "Allonge"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			},
-			damage: 20,
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 20 dégâts. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+			}
 
 		},
 		{
@@ -44,12 +48,14 @@ const card: Card = {
 			],
 			name: {
 				en: "High Jump Kick",
+				fr: "Pied Voltige"
 			},
 
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -57,10 +63,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "S'il est pressé, ses jambes s'allongent progressivement. Il court alors très rapidement."
+	}
 }
 
 export default card
