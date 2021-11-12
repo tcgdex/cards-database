@@ -4,24 +4,29 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Sunflora",
+		fr: "Heliatronc lumineux"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		192,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Sunkern",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -31,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reflected Sunlight",
+				fr: "Reflet du soleil"
 			},
 			effect: {
 				en: "Attach up to 2 Energy cards from your hand to 1 of your Pokémon.",
+				fr: "Attachez jusqu'à 2 cartes Énergie  de votre main à l'un de vos Pokémon ."
 			},
 
 		},
@@ -45,12 +52,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Solarbeam",
+				fr: "Lance-soleil"
 			},
 
 			damage: 40,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -58,10 +67,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche."
+	}
 }
 
 export default card

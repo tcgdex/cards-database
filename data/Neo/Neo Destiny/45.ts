@@ -4,24 +4,29 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Dewgong",
+		fr: "Lamantine lumineux"
 	},
+
 	illustrator: "Masako Yamashita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		87,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Seel",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -31,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Freezing Breath",
+				fr: "Souffle glacial"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 
@@ -46,14 +53,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Pillar",
+				fr: "Colonne de glace"
 			},
 			effect: {
 				en: "Until the end of your opponent's next turn, as long as Light Dewgong is your Active Pokémon, prevent all damage done by attacks to your Benched Pokémon. (Any other effects of attacks still happen.)",
+				fr: "Jusqu'à la fin du prochain tour de votre adversaire, tant que Lamantine lumineux est votre Pokémon Actif, prévenez tous les dégâts infligés par des attaques à votre Pokémon du Banc. (Tous les autres effets dus à des attaques subsistent.)"
 			},
 			damage: 40,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -61,10 +71,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Il a une forme aérodynamique qui lui permet de nager à de grandes vitesses. Plus l'eau est froide, plus il est actif."
+	}
 }
 
 export default card

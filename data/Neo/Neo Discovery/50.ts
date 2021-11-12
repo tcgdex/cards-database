@@ -4,22 +4,25 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Unown [N]",
+		fr: "Zarbi N"
 	},
+
 	illustrator: "CR CG gangs",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		201,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,12 +31,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
+				fr: "Puissance cachée"
 			},
 
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -41,10 +46,21 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+	},
 
+	abilities: [{
+		name: {
+			fr: "[Normal]"
+		},
 
+		effect: {
+			fr: "Quand un Pokémon  inflige des dégâts à un de vos Pokémon, réduisez ces dégâts de 30 (après application de la Faiblesse et de la Résistance). Ce pouvoir cesse de fonctionner s'il y a plus d'un Zarbi [N] en jeu. (Ce pouvoir fonctionne même si Zarbi [N] est Endormi, Confus ou Paralysé.)"
+		},
 
-
+		type: "Pokemon Power"
+	}]
 }
 
 export default card
