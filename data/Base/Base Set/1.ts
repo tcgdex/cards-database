@@ -44,7 +44,7 @@ const card: Card = {
 				en: "Confuse Ray",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Definding Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 30,
 
