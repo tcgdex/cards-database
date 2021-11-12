@@ -4,22 +4,25 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Ho-oh",
+		fr: "Ho-oh"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		250,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -31,20 +34,24 @@ const card: Card = {
 			],
 			name: {
 				en: "Rainbow Burn",
+				fr: "Brûlure arcenciel"
 			},
 			effect: {
 				en: "This attack does 30 damage plus 10 more for each type of Basic Energy card if any, attached to Ho-oh",
+				fr: "Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires par type de carte Énergie de base attachée à Ho-oh, le cas échéant."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -52,9 +59,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "D'après la légende, son corps luirait de sept couleurs. Un arc-en-ciel apparaît toujours dans son sillage."
+	}
 }
 
 export default card

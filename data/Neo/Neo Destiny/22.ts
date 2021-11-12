@@ -4,24 +4,29 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Dragonair",
+		fr: "Draco lumineux"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		148,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Dratini",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -31,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Healing Light",
+				fr: "Lumière soignante"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it.",
+				fr: "Retirez un marqueur de dégât de chacun de vos Pokémon ayant des marqueurs de dégâts."
 			},
 
 		},
@@ -43,13 +50,18 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Protective Wave",
-			},
-			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Light Dragonair.",
+				fr: "Onde protectrice"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Light Dragonair.",
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Draco lumineux."
+			},
+
+			damage: 20
 		},
 	],
 
@@ -60,9 +72,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "L'aura qui enveloppe son corps a un effet sur la météo et le climat environnants."
+	}
 }
 
 export default card

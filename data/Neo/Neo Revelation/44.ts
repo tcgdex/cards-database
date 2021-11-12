@@ -4,22 +4,25 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Geodude",
+		fr: "Racaillou"
 	},
+
 	illustrator: "Masako Yamashita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		74,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,12 +31,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
+				fr: "Coud'phalange"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -41,10 +46,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Il s'aide de ses bras pour gravir les pentes des montagnes les plus raides. Il fait tourner ses poings s'il est en colère."
+	}
 }
 
 export default card
