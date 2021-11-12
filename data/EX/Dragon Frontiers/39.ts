@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Smeargle δ",
+		fr: "Queulorior δ ESPÈCES DELTA"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collectionner"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -40,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flickering Tail",
+				fr: "Queue tremblante"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 10 more damage and the Defending Pokémon is now Asleep.",
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires et le Pokémon Défenseur est maintenant Endormi."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

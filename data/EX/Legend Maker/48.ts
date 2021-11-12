@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Aron",
+		fr: "Galekid"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Self Charge",
+				fr: "Auto-chargement"
 			},
 			effect: {
 				en: "Attach a Metal Energy card from your hand to Aron.",
+				fr: "Attachez une carte Énergie  de votre main à Galekid."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d'boule"
 			},
 
 			damage: 20,

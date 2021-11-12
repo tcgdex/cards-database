@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Gloom",
+		fr: "Ortide"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
+				fr: "Poudre Toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 20,
 

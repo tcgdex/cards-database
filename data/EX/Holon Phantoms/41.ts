@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Exeggutor δ",
+		fr: "Noadkoko δ ESPÈCES DELTA"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Delta Circle",
+				fr: "Cercle Delta"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Pokémon you have in play that has δ on its card.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon possédant le symbole δ que vous avez en jeu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Bomb",
+				fr: "Bombe fendante"
 			},
 			effect: {
 				en: "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez 2 des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 
 		},

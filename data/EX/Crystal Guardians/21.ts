@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Igglybuff",
+		fr: "Toudoudou"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Hover Lift",
+				fr: "Rebond aérien"
 			},
 			effect: {
 				en: "You pay Colorless less to retreat your Jigglypuff, Wigglytuff, Wigglytuff ex, and Igglybuff.",
+				fr: "Vous payez un  de moins pour faire battre Rondoudou, Groudoudou, Grodoudou ex et Toudoudou en retraite."
 			},
 		},
 	],

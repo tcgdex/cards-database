@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Rayquaza δ",
+		fr: "Rayquaza δ ESPÈCES DELTA"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Outrage",
+				fr: "Colère"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, this attack does 10 damage plus 10 more damage for each damage counter on Rayquaza.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Rayquaza."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-flamme"
 			},
 			effect: {
 				en: "Discard 1 Fire Energy attached to Rayquaza.",
+				fr: "Défaussez 1 Énergie  attachée à Rayquaza."
 			},
 			damage: 40,
 

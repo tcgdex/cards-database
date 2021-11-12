@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Lugia",
+		fr: "Lugia"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aeroblast",
+				fr: "Aeroblast"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque face."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

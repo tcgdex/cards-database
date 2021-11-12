@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Kirlia",
+		fr: "Kirlia"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnosis",
+				fr: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dream Eater",
+				fr: "Dévorêve"
 			},
 			effect: {
 				en: "If the Defending Pokémon is not Asleep, this attack does nothing.",
+				fr: "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet."
 			},
 			damage: 50,
 

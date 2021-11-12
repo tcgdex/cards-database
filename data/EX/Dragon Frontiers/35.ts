@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Nidorino δ",
+		fr: "Nidorino δ ESPÈCES DELTA"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
+				fr: "Frénésie"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Nidorino.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Nidorino."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Drill",
+				fr: "Empal'korne"
 			},
 
 			damage: 30,

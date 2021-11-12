@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Stantler",
+		fr: "Cerfrousse"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Screechy Voice",
+				fr: "Voix stridente"
 			},
 			effect: {
 				en: "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
+				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Push Away",
+				fr: "Mettre à l'écart"
 			},
 			effect: {
 				en: "Look at your opponent's hand, choose a Trainer card you find there, and discard it.",
+				fr: "Regardez la main de votre adversaire, choisissez une carte Dresseur et défaussez-la."
 			},
 			damage: 20,
 

@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Quagsire δ",
+		fr: "Maraiste δ ESPÈCES DELTA"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Dig up",
+				fr: "Désenfouir"
 			},
 			effect: {
 				en: "Once during your turn, when you play Quagsire from your hand to evolve 1 of your Pokémon, you may search your discard pile for up to 2 Pokémon Tool cards, show them to your opponent, and put them into your hand.",
+				fr: "Une seule fois lors de votre tour, lorsque vous jouez Maraiste de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez choisir dans votre pile de défausse jusqu'à 2 cartes Outil Pokémon. Montrez-la à votre adversaire et placez-les dans votre main."
 			},
 		},
 	],
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pump Out",
+				fr: "Faire couler à flots"
 			},
 			effect: {
 				en: "If Quagsire has a Pokémon Tool card attached to it, this attack does 50 damage plus 20 more damage.",
+				fr: "Si Maraiste possède une carte Outil Pokémon, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

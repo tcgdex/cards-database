@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Clefable",
+		fr: "Melodelfe"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shining Fingers",
+				fr: "Doigts brillants"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Comet Punch",
+				fr: "Poing météore"
 			},
 			effect: {
 				en: "During your next turn, Extra Comet Punch does 30 damage plus 30 more damage.",
+				fr: "Lors de votre prochain tour, Poing météore inflige 30 dégâts plus 30 dégâts supplémentaires."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

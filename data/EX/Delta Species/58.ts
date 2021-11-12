@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Bagon δ",
+		fr: "Draby δ ESPÈCES DELTA"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
+				fr: "Flammèche"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Bagon.",
+				fr: "Défaussez une carte Énergie  attachée à Draby."
 			},
 			damage: 30,
 

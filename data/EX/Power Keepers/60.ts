@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Seedot",
+		fr: "Grainipiot"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
+				fr: "Tit'sieste"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Seedot.",
+				fr: "Retirez à Grainipiot 2 marqueurs de dégât."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Spin",
+				fr: "Double tour"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

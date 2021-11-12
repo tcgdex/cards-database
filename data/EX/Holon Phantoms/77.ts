@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Pidgey δ",
+		fr: "Roucool δ ESPÈCES DELTA"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
+				fr: "Cru-aile"
 			},
 
 			damage: 10,

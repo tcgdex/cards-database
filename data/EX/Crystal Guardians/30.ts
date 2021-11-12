@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Charmeleon δ",
+		fr: "Reptincel δ ESPÈCES DELTA"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 20,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
+				fr: "Secousse tonnerre"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Charmeleon does 10 damage to itself.",
+				fr: "Lancez une pièce. Si c'est pile, Reptincel s'inflige 10 dégâts."
 			},
 			damage: 50,
 

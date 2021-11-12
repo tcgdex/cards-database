@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Seedot",
+		fr: "Grainipiot"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Drawup Power",
+				fr: "Pouvoir bloquant"
 			},
 			effect: {
 				en: "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				fr: "Choisissez dans votre deck une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -40,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Continuous Tumble",
+				fr: "Roulage continu"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

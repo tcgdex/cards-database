@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Lotad",
+		fr: "Nenupiot"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Aqua Lift",
+				fr: "Aqua-élévation"
 			},
 			effect: {
 				en: "If Lotad has any Water Energy attached to it, the Retreat Cost for Lotad is 0.",
+				fr: "Si Nenupiot possède une Énergie , son Coût de retraite est de 0."
 			},
 		},
 	],
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
+				fr: "Roulé-boulé"
 			},
 
 			damage: 20,

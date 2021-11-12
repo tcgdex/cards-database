@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Wailmer",
+		fr: "Wailmer"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Tackle",
+				fr: "Double charge"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
+				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlpool",
+				fr: "Siphon"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 30,
 

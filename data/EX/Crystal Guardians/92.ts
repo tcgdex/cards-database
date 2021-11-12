@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Exploud ex",
+		fr: "Brouhabam ex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Extra Noise",
+				fr: "Bruit supplémentaire"
 			},
 			effect: {
 				en: "As long as Exploud ex is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon-ex between turns.",
+				fr: "Tant que Brouhabam ex est votre Pokémon Actif, placez 1 marqueur de dégât sur chacun des Pokémon-ex de votre adversaire entre deux tours."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Derail",
+				fr: "Dérailler"
 			},
 			effect: {
 				en: "Discard a Special Energy card, if any, attached to the Defending Pokémon.",
+				fr: "Défaussez 1 carte Énergie Spéciale attachée au Pokémon Défenseur, s'il en a."
 			},
 			damage: 40,
 
@@ -56,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Tail",
+				fr: "Hyper-queue"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Poké-Powers or Poké-Bodies, this attack does 60 damage plus 20 more damage.",
+				fr: "Si le Pokémon Défenseur possède des Poké-Powers ou des Poké-Bodies, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],
