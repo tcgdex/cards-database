@@ -4,6 +4,7 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Armaldo ex",
+		fr: "Armaldo ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -35,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Twin-blade",
+				fr: "Double épée"
 			},
 			effect: {
 				en: "Does 30 damage to each Defending Pokémon.",
+				fr: "Inflige 30 dégâts à chacun des Pokémon Défenseurs."
 			},
 
 		},
@@ -51,9 +54,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic Claws",
+				fr: "Griffes supersoniques"
 			},
 			effect: {
 				en: "This attack’s damage is not affected by Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 80,
 

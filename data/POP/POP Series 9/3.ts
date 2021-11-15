@@ -4,6 +4,7 @@ import Set from '../POP Series 9'
 const card: Card = {
 	name: {
 		en: "Raichu",
+		fr: "Raichu"
 	},
 
 	illustrator: "Midori Harada",
@@ -35,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slam",
+				fr: "Souplesse"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
 			},
 			damage: "30×",
 
@@ -51,10 +54,12 @@ const card: Card = {
 
 			name: {
 				en: "High Volt",
+				fr: "Voltage puissant"
 			},
 
 			effect: {
 				en: "If Raichu evolved from Pikachu during this turn, this attack’s base damage is 100 instead of 60.",
+				fr: "Si Raichu évolue d'un Pokémon lors de ce tour, les dégâts de base de cette attaque sont de 100 au lieu de 60."
 			},
 
 			damage: 60
