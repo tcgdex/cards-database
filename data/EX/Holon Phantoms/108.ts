@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
+		fr: "Énergie Électrique"
 	},
 	illustrator: undefined,
 	rarity: "Rare",

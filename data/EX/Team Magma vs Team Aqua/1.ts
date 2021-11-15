@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Cacturne",
+		fr: "Cacturne de Team Aqua"
 	},
 	illustrator: "K. Utsunomiya",
 	rarity: "Rare",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Bind",
+				fr: "Sombre étreinte"
 			},
 			effect: {
 				en: "You may discard a Darkness Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed.\"",
+				fr: "Vous pouvez défausser une carte Énergie  attachée à Cacturne de Team Aqua. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Barb",
+				fr: "Barbelés empoisonnés"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 40,
 

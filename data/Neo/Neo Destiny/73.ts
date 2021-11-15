@@ -4,22 +4,25 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Machop",
+		fr: "Machoc"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		66,
 	],
+
 	hp: 40,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Chop",
+				fr: "Coup tranchant"
 			},
 
 			damage: 10,
@@ -40,12 +44,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
+				fr: "Koud'poing"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -53,10 +59,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers."
+	}
 }
 
 export default card

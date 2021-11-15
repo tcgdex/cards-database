@@ -4,35 +4,44 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Gengar",
+		fr: "Ectoplasma"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		94,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Haunter",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
 				en: "Curse",
+				fr: "Malédiction"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts depuis 1 des Pokémon de votre adversaire vers un autre (même si cela met l'autre Pokémon K.O.). Ce pouvoir ne peut être utilisé si Ectoplasma est Endormi, Confus ou Paralysé."
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -42,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Mind",
+				fr: "Sombre-esprit"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)"
 			},
 			damage: 30,
 
@@ -58,9 +69,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi."
+	}
 }
 
 export default card

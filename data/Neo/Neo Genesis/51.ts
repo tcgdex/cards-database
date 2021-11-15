@@ -4,22 +4,25 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Togepi",
+		fr: "Togepi"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		175,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Barb",
+				fr: "Barbelés empoisonnés"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné"
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 	],
@@ -45,9 +50,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Un proverbe prétend que celui qui pourra réveiller un Togepi endormi sera récompensé par un grand bonheur."
+	}
 }
 
 export default card

@@ -9,6 +9,13 @@ const set: Serie = {
 		it: "Spada e Scudo",
 		de: "Schwert & Schild"
 	},
+
+	energies: [
+		'Darkness', 'Dragon',
+		'Fighting', 'Fire', 'Grass',
+		'Lightning', 'Metal',
+		'Psychic', 'Water'
+	]
 }
 
 export default set

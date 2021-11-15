@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Lairon",
+		fr: "Galegon"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Roar",
+				fr: "Hurlement"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc, s'il en a."
 			},
 
 		},
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Charge",
+				fr: "Attaque métallique"
 			},
 			effect: {
 				en: "Put 1 damage counter on Lairon.",
+				fr: "Placez 1 marqueur de dégât sur Galegon."
 			},
 			damage: 50,
 

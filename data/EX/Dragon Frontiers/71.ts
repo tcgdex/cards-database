@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Wooper δ",
+		fr: "Axoloto δ ESPÈCES DELTA"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Amnesia",
+				fr: "Amnésie"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
+				fr: "Coud'Keu"
 			},
 
 			damage: 20,

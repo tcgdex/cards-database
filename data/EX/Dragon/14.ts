@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Dragonair",
+		fr: "Draco"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Blast",
+				fr: "Explosion de lumière"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 20,
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Healing Wave",
+				fr: "Vague guérisseuse"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Active Pokémon.",
+				fr: "Retirez un marqueur de dégât à chacun de vos Pokémon Actifs."
 			},
 			damage: 30,
 

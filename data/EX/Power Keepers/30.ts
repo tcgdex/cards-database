@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Glalie",
+		fr: "Oniglali"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Synergy Effect",
+				fr: "Effet synergie"
 			},
 			effect: {
 				en: "If Glacia's Stadium is in play, any damage done to Glalie by attacks from your opponent's Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				fr: "Si Stade de Glacia est en jeu, tous dégâts infligés à Oniglali par des attaques de Pokémon de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Powder Snow",
+				fr: "Poudreuse"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 20,
 
@@ -56,9 +61,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
+				fr: "Damoclès"
 			},
 			effect: {
 				en: "Glalie does 10 damage to itself.",
+				fr: "Oniglali s'inflige 10 dégâts."
 			},
 			damage: 60,
 

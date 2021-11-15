@@ -4,10 +4,11 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Rainbow Energy",
+		fr: "Énergie multicolore"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Rare",
-	category: "Trainer",
+	category: "Energy",
 
 	set: Set,
 

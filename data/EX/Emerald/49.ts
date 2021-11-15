@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Feebas",
+		fr: "Barpau"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Submerge",
+				fr: "Submerger"
 			},
 			effect: {
 				en: "As long as Feebas is on your Bench, prevent all damage done to Feebas by attacks (both yours and your opponent's).",
+				fr: "Tant que Barpau est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire)."
 			},
 		},
 	],
@@ -39,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lunge",
+				fr: "Coup rapide"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 20,
 

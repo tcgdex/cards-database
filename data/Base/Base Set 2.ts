@@ -5,8 +5,7 @@ const base4: Set = {
 	id: "base4",
 
 	name: {
-		en: "Base Set 2",
-		fr: "Base Set 2"
+		en: "Base Set 2"
 	},
 
 	serie: serie,

@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Luvdisc",
+		fr: "Lovdisc"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call For Friend",
+				fr: "À la rescousse !"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Strange Scale",
+				fr: "Étrange écaille"
 			},
 			effect: {
 				en: "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
+				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, il est maintenant Confus."
 			},
 			damage: 20,
 

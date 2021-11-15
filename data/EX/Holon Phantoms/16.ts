@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Rayquaza δ",
+		fr: "Rayquaza δ ESPÈCES DELTA"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -26,9 +27,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Hydro Barrier",
+				fr: "Barrière aquatique"
 			},
 			effect: {
 				en: "As long as Rayquaza has any Holon Energy cards attached to it, each of your Water Pokémon has no Weakness.",
+				fr: "Tant que Rayquaza possède des cartes Énergie Holon, vos Pokémon  ne possèdent pas de Faiblesse."
 			},
 		},
 	],
@@ -39,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Delta Search",
+				fr: "Recherche Delta"
 			},
 			effect: {
 				en: "Search your deck for a Holon Energy card and attach it to Rayquaza. Shuffle your deck afterward.",
+				fr: "Cherchez dans votre deck une carte Énergie Holon et attachez-la à Rayquaza. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -54,6 +59,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ozone Flare",
+				fr: "Éclat d'ozone"
 			},
 
 			damage: 60,

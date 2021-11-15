@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Electabuzz",
+		fr: "Elektek"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Plasma",
+				fr: "Plasma"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Electabuzz.",
+				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Elektek."
 			},
 			damage: 10,
 
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Spear",
+				fr: "Lance-éclair"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
 			},
 
 		},

@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "React Energy",
+		fr: "Énergie réaction"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Uncommon",

@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
+		fr: "Bulbizarre"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Poison",
+				fr: "Poison dodo"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné."
 			},
 
 		},
@@ -39,11 +42,13 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'herbe"
 			},
 
-
+			damage: 20
 		},
 	],
 	weaknesses: [

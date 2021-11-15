@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Shelgon",
+		fr: "Drackhaus"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Scrunch",
+				fr: "Compresse"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Shelgon during your opponent's next turn. (Any other effects of attacks still happen.)",
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Drackhaus lors du prochain tour de votre adversaire. (Tous les autres effets sont appliqués.)"
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Attack",
+				fr: "Attaque qui roule"
 			},
 
 			damage: 50,

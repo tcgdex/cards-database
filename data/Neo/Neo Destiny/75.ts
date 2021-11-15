@@ -4,22 +4,25 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Mareep",
+		fr: "Wattouat"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		179,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,12 +31,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d'boule"
 			},
 
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -41,10 +46,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver."
+	}
 }
 
 export default card

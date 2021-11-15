@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Loudred",
+		fr: "Ramboum"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
+				fr: "Plaquage"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
+				fr: "Damoclès"
 			},
 			effect: {
 				en: "Loudred does 10 damage to itself.",
+				fr: "Ramboum s'inflige 10 dégâts."
 			},
 			damage: 50,
 

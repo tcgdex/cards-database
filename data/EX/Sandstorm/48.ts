@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Nuzleaf",
+		fr: "Pifeuil"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Steady Punch",
+				fr: "Poing énergétique"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'herbe"
 			},
 
 			damage: 40,

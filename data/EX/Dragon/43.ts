@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Shuppet",
+		fr: "Polichombr"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnosis",
+				fr: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Night Attack",
+				fr: "Attaque nocturne"
 			},
 			effect: {
 				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
+				fr: "Placez un marqueur de dégât sur un des Pokémon de votre adversaire."
 			},
 
 		},

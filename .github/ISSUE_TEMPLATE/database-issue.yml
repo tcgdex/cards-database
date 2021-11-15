@@ -1,0 +1,41 @@
+name: Database Issue Report
+description: Use this when you found an issue involving the TCGdex Datas
+title: "issue:"
+labels: [issue, database]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to help advance the project witg your issue report!
+
+        Note: if the issue is affecting translations or definitions files the correct issue report as the API one
+
+  - type: dropdown
+    id: data-type
+    validations:
+      required: true
+    attributes:
+      label: What seems to be the issue
+      description: Select the types of data that seems to be causing issues
+      options:
+        - label: Card
+        - label: Set
+        - label: Serie
+        - label: Other
+  - type: input
+    id: fields
+    attributes:
+      label: Field(s)
+      description: Tell which field(s) have the issue
+      placeholder: "ex: the Regulation Mark field"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe Your problem
+      placeholder: "ex: The cards have an incorrect name"
+    validations:
+      required: true

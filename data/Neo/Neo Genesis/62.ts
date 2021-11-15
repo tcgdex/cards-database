@@ -4,22 +4,25 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Horsea",
+		fr: "Hypotrempe"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		116,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,14 +32,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Fin Slap",
+				fr: "Koud' nageoire"
 			},
 			effect: {
 				en: "If an attack damaged Horsea during your opponent's last turn, this attack does 20 damage plus 10 more damage. If not, this attack does 20 damage.",
+				fr: "Si une attaque a infligé des dégâts à Hypotrempe durant le dernier tour de votre adversaire, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Sinon, cette attaque inflige 20 dégâts."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -44,10 +50,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Lorsqu'il est attaqué par un ennemi plus gros que lui, il nage rapidement hors d'atteinte en contrôlant habilement sa nageoire dorsale."
+	}
 }
 
 export default card

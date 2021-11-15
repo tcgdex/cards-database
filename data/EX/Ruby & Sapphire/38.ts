@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Linoone",
+		fr: "Lineon"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Seek Out",
+				fr: "À la recherche"
 			},
 			effect: {
 				en: "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
+				fr: "Choisissez deux cartes dans votre deck. Montrez-les à votre adversaire et placez-les dans votre main. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Continuous Headbutt",
+				fr: "Coup d'boule sans fin"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 40 damage times the number of heads.",
+				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 40 dégâts multipliés par le nombre de face."
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],

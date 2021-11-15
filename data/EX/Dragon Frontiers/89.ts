@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Scramble Energy",
+		fr: "Énergie codée"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Uncommon",

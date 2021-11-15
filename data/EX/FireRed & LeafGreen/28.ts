@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Primeape",
+		fr: "Colossinge"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Toss",
+				fr: "Pile ou face"
 			},
 			effect: {
 				en: "You may discard from your hand as many Technical Machine and Pokémon Tool cards as you like. This attack does 30 damage times the number of cards you discarded.",
+				fr: "Vous pouvez défausser de votre main autant de cartes Machine technique et Outil Pokémon que vous voulez. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes défaussées."
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -45,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
+				fr: "Balayage"
 			},
 
 			damage: 40,

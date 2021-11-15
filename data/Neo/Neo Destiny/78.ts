@@ -4,22 +4,25 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Porygon",
+		fr: "Porygon"
 	},
+
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		137,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,18 +32,21 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharpen",
+				fr: "Affûtage"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -48,9 +54,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Ce Pokémon est le résultat de recherches informatiques. Son programme n'est capable que d'actions et de réactions simples."
+	}
 }
 
 export default card

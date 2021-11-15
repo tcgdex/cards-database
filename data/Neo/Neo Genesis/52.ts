@@ -4,24 +4,29 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Xatu",
+		fr: "Xatu"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		178,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Natu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -30,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Prophecy",
+				fr: "Prophétie"
 			},
 			effect: {
 				en: "Look at the top 3 cards of either player's deck and rearrange them as you like.",
+				fr: "Regardez les 3 cartes du dessus du deck de n'importe quel joueur et ordonnez-les comme bon vous semble."
 			},
 
 		},
@@ -44,20 +51,24 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde folie"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -65,9 +76,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "On dit qu'il reste silencieux et immobile car il observe le passé et le futur en même temps."
+	}
 }
 
 export default card

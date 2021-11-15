@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Rhyhorn",
+		fr: "Rhinocorne de Team Magma"
 	},
 	illustrator: "Mt. TBT",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Damage",
+				fr: "Double dégâts"
 			},
 			effect: {
 				en: "Does 10 damage to each Defending Pokémon.",
+				fr: "Inflige 10 dégâts à chaque Pokémon Défenseur."
 			},
 
 		},
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Rush",
+				fr: "Ruée de corne"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 60,
 

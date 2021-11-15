@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Medicham",
+		fr: "Charmina"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Meditate",
+				fr: "Yoga"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Chakra Points",
+				fr: "Points de chakra"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each card in your opponent's hand.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque carte dans la main de votre adversaire."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Boost Energy",
+		fr: "Énergie Super"
 	},
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Uncommon",

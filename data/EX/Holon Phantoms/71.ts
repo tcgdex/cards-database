@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Meowth δ",
+		fr: "Miaouss δ ESPÈCES DELTA"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 10,
@@ -41,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pay Day",
+				fr: "Jackpot"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 			damage: 10,
 

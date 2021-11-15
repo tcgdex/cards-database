@@ -4,38 +4,47 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Starmie",
+		fr: "Staross"
 	},
+
 	illustrator: undefined,
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		121,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Staryu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
 			cost: [
 				"Water",
 			],
+
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde folie"
 			},
+
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
-			damage: 10,
 
+			damage: 10
 		},
 		{
 			cost: [
@@ -45,14 +54,16 @@ const card: Card = {
 			],
 			name: {
 				en: "Core Stream",
+				fr: "Courant central"
 			},
 			effect: {
 				en: "Choose an Energy type other than . This attack does 20 damage to each of your opponent's Pokémon with any Energy cards of that type attached to it. Don't apply Weakness and Resistance.",
-			},
-			damage: 20,
+				fr: "Choisissez un type d'Énergie autre que . Cette attaque inflige 20 dégâts à chaque Pokémon de votre adversaire possédant des cartes d'Énergie de ce type. N'appliquez ni la Faiblesse ni la Résistance."
+			}
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -60,10 +71,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "La section centrale de son corps est appelée \"cœur\". Elle luit d'une couleur différente à chaque fois qu'on la contemple."
+	}
 }
 
 export default card

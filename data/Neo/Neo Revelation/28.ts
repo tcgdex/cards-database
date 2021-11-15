@@ -4,24 +4,29 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
+		fr: "Lainergie"
 	},
+
 	illustrator: "Toshinao Aoki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		180,
 	],
+
 	hp: 70,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Mareep",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -30,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Electric Punch",
+				fr: "Poing électrique"
 			},
 
 			damage: 20,
@@ -43,14 +49,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Shock",
+				fr: "Élektri-keu"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,10 +67,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Son épaisse toison stocke l'électricité. Sa peau caoutchouteuse le sauve de l'électrocution."
+	}
 }
 
 export default card

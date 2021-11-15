@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Machoke",
+		fr: "Machopeur"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Paranoid",
+				fr: "Paranoïaque"
 			},
 			effect: {
 				en: "As long as Machoke is Confused, Machoke's attacks do 50 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				fr: "Tant que Machopeur est Confus, ses attaques infligent au Pokémon Défenseur 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Kick",
+				fr: "Coup en deux temps"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
+				fr: "Inflige 20 dégâts à chacun des Pokémon Défenseurs."
 			},
 
 		},
@@ -54,6 +59,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnum Punch",
+				fr: "Poing magnum"
 			},
 
 			damage: 40,

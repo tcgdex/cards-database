@@ -4,22 +4,25 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Natu",
+		fr: "Natu"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		177,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,20 +31,24 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde folie"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -49,9 +56,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il picore souvent le sol à la recherche de nourriture mais, de temps en temps, il saute sur les branches pour picorer des pousses."
+	}
 }
 
 export default card

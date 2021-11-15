@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Vibrava δ",
+		fr: "Vibraninf δ ESPÈCES DELTA"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
@@ -24,12 +25,14 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Poke-BODY",
+			type: "Poke-POWER",
 			name: {
 				en: "Psychic Wing",
+				fr: "Aile psy"
 			},
 			effect: {
 				en: "If Vibrava has any Psychic Energy attached to it, the Retreat Cost for Vibrava is 0.",
+				fr: "Si Vibraninf possède de l'Énergie , son Coût de retraite est de 0."
 			},
 		},
 	],
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Blow",
+				fr: "Coup d'poing éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

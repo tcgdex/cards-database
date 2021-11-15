@@ -11,4 +11,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          config-preset: conventionalcommits
+          config-preset: angular

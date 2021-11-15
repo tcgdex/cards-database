@@ -4,24 +4,29 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Espeon",
+		fr: "Mentali"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		196,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Dodrio",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -31,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,
@@ -44,14 +50,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic",
+				fr: "Psyko"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more for each Energy Card attached to the Defending Pokémon.",
+				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,10 +68,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "La belle fourrure qui recouvre son corps peut sentir les courants aériens et prédire les actions de son ennemi."
+	}
 }
 
 export default card

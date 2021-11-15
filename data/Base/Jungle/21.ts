@@ -4,22 +4,25 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Kangaskhan",
+		fr: "Kangourex"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		115,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fetch",
+				fr: "Rapporte"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -43,20 +48,24 @@ const card: Card = {
 			],
 			name: {
 				en: "Comet Punch",
+				fr: "Poing comète"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -64,9 +73,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
+	}
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Whismur",
+		fr: "Chuchmur"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
+				fr: "Ultrason"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 
 		},
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Voice",
+				fr: "Voix haut perchée"
 			},
 
 			damage: 30,

@@ -1,7 +1,7 @@
 name: New Set
-description: Use this Issue Template when you found a New set!
-title: "[Set]: {Set Name}"
-labels: [type/new-set, project/database]
+description: Issue Template used when a new set has been announced by TPC
+title: "new set: {Set Name}"
+labels: [database]
 body:
   - type: markdown
     attributes:
@@ -11,7 +11,7 @@ body:
     id: source
     attributes:
       label: Source
-      description: Where did you find out about this new set
+      description: Where did you find out about this new set (domain name MUST be pokemon.com)
       placeholder: "ex: https://www.pokemon.com/us/pokemon-tcg/sword-shield-evolving-skies/explore-and-watch/"
     validations:
       required: true

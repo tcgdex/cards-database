@@ -4,22 +4,25 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Vulpix",
+		fr: "Goupix"
 	},
+
 	illustrator: "Masako Yamashita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		37,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,14 +32,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
+				fr: "Flammèche"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to this Pokémon in order to use this attack.",
+				fr: "Défaussez-vous d'une carte Énergie  attachée à Goupix pour pouvoir utiliser cette attaque."
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -44,10 +50,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Tandis qu'il vieillit, sa queue blanche change de couleur et se sépare en six. Il émane de son corps une faible chaleur."
+	}
 }
 
 export default card

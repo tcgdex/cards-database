@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Combusken",
+		fr: "Galifeu"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Focus Energy",
+				fr: "Puissance"
 			},
 			effect: {
 				en: "During your next turn, Combusken's High Jump Kick attack's base damage is 70.",
+				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Pied voltige de Galifeu sont de 70."
 			},
 
 		},
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "High Jump Kick",
+				fr: "Pied voltige"
 			},
 
 			damage: 30,

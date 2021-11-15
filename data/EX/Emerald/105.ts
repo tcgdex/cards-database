@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
+		fr: "Énergie Psy"
 	},
 	illustrator: undefined,
 	rarity: "Rare",

@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Flareon",
+		fr: "Pyroli"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Dance",
+				fr: "Danse du feu"
 			},
 			effect: {
 				en: "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
+				fr: "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à un 1 de vos Pokémon."
 			},
 			damage: 20,
 
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Multi Burn",
+				fr: "Brûlures multiples"
 			},
 			effect: {
 				en: "If Flareon has 3 or more different types of basic Energy cards attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Burned.",
+				fr: "Si Pyroli possède au moins 3 types de cartes Énergie de base différents, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Brûlé."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

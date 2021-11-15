@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Numel",
+		fr: "Chamallot"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Singe",
+				fr: "Roussir"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Intimidation"
 			},
 
 			damage: 20,

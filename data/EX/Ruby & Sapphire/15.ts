@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Blaziken",
+		fr: "Brasegali"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Clutch",
+				fr: "Serre"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé."
 			},
 			damage: 20,
 
@@ -47,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-flamme"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Blaziken.",
+				fr: "Défaussez une carte Énergie  attachée à Brasegali."
 			},
 			damage: 80,
 

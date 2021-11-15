@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Weezing",
+		fr: "Smogogo"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confusion Gas",
+				fr: "Confu-gaz"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Smog",
+				fr: "Brouillard empoisonné"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Poisoned. Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Chaque Pokémon Défenseur est maintenant Empoisonné. Inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
 			},
 
 		},

@@ -6,7 +6,7 @@ this folder contains data that allow to build and quickly edit the database
 
 simple file that contains an easy way to edit multiple entries of the database
 
-run it from the root folder of the project
+run it from the root folder of the project with jscodeshift added using `npm i jscodeshift`
 
 ```bash
 npx jscodeshift -t ./meta/codeshift.ts --extensions=ts --parser=ts ./data/Serie/Set --print --dry
@@ -15,6 +15,10 @@ npx jscodeshift -t ./meta/codeshift.ts --extensions=ts --parser=ts ./data/Serie/
 ## Definitions
 
 Contains the differents standards of API/Data definition for the built database
+
+- `openapi.yaml`: Open API definition
+- `graphql.gql`: GraphQL definitions
+- `api.d.ts`: API definition for the SDKs
 
 ## Translations
 

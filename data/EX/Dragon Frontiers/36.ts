@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Quilava δ",
+		fr: "Feurisson δ ESPÈCES DELTA"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
+				fr: "Coud'pattes"
 			},
 
 			damage: 20,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				fr: "Vive-attaque"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

@@ -4,22 +4,25 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Squirtle",
+		fr: "Carapuce"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		7,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,12 +32,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Shell Attack",
+				fr: "Carap'attaque"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -42,10 +47,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager"
+	}
 }
 
 export default card

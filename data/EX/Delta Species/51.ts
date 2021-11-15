@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Pupitar δ",
+		fr: "Ymphect δ ESPÈCES DELTA"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Paralyzing Gaze",
+				fr: "Regard paralysant"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 
 		},
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
+				fr: "Damoclès"
 			},
 			effect: {
 				en: "Pupitar does 10 damage to itself.",
+				fr: "Ymphect s'inflige 10 dégâts."
 			},
 			damage: 40,
 

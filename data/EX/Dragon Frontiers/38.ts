@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Shelgon δ",
+		fr: "Drackhaus δ ESPÈCES DELTA"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d'boule"
 			},
 
 			damage: 20,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
+				fr: "Damoclès"
 			},
 			effect: {
 				en: "Shelgon does 10 damage to itself.",
+				fr: "Drackhaus s'inflige 10 dégâts."
 			},
 			damage: 50,
 

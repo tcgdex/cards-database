@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Jynx δ",
+		fr: "Lippoutou δ ESPÈCES DELTA"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Stages of Evolution",
+				fr: "Niveaux d'Évolution"
 			},
 			effect: {
 				en: "As long as Jynx is an Evolved Pokémon, you pay Colorless less to retreat your Fire and Psychic Pokémon.",
+				fr: "Tant que Lippoutou est un Pokémon Évolué, vous payez 1  de moins pour faire battre en retraite vos Pokémon  et ."
 			},
 		},
 	],
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Punch",
+				fr: "Poing de feu"
 			},
 
 			damage: 30,

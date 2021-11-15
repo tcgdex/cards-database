@@ -4,22 +4,25 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Nidoran♂",
+		fr: "Nidoran ♂"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		32,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,14 +31,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Hazard",
+				fr: "Chanc' Korne"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -43,10 +49,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel."
+	}
 }
 
 export default card

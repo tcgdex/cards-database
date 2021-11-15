@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Torchic",
+		fr: "Poussifeu"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 10,
@@ -40,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Intimidation"
 			},
 
 			damage: 20,

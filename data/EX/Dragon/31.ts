@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Grovyle",
+		fr: "Massko"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Cutter",
+				fr: "Taillade"
 			},
 			effect: {
 				en: "Flip 4 coins. If all of them are heads, this attack does 10 damage plus 60 more damage. If not, this attack does 10 damage plus 10 more damage for each heads.",
+				fr: "Lancez quatre pièces. Si ce sont quatre faces, cette attaque inflige 10 dégâts plus 60 dégâts supplémentaires. Sinon, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires multipliés par le nombre de faces."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Cacturne",
+		fr: "Cacturne"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Poison Payback",
+				fr: "Retour de poison"
 			},
 			effect: {
 				en: "If Cacturne is your Active Pokémon and is damaged by an opponent's attack (even if Cacturne is Knocked Out), the Attacking Pokémon is now Poisoned.",
+				fr: "Si Cacturne est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Cacturne est mis K.O), le Pokémon Attaquant est maintenant Empoisonné."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Feint Attack",
+				fr: "Feinte"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poke-Powers, Poke-Bodies or any other effects on that Pokémon.",
+				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet."
 			},
 
 		},
