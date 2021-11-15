@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Latios δ",
+		fr: "Latios δ ESPÈCES DELTA"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Wave",
+				fr: "Aqua-vague"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragonbreath",
+				fr: "Dracosouffle"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 50,
 

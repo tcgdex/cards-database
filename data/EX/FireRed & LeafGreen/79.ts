@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Shellder",
+		fr: "Kokiyas"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Minimize",
+				fr: "Lilliput"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Shellder by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Kokiyas par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
 			},
 
 		},
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
+				fr: "Grosse vague"
 			},
 
 			damage: 10,

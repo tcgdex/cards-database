@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Plusle",
+		fr: "Posipi"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
+				fr: "Appel à la famille"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Positive Spark",
+				fr: "Étincelle positive"
 			},
 			effect: {
 				en: "Does 20 damage to each of your opponent's Pokémon that has any Poké-Powers. Don't apply Weakness and Resistance.",
+				fr: "Inflige 20 dégâts à chacun des Pokémon de votre adversaire possédant des Poké-Powers. Vous ne pouvez pas appliquer la Faiblesse et la Résistance."
 			},
 
 		},

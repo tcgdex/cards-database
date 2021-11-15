@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Beedrill δ",
+		fr: "Dardargnan δ ESPÈCES DELTA"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Final Sting",
+				fr: "Piqûre fatale"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may Knock Out Beedrill. If you do, choose 1 of your opponent's Defending Pokémon. That Pokémon is now Paralyzed and Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns. This power can't be used if Beedrill is affected by a Special Condition.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez mettre Dardargnan K.O. Choisissez alors 1 des Pokémon Défenseurs de votre adversaire. Ce Pokémon est maintenant Paralysé et Empoisonné. Placez sur ce Pokémon 2 marqeurs de dégât au lieu d'1 entre deux tours. Ce pouvoir ne peut pas être utilisé si Dardargnan est affecté par un État Spécial."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Slash",
+				fr: "Super entaille"
 			},
 			effect: {
 				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 50 damage plus 30 more damage.",
+				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

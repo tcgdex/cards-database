@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Bagon",
+		fr: "Draby"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Retaliate",
+				fr: "Représailles"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Bagon.",
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Draby."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

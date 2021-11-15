@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Water Energy",
+		fr: "Énergie Eau"
 	},
 	illustrator: undefined,
 	rarity: "Rare",

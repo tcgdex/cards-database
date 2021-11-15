@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Chansey",
+		fr: "Leveinard"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sing",
+				fr: "Berceuse"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Egg Surprise",
+				fr: "Oeuf surprise"
 			},
 			effect: {
 				en: "Flip a coin. If heads, Chansey does 50 damage to the Defending Pokémon. If tails, remove 5 damage counters from Chansey. (All if there are less than 5.)",
+				fr: "Lancez une pièce. Si c'est face, Leveinard inflige 50 dégâts au Pokémon Défenseur. Si c'est pile, retirez à Leveinard 5 marqueurs de dégât. (Retirez-les lui tous s'il y en a moins de 5.)"
 			},
 
 		},

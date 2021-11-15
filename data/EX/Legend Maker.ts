@@ -6,7 +6,7 @@ const ex12: Set = {
 
 	name: {
 		en: "Legend Maker",
-		fr: "Legend Maker"
+		fr: "Créateurs de légendes"
 	},
 
 	serie: serie,

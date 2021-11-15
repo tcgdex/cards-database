@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Latias ex",
+		fr: "Latias ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnoblast",
+				fr: "Hypnoblast"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mist Ball",
+				fr: "Boule de brume"
 			},
 			effect: {
 				en: "Discard a Fire Energy and a Water Energy attached to Latias ex.",
+				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias ex."
 			},
 			damage: 100,
 

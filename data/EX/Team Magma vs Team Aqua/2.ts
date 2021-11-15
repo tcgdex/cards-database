@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Crawdaunt",
+		fr: "Colhomard de Team Aqua"
 	},
 	illustrator: "Nakaoka",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Reverse",
+				fr: "Aqua-revers"
 			},
 			effect: {
 				en: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon that has Team Magma in its name and switch it with 1 of the Defending Pokémon. Your opponent chooses which Defending Pokémon to switch.",
+				fr: "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire dont le nom comporte Team Aqua et l'échanger avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger."
 			},
 			damage: 20,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Deep Impact",
+				fr: "Grosse collision"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.",
+				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Paralysé."
 			},
 			damage: 40,
 

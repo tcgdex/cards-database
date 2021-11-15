@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Oddish δ",
+		fr: "Mystherbe δ ESPÈCES DELTA"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
+				fr: "Pâté"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Oddish.",
+				fr: "Retirez à Mystherbe 2 marqueurs de dégât."
 			},
 			damage: 10,
 

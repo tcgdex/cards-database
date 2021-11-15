@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Claydol",
+		fr: "Kaorine"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
+				fr: "Ultralaser"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez 1 Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 20,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 50,

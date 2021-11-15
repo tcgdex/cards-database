@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Vibrava",
+		fr: "Vibraninf"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
+				fr: "Ultrason"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bi-Blast",
+				fr: "Bi-explosion"
 			},
 			effect: {
 				en: "If Vibrava has any React Energy cards attached to it, this attack does 20 damage plus 20 more damage.",
+				fr: "Si Vibraninf possède des cartes Énergie réaction, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

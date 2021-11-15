@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Torkoal",
+		fr: "Chartor de Team Magma"
 	},
 	illustrator: "K. Hoshiba",
 	rarity: "Rare",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Burn",
+				fr: "Brûlure de Magma"
 			},
 			effect: {
 				en: "Discard the top card from your opponent's deck, and flip a coin. If tails, discard a Fire Energy attached to Team Magma's Torkoal.",
+				fr: "Défaussez la première carte du deck de votre adversaire et lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à Chartor de Team Magma."
 			},
 			damage: 10,
 
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hot Air",
+				fr: "Air chaud"
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Team Magma's Torkoal, and your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				fr: "Défaussez une Énergie  attachée à Chartor de Team Magma. Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a."
 			},
 			damage: 30,
 

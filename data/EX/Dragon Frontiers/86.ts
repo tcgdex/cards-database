@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Holon Energy WP",
+		fr: "Énergie Holon WP"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Rare",

@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Aron",
+		fr: "Galekid"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Headbutt",
+				fr: "Coup d'boule d'acier"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

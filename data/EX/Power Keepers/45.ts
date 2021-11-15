@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Beldum",
+		fr: "Terhal"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnetic Lines",
+				fr: "Lignes magnétiques"
 			},
 			effect: {
 				en: "Flip a coin. If heads, move a basic Energy card from the Defending Pokémon to another of your opponent's Pokémon. (Ignore this effect if your opponent has only 1 Pokémon.)",
+				fr: "Lancez une pièce. Si c'est face, déplacez une carte Énergie de base du Pokémon Défenseur sur un autre des Pokémon de votre adversaire. (Ignorez cet effet si votre adversaire ne possède qu'1 Pokémon.)"
 			},
 			damage: 10,
 

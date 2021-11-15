@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Arbok δ",
+		fr: "Arbok δ ESPÈCES DELTA"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Burning Venom",
+				fr: "Venin brûlant"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned and Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé et Empoisonné."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Strangle",
+				fr: "Étrangler"
 			},
 			effect: {
 				en: "If the Defending Pokémon has δ on its card, this attack does 50 damage plus 30 more damage.",
+				fr: "Si le Pokémon Défenseur possède le symbole δ, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

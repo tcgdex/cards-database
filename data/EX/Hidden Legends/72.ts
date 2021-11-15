@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Shuppet",
+		fr: "Polichombr"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Crush",
+				fr: "Écras'ombre"
 			},
 			effect: {
 				en: "You may discard 1 Psychic Energy card attached to Shuppet. If you do, your opponent discards 1 Energy card attached to the Defending Pokémon.",
+				fr: "Vous pouvez défausser 1 carte Énergie  attachée à Polichombr. Votre adversaire défausse alors 1 carte Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 10,
 

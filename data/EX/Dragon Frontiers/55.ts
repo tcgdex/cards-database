@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Natu δ",
+		fr: "Natu δ"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flop",
+				fr: "Flop"
 			},
 
 			damage: 10,

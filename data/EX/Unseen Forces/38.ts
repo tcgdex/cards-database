@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Croconaw",
+		fr: "Crocrodil"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -25,11 +26,10 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: [
-				"Colorless",
-			],
+			cost: ["Colorless", "Colorless"],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,
@@ -43,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Sonic",
+				fr: "Aquasonique"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 50,
 

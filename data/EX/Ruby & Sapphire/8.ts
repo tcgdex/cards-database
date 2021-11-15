@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Hariyama",
+		fr: "Hariyama"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Slap Push",
+				fr: "Super gifle"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
+				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Throw",
+				fr: "Mega lancer"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Pokémon-ex, this attack does 40 damage plus 40 more damage.",
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque lui inflige 80 dégâts."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

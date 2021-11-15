@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Skitty",
+		fr: "Skitty"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Plus Energy",
+				fr: "Énergie plus"
 			},
 			effect: {
 				en: "Attach a basic Energy card from your hand to 1 of your Pokémon.",
+				fr: "Attachez une carte Énergie de base de votre main à un de vos Pokémon."
 			},
 
 		},
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 10,

@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Doduo",
+		fr: "Doduo"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Drill Peck",
+				fr: "Bec vrille"
 			},
 
 			damage: 10,

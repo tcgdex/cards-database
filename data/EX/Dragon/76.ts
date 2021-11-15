@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Taillow",
+		fr: "Nirondelle"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlwind",
+				fr: "Cyclone"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				fr: "Votre adversaire échange le Pokémon Défenseur contre l'un des Pokémon de son Banc."
 			},
 
 		},
