@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Skuntank",
-		fr: "Skuntank",
+		fr: "Moufflair"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), when you play Skuntank from your hand to evolve 1 of your Active Pokémon, you may choose 1 of the Defending Pokémon. If that Pokémon tries to attack during your opponent's next turn, that attack does nothing.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Moufflair de votre main pour faire évoluer 1 de vos Pokémon Actifs, vous pouvez choisir 1 des Pokémon  Défenseurs. Si ce Pokémon essaye d'attaquer lors du prochain tour de votre adversaire, cette attaque est sans effet.",
+				fr: "Une seule fois lors du tour (avant votre attaque), lorsque vous jouez Moufflair de votre main pour faire évoluer 1 de vos Pokémon Actifs, vous pouvez choisir 1 des Pokémon Défenseurs. Si ce Pokémon essaye d'attaquer lors du prochain tour de votre adversaire, cette attaque est sans effet.",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon  Défenseur est maintenant Empoisonné.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 20,
 

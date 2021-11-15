@@ -4,26 +4,30 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Piloswine",
-		fr: "Piloswine",
+		fr: "Cochignon"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		221,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Swinub",
 		fr: "Marcacrin",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -40,7 +44,7 @@ const card: Card = {
 				en: "Does 20 damage plus 10 more damage for each damage counter on Piloswine. Then, remove 4 damage counters from Piloswine.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Cochignon. Ensuite, retirez à Cochignon 4 marqueurs de dégât.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -62,22 +66,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Il ne voit rien à cause de sa fourrure touffue et se repère à l'aide de son nez délicat."
+	}
 }
 
 export default card

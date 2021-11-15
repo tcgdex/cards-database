@@ -78,6 +78,18 @@ function set(j: JSCodeshift, path: ObjectExpression | ArrayExpression, value: Po
 	}
 }
 
+function remove(path: ObjectExpression | ArrayExpression, key: string | number) {
+	if (path.type === 'ObjectExpression') {
+		const index = path.properties.findIndex((p) => ((p as Property).key as Identifier).name === (key + ''))
+		if (index === -1) {
+			return
+		}
+		path.properties.splice(index)
+	} else {
+
+	}
+}
+
 /**
  * Start editing here !
  */
@@ -90,9 +102,14 @@ const transformer: Transform = (file, api) => {
 		.forEach((path, index) => {
 			if (index !== 0) return
 			let simplified = simplify(path.node)
+			const name = simplified.items.name as ObjectField
+			name.items.fr
+
+			// Example remove field
+			remove(name.item as ObjectExpression, 'fr')
 
 			// Example Set/Add regulationMArk to cards
-			set(j, simplified.item, j.literal('D'), 'regulationMark')
+			// set(j, name.items.fr, j.literal('D'), 'regulationMark')
 
 		})
 		.toSource({useTabs: true, lineTerminator: '\n'}).replace(/    /g, '	')

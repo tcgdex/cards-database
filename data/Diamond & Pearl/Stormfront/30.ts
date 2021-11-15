@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Tyranitar",
-		fr: "Tyranitar",
+		fr: "Tyranocif"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "After your opponent's Pokémon uses a Poké-Power, you may search your discard pile for a basic Darkness Energy card and attach it to Tyranitar.",
-				fr: "Une fois que le Pokémon de votre adversaire a utilisé un Poké-Power, vous pouvez chercher dans votre pile de défausse une carte Énergie de base Darkness et l'attacher à Tyranocif.",
+				fr: "Une fois que le Pokémon de votre adversaire a utilisé un Poké-Power, vous pouvez chercher dans votre pile de défausse une Énergie de base Darkness et l'attacher à Tyranocif.",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Does 20 damage times the amount of Energy attached to Tyranitar.",
 				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à Tyranocif.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{

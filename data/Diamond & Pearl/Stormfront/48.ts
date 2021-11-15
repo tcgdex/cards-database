@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Sableye",
-		fr: "Sableye",
+		fr: "Ténéfix"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -32,7 +32,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Sableye is your Active Pokémon at the beginning of the game, you go first. (If each player's Active Pokémon has the Overeager Poké-Body, this power does nothing.)",
-				fr: "Si Ténéfix est votre Pokémon Actif au début de la partie, vous commencez. (Si le Pokémon Actif de chaque joueur possède le Poké-Body Enthousiaste, ce pouvoir est sans effet).",
+				fr: "Si Ténéfix est votre Pokémon Actif au début de la partie, vous commencez. (Si le Pokémon Actif de chaque joueur possède le Poké-Body Enthousiaste, ce pouvoir est sans effet.)",
 			},
 		},
 	],

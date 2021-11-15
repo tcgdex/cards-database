@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Drifloon",
-		fr: "Drifloon (different color)",
+		fr: "Baudrive"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -32,7 +32,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Drifloon has a Pokémon Tool card attached to it, Drifloon's Retreat Cost is colorless colorless more.",
-				fr: "Si Baudrive possède une carte Outil Pokémon, son Coût de retraite est de Colorless Colorless de plus.",
+				fr: "Si Baudrive possède une carte Outil Pokémon, son Coût de Retraite est de ColorlessColorless de plus.",
 			},
 		},
 	],

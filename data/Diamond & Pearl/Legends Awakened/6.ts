@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Heatran",
 		fr: "Heatran",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		485,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,10 +54,11 @@ const card: Card = {
 				en: "You may discard as many basic Energy cards as you like attached to Heatran. If you do, this attack does 40 damage plus 20 more damage for each Energy card you discarded.",
 				fr: "Vous pouvez défausser autant de cartes Énergie de base attachées à Heatran que vous le voulez. Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires pour chaque Énergie défaussée.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,8 +68,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	description: {
+		fr: "Il hante les grottes volcaniques. Il rampe au mur et au plafond grâce à ses pieds en formes de croix."
+	}
 }
 
 export default card

@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Torterra",
-		fr: "Torterra",
+		fr: "Torterra"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Torterra does 20 damage to itself. Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
-				fr: "Torterra s'inflige 20 dégâts. Votre adversaire échange le Pokémon  Défenseur avec 1 de ses Pokémon de Banc, s'il en a.",
+				fr: "Torterra s'inflige 20 dégâts. Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc, s'il en a.",
 			},
 			damage: 60,
 

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Ninjask",
 		fr: "Ninjask",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		291,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,12 +60,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -67,9 +75,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il bouge si vite que l'œil a parfois du mal à le suivre. Ils se regroupent près de la sève des arbres."
+	}
 }
 
 export default card

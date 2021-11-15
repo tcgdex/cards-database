@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Gyarados",
-		fr: "Gyarados",
+		fr: "Leviator"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Does 30 damage times the number of Magikarp in your discard pile.",
 				fr: "Inflige 30 dégâts multipliés par le nombre de Magicarpes dans votre pile de défausse.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{

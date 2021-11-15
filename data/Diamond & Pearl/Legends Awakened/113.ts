@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Pineco",
-		fr: "Pompedik",
+		fr: "Pomdepik",
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",

@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Sceptile",
-		fr: "Sceptile",
+		fr: "Jungko"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Sceptile is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), déplacez une carte Énergie Grass attachée à 1 de vos Pokémon sur 1 autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Jungko est affecté par un État Spécial.",
+				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), déplacez une Énergie Grass attachée à 1 de vos Pokémon sur 1 autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Jungko est affecté par un État Spécial.",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon  Défenseur est maintenant Empoisonné.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 40,
 
@@ -67,7 +67,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Remove 2 damage counters from Sceptile.",
-				fr: "Retirez à Jungko 2 marqueurs de dégât.",
+				fr: "Retirez à Jungko jusqu'à 2 marqueurs de dégât.",
 			},
 			damage: 60,
 

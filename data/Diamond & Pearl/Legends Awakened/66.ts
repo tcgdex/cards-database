@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Mightyena",
 		fr: "Grahyena",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		262,
 	],
+
 	hp: 90,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Poochyena",
 		fr: "Fiffyen",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,26 +58,30 @@ const card: Card = {
 				en: "Does 10 damage times the number of Pokémon you have in play.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon que vous avez en jeu.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur."
+	}
 }
 
 export default card

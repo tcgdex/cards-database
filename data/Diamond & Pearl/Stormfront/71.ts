@@ -4,25 +4,29 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Ponyta",
-		fr: "Ponyta",
+		fr: "Ponyta"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		77,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		fr: "Ponyta",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -63,8 +68,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
+	}
 }
 
 export default card
