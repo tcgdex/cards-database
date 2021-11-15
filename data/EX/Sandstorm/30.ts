@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Azumarill",
+		fr: "Azumarill"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Drizzle",
+				fr: "Crachin"
 			},
 			effect: {
 				en: "If you have Water Energy cards in your hand, attach as many Water Energy cards as you like to any of your Active Pokémon.",
+				fr: "Si vous avez des cartes Énergie  dans votre main, attachez-en autant que vous le voulez à votre ou vos Pokémon Actifs."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Max Bubbles",
+				fr: "Maxi bulles"
 			},
 			effect: {
 				en: "Flip a coin for each Energy attached to all of your Active Pokémon. This attack does 30 damage times the number of heads.",
+				fr: "Lancez une pièce pour chaque carte Énergie attachée à chacun de vos Pokémon Actifs. Cette attaque inflige 30 dégâts multipliés par le nombre de face."
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],

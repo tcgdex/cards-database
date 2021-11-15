@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Cyndaquil",
+		fr: "Hericendre"
 	},
 	illustrator: "Ken Ikuji",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
+				fr: "Météores"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
 			},
 			damage: 10,
 
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
+				fr: "Frénésie"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Cyndaquil.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Héricendre."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

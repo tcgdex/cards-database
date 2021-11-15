@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Slakoth",
+		fr: "Parecool"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw",
+				fr: "Mâchoire"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet."
 			},
 			damage: 20,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slack Off",
+				fr: "Paresse"
 			},
 			effect: {
 				en: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
+				fr: "Retirez à Paracool tous ses marqueurs de dégât. Paracool ne pourra pas attaquer pendant votre prochain tour."
 			},
 
 		},

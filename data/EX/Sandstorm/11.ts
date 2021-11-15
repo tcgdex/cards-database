@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Seviper",
+		fr: "Seviper"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Deadly Poison",
+				fr: "Poison fatal"
 			},
 			effect: {
 				en: "You may discard a Grass Energy card attached to Seviper. If you do, the Defending Pokémon is now Poisoned.",
+				fr: "Vous pouvez défausser une carte Énergie  attachée à Seviper. Dans ce cas, le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 10,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Poison",
+				fr: "Poison plus"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Asleep and Poisoned.",
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Endormi et Empoisonné."
 			},
 			damage: 20,
 

@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Spheal",
+		fr: "Obalie"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Defense Curl",
+				fr: "Boul'armure"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Spheal during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Obalie lors du prochain tour de votre adversaire."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
+				fr: "Onde boréale"
 			},
 
 			damage: 20,

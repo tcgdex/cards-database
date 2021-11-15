@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Barboach",
+		fr: "Barloche"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Waterfall",
+				fr: "Cascade"
 			},
 
 			damage: 10,
@@ -39,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
+				fr: "Fléau"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Barboach.",
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Barloche."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

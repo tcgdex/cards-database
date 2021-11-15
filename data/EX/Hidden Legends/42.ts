@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Medicham",
+		fr: "Charmina"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Steady Punch",
+				fr: "Poing énergétique"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Power Heal",
+				fr: "Pouvoir guérisseur"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Medicham. After doing damage, remove 1 damage counter from Medicham.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Charmina. Après avoir infligé des dégâts, retirez à Charmina 1 marqueur de dégât."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

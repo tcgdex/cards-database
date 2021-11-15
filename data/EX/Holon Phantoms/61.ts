@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Carvanha δ",
+		fr: "Carvanha δ ESPÈCES DELTA"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -23,13 +24,13 @@ const card: Card = {
 
 	attacks: [
 		{
-
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 10,
-
+			cost: ["Colorless"]
 		},
 		{
 			cost: [
@@ -38,9 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Reckless Charge",
+				fr: "Attaque imprudente"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Carvanha does 10 damage to itself.",
+				fr: "Lancez une pièce. Si c'est pile, Carvanha s'inflige 10 dégâts."
 			},
 			damage: 30,
 

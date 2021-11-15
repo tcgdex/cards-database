@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Salamence ex",
+		fr: "Drattak ex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -33,9 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Volcanic Flame",
+				fr: "Flamme volcanique"
 			},
 			effect: {
 				en: "Discard the top 5 cards from your deck.",
+				fr: "Défaussez les 5 cartes du dessus de votre deck."
 			},
 			damage: 150,
 
@@ -49,9 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydro Wave",
+				fr: "Hydro-vague"
 			},
 			effect: {
 				en: "Discard all Water Energy attached to Salamence ex. This attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Défaussez toutes les Énergies  attachées à Drattak ex. Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 
 		},

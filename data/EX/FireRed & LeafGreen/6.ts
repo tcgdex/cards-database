@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Kangaskhan",
+		fr: "Kangourex"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fetch",
+				fr: "Rapporte"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d'boule"
 			},
 
 			damage: 20,
@@ -54,11 +58,13 @@ const card: Card = {
 			],
 			name: {
 				en: "One-Two Punch",
+				fr: "En deux punch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

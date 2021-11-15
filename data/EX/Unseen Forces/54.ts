@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Cyndaquil",
+		fr: "Héricendre"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Paralyzing Gaze",
+				fr: "Regard paralysant"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
+				fr: "Feux d'artifices"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Cyndaquil.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Héricendre."
 			},
 			damage: 30,
 

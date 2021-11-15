@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Plusle",
+		fr: "Posipi"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Plus Energy",
+				fr: "Énergie plus"
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach a Lightning Energy card from your hand to any of your Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre main à un de vos Pokémon."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Blast",
+				fr: "Explosion de lumière"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 20,
 

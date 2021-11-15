@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Aggron ex",
+		fr: "Galeking ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rend",
+				fr: "Déchirer"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage.",
+				fr: "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 60 dégâts."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -49,9 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Surge",
+				fr: "Vague métallique"
 			},
 			effect: {
 				en: "Does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
 			},
 			damage: 50,
 

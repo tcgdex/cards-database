@@ -6,7 +6,7 @@ const ex5: Set = {
 
 	name: {
 		en: "Hidden Legends",
-		fr: "Hidden Legends"
+		fr: "Légendes Oubliées"
 	},
 
 	serie: serie,

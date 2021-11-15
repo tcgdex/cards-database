@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Venusaur ex",
+		fr: "Florizarre ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Energy Trans",
+				fr: "Transfert d'Énergie"
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Venusaur ex is affected by a Special Condition.",
+				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  d'1 de vos Pokémon à 1 autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Florizarre ex est affecté par un État Spécial."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pollen Hazard",
+				fr: "Pollen dangereux"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned, Burned, and Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné, Brûlé et Confus."
 			},
 			damage: 20,
 
@@ -59,6 +64,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Solarbeam",
+				fr: "Lance-soleil"
 			},
 
 			damage: 90,

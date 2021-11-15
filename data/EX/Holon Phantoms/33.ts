@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Torkoal",
+		fr: "Chartor"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Grind",
+				fr: "Écrase"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to Torkoal.",
+				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Chartor."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 40,

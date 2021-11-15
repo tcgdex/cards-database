@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Trapinch",
+		fr: "Kraknoix"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig",
+				fr: "Tunnel"
 			},
 
 			damage: 10,

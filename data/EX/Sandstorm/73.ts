@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Psyduck",
+		fr: "Psykokwak"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confusion Wave",
+				fr: "Vague de confusion"
 			},
 			effect: {
 				en: "Both Psyduck and the Defending Pokémon are now Confused.",
+				fr: "Psykokwak et le Pokémon Défenseur sont maintenant Confus."
 			},
 
 		},

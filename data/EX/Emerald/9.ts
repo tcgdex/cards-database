@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Rayquaza",
+		fr: "Rayquaza"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Dance",
+				fr: "Danse de dragon"
 			},
 			effect: {
 				en: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before applying Weakness and Resistance).",
+				fr: "Lors de votre prochain tour, si 1 de vos Pokémon Actifs inflige des dégâts à 1 des Pokémon Défenseurs, cette attaque inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 			},
 
 		},
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Claw",
+				fr: "Griffe de dragon"
 			},
 
 			damage: 40,

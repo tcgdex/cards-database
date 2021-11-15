@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Shroomish",
+		fr: "Balignon"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Spore",
+				fr: "Para-spore"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 
 		},
@@ -40,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Trip Over",
+				fr: "Croche-pied"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

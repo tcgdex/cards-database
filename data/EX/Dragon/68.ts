@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Nincada",
+		fr: "Ningale"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -23,14 +24,18 @@ const card: Card = {
 
 	attacks: [
 		{
-
 			name: {
 				en: "Leech Life",
-			},
-			effect: {
-				en: "After your attack, remove from Nincada the number of damage counters equal to the damage you did to the Defending Pokémon. If Nincada has fewer damage counters than that, remove all of them.",
+				fr: "Vampirisme"
 			},
 
+			effect: {
+				en: "After your attack, remove from Nincada the number of damage counters equal to the damage you did to the Defending Pokémon. If Nincada has fewer damage counters than that, remove all of them.",
+				fr: "Après votre attaque, retirez à Ningale autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Ningale a moins de marqueurs de dégât que de dégâts infligés, retirez-les lui tous."
+			},
+
+			cost: ["Grass"],
+			damage: 10
 		},
 	],
 	weaknesses: [

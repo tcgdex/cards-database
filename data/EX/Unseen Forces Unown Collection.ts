@@ -6,7 +6,7 @@ const exu: Set = {
 
 	name: {
 		en: "Unseen Forces Unown Collection",
-		fr: "Unseen Forces Unown Collection"
+		fr: "Forces Cachées Collection Zarbi"
 	},
 
 	serie: serie,

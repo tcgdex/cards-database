@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Spoink",
+		fr: "Spoink"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bounce",
+				fr: "Faire des bonds"
 			},
 			effect: {
 				en: "After your attack, you may switch Spoink with 1 of your Benched Pokémon.",
+				fr: "Après votre attaque, vous pouvez échanger Spoink avec un des Pokémon de votre Banc."
 			},
 			damage: 10,
 

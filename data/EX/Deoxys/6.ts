@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Crawdaunt",
+		fr: "Colhomard"
 	},
 	illustrator: "Tomoko Wakai",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dark Protection",
+				fr: "Protection obscure"
 			},
 			effect: {
 				en: "Any damage done to Crawdaunt by your opponent's attacks is reduced by 10 for each Darkness Energy attached to Crawdaunt (after applying Weakness and Resistance). You can't reduce more than 20 damage in this way.",
+				fr: "Tous dégâts infligés à Colhomard par une attaque de votre adversaire sont réduits de 10 pour chaque Énergie  attachée à Colhomard (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas réduire de plus de 20 dégâts de cette façon."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubblebeam",
+				fr: "Bulles d'O"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -56,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Cross-Cut",
+				fr: "Coupe transversale"
 			},
 			effect: {
 				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 40 damage plus 20 more damage.",
+				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

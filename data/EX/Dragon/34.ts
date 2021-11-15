@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Houndoom",
+		fr: "Hypotrempe"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Feint Attack",
+				fr: "Feinte"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet."
 			},
 
 		},
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
+				fr: "Lance-flammes"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Houndoom.",
+				fr: "Défaussez une carte Énergie  attachée à Démolosse."
 			},
 			damage: 50,
 

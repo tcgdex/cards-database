@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Electrike",
+		fr: "Dynavolt"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "High Voltage",
+				fr: "Haut voltage"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play Trainer cards from his or her hand during his or her next turn.",
+				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur de sa main lors de son prochain tour."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Rogne"
 			},
 
 			damage: 20,

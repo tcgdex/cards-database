@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Lileep",
+		fr: "Lilia"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tender Tentacles",
+				fr: "Tentacules tendres"
 			},
 			effect: {
 				en: "If Lileep has any React Energy cards attached to it, remove 2 damage counters from Lileep.",
+				fr: "Si Lilia possède des cartes Énergie réaction, retirez-lui 2 marqueurs de dégât."
 			},
 			damage: 20,
 
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde folie"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 20,
 

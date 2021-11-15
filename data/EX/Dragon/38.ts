@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Ninjask",
+		fr: "Ninjask"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
+				fr: "Ultrason"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sonic Wing",
+				fr: "Aile supersonique"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 30,
 

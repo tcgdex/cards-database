@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Sunflora",
+		fr: "Heliatronc"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Dance",
+				fr: "Danse éblouissante"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Confused.",
+				fr: "Chaque Pokémon Défenseur est maintenant Confus."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Green Blast",
+				fr: "Explosion verte"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à tous vos Pokémon."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Dratini δ",
+		fr: "Minidraco δ ESPÈCES DELTA"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hook",
+				fr: "Crochet"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
+				fr: "Secousse tonnerre"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Dratini does 10 damage to itself.",
+				fr: "Lancez une pièce. Si c'est pile, Minidraco s'inflige 10 dégâts."
 			},
 			damage: 30,
 

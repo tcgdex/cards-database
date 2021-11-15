@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Mudkip",
+		fr: "Gobou"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
+				fr: "Tit'sieste"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Mudkip.",
+				fr: "Retirez à Gobou 2 marqueurs de dégât."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Waterfall",
+				fr: "Cascade"
 			},
 
 			damage: 20,

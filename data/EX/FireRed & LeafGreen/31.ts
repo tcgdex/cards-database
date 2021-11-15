@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Charmeleon",
+		fr: "Reptincel"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Intimidation"
 			},
 
 			damage: 30,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Damage Burn",
+				fr: "Brûlure"
 			},
 			effect: {
 				en: "If the Defending Pokémon has already any damage counters on it, this attack does 40 damage plus 20 more damage.",
+				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

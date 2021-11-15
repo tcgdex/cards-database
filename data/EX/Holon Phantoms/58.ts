@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Aron",
+		fr: "Galekid"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -23,13 +24,13 @@ const card: Card = {
 
 	attacks: [
 		{
-
 			name: {
 				en: "Mud Slap",
+				fr: "Coud'boue"
 			},
 
 			damage: 10,
-
+			cost: ["Colorless"]
 		},
 		{
 			cost: [
@@ -38,6 +39,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
+				fr: "Griffe acier"
 			},
 
 			damage: 20,

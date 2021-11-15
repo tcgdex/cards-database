@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Metang δ",
+		fr: "Metang δ ESPÈCES DELTA"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Claws",
+				fr: "Griffes affûtées"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnetic Blast",
+				fr: "Explosion magnétique"
 			},
 
 			damage: 50,

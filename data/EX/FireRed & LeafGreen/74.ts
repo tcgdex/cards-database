@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Plasma",
+				fr: "Plasma"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Pikachu.",
+				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre pile de défausse et attachez-la à Pikachu."
 			},
 			damage: 10,
 

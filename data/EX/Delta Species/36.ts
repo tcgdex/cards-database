@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Ditto",
+		fr: "Metamorph"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Uncommon",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Duplicate",
+				fr: "Duplicata"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for another Ditto and switch it with Ditto. (Any cards attached to Ditto, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Ditto on top of your deck. Shuffle your deck afterward. You can't use more than 1 Duplicate Poké-Power each turn.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck un autre Metamorph et l'échanger avec Metamorph. (Toutes les cartes attachées à Metamorph, marqueurs de dégât, États Spéciaux et autres effets se trouvent maintenant sur le nouveau Pokémon.) Placez alors Metamorph au dessus de votre deck. Ensuite, mélangez votre deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power Duplicata par tour."
 			},
 		},
 	],
@@ -39,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Toxic",
+				fr: "Toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours."
 			},
 
 		},

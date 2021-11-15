@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Entei Star",
+		fr: "Entei ☆"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Burning Turn",
+				fr: "Tour brûlant"
 			},
 			effect: {
 				en: "Switch Entei Star with 1 of your Benched Pokémon.",
+				fr: "Échangez Entei  avec 1 de vos Pokémon de Banc."
 			},
 			damage: 20,
 
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Detonation",
+				fr: "Détonation"
 			},
 			effect: {
 				en: "If you have less Prize cards left than your opponent, discard the top 10 cards from your deck.",
+				fr: "S'il vous reste moins de cartes Récompense que votre adversaire, défaussez les 10 cartes du dessus de votre deck."
 			},
 			damage: 70,
 

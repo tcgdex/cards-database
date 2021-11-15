@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Grovyle δ",
+		fr: "Massko δ"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 20,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
+				fr: "Hâte"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Grovyle during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Massko lors du prochain tour de votre adversaire."
 			},
 			damage: 30,
 

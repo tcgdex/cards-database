@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Spoink",
+		fr: "Spoink"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psywave",
+				fr: "Vague Psy"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
+				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Défenseur."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 20,

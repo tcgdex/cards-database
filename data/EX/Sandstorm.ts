@@ -6,7 +6,7 @@ const ex2: Set = {
 
 	name: {
 		en: "Sandstorm",
-		fr: "Sandstorm"
+		fr: "Tempête de sable"
 	},
 
 	serie: serie,

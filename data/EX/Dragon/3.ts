@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Crawdaunt",
+		fr: "Colhomard"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Power Pinchers",
+				fr: "Pinces puissantes"
 			},
 			effect: {
 				en: "As long as Crawdaunt is your Active Pokémon, when any of your Active Pokémon does damage to the Defending Pokémon, the attack does 10 more damage (before applying Weakness and Resistance).",
+				fr: "Tant que Colhomard est votre Pokémon Actif, dès qu'un de vos Pokémon Actifs inflige des dégâts aux Pokémon Défenseurs, cette attaque inflige 10 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Guillotine",
+				fr: "Guillotine"
 			},
 
 			damage: 50,

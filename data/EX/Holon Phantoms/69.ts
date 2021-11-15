@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Magikarp δ",
+		fr: "Magicarpe δ ESPÈCES DELTA"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Splash",
+				fr: "Trempette"
 			},
 
 			damage: 10,

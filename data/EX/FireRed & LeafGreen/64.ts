@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 10,
@@ -41,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Tail",
+				fr: "Queue de flammes"
 			},
 
 			damage: 40,

@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Kirlia",
+		fr: "Kirlia"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Removal Beam",
+				fr: "Rayon désintégrateur"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 10,
 
@@ -45,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Psy",
+				fr: "Super psy"
 			},
 
 			damage: 50,

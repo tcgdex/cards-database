@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Latias δ",
+		fr: "Latias δ ESPÈCES DELTA"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dual Aura",
+				fr: "Double aura"
 			},
 			effect: {
 				en: "As long as you have Latios or Latios ex in play, each player's Evolved Pokémon (excluding Pokémon-ex) can't use any Poké-Bodies.",
+				fr: "Tant que vous avez Latios ou Latios ex en jeu, les Pokémon Évolués de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Bodies."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spearhead",
+				fr: "Meneur"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -52,6 +57,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Claw",
+				fr: "Griffe de dragon"
 			},
 
 			damage: 40,

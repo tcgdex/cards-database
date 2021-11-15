@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Crobat ex",
+		fr: "Nostenfer ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Distortion",
+				fr: "Déformation"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Crobat ex is your Active Pokémon, you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Crobat ex is affected by a Special Condition.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Nostenfer ex est votre Pokémon Actif, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nostenfer ex est affecté par un État Spécial."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Cross Attack",
+				fr: "Attaque croisée"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, le Pokémon Défenseur est maintenant Confus."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -56,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pester",
+				fr: "Abattre"
 			},
 			effect: {
 				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 60 damage plus 40 more damage.",
+				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires."
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

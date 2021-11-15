@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Electrike",
+		fr: "Dynavolt"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Thunder Wave",
+				fr: "Super cage éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le ou les deux Pokémon Défenseurs sont maintenant Paralysés."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,

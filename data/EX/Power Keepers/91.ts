@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Warp Energy",
+		fr: "Énergie de distorsion"
 	},
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Uncommon",

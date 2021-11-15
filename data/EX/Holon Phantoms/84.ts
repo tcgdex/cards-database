@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Trapinch δ",
+		fr: "Kraknoix δ"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Big Bite",
+				fr: "Grosse morsure"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne pourra pas battre en retraite lors du prochain tour de votre adversaire."
 			},
 			damage: 10,
 
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
+				fr: "Coud'boue"
 			},
 
 			damage: 20,
