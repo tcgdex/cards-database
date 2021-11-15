@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Zubat",
+		fr: "Nosferapti"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Self-control",
+				fr: "Sang-froid"
 			},
 			effect: {
 				en: "Zubat can't be Paralyzed.",
+				fr: "Nosferapti ne peut pas être Paralysé."
 			},
 		},
 	],
@@ -38,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 10,

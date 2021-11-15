@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Loudred",
+		fr: "Ramboum"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Cracking Punch",
+				fr: "Super voix"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 20,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Light Punch",
+				fr: "Poing léger"
 			},
 
 			damage: 40,

@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Camerupt",
+		fr: "Camerupt"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lava Burn",
+				fr: "Brûlure de lave"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez un Pokémon du Banc de votre adversaire: cette attaque inflige 10 dégâts à ce Pokémon (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
 			},
 			damage: 20,
 
@@ -47,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Spin",
+				fr: "Danseflamme"
 			},
 			effect: {
 				en: "Discard 2 basic Energy cards attached to Camerupt or this attack does nothing.",
+				fr: "Défaussez deux cartes Énergie de base attachées à Camerupt ou cette attaque est sans effet."
 			},
 			damage: 100,
 

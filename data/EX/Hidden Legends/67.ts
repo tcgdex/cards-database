@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Minun",
+		fr: "Negapi"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Minus Energy",
+				fr: "Énergie moins"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 Energy attached to the Defending Pokémon. Your opponent returns that card to his or her hand.",
+				fr: "Lancez une pièce. Si c'est face, choisissez 1 Énergie attachée au Pokémon Défenseur. Votre adversaire replace cette carte dans sa main."
 			},
 			damage: 10,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				fr: "Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 

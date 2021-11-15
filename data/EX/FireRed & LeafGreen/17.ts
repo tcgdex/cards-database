@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Victreebel",
+		fr: "Empiflor"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Acid Sampler",
+				fr: "Répandre de l'acide"
 			},
 			effect: {
 				en: "As long as Victreebel is your Active Pokémon, put 1 damage counter on each Defending Pokémon between turns. Acid Sampler stops working if your other Active Pokémon is not a Victreebel.",
+				fr: "Tant qu'Empiflor est votre Pokémon Actif, placez un marqueur de dégât sur chaque Pokémon Défenseur entre deux tours. Échantillon d'acide est annulé si votre autre Pokémon Actif n'est pas un Empiflor."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Acid",
+				fr: "Acide"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
 			},
 			damage: 50,
 

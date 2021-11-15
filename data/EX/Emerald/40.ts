@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Swalot",
+		fr: "Avaltout"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
+				fr: "Pâté"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Swalot.",
+				fr: "Retirez à Avaltout un marqueur de dégât."
 			},
 			damage: 20,
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Breath",
+				fr: "Haleine empoisonnée"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 40,
 

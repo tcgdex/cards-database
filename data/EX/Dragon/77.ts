@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Torchic",
+		fr: "Poussifeu"
 	},
 	illustrator: "Hironobu Yoshida",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Firebreathing",
+				fr: "Souffle-feu"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

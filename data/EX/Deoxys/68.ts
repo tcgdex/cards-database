@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Numel",
+		fr: "Chamallot"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dense",
+				fr: "Épais"
 			},
 			effect: {
 				en: "Any damage done to Numel by attacks from Evolved Pokémon (both yours and your opponent's) is reduced by 20 (after applying Weakness and Resistance).",
+				fr: "Les dégâts infligés à Chamallot par des attaques de Pokémon Évolués (les vôtres et ceux de votre adversaire) sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -38,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,

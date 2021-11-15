@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Farfetch'd",
+		fr: "Canarticho"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spearhead",
+				fr: "Meneur"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nosedive",
+				fr: "Descendre en piqué"
 			},
 			effect: {
 				en: "Farfetch'd does 10 damage to itself.",
+				fr: "Canarticho s'inflige 10 dégâts."
 			},
 			damage: 30,
 

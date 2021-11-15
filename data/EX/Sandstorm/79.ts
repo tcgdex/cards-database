@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Skitty",
+		fr: "Skitty"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Catch",
+				fr: "Attrape-énergie"
 			},
 			effect: {
 				en: "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.",
+				fr: "Choisissez dans votre pile de défausse une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
+				fr: "Damoclès"
 			},
 			effect: {
 				en: "Skitty does 10 damage to itself.",
+				fr: "Skitty s'inflige 10 dégâts."
 			},
 			damage: 30,
 

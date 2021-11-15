@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Boost Energy",
+		fr: "Énergie super"
 	},
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Uncommon",

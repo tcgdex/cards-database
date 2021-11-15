@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Hariyama",
+		fr: "Hariyama"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shove",
+				fr: "Bousculer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slap Down",
+				fr: "Écraser"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.",
+				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

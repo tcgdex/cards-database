@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Altaria",
+		fr: "Altaria"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Safeguard",
+				fr: "Rune protectrice"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Altaria by your opponent's Pokémon-ex.",
+				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Altaria par le Pokémon-ex de votre adversaire."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Wing Attack",
+				fr: "Double cru-aile"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
+				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur."
 			},
 
 		},
@@ -54,6 +59,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dive",
+				fr: "Plongée"
 			},
 
 			damage: 50,

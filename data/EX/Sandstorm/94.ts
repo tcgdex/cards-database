@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Aerodactyl ex",
+		fr: "Ptera ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Primal Lock",
+				fr: "Serrure primordiale"
 			},
 			effect: {
 				en: "As long as Aerodactyl ex is in play, your opponent can't play Pokémon Tool cards. Remove any Pokémon Tool cards attached to your opponent's Pokémon and put them into his or her discard pile.",
+				fr: "Tant que Ptera ex est en jeu, votre adversaire ne peut pas jouer de cartes Outil Pokémon. Retirez toutes les cartes Outil Pokémon aux Pokémon de votre adversaire et défaussez-les."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
+				fr: "Ultrason"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -55,6 +60,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
+				fr: "Cru-aile"
 			},
 
 			damage: 60,

@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Slugma",
+		fr: "Limagma"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collectionner"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 10,

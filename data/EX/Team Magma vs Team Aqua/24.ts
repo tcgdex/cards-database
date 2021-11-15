@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Cacnea",
+		fr: "Cacnea de Team Aqua"
 	},
 	illustrator: "K. Utsunomiya",
 	rarity: "Uncommon",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Paralyzing Gaze",
+				fr: "Regard paralysant"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 
 		},
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pin Missile",
+				fr: "Dard-nuée"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
+				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

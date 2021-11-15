@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Salamence ex",
+		fr: "Drattak ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dragon Lift",
+				fr: "Élévation de dragon"
 			},
 			effect: {
 				en: "The Retreat Cost for each of your Pokémon (excluding Pokémon-ex and Baby Pokémon) is 0.",
+				fr: "Le Coût de retraite de chacun de vos Pokémon (Pokémon-ex et Bébé Pokémon exclus) est de 0."
 			},
 		},
 	],
@@ -41,24 +44,28 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Jet",
+				fr: "Jet de flamme"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
 			},
 
 		},
 		{
 			cost: [
-				"Water",
 				"Fire",
+				"Water",
 				"Colorless",
 				"Colorless",
 			],
 			name: {
 				en: "Bright Flame",
+				fr: "Flamme éclatante"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Salamence ex.",
+				fr: "Défaussez 2 Énergies attachées à Drattak ex."
 			},
 			damage: 120,
 

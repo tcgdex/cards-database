@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Dustox",
+		fr: "Papinox"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Protective Dust",
+				fr: "Poussière protectrice"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon.",
+				fr: "Prévenez tous les effets d'attaques, excepté les dégâts, infligés à Papinox par le Pokémon Attaquant."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Toxic",
+				fr: "Toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez deux marqueurs de dégât sur le Pokémon Défenseur entre les deux tours."
 			},
 
 		},
@@ -55,6 +60,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
+				fr: "Tornade"
 			},
 
 			damage: 50,

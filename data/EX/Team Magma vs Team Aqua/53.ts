@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Electrike",
+		fr: "Dynavolt de Team Aqua"
 	},
 	illustrator: "M. Akiyama",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Self Charge",
+				fr: "Auto-chargement"
 			},
 			effect: {
 				en: "Attach an Energy card from your hand to Team Aqua's Electrike.",
+				fr: "Attachez une carte Énergie de votre main à Dynavolt de Team Aqua."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,

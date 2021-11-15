@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Swellow",
+		fr: "Heledelle"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mid-air Crush",
+				fr: "Collision en plein vol"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, your opponent discards 1 Energy card, if any, attached to that Pokémon.",
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Lancez une pièce. Si c'est face, votre adversaire défausse une carte Énergie attachée à ce Pokémon, s'il en a."
 			},
 
 		},
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Nosedive",
+				fr: "Descendre en piqué"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Swellow does 10 damage to itself.",
+				fr: "Lancez une pièce. Si c'est pile, Heledelle s'inflige 10 dégâts."
 			},
 			damage: 40,
 

@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Heal Energy",
+		fr: "Énergie guérisseuse"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Uncommon",

@@ -36,8 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
-			},
-			damage: 10,
+			}
 
 		},
 		{
@@ -47,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Psypunch",
+				fr: "Coup de poing psy"
 			},
 
 			damage: 40,

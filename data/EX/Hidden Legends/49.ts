@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Starmie",
+		fr: "Staross"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Arrow",
+				fr: "Flèche d'eau"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rainbow Star",
+				fr: "Étoile multicolore"
 			},
 			effect: {
 				en: "Does 50 damage plus 10 more damage for each type of basic Energy attached to the Defending Pokémon.",
+				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque type d'Énergie de base attaché au Pokémon Défenseur."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

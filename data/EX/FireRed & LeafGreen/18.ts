@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Arcanine",
+		fr: "Arcanin"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Intimidation"
 			},
 
 			damage: 20,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Tackle",
+				fr: "Charge énergétique"
 			},
 			effect: {
 				en: "Arcanine does 10 damage to itself.",
+				fr: "Arcanin s'inflige 10 dégâts."
 			},
 			damage: 70,
 

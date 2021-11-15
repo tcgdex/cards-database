@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Swampert",
+		fr: "Laggron"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Natural Remedy",
+				fr: "Remède naturel"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), when you attach a Water Energy from your hand to Swampert, remove 1 damage counter from Swampert.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie  de votre main à Laggron, retirez-lui un marqueur de dégât."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Arrow",
+				fr: "Flèche d'eau"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez un des Pokémon de votre adversaire : cette attaque inflige 20 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
 			},
 
 		},
@@ -54,6 +59,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Waterfall",
+				fr: "Cascade"
 			},
 
 			damage: 50,

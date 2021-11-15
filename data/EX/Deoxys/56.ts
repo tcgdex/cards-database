@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Carvanha",
+		fr: "Carvanha"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fin",
+				fr: "Aileron aiguisé"
 			},
 
 			damage: 10,
@@ -40,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
+				fr: "Frénésie"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Carvanha.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Carvanha."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

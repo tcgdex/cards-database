@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Cubone",
+		fr: "Osselait"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bone Attack",
+				fr: "Attaque d'os"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 20,
 

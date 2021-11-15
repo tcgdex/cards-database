@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Spearow",
+		fr: "Piafabec"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw",
+				fr: "Mâchoire"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 10,
 
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
+				fr: "Cru-aile"
 			},
 
 			damage: 20,

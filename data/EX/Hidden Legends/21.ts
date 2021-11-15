@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Metang",
+		fr: "Metang"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Load",
+				fr: "Charge métallique"
 			},
 			effect: {
 				en: "Search your discard pile for a Metal Energy card and attach it to Metang.",
+				fr: "Choisissez une carte Énergie  dans votre pile de défausse et attachez-la à Metang."
 			},
 
 		},
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
+				fr: "Griffe acier"
 			},
 
 			damage: 30,

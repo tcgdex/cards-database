@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Numel",
+		fr: "Chamallot de Team Magma"
 	},
 	illustrator: "Katsura Tabata",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collectionner"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 20,

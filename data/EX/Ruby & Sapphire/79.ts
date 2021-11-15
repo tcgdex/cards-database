@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Zigzagoon",
+		fr: "Zigzaton"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
+				fr: "Combo-griffe"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				fr: "Lancez trois pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

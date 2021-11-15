@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Groudon",
+		fr: "Groudon"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -29,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Shot",
+				fr: "Tir de boue"
 			},
 
 			damage: 20,
@@ -43,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Earthquake",
+				fr: "Séisme"
 			},
 			effect: {
 				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 60,
 

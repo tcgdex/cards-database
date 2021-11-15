@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Ralts",
+		fr: "Tarsal"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
+				fr: "Écras'face"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Link Blast",
+				fr: "Explosion en série"
 			},
 			effect: {
 				en: "If Ralts and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 10 instead of 40.",
+				fr: "Si Tarsal et le Pokémon Défenseur ont un total d'Énergie différent, les dégâts de base de cette attaque sont de 10 et non de 40."
 			},
 			damage: 40,
 
