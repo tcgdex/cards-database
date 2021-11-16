@@ -6,7 +6,8 @@ const wp: Set = {
 
 	name: {
 		en: "W Promotional",
-		fr: "W Promotional"
+		fr: "W Promotional",
+		it: "Carte Promo Wizards"
 	},
 
 	serie: serie,

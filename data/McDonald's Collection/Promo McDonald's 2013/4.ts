@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../Macdonald\'s Collection 2013'
+import Set from "../Promo McDonald's 2013"
 
 const card: Card = {
 	name: {

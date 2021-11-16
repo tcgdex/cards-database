@@ -6,7 +6,10 @@ const base3: Set = {
 
 	name: {
 		en: "Fossil",
-		fr: "Fossile"
+		fr: "Fossile",
+		es: "Fósil",
+		it: "Fossil",
+		de: "Fossil"
 	},
 
 	serie: serie,

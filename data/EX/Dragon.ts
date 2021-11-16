@@ -6,7 +6,9 @@ const ex3: Set = {
 
 	name: {
 		en: "Dragon",
-		fr: "Dragon"
+		fr: "EX Dragon",
+		de: "EX Drache",
+		it: "EX Drago"
 	},
 
 	serie: serie,
