@@ -4,7 +4,6 @@ const set: Serie = {
 	id: "gym",
 	name: {
 		en: "Gym"
-		//fr: Not Available in French
 	},
 }
 

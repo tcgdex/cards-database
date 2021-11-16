@@ -6,7 +6,9 @@ const ex11: Set = {
 
 	name: {
 		en: "Delta Species",
-		fr: "Espèces Delta"
+		fr: "EX Espèces Delta",
+		it: "EX Specie Delta",
+		de: "EX Delta Species"
 	},
 
 	serie: serie,

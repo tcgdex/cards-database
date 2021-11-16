@@ -6,8 +6,8 @@ const set: Set = {
 
 	name: {
 		en: "HS trainer Kit (Excadrill)",
-		fr: "HS Kit du dresseur (Minitaupe)"
-,
+		fr: "HS Kit du dresseur (Minitaupe)",
+		es: "Kit de Entrenador HeatGold & SoulSilver (Excadrill)",
 	},
 
 	serie: serie,

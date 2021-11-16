@@ -6,7 +6,9 @@ const ex13: Set = {
 
 	name: {
 		en: "Holon Phantoms",
-		fr: "Fantômes Holon"
+		fr: "EX Fantômes Holon",
+		it: "EX Fantasmi di Holon",
+		de: "EX Holon Phantoms"
 	},
 
 	serie: serie,

@@ -5,6 +5,8 @@ const set: Serie = {
 	name: {
 		en: "McDonald's Collection",
 		fr: "Promo McDonald's",
+		es: "Colección de McDonald's",
+		it: "McDonald's Collection"
 	},
 }
 
