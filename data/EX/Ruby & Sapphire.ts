@@ -6,7 +6,10 @@ const ex1: Set = {
 
 	name: {
 		en: "Ruby & Sapphire",
-		fr: "Rubis & Saphir"
+		fr: "EX Rubis & Saphir",
+		es: "Rubí & Zafiro",
+		it: "EX Rubino & Zaffiro",
+		de: "EX Rubin & Saphir"
 	},
 
 	serie: serie,

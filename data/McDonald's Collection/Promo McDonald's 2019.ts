@@ -1,22 +1,21 @@
 import { Set } from '../../interfaces'
 import serie from '../McDonald\'s Collection'
 
-const s2013bw: Set = {
-	id: "2013bw",
+const set: Set = {
+	id: "2019sm-fr",
 
 	name: {
 		// en: Not Available outer France
-		fr: "Collection Macdonald 2013"
-,
+		fr: "Promo McDonald's 2019"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 12
+		official: 40
 	},
 
-	releaseDate: "2013-11-01"
+	releaseDate: "2019-10-30"
 }
 
-export default s2013bw
+export default set

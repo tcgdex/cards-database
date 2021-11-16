@@ -6,8 +6,9 @@ const set: Set = {
 
 	name: {
 		en: "SM trainer Kit (Alolan Raichu)",
-		fr: "SM Kit du dresseur (Raichu d'Alola)"
-,
+		it: "Sole e Luna trainer Kit (Alolan Raichu)",
+		fr: "SM Kit du dresseur (Raichu d'Alola)",
+		es: "Kit de Entrenador Sol y Luna (Raichu de Alola)"
 	},
 
 	serie: serie,
