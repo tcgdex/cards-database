@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Wingull",
+		fr: "Goelise"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise Attack",
+				fr: "Attaque surprise"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet."
 			},
 			damage: 20,
 

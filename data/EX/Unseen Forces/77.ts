@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Teddiursa",
+		fr: "Teddiursa"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Teary Eyes",
+				fr: "Des larmes dans les yeux"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Teddiursa by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Teddiursa par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
 			},
 
 		},
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 10,

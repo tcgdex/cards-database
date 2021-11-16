@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Electrode",
+		fr: "Electrode"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
+				fr: "Ultrason"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tumbling Attack",
+				fr: "Attaque trébuchante"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

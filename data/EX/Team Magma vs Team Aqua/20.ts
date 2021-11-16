@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Lairon",
+		fr: "Galegon de Team Magma"
 	},
 	illustrator: "Hiromichi Sugiyama",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
+				fr: "Plaquage"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 50,

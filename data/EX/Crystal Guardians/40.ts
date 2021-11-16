@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Shuppet",
+		fr: "Polichombr"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ascension",
+				fr: "Ascension"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Shuppet and put it onto Shuppet. (This counts as evolving Shuppet.) Shuffle your deck afterward.",
+				fr: "Cherchez dans votre deck une carte évoluant de Polichombr et placez-la sur Polichombr (vous le faites ainsi évoluer). Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,

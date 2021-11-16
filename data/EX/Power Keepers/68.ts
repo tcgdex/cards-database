@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Trapinch",
+		fr: "Kraknoix"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise Attack",
+				fr: "Attaque surprise"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 20,
 

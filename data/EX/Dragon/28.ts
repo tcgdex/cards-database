@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Forretress",
+		fr: "Foretress"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Metal Ball",
+				fr: "Double boule métallique"
 			},
 			effect: {
 				en: "Put 2 damage counters on each Defending Pokémon.",
+				fr: "Placez deux marqueurs de dégât sur chaque Pokémon Défenseur."
 			},
 
 		},
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Backspin",
+				fr: "Retour arrière"
 			},
 			effect: {
 				en: "After your attack, you may discard 1 Energy card attached to Forretress. If you do, switch Forretress with 1 of your Benched Pokémon.",
+				fr: "Après votre attaque, vous pouvez défausser une carte Énergie attachée à Foretress. Vous pouvez alors échanger Foretress avec un des Pokémon de votre Banc."
 			},
 			damage: 40,
 

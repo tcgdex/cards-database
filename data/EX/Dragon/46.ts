@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Vibrava",
+		fr: "Vibraninf"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Levitate",
+				fr: "Lévitation"
 			},
 			effect: {
 				en: "If Vibrava has any basic Energy cards attached to it, Vibrava's Retreat Cost is 0.",
+				fr: "Si Vibraninf possède des cartes Énergie de base, son Coût de retraite est de 0."
 			},
 		},
 	],
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Wing",
+				fr: "Aile tranchante"
 			},
 
 			damage: 20,

@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Snorunt",
+		fr: "Stalgamin"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
+				fr: "Bataille"
 			},
 
 			damage: 10,

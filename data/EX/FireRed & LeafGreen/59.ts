@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Clefairy",
+		fr: "Mélofée"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gesture",
+				fr: "Geste"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
+				fr: "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le avec le Pokémon Défenseur. Votre adversaire choisit le Pokémon Défenseur à échanger."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Moon Kick",
+				fr: "Coup d'pied lunaire"
 			},
 
 			damage: 20,

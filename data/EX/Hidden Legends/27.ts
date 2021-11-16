@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Tropius",
+		fr: "Tropius"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fruition",
+				fr: "Concrétisation"
 			},
 			effect: {
 				en: "Move 1 Energy card attached to Tropius to another of your Pokémon and remove 4 damage counters from that Pokémon (all if there are less than 4).",
+				fr: "Déplacez 1 carte Énergie attachée à Tropius sur un autre de vos Pokémon et retirez à ce Pokémon 4 marqueurs de dégât (retirez-les lui tous s'il en a moins de 4)."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
+				fr: "Tornade"
 			},
 
 			damage: 20,

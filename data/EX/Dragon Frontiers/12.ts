@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Typhlosion δ",
+		fr: "Typhlosion δ ESPÈCES DELTA"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Shady Move",
+				fr: "Déplacement louche"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Typhlosion is your Active Pokémon, you may move 1 damage counter from either player's Pokémon to another Pokémon (yours or your opponent's). This power can't be used if Typhlosion is affected by a Special Condition.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Typhlosion est votre Pokémon Actif, vous pouvez déplacer 1 marqueur de dégât d'1 Pokémon de n'importe quel joueur sur un autre Pokémon (les vôtres et ceux de votre adversaire). Ce pouvoir ne peut pas être utilisé si Typhlosion est affecté par un État Spécial."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Burning Ball",
+				fr: "Boule brûlante"
 			},
 			effect: {
 				en: "If Typhlosion has at least 2 Fire Energy attached to it, the Defending Pokémon is now Burned.",
+				fr: "Si Typhlosion possède au moins 2 Énergies , le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 60,
 

@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Drowzee",
+		fr: "Soporifik"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnosis",
+				fr: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -40,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ambush",
+				fr: "Embuscade"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Marshtomp",
+		fr: "Flobio"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
+				fr: "Écume"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -45,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 40,

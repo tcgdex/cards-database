@@ -6,7 +6,7 @@ const ex9: Set = {
 
 	name: {
 		en: "Emerald",
-		fr: "Emerald"
+		fr: "Émeraude"
 	},
 
 	serie: serie,

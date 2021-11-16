@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Wave",
+				fr: "Cage-éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder",
+				fr: "Fatal-foudre"
 			},
 			effect: {
 				en: "Flaaffy does 10 damage to itself.",
+				fr: "Lainergie s'inflige 10 dégâts."
 			},
 			damage: 50,
 

@@ -4,6 +4,7 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Tauros",
+		fr: "Tauros"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
+				fr: "Frénésie"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Tauros.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Tauros."
 			},
 			damage: "10+",
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				fr: "Bélier"
 			},
 			effect: {
 				en: "Tauros does 10 damage to itself.",
+				fr: "Tauros s'inflige 10 dégâts."
 			},
 			damage: 40,
 

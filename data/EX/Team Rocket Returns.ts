@@ -5,8 +5,7 @@ const ex7: Set = {
 	id: "ex7",
 
 	name: {
-		en: "Team Rocket Returns",
-		fr: "Team Rocket Returns"
+		en: "Team Rocket Returns"
 	},
 
 	serie: serie,

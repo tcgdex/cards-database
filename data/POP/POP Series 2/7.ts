@@ -4,6 +4,7 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Ivysaur",
+		fr: "Herbizarre"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Seed",
+				fr: "Graine poison"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 
 		},
@@ -48,6 +51,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'herbe"
 			},
 
 			damage: 50,

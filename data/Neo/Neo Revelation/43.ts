@@ -4,22 +4,25 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Farfetch'd",
+		fr: "Canarticho"
 	},
+
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		83,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
+				fr: "Tornade"
 			},
 
 			damage: 10,
@@ -41,20 +45,24 @@ const card: Card = {
 			],
 			name: {
 				en: "Leek Jab",
+				fr: "Coud'poireau"
 			},
 			effect: {
 				en: "This attack can't be used during your next turn. (Benching Farfetch'd ends this effect.)",
+				fr: "Cette attaque ne peut pas être utilisée à nouveau durant votre prochain tour. (Envoyer Canarticho sur le Banc met fin à cet effet.)"
 			},
 			damage: 40,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -62,9 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Si quelqu'un tente de s'introduire dans son jardin de poireaux, il utilise son arme pour le faire partir."
+	}
 }
 
 export default card

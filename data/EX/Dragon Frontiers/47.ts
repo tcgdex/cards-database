@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Ekans δ",
+		fr: "Abo δ ESPÈCES DELTA"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 10,
@@ -40,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Snap",
+				fr: "Coud' queue sec"
 			},
 
 			damage: 20,

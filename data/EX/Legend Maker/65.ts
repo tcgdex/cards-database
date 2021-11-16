@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Spheal",
+		fr: "Obalie"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -29,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 20,

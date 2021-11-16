@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Carvanha",
+		fr: "Carvanha de Team Aqua"
 	},
 	illustrator: "Yosuke Da Silva",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				fr: "Onde folie"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Fang",
+				fr: "Croc-poison"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 10,
 

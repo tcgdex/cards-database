@@ -4,24 +4,29 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Dewgong",
+		fr: "Lamantine"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		87,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Seel",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -32,6 +37,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
+				fr: "Onde Boréale"
 			},
 
 			damage: 50,
@@ -46,14 +52,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Beam",
+				fr: "Laser Glace"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -61,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 nœuds."
+	}
 }
 
 export default card

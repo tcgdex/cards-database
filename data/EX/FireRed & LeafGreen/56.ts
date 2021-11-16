@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Caterpie",
+		fr: "Chenipan"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Signs of Evolution",
+				fr: "Signes d'évolution"
 			},
 			effect: {
 				en: "Search your deck for a Metapod and a Butterfree card, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				fr: "Cherchez dans votre deck une carte Chrysacier et une carte Papilusion, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "String Shot",
+				fr: "Sécrétion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 

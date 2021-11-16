@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Lotad",
+		fr: "Nenupiot"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Rain Dish",
+				fr: "Cuvette"
 			},
 			effect: {
 				en: "At any time between turns, remove 1 damage counter from Lotad.",
+				fr: "N'importe quand entre deux tours, retirez à Nenupiot un marqueur de dégât."
 			},
 		},
 	],
@@ -38,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 10,

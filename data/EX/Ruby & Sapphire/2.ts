@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Beautifly",
+		fr: "Charmillon"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Withering Dust",
+				fr: "Poussière desséchante"
 			},
 			effect: {
 				en: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon.",
+				fr: "Tant que Charmillon est en jeu, vous ne pouvez pas appliquer la Résistance aux Pokémon Actifs."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Spore",
+				fr: "Poussière paralysante"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -55,9 +60,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Parallel Gain",
+				fr: "Gain parallèle"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon, including Beautifly.",
+				fr: "Retirez un marqueur de dégât à tous vos Pokémon, Charmillon inclus."
 			},
 			damage: 50,
 

@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Geodude",
+		fr: "Racaillou"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Light Punch",
+				fr: "Poing léger"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pebble Throw",
+				fr: "Jet de caillou"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez un des Pokémon du Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
 			},
 
 		},

@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Azumarill δ",
+		fr: "Azumarill δ ESPÈCES DELTA"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -32,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubblebeam",
+				fr: "Bulle d'O"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -47,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rolling Tackle",
+				fr: "Roulé-boulé"
 			},
 
 			damage: 50,

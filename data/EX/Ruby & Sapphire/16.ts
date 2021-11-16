@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Breloom",
+		fr: "Chapignon"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d'boule"
 			},
 
 			damage: 20,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Battle Blast",
+				fr: "Combat explosif"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.\"",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Chapignon."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

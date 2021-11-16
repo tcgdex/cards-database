@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Nidoran♂ δ",
+		fr: "Nidoran ♂ δ ESPÈCES DELTA"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Picpic"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Horn",
+				fr: "Corne empoisonnée"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
 			},
 
 		},

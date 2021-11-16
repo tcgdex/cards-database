@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Altaria ex",
+		fr: "Altaria ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Mist",
+				fr: "Brume"
 			},
 			effect: {
 				en: "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).",
+				fr: "Les dégâts infligés à Altaria ex par des attaques de Pokémon Évolués de Niveau 2 (les vôtres et ceux de votre adversaire) sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dive",
+				fr: "Plongée"
 			},
 
 			damage: 20,
@@ -53,9 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Mist",
+				fr: "Brume de dragon"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
 			},
 			damage: 70,
 

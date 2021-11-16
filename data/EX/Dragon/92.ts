@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Kingdra ex",
+		fr: "Hyporoi ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Genetic Memory",
+				fr: "Mémoire Génétique"
 			},
 			effect: {
 				en: "Use any attack from Kingdra ex's Basic Pokémon card or Stage 1 Evolution card. (Kingdra ex doesn't have to pay for that attack's Energy cost.)",
+				fr: "Utilisez n'importe quelle attaque de la carte Pokémon de base ou de la carte Évolution Niveau 1 d'Hyporoi ex. (Hyporoi ex ne paye pas le Coût en Énergie de cette attaque)."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydrocannon",
+				fr: "Canon à O"
 			},
 			effect: {
 				en: "Does 50 damage plus 20 more damage for each Water Energy attached to Kingdra ex but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
+				fr: "Inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie  attachée à Hyporoi ex qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

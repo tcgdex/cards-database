@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
+		fr: "Bulbizarre"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
+				fr: "Poudre toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 
 		},

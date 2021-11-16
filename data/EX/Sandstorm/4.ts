@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Dusclops",
+		fr: "Teraclope"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Judgement",
+				fr: "Jugement"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, the Defending Pokémon is Knocked Out.",
+				fr: "Lancez deux pièces. Si ce sont deux faces, le Pokémon Défenseur est mis K.O."
 			},
 
 		},
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Random Curse",
+				fr: "Malédiction au pif"
 			},
 			effect: {
 				en: "Put a total of 5 damage counters on all Defending Pokémon in any way you like.",
+				fr: "Placez comme vous le voulez un total de cinq marqueurs de dégât sur tout Pokémon Défenseur."
 			},
 
 		},

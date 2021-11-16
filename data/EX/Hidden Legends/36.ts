@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Golbat",
+		fr: "Nosferalto"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
+				fr: "Ultrason"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Confus."
 			},
 
 		},
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fang",
+				fr: "Croc aiguisé"
 			},
 
 			damage: 20,

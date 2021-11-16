@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Treecko δ",
+		fr: "Arcko δ"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
+				fr: "Écras'face"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shining Claws",
+				fr: "Griffes étincelantes"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 

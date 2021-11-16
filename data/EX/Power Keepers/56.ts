@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Omanyte",
+		fr: "Amonita"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Influence",
+				fr: "Influencer"
 			},
 			effect: {
 				en: "Search your deck for Omanyte, Kabuto, Aerodactyl, Lileep, or Anorith and put up to 2 of them onto your Bench. Shuffle your deck afterward. Treat the new Benched Pokémon as Basic Pokémon.",
+				fr: "Cherchez dans votre deck Amonita, Kabuto, Ptera, Lilia ou Anorith et placez 2 d'entre eux sur votre Banc. Ensuite, mélangez votre deck. Traitez les nouveaux Pokémon de Banc comme des Pokémon de base."
 			},
 
 		},
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Shot",
+				fr: "Tir de boue"
 			},
 
 			damage: 20,

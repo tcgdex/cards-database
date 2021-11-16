@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Nuzleaf",
+		fr: "Pifeuil"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Self Charge",
+				fr: "Auto-chargement"
 			},
 			effect: {
 				en: "Attach a Darkness Energy card from your hand to Nuzleaf.",
+				fr: "Attachez une carte Énergie  de votre main à Pifeuil."
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
+				fr: "Poing en tire-bouchon"
 			},
 
 			damage: 40,

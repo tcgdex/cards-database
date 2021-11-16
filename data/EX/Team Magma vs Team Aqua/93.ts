@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Sceptile ex",
+		fr: "Jungko ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Green Heal",
+				fr: "Guérison verte"
 			},
 			effect: {
 				en: "Remove 4 damage counters from each of your Pokémon that has Grass Energy attached. If that Pokémon has less than 4 damage counters, remove all of them.",
+				fr: "Retirez 4 marqueurs de dégât à chacun de vos Pokémon possédant une Énergie . Si ces Pokémon possèdent moins de 4 marqueurs de dégât, retirez-les tous."
 			},
 
 		},
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Ring",
+				fr: "Anneau de poison"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Il ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
 			},
 			damage: 40,
 
@@ -59,9 +64,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Strike",
+				fr: "Coup déchirant"
 			},
 			effect: {
 				en: "Sceptile ex can't use Slashing Strike during your next turn.",
+				fr: "Jungko ex ne peut pas utiliser Coup déchirant lors de votre prochain tour."
 			},
 			damage: 100,
 

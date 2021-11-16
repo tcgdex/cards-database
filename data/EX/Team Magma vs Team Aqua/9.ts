@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Groudon",
+		fr: "Groudon de Team Magma"
 	},
 	illustrator: "Kazuo Yazawa",
 	rarity: "Rare",
@@ -26,9 +27,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Power Saver",
+				fr: "Économisateur de puissance"
 			},
 			effect: {
 				en: "As long as the number of Pokémon in play (both yours and your opponent's) that has Team Magma in its name is 3 or less, Team Magma's Groudon can't attack.",
+				fr: "Tant que jusqu'à 3 Pokémon (les vôtres et ceux de votre adversaire) dont les noms comportent Team Magma sont en jeu, Groudon de Team Magma ne peut pas attaquer."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Linear Attack",
+				fr: "Attaque linéaire"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -54,11 +59,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pulverize",
+				fr: "Pulvériser"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage.",
+				fr: "Si le Pokémon Défenseur possède au moins 2 marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

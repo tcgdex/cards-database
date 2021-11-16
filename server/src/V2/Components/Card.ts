@@ -81,8 +81,8 @@ export default class Card implements LocalCard {
 	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof SDKCard, any>> = {}) {
 		const res = (require(`../../../generated/${lang}/cards.json`) as Array<SDKCard>).find((c) => {
 			return objectLoop(params, (it, key) => {
-				if (key === 'set') {
-					return c['set'].id.includes(it) || c['set'].name.includes(it)
+				if (key === 'set' && typeof it === 'string') {
+					return c['set'].id.toLowerCase().includes(it.toLowerCase()) || c['set'].name.toLowerCase().includes(it.toLowerCase())
 				}
 				if (typeof it === "string") {
 					return c[key as 'localId'].toLowerCase().includes(it.toLowerCase())

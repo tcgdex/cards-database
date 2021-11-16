@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Corphish",
+		fr: "Ecrapince"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Corkscrew Punch",
+				fr: "Poing en tire-bouchon"
 			},
 
 			damage: 10,
@@ -41,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Guillotine",
+				fr: "Guillotine"
 			},
 
 			damage: 30,

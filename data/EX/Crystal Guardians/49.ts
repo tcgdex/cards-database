@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Charmander δ",
+		fr: "Salamèche δ ESPÈCES DELTA"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 10,
@@ -40,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,

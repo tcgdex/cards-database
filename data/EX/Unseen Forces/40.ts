@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Lanturn",
+		fr: "Lanturn"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Stream",
+				fr: "Courant d'énergie"
 			},
 			effect: {
 				en: "Search your discard pile for a basic Energy card and attach it to Lanturn.",
+				fr: "Choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Lanturn."
 			},
 			damage: 20,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				fr: "Bélier"
 			},
 			effect: {
 				en: "Lanturn does 10 damage to itself.",
+				fr: "Lanturn s'inflige 10 dégâts."
 			},
 			damage: 50,
 

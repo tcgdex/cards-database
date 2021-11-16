@@ -4,24 +4,29 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Umbreon",
+		fr: "Noctali"
 	},
+
 	illustrator: "Kimiya Masago",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		197,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Eevee",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -31,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,
@@ -44,11 +50,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Feint Attack",
+				fr: "Feinte"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers or any other effects on the Defending Pokémon.",
-			},
-			damage: 30,
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts de l'attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoirs Pokémon ou tout autre effet en action sur le Pokémon Défenseur."
+			}
 
 		},
 	],
@@ -60,9 +67,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Quand la nuit tombe, les anneaux de son corps se mettent à luire, éveillant la peur dans le cœur de ceux qui sont dans les parages."
+	}
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Horsea δ",
+		fr: "Hypotrempe δ ESPÈCES DELTA"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleepy Ball",
+				fr: "Boule dodo"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 

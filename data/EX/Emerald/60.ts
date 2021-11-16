@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Pikachu",
+		fr: "Pikachu"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pika Ball",
+				fr: "Pika Ball"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				fr: "Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 

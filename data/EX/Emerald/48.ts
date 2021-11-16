@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Electrike",
+		fr: "Dynavolt"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rear Kick",
+				fr: "Ruade"
 			},
 
 			damage: 10,
@@ -40,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Skull Bash",
+				fr: "Coud'krane"
 			},
 
 			damage: 30,

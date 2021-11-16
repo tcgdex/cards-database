@@ -27,7 +27,7 @@ A Multilanguage Pokémon TCG Database with Cards Pictures and most of the inform
 
 ## Getting Started
 
-_If you need help for using/editing the database, [join our Discord server](https://discord.gg/NehYTAhsZE)!_
+_If you need help for using/editing the database, [join us on Discord](https://discord.gg/NehYTAhsZE)!_
 
 ### Using the Database
 

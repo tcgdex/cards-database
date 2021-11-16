@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Grovyle",
+		fr: "Massko"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Shake",
+				fr: "Secoue-queue"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 
@@ -45,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'herbe"
 			},
 
 			damage: 40,

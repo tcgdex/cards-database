@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Rapidash",
+		fr: "Galopa"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Fiery Aura",
+				fr: "Aura flamboyante"
 			},
 			effect: {
 				en: "As long as Rapidash is your Active Pokémon, put 4 damage counters instead of 2 on Burned Pokémon between turns.",
+				fr: "Tant que Galopa est votre Pokémon Actif, placez 4 marqueurs de dégât au lieu de 2 sur les Pokémon Brûlés entre deux tours."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
+				fr: "Flammes calcinantes"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 10,
 
@@ -56,6 +61,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rear Kick",
+				fr: "Ruade"
 			},
 
 			damage: 40,

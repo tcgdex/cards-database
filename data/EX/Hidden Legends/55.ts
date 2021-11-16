@@ -4,23 +4,25 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Chikorita",
+		fr: "Germignon"
 	},
+
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Common",
-	category: "Trainer",
-
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		152,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
-
 
 	weaknesses: [
 		{
@@ -28,6 +30,7 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
@@ -39,7 +42,17 @@ const card: Card = {
 		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 	},
 
+	attacks: [{
+		cost: ["Colorless"],
 
+		name: {
+			fr: "Poudre toxik"
+		},
+
+		effect: {
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+		}
+	}]
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Sableye",
+		fr: "Tenefix"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Synergy Effect",
+				fr: "Effet synergie"
 			},
 			effect: {
 				en: "If Phoebe's Stadium is in play, prevent all damage done to Sableye by attacks from your opponent's Pokémon-ex.",
+				fr: "Si Stade de Spectra est en jeu, prévenez tous les dégâts infligés à Tenefix par des attaques de Pokémon-ex de votre adversaire."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Down Draw",
+				fr: "Pioche du dessous"
 			},
 			effect: {
 				en: "Draw 2 cards from the bottom of your deck.",
+				fr: "Piochez 2 cartes du dessous de votre deck."
 			},
 
 		},
@@ -51,9 +56,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Feint Attack",
+				fr: "Feinte"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon."
 			},
 
 		},

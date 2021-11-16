@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Noctowl",
+		fr: "Noarfang"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spearhead",
+				fr: "Meneur"
 			},
 			effect: {
 				en: "Draw 3 cards.",
+				fr: "Piochez 3 cartes."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise",
+				fr: "Surprise"
 			},
 			effect: {
 				en: "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
+				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire. Ensuite, regardez la carte et demandez à votre adversaire de la mélanger à son deck."
 			},
 			damage: 30,
 

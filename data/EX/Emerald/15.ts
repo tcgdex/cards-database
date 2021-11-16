@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Kyogre",
+		fr: "Kyogre"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Scary Face",
+				fr: "Grimace"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut ni attaquer ni battre en retraite lors du prochain tour de votre adversaire."
 			},
 
 		},
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydro Pump",
+				fr: "Hydrocanon"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Water Energy attached to Kyogre but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kyogre qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Linoone",
+		fr: "Lineon"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sniff Out",
+				fr: "Flairer"
 			},
 			effect: {
 				en: "Put any 1 card from your discard pile into your hand.",
+				fr: "Placez n'importe quelle carte de votre pile de défausse dans votre main."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
+				fr: "Combo-griffe"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

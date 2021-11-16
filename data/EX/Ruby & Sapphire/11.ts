@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Sceptile",
+		fr: "Jungko"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lizard Poison",
+				fr: "Poison de lézard"
 			},
 			effect: {
 				en: "If 1 Energy is attached to Sceptile, the Defending Pokémon is now Asleep. If 2 Energy is attached to Sceptile, the Defending Pokémon is now Poisoned. If 3 Energy is attached to Sceptile, the Defending Pokémon is now Asleep and Poisoned. If 4 or more Energy is attached to Sceptile, the Defending Pokémon is now Asleep, Burned, and Poisoned.",
+				fr: "Si Jungko possède une carte Énergie, le Pokémon Défenseur est maintenant Endormi. S'il en a deux, le Pokémon Défenseur est maintenant Empoisonné. S'il en a trois, le Pokémon Défenseur est Endormi et Empoisonné. S'il en a quatre ou plus, le Pokémon Défenseur est Endormi, Brûlé et Empoisonné."
 			},
 			damage: 20,
 
@@ -47,6 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Solarbeam",
+				fr: "Lance-soleil"
 			},
 
 			damage: 70,

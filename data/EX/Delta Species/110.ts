@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Vaporeon ex",
+		fr: "Aquali ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Evolutionary Swirl",
+				fr: "Tourbillon évolutif"
 			},
 			effect: {
 				en: "Once during your turn, when you play Vaporeon ex from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle his or her hand into his or her deck. Then, your opponent draws up to 4 cards.",
+				fr: "Une seule fois lors de votre tour, lorsque vous jouez Aquali ex de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez demander à votre adversaire de mélanger sa main avec son deck. Ensuite, votre adversaire pioche 4 cartes."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fastwave",
+				fr: "Lame de fond"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
 			},
 			damage: 40,
 
@@ -56,6 +61,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydrosplash",
+				fr: "Hydro-éclaboussure"
 			},
 
 			damage: 60,

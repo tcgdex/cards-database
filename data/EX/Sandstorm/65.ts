@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Fire Veil",
+				fr: "Voile feu"
 			},
 			effect: {
 				en: "If Growlithe is your Active Pokémon and is damaged by an opponent's attack (even if Growlithe is Knocked Out), the Attacking Pokémon is now Burned.",
+				fr: "Si Caninos est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Caninos est mis K.O), le Pokémon Attaquant est maintenant Brûlé."
 			},
 		},
 	],
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				fr: "Intimidation"
 			},
 
 			damage: 20,

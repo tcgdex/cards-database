@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Banette",
+		fr: "Branette"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Safeguard",
+				fr: "Rune protectrice"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Banette by your opponent's Pokémon-ex.",
+				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Branette par les Pokémon-ex de votre adversaire."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Night Murmurs",
+				fr: "Murmures nocturnes"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Basic Pokémon, that Pokémon is now Confused.",
+				fr: "Si le Pokémon Défenseur est un Pokémon de base, il est maintenant Confus."
 			},
 			damage: 30,
 

@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Pupitar δ",
+		fr: "Ymphect δ ESPÈCES DELTA"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
+				fr: "Ultralaser"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 20,
 

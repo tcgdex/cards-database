@@ -4,6 +4,7 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Pidgey",
+		fr: "Roucool"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				fr: "Vive-attaque"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				fr: "Lancez 1 pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "20+",
 

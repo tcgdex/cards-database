@@ -4,22 +4,25 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Magmar",
+		fr: "Magmar"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		126,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
+				fr: "Coud'keu"
 			},
 
 			damage: 20,
@@ -42,12 +46,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Punch",
+				fr: "Poing magma"
 			},
 
 			damage: 40,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -55,10 +61,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Il n'aime pas les endroits froids, il souffle donc des flammes ardentes pour rendre l'atmosphère plus agréable à son goût."
+	}
 }
 
 export default card

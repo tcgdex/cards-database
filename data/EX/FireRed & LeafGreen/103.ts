@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Multi Energy",
+		fr: "Énergies multiples"
 	},
 	illustrator: "Tokumi Akabane",
 	rarity: "Rare",

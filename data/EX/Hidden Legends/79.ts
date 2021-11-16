@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Totodile",
+		fr: "Kaiminus"
 	},
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Common",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
+				fr: "Fléau"
 			},
 			effect: {
 				en: "Does 10 damage for each damage counter on Totodile.",
+				fr: "Inflige 10 dégâts pour chaque marqueur de dégât sur Kaiminus."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 20,
