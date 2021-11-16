@@ -4,6 +4,7 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Metagross",
+		fr: "Metalosse"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
+				fr: "Griffe acier"
 			},
 
 			damage: 30,
@@ -49,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
+				fr: "Ultralaser"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez 1 Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 50,
 

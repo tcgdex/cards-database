@@ -4,6 +4,7 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Tyranitar ex",
+		fr: "Tyranocif ex"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -34,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 20,
@@ -48,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Critical Crush",
+				fr: "Écrasement sévère"
 			},
 			effect: {
 				en: "Discard 2 basic Energy cards attached to Tyranitar ex or this attack does nothing.",
+				fr: "Défaussez 2 cartes Énergie de base attachées à Tyranocif ex ou cette attaque est sans effet."
 			},
 			damage: 80,
 

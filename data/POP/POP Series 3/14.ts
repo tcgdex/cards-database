@@ -4,6 +4,7 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Ivysaur",
+		fr: "Herbizarre"
 	},
 
 	illustrator: "Midori Harada",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gouge",
+				fr: "Griffes rétractiles"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
+				fr: "Poudre Toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 40,
 

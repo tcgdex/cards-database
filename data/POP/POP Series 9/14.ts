@@ -4,6 +4,7 @@ import Set from '../POP Series 9'
 const card: Card = {
 	name: {
 		en: "Gible",
+		fr: "Griknot"
 	},
 
 	illustrator: "Hiroki Fuchino",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Push Down",
+				fr: "Enfoncer"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
 			},
 			damage: 10,
 
@@ -47,7 +50,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its nests is small, horizontal holes in cave walls. It pounces to catch prey that stray too close."
+		en: "Its nests is small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+		fr: "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
 	},
 
 	retreat: 1,

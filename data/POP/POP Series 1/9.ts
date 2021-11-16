@@ -4,6 +4,7 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Pupitar",
+		fr: "Ymphect"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -35,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Smash",
+				fr: "Éclate-roc"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "20+",
 

@@ -6,6 +6,7 @@ const np: Set = {
 
 	name: {
 		en: "Nintendo Black Star Promos",
+		fr: "Promo Nintendo"
 	},
 
 	serie: serie,

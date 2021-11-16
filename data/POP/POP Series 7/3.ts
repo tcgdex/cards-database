@@ -4,6 +4,7 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Latias",
+		fr: "Latias"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Miraculous Light",
+				fr: "Lumière miraculeuse"
 			},
 			effect: {
 				en: "Remove 2 damage counters and all Special Conditions from Latias.",
+				fr: "Retirez à Latias 2 marqueurs de dégât ainsi que tous ses États Spéciaux."
 			},
 			damage: 10,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mist Ball",
+				fr: "Boule de brume"
 			},
 			effect: {
 				en: "Discard a Fire Energy and a Water Energy attached to Latias.",
+				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias."
 			},
 			damage: 80,
 
@@ -69,7 +74,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its body is covered with a down that can refract light in such a way that it becomes invisble."
+		en: "Its body is covered with a down that can refract light in such a way that it becomes invisble.",
+		fr: "Son corps est recouvert d'un duvet qui reflète la lumière et le rend invisible."
 	},
 
 	retreat: 1,
