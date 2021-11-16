@@ -6,8 +6,9 @@ const set: Set = {
 
 	name: {
 		en: "SM trainer Kit (Lycanroc)",
-		fr: "SM Kit du dresseur (Lougarox)"
-,
+		it: "Sole e Luna trainer Kit (Lycanroc)",
+		fr: "SM Kit du dresseur (Lougarox)",
+		es: "Kit de Entrenador Sol y Luna (Lycanroc)"
 	},
 
 	serie: serie,

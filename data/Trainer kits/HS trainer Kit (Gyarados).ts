@@ -6,8 +6,9 @@ const set: Set = {
 
 	name: {
 		en: "HS trainer Kit (Gyarados)",
-		fr: "HS Kit du dresseur (Léviator)"
-,
+		it: "HS trainer Kit (Gyarados)",
+		fr: "HS Kit du dresseur (Léviator)",
+		es: "Kit de Entrenador HeatGold & SoulSilver (Gyarados)",
 	},
 
 	serie: serie,
