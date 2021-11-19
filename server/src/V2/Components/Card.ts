@@ -84,7 +84,7 @@ export default class Card implements LocalCard {
 				if (key === 'set' && typeof it === 'string') {
 					return (
 						c['set'].id.toLowerCase().includes(it.toLowerCase()) ||
-						(c['set'].name ? c['set'].name.toLowerCase().includes(it.toLowerCase()) : false)
+            (c['set'].name ? c['set'].name.toLowerCase().includes(it.toLowerCase()) : false)
 					)
 				}
 				if (typeof it === "string") {
