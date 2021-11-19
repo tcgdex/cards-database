@@ -4,6 +4,7 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Blaziken",
+		fr: "Brasegali"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -35,6 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Punch",
+				fr: "Poing de feu"
 			},
 
 			damage: 40,
@@ -48,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Kick",
+				fr: "Double pied"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
 			},
 			damage: "50×",
 

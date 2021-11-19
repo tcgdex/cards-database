@@ -6,8 +6,9 @@ const set: Set = {
 
 	name: {
 		en: "XY trainer Kit (Bisharp)",
-		fr: "XY Kit du dresseur (Scalproie)"
-,
+		it: "XY trainer Kit (Bisharp)",
+		fr: "XY Kit du dresseur (Scalproie)",
+		es: "Kit de Entrenador XY (Bisharp)",
 	},
 
 	serie: serie,

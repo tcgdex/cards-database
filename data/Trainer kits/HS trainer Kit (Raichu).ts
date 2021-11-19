@@ -6,8 +6,9 @@ const set: Set = {
 
 	name: {
 		en: "HS trainer Kit (Raichu)",
-		fr: "HS Kit du dresseur (Raichu)"
-,
+		it: "HS trainer Kit (Raichu)",
+		fr: "HS Kit du dresseur (Raichu)",
+		es: "Kit de Entrenador HeatGold & SoulSilver (Raichu)",
 	},
 
 	serie: serie,

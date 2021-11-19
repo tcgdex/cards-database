@@ -4,6 +4,7 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Eevee",
+		fr: "Evoli"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 10,
@@ -42,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				fr: "Bélier"
 			},
 			effect: {
 				en: "Eevee does 10 damage to itself.",
+				fr: "Evoli s'inflige 10 dégâts."
 			},
 			damage: 30,
 

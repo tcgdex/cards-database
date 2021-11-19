@@ -4,6 +4,7 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Murkrow",
+		fr: "Cornèbre"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Insomnia",
+				fr: "Insomnie"
 			},
 			effect: {
 				en: "Murkrow can’t be Asleep.",
+				fr: "Cornèbre ne peut pas être Endormi."
 			},
 		},
 	],
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Feint Attack",
+				fr: "Feinte"
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet."
 			},
 
 		},

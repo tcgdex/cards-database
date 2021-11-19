@@ -6,7 +6,6 @@ const pl4: Set = {
 
 	name: {
 		en: "Arceus",
-		fr: "Arceus",
 		es: "Arceus",
 		it: "Arceus",
 		de: "Arceus"

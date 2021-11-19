@@ -4,6 +4,7 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Grovyle",
+		fr: "Massko"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				fr: "Vive-attaque"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -48,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
+				fr: "Pâté"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Grovyle.",
+				fr: "Retirez à Massko 2 marqueurs de dégât."
 			},
 			damage: 20,
 

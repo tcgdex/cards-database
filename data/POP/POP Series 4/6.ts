@@ -4,6 +4,7 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Smokescreen",
+				fr: "Brouillard"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 10,
 
@@ -49,9 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sky Uppercut",
+				fr: "Stratopercut"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 40,
 

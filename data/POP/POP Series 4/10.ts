@@ -4,6 +4,7 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Scramble Energy",
+		fr: "Énergie codée"
 	},
 
 	illustrator: "Takumi Akabane",

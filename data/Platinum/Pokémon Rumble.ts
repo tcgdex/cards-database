@@ -6,6 +6,7 @@ const ru1: Set = {
 
 	name: {
 		en: "Pokémon Rumble",
+		es: "Pokémon Rumble"
 	},
 
 	serie: serie,

@@ -6,7 +6,9 @@ const ecard1: Set = {
 
 	name: {
 		en: "Expedition Base Set",
-		fr: "Expedition"
+		fr: "Expedition",
+		it: "Expedition Set Base",
+		de: "Expedition"
 	},
 
 	serie: serie,

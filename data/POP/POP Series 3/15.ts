@@ -4,6 +4,7 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Marshtomp",
+		fr: "Flobio"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,6 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
+				fr: "Coud'boue"
 			},
 
 			damage: 20,
@@ -47,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
+				fr: "Damoclès"
 			},
 			effect: {
 				en: "Marshtomp does 10 damage to itself.",
+				fr: "Flobio s'inflige 10 dégâts."
 			},
 			damage: 40,
 

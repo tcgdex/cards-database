@@ -6,8 +6,9 @@ const s2021swsh: Set = {
 
 	name: {
 		en: "Macdonald's Collection 2021",
-		fr: "Collection Macdonald 2021"
-,
+		fr: "Promo McDonald's 2021",
+		es: "Colección de McDonald's 2021",
+		it: "McDonald's Collection 2021"
 	},
 
 	serie: serie,

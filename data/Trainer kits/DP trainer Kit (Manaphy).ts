@@ -6,8 +6,9 @@ const set: Set = {
 
 	name: {
 		en: "DP trainer Kit (Manaphy)",
-		fr: "DP Kit dresseur (Manaphy)"
-,
+		it: "Diamond & Pearl trainer Kit (Manaphy)",
+		fr: "DP Kit dresseur (Manaphy)",
+		es: "Kit de Entrenador Diamante & Perla (Manaphy)",
 	},
 
 	serie: serie,
