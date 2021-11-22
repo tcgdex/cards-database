@@ -50,17 +50,7 @@ const card: Card = {
 			},
 			damage: 150,
 
-		},
-		{
-
-			name: {
-				fr: "Level-Up Rule",
-			},
-			effect: {
-				fr: "Placez cette carte sur votre Simiabraz Actif. Simiabraz LV X peut utiliser n'importe quel (le) attaque, Poké-Power ou Poké-Body de son Niveau précédent.",
-			},
-
-		},
+		}
 	],
 	weaknesses: [
 		{

@@ -4,24 +4,29 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Golbat",
+		fr: "Nosferalto"
 	},
+
 	illustrator: "Kazuyuki Kano",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		42,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Zubat",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -30,20 +35,24 @@ const card: Card = {
 			],
 			name: {
 				en: "Pulse Search",
+				fr: "Recherche de pouls"
 			},
 			effect: {
 				en: "Look at your opponent's hand.",
+				fr: "Regardez la main de votre adversaire."
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -51,9 +60,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il aime le sang des humains et des Pokémon. Il erre la nuit en quête d'un cou où planter ses crocs."
+	}
 }
 
 export default card

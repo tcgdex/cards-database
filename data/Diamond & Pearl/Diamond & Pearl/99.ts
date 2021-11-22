@@ -4,23 +4,25 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Skorupi",
-		fr: "Drapion",
+		fr: "Rapion",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		451,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,10 +52,11 @@ const card: Card = {
 				en: "Flip 4 coins. This attack does 10 damage time the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
+	}
 }
 
 export default card
