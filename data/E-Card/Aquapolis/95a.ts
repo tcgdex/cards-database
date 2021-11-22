@@ -1,14 +1,25 @@
-import { Card } from "../../../interfaces"
-import Set from "../Aquapolis"
+import { Card } from '../../../interfaces'
+import Set from '../Aquapolis'
 
 const card: Card = {
-	set: Set,
-
 	name: {
+		en: "Mr. Mime",
 		fr: "M.Mime"
 	},
-
+	illustrator: "Yukiko Baba",
+	rarity: "Common",
 	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		122,
+	],
+	hp: 50,
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
 
 	abilities: [{
 		name: {
@@ -22,19 +33,36 @@ const card: Card = {
 		type: "Poke-BODY"
 	}],
 
-	attacks: [{
-		cost: ["Psychic", "Colorless"],
 
-		name: {
-			fr: "Choc mémoriel"
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				en: "Mind Shock",
+				fr: "Choc mémoriel"
+			},
+			effect: {
+				en: "Don't apply Weakness and Resistance.",
+				fr: "N'appliquez ni la Faiblesse, ni la Résistance."
+			},
+			damage: 20,
+
 		},
-
-		effect: {
-			fr: "N'appliquez ni la Faiblesse, ni la Résistance."
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
 		},
+	],
 
-		damage: 20
-	}]
+
+
+
+
 }
 
 export default card
