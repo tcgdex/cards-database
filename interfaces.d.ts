@@ -13,12 +13,40 @@ export interface Serie {
 }
 
 interface variants {
+	/**
+	 * Card base version
+	 */
 	normal?: boolean
+	/**
+	 * Holo Reverse
+	 * (colored Background holographic)
+	 */
 	reverse?: boolean
+	/**
+	 * Holo Card
+	 * (illustration holographic)
+	 */
 	holo?: boolean
+
+	/**
+	 * can have a first Edition stamp
+	 */
 	firstEdition?: boolean
+
+	/**
+	 * Can be found in Jumob Format
+	 */
 	jumbo?: boolean
+
+	/**
+	 * Card has a pre-release stamp
+	 */
 	preRelease?: boolean
+
+	/**
+	 * Card has a W stamp
+	 */
+	wPromo?: true
 }
 
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
