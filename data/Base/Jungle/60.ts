@@ -56,6 +56,10 @@ const card: Card = {
 
 	description: {
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
+	},
+
+	variants: {
+		wPromo: true
 	}
 }
 

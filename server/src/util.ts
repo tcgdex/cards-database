@@ -55,3 +55,26 @@ export function tree(path: string, padding = 0) {
 		} catch {}
 	}
 }
+
+export function lightCheck(source: any, item: any): boolean {
+	if (typeof source === 'undefined') {
+		return typeof item === 'undefined'
+	}
+	if (Array.isArray(source)) {
+		for (const sub of source) {
+			const res = lightCheck(sub, item)
+			if (res) {
+				return true
+			}
+		}
+		return false
+	}
+	if (typeof source === 'object') {
+		return lightCheck(source[item], true)
+	} else if (typeof source === 'string') {
+		return source.toLowerCase().includes(item.toString().toLowerCase())
+	} else {
+		// console.log(source, item)
+		return source === item
+	}
+}
