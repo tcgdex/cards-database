@@ -7,7 +7,8 @@ const set: Serie = {
 		fr: "HeartGold SoulSilver",
 		es: "HeartGold SoulSilver",
 		it: "HeartGold SoulSilver",
-		de: "HeartGold SoulSilver"
+		de: "HeartGold SoulSilver",
+		pt: "HeartGold SoulSilver"
 	},
 }
 

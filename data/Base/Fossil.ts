@@ -9,7 +9,8 @@ const base3: Set = {
 		fr: "Fossile",
 		es: "Fósil",
 		it: "Fossil",
-		de: "Fossil"
+		de: "Fossil",
+		pt: "Fóssil"
 	},
 
 	serie: serie,

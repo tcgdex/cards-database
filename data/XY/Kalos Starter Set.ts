@@ -8,7 +8,8 @@ const xy0: Set = {
 		en: "Kalos Starter Set",
 		fr: "Bienvenue à Kalos",
 		it: "Benvenuti a Kalos",
-		de: "Willkommen in Kalos"
+		de: "Willkommen in Kalos",
+		pt: "Conjunto para Iniciantes Kalos"
 	},
 
 	serie: serie,

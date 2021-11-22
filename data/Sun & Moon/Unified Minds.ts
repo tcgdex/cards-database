@@ -10,6 +10,7 @@ const sm11: Set = {
 		es: "Mentes Unidas",
 		it: "Sintonia Mentale",
 		de: "Bund der Gleichgesinnten",
+		pt: "Sintonia Mental "
 	},
 
 	serie: serie,

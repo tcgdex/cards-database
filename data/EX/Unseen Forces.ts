@@ -9,7 +9,8 @@ const ex10: Set = {
 		fr: "EX Forces Cachées",
 		es: "EX Fuerzas Ocultas",
 		it: "EX Forze Segrete",
-		de: "EX Verborgene Mächte"
+		de: "EX Verborgene Mächte",
+		pt: "EX Forças Ocultas"
 	},
 
 	serie: serie,

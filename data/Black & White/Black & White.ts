@@ -9,7 +9,8 @@ const bw1: Set = {
 		fr: "Noir & Blanc",
 		es: "Negro y Blanco",
 		it: "Nero e Bianco",
-		de: "Schwarz & Weiß"
+		de: "Schwarz & Weiß",
+		pt: "Black & White"
 	},
 
 	serie: serie,

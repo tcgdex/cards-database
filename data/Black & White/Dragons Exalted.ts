@@ -9,7 +9,8 @@ const bw6: Set = {
 		fr: "Dragons Éxaltés",
 		es: "Dragones Majestuosos",
 		it: "Stirpe dei Draghi",
-		de: "Hoheit der Drachen"
+		de: "Hoheit der Drachen",
+		pt: "Dragões Enaltecidos"
 	},
 
 	serie: serie,

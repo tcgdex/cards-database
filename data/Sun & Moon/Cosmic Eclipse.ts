@@ -9,7 +9,8 @@ const sm12: Set = {
 		fr: "Éclipse Cosmique",
 		es: "Eclipse Cósmico",
 		it: "Eclissi Cosmica",
-		de: "Welten im Wandel"
+		de: "Welten im Wandel",
+		pt: "Eclipse Cósmico"
 	},
 
 	serie: serie,

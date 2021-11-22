@@ -9,7 +9,8 @@ const xy9: Set = {
 		fr: "Rupture Turbo",
 		es: "TURBOLímite",
 		it: "Turbo Crash",
-		de: "TURBOfieber"
+		de: "TURBOfieber",
+		pt: "Turbo Colisão"
 	},
 
 	serie: serie,

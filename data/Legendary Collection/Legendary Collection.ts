@@ -5,11 +5,7 @@ const lc: Set = {
 	id: "lc",
 
 	name: {
-		en: "Legendary Collection",
-		it: "Richiamo delle Leggende",
-		de: "Ruf der Legenden",
-		es: "Llamada de las Leyendas", // NOTE: only went out in the TCGO
-		fr: "L'Appel des Légendes"
+		en: "Legendary Collection"
 	},
 
 	serie: serie,

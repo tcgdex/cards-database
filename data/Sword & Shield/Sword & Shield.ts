@@ -9,7 +9,8 @@ const swsh1: Set = {
 		fr: "Épée et Bouclier",
 		es: "Espada y Escudo",
 		it: "Spada e Scudo",
-		de: "Schwert & Schild"
+		de: "Schwert & Schild",
+		pt: "Espada e Escudo"
 	},
 
 	serie: serie,

@@ -9,7 +9,8 @@ const xy10: Set = {
 		fr: "Impact des Destins",
 		es: "Destinos Enfrentados",
 		it: "Destini Incrociati",
-		de: "Schicksalsschmiede"
+		de: "Schicksalsschmiede",
+		pt: "Fusão de Destinos"
 	},
 
 	serie: serie,

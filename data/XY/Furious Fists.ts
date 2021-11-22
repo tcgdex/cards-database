@@ -9,7 +9,8 @@ const xy3: Set = {
 		fr: "Poings Furieux",
 		es: "Puños Furiosos",
 		it: "Colpi Furiosi",
-		de: "Fliegende Fäuste"
+		de: "Fliegende Fäuste",
+		pt: "Punhos Furiosos"
 	},
 
 	serie: serie,

@@ -6,7 +6,8 @@ const base: Serie = {
 		fr: "Base",
 		es: "Clásica",
 		it: "Originale",
-		de: "Grund"
+		de: "Grund",
+		pt: "Coleção Básica"
 	},
 	id: "base"
 }

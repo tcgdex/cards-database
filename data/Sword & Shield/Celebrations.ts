@@ -5,7 +5,12 @@ const set: Set = {
 	id: "cel25",
 
 	name: {
-		en: "Celebrations"
+		en: "Celebrations",
+		fr: "Célébrations",
+		es: "Celebraciones",
+		de: "Celebrations",
+		it: "Gran Festa",
+		pt: "Celebrações"
 	},
 
 	serie: serie,

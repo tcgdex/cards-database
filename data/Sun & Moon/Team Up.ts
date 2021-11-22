@@ -9,7 +9,8 @@ const sm9: Set = {
 		fr: "Duo de Choc",
 		es: "Union de Aliados",
 		it: "Gioco di Squadra",
-		de: "Teams Sind Trumpf"
+		de: "Teams Sind Trumpf",
+		pt: "União de Aliados"
 	},
 
 	serie: serie,

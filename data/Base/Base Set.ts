@@ -7,9 +7,10 @@ const base1: Set = {
 	name: {
 		en: "Base Set",
 		fr: "Set de Base",
-		es: "Base Set",
+		es: "Edición Básica",
 		it: "Set Base",
-		de: "Grundset"
+		de: "Grundset",
+		pt: "Coleção Básica"
 	},
 
 	serie: serie,

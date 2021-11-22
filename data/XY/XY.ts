@@ -9,7 +9,8 @@ const xy1: Set = {
 		fr: "XY",
 		es: "XY",
 		it: "XY",
-		de: "XY"
+		de: "XY",
+		pt: "XY"
 	},
 
 	serie: serie,

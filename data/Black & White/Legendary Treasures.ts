@@ -6,7 +6,8 @@ const bw11: Set = {
 
 	name: {
 		en: "Legendary Treasures",
-		fr: "Legendary Treasures"
+		fr: "Legendary Treasures",
+		pt: "Tesouros Lendários"
 	},
 
 	serie: serie,

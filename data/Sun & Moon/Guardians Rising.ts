@@ -9,7 +9,8 @@ const sm2: Set = {
 		fr: "Gardiens Ascendants",
 		es: "Albor de Guadianes",
 		it: "Guardiani Nascenti",
-		de: "Stunde der Wächter"
+		de: "Stunde der Wächter",
+		pt: "Guardiões Ascendentes"
 	},
 
 	serie: serie,
