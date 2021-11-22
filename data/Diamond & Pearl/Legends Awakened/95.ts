@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Gligar",
 		fr: "Scorplane",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		207,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,22 +53,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il chevauche les vents en tendant ses membres pour frapper depuis le ciel. Il vise toujours au visage."
+	}
 }
 
 export default card

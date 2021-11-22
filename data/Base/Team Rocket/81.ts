@@ -4,6 +4,7 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Full Heal Energy",
+		fr: "Énergie guérisseuse"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",

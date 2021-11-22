@@ -6,7 +6,10 @@ const exu: Set = {
 
 	name: {
 		en: "Unseen Forces Unown Collection",
-		fr: "Unseen Forces Unown Collection"
+		fr: "EX Forces Cachées Collection Zarbi",
+		es: "EX Fuerzas Ocultas Unown",
+		it: "EX Forze Segrete Unown",
+		de: "EX Verborgene Mächte Icognito"
 	},
 
 	serie: serie,

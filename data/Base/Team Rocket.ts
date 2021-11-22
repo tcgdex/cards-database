@@ -6,7 +6,9 @@ const base5: Set = {
 
 	name: {
 		en: "Team Rocket",
-		fr: "Team Rocket"
+		fr: "Team Rocket",
+		it: "Team Rocket",
+		de: "Team Rocket"
 	},
 
 	serie: serie,

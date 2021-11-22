@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Snow-cloud Castform",
+		fr: "Morpheo Neige"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Temperamental Weather",
+				fr: "Météo capricieuse"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for Castform, Rain Castform, or Sunny Castform and switch it with Snow-cloud Castform. (Any cards attached to Snow-cloud Castform, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Shuffle Snow-cloud Castform back into your deck. You can't use more than 1 Temperamental Weather Poké-Power each turn.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck Morpheo, Morpheo Pluie ou Morpheo Soleil et l'échanger avec Morpheo Neige. (Toutes les cartes attachées à Morpheo Neige, les marqueurs de dégât et les effets se trouvent maintenant sur le nouveau Pokémon.) Mélangez Morpheo Neige à votre deck. Vous ne pouvez pas utiliser plus d'1 Météo capricieuse par tour."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flurries",
+				fr: "Rafales"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -53,11 +58,13 @@ const card: Card = {
 			],
 			name: {
 				en: "White Snow",
+				fr: "Neige blanche"
 			},
 			effect: {
 				en: "If Magnetic Storm is in play, this attack does 50 damage plus 20 more damage.",
+				fr: "Si Tempête magnétique est en jeu, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

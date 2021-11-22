@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Lairon",
+		fr: "Galegon"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnitude",
+				fr: "Ampleur"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
 			},
 			damage: 20,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "One-Two Strike",
+				fr: "En deux coups"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				fr: "Lancez deux pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

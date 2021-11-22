@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Kyogre",
 		fr: "Kyogre",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		382,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -62,8 +65,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		fr: "On dit qu'il a fait monter les eaux en causant des pluies diluviennes. Il somnolait dans une fosse marine."
+	}
 }
 
 export default card

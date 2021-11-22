@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Drifblim",
 		fr: "Grodrive",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		426,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,18 +56,20 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
@@ -71,9 +77,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il somnole la journée et s'envole en grands groupes le soir venu. Nul ne sait où ils vont."
+	}
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Metal Energy",
+		fr: "Énergie Métal"
 	},
 	illustrator: undefined,
 	rarity: "Common",

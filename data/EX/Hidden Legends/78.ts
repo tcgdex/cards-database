@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Togepi",
+		fr: "Togepi"
 	},
 	illustrator: "Nakaoka",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleepy Song",
+				fr: "Chanson berçante"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
+				fr: "Chaque Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},

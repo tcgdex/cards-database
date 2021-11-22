@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Gliscor",
 		fr: "Scorvol",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		472,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Gligar",
 		fr: "Skorgla",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,26 +58,30 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
+	}
 }
 
 export default card

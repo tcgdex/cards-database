@@ -4,6 +4,7 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Potion Energy",
+		fr: "Énergie potion"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",

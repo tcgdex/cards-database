@@ -4,7 +4,10 @@ const set: Serie = {
 	id: "neo",
 	name: {
 		en: "Neo",
-		fr: "Neo"
+		fr: "Neo",
+		es: "Neo",
+		it: "Neo",
+		de: "Neo"
 	},
 }
 

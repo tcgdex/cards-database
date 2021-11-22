@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Cyclone Energy",
-		fr: "Cyclone Energy (special Energy)",
+		fr: "Énergie Cyclone"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Uncommon",

@@ -4,26 +4,30 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Steelix",
-		fr: "Steelix",
+		fr: "Steelix"
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 130,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -55,26 +59,30 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 100 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 100 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 100,
+			damage: "100×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	description: {
+		fr: "Grâce à la température élevée et la haute pression souterraine, son corps est plus dur que le métal."
+	}
 }
 
 export default card

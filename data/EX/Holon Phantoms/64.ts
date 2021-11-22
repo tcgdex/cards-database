@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Electrike",
+		fr: "Dynavolt"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				fr: "Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 

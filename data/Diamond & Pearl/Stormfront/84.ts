@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Energy Switch",
-		fr: "Energy Switch",
+		fr: "Échange d'Énergie"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",

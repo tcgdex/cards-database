@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Swellow",
 		fr: "Heledelle",
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		277,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Taillow",
 		fr: "Schwalbini",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,22 +61,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair."
+	}
 }
 
 export default card

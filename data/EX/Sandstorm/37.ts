@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Fearow",
+		fr: "Rapasdepic"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Wing Attack",
+				fr: "Double cru-aile"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
+				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rend",
+				fr: "Déchirure"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 20 more damage.",
+				fr: "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 50 dégâts."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

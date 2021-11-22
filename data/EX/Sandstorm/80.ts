@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Slakoth",
+		fr: "Parecool"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lazy Punch",
+				fr: "Ramollo-poing"
 			},
 			effect: {
 				en: "Slakoth can't attack during your next turn.",
+				fr: "Parecool ne peut pas attaquer lors de votre prochain tour."
 			},
 			damage: 10,
 

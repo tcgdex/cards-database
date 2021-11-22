@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Venonat",
+		fr: "Mimitoss"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Psycho Waves",
+				fr: "Psycho-vagues"
 			},
 			effect: {
 				en: "Discard an Energy card attached to Venonat. The Defending Pokémon is now Confused.",
+				fr: "Défaussez une carte Énergie attachée à Mimitoss. Le Pokémon Défenseur est maintenant Confus."
 			},
 
 		},
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				fr: "Morsure"
 			},
 
 			damage: 10,

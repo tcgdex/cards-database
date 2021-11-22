@@ -77,7 +77,7 @@ type Card {
 	name: String!
 	rarity: String!
 	regulationMark: String
-	resistances: [[WeakResListItem]]
+	resistances: [WeakResListItem]
 	retreat: Float
 	set: Set!
 	stage: String
@@ -85,7 +85,7 @@ type Card {
 	trainerType: String
 	types: [String]
 	variants: Variants
-	weaknesses: [[WeakResListItem]]
+	weaknesses: [WeakResListItem]
 }
 
 type AbilitiesListItem {

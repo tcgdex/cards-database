@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dusclops",
 		fr: "Teraclope",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		356,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Duskull",
 		fr: "Skélénox",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -52,28 +56,32 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc ne possédant pas de Coût de retraite. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc ne possédant pas de Coût de retraite. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
+	}
 }
 
 export default card

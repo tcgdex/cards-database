@@ -6,6 +6,9 @@ const neo2: Set = {
 
 	name: {
 		en: "Neo Discovery",
+		fr: "Neo Discovery",
+		it: "Neo Discovery",
+		de: "Neo Entdeckung"
 	},
 
 	serie: serie,

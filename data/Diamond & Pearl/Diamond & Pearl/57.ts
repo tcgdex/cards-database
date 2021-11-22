@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		274,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Seedot",
 		fr: "Grainipiot",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,22 +61,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Le son de sa flûte d'herbe déstabilise l'auditeur. Il vit au plus profond des forêts."
+	}
 }
 
 export default card

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Giratina",
 		fr: "Giratina",
 	},
+
 	illustrator: "Kazuaki Aihara",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		487,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,28 +53,32 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 50 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige  50 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
+				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	description: {
+		fr: "Un Pokémon censé vivre dans un monde à l'opposé du nôtre. Il apparaît dans un cimetière ancien."
+	}
 }
 
 export default card

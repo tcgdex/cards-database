@@ -4,22 +4,25 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Oddish",
+		fr: "Mystherbe"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		43,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
+				fr: "Poudre dodo"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -40,14 +45,16 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
+				fr: "Poudre toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-			},
-			damage: 10,
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+			}
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -55,10 +62,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Il vagabonde la nuit en semant ses graines pour créer d'autres Mystherbes."
+	}
 }
 
 export default card

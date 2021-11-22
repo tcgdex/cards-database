@@ -4,22 +4,25 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Zapdos",
+		fr: "Élector"
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		145,
 	],
+
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -31,9 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderstorm",
+				fr: "Orage"
 			},
 			effect: {
 				en: "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself.",
+				fr: "Pour chacun des Pokémon du Banc de votre adversaire, lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts au Pokémon concerné. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Ensuite, Élector s'inflige 10 dégâts pour chaque pile."
 			},
 			damage: 40,
 
@@ -47,9 +52,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs."
+	}
 }
 
 export default card

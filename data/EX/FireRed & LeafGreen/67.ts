@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise Attack",
+				fr: "Attaque surprise"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 10,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ascension",
+				fr: "Ascension"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Magikarp and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
+				fr: "Cherchez dans votre deck une carte qui évolue de Magicarpe et placez-la sur Magicarpe. (Vous faites ainsi évoluer Magicarpe.) Ensuite, mélangez votre deck."
 			},
 
 		},

@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Snorunt",
+		fr: "Stalgamin"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Powder Snow",
+				fr: "Poudreuse"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 

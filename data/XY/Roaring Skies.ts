@@ -9,7 +9,8 @@ const xy6: Set = {
 		fr: "Ciel Rugissant",
 		es: "Cielos Rugientes",
 		it: "Furie Volanti",
-		de: "Drachenleuchten"
+		de: "Drachenleuchten",
+		pt: "Céus Estrondosos"
 	},
 
 	serie: serie,

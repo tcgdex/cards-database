@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Metang",
+		fr: "Metang"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Boom",
+				fr: "Psycho-boom"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Blow",
+				fr: "Coup d'poing éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

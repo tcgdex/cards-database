@@ -4,6 +4,7 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Raikou",
+		fr: "Raikou"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Roar",
+				fr: "Hurlement"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				fr: "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange contre le Pokémon Défenseur."
 			},
 
 		},
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder",
+				fr: "Fatal-Foudre"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Raikou does 20 damage to itself.",
+				fr: "Lancez une pièce. Si c'est pile, Raikou s'inflige 20 dégâts."
 			},
 			damage: 50,
 

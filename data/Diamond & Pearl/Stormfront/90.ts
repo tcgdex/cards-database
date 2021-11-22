@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Poké Healer +",
-		fr: "Poké Healer +",
+		fr: "Poké Guérison +"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",

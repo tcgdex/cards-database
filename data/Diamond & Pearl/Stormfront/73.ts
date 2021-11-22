@@ -4,25 +4,29 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Skorupi",
-		fr: "Skorupi",
+		fr: "Rapion"
 	},
+
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		451,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		fr: "Rapion",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -66,8 +71,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
+	}
 }
 
 export default card

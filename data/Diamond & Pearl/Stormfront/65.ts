@@ -4,25 +4,29 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Magikarp",
-		fr: "Magikarp",
+		fr: "Magicarpe"
 	},
+
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		129,
 	],
+
 	hp: 30,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		fr: "Magicarpe",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -50,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -59,8 +64,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
+	}
 }
 
 export default card

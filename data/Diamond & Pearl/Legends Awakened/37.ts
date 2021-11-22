@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Regigigas",
 		fr: "Regigigas",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		486,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,10 +53,11 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires et inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -62,8 +67,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	description: {
+		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
+	}
 }
 
 export default card

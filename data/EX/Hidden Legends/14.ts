@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Shiftry",
+		fr: "Tengalice"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Push Aside",
+				fr: "Pousser de côté"
 			},
 			effect: {
 				en: "Look at your opponent's hand and choose 1 Basic Pokémon or Evolution card you find there. Your opponent puts it at the bottom of his or her deck.",
+				fr: "Regardez la main de votre adversaire et choisissez 1 Pokémon de base ou une carte Évolution. Votre adversaire place cette carte au dessous de son deck."
 			},
 			damage: 30,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Supernatural Power",
+				fr: "Extrasenseur"
 			},
 			effect: {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.",
+				fr: "Si vous possédez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

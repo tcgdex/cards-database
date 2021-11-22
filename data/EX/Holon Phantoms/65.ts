@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Exeggcute δ",
+		fr: "Noeunoeuf δ ESPÈCES DELTA"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
+				fr: "Roulade"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pebble Throw",
+				fr: "Jet de caillou"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 
 		},

@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Pidgeotto δ",
+		fr: "Roucoups δ ESPÈCES DELTA"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlwind",
+				fr: "Cyclone"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
 			},
 			damage: 30,
 

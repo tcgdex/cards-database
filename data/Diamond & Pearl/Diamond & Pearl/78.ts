@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Cleffa",
 		fr: "Melo",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		173,
 	],
+
 	hp: 40,
+
 	types: [
 		"Colorless",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -48,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -57,8 +62,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Sa silhouette rappelle une étoile. On dit qu'il descend sur terre en chevauchant une étoile filante."
+	}
 }
 
 export default card

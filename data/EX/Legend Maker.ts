@@ -6,7 +6,9 @@ const ex12: Set = {
 
 	name: {
 		en: "Legend Maker",
-		fr: "Legend Maker"
+		fr: "EX Créateurs de légendes",
+		de: "EX Legend Maker",
+		it: "EX La Leggenda di Mew"
 	},
 
 	serie: serie,

@@ -4,6 +4,7 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Beautifly",
+		fr: "Charmillon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
+				fr: "Pâté"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Beautifly.",
+				fr: "Retirez à Charmillon 1 marqueur de dégât."
 			},
 			damage: 30,
 
@@ -50,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlwind",
+				fr: "Cyclone"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
 			},
 			damage: 40,
 

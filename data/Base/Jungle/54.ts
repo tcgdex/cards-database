@@ -4,22 +4,25 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		39,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lullaby",
+				fr: "Comptine"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -41,18 +46,21 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
+				fr: "Écras'face"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -60,9 +68,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
+	}
 }
 
 export default card

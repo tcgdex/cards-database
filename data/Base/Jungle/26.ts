@@ -4,22 +4,25 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Scyther",
+		fr: "Insécateur"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		123,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Swords Dance",
+				fr: "Danse-lames"
 			},
 			effect: {
 				en: "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.",
+				fr: "Pendant votre prochain tour, l'attaque Tranche d'Insécateur inflige 60 dégâts de base au lieu de 30."
 			},
 
 		},
@@ -42,18 +47,21 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -61,9 +69,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe."
+	}
 }
 
 export default card

@@ -9,7 +9,8 @@ const bw9: Set = {
 		fr: "Glaciation Plasma",
 		es: "Glaciación Plasma",
 		it: "Glaciazione Plasma",
-		de: "Plasma-Frost"
+		de: "Plasma-Frost",
+		pt: "Congelamento de Plasma"
 	},
 
 	serie: serie,

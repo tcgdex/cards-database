@@ -6,7 +6,11 @@ const base1: Set = {
 
 	name: {
 		en: "Base Set",
-		fr: "Set de Base"
+		fr: "Set de Base",
+		es: "Edición Básica",
+		it: "Set Base",
+		de: "Grundset",
+		pt: "Coleção Básica"
 	},
 
 	serie: serie,

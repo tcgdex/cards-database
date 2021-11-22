@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Metang",
+		fr: "Metang"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Levitate",
+				fr: "Lévitation"
 			},
 			effect: {
 				en: "If Metang has any Energy attached to it, Metang's Retreat Cost is 0.",
+				fr: "Si Metang possède des Énergies, son Coût de Retraite est de 0."
 			},
 		},
 	],
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,

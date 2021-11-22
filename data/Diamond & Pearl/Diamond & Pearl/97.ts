@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Seedot",
 		fr: "Grainipiot",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		273,
 	],
+
 	hp: 50,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,22 +53,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il ressemble à un gland pendu à une branche. Il adore effrayer les autres Pokémon."
+	}
 }
 
 export default card

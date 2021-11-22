@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Politoed",
 		fr: "Tarpaud",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		186,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Quaputzi",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -51,10 +57,11 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -64,8 +71,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il rassemble ses pairs pour les commander. Il utilise son cri pour diriger Ptitard."
+	}
 }
 
 export default card

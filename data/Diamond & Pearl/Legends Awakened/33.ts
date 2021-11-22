@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Lopunny",
 		fr: "Lockpin",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		428,
 	],
+
 	hp: 80,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Buneary",
 		fr: "Haspiror",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -63,10 +69,11 @@ const card: Card = {
 				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -76,8 +83,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger."
+	}
 }
 
 export default card

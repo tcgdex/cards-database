@@ -9,7 +9,8 @@ const xy8: Set = {
 		fr: "Impulsion Turbo",
 		es: "Turbo Impulso",
 		it: "Turbo Blitz",
-		de: "TURBOstart"
+		de: "TURBOstart",
+		pt: "Turbo Revolução"
 	},
 
 	serie: serie,

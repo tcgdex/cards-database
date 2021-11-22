@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Shroomish",
+		fr: "Balignon"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
+				fr: "Poudre dodo"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 

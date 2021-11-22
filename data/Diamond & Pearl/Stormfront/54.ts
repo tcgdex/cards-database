@@ -4,25 +4,29 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Bidoof",
-		fr: "Bidoof",
+		fr: "Keunotor"
 	},
+
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		399,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		fr: "Keunotor",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,8 +68,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il y paraît."
+	}
 }
 
 export default card

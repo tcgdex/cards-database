@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Glameow",
 		fr: "Chaglam",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		431,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il griffe quand il est en colère et ronronne quand il est heureux. Certains aiment ce côté lunatique."
+	}
 }
 
 export default card

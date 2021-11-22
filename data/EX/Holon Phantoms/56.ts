@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Wobbuffet",
+		fr: "Qulbutoké"
 	},
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Friends",
+				fr: "À la rescousse!"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				fr: "Choisissez dans votre deck jusqu'à 2 Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Retaliate",
+				fr: "Représailles"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Wobbuffet.",
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Qulbutoké."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

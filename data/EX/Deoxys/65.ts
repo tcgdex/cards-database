@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Makuhita",
+		fr: "Makuhita"
 	},
 	illustrator: "Asuka Iwashita",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thrust",
+				fr: "Coup d'pouce"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, discard 1 Energy card attached to the Defending Pokémon.",
+				fr: "Lancez une pièce. Si c'est pile. Cette attaque est sans effet. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 10,
 
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Lunge",
+				fr: "Botte secrète"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

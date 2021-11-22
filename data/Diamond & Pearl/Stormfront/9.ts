@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Regigigas",
-		fr: "Regigigas",
+		fr: "Regigigas"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -65,7 +65,7 @@ const card: Card = {
 				en: "You may do 60 damage plus 40 more damage. If you do, Regigigas does 40 damage to itself.",
 				fr: "Vous pouvez infliger 60 dégâts plus 40 dégâts supplémentaires. Regigigas s'inflige alors 40 dégâts.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

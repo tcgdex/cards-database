@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Wynaut",
 		fr: "Okéoké",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		360,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -48,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -57,8 +62,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il se muscle en bousculant ses semblables lors de mêlées. Il raffole des fruits sucrés."
+	}
 }
 
 export default card

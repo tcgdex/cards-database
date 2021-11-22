@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Nuzleaf",
+		fr: "Pifeuil"
 	},
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
+				fr: "Écras'face"
 			},
 
 			damage: 20,
@@ -42,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Plunder",
+				fr: "Pillage"
 			},
 			effect: {
 				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
+				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur."
 			},
 			damage: 30,
 

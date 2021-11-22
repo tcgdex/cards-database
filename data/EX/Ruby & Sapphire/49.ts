@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Aron",
+		fr: "Galekid"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Teary Eyes",
+				fr: "Des larmes dans les yeux"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Aron by attacks is reduced by 10.",
+				fr: "Pendant le prochain tour de votre adversaire, les dégâts infligés à Galekid sont réduits de 10."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Charge"
 			},
 
 			damage: 20,

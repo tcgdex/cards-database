@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Dusknoir",
 		fr: "Noctunoir",
 	},
+
 	illustrator: "Takabon",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		477,
 	],
+
 	hp: 120,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Dusclops",
 		fr: "Teraclope",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -55,22 +61,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	description: {
+		fr: "L'antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d'y porter des gens."
+	}
 }
 
 export default card

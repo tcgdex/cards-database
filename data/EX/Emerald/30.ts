@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Grumpig",
+		fr: "Groret"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -30,11 +31,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Snap Tail",
+				fr: "Claquement de queue"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			},
-			damage: 10,
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			}
 
 		},
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Psypunch",
+				fr: "Coup de poing psy"
 			},
 
 			damage: 40,

@@ -6,7 +6,8 @@ const set: Serie = {
 		en: "Call of Legends",
 		fr: "L'appel des Légendes",
 		it: "Richiamo delle Leggende",
-		de: "Ruf der Legenden"
+		de: "Ruf der Legenden",
+		pt: "Chamado das Lendas"
 	},
 }
 

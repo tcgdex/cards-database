@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Marill",
 		fr: "Marill",
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		183,
 	],
+
 	hp: 60,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -35,7 +37,7 @@ const card: Card = {
 				en: "If Marill is evolved from Azurill, this attack does 10 damage plus 20 more damage.",
 				fr: "Si Marill évolue d'Azurill, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -64,8 +67,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il plonge sous l'eau en utilisant sa queue comme un flotteur. Il aime les plantes du fond des rivières."
+	}
 }
 
 export default card

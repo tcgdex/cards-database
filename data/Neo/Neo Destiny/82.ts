@@ -4,22 +4,25 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Slugma",
+		fr: "Limagma"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		218,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -29,12 +32,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 30,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -42,10 +47,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "On voit souvent ce Pokémon ramper dans les régions volcaniques."
+	}
 }
 
 export default card

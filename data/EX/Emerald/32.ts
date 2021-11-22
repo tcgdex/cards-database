@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Illumise",
+		fr: "Lumivole"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collectionner"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,

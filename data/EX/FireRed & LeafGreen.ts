@@ -6,7 +6,9 @@ const ex6: Set = {
 
 	name: {
 		en: "FireRed & LeafGreen",
-		fr: "FireRed & LeafGreen"
+		fr: "EX Rouge Feu & Vert Feuille",
+		it: "EX RossoFuoco e VerdeFoglia",
+		de: "EX Feuerrot & Blattgrün"
 	},
 
 	serie: serie,

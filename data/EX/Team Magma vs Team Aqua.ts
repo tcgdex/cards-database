@@ -6,7 +6,9 @@ const ex4: Set = {
 
 	name: {
 		en: "Team Magma vs Team Aqua",
-		fr: "Team Magma vs Team Aqua"
+		fr: "EX Team Magma vs Team Aqua",
+		it: "EX Team Magma vs Team Idro",
+		de: "EX Team Magma vs Team Aqua"
 	},
 
 	serie: serie,

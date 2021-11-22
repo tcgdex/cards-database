@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Carnivine",
 		fr: "Vortente",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		455,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,22 +58,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il attire sa proie avec sa salive odorante avant de la croquer. Il lui faut une journée pour l'avaler."
+	}
 }
 
 export default card

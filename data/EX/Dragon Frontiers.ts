@@ -6,7 +6,9 @@ const ex15: Set = {
 
 	name: {
 		en: "Dragon Frontiers",
-		fr: "Dragon Frontiers"
+		fr: "EX Île des Dragons",
+		it: "EX L'Isola dei Draghi",
+		de: "EX Dragon Frontiers"
 	},
 
 	serie: serie,

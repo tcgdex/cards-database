@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Ralts",
+		fr: "Tarsal"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnosis",
+				fr: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -40,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Boom",
+				fr: "Psycho-boom"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
+				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Défenseur."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],

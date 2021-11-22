@@ -4,6 +4,7 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Jolteon",
+		fr: "Voltali"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				fr: "Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -50,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pin Missile",
+				fr: "Dard-nuée"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
 			},
 			damage: "20×",
 

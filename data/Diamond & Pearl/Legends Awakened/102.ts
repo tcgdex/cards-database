@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Horsea",
 		fr: "Hypotrempe",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		116,
 	],
+
 	hp: 50,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -62,8 +65,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il niche à l'ombre du corail. Quand il se sent menacé, il disparaît dans un nuage d'encre opaque."
+	}
 }
 
 export default card

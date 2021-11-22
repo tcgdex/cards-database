@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Roserade",
-		fr: "Roserade",
+		fr: "Roserade"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Roserade is your Active Pokémon and is damaged by an opponent's attack (even if Roserade is Knocked Out), the Defending Pokémon is now Poisoned.",
-				fr: "Si Roserade est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Roserade est mis K.O), le Pokémon Attaquant est maintenant Empoisonné.",
+				fr: "Si Roserade est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Roserade est K.O), le Pokémon Attaquant est maintenant Empoisonné.",
 			},
 		},
 	],
@@ -67,7 +67,7 @@ const card: Card = {
 				en: "If the Defending Pokémon is Poisoned, this attack does 50 damage plus 30 more damage.",
 				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

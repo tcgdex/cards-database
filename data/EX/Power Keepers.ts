@@ -6,7 +6,8 @@ const ex16: Set = {
 
 	name: {
 		en: "Power Keepers",
-		fr: "Power Keepers"
+		fr: "EX Gardiens du Pouvoir",
+		de: "EX Power Keepers"
 	},
 
 	serie: serie,

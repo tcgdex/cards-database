@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have any Metal Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
-				fr: "Si votre Pokémon Actif possède des Énergies (M), son Coût de retraite est de 0.",
+				fr: "Si votre Pokémon Actif possède des Énergies Metal, son Coût de retraite est de 0.",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 				en: "Does 50 damage plus 10 more damage for each Metal Energy attached to Magnezone.",
 				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Metal attachée à Magnézone.",
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

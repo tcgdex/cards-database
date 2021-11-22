@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Quilava",
+		fr: "Feurisson"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Smokescreen",
+				fr: "Brouillard"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 20,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 40,

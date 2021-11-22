@@ -4,26 +4,30 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Staravia",
-		fr: "Staravia",
+		fr: "Etourvol"
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		397,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Starly",
 		fr: "Etourmi",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -70,9 +76,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il survole les forêts et les champs en quête de Pokémon insectes. Ils forment de grandes volées."
+	}
 }
 
 export default card

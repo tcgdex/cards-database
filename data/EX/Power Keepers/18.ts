@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Mightyena",
+		fr: "Grahyena"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Plunder",
+				fr: "Pillage"
 			},
 			effect: {
 				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
+				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur."
 			},
 			damage: 30,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Burst",
+				fr: "Explosion obscure"
 			},
 			effect: {
 				en: "If Sidney's Stadium is in play, this attack does 50 damage plus 20 more damage.",
+				fr: "Si Stade de Damien est en jeu, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

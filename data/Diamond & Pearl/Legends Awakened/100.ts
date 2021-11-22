@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Hitmonlee",
 		fr: "Kicklee",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		106,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Ses pattes élastiques s'allongent, ce qui ne manque jamais de surprendre au premier combat."
+	}
 }
 
 export default card

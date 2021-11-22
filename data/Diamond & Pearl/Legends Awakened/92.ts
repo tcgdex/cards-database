@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Drifloon",
 		fr: "Baudrive",
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		425,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,22 +54,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides."
+	}
 }
 
 export default card

@@ -19,10 +19,10 @@ body:
       label: What seems to be the issue
       description: Select the types of data that seems to be causing issues
       options:
-        - label: Card
-        - label: Set
-        - label: Serie
-        - label: Other
+        - Card
+        - Set
+        - Serie
+        - Other
   - type: input
     id: fields
     attributes:

@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Shroomish",
+		fr: "Balignon"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Growth Spurt",
+				fr: "Jaillissement"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Shroomish.",
+				fr: "Attachez à Balignon une carte Énergie  de votre main."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
+				fr: "Poudre Toxik"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 10,
 

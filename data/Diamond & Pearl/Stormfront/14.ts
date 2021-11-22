@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Cherrim",
-		fr: "Cherrim",
+		fr: "Ceriflor"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Rare",
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Each of your Grass Pokémon and Fire Pokémon's attacks does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Chacune des attaques de vos Pokémon Grass et Fire inflige 10 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				fr: "Chacune des attaques de vos Pokémon Grass et Fire inflige 10 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance.",
 			},
 		},
 	],

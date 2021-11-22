@@ -9,7 +9,8 @@ const sm4: Set = {
 		fr: "Invasion Carmin",
 		es: "Invasión Carmesí",
 		it: "Invasione Scarlatta",
-		de: "Aufziehen der Sturmröte"
+		de: "Aufziehen der Sturmröte",
+		pt: "Invasão Carmim"
 	},
 
 	serie: serie,

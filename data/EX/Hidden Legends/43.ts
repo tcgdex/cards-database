@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Metang",
+		fr: "Metang"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Psyshock",
+				fr: "Choc psy"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Ball",
+				fr: "Boule métallique"
 			},
 			effect: {
 				en: "Put 5 damage counters on the Defending Pokémon.",
+				fr: "Placez 5 marqueurs de dégât sur le Pokémon Défenseur."
 			},
 
 		},

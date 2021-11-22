@@ -4,6 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Tentacool",
+		fr: "Tentacool"
 	},
 	illustrator: "Tomoaki Imakuni",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Sting",
+				fr: "Dard-venin"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 
 		},

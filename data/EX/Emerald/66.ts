@@ -4,6 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Spoink",
+		fr: "Spoink"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lunge",
+				fr: "Coup rapide"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 20,
 

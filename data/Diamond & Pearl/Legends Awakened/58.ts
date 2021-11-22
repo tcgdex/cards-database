@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Lanturn",
 		fr: "Lanturn",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		171,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Lampi",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,8 +73,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "La lumière de LANTURN surgit des profondeurs. On le surnomme \"étoile des profondeurs\"."
+	}
 }
 
 export default card

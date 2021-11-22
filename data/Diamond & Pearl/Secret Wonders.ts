@@ -8,7 +8,9 @@ const dp3: Set = {
 		en: "Secret Wonders",
 		fr: "Merveilles Secrètes",
 		es: "Maravillas Secretas",
-		it: "Prodigi Segreti"
+		it: "Prodigi Segreti",
+		de: "Rätselhafte Wunder",
+		pt: "Maravilhas Secretas"
 	},
 
 	serie: serie,

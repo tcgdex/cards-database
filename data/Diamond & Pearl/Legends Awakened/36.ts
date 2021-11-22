@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Regice",
 		fr: "Regice",
 	},
+
 	illustrator: "Kazuaki Aihara",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		378,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -53,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -62,8 +67,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		fr: "Son corps est fait de glace datant de l'ère glaciaire. Il contrôle un air gelé de -200 °C."
+	}
 }
 
 export default card

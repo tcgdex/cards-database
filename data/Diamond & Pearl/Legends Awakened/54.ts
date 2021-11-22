@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Exeggutor",
 		fr: "Noadkoko",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		103,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Owei",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -50,10 +54,11 @@ const card: Card = {
 				en: "Discard as many Energy cards as you like attached to your Pokémon. For each Energy card you discarded, flip a coin. This attack does 50 damage times the number of heads.",
 				fr: "Défaussez autant de cartes Énergie attachées à votre Pokémon que vous le voulez. Pour chaque carte Énergie défaussée, lancez une pièce. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 50,
+			damage: "50×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +68,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "On l'appelle \"jungle sur pattes\". Si une tête devient trop grosse, elle tombe et produit un NOEUNOEUF."
+	}
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Mankey",
+		fr: "Férosinge"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mischief",
+				fr: "Espièglerie"
 			},
 			effect: {
 				en: "Shuffle your opponent's deck.",
+				fr: "Mélangez le deck de votre adversaire."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Light Punch",
+				fr: "Poing léger"
 			},
 
 			damage: 30,

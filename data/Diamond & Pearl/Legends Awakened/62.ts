@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Luxio",
 		fr: "Luxio",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		404,
 	],
+
 	hp: 80,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Shinx",
 		fr: "Sheinux",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -37,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts  à  1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 30,
 
@@ -60,22 +64,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes."
+	}
 }
 
 export default card

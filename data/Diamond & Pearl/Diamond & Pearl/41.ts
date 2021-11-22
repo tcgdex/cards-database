@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Wobbuffet",
 		fr: "Qulbutoké",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		202,
 	],
+
 	hp: 80,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -39,6 +41,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -48,8 +51,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		fr: "Il cherche désespérément à cacher sa queue noire. Certains pensent qu'elle renferme un secret."
+	}
 }
 
 export default card

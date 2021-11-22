@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Poochyena",
+		fr: "Medhyena de Team Aqua"
 	},
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Common",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Scratch",
+				fr: "Double écorchure"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
+				fr: "Coud'keu"
 			},
 
 			damage: 20,

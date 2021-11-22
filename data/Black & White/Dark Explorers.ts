@@ -8,7 +8,9 @@ const bw5: Set = {
 		en: "Dark Explorers",
 		fr: "Explorateurs Obscurs",
 		it: "Esploratori delle Tenebre",
-		de: "Erfoscher der Finsternis"
+		de: "Erfoscher der Finsternis",
+		es: "Oscuros Exploradores",
+		pt: "Exploradores da Escuridão"
 	},
 
 	serie: serie,

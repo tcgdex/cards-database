@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Dragonair",
 		fr: "Draco",
 	},
+
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		148,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Dratini",
 		fr: "Minidraco",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -56,10 +60,11 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Colorless",
@@ -69,8 +74,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "La météo change brusquement lorsqu'il est entouré d'une aura. On dit qu'il peuple les mers et les lacs."
+	}
 }
 
 export default card

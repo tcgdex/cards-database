@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Scyther",
+		fr: "Insécateur"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Twin Play",
+				fr: "Duo"
 			},
 			effect: {
 				en: "Search your deck for up to 2 in any combination of Scyther and Scyther ex and put them onto your Bench. Shuffle your deck afterward.",
+				fr: "Choisissez dans votre deck jusqu'à 2 Insécateur et Insécateur ex, dans n'importe quelle combinaison, et placez-les sur votre Banc. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
+				fr: "Hâte"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Insécateur lors du prochain tour de votre adversaire."
 			},
 			damage: 20,
 

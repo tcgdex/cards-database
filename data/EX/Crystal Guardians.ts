@@ -6,7 +6,9 @@ const ex14: Set = {
 
 	name: {
 		en: "Crystal Guardians",
-		fr: "Crystal Guardians"
+		fr: "EX Gardiens de Cristal",
+		de: "EX Crystal Guardians",
+		it: "EX Guardiani dei Cristalli"
 	},
 
 	serie: serie,

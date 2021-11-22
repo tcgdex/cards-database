@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Vibrava",
+		fr: "Vibraninf"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dive",
+				fr: "Plongée"
 			},
 
 			damage: 20,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Turn",
+				fr: "Vif retournement"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces."
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],

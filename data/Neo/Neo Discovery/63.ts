@@ -4,22 +4,25 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Sentret",
+		fr: "Fouinette"
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		161,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Scout",
+				fr: "Espion"
 			},
 			effect: {
 				en: "Look at your opponent's hand.",
+				fr: "Regardez la main de votre adversaire."
 			},
 
 		},
@@ -41,18 +46,21 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -60,9 +68,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il se tient dressé sur sa queue pour voir les ennemis arriver de loin. A ce moment, il avertit ses amis."
+	}
 }
 
 export default card

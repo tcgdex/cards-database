@@ -4,6 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Hitmonlee",
+		fr: "Kicklee"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Stages of Evolution",
+				fr: "Niveaux d'Évolution"
 			},
 			effect: {
 				en: "As long as Hitmonlee is an Evolved Pokémon, Hitmonlee's attacks do 20 more damage to your opponent's Pokémon (before applying Weakness and Resistance).",
+				fr: "Tant que Kicklee est un Pokémon Évolué, ses attaques infligent 20 dégâts supplémentaires aux Pokémon de votre adversaire (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stretch Kick",
+				fr: "Allonge"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -52,6 +57,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Kick",
+				fr: "Ultimawashi"
 			},
 			effect: {
 				en: "n/a",

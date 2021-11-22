@@ -4,6 +4,7 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Flareon",
+		fr: "Pyroli"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				fr: "Vive-attaque"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -50,9 +53,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Spin",
+				fr: "Danseflamme"
 			},
 			effect: {
 				en: "Discard 2 basic Energy cards attached to Flareon or this attack does nothing.",
+				fr: "Défaussez 2 cartes Énergie de base attachées à Pyroli ou cette attaque est sans effet."
 			},
 			damage: 70,
 

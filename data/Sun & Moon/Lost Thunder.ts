@@ -10,6 +10,7 @@ const sm8: Set = {
 		es: "Truenos Perdidos",
 		it: "Tuoni Perduti",
 		de: "Echo des Donners",
+		pt: "Trovões Perdidos"
 	},
 
 	serie: serie,

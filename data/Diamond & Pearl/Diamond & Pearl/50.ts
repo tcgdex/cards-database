@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Haunter",
 		fr: "Spectrum",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		93,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -57,12 +61,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
@@ -70,9 +76,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis."
+	}
 }
 
 export default card

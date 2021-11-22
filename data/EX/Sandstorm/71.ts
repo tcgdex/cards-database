@@ -4,6 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Onix",
+		fr: "Onix"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bind",
+				fr: "Étreinte"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
+				fr: "Frénésie"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Onix.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Onix."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

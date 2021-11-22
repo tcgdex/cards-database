@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Mime Jr.",
 		fr: "Mime Jr.",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		439,
 	],
+
 	hp: 40,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -50,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -59,8 +64,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il imite ses ennemis. Une fois imités, ils ne peuvent plus quitter ce Pokémon des yeux."
+	}
 }
 
 export default card

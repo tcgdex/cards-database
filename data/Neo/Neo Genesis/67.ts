@@ -4,22 +4,25 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Natu",
+		fr: "Natu"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		177,
 	],
+
 	hp: 30,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
+				fr: "Koud'bec"
 			},
 
 			damage: 10,
@@ -40,20 +44,22 @@ const card: Card = {
 			],
 			name: {
 				en: "Telekinesis",
+				fr: "Télékinésie"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
-			},
-			damage: 20,
-
+				fr: "Choisissez l'un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. Ne pas appliquer la Faiblesse et la Résistance à cette attaque. (Tout autre effet ou attaque qui survient après application de la Faiblesse et de la Résistance est toujours valide.)"
+			}
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -61,9 +67,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Comme ses ailes ne sont pas complètement développées, il doit sauter pour se déplacer. Il observe toujours quelque chose."
+	}
 }
 
 export default card

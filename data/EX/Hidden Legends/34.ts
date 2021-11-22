@@ -4,6 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Glalie",
+		fr: "Oniglali"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Ice Wall",
+				fr: "Mur de glace"
 			},
 			effect: {
 				en: "Any damage done to Glalie by attacks from your opponent's Pokémon with any Special Energy cards attached to it is reduced by 40 (after applying Weakness and Resistance).",
+				fr: "Tous dégâts infligés à Oniglali par des attaques de Pokémon de votre adversaire possédant des Énergies Spéciales sont réduits de 40 (après application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Blizzard",
+				fr: "Gros blizzard"
 			},
 			effect: {
 				en: "Flip a coin. If heads, put 1 damage counter on each of your opponent's Benched Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, placez 1 marqueur de dégât sur chacun des Pokémon de Banc de votre adversaire."
 			},
 			damage: 50,
 

@@ -5,7 +5,7 @@ const lc: Set = {
 	id: "lc",
 
 	name: {
-		en: "Legendary Collection",
+		en: "Legendary Collection"
 	},
 
 	serie: serie,

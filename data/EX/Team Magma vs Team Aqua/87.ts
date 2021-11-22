@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Magma Energy",
+		fr: "Énergie Magma"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Uncommon",

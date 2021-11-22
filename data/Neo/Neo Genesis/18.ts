@@ -4,35 +4,44 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Typhlosion",
+		fr: "Typhlosion"
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		157,
 	],
+
 	hp: 100,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Quilava",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
 				en: "Fire Boost",
+				fr: "Attise feu"
 			},
 			effect: {
 				en: "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 Fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward.",
+				fr: "Lorsque vous jouez Typhlosion depuis votre main, vous pouvez lancer une pièce. Si c'est face, cherchez jusqu'à 4 cartes Énergie  et attachez-les à Typhlosion. Mélangez ensuite votre deck."
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -43,14 +52,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Wheel",
+				fr: "Roue de flammes"
 			},
 			effect: {
 				en: "Discard 3 Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Défaussez 3 cartes Énergie  attachées à Typhlosion afin de pouvoir utiliser cette attaque. Inflige 20 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
 			},
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -58,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Il possède une botte secrète dévastatrice. Il frotte sa fourrure de flamme pour provoquer de gigantesques explosions."
+	}
 }
 
 export default card

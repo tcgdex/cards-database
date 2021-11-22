@@ -10,6 +10,7 @@ const sm115: Set = {
 		es: "Destinos Ocultos",
 		it: "Destino Sfuggente",
 		de: "Verborgenes Schicksal",
+		pt: "Destinos Ocultos"
 	},
 
 	serie: serie,

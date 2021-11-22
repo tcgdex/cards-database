@@ -4,6 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Lotad",
+		fr: "Nenupiot"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rain Splash",
+				fr: "Pluie éclaboussante"
 			},
 
 			damage: 10,
@@ -40,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Wave",
+				fr: "Aqua-vague"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

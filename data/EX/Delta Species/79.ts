@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Poochyena",
+		fr: "Medhyena"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Roar",
+				fr: "Hurlement"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ambush",
+				fr: "Embuscade"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

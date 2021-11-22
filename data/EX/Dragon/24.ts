@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Camerupt",
+		fr: "Camerupt"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Singe",
+				fr: "Ça sent le roussi !"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				fr: "Lancez une pièce. Si c'est face, Le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 20,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				fr: "Collision"
 			},
 
 			damage: 50,

@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Togepi δ",
+		fr: "Togepi δ ESPÈCES DELTA"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Charm",
+				fr: "Charme"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
 			},
 
 		},

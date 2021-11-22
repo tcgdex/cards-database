@@ -8,7 +8,8 @@ const hgss3: Set = {
 		en: "Undaunted",
 		fr: "Indomptable",
 		it: "Senza Paura",
-		de: "Unerschrocken"
+		de: "Unerschrocken",
+		pt: "Destemido"
 	},
 
 	serie: serie,

@@ -4,6 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Kakuna",
+		fr: "Coconfort"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fast Evolution",
+				fr: "Évolution fulgurante"
 			},
 			effect: {
 				en: "Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				fr: "Cherchez dans votre deck une carte Évolution, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
+				fr: "Roulade"
 			},
 
 			damage: 30,

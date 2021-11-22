@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Bidoof",
 		fr: "Keunotor",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		399,
 	],
+
 	hp: 50,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,8 +64,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il n'y paraît."
+	}
 }
 
 export default card

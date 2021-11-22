@@ -6,8 +6,8 @@ const s2017sm: Set = {
 
 	name: {
 		en: "Macdonald's Collection 2017",
-		fr: "Collection Macdonald 2017"
-,
+		fr: "Promo McDonald's 2017",
+		it: "McDonald's Collection 2017",
 	},
 
 	serie: serie,

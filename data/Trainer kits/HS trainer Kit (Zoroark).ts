@@ -6,8 +6,8 @@ const set: Set = {
 
 	name: {
 		en: "HS trainer Kit (Zoroark)",
-		fr: "HS Kit du dresseur (Zoroark)"
-,
+		fr: "HS Kit du dresseur (Zoroark)",
+		es: "Kit de Entrenador XY (Pikachu Enmascarada)",
 	},
 
 	serie: serie,

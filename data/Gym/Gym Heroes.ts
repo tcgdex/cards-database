@@ -5,8 +5,7 @@ const gym1: Set = {
 	id: "gym1",
 
 	name: {
-		en: "Gym Heroes",
-		fr: "Gym Heroes"
+		en: "Gym Heroes"
 	},
 
 	serie: serie,

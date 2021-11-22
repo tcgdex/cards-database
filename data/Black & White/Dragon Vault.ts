@@ -6,7 +6,11 @@ const dv1: Set = {
 
 	name: {
 		en: "Dragon Vault",
-		fr: "Coffre des Dragons"
+		fr: "Coffre des Dragons",
+		it: "Tesoro dei Draghi",
+		de: "Drachengruft",
+		es: "Tesoro de Dragones", // NOTE: only went in the TCGO
+		pt: "Cofre do Dragão"
 	},
 
 	serie: serie,

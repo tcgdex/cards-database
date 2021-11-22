@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Deoxys Normal Forme",
 		fr: "Deoxys Forme Normale",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		386,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,10 +52,11 @@ const card: Card = {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -61,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il vient d'un virus extraterrestre arrivé avec une météorite et ayant subi une mutation génétique."
+	}
 }
 
 export default card

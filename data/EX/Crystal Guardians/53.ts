@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Jigglypuff",
+		fr: "Rondoudou"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnoblast",
+				fr: "Hypnoblast"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 

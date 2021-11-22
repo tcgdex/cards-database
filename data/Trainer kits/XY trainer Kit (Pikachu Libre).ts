@@ -6,8 +6,9 @@ const set: Set = {
 
 	name: {
 		en: "XY trainer Kit (Pikachu Libre)",
-		fr: "XY Kit du dresseur (Pikachu Libre)"
-,
+		it: "XY trainer Kit (Pikachu Libre)",
+		fr: "XY Kit du dresseur (Pikachu Libre)",
+		es: "Kit de Entrenador XY (Pikachu Enmascarada)",
 	},
 
 	serie: serie,

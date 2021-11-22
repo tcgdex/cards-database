@@ -4,6 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Chinchou",
+		fr: "Loupio"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Positive Ion",
+				fr: "Ion positif"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Negative Ion",
+				fr: "Ion négatif"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance).",
+				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: 10,
 

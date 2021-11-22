@@ -50,17 +50,7 @@ const card: Card = {
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Pingoléon ne peut pas attaquer lors de votre prochain tour.",
 			},
 
-		},
-		{
-
-			name: {
-				fr: "Level-Up Rule",
-			},
-			effect: {
-				fr: "Placez cette carte sur votre Pingoléon Actif. Pingoléon LV X peut utiliser n'importe quel (le) attaque, Poké-Power ou Poké-Body de son Niveau précédent.",
-			},
-
-		},
+		}
 	],
 	weaknesses: [
 		{

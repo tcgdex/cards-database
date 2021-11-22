@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Numel",
+		fr: "Chamallot"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Firebreathing",
+				fr: "Souffle-feu"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 20,

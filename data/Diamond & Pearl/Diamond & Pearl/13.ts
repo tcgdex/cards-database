@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Roserade",
 		fr: "Roserade",
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		407,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Roselia",
 		fr: "Roselia",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,12 +58,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Budew is anywhere under Roserade, choose 1 of your opponent's Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si Rozbouton se trouve sous Roserade, choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				fr: "Si Rozbouton se trouve sous Roserade, choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -69,8 +74,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il attire ses proies avec son doux parfum et les achève grâce aux fouets d'épines de ses bras."
+	}
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Ivysaur",
+		fr: "Herbizarre"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
+				fr: "Poudre dodo"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 20,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Vine Whip",
+				fr: "Fouet lianes"
 			},
 
 			damage: 40,

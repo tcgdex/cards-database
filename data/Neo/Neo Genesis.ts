@@ -6,6 +6,10 @@ const neo1: Set = {
 
 	name: {
 		en: "Neo Genesis",
+		fr: "Neo Genesis",
+		es: "Neo Genesis",
+		it: "Neo Genesis",
+		de: "Neo Genesis"
 	},
 
 	serie: serie,

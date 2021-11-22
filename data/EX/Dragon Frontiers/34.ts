@@ -4,6 +4,7 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Nidorina δ",
+		fr: "Nidorina δ"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Sting",
+				fr: "Dard-venin"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: 10,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rear Kick",
+				fr: "Ruade"
 			},
 
 			damage: 40,

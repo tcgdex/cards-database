@@ -4,6 +4,7 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Sharpedo",
+		fr: "Sharpedo de Team Aqua"
 	},
 	illustrator: "Katsura Tabata",
 	rarity: "Rare",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
+				fr: "Frénésie"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Team Aqua's Sharpedo.",
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Sharpedo de Team Aqua."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Slash",
+				fr: "Aqua-tranche"
 			},
 			effect: {
 				en: "Team Aqua's Sharpedo can't attack during your next turn.",
+				fr: "Sharpedo de Team Aqua ne peut pas attaquer lors de votre prochain tour."
 			},
 			damage: 60,
 

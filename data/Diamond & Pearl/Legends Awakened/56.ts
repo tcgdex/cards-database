@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Grumpig",
 		fr: "Groret",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		326,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Spoink",
 		fr: "Spoink",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -51,10 +55,11 @@ const card: Card = {
 				en: "Does 20 damage times the amount of Energy attached to Grumpig.",
 				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à Groret.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -64,8 +69,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Les perles noires amplifient ses pouvoirs psy. Sa danse étrange lui permet de contrôler ses ennemis."
+	}
 }
 
 export default card

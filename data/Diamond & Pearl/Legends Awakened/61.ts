@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Lucario",
 		fr: "Lucario",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,10 +58,11 @@ const card: Card = {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 60 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -67,8 +72,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il ressent toutes les auras. Il comprend le langage humain."
+	}
 }
 
 export default card

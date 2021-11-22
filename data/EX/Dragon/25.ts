@@ -4,6 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Combusken",
+		fr: "Galifeu"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
+				fr: "Vive-attaque"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -46,6 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 40,

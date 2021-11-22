@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Meowth",
+		fr: "Miaouss"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				fr: "Collectionner"
 			},
 			effect: {
 				en: "Draw a card.",
+				fr: "Piochez une carte."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Cat Kick",
+				fr: "Coup d'patte"
 			},
 
 			damage: 20,

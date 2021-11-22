@@ -4,6 +4,7 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Nidorina",
+		fr: "Nidorina"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
+				fr: "Griffe"
 			},
 
 			damage: 20,
@@ -42,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fast Evolution",
+				fr: "Évolution fulgurante"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				fr: "Cherchez dans votre deck jusqu'à 2 cartes Évolution, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck."
 			},
 
 		},

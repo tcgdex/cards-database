@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Manectric",
+		fr: "Elecsprint"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
+				fr: "Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gigashock",
+				fr: "Electrochok"
 			},
 			effect: {
 				en: "Does 10 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 10 dégâts à deux des Pokémon du Banc de votre adversaire (ou un s'il n'y en a qu'un). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
 			},
 			damage: 40,
 

@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Mantyke",
 		fr: "Babimanta",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		458,
 	],
+
 	hp: 40,
+
 	types: [
 		"Water",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -48,22 +52,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Un Pokémon amical qui analyse les mouvements subtils de l'eau de mer grâce à ses deux antennes."
+	}
 }
 
 export default card

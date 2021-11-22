@@ -4,6 +4,7 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Kabuto δ",
+		fr: "Kabuto δ ESPÈCES DELTA"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Eerie Light",
+				fr: "Lumière étrange"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
+				fr: "Le Pokémon Défenseur est maintenant Confus."
 			},
 
 		},
@@ -43,6 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Shell Attack",
+				fr: "Coquill-attaque"
 			},
 
 			damage: 20,

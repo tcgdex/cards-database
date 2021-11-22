@@ -4,6 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Poochyena",
+		fr: "Medhyena"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Knock Off",
+				fr: "Sabotage"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
+				fr: "Lancez une pièce. Si c'est face, choisissez une carte de la main de votre adversaire sans la regarder et défaussez-la."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rear Kick",
+				fr: "Ruade"
 			},
 
 			damage: 20,

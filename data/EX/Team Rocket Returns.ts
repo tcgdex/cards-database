@@ -6,7 +6,7 @@ const ex7: Set = {
 
 	name: {
 		en: "Team Rocket Returns",
-		fr: "Team Rocket Returns"
+		pt: "EX O Retorno da Equipe Rocket "
 	},
 
 	serie: serie,
