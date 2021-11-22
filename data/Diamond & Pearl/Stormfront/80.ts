@@ -4,25 +4,29 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Voltorb",
-		fr: "Voltorb",
+		fr: "Voltorbe"
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		100,
 	],
+
 	hp: 60,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		fr: "Voltorbe",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -49,26 +53,30 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher."
+	}
 }
 
 export default card

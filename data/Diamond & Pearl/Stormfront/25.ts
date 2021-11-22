@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Scizor",
-		fr: "Scizor",
+		fr: "Cizayox"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -67,7 +67,7 @@ const card: Card = {
 				en: "If you don't have any Pokémon with any Poké-Powers in play, this attack does 40 damage plus 30 more damage.",
 				fr: "Si vous n'avez pas de Pokémon possédant des Poké-Powers en jeu, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Machamp",
-		fr: "Machamp LV.X",
+		fr: "Mackogneur"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -32,7 +32,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Machamp is your Active Pokémon, each of Machamp's attacks does 60 more damage to the Active Pokémon (before applying Weakness and Resistance) and any damage done to Machamp by your opponent's Pokémon is increased by 60 (after applying Weakness and Resistance).",
-				fr: "Tant que Mackogneur est votre Pokémon Actif, chacune des attaques de Mackogneur inflige 60 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance) et tous dégâts infligés à Mackogneur par des Pokémon de votre adversaire sont augmentés de 60 (après application de la Faiblesse et de la Résistance).",
+				fr: "Tant que Mackogneur est votre Pokémon Actif, chacune des attaques de Mackogneur inflige 60 dégåts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance) et tous dégâts infligés à Mackogneur par des Pokémon de votre adversaire sont augmentés de 60 (après application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Drifblim",
 		fr: "Grodrive",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		426,
 	],
+
 	hp: 90,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
@@ -72,9 +78,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il somnole la journée et s'envole en grands groupes le soir venu. Nul ne sait où ils vont."
+	}
 }
 
 export default card

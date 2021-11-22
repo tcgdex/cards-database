@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Regigigas",
 		fr: "Regigigas",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		486,
 	],
+
 	hp: 120,
+
 	types: [
 		"Colorless",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,8 +68,9 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	description: {
+		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
+	}
 }
 
 export default card

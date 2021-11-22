@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Budew",
 		fr: "Rozbouton",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		406,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -48,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -57,8 +62,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "En hiver, son bourgeon se referme pour résister au froid. Il s'ouvre au printemps et libère du pollen."
+	}
 }
 
 export default card

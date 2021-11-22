@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Ditto",
 		fr: "Metamorph",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		132,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
@@ -44,8 +47,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il a la capacité de modifier sa structure cellulaire pour prendre l'apparence de ce qu'il voit."
+	}
 }
 
 export default card

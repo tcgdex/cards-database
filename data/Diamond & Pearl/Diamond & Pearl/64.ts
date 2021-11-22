@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Staravia",
 		fr: "Etourvol",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		397,
 	],
+
 	hp: 70,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Starly",
 		fr: "Etourmi",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -59,12 +63,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -72,9 +78,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Il survole les forêts et les champs en quête de Pokémon Insecte. Ils forment de grandes volées."
+	}
 }
 
 export default card

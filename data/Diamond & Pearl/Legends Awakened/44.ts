@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Victreebel",
 		fr: "Empiflor",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		71,
 	],
+
 	hp: 120,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Weepinbell",
 		fr: "Ultrigaria",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -56,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,8 +70,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		fr: "Sa bouche sécrète un fluide à l'odeur du miel, qui s'avère être un acide extrêmement corrosif."
+	}
 }
 
 export default card

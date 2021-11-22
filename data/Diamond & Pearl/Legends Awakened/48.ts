@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Castform",
 		fr: "Morpheo",
 	},
+
 	illustrator: "Kanako Eo",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		351,
 	],
+
 	hp: 60,
+
 	types: [
 		"Colorless",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,10 +52,11 @@ const card: Card = {
 				en: "If you have a Stadium card in play, remove 3 damage counters from Castform. If your opponent has a Stadium card in play, this attack does 30 damage plus 30 more damage.",
 				fr: "Si vous avez des cartes Stade en jeu, retirez à Morpheo 3 marqueurs de dégât. Si votre adversaire a des cartes Stade en jeu, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l'eau."
+	}
 }
 
 export default card

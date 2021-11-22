@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Regirock",
 		fr: "Regirock",
 	},
+
 	illustrator: "Kazuaki Aihara",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		377,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,10 +53,11 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,8 +67,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		fr: "Tout son corps est fait de roche. S'il s'ébrèche au combat, il utilise des pierres pour le réparer."
+	}
 }
 
 export default card

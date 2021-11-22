@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Forretress",
 		fr: "Forretress",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		205,
 	],
+
 	hp: 90,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Pineco",
 		fr: "Tannza",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -57,22 +63,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Il est prisonnier d'une coquille d'acier. Ses yeux vigilants sont la seule partie visible de son corps."
+	}
 }
 
 export default card

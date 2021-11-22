@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Steelix",
 		fr: "Steelix",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 110,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -60,22 +64,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
-
-
+	description: {
+		fr: "Grâce à la température élevée et la haute pression souterraines, son corps est plus dur que le métal."
+	}
 }
 
 export default card

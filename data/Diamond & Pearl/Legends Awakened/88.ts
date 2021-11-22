@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Chinchou",
 		fr: "Loupio",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		170,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,10 +50,11 @@ const card: Card = {
 				en: "If Chinchou has any Water Energy attached to it, this attack does 20 damage plus 10 more damage.",
 				fr: "Si Loupio possède de l'Énergie Water, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -61,8 +64,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il envoie des décharges électriques positives et négatives du bout des antennes pour paralyser sa proie."
+	}
 }
 
 export default card

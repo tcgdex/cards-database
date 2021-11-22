@@ -4,25 +4,29 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Gastly",
-		fr: "Gastly",
+		fr: "Fantominus"
 	},
+
 	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		92,
 	],
+
 	hp: 50,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		fr: "Fantominus",
 	},
-	stage: "Basic",
 
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -53,22 +57,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Le corps de ce Pokémon est composé de gaz à 95%. Une bourrasque suffit à le disperser."
+	}
 }
 
 export default card

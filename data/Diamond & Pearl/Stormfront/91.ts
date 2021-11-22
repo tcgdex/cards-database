@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Premier Ball",
-		fr: "Premier Ball",
+		fr: "Honor ball"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Choisissez dans votre deck ou votre pile de défausse un Pokémon NIV.X, montrez-le à votre adversaire et placez-le dans votre main. Si vous cherchez dans votre deck, mélangez-le.",
+		fr: "Choisissez dans votre deck ou votre pile de défausse un Pokémon NIV.X, montrez-la à votre adversaire et placez-le dans votre main. Si vous cherchez dans votre deck, mélangez-le.",
 	},
 	trainerType: "Item",
 

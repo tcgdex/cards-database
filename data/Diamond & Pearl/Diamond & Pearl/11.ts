@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Palkia",
 		fr: "Palkia",
 	},
+
 	illustrator: "Nakaoka",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		484,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -56,6 +58,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -65,8 +68,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Il peut modeler l'espace. Les mythes de Sinnoh en parlent comme d'une divinité ancienne."
+	}
 }
 
 export default card

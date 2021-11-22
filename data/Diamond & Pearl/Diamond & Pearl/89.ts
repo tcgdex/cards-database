@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Meditite",
 		fr: "Meditikka",
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		307,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,10 +52,11 @@ const card: Card = {
 				en: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il ne mange qu'une Baie par jour. La faim lui a forgé une volonté de fer."
+	}
 }
 
 export default card

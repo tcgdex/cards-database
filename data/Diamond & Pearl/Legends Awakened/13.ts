@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Probopass",
 		fr: "Tarinorme",
 	},
+
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		476,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Nosepass",
 		fr: "Nasgnet",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -56,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,8 +72,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		fr: "Son corps libère une puissante force magnétique. Il dirige trois petites unités appelées Mini-nez."
+	}
 }
 
 export default card

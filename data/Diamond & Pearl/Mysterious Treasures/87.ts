@@ -4,22 +4,25 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Larvitar",
+		fr: "Embrylex"
 	},
+
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		246,
 	],
+
 	hp: 50,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -28,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mountain Bite",
+				fr: "Morsure des montagnes"
 			},
 			effect: {
 				en: "You may discard the top card of your deck. If you do, this attack does 10 damage plus 10 more damage and Larvitar is now Asleep.",
+				fr: "Vous pouvez défausser la carte du dessus de votre deck. Cette attaque inflige alors 10 dégâts plus 10 dégâts supplémentaires et Embrylex est maintenant Endormi."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -42,18 +47,21 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				fr: "Enfoncer"
 			},
 
 			damage: 20,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
@@ -61,9 +69,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir."
+	}
 }
 
 export default card

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Froslass",
 		fr: "Momartik",
 	},
+
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		478,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Snorunt",
 		fr: "Schneppke",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -32,7 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Destiny Bond",
-				fr: "Destiny Bond",
+				fr: "Prlvt Destin",
 			},
 			effect: {
 				en: "Discard a Psychic Energy attached to Froslass. During your opponent's next turn, if Froslass would be Knocked Out by damage from an attack, the Attacking Pokémon is Knocked Out.",
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -66,8 +71,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Momartik gèle ses ennemis grâce à son souffle à -50°C. Ça ne se voit pas, mais son corps est creux."
+	}
 }
 
 export default card

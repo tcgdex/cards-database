@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Shedinja",
 		fr: "Munja",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		292,
 	],
+
 	hp: 60,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale",
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -54,11 +60,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	description: {
+		fr: "Une carapace d'insecte laissée à l'abandon. On dit qu'il vole l'âme de celui qui regarde à l'intérieur."
+	}
 }
 
 export default card

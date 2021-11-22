@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Castform Snow-cloud Form",
 		fr: "Morpheo Neige",
 	},
+
 	illustrator: "Saya Tsuruta",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		351,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
@@ -34,23 +37,28 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Hail",
 				fr: "Grêle",
 			},
+
 			effect: {
 				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 			},
 
+			damage: 20
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -60,8 +68,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l'eau."
+	}
 }
 
 export default card
