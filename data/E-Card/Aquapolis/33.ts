@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Slowbro",
+		fr: "Flagadoss"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dense Body",
+				fr: "Corps dense"
 			},
 			effect: {
 				en: "Any damage done to Slowbro by attacks from Basic Pokémon (excluding Baby Pokémon) is reduced by 20.",
+				fr: "Tous les dégâts infligés à Flagadoss par des attaques de Pokémon de base (sans compter les Bébés Pokémon) sont réduits de 20."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Cannon",
+				fr: "Canon à énergie"
 			},
 			effect: {
 				en: "This attack does 30 damage plus 10 more damage for each Energy attached to Slowbro but not used to pay for this attack's Energy cost. You can't add more than 20 damage this way. y.",
+				fr: "Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Flagadoss mais non utilisée pour payer le coût d'Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

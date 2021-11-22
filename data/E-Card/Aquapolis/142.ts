@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Darkness Energy",
+		fr: "Énergie obscurité"
 	},
 	illustrator: "Milky Isobe",
 	rarity: "Rare",

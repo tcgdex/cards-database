@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Clefairy",
+		fr: "Mélofée"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shining Fingers",
+				fr: "Doigts brillants"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				fr: "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slap",
+				fr: "Beigne"
 			},
 
 			damage: 10,

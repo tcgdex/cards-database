@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Cloyster",
+		fr: "Crustabri"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lick",
+				fr: "Léchouille"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Auto Fire",
+				fr: "Tir automatique"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],

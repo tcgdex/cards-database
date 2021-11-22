@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Houndoom",
+		fr: "Démolosse"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
+				fr: "Feu d'artifice"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard 1 Energy card attached to Houndoom.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez-vous d'une carte Énergie  attachée à Démolosse."
 			},
 			damage: 30,
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Impact",
+				fr: "Sombre impact"
 			},
 			effect: {
 				en: "The Defending Pokémon can't use any Poké-Powers until the end of your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne peut pas utiliser de Poké-Powers jusqu'à la fin du prochain tour de votre adversaire."
 			},
 			damage: 40,
 

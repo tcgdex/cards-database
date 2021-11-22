@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Blastoise",
+		fr: "Tortank"
 	},
 	illustrator: "Hiromichi Sugiyama",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
+				fr: "Écume"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Cannon",
+				fr: "Double canon"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque fait 40 dégâts multipliés par le nombre de faces."
 			},
-			damage: 40,
+			damage: "40×",
 
 		},
 	],

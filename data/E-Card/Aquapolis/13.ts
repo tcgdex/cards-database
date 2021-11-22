@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Exeggutor",
+		fr: "Noadkoko"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Big Eggsplosion",
+				fr: "Grosse éclate"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Noadkoko. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lateral Eggsplosion",
+				fr: "Éclate latérale"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the total number of Energy attached to your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads.",
+				fr: "Lancez un nombre de pièces égal à la quantité d'Énergie attachée à tous les Pokémon de votre Banc. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

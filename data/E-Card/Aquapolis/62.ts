@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Spinarak",
+		fr: "Mimigal"
 	},
 	illustrator: "Masako Yamashita",
 	rarity: "Uncommon",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Rogne"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gooey Thread",
+				fr: "Fil gluant"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
 			},
 			damage: 20,
 

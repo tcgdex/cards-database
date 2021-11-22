@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Wooper",
+		fr: "Axoloto"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
+				fr: "Queue battoir"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Deep Dive",
+				fr: "Gros plongeon"
 			},
 			effect: {
 				en: "Flip 3 coins. For each heads, remove 1 damage counter from Wooper.",
+				fr: "Lancez 3 pièces. Pour chaque face, retirez un marqueur de dégâts de Axoloto."
 			},
 
 		},

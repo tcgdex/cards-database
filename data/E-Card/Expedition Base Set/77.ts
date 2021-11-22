@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				fr: "Coup d'boule"
 			},
 
 			damage: 20,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
+				fr: "Secousse tonnerre"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Flaaffy does 20 damage to itself.",
+				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 20 dégâts."
 			},
 			damage: 50,
 

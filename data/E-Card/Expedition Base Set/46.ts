@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Feraligatr",
+		fr: "Aligatueur"
 	},
 	illustrator: "Hiromichi Sugiyama",
 	rarity: "Rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
+				fr: "Tranche"
 			},
 
 			damage: 20,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Claw",
+				fr: "Combo-griffe"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

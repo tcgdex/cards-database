@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Fire Energy",
+		fr: "Énergie Feu"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",

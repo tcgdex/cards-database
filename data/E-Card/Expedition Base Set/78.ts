@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Gloom",
+		fr: "Ortide"
 	},
 	illustrator: "Yuichi Sawayama",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				fr: "Tranch'herbe"
 			},
 
 			damage: 20,
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Foul Odor",
+				fr: "Odeur fétide"
 			},
 			effect: {
 				en: "Both the Defending Pokémon and Gloom are now Confused (after doing damage).",
+				fr: "Le Pokémon Défenseur et Ordide sont maintenant Confus (après avoir infligé les dégâts)."
 			},
 			damage: 30,
 

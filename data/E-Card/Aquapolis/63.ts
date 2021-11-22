@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Tyrogue",
+		fr: "Débugant"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -26,13 +27,18 @@ const card: Card = {
 			cost: [
 				"Fighting",
 			],
+
 			name: {
 				en: "Energy Punch",
-			},
-			effect: {
-				en: "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing.",
+				fr: "Poing énergétique"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie spéciale attachée au Pokémon Défenseur. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 10
 		},
 	],
 

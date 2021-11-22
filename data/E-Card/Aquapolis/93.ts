@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Mareep",
+		fr: "Wattouat"
 	},
 	illustrator: "Hizuki Misono",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Charge",
+				fr: "Recharge"
 			},
 			effect: {
 				en: "Attach 1 Energy card in your discard pile to Mareep.",
+				fr: "Attachez une carte Énergie  de votre pile de défausse à Wattouat."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
+				fr: "Attaque caudale"
 			},
 
 			damage: 20,

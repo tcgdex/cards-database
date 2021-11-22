@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
+				fr: "Flammèche"
 			},
 			effect: {
 				en: "Discard a Energy card attached to Growlithe.",
+				fr: "Défaussez-vous d'une carte Énergie  attachée à Caninos."
 			},
 			damage: 30,
 

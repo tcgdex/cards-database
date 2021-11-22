@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Marill",
+		fr: "Marill"
 	},
 	illustrator: "Satoshi Ohta",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
+				fr: "Écume"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
+				fr: "Coud'keu"
 			},
 
 			damage: 20,

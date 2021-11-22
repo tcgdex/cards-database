@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Ekans",
+		fr: "Abo"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -26,13 +27,18 @@ const card: Card = {
 			cost: [
 				"Grass",
 			],
+
 			name: {
 				en: "Poison Sting",
-			},
-			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				fr: "Dard-venin"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+			},
+
+			damage: 10
 		},
 	],
 	weaknesses: [

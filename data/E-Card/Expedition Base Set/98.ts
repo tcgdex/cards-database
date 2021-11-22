@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Charmander",
+		fr: "Salamèche"
 	},
 	illustrator: "Yuichi Sawayama",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				fr: "Rogne"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
+				fr: "Flammes ardentes"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 10,
 

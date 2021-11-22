@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Spearow",
+		fr: "Piafabec"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -26,13 +27,18 @@ const card: Card = {
 			cost: [
 				"Colorless",
 			],
+
 			name: {
 				en: "Razor Wind",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Coupe-vent"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 20
 		},
 	],
 	weaknesses: [
