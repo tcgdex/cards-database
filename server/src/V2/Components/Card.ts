@@ -2,6 +2,7 @@ import { objectLoop } from '@dzeio/object-util'
 import { Card as SDKCard, CardResume, SupportedLanguages } from '@tcgdex/sdk'
 import Set from './Set'
 import { Pagination } from '../../interfaces'
+import { lightCheck } from '../../util'
 
 type LocalCard = Omit<SDKCard, 'set'> & {set: () => Set}
 
@@ -62,10 +63,7 @@ export default class Card implements LocalCard {
 	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKCard, any>> = {}, pagination?: Pagination) {
 		let list : Array<SDKCard> = (require(`../../../generated/${lang}/cards.json`) as Array<SDKCard>)
 		.filter((c) => objectLoop(params, (it, key) => {
-			if (typeof it === "string") {
-				return c[key as 'localId'].toLowerCase().includes(it.toLowerCase())
-			}
-			return c[key as 'localId'].includes(it)
+			return lightCheck(c[key as 'localId'], it)
 		}))
 		if (pagination) {
 			list = list
@@ -83,14 +81,10 @@ export default class Card implements LocalCard {
 			return objectLoop(params, (it, key) => {
 				if (key === 'set' && typeof it === 'string') {
 					return (
-						c['set'].id.toLowerCase().includes(it.toLowerCase()) ||
-            (c['set'].name ? c['set'].name.toLowerCase().includes(it.toLowerCase()) : false)
+						lightCheck(c['set'].id, it) || lightCheck(c['set'].name, it)
 					)
 				}
-				if (typeof it === "string") {
-					return c[key as 'localId'].toLowerCase().includes(it.toLowerCase())
-				}
-				return c[key as 'localId'].includes(it)
+				return lightCheck(c[key as 'localId'], it)
 			})
 		})
 		if (!res) {
