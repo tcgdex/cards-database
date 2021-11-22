@@ -2,6 +2,7 @@ import { objectLoop } from '@dzeio/object-util'
 import { Serie as SDKSerie, SerieResume, SupportedLanguages } from '@tcgdex/sdk'
 import Set from './Set'
 import { Pagination } from '../../interfaces'
+import { lightCheck } from '../../util'
 
 type LocalSerie = Omit<SDKSerie, 'sets'> & {sets: () => Array<Set>}
 
@@ -30,7 +31,7 @@ export default class Serie implements LocalSerie {
 	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKSerie, any>> = {}, pagination?: Pagination) {
 		let list = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
 			.filter((c) => objectLoop(params, (it, key) => {
-				return c[key as 'id'].includes(it)
+				return lightCheck(c[key as 'id'], it)
 			}))
 		if (pagination) {
 			list = list
@@ -42,12 +43,7 @@ export default class Serie implements LocalSerie {
 	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof Serie, any>> = {}): Serie | undefined {
 		const res = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
 			.find((c) => {
-				return objectLoop(params, (it, key) => {
-					if (typeof it === 'string') {
-						return c[key as 'id'].toLowerCase().includes(it.toLowerCase())
-					}
-					return c[key as 'id'].includes(it)
-				})
+				return objectLoop(params, (it, key) => lightCheck(c[key as 'id'], it))
 			})
 		if (!res) {
 			return undefined
