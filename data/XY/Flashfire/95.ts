@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Évitez tous les dégâts infligés au Pokémon auquel cette carte est attachée par les attaques qu’il utilise.",
+		fr: "Évitez tous les dégâts infligés au Pokémon auquel cette carte est attachée par les attaques qu'il utilise.",
 		en: "Prevent all damage done to the Pokémon this card is attached to by attacks it uses."
 	},
 	trainerType: "Tool",

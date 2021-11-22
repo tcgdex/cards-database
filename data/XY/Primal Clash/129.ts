@@ -4,7 +4,7 @@ import Set from '../Primal Clash'
 const card: Card = {
 	name: {
 		en: "Fresh Water Set",
-		fr: "Pack d’Eaux Fraîches",
+		fr: "Pack d'Eaux Fraîches",
 	},
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",

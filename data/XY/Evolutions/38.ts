@@ -44,8 +44,8 @@ const card: Card = {
 				de: "Donnerwelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
@@ -70,7 +70,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 80 damage to itself.",
-				fr: "Ce Pokémon s’inflige 80 dégâts.",
+				fr: "Ce Pokémon s'inflige 80 dégâts.",
 				es: "Este Pokémon se hace 80 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge 80 danni a se stesso.",
 				pt: "Este Pokémon causa 80 danos a ele mesmo.",

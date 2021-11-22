@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Amaura",
 		fr: "Amagara",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		698,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
 
 	stage: "RESTORED",
-
 
 	attacks: [
 		{
@@ -50,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -59,8 +62,10 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	evolveFrom: {
+		en: "Sail Fossil",
+		fr: "Fossile Nageoire"
+	}
 }
 
 export default card

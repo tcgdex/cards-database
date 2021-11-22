@@ -3,21 +3,23 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Zygarde-EX",
+		en: "Zygarde EX",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		718,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -63,6 +65,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -70,10 +73,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	stage: "Basic",
+	retreat: 3
 }
 
 export default card

@@ -4,26 +4,30 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "M Metagross EX",
-		fr: "M Métalosse EX",
+		fr: "M-Métalosse EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		376,
 	],
+
 	hp: 220,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Metagross-EX",
-		fr: "Métalosse-EEX",
+		fr: "Métalosse-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -45,22 +49,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "−20"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	suffix: "EX"
 }
 
 export default card

@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Cherchez jusqu’à 2 Pokémon de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		fr: "Cherchez jusqu'à 2 Pokémon de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "Search your deck for up to 2 Basic Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward.",
 		es: "Busca en tu baraja hasta 2 Pokémon Básicos, enséñalos y ponlos en tu mano. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo fino a due Pokémon Base, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",

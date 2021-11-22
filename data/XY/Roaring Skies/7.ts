@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Rafale Psy",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 30,
@@ -54,7 +54,7 @@ const card: Card = {
 				fr: "Poison Nocturne",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Asleep and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
 			},
 			damage: 80,

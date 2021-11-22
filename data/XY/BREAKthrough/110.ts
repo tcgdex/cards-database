@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Dragon Slayer",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Dragon Pokémon, this attack does 40 more damage (before applying Weakness and Resistance).",
+				en: "If your opponent's Active Pokémon is a Dragon Pokémon, this attack does 40 more damage (before applying Weakness and Resistance).",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Dragon, cette attaque inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: "60+",

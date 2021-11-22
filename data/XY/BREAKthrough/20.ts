@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Éclatodestruction",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon. Then, discard an Energy attached to your opponent’s Active Pokémon.",
+				en: "Discard an Energy attached to this Pokémon. Then, discard an Energy attached to your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon. Ensuite, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 130,

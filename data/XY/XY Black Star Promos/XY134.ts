@@ -4,24 +4,30 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Empoleon BREAK",
+		fr: "Pingoléon TURBO"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		395,
 	],
+
 	hp: 170,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Empoleon",
+		fr: "Pingoléon"
 	},
-	stage: "BREAK",
 
+	stage: "BREAK",
 
 	attacks: [
 		{
@@ -40,11 +46,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
-
+	retreat: 0
 }
 
 export default card

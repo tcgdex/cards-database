@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Ball'Esprit",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent’s Pokémon times the amount of Energy attached to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 20 damage to 1 of your opponent's Pokémon times the amount of Energy attached to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire multipliés par le nombre d'Énergies lui étant attachées. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Rafale Psy",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 50,

@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Flygon EX",
 		fr: "Libégon EX",
 	},
+
 	illustrator: "Toyste Beach",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		330,
 	],
+
 	hp: 170,
+
 	types: [
 		"Dragon",
 	],
@@ -30,10 +33,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez demander à votre adversaire d’échanger son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -60,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "EX"
 }
 
 export default card

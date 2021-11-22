@@ -24,7 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-		en: "Discard an Energy attached to your opponent’s Active Pokémon."
+		en: "Discard an Energy attached to your opponent's Active Pokémon."
 	},
 	trainerType: "Supporter",
 

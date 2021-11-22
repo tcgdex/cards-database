@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Rap",
-				fr: "Frap’Keu",
+				fr: "Frap'Keu",
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",

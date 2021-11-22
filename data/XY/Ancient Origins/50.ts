@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Mitraille-Piétinage",
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque carte dans votre main.",
 			},
 			damage: 80,

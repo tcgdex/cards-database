@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Boost",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Psych Up attack does 20 more damage (before applying Weakness and Resistance).",
+				en: "During your next turn, this Pokémon's Psych Up attack does 20 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, l'attaque Boost de ce Pokémon inflige 20 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 10,

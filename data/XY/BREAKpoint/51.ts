@@ -57,7 +57,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Zen Headbutt",
-				fr: "Psykoud’Boul",
+				fr: "Psykoud'Boul",
 				es: "Cabezazo Zen",
 				it: "Cozzata Zen",
 				pt: "Cabeçada Zen",

@@ -3,25 +3,31 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Camerupt-EX",
+		en: "M Camerupt EX",
+		fr: "M-Camérupt EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		323,
 	],
+
 	hp: 230,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Camerupt-EX",
+		fr: "Camérupt-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -41,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -48,10 +55,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	suffix: "EX",
+	retreat: 4
 }
 
 export default card

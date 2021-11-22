@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Tarabustage",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 30 more damage.",
+				en: "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 30 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "30+",

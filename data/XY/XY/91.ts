@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 60 damage from 1 of your Benched Pokémon.",
-				fr: "Soignez 60 dégâts à l’un de vos Pokémon de Banc.",
+				fr: "Soignez 60 dégâts à l'un de vos Pokémon de Banc.",
 			},
 
 		},

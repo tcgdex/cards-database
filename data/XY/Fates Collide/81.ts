@@ -36,7 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud’Pattes",
+				fr: "Coud'Pattes",
 				es: "Patada Destrucción",
 				it: "Calcio Esplosivo",
 				pt: "Chute Poderoso",
@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais.",

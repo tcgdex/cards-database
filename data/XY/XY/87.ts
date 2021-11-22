@@ -44,7 +44,7 @@ const card: Card = {
 				fr: "Chanson du Cœur",
 			},
 			effect: {
-				en: "Discard a Darkness Energy attached to your opponent’s Active Pokémon.",
+				en: "Discard a Darkness Energy attached to your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie Darkness attachée au Pokémon Actif de votre adversaire.",
 			},
 

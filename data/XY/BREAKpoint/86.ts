@@ -43,10 +43,10 @@ const card: Card = {
 				de: "Pures Gift"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 4 marqueurs de dégâts au lieu d’un sur le Pokémon ciblé entre chaque tour.",
+				en: "Your opponent's Active Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 4 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Pon 4 contadores de daño en vez de 1 en ese Pokémon entre turnos.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Tra un turno e l’altro, metti quattro segnalini danno invece di uno su quel Pokémon.",
+				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Tra un turno e l'altro, metti quattro segnalini danno invece di uno su quel Pokémon.",
 				pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Coloque 4 contadores de danos em vez de 1 nesse Pokémon entre as vezes de jogar.",
 				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 4 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
 			},

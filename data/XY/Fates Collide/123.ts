@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Altaria EX",
 		de: "Altaria EX"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		334,
 	],
+
 	hp: 170,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "EX",
 
@@ -66,8 +68,8 @@ const card: Card = {
 				de: "Schimmernder Wind"
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n’a pas de Faiblesse.",
+				en: "During your opponent's next turn, this Pokémon has no Weakness.",
+				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
 				es: "Durante el próximo turno de tu rival, este Pokémon no tiene ninguna Debilidad.",
 				it: "Durante il prossimo turno del tuo avversario, questo Pokémon non ha debolezza.",
 				pt: "Durante a próxima vez de jogar do seu oponente, este Pokémon não terá Fraqueza.",
@@ -77,22 +79,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

@@ -3,21 +3,24 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-EX",
+		en: "Mewtwo EX",
+		fr: "Mewtwo EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -51,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -58,10 +62,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	stage: "Basic",
+	retreat: 2
 }
 
 export default card

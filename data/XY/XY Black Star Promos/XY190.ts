@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Manaphy",
+		fr: "Manaphy"
 	},
-	illustrator: "Hitoshi Ariga",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Hitoshi Ariga",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		490,
 	],
+
 	hp: 70,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -56,10 +60,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

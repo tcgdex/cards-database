@@ -3,7 +3,7 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Brock’s Grit",
+		en: "Brock's Grit",
 		fr: "Vaillance de Pierre",
 		es: "Valentía de Brock",
 		it: "Tenacia di Brock",
@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Choisissez une combinaison de 6 cartes de Pokémon et d’Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
+		fr: "Choisissez une combinaison de 6 cartes de Pokémon et d'Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
 		en: "Shuffle 6 in any combination of Pokémon and basic Energy cards from your discard pile into your deck.",
 		es: "Pon, en cualquier combinación, 6 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia sei carte Pokémon e Energia base, in qualsiasi combinazione, dalla tua pila degli scarti nel tuo mazzo.",

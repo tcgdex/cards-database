@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Souffle Glaçon",
 			},
 			effect: {
-				en: "Until the end of your next turn, each player can’t play any Supporter or Stadium cards from his or her hand.",
+				en: "Until the end of your next turn, each player can't play any Supporter or Stadium cards from his or her hand.",
 				fr: "Jusqu'à la fin de votre prochain tour, aucun joueur ne peut jouer de cartes Supporter ou Stade de sa main.",
 			},
 			damage: 30,
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Gel Intense",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed. If tails, your opponent’s Active Pokémon is now Confused.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed. If tails, your opponent's Active Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé. Si c'est pile, le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 70,

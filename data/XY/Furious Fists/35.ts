@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Whenever your opponent flips a coin during his or her next turn, treat it as tails.",
-				fr: "Chaque fois que votre adversaire lance une pièce pendant son prochain tour, considérez que c’est pile.",
+				fr: "Chaque fois que votre adversaire lance une pièce pendant son prochain tour, considérez que c'est pile.",
 			},
 
 		},

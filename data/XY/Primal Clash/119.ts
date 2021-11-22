@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Herbivore",
 			},
 			effect: {
-				en: "This Pokémon’s attacks do 40 more damage to your opponent’s Grass Pokémon (before applying Weakness and Resistance).",
+				en: "This Pokémon's attacks do 40 more damage to your opponent's Grass Pokémon (before applying Weakness and Resistance).",
 				fr: "Les attaques de ce Pokémon infligent 40 dégâts supplémentaires aux Pokémon Grass de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -46,7 +46,7 @@ const card: Card = {
 				fr: "Déraillement",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to your opponent’s Active Pokémon.",
+				en: "Discard a Special Energy attached to your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 80,

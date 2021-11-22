@@ -47,7 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Crazy Headbutt",
-				fr: "Coup d’Boule Fou",
+				fr: "Coup d'Boule Fou",
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",

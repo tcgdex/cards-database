@@ -3,25 +3,31 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Beedrill-EX",
+		en: "M Beedrill EX",
+		fr: "M-Dardargnan EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		15,
 	],
+
 	hp: 200,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Beedrill-EX",
+		fr: "Dardargnan-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -39,6 +45,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -46,10 +53,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	suffix: "EX",
+	retreat: 0
 }
 
 export default card

@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Rythme Envoûtant",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon.",
+				en: "Once during your turn (before your attack), you may flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 			},
 		},

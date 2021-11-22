@@ -4,23 +4,26 @@ import Set from '../Phantom Forces'
 const card: Card = {
 	name: {
 		en: "Malamar EX",
-		fr: "Sepiatroce-EX",
+		fr: "Sepiatroce EX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		687,
 	],
+
 	hp: 170,
+
 	types: [
 		"Darkness",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -29,11 +32,12 @@ const card: Card = {
 				fr: "Hypnose Intense",
 			},
 			effect: {
-				en: "When you attach an Energy from your hand to this Pokémon, you may use this Ability. Your opponent’s Active Pokémon is now Asleep.",
+				en: "When you attach an Energy from your hand to this Pokémon, you may use this Ability. Your opponent's Active Pokémon is now Asleep.",
 				fr: "Lorsque vous attachez une Énergie de votre main à ce Pokémon, vous pouvez utiliser ce talent. Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,22 +56,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Mach Press",
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, your opponent’s Active Pokémon is now Paralyzed.",
+				en: "Flip 2 coins. If both of them are heads, your opponent's Active Pokémon is now Paralyzed.",
 				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 80,

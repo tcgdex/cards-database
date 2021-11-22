@@ -3,25 +3,31 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Gengar-EX",
+		en: "M Gengar EX",
+		fr: "M-Ectoplasma EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		94,
 	],
+
 	hp: 210,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gengar-EX",
+		fr: "Ectoplasma-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -41,12 +47,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -54,9 +62,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	suffix: "EX",
+	retreat: 2
 }
 
 export default card

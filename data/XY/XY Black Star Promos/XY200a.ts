@@ -3,25 +3,31 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Sharpedo-EX",
+		en: "M Sharpedo EX",
+		fr: "M-Sharpedo EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		319,
 	],
+
 	hp: 210,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Sharpedo-EX",
+		fr: "Sharpedo-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -40,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -47,10 +54,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	suffix: "EX",
+	retreat: 0
 }
 
 export default card

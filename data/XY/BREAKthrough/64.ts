@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Mewtwo EX",
 		fr: "Méga-Mewtwo-EEX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 210,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Mewtwo-EX",
 		fr: "Mewtwo-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -36,13 +40,14 @@ const card: Card = {
 				fr: "Infinité Psy",
 			},
 			effect: {
-				en: "This attack does 30 more damage times the amount of Energy attached to both Active Pokémon. This attack’s damage isn’t affected by Weakness.",
+				en: "This attack does 30 more damage times the amount of Energy attached to both Active Pokémon. This attack's damage isn't affected by Weakness.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d'Énergies attachées aux deux Pokémon Actifs. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse.",
 			},
 			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -51,9 +56,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "EX"
 }
 
 export default card

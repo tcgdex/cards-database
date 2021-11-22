@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Venusaur EX",
 		fr: "Florizarre EX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 180,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -34,7 +36,7 @@ const card: Card = {
 				fr: "Poudre Toxik",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				en: "Your opponent's Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 60,
@@ -59,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,9 +70,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Dialga EX",
 		fr: "Dialga EX",
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 180,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "EX",
 
@@ -34,7 +36,7 @@ const card: Card = {
 				fr: "Vent Temporel",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon-EX, it can’t attack during your opponent’s next turn.",
+				en: "If the Defending Pokémon is a Pokémon-EX, it can't attack during your opponent's next turn.",
 				fr: "Si le Pokémon Défenseur est un Pokémon-EX, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 60,
@@ -59,22 +61,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

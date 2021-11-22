@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Déchiquetage",
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
+				en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
@@ -51,7 +51,7 @@ const card: Card = {
 				fr: "Ouragan",
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, discard an Energy attached to your opponent’s Active Pokémon. If both of them are tails, this attack does nothing.",
+				en: "Flip 2 coins. For each heads, discard an Energy attached to your opponent's Active Pokémon. If both of them are tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire. Si vous obtenez 2 côtés pile, cette attaque ne fait rien.",
 			},
 			damage: 70,

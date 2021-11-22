@@ -58,9 +58,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c’est pile, défaussez une Énergie Fire attachée à ce Pokémon.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à ce Pokémon.",
 				es: "Lanza 1 moneda. Si sale cruz, descarta 1 Energía Fire unida a este Pokémon.",
-				it: "Lancia una moneta. Se esce croce, scarta un’Energia Fire assegnata a questo Pokémon.",
+				it: "Lancia una moneta. Se esce croce, scarta un'Energia Fire assegnata a questo Pokémon.",
 				pt: "Jogue uma moeda. Se sair coroa, descarte uma Energia Fire ligada a este Pokémon.",
 				de: "Wirf 1 Münze. Lege bei „Zahl“ 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
 			},

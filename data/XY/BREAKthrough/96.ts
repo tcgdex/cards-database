@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Amplificateur de Douleur",
 			},
 			effect: {
-				en: "Put 3 damage counters on each of your opponent’s Pokémon that has any damage counters on it.",
+				en: "Put 3 damage counters on each of your opponent's Pokémon that has any damage counters on it.",
 				fr: "Placez 3 marqueurs de dégâts sur chacun des Pokémon de votre adversaire ayant au moins un marqueur de dégâts.",
 			},
 

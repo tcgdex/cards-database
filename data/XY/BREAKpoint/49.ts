@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Stromzone"
 			},
 			effect: {
-				en: "Damage from the attacks of your Lightning Pokémon isn’t affected by any effects on your opponent’s Active Pokémon.",
+				en: "Damage from the attacks of your Lightning Pokémon isn't affected by any effects on your opponent's Active Pokémon.",
 				fr: "Les dégâts des attaques de vos Pokémon Lightning ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 				es: "El daño de los ataques de tus Pokémon Lightning no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 				it: "I danni degli attacchi dei tuoi Pokémon Lightning non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
@@ -64,7 +64,7 @@ const card: Card = {
 				de: "Herabstürzender Blitz"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon has Fighting Resistance, this attack does 60 more damage.",
+				en: "If your opponent's Active Pokémon has Fighting Resistance, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire a une Résistance à Fighting, cette attaque inflige 60 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival tiene Resistencia a Fighting, este ataque hace 60 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario ha resistenza al tipo Fighting, questo attacco infligge 60 danni in più.",

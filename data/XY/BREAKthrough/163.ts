@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Mewtwo EX",
 		fr: "Mewtwo-EX",
 	},
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Secret Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -33,7 +35,7 @@ const card: Card = {
 				fr: "Onde Photon",
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 30,
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

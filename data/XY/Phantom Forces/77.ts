@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Bave Glissante",
 			},
 			effect: {
-				en: "Each player can’t attach any Pokémon Tool cards from his or her hand to any of his or her Pokémon.",
+				en: "Each player can't attach any Pokémon Tool cards from his or her hand to any of his or her Pokémon.",
 				fr: "Aucun joueur ne peut attacher de carte Outil Pokémon de sa main à ses Pokémon.",
 			},
 		},

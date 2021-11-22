@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Écailles Miraculeuses",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon-EX.",
+				en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon-EX.",
 				fr: "Évitez tous les dégâts infligés à ce Pokémon par des attaques des Pokémon-EX de votre adversaire.",
 			},
 		},

@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Beedrill EX",
+		fr: "Dardargnan EX"
 	},
 
 	illustrator: "hatachu",
@@ -32,7 +33,7 @@ const card: Card = {
 				en: "Double Scrapper",
 			},
 			effect: {
-				en: "Discard up to 2 Pokémon Tool cards attached to your opponent’s Pokémon.",
+				en: "Discard up to 2 Pokémon Tool cards attached to your opponent's Pokémon.",
 			},
 
 		},
@@ -59,7 +60,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+	stage: "Basic"
 }
 
 export default card

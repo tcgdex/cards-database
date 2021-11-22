@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Arôme Apaisant",
 			},
 			effect: {
-				en: "Each of your Pokémon’s attacks costs Fairy less.",
+				en: "Each of your Pokémon's attacks costs Fairy less.",
 				fr: "Chacune des attaques de vos Pokémon coûte Fairy de moins.",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Éclat Merveilleux",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 70,

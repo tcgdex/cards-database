@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Sanctuaire",
 			},
 			effect: {
-				en: "Each player can’t play any Stadium cards from his or her hand.",
+				en: "Each player can't play any Stadium cards from his or her hand.",
 				fr: "Aucun joueur ne peut jouer de cartes Stade de sa main.",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Flammes Vacillantes",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 70,

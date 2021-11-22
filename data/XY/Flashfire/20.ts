@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Crinière Intimidante",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Basic Pokémon.",
+				en: "Prevent all damage done to this Pokémon by attacks from your opponent's Basic Pokémon.",
 				fr: "Évitez tous les dégâts infligés à ce Pokémon par des attaques des Pokémon de base de votre adversaire.",
 			},
 		},

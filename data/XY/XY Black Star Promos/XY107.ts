@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Mewtwo EX",
 		fr: "Mewtwo EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -33,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 30 damage times the amount of Psychic Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies Psychic attachées à ce Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Psychic attachées à ce Pokémon.",
 			},
 			damage: "30×",
 
@@ -50,11 +52,12 @@ const card: Card = {
 			},
 			effect: {
 				fr: "Échangez tous les marqueurs de dégâts de ce Pokémon avec ceux du Pokémon Actif de votre adversaire.",
-				en: "Switch all damage counters on this Pokémon with those on your opponent’s Active Pokémon."
+				en: "Switch all damage counters on this Pokémon with those on your opponent's Active Pokémon."
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

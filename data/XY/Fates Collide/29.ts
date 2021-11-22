@@ -41,9 +41,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon can use the attacks of any of your Basic Pokémon in play. (You still need the necessary Energy to use each attack.)",
-				fr: "Ce Pokémon peut utiliser les attaques de n’importe lequel de vos Pokémon de base en jeu. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser chaque attaque.)",
+				fr: "Ce Pokémon peut utiliser les attaques de n'importe lequel de vos Pokémon de base en jeu. (Vous avez toujours besoin de l'Énergie nécessaire pour utiliser chaque attaque.)",
 				es: "Este Pokémon puede usar los ataques de cualquiera de tus Pokémon Básicos en juego. (Sigues necesitando la Energía necesaria para usar cada ataque).",
-				it: "Questo Pokémon può usare gli attacchi di tutti i tuoi Pokémon Base in gioco. Devi comunque avere l’Energia necessaria per usare quegli attacchi.",
+				it: "Questo Pokémon può usare gli attacchi di tutti i tuoi Pokémon Base in gioco. Devi comunque avere l'Energia necessaria per usare quegli attacchi.",
 				pt: "Este Pokémon pode usar os ataques de qualquer um dos seus Pokémon Básicos em jogo. (Você ainda precisa da Energia necessária para usar cada ataque.)",
 				de: "Dieses Pokémon kann die Angriffe von beliebigen deiner Basis-Pokémon im Spiel einsetzen. (Du benötigst jedoch die jeweils für den Angriff notwendige Energie.)"
 			},

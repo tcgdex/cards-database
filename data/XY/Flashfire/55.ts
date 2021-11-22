@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -53,8 +53,8 @@ const card: Card = {
 				fr: "Bombe Acide",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 70,
 

@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Tyrunt",
 		fr: "Ptyranidur",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		696,
 	],
+
 	hp: 90,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "RESTORED",
-
 
 	attacks: [
 		{
@@ -47,13 +49,14 @@ const card: Card = {
 				fr: "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,8 +66,10 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	evolveFrom: {
+		en: "Jaw Fossil",
+		fr: "Fossile Mâchoire"
+	}
 }
 
 export default card

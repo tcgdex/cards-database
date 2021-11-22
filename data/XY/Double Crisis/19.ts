@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma’s Mightyena",
+		en: "Team Magma's Mightyena",
 		fr: "Grahyèna de la Team Magma",
 	},
 	illustrator: "Hitoshi Ariga",
@@ -19,7 +19,7 @@ const card: Card = {
 		"Darkness",
 	],
 	evolveFrom: {
-		en: "Team Magma’s Poochyena",
+		en: "Team Magma's Poochyena",
 		fr: "Medhyèna de la Team Magma",
 	},
 	stage: "Stage1",
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Croc Hostile",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Team Aqua Pokémon, this attack does 40 more damage.",
+				en: "If your opponent's Active Pokémon is a Team Aqua Pokémon, this attack does 40 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de la Team Aqua, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "80＋",

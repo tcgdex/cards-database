@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Hoopa EX",
 		fr: "Hoopa EX",
 	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		720,
 	],
+
 	hp: 140,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -33,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu’à 2 cartes Objet dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				fr: "Cherchez jusqu'à 2 cartes Objet dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -61,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

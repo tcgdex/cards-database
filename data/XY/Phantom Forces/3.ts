@@ -30,7 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Air Slash",
-				fr: "Lame d’Air",
+				fr: "Lame d'Air",
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",

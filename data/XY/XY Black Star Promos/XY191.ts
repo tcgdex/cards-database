@@ -4,16 +4,20 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Keldeo",
+		fr: "Keldeo"
 	},
-	illustrator: "Shin Nagasawa",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Shin Nagasawa",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		647,
 	],
+
 	hp: 90,
+
 	types: [
 		"Water",
 	],
@@ -31,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -55,10 +61,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

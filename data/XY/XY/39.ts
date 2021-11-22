@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				fr: "Lancez une pièce. Si c'est face, échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
 			},
 			damage: 10,
 

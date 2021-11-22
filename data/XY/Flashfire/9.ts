@@ -35,8 +35,8 @@ const card: Card = {
 				fr: "Fouet Furieux",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin until you get tails. For each heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 
 		},

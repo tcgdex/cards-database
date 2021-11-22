@@ -32,7 +32,7 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "King’s Palace",
+				en: "King's Palace",
 				fr: "Palais Royal",
 				es: "Palacio del Rey",
 				it: "Palazzo Reale",
@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Königspalast"
 			},
 			effect: {
-				en: "Your Nidoqueen’s attacks do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
+				en: "Your Nidoqueen's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Les attaques de vos Nidoqueen infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 				es: "Los ataques de tus Nidoqueen hacen 20 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Gli attacchi dei tuoi Nidoqueen infliggono 20 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",

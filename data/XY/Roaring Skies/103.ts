@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Hydreigon EX",
 		fr: "Trioxhydre-EX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		635,
 	],
+
 	hp: 180,
+
 	types: [
 		"Dragon",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -46,13 +50,14 @@ const card: Card = {
 				fr: "Déchiquetage",
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
+				en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 			damage: 80,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -61,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

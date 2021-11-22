@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Tyrantrum EX",
 		fr: "Rexillius EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		697,
 	],
+
 	hp: 180,
+
 	types: [
 		"Dragon",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -29,11 +32,12 @@ const card: Card = {
 				fr: "Croc Despotique",
 			},
 			effect: {
-				en: "Damage from this Pokémon’s attacks isn’t affected by any effects on your opponent’s Active Pokémon.",
+				en: "Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon.",
 				fr: "Les dégâts des attaques de ce Pokémon ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -52,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -60,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

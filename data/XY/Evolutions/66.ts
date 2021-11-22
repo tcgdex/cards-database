@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Bösartige Fänge"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand onto your Bench, you may discard all Pokémon Tool cards attached to your opponent’s Active Pokémon.",
+				en: "When you play this Pokémon from your hand onto your Bench, you may discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
 				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez défausser toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
 				es: "Cuando juegues este Pokémon de tu mano a tu Banca, puedes descartar todas las cartas de Herramienta Pokémon unidas al Pokémon Activo de tu rival.",
 				it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi scartare tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario.",

@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Rotation Spirale",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused. Switch this Pokémon with 1 of your Benched Pokémon.",
+				en: "Your opponent's Active Pokémon is now Confused. Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
 			},
 

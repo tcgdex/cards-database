@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Delinquent",
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Uncommon",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	set: Set,

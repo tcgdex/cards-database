@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Blastoise EX",
 		de: "Turtok EX"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		9,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -42,7 +44,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l’un de vos Pokémon de Banc. Ensuite, votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc. Ensuite, votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
 				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca. Después, tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Scambia questo Pokémon con uno della tua panchina. Poi, il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
 				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco. Em seguida, seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
@@ -67,7 +69,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 30 damage to itself.",
-				fr: "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 30 dégâts.",
+				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
 				es: "Lanza 1 moneda. Si sale cruz, este Pokémon se hace 30 puntos de daño a sí mismo.",
 				it: "Lancia una moneta. Se esce croce, questo Pokémon infligge 30 danni a se stesso.",
 				pt: "Jogue uma moeda. Se sair coroa, este Pokémon causará 30 de danos a ele mesmo.",
@@ -77,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -85,9 +88,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

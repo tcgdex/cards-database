@@ -4,19 +4,13 @@ import Set from '../XY'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		fr: "Énergie Électrique",
+		fr: "Énergie Electrik",
 	},
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
 
 	set: Set,
-
-
-
-
-	stage: "Basic",
-
 
 
 

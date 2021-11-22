@@ -64,7 +64,7 @@ const card: Card = {
 				fr: "Poison Puissant",
 			},
 			effect: {
-				en: "Discard 1 Energy attached to this Pokémon. Your opponent’s Active Pokémon is now Poisoned.",
+				en: "Discard 1 Energy attached to this Pokémon. Your opponent's Active Pokémon is now Poisoned.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 120,

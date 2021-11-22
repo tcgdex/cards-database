@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Me First",
-				fr: "Moi d’Abord",
+				fr: "Moi d'Abord",
 			},
 			effect: {
 				en: "Draw a card.",

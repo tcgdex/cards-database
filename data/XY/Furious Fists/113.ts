@@ -4,26 +4,30 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "M Lucario EX",
-		fr: "M Lucario EX",
+		fr: "M-Lucario EX",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 220,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Lucario-EX",
 		fr: "Lucario-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -37,13 +41,14 @@ const card: Card = {
 				fr: "Poing Imminent",
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
+				en: "Discard an Energy attached to your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 140,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -52,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "EX"
 }
 
 export default card

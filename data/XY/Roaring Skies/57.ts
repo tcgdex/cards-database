@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Hurlement Puissant",
 			},
 			effect: {
-				en: "This attack does 20 damage times the number of cards in your opponent’s hand.",
+				en: "This attack does 20 damage times the number of cards in your opponent's hand.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de cartes dans la main de votre adversaire.",
 			},
 			damage: "20×",

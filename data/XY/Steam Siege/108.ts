@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Steelix EX",
 		de: "Stahlos EX"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		208,
 	],
+
 	hp: 180,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "EX",
 
@@ -44,7 +46,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 50 more damage. If you do, this Pokémon does 20 damage to itself.",
-				fr: "Vous pouvez infliger 50 dégâts supplémentaires. Dans ce cas, ce Pokémon s’inflige 20 dégâts.",
+				fr: "Vous pouvez infliger 50 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
 				es: "Puedes hacer 50 puntos de daño más. Si lo haces, este Pokémon se hace 20 puntos de daño a sí mismo.",
 				it: "Puoi infliggere 50 danni in più. Se lo fai, questo Pokémon infligge 20 danni a se stesso.",
 				pt: "Você pode causar 50 de danos adicionais. Se fizer isso, este Pokémon causará 20 de danos a ele mesmo.",
@@ -71,7 +73,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 100 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 100 dégâts multipliés par le nombre de côtés face.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 100 dégâts multipliés par le nombre de côtés face.",
 				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 100 puntos de daño por cada cara.",
 				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 100 danni ogni volta che esce testa.",
 				pt: "Jogue uma moeda até sair coroa. Este ataque causa 100 de danos vezes o número de caras.",
@@ -81,22 +83,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

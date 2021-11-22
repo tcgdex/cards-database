@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Houndoom EX",
 		fr: "Démolosse-EEX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Corne de Fusion",
 			},
 			effect: {
-				en: "Discard the top 2 cards of your opponent’s deck.",
+				en: "Discard the top 2 cards of your opponent's deck.",
 				fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
 			},
 
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -62,9 +65,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

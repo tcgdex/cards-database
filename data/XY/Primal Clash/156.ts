@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Gardevoir EX",
 		fr: "M-Gardevoir-EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		282,
 	],
+
 	hp: 210,
+
 	types: [
 		"Fairy",
 	],
+
 	evolveFrom: {
 		en: "Gardevoir-EX",
 		fr: "Gardevoir-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -44,22 +48,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	suffix: "EX"
 }
 
 export default card

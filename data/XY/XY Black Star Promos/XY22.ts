@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Hypnoblast",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 30,
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Vent Puissant",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is Asleep, this attack does 60 more damage and heal 30 damage from this Pokémon.",
+				en: "If your opponent's Active Pokémon is Asleep, this attack does 60 more damage and heal 30 damage from this Pokémon.",
 				fr: "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: "60＋",

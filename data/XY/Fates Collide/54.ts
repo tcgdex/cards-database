@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Zygarde EX",
 		de: "Zygarde EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		718,
 	],
+
 	hp: 190,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -32,7 +34,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Land’s Pulse",
+				en: "Land's Pulse",
 				fr: "Vibration Terrestre",
 				es: "Pulso Telúrico",
 				it: "Pulsazione Tellurica",
@@ -41,9 +43,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 20 more damage.",
-				fr: "S’il y a une carte Stade en jeu, cette attaque inflige 20 dégâts supplémentaires.",
+				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 20 dégâts supplémentaires.",
 				es: "Si hay alguna carta de Estadio en juego, este ataque hace 20 puntos de daño más.",
-				it: "Se c’è in gioco una carta Stadio, questo attacco infligge 20 danni in più.",
+				it: "Se c'è in gioco una carta Stadio, questo attacco infligge 20 danni in più.",
 				pt: "Se houver algum card de Estádio em jogo, este ataque causará 20 de danos adicionais.",
 				de: "Wenn 1 Stadionkarte im Spiel ist, fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
@@ -81,7 +83,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land’s Wrath",
+				en: "Land's Wrath",
 				fr: "Force Chtonienne",
 				es: "Fuerza Telúrica",
 				it: "Forza Tellurica",
@@ -93,6 +95,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -101,9 +104,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

@@ -6,21 +6,24 @@ const card: Card = {
 		en: "Aegislash EX",
 		fr: "Exagide EX",
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		681,
 	],
+
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -29,11 +32,12 @@ const card: Card = {
 				fr: "Bouclier Sublime",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from each of your opponent’s Pokémon that has Special Energy attached to it.",
-				fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques de chacun des Pokémon de votre adversaire auquel de l’Énergie spéciale est attachée.",
+				en: "Prevent all damage done to this Pokémon by attacks from each of your opponent's Pokémon that has Special Energy attached to it.",
+				fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques de chacun des Pokémon de votre adversaire auquel de l'Énergie spéciale est attachée.",
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -43,7 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash Blast",
-				fr: "Rafale d’Entailles",
+				fr: "Rafale d'Entailles",
 			},
 			effect: {
 				en: "This attack does 20 more damage for each Metal Energy attached to this Pokémon.",
@@ -53,22 +57,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

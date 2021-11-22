@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Sabotage",
 			},
 			effect: {
-				en: "Discard a random card from your opponent’s hand.",
+				en: "Discard a random card from your opponent's hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
 			},
 			damage: 50,
@@ -56,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "60+",
 

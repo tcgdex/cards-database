@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard the top card of your deck. If that card is a Fighting Energy card, attach it to this Pokémon.",
-				fr: "Défaussez la carte du dessus de votre deck. Si c’est une carte Énergie Fighting, attachez-la à ce Pokémon.",
+				fr: "Défaussez la carte du dessus de votre deck. Si c'est une carte Énergie Fighting, attachez-la à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -46,7 +46,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Drill",
-				fr: "Empal’Korne",
+				fr: "Empal'Korne",
 			},
 
 			damage: 40,

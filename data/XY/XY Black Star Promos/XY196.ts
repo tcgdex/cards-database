@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Genesect",
+		fr: "Genesect"
 	},
-	illustrator: "PLANETA",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "PLANETA",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		649,
 	],
+
 	hp: 110,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,12 +54,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -64,9 +69,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 2
 }
 
 export default card

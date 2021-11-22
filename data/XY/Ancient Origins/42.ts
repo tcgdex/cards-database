@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Tyranitar EX",
 		fr: "Tyranocif-EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 180,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -49,29 +51,30 @@ const card: Card = {
 				fr: "Destructerre",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 130,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

@@ -3,23 +3,27 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Aegislash-EX",
+		en: "Aegislash EX",
+		fr: "Exagide EX"
 	},
-	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Ayaka Yoshida",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		681,
 	],
+
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -31,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,12 +53,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -61,9 +68,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	stage: "Basic",
+	retreat: 3
 }
 
 export default card

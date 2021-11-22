@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Metagross EX",
 		fr: "Métalosse EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		376,
 	],
+
 	hp: 180,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "EX",
 
@@ -34,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may move a Metal Energy from 1 of your Benched Pokémon to this Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie Metal de l’un de vos Pokémon de Banc vers ce Pokémon.",
+				fr: "Vous pouvez déplacer une Énergie Metal de l'un de vos Pokémon de Banc vers ce Pokémon.",
 			},
 			damage: 20,
 
@@ -58,22 +60,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "−20"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

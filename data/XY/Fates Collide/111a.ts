@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Shauna",
 	},
+
 	illustrator: "Ken Sugimori",
-	rarity: "Uncommon",
+	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
-
-
 	trainerType: "Supporter",
 
+	effect: {
+		en: "Shuffle your hand into your deck. Then, draw 5 cards."
+	}
 }
 
 export default card

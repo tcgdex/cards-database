@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Mewtwo EX",
 		fr: "Mewtwo-EX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 170,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -49,12 +51,13 @@ const card: Card = {
 				fr: "Change Dégâts",
 			},
 			effect: {
-				en: "Switch all damage counters on this Pokémon with those on your opponent’s Active Pokémon.",
+				en: "Switch all damage counters on this Pokémon with those on your opponent's Active Pokémon.",
 				fr: "Échangez tous les marqueurs de dégâts de ce Pokémon avec ceux du Pokémon Actif de votre adversaire.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

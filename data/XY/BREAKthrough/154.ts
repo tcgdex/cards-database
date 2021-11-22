@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Houndoom EX",
 		fr: "Méga-Démolosse-EXEX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		229,
 	],
+
 	hp: 210,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Houndoom-EX",
 		fr: "Démolosse-EEX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -43,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -51,9 +56,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	suffix: "EX"
 }
 
 export default card

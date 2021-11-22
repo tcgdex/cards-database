@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Récupération d'Énergie",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Trainer",
 
 	set: Set,

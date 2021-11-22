@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Mewtwo EX",
+		fr: "Mewtwo EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -33,7 +34,7 @@ const card: Card = {
 				en: "Photon Wave",
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
 			},
 			damage: 30,
 
@@ -61,7 +62,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+	stage: "Basic"
 }
 
 export default card

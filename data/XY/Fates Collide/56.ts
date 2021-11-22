@@ -41,9 +41,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may attach 1 Darkness Energy from your discard pile to this Pokémon for each Prize card your opponent has taken.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon, vous pouvez attacher 1 Énergie Darkness de votre pile de défausse à ce Pokémon pour chaque carte Récompense que votre adversaire a récupérée.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez attacher 1 Énergie Darkness de votre pile de défausse à ce Pokémon pour chaque carte Récompense que votre adversaire a récupérée.",
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes unir 1 Energía Darkness de tu pila de descartes a este Pokémon por cada carta de Premio que haya tomado tu rival.",
-				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi assegnare a questo Pokémon un’Energia Darkness dalla tua pila degli scarti per ogni carta Premio presa dal tuo avversario.",
+				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi assegnare a questo Pokémon un'Energia Darkness dalla tua pila degli scarti per ogni carta Premio presa dal tuo avversario.",
 				pt: "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você poderá ligar 1 Energia Darkness da sua pilha de descarte a este Pokémon para cada card de Prêmio recebido por seu oponente.",
 				de: "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du für jede Preiskarte, die dein Gegner bereits genommen hat, 1 Darkness-Energie aus deinem Ablagestapel an dieses Pokémon anlegen."
 			},

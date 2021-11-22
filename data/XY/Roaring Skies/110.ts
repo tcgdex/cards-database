@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Cherche VS",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Trainer",
 
 	set: Set,

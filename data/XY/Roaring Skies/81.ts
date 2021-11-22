@@ -54,7 +54,7 @@ const card: Card = {
 				fr: "Danse-Plume",
 			},
 			effect: {
-				en: "During your next turn, each of this Pokémon’s attacks does 80 more damage (before applying Weakness and Resistance).",
+				en: "During your next turn, each of this Pokémon's attacks does 80 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 

@@ -39,7 +39,7 @@ const card: Card = {
 				fr: "Séduction",
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon.",
+				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
 				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 			},
 
@@ -54,7 +54,7 @@ const card: Card = {
 				fr: "Psyko",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Energy attached to your opponent’s Active Pokémon.",
+				en: "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: "30+",

@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Tyranitar",
+		fr: "Tyranocif"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
+		fr: "Ymphect"
 	},
 
 	stage: "Stage2",

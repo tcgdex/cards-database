@@ -68,7 +68,7 @@ const card: Card = {
 				de: "Holpriger Fall"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused. That Pokémon can’t retreat during your opponent’s next turn.",
+				en: "Your opponent's Active Pokémon is now Confused. That Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Le Pokémon ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido. Ese Pokémon no puede retirarse durante el próximo turno de tu rival.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",

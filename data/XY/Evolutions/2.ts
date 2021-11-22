@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "M Venusaur EX",
 		de: "M-Bisaflor EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 230,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Venusaur-EX",
 		fr: "Florizarre-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -46,7 +50,7 @@ const card: Card = {
 				de: "Krisenranke"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Paralyzed and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Paralizado y Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene paralizzato e avvelenato.",
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -65,9 +70,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	suffix: "EX"
 }
 
 export default card

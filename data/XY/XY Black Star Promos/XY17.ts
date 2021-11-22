@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Charizard EX",
 		fr: "Dracaufeu EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -51,12 +53,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige 30 dégâts.",
+				fr: "Ce Pokémon s'inflige 30 dégâts.",
 			},
 			damage: 120,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,9 +68,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

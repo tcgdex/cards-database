@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Nachtmahr"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
@@ -64,7 +64,7 @@ const card: Card = {
 				de: "Salz in die Wunde streuen"
 			},
 			effect: {
-				en: "Move as many damage counters on your opponent’s Benched Pokémon as you like to any of your opponent’s other Pokémon in any way you like.",
+				en: "Move as many damage counters on your opponent's Benched Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
 				fr: "Déplacez autant de marqueurs de dégâts que vous voulez des Pokémon de Banc de votre adversaire vers les autres Pokémon de votre adversaire, de la manière que vous voulez.",
 				es: "Mueve tantos contadores de daño como quieras de los Pokémon en Banca de tu rival a cualquiera de los otros Pokémon de tu rival de la manera que desees.",
 				it: "Distribuisci a piacimento i segnalini danno presenti sui Pokémon in panchina del tuo avversario su qualsiasi altro suo Pokémon.",

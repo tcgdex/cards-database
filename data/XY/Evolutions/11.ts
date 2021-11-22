@@ -33,7 +33,7 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Energy Burn",
-				fr: "Dépense d’Énergie",
+				fr: "Dépense d'Énergie",
 				es: "Quema Energía",
 				it: "Bruciaenergia",
 				pt: "Energia Queimada",

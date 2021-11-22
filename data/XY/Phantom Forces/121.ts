@@ -3,25 +3,31 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "M Gengar-EX",
+		en: "M Gengar EX",
+		fr: "M-Ectoplasma EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		94,
 	],
+
 	hp: 220,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Gengar-EX",
+		fr: "Ectoplasma-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -39,12 +45,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -52,9 +60,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	suffix: "EX",
+	retreat: 1
 }
 
 export default card

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Sceptile EX",
 		fr: "M-Jungko-EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		254,
 	],
+
 	hp: 220,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Sceptile-EX",
 		fr: "Jungko-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -56,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,9 +69,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "EX"
 }
 
 export default card

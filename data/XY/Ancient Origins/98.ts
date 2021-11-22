@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Rayquaza EX",
 		fr: "M-Rayquaza-EX",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Ultra Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 220,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Rayquaza-EX",
 		fr: "Rayquaza-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -58,22 +62,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	suffix: "EX"
 }
 
 export default card

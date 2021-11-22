@@ -3,21 +3,24 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Yveltal-EX",
+		en: "Yveltal EX",
+		fr: "Yveltal EX"
 	},
-	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Eske Yoshinob",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		717,
 	],
+
 	hp: 170,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -52,12 +55,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -65,9 +70,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	stage: "Basic",
+	retreat: 2
 }
 
 export default card

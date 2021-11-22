@@ -3,25 +3,31 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "M Lucario-EX",
+		en: "M Lucario EX",
+		fr: "M-Lucario EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		448,
 	],
+
 	hp: 220,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Lucario-EX",
+		fr: "Lucario-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -40,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -47,10 +54,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	suffix: "EX",
+	retreat: 2
 }
 
 export default card

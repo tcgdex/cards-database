@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Krookodile EX",
 		fr: "Crocorible EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		553,
 	],
+
 	hp: 180,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -34,7 +36,7 @@ const card: Card = {
 				fr: "Double Morsure",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
+				en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
 			},
 			damage: "40+",
@@ -52,29 +54,30 @@ const card: Card = {
 				fr: "Croc Lourd",
 			},
 			effect: {
-				en: "Discard a card from your hand. If you can’t discard a card, this attack does nothing.",
+				en: "Discard a card from your hand. If you can't discard a card, this attack does nothing.",
 				fr: "Défaussez une carte de votre main. Si vous ne pouvez pas défausser de carte, cette attaque ne fait rien.",
 			},
 			damage: 130,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "−20"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

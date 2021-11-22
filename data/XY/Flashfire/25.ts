@@ -49,7 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Ball",
-				fr: "Ball’Glace",
+				fr: "Ball'Glace",
 			},
 
 			damage: 60,

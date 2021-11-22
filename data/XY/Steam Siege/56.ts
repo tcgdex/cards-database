@@ -10,15 +10,18 @@ const card: Card = {
 		pt: "Anorith",
 		de: "Anorith"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		347,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
@@ -38,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Each of your Restored Pokémon has no Weakness.",
-				fr: "Aucun de vos Pokémon Recréés n’a de Faiblesse.",
+				fr: "Aucun de vos Pokémon Recréés n'a de Faiblesse.",
 				es: "Ninguno de tus Pokémon Recreados tiene Debilidad.",
 				it: "Nessuno dei tuoi Pokémon Ricreati ha debolezza.",
 				pt: "Cada um de seus Pokémon Restaurados não possui Fraqueza.",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -61,7 +65,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
@@ -71,6 +75,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -80,8 +85,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	evolveFrom: {
+		en: "Claw Fossil"
+	}
 }
 
 export default card

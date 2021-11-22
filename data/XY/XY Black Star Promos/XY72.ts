@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Latios EX",
 		fr: "Latios EX",
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		381,
 	],
+
 	hp: 170,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "EX",
 
@@ -49,12 +51,13 @@ const card: Card = {
 				en: "Light Pulse",
 			},
 			effect: {
-				en: "Prevent all effects of your opponent’s attacks, except damage, done to this Pokémon during your opponent’s next turn.",
+				en: "Prevent all effects of your opponent's attacks, except damage, done to this Pokémon during your opponent's next turn.",
 			},
 			damage: 110,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

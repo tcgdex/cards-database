@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Pikachu EX",
 		fr: "Pikachu EX",
 	},
+
 	illustrator: "Megumi Mizutani",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		25,
 	],
+
 	hp: 130,
+
 	types: [
 		"Lightning",
 	],
-
 
 	suffix: "EX",
 
@@ -33,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "30×",
 
@@ -46,7 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Overspark",
-				fr: "Max’Étincelle",
+				fr: "Max'Étincelle",
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to this Pokémon. This attack does 50 damage times the number of Energy cards you discarded.",
@@ -56,22 +58,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

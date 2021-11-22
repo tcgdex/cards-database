@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Brasier de Combat",
 			},
 			effect: {
-				en: "This attack does 20 more damage for each of your opponent’s Benched Pokémon.",
+				en: "This attack does 20 more damage for each of your opponent's Benched Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire.",
 			},
 			damage: "20+",

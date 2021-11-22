@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Shaymin",
+		fr: "Shaymin"
 	},
-	illustrator: "You Iribi",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "You Iribi",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		492,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -58,10 +62,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

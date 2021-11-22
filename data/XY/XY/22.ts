@@ -42,7 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
-				fr: "Feu d’Artifice",
+				fr: "Feu d'Artifice",
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",

@@ -26,7 +26,7 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Energy Evolution",
-				fr: "Évolution de l’Énergie",
+				fr: "Évolution de l'Énergie",
 			},
 			effect: {
 				en: "When you attach a basic Energy card from your hand to this Pokémon, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",

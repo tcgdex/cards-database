@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie Darkness de votre pile de défausse à l’un de vos Pokémon de Banc.",
+				fr: "Attachez une carte Énergie Darkness de votre pile de défausse à l'un de vos Pokémon de Banc.",
 				es: "Une 1 carta de Energía Darkness de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia Darkness dalla tua pila degli scarti.",
 				pt: "Ligue um card de Energia Darkness da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
@@ -65,8 +65,8 @@ const card: Card = {
 				de: "Finsterklinge"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can’t attack during your next turn.",
-				fr: "Lancez une pièce. Si c’est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				en: "Flip a coin. If tails, this Pokémon can't attack during your next turn.",
+				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 				es: "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
 				it: "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
 				pt: "Jogue uma moeda. Se sair coroa, este Pokémon não poderá atacar durante sua próxima vez de jogar.",

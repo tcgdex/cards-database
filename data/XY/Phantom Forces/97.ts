@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Attach this Pokémon Tool to 1 of your opponent's Pokémon-EX that doesn't already have a Pokémon Tool attached to it.",
-		fr: "Attachez cet Outil Pokémon à un Pokémon-EX de votre adversaire auquel un Outil Pokémon n'est pas déjà attaché.",
+		en: "The attacks of the Pokémon this card is attached to cost Colorless more. When this card is removed from a Pokémon for any reason, put this card in its owner's discard pile.",
+		fr: "Les attaques du Pokémon auquel cette carte est attachée coûtent Colorless de plus.\n\nLorsque cette carte est retirée d'un Pokémon pour quelque raison que ce soit, placez cette carte dans la pile de défausse de son propriétaire.",
 	},
 
 	trainerType: "Tool",

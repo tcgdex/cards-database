@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Greninja EX",
 		fr: "Amphinobi EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		658,
 	],
+
 	hp: 170,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -32,8 +34,8 @@ const card: Card = {
 				fr: "Tir de Précision",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

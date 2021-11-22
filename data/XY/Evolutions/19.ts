@@ -34,7 +34,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud’Pattes",
+				fr: "Coud'Pattes",
 				es: "Patada Destrucción",
 				it: "Calcio Esplosivo",
 				pt: "Chute Poderoso",

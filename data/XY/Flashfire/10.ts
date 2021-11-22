@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Ébouriffement",
 			},
 			effect: {
-				en: "During your next turn, flip 6 coins instead of 2 for this Pokémon’s Prickly Needles attack.",
-				fr: "Pendant votre prochain tour, lancez 6 pièces au lieu de 2 pour l’attaque Épines Acérées de ce Pokémon.",
+				en: "During your next turn, flip 6 coins instead of 2 for this Pokémon's Prickly Needles attack.",
+				fr: "Pendant votre prochain tour, lancez 6 pièces au lieu de 2 pour l'attaque Épines Acérées de ce Pokémon.",
 			},
 
 		},

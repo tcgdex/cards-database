@@ -3,7 +3,7 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Maxie’s Hidden Ball Trick",
+		en: "Maxie's Hidden Ball Trick",
 		fr: "Ruse de Max",
 	},
 	illustrator: "Ken Sugimori",

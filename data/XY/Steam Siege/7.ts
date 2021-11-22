@@ -45,8 +45,8 @@ const card: Card = {
 				de: "Schallsicht"
 			},
 			effect: {
-				en: "If you have exactly 4 cards in your hand, ignore all Energy in the attack cost of each of this Pokémon’s attacks.",
-				fr: "Si vous avez exactement 4 cartes dans votre main, ignorez toutes les Énergies dans le coût d’attaque de chacune des attaques de ce Pokémon.",
+				en: "If you have exactly 4 cards in your hand, ignore all Energy in the attack cost of each of this Pokémon's attacks.",
+				fr: "Si vous avez exactement 4 cartes dans votre main, ignorez toutes les Énergies dans le coût d'attaque de chacune des attaques de ce Pokémon.",
 				es: "Si tienes exactamente 4 cartas en tu mano, ignora todas las Energías en el coste de los ataques de este Pokémon.",
 				it: "Se hai esattamente quattro carte in mano, ignora tutte le Energie necessarie per usare ciascuno degli attacchi di questo Pokémon.",
 				pt: "Se você tiver exatamente 4 cards na sua mão, ignore todas as Energias no custo do ataque de cada ataque deste Pokémon.",
@@ -64,14 +64,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Assault Boom",
-				fr: "Dégât d’Assaut",
+				fr: "Dégât d'Assaut",
 				es: "Bomba de Asalto",
 				it: "Boatassalto",
 				pt: "Ataque Explosivo",
 				de: "Offensiv-Donner"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.",
+				en: "If your opponent's Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.",
 				fr: "Si une carte Outil Pokémon est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 70 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival tiene 1 carta de Herramienta Pokémon unida a él, este ataque hace 70 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario ha una carta Oggetto Pokémon assegnata, questo attacco infligge 70 danni in più.",

@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feelin’ Fine",
+				en: "Feelin' Fine",
 				fr: "Mode Cool",
 			},
 			effect: {

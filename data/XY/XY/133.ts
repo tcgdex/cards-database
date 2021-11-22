@@ -15,8 +15,6 @@ const card: Card = {
 
 
 
-	stage: "Basic",
-
 
 
 

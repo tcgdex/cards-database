@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Kyurem EX",
 		fr: "Kyurem-EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		646,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -34,7 +36,7 @@ const card: Card = {
 				fr: "Ère Glaciaire",
 			},
 			effect: {
-				en: "This attack does 30 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
@@ -51,13 +53,14 @@ const card: Card = {
 				fr: "Glacecalibur",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon. The Defending Pokémon can’t attack during your opponent’s next turn.",
+				en: "Discard an Energy attached to this Pokémon. The Defending Pokémon can't attack during your opponent's next turn.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon. Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 130,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -66,9 +69,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

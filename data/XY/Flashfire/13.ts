@@ -4,26 +4,30 @@ import Set from '../Flashfire'
 const card: Card = {
 	name: {
 		en: "M Charizard EX",
-		fr: "M Dracaufeu EX",
+		fr: "M-Dracaufeu EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 220,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charizard-EX",
 		fr: "Dracaufeu-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -40,7 +44,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 50 damage to itself.",
-				fr: "Ce Pokémon s’inflige 50 dégâts."
+				fr: "Ce Pokémon s'inflige 50 dégâts."
 			},
 			damage: 300,
 
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -71,9 +76,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	suffix: "EX"
 }
 
 export default card

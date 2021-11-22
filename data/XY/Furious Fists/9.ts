@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon evolved from Shelmet during this turn, this attack does 40 more damage.",
-				fr: "Si ce Pokémon a évolué d’Escargaume pendant ce tour, cette attaque inflige 40 dégâts supplémentaires.",
+				fr: "Si ce Pokémon a évolué d'Escargaume pendant ce tour, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "20+",
 
@@ -52,11 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Afterimage Strike",
-				fr: "Frap’Invisible",
+				fr: "Frap'Invisible",
 			},
 			effect: {
-				en: "If any damage is done to this Pokémon by attacks during your opponent’s next turn, flip a coin. If heads, prevent that damage.",
-				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire, lancez une pièce. Si c’est face, évitez les dégâts.",
+				en: "If any damage is done to this Pokémon by attacks during your opponent's next turn, flip a coin. If heads, prevent that damage.",
+				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, évitez les dégâts.",
 			},
 			damage: 40,
 

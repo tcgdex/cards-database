@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon. Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				fr: "Soignez 30 dégâts à ce Pokémon. Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
 			},
 
 		},

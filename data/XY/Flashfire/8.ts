@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Poudre Dodo",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 10,
 

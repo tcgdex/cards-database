@@ -3,23 +3,26 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Shaymin-EX",
+		en: "Shaymin EX",
 	},
-	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Ayaka Yoshida",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		492,
 	],
+
 	hp: 110,
+
 	types: [
 		"Colorless",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -47,12 +51,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -60,9 +66,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	stage: "Basic",
+	retreat: 1
 }
 
 export default card

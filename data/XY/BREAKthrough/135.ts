@@ -3,7 +3,7 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Buddy Buddy Rescue",
+		en: "Buddy-Buddy Rescue",
 		fr: "Rescousse Copain-Copain",
 	},
 	illustrator: "Toyste Beach",

@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma’s Numel",
+		en: "Team Magma's Numel",
 		fr: "Chamallot de la Team Magma",
 	},
 	illustrator: "Akira Komayama",

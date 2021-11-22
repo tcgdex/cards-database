@@ -3,8 +3,8 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Misty’s Determination",
-		fr: "Détermination d’Ondine",
+		en: "Misty's Determination",
+		fr: "Détermination d'Ondine",
 		es: "Determinación de Misty",
 		it: "Determinazione di Misty",
 		pt: "Determinação da Misty",
@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Défaussez une carte de votre main. Dans ce cas, regardez les 8 cartes du dessus de votre deck et ajoutez l’une d’entre elles à votre main. Mélangez les autres cartes avec votre deck.",
+		fr: "Défaussez une carte de votre main. Dans ce cas, regardez les 8 cartes du dessus de votre deck et ajoutez l'une d'entre elles à votre main. Mélangez les autres cartes avec votre deck.",
 		en: "Discard a card from your hand. If you do, look at the top 8 cards of your deck and put 1 of them into your hand. Shuffle the other cards back into your deck.",
 		es: "Descarta 1 carta de tu mano. Si lo haces, mira las 8 primeras cartas de tu baraja y pon 1 de ellas en tu mano. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
 		it: "Scarta una delle carte che hai in mano. Se lo fai, guarda le prime otto carte del tuo mazzo e aggiungi una di esse alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",

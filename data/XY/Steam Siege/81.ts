@@ -67,7 +67,7 @@ const card: Card = {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
 				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un’Energia assegnata a questo Pokémon.",
+				it: "Scarta un'Energia assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia ligada a este Pokémon.",
 				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},

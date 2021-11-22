@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Manaphy EX",
 		de: "Manaphy EX"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		490,
 	],
+
 	hp: 120,
+
 	types: [
 		"Water",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -32,13 +35,13 @@ const card: Card = {
 				en: "Aqua Tube",
 				fr: "Tube Aqua",
 				es: "Tubo Acuático",
-				it: "Scivolo d’Acqua",
+				it: "Scivolo d'Acqua",
 				pt: "Aqua Tubo",
 				de: "Wasserkanal"
 			},
 			effect: {
 				en: "Each of your Pokémon that has any Water Energy attached to it has no Retreat Cost.",
-				fr: "Chacun de vos Pokémon auquel de l’Énergie Water est attachée n’a pas de Coût de Retraite.",
+				fr: "Chacun de vos Pokémon auquel de l'Énergie Water est attachée n'a pas de Coût de Retraite.",
 				es: "Cada uno de tus Pokémon que tenga alguna Energía Water unida a él no tiene ningún Coste de Retirada.",
 				it: "Nessuno dei tuoi Pokémon che ha delle Energie Water assegnate ha costo di ritirata.",
 				pt: "Cada um dos seus Pokémon que possuir alguma Energia Water ligada não possui Custo para Recuar.",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,6 +76,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -80,9 +85,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

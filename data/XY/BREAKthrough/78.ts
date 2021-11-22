@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Tir de Précision",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Moulin Osseux",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Pokémon-EX, switch this Pokémon with 1 of your Benched Pokémon.",
+				en: "If your opponent's Active Pokémon is a Pokémon-EX, switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
 			},
 			damage: 60,

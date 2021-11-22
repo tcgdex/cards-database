@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Yeux Maléfiques",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand onto your Bench, you may move 3 damage counters from 1 of your opponent’s Pokémon to another of his or her Pokémon.",
+				en: "When you play this Pokémon from your hand onto your Bench, you may move 3 damage counters from 1 of your opponent's Pokémon to another of his or her Pokémon.",
 				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez déplacer 3 marqueurs de dégâts de l'un des Pokémon de votre adversaire vers un autre de ses Pokémon.",
 			},
 		},
@@ -45,7 +45,7 @@ const card: Card = {
 				fr: "Instagriffe",
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
+				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 30,

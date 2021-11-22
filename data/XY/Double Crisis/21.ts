@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua’s Sharpedo",
+		en: "Team Aqua's Sharpedo",
 		fr: "Sharpedo de la Team Aqua",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Team Aqua’s Carvanha",
+		en: "Team Aqua's Carvanha",
 		fr: "Carvanha de la Team Aqua",
 	},
 

@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Vínculo Espiritual de Pidgeot",
 		it: "Legame Mentale con Pidgeot",
 		pt: "Elo Espiritual de Pidgeot",
-		de: "Tauboss’ Geistesbund"
+		de: "Tauboss' Geistesbund"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",

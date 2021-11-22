@@ -39,7 +39,7 @@ const card: Card = {
 				fr: "Brouillard Sinistre",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned. Put 1 damage counter on each of your opponent’s Benched Pokémon.",
+				en: "Your opponent's Active Pokémon is now Poisoned. Put 1 damage counter on each of your opponent's Benched Pokémon.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 1 marqueur de dégâts sur chacun des Pokémon de Banc de votre adversaire.",
 			},
 
@@ -54,7 +54,7 @@ const card: Card = {
 				fr: "Spectacle Perturbant",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon has 3 or more damage counters on it, that Pokémon is Knocked Out.",
+				en: "If your opponent's Active Pokémon has 3 or more damage counters on it, that Pokémon is Knocked Out.",
 				fr: "Si le Pokémon Actif de votre adversaire a 3 marqueurs de dégâts ou plus, ce dernier est mis K.O.",
 			},
 

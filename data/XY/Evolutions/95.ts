@@ -15,15 +15,8 @@ const card: Card = {
 	rarity: "Common",
 	category: "Energy",
 	set: Set,
-	stage: "Basic",
 	energyType: "Normal",
 
-	effect: {
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
-	}
 }
 
 export default card

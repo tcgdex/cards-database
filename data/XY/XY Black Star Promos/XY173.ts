@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Volcanion EX",
+		fr: "Volcanion EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,7 +32,7 @@ const card: Card = {
 				en: "Steam Up",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, during this turn, your Basic Fire Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
+				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, during this turn, your Basic Fire Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 			},
 		},
 	],
@@ -47,7 +48,7 @@ const card: Card = {
 				en: "Volcanic Heat",
 			},
 			effect: {
-				en: "This Pokémon can’t attack during your next turn.",
+				en: "This Pokémon can't attack during your next turn.",
 			},
 			damage: 130,
 
@@ -61,7 +62,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3
+	retreat: 3,
+	stage: "Basic"
 }
 
 export default card

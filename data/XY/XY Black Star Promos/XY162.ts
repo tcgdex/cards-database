@@ -4,24 +4,30 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Greninja",
+		fr: "Amphinobi"
 	},
-	illustrator: "Sanosuke Sakuma",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Sanosuke Sakuma",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		658,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Frogadier",
+		fr: "Croâporal"
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -51,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -58,10 +65,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

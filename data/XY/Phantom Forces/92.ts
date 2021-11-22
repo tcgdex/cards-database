@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Cherchez jusqu’à 3 cartes dans votre deck et défaussez-les. Mélangez ensuite votre deck.",
+		fr: "Cherchez jusqu'à 3 cartes dans votre deck et défaussez-les. Mélangez ensuite votre deck.",
 		en: "Search your deck for up to 3 cards and discard them. Shuffle your deck afterward."
 	},
 	trainerType: "Item",

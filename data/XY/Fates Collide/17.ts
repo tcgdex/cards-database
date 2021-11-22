@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Omanyte",
 		de: "Amonitas"
 	},
+
 	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		138,
 	],
+
 	hp: 80,
+
 	types: [
 		"Water",
 	],
 
 	stage: "RESTORED",
-
 
 	attacks: [
 		{
@@ -36,7 +38,7 @@ const card: Card = {
 				fr: "Pistolet à O",
 				es: "Pistola Agua",
 				it: "Pistolacqua",
-				pt: "Revolver d’Água",
+				pt: "Revolver d'Água",
 				de: "Aquaknarre"
 			},
 
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -53,8 +56,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	evolveFrom: {
+		en: "Helix Fossil Omanyte"
+	}
 }
 
 export default card

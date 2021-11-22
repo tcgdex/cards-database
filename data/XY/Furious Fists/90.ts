@@ -24,7 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Les attaques de chaque Pokémon Fighting en jeu (les vôtres et ceux de votre adversaire) infligent 20 dégâts supplémentaires aux Pokémon-EX Défenseurs (avant application de la Faiblesse et de la Résistance).",
-		en: "The attacks of each Fighting Pokémon in play (both yours and your opponent’s) do 20 more damage to the Defending Pokémon-EX (before applying Weakness and Resistance)."
+		en: "The attacks of each Fighting Pokémon in play (both yours and your opponent's) do 20 more damage to the Defending Pokémon-EX (before applying Weakness and Resistance)."
 	},
 	trainerType: "Stadium",
 

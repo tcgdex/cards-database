@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Ampharos EX",
 		fr: "M Pharamp-EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		181,
 	],
+
 	hp: 220,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Ampharos-EX",
 		fr: "Pharamp-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 				fr: "Règle des Méga-Évolutions",
 			},
 			effect: {
-				en: "You may do 50 more damage and leave your opponent’s Active Pokémon Paralyzed. If you do, this Pokémon does 30 damage to itself.",
+				en: "You may do 50 more damage and leave your opponent's Active Pokémon Paralyzed. If you do, this Pokémon does 30 damage to itself.",
 			},
 			damage: "120+",
 
@@ -60,22 +64,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
-
-
-
+	suffix: "EX"
 }
 
 export default card

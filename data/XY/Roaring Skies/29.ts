@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Prescience",
 			},
 			effect: {
-				en: "Look at the top 5 cards of either player’s deck and put them back on top of that player’s deck in any order.",
+				en: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
 				fr: "Regardez les 5 cartes du dessus du deck de l'un des joueurs et replacez-les sur le dessus du deck de ce joueur dans l'ordre de votre choix.",
 			},
 

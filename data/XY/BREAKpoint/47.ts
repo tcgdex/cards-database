@@ -51,7 +51,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 40 more damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
 				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño más por cada cara.",
 				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, questo attacco infligge 40 danni in più.",
 				pt: "Jogue uma moeda até sair coroa. Este ataque causa 40 de danos adicionais para cada cara.",

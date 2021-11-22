@@ -3,25 +3,31 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Salamence-EX",
+		en: "M Salamence EX",
+		fr: "M-Drattak EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		373,
 	],
+
 	hp: 230,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Salamence-EX",
+		fr: "Drattak-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -41,6 +47,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -48,10 +55,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	suffix: "EX",
+	retreat: 1
 }
 
 export default card

@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Récupération",
 			},
 			effect: {
-				en: "Choose 1 of this Pokémon’s attacks from its previous Evolutions and use it as this attack.",
+				en: "Choose 1 of this Pokémon's attacks from its previous Evolutions and use it as this attack.",
 				fr: "Choisissez l'une des attaques de pré-évolutions de ce Pokémon et utilisez-la en tant que cette attaque.",
 			},
 
@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Explo-Combustion",
 			},
 			effect: {
-				en: "This Pokémon can’t use Combustion Blast during your next turn.",
+				en: "This Pokémon can't use Combustion Blast during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
 			},
 			damage: 130,

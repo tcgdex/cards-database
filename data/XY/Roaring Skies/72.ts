@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts d'une attaque de ce Pokémon, récupérez une carte Récompense supplémentaire.",
-				en: "If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card."
+				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card."
 			},
 		},
 	],

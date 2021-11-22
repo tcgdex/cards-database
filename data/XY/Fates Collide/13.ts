@@ -43,7 +43,7 @@ const card: Card = {
 				de: "Züngelnde Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
@@ -69,7 +69,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 20 damage times the amount of Energy attached to all Pokémon in play.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d’Énergies attachées à tous les Pokémon en jeu.",
+				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous les Pokémon en jeu.",
 				es: "Este ataque hace 20 puntos de daño por cada Energía unida a todos los Pokémon en juego.",
 				it: "Questo attacco infligge 20 danni per ogni Energia assegnata ai Pokémon in gioco.",
 				pt: "Esse ataque causa 20 de danos vezes a quantidade de Energia ligada a todos os Pokémon em jogo.",

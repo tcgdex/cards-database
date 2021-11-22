@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Primal Kyogre EX",
 		fr: "Primo-Kyogre-EX",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Ultra Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		382,
 	],
+
 	hp: 240,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Kyogre-EX",
 		fr: "Kyogre-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 				fr: "Max Θ",
 			},
 			effect: {
-				en: "Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack does 30 damage to each of your opponent’s Benched Pokémon-EX. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack does 30 damage to each of your opponent's Benched Pokémon-EX. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 150,
 
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,9 +73,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	suffix: "EX"
 }
 
 export default card

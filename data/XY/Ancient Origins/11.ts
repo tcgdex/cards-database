@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Double Θ",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
 			},
 			damage: 20,
 

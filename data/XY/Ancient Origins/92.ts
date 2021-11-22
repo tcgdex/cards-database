@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Tyranitar EX",
 		fr: "M-Tyranocif-EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		248,
 	],
+
 	hp: 240,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Tyranitar-EX",
 		fr: "Tyranocif-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -38,7 +42,7 @@ const card: Card = {
 				fr: "Double Θ",
 			},
 			effect: {
-				en: "This attack does 60 more damage for each damage counter on your opponent’s Active Pokémon.",
+				en: "This attack does 60 more damage for each damage counter on your opponent's Active Pokémon.",
 			},
 			damage: "110+",
 
@@ -60,22 +64,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
-
-
-
+	suffix: "EX"
 }
 
 export default card

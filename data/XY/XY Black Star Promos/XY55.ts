@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Swampert EX",
 		fr: "Laggron EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		260,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -53,12 +55,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s’inflige 20 dégâts.",
+				fr: "Ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 120,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -67,9 +70,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

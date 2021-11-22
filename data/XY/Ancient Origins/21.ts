@@ -70,7 +70,7 @@ const card: Card = {
 				fr: "Mania",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires. Si c’est pile, ce Pokémon s’inflige 30 dégâts.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
 			},
 			damage: "100+",
 

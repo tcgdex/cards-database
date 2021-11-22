@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Black Kyurem",
+		fr: "Kyurem Noir"
 	},
-	illustrator: "kawayoo",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "kawayoo",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		646,
 	],
+
 	hp: 130,
+
 	types: [
 		"Water",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -59,10 +63,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

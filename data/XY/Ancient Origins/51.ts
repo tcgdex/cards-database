@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Marteau de Fer Défendu",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Pokémon-EX, discard an Energy attached to that Pokémon.",
+				en: "If your opponent's Active Pokémon is a Pokémon-EX, discard an Energy attached to that Pokémon.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, défaussez une Énergie lui étant attachée.",
 			},
 			damage: 70,

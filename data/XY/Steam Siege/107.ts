@@ -10,22 +10,25 @@ const card: Card = {
 		pt: "Volcanion EX",
 		de: "Volcanion EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		721,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 		"Water",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -38,7 +41,7 @@ const card: Card = {
 				de: "Dampfdruck"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, during this turn, your Basic Fire Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
+				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, during this turn, your Basic Fire Pokémon's attacks do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie Fire de votre main. Dans ce cas, pendant ce tour, les attaques de vos Pokémon Fire de base infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 carta de Energía Fire de tu mano. Si lo haces, durante este turno, los ataques de tus Pokémon Fire Básicos hacen 30 puntos de daños más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Fire dalla tua mano. Se lo fai, durante questo turno gli attacchi dei tuoi Pokémon Base Fire infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
@@ -47,6 +50,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -63,7 +67,7 @@ const card: Card = {
 				de: "Vulkanhitze"
 			},
 			effect: {
-				en: "This Pokémon can’t attack during your next turn.",
+				en: "This Pokémon can't attack during your next turn.",
 				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 				es: "Este Pokémon no puede atacar durante tu próximo turno.",
 				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
@@ -74,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -82,9 +87,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

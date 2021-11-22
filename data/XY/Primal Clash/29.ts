@@ -4,21 +4,23 @@ import Set from '../Primal Clash'
 const card: Card = {
 	name: {
 		en: "Camerupt EX",
-		fr: "Camérupt-EEX",
+		fr: "Camérupt EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		323,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -66,9 +69,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

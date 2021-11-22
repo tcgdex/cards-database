@@ -24,7 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Les Pokémon Grass de chaque joueur peuvent évoluer pendant son premier tour ou pendant le tour où il joue les Pokémon concernés.",
-		en: "Each player’s Grass Pokémon can evolve during his or her first turn or the turn he or she plays those Pokémon."
+		en: "Each player's Grass Pokémon can evolve during his or her first turn or the turn he or she plays those Pokémon."
 	},
 	trainerType: "Stadium",
 

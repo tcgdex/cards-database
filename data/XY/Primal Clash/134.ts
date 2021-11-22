@@ -3,7 +3,7 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Professor Birch’s Observations",
+		en: "Professor Birch's Observations",
 		fr: "Observations du Professeur Seko",
 	},
 	illustrator: "Yusuke Ohmura",

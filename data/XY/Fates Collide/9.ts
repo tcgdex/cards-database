@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
-				fr: "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s’inflige 20 dégâts.",
+				fr: "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
 				es: "Puedes hacer 40 puntos de daño más. Si lo haces, este Pokémon se hace 20 puntos de daño a sí mismo.",
 				it: "Puoi infliggere 40 danni in più. Se lo fai, questo Pokémon infligge 20 danni a se stesso.",
 				pt: "Você pode causar 40 de danos adicionais. Se fizer isso, este Pokémon causará 20 de danos a ele mesmo.",

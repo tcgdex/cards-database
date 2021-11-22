@@ -4,16 +4,20 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Snorlax",
+		fr: "Ronflex"
 	},
-	illustrator: "Ken Sugimori",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Ken Sugimori",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		143,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
@@ -31,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -49,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -56,10 +62,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 4
 }
 
 export default card

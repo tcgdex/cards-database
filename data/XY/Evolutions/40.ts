@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may Knock Out this Pokémon and attach it to one of your Lightning Pokémon as a Special Energy card. This card provides 2 Lightning Energy only while this card is attached to a Lightning Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez mettre K.O. ce Pokémon et l’attacher à l’un de vos Pokémon Lightning en tant que carte Énergie spéciale. Cette carte ne fournit 2 Énergies Lightning que pendant qu’elle est attachée à un Pokémon.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez mettre K.O. ce Pokémon et l'attacher à l'un de vos Pokémon Lightning en tant que carte Énergie spéciale. Cette carte ne fournit 2 Énergies Lightning que pendant qu'elle est attachée à un Pokémon.",
 				es: "Una vez durante tu turno (antes de tu ataque), puedes dejar Fuera de Combate a este Pokémon y unirlo a 1 de tus Pokémon Lightning como carta de Energía Especial. Esta carta proporciona 2 Energías Lightning solo mientras esta carta esté unida a un Pokémon.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi mettere KO questo Pokémon e assegnarlo a uno dei tuoi Pokémon Lightning come una carta Energia speciale. Questa carta fornisce due Energie Lightning solo quando è assegnata a un Pokémon.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode Nocautear este Pokémon e o ligar a um dos seus Pokémon Lightning como um card de Energia Especial. Este card fornece 2 Energias Lightning somente quando está ligado a um Pokémon.",

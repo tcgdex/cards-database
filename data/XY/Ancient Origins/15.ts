@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Double Θ",
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
 			},
 			damage: 30,
 

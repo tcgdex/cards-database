@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Traîne",
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon. This attack does 50 damage to the new Active Pokémon.",
+				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon. This attack does 50 damage to the new Active Pokémon.",
 				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Cette attaque inflige 50 dégâts au nouveau Pokémon Actif.",
 			},
 

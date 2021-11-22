@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Professor Sycamore",
 	},
+
 	illustrator: "Yusuke Ohmura",
-	rarity: "Uncommon",
+	rarity: "Ultra Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
-
-
 	trainerType: "Supporter",
 
+	effect: {
+		en: "Discard your hand and draw 7 cards."
+	}
 }
 
 export default card

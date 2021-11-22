@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Braixen",
+		fr: "Roussil"
 	},
-	illustrator: "kirisAki",
-	rarity: "Uncommon",
-	category: "Pokemon",
 
+	illustrator: "kirisAki",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		654,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Stage1",
-
 
 	attacks: [
 		{
@@ -48,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -55,10 +59,12 @@ const card: Card = {
 		},
 	],
 
+	evolveFrom: {
+		en: "Fennekin",
+		fr: "Feunnec"
+	},
 
-
-
-
+	retreat: 1
 }
 
 export default card

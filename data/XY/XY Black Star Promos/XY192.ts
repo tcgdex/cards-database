@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Mew",
+		fr: "Mew"
 	},
-	illustrator: "Kouki Saitou",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Kouki Saitou",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		151,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,6 +53,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -57,10 +61,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Boost Atomisant",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Overdrive Smash attack does 60 more damage (before applying Weakness and Resistance).",
+				en: "During your next turn, this Pokémon's Overdrive Smash attack does 60 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, l'attaque Boost Atomisant de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 30,

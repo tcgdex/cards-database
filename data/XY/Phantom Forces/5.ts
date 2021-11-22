@@ -29,7 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
-				fr: "Tit’Sieste",
+				fr: "Tit'Sieste",
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",

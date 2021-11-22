@@ -3,21 +3,24 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Garchomp-EX",
+		en: "Garchomp EX",
+		fr: "Carchacrok EX"
 	},
-	illustrator: "Ryo Ueda",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Ryo Ueda",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		445,
 	],
+
 	hp: 180,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "EX",
 
@@ -52,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -59,10 +63,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	stage: "Basic",
+	retreat: 2
 }
 
 export default card

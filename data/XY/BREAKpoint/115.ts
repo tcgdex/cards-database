@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "M-Gyarados EX",
 		de: "M-Garados EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		130,
 	],
+
 	hp: 240,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Gyarados-EX",
 		fr: "Léviator-eEX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -57,6 +61,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
@@ -65,9 +70,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "EX"
 }
 
 export default card

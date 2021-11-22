@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Charizard EX",
 		fr: "Dracaufeu EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -49,13 +51,14 @@ const card: Card = {
 				fr: "Explo-Combustion",
 			},
 			effect: {
-				en: "This Pokémon can’t use Combustion Blast during your next turn.",
+				en: "This Pokémon can't use Combustion Blast during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
 			},
 			damage: 150,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -64,9 +67,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

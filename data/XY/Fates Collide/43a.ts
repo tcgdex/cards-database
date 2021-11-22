@@ -3,23 +3,26 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Regirock-EX",
+		en: "Regirock EX",
 	},
-	illustrator: "PLANETA",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "PLANETA",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		377,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fighting",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -31,6 +34,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -55,10 +60,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	stage: "Basic",
+	retreat: 3
 }
 
 export default card

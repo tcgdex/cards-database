@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Choc Électrique",
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to this Pokémon. Your opponent’s Active Pokémon is now Paralyzed.",
+				en: "Discard all Lightning Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
 				fr: "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 70,

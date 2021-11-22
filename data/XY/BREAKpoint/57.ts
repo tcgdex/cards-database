@@ -40,8 +40,8 @@ const card: Card = {
 				de: "Unratoxin"
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Garbotoxin).",
-				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n’a pas de talent (à part Miasmotoxine).",
+				en: "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).",
+				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent (à part Miasmotoxine).",
 				es: "Si este Pokémon tiene 1 carta de Herramienta Pokémon unida a él, los Pokémon en juego, en la mano de cada jugador y en la pila de descartes de cada jugador no tienen ninguna habilidad (excepto Garbotoxina).",
 				it: "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, le abilità dei Pokémon in gioco, in mano ai giocatori o nelle loro pile degli scarti non hanno più effetto (a eccezione di Garbotossina).",
 				pt: "Se este Pokémon possuir um card de Ferramenta Pokémon ligado a ele, cada Pokémon em jogo, na mão de cada jogador, e também na pilha de descarte de cada jogador, não terá Habilidades (exceto Garbotoxina).",
@@ -66,7 +66,7 @@ const card: Card = {
 				de: "Stinkbombe"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",

@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Groudon EX",
 		fr: "Groudon EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		383,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fighting",
 	],
-
 
 	suffix: "EX",
 
@@ -33,8 +35,8 @@ const card: Card = {
 				fr: "Griffe Déchirante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
 
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

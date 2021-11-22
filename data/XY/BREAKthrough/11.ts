@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Lasso à Piques",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
+				en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: "60+",
@@ -55,7 +55,7 @@ const card: Card = {
 				fr: "Charge Adamantine",
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 100,

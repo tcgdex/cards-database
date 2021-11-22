@@ -4,21 +4,23 @@ import Set from '../Phantom Forces'
 const card: Card = {
 	name: {
 		en: "Florges EX",
-		fr: "Florges-EX",
+		fr: "Florges EX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		671,
 	],
+
 	hp: 160,
+
 	types: [
 		"Fairy",
 	],
-
 
 	suffix: "EX",
 
@@ -54,22 +56,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Darkness",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

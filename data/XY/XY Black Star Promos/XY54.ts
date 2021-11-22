@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Blaziken EX",
 		fr: "Braségali EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		257,
 	],
+
 	hp: 170,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -66,9 +69,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

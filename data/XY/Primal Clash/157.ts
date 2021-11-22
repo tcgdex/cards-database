@@ -3,7 +3,7 @@ import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Archie’s Ace in the Hole",
+		en: "Archie's Ace in the Hole",
 		fr: "Dernier Recours d'Arthur",
 	},
 	illustrator: "Hitoshi Ariga",

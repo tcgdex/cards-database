@@ -3,23 +3,27 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Magearna-EX",
+		en: "Magearna EX",
+		fr: "Magearna EX"
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		801,
 	],
+
 	hp: 160,
+
 	types: [
 		"Metal",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -31,6 +35,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,12 +53,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -61,9 +68,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	stage: "Basic",
+	retreat: 1
 }
 
 export default card

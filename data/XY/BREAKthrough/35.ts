@@ -6,24 +6,28 @@ const card: Card = {
 		en: "M Glalie EX",
 		fr: "Méga-Oniglali-EEX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		362,
 	],
+
 	hp: 220,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Glalie-EX",
 		fr: "Oniglali-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -44,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -52,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	suffix: "EX"
 }
 
 export default card

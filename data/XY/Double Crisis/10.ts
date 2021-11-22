@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma’s Baltoy",
+		en: "Team Magma's Baltoy",
 		fr: "Balbuto de la Team Magma",
 	},
 	illustrator: "Mitsuhiro Arita",
@@ -33,7 +33,7 @@ const card: Card = {
 				fr: "Lévikinésie",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent’s Pokémon. This attack’s damage isn’t affected by Weakness or Resistance.",
+				en: "This attack does 20 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
 			},
 

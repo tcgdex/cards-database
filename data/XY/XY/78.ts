@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie Darkness de votre pile de défausse à l’un de vos Pokémon de Banc.",
+				fr: "Attachez une carte Énergie Darkness de votre pile de défausse à l'un de vos Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -49,8 +49,8 @@ const card: Card = {
 				fr: "Lame Obscure",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can’t attack during your next turn.",
-				fr: "Lancez une pièce. Si c’est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				en: "Flip a coin. If tails, this Pokémon can't attack during your next turn.",
+				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 100,
 

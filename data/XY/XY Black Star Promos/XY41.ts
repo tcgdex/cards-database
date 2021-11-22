@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Kyogre EX",
 		fr: "Kyogre EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		382,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -33,7 +35,7 @@ const card: Card = {
 				fr: "Vibraqua",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 30,
@@ -58,6 +60,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -66,9 +69,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Roc Indestructible",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Pokémon-EX, this attack does 60 more damage.",
+				en: "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: "60+",

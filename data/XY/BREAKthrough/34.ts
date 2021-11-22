@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Glalie EX",
 		fr: "Oniglali-EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		362,
 	],
+
 	hp: 170,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -32,7 +34,7 @@ const card: Card = {
 				fr: "Haleine de Glace",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 
@@ -55,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

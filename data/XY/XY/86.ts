@@ -46,11 +46,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "King’s Shield",
+				en: "King's Shield",
 				fr: "Bouclier Royal",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks during your opponent’s next turn. This Pokémon can’t use King’s Shield during your next turn.",
+				en: "Prevent all damage done to this Pokémon by attacks during your opponent's next turn. This Pokémon can't use King's Shield during your next turn.",
 				fr: "Évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire. Ce Pokémon ne peut pas utiliser Bouclier Royal pendant votre prochain tour.",
 			},
 			damage: 50,

@@ -4,22 +4,29 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Weezing",
+		fr: "Smogogo"
 	},
-	illustrator: "TOKIYA",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "TOKIYA",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		110,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Koffing",
+		fr: "Smogo"
 	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -33,6 +40,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -55,10 +64,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 3
 }
 
 export default card

@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Chesnaught EX",
 		fr: "Blindépique EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		652,
 	],
+
 	hp: 180,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -53,12 +55,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s’inflige 20 dégâts.",
+				fr: "Ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 120,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,9 +70,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

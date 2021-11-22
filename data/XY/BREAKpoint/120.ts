@@ -10,24 +10,28 @@ const card: Card = {
 		pt: "M-Scizor EX",
 		de: "M-Scherox EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		212,
 	],
+
 	hp: 220,
+
 	types: [
 		"Metal",
 	],
+
 	evolveFrom: {
 		en: "Scizor-EX",
 		fr: "Cizayox-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -44,7 +48,7 @@ const card: Card = {
 				de: "Eisenbeißer"
 			},
 			effect: {
-				en: "You may discard a Special Energy attached to your opponent’s Active Pokémon or a Stadium card in play.",
+				en: "You may discard a Special Energy attached to your opponent's Active Pokémon or a Stadium card in play.",
 				fr: "Vous pouvez défausser une carte Énergie spéciale attachée au Pokémon Actif de votre adversaire ou une carte Stade en jeu.",
 				es: "Puedes descartar 1 Energía Especial unida al Pokémon Activo de tu rival o 1 carta de Estadio en juego.",
 				it: "Puoi scartare una Energia speciale assegnata al Pokémon attivo del tuo avversario o una carta Stadio in gioco.",
@@ -55,22 +59,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	suffix: "EX"
 }
 
 export default card

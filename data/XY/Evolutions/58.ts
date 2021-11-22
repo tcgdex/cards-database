@@ -70,7 +70,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s’inflige 20 dégâts.",
+				fr: "Ce Pokémon s'inflige 20 dégâts.",
 				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge 20 danni a se stesso.",
 				pt: "Este Pokémon causa 20 danos a ele mesmo.",

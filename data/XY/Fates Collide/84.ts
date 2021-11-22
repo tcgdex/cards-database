@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Audino EX",
 		de: "Ohrdoch EX"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		531,
 	],
+
 	hp: 180,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "EX",
 
@@ -76,6 +78,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -84,9 +87,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

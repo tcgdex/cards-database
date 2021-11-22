@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Rayquaza EX",
 		fr: "Rayquaza EX",
 	},
+
 	illustrator: "PLANETA",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 180,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "EX",
 
@@ -47,12 +49,13 @@ const card: Card = {
 				en: "Dragon Strike",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can’t use Dragon Strike during your next turn.",
+				en: "Flip a coin. If tails, this Pokémon can't use Dragon Strike during your next turn.",
 			},
 			damage: 130,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -61,9 +64,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

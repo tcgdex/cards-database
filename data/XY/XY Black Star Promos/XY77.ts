@@ -46,7 +46,7 @@ const card: Card = {
 				en: "Time Freeze",
 			},
 			effect: {
-				en: "Your opponent can’t play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.",
+				en: "Your opponent can't play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.",
 			},
 			damage: 80,
 

@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon is Asleep, flip 2 coins instead of 1 between turns. If either of them is tails, this Pokémon is still Asleep.",
-				fr: "Si ce Pokémon est Endormi, lancez 2 pièces au lieu d’une entre chaque tour. Si vous obtenez au moins un côté pile, ce Pokémon reste Endormi.",
+				fr: "Si ce Pokémon est Endormi, lancez 2 pièces au lieu d'une entre chaque tour. Si vous obtenez au moins un côté pile, ce Pokémon reste Endormi.",
 			},
 		},
 	],

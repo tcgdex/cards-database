@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Senteur Flottante",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Grass Energy attached to this Pokémon. If you do, your opponent’s Active Pokémon is now Confused and Poisoned.",
+				en: "Once during your turn (before your attack), you may discard a Grass Energy attached to this Pokémon. If you do, your opponent's Active Pokémon is now Confused and Poisoned.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une Énergie Grass attachée à ce Pokémon. Dans ce cas, le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 			},
 		},

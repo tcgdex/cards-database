@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Esprit Rayonnant",
 			},
 			effect: {
-				en: "Damage from this Pokémon’s attacks isn’t affected by Weakness or Resistance.",
+				en: "Damage from this Pokémon's attacks isn't affected by Weakness or Resistance.",
 				fr: "Les dégâts des attaques de ce Pokémon ne sont pas affectés par la Faiblesse ou la Résistance.",
 			},
 		},
@@ -48,8 +48,8 @@ const card: Card = {
 				fr: "Flying Press",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon isn’t a Pokémon-EX, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n’est pas un Pokémon-EX, cette attaque ne fait rien.",
+				en: "If your opponent's Active Pokémon isn't a Pokémon-EX, this attack does nothing.",
+				fr: "Si le Pokémon Actif de votre adversaire n'est pas un Pokémon-EX, cette attaque ne fait rien.",
 			},
 			damage: 60,
 

@@ -4,26 +4,30 @@ import Set from '../Flashfire'
 const card: Card = {
 	name: {
 		en: "M Charizard EX",
-		fr: "M Dracaufeu EX",
+		fr: "M-Dracaufeu EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 230,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Charizard-EX",
 		fr: "Dracaufeu-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -63,6 +67,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -71,9 +76,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	suffix: "EX"
 }
 
 export default card

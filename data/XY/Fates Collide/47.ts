@@ -54,7 +54,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnum Kick",
-				fr: "Coup d’Pied Magnum",
+				fr: "Coup d'Pied Magnum",
 				es: "Patada Mágnum",
 				it: "Supercalcio",
 				pt: "Chute Magnum",

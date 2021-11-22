@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Mange-Feuille",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Grass Pokémon, this attack does 20 more damage.",
+				en: "If your opponent's Active Pokémon is a Grass Pokémon, this attack does 20 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Grass, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: "10+",

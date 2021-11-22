@@ -45,7 +45,7 @@ const card: Card = {
 				de: "Antikörper"
 			},
 			effect: {
-				en: "This Pokémon can’t be affected by any Special Conditions. (Remove any Special Conditions affecting this Pokémon.)",
+				en: "This Pokémon can't be affected by any Special Conditions. (Remove any Special Conditions affecting this Pokémon.)",
 				fr: "Ce Pokémon ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant ce Pokémon.)",
 				es: "Este Pokémon no se puede ver afectado por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a este Pokémon).",
 				it: "Questo Pokémon non può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano questo Pokémon).",
@@ -69,7 +69,7 @@ const card: Card = {
 				de: "Bakterieller Schock"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned. Discard all Pokémon Tool cards attached to that Pokémon.",
+				en: "Your opponent's Active Pokémon is now Poisoned. Discard all Pokémon Tool cards attached to that Pokémon.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Défaussez toutes les cartes Outil Pokémon attachées au Pokémon ciblé.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Descarta todas las cartas de Herramienta Pokémon unidas a ese Pokémon.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Scarta tutte le carte Oggetto Pokémon assegnategli.",

@@ -41,9 +41,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder les 2 cartes du dessus de votre deck et ajouter l’une d’entre elles à votre main. Défaussez l’autre carte.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder les 2 cartes du dessus de votre deck et ajouter l'une d'entre elles à votre main. Défaussez l'autre carte.",
 				es: "Una vez durante tu turno (antes de tu ataque), puedes mirar las 2 primeras cartas de tu baraja y poner 1 de ellas en tu mano. Descarta la otra carta.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi guardare le prime due carte del tuo mazzo e aggiungerne una alle carte che hai in mano. Scarta l’altra carta.",
+				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi guardare le prime due carte del tuo mazzo e aggiungerne una alle carte che hai in mano. Scarta l'altra carta.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode ver 2 cards de cima do seu baralho e colocar 1 deles na sua mão. Descarte o outro card.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du die obersten 2 Karten deines Decks anschauen und 1 davon auf deine Hand nehmen. Lege die andere Karte auf deinen Ablagestapel."
 			},
@@ -57,7 +57,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Past Friends",
-				fr: "Amis d’Antan",
+				fr: "Amis d'Antan",
 				es: "Amigos del Pasado",
 				it: "Vecchie Amicizie",
 				pt: "Amigos do Passado",

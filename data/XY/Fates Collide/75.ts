@@ -34,7 +34,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tiny Punch",
-				fr: "P’tit Coup d’Poing",
+				fr: "P'tit Coup d'Poing",
 				es: "Minipuño",
 				it: "Micropugno",
 				pt: "Soco Bebê",

@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Étonnement",
 			},
 			effect: {
-				en: "Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into his or her deck.",
+				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
 				fr: "Choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck.",
 			},
 			damage: 30,
@@ -64,7 +64,7 @@ const card: Card = {
 				fr: "Danse Éclaboussante",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Splash Dance attack does 60 more damage (before applying Weakness and Resistance).",
+				en: "During your next turn, this Pokémon's Splash Dance attack does 60 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, l'attaque Danse Éclaboussante de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 60,

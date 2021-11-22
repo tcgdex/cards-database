@@ -39,7 +39,7 @@ const card: Card = {
 				fr: "Règle des Évolutions TURBO",
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.",
+				en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
 			},
 
 		},

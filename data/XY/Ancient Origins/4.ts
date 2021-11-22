@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
-				fr: "Déplacez autant d’Énergies Grass attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
+				fr: "Déplacez autant d'Énergies Grass attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
 			},
 			damage: 60,
 

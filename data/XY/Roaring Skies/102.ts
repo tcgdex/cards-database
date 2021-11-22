@@ -41,7 +41,7 @@ const card: Card = {
 				fr: "Règle des Méga-Évolutions",
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 
 		},
@@ -68,7 +68,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+	suffix: "EX"
 }
 
 export default card

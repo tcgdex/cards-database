@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Piège Igloo",
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
+				en: "This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
 				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
 			},
 			damage: "20+",
@@ -55,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 40 more damage.",
-				fr: "S’il y a une carte Stade en jeu, cette attaque inflige 40 dégâts supplémentaires.",
+				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "80+",
 

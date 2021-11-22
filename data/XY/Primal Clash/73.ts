@@ -39,7 +39,7 @@ const card: Card = {
 				fr: "Étoile Synchro",
 			},
 			effect: {
-				en: "If this Pokémon and your opponent’s Active Pokémon have the same amount of Energy attached to them, this attack does 60 more damage.",
+				en: "If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached to them, this attack does 60 more damage.",
 				fr: "Si ce Pokémon et le Pokémon Actif de votre adversaire ont le même nombre d'Énergies leur étant attachées, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: "10+",

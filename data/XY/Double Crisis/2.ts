@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma’s Camerupt",
+		en: "Team Magma's Camerupt",
 		fr: "Camérupt de la Team Magma",
 	},
 	illustrator: "Shin Nagasawa",
@@ -19,7 +19,7 @@ const card: Card = {
 		"Fire",
 	],
 	evolveFrom: {
-		en: "Team Magma’s Numel",
+		en: "Team Magma's Numel",
 		fr: "Chamallot de la Team Magma",
 	},
 	stage: "Stage1",

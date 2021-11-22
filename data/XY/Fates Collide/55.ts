@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Umbreon EX",
 		de: "Nachtara EX"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		197,
 	],
+
 	hp: 170,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -65,7 +67,7 @@ const card: Card = {
 				de: "Endphase"
 			},
 			effect: {
-				en: "If your opponent’s Mega Evolution Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards.",
+				en: "If your opponent's Mega Evolution Pokémon is Knocked Out by damage from this attack, take 2 more Prize cards.",
 				fr: "Si le Pokémon Méga-Évolution de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez 2 cartes Récompense supplémentaires.",
 				es: "Si el Pokémon Megaevolución de tu rival queda Fuera de Combate por el daño de este ataque, coge 2 cartas de Premio más.",
 				it: "Se un Pokémon Megaevoluzione del tuo avversario viene messo KO dai danni di questo attacco, prendi due carte Premio in più.",
@@ -76,22 +78,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

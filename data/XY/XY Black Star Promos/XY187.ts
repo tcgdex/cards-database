@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Celebi",
+		fr: "Celebi"
 	},
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Mitsuhiro Arita",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		251,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,6 +51,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -55,10 +59,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

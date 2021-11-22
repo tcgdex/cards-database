@@ -33,7 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras’Face",
+				fr: "Écras'Face",
 				es: "Destructor",
 				it: "Botta",
 				pt: "Pancada",
@@ -58,9 +58,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 10 damage times the number of your Pokémon that have the Round attack.",
-				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de vos Pokémon possédant l’attaque Chant Canon.",
+				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de vos Pokémon possédant l'attaque Chant Canon.",
 				es: "Este ataque hace 10 puntos de daño por cada uno de tus Pokémon que tenga el ataque Canon.",
-				it: "Questo attacco infligge 10 danni per ogni tuo Pokémon che conosce l’attacco Coro.",
+				it: "Questo attacco infligge 10 danni per ogni tuo Pokémon che conosce l'attacco Coro.",
 				pt: "Este ataque causa 10 de danos vezes o número de seus Pokémon que possuem o ataque Circular.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl deiner Pokémon zu, die Kanon beherrschen."
 			},

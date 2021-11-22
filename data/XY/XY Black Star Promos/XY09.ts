@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Garchomp EX",
 		fr: "Carchacrok EX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		445,
 	],
+
 	hp: 170,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "EX",
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -65,9 +68,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

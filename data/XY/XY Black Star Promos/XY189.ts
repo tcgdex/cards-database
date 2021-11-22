@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Victini",
+		fr: "Victini"
 	},
-	illustrator: "Atsuko Nishida",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Atsuko Nishida",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		494,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -49,6 +52,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -56,10 +60,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 1
 }
 
 export default card

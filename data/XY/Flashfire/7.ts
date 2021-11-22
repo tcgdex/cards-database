@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Danse Insensée",
 			},
 			effect: {
-				en: "This attack does 20 damage times the number of Benched Pokémon (both yours and your opponent’s).",
+				en: "This attack does 20 damage times the number of Benched Pokémon (both yours and your opponent's).",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon de Banc (les vôtres et ceux de votre adversaire).",
 			},
 			damage: "20×",

@@ -3,22 +3,24 @@ import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Skarmory-EX",
+		en: "Skarmory EX",
 		fr: "Airmure EX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		227,
 	],
+
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "EX",
 
@@ -34,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Before doing damage, discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
-				fr: "Avant d’infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
+				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
 
@@ -57,22 +59,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

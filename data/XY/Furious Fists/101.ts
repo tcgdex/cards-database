@@ -4,7 +4,7 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "Tool Retriever",
-		fr: "Collecte d’Outils",
+		fr: "Collecte d'Outils",
 	},
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Choisissez jusqu’à 2 cartes Outil Pokémon attachées à vos Pokémon et placez-les dans votre main.",
+		fr: "Choisissez jusqu'à 2 cartes Outil Pokémon attachées à vos Pokémon et placez-les dans votre main.",
 		en: "Choose up to 2 Pokémon Tool cards attached to your Pokémon and put them into your hand."
 	},
 	trainerType: "Item",

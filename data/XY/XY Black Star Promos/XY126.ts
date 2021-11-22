@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Mew EX",
+		fr: "Mew EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -30,7 +31,7 @@ const card: Card = {
 				en: "Versatile",
 			},
 			effect: {
-				en: "This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent’s). (You still need the necessary Energy to use each attack.)",
+				en: "This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent's). (You still need the necessary Energy to use each attack.)",
 			},
 		},
 	],
@@ -57,7 +58,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+	stage: "Basic"
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "White Kyurem",
+		fr: "Kyurem Blanc"
 	},
 
 	illustrator: "kawayoo",
@@ -33,7 +34,7 @@ const card: Card = {
 				en: "Burning Icicles",
 			},
 			effect: {
-				en: "If this Pokémon has any Fire Energy attached to it, this attack does 20 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If this Pokémon has any Fire Energy attached to it, this attack does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 40,
 
@@ -48,7 +49,7 @@ const card: Card = {
 				en: "Blizzard Burn",
 			},
 			effect: {
-				en: "This Pokémon can’t attack during your next turn.",
+				en: "This Pokémon can't attack during your next turn.",
 			},
 			damage: 130,
 

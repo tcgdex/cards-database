@@ -5,25 +5,16 @@ const card: Card = {
 	name: {
 		en: "Dive Ball",
 	},
+
 	illustrator: "Toyste Beach",
-	rarity: "Rare",
+	rarity: "Secret Rare",
 	category: "Trainer",
-
 	set: Set,
-
-
-
-
-
-
-
-
-
-
-
-
 	trainerType: "Item",
 
+	effect: {
+		en: "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
+	}
 }
 
 export default card

@@ -33,7 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Headbutt",
-				fr: "Double Coup d’Boule",
+				fr: "Double Coup d'Boule",
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
@@ -50,7 +50,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypno Headbutt",
-				fr: "Hypno Coup d’Boule",
+				fr: "Hypno Coup d'Boule",
 			},
 			effect: {
 				en: "You may do 30 more damage. If you do, this Pokémon is now Asleep.",

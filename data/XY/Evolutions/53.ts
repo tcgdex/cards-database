@@ -37,8 +37,8 @@ const card: Card = {
 				de: "Neutralisierendes Schild"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Evolution Pokémon.",
-				fr: "Évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon Évolutifs de votre adversaire.",
+				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Evolution Pokémon.",
+				fr: "Évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon Évolutifs de votre adversaire.",
 				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon Evolución de tu rival.",
 				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon Evoluzione del tuo avversario.",
 				pt: "Previne todos os efeitos de ataques, inclusive danos, causados a este Pokémon pelo Pokémon de Evolução do seu oponente.",
@@ -61,8 +61,8 @@ const card: Card = {
 				de: "Konfusion"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",

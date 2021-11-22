@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Darkrai",
+		fr: "Darkrai"
 	},
-	illustrator: "kawayoo",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "kawayoo",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		491,
 	],
+
 	hp: 110,
+
 	types: [
 		"Darkness",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -50,12 +53,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -63,9 +68,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	retreat: 2
 }
 
 export default card

@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Volcanion",
+		fr: "Volcanion"
 	},
-	illustrator: "TOKIYA",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "TOKIYA",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		721,
 	],
+
 	hp: 130,
+
 	types: [
 		"Fire",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,6 +57,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -61,10 +65,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 4
 }
 
 export default card

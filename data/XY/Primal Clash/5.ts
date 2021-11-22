@@ -55,7 +55,7 @@ const card: Card = {
 				fr: "Nœud Herbe",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
+				en: "This attack does 10 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
 			},
 			damage: "80+",

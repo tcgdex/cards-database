@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				fr: "Ce Pokémon peut attaquer deux fois par tour. (Si la première attaque met K.O. le Pokémon Actif de votre adversaire, vous pouvez encore attaquer après que votre adversaire a choisi un nouveau Pokémon Actif.)",
-				en: "This Pokémon may attack twice a turn. (If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.)"
+				en: "This Pokémon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.)"
 			},
 		},
 	],
@@ -62,7 +62,7 @@ const card: Card = {
 				fr: "Yoga Kick",
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness or Resistance.",
+				en: "This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
 			},
 			damage: 30,

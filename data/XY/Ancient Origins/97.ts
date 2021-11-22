@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Primal Groudon EX",
 		fr: "Primo-Groudon-EX",
 	},
-	illustrator: "5ban Graphics",
-	rarity: "Ultra Rare",
-	category: "Pokemon",
 
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		383,
 	],
+
 	hp: 240,
+
 	types: [
 		"Fighting",
 	],
+
 	evolveFrom: {
 		en: "Groudon-EX",
 		fr: "Groudon-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -68,9 +73,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	suffix: "EX"
 }
 
 export default card

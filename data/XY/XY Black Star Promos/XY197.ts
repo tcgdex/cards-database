@@ -4,22 +4,25 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Arceus",
+		fr: "Arceus"
 	},
-	illustrator: "Naoki Saito",
-	rarity: "Common",
-	category: "Pokemon",
 
+	illustrator: "Naoki Saito",
+	rarity: "None",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		493,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,6 +54,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -58,10 +62,7 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	retreat: 2
 }
 
 export default card

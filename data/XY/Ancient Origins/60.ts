@@ -36,7 +36,7 @@ const card: Card = {
 				fr: "Coup Liquide",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent’s Pokémon for each Colorless in its Retreat Cost. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 20 damage to 1 of your opponent's Pokémon for each Colorless in its Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire pour chaque Colorless dans son Coût de Retraite. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Souffle Étincelant",
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon can’t be affected by any Special Conditions.",
+				en: "During your opponent's next turn, this Pokémon can't be affected by any Special Conditions.",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon ne peut être affecté par aucun État Spécial.",
 			},
 			damage: 110,

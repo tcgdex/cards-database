@@ -40,10 +40,10 @@ const card: Card = {
 				de: "Herumtüfteln"
 			},
 			effect: {
-				en: "Look at the top 3 cards of your opponent’s deck and put them back in any order.",
-				fr: "Regardez les 3 cartes du dessus du deck de votre adversaire et replacez-les dans l’ordre de votre choix.",
+				en: "Look at the top 3 cards of your opponent's deck and put them back in any order.",
+				fr: "Regardez les 3 cartes du dessus du deck de votre adversaire et replacez-les dans l'ordre de votre choix.",
 				es: "Mira las 3 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
-				it: "Guarda le prime tre carte del mazzo del tuo avversario e rimettile a posto nell’ordine che preferisci.",
+				it: "Guarda le prime tre carte del mazzo del tuo avversario e rimettile a posto nell'ordine che preferisci.",
 				pt: "Olhe os 3 cards de cima do baralho do seu oponente e coloque-os de volta em qualquer ordem.",
 				de: "Schau dir die obersten 3 Karten des gegnerischen Decks an und lege sie in beliebiger Reihenfolge zurück in sein Deck."
 			},
@@ -56,7 +56,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Jab",
-				fr: "Coup d’Queue",
+				fr: "Coup d'Queue",
 				es: "Puya Cola",
 				it: "Stoccacoda",
 				pt: "Sova de Cauda",

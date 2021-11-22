@@ -3,23 +3,26 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Dialga-EX",
+		en: "Dialga EX",
+		fr: "Dialga EX"
 	},
-	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
-	category: "Pokemon",
 
+	illustrator: "Ayaka Yoshida",
+	rarity: "Secret Rare",
+	category: "Pokemon",
 	set: Set,
+
 	dexId: [
 		483,
 	],
+
 	hp: 180,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -54,12 +57,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
@@ -67,9 +72,8 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	suffix: "EX",
+	retreat: 2
 }
 
 export default card

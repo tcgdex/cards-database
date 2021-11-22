@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts d'une attaque de ce Pokémon, récupérez une carte Récompense supplémentaire.",
-				en: "If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card."
+				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card."
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 				fr: "Vague Psy",
 			},
 			effect: {
-				en: "This attack does 10 damage times the amount of Energy attached to your opponent’s Active Pokémon.",
+				en: "This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Actif de votre adversaire.",
 			},
 			damage: "10×",

@@ -6,22 +6,27 @@ const card: Card = {
 		en: "M Rayquaza EX",
 		fr: "M Rayquaza-EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		384,
 	],
+
 	hp: 230,
+
 	types: [
 		"Dragon",
 	],
+
 	evolveFrom: {
 		en: "Rayquaza-EX",
 		fr: "Rayquaza-EX",
 	},
+
 	stage: "MEGA",
 
 	abilities: [
@@ -33,10 +38,11 @@ const card: Card = {
 			},
 			effect: {
 				fr: "Tous les dégâts infligés à ce Pokémon par des attaques des Pokémon Grass, Fire, Water ou Lightning de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				en: "Any damage done to this Pokémon by attacks from your opponent’s Grass, Fire, Water, or Lightning Pokémon is reduced by 20 (after applying Weakness and Resistance)."
+				en: "Any damage done to this Pokémon by attacks from your opponent's Grass, Fire, Water, or Lightning Pokémon is reduced by 20 (after applying Weakness and Resistance)."
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -74,6 +80,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -82,9 +89,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	suffix: "EX"
 }
 
 export default card

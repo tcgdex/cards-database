@@ -29,8 +29,8 @@ const card: Card = {
 				fr: "Explo-Destin",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent’s attack, flip a coin. If heads, put 5 damage counters on the Attacking Pokémon.",
-				fr: "Si ce Pokémon est votre Pokémon Actif et qu’il est mis K.O. par les dégâts d’une attaque de votre adversaire, lancez une pièce. Si c’est face, placez 5 marqueurs de dégâts sur le Pokémon Attaquant.",
+				en: "If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, put 5 damage counters on the Attacking Pokémon.",
+				fr: "Si ce Pokémon est votre Pokémon Actif et qu'il est mis K.O. par les dégâts d'une attaque de votre adversaire, lancez une pièce. Si c'est face, placez 5 marqueurs de dégâts sur le Pokémon Attaquant.",
 			},
 		},
 	],

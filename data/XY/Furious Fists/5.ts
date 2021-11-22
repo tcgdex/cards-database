@@ -4,26 +4,30 @@ import Set from '../Furious Fists'
 const card: Card = {
 	name: {
 		en: "M Heracross EX",
-		fr: "M Scarhino EX",
+		fr: "M-Scarhino EX",
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		214,
 	],
+
 	hp: 220,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Heracross-EX",
 		fr: "Scarhino-EX",
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -44,6 +48,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -52,9 +57,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	suffix: "EX"
 }
 
 export default card

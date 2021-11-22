@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Pluie Ensorcelée",
 			},
 			effect: {
-				en: "Put 1 damage counter on each of your opponent’s Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
+				en: "Put 1 damage counter on each of your opponent's Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire. Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
 			},
 

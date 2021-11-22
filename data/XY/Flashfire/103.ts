@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Kangaskhan EX",
 		fr: "Kangourex EX",
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		115,
 	],
+
 	hp: 180,
+
 	types: [
 		"Colorless",
 	],
-
 
 	suffix: "EX",
 
@@ -49,12 +51,13 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "70+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -63,9 +66,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

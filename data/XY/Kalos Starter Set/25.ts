@@ -3,7 +3,7 @@ import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Farfetch’d",
+		en: "Farfetch'd",
 		fr: "Canarticho",
 	},
 	illustrator: "Kagemaru Himeno",

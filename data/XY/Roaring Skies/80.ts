@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Vents Tourbillonnants",
 			},
 			effect: {
-				en: "Shuffle all cards attached to each player’s Pokémon into that player’s deck.",
+				en: "Shuffle all cards attached to each player's Pokémon into that player's deck.",
 				fr: "Mélangez toutes les cartes attachées aux Pokémon de chaque joueur au deck de ce joueur.",
 			},
 

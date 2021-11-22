@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 40 more damage.",
-				fr: "S’il y a une carte Stade en jeu, cette attaque inflige 40 dégâts supplémentaires.",
+				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "40+",
 

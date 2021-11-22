@@ -6,19 +6,21 @@ const card: Card = {
 		en: "Sceptile EX",
 		fr: "Jungko EX",
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		254,
 	],
+
 	hp: 170,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -32,8 +34,8 @@ const card: Card = {
 				fr: "Hâte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.",
-				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -46,16 +48,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Strong Slash",
-				fr: "Tranch’Intense",
+				fr: "Tranch'Intense",
 			},
 			effect: {
-				en: "This Pokémon can’t use Strong Slash during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Tranch’Intense pendant votre prochain tour.",
+				en: "This Pokémon can't use Strong Slash during your next turn.",
+				fr: "Ce Pokémon ne peut pas utiliser Tranch'Intense pendant votre prochain tour.",
 			},
 			damage: 130,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -64,9 +67,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

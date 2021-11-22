@@ -4,6 +4,7 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Salamence EX",
+		fr: "Drattak EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,7 +35,7 @@ const card: Card = {
 				en: "Beastly Fang",
 			},
 			effect: {
-				en: "This attack does 50 more damage for each of your opponent’s Pokémon-EX.",
+				en: "This attack does 50 more damage for each of your opponent's Pokémon-EX.",
 			},
 			damage: "10+",
 
@@ -50,7 +51,7 @@ const card: Card = {
 				en: "Dragon Strike",
 			},
 			effect: {
-				en: "This Pokémon can’t use Dragon Strike during your next turn.",
+				en: "This Pokémon can't use Dragon Strike during your next turn.",
 			},
 			damage: 130,
 
@@ -64,7 +65,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+	stage: "Basic"
 }
 
 export default card

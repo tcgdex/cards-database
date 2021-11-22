@@ -59,10 +59,10 @@ const card: Card = {
 				de: "Düsendurchzug"
 			},
 			effect: {
-				en: "Discard a Special Energy attached to your opponent’s Active Pokémon.",
+				en: "Discard a Special Energy attached to your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
 				es: "Descarta 1 Energía Especial unida al Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia speciale assegnata al Pokémon attivo del tuo avversario.",
+				it: "Scarta un'Energia speciale assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Descarte uma Energia Especial ligada ao Pokémon Ativo do seu oponente.",
 				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 			},
@@ -85,7 +85,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	evolveFrom: {
+		en: "Old Amber Aerodactyl"
+	}
 }
 
 export default card

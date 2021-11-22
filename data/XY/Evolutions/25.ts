@@ -68,10 +68,10 @@ const card: Card = {
 				de: "Whirlpool"
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
+				en: "Discard an Energy attached to your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 				es: "Descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				it: "Scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
 				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
