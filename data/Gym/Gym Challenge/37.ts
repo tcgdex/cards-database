@@ -56,7 +56,9 @@ const card: Card = {
 		},
 	],
 
-
+	variants: {
+		wPromo: true
+	}
 
 
 
