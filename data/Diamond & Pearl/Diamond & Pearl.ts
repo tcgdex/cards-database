@@ -9,7 +9,8 @@ const dp1: Set = {
 		fr: "Diamant & Perle",
 		es: "Diamante & Perla",
 		it: "Diamante & Perla",
-		de: "Diamant & Perl"
+		de: "Diamant & Perl",
+		pt: "Diamante & Pérola"
 	},
 
 	serie: serie,

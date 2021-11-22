@@ -9,7 +9,8 @@ const hgss1: Set = {
 		fr: "HeartGold SoulSilver",
 		es: "HeartGold SoulSilver",
 		it: "HeartGold SoulSilver",
-		de: "HeartGold SoulSilver"
+		de: "HeartGold SoulSilver",
+		pt: "HeartGold SoulSilver"
 	},
 
 	serie: serie,

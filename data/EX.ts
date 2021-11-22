@@ -7,7 +7,8 @@ const set: Serie = {
 		fr: "EX",
 		es: "ex",
 		it: "EX",
-		de: "EX"
+		de: "EX",
+		pt: "EX"
 	},
 }
 

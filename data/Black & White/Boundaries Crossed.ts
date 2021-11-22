@@ -9,7 +9,8 @@ const bw7: Set = {
 		fr: "Frontières Franchies",
 		es: "Fronteras Cruzadas",
 		it: "Confini Varcati",
-		de: "Überschrittene Schwellen"
+		de: "Überschrittene Schwellen",
+		pt: "Fronteiras Cruzadas"
 	},
 
 	serie: serie,

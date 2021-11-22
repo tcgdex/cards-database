@@ -9,7 +9,8 @@ const swsh2: Set = {
 		fr: "Clash des Rebelles",
 		es: "Choque Rebelde",
 		it: "Fragore Ribelle",
-		de: "Clash der Rebellen"
+		de: "Clash der Rebellen",
+		pt: "Rixa Rebelde"
 	},
 
 	serie: serie,

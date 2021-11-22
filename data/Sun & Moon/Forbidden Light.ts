@@ -9,7 +9,8 @@ const sm6: Set = {
 		fr: "Lumière Interdite",
 		es: "Luz Prohibida",
 		it: "Apocalisse Di Luce",
-		de: "Grauen Der Lichtfinsternis"
+		de: "Grauen Der Lichtfinsternis",
+		pt: "Luz Proibida"
 	},
 
 	serie: serie,

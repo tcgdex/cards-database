@@ -9,7 +9,8 @@ const bw2: Set = {
 		fr: "Pouvoirs Émergents",
 		es: "Fuerzas Emergentes",
 		it: "Nuove Forze",
-		de: "Aufstreben der Mächtigen"
+		de: "Aufstreben der Mächtigen",
+		pt: "Poderes Emergentes"
 	},
 
 	serie: serie,

@@ -9,7 +9,8 @@ const swsh1: Set = {
 		fr: "Déstinées Radieuses",
 		es: "Destinos Brillantes",
 		it: "Destino Splendente",
-		de: "Glänzendes Schicksal"
+		de: "Glänzendes Schicksal",
+		pt: "Destinos Brilhantes "
 	},
 
 	serie: serie,

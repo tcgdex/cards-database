@@ -8,7 +8,8 @@ const hgss4: Set = {
 		en: "Triumphant",
 		fr: "Triomphant",
 		it: "Battaglie Trionfali",
-		de: "Triumph"
+		de: "Triumph",
+		pt: "Triunfante"
 	},
 
 	serie: serie,

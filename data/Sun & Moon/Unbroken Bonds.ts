@@ -9,7 +9,8 @@ const sm10: Set = {
 		fr: "Alliance Infaillible",
 		es: "Vínculos Indestructibles",
 		it: "Legami Inossidabili",
-		de: "Kräfte im Einklang"
+		de: "Kräfte im Einklang",
+		pt: "Elos Inquebráveis"
 	},
 
 	serie: serie,

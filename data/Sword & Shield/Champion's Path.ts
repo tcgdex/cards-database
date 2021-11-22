@@ -9,7 +9,8 @@ const swsh35: Set = {
 		fr: 'La Voie du Maître',
 		es: "Camino de Campeones",
 		it: "Futuri Campioni",
-		de: "Weg des Champs"
+		de: "Weg des Champs",
+		pt: "Caminho do Campeão"
 	},
 
 	serie: serie,

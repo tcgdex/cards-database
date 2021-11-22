@@ -9,7 +9,8 @@ const xy12: Set = {
 		fr: "Évolutions",
 		es: "Evoluciones",
 		it: "Evoluzioni",
-		de: "Evolution"
+		de: "Evolution",
+		pt: "Evoluções"
 	},
 
 	serie: serie,

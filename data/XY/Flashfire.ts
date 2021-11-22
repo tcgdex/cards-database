@@ -9,7 +9,8 @@ const xy2: Set = {
 		fr: "Étincelles",
 		es: "Destellos de Fuego",
 		it: "Fuoco Infernale",
-		de: "Flammenmeer"
+		de: "Flammenmeer",
+		pt: "Flash de Fogo"
 	},
 
 	serie: serie,

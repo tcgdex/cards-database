@@ -9,7 +9,8 @@ const bw8: Set = {
 		fr: "Tempète Plasma",
 		es: "Tormenta Plasma",
 		it: "Uragano Plasma",
-		de: "Plasma-Sturm"
+		de: "Plasma-Sturm",
+		pt: "Tempestade de Plasma"
 	},
 
 	serie: serie,

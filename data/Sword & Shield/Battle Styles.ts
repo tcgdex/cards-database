@@ -9,7 +9,8 @@ const swsh1: Set = {
 		fr: "Styles de combat",
 		es: "Estilos de Combate",
 		it: "Stili di Lotta",
-		de: "Kampfstile"
+		de: "Kampfstile",
+		pt: "Estilos de Batalha"
 	},
 
 	serie: serie,

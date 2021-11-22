@@ -9,7 +9,8 @@ const ex1: Set = {
 		fr: "EX Rubis & Saphir",
 		es: "Rubí & Zafiro",
 		it: "EX Rubino & Zaffiro",
-		de: "EX Rubin & Saphir"
+		de: "EX Rubin & Saphir",
+		pt: "EX Rubi e Safira" // pt_PT and not pt_BR ?
 	},
 
 	serie: serie,

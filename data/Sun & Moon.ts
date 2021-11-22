@@ -7,7 +7,8 @@ const set: Serie = {
 		fr: "Soleil et Lune",
 		es: "Sol y Luna",
 		it: "Sole e Luna",
-		de: "Sonne & Mond"
+		de: "Sonne & Mond",
+		pt: "Sol e Lua"
 	},
 
 	energies: [

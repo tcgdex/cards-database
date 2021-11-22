@@ -9,7 +9,8 @@ const xy5: Set = {
 		fr: "Primo-Choc",
 		es: "Duelos Primigenios",
 		it: "Scontro Primordiale",
-		de: "Protoshock"
+		de: "Protoshock",
+		pt: "Conflito Primitivo"
 	},
 
 	serie: serie,

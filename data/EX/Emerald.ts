@@ -8,7 +8,8 @@ const ex9: Set = {
 		en: "Emerald",
 		fr: "EX Émeraude",
 		de: "EX Smaragd",
-		it: "EX Smeraldo"
+		it: "EX Smeraldo",
+		pt: "EX Esmeralda"
 	},
 
 	serie: serie,
