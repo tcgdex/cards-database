@@ -8,7 +8,8 @@ const set: Set = {
 		fr: "Règne de Glace",
 		es: "Reinado Escalofriante",
 		it: "Regno Glaciale",
-		de: "Schaurige Herrschaft"
+		de: "Schaurige Herrschaft",
+		pt: "Reinado Arrepiante"
 	},
 	serie: serie,
 

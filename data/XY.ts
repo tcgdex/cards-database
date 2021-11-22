@@ -7,7 +7,8 @@ const set: Serie = {
 		fr: "XY",
 		es: "XY",
 		it: "XY",
-		de: "XY"
+		de: "XY",
+		pt: "XY"
 	},
 
 	energies: [

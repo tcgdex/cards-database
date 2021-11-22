@@ -9,7 +9,8 @@ const swsh3: Set = {
 		fr: "Ténèbres Embrasées",
 		es: "Oscuridad Incandescente",
 		it: "Fiamme Oscure",
-		de: "Flammende Finsternis"
+		de: "Flammende Finsternis",
+		pt: "Escuridão Incandescente"
 	},
 
 	serie: serie,

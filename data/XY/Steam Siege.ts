@@ -9,7 +9,8 @@ const xy11: Set = {
 		fr: "Offensive Vapeur",
 		es: "Asedio de Vapor",
 		it: "Vapori Accesi",
-		de: "Dampfkessel"
+		de: "Dampfkessel",
+		pt: "Cerco de Vapor"
 	},
 
 	serie: serie,

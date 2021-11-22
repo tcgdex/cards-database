@@ -7,7 +7,8 @@ const set: Serie = {
 		fr: "Épée et Bouclier",
 		es: "Espada y Escudo",
 		it: "Spada e Scudo",
-		de: "Schwert & Schild"
+		de: "Schwert & Schild",
+		pt: "Espada e Escudo"
 	},
 
 	energies: [

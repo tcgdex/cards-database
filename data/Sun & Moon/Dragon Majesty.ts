@@ -9,7 +9,8 @@ const sm75: Set = {
 		fr: "Majesté Des Dragons",
 		es: "Majestad De Dragones",
 		it: "Trionfo Dei Draghi",
-		de: "Majestät Der Drachen"
+		de: "Majestät Der Drachen",
+		pt: "Dragões Soberanos"
 	},
 
 	serie: serie,

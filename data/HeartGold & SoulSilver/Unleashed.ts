@@ -9,7 +9,8 @@ const hgss2: Set = {
 		fr: "Déchaînement",
 		es: "Liberados",
 		it: "Forze Scatenate",
-		de: "Entfesselt"
+		de: "Entfesselt",
+		pt: "Revelado"
 	},
 
 	serie: serie,

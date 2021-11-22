@@ -9,7 +9,8 @@ const bw4: Set = {
 		fr: "Destinées Futures",
 		es: "Próximos Destinos",
 		it: "Destini Futuri",
-		de: "Kommende Schicksale"
+		de: "Kommende Schicksale",
+		pt: "Próximos Destinos"
 	},
 
 	serie: serie,

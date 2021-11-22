@@ -9,7 +9,8 @@ const sm35: Set = {
 		fr: "Légendes Brillantes",
 		es: "Leyendas Luminosas",
 		it: "Leggende Iridescenti",
-		de: "Schimmernde Legenden"
+		de: "Schimmernde Legenden",
+		pt: "Lendas Luminescentes"
 	},
 
 	serie: serie,

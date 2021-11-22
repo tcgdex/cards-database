@@ -9,7 +9,8 @@ const sm7: Set = {
 		fr: "Tempête Céleste",
 		es: "Tormenta Celestial",
 		it: "Tempesta Astrale",
-		de: "Sturm Am Firmament"
+		de: "Sturm Am Firmament",
+		pt: "Tempestade Celestial"
 	},
 
 	serie: serie,

@@ -9,7 +9,8 @@ const sm3: Set = {
 		fr: "Ombres Ardentes",
 		es: "Sombras Ardientes",
 		it: "Ombre Infuocate",
-		de: "Nacht in Flammen"
+		de: "Nacht in Flammen",
+		pt: "Sombras Ardentes"
 	},
 
 	serie: serie,
