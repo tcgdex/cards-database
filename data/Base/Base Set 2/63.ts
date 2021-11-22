@@ -58,10 +58,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: {
+		wPromo: true
+	}
 }
 
 export default card

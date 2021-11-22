@@ -1,6 +1,10 @@
 import { Set } from '../../interfaces'
 import serie from '../Base'
 
+/**
+ * @deprecated
+ * Will be removed in V3
+ */
 const wp: Set = {
 	id: "wp",
 
@@ -13,7 +17,7 @@ const wp: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 53
+		official: 7
 	},
 
 	releaseDate: "1999-09-01"

@@ -72,6 +72,10 @@ const card: Card = {
 
 	description: {
 		fr: "Sa queue incroyablement puissante est capable de soulever 5 hommes."
+	},
+
+	variants: {
+		wPromo: true
 	}
 }
 
