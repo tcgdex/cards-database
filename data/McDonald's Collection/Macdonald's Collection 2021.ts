@@ -8,7 +8,8 @@ const s2021swsh: Set = {
 		en: "Macdonald's Collection 2021",
 		fr: "Promo McDonald's 2021",
 		es: "Colección de McDonald's 2021",
-		it: "McDonald's Collection 2021"
+		it: "McDonald's Collection 2021",
+		de: "McDonald’s Kollektion 2021",
 	},
 
 	serie: serie,
