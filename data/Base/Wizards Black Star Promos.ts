@@ -8,7 +8,8 @@ const basep: Set = {
 		en: "Wizards Black Star Promos",
 		fr: "Wizards Black Star Promos",
 		it: "Wizards Black Star Promos",
-		es: "Wizards Black Star Promos"
+		es: "Wizards Black Star Promos",
+		de: "Wizards Black Star Promos",
 	},
 
 	serie: serie,

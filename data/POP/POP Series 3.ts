@@ -7,7 +7,8 @@ const pop3: Set = {
 	name: {
 		en: "POP Series 3",
 		fr: "POP Série 3",
-		it: "POP Serie 3"
+		it: "POP Serie 3",
+		de: "POP Serie 3",
 	},
 
 	serie: serie,

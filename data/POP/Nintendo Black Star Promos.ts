@@ -8,7 +8,8 @@ const np: Set = {
 		en: "Nintendo Black Star Promos",
 		fr: "Promo Nintendo",
 		es: "Nintendo Black Star Promos",
-		it: "Nintendo Black Star Promos"
+		it: "Nintendo Black Star Promos",
+		de: "Nintendo Black Star Promos",
 	},
 
 	serie: serie,
