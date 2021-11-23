@@ -295,10 +295,6 @@ export default express.Router().get('/', (_, res): void => {
 						// Calculate percentages and status
 						const percent = 100 * item.count / (setTotal?.cardCount.total ?? 1)
 						const imgPercent = 100 * item.images / (setTotal?.cardCount.total ?? 1)
-						let status = percent === 100 ? imgPercent === 100 ? '' : 'missing-img' : 'missing-cards'
-						if (percent === 0) {
-							status = 'empty'
-						}
 
 						// append to string :D
 						str +=`<td class="${percent === 100 ? '' : percent === 0 ? 'empty' : 'missing-cards'}">${percent.toFixed(2)}% <br />(${item.count})</td>
