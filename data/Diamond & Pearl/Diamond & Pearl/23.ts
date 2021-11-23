@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Drapion",
 		fr: "Drascore",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		452,
 	],
+
 	hp: 100,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Skorupi",
 		fr: "Drapion",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -39,7 +43,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -50,7 +54,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Claws",
-				fr: "Griffes empoisonnée",
+				fr: "Griffes empoisonnées",
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
@@ -60,6 +64,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -69,8 +74,9 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	description: {
+		fr: "Il peut réduire une voiture en pièces avec ses pinces. Le bout de ses pinces contient du poison."
+	}
 }
 
 export default card

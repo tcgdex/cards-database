@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Metal Energy",
+		fr: "Énergie Métal"
 	},
 	illustrator: "Milky Isobe",
 	rarity: "Rare",

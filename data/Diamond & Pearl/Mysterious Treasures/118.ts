@@ -4,6 +4,7 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Multi Energy",
+		fr: "Énergies multiples"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Rare",

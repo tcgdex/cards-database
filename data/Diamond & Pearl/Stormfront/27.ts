@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Staraptor",
-		fr: "Staraptor",
+		fr: "Etouraptor"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Staraptor is your Active Pokémon, any damage done by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tant qu'Etouraptor est votre Pokémon Actif, tous dégâts infligés par des attaques de Pokémon Évolués de Niveau 2 de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				fr: "Tant qu'Étouraptor est votre Pokémon Actif, tous dégâts infligés par des attaques de Pokémon Évolués de Niveau 2 de votre adversaire sont réduits de 20 (Après application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -64,7 +64,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon  Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
 			},
 			damage: 60,
 

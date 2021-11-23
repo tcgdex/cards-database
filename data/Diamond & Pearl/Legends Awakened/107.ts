@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Misdreavus",
 		fr: "Feuforeve",
 	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		200,
 	],
+
 	hp: 60,
+
 	types: [
 		"Psychic",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -47,26 +49,30 @@ const card: Card = {
 				en: "If your opponent has only 1 Prize card left, this attack does 10 damage plus 20 more damage.",
 				fr: "S'il ne reste à votre adversaire qu'1 carte Récompense, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Darkness",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Il adore se faufiler derrière les gens la nuit pour les effrayer avec son cri strident."
+	}
 }
 
 export default card

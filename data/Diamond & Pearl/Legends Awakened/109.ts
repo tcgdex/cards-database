@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Nosepass",
 		fr: "Tarinor",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		299,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -48,10 +50,11 @@ const card: Card = {
 				en: "If Probopass is on your Bench, this attack does 20 damage plus 20 more damage.",
 				fr: "Si Tarinorme se trouve sur votre Banc, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -61,8 +64,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Son nez est un aimant, c'est pourquoi ce Pokémon fait toujours face au nord."
+	}
 }
 
 export default card

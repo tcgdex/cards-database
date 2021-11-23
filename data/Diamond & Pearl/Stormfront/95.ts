@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Warp Energy",
-		fr: "Warp Energy (special Energy)",
+		fr: "Énergie de Distorsion"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Uncommon",

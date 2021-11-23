@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Lileep",
 		fr: "Lilia",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		345,
 	],
+
 	hp: 80,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Root Fossil",
 		fr: "Wurzelfossil",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -32,7 +36,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Astonish",
-				fr: "Etonnément",
+				fr: "Étonnement",
 			},
 			effect: {
 				en: "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
@@ -58,6 +62,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -67,8 +72,9 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	description: {
+		fr: "Il vivait au fond de la mer il y a 100 millions d'années. La science a permis de le ressusciter."
+	}
 }
 
 export default card

@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Weavile",
 		fr: "Dimoret",
 	},
+
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		461,
 	],
+
 	hp: 80,
+
 	types: [
 		"Darkness",
 	],
+
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -54,26 +58,30 @@ const card: Card = {
 				en: "Does 10 damage times the total amount of Darkness Energy attached to all of your Pokémon.",
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies Darkness attachées à tous vos Pokémon.",
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Ils vivent par groupe de 4 ou 5 en région froide et chassent de façon très organisée."
+	}
 }
 
 export default card

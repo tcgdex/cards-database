@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
+		fr: "Une seule fois lors du tour de chaque joueur, le joueur peut lancer une pièce jusqu'à ce qu'il ou elle obtienne pile. Pour chaque face, ce joueur pioche une carte.",
 	},
 	trainerType: "Stadium",
 

@@ -4,6 +4,7 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Bidoof",
+		fr: "Keunotor"
 	},
 	illustrator: "Yusuke Ohmura",
 	rarity: "Common",
@@ -29,6 +30,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				fr: "Charge"
 			},
 
 			damage: 30,

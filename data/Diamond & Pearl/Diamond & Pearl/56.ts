@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Monferno",
 		fr: "Chimpenfeu",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		391,
 	],
+
 	hp: 70,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Chimchar",
 		fr: "Ouisticram",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -36,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Fire Energy card and attach it to Monferno.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie Fire et attachez-la à Chimpenfeu.",
+				fr: "Chercher dans votre pile de défausse une carte Énergie Fire et attachez-la à Chimpenfeu.",
 			},
 			damage: 30,
 
@@ -54,10 +58,11 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -65,10 +70,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	description: {
+		fr: "Pour intimider ses agresseurs, il gonfle les flammes de sa queue pour paraître plus grand."
+	}
 }
 
 export default card

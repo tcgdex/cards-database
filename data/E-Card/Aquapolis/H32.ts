@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Zapdos",
+		fr: "Electhor"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Anti",
+				fr: "Anti-éclair"
 			},
 			effect: {
 				en: "Lightning - You can't attach Lightning Energy cards to Zapdos from your hand to Zapdos.",
+				fr: "Vous ne pouvez pas attacher de cartes Énergie  depuis votre main à Electhor."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Plasma",
+				fr: "Plasma"
 			},
 			effect: {
 				en: "If there are any Energy cards in your discard pile, flip a coin. If heads attach 1 of them to Zapdos.",
+				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor."
 			},
 			damage: 10,
 
@@ -54,9 +59,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Storm",
+				fr: "Orage d'éclairs"
 			},
 			effect: {
 				en: "Flip a coin. If tails, put 2 damage counters on Zapdos.",
+				fr: "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégâts sur Electhor."
 			},
 			damage: 60,
 

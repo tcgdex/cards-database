@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Does 30 damage plus 20 more damage for each Energy attached to the Defending Pokémon.",
 				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Cubone",
+		fr: "Osselait"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
+				fr: "Pichenette"
 			},
 
 			damage: 10,
@@ -38,13 +40,18 @@ const card: Card = {
 				"Fighting",
 				"Colorless",
 			],
+
 			name: {
 				en: "Bone Smash",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Éclate-os"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 30
 		},
 	],
 	weaknesses: [

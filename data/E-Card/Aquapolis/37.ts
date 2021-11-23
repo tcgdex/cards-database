@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Suicune",
+		fr: "Suicune"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Pure Body",
+				fr: "Corps pur"
 			},
 			effect: {
 				en: "To attach a Water Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the Water Energy, and then discard an Energy card from Suicune.)",
+				fr: "Pour attacher une carte Énergie  de votre main à Suicune, vous devez vous défausser d'une carte Énergie attachée à Suicune. (Attachez l'Énergie , et défaussez-vous ensuite d'une carte Énergie attachée à Suicune.)"
 			},
 		},
 	],
@@ -40,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypno Wave",
+				fr: "Hypnovague"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c'est pile, cette attaque inflige 30 dégâts et le Pokémon Défenseur est maintenant Endormi."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

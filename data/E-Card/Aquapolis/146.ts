@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Crystal Energy",
+		fr: "Énergie cristal"
 	},
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Uncommon",

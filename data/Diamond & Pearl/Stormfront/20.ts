@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Machamp",
-		fr: "Machamp",
+		fr: "Mackogneur"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon is Knocked Out instead of damaged by this attack.",
-				fr: "Si le Pokémon  Défenseur n'est pas un Pokémon Évolué, ce Pokémon est mis K.O par cette attaque.",
+				fr: "Si le Pokémon Défenseur n'est pas un Pokémon Évolué, ce Pokémon est mis K.O par cette attaque.",
 			},
 			damage: 40,
 
@@ -54,7 +54,7 @@ const card: Card = {
 				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -72,7 +72,7 @@ const card: Card = {
 				en: "Does 60 damage plus 10 more damage for each damage counter on Machamp.",
 				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Mackogneur.",
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

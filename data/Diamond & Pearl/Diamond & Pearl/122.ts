@@ -52,17 +52,7 @@ const card: Card = {
 			},
 			damage: 100,
 
-		},
-		{
-
-			name: {
-				fr: "Level-Up Rule",
-			},
-			effect: {
-				fr: "Placez cette carte sur votre Torterra Actif. Torterra LV X peut utiliser n'importe quel (le) attaque, Poké-Power ou Poké-Body de son Niveau précédent.",
-			},
-
-		},
+		}
 	],
 	weaknesses: [
 		{
