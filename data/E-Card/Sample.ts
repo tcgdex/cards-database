@@ -5,8 +5,7 @@ const sp: Set = {
 	id: "sp",
 
 	name: {
-		en: "Sample",
-		fr: "Sample"
+		en: "Sample"
 	},
 
 	serie: serie,

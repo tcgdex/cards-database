@@ -1,7 +1,7 @@
 import express from 'express'
 import graphql from './V2/graphql'
 import jsonEndpoints from './V2/endpoints/jsonEndpoints'
-
+import status from './status'
 // Current API version
 const VERSION = 2
 
@@ -29,6 +29,9 @@ server.use(`/v${VERSION}/graphql`, graphql)
 
 // Setup JSON endpoints
 server.use(`/v${VERSION}`, jsonEndpoints)
+
+// Status page
+server.use('/status', status)
 
 // Start server
 server.listen(3000)

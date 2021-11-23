@@ -57,6 +57,8 @@ export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages)
 		.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
 		.map((el) => setToSetSimple(el, lang)))
 	const logo = sets.find((set) => set.logo)?.logo
+
+	// Final data
 	return {
 		id: serie.id,
 		logo,
