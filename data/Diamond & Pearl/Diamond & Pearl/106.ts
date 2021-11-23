@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Lancez 3 pièces. Pour chaque face, placez une carte Énergie de votre pile de défausse dans votre main. Si vous n'avez pas assez de cartes Énergie de base dans votre pile de défausse, placez-les toutes dans votre main.",
+		fr: "Lancez trois pièces. Chaque fois que c'est face, prenez une carte Énergie de base dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main. Si vous n'avez pas suffisamment de cartes Énergie dans votre pile de défausse, placez toutes vos cartes Énergie dans votre main.",
 	},
 	trainerType: "Item",
 

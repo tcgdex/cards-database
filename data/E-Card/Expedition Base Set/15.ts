@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Kingler",
+		fr: "Krabboss"
 	},
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Rare",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
+				fr: "Écume"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -43,13 +46,18 @@ const card: Card = {
 				"Water",
 				"Colorless",
 			],
+
 			name: {
 				en: "Giant Claw",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Pince géante"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 70
 		},
 	],
 	weaknesses: [

@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Tauros",
+		fr: "Tauros"
 	},
 	illustrator: "Yuichi Sawayama",
 	rarity: "Common",
@@ -27,13 +28,18 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Horn Hazard",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Chanc'korne"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+
+			damage: 30
 		},
 		{
 			cost: [
@@ -42,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				fr: "Bélier"
 			},
 			effect: {
 				en: "Tauros does 20 Damage to itself.",
+				fr: "Tauros s'inflige 20 dégâts."
 			},
 			damage: 30,
 

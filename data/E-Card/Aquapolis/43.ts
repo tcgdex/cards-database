@@ -4,6 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Vileplume",
+		fr: "Rafflesia"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -30,11 +31,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Scent",
+				fr: "Senteur empoisonnée"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep.",
-			},
-			damage: 10,
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné et Confus. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné et Endormi."
+			}
 
 		},
 		{
@@ -45,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Addictive Pollen",
+				fr: "Pollen drogué"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play Supporter cards during his or her next turn.",
+				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter pendant son prochain tour."
 			},
 			damage: 40,
 

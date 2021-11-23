@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Luxray",
 		fr: "Luxray",
 	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		405,
 	],
+
 	hp: 120,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		en: "Luxio",
 		fr: "Luxio",
 	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -37,6 +42,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -72,12 +78,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
@@ -85,9 +93,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Ses yeux voient à travers tout. Il repère les proies cachées derrière un objet pour les capturer."
+	}
 }
 
 export default card

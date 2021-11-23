@@ -4,6 +4,7 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Mewtwo",
+		fr: "Mewtwo"
 	},
 	illustrator: "Shizurow",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Psybarrier",
+				fr: "Barrage psy"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Mewtwo by your opponent's Pokémon that isn't an Evolved Pokémon.",
+				fr: "Prévenez tous les effets d'attaques dégâts inclus, infligés à Mewtwo par un Pokémon de votre adversaire n'étant pas un Pokémon Évolué."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Giga Burn",
+				fr: "Giga brûlure"
 			},
 			effect: {
 				en: "Discard all Energy attached to Mewtwo.",
+				fr: "Défaussez toutes les Énergies attachées à Mewtwo."
 			},
 			damage: 120,
 

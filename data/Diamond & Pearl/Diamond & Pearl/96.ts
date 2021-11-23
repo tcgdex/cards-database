@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Roselia",
 		fr: "Roselia",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		315,
 	],
+
 	hp: 70,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -33,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. If Roselia is evolved from Budew, this attack does 10 damage to the Defending Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Si Roselia évolue de Rozbouton,  cette attaque inflige 10 dégâts au Pokémon Défenseur.",
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Si Roselia évolue de Rozbouton, cette attaque inflige 10 dégâts au Pokémon Défenseur.",
 			},
 
 		},
@@ -54,6 +56,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -63,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Les Roselia élevés avec une eau claire et potable font de ravissantes fleurs bariolées."
+	}
 }
 
 export default card

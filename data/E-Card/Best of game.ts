@@ -5,8 +5,7 @@ const bog: Set = {
 	id: "bog",
 
 	name: {
-		en: "Best of game",
-		fr: "Best of game"
+		en: "Best of game"
 	},
 
 	serie: serie,

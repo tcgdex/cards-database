@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Pokédex HANDY910is",
-		fr: "Pokédex Handy910is",
+		fr: "Pokédex HANDY910is",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",

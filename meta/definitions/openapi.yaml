@@ -779,6 +779,7 @@ components:
             - holo
             - normal
             - reverse
+            - wPromo
           type: object
           properties:
             normal:
@@ -788,6 +789,8 @@ components:
             holo:
               type: boolean
             firstEdition:
+              type: boolean
+            wPromo:
               type: boolean
         hp:
           type: number

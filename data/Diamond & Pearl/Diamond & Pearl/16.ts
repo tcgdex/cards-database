@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Staraptor",
 		fr: "Etouraptor",
 	},
+
 	illustrator: "Masahiko Ishii",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		398,
 	],
+
 	hp: 100,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Staravia",
 		fr: "Etourvol",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -60,12 +64,14 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "+30"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
@@ -73,9 +79,9 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	description: {
+		fr: "Un Pokémon sauvage qui a le courage de défier des ennemis beaucoup plus grands que lui."
+	}
 }
 
 export default card

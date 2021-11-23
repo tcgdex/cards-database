@@ -23,6 +23,7 @@ interface variants {
 	reverse?: boolean;
 	holo?: boolean;
 	firstEdition?: boolean;
+	wPromo?: boolean
 }
 
 export interface SetResume {

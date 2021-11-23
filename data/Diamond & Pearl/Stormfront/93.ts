@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Switch",
-		fr: "Switch",
+		fr: "Échange"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Common",
@@ -23,7 +23,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc.",
+		fr: "Échangez 1 de vos Pokémon Actifs avec 1 des Pokémon de Banc.",
 	},
 	trainerType: "Item",
 

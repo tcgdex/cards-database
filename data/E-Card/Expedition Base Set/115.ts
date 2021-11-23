@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Krabby",
+		fr: "Krabby"
 	},
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Common",
@@ -24,11 +25,12 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Grass",
-				"Grass",
+				"Water",
+				"Water",
 			],
 			name: {
 				en: "Crabhammer",
+				fr: "Pince-masse"
 			},
 
 			damage: 30,

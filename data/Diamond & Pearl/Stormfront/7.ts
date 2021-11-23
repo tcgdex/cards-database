@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Mismagius",
-		fr: "Mismagius",
+		fr: "Magirêve"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Choose up to 4 in any combination of Pokémon Tool cards and Technical Machine cards in play (both yours and your opponent's) and discard them. This attack does 20 damage times the number of cards discarded in this way.",
 				fr: "Choisissez n'importe quelle combinaison de jusqu'à 4 cartes Outil Pokémon et cartes Machine Technique en jeu (les vôtres et celles de votre adversaire) et défaussez-les. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes défaussées de cette façon.",
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{

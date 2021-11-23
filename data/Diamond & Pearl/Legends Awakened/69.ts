@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Piloswine",
 		fr: "Cochignon",
 	},
+
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		221,
 	],
+
 	hp: 100,
+
 	types: [
 		"Water",
 	],
+
 	evolveFrom: {
 		en: "Swinub",
 		fr: "Quiekel",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -39,7 +43,7 @@ const card: Card = {
 				en: "You may do 30 damage plus 30 more damage. If you do, Piloswine does 30 damage to itself.",
 				fr: "Vous pouvez infliger 30 dégâts plus 30 dégâts supplémentaires. Cochignon s'inflige alors 30 dégâts.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -61,22 +65,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
-
-
+	description: {
+		fr: "Il ne voit rien à cause de sa fourrure touffue et se repère à l'aide de son nez délicat."
+	}
 }
 
 export default card

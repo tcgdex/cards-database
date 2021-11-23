@@ -15,7 +15,7 @@ export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
 
 /**
  * Return the set
- * @param name the name of the set (don't include.js/.ts)
+ * @param name the name of the set
  */
 export async function getSet(name: string, serie = '*'): Promise<Set> {
 	if (!setCache[name]) {

@@ -54,7 +54,8 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
 			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : true,
 			normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
-			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true
+			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true,
+			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
 
 
@@ -120,6 +121,12 @@ export async function getCard(serie: string, setName: string, id: string): Promi
 	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.js`)).default
 }
 
+/**
+ * Get cards filtered by the language they are available in
+ * @param lang the language of the cards
+ * @param set the set to filter in (optional)
+ * @returns An array with the 0 = localId, 1 = Card Object
+ */
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
 	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.js`)
 	const list: Array<[string, Card]> = []

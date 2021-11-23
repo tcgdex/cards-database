@@ -4,6 +4,7 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Wartortle",
+		fr: "Carabaffe"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Doubleslap",
+				fr: "Torgnoles"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -44,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Giant Wave",
+				fr: "Vague géante"
 			},
 			effect: {
 				en: "Wartortle can't attack during your next turn.",
+				fr: "Carabaffe ne peut pas attaquer pendant votre prochain tour."
 			},
 			damage: 40,
 

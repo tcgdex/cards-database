@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Oddish",
 		fr: "Mystherbe",
 	},
+
 	illustrator: "Hiroki Fuchino",
 	rarity: "Common",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		43,
 	],
+
 	hp: 40,
+
 	types: [
 		"Grass",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -53,6 +55,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -62,8 +65,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
+	}
 }
 
 export default card

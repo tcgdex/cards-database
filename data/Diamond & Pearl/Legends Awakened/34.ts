@@ -6,15 +6,18 @@ const card: Card = {
 		en: "Mesprit",
 		fr: "Créfollet",
 	},
+
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		481,
 	],
+
 	hp: 70,
+
 	types: [
 		"Psychic",
 	],
@@ -34,6 +37,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -48,10 +52,11 @@ const card: Card = {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 20 damage plus 50 more damage.",
 				fr: "Si vous avez autant de cartes en main que votre adversaire, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -61,8 +66,9 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	description: {
+		fr: "On l'appelle \"être de l'émotion\". Il enseigne aux hommes la beauté de la tristesse, la douleur de la joie."
+	}
 }
 
 export default card

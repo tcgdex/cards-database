@@ -121,6 +121,7 @@ type Variants {
 	holo: Boolean!
 	normal: Boolean!
 	reverse: Boolean!
+	wPromo: Boolean!
 }
 
 ##################
@@ -135,6 +136,7 @@ type Set {
 	name: String!
 	symbol: String
 	serie: Serie!
+	releaseDate: String!
 }
 
 type CardCount {

@@ -4,23 +4,28 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Pichu",
-		fr: "Pichu",
+		fr: "Pichu"
 	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		172,
 	],
+
 	hp: 50,
+
 	types: [
 		"Lightning",
 	],
+
 	evolveFrom: {
 		fr: "Pichu",
 	},
+
 	stage: "Basic",
 
 	abilities: [
@@ -36,6 +41,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 
@@ -45,27 +51,31 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for up to 4 Lightning Energy cards, show them to your opponent, and put them into your hand.",
-				fr: "Cherchez dans votre pile de défausse jusqu'à 4 cartes Énergie (L), montrez-les à votre adversaire et placez-les dans votre main.",
+				fr: "Cherchez dans votre pile de défausse jusqu'à 4 cartes Énergie Lightning, montrez-les à votre adversaire et placez-les dans votre main.",
 			},
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "+10"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
+	}
 }
 
 export default card

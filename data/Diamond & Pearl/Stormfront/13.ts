@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Bronzong",
-		fr: "Bronzong",
+		fr: "Archéodong"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -49,9 +49,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 20 damage plus 40 more damage and the Defending Pokémon is now Confused.",
-				fr: "Si vous possédez le même nombre de cartes que votre adversaire, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires et le Pokémon  Défenseur est maintenant Confus.",
+				fr: "Si vous possédez le même nombre de cartes que votre adversaire, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -66,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Put a number of damage counters on each of your opponent's Pokémon equal to the number of Colorless Energy in that Pokémon's Retreat Cost (after applying effects to the Retreat Cost).",
-				fr: "Placez autant de marqueurs de dégât sur chacun des Pokémon de votre adversaire qu'il y a d'Énergies Colorless dans le Coût de retraite de ce Pokémon (après application des effets sur le Coût de retraite).",
+				fr: "Placez autant de marqueurs de dégât sur chacun des Pokémon de votre adversaire qu'il y a d'Énergies Colorless dans le Coût de retraite de ce Pokémon (après application des effets sur le Coût de Retraite).",
 			},
 
 		},

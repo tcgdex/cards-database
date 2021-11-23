@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Combee",
-		fr: "Combee",
+		fr: "Apitrini"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",

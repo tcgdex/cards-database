@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Jirachi",
 		fr: "Jirachi",
 	},
+
 	illustrator: "Satoshi Ohta",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		385,
 	],
+
 	hp: 70,
+
 	types: [
 		"Metal",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -51,22 +53,26 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "+20"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
-
-
+	description: {
+		fr: "On raconte qu'une fois tous les mille ans, il a la capacité d'exaucer tous les vœux durant une semaine."
+	}
 }
 
 export default card
