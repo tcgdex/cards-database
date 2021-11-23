@@ -1,3 +1,3 @@
 import { SupportedLanguages } from '../../interfaces'
 
-export type FileFunction = (lang: SupportedLanguages) => Promise<Array<any>>
+export type FileFunction = (lang: SupportedLanguages) => Promise<any>
