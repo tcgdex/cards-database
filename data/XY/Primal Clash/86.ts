@@ -54,11 +54,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gaia Volcano"
+			en: "Gaia Volcano",
+			fr: "Volcan de Gaïa"
 		},
 
 		effect: {
-			en: "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card."
+			en: "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card.",
+			fr: "S'il y a une carte Stade en jeu, cette attaque inflige 100 dégâts supplémentaires. Défaussez la carte Stade."
 		},
 
 		damage: "100+",

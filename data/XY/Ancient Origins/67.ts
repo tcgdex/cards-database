@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Porygon-Z",
 		fr: "Porygon-Z",
 	},
+
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		474,
 	],
+
 	hp: 130,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Porygon2",
 		fr: "Porygon2",
 	},
-	stage: "Stage2",
 
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -32,10 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Digital Reboot",
-				fr: "Stop Θ",
+				fr: "Redémarrage Numérique",
 			},
 			effect: {
 				en: "Devolve as many of your Benched Pokémon as many times as you like. Put each Evolution card removed this way into your hand.",
+				fr: "Faites dés-évoluer autant de vos Pokémon de Banc autant de fois que vous voulez. Placez chaque carte Évolution retirée de cette façon dans votre main.",
 			},
 
 		},
@@ -46,30 +51,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Blast",
-				fr: "Redémarrage Numérique",
-			},
-			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Faites dés-évoluer autant de vos Pokémon de Banc autant de fois que vous voulez. Placez chaque carte Évolution retirée de cette façon dans votre main.",
-			},
-			damage: 50,
-
-		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Explosion de Lumière",
 			},
 			effect: {
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 50,
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
@@ -79,8 +71,17 @@ const card: Card = {
 
 	retreat: 2,
 
+	abilities: [{
+		type: "Ability",
 
+		name: {
+			fr: "{title}:"
+		},
 
+		effect: {
+			fr: "{title}: Évitez tous les effets des talents des Pokémon de votre adversaire infligés à ce Pokémon."
+		}
+	}]
 }
 
 export default card

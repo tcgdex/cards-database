@@ -4,7 +4,7 @@ import Set from '../Primal Clash'
 const card: Card = {
 	name: {
 		en: "Gardevoir EX",
-		fr: "Gardevoir-EX",
+		fr: "Gardevoir EX",
 	},
 
 	illustrator: "Ryo Ueda",

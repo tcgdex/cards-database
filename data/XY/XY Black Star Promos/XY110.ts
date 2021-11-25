@@ -22,22 +22,32 @@ const card: Card = {
 	stage: "Basic",
 
 
-	attacks: [
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				en: "Clairvoyance",
-				fr: "Voyance",
-			},
-			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main.",
-			},
-
+	attacks: [{
+		cost: [
+			"Colorless",
+		],
+		name: {
+			en: "Clairvoyance",
+			fr: "Voyance",
 		},
-	],
+		effect: {
+			en: "Your opponent reveals his or her hand.",
+			fr: "Votre adversaire montre sa main.",
+		},
+
+	}, {
+		cost: ["Psychic", "Colorless", "Colorless"],
+
+		name: {
+			fr: "Psyko"
+		},
+
+		effect: {
+			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
+		},
+
+		damage: "40+"
+	}],
 	weaknesses: [
 		{
 			type: "Psychic",

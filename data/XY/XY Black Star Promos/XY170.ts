@@ -33,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Beastly Fang",
+				fr: "Croc Bestial"
 			},
 			effect: {
 				en: "This attack does 50 more damage for each of your opponent's Pokémon-EX.",
+				fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Pokémon-EX de votre adversaire."
 			},
 			damage: "10+",
 
@@ -49,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Strike",
+				fr: "Frappe du Dragon"
 			},
 			effect: {
 				en: "This Pokémon can't use Dragon Strike during your next turn.",
+				fr: "Ce Pokémon ne peut pas utiliser Frappe du Dragon pendant votre prochain tour."
 			},
 			damage: 130,
 

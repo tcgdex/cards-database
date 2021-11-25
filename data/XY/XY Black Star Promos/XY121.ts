@@ -24,22 +24,28 @@ const card: Card = {
 
 	suffix: "EX",
 
-	attacks: [
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				en: "Stoke",
-				fr: "Attisement",
-			},
-			effect: {
-				en: "Flip a coin. If heads, search your deck for up to 3 basic Energy cards and attach them to this Pokémon. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez jusqu'à 3 cartes Énergie de base dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-			},
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
 
+		name: {
+			en: "Stoke",
+			fr: "Cru-Aile",
 		},
-	],
+
+		damage: 60
+	}, {
+		cost: ["Fire", "Fire", "Colorless", "Colorless"],
+
+		name: {
+			fr: "Explo-Combustion"
+		},
+
+		effect: {
+			fr: "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour."
+		},
+
+		damage: 150
+	}],
 
 	weaknesses: [
 		{

@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 20 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Fire attachée à ce Pokémon. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: "100＋",
+			damage: "100+",
 
 		},
 	],

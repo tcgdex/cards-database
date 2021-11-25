@@ -36,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Wings of Disaster",
+				fr: "Ailes de la Déroute"
 			},
 			effect: {
 				en: "This attack does 20 damage to each of your opponent's Pokémon. This attack's damage isn't affected by Weakness and Resistance. Then, discard all Pokémon Tool cards attached to each of your opponent's Pokémon.",
+				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. N'appliquez ni la Faiblesse ni la Résistance. Défaussez toutes les cartes Outil Pokémon attachées à chacun des Pokémon de votre adversaire."
 			},
 
 		},

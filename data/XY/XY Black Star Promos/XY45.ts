@@ -39,7 +39,7 @@ const card: Card = {
 				en: "If your opponent's Active Pokémon has no Energy attached to it, this attack does 40 more damage.",
 				fr: "Si aucune Énergie n'est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: "40＋",
+			damage: "40+",
 
 		},
 		{

@@ -55,7 +55,7 @@ const card: Card = {
 				en: "If your opponent has Xerneas (including Xerneas-EX) in play, this attack does 40 more damage.",
 				fr: "Si votre adversaire a Xerneas (y compris Xerneas-EX) en jeu, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: "80＋",
+			damage: "80+",
 
 		},
 	],

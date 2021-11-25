@@ -37,9 +37,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Turbo Bolt",
+				fr: "Éclair Turbo"
 			},
 			effect: {
 				en: "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
+				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
 			},
 			damage: 110,
 

@@ -39,25 +39,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Tough Hammer",
-				fr: "Règle des Évolutions TURBO",
-			},
-			effect: {
-				en: "This Pokémon does 30 damage to itself. This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			},
-			damage: 160,
-
-		},
-		{
-			cost: [
-				"Grass",
-				"Grass",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Marteau Solide",
 			},
 			effect: {
+				en: "This Pokémon does 30 damage to itself. This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Ce Pokémon s'inflige 30 dégâts. Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 160,

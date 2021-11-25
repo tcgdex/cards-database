@@ -4,7 +4,7 @@ import Set from '../Ancient Origins'
 const card: Card = {
 	name: {
 		en: "M Tyranitar EX",
-		fr: "M Tyranocif-EX",
+		fr: "M-Tyranocif EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -39,33 +39,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Destroyer King",
-				fr: "Double Θ",
-			},
-			effect: {
-				en: "This attack does 60 more damage for each damage counter on your opponent's Active Pokémon.",
-			},
-			damage: "110+",
-
-		},
-		{
-
-			name: {
-				fr: "Règle des Méga-Évolutions",
-			},
-
-
-		},
-		{
-			cost: [
-				"Darkness",
-				"Darkness",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Roi Destructeur",
 			},
 			effect: {
+				en: "This attack does 60 more damage for each damage counter on your opponent's Active Pokémon.",
 				fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
 			},
 			damage: "110+",
@@ -88,7 +65,19 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	suffix: "EX"
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			fr: "{title}:"
+		},
+
+		effect: {
+			fr: "{title}: Jusqu'à 2 cartes Outil Pokémon peuvent être attachées à ce Pokémon."
+		}
+	}]
 }
 
 export default card

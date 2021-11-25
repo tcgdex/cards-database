@@ -48,24 +48,7 @@ const card: Card = {
 			},
 			damage: 300,
 
-		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-				"Darkness",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Feu Furieux",
-			},
-			effect: {
-				fr: "Défaussez les 5 cartes du dessus de votre deck.",
-			},
-			damage: 300,
-
-		},
+		}
 	],
 
 	weaknesses: [

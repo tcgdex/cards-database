@@ -43,17 +43,6 @@ const card: Card = {
 		},
 	],
 
-	attacks: [
-		{
-
-			name: {
-				fr: "Règle des Évolutions TURBO",
-			},
-
-
-		},
-	],
-
 	retreat: 0
 }
 

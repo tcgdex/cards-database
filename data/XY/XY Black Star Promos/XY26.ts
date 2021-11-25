@@ -55,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 2 Energy attached to this Pokémon.",
-				fr: "Défaussez 2 Énergies attachées à ce Pokémon.",
+				fr: "Défaussez 2 Énergies attachées à ce Pokémon.",
 			},
 			damage: 120,
 

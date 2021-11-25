@@ -39,9 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hollow Geist",
+				fr: "Ectoplasme Vaporeux"
 			},
 			effect: {
 				en: "Your opponent's Active Pokémon is now Poisoned and Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné."
 			},
 			damage: 120,
 

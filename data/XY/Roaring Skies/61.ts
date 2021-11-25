@@ -4,7 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "M Rayquaza EX",
-		fr: "M Rayquaza-EX",
+		fr: "M-Rayquaza EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -54,26 +54,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Ascent",
-				fr: "Règle des Méga-Évolutions",
-			},
-			effect: {
-				en: "Discard 2 Energy attached to this Pokémon.",
-			},
-			damage: 300,
-
-		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-				"Fire",
-				"Lightning",
-				"Colorless",
-			],
-			name: {
 				fr: "Draco Ascension",
 			},
 			effect: {
+				en: "Discard 2 Energy attached to this Pokémon.",
 				fr: "Défaussez 2 Énergies attachées à ce Pokémon.",
 			},
 			damage: 300,

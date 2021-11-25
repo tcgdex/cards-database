@@ -4,6 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "Shaymin EX",
+		fr: "Shaymin EX"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Set Up",
+				fr: "Mise en Place"
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand onto your Bench, you may draw cards until you have 6 cards in your hand.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez piocher des cartes jusqu'à ce que vous ayez 6 cartes en main."
 			},
 		},
 	],
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sky Return",
+				fr: "Retour Aérien"
 			},
 			effect: {
 				en: "Return this Pokémon and all cards attached to it to your hand.",
+				fr: "Reprenez ce Pokémon et toutes les cartes qui lui sont attachées dans votre main."
 			},
 			damage: 30,
 

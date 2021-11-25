@@ -45,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Judgment Blast",
+				fr: "Explo-Jugement"
 			},
 			effect: {
 				en: "This attack does 30 more damage for each different type of basic Energy attached to this Pokémon.",
+				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque type d'Énergie de base attaché à ce Pokémon."
 			},
 			damage: "10+",
 

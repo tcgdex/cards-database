@@ -38,9 +38,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Fist",
+				fr: "Poing Imminent"
 			},
 			effect: {
 				en: "Discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
 			},
 			damage: 140,
 

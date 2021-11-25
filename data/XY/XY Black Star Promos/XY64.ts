@@ -44,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Pulse",
+				fr: "Dracochoc"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your deck.",
+				fr: "Défaussez les 3 cartes du dessus de votre deck."
 			},
 			damage: 130,
 

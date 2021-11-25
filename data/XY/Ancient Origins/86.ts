@@ -4,7 +4,7 @@ import Set from '../Ancient Origins'
 const card: Card = {
 	name: {
 		en: "Kyurem EX",
-		fr: "Kyurem-EX",
+		fr: "Kyurem EX",
 	},
 
 	illustrator: "Ryo Ueda",

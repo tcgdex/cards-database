@@ -38,7 +38,7 @@ const card: Card = {
 				en: "Your opponent reveals his or her hand. Choose a Pokémon you find there and put it on the bottom of your opponent's deck. If you do, this attack does 30 more damage.",
 				fr: "Votre adversaire montre sa main. Choisissez un Pokémon que vous y trouvez et placez-le en dessous du deck de votre adversaire. Dans ce cas, cette attaque inflige 30 dégâts supplémentaires.",
 			},
-			damage: "30＋",
+			damage: "30+",
 
 		},
 		{
@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
-			damage: "60＋",
+			damage: "60+",
 
 		},
 	],

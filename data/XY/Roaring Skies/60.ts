@@ -4,7 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "Rayquaza EX",
-		fr: "Rayquaza-EX",
+		fr: "Rayquaza EX",
 	},
 
 	illustrator: "PLANETA",

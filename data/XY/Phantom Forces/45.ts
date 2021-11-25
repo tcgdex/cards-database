@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Gourgantic",
+				fr: "Gigantrouye"
 			},
 			effect: {
 				en: "If this Pokémon has any Grass Energy attached to it, its maximum HP is 200.",
+				fr: "Si de l'Énergie Grass est attachée à ce Pokémon, ses PV maximum sont de 200."
 			},
 		},
 	],

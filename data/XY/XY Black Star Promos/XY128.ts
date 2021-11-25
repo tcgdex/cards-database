@@ -32,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Burning Icicles",
+				fr: "Stalactites Brûlantes"
 			},
 			effect: {
 				en: "If this Pokémon has any Fire Energy attached to it, this attack does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Si de l'Énergie Fire est attachée à ce Pokémon, cette attaque inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 40,
 
@@ -47,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blizzard Burn",
+				fr: "Blizzard Étourdissant"
 			},
 			effect: {
 				en: "This Pokémon can't attack during your next turn.",
+				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
 			},
 			damage: 130,
 

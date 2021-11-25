@@ -4,7 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "Shaymin EX",
-		fr: "Shaymin-EX",
+		fr: "Shaymin EX",
 	},
 
 	illustrator: "Ayaka Yoshida",

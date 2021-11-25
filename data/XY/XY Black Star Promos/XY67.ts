@@ -45,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dream Dance",
+				fr: "Danse-Rêve"
 			},
 			effect: {
 				en: "Both Active Pokémon are now Asleep.",
+				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis."
 			},
 			damage: 20,
 

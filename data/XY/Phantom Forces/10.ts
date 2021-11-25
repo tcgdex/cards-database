@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is increased by 40 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont augmentés de 40  (après application de la Faiblesse et de la Résistance).",
+				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont augmentés de 40 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 120,
 

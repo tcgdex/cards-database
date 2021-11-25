@@ -4,7 +4,7 @@ import Set from '../BREAKthrough'
 const card: Card = {
 	name: {
 		en: "M Mewtwo EX",
-		fr: "Méga-Mewtwo-EEX",
+		fr: "M-Mewtwo EX",
 	},
 
 	illustrator: "5ban Graphics",

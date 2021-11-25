@@ -6,22 +6,27 @@ const card: Card = {
 		en: "Fearow",
 		fr: "Rapasdepic",
 	},
+
 	illustrator: "match",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		22,
 	],
+
 	hp: 90,
+
 	types: [
 		"Colorless",
 	],
+
 	evolveFrom: {
 		en: "Spearow",
 		fr: "Piafabec",
 	},
+
 	stage: "Stage1",
 
 	attacks: [
@@ -58,22 +63,34 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
+	abilities: [{
+		type: "Ability",
 
+		name: {
+			fr: "{title}:"
+		},
 
+		effect: {
+			fr: "{title}: Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez."
+		}
+	}]
 }
 
 export default card

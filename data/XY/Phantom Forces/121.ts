@@ -38,9 +38,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Phantom Gate",
+				fr: "Miroir Miroir"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon's attacks and use it as this attack.",
+				fr: "Choisissez l'une des attaques des Pokémon de votre adversaire et utilisez-la en tant que cette attaque."
 			},
 
 		},

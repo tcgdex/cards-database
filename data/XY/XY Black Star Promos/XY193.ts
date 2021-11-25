@@ -31,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Soprano Wave",
+				fr: "Onde Soprano"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -44,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Entrancing Melody",
+				fr: "Mélodie Envoûtante"
 			},
 			effect: {
 				en: "Your opponent's Active Pokémon is now Confused.",
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 			},
 			damage: 30,
 

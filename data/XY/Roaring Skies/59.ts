@@ -4,7 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "M Latios EX",
-		fr: "M Latios-EX",
+		fr: "M-Latios EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -38,27 +38,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Sonic Ace",
-				fr: "Règle des Méga-Évolutions",
-			},
-			effect: {
-				en: "Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			},
-
-		},
-		{
-			cost: [
-				"Water",
-				"Psychic",
-				"Colorless",
-			],
-			name: {
 				fr: "Prodige Sonique",
 			},
 			effect: {
-				fr: "Défaussez 2 Énergies attachées à ce Pokémon. Cette attaque inflige 120 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "Discard 2 Energy attached to this Pokémon. This attack does 120 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Défaussez 2 Énergies attachées à ce Pokémon. Cette attaque inflige 120 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
-		},
+		}
 	],
 
 	weaknesses: [

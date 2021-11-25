@@ -4,7 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "Hydreigon EX",
-		fr: "Trioxhydre-EX",
+		fr: "Trioxhydre EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If there is any Stadium card in play, the Retreat Cost of each of your Dragon Pokémon in play is ColorlessColorless less.",
-				fr: "S'il y a une carte Stade en jeu, le Coût de Retraite de chacun de vos Pokémon Dragon en jeu est diminué de ColorlessColorless.",
+				fr: "S'il y a une carte Stade en jeu, le coût de Retraite de chacun de vos Pokémon Dragon en jeu est diminué de ColorlessColorless.",
 			},
 		},
 	],

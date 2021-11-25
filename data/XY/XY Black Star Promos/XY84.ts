@@ -48,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Overspark",
+				fr: "Max'Étincelle"
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to this Pokémon. This attack does 50 damage times the number of Energy cards you discarded.",
+				fr: "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées."
 			},
 			damage: "50×",
 

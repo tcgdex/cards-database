@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Mystic Heart",
+				fr: "Cœur Mystique"
 			},
 			effect: {
 				en: "Prevent all effects of your opponent's attacks, except damage, done to each of your Pokémon that has any Metal Energy attached to it. (Existing effects are not removed.)",
+				fr: "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon auquel de l'Énergie Metal est attachée. (Les effets déjà en action ne sont pas retirés.)"
 			},
 		},
 	],
@@ -45,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Soul Blaster",
+				fr: "Déflagr'Âme"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon's Soul Blaster attack's base damage is 60.",
+				fr: "Pendant votre prochain tour, les dégâts de base de l'attaque Déflagr'Âme de ce Pokémon sont de 60."
 			},
 			damage: 120,
 

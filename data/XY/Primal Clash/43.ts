@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
+				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 10,
 

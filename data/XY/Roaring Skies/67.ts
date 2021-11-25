@@ -49,7 +49,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "20×",
 

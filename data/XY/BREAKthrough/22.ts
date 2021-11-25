@@ -4,7 +4,7 @@ import Set from '../BREAKthrough'
 const card: Card = {
 	name: {
 		en: "M Houndoom EX",
-		fr: "Méga-Démolosse-EXEX",
+		fr: "Méga Démolosse EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -24,7 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Houndoom-EX",
-		fr: "Démolosse-EEX",
+		fr: "Démolosse-EX",
 	},
 
 	stage: "MEGA",

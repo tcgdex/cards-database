@@ -4,7 +4,7 @@ import Set from '../Ancient Origins'
 const card: Card = {
 	name: {
 		en: "Primal Kyogre EX",
-		fr: "Primo-Kyogre-EX",
+		fr: "PrimoKyogre EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -39,26 +39,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tidal Storm",
-				fr: "Max Θ",
-			},
-			effect: {
-				en: "Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack does 30 damage to each of your opponent's Benched Pokémon-EX. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			},
-			damage: 150,
-
-		},
-		{
-			cost: [
-				"Water",
-				"Water",
-				"Water",
-				"Colorless",
-			],
-			name: {
 				fr: "Tempête Océanique",
 			},
 			effect: {
-				fr: "Déplacez 2 Énergies de ce Pokémon vers l'un de vos Pokémon de Banc. Cette attaque inflige 30 dégâts à chacun des Pokémon-EX de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "Move 2 Energy from this Pokémon to 1 of your Benched Pokémon. This attack does 30 damage to each of your opponent's Benched Pokémon-EX. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Déplacez 2 Énergies de ce Pokémon vers l'un de vos Pokémon de Banc. Cette attaque inflige 30 dégâts à chacun des Pokémon-EX de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 150,
 
@@ -73,7 +58,19 @@ const card: Card = {
 	],
 
 	retreat: 4,
-	suffix: "EX"
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			fr: "{title}:"
+		},
+
+		effect: {
+			fr: "{title}: Lorsqu'un de vos Pokémon devient ce Pokémon, soignez tous les dégâts de ce Pokémon."
+		}
+	}]
 }
 
 export default card

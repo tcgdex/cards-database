@@ -6,24 +6,28 @@ const card: Card = {
 		en: "Vespiquen",
 		fr: "Apireine",
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		416,
 	],
+
 	hp: 90,
+
 	types: [
 		"Grass",
 	],
+
 	evolveFrom: {
 		en: "Combee",
 		fr: "Apitrini",
 	},
-	stage: "Stage1",
 
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -32,10 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Bee Drain",
-				fr: "Double Θ",
+				fr: "Abeille Épuisante",
 			},
 			effect: {
 				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 20,
 
@@ -47,30 +52,17 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
-				fr: "Abeille Épuisante",
-			},
-			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
-			},
-			damage: "30×",
-
-		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Combo-Griffe",
 			},
 			effect: {
+				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "30×",
 
-		},
+		}
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -80,8 +72,17 @@ const card: Card = {
 
 	retreat: 1,
 
+	abilities: [{
+		type: "Ability",
 
+		name: {
+			fr: "{title}:"
+		},
 
+		effect: {
+			fr: "{title}: Jusqu'à 2 cartes Outil Pokémon peuvent être attachées à ce Pokémon."
+		}
+	}]
 }
 
 export default card

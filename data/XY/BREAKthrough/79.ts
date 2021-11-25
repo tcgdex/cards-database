@@ -37,23 +37,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Bone Revenge",
-				fr: "Règle des Évolutions TURBO",
-			},
-			effect: {
-				en: "This attack does 40 more damage for each Prize card your opponent has taken.",
-			},
-			damage: "20+",
-
-		},
-		{
-			cost: [
-				"Fighting",
-				"Colorless",
-			],
-			name: {
 				fr: "Os Vengeance",
 			},
 			effect: {
+				en: "This attack does 40 more damage for each Prize card your opponent has taken.",
 				fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
 			},
 			damage: "20+",

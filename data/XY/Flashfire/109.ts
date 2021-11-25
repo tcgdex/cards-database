@@ -47,21 +47,6 @@ const card: Card = {
 			damage: "100+",
 
 		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Poing Boum",
-			},
-			effect: {
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
-			},
-			damage: "100+",
-
-		},
 	],
 
 	weaknesses: [

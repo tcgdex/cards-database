@@ -22,22 +22,32 @@ const card: Card = {
 	stage: "Basic",
 
 
-	attacks: [
-		{
-			cost: [
-				"Metal",
-			],
-			name: {
-				en: "Precognitive Dream",
-				fr: "Rêve Prémonitoire",
-			},
-			effect: {
-				en: "Draw 3 cards. This Pokémon is now Asleep.",
-				fr: "Piochez 3 cartes. Ce Pokémon est maintenant Endormi.",
-			},
-
+	attacks: [{
+		cost: [
+			"Metal",
+		],
+		name: {
+			en: "Precognitive Dream",
+			fr: "Rêve Prémonitoire",
 		},
-	],
+		effect: {
+			en: "Draw 3 cards. This Pokémon is now Asleep.",
+			fr: "Piochez 3 cartes. Ce Pokémon est maintenant Endormi.",
+		},
+
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			fr: "Tête de Fer"
+		},
+
+		effect: {
+			fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+		},
+
+		damage: "30×"
+	}],
 	weaknesses: [
 		{
 			type: "Fire",

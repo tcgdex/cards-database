@@ -4,7 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "Thundurus EX",
-		fr: "Fulguris-EX",
+		fr: "Fulguris EX",
 	},
 
 	illustrator: "Eske Yoshinob",

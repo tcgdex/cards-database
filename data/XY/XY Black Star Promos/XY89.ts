@@ -45,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Electric Ring",
+				fr: "Anneau Électrique"
 			},
 			effect: {
 				en: "If Hoopa is on your Bench, this attack does 30 more damage.",
+				fr: "Si Hoopa est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: "30+",
 

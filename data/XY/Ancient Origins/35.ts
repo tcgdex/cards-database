@@ -47,25 +47,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Superpower",
-				fr: "Stop Θ",
-			},
-			effect: {
-				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
-			},
-			damage: "80+",
-
-		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Surpuissance",
 			},
 			effect: {
+				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
 				fr: "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: "80+",

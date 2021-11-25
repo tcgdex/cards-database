@@ -53,7 +53,7 @@ const card: Card = {
 				en: "If your opponent's Active Pokémon is Asleep, this attack does 60 more damage and heal 30 damage from this Pokémon.",
 				fr: "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
-			damage: "60＋",
+			damage: "60+",
 
 		},
 	],

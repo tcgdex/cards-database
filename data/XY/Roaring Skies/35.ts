@@ -4,7 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "M Gallade EX",
-		fr: "M Gallame-EX",
+		fr: "M-Gallame EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -38,29 +38,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Unwavering Blade",
-				fr: "Règle des Méga-Évolutions",
+				fr: "Lame Sanguinaire",
 			},
 			effect: {
 				en: "This attack does 30 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire ayant déjà des marqueurs de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 110,
 
-		},
-		{
-			cost: [
-				"Psychic",
-				"Psychic",
-				"Colorless",
-			],
-			name: {
-				fr: "Lame Impitoyable",
-			},
-			effect: {
-				fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire ayant au moins 1 marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			},
-			damage: 110,
-
-		},
+		}
 	],
 
 	weaknesses: [

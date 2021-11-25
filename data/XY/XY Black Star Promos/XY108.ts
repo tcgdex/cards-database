@@ -24,24 +24,34 @@ const card: Card = {
 
 	suffix: "EX",
 
-	attacks: [
-		{
-			cost: [
-				"Fighting",
-				"Colorless",
-			],
-			name: {
-				en: "Steaming Mad",
-				fr: "Fou Furax",
-			},
-			effect: {
-				en: "This attack does 20 damage times the number of damage counters on this Pokémon. This Pokémon is now Confused.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon. Ce Pokémon est maintenant Confus.",
-			},
-			damage: "20×",
-
+	attacks: [{
+		cost: [
+			"Fighting",
+			"Colorless",
+		],
+		name: {
+			en: "Steaming Mad",
+			fr: "Fou Furax",
 		},
-	],
+		effect: {
+			en: "This attack does 20 damage times the number of damage counters on this Pokémon. This Pokémon is now Confused.",
+			fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon. Ce Pokémon est maintenant Confus.",
+		},
+		damage: "20×",
+
+	}, {
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			fr: "Marteau Fou"
+		},
+
+		effect: {
+			fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 80 dégâts supplémentaires. Ensuite, retirez tous les États Spéciaux de ce Pokémon."
+		},
+
+		damage: "80+"
+	}],
 
 	weaknesses: [
 		{

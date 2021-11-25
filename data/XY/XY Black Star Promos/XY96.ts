@@ -25,24 +25,34 @@ const card: Card = {
 	stage: "Stage1",
 
 
-	attacks: [
-		{
-			cost: [
-				"Darkness",
-				"Colorless",
-			],
-			name: {
-				en: "Mach Claw",
-				fr: "Instagriffe",
-			},
-			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			},
-			damage: 30,
-
+	attacks: [{
+		cost: [
+			"Darkness",
+			"Colorless",
+		],
+		name: {
+			en: "Mach Claw",
+			fr: "Instagriffe",
 		},
-	],
+		effect: {
+			en: "This attack's damage isn't affected by Resistance.",
+			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+		},
+		damage: 30,
+
+	}, {
+		cost: ["Darkness", "Colorless", "Colorless"],
+
+		name: {
+			fr: "Sensation Lunatique"
+		},
+
+		effect: {
+			fr: "Tournez 1 de vos cartes Récompense (actuellement face cachée) face découverte. Si la carte Récompense est un Pokémon, cette attaque inflige 60 dégâts supplémentaires. (Cette carte Récompense reste face découverte jusqu'à la fin de la partie.)"
+		},
+
+		damage: "60+"
+	}],
 	weaknesses: [
 		{
 			type: "Fighting",

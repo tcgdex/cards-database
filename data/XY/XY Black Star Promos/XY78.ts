@@ -45,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Wing",
+				fr: "Ailes Vives"
 			},
 
 			damage: 60,

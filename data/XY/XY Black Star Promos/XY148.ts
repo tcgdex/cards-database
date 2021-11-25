@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Aroma of Gratitude",
+				fr: "Parfum de Reconnaissance"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may heal 20 damage from each of your Benched Basic Pokémon.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez soigner 20 dégâts à chaque Pokémon de base de votre Banc."
 			},
 		},
 	],
@@ -45,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Floral Gain",
+				fr: "Gain Floral"
 			},
 			effect: {
 				en: "Heal 20 damage and remove all Special Conditions from this Pokémon.",
+				fr: "Soignez 20 dégâts et retirez tous les États Spéciaux de ce Pokémon."
 			},
 			damage: 60,
 

@@ -4,7 +4,7 @@ import Set from '../Roaring Skies'
 const card: Card = {
 	name: {
 		en: "Rayquaza EX",
-		fr: "Rayquaza-EX",
+		fr: "Rayquaza EX",
 	},
 
 	illustrator: "Ryo Ueda",
@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard the top 3 cards of your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck.",
+				fr: "Défaussez les 3 cartes du dessus de votre deck.",
 			},
 			damage: 100,
 

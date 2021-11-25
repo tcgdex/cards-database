@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Your opponent reveals his or her hand. This attack does 40 more damage for each Energy card in your opponent's hand.",
 				fr: "Votre adversaire montre sa main. Cette attaque inflige 40 dégâts supplémentaires pour chaque carte Énergie dans la main de votre adversaire.",
 			},
-			damage: "80＋",
+			damage: "80+",
 
 		},
 	],

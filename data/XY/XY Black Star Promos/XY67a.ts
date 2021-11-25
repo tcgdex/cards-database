@@ -31,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Stardust",
+				fr: "Poussière Étoile"
 			},
 			effect: {
 				en: "Discard a Special Energy attached to your opponent's Active Pokémon. If you do, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire. Dans ce cas, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
 			},
 			damage: 10,
 
@@ -45,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dream Dance",
+				fr: "Danse-Rêve"
 			},
 			effect: {
 				en: "Both Active Pokémon are now Asleep.",
+				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis."
 			},
 			damage: 20,
 

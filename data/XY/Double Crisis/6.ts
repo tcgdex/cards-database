@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
 			},
 			damage: "80＋",
 

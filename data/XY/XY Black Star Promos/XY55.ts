@@ -39,7 +39,7 @@ const card: Card = {
 				en: "Reveal the top 4 cards of your deck. This attack does 40 more damage for each Water Energy you find there. Shuffle the revealed cards back into your deck.",
 				fr: "Montrez les 4 cartes du dessus de votre deck. Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie Water que vous y trouvez. Mélangez les cartes montrées avec votre deck.",
 			},
-			damage: "40＋",
+			damage: "40+",
 
 		},
 		{

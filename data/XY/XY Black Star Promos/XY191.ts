@@ -29,9 +29,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Justified",
+				fr: "Cœur Noble"
 			},
 			effect: {
 				en: "This Pokémon's attacks do 50 more damage to your opponent's Darkness Pokémon (before applying Weakness and Resistance).",
+				fr: "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -45,9 +47,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sacred Sword",
+				fr: "Lame Sainte"
 			},
 			effect: {
 				en: "This Pokémon can't use Sacred Sword during your next turn.",
+				fr: "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour."
 			},
 			damage: 100,
 

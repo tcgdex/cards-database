@@ -32,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Shock",
+				fr: "Éclair"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 30,
 
@@ -47,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Thunderbolt",
+				fr: "Méga tonnerre"
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon.",
+				fr: "Défaussez toutes les Énergies attachées à ce Pokémon."
 			},
 			damage: 160,
 

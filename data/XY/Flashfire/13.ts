@@ -48,24 +48,7 @@ const card: Card = {
 			},
 			damage: 300,
 
-		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Plongeon Écarlate",
-			},
-			effect: {
-				fr: "Ce Pokémon s'inflige 50 dégâts.",
-			},
-			damage: 300,
-
-		},
+		}
 	],
 
 	weaknesses: [

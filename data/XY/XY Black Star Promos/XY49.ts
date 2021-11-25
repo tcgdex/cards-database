@@ -6,21 +6,23 @@ const card: Card = {
 		en: "Regirock",
 		fr: "Regirock",
 	},
+
 	illustrator: "Kouki Saitou",
 	rarity: "None",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		377,
 	],
+
 	hp: 110,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "Basic",
-
 
 	attacks: [
 		{
@@ -52,10 +54,11 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
-			damage: "80＋",
+			damage: "80+",
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -65,8 +68,17 @@ const card: Card = {
 
 	retreat: 3,
 
+	abilities: [{
+		type: "Ability",
 
+		name: {
+			fr: "{title}:"
+		},
 
+		effect: {
+			fr: "{title}: Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon."
+		}
+	}]
 }
 
 export default card

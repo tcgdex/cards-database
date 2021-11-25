@@ -4,7 +4,7 @@ import Set from '../Ancient Origins'
 const card: Card = {
 	name: {
 		en: "M Rayquaza EX",
-		fr: "M-Rayquaza-EX",
+		fr: "M-Rayquaza EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -38,24 +38,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Emerald Break",
-				fr: "Max Θ",
-			},
-			effect: {
-				en: "This attack does 30 damage times the number of your Benched Pokémon.",
-			},
-			damage: "30×",
-
-		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Bris'Émeraude",
 			},
 			effect: {
+				en: "This attack does 30 damage times the number of your Benched Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre de vos Pokémon de Banc.",
 			},
 			damage: "30×",
@@ -78,7 +64,19 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	suffix: "EX"
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			fr: "{title}:"
+		},
+
+		effect: {
+			fr: "{title}: Lorsqu'un de vos Pokémon devient ce Pokémon, soignez tous les dégâts de ce Pokémon."
+		}
+	}]
 }
 
 export default card

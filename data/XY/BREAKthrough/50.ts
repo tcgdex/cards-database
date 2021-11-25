@@ -38,24 +38,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Grand Bolt",
-				fr: "Règle des Évolutions TURBO",
-			},
-			effect: {
-				en: "Discard all Energy attached to this Pokémon.",
-			},
-			damage: 170,
-
-		},
-		{
-			cost: [
-				"Lightning",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Foudre Grandiose",
 			},
 			effect: {
+				en: "Discard all Energy attached to this Pokémon.",
 				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
 			},
 			damage: 170,

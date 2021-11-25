@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 20 more damage times the amount of Energy attached to both Active Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d'Énergies attachées aux Pokémon Actifs.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d'Énergies attachées aux deux Pokémon Actifs.",
 			},
 			damage: '20+',
 

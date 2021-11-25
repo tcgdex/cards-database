@@ -82,15 +82,18 @@ export interface Card {
 	/**
 	 * Card Rarity
 	 *
-	 * - None https://www.tcgdex.net/database/sm/smp/SM01
-	 * - Common https://www.tcgdex.net/database/xy/xy9/1
-	 * - Uncommon https://www.tcgdex.net/database/xy/xy9/2
-	 * - Rare https://www.tcgdex.net/database/xy/xy9/3
-	 * - Ultra Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/18-Cinderace-V
-	 * - Secret Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX
-	 * - Amazing https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/17-Reshiram
+	 * - None         https://www.tcgdex.net/database/sm/smp/SM01
+	 * - Common       https://www.tcgdex.net/database/xy/xy9/1
+	 * - Uncommon     https://www.tcgdex.net/database/xy/xy9/2
+	 * - Rare         https://www.tcgdex.net/database/xy/xy9/3
+	 * - Ultra Rare   https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/18-Cinderace-V
+	 * - Rare LEGEND  https://www.tcgdex.net/database/HeartGold-&-SoulSilver/Triumphant/101-Palkia-&-Dialga-LEGEND
+	 * - Rare Star    https://www.tcgdex.net/database/EX/Power-Keepers/102-Vaporeon-Star
+	 * - Secret Rare  https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX
+	 * - Amazing      https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/17-Reshiram
+	 * - Shining      https://www.tcgdex.net/database/Neo/Neo-Destiny/106-Shining-Celebi
 	 */
-	rarity: 'None' | 'Common'| 'Uncommon' | 'Rare' | 'Ultra Rare' | 'Secret Rare' | 'Amazing'
+	rarity: 'None' | 'Common'| 'Uncommon' | 'Rare' | 'Ultra Rare' | 'Rare LEGEND' | 'Rare Star' | 'Secret Rare' | 'Amazing' | 'Shinig'
 
 	/**
 	 * Card Category

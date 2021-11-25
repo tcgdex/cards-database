@@ -4,6 +4,7 @@ import Set from '../Primal Clash'
 const card: Card = {
 	name: {
 		en: "Weakness Policy",
+		fr: "VulnéAssurance"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +14,8 @@ const card: Card = {
 	trainerType: "Tool",
 
 	effect: {
-		en: "The Pokémon this card is attached to has no Weakness."
+		en: "The Pokémon this card is attached to has no Weakness.",
+		fr: "Le Pokémon auquel cette carte est attachée n'a pas de Faiblesse."
 	}
 }
 

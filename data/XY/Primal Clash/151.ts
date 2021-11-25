@@ -4,7 +4,7 @@ import Set from '../Primal Clash'
 const card: Card = {
 	name: {
 		en: "Primal Groudon EX",
-		fr: "Primo-Groudon-EX",
+		fr: "Primo-Groudon EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -53,30 +53,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Gaia Volcano",
-				fr: "Règle des Primo-Résurgences",
-			},
-			effect: {
-				en: "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card.",
-			},
-			damage: "100+",
-
-		},
-		{
-			cost: [
-				"Fighting",
-				"Fighting",
-				"Fighting",
-				"Colorless",
-			],
-			name: {
 				fr: "Volcan de Gaïa",
 			},
 			effect: {
-				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 100 dégâts supplémentaires. Défaussez la carte Stade.",
+				en: "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card.",
+				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 100 dégâts supplémentaires. Défaussez la carte Stade."
 			},
 			damage: "100+",
 
-		},
+		}
 	],
 
 	weaknesses: [

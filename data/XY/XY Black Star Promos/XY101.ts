@@ -22,22 +22,34 @@ const card: Card = {
 	stage: "Basic",
 
 
-	attacks: [
-		{
-			cost: [
-				"Psychic",
-				"Colorless",
-			],
-			name: {
-				en: "Psy Bolt",
-			},
-			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			},
-			damage: 20,
-
+	attacks: [{
+		cost: [
+			"Psychic",
+			"Colorless",
+		],
+		name: {
+			en: "Psy Bolt",
+			fr: "Choc Mental"
 		},
-	],
+		effect: {
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+		},
+		damage: 20,
+
+	}, {
+		cost: ["Psychic", "Psychic", "Colorless", "Colorless"],
+
+		name: {
+			fr: "Lame Zen"
+		},
+
+		effect: {
+			fr: "Ce Pokémon ne peut pas utiliser Lame Zen pendant votre prochain tour."
+		},
+
+		damage: 100
+	}],
 	weaknesses: [
 		{
 			type: "Psychic",

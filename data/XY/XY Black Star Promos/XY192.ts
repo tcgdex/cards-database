@@ -31,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Clairvoyance",
+				fr: "Hellseherei"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand.",
+				fr: "Votre adversaire montre sa main."
 			},
 
 		},
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic",
+				fr: "Psyko"
 			},
 			effect: {
 				en: "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
+				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

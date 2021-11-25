@@ -38,11 +38,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Night Scan",
+				fr: "Observation Nocturne"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand. This attack does 30 more damage for each Trainer card you find there.",
+				fr: "Votre adversaire montre sa main. Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Dresseur que vous y trouvez."
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],

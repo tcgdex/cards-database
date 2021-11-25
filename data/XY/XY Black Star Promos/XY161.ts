@@ -31,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Destructive Flame",
+				fr: "Flamme Destructrice"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
 			},
 			damage: 20,
 
@@ -45,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Crackling Ribbon",
+				fr: "Ruban Crépitant"
 			},
 
 			damage: 30,

@@ -43,23 +43,9 @@ const card: Card = {
 				en: "Discard the top card of your opponent's deck. If that card is a Trainer card, this attack does 80 more damage.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si c'est une carte Dresseur, cette attaque inflige 80 dégâts supplémentaires."
 			},
-			damage: "80＋",
+			damage: "80+",
 
-		},
-		{
-			cost: [
-				"Darkness",
-				"Darkness",
-			],
-			name: {
-				fr: "Aile du Désastre",
-			},
-			effect: {
-				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si c'est une carte Dresseur, cette attaque inflige 80 dégâts supplémentaires.",
-			},
-			damage: "80＋",
-
-		},
+		}
 	],
 
 	weaknesses: [

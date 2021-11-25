@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "50×",
 

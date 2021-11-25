@@ -31,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
+				fr: "Fournaise"
 			},
 
 			damage: 20,
@@ -45,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Flying Flare",
+				fr: "Flamboiement Volant"
 			},
 			effect: {
 				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
+				fr: "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts."
 			},
 			damage: "80+",
 

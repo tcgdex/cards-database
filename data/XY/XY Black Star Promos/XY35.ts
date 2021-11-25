@@ -45,7 +45,7 @@ const card: Card = {
 				en: "This attack does 10 more damage for each Metal Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon.",
 			},
-			damage: "130＋",
+			damage: "130+",
 
 		},
 	],

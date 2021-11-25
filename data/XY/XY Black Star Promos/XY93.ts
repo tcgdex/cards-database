@@ -26,9 +26,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Leap Through Time",
+				fr: "{title}:"
 			},
 			effect: {
 				en: "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't take a Prize card. Shuffle this Pokémon and all cards attached to it into your deck.",
+				fr: "{title}: Évitez tous les effets des talents des Pokémon de votre adversaire infligés à ce Pokémon."
 			},
 		},
 	],
@@ -39,10 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sparkle Mine",
-				fr: "Stop Θ",
+				fr: "Élan Brillant",
 			},
 			effect: {
 				en: "Put 1 damage counter on each of your opponent's Pokémon.",
+				fr: "Placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire."
 			},
 
 		},
