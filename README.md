@@ -90,7 +90,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.avior.me/"><img src="https://avatars.githubusercontent.com/u/15822031?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avior</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/commits?author=Aviortheking" title="Code">💻</a> <a href="#data-Aviortheking" title="Data">🔣</a></td>
-    <td align="center"><a href="https://github.com/JuneTwooo"><img src="https://avatars.githubusercontent.com/u/1458019?v=4?s=100" width="100px;" alt=""/><br /><sub><b>June</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/issues?q=author%3AJuneTwooo" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/JuneTwooo"><img src="https://avatars.githubusercontent.com/u/1458019?v=4?s=100" width="100px;" alt=""/><br /><sub><b>June</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/issues?q=author%3AJuneTwooo" title="Bug reports">🐛</a> <a href="#data-JuneTwooo" title="Data">🔣</a></td>
     <td align="center"><a href="https://github.com/Kevin-Adrea"><img src="https://avatars.githubusercontent.com/u/36231620?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin-Adrea</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/issues?q=author%3AKevin-Adrea" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/Maxopoly"><img src="https://avatars.githubusercontent.com/u/12138136?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Maxopoly</b></sub></a><br /><a href="#data-Maxopoly" title="Data">🔣</a></td>
   </tr>
