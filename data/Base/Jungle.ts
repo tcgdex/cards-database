@@ -6,7 +6,7 @@ const base2: Set = {
 
 	name: {
 		en: "Jungle",
-		fr: "Jungla",
+		fr: "Jungle",
 		de: "Dschungel",
 		it: "Jungle",
 		es: "Jungla",
