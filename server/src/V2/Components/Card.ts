@@ -80,10 +80,10 @@ export default class Card implements LocalCard {
 		const res = (require(`../../../generated/${lang}/cards.json`) as Array<SDKCard>).find((c) => {
 			return objectLoop(params, (it, key) => {
 				if (key === 'set' && typeof it === 'string') {
-					return (
-						lightCheck(c['set'].id, it) || lightCheck(c['set'].name, it)
-					)
+					console.log("set", c['set'].id, it, lightCheck(c['set'].id, it))
+					return (c['set'].id === it || lightCheck(c['set'].name, it))
 				}
+				console.log("other field", key, c[key as 'localId'], it, lightCheck(c[key as 'localId'], it))
 				return lightCheck(c[key as 'localId'], it)
 			})
 		})
