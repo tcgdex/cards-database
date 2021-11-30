@@ -31,6 +31,7 @@ export default class Serie implements LocalSerie {
 	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKSerie, any>> = {}, pagination?: Pagination) {
 		let list = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
 			.filter((c) => objectLoop(params, (it, key) => {
+				if (key === 'id') return c[key] === it
 				return lightCheck(c[key as 'id'], it)
 			}))
 		if (pagination) {
@@ -43,7 +44,10 @@ export default class Serie implements LocalSerie {
 	public static findOne(lang: SupportedLanguages, params: Partial<Record<keyof Serie, any>> = {}): Serie | undefined {
 		const res = (require(`../../../generated/${lang}/series.json`) as Array<SDKSerie>)
 			.find((c) => {
-				return objectLoop(params, (it, key) => lightCheck(c[key as 'id'], it))
+				return objectLoop(params, (it, key) => {
+					if (key === 'id') return c[key] === it
+					return lightCheck(c[key as 'id'], it)
+				})
 			})
 		if (!res) {
 			return undefined

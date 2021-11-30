@@ -49,7 +49,11 @@ export default class Set implements LocalSet {
 	public static find(lang: SupportedLanguages, params: Partial<Record<keyof SDKSet, any>> = {}, pagination?: Pagination) {
 		let list = (require(`../../../generated/${lang}/sets.json`) as Array<SDKSet>)
 			.filter((c) => objectLoop(params, (it, key) => {
-
+				if (key === 'id' || key === 'name') {
+					return c[key as 'id'].toLowerCase() === it.toLowerCase()
+				} else if (typeof it === 'string') {
+					return c[key as 'id'].toLowerCase().includes(it.toLowerCase())
+				}
 				return lightCheck(c[key as 'id'], it)
 			}))
 		if (pagination) {
