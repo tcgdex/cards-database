@@ -162,8 +162,11 @@ server
 				}
 				break
 			default:
-				result = Card.find(lang, {[endpointToField[endpoint]]: id})
+				result = {
+					name: id,
+					cards: Card.find(lang, {[endpointToField[endpoint]]: id})
 					.map((c) => c.resume())
+				}
 		}
 		if (!result) {
 			return res.status(404).send({error: "Endpoint or id not found"})
