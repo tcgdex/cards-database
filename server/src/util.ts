@@ -73,6 +73,8 @@ export function lightCheck(source: any, item: any): boolean {
 		return lightCheck(source[item], true)
 	} else if (typeof source === 'string') {
 		return source.toLowerCase().includes(item.toString().toLowerCase())
+	} else if (typeof source === 'number') {
+		return source === parseInt(item)
 	} else {
 		// console.log(source, item)
 		return source === item
