@@ -1,6 +1,6 @@
 import express from 'express'
 import { graphqlHTTP } from 'express-graphql'
-import { buildSchema } from 'graphql'
+import { buildSchema, formatError } from 'graphql'
 import resolver from './resolver'
 import fs from 'fs'
 
@@ -16,7 +16,11 @@ const schema = buildSchema(fs.readFileSync('./public/v2/graphql.gql').toString()
 router.use(graphqlHTTP({
 	schema,
 	rootValue: resolver,
-	graphiql: true
+	graphiql: true,
+	customFormatErrorFn(error) {
+		console.error(error)
+		return formatError(error)
+	}
 }))
 
 export default router
