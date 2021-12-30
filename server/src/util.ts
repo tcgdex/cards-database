@@ -1,6 +1,5 @@
 import { SupportedLanguages } from '@tcgdex/sdk'
 import { Response } from 'express'
-import fs from 'fs'
 
 export function checkLanguage(str: string): str is SupportedLanguages {
 	return ['en', 'fr', 'es', 'it', 'pt', 'de'].includes(str)
