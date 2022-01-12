@@ -16,7 +16,7 @@ const swsh1: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 202
+		official: 163
 	},
 
 	releaseDate: "2021-03-19"
