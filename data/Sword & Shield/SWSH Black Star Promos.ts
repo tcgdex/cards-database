@@ -6,6 +6,7 @@ const swshp: Set = {
 
 	name: {
 		en: "SWSH Black Star Promos",
+		pt: "ESES Promos",
 		fr: "Promo SWSH",
 		es: "Cartas de promoción ESES",
 		it: "SPSC Promo",
