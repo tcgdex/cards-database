@@ -183,12 +183,12 @@ export default express.Router().get('/', (_, res): void => {
 		</tr>
 		<tr>
 			<td>Cards</td>
-			<td>${enStats.images + enStats.count} of ${enStats.total}</td>
-			<td>${frStats.images + frStats.count} of ${frStats.total}</td>
-			<td>${deStats.images + deStats.count} of ${deStats.total}</td>
-			<td>${itStats.images + itStats.count} of ${itStats.total}</td>
-			<td>${ptStats.images + ptStats.count} of ${ptStats.total}</td>
-			<td>${esStats.images + esStats.count} of ${esStats.total}</td>
+			<td>${enStats.images + enStats.count} of ${enStats.total * 2}</td>
+			<td>${frStats.images + frStats.count} of ${frStats.total * 2}</td>
+			<td>${deStats.images + deStats.count} of ${deStats.total * 2}</td>
+			<td>${itStats.images + itStats.count} of ${itStats.total * 2}</td>
+			<td>${ptStats.images + ptStats.count} of ${ptStats.total * 2}</td>
+			<td>${esStats.images + esStats.count} of ${esStats.total * 2}</td>
 			<td>${totalStats.images + totalStats.count} of ${totalStats.total * 2}</td>
 		</tr><tr>
 		<td>Percentage</td>
