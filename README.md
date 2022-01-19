@@ -53,16 +53,11 @@ There is three sub folders that will allow you to edit some faces of the databas
 - `/meta`: Contains informations for the project (definitions files, Translations for some fields)
 - `/server`: The server that allow to communicate with the database
 
-## Translations
+## Status
 
-We have a big effort on translating datas for older sets
+We are making sure to make every cards available for every languages they were available !
 
-_note: numbers updated manually_
-
-|             | English | French | German | Italian | Portuguese | Spanish |
-|-------------|---------|--------|--------|---------|------------|---------|
-| Cards       | 14419   | 9846   | 6590   | 6576    | 6593       | 6590    |
-| Translated  | 100%    | 68.2%  | 45.7%  | 45.6%   | 45.7%      | 45.7%   |
+![TCGdex Progress](https://api.tcgdex.net/status/github.svg)
 
 _want to help translating? each object fields on cards that have at least en,fr,es,de,it or pt can have the others!,_
 _Also we have another translation files located at `meta/translations`_
