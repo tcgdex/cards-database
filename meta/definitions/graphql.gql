@@ -64,6 +64,7 @@ type Card {
 	category: String!
 	description: String
 	dexId: [Float]
+	effect: String
 	energyType: String
 	evolveFrom: String
 	hp: Float
@@ -86,6 +87,8 @@ type Card {
 	types: [String]
 	variants: Variants
 	weaknesses: [WeakResListItem]
+	# Currently not in any cards
+	# weight: String!
 }
 
 type AbilitiesListItem {
@@ -137,6 +140,7 @@ type Set {
 	symbol: String
 	serie: Serie!
 	releaseDate: String!
+	tcgOnline: String
 }
 
 type CardCount {

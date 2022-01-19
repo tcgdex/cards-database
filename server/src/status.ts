@@ -54,8 +54,48 @@ preProcessSets(itStats, 'it')
 preProcessSets(ptStats, 'pt')
 preProcessSets(deStats, 'de')
 
-
-export default express.Router().get('/', (_, res): void => {
+// Yes this is ugly
+export default express.Router()
+.get('/github.svg', (_, res): void => {
+	res.setHeader('Content-Type', 'image/svg+xml')
+	res.send(`<svg width="1052" height="239" viewBox="0 0 1052 239" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<rect width="1052" height="239" rx="16" fill="white"/>
+	<rect width="1052" height="50" rx="16" fill="#F4F4F4"/>
+	<text fill="#999999" font-weight="bold" ><tspan x="145.5" y="30.944">English</tspan></text>
+	<text fill="#999999" font-weight="bold" ><tspan x="275" y="30.944">French</tspan></text>
+	<text fill="#999999" font-weight="bold" ><tspan x="404.5" y="30.944">German</tspan></text>
+	<text fill="#999999" font-weight="bold" ><tspan x="534" y="30.944">Italian</tspan></text>
+	<text fill="#999999" font-weight="bold" ><tspan x="663.5" y="30.944">Portuguese</tspan></text>
+	<text fill="#999999" font-weight="bold" ><tspan x="793" y="30.944">Spanish</tspan></text>
+	<text fill="#999999" font-weight="bold" ><tspan x="922.5" y="30.944">Total</tspan></text>
+	<text fill="black"><tspan x="16" y="91.444">Card Progress</tspan></text>
+	<text fill="black"><tspan x="145.5" y="80.944">${enStats.count} of ${enStats.total}&#10;</tspan><tspan x="145.5" y="101.944">${(100 * enStats.count / enStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="275" y="80.944">${frStats.count} of ${frStats.total}&#10;</tspan><tspan x="275" y="101.944">${(100 * frStats.count / frStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="404.5" y="80.944">${deStats.count} of ${deStats.total}&#10;</tspan><tspan x="404.5" y="101.944">${(100 * deStats.count / deStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="534" y="80.944">${itStats.count} of ${itStats.total}&#10;</tspan><tspan x="534" y="101.944">${(100 * itStats.count / itStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="663.5" y="80.944">${ptStats.count} of ${ptStats.total}&#10;</tspan><tspan x="663.5" y="101.944">${(100 * ptStats.count / ptStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="793" y="80.944">${esStats.count} of ${esStats.total}&#10;</tspan><tspan x="793" y="101.944">${(100 * esStats.count / esStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="922.5" y="80.944">${totalStats.count} of ${totalStats.total}&#10;</tspan><tspan x="922.5" y="101.944">${(100 * totalStats.count / totalStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="16" y="151.944">Images </tspan><tspan x="16" y="169.944">Progress</tspan></text>
+	<text fill="black"><tspan x="145.5" y="150.444">${enStats.images} of ${enStats.total}&#10;</tspan><tspan x="145.5" y="171.444">${(100 * enStats.images / enStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="275" y="150.444">${frStats.images} of ${frStats.total}&#10;</tspan><tspan x="275" y="171.444">${(100 * frStats.images / frStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="404.5" y="150.444">${deStats.images} of ${deStats.total}&#10;</tspan><tspan x="404.5" y="171.444">${(100 * deStats.images / deStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="534" y="150.444">${itStats.images} of ${itStats.total}&#10;</tspan><tspan x="534" y="171.444">${(100 * itStats.images / itStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="663.5" y="150.444">${ptStats.images} of ${ptStats.total}&#10;</tspan><tspan x="663.5" y="171.444">${(100 * ptStats.images / ptStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="793" y="150.444">${esStats.images} of ${esStats.total}&#10;</tspan><tspan x="793" y="171.444">${(100 * esStats.images / esStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="922.5" y="150.444">${totalStats.images} of ${totalStats.total}&#10;</tspan><tspan x="922.5" y="171.444">${(100 * totalStats.images / totalStats.total).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="16" y="219.944">Total Progress</tspan></text>
+	<text fill="black"><tspan x="145.5" y="209.444">${enStats.images + enStats.count} of ${enStats.total * 2}&#10;</tspan><tspan x="145.5" y="230.444">${(100 * (enStats.images + enStats.count) / (enStats.total * 2)).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="275" y="209.444">${frStats.images + frStats.count} of ${frStats.total * 2}&#10;</tspan><tspan x="275" y="230.444">${(100 * (frStats.images + frStats.count) / (frStats.total * 2)).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="404.5" y="209.444">${deStats.images + deStats.count} of ${deStats.total * 2}&#10;</tspan><tspan x="404.5" y="230.444">${(100 * (deStats.images + deStats.count) / (deStats.total * 2)).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="534" y="209.444">${itStats.images + itStats.count} of ${itStats.total * 2}&#10;</tspan><tspan x="534" y="230.444">${(100 * (itStats.images + itStats.count) / (itStats.total * 2)).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="663.5" y="209.444">${ptStats.images + ptStats.count} of ${ptStats.total * 2}&#10;</tspan><tspan x="663.5" y="230.444">${(100 * (ptStats.images + ptStats.count) / (ptStats.total * 2)).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="793" y="209.444">${esStats.images + esStats.count} of ${esStats.total * 2}&#10;</tspan><tspan x="793" y="230.444">${(100 * (esStats.images + esStats.count) / (esStats.total * 2)).toFixed(2)}%</tspan></text>
+	<text fill="black"><tspan x="922.5" y="209.444">${totalStats.images + totalStats.count} of ${totalStats.total * 2}&#10;</tspan><tspan x="922.5" y="230.444">${(100 * (totalStats.images + totalStats.count) / (totalStats.total * 2)).toFixed(2)}%</tspan></text>
+	</svg>
+	`)
+})
+.get('/', (_, res): void => {
 
 	res.send(`
 	<style>
