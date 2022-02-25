@@ -6,11 +6,11 @@ const set: Set = {
 
 	name: {
 		en: "Brilliant Stars",
-		fr: "Styles de combat",
-		es: "Estilos de Combate",
-		it: "Stili di Lotta",
-		de: "Kampfstile",
-		pt: "Estilos de Batalha"
+		fr: "Stars Étincelantes",
+		es: "Astros Brillantes",
+		it: "Astri Lucenti",
+		de: "Strahlende Sterne",
+		pt: "Astros Cintilantes"
 	},
 
 	serie: serie,
