@@ -171,8 +171,9 @@ export interface Card {
 	 * - Stage2 https://www.tcgdex.net/database/xy/xy9/3
 	 * - VMAX https://www.tcgdex.net/database/swsh/swsh1/50
 	 * - Baby https://www.tcgdex.net/database/swsh/cel25/20A
+	 * - VSTAR https://www.tcgdex.net/database/swsh/swsh9/14
 	 */
-	stage?: 'Basic' | 'BREAK' | 'LEVEL-UP' | 'MEGA' | 'RESTORED' | 'Stage1' | 'Stage2' | 'VMAX' | 'V-UNION' | 'Baby'
+	stage?: 'Basic' | 'BREAK' | 'LEVEL-UP' | 'MEGA' | 'RESTORED' | 'Stage1' | 'Stage2' | 'VMAX' | 'V-UNION' | 'Baby' | 'VSTAR'
 
 	/**
 	 * Card Suffix
