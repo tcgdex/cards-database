@@ -130,6 +130,9 @@
 				},
 				"Baby": {
 					"type": "string"
+				},
+				"VSTAR": {
+					"type": "string"
 				}
 			},
 			"required": [
@@ -142,7 +145,8 @@
 				"Stage2",
 				"VMAX",
 				"V-UNION",
-				"Baby"
+				"Baby",
+				"VSTAR"
 			]
 		},
 		"suffix": {
