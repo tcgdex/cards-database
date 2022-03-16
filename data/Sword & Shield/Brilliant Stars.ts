@@ -19,7 +19,7 @@ const set: Set = {
 		official: 172
 	},
 
-	releaseDate: "2021-02-25"
+	releaseDate: "2022-02-25"
 }
 
 export default set
