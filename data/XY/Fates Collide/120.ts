@@ -10,21 +10,24 @@ const card: Card = {
 		pt: "Genesect EX",
 		de: "Genesect EX"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		649,
 	],
+
 	hp: 180,
+
 	types: [
 		"Metal",
 	],
 
-
 	suffix: "EX",
+
 	abilities: [
 		{
 			type: "Ability",
@@ -46,6 +49,7 @@ const card: Card = {
 			},
 		},
 	],
+
 	attacks: [
 		{
 			cost: [
@@ -63,7 +67,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard as many Metal Energy attached to this Pokémon as you like. This attack does 20 more damage for each Energy card discarded in this way.",
-				fr: "Défaussez autant d’Énergies Metal attachées à ce Pokémon que vous voulez. Cette attaque inflige 20 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				fr: "Défaussez autant d'Énergies Metal attachées à ce Pokémon que vous voulez. Cette attaque inflige 20 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
 				es: "Descarta tantas Energías Metal unidas a este Pokémon como quieras. Este ataque hace 20 puntos de daño más por cada carta de Energía descartada de esta manera.",
 				it: "Scarta a piacimento le Energie Metal assegnate a questo Pokémon. Questo attacco infligge 20 danni in più per ogni carta Energia scartata in questo modo.",
 				pt: "Descarte tantas Energias Metal ligadas a este Pokémon quanto desejar. Este ataque causa 20 de danos adicionais para cada card de Energia descartado desta forma.",
@@ -73,22 +77,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

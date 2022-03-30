@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Soignez tous les dégâts de l’un de vos Pokémon. Dans ce cas, défaussez toutes les Énergies attachées au Pokémon choisi.",
+		fr: "Soignez tous les dégâts de l'un de vos Pokémon. Dans ce cas, défaussez toutes les Énergies attachées au Pokémon choisi.",
 		en: "Heal all damage from 1 of your Pokémon. If you do, discard all Energy attached to that Pokémon.",
 		es: "Cura todos los puntos de daño a 1 de tus Pokémon. Si lo haces, descarta todas las Energías unidas a ese Pokémon.",
 		it: "Cura uno dei tuoi Pokémon da tutti i danni. Se lo fai, scarta tutte le Energie assegnate a quel Pokémon.",

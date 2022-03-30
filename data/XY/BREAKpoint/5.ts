@@ -33,7 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bug Hunch",
-				fr: "Insec’tuition",
+				fr: "Insec'tuition",
 				es: "Instinto Bicho",
 				it: "Sensinsetto",
 				pt: "Pressentimento de Inseto",
@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 3 Grass Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu’à 3 Pokémon Grass dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				fr: "Cherchez jusqu'à 3 Pokémon Grass dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja hasta 3 Pokémon Grass, enséñalos y ponlos en tu mano. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo fino a tre Pokémon Grass, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho até 3 Pokémon Grass, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",

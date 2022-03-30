@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Gloom",
 		fr: "Ortide",
+		es: "Gloom",
+		it: "Gloom",
+		pt: "Gloom",
+		de: "Duflor"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Oddish",
 		fr: "Mystherbe",
+		es: "Oddish",
+		it: "Oddish",
+		pt: "Oddish",
+		de: "Myrapla"
 	},
 	stage: "Stage1",
 
@@ -34,6 +42,10 @@ const card: Card = {
 			name: {
 				en: "Drool",
 				fr: "Gluant",
+				es: "Babeo",
+				it: "Sbavare",
+				pt: "Babar",
+				de: "Sabbern"
 			},
 
 			damage: 30,

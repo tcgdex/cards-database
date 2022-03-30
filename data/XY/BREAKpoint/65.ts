@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Phantump",
 		fr: "Brocélôme",
+		es: "Phantump",
+		it: "Phantump",
+		pt: "Phantump",
+		de: "Paragoni"
 	},
 	stage: "Stage1",
 
@@ -40,7 +44,7 @@ const card: Card = {
 				de: "Nervensaat"
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent’s Basic Pokémon’s attacks cost Colorless more.",
+				en: "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.",
 				fr: "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent Colorless de plus.",
 				es: "Mientras este Pokémon sea tu Pokémon Activo, los ataques de los Pokémon Básicos de tu rival cuestan Colorless más.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, gli attacchi dei Pokémon Base del tuo avversario costano Colorless in più.",
@@ -65,7 +69,7 @@ const card: Card = {
 				de: "Energiedruck"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Energy attached to your opponent’s Active Pokémon.",
+				en: "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 				es: "Este ataque hace 10 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 10 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",

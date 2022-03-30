@@ -37,8 +37,8 @@ const card: Card = {
 				de: "Bodyguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Pokémon-EX.",
-				fr: "Évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon-EX de votre adversaire.",
+				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-EX.",
+				fr: "Évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon-EX de votre adversaire.",
 				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon-EX de tu rival.",
 				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon-EX del tuo avversario.",
 				pt: "Previne todos os efeitos de ataques, inclusive danos, causados neste Pokémon pelo Pokémon-EX do seu oponente.",

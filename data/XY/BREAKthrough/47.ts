@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Frogadier",
 		fr: "Croâporal",
+		es: "Frogadier",
+		it: "Frogadier",
+		pt: "Frogadier",
+		de: "Amphizel"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Froakie",
 		fr: "Grenousse",
+		es: "Froakie",
+		it: "Froakie",
+		pt: "Froakie",
+		de: "Froxy"
 	},
 	stage: "Stage1",
 
@@ -34,6 +42,10 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				es: "Corte",
+				it: "Taglio",
+				pt: "Cortar",
+				de: "Zerschneider"
 			},
 
 			damage: 30,

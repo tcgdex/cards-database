@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Combee",
 		fr: "Apitrini",
+		es: "Combee",
+		it: "Combee",
+		pt: "Combee",
+		de: "Wadribie"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 10,

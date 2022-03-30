@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Axew",
 		fr: "Coupenotte",
+		es: "Axew",
+		it: "Axew",
+		pt: "Axew",
+		de: "Milza"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Brat Snack",
 				fr: "Goûter Galopin",
+				es: "Bocado Consentido",
+				it: "Spuntino Moccioso",
+				pt: "Lanche de Pirralho",
+				de: "Schlingelschmaus"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Dragon Claw",
 				fr: "Dracogriffe",
+				es: "Garra Dragón",
+				it: "Dragartigli",
+				pt: "Garra de Dragão",
+				de: "Drachenklaue"
 			},
 
 			damage: 40,

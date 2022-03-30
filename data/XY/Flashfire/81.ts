@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Sentret",
 		fr: "Fouinette",
+		es: "Sentret",
+		it: "Sentret",
+		pt: "Sentret",
+		de: "Wiesor"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Tail Smack",
 				fr: "Coup de Queue",
+				es: "Bofetón Cola",
+				it: "Codasberla",
+				pt: "Ataque de Cauda",
+				de: "Schweifschlag"
 			},
 
 			damage: 20,

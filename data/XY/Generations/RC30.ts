@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Projection Vitale",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 20,
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Vent Étincelant",
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon has no Weakness.",
+				en: "During your opponent's next turn, this Pokémon has no Weakness.",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
 			},
 			damage: 100,

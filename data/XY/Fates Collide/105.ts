@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur pioche une carte pour chacune des cartes Récompense qu’il lui reste.",
+		fr: "Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur pioche une carte pour chacune des cartes Récompense qu'il lui reste.",
 		en: "Each player shuffles his or her hand into his or her deck. Then, each player draws a card for each of his or her remaining Prize cards.",
 		es: "Cada jugador baraja las cartas de su mano en su baraja. Después, cada jugador roba 1 carta por cada una de las cartas de Premio que le queden.",
 		it: "Ogni giocatore rimischia le carte che ha in mano nel proprio mazzo. Quindi, ogni giocatore pesca una carta per ogni carta Premio che gli resta.",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Helioptile",
 		fr: "Galvaran",
+		es: "Helioptile",
+		it: "Helioptile",
+		pt: "Helioptile",
+		de: "Eguana"
 	},
 	illustrator: "HiRON",
 	rarity: "Common",
@@ -30,11 +34,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Rap",
-				fr: "Frap’Keu",
+				fr: "Frap'Keu",
+				es: "Coleada",
+				it: "Mano-Coda",
+				pt: "Batida de Cauda",
+				de: "Schweifklopfen"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
+				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
+				pt: "Jogue 2 moedas. Esse ataque causa 20 de danos adicionais para cada cara.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10+",
 

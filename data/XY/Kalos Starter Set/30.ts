@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bunnelby",
 		fr: "Sapereau",
+		es: "Bunnelby",
+		it: "Bunnelby",
+		pt: "Bunnelby",
+		de: "Scoppel"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "None",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 20,

@@ -5,19 +5,16 @@ const card: Card = {
 	name: {
 		en: "Psychic Energy",
 		fr: "Énergie Psy",
+		es: "Energía Psíquica",
+		it: "Energia Psico",
+		pt: "Energia Psíquica",
+		de: "Psycho-Energie"
 	},
 	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
 
 	set: Set,
-
-
-
-
-	stage: "Basic",
-
-
 
 
 

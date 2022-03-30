@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Togepi",
 		fr: "Togepi",
+		es: "Togepi",
+		it: "Togepi",
+		pt: "Togepi",
+		de: "Togepi"
 	},
 	illustrator: "HiRON",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Sweet Kiss",
 				fr: "Doux Baiser",
+				es: "Beso Dulce",
+				it: "Dolcebacio",
+				pt: "Beijo Doce",
+				de: "Bitterkuss"
 			},
 			effect: {
 				en: "Your opponent draws a card.",
 				fr: "Votre adversaire pioche une carte.",
+				es: "Tu rival roba 1 carta.",
+				it: "Il tuo avversario pesca una carta.",
+				pt: "Seu oponente compra um card.",
+				de: "Dein Gegner zieht 1 Karte."
 			},
 			damage: 10,
 

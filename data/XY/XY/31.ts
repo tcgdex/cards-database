@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shellder",
 		fr: "Kokiyas",
+		es: "Shellder",
+		it: "Shellder",
+		pt: "Shellder",
+		de: "Muschas"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				es: "Golpe de Lluvia",
+				it: "Spruzzapioggia",
+				pt: "Chuva Borrifante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,

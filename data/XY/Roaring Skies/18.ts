@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Wingull",
 		fr: "Goélise",
+		es: "Wingull",
+		it: "Wingull",
+		pt: "Wingull",
+		de: "Wingull"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d'Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 10,

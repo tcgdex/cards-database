@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
+		es: "Beldum",
+		it: "Beldum",
+		pt: "Beldum",
+		de: "Tanhel"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				es: "Ataque Giratorio",
+				it: "Attacco Rotante",
+				pt: "Ataque Giratório",
+				de: "Rundumangriff"
 			},
 
 			damage: 30,

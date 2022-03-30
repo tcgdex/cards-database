@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mudkip",
 		fr: "Gobou",
+		es: "Mudkip",
+		it: "Mudkip",
+		pt: "Mudkip",
+		de: "Hydropi"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Mud-Slap",
 				fr: "Coud'Boue",
+				es: "Bofetón Lodo",
+				it: "Fangosberla",
+				pt: "Tapa de Lama",
+				de: "Lehmschelle"
 			},
 
 			damage: 20,

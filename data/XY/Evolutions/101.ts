@@ -10,24 +10,32 @@ const card: Card = {
 		pt: "M-Charizard EX",
 		de: "M-Glurak EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 220,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charizard-EX",
 		fr: "Dracaufeu-EX",
+		es: "Charizard-EX",
+		it: "Charizard-EX",
+		pt: "Charizard-EX",
+		de: "Glurak-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -48,7 +56,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon does 50 damage to itself.",
-				fr: "Ce Pokémon s’inflige 50 dégâts.",
+				fr: "Ce Pokémon s'inflige 50 dégâts.",
 				es: "Este Pokémon se hace 50 puntos de daño a sí mismo.",
 				it: "Questo Pokémon infligge 50 danni a se stesso.",
 				pt: "Este Pokémon causa 50 de danos a ele mesmo.",
@@ -58,6 +66,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -66,9 +75,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	suffix: "EX"
 }
 
 export default card

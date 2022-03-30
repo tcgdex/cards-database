@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy, or Dragon type. Until the end of your next turn, this Pokémon is that type.",
-				fr: "Choisissez le type Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy ou Dragon. Jusqu’à la fin de votre prochain tour, ce Pokémon est de ce type.",
+				fr: "Choisissez le type Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy ou Dragon. Jusqu'à la fin de votre prochain tour, ce Pokémon est de ce type.",
 			},
 
 		},

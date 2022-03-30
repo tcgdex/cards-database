@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may move a Metal Energy from 1 of your Benched Pokémon to this Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie Metal de l’un de vos Pokémon de Banc vers ce Pokémon.",
+				fr: "Vous pouvez déplacer une Énergie Metal de l'un de vos Pokémon de Banc vers ce Pokémon.",
 			},
 			damage: 20,
 

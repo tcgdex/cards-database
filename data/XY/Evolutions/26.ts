@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Slowbro EX",
 		de: "Lahmus EX"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		80,
 	],
+
 	hp: 180,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -41,7 +43,7 @@ const card: Card = {
 				de: "Tagedieb"
 			},
 			effect: {
-				en: "Heal 60 damage from this Pokémon. This Pokémon can’t attack during your next turn.",
+				en: "Heal 60 damage from this Pokémon. This Pokémon can't attack during your next turn.",
 				fr: "Soignez 60 dégâts à ce Pokémon. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 				es: "Cura 60 puntos de daño a este Pokémon. Este Pokémon no puede atacar durante tu próximo turno.",
 				it: "Cura questo Pokémon da 60 danni. Questo Pokémon non può attaccare durante il tuo prossimo turno.",
@@ -69,6 +71,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -77,9 +80,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-
-
-
+	stage: "Basic"
 }
 
 export default card

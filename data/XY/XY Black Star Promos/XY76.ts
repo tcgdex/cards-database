@@ -47,7 +47,7 @@ const card: Card = {
 				en: "Voltage Storm",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 90,
 

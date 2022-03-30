@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua’s Carvanha",
+		en: "Team Aqua's Carvanha",
 		fr: "Carvanha de la Team Aqua",
 	},
 	illustrator: "Sanosuke Sakuma",

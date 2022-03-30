@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Noibat",
 		fr: "Sonistrelle",
+		es: "Noibat",
+		it: "Noibat",
+		pt: "Noibat",
+		de: "eF-eM"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				es: "Tornado",
+				it: "Raffica",
+				pt: "Lufada de Vento",
+				de: "Windstoß"
 			},
 
 			damage: 20,

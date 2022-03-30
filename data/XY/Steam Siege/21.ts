@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Talonflame",
 		fr: "Flambusard",
+		es: "Talonflame",
+		it: "Talonflame",
+		pt: "Talonflame",
+		de: "Fiaro"
 	},
 
 	stage: "BREAK",

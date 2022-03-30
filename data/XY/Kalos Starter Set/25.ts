@@ -3,8 +3,12 @@ import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Farfetch’d",
+		en: "Farfetch'd",
 		fr: "Canarticho",
+		es: "Farfetch'd",
+		it: "Farfetch'd",
+		pt: "Farfetch'd",
+		de: "Porenta"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "None",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				es: "Cuchillada",
+				it: "Lacerazione",
+				pt: "Talho",
+				de: "Schlitzer"
 			},
 
 			damage: 30,

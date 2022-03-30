@@ -26,6 +26,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		es: "Pawniard",
+		it: "Pawniard",
+		pt: "Pawniard",
+		de: "Gladiantri"
 	},
 	stage: "Stage1",
 
@@ -44,8 +48,8 @@ const card: Card = {
 				de: "Heimzahlung"
 			},
 			effect: {
-				en: "If any of your Pokémon were Knocked Out by damage from an opponent’s attack during his or her last turn, this attack does 60 more damage.",
-				fr: "Si l’un de vos Pokémon a été mis K.O. par les dégâts d’une attaque de votre adversaire pendant son dernier tour, cette attaque inflige 60 dégâts supplémentaires.",
+				en: "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 60 more damage.",
+				fr: "Si l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque de votre adversaire pendant son dernier tour, cette attaque inflige 60 dégâts supplémentaires.",
 				es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de tu rival durante su último turno, este ataque hace 60 puntos de daño más.",
 				it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco del tuo avversario durante il suo ultimo turno, questo attacco infligge 60 danni in più.",
 				pt: "Se qualquer um dos seus Pokémon tiver sido Nocauteado por danos causados pelo ataque de um oponente durante a última vez de jogar desse oponente, este ataque causará 60 de danos adicionais.",
@@ -68,7 +72,7 @@ const card: Card = {
 				de: "Tempoklaue"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
+				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 				es: "El daño de este ataque no se ve afectado por Resistencia.",
 				it: "I danni di questo attacco non sono influenzati dalla resistenza.",

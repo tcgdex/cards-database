@@ -4,7 +4,7 @@ import Set from '../Generations'
 const card: Card = {
 	name: {
 		en: "Imakuni?",
-		fr: "Imakuni ?",
+		fr: "Imakuni ?",
 	},
 	illustrator: undefined,
 	rarity: "Uncommon",

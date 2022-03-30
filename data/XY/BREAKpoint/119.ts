@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Scizor EX",
 		de: "Scherox EX"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		212,
 	],
+
 	hp: 170,
+
 	types: [
 		"Metal",
 	],
-
 
 	suffix: "EX",
 
@@ -33,14 +35,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Wing",
-				fr: "Aile d’Acier",
+				fr: "Aile d'Acier",
 				es: "Ala de Acero",
 				it: "Alacciaio",
 				pt: "Asa de Aço",
 				de: "Stahlflügel"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 				es: "Durante el próximo turno de tu rival, cualquier daño infligido a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
 				it: "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
@@ -57,7 +59,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gale Thrust",
-				fr: "Coup d’Bourrasque",
+				fr: "Coup d'Bourrasque",
 				es: "Impulso Vendaval",
 				it: "Raffica di Stoccate",
 				pt: "Propulsão de Tempestade",
@@ -75,22 +77,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

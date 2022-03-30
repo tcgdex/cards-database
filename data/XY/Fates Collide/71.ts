@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		es: "Cottonee",
+		it: "Cottonee",
+		pt: "Cottonee",
+		de: "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -48,9 +52,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie de ce Pokémon vers l’un de vos Pokémon de Banc.",
+				fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
 				es: "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
-				it: "Sposta un’Energia da questo Pokémon a uno di quelli nella tua panchina.",
+				it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
 				pt: "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
 				de: "Verschiebe 1 an dieses Pokémon angelegte Energie auf 1 Pokémon auf deiner Bank."
 			},

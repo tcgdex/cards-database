@@ -34,7 +34,7 @@ const card: Card = {
 				en: "Beastly Fang",
 			},
 			effect: {
-				en: "This attack does 50 more damage for each of your opponent’s Pokémon-EX.",
+				en: "This attack does 50 more damage for each of your opponent's Pokémon-EX.",
 			},
 			damage: "10+",
 
@@ -50,7 +50,7 @@ const card: Card = {
 				en: "Dragon Strike",
 			},
 			effect: {
-				en: "This Pokémon can’t use Dragon Strike during your next turn.",
+				en: "This Pokémon can't use Dragon Strike during your next turn.",
 			},
 			damage: 130,
 

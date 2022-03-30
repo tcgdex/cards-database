@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Scraggy",
 		fr: "Baggiguane",
+		es: "Scraggy",
+		it: "Scraggy",
+		pt: "Scraggy",
+		de: "Zurrokex"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Corkscrew Punch",
 				fr: "Poing Tire-Bouchon",
+				es: "Puño Tirabuzón",
+				it: "Pugno Rotante",
+				pt: "Soco Saca-rolha",
+				de: "Korkenzieherhieb"
 			},
 
 			damage: 30,

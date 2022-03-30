@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Machoke",
 		fr: "Machopeur",
+		es: "Machoke",
+		it: "Machoke",
+		pt: "Machoke",
+		de: "Maschock"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machop",
 		fr: "Machoc",
+		es: "Machop",
+		it: "Machop",
+		pt: "Machop",
+		de: "Machollo"
 	},
 	stage: "Stage1",
 
@@ -34,6 +42,10 @@ const card: Card = {
 			name: {
 				en: "Beatdown",
 				fr: "Dérouillée",
+				es: "Derrumbar",
+				it: "Batosta",
+				pt: "Abater",
+				de: "Niederprügler"
 			},
 
 			damage: 40,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Fletchling",
 		fr: "Passerouge",
+		es: "Fletchling",
+		it: "Fletchling",
+		pt: "Fletchling",
+		de: "Dartiri"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -29,11 +33,19 @@ const card: Card = {
 			],
 			name: {
 				en: "Me First",
-				fr: "Moi d’Abord",
+				fr: "Moi d'Abord",
+				es: "Yo Primero",
+				it: "Precedenza",
+				pt: "Primeiro Eu",
+				de: "Egotrip"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				es: "Roba 1 carta.",
+				it: "Pesca una carta.",
+				pt: "Compre um card.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 20,

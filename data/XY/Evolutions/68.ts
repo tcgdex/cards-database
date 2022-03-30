@@ -3,11 +3,11 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Farfetch’d",
+		en: "Farfetch'd",
 		fr: "Canarticho",
-		es: "Farfetch’d",
-		it: "Farfetch’d",
-		pt: "Farfetch’d",
+		es: "Farfetch'd",
+		it: "Farfetch'd",
+		pt: "Farfetch'd",
 		de: "Porenta"
 	},
 	illustrator: "Ken Sugimori",
@@ -33,15 +33,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Leek Slap",
-				fr: "Coup d’oignon",
+				fr: "Coup d'oignon",
 				es: "Bofetada de Puerro",
 				it: "Porrosberla",
 				pt: "Golpe Alho Poró",
 				de: "Lauchschlag"
 			},
 			effect: {
-				en: "This Pokémon can’t use Leek Slap during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup d’Oignon pendant votre prochain tour.",
+				en: "This Pokémon can't use Leek Slap during your next turn.",
+				fr: "Ce Pokémon ne peut pas utiliser Coup d'Oignon pendant votre prochain tour.",
 				es: "Este Pokémon no puede usar Bofetada de Puerro durante tu próximo turno.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Porrosberla.",
 				pt: "Este Pokémon não poderá usar Golpe Alho Poró na sua próxima vez de jogar.",

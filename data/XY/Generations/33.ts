@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Poison Dodo",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Asleep and Poisoned.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
 			},
 

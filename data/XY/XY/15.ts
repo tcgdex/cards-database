@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Scatterbug",
 		fr: "Lépidonille",
+		es: "Scatterbug",
+		it: "Scatterbug",
+		pt: "Scatterbug",
+		de: "Purmel"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 10,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Surskit",
 		fr: "Arakdo",
+		es: "Surskit",
+		it: "Surskit",
+		pt: "Surskit",
+		de: "Gehweiher"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Stampede",
 				fr: "Ruée",
+				es: "Estampida",
+				it: "Fuggi Fuggi",
+				pt: "Estouro",
+				de: "Zertrampeln"
 			},
 
 			damage: 10,

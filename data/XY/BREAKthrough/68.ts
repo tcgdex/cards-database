@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ralts",
 		fr: "Tarsal",
+		es: "Ralts",
+		it: "Ralts",
+		pt: "Ralts",
+		de: "Trasla"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Nap",
 				fr: "Tit'Sieste",
+				es: "Siesta",
+				it: "Pausa",
+				pt: "Soneca",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				es: "Cura 30 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 30 danni.",
+				pt: "Cure 30 de danos deste Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				es: "Palmetazo",
+				it: "Schiaffo",
+				pt: "Estalo",
+				de: "Klatscher"
 			},
 
 			damage: 20,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Chinchou",
 		fr: "Loupio",
+		es: "Chinchou",
+		it: "Chinchou",
+		pt: "Chinchou",
+		de: "Lampi"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				es: "Chapoteo Ondulante",
+				it: "Schizzi d'Onda",
+				pt: "Onda Borrifante",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,

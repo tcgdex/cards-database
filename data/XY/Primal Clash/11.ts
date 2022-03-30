@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lombre",
 		fr: "Lombre",
+		es: "Lombre",
+		it: "Lombre",
+		pt: "Lombre",
+		de: "Lombrero"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lotad",
 		fr: "Nénupiot",
+		es: "Lotad",
+		it: "Lotad",
+		pt: "Lotad",
+		de: "Loturzel"
 	},
 	stage: "Stage1",
 
@@ -33,6 +41,10 @@ const card: Card = {
 			name: {
 				en: "Hook",
 				fr: "Crochet",
+				es: "Garfio",
+				it: "Uncino",
+				pt: "Gancho",
+				de: "Haken"
 			},
 
 			damage: 20,
@@ -46,6 +58,10 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				es: "Toque",
+				it: "Battuta",
+				pt: "Pulso",
+				de: "Verprügler"
 			},
 
 			damage: 30,

@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		es: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+		de: "Riolu"
 	},
 	stage: "Stage1",
 
@@ -54,7 +58,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnum Kick",
-				fr: "Coup d’Pied Magnum",
+				fr: "Coup d'Pied Magnum",
 				es: "Patada Mágnum",
 				it: "Supercalcio",
 				pt: "Chute Magnum",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pineco",
 		fr: "Pomdepik",
+		es: "Pineco",
+		it: "Pineco",
+		pt: "Pineco",
+		de: "Tannza"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 20,

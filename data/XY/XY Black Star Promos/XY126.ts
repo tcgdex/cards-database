@@ -30,7 +30,7 @@ const card: Card = {
 				en: "Versatile",
 			},
 			effect: {
-				en: "This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent’s). (You still need the necessary Energy to use each attack.)",
+				en: "This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent's). (You still need the necessary Energy to use each attack.)",
 			},
 		},
 	],

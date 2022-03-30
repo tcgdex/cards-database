@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Swampert",
 		fr: "Laggron",
+		es: "Swampert",
+		it: "Swampert",
+		pt: "Swampert",
+		de: "Sumpex"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Marshtomp",
 		fr: "Flobio",
+		es: "Marshtomp",
+		it: "Marshtomp",
+		pt: "Marshtomp",
+		de: "Moorabbel"
 	},
 	stage: "Stage2",
 
@@ -55,10 +63,18 @@ const card: Card = {
 			name: {
 				en: "Hydro Pump",
 				fr: "Hydrocanon",
+				es: "Hidrobomba",
+				it: "Idropompa",
+				pt: "Jato d'Água",
+				de: "Hydropumpe"
 			},
 			effect: {
 				en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				es: "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
+				it: "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
+				pt: "Esse ataque causa 30 de danos adicionais para cada Energia Water ligada a este Pokémon.",
+				de: "Dieser Angriff fügt 30 weitere Schadenspunkte für jede an dieses Pokémon angelegte Water-Energie zu."
 			},
 			damage: "40+",
 

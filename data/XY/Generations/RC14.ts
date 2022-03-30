@@ -32,7 +32,7 @@ const card: Card = {
 				fr: "Étincellement",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 

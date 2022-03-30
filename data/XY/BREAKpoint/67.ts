@@ -41,8 +41,8 @@ const card: Card = {
 				de: "Leben und lernen"
 			},
 			effect: {
-				en: "If your opponent’s Pokémon used an attack during his or her last turn, use it as this attack.",
-				fr: "Si l’un des Pokémon de votre adversaire a utilisé une attaque pendant son dernier tour, utilisez-la en tant que cette attaque.",
+				en: "If your opponent's Pokémon used an attack during his or her last turn, use it as this attack.",
+				fr: "Si l'un des Pokémon de votre adversaire a utilisé une attaque pendant son dernier tour, utilisez-la en tant que cette attaque.",
 				es: "Si alguno de los Pokémon de tu rival usó un ataque durante su último turno, úsalo para este ataque.",
 				it: "Se il Pokémon del tuo avversario ha usato un attacco durante il suo ultimo turno, usalo al posto di questo attacco.",
 				pt: "Se o Pokémon do seu oponente tiver usado um ataque durante sua última vez de jogar, use-o como este ataque.",

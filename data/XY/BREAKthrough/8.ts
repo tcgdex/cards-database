@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Chespin",
 		fr: "Marisson",
+		es: "Chespin",
+		it: "Chespin",
+		pt: "Chespin",
+		de: "Igamaro"
 	},
 	illustrator: "Megumi Mizutani",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Work",
 				fr: "Travail",
+				es: "Trabajo",
+				it: "Lavoro",
+				pt: "Trabalho",
+				de: "Arbeit"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				es: "Bomba Germen",
+				it: "Semebomba",
+				pt: "Bomba de Sementes",
+				de: "Samenbomben"
 			},
 
 			damage: 30,

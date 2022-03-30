@@ -34,7 +34,7 @@ const card: Card = {
 				en: "Nervous Seed",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent’s Basic Pokémon’s attacks cost Colorless more.",
+				en: "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.",
 			},
 		},
 	],

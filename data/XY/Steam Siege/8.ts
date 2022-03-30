@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yanmega",
 		fr: "Yanmega",
+		es: "Yanmega",
+		it: "Yanmega",
+		pt: "Yanmega",
+		de: "Yanmega"
 	},
 
 	stage: "BREAK",
@@ -49,7 +53,7 @@ const card: Card = {
 				de: "Barrierebrecher"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on your opponent’s Active Pokémon.",
+				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
 				es: "El daño de este ataque no se ve afectado por Debilidad, Resistencia o cualquier otro efecto en el Pokémon Activo de tu rival.",
 				it: "I danni di questo attacco non sono influenzati dalla debolezza, dalla resistenza o da qualsiasi altro effetto presente sul Pokémon attivo del tuo avversario.",

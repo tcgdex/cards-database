@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Minccino",
 		fr: "Chinchidou",
+		es: "Minccino",
+		it: "Minccino",
+		pt: "Minccino",
+		de: "Picochilla"
 	},
 	stage: "Stage1",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Bezirzer"
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand. Choose a card you find there and put it on the bottom of your opponent’s deck.",
+				en: "Your opponent reveals his or her hand. Choose a card you find there and put it on the bottom of your opponent's deck.",
 				fr: "Votre adversaire montre sa main. Choisissez une carte que vous y trouvez et mettez-la en dessous du deck de votre adversaire.",
 				es: "Tu rival enseña las cartas de su mano. Elige 1 carta que encuentres entre ellas y ponla en la parte inferior de la baraja de tu rival.",
 				it: "Il tuo avversario mostra le carte che ha in mano. Scegline una e mettila in fondo al suo mazzo.",
@@ -66,11 +70,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 

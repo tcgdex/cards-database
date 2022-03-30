@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua’s Muk",
+		en: "Team Aqua's Muk",
 		fr: "Grotadmorv de la Team Aqua",
 	},
 	illustrator: "Kouki Saitou",
@@ -19,7 +19,7 @@ const card: Card = {
 		"Psychic",
 	],
 	evolveFrom: {
-		en: "Team Aqua’s Grimer",
+		en: "Team Aqua's Grimer",
 		fr: "Tadmorv de la Team Aqua",
 	},
 	stage: "Stage1",
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Tarabustage",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 60 more damage.",
+				en: "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 60 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: "60＋",

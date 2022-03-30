@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Kakuna",
 		fr: "Coconfort",
+		es: "Kakuna",
+		it: "Kakuna",
+		pt: "Kakuna",
+		de: "Kokuna"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot",
+		es: "Weedle",
+		it: "Weedle",
+		pt: "Weedle",
+		de: "Hornliu"
 	},
 	stage: "Stage1",
 
@@ -33,6 +41,10 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				es: "Picadura",
+				it: "Coleomorso",
+				pt: "Picada",
+				de: "Käferbiss"
 			},
 
 			damage: 20,

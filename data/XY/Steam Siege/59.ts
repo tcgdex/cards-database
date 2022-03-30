@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Croagunk",
 		fr: "Cradopaud",
+		es: "Croagunk",
+		it: "Croagunk",
+		pt: "Croagunk",
+		de: "Glibunkel"
 	},
 	stage: "Stage1",
 
@@ -40,7 +44,7 @@ const card: Card = {
 				de: "Giftenzyme"
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from your opponent’s Poisoned Pokémon.",
+				en: "Prevent all damage done to this Pokémon by attacks from your opponent's Poisoned Pokémon.",
 				fr: "Évitez tous les dégâts infligés à ce Pokémon par des attaques des Pokémon Empoisonnés de votre adversaire.",
 				es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Envenenados de tu rival.",
 				it: "Previeni tutti i danni da attacchi inflitti a questo Pokémon dai Pokémon avvelenati del tuo avversario.",
@@ -64,12 +68,12 @@ const card: Card = {
 				de: "Gifthieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
-				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt vergiftet."
 			},
 			damage: 50,
 

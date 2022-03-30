@@ -10,24 +10,32 @@ const card: Card = {
 		pt: "M-Alakazam EX",
 		de: "M-Simsala EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		65,
 	],
+
 	hp: 210,
+
 	types: [
 		"Psychic",
 	],
+
 	evolveFrom: {
 		en: "Alakazam-EX",
 		fr: "Alakazam-EX",
+		es: "Alakazam-EX",
+		it: "Alakazam-EX",
+		pt: "Alakazam-EX",
+		de: "Simsala-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -44,7 +52,7 @@ const card: Card = {
 				de: "Zen-Kraft"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each damage counter on your opponent’s Active Pokémon.",
+				en: "This attack does 30 more damage for each damage counter on your opponent's Active Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
 				es: "Este ataque hace 30 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 30 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
@@ -55,6 +63,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -63,9 +72,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	suffix: "EX"
 }
 
 export default card

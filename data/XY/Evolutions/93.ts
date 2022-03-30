@@ -11,19 +11,10 @@ const card: Card = {
 		de: "Wasser-Energie"
 	},
 
-	illustrator: undefined,
 	rarity: "Common",
 	category: "Energy",
 	set: Set,
-	stage: "Basic",
 	energyType: "Normal",
-
-	effect: {
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
-	}
 }
 
 export default card

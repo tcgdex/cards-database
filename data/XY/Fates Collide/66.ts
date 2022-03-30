@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		es: "Jigglypuff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
+		de: "Pummeluff"
 	},
 	stage: "Stage1",
 
@@ -44,7 +48,7 @@ const card: Card = {
 				de: "Ausdehnen"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 				es: "Durante el próximo turno de tu rival, cualquier daño infligido a este Pokémon por ataques se reduce en 30 (después de aplicar Debilidad y Resistencia).",
 				it: "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 30, dopo aver applicato debolezza e resistenza.",
@@ -74,7 +78,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 60 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl „Kopf“ zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "60×",
 

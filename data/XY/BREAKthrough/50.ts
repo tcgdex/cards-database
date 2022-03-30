@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Raichu BREAK",
 		fr: "Raichu TURBO",
+		es: "Raichu TURBO",
+		it: "Raichu TURBO",
+		pt: "Raichu TURBO",
+		de: "Raichu-TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Raichu",
 		fr: "Raichu",
+		es: "Raichu",
+		it: "Raichu",
+		pt: "Raichu",
+		de: "Raichu"
 	},
 
 	stage: "BREAK",
@@ -38,29 +46,23 @@ const card: Card = {
 			],
 			name: {
 				en: "Grand Bolt",
-				fr: "Règle des Évolutions TURBO",
+				fr: "Foudre Grandiose",
+				es: "Rayo Colosal",
+				it: "Granbolide",
+				pt: "Raio Grandioso",
+				de: "Gewaltiger Blitz"
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon.",
-			},
-			damage: 170,
-
-		},
-		{
-			cost: [
-				"Lightning",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Foudre Grandiose",
-			},
-			effect: {
 				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				es: "Descarta todas las Energías unidas a este Pokémon.",
+				it: "Scarta tutte le Energie assegnate a questo Pokémon.",
+				pt: "Descarte toda a Energia ligada a este Pokémon.",
+				de: "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel."
 			},
 			damage: 170,
 
-		},
+		}
 	],
 
 	retreat: 0

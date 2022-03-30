@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Charizard EX",
 		de: "Glurak EX"
 	},
+
 	illustrator: "PLANETA",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 180,
+
 	types: [
 		"Fire",
 	],
-
 
 	suffix: "EX",
 
@@ -37,7 +39,7 @@ const card: Card = {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
 				es: "Ataque Ala",
-				it: "Attacco d’Ala",
+				it: "Attacco d'Ala",
 				pt: "Ataque de Asa",
 				de: "Flügelschlag"
 			},
@@ -61,7 +63,7 @@ const card: Card = {
 				de: "Brandbombe"
 			},
 			effect: {
-				en: "This Pokémon can’t use Combustion Blast during your next turn.",
+				en: "This Pokémon can't use Combustion Blast during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
 				es: "Este Pokémon no puede usar Estallido Fuego durante tu próximo turno.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Combustibomba.",
@@ -72,6 +74,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -80,9 +83,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

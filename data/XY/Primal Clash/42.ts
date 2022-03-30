@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Corphish",
 		fr: "Écrapince",
+		es: "Corphish",
+		it: "Corphish",
+		pt: "Corphish",
+		de: "Krebscorps"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Vice Grip",
 				fr: "Force Poigne",
+				es: "Agarre",
+				it: "Presa",
+				pt: "Agarramento Viciado",
+				de: "Klammer"
 			},
 
 			damage: 10,
@@ -43,10 +51,18 @@ const card: Card = {
 			name: {
 				en: "Knock Off",
 				fr: "Sabotage",
+				es: "Desarme",
+				it: "Privazione",
+				pt: "Derrubar",
+				de: "Abschlag"
 			},
 			effect: {
-				en: "Discard a random card from your opponent’s hand.",
+				en: "Discard a random card from your opponent's hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
+				it: "Scarta una carta a caso dalla mano del tuo avversario.",
+				pt: "Descarte um card aleatório da mão de seu oponente.",
+				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
 			},
 
 		},

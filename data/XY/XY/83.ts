@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Honedge",
 		fr: "Monorpale",
+		es: "Honedge",
+		it: "Honedge",
+		pt: "Honedge",
+		de: "Gramokles"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercement",
+				es: "Perforar",
+				it: "Perforare",
+				pt: "Perfurar",
+				de: "Durchbohren"
 			},
 
 			damage: 10,

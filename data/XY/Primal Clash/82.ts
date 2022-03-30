@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Trapinch",
 		fr: "Kraknoix",
+		es: "Trapinch",
+		it: "Trapinch",
+		pt: "Trapinch",
+		de: "Knacklion"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				es: "Roer",
+				it: "Rosicchiamento",
+				pt: "Roída",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Mud-Slap",
 				fr: "Coud'Boue",
+				es: "Bofetón Lodo",
+				it: "Fangosberla",
+				pt: "Tapa de Lama",
+				de: "Lehmschelle"
 			},
 
 			damage: 20,

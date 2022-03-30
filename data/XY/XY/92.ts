@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spritzee",
 		fr: "Fluvetin",
+		es: "Spritzee",
+		it: "Spritzee",
+		pt: "Spritzee",
+		de: "Parfi"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Sweet Scent",
 				fr: "Doux Parfum",
+				es: "Aroma dulce",
+				it: "Profumino",
+				pt: "Aroma Doce",
+				de: "Lockduft"
 			},
 			effect: {
 				en: "Heal 20 damage from 1 of your Pokémon.",
-				fr: "Soignez 20 dégâts à l’un de vos Pokémon.",
+				fr: "Soignez 20 dégâts à l'un de vos Pokémon.",
+				es: "Cura 20 puntos de daño a 1 de tus Pokémon.",
+				it: "Cura uno dei tuoi Pokémon da 20 danni.",
+				pt: "Cure 20 de danos de 1 dos seus Pokémon.",
+				de: "Heile 20 Schadenspunkte bei 1 deiner Pokémon."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Flop",
 				fr: "Flop",
+				es: "Vuelta",
+				it: "Tonfo",
+				pt: "Baque",
+				de: "Plumps"
 			},
 
 			damage: 20,

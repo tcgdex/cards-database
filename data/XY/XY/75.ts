@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Inkay",
 		fr: "Sepiatop",
+		es: "Inkay",
+		it: "Inkay",
+		pt: "Inkay",
+		de: "Iscalar"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,10 +51,18 @@ const card: Card = {
 			name: {
 				en: "Puncture",
 				fr: "Perforation",
+				es: "Pinchazo",
+				it: "Perforazione",
+				pt: "Perfuração",
+				de: "Durchdringen"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
+				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				es: "El daño de este ataque no se ve afectado por Resistencia.",
+				it: "Il danno di questo attacco non è influenzato dalla resistenza.",
+				pt: "Os danos deste ataque não são afetados por Resistência.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 20,
 

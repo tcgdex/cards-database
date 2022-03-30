@@ -43,7 +43,7 @@ const card: Card = {
 				fr: "Flamme Brillante",
 			},
 			effect: {
-				en: "This Pokémon can’t use Shining Flame during your next turn.",
+				en: "This Pokémon can't use Shining Flame during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour."
 			},
 			damage: 160,

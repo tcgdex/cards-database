@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Fósil Coraza Shieldon",
 		it: "Fossilscudo di Shieldon",
 		pt: "Fóssil Armadura de Shieldon",
-		de: "Schilterus’ Panzerfossil"
+		de: "Schilterus' Panzerfossil"
 	},
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",

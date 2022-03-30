@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw a card. Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Piochez une carte. Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				fr: "Piochez une carte. Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
 				es: "Roba 1 carta. Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 				it: "Pesca una carta. Scambia questo Pokémon con uno della tua panchina.",
 				pt: "Compre um card. Troque este Pokémon por 1 dos seus Pokémon no Banco.",

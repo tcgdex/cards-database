@@ -4,26 +4,38 @@ import Set from '../Flashfire'
 const card: Card = {
 	name: {
 		en: "M Charizard EX",
-		fr: "M Dracaufeu EX",
+		fr: "M-Dracaufeu EX",
+		es: "M-Charizard EX",
+		it: "M Charizard EX",
+		pt: "M-Charizard EX",
+		de: "M-Glurak EX"
 	},
+
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		6,
 	],
+
 	hp: 220,
+
 	types: [
 		"Fire",
 	],
+
 	evolveFrom: {
 		en: "Charizard-EX",
 		fr: "Dracaufeu-EX",
+		es: "Charizard-EX",
+		it: "Charizard-EX",
+		pt: "Charizard-EX",
+		de: "Glurak-EX"
 	},
-	stage: "MEGA",
 
+	stage: "MEGA",
 
 	attacks: [
 		{
@@ -37,32 +49,24 @@ const card: Card = {
 			name: {
 				en: "Crimson Dive",
 				fr: "Plongeon Écarlate",
+				es: "Picado Carmesí",
+				it: "Tufforosso",
+				pt: "Mergulho Carmim",
+				de: "Feuerroter Sturzflug"
 			},
 			effect: {
 				en: "This Pokémon does 50 damage to itself.",
-				fr: "Ce Pokémon s’inflige 50 dégâts."
-			},
-			damage: 300,
-
-		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Plongeon Écarlate",
-			},
-			effect: {
 				fr: "Ce Pokémon s'inflige 50 dégâts.",
+				es: "Este Pokémon se hace 50 puntos de daño a sí mismo.",
+				it: "Questo Pokémon infligge 50 danni a se stesso.",
+				pt: "Este Pokémon causa 50 de danos a ele mesmo.",
+				de: "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 300,
 
-		},
+		}
 	],
+
 	weaknesses: [
 		{
 			type: "Water",
@@ -71,9 +75,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	suffix: "EX"
 }
 
 export default card

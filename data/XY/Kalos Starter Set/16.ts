@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Poochyena",
 		fr: "Medhyèna",
+		es: "Poochyena",
+		it: "Poochyena",
+		pt: "Poochyena",
+		de: "Fiffyen"
 	},
 	illustrator: "Mizue",
 	rarity: "None",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Electrike",
 		fr: "Dynavolt",
+		es: "Electrike",
+		it: "Electrike",
+		pt: "Electrike",
+		de: "Frizelbliz"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 10,

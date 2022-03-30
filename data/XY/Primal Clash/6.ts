@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Treecko",
 		fr: "Arcko",
+		es: "Treecko",
+		it: "Treecko",
+		pt: "Treecko",
+		de: "Geckarbor"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-Attaque",
+				es: "Ataque Rápido",
+				it: "Attacco Rapido",
+				pt: "Attacco Rapido",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				es: "Lanza una moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+				it: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				pt: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

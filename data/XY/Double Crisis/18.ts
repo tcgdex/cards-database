@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua’s Mightyena",
+		en: "Team Aqua's Mightyena",
 		fr: "Grahyèna de la Team Aqua",
 	},
 	illustrator: "Mitsuhiro Arita",
@@ -19,7 +19,7 @@ const card: Card = {
 		"Darkness",
 	],
 	evolveFrom: {
-		en: "Team Aqua’s Poochyena",
+		en: "Team Aqua's Poochyena",
 		fr: "Medhyèna de la Team Aqua",
 	},
 	stage: "Stage1",
@@ -53,7 +53,7 @@ const card: Card = {
 				fr: "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 80,

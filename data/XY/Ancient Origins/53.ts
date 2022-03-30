@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Kirlia",
 		fr: "Kirlia",
+		es: "Kirlia",
+		it: "Kirlia",
+		pt: "Kirlia",
+		de: "Kirlia"
 	},
 	illustrator: "match",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ralts",
 		fr: "Tarsal",
+		es: "Ralts",
+		it: "Ralts",
+		pt: "Ralts",
+		de: "Trasla"
 	},
 	stage: "Stage1",
 
@@ -33,10 +41,18 @@ const card: Card = {
 			name: {
 				en: "Calm Mind",
 				fr: "Plénitude",
+				es: "Paz Mental",
+				it: "Calmamente",
+				pt: "Mente Calma",
+				de: "Gedankengut"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				es: "Cura 30 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 30 danni.",
+				pt: "Cure 30 de danos deste Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -49,6 +65,10 @@ const card: Card = {
 			name: {
 				en: "Magical Shot",
 				fr: "Coup Magique",
+				es: "Disparo Mágico",
+				it: "Magicolpo",
+				pt: "Tiro Mágico",
+				de: "Magischer Schuss"
 			},
 
 			damage: 50,

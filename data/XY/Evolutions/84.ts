@@ -3,7 +3,7 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Professor Oak’s Hint",
+		en: "Professor Oak's Hint",
 		fr: "Indice du Prof. Chen",
 		es: "Pista del Profesor Oak",
 		it: "Consiglio del Professor Oak",
@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Piochez des cartes jusqu’à ce que vous ayez 7 cartes en main. Votre tour se termine.",
+		fr: "Piochez des cartes jusqu'à ce que vous ayez 7 cartes en main. Votre tour se termine.",
 		en: "Draw cards until you have 7 cards in your hand. Your turn ends.",
 		es: "Roba cartas hasta que tengas 7 cartas en tu mano. Tu turno termina.",
 		it: "Pesca fino ad avere sette carte in mano. Il tuo turno finisce.",

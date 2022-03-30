@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rhyperior",
 		fr: "Rhinastoc",
+		es: "Rhyperior",
+		it: "Rhyperior",
+		pt: "Rhyperior",
+		de: "Rihornior"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Rare",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rhydon",
 		fr: "Rhinoféros",
+		es: "Rhydon",
+		it: "Rhydon",
+		pt: "Rhydon",
+		de: "Rizeros"
 	},
 	stage: "Stage2",
 
@@ -57,10 +65,18 @@ const card: Card = {
 			name: {
 				en: "Hammer Arm",
 				fr: "Marto-Poing",
+				es: "Machada",
+				it: "Martelpugno",
+				pt: "Braço de Martelo",
+				de: "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck.",
+				en: "Discard the top card of your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				es: "Descarta la primera carta de la baraja de tu rival.",
+				it: "Scarta la carta in cima al mazzo del tuo avversario.",
+				pt: "Descarte o card de cima do baralho do seu oponente.",
+				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 100,
 

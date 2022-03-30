@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Minun",
 		fr: "Négapi",
+		es: "Minun",
+		it: "Minun",
+		pt: "Minun",
+		de: "Minun"
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Negative Discard",
 				fr: "Défausse Négative",
+				es: "Descarte Negativo",
+				it: "Scarto Negativo",
+				pt: "Descarte Negativo",
+				de: "Negative Ablage"
 			},
 			effect: {
 				en: "Put 2 basic Energy cards from your discard pile into your hand.",
 				fr: "Prenez 2 cartes Énergie de base dans votre pile de défausse et ajoutez-les à votre main.",
+				es: "Pon 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
+				it: "Prendi due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+				pt: "Coloque 2 cards de Energias básicas da pilha de descarte em sua mão.",
+				de: "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -44,6 +56,10 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				es: "Impacto Estático",
+				it: "Shock Statico",
+				pt: "Choque de Estática",
+				de: "Statischer Schock"
 			},
 
 			damage: 20,

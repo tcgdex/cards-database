@@ -47,7 +47,7 @@ const card: Card = {
 				en: "Dragon Strike",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can’t use Dragon Strike during your next turn.",
+				en: "Flip a coin. If tails, this Pokémon can't use Dragon Strike during your next turn.",
 			},
 			damage: 130,
 

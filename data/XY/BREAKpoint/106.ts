@@ -27,7 +27,7 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Soignez 30 dégâts à l’un de vos Pokémon.",
+		fr: "Soignez 30 dégâts à l'un de vos Pokémon.",
 		en: "Heal 30 damage from 1 of your Pokémon.",
 		es: "Cura 30 puntos de daño a 1 de tus Pokémon.",
 		it: "Cura uno dei tuoi Pokémon da 30 danni.",

@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack can be used even if this Pokémon is Asleep. If it is, this attack does 90 more damage.",
-				fr: "Cette attaque peut être utilisée même si ce Pokémon est Endormi. S’il l’est, cette attaque inflige 90 dégâts supplémentaires.",
+				fr: "Cette attaque peut être utilisée même si ce Pokémon est Endormi. S'il l'est, cette attaque inflige 90 dégâts supplémentaires.",
 				es: "Este ataque se puede usar incluso si este Pokémon está Dormido. Si lo está, este ataque hace 90 puntos de daño más.",
 				it: "Questo attacco può essere usato anche se questo Pokémon è addormentato. Se lo è, questo attacco infligge 90 danni in più.",
 				pt: "Este ataque pode ser usado mesmo que este Pokémon esteja Adormecido. Se estiver Adormecido, este ataque causará 90 de danos adicionais.",
@@ -68,7 +68,7 @@ const card: Card = {
 				de: "Verzehrer"
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 				es: "Cura a este Pokémon el mismo número de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
 				it: "Cura questo Pokémon da una quantità di danni pari a quelli inflitti al Pokémon attivo del tuo avversario.",

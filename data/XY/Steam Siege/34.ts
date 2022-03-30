@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clauncher",
 		fr: "Flingouste",
+		es: "Clauncher",
+		it: "Clauncher",
+		pt: "Clauncher",
+		de: "Scampisto"
 	},
 	stage: "Stage1",
 
@@ -41,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a Special Energy card from your hand to 1 of your Mega Evolution Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie spéciale de votre main à l’un de vos Pokémon Méga-Évolution.",
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie spéciale de votre main à l'un de vos Pokémon Méga-Évolution.",
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Especial de tu mano a 1 de tus Pokémon Megaevolución.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon Megaevoluzione una carta Energia speciale dalla tua mano.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode ligar um card de Energia Especial da sua mão a 1 dos seus Pokémon de Megaevolução.",

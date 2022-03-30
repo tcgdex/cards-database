@@ -32,7 +32,7 @@ const card: Card = {
 				en: "Psy Bolt",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 

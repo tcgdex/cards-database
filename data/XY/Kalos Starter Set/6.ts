@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Slugma",
 		fr: "Limagma",
+		es: "Slugma",
+		it: "Slugma",
+		pt: "Slugma",
+		de: "Schneckmag"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "None",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				es: "Combustión",
+				it: "Fuoco Continuo",
+				pt: "Combustão",
+				de: "Glühen"
 			},
 
 			damage: 20,

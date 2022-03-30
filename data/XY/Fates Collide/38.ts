@@ -10,21 +10,23 @@ const card: Card = {
 		pt: "Kabuto",
 		de: "Kabuto"
 	},
+
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		140,
 	],
+
 	hp: 80,
+
 	types: [
 		"Fighting",
 	],
 
 	stage: "RESTORED",
-
 
 	attacks: [
 		{
@@ -44,6 +46,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Grass",
@@ -53,8 +56,14 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	evolveFrom: {
+		en: "Dome Fossil Kabuto",
+		fr: "Fossile Dôme Kabuto",
+		es: "Fósil Domo Kabuto",
+		it: "Domofossile di Kabuto",
+		pt: "Fóssil Cúpula de Kabuto",
+		de: "Domfossil Kabuto"
+	}
 }
 
 export default card

@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lugia",
 		fr: "Lugia",
+		es: "Lugia",
+		it: "Lugia",
+		pt: "Lugia",
+		de: "Lugia"
 	},
 
 	stage: "BREAK",

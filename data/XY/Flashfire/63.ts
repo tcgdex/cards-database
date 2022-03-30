@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Flabébé",
 		fr: "Flabébé",
+		es: "Flabébé",
+		it: "Flabébé",
+		pt: "Flabébé",
+		de: "Flabébé"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
+				fr: "Tranch'Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 10,

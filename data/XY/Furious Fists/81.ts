@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Slakoth",
 		fr: "Parecool",
+		es: "Slakoth",
+		it: "Slakoth",
+		pt: "Slakoth",
+		de: "Bummelz"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -31,10 +35,18 @@ const card: Card = {
 			name: {
 				en: "Big Yawn",
 				fr: "Gros Bâillement",
+				es: "Gran Bostezo",
+				it: "Gransbadiglio",
+				pt: "Grande Bocejo",
+				de: "Großer Gähner"
 			},
 			effect: {
 				en: "Both Active Pokémon are now Asleep.",
 				fr: "Les deux Pokémon Actifs sont maintenant Endormis.",
+				es: "Ambos Pokémon Activos pasan a estar Dormidos.",
+				it: "Entrambi i Pokémon attivi vengono addormentati.",
+				pt: "Ambos os Pokémon Ativos agora estão Adormecidos.",
+				de: "Beide Aktiven Pokémon schlafen jetzt."
 			},
 
 		},

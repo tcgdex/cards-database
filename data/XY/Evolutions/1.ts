@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Venusaur EX",
 		de: "Bisaflor EX"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		3,
 	],
+
 	hp: 180,
+
 	types: [
 		"Grass",
 	],
-
 
 	suffix: "EX",
 
@@ -42,7 +44,7 @@ const card: Card = {
 				de: "Giftpuder"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
+				en: "Your opponent's Active Pokémon is now Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
@@ -79,6 +81,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fire",
@@ -87,9 +90,7 @@ const card: Card = {
 	],
 
 	retreat: 4,
-
-
-
+	stage: "Basic"
 }
 
 export default card

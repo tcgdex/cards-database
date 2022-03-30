@@ -52,7 +52,7 @@ const card: Card = {
 				fr: "Impact Poison",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Asleep and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
 			},
 			damage: 80,

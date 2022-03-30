@@ -53,7 +53,7 @@ const card: Card = {
 				en: "Combustion",
 				fr: "Fournaise",
 				es: "Combustión",
-				it: "Vulcanpestone",
+				it: "Fuoco Continuo",
 				pt: "Combustão",
 				de: "Glühen"
 			},

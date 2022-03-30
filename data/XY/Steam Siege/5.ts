@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skiploom",
 		fr: "Floravol",
+		es: "Skiploom",
+		it: "Skiploom",
+		pt: "Skiploom",
+		de: "Hubelupf"
 	},
 	stage: "Stage2",
 
@@ -43,8 +47,8 @@ const card: Card = {
 				de: "Flauschiger Transport"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with his or her Active Pokémon.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",

@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bergmite",
 		fr: "Grelaçon",
+		es: "Bergmite",
+		it: "Bergmite",
+		pt: "Bergmite",
+		de: "Arktip"
 	},
 	stage: "Stage1",
 
@@ -44,12 +48,12 @@ const card: Card = {
 				de: "Knirscher"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 				es: "Lanza 1 moneda. Si sala cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -69,7 +73,7 @@ const card: Card = {
 				de: "Schmelzende Scholle"
 			},
 			effect: {
-				en: "Discard the top 3 cards of your deck. For each Water Energy card you discarded in this way, discard the top 3 cards of your opponent’s deck.",
+				en: "Discard the top 3 cards of your deck. For each Water Energy card you discarded in this way, discard the top 3 cards of your opponent's deck.",
 				fr: "Défaussez les 3 cartes du dessus de votre deck. Pour chaque carte Énergie Water défaussée de cette façon, défaussez les 3 cartes du dessus du deck de votre adversaire.",
 				es: "Descarta las 3 primeras cartas de tu baraja. Por cada carta de Energía Water descartada de esta manera, descarta las 3 primeras cartas de la baraja de tu rival.",
 				it: "Scarta le prime tre carte del tuo mazzo. Per ogni carta Energia Water scartata in questo modo, scarta le prime tre carte del mazzo del tuo avversario.",

@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Foongus",
 		fr: "Trompignon",
+		es: "Foongus",
+		it: "Foongus",
+		pt: "Foongus",
+		de: "Tarnpignon"
 	},
 	stage: "Stage1",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Verrückte Pilzspore"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
@@ -66,7 +70,7 @@ const card: Card = {
 				de: "Seltsame Reaktion"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is Confused, it is now Paralyzed.",
+				en: "If your opponent's Active Pokémon is Confused, it is now Paralyzed.",
 				fr: "Si le Pokémon Actif de votre adversaire est Confus, il est maintenant Paralysé.",
 				es: "Si el Pokémon Activo de tu rival está Confundido, este pasa a estar Paralizado.",
 				it: "Se il Pokémon attivo del tuo avversario è confuso, viene paralizzato.",

@@ -4,7 +4,7 @@ import Set from '../Fates Collide'
 const card: Card = {
 	name: {
 		en: "Fossil Excavation Kit",
-		fr: "Kit d’Excavation de Fossiles",
+		fr: "Kit d'Excavation de Fossiles",
 		es: "Kit para Búsqueda de Fósiles",
 		it: "Kit Scavafossili",
 		pt: "Kit de Escavação de Fósseis",

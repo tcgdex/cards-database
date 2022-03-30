@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Marill",
 		fr: "Marill",
+		es: "Marill",
+		it: "Marill",
+		pt: "Marill",
+		de: "Marill"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Desenrollar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 20,

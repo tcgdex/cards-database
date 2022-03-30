@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Fennekin",
 		fr: "Feunnec",
+		es: "Fennekin",
+		it: "Fennekin",
+		pt: "Fennekin",
+		de: "Fynx"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Will-O-Wisp",
 				fr: "Feu Follet",
+				es: "Fuego Fatuo",
+				it: "Fuocofatuo",
+				pt: "Fogo Fátuo",
+				de: "Irrlicht"
 			},
 
 			damage: 20,

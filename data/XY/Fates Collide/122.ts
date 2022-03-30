@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Kingdra EX",
 		de: "Seedraking EX"
 	},
+
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		230,
 	],
+
 	hp: 170,
+
 	types: [
 		"Dragon",
 	],
-
 
 	suffix: "EX",
 
@@ -77,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fairy",
@@ -85,9 +88,7 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-
-
+	stage: "Basic"
 }
 
 export default card

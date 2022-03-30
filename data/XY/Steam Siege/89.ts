@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Miaouss",
+		es: "Meowth",
+		it: "Meowth",
+		pt: "Meowth",
+		de: "Mauzi"
 	},
 	stage: "Stage1",
 
@@ -72,7 +76,7 @@ const card: Card = {
 				es: "Lanza 3 monedas. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30×",
 

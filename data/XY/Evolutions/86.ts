@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Vínculo Espiritual de Slowbro",
 		it: "Legame Mentale con Slowbro",
 		pt: "Elo Espiritual de Slowbro",
-		de: "Lahmus‘ Geistesbund"
+		de: "Lahmus' Geistesbund"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",

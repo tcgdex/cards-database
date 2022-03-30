@@ -34,8 +34,8 @@ const card: Card = {
 				fr: "Puissance Boréale",
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n’a pas de Faiblesse.",
+				en: "During your opponent's next turn, this Pokémon has no Weakness.",
+				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
 			},
 			damage: 50,
 
@@ -49,7 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Light of Life",
-				fr: "Lumière de l’Existence",
+				fr: "Lumière de l'Existence",
 			},
 			effect: {
 				en: "If your opponent has Yveltal (including Yveltal-EX) in play, this attack does 40 more damage.",

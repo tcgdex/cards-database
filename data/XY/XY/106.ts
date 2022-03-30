@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bidoof",
 		fr: "Keunotor",
+		es: "Bidoof",
+		it: "Bidoof",
+		pt: "Bidoof",
+		de: "Bidiza"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -31,10 +35,18 @@ const card: Card = {
 			name: {
 				en: "Hyper Fang",
 				fr: "Croc de Mort",
+				es: "Hipercolmillo",
+				it: "Iperzanna",
+				pt: "Hiperpresa",
+				de: "Hyperzahn"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 

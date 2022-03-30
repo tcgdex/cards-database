@@ -37,7 +37,7 @@ const card: Card = {
 				fr: "Pistolet à O",
 				es: "Pistola Agua",
 				it: "Pistolacqua",
-				pt: "Revolver d’Água",
+				pt: "Revolver d'Água",
 				de: "Aquaknarre"
 			},
 

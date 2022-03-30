@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Staravia",
 		fr: "Étourvol",
+		es: "Staravia",
+		it: "Staravia",
+		pt: "Staravia",
+		de: "Staravia"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Starly",
 		fr: "Étourmi",
+		es: "Starly",
+		it: "Starly",
+		pt: "Starly",
+		de: "Staralili"
 	},
 	stage: "Stage1",
 
@@ -33,6 +41,10 @@ const card: Card = {
 			name: {
 				en: "Glide",
 				fr: "Glissement",
+				es: "Planeo",
+				it: "Aliante",
+				pt: "Planeio",
+				de: "Gleiten"
 			},
 
 			damage: 20,
@@ -46,10 +58,18 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-Attaque",
+				es: "Ataque Rápido",
+				it: "Attacco Rapido",
+				pt: "Ataque Rápido",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

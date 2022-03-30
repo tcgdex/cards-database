@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drowzee",
 		fr: "Soporifik",
+		es: "Drowzee",
+		it: "Drowzee",
+		pt: "Drowzee",
+		de: "Traumato"
 	},
 	stage: "Stage1",
 
@@ -57,7 +61,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Zen Headbutt",
-				fr: "Psykoud’Boul",
+				fr: "Psykoud'Boul",
 				es: "Cabezazo Zen",
 				it: "Cozzata Zen",
 				pt: "Cabeçada Zen",

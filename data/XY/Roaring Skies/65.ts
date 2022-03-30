@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spearow",
 		fr: "Piafabec",
+		es: "Spearow",
+		it: "Spearow",
+		pt: "Spearow",
+		de: "Habitak"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				es: "Picotazo",
+				it: "Beccata",
+				pt: "Bicada",
+				de: "Schnabel"
 			},
 
 			damage: 30,

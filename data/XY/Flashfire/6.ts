@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
+		es: "Nuzleaf",
+		it: "Nuzleaf",
+		pt: "Nuzleaf",
+		de: "Blanas"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Seedot",
 		fr: "Grainipiot",
+		es: "Seedot",
+		it: "Seedot",
+		pt: "Seedot",
+		de: "Samurzel"
 	},
 	stage: "Stage1",
 
@@ -32,7 +40,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
+				fr: "Tranch'Herbe",
+				es: "Hoja Afilada",
+				it: "Foglielama",
+				pt: "Folha Navalha",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,
@@ -47,6 +59,10 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				es: "Corte",
+				it: "Taglio",
+				pt: "Cortar",
+				de: "Zerschneider"
 			},
 
 			damage: 40,

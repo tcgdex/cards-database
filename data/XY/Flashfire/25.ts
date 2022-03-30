@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Sealeo",
 		fr: "Phogleur",
+		es: "Sealeo",
+		it: "Sealeo",
+		pt: "Sealeo",
+		de: "Seejong"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spheal",
 		fr: "Obalie",
+		es: "Spheal",
+		it: "Spheal",
+		pt: "Spheal",
+		de: "Seemops"
 	},
 	stage: "Stage1",
 
@@ -34,10 +42,18 @@ const card: Card = {
 			name: {
 				en: "Rest",
 				fr: "Repos",
+				es: "Descanso",
+				it: "Riposo",
+				pt: "Descansar",
+				de: "Erholung"
 			},
 			effect: {
 				en: "Heal 60 damage from this Pokémon. This Pokémon is now Asleep.",
 				fr: "Soignez 60 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
+				es: "Cura 60 puntos de daño a este Pokémon. Este Pokémon pasa a estar Dormido.",
+				it: "Cura questo Pokémon da 60 danni. Questo Pokémon viene addormentato.",
+				pt: "Cure 60 de danos deste Pokémon. Este Pokémon agora está Adormecido.",
+				de: "Heile 60 Schadenspunkte bei diesem Pokémon. Dieses Pokémon schläft jetzt."
 			},
 
 		},
@@ -49,7 +65,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Ball",
-				fr: "Ball’Glace",
+				fr: "Ball'Glace",
+				es: "Bola Hielo",
+				it: "Palla Gelo",
+				pt: "Bola de Gelo",
+				de: "Frostbeule"
 			},
 
 			damage: 60,

@@ -38,8 +38,8 @@ const card: Card = {
 				fr: "Brasier Sélénite",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Moonsault Blaze attack does 100 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l’attaque Brasier Sélénite de ce Pokémon inflige 100 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				en: "During your next turn, this Pokémon's Moonsault Blaze attack does 100 more damage (before applying Weakness and Resistance).",
+				fr: "Pendant votre prochain tour, l'attaque Brasier Sélénite de ce Pokémon inflige 100 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 100,
 

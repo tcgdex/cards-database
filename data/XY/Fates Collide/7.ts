@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Servine",
 		fr: "Lianaja",
+		es: "Servine",
+		it: "Servine",
+		pt: "Servine",
+		de: "Efoserp"
 	},
 	stage: "Stage2",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Einrollen"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s attacks do 60 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
+				en: "During your next turn, this Pokémon's attacks do 60 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, les attaques de ce Pokémon infligent 60 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 				es: "Durante tu próximo turno, los ataques de este Pokémon hacen 60 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Durante il tuo prossimo turno, gli attacchi di questo Pokémon infliggono 60 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
@@ -66,7 +70,7 @@ const card: Card = {
 				de: "Schlitzender Schlag"
 			},
 			effect: {
-				en: "This Pokémon can’t use Slashing Strike during your next turn.",
+				en: "This Pokémon can't use Slashing Strike during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
 				es: "Este Pokémon no puede usar Golpe Cuchillazo durante tu próximo turno.",
 				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",

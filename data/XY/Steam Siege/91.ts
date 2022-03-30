@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Aipom",
 		fr: "Capumain",
+		es: "Aipom",
+		it: "Aipom",
+		pt: "Aipom",
+		de: "Griffel"
 	},
 	stage: "Stage1",
 
@@ -43,8 +47,8 @@ const card: Card = {
 				de: "Haarige Chance"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck. If that card is an Energy card, this attack does 60 more damage.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si c’est une carte Énergie, cette attaque inflige 60 dégâts supplémentaires.",
+				en: "Discard the top card of your opponent's deck. If that card is an Energy card, this attack does 60 more damage.",
+				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si c'est une carte Énergie, cette attaque inflige 60 dégâts supplémentaires.",
 				es: "Descarta la primera carta de la baraja de tu rival. Si es una carta de Energía, este ataque hace 60 puntos de daño más.",
 				it: "Scarta la carta in cima al mazzo del tuo avversario. Se è una carta Energia, questo attacco infligge 60 danni in più.",
 				pt: "Descarte o card de cima do baralho do seu oponente. Se aquele card for um card de Energia, este ataque causará 60 de danos adicionais.",
@@ -73,7 +77,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 50 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50×",
 

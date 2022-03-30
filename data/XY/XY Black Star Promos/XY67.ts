@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Poussière Étoile",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to your opponent’s Active Pokémon. If you do, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn.",
-				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire. Dans ce cas, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				en: "Discard a Special Energy attached to your opponent's Active Pokémon. If you do, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire. Dans ce cas, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 10,
 

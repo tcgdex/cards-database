@@ -26,6 +26,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Joltik",
 		fr: "Statitik",
+		es: "Joltik",
+		it: "Joltik",
+		pt: "Joltik",
+		de: "Wattzapf"
 	},
 	stage: "Stage1",
 
@@ -44,7 +48,7 @@ const card: Card = {
 				de: "Doppelter Faden"
 			},
 			effect: {
-				en: "This attack does 30 damage to 2 of your opponent’s Pokémon. Also apply Weakness and Resistance for Benched Pokémon.",
+				en: "This attack does 30 damage to 2 of your opponent's Benched Pokémon. Apply Weakness and Resistance.",
 				fr: "Cette attaque inflige 30 dégâts à 2 des Pokémon de Banc de votre adversaire. Appliquez aussi la Faiblesse et la Résistance.",
 				es: "Este ataque hace 30 puntos de daño a 2 de los Pokémon en Banca de tu rival. Aplica Debilidad y Resistencia.",
 				it: "Questo attacco infligge 30 danni a due dei Pokémon in panchina del tuo avversario. Ricorda di applicare debolezza e resistenza.",
@@ -66,7 +70,7 @@ const card: Card = {
 				de: "Elektronetz"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",

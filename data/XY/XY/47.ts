@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ekans",
 		fr: "Abo",
+		es: "Ekans",
+		it: "Ekans",
+		pt: "Ekans",
+		de: "Rettan"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				es: "Mordisco",
+				it: "Morso",
+				pt: "Mordida",
+				de: "Biss"
 			},
 
 			damage: 20,

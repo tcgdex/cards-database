@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
+		es: "Exeggcute",
+		it: "Exeggcute",
+		pt: "Exeggcute",
+		de: "Owei"
 	},
 	stage: "Stage1",
 
@@ -45,11 +49,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "コインを1回投げオモテなら、10ダメージを追加。\nFlip a coin. If heads, this attack does 10 more damage.",
-				fr: "コインを1回投げオモテなら、10ダメージを追加。\nLancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+				fr: "コインを1回投げオモテなら、10ダメージを追加。\nLancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 10 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

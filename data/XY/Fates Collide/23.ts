@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Binacle",
 		fr: "Opermine",
+		es: "Binacle",
+		it: "Binacle",
+		pt: "Binacle",
+		de: "Bithora"
 	},
 	stage: "Stage1",
 
@@ -40,7 +44,7 @@ const card: Card = {
 				de: "Handblockade"
 			},
 			effect: {
-				en: "If you have a Stadium card in play, your opponent can’t attach any Special Energy cards from his or her hand to his or her Pokémon.",
+				en: "If you have a Stadium card in play, your opponent can't attach any Special Energy cards from his or her hand to his or her Pokémon.",
 				fr: "Si vous avez une carte Stade en jeu, votre adversaire ne peut pas attacher de carte Énergie spéciale de sa main à ses Pokémon.",
 				es: "Si tienes alguna carta de Estadio en juego, tu rival no puede unir ninguna carta de Energía Especial de su mano a sus Pokémon.",
 				it: "Se hai in gioco una carta Stadio, il tuo avversario non può assegnare carte Energia speciale dalla sua mano ai suoi Pokémon.",
@@ -58,7 +62,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Slash",
-				fr: "Tranch’Griffe",
+				fr: "Tranch'Griffe",
 				es: "Cuchillada Garra",
 				it: "Lacerartiglio",
 				pt: "Golpe de Garra",

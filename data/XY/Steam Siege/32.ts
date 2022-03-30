@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dewott",
 		fr: "Mateloutre",
+		es: "Dewott",
+		it: "Dewott",
+		pt: "Dewott",
+		de: "Zwottronin"
 	},
 	stage: "Stage2",
 
@@ -44,7 +48,7 @@ const card: Card = {
 				de: "Vollendete Klinge"
 			},
 			effect: {
-				en: "If the damage from this attack reduces your opponent’s Active Pokémon’s HP to 60 or less, that Pokémon is Knocked Out.",
+				en: "If the damage from this attack reduces your opponent's Active Pokémon's HP to 60 or less, that Pokémon is Knocked Out.",
 				fr: "Si les dégâts de cette attaque réduisent les PV du Pokémon Actif de votre adversaire à 60 ou moins, ce dernier est mis K.O.",
 				es: "Si el daño de este ataque reduce los PS del Pokémon Activo de tu rival a 60 o menos, ese Pokémon queda Fuera de Combate.",
 				it: "Se i danni di questo attacco riducono i PS del Pokémon attivo del tuo avversario a 60 o meno, quel Pokémon viene messo KO.",
@@ -69,8 +73,8 @@ const card: Card = {
 				de: "Langspieß"
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				es: "Este ataque hace 30 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Questo attacco infligge 30 danni a uno dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Este ataque causa 30 de danos a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",

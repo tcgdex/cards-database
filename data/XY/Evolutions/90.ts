@@ -27,10 +27,10 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Double Énergie Incolore fournit de l’Énergie ColorlessColorless.",
+		fr: "Double Énergie Incolore fournit de l'Énergie ColorlessColorless.",
 		en: "Double Colorless Energy provides ColorlessColorless Energy.",
 		es: "Doble Energía Incolora proporciona Energía ColorlessColorless.",
-		it: "Un’Energia Incolore doppia fornisce ColorlessColorless.",
+		it: "Un'Energia Incolore doppia fornisce ColorlessColorless.",
 		pt: "A Energia Incolor Dupla fornece Energias ColorlessColorless.",
 		de: "Doppel-Farblos-Energie liefert ColorlessColorless-Energie."
 	},

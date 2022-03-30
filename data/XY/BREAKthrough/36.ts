@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Piplup",
 		fr: "Tiplouf",
+		es: "Piplup",
+		it: "Piplup",
+		pt: "Piplup",
+		de: "Plinfa"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				es: "Chapoteo Ondulante",
+				it: "Schizzi d'Onda",
+				pt: "Onda Borrifante",
+				de: "Wellenplatscher"
 			},
 
 			damage: 30,

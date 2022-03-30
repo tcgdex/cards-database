@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Windtalisman"
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, prevent all effects of your opponent’s attacks, except damage, done to each of your Pokémon. (Existing effects are not removed.)",
+				en: "As long as this Pokémon is your Active Pokémon, prevent all effects of your opponent's attacks, except damage, done to each of your Pokémon. (Existing effects are not removed.)",
 				fr: "Tant que ce Pokémon est votre Pokémon Actif, évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon. (Les effets déjà en action ne sont pas retirés.)",
 				es: "Mientras este Pokémon sea tu Pokémon Activo, evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos a cada uno de tus Pokémon. (No se eliminan los efectos ya existentes).",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti a ciascuno dei tuoi Pokémon. Gli effetti esistenti non vengono rimossi.",

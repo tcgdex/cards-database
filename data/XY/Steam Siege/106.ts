@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Vínculo Espiritual de Steelix",
 		it: "Legame Mentale con Steelix",
 		pt: "Elo Espiritual de Steelix",
-		de: "Stahlos’ Geistesbund"
+		de: "Stahlos' Geistesbund"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",

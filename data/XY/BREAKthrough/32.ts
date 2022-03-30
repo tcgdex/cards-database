@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Remoraid",
 		fr: "Rémoraid",
+		es: "Remoraid",
+		it: "Remoraid",
+		pt: "Remoraid",
+		de: "Remoraid"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Ion Pool",
 				fr: "Bassin Ionique",
+				es: "Piscina Iónica",
+				it: "Vasca Ionizzata",
+				pt: "Piscina de Íons",
+				de: "Ionenbecken"
 			},
 			effect: {
 				en: "Discard any Stadium card in play.",
 				fr: "Défaussez toute carte Stade en jeu.",
+				es: "Descarta cualquier carta de Estadio en juego.",
+				it: "Scarta una carta Stadio in gioco.",
+				pt: "Descarte qualquer card de Estádio em jogo.",
+				de: "Lege eine beliebige Stadionkarte im Spiel auf den Ablagestapel."
 			},
 
 		},
@@ -45,6 +57,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revólver d'Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 20,

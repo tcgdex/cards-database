@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Snubbull",
 		fr: "Snubbull",
+		es: "Snubbull",
+		it: "Snubbull",
+		pt: "Snubbull",
+		de: "Snubbull"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "None",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d’Boule",
+				fr: "Coup d'Boule",
+				es: "Golpe Cabeza",
+				it: "Bottintesta",
+				pt: "Cabeçada",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,

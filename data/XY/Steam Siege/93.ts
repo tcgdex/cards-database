@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rufflet",
 		fr: "Furaiglon",
+		es: "Rufflet",
+		it: "Rufflet",
+		pt: "Rufflet",
+		de: "Geronimatz"
 	},
 	stage: "Stage1",
 
@@ -45,11 +49,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 50 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -69,7 +73,7 @@ const card: Card = {
 				de: "Freier Fall"
 			},
 			effect: {
-				en: "This attack does 120 damage minus 20 damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
+				en: "This attack does 120 damage minus 20 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
 				fr: "Cette attaque inflige 120 dégâts moins 20 dégâts pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
 				es: "Este ataque hace 120 puntos de daño menos 20 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 120 danni meno 20 per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",

@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Rafale Psy",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -50,7 +50,7 @@ const card: Card = {
 				fr: "Flamme Miracle",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand. This attack does 40 more damage for each Energy card in your opponent’s hand.",
+				en: "Your opponent reveals his or her hand. This attack does 40 more damage for each Energy card in your opponent's hand.",
 				fr: "Votre adversaire montre sa main. Cette attaque inflige 40 dégâts supplémentaires pour chaque carte Énergie dans la main de votre adversaire.",
 			},
 			damage: "80＋",

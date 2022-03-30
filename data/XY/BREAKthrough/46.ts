@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Froakie",
 		fr: "Grenousse",
+		es: "Froakie",
+		it: "Froakie",
+		pt: "Froakie",
+		de: "Froxy"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				es: "Destructor",
+				it: "Botta",
+				pt: "Pancada",
+				de: "Pfund"
 			},
 
 			damage: 10,

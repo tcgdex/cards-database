@@ -4,7 +4,7 @@ import Set from '../Evolutions'
 const card: Card = {
 	name: {
 		en: "Energy Retrieval",
-		fr: "Récupération d’Énergie",
+		fr: "Récupération d'Énergie",
 		es: "Recuperación de Energía",
 		it: "Recupero di Energia",
 		pt: "Recuperação de Energia",

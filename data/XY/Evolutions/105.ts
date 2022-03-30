@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pidgeot-EX",
 		fr: "Roucarnage-EX",
+		es: "Pidgeot-EX",
+		it: "Pidgeot-EX",
+		pt: "Pidgeot-EX",
+		de: "Tauboss-EX"
 	},
 
 	stage: "MEGA",
@@ -50,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Vous pouvez demander à votre adversaire d’échanger son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				fr: "Vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
 				es: "Puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Puoi far scambiare al tuo avversario il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
 				pt: "Você pode fazer seu oponente trocar o próprio Pokémon Ativo por um dos Pokémon no Banco dele(a).",
@@ -75,7 +79,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+	suffix: "EX"
 }
 
 export default card

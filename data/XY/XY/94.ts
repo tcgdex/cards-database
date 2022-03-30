@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Swirlix",
 		fr: "Sucroquin",
+		es: "Swirlix",
+		it: "Swirlix",
+		pt: "Swirlix",
+		de: "Flauschling"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Fairy Wind",
 				fr: "Vent Féérique",
+				es: "Viento Feérico",
+				it: "Vento di Fata",
+				pt: "Vento de Fada",
+				de: "Feenbrise"
 			},
 
 			damage: 20,

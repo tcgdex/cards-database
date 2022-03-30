@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Nidorina",
 		fr: "Nidorina",
+		es: "Nidorina",
+		it: "Nidorina",
+		pt: "Nidorina",
+		de: "Nidorina"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Uncommon",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidoran♀",
 		fr: "Nidoran♀",
+		es: "Nidoran♀",
+		it: "Nidoran♀",
+		pt: "Nidoran♀",
+		de: "Nidoran♀"
 	},
 	stage: "Stage1",
 
@@ -33,6 +41,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -47,6 +59,10 @@ const card: Card = {
 			name: {
 				en: "Strength",
 				fr: "Force",
+				es: "Fuerza",
+				it: "Forza",
+				pt: "Força",
+				de: "Stärke"
 			},
 
 			damage: 60,

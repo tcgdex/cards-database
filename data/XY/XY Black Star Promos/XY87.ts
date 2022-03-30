@@ -35,10 +35,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Strongarm Impact",
-				fr: "Impact Bras d’Fer",
+				fr: "Impact Bras d'Fer",
 			},
 			effect: {
-				en: "You may do 30 more damage. If you do, discard the top 3 cards of each player’s deck.",
+				en: "You may do 30 more damage. If you do, discard the top 3 cards of each player's deck.",
 				fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur."
 			},
 			damage: "130+",
