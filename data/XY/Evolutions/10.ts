@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
+		es: "Charmander",
+		it: "Charmander",
+		pt: "Charmander",
+		de: "Glumanda"
 	},
 	stage: "Stage1",
 
@@ -66,7 +70,7 @@ const card: Card = {
 				en: "Discard a Fire Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
 				es: "Descarta 1 Energía Fire unida a este Pokémon.",
-				it: "Scarta un’Energia Fire assegnata a questo Pokémon.",
+				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
 				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
 			},

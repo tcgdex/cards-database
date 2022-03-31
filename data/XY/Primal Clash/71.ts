@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tentacool",
 		fr: "Tentacool",
+		es: "Tentacool",
+		it: "Tentacool",
+		pt: "Tentacool",
+		de: "Tentacha"
 	},
 	illustrator: "Mizue",
 	rarity: "Uncommon",
@@ -26,11 +30,19 @@ const card: Card = {
 			type: "Ancient Trait",
 			name: {
 				fr: "Régénération α",
-				en: "α Recovery"
+				en: "α Recovery",
+				es: "{title}:",
+				it: "{title}:",
+				pt: "{title}:",
+				de: "{title}:"
 			},
 			effect: {
 				fr: "Lorsque ce Pokémon est soigné, doublez la quantité de soins.",
-				en: "When this Pokémon is healed, double the amount healed."
+				en: "When this Pokémon is healed, double the amount healed.",
+				es: "{title}: Cuando este Pokémon sea curado, dobla la cantidad curada.",
+				it: "{title}: Quando curi questo Pokémon, raddoppia la quantità di danni che stai curando.",
+				pt: "{title}: Quando este Pokémon for curado, dobre a quantidade curada.",
+				de: "{title}: Wenn dieses Pokémon geheilt wird, verdoppele die geheilten Schadenspunkte."
 			},
 		},
 	],
@@ -43,6 +55,10 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre Psy",
+				es: "Disparo Psi",
+				it: "Psicosparo",
+				pt: "Tiro Psíquico",
+				de: "Psychoschuss"
 			},
 
 			damage: 20,

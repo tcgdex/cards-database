@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spoink",
 		fr: "Spoink",
+		es: "Spoink",
+		it: "Spoink",
+		pt: "Spoink",
+		de: "Spoink"
 	},
 	stage: "Stage1",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Kopflauf"
 			},
 			effect: {
-				en: "Put a Basic Pokémon from your opponent’s discard pile onto his or her Bench. Then, put 3 damage counters on that Pokémon.",
+				en: "Put a Basic Pokémon from your opponent's discard pile onto his or her Bench. Then, put 3 damage counters on that Pokémon.",
 				fr: "Prenez un Pokémon de base dans la pile de défausse de votre adversaire et placez-le sur son Banc. Ensuite, placez 3 marqueurs de dégâts sur le Pokémon.",
 				es: "Pon 1 Pokémon Básico de la pila de descartes de tu rival en su Banca. Después, pon 3 contadores de daño en ese Pokémon.",
 				it: "Prendi un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua panchina. Poi, metti tre segnalini danno su quel Pokémon.",
@@ -67,7 +71,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
 				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
 				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",

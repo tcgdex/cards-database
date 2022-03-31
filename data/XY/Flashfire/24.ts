@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Spheal",
 		fr: "Obalie",
+		es: "Spheal",
+		it: "Spheal",
+		pt: "Spheal",
+		de: "Seemops"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,7 +34,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Ball",
-				fr: "Ball’Glace",
+				fr: "Ball'Glace",
+				es: "Bola Hielo",
+				it: "Palla Gelo",
+				pt: "Bola de Gelo",
+				de: "Frostbeule"
 			},
 
 			damage: 20,

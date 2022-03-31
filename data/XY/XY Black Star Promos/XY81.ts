@@ -34,8 +34,8 @@ const card: Card = {
 				fr: "Ultralaser",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 40,
 
@@ -51,7 +51,7 @@ const card: Card = {
 				en: "Flare Blizzard",
 			},
 			effect: {
-				en: "This Pokémon can’t use Flare Blizzard during your next turn.",
+				en: "This Pokémon can't use Flare Blizzard during your next turn.",
 			},
 			damage: 120,
 

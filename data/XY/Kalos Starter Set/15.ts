@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Clauncher",
 		fr: "Flingouste",
+		es: "Clauncher",
+		it: "Clauncher",
+		pt: "Clauncher",
+		de: "Scampisto"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "None",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				es: "Pistola Agua",
+				it: "Pistolacqua",
+				pt: "Revolver d'Água",
+				de: "Aquaknarre"
 			},
 
 			damage: 20,

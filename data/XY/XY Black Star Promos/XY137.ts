@@ -35,7 +35,7 @@ const card: Card = {
 				fr: "Poison Étourdissant",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 			},
 
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Nuée de Poudre",
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Fire Energy attached to your opponent’s Active Pokémon.",
+				en: "This attack does 30 more damage for each Fire Energy attached to your opponent's Active Pokémon.",
 				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Fire attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: "30+",

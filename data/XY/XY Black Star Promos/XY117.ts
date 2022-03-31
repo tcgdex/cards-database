@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, attachez une carte Énergie de base de votre pile de défausse à l’un de vos Pokémon de Banc.",
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
 			},
 
 		},

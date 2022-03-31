@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
+		es: "Gastly",
+		it: "Gastly",
+		pt: "Gastly",
+		de: "Nebulak"
 	},
 	stage: "Stage1",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Hypnose"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
@@ -66,8 +70,8 @@ const card: Card = {
 				de: "Traumfresser"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is not Asleep, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n’est pas Endormi, cette attaque ne fait rien.",
+				en: "If your opponent's Active Pokémon is not Asleep, this attack does nothing.",
+				fr: "Si le Pokémon Actif de votre adversaire n'est pas Endormi, cette attaque ne fait rien.",
 				es: "Si el Pokémon Activo de tu rival no está Dormido, este ataque no hace nada.",
 				it: "Se il Pokémon attivo del tuo avversario non è addormentato, questo attacco non ha effetto.",
 				pt: "Se o Pokémon Ativo do seu oponente não estiver Adormecido, este ataque não fará nada.",

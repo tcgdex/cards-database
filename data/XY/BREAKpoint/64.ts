@@ -43,7 +43,7 @@ const card: Card = {
 				en: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Évolution de ce Pokémon et placez-la sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon.) Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja 1 carta que evolucione de este Pokémon y ponla sobre él. (Esto equivale a hacer evolucionar a este Pokémon). Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo una carta che si evolve da questo Pokémon e metticela sopra (quest’azione vale come evoluzione del Pokémon). Poi rimischia le carte del tuo mazzo.",
+				it: "Cerca nel tuo mazzo una carta che si evolve da questo Pokémon e metticela sopra (quest'azione vale come evoluzione del Pokémon). Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho um card que evolua deste Pokémon e coloque-o sobre este Pokémon. (Isso conta como evoluir este Pokémon.) Em seguida, embaralhe seus cards.",
 				de: "Durchsuche dein Deck nach 1 Karte, zu der sich dieses Pokémon entwickelt, und lege sie auf dieses Pokémon (dies zählt als Entwicklung dieses Pokémon). Mische anschließend dein Deck."
 			},

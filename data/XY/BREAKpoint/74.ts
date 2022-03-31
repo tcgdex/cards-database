@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Darkrai EX",
 		de: "Darkrai EX"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		491,
 	],
+
 	hp: 180,
+
 	types: [
 		"Darkness",
 	],
-
 
 	suffix: "EX",
 
@@ -66,7 +68,7 @@ const card: Card = {
 				de: "Düsterer Kopf"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is Asleep, this attack does 80 more damage.",
+				en: "If your opponent's Active Pokémon is Asleep, this attack does 80 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 80 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival está Dormido, este ataque hace 80 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è addormentato, questo attacco infligge 80 danni in più.",
@@ -77,22 +79,23 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Fighting",
 			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

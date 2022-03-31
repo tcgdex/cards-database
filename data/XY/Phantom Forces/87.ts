@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bunnelby",
 		fr: "Sapereau",
+		es: "Bunnelby",
+		it: "Bunnelby",
+		pt: "Bunnelby",
+		de: "Scoppel"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Mud Shot",
 				fr: "Tir de Boue",
+				es: "Disparo Lodo",
+				it: "Colpodifango",
+				pt: "Tiro de Lama",
+				de: "Lehmschuss"
 			},
 
 			damage: 30,

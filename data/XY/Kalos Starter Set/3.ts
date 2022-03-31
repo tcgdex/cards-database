@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Chespin",
 		fr: "Marisson",
+		es: "Chespin",
+		it: "Chespin",
+		pt: "Chespin",
+		de: "Igamaro"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "None",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				es: "Látigo Cepa",
+				it: "Frustata",
+				pt: "Chicote de Vinha",
+				de: "Rankenhieb"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				es: "Bomba Germen",
+				it: "Semebomba",
+				pt: "Bomba de Sementes",
+				de: "Samenbomben"
 			},
 
 			damage: 20,

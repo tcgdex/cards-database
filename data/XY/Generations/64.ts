@@ -24,7 +24,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Mélangez 2 cartes de votre main avec votre deck. (Si vous ne pouvez pas mélanger 2 cartes avec votre deck, vous ne pouvez pas jouer cette carte.) Ensuite, piochez une carte.",
-		en: "Shuffle 2 cards from your hand into your deck. (If you can’t shuffle 2 cards into your deck, you can’t play this card.) Then, draw a card."
+		en: "Shuffle 2 cards from your hand into your deck. (If you can't shuffle 2 cards into your deck, you can't play this card.) Then, draw a card."
 	},
 	trainerType: "Item",
 

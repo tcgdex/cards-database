@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		es: "Tangela",
+		it: "Tangela",
+		pt: "Tangela",
+		de: "Tangela"
 	},
 	illustrator: "match",
 	rarity: "Common",
@@ -31,10 +35,18 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-Vie",
+				es: "Absorber",
+				it: "Assorbimento",
+				pt: "Absorção",
+				de: "Absorber"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts à ce Pokémon.",
+				es: "Cura 20 puntos de daño a este Pokémon.",
+				it: "Cura questo Pokémon da 20 danni.",
+				pt: "Cure 20 de danos deste Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -48,6 +60,10 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				es: "Látigo Cepa",
+				it: "Frustata",
+				pt: "Chicote de Vinha",
+				de: "Rankenhieb"
 			},
 
 			damage: 30,

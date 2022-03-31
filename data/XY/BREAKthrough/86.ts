@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pancham",
 		fr: "Pandespiègle",
+		es: "Pancham",
+		it: "Pancham",
+		pt: "Pancham",
+		de: "Pam-Pam"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -31,10 +35,18 @@ const card: Card = {
 			name: {
 				en: "Pompous Punch",
 				fr: "Coup d'Poing Solennel",
+				es: "Puño Pomposo",
+				it: "Tronfiopugno",
+				pt: "Soco Pomposo",
+				de: "Pompöser Punch"
 			},
 			effect: {
-				en: "Discard a random card from your opponent’s hand.",
+				en: "Discard a random card from your opponent's hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
+				it: "Scarta una carta a caso dalla mano del tuo avversario.",
+				pt: "Descarte um card aleatório da mão do seu oponente.",
+				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf seinen Ablagestapel."
 			},
 			damage: 10,
 

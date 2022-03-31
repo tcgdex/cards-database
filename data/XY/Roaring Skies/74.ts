@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Altaria",
 		fr: "Altaria",
+		es: "Altaria",
+		it: "Altaria",
+		pt: "Altaria",
+		de: "Altaria"
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
+		es: "Swablu",
+		it: "Swablu",
+		pt: "Swablu",
+		de: "Wablu"
 	},
 	stage: "Stage1",
 
@@ -55,6 +63,10 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				es: "Ataque Ala",
+				it: "Attacco d'Ala",
+				pt: "Ataque de Asa",
+				de: "Flügelschlag"
 			},
 
 			damage: 30,

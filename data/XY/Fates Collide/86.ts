@@ -40,8 +40,8 @@ const card: Card = {
 				de: "Putzen"
 			},
 			effect: {
-				en: "Discard a Pokémon Tool card attached to 1 of your opponent’s Pokémon.",
-				fr: "Défaussez une carte Outil Pokémon attachée à l’un des Pokémon de votre adversaire.",
+				en: "Discard a Pokémon Tool card attached to 1 of your opponent's Pokémon.",
+				fr: "Défaussez une carte Outil Pokémon attachée à l'un des Pokémon de votre adversaire.",
 				es: "Descarta 1 carta de Herramienta Pokémon unida a 1 de los Pokémon de tu rival.",
 				it: "Scarta una carta Oggetto Pokémon assegnata a uno dei Pokémon del tuo avversario.",
 				pt: "Descarte um card de Ferramenta Pokémon ligado a 1 Pokémon do seu oponente.",

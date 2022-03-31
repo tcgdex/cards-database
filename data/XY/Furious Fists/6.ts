@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Shroomish",
 		fr: "Balignon",
+		es: "Shroomish",
+		it: "Shroomish",
+		pt: "Shroomish",
+		de: "Knilz"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 10,

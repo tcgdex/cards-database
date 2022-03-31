@@ -37,8 +37,8 @@ const card: Card = {
 				fr: "Vision Sonique",
 			},
 			effect: {
-				en: "If you have exactly 4 cards in your hand, ignore all Energy in the attack cost of each of this Pokémon’s attacks.",
-				fr: "Si vous avez exactement 4 cartes dans votre main, ignorez toutes les Énergies dans le coût d’attaque de chacune des attaques de ce Pokémon.",
+				en: "If you have exactly 4 cards in your hand, ignore all Energy in the attack cost of each of this Pokémon's attacks.",
+				fr: "Si vous avez exactement 4 cartes dans votre main, ignorez toutes les Énergies dans le coût d'attaque de chacune des attaques de ce Pokémon.",
 			},
 		},
 	],
@@ -52,10 +52,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Assault Boom",
-				fr: "Dégât d’Assaut",
+				fr: "Dégât d'Assaut",
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.",
+				en: "If your opponent's Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.",
 				fr: "Si une carte Outil Pokémon est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 70 dégâts supplémentaires.",
 			},
 			damage: "50+",

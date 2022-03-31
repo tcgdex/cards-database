@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Glaceon EX",
 		de: "Glaziola EX"
 	},
+
 	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		471,
 	],
+
 	hp: 170,
+
 	types: [
 		"Water",
 	],
-
 
 	suffix: "EX",
 
@@ -41,7 +43,7 @@ const card: Card = {
 				de: "Wunde Stelle"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
+				en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
 				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
@@ -66,7 +68,7 @@ const card: Card = {
 				de: "Kristallstrahl"
 			},
 			effect: {
-				en: "During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.",
+				en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.",
 				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon Évolutifs.",
 				es: "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon Evolución.",
 				it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni da attacchi inflitti a questo Pokémon dai Pokémon Evoluzione.",
@@ -77,6 +79,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Metal",
@@ -85,9 +88,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

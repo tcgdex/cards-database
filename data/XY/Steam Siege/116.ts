@@ -43,8 +43,8 @@ const card: Card = {
 				de: "Vereinigende Explosion"
 			},
 			effect: {
-				en: "If this Pokémon and your opponent’s Active Pokémon have the same amount of Energy attached to them, this attack does 70 more damage.",
-				fr: "Si ce Pokémon et le Pokémon Actif de votre adversaire ont le même nombre d’Énergies attachées, cette attaque inflige 70 dégâts supplémentaires.",
+				en: "If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached to them, this attack does 70 more damage.",
+				fr: "Si ce Pokémon et le Pokémon Actif de votre adversaire ont le même nombre d'Énergies attachées, cette attaque inflige 70 dégâts supplémentaires.",
 				es: "Si este Pokémon y el Pokémon Activo de tu rival tienen el mismo número de Energías unidas a ellos, este ataque hace 70 puntos de daño más.",
 				it: "Se questo Pokémon e il Pokémon attivo del tuo avversario hanno la stessa quantità di Energie assegnate, questo attacco infligge 70 danni in più.",
 				pt: "Se este Pokémon e o Pokémon Ativo do seu oponente tiverem a mesma quantidade de Energia ligada a eles, este ataque causará 70 de danos adicionais.",
@@ -71,7 +71,7 @@ const card: Card = {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
 				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un’Energia assegnata a questo Pokémon.",
+				it: "Scarta un'Energia assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia ligada a este Pokémon.",
 				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
@@ -94,7 +94,8 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+	stage: "Basic"
 }
 
 export default card

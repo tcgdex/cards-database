@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ralts",
 		fr: "Tarsal",
+		es: "Ralts",
+		it: "Ralts",
+		pt: "Ralts",
+		de: "Trasla"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Mumble",
 				fr: "Murmure",
+				es: "Farfullar",
+				it: "Borbottio",
+				pt: "Resmungo",
+				de: "Grummeln"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Magical Shot",
 				fr: "Coup Magique",
+				es: "Disparo Mágico",
+				it: "Magicolpo",
+				pt: "Tiro Mágico",
+				de: "Magischer Schuss"
 			},
 
 			damage: 20,

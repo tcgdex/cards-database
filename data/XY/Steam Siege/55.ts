@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nosepass",
 		fr: "Tarinor",
+		es: "Nosepass",
+		it: "Nosepass",
+		pt: "Nosepass",
+		de: "Nasgnet"
 	},
 	stage: "Stage1",
 
@@ -36,7 +40,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bounce Back",
-				fr: "Retour à l’Envoyeur",
+				fr: "Retour à l'Envoyeur",
 				es: "Recuperarse",
 				it: "Rimbalzo Indietro",
 				pt: "Ricochete de Retrocesso",
@@ -44,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
 				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
 				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
@@ -68,7 +72,7 @@ const card: Card = {
 				de: "Felsgrab"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Baltoy",
 		fr: "Balbuto",
+		es: "Baltoy",
+		it: "Baltoy",
+		pt: "Baltoy",
+		de: "Puppance"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Slap",
 				fr: "Gifle",
+				es: "Bofetón",
+				it: "Sberla",
+				pt: "Tapa",
+				de: "Hieb"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				es: "Ataque Giratorio",
+				it: "Attacco Rotante",
+				pt: "Ataque Giratório",
+				de: "Rundumangriff"
 			},
 
 			damage: 20,

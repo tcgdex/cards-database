@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shellos",
 		fr: "Sancoki",
+		es: "Shellos",
+		it: "Shellos",
+		pt: "Shellos",
+		de: "Schalellos"
 	},
 	stage: "Stage1",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Klebriger Schuss"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon’s attacks cost Colorless more, and its Retreat Cost is Colorless more.",
+				en: "During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more.",
 				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur coûtent Colorless de plus, et son Coût de Retraite est augmenté de Colorless.",
 				es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan Colorless más, y su Coste de Retirada es de Colorless más.",
 				it: "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore costano Colorless in più e il suo costo di ritirata aumenta di Colorless.",
@@ -64,11 +68,11 @@ const card: Card = {
 				fr: "Vibraqua",
 				es: "Hidropulso",
 				it: "Idropulsar",
-				pt: "Pulso d’Água",
+				pt: "Pulso d'Água",
 				de: "Aquawelle"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",

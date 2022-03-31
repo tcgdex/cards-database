@@ -32,7 +32,7 @@ const card: Card = {
 				en: "Double Scrapper",
 			},
 			effect: {
-				en: "Discard up to 2 Pokémon Tool cards attached to your opponent’s Pokémon.",
+				en: "Discard up to 2 Pokémon Tool cards attached to your opponent's Pokémon.",
 			},
 
 		},

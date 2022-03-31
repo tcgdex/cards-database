@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
+		es: "Slowpoke",
+		it: "Slowpoke",
+		pt: "Slowpoke",
+		de: "Flegmon"
 	},
 	stage: "Stage1",
 
@@ -44,11 +48,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 50 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -69,7 +73,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you use this attack when you have only 1 Prize card left, you win this game.",
-				fr: "Si vous utilisez cette attaque alors qu’il ne vous reste qu’une seule carte Récompense, vous gagnez cette partie.",
+				fr: "Si vous utilisez cette attaque alors qu'il ne vous reste qu'une seule carte Récompense, vous gagnez cette partie.",
 				es: "Si usas este ataque cuando te queda solo 1 carta de Premio, ganas esta partida.",
 				it: "Se usi questo attacco quando ti è rimasta una sola carta Premio, vinci la partita.",
 				pt: "Se você usar este ataque quando tiver apenas 1 card de Prêmio restante, você vencerá este jogo.",

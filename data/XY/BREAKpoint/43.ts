@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Electabuzz",
 		fr: "Élektek",
+		es: "Electabuzz",
+		it: "Electabuzz",
+		pt: "Electabuzz",
+		de: "Elektek"
 	},
 	stage: "Stage1",
 
@@ -37,7 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
-				fr: "Coud’Phalange",
+				fr: "Coud'Phalange",
 				es: "Puño con Nudillos",
 				it: "Nocca-Pugno",
 				pt: "Soco com Punho",

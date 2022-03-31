@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Lunatone",
 		fr: "Séléroc",
+		es: "Lunatone",
+		it: "Lunatone",
+		pt: "Lunatone",
+		de: "Lunastein"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Double Draw",
 				fr: "Double Pioche",
+				es: "Roba Doble",
+				it: "Pescata Doppia",
+				pt: "Compra Dupla",
+				de: "Zweifachzug"
 			},
 			effect: {
 				en: "Draw 2 cards.",
 				fr: "Piochez 2 cartes.",
+				es: "Roba 2 cartas.",
+				it: "Pesca due carte.",
+				pt: "Compre 2 cards.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -45,10 +57,18 @@ const card: Card = {
 			name: {
 				en: "Moonblast",
 				fr: "Pouvoir Lunaire",
+				es: "Fuerza Lunar",
+				it: "Forza Lunare",
+				pt: "Explosão Lunar",
+				de: "Mondgewalt"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+				es: "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 20 (antes de aplicar Debilidad y Resistencia).",
+				it: "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 20, prima di aver applicato debolezza e resistenza.",
+				pt: "Durante a próxima vez de jogar do seu oponente, qualquer dano causado por ataques ao Pokémon Defensor será reduzido em 20 (antes da aplicação de Fraqueza e Resistência).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 20,
 

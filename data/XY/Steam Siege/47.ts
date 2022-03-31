@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		es: "Drifloon",
+		it: "Drifloon",
+		pt: "Drifloon",
+		de: "Driftlon"
 	},
 	stage: "Stage1",
 
@@ -44,7 +48,7 @@ const card: Card = {
 				de: "Gespenstische Woge"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
+				en: "Your opponent's Active Pokémon is now Confused.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Il Pokémon attivo del tuo avversario viene confuso.",
@@ -68,7 +72,7 @@ const card: Card = {
 				de: "Geplatzter Fluch"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon. Put 8 damage counters on your opponent’s Pokémon in any way you like.",
+				en: "Discard 2 Energy attached to this Pokémon. Put 8 damage counters on your opponent's Pokémon in any way you like.",
 				fr: "Défaussez 2 Énergies attachées à ce Pokémon. Placez 8 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
 				es: "Descarta 2 Energías unidas a este Pokémon. Pon 8 contadores de daño en los Pokémon de tu rival de la manera que desees.",
 				it: "Scarta due Energie assegnate a questo Pokémon. Distribuisci a piacimento otto segnalini danno sui Pokémon del tuo avversario.",

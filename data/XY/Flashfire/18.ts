@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Litleo",
 		fr: "Hélionceau",
+		es: "Litleo",
+		it: "Litleo",
+		pt: "Litleo",
+		de: "Leufeo"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				es: "Combustión",
+				it: "Fuoco Continuo",
+				pt: "Combustão",
+				de: "Glühen"
 			},
 
 			damage: 60,

@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Cœur Noble",
 			},
 			effect: {
-				en: "This Pokémon’s attacks do 50 more damage to your opponent’s Darkness Pokémon (before applying Weakness and Resistance).",
+				en: "This Pokémon's attacks do 50 more damage to your opponent's Darkness Pokémon (before applying Weakness and Resistance).",
 				fr: "Les attaques de ce Pokémon infligent 50 dégâts supplémentaires aux Pokémon Darkness de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
@@ -46,7 +46,7 @@ const card: Card = {
 				fr: "Lame Sainte",
 			},
 			effect: {
-				en: "This Pokémon can’t use Sacred Sword during your next turn.",
+				en: "This Pokémon can't use Sacred Sword during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour.",
 			},
 			damage: 100,

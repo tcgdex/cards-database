@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Fennekin",
 		fr: "Feunnec",
+		es: "Fennekin",
+		it: "Fennekin",
+		pt: "Fennekin",
+		de: "Fynx"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "None",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				es: "Arañazo",
+				it: "Graffio",
+				pt: "Arranhão",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				es: "Carbón Activado",
+				it: "Carboni Ardenti",
+				pt: "Carvão Vivo",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 20,

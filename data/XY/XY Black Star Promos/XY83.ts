@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Move as many Energy as you like from your Benched Pokémon to this Pokémon.",
-				fr: "Déplacez autant d’Énergies que vous voulez de vos Pokémon de Banc vers ce Pokémon.",
+				fr: "Déplacez autant d'Énergies que vous voulez de vos Pokémon de Banc vers ce Pokémon.",
 			},
 
 		},

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dunsparce",
 		fr: "Insolourdo",
+		es: "Dunsparce",
+		it: "Dunsparce",
+		pt: "Dunsparce",
+		de: "Dummisel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -32,10 +36,18 @@ const card: Card = {
 			name: {
 				en: "Burrow",
 				fr: "Terrier",
+				es: "Escarbar",
+				it: "Buca",
+				pt: "Toca",
+				de: "Verbuddeln"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck.",
+				en: "Discard the top card of your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				es: "Descarta la primera carta de la baraja de tu rival.",
+				it: "Scarta la carta in cima al mazzo del tuo avversario.",
+				pt: "Descarte o card de cima do baralho do seu oponente.",
+				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -46,6 +58,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Desenrollar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 20,

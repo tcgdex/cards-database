@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Poing Hyperespace",
 			},
 			effect: {
-				en: "This attack does 20 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à 2 des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 20 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 20 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 				fr: "Frappe Dimensionnelle",
 			},
 			effect: {
-				en: "This Pokémon can’t use Pitfall during your next turn.",
+				en: "This Pokémon can't use Pitfall during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Frappe Dimensionnelle pendant votre prochain tour.",
 			},
 			damage: 130,

@@ -25,7 +25,7 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Confused and Poisoned."
+			en: "Your opponent's Active Pokémon is now Confused and Poisoned."
 		},
 
 		cost: ["Water"]

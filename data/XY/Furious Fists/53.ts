@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Trapinch",
 		fr: "Kraknoix",
+		es: "Trapinch",
+		it: "Trapinch",
+		pt: "Trapinch",
+		de: "Knacklion"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Mountain Munch",
 				fr: "Dévore-Montagne",
+				es: "Mascamontañas",
+				it: "Sgranocchiacime",
+				pt: "Masca Montanhas",
+				de: "Gipfelmampfer"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck.",
+				en: "Discard the top card of your opponent's deck.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				es: "Descarta la primera carta de la baraja de tu rival.",
+				it: "Scarta la carta in cima al mazzo del tuo avversario.",
+				pt: "Descarte o card de cima do baralho do seu oponente.",
+				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -44,7 +56,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud-Slap",
-				fr: "Coud’Boue",
+				fr: "Coud'Boue",
+				es: "Bofetón Lodo",
+				it: "Fangosberla",
+				pt: "Tapa de Lama",
+				de: "Lehmschelle"
 			},
 
 			damage: 10,

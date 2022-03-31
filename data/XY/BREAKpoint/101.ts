@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Vínculo Espiritual de Gyarados",
 		it: "Legame Mentale con Gyarados",
 		pt: "Elo Espiritual de Gyarados",
-		de: "Garados’ Geistesbund"
+		de: "Garados' Geistesbund"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",

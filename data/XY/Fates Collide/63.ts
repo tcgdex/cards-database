@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		es: "Riolu",
+		it: "Riolu",
+		pt: "Riolu",
+		de: "Riolu"
 	},
 	stage: "Stage1",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Vakuumwelle"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness or Resistance.",
+				en: "This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
 				es: "El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
 				it: "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",

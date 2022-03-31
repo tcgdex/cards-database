@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Sandile",
 		fr: "Mascaïman",
+		es: "Sandile",
+		it: "Sandile",
+		pt: "Sandile",
+		de: "Ganovil"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -45,6 +53,10 @@ const card: Card = {
 			name: {
 				en: "Darkness Fang",
 				fr: "Croc Obscur",
+				es: "Colmillo de Oscuridad",
+				it: "Oscurizanna",
+				pt: "Presa Sombria",
+				de: "Fänge der Dunkelheit"
 			},
 
 			damage: 50,

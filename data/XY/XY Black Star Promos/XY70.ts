@@ -29,7 +29,7 @@ const card: Card = {
 				fr: "Croc Despotique",
 			},
 			effect: {
-				en: "Damage from this Pokémon’s attacks isn’t affected by any effects on your opponent’s Active Pokémon.",
+				en: "Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon.",
 				fr: "Les dégâts des attaques de ce Pokémon ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 		},

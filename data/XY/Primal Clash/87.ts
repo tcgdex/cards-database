@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Hippopotas",
 		fr: "Hippopotas",
+		es: "Hippopotas",
+		it: "Hippopotas",
+		pt: "Hippopotas",
+		de: "Hippopotas"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -45,6 +53,10 @@ const card: Card = {
 			name: {
 				en: "Rolling Tackle",
 				fr: "Roulé-Boulé",
+				es: "Placaje Giro",
+				it: "Rollazione",
+				pt: "Golpe de Colisão Rolante",
+				de: "Rolltackle"
 			},
 
 			damage: 50,

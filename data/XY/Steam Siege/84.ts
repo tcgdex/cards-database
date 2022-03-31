@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
 				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
 				it: "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
 				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",

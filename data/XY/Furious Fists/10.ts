@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Magmar",
 		fr: "Magmar",
+		es: "Magmar",
+		it: "Magmar",
+		pt: "Magmar",
+		de: "Magmar"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -43,10 +51,18 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
+				es: "Ascuas",
+				it: "Braciere",
+				pt: "Brasa",
+				de: "Glut"
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				es: "Descarta 1 Energía Fire unida a este Pokémon.",
+				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
+				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 

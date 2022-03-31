@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Koffing",
 		fr: "Smogo",
+		es: "Koffing",
+		it: "Koffing",
+		pt: "Koffing",
+		de: "Smogon"
 	},
 	stage: "Stage1",
 
@@ -44,12 +48,12 @@ const card: Card = {
 				de: "Ballonbombe"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, discard 2 cards from the top of your opponent’s deck.",
+				en: "Flip 2 coins. For each heads, discard 2 cards from the top of your opponent's deck.",
 				fr: "Lancez 2 pièces. Pour chaque côté face, défaussez 2 cartes du dessus du deck de votre adversaire.",
 				es: "Lanza 2 monedas. Por cada cara, descarta las 2 primeras cartas de la baraja de tu rival.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, scarta le prime due carte del mazzo del tuo avversario.",
 				pt: "Jogue 2 moedas. Para cada cara, descarte 2 cards de cima do baralho do seu oponente.",
-				de: "Wirf 2 Münzen. Lege pro „Kopf“ 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+				de: "Wirf 2 Münzen. Lege pro \"Kopf\" 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},

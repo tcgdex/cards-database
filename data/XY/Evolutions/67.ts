@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rattata",
 		fr: "Rattata",
+		es: "Rattata",
+		it: "Rattata",
+		pt: "Rattata",
+		de: "Rattfratz"
 	},
 	stage: "Stage1",
 
@@ -43,10 +47,10 @@ const card: Card = {
 				de: "Knirscher"
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
+				en: "Discard an Energy attached to your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 				es: "Descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				it: "Scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
 				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
@@ -59,14 +63,14 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadowy Bite",
-				fr: "Morsure d’Ombre",
+				fr: "Morsure d'Ombre",
 				es: "Mordisco Sombrío",
 				it: "Morso Oscuro",
 				pt: "Mordida das Trevas",
 				de: "Schattenbiss"
 			},
 			effect: {
-				en: "This attack does 60 damage times the number of Special Energy cards in your opponent’s discard pile.",
+				en: "This attack does 60 damage times the number of Special Energy cards in your opponent's discard pile.",
 				fr: "Cette attaque inflige 60 dégâts multipliés par le nombre de cartes Énergie spéciale dans la pile de défausse de votre adversaire.",
 				es: "Este ataque hace 60 puntos de daño por cada carta de Energía Especial en la pila de descartes de tu rival.",
 				it: "Questo attacco infligge 60 danni per ogni carta Energia speciale presente nella pila degli scarti del tuo avversario.",

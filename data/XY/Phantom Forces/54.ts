@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Mightyena",
 		fr: "Grahyèna",
+		es: "Mightyena",
+		it: "Mightyena",
+		pt: "Mightyena",
+		de: "Magnayen"
 	},
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Rare",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poochyena",
 		fr: "Medhyèna",
+		es: "Poochyena",
+		it: "Poochyena",
+		pt: "Poochyena",
+		de: "Fiffyen"
 	},
 	stage: "Stage1",
 
@@ -34,10 +42,18 @@ const card: Card = {
 			name: {
 				en: "Crunch",
 				fr: "Mâchouille",
+				es: "Triturar",
+				it: "Sgranocchio",
+				pt: "Mastigada",
+				de: "Knirscher"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -51,6 +67,10 @@ const card: Card = {
 			name: {
 				en: "Darkness Fang",
 				fr: "Croc Obscur",
+				es: "Colmillo de Oscuridad",
+				it: "Oscurizanna",
+				pt: "Presa Sombria",
+				de: "Fänge der Dunkelheit"
 			},
 
 			damage: 80,

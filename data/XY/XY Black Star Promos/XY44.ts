@@ -37,8 +37,8 @@ const card: Card = {
 				fr: "Force Diamant",
 			},
 			effect: {
-				en: "During your opponent’s next turn, prevent all damage done to each of your Pokémon by attacks from your opponent’s Pokémon-EX. (If this Pokémon is no longer your Active Pokémon, this effect ends.)",
-				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à chacun de vos Pokémon par les attaques des Pokémon-EX de votre adversaire. (Si ce Pokémon n’est plus votre Pokémon Actif, cet effet se termine.)"
+				en: "During your opponent's next turn, prevent all damage done to each of your Pokémon by attacks from your opponent's Pokémon-EX. (If this Pokémon is no longer your Active Pokémon, this effect ends.)",
+				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à chacun de vos Pokémon par les attaques des Pokémon-EX de votre adversaire. (Si ce Pokémon n'est plus votre Pokémon Actif, cet effet se termine.)"
 			},
 			damage: 100,
 

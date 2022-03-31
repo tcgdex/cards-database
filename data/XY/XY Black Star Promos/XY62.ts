@@ -32,8 +32,8 @@ const card: Card = {
 				fr: "Croc Obscurité",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard a random card from your opponent’s hand.",
-				fr: "Lancez une pièce. Si c’est face, défaussez au hasard une carte de la main de votre adversaire.",
+				en: "Flip a coin. If heads, discard a random card from your opponent's hand.",
+				fr: "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire.",
 			},
 			damage: 20,
 
@@ -48,7 +48,7 @@ const card: Card = {
 				en: "Dark Edge",
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
 			},
 			damage: 100,
 

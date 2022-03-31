@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Bidoof",
 		fr: "Keunotor",
+		es: "Bidoof",
+		it: "Bidoof",
+		pt: "Bidoof",
+		de: "Bidiza"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "None",
@@ -32,6 +36,10 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				es: "Desenrollar",
+				it: "Rotolamento",
+				pt: "Rolagem",
+				de: "Walzer"
 			},
 
 			damage: 60,

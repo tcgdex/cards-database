@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Xerneas",
 		fr: "Xerneas",
+		es: "Xerneas",
+		it: "Xerneas",
+		pt: "Xerneas",
+		de: "Xerneas"
 	},
 
 	stage: "BREAK",
@@ -49,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 20 damage times the amount of Energy attached to all of your Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d’Énergies attachées à tous vos Pokémon.",
+				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous vos Pokémon.",
 				es: "Este ataque hace 20 puntos de daño por cada Energía unida a todos tus Pokémon.",
 				it: "Questo attacco infligge 20 danni per ogni Energia assegnata ai tuoi Pokémon.",
 				pt: "Este ataque causa 20 de danos vezes a quantidade de Energia ligada a todos os seus Pokémon.",

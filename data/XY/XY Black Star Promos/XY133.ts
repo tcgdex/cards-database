@@ -33,8 +33,8 @@ const card: Card = {
 				fr: "Shuriken Dansant",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "Flip 3 coins. This attack does 20 damage times the number of heads to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 				fr: "Lame Ninja",
 			},
 			effect: {
-				en: "This Pokémon can’t use Ninja Blade during your next turn.",
+				en: "This Pokémon can't use Ninja Blade during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Lame Ninja pendant votre prochain tour.",
 			},
 			damage: 130,

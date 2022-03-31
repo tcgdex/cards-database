@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 cards and discard them. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu’à 2 cartes dans votre deck et défaussez-les. Mélangez ensuite votre deck.",
+				fr: "Cherchez jusqu'à 2 cartes dans votre deck et défaussez-les. Mélangez ensuite votre deck.",
 				es: "Busca en tu baraja hasta 2 cartas y descártalas. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo fino a due carte e scartale. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho até 2 cards e descarte-os. Em seguida, embaralhe seus cards.",

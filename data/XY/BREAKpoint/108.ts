@@ -3,7 +3,7 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Psychic’s Third Eye",
+		en: "Psychic's Third Eye",
 		fr: "Troisième Œil du Kinésiste",
 		es: "Tercer Ojo de Médium",
 		it: "Terzo Occhio del Sensitivo",

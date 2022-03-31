@@ -49,7 +49,7 @@ const card: Card = {
 				en: "Light Pulse",
 			},
 			effect: {
-				en: "Prevent all effects of your opponent’s attacks, except damage, done to this Pokémon during your opponent’s next turn.",
+				en: "Prevent all effects of your opponent's attacks, except damage, done to this Pokémon during your opponent's next turn.",
 			},
 			damage: 110,
 

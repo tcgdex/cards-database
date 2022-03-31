@@ -50,7 +50,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nurse’s Egg",
+				en: "Nurse's Egg",
 				fr: "Œuf Soin",
 			},
 			effect: {

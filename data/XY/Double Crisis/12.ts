@@ -3,7 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma’s Aron",
+		en: "Team Magma's Aron",
 		fr: "Galekid de la Team Magma",
 	},
 	illustrator: "Akira Komayama",

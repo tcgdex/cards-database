@@ -26,6 +26,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
+		es: "Nuzleaf",
+		it: "Nuzleaf",
+		pt: "Nuzleaf",
+		de: "Blanas"
 	},
 	stage: "Stage2",
 
@@ -44,8 +48,8 @@ const card: Card = {
 				de: "Arglistiger Wind"
 			},
 			effect: {
-				en: "Until the end of your opponent’s next turn, each Stadium or Pokémon Tool card in play has no effect. (This includes cards that come into play on that turn.)",
-				fr: "Jusqu’à la fin du prochain tour de votre adversaire, aucune des cartes Stade ou Outil Pokémon en jeu n’a d’effet. (Cela comprend les cartes qui sont en jeu pendant ce tour.)",
+				en: "Until the end of your opponent's next turn, each Stadium or Pokémon Tool card in play has no effect. (This includes cards that come into play on that turn.)",
+				fr: "Jusqu'à la fin du prochain tour de votre adversaire, aucune des cartes Stade ou Outil Pokémon en jeu n'a d'effet. (Cela comprend les cartes qui sont en jeu pendant ce tour.)",
 				es: "Hasta el final del próximo turno de tu rival, las cartas de Estadio o Herramienta Pokémon en juego no tienen efecto. (Esto incluye cartas que entran en juego durante ese turno).",
 				it: "Fino alla fine del prossimo turno del tuo avversario, nessuna delle carte Stadio e Oggetto Pokémon in gioco ha effetto (incluse le carte entrate in gioco in quel turno).",
 				pt: "Até o final da próxima vez de jogar do seu oponente, nenhum card de Estádio ou de Ferramenta Pokémon em jogo terá efeito. (Isso inclui os cards que entram em jogo naquela rodada.)",

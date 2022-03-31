@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kabuto",
 		fr: "Kabuto",
+		es: "Kabuto",
+		it: "Kabuto",
+		pt: "Kabuto",
+		de: "Kabuto"
 	},
 	stage: "Stage1",
 
@@ -44,7 +48,7 @@ const card: Card = {
 				de: "Klammern"
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
+				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
 				es: "Cura a este Pokémon el mismo número de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
 				it: "Cura questo Pokémon da una quantità di danni pari a quelli inflitti al Pokémon attivo del tuo avversario.",
@@ -70,11 +74,11 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 60 dégâts supplémentaires.",
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 60 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 60 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: "80+",
 

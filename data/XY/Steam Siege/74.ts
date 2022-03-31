@@ -40,7 +40,7 @@ const card: Card = {
 				de: "Rapidschutz"
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from Basic Pokémon during your opponent’s next turn. This Pokémon can’t use Quick Guard during your next turn.",
+				en: "Prevent all damage done to this Pokémon by attacks from Basic Pokémon during your opponent's next turn. This Pokémon can't use Quick Guard during your next turn.",
 				fr: "Évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base pendant le prochain tour de votre adversaire. Ce Pokémon ne peut pas utiliser Prévention pendant votre prochain tour.",
 				es: "Evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos durante el próximo turno de tu rival. Este Pokémon no puede usar Anticipo durante tu próximo turno.",
 				it: "Previeni tutti i danni da attacchi inflitti a questo Pokémon dai Pokémon Base durante il prossimo turno del tuo avversario. Durante il tuo prossimo turno, questo Pokémon non può usare Anticipo.",

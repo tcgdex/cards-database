@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Zekrom",
 		fr: "Zekrom",
+		es: "Zekrom",
+		it: "Zekrom",
+		pt: "Zekrom",
+		de: "Zekrom"
 	},
 	illustrator: "kawayoo",
 	rarity: "Rare",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Energy Stream",
 				fr: "Courant d'Énergie",
+				es: "Torrente de Energía",
+				it: "Getto d'Energia",
+				pt: "Fluxo de Energia",
+				de: "Energiestrom"
 			},
 			effect: {
 				en: "Attach a basic Energy card from your discard pile to this Pokémon.",
 				fr: "Attachez une carte Énergie de base de votre pile de défausse à ce Pokémon.",
+				es: "Une 1 carta de Energía Básica de tu pila de descartes a este Pokémon.",
+				it: "Assegna a questo Pokémon una carta Energia base dalla tua pila degli scarti.",
+				pt: "Ligue um card de Energia básica da sua pilha de descarte a este Pokémon.",
+				de: "Lege 1 Basis-Energiekarte von deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -48,6 +60,10 @@ const card: Card = {
 			name: {
 				en: "Electric Ball",
 				fr: "Boule de Foudre",
+				es: "Bola Eléctrica",
+				it: "Lamposfera",
+				pt: "Bola de Eletricidade",
+				de: "Stromball"
 			},
 
 			damage: 100,

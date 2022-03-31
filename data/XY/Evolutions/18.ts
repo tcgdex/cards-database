@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
+		es: "Growlithe",
+		it: "Growlithe",
+		pt: "Growlithe",
+		de: "Fukano"
 	},
 	stage: "Stage1",
 
@@ -66,7 +70,7 @@ const card: Card = {
 				de: "Sengender Atem"
 			},
 			effect: {
-				en: "This Pokémon can’t attack during your next turn.",
+				en: "This Pokémon can't attack during your next turn.",
 				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 				es: "Este Pokémon no puede atacar durante tu próximo turno.",
 				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",

@@ -47,7 +47,7 @@ const card: Card = {
 				fr: "Stop Θ",
 			},
 			effect: {
-				en: "If you have the same number of cards in your hand as your opponent, your opponent’s Active Pokémon is now Confused.",
+				en: "If you have the same number of cards in your hand as your opponent, your opponent's Active Pokémon is now Confused.",
 			},
 			damage: 40,
 

@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Floette",
 		fr: "Floette",
+		es: "Floette",
+		it: "Floette",
+		pt: "Floette",
+		de: "Floette"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Flabébé",
 		fr: "Flabébé",
+		es: "Flabébé",
+		it: "Flabébé",
+		pt: "Flabébé",
+		de: "Flabébé"
 	},
 	stage: "Stage1",
 
@@ -30,10 +38,18 @@ const card: Card = {
 			name: {
 				en: "Flower Veil",
 				fr: "Flora-Voile",
+				es: "Velo Flor",
+				it: "Fiorvelo",
+				pt: "Véu de Flores",
+				de: "Blütenhülle"
 			},
 			effect: {
 				en: "Each of your Grass Pokémon in play gets +20 HP.",
 				fr: "Ajoute 20 PV à chacun de vos Pokémon Grass en jeu.",
+				es: "Cada uno de tus Pokémon Grass en juego obtiene 20 PS más.",
+				it: "Tutti i tuoi Pokémon Grass in gioco hanno 20 PS in più.",
+				pt: "Cada um dos seus Pokémon Grass em jogo recebe +20 PS.",
+				de: "Jedes deiner Grass-Pokémon im Spiel erhält +20 KP."
 			},
 		},
 	],
@@ -45,6 +61,10 @@ const card: Card = {
 			name: {
 				en: "Fairy Wind",
 				fr: "Vent Féérique",
+				es: "Viento Feérico",
+				it: "Vento di Fata",
+				pt: "Vento de Fada",
+				de: "Feenbrise"
 			},
 
 			damage: 20,

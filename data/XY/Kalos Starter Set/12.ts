@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Froakie",
 		fr: "Grenousse",
+		es: "Froakie",
+		it: "Froakie",
+		pt: "Froakie",
+		de: "Froxy"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "None",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras’Face",
+				fr: "Écras'Face",
+				es: "Destructor",
+				it: "Botta",
+				pt: "Pancada",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Water Drip",
 				fr: "Goutte à Goutte",
+				es: "Goteo de Agua",
+				it: "Gocciolacqua",
+				pt: "Gotejo",
+				de: "Spritzwasser"
 			},
 
 			damage: 20,

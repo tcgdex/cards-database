@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Finneon",
 		fr: "Écayon",
+		es: "Finneon",
+		it: "Finneon",
+		pt: "Finneon",
+		de: "Finneon"
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Common",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras’Face",
+				fr: "Écras'Face",
+				es: "Destructor",
+				it: "Botta",
+				pt: "Pancada",
+				de: "Pfund"
 			},
 
 			damage: 10,

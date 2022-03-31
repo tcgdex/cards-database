@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litleo",
 		fr: "Hélionceau",
+		es: "Litleo",
+		it: "Litleo",
+		pt: "Litleo",
+		de: "Leufeo"
 	},
 	stage: "Stage1",
 
@@ -69,8 +73,8 @@ const card: Card = {
 				de: "Einäschern"
 			},
 			effect: {
-				en: "Before doing damage, discard all Pokémon Tool cards attached to your opponent’s Active Pokémon.",
-				fr: "Avant d’infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
+				en: "Before doing damage, discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
+				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
 				es: "Antes de infligir daño, descarta todas las cartas de Herramienta Pokémon unidas al Pokémon Activo de tu rival.",
 				it: "Prima di infliggere i danni, scarta tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario.",
 				pt: "Antes de causar danos, descarte todos os cards de Ferramenta Pokémon ligados ao Pokémon Ativo do seu oponente.",

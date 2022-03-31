@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Slugma",
 		fr: "Limagma",
+		es: "Slugma",
+		it: "Slugma",
+		pt: "Slugma",
+		de: "Schneckmag"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Grass Fire",
 				fr: "Feu de Brousse",
+				es: "Quemaplantas",
+				it: "Fuoco d'Erba",
+				pt: "Fogo de Grama",
+				de: "Pflanzenbrand"
 			},
 			effect: {
-				en: "Discard a Grass Energy attached to your opponent’s Active Pokémon.",
+				en: "Discard a Grass Energy attached to your opponent's Active Pokémon.",
 				fr: "Défaussez une Énergie Grass attachée au Pokémon Actif de votre adversaire.",
+				es: "Descarta 1 Energía Grass unida al Pokémon Activo de tu rival.",
+				it: "Scarta un'Energia Grass assegnata al Pokémon attivo del tuo avversario.",
+				pt: "Descarte uma Energia Grass ligada ao Pokémon Ativo do seu oponente.",
+				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Grass-Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -46,6 +58,10 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				es: "Apisonar",
+				it: "Carica",
+				pt: "Aríete",
+				de: "Ramme"
 			},
 
 			damage: 30,

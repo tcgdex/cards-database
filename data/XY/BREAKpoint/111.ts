@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Vínculo Espiritual de Scizor",
 		it: "Legame Mentale con Scizor",
 		pt: "Elo Espiritual de Scizor",
-		de: "Scherox’ Geistesbund"
+		de: "Scherox' Geistesbund"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Uncommon",

@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		es: "Charmeleon",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+		de: "Glutexo"
 	},
 	stage: "Stage2",
 
@@ -33,7 +37,7 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Energy Burn",
-				fr: "Dépense d’Énergie",
+				fr: "Dépense d'Énergie",
 				es: "Quema Energía",
 				it: "Bruciaenergia",
 				pt: "Energia Queimada",

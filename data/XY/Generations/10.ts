@@ -46,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nature’s Breath",
+				en: "Nature's Breath",
 				fr: "Souffle de la Nature",
 			},
 			effect: {

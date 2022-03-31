@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spritzee",
 		fr: "Fluvetin",
+		es: "Spritzee",
+		it: "Spritzee",
+		pt: "Spritzee",
+		de: "Parfi"
 	},
 	stage: "Stage1",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Schwindelerregendes Parfüm"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Pokémon-EX, this attack does 40 more damage.",
+				en: "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 40 more damage.",
 				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 40 dégâts supplémentaires.",
 				es: "Si el Pokémon Activo de tu rival es un Pokémon-EX, este ataque hace 40 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è un Pokémon-EX, questo attacco infligge 40 danni in più.",

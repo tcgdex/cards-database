@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Let’s Eat Together",
+				en: "Let's Eat Together",
 				fr: "Bon Appétit",
 			},
 			effect: {

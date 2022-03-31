@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Doublade",
 		fr: "Dimoclès",
+		es: "Doublade",
+		it: "Doublade",
+		pt: "Doublade",
+		de: "Duokles"
 	},
 	stage: "Stage2",
 
@@ -45,7 +49,7 @@ const card: Card = {
 				de: "Schwertschmerz"
 			},
 			effect: {
-				en: "Double the number of damage counters on each of your opponent’s Pokémon.",
+				en: "Double the number of damage counters on each of your opponent's Pokémon.",
 				fr: "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
 				es: "Dobla el número de contadores de daño en cada uno de los Pokémon de tu rival.",
 				it: "Raddoppia il numero di segnalini danno su ciascuno dei Pokémon del tuo avversario.",
@@ -70,8 +74,8 @@ const card: Card = {
 				de: "Megatonnenschlitzer"
 			},
 			effect: {
-				en: "This attack does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				en: "This attack does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Cette attaque inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				es: "Este ataque hace 10 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Questo attacco infligge 10 danni a due dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Este ataque causa 10 de danos a 2 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",

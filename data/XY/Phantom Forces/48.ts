@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Roggenrola",
 		fr: "Nodulithe",
+		es: "Roggenrola",
+		it: "Roggenrola",
+		pt: "Roggenrola",
+		de: "Kiesling"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -31,6 +35,10 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				es: "Placaje",
+				it: "Azione",
+				pt: "Investida",
+				de: "Tackle"
 			},
 
 			damage: 30,

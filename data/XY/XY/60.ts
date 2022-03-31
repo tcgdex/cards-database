@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
+		es: "Rhyhorn",
+		it: "Rhyhorn",
+		pt: "Rhyhorn",
+		de: "Rihorn"
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -30,10 +34,18 @@ const card: Card = {
 			name: {
 				en: "Dig Out",
 				fr: "Excavation",
+				es: "Cavar",
+				it: "Scavata",
+				pt: "Escavar",
+				de: "Freischaufeln"
 			},
 			effect: {
 				en: "Discard the top card of your deck. If that card is a Fighting Energy card, attach it to this Pokémon.",
-				fr: "Défaussez la carte du dessus de votre deck. Si c’est une carte Énergie Fighting, attachez-la à ce Pokémon.",
+				fr: "Défaussez la carte du dessus de votre deck. Si c'est une carte Énergie Fighting, attachez-la à ce Pokémon.",
+				es: "Descarta la primera carta de tu baraja. Si es una carta de Energía Fighting, únela a este Pokémon.",
+				it: "Scarta la carta in cima al tuo mazzo. Se è una carta Energia Fighting, assegnala a questo Pokémon.",
+				pt: "Descarte o card de cima do seu baralho. Se esse card for um card de Energia Fighting, ligue-o a este Pokémon.",
+				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Handelt es sich um eine Fighting-Energiekarte, lege sie an dieses Pokémon an."
 			},
 			damage: 10,
 
@@ -46,7 +58,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Drill",
-				fr: "Empal’Korne",
+				fr: "Empal'Korne",
+				es: "Perforador",
+				it: "Perforcorno",
+				pt: "Chifre Broca",
+				de: "Hornbohrer"
 			},
 
 			damage: 40,

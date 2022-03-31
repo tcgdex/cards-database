@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Honedge",
 		fr: "Monorpale",
+		es: "Honedge",
+		it: "Honedge",
+		pt: "Honedge",
+		de: "Gramokles"
 	},
 	stage: "Stage1",
 
@@ -44,7 +48,7 @@ const card: Card = {
 				de: "Tiefer Stich"
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent’s Active Pokémon.",
+				en: "Put 3 damage counters on your opponent's Active Pokémon.",
 				fr: "Placez 3 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
 				es: "Pon 3 contadores de daño en el Pokémon Activo de tu rival.",
 				it: "Metti tre segnalini danno sul Pokémon attivo del tuo avversario.",

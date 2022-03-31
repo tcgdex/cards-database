@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Raticate",
 		fr: "Rattatac",
+		es: "Raticate",
+		it: "Raticate",
+		pt: "Raticate",
+		de: "Rattikarl"
 	},
 
 	stage: "BREAK",
@@ -48,8 +52,8 @@ const card: Card = {
 				de: "Superzahn"
 			},
 			effect: {
-				en: "Put damage counters on your opponent’s Active Pokémon until its remaining HP is 10.",
-				fr: "Placez des marqueurs de dégâts sur le Pokémon Actif de votre adversaire jusqu’à ce qu’il ait 10 PV.",
+				en: "Put damage counters on your opponent's Active Pokémon until its remaining HP is 10.",
+				fr: "Placez des marqueurs de dégâts sur le Pokémon Actif de votre adversaire jusqu'à ce qu'il ait 10 PV.",
 				es: "Pon contadores de daño en el Pokémon Activo de tu rival hasta que le queden 10 PS restantes.",
 				it: "Metti dei segnalini danno sul Pokémon attivo del tuo avversario finché i suoi PS rimanenti diventano 10.",
 				pt: "Coloque contadores de danos no Pokémon Ativo do seu oponente até seu PS restante ser 10.",

@@ -10,19 +10,21 @@ const card: Card = {
 		pt: "Mewtwo EX",
 		de: "Mewtu EX"
 	},
+
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
-
 	set: Set,
+
 	dexId: [
 		150,
 	],
+
 	hp: 180,
+
 	types: [
 		"Psychic",
 	],
-
 
 	suffix: "EX",
 
@@ -33,7 +35,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Absorption",
-				fr: "Absorption d’énergie",
+				fr: "Absorption d'énergie",
 				es: "Absorción de Energía",
 				it: "Assorbienergia",
 				pt: "Absorção de Energia",
@@ -91,6 +93,7 @@ const card: Card = {
 
 		},
 	],
+
 	weaknesses: [
 		{
 			type: "Psychic",
@@ -99,9 +102,7 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-
-
+	stage: "Basic"
 }
 
 export default card

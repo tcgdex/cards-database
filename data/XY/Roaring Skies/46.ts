@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Togekiss",
 		fr: "Togekiss",
+		es: "Togekiss",
+		it: "Togekiss",
+		pt: "Togekiss",
+		de: "Togekiss"
 	},
 	illustrator: "PLANETA",
 	rarity: "Rare",
@@ -21,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Togetic",
 		fr: "Togetic",
+		es: "Togetic",
+		it: "Togetic",
+		pt: "Togetic",
+		de: "Togetic"
 	},
 	stage: "Stage2",
 
@@ -56,6 +64,10 @@ const card: Card = {
 			name: {
 				en: "Fairy Wind",
 				fr: "Vent Féérique",
+				es: "Viento Feérico",
+				it: "Vento di Fata",
+				pt: "Vento de Fada",
+				de: "Feenbrise"
 			},
 
 			damage: 60,

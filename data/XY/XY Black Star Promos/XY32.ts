@@ -34,8 +34,8 @@ const card: Card = {
 				fr: "Crash Aérien",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 50,
 
@@ -49,7 +49,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wings of Destruction",
-				fr: "Ailes de l’Annihilation",
+				fr: "Ailes de l'Annihilation",
 			},
 			effect: {
 				en: "If your opponent has Xerneas (including Xerneas-EX) in play, this attack does 40 more damage.",

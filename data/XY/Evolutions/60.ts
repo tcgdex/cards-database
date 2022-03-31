@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machamp",
 		fr: "Mackogneur",
+		es: "Machamp",
+		it: "Machamp",
+		pt: "Machamp",
+		de: "Machomei"
 	},
 
 	stage: "BREAK",
@@ -49,7 +53,7 @@ const card: Card = {
 				de: "Bumeranglasso"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s attacks do 100 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
+				en: "During your next turn, this Pokémon's attacks do 100 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, les attaques de ce Pokémon infligent 100 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 				es: "Durante tu próximo turno, los ataques de este Pokémon hacen 100 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Durante il tuo prossimo turno, gli attacchi di questo Pokémon infliggono 100 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",

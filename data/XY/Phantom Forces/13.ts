@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Krabby",
 		fr: "Krabby",
+		es: "Krabby",
+		it: "Krabby",
+		pt: "Krabby",
+		de: "Krabby"
 	},
 	illustrator: "kirisAki",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Vice Grip",
 				fr: "Force Poigne",
+				es: "Agarre",
+				it: "Presa",
+				pt: "Agarramento Viciado",
+				de: "Klammer"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Crabhammer",
 				fr: "Pince-Masse",
+				es: "Martillazo",
+				it: "Martellata",
+				pt: "Martelo Caranguejo",
+				de: "Krabbhammer"
 			},
 
 			damage: 50,

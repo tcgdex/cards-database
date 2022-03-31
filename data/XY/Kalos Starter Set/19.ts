@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		es: "Pawniard",
+		it: "Pawniard",
+		pt: "Pawniard",
+		de: "Gladiantri"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "None",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercement",
+				es: "Perforar",
+				it: "Perforare",
+				pt: "Perfurar",
+				de: "Durchbohren"
 			},
 
 			damage: 10,
@@ -43,6 +51,10 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				es: "Corte",
+				it: "Taglio",
+				pt: "Cortar",
+				de: "Zerschneider"
 			},
 
 			damage: 20,

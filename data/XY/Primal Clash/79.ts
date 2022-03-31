@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Meditite",
 		fr: "Méditikka",
+		es: "Meditite",
+		it: "Meditite",
+		pt: "Meditite",
+		de: "Meditie"
 	},
 	illustrator: "sui",
 	rarity: "Common",
@@ -30,6 +34,10 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				es: "Palmetazo",
+				it: "Schiaffo",
+				pt: "Estalo",
+				de: "Klatscher"
 			},
 
 			damage: 20,

@@ -28,12 +28,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Land’s Pulse",
+				en: "Land's Pulse",
 				fr: "Vibration Terrestre",
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 20 more damage.",
-				fr: "S’il y a une carte Stade en jeu, cette attaque inflige 20 dégâts supplémentaires.",
+				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: "20+",
 
@@ -61,7 +61,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land’s Wrath",
+				en: "Land's Wrath",
 				fr: "Force Chtonienne",
 			},
 

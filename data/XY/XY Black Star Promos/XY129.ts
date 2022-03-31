@@ -33,7 +33,7 @@ const card: Card = {
 				en: "Rumble",
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 			},
 			damage: 30,
 
@@ -48,7 +48,7 @@ const card: Card = {
 				en: "Geostrike",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 120,
 

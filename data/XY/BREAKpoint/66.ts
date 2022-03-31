@@ -29,6 +29,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trevenant",
 		fr: "Desséliande",
+		es: "Trevenant",
+		it: "Trevenant",
+		pt: "Trevenant",
+		de: "Trombork"
 	},
 
 	stage: "BREAK",
@@ -48,7 +52,7 @@ const card: Card = {
 				de: "Stille Angst"
 			},
 			effect: {
-				en: "Put 3 damage counters on each of your opponent’s Pokémon.",
+				en: "Put 3 damage counters on each of your opponent's Pokémon.",
 				fr: "Placez 3 marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
 				es: "Pon 3 contadores de daño en cada uno de los Pokémon de tu rival.",
 				it: "Metti tre segnalini danno su ciascuno dei Pokémon del tuo avversario.",

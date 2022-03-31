@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Makuhita",
 		fr: "Makuhita",
+		es: "Makuhita",
+		it: "Makuhita",
+		pt: "Makuhita",
+		de: "Makuhita"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -29,7 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Koud’Poing",
+				fr: "Koud'Poing",
+				es: "Puño",
+				it: "Pugno",
+				pt: "Soco",
+				de: "Boxhieb"
 			},
 
 			damage: 10,
@@ -44,6 +52,10 @@ const card: Card = {
 			name: {
 				en: "Strength",
 				fr: "Force",
+				es: "Fuerza",
+				it: "Forza",
+				pt: "Força",
+				de: "Stärke"
 			},
 
 			damage: 40,

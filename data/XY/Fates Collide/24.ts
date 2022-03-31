@@ -33,7 +33,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Extract",
-				fr: "Extraction d’Énergie",
+				fr: "Extraction d'Énergie",
 				es: "Extracción de Energía",
 				it: "Estrazione Energia",
 				pt: "Extrair Energia",
@@ -63,7 +63,7 @@ const card: Card = {
 				de: "Plasmagie"
 			},
 			effect: {
-				en: "Move 2 damage counters from each of your Pokémon to your opponent’s Active Pokémon.",
+				en: "Move 2 damage counters from each of your Pokémon to your opponent's Active Pokémon.",
 				fr: "Déplacez 2 marqueurs de dégâts de chacun de vos Pokémon vers le Pokémon Actif de votre adversaire.",
 				es: "Mueve 2 contadores de daño de cada uno de tus Pokémon al Pokémon Activo de tu rival.",
 				it: "Sposta due segnalini danno da ciascuno dei tuoi Pokémon al Pokémon attivo del tuo avversario.",

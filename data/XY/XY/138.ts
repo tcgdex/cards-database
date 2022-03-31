@@ -5,6 +5,10 @@ const card: Card = {
 	name: {
 		en: "Darkness Energy",
 		fr: "Énergie Obscurité",
+		es: "Energía Oscura",
+		it: "Energia Oscurità",
+		pt: "Energia de Escuridão",
+		de: "Finsternis-Energie"
 	},
 	illustrator: undefined,
 	rarity: "Common",
@@ -13,9 +17,6 @@ const card: Card = {
 	set: Set,
 
 
-
-
-	stage: "Basic",
 
 
 

@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litwick",
 		fr: "Funécire",
+		es: "Litwick",
+		it: "Litwick",
+		pt: "Litwick",
+		de: "Lichtel"
 	},
 	stage: "Stage1",
 
@@ -44,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Each player either draws or discards cards until that player has 4 cards in his or her hand. (Your opponent does this first.)",
-				fr: "Chaque joueur pioche ou défausse des cartes jusqu’à avoir 4 cartes dans sa main. (Votre adversaire le fait en premier.)",
+				fr: "Chaque joueur pioche ou défausse des cartes jusqu'à avoir 4 cartes dans sa main. (Votre adversaire le fait en premier.)",
 				es: "Cada jugador roba o descarta cartas hasta tener 4 cartas en su mano. (Tu rival lo hace primero).",
 				it: "Ciascun giocatore pesca o scarta carte fino ad avere quattro carte in mano. Inizia il tuo avversario.",
 				pt: "Cada jogador compra ou descarta cards até ter 4 cards na mão dele(a). (Seu oponente faz isso primeiro.)",
@@ -66,7 +70,7 @@ const card: Card = {
 				de: "Züngelnde Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
+				en: "Your opponent's Active Pokémon is now Asleep.",
 				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Il Pokémon attivo del tuo avversario viene addormentato.",

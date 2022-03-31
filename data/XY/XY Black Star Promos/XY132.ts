@@ -32,7 +32,7 @@ const card: Card = {
 				en: "Sleep Poison",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Asleep and Poisoned.",
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.",
 			},
 
 		},

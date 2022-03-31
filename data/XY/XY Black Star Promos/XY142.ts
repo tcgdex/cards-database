@@ -45,7 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Bend",
-				fr: "Contrôleur d’Esprit",
+				fr: "Contrôleur d'Esprit",
 			},
 			effect: {
 				en: "Your opponent's Active Pokémon is now Confused.",

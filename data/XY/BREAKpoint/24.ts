@@ -25,6 +25,10 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shellder",
 		fr: "Kokiyas",
+		es: "Shellder",
+		it: "Shellder",
+		pt: "Shellder",
+		de: "Muschas"
 	},
 	stage: "Stage1",
 
@@ -43,7 +47,7 @@ const card: Card = {
 				de: "Zuschnappen"
 			},
 			effect: {
-				en: "If this Pokémon evolved from Shellder during this turn, your opponent’s Active Pokémon is now Paralyzed.",
+				en: "If this Pokémon evolved from Shellder during this turn, your opponent's Active Pokémon is now Paralyzed.",
 				fr: "Si ce Pokémon a évolué de Kokiyas pendant ce tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 				es: "Si este Pokémon ha evolucionado de Shellder durante este turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Se questo Pokémon si è evoluto da Shellder durante questo turno, il Pokémon attivo del tuo avversario viene paralizzato.",
