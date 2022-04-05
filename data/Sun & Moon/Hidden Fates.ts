@@ -6,7 +6,7 @@ const sm115: Set = {
 
 	name: {
 		en: "Hidden Fates",
-		fr: "Destinnées Occultes",
+		fr: "Destinées Occultes",
 		es: "Destinos Ocultos",
 		it: "Destino Sfuggente",
 		de: "Verborgenes Schicksal",
