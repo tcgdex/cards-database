@@ -20,7 +20,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Metagross-EX",
-		fr: "Métalosse-EEX",
+		fr: "Métalosse-EX",
 	},
 	stage: "MEGA",
 
