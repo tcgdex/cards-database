@@ -10,10 +10,25 @@ const middleware = <Q extends Record<string, any> = Record<string, any>>(fn: (la
 	_: any,
 	e: any
 ) => {
-	let lang = e?.fieldNodes?.[0]?.directives?.[0]?.arguments?.[0]?.value?.value
-	if (!lang) {
-		lang = 'en'
+
+	// get the locale directive
+	const langArgument = e?.fieldNodes?.[0]?.directives?.[0]?.arguments?.[0]?.value
+
+	// if there is no locale directive
+	if (!langArgument) {
+		return fn('en', data)
 	}
+
+	// set default locale directive value
+	let lang = 'en'
+
+	// handle variable for directive value
+	if (langArgument.kind === 'Variable') {
+		lang = e.variableValues[langArgument.name.value]
+	} else {
+		lang = langArgument.value
+	}
+
 	if (!checkLanguage(lang)) {
 		return undefined
 	}
