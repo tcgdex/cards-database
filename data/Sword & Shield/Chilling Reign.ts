@@ -15,7 +15,7 @@ const set: Set = {
 
 
 	cardCount: { // NOT confirmed
-		official: 190
+		official: 198
 	},
 
 	releaseDate: "2021-06-18"
