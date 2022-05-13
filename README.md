@@ -57,7 +57,7 @@ There is three sub folders that will allow you to edit some faces of the databas
 
 We are making sure to make every cards available for every languages they were available !
 
-![TCGdex Progress](https://api.tcgdex.net/status/github.svg)
+[![TCGdex Progress](https://api.tcgdex.net/status/github.svg)](https://api.tcgdex.net/status)
 
 _want to help translating? each object fields on cards that have at least en,fr,es,de,it or pt can have the others!,_
 _Also we have another translation files located at `meta/translations`_
