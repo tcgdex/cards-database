@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Voltorb"
+		en: "Hisuian Voltorb",
+		fr: "Voltorbe de Hisui",
+		es: "Voltorb de Hisui",
+		it: "Voltorb di Hisui",
+		pt: "Voltorb de Hisui",
+		de: "Hisui Voltobal"
 	},
 
 	rarity: "Common",

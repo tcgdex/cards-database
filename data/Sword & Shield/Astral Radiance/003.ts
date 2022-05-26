@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Electrode"
+		en: "Hisuian Electrode",
+		fr: "Électrode de Hisui",
+		es: "Electrode de Hisui",
+		it: "Electrode di Hisui",
+		pt: "Electrode de Hisui",
+		de: "Hisui-Lektrobal"
 	},
 
 	rarity: "Uncommon",

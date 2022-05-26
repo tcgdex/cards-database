@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Heavy Ball"
+		en: "Hisuian Heavy Ball",
+		fr: "Masse Ball de Hisui",
+		es: "Peso Ball de Hisui",
+		it: "Peso Ball di Hisui",
+		pt: "Bola Pesada de Hisui",
+		de: "Hisui-Schwerball"
 	},
 
 	rarity: "Uncommon",

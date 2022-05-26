@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Double Turbo Energy"
+		en: "Double Turbo Energy",
+		fr: "Énergie Double Turbo",
+		es: "Doble Energía Turbo",
+		it: "Energia Turbo Doppia",
+		pt: "Energia Turbo Dupla",
+		de: "Doppel-Turbo-Energie"
 	},
 
 	rarity: "Secret Rare",

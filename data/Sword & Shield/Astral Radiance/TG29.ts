@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ice Rider Calyrex VMAX"
+		en: "Ice Rider Calyrex VMAX",
+		fr: "Sylveroy Cavalier du Froid VMAX",
+		es: "Calyrex Jinete Glacial VMAX",
+		it: "Calyrex Cavaliere Glaciale VMAX",
+		pt: "Calyrex Cavaleiro Glacial VMAX",
+		de: "Schimmelreiter-Coronospa VMAX"
 	},
 
 	rarity: "Secret Rare",

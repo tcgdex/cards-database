@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Obstagoon"
+		en: "Galarian Obstagoon",
+		fr: "Ixon de Galar",
+		es: "Obstagoon de Galar",
+		it: "Obstagoon di Galar",
+		pt: "Obstagoon de Galar",
+		de: "Galar-Barrikadax"
 	},
 
 	rarity: "Rare",

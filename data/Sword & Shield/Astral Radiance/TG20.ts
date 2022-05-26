@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Moltres V"
+		en: "Galarian Moltres V",
+		fr: "Sulfura de Galar V",
+		es: "Moltres de Galar V",
+		it: "Moltres di Galar V",
+		pt: "Moltres de Galar V",
+		de: "Galar-Lavados V"
 	},
 
 	rarity: "Ultra Rare",

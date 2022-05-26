@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Origin Forme Dialga VSTAR"
+		en: "Origin Forme Dialga VSTAR",
+		fr: "Dialga Originel VSTAR",
+		es: "Dialga Origen V-ASTRO",
+		it: "Dialga Originale V ASTRO",
+		pt: "Dialga Forma Origem V-ASTRO",
+		de: "Ur-Dialga VSTAR"
 	},
 
 	rarity: "Secret Rare",

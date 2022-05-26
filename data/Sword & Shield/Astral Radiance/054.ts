@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Typhlosion VSTAR"
+		en: "Hisuian Typhlosion VSTAR",
+		fr: "Typhlosion de Hisui VSTAR",
+		es: "Typhlosion de Hisui V-ASTRO",
+		it: "Typhlosion di Hisui V ASTRO",
+		pt: "Typhlosion de Hisui V-ASTRO",
+		de: "Hisui-Tornupto VSTAR"
 	},
 
 	rarity: "Ultra Rare",

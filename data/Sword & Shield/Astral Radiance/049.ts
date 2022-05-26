@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Mr. Rime V"
+		en: "Galarian Mr. Rime V",
+		fr: "M. Glaquette de Galar V",
+		es: "Mr. Rime de Galar V",
+		it: "Mr. Rime di Galar V",
+		pt: "Mr. Rime de Galar V",
+		de: "Galar-Pantifrost V"
 	},
 
 	rarity: "Ultra Rare",

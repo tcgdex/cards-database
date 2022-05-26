@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Choice Belt"
+		en: "Choice Belt",
+		fr: "Ceinture Choix",
+		es: "Cinturón Elección",
+		it: "Cinturascelta",
+		pt: "Cinturão da Escolha",
+		de: "Wahlgürtel"
 	},
 
 	rarity: "Secret Rare",

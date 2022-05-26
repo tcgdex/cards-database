@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Energy Loto"
+		en: "Energy Loto",
+		fr: "Loterie d'Énergie",
+		es: "Loto Energía",
+		it: "Lotteria Energia",
+		pt: "Loto Energia",
+		de: "Energielotterie"
 	},
 
 	rarity: "Uncommon",

@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Arcanine"
+		en: "Hisuian Arcanine",
+		fr: "Arcanin de Hisui",
+		es: "Arcanine de Hisui",
+		it: "Arcanine di Hisui",
+		pt: "Arcanine de Hisui",
+		de: "Hisui-Arkani"
 	},
 
 	rarity: "Rare",

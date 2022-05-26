@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jubilife Village"
+		en: "Jubilife Village",
+		fr: "Rusti-Cité",
+		es: "Villa Jubileo",
+		it: "Villaggio Giubilo",
+		pt: "Vilarejo de Jubilife",
+		de: "Jubeldorf"
 	},
 
 	rarity: "Secret Rare",

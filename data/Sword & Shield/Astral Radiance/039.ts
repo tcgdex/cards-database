@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Origin Forme Palkia V"
+		en: "Origin Forme Palkia V",
+		fr: "Palkia Originel V",
+		es: "Palkia Origen V",
+		it: "Palkia Originale V",
+		pt: "Palkia Forma Origem V",
+		de: "Ur-Palkia V"
 	},
 
 	rarity: "Ultra Rare",

@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Samurott"
+		en: "Hisuian Samurott",
+		fr: "Clamiral de Hisui",
+		es: "Samurott de Hisui",
+		it: "Samurott di Hisui",
+		pt: "Samurott de Hisui",
+		de: "Hisui-Admurai"
 	},
 
 	rarity: "Rare",

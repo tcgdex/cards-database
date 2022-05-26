@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trekking Shoes"
+		en: "Trekking Shoes",
+		fr: "Chaussures de Randonnée",
+		es: "Botas de Expedición",
+		it: "Scarpe da trekking",
+		pt: "Tênis de Caminhada",
+		de: "Trekkingschuhe"
 	},
 
 	rarity: "Uncommon",

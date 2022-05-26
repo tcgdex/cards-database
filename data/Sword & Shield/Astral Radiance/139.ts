@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dark Patch"
+		en: "Dark Patch",
+		fr: "Fortifiant Obscur",
+		es: "Refuerzo Oscuro",
+		it: "Distintivo Oscuro",
+		pt: "Fragmento Sombrio",
+		de: "Finsterpflaster"
 	},
 
 	rarity: "Uncommon",

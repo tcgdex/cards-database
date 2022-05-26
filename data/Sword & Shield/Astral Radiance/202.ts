@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gardenia's Vigor"
+		en: "Gardenia's Vigor",
+		fr: "Vitalité de Flo",
+		es: "Vigor de Gardenia",
+		it: "Vigore di Gardenia",
+		pt: "Vigor da Gardênia",
+		de: "Silvanas Vitalität"
 	},
 
 	rarity: "Secret Rare",

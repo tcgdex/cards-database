@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Radiant Hawlucha"
+		en: "Radiant Hawlucha",
+		fr: "Brutalibré Radieux",
+		es: "Hawlucha Radiante",
+		it: "Hawlucha Lucente",
+		pt: "Hawlucha Radiante",
+		de: "Strahlendes Resladero"
 	},
 
 	rarity: "Ultra Rare",

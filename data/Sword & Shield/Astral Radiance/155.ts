@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Temple of Sinnoh"
+		en: "Temple of Sinnoh",
+		fr: "Temple de Sinnoh",
+		es: "Templo de Sinnoh",
+		it: "Tempio di Sinnoh",
+		pt: "Templo de Sinnoh",
+		de: "Sinnoh-Tempel"
 	},
 
 	rarity: "Uncommon",

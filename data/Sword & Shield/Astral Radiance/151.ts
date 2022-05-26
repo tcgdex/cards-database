@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spicy Seasoned Curry"
+		en: "Spicy Seasoned Curry",
+		fr: "Curry Épicé aux Piments",
+		es: "Curri Picante Especiado",
+		it: "Curry piccante alle spezie",
+		pt: "Curry Temperado e Apimentado",
+		de: "Scharfes Gewürzcurry"
 	},
 
 	rarity: "Uncommon",

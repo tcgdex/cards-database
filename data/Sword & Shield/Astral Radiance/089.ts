@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Qwilfish"
+		en: "Hisuian Qwilfish",
+		fr: "Qwilfish de Hisui",
+		es: "Qwilfish de Hisui",
+		it: "Qwilfish di Hisui",
+		pt: "Qwilfish de Hisui",
+		de: "Hisui-Baldorfish"
 	},
 
 	rarity: "Common",

@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Lilligant VSTAR"
+		en: "Hisuian Lilligant VSTAR",
+		fr: "Fragilady de Hisui VSTAR",
+		es: "Lilligant de Hisui V-ASTRO",
+		it: "Lilligant di Hisui V ASTRO",
+		pt: "Lilligant de Hisui V-ASTRO",
+		de: "Hisui-Dressella VSTAR"
 	},
 
 	rarity: "Secret Rare",

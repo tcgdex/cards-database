@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Overqwil"
+		en: "Hisuian Overqwil",
+		fr: "Qwilpik de Hisui",
+		es: "Overqwil de Hisui",
+		it: "Overqwil di Hisui",
+		pt: "Overqwil de Hisui",
+		de: "Hisui-Myriador"
 	},
 
 	rarity: "Uncommon",

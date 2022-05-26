@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Canceling Cologne"
+		en: "Canceling Cologne",
+		fr: "Parfum Inhibiteur",
+		es: "Colonia Neutralizadora",
+		it: "Colonia di Annullamento",
+		pt: "Colônia Anuladora",
+		de: "Neutralisierendes Parfüm"
 	},
 
 	rarity: "Uncommon",

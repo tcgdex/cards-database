@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Sneasel"
+		en: "Hisuian Sneasel",
+		fr: "Farfuret de Hisui",
+		es: "Sneasel de Hisui",
+		it: "Sneasel di Hisui",
+		pt: "Sneasel de Hisui",
+		de: "Hisui-Sniebel"
 	},
 
 	rarity: "Common",

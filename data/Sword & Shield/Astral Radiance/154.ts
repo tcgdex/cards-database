@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Switch Cart"
+		en: "Switch Cart",
+		fr: "Chariot Échange",
+		es: "Carrito de Cambio",
+		it: "Carretto di Scambio",
+		pt: "Carrinho de Substituição",
+		de: "Tauschwagen"
 	},
 
 	rarity: "Uncommon",

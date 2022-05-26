@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shadow Rider Calyrex V"
+		en: "Shadow Rider Calyrex V",
+		fr: "Sylveroy Cavalier d'Effroi V",
+		es: "Calyrex Jinete Espectral V",
+		it: "Calyrex Cavaliere Spettrale V",
+		pt: "Calyrex Cavaleiro Espectral V",
+		de: "Rappenreiter-Coronospa V"
 	},
 
 	rarity: "Ultra Rare",

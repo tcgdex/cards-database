@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gapejaw Bog"
+		en: "Gapejaw Bog",
+		fr: "Marais Bouchebée",
+		es: "Ciénaga Bocazas",
+		it: "Palude Boccalarga",
+		pt: "Brejo Gapejaw",
+		de: "Großmaulmoor"
 	},
 
 	rarity: "Uncommon",

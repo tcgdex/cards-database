@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Diancie"
+		en: "Diancie",
+		fr: "Diancie",
+		es: "Diancie",
+		it: "Diancie",
+		pt: "Diancie",
+		de: "Diancie"
 	},
 
 	rarity: "Rare",

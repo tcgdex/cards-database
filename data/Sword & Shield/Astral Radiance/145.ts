@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gutsy Pickaxe"
+		en: "Gutsy Pickaxe",
+		fr: "Piolet Courageux",
+		es: "Piqueta Atrevida",
+		it: "Piccone Baldo",
+		pt: "Picareta Corajosa",
+		de: "Mutige Spitzhacke"
 	},
 
 	rarity: "Uncommon",

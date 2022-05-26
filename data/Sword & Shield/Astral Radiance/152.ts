@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Supereffective Glasses"
+		en: "Supereffective Glasses",
+		fr: "Lunettes Super Efficaces",
+		es: "Gafas Supereficaces",
+		it: "Occhiali Superefficaci",
+		pt: "Óculos Supereficazes",
+		de: "Sehr effektive Brille"
 	},
 
 	rarity: "Uncommon",

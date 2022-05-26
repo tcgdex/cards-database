@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wait and See Turbo"
+		en: "Wait and See Turbo",
+		fr: "Turbo Patience",
+		es: "Turbo Espera y Verás",
+		it: "Turbo Tattico",
+		pt: "Esperar para Ver Turbo",
+		de: "Geduldturbo"
 	},
 
 	rarity: "Uncommon",

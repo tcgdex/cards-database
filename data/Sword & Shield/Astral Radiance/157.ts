@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Unidentified Fossil"
+		en: "Unidentified Fossil",
+		fr: "Fossile Inconnu",
+		es: "Fósil Desconocido",
+		it: "Fossile Sconosciuto",
+		pt: "Fóssil Não Identificado",
+		de: "Unbekanntes Fossil"
 	},
 
 	rarity: "Uncommon",

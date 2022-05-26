@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Radiant Greninja"
+		en: "Radiant Greninja",
+		fr: "Amphinobi Radieux",
+		es: "Greninja Radiante",
+		it: "Greninja Lucente",
+		pt: "Greninja Radiante",
+		de: "Strahlendes Quajutsu"
 	},
 
 	rarity: "Ultra Rare",

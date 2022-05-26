@@ -5,7 +5,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Path to the Peak"
+		en: "Path to the Peak",
+		fr: "Sentier Blanche-Cime",
+		es: "Senda Blancacima",
+		it: "Sentiero Biancacima",
+		pt: "Trilha para o Cume",
+		de: "Schneegipfelpfad"
 	},
 
 	rarity: "Secret Rare",
