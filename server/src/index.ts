@@ -19,7 +19,7 @@ server.use((_, res, next) => {
 })
 
 server.get('/', (_, res) => {
-	res.redirect('https://www.tcgdex.net/docs?ref=api.tcgdex.net')
+	res.redirect('https://www.tcgdex.dev/?ref=api.tcgdex.net')
 })
 
 server.use(express.static('./public'))
