@@ -3,6 +3,7 @@ import { setToSetSimple } from './setUtil'
 import { cardIsLegal, DB_PATH, fetchRemoteFile, smartGlob } from './util'
 import { Set, SupportedLanguages, Card, Types } from '../../../interfaces'
 import { Card as CardSingle, CardResume } from '../../../meta/definitions/api'
+import { exec } from 'child_process'
 import translate from './translationUtil'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
@@ -106,8 +107,8 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		legal: {
 			standard: cardIsLegal('standard', card, localId),
 			expanded: cardIsLegal('expanded', card, localId)
-		}
-
+		},
+		updated: await getCardLastEdit(localId, card)
 	}
 }
 
@@ -156,5 +157,21 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 			return ra - rb
 		}
 		return a >= b ? 1 : -1
+	})
+}
+
+async function getCardLastEdit(localId: string, card: Card): Promise<string> {
+	const path = `../data/${card.set.serie.name.en}/${card.set.name.en}/${localId}.ts`
+	const command = `git log -1 --pretty="format:%ci" "${path}"`
+	// console.log(command)
+	return new Promise((res, rej) => {
+		exec(command, (err, out, _) => {
+			// console.log(err, out)
+			if (err) {
+				rej(err)
+				return
+			}
+			res(out)
+		})
 	})
 }

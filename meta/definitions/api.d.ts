@@ -261,7 +261,9 @@ export interface Card extends CardResume {
 		 * Ability to play in expanded tournaments
 		 */
 		expanded: boolean;
-	};
+	}
+
+	updated: string
 }
 
 /**

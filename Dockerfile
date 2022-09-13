@@ -2,6 +2,10 @@ FROM node:alpine as BUILD_IMAGE
 
 WORKDIR /app
 
+# Add git as it is used to fetch updated times
+RUN apk add git
+
+# prepare dependencies
 ADD package.json package-lock.json ./
 ADD server/package.json server/package-lock.json ./server/
 
