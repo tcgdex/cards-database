@@ -161,7 +161,7 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 }
 
 async function getCardLastEdit(localId: string, card: Card): Promise<string> {
-	const path = `../data/${card.set.serie.name.en}/${card.set.name.en}/${localId}.ts`
+	const path = `../data/${card.set.serie.name.en}/${card.set.name.en ?? card.set.name.fr}/${localId}.ts`
 	const command = `git log -1 --pretty="format:%ci" "${path}"`
 	// console.log(command)
 	return new Promise((res, rej) => {
