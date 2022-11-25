@@ -39,7 +39,7 @@ const endpointToField: Record<string, keyof SDKCard> = {
 // 	})
 
 server
-	.use(apicache.middleware('1 day', undefined, {}))
+	.use(apicache.middleware('1 day', (req: Request, res: Response) => req.method === 'GET', {}))
 
 
 
