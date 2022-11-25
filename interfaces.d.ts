@@ -12,42 +12,7 @@ export interface Serie {
 	energies?: Array<Types>
 }
 
-interface variants {
-	/**
-	 * Card base version
-	 */
-	normal?: boolean
-	/**
-	 * Holo Reverse
-	 * (colored Background holographic)
-	 */
-	reverse?: boolean
-	/**
-	 * Holo Card
-	 * (illustration holographic)
-	 */
-	holo?: boolean
-
-	/**
-	 * can have a first Edition stamp
-	 */
-	firstEdition?: boolean
-
-	/**
-	 * Can be found in Jumob Format
-	 */
-	jumbo?: boolean
-
-	/**
-	 * Card has a pre-release stamp
-	 */
-	preRelease?: boolean
-
-	/**
-	 * Card has a W stamp
-	 */
-	wPromo?: true
-}
+type Variants = 'Standard' | 'Parallel Foil' | 'Standard Foil' | 'First Edition' | 'Jumbo' | 'Pre-Release' | 'W-Promo'
 
 export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
 'Fairy' | 'Fighting' | 'Fire' |
@@ -133,9 +98,9 @@ export interface Card {
 	category: 'Pokemon' | 'Trainer' | 'Energy'
 
 	/**
-	 * Card Variants (Override Set Variants)
+	 * Card Variants
 	 */
-	variants?: variants
+	variants?: Array<Variants>
 
 	/**
 	 * Card Set
