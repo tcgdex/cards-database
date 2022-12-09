@@ -21,7 +21,7 @@ server.use((_, res, next) => {
 // Route logging / Error logging for debugging
 server.use((req, res, next) => {
 	res.on('close', () => {
-		console.log(`[${new Date().toISOString()}]: ${req.method.padStart(7, ' ')} ${res.statusCode} ${(req.baseUrl ?? '') + req.url}`)
+		console.log(`[${new Date().toISOString()}] ${req.headers['user-agent']?.slice(0, 32).padEnd(32)} ${req.method.padEnd(7)} ${res.statusCode} ${(req.baseUrl ?? '') + req.url}`)
 	})
 	res.on('error', (err) => {
 		console.error('Error:')
