@@ -34,11 +34,11 @@ const totalStats = {
 const setsData: Record<string, Record<string, Array<string>>> = {}
 
 function preProcessSets(t: any, lang: SupportedLanguages) {
-	objectLoop(t.sets, (sets, serieId) => {
+	objectLoop(t.sets, (sets, serieId: string) => {
 		if (!(serieId in setsData)) {
 			setsData[serieId] = {}
 		}
-		objectLoop(sets, (_, set) => {
+		objectLoop(sets, (_, set: string) => {
 			if (!(set in setsData[serieId])) {
 				setsData[serieId][set] = []
 			}

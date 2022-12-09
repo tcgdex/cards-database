@@ -1,8 +1,8 @@
 import { objectLoop } from '@dzeio/object-util'
 import { Serie as SDKSerie, SerieResume, SupportedLanguages } from '@tcgdex/sdk'
-import Set from './Set'
 import { Pagination } from '../../interfaces'
 import { lightCheck } from '../../util'
+import Set from './Set'
 
 type LocalSerie = Omit<SDKSerie, 'sets'> & {sets: () => Array<Set>}
 
@@ -20,7 +20,7 @@ export default class Serie implements LocalSerie {
 			if (key === 'sets') {
 				return
 			}
-			this[key as 'id'] = it
+			this[key as 'id'] = it as string
 		})
 	}
 
