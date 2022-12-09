@@ -1,36 +1,33 @@
 {
 	"name": "@tcgdex/server",
 	"private": true,
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"compile": "ts-node --project ../tsconfig.json compiler/index.ts",
 		"dev": "ts-node-dev -T src/index.ts",
 		"build": "tsc --project tsconfig.json",
 		"start": "node dist/index.js"
 	},
-	"author": "",
 	"license": "MIT",
 	"dependencies": {
-		"@dzeio/config": "^1.1.4",
-		"@dzeio/object-util": "^1.4.2",
-		"@tcgdex/sdk": "^2.4.5",
-		"apicache": "^1.6.3",
-		"express": "^4.17.1",
+		"@dzeio/config": "^1",
+		"@dzeio/object-util": "^1",
+		"@tcgdex/sdk": "^2",
+		"apicache": "^1",
+		"express": "^4",
 		"express-graphql": "^0.12.0",
-		"graphql": "^15.7.0"
+		"graphql": "^15"
 	},
 	"devDependencies": {
-		"@types/apicache": "^1.6.0",
-		"@types/express": "^4.17.13",
-		"@types/glob": "^7.2.0",
-		"@types/node": "^16.11.6",
-		"@types/node-fetch": "^2.6.1",
-		"glob": "^7.2.0",
-		"node-fetch": "^2.6.6",
-		"ts-node": "^10.4.0",
-		"ts-node-dev": "^1.1.8",
-		"typescript": "^4.4.4"
+		"@types/apicache": "^1",
+		"@types/express": "^4",
+		"@types/glob": "^8",
+		"@types/node": "^18",
+		"@types/node-fetch": "^2",
+		"glob": "^8",
+		"node-fetch": "^2",
+		"ts-node": "^10",
+		"ts-node-dev": "^2",
+		"typescript": "^4"
 	}
 }
