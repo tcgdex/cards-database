@@ -42,7 +42,7 @@ server
 	// })
 
 	// Midleware that handle url transformation
-	.use((req, res, next) => {
+	.use((req, _, next) => {
 		// this is ugly BUT it fix the problem with + not becoming spaces
 		req.url = req.url.replace(/\+/g, ' ')
 		next()
