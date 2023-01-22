@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 131,
+	"id": "sm6",
+	"name": {
+		"de": "Grauen Der Lichtfinsternis",
+		"en": "Forbidden Light",
+		"es": "Luz Prohibida",
+		"fr": "Lumière Interdite",
+		"it": "Apocalisse Di Luce",
+		"pt": "Luz Proibida"
+	},
+	"releaseDate": "2018-05-04",
+	"serie": "sm",
+	"tcgOnline": "FLI"
+}

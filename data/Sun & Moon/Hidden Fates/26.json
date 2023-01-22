@@ -1,0 +1,39 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap",
+				"fr": "Queue Battoir"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		23
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Ekans",
+		"fr": "Abo"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm115",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

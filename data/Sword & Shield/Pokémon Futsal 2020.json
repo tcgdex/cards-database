@@ -1,0 +1,10 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 5,
+	"id": "fut2020",
+	"name": {
+		"en": "Pokémon Futsal 2020"
+	},
+	"releaseDate": "2020-09-11",
+	"serie": "swsh"
+}

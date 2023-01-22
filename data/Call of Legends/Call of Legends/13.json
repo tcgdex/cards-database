@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Miasma Wind"
+			},
+			"effect": {
+				"en": "Does 50 damage times the number of Special Conditions affecting the Defending Pokémon."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Soothing Scent"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		470
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 90,
+	"illustrator": "match",
+	"name": {
+		"en": "Leafeon"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"set": "col1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

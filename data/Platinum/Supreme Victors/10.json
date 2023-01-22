@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Raging Drill",
+				"fr": "Perceuse enragée"
+			},
+			"effect": {
+				"en": "Does 30 damage plus 10 more damage for each damage counter on Rhyperior.",
+				"fr": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Rhinastoc."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Deep Scrap",
+				"fr": "Grosse bagarre"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon would be Knocked Out by this attack, discard the top 3 cards from your opponent's deck.",
+				"fr": "Si le Pokémon Défenseur est mis K.O. par cette attaque, défaussez les 3 cartes du dessus du deck de votre adversaire."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		464
+	],
+	"evolveFrom": {
+		"en": "Rhydon",
+		"fr": "Rhinoféros"
+	},
+	"hp": 140,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Rhyperior",
+		"fr": "Rhinastoc"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "pl3",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+30"
+		}
+	]
+}

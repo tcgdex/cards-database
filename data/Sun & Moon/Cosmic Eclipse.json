@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 236,
+	"id": "sm12",
+	"name": {
+		"de": "Welten im Wandel",
+		"en": "Cosmic Eclipse",
+		"es": "Eclipse Cósmico",
+		"fr": "Éclipse Cosmique",
+		"it": "Eclissi Cosmica",
+		"pt": "Eclipse Cósmico"
+	},
+	"releaseDate": "2019-11-01",
+	"serie": "sm",
+	"tcgOnline": "CEC"
+}

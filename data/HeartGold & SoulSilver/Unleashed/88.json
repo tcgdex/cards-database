@@ -1,0 +1,91 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Darkness Howl",
+				"fr": "Obscurlement"
+			},
+			"effect": {
+				"en": "This attack does 20 damage to each Pokémon in play (both yours and your opponent’s) (excluding any Darkness Pokémon). (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 20 dégâts à chaque Pokémon en jeu (les vôtres et ceux de votre adversaire), à l’exception des Pokémon Darkness. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Power Claw",
+				"fr": "Griffes puissantes"
+			},
+			"effect": {
+				"en": "This attack’s damage isn’t affected by Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par les Poké-Powers, les Poké-Bodies ou tout autre effet actif sur le Pokémon Défenseur."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Megaton Tail",
+				"fr": "Queue titanesque"
+			},
+			"effect": {
+				"en": "Discard the top 3 cards of your deck.",
+				"fr": "Défaussez les 3 cartes du dessus de votre deck."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		248
+	],
+	"evolveFrom": {
+		"en": "Pupitar",
+		"fr": "Ymphect"
+	},
+	"hp": 160,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Tyranitar",
+		"fr": "Tyranocif"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "hgss2",
+	"stage": "Stage2",
+	"suffix": "Prime",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Shuffle Dance"
+			},
+			"effect": {
+				"en": "Once during your turn, you may switch 1 of your opponent's face-down Prize cards with the top card of their deck. (The cards stay face down.)"
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mad Party"
+			},
+			"effect": {
+				"en": "This attack does 20 damage for each Pokémon in your discard pile that has the Mad Party attack."
+			},
+			"damage": "20×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
+	},
+	"evolveFrom": {
+		"en": "Galarian Mr. Mime"
+	},
+	"hp": 120,
+	"illustrator": "KEIICHIRO ITO",
+	"name": {
+		"en": "Galarian Mr. Rime"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swshp",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

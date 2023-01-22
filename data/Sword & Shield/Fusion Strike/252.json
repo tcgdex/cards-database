@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Wall of Sand"
+			},
+			"effect": {
+				"en": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Land Crush"
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"hp": 220,
+	"illustrator": "Narumi Sato",
+	"name": {
+		"de": "Sanaconda V",
+		"en": "Sandaconda V",
+		"es": "Sandaconda V",
+		"fr": "Dunaconda V",
+		"it": "Sandaconda V",
+		"pt": "Sandaconda V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Edge",
+				"fr": "Lame de Givre"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		615
+	],
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Frigometri",
+		"en": "Cryogonal",
+		"es": "Cryogonal",
+		"fr": "Hexagel",
+		"it": "Cryogonal",
+		"pt": "Cryogonal"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

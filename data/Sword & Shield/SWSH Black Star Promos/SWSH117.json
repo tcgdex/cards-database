@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Stampede"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strike Back"
+			},
+			"effect": {
+				"en": "This attack does 30 damage for each damage counter on this Pokémon."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
+	},
+	"dexId": [
+		231
+	],
+	"hp": 70,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Phanpy"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swshp",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

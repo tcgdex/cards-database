@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pebble Hurl",
+				"fr": "Jet de galet"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Earthquake",
+				"fr": "Séisme"
+			},
+			"effect": {
+				"en": "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		340
+	],
+	"evolveFrom": {
+		"en": "Barboach"
+	},
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Whiscash",
+		"fr": "Barbicha"
+	},
+	"rarity": "Uncommon",
+	"set": "ex13",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Mend",
+				"fr": "Réparation"
+			},
+			"effect": {
+				"en": "Search your discard pile for a Metal Energy card and attach it to Lairon. If you do, remove 2 damage counters from Lairon.",
+				"fr": "Choisissez dans votre pile de défausse une carte Énergie Metal et attachez-la à Galegon. Retirez-lui alors 2 marqueurs de dégât."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Confront",
+				"fr": "Confrontation"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il se nourrit du minéral de fer qu'il fore. Il défend son territoire en chargeant avec son corps d'acier."
+	},
+	"dexId": [
+		305
+	],
+	"evolveFrom": {
+		"en": "Aron"
+	},
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Lairon",
+		"fr": "Galegon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"set": "dp2",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

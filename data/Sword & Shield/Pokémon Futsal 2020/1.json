@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lightning Shot"
+			},
+			"damage": 120,
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+	},
+	"illustrator": "The Pokémon Company Art Team",
+	"name": {
+		"en": "Pikachu on the Ball"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"set": "fut2020",
+	"stage": "Basic",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

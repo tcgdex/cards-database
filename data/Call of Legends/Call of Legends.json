@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 95,
+	"id": "col1",
+	"name": {
+		"de": "Ruf der Legenden",
+		"en": "Call of Legends",
+		"es": "Llamada de las Leyendas",
+		"fr": "L'appel des Légendes",
+		"it": "Richiamo delle Leggende",
+		"pt": "Chamado das Lendas"
+	},
+	"releaseDate": "2011-02-09",
+	"serie": "col",
+	"tcgOnline": "CL"
+}

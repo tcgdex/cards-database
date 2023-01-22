@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Surprise Thunder",
+				"fr": "Tonnerre surprise"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Lancez une pièce. Si c'est face, lancez une autre pièce. Si la seconde pièce tombe sur face, cette attaque inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. Si la seconde pièce tombe sur pile, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon du Banc.)"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il emmagasine l'électricité dans son corps, puis la libère sans prévenir afin de surprendre et commotionner tout le monde."
+	},
+	"dexId": [
+		26
+	],
+	"evolveFrom": {
+		"en": "Pikachu"
+	},
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Dark Raichu",
+		"fr": "Raichu obscur"
+	},
+	"rarity": "Rare",
+	"set": "base5",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

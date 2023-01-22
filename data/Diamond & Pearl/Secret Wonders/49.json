@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Swords Dance",
+				"fr": "Danse-lames"
+			},
+			"effect": {
+				"en": "During your next turn, Farfetch'd's Leek Slap attack's base damage is 60.",
+				"fr": "Lors de votre prochain tour, les dégâts de base de l'attaque Coup d'oignon de Canarticho sont de 60."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Leek Slap",
+				"fr": "Coup d'oignon"
+			},
+			"effect": {
+				"en": "During your next turn, Farfetch'd can't use Leek Slap.",
+				"fr": "Lors de votre prochain tour, Canarticho ne peut pas utiliser Coup d'poireau."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		83
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Farfetch'd",
+		"fr": "Canarticho"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp3",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

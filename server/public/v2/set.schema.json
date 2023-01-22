@@ -1,0 +1,62 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://api.tcgdex.net/set.schema.json",
+	"title": "Serie",
+	"description": "Describe a pokémon TCG set",
+	"additionalProperties": false,
+	"type": "object",
+	"properties": {
+		"id": {
+			"description": "set Unique Identifier",
+			"type": "string"
+		},
+		"name": {
+			"description": "the name of the set",
+			"type": "object",
+			"properties": {
+				"en": {
+					"type": "string"
+				},
+				"es": {
+					"type": "string"
+				},
+				"pt": {
+					"type": "string"
+				},
+				"fr": {
+					"type": "string"
+				},
+				"it": {
+					"type": "string"
+				},
+				"de": {
+					"type": "string"
+				}
+			}
+		},
+		"serie": {
+			"description": "The serie ID in wich the set is in",
+			"type": "string"
+		},
+		"tcgOnline": {
+			"description": "TCG Online ID",
+			"type": "string"
+		},
+
+		"cardCount": {
+			"description": "The number of cards in the set",
+			"type": "number"
+		},
+		"releaseDate": {
+			"description": "The date at which the set was released",
+			"type": "string"
+		}
+	},
+	"required": [
+		"id",
+		"name",
+		"serie",
+		"cardCount",
+		"releaseDate"
+	]
+}

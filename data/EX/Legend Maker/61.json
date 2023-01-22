@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Drawup Power",
+				"fr": "Pouvoir bloquant"
+			},
+			"effect": {
+				"en": "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Choisissez dans votre deck une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Continuous Tumble",
+				"fr": "Roulage continu"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				"fr": "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "10×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		273
+	],
+	"hp": 40,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Seedot",
+		"fr": "Grainipiot"
+	},
+	"rarity": "Common",
+	"set": "ex12",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe",
+				"es": "Arañazo",
+				"it": "Graffio",
+				"pt": "Arranhão",
+				"de": "Kratzer"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leaf Supply",
+				"fr": "Provision de Feuillage",
+				"es": "Aprovisionamiento Hoja",
+				"it": "Fogliascorta",
+				"pt": "Estoque de Folha",
+				"de": "Blättervorrat"
+			},
+			"effect": {
+				"en": "You may attach a Grass Energy card from your hand to 1 of your Pokémon.",
+				"fr": "Vous pouvez attacher une carte Énergie Grass de votre main à l’un de vos Pokémon.",
+				"es": "Puedes unir 1 carta de Energía Grass de tu mano a 1 de tus Pokémon.",
+				"it": "Puoi assegnare una carta Energia Grass dalla tua mano a uno dei tuoi Pokémon.",
+				"pt": "Você pode ligar 1 carta de Energia Grass da sua mão a 1 dos seus Pokémon.",
+				"de": "Du kannst 1 Grass-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		512
+	],
+	"evolveFrom": {
+		"en": "Pansage",
+		"fr": "Feuillajou"
+	},
+	"hp": 90,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Vegichita",
+		"en": "Simisage",
+		"es": "Simisage",
+		"fr": "Feuiloutan",
+		"it": "Simisage",
+		"pt": "Simisage"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "sm3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Bench Barrier",
+				"fr": "Barrière de Banc"
+			},
+			"effect": {
+				"en": "Prevent all damage done to your Benched Pokémon by attacks.",
+				"fr": "Évitez tous les dégâts infligés à vos Pokémon de Banc par des attaques."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fairy",
+				"Colorless"
+			],
+			"name": {
+				"en": "Juggling",
+				"fr": "Jonglerie"
+			},
+			"effect": {
+				"en": "Flip 4 coins. This attack does 10 damage times the number of heads.",
+				"fr": "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": "10×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		122
+	],
+	"hp": 70,
+	"illustrator": "kirisAki",
+	"name": {
+		"en": "Mr. Mime",
+		"fr": "M. Mime"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "g1",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Pumpkaboo",
+		"fr": "Pitrouille",
+		"es": "Pumpkaboo",
+		"it": "Pumpkaboo",
+		"pt": "Pumpkaboo",
+		"de": "Irrbis"
+	},
+	"hp": 100,
+	"name": {
+		"de": "Pumpdjinn",
+		"en": "Gourgeist",
+		"es": "Gourgeist",
+		"fr": "Banshitrouye",
+		"it": "Gourgeist",
+		"pt": "Gourgeist"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "tk-xy-n",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

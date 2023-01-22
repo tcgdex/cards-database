@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "High Jump Kick",
+				"fr": "Pied Voltige"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "White Ray",
+				"fr": "Rayon Blanc"
+			},
+			"effect": {
+				"en": "If you have only 1 Prize card remaining, this attack does 90 more damage.",
+				"fr": "S’il vous reste exactement 1 carte Récompense, cette attaque inflige 90 dégâts supplémentaires."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		795
+	],
+	"hp": 110,
+	"illustrator": "Mizue",
+	"name": {
+		"en": "Pheromosa",
+		"fr": "Cancrelove"
+	},
+	"rarity": "Common",
+	"set": "sma",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

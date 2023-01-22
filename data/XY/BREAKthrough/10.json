@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pin Missile",
+				"fr": "Dard-Nuée",
+				"es": "Pin Misil",
+				"it": "Missilspillo",
+				"pt": "Míssil de Espinhos",
+				"de": "Nadelrakete"
+			},
+			"effect": {
+				"en": "Flip 4 coins. This attack does 40 damage times the number of heads.",
+				"fr": "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				"es": "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+				"it": "Lancia quattro volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+				"pt": "Jogue 4 moedas. Este ataque causa 40 de danos vezes o número de caras.",
+				"de": "Wirf 4 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			"damage": "40×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		651
+	],
+	"evolveFrom": {
+		"en": "Chespin",
+		"fr": "Marisson",
+		"es": "Chespin",
+		"it": "Chespin",
+		"pt": "Chespin",
+		"de": "Igamaro"
+	},
+	"hp": 90,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Igastarnish",
+		"en": "Quilladin",
+		"es": "Quilladin",
+		"fr": "Boguérisse",
+		"it": "Quilladin",
+		"pt": "Quilladin"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "xy8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

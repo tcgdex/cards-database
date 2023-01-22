@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Mane"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stamp"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage (to the Defending Pokémon) and 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage (to the Defending Pokémon.)"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		78
+	],
+	"evolveFrom": {
+		"en": "Ponyta"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Blaine's Rapidash"
+	},
+	"rarity": "Uncommon",
+	"set": "gym2",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

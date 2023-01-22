@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "White-Hot Flame",
+				"fr": "Flammes blanches"
+			},
+			"effect": {
+				"en": "Discard 1 Energy card and 1 Energy card attached to Shining Charizard or this attack does nothing. Flip a coin. If tails, Shining Charizard does 30 damage to itself.",
+				"fr": "Défaussez-vous d'une carte Énergie  et d'une carte Énergie  attachées à Dracaufeu brillant ou cette attaque ne fait rien. Lancez une pièce. Si c'est pile, Dracaufeu brillant s'inflige 30 dégâts."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Les flammes qu'il souffle sont si chaudes qu'elles peuvent faire fondre n'importe quoi."
+	},
+	"dexId": [
+		6
+	],
+	"hp": 100,
+	"illustrator": "Hironobu Yoshida",
+	"name": {
+		"en": "Shining Charizard",
+		"fr": "Dracaufeu brillant"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "neo4",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

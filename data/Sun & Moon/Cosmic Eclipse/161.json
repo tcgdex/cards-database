@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Headbutt",
+				"fr": "Dracoud’Boule",
+				"es": "Cabezazo Dragón",
+				"it": "Dragozuccata",
+				"pt": "Cabeçada do Dragão",
+				"de": "Drachen-Kopfnuss"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		782
+	],
+	"hp": 70,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Miniras",
+		"en": "Jangmo-o",
+		"es": "Jangmo-o",
+		"fr": "Bébécaille",
+		"it": "Jangmo-o",
+		"pt": "Jangmo-o"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

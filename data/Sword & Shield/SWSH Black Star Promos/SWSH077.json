@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Dauntless Shield",
+				"pt": "Dauntless Shield",
+				"de": "Wackerer Schild"
+			},
+			"effect": {
+				"en": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX.",
+				"pt": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX.",
+				"de": "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-VMAX deines Gegners zugefügt wird."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Assault Tackle",
+				"pt": "Assault Tackle",
+				"de": "Überfalltackle"
+			},
+			"effect": {
+				"en": "Discard a Special Energy from your opponent's Active Pokémon.",
+				"pt": "Discard a Special Energy from your opponent's Active Pokémon.",
+				"de": "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			},
+			"damage": 130,
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		889
+	],
+	"hp": 230,
+	"illustrator": "aky CG Works",
+	"name": {
+		"de": "Zamazenta V",
+		"en": "Zamazenta V",
+		"pt": "Zamazenta V"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 2,
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut",
+				"fr": "Coupe",
+				"es": "Corte",
+				"it": "Taglio",
+				"pt": "Cortar",
+				"de": "Zerschneider"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		657
+	],
+	"evolveFrom": {
+		"en": "Froakie",
+		"fr": "Grenousse",
+		"es": "Froakie",
+		"it": "Froakie",
+		"pt": "Froakie",
+		"de": "Froxy"
+	},
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Amphizel",
+		"en": "Frogadier",
+		"es": "Frogadier",
+		"fr": "Croâporal",
+		"it": "Frogadier",
+		"pt": "Frogadier"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "xy8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

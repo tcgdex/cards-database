@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Focus Energy",
+				"fr": "Puissance"
+			},
+			"effect": {
+				"en": "During your next turn, Carvanha’s Bite attack’s base damage is 40.",
+				"fr": "Pendant votre prochain tour, l’attaque Morsure de Carvanha inflige 40 dégâts de base."
+			}
+		},
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle."
+	},
+	"dexId": [
+		318
+	],
+	"hp": 50,
+	"illustrator": "MAHOU",
+	"name": {
+		"en": "Carvanha",
+		"fr": "Carvanha"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

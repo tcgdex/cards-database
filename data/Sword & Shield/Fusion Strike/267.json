@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bolt Storm"
+			},
+			"damage": "30+",
+			"effect": {
+				"en": "This attack does 30 more damage for each Lightning Energy attached to all of your Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Bolt"
+			},
+			"damage": 230,
+			"effect": {
+				"en": "During your next turn, this Pokémon can't use Max Bolt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Boltund V",
+		"fr": "Fulgudog-V",
+		"es": "Boltund V",
+		"it": "Boltund-V",
+		"pt": "Boltund V",
+		"de": "Bellektro-V"
+	},
+	"hp": 320,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"de": "Bellektro VMAX",
+		"en": "Boltund VMAX",
+		"es": "Boltund VMAX",
+		"fr": "Fulgudog VMAX",
+		"it": "Boltund VMAX",
+		"pt": "Boltund VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "VMAX",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

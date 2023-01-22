@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Knuckle Punch",
+				"fr": "Coud'Phalange",
+				"es": "Puño con Nudillos",
+				"it": "Nocca-Pugno",
+				"pt": "Soco com Punho",
+				"de": "Knöchelhieb"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		125
+	],
+	"hp": 70,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Elektek",
+		"en": "Electabuzz",
+		"es": "Electabuzz",
+		"fr": "Élektek",
+		"it": "Electabuzz",
+		"pt": "Electabuzz"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy9",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

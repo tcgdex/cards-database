@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare",
+				"fr": "Flamboiement",
+				"es": "Llama",
+				"it": "Fiammata",
+				"pt": "Chama",
+				"de": "Flackern"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Cyndaquil",
+		"fr": "Héricendre",
+		"es": "Cyndaquil",
+		"it": "Cyndaquil",
+		"pt": "Cyndaquil",
+		"de": "Feurigel"
+	},
+	"hp": 90,
+	"name": {
+		"de": "Igelavar",
+		"en": "Quilava",
+		"es": "Quilava",
+		"fr": "Feurisson",
+		"it": "Quilava",
+		"pt": "Quilava"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh10",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

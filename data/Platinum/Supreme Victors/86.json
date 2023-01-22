@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Collect",
+				"fr": "Collectionner"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reckless Charge",
+				"fr": "Attaque imprudente"
+			},
+			"effect": {
+				"en": "Togekiss C does 10 damage to itself.",
+				"fr": "Togekiss  s'inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		468
+	],
+	"hp": 70,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Togekiss C",
+		"fr": "Togekiss "
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

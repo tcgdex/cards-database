@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Infestation"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "During your opponent's next turn, the Defending Pokémon can't retreat."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If this weak Pokémon is by itself, a mere child could defeat it. But if Dreepy has friends to help it train, it can evolve and become much stronger."
+	},
+	"hp": 60,
+	"illustrator": "Teeziro",
+	"name": {
+		"de": "Grolldra",
+		"en": "Dreepy",
+		"es": "Dreepy",
+		"fr": "Fantyrm",
+		"it": "Dreepy",
+		"pt": "Dreepy"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

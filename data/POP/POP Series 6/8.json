@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Wild Kick"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The aura that emanates from its body intensifies to alert others if it is afraid or sad."
+	},
+	"dexId": [
+		447
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Riolu"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "pop6",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

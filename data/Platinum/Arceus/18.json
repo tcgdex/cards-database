@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wreck"
+			},
+			"effect": {
+				"en": "If there is any Stadium card in play, this attack does 20 damage plus 50 more damage. Discard that Stadium card."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Avalanche"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		362
+	],
+	"evolveFrom": {
+		"en": "Snorunt"
+	},
+	"illustrator": "Hiroki Fuchino",
+	"name": {
+		"en": "Glalie"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "+20"
+		}
+	]
+}

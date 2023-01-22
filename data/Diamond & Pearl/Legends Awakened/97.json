@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Space Out",
+				"fr": "Sonné"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Gloom. Gloom is now Asleep.",
+				"fr": "Retirez à Ortide 2 marqueurs de dégât. Ortide est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stinky Nectar",
+				"fr": "Nectar puant"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres."
+	},
+	"dexId": [
+		44
+	],
+	"evolveFrom": {
+		"en": "Oddish",
+		"fr": "Myrapla"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Gloom",
+		"fr": "Ortide"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Poison Spray",
+				"fr": "Jet-venin"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Reaction",
+				"fr": "Allergie poison"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
+				"fr": "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		24
+	],
+	"hp": 70,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Arbok",
+		"fr": "Arbok"
+	},
+	"rarity": "Rare",
+	"set": "ecard1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Harden",
+				"fr": "Armure"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.",
+				"fr": "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 60 ou moins."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bug Bite",
+				"fr": "Piqûre"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		266
+	],
+	"evolveFrom": {
+		"en": "Wurmple",
+		"fr": "Chenipotte"
+	},
+	"hp": 80,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Schaloko",
+		"en": "Silcoon",
+		"es": "Silcoon",
+		"fr": "Armulys",
+		"it": "Silcoon",
+		"pt": "Silcoon"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

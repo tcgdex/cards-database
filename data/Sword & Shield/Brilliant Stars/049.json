@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"hp": 40,
+	"name": {
+		"de": "Sheinux",
+		"en": "Shinx",
+		"es": "Shinx",
+		"fr": "Lixy",
+		"it": "Shinx",
+		"pt": "Shinx"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 0,
+	"set": "swsh9",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	]
+}

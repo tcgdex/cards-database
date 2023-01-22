@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Une seule fois pendant le tour de chaque joueur, ce joueur peut lancer une pièce. Si c’est face, ce joueur pioche une carte."
+	},
+	"illustrator": "Hideaki Hakozaki",
+	"name": {
+		"en": "Battle City",
+		"fr": "Ville Combat"
+	},
+	"rarity": "Common",
+	"set": "bwp",
+	"trainerType": "Stadium"
+}

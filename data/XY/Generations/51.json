@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Follow Me",
+				"fr": "Par Ici"
+			},
+			"effect": {
+				"en": "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				"fr": "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif."
+			}
+		},
+		{
+			"cost": [
+				"Fairy",
+				"Colorless"
+			],
+			"name": {
+				"en": "Moonblast",
+				"fr": "Pouvoir Lunaire"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				"fr": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		36
+	],
+	"evolveFrom": {
+		"en": "Clefairy",
+		"fr": "Mélofée"
+	},
+	"hp": 90,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Clefable",
+		"fr": "Mélodelfe"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "g1",
+	"stage": "Stage1",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

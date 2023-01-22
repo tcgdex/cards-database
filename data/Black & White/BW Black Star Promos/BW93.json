@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Drain",
+				"fr": "Sangsue de l'Ombre"
+			},
+			"effect": {
+				"en": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				"fr": "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slashing Strike",
+				"fr": "Coup Déchirant"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Slashing Strike during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		197
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Évoli"
+	},
+	"hp": 100,
+	"illustrator": "Illus.＆Direc.The Pokémon Company Art Team",
+	"name": {
+		"en": "Umbreon",
+		"fr": "Noctali"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bwp",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

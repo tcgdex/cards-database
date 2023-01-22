@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Add-a-Dash",
+				"fr": "Rallonge"
+			},
+			"effect": {
+				"en": "Flip 2 coins. For each heads, draw a card.",
+				"fr": "Lancez 2 pièces. Pour chaque côté face, piochez une carte."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		349
+	],
+	"hp": 30,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Barschwa",
+		"en": "Feebas",
+		"es": "Feebas",
+		"fr": "Barpau",
+		"it": "Feebas",
+		"pt": "Feebas"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

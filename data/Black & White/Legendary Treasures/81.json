@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Nerve Shot"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pandemonium Blade"
+			},
+			"effect": {
+				"en": "Does 20 more damage for each of your Benched Pokémon that has any damage counters on it."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		475
+	],
+	"evolveFrom": {
+		"en": "Kirlia"
+	},
+	"hp": 140,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Gallade"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

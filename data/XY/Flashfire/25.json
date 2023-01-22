@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rest",
+				"fr": "Repos",
+				"es": "Descanso",
+				"it": "Riposo",
+				"pt": "Descansar",
+				"de": "Erholung"
+			},
+			"effect": {
+				"en": "Heal 60 damage from this Pokémon. This Pokémon is now Asleep.",
+				"fr": "Soignez 60 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
+				"es": "Cura 60 puntos de daño a este Pokémon. Este Pokémon pasa a estar Dormido.",
+				"it": "Cura questo Pokémon da 60 danni. Questo Pokémon viene addormentato.",
+				"pt": "Cure 60 de danos deste Pokémon. Este Pokémon agora está Adormecido.",
+				"de": "Heile 60 Schadenspunkte bei diesem Pokémon. Dieses Pokémon schläft jetzt."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Ball",
+				"fr": "Ball'Glace",
+				"es": "Bola Hielo",
+				"it": "Palla Gelo",
+				"pt": "Bola de Gelo",
+				"de": "Frostbeule"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		364
+	],
+	"evolveFrom": {
+		"en": "Spheal",
+		"fr": "Obalie",
+		"es": "Spheal",
+		"it": "Spheal",
+		"pt": "Spheal",
+		"de": "Seemops"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Seejong",
+		"en": "Sealeo",
+		"es": "Sealeo",
+		"fr": "Phogleur",
+		"it": "Sealeo",
+		"pt": "Sealeo"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "xy2",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

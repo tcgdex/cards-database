@@ -1,0 +1,89 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Unaware",
+				"fr": "Inconscient",
+				"es": "Ignorante",
+				"it": "Imprudenza",
+				"pt": "Ignorante",
+				"de": "Unkenntnis"
+			},
+			"effect": {
+				"en": "Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+				"fr": "Évitez tous les effets d'attaques infligés à ce Pokémon par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
+				"es": "Evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos a este Pokémon.",
+				"it": "Previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti a questo Pokémon.",
+				"pt": "Previne todos os efeitos de ataques do seu oponente, exceto dano, causados a este Pokémon.",
+				"de": "Verhindere alle Effekte von Attacken deines Gegners, außer Schaden, die diesem Pokémon zugefügt werden."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heart Stamp",
+				"fr": "Crève-Cœur",
+				"es": "Arrumaco",
+				"it": "Cuorestampo",
+				"pt": "Estampa de Coração",
+				"de": "Herzstempel"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Emitting powerful sound waves tires it out. Afterward, it won't be able to fly for a little while."
+	},
+	"evolveFrom": {
+		"en": "Woobat",
+		"fr": "Chovsourir",
+		"es": "Woobat",
+		"it": "Woobat",
+		"pt": "Woobat",
+		"de": "Fleknoil"
+	},
+	"hp": 100,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Fletiamo",
+		"en": "Swoobat",
+		"es": "Swoobat",
+		"fr": "Rhinolove",
+		"it": "Swoobat",
+		"pt": "Swoobat"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

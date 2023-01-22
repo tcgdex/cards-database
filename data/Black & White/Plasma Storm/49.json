@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Electribonus",
+				"fr": "Électribonus"
+			},
+			"effect": {
+				"en": "Discard a Lightning Energy card from your hand. If you do, draw 3 cards.",
+				"fr": "Défaussez une carte Énergie Lightning de votre main. Dans ce cas, piochez 3 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poltergeist",
+				"fr": "Poltergeist"
+			},
+			"effect": {
+				"en": "Your opponent reveals his or her hand. This attack does 20 damage times the number of Trainer cards in your opponent's hand.",
+				"fr": "Votre adversaire montre sa main. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Dresseur dans la main de votre adversaire."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		479
+	],
+	"hp": 60,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Rotom",
+		"en": "Rotom",
+		"es": "Rotom",
+		"fr": "Motisma",
+		"it": "Rotom",
+		"pt": "Rotom"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

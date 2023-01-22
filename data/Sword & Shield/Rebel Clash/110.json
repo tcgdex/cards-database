@@ -1,0 +1,82 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Iron Defense Formation",
+				"fr": "Escadron Mur de Fer",
+				"es": "",
+				"it": "",
+				"pt": "",
+				"de": ""
+			},
+			"effect": {
+				"en": "All of your Pokémon that have \"Falinks\" in their name take 20 less damage from your opponent's attacks (after applying Weakness and Resistance).",
+				"fr": "Tous vos Pokémon ayant « Hexadron » dans leur nom subissent 20 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance).",
+				"es": "",
+				"it": "",
+				"pt": "",
+				"de": ""
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Giga Impact",
+				"fr": "Giga Impact",
+				"es": "Gigaimpacto",
+				"it": "Gigaimpatto",
+				"pt": "Gigaimpacto",
+				"de": "Gigastoß"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				"es": "Durante tu próximo turno, este Pokémon no puede atacar.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			},
+			"damage": 210
+		}
+	],
+	"category": "Pokemon",
+	"hp": 160,
+	"illustrator": "aky CG Works",
+	"name": {
+		"de": "Legios V",
+		"en": "Falinks V",
+		"es": "Falinks V",
+		"fr": "Hexadron V",
+		"it": "Falinks V",
+		"pt": "Falinks V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh2",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

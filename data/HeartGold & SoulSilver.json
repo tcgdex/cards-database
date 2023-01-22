@@ -1,0 +1,12 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "hgss",
+	"name": {
+		"de": "HeartGold SoulSilver",
+		"en": "HeartGold & SoulSilver",
+		"es": "HeartGold SoulSilver",
+		"fr": "HeartGold SoulSilver",
+		"it": "HeartGold SoulSilver",
+		"pt": "HeartGold SoulSilver"
+	}
+}

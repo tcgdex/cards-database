@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Leer",
+				"fr": "Groz'yeux"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon can't attack Scizor during your opponent's next turn. (Benching either Pokémon ends this effect.)",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Cizayox pendant le prochain tour de votre adversaire. (Mettre l'un des deux Pokémon sur le Banc met fin à cet effet.)"
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Pincer",
+				"fr": "Pinces de Métal"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 30 damage plus 10 more damage for each heads.",
+				"fr": "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 30 dégâts plus 10 fois le nombre de faces."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il n'utilise pas ses ailes pour voler. Elles lui servent à ajuster la température de son corps en les faisant battre rapidement."
+	},
+	"dexId": [
+		212
+	],
+	"evolveFrom": {
+		"en": "Scyther"
+	},
+	"hp": 70,
+	"illustrator": "Hironobu Yoshida",
+	"name": {
+		"en": "Scizor",
+		"fr": "Cizayox"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"set": "basep",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

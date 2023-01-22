@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde Folie",
+				"es": "Rayo Confuso",
+				"it": "Stordiraggio",
+				"pt": "Raio da Confusão",
+				"de": "Konfusstrahl"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			},
+			"cost": [
+				"Psychic"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+	},
+	"hp": 60,
+	"illustrator": "Narumi Sato",
+	"name": {
+		"de": "Trasla",
+		"en": "Ralts",
+		"es": "Ralts",
+		"fr": "Tarsal",
+		"it": "Ralts",
+		"pt": "Ralts"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

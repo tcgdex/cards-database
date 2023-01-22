@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Comet Punch",
+				"fr": "Poing comète"
+			},
+			"effect": {
+				"en": "Flip 4 coins. This attack does 10 damage times the number of heads.",
+				"fr": "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "10×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When the weather turns cold, lots of Ledyba gather from everywhere to cluster and keep each other warm."
+	},
+	"dexId": [
+		165
+	],
+	"hp": 50,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Ledyba",
+		"fr": "Coxy"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

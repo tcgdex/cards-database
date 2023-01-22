@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Kick"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 10 damage times the number of heads."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Retaliation"
+			},
+			"effect": {
+				"en": "You can't use this attack unless Giovanni's Nidoran M has 2 or more damage counters on it."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		32
+	],
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Giovanni's Nidoran♂"
+	},
+	"rarity": "Common",
+	"set": "gym2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

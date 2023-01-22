@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Swallow Up"
+			},
+			"effect": {
+				"en": "Before doing damage, count the remaining HP of the Defending Pokémon and Dark Arbok. If the Defending Pokémon has fewer remaining HP than Dark Arbok's, this attack does 10 damage plus 30 more damage."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Extra Poison"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Asleep and Poisoned."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		24
+	],
+	"evolveFrom": {
+		"en": "Ekans"
+	},
+	"hp": 90,
+	"illustrator": "Nakaoka",
+	"name": {
+		"en": "Dark Arbok"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Grass",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

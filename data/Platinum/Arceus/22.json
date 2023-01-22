@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Second Bite"
+			},
+			"effect": {
+				"en": "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Swift"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		310
+	],
+	"evolveFrom": {
+		"en": "Electrike"
+	},
+	"illustrator": "Mana Ibe",
+	"name": {
+		"en": "Manectric"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"set": "pl4",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

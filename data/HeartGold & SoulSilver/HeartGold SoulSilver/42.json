@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunder Spear",
+				"fr": "Lance-éclair"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)"
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thundershock",
+				"fr": "Éclair"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "As a result of storing too much electricity, it developed patches where even downy wool won’t grow."
+	},
+	"dexId": [
+		180
+	],
+	"evolveFrom": {
+		"en": "Mareep",
+		"fr": "Wattouat"
+	},
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Flaaffy",
+		"fr": "Lainergie"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

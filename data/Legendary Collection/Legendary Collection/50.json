@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stiffen"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)"
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Poisonpowder"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		14
+	],
+	"evolveFrom": {
+		"en": "Weedle"
+	},
+	"hp": 80,
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Kakuna"
+	},
+	"rarity": "Uncommon",
+	"set": "lc",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

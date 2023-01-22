@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flickering Flames",
+				"fr": "Flammes vacillantes"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Smack",
+				"fr": "Claque"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		281
+	],
+	"evolveFrom": {
+		"en": "Ralts"
+	},
+	"hp": 70,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Kirlia δ",
+		"fr": "Kirlia δ ESPÈCES DELTA"
+	},
+	"rarity": "Uncommon",
+	"set": "ex15",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

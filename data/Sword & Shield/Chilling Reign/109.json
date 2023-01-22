@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Rolling Tackle",
+				"fr": "Roulé-Boulé",
+				"es": "Placaje Giro",
+				"it": "Rollazione",
+				"pt": "Golpe de Colisão Rolante",
+				"de": "Rolltackle"
+			},
+			"damage": 50,
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
+	},
+	"hp": 70,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Stollunior",
+		"en": "Aron",
+		"es": "Aron",
+		"fr": "Galekid",
+		"it": "Aron",
+		"pt": "Aron"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 2,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Bubblebeam",
+				"fr": "Bulles d'O"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "La nuit, le centre de son corps clignote doucement au rythme d'un cœur humain."
+	},
+	"dexId": [
+		120
+	],
+	"hp": 40,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Staryu",
+		"fr": "Stari"
+	},
+	"rarity": "Common",
+	"set": "neo3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

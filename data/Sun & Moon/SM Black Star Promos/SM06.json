@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Throw",
+				"fr": "Jet-Pierres",
+				"es": "Lanzarrocas",
+				"it": "Sassata",
+				"pt": "Lançamento de Rocha",
+				"de": "Steinwurf"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		744
+	],
+	"hp": 60,
+	"illustrator": "match",
+	"name": {
+		"de": "Wuffels",
+		"en": "Rockruff",
+		"es": "Rockruff",
+		"fr": "Rocabot",
+		"it": "Rockruff",
+		"pt": "Rockruff"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

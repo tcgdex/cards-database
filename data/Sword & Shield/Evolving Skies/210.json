@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Spark Trap"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Impact"
+			},
+			"damage": 200
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		880
+	],
+	"evolveFrom": {
+		"en": "Dracozolt V",
+		"fr": "Galvagon-V",
+		"es": "Dracozolt V",
+		"it": "Dracozolt-V",
+		"pt": "Dracozolt V",
+		"de": "Lectragon-V"
+	},
+	"hp": 330,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Lectragon VMAX",
+		"en": "Dracozolt VMAX",
+		"es": "Dracozolt VMAX",
+		"fr": "Galvagon VMAX",
+		"it": "Dracozolt VMAX",
+		"pt": "Dracozolt VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh7",
+	"stage": "VMAX",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

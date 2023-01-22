@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crisis Vine",
+				"fr": "Crise-Lianes",
+				"es": "Crisis Liana",
+				"it": "Emergitralcio",
+				"pt": "Crise de Vinha",
+				"de": "Krisenranke"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Paralyzed and Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Paralizado y Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene paralizzato e avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Paralisado e Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt paralysiert und vergiftet."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		3
+	],
+	"evolveFrom": {
+		"en": "Venusaur-EX",
+		"fr": "Florizarre-EX",
+		"es": "Venusaur-EX",
+		"it": "Venusaur-EX",
+		"pt": "Venusaur-EX",
+		"de": "Bisaflor-EX"
+	},
+	"hp": 230,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "M-Bisaflor EX",
+		"en": "M Venusaur EX",
+		"es": "M Venusaur EX",
+		"fr": "M-Florizarre EX",
+		"it": "M Venusaur EX",
+		"pt": "M Venusaur EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 4,
+	"set": "xy12",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

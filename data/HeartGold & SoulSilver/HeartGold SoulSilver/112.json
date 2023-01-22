@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sacred Rainbow",
+				"fr": "Arc-en-ciel sacré"
+			},
+			"effect": {
+				"en": "All energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
+				"fr": "Toute les énergies attachées au Ho-Oh LÉGENDAIRE sont de type Fire et non de leur type habituel."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Bright Wing",
+				"fr": "Ailes lumineuses"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to Ho-Oh LEGEND.",
+				"fr": "Défaussez-vous d’une Énergie attachée au Ho-Oh LÉGENDAIRE."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
+	},
+	"dexId": [
+		250
+	],
+	"hp": 140,
+	"illustrator": "Shinji Higuchi",
+	"name": {
+		"en": "Ho-Oh LEGEND",
+		"fr": "Ho-Oh LÉGENDAIRE"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Basic",
+	"suffix": "Legend",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

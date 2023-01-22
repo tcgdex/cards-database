@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Fermenting Liquid"
+			},
+			"effect": {
+				"en": "Whenever you attach an Energy card from your hand to Shuckle, draw a card."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shell Stunner"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all damage done to Shuckle by attacks during your opponent's next turn."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		213
+	],
+	"hp": 60,
+	"illustrator": "match",
+	"name": {
+		"en": "Shuckle"
+	},
+	"rarity": "Common",
+	"set": "hgssp",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

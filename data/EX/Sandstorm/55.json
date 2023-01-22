@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Healing Wind",
+				"fr": "Vent guérisseur"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may remove 1 damage counter from each of your Active Pokémon. This power can't be used if Xatu is affected by a Special Condition.",
+				"fr": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon Actifs. Ce pouvoir ne peut pas être utilisé si Xatu est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyimpact",
+				"fr": "Impact psy"
+			},
+			"effect": {
+				"en": "Put 1 damage counter on each of your opponent's Pokémon.",
+				"fr": "Placez un marqueur de dégât sur chacun des Pokémon de votre adversaire."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		178
+	],
+	"evolveFrom": {
+		"en": "Natu"
+	},
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Xatu",
+		"fr": "Xatu"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex2",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

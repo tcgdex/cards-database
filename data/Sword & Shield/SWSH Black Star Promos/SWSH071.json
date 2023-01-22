@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Me First",
+				"fr": "Moi d'Abord",
+				"es": "Yo Primero",
+				"pt": "Me First",
+				"de": "Egotrip"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"pt": "Draw a card.",
+				"de": "Ziehe 1 Karte."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Live Coal",
+				"fr": "Charbon Mutant",
+				"es": "Carbón Activado",
+				"pt": "Live Coal",
+				"de": "Glühende Kohlen"
+			},
+			"damage": 20,
+			"cost": [
+				"Fire",
+				"Fire"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
+	},
+	"dexId": [
+		813
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Hopplo",
+		"en": "Scorbunny",
+		"es": "Scorbunny",
+		"fr": "Flambino",
+		"pt": "Scorbunny"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

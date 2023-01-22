@@ -1,0 +1,344 @@
+{
+	"$ref": "#/definitions/Card",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"definitions": {
+		"Card": {
+			"additionalProperties": false,
+			"properties": {
+				"$schema": {
+					"type": "string"
+				},
+				"abilities": {
+					"description": "Pokemon Abilities\n\nmulti abilities ex https://www.tcgdex.net/database/ex/ex15/10",
+					"items": {
+						"additionalProperties": false,
+						"properties": {
+							"effect": {
+								"$ref": "#/definitions/Languages"
+							},
+							"name": {
+								"$ref": "#/definitions/Languages"
+							},
+							"type": {
+								"enum": [
+									"Pokemon Power",
+									"Poke-BODY",
+									"Poke-POWER",
+									"Ability",
+									"Ancient Trait"
+								],
+								"type": "string"
+							}
+						},
+						"required": [
+							"effect",
+							"name",
+							"type"
+						],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"attacks": {
+					"description": "Pokemon Attacks",
+					"items": {
+						"additionalProperties": false,
+						"properties": {
+							"cost": {
+								"items": {
+									"$ref": "#/definitions/Types"
+								},
+								"type": "array"
+							},
+							"damage": {
+								"type": [
+									"string",
+									"number"
+								]
+							},
+							"effect": {
+								"$ref": "#/definitions/Languages"
+							},
+							"name": {
+								"$ref": "#/definitions/Languages"
+							}
+						},
+						"required": [
+							"name"
+						],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"category": {
+					"description": "Card Category\n\n- Pokemon\n- Trainer\n- Energy",
+					"enum": [
+						"Pokemon",
+						"Trainer",
+						"Energy"
+					],
+					"type": "string"
+				},
+				"description": {
+					"$ref": "#/definitions/Languages",
+					"description": "Pokemon Description"
+				},
+				"dexId": {
+					"description": "Pokemon Pokedex ID",
+					"items": {
+						"type": "number"
+					},
+					"type": "array"
+				},
+				"effect": {
+					"$ref": "#/definitions/Languages"
+				},
+				"energyType": {
+					"enum": [
+						"Normal",
+						"Special"
+					],
+					"type": "string"
+				},
+				"evolveFrom": {
+					"$ref": "#/definitions/Languages",
+					"description": "Pokemon Sub Evolution"
+				},
+				"hp": {
+					"description": "Pokemon HP",
+					"type": "number"
+				},
+				"illustrator": {
+					"description": "Card illustrator",
+					"type": "string"
+				},
+				"item": {
+					"additionalProperties": false,
+					"description": "Pokemon Held Item\n\nex https://www.tcgdex.net/database/dp/dp2/75",
+					"properties": {
+						"effect": {
+							"$ref": "#/definitions/Languages"
+						},
+						"name": {
+							"$ref": "#/definitions/Languages"
+						}
+					},
+					"required": [
+						"name",
+						"effect"
+					],
+					"type": "object"
+				},
+				"level": {
+					"description": "Level of the Pokemon\n\nNOTE: can be equal to 'X' when the pokemon is a LEVEL-UP one",
+					"type": [
+						"number",
+						"string"
+					]
+				},
+				"name": {
+					"$ref": "#/definitions/Languages",
+					"description": "Card Name (Including the suffix if next to card name)"
+				},
+				"rarity": {
+					"description": "Card Rarity\n\n- None https://www.tcgdex.net/database/sm/smp/SM01\n- Common https://www.tcgdex.net/database/xy/xy9/1\n- Uncommon https://www.tcgdex.net/database/xy/xy9/2\n- Rare https://www.tcgdex.net/database/xy/xy9/3\n- Ultra Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/18-Cinderace-V\n- Secret Rare https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX\n- Amazing https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/17-Reshiram",
+					"enum": [
+						"None",
+						"Common",
+						"Uncommon",
+						"Rare",
+						"Ultra Rare",
+						"Secret Rare",
+						"Amazing"
+					],
+					"type": "string"
+				},
+				"regulationMark": {
+					"description": "Card regulation Mark\n\nnote: added from Sword & Shield",
+					"type": "string"
+				},
+				"resistances": {
+					"items": {
+						"additionalProperties": false,
+						"properties": {
+							"type": {
+								"$ref": "#/definitions/Types"
+							},
+							"value": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"type"
+						],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"retreat": {
+					"type": "number"
+				},
+				"set": {
+					"type": "string",
+					"description": "Card Set ID"
+				},
+				"stage": {
+					"description": "Pokemon Stage\n\n- Basic https://www.tcgdex.net/database/xy/xy9/1\n- BREAK https://www.tcgdex.net/database/xy/xy9/18\n- LEVEL-UP https://www.tcgdex.net/database/dp/dp1/121\n- MEGA https://www.tcgdex.net/database/xy/xy1/2\n- RESTORED https://www.tcgdex.net/database/bw/bw5/53\n- Stage1 https://www.tcgdex.net/database/xy/xy9/2\n- Stage2 https://www.tcgdex.net/database/xy/xy9/3\n- VMAX https://www.tcgdex.net/database/swsh/swsh1/50\n- Baby https://www.tcgdex.net/database/swsh/cel25/20A\n- VSTAR https://www.tcgdex.net/database/swsh/swsh9/14",
+					"enum": [
+						"Basic",
+						"BREAK",
+						"LEVEL-UP",
+						"MEGA",
+						"RESTORED",
+						"Stage1",
+						"Stage2",
+						"VMAX",
+						"V-UNION",
+						"Baby",
+						"VSTAR"
+					],
+					"type": "string"
+				},
+				"suffix": {
+					"description": "Card Suffix\n\n- EX https://www.tcgdex.net/database/ex/ex2/94\n- GX https://www.tcgdex.net/database/sm/sm12/4\n- V https://www.tcgdex.net/database/swsh/swsh1/1\n- Legend https://www.tcgdex.net/database/hgss/hgss1/114\n- Prime https://www.tcgdex.net/database/hgss/hgss2/85\n- SP https://www.tcgdex.net/database/pl/pl1/7\n- TAG TEAM-GX https://www.tcgdex.net/database/sm/sm12/226",
+					"enum": [
+						"EX",
+						"GX",
+						"V",
+						"Legend",
+						"Prime",
+						"SP",
+						"TAG TEAM-GX"
+					],
+					"type": "string"
+				},
+				"trainerType": {
+					"enum": [
+						"Supporter",
+						"Item",
+						"Stadium",
+						"Tool",
+						"Ace Spec",
+						"Technical Machine",
+						"Goldenrod Game Corner",
+						"Rocket's Secret Machine"
+					],
+					"type": "string"
+				},
+				"types": {
+					"description": "Pokemon Types",
+					"items": {
+						"$ref": "#/definitions/Types"
+					},
+					"type": "array"
+				},
+				"variants": {
+					"additionalProperties": false,
+					"description": "Card Variants (Override Set Variants)",
+					"properties": {
+						"firstEdition": {
+							"description": "can have a first Edition stamp",
+							"type": "boolean"
+						},
+						"holo": {
+							"description": "Holo Card (illustration holographic)",
+							"type": "boolean"
+						},
+						"jumbo": {
+							"description": "Can be found in Jumob Format",
+							"type": "boolean"
+						},
+						"normal": {
+							"description": "Card base version",
+							"type": "boolean"
+						},
+						"preRelease": {
+							"description": "Card has a pre-release stamp",
+							"type": "boolean"
+						},
+						"reverse": {
+							"description": "Holo Reverse (colored Background holographic)",
+							"type": "boolean"
+						},
+						"wPromo": {
+							"const": true,
+							"description": "Card has a W stamp",
+							"type": "boolean"
+						}
+					},
+					"type": "object"
+				},
+				"weaknesses": {
+					"description": "Pokemon Weaknesses",
+					"items": {
+						"additionalProperties": false,
+						"properties": {
+							"type": {
+								"$ref": "#/definitions/Types"
+							},
+							"value": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"type"
+						],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"weight": {
+					"description": "Pokemon Weight",
+					"type": "string"
+				}
+			},
+			"required": [
+				"name",
+				"rarity",
+				"category",
+				"set"
+			],
+			"type": "object"
+		},
+		"Types": {
+			"enum": [
+				"Colorless",
+				"Darkness",
+				"Dragon",
+				"Fairy",
+				"Fighting",
+				"Fire",
+				"Grass",
+				"Lightning",
+				"Metal",
+				"Psychic",
+				"Water"
+			],
+			"type": "string"
+		},
+		"Languages": {
+			"additionalProperties": false,
+			"properties": {
+				"de": {
+					"type": "string"
+				},
+				"en": {
+					"type": "string"
+				},
+				"es": {
+					"type": "string"
+				},
+				"fr": {
+					"type": "string"
+				},
+				"it": {
+					"type": "string"
+				},
+				"pt": {
+					"type": "string"
+				}
+			},
+			"type": "object"
+		}
+	}
+}

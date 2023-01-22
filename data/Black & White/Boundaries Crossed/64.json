@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Paralyzing Jab",
+				"fr": "Piqûre Paralysante"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		453
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Glibunkel",
+		"en": "Croagunk",
+		"es": "Croagunk",
+		"fr": "Cradopaud",
+		"it": "Croagunk",
+		"pt": "Croagunk"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

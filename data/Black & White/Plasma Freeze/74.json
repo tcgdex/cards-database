@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut Down",
+				"fr": "Retranchement"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slicing Blade",
+				"fr": "Lame Tranchante"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		625
+	],
+	"evolveFrom": {
+		"en": "Pawniard",
+		"fr": "Scalpion"
+	},
+	"hp": 90,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Caesurio",
+		"en": "Bisharp",
+		"es": "Bisharp",
+		"fr": "Scalproie",
+		"it": "Bisharp",
+		"pt": "Bisharp"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

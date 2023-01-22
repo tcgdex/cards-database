@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Slap",
+				"fr": "Coud'keu"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Fireball",
+				"fr": "Boule de feu"
+			},
+			"effect": {
+				"en": "Use this attack only if there are any Energy cards attached to Dark Charmeleon. Flip a coin. If heads, discard 1 of those Energy cards. If tails, this attack does nothing (not even damage).",
+				"fr": "N'utilisez cette attaque que si des Énergies  sont attachées à Reptincel Obscur. Lancez une pièce. Si c'est face, défaussez 1 de ces cartes Énergies. Si c'est pile, cette attaque ne fait rien (pas même de dégâts)."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Sa queue incroyablement puissante est capable de soulever 5 hommes."
+	},
+	"dexId": [
+		5
+	],
+	"evolveFrom": {
+		"en": "Charmander"
+	},
+	"hp": 50,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Dark Charmeleon",
+		"fr": "Reptincel Obscur"
+	},
+	"rarity": "Uncommon",
+	"set": "base5",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"wPromo": true
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

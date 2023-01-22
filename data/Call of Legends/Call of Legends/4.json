@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Solar Suggestion"
+			},
+			"effect": {
+				"en": "Move up to 4 damage counters from any of your Pokémon to any of your opponent's Pokémon in any way you like."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psybeam"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		196
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 90,
+	"illustrator": "match",
+	"name": {
+		"en": "Espeon"
+	},
+	"rarity": "Rare",
+	"set": "col1",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

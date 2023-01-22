@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Psy Bolt",
+				"fr": "Choc Mental"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		280
+	],
+	"hp": 60,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Trasla",
+		"en": "Ralts",
+		"es": "Ralts",
+		"fr": "Tarsal",
+		"it": "Ralts",
+		"pt": "Ralts"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

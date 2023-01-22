@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Run Around",
+				"fr": "Course Effrénée"
+			},
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+			},
+			"damage": "n/a"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hook",
+				"fr": "Crochet"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		447
+	],
+	"hp": 60,
+	"illustrator": "sui",
+	"name": {
+		"en": "Riolu",
+		"fr": "Riolu"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bwp",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

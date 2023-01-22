@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"fr": "Éclair Turbo"
+			},
+			"effect": {
+				"fr": "Attachez 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"fr": "Élecsprint-ex"
+	},
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"fr": "M-Élecsprint-ex"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"set": "xya",
+	"stage": "MEGA",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

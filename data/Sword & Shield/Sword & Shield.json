@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 202,
+	"id": "swsh1",
+	"name": {
+		"de": "Schwert & Schild",
+		"en": "Sword & Shield",
+		"es": "Espada y Escudo",
+		"fr": "Épée et Bouclier",
+		"it": "Spada e Scudo",
+		"pt": "Espada e Escudo"
+	},
+	"releaseDate": "2020-02-07",
+	"serie": "swsh"
+}

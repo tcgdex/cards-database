@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Switch a card from your hand with the top card of your deck.",
+		"fr": "Échangez une carte de votre main contre la carte du dessus de votre deck.",
+		"es": "Cambia 1 carta de tu mano por la primera carta de tu baraja.",
+		"it": "Scambia una carta che hai in mano con la prima carta del tuo mazzo.",
+		"pt": "Troque 1 carta da sua mão pela carta de cima do seu baralho.",
+		"de": "Tausche 1 Karte aus deiner Hand gegen die oberste Karte deines Decks aus."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Tauschbecher",
+		"en": "Switching Cups",
+		"es": "Cubiletes de Cambio",
+		"fr": "Gobelets d'Échange",
+		"it": "Bicchieri di Scambio",
+		"pt": "Copos de Substituição"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"set": "swsh7",
+	"trainerType": "Item",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

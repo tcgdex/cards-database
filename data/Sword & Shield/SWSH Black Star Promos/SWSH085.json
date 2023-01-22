@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Electrify"
+			},
+			"effect": {
+				"en": "Search your deck for up to 2 Lightning Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bolt Storm"
+			},
+			"effect": {
+				"en": "This attack does 30 more damage for each Lightning Energy attached to all of your Pokémon."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		836
+	],
+	"hp": 200,
+	"illustrator": "aky CG Works",
+	"name": {
+		"en": "Boltund V"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

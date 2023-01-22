@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Barrier",
+				"fr": "Barrière métallique"
+			},
+			"effect": {
+				"en": "Prevent all effects of attacks, including damage, done to Arceus by Pokémon LV.X during your opponent's next turn.",
+				"fr": "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Arceus par des Pokémon NIV.X lors du prochain tour de votre adversaire."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		493
+	],
+	"hp": 90,
+	"illustrator": "TOKIYA",
+	"name": {
+		"en": "Arceus",
+		"fr": "Arceus"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

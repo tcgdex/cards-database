@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Poison Resistance",
+				"fr": "Résistance au poison"
+			},
+			"effect": {
+				"en": "Zangoose can't be Poisoned.",
+				"fr": "Mangriff ne peut pas être Empoisonné."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Target Slash",
+				"fr": "Tranche-cible"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Seviper, this attack does 10 damage plus 30 more damage.",
+				"fr": "Si Seviper est le Pokémon Défenseur, cette attaque inflige 40 dégâts."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Slash",
+				"fr": "Super entaille"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 60 dégâts."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		335
+	],
+	"hp": 70,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Zangoose",
+		"fr": "Mangriff"
+	},
+	"rarity": "Rare",
+	"set": "ex2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

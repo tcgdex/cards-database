@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Fusion Strike System"
+			},
+			"effect": {
+				"en": "Once during your turn, you may draw cards until you have as many cards in your hand as you have Fusion Strike Pokémon in play."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Techno Blast"
+			},
+			"damage": 210,
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 190,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"de": "Genesect V",
+		"en": "Genesect V",
+		"es": "Genesect V",
+		"fr": "Genesect V",
+		"it": "Genesect V",
+		"pt": "Genesect V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

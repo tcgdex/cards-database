@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Nap",
+				"fr": "Tit'sieste"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Mudkip.",
+				"fr": "Retirez à Gobou 2 marqueurs de dégât."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		258
+	],
+	"hp": 50,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Mudkip",
+		"fr": "Gobou"
+	},
+	"rarity": "Common",
+	"set": "ex14",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

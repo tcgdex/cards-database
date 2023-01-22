@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "G-Max Rolling",
+				"fr": "Roulade G-Max",
+				"es": "Gigarrodar",
+				"it": "Gigarotola",
+				"pt": "Rolamento G-Max",
+				"de": "Giga-Rollen"
+			},
+			"effect": {
+				"en": "This attack does 10 less damage for each damage counter on this Pokémon.",
+				"fr": "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+				"es": "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
+				"it": "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+				"pt": "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
+				"de": "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
+			},
+			"damage": "250-",
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Flapple V",
+		"fr": "Pomdrapi-V",
+		"es": "Flapple V",
+		"it": "Flapple-V",
+		"pt": "Flapple V",
+		"de": "Drapfel-V"
+	},
+	"hp": 320,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"de": "Drapfel VMAX",
+		"en": "Flapple VMAX",
+		"es": "Flapple VMAX",
+		"fr": "Pomdrapi VMAX",
+		"it": "Flapple VMAX",
+		"pt": "Flapple VMAX"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh5",
+	"stage": "VMAX",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

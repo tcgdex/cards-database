@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Calculate",
+				"fr": "Calcul"
+			},
+			"effect": {
+				"en": "Look at the top 4 cards of your deck and put them back on top of your deck in any order.",
+				"fr": "Regardez les 4 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psypunch",
+				"fr": "Coup de Poing Psy"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		374
+	],
+	"hp": 60,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Tanhel",
+		"en": "Beldum",
+		"es": "Beldum",
+		"fr": "Terhal",
+		"it": "Beldum",
+		"pt": "Beldum"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

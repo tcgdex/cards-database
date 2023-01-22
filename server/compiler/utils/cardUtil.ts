@@ -1,16 +1,20 @@
 /* eslint-disable sort-keys */
-import { setToSetSimple } from './setUtil'
-import { cardIsLegal, DB_PATH, fetchRemoteFile, smartGlob } from './util'
+import { getSet, setToSetSimple } from './setUtil'
+import { cardIsLegal, DB_PATH, fetchRemoteFile, realPath, smartGlob } from './util'
 import { Set, SupportedLanguages, Card, Types } from '../../../interfaces'
 import { Card as CardSingle, CardResume } from '../../../meta/definitions/api'
 import translate from './translationUtil'
+import { getSerie } from './serieUtil'
+import fs from 'fs/promises'
+import { posix as path } from 'path'
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
-		const fileExists = Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId])
+		const set = await getSet(card.set)
+		const fileExists = Boolean(file[lang]?.[set.serie]?.[set.id]?.[cardId])
 		if (fileExists) {
-			return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
+			return `https://assets.tcgdex.net/${lang}/${set.serie}/${card.set}/${cardId}`
 		}
 	} catch {
 		return undefined
@@ -21,11 +25,11 @@ export async function getCardPictures(cardId: string, card: Card, lang: Supporte
 export async function cardToCardSimple(id: string, card: Card, lang: SupportedLanguages): Promise<CardResume> {
 	const cardName = card.name[lang]
 	if (!cardName) {
-		throw new Error(`Card (${card.set.id}-${id}) has no name in (${lang})`)
+		throw new Error(`Card (${card.set}-${id}) has no name in (${lang})`)
 	}
 	const img = await getCardPictures(id, card, lang)
 	return {
-		id: `${card.set.id}-${id}`,
+		id: `${card.set}-${id}`,
 		image: img,
 		localId: id,
 		name: cardName
@@ -42,14 +46,14 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 
 	return {
 		category: translate('category', card.category, lang) as any,
-		id: `${card.set.id}-${localId}`,
+		id: `${card.set}-${localId}`,
 		illustrator: card.illustrator,
 		image,
 		localId,
 		name: card.name[lang] as string,
 
 		rarity: translate('rarity', card.rarity, lang) as any,
-		set: await setToSetSimple(card.set, lang),
+		set: await setToSetSimple(await getSet(card.set), lang),
 		variants: {
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
 			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : true,
@@ -118,7 +122,8 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
  * @returns [the local id, the Card object]
  */
 export async function getCard(serie: string, setName: string, id: string): Promise<Card> {
-	return (await import(`../../${DB_PATH}/data/${serie}/${setName}/${id}.js`)).default
+
+	return JSON.parse(await fs.readFile(realPath(__dirname, `../../../data/${serie}/${setName}/${id}.json`), 'utf-8'))
 }
 
 /**
@@ -128,7 +133,8 @@ export async function getCard(serie: string, setName: string, id: string): Promi
  * @returns An array with the 0 = localId, 1 = Card Object
  */
 export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	const cards = await smartGlob(`${DB_PATH}/data/${(set && set.serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.js`)
+	const serie = set?.serie ? await getSerie(set?.serie) : undefined
+	const cards = await smartGlob(realPath(__dirname, `../../../data/${(serie && serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.json`))
 	const list: Array<[string, Card]> = []
 	for (const path of cards) {
 		const id = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'))
@@ -136,7 +142,7 @@ export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Arr
 			const part1 = path.substr(0, path.lastIndexOf(id) - 1)
 			return part1.substr(part1.lastIndexOf('/') + 1)
 		})()
-		const serieName = (set && set.serie.name.en) ?? (() => {
+		const serieName = (serie && serie.name.en) ?? (() => {
 			const part1 = path.substr(0, path.lastIndexOf(setName) - 1)
 			return part1.substr(part1.lastIndexOf('/') + 1)
 		})()

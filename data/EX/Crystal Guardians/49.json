@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		4
+	],
+	"hp": 50,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Charmander δ",
+		"fr": "Salamèche δ ESPÈCES DELTA"
+	},
+	"rarity": "Common",
+	"set": "ex14",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

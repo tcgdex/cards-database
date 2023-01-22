@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Cottonweed",
+				"fr": "Mauvaise herbe de coton"
+			},
+			"effect": {
+				"en": "If Hoppip has any Grass Energy attached to it, the Retreat Cost for Hoppip is 0.",
+				"fr": "Si Granivol possède de l'Énergie Grass, son Coût de retraite est de 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Hover Heal",
+				"fr": "Guérison flottante"
+			},
+			"effect": {
+				"en": "Remove all Special Conditions from Hoppip.",
+				"fr": "Retirez à Granivol tous ses États Spéciaux."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		187
+	],
+	"hp": 30,
+	"illustrator": "Motofumi Fujiwara",
+	"name": {
+		"en": "Hoppip",
+		"fr": "Granivol"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

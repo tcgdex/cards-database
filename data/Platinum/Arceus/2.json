@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Snow Gift"
+			},
+			"effect": {
+				"en": "Once during your turn, when you play Froslass from your hand to evolve 1 of your Pokémon, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ground Frost"
+			},
+			"effect": {
+				"en": "If there is any Stadium card in play, this attack does nothing."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		478
+	],
+	"evolveFrom": {
+		"en": "Snorunt"
+	},
+	"illustrator": "TOKIYA",
+	"name": {
+		"en": "Froslass"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wide Solarbeam"
+			},
+			"effect": {
+				"en": "Does 20 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hard Plant"
+			},
+			"effect": {
+				"en": "Venusaur can’t use Hard Plant during your next turn."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		3
+	],
+	"evolveFrom": {
+		"en": "Ivysaur"
+	},
+	"hp": 120,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Venusaur"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "pop2",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire"
+		}
+	]
+}

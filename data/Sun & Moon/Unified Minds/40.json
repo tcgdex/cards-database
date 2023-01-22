@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Neon Trickery",
+				"fr": "Supercherie Néon",
+				"es": "Truco Neón",
+				"it": "Neon Birichino",
+				"pt": "Truques Neon",
+				"de": "Neontrickserei"
+			},
+			"effect": {
+				"en": "You may move an Energy from your opponent’s Active Pokémon to 1 of their Benched Pokémon.",
+				"fr": "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l’un de ses Pokémon de Banc.",
+				"es": "Puedes mover 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
+				"it": "Puoi spostare un’Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
+				"pt": "Você pode mover 1 Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele(a).",
+				"de": "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		457
+	],
+	"evolveFrom": {
+		"en": "Finneon",
+		"fr": "Écayon"
+	},
+	"hp": 90,
+	"illustrator": "Sekio",
+	"name": {
+		"de": "Lumineon",
+		"en": "Lumineon",
+		"es": "Lumineon",
+		"fr": "Luminéon",
+		"it": "Lumineon",
+		"pt": "Lumineon"
+	},
+	"rarity": "Uncommon",
+	"retreat": 0,
+	"set": "sm11",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

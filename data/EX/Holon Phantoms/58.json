@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Mud Slap",
+				"fr": "Coud'boue"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Claw",
+				"fr": "Griffe acier"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		304
+	],
+	"hp": 40,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Aron",
+		"fr": "Galekid"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"set": "ex13",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

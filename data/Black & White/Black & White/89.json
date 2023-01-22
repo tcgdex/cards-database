@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Slap",
+				"fr": "Plumo-Queue"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Do the Wave",
+				"fr": "Faites la Vague"
+			},
+			"effect": {
+				"en": "Does 20 damage times the number of your Benched Pokémon.",
+				"fr": "Inflige 20 dégâts multipliés par le nombre de vos Pokémon de Banc."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		573
+	],
+	"evolveFrom": {
+		"en": "Minccino",
+		"fr": "Chinchidou"
+	},
+	"hp": 90,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Chillabell",
+		"en": "Cinccino",
+		"es": "Cinccino",
+		"fr": "Pashmilla",
+		"it": "Cinccino",
+		"pt": "Cinccino"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

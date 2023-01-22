@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 more damage."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above."
+	},
+	"dexId": [
+		252
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Treecko"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "2021swsh",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "x2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Blissful Nurse",
+				"fr": "Infirmière divine"
+			},
+			"effect": {
+				"en": "Once during your turn, when you play Blissey from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon. If you do, discard all Energy attached to those Pokémon that had any damage counters on them.",
+				"fr": "Une seule fois pendant votre tour, lorsque vous jouez Leuphorie dans votre main pour faire évoluer l’un de vos Pokémon, vous pouvez retirer tous les marqueurs de dégâts de tous vos Pokémon. Dans ce cas, défaussez-vous de toutes les énergies attachées aux Pokémon qui avaient des marqueurs de dégâts."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strength",
+				"fr": "Force"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		242
+	],
+	"evolveFrom": {
+		"en": "Chansey",
+		"fr": "Leveinard"
+	},
+	"hp": 130,
+	"illustrator": "Noriko Hotta",
+	"name": {
+		"en": "Blissey",
+		"fr": "Leuphorie"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"suffix": "Prime",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

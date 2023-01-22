@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Razor Fin",
+				"fr": "Aileron-Rasoir",
+				"es": "Aleta Afilada",
+				"it": "Pinnalama",
+				"pt": "Barbatana Cortante",
+				"de": "Rasierflosse"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud."
+	},
+	"hp": 70,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Schmerbe",
+		"en": "Barboach",
+		"es": "Barboach",
+		"fr": "Barloche",
+		"it": "Barboach",
+		"pt": "Barboach"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

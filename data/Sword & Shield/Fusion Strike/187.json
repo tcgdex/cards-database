@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Let's All Rollout"
+			},
+			"damage": "20×",
+			"effect": {
+				"en": "This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rolling Attack"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately."
+	},
+	"hp": 80,
+	"illustrator": "Oswaldo KATO",
+	"name": {
+		"de": "Togedemaru",
+		"en": "Togedemaru",
+		"es": "Togedemaru",
+		"fr": "Togedemaru",
+		"it": "Togedemaru",
+		"pt": "Togedemaru"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Dragon Veil"
+			},
+			"effect": {
+				"en": "As long as Kingdra is in play, each of your Active Pokémon has no Weakness."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Whirlpool"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aqua Sonic"
+			},
+			"effect": {
+				"en": "This attack's damage is not affected by Resistance."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		230
+	],
+	"evolveFrom": {
+		"en": "Seadra"
+	},
+	"hp": 120,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Kingdra"
+	},
+	"rarity": "Rare",
+	"set": "ex7",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

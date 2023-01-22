@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flap",
+				"fr": "Battement"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fairy Friend",
+				"fr": "Ami Féérique"
+			},
+			"effect": {
+				"en": "If you have any Fairy Pokémon on your Bench, this attack does 30 more damage.",
+				"fr": "Si vous avez un Pokémon Fairy sur votre Banc, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		334
+	],
+	"evolveFrom": {
+		"en": "Swablu",
+		"fr": "Tylton"
+	},
+	"hp": 90,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Altaria",
+		"fr": "Altaria"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "g1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

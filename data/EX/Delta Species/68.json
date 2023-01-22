@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Scoop",
+				"fr": "Pelle métallique"
+			},
+			"effect": {
+				"en": "Search your discard pile for a Metal Energy card and attach it to Eevee.",
+				"fr": "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à Evoli."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		133
+	],
+	"hp": 50,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Eevee δ",
+		"fr": "Evoli δ ESPÈCES DELTA"
+	},
+	"rarity": "Common",
+	"set": "ex11",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

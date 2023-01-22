@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Silent Claw",
+				"fr": "Griffe Silencieuse"
+			},
+			"effect": {
+				"en": "Your opponent reveals his or her hand. Discard a Supporter card you find there. Use the effect of that card as the effect of this attack.",
+				"fr": "Votre adversaire montre sa main. Défaussez une carte Supporter que vous y trouvez. Utilisez l'effet de la carte Supporter défaussée en tant qu'effet de cette attaque."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fake Out",
+				"fr": "Bluff"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		510
+	],
+	"evolveFrom": {
+		"en": "Purrloin",
+		"fr": "Chacripan"
+	},
+	"hp": 80,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Kleoparda",
+		"en": "Liepard",
+		"es": "Liepard",
+		"fr": "Léopardus",
+		"it": "Liepard",
+		"pt": "Liepard"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

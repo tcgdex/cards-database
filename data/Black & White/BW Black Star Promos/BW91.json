@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Electrigun",
+				"fr": "Pistolectrique"
+			},
+			"effect": {
+				"en": "You may discard a Lightning Energy attached to this Pokémon. If you do, this attack does 40 more damage.",
+				"fr": "Vous pouvez défausser une Énergie Lightning attachée à ce Pokémon. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pin Missile",
+				"fr": "Dard-Nuée"
+			},
+			"effect": {
+				"en": "Flip 4 coins. This attack does 40 damage times the number of heads.",
+				"fr": "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		135
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Évoli"
+	},
+	"hp": 90,
+	"illustrator": "Illus.＆Direc.The Pokémon Company Art Team",
+	"name": {
+		"en": "Jolteon",
+		"fr": "Voltali"
+	},
+	"rarity": "Common",
+	"set": "bwp",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

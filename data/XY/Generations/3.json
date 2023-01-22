@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Adaptive Evolution",
+				"fr": "Évolution Adaptative"
+			},
+			"effect": {
+				"en": "This Pokémon can evolve during your first turn or the turn you play it.",
+				"fr": "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Bug Bite",
+				"fr": "Piqûre"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		10
+	],
+	"hp": 40,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Caterpie",
+		"fr": "Chenipan"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "g1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

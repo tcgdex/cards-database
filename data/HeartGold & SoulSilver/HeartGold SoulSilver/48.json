@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sleep Drain",
+				"fr": "Aspirododo"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep. Remove 4 damage counters from Parasect.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi. Retirez 4 marqueurs de dégâts de Parasect."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters."
+	},
+	"dexId": [
+		47
+	],
+	"evolveFrom": {
+		"en": "Paras",
+		"fr": "Paras"
+	},
+	"hp": 90,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Parasect",
+		"fr": "Parasect"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

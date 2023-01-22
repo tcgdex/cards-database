@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Barrier"
+			},
+			"effect": {
+				"en": "Discard 1 Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		150
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Mewtwo"
+	},
+	"rarity": "Rare",
+	"set": "base4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

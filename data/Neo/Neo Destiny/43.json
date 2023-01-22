@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Corner",
+				"fr": "Coincé"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunge",
+				"fr": "Coup rapide"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Quand la nuit tombe, les hurlements sinistres de ce Pokémon retentissent dans le silence tandis qu'il chasse sur son territoire."
+	},
+	"dexId": [
+		228
+	],
+	"hp": 40,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Houndour",
+		"fr": "Malosse"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "neo4",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Spike Spread",
+				"fr": "Volée de piques"
+			},
+			"effect": {
+				"en": "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gyro Ball",
+				"fr": "Gyroballe"
+			},
+			"effect": {
+				"en": "You may switch Forretress with 1 of your Benched Pokémon. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Vous pouvez échanger Foretress avec un des Pokémon de votre Banc. Dans ce cas, votre adversaire échange le Pokémon Défenseur avec l’un des Pokémon de son Banc."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away."
+	},
+	"dexId": [
+		205
+	],
+	"evolveFrom": {
+		"en": "Pineco",
+		"fr": "Pomdepik"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Forretress",
+		"fr": "Foretress"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

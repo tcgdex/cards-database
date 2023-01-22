@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Spinning Attack",
+				"fr": "Attaque Tournante",
+				"es": "Ataque Giratorio",
+				"it": "Attacco Rotante",
+				"pt": "Ataque Giratório",
+				"de": "Rundumangriff"
+			},
+			"damage": 20,
+			"cost": [
+				"Psychic"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee."
+	},
+	"hp": 50,
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"de": "Iscalar",
+		"en": "Inkay",
+		"es": "Inkay",
+		"fr": "Sepiatop",
+		"it": "Inkay",
+		"pt": "Inkay"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

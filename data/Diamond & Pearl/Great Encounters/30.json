@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sleeping Pulse",
+				"fr": "Pouls dormant"
+			},
+			"effect": {
+				"en": "As long as Wailord remains Asleep between turns, remove 1 damage counter from Wailord.",
+				"fr": "Tant que Wailord est Endormi entre deux tours, retirez-lui 1 marqueur de dégât."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sink Deep",
+				"fr": "Couler"
+			},
+			"effect": {
+				"en": "If Wailord has any damage counters on it, Wailord is now Asleep.",
+				"fr": "Si Wailord possède des marqueurs de dégât, il est maintenant Endormi."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		321
+	],
+	"evolveFrom": {
+		"en": "Wailmer",
+		"fr": "Wailmer"
+	},
+	"hp": 200,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Wailord",
+		"fr": "Wailord"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

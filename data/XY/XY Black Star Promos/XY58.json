@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Contrary"
+			},
+			"effect": {
+				"en": "If this Pokémon is your Active Pokémon, whenever your opponent flips a coin during his or her turn, treat it as tails."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Conform",
+				"fr": "Stop Θ"
+			},
+			"effect": {
+				"en": "If you have the same number of cards in your hand as your opponent, your opponent's Active Pokémon is now Confused."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		687
+	],
+	"evolveFrom": {
+		"en": "Inkay",
+		"fr": "Sepiatop"
+	},
+	"hp": 90,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Malamar",
+		"fr": "Sepiatroce"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xyp",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

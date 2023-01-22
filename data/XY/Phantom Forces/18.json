@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Pfund"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		456
+	],
+	"hp": 50,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Finneon",
+		"en": "Finneon",
+		"es": "Finneon",
+		"fr": "Écayon",
+		"it": "Finneon",
+		"pt": "Finneon"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

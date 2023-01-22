@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Pokemon Power",
+			"name": {
+				"en": "Fossil",
+				"fr": "Réanimation Fossile"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it on your Bench. Shuffle your deck afterward. Treat that card as a Basic Pokémon. This power can't be used if Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is full).",
+				"fr": "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck une carte Évolution de Mystérieux Fossile et placez-la sur votre Banc. Utilisez cette carte comme un Pokémon de base. Ce pouvoir ne peut pas être utilisé si Amonita est Endormi, Confus ou Paralysé (ou si votre Banc est plein)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Bind",
+				"fr": "Étreinte"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Un ancien fossile ramené à la vie, ce Pokémon utilise l'air conservé dans sa carapace pour plonger dans l'eau et refaire surface."
+	},
+	"dexId": [
+		138
+	],
+	"hp": 50,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Omanyte",
+		"fr": "Amonita"
+	},
+	"rarity": "Common",
+	"set": "neo2",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

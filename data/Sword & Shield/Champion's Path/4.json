@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Poison Jab",
+				"fr": "Direct Toxik",
+				"es": "Puya Nociva",
+				"it": "Velenpuntura",
+				"pt": "Golpe Envenenado",
+				"de": "Gifthieb"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
+	},
+	"evolveFrom": {
+		"en": "Kakuna",
+		"fr": "Coconfort"
+	},
+	"hp": 140,
+	"illustrator": "Hideki Ishikawa",
+	"name": {
+		"de": "Bibor",
+		"en": "Beedrill",
+		"es": "Beedrill",
+		"fr": "Dardargnan",
+		"it": "Beedrill",
+		"pt": "Beedrill"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3.5",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

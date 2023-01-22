@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Primal Veil",
+				"fr": "Voile primordial"
+			},
+			"effect": {
+				"en": "As long as Armaldo is your Active Pokémon, each player can't play any Supporter cards.",
+				"fr": "Tant qu'Armaldo est votre Pokémon Actif, ni vous ni votre adversaire ne pouvez jouer de cartes Supporter."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blade Arms",
+				"fr": "Bras tranchants"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		348
+	],
+	"evolveFrom": {
+		"en": "Anorith"
+	},
+	"hp": 120,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Armaldo",
+		"fr": "Armaldo"
+	},
+	"rarity": "Rare",
+	"set": "ex2",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

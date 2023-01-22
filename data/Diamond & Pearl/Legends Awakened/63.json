@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Bone",
+				"fr": "Os lourd"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, Marowak can't use Heavy Bone during your next turn.",
+				"fr": "Lancez une pièce. Si c'est pile, Ossatueur ne peut pas utiliser Os lourd lors de votre prochain tour."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Bone Rush",
+				"fr": "Charge-os"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 50 damage times the number of heads.",
+				"fr": "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "50×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon sauvage possède des os depuis sa naissance. Il s'en sert pour combattre avec dextérité."
+	},
+	"dexId": [
+		105
+	],
+	"evolveFrom": {
+		"en": "Cubone",
+		"fr": "Tragosso"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Marowak",
+		"fr": "Ossatueur"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

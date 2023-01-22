@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Multi expédition à un de vos Pokémon qui n'a pas d'Outil Pokémon attaché à lui.\n\nPendant le tour de votre adversaire, si votre Pokémon Actif doit être mis K.O. par l'attaque de votre adversaire, vous pouvez prendre une des cartes Énergie de base attachées à votre Pokémon Actif et l'attacher au Pokémon ayant Multi expédition attachée à lui. Si vous le faites, défaussez-vous de Multi expédition."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "EXP.ALL",
+		"fr": "Multi expédition"
+	},
+	"rarity": "Rare",
+	"set": "neo4"
+}

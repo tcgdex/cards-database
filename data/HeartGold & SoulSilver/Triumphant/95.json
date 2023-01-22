@@ -1,0 +1,85 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Fighting Tag",
+				"fr": "Relève guerrière"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), if Machamp is on your Bench, you may move all Fighting Energy attached to your Active Pokémon to Machamp. If you do, switch Machamp with your Active Pokémon.",
+				"fr": "Une fois pendant votre tour (avant votre attaque), si Mackogneur est sur votre Banc, vous pouvez lui attribuer toutes les cartes Énergie Fighting attachées à votre Pokémon Actif. Dans ce cas, échangez Mackogneur avec votre Pokémon Actif."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crushing Punch",
+				"fr": "Poing dévastateur"
+			},
+			"effect": {
+				"en": "Discard a Special Energy card attached to the Defending Pokémon.",
+				"fr": "Défaussez une carte Énergie Spéciale attachée au Pokémon Défenseur."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Champ Buster",
+				"fr": "Explos’tout"
+			},
+			"effect": {
+				"en": "Does 100 damage plus 10 more damage for each of your Benched Pokémon that has any damage counters on it.",
+				"fr": "Inflige 100 dégâts plus 10 dégâts supplémentaires pour chacun de vos Pokémon de Banc ayant des marqueurs de dégât."
+			},
+			"damage": "100+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		68
+	],
+	"evolveFrom": {
+		"en": "Machoke",
+		"fr": "Machopeur"
+	},
+	"hp": 150,
+	"illustrator": "Shizurow",
+	"name": {
+		"en": "Machamp",
+		"fr": "Mackogneur"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 3,
+	"set": "hgss4",
+	"stage": "Stage2",
+	"suffix": "Prime",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

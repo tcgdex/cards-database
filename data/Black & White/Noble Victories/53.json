@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Dizzy Punch",
+				"fr": "Uppercut"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mind Bend",
+				"fr": "Contrôleur d'Esprit"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		579
+	],
+	"evolveFrom": {
+		"en": "Duosion",
+		"fr": "Méios"
+	},
+	"hp": 90,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Zytomega",
+		"en": "Reuniclus",
+		"es": "Reuniclus",
+		"fr": "Symbios",
+		"it": "Reuniclus",
+		"pt": "Reuniclus"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

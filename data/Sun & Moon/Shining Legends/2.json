@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch’Herbe",
+				"es": "Hoja Afilada",
+				"it": "Foglielama",
+				"pt": "Folha Navalha",
+				"de": "Rasierblatt"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Toxic Whip",
+				"fr": "Fouet Toxique",
+				"es": "Látigo Tóxico",
+				"it": "Frustata Tossica",
+				"pt": "Chicote Tóxico",
+				"de": "Giftgeißel"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		2
+	],
+	"evolveFrom": {
+		"en": "Bulbasaur",
+		"fr": "Bulbizarre"
+	},
+	"hp": 100,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Bisaknosp",
+		"en": "Ivysaur",
+		"es": "Ivysaur",
+		"fr": "Herbizarre",
+		"it": "Ivysaur",
+		"pt": "Ivysaur"
+	},
+	"rarity": "Common",
+	"retreat": 4,
+	"set": "sm3.5",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

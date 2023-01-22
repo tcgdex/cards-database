@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call for Support",
+				"fr": "Appel au Renfort"
+			},
+			"effect": {
+				"en": "Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		5
+	],
+	"evolveFrom": {
+		"en": "Charmander",
+		"fr": "Salamèche"
+	},
+	"hp": 90,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Charmeleon",
+		"fr": "Reptincel"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "g1",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

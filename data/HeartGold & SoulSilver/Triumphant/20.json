@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Plasma",
+				"fr": "Plasma"
+			},
+			"effect": {
+				"en": "Search your discard pile for a Lightning Energy card and attach it to Electivire.",
+				"fr": "Cherchez une carte Énergie Lightning dans votre pile de défausse et attachez-la à Elekable."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunder Shot",
+				"fr": "Tir foudroyant"
+			},
+			"effect": {
+				"en": "This attack does 50 damage to each of your opponent’s Pokémon that has any Energy cards attached to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 50 dégâts à chacun des Pokémon de votre adversaire auxquels sont attachées des cartes Énergie. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "As its electric charge amplifies, blue sparks begin to crackle between its horns."
+	},
+	"dexId": [
+		466
+	],
+	"evolveFrom": {
+		"en": "Electabuzz",
+		"fr": "Elektek"
+	},
+	"hp": 100,
+	"illustrator": "TOKIYA",
+	"name": {
+		"en": "Electivire",
+		"fr": "Elekable"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

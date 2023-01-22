@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Full Retaliation",
+				"fr": "Double Θ"
+			},
+			"effect": {
+				"en": "This attack does 30 more damage for each damage counter on each of your Benched Magikarp."
+			},
+			"damage": "30+"
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thrash"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage. If tails, this Pokémon does 30 damage to itself."
+			},
+			"damage": "100+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		130
+	],
+	"evolveFrom": {
+		"en": "Magikarp",
+		"fr": "Magicarpe"
+	},
+	"hp": 130,
+	"illustrator": "TOKIYA",
+	"name": {
+		"en": "Gyarados",
+		"fr": "Léviator"
+	},
+	"rarity": "None",
+	"retreat": 3,
+	"set": "xyp",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

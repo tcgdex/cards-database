@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Agility",
+				"fr": "Hâte"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent’s next turn.",
+				"fr": "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Voltali pendant le prochain tour de votre adversaire."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mach Bolt",
+				"fr": "Éclair fulgurant"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts."
+	},
+	"dexId": [
+		135
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Evoli"
+	},
+	"hp": 80,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Jolteon",
+		"fr": "Voltali"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

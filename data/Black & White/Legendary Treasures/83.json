@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Muddy Water"
+			},
+			"effect": {
+				"en": "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rumble"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		618
+	],
+	"hp": 100,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Stunfisk"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est face, piochez 4 cartes."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Bill's Teleporter",
+		"fr": "Téléporteur de Léo"
+	},
+	"rarity": "Uncommon",
+	"set": "neo1"
+}

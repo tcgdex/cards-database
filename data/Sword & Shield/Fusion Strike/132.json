@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dig Uppercut"
+			},
+			"damage": 60,
+			"effect": {
+				"en": "Put a card from your discard pile into your hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Thanks to its thick claws, it's good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep."
+	},
+	"evolveFrom": {
+		"en": "Sandshrew",
+		"fr": "Sabelette",
+		"es": "Sandshrew",
+		"it": "Sandshrew",
+		"pt": "Sandshrew",
+		"de": "Sandan"
+	},
+	"hp": 120,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Sandamer",
+		"en": "Sandslash",
+		"es": "Sandslash",
+		"fr": "Sablaireau",
+		"it": "Sandslash",
+		"pt": "Sandslash"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

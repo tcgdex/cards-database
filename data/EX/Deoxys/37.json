@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d'boule"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Burning Ball",
+				"fr": "Boule brûlante"
+			},
+			"effect": {
+				"en": "If Magcargo has at least 2 Fire Energy attached to it, the Defending Pokémon is now Burned.",
+				"fr": "Si Volcaropod possède au moins 2 Énergies , le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		219
+	],
+	"evolveFrom": {
+		"en": "Slugma"
+	},
+	"hp": 80,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"en": "Magcargo",
+		"fr": "Volcaropod"
+	},
+	"rarity": "Uncommon",
+	"set": "ex8",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

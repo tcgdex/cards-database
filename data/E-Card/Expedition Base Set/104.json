@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Singe",
+				"fr": "Roussir"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack",
+				"fr": "Vive-attaque"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		155
+	],
+	"hp": 40,
+	"illustrator": "Sachi Matoba",
+	"name": {
+		"en": "Cyndaquil",
+		"fr": "Héricendre"
+	},
+	"rarity": "Common",
+	"set": "ecard1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

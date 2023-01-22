@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Wing Attack",
+				"fr": "Cru-aile"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		16
+	],
+	"hp": 40,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Pidgey δ",
+		"fr": "Roucool δ ESPÈCES DELTA"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex13",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

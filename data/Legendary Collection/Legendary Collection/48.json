@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Kabuto Armor"
+			},
+			"effect": {
+				"en": "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack only does half the damage to Kabuto (rounded down to nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is Asleep, Confused, or Paralyzed."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		140
+	],
+	"hp": 30,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Kabuto"
+	},
+	"rarity": "Uncommon",
+	"set": "lc",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

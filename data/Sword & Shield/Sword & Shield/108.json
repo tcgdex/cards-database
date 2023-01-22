@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d'Boule",
+				"es": "Golpe Cabeza",
+				"it": "Bottintesta",
+				"pt": "Cabeçada",
+				"de": "Kopfnuss"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap",
+				"fr": "Queue Battoir",
+				"es": "Coletón",
+				"it": "Codabotta",
+				"pt": "Surra de Cauda",
+				"de": "Schweifvertrimmer"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand."
+	},
+	"dexId": [
+		843
+	],
+	"hp": 70,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Salanga",
+		"en": "Silicobra",
+		"es": "Silicobra",
+		"fr": "Dunaja",
+		"it": "Silicobra",
+		"pt": "Silicobra"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

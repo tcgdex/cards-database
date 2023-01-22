@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Growth",
+				"fr": "Croissance",
+				"es": "Desarrollo",
+				"it": "Crescita",
+				"pt": "Crescimento",
+				"de": "Wachstum"
+			},
+			"effect": {
+				"en": "Attach a Grass Energy card from your hand to this Pokémon.",
+				"fr": "Attachez une carte Énergie Grass de votre main à ce Pokémon.",
+				"es": "Une 1 carta de Energía Grass de tu mano a este Pokémon.",
+				"it": "Assegna a questo Pokémon una carta Energia Grass dalla tua mano.",
+				"pt": "Ligue 1 carta de Energia Grass da sua mão a este Pokémon.",
+				"de": "Lege1 Grass-Energiekarte aus deiner Hand an dieses Pokémon an."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch’Herbe",
+				"es": "Hoja Afilada",
+				"it": "Foglielama",
+				"pt": "Folha Navalha",
+				"de": "Rasierblatt"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		672
+	],
+	"hp": 70,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Mähikel",
+		"en": "Skiddo",
+		"es": "Skiddo",
+		"fr": "Cabriolaine",
+		"it": "Skiddo",
+		"pt": "Skiddo"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm6",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

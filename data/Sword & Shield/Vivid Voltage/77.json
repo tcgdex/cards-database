@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Tail Trickery",
+				"fr": "Queue Étourdissante",
+				"es": "Cola Engaño",
+				"it": "Confondicoda",
+				"pt": "Truques de Cauda",
+				"de": "Schweiftrick"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
+	},
+	"hp": 70,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Dedenne",
+		"en": "Dedenne",
+		"es": "Dedenne",
+		"fr": "Dedenne",
+		"it": "Dedenne",
+		"pt": "Dedenne"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

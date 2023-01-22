@@ -1,0 +1,91 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Perfect Metal",
+				"fr": "Métal parfait"
+			},
+			"effect": {
+				"en": "Steelix can’t be affected by any Special Conditions.",
+				"fr": "Steelix ne peut pas être affecté par les États Spéciaux."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Energy Stream",
+				"fr": "Courant d’énergie"
+			},
+			"effect": {
+				"en": "Search your discard pile for an Energy card and attach it to Steelix.",
+				"fr": "Cherchez une carte Énergie dans votre pile de défausse et attachez-la à Steelix."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gaia Crush",
+				"fr": "Anéantissement de Gaïa"
+			},
+			"effect": {
+				"en": "You may discard any Stadium card in play.",
+				"fr": "Vous pouvez défausser n’importe quelle carte Stade en jeu."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		208
+	],
+	"evolveFrom": {
+		"en": "Onix",
+		"fr": "Onix"
+	},
+	"hp": 140,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Steelix",
+		"fr": "Steelix"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "hgss2",
+	"stage": "Stage1",
+	"suffix": "Prime",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Crunch",
+				"fr": "Mâchouille"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		550
+	],
+	"hp": 70,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Barschuft",
+		"en": "Basculin",
+		"es": "Basculin",
+		"fr": "Bargantua",
+		"it": "Basculin",
+		"pt": "Basculin"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

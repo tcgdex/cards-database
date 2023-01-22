@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez cette carte à 1 de vos Pokémon en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Technical Machine TS-2",
+		"fr": "Machine Technique TS-2"
+	},
+	"rarity": "Uncommon",
+	"set": "dp6",
+	"trainerType": "Technical Machine"
+}

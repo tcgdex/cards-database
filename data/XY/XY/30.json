@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Hydro Bombard",
+				"fr": "Hydroflagration",
+				"es": "Hidrobombardeo",
+				"it": "Idrobomba",
+				"pt": "Bombardeio de Água",
+				"de": "Hydrokanone"
+			},
+			"effect": {
+				"en": "This attack does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 30 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				"es": "Este ataque hace 30 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				"it": "Questo attacco infligge 30 danni a due dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				"pt": "Esse ataque causa 30 de danos a 2 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
+				"de": "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		9
+	],
+	"evolveFrom": {
+		"en": "Blastoise-EX",
+		"fr": "Tortank-EX",
+		"es": "Blastoise-EX",
+		"it": "Blastoise-EX",
+		"pt": "Blastoise-EX",
+		"de": "Turtok-EX"
+	},
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "M-Turtok EX",
+		"en": "M Blastoise EX",
+		"es": "M-Blastoise EX",
+		"fr": "M Tortank EX",
+		"it": "M Blastoise EX",
+		"pt": "M-Blastoise EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 3,
+	"set": "xy1",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

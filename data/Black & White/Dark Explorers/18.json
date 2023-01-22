@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Cloak"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, attach a Fire Energy card from your discard pile to this Pokémon."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Blast"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		324
+	],
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Qurtel",
+		"en": "Torkoal",
+		"es": "Torkoal",
+		"fr": "Chartor",
+		"it": "Torkoal",
+		"pt": "Torkoal"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Punch",
+				"fr": "Koud'Poing"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack",
+				"fr": "Vive-Attaque"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		447
+	],
+	"hp": 70,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"de": "Riolu",
+		"en": "Riolu",
+		"es": "Riolu",
+		"fr": "Riolu",
+		"it": "Riolu",
+		"pt": "Riolu"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

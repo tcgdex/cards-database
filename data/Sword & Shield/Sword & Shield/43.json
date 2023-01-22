@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Slice",
+				"fr": "Super Tranche",
+				"es": "Supertajo",
+				"it": "Super Trancia",
+				"pt": "Superfatiador",
+				"de": "Superschnippler"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				"fr": "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				"es": "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
+				"it": "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
+				"pt": "Jogue 2 moedas. Se qualquer uma delas sair coroa, este ataque não fará nada.",
+				"de": "Wirf 2 Münzen. Wenn eine oder beide Münzen Zahl zeigen, hat diese Attacke keine Auswirkungen."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
+	},
+	"dexId": [
+		98
+	],
+	"hp": 80,
+	"illustrator": "miki kudo",
+	"name": {
+		"de": "Krabby",
+		"en": "Krabby",
+		"es": "Krabby",
+		"fr": "Krabby",
+		"it": "Krabby",
+		"pt": "Krabby"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

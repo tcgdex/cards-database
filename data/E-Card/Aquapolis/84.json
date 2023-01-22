@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Bubble",
+				"fr": "Écume"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		116
+	],
+	"hp": 40,
+	"illustrator": "Hisao Nakamura",
+	"name": {
+		"en": "Horsea",
+		"fr": "Hypotrempe"
+	},
+	"rarity": "Common",
+	"set": "ecard2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Aqua Pump",
+				"fr": "Aqua-pompe"
+			},
+			"effect": {
+				"en": "You may discard up to 2 Water Energy cards from your hand. If you do, this attack does 30 damage plus 10 more damage for each Energy card you discarded.",
+				"fr": "Vous pouvez défausser jusqu'à 2 cartes Énergie Water de votre main. Cette attaque inflige alors 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée."
+			},
+			"damage": "30+"
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son épine dorsale le protège. Ses os et ses nageoires sont très prisés en médecine traditionnelle."
+	},
+	"dexId": [
+		117
+	],
+	"evolveFrom": {
+		"en": "Horsea",
+		"fr": "Seeper"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Seadra",
+		"fr": "Hypocean"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

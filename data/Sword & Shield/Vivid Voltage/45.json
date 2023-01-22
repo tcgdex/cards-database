@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Electro Ball",
+				"fr": "Boule Élek",
+				"es": "Bola Voltio",
+				"it": "Energisfera",
+				"pt": "Bola Elétrica",
+				"de": "Elektroball"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+	},
+	"hp": 60,
+	"illustrator": "Sekio",
+	"name": {
+		"de": "Voltobal",
+		"en": "Voltorb",
+		"es": "Voltorb",
+		"fr": "Voltorbe",
+		"it": "Voltorb",
+		"pt": "Voltorb"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Hideki Kazama",
+	"name": {
+		"en": "Recycle Energy",
+		"fr": "Énergie recyclable"
+	},
+	"rarity": "Rare",
+	"set": "neo1"
+}

@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Levitate",
+				"fr": "Lévitation"
+			},
+			"effect": {
+				"en": "If Metang has any Energy attached to it, Metang's Retreat Cost is 0.",
+				"fr": "Si Metang possède des Énergies, son Coût de Retraite est de 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		375
+	],
+	"evolveFrom": {
+		"en": "Beldum"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Metang",
+		"fr": "Metang"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"set": "ex5",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

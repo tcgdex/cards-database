@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Rogne"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poisonpowder",
+				"fr": "Poudre toxik"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il possède une sorte de radar qu'il utilise pour trouver les insectes qu'il mange, même dans l'obscurité la plus totale."
+	},
+	"dexId": [
+		48
+	],
+	"hp": 40,
+	"illustrator": "Masako Yamashita",
+	"name": {
+		"en": "Venonat",
+		"fr": "Mimitoss"
+	},
+	"rarity": "Common",
+	"set": "neo4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

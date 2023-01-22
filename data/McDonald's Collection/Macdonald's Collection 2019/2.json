@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tropical Shake"
+			},
+			"damage": "20+",
+			"effect": {
+				"en": "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can’t add more than 100 damage in this way."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
+	},
+	"hp": 160,
+	"illustrator": "Satoshi Shirai",
+	"name": {
+		"en": "Alolan Exeggutor"
+	},
+	"rarity": "None",
+	"set": "2019sm",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

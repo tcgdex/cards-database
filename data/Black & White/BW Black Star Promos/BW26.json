@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Big Bite",
+				"fr": "Grosse Morsure"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		610
+	],
+	"hp": 50,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Axew",
+		"fr": "Coupenotte"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bwp",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	]
+}

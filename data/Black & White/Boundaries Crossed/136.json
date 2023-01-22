@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Tournez toutes vos cartes Récompense face découverte. (Ces cartes Récompense restent face découverte pour le reste de la partie.)",
+		"en": "Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.)",
+		"es": "Pon todas tus cartas de Premio boca arriba. (Esas cartas de Premio permanecerán boca arriba durante el resto de la partida.)",
+		"it": "Gira tutte le tue carte Premio a faccia in su (rimarranno così per il resto della partita).",
+		"pt": "Vire todos os seus cards de Prêmio com a face para cima. (Os cards de Prêmio permanecerão virados para cima pelo resto do jogo.)",
+		"de": "Decke all deine Preiskarten auf. (Diese Preiskarten bleiben für den Rest des Spiels aufgedeckt.)"
+	},
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Karte",
+		"en": "Town Map",
+		"es": "Mapa",
+		"fr": "Carte",
+		"it": "Mappa Città",
+		"pt": "Mapa da Cidade"
+	},
+	"rarity": "Uncommon",
+	"set": "bw7",
+	"trainerType": "Item"
+}

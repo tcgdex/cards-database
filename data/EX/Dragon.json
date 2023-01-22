@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 97,
+	"id": "ex3",
+	"name": {
+		"de": "EX Drache",
+		"en": "Dragon",
+		"fr": "EX Dragon",
+		"it": "EX Drago"
+	},
+	"releaseDate": "2003-11-24",
+	"serie": "ex",
+	"tcgOnline": "DR"
+}

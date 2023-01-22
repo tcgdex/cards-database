@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fire Punch",
+				"fr": "Poing de feu"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Kick",
+				"fr": "Double pied"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "50×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		257
+	],
+	"evolveFrom": {
+		"en": "Combusken"
+	},
+	"hp": 110,
+	"illustrator": "Katsura Tabata",
+	"name": {
+		"en": "Blaziken",
+		"fr": "Brasegali"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "pop1",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water"
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Me First",
+				"fr": "Moi d'Abord",
+				"es": "Yo Primero",
+				"it": "Precedenza",
+				"pt": "Primeiro Eu",
+				"de": "Egotrip"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre 1 carta.",
+				"de": "Ziehe 1 Karte."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
+	},
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Natu",
+		"en": "Natu",
+		"es": "Natu",
+		"fr": "Natu",
+		"it": "Natu",
+		"pt": "Natu"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

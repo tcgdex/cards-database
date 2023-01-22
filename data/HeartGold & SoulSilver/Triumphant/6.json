@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Pheromone Stamina",
+				"fr": "Endurance aux phéromones"
+			},
+			"effect": {
+				"en": "Nidoking gets +20 HP for each Nidoqueen you have in play.",
+				"fr": "Nidoking reçoit +20 PV pour chacun de vos Nidoqueen en jeu."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Venomous Horn",
+				"fr": "Corne venimeuse"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
+	},
+	"dexId": [
+		34
+	],
+	"evolveFrom": {
+		"en": "Nidorino",
+		"fr": "Nidorino"
+	},
+	"hp": 140,
+	"illustrator": "match",
+	"name": {
+		"en": "Nidoking",
+		"fr": "Nidoking"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "hgss4",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

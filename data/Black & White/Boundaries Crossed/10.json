@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call for Family",
+				"fr": "Appel à la Famille"
+			},
+			"effect": {
+				"en": "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				"fr": "Cherchez 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Leaf Drain",
+				"fr": "Feuille Sangsue"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, heal 30 damage from this Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, soignez 30 dégâts à ce Pokémon."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		492
+	],
+	"hp": 70,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Shaymin",
+		"en": "Shaymin",
+		"es": "Shaymin",
+		"fr": "Shaymin",
+		"it": "Shaymin",
+		"pt": "Shaymin"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

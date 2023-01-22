@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Stampede",
+				"fr": "Ruée",
+				"es": "Estampida",
+				"it": "Fuggi Fuggi",
+				"pt": "Estouro",
+				"de": "Zertrampeln"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magical Shot",
+				"fr": "Coup Magique",
+				"es": "Disparo Mágico",
+				"it": "Magicolpo",
+				"pt": "Tiro Mágico",
+				"de": "Magischer Schuss"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you."
+	},
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Brimova",
+		"en": "Hatenna",
+		"es": "Hatenna",
+		"fr": "Bibichut",
+		"it": "Hatenna",
+		"pt": "Hatenna"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh3.5",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collectionner"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cat Kick",
+				"fr": "Coup d'patte"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		52
+	],
+	"hp": 50,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Meowth",
+		"fr": "Miaouss"
+	},
+	"rarity": "Common",
+	"set": "ex6",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

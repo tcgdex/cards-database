@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Hit",
+				"fr": "Coup Double"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strength",
+				"fr": "Force"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		634
+	],
+	"evolveFrom": {
+		"en": "Deino",
+		"fr": "Solochi"
+	},
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Duodino",
+		"en": "Zweilous",
+		"es": "Zweilous",
+		"fr": "Diamat",
+		"it": "Zweilous",
+		"pt": "Zweilous"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

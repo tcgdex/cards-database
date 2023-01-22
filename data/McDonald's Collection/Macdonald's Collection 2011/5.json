@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Pound"
+			},
+			"damage": 20
+		},
+		{
+			"name": {
+				"en": "Wave Splash"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore."
+	},
+	"hp": 100,
+	"illustrator": "sui",
+	"name": {
+		"en": "Alomomola"
+	},
+	"rarity": "None",
+	"set": "2011bw",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise",
+				"es": "Combustión",
+				"it": "Fuoco Continuo",
+				"pt": "Combustão",
+				"de": "Glühen"
+			},
+			"damage": 50,
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
+	},
+	"hp": 80,
+	"illustrator": "You Iribi",
+	"name": {
+		"de": "Floink",
+		"en": "Tepig",
+		"es": "Tepig",
+		"fr": "Gruikui",
+		"it": "Tepig",
+		"pt": "Tepig"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

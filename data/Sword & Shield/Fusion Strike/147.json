@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it."
+	},
+	"hp": 60,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Rotomurf",
+		"en": "Drilbur",
+		"es": "Drilbur",
+		"fr": "Rototaupe",
+		"it": "Drilbur",
+		"pt": "Drilbur"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

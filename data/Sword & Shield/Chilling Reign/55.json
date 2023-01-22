@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Sleep Pulse",
+				"fr": "Pouls Dodo",
+				"es": "Pulso Soñoliento",
+				"it": "Sonnopulsar",
+				"pt": "Pulso Sonolento",
+				"de": "Schlafimpuls"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido.",
+				"de": "Wirf 1 Münze. Bei Kopf schläft das Aktive Pokémon deines Gegners jetzt."
+			},
+			"damage": 10,
+			"cost": [
+				"Psychic"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "With its gas-like body, it can sneak into any place it desires. However, it can be blown away by wind."
+	},
+	"hp": 50,
+	"illustrator": "Motofumi Fujiwara",
+	"name": {
+		"de": "Nebulak",
+		"en": "Gastly",
+		"es": "Gastly",
+		"fr": "Fantominus",
+		"it": "Gastly",
+		"pt": "Gastly"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

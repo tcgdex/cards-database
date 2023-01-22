@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Thundershock"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Pikachu"
+	},
+	"rarity": "Uncommon",
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Quiver Dance",
+				"fr": "Papillodanse"
+			},
+			"effect": {
+				"en": "Search your deck for a basic Energy card and attach it to this Pokémon. Shuffle your deck afterward. If you attached Energy in this way, heal 40 damage from this Pokémon.",
+				"fr": "Cherchez une carte Énergie de base dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck. Si vous avez attaché de l'Énergie de cette façon, soignez 40 dégâts à ce Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gust",
+				"fr": "Tornade"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		12
+	],
+	"evolveFrom": {
+		"en": "Metapod",
+		"fr": "Chrysacier"
+	},
+	"hp": 130,
+	"illustrator": "miki kudo",
+	"name": {
+		"en": "Butterfree",
+		"fr": "Papilusion"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "g1",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

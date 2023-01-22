@@ -1,0 +1,81 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Blessing of Fluff",
+				"fr": "Bénédiction Douillette",
+				"es": "Bendición Sedosa",
+				"it": "Preghiera della Morbidezza",
+				"pt": "Blessing of Fluff",
+				"de": "Flauschsegen"
+			},
+			"effect": {
+				"en": "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+				"fr": "Cherchez dans votre deck jusqu'à 3 cartes Énergie Grass, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
+				"es": "Busca en tu baraja hasta 3 cartas de Energía Grass y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
+				"it": "Cerca nel tuo mazzo fino a tre carte Energia Grass e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
+				"pt": "Search your deck for up to 3 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+				"de": "Durchsuche dein Deck nach bis zu 3 Grass-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Leafage",
+				"fr": "Feuillage",
+				"es": "Follaje",
+				"it": "Fogliame",
+				"pt": "Leafage",
+				"de": "Blattwerk"
+			},
+			"damage": 30,
+			"cost": [
+				"Grass"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
+	},
+	"dexId": [
+		830
+	],
+	"evolveFrom": {
+		"en": "Gossifleur",
+		"fr": "Tournicoton"
+	},
+	"hp": 80,
+	"illustrator": "Mina Nakai",
+	"name": {
+		"de": "Cottomi",
+		"en": "Eldegoss",
+		"es": "Eldegoss",
+		"fr": "Blancoton",
+		"it": "Eldegoss",
+		"pt": "Eldegoss"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

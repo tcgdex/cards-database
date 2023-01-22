@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Bad Sleeping Habits",
+				"fr": "Mauvaises habitudes de dodo"
+			},
+			"effect": {
+				"en": "As long as Snorlax is Asleep, your opponent's Active Pokémon can't retreat.",
+				"fr": "Tant que Ronflex est Endormi, le Pokémon Actif de votre adversaire ne peut pas battre en retraite."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Toss and Turn",
+				"fr": "Retournement"
+			},
+			"effect": {
+				"en": "If Snorlax is Asleep, this attack does 20 damage plus 30 more damage. (This attack can be used even if Snorlax is Asleep.)",
+				"fr": "Si Ronflex est Endormi, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires. (Cette attaque peut être utilisée même si Ronflex est Endormi.)"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Press",
+				"fr": "Lourde pression"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If tails, Snorlax is now Asleep.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si c'est pile, Ronflex est maintenant Endormi."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		143
+	],
+	"hp": 100,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Snorlax",
+		"fr": "Ronflex Niv. 40"
+	},
+	"rarity": "Common",
+	"retreat": 4,
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

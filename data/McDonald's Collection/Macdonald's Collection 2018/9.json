@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"en": "Dratini"
+	},
+	"rarity": "None",
+	"set": "2018sm",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

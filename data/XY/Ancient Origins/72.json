@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Mélangez 5 cartes Énergie de base de votre pile de défausse avec votre deck.",
+		"en": "Shuffle 5 basic Energy cards from your discard pile into your deck.",
+		"es": "Pon 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
+		"it": "Rimischia cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
+		"pt": "Embaralhe 5 cards de Energia básica da sua pilha de descarte no seu baralho.",
+		"de": "Mische 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+	},
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Energieaufbereitung",
+		"en": "Energy Recycler",
+		"es": "Reciclaje de Energía",
+		"fr": "Recycleur d'Énergie",
+		"it": "Riciclaggio di Energia",
+		"pt": "Reciclador de Energia"
+	},
+	"rarity": "Uncommon",
+	"set": "xy7",
+	"trainerType": "Item"
+}

@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder Wave",
+				"fr": "Cage-éclair"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder",
+				"fr": "Fatal-foudre"
+			},
+			"effect": {
+				"en": "Flaaffy does 10 damage to itself.",
+				"fr": "Lainergie s'inflige 10 dégâts."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		180
+	],
+	"evolveFrom": {
+		"en": "Mareep"
+	},
+	"hp": 80,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Flaaffy",
+		"fr": "Lainergie"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-30"
+		}
+	],
+	"set": "ex10",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

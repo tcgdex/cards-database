@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 114,
+	"id": "xy11",
+	"name": {
+		"de": "Dampfkessel",
+		"en": "Steam Siege",
+		"es": "Asedio de Vapor",
+		"fr": "Offensive Vapeur",
+		"it": "Vapori Accesi",
+		"pt": "Cerco de Vapor"
+	},
+	"releaseDate": "2016-08-03",
+	"serie": "xy",
+	"tcgOnline": "STS"
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collecte"
+			},
+			"effect": {
+				"en": "Draw 3 cards.",
+				"fr": "Piochez 3 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stadium Wave",
+				"fr": "Innondation du Stade"
+			},
+			"effect": {
+				"en": "If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Asleep.",
+				"fr": "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		516
+	],
+	"evolveFrom": {
+		"en": "Panpour",
+		"fr": "Flotajou"
+	},
+	"hp": 90,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Sodachita",
+		"en": "Simipour",
+		"es": "Simipour",
+		"fr": "Flotoutan",
+		"it": "Simipour",
+		"pt": "Simipour"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

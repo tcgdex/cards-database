@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "À la fin du tour de votre adversaire, soignez 20 dégâts au Pokémon de base auquel cette carte est attachée.",
+		"en": "At the end of your opponent's turn, heal 20 damage from the Basic Pokémon this card is attached to."
+	},
+	"illustrator": "Aya Kusube",
+	"name": {
+		"en": "Floral Crown",
+		"fr": "Couronne Florale"
+	},
+	"rarity": "Common",
+	"set": "g1",
+	"trainerType": "Tool"
+}

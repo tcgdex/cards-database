@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tender Tentacles",
+				"fr": "Tentacules tendres"
+			},
+			"effect": {
+				"en": "If Lileep has any React Energy cards attached to it, remove 2 damage counters from Lileep.",
+				"fr": "Si Lilia possède des cartes Énergie réaction, retirez-lui 2 marqueurs de dégât."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde folie"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		345
+	],
+	"evolveFrom": {
+		"en": "Root Fossil"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Lileep",
+		"fr": "Lilia"
+	},
+	"rarity": "Common",
+	"set": "ex12",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

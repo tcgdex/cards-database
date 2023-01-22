@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Soak in Water"
+			},
+			"effect": {
+				"en": "Attach a Water Energy card from your hand to this Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Spinning Attack"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!"
+	},
+	"hp": 60,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Sterndu",
+		"en": "Staryu",
+		"es": "Staryu",
+		"fr": "Stari",
+		"it": "Staryu",
+		"pt": "Staryu"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

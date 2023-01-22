@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Will-O-Wisp",
+				"fr": "Feu Follet",
+				"es": "Fuego Fatuo",
+				"it": "Fuocofatuo",
+				"pt": "Fogo Fátuo",
+				"de": "Irrlicht"
+			},
+			"damage": 30,
+			"cost": [
+				"Psychic"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If you get the feeling of being watched in darkness when nobody is around, Haunter is there."
+	},
+	"evolveFrom": {
+		"en": "Gastly",
+		"fr": "Fantominus",
+		"es": "Gastly",
+		"it": "Gastly",
+		"pt": "Gastly",
+		"de": "Nebulak"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Alpollo",
+		"en": "Haunter",
+		"es": "Haunter",
+		"fr": "Spectrum",
+		"it": "Haunter",
+		"pt": "Haunter"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

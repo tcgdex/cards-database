@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Kinda Lazy",
+				"fr": "Tire-au-Flanc",
+				"es": "Remolón",
+				"it": "Pigritudine",
+				"pt": "Preguicento",
+				"de": "Faulpelz"
+			},
+			"effect": {
+				"en": "If you have exactly 2, 4, or 6 Prize cards remaining, this Pokémon can't attack.",
+				"fr": "S'il vous reste exactement 2, 4 ou 6 cartes Récompense, ce Pokémon ne peut pas attaquer.",
+				"es": "Si te quedan exactamente 2, 4 o 6 cartas de Premio, este Pokémon no puede atacar.",
+				"it": "Se hai esattamente due, quattro o sei carte Premio rimanenti, questo Pokémon non può attaccare.",
+				"pt": "Se você tiver exatamente 2, 4 ou 6 cartas de Prêmio restantes, este Pokémon não poderá atacar.",
+				"de": "Wenn du genau 2, 4 oder 6 verbleibende Preiskarten hast, kann dieses Pokémon nicht angreifen."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Impact",
+				"fr": "Gros Impact",
+				"es": "Impacto Pesado",
+				"it": "Impatto Pesante",
+				"pt": "Impacto Pesado",
+				"de": "Schwerer Einschlag"
+			},
+			"damage": 260
+		}
+	],
+	"category": "Pokemon",
+	"hp": 230,
+	"name": {
+		"de": "Letarking V",
+		"en": "Slaking V",
+		"es": "Slaking V",
+		"fr": "Monaflèmit V",
+		"it": "Slaking V",
+		"pt": "Slaking V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "F",
+	"retreat": 3,
+	"set": "swsh10.5",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Colorless"
+	]
+}

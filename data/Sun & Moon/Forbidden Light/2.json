@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Tropical Shake",
+				"fr": "Balancement Tropical",
+				"es": "Sacudida Tropical",
+				"it": "Scossone Tropicale",
+				"pt": "Balançada Tropical",
+				"de": "Tropisches Schütteln"
+			},
+			"effect": {
+				"en": "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can’t add more than 100 damage in this way.",
+				"fr": "Cette attaque inflige 20 dégâts supplémentaires pour chaque type de carte Énergie de base dans votre pile de défausse. Vous ne pouvez pas ajouter plus de 100 dégâts de cette façon.",
+				"es": "Este ataque hace 20 puntos de daño más por cada tipo de carta de Energía Básica diferente en tu pila de descartes. No puedes añadir más de 100 puntos de daño de esta manera.",
+				"it": "Questo attacco infligge 20 danni in più per ogni tipo di carta Energia base nella tua pila degli scarti. Non puoi aggiungere più di 100 danni in questo modo.",
+				"pt": "Este ataque causa 20 pontos de dano a mais para cada tipo de carta de Energia básica na sua pilha de descarte. Você não pode adicionar mais de 100 pontos de dano desta forma.",
+				"de": "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der verschiedenen Basis-Energiekarten-Typen in deinem Ablagestapel zu. Du kannst auf diese Weise höchstens 100 Schadenspunkte mehr zufügen."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		103
+	],
+	"evolveFrom": {
+		"en": "Exeggcute",
+		"fr": "Noeunoeuf"
+	},
+	"hp": 160,
+	"illustrator": "Satoshi Shirai",
+	"name": {
+		"de": "Alola-Kokowei",
+		"en": "Alolan Exeggutor",
+		"es": "Exeggutor de Alola",
+		"fr": "Noadkoko d’Alola",
+		"it": "Exeggutor di Alola",
+		"pt": "Exeggutor de Alola"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "sm6",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

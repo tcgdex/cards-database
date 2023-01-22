@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Écharde mystérieuse à 1 de vos Pokémon (Pokémon-ex exclus) qui ne possède pas déjà d'Outil Pokémon. Si le Pokémon auquel Écharde mystérieuse est attachée est un Pokémon-ex, défaussez cette carte.\n\nPrévenez tous les effets d'une attaque, dégâts inclus, infligés au Pokémon auquel Écharde mystérieuse est attachée par des Pokémon-ex de votre adversaire. Défaussez cette carte à la fin du prochain tour de votre adversaire."
+	},
+	"illustrator": "Takumi Akabane",
+	"name": {
+		"en": "Mysterious Shard",
+		"fr": "Écharde mystérieuse"
+	},
+	"rarity": "Uncommon",
+	"set": "ex14",
+	"trainerType": "Tool"
+}

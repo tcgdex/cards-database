@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Flame Tail",
+				"fr": "Queue de flammes"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
+	},
+	"dexId": [
+		77
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Ponyta",
+		"fr": "Ponyta"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+10"
+		}
+	]
+}

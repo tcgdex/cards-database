@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sharp Fang",
+				"fr": "Croc Aiguisé",
+				"es": "Colmillo Afilado",
+				"it": "Zannaffilata",
+				"pt": "Presa Afiada",
+				"de": "Scharfe Fänge"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Metal"
+			],
+			"name": {
+				"en": "Dragon Claw",
+				"fr": "Draco-Griffe",
+				"es": "Garra Dragón",
+				"it": "Dragartigli",
+				"pt": "Garra de Dragão",
+				"de": "Drachenklaue"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Axew",
+		"fr": "Coupenotte",
+		"es": "Axew",
+		"it": "Axew",
+		"pt": "Axew",
+		"de": "Milza"
+	},
+	"hp": 100,
+	"name": {
+		"de": "Sharfax",
+		"en": "Fraxure",
+		"es": "Fraxure",
+		"fr": "Incisache",
+		"it": "Fraxure",
+		"pt": "Fraxure"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "F",
+	"retreat": 2,
+	"set": "swsh9",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	]
+}

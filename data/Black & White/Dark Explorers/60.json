@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Drain"
+			},
+			"effect": {
+				"en": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slashing Strike"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Slashing Strike during your next turn."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		197
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 100,
+	"illustrator": "TOKIYA",
+	"name": {
+		"de": "Nachtara",
+		"en": "Umbreon",
+		"es": "Umbreon",
+		"fr": "Noctali",
+		"it": "Umbreon",
+		"pt": "Umbreon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Rear Guard",
+				"fr": "Garde Arrière"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				"fr": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gust",
+				"fr": "Tornade"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		629
+	],
+	"hp": 50,
+	"illustrator": "sui",
+	"name": {
+		"de": "Skallyk",
+		"en": "Vullaby",
+		"es": "Vullaby",
+		"fr": "Vostourno",
+		"it": "Vullaby",
+		"pt": "Vullaby"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

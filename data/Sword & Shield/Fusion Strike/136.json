@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Boulder Crush"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp."
+	},
+	"evolveFrom": {
+		"en": "Geodude",
+		"fr": "Racaillou",
+		"es": "Geodude",
+		"it": "Geodude",
+		"pt": "Geodude",
+		"de": "Kleinstein"
+	},
+	"hp": 110,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Georok",
+		"en": "Graveler",
+		"es": "Graveler",
+		"fr": "Gravalanch",
+		"it": "Graveler",
+		"pt": "Graveler"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

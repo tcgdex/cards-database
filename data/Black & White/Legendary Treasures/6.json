@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leaf Blade"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		495
+	],
+	"hp": 60,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"en": "Snivy"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

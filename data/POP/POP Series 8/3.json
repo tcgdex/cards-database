@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Intimidating Fang"
+			},
+			"effect": {
+				"en": "As long as Luxray is your Active Pokémon, any damage done by an opponent’s attack is reduced by 10 (before applying Weakness and Resistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, Luxray does 40 damage to itself."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When its eyes gleam gold, it can spot hiding prey–even those taking shelter behind a wall."
+	},
+	"dexId": [
+		405
+	],
+	"evolveFrom": {
+		"en": "Luxio"
+	},
+	"hp": 120,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Luxray"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pop8",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+30"
+		}
+	]
+}

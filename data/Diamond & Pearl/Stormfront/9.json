@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Regi Form",
+				"fr": "Regi forme"
+			},
+			"effect": {
+				"en": "If you have Regirock, Regice, and Registeel in play, the attack cost of Regigigas's attacks is Colorless less.",
+				"fr": "Si vous avez Regirock, Regice et Registeel en jeu, le Coût d'attaque des attaques de Regigigas est Colorless de moins."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mega Punch",
+				"fr": "Ultimapoing"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Fighting",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Giga Power",
+				"fr": "Giga pouvoir"
+			},
+			"effect": {
+				"en": "You may do 60 damage plus 40 more damage. If you do, Regigigas does 40 damage to itself.",
+				"fr": "Vous pouvez infliger 60 dégâts plus 40 dégâts supplémentaires. Regigigas s'inflige alors 40 dégâts."
+			},
+			"damage": "60+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		486
+	],
+	"evolveFrom": {
+		"fr": "Regigigas"
+	},
+	"hp": 100,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Regigigas",
+		"fr": "Regigigas"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Free Flight",
+				"fr": "Vol gratuit"
+			},
+			"effect": {
+				"en": "If Yanma has no Energy attached to it, Yanma’s Retreat Cost is 0.",
+				"fr": "Si aucune carte Énergie n’est attachée à Yanma, son Coût de retraite est de 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dive",
+				"fr": "Plongée"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
+	},
+	"dexId": [
+		193
+	],
+	"hp": 50,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Yanma",
+		"fr": "Yanma"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

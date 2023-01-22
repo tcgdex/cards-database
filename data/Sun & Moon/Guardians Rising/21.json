@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Beacon",
+				"fr": "Flambeau",
+				"es": "Señal",
+				"it": "Faro",
+				"pt": "Baliza",
+				"de": "Lichtsignal"
+			},
+			"effect": {
+				"en": "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+				"fr": "Cherchez jusqu’à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				"es": "Busca en tu baraja hasta 2 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+				"it": "Cerca nel tuo mazzo fino a due Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				"pt": "Procure por até 2 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
+				"de": "Durchsuche dein Deck nach bis zu 2 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icy Snow",
+				"fr": "Verglas",
+				"es": "Nieve Helada",
+				"it": "Geloneve",
+				"pt": "Neve Congelada",
+				"de": "Eisiger Schnee"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		37
+	],
+	"hp": 60,
+	"illustrator": "You Iribi",
+	"name": {
+		"de": "Alola Vulpix",
+		"en": "Alolan Vulpix",
+		"es": "Vulpix de Alola",
+		"fr": "Goupix d’Alola",
+		"it": "Vulpix di Alola",
+		"pt": "Vulpix de Alola"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

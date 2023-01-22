@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Worry Seed"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Magical Leaf"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud."
+	},
+	"dexId": [
+		421
+	],
+	"evolveFrom": {
+		"en": "Cherubi"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Cherrim"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pop8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

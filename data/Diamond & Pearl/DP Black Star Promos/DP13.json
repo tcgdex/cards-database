@@ -1,0 +1,27 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"dexId": [
+		418
+	],
+	"effect": {
+		"en": "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage."
+	},
+	"hp": 60,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Buizel"
+	},
+	"rarity": "Common",
+	"set": "dpp",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

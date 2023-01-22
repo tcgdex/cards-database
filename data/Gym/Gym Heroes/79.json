@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Vine Slap"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stretch Vine"
+			},
+			"effect": {
+				"en": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		114
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Erika's Tangela"
+	},
+	"rarity": "Common",
+	"set": "gym1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

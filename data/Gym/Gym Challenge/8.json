@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Call the Boss"
+			},
+			"effect": {
+				"en": "When you play Giovanni's Persian from your hand, you may search your deck for the Trainer card named Giovanni, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ambush"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		53
+	],
+	"evolveFrom": {
+		"en": "Meowth"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Giovanni's Persian"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "gym2",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

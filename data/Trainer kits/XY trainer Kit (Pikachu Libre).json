@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-xy-p",
+	"name": {
+		"en": "XY trainer Kit (Pikachu Libre)",
+		"es": "Kit de Entrenador XY (Pikachu Enmascarada)",
+		"fr": "XY Kit du dresseur (Pikachu Libre)",
+		"it": "XY trainer Kit (Pikachu Libre)"
+	},
+	"releaseDate": "2016-04-27",
+	"serie": "tk"
+}

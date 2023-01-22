@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Claw",
+				"fr": "Griffe Acier"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Drill Run",
+				"fr": "Tunnelier"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to the Defending Pokémon.",
+				"fr": "Défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		530
+	],
+	"evolveFrom": {
+		"en": "Drilbur",
+		"fr": "Rototaupe"
+	},
+	"hp": 110,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Stalobor",
+		"en": "Excadrill",
+		"es": "Excadrill",
+		"fr": "Minotaupe",
+		"it": "Excadrill",
+		"pt": "Excadrill"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

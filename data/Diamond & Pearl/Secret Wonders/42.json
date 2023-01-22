@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sandy Cloak",
+				"fr": "Cape sable"
+			},
+			"effect": {
+				"en": "Prevent all effects of attacks, excluding damage, done to Wormadam Sandy Cloak.",
+				"fr": "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Cheniselle Cape Sable."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Push Over",
+				"fr": "Facilité"
+			},
+			"effect": {
+				"en": "Does 40 damage plus 10 more damage for each Fighting Energy attached to Wormadam Sandy Cloak.",
+				"fr": "Prévenez tous les effets d’une attaque, dégâts exclus, infligés à Cheniselle Cape Sable par des Pokémon de votre adversaire."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		413
+	],
+	"evolveFrom": {
+		"en": "Burmy Sandy Cloak",
+		"fr": "Cheniti Cape Sable"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Wormadam Sandy Cloak",
+		"fr": "Cheniselle Cape Sable"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp3",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

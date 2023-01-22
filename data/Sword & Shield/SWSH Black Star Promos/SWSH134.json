@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Disarming Voice"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tricky Ribbon"
+			},
+			"damage": 100,
+			"effect": {
+				"en": "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 180,
+	"illustrator": "Ryuta Fuse",
+	"name": {
+		"en": "Dark Sylveon V"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

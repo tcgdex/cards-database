@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Mega Punch",
+				"fr": "Ultimapoing"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fling",
+				"fr": "Lancer"
+			},
+			"effect": {
+				"en": "Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon.",
+				"fr": "Votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées à son deck. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur."
+	},
+	"dexId": [
+		68
+	],
+	"evolveFrom": {
+		"en": "Machoke"
+	},
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Dark Machamp",
+		"fr": "Mackogneur obscur"
+	},
+	"rarity": "Rare",
+	"set": "base5",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

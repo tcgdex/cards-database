@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revolver d'Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		60
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Quapsel",
+		"en": "Poliwag",
+		"es": "Poliwag",
+		"fr": "Ptitard",
+		"it": "Poliwag",
+		"pt": "Poliwag"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy12",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

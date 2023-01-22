@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Focus Punch",
+				"fr": "Mitra-poing"
+			},
+			"effect": {
+				"en": "If Poliwrath was damaged by an attack during your opponent's last turn, this attack does nothing.",
+				"fr": "Si une attaque a infligé des dégâts à Tartard lors du dernier tour de votre adversaire, cette attaque est sans effet."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Submission",
+				"fr": "Sacrifice"
+			},
+			"effect": {
+				"en": "Poliwrath does 20 damage to itself.",
+				"fr": "Tartard s'inflige 20 dégâts."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l'Océan Pacifique."
+	},
+	"dexId": [
+		62
+	],
+	"evolveFrom": {
+		"en": "Poliwhirl",
+		"fr": "Quaputzi"
+	},
+	"hp": 130,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Poliwrath",
+		"fr": "Tartard"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp6",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+30"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Bail Out"
+			},
+			"effect": {
+				"en": "Put up to 2 Pokémon from your discard pile into your hand."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Solar Beam"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Legends say this Pokémon confounded opponents with its swift movements."
+	},
+	"hp": 110,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Viridium",
+		"en": "Virizion",
+		"es": "Virizion",
+		"fr": "Viridium",
+		"it": "Virizion",
+		"pt": "Virizion"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

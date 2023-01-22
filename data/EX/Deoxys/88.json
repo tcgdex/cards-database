@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Regardez les 7 cartes du dessus de votre deck. Parmi ces cartes, vous pouvez choisir une carte Pokémon de base ou une carte Évolution. Montrez-la à votre adversaire et ajoutez-la à votre main. Mélangez le reste à votre deck."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Master Ball",
+		"fr": "Master Ball"
+	},
+	"rarity": "Uncommon",
+	"set": "ex8",
+	"trainerType": "Item"
+}

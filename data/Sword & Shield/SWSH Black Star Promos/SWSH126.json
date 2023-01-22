@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Everyone Laze Around"
+			},
+			"effect": {
+				"en": "Heal 10 damage from each of your Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
+	},
+	"dexId": [
+		79
+	],
+	"hp": 70,
+	"illustrator": "sowsow",
+	"name": {
+		"en": "Galarian Slowpoke"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 2,
+	"set": "swshp",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

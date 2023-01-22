@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wild Blaze",
+				"fr": "Feu Furieux",
+				"es": "Fuego Salvaje",
+				"it": "Fiamma Selvaggia",
+				"pt": "Chama Selvagem",
+				"de": "Wilder Flächenbrand"
+			},
+			"effect": {
+				"en": "Discard the top 5 cards of your deck.",
+				"fr": "Défaussez les 5 cartes du dessus de votre deck.",
+				"es": "Descarta las 5 primeras cartas de tu baraja.",
+				"it": "Scarta le prime cinque carte del tuo mazzo.",
+				"pt": "Descarte os 5 cards de cima do seu baralho.",
+				"de": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel."
+			},
+			"damage": 300
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"evolveFrom": {
+		"en": "Charizard-EX",
+		"fr": "Dracaufeu-EX",
+		"es": "Charizard-EX",
+		"it": "Charizard-EX",
+		"pt": "Charizard-EX",
+		"de": "Glurak-EX"
+	},
+	"hp": 230,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "M-Glurak EX",
+		"en": "M Charizard EX",
+		"es": "M-Charizard EX",
+		"fr": "M-Dracaufeu EX",
+		"it": "M Charizard EX",
+		"pt": "M-Charizard EX"
+	},
+	"rarity": "Secret Rare",
+	"retreat": 3,
+	"set": "xy2",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Poisonous Puddle",
+				"fr": "Flaque Toxique",
+				"es": "Charco Venenoso",
+				"it": "Pozza Velenosa",
+				"pt": "Chorume Venenoso",
+				"de": "Giftpfütze"
+			},
+			"effect": {
+				"en": "Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned.",
+				"fr": "Une fois pendant votre tour, si un Stade est en jeu, vous pouvez laisser le Pokémon Actif de votre adversaire Empoisonné.",
+				"es": "Una vez durante tu turno, si hay un Estadio en juego, puedes dejar al Pokémon Activo de tu rival Envenenado.",
+				"it": "Una sola volta durante il tuo turno, se c'è in gioco una carta Stadio, puoi lasciare il Pokémon attivo del tuo avversario avvelenato.",
+				"pt": "Uma vez durante o seu turno, se um Estádio estiver em jogo, você poderá deixar o Pokémon Ativo do seu oponente Envenenado.",
+				"de": "Einmal während deines Zuges, wenn eine Stadionkarte im Spiel ist, kannst du das Aktive Pokémon deines Gegners vergiften."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sludge Bomb",
+				"fr": "Bombe Beurk",
+				"es": "Bomba Lodo",
+				"it": "Fangobomba",
+				"pt": "Bomba de Lodo",
+				"de": "Matschbombe"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
+	},
+	"evolveFrom": {
+		"en": "Trubbish",
+		"fr": "Miamiasme",
+		"es": "Trubbish",
+		"it": "Trubbish",
+		"pt": "Trubbish",
+		"de": "Unratütox"
+	},
+	"hp": 120,
+	"illustrator": "AKIRA EGAWA",
+	"name": {
+		"de": "Deponitox",
+		"en": "Garbodor",
+		"es": "Garbodor",
+		"fr": "Miasmax",
+		"it": "Garbodor",
+		"pt": "Garbodor"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh2",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

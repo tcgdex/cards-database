@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 124,
+	"id": "bw6",
+	"name": {
+		"de": "Hoheit der Drachen",
+		"en": "Dragons Exalted",
+		"es": "Dragones Majestuosos",
+		"fr": "Dragons Éxaltés",
+		"it": "Stirpe dei Draghi",
+		"pt": "Dragões Enaltecidos"
+	},
+	"releaseDate": "2012-08-15",
+	"serie": "bw",
+	"tcgOnline": "DRX"
+}

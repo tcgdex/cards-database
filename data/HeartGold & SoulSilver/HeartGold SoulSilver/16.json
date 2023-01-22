@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Cure Powder",
+				"fr": "Poudre de soins"
+			},
+			"effect": {
+				"en": "Remove 3 damage counters from each of your Pokémon.",
+				"fr": "Retirez 3 marqueurs de dégâts de chacun de vos Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Whirlwind",
+				"fr": "Cyclone"
+			},
+			"effect": {
+				"en": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Votre adversaire échange le Pokémon Défenseur avec l’un des Pokémon de son Banc."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains."
+	},
+	"dexId": [
+		12
+	],
+	"evolveFrom": {
+		"en": "Metapod",
+		"fr": "Chrysacier"
+	},
+	"hp": 120,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Butterfree",
+		"fr": "Papilusion"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "hgss1",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

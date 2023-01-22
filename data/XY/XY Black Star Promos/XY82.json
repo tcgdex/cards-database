@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Earthen Awakening",
+				"fr": "Réveil Terrestre"
+			},
+			"effect": {
+				"en": "Whenever you attach an Energy card from your hand to this Pokémon, heal 20 damage from it.",
+				"fr": "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon, soignez 20 dégâts à ce Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gigas Punch"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If both of them are tails, this attack does nothing."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		486
+	],
+	"hp": 130,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Regigigas",
+		"fr": "Regigigas"
+	},
+	"rarity": "None",
+	"retreat": 4,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Beam",
+				"fr": "Laser Glace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Wing",
+				"fr": "Aile Glace"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		144
+	],
+	"hp": 120,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Arktos",
+		"en": "Articuno",
+		"es": "Articuno",
+		"fr": "Artikodin",
+		"it": "Articuno",
+		"pt": "Articuno"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

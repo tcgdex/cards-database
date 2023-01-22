@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Sunbathe",
+				"fr": "Bain de soleil"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, remove all damage counters from Sunkern. Search your deck for a card that evolves from Sunkern and attach that card to Sunkern. This counts as evolving Sunkern. Shuffle your deck afterward.",
+				"fr": "Lancez une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur Tournegrin. Cherchez dans votre deck une carte Évolution de Tournegrin et attachez-la à Tournegrin. Cela équivaut à faire évoluer Tournegin. Mélangez ensuite votre deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est tout petit et sans défense. S'il est attaqué, il agite ses feuilles en espérant effrayer ses ennemis."
+	},
+	"dexId": [
+		191
+	],
+	"hp": 40,
+	"illustrator": "Etsuya Hattori",
+	"name": {
+		"en": "Sunkern",
+		"fr": "Tournegrin"
+	},
+	"rarity": "Common",
+	"set": "neo4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

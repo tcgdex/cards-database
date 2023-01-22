@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rage",
+				"fr": "Frénésie"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each damage counter on Totodile.",
+				"fr": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Kaiminus."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est petit mais costaud. Il n'hésite pas à mordre tout ce qui bouge."
+	},
+	"dexId": [
+		158
+	],
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Totodile",
+		"fr": "Kaiminus"
+	},
+	"rarity": "Common",
+	"set": "neo1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

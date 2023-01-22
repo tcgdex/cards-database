@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d’Boule",
+				"es": "Golpe Cabeza",
+				"it": "Bottintesta",
+				"pt": "Cabeçada",
+				"de": "Kopfnuss"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Claw",
+				"fr": "Dracogriffe",
+				"es": "Garra Dragón",
+				"it": "Dragartigli",
+				"pt": "Garra de Dragão",
+				"de": "Drachenklaue"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		783
+	],
+	"evolveFrom": {
+		"en": "Jangmo-o",
+		"fr": "Bébécaille"
+	},
+	"hp": 90,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Mediras",
+		"en": "Hakamo-o",
+		"es": "Hakamo-o",
+		"fr": "Écaïd",
+		"it": "Hakamo-o",
+		"pt": "Hakamo-o"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm2",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

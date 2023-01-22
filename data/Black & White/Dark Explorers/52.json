@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Chuck"
+			},
+			"effect": {
+				"en": "Discard as many Pokémon Tool cards as you like from your hand. This attack does 40 damage times the number of cards you discarded."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Lock Up"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		563
+	],
+	"evolveFrom": {
+		"en": "Yamask"
+	},
+	"hp": 100,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Echnatoll",
+		"en": "Cofagrigus",
+		"es": "Cofagrigus",
+		"fr": "Tutankafer",
+		"it": "Cofagrigus",
+		"pt": "Cofagrigus"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

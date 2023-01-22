@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise",
+				"es": "Combustión",
+				"it": "Fuoco Continuo",
+				"pt": "Combustão",
+				"de": "Glühen"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ring of Fire",
+				"fr": "Anneau de Feu",
+				"es": "Anillo de Fuego",
+				"it": "Anello di Fuoco",
+				"pt": "Anel de Fogo",
+				"de": "Feuerring"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Burned. During your opponent's next turn, that Pokémon can't retreat.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Brûlé. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Quemado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
+				"it": "Il Pokémon attivo del tuo avversario viene bruciato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Queimado. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Ponyta",
+		"fr": "Ponyta",
+		"es": "Ponyta",
+		"it": "Ponyta",
+		"pt": "Ponyta",
+		"de": "Ponita"
+	},
+	"hp": 100,
+	"name": {
+		"de": "Gallopa",
+		"en": "Rapidash",
+		"es": "Rapidash",
+		"fr": "Galopa",
+		"it": "Rapidash",
+		"pt": "Rapidash"
+	},
+	"rarity": "Rare",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh10",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

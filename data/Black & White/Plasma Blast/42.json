@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Hide",
+				"fr": "Cachette"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		577
+	],
+	"hp": 30,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Monozyto",
+		"en": "Solosis",
+		"es": "Solosis",
+		"fr": "Nucléos",
+		"it": "Solosis",
+		"pt": "Solosis"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw10",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

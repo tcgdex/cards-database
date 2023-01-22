@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 214,
+	"id": "sm10",
+	"name": {
+		"de": "Kräfte im Einklang",
+		"en": "Unbroken Bonds",
+		"es": "Vínculos Indestructibles",
+		"fr": "Alliance Infaillible",
+		"it": "Legami Inossidabili",
+		"pt": "Elos Inquebráveis"
+	},
+	"releaseDate": "2019-05-03",
+	"serie": "sm",
+	"tcgOnline": "UNB"
+}

@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"fr": "V de Victoire",
+				"en": "Victory Sign",
+				"es": "Señal de Victoria",
+				"it": "Segno di Vittoria",
+				"pt": "Sinal de Vitória",
+				"de": "Victoryzeichen"
+			},
+			"effect": {
+				"fr": "Cherchez dans votre deck jusqu’à 2 cartes Énergie de base de différents types et attachez-les à vos Pokémon, de la manière que vous voulez. Mélangez ensuite votre deck.",
+				"en": "Search your deck for up to 2 basic Energy cards of different types and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+				"es": "Busca en tu baraja hasta 2 cartas de Energía Básica de diferentes tipos y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
+				"it": "Cerca nel tuo mazzo fino a due carte Energia base di diversi tipi e assegnale a piacimento ai tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+				"pt": "Procure por até 2 cartas de Energia básica de tipos diferentes no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
+				"de": "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten verschiedenen Typs und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+			}
+		},
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"fr": "Flamboiement",
+				"en": "Flare",
+				"es": "Llama",
+				"it": "Fiammata",
+				"pt": "Chama",
+				"de": "Flackern"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		494
+	],
+	"hp": 70,
+	"illustrator": "Nagimiso",
+	"name": {
+		"de": "Victini",
+		"en": "Victini",
+		"es": "Victini",
+		"fr": "Victini",
+		"it": "Victini",
+		"pt": "Victini"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

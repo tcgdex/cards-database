@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Votre Pokémon actif n'est plus Endormi, Confus, Paralysé ou Empoisonné."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Full Heal",
+		"fr": "Guérison Totale"
+	},
+	"rarity": "Uncommon",
+	"set": "base1"
+}

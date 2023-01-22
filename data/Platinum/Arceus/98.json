@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Double Fall"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), when you put Salamence LV.X from your hand onto your Active Salamence, you may use this power. For each of your opponent's Pokémon that is Knocked Out by damage from Salamence's attacks this turn, take 1 more Prize card."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Steam Blast"
+			},
+			"effect": {
+				"en": "Discard an Energy card attached to Salamence."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		373
+	],
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Salamence LV. X"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl4",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

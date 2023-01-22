@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Neutral Shield"
+			},
+			"effect": {
+				"en": "Mew is not affected by attacks made by Evolved Pokémon. This power turns off if Mew is Asleep, Confused, or Paralyzed."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Psyshock"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		151
+	],
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Mew"
+	},
+	"rarity": "Common",
+	"set": "basep",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

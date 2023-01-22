@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Beat",
+				"fr": "Bataille"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Double Headbutt",
+				"fr": "Double Coup d'Boule"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 10 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		401
+	],
+	"hp": 60,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Zirpurze",
+		"en": "Kricketot",
+		"es": "Kricketot",
+		"fr": "Crikzik",
+		"it": "Kricketot",
+		"pt": "Kricketot"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

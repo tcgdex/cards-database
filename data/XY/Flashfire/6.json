@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch'Herbe",
+				"es": "Hoja Afilada",
+				"it": "Foglielama",
+				"pt": "Folha Navalha",
+				"de": "Rasierblatt"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut",
+				"fr": "Coupe",
+				"es": "Corte",
+				"it": "Taglio",
+				"pt": "Cortar",
+				"de": "Zerschneider"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		274
+	],
+	"evolveFrom": {
+		"en": "Seedot",
+		"fr": "Grainipiot",
+		"es": "Seedot",
+		"it": "Seedot",
+		"pt": "Seedot",
+		"de": "Samurzel"
+	},
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Blanas",
+		"en": "Nuzleaf",
+		"es": "Nuzleaf",
+		"fr": "Pifeuil",
+		"it": "Nuzleaf",
+		"pt": "Nuzleaf"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "xy2",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

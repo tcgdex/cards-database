@@ -1,0 +1,11 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 16,
+	"id": "ru1",
+	"name": {
+		"en": "Pokémon Rumble",
+		"es": "Pokémon Rumble"
+	},
+	"releaseDate": "2009-12-02",
+	"serie": "pl"
+}

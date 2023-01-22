@@ -1,0 +1,11 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 132,
+	"id": "gym2",
+	"name": {
+		"en": "Gym Challenge"
+	},
+	"releaseDate": "2000-10-16",
+	"serie": "gym",
+	"tcgOnline": "G2"
+}

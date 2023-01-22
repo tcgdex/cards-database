@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Mélangez votre deck. Regardez les 6 cartes du dessus de votre deck puis remettez-les dans votre deck dans n'importe quel ordre."
+	},
+	"illustrator": "K. Utsunomiya",
+	"name": {
+		"en": "PokéDex (HANDY909)",
+		"fr": "Pokédex"
+	},
+	"rarity": "Uncommon",
+	"set": "ex6",
+	"trainerType": "Item"
+}

@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 80,
+	"name": {
+		"de": "Makuhita",
+		"en": "Makuhita",
+		"es": "Makuhita",
+		"fr": "Makuhita",
+		"it": "Makuhita",
+		"pt": "Makuhita"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "tk-sm-l",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

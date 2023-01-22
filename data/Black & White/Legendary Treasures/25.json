@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down"
+			},
+			"effect": {
+				"en": "This Pokémon does 10 damage to itself."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		498
+	],
+	"hp": 70,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"en": "Tepig"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

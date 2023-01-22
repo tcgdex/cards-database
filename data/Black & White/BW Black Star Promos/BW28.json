@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Une seule fois pendant le tour de chaque joueur, ce joueur peut piocher des cartes jusqu'à ce qu'il ait 7 cartes dans sa main. Dans ce cas, son tour est terminé."
+	},
+	"name": {
+		"en": "Tropical Beach",
+		"fr": "Plage Tropicale"
+	},
+	"rarity": "Common",
+	"set": "bwp",
+	"trainerType": "Stadium"
+}

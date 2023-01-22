@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 100,
+	"id": "dp7",
+	"name": {
+		"de": "Sturmtief",
+		"en": "Stormfront",
+		"es": "Frente Tormentoso",
+		"fr": "Tempête",
+		"it": "Fronte di Tempesta"
+	},
+	"releaseDate": "2008-11-01",
+	"serie": "dp",
+	"tcgOnline": "SF"
+}

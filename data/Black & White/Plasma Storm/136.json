@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Split Bomb",
+				"fr": "Bombe Fendante"
+			},
+			"effect": {
+				"en": "This attack does 40 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 40 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scorching Fire",
+				"fr": "Feu Infernal"
+			},
+			"effect": {
+				"en": "Discard a Fire Energy attached to this Pokémon.",
+				"fr": "Défaussez une Énergie Fire attachée à ce Pokémon."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"evolveFrom": {
+		"en": "Charmeleon",
+		"fr": "Reptincel"
+	},
+	"hp": 160,
+	"illustrator": "Ayaka Yoshida",
+	"name": {
+		"de": "Glurak",
+		"en": "Charizard",
+		"es": "Charizard",
+		"fr": "Dracaufeu",
+		"it": "Charizard",
+		"pt": "Charizard"
+	},
+	"rarity": "Secret Rare",
+	"retreat": 3,
+	"set": "bw8",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

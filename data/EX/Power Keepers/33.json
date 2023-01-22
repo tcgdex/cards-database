@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Steady Punch",
+				"fr": "Poing énergétique"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mega Kick",
+				"fr": "Ultimawashi"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		67
+	],
+	"evolveFrom": {
+		"en": "Machop"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Machoke",
+		"fr": "Machopeur"
+	},
+	"rarity": "Uncommon",
+	"set": "ex16",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

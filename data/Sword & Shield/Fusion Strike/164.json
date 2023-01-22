@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Drag Off"
+			},
+			"effect": {
+				"en": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 30 damage to the new Active Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
+	},
+	"hp": 100,
+	"illustrator": "Eri Yamaki",
+	"name": {
+		"de": "Absol",
+		"en": "Absol",
+		"es": "Absol",
+		"fr": "Absol",
+		"it": "Absol",
+		"pt": "Absol"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

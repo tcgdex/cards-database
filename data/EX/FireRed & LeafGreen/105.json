@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Energy Flame",
+				"fr": "Flamme d'Énergie"
+			},
+			"effect": {
+				"en": "All Energy attached to Charizard ex are Fire Energy instead of its usual type.",
+				"fr": "Toutes les Énergies attachées à Dracaufeu ex sont des Énergies ."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Burn Down",
+				"fr": "Réduire en cendres"
+			},
+			"effect": {
+				"en": "Discard 5 Fire Energy attached to Charizard ex. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, and any other effects on the Defending Pokémon.",
+				"fr": "Défaussez 5 Énergies  attachées à Dracaufeu ex. Les dégâts de cette attaque ne sont pas affectés la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+			},
+			"damage": 200
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"evolveFrom": {
+		"en": "Charmeleon"
+	},
+	"hp": 160,
+	"illustrator": "Hiromichi Sugiyama",
+	"name": {
+		"en": "Charizard ex",
+		"fr": "Dracaufeu ex"
+	},
+	"rarity": "Rare",
+	"set": "ex6",
+	"suffix": "EX",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		},
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

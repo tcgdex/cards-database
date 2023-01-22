@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Delta Search",
+				"fr": "Recherche Delta"
+			},
+			"effect": {
+				"en": "Search your deck for a Holon Energy card and attach it to Vaporeon. Shuffle your deck afterward.",
+				"fr": "Cherchez dans votre deck une carte Énergie Holon et attachez-la à Aquali. Ensuite, mélangez votre deck."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Return Wave",
+				"fr": "Retour de vague"
+			},
+			"effect": {
+				"en": "You may return an Energy card attached to Vaporeon to your hand. If you do, choose an Energy card attached to the Defending Pokémon and return it to your opponent's hand.",
+				"fr": "Vous pouvez reprendre dans votre main une carte Énergie attachée à Aquali. Choisissez alors une carte Énergie attachée au Pokémon Défenseur. Votre adversaire la reprend dans sa main."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		134
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Vaporeon δ",
+		"fr": "Aquali δ ESPÈCES DELTA"
+	},
+	"rarity": "Rare",
+	"set": "ex11",
+	"stage": "Stage1",
+	"types": [
+		"Water",
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hug",
+				"fr": "Hug"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn.",
+				"fr": "Le Pokémon Défenseur ne pourra pas battre en retraite lors du prochain tour de votre adversaire."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mud Shot",
+				"fr": "Tir de boue"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		259
+	],
+	"evolveFrom": {
+		"en": "Mudkip"
+	},
+	"hp": 70,
+	"illustrator": "Hisao Nakamura",
+	"name": {
+		"en": "Marshtomp",
+		"fr": "Flobio"
+	},
+	"rarity": "Uncommon",
+	"set": "ex14",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Beam"
+			},
+			"effect": {
+				"en": "Discard an Energy from your opponent's Active Pokémon."
+			},
+			"damage": 120
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Tyrant"
+			},
+			"damage": 240
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		130
+	],
+	"evolveFrom": {
+		"en": "Gyarados V",
+		"fr": "Léviator-V",
+		"es": "Gyarados V",
+		"it": "Gyarados-V",
+		"pt": "Gyarados V",
+		"de": "Garados-V"
+	},
+	"hp": 330,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Garados VMAX",
+		"en": "Gyarados VMAX",
+		"es": "Gyarados VMAX",
+		"fr": "Léviator VMAX",
+		"it": "Gyarados VMAX",
+		"pt": "Gyarados VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh7",
+	"stage": "VMAX",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

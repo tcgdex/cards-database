@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse Vague"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		592
+	],
+	"hp": 80,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Quabbel",
+		"en": "Frillish",
+		"es": "Frillish",
+		"fr": "Viskuse",
+		"it": "Frillish",
+		"pt": "Frillish"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

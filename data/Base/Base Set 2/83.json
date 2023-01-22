@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Horn Hazard"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		32
+	],
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Nidoran♂"
+	},
+	"rarity": "Common",
+	"set": "base4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

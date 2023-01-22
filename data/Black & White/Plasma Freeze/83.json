@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Deafen",
+				"fr": "Rendre Sourd"
+			},
+			"effect": {
+				"en": "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
+				"fr": "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Grass",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Healwing",
+				"fr": "Aile Soin"
+			},
+			"effect": {
+				"en": "Heal 30 damage from this Pokémon.",
+				"fr": "Soignez 30 dégâts à ce Pokémon."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		149
+	],
+	"evolveFrom": {
+		"en": "Dragonair",
+		"fr": "Draco"
+	},
+	"hp": 150,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Dragoran",
+		"en": "Dragonite",
+		"es": "Dragonite",
+		"fr": "Dracolosse",
+		"it": "Dragonite",
+		"pt": "Dragonite"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw9",
+	"stage": "Stage2",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

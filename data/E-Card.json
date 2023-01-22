@@ -1,0 +1,10 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "ecard",
+	"name": {
+		"de": "e-Card",
+		"en": "E-Card",
+		"fr": "e-cards",
+		"it": "e-Series"
+	}
+}

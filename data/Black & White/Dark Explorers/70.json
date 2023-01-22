@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Paralyzing Gaze"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Bind"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		570
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Zorua",
+		"en": "Zorua",
+		"es": "Zorua",
+		"fr": "Zorua",
+		"it": "Zorua",
+		"pt": "Zorua"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

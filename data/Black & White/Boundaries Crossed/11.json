@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Vine Whip",
+				"fr": "Fouet Lianes"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut",
+				"fr": "Coupe"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		495
+	],
+	"hp": 60,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Serpifeu",
+		"en": "Snivy",
+		"es": "Snivy",
+		"fr": "Vipélierre",
+		"it": "Snivy",
+		"pt": "Snivy"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

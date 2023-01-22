@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Fletchling",
+		"fr": "Passerouge",
+		"es": "Fletchling",
+		"it": "Fletchling",
+		"pt": "Fletchling",
+		"de": "Dartiri"
+	},
+	"hp": 70,
+	"name": {
+		"de": "Dartignis",
+		"en": "Fletchinder",
+		"es": "Fletchinder",
+		"fr": "Braisillon",
+		"it": "Fletchinder",
+		"pt": "Fletchinder"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-sm-l",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

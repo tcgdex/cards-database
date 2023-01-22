@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Abundant Harvest"
+			},
+			"effect": {
+				"en": "Attach a basic Energy card from your discard pile to this Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gaia Hammer"
+			},
+			"effect": {
+				"en": "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		645
+	],
+	"hp": 110,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Landorus"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

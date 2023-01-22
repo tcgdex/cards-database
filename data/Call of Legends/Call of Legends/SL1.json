@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Cell Storm",
+				"fr": "Tempête cellulaire"
+			},
+			"effect": {
+				"en": "Discard 2 Psychic Energy attached to Deoxys and remove 6 damage counters from Deoxys.",
+				"fr": "Défaussez 2 Énergies Psychic attachées à Deoxys et retirez-lui 6 marqueurs de dégâts."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		386
+	],
+	"hp": 80,
+	"illustrator": "Noriko Hotta",
+	"name": {
+		"en": "Deoxys",
+		"fr": "Deoxys"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

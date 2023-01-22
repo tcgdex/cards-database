@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Beam",
+				"fr": "Rayon",
+				"es": "Transmisión",
+				"it": "Raggio",
+				"pt": "Feixe",
+				"de": "Strahl"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Sand Spray",
+				"fr": "Jet Sableux",
+				"es": "Rociado de Arena",
+				"it": "Silicospruzzo",
+				"pt": "Spray de Areia",
+				"de": "Sandspray"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads."
+	},
+	"dexId": [
+		343
+	],
+	"hp": 70,
+	"illustrator": "Uta",
+	"name": {
+		"de": "Puppance",
+		"en": "Baltoy",
+		"es": "Baltoy",
+		"fr": "Balbuto",
+		"it": "Baltoy",
+		"pt": "Baltoy"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

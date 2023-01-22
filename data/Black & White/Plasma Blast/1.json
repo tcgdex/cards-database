@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sweet Scent",
+				"fr": "Doux Parfum"
+			},
+			"effect": {
+				"en": "Heal 20 damage from 1 of your Pokémon.",
+				"fr": "Soignez 20 dégâts à 1 de vos Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		283
+	],
+	"hp": 50,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Gehweiher",
+		"en": "Surskit",
+		"es": "Surskit",
+		"fr": "Arakdo",
+		"it": "Surskit",
+		"pt": "Surskit"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw10",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

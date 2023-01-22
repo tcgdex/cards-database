@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Spin",
+				"fr": "Double Tour"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		109
+	],
+	"hp": 70,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Smogon",
+		"en": "Koffing",
+		"es": "Koffing",
+		"fr": "Smogo",
+		"it": "Koffing",
+		"pt": "Koffing"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

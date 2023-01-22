@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 94,
+	"id": "sma",
+	"name": {
+		"de": "Gelbes A-Alternativkarte",
+		"en": "Yellow A Alternate",
+		"es": "Cartas alternativas",
+		"fr": "Carte Alternative A Jaune",
+		"it": "Carta Alternativa A Gialla"
+	},
+	"releaseDate": "2019-08-23",
+	"serie": "sm"
+}

@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut Up",
+				"fr": "Découpage",
+				"es": "Trocear",
+				"it": "Tagliuzzamento",
+				"pt": "Dilacerar",
+				"de": "Zerhäckseln"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Claw",
+				"fr": "Griffe Acier",
+				"es": "Garra Metal",
+				"it": "Ferrartigli",
+				"pt": "Garra de Metal",
+				"de": "Metallklaue"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A pack of these Pokémon forms to serve a Bisharp boss. Each Pawniard trains diligently, dreaming of one day taking the lead."
+	},
+	"dexId": [
+		624
+	],
+	"hp": 70,
+	"illustrator": "Motofumi Fujiwara",
+	"name": {
+		"de": "Gladiantri",
+		"en": "Pawniard",
+		"es": "Pawniard",
+		"fr": "Scalpion",
+		"it": "Pawniard",
+		"pt": "Pawniard"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

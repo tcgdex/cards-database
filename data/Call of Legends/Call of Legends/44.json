@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Tail"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flamethrower"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to Flareon."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		136
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 90,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Flareon"
+	},
+	"rarity": "Uncommon",
+	"set": "col1",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

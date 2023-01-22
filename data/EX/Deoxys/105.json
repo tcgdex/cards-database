@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Miraculous Light",
+				"fr": "Lumière soignante"
+			},
+			"effect": {
+				"en": "Remove 1 damage counter from each of your Pokémon (including Latias Star).",
+				"fr": "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Latias  inclus)."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Water",
+				"Psychic"
+			],
+			"name": {
+				"en": "Shooting Star",
+				"fr": "Étoile filante"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Pokémon-ex, discard all Energy cards attached to Latias Star and this attack does 50 damage plus 100 more damage.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon-ex, défaussez toutes les cartes Énergie attachées à Latias ☆. Cette attaque inflige 50 dégâts plus 100 dégâts supplémentaires."
+			},
+			"damage": "50+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		380
+	],
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Latias Star",
+		"fr": "Latias ☆"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		},
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

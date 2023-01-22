@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Luster Float"
+			},
+			"effect": {
+				"en": "If you have Latias in play, the Retreat Cost for Latios is 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Infinite Wing"
+			},
+			"effect": {
+				"en": "Discard 2 Energy attached to Latios."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		381
+	],
+	"hp": 90,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Latios"
+	},
+	"rarity": "Common",
+	"set": "hgssp",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

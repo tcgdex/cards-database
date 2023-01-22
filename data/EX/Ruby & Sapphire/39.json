@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thundershock",
+				"fr": "Éclair"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gigashock",
+				"fr": "Electrochok"
+			},
+			"effect": {
+				"en": "Does 10 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à deux des Pokémon du Banc de votre adversaire (ou un s'il n'y en a qu'un). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		310
+	],
+	"evolveFrom": {
+		"en": "Electrike"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Manectric",
+		"fr": "Elecsprint"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-30"
+		}
+	],
+	"set": "ex1",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

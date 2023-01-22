@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sleep Powder"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Grasping Vine"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, draw 2 cards."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		114
+	],
+	"hp": 50,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Koga's Tangela"
+	},
+	"rarity": "Common",
+	"set": "gym2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

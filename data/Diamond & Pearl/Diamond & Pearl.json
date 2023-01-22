@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 130,
+	"id": "dp1",
+	"name": {
+		"de": "Diamant & Perl",
+		"en": "Diamond & Pearl",
+		"es": "Diamante & Perla",
+		"fr": "Diamant & Perle",
+		"it": "Diamante & Perla",
+		"pt": "Diamante & Pérola"
+	},
+	"releaseDate": "2007-05-01",
+	"serie": "dp",
+	"tcgOnline": "DP"
+}

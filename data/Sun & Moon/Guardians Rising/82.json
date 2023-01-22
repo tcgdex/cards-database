@@ -1,0 +1,83 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sky Uppercut",
+				"fr": "Stratopercut",
+				"es": "Gancho Alto",
+				"it": "Stramontante",
+				"pt": "Direto Celeste",
+				"de": "Himmelhieb"
+			},
+			"effect": {
+				"en": "This attack’s damage isn’t affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				"es": "El daño de este ataque no se ve afectado por Resistencia.",
+				"it": "I danni di questo attacco non sono influenzati dalla resistenza.",
+				"pt": "O dano deste ataque não é afetado por Resistência.",
+				"de": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+			},
+			"damage": 70
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magnum Punch",
+				"fr": "Poing magnum",
+				"es": "Puño magnum",
+				"it": "Superpugno",
+				"pt": "Soco Magnum",
+				"de": "Magnum-Schlag"
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		675
+	],
+	"evolveFrom": {
+		"en": "Pancham",
+		"fr": "Pandespiègle"
+	},
+	"hp": 130,
+	"illustrator": "kodama",
+	"name": {
+		"de": "Pandagro",
+		"en": "Pangoro",
+		"es": "Pangoro",
+		"fr": "Pandarbare",
+		"it": "Pangoro",
+		"pt": "Pangoro"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "sm2",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		252
+	],
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Treecko"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

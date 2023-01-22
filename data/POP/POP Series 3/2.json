@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack",
+				"fr": "Vive-attaque"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fire Spin",
+				"fr": "Danseflamme"
+			},
+			"effect": {
+				"en": "Discard 2 basic Energy cards attached to Flareon or this attack does nothing.",
+				"fr": "Défaussez 2 cartes Énergie de base attachées à Pyroli ou cette attaque est sans effet."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		136
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Flareon",
+		"fr": "Pyroli"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pop3",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water"
+		}
+	]
+}

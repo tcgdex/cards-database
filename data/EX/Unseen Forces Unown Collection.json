@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 28,
+	"id": "exu",
+	"name": {
+		"de": "EX Verborgene Mächte Icognito",
+		"en": "Unseen Forces Unown Collection",
+		"es": "EX Fuerzas Ocultas Unown",
+		"fr": "EX Forces Cachées Collection Zarbi",
+		"it": "EX Forze Segrete Unown"
+	},
+	"releaseDate": "2005-08-22",
+	"serie": "ex"
+}

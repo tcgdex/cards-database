@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Poisonpowder",
+				"fr": "Poudre toxik"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Foul Odor",
+				"fr": "Odeur fétide"
+			},
+			"effect": {
+				"en": "Both the Defending Pokémon and Gloom are now Confused (after doing damage).",
+				"fr": "Le Pokémon Défenseur et Ortide sont maintenant tous deux Confus (après le calcul des dégâts)."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie."
+	},
+	"dexId": [
+		44
+	],
+	"evolveFrom": {
+		"en": "Oddish"
+	},
+	"hp": 60,
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Gloom",
+		"fr": "Ortide"
+	},
+	"rarity": "Uncommon",
+	"set": "base2",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Do the Wave",
+				"fr": "Faites la Vague"
+			},
+			"effect": {
+				"en": "Does 10 damage times the number of your Benched Pokémon.",
+				"fr": "Inflige 10 dégâts multipliés par le nombre de vos Pokémon de Banc."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		531
+	],
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Ohrdoch",
+		"en": "Audino",
+		"es": "Audino",
+		"fr": "Nanméouïe",
+		"it": "Audino",
+		"pt": "Audino"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

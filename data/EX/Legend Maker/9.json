@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Derail",
+				"fr": "Dérailler"
+			},
+			"effect": {
+				"en": "Discard a Special Energy card, if any, attached to the Defending Pokémon.",
+				"fr": "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Swift Blow",
+				"fr": "Coup surprise"
+			},
+			"effect": {
+				"en": "Does 60 damage plus 20 damage for each React Energy card attached to Machamp.",
+				"fr": "Inflige 60 dégâts plus 20 dégâts supplémentaires pour chaque Énergie réaction attachée à Mackogneur."
+			},
+			"damage": "60+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		68
+	],
+	"evolveFrom": {
+		"en": "Machoke"
+	},
+	"hp": 120,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Machamp",
+		"fr": "Mackogneur"
+	},
+	"rarity": "Rare",
+	"set": "ex12",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

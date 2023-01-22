@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ambush",
+				"fr": "Embuscade"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		262
+	],
+	"evolveFrom": {
+		"en": "Poochyena"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Mightyena",
+		"fr": "Grahyena"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "ex1",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

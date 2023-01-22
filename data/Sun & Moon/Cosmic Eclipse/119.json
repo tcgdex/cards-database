@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Punch",
+				"fr": "Koud’Poing",
+				"es": "Puño",
+				"it": "Pugno",
+				"pt": "Soco",
+				"de": "Boxhieb"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		674
+	],
+	"hp": 70,
+	"illustrator": "Motofumi Fujiwara",
+	"name": {
+		"de": "Pam-Pam",
+		"en": "Pancham",
+		"es": "Pancham",
+		"fr": "Pandespiègle",
+		"it": "Pancham",
+		"pt": "Pancham"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Wrap"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			}
+		},
+		{
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques."
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Servine"
+	},
+	"rarity": "None",
+	"set": "2012bw",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

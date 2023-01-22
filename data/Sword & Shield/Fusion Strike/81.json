@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hard Bite"
+			},
+			"damage": "80+",
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 50 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
+	},
+	"evolveFrom": {
+		"en": "Chewtle",
+		"fr": "Khélocrok",
+		"es": "Chewtle",
+		"it": "Chewtle",
+		"pt": "Chewtle",
+		"de": "Kamehaps"
+	},
+	"hp": 140,
+	"illustrator": "kodama",
+	"name": {
+		"de": "Kamalm",
+		"en": "Drednaw",
+		"es": "Drednaw",
+		"fr": "Torgamord",
+		"it": "Drednaw",
+		"pt": "Drednaw"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Amnesia",
+				"fr": "Amnésie"
+			},
+			"effect": {
+				"en": "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				"fr": "Choisissez une des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d'boule"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		345
+	],
+	"evolveFrom": {
+		"en": "Root Fossil"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Lileep",
+		"fr": "Lilia"
+	},
+	"rarity": "Uncommon",
+	"set": "ex2",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

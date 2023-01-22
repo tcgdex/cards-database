@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Silence"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack."
+			}
+		},
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Merciless Strike"
+			},
+			"damage": "60+",
+			"effect": {
+				"en": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 90 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
+	},
+	"evolveFrom": {
+		"en": "Galarian Linoone",
+		"fr": "Linéon de Galar",
+		"es": "Linoone de Galar",
+		"it": "Linoone di Galar",
+		"pt": "Linoone de Galar",
+		"de": "Galar-Geradaks"
+	},
+	"hp": 170,
+	"illustrator": "kodama",
+	"name": {
+		"de": "Galar-Barrikadax",
+		"en": "Galarian Obstagoon",
+		"es": "Obstagoon de Galar",
+		"fr": "Ixon de Galar",
+		"it": "Obstagoon di Galar",
+		"pt": "Obstagoon de Galar"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Grass Munch"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "Discard a Grass Energy from your opponent's Active Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers."
+	},
+	"hp": 50,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Strawickl",
+		"en": "Sewaddle",
+		"es": "Sewaddle",
+		"fr": "Larveyette",
+		"it": "Sewaddle",
+		"pt": "Sewaddle"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

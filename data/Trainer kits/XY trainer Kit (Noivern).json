@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-xy-n",
+	"name": {
+		"en": "XY trainer Kit (Noivern)",
+		"es": "Kit de Entrenador XY (Noivern)",
+		"fr": "XY Kit du dresseur (Bruyverne)",
+		"it": "XY trainer Kit (Noivern)"
+	},
+	"releaseDate": "2014-03-12",
+	"serie": "tk"
+}

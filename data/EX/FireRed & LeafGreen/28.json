@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Toss",
+				"fr": "Pile ou face"
+			},
+			"effect": {
+				"en": "You may discard from your hand as many Technical Machine and Pokémon Tool cards as you like. This attack does 30 damage times the number of cards you discarded.",
+				"fr": "Vous pouvez défausser de votre main autant de cartes Machine technique et Outil Pokémon que vous voulez. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes défaussées."
+			},
+			"damage": "30×"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Low Kick",
+				"fr": "Balayage"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		57
+	],
+	"evolveFrom": {
+		"en": "Mankey"
+	},
+	"hp": 70,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Primeape",
+		"fr": "Colossinge"
+	},
+	"rarity": "Rare",
+	"set": "ex6",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

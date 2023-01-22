@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic",
+				"es": "Picotazo",
+				"it": "Beccata",
+				"pt": "Bicada",
+				"de": "Schnabel"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		747
+	],
+	"hp": 70,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Garstella",
+		"en": "Mareanie",
+		"es": "Mareanie",
+		"fr": "Vorastérie",
+		"it": "Mareanie",
+		"pt": "Mareanie"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare Blitz"
+			},
+			"effect": {
+				"en": "Discard all Fire Energy attached to Entei."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		244
+	],
+	"hp": 80,
+	"illustrator": "Yuri Umemura",
+	"name": {
+		"en": "Entei"
+	},
+	"rarity": "Common",
+	"set": "hgssp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

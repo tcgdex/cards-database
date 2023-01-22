@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bloom Buster",
+				"fr": "Explo Pousse"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": "130+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		3
+	],
+	"evolveFrom": {
+		"en": "Venusaur-EX",
+		"fr": "Florizarre-EX"
+	},
+	"hp": 230,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Venusaur EX",
+		"fr": "M-Florizarre-EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 4,
+	"set": "g1",
+	"stage": "MEGA",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

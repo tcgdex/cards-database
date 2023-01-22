@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Brain Control",
+				"fr": "Contrôle Cérébral"
+			},
+			"effect": {
+				"en": "Your opponent reveals his or her hand. Choose a card from there and put it on the bottom of your opponent's deck.",
+				"fr": "Votre adversaire montre sa main. Choisissez-y une carte et mettez-la en dessous du deck de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psybeam",
+				"fr": "Rafale Psy"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		606
+	],
+	"evolveFrom": {
+		"en": "Elgyem",
+		"fr": "Lewsor"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Megalon",
+		"en": "Beheeyem",
+		"es": "Beheeyem",
+		"fr": "Neitram",
+		"it": "Beheeyem",
+		"pt": "Beheeyem"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

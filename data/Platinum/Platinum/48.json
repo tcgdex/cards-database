@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Spark",
+				"fr": "Étincelle"
+			},
+			"effect": {
+				"en": "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Code",
+				"fr": "Queue codée"
+			},
+			"effect": {
+				"en": "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
+				"fr": "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		180
+	],
+	"evolveFrom": {
+		"en": "Mareep",
+		"fr": "Wattouat"
+	},
+	"hp": 80,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Flaaffy",
+		"fr": "Lainergie"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl1",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

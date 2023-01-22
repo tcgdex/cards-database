@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "UNSEEN",
+				"fr": "UNSEEN"
+			},
+			"effect": {
+				"en": "As long as Unown U is on your Bench, prevent all effects of attacks, including damage, done by your opponent's Pokémon to any Unown on your Bench.",
+				"fr": "Tant que Zarbi U est sur votre Banc, prévenez tous les effets d'attaques, dégâts inclus, infligés à n'importe quel Zarbi se trouvant sur votre Banc par les Pokémon de votre adversaire."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hidden Power",
+				"fr": "Puissance cachée"
+			},
+			"effect": {
+				"en": "Search your deck for any 1 card and discard it. Shuffle your deck afterward.",
+				"fr": "Choisissez 1 carte dans votre deck et défaussez-la. Ensuite, mélangez votre deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier."
+	},
+	"dexId": [
+		201
+	],
+	"hp": 50,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Unown U",
+		"fr": "Zarbi U"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

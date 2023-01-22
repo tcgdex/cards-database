@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bawl"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		175
+	],
+	"hp": 40,
+	"illustrator": "Keiko Fukuyama",
+	"name": {
+		"en": "Togepi"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "si1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	]
+}

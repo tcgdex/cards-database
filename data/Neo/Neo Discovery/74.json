@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cherchez dans votre deck une carte Zarbi et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas jouer cette carte si votre Banc est plein.)"
+	},
+	"name": {
+		"en": "Ruin Wall",
+		"fr": "Mur en ruines"
+	},
+	"rarity": "Uncommon",
+	"set": "neo2"
+}

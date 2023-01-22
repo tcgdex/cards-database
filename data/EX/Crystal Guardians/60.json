@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d'boule"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		273
+	],
+	"hp": 40,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Seedot",
+		"fr": "Grainipiot"
+	},
+	"rarity": "Common",
+	"set": "ex14",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

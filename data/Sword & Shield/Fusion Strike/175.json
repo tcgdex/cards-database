@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Dark Cutter"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Single Strike Wings"
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+	},
+	"hp": 130,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Yveltal",
+		"en": "Yveltal",
+		"es": "Yveltal",
+		"fr": "Yveltal",
+		"it": "Yveltal",
+		"pt": "Yveltal"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Entre chaque tour, placez un marqueur de dégâts sur chaque Pokémon-GX et Pokémon-EX (les vôtres et ceux de votre adversaire)."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Shrine of Punishment",
+		"fr": "Chapelle des Châtiments"
+	},
+	"rarity": "Common",
+	"set": "sma",
+	"trainerType": "Stadium"
+}

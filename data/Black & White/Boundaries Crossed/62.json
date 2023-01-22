@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Astonish",
+				"fr": "Étonnement"
+			},
+			"effect": {
+				"en": "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+				"fr": "Choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyshot",
+				"fr": "Piqûre Psy"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		356
+	],
+	"evolveFrom": {
+		"en": "Duskull",
+		"fr": "Skelénox"
+	},
+	"hp": 80,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Zwirrklop",
+		"en": "Dusclops",
+		"es": "Dusclops",
+		"fr": "Téraclope",
+		"it": "Dusclops",
+		"pt": "Dusclops"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Dual Chop"
+			},
+			"damage": "10×",
+			"effect": {
+				"en": "Flip 2 coins. This attack does 10 damage times the number of heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp."
+	},
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Axew"
+	},
+	"rarity": "None",
+	"set": "2012bw",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

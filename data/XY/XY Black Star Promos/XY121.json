@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Stoke",
+				"fr": "Attisement"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your deck for up to 3 basic Energy cards and attach them to this Pokémon. Shuffle your deck afterward.",
+				"fr": "Lancez une pièce. Si c'est face, cherchez jusqu'à 3 cartes Énergie de base dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"hp": 180,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Charizard EX",
+		"fr": "Dracaufeu EX"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "xyp",
+	"suffix": "EX",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

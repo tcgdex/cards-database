@@ -1,0 +1,28 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Scratch"
+			},
+			"damage": 30
+		},
+		{
+			"name": {
+				"en": "Ultra Energy Source"
+			},
+			"damage": "10×",
+			"effect": {
+				"en": "Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent’s)."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Delcatty"
+	},
+	"rarity": "None",
+	"set": "tk-ex-latia",
+	"stage": "Stage1"
+}

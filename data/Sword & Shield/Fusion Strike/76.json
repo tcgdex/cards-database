@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Trigger Avalanche"
+			},
+			"effect": {
+				"en": "Discard the top 2 cards of your opponent's deck."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Destroyer Punch"
+			},
+			"damage": "90+",
+			"effect": {
+				"en": "This attack does 60 more damage for each damage counter on your opponent's Active Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 220,
+	"illustrator": "MUGENUP",
+	"name": {
+		"de": "Krawell V",
+		"en": "Crabominable V",
+		"es": "Crabominable V",
+		"fr": "Crabominable V",
+		"it": "Crabominable V",
+		"pt": "Crabominable V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

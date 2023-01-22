@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
+	},
+	"hp": 70,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Klonkett",
+		"en": "Rolycoly",
+		"es": "Rolycoly",
+		"fr": "Charbi",
+		"it": "Rolycoly",
+		"pt": "Rolycoly"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

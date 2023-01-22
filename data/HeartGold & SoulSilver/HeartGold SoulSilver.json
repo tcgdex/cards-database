@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 123,
+	"id": "hgss1",
+	"name": {
+		"de": "HeartGold SoulSilver",
+		"en": "HeartGold SoulSilver",
+		"es": "HeartGold SoulSilver",
+		"fr": "HeartGold SoulSilver",
+		"it": "HeartGold SoulSilver",
+		"pt": "HeartGold SoulSilver"
+	},
+	"releaseDate": "2010-02-10",
+	"serie": "hgss",
+	"tcgOnline": "HS"
+}

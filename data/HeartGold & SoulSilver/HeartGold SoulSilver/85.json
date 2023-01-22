@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Cure Kernels",
+				"fr": "Graines de soin"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from 1 of your Pokémon.",
+				"fr": "Retirez 2 marqueurs de dégâts d’un de vos Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Seed Bomb",
+				"fr": "Canon graine"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves."
+	},
+	"dexId": [
+		191
+	],
+	"hp": 40,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Sunkern",
+		"fr": "Tournegrin"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

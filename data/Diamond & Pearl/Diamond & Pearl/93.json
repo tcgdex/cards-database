@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Splash",
+				"fr": "Éclaboussure"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est fier et déteste accepter la nourriture qu'on lui offre. Son pelage épais le protège du froid."
+	},
+	"dexId": [
+		393
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Piplup",
+		"fr": "Tiplouf"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

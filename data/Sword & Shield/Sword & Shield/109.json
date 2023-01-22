@@ -1,0 +1,88 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Coil",
+				"fr": "Enroulement",
+				"es": "Enrosque",
+				"it": "Arrotola",
+				"pt": "Enroscar",
+				"de": "Einrollen"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon's attacks do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+				"fr": "Pendant votre prochain tour, les attaques de ce Pokémon infligent 120 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+				"es": "Durante tu próximo turno, los ataques de este Pokémon hacen 120 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+				"it": "Durante il tuo prossimo turno, gli attacchi di questo Pokémon infliggono 120 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+				"pt": "Durante o seu próximo turno, os ataques deste Pokémon causarão 120 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+				"de": "Während deines nächsten Zuges fügen die Attacken dieses Pokémon dem Aktiven Pokémon deines Gegners 120 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Skull Bash",
+				"fr": "Coud'Krâne",
+				"es": "Cabezazo",
+				"it": "Capocciata",
+				"pt": "Quebra-crânio",
+				"de": "Schädelwumme"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
+	},
+	"dexId": [
+		844
+	],
+	"evolveFrom": {
+		"en": "Silicobra",
+		"fr": "Dunaja",
+		"es": "Silicobra",
+		"it": "Silicobra",
+		"pt": "Silicobra",
+		"de": "Salanga"
+	},
+	"hp": 140,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Sanaconda",
+		"en": "Sandaconda",
+		"es": "Sandaconda",
+		"fr": "Dunaconda",
+		"it": "Sandaconda",
+		"pt": "Sandaconda"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

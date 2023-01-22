@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Regardez la main de votre adversaire. S'il possède des cartes Dresseur, choisissez l'une d'elles. Votre adversaire mélange cette carte dans son deck."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Rocket's Sneak Attack",
+		"fr": "Attaque sournoise des Rocket"
+	},
+	"rarity": "Rare",
+	"set": "base5"
+}

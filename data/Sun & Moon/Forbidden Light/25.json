@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revólver d’Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		692
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Scampisto",
+		"en": "Clauncher",
+		"es": "Clauncher",
+		"fr": "Flingouste",
+		"it": "Clauncher",
+		"pt": "Clauncher"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

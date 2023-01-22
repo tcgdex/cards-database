@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-hs-r",
+	"name": {
+		"en": "HS trainer Kit (Raichu)",
+		"es": "Kit de Entrenador HeatGold & SoulSilver (Raichu)",
+		"fr": "HS Kit du dresseur (Raichu)",
+		"it": "HS trainer Kit (Raichu)"
+	},
+	"releaseDate": "2010-05-01",
+	"serie": "tk"
+}

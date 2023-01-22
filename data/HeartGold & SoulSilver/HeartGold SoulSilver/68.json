@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hypnoblast",
+				"fr": "Hypnoblast"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep."
+	},
+	"dexId": [
+		39
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Jigglypuff",
+		"fr": "Rondoudou"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

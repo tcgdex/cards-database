@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Finsternis-Energie",
+		"en": "Darkness Energy",
+		"es": "Energía Oscura",
+		"fr": "Énergie Obscurité",
+		"it": "Energia Oscurità",
+		"pt": "Energia de Escuridão"
+	},
+	"rarity": "Common",
+	"set": "xy12"
+}

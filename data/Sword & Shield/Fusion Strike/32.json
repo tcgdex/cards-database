@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Warm Up"
+			},
+			"effect": {
+				"en": "Search your deck for a Fire Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Extremely loyal, it will fearlessly bark at any opponent to protect its own Trainer from harm."
+	},
+	"hp": 80,
+	"illustrator": "Narumi Sato",
+	"name": {
+		"de": "Fukano",
+		"en": "Growlithe",
+		"es": "Growlithe",
+		"fr": "Caninos",
+		"it": "Growlithe",
+		"pt": "Growlithe"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magma Punch",
+				"fr": "Poing magma"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fire Spin",
+				"fr": "Danseflamme"
+			},
+			"effect": {
+				"en": "Discard 2 Energy attached to Typhlosion.",
+				"fr": "Défaussez-vous de 2 cartes Énergie attachées à Typhlosion."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions."
+	},
+	"dexId": [
+		157
+	],
+	"evolveFrom": {
+		"en": "Quilava",
+		"fr": "Fleurisson"
+	},
+	"hp": 130,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Typhlosion",
+		"fr": "Typhlosion"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

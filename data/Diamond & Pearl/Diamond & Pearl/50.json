@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Hypnosis",
+				"fr": "Hypnose"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Dream Eater",
+				"fr": "Dévorêve"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is not Asleep, this attack does nothing.",
+				"fr": "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis."
+	},
+	"dexId": [
+		93
+	],
+	"evolveFrom": {
+		"en": "Gastly",
+		"fr": "Fantominus"
+	},
+	"hp": 70,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Haunter",
+		"fr": "Spectrum"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"set": "dp1",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+20"
+		}
+	]
+}

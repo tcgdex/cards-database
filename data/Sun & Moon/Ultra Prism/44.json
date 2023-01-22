@@ -1,0 +1,83 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Steel Short",
+				"fr": "Court Acier",
+				"es": "Cortocircuito Acero",
+				"it": "Corto Metallico",
+				"pt": "Curto-circuito Metálico",
+				"de": "Stahlschock"
+			},
+			"effect": {
+				"en": "If your opponent’s Active Pokémon is a Metal Pokémon, it is now Paralyzed.",
+				"fr": "Si le Pokémon Actif de votre adversaire est un Pokémon Metal, il est maintenant Paralysé.",
+				"es": "Si el Pokémon Activo de tu rival es un Pokémon Metal, este pasa a estar Paralizado.",
+				"it": "Se il Pokémon attivo del tuo avversario è di tipo Metal, viene paralizzato.",
+				"pt": "Se o Pokémon Ativo do seu oponente for um Pokémon Metal, ele será Paralisado.",
+				"de": "Wenn das Aktive Pokémon deines Gegners ein Metal-Pokémon ist, ist es jetzt paralysiert."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Volt Knuckle",
+				"fr": "Poing Volt",
+				"es": "Nudillo Voltio",
+				"it": "Pugno Volt",
+				"pt": "Punho de Volts",
+				"de": "Voltfaust"
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		466
+	],
+	"evolveFrom": {
+		"en": "Electabuzz",
+		"fr": "Élektek"
+	},
+	"hp": 140,
+	"illustrator": "Anesaki Dynamic",
+	"name": {
+		"de": "Elevoltek",
+		"en": "Electivire",
+		"es": "Electivire",
+		"fr": "Élekable",
+		"it": "Electivire",
+		"pt": "Electivire"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "sm5",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

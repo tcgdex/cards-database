@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Gust",
+				"fr": "Tornade"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack",
+				"fr": "Vive-Attaque"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		520
+	],
+	"evolveFrom": {
+		"en": "Pidove",
+		"fr": "Poichigeon"
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Navitaub",
+		"en": "Tranquill",
+		"es": "Tranquill",
+		"fr": "Colombeau",
+		"it": "Tranquill",
+		"pt": "Tranquill"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

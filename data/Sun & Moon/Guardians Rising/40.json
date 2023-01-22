@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Rock Polish",
+				"fr": "Poliroche",
+				"es": "Pulimento",
+				"it": "Lucidatura",
+				"pt": "Polidor de Rocha",
+				"de": "Steinpolitur"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon has no Retreat Cost.",
+				"fr": "Pendant votre prochain tour, ce Pokémon n’a pas de Coût de Retraite.",
+				"es": "Durante tu próximo turno, este Pokémon no tiene ningún Coste de Retirada.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non ha costo di ritirata.",
+				"pt": "Durante a sua próxima vez de jogar, este Pokémon não terá custo de Recuo.",
+				"de": "Während deines nächsten Zuges hat dieses Pokémon keine Rückzugskosten."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade",
+				"es": "Desenrollar",
+				"it": "Rotolamento",
+				"pt": "Rolagem",
+				"de": "Walzer"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		74
+	],
+	"hp": 70,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Alola-Kleinstein",
+		"en": "Alolan Geodude",
+		"es": "Geodude de Alola",
+		"fr": "Racaillou d’Alola",
+		"it": "Geodude di Alola",
+		"pt": "Geodude de Alola"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sm2",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

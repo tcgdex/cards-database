@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collectionner"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Warp Sounds",
+				"fr": "Fausses notes"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon Évolué, il est maintenant Confus."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		358
+	],
+	"hp": 70,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Chimecho",
+		"fr": "Eoko"
+	},
+	"rarity": "Rare",
+	"set": "ex9",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

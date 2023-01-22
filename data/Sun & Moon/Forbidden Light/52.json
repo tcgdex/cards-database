@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Hook",
+				"fr": "Crochet",
+				"es": "Garfio",
+				"it": "Uncino",
+				"pt": "Gancho",
+				"de": "Haken"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		690
+	],
+	"hp": 60,
+	"illustrator": "Mina Nakai",
+	"name": {
+		"de": "Algitt",
+		"en": "Skrelp",
+		"es": "Skrelp",
+		"fr": "Venalgue",
+		"it": "Skrelp",
+		"pt": "Skrelp"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm6",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

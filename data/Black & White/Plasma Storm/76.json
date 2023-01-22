@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Kick",
+				"fr": "Koud'Pied"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Feint",
+				"fr": "Ruse"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		447
+	],
+	"hp": 70,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Riolu",
+		"en": "Riolu",
+		"es": "Riolu",
+		"fr": "Riolu",
+		"it": "Riolu",
+		"pt": "Riolu"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

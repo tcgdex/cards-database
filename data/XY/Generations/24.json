@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bubble Drain",
+				"fr": "Vide Bulle"
+			},
+			"effect": {
+				"en": "Heal 30 damage from this Pokémon.",
+				"fr": "Soignez 30 dégâts à ce Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Deep Squall",
+				"fr": "Rafale Profonde"
+			},
+			"effect": {
+				"en": "This attack does 130 damage minus 10 damage for each damage counter on this Pokémon.",
+				"fr": "Cette attaque inflige 130 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon."
+			},
+			"damage": "130−"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		134
+	],
+	"hp": 180,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"en": "Vaporeon EX",
+		"fr": "Aquali-EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 3,
+	"set": "g1",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

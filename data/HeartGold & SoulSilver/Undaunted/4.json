@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Ninja Fang",
+				"fr": "Croc Ninja"
+			},
+			"effect": {
+				"en": "If, before Gliscor does damage, the Defending Pokémon has no damage counters on it and is then damaged by this attack (after applying Weakness and Resistance), the Defending Pokémon is now Paralyzed.",
+				"fr": "Si, avant que Scorvol n’inflige de dégâts, le Pokémon Défenseur n’a aucun marqueur de dégât et qu’il subit ensuite des dégâts à cause de cette attaque (après application de la Faiblesse et de la Résistance), il est maintenant Paralysé."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Jab",
+				"fr": "Direct Toxik"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest."
+	},
+	"dexId": [
+		472
+	],
+	"evolveFrom": {
+		"en": "Gligar",
+		"fr": "Scorplane"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"en": "Gliscor",
+		"fr": "Scorvol"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Tackle"
+			},
+			"effect": {
+				"en": "Does 20 damage to each Defending Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crushing Blow"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		148
+	],
+	"evolveFrom": {
+		"en": "Dratini"
+	},
+	"hp": 80,
+	"illustrator": "Tomoaki Imakuni",
+	"name": {
+		"en": "Dark Dragonair"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		},
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Darkness",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		},
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

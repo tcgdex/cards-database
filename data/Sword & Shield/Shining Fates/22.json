@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Pluie Éclaboussante",
+				"en": "Rain Splash",
+				"es": "Golpe de Lluvia",
+				"it": "Spruzzapioggia",
+				"pt": "Chuva Borrifante",
+				"de": "Regenplatscher"
+			},
+			"damage": 20,
+			"cost": [
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on."
+	},
+	"hp": 70,
+	"illustrator": "ryoma uratsuka",
+	"name": {
+		"de": "Bamelin",
+		"en": "Buizel",
+		"es": "Buizel",
+		"fr": "Mustébouée",
+		"it": "Buizel",
+		"pt": "Buizel"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Leaf Trans",
+				"fr": "Transfo feuille"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may move a Grass Energy attached to 1 of your Pokémon to another of your Pokémon. This power can’t be used if Meganium is affected by a Special Condition.",
+				"fr": "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie Grass attachée à l’un de vos Pokémon sur un autre Pokémon. Ce pouvoir ne peut pas être utilisé si Meganium est affecté par un État spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Solarbeam",
+				"fr": "Lance-soleil"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		154
+	],
+	"evolveFrom": {
+		"en": "Bayleef",
+		"fr": "Macronium"
+	},
+	"hp": 150,
+	"illustrator": "Takashi Yamaguchi",
+	"name": {
+		"en": "Meganium",
+		"fr": "Meganium"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Stage2",
+	"suffix": "Prime",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

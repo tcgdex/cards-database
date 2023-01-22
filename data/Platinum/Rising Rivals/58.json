@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scary Face",
+				"fr": "Grimace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Whirlpool",
+				"fr": "Siphon"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		318
+	],
+	"hp": 40,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Carvanha",
+		"fr": "Carvanha Niv. 13"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

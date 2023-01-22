@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Perplex",
+				"fr": "Affolement",
+				"es": "Desconcierto",
+				"it": "Sconcerto",
+				"pt": "Perplexo",
+				"de": "Perplex"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		686
+	],
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Iscalar",
+		"en": "Inkay",
+		"es": "Inkay",
+		"fr": "Sepiatop",
+		"it": "Inkay",
+		"pt": "Inkay"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

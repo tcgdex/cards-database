@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Rush"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Granite Head"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done to Onix by attacks is reduced by 10 (after applying Weakness and Resistance)."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		95
+	],
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Onix"
+	},
+	"rarity": "Common",
+	"set": "ex7",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

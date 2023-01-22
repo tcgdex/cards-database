@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Agility",
+				"fr": "Hâte"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		522
+	],
+	"hp": 60,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Elezeba",
+		"en": "Blitzle",
+		"es": "Blitzle",
+		"fr": "Zébibron",
+		"it": "Blitzle",
+		"pt": "Blitzle"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche"
+			},
+			"effect": {
+				"en": "Discard a Energy card attached to Ponyta.",
+				"fr": "Défaussez-vous d'une carte Énergie  attachée à Ponyta."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		77
+	],
+	"hp": 40,
+	"illustrator": "Shin-ichi Yoshida",
+	"name": {
+		"en": "Ponyta",
+		"fr": "Ponyta"
+	},
+	"rarity": "Common",
+	"set": "ecard2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

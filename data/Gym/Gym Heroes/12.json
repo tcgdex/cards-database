@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Wall"
+			},
+			"effect": {
+				"en": "If an attack does damage to Rocket's Moltres during your opponent's next turn (even if Rocket's Moltres is Knocked Out), Rocket's Moltres attacks your opponent's Active Pokémon for 10 damage. (Apply Weakness and Resistance.)"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		146
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Rocket's Moltres"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "gym1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Retaliate",
+				"fr": "Vengeance"
+			},
+			"effect": {
+				"en": "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 60 more damage.",
+				"fr": "Si l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque de votre adversaire pendant son dernier tour, cette attaque inflige 60 dégâts supplémentaires."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Land Crush",
+				"fr": "Écras'Terre"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		639
+	],
+	"hp": 130,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Terrakium",
+		"en": "Terrakion",
+		"es": "Terrakion",
+		"fr": "Terrakium",
+		"it": "Terrakion",
+		"pt": "Terrakion"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

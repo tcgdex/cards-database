@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spark",
+				"fr": "Étincelle"
+			},
+			"effect": {
+				"en": "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunderous Claw",
+				"fr": "Griffe-tonnerre"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard all Lightning Energy attached to Luxio.",
+				"fr": "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies Lightning attachées à Luxio."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes."
+	},
+	"dexId": [
+		404
+	],
+	"evolveFrom": {
+		"en": "Shinx",
+		"fr": "Sheinux"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Luxio",
+		"fr": "Luxio"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

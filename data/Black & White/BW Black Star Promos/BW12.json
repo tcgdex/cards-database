@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Jump On",
+				"fr": "Saut"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 more damage.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		570
+	],
+	"hp": 60,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Zorua",
+		"fr": "Zorua"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bwp",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

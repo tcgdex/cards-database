@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sweet Nectar",
+				"fr": "Doux nectar"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, remove all damage counters from 1 of your Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, retirez tous les marqueurs de dégâts d'un de vos Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flower Dance",
+				"fr": "Valse des fleurs"
+			},
+			"effect": {
+				"en": "Does 30 damage times the number of cards with Bellossom in their names that you have in play (including this one).",
+				"fr": "Inflige 30 dégâts multipliés par le nombre de cartes que vous avez en jeu et dont le nom contient Joliflor (y compris celle-ci)."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches."
+	},
+	"dexId": [
+		182
+	],
+	"evolveFrom": {
+		"en": "Gloom"
+	},
+	"hp": 70,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Bellossom",
+		"fr": "Joliflor"
+	},
+	"rarity": "Rare",
+	"set": "neo1",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

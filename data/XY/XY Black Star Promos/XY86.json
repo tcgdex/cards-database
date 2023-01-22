@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Moonsault Blaze",
+				"fr": "Brasier Sélénite"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon's Moonsault Blaze attack does 100 more damage (before applying Weakness and Resistance).",
+				"fr": "Pendant votre prochain tour, l'attaque Brasier Sélénite de ce Pokémon inflige 100 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		257
+	],
+	"evolveFrom": {
+		"en": "Blaziken-EX",
+		"fr": "Braségali-eEX"
+	},
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Blaziken EX",
+		"fr": "M Braségali EX"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "xyp",
+	"stage": "MEGA",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Needling Sting",
+				"fr": "Piqûre piquante"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "String Shot",
+				"fr": "Sécrétion"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il adore manger des feuilles. Si un Etourmi l'attaque, il riposte avec les piquants de son postérieur."
+	},
+	"dexId": [
+		265
+	],
+	"hp": 50,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Wurmple",
+		"fr": "Chenipotte"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

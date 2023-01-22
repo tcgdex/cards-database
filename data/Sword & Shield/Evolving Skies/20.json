@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Victory Dive",
+				"fr": "Plongée Victorieuse",
+				"es": "Salto Victoria",
+				"it": "Picchiata Vittoriosa",
+				"pt": "Victory Dive",
+				"de": "Triumphzug"
+			},
+			"effect": {
+				"en": "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+				"fr": "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
+				"es": "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
+				"it": "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				"pt": "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+				"de": "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
+			},
+			"damage": 30,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
+	},
+	"dexId": [
+		494
+	],
+	"hp": 60,
+	"illustrator": "Teeziro",
+	"name": {
+		"de": "Victini",
+		"en": "Victini",
+		"es": "Victini",
+		"fr": "Victini",
+		"it": "Victini",
+		"pt": "Victini"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

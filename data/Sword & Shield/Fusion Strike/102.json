@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wild Charge"
+			},
+			"damage": 70,
+			"effect": {
+				"en": "This Pokémon also does 20 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws."
+	},
+	"hp": 120,
+	"illustrator": "Teeziro",
+	"name": {
+		"de": "Zeraora",
+		"en": "Zeraora",
+		"es": "Zeraora",
+		"fr": "Zeraora",
+		"it": "Zeraora",
+		"pt": "Zeraora"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

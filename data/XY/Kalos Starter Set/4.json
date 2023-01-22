@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leech Seed",
+				"fr": "Vampigraine",
+				"es": "Drenadoras",
+				"it": "Parassiseme",
+				"pt": "Semente Sanguessuga",
+				"de": "Egelsamen"
+			},
+			"effect": {
+				"en": "Heal 10 damage from this Pokémon.",
+				"fr": "Soignez 10 dégâts à ce Pokémon.",
+				"es": "Cura 10 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 10 danni.",
+				"pt": "Cura 10 de danos deste Pokémon.",
+				"de": "Heile 10 Schadenspunkte bei diesem Pokémon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Needle Arm",
+				"fr": "Poing Dard",
+				"es": "Brazo Pincho",
+				"it": "Pugnospine",
+				"pt": "Braço de Agulha",
+				"de": "Nietenranke"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		651
+	],
+	"evolveFrom": {
+		"en": "Chespin",
+		"fr": "Marisson",
+		"es": "Chespin",
+		"it": "Chespin",
+		"pt": "Chespin",
+		"de": "Igamaro"
+	},
+	"hp": 90,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Igastarnish",
+		"en": "Quilladin",
+		"es": "Quilladin",
+		"fr": "Boguérisse",
+		"it": "Quilladin",
+		"pt": "Quilladin"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "xy0",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

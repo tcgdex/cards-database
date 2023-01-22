@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rolling Tackle",
+				"fr": "Roulé-Boulé",
+				"es": "Placaje Giro",
+				"it": "Rollazione",
+				"pt": "Golpe de Colisão Rolante",
+				"de": "Rolltackle"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
+	},
+	"hp": 80,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Nasgnet",
+		"en": "Nosepass",
+		"es": "Nosepass",
+		"fr": "Tarinor",
+		"it": "Nosepass",
+		"pt": "Nosepass"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

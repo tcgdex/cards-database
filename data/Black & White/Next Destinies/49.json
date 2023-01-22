@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bounce",
+				"fr": "Rebond"
+			},
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		587
+	],
+	"hp": 70,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Emolga",
+		"en": "Emolga",
+		"es": "Emolga",
+		"fr": "Emolga",
+		"it": "Emolga",
+		"pt": "Emolga"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

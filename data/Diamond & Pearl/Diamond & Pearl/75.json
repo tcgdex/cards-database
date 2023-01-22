@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sleep Powder",
+				"fr": "Poudre dodo"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leech Seed",
+				"fr": "Vampigraine"
+			},
+			"effect": {
+				"en": "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi.",
+				"fr": "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez à Ceribou un marqueur de dégât."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
+	},
+	"dexId": [
+		420
+	],
+	"hp": 50,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Cherubi",
+		"fr": "Ceribou"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Bug Bite"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bubble Launch"
+			},
+			"damage": 110,
+			"effect": {
+				"en": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It acts as a caretaker for Dewpider, putting them inside its bubble and letting them eat any leftover food."
+	},
+	"evolveFrom": {
+		"en": "Dewpider",
+		"fr": "Araqua",
+		"es": "Dewpider",
+		"it": "Dewpider",
+		"pt": "Dewpider",
+		"de": "Araqua"
+	},
+	"hp": 120,
+	"illustrator": "KIYOTAKA OSHIYAMA",
+	"name": {
+		"de": "Aranestro",
+		"en": "Araquanid",
+		"es": "Araquanid",
+		"fr": "Tarenbulle",
+		"it": "Araquanid",
+		"pt": "Araquanid"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

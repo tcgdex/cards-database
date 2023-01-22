@@ -1,0 +1,34 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Energy Catch",
+				"fr": "Attrape-énergie"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, put a basic Energy cards from your discard pile into your hand.",
+				"fr": "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		240
+	],
+	"hp": 30,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Magby",
+		"fr": "Magby"
+	},
+	"rarity": "Rare",
+	"set": "ecard1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	]
+}

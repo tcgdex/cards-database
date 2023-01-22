@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Precognitive Dream",
+				"fr": "Rêve Prémonitoire"
+			},
+			"effect": {
+				"en": "Draw 3 cards. This Pokémon is now Asleep.",
+				"fr": "Piochez 3 cartes. Ce Pokémon est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psybeam",
+				"fr": "Rafale Psy"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		518
+	],
+	"evolveFrom": {
+		"en": "Munna",
+		"fr": "Munna"
+	},
+	"hp": 100,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Somnivora",
+		"en": "Musharna",
+		"es": "Musharna",
+		"fr": "Mushana",
+		"it": "Musharna",
+		"pt": "Musharna"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw10",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

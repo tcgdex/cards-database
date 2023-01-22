@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes."
+	},
+	"illustrator": "Yusuke Ohmura",
+	"name": {
+		"en": "Cynthia",
+		"fr": "Cynthia"
+	},
+	"rarity": "Common",
+	"set": "sma",
+	"trainerType": "Supporter"
+}

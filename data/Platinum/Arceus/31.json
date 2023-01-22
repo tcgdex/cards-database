@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Leaf Supply"
+			},
+			"effect": {
+				"en": "You may attach a basic Energy card from your hand to 1 of your Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dual Cut"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 70 damage times the number of heads."
+			},
+			"damage": "70x"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		254
+	],
+	"evolveFrom": {
+		"en": "Grovyle"
+	},
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Sceptile"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+30"
+		}
+	]
+}

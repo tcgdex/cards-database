@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Flap",
+				"fr": "Battement",
+				"es": "Aleteo",
+				"it": "Alabattito",
+				"pt": "Flap",
+				"de": "Flattern"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back."
+	},
+	"dexId": [
+		742
+	],
+	"hp": 30,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Wommel",
+		"en": "Cutiefly",
+		"es": "Cutiefly",
+		"fr": "Bombydou",
+		"it": "Cutiefly",
+		"pt": "Cutiefly"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 0,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

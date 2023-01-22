@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare",
+				"fr": "Flamboiement"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		4
+	],
+	"hp": 70,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"en": "Charmander",
+		"fr": "Salamèche"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm115",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

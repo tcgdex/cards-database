@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Hypnotic Gaze"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		280
+	],
+	"hp": 40,
+	"illustrator": "Mizue",
+	"name": {
+		"en": "Ralts"
+	},
+	"rarity": "Common",
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

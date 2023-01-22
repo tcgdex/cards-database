@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Horn Attack",
+				"fr": "Koud'Korne",
+				"es": "Cornada",
+				"it": "Incornata",
+				"pt": "Ataque de Chifre",
+				"de": "Hornattacke"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Single-Horn Throw",
+				"fr": "Lancer Unicorne",
+				"es": "Lanzamiento Cuerno",
+				"it": "Lancio Monocorno",
+				"pt": "Arremesso Unicórnio",
+				"de": "Einzelhornwurf"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If both of them are heads, this attack does 160 more damage.",
+				"fr": "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 160 dégâts supplémentaires.",
+				"es": "Lanza 2 monedas. Si ambas son cara, este ataque hace 160 puntos de daño más.",
+				"it": "Lancia due volte una moneta. Se esce entrambe le volte testa, questo attacco infligge 160 danni in più.",
+				"pt": "Jogue 2 moedas. Se as 2 saírem cara, este ataque causará 160 pontos de dano a mais.",
+				"de": "Wirf 2 Münzen. Zeigen beide Münzen Kopf, fügt diese Attacke 160 Schadenspunkte mehr zu."
+			},
+			"damage": "40+",
+			"cost": [
+				"Grass",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
+	},
+	"hp": 120,
+	"illustrator": "Hasuno",
+	"name": {
+		"de": "Skaraborn",
+		"en": "Heracross",
+		"es": "Heracross",
+		"fr": "Scarhino",
+		"it": "Heracross",
+		"pt": "Heracross"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

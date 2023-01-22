@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call for Family"
+			},
+			"effect": {
+				"en": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Aqua Ring"
+			},
+			"effect": {
+				"en": "Switch Manaphy with 1 of your Benched Pokémon."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Born on a cold seafloor, it will swim great distances to return to its birthplace."
+	},
+	"dexId": [
+		490
+	],
+	"hp": 70,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Manaphy"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pop6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

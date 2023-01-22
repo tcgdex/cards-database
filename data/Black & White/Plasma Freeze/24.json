@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Surprise Attack",
+				"fr": "Attaque Surprise"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		535
+	],
+	"hp": 60,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Schallquap",
+		"en": "Tympole",
+		"es": "Tympole",
+		"fr": "Tritonde",
+		"it": "Tympole",
+		"pt": "Tympole"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

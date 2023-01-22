@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In"
+			},
+			"damage": 80
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Land Crush"
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"hp": 230,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Despotar V",
+		"en": "Tyranitar V",
+		"es": "Tyranitar V",
+		"fr": "Tyranocif V",
+		"it": "Tyranitar V",
+		"pt": "Tyranitar V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

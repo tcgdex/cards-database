@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Mud Shot",
+				"fr": "Tir de Boue",
+				"es": "Disparo Lodo",
+				"it": "Colpodifango",
+				"pt": "Tiro de Lama",
+				"de": "Lehmschuss"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Beat",
+				"fr": "Bataille",
+				"es": "Toque",
+				"it": "Battuta",
+				"pt": "Pulso",
+				"de": "Verprügler"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside."
+	},
+	"hp": 70,
+	"illustrator": "Mina Nakai",
+	"name": {
+		"de": "Felino",
+		"en": "Wooper",
+		"es": "Wooper",
+		"fr": "Axoloto",
+		"it": "Wooper",
+		"pt": "Wooper"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

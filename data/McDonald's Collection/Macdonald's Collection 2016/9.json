@@ -1,0 +1,25 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Sweet Kiss"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "Your opponent draws a card."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
+	},
+	"illustrator": "HiRON",
+	"name": {
+		"en": "Togepi"
+	},
+	"rarity": "None",
+	"set": "2016xy",
+	"stage": "Basic"
+}

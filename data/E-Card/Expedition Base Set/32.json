@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Foul Gas",
+				"fr": "Gaz infect"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Misfire",
+				"fr": "Raté"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, put 6 damage counters on Weezing.",
+				"fr": "Lancez une pièce. Si c'est face, placez 6 marqueurs de dégâts sur Smogogo."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		110
+	],
+	"evolveFrom": {
+		"en": "Koffing"
+	},
+	"hp": 80,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Weezing",
+		"fr": "Smogogo"
+	},
+	"rarity": "Rare",
+	"set": "ecard1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

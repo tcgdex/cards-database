@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 162,
+	"id": "xy8",
+	"name": {
+		"de": "TURBOstart",
+		"en": "BREAKthrough",
+		"es": "Turbo Impulso",
+		"fr": "Impulsion Turbo",
+		"it": "Turbo Blitz",
+		"pt": "Turbo Revolução"
+	},
+	"releaseDate": "2015-11-04",
+	"serie": "xy",
+	"tcgOnline": "BKT"
+}

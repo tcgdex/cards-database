@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Leafage",
+				"fr": "Feuillage",
+				"es": "Follaje",
+				"it": "Fogliame",
+				"pt": "Folhagem",
+				"de": "Blattwerk"
+			},
+			"damage": 10,
+			"cost": [
+				"Grass"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!"
+	},
+	"hp": 50,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Kikugi",
+		"en": "Cherubi",
+		"es": "Cherubi",
+		"fr": "Ceribou",
+		"it": "Cherubi",
+		"pt": "Cherubi"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

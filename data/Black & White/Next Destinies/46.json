@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Flash Impact",
+				"fr": "Impact-Flash"
+			},
+			"effect": {
+				"en": "Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 20 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crunch",
+				"fr": "Mâchouille"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		405
+	],
+	"evolveFrom": {
+		"en": "Luxio",
+		"fr": "Luxio"
+	},
+	"hp": 140,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Luxtra",
+		"en": "Luxray",
+		"es": "Luxray",
+		"fr": "Luxray",
+		"it": "Luxray",
+		"pt": "Luxray"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

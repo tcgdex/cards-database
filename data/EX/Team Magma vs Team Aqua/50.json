@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Toxic Grip",
+				"fr": "Pince empoisonnée"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		341
+	],
+	"hp": 50,
+	"illustrator": "Jungo Suzuki",
+	"name": {
+		"en": "Team Aqua's Corphish",
+		"fr": "Écrapince de Team Aqua"
+	},
+	"rarity": "Common",
+	"set": "ex4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Energy Burn",
+				"fr": "Dépense d'énergie"
+			},
+			"effect": {
+				"en": "All Energy attached to Charizard are fire Energy instead of their usual type.",
+				"fr": "Toutes les Énergies attachées à Dracaufeu sont des Énergies Fire au lieu de leur type habituel."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Spin",
+				"fr": "Danseflamme"
+			},
+			"effect": {
+				"en": "Discard 2 Energy attached to Charizard.",
+				"fr": "Défaussez 2 Énergies attachées à Dracaufeu."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ses ailes peuvent le faire voler à plus de 1 400 mètres d'altitude. Ce Pokémon crache du feu à des températures très élevées."
+	},
+	"dexId": [
+		6
+	],
+	"evolveFrom": {
+		"en": "Charmeleon",
+		"fr": "Reptincel"
+	},
+	"hp": 120,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Charizard",
+		"fr": "Dracaufeu"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "dp7",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

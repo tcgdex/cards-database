@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Lightning"
+			],
+			"name": {
+				"en": "Energy Shower",
+				"fr": "Averse d'énergie"
+			},
+			"effect": {
+				"en": "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.",
+				"fr": "Choisissez dans votre main autant de cartes Énergie de base que vous le voulez et attachez-les à vos Pokémon de la façon que vous voulez."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rainbow Burn",
+				"fr": "Brûlure arcenciel"
+			},
+			"effect": {
+				"en": "Does 30 damage plus 10 more damage for each type of basic Energy card attached to Flygon.",
+				"fr": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque type de carte Énergie de base attaché à Libegon."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		330
+	],
+	"evolveFrom": {
+		"en": "Vibrava"
+	},
+	"hp": 120,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Flygon",
+		"fr": "Libegon"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fire",
+			"value": "-30"
+		},
+		{
+			"type": "Lightning",
+			"value": "-30"
+		}
+	],
+	"set": "ex3",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

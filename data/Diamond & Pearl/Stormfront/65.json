@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Sea Spray",
+				"fr": "Spray de mer"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. For each heads, draw a card.",
+				"fr": "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, piochez une carte."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Splash",
+				"fr": "Trempette"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
+	},
+	"dexId": [
+		129
+	],
+	"evolveFrom": {
+		"fr": "Magicarpe"
+	},
+	"hp": 30,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Magikarp",
+		"fr": "Magicarpe"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

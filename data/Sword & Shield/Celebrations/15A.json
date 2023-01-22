@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Pokemon Power",
+			"name": {
+				"en": "Energy Trans"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may take 1 Grass Energy card attached to 1 of your Pokémon and attach it to a different one. This power can't be used if Venusaur is Asleep, Confused, or Paralyzed."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Solarbeam"
+			},
+			"damage": 60,
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Grass"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
+	},
+	"hp": 100,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Venusaur"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "cel25",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": ""
+		}
+	]
+}

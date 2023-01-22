@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Exoskeleton"
+			},
+			"effect": {
+				"en": "All damage done to Kakuna is reduced by 10 (after applying Weakness and Resistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Poisonpowder"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		14
+	],
+	"evolveFrom": {
+		"en": "Weedle"
+	},
+	"hp": 70,
+	"illustrator": "Hisao Nakamura",
+	"name": {
+		"en": "Kakuna"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

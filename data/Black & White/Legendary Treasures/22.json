@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Searing Flame"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fire Blast"
+			},
+			"effect": {
+				"en": "Discard a Fire Energy attached to this Pokémon."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		146
+	],
+	"hp": 120,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Moltres"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

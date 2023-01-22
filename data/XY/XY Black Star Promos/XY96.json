@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mach Claw",
+				"fr": "Instagriffe"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		197
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Évoli"
+	},
+	"hp": 100,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Umbreon",
+		"fr": "Noctali"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xyp",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

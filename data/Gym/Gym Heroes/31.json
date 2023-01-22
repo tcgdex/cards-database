@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Ring"
+			},
+			"effect": {
+				"en": "Does 10 damage to each Pokémon that isn't on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		62
+	],
+	"evolveFrom": {
+		"en": "Poliwhirl"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Misty's Poliwrath"
+	},
+	"rarity": "Rare",
+	"set": "gym1",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

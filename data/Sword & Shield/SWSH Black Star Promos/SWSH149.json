@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flaming Breath"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scorching Column"
+			},
+			"damage": 120,
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Burned."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Flareon V"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Surprise Attack"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit."
+	},
+	"hp": 60,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Grillmak",
+		"en": "Pansear",
+		"es": "Pansear",
+		"fr": "Flamajou",
+		"it": "Pansear",
+		"pt": "Pansear"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

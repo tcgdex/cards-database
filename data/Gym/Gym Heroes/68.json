@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Fidget"
+			},
+			"effect": {
+				"en": "Shuffle your deck."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Karate Chop"
+			},
+			"effect": {
+				"en": "Does 40 damage minus 10 damage for each damage counter on Brock's Mankey."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		56
+	],
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Brock's Mankey"
+	},
+	"rarity": "Common",
+	"set": "gym1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

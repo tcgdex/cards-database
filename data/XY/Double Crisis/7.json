@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mud-Slap",
+				"fr": "Coud'Boue"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		88
+	],
+	"hp": 70,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Team Aqua's Grimer",
+		"fr": "Tadmorv de la Team Aqua"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "dc1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

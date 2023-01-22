@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Low Kick",
+				"fr": "Balayage",
+				"es": "Patada Baja",
+				"it": "Colpo Basso",
+				"pt": "Rasteira",
+				"de": "Fußkick"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Zap Kick",
+				"fr": "Coup de Pied Ravageur",
+				"es": "Electropatada",
+				"it": "Dinamocalcio",
+				"pt": "Chute Zap",
+				"de": "Stromtritt"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
+	},
+	"evolveFrom": {
+		"en": "Blitzle",
+		"fr": "Zébibron",
+		"es": "Blitzle",
+		"it": "Blitzle",
+		"pt": "Blitzle",
+		"de": "Elezeba"
+	},
+	"hp": 110,
+	"illustrator": "0313",
+	"name": {
+		"de": "Zebritz",
+		"en": "Zebstrika",
+		"es": "Zebstrika",
+		"fr": "Zéblitz",
+		"it": "Zebstrika",
+		"pt": "Zebstrika"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

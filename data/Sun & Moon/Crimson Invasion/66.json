@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Metal Claw",
+				"fr": "Griffe Acier",
+				"es": "Garra Metal",
+				"it": "Ferrartigli",
+				"pt": "Garra de Metal",
+				"de": "Metallklaue"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncement",
+				"es": "Martillear",
+				"it": "Martello",
+				"pt": "Martelada",
+				"de": "Einhämmern"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		305
+	],
+	"evolveFrom": {
+		"en": "Aron",
+		"fr": "Galekid"
+	},
+	"hp": 100,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Stollrak",
+		"en": "Lairon",
+		"es": "Lairon",
+		"fr": "Galegon",
+		"it": "Lairon",
+		"pt": "Lairon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "sm4",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

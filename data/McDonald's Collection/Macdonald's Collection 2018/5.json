@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"en": "Slowpoke"
+	},
+	"rarity": "None",
+	"set": "2018sm",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

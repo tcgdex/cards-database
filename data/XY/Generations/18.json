@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dread Launcher",
+				"fr": "Lanceur d'Effroi"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard 2 Water Energy attached to this Pokémon.",
+				"fr": "Lancez une pièce. Si c'est pile, défaussez 2 Énergies Water attachées à ce Pokémon."
+			},
+			"damage": 180
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		9
+	],
+	"evolveFrom": {
+		"en": "Blastoise-EX",
+		"fr": "Tortank-EX"
+	},
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Blastoise EX",
+		"fr": "M-Tortank-EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 3,
+	"set": "g1",
+	"stage": "MEGA",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

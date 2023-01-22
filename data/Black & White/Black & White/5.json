@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vine Whip",
+				"fr": "Fouet Lianes"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Leaf Storm",
+				"fr": "Tempêteverte"
+			},
+			"effect": {
+				"en": "Heal 20 damage from each of your Grass Pokémon.",
+				"fr": "Soignez 20 dégâts à chacun de vos Pokémon Grass."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		497
+	],
+	"evolveFrom": {
+		"en": "Servine",
+		"fr": "Lianaja"
+	},
+	"hp": 130,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Serpiroyal",
+		"en": "Serperior",
+		"es": "Serperior",
+		"fr": "Majaspic",
+		"it": "Serperior",
+		"pt": "Serperior"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "bw1",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

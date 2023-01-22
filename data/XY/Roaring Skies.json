@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 108,
+	"id": "xy6",
+	"name": {
+		"de": "Drachenleuchten",
+		"en": "Roaring Skies",
+		"es": "Cielos Rugientes",
+		"fr": "Ciel Rugissant",
+		"it": "Furie Volanti",
+		"pt": "Céus Estrondosos"
+	},
+	"releaseDate": "2015-05-06",
+	"serie": "xy",
+	"tcgOnline": "ROS"
+}

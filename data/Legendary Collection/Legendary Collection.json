@@ -1,0 +1,11 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 110,
+	"id": "lc",
+	"name": {
+		"en": "Legendary Collection"
+	},
+	"releaseDate": "2002-05-24",
+	"serie": "lc",
+	"tcgOnline": "LC"
+}

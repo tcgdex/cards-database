@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sleep Spore",
+				"fr": "Spore dodo"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est recouvert de spores de champignons à sa naissance. Quand il grandit, des champignons lui poussent sur le dos."
+	},
+	"dexId": [
+		46
+	],
+	"hp": 40,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Paras",
+		"fr": "Paras"
+	},
+	"rarity": "Common",
+	"set": "neo3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

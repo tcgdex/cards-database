@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Claws"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		30
+	],
+	"evolveFrom": {
+		"en": "Nidoran♀"
+	},
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Nidorina"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

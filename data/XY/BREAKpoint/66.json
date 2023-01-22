@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Silent Fear",
+				"fr": "Peur Silencieuse",
+				"es": "Temor Silencioso",
+				"it": "Timormuto",
+				"pt": "Temor Silencioso",
+				"de": "Stille Angst"
+			},
+			"effect": {
+				"en": "Put 3 damage counters on each of your opponent's Pokémon.",
+				"fr": "Placez 3 marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
+				"es": "Pon 3 contadores de daño en cada uno de los Pokémon de tu rival.",
+				"it": "Metti tre segnalini danno su ciascuno dei Pokémon del tuo avversario.",
+				"pt": "Coloque 3 contadores de danos em cada um dos Pokémon do seu oponente.",
+				"de": "Lege 3 Schadensmarken auf jedes Pokémon deines Gegners."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		709
+	],
+	"evolveFrom": {
+		"en": "Trevenant",
+		"fr": "Desséliande",
+		"es": "Trevenant",
+		"it": "Trevenant",
+		"pt": "Trevenant",
+		"de": "Trombork"
+	},
+	"hp": 160,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Trombork-TURBO",
+		"en": "Trevenant BREAK",
+		"es": "Trevenant TURBO",
+		"fr": "Desséliande TURBO",
+		"it": "Trevenant TURBO",
+		"pt": "Trevenant TURBO"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 0,
+	"set": "xy9",
+	"stage": "BREAK",
+	"types": [
+		"Psychic"
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Signs of Evolution"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your deck for a card that evolves from Magikarp, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Splash"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		129
+	],
+	"hp": 30,
+	"illustrator": "Keiko Fukuyama",
+	"name": {
+		"en": "Magikarp"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

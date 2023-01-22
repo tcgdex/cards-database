@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Hidden Poison"
+			},
+			"effect": {
+				"en": "If Haunter is your Active Pokémon and is damaged by an opponent's attack (even if Haunter is Knocked Out), the Attacking Pokémon is now Poisoned."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tongue Spring"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		93
+	],
+	"evolveFrom": {
+		"en": "Gastly"
+	},
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Haunter"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+20"
+		}
+	]
+}

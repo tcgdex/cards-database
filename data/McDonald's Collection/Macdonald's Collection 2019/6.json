@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Iron Tail"
+			},
+			"damage": "20×",
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A plan was recently announced to gather many Pikachu and make an electric power plant."
+	},
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Pikachu"
+	},
+	"rarity": "None",
+	"set": "2019sm",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

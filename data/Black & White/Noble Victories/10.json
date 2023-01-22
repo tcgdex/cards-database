@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Toxic",
+				"fr": "Toxik"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Body Slam",
+				"fr": "Plaquage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		591
+	],
+	"evolveFrom": {
+		"en": "Foongus",
+		"fr": "Trompignon"
+	},
+	"hp": 90,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Hutsassa",
+		"en": "Amoonguss",
+		"es": "Amoonguss",
+		"fr": "Gaulet",
+		"it": "Amoonguss",
+		"pt": "Amoonguss"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

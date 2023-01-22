@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Agility",
+				"fr": "Hâte"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Metang during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Metang lors du prochain tour de votre adversaire."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Claw",
+				"fr": "Griffe acier"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est formé de deux TERHAL soudés. Son corps de fer résiste à un choc avec un avion à réaction."
+	},
+	"dexId": [
+		375
+	],
+	"evolveFrom": {
+		"en": "Beldum",
+		"fr": "Terhal"
+	},
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Metang",
+		"fr": "Metang"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

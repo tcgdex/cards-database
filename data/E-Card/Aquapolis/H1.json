@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Thundershock",
+				"fr": "Éclair"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reflect Energy",
+				"fr": "Renvoi d'énergie"
+			},
+			"effect": {
+				"en": "If you have any Benched Pokémon and if there are any basic Energy cards attached to Ampharos, take 1 of those Energy cards and attach it to 1 of those Pokémon.",
+				"fr": "Si vous avez des Pokémon sur votre Banc et s'il y a des cartes Énergie de base attachées à Pharamp, prenez une de ces cartes Énergie et attachez-la à l'un de ces Pokémon."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		181
+	],
+	"evolveFrom": {
+		"en": "Flaaffy"
+	},
+	"hp": 100,
+	"illustrator": "Shin-ichi Yoshida",
+	"name": {
+		"en": "Ampharos",
+		"fr": "Pharamp"
+	},
+	"rarity": "Rare",
+	"set": "ecard2",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

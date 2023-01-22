@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Overrun",
+				"fr": "Dépassement",
+				"es": "Rebasar",
+				"it": "Oltrepassare",
+				"pt": "Atropelar",
+				"de": "Überrennen"
+			},
+			"effect": {
+				"en": "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				"es": "Este ataque hace 30 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				"it": "Questo attacco infligge 30 danni a uno dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				"pt": "Este ataque causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				"de": "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Tail",
+				"fr": "Queue de Flammes",
+				"es": "Cola de Fuego",
+				"it": "Codafiamma",
+				"pt": "Cauda de Chamas",
+				"de": "Flammenschweif"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		78
+	],
+	"evolveFrom": {
+		"en": "Ponyta",
+		"fr": "Ponyta"
+	},
+	"hp": 100,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Gallopa",
+		"en": "Rapidash",
+		"es": "Rapidash",
+		"fr": "Galopa",
+		"it": "Rapidash",
+		"pt": "Rapidash"
+	},
+	"rarity": "Uncommon",
+	"retreat": 0,
+	"set": "sm12",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

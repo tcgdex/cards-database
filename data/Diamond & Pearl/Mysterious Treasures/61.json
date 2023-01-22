@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spike Armor",
+				"fr": "Armure piquante"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, if Sandslash is damaged by an opponent's attack (even if Sandslash is Knocked Out), put 4 damage counters on the Attacking Pokémon.",
+				"fr": "Lors du prochain tour de votre adversaire, si une attaque de votre adversaire inflige des dégâts à Sablaireau (même s'il est mis K.O), placez 4 marqueurs de dégât sur le Pokémon Attaquant."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Spike",
+				"fr": "Pointe empoisonnée"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has any damage counters on it, that Pokémon is now Poisoned.",
+				"fr": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Empoisonné."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il se met en boule pour percuter l'ennemi. Ses épines aiguisées font beaucoup de dégâts."
+	},
+	"dexId": [
+		28
+	],
+	"evolveFrom": {
+		"en": "Sandshrew"
+	},
+	"hp": 90,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Sandslash",
+		"fr": "Sablaireau"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"set": "dp2",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

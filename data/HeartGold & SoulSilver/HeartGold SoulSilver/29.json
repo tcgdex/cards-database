@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Sting",
+				"fr": "Dard-venin"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fury Swipes",
+				"fr": "Combo-griffe"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If it digs at an incredible pace, it may snap off its spike and claws. They grow back in a day."
+	},
+	"dexId": [
+		28
+	],
+	"evolveFrom": {
+		"en": "Sandshrew",
+		"fr": "Sabelette"
+	},
+	"hp": 80,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Sandslash",
+		"fr": "Sablaireau"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

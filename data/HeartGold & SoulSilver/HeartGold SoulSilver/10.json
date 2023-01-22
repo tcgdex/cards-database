@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Iron Tail",
+				"fr": "Queue de fer"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "30×"
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunderbolt",
+				"fr": "Tonnerre"
+			},
+			"effect": {
+				"en": "Discard all Energy attached to Raichu.",
+				"fr": "Défaussez-vous de toutes les cartes Énergie attachées à Raichu."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up."
+	},
+	"dexId": [
+		26
+	],
+	"evolveFrom": {
+		"en": "Pikachu",
+		"fr": "Pikachu"
+	},
+	"hp": 90,
+	"illustrator": "match",
+	"name": {
+		"en": "Raichu",
+		"fr": "Raichu"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

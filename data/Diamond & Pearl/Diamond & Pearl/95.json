@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Attack",
+				"fr": "Koud'korne"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down",
+				"fr": "Bélier"
+			},
+			"effect": {
+				"en": "Rhyhorn does 10 damage to itself.",
+				"fr": "Rhinocorne s'inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Sa peau est très épaisse et sa charge peut détruire un immeuble. Dommage qu'il soit stupide."
+	},
+	"dexId": [
+		111
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Rhyhorn",
+		"fr": "Rhinocorne"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+10"
+		}
+	]
+}

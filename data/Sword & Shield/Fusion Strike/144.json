@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Smack"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
+	},
+	"hp": 60,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"de": "Puppance",
+		"en": "Baltoy",
+		"es": "Baltoy",
+		"fr": "Balbuto",
+		"it": "Baltoy",
+		"pt": "Baltoy"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

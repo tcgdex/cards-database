@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Rear Kick"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+	},
+	"evolveFrom": {
+		"en": "Galarian Zigzagoon",
+		"fr": "Zigzaton de Galar",
+		"es": "Zigzagoon de Galar",
+		"it": "Zigzagoon di Galar",
+		"pt": "Zigzagoon de Galar",
+		"de": "Galar-Zigzachs"
+	},
+	"hp": 90,
+	"illustrator": "sowsow",
+	"name": {
+		"de": "Galar-Geradaks",
+		"en": "Galarian Linoone",
+		"es": "Linoone de Galar",
+		"fr": "Linéon de Galar",
+		"it": "Linoone di Galar",
+		"pt": "Linoone de Galar"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

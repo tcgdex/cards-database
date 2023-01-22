@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Grass Cushion",
+				"fr": "Coussin Plante",
+				"es": "Cojín Planta",
+				"it": "Cuscino d’Erba",
+				"pt": "Almofada de Planta",
+				"de": "Pflanzenpolster"
+			},
+			"effect": {
+				"en": "If this Pokémon has any Grass Energy attached to it, it takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				"fr": "Si de l’Énergie Grass est attachée à ce Pokémon, il subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				"es": "Si este Pokémon tiene alguna Energía Grass unida a él, los ataques le hacen 30 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
+				"it": "Se questo Pokémon ha delle Energie Grass assegnate, subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				"pt": "Se este Pokémon tiver alguma Energia Grass ligada a ele, receberá 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				"de": "Wenn an dieses Pokémon mindestens 1 Grass-Energie angelegt ist, werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bug Bite",
+				"fr": "Piqûre",
+				"es": "Picadura",
+				"it": "Coleomorso",
+				"pt": "Picada",
+				"de": "Käferbiss"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		14
+	],
+	"evolveFrom": {
+		"en": "Weedle",
+		"fr": "Aspicot"
+	},
+	"hp": 80,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Kokuna",
+		"en": "Kakuna",
+		"es": "Kakuna",
+		"fr": "Coconfort",
+		"it": "Kakuna",
+		"pt": "Kakuna"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "sm9",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

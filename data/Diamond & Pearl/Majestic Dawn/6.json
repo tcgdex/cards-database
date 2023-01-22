@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Primal Shell",
+				"fr": "Carapace primitive"
+			},
+			"effect": {
+				"en": "As long as Kabutops is your Active Pokémon, your opponent can't play any Trainer cards from his or her hand.",
+				"fr": "Tant que Kabutops est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Dresseur de sa main."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Chop Up",
+				"fr": "Découper"
+			},
+			"effect": {
+				"en": "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire possédant des marqueurs de dégât. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		141
+	],
+	"evolveFrom": {
+		"en": "Kabuto",
+		"fr": "Kabuto"
+	},
+	"hp": 120,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Kabutops",
+		"fr": "Kabutops"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp5",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+30"
+		}
+	]
+}

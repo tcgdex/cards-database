@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Submerge",
+				"fr": "Submerger"
+			},
+			"effect": {
+				"en": "As long as Quagsire is on your Bench, prevent all damage done to Quagsire by attacks (both yours and your opponent's).",
+				"fr": "Tant que Maraiste  est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (de vos Pokémon et des Pokémon de votre adversaire)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Punch and Run",
+				"fr": "Frapper et partir en courant"
+			},
+			"effect": {
+				"en": "You may switch Quagsire with 1 of your Benched Pokémon.",
+				"fr": "Vous pouvez échanger Maraiste  avec 1 des Pokémon de votre Banc."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		195
+	],
+	"hp": 90,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Quagsire GL",
+		"fr": "Maraiste  Niv. 34"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

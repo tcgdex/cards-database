@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Horn Attack",
+				"fr": "Koud'korne"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
+	},
+	"dexId": [
+		119
+	],
+	"evolveFrom": {
+		"en": "Goldeen"
+	},
+	"hp": 70,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Seaking",
+		"fr": "Poissoroy"
+	},
+	"rarity": "Uncommon",
+	"set": "base2",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

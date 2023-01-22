@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scary Face",
+				"fr": "Grimace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d'boule"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il rêve de pouvoir voler un jour. Pour l'heure, il s'entraîne en sautant du haut des falaises."
+	},
+	"dexId": [
+		371
+	],
+	"evolveFrom": {
+		"fr": "Draby"
+	},
+	"hp": 50,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"en": "Bagon",
+		"fr": "Draby"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "+10"
+		}
+	]
+}

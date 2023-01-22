@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bug Bite",
+				"fr": "Piqûre",
+				"es": "Picadura",
+				"it": "Coleomorso",
+				"pt": "Picada",
+				"de": "Käferbiss"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		636
+	],
+	"hp": 70,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Ignivor",
+		"en": "Larvesta",
+		"es": "Larvesta",
+		"fr": "Pyronille",
+		"it": "Larvesta",
+		"pt": "Larvesta"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy11",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

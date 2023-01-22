@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Smokescreen",
+				"fr": "Brouillard"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				"fr": "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque n'a aucun effet."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Smog",
+				"fr": "Purédpois"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "On le trouve dans le coeur des volcans où il est très difficile à repérer. On compte très peu de captures de ce Pokémon."
+	},
+	"dexId": [
+		126
+	],
+	"evolveFrom": {
+		"en": "Magby"
+	},
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Magmar",
+		"fr": "Magmar"
+	},
+	"rarity": "Uncommon",
+	"set": "base3",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

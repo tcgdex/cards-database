@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Vivid Powder",
+				"fr": "Poudre Vive",
+				"es": "Polvo Vívido",
+				"it": "Polvere Vivida",
+				"pt": "Pó de Escamas Vívidas",
+				"de": "Farbenprächtiger Puder"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Asleep and Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné et Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido e Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		666
+	],
+	"evolveFrom": {
+		"en": "Spewpa",
+		"fr": "Pérégrain"
+	},
+	"hp": 130,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Vivillon",
+		"en": "Vivillon",
+		"es": "Vivillon",
+		"fr": "Prismillon",
+		"it": "Vivillon",
+		"pt": "Vivillon"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm6",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

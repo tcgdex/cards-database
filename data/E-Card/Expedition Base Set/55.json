@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Psywave",
+				"fr": "Super vague psy"
+			},
+			"effect": {
+				"en": "Choose one of you opponent's Pokémon. Count the number of Energy cards attached to that Pokémon. Put that many damage counters on the Pokémon.",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire. Comptez le nombre de cartes Énergie attachées à ce Pokémon. Placez autant de marqueurs de dégâts sur ce Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		151
+	],
+	"hp": 50,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Mew",
+		"fr": "Mew"
+	},
+	"rarity": "Rare",
+	"set": "ecard1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

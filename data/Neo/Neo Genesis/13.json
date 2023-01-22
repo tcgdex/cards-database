@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Claw",
+				"fr": "Mâchoire"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Steel Wing",
+				"fr": "Aile d'acier"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).",
+				"fr": "Lancez une pièce. Si c'est face, tous les dégâts infligés à Airmure par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ses ailes solides semblent lourdes, mais elles sont en fait creuses et légères, lui permettant de voler librement dans le ciel."
+	},
+	"dexId": [
+		227
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Skarmory",
+		"fr": "Airmure"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"set": "neo1",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

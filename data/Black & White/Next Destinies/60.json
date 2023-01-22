@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Synchrodraw",
+				"fr": "Pioche Synchro"
+			},
+			"effect": {
+				"en": "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
+				"fr": "Mélangez votre main avec votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes dans la main de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "DarMAXitan",
+				"fr": "DaruMax"
+			},
+			"effect": {
+				"en": "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
+				"fr": "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		555
+	],
+	"evolveFrom": {
+		"en": "Darumaka",
+		"fr": "Darumarond"
+	},
+	"hp": 110,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Flampivian",
+		"en": "Darmanitan",
+		"es": "Darmanitan",
+		"fr": "Darumacho",
+		"it": "Darmanitan",
+		"pt": "Darmanitan"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Meteor Punch",
+				"fr": "Poing-météore"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "30×"
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Flare Blitz",
+				"fr": "Boutefeu"
+			},
+			"effect": {
+				"en": "Discard all Fire Energy attached to Infernape.",
+				"fr": "Défaussez toutes les Énergies Fire attachées à Simiabraz."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		392
+	],
+	"evolveFrom": {
+		"en": "Monferno",
+		"fr": "Chimpenfeu"
+	},
+	"hp": 100,
+	"illustrator": "Nakaoka",
+	"name": {
+		"en": "Infernape",
+		"fr": "Simiabraz"
+	},
+	"rarity": "Rare",
+	"set": "dp1",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+30"
+		}
+	]
+}

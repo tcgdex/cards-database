@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fury Attack"
+			},
+			"damage": "30×",
+			"effect": {
+				"en": "Flip 3 coins. This attack does 30 damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The lessons of many harsh battles have taught it how to accurately judge an opponent's strength."
+	},
+	"evolveFrom": {
+		"en": "Rookidee",
+		"fr": "Minisange",
+		"es": "Rookidee",
+		"it": "Rookidee",
+		"pt": "Rookidee",
+		"de": "Meikro"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Kranoviz",
+		"en": "Corvisquire",
+		"es": "Corvisquire",
+		"fr": "Bleuseille",
+		"it": "Corvisquire",
+		"pt": "Corvisquire"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

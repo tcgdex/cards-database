@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Sleeping Gas"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Destiny Bond"
+			},
+			"effect": {
+				"en": "Discard 1 Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		92
+	],
+	"hp": 30,
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Gastly"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "base4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	]
+}

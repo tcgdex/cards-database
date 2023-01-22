@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Intimidating Pattern",
+				"fr": "Style intimidant"
+			},
+			"effect": {
+				"en": "As long as Masquerain is your Active Pokémon, any damage done by an opponent's attack is reduced by 20 (before applying Weakness and Resistance).",
+				"fr": "Tant que Maskadra est votre Pokémon Actif, tous les dégâts infligés par une attaque de votre adversaire sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Skim Attack",
+				"fr": "Attaque rasante"
+			},
+			"effect": {
+				"en": "Draw 2 cards.",
+				"fr": "Piochez 2 cartes."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		284
+	],
+	"evolveFrom": {
+		"en": "Surskit",
+		"fr": "Arakdo"
+	},
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Masquerain",
+		"fr": "Maskadra"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "pl3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

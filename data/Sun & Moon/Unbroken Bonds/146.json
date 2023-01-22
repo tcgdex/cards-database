@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Drill Run Double",
+				"fr": "Double Tunnelier",
+				"es": "Taladradora Doble",
+				"it": "Doppio Giravvita",
+				"pt": "Furação Dupla",
+				"de": "Doppel-Schlagbohrer"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard 2 Energy from your opponent’s Active Pokémon.",
+				"fr": "Lancez une pièce. Si c’est face, défaussez 2 Énergies du Pokémon Actif de votre adversaire.",
+				"es": "Lanza 1 moneda. Si sale cara, descarta 2 Energías del Pokémon Activo de tu rival.",
+				"it": "Lancia una moneta. Se esce testa, scarta due Energie assegnate al Pokémon attivo del tuo avversario.",
+				"pt": "Jogue 1 moeda. Se sair cara, descarte 2 Energias do Pokémon Ativo do seu oponente.",
+				"de": "Wirf 1 Münze. Lege bei Kopf 2 Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		22
+	],
+	"evolveFrom": {
+		"en": "Spearow",
+		"fr": "Piafabec"
+	},
+	"hp": 100,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Ibitak",
+		"en": "Fearow",
+		"es": "Fearow",
+		"fr": "Rapasdepic",
+		"it": "Fearow",
+		"pt": "Fearow"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde folie"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double-edge",
+				"fr": "Damoclès"
+			},
+			"effect": {
+				"en": "Volbeat does 10 damage to itself.",
+				"fr": "Muciole s'inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		313
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Volbeat",
+		"fr": "Muciole"
+	},
+	"rarity": "Uncommon",
+	"set": "ex9",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

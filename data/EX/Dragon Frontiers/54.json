@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap",
+				"fr": "Queue battoir"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		179
+	],
+	"hp": 40,
+	"illustrator": "Sachiko Adachi",
+	"name": {
+		"en": "Mareep δ",
+		"fr": "Wattouat δ ESPÈCES DELTA"
+	},
+	"rarity": "Common",
+	"set": "ex15",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

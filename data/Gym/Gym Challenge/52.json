@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Shock Blast"
+			},
+			"effect": {
+				"en": "If Lt. Surge's Electrode is your Active Pokémon and gets damaged (even if it's Knocked Out), flip a coin. If tails, this power does 20 damage to each Active Pokémon. This power works even if Lt. Surge's Electrode is already Asleep, Confused, or Paralyzed when it takes damage."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Power Ball"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 30 damage plus 10 more damage for each heads."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		101
+	],
+	"evolveFrom": {
+		"en": "Voltorb"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Lt. Surge's Electrode"
+	},
+	"rarity": "Uncommon",
+	"set": "gym2",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

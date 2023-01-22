@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Solid Rock",
+				"fr": "Solide Roc",
+				"es": "Roca Sólida",
+				"it": "Solidroccia",
+				"pt": "Rocha Sólida",
+				"de": "Felskern"
+			},
+			"effect": {
+				"en": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, reduce that damage by 50 (after applying Weakness and Resistance).",
+				"fr": "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c’est face, les dégâts sont réduits de 50 (après application de la Faiblesse et de la Résistance).",
+				"es": "Si se inflige cualquier daño a este Pokémon por ataques, lanza una moneda. Si sale cara, reduce ese daño en 50 (después de aplicar Debilidad y Resistencia).",
+				"it": "Se questo Pokémon subisce danni da attacchi, lancia una moneta. Se esce testa, i danni sono ridotti di 50, dopo aver applicato debolezza e resistenza.",
+				"pt": "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, reduza os danos em 50 (após aplicar Fraqueza e Resistência).",
+				"de": "Wirf 1 Münze, wenn diesem Pokémon durch Angriffe Schaden zugefügt wird. Bei „Kopf“ wird der Schaden um 50 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crunch",
+				"fr": "Mâchouille"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to the Defending Pokémon.",
+				"fr": "Défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		565
+	],
+	"evolveFrom": {
+		"en": "Tirtouga",
+		"fr": "Carapagos"
+	},
+	"hp": 140,
+	"illustrator": "match",
+	"name": {
+		"de": "Karippas",
+		"en": "Carracosta",
+		"es": "Carracosta",
+		"fr": "Mégapagos",
+		"it": "Carracosta",
+		"pt": "Carracosta"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

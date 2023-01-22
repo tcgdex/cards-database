@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Leer",
+				"fr": "Groz'yeux"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Rhinocorne pendant le prochain tour de votre adversaire. (Si l'un des deux Pokémon bat en retraite, cet effet prend fin.)"
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Attack",
+				"fr": "Koud'korne"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Avec une ossature 1000 fois plus résistante que celle de l'homme, ses charges sont dévastatrices."
+	},
+	"dexId": [
+		111
+	],
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Rhyhorn",
+		"fr": "Rhinocorne"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-30"
+		}
+	],
+	"set": "base2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

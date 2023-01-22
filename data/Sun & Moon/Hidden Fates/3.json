@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gust",
+				"fr": "Tornade"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		12
+	],
+	"evolveFrom": {
+		"en": "Metapod",
+		"fr": "Chrysacier"
+	},
+	"hp": 130,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Butterfree",
+		"fr": "Papilusion"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "sm115",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

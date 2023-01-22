@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Pokemon Power",
+			"name": {
+				"en": "Herbal Scent",
+				"fr": "Senteur de thé"
+			},
+			"effect": {
+				"en": "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all Grass Pokémon in play.",
+				"fr": "Lorsque vous jouez Meganium depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur les Pokémon  en jeu."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Body Slam",
+				"fr": "Plaquage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Le souffle de Meganium peut redonner vie aux plantes mortes."
+	},
+	"dexId": [
+		154
+	],
+	"evolveFrom": {
+		"en": "Bayleef"
+	},
+	"hp": 100,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Meganium",
+		"fr": "Meganium"
+	},
+	"rarity": "Rare",
+	"set": "neo1",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

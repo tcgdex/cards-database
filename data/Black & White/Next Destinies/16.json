@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collecte"
+			},
+			"effect": {
+				"en": "Draw 3 cards.",
+				"fr": "Piochez 3 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stadium Burn",
+				"fr": "Stade en Flammes"
+			},
+			"effect": {
+				"en": "If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Burned.",
+				"fr": "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		514
+	],
+	"evolveFrom": {
+		"en": "Pansear",
+		"fr": "Flamajou"
+	},
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Grillchita",
+		"en": "Simisear",
+		"es": "Simisear",
+		"fr": "Flamoutan",
+		"it": "Simisear",
+		"pt": "Simisear"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

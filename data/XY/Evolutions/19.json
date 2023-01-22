@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Smash Kick",
+				"fr": "Coud'Pattes",
+				"es": "Patada Destrucción",
+				"it": "Calcio Esplosivo",
+				"pt": "Chute Poderoso",
+				"de": "Schmetterkick"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Flame Tail",
+				"fr": "Queue de Flammes",
+				"es": "Cola de Fuego",
+				"it": "Coda-Fiamma",
+				"pt": "Cauda de Chamas",
+				"de": "Flammenschweif"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		77
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Ponita",
+		"en": "Ponyta",
+		"es": "Ponyta",
+		"fr": "Ponyta",
+		"it": "Ponyta",
+		"pt": "Ponyta"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy12",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Pokemon Power",
+			"name": {
+				"en": "Time Travel",
+				"fr": "Voyage temporel"
+			},
+			"effect": {
+				"en": "If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi is not Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed.",
+				"fr": "Si l'attaque d'un adversaire doit mettre Celebi K.O., lancez une pièce. Si c'est face, Celebi n'est pas K.O. et il doit être mélangé à votre deck avec les cartes qui lui sont attachées. Ce pouvoir ne peut être utilisé si Celebi est déjà Endormi, Confus ou Paralysé."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Psychic Damage",
+				"fr": "Dégâts Psy"
+			},
+			"effect": {
+				"en": "Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon.",
+				"fr": "Lancez 3 pièces. Pour chaque face, placez 1 marqueur de dégâts sur le Pokémon Défenseur."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon voyage dans le temps. Les arbres et la végétation s'épanouissent dans les forêts où il apparaît."
+	},
+	"dexId": [
+		251
+	],
+	"hp": 50,
+	"illustrator": "Hironobu Yoshida",
+	"name": {
+		"en": "Celebi",
+		"fr": "Celebi"
+	},
+	"rarity": "Rare",
+	"set": "neo3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

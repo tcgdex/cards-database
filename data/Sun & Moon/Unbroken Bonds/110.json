@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		318
+	],
+	"hp": 60,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Kanivanha",
+		"en": "Carvanha",
+		"es": "Carvanha",
+		"fr": "Carvanha",
+		"it": "Carvanha",
+		"pt": "Carvanha"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

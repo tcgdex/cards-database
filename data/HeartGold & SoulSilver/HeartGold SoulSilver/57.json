@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage."
+	},
+	"dexId": [
+		10
+	],
+	"hp": 30,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Caterpie",
+		"fr": "Chenipan"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

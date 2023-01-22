@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scout",
+				"fr": "Espion"
+			},
+			"effect": {
+				"en": "Look at your opponent’s hand.",
+				"fr": "Regardez la main de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings."
+	},
+	"dexId": [
+		161
+	],
+	"hp": 50,
+	"illustrator": "MAHOU",
+	"name": {
+		"en": "Sentret",
+		"fr": "Fouinette"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

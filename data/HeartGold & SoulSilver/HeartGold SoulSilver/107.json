@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Exoskeleton",
+				"fr": "Exosquelette"
+			},
+			"effect": {
+				"en": "Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				"fr": "Tout dégât infligé à Donphan par des attaques est réduit de 20 (après application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Earthquake",
+				"fr": "Séisme"
+			},
+			"effect": {
+				"en": "Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)"
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Heavy Impact",
+				"fr": "Gros impact"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		232
+	],
+	"evolveFrom": {
+		"en": "Phanpy",
+		"fr": "Phanpy"
+	},
+	"hp": 120,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Donphan",
+		"fr": "Donphan"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"suffix": "Prime",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

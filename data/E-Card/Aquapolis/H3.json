@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Gluey Slime",
+				"fr": "Bave gluante"
+			},
+			"effect": {
+				"en": "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
+				"fr": "Tant que Migalos est en jeu, chaque joueur doit payer un  supplémentaire pour faire battre en retraite son Pokémon Actif. Bave gluante ne peut pas obliger un joueur à payer plus qu'un  supplémentaire pour faire battre en retraite un Pokémon, même s'il y a plus d'un Migalos en jeu."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spider Force",
+				"fr": "Arachno-force"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, this attack does 20 damage and the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 20 dégâts et le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		168
+	],
+	"evolveFrom": {
+		"en": "Spinarak"
+	},
+	"hp": 70,
+	"illustrator": "Shin-ichi Yoshida",
+	"name": {
+		"en": "Ariados",
+		"fr": "Migalos"
+	},
+	"rarity": "Rare",
+	"set": "ecard2",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

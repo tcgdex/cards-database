@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 106,
+	"id": "dp4",
+	"name": {
+		"de": "Epische Begegnungen",
+		"en": "Great Encounters",
+		"es": "Grandes Encuentros",
+		"fr": "Duels au Sommets",
+		"it": "Incontri Leggendari"
+	},
+	"releaseDate": "2008-02-01",
+	"serie": "dp",
+	"tcgOnline": "GE"
+}

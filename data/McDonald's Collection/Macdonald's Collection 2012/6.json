@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Thundershock"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			}
+		},
+		{
+			"name": {
+				"en": "Acrobatics"
+			},
+			"damage": "10+",
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 more damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The energy made in its cheeks’ electric pouches is stored inside its membranes and released while it is gliding."
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Emolga"
+	},
+	"rarity": "None",
+	"set": "2012bw",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

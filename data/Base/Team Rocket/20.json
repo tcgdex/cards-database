@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Hydrocannon",
+				"fr": "Canon à O"
+			},
+			"effect": {
+				"en": "Does 30 damage plus 20 more damage for each W Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way.",
+				"fr": "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Tortank obscur en plus du coût de cette attaque. Vous ne pouvez ajouter plus de 40 dégâts de cette façon."
+			},
+			"damage": "30+"
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rocket Tackle",
+				"fr": "Lance roquette"
+			},
+			"effect": {
+				"en": "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)",
+				"fr": "Tortank obscur s'inflige 10 dégâts. Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Tortank obscur pendant le prochain tour de votre adversaire. (Tous les autres effets dus à des attaques subsistent.)"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Un Pokémon agressif qui s'attaque à tout ce qu'il voit."
+	},
+	"dexId": [
+		9
+	],
+	"evolveFrom": {
+		"en": "Wartortle"
+	},
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Dark Blastoise",
+		"fr": "Tortank obscur"
+	},
+	"rarity": "Rare",
+	"set": "base5",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

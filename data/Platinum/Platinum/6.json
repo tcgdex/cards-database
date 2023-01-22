@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Time Aura",
+				"fr": "Aura temporelle"
+			},
+			"effect": {
+				"en": "As long as Dialga is your Active Pokémon, your opponent can't play any Pokémon from his or her hand to evolve his or her Active Pokémon.",
+				"fr": "Tant que Dialga est votre Pokémon Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer son Pokémon Actif."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Burn",
+				"fr": "Brûlure métallique"
+			},
+			"effect": {
+				"en": "Discard all Metal Energy attached to Dialga.",
+				"fr": "Défaussez toutes les Énergies Metal attachées à Dialga."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		483
+	],
+	"hp": 100,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Dialga",
+		"fr": "Dialga"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Invisible Wall"
+			},
+			"effect": {
+				"en": "Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power can't be used if Mr. Mime is Asleep, Confused, or Paralyzed."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Meditate"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		122
+	],
+	"evolveFrom": {
+		"en": "Mime Jr."
+	},
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Mr. Mime"
+	},
+	"rarity": "Rare",
+	"set": "base4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

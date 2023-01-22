@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 18,
+	"id": "det1",
+	"name": {
+		"de": "Meisterdetektiv Pikachu",
+		"en": "Detective Pikachu",
+		"es": "Detective Pikachu",
+		"fr": "Détective Pikachu",
+		"it": "Detective Pikachu",
+		"pt": "Detetive Pikachu"
+	},
+	"releaseDate": "2019-03-29",
+	"serie": "sm",
+	"tcgOnline": "DET"
+}

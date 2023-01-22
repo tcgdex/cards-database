@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Dangerous Stinger",
+				"fr": "Dard Redoutable",
+				"es": "Aguijón Peligroso",
+				"it": "Pungiglione Letale",
+				"pt": "Ferrão Pernicioso",
+				"de": "Stachel der Gefahr"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Paralysé et Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado y Paralizado.",
+				"it": "Il Pokémon attivo del tuo avversario viene paralizzato e avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado e Paralisado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt paralysiert und vergiftet."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		452
+	],
+	"evolveFrom": {
+		"en": "Skorupi",
+		"fr": "Rapion"
+	},
+	"hp": 130,
+	"illustrator": "Studio Bora Inc.",
+	"name": {
+		"de": "Piondragi",
+		"en": "Drapion",
+		"es": "Drapion",
+		"fr": "Drascore",
+		"it": "Drapion",
+		"pt": "Drapion"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "sm5",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

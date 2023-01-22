@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Low Sweep",
+				"fr": "Balayette"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Beatdown",
+				"fr": "Dérouillée"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		539
+	],
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Karadonis",
+		"en": "Sawk",
+		"es": "Sawk",
+		"fr": "Karaclée",
+		"it": "Sawk",
+		"pt": "Sawk"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Bonus Leaf",
+				"fr": "Feuille bonus"
+			},
+			"effect": {
+				"en": "Remove 3 damage counters from each of your Benched Pokémon that has any Grass Energy attached to it.",
+				"fr": "Retirez 3 marqueurs de dégât à chacun de vos Pokémon de Banc possédant une Énergie Grass."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Whirlwind",
+				"fr": "Cyclone"
+			},
+			"effect": {
+				"en": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "À force de manger son fruit préféré, il a fini par pousser autour de son cou."
+	},
+	"dexId": [
+		357
+	],
+	"hp": 80,
+	"illustrator": "Kazuyuki Kano",
+	"name": {
+		"en": "Tropius",
+		"fr": "Tropius"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

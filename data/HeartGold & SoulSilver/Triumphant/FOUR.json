@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "REGARDEZ TOUTES VOS CARTES RECOMPENSE QUI SONT FACE CACHEE!",
+		"en": "LOOK AT ALL OF YOUR FACE DOWN PRIZE CARDS!"
+	},
+	"hp": 0,
+	"illustrator": "Milky Isobe",
+	"name": {
+		"en": "Alph Lithograph",
+		"fr": "Lithographie d’Alpha"
+	},
+	"rarity": "Rare",
+	"set": "hgss4",
+	"trainerType": "Item",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

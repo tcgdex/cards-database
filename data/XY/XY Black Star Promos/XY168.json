@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crimson Edge"
+			},
+			"effect": {
+				"en": "This Pokémon does 10 damage to itself for each damage counter on it."
+			},
+			"damage": 180
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		445
+	],
+	"evolveFrom": {
+		"en": "Garchomp-EX"
+	},
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Garchomp-EX"
+	},
+	"rarity": "Common",
+	"set": "xyp",
+	"stage": "MEGA",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

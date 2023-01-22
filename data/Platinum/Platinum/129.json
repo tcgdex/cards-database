@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Jab",
+				"fr": "Taquet"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Special Punch",
+				"fr": "Punch spécial"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		107
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Hitmonchan",
+		"fr": "Tygnon"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

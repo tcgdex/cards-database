@@ -1,0 +1,85 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Horn",
+				"fr": "Corne Empoisonnée",
+				"es": "Cuerno Veneno",
+				"it": "Velencorno",
+				"pt": "Chifre Venenoso",
+				"de": "Gifthorn"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			},
+			"damage": 80
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Steamroller",
+				"fr": "Bulldoboule",
+				"es": "Rodillo de Púas",
+				"it": "Rulloduro",
+				"pt": "Rolo Compressor",
+				"de": "Quetschwalze"
+			},
+			"effect": {
+				"en": "This attack’s damage isn’t affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				"es": "El daño de este ataque no se ve afectado por Resistencia.",
+				"it": "I danni di questo attacco non sono influenzati dalla resistenza.",
+				"pt": "O dano deste ataque não é afetado por Resistência.",
+				"de": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		545
+	],
+	"evolveFrom": {
+		"en": "Whirlipede",
+		"fr": "Scobolide"
+	},
+	"hp": 160,
+	"illustrator": "Ayaka Yoshida",
+	"name": {
+		"de": "Cerapendra",
+		"en": "Scolipede",
+		"es": "Scolipede",
+		"fr": "Brutapode",
+		"it": "Scolipede",
+		"pt": "Scolipede"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "sm3",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

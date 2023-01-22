@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rambunctious Party",
+				"fr": "Méga-boum"
+			},
+			"effect": {
+				"en": "Look at the top 5 cards of your deck. Choose as many Basic Pokémon as you like and put them onto your Bench. Shuffle the other cards back into your deck.",
+				"fr": "Regardez les 5 cartes du dessus de votre deck. Choisissez autant de Pokémon de base que vous le voulez et placez-les sur votre Banc. Mélangez les autres cartes avec votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rain Splash",
+				"fr": "Pluie éclaboussante"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A sweet sap leaks from its tail’s tip. Although not nutritious, the tail is pleasant to chew on."
+	},
+	"dexId": [
+		79
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Slowpoke",
+		"fr": "Ramoloss"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "hgss3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Exavolt",
+				"fr": "Exavolt",
+				"es": "Exavoltio",
+				"it": "Exavolt",
+				"pt": "Exavolt",
+				"de": "Exavolt"
+			},
+			"effect": {
+				"en": "You may do 50 more damage and leave your opponent's Active Pokémon Paralyzed. If you do, this Pokémon does 30 damage to itself.",
+				"fr": "Vous pouvez infliger 50 dégâts supplémentaires et laisser le Pokémon Actif de votre adversaire Paralysé. Dans ce cas, ce Pokémon s'inflige 30 dégâts.",
+				"es": "Puedes hacer 50 puntos de daño más y dejar al Pokémon Activo de tu rival Paralizado. Si lo haces, este Pokémon se hace 30 puntos de daño a sí mismo.",
+				"it": "Puoi infliggere 50 danni in più e lasciare il Pokémon attivo del tuo avversario paralizzato. Se lo fai, questo Pokémon infligge 30 danni a se stesso.",
+				"pt": "Você pode causar 50 de danos adicionais e deixar o Pokémon Ativo do seu oponente Paralisado. Se você fizer isso, o Pokémon causará 30 de danos a ele mesmo.",
+				"de": "Du kannst mit diesem Angriff 50 weitere Schadenspunkte zufügen und das Aktive Pokémon deines Gegners paralysieren. Wenn du das machst, fügt dieses Pokémon sich selbst 30 Schadenspunkte zu."
+			},
+			"damage": "120+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		181
+	],
+	"evolveFrom": {
+		"en": "Ampharos-EX",
+		"fr": "Pharamp-EX",
+		"es": "Ampharos-EX",
+		"it": "Ampharos-EX",
+		"pt": "Ampharos-EX",
+		"de": "Ampharos-EX"
+	},
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "M-Ampharos EX",
+		"en": "M Ampharos EX",
+		"es": "M-Ampharos EX",
+		"fr": "M-Pharamp EX",
+		"it": "M Ampharos EX",
+		"pt": "M-Ampharos EX"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "xy7",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

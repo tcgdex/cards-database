@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flop",
+				"fr": "Flop",
+				"es": "Vuelta",
+				"it": "Tonfo",
+				"pt": "Baque",
+				"de": "Plumps"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		759
+	],
+	"hp": 70,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Velursi",
+		"en": "Stufful",
+		"es": "Stufful",
+		"fr": "Nounourson",
+		"it": "Stufful",
+		"pt": "Stufful"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 9,
+	"id": "bog",
+	"name": {
+		"en": "Best of game"
+	},
+	"releaseDate": "2002-12-01",
+	"serie": "ecard"
+}

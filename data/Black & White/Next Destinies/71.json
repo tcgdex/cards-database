@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surprise Punch",
+				"fr": "Raclée Surprise"
+			},
+			"effect": {
+				"en": "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
+				"fr": "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		274
+	],
+	"evolveFrom": {
+		"en": "Seedot",
+		"fr": "Grainipiot"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Blanas",
+		"en": "Nuzleaf",
+		"es": "Nuzleaf",
+		"fr": "Pifeuil",
+		"it": "Nuzleaf",
+		"pt": "Nuzleaf"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

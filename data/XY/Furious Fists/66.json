@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Corkscrew Punch",
+				"fr": "Poing Tire-Bouchon",
+				"es": "Puño Tirabuzón",
+				"it": "Pugno Rotante",
+				"pt": "Soco Saca-rolha",
+				"de": "Korkenzieherhieb"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		559
+	],
+	"hp": 60,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Zurrokex",
+		"en": "Scraggy",
+		"es": "Scraggy",
+		"fr": "Baggiguane",
+		"it": "Scraggy",
+		"pt": "Scraggy"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xy3",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

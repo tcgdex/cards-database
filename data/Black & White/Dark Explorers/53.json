@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Ancient Scream",
+				"fr": "Cri Préhistorique",
+				"es": "Grito Prehistórico",
+				"it": "Urloantico",
+				"pt": "Grito Ancestral",
+				"de": "Urzeitschrei"
+			},
+			"effect": {
+				"en": "Your Pokémon’s attacks do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				"fr": "Les attaques de vos Pokémon infligent 10 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
+				"es": "Los ataques de tus Pokémon hacen 10 puntos de daño más a los Pokémon Activos (antes de aplicar Debilidad y Resistencia).",
+				"it": "Gli attacchi dei tuoi Pokémon infliggono 10 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza.",
+				"pt": "Os ataques do seu Pokémon causam 10 de danos extras ao Pokémon Ativo (antes de aplicar Fraqueza e Resistência).",
+				"de": "Die Angriffe deiner Pokémon fügen den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wing Attack"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		142
+	],
+	"hp": 90,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Aerodactyl",
+		"en": "Aerodactyl",
+		"es": "Aerodactyl",
+		"fr": "Ptéra",
+		"it": "Aerodactyl",
+		"pt": "Aerodactyl"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "RESTORED",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

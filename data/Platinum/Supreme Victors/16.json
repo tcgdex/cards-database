@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sharp Beak",
+				"fr": "Bec aiguisé"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Beam",
+				"fr": "Laser glace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		144
+	],
+	"hp": 100,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Articuno",
+		"fr": "Artikodin"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "+30"
+		}
+	]
+}

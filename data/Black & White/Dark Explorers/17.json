@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blaze Kick"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage. If tails, the Defending Pokémon is now Burned."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flamethrower"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to this Pokémon."
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		257
+	],
+	"evolveFrom": {
+		"en": "Combusken"
+	},
+	"hp": 140,
+	"illustrator": "TOKIYA",
+	"name": {
+		"de": "Lohgock",
+		"en": "Blaziken",
+		"es": "Blaziken",
+		"fr": "Braségali",
+		"it": "Blaziken",
+		"pt": "Blaziken"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

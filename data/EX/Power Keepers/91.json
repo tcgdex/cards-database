@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Shin-ichi Yoshikawa",
+	"name": {
+		"en": "Warp Energy",
+		"fr": "Énergie de distorsion"
+	},
+	"rarity": "Uncommon",
+	"set": "ex16"
+}

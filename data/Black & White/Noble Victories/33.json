@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Ice Chain",
+				"fr": "Chaîne de Glace"
+			},
+			"effect": {
+				"en": "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				"fr": "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Frost Vanish",
+				"fr": "Poudreuse d'Escampette"
+			},
+			"effect": {
+				"en": "You may return this Pokémon and all cards attached to it to your hand.",
+				"fr": "Vous pouvez reprendre ce Pokémon et toutes les cartes qui lui sont attachées dans votre main."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		615
+	],
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Frigometri",
+		"en": "Cryogonal",
+		"es": "Cryogonal",
+		"fr": "Hexagel",
+		"it": "Cryogonal",
+		"pt": "Cryogonal"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

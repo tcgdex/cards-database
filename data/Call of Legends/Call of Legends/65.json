@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Mumble"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Dual Draw"
+			},
+			"effect": {
+				"en": "Each player draws 3 cards."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		200
+	],
+	"hp": 60,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"en": "Misdreavus"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

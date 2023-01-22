@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Guzzle",
+				"fr": "Goinfre"
+			},
+			"effect": {
+				"en": "Choose up to 2 basic Water Energy cards from your hand and attach them to Pelipper. Remove 2 damage counters for each Energy card attached in this way.",
+				"fr": "Choisissez jusqu'à 2 cartes Énergie de base (W) de votre main et attachez-les à Bekipan. Retirez 2 marqueurs de dégât pour chaque carte Énergie attachée de cette façon."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Jet Return",
+				"fr": "Retour de jet"
+			},
+			"effect": {
+				"en": "Does 30 damage times the number of Energy cards attached to Pelipper. Then, put all Energy cards attached to Pelipper on top of your deck. Shuffle your deck afterward.",
+				"fr": "Inflige 30 dégâts multipliés par le nombre de cartes Énergie attachées à Bekipan. Ensuite, placez toutes les cartes Énergie attachées à Bekipan au dessus de votre deck. Puis, mélangez votre deck."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		279
+	],
+	"evolveFrom": {
+		"en": "Wingull",
+		"fr": "Goelise"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Pelipper",
+		"fr": "Bekipan"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

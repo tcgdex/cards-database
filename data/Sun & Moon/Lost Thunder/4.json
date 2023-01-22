@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Grip and Squeeze",
+				"fr": "Empoigne Puissante",
+				"es": "Coger y Estrujar",
+				"it": "Acchiappa e Spremi",
+				"pt": "Agarrar e Espremer",
+				"de": "Grapschen und Quetschen"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				"es": "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				"it": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				"pt": "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				"de": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncement",
+				"es": "Martillear",
+				"it": "Martello",
+				"pt": "Martelada",
+				"de": "Einhämmern"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		127
+	],
+	"hp": 110,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Pinsir",
+		"en": "Pinsir",
+		"es": "Pinsir",
+		"fr": "Scarabrute",
+		"it": "Pinsir",
+		"pt": "Pinsir"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

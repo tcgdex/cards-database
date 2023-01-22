@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Horn Hazard"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		118
+	],
+	"hp": 30,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Misty's Goldeen"
+	},
+	"rarity": "Rare",
+	"set": "gym1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

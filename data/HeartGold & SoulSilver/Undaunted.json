@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 90,
+	"id": "hgss3",
+	"name": {
+		"de": "Unerschrocken",
+		"en": "Undaunted",
+		"fr": "Indomptable",
+		"it": "Senza Paura",
+		"pt": "Destemido"
+	},
+	"releaseDate": "2010-08-18",
+	"serie": "hgss",
+	"tcgOnline": "UD"
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Sound Wave"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Poisoned."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strength in Numbers"
+			},
+			"effect": {
+				"en": "This attack does 30 damage plus 10 more damage for each Zubat, Golbat, and Crobat on your bench."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		42
+	],
+	"evolveFrom": {
+		"en": "Zubat"
+	},
+	"hp": 70,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Golbat"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

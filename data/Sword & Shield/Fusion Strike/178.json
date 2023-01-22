@@ -1,0 +1,81 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure",
+				"es": "Mordisco",
+				"it": "Morso",
+				"de": "Biss"
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Rear Attack",
+				"fr": "Attaque Arrière",
+				"es": "Ataque por la Retaguardia",
+				"it": "Retroattacco",
+				"de": "Rückenstärkung"
+			},
+			"damage": "100+",
+			"effect": {
+				"en": "If you have 2 or fewer Benched Pokémon, this attack does 140 more damage.",
+				"fr": "Si vous avez 2 Pokémon de Banc ou moins, cette attaque inflige 140 dégâts supplémentaires.",
+				"es": "Si tienes 2 o menos Pokémon en Banca, este ataque hace 140 puntos de daño más.",
+				"it": "Se hai due o meno Pokémon in panchina, questo attacco infligge 140 danni in più.",
+				"de": "Wenn du 2 oder weniger Pokémon auf deiner Bank hast, fügt diese Attacke 140 Schadenspunkte mehr zu."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would."
+	},
+	"evolveFrom": {
+		"en": "Morgrem",
+		"fr": "Fourbelin",
+		"es": "Morgrem",
+		"it": "Morgrem",
+		"pt": "Morgrem",
+		"de": "Pelzebub"
+	},
+	"hp": 170,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Olangaar",
+		"en": "Grimmsnarl",
+		"es": "Grimmsnarl",
+		"fr": "Angoliath",
+		"it": "Grimmsnarl",
+		"pt": "Grimmsnarl"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

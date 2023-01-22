@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Hard Crush",
+				"fr": "Écras'dur"
+			},
+			"effect": {
+				"en": "Discard the top 5 cards of your deck. This attack does 50 damage for each Energy card you discarded.",
+				"fr": "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts par chaque carte Énergie défaussée."
+			},
+			"damage": "50×"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Upthrow",
+				"fr": "Soulèvement"
+			},
+			"effect": {
+				"en": "Search your discard pile for all Fighting Energy cards, show them to your opponent, and shuffle them into your deck.",
+				"fr": "Cherchez dans votre pile de défausse toutes les cartes Énergie Fighting, montrez-les à votre adversaire et mélangez-les à votre deck."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		464
+	],
+	"hp": 170,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Rhyperior",
+		"fr": "Rhinastoc"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"set": "dpp",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dazzle Blast",
+				"fr": "Explosion de lumière"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		101
+	],
+	"evolveFrom": {
+		"en": "Holon's Voltorb"
+	},
+	"hp": 70,
+	"illustrator": "Hisao Nakamura",
+	"name": {
+		"en": "Holon's Electrode",
+		"fr": "Electrode d'Holon"
+	},
+	"rarity": "Rare",
+	"set": "ex11",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Leaflet Dance"
+			},
+			"effect": {
+				"en": "Attach any number of Grass Energy cards from your hand to your Pokémon in any way you like."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash Back"
+			},
+			"damage": 60,
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 190,
+	"illustrator": "Teeziro",
+	"name": {
+		"de": "Celebi V",
+		"en": "Celebi V",
+		"es": "Celebi V",
+		"fr": "Celebi V",
+		"it": "Celebi V",
+		"pt": "Celebi V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

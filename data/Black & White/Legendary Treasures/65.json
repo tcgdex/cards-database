@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Energy Gift"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your deck for 2 Psychic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Heart Stamp"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		528
+	],
+	"evolveFrom": {
+		"en": "Woobat"
+	},
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Swoobat"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

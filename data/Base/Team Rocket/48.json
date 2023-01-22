@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Conversion 1",
+				"fr": "Adaptation 1"
+			},
+			"effect": {
+				"en": "If Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless.",
+				"fr": "Si le Pokémon Défenseur avait une Faiblesse, vous pouvez la changer pour le type de votre choix, excepté incolore."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psybeam",
+				"fr": "Rayon psy"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "De plus en plus de gens tentent leur chance au jackpot quotidiennement pour essayer de gagner un Porygon."
+	},
+	"dexId": [
+		137
+	],
+	"hp": 40,
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Porygon",
+		"fr": "Porygon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "base5",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

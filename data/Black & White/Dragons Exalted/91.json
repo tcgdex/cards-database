@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Jet Headbutt",
+				"fr": "Bélier Volant"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Water",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sand Tomb",
+				"fr": "Tourbi-Sable"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		445
+	],
+	"evolveFrom": {
+		"en": "Gabite",
+		"fr": "Carmache"
+	},
+	"hp": 140,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Knakrack",
+		"en": "Garchomp",
+		"es": "Garchomp",
+		"fr": "Carchacrok",
+		"it": "Garchomp",
+		"pt": "Garchomp"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "bw6",
+	"stage": "Stage2",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

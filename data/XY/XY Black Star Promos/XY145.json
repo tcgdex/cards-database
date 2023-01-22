@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Power Heater",
+				"fr": "Puissance de Chauffe"
+			},
+			"effect": {
+				"en": "Choose 2 of your Benched Pokémon. Attach a Fire Energy card from your discard pile to each of those Pokémon.",
+				"fr": "Choisissez 2 de vos Pokémon de Banc. Attachez une carte Énergie Fire de votre pile de défausse à chacun des Pokémon choisis."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Steam Artillery",
+				"fr": "Artillerie Vapeur"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		721
+	],
+	"hp": 130,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Volcanion",
+		"fr": "Volcanion"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

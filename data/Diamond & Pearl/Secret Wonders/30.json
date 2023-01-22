@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icy Kiss",
+				"fr": "Baiser glacial"
+			},
+			"effect": {
+				"en": "If Jynx was damaged by an attack during your opponent's last turn, the Defending Pokémon is now Paralyzed.",
+				"fr": "Si une attaque a infligé des dégâts à Lippoutou lors du dernier tour de votre adversaire, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lovely Kiss",
+				"fr": "Grobisou"
+			},
+			"effect": {
+				"en": "Move 2 damage counters from Jynx to the Defending Pokémon. If Smoochum is anywhere under Jynx, move 4 damage counters instead.",
+				"fr": "Déplacez 2 marqueurs de dégât de Lippoutou sur le Pokémon Défenseur. Si Lippouti se trouve sous Lippoutou, déplacez 4 marqueurs de dégât."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		124
+	],
+	"hp": 70,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Jynx",
+		"fr": "Lippoutou"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

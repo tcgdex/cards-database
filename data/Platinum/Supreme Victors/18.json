@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Moving Fire",
+				"fr": "Feu bougeant"
+			},
+			"effect": {
+				"en": "You may move a Fire Energy card attached to 1 of your Benched Pokémon to Camerupt.",
+				"fr": "Vous pouvez déplacer une carte Énergie Fire attachée à 1 de vos Pokémon de Banc sur Camerupt."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Volcanic Crash",
+				"fr": "Écrasement volcanique"
+			},
+			"effect": {
+				"en": "Flip 3 coins. For each tails, discard the top card of your deck. Ignore this effect if your opponent has any Water Pokémon in play.",
+				"fr": "Lancez 3 pièces. Pour chaque pile, défaussez la carte du dessus de votre deck. Ignorez cet effet si votre adversaire possède des Pokémon Water en jeu."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		323
+	],
+	"evolveFrom": {
+		"en": "Numel",
+		"fr": "Chamallot"
+	},
+	"hp": 120,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Camerupt",
+		"fr": "Camerupt"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "pl3",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+30"
+		}
+	]
+}

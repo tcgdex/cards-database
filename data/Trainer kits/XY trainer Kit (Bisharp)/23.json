@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Honedge",
+		"fr": "Monorpale",
+		"es": "Honedge",
+		"it": "Honedge",
+		"pt": "Honedge",
+		"de": "Gramokles"
+	},
+	"hp": 80,
+	"name": {
+		"de": "Duokles",
+		"en": "Doublade",
+		"es": "Doublade",
+		"fr": "Dimoclès",
+		"it": "Doublade",
+		"pt": "Doublade"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "tk-xy-b",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

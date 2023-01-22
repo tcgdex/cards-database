@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Whimsy Tackle",
+				"fr": "Charge capricieuse"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		399
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Bidoof",
+		"fr": "Keunotor"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

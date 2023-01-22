@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		515
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Sodamak",
+		"en": "Panpour",
+		"es": "Panpour",
+		"fr": "Flotajou",
+		"it": "Panpour",
+		"pt": "Panpour"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

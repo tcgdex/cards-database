@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Harden",
+				"fr": "Armure"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
+				"fr": "Pendant le prochain tour de votre adversaire, à chaque fois que 30 dégâts ou moins sont infligés à Gravalanch (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)"
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Throw",
+				"fr": "Jet-pierres"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage."
+	},
+	"dexId": [
+		75
+	],
+	"evolveFrom": {
+		"en": "Geodude"
+	},
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Graveler",
+		"fr": "Gravalanch"
+	},
+	"rarity": "Uncommon",
+	"set": "base3",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

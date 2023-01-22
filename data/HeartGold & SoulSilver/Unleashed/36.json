@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collectionner"
+			},
+			"effect": {
+				"en": "Draw 2 cards.",
+				"fr": "Piochez 2 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunder Jolt",
+				"fr": "Secousse tonnerre"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, Plusle does 10 damage to itself.",
+				"fr": "Lancez une pièce. Si c’est pile, Posipi s’inflige 10 dégâts."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+	},
+	"dexId": [
+		311
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Plusle",
+		"fr": "Posipi"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss2",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

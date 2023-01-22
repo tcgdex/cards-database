@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Oracle Arrow"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Antigravity"
+			},
+			"effect": {
+				"en": "The Retreat Cost for Bronzong is 0 until the end of your next turn."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		437
+	],
+	"evolveFrom": {
+		"en": "Bronzor"
+	},
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Bronzong"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "pl4",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

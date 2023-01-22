@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Last Pattern",
+				"fr": "Dernier Motif"
+			},
+			"effect": {
+				"en": "If this Pokémon is Knocked Out by damage from an opponent’s attack, discard 2 random cards from your opponent’s hand.",
+				"fr": "Si ce Pokémon est mis K.O. par les dégâts d’une attaque de votre adversaire, défaussez 2 cartes au hasard de la main de votre adversaire."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rocket Tail",
+				"fr": "Queue Rocket"
+			},
+			"effect": {
+				"en": "If Jessie & James is in your discard pile, this attack does 80 more damage.",
+				"fr": "Si la carte Jessie et James est dans votre pile de défausse, cette attaque inflige 80 dégâts supplémentaires."
+			},
+			"damage": "50+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		24
+	],
+	"evolveFrom": {
+		"en": "Ekans",
+		"fr": "Abo"
+	},
+	"hp": 120,
+	"illustrator": "kirisAki",
+	"name": {
+		"en": "Arbok",
+		"fr": "Arbok"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "sm115",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 70,
+	"id": "sm7.5",
+	"name": {
+		"de": "Majestät Der Drachen",
+		"en": "Dragon Majesty",
+		"es": "Majestad De Dragones",
+		"fr": "Majesté Des Dragons",
+		"it": "Trionfo Dei Draghi",
+		"pt": "Dragões Soberanos"
+	},
+	"releaseDate": "2018-09-07",
+	"serie": "sm",
+	"tcgOnline": "DRM"
+}

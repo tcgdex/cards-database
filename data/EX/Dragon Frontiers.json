@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 101,
+	"id": "ex15",
+	"name": {
+		"de": "EX Dragon Frontiers",
+		"en": "Dragon Frontiers",
+		"fr": "EX Île des Dragons",
+		"it": "EX L'Isola dei Draghi"
+	},
+	"releaseDate": "2006-11-08",
+	"serie": "ex",
+	"tcgOnline": "DF"
+}

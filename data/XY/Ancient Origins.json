@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 98,
+	"id": "xy7",
+	"name": {
+		"de": "Ewiger Anfang",
+		"en": "Ancient Origins",
+		"es": "Antiguos Orígenes",
+		"fr": "Origines Antiques",
+		"it": "Antiche Origini",
+		"pt": "Origens Ancestrais"
+	},
+	"releaseDate": "2015-08-12",
+	"serie": "xy",
+	"tcgOnline": "AOR"
+}

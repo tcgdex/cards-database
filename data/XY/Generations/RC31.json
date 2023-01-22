@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Brilliant Arrow",
+				"fr": "Flèche Éclatante"
+			},
+			"effect": {
+				"en": "This attack does 30 damage times the amount of Fairy Energy attached to all of your Pokémon.",
+				"fr": "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Fairy attachées à tous vos Pokémon."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		282
+	],
+	"evolveFrom": {
+		"en": "Gardevoir-EX",
+		"fr": "Gardevoir-EX"
+	},
+	"hp": 210,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"en": "M Gardevoir EX",
+		"fr": "M-Gardevoir-EX"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "g1",
+	"stage": "MEGA",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

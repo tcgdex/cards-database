@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leech Seed",
+				"fr": "Vampigraine"
+			},
+			"effect": {
+				"en": "Remove 1 damage counter from Ivysaur.",
+				"fr": "Retirez à Herbizarre 1 marqueur de dégât."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch'herbe"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		2
+	],
+	"evolveFrom": {
+		"en": "Bulbasaur",
+		"fr": "Bulbizarre"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Ivysaur",
+		"fr": "Herbizarre"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "dp3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Bounce"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "You may switch this Pokémon with 1 of your Benched Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "As it majestically swims, it doesn't care if Remoraid attach to it to scavenge for its leftovers."
+	},
+	"hp": 110,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Mantax",
+		"en": "Mantine",
+		"es": "Mantine",
+		"fr": "Démanta",
+		"it": "Mantine",
+		"pt": "Mantine"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

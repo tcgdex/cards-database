@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Jumbo Fin",
+				"fr": "Nageoire géante"
+			},
+			"effect": {
+				"en": "If Mantyke is anywhere under Mantine, the Retreat Cost for each of your Water Pokémon is ColorlessColorless less.",
+				"fr": "Si Babimanta se trouve sous Demanta, le coût de retraite de chacun de vos Pokémon Water est ColorlessColorless de moins."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Giant Wave",
+				"fr": "Vague géante"
+			},
+			"effect": {
+				"en": "Mantine can't use Giant Wave during your next turn.",
+				"fr": "Demanta ne peut pas utiliser Vague géante lors de votre prochain tour."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Lorsque la mer est calme, il arrive de croiser un banc de Démanta nageant comme s'il volaient."
+	},
+	"dexId": [
+		226
+	],
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Mantine",
+		"fr": "Demanta"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

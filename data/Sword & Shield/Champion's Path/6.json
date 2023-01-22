@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Singe",
+				"fr": "Roussi",
+				"es": "Quemadura",
+				"it": "Scottata",
+				"pt": "Chamuscada",
+				"de": "Versengung"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Burned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				"it": "Il Pokémon attivo del tuo avversario viene bruciato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Queimado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+	},
+	"hp": 60,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Vulpix",
+		"en": "Vulpix",
+		"es": "Vulpix",
+		"fr": "Goupix",
+		"it": "Vulpix",
+		"pt": "Vulpix"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3.5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

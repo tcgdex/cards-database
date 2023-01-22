@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Shell Attack",
+				"fr": "Coquill-Attaque",
+				"es": "Ataque Caparazón",
+				"it": "Gusciattacco",
+				"pt": "Ataque Carapaça",
+				"de": "Muschelangriff"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Boulder Crush",
+				"fr": "Rocher Écrasant",
+				"es": "Alud de Rocas",
+				"it": "Macignata",
+				"pt": "Rocha Esmagadora",
+				"de": "Felsenquetscher"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		564
+	],
+	"evolveFrom": {
+		"en": "Unidentified Fossil",
+		"fr": "Fossile Inconnu"
+	},
+	"hp": 100,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Galapaflos",
+		"en": "Tirtouga",
+		"es": "Tirtouga",
+		"fr": "Carapagos",
+		"it": "Tirtouga",
+		"pt": "Tirtouga"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "sm11",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

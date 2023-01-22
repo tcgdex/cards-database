@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Darkness Navigation"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), if Dark Electrode has no Energy attached to it, you may search your deck for a Darkness or Dark Metal Energy and attach it to Dark Electrode. Shuffle your deck afterward. This power can't be used if Dark Electrode is affected by a Special Condition."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Energy Bomb"
+			},
+			"effect": {
+				"en": "You may move all Energy cards attached to Dark Electrode to your Benched Pokémon in any way you like."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		101
+	],
+	"evolveFrom": {
+		"en": "Voltorb"
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Dark Electrode"
+	},
+	"rarity": "Rare",
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Lightning",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

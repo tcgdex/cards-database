@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Iron Fist of Justice",
+				"fr": "Poing de Fer Juste"
+			},
+			"effect": {
+				"en": "If you have any Team Plasma Pokémon in play, this attack does nothing.",
+				"fr": "Si vous avez un Pokémon de la Team Plasma en jeu, cette attaque ne fait rien."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Punch",
+				"fr": "Poing Ombre"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		623
+	],
+	"evolveFrom": {
+		"en": "Golett",
+		"fr": "Gringolem"
+	},
+	"hp": 130,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Golgantes",
+		"en": "Golurk",
+		"es": "Golurk",
+		"fr": "Golemastoc",
+		"it": "Golurk",
+		"pt": "Golurk"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bw10",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

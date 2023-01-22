@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rear Kick"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
+	},
+	"hp": 60,
+	"illustrator": "nagimiso",
+	"name": {
+		"de": "Zorua",
+		"en": "Zorua",
+		"es": "Zorua",
+		"fr": "Zorua",
+		"it": "Zorua",
+		"pt": "Zorua"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

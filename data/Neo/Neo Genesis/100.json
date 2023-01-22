@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Si vous avez un ou plusieurs Pokémon sur votre Banc, votre adversaire choisit l'un d'eux et l'échange avec votre Pokémon Actif. Ensuite, si votre adversaire a un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux et échangez-le avec son Pokémon Actif."
+	},
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Double Gust",
+		"fr": "Double rafale"
+	},
+	"rarity": "Common",
+	"set": "neo1"
+}

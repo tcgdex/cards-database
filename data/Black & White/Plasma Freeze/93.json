@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Milk",
+				"fr": "Lait Max"
+			},
+			"effect": {
+				"en": "Heal all damage from 1 of your Pokémon. Then, discard all Energy attached to this Pokémon.",
+				"fr": "Soignez tous les dégâts de l'un de vos Pokémon. Ensuite, défaussez toutes les Énergies attachées à ce Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		241
+	],
+	"hp": 100,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Miltank",
+		"en": "Miltank",
+		"es": "Miltank",
+		"fr": "Écrémeuh",
+		"it": "Miltank",
+		"pt": "Miltank"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

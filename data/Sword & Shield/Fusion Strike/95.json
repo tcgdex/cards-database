@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunder Wave"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
+	},
+	"hp": 40,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Zapplardin",
+		"en": "Tynamo",
+		"es": "Tynamo",
+		"fr": "Anchwatt",
+		"it": "Tynamo",
+		"pt": "Tynamo"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez cette carte à 1 de vos Pokémon SP en jeu. Celui-ci peut utiliser l'attaque de cette carte à la place de la sienne. Lorsque le Pokémon auquel cette carte est attachée n'est plus un Pokémon SP, défaussez cette carte."
+	},
+	"illustrator": "Makoto Imai",
+	"name": {
+		"en": "Team Galactic's Invention G-107 Technical Machine",
+		"fr": "Machine Technique  Invention G-107 de Team Galaxie"
+	},
+	"rarity": "Uncommon",
+	"set": "pl2",
+	"suffix": "SP",
+	"trainerType": "Technical Machine"
+}

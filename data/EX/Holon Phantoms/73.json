@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Blot",
+				"fr": "Pâté"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Oddish.",
+				"fr": "Retirez à Mystherbe 2 marqueurs de dégât."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		43
+	],
+	"hp": 40,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Oddish δ",
+		"fr": "Mystherbe δ ESPÈCES DELTA"
+	},
+	"rarity": "Common",
+	"set": "ex13",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call for Friends"
+			},
+			"effect": {
+				"en": "Search your deck for a Baby Pokémon or Basic Pokémon and put it onto your bench. Shuffle your deck afterward. (You can't use this attack it your bench is full.)"
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Body Slam"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		19
+	],
+	"hp": 30,
+	"illustrator": "Masako Yamashita",
+	"name": {
+		"en": "Rattata"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Dump and Draw"
+			},
+			"effect": {
+				"en": "Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Tail"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		126
+	],
+	"hp": 70,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Magmar"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

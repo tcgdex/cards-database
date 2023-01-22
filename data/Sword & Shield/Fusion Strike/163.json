@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sharp Fang"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
+	},
+	"evolveFrom": {
+		"en": "Carvanha",
+		"fr": "Carvanha",
+		"es": "Carvanha",
+		"it": "Carvanha",
+		"pt": "Carvanha",
+		"de": "Kanivanha"
+	},
+	"hp": 100,
+	"illustrator": "Hasuno",
+	"name": {
+		"de": "Tohaido",
+		"en": "Sharpedo",
+		"es": "Sharpedo",
+		"fr": "Sharpedo",
+		"it": "Sharpedo",
+		"pt": "Sharpedo"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

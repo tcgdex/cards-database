@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Cursed Drop"
+			},
+			"effect": {
+				"en": "Put 4 damage counters on your opponent's Pokémon in any way you like."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Eerie Glow"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned and Confused."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		609
+	],
+	"hp": 170,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Chandelure-EX"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw11",
+	"suffix": "EX",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

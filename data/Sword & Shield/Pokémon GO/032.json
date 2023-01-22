@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Nap",
+				"fr": "Tit'Sieste",
+				"es": "Siesta",
+				"it": "Pausa",
+				"pt": "Soneca",
+				"de": "Nickerchen"
+			},
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon.",
+				"fr": "Soignez 20 dégâts de ce Pokémon.",
+				"es": "Cura 20 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 20 danni.",
+				"pt": "Cure 20 pontos de dano deste Pokémon.",
+				"de": "Heile 20 Schadenspunkte bei diesem Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic",
+				"es": "Picotazo",
+				"it": "Beccata",
+				"pt": "Bicada",
+				"de": "Pikser"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"hp": 50,
+	"name": {
+		"de": "Natu",
+		"en": "Natu",
+		"es": "Natu",
+		"fr": "Natu",
+		"it": "Natu",
+		"pt": "Natu"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh10.5",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	]
+}

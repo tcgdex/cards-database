@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Crystal Type"
+			},
+			"effect": {
+				"en": "Whenever you attach a Fire, Lightning, or Fighting basic Energy card from your hand to Charizard, Charizard's type (color) becomes the same as that type of energy until the end of the turn."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Fireblast"
+			},
+			"effect": {
+				"en": "Discard an Energy card attached to Charizard."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Tail"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 50 damage times the number of heads."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"evolveFrom": {
+		"en": "Charmeleon"
+	},
+	"hp": 110,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Charizard"
+	},
+	"rarity": "Rare",
+	"set": "ecard3",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

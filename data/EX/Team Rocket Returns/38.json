@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Energy Press"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each basic Energy card attached to all of your Active Pokémon."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Linear Attack"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		219
+	],
+	"evolveFrom": {
+		"en": "Slugma"
+	},
+	"hp": 80,
+	"illustrator": "Nakaoka",
+	"name": {
+		"en": "Dark Magcargo"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Fire",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

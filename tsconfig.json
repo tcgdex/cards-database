@@ -6,5 +6,8 @@
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"resolveJsonModule": true
+	},
+	"ts-node": {
+		"preferTsExts": true
 	}
 }

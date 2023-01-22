@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Sound",
+				"fr": "Strido-Son"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Guard Press",
+				"fr": "Pression de Garde"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				"fr": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		600
+	],
+	"evolveFrom": {
+		"en": "Klink",
+		"fr": "Tic"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Kliklak",
+		"en": "Klang",
+		"es": "Klang",
+		"fr": "Clic",
+		"it": "Klang",
+		"pt": "Klang"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

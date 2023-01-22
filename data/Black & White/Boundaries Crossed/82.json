@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Slap Push",
+				"fr": "Grande Claque"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		296
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Makuhita",
+		"en": "Makuhita",
+		"es": "Makuhita",
+		"fr": "Makuhita",
+		"it": "Makuhita",
+		"pt": "Makuhita"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

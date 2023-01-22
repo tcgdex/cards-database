@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fire Tail Slap",
+				"fr": "Coup de queue enflammé"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard a Fire Energy attached to Flareon .",
+				"fr": "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Pyroli ."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		136
+	],
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Flareon 4",
+		"fr": "Pyroli  Niv. 55"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

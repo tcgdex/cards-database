@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dangerous Lick",
+				"fr": "Lécher Dangereux",
+				"es": "Lametazo Peligroso",
+				"it": "Leccata Pericolosa",
+				"pt": "Lambida Perigosa",
+				"de": "Gefährlicher Schlecker"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 50 more damage for each heads. If the first flip is tails, your opponent’s Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 50 dégâts supplémentaires pour chaque côté face. Si le premier lancer est pile, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda hasta que salga cruz. Este ataque hace 50 puntos de daño más por cada cara. Si sale cruz en el primer lanzamiento, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta finché non esce croce. Questo attacco infligge 50 danni in più ogni volta che esce testa. Se la prima volta esce croce, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue 1 moeda até sair coroa. Este ataque causa 50 pontos de dano a mais para cada cara. Se a primeira jogada sair coroa, o Pokémon Ativo do seu oponente será Paralisado.",
+				"de": "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 50 Schadenspunkte mehr pro Kopf zu. Wenn das Ergebnis des ersten Münzwurfs Zahl ist, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": "50+"
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rolling Tackle",
+				"fr": "Roulé-Boulé",
+				"es": "Placaje Giro",
+				"it": "Rollazione",
+				"pt": "Golpe de Colisão Rolante",
+				"de": "Rolltackle"
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		463
+	],
+	"evolveFrom": {
+		"en": "Lickitung",
+		"fr": "Excelangue"
+	},
+	"hp": 130,
+	"illustrator": "Yumi",
+	"name": {
+		"de": "Schlurplek",
+		"en": "Lickilicky",
+		"es": "Lickilicky",
+		"fr": "Coudlangue",
+		"it": "Lickilicky",
+		"pt": "Lickilicky"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "sm5",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

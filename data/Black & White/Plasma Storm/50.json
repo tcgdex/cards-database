@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Jump On",
+				"fr": "Saut"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		595
+	],
+	"hp": 40,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Wattzapf",
+		"en": "Joltik",
+		"es": "Joltik",
+		"fr": "Statitik",
+		"it": "Joltik",
+		"pt": "Joltik"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

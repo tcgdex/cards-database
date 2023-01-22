@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smokescreen",
+				"fr": "Brouillard"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				"fr": "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fireworks",
+				"fr": "Feux d'artifices"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard a Fire Energy attached to Magmar.",
+				"fr": "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Magmar."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		126
+	],
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Magmar",
+		"fr": "Magmar"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

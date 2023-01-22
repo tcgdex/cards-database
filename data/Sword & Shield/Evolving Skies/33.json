@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse Vague",
+				"es": "Chapoteo Ondulante",
+				"it": "Schizzi d'Onda",
+				"pt": "Wave Splash",
+				"de": "Wellenplatscher"
+			},
+			"damage": 50,
+			"cost": [
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night."
+	},
+	"dexId": [
+		271
+	],
+	"evolveFrom": {
+		"en": "Lotad",
+		"fr": "Nénupiot",
+		"es": "Lotad",
+		"it": "Lotad",
+		"pt": "Lotad",
+		"de": "Loturzel"
+	},
+	"hp": 90,
+	"illustrator": "miki kudo",
+	"name": {
+		"de": "Lombrero",
+		"en": "Lombre",
+		"es": "Lombre",
+		"fr": "Lombre",
+		"it": "Lombre",
+		"pt": "Lombre"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

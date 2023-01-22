@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Paralyzing Gaze",
+				"fr": "Regard paralysant"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fireworks",
+				"fr": "Feux d'artifices"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard a Fire Energy card attached to Cyndaquil.",
+				"fr": "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Héricendre."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		155
+	],
+	"hp": 50,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Cyndaquil",
+		"fr": "Héricendre"
+	},
+	"rarity": "Common",
+	"set": "ex10",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

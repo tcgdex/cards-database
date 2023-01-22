@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder Fang"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Volt Bolt"
+			},
+			"effect": {
+				"en": "Discard all Lightning Energy attached to this Pokémon. This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		243
+	],
+	"hp": 170,
+	"illustrator": "Shizurow",
+	"name": {
+		"de": "Raikou-EX",
+		"en": "Raikou-EX",
+		"es": "Raikou-EX",
+		"fr": "Raikou-EX",
+		"it": "Raikou-EX",
+		"pt": "Raikou-EX"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw5",
+	"suffix": "EX",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

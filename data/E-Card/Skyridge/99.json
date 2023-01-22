@@ -1,0 +1,39 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Singe"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		218
+	],
+	"hp": 50,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Slugma"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

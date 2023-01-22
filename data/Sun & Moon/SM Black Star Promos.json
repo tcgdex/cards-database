@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 236,
+	"id": "smp",
+	"name": {
+		"de": "SM Promokarten",
+		"en": "SM Black Star Promos",
+		"es": "SL Cartas de promoción",
+		"fr": "Promo SM",
+		"it": "SL Promo"
+	},
+	"releaseDate": "2017-02-03",
+	"serie": "sm",
+	"tcgOnline": "PR-SM"
+}

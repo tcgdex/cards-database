@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d’Boule",
+				"es": "Golpe Cabeza",
+				"it": "Bottintesta",
+				"pt": "Cabeçada",
+				"de": "Kopfnuss"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Lightning"
+			],
+			"name": {
+				"en": "Gentle Slap",
+				"fr": "Gifle Douce",
+				"es": "Bofetada Gentil",
+				"it": "Schiaffetto",
+				"pt": "Tapinha",
+				"de": "Sanfter Hieb"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		782
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Miniras",
+		"en": "Jangmo-o",
+		"es": "Jangmo-o",
+		"fr": "Bébécaille",
+		"it": "Jangmo-o",
+		"pt": "Jangmo-o"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragonbreath",
+				"fr": "Dracosouffle"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		329
+	],
+	"evolveFrom": {
+		"en": "Trapinch"
+	},
+	"hp": 80,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Vibrava",
+		"fr": "Vibraninf"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-30"
+		},
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex16",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

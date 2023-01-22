@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surprise Attack",
+				"fr": "Attaque surprise"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil."
+	},
+	"dexId": [
+		355
+	],
+	"evolveFrom": {
+		"fr": "Skélénox"
+	},
+	"hp": 50,
+	"illustrator": "Sachiko Adachi",
+	"name": {
+		"en": "Duskull",
+		"fr": "Skélénox"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+10"
+		}
+	]
+}

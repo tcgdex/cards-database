@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Jamming"
+			},
+			"effect": {
+				"en": "After your opponent plays a Supporter card from his or her hand, put 1 damage counter on each of your opponent’s Pokémon. You can’t use more than 1 Jamming Poké-Body each turn."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cluster Bolt"
+			},
+			"effect": {
+				"en": "You may discard all Lightning Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent’s Benched Pokémon that has any Energy cards attached to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light."
+	},
+	"dexId": [
+		181
+	],
+	"evolveFrom": {
+		"en": "Flaaffy"
+	},
+	"hp": 130,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Ampharos"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "pop7",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+30"
+		}
+	]
+}

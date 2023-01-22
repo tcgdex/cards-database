@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Big Yawn"
+			},
+			"effect": {
+				"en": "Both this Pokémon and the Defending Pokémon are now Asleep."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shot in the Dark"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If either of them is tails, this attack does nothing."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		79
+	],
+	"hp": 70,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Flegmon",
+		"en": "Slowpoke",
+		"es": "Slowpoke",
+		"fr": "Ramoloss",
+		"it": "Slowpoke",
+		"pt": "Slowpoke"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

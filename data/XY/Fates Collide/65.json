@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Pfund"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade",
+				"es": "Desenrollar",
+				"it": "Rotolamento",
+				"pt": "Rolagem",
+				"de": "Walzer"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		39
+	],
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Pummeluff",
+		"en": "Jigglypuff",
+		"es": "Jigglypuff",
+		"fr": "Rondoudou",
+		"it": "Jigglypuff",
+		"pt": "Jigglypuff"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xy10",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

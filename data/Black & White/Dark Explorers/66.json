@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dark Clamp"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bombast"
+			},
+			"effect": {
+				"en": "Does 40 damage times the number of Prize cards you have taken."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		553
+	],
+	"evolveFrom": {
+		"en": "Krokorok"
+	},
+	"hp": 150,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Rabigator",
+		"en": "Krookodile",
+		"es": "Krookodile",
+		"fr": "Crocorible",
+		"it": "Krookodile",
+		"pt": "Krookodile"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "bw5",
+	"stage": "Stage2",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

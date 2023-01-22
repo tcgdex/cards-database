@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Paralyzing Gaze",
+				"fr": "Regard Paralysant"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		19
+	],
+	"hp": 30,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Rattfratz",
+		"en": "Rattata",
+		"es": "Rattata",
+		"fr": "Rattata",
+		"it": "Rattata",
+		"pt": "Rattata"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

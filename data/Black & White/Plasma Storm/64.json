@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sludge Bomb",
+				"fr": "Bomb-Beurk"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		568
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Unratütox",
+		"en": "Trubbish",
+		"es": "Trubbish",
+		"fr": "Miamiasme",
+		"it": "Trubbish",
+		"pt": "Trubbish"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

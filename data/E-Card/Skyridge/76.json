@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder Wave"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			}
+		},
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Magnetic Lines"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon has any basic Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and move it to 1 of your opponent's Benched Pokémon. If your opponent has no Benched Pokémon, ignore this effect."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		81
+	],
+	"hp": 40,
+	"illustrator": "Shin-ichi Yoshida",
+	"name": {
+		"en": "Magnemite"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

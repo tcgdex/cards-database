@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Exoskeleton"
+			},
+			"effect": {
+				"en": "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Ram"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack."
+	},
+	"evolveFrom": {
+		"en": "Caterpie",
+		"fr": "Chenipan",
+		"es": "Caterpie",
+		"it": "Caterpie",
+		"pt": "Caterpie",
+		"de": "Raupy"
+	},
+	"hp": 80,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Safcon",
+		"en": "Metapod",
+		"es": "Metapod",
+		"fr": "Chrysacier",
+		"it": "Metapod",
+		"pt": "Metapod"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Blot",
+				"fr": "Pâté",
+				"es": "Absorción",
+				"it": "Macchia",
+				"pt": "Blot",
+				"de": "Klecks"
+			},
+			"effect": {
+				"en": "Heal 10 damage from this Pokémon.",
+				"fr": "Soignez 10 dégâts de ce Pokémon.",
+				"es": "Cura 10 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 10 danni.",
+				"pt": "Heal 10 damage from this Pokémon.",
+				"de": "Heile 10 Schadenspunkte bei diesem Pokémon."
+			},
+			"damage": 10,
+			"cost": [
+				"Grass"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+	},
+	"dexId": [
+		829
+	],
+	"hp": 50,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Cottini",
+		"en": "Gossifleur",
+		"es": "Gossifleur",
+		"fr": "Tournicoton",
+		"it": "Gossifleur",
+		"pt": "Gossifleur"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

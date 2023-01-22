@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fairy Power",
+				"fr": "Pouvoir de fée"
+			},
+			"effect": {
+				"en": "Return 1 of your Pokémon and all cards attached to it to your hand.",
+				"fr": "Reprenez un de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Moon Impact",
+				"fr": "Impact lunaire"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places."
+	},
+	"dexId": [
+		36
+	],
+	"evolveFrom": {
+		"en": "Clefairy",
+		"fr": "Mélofée"
+	},
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Clefable",
+		"fr": "Mélodelfe"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

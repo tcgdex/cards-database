@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Feint",
+				"fr": "Ruse"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "High Jump Kick",
+				"fr": "Pied Voltige"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		620
+	],
+	"evolveFrom": {
+		"en": "Mienfoo",
+		"fr": "Kungfouine"
+	},
+	"hp": 90,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Wie-Shu",
+		"en": "Mienshao",
+		"es": "Mienshao",
+		"fr": "Shaofouine",
+		"it": "Mienshao",
+		"pt": "Mienshao"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

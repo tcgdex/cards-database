@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rainbow Burn",
+				"fr": "Brûlure Arc-en-Ciel",
+				"es": "Ardor Arcoíris",
+				"it": "Fiammabaleno",
+				"pt": "Queimadura Arco-íris",
+				"de": "Regenbogenfeuer"
+			},
+			"effect": {
+				"en": "This attack does 30 more damage for each type of basic Energy attached to this Pokémon.",
+				"fr": "Cette attaque inflige 30 dégâts supplémentaires pour chaque type d’Énergie de base attaché à ce Pokémon.",
+				"es": "Este ataque hace 30 puntos de daño más por cada tipo de Energía Básica diferente unida a este Pokémon.",
+				"it": "Questo attacco infligge 30 danni in più per ogni tipo di Energia base assegnata a questo Pokémon.",
+				"pt": "Este ataque causa 30 pontos de dano a mais para cada tipo de Energia básica ligada a este Pokémon.",
+				"de": "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten verschiedenen Basis-Energietypen zu."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		250
+	],
+	"hp": 130,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"de": "Ho-Oh",
+		"en": "Ho-Oh",
+		"es": "Ho-Oh",
+		"fr": "Ho-Oh",
+		"it": "Ho-Oh",
+		"pt": "Ho-Oh"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

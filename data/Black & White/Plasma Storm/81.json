@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Facade",
+				"fr": "Façade"
+			},
+			"effect": {
+				"en": "If this Pokémon is Burned or Poisoned, this attack does 60 more damage.",
+				"fr": "Si ce Pokémon est Brûlé ou Empoisonné, cette attaque inflige 60 dégâts supplémentaires."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Drain Punch",
+				"fr": "Vampipoing"
+			},
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon.",
+				"fr": "Soignez 20 dégâts à ce Pokémon."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		534
+	],
+	"evolveFrom": {
+		"en": "Gurdurr",
+		"fr": "Ouvrifier"
+	},
+	"hp": 140,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Meistagrif",
+		"en": "Conkeldurr",
+		"es": "Conkeldurr",
+		"fr": "Bétochef",
+		"it": "Conkeldurr",
+		"pt": "Conkeldurr"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw8",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

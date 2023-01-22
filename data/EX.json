@@ -1,0 +1,12 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "ex",
+	"name": {
+		"de": "EX",
+		"en": "EX",
+		"es": "ex",
+		"fr": "EX",
+		"it": "EX",
+		"pt": "EX"
+	}
+}

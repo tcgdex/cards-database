@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vacuum Up",
+				"fr": "Aspirer"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sand Eject",
+				"fr": "Jeteur de sable"
+			},
+			"effect": {
+				"en": "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.",
+				"fr": "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il emmagasine du sable qu'il expulse en tornades par les pores de sa peau pour attaquer."
+	},
+	"dexId": [
+		450
+	],
+	"evolveFrom": {
+		"en": "Hippopotas",
+		"fr": "Hippopotas"
+	},
+	"hp": 110,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Hippowdon",
+		"fr": "Hippodocus"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "dp1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

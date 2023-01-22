@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"en": "Yungoos"
+	},
+	"rarity": "None",
+	"set": "2017sm",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

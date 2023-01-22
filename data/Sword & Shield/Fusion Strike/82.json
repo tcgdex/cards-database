@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Peck"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up."
+	},
+	"hp": 60,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Pikuda",
+		"en": "Arrokuda",
+		"es": "Arrokuda",
+		"fr": "Embrochet",
+		"it": "Arrokuda",
+		"pt": "Arrokuda"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

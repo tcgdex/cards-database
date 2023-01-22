@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cryo Mouth",
+				"fr": "Cryo Bouche",
+				"es": "Cryoboca",
+				"it": "Criobocca",
+				"pt": "Boca Criogênica",
+				"de": "Kryo-Mund"
+			},
+			"effect": {
+				"en": "If this Pokémon has 10 or more damage counters on it, this attack does 150 more damage.",
+				"fr": "Si ce Pokémon a 10 marqueurs de dégâts ou plus, cette attaque inflige 150 dégâts supplémentaires.",
+				"es": "Si este Pokémon tiene 10 o más contadores de daño sobre él, este ataque hace 150 puntos de daño más.",
+				"it": "Se questo Pokémon ha 10 o più segnalini danno, questo attacco infligge 150 danni in più.",
+				"pt": "Se este Pokémon possuir 10 ou mais contadores de danos, este ataque causará 150 de danos adicionais.",
+				"de": "Wenn auf diesem Pokémon mindestens 10 Schadensmarken liegen, fügt dieser Angriff 150 weitere Schadenspunkte zu."
+			},
+			"damage": "100+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		362
+	],
+	"evolveFrom": {
+		"en": "Glalie-EX",
+		"fr": "Oniglali-EX",
+		"es": "Glalie-EX",
+		"it": "Glalie-EX",
+		"pt": "Glalie-EX",
+		"de": "Firnontor-EX"
+	},
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "M-Firnontor EX",
+		"en": "M Glalie EX",
+		"es": "M-Glalie EX",
+		"fr": "M-Oniglali EX",
+		"it": "M Glalie EX",
+		"pt": "M-Glalie EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 3,
+	"set": "xy8",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

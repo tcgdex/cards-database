@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Peck"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Splash"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+	},
+	"dexId": [
+		393
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Piplup"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pop6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

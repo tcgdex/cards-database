@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 99,
+	"id": "pl4",
+	"name": {
+		"de": "Arceus",
+		"en": "Arceus",
+		"es": "Arceus",
+		"it": "Arceus"
+	},
+	"releaseDate": "2009-11-04",
+	"serie": "pl",
+	"tcgOnline": "AR"
+}

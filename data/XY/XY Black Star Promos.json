@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 211,
+	"id": "xyp",
+	"name": {
+		"de": "XY Promokarten",
+		"en": "XY Black Star Promos",
+		"es": "XY Cartas de promoción",
+		"fr": "Promo XY",
+		"it": "XY Promo"
+	},
+	"releaseDate": "2013-10-12",
+	"serie": "xy",
+	"tcgOnline": "PR-XY"
+}

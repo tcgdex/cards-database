@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "HEAL",
+				"fr": "HEAL"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), if you have Unown H, Unown E, Unown A, and Unown L on your Bench, you may remove all Special Conditions from 1 of your Active Pokémon.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), si Zarbi H, Zarbi E, Zarbi A et Zarbi L se trouvent sur votre Banc, vous pouvez retirer à 1 de vos Pokémon Actifs tous ses États Spéciaux."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Hidden Power",
+				"fr": "Puissance cachée"
+			},
+			"effect": {
+				"en": "Discard a card from your hand. (If you can't discard a card from your hand, this attack does nothing.)",
+				"fr": "Défaussez une carte de votre main. (Si vous ne pouvez pas défausser de carte de votre main, cette attaque est sans effet.)"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		201
+	],
+	"hp": 60,
+	"illustrator": "Daisuke Ito",
+	"name": {
+		"en": "Unown H",
+		"fr": "Zarbi H"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

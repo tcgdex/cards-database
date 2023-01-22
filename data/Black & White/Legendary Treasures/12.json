@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Leaf Tailor"
+			},
+			"effect": {
+				"en": "Each of your Pokémon that has any Energy attached to it has no Weakness."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cutting Arm"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 more damage for each heads."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		542
+	],
+	"evolveFrom": {
+		"en": "Swadloon"
+	},
+	"hp": 130,
+	"illustrator": "match",
+	"name": {
+		"en": "Leavanny"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

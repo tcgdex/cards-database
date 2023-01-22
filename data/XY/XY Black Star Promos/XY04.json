@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Disarming Voice",
+				"fr": "Voix Enjôleuse"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fairy",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fairy Wind",
+				"fr": "Vent Féérique"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		700
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Évoli"
+	},
+	"hp": 90,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Sylveon",
+		"fr": "Nymphali"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Stage1",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Reckless Charge",
+				"fr": "Attaque Imprudente",
+				"es": "Carga Descuidada",
+				"it": "Carica Avventata",
+				"pt": "Carga Indomável",
+				"de": "Waghalsiger Sturmangriff"
+			},
+			"effect": {
+				"en": "This Pokémon also does 10 damage to itself.",
+				"fr": "Ce Pokémon s'inflige aussi 10 dégâts.",
+				"es": "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+				"it": "Questo Pokémon infligge anche 10 danni a se stesso.",
+				"pt": "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+				"de": "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			},
+			"damage": 30,
+			"cost": [
+				"Fighting"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it."
+	},
+	"hp": 70,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Klonkett",
+		"en": "Rolycoly",
+		"es": "Rolycoly",
+		"fr": "Charbi",
+		"it": "Rolycoly",
+		"pt": "Rolycoly"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

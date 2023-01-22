@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Unburden",
+				"fr": "Délestage"
+			},
+			"effect": {
+				"en": "If Drifloon has a Pokémon Tool card attached to it, Drifloon's Retreat Cost is colorless colorless more.",
+				"fr": "Si Baudrive possède une carte Outil Pokémon, son Coût de Retraite est de ColorlessColorless de plus."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Big Explosion",
+				"fr": "Grosse explosion"
+			},
+			"effect": {
+				"en": "Drifloon does 50 damage to itself.",
+				"fr": "Baudrive s'inflige 50 dégâts."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		425
+	],
+	"evolveFrom": {
+		"fr": "Baudrive"
+	},
+	"hp": 50,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Drifloon",
+		"fr": "Baudrive"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+10"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call for Family",
+				"fr": "Appel à la famille"
+			},
+			"effect": {
+				"en": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				"fr": "Cherchez dans votre deck une carte Pokémon de base et placez-la sur votre Banc. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Fin",
+				"fr": "Aileron-rasoir"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The direction of its belly spiral differs by area. The equator is thought to have an effect on this."
+	},
+	"dexId": [
+		60
+	],
+	"hp": 50,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Poliwag",
+		"fr": "Ptitard"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Axe Slugger",
+				"fr": "Cognée"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is a Colorless Pokémon, this attack does 60 more damage.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon Colorless, cette attaque inflige 60 dégâts supplémentaires."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Pulse",
+				"fr": "Dracochoc"
+			},
+			"effect": {
+				"en": "Discard the top card of your deck.",
+				"fr": "Défaussez la carte du dessus de votre deck."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		612
+	],
+	"evolveFrom": {
+		"en": "Fraxure",
+		"fr": "Incisache"
+	},
+	"hp": 140,
+	"illustrator": "Eske Yoshinob",
+	"name": {
+		"en": "Haxorus",
+		"fr": "Tranchodon"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dv1",
+	"stage": "Stage2",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

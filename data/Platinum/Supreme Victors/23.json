@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smash Turn",
+				"fr": "Tour fracassant"
+			},
+			"effect": {
+				"en": "You may switch Crawdaunt G with 1 of your Benched Pokémon.",
+				"fr": "Vous pouvez échanger Colhomard  avec 1 de vos Pokémon de Banc."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Beam",
+				"fr": "Ultralaser"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		342
+	],
+	"hp": 80,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Crawdaunt G",
+		"fr": "Colhomard "
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Basic",
+	"suffix": "SP",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

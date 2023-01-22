@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Download",
+				"fr": "Télécharge"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may discard a Supporter card from your hand and use the effect of that card as the effect of this power. This power can't be used if Porygon2 is affected by a Special Condition.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez défausser une carte Supporter de votre main et utiliser l'effet de cette carte comme l'effet de ce pouvoir. Ce pouvoir ne peut pas être utilisé si Porygon2 est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Speed Attack",
+				"fr": "Attaque vitesse"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		233
+	],
+	"evolveFrom": {
+		"en": "Porygon",
+		"fr": "Porygon"
+	},
+	"hp": 70,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Porygon2",
+		"fr": "Porygon2"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

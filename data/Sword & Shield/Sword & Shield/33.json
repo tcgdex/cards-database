@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Kick",
+				"fr": "Koud'Pied",
+				"es": "Patada",
+				"it": "Calcio",
+				"pt": "Chute",
+				"de": "Tritt"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Heat Blast",
+				"fr": "Explosion de Chaleur",
+				"es": "Explosión de Calor",
+				"it": "Caldobomba",
+				"pt": "Raio de Calor",
+				"de": "Hitzestoß"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves."
+	},
+	"dexId": [
+		814
+	],
+	"evolveFrom": {
+		"en": "Scorbunny",
+		"fr": "Flambino",
+		"es": "Scorbunny",
+		"it": "Scorbunny",
+		"pt": "Scorbunny",
+		"de": "Hopplo"
+	},
+	"hp": 90,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Kickerlo",
+		"en": "Raboot",
+		"es": "Raboot",
+		"fr": "Lapyro",
+		"it": "Raboot",
+		"pt": "Raboot"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

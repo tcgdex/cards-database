@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Heal Bell",
+				"fr": "Glas de soin"
+			},
+			"effect": {
+				"en": "Remove 3 damage counters from each of your Pokémon.",
+				"fr": "Retirez à chacun de vos Pokémon 3 marqueurs de dégât."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Super Psywave",
+				"fr": "Super vague psy"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. Count the amount of Energy attached to that Pokémon. Put that many damage counters on the Pokémon.",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire. Comptabilisez le nombre d'Énergies attachées à ce Pokémon. Placez autant de marqueurs de dégât sur ce Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		358
+	],
+	"hp": 70,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Chimecho",
+		"fr": "Éoko"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

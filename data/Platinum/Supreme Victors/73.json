@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Circling Dive",
+				"fr": "Plongeon en cercle"
+			},
+			"effect": {
+				"en": "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Switch Ninjask with 1 of your Benched Pokémon.",
+				"fr": "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Échangez Ninjask avec 1 des Pokémon de votre Banc."
+			}
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Parallel Drain",
+				"fr": "Tuyau parallèle"
+			},
+			"effect": {
+				"en": "Remove from 1 of your Pokémon the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				"fr": "Retirez à 1 de vos Pokémon autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		291
+	],
+	"evolveFrom": {
+		"en": "Nincada",
+		"fr": "Ningale"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Ninjask",
+		"fr": "Ninjask"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "pl3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

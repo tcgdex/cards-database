@@ -1,0 +1,22 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Retirez tous les États spéciaux de votre Pokémon actif.",
+		"en": "Remove all Special Conditions from your Active Pokémon."
+	},
+	"illustrator": "Takashi Yamaguchi",
+	"name": {
+		"en": "Full Heal",
+		"fr": "Énergie guérisseuse"
+	},
+	"rarity": "Uncommon",
+	"set": "hgss1",
+	"trainerType": "Item",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

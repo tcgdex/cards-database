@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Bared Fangs",
+				"fr": "Crocs à Vif"
+			},
+			"effect": {
+				"en": "If, before this Pokémon does damage, the Defending Pokémon has no damage counters on it, this attack does nothing.",
+				"fr": "Si, avant que ce Pokémon inflige des dégâts, le Pokémon Défenseur n'a aucun marqueur de dégâts, cette attaque ne fait rien."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		550
+	],
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Barschuft",
+		"en": "Basculin",
+		"es": "Basculin",
+		"fr": "Bargantua",
+		"it": "Basculin",
+		"pt": "Basculin"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

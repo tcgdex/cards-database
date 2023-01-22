@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Fin",
+				"fr": "Aileron-Rasoir",
+				"es": "Aleta Afilada",
+				"it": "Pinnalama",
+				"pt": "Barbatana Cortante",
+				"de": "Rasierflosse"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aqua Bomb",
+				"fr": "Aqua Bombe",
+				"es": "Bomba de Agua",
+				"it": "Acquabomba",
+				"pt": "Bomba Aquática",
+				"de": "Wasserbombe"
+			},
+			"effect": {
+				"en": "This Pokémon does 30 damage to itself.",
+				"fr": "Ce Pokémon s’inflige 30 dégâts.",
+				"es": "Este Pokémon se hace 30 puntos de daño a sí mismo.",
+				"it": "Questo Pokémon infligge 30 danni a se stesso.",
+				"pt": "Este Pokémon causa 30 pontos de dano a si mesmo.",
+				"de": "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		419
+	],
+	"evolveFrom": {
+		"en": "Buizel",
+		"fr": "Mustébouée"
+	},
+	"hp": 100,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Bojelin",
+		"en": "Floatzel",
+		"es": "Floatzel",
+		"fr": "Mustéflott",
+		"it": "Floatzel",
+		"pt": "Floatzel"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "sm3.5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

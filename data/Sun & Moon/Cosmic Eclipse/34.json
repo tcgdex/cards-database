@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise",
+				"es": "Combustión",
+				"it": "Fuoco Continuo",
+				"pt": "Combustão",
+				"de": "Glühen"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		636
+	],
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Ignivor",
+		"en": "Larvesta",
+		"es": "Larvesta",
+		"fr": "Pyronille",
+		"it": "Larvesta",
+		"pt": "Larvesta"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

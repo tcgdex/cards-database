@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Random Spark"
+			},
+			"effect": {
+				"en": "This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		},
+		{
+			"name": {
+				"en": "Bite"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts."
+	},
+	"evolveFrom": {
+		"en": "Electrike",
+		"fr": "Dynavolt",
+		"es": "Electrike",
+		"it": "Electrike",
+		"pt": "Electrike",
+		"de": "Frizelbliz"
+	},
+	"hp": 90,
+	"illustrator": "match",
+	"name": {
+		"de": "Voltenso",
+		"en": "Manectric",
+		"es": "Manectric",
+		"fr": "Élecsprint",
+		"it": "Manectric",
+		"pt": "Manectric"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-xy-p",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 62,
+	"id": "base3",
+	"name": {
+		"de": "Fossil",
+		"en": "Fossil",
+		"es": "Fósil",
+		"fr": "Fossile",
+		"it": "Fossil",
+		"pt": "Fóssil"
+	},
+	"releaseDate": "1999-10-10",
+	"serie": "base",
+	"tcgOnline": "FO"
+}

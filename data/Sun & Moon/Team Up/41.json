@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Shock Bolt",
+				"fr": "Choc’Éclair",
+				"es": "Rayo Impacto",
+				"it": "Lamposhock",
+				"pt": "Raio de Choque",
+				"de": "Schock-Blitz"
+			},
+			"effect": {
+				"en": "Discard all Lightning Energy from this Pokémon.",
+				"fr": "Défaussez toute l’Énergie Lightning de ce Pokémon.",
+				"es": "Descarta todas las Energías Lightning de este Pokémon.",
+				"it": "Scarta tutte le Energie Lightning assegnate a questo Pokémon.",
+				"pt": "Descarte todas as Energias Lightning deste Pokémon.",
+				"de": "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		179
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Voltilamm",
+		"en": "Mareep",
+		"es": "Mareep",
+		"fr": "Wattouat",
+		"it": "Mareep",
+		"pt": "Mareep"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm9",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

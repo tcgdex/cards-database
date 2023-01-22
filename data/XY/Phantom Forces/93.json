@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Les attaques de chaque Pokémon Psychic (les vôtres et ceux de votre adversaire) coûtent Colorless de moins.",
+		"en": "Each Psychic Pokémon's attacks (both yours and your opponent's) cost Colorless less.",
+		"es": "Los ataques de los Pokémon Psychic (tanto tuyos como de tu rival) cuestan Colorless menos.",
+		"it": "Tutti gli attacchi dei Pokémon Psychic, sia tuoi che del tuo avversario, costano Colorless in meno.",
+		"pt": "Os ataques de cada Pokémon Psychic (seus e do seu oponente) custam Colorless a menos.",
+		"de": "Die Kosten jedes Angriffs von Psychic-Pokémon (deine und die deines Gegners) reduzieren sich um Colorless."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Dimensionstal",
+		"en": "Dimension Valley",
+		"es": "Valle Dimensional",
+		"fr": "Vallée Dimensionnelle",
+		"it": "Valle Dimensionale",
+		"pt": "Vale Dimensional"
+	},
+	"rarity": "Uncommon",
+	"set": "xy4",
+	"trainerType": "Stadium"
+}

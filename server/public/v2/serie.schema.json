@@ -1,0 +1,49 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://api.tcgdex.net/serie.schema.json",
+	"title": "Serie",
+	"description": "Describe a pokémon TCG serie",
+	"additionalProperties": false,
+	"type": "object",
+	"properties": {
+		"id": {
+			"description": "Serie Unique Identifier",
+			"type": "string"
+		},
+		"name": {
+			"description": "the name of the serie",
+			"type": "object",
+			"properties": {
+				"en": {
+					"type": "string"
+				},
+				"es": {
+					"type": "string"
+				},
+				"pt": {
+					"type": "string"
+				},
+				"fr": {
+					"type": "string"
+				},
+				"it": {
+					"type": "string"
+				},
+				"de": {
+					"type": "string"
+				}
+			}
+		},
+		"energies": {
+			"description": "The list of energies that are available through this",
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		}
+	},
+	"required": [
+		"id",
+		"name"
+	]
+}

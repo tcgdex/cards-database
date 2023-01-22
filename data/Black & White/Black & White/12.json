@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Constant Rattle",
+				"fr": "Secousses Successives"
+			},
+			"effect": {
+				"en": "Flip 3 coins. If 1 of them is heads, this attack does 10 damage. If 2 of them are heads, this attack does 30 damage. If all of them are heads, this attack does 60 damage.",
+				"fr": "Lancez 3 pièces. Si vous obtenez un côté face, cette attaque inflige 10 dégâts. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts. Si vous obtenez seulement des côtés face, cette attaque inflige 60 dégâts."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Giga Drain",
+				"fr": "Giga-Sangsue"
+			},
+			"effect": {
+				"en": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				"fr": "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		556
+	],
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Maracamba",
+		"en": "Maractus",
+		"es": "Maractus",
+		"fr": "Maracachi",
+		"it": "Maractus",
+		"pt": "Maractus"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

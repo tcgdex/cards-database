@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Primal Scythe"
+			},
+			"effect": {
+				"en": "You may discard Helix Fossil, Dome Fossil, or Old Amber from your hand. If you do, this attack does 20 damage plus 50 more damage."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Slide"
+			},
+			"effect": {
+				"en": "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		141
+	],
+	"evolveFrom": {
+		"en": "Kabuto"
+	},
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Kabutops"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "pl4",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+30"
+		}
+	]
+}

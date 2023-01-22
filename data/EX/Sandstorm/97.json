@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyrdocutter",
+				"fr": "Hydro-lame"
+			},
+			"effect": {
+				"en": "Flip a number of coins equal to the amount of Energy attached to Kabutops ex. This attack does 40 damage times the number of heads. You can't flip more than 3 coins in this way.",
+				"fr": "Lancez autant de pièces qu'il y a de cartes Énergie attachées à Kabutops ex. Cette attaque inflige 40 dégâts multipliés par le nombre de face. Vous ne pouvez pas lancer plus de trois pièces."
+			},
+			"damage": "40×"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spiral Drain",
+				"fr": "Spirale épuisante"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Kabutops ex (remove 1 if there is only 1).",
+				"fr": "Retirez à Kabutops deux marqueurs de dégât (ou un s'il n'y en a qu'un)."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		141
+	],
+	"evolveFrom": {
+		"en": "Kabuto"
+	},
+	"hp": 150,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Kabutops ex",
+		"fr": "Kabutops ex"
+	},
+	"rarity": "Rare",
+	"set": "ex2",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		},
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

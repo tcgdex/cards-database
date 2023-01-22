@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 127,
+	"id": "pl1",
+	"name": {
+		"de": "Platin",
+		"en": "Platinum",
+		"es": "Platino",
+		"fr": "Platine",
+		"it": "Platino"
+	},
+	"releaseDate": "2009-02-11",
+	"serie": "pl",
+	"tcgOnline": "PL"
+}

@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Powerful Rage"
+			},
+			"damage": "20×",
+			"effect": {
+				"en": "This attack does 20 damage for each damage counter on this Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Earthquake"
+			},
+			"damage": 180,
+			"effect": {
+				"en": "This attack also does 30 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil."
+	},
+	"evolveFrom": {
+		"en": "Onix",
+		"fr": "Onix",
+		"es": "Onix",
+		"it": "Onix",
+		"pt": "Onix",
+		"de": "Onix"
+	},
+	"hp": 190,
+	"illustrator": "Ryuta Fuse",
+	"name": {
+		"de": "Stahlos",
+		"en": "Steelix",
+		"es": "Steelix",
+		"fr": "Steelix",
+		"it": "Steelix",
+		"pt": "Steelix"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

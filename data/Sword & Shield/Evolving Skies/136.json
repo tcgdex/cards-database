@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Whirlwind",
+				"fr": "Cyclone",
+				"es": "Remolino",
+				"it": "Turbine",
+				"pt": "Whirlwind",
+				"de": "Wirbelwind"
+			},
+			"effect": {
+				"en": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				"fr": "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
+				"es": "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				"it": "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				"pt": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				"de": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A combative Pokémon, it's ready to pick a fight with anyone. It has talons that can crush hard berries."
+	},
+	"dexId": [
+		627
+	],
+	"hp": 60,
+	"illustrator": "0313",
+	"name": {
+		"de": "Geronimatz",
+		"en": "Rufflet",
+		"es": "Rufflet",
+		"fr": "Furaiglon",
+		"it": "Rufflet",
+		"pt": "Rufflet"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

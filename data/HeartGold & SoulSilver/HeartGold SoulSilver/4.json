@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hydro Splash",
+				"fr": "Hydro-éclaboussure"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Beam",
+				"fr": "Ultralaser"
+			},
+			"effect": {
+				"en": "Discard an Energy card attached to the Defending Pokémon.",
+				"fr": "Défaussez-vous d’une carte Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
+	},
+	"dexId": [
+		130
+	],
+	"evolveFrom": {
+		"en": "Magikarp",
+		"fr": "Magicarpe"
+	},
+	"hp": 130,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Gyarados",
+		"fr": "Léviator"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

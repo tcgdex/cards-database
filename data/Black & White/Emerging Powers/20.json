@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		554
+	],
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Flampion",
+		"en": "Darumaka",
+		"es": "Darumaka",
+		"fr": "Darumarond",
+		"it": "Darumaka",
+		"pt": "Darumaka"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Cannon",
+				"fr": "Artillerie à O"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Energy card attached to Dark Omanyte. Don't apply Weakness and Resistance. You can't do more than 30 damage in this way.",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts pour chaque  carte Énergie attachée à Amonita obscur. N'appliquez ni la Faiblesse, ni la Résistance. Vous ne pouvez pas infliger plus de 30 dégâts de cette manière."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon antique possédait 10 tentacules, qu'il utilisait pour nager dans l'océan."
+	},
+	"dexId": [
+		138
+	],
+	"hp": 40,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Dark Omanyte",
+		"fr": "Amonita obscur"
+	},
+	"rarity": "Uncommon",
+	"set": "neo4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

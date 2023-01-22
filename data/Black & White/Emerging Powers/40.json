@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Toxic Claws",
+				"fr": "Griffes Toxiques"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wild Horn",
+				"fr": "Corne Sauvage"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		545
+	],
+	"evolveFrom": {
+		"en": "Whirlipede",
+		"fr": "Scobolide"
+	},
+	"hp": 140,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Cerapendra",
+		"en": "Scolipede",
+		"es": "Scolipede",
+		"fr": "Brutapode",
+		"it": "Scolipede",
+		"pt": "Scolipede"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw2",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Chaque joueur peut avoir 8 Pokémon sur son Banc.\n\n(Lorsque cette carte n'est plus en jeu, chaque joueur défausse des Pokémon de Banc jusqu'à en avoir 5 sur le Banc. Le propriétaire de cette carte défausse en premier.)",
+		"en": "Each player can have 8 Pokémon on his or her Bench.\n\n(When this card leaves play, each player discards Benched Pokémon until he or she has 5 Pokémon on the Bench. The owner of this card discards first.)",
+		"es": "Cada jugador puede tener 8 Pokémon en su Banca.",
+		"it": "Ciascun giocatore può avere otto Pokémon nella sua panchina.",
+		"pt": "Cada jogador pode ter 8 Pokémon no Banco.",
+		"de": "Jeder Spieler kann 8 Pokémon auf seiner Bank haben."
+	},
+	"illustrator": "Ayaka Yoshida",
+	"name": {
+		"de": "Himmelsfeld",
+		"en": "Sky Field",
+		"es": "Campo Celestial",
+		"fr": "Zone Aérienne",
+		"it": "Campo Aereo",
+		"pt": "Campo Celeste"
+	},
+	"rarity": "Uncommon",
+	"set": "xy6",
+	"trainerType": "Stadium"
+}

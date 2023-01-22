@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Rollout"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Light Punch"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering."
+	},
+	"hp": 80,
+	"illustrator": "OKACHEKE",
+	"name": {
+		"de": "Kleinstein",
+		"en": "Geodude",
+		"es": "Geodude",
+		"fr": "Racaillou",
+		"it": "Geodude",
+		"pt": "Geodude"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

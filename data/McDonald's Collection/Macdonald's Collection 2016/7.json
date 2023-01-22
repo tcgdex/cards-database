@@ -1,0 +1,22 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Corkscrew Punch"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling it skin up to its neck."
+	},
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Scraggy"
+	},
+	"rarity": "None",
+	"set": "2016xy",
+	"stage": "Basic"
+}

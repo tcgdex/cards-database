@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Recharge",
+				"fr": "Recharger"
+			},
+			"effect": {
+				"en": "Search your deck for a Lightning Energy card and attach it to Voltorb. Shuffle your deck afterward.",
+				"fr": "Choisissez dans votre deck une carte Énergie  et attachez-la à Voltorbe. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rolling Attack",
+				"fr": "Attaque qui roule"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		100
+	],
+	"hp": 40,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Voltorb",
+		"fr": "Voltorbe"
+	},
+	"rarity": "Common",
+	"set": "ex5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leech Life",
+				"fr": "Vampirisme"
+			},
+			"effect": {
+				"en": "Remove from Ariados the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				"fr": "Retirez de Migalos autant de marqueurs de dégâts que de dégâts que vous avez infligés au Pokémon Défenseur."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poisonous Saliva",
+				"fr": "Salive empoisonnée"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It spins string not only from its rear but also from its mouth. It’s hard to tell which end is which."
+	},
+	"dexId": [
+		168
+	],
+	"evolveFrom": {
+		"en": "Spinarak",
+		"fr": "Mimigal"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Ariados",
+		"fr": "Migalos"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

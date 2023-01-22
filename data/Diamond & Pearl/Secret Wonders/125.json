@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez dans votre deck n'importe quelle combinaison de jusqu'à 2 Pokémon de base et cartes Énergie de base, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck."
+	},
+	"illustrator": "Kanako Eo",
+	"name": {
+		"en": "Roseanne's Research",
+		"fr": "La recherche de Rose"
+	},
+	"rarity": "Uncommon",
+	"set": "dp3",
+	"trainerType": "Supporter"
+}

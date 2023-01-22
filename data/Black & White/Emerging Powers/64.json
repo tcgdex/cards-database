@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Knock Off",
+				"fr": "Sabotage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard a random card from your opponent's hand.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		509
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Felilou",
+		"en": "Purrloin",
+		"es": "Purrloin",
+		"fr": "Chacripan",
+		"it": "Purrloin",
+		"pt": "Purrloin"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

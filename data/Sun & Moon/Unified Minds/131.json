@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche",
+				"es": "Cuchillada",
+				"it": "Lacerazione",
+				"pt": "Talho",
+				"de": "Schlitzer"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		215
+	],
+	"hp": 70,
+	"illustrator": "sui",
+	"name": {
+		"de": "Sniebel",
+		"en": "Sneasel",
+		"es": "Sneasel",
+		"fr": "Farfuret",
+		"it": "Sneasel",
+		"pt": "Sneasel"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

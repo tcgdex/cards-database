@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Zzzt",
+				"fr": "Bzzz",
+				"es": "Bzzz",
+				"it": "Bzzz",
+				"pt": "Bzzz",
+				"de": "Piiieks"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Beat",
+				"fr": "Bataille",
+				"es": "Toque",
+				"it": "Battuta",
+				"pt": "Pulso",
+				"de": "Verprügler"
+			},
+			"damage": 20,
+			"cost": [
+				"Grass",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body."
+	},
+	"hp": 70,
+	"illustrator": "Kazuma Koda",
+	"name": {
+		"de": "Tuska",
+		"en": "Cacnea",
+		"es": "Cacnea",
+		"fr": "Cacnea",
+		"it": "Cacnea",
+		"pt": "Cacnea"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

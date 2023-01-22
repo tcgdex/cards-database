@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Push Down",
+				"fr": "Renverser"
+			},
+			"effect": {
+				"en": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Endeavor",
+				"fr": "Effort"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		449
+	],
+	"hp": 70,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Hippopotas",
+		"fr": "Hippopotas Niv. 31"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+10"
+		}
+	]
+}

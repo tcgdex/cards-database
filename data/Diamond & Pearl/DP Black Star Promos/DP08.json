@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hard Face",
+				"fr": "Visage dur"
+			},
+			"effect": {
+				"en": "During your opponents next turn, any damage done to Shieldon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				"fr": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Dinoclier par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shield Attack",
+				"fr": "Attaque de bouclier"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur."
+	},
+	"dexId": [
+		410
+	],
+	"evolveFrom": {
+		"en": "Armor Fossil"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Shieldon",
+		"fr": "Dinoclier"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"set": "dpp",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

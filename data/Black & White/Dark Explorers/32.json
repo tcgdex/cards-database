@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bubble Beam"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		536
+	],
+	"evolveFrom": {
+		"en": "Tympole"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Mebrana",
+		"en": "Palpitoad",
+		"es": "Palpitoad",
+		"fr": "Batracné",
+		"it": "Palpitoad",
+		"pt": "Palpitoad"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

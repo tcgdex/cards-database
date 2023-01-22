@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Rain Dance"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Water Pokémon. This power can't be used if Feraligatr is affected by a Special Condition."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Hydro Crunch"
+			},
+			"effect": {
+				"en": "Does 60 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		160
+	],
+	"evolveFrom": {
+		"en": "Croconaw"
+	},
+	"hp": 140,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Feraligatr"
+	},
+	"rarity": "Common",
+	"set": "hgssp",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

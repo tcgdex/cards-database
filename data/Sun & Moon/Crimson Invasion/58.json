@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Rear Kick",
+				"fr": "Ruade",
+				"es": "Patada Trasera",
+				"it": "Retrocalcio",
+				"pt": "Chute Traseiro",
+				"de": "Rückwärtskick"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Darkness Fang",
+				"fr": "Croc Obscur",
+				"es": "Colmillo de Oscuridad",
+				"it": "Oscurizanna",
+				"pt": "Presa Sombria",
+				"de": "Fänge der Dunkelheit"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		228
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Hunduster",
+		"en": "Houndour",
+		"es": "Houndour",
+		"fr": "Malosse",
+		"it": "Houndour",
+		"pt": "Houndour"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

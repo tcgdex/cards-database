@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Continuous Steps"
+			},
+			"damage": "30×",
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 30 damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+	},
+	"hp": 50,
+	"illustrator": "0313",
+	"name": {
+		"de": "Evoli",
+		"en": "Eevee",
+		"es": "Eevee",
+		"fr": "Évoli",
+		"it": "Eevee",
+		"pt": "Eevee"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Lick Away",
+				"fr": "Lèche-Lèche",
+				"es": "Lametazo",
+				"it": "Leccavia",
+				"pt": "Lamber para Longe",
+				"de": "Wegschlecken"
+			},
+			"effect": {
+				"en": "Remove all Special Conditions from this Pokémon.",
+				"fr": "Retirez tous les États Spéciaux de ce Pokémon.",
+				"es": "Elimina todas las Condiciones Especiales de este Pokémon.",
+				"it": "Rimuovi tutte le condizioni speciali da questo Pokémon.",
+				"pt": "Remova todas as Condições Especiais deste Pokémon.",
+				"de": "Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		684
+	],
+	"hp": 60,
+	"illustrator": "Satoshi Shirai",
+	"name": {
+		"de": "Flauschling",
+		"en": "Swirlix",
+		"es": "Swirlix",
+		"fr": "Sucroquin",
+		"it": "Swirlix",
+		"pt": "Swirlix"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy4",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

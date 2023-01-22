@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Annihilation Magnifique",
+				"en": "Amazing Destruction",
+				"es": "Destrucción Increíble",
+				"it": "Distruzione Policroma",
+				"pt": "Destruição Incrível",
+				"de": "Atemberaubende Zerstörung"
+			},
+			"effect": {
+				"fr": "Le Pokémon Actif de votre adversaire est mis K.O.",
+				"en": "Your opponent's Active Pokémon is Knocked Out.",
+				"es": "El Pokémon Activo de tu rival queda Fuera de Combate.",
+				"it": "Il Pokémon attivo del tuo avversario viene messo KO.",
+				"pt": "O Pokémon Ativo do seu oponente é Nocauteado.",
+				"de": "Das Aktive Pokémon deines Gegners ist kampfunfähig."
+			},
+			"cost": [
+				"Fire",
+				"Psychic",
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+	},
+	"hp": 110,
+	"illustrator": "Hasuno",
+	"name": {
+		"de": "Yveltal",
+		"en": "Yveltal",
+		"es": "Yveltal",
+		"fr": "Yveltal",
+		"it": "Yveltal",
+		"pt": "Yveltal"
+	},
+	"rarity": "Amazing",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 2,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

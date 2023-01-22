@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Jab",
+				"fr": "Taquet"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Special Punch",
+				"fr": "Punch Spécial"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu."
+	},
+	"dexId": [
+		107
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Hitmonchan",
+		"fr": "Tygnon"
+	},
+	"rarity": "Rare",
+	"set": "base1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

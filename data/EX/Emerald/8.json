@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Hypno Wave",
+				"fr": "Super hypnovague"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		350
+	],
+	"evolveFrom": {
+		"en": "Feebas"
+	},
+	"hp": 90,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Milotic",
+		"fr": "Milobellus"
+	},
+	"rarity": "Rare",
+	"set": "ex9",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

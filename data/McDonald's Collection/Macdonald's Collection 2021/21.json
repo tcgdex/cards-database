@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Pulse",
+				"fr": "Vibraqua"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
+	},
+	"dexId": [
+		501
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Oshawott",
+		"fr": "Moustillon"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "2021swsh",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"en": "Cosmog"
+	},
+	"rarity": "None",
+	"set": "2017sm",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

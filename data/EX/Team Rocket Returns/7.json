@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Brick Smash"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hard Bone"
+			},
+			"effect": {
+				"en": "Discard a Basic Pokémon or Evolution card from your hand or this attack does nothing."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		105
+	],
+	"evolveFrom": {
+		"en": "Cubone"
+	},
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Dark Marowak"
+	},
+	"rarity": "Rare",
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Fighting",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

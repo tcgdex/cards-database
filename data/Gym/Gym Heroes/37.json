@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Firebreathing"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Lava Burst"
+			},
+			"effect": {
+				"en": "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each Energy card you discarded in this way."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		126
+	],
+	"evolveFrom": {
+		"en": "Magby"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Blaine's Magmar"
+	},
+	"rarity": "Uncommon",
+	"set": "gym1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

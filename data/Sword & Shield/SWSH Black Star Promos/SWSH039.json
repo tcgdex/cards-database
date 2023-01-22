@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tail Whip",
+				"fr": "Mimi-Queue",
+				"es": "Látigo",
+				"pt": "Tail Whip",
+				"de": "Rutenschlag"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
+				"fr": "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
+				"es": "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
+				"pt": "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
+				"de": "Wirf 1 Münze. Bei Kopf kann sich das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht zurückziehen."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Pika Bolt",
+				"fr": "Pik'Éclair",
+				"es": "Rayo Pika",
+				"pt": "Pika Bolt",
+				"de": "Pikaschuss"
+			},
+			"damage": 50,
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+	},
+	"dexId": [
+		25
+	],
+	"hp": 60,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Pikachu",
+		"en": "Pikachu",
+		"es": "Pikachu",
+		"fr": "Pikachu",
+		"pt": "Pikachu"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

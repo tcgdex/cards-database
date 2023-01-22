@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Zap Cannon",
+				"fr": "Élecanon"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Zap Cannon during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		82
+	],
+	"evolveFrom": {
+		"en": "Magnemite",
+		"fr": "Magnéti"
+	},
+	"hp": 90,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Magneton",
+		"fr": "Magnéton"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sma",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

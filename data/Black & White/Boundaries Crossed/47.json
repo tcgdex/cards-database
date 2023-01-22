@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slicing Blade",
+				"fr": "Lame Tranchante"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hydro Pump",
+				"fr": "Hydrocanon"
+			},
+			"effect": {
+				"en": "Does 10 more damage for each Water Energy attached to this Pokémon.",
+				"fr": "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		647
+	],
+	"hp": 110,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Keldeo",
+		"en": "Keldeo",
+		"es": "Keldeo",
+		"fr": "Keldeo",
+		"it": "Keldeo",
+		"pt": "Keldeo"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

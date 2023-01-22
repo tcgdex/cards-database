@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse Vague"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		594
+	],
+	"hp": 100,
+	"illustrator": "sui",
+	"name": {
+		"de": "Mamolida",
+		"en": "Alomomola",
+		"es": "Alomomola",
+		"fr": "Mamanbo",
+		"it": "Alomomola",
+		"pt": "Alomomola"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

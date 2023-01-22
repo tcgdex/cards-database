@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Nap",
+				"fr": "Tit'sieste"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Wobbuffet.",
+				"fr": "Retirez à Qulbutoké 2 marqueurs de dégât."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Expand",
+				"fr": "Pousstoidla"
+			},
+			"effect": {
+				"en": "During your opponent’s next turn, any damage done to Wobbuffet is reduced by 20 (after applying Weakness and Resistance).",
+				"fr": "Lors du prochain tour de votre adversaire, les dégâts infligés à Qulbutoké sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		202
+	],
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Wobbuffet",
+		"fr": "Qulbutoké"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "pop4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic"
+		}
+	]
+}

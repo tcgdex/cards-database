@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		304
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Team Magma's Aron",
+		"fr": "Galekid de la Team Magma"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "dc1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

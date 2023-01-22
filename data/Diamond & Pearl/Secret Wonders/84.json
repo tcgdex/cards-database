@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rally",
+				"fr": "Regroupement"
+			},
+			"effect": {
+				"en": "Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				"fr": "Choisissez dans votre deck jusqu'à 3 types de Pokémon de base différents et placez-les sur votre Banc. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hook",
+				"fr": "Crochet"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		222
+	],
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Corsola",
+		"fr": "Corayon"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+20"
+		}
+	]
+}

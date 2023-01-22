@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Dazzle Dance",
+				"fr": "Danse éblouissante"
+			},
+			"effect": {
+				"en": "Each Defending Pokémon is now Confused.",
+				"fr": "Chaque Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Green Blast",
+				"fr": "Explosion verte"
+			},
+			"effect": {
+				"en": "Does 20 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
+				"fr": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à tous vos Pokémon."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		192
+	],
+	"evolveFrom": {
+		"en": "Sunkern"
+	},
+	"hp": 70,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Sunflora",
+		"fr": "Heliatronc"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-30"
+		}
+	],
+	"set": "ex10",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Deep Sleep",
+				"fr": "Gros dodo"
+			},
+			"effect": {
+				"en": "As long as Relicanth is your Active Pokémon, a player flips 2 coins for each of his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep.",
+				"fr": "Tant que Relicanth est votre Pokémon Actif, un Joueur lance 2 pièces entre deux tours pour chaque Pokémon Endormi qu'il possède. Si l'une des pièces est pile, le ou les Pokémon restent Endormis."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Yawn",
+				"fr": "Baillement"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		369
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Relicanth",
+		"fr": "Relicanth"
+	},
+	"rarity": "Rare",
+	"set": "ex5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

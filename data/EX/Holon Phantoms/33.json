@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Grind",
+				"fr": "Écrase"
+			},
+			"effect": {
+				"en": "Does 10 damage times the amount of Energy attached to Torkoal.",
+				"fr": "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Chartor."
+			},
+			"damage": "10×"
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		324
+	],
+	"hp": 80,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Torkoal",
+		"fr": "Chartor"
+	},
+	"rarity": "Rare",
+	"set": "ex13",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Sweet Scent",
+				"fr": "Doux Parfum",
+				"es": "Aroma dulce",
+				"it": "Profumino",
+				"pt": "Aroma Doce",
+				"de": "Lockduft"
+			},
+			"effect": {
+				"en": "Heal 20 damage from 1 of your Pokémon.",
+				"fr": "Soignez 20 dégâts à l'un de vos Pokémon.",
+				"es": "Cura 20 puntos de daño a 1 de tus Pokémon.",
+				"it": "Cura uno dei tuoi Pokémon da 20 danni.",
+				"pt": "Cure 20 de danos de 1 dos seus Pokémon.",
+				"de": "Heile 20 Schadenspunkte bei 1 deiner Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flop",
+				"fr": "Flop",
+				"es": "Vuelta",
+				"it": "Tonfo",
+				"pt": "Baque",
+				"de": "Plumps"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		682
+	],
+	"hp": 50,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Parfi",
+		"en": "Spritzee",
+		"es": "Spritzee",
+		"fr": "Fluvetin",
+		"it": "Spritzee",
+		"pt": "Spritzee"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy1",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

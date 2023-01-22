@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electro Beam"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard all Energy cards attached to Misty's Golduck."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Removal"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose 1 Energy card attached to each of your opponent's Pokémon that has any Energy cards and discard those Energy cards."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		55
+	],
+	"evolveFrom": {
+		"en": "Psyduck"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Misty's Golduck"
+	},
+	"rarity": "Rare",
+	"set": "gym2",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

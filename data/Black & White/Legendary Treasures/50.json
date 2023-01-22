@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Charge"
+			},
+			"effect": {
+				"en": "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Disaster Volt"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to this Pokémon."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		642
+	],
+	"hp": 110,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Thundurus"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

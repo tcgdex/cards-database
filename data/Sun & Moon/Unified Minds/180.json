@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cavernous Chomp",
+				"fr": "Mâchoire Caverneuse",
+				"es": "Mordisco Cavernoso",
+				"it": "Mandibola Cavernosa",
+				"pt": "Mastigada Cavernosa",
+				"de": "Riesiger Biss"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		734
+	],
+	"hp": 70,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Mangunior",
+		"en": "Yungoos",
+		"es": "Yungoos",
+		"fr": "Manglouton",
+		"it": "Yungoos",
+		"pt": "Yungoos"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

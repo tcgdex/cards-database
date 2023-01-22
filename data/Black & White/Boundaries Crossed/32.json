@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Dazzle Dance",
+				"fr": "Danse Éblouissante"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		54
+	],
+	"hp": 60,
+	"illustrator": "match",
+	"name": {
+		"de": "Enton",
+		"en": "Psyduck",
+		"es": "Psyduck",
+		"fr": "Psykokwak",
+		"it": "Psyduck",
+		"pt": "Psyduck"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

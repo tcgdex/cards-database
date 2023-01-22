@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Smog",
+				"fr": "Purédpois",
+				"es": "Polución",
+				"it": "Smog",
+				"pt": "Nevoeiro de Fumaça",
+				"de": "Smog"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. This process creates Salandit's poisonous gas."
+	},
+	"dexId": [
+		757
+	],
+	"hp": 70,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Molunk",
+		"en": "Salandit",
+		"es": "Salandit",
+		"fr": "Tritox",
+		"it": "Salandit",
+		"pt": "Salandit"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

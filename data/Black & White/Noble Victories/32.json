@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Icy Wind",
+				"fr": "Vent Glace"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Shard",
+				"fr": "Éclats Glace"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is a Fighting Pokémon, this attack does 40 more damage.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon Fighting, cette attaque inflige 40 dégâts supplémentaires."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		615
+	],
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Frigometri",
+		"en": "Cryogonal",
+		"es": "Cryogonal",
+		"fr": "Hexagel",
+		"it": "Cryogonal",
+		"pt": "Cryogonal"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

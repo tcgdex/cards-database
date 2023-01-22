@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Vine Whip",
+				"fr": "Fouet Lianes",
+				"es": "Látigo Cepa",
+				"it": "Frustata",
+				"pt": "Chicote de Vinha",
+				"de": "Rankenhieb"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leech Seed",
+				"fr": "Vampigraine",
+				"es": "Drenadoras",
+				"it": "Parassiseme",
+				"pt": "Semente Sanguessuga",
+				"de": "Egelsamen"
+			},
+			"effect": {
+				"en": "Heal 10 damage from this Pokémon.",
+				"fr": "Soignez 10 dégâts à ce Pokémon.",
+				"es": "Cura 10 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 10 danni.",
+				"pt": "Cure 10 de danos deste Pokémon.",
+				"de": "Heile 10 Schadenspunkte bei diesem Pokémon."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		511
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Vegimak",
+		"en": "Pansage",
+		"es": "Pansage",
+		"fr": "Feuillajou",
+		"it": "Pansage",
+		"pt": "Pansage"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

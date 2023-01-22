@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "I Choose You!",
+				"fr": "Je te choisis !"
+			},
+			"effect": {
+				"en": "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+				"fr": "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunderbolt",
+				"fr": "Tonnerre"
+			},
+			"effect": {
+				"en": "Discard all Energy from this Pokémon.",
+				"fr": "Défaussez toute l’Énergie de ce Pokémon."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 70,
+	"illustrator": "2017 Pikachu Project",
+	"name": {
+		"en": "Ash's Pikachu",
+		"fr": "Pikachu de Sacha"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

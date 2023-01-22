@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Countercharge",
+				"fr": "Contre-charge"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, move all damage counters from Wobbuffet to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, déplacez tous les marqueurs de dégât de Qulbutoké sur le Pokémon Défenseur."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il cherche désespérément à cacher sa queue noire. Certains pensent qu'elle renferme un secret."
+	},
+	"dexId": [
+		202
+	],
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Wobbuffet",
+		"fr": "Qulbutoké"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

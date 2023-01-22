@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic",
+				"es": "Picotazo",
+				"it": "Beccata",
+				"pt": "Bicada",
+				"de": "Schnabel"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		661
+	],
+	"hp": 40,
+	"illustrator": "TOKIYA",
+	"name": {
+		"de": "Dartiri",
+		"en": "Fletchling",
+		"es": "Fletchling",
+		"fr": "Passerouge",
+		"it": "Fletchling",
+		"pt": "Fletchling"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy11",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

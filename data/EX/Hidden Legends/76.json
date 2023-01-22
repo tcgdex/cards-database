@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Splash About",
+				"fr": "Grosse trempette"
+			},
+			"effect": {
+				"en": "If Surskit has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+				"fr": "Si Arakdo possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		283
+	],
+	"hp": 50,
+	"illustrator": "Toshinao Aoki",
+	"name": {
+		"en": "Surskit",
+		"fr": "Arakdo"
+	},
+	"rarity": "Common",
+	"set": "ex5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

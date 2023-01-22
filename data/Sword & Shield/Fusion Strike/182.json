@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Steel Wing"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slicing Blade"
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its body is draped in steel armor. It looks heavy, but it can fly at speeds of up to 185 miles an hour!"
+	},
+	"hp": 120,
+	"illustrator": "Megumi Higuchi",
+	"name": {
+		"de": "Panzaeron",
+		"en": "Skarmory",
+		"es": "Skarmory",
+		"fr": "Airmure",
+		"it": "Skarmory",
+		"pt": "Skarmory"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

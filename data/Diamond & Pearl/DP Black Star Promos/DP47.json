@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Dragon Spirit"
+			},
+			"effect": {
+				"en": "If Rayquaza  is your Active Pokémon and is damaged but not Knocked Out by an opponent's attack, you may search your discard pile for an Energy card and attach it to Rayquaza ."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Psychic",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Final Blowup"
+			},
+			"effect": {
+				"en": "Discard all Energy attached to Rayquaza . Ignore this effect if you have no cards in your hand."
+			},
+			"damage": 200
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		384
+	],
+	"hp": 120,
+	"name": {
+		"en": "Rayquaza C"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "dpp",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Force Palm",
+				"fr": "Forte-Paume"
+			},
+			"effect": {
+				"en": "Count the number of damage counters on Medicham. Put that many damage counters on 1 of your opponent's Pokémon.",
+				"fr": "Comptabilisez le nombre de marqueurs de dégât sur Charmina. Placez autant de marqueurs de dégât sur 1 des Pokémon de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spinning Kick",
+				"fr": "Coup tournant"
+			},
+			"effect": {
+				"en": "Medicham does 20 damage to itself.",
+				"fr": "Charmina s'inflige 20 dégâts."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il a développé son sixième sens grâce au yoga. Ses mouvements sont gracieux."
+	},
+	"dexId": [
+		308
+	],
+	"evolveFrom": {
+		"en": "Meditite",
+		"fr": "Meditikka"
+	},
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Medicham",
+		"fr": "Charmina"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

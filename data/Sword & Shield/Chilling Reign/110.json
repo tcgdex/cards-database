@@ -1,0 +1,86 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 50,
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Metal Claw",
+				"fr": "Griffe Acier",
+				"es": "Garra Metal",
+				"it": "Ferrartigli",
+				"pt": "Garra de Metal",
+				"de": "Metallklaue"
+			},
+			"damage": 90,
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders."
+	},
+	"evolveFrom": {
+		"en": "Aron",
+		"fr": "Galekid",
+		"es": "Aron",
+		"it": "Aron",
+		"pt": "Aron",
+		"de": "Stollunior"
+	},
+	"hp": 100,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Stollrak",
+		"en": "Lairon",
+		"es": "Lairon",
+		"fr": "Galegon",
+		"it": "Lairon",
+		"pt": "Lairon"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "swsh6",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

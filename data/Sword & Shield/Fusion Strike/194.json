@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Blue Assist"
+			},
+			"effect": {
+				"en": "Once during your turn, you may attach a Psychic Energy card from your hand to 1 of your Latias."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Luster Purge"
+			},
+			"damage": 210,
+			"effect": {
+				"en": "Discard 2 Energy from this Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting."
+	},
+	"hp": 130,
+	"illustrator": "hatachu",
+	"name": {
+		"de": "Latios",
+		"en": "Latios",
+		"es": "Latios",
+		"fr": "Latios",
+		"it": "Latios",
+		"pt": "Latios"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

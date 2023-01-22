@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 115,
+	"id": "ex10",
+	"name": {
+		"de": "EX Verborgene Mächte",
+		"en": "Unseen Forces",
+		"es": "EX Fuerzas Ocultas",
+		"fr": "EX Forces Cachées",
+		"it": "EX Forze Segrete",
+		"pt": "EX Forças Ocultas"
+	},
+	"releaseDate": "2005-08-22",
+	"serie": "ex",
+	"tcgOnline": "UF"
+}

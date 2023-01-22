@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est face, reprenez dans votre main 1 de vos Pokémon ainsi que toutes les cartes qui lui sont attachées."
+	},
+	"illustrator": "Shizurow",
+	"name": {
+		"en": "Super Scoop Up",
+		"fr": "Super rappel"
+	},
+	"rarity": "Uncommon",
+	"set": "dp1",
+	"trainerType": "Item"
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Quick Shooting"
+			},
+			"effect": {
+				"en": "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
+	},
+	"dexId": [
+		818
+	],
+	"evolveFrom": {
+		"en": "Drizzile"
+	},
+	"hp": 150,
+	"illustrator": "AKIRA EGAWA",
+	"name": {
+		"en": "Inteleon"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

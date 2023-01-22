@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Energy Stream",
+				"fr": "Courant d'énergie"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga.",
+				"fr": "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Dialga."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Diamond Blow",
+				"fr": "Coup diamant"
+			},
+			"effect": {
+				"en": "Dialga can't attack during your next turn.",
+				"fr": "Dialga ne peut pas attaquer lors de votre prochain tour."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		483
+	],
+	"hp": 100,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Dialga",
+		"fr": "Dialga"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+30"
+		}
+	]
+}

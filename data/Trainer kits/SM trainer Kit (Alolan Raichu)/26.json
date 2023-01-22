@@ -1,0 +1,32 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Togedemaru",
+		"en": "Togedemaru",
+		"es": "Togedemaru",
+		"fr": "Togedemaru",
+		"it": "Togedemaru",
+		"pt": "Togedemaru"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-sm-r",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

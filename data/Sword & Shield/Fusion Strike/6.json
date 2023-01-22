@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Counter"
+			},
+			"damage": "20+",
+			"effect": {
+				"en": "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mach Cross"
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"hp": 210,
+	"illustrator": "PLANETA Mochizuki",
+	"name": {
+		"de": "Kapilz V",
+		"en": "Breloom V",
+		"es": "Breloom V",
+		"fr": "Chapignon V",
+		"it": "Breloom V",
+		"pt": "Breloom V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

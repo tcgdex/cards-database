@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Une seule fois lors du tour de chaque joueur, le joueur peut lancer une pièce jusqu'à ce qu'il ou elle obtienne pile. Pour chaque face, ce joueur pioche une carte."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Speed Stadium",
+		"fr": "Stade Rapide"
+	},
+	"rarity": "Uncommon",
+	"set": "dp1",
+	"trainerType": "Stadium"
+}

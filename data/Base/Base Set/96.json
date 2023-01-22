@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Double Colorless Energy",
+		"fr": "Double Énergie Incolore"
+	},
+	"rarity": "Uncommon",
+	"set": "base1"
+}

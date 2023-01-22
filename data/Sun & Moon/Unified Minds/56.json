@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap",
+				"fr": "Queue Battoir",
+				"es": "Coletón",
+				"it": "Codabotta",
+				"pt": "Surra de Cauda",
+				"de": "Schweifvertrimmer"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electric Ball",
+				"fr": "Boule de Foudre",
+				"es": "Bola Eléctrica",
+				"it": "Lamposfera",
+				"pt": "Bola de Eletricidade",
+				"de": "Stromball"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 70,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Pikachu",
+		"en": "Pikachu",
+		"es": "Pikachu",
+		"fr": "Pikachu",
+		"it": "Pikachu",
+		"pt": "Pikachu"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

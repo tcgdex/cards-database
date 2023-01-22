@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Metal"
+			],
+			"name": {
+				"en": "Iron Crusher",
+				"fr": "Écrase Fer",
+				"es": "Triturahierros",
+				"it": "Schiacciata Ferrea",
+				"pt": "Esmagador de Ferro",
+				"de": "Eisenbeißer"
+			},
+			"effect": {
+				"en": "You may discard a Special Energy attached to your opponent's Active Pokémon or a Stadium card in play.",
+				"fr": "Vous pouvez défausser une carte Énergie spéciale attachée au Pokémon Actif de votre adversaire ou une carte Stade en jeu.",
+				"es": "Puedes descartar 1 Energía Especial unida al Pokémon Activo de tu rival o 1 carta de Estadio en juego.",
+				"it": "Puoi scartare una Energia speciale assegnata al Pokémon attivo del tuo avversario o una carta Stadio in gioco.",
+				"pt": "Você pode descartar uma Energia Especial ligada ao Pokémon Ativo do seu oponente ou um card de Estádio em jogo.",
+				"de": "Du kannst 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf dessen Ablagestapel oder 1 Stadionkarte im Spiel auf den Ablagestapel legen."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		212
+	],
+	"evolveFrom": {
+		"en": "Scizor-EX",
+		"fr": "Cizayox-EX",
+		"es": "Scizor-EX",
+		"it": "Scizor-EX",
+		"pt": "Scizor-EX",
+		"de": "Scherox-EX"
+	},
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "M-Scherox EX",
+		"en": "M Scizor EX",
+		"es": "M-Scizor EX",
+		"fr": "M-Cizayox EX",
+		"it": "M Scizor EX",
+		"pt": "M-Scizor EX"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xy9",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

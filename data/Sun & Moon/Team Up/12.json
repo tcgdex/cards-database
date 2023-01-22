@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche",
+				"es": "Ascuas",
+				"it": "Braciere",
+				"pt": "Brasa",
+				"de": "Glut"
+			},
+			"effect": {
+				"en": "Discard an Energy from this Pokémon.",
+				"fr": "Défaussez une Énergie de ce Pokémon.",
+				"es": "Descarta 1 Energía de este Pokémon.",
+				"it": "Scarta un’Energia assegnata a questo Pokémon.",
+				"pt": "Descarte 1 Energia deste Pokémon.",
+				"de": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		4
+	],
+	"hp": 70,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Glumanda",
+		"en": "Charmander",
+		"es": "Charmander",
+		"fr": "Salamèche",
+		"it": "Charmander",
+		"pt": "Charmander"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm9",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

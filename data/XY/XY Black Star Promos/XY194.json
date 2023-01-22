@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dark Cutter"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Abyssal Sleep"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep. Your opponent flips 2 coins instead of 1 between turns. If either of them is tails, that Pokémon is still Asleep."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		491
+	],
+	"hp": 110,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Darkrai"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Electric Punch"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Metal"
+			},
+			"effect": {
+				"en": "Flip a coin for each Metal Energy attached to Pikachu. This attack does 10 damage plus 20 more damage for each heads."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 40,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Pikachu δ"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pop5",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting"
+		}
+	]
+}

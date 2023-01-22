@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Hypnotic Gaze",
+				"fr": "Regard hypnotique"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Fade Out",
+				"fr": "Faiblir"
+			},
+			"effect": {
+				"en": "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)",
+				"fr": "Reprenez dans votre main Polychombr ainsi que toutes les cartes qui lui sont attachées. (Si vous ne possédez pas de Pokémon de Banc, cette attaque est sans effet.)"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		353
+	],
+	"hp": 50,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Shuppet",
+		"fr": "Polychombr"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+10"
+		}
+	]
+}

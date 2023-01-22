@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Klaps"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magical Shot",
+				"fr": "Coup Magique",
+				"es": "Disparo Mágico",
+				"it": "Magicolpo",
+				"pt": "Tiro Mágico",
+				"de": "Magischer Schuss"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"de": "Piepi",
+		"en": "Clefairy",
+		"es": "Clefairy",
+		"fr": "Mélofée",
+		"it": "Clefairy",
+		"pt": "Clefairy"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh9",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	]
+}

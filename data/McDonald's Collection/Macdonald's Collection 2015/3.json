@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"en": "Torchic"
+	},
+	"rarity": "None",
+	"set": "2015xy",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

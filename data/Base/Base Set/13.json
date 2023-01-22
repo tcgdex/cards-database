@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O"
+			},
+			"effect": {
+				"en": "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
+				"fr": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies  supplémentaires après la seconde ne comptent pas."
+			},
+			"damage": "30+"
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Whirlpool",
+				"fr": "Lessiveuse"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon has any Energy cards attached to it, choose 1 and discard it.",
+				"fr": "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique."
+	},
+	"dexId": [
+		62
+	],
+	"evolveFrom": {
+		"en": "Poliwhirl"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Poliwrath",
+		"fr": "Tartard"
+	},
+	"rarity": "Rare",
+	"set": "base1",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Shin-ichi Yoshikawa",
+	"name": {
+		"en": "Boost Energy",
+		"fr": "Énergie Super"
+	},
+	"rarity": "Uncommon",
+	"set": "ex15"
+}

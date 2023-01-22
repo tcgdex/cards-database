@@ -1,0 +1,81 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shocking Jaws",
+				"fr": "Mâchoires Choquantes",
+				"es": "Mandíbula Electrizante",
+				"it": "Mascellashock",
+				"pt": "Eletrochoque de Mandíbulas",
+				"de": "Elektrisierende Beißer"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electric Ball",
+				"fr": "Boule de Foudre",
+				"es": "Bola Eléctrica",
+				"it": "Lamposfera",
+				"pt": "Bola Elétrica",
+				"de": "Stromball"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		737
+	],
+	"evolveFrom": {
+		"en": "Grubbin",
+		"fr": "Larvibule"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Akkup",
+		"en": "Charjabug",
+		"es": "Charjabug",
+		"fr": "Chrysapile",
+		"it": "Charjabug",
+		"pt": "Charjabug"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "sm1",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

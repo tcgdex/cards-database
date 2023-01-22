@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder Wave"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Iron Tail"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 40,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Pikachu δ"
+	},
+	"rarity": "Common",
+	"set": "np",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

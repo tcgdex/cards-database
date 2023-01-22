@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hypnoblast",
+				"fr": "Hypnoblast"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mist Ball",
+				"fr": "Boule de brume"
+			},
+			"effect": {
+				"en": "Discard a Fire Energy and a Water Energy attached to Latias ex.",
+				"fr": "Défaussez une Énergie  et une Énergie  attachée à Latias ex."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		380
+	],
+	"hp": 90,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Latias ex",
+		"fr": "Latias ex"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		},
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "ex3",
+	"suffix": "EX",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

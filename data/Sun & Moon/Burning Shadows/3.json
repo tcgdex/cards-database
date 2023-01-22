@@ -1,0 +1,81 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Bye-Bye Heal",
+				"fr": "Soins et Adieux",
+				"es": "Adiós, Cura",
+				"it": "Addio Cura",
+				"pt": "Adeus Cura",
+				"de": "Bye-bye-Heilen"
+			},
+			"effect": {
+				"en": "Heal all damage from all of your Pokémon. Shuffle this Pokémon and all cards attached to it into your deck.",
+				"fr": "Soignez tous les dégâts de vos Pokémon. Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				"es": "Cura todos los puntos de daño a todos tus Pokémon. Pon este Pokémon y todas las cartas unidas a él en tu baraja y barájalas todas.",
+				"it": "Cura tutti i tuoi Pokémon da tutti i danni. Rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
+				"pt": "Cure todo o dano de todos os seus Pokémon. Embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho.",
+				"de": "Heile allen Schaden bei jedem deiner Pokémon. Mische dieses Pokémon und alle an es angelegten Karten in dein Deck."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stun Spore",
+				"fr": "Para-Spore",
+				"es": "Paralizador",
+				"it": "Paralizzante",
+				"pt": "Esporos Atordoantes",
+				"de": "Stachelspore"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		12
+	],
+	"evolveFrom": {
+		"en": "Metapod",
+		"fr": "Chrysacier"
+	},
+	"hp": 120,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Smettbo",
+		"en": "Butterfree",
+		"es": "Butterfree",
+		"fr": "Papilusion",
+		"it": "Butterfree",
+		"pt": "Butterfree"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "sm3",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

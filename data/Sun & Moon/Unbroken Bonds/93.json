@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Attack",
+				"fr": "Koud’Korne",
+				"es": "Cornada",
+				"it": "Incornata",
+				"pt": "Ataque de Chifre",
+				"de": "Hornattacke"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Boulder Crush",
+				"fr": "Rocher Écrasant",
+				"es": "Alud de Rocas",
+				"it": "Macignata",
+				"pt": "Rocha Esmagadora",
+				"de": "Felsenquetscher"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		111
+	],
+	"hp": 90,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Rihorn",
+		"en": "Rhyhorn",
+		"es": "Rhyhorn",
+		"fr": "Rhinocorne",
+		"it": "Rhyhorn",
+		"pt": "Rhyhorn"
+	},
+	"rarity": "Common",
+	"retreat": 4,
+	"set": "sm10",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

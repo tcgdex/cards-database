@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Poison Spray",
+				"fr": "Jet-venin"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Quand il vole, il émet des ondes ultrasoniques pour déterminer ce qui l'entoure."
+	},
+	"dexId": [
+		41
+	],
+	"hp": 40,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Zubat",
+		"fr": "Nosferapti"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "neo3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

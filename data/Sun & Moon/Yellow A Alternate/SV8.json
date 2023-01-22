@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Beacon",
+				"fr": "Flambeau"
+			},
+			"effect": {
+				"en": "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+				"fr": "Cherchez jusqu’à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icy Snow",
+				"fr": "Verglas"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		37
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Alolan Vulpix",
+		"fr": "Goupix d’Alola"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sma",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

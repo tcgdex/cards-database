@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Poison Jab",
+				"fr": "Direct Toxik"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sharp Tail",
+				"fr": "Queue tranchante"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 damage plus 40 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
+	},
+	"dexId": [
+		472
+	],
+	"evolveFrom": {
+		"en": "Gligar",
+		"fr": "Skorgla"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Gliscor",
+		"fr": "Scorvol"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

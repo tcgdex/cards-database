@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Negative Ion"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance)."
+			}
+		},
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Electrishower"
+			},
+			"effect": {
+				"en": "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		312
+	],
+	"hp": 60,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Minun",
+		"en": "Minun",
+		"es": "Minun",
+		"fr": "Négapi",
+		"it": "Minun",
+		"pt": "Minun"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

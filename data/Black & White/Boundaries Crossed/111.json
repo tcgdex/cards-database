@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Draw",
+				"fr": "Double Pioche"
+			},
+			"effect": {
+				"en": "Draw 2 cards.",
+				"fr": "Piochez 2 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Dig",
+				"fr": "Tunnel"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		206
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Dummisel",
+		"en": "Dunsparce",
+		"es": "Dunsparce",
+		"fr": "Insolourdo",
+		"it": "Dunsparce",
+		"pt": "Dunsparce"
+	},
+	"rarity": "Common",
+	"retreat": 0,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

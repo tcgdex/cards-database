@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Confuse Ray"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Junk Hunt"
+			},
+			"effect": {
+				"en": "Put 2 Item cards from your discard pile into your hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		302
+	],
+	"hp": 70,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Zobiris",
+		"en": "Sableye",
+		"es": "Sableye",
+		"fr": "Ténéfix",
+		"it": "Sableye",
+		"pt": "Sableye"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"en": "Swirlix"
+	},
+	"rarity": "None",
+	"set": "2014xy",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Nervous Seed"
+			},
+			"effect": {
+				"en": "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		709
+	],
+	"evolveFrom": {
+		"en": "Phantump"
+	},
+	"hp": 110,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Trevenant"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "xyp",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

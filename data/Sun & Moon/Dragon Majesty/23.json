@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sweep Away",
+				"fr": "Nettoyage",
+				"es": "Barrido",
+				"it": "Spazzare Via",
+				"pt": "Eliminação",
+				"de": "Wegfegen"
+			},
+			"effect": {
+				"en": "Discard the top 3 cards of your deck.",
+				"fr": "Défaussez les 3 cartes du dessus de votre deck.",
+				"es": "Descarta las 3 primeras cartas de tu baraja.",
+				"it": "Scarta le prime tre carte del tuo mazzo.",
+				"pt": "Descarte as 3 primeiras cartas do seu baralho.",
+				"de": "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		159
+	],
+	"evolveFrom": {
+		"en": "Totodile",
+		"fr": "Kaiminus"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Tyracroc",
+		"en": "Croconaw",
+		"es": "Croconaw",
+		"fr": "Crocrodil",
+		"it": "Croconaw",
+		"pt": "Croconaw"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm7.5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

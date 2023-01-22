@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche",
+				"es": "Ascuas",
+				"it": "Braciere",
+				"pt": "Brasa",
+				"de": "Glut"
+			},
+			"effect": {
+				"en": "Discard an Energy from this Pokémon.",
+				"fr": "Défaussez une Énergie de ce Pokémon.",
+				"es": "Descarta 1 Energía de este Pokémon.",
+				"it": "Scarta un'Energia da questo Pokémon.",
+				"pt": "Descarte 1 Energia deste Pokémon.",
+				"de": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
+	},
+	"dexId": [
+		813
+	],
+	"hp": 60,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Hopplo",
+		"en": "Scorbunny",
+		"es": "Scorbunny",
+		"fr": "Flambino",
+		"it": "Scorbunny",
+		"pt": "Scorbunny"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

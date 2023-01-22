@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Rainbow Wave"
+			},
+			"effect": {
+				"en": "Choose a type of Energy other than Colorless attached to Mew. This attack does 20 damage to each of your opponent's Pokémon of that type (including Benched Pokémon). Don't apply Weakness and Resistance."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		151
+	],
+	"hp": 30,
+	"illustrator": "Keiko Fukuyama",
+	"name": {
+		"en": "Mew"
+	},
+	"rarity": "Common",
+	"set": "si1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

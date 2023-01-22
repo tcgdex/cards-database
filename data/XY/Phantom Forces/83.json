@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Screaming Fit",
+				"fr": "Piquage de Crise",
+				"es": "Berrinche",
+				"it": "Capricci Sonori",
+				"pt": "Ataque Apavorante",
+				"de": "Schreianfall"
+			},
+			"effect": {
+				"en": "Both Active Pokémon are now Confused.",
+				"fr": "Les deux Pokémon Actifs sont maintenant Confus.",
+				"es": "Ambos Pokémon Activos pasan a estar Confundidos.",
+				"it": "Entrambi i Pokémon attivi vengono confusi.",
+				"pt": "Ambos os Pokémon Ativos agora estão Confusos.",
+				"de": "Beide Aktiven Pokémon sind jetzt verwirrt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		293
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Flurmel",
+		"en": "Whismur",
+		"es": "Whismur",
+		"fr": "Chuchmur",
+		"it": "Whismur",
+		"pt": "Whismur"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy4",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

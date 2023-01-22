@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "White Noise",
+				"fr": "Sommeil Profond"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Draining Cut",
+				"fr": "Vampitranche"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 40 damage times the number of heads. Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		402
+	],
+	"evolveFrom": {
+		"en": "Kricketot",
+		"fr": "Crikzik"
+	},
+	"hp": 90,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Zirpeise",
+		"en": "Kricketune",
+		"es": "Kricketune",
+		"fr": "Mélokrik",
+		"it": "Kricketune",
+		"pt": "Kricketune"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

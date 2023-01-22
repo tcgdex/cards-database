@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 6,
+	"id": "xya",
+	"name": {
+		"de": "Gelbes-A-Alternativkarten",
+		"en": "Yello A Alternate",
+		"es": "Cartas alternativas",
+		"fr": "carte alternative A Jaune",
+		"it": "Carta Alternatica A Gialla"
+	},
+	"releaseDate": "2014-02-05",
+	"serie": "xy"
+}

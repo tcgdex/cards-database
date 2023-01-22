@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Metal Sound",
+				"fr": "Strido-son"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Resonance",
+				"fr": "Résonance"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Confused, this attack does 20 damage plus 20 more damage.",
+				"fr": "Si le Pokémon Défenseur est Confus, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité."
+	},
+	"dexId": [
+		81
+	],
+	"hp": 50,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Magnemite",
+		"fr": "Magneti"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

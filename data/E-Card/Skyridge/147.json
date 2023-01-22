@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Crystal Type"
+			},
+			"effect": {
+				"en": "Whenever you attach a Grass, Fire, or Psychic basic Energy card from your hand to Crobat, Crobat's type (color) becomes the same as that type of energy until the end of the turn."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Flame"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Burned and Poisoned."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Squared Attack"
+			},
+			"effect": {
+				"en": "Flip 4 coins. This attack does 20 damage times the number of heads."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		169
+	],
+	"evolveFrom": {
+		"en": "Golbat"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Crobat"
+	},
+	"rarity": "Rare",
+	"set": "ecard3",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

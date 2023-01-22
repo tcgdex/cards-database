@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Knock Off",
+				"fr": "Sabotage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose 1 card from your opponent’s hand without looking and discard it.",
+				"fr": "Lancez une pièce. Si c'est face, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Nimble",
+				"fr": "Agilité"
+			},
+			"effect": {
+				"en": "If you have Turtwig in play, remove from Croagunk the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				"fr": "Si vous avez un Tortipouss en jeu, retirez à Cradopaud autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Inflating its poison sacs, it makes an eerie blubbering sound for intimidation.",
+		"fr": "Il émet un gargouillis étrange en gonflant ses glandes de poison pour intimider l'ennemi."
+	},
+	"dexId": [
+		453
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Croagunk",
+		"fr": "Cradopaud"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "pop9",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

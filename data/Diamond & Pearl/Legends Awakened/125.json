@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Crystal Barrier",
+				"fr": "Barrière de cristal"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Tentacool during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Tentacool lors du prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Mysterious Beam",
+				"fr": "Rayon mystérieux"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		72
+	],
+	"hp": 50,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Tentacool",
+		"fr": "Tentacool"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

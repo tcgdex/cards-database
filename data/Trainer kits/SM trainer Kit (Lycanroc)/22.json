@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Trumbeak",
+		"fr": "Piclairon",
+		"es": "Trumbeak",
+		"it": "Trumbeak",
+		"pt": "Trumbeak",
+		"de": "Trompeck"
+	},
+	"hp": 140,
+	"name": {
+		"de": "Tukanon",
+		"en": "Toucannon",
+		"es": "Toucannon",
+		"fr": "Bazoucan",
+		"it": "Toucannon",
+		"pt": "Toucannon"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "tk-sm-l",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

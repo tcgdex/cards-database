@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Beam",
+				"fr": "Laser Glace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quintuple Headbutt",
+				"fr": "Quintuple Coup d'Boule"
+			},
+			"effect": {
+				"en": "Flip 5 coins. This attack does 40 damage times the number of heads.",
+				"fr": "Lancez 5 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		221
+	],
+	"evolveFrom": {
+		"en": "Swinub",
+		"fr": "Marcacrin"
+	},
+	"hp": 100,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Keifel",
+		"en": "Piloswine",
+		"es": "Piloswine",
+		"fr": "Cochignon",
+		"it": "Piloswine",
+		"pt": "Piloswine"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

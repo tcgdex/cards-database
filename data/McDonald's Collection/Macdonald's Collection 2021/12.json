@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Fury Swipes",
+				"fr": "Super Roussi"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 10 damage for each heads.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+			},
+			"damage": "10×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick."
+	},
+	"dexId": [
+		391
+	],
+	"evolveFrom": {
+		"en": "Chimchar",
+		"fr": "Ouisticram"
+	},
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Chimchar",
+		"fr": "Chimpenfeu"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "2021swsh",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

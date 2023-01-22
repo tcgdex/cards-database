@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Beam",
+				"fr": "Laser glace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rear Kick",
+				"fr": "Ruade"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		428
+	],
+	"evolveFrom": {
+		"en": "Buneary",
+		"fr": "Laporeille"
+	},
+	"hp": 80,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"en": "Lopunny",
+		"fr": "Lockpin"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

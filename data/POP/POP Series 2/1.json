@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stomp"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fire Spin"
+			},
+			"effect": {
+				"en": "Discard 2 basic Energy cards attached to Entei or this attack does nothing."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		244
+	],
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Entei"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pop2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Kampf-Energie",
+		"en": "Fighting Energy",
+		"es": "Energía Lucha",
+		"fr": "Énergie Combat",
+		"it": "Energia Lotta",
+		"pt": "Energia de Luta"
+	},
+	"rarity": "Common",
+	"set": "tk-xy-latio"
+}

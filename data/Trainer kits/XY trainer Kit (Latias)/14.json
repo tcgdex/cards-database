@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Psychic Sphere"
+			},
+			"damage": 20
+		},
+		{
+			"name": {
+				"en": "Psychic Prism"
+			},
+			"damage": "60+",
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It can telepathically communicate with people. It changes its appearance using its down that refracts light."
+	},
+	"hp": 100,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Latias",
+		"en": "Latias",
+		"es": "Latias",
+		"fr": "Latias",
+		"it": "Latias",
+		"pt": "Latias"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "tk-xy-latia",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

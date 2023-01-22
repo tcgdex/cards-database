@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Hypnosis",
+				"fr": "Hypnose"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		686
+	],
+	"hp": 60,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"en": "Inkay",
+		"fr": "Sepiatop"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sma",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Acrobatics"
+			},
+			"damage": "10+",
+			"effect": {
+				"en": "Flip 2 coins. This attack does 10 more damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Despite the beauty of its lilting voice, it’s merciless to intruders that enter its territory."
+	},
+	"hp": 40,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Dartiri",
+		"en": "Fletchling",
+		"es": "Fletchling",
+		"fr": "Passerouge",
+		"it": "Fletchling",
+		"pt": "Fletchling"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-xy-p",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

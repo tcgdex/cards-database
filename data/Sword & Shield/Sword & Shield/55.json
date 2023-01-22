@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Klaps"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revólver d'Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
+	},
+	"dexId": [
+		816
+	],
+	"hp": 70,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Memmeon",
+		"en": "Sobble",
+		"es": "Sobble",
+		"fr": "Larméléon",
+		"it": "Sobble",
+		"pt": "Sobble"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

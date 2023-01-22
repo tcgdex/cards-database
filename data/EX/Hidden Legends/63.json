@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sleepy Song",
+				"fr": "Chanson berçante"
+			},
+			"effect": {
+				"en": "Each Defending Pokémon is now Asleep.",
+				"fr": "Chaque Pokémon Défenseur est maintenant Endormi."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		39
+	],
+	"hp": 50,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Jigglypuff",
+		"fr": "Rondoudou"
+	},
+	"rarity": "Common",
+	"set": "ex5",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Piochez 2 cartes. Ensuite, mélangez 2 cartes de votre main avec votre deck."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Mary",
+		"fr": "Lula"
+	},
+	"rarity": "Rare",
+	"set": "neo1"
+}

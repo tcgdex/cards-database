@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Speed",
+				"fr": "Super vitesse"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Spearow during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Piafabec lors du prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		21
+	],
+	"hp": 40,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"en": "Spearow",
+		"fr": "Piafabec"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

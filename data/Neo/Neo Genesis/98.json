@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est face, reprenez 1 de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Super Scoop Up",
+		"fr": "Super rappel"
+	},
+	"rarity": "Uncommon",
+	"set": "neo1"
+}

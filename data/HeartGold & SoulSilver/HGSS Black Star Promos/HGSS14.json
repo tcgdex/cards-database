@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Ferry"
+			},
+			"effect": {
+				"en": "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		131
+	],
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Lapras"
+	},
+	"rarity": "Common",
+	"set": "hgssp",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

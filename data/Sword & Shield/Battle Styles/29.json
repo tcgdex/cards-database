@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Searing Flame",
+				"fr": "Flammes Calcinantes",
+				"es": "Llama Abrasadora",
+				"it": "Fiamme Ustionanti",
+				"pt": "Chama Cauterizante",
+				"de": "Sengende Flammen"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Burned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				"it": "Il Pokémon attivo del tuo avversario viene bruciato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Queimado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			},
+			"damage": 20,
+			"cost": [
+				"Fire",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
+	},
+	"hp": 70,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Thermopod",
+		"en": "Sizzlipede",
+		"es": "Sizzlipede",
+		"fr": "Grillepattes",
+		"it": "Sizzlipede",
+		"pt": "Sizzlipede"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wing Attack",
+				"fr": "Cru-Aile"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		198
+	],
+	"hp": 70,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Kramurx",
+		"en": "Murkrow",
+		"es": "Murkrow",
+		"fr": "Cornèbre",
+		"it": "Murkrow",
+		"pt": "Murkrow"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw6",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

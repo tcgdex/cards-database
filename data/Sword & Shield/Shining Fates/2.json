@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Piqûre",
+				"en": "Bug Bite",
+				"es": "Picadura",
+				"it": "Coleomorso",
+				"pt": "Picada",
+				"de": "Käferbiss"
+			},
+			"damage": 30,
+			"cost": [
+				"Grass"
+			]
+		},
+		{
+			"name": {
+				"fr": "Descente en Piqué",
+				"en": "Nosedive",
+				"es": "Ataque en Picado",
+				"it": "Rapidiscesa",
+				"pt": "Mergulhar de Bico",
+				"de": "Sturzflugangriff"
+			},
+			"effect": {
+				"fr": "Ce Pokémon s'inflige aussi 30 dégâts.",
+				"en": "This Pokémon also does 30 damage to itself.",
+				"es": "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				"it": "Questo Pokémon infligge anche 30 danni a se stesso.",
+				"pt": "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				"de": "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			},
+			"damage": 120,
+			"cost": [
+				"Grass",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced."
+	},
+	"evolveFrom": {
+		"fr": "Yanma",
+		"en": "Yanma"
+	},
+	"hp": 120,
+	"illustrator": "Souichirou Gunjima",
+	"name": {
+		"de": "Yanmega",
+		"en": "Yanmega",
+		"es": "Yanmega",
+		"fr": "Yanmega",
+		"it": "Yanmega",
+		"pt": "Yanmega"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 0,
+	"set": "swsh4.5",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

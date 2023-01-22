@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Super Poison Breath",
+				"fr": "Super Haleine Empoisonnée",
+				"es": "Aliento Supervenenoso",
+				"it": "Super Velenospiro",
+				"pt": "Super-hálito Venenoso",
+				"de": "Super-Gifthauch"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras’Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Pfund"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		88
+	],
+	"hp": 80,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Alola-Sleima",
+		"en": "Alolan Grimer",
+		"es": "Grimer de Alola",
+		"fr": "Tadmorv d’Alola",
+		"it": "Grimer di Alola",
+		"pt": "Grimer de Alola"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "sm1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

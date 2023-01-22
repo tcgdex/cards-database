@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Live Coal",
+				"fr": "Charbon mutant"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon est un grand timide. Les flammes sur son dos s'intensifient lorsqu'il prend peur."
+	},
+	"dexId": [
+		155
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Cyndaquil",
+		"fr": "Héricendre"
+	},
+	"rarity": "Common",
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+10"
+		}
+	]
+}

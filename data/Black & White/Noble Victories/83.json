@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Devour",
+				"fr": "Voracité"
+			},
+			"effect": {
+				"en": "For each of your Durant in play, discard the top card of your opponent's deck.",
+				"fr": "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vice Grip",
+				"fr": "Force Poigne"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		632
+	],
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Fermicula",
+		"en": "Durant",
+		"es": "Durant",
+		"fr": "Fermite",
+		"it": "Durant",
+		"pt": "Durant"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

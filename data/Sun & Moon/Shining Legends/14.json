@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Outrage",
+				"fr": "Colère",
+				"es": "Enfado",
+				"it": "Oltraggio",
+				"pt": "Ultraje",
+				"de": "Wutanfall"
+			},
+			"effect": {
+				"en": "This attack does 10 more damage for each damage counter on this Pokémon.",
+				"fr": "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				"es": "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+				"it": "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+				"pt": "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+				"de": "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scorching Breath",
+				"fr": "Souffle Brûlant",
+				"es": "Aliento Ígneo",
+				"it": "Soffio Ustionante",
+				"pt": "Hálito Ardente",
+				"de": "Sengender Atem"
+			},
+			"effect": {
+				"en": "This Pokémon can’t attack during your next turn.",
+				"fr": "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				"es": "Este Pokémon no puede atacar durante tu próximo turno.",
+				"it": "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				"pt": "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				"de": "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		643
+	],
+	"hp": 130,
+	"illustrator": "TOKIYA",
+	"name": {
+		"de": "Reshiram",
+		"en": "Reshiram",
+		"es": "Reshiram",
+		"fr": "Reshiram",
+		"it": "Reshiram",
+		"pt": "Reshiram"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "sm3.5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Frozen Charm",
+				"fr": "Amulette Gelée"
+			},
+			"effect": {
+				"en": "Each of your Pokémon that has any Water Energy attached to it can't be Paralyzed. (If any of those Pokémon are Paralyzed, remove that Special Condition.)",
+				"fr": "Aucun de vos Pokémon auquel de l'Énergie Water est attachée ne peut être Paralysé. (Si l'un de ces Pokémon est déjà Paralysé, retirez cet État Spécial.)"
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crystal Breath"
+			},
+			"effect": {
+				"en": "This Pokémon can't attack during your next turn"
+			},
+			"damage": 160
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		699
+	],
+	"hp": 180,
+	"illustrator": "Toyste Beach",
+	"name": {
+		"en": "Aurorus EX",
+		"fr": "Dragmara EX"
+	},
+	"rarity": "None",
+	"retreat": 3,
+	"set": "xyp",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

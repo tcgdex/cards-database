@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shining Flame",
+				"fr": "Flamme Brillante"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Shining Flame during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour."
+			},
+			"damage": 160
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"fr": "Flamme Brillante"
+			},
+			"effect": {
+				"fr": "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour."
+			},
+			"damage": 160
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		250
+	],
+	"evolveFrom": {
+		"en": "Ho-Oh",
+		"fr": "Ho-Oh"
+	},
+	"hp": 150,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Ho-Oh BREAK",
+		"fr": "Ho-Oh TURBO"
+	},
+	"rarity": "None",
+	"retreat": 0,
+	"set": "xyp",
+	"stage": "BREAK",
+	"types": [
+		"Fire"
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Super Poison Breath"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Explosion"
+			},
+			"effect": {
+				"en": "Weezing does 90 damage to itself, and don't apply Weakness to this damage."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		110
+	],
+	"evolveFrom": {
+		"en": "Koffing"
+	},
+	"hp": 90,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Weezing"
+	},
+	"rarity": "Rare",
+	"set": "col1",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

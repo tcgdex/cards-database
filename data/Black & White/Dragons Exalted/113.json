@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Faites dés-évoluer 1 de vos Pokémon évolués et mettez sa carte Évolution de plus haut Niveau dans votre main. (Le Pokémon choisi ne peut pas évoluer pendant ce tour.)",
+		"en": "Devolve 1 of your evolved Pokémon and put the highest stage Evolution card on it into your hand. (That Pokémon can’t evolve this turn.)",
+		"es": "Involuciona a 1 de tus Pokémon evolucionados y pon la carta de Evolución de fase más alta que tenga sobre él en tu mano. (Ese Pokémon no puede evolucionar en este turno.)",
+		"it": "Annulla l’evoluzione di uno dei tuoi Pokémon evoluti e riprendi in mano la carta Evoluzione di Fase più alta. Quel Pokémon non può evolversi in questo turno.",
+		"pt": "Involui 1 dos seus Pokémon evoluídos e coloca o card de Evolução de Estágio mais alto em sua mão. (Esse Pokémon não pode evoluir desta vez.)",
+		"de": "Rückentwickle 1 deiner entwickelten Pokémon und nimm die höchste daraufliegende Evolutionskarte auf deine Hand. (Das Pokémon kann sich während dieses Zuges nicht entwickeln.)"
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Rückentwicklungsspray",
+		"en": "Devolution Spray",
+		"es": "Chorro de Devolución",
+		"fr": "Spray Dés-évoluant",
+		"it": "Getto di Involuzione",
+		"pt": "Spray da Involução"
+	},
+	"rarity": "Uncommon",
+	"set": "bw6",
+	"trainerType": "Item"
+}

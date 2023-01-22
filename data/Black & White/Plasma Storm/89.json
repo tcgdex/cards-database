@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Vice Grip",
+				"fr": "Force Poigne"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gear Smash",
+				"fr": "Méca-Fracas"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		600
+	],
+	"evolveFrom": {
+		"en": "Klink",
+		"fr": "Tic"
+	},
+	"hp": 80,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Kliklak",
+		"en": "Klang",
+		"es": "Klang",
+		"fr": "Clic",
+		"it": "Klang",
+		"pt": "Klang"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

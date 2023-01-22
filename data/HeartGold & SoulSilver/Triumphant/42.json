@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Eruption",
+				"fr": "Éruption"
+			},
+			"effect": {
+				"en": "Each player discards the top card of his or her deck. This attack does 20 damage times the number of Energy cards discarded in this way.",
+				"fr": "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie ainsi défaussées."
+			},
+			"damage": "20×"
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun."
+	},
+	"dexId": [
+		126
+	],
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Magmar",
+		"fr": "Magmar"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "hgss4",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

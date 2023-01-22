@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Stampede",
+				"fr": "Ruée",
+				"es": "Estampida",
+				"it": "Fuggi Fuggi",
+				"pt": "Estouro",
+				"de": "Zertrampeln"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strike Back",
+				"fr": "Vengeur",
+				"es": "Contraimpacto",
+				"it": "Risposta",
+				"pt": "Revidar",
+				"de": "Kontern"
+			},
+			"effect": {
+				"en": "This attack does 30 damage for each damage counter on this Pokémon.",
+				"fr": "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+				"es": "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
+				"it": "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon.",
+				"pt": "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
+				"de": "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
+	},
+	"hp": 70,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Phanpy",
+		"en": "Phanpy",
+		"es": "Phanpy",
+		"fr": "Phanpy",
+		"it": "Phanpy",
+		"pt": "Phanpy"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

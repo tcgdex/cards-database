@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc."
+	},
+	"illustrator": "Hiromichi Sugiyama",
+	"name": {
+		"en": "Switch",
+		"fr": "Échange"
+	},
+	"rarity": "Common",
+	"set": "ex15",
+	"trainerType": "Item"
+}

@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder Claws"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Luxray's ability to see through objects comes in handy when it's scouting for danger."
+	},
+	"evolveFrom": {
+		"en": "Luxio",
+		"fr": "Luxio",
+		"es": "Luxio",
+		"it": "Luxio",
+		"pt": "Luxio",
+		"de": "Luxio"
+	},
+	"hp": 160,
+	"illustrator": "Atsushi Furusawa",
+	"name": {
+		"de": "Luxtra",
+		"en": "Luxray",
+		"es": "Luxray",
+		"fr": "Luxray",
+		"it": "Luxray",
+		"pt": "Luxray"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 0,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

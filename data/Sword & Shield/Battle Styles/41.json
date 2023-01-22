@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Recover",
+				"fr": "Soin",
+				"es": "Recuperación",
+				"it": "Ripresa",
+				"pt": "Recuperação",
+				"de": "Genesung"
+			},
+			"effect": {
+				"en": "Discard an Energy from this Pokémon and heal all damage from it.",
+				"fr": "Défaussez une Énergie de ce Pokémon, puis soignez tous les dégâts de ce Pokémon.",
+				"es": "Descarta 1 Energía de este Pokémon y cura todos sus puntos de daño.",
+				"it": "Scarta un'Energia da questo Pokémon e curalo da tutti i danni.",
+				"pt": "Descarte 1 Energia deste Pokémon e cure todo o dano dele.",
+				"de": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel und heile bei ihm allen Schaden."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Rain Splash",
+				"fr": "Pluie Éclaboussante",
+				"es": "Golpe de Lluvia",
+				"it": "Spruzzapioggia",
+				"pt": "Chuva Borrifante",
+				"de": "Regenplatscher"
+			},
+			"damage": 10,
+			"cost": [
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
+	},
+	"hp": 80,
+	"illustrator": "miki kudo",
+	"name": {
+		"de": "Quabbel",
+		"en": "Frillish",
+		"es": "Frillish",
+		"fr": "Viskuse",
+		"it": "Frillish",
+		"pt": "Frillish"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

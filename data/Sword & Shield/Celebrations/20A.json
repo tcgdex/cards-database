@@ -1,0 +1,32 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Eeeeeeek"
+			},
+			"effect": {
+				"en": "Shuffle your hand into your deck, then draw 7 cards."
+			},
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
+	},
+	"hp": 30,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Cleffa"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 0,
+	"set": "cel25",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	]
+}

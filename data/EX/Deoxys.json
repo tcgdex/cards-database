@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 107,
+	"id": "ex8",
+	"name": {
+		"de": "EX Deoxys",
+		"en": "Deoxys",
+		"fr": "EX Deoxys",
+		"it": "EX Deoxys",
+		"pt": "EX Deoxys"
+	},
+	"releaseDate": "2005-02-01",
+	"serie": "ex",
+	"tcgOnline": "DX"
+}

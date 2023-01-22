@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Bonemerang",
+				"fr": "Osmerang"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "30×"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Call for Friend",
+				"fr": "À la rescousse !"
+			},
+			"effect": {
+				"en": "Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				"fr": "Cherchez dans votre deck une carte Pokémon  de base et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "L'os qu'il tient dans sa main est une arme. Il peut le lancer avec adresse pour assommer sa proie."
+	},
+	"dexId": [
+		105
+	],
+	"evolveFrom": {
+		"en": "Cubone"
+	},
+	"hp": 60,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Marowak",
+		"fr": "Ossatueur"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-30"
+		}
+	],
+	"set": "base2",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

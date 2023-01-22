@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Singe",
+				"fr": "Ça sent le roussi!"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		380
+	],
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Latias δ",
+		"fr": "Latias δ ESPÈCES DELTA"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		},
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex13",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

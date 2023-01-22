@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smash Punch",
+				"fr": "Boxe"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd."
+	},
+	"dexId": [
+		236
+	],
+	"hp": 30,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Tyrogue",
+		"fr": "Débugant"
+	},
+	"rarity": "Common",
+	"set": "neo2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	]
+}

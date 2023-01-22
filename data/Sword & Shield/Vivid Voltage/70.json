@@ -1,0 +1,90 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde Folie",
+				"es": "Rayo Confuso",
+				"it": "Stordiraggio",
+				"pt": "Raio da Confusão",
+				"de": "Konfusstrahl"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psypunch",
+				"fr": "Coup de Poing Psy",
+				"es": "Psicopuño",
+				"it": "Psicopugno",
+				"pt": "Soco Psíquico",
+				"de": "Psyhieb"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole."
+	},
+	"evolveFrom": {
+		"en": "Duskull",
+		"fr": "Skelénox",
+		"es": "Duskull",
+		"it": "Duskull",
+		"pt": "Duskull",
+		"de": "Zwirrlicht"
+	},
+	"hp": 90,
+	"illustrator": "Kazuma Koda",
+	"name": {
+		"de": "Zwirrklop",
+		"en": "Dusclops",
+		"es": "Dusclops",
+		"fr": "Téraclope",
+		"it": "Dusclops",
+		"pt": "Dusclops"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 2,
+	"set": "swsh4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

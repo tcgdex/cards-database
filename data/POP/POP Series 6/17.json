@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Razor Leaf"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes."
+	},
+	"dexId": [
+		387
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Turtwig"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pop6",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

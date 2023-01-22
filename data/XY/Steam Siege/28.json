@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Rain Splash",
+				"fr": "Pluie Éclaboussante",
+				"es": "Golpe de Lluvia",
+				"it": "Spruzzapioggia",
+				"pt": "Chuva Borrifante",
+				"de": "Regenplatscher"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		422
+	],
+	"hp": 70,
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"de": "Schalellos",
+		"en": "Shellos",
+		"es": "Shellos",
+		"fr": "Sancoki",
+		"it": "Shellos",
+		"pt": "Shellos"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy11",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

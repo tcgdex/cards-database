@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Snowy Present",
+				"fr": "Cadeau enneigé"
+			},
+			"effect": {
+				"en": "Draw a card for each Water Energy attached to all of your Pokémon.",
+				"fr": "Piochez une carte pour chaque carte Énergie Water attachée à l’ensemble de vos Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hail",
+				"fr": "Grêle"
+			},
+			"effect": {
+				"en": "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks."
+	},
+	"dexId": [
+		225
+	],
+	"hp": 70,
+	"illustrator": "sui",
+	"name": {
+		"en": "Delibird",
+		"fr": "Cadoizo"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Surrender Now"
+			},
+			"effect": {
+				"en": "Once during your turn, if this Pokémon is discarded with the effect of Jessie & James, you may have your opponent discard a card from their hand. (They discard that card after the effect of Jessie & James.)"
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Rendez-Vous Tous"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"fr": "Charge"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		110
+	],
+	"evolveFrom": {
+		"en": "Koffing",
+		"fr": "Smogo"
+	},
+	"hp": 120,
+	"illustrator": "Hideki Ishikawa",
+	"name": {
+		"en": "Weezing",
+		"fr": "Smogogo"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "sm115",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

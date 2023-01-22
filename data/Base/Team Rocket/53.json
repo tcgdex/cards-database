@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wrap",
+				"fr": "Ligotage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "La capture du premier Minidraco a inspiré la quêtre d'autres Pokémon légendaires."
+	},
+	"dexId": [
+		147
+	],
+	"hp": 40,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Dratini",
+		"fr": "Minidraco"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "base5",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	]
+}

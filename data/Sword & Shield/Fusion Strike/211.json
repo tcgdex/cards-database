@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Willful Busybody"
+			},
+			"effect": {
+				"en": "Your opponent reveals their hand. Choose a card you find there and put it on the bottom of their deck."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Slap"
+			},
+			"damage": "50×",
+			"effect": {
+				"en": "Flip 2 coins. This attack does 50 damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is highly popular among female Trainers for its sublime fur. It does not keep a nest."
+	},
+	"evolveFrom": {
+		"en": "Skitty",
+		"fr": "Skitty",
+		"es": "Skitty",
+		"it": "Skitty",
+		"pt": "Skitty",
+		"de": "Eneco"
+	},
+	"hp": 100,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Enekoro",
+		"en": "Delcatty",
+		"es": "Delcatty",
+		"fr": "Delcatty",
+		"it": "Delcatty",
+		"pt": "Delcatty"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

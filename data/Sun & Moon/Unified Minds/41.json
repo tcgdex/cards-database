@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Powder Snow",
+				"fr": "Poudreuse",
+				"es": "Nieve Polvo",
+				"it": "Polneve",
+				"pt": "Neve em Pó",
+				"de": "Pulverschnee"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		459
+	],
+	"hp": 90,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Shnebedeck",
+		"en": "Snover",
+		"es": "Snover",
+		"fr": "Blizzi",
+		"it": "Snover",
+		"pt": "Snover"
+	},
+	"rarity": "Common",
+	"retreat": 4,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Low Kick",
+				"fr": "Balayage"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Bebop Punch",
+				"fr": "Rythmofrappe"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent’s Pokémon. Flip a coin until you get tails. This attack does 50 damage times the number of heads to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez l’un des Pokémon de votre adversaire. Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige à ce Pokémon 50 dégâts multipliés par le nombre de côtés face. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If approached while asleep, it may awaken and angrily give chase in a groggy state of semi-sleep."
+	},
+	"dexId": [
+		57
+	],
+	"evolveFrom": {
+		"en": "Mankey",
+		"fr": "Férosinge"
+	},
+	"hp": 90,
+	"illustrator": "Sachiko Adachi",
+	"name": {
+		"en": "Primeape",
+		"fr": "Colossinge"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "hgss2",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe",
+				"es": "Arañazo",
+				"it": "Graffio",
+				"pt": "Arranhão",
+				"de": "Kratzer"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		54
+	],
+	"hp": 70,
+	"name": {
+		"de": "Enton",
+		"en": "Psyduck",
+		"es": "Psyduck",
+		"fr": "Psykokwak",
+		"it": "Psyduck",
+		"pt": "Psyduck"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

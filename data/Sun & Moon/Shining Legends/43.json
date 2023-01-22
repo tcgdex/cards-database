@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mega Punch",
+				"fr": "Ultimapoing",
+				"es": "Megapuño",
+				"it": "Megapugno",
+				"pt": "Megassoco",
+				"de": "Megahieb"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		622
+	],
+	"hp": 90,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Golbit",
+		"en": "Golett",
+		"es": "Golett",
+		"fr": "Gringolem",
+		"it": "Golett",
+		"pt": "Golett"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "sm3.5",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

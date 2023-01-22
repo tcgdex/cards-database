@@ -1,0 +1,94 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Taunt",
+				"fr": "Provoc",
+				"es": "Mofa",
+				"it": "Provocazione",
+				"pt": "Taunt",
+				"de": "Verhöhner"
+			},
+			"effect": {
+				"en": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+				"fr": "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+				"es": "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				"it": "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				"pt": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+				"de": "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Jet Bite",
+				"fr": "Impact Mordant",
+				"es": "Turbomordisco",
+				"it": "Morso Jet",
+				"pt": "Jet Bite",
+				"de": "Rasanter Biss"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				"es": "Durante tu próximo turno, este Pokémon no puede atacar.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				"pt": "During your next turn, this Pokémon can't attack.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			},
+			"damage": 120,
+			"cost": [
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
+	},
+	"dexId": [
+		319
+	],
+	"evolveFrom": {
+		"en": "Carvanha",
+		"fr": "Carvanha",
+		"es": "Carvanha",
+		"it": "Carvanha",
+		"pt": "Carvanha",
+		"de": "Kanivanha"
+	},
+	"hp": 120,
+	"illustrator": "Kazuma Koda",
+	"name": {
+		"de": "Tohaido",
+		"en": "Sharpedo",
+		"es": "Sharpedo",
+		"fr": "Sharpedo",
+		"it": "Sharpedo",
+		"pt": "Sharpedo"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

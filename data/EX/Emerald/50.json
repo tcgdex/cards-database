@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Arrow",
+				"fr": "Flèche d'eau"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		349
+	],
+	"hp": 30,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Feebas",
+		"fr": "Barpau"
+	},
+	"rarity": "Common",
+	"set": "ex9",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

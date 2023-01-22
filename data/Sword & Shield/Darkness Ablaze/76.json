@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade",
+				"es": "Rodar",
+				"it": "Rotolamento",
+				"pt": "Rolagem",
+				"de": "Walzer"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncement",
+				"es": "Martillear",
+				"it": "Martello",
+				"pt": "Martelada",
+				"de": "Einhämmern"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders."
+	},
+	"hp": 90,
+	"illustrator": "Ryuta Fuse",
+	"name": {
+		"de": "Golbit",
+		"en": "Golett",
+		"es": "Golett",
+		"fr": "Gringolem",
+		"it": "Golett",
+		"pt": "Golett"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 7,
+	"id": "wp",
+	"name": {
+		"en": "W Promotional",
+		"fr": "W Promotional",
+		"it": "Carte Promo Wizards"
+	},
+	"releaseDate": "1999-09-01",
+	"serie": "base"
+}

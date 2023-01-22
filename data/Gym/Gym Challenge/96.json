@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Lick"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Fade Out"
+			},
+			"effect": {
+				"en": "Return Sabrina's Gastly and all Energy cards attached to it to your hand. (Discard all other cards attached to Sabrina's Gastly.)"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		92
+	],
+	"hp": 30,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Sabrina's Gastly"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "gym2",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	]
+}

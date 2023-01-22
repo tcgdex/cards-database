@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic",
+				"es": "Picotazo",
+				"it": "Beccata",
+				"pt": "Bicada",
+				"de": "Schnabel"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		21
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Habitak",
+		"en": "Spearow",
+		"es": "Spearow",
+		"fr": "Piafabec",
+		"it": "Spearow",
+		"pt": "Spearow"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy6",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

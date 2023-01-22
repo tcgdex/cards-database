@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Punch",
+				"fr": "Koud'poing"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Meditate",
+				"fr": "Yoga"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				"fr": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		307
+	],
+	"evolveFrom": {
+		"en": "Meditite"
+	},
+	"hp": 50,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Meditite",
+		"fr": "Meditikka"
+	},
+	"rarity": "Uncommon",
+	"set": "ex3",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

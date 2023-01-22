@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Energy Stream",
+				"fr": "Courant d'Énergie"
+			},
+			"effect": {
+				"en": "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				"fr": "Attachez une carte Énergie Metal de votre pile de défausse à ce Pokémon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Scissors",
+				"fr": "Ciseaux d'Acier"
+			},
+			"effect": {
+				"en": "Does 20 more damage for each Metal Energy attached to this Pokémon.",
+				"fr": "Inflige 20 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		625
+	],
+	"evolveFrom": {
+		"en": "Pawniard",
+		"fr": "Scalpion"
+	},
+	"hp": 100,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Caesurio",
+		"en": "Bisharp",
+		"es": "Bisharp",
+		"fr": "Scalproie",
+		"it": "Bisharp",
+		"pt": "Bisharp"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

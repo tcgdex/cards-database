@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche"
+			},
+			"effect": {
+				"en": "Discard a Fire Energy attached to this Pokémon.",
+				"fr": "Défaussez une Énergie Fire attachée à ce Pokémon."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		126
+	],
+	"hp": 80,
+	"illustrator": "Hideki Ishikawa",
+	"name": {
+		"en": "Magmar",
+		"fr": "Magmar"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "g1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

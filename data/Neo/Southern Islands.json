@@ -1,0 +1,10 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 18,
+	"id": "si1",
+	"name": {
+		"en": "Southern Islands"
+	},
+	"releaseDate": "2001-07-31",
+	"serie": "neo"
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Shady Move",
+				"fr": "Déplacement louche"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), if Typhlosion is your Active Pokémon, you may move 1 damage counter from either player's Pokémon to another Pokémon (yours or your opponent's). This power can't be used if Typhlosion is affected by a Special Condition.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), si Typhlosion est votre Pokémon Actif, vous pouvez déplacer 1 marqueur de dégât d'1 Pokémon de n'importe quel joueur sur un autre Pokémon (les vôtres et ceux de votre adversaire). Ce pouvoir ne peut pas être utilisé si Typhlosion est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Burning Ball",
+				"fr": "Boule brûlante"
+			},
+			"effect": {
+				"en": "If Typhlosion has at least 2 Fire Energy attached to it, the Defending Pokémon is now Burned.",
+				"fr": "Si Typhlosion possède au moins 2 Énergies , le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		157
+	],
+	"evolveFrom": {
+		"en": "Quilava"
+	},
+	"hp": 100,
+	"illustrator": "Hisao Nakamura",
+	"name": {
+		"en": "Typhlosion δ",
+		"fr": "Typhlosion δ ESPÈCES DELTA"
+	},
+	"rarity": "Rare",
+	"set": "ex15",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

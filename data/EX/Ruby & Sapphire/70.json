@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Plus Energy",
+				"fr": "Énergie plus"
+			},
+			"effect": {
+				"en": "Attach a basic Energy card from your hand to 1 of your Pokémon.",
+				"fr": "Attachez une carte Énergie de base de votre main à un de vos Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		300
+	],
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Skitty",
+		"fr": "Skitty"
+	},
+	"rarity": "Common",
+	"set": "ex1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

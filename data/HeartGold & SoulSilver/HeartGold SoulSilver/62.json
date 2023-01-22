@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Sleep Inducer",
+				"fr": "Poussododo"
+			},
+			"effect": {
+				"en": "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon. The new Defending Pokémon is now Asleep.",
+				"fr": "Échangez le Pokémon Défenseur avec un Pokémon du Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gentle Slap",
+				"fr": "Gifle douce"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier."
+	},
+	"dexId": [
+		96
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Drowzee",
+		"fr": "Soporifik"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

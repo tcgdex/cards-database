@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Headbutt Bounce",
+				"fr": "Culbute Surprise",
+				"es": "Bote Cabezazo",
+				"it": "Rimbalzo Bottintesta",
+				"pt": "Cabeçada Ricochete",
+				"de": "Abrupter Kopfstoß"
+			},
+			"damage": 10,
+			"cost": [
+				"Psychic"
+			]
+		},
+		{
+			"name": {
+				"en": "Power Gem",
+				"fr": "Rayon Gemme",
+				"es": "Joya de Luz",
+				"it": "Gemmoforza",
+				"pt": "Gema Poderosa",
+				"de": "Juwelenkraft"
+			},
+			"damage": 30,
+			"cost": [
+				"Psychic",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+	},
+	"hp": 60,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Spoink",
+		"en": "Spoink",
+		"es": "Spoink",
+		"fr": "Spoink",
+		"it": "Spoink",
+		"pt": "Spoink"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

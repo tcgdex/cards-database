@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Both Active Pokémon are now Confused.",
+		"fr": "Les deux Pokémon Actifs sont maintenant Confus.",
+		"es": "Ambos Pokémon Activos pasan a estar Confundidos.",
+		"it": "Entrambi i Pokémon attivi vengono confusi.",
+		"pt": "Ambos os Pokémon Ativos agora estão Confusos.",
+		"de": "Beide Aktiven Pokémon sind jetzt verwirrt."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Yell-Tröte",
+		"en": "Yell Horn",
+		"es": "Trompeta Yell",
+		"fr": "Clairon de la Team Yell",
+		"it": "Trombetta Yell",
+		"pt": "Corneta da Equipe Yell"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"set": "swsh3",
+	"trainerType": "Item",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Bullet"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		558
+	],
+	"evolveFrom": {
+		"en": "Dwebble"
+	},
+	"hp": 110,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Castellith",
+		"en": "Crustle",
+		"es": "Crustle",
+		"fr": "Crabaraque",
+		"it": "Crustle",
+		"pt": "Crustle"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

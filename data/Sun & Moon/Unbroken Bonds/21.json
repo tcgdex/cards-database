@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Live Coal",
+				"fr": "Charbon Mutant",
+				"es": "Carbón Activado",
+				"it": "Carboni Ardenti",
+				"pt": "Carvão Vivo",
+				"de": "Glühende Kohlen"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise",
+				"es": "Combustión",
+				"it": "Fuoco Continuo",
+				"pt": "Combustão",
+				"de": "Glühen"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		58
+	],
+	"hp": 80,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Fukano",
+		"en": "Growlithe",
+		"es": "Growlithe",
+		"fr": "Caninos",
+		"it": "Growlithe",
+		"pt": "Growlithe"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm10",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

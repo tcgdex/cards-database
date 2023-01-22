@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": ""
+			},
+			"effect": {
+				"fr": "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Kyogre & Groudon LÉGENDE."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		382
+	],
+	"hp": 150,
+	"illustrator": "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	"name": {
+		"en": "Kyogre & Groudon LEGEND",
+		"fr": "Kyogre & Groudon LÉGENDE"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 0,
+	"set": "hgss3",
+	"stage": "Basic",
+	"suffix": "Legend",
+	"types": [
+		"Water",
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

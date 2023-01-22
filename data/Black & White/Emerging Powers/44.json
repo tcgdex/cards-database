@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Smack",
+				"fr": "Claque"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		574
+	],
+	"hp": 60,
+	"illustrator": "sui",
+	"name": {
+		"de": "Mollimorba",
+		"en": "Gothita",
+		"es": "Gothita",
+		"fr": "Scrutella",
+		"it": "Gothita",
+		"pt": "Gothita"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

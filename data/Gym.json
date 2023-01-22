@@ -1,0 +1,7 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "gym",
+	"name": {
+		"en": "Gym"
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Mud Sport",
+				"fr": "Lance-boue"
+			},
+			"effect": {
+				"en": "If Mudkip has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+				"fr": "Si Gobou possède moins d'Énergie que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		258
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Mudkip",
+		"fr": "Gobou"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+10"
+		}
+	]
+}

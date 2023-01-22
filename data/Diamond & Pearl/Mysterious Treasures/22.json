@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call In",
+				"fr": "Faire appel"
+			},
+			"effect": {
+				"en": "Draw a card. If Chingling is anywhere under Chimecho, draw 2 more cards.",
+				"fr": "Piochez une carte. Si Korillon se trouve sous Éoko, piochez 2 cartes supplémentaires."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Strange Bell",
+				"fr": "Cloche étrange"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is a Basic Pokémon, that Pokémon is now Confused.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon de base, il est maintenant Confus."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son langage comporte sept cris. Il les utilise pour faire vibrer l'air et projeter son ennemi."
+	},
+	"dexId": [
+		358
+	],
+	"hp": 70,
+	"illustrator": "Daisuke Ito",
+	"name": {
+		"en": "Chimecho",
+		"fr": "Éoko"
+	},
+	"rarity": "Rare",
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

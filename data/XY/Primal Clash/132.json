@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient Primo-Kyogre-EX.",
+		"en": "Your turn does not end if the Pokémon this card is attached to becomes Primal Kyogre-EX.",
+		"es": "Tu turno no termina si el Pokémon al que está unida esta carta se convierte en Kyogre Primigenio-EX.",
+		"it": "Il tuo turno non finisce se il Pokémon a cui è assegnata questa carta diventa Archeo Kyogre-EX.",
+		"pt": "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se Kyogre Primitivo-EX.",
+		"de": "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu Proto-Kyogre-EX wird."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Kyogres Geistesbund",
+		"en": "Kyogre Spirit Link",
+		"es": "Vínculo Espiritual de Kyogre",
+		"fr": "Lien Spirituel Kyogre",
+		"it": "Legame Mentale con Kyogre",
+		"pt": "Elo Espiritual de Kyogre"
+	},
+	"rarity": "Uncommon",
+	"set": "xy5",
+	"trainerType": "Tool"
+}

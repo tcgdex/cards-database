@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stomp Off",
+				"fr": "Tohu-Bohu",
+				"es": "Pisotear",
+				"it": "Pestatura",
+				"pt": "Sair Irritado",
+				"de": "Davonstapfen"
+			},
+			"effect": {
+				"en": "Discard the top 2 cards of your opponent's deck.",
+				"fr": "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+				"es": "Descarta las 2 primeras cartas de la baraja de tu rival.",
+				"it": "Scarta le prime due carte del mazzo del tuo avversario.",
+				"pt": "Descarte as 2 cartas de cima do baralho do seu oponente.",
+				"de": "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Land Crush",
+				"fr": "Écras'Terre",
+				"es": "Aterrizaje",
+				"it": "Schiacciaterra",
+				"pt": "Aperto de Terra",
+				"de": "Schollenbrecher"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles."
+	},
+	"dexId": [
+		111
+	],
+	"hp": 90,
+	"illustrator": "sui",
+	"name": {
+		"de": "Rihorn",
+		"en": "Rhyhorn",
+		"es": "Rhyhorn",
+		"fr": "Rhinocorne",
+		"it": "Rhyhorn",
+		"pt": "Rhyhorn"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

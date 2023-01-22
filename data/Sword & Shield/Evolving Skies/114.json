@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure",
+				"es": "Mordisco",
+				"it": "Morso",
+				"pt": "Bite",
+				"de": "Biss"
+			},
+			"damage": 40,
+			"cost": [
+				"Psychic",
+				"Darkness"
+			]
+		},
+		{
+			"name": {
+				"en": "Dragon Headbutt",
+				"fr": "Dracoud'Boule",
+				"es": "Cabezazo Dragón",
+				"it": "Dragozuccata",
+				"pt": "Dragon Headbutt",
+				"de": "Drachen-Kopfnuss"
+			},
+			"damage": 100,
+			"cost": [
+				"Psychic",
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others."
+	},
+	"dexId": [
+		634
+	],
+	"evolveFrom": {
+		"en": "Deino",
+		"fr": "Solochi",
+		"es": "Deino",
+		"it": "Deino",
+		"pt": "Deino",
+		"de": "Kapuno"
+	},
+	"hp": 100,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Duodino",
+		"en": "Zweilous",
+		"es": "Zweilous",
+		"fr": "Diamat",
+		"it": "Zweilous",
+		"pt": "Zweilous"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh7",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

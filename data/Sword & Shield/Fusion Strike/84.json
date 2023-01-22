@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Find Ice"
+			},
+			"effect": {
+				"en": "Search your deck for up to 2 Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow."
+	},
+	"hp": 40,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Snomnom",
+		"en": "Snom",
+		"es": "Snom",
+		"fr": "Frissonille",
+		"it": "Snom",
+		"pt": "Snom"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

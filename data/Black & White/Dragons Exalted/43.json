@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Energy Crush",
+				"fr": "Écras'Énergie"
+			},
+			"effect": {
+				"en": "Does 20 damage times the amount of Energy attached to all of your opponent's Pokémon.",
+				"fr": "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous les Pokémon de votre adversaire."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flash Impact",
+				"fr": "Impact-Flash"
+			},
+			"effect": {
+				"en": "Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 20 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		310
+	],
+	"evolveFrom": {
+		"en": "Electrike",
+		"fr": "Dynavolt"
+	},
+	"hp": 90,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Voltenso",
+		"en": "Manectric",
+		"es": "Manectric",
+		"fr": "Élecsprint",
+		"it": "Manectric",
+		"pt": "Manectric"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

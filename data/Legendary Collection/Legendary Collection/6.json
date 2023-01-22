@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Fascinate"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Claws"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		53
+	],
+	"evolveFrom": {
+		"en": "Meowth"
+	},
+	"hp": 60,
+	"illustrator": "Shin-ichi Yoshida",
+	"name": {
+		"en": "Dark Persian"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "lc",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

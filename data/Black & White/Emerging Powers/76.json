@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Charge Beam",
+				"fr": "Rayon Chargé"
+			},
+			"effect": {
+				"en": "Attach an Energy card from your discard pile to this Pokémon.",
+				"fr": "Attachez une carte Énergie de votre pile de défausse à ce Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Zap Cannon",
+				"fr": "Élecanon"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this Pokémon can't use Zap Cannon during your next turn.",
+				"fr": "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		601
+	],
+	"evolveFrom": {
+		"en": "Klang",
+		"fr": "Clic"
+	},
+	"hp": 150,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Klikdiklak",
+		"en": "Klinklang",
+		"es": "Klinklang",
+		"fr": "Cliticlic",
+		"it": "Klinklang",
+		"pt": "Klinklang"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "bw2",
+	"stage": "Stage2",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

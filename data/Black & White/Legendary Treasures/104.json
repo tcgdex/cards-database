@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call for Family"
+			},
+			"effect": {
+				"en": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Smack"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		572
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Minccino"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

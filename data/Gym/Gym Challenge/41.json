@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Relaxing Scent"
+			},
+			"effect": {
+				"en": "As long as Erika's Ivysaur is your Active Pokémon, whenever an attack (even your own) does damage to any Pokémon (after applying Weakness and Resistance), that attack only does half the damage to that Pokémon (rounded up to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Erika's Ivysaur is Asleep, Confused, or Paralyzed."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Double Razor Leaf"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 40 damage times the number of heads."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		2
+	],
+	"evolveFrom": {
+		"en": "Bulbasaur"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Erika's Ivysaur"
+	},
+	"rarity": "Uncommon",
+	"set": "gym2",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

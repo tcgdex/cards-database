@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Poison Gas"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sludge Whirlpool"
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly."
+	},
+	"evolveFrom": {
+		"en": "Trubbish",
+		"fr": "Miamiasme",
+		"es": "Trubbish",
+		"it": "Trubbish",
+		"pt": "Trubbish",
+		"de": "Unratütox"
+	},
+	"hp": 120,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Deponitox",
+		"en": "Garbodor",
+		"es": "Garbodor",
+		"fr": "Miasmax",
+		"it": "Garbodor",
+		"pt": "Garbodor"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

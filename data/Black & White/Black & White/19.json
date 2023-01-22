@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Crash",
+				"fr": "Tacle Feu"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare Blitz",
+				"fr": "Boutefeu"
+			},
+			"effect": {
+				"en": "Discard all Fire Energy attached to this Pokémon.",
+				"fr": "Défaussez toutes les Énergies Fire attachées à ce Pokémon."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		500
+	],
+	"evolveFrom": {
+		"en": "Pignite",
+		"fr": "Grotichon"
+	},
+	"hp": 150,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Flambirex",
+		"en": "Emboar",
+		"es": "Emboar",
+		"fr": "Roitiflam",
+		"it": "Emboar",
+		"pt": "Emboar"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bw1",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

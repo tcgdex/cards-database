@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Firefighting",
+				"fr": "Anti-Flammes"
+			},
+			"effect": {
+				"en": "Discard a Fire Energy attached to the Defending Pokémon.",
+				"fr": "Défaussez une Énergie Fire attachée au Pokémon Défenseur."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		54
+	],
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Enton",
+		"en": "Psyduck",
+		"es": "Psyduck",
+		"fr": "Psykokwak",
+		"it": "Psyduck",
+		"pt": "Psyduck"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

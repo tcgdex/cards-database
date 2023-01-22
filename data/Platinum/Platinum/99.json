@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Focus Energy",
+				"fr": "Puissance"
+			},
+			"effect": {
+				"en": "During your next turn, Torchic's Fire Shard attack's base damage is 80.",
+				"fr": "Lors de votre prochain tour, les dégâts de base de l'attaque Écharde de feu de Poussifeu sont de 80."
+			}
+		},
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Shard",
+				"fr": "Écharde de feu"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		255
+	],
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Torchic",
+		"fr": "Poussifeu"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+10"
+		}
+	]
+}

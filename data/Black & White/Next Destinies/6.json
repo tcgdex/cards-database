@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Seed Bomb",
+				"fr": "Canon Graine"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		511
+	],
+	"hp": 70,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"de": "Vegimak",
+		"en": "Pansage",
+		"es": "Pansage",
+		"fr": "Feuillajou",
+		"it": "Pansage",
+		"pt": "Pansage"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

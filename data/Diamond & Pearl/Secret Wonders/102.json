@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smack",
+				"fr": "Claque"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde folie"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		280
+	],
+	"hp": 60,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Ralts",
+		"fr": "Tarsal"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

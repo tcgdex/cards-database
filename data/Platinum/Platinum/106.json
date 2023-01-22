@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lorsqu'1 des joueurs joue un Pokémon de sa main pour faire évoluer son Pokémon, placez 2 marqueurs de dégât sur ce Pokémon."
+	},
+	"illustrator": "Ryota Saito",
+	"name": {
+		"en": "Galactic HQ",
+		"fr": "QG Galaxie"
+	},
+	"rarity": "Uncommon",
+	"set": "pl1",
+	"trainerType": "Stadium"
+}

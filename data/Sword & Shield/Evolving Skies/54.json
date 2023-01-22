@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Rear Kick",
+				"fr": "Ruade",
+				"es": "Patada Trasera",
+				"it": "Retrocalcio",
+				"pt": "Rear Kick",
+				"de": "Rückwärtskick"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Electro Ball",
+				"fr": "Boule Élek",
+				"es": "Bola Voltio",
+				"it": "Energisfera",
+				"pt": "Electro Ball",
+				"de": "Elektroball"
+			},
+			"damage": 30,
+			"cost": [
+				"Lightning",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
+	},
+	"dexId": [
+		179
+	],
+	"hp": 60,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Voltilamm",
+		"en": "Mareep",
+		"es": "Mareep",
+		"fr": "Wattouat",
+		"it": "Mareep",
+		"pt": "Mareep"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

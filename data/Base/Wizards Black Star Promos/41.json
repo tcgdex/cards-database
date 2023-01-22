@@ -1,0 +1,9 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"name": {
+		"en": "Lucky Stadium"
+	},
+	"rarity": "Common",
+	"set": "basep"
+}

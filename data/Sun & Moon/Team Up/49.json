@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras’Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Pfund"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Static Shock",
+				"fr": "Choc Statique",
+				"es": "Impacto Estático",
+				"it": "Shock Statico",
+				"pt": "Choque de Estática",
+				"de": "Statischer Schock"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		694
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Eguana",
+		"en": "Helioptile",
+		"es": "Helioptile",
+		"fr": "Galvaran",
+		"it": "Helioptile",
+		"pt": "Helioptile"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm9",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Flare",
+				"fr": "Intimidation"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flamethrower",
+				"fr": "Lance-flamme"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to Magmar.",
+				"fr": "Défaussez une Énergie attachée à Magmar."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est né au milieu d'un volcan. Son corps est couvert de flammes qui flambent comme un soleil."
+	},
+	"dexId": [
+		126
+	],
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Magmar",
+		"fr": "Magmar"
+	},
+	"rarity": "Uncommon",
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

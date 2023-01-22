@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dream Catcher",
+				"fr": "Attrap'rêve"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Asleep, move all damage counters from Hypno to the Defending Pokémon.",
+				"fr": "Si le Pokémon Défenseur est Endormi, déplacez tous les marqueurs de dégât d'Hypnomade sur le Pokémon Défenseur."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hypnoblast",
+				"fr": "Hypnoblast"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		97
+	],
+	"evolveFrom": {
+		"en": "Drowzee",
+		"fr": "Soporifik"
+	},
+	"hp": 80,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Hypno",
+		"fr": "Hypnomade"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

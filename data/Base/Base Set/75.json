@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Vous révélez votre main ainsi que votre adversaire, puis mélangez toutes les cartes Dresseur de vos mains dans vos decks respectifs."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Lass",
+		"fr": "Fillette"
+	},
+	"rarity": "Rare",
+	"set": "base1"
+}

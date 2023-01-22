@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Fire Energy",
+		"fr": "Énergie Feu"
+	},
+	"rarity": "Common",
+	"set": "ecard1",
+	"stage": "Basic"
+}

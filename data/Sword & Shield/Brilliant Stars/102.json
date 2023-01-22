@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Vise Grip",
+				"fr": "Force Poigne",
+				"es": "Agarre",
+				"it": "Presa",
+				"pt": "Agarramento Compressor",
+				"de": "Klammer"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spinning Attack",
+				"fr": "Attaque Tournante",
+				"es": "Ataque Giratorio",
+				"it": "Attacco Rotante",
+				"pt": "Ataque Giratório",
+				"de": "Rundumangriff"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"hp": 50,
+	"name": {
+		"de": "Klikk",
+		"en": "Klink",
+		"es": "Klink",
+		"fr": "Tic",
+		"it": "Klink",
+		"pt": "Klink"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh9",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Delivery",
+				"fr": "Livraison"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, put any 1 card from your discard pile into your hand.",
+				"fr": "Lancez une pièce. Si c'est face, placez dans votre main n'importe quelle carte de votre pile de défausse."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Reaction",
+				"fr": "Réagir"
+			},
+			"effect": {
+				"en": "Switch Drifloon with 1 of your Benched Pokémon.",
+				"fr": "Échangez Baudrive avec 1 des Pokémon de votre Banc."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		425
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Drifloon",
+		"fr": "Baudrive"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp5",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+10"
+		}
+	]
+}

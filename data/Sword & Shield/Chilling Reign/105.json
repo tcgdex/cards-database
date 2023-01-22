@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Poison Sting",
+				"fr": "Dard-Venin",
+				"es": "Picotazo Veneno",
+				"it": "Velenospina",
+				"pt": "Ferrão Venenoso",
+				"de": "Giftstachel"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			},
+			"damage": 10,
+			"cost": [
+				"Darkness"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
+	},
+	"hp": 70,
+	"illustrator": "Oswaldo KATO",
+	"name": {
+		"de": "Toxiped",
+		"en": "Venipede",
+		"es": "Venipede",
+		"fr": "Venipatte",
+		"it": "Venipede",
+		"pt": "Venipede"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

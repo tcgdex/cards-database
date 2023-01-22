@@ -1,0 +1,85 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Poison Sting",
+				"fr": "Dard-Venin",
+				"es": "Picotazo Veneno",
+				"it": "Velenospina",
+				"pt": "Ferrão Venenoso",
+				"de": "Giftstachel"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			},
+			"damage": 20,
+			"cost": [
+				"Darkness"
+			]
+		},
+		{
+			"name": {
+				"en": "Rolling Tackle",
+				"fr": "Roulé-Boulé",
+				"es": "Placaje Giro",
+				"it": "Rollazione",
+				"pt": "Golpe de Colisão Rolante",
+				"de": "Rolltackle"
+			},
+			"damage": 50,
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
+	},
+	"evolveFrom": {
+		"en": "Venipede",
+		"fr": "Venipatte",
+		"es": "Venipede",
+		"it": "Venipede",
+		"pt": "Venipede",
+		"de": "Toxiped"
+	},
+	"hp": 90,
+	"illustrator": "hatachu",
+	"name": {
+		"de": "Rollum",
+		"en": "Whirlipede",
+		"es": "Whirlipede",
+		"fr": "Scobolide",
+		"it": "Whirlipede",
+		"pt": "Whirlipede"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh6",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

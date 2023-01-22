@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez 2 pièces. Pour chaque face, choisissez dans votre deck un Pokémon de base, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck."
+	},
+	"illustrator": "\"Big Mama\" Tagawa",
+	"name": {
+		"en": "Dual Ball",
+		"fr": "Double boule"
+	},
+	"rarity": "Uncommon",
+	"set": "ex14",
+	"trainerType": "Item"
+}

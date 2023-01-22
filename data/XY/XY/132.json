@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Pflanze-Energie",
+		"en": "Grass Energy",
+		"es": "Energía Planta",
+		"fr": "Énergie Plante",
+		"it": "Energia Erba",
+		"pt": "Energia de Grama"
+	},
+	"rarity": "Common",
+	"set": "xy1"
+}

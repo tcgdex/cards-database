@@ -1,0 +1,85 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Seed Bomb",
+				"fr": "Canon Graine",
+				"es": "Bomba Germen",
+				"it": "Semebomba",
+				"pt": "Bomba de Sementes",
+				"de": "Samenbomben"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Giga Impact",
+				"fr": "Giga Impact",
+				"es": "Gigaimpacto",
+				"it": "Gigaimpatto",
+				"pt": "Gigaimpacto",
+				"de": "Gigastoß"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				"es": "Durante tu próximo turno, este Pokémon no puede atacar.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
+	},
+	"evolveFrom": {
+		"en": "Pansage",
+		"fr": "Feuillajou",
+		"es": "Pansage",
+		"it": "Pansage",
+		"pt": "Pansage",
+		"de": "Vegimak"
+	},
+	"hp": 100,
+	"illustrator": "Hasegawa Saki",
+	"name": {
+		"de": "Vegichita",
+		"en": "Simisage",
+		"es": "Simisage",
+		"fr": "Feuiloutan",
+		"it": "Simisage",
+		"pt": "Simisage"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Beam",
+				"fr": "Laser Glace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Frost Breath",
+				"fr": "Souffle Glacé"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		583
+	],
+	"evolveFrom": {
+		"en": "Vanillite",
+		"fr": "Sorbébé"
+	},
+	"hp": 80,
+	"illustrator": "match",
+	"name": {
+		"de": "Gelatroppo",
+		"en": "Vanillish",
+		"es": "Vanillish",
+		"fr": "Sorboul",
+		"it": "Vanillish",
+		"pt": "Vanillish"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

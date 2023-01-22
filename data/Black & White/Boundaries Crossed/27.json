@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reckless Charge",
+				"fr": "Attaque Imprudente"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				"fr": "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		554
+	],
+	"hp": 70,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"de": "Flampion",
+		"en": "Darumaka",
+		"es": "Darumaka",
+		"fr": "Darumarond",
+		"it": "Darumaka",
+		"pt": "Darumaka"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

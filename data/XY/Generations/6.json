@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Blot",
+				"fr": "Pâté"
+			},
+			"effect": {
+				"en": "Heal 10 damage from this Pokémon.",
+				"fr": "Soignez 10 dégâts à ce Pokémon."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		46
+	],
+	"hp": 60,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"en": "Paras",
+		"fr": "Paras"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "g1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

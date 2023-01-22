@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Peck"
+			},
+			"damage": 10
+		},
+		{
+			"name": {
+				"en": "Quick Attack"
+			},
+			"damage": "10+",
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
+	},
+	"hp": 50,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Dartiri",
+		"en": "Fletchling",
+		"es": "Fletchling",
+		"fr": "Passerouge",
+		"it": "Fletchling",
+		"pt": "Fletchling"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-xy-latia",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

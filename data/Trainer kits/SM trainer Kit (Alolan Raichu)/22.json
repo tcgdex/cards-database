@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Traumato",
+		"en": "Drowzee",
+		"es": "Drowzee",
+		"fr": "Soporifik",
+		"it": "Drowzee",
+		"pt": "Drowzee"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "tk-sm-r",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

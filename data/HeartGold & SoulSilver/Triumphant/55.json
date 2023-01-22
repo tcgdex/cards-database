@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Imitate",
+				"fr": "Imiter"
+			},
+			"effect": {
+				"en": "Draw cards until you have the same number of cards in your hand as your opponent.",
+				"fr": "Piochez jusqu’à ce que vous obteniez le même nombre de cartes dans votre main que votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Punch",
+				"fr": "Kogn’Keu"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
+	},
+	"dexId": [
+		190
+	],
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Aipom",
+		"fr": "Capumain"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

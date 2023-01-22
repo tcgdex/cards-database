@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder Shock",
+				"fr": "Éclair",
+				"es": "Impactrueno",
+				"it": "Tuonoshock",
+				"pt": "Trovoada de Choques",
+				"de": "Donnerschock"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				"de": "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		180
+	],
+	"evolveFrom": {
+		"en": "Mareep",
+		"fr": "Wattouat",
+		"es": "Mareep",
+		"it": "Mareep",
+		"pt": "Mareep",
+		"de": "Voltilamm"
+	},
+	"hp": 90,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Waaty",
+		"en": "Flaaffy",
+		"es": "Flaaffy",
+		"fr": "Lainergie",
+		"it": "Flaaffy",
+		"pt": "Flaaffy"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xy11",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

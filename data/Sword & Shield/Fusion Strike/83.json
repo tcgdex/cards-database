@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Pierce"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them."
+	},
+	"evolveFrom": {
+		"en": "Arrokuda",
+		"fr": "Embrochet",
+		"es": "Arrokuda",
+		"it": "Arrokuda",
+		"pt": "Arrokuda",
+		"de": "Pikuda"
+	},
+	"hp": 120,
+	"illustrator": "Hideki Ishikawa",
+	"name": {
+		"de": "Barrakiefa",
+		"en": "Barraskewda",
+		"es": "Barraskewda",
+		"fr": "Hastacuda",
+		"it": "Barraskewda",
+		"pt": "Barraskewda"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

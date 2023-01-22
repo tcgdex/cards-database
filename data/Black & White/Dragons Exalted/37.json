@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mysterious Beam",
+				"fr": "Rayon Mystérieux"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Slap",
+				"fr": "Torgnoles"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		594
+	],
+	"hp": 90,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Mamolida",
+		"en": "Alomomola",
+		"es": "Alomomola",
+		"fr": "Mamanbo",
+		"it": "Alomomola",
+		"pt": "Alomomola"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

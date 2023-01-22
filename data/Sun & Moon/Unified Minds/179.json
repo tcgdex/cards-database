@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flap",
+				"fr": "Battement",
+				"es": "Aleteo",
+				"it": "Alabattito",
+				"pt": "Asa",
+				"de": "Flattern"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		661
+	],
+	"hp": 60,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Dartiri",
+		"en": "Fletchling",
+		"es": "Fletchling",
+		"fr": "Passerouge",
+		"it": "Fletchling",
+		"pt": "Fletchling"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

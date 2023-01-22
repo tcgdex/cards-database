@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"de": "Loturzel",
+		"en": "Lotad",
+		"es": "Lotad",
+		"fr": "Nénupiot",
+		"it": "Lotad",
+		"pt": "Lotad"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "tk-xy-latia",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Energy Recall",
+				"fr": "Rappel d'énergie"
+			},
+			"effect": {
+				"en": "Attach up to 2 basic Energy cards from your discard pile to Flaaffy.",
+				"fr": "Attachez à Lainergie jusqu'à deux cartes Énergie de base de votre pile de défausse."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lightning Ball",
+				"fr": "Boule éclair"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		180
+	],
+	"evolveFrom": {
+		"en": "Mareep"
+	},
+	"hp": 80,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Flaaffy",
+		"fr": "Lainergie"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-30"
+		}
+	],
+	"set": "ex3",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

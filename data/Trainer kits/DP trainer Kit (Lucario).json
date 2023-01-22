@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 12,
+	"id": "tk-dp-l",
+	"name": {
+		"en": "DP trainer Kit (Lucario)",
+		"es": "Kit de Entrenador Diamante & Perla (Lucario)",
+		"fr": "DP Kit dresseur (Lucario)",
+		"it": "Diamond & Pearl trainer Kit (Lucario)"
+	},
+	"releaseDate": "2007-09-01",
+	"serie": "tk"
+}

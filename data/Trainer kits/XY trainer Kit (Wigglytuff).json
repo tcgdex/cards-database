@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-xy-w",
+	"name": {
+		"en": "XY trainer Kit (Wigglytuff)",
+		"es": "Kit de Entrenador XY (Wigglytuff)",
+		"fr": "XY Kit du dresseur (Grodoudou)",
+		"it": "XY trainer Kit (Wigglytuff)"
+	},
+	"releaseDate": "2014-11-01",
+	"serie": "tk"
+}

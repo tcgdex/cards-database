@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder Spear"
+			},
+			"effect": {
+				"en": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pin Missile"
+			},
+			"damage": "60×",
+			"effect": {
+				"en": "Flip 4 coins. This attack does 60 damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 190,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Jolteon V"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

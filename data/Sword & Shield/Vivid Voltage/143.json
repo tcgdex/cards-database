@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic",
+				"es": "Picotazo",
+				"it": "Beccata",
+				"pt": "Bicada",
+				"de": "Pikser"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!"
+	},
+	"hp": 60,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Peppeck",
+		"en": "Pikipek",
+		"es": "Pikipek",
+		"fr": "Picassaut",
+		"it": "Pikipek",
+		"pt": "Pikipek"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

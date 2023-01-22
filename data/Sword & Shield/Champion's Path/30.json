@@ -1,0 +1,81 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Throw",
+				"fr": "Jet-Pierres",
+				"es": "Lanzarrocas",
+				"it": "Sassata",
+				"pt": "Lançamento de Rocha",
+				"de": "Steinwurf"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slashing Strike",
+				"fr": "Coup Déchirant",
+				"es": "Golpe Cuchillazo",
+				"it": "Lacerattacco",
+				"pt": "Ataque Cortante",
+				"de": "Schlitzender Schlag"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't use Slashing Strike.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
+				"es": "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The rocks in its mane are sharper than a knife. Fragments that break off are treasured as good luck charms."
+	},
+	"evolveFrom": {
+		"en": "Rockruff",
+		"fr": "Rocabot"
+	},
+	"hp": 120,
+	"illustrator": "Ryuta Fuse",
+	"name": {
+		"de": "Wolwerock",
+		"en": "Lycanroc",
+		"es": "Lycanroc",
+		"fr": "Lougaroc",
+		"it": "Lycanroc",
+		"pt": "Lycanroc"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh3.5",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

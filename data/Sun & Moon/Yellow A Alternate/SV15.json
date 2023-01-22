@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "More Poison",
+				"fr": "Poison Sans Fin"
+			},
+			"effect": {
+				"en": "Put 1 more damage counter on your opponent's Poisoned Pokémon between turns.",
+				"fr": "Placez 1 marqueur de dégâts supplémentaire sur le Pokémon Empoisonné de votre adversaire entre chaque tour."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Venomous Fang",
+				"fr": "Croc-Poison"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		336
+	],
+	"hp": 100,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"en": "Seviper",
+		"fr": "Séviper"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sma",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

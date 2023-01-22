@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Chain Lightning",
+				"fr": "Rafale de foudre"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own).",
+				"fr": "Si le Pokémon Défenseur n'est pas de type Incolore, cette attaque inflige 10 dégâts à chacun des Pokémon du même type que le Pokémon Défenseur qui sont sur un Banc (y compris le vôtre)."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser."
+	},
+	"dexId": [
+		101
+	],
+	"evolveFrom": {
+		"en": "Voltorb"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Electrode",
+		"fr": "Électrode"
+	},
+	"rarity": "Rare",
+	"set": "base2",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

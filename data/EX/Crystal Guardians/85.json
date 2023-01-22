@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez jusqu'à 2 cartes parmi les cartes Outil Pokémon et les cartes Stade en jeu (les vôtres et celles de votre adversaire) et défaussez-les."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Windstorm",
+		"fr": "Tempête"
+	},
+	"rarity": "Uncommon",
+	"set": "ex14",
+	"trainerType": "Item"
+}

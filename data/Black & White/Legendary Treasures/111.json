@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Flip a coin. If heads, discard an Energy attached to 1 of your opponent’s Pokémon."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Crushing Hammer"
+	},
+	"rarity": "Uncommon",
+	"set": "bw11",
+	"trainerType": "Item"
+}

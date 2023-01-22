@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Slap",
+				"fr": "Coud'keu"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slam",
+				"fr": "Souplesse"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "20×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "On l'appelle \"Pokémon mirage\" en raison de sa rareté. On a découvert sa mue."
+	},
+	"dexId": [
+		147
+	],
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Dratini",
+		"fr": "Minidraco"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "+10"
+		}
+	]
+}

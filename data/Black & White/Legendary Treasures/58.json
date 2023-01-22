@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Absorb Life"
+			},
+			"effect": {
+				"en": "Heal 10 damage from this Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spooky Shot"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		429
+	],
+	"evolveFrom": {
+		"en": "Misdreavus"
+	},
+	"hp": 100,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Mismagius"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

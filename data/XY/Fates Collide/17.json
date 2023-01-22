@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revolver d'Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		138
+	],
+	"evolveFrom": {
+		"en": "Helix Fossil Omanyte",
+		"fr": "Fossile Nautile Amonita",
+		"es": "Fósil Hélix Omanyte",
+		"it": "Helixfossile di Omanyte",
+		"pt": "Fóssil Espiral de Omanyte",
+		"de": "Helixfossil Amonitas"
+	},
+	"hp": 80,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Amonitas",
+		"en": "Omanyte",
+		"es": "Omanyte",
+		"fr": "Amonita",
+		"it": "Omanyte",
+		"pt": "Omanyte"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "xy10",
+	"stage": "RESTORED",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

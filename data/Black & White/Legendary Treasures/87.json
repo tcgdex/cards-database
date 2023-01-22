@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Sealing Scream"
+			},
+			"effect": {
+				"en": "Each player can’t play any ACE SPEC cards from his or her hand."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hexed Mirror"
+			},
+			"effect": {
+				"en": "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		442
+	],
+	"hp": 80,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Spiritomb"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	]
+}

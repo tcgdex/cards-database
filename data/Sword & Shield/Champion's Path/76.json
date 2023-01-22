@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Cure",
+				"fr": "Soignomax",
+				"es": "Maxicura",
+				"it": "Dynacura",
+				"pt": "Cura Max",
+				"de": "Dyna-Heilung"
+			},
+			"effect": {
+				"en": "Heal 50 damage from this Pokémon.",
+				"fr": "Soignez 50 dégâts de ce Pokémon.",
+				"es": "Cura 50 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 50 danni.",
+				"pt": "Cure 50 pontos de dano deste Pokémon.",
+				"de": "Heile 50 Schadenspunkte bei diesem Pokémon."
+			},
+			"damage": 180
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Gardevoir V",
+		"fr": "Gardevoir-V"
+	},
+	"hp": 320,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Guardevoir VMAX",
+		"en": "Gardevoir VMAX",
+		"es": "Gardevoir VMAX",
+		"fr": "Gardevoir VMAX",
+		"it": "Gardevoir VMAX",
+		"pt": "Gardevoir VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh3.5",
+	"stage": "VMAX",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

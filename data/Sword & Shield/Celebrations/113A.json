@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Outrage"
+			},
+			"effect": {
+				"en": "Does 10 more damage for each damage counter on this Pokémon."
+			},
+			"damage": "20+",
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Blue Flare"
+			},
+			"effect": {
+				"en": "Discard 2 Fire Energy attached to this Pokémon."
+			},
+			"damage": 120,
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
+	},
+	"hp": 130,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Reshiram"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "cel25",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

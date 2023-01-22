@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Force",
+				"en": "Strength",
+				"es": "Fuerza",
+				"it": "Forza",
+				"pt": "Força",
+				"de": "Stärke"
+			},
+			"damage": 60,
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
+	},
+	"hp": 100,
+	"illustrator": "0313",
+	"name": {
+		"de": "Kupfanti",
+		"en": "Cufant",
+		"es": "Cufant",
+		"fr": "Charibari",
+		"it": "Cufant",
+		"pt": "Cufant"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

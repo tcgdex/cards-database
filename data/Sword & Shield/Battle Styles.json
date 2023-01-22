@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 163,
+	"id": "swsh5",
+	"name": {
+		"de": "Kampfstile",
+		"en": "Battle Styles",
+		"es": "Estilos de Combate",
+		"fr": "Styles de combat",
+		"it": "Stili di Lotta",
+		"pt": "Estilos de Batalha"
+	},
+	"releaseDate": "2021-03-19",
+	"serie": "swsh"
+}

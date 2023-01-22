@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Sneaky Placement",
+				"fr": "Placement vicieux"
+			},
+			"effect": {
+				"en": "Put 2 damage counters on 1 of your opponent’s Pokémon.",
+				"fr": "Placez 2 marqueurs de dégât sur l’un des Pokémon de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sleep Poison",
+				"fr": "Poison dodo"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep and Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi et Empoisonné."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+	},
+	"dexId": [
+		93
+	],
+	"evolveFrom": {
+		"en": "Gastly",
+		"fr": "Fantominus"
+	},
+	"hp": 70,
+	"illustrator": "Takashi Yamaguchi",
+	"name": {
+		"en": "Haunter",
+		"fr": "Spectrum"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

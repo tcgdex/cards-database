@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Speed Dive",
+				"fr": "Plongée Rapide",
+				"es": "Picado Rápido",
+				"it": "Immersione Rapida",
+				"pt": "Mergulho Veloz",
+				"de": "Tempohechtsprung"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It appears in ancient ruins. The pattern on its body doesn't come from any culture in the Galar region, so it remains shrouded in mystery."
+	},
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Bronzel",
+		"en": "Bronzor",
+		"es": "Bronzor",
+		"fr": "Archéomire",
+		"it": "Bronzor",
+		"pt": "Bronzor"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

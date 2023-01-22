@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Whirlwind",
+				"fr": "Cyclone"
+			},
+			"effect": {
+				"en": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Giga Drain",
+				"fr": "Giga-sangsue"
+			},
+			"effect": {
+				"en": "After your attack, remove from Beautifly the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				"fr": "Après votre attaque, retirez à Charmillon autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité."
+	},
+	"dexId": [
+		267
+	],
+	"evolveFrom": {
+		"en": "Silcoon",
+		"fr": "Armulys"
+	},
+	"hp": 100,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Beautifly",
+		"fr": "Charmillon"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

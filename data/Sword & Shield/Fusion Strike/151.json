@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Split Spiral Punch"
+			},
+			"damage": 40,
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strength"
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest."
+	},
+	"evolveFrom": {
+		"en": "Stufful",
+		"fr": "Nounourson",
+		"es": "Stufful",
+		"it": "Stufful",
+		"pt": "Stufful",
+		"de": "Velursi"
+	},
+	"hp": 130,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Kosturso",
+		"en": "Bewear",
+		"es": "Bewear",
+		"fr": "Chelours",
+		"it": "Bewear",
+		"pt": "Bewear"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

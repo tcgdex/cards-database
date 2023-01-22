@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Slippery Skin"
+			},
+			"effect": {
+				"en": "As long as the Defending Pokémon is an Evolved Pokémon, Dunsparce's Retreat Cost is 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Shake"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		206
+	],
+	"hp": 40,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Dunsparce"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

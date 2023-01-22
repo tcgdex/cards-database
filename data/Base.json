@@ -1,0 +1,12 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "base",
+	"name": {
+		"de": "Grund",
+		"en": "Base",
+		"es": "Clásica",
+		"fr": "Base",
+		"it": "Originale",
+		"pt": "Coleção Básica"
+	}
+}

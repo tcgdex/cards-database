@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Vice Grip",
+				"fr": "Force Poigne",
+				"es": "Agarre",
+				"it": "Presa",
+				"pt": "Agarramento Viciado",
+				"de": "Klammer"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Crabhammer",
+				"fr": "Pince-Masse",
+				"es": "Martillazo",
+				"it": "Martellata",
+				"pt": "Martelo Caranguejo",
+				"de": "Krabbhammer"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		98
+	],
+	"hp": 70,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Krabby",
+		"en": "Krabby",
+		"es": "Krabby",
+		"fr": "Krabby",
+		"it": "Krabby",
+		"pt": "Krabby"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

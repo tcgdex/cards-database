@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smash Kick",
+				"fr": "Coud'pattes"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Agility",
+				"fr": "Hâte"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Ponyta during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ponyta lors du prochain tour de votre adversaire."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
+	},
+	"dexId": [
+		77
+	],
+	"evolveFrom": {
+		"fr": "Ponyta"
+	},
+	"hp": 50,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Ponyta",
+		"fr": "Ponyta"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+10"
+		}
+	]
+}

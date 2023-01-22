@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Self Healing"
+			},
+			"effect": {
+				"en": "Whenever you attach a Fire Energy card from your hand to Flareon, remove all Special Conditions affecting Flareon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Singe"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Burn Booster"
+			},
+			"effect": {
+				"en": "Discard an Energy card attached to Flareon in order to use this attack. If the discarded card is a Energy card, this attack does 40 damage plus 10 more damage."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		136
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 70,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Flareon"
+	},
+	"rarity": "Rare",
+	"set": "ecard3",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

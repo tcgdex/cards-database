@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Dig Claws",
+				"fr": "Creusogriffes",
+				"es": "Hundir Garras",
+				"it": "Scavazanne",
+				"pt": "Fincar Garras",
+				"de": "Schaufelkrallen"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		557
+	],
+	"hp": 70,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Lithomith",
+		"en": "Dwebble",
+		"es": "Dwebble",
+		"fr": "Crabicoque",
+		"it": "Dwebble",
+		"pt": "Dwebble"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

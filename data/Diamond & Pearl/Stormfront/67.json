@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Random Spark",
+				"fr": "Étincelle surprise"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité."
+	},
+	"dexId": [
+		81
+	],
+	"evolveFrom": {
+		"fr": "Magneti"
+	},
+	"hp": 50,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Magnemite",
+		"fr": "Magneti"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

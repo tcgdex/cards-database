@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leafage",
+				"fr": "Feuillage"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night."
+	},
+	"dexId": [
+		722
+	],
+	"hp": 60,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"en": "Rowlet",
+		"fr": "Brindibou"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "2021swsh",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

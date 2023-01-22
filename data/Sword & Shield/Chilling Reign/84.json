@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Light Punch",
+				"fr": "Poing Léger",
+				"es": "Puño Ligero",
+				"it": "Pugnetto",
+				"pt": "Soco de Luz",
+				"de": "Leichter Hieb"
+			},
+			"damage": 20,
+			"cost": [
+				"Fighting"
+			]
+		},
+		{
+			"name": {
+				"en": "Double Lariat",
+				"fr": "Double Lasso",
+				"es": "Doble Lazo",
+				"it": "Doppio Lazzo",
+				"pt": "Laço Duplo",
+				"de": "Doppel-Lasso"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 40 damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+				"es": "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+				"it": "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+				"pt": "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+				"de": "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+			},
+			"damage": "40×",
+			"cost": [
+				"Fighting",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Crabrawler has been known to mistake Exeggutor for a coconut tree and climb it. The enraged Exeggutor shakes it off and stomps it."
+	},
+	"hp": 80,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Krabbox",
+		"en": "Crabrawler",
+		"es": "Crabrawler",
+		"fr": "Crabagarre",
+		"it": "Crabrawler",
+		"pt": "Crabrawler"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Piochez une carte pour chaque Pokémon de base du Banc de votre adversaire.",
+		"en": "Draw a card for each of your opponent's Benched Basic Pokémon.",
+		"es": "Roba 1 carta por cada uno de los Pokémon Básicos en Banca de tu rival.",
+		"it": "Pesca una carta per ogni Pokémon Base nella panchina del tuo avversario.",
+		"pt": "Compre um card para cada Pokémon Básico no Banco do seu oponente.",
+		"de": "Ziehe 1 Karte für jedes Basis-Pokémon auf der Bank deines Gegners."
+	},
+	"illustrator": "Yusuke Ohmura",
+	"name": {
+		"de": "Görentalent",
+		"en": "Lass's Special",
+		"es": "Especialidad de la Chica",
+		"fr": "Spécialité de Fillette",
+		"it": "Omaggio della Pupa",
+		"pt": "Especialidade da Garota"
+	},
+	"rarity": "Uncommon",
+	"set": "xy10",
+	"trainerType": "Supporter"
+}

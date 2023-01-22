@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bursting Bubble"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls."
+	},
+	"hp": 60,
+	"illustrator": "Anesaki Dynamic",
+	"name": {
+		"de": "Perlu",
+		"en": "Clamperl",
+		"es": "Clamperl",
+		"fr": "Coquiperl",
+		"it": "Clamperl",
+		"pt": "Clamperl"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

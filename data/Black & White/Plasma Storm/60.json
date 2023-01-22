@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Psy Bolt",
+				"fr": "Choc Mental"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		281
+	],
+	"evolveFrom": {
+		"en": "Ralts",
+		"fr": "Tarsal"
+	},
+	"hp": 80,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Kirlia",
+		"en": "Kirlia",
+		"es": "Kirlia",
+		"fr": "Kirlia",
+		"it": "Kirlia",
+		"pt": "Kirlia"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

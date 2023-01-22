@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare",
+				"fr": "Flamboiement",
+				"es": "Llama",
+				"it": "Fiammata",
+				"pt": "Chama",
+				"de": "Flackern"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		636
+	],
+	"hp": 80,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Ignivor",
+		"en": "Larvesta",
+		"es": "Larvesta",
+		"fr": "Pyronille",
+		"it": "Larvesta",
+		"pt": "Larvesta"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "sm3.5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

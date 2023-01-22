@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+	},
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Great Ball",
+		"fr": "Super Ball"
+	},
+	"rarity": "Uncommon",
+	"set": "dp7",
+	"trainerType": "Item"
+}

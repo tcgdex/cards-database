@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Headache",
+				"fr": "Migraine",
+				"es": "Dolor de Cabeza",
+				"it": "Emicrania",
+				"pt": "Dor de Cabeça",
+				"de": "Kopfweh"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent can’t play any Trainer cards from their hand during their next turn.",
+				"fr": "Lancez une pièce. Si c’est face, votre adversaire ne peut pas jouer de carte Dresseur de sa main pendant son prochain tour.",
+				"es": "Lanza 1 moneda. Si sale cara, tu rival no puede jugar ninguna carta de Entrenador de su mano durante su próximo turno.",
+				"it": "Lancia una moneta. Se esce testa, il tuo avversario non può giocare le carte Allenatore che ha in mano durante il suo prossimo turno.",
+				"pt": "Jogue 1 moeda. Se sair cara, seu oponente não poderá jogar nenhuma carta de Treinador da própria mão durante a próxima vez dele(a) jogar.",
+				"de": "Wirf 1 Münze. Bei Kopf kann dein Gegner während seines nächsten Zuges keine Trainerkarten aus seiner Hand spielen."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		54
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Enton",
+		"en": "Psyduck",
+		"es": "Psyduck",
+		"fr": "Psykokwak",
+		"it": "Psyduck",
+		"pt": "Psyduck"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm9",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

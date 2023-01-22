@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sleep Powder",
+				"fr": "Poudre dodo"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Frustration",
+				"fr": "Frustration"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon that doesn't have any damage counters on it. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire ne possédant pas de marqueurs de dégât. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres."
+	},
+	"dexId": [
+		44
+	],
+	"evolveFrom": {
+		"en": "Oddish",
+		"fr": "Myrapla"
+	},
+	"hp": 70,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Gloom",
+		"fr": "Ortide"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Light Punch",
+				"fr": "Poing léger"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Poison Sting",
+				"fr": "Dard-venin"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		453
+	],
+	"hp": 60,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Croagunk",
+		"fr": "Cradopaud"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp5",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

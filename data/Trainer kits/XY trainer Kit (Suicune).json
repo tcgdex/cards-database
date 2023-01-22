@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-xy-su",
+	"name": {
+		"en": "XY trainer Kit (Suicune)",
+		"es": "Kit de Entrenador XY (Suicune)",
+		"fr": "XY Kit du dresseur (Suicune)",
+		"it": "XY trainer Kit (Suicune)"
+	},
+	"releaseDate": "2016-04-27",
+	"serie": "tk"
+}

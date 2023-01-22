@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sonicboom"
+			},
+			"effect": {
+				"en": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Selfdestruct"
+			},
+			"effect": {
+				"en": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		82
+	],
+	"evolveFrom": {
+		"en": "Magnemite"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Magneton"
+	},
+	"rarity": "Rare",
+	"set": "lc",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

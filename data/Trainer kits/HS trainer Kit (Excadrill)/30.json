@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Metal Claw"
+			},
+			"damage": 30
+		},
+		{
+			"name": {
+				"en": "Drill Run"
+			},
+			"damage": 80,
+			"effect": {
+				"en": "Discard an Energy attached to the Defending Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates."
+	},
+	"evolveFrom": {
+		"en": "Drilbur",
+		"fr": "Rototaupe",
+		"es": "Drilbur",
+		"it": "Drilbur",
+		"pt": "Drilbur",
+		"de": "Rotomurf"
+	},
+	"hp": 110,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Stalobor",
+		"en": "Excadrill",
+		"es": "Excadrill",
+		"fr": "Minotaupe",
+		"it": "Excadrill",
+		"pt": "Excadrill"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "tk-bw-e",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

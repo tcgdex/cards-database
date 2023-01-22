@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun"
+			},
+			"effect": {
+				"en": "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		8
+	],
+	"evolveFrom": {
+		"en": "Squirtle"
+	},
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Wartortle"
+	},
+	"rarity": "Common",
+	"set": "si1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

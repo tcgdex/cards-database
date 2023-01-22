@@ -1,0 +1,39 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Spark"
+			},
+			"effect": {
+				"en": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 50,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Pikachu"
+	},
+	"rarity": "Common",
+	"set": "lc",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

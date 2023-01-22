@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Hook",
+				"fr": "Crochet",
+				"es": "Garfio",
+				"it": "Uncino",
+				"pt": "Gancho",
+				"de": "Haken"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Beat",
+				"fr": "Bataille",
+				"es": "Toque",
+				"it": "Battuta",
+				"pt": "Pulso",
+				"de": "Verprügler"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		271
+	],
+	"evolveFrom": {
+		"en": "Lotad",
+		"fr": "Nénupiot",
+		"es": "Lotad",
+		"it": "Lotad",
+		"pt": "Lotad",
+		"de": "Loturzel"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Lombrero",
+		"en": "Lombre",
+		"es": "Lombre",
+		"fr": "Lombre",
+		"it": "Lombre",
+		"pt": "Lombre"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "xy5",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

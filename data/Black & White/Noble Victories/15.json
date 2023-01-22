@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "V-create",
+				"fr": "Coup Victoire"
+			},
+			"effect": {
+				"en": "If you have 4 or fewer Benched Pokémon, this attack does nothing.",
+				"fr": "Si vous avez 4 Pokémon de Banc ou moins, cette attaque ne fait rien."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		494
+	],
+	"hp": 70,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Victini",
+		"en": "Victini",
+		"es": "Victini",
+		"fr": "Victini",
+		"it": "Victini",
+		"pt": "Victini"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

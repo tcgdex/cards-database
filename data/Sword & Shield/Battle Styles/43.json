@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure",
+				"es": "Mordisco",
+				"it": "Morso",
+				"pt": "Mordida",
+				"de": "Biss"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Surf",
+				"fr": "Surf",
+				"es": "Surf",
+				"it": "Surf",
+				"pt": "Surfar",
+				"de": "Surfer"
+			},
+			"damage": 110,
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them."
+	},
+	"hp": 110,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Knirfish",
+		"en": "Bruxish",
+		"es": "Bruxish",
+		"fr": "Denticrisse",
+		"it": "Bruxish",
+		"pt": "Bruxish"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

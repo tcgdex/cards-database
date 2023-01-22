@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Arrow",
+				"fr": "Flèche d'Eau"
+			},
+			"effect": {
+				"en": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 20 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		131
+	],
+	"hp": 90,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Lapras",
+		"en": "Lapras",
+		"es": "Lapras",
+		"fr": "Lokhlass",
+		"it": "Lapras",
+		"pt": "Lapras"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

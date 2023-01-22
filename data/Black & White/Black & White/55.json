@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Cell Culture",
+				"fr": "Culture Cellulaire"
+			},
+			"effect": {
+				"en": "Search your deck for Solosis and put it onto your Bench. Shuffle your deck afterward.",
+				"fr": "Cherchez Nucléos dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		577
+	],
+	"hp": 30,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Monozyto",
+		"en": "Solosis",
+		"es": "Solosis",
+		"fr": "Nucléos",
+		"it": "Solosis",
+		"pt": "Solosis"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

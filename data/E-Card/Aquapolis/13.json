@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Big Eggsplosion",
+				"fr": "Grosse éclate"
+			},
+			"effect": {
+				"en": "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Noadkoko. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "20×"
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lateral Eggsplosion",
+				"fr": "Éclate latérale"
+			},
+			"effect": {
+				"en": "Flip a number of coins equal to the total number of Energy attached to your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads.",
+				"fr": "Lancez un nombre de pièces égal à la quantité d'Énergie attachée à tous les Pokémon de votre Banc. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		103
+	],
+	"evolveFrom": {
+		"en": "Exeggcute"
+	},
+	"hp": 80,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Exeggutor",
+		"fr": "Noadkoko"
+	},
+	"rarity": "Rare",
+	"set": "ecard2",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

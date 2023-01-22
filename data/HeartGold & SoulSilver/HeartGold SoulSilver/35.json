@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncer"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch’herbe"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
+	},
+	"dexId": [
+		153
+	],
+	"evolveFrom": {
+		"en": "Chikorita",
+		"fr": "Germignon"
+	},
+	"hp": 90,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Bayleef",
+		"fr": "Macronium"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

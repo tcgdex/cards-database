@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blocking Punch"
+			},
+			"effect": {
+				"en": "During your opponent’s next turn, any damage done to Lucario by attacks is reduced by 20 (after applying Weakness and Resistance)."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Striking Kick"
+			},
+			"effect": {
+				"en": "This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "By catching the aura emanating from others, it can read their thoughts and movements."
+	},
+	"dexId": [
+		448
+	],
+	"evolveFrom": {
+		"en": "Riolu"
+	},
+	"hp": 90,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Lucario"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pop8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

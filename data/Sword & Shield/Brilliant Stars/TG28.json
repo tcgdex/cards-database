@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "$$$CARD.RULES.MISSING.TOKEN$$$",
+		"fr": "$$$CARD.RULES.MISSING.TOKEN$$$",
+		"es": "$$$CARD.RULES.MISSING.TOKEN$$$",
+		"it": "$$$CARD.RULES.MISSING.TOKEN$$$",
+		"pt": "$$$CARD.RULES.MISSING.TOKEN$$$",
+		"de": "$$$CARD.RULES.MISSING.TOKEN$$$"
+	},
+	"name": {
+		"de": "Fokussierter-Stil-Mastrich",
+		"en": "Single Strike Style Mustard",
+		"es": "Mostaz Estilo Brusco",
+		"fr": "Mustar Style Poing Final",
+		"it": "Mustard Stile Singolcolpo",
+		"pt": "Mostarda Estilo Golpe Decisivo"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"set": "swsh9",
+	"trainerType": "Supporter"
+}

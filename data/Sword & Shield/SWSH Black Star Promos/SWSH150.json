@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Triple Draw"
+			},
+			"effect": {
+				"en": "Draw 3 cards."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Splash Jump"
+			},
+			"damage": 90,
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Vaporeon V"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

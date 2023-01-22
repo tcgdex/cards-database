@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Steady Firebreathing"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Blast"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
+	},
+	"evolveFrom": {
+		"en": "Sizzlipede",
+		"fr": "Grillepattes",
+		"es": "Sizzlipede",
+		"it": "Sizzlipede",
+		"pt": "Sizzlipede",
+		"de": "Thermopod"
+	},
+	"hp": 130,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Infernopod",
+		"en": "Centiskorch",
+		"es": "Centiskorch",
+		"fr": "Scolocendre",
+		"it": "Centiskorch",
+		"pt": "Centiskorch"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

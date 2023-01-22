@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack",
+				"fr": "Vive-Attaque"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reflect Energy",
+				"fr": "Renvoi d'Énergie"
+			},
+			"effect": {
+				"en": "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+				"fr": "Déplacez une Énergie de ce Pokémon vers 1 de vos Pokémon de Banc."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		471
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Évoli"
+	},
+	"hp": 90,
+	"illustrator": "Illus.＆Direc.The Pokémon Company Art Team",
+	"name": {
+		"en": "Glaceon",
+		"fr": "Givrali"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bwp",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

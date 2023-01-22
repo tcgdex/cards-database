@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Recall",
+				"fr": "Récupération"
+			},
+			"effect": {
+				"en": "Choose 1 of this Pokémon's attacks from its previous Evolutions and use it as this attack.",
+				"fr": "Choisissez l'une des attaques de pré-évolutions de ce Pokémon et utilisez-la en tant que cette attaque."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion Blast",
+				"fr": "Explo-Combustion"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Combustion Blast during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour."
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"evolveFrom": {
+		"en": "Charmeleon",
+		"fr": "Reptincel"
+	},
+	"hp": 160,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Charizard",
+		"fr": "Dracaufeu"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "g1",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

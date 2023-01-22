@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap",
+				"fr": "Queue Battoir",
+				"es": "Coletón",
+				"it": "Codabotta",
+				"pt": "Surra de Cauda",
+				"de": "Schweifvertrimmer"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+	"hp": 70,
+	"illustrator": "Lee HyunJung",
+	"name": {
+		"de": "Evoli",
+		"en": "Eevee",
+		"es": "Eevee",
+		"fr": "Évoli",
+		"it": "Eevee",
+		"pt": "Eevee"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

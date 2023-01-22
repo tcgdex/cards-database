@@ -1,0 +1,12 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "dp",
+	"name": {
+		"de": "Diamant & Perl",
+		"en": "Diamond & Pearl",
+		"es": "Diamante & Perla",
+		"fr": "Diamant & Perle",
+		"it": "Diamante & Perla",
+		"pt": "Diamante & Pérola"
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Twister",
+				"fr": "Ouragan"
+			},
+			"effect": {
+				"en": "Flip 2 coins. For each heads, choose 1 Energy attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing.",
+				"fr": "Lancez 2 pièces. Pour chaque face, choisissez 1 Énergie attachée au Pokémon Défenseur et défaussez-la. Si vous obtenez 2 piles, cette attaque est sans effet."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Rage",
+				"fr": "Draco-rage"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		130
+	],
+	"evolveFrom": {
+		"en": "Magikarp"
+	},
+	"hp": 130,
+	"illustrator": "Hikaru Koike",
+	"name": {
+		"en": "Gyarados ex",
+		"fr": "Léviator ex"
+	},
+	"rarity": "Rare",
+	"set": "ex6",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

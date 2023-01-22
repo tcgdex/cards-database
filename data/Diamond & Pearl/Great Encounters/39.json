@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Daunt",
+				"fr": "Décourager"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				"fr": "Lors du prochain tour de votre adversaire, tous dégâts infligés au Pokémon Défenseur par des attaques sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rage",
+				"fr": "Frénésie"
+			},
+			"effect": {
+				"en": "Does 40 damage plus 10 more damage for each damage counter on Granbull.",
+				"fr": "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Granbull."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		210
+	],
+	"evolveFrom": {
+		"en": "Snubbull",
+		"fr": "Snubbull"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Granbull",
+		"fr": "Granbull"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

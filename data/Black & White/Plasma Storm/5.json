@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Gather Order",
+				"fr": "Ralliement"
+			},
+			"effect": {
+				"en": "Search your deck for as many Combee as you like and put them onto your Bench. Shuffle your deck afterward.",
+				"fr": "Cherchez dans votre deck autant d'Apitrini que vous voulez et placez-les sur votre Banc. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Damage Beat",
+				"fr": "Rouste Ravageuse"
+			},
+			"effect": {
+				"en": "Does 20 damage times the number of damage counters on the Defending Pokémon.",
+				"fr": "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur le Pokémon Défenseur."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		416
+	],
+	"evolveFrom": {
+		"en": "Combee",
+		"fr": "Apitrini"
+	},
+	"hp": 100,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"de": "Honweisel",
+		"en": "Vespiquen",
+		"es": "Vespiquen",
+		"fr": "Apireine",
+		"it": "Vespiquen",
+		"pt": "Vespiquen"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 12,
+	"id": "2012bw",
+	"name": {
+		"en": "Macdonald's Collection 2012",
+		"es": "Colección de McDonald's 2012",
+		"it": "McDonald's Collection 2012"
+	},
+	"releaseDate": "2012-06-15",
+	"serie": "mc"
+}

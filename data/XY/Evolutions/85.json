@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Prenez un Pokémon de base dans votre pile de défausse et placez-le sur votre Banc.",
+		"en": "Put a Basic Pokémon from your discard pile onto your Bench.",
+		"es": "Pon 1 Pokémon Básico de tu pila de descartes en tu Banca.",
+		"it": "Prendi un Pokémon Base dalla tua pila degli scarti e mettilo in panchina.",
+		"pt": "Coloque um Pokémon Básico da sua pilha de descarte no seu Banco.",
+		"de": "Nimm 1 Basis-Pokémon von deinem Ablagestapel und lege es auf deine Bank."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"de": "Beleber",
+		"en": "Revive",
+		"es": "Revivir",
+		"fr": "Rappel",
+		"it": "Revitalizzante",
+		"pt": "Reviver"
+	},
+	"rarity": "Uncommon",
+	"set": "xy12",
+	"trainerType": "Item"
+}

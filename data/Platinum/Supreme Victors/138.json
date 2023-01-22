@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est face, placez toutes les cartes de votre main au-dessus de votre deck, puis choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck."
+	},
+	"illustrator": "Ryota Saito",
+	"name": {
+		"en": "Night Teleporter",
+		"fr": "Télétransporteur nocturne"
+	},
+	"rarity": "Uncommon",
+	"set": "pl3",
+	"trainerType": "Item"
+}

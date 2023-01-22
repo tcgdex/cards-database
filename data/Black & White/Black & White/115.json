@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"fr": "Énergisant",
+				"en": "Energize"
+			},
+			"effect": {
+				"fr": "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
+				"en": "Attach a Lightning Energy card from your discard pile to this Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"fr": "Tonnerre",
+				"en": "Thunderbolt"
+			},
+			"effect": {
+				"en": "Discard all Energy attached to this Pokémon.",
+				"fr": "Défaussez toutes les Énergies attachées à ce Pokémon."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Pikachu",
+		"en": "Pikachu",
+		"es": "Pikachu",
+		"fr": "Pikachu",
+		"it": "Pikachu",
+		"pt": "Pikachu"
+	},
+	"rarity": "Secret Rare",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

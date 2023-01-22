@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Baie Prine à un de vos Pokémon qui n'a pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O., défaussez-cette carte.\n\nÀ la fin de chaque tour, si le Pokémon auquel cette carte est attachée possède des États Spéciaux, retirez-les lui tous. Ensuite, défaussez Baie Prine.[1]"
+	},
+	"illustrator": "Kazuo Yazawa",
+	"name": {
+		"en": "Lum Berry",
+		"fr": "Baie Prine"
+	},
+	"rarity": "Uncommon",
+	"set": "ex1",
+	"trainerType": "Tool"
+}

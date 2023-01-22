@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse Vague"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		418
+	],
+	"hp": 70,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Bamelin",
+		"en": "Buizel",
+		"es": "Buizel",
+		"fr": "Mustébouée",
+		"it": "Buizel",
+		"pt": "Buizel"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

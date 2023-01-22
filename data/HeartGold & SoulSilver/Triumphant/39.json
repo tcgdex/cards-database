@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rendezvous Draw",
+				"fr": "Pioche commune"
+			},
+			"effect": {
+				"en": "Each player draws and reveals the top card of his or her deck.",
+				"fr": "Chaque joueur pioche et dévoile la carte du dessus de son deck."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Distorted Wave",
+				"fr": "Vague tordue"
+			},
+			"effect": {
+				"en": "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
+				"fr": "Avant d’infliger des dégâts, retirez un marqueur de dégât au Pokémon Défenseur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
+	},
+	"dexId": [
+		370
+	],
+	"hp": 60,
+	"illustrator": "sui",
+	"name": {
+		"en": "Luvdisc",
+		"fr": "Lovdisc"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

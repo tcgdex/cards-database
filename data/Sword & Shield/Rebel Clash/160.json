@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "The Retreat Cost of both Active Pokémon is ColorlessColorless more.",
+		"fr": "Le Coût de Retraite des deux Pokémon Actifs est augmenté de ColorlessColorless.",
+		"es": "El Coste de Retirada de ambos Pokémon Activos es de ColorlessColorless más.",
+		"it": "Il costo di ritirata di entrambi i Pokémon attivi aumenta di ColorlessColorless.",
+		"pt": "O custo de Recuo de ambos os Pokémon Ativos é ColorlessColorless a mais.",
+		"de": "Die Rückzugskosten beider Aktiven Pokémon erhöhen sich um ColorlessColorless."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Galar-Mine 1",
+		"en": "Galar Mine",
+		"es": "Mina de Galar",
+		"fr": "Mine de Galar",
+		"it": "Miniera di Galar",
+		"pt": "Mina de Galar"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"set": "swsh2",
+	"trainerType": "Stadium",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

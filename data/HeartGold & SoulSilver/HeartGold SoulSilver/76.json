@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double-edge Claw",
+				"fr": "Griffe Damoclès"
+			},
+			"effect": {
+				"en": "Paras does 10 damage to itself.",
+				"fr": "Paras s’inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "As its body grows large, large mushrooms named tochukaso start sprouting out of its back."
+	},
+	"dexId": [
+		46
+	],
+	"hp": 50,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Paras",
+		"fr": "Paras"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez 2 pièces. Pour chaque côté face, défaussez 2 cartes du dessus du deck de votre adversaire.",
+		"en": "Flip 2 coins. For each heads, discard 2 cards from the top of your opponent's deck.",
+		"es": "Lanza 2 monedas. Por cada cara, descarta las 2 primeras cartas de la baraja de tu rival.",
+		"it": "Lancia due volte una moneta. Ogni volta che esce testa, scarta le prime due carte del mazzo del tuo avversario.",
+		"pt": "Jogue 2 moedas. Para cada cara, descarte 2 cards de cima do baralho do seu oponente.",
+		"de": "Wirf 2 Münzen. Lege pro \"Kopf\" 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+	},
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Team Rockets Machenschaften",
+		"en": "Team Rocket's Handiwork",
+		"es": "Fechoría del Team Rocket",
+		"fr": "Méfaits de la Team Rocket",
+		"it": "Malefatte del Team Rocket",
+		"pt": "Obra da Equipe Rocket"
+	},
+	"rarity": "Uncommon",
+	"set": "xy10",
+	"trainerType": "Supporter"
+}

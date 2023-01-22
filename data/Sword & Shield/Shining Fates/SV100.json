@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"fr": "Queue Cupide",
+				"en": "Greedy Tail",
+				"es": "Cola Avaricia",
+				"it": "Coda Ingorda",
+				"pt": "Cauda Fominha",
+				"de": "Gieriger Schweif"
+			},
+			"effect": {
+				"fr": "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Outil Pokémon, la montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
+				"en": "Once during your turn, you may search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Then, shuffle your deck.",
+				"es": "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Herramienta Pokémon, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
+				"it": "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Oggetto Pokémon, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				"pt": "Uma vez durante o seu turno, você poderá procurar por 1 carta de Ferramenta Pokémon no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
+				"de": "Einmal während deines Zuges kannst du dein Deck nach 1 Pokémon-Ausrüstung durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"fr": "Coup de Queue",
+				"en": "Tail Smack",
+				"es": "Bofetón Cola",
+				"it": "Codasberla",
+				"pt": "Ataque de Cauda",
+				"de": "Schweifschlag"
+			},
+			"damage": 80,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss."
+	},
+	"evolveFrom": {
+		"fr": "Rongourmand",
+		"en": "Skwovet"
+	},
+	"hp": 120,
+	"illustrator": "Hideki Ishikawa",
+	"name": {
+		"de": "Schlaraffel",
+		"en": "Greedent",
+		"es": "Greedent",
+		"fr": "Rongrigou",
+		"it": "Greedent",
+		"pt": "Greedent"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

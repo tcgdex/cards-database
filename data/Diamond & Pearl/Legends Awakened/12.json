@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Enthusiasm",
+				"fr": "Enthousiasme"
+			},
+			"effect": {
+				"en": "If you have Poliwag, Poliwhirl, and Poliwrath in play, each of these Pokémon's attacks does 60 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				"fr": "Si vous possédez Ptitard, Tetarte et Tartard en jeu, chacune des attaques de ces Pokémon inflige 60 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Frog Hop",
+				"fr": "Bond de grenouille"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 40 damage plus 40 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il rassemble ses pairs pour les commander. Il utilise son cri pour diriger Ptitard."
+	},
+	"dexId": [
+		186
+	],
+	"evolveFrom": {
+		"en": "Poliwhirl",
+		"fr": "Quaputzi"
+	},
+	"hp": 120,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Politoed",
+		"fr": "Tarpaud"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+30"
+		}
+	]
+}

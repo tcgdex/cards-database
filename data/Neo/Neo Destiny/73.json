@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Chop",
+				"fr": "Coup tranchant"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Punch",
+				"fr": "Koud'poing"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers."
+	},
+	"dexId": [
+		66
+	],
+	"hp": 40,
+	"illustrator": "Toshinao Aoki",
+	"name": {
+		"en": "Machop",
+		"fr": "Machoc"
+	},
+	"rarity": "Common",
+	"set": "neo4",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

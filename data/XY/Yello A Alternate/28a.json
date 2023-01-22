@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"fr": "Météores"
+			},
+			"effect": {
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire."
+			},
+			"damage": 30
+		},
+		{
+			"name": {
+				"fr": "Rayon Flash"
+			},
+			"effect": {
+				"fr": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon."
+			},
+			"damage": "{L}{C}{C}"
+		}
+	],
+	"category": "Pokemon",
+	"hp": 160,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"fr": "Voltali-ex"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"set": "xya",
+	"suffix": "EX",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

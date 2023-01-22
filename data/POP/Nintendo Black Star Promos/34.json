@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Burning Aura"
+			},
+			"effect": {
+				"en": "As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Flickering Flames"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rage"
+			},
+			"effect": {
+				"en": "Does 50 damage plus 10 more damage for each damage counter on Typhlosion."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		157
+	],
+	"evolveFrom": {
+		"en": "Quilava"
+	},
+	"hp": 110,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Typhlosion"
+	},
+	"rarity": "Common",
+	"set": "np",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Energy Assist"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, attach a basic Energy card from your discard pile to 1 of your Benched Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Victory Ball"
+			},
+			"effect": {
+				"en": "Discard a Fire Energy attached to this Pokémon."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		494
+	],
+	"hp": 70,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Victini"
+	},
+	"rarity": "Common",
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

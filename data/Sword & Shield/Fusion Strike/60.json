@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Collect"
+			},
+			"effect": {
+				"en": "Draw a card."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spike Sting"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
+	},
+	"hp": 80,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Baldorfish",
+		"en": "Qwilfish",
+		"es": "Qwilfish",
+		"fr": "Qwilfish",
+		"it": "Qwilfish",
+		"pt": "Qwilfish"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

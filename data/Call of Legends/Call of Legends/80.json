@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Placez 1 carte Énergie spéciale attachée à l’un des Pokémon de votre adversaire dans la Zone Perdue."
+	},
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Lost Remover",
+		"fr": "Nettoyeur perdu"
+	},
+	"rarity": "Uncommon",
+	"set": "col1",
+	"trainerType": "Item"
+}

@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Resonate"
+			},
+			"effect": {
+				"en": "Your opponent switches each Defending Pokémon with his or her Benched Pokémon. If your opponent has only 1 Benched Pokémon, you choose the Defending Pokémon to switch."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Healing Sound"
+			},
+			"effect": {
+				"en": "Remove 3 damage counters from each of your Active Pokémon. Each Defending Pokémon is now Asleep."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		358
+	],
+	"hp": 70,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Chimecho"
+	},
+	"rarity": "Common",
+	"set": "np",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

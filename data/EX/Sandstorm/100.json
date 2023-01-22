@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Deep Dive",
+				"fr": "Super gros plongeon"
+			},
+			"effect": {
+				"en": "If you don't have any Benched Pokémon, this attack does nothing. Remove 3 damage counters from Wailord ex. Switch Wailord ex with 1 of your Benched Pokémon.",
+				"fr": "Si vous n'avez pas de Pokémon sur votre Banc, cette attaque est sans effet. Retirez à Wailord ex trois marqueurs de dégât. Échangez Wailord ex contre un des Pokémon de votre Banc."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dwindling Wave",
+				"fr": "Vague diminutrice"
+			},
+			"effect": {
+				"en": "Does 100 damage minus 10 damage for each damage counter on Wailord ex.",
+				"fr": "Inflige 100 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Wailord ex."
+			},
+			"damage": "100-"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		321
+	],
+	"evolveFrom": {
+		"en": "Wailmer"
+	},
+	"hp": 200,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Wailord ex",
+		"fr": "Wailord ex"
+	},
+	"rarity": "Rare",
+	"set": "ex2",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		},
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

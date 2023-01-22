@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bounce"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "You may switch this Pokémon with 1 of your Benched Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rolling Tackle"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+	},
+	"evolveFrom": {
+		"en": "Wooloo",
+		"fr": "Moumouton",
+		"es": "Wooloo",
+		"it": "Wooloo",
+		"pt": "Wooloo",
+		"de": "Wolly"
+	},
+	"hp": 130,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Zwollock",
+		"en": "Dubwool",
+		"es": "Dubwool",
+		"fr": "Moumouflon",
+		"it": "Dubwool",
+		"pt": "Dubwool"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

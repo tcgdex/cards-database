@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Mud Spatter",
+				"fr": "Éclaboussure de boue"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Recover",
+				"fr": "Soin"
+			},
+			"effect": {
+				"en": "Discard a Water Energy attached to Shellos West Sea and remove all damage counters from Shellos West Sea.",
+				"fr": "Défaussez une Énergie Water attachée à Sancoki Mer Occident et retirez-lui tous ses marqueurs de dégât."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		422
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Shellos West Sea",
+		"fr": "Sancoki Mer Occident"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Piochez 3 cartes. Ensuite, choisissez une carte de votre main et placez-la au dessous de votre deck."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Professor Oak's Visit",
+		"fr": "La visite du Prof. Chen"
+	},
+	"rarity": "Uncommon",
+	"set": "dp3",
+	"trainerType": "Supporter"
+}

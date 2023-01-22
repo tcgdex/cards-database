@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 83,
+	"id": "g1",
+	"name": {
+		"de": "Generationen",
+		"en": "Generations",
+		"es": "Generaciones",
+		"fr": "Générations",
+		"it": "Generazioni",
+		"pt": "Gerações"
+	},
+	"releaseDate": "2016-02-22",
+	"serie": "xy",
+	"tcgOnline": "GEN"
+}

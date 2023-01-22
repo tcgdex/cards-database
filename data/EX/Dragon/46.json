@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Levitate",
+				"fr": "Lévitation"
+			},
+			"effect": {
+				"en": "If Vibrava has any basic Energy cards attached to it, Vibrava's Retreat Cost is 0.",
+				"fr": "Si Vibraninf possède des cartes Énergie de base, son Coût de retraite est de 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Wing",
+				"fr": "Aile tranchante"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		329
+	],
+	"evolveFrom": {
+		"en": "Trapinch"
+	},
+	"hp": 70,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Vibrava",
+		"fr": "Vibraninf"
+	},
+	"rarity": "Uncommon",
+	"set": "ex3",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Charge Beam"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your discard pile for an Energy card and attach it to Zapdos ."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lightning Strike"
+			},
+			"effect": {
+				"en": "You may discard all Lightning Energy attached to Zapdos . If you do, this attack's base damage is 80 instead of 40."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		145
+	],
+	"illustrator": "Ryota Saito",
+	"name": {
+		"en": "Zapdos"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hang Down",
+				"fr": "Suspension"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Spider Web",
+				"fr": "Toile"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
+	},
+	"dexId": [
+		167
+	],
+	"hp": 50,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Spinarak",
+		"fr": "Mimigal"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

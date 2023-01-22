@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Allergy Flower",
+				"fr": "Fleur allergène"
+			},
+			"effect": {
+				"en": "Each player can’t play any Trainer cards from his or her hand.",
+				"fr": "Aucun joueur ne peut jouer de carte Dresseur de sa main."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dazzling Pollen",
+				"fr": "Pollen étincelant"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires. Si c’est pile, le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": "50+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen."
+	},
+	"dexId": [
+		45
+	],
+	"evolveFrom": {
+		"en": "Gloom",
+		"fr": "Ortide"
+	},
+	"hp": 120,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Vileplume",
+		"fr": "Rafflesia"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "hgss3",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slam",
+				"fr": "Souplesse"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		194
+	],
+	"hp": 70,
+	"illustrator": "sui",
+	"name": {
+		"de": "Felino",
+		"en": "Wooper",
+		"es": "Wooper",
+		"fr": "Axoloto",
+		"it": "Wooper",
+		"pt": "Wooper"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

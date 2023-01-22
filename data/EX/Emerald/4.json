@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Heal Dance",
+				"fr": "Danse guérisseuse"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poké-Power each turn. This power can't be used if Gardevoir is affected by a Special Condition.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 de vos Pokémon. Vous ne pouvez pas utiliser plus d'1 Poké-Power Danse Guérisseuse par tour. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psypunch",
+				"fr": "Coup de poing psy"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mind Shock",
+				"fr": "Choc cérébral"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Weakness or Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		282
+	],
+	"evolveFrom": {
+		"en": "Kirlia"
+	},
+	"hp": 100,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Gardevoir",
+		"fr": "Gardevoir"
+	},
+	"rarity": "Rare",
+	"set": "ex9",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Confuse Ray"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poltergeist"
+			},
+			"damage": "40×",
+			"effect": {
+				"en": "Your opponent reveals their hand. This attack does 40 damage for each Trainer card you find there."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 200,
+	"illustrator": "Saki Hayashiro",
+	"name": {
+		"de": "Skelabra V",
+		"en": "Chandelure V",
+		"es": "Chandelure V",
+		"fr": "Lugulabre V",
+		"it": "Chandelure V",
+		"pt": "Chandelure V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

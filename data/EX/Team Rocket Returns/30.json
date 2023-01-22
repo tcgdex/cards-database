@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Poison Breath"
+			},
+			"effect": {
+				"en": "Each Defending Pokémon is now Poisoned."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Breaking Impact"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. This attack does 20 damage for each Colorless Energy in that Pokémon's Retreat Cost (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		168
+	],
+	"evolveFrom": {
+		"en": "Spinarak"
+	},
+	"hp": 70,
+	"illustrator": "Kyoko Koizumi",
+	"name": {
+		"en": "Dark Ariados"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Grass",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Dark Trance"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may move a Darkness Energy attached to 1 of your Pokémon to another of your Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragonblast"
+			},
+			"effect": {
+				"en": "Discard 2 Darkness Energy attached to this Pokémon."
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		635
+	],
+	"evolveFrom": {
+		"en": "Zweilous"
+	},
+	"hp": 150,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Hydreigon"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

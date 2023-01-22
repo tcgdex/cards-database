@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"en": "Lightning Energy",
+		"fr": "Énergie Électrique"
+	},
+	"rarity": "Rare",
+	"set": "ex9",
+	"stage": "Basic"
+}

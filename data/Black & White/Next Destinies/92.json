@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"effect": {
+		"fr": "Double Énergie Incolore fournit de l’Énergie ColorlessColorless.",
+		"en": "Double Colorless Energy provides ColorlessColorless Energy.",
+		"es": "Doble Energía Incolora proporciona Energía ColorlessColorless.",
+		"it": "Un’Energia Incolore doppia fornisce ColorlessColorless.",
+		"pt": "A Energia Incolor Dupla fornece Energias ColorlessColorless .",
+		"de": "Doppel-Farblos-Energie liefert ColorlessColorless-Energie."
+	},
+	"energyType": "Special",
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Doppel-Farblos-Energie",
+		"en": "Double Colorless Energy",
+		"es": "Doble Energía Incolora",
+		"fr": "Double Énergie Incolore",
+		"it": "Energia Incolore doppia",
+		"pt": "Energia Incolor Dupla"
+	},
+	"rarity": "Uncommon",
+	"set": "bw4"
+}

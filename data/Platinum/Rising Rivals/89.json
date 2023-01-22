@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Bebe's Search",
+		"fr": "La recherche d'Amelle"
+	},
+	"rarity": "Uncommon",
+	"set": "pl2",
+	"trainerType": "Supporter"
+}

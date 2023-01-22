@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Volt Wave",
+				"fr": "Vague Survoltée",
+				"es": "Onda Electrificante",
+				"it": "Onda Volt",
+				"pt": "Onda de Volts",
+				"de": "Voltwelle"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis."
+	},
+	"dexId": [
+		596
+	],
+	"evolveFrom": {
+		"en": "Joltik",
+		"fr": "Statitik",
+		"es": "Joltik",
+		"it": "Joltik",
+		"pt": "Joltik",
+		"de": "Wattzapf"
+	},
+	"hp": 100,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Voltula",
+		"en": "Galvantula",
+		"es": "Galvantula",
+		"fr": "Mygavolt",
+		"it": "Galvantula",
+		"pt": "Galvantula"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

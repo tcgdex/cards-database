@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 116,
+	"id": "bw9",
+	"name": {
+		"de": "Plasma-Frost",
+		"en": "Plasma Freeze",
+		"es": "Glaciación Plasma",
+		"fr": "Glaciation Plasma",
+		"it": "Glaciazione Plasma",
+		"pt": "Congelamento de Plasma"
+	},
+	"releaseDate": "2013-05-08",
+	"serie": "bw",
+	"tcgOnline": "PLF"
+}

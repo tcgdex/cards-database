@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"effect": {
+		"fr": "Double Énergie Incolore fournit de l'Énergie ColorlessColorless.",
+		"en": "Double Colorless Energy provides ColorlessColorless Energy."
+	},
+	"energyType": "Special",
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Double Colorless Energy",
+		"fr": "Double Énergie Incolore"
+	},
+	"rarity": "Uncommon",
+	"set": "g1"
+}

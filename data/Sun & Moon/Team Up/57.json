@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic",
+				"es": "Picotazo",
+				"it": "Beccata",
+				"pt": "Bicada",
+				"de": "Schnabel"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Attack",
+				"fr": "Koud’Korne",
+				"es": "Cornada",
+				"it": "Incornata",
+				"pt": "Ataque de Chifre",
+				"de": "Hornattacke"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		32
+	],
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Nidoran♂",
+		"en": "Nidoran♂",
+		"es": "Nidoran♂",
+		"fr": "Nidoran♂",
+		"it": "Nidoran♂",
+		"pt": "Nidoran♂"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm9",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

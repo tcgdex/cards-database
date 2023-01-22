@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Gifle",
+				"en": "Slap",
+				"es": "Bofetón",
+				"it": "Sberla",
+				"pt": "Tapa",
+				"de": "Hieb"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"fr": "Choc Statique",
+				"en": "Static Shock",
+				"es": "Impacto Estático",
+				"it": "Shock Statico",
+				"pt": "Choque de Estática",
+				"de": "Statischer Schock"
+			},
+			"damage": 20,
+			"cost": [
+				"Lightning",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Toxel",
+		"en": "Toxel",
+		"es": "Toxel",
+		"fr": "Toxizap",
+		"it": "Toxel",
+		"pt": "Toxel"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

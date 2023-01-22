@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Singe",
+				"fr": "Ça sent le roussi !"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				"fr": "Lancez une pièce. Si c'est face, Le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		323
+	],
+	"evolveFrom": {
+		"en": "Numel"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Camerupt",
+		"fr": "Camerupt"
+	},
+	"rarity": "Uncommon",
+	"set": "ex3",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

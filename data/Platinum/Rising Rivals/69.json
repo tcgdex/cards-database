@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Baby Evolution",
+				"fr": "Évolution bébé"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may put Snorlax from your hand onto Munchlax (this counts as evolving Munchlax) and remove all damage counters from Munchlax.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Ronflex de votre main sur Goinfrex (vous le faites ainsi évoluer) et lui retirer tous ses marqueurs de dégât."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rest",
+				"fr": "Repos"
+			},
+			"effect": {
+				"en": "Remove all Special Conditions and 6 damage counters from Munchlax. Munchlax is now Asleep.",
+				"fr": "Retirez à Goinfrex tous ses États Spéciaux ainsi que 6 marqueurs de dégât. Goinfrex est maintenant Endormi."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		446
+	],
+	"hp": 70,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Munchlax",
+		"fr": "Goinfrex Niv. 13"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

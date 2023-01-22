@@ -1,0 +1,85 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Caturday",
+				"fr": "Chamedi",
+				"es": "Sábado Gatuno",
+				"it": "Giornogatto",
+				"pt": "Dia de Gato",
+				"de": "Schnurrtag"
+			},
+			"effect": {
+				"en": "Draw 3 cards. If you do, this Pokémon is now Asleep.",
+				"fr": "Piochez 3 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
+				"es": "Roba 3 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
+				"it": "Pesca tre carte. Se lo fai, questo Pokémon viene addormentato.",
+				"pt": "Compre 3 cartas. Se fizer isto, este Pokémon ficará Adormecido.",
+				"de": "Ziehe 3 Karten. Wenn du das machst, schläft dieses Pokémon jetzt."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Claw Slash",
+				"fr": "Tranch'Griffe",
+				"es": "Cuchillada Garra",
+				"it": "Lacerartiglio",
+				"pt": "Golpe de Garra",
+				"de": "Klauenschlitzer"
+			},
+			"damage": 120,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails."
+	},
+	"evolveFrom": {
+		"en": "Glameow",
+		"fr": "Chaglam",
+		"es": "Glameow",
+		"it": "Glameow",
+		"pt": "Glameow",
+		"de": "Charmian"
+	},
+	"hp": 120,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Shnurgarst",
+		"en": "Purugly",
+		"es": "Purugly",
+		"fr": "Chaffreux",
+		"it": "Purugly",
+		"pt": "Purugly"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh5",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

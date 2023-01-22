@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hypnoblast",
+				"fr": "Hypnoblast"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Deep Wind",
+				"fr": "Vent Puissant"
+			},
+			"effect": {
+				"en": "If your opponent's Active Pokémon is Asleep, this attack does 60 more damage and heal 30 damage from this Pokémon.",
+				"fr": "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon."
+			},
+			"damage": "60＋"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		491
+	],
+	"hp": 120,
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"en": "Darkrai",
+		"fr": "Darkrai"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "−20"
+		}
+	],
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

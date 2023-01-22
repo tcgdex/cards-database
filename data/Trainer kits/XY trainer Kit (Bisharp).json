@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-xy-b",
+	"name": {
+		"en": "XY trainer Kit (Bisharp)",
+		"es": "Kit de Entrenador XY (Bisharp)",
+		"fr": "XY Kit du dresseur (Scalproie)",
+		"it": "XY trainer Kit (Bisharp)"
+	},
+	"releaseDate": "2014-11-01",
+	"serie": "tk"
+}

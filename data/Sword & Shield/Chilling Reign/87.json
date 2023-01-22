@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Rogue Fangs",
+				"fr": "Crocs Fougueux",
+				"es": "Colmillos Malvados",
+				"it": "Zanne Ferali",
+				"pt": "Presas Trapaceiras",
+				"de": "Schurkische Fänge"
+			},
+			"effect": {
+				"en": "This attack does 10 more damage for each Single Strike Pokémon in your discard pile.",
+				"fr": "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon Poing Final dans votre pile de défausse.",
+				"es": "Este ataque hace 10 puntos de daño más por cada Pokémon Golpe Brusco en tu pila de descartes.",
+				"it": "Questo attacco infligge 10 danni in più per ogni Pokémon Colpo Singolo nella tua pila degli scarti.",
+				"pt": "Este ataque causa 10 pontos de dano a mais para cada Pokémon Golpe Decisivo na sua pilha de descarte.",
+				"de": "Diese Attacke fügt für jedes Fokussierter-Angriff-Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
+			},
+			"damage": "80+",
+			"cost": [
+				"Fighting",
+				"Fighting"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power."
+	},
+	"evolveFrom": {
+		"en": "Rockruff",
+		"fr": "Rocabot",
+		"es": "Rockruff",
+		"it": "Rockruff",
+		"pt": "Rockruff",
+		"de": "Wuffels"
+	},
+	"hp": 120,
+	"illustrator": "Teeziro",
+	"name": {
+		"de": "Wolwerock",
+		"en": "Lycanroc",
+		"es": "Lycanroc",
+		"fr": "Lougaroc",
+		"it": "Lycanroc",
+		"pt": "Lycanroc"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh6",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

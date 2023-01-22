@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Fortitude"
+			},
+			"effect": {
+				"en": "If Giovanni's Machamp would be Knocked Out by an opponent's attack, flip a coin. If heads, Giovanni's Machamp is not Knocked Out and its remaining HP become 10 instead. This power can't be used if Giovanni's Machamp is already Asleep, Confused, or Paralyzed."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hurricane Punch"
+			},
+			"effect": {
+				"en": "Flip 4 coins. This attack does 30 damage times the number of heads."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		68
+	],
+	"evolveFrom": {
+		"en": "Machoke"
+	},
+	"hp": 100,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Giovanni's Machamp"
+	},
+	"rarity": "Rare",
+	"set": "gym2",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

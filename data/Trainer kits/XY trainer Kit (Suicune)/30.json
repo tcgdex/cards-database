@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Spiral Drain"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon."
+			}
+		},
+		{
+			"name": {
+				"en": "Aurora Beam"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+	},
+	"hp": 100,
+	"illustrator": "Yoshinobu Saito",
+	"name": {
+		"de": "Suicune",
+		"en": "Suicune",
+		"es": "Suicune",
+		"fr": "Suicune",
+		"it": "Suicune",
+		"pt": "Suicune"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "tk-xy-su",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

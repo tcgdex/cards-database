@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bubble Beam",
+				"fr": "Bulles d'O"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		270
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Loturzel",
+		"en": "Lotad",
+		"es": "Lotad",
+		"fr": "Nénupiot",
+		"it": "Lotad",
+		"pt": "Lotad"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

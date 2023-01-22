@@ -1,0 +1,12 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 12,
+	"id": "2016xy",
+	"name": {
+		"en": "Macdonald's Collection 2016",
+		"fr": "Promo McDonald's 2016",
+		"it": "McDonald's Collection 2016"
+	},
+	"releaseDate": "2016-08-20",
+	"serie": "mc"
+}

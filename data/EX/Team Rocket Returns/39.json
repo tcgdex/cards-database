@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magnetic Lines"
+			},
+			"effect": {
+				"en": "If your opponent has at least 2 Pokémon in play, move a basic Energy card from the Defending Pokémon to another of your opponent's Pokémon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Pulse"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		82
+	],
+	"evolveFrom": {
+		"en": "Magnemite"
+	},
+	"hp": 70,
+	"illustrator": "Emi Miwa",
+	"name": {
+		"en": "Dark Magneton"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Lightning",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

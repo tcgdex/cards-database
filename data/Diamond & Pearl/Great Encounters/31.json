@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Toxic Virus",
+				"fr": "Virus toxik"
+			},
+			"effect": {
+				"en": "At any time between turns, each player puts 1 more damage counter on his or her Poisoned Pokémon.",
+				"fr": "N'importe quand entre deux tours, chaque joueur place 1 marqueur de dégât supplémentaire sur ses Pokémon Empoisonnés."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Offensive Gas",
+				"fr": "Gaz offensif"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		110
+	],
+	"evolveFrom": {
+		"en": "Koffing",
+		"fr": "Smogo"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Weezing",
+		"fr": "Smogogo"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

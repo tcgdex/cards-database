@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pike",
+				"fr": "Javelot"
+			},
+			"effect": {
+				"en": "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		503
+	],
+	"evolveFrom": {
+		"en": "Dewott",
+		"fr": "Mateloutre"
+	},
+	"hp": 140,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Admurai",
+		"en": "Samurott",
+		"es": "Samurott",
+		"fr": "Clamiral",
+		"it": "Samurott",
+		"pt": "Samurott"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw1",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

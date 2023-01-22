@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mega Kick"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Love Lariat"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 50 damage plus 50 more damage if you have at least 1 Giovanni's Nidoking on your Bench. If tails, this attack does nothing."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		31
+	],
+	"evolveFrom": {
+		"en": "Nidorina"
+	},
+	"hp": 100,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Giovanni's Nidoqueen"
+	},
+	"rarity": "Rare",
+	"set": "gym2",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

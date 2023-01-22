@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Wasser-Energie",
+		"en": "Water Energy",
+		"es": "Energía Agua",
+		"fr": "Énergie Eau",
+		"it": "Energia Acqua",
+		"pt": "Energia de Água"
+	},
+	"rarity": "Common",
+	"set": "xy12"
+}

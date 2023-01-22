@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Suction Heal"
+			},
+			"effect": {
+				"en": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slurp Shakedown"
+			},
+			"effect": {
+				"en": "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. This attack does 60 damage to the new Defending Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		604
+	],
+	"evolveFrom": {
+		"en": "Eelektrik"
+	},
+	"hp": 140,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Zapplarang",
+		"en": "Eelektross",
+		"es": "Eelektross",
+		"fr": "Ohmassacre",
+		"it": "Eelektross",
+		"pt": "Eelektross"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw5",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

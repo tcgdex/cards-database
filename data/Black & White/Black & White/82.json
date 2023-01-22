@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collectionner"
+			},
+			"effect": {
+				"en": "Draw 3 cards.",
+				"fr": "Piochez 3 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		507
+	],
+	"evolveFrom": {
+		"en": "Lillipup",
+		"fr": "Ponchiot"
+	},
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Terribark",
+		"en": "Herdier",
+		"es": "Herdier",
+		"fr": "Ponchien",
+		"it": "Herdier",
+		"pt": "Herdier"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

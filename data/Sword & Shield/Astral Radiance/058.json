@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Mumble",
+				"fr": "Murmure",
+				"es": "Farfullar",
+				"it": "Borbottio",
+				"pt": "Resmungo",
+				"de": "Grummeln"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"de": "Traunfugil",
+		"en": "Misdreavus",
+		"es": "Misdreavus",
+		"fr": "Feuforêve",
+		"it": "Misdreavus",
+		"pt": "Misdreavus"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh10",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

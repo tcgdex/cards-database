@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Energy Assist"
+			},
+			"effect": {
+				"en": "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		470
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 90,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Folipurba",
+		"en": "Leafeon",
+		"es": "Leafeon",
+		"fr": "Phyllali",
+		"it": "Leafeon",
+		"pt": "Leafeon"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

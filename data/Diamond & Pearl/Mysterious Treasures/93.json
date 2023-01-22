@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Baby Evolution",
+				"fr": "Évolution bébé"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
+				"fr": "Une seule fois lors votre tour (avant votre attaque), vous pouvez placer Pikachu de votre main sur Pichu (vous le faites ainsi évoluer) et retirer à Pichu tous ses marqueurs de dégât."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Chupi",
+				"fr": "Chupi"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
+	},
+	"dexId": [
+		172
+	],
+	"hp": 40,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Pichu",
+		"fr": "Pichu"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

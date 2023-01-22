@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Dragon Crush",
+				"fr": "Écras'dragon"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage to each Defending Pokémon. Discard an Energy card from each Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon Défenseur. Défaussez une carte Énergie de chacun de ces Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aqua Sonic",
+				"fr": "Aquasonique"
+			},
+			"effect": {
+				"en": "This attack's damage is not affected by Resistance.",
+				"fr": "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		130
+	],
+	"evolveFrom": {
+		"en": "Magikarp"
+	},
+	"hp": 100,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Gyarados",
+		"fr": "Leviator"
+	},
+	"rarity": "Uncommon",
+	"set": "ex3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

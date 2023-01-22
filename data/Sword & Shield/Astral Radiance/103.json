@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rear Kick",
+				"fr": "Ruade",
+				"es": "Patada Trasera",
+				"it": "Retrocalcio",
+				"pt": "Chute Traseiro",
+				"de": "Rückwärtskick"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"de": "Kleptifux",
+		"en": "Nickit",
+		"es": "Nickit",
+		"fr": "Goupilou",
+		"it": "Nickit",
+		"pt": "Nickit"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh10",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

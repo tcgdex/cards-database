@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 10,
+	"id": "tk-ex-latia",
+	"name": {
+		"de": "EX trainer Kit (Latias)",
+		"en": "EX trainer Kit (Latias)",
+		"es": "Kit de Entrenador EX (Latias)",
+		"fr": "EX Kit dresseur (Latias)",
+		"it": "EX trainer Kit (Latias)"
+	},
+	"releaseDate": "2004-07-01",
+	"serie": "tk"
+}

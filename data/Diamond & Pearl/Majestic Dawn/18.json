@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sunlight Veil",
+				"fr": "Voile solaire"
+			},
+			"effect": {
+				"en": "Each of your Pokémon that evolves from Eevee gets +20 HP. You can't use more than 1 Sunlight Veil Poké-Body each turn.",
+				"fr": "Chacun de vos Pokémon évoluant d'Evoli obtient 20 PV de plus. Vous ne pouvez pas utiliser plus d'1 Poké-Body Voile solaire par tour."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Morning Sun",
+				"fr": "Aurore"
+			},
+			"effect": {
+				"en": "You may move an Energy card attached to Espeon to 1 of your Benched Pokémon.",
+				"fr": "Vous pouvez déplacer une carte Énergie attachée à Mentali sur 1 des Pokémon de votre Banc."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		196
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Evoli"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Espeon",
+		"fr": "Mentali"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp5",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

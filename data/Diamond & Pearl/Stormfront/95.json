@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"effect": {
+		"fr": "Énergie de distorsion fournit de l'Énergie Colorless. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec 1 des Pokémon de votre Banc."
+	},
+	"energyType": "Special",
+	"illustrator": "Takumi Akabane",
+	"name": {
+		"en": "Warp Energy",
+		"fr": "Énergie de Distorsion"
+	},
+	"rarity": "Uncommon",
+	"set": "dp7"
+}

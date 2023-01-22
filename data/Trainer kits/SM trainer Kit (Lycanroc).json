@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-sm-l",
+	"name": {
+		"en": "SM trainer Kit (Lycanroc)",
+		"es": "Kit de Entrenador Sol y Luna (Lycanroc)",
+		"fr": "SM Kit du dresseur (Lougarox)",
+		"it": "Sole e Luna trainer Kit (Lycanroc)"
+	},
+	"releaseDate": "2017-04-21",
+	"serie": "tk"
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 20,
+	"id": "dv1",
+	"name": {
+		"de": "Drachengruft",
+		"en": "Dragon Vault",
+		"es": "Tesoro de Dragones",
+		"fr": "Coffre des Dragons",
+		"it": "Tesoro dei Draghi",
+		"pt": "Cofre do Dragão"
+	},
+	"releaseDate": "2012-10-05",
+	"serie": "bw",
+	"tcgOnline": "DRV"
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 189,
+	"id": "swsh3",
+	"name": {
+		"de": "Flammende Finsternis",
+		"en": "Darkness Ablaze",
+		"es": "Oscuridad Incandescente",
+		"fr": "Ténèbres Embrasées",
+		"it": "Fiamme Oscure",
+		"pt": "Escuridão Incandescente"
+	},
+	"releaseDate": "2020-08-14",
+	"serie": "swsh"
+}

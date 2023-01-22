@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 119,
+	"id": "xy4",
+	"name": {
+		"de": "Phantomkräfte",
+		"en": "Phantom Forces",
+		"es": "Fuerzas Fantasmales",
+		"fr": "Vigueur Spectrale",
+		"it": "Forze Spettrali",
+		"pt": "Força Fantasma"
+	},
+	"releaseDate": "2014-11-05",
+	"serie": "xy",
+	"tcgOnline": "PHF"
+}

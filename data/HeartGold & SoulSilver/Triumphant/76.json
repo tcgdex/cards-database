@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Paralyzing Clamp",
+				"fr": "Griffe paralysante"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison."
+	},
+	"dexId": [
+		451
+	],
+	"hp": 60,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Skorupi",
+		"fr": "Rapion"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

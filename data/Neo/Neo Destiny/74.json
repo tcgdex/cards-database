@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Giant Wave",
+				"fr": "Vague géante"
+			},
+			"effect": {
+				"en": "Mantine can't attack during your next turn.",
+				"fr": "Demanta ne peut pas attaquer pendant votre prochain tour."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon est parfaitement adapté au milieu océanique. Il peut accumuler suffisamment de vitesse pour bondir hors de l'eau comme une baleine."
+	},
+	"dexId": [
+		226
+	],
+	"hp": 60,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Mantine",
+		"fr": "Demanta"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "neo4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

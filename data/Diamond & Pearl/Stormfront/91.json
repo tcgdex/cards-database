@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez dans votre deck ou votre pile de défausse un Pokémon NIV.X, montrez-la à votre adversaire et placez-le dans votre main. Si vous cherchez dans votre deck, mélangez-le."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Premier Ball",
+		"fr": "Honor ball"
+	},
+	"rarity": "Uncommon",
+	"set": "dp7",
+	"trainerType": "Item"
+}

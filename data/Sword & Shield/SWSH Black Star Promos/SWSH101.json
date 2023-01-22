@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Torrential Cannon"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't use Torrential Cannon."
+			},
+			"damage": 200
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		9
+	],
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Blastoise V"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

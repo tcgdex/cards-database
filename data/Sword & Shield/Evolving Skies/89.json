@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Stampede",
+				"fr": "Ruée",
+				"es": "Estampida",
+				"it": "Fuggi Fuggi",
+				"pt": "Stampede",
+				"de": "Zertrampeln"
+			},
+			"damage": 20,
+			"cost": [
+				"Fighting"
+			]
+		},
+		{
+			"name": {
+				"en": "Tongue Slap",
+				"fr": "Gros Coup de Langue",
+				"es": "Bofetón Lengua",
+				"it": "Linguasberla",
+				"pt": "Tongue Slap",
+				"de": "Zungenschelle"
+			},
+			"damage": 50,
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds."
+	},
+	"dexId": [
+		536
+	],
+	"evolveFrom": {
+		"en": "Tympole",
+		"fr": "Tritonde",
+		"es": "Tympole",
+		"it": "Tympole",
+		"pt": "Tympole",
+		"de": "Schallquap"
+	},
+	"hp": 100,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Mebrana",
+		"en": "Palpitoad",
+		"es": "Palpitoad",
+		"fr": "Batracné",
+		"it": "Palpitoad",
+		"pt": "Palpitoad"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh7",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

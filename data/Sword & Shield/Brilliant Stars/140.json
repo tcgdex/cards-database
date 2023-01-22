@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Draw 3 cards.",
+		"fr": "Piochez 3 cartes.",
+		"es": "Roba 3 cartas.",
+		"it": "Pesca tre carte.",
+		"pt": "Compre 3 cartas.",
+		"de": "Ziehe 3 Karten."
+	},
+	"name": {
+		"de": "Freunde aus Galar",
+		"en": "Friends in Galar",
+		"es": "Amigos de Galar",
+		"fr": "Amis de Galar",
+		"it": "Amici a Galar",
+		"pt": "Amigos em Galar"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"set": "swsh9",
+	"trainerType": "Supporter"
+}

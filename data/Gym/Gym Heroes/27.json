@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Charge"
+			},
+			"effect": {
+				"en": "Take up to 2 Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz"
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Electric Current"
+			},
+			"effect": {
+				"en": "Take 1 Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		125
+	],
+	"evolveFrom": {
+		"en": "Elekid"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Lt. Surge's Electabuzz"
+	},
+	"rarity": "Rare",
+	"set": "gym1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

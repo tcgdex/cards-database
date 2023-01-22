@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Disaster Wing",
+				"fr": "Aile du Désastre"
+			},
+			"effect": {
+				"en": "Discard the top card of your opponent's deck. If that card is a Trainer card, this attack does 80 more damage.",
+				"fr": "Défaussez la carte du dessus du deck de votre adversaire. Si c'est une carte Dresseur, cette attaque inflige 80 dégâts supplémentaires."
+			},
+			"damage": "80＋"
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"fr": "Aile du Désastre"
+			},
+			"effect": {
+				"fr": "Défaussez la carte du dessus du deck de votre adversaire. Si c'est une carte Dresseur, cette attaque inflige 80 dégâts supplémentaires."
+			},
+			"damage": "80＋"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		359
+	],
+	"evolveFrom": {
+		"en": "Absol-EX",
+		"fr": "Absol-EX"
+	},
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Absol EX",
+		"fr": "M Absol EX"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xyp",
+	"stage": "MEGA",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

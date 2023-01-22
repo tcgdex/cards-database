@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Roar",
+				"fr": "Hurlement",
+				"es": "Rugido",
+				"it": "Boato",
+				"pt": "Rugido",
+				"de": "Brüller"
+			},
+			"effect": {
+				"en": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				"fr": "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				"es": "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				"it": "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				"pt": "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				"de": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Claw Slash",
+				"fr": "Tranch’Griffe",
+				"es": "Cuchillada Garra",
+				"it": "Lacerartiglio",
+				"pt": "Golpe de Garra",
+				"de": "Klauenschlitzer"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		726
+	],
+	"evolveFrom": {
+		"en": "Litten",
+		"fr": "Flamiaou"
+	},
+	"hp": 90,
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"de": "Miezunder",
+		"en": "Torracat",
+		"es": "Torracat",
+		"fr": "Matoufeu",
+		"it": "Torracat",
+		"pt": "Torracat"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm9",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

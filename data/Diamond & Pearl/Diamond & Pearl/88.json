@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade"
+			},
+			"effect": {
+				"en": "If Marill is evolved from Azurill, this attack does 10 damage plus 20 more damage.",
+				"fr": "Si Marill évolue d'Azurill, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Splashing Turn",
+				"fr": "Tour éclaboussant"
+			},
+			"effect": {
+				"en": "Switch Marill with 1 of your Benched Pokémon.",
+				"fr": "Échangez Marill avec 1 des Pokémon de votre Banc."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il plonge sous l'eau en utilisant sa queue comme un flotteur. Il aime les plantes du fond des rivières."
+	},
+	"dexId": [
+		183
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Marill",
+		"fr": "Marill"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

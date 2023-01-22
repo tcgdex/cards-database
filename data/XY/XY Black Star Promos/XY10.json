@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Poison Barrier",
+				"fr": "Barrière de Poison"
+			},
+			"effect": {
+				"en": "Your opponent's Poisoned Pokémon can't retreat.",
+				"fr": "Les Pokémon Empoisonnés de votre adversaire ne peuvent pas battre en retraite."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Breath",
+				"fr": "Haleine Empoisonnée"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		691
+	],
+	"evolveFrom": {
+		"en": "Skrelp",
+		"fr": "Venalgue"
+	},
+	"hp": 100,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Dragalge",
+		"fr": "Kravarech"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

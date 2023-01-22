@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Find a Friend",
+				"fr": "Trouver un ami"
+			},
+			"effect": {
+				"en": "Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Cherchez un Pokémon dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Blow",
+				"fr": "Coup d’poing éclair"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+	},
+	"dexId": [
+		162
+	],
+	"evolveFrom": {
+		"en": "Sentret",
+		"fr": "Fouinette"
+	},
+	"hp": 80,
+	"illustrator": "MAHOU",
+	"name": {
+		"en": "Furret",
+		"fr": "Fouinar"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

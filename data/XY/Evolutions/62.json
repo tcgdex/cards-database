@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Jab",
+				"fr": "Taquet",
+				"es": "Puya",
+				"it": "Stoccata",
+				"pt": "Golpe",
+				"de": "Boxschlag"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Special Punch",
+				"fr": "Punch spécial",
+				"es": "Puñetazo Especial",
+				"it": "Pugno Speciale",
+				"pt": "Soco Especial",
+				"de": "Spezialhieb"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		107
+	],
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Nockchan",
+		"en": "Hitmonchan",
+		"es": "Hitmonchan",
+		"fr": "Tygnon",
+		"it": "Hitmonchan",
+		"pt": "Hitmonchan"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "xy12",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

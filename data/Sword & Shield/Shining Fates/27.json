@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"fr": "Exosquelette",
+				"en": "Exoskeleton",
+				"es": "Exosqueleto",
+				"it": "Esoscheletro",
+				"pt": "Exo-esqueleto",
+				"de": "Exoskelett"
+			},
+			"effect": {
+				"fr": "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				"en": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				"es": "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				"it": "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				"pt": "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				"de": "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"fr": "Coud'Krâne",
+				"en": "Skull Bash",
+				"es": "Cabezazo",
+				"it": "Capocciata",
+				"pt": "Quebra-crânio",
+				"de": "Schädelwumme"
+			},
+			"damage": 130,
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
+	},
+	"evolveFrom": {
+		"fr": "Khélocrok",
+		"en": "Chewtle"
+	},
+	"hp": 140,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Kamalm",
+		"en": "Drednaw",
+		"es": "Drednaw",
+		"fr": "Torgamord",
+		"it": "Drednaw",
+		"pt": "Drednaw"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh4.5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

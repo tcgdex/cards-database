@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Captivate",
+				"fr": "Séduction"
+			},
+			"effect": {
+				"en": "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				"fr": "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fluffy Tail",
+				"fr": "Queue Touffue"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		573
+	],
+	"evolveFrom": {
+		"en": "Minccino",
+		"fr": "Chinchidou"
+	},
+	"hp": 90,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Chillabell",
+		"en": "Cinccino",
+		"es": "Cinccino",
+		"fr": "Pashmilla",
+		"it": "Cinccino",
+		"pt": "Cinccino"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

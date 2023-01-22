@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Dark Trance",
+				"fr": "Transe Obscure",
+				"es": "Trance Siniestro",
+				"it": "Ipnoscuro",
+				"pt": "Transe Sombrio",
+				"de": "Dunkle Dämmerung"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may move a Darkness Energy attached to 1 of your Pokémon to another of your Pokémon.",
+				"fr": "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Darkness attachée à 1 de vos Pokémon vers un autre de vos Pokémon.",
+				"es": "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover una Energía Darkness unida a 1 de tus Pokémon a otro de tus Pokémon.",
+				"it": "Durante il tuo turno, prima di attaccare, puoi spostare a piacimento una carta Energia Darkness assegnata ai tuoi Pokémon.",
+				"pt": "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você pode mover uma Energia Darkness ligada a 1 dos seus Pokémon para outro dos seus Pokémon.",
+				"de": "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Darkness-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragonblast",
+				"fr": "Dracoxplosion"
+			},
+			"effect": {
+				"en": "Discard 2 Darkness Energy attached to this Pokémon.",
+				"fr": "Défaussez 2 Énergies Darkness attachées à ce Pokémon."
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		635
+	],
+	"evolveFrom": {
+		"en": "Zweilous",
+		"fr": "Diamat"
+	},
+	"hp": 150,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Trikephalo",
+		"en": "Hydreigon",
+		"es": "Hydreigon",
+		"fr": "Trioxhydre",
+		"it": "Hydreigon",
+		"pt": "Hydreigon"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw6",
+	"stage": "Stage2",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

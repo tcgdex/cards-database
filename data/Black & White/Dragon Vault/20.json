@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez une combinaison de 3 cartes de Pokémon et d'Énergies de base dans votre pile de défausse et mélangez-les avec votre deck."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Super Rod",
+		"fr": "Méga Canne"
+	},
+	"rarity": "Rare",
+	"set": "dv1",
+	"trainerType": "Item"
+}

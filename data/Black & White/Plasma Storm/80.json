@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dynamic Punch",
+				"fr": "Dynamopoing"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncer"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		533
+	],
+	"evolveFrom": {
+		"en": "Timburr",
+		"fr": "Charpenti"
+	},
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Strepoli",
+		"en": "Gurdurr",
+		"es": "Gurdurr",
+		"fr": "Ouvrifier",
+		"it": "Gurdurr",
+		"pt": "Gurdurr"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

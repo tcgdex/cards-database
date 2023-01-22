@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down",
+				"fr": "Bélier"
+			},
+			"effect": {
+				"en": "Lairon does 20 damage to itself.",
+				"fr": "Galegon s’inflige 20 dégâts."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
+	},
+	"dexId": [
+		305
+	],
+	"evolveFrom": {
+		"en": "Aron",
+		"fr": "Galekid"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Lairon",
+		"fr": "Galegon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

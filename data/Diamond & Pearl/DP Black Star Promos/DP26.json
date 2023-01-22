@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Time Bellow",
+				"fr": "Appel temporel"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flash Cannon",
+				"fr": "Luminocanon"
+			},
+			"effect": {
+				"en": "You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck.",
+				"fr": "Vous pouvez reprendre dans votre main toutes les cartes Énergies attachées à Dialga. Retirez alors au Pokémon Défenseur la carte Évolution au niveau le plus élevé et mélangez-là au deck de votre adversaire."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il peut contrôler le temps. Les mythes de Sinnoh en parlent comme d'une divinité ancienne."
+	},
+	"dexId": [
+		483
+	],
+	"hp": 90,
+	"illustrator": "Kazuyuki Kano",
+	"name": {
+		"en": "Dialga",
+		"fr": "Dialga"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"set": "dpp",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

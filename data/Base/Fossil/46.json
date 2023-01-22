@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Spit Poison",
+				"fr": "Crache-venin"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wrap",
+				"fr": "Ligotage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec."
+	},
+	"dexId": [
+		23
+	],
+	"hp": 40,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Ekans",
+		"fr": "Abo"
+	},
+	"rarity": "Common",
+	"set": "base3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

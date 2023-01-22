@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Fiery Dribbling"
+			},
+			"damage": "20×",
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reckless Charge"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "This Pokémon also does 10 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
+	},
+	"illustrator": "The Pokémon Company Art Team",
+	"name": {
+		"en": "Scorbunny on the Ball"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"set": "fut2020",
+	"stage": "Basic"
+}

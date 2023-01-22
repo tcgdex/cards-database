@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Charge",
+				"fr": "Chargeur",
+				"es": "Carga",
+				"it": "Sottocarica",
+				"pt": "Carga",
+				"de": "Ladevorgang"
+			},
+			"effect": {
+				"en": "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+				"fr": "Cherchez jusqu'à 2 cartes Énergie Lightning dans votre deck, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+				"es": "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+				"it": "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+				"pt": "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
+				"de": "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lightning Ball",
+				"fr": "Boule Éclair",
+				"es": "Bola Relámpago",
+				"it": "Fulminpalla",
+				"pt": "Bola de Raios",
+				"de": "Kugelblitz"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws."
+	},
+	"evolveFrom": {
+		"en": "Grubbin",
+		"fr": "Larvibule",
+		"es": "Grubbin",
+		"it": "Grubbin",
+		"pt": "Grubbin",
+		"de": "Mabula"
+	},
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Akkup",
+		"en": "Charjabug",
+		"es": "Charjabug",
+		"fr": "Chrysapile",
+		"it": "Charjabug",
+		"pt": "Charjabug"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh2",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

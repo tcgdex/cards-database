@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 34,
+	"id": "dc1",
+	"name": {
+		"en": "Double Crisis",
+		"fr": "Double Danger",
+		"pt": "Crise Dupla"
+	},
+	"releaseDate": "2015-03-25",
+	"serie": "xy",
+	"tcgOnline": "DCR"
+}

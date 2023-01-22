@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Grind"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each Energy attached to Dark Tyranitar."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spinning Tail"
+			},
+			"effect": {
+				"en": "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite Off"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Pokémon-ex, this attack does 70 damage plus 50 more damage."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		248
+	],
+	"evolveFrom": {
+		"en": "Dark Pupitar"
+	},
+	"hp": 120,
+	"illustrator": "Nakaoka",
+	"name": {
+		"en": "Dark Tyranitar"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "ex7",
+	"stage": "Stage2",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

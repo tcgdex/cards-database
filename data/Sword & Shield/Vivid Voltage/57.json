@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Levitate",
+				"fr": "Lévitation",
+				"es": "",
+				"it": "",
+				"pt": "",
+				"de": ""
+			},
+			"effect": {
+				"en": "If this Pokémon has any Energy attached, it has no Retreat Cost.",
+				"fr": "Si de l'Énergie est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+				"es": "",
+				"it": "",
+				"pt": "",
+				"de": ""
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Tiny Charge",
+				"fr": "Décharge Mineure",
+				"es": "Carga Diminuta",
+				"it": "Sottocarica Minuscola",
+				"pt": "Carga Pequenina",
+				"de": "Mini-Stromstoß"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "One alone can emit only trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
+	},
+	"hp": 40,
+	"illustrator": "sowsow",
+	"name": {
+		"de": "Zapplardin",
+		"en": "Tynamo",
+		"es": "Tynamo",
+		"fr": "Anchwatt",
+		"it": "Tynamo",
+		"pt": "Tynamo"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

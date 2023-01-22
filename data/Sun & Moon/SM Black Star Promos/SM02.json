@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise",
+				"es": "Combustión",
+				"it": "Fuoco Continuo",
+				"pt": "Combustão",
+				"de": "Glühen"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		725
+	],
+	"hp": 60,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"de": "Flamiau",
+		"en": "Litten",
+		"es": "Litten",
+		"fr": "Flamiaou",
+		"it": "Litten",
+		"pt": "Litten"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"name": {
+				"en": "Lunge"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+	},
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Evoli",
+		"en": "Eevee",
+		"es": "Eevee",
+		"fr": "Évoli",
+		"it": "Eevee",
+		"pt": "Eevee"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "tk-xy-su",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

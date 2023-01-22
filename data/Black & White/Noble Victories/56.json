@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Synchronoise",
+				"fr": "Synchropeine"
+			},
+			"effect": {
+				"en": "Does 20 damage to each of your opponent's Benched Pokémon that shares a type with the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire ayant un type en commun avec le Pokémon Défenseur.  (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyshot",
+				"fr": "Piqûre Psy"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		606
+	],
+	"evolveFrom": {
+		"en": "Elgyem",
+		"fr": "Lewsor"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Megalon",
+		"en": "Beheeyem",
+		"es": "Beheeyem",
+		"fr": "Neitram",
+		"it": "Beheeyem",
+		"pt": "Beheeyem"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

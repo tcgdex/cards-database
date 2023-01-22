@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-la.\n\nChoisissez dans votre deck une carte qui évolue de votre Pokémon Actif (choisissez un Pokémon Actif si vous en avez deux) et placez-la sur ce Pokémon (Vous le faites ainsi évoluer). Ensuite, mélangez votre deck."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Wally's Training",
+		"fr": "Timmy au dressage"
+	},
+	"rarity": "Uncommon",
+	"set": "ex2",
+	"trainerType": "Supporter"
+}

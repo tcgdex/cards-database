@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Dark Cloak",
+				"fr": "Cape Obscure",
+				"es": "Manto Oscuro",
+				"it": "Mantelnero",
+				"pt": "Manto da Escuridão",
+				"de": "Finsterumhang"
+			},
+			"effect": {
+				"en": "Each of your Pokémon that has any Darkness Energy attached to it has no Retreat Cost.",
+				"fr": "Chacun de vos Pokémon auquel de l’Énergie Darkness est attachée n’a pas de coût de Retraite.",
+				"es": "Cada uno de tus Pokémon que tenga cualquier Energía Darkness unida a él no tiene ningún Coste de Retirada.",
+				"it": "Nessuno dei tuoi Pokémon che ha delle Energie Darkness assegnate ha costo di ritirata.",
+				"pt": "Cada um de seus Pokémon que possui qualquer Energia Darkness ligada não possui Custo para Recuar.",
+				"de": "Jedes deiner Pokémon, an dem Darkness-Energie angelegt ist, hat keine Rückzugskosten."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Night Spear"
+			},
+			"effect": {
+				"en": "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		491
+	],
+	"hp": 180,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Darkrai-EX",
+		"en": "Darkrai-EX",
+		"es": "Darkrai-EX",
+		"fr": "Darkrai-EX",
+		"it": "Darkrai-EX",
+		"pt": "Darkrai-EX"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw5",
+	"suffix": "EX",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

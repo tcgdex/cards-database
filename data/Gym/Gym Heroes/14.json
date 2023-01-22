@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Pain Amplifier"
+			},
+			"effect": {
+				"en": "Put a damage counter on each of your opponent's Pokémon that already has any damage counters on it."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Call of the Night"
+			},
+			"effect": {
+				"en": "Unless this attack Knocks Out the Defending Pokémon, flip 2 coins. If both of them are heads, your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		94
+	],
+	"evolveFrom": {
+		"en": "Haunter"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Sabrina's Gengar"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "gym1",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	]
+}

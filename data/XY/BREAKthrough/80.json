@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Powder Snow",
+				"fr": "Poudreuse",
+				"es": "Nieve Polvo",
+				"it": "Polneve",
+				"pt": "Neve em Pó",
+				"de": "Pulverschnee"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mud-Slap",
+				"fr": "Coud'Boue",
+				"es": "Bofetón Lodo",
+				"it": "Fangosberla",
+				"pt": "Tapa de Lama",
+				"de": "Lehmschelle"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		220
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Quiekel",
+		"en": "Swinub",
+		"es": "Swinub",
+		"fr": "Marcacrin",
+		"it": "Swinub",
+		"pt": "Swinub"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy8",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

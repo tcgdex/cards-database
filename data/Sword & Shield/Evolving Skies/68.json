@@ -1,0 +1,83 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Collect",
+				"fr": "Collecte",
+				"es": "Coleccionar",
+				"it": "Tassa",
+				"pt": "Collect",
+				"de": "Sammeln"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Draw a card.",
+				"de": "Ziehe 1 Karte."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Gnaw",
+				"de": "Nagen"
+			},
+			"damage": 10,
+			"cost": [
+				"Psychic"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon."
+	},
+	"dexId": [
+		527
+	],
+	"hp": 60,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Fleknoil",
+		"en": "Woobat",
+		"es": "Woobat",
+		"fr": "Chovsourir",
+		"it": "Woobat",
+		"pt": "Woobat"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

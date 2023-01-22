@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Max Balloon",
+				"fr": "Ballomax",
+				"es": "Maxiglobo",
+				"it": "Dynapallone",
+				"pt": "Balão Max",
+				"de": "Dyna-Ballon"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+				"fr": "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
+				"es": "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
+				"it": "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
+				"pt": "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon Básicos.",
+				"de": "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird."
+			},
+			"damage": 160,
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"evolveFrom": {
+		"en": "Flying Pikachu V",
+		"fr": "Pikachu Volant-V",
+		"es": "Pikachu Vuelo V",
+		"it": "Pikachu Volo-V",
+		"pt": "Pikachu Voador V",
+		"de": "Fliegendes Pikachu-V"
+	},
+	"hp": 310,
+	"illustrator": "aky CG Works",
+	"name": {
+		"de": "Fliegendes Pikachu VMAX",
+		"en": "Flying Pikachu VMAX",
+		"es": "Pikachu Vuelo VMAX",
+		"fr": "Pikachu Volant VMAX",
+		"it": "Pikachu Volo VMAX",
+		"pt": "Pikachu Voador VMAX"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 0,
+	"set": "cel25",
+	"stage": "VMAX",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

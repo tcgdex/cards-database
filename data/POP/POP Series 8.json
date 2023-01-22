@@ -1,0 +1,11 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 17,
+	"id": "pop8",
+	"name": {
+		"de": "POP Series 8",
+		"en": "POP Series 8"
+	},
+	"releaseDate": "2008-09-01",
+	"serie": "pop"
+}

@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Levitate"
+			},
+			"effect": {
+				"en": "As long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sand Pit"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		330
+	],
+	"evolveFrom": {
+		"en": "Vibrava"
+	},
+	"hp": 120,
+	"illustrator": "Hisao Nakamura",
+	"name": {
+		"en": "Flygon"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "pop4",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water"
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Sand Spray",
+				"fr": "Jet Sableux",
+				"es": "Rociado de Arena",
+				"it": "Silicospruzzo",
+				"pt": "Spray de Areia",
+				"de": "Sandspray"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Twin Bursts",
+				"fr": "Explosions en Duo",
+				"es": "Estallidos Gemelos",
+				"it": "Scoppiogemello",
+				"pt": "Erupções Gêmeas",
+				"de": "Doppelsalve"
+			},
+			"effect": {
+				"en": "If Mothim is on your Bench, this attack does 60 more damage.",
+				"fr": "Si Papilord est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
+				"es": "Si Mothim está en tu Banca, este ataque hace 60 puntos de daño más.",
+				"it": "Se Mothim è nella tua panchina, questo attacco infligge 60 danni in più.",
+				"pt": "Se Mothim estiver no seu Banco, este ataque causará 60 de danos adicionais.",
+				"de": "Wenn sich Moterpel auf deiner Bank befindet, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+			},
+			"damage": "60+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		413
+	],
+	"evolveFrom": {
+		"en": "Burmy",
+		"fr": "Cheniti",
+		"es": "Burmy",
+		"it": "Burmy",
+		"pt": "Burmy",
+		"de": "Burmy"
+	},
+	"hp": 110,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"de": "Burmadame",
+		"en": "Wormadam",
+		"es": "Wormadam",
+		"fr": "Cheniselle",
+		"it": "Wormadam",
+		"pt": "Wormadam"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "xy10",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

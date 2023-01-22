@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Nurturing",
+				"fr": "Affection"
+			},
+			"effect": {
+				"en": "Choose 1 of your Pokémon. Search your deck for a card that evolves from that Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
+				"fr": "Choisissez 1 de vos Pokémon. Cherchez dans votre deck une carte Évolution du Pokémon choisi et placez-la sur celui-ci. (Cela équivaut à faire évoluer le Pokémon choisi.) Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "X-Scissor",
+				"fr": "Plaie-Croix"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 50 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		542
+	],
+	"evolveFrom": {
+		"en": "Swadloon",
+		"fr": "Couverdure"
+	},
+	"hp": 130,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Matrifol",
+		"en": "Leavanny",
+		"es": "Leavanny",
+		"fr": "Manternel",
+		"it": "Leavanny",
+		"pt": "Leavanny"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

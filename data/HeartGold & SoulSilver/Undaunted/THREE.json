@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Toutes les cartes Stade en jeu sont restituées dans la main de leur joueur !",
+		"en": "Return any Stadium card in play to its player’s hand!"
+	},
+	"hp": 0,
+	"illustrator": "Milky Isobe",
+	"name": {
+		"en": "Alph Lithograph",
+		"fr": "Lithographie d’Alph"
+	},
+	"rarity": "Ultra Rare",
+	"set": "hgss3",
+	"trainerType": "Item",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

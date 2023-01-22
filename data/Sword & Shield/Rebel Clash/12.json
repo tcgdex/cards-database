@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Beat",
+				"fr": "Bataille",
+				"es": "Toque",
+				"it": "Battuta",
+				"pt": "Pulso",
+				"de": "Verprügler"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch'Herbe",
+				"es": "Hoja Afilada",
+				"it": "Foglielama",
+				"pt": "Folha Navalha",
+				"de": "Rasierblatt"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down."
+	},
+	"hp": 90,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Shnebedeck",
+		"en": "Snover",
+		"es": "Snover",
+		"fr": "Blizzi",
+		"it": "Snover",
+		"pt": "Snover"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

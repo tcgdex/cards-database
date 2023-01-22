@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Rain Splash",
+				"fr": "Pluie Éclaboussante",
+				"es": "Golpe de Lluvia",
+				"it": "Spruzzapioggia",
+				"pt": "Chuva Borrifante",
+				"de": "Regenplatscher"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure",
+				"es": "Mordisco",
+				"it": "Morso",
+				"pt": "Mordida",
+				"de": "Biss"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		751
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Araqua",
+		"en": "Dewpider",
+		"es": "Dewpider",
+		"fr": "Araqua",
+		"it": "Dewpider",
+		"pt": "Dewpider"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

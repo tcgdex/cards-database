@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Adrenalash",
+				"fr": "Adrénarush"
+			},
+			"effect": {
+				"en": "During your next turn, each of this Pokémon's attacks does 50 more damage (before applying Weakness and Resistance).",
+				"fr": "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strength",
+				"fr": "Force"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		217
+	],
+	"evolveFrom": {
+		"en": "Teddiursa",
+		"fr": "Teddiursa"
+	},
+	"hp": 130,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Ursaring",
+		"en": "Ursaring",
+		"es": "Ursaring",
+		"fr": "Ursaring",
+		"it": "Ursaring",
+		"pt": "Ursaring"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw10",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

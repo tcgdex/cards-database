@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rolling Tackle",
+				"fr": "Plaquage roulant"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Energy Bomb",
+				"fr": "Bombe à Énergie"
+			},
+			"effect": {
+				"en": "Take all Energy cards attached to Dark Electrode and attach them to your Benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode.",
+				"fr": "Prenez toutes les cartes Énergie attachées à Electrode obscur et attachez-les aux Pokémon de votre Banc (selon votre choix). Si vous n'avez pas Pokémon sur votre Banc, défaussez toutes les cartes Énergie attachées à Electrode obscur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Certains chercheurs pensent que Electrode pourrait être une forme d'énergie au lieu de posséder un corps réel."
+	},
+	"dexId": [
+		101
+	],
+	"evolveFrom": {
+		"en": "Voltorb"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Dark Electrode",
+		"fr": "Electrode obscur"
+	},
+	"rarity": "Uncommon",
+	"set": "base5",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

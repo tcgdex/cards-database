@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Freezing Headbutt",
+				"fr": "Coup d'Boule Gelant",
+				"es": "Cabezazo Paralizante",
+				"it": "Bottintesta Congelante",
+				"pt": "Cabeçada Congelante",
+				"de": "Frostige Kopfnuss"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "By drinking pure water, it grows its icy body. This Pokémon can be hard to find on days with warm, sunny weather."
+	},
+	"evolveFrom": {
+		"en": "Vanillite",
+		"fr": "Sorbébé",
+		"es": "Vanillite",
+		"it": "Vanillite",
+		"pt": "Vanillite",
+		"de": "Gelatini"
+	},
+	"hp": 80,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Gelatroppo",
+		"en": "Vanillish",
+		"es": "Vanillish",
+		"fr": "Sorboul",
+		"it": "Vanillish",
+		"pt": "Vanillish"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

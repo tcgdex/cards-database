@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Firebreathing",
+				"fr": "Souffle-Feu"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		499
+	],
+	"evolveFrom": {
+		"en": "Tepig",
+		"fr": "Gruikui"
+	},
+	"hp": 90,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Ferkokel",
+		"en": "Pignite",
+		"es": "Pignite",
+		"fr": "Grotichon",
+		"it": "Pignite",
+		"pt": "Pignite"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

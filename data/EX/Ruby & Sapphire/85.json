@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Baie Oran à un de vos Pokémon qui n'a pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O, défaussez cette carte.\n\nN'importe quand entre deux tours, si le Pokémon auquel cette carte est attachée possède au moins deux marqueurs de dégât, retirez-les lui. Ensuite, défaussez Baie Oran."
+	},
+	"illustrator": "Kazuo Yazawa",
+	"name": {
+		"en": "Oran Berry",
+		"fr": "Baie Oran"
+	},
+	"rarity": "Uncommon",
+	"set": "ex1",
+	"trainerType": "Tool"
+}

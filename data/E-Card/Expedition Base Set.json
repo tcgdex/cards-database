@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 165,
+	"id": "ecard1",
+	"name": {
+		"de": "Expedition",
+		"en": "Expedition Base Set",
+		"fr": "Expedition",
+		"it": "Expedition Set Base"
+	},
+	"releaseDate": "2002-09-15",
+	"serie": "ecard",
+	"tcgOnline": "EX"
+}

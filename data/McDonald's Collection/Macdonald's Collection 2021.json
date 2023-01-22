@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 25,
+	"id": "2021swsh",
+	"name": {
+		"de": "McDonald’s Kollektion 2021",
+		"en": "Macdonald's Collection 2021",
+		"es": "Colección de McDonald's 2021",
+		"fr": "Promo McDonald's 2021",
+		"it": "McDonald's Collection 2021"
+	},
+	"releaseDate": "2021-02-09",
+	"serie": "mc"
+}

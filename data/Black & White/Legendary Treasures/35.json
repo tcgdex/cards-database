@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Emperor's Strike"
+			},
+			"effect": {
+				"en": "If this Pokémon has fewer remaining HP than the Defending Pokémon, this attack does 60 more damage."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		395
+	],
+	"evolveFrom": {
+		"en": "Prinplup"
+	},
+	"hp": 140,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Empoleon"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

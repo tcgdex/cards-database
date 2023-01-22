@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Lunar Aura"
+			},
+			"effect": {
+				"en": "If you have Darkrai in play, remove 1 damage counter from Cresselia between turns."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunar Flight"
+			},
+			"effect": {
+				"en": "Does 80 damage minus 10 damage for each damage counter on Cresselia."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		488
+	],
+	"hp": 90,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Cresselia"
+	},
+	"rarity": "Common",
+	"set": "dpp",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

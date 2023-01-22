@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Fossil Hunt",
+				"fr": "Chasse au Fossile"
+			},
+			"effect": {
+				"en": "Put 2 Item cards that have Fossil in their names from your discard pile into your hand.",
+				"fr": "Ajoutez 2 cartes Objet qui ont Fossile dans leur nom de votre pile de défausse à votre main."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		369
+	],
+	"hp": 90,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Relicanth",
+		"en": "Relicanth",
+		"es": "Relicanth",
+		"fr": "Relicanth",
+		"it": "Relicanth",
+		"pt": "Relicanth"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw10",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

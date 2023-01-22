@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Mumble",
+				"fr": "Murmure",
+				"es": "Farfullar",
+				"it": "Borbottio",
+				"pt": "Resmungo",
+				"de": "Grummeln"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Moon Kick",
+				"fr": "Coup d'Pied Lunaire",
+				"es": "Patada Lunar",
+				"it": "Calcioluna",
+				"pt": "Chute Lunar",
+				"de": "Mondkick"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
+	},
+	"hp": 70,
+	"illustrator": "Motofumi Fujiwara",
+	"name": {
+		"de": "Pummeluff",
+		"en": "Jigglypuff",
+		"es": "Jigglypuff",
+		"fr": "Rondoudou",
+		"it": "Jigglypuff",
+		"pt": "Jigglypuff"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

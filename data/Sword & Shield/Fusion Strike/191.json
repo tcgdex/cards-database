@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "High Horsepower"
+			},
+			"damage": 80,
+			"effect": {
+				"en": "This Pokémon also does 20 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color."
+	},
+	"hp": 100,
+	"illustrator": "Oswaldo KATO",
+	"name": {
+		"de": "Kupfanti",
+		"en": "Cufant",
+		"es": "Cufant",
+		"fr": "Charibari",
+		"it": "Cufant",
+		"pt": "Cufant"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

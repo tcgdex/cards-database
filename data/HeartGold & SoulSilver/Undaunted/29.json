@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Scrap Attack",
+				"fr": "Attaque de ferraille"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your discard pile for a Metal Energy card and attach it to Lairon.",
+				"fr": "Lancez une pièce. Si c’est face, récupérez une carte Énergie Metal dans votre pile de défausse et attachez-la à Galegon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
+	},
+	"dexId": [
+		305
+	],
+	"evolveFrom": {
+		"en": "Aron",
+		"fr": "Galekid"
+	},
+	"hp": 90,
+	"illustrator": "match",
+	"name": {
+		"en": "Lairon",
+		"fr": "Galegon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

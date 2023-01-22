@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crunch",
+				"fr": "Mâchouille"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		552
+	],
+	"evolveFrom": {
+		"en": "Sandile",
+		"fr": "Mascaïman"
+	},
+	"hp": 90,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Rokkaiman",
+		"en": "Krokorok",
+		"es": "Krokorok",
+		"fr": "Escroco",
+		"it": "Krokorok",
+		"pt": "Krokorok"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

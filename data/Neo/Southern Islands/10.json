@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Tentacle Grip"
+			},
+			"effect": {
+				"en": "Flip a number of coins equal to the number of Water Energy cards attached to Tentacruel. For each heads, draw 2 cards."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Poison Sting"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Tentacle Grip"
+			},
+			"effect": {
+				"en": "Flip a number of coins equal to the number of Water Energy cards attached to Tentacruel. For each heads, draw 2 cards."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Poison Sting"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		73
+	],
+	"evolveFrom": {
+		"en": "Tentacool"
+	},
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Tentacruel"
+	},
+	"rarity": "Common",
+	"set": "si1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

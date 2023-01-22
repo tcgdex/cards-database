@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Battement",
+				"en": "Flap",
+				"es": "Aleteo",
+				"it": "Alabattito",
+				"pt": "Asa",
+				"de": "Flattern"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"fr": "Glissement",
+				"en": "Glide",
+				"es": "Planeo",
+				"it": "Aliante",
+				"pt": "Planeio",
+				"de": "Gleiten"
+			},
+			"damage": 30,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit."
+	},
+	"hp": 60,
+	"illustrator": "Lee HyunJung",
+	"name": {
+		"de": "Meikro",
+		"en": "Rookidee",
+		"es": "Rookidee",
+		"fr": "Minisange",
+		"it": "Rookidee",
+		"pt": "Rookidee"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

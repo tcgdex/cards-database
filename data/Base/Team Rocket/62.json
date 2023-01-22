@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Coin Hurl",
+				"fr": "Lancé de monnaie"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire et lancez une pièce. Si c'est face, cette attaque inflige 20 à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon très apprécié gagne ses gages de son propriétaire grâce à sa faculté \"Jour de paye\"."
+	},
+	"dexId": [
+		52
+	],
+	"hp": 40,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Meowth",
+		"fr": "Miaouss"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "base5",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flamethrower"
+			},
+			"effect": {
+				"en": "Discard 1 Energy card attached to Arcanine in order to use this attack."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down"
+			},
+			"effect": {
+				"en": "Arcanine does 30 damage to itself."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		59
+	],
+	"evolveFrom": {
+		"en": "Growlithe"
+	},
+	"hp": 100,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Arcanine"
+	},
+	"rarity": "Uncommon",
+	"set": "base4",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

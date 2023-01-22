@@ -1,0 +1,92 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Bug Transmission",
+				"fr": "Piratage",
+				"es": "Transmisión de Errores",
+				"it": "Trasmissione Bug",
+				"pt": "Transmissão Bugada",
+				"de": "Fehlerübertragung"
+			},
+			"effect": {
+				"en": "Whenever you attach an Energy card from your hand to this Pokémon during your turn, you may make your opponent's Active Pokémon Confused.",
+				"fr": "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon pendant votre tour, vous pouvez laisser le Pokémon Actif de votre adversaire Confus.",
+				"es": "Cada vez que unas 1 carta de Energía de tu mano a este Pokémon durante tu turno, puedes dejar al Pokémon Activo de tu rival Confundido.",
+				"it": "Ogni volta che assegni una carta Energia a questo Pokémon dalla tua mano durante il tuo turno, puoi lasciare il Pokémon attivo del tuo avversario confuso.",
+				"pt": "Sempre que você ligar 1 carta de Energia da sua mão a este Pokémon durante o seu turno, você poderá deixar o Pokémon Ativo do seu oponente Confuso.",
+				"de": "Jedes Mal, wenn du während deines Zuges 1 Energiekarte aus deiner Hand an dieses Pokémon anlegst, kannst du das Aktive Pokémon deines Gegners verwirren."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Superbeam",
+				"fr": "Super Rayon",
+				"es": "Supertransmisión",
+				"it": "Super Raggio",
+				"pt": "Superraio",
+				"de": "Superstrahl"
+			},
+			"effect": {
+				"en": "Discard 2 Energy from this Pokémon.",
+				"fr": "Défaussez 2 Énergies de ce Pokémon.",
+				"es": "Descarta 2 Energías de este Pokémon.",
+				"it": "Scarta due Energie da questo Pokémon.",
+				"pt": "Descarte 2 Energias deste Pokémon.",
+				"de": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 170,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure."
+	},
+	"evolveFrom": {
+		"en": "Porygon2",
+		"fr": "Porygon2",
+		"es": "Porygon2",
+		"it": "Porygon2",
+		"pt": "Porygon2",
+		"de": "Porygon2"
+	},
+	"hp": 140,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Porygon-Z",
+		"en": "Porygon-Z",
+		"es": "Porygon-Z",
+		"fr": "Porygon-Z",
+		"it": "Porygon-Z",
+		"pt": "Porygon-Z"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh6",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

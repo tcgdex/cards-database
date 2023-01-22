@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sheer Cold",
+				"fr": "Glaciation"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't attack during your opponent's next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icicle Crash",
+				"fr": "Chute Glace"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		614
+	],
+	"evolveFrom": {
+		"en": "Cubchoo",
+		"fr": "Polarhume"
+	},
+	"hp": 130,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Siberio",
+		"en": "Beartic",
+		"es": "Beartic",
+		"fr": "Polagriffe",
+		"it": "Beartic",
+		"pt": "Beartic"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

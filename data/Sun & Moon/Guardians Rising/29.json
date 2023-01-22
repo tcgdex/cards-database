@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Splash",
+				"fr": "Trempette",
+				"es": "Salpicadura",
+				"it": "Splash",
+				"pt": "Borrifada",
+				"de": "Platscher"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf",
+				"es": "Surf",
+				"it": "Surf",
+				"pt": "Surfe",
+				"de": "Surfer"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		320
+	],
+	"hp": 120,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Wailmer",
+		"en": "Wailmer",
+		"es": "Wailmer",
+		"fr": "Wailmer",
+		"it": "Wailmer",
+		"pt": "Wailmer"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "sm2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

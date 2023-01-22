@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Gas Bond",
+				"fr": "Liaison de Gaz",
+				"es": "Mismo Gas",
+				"it": "Vincolo di Gas",
+				"pt": "Vínculo Gasoso",
+				"de": "Gasbund"
+			},
+			"effect": {
+				"en": "Both Active Pokémon are now Confused.",
+				"fr": "Les deux Pokémon Actifs sont maintenant Confus.",
+				"es": "Ambos Pokémon Activos pasan a estar Confundidos.",
+				"it": "Entrambi i Pokémon attivi vengono confusi.",
+				"pt": "Ambos os Pokémon Ativos agora estão Confusos.",
+				"de": "Beide Aktiven Pokémon sind jetzt verwirrt."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		434
+	],
+	"hp": 70,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Skunkapuh",
+		"en": "Stunky",
+		"es": "Stunky",
+		"fr": "Moufouette",
+		"it": "Stunky",
+		"pt": "Stunky"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sm5",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

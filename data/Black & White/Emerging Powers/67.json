@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Fury Swipes",
+				"fr": "Combo-Griffe"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Night Daze",
+				"fr": "Explonuit"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		571
+	],
+	"evolveFrom": {
+		"en": "Zorua",
+		"fr": "Zorua"
+	},
+	"hp": 100,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Zoroark",
+		"en": "Zoroark",
+		"es": "Zoroark",
+		"fr": "Zoroark",
+		"it": "Zoroark",
+		"pt": "Zoroark"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

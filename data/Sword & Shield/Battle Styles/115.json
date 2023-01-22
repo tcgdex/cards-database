@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Cat Kick",
+				"fr": "Coup d'Patte",
+				"es": "Patada Gato",
+				"it": "Calciogatto",
+				"pt": "Chute do Gato",
+				"de": "Katzenkick"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Claw Slash",
+				"fr": "Tranch'Griffe",
+				"es": "Cuchillada Garra",
+				"it": "Lacerartiglio",
+				"pt": "Golpe de Garra",
+				"de": "Klauenschlitzer"
+			},
+			"damage": 40,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
+	},
+	"hp": 60,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Charmian",
+		"en": "Glameow",
+		"es": "Glameow",
+		"fr": "Chaglam",
+		"it": "Glameow",
+		"pt": "Glameow"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

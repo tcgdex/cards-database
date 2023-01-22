@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rally"
+			},
+			"effect": {
+				"en": "Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hook"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Many live in the clean seas of the south. They apparently can’t live in polluted waters."
+	},
+	"dexId": [
+		222
+	],
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Corsola"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pop7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+20"
+		}
+	]
+}

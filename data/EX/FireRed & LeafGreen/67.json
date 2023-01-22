@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Surprise Attack",
+				"fr": "Attaque surprise"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ascension",
+				"fr": "Ascension"
+			},
+			"effect": {
+				"en": "Search your deck for a card that evolves from Magikarp and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
+				"fr": "Cherchez dans votre deck une carte qui évolue de Magicarpe et placez-la sur Magicarpe. (Vous faites ainsi évoluer Magicarpe.) Ensuite, mélangez votre deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		129
+	],
+	"hp": 30,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Magikarp",
+		"fr": "Magicarpe"
+	},
+	"rarity": "Common",
+	"set": "ex6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

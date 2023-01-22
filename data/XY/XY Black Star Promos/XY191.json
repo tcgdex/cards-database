@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Justified"
+			},
+			"effect": {
+				"en": "This Pokémon's attacks do 50 more damage to your opponent's Darkness Pokémon (before applying Weakness and Resistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Sacred Sword"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Sacred Sword during your next turn."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		647
+	],
+	"hp": 90,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Keldeo"
+	},
+	"rarity": "Common",
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

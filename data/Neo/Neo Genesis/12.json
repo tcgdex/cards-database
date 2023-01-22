@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Zzzap",
+				"fr": "Zzzap"
+			},
+			"effect": {
+				"en": "Does 20 damage to each Pokémon in play that has a Pokémon Power. Don't apply Weakness and Resistance.",
+				"fr": "Inflige 20 dégâts à chaque Pokémon en jeu possédant un Pouvoir Pokémon. Ne pas appliquer la Faiblesse et la Résistance."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Bien qu'il soit très petit, il peut électrocuter un adulte. Cependant, s'il le fait, il se surprend lui-même."
+	},
+	"dexId": [
+		172
+	],
+	"hp": 30,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Pichu",
+		"fr": "Pichu"
+	},
+	"rarity": "Rare",
+	"set": "neo1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	]
+}

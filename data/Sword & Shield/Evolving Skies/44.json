@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Tackle",
+				"de": "Tackle"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Spinning Attack",
+				"fr": "Attaque Tournante",
+				"es": "Ataque Giratorio",
+				"it": "Attacco Rotante",
+				"pt": "Spinning Attack",
+				"de": "Rundumangriff"
+			},
+			"damage": 20,
+			"cost": [
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon lives in areas of frigid cold. It secures itself to the back of an Avalugg by freezing its feet in place."
+	},
+	"dexId": [
+		712
+	],
+	"hp": 70,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Arktip",
+		"en": "Bergmite",
+		"es": "Bergmite",
+		"fr": "Grelaçon",
+		"it": "Bergmite",
+		"pt": "Bergmite"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

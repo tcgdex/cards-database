@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Shell Armor"
+			},
+			"effect": {
+				"en": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aqua Split"
+			},
+			"damage": 60,
+			"effect": {
+				"en": "This attack also does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Once it slams its shell shut, it is impossible to open, even by those with superior strength."
+	},
+	"evolveFrom": {
+		"en": "Shellder",
+		"fr": "Kokiyas",
+		"es": "Shellder",
+		"it": "Shellder",
+		"pt": "Shellder",
+		"de": "Muschas"
+	},
+	"hp": 130,
+	"illustrator": "nagimiso",
+	"name": {
+		"de": "Austos",
+		"en": "Cloyster",
+		"es": "Cloyster",
+		"fr": "Crustabri",
+		"it": "Cloyster",
+		"pt": "Cloyster"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

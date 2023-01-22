@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Blow",
+				"fr": "Coup d’poing éclair"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Slap",
+				"fr": "Coud’keu"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight."
+	},
+	"dexId": [
+		30
+	],
+	"evolveFrom": {
+		"en": "Nidoran♀",
+		"fr": "Nidoran♀"
+	},
+	"hp": 80,
+	"illustrator": "sui",
+	"name": {
+		"en": "Nidorina",
+		"fr": "Nidorina"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

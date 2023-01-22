@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Searing Flame",
+				"fr": "Flammes Calcinantes"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned.",
+				"fr": "Le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Blast",
+				"fr": "Explosion de Flammes"
+			},
+			"effect": {
+				"en": "Does 20 more damage for each Fire Energy attached to this Pokémon.",
+				"fr": "Inflige 20 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		514
+	],
+	"evolveFrom": {
+		"en": "Pansear",
+		"fr": "Flamajou"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Grillchita",
+		"en": "Simisear",
+		"es": "Simisear",
+		"fr": "Flamoutan",
+		"it": "Simisear",
+		"pt": "Simisear"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

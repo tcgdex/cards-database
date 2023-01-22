@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Pièce rune à 1 de vos Pokémon qui ne posséde pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O, défaussez cette carte."
+	},
+	"illustrator": "Daisuke Ito",
+	"name": {
+		"en": "Leftovers",
+		"fr": "Restes"
+	},
+	"rarity": "Uncommon",
+	"set": "dp4",
+	"trainerType": "Tool"
+}

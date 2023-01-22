@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Body Slam"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fire Spin"
+			},
+			"effect": {
+				"en": "Discard 2 basic Energy cards attached to Heatran. (If you can’t discard cards, this attack does nothing.)"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls."
+	},
+	"dexId": [
+		485
+	],
+	"hp": 100,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Heatran"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "pop8",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+30"
+		}
+	]
+}

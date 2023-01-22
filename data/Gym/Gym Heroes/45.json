@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Healing Pollen"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, remove 4 damage counters from Erika's Gloom. If Erika's Gloom has fewer damage counters than that, remove all of them."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Magic Pollen"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep, Confused, Paralyzed, or Poisoned (your choice)."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		44
+	],
+	"evolveFrom": {
+		"en": "Oddish"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Erika's Gloom"
+	},
+	"rarity": "Uncommon",
+	"set": "gym1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

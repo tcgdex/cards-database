@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 25,
+	"id": "cel25",
+	"name": {
+		"de": "Celebrations",
+		"en": "Celebrations",
+		"es": "Celebraciones",
+		"fr": "Célébrations",
+		"it": "Gran Festa",
+		"pt": "Celebrações"
+	},
+	"releaseDate": "2021-10-08",
+	"serie": "swsh"
+}

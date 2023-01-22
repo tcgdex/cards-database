@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call for Family",
+				"fr": "Appel à la famille"
+			},
+			"effect": {
+				"en": "Search your deck for a card named Murkrow and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				"fr": "Cherchez une carte Pokémon de base de Cornèbre dans votre deck et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flock Attack",
+				"fr": "Attaque en masse"
+			},
+			"effect": {
+				"en": "Flip a number of coins equal to the number of Murkrows on your Bench. This attack does 10 damage plus 10 more damage for each heads.",
+				"fr": "Lancez un nombre de pièces égal au nombre de cartes Cornèbre sur votre Banc. Cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque face."
+			},
+			"damage": "10×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Craint et détesté de tous, on raconte qu'il apporte le malheur à ceux qui l'aperçoivent la nuit."
+	},
+	"dexId": [
+		198
+	],
+	"hp": 40,
+	"illustrator": "Hironobu Yoshida",
+	"name": {
+		"en": "Murkrow",
+		"fr": "Cornèbre"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "neo3",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	]
+}

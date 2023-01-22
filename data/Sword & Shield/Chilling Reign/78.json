@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Puncture",
+				"fr": "Perforation",
+				"es": "Pinchazo",
+				"it": "Perforazione",
+				"pt": "Perfuração",
+				"de": "Durchdringen"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				"es": "El daño de este ataque no se ve afectado por Resistencia.",
+				"it": "I danni di questo attacco non sono influenzati dalla resistenza.",
+				"pt": "O dano deste ataque não é afetado por Resistência.",
+				"de": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+			},
+			"damage": 20,
+			"cost": [
+				"Fighting"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form."
+	},
+	"hp": 80,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Galar-Porenta",
+		"en": "Galarian Farfetch'd",
+		"es": "Farfetch'd de Galar",
+		"fr": "Canarticho de Galar",
+		"it": "Farfetch'd di Galar",
+		"pt": "Farfetch'd de Galar"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Unobservant",
+				"fr": "Distrait",
+				"es": "Descuido",
+				"it": "Sbadataggine",
+				"pt": "Desatenção",
+				"de": "Unachtsam"
+			},
+			"effect": {
+				"en": "If your opponent’s Active Pokémon is a Basic Pokémon, this Pokémon can’t attack.",
+				"fr": "Si le Pokémon Actif de votre adversaire est un Pokémon de base, ce Pokémon ne peut pas attaquer.",
+				"es": "Si el Pokémon Activo de tu rival es un Pokémon Básico, este Pokémon no puede atacar.",
+				"it": "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo Pokémon non può attaccare.",
+				"pt": "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este Pokémon não poderá atacar.",
+				"de": "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, kann dieses Pokémon nicht angreifen."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crushing Blow",
+				"fr": "Coup Écrasant"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to the Defending Pokémon.",
+				"fr": "Défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		289
+	],
+	"evolveFrom": {
+		"en": "Vigoroth",
+		"fr": "Vigoroth"
+	},
+	"hp": 150,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Letarking",
+		"en": "Slaking",
+		"es": "Slaking",
+		"fr": "Monaflèmit",
+		"it": "Slaking",
+		"pt": "Slaking"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bw6",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

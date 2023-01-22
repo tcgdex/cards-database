@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 144,
+	"id": "ecard3",
+	"name": {
+		"de": "Skyridge",
+		"en": "Skyridge",
+		"it": "Skyridge"
+	},
+	"releaseDate": "2003-05-12",
+	"serie": "ecard",
+	"tcgOnline": "SK"
+}

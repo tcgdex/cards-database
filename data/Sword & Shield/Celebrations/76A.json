@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ancient Trait",
+			"name": {
+				"en": "Δ Evolution"
+			},
+			"effect": {
+				"en": "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Emerald Break"
+			},
+			"effect": {
+				"en": "This attack does 30 damage times the number of your Benched Pokémon."
+			},
+			"damage": "30×",
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Rayquaza EX"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "cel25",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

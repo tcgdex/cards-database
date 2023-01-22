@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 111,
+	"id": "sm4",
+	"name": {
+		"de": "Aufziehen der Sturmröte",
+		"en": "Crimson Invasion",
+		"es": "Invasión Carmesí",
+		"fr": "Invasion Carmin",
+		"it": "Invasione Scarlatta",
+		"pt": "Invasão Carmim"
+	},
+	"releaseDate": "2017-11-03",
+	"serie": "sm",
+	"tcgOnline": "CIN"
+}

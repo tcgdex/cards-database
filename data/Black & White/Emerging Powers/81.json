@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Claw",
+				"fr": "Ergots"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wing Attack",
+				"fr": "Cru-Aile"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		520
+	],
+	"evolveFrom": {
+		"en": "Pidove",
+		"fr": "Poichigeon"
+	},
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Navitaub",
+		"en": "Tranquill",
+		"es": "Tranquill",
+		"fr": "Colombeau",
+		"it": "Tranquill",
+		"pt": "Tranquill"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

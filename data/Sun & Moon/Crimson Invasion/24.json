@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Crabhammer",
+				"fr": "Pince-Masse",
+				"es": "Martillazo",
+				"it": "Martellata",
+				"pt": "Martelo Caranguejo",
+				"de": "Krabbhammer"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		341
+	],
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Krebscorps",
+		"en": "Corphish",
+		"es": "Corphish",
+		"fr": "Écrapince",
+		"it": "Corphish",
+		"pt": "Corphish"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

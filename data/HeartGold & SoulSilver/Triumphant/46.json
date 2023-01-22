@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Attack",
+				"fr": "Koud’korne"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunge",
+				"fr": "Coup rapide"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
+	},
+	"dexId": [
+		33
+	],
+	"evolveFrom": {
+		"en": "Nidoran♂",
+		"fr": "Nidoran♂"
+	},
+	"hp": 80,
+	"illustrator": "match",
+	"name": {
+		"en": "Nidorino",
+		"fr": "Nidorino"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

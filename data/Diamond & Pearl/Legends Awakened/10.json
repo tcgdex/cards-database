@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Magnetic Reversal",
+				"fr": "Renversement magnétique"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. This power can't be used if Metagross is affected by a Special Condition.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Ce pouvoir ne peut pas être utilisé si Metalosse est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Extra Comet Punch",
+				"fr": "Poing météore"
+			},
+			"effect": {
+				"en": "During your next turn, Metagross's Extra Comet Punch attack's base damage is 100.",
+				"fr": "Lors de votre prochain tour, les dégâts de base de l'attaque Poing météore de Metalosse sont de 100."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est né de la fusion de plusieurs Métang. Ses quatre cerveaux en font l'égal d'un superordinateur."
+	},
+	"dexId": [
+		376
+	],
+	"evolveFrom": {
+		"en": "Metang",
+		"fr": "Metang"
+	},
+	"hp": 120,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Metagross",
+		"fr": "Metalosse"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "dp6",
+	"stage": "Stage2",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+30"
+		}
+	]
+}

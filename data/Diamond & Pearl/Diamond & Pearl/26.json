@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Screw Tail",
+				"fr": "Queue cloutée"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O"
+			},
+			"effect": {
+				"en": "Does 40 damage plus 20 more damage for each Water Energy attached to Floatzel but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
+				"fr": "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Énergie Water attachée à Mustéflott qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il flotte grâce à sa bouée très développée. Il vole au secours des gens sur le point de se noyer."
+	},
+	"dexId": [
+		419
+	],
+	"evolveFrom": {
+		"en": "Buizel",
+		"fr": "Mustébouée"
+	},
+	"hp": 90,
+	"illustrator": "Masahiko Ishii",
+	"name": {
+		"en": "Floatzel",
+		"fr": "Mustéflott"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

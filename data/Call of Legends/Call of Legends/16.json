@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hard Crush"
+			},
+			"effect": {
+				"en": "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mantle Bazooka"
+			},
+			"effect": {
+				"en": "Discard 2 Fire Energy attached to Magmortar."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		467
+	],
+	"evolveFrom": {
+		"en": "Magmar"
+	},
+	"hp": 110,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Magmortar"
+	},
+	"rarity": "Rare",
+	"set": "col1",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

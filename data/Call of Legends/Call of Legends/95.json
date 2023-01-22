@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"en": "Metal Energy",
+		"fr": "Énergie Métal"
+	},
+	"rarity": "Common",
+	"set": "col1",
+	"stage": "Basic"
+}

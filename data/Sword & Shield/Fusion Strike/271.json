@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Fear and Panic"
+			},
+			"damage": "60×",
+			"effect": {
+				"en": "This attack does 60 damage for each of your opponent's Pokémon V and Pokémon-GX in play."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "G-Max Swallow Up"
+			},
+			"damage": 250,
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Gengar V",
+		"fr": "Ectoplasma-V",
+		"es": "Gengar V",
+		"it": "Gengar-V",
+		"pt": "Gengar V",
+		"de": "Gengar-V"
+	},
+	"hp": 320,
+	"illustrator": "sowsow",
+	"name": {
+		"de": "Gengar VMAX",
+		"en": "Gengar VMAX",
+		"es": "Gengar VMAX",
+		"fr": "Ectoplasma VMAX",
+		"it": "Gengar VMAX",
+		"pt": "Gengar VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "VMAX",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

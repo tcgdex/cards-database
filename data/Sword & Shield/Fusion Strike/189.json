@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ingot Swing"
+			},
+			"damage": 80,
+			"effect": {
+				"en": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon that have an Ability."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blasting Hammer"
+			},
+			"damage": 150,
+			"effect": {
+				"en": "Discard an Energy from this Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years."
+	},
+	"evolveFrom": {
+		"en": "Meltan",
+		"fr": "Meltan",
+		"es": "Meltan",
+		"it": "Meltan",
+		"pt": "Meltan",
+		"de": "Meltan"
+	},
+	"hp": 150,
+	"illustrator": "Hasuno",
+	"name": {
+		"de": "Melmetal",
+		"en": "Melmetal",
+		"es": "Melmetal",
+		"fr": "Melmetal",
+		"it": "Melmetal",
+		"pt": "Melmetal"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

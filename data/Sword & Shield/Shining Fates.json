@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 72,
+	"id": "swsh4.5",
+	"name": {
+		"de": "Glänzendes Schicksal",
+		"en": "Shining Fates",
+		"es": "Destinos Brillantes",
+		"fr": "Déstinées Radieuses",
+		"it": "Destino Splendente",
+		"pt": "Destinos Brilhantes "
+	},
+	"releaseDate": "2021-02-19",
+	"serie": "swsh"
+}

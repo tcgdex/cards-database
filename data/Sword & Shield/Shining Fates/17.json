@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Brasier Magnifique",
+				"en": "Amazing Blaze",
+				"es": "Llamarada Increíble",
+				"it": "Fiamma Policroma",
+				"pt": "Incêndio Incrível",
+				"de": "Atemberaubende Feuersbrunst"
+			},
+			"effect": {
+				"fr": "Ce Pokémon s'inflige aussi 60 dégâts.",
+				"en": "This Pokémon also does 60 damage to itself.",
+				"es": "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
+				"it": "Questo Pokémon infligge anche 60 danni a se stesso.",
+				"pt": "Este Pokémon também causa 60 pontos de dano a si mesmo.",
+				"de": "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
+			},
+			"damage": 270,
+			"cost": [
+				"Fire",
+				"Lightning",
+				"Darkness"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
+	},
+	"hp": 120,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"de": "Reshiram",
+		"en": "Reshiram",
+		"es": "Reshiram",
+		"fr": "Reshiram",
+		"it": "Reshiram",
+		"pt": "Reshiram"
+	},
+	"rarity": "Amazing",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

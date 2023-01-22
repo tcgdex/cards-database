@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sharp Fang",
+				"fr": "Croc Aiguisé",
+				"es": "Colmillo Afilado",
+				"it": "Zannaffilata",
+				"pt": "Presa Afiada",
+				"de": "Scharfe Fänge"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
+	},
+	"hp": 80,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Snubbull",
+		"en": "Snubbull",
+		"es": "Snubbull",
+		"fr": "Snubbull",
+		"it": "Snubbull",
+		"pt": "Snubbull"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

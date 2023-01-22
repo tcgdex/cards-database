@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Volley Kick",
+				"fr": "Reprise de Volée",
+				"es": "Patada Volea",
+				"it": "Calciata al Volo",
+				"pt": "Voleio",
+				"de": "Volleyschuss"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				"es": "Durante tu próximo turno, este Pokémon no puede atacar.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			},
+			"damage": 60,
+			"cost": [
+				"Fire",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
+	},
+	"evolveFrom": {
+		"en": "Scorbunny",
+		"fr": "Flambino",
+		"es": "Scorbunny",
+		"it": "Scorbunny",
+		"pt": "Scorbunny",
+		"de": "Hopplo"
+	},
+	"hp": 90,
+	"illustrator": "Souichirou Gunjima",
+	"name": {
+		"de": "Kickerlo",
+		"en": "Raboot",
+		"es": "Raboot",
+		"fr": "Lapyro",
+		"it": "Raboot",
+		"pt": "Raboot"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

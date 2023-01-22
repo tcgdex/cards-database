@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'face"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Plunder",
+				"fr": "Pillage"
+			},
+			"effect": {
+				"en": "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
+				"fr": "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		274
+	],
+	"evolveFrom": {
+		"en": "Seedot"
+	},
+	"hp": 70,
+	"illustrator": "Katsura Tabata",
+	"name": {
+		"en": "Nuzleaf",
+		"fr": "Pifeuil"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "ex12",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

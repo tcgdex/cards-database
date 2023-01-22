@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sand Bazooka",
+				"fr": "Canon à Sable"
+			},
+			"effect": {
+				"en": "You may move a basic Energy attached to this Pokémon to 1 of your Benched Pokémon.",
+				"fr": "Vous pouvez déplacer une Énergie de base attachée à ce Pokémon vers 1 de vos Pokémon de Banc."
+			},
+			"damage": 70
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Tumble",
+				"fr": "Roule-Pierre"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		450
+	],
+	"evolveFrom": {
+		"en": "Hippopotas",
+		"fr": "Hippopotas"
+	},
+	"hp": 130,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Hippoterus",
+		"en": "Hippowdon",
+		"es": "Hippowdon",
+		"fr": "Hippodocus",
+		"it": "Hippowdon",
+		"pt": "Hippowdon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

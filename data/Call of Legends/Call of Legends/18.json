@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Self-Generation",
+				"fr": "Auto-génération"
+			},
+			"effect": {
+				"en": "Once during your turn, when you put Pachirisu from your hand onto your Bench, you may attach up to 2 Lightning Energy cards from your hand to Pachirisu.",
+				"fr": "Une seule fois pendant votre tour, lorsque vous placez Pachirisu de votre main sur votre Banc, vous pouvez lui attacher 2 cartes Énergie Lightning."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Shocking Bolt",
+				"fr": "Éclair neutralisant"
+			},
+			"effect": {
+				"en": "Put all Energy cards attached to Pachirisu in the Lost Zone.",
+				"fr": "Placez toutes les cartes Énergie attachées à Pachirisu dans la Zone Perdue."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		417
+	],
+	"hp": 60,
+	"illustrator": "Noriko Hotta",
+	"name": {
+		"en": "Pachirisu",
+		"fr": "Pachirisu"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

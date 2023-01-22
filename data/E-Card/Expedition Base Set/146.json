@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez 1 des Pokémon du Banc de votre adversaire. Lancez une pièce. Si c'est face, échangez ce Pokémon contre le Pokémon Défenseur."
+	},
+	"name": {
+		"en": "Pokémon Reversal",
+		"fr": "Inversion de Pokémon"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard1"
+}

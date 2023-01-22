@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Queen's Orders"
+			},
+			"damage": "20+",
+			"effect": {
+				"en": "You may discard any number of your Benched Pokémon. This attack does 40 more damage for each Benched Pokémon you discarded in this way."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 200,
+	"illustrator": "PLANETA Mochizuki",
+	"name": {
+		"de": "Fruyal V",
+		"en": "Tsareena V",
+		"es": "Tsareena V",
+		"fr": "Sucreine V",
+		"it": "Tsareena V",
+		"pt": "Tsareena V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Call for Power"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may move an Energy attached to 1 of your Pokémon to Charizard . This power can't be used if Charizard  is affected by a Special Condition."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Malevolent Fire"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard all Energy attached to Charizard ."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"hp": 120,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Charizard G"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "dpp",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

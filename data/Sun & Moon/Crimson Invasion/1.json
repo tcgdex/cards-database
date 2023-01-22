@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Poison Sting",
+				"fr": "Dard-Venin",
+				"es": "Picotazo Veneno",
+				"it": "Velenospina",
+				"pt": "Ferrão Venenoso",
+				"de": "Giftstachel"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		13
+	],
+	"hp": 50,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Hornliu",
+		"en": "Weedle",
+		"es": "Weedle",
+		"fr": "Aspicot",
+		"it": "Weedle",
+		"pt": "Weedle"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

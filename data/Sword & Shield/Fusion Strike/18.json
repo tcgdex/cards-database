@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Energize"
+			},
+			"effect": {
+				"en": "Attach a Lightning Energy card from your discard pile to this Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surprise Attack"
+			},
+			"damage": 50,
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap."
+	},
+	"hp": 70,
+	"illustrator": "Asako Ito",
+	"name": {
+		"de": "Mabula",
+		"en": "Grubbin",
+		"es": "Grubbin",
+		"fr": "Larvibule",
+		"it": "Grubbin",
+		"pt": "Grubbin"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

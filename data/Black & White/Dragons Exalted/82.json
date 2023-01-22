@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magnetic Lines",
+				"fr": "Lignes Magnétiques"
+			},
+			"effect": {
+				"en": "You may move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
+				"fr": "Vous pouvez déplacer une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Nose",
+				"fr": "Pif Paf"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
+				"fr": "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		476
+	],
+	"evolveFrom": {
+		"en": "Nosepass",
+		"fr": "Tarinor"
+	},
+	"hp": 110,
+	"illustrator": "match",
+	"name": {
+		"de": "Voluminas",
+		"en": "Probopass",
+		"es": "Probopass",
+		"fr": "Tarinorme",
+		"it": "Probopass",
+		"pt": "Probopass"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

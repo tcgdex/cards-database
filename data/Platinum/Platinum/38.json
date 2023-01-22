@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Energy Blow",
+				"fr": "Coup d'énergie"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each Energy attached to Shaymin.",
+				"fr": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Shaymin."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aromatherapy",
+				"fr": "Aromathérapi"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from each of your Pokémon.",
+				"fr": "Retirez à chacun de vos Pokémon 2 marqueurs de dégât."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		492
+	],
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Shaymin",
+		"fr": "Shaymin"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

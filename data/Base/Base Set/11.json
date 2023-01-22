@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thrash",
+				"fr": "Mania"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts et Nidoking s'inflige 10 dégâts."
+			},
+			"damage": "30+"
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Toxic",
+				"fr": "Toxik"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné. Il subit maintenant 20 dégâts Poison au lieu de 10 après le tour de chaque joueur (même s'il était déjà empoisonné)."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os."
+	},
+	"dexId": [
+		34
+	],
+	"evolveFrom": {
+		"en": "Nidorino"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Nidoking",
+		"fr": "Nidoking"
+	},
+	"rarity": "Rare",
+	"set": "base1",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

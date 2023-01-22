@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Nature Power",
+				"fr": "Force-Nature"
+			},
+			"effect": {
+				"en": "Does 10 more damage for each Grass Energy attached to both your and your opponent's Pokémon.",
+				"fr": "Inflige 10 dégâts supplémentaires pour chaque Énergie Grass attachée à vos Pokémon et à ceux de votre adversaire."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Leech",
+				"fr": "Encornebois"
+			},
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon.",
+				"fr": "Soignez 20 dégâts à ce Pokémon."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		586
+	],
+	"evolveFrom": {
+		"en": "Deerling",
+		"fr": "Vivaldaim"
+	},
+	"hp": 90,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Kronjuwild",
+		"en": "Sawsbuck",
+		"es": "Sawsbuck",
+		"fr": "Haydaim",
+		"it": "Sawsbuck",
+		"pt": "Sawsbuck"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icicle",
+				"fr": "Concrétion Glacée",
+				"es": "Témpano",
+				"it": "Stalattite",
+				"pt": "Pingente de Gelo",
+				"de": "Eiszapfen"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Arktip",
+		"en": "Bergmite",
+		"es": "Bergmite",
+		"fr": "Grelaçon",
+		"it": "Bergmite",
+		"pt": "Bergmite"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 2,
+	"set": "swsh10",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

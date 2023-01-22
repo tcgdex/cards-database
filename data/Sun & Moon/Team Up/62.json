@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras’Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Pfund"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		88
+	],
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Sleima",
+		"en": "Grimer",
+		"es": "Grimer",
+		"fr": "Tadmorv",
+		"it": "Grimer",
+		"pt": "Grimer"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm9",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

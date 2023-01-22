@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Vacuum Sand",
+				"fr": "Sable aspirant"
+			},
+			"effect": {
+				"en": "Search your discard pile for a Fighting Energy card and attach it to Hippowdon.",
+				"fr": "Cherchez dans votre pile de défausse une carte Énergie Fighting et attachez-la à Hippodocus."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sand Impact",
+				"fr": "Impact sablonneux"
+			},
+			"effect": {
+				"en": "Flip a coin for each Fighting Energy attached to Hippowdon. This attack does 50 damage plus 20 more damage for each heads.",
+				"fr": "Lancez une pièce pour chaque Énergie Fighting attachée à Hippodocus. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		450
+	],
+	"evolveFrom": {
+		"en": "Hippopotas",
+		"fr": "Hippopotas"
+	},
+	"hp": 100,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Hippowdon",
+		"fr": "Hippodocus"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "dp5",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rain Splash",
+				"fr": "Pluie Éclaboussante",
+				"es": "Golpe de Lluvia",
+				"it": "Spruzzapioggia",
+				"pt": "Chuva Borrifante",
+				"de": "Regenplatscher"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		7
+	],
+	"hp": 70,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Schiggy",
+		"en": "Squirtle",
+		"es": "Squirtle",
+		"fr": "Carapuce",
+		"it": "Squirtle",
+		"pt": "Squirtle"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm9",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

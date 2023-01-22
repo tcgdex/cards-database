@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Odor Sleuth",
+				"fr": "Flair"
+			},
+			"effect": {
+				"en": "Flip 3 coins. For each heads, put a card from your discard pile into your hand.",
+				"fr": "Lancez 3 pièces. Pour chaque côté face, prenez une carte dans votre pile de défausse et ajoutez-la à votre main."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Giga Impact",
+				"fr": "Giga Impact"
+			},
+			"effect": {
+				"en": "This Pokémon can't attack during your next turn.",
+				"fr": "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		508
+	],
+	"evolveFrom": {
+		"en": "Herdier",
+		"fr": "Ponchien"
+	},
+	"hp": 140,
+	"illustrator": "match",
+	"name": {
+		"de": "Bissbark",
+		"en": "Stoutland",
+		"es": "Stoutland",
+		"fr": "Mastouffe",
+		"it": "Stoutland",
+		"pt": "Stoutland"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw1",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

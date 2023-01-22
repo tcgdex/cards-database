@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Healing Trial",
+				"fr": "Défi guérison"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, remove 3 damage counters from Chansey. If tails, remove 3 damage counters from the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, retirez à Leveinard 3 marqueurs de dégât. Si c'est pile, retirez au Pokémon Défenseur 3 marqueurs de dégât."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pulled Punch",
+				"fr": "Poing-doux"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 40.",
+				"fr": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 10 au lieu de 40."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		113
+	],
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Chansey",
+		"fr": "Leveinard"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

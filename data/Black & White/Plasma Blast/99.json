@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reverse Edge",
+				"fr": "Revers-Lame"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, put a card from your discard pile into your hand.",
+				"fr": "Lancez une pièce. Si c'est face, ajoutez une carte de votre pile de défausse à votre main."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fast Forward",
+				"fr": "Avance Rapide"
+			},
+			"effect": {
+				"en": "For each Plasma Energy attached to this Pokémon, discard the top card of your opponent's deck.",
+				"fr": "Pour chaque Énergie Plasma attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		483
+	],
+	"hp": 180,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Dialga-EX",
+		"en": "Dialga-EX",
+		"es": "Dialga-EX",
+		"fr": "Dialga EX",
+		"it": "Dialga-EX",
+		"pt": "Dialga-EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "bw10",
+	"suffix": "EX",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

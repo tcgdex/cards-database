@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack",
+				"fr": "Vive-attaque"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slam",
+				"fr": "Souplesse"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il fait son nid de façon à pouvoir loger son corps mince. Les autres Pokémon ne peuvent pas rentrer dans le nid."
+	},
+	"dexId": [
+		162
+	],
+	"evolveFrom": {
+		"en": "Sentret"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Furret",
+		"fr": "Fouinar"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "neo1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Knock Over",
+				"fr": "Culbute",
+				"es": "Tumbar",
+				"it": "Sconvolgimento",
+				"pt": "Arrebatar",
+				"de": "Umwerfen"
+			},
+			"effect": {
+				"en": "You may discard any Stadium card in play.",
+				"fr": "Vous pouvez défausser toute carte Stade en jeu.",
+				"es": "Puedes descartar cualquier carta de Estadio en juego.",
+				"it": "Puoi scartare una carta Stadio in gioco.",
+				"pt": "Você pode descartar qualquer carta de Estádio em jogo.",
+				"de": "Du kannst 1 beliebige Stadionkarte im Spiel auf den Ablagestapel legen."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mountain Munch",
+				"fr": "Dévore-Montagne",
+				"es": "Mascamontañas",
+				"it": "Sgranocchiacime",
+				"pt": "Masca-montanhas",
+				"de": "Gipfelmampfer"
+			},
+			"effect": {
+				"en": "Discard the top 2 cards of your opponent’s deck.",
+				"fr": "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+				"es": "Descarta las 2 primeras cartas de la baraja de tu rival.",
+				"it": "Scarta le prime due carte del mazzo del tuo avversario.",
+				"pt": "Descarte as 2 primeiras cartas do baralho do seu oponente.",
+				"de": "Lege die obersten 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		632
+	],
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Fermicula",
+		"en": "Durant",
+		"es": "Durant",
+		"fr": "Fermite",
+		"it": "Durant",
+		"pt": "Durant"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

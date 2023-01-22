@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche",
+				"es": "Ascuas",
+				"it": "Braciere",
+				"pt": "Brasa",
+				"de": "Glut"
+			},
+			"effect": {
+				"en": "Discard a Fire Energy attached to this Pokémon.",
+				"fr": "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				"es": "Descarta 1 Energía Fire unida a este Pokémon.",
+				"it": "Scarta un'Energia Fire assegnata a questo Pokémon.",
+				"pt": "Descarte uma Energia Fire ligada a este Pokémon.",
+				"de": "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		155
+	],
+	"hp": 60,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Feurigel",
+		"en": "Cyndaquil",
+		"es": "Cyndaquil",
+		"fr": "Héricendre",
+		"it": "Cyndaquil",
+		"pt": "Cyndaquil"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy8",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

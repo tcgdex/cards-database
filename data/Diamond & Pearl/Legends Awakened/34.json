@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Psychic Bind",
+				"fr": "Attache psy"
+			},
+			"effect": {
+				"en": "Once during your turn, when you put Mesprit from your hand onto your Bench, you may use this power. Your opponent can't use any Poké-Powers on his or her Pokémon during your opponent's next turn.",
+				"fr": "Une seule fois lors de votre tour, lorsque vous placez Créfollet de votre main sur votre Banc, vous pouvez utiliser ce pouvoir. Votre adversaire ne peut pas utiliser de Poké-Powers de son Pokémon lors du prochain tour de votre adversaire."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Extrasensory",
+				"fr": "Extrasenseur"
+			},
+			"effect": {
+				"en": "If you have the same number of cards in your hand as your opponent, this attack does 20 damage plus 50 more damage.",
+				"fr": "Si vous avez autant de cartes en main que votre adversaire, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "On l'appelle \"être de l'émotion\". Il enseigne aux hommes la beauté de la tristesse, la douleur de la joie."
+	},
+	"dexId": [
+		481
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Mesprit",
+		"fr": "Créfollet"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d'Boule",
+				"es": "Golpe Cabeza",
+				"it": "Bottintesta",
+				"pt": "Cabeçada",
+				"de": "Kopfnuss"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Beam",
+				"fr": "Rayon",
+				"es": "Transmisión",
+				"it": "Raggio",
+				"pt": "Feixe",
+				"de": "Strahl"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy."
+	},
+	"hp": 70,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Meltan",
+		"en": "Meltan",
+		"es": "Meltan",
+		"fr": "Meltan",
+		"it": "Meltan",
+		"pt": "Meltan"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

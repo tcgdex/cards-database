@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Headbutt"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cliff Edge Formation"
+			},
+			"damage": "60+",
+			"effect": {
+				"en": "If your opponent has exactly 1 Prize card remaining, this attack does 160 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
+	},
+	"hp": 90,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Legios",
+		"en": "Falinks",
+		"es": "Falinks",
+		"fr": "Hexadron",
+		"it": "Falinks",
+		"pt": "Falinks"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

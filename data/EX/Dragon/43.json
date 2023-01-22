@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hypnosis",
+				"fr": "Hypnose"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Night Attack",
+				"fr": "Attaque nocturne"
+			},
+			"effect": {
+				"en": "Put 1 damage counter on 1 of your opponent's Pokémon.",
+				"fr": "Placez un marqueur de dégât sur un des Pokémon de votre adversaire."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		353
+	],
+	"hp": 50,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"en": "Shuppet",
+		"fr": "Polichombr"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

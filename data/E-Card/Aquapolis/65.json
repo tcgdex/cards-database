@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Growth",
+				"fr": "Croissance"
+			},
+			"effect": {
+				"en": "Attach up to 2 Energy cards from your hand to Weepinbell.",
+				"fr": "Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Boustiflor."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Razor Leaf",
+				"fr": "Double tranch'herb"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		70
+	],
+	"evolveFrom": {
+		"en": "Bellsprout"
+	},
+	"hp": 70,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Weepinbell",
+		"fr": "Boustiflor"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard2",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Chip Away",
+				"fr": "Attrition"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by any effects on the Defending Pokémon.",
+				"fr": "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Swing Around",
+				"fr": "Balançoire"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		534
+	],
+	"evolveFrom": {
+		"en": "Gurdurr",
+		"fr": "Ouvrifier"
+	},
+	"hp": 140,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Meistagrif",
+		"en": "Conkeldurr",
+		"es": "Conkeldurr",
+		"fr": "Bétochef",
+		"it": "Conkeldurr",
+		"pt": "Conkeldurr"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw3",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

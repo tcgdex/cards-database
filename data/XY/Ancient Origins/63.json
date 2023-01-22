@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunge",
+				"fr": "Coup Rapide",
+				"es": "Embestida",
+				"it": "Affondo",
+				"pt": "Estocada",
+				"de": "Ausfall"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				"es": "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				"it": "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				"pt": "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+				"de": "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		133
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Evoli",
+		"en": "Eevee",
+		"es": "Eevee",
+		"fr": "Évoli",
+		"it": "Eevee",
+		"pt": "Eevee"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

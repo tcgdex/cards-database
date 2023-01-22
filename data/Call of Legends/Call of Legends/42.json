@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Hurl"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Spin"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 70 damage times the number of heads."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		232
+	],
+	"evolveFrom": {
+		"en": "Phanpy"
+	},
+	"hp": 100,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Donphan"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"set": "col1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

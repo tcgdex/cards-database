@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Corkscrew Punch",
+				"fr": "Poing Tire-Bouchon",
+				"es": "Puño Tirabuzón",
+				"it": "Pugno Rotante",
+				"pt": "Soco Saca-rolha",
+				"de": "Korkenzieherhieb"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Darkness Fang",
+				"fr": "Croc Obscur",
+				"es": "Colmillo de Oscuridad",
+				"it": "Oscurizanna",
+				"pt": "Presa Sombria",
+				"de": "Fänge der Dunkelheit"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go."
+	},
+	"evolveFrom": {
+		"en": "Deino",
+		"fr": "Solochi",
+		"es": "Deino",
+		"it": "Deino",
+		"pt": "Deino",
+		"de": "Kapuno"
+	},
+	"hp": 100,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Duodino",
+		"en": "Zweilous",
+		"es": "Zweilous",
+		"fr": "Diamat",
+		"it": "Zweilous",
+		"pt": "Zweilous"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh3",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

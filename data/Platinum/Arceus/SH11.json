@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Star Barrier"
+			},
+			"effect": {
+				"en": "As long as Ponyta has any Energy attached to it, Ponyta has no Weakness."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Blue Fire"
+			},
+			"effect": {
+				"en": "Discard all Fire Energy attached to Ponyta."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		77
+	],
+	"illustrator": "Kanako Eo",
+	"name": {
+		"en": "Ponyta"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+10"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"description": {
+		"en": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+	},
+	"dexId": [
+		249
+	],
+	"hp": 130,
+	"illustrator": "Shinji Higuchi",
+	"name": {
+		"en": "Lugia LEGEND",
+		"fr": "Lugia LÉGENDAIRE"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 0,
+	"set": "hgss1",
+	"stage": "Basic",
+	"suffix": "Legend",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

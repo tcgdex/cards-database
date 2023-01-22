@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Psychic Strategy",
+				"fr": "Stratégie psy"
+			},
+			"effect": {
+				"en": "Each player counts the number of cards in his or her opponent's hand. Each player shuffles his or her hand into his or her deck. Then, each player draws a number of cards equal to the number of cards his or her opponent had.",
+				"fr": "Chaque joueur compte le nombre de cartes dans la main de son adversaire, Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur pioche autant de cartes que son adversaire avait en main."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Super Eggsplosion",
+				"fr": "Super eggsplosion"
+			},
+			"effect": {
+				"en": "Discard as many Energy cards as you like attached to your Pokémon. For each Energy card you discarded, flip a coin. This attack does 50 damage times the number of heads.",
+				"fr": "Défaussez autant de cartes Énergie attachées à votre Pokémon que vous le voulez. Pour chaque carte Énergie défaussée, lancez une pièce. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "50×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "On l'appelle \"jungle sur pattes\". Si une tête devient trop grosse, elle tombe et produit un NOEUNOEUF."
+	},
+	"dexId": [
+		103
+	],
+	"evolveFrom": {
+		"en": "Exeggcute",
+		"fr": "Owei"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Exeggutor",
+		"fr": "Noadkoko"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

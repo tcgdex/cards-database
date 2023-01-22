@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Placez dans votre main autant d'Énergies attachées à votre Pokémon que vous voulez.",
+		"en": "Put as many Energy attached to your Pokémon as you like into your hand.",
+		"es": "Pon tantas Energías unidas a tus Pokémon como quieras en tu mano.",
+		"it": "Prendi tutte le Energie assegnate ai tuoi Pokémon che vuoi e aggiungile alle carte che hai in mano.",
+		"pt": "Coloque tantas Energias ligadas aos seus Pokémon quanto desejar em sua mão.",
+		"de": "Nimm beliebig viele an deine Pokémon angelegten Energien auf deine Hand."
+	},
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Energierückstellung",
+		"en": "Energy Reset",
+		"es": "Reinicio de Energía",
+		"fr": "Réinitialisation d'Énergie",
+		"it": "Ripresa Energetica",
+		"pt": "Energia Redefinida"
+	},
+	"rarity": "Uncommon",
+	"set": "xy10",
+	"trainerType": "Item"
+}

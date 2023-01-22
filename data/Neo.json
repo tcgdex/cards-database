@@ -1,0 +1,11 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "neo",
+	"name": {
+		"de": "Neo",
+		"en": "Neo",
+		"es": "Neo",
+		"fr": "Neo",
+		"it": "Neo"
+	}
+}

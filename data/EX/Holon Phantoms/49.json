@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Whirlwind",
+				"fr": "Cyclone"
+			},
+			"effect": {
+				"en": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		17
+	],
+	"evolveFrom": {
+		"en": "Pidgey"
+	},
+	"hp": 70,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Pidgeotto δ",
+		"fr": "Roucoups δ ESPÈCES DELTA"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex13",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

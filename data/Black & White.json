@@ -1,0 +1,12 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "bw",
+	"name": {
+		"de": "Schwarz & Weiß",
+		"en": "Black & White",
+		"es": "Negro y Blanco",
+		"fr": "Noir & Blanc",
+		"it": "Nero e Bianco",
+		"pt": "Black & White"
+	}
+}

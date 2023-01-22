@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe",
+				"es": "Arañazo",
+				"it": "Graffio",
+				"pt": "Arranhão",
+				"de": "Kratzer"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Smack",
+				"fr": "Coup de Queue",
+				"es": "Bofetón Cola",
+				"it": "Codasberla",
+				"pt": "Ataque de Cauda",
+				"de": "Schweifschlag"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		161
+	],
+	"hp": 50,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Wiesor",
+		"en": "Sentret",
+		"es": "Sentret",
+		"fr": "Fouinette",
+		"it": "Sentret",
+		"pt": "Sentret"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

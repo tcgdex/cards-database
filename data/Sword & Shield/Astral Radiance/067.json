@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Mind Bend",
+				"fr": "Contrôleur d'Esprit",
+				"es": "Fusión Mental",
+				"it": "Fusione Mentale",
+				"pt": "Dobra Mentes",
+				"de": "Gedankenverbiegung"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Tobutz",
+		"en": "Azelf",
+		"es": "Azelf",
+		"fr": "Créfadet",
+		"it": "Azelf",
+		"pt": "Azelf"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh10",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

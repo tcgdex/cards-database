@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Delta Reactor",
+				"fr": "Réacteur Delta"
+			},
+			"effect": {
+				"en": "As long as any Stadium card with Holon in its name is in play, each of your Pokémon that has δ on its card does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				"fr": "Tant que des cartes Stade dont le nom comporte Holon sont en jeu, chacun de vos Pokémon possédant le symbole δ inflige au Pokémon Défenseur 10 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Beam",
+				"fr": "Ultralaser"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Metal",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Impact",
+				"fr": "Gros impact"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		130
+	],
+	"evolveFrom": {
+		"en": "Magikarp"
+	},
+	"hp": 90,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Gyarados δ",
+		"fr": "Leviator δ ESPÈCES DELTA"
+	},
+	"rarity": "Rare",
+	"set": "ex13",
+	"stage": "Stage1",
+	"types": [
+		"Lightning",
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

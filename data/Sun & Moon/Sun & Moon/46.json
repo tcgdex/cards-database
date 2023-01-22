@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Water Bubble",
+				"fr": "Aquabulle",
+				"es": "Pompa",
+				"it": "Bolladacqua",
+				"pt": "Bolha de Água",
+				"de": "Wasserblase"
+			},
+			"effect": {
+				"en": "Prevent all damage done to this Pokémon by attacks from your opponent’s Fire Pokémon.",
+				"fr": "Évitez tous les dégâts infligés à ce Pokémon par des attaques des Pokémon Fire de votre adversaire.",
+				"es": "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Fire de tu rival.",
+				"it": "Previeni tutti i danni da attacchi inflitti a questo Pokémon dai Pokémon Fire del tuo avversario.",
+				"pt": "Previne todo o dano causado a este Pokémon por ataques dos Pokémon Fire do seu oponente.",
+				"de": "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Fire-Pokémon deines Gegners zugefügt wird."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aqua Edge",
+				"fr": "Aqua-Dague",
+				"es": "Filo Agua",
+				"it": "Acquataglio",
+				"pt": "Aqua Gume",
+				"de": "Aquaschneide"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		752
+	],
+	"evolveFrom": {
+		"en": "Dewpider",
+		"fr": "Araqua"
+	},
+	"hp": 100,
+	"illustrator": "match",
+	"name": {
+		"de": "Aranestro",
+		"en": "Araquanid",
+		"es": "Araquanid",
+		"fr": "Tarenbulle",
+		"it": "Araquanid",
+		"pt": "Araquanid"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

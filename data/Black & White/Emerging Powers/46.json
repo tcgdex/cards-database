@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Deleting Glare",
+				"fr": "Regard Dépouillant"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à 1 des Pokémon de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Psy Bolt",
+				"fr": "Super Psy"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		575
+	],
+	"evolveFrom": {
+		"en": "Gothita",
+		"fr": "Scrutella"
+	},
+	"hp": 80,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Hypnomorba",
+		"en": "Gothorita",
+		"es": "Gothorita",
+		"fr": "Mesmérella",
+		"it": "Gothorita",
+		"pt": "Gothorita"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

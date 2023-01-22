@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scary Face",
+				"fr": "Grimace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Tail",
+				"fr": "Queue de flammes"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		5
+	],
+	"evolveFrom": {
+		"en": "Charmander"
+	},
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Charmeleon",
+		"fr": "Reptincel"
+	},
+	"rarity": "Uncommon",
+	"set": "ex16",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

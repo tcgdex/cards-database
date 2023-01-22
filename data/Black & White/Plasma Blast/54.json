@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Acrobatics",
+				"fr": "Acrobatie"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Swift Dive",
+				"fr": "Vive Plongée"
+			},
+			"effect": {
+				"en": "If this Pokémon's remaining HP is 50 or less, this attack's base damage is 50.",
+				"fr": "S'il reste 50 PV ou moins à ce Pokémon, les dégâts de base de cette attaque sont de 50."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		567
+	],
+	"evolveFrom": {
+		"en": "Archen",
+		"fr": "Arkéapti"
+	},
+	"hp": 120,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Aeropteryx",
+		"en": "Archeops",
+		"es": "Archeops",
+		"fr": "Aéroptéryx",
+		"it": "Archeops",
+		"pt": "Archeops"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "bw10",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

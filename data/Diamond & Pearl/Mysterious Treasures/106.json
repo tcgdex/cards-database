@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Shining Fang",
+				"fr": "Croc brillant"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage.",
+				"fr": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il broie tout ce qu'il trouve avec ses mâchoires puissantes. Même son dresseur doit s'en méfier."
+	},
+	"dexId": [
+		158
+	],
+	"hp": 50,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Totodile",
+		"fr": "Kaiminus"
+	},
+	"rarity": "Common",
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

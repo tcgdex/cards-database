@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Electro Ball",
+				"fr": "Boule Élek"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		81
+	],
+	"hp": 60,
+	"illustrator": "match",
+	"name": {
+		"de": "Magnetilo",
+		"en": "Magnemite",
+		"es": "Magnemite",
+		"fr": "Magnéti",
+		"it": "Magnemite",
+		"pt": "Magnemite"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

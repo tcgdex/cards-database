@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "L'été, on aperçoit souvent des bandes de Pikachu surfant sur les vagues."
+	},
+	"dexId": [
+		25
+	],
+	"hp": 50,
+	"illustrator": "Toshinao Aoki",
+	"name": {
+		"en": "Surfing Pikachu",
+		"fr": "Pikachu surfeur"
+	},
+	"rarity": "Common",
+	"set": "basep",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

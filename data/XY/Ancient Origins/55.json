@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Cotton Bed",
+				"fr": "Lit de Plumes",
+				"es": "Cama de Algodón",
+				"it": "Cotonsonno",
+				"pt": "Cama de Algodão",
+				"de": "Baumwollbett"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		546
+	],
+	"hp": 40,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Waumboll",
+		"en": "Cottonee",
+		"es": "Cottonee",
+		"fr": "Doudouvet",
+		"it": "Cottonee",
+		"pt": "Cottonee"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy7",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

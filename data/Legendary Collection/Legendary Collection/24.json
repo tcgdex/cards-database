@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Avalanche"
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Selfdestruct"
+			},
+			"effect": {
+				"en": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		76
+	],
+	"evolveFrom": {
+		"en": "Graveler"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Golem"
+	},
+	"rarity": "Rare",
+	"set": "lc",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

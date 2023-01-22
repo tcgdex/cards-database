@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rushing Water",
+				"fr": "Courant fort"
+			},
+			"effect": {
+				"en": "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
+				"fr": "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Escort",
+				"fr": "Escorter"
+			},
+			"effect": {
+				"en": "If you played any Supporter card from your hand during this turn, this attack does 40 damage plus 20 more damage.",
+				"fr": "Si vous jouez une carte Supporter de votre main lors de ce tour, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		395
+	],
+	"hp": 90,
+	"illustrator": "Hiroki Fuchino",
+	"name": {
+		"en": "Empoleon FB",
+		"fr": "Pingoléon "
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

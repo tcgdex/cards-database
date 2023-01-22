@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Spreading Flames",
+				"fr": "Flammes Rampantes",
+				"es": "Llamas Dispersas",
+				"it": "Spargifiamma",
+				"pt": "Chamas Alastrantes",
+				"de": "Flammenausbreitung"
+			},
+			"effect": {
+				"en": "Attach 3 Fire Energy cards from your discard pile to your Pokémon in any way you like.",
+				"fr": "Attachez 3 cartes Énergie Fire de votre pile de défausse à vos Pokémon, de la manière que vous voulez.",
+				"es": "Une 3 cartas de Energía Fire de tu pila de descartes a tus Pokémon de la manera que desees.",
+				"it": "Assegna a piacimento ai tuoi Pokémon tre carte Energia Fire dalla tua pila degli scarti.",
+				"pt": "Ligue 3 cards de Energia Fire da sua pilha de descarte a seus Pokémon do jeito que desejar.",
+				"de": "Lege 3 Fire-Energiekarten von deinem Ablagestapel beliebig an deine Pokémon an."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Blow",
+				"fr": "Coup Explosif",
+				"es": "Golpe de Fuego",
+				"it": "Colpocalore",
+				"pt": "Golpe de Calor",
+				"de": "Hitzschlag"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to this Pokémon.",
+				"fr": "Défaussez une Énergie attachée à ce Pokémon.",
+				"es": "Descarta 1 Energía unida a este Pokémon.",
+				"it": "Scarta un'Energia assegnata a questo Pokémon.",
+				"pt": "Descarte uma Energia ligada a este Pokémon.",
+				"de": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		257
+	],
+	"evolveFrom": {
+		"en": "Combusken",
+		"fr": "Galifeu",
+		"es": "Combusken",
+		"it": "Combusken",
+		"pt": "Combusken",
+		"de": "Jungglut"
+	},
+	"hp": 140,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Lohgock",
+		"en": "Blaziken",
+		"es": "Blaziken",
+		"fr": "Braségali",
+		"it": "Blaziken",
+		"pt": "Blaziken"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "xy5",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

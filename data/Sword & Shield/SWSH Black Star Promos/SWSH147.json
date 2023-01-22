@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Dragon Pulse"
+			},
+			"damage": 40,
+			"effect": {
+				"en": "Discard the top 2 cards of your deck."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Lightning"
+			],
+			"name": {
+				"en": "Spiral Burst"
+			},
+			"damage": "20+",
+			"effect": {
+				"en": "You may discard up to 2 basic Fire Energy or up to 2 basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 210,
+	"illustrator": "PLANETA Mochizuki",
+	"name": {
+		"en": "Rayquaza V"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

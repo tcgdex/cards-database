@@ -1,0 +1,21 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Kampf-Energie",
+		"en": "Fighting Energy",
+		"es": "Energía Lucha",
+		"fr": "Énergie Combat",
+		"it": "Energia Combattimento",
+		"pt": "Energia de Luta"
+	},
+	"rarity": "Secret Rare",
+	"set": "swsh6",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

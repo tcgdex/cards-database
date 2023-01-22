@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Put 1 of your Pokémon that isn't a Pokémon V or a Pokémon-GX into your hand. (Discard all attached cards.)",
+		"fr": "Ajoutez à votre main l'un de vos Pokémon qui n'est ni un Pokémon-V ni un Pokémon-GX. (Défaussez toutes les cartes attachées.)",
+		"es": "Pon 1 de tus Pokémon que no sea un Pokémon V o un Pokémon-GX en tu mano. (Descarta todas las cartas unidas a él).",
+		"it": "Prendi uno dei tuoi Pokémon che non è Pokémon-V o un Pokémon-GX e aggiungilo alle carte che hai in mano. Scarta tutte le carte assegnate.",
+		"pt": "Coloque 1 dos seus Pokémon que não seja um Pokémon V ou um Pokémon-GX na sua mão (descarte todas as cartas ligadas a ele).",
+		"de": "Nimm 1 deiner Pokémon, das kein Pokémon-V oder Pokémon-GX ist, auf deine Hand. (Lege alle angelegten Karten auf deinen Ablagestapel.)"
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Anziehungsnetz",
+		"en": "Scoop Up Net",
+		"es": "Red Levante",
+		"fr": "Épuisette de Rappel",
+		"it": "Retino di Recupero",
+		"pt": "Rede de Recolhida"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "D",
+	"set": "swsh2",
+	"trainerType": "Item",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

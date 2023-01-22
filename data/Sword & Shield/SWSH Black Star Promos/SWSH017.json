@@ -1,0 +1,85 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Energize",
+				"fr": "Énergisant",
+				"es": "Vigorizar",
+				"it": "Energizza",
+				"pt": "Energize",
+				"de": "Energiezufuhr"
+			},
+			"effect": {
+				"en": "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+				"fr": "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
+				"es": "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
+				"it": "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
+				"pt": "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+				"de": "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Venom Slap",
+				"fr": "Gifle Envenimée",
+				"es": "Bofetón Venenoso",
+				"it": "Velensberla",
+				"pt": "Venom Slap",
+				"de": "Gifttreffer"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "Your opponent's Active Pokémon is now Poisoned.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			},
+			"damage": 120,
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		849
+	],
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Riffex V",
+		"en": "Toxtricity V",
+		"es": "Toxtricity V",
+		"fr": "Salarsen V",
+		"it": "Toxtricity V",
+		"pt": "Toxtricity V"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

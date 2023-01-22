@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Pistolet à O",
+				"en": "Water Gun",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revólver d'Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 10,
+			"cost": [
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
+	},
+	"hp": 40,
+	"illustrator": "Taira Akitsu",
+	"name": {
+		"de": "Seeper",
+		"en": "Horsea",
+		"es": "Horsea",
+		"fr": "Hypotrempe",
+		"it": "Horsea",
+		"pt": "Horsea"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 0,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

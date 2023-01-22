@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Dragon Rage"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Bubblebeam"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, Defending Pokémon is now Paralyzed."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		130
+	],
+	"evolveFrom": {
+		"en": "Magikarp"
+	},
+	"hp": 100,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Gyarados"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "lc",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

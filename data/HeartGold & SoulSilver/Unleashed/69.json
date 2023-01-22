@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Speed Evolution",
+				"fr": "Évolution rapide"
+			},
+			"effect": {
+				"en": "Search your deck for a card that evolves from Weedle and put it onto Weedle. (This counts as evolving Weedle.) Shuffle your deck afterward.",
+				"fr": "Cherchez une carte Évolution d’Aspicot dans votre deck et placez-la sur Aspicot (cela équivaut à faire évoluer Aspicot). Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sting",
+				"fr": "Dard"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+	},
+	"dexId": [
+		13
+	],
+	"hp": 40,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Weedle",
+		"fr": "Aspicot"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

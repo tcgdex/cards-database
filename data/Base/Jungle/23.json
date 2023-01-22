@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Boyfriends",
+				"fr": "Fiancés"
+			},
+			"effect": {
+				"en": "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
+				"fr": "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Nidoking que vous avez en jeu."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mega Punch",
+				"fr": "Ultimapoing"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ses écailles très résistantes et son corps massif sont des armes dévastatrices."
+	},
+	"dexId": [
+		31
+	],
+	"evolveFrom": {
+		"en": "Nidorina"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Nidoqueen",
+		"fr": "Nidoqueen"
+	},
+	"rarity": "Rare",
+	"set": "base2",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

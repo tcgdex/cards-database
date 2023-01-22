@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Slayer",
+				"fr": "Dragon Slayer"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is a Dragon Pokémon, this attack does 40 more damage.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon Dragon, cette attaque inflige 40 dégâts supplémentaires."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		625
+	],
+	"evolveFrom": {
+		"en": "Pawniard",
+		"fr": "Scalpion"
+	},
+	"hp": 100,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Caesurio",
+		"en": "Bisharp",
+		"es": "Bisharp",
+		"fr": "Scalproie",
+		"it": "Bisharp",
+		"pt": "Bisharp"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

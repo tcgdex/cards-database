@@ -1,10 +1,11 @@
-import { DB_PATH, smartGlob } from './util'
+import { DB_PATH, realPath, smartGlob } from './util'
 import { setToSetSimple, getSets } from './setUtil'
 import { Serie, SupportedLanguages, Set } from '../../../interfaces'
 import { Serie as SerieSingle, SerieResume } from '../../../meta/definitions/api'
+import fs from 'fs/promises'
 
 export async function getSerie(name: string): Promise<Serie> {
-	return (await import(`../../${DB_PATH}/data/${name}.js`)).default
+	return JSON.parse(await fs.readFile(realPath(__dirname, `../../../data/${name}.json`), 'utf-8'))
 }
 
 export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): Promise<boolean> {
@@ -16,7 +17,7 @@ export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): 
 }
 
 export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>> {
-	let series: Array<Serie> = (await Promise.all((await smartGlob(`${DB_PATH}/data/*.js`))
+	let series: Array<Serie> = (await Promise.all((await smartGlob(realPath(__dirname, '../../../data/*.json')))
 		// Find Serie's name
 		.map((it) => it.substring(it.lastIndexOf('/') + 1, it.length - 3))
 		// Fetch the Serie

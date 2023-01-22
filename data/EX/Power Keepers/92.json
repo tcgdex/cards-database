@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Cursed Eyes",
+				"fr": "Yeux maléfiques"
+			},
+			"effect": {
+				"en": "Once during your turn, when you put Absol ex from your hand onto your Bench, you may move 3 damage counters from 1 of your opponent's Pokémon to another of his or her Pokémon.",
+				"fr": "Une seule fois lors de votre tour, lorsque vous placez Absol ex de votre main sur votre Banc, vous pouvez déplacer 3 marqueurs de dégât d'1 des Pokémon de votre adversaire sur 1 autre de ses Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic Pulse",
+				"fr": "Vibration psy"
+			},
+			"effect": {
+				"en": "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire possèdant des marqueurs de dégât. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		359
+	],
+	"hp": 100,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Absol ex",
+		"fr": "Absol ex"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "ex16",
+	"suffix": "EX",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

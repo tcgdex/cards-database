@@ -1,0 +1,11 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 12,
+	"id": "2018sm",
+	"name": {
+		"en": "Macdonald's Collection 2018",
+		"it": "McDonald's Collection 2018"
+	},
+	"releaseDate": "2018-10-19",
+	"serie": "mc"
+}

@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Splash",
+				"fr": "Trempette",
+				"es": "Salpicadura",
+				"it": "Splash",
+				"pt": "Borrifada",
+				"de": "Platscher"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		187
+	],
+	"hp": 40,
+	"illustrator": "Mina Nakai",
+	"name": {
+		"de": "Hoppspross",
+		"en": "Hoppip",
+		"es": "Hoppip",
+		"fr": "Granivol",
+		"it": "Hoppip",
+		"pt": "Hoppip"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy11",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

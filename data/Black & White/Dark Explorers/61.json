@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Confuse Ray"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Shutdown"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		197
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 100,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Nachtara",
+		"en": "Umbreon",
+		"es": "Umbreon",
+		"fr": "Noctali",
+		"it": "Umbreon",
+		"pt": "Umbreon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Removal Beam",
+				"fr": "Rayon désintégrateur"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Psy",
+				"fr": "Super psy"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		281
+	],
+	"evolveFrom": {
+		"en": "Ralts"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Kirlia",
+		"fr": "Kirlia"
+	},
+	"rarity": "Uncommon",
+	"set": "ex1",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

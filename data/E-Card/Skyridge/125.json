@@ -1,0 +1,10 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Fisherman"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard3"
+}

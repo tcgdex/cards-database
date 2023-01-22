@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Nap",
+				"fr": "Tit'sieste"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Combee.",
+				"fr": "Retirez à Apitrini 2 marqueurs de dégât."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Zzzt",
+				"fr": "Bzzz"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		415
+	],
+	"hp": 40,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Combee",
+		"fr": "Apitrini"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

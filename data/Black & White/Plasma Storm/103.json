@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sweet Kiss",
+				"fr": "Doux Baiser"
+			},
+			"effect": {
+				"en": "Your opponent draws a card.",
+				"fr": "Votre adversaire pioche une carte."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		176
+	],
+	"evolveFrom": {
+		"en": "Togepi",
+		"fr": "Togepi"
+	},
+	"hp": 80,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Togetic",
+		"en": "Togetic",
+		"es": "Togetic",
+		"fr": "Togetic",
+		"it": "Togetic",
+		"pt": "Togetic"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

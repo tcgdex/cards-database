@@ -1,0 +1,18 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"hp": 0,
+	"name": {
+		"en": "Darkness Energy",
+		"fr": "Énergie Obscurité"
+	},
+	"rarity": "Common",
+	"set": "hgss1",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

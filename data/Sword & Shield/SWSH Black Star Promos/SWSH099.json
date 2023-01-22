@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stealth Poison"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned. Switch this Pokémon with 1 of your Benched Pokémon."
+			},
+			"damage": 70
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Cutter"
+			},
+			"damage": 180
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		169
+	],
+	"evolveFrom": {
+		"en": "Crobat V"
+	},
+	"hp": 300,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"en": "Crobat VMAX"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "VMAX",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

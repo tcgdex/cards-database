@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Outrage",
+				"fr": "Colère"
+			},
+			"effect": {
+				"en": "Does 10 more damage for each damage counter on this Pokémon.",
+				"fr": "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Glaciate",
+				"fr": "Ère Glaciaire"
+			},
+			"effect": {
+				"en": "This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		646
+	],
+	"hp": 130,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Kyurem",
+		"fr": "Kyurem"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bwp",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

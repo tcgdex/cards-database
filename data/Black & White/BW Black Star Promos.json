@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 101,
+	"id": "bwp",
+	"name": {
+		"de": "SW Promokarten",
+		"en": "BW Black Star Promos",
+		"es": "NB Promo",
+		"fr": "Promo BW",
+		"it": "NB Promo"
+	},
+	"releaseDate": "2011-04-26",
+	"serie": "bw",
+	"tcgOnline": "PR-BLW"
+}

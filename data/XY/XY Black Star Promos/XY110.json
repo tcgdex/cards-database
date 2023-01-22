@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Clairvoyance",
+				"fr": "Voyance"
+			},
+			"effect": {
+				"en": "Your opponent reveals his or her hand.",
+				"fr": "Votre adversaire montre sa main."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		151
+	],
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Mew",
+		"fr": "Mew"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

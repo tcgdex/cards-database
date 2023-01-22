@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Live Coal",
+				"fr": "Charbon Mutant",
+				"es": "Carbón Activado",
+				"it": "Carboni Ardenti",
+				"pt": "Carvão Vivo",
+				"de": "Glühende Kohlen"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		757
+	],
+	"hp": 70,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Molunk",
+		"en": "Salandit",
+		"es": "Salandit",
+		"fr": "Tritox",
+		"it": "Salandit",
+		"pt": "Salandit"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

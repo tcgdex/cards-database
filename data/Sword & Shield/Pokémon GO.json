@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 78,
+	"id": "swsh10.5",
+	"name": {
+		"de": "Pokémon GO",
+		"en": "Pokémon GO",
+		"es": "Pokémon GO",
+		"fr": "Pokémon GO",
+		"it": "Pokémon GO",
+		"pt": "Pokémon GO"
+	},
+	"releaseDate": "2022-07-01",
+	"serie": "swsh"
+}

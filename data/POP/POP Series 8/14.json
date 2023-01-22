@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Baby Evolution"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Lively"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from 1 of your Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It loves round white things. It carries an egg-shaped rock in imitation of CHANSEY."
+	},
+	"dexId": [
+		440
+	],
+	"hp": 60,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Happiny"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pop8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

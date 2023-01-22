@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Gouge",
+				"fr": "Griffes rétractiles"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 10 dégâts."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psysplash",
+				"fr": "Psy plouf"
+			},
+			"effect": {
+				"en": "Does 10 damage to each of your opponent's Pokémon for each Energy card attached to that Pokémon. Don't apply Weakness and Resistance.",
+				"fr": "Inflige 10 dégâts à chaque Pokémon de votre adversaire pour chaque carte Énergie attachée à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "La double extrémité de sa queue s'agite quand il utilise ses pouvoirs psychiques pour deviner quelle sera la prochaine action de son adversaire."
+	},
+	"dexId": [
+		196
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Dark Espeon",
+		"fr": "Mentali obscur"
+	},
+	"rarity": "Rare",
+	"set": "neo4",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

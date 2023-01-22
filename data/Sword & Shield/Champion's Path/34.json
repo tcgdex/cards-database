@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sharp Fang",
+				"fr": "Croc Aiguisé",
+				"es": "Colmillo Afilado",
+				"it": "Zannaffilata",
+				"pt": "Presa Afiada",
+				"de": "Scharfe Fänge"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Snap",
+				"fr": "Coud' Queue Sec",
+				"es": "Pinza Cola",
+				"it": "Schioccacoda",
+				"pt": "Surpresa de Cauda",
+				"de": "Schweifhieb"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving."
+	},
+	"evolveFrom": {
+		"en": "Ekans",
+		"fr": "Abo"
+	},
+	"hp": 120,
+	"illustrator": "nagimiso",
+	"name": {
+		"de": "Arbok",
+		"en": "Arbok",
+		"es": "Arbok",
+		"fr": "Arbok",
+		"it": "Arbok",
+		"pt": "Arbok"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3.5",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

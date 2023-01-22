@@ -1,0 +1,81 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Single Strike Jammer",
+				"fr": "Bloqueur de Poing Final",
+				"es": "Inhibidor de Golpe Brusco",
+				"it": "Blocco Colpo Singolo",
+				"de": "Fokussierter-Angriff-Störer"
+			},
+			"effect": {
+				"en": "Your opponent's Single Strike Pokémon's attacks cost Colorless more.",
+				"fr": "Les attaques des Pokémon Poing Final de votre adversaire coûtent Colorless de plus.",
+				"es": "Los ataques de los Pokémon Golpe Brusco de tu rival cuestan Colorless más.",
+				"it": "Il costo degli attacchi dei Pokémon Colpo Singolo del tuo avversario aumenta di Colorless.",
+				"de": "Die Kosten der Attacken der Fokussierter-Angriff-Pokémon deines Gegners erhöhen sich um Colorless."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cavernous Chomp",
+				"fr": "Mâchoire Caverneuse",
+				"es": "Mordisco Cavernoso",
+				"it": "Mandibola Cavernosa",
+				"de": "Riesiger Biss"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen."
+	},
+	"evolveFrom": {
+		"en": "Clamperl",
+		"fr": "Coquiperl",
+		"es": "Clamperl",
+		"it": "Clamperl",
+		"pt": "Clamperl",
+		"de": "Perlu"
+	},
+	"hp": 110,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Aalabyss",
+		"en": "Huntail",
+		"es": "Huntail",
+		"fr": "Serpang",
+		"it": "Huntail",
+		"pt": "Huntail"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

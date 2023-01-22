@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Paralyzing Gaze"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Paralyzed."
+			},
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Trainer",
+	"effect": {
+		"en": "Attach this card to 1 of your Pokémon in play. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Multi Technical Machine 01.",
+		"fr": "Attachez cette carte à 1 des Pokémon que vous avez en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de ses attaques. À la fin de votre tour, défaussez Machine multi-technique 01."
+	},
+	"illustrator": "\"Big Mama\" Tagawa",
+	"name": {
+		"en": "Multi Technical Machine 01",
+		"fr": "Machine multi-technique 01"
+	},
+	"rarity": "Uncommon",
+	"set": "pop2",
+	"trainerType": "Technical Machine",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

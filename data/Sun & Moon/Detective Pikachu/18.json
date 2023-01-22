@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pitch",
+				"fr": "Lancer",
+				"es": "Arrojar",
+				"it": "Spingivia",
+				"pt": "Lançamento",
+				"de": "Einwerfen"
+			},
+			"effect": {
+				"en": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				"fr": "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				"es": "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				"it": "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				"pt": "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				"de": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		289
+	],
+	"evolveFrom": {
+		"en": "Vigoroth",
+		"fr": "Vigoroth"
+	},
+	"hp": 180,
+	"illustrator": "Framestore",
+	"name": {
+		"de": "Letarking",
+		"en": "Slaking",
+		"es": "Slaking",
+		"fr": "Monaflèmit",
+		"it": "Slaking",
+		"pt": "Slaking"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "det1",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smack",
+				"fr": "Claque"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fairy",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magical Shot",
+				"fr": "Coup Magique"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		281
+	],
+	"evolveFrom": {
+		"en": "Ralts",
+		"fr": "Tarsal"
+	},
+	"hp": 80,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Kirlia",
+		"fr": "Kirlia"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sma",
+	"stage": "Stage1",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

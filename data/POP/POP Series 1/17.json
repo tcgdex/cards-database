@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Critical Crush",
+				"fr": "Écrasement sévère"
+			},
+			"effect": {
+				"en": "Discard 2 basic Energy cards attached to Tyranitar ex or this attack does nothing.",
+				"fr": "Défaussez 2 cartes Énergie de base attachées à Tyranocif ex ou cette attaque est sans effet."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		248
+	],
+	"evolveFrom": {
+		"en": "Pupitar"
+	},
+	"hp": 150,
+	"illustrator": "Hisao Nakamura",
+	"name": {
+		"en": "Tyranitar ex",
+		"fr": "Tyranocif ex"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"retreat": 4,
+	"set": "pop1",
+	"stage": "Stage2",
+	"suffix": "EX",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass"
+		},
+		{
+			"type": "Fighting"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Draw 3 cards.",
+		"fr": "Piochez 3 cartes.",
+		"es": "Roba 3 cartas.",
+		"it": "Pesca tre carte.",
+		"pt": "Compre 3 cartas.",
+		"de": "Ziehe 3 Karten."
+	},
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Hop",
+		"en": "Hop",
+		"es": "Paul",
+		"fr": "Nabil",
+		"it": "Hop",
+		"pt": "Lupo"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"set": "swsh3.5",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,93 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Nightmare",
+				"fr": "Cauchemar",
+				"es": "Pesadilla",
+				"it": "Incubo",
+				"pt": "Pesadelo",
+				"de": "Nachtmahr"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spooky Shot",
+				"fr": "Tir Effrayant",
+				"es": "Disparo Embrujado",
+				"it": "Colpomistero",
+				"pt": "Tiro Assustador",
+				"de": "Spukschuss"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+	},
+	"dexId": [
+		93
+	],
+	"evolveFrom": {
+		"en": "Gastly",
+		"fr": "Fantominus",
+		"es": "Gastly",
+		"it": "Gastly",
+		"pt": "Gastly",
+		"de": "Nebulak"
+	},
+	"hp": 70,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Alpollo",
+		"en": "Haunter",
+		"es": "Haunter",
+		"fr": "Spectrum",
+		"it": "Haunter",
+		"pt": "Haunter"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mach Flight",
+				"fr": "Vol Supersonique"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Water",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Luster Purge",
+				"fr": "Lumi-Éclat"
+			},
+			"effect": {
+				"en": "Discard all Energy attached to this Pokémon.",
+				"fr": "Défaussez toutes les Énergies attachées à ce Pokémon."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		381
+	],
+	"hp": 170,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Latios-EX",
+		"en": "Latios-EX",
+		"es": "Latios-EX",
+		"fr": "Latios-EX",
+		"it": "Latios-EX",
+		"pt": "Latios-EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "bw9",
+	"suffix": "EX",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

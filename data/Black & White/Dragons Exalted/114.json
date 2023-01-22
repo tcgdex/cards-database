@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cette carte ajoute 20 PV au Pokémon auquel elle est attachée.",
+		"en": "The Pokémon this card is attached to gets +20 HP.",
+		"es": "El Pokémon al que esté unida esta carta obtiene 20 PV más.",
+		"it": "Il Pokémon a cui è assegnata questa carta ha 20 PV in più.",
+		"pt": "O Pokémon ao qual este card está ligado recebe +20 PS.",
+		"de": "Das Pokémon, an das diese Karte angelegt ist, erhält +20 KP."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Riesige Robe",
+		"en": "Giant Cape",
+		"es": "Capa Gigante",
+		"fr": "Cape Géante",
+		"it": "Mantello Gigante",
+		"pt": "Capa Gigante"
+	},
+	"rarity": "Uncommon",
+	"set": "bw6",
+	"trainerType": "Tool"
+}

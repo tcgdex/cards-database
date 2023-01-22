@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Growl"
+			},
+			"effect": {
+				"en": "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+			}
+		},
+		{
+			"name": {
+				"en": "Gust"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
+	},
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Pidove"
+	},
+	"rarity": "None",
+	"set": "2011bw",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

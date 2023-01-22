@@ -1,0 +1,21 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Metall-Energie",
+		"en": "Metal Energy",
+		"es": "Energía Metálica",
+		"fr": "Énergie Métal",
+		"it": "Energia Metallo",
+		"pt": "Energia de Metal"
+	},
+	"rarity": "Secret Rare",
+	"set": "swsh7",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

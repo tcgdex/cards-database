@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hex",
+				"fr": "Châtiment"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is affected by a Special Condition, this attack does 50 more damage.",
+				"fr": "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 50 dégâts supplémentaires"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Claw",
+				"fr": "Griffe Ombre"
+			},
+			"effect": {
+				"en": "Discard a random card from your opponent's hand.",
+				"fr": "Défaussez au hasard une carte de la main de votre adversaire."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		487
+	],
+	"hp": 130,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Giratina",
+		"fr": "Giratina"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "bwp",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

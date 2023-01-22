@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 105,
+	"id": "neo4",
+	"name": {
+		"de": "Neo Destiny",
+		"en": "Neo Destiny",
+		"fr": "Neo Destiny",
+		"it": "Neo Destiny"
+	},
+	"releaseDate": "2002-02-28",
+	"serie": "neo",
+	"tcgOnline": "N4"
+}

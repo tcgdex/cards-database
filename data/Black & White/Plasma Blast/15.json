@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Bubble",
+				"fr": "Écume"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Spin",
+				"fr": "Double Tour"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		8
+	],
+	"evolveFrom": {
+		"en": "Squirtle",
+		"fr": "Carapuce"
+	},
+	"hp": 80,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Schillok",
+		"en": "Wartortle",
+		"es": "Wartortle",
+		"fr": "Carabaffe",
+		"it": "Wartortle",
+		"pt": "Wartortle"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw10",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

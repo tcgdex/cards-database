@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Energy Protection",
+				"fr": "Protection d'Énergie"
+			},
+			"effect": {
+				"en": "Any damage done to Pupitar by attacks is reduced by 10 for each Energy attached to Pupitar (after applying Weakness and Resistance). You can't reduce more than 30 damage in this way.",
+				"fr": "Tous dégâts infligés à Ymphect par des attaques sont réduits de 10 pour chaque Énergie qui lui est attachée (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas réduire de plus de 30 dégâts de cette façon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Smash",
+				"fr": "Éclate-roc"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz."
+	},
+	"dexId": [
+		247
+	],
+	"evolveFrom": {
+		"en": "Larvitar",
+		"fr": "Embrylex"
+	},
+	"hp": 80,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Pupitar",
+		"fr": "Ymphect"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp7",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+20"
+		}
+	]
+}

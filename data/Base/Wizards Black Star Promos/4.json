@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Recharge",
+				"fr": "Recharge"
+			},
+			"effect": {
+				"en": "Search your deck for a Energy card and attach it to Pikachu. Shuffle your deck afterward.",
+				"fr": "Dans votre deck, cherchez une carte  Energie et attachez-la à Pikachu. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunderbolt",
+				"fr": "Éclair"
+			},
+			"effect": {
+				"en": "Discard all Energy cards attached to Pikachu in order to use this attack.",
+				"fr": "Défaussez toutes les cartes Énergie attachées à Pikachu pour utiliser cette attaque."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre."
+	},
+	"dexId": [
+		25
+	],
+	"hp": 50,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Pikachu",
+		"fr": "Pikachu"
+	},
+	"rarity": "Common",
+	"set": "basep",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Mud Bomb",
+				"fr": "Boue-Bombe",
+				"es": "Bomba Fango",
+				"it": "Pantanobomba",
+				"pt": "Bomba de Lama",
+				"de": "Schlammbombe"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		194
+	],
+	"hp": 70,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Felino",
+		"en": "Wooper",
+		"es": "Wooper",
+		"fr": "Axoloto",
+		"it": "Wooper",
+		"pt": "Wooper"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

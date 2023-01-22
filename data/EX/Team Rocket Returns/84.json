@@ -1,0 +1,11 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"illustrator": "Katsura Tabata",
+	"name": {
+		"en": "Pokémon Retriever"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"trainerType": "Rocket's Secret Machine"
+}

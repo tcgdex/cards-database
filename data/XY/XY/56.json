@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde Folie",
+				"es": "Rayo Confuso",
+				"it": "Stordiraggio",
+				"pt": "Raio da Confusão",
+				"de": "Konfustrahl"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		710
+	],
+	"hp": 60,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Irrbis",
+		"en": "Pumpkaboo",
+		"es": "Pumpkaboo",
+		"fr": "Pitrouille",
+		"it": "Pumpkaboo",
+		"pt": "Pumpkaboo"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xy1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

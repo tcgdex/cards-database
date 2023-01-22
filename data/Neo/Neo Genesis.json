@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 111,
+	"id": "neo1",
+	"name": {
+		"de": "Neo Genesis",
+		"en": "Neo Genesis",
+		"es": "Neo Genesis",
+		"fr": "Neo Genesis",
+		"it": "Neo Genesis"
+	},
+	"releaseDate": "2000-12-16",
+	"serie": "neo",
+	"tcgOnline": "N1"
+}

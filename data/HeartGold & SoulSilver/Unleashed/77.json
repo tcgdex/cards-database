@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Regardez les 8 cartes du dessus de votre deck. Choisissez autant de cartes Énergie que vous le souhaitez, montrez-les à votre adversaire et ajoutez-les à votre main. Mélangez les autres cartes avec votre deck.",
+		"en": "Look at the top 8 cards of your deck. Choose as many Energy cards as you like, show them to your opponent, and put them into your hand. Shuffle the other cards back into your deck."
+	},
+	"hp": 0,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Interviewer’s Questions",
+		"fr": "Questionnaire d’interview"
+	},
+	"rarity": "Uncommon",
+	"set": "hgss2",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

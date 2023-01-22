@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Justified",
+				"fr": "Cœur Noble"
+			},
+			"effect": {
+				"en": "Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).",
+				"fr": "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leaf Blade",
+				"fr": "Lame-Feuille"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		640
+	],
+	"hp": 100,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Virizion",
+		"fr": "Viridium"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bwp",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

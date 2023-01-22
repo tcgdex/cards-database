@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Stab",
+				"fr": "Coup double"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "10×"
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Accelerating Stab",
+				"fr": "Poignard accélérateur"
+			},
+			"effect": {
+				"en": "Doduo can't use Accelerating Stab during your next turn.",
+				"fr": "Doduo ne peut pas utiliser Coup de poignard accélérateur lors de votre prochain tour."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ses deux cerveaux semblent communiquer leurs émotions grâce à un lien télépathique."
+	},
+	"dexId": [
+		84
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Doduo",
+		"fr": "Doduo"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

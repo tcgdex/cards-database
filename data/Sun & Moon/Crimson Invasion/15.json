@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spinning Attack",
+				"fr": "Attaque Tournante",
+				"es": "Ataque Giratorio",
+				"it": "Attacco Rotante",
+				"pt": "Ataque Giratório",
+				"de": "Rundumangriff"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		120
+	],
+	"hp": 60,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Sterndu",
+		"en": "Staryu",
+		"es": "Staryu",
+		"fr": "Stari",
+		"it": "Staryu",
+		"pt": "Staryu"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

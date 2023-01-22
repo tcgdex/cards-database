@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 111,
+	"id": "pl2",
+	"name": {
+		"de": "Aufstieg der Rivalen",
+		"en": "Rising Rivals",
+		"fr": "Rivaux Émergeants",
+		"it": "L'Ascesa dei Rivali"
+	},
+	"releaseDate": "2009-05-16",
+	"serie": "pl",
+	"tcgOnline": "RR"
+}

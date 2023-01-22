@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Enefountain",
+				"fr": "Fontaine d'Énergie"
+			},
+			"effect": {
+				"en": "Attach 2 basic Energy cards from your hand to 1 of your Pokémon.",
+				"fr": "Attachez 2 cartes Énergie de base de votre main à 1 de vos Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blizzard",
+				"fr": "Blizzard"
+			},
+			"effect": {
+				"en": "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		584
+	],
+	"evolveFrom": {
+		"en": "Vanillish",
+		"fr": "Sorboul"
+	},
+	"hp": 130,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Gelatwino",
+		"en": "Vanilluxe",
+		"es": "Vanilluxe",
+		"fr": "Sorbouboul",
+		"it": "Vanilluxe",
+		"pt": "Vanilluxe"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

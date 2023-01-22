@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Fast Protection",
+				"fr": "Protection rapide"
+			},
+			"effect": {
+				"en": "Prevent all effects, including damage, done to Ninjask by your opponent's attacks from his or her Basic Pokémon.",
+				"fr": "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ninjask par les attaques du Pokémon de base de votre adversaire."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Swords Dance",
+				"fr": "Danse-lames"
+			},
+			"effect": {
+				"en": "During your next turn, Ninjask's Slash attack's base damage is 80.",
+				"fr": "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche de Ninjask sont de 80."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		291
+	],
+	"evolveFrom": {
+		"en": "Nincada"
+	},
+	"hp": 70,
+	"illustrator": "Katsura Tabata",
+	"name": {
+		"en": "Ninjask",
+		"fr": "Ninjask"
+	},
+	"rarity": "Rare",
+	"set": "ex8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Crash",
+				"fr": "Tacle Feu",
+				"es": "Golpe Calor",
+				"it": "Marchiafuoco",
+				"pt": "Choque de Calor",
+				"de": "Brandstempel"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region."
+	},
+	"evolveFrom": {
+		"en": "Rolycoly",
+		"fr": "Charbi",
+		"es": "Rolycoly",
+		"it": "Rolycoly",
+		"pt": "Rolycoly",
+		"de": "Klonkett"
+	},
+	"hp": 100,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Wagong",
+		"en": "Carkol",
+		"es": "Carkol",
+		"fr": "Wagomine",
+		"it": "Carkol",
+		"pt": "Carkol"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh2",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

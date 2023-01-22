@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spore",
+				"fr": "Spore"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spore Evolution",
+				"fr": "Évolution spore"
+			},
+			"effect": {
+				"en": "Search your deack for a card that evolves from Paras. Attach it to Paras. This counts as evolving Paras. Shuffle your deck afterwards.",
+				"fr": "Cherchez dans votre deck une carte Évolution de Paras. Attachez-la à Paras. Cela revient à le faire évoluer. Mélangez ensuite votre deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		46
+	],
+	"hp": 50,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Paras",
+		"fr": "Paras"
+	},
+	"rarity": "Common",
+	"set": "ecard2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

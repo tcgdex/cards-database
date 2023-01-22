@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Mysterious Evolution",
+				"fr": "Évolution Mystérieuse"
+			},
+			"effect": {
+				"en": "If Karrablast is in play, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
+				"fr": "Si Carabing est en jeu, cherchez dans votre deck une carte Évolution de ce Pokémon et placez-la sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon.) Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		616
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Schnuthelm",
+		"en": "Shelmet",
+		"es": "Shelmet",
+		"fr": "Escargaume",
+		"it": "Shelmet",
+		"pt": "Shelmet"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

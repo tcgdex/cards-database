@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Low Kick",
+				"fr": "Balayage"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort."
+	},
+	"dexId": [
+		66
+	],
+	"hp": 50,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Machop",
+		"fr": "Machoc"
+	},
+	"rarity": "Common",
+	"set": "base1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 122,
+	"id": "xy9",
+	"name": {
+		"de": "TURBOfieber",
+		"en": "BREAKpoint",
+		"es": "TURBOLímite",
+		"fr": "Rupture Turbo",
+		"it": "Turbo Crash",
+		"pt": "Turbo Colisão"
+	},
+	"releaseDate": "2016-02-03",
+	"serie": "xy",
+	"tcgOnline": "BKP"
+}

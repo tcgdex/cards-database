@@ -1,0 +1,30 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"description": {
+		"en": "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
+	},
+	"dexId": [
+		250
+	],
+	"hp": 140,
+	"illustrator": "Shinji Higuchi",
+	"name": {
+		"en": "Ho-Oh LEGEND",
+		"fr": "Ho-Oh LÉGENDAIRE"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 0,
+	"set": "hgss1",
+	"stage": "Basic",
+	"suffix": "Legend",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

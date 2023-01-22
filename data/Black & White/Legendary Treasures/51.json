@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Outrage"
+			},
+			"effect": {
+				"en": "Does 10 more damage for each damage counter on this Pokémon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bolt Strike"
+			},
+			"effect": {
+				"en": "This Pokémon does 40 damage to itself."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		644
+	],
+	"hp": 130,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Zekrom"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Inviting Scent",
+				"fr": "Senteur ensorcelante"
+			},
+			"effect": {
+				"en": "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
+				"fr": "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Careless Tackle",
+				"fr": "Plaquage imprudent"
+			},
+			"effect": {
+				"en": "Bellsprout does 10 damage to itself.",
+				"fr": "Chetiflor s’inflige 10 dégâts."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
+	},
+	"dexId": [
+		69
+	],
+	"hp": 40,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Bellsprout",
+		"fr": "Chétiflor"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

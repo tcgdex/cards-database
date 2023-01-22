@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Pluie Éclaboussante",
+				"en": "Rain Splash",
+				"es": "Golpe de Lluvia",
+				"it": "Spruzzapioggia",
+				"pt": "Chuva Borrifante",
+				"de": "Regenplatscher"
+			},
+			"damage": 20,
+			"cost": [
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw."
+	},
+	"hp": 60,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Pikuda",
+		"en": "Arrokuda",
+		"es": "Arrokuda",
+		"fr": "Embrochet",
+		"it": "Arrokuda",
+		"pt": "Arrokuda"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

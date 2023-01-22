@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade",
+				"es": "Cascada",
+				"it": "Cascata",
+				"pt": "Cachoeira",
+				"de": "Kaskade"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		8
+	],
+	"evolveFrom": {
+		"en": "Squirtle",
+		"fr": "Carapuce"
+	},
+	"hp": 90,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Schillok",
+		"en": "Wartortle",
+		"es": "Wartortle",
+		"fr": "Carabaffe",
+		"it": "Wartortle",
+		"pt": "Wartortle"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm9",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

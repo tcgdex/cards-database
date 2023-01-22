@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		532
+	],
+	"hp": 60,
+	"illustrator": "match",
+	"name": {
+		"de": "Praktibalk",
+		"en": "Timburr",
+		"es": "Timburr",
+		"fr": "Charpenti",
+		"it": "Timburr",
+		"pt": "Timburr"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

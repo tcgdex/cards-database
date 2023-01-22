@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Kick",
+				"fr": "Double Pied"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "30×"
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Drill",
+				"fr": "Empal' Korne"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Très agressif, il est prompt à répondre à la violence. La corne sur sa tête est venimeuse."
+	},
+	"dexId": [
+		33
+	],
+	"evolveFrom": {
+		"en": "Nidoran♂"
+	},
+	"hp": 60,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Nidorino",
+		"fr": "Nidorino"
+	},
+	"rarity": "Uncommon",
+	"set": "base1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rest",
+				"fr": "Repos"
+			},
+			"effect": {
+				"en": "Remove all Special Conditions and 3 damage counters from Slowpoke. Slowpoke is now Asleep.",
+				"fr": "Retirez à Ramoloss tous ses États Spéciaux et 3 marqueurs de dégât. Ramoloss est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Tumble Over",
+				"fr": "Culbuter"
+			},
+			"effect": {
+				"en": "Slowpoke can't attack during your next turn.",
+				"fr": "Ramoloss ne peut pas attaquer lors de votre prochain tour."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		79
+	],
+	"hp": 60,
+	"illustrator": "Saya　Tsuruta",
+	"name": {
+		"en": "Slowpoke",
+		"fr": "Ramoloss"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "dp4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

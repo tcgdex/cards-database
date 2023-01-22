@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Rock Hiding",
+				"fr": "Cachette Roche",
+				"es": "Escondido entre Rocas",
+				"it": "Nascondiglio Roccioso",
+				"pt": "Esconder nas Pedras",
+				"de": "Steinversteck"
+			},
+			"effect": {
+				"en": "If this Pokémon has any Fighting Energy attached to it, it has no Retreat Cost.",
+				"fr": "Si de l’Énergie Fighting est attachée à ce Pokémon, il n’a pas de coût de Retraite.",
+				"es": "Si este Pokémon tiene alguna Energía Fighting unida a él, no tiene ningún Coste de Retirada.",
+				"it": "Se questo Pokémon ha delle Energie Fighting assegnate, non ha costo di ritirata.",
+				"pt": "Se este Pokémon tiver alguma Energia Fighting ligada a ele, não terá custo de Recuo.",
+				"de": "Wenn an dieses Pokémon mindestens 1 Fighting-Energie angelegt ist, hat es keine Rückzugskosten."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		443
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Kaumalat",
+		"en": "Gible",
+		"es": "Gible",
+		"fr": "Griknot",
+		"it": "Gible",
+		"pt": "Gible"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm5",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

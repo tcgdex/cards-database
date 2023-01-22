@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cherchez dans votre deck des cartes Énergie de base. Vous pouvez soit montrer une carte Énergie de base à votre adversaire et la placer dans votre main, soit montrer trois cartes Énergie de base à votre adversaire et les mélanger à votre deck."
+	},
+	"illustrator": "Zu-Ka",
+	"name": {
+		"en": "Energy Recycle System",
+		"fr": "Recyclage d'énergie"
+	},
+	"rarity": "Uncommon",
+	"set": "ex3",
+	"trainerType": "Item"
+}

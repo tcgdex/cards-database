@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Yawn"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mini-Metronome"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togepi's type is still Colorless.) Togepi performs that attack.\""
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		175
+	],
+	"hp": 40,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Togepi"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

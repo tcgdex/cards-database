@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Submerge",
+				"fr": "Submerger"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may use this power. Lanturn’s type is Water until the end of your turn. This power can’t be used if Lanturn is affected by a Special Condition.",
+				"fr": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Lanturn devient un Pokémon de type Water jusqu’à la fin de votre tour. Ce pouvoir ne peut pas être utilisé si Lanturn est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Powerful Spark",
+				"fr": "Étincelle puissante"
+			},
+			"effect": {
+				"en": "Does 40 damage plus 10 more damage for each Energy attached to all of your Pokémon.",
+				"fr": "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée à tous vos Pokémon."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		171
+	],
+	"evolveFrom": {
+		"en": "Chinchou",
+		"fr": "Loupio"
+	},
+	"hp": 110,
+	"illustrator": "Hideaki Hakozaki",
+	"name": {
+		"en": "Lanturn",
+		"fr": "Lanturn"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "hgss2",
+	"stage": "Stage1",
+	"suffix": "Prime",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

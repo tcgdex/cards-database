@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fire Dance",
+				"fr": "Danse du feu"
+			},
+			"effect": {
+				"en": "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
+				"fr": "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à 1 de vos Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Delta Blast",
+				"fr": "Explosion Delta"
+			},
+			"effect": {
+				"en": "Discard a Metal Energy card attached to Salamence.",
+				"fr": "Défaussez une carte Énergie  attachée à Drattak."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		373
+	],
+	"evolveFrom": {
+		"en": "Shelgon"
+	},
+	"hp": 110,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Salamence δ",
+		"fr": "Drattak δ ESPÈCES DELTA"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fire",
+			"value": "-30"
+		},
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex11",
+	"stage": "Stage2",
+	"types": [
+		"Fire",
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Eeeeeeek",
+				"fr": "Arheuuuuu"
+			},
+			"effect": {
+				"en": "Shuffle your hand into your deck, then draw 7 cards.",
+				"fr": "Mélangez votre main avec votre deck, piochez ensuite 7 cartes."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "En raison de sa forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
+	},
+	"dexId": [
+		173
+	],
+	"hp": 30,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Cleffa",
+		"fr": "Mélo"
+	},
+	"rarity": "Rare",
+	"set": "neo1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	]
+}

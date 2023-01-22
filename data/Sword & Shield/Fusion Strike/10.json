@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Trip Over"
+			},
+			"damage": "10+",
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Seed Bomb"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests."
+	},
+	"evolveFrom": {
+		"en": "Sewaddle",
+		"fr": "Larveyette",
+		"es": "Sewaddle",
+		"it": "Sewaddle",
+		"pt": "Sewaddle",
+		"de": "Strawickl"
+	},
+	"hp": 80,
+	"illustrator": "0313",
+	"name": {
+		"de": "Folikon",
+		"en": "Swadloon",
+		"es": "Swadloon",
+		"fr": "Couverdure",
+		"it": "Swadloon",
+		"pt": "Swadloon"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Aqua Bullet"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		},
+		{
+			"name": {
+				"en": "Hydro Pump"
+			},
+			"damage": "70+",
+			"effect": {
+				"en": "This attack does 10 more damage times the amount of Water Energy attached to this Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them."
+	},
+	"hp": 120,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"en": "Lapras"
+	},
+	"rarity": "None",
+	"set": "2019sm",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

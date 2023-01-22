@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Gnaw",
+				"de": "Nagen"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d'Boule",
+				"es": "Golpe Cabeza",
+				"it": "Bottintesta",
+				"pt": "Headbutt",
+				"de": "Kopfnuss"
+			},
+			"damage": 30,
+			"cost": [
+				"Fire",
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution."
+	},
+	"dexId": [
+		371
+	],
+	"hp": 70,
+	"illustrator": "ryoma uratsuka",
+	"name": {
+		"de": "Kindwurm",
+		"en": "Bagon",
+		"es": "Bagon",
+		"fr": "Draby",
+		"it": "Bagon",
+		"pt": "Bagon"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

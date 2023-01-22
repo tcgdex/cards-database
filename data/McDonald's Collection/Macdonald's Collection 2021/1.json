@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+	},
+	"dexId": [
+		1
+	],
+	"hp": 70,
+	"illustrator": "Mizue",
+	"name": {
+		"en": "Bulbasaur"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "2021swsh",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "x2"
+		}
+	]
+}

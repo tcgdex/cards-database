@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hypnotic Gaze"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Ring"
+			},
+			"effect": {
+				"en": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		37
+	],
+	"hp": 50,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Brock's Vulpix"
+	},
+	"rarity": "Uncommon",
+	"set": "gym2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"wPromo": true
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

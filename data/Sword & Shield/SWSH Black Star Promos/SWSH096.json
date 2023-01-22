@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Bite"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Jet Assault"
+			},
+			"effect": {
+				"en": "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage."
+			},
+			"damage": "60+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		887
+	],
+	"hp": 210,
+	"illustrator": "aky CG Works",
+	"name": {
+		"en": "Dragapult V"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vice Grip",
+				"fr": "Force Poigne",
+				"es": "Agarre",
+				"it": "Presa",
+				"pt": "Agarramento Viciado",
+				"de": "Klammer"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Disorderly Flip",
+				"fr": "Renverse Désordre",
+				"es": "Vuelta Indisciplinada",
+				"it": "Girosmodato",
+				"pt": "Virada Desordenada",
+				"de": "Zügelloser Überschlag"
+			},
+			"effect": {
+				"en": "Flip 4 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				"es": "Lanza 4 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+				"it": "Lancia quattro volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				"pt": "Jogue 4 moedas. Este ataque causa 30 de danos vezes o número de caras.",
+				"de": "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		600
+	],
+	"evolveFrom": {
+		"en": "Klink",
+		"fr": "Tic",
+		"es": "Klink",
+		"it": "Klink",
+		"pt": "Klink",
+		"de": "Klikk"
+	},
+	"hp": 80,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Kliklak",
+		"en": "Klang",
+		"es": "Klang",
+		"fr": "Clic",
+		"it": "Klang",
+		"pt": "Klang"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xy11",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

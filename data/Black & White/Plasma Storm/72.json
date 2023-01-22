@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Spinning Turn",
+				"fr": "Volte-Face"
+			},
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wreck",
+				"fr": "Anéantissement"
+			},
+			"effect": {
+				"en": "If there is any Stadium card in play, this attack does 60 more damage. Discard that Stadium card.",
+				"fr": "S'il y a une carte Stade en jeu, cette attaque inflige 60 dégâts supplémentaires. Défaussez la carte Stade."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		232
+	],
+	"evolveFrom": {
+		"en": "Phanpy",
+		"fr": "Phanpy"
+	},
+	"hp": 130,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Donphan",
+		"en": "Donphan",
+		"es": "Donphan",
+		"fr": "Donphan",
+		"it": "Donphan",
+		"pt": "Donphan"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

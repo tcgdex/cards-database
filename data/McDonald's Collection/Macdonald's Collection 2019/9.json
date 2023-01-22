@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Screech"
+			},
+			"effect": {
+				"en": "During your next turn, the Defending Pokémon takes 20 more damage from attacks (after applying Weakness and Resistance)."
+			}
+		},
+		{
+			"name": {
+				"en": "Rage"
+			},
+			"damage": "10+",
+			"effect": {
+				"en": "This attack does 10 more damage for each damage counter on this Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour."
+	},
+	"hp": 100,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Onix"
+	},
+	"rarity": "None",
+	"set": "2019sm",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

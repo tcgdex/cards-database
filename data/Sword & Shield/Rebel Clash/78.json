@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Cursed Drop",
+				"fr": "Chute Maudite",
+				"es": "Caída Maldita",
+				"it": "Caduta Maledetta",
+				"pt": "Queda Amaldiçoada",
+				"de": "Verfluchter Fall"
+			},
+			"effect": {
+				"en": "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+				"fr": "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+				"es": "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+				"it": "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
+				"pt": "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
+				"de": "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
+	},
+	"hp": 80,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Galar-Corasonn",
+		"en": "Galarian Corsola",
+		"es": "Corsola de Galar",
+		"fr": "Corayon de Galar",
+		"it": "Corsola di Galar",
+		"pt": "Corsola de Galar"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 2,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

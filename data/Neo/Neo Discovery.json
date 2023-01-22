@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 75,
+	"id": "neo2",
+	"name": {
+		"de": "Neo Entdeckung",
+		"en": "Neo Discovery",
+		"fr": "Neo Discovery",
+		"it": "Neo Discovery"
+	},
+	"releaseDate": "2001-06-01",
+	"serie": "neo",
+	"tcgOnline": "N2"
+}

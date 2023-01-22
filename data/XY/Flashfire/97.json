@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Défaussez toutes les cartes Outil Pokémon attachées à chacun des Pokémon de votre adversaire.",
+		"en": "Discard all Pokémon Tool cards attached to each of your opponent's Pokémon.",
+		"es": "Descarta todas las cartas de Herramienta Pokémon unidas a cada uno de los Pokémon de tu rival.",
+		"it": "Scarta tutte le carte Oggetto Pokémon assegnate ai Pokémon del tuo avversario.",
+		"pt": "Descarte todos os cards de Ferramenta Pokémon ligados aos Pokémon do oponente.",
+		"de": "Lege alle an gegnerische Pokémon angelegte Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners."
+	},
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Schock-Megafon",
+		"en": "Startling Megaphone",
+		"es": "Megáfono Ensordecedor",
+		"fr": "Mégaphone Surprise",
+		"it": "Megafono Assordante",
+		"pt": "Megafone Assustador"
+	},
+	"rarity": "Uncommon",
+	"set": "xy2",
+	"trainerType": "Item"
+}

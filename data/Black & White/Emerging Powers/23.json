@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Grass' Power",
+				"fr": "Pouvoir Fertilisant"
+			},
+			"effect": {
+				"en": "If this Pokémon has any Grass Energy attached to it, heal 20 damage from this Pokémon.",
+				"fr": "Si de l'Énergie Grass est attachée à ce Pokémon, soignez 20 dégâts à ce Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rushing Water",
+				"fr": "Courant Fort"
+			},
+			"effect": {
+				"en": "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
+				"fr": "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		516
+	],
+	"evolveFrom": {
+		"en": "Panpour",
+		"fr": "Flotajou"
+	},
+	"hp": 90,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"de": "Sodachita",
+		"en": "Simipour",
+		"es": "Simipour",
+		"fr": "Flotoutan",
+		"it": "Simipour",
+		"pt": "Simipour"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

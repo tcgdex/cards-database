@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Red Assist"
+			},
+			"effect": {
+				"en": "Once during your turn, you may attach a Psychic Energy card from your hand to 1 of your Latios."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dyna Barrier"
+			},
+			"damage": 70,
+			"effect": {
+				"en": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon VMAX."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It can telepathically communicate with people. It changes its appearance using its down that refracts light."
+	},
+	"hp": 120,
+	"illustrator": "Yuu Nishida",
+	"name": {
+		"de": "Latias",
+		"en": "Latias",
+		"es": "Latias",
+		"fr": "Latias",
+		"it": "Latias",
+		"pt": "Latias"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

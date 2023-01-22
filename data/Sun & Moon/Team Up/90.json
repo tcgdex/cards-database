@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Hide in Shadows",
+				"fr": "Cachette d’Ombre",
+				"es": "Ocultarse en las Sombras",
+				"it": "Tanabuia",
+				"pt": "Esconder nas Sombras",
+				"de": "Schattenversteck"
+			},
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				"es": "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				"it": "Scambia questo Pokémon con uno della tua panchina.",
+				"pt": "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				"de": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		570
+	],
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Zorua",
+		"en": "Zorua",
+		"es": "Zorua",
+		"fr": "Zorua",
+		"it": "Zorua",
+		"pt": "Zorua"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm9",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

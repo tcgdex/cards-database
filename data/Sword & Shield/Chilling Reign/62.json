@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Will-O-Wisp",
+				"fr": "Feu Follet",
+				"es": "Fuego Fatuo",
+				"it": "Fuocofatuo",
+				"pt": "Fogo Fátuo",
+				"de": "Irrlicht"
+			},
+			"damage": 20,
+			"cost": [
+				"Psychic"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
+	},
+	"hp": 50,
+	"illustrator": "OKACHEKE",
+	"name": {
+		"de": "Shuppet",
+		"en": "Shuppet",
+		"es": "Shuppet",
+		"fr": "Polichombr",
+		"it": "Shuppet",
+		"pt": "Shuppet"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

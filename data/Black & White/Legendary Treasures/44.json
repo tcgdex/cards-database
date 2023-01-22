@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Frozen Wings"
+			},
+			"effect": {
+				"en": "Discard a Special Energy attached to the Defending Pokémon."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hail Blizzard"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Hail Blizzard during your next turn."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		646
+	],
+	"hp": 180,
+	"illustrator": "Shizurow",
+	"name": {
+		"en": "Kyurem-EX"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw11",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

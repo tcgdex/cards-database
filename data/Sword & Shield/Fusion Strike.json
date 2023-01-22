@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 264,
+	"id": "swsh8",
+	"name": {
+		"de": "Fusions Angriff",
+		"en": "Fusion Strike",
+		"es": "Golpe Fusión",
+		"fr": "Poing de Fusion",
+		"it": "Colpo Fusione",
+		"pt": "Golpe Fusão"
+	},
+	"releaseDate": "2021-11-12",
+	"serie": "swsh"
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Interviewer's Questions"
+	},
+	"rarity": "Uncommon",
+	"set": "col1",
+	"trainerType": "Supporter"
+}

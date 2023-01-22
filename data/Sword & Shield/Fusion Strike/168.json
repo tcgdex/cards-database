@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Call for Family"
+			},
+			"effect": {
+				"en": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Poison Breath"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon was born from a bag stuffed with trash. Galarian Weezing relish the fumes belched by Trubbish."
+	},
+	"hp": 70,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Unratütox",
+		"en": "Trubbish",
+		"es": "Trubbish",
+		"fr": "Miamiasme",
+		"it": "Trubbish",
+		"pt": "Trubbish"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

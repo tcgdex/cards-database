@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sonic Boom"
+			},
+			"damage": 40,
+			"effect": {
+				"en": "This attack's damage isn't affected by Weakness or Resistance."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Explosion"
+			},
+			"damage": 120,
+			"effect": {
+				"en": "This Pokémon also does 90 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+	},
+	"evolveFrom": {
+		"en": "Voltorb",
+		"fr": "Voltorbe",
+		"es": "Voltorb",
+		"it": "Voltorb",
+		"pt": "Voltorb",
+		"de": "Voltobal"
+	},
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Lektrobal",
+		"en": "Electrode",
+		"es": "Electrode",
+		"fr": "Électrode",
+		"it": "Electrode",
+		"pt": "Electrode"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

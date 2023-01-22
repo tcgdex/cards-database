@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Energize",
+				"fr": "Énergisant",
+				"es": "Vigorizar",
+				"it": "Energizza",
+				"pt": "Energize",
+				"de": "Energiezufuhr"
+			},
+			"effect": {
+				"en": "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+				"fr": "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
+				"es": "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
+				"it": "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
+				"pt": "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+				"de": "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			},
+			"cost": [
+				"Lightning"
+			]
+		},
+		{
+			"name": {
+				"en": "Electro Ball",
+				"fr": "Boule Élek",
+				"es": "Bola Voltio",
+				"it": "Energisfera",
+				"pt": "Electro Ball",
+				"de": "Elektroball"
+			},
+			"damage": 30,
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When Pikachu meet, they'll touch their tails together and exchange electricity through them as a form of greeting."
+	},
+	"dexId": [
+		25
+	],
+	"hp": 60,
+	"illustrator": "chibi",
+	"name": {
+		"de": "Pikachu",
+		"en": "Pikachu",
+		"es": "Pikachu",
+		"fr": "Pikachu",
+		"it": "Pikachu",
+		"pt": "Pikachu"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

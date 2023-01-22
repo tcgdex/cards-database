@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Revenge"
+			},
+			"effect": {
+				"en": "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Jab"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		454
+	],
+	"evolveFrom": {
+		"en": "Croagunk"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"en": "Toxicroak"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

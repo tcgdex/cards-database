@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Mini Drain"
+			},
+			"effect": {
+				"en": "Heal 10 damage from this Pokémon."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe."
+	},
+	"dexId": [
+		152
+	],
+	"hp": 70,
+	"illustrator": "sowsow",
+	"name": {
+		"en": "Chikorita"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "2021swsh",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "x2"
+		}
+	]
+}

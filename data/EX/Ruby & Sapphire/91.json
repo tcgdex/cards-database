@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Retirez jusqu'à deux marqueurs de dégât à l'un de vos Pokémon."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Potion",
+		"fr": "Potion"
+	},
+	"rarity": "Common",
+	"set": "ex1",
+	"trainerType": "Item"
+}

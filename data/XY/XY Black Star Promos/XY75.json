@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse Vague"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cross Slicer"
+			},
+			"effect": {
+				"en": "Your opponent can't attach Energy from his or her hand to the Defending Pokémon during his or her next turn."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		484
+	],
+	"hp": 120,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"en": "Palkia",
+		"fr": "Palkia"
+	},
+	"rarity": "None",
+	"retreat": 3,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

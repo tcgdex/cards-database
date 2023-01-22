@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Metal",
+				"Metal"
+			],
+			"name": {
+				"en": "Time Rewind",
+				"fr": "Retour temporel"
+			},
+			"effect": {
+				"en": "Shuffle your hand into your deck.",
+				"fr": "Mélangez votre main avec votre deck."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		483
+	],
+	"hp": 100,
+	"illustrator": "Ayaka Yoshida",
+	"name": {
+		"en": "Dialga",
+		"fr": "Dialga"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

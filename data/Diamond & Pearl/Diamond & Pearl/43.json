@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Baby Evolution",
+				"fr": "Évolution bébé"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may put Roselia from your hand onto Budew (this counts as evolving Budew) and remove all damage counters from Budew.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Roselia de votre main sur Rozbouton (vous le faites ainsi évoluer) et retirer à Rozbouton tous ses marqueurs de dégât."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Errand-Running",
+				"fr": "Rendez-vous"
+			},
+			"effect": {
+				"en": "Search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Choisissez dans votre deck une carte Dresseur, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "En hiver, son bourgeon se referme pour résister au froid. Il s'ouvre au printemps et libère du pollen."
+	},
+	"dexId": [
+		406
+	],
+	"hp": 40,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Budew",
+		"fr": "Rozbouton"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Fake Out",
+				"fr": "Bluff",
+				"es": "Sorpresa",
+				"it": "Bruciapelo",
+				"pt": "Fake Out",
+				"de": "Mogelhieb"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 20,
+			"cost": [
+				"Darkness"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They live in holes bored in large trees. The sound of Nuzleaf's grass flute fills listeners with dread."
+	},
+	"dexId": [
+		274
+	],
+	"evolveFrom": {
+		"en": "Seedot",
+		"fr": "Grainipiot",
+		"es": "Seedot",
+		"it": "Seedot",
+		"pt": "Seedot",
+		"de": "Samurzel"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Blanas",
+		"en": "Nuzleaf",
+		"es": "Nuzleaf",
+		"fr": "Pifeuil",
+		"it": "Nuzleaf",
+		"pt": "Nuzleaf"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

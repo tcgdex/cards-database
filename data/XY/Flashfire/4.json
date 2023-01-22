@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		204
+	],
+	"hp": 60,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Tannza",
+		"en": "Pineco",
+		"es": "Pineco",
+		"fr": "Pomdepik",
+		"it": "Pineco",
+		"pt": "Pineco"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

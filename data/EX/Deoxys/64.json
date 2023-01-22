@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Leap Out",
+				"fr": "Bondir"
+			},
+			"effect": {
+				"en": "Switch Magikarp with 1 of your Benched Pokémon.",
+				"fr": "Échangez Magicarpe avec 1 des Pokémon de votre Banc."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rage",
+				"fr": "Frénésie"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each damage counter on Magikarp.",
+				"fr": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Magicarpe."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		129
+	],
+	"hp": 30,
+	"illustrator": "Hisao Nakamura",
+	"name": {
+		"en": "Magikarp",
+		"fr": "Magicarpe"
+	},
+	"rarity": "Common",
+	"set": "ex8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Curiosity",
+				"fr": "Curiosité"
+			},
+			"effect": {
+				"en": "Your opponent reveals their hand.",
+				"fr": "Votre adversaire dévoile sa main."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spin Tackle",
+				"fr": "Charge Tournoyante"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				"fr": "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		133
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Eevee",
+		"fr": "Évoli"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "sm115",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

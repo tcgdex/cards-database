@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spiral Drain",
+				"fr": "Spirale Épuisante"
+			},
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon.",
+				"fr": "Soignez 20 dégâts à ce Pokémon."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		42
+	],
+	"evolveFrom": {
+		"en": "Zubat",
+		"fr": "Nosferapti"
+	},
+	"hp": 80,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Golbat",
+		"en": "Golbat",
+		"es": "Golbat",
+		"fr": "Nosferalto",
+		"it": "Golbat",
+		"pt": "Golbat"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

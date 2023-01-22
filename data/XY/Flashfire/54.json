@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collecte",
+				"es": "Coleccionar",
+				"it": "Raccolta",
+				"pt": "Coleta",
+				"de": "Sammeln"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre um card.",
+				"de": "Ziehe 1 Karte."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spray Fluid",
+				"fr": "Fluide Éclaboussant",
+				"es": "Fluido Rociado",
+				"it": "Fluidospray",
+				"pt": "Fluido Spray",
+				"de": "Sprühwasser"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		434
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Skunkapuh",
+		"en": "Stunky",
+		"es": "Stunky",
+		"fr": "Moufouette",
+		"it": "Stunky",
+		"pt": "Stunky"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy2",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

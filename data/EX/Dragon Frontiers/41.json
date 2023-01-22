@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Charm",
+				"fr": "Charme"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				"fr": "Lors du prochain tour de votre adversaire, les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		175
+	],
+	"hp": 40,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Togepi δ",
+		"fr": "Togepi δ ESPÈCES DELTA"
+	},
+	"rarity": "Uncommon",
+	"set": "ex15",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

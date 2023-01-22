@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"en": "Fire Energy",
+		"fr": "Énergie Fire de base"
+	},
+	"rarity": "Common",
+	"set": "g1",
+	"stage": "Basic"
+}

@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Draw cards until you have 6 cards in your hand. Your turn ends.",
+		"fr": "Piochez des cartes jusqu'à en avoir 6 en main. Votre tour se termine.",
+		"es": "Roba cartas hasta que tengas 6 cartas en tu mano. Tu turno termina.",
+		"it": "Pesca fino ad avere sei carte in mano. Il tuo turno finisce.",
+		"pt": "Compre cartas até ter 6 cartas na sua mão. O seu turno acaba.",
+		"de": "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast. Dein Zug endet."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Rotom-Rad",
+		"en": "Rotom Bike",
+		"es": "Bici Rotom",
+		"fr": "Moticyclette",
+		"it": "Bici Rotom",
+		"pt": "Bicicleta Rotom"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"set": "swsh3.5",
+	"trainerType": "Item",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

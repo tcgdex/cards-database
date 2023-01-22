@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Bulk Up",
+				"fr": "Gonflette"
+			},
+			"effect": {
+				"en": "During your next turn, each of Combusken's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				"fr": "Lors de votre prochain tour, chacune des attaques de Galifeu inflige 30 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Kick",
+				"fr": "Double pied"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		256
+	],
+	"evolveFrom": {
+		"en": "Torchic",
+		"fr": "Poussifeu"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Combusken",
+		"fr": "Galifeu"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

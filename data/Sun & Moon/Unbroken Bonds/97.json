@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revólver d’Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf",
+				"es": "Surf",
+				"it": "Surf",
+				"pt": "Surfar",
+				"de": "Surfer"
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		195
+	],
+	"evolveFrom": {
+		"en": "Wooper",
+		"fr": "Axoloto"
+	},
+	"hp": 120,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Morlord",
+		"en": "Quagsire",
+		"es": "Quagsire",
+		"fr": "Maraiste",
+		"it": "Quagsire",
+		"pt": "Quagsire"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "sm10",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Psychic Aura",
+				"fr": "Aura psy"
+			},
+			"effect": {
+				"en": "Each of your Psychic Pokémon has no Weakness.",
+				"fr": "Chacun de vos Pokémon Psychic ne possède pas de Faiblesse."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Deep Balance",
+				"fr": "Bon équilibre"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. Put 1 damage counter on that Pokémon for each Energy attached to all of your opponent's Pokémon.",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire. Placez 1 marqueur de dégât sur ce Pokémon pour chaque Énergie attachée à tous les Pokémon de votre adversaire."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		482
+	],
+	"hp": 90,
+	"illustrator": "Shizurow",
+	"name": {
+		"en": "Azelf",
+		"fr": "Créfadet"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Glinting Claw"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strong Volt"
+			},
+			"effect": {
+				"en": "Discard 2 Energy attached to this Pokémon."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		644
+	],
+	"hp": 180,
+	"illustrator": "Shizurow",
+	"name": {
+		"en": "Zekrom-EX"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw11",
+	"suffix": "EX",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

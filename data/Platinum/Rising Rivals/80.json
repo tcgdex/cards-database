@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Healing Sea",
+				"fr": "Mer guérisseuse"
+			},
+			"effect": {
+				"en": "Flip 2 coins. Choose 1 of your Pokémon. For each heads, remove 1 damage counter from that Pokémon.",
+				"fr": "Lancez 2 pièces. Choisissez 1 de vos Pokémon. Pour chaque face, retirez-lui 1 marqueur de dégât."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mud Shot",
+				"fr": "Tir de boue"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		422
+	],
+	"hp": 70,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Shellos West Sea",
+		"fr": "Sancoki Mer Occident Niv. 27"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+20"
+		}
+	]
+}

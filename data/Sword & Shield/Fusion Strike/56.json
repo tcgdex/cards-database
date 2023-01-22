@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Wave Splash"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place."
+	},
+	"evolveFrom": {
+		"en": "Totodile",
+		"fr": "Kaiminus",
+		"es": "Totodile",
+		"it": "Totodile",
+		"pt": "Totodile",
+		"de": "Karnimani"
+	},
+	"hp": 100,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Tyracroc",
+		"en": "Croconaw",
+		"es": "Croconaw",
+		"fr": "Crocrodil",
+		"it": "Croconaw",
+		"pt": "Croconaw"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

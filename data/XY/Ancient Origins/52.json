@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Mumble",
+				"fr": "Murmure",
+				"es": "Farfullar",
+				"it": "Borbottio",
+				"pt": "Resmungo",
+				"de": "Grummeln"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fairy",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magical Shot",
+				"fr": "Coup Magique",
+				"es": "Disparo Mágico",
+				"it": "Magicolpo",
+				"pt": "Tiro Mágico",
+				"de": "Magischer Schuss"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		280
+	],
+	"hp": 60,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"de": "Trasla",
+		"en": "Ralts",
+		"es": "Ralts",
+		"fr": "Tarsal",
+		"it": "Ralts",
+		"pt": "Ralts"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy7",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

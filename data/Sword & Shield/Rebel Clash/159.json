@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Your Active Pokémon recovers from all Special Conditions.",
+		"fr": "Votre Pokémon Actif guérit de tous les États Spéciaux.",
+		"es": "Tu Pokémon Activo se recupera de todas las Condiciones Especiales.",
+		"it": "Il tuo Pokémon attivo guarisce da tutte le condizioni speciali.",
+		"pt": "O seu Pokémon Ativo se recupera de todas as Condições Especiais.",
+		"de": "Dein Aktives Pokémon erholt sich von allen Speziellen Zuständen."
+	},
+	"illustrator": "Yoshinobu Saito",
+	"name": {
+		"de": "Hyperheiler",
+		"en": "Full Heal",
+		"es": "Cura Total",
+		"fr": "Total Soin",
+		"it": "Cura Totale",
+		"pt": "Cura Total"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"set": "swsh2",
+	"trainerType": "Item",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

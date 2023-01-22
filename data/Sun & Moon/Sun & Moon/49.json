@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Searching Light",
+				"fr": "Sonde Lumineuse",
+				"es": "Buscaluz",
+				"it": "Proiettore",
+				"pt": "Procurar Luz",
+				"de": "Suchscheinwerfer"
+			},
+			"effect": {
+				"en": "Look at 1 of your face-down Prize cards.",
+				"fr": "Regardez l’une de vos cartes Récompense (actuellement face cachée).",
+				"es": "Mira 1 de tus cartas de Premio que están boca abajo.",
+				"it": "Guarda una delle tue carte Premio coperte.",
+				"pt": "Olhe 1 das suas cartas de Prêmio viradas para baixo.",
+				"de": "Sieh dir 1 deiner verdeckten Preiskarten an."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electro Ball",
+				"fr": "Boule Élek",
+				"es": "Bola Voltio",
+				"it": "Energisfera",
+				"pt": "Bola Elétrica",
+				"de": "Elektroball"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		170
+	],
+	"hp": 70,
+	"illustrator": "Ayaka Yoshida",
+	"name": {
+		"de": "Lampi",
+		"en": "Chinchou",
+		"es": "Chinchou",
+		"fr": "Loupio",
+		"it": "Chinchou",
+		"pt": "Chinchou"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

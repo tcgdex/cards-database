@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 53,
+	"id": "basep",
+	"name": {
+		"de": "Wizards Black Star Promos",
+		"en": "Wizards Black Star Promos",
+		"es": "Wizards Black Star Promos",
+		"fr": "Wizards Black Star Promos",
+		"it": "Wizards Black Star Promos"
+	},
+	"releaseDate": "1999-07-01",
+	"serie": "base",
+	"tcgOnline": "PR"
+}

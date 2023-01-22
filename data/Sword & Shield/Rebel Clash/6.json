@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Push Down",
+				"fr": "Recul",
+				"es": "Oprimir",
+				"it": "Spintonare",
+				"pt": "Rebaixar",
+				"de": "Runterdrücken"
+			},
+			"effect": {
+				"en": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				"fr": "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
+				"es": "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				"it": "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				"pt": "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				"de": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Superpowered Horns",
+				"fr": "Cornes Surpuissantes",
+				"es": "Cuernos Superpoderosos",
+				"it": "Corna Superpotenziate",
+				"pt": "Chifres Superpoderosos",
+				"de": "Superstarke Hörner"
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
+	},
+	"hp": 130,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Skaraborn",
+		"en": "Heracross",
+		"es": "Heracross",
+		"fr": "Scarhino",
+		"it": "Heracross",
+		"pt": "Heracross"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sand Attack",
+				"fr": "Jet de sable"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				"fr": "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Stab",
+				"fr": "Coup double"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "10×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ils volent en nombre. Bien que minuscule, il bat des ailes avec une vigueur impressionnante."
+	},
+	"dexId": [
+		396
+	],
+	"evolveFrom": {
+		"fr": "Etourmi"
+	},
+	"hp": 50,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Starly",
+		"fr": "Etourmi"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

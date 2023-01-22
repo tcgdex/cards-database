@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Return",
+				"fr": "Retour"
+			},
+			"effect": {
+				"en": "Draw cards until you have 6 cards in your hand.",
+				"fr": "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magical Leaf",
+				"fr": "Feuillemagik"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage and heal 30 damage from this Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		549
+	],
+	"evolveFrom": {
+		"en": "Petilil",
+		"fr": "Chlorobule"
+	},
+	"hp": 80,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Dressella",
+		"en": "Lilligant",
+		"es": "Lilligant",
+		"fr": "Fragilady",
+		"it": "Lilligant",
+		"pt": "Lilligant"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

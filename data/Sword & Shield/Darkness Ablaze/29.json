@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Singe",
+				"fr": "Roussi",
+				"es": "Quemadura",
+				"it": "Scottata",
+				"pt": "Chamuscada",
+				"de": "Versengung"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Burned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				"it": "Il Pokémon attivo del tuo avversario viene bruciato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Queimado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun."
+	},
+	"hp": 70,
+	"illustrator": "Uta",
+	"name": {
+		"de": "Ignivor",
+		"en": "Larvesta",
+		"es": "Larvesta",
+		"fr": "Pyronille",
+		"it": "Larvesta",
+		"pt": "Larvesta"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

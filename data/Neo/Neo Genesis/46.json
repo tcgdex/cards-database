@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche"
+			},
+			"effect": {
+				"en": "Discard 1 Energy card attached to Quilava in order to use this attack.",
+				"fr": "Défaussez 1 carte Énergie  attachée à Feurisson afin d'utiliser cette attaque."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Wind",
+				"fr": "Vent de feu"
+			},
+			"effect": {
+				"en": "If your opponent has any Benched Pokémon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.)",
+				"fr": "Si votre adversaire possède un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux. Lancez 2 pièces. Pour chaque face, cette attaque inflige 10 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance)."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon est entièrement recouvert de fourrure ininflammable. Il peut résister à n'importe quel type d'attaque par le feu."
+	},
+	"dexId": [
+		156
+	],
+	"evolveFrom": {
+		"en": "Cyndaquil"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Quilava",
+		"fr": "Feurisson"
+	},
+	"rarity": "Uncommon",
+	"set": "neo1",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

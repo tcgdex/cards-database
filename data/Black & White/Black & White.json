@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 114,
+	"id": "bw1",
+	"name": {
+		"de": "Schwarz & Weiß",
+		"en": "Black & White",
+		"es": "Negro y Blanco",
+		"fr": "Noir & Blanc",
+		"it": "Nero e Bianco",
+		"pt": "Black & White"
+	},
+	"releaseDate": "2011-04-25",
+	"serie": "bw",
+	"tcgOnline": "BLW"
+}

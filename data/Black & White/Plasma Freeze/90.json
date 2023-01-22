@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Signs of Evolution",
+				"fr": "Signes d'Évolution"
+			},
+			"effect": {
+				"en": "Search your deck for 3 Pokémon of different types that evolve from Eevee. Reveal them and put them into your hand. Shuffle your deck afterward.",
+				"fr": "Cherchez dans votre deck 3 Pokémon de différents types qui sont une évolution d'Évoli. Montrez-les puis ajoutez-les à votre main. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		133
+	],
+	"hp": 60,
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Evoli",
+		"en": "Eevee",
+		"es": "Eevee",
+		"fr": "Évoli",
+		"it": "Eevee",
+		"pt": "Eevee"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

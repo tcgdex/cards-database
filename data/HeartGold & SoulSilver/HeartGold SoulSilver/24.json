@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Beam",
+				"fr": "Laser glace"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Ice Blade",
+				"fr": "Lame de glace"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled."
+	},
+	"dexId": [
+		131
+	],
+	"hp": 90,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"en": "Lapras",
+		"fr": "Lokhlass"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez cette carte.\n\nChoisissez dans votre deck jusqu'à trois cartes Énergie de base différentes, montrez-les à votre adversaire et placez-les dans votre main. Mélangez ensuite votre deck."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Lady Outing",
+		"fr": "Mademoiselle Sortie"
+	},
+	"rarity": "Uncommon",
+	"set": "ex1",
+	"trainerType": "Supporter"
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 192,
+	"id": "swsh2",
+	"name": {
+		"de": "Clash der Rebellen",
+		"en": "Rebel Clash",
+		"es": "Choque Rebelde",
+		"fr": "Clash des Rebelles",
+		"it": "Fragore Ribelle",
+		"pt": "Rixa Rebelde"
+	},
+	"releaseDate": "2020-05-01",
+	"serie": "swsh"
+}

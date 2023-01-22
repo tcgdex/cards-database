@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse Vague",
+				"es": "Chapoteo Ondulante",
+				"it": "Schizzi d’Onda",
+				"pt": "Onda Borrifante",
+				"de": "Wellenplatscher"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		751
+	],
+	"hp": 60,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Araqua",
+		"en": "Dewpider",
+		"es": "Dewpider",
+		"fr": "Araqua",
+		"it": "Dewpider",
+		"pt": "Dewpider"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

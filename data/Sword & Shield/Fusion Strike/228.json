@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Heal 70 damage from your Active Pokémon.",
+		"fr": "Soignez 70 dégâts de votre Pokémon Actif.",
+		"es": "Cura 70 puntos de daño a tu Pokémon Activo.",
+		"it": "Cura il tuo Pokémon attivo da 70 danni.",
+		"pt": "Cure 70 pontos de dano do seu Pokémon Ativo.",
+		"de": "Heile 70 Schadenspunkte bei deinem Aktiven Pokémon."
+	},
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"de": "Küchenchef",
+		"en": "Cook",
+		"es": "Chef",
+		"fr": "Cuisinier",
+		"it": "Cuoco",
+		"pt": "Chef"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"set": "swsh8",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

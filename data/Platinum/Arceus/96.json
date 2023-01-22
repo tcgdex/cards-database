@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Multitype",
+				"fr": "Multi-Type"
+			},
+			"effect": {
+				"en": "Arceus LV.X's type is the same type as its previous Level.",
+				"fr": "Le type d'Arceus NIV.X est le même qu'au tour précédent."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic Bolt",
+				"fr": "Éclair psy"
+			},
+			"effect": {
+				"en": "Discard a Lightning Energy and a Psychic Energy attached to Arceus.",
+				"fr": "Défaussez une Énergie Lightning et une Énergie Psychic attachée à Arceus."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		493
+	],
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Arceus LV. X",
+		"fr": "Arceus"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Colorless"
+	]
+}

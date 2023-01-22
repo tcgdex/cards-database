@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Take Down",
+				"fr": "Bélier"
+			},
+			"effect": {
+				"en": "This Pokémon does 10 damage to itself.",
+				"fr": "Ce Pokémon s'inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		672
+	],
+	"hp": 70,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Skiddo",
+		"fr": "Cabriolaine"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "lc",
+	"name": {
+		"de": "Ruf der Legenden",
+		"en": "Legendary Collection",
+		"es": "Llamada de las Leyendas",
+		"fr": "L'Appel des Légendes",
+		"it": "Richiamo delle Leggende"
+	}
+}

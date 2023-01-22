@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Mumble",
+				"fr": "Murmure"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Focused Wish",
+				"fr": "Vœu Fervent"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		517
+	],
+	"hp": 60,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Somniam",
+		"en": "Munna",
+		"es": "Munna",
+		"fr": "Munna",
+		"it": "Munna",
+		"pt": "Munna"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw10",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

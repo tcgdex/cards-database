@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Live Coal"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
+	},
+	"hp": 80,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Schneckmag",
+		"en": "Slugma",
+		"es": "Slugma",
+		"fr": "Limagma",
+		"it": "Slugma",
+		"pt": "Slugma"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

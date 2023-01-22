@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Plasma"
+			},
+			"effect": {
+				"en": "If there are any Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Electrode."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Self destruct"
+			},
+			"effect": {
+				"en": "This attack does 20 damage to each Pokémon on each player's bench. (Don't apply Weakness and Resistance for Benched Pokémon) Electrode does 100 damage to itself."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		101
+	],
+	"evolveFrom": {
+		"en": "Voltorb"
+	},
+	"hp": 70,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Electrode"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard3",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

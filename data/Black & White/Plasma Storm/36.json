@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icy Snow",
+				"fr": "Verglas"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		583
+	],
+	"evolveFrom": {
+		"en": "Vanillite",
+		"fr": "Sorbébé"
+	},
+	"hp": 80,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Gelatroppo",
+		"en": "Vanillish",
+		"es": "Vanillish",
+		"fr": "Sorboul",
+		"it": "Vanillish",
+		"pt": "Vanillish"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Torpedo Dive"
+			},
+			"effect": {
+				"en": "This attack does 10 damage to each of your opponent's Benched Pokémon for each Colorless in that Pokémon's Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		319
+	],
+	"evolveFrom": {
+		"en": "Sharpedo-EX"
+	},
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Sharpedo-EX"
+	},
+	"rarity": "Common",
+	"set": "xyp",
+	"stage": "MEGA",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

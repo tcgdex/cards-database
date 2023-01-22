@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Snipe Shot"
+			},
+			"effect": {
+				"en": "This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crabhammer"
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its right arm is packed with meat. When its pincer falls off, it's exported to be used as a cooking ingredient."
+	},
+	"evolveFrom": {
+		"en": "Clauncher",
+		"fr": "Flingouste",
+		"es": "Clauncher",
+		"it": "Clauncher",
+		"pt": "Clauncher",
+		"de": "Scampisto"
+	},
+	"hp": 110,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Wummer",
+		"en": "Clawitzer",
+		"es": "Clawitzer",
+		"fr": "Gamblast",
+		"it": "Clawitzer",
+		"pt": "Clawitzer"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

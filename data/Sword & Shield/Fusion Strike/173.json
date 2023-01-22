@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Bone Block"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "During your opponent's next turn, Pokémon can't be played from your opponent's hand to evolve the Defending Pokémon.n"
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dark Cutter"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They adorn themselves with bones. There seem to be fashion trends among them, as different bones come into and fall out of popularity."
+	},
+	"evolveFrom": {
+		"en": "Vullaby",
+		"fr": "Vostourno",
+		"es": "Vullaby",
+		"it": "Vullaby",
+		"pt": "Vullaby",
+		"de": "Skallyk"
+	},
+	"hp": 120,
+	"illustrator": "Narumi Sato",
+	"name": {
+		"de": "Grypheldis",
+		"en": "Mandibuzz",
+		"es": "Mandibuzz",
+		"fr": "Vaututrice",
+		"it": "Mandibuzz",
+		"pt": "Mandibuzz"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

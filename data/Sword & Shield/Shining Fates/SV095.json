@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Battement",
+				"en": "Flap",
+				"es": "Aleteo",
+				"it": "Alabattito",
+				"pt": "Asa",
+				"de": "Flattern"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
+	},
+	"hp": 50,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Piccolente",
+		"en": "Ducklett",
+		"es": "Ducklett",
+		"fr": "Couaneton",
+		"it": "Ducklett",
+		"pt": "Ducklett"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

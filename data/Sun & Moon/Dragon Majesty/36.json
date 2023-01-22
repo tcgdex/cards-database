@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Tail",
+				"fr": "Draco-Queue",
+				"es": "Cola Dragón",
+				"it": "Codadrago",
+				"pt": "Cauda do Dragão",
+				"de": "Drachenrute"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 60 damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				"es": "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
+				"it": "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
+				"pt": "Jogue 2 moedas. Este ataque causa 60 pontos de dano para cada cara.",
+				"de": "Wirf 2 Münzen. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
+			},
+			"damage": "60×"
+		},
+		{
+			"cost": [
+				"Water",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade",
+				"es": "Cascada",
+				"it": "Cascata",
+				"pt": "Cachoeira",
+				"de": "Kaskade"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		148
+	],
+	"evolveFrom": {
+		"en": "Dratini",
+		"fr": "Minidraco"
+	},
+	"hp": 100,
+	"illustrator": "sui",
+	"name": {
+		"de": "Dragonir",
+		"en": "Dragonair",
+		"es": "Dragonair",
+		"fr": "Draco",
+		"it": "Dragonair",
+		"pt": "Dragonair"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm7.5",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

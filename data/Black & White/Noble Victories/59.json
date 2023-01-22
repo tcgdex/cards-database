@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Luring Light",
+				"fr": "Appât Lumineux"
+			},
+			"effect": {
+				"en": "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				"fr": "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Will-O-Wisp",
+				"fr": "Feu Follet"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		608
+	],
+	"evolveFrom": {
+		"en": "Litwick",
+		"fr": "Funécire"
+	},
+	"hp": 80,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Laternecto",
+		"en": "Lampent",
+		"es": "Lampent",
+		"fr": "Mélancolux",
+		"it": "Lampent",
+		"pt": "Lampent"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

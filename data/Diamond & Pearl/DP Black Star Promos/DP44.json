@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Charge Beam"
+			},
+			"effect": {
+				"en": "Search your discard pile for an Energy card and attach it to Magnezone."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metallic Bolt"
+			},
+			"effect": {
+				"en": "You may discard a Lightning Energy and a Metal Energy attached to Magnezone. If you do, this attack's base damage is 120 instead of 60."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		462
+	],
+	"evolveFrom": {
+		"en": "Magneton"
+	},
+	"hp": 130,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Magnezone"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"set": "dpp",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+30"
+		}
+	]
+}

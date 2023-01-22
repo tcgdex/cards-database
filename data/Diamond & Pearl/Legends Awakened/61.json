@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Focus Blast",
+				"fr": "Exploforce"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spike Lariat",
+				"fr": "Lasso à piques"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has any damage counters on it, this attack does 60 damage plus 20 more damage.",
+				"fr": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "60+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il ressent toutes les auras. Il comprend le langage humain."
+	},
+	"dexId": [
+		448
+	],
+	"evolveFrom": {
+		"en": "Riolu",
+		"fr": "Riolu"
+	},
+	"hp": 90,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Lucario",
+		"fr": "Lucario"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Snubbull",
+		"en": "Snubbull",
+		"es": "Snubbull",
+		"fr": "Snubbull",
+		"it": "Snubbull",
+		"pt": "Snubbull"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "tk-xy-sy",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

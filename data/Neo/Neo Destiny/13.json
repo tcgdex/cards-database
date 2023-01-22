@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Bubble",
+				"fr": "Écume"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bubble Jump",
+				"fr": "Saute bulle"
+			},
+			"effect": {
+				"en": "If you have any Benched Pokémon, flip a coin. If heads, take 2 Energy cards attached to Light Azumarill and attach them to 1 of your Benched Pokémon. Then return Light Azumarill and all cards attached to it to your hand.",
+				"fr": "Si vous avez des Pokémon sur votre Banc, lancez une pièce. Si c'est face, prenez 2 cartes Énergie attachées à Azumarill lumineux et attachez-les à l'un des Pokémon de votre Banc. Puis renvoyez Azumarill lumineux et toutes les cartes qui y sont attachées dans votre main."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il replie ses longues oreilles quand il nage pour éviter que l'eau y entre."
+	},
+	"dexId": [
+		184
+	],
+	"evolveFrom": {
+		"en": "Marill"
+	},
+	"hp": 80,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Light Azumarill",
+		"fr": "Azumarill lumineux"
+	},
+	"rarity": "Rare",
+	"set": "neo4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

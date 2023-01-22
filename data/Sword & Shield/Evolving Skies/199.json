@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Draw 2 cards. If you do, your Active Pokémon recovers from all Special Conditions.",
+		"fr": "Piochez 2 cartes. Dans ce cas, votre Pokémon Actif guérit de tous les États Spéciaux.",
+		"es": "Roba 2 cartas. Si lo haces, tu Pokémon Activo se recupera de todas las Condiciones Especiales.",
+		"it": "Pesca due carte. Se lo fai, il tuo Pokémon attivo guarisce da tutte le condizioni speciali.",
+		"pt": "Compre 2 cartas. Se fizer isto, seu Pokémon Ativo se recuperará de todas as Condições Especiais.",
+		"de": "Ziehe 2 Karten. Wenn du das machst, erholt sich dein Aktives Pokémon von allen Speziellen Zuständen."
+	},
+	"illustrator": "En Morikura",
+	"name": {
+		"de": "Aromalady",
+		"en": "Aroma Lady",
+		"es": "Señorita Aroma",
+		"fr": "Aromathérapeute",
+		"it": "Profumina",
+		"pt": "Senhorita Aroma"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"set": "swsh7",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

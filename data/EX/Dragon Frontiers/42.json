@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sonic Noise",
+				"fr": "Bruit supersonique"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Pokémon-ex, that Pokémon is now Confused.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		329
+	],
+	"evolveFrom": {
+		"en": "Trapinch"
+	},
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Vibrava δ",
+		"fr": "Vibraninf δ ESPÈCES DELTA"
+	},
+	"rarity": "Uncommon",
+	"set": "ex15",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	]
+}

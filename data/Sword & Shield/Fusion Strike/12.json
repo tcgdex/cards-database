@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Peck"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ditch and Shake"
+			},
+			"damage": "50×",
+			"effect": {
+				"en": "Discard any number of Pokémon Tool cards from your hand. This attack does 50 damage for each card you discarded in this way."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert."
+	},
+	"hp": 110,
+	"illustrator": "0313",
+	"name": {
+		"de": "Maracamba",
+		"en": "Maractus",
+		"es": "Maractus",
+		"fr": "Maracachi",
+		"it": "Maractus",
+		"pt": "Maractus"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

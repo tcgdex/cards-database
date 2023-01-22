@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Stampede",
+				"fr": "Ruée",
+				"es": "Estampida",
+				"it": "Fuggi Fuggi",
+				"pt": "Estouro",
+				"de": "Zertrampeln"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunge Out",
+				"fr": "Allonger",
+				"es": "Arremeter",
+				"it": "Affondo Lungo",
+				"pt": "Bote",
+				"de": "Sprungangriff"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab."
+	},
+	"dexId": [
+		453
+	],
+	"hp": 70,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Glibunkel",
+		"en": "Croagunk",
+		"es": "Croagunk",
+		"fr": "Cradopaud",
+		"it": "Croagunk",
+		"pt": "Croagunk"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

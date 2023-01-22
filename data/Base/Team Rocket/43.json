@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Pokemon Power",
+			"name": {
+				"en": "Frenzy",
+				"fr": "Pète les plombs"
+			},
+			"effect": {
+				"en": "If Dark Primeape does any damage while it's Confused (even to itself), it does 30 more damage.",
+				"fr": "Si Colossinge obscur inflige des dégâts lorsqu'il est Confus (y compris à lui-même), il inflige 30 dégâts supplémentaires."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Frenzied Attack",
+				"fr": "Attaque frénétique"
+			},
+			"effect": {
+				"en": "Dark Primeape is now Confused (after doing damage).",
+				"fr": "Colossinge obscur est maintenant Confus (après application des dégâts)."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Bien que les Colossinge aient toujours été mauvais, il semble que depuis peu, ils deviennent de plus en plus vicieux et frénétiques."
+	},
+	"dexId": [
+		57
+	],
+	"evolveFrom": {
+		"en": "Mankey"
+	},
+	"hp": 60,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Dark Primeape",
+		"fr": "Colossinge obscur"
+	},
+	"rarity": "Uncommon",
+	"set": "base5",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

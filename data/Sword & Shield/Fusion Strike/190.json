@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Steel Wing"
+			},
+			"damage": 50,
+			"effect": {
+				"en": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Power Cyclone"
+			},
+			"damage": 160,
+			"effect": {
+				"en": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region's airborne taxi service."
+	},
+	"evolveFrom": {
+		"en": "Corvisquire",
+		"fr": "Bleuseille",
+		"es": "Corvisquire",
+		"it": "Corvisquire",
+		"pt": "Corvisquire",
+		"de": "Kranoviz"
+	},
+	"hp": 170,
+	"illustrator": "Ryuta Fuse",
+	"name": {
+		"de": "Krarmor",
+		"en": "Corviknight",
+		"es": "Corviknight",
+		"fr": "Corvaillus",
+		"it": "Corviknight",
+		"pt": "Corviknight"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

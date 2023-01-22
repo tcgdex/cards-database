@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Bright Look",
+				"fr": "Regard Alerte"
+			},
+			"effect": {
+				"en": "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				"fr": "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez échanger 1 des Pokémon de Banc de votre adversaire avec son Pokémon Actif."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Hexed Flame",
+				"fr": "Flamme Maudite"
+			},
+			"effect": {
+				"en": "Does 50 more damage for each Special Condition affecting the Defending Pokémon.",
+				"fr": "Inflige 50 dégâts supplémentaires pour chaque État Spécial affectant le Pokémon Défenseur."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		38
+	],
+	"evolveFrom": {
+		"en": "Vulpix",
+		"fr": "Goupix"
+	},
+	"hp": 90,
+	"illustrator": "Hideaki Hakozaki",
+	"name": {
+		"en": "Ninetales",
+		"fr": "Feunard"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bwp",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

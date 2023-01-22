@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Regardez les 7 cartes du dessous de votre deck. Choisissez-y 1 Pokémon, montrez-le à votre adversaire et placez-le dans votre main. Replacez les cartes restantes au dessus de votre deck. Ensuite, mélangez votre deck."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Dusk Ball",
+		"fr": "Sombre Ball"
+	},
+	"rarity": "Uncommon",
+	"set": "dp5",
+	"trainerType": "Item"
+}

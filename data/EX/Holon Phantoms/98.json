@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Takumi Akabane",
+	"name": {
+		"en": "δ Rainbow Energy",
+		"fr": "Énergie Multicolore δ"
+	},
+	"rarity": "Uncommon",
+	"set": "ex13"
+}

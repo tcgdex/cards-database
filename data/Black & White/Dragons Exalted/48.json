@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Empty Shell",
+				"fr": "Coquille Vide",
+				"es": "Concha Vacía",
+				"it": "Guscio Vuoto",
+				"pt": "Casca Vazia",
+				"de": "Leerer Panzer"
+			},
+			"effect": {
+				"en": "If this Pokémon is Knocked Out, your opponent can’t take any Prize cards for it.",
+				"fr": "Si ce Pokémon est mis K.O., votre adversaire ne peut pas récupérer de carte Récompense pour ce Pokémon.",
+				"es": "Si este Pokémon queda Fuera de Combate, tu rival no puede coger ninguna carta de Premio por él.",
+				"it": "Se questo Pokémon viene messo K.O., il tuo avversario non può pescare carte Premio per questo Pokémon.",
+				"pt": "Se este Pokémon for Nocauteado, seu oponente não poderá receber cards de Prêmio por ele.",
+				"de": "Wenn dieses Pokémon kampfunfähig wird, darf dein Gegner dafür keine der Preiskarten nehmen."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Cursed Drop",
+				"fr": "Chute Maudite"
+			},
+			"effect": {
+				"en": "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+				"fr": "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		292
+	],
+	"evolveFrom": {
+		"en": "Nincada",
+		"fr": "Ningale"
+	},
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Ninjatom",
+		"en": "Shedinja",
+		"es": "Shedinja",
+		"fr": "Munja",
+		"it": "Shedinja",
+		"pt": "Shedinja"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Stoke",
+				"fr": "Crémation"
+			},
+			"effect": {
+				"en": "You may search your deck for a Energy card and attach it to Ho-oh",
+				"fr": "Vous pouvez chercher une carte Énergie  et l'attacher à Ho-oh. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Sacred Fire",
+				"fr": "Feu sacré"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance.",
+				"fr": "Lancez une pièce. Si c'est face, choisissez un des Pokémon de votre adversaire. Cette attaque inflige 40 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Dive Bomb",
+				"fr": "Bombardement"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Selon la légende, ce Pokémon traverse constamment le ciel, porté par ses magnifiques ailes aux couleurs de l'arc-en-ciel."
+	},
+	"dexId": [
+		250
+	],
+	"hp": 90,
+	"illustrator": "Kimiya Masago",
+	"name": {
+		"en": "Ho-oh",
+		"fr": "Ho-oh"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "neo3",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

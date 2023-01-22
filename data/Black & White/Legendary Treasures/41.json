@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Mud Shot"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Round"
+			},
+			"effect": {
+				"en": "Does 20 damage times the number of your Pokémon that have the Round attack."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		536
+	],
+	"evolveFrom": {
+		"en": "Tympole"
+	},
+	"hp": 80,
+	"illustrator": "Sachiko Adachi",
+	"name": {
+		"en": "Palpitoad"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

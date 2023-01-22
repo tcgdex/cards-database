@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Destructive Whirlpool",
+				"fr": "Siphon Destructeur"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to the Defending Pokémon.",
+				"fr": "Défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		503
+	],
+	"evolveFrom": {
+		"en": "Dewott",
+		"fr": "Mateloutre"
+	},
+	"hp": 140,
+	"illustrator": "match",
+	"name": {
+		"de": "Admurai",
+		"en": "Samurott",
+		"es": "Samurott",
+		"fr": "Clamiral",
+		"it": "Samurott",
+		"pt": "Samurott"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw7",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

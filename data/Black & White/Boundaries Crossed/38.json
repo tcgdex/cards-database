@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Present",
+				"fr": "Cadeau"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your deck for a card and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Lancez une pièce. Si c'est face, cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icy Wind",
+				"fr": "Vent Glace"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		225
+	],
+	"hp": 80,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"de": "Botogel",
+		"en": "Delibird",
+		"es": "Delibird",
+		"fr": "Cadoizo",
+		"it": "Delibird",
+		"pt": "Delibird"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

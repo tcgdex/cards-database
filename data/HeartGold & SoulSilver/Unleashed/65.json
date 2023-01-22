@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down",
+				"fr": "Bélier"
+			},
+			"effect": {
+				"en": "Teddiursa does 10 damage to itself.",
+				"fr": "Teddiursa s’inflige 10 dégâts."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+	},
+	"dexId": [
+		216
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Teddiursa",
+		"fr": "Teddiursa"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

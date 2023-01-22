@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Poison Breath",
+				"fr": "Haleine Empoisonnée",
+				"es": "Aliento Venenoso",
+				"it": "Velenospiro",
+				"pt": "Hálito Venenoso",
+				"de": "Gifthauch"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		690
+	],
+	"hp": 60,
+	"illustrator": "sui",
+	"name": {
+		"de": "Algitt",
+		"en": "Skrelp",
+		"es": "Skrelp",
+		"fr": "Venalgue",
+		"it": "Skrelp",
+		"pt": "Skrelp"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

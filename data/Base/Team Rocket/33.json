@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Pokemon Power",
+			"name": {
+				"en": "Evolutionary Light",
+				"fr": "Lumière évolutive"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is Asleep, Confused, or Paralyzed.",
+				"fr": "Une fois pendant votre tour (avant votre attaque), vous pouvez chercher une carte Évolution dans votre deck. Placez-la dans votre main, puis mélangez votre deck. Ce pouvoir ne peut être utilisé si Draco obscur est Endormi, Confus ou Paralysé."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Strike",
+				"fr": "Attaque codale"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Comme il se doit à un Pokémon légendaire, il a de nombreux pouvoirs étranges, comme la faculté de faire pleuvoir ou neiger."
+	},
+	"dexId": [
+		148
+	],
+	"evolveFrom": {
+		"en": "Dratini"
+	},
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Dark Dragonair",
+		"fr": "Draco obscur"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "base5",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	]
+}

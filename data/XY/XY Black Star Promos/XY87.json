@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Strongarm Impact",
+				"fr": "Impact Bras d'Fer"
+			},
+			"effect": {
+				"en": "You may do 30 more damage. If you do, discard the top 3 cards of each player's deck.",
+				"fr": "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur."
+			},
+			"damage": "130+"
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"fr": "Impact Bras d'Fer"
+			},
+			"effect": {
+				"fr": "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur."
+			},
+			"damage": "130+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		260
+	],
+	"evolveFrom": {
+		"en": "Swampert-EX",
+		"fr": "Laggron-EX"
+	},
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Swampert EX",
+		"fr": "M Laggron EX"
+	},
+	"rarity": "None",
+	"retreat": 3,
+	"set": "xyp",
+	"stage": "MEGA",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

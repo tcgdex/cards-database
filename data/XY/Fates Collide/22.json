@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Swing Around",
+				"fr": "Balançoire",
+				"es": "Dar Vueltas",
+				"it": "Giravolta",
+				"pt": "Balanço",
+				"de": "Gegenschwung"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				"es": "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
+				"it": "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
+				"pt": "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
+				"de": "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		688
+	],
+	"hp": 60,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Bithora",
+		"en": "Binacle",
+		"es": "Binacle",
+		"fr": "Opermine",
+		"it": "Binacle",
+		"pt": "Binacle"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy10",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

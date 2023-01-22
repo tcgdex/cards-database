@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Sound",
+				"fr": "Strido-Son"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electro Ball",
+				"fr": "Boule Élek"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		82
+	],
+	"evolveFrom": {
+		"en": "Magnemite",
+		"fr": "Magnéti"
+	},
+	"hp": 80,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Magneton",
+		"en": "Magneton",
+		"es": "Magneton",
+		"fr": "Magnéton",
+		"it": "Magneton",
+		"pt": "Magneton"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

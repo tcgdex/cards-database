@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Cursed Shimmer"
+			},
+			"effect": {
+				"en": "As long as this Pokémon is in the Active Spot, your opponent can't play any Pokémon Tool cards from their hand."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Poltergeist"
+			},
+			"damage": "70×",
+			"effect": {
+				"en": "Your opponent reveals their hand. This attack does 70 damage for each Trainer card you find there."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Chandelure V",
+		"fr": "Lugulabre-V",
+		"es": "Chandelure V",
+		"it": "Chandelure-V",
+		"pt": "Chandelure V",
+		"de": "Skelabra-V"
+	},
+	"hp": 320,
+	"illustrator": "AKIRA EGAWA",
+	"name": {
+		"de": "Skelabra VMAX",
+		"en": "Chandelure VMAX",
+		"es": "Chandelure VMAX",
+		"fr": "Lugulabre VMAX",
+		"it": "Chandelure VMAX",
+		"pt": "Chandelure VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "VMAX",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

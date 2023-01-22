@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse Vague",
+				"es": "Chapoteo Ondulante",
+				"it": "Schizzi d’Onda",
+				"pt": "Onda Borrifante",
+				"de": "Wellenplatscher"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		320
+	],
+	"hp": 120,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Wailmer",
+		"en": "Wailmer",
+		"es": "Wailmer",
+		"fr": "Wailmer",
+		"it": "Wailmer",
+		"pt": "Wailmer"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Call Sign",
+				"fr": "Signe d’Appel"
+			},
+			"effect": {
+				"en": "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Cherchez un Pokémon Water dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Cryofreeze",
+				"fr": "Cryogel"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to this Pokémon. The Defending Pokémon can't attack during your opponent's next turn.",
+				"fr": "Défaussez une Énergie attachée à ce Pokémon. Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		615
+	],
+	"hp": 80,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Frigometri",
+		"en": "Cryogonal",
+		"es": "Cryogonal",
+		"fr": "Hexagel",
+		"it": "Cryogonal",
+		"pt": "Cryogonal"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

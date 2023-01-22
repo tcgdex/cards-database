@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Karate Chop",
+				"fr": "Poing-Karaté"
+			},
+			"effect": {
+				"en": "Does 50 damage minus 10 for each damage counter on Machoke.",
+				"fr": "Inflige 50 dégâts moins 10 dégâts pour chaque marqueur de dégâts sur Machopeur."
+			},
+			"damage": "50-"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Submission",
+				"fr": "Sacrifice"
+			},
+			"effect": {
+				"en": "Machoke does 20 damage to itself.",
+				"fr": "Machopeur s'inflige 20 dégâts."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements."
+	},
+	"dexId": [
+		67
+	],
+	"evolveFrom": {
+		"en": "Machop"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Machoke",
+		"fr": "Machopeur"
+	},
+	"rarity": "Uncommon",
+	"set": "base1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

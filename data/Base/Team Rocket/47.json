@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flop",
+				"fr": "Flop"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Rapid Evolution",
+				"fr": "Évolution rapide"
+			},
+			"effect": {
+				"en": "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
+				"fr": "Cherchez dans votre deck une carte Léviator ou Léviator obscur et placez-la sur Magicarpe. (Cela revient à faire évoluer Magicarpe). Mélangez ensuite votre deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "De récentes recherches ont démontré la présence d'ADN de dragon dans cette race de Pokémon."
+	},
+	"dexId": [
+		129
+	],
+	"hp": 30,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Magikarp",
+		"fr": "Magicarpe"
+	},
+	"rarity": "Uncommon",
+	"set": "base5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

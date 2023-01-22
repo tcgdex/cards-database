@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Thundershock"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hypno Splash"
+			},
+			"effect": {
+				"en": "Discard all Lightning Energy cards attached to Pikachu or this attack does nothing."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 60,
+	"illustrator": "Sylvia Forrest",
+	"name": {
+		"en": "Pikachu"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "ex5.5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting"
+		}
+	]
+}

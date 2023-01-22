@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Kick",
+				"fr": "Koud'Pied"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mach Cross",
+				"fr": "Passage Éclair"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		448
+	],
+	"evolveFrom": {
+		"en": "Riolu",
+		"fr": "Riolu"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Lucario",
+		"en": "Lucario",
+		"es": "Lucario",
+		"fr": "Lucario",
+		"it": "Lucario",
+		"pt": "Lucario"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

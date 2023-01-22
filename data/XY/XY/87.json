@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade",
+				"es": "Desenrollar",
+				"it": "Rotolamento",
+				"pt": "Rolagem",
+				"de": "Walzer"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Heartfelt Song",
+				"fr": "Chanson du Cœur",
+				"es": "Canto Sincero",
+				"it": "Cantosincero",
+				"pt": "Canção Sincera",
+				"de": "Melodie des Herzens"
+			},
+			"effect": {
+				"en": "Discard a Darkness Energy attached to your opponent's Active Pokémon.",
+				"fr": "Défaussez une Énergie Darkness attachée au Pokémon Actif de votre adversaire.",
+				"es": "Descarta 1 Energía Darkness unida al Pokémon Activo de tu rival.",
+				"it": "Scarta un'Energia Darkness assegnata al Pokémon attivo del tuo avversario.",
+				"pt": "Descarte uma Energia Darkness ligada ao Pokémon Ativo do seu oponente.",
+				"de": "Lege 1 an das Aktive Pokémon deines Gegners angelegte Darkness-Energie auf den Ablagestapel deines Gegners."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		39
+	],
+	"hp": 60,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Pummeluff",
+		"en": "Jigglypuff",
+		"es": "Jigglypuff",
+		"fr": "Rondoudou",
+		"it": "Jigglypuff",
+		"pt": "Jigglypuff"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy1",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

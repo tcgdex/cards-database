@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Pierce",
+				"fr": "Transpercement",
+				"es": "Perforar",
+				"it": "Perforare",
+				"pt": "Perfurar",
+				"de": "Durchbohren"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Glacial Lance",
+				"fr": "Lance de Glace",
+				"es": "Lanza Glacial",
+				"it": "Lancia Glaciale",
+				"pt": "Lança Glacial",
+				"de": "Blizzardlanze"
+			},
+			"effect": {
+				"en": "Discard 2 Energy from this Pokémon.",
+				"fr": "Défaussez 2 Énergies de ce Pokémon.",
+				"es": "Descarta 2 Energías de este Pokémon.",
+				"it": "Scarta due Energie da questo Pokémon.",
+				"pt": "Descarte 2 Energias deste Pokémon.",
+				"de": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 200
+		}
+	],
+	"category": "Pokemon",
+	"hp": 210,
+	"name": {
+		"de": "Schimmelreiter-Coronospa V",
+		"en": "Ice Rider Calyrex V",
+		"es": "Calyrex Jinete Glacial V",
+		"fr": "Sylveroy Cavalier du Froid V",
+		"it": "Calyrex Cavaliere Glaciale V",
+		"pt": "Calyrex Cavaleiro Glacial V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh10",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

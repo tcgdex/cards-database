@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scrunch",
+				"fr": "Compresse"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all damage done to Chansey by attacks during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Leveinard par des attaques lors du prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double-edge",
+				"fr": "Damoclès"
+			},
+			"effect": {
+				"en": "Chansey does 60 damage to itself.",
+				"fr": "Leveinard s'inflige 60 dégâts."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
+	},
+	"dexId": [
+		113
+	],
+	"hp": 100,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Chansey",
+		"fr": "Leveinard"
+	},
+	"rarity": "Common",
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

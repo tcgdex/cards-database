@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		10
+	],
+	"hp": 60,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"en": "Caterpie",
+		"fr": "Chenipan"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm115",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

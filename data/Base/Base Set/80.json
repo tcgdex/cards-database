@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Defender à 1 de vos Pokémon. À la fin du prochain tour de votre adversaire, défaussez Defender. Les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Defender",
+		"fr": "Defender"
+	},
+	"rarity": "Uncommon",
+	"set": "base1"
+}

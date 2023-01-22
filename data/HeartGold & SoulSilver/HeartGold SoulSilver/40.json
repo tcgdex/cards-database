@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Hurl",
+				"fr": "Lance-pierre"
+			},
+			"effect": {
+				"en": "This attack’s damage isn’t affected by Resistance.",
+				"fr": "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Spin",
+				"fr": "Double tour"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 70 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "70×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house."
+	},
+	"dexId": [
+		232
+	],
+	"evolveFrom": {
+		"en": "Phanpy",
+		"fr": "Phanpy"
+	},
+	"hp": 100,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Donphan",
+		"fr": "Donphan"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

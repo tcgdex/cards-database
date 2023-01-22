@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Filch",
+				"fr": "Maraudage",
+				"es": "Birlar",
+				"it": "Furtarello",
+				"pt": "Furtar",
+				"de": "Mopsen"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre 1 carta.",
+				"de": "Ziehe 1 Karte."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Smack",
+				"fr": "Coup de Queue",
+				"es": "Bofetón Cola",
+				"it": "Codasberla",
+				"pt": "Ataque de Cauda",
+				"de": "Schweifschlag"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains."
+	},
+	"hp": 70,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Kleptifux",
+		"en": "Nickit",
+		"es": "Nickit",
+		"fr": "Goupilou",
+		"it": "Nickit",
+		"pt": "Nickit"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3.5",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

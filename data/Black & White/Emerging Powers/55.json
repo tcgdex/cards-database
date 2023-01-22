@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mud-Slap",
+				"fr": "Coud'Boue"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		529
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Rotomurf",
+		"en": "Drilbur",
+		"es": "Drilbur",
+		"fr": "Rototaupe",
+		"it": "Drilbur",
+		"pt": "Drilbur"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

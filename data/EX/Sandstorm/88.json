@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez un des Pokémon de base que vous avez en jeu. Si vous avez dans votre main une carte Niveau 1 ou Niveau 2 qui évolue de ce Pokémon, placez-la sur ce Pokémon. (Vous le faites ainsi évoluer)."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Rare Candy",
+		"fr": "Super bonbon"
+	},
+	"rarity": "Uncommon",
+	"set": "ex2",
+	"trainerType": "Item"
+}

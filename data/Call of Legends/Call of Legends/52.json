@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spiral Drain"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Vaporeon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dual Splash"
+			},
+			"effect": {
+				"en": "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		134
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 90,
+	"illustrator": "sui",
+	"name": {
+		"en": "Vaporeon"
+	},
+	"rarity": "Uncommon",
+	"set": "col1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

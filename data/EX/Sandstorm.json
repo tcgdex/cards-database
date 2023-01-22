@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 100,
+	"id": "ex2",
+	"name": {
+		"de": "EX Sandsturm",
+		"en": "Sandstorm",
+		"fr": "EX Tempête de sable",
+		"it": "EX Tempesta di Sabbia"
+	},
+	"releaseDate": "2003-09-18",
+	"serie": "ex",
+	"tcgOnline": "SS"
+}

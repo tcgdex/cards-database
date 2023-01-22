@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Relaxing Shower"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may discard an Energy card from your hand. If you do, remove 1 damage counter from each of your Pokémon. This power can't be used if Lopunny is affected by a Special Condition."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hover Heal"
+			},
+			"effect": {
+				"en": "Remove all Special Conditions from Lopunny."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		428
+	],
+	"evolveFrom": {
+		"en": "Buneary"
+	},
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Lopunny"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

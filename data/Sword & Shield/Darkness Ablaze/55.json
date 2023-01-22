@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Static Shock",
+				"fr": "Choc Statique",
+				"es": "Impacto Estático",
+				"it": "Shock Statico",
+				"pt": "Choque de Estática",
+				"de": "Statischer Schock"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
+	},
+	"hp": 60,
+	"illustrator": "sowsow",
+	"name": {
+		"de": "Voltilamm",
+		"en": "Mareep",
+		"es": "Mareep",
+		"fr": "Wattouat",
+		"it": "Mareep",
+		"pt": "Mareep"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

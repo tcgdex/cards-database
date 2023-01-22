@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 145,
+	"id": "sm2",
+	"name": {
+		"de": "Stunde der Wächter",
+		"en": "Guardians Rising",
+		"es": "Albor de Guadianes",
+		"fr": "Gardiens Ascendants",
+		"it": "Guardiani Nascenti",
+		"pt": "Guardiões Ascendentes"
+	},
+	"releaseDate": "2017-05-05",
+	"serie": "sm",
+	"tcgOnline": "GRI"
+}

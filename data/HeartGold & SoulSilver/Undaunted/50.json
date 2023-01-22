@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Sticky Liquid",
+				"fr": "Liquide gluant"
+			},
+			"effect": {
+				"en": "During your opponent’s next turn, the Defending Pokémon’s Retreat Cost is Colorless more.",
+				"fr": "Pendant le prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est augmenté de Colorless."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sludge Toss",
+				"fr": "Décision vaseuse"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Wherever Grimer has passed, so many germs are left behind that no plants will ever grow again."
+	},
+	"dexId": [
+		88
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Grimer",
+		"fr": "Tadmorv"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "hgss3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

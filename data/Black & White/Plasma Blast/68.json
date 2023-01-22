@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Paralyzing Gaze",
+				"fr": "Regard Paralysant"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Metal"
+			],
+			"name": {
+				"en": "Dragon Claw",
+				"fr": "Dracogriffe"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		611
+	],
+	"evolveFrom": {
+		"en": "Axew",
+		"fr": "Coupenotte"
+	},
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Sharfax",
+		"en": "Fraxure",
+		"es": "Fraxure",
+		"fr": "Incisache",
+		"it": "Fraxure",
+		"pt": "Fraxure"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw10",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

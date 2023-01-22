@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Psychic Raid",
+				"fr": "Raid Psy",
+				"es": "Incursión Psíquica",
+				"it": "Raid Psichico",
+				"pt": "Incursão Psíquica",
+				"de": "Psycho-Raubzug"
+			},
+			"damage": 130,
+			"effect": {
+				"en": "This Pokémon can’t attack during your next turn.",
+				"fr": "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				"es": "Este Pokémon no puede atacar durante tu próximo turno.",
+				"it": "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				"pt": "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				"de": "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+			},
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Psychic"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"hp": 120,
+	"name": {
+		"de": "Armored Mewtwo",
+		"en": "Armored Mewtwo",
+		"es": "Armored Mewtwo",
+		"fr": "Armored Mewtwo",
+		"it": "Armored Mewtwo",
+		"pt": "Armored Mewtwo"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "smp",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

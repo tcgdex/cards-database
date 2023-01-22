@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Tackle"
+			},
+			"effect": {
+				"en": "Blaine's Arcanine does 10 damage to itself."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Firestorm"
+			},
+			"effect": {
+				"en": "Discard 3 Energy cards attached to Blaine's Arcanine in order to use this attack."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		59
+	],
+	"evolveFrom": {
+		"en": "Growlithe"
+	},
+	"hp": 90,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Blaine's Arcanine"
+	},
+	"rarity": "Rare",
+	"set": "gym2",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

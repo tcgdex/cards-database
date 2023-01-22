@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Klaps"
+			},
+			"damage": 10,
+			"cost": [
+				"Psychic"
+			]
+		},
+		{
+			"name": {
+				"en": "Punch",
+				"fr": "Koud'Poing",
+				"es": "Puño",
+				"it": "Pugno",
+				"pt": "Soco",
+				"de": "Boxhieb"
+			},
+			"damage": 30,
+			"cost": [
+				"Psychic",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day."
+	},
+	"hp": 90,
+	"illustrator": "0313",
+	"name": {
+		"de": "Golbit",
+		"en": "Golett",
+		"es": "Golett",
+		"fr": "Gringolem",
+		"it": "Golett",
+		"pt": "Golett"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

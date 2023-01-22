@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez une carte dans votre main et placez-la au dessus de votre deck. Choisissez un Pokémon SP dans votre deck, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck. (Si c'est la seule carte que vous avez en main, vous ne pouvez pas la jouer)."
+	},
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Team Galactic's Invention G-109 SP Radar",
+		"fr": "Radar SP Invention G-109 de Team Galaxie"
+	},
+	"rarity": "Uncommon",
+	"set": "pl2",
+	"trainerType": "Item"
+}

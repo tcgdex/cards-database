@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aqua Beam",
+				"fr": "Aqua-laser"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon has Team Magma's in its name, the Defending Pokémon is now Confused.",
+				"fr": "Si le nom du Pokémon Défenseur comporte Team Magma, le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Chaos Crush",
+				"fr": "Écrasement chaotique"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon.",
+				"fr": "Si le Pokémon Défenseur est Confus, défaussez une carte Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		310
+	],
+	"hp": 80,
+	"illustrator": "K. Utsunomiya",
+	"name": {
+		"en": "Team Aqua's Manectric",
+		"fr": "Elecsprint de Team Aqua"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-30"
+		}
+	],
+	"set": "ex4",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Amnesia"
+			},
+			"effect": {
+				"en": "Choose 1 of defenders attacks. Defender cannot use that attack next turn."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Doubleslap"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage times number of heads."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		61
+	],
+	"evolveFrom": {
+		"en": "Poliwag"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Poliwhirl"
+	},
+	"rarity": "Uncommon",
+	"set": "base4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

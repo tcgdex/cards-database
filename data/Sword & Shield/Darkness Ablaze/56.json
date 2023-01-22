@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Static Shock",
+				"fr": "Choc Statique",
+				"es": "Impacto Estático",
+				"it": "Shock Statico",
+				"pt": "Choque de Estática",
+				"de": "Statischer Schock"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
+	},
+	"evolveFrom": {
+		"en": "Mareep",
+		"fr": "Wattouat",
+		"es": "Mareep",
+		"it": "Mareep",
+		"pt": "Mareep",
+		"de": "Voltilamm"
+	},
+	"hp": 90,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Waaty",
+		"en": "Flaaffy",
+		"es": "Flaaffy",
+		"fr": "Lainergie",
+		"it": "Flaaffy",
+		"pt": "Flaaffy"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

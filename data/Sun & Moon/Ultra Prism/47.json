@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Disconnect",
+				"fr": "Déconnexion",
+				"es": "Desconectar",
+				"it": "Disconnessione",
+				"pt": "Desconexão",
+				"de": "Unterbrechen"
+			},
+			"effect": {
+				"en": "Your opponent can’t play any Item cards from their hand during their next turn.",
+				"fr": "Votre adversaire ne peut pas jouer de carte Objet de sa main pendant son prochain tour.",
+				"es": "Tu rival no puede jugar ninguna carta de Objeto de su mano durante su próximo turno.",
+				"it": "Il tuo avversario non può giocare le carte Strumento che ha in mano durante il suo prossimo turno.",
+				"pt": "Seu oponente não poderá jogar nenhuma carta de Item da própria mão durante a próxima vez dele(a) jogar.",
+				"de": "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		404
+	],
+	"evolveFrom": {
+		"en": "Shinx",
+		"fr": "Lixy"
+	},
+	"hp": 80,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Luxio",
+		"en": "Luxio",
+		"es": "Luxio",
+		"fr": "Luxio",
+		"it": "Luxio",
+		"pt": "Luxio"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm5",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

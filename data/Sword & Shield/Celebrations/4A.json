@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Pokemon Power",
+			"name": {
+				"en": "Energy Burn"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Fire Spin"
+			},
+			"effect": {
+				"en": "Discard 2 Energy cards attached to Charizard in order to use this attack."
+			},
+			"damage": 100,
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires."
+	},
+	"hp": 120,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Charizard"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "cel25",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": ""
+		}
+	]
+}

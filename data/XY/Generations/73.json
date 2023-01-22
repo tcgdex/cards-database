@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+		"en": "Discard an Energy attached to your opponent's Active Pokémon."
+	},
+	"illustrator": "Yusuke Ohmura",
+	"name": {
+		"en": "Team Flare Grunt",
+		"fr": "Sbire de la Team Flare"
+	},
+	"rarity": "Uncommon",
+	"set": "g1",
+	"trainerType": "Supporter"
+}

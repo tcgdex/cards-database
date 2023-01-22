@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Discard a Special Energy attached to 1 of your opponent’s Pokémon.",
+		"fr": "Défaussez une Énergie spéciale attachée à 1 des Pokémon de votre adversaire.",
+		"es": "Descarta una Energía Especial unida a 1 de los Pokémon de tu rival.",
+		"it": "Scarta un’Energia speciale assegnata a uno dei Pokémon del tuo avversario.",
+		"pt": "Descarte uma Energia Especial ligada a 1 dos Pokémon do seu oponente.",
+		"de": "Lege 1 an ein gegnerisches Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Spezial-Hammer",
+		"en": "Enhanced Hammer",
+		"es": "Martillo Mejorado",
+		"fr": "Maillet Amélioré",
+		"it": "Supermartello",
+		"pt": "Martelo Avançado"
+	},
+	"rarity": "Uncommon",
+	"set": "bw5",
+	"trainerType": "Item"
+}

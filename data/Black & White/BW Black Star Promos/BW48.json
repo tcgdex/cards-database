@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Fight Song",
+				"fr": "Hymne au Combat"
+			},
+			"effect": {
+				"en": "Your Dragon Pokémon's attacks do 20 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				"fr": "Les attaques de vos Pokémon Dragon infligent 20 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Glide",
+				"fr": "Glissement"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		334
+	],
+	"evolveFrom": {
+		"en": "Swablu",
+		"fr": "Swablu"
+	},
+	"hp": 70,
+	"illustrator": "HiRON",
+	"name": {
+		"en": "Altaria",
+		"fr": "Altaria"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bwp",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

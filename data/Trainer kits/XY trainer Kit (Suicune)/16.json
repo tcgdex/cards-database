@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"de": "Plinfa",
+		"en": "Piplup",
+		"es": "Piplup",
+		"fr": "Tiplouf",
+		"it": "Piplup",
+		"pt": "Piplup"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "tk-xy-su",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

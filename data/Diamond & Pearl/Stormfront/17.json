@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Spirit Pulse",
+				"fr": "Vibration spirituelle"
+			},
+			"effect": {
+				"en": "As long as Dusknoir is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon that has any Energy attached to it between turns.",
+				"fr": "Tant que Noctunoir est votre Pokémon Actif, placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire possédant de l'Énergie entre deux tours."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Darkness Mist",
+				"fr": "Brume obscurité"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has 2 or more damage counters on it, this attack does 60 damage plus 20 more damage.",
+				"fr": "Si le Pokémon Défenseur possède déjà au moins 2 marqueurs de dégât, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "60+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "L'antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d'y porter des gens."
+	},
+	"dexId": [
+		477
+	],
+	"evolveFrom": {
+		"en": "Dusclops",
+		"fr": "Teraclope"
+	},
+	"hp": 120,
+	"illustrator": "Tomoaki Imakuni",
+	"name": {
+		"en": "Dusknoir",
+		"fr": "Noctunoir"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "dp7",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+30"
+		}
+	]
+}

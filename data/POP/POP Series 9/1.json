@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Rage",
+				"fr": "Draco-Rage"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				"fr": "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
+			},
+			"damage": 80
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Jet Sword",
+				"fr": "Jet Sword"
+			},
+			"effect": {
+				"en": "Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Défaussez deux Énergies attachées à Carchacrok. Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
+		"fr": "Il vole à la vitesse d'un avion à réaction et ne lâche jamais sa proie."
+	},
+	"dexId": [
+		445
+	],
+	"evolveFrom": {
+		"en": "Gabite"
+	},
+	"hp": 130,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Garchomp",
+		"fr": "Carchacrok"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "pop9",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "+30"
+		}
+	]
+}

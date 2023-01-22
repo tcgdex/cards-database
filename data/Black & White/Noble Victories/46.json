@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Damagriiigus",
+				"fr": "Tutankarnage"
+			},
+			"effect": {
+				"en": "Move all damage counters from 1 of your Benched Pokémon to the Defending Pokémon.",
+				"fr": "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de Banc vers le Pokémon Défenseur."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Perplex",
+				"fr": "Affolement"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		563
+	],
+	"evolveFrom": {
+		"en": "Yamask",
+		"fr": "Tutafeh"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Echnatoll",
+		"en": "Cofagrigus",
+		"es": "Cofagrigus",
+		"fr": "Tutankafer",
+		"it": "Cofagrigus",
+		"pt": "Cofagrigus"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

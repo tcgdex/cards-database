@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Multishot Star"
+			},
+			"effect": {
+				"en": "Discard any amount of Water Energy from this Pokémon. Then, for each Energy card you discarded in this way, choose 1 of your opponent's Pokémon and do 30 damage to it. (You can choose the same Pokémon more than once.) This damage isn't affected by Weakness or Resistance."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It rotates its geometrically shaped body to swim through the water. It always seems to be sending out mysterious radio waves."
+	},
+	"evolveFrom": {
+		"en": "Staryu",
+		"fr": "Stari",
+		"es": "Staryu",
+		"it": "Staryu",
+		"pt": "Staryu",
+		"de": "Sterndu"
+	},
+	"hp": 90,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"de": "Starmie",
+		"en": "Starmie",
+		"es": "Starmie",
+		"fr": "Staross",
+		"it": "Starmie",
+		"pt": "Starmie"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

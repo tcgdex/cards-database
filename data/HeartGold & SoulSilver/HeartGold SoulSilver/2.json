@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bubblebeam",
+				"fr": "Bulles d’o"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet."
+	},
+	"dexId": [
+		184
+	],
+	"evolveFrom": {
+		"en": "Marill",
+		"fr": "Marill"
+	},
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Azumarill",
+		"fr": "Azumarill"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

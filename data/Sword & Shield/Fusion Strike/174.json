@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Knocking Hammer"
+			},
+			"damage": 90,
+			"effect": {
+				"en": "Discard the top card of your opponent's deck."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shakedown"
+			},
+			"damage": 150,
+			"effect": {
+				"en": "Discard a random card from your opponent's hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit."
+	},
+	"evolveFrom": {
+		"en": "Pancham",
+		"fr": "Pandespiègle",
+		"es": "Pancham",
+		"it": "Pancham",
+		"pt": "Pancham",
+		"de": "Pam-Pam"
+	},
+	"hp": 140,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Pandagro",
+		"en": "Pangoro",
+		"es": "Pangoro",
+		"fr": "Pandarbare",
+		"it": "Pangoro",
+		"pt": "Pangoro"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

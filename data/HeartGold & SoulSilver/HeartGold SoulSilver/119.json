@@ -1,0 +1,18 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"hp": 0,
+	"name": {
+		"en": "Psychic Energy",
+		"fr": "Énergie Psy"
+	},
+	"rarity": "Common",
+	"set": "hgss1",
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

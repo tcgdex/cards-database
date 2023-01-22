@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Stomp",
+				"fr": "Double Écrasement",
+				"es": "Pisotón Doble",
+				"it": "Doppio Pestone",
+				"pt": "Pisoteada Dupla",
+				"de": "Doppelstampfer"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				"es": "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
+				"it": "Lancia due volte una moneta. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
+				"pt": "Jogue 2 moedas. Este ataque causa 30 pontos de dano a mais para cada cara.",
+				"de": "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
+			},
+			"damage": "70+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It moves through the sands with its mouth open, swallowing sand along with its prey. It gets rid of the sand by spouting it from its nose."
+	},
+	"hp": 100,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Hippopotas",
+		"en": "Hippopotas",
+		"es": "Hippopotas",
+		"fr": "Hippopotas",
+		"it": "Hippopotas",
+		"pt": "Hippopotas"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 4,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

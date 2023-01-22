@@ -1,0 +1,39 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flailing Flop"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this Pokémon does 10 damage to itself."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		129
+	],
+	"hp": 30,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Magikarp"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 189,
+	"id": "swsh10",
+	"name": {
+		"de": "Astralglanz",
+		"en": "Astral Radiance",
+		"es": "Resplandor Astral",
+		"fr": "Astres Radieux",
+		"it": "Lucentezza Siderale",
+		"pt": "Estrelas Radiantes"
+	},
+	"releaseDate": "2022-05-27",
+	"serie": "swsh"
+}

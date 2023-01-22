@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Toxic Spikes",
+				"fr": "Pics Toxik"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned. If Roselia is evolved from Budew, this attack does 10 damage to the Defending Pokémon.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné. Si Roselia évolue de Rozbouton, cette attaque inflige 10 dégâts au Pokémon Défenseur."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Sweet Spike",
+				"fr": "Douce pointe"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep. Remove 2 damage counters from 1 of your Pokémon.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi. Retirez à 1 de vos Pokémon 2 marqueurs de dégât."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Les Roselia élevés avec une eau claire et potable font de ravissantes fleurs bariolées."
+	},
+	"dexId": [
+		315
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Roselia",
+		"fr": "Roselia"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

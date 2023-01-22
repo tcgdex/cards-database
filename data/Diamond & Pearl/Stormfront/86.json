@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez un Pokémon dans votre deck (Pokémon NIV.X exclus), montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck. Si Luxe Ball se trouve dans votre pile de défausse, vous ne pouvez pas jouer cette carte."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Luxury Ball",
+		"fr": "Luxe Ball"
+	},
+	"rarity": "Uncommon",
+	"set": "dp7",
+	"trainerType": "Item"
+}

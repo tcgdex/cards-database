@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cherchez dans votre deck une carte Évolution dont le nom comporte le mot \"obscur\". Montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "The Boss's Way",
+		"fr": "À la façon du Boss"
+	},
+	"rarity": "Uncommon",
+	"set": "base5"
+}

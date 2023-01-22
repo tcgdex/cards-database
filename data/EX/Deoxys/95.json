@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Takumi Akabane",
+	"name": {
+		"en": "Scramble Energy",
+		"fr": "Énergie codée"
+	},
+	"rarity": "Uncommon",
+	"set": "ex8"
+}

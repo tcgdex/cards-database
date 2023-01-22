@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure",
+				"es": "Mordisco",
+				"it": "Morso",
+				"pt": "Mordida",
+				"de": "Biss"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Corner",
+				"fr": "Coinçage",
+				"es": "Arrinconar",
+				"it": "Trappola",
+				"pt": "Quina",
+				"de": "Bedrängen"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				"es": "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				"it": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				"pt": "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				"de": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		552
+	],
+	"evolveFrom": {
+		"en": "Sandile",
+		"fr": "Mascaïman"
+	},
+	"hp": 90,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Rokkaiman",
+		"en": "Krokorok",
+		"es": "Krokorok",
+		"fr": "Escroco",
+		"it": "Krokorok",
+		"pt": "Krokorok"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sm10",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

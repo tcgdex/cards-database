@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Air Slash",
+				"fr": "Lame d’Air",
+				"es": "Tajo Aéreo",
+				"it": "Eterelama",
+				"pt": "Golpe de Ar",
+				"de": "Luftschnitt"
+			},
+			"effect": {
+				"en": "Discard an Energy from this Pokémon.",
+				"fr": "Défaussez une Énergie de ce Pokémon.",
+				"es": "Descarta 1 Energía de este Pokémon.",
+				"it": "Scarta un’Energia assegnata a questo Pokémon.",
+				"pt": "Descarte 1 Energia deste Pokémon.",
+				"de": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		469
+	],
+	"evolveFrom": {
+		"en": "Yanma",
+		"fr": "Yanma"
+	},
+	"hp": 120,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Yanmega",
+		"en": "Yanmega",
+		"es": "Yanmega",
+		"fr": "Yanmega",
+		"it": "Yanmega",
+		"pt": "Yanmega"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Splash",
+				"fr": "Trempette"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump."
+	},
+	"dexId": [
+		129
+	],
+	"hp": 30,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Magikarp",
+		"fr": "Magicarpe"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fighting"
+			],
+			"name": {
+				"en": "Shell Trap"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 8 damage counters on the Attacking Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Crash"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Eating sulfur in its volcanic habitat is what causes explosive compounds to develop in its shell. Its droppings are also dangerously explosive."
+	},
+	"hp": 130,
+	"illustrator": "Ryuta Fuse",
+	"name": {
+		"de": "Tortunator",
+		"en": "Turtonator",
+		"es": "Turtonator",
+		"fr": "Boumata",
+		"it": "Turtonator",
+		"pt": "Turtonator"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "pop",
+	"name": {
+		"en": "POP",
+		"es": "POP",
+		"fr": "POP",
+		"it": "POP"
+	}
+}

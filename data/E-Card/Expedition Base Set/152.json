@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Votre adversaire échange le Pokémon Défenseur contre l'un des Pokémon de son Banc, s'il en possède. Vous échangez ensuite votre Pokémon Actif contre l'un des Pokémon de votre Banc, si vous en possédez."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Warp Point",
+		"fr": "Point de distorsion"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard1"
+}

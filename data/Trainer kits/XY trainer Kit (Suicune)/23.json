@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 50,
+	"name": {
+		"de": "Froxy",
+		"en": "Froakie",
+		"es": "Froakie",
+		"fr": "Grenousse",
+		"it": "Froakie",
+		"pt": "Froakie"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "tk-xy-su",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

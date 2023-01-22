@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Chaque joueur joue avec ses cartes Récompenses découvertes jusqu'à la fin de la partie."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Here Comes Team Rocket!",
+		"fr": "Et voila les Team Rocket !"
+	},
+	"rarity": "Rare",
+	"set": "base5"
+}

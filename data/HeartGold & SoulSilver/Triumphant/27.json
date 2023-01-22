@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Top Burner",
+				"fr": "Super pyro"
+			},
+			"effect": {
+				"en": "For each Fire Energy attached to Magmortar, discard the top card from your opponent’s deck. Then, flip a coin. If tails, discard all Fire Energy attached to Magmortar.",
+				"fr": "Pour chaque carte Énergie Fire attachée à Maganon, défaussez la carte du dessus du deck de votre adversaire. Lancez ensuite une pièce. Si c’est pile, défaussez toutes les cartes Énergie Fire attachées à Maganon."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Burst Punch",
+				"fr": "Poing d’enfer"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned.",
+				"fr": "Le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles."
+	},
+	"dexId": [
+		467
+	],
+	"evolveFrom": {
+		"en": "Magmar",
+		"fr": "Magmar"
+	},
+	"hp": 100,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Magmortar",
+		"fr": "Maganon"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

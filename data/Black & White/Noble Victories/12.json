@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Acid Spray",
+				"fr": "Bombe Acide"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Slashing Strike",
+				"fr": "Coup Déchirant"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Slashing Strike during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		617
+	],
+	"evolveFrom": {
+		"en": "Shelmet",
+		"fr": "Escargaume"
+	},
+	"hp": 90,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Hydragil",
+		"en": "Accelgor",
+		"es": "Accelgor",
+		"fr": "Limaspeed",
+		"it": "Accelgor",
+		"pt": "Accelgor"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

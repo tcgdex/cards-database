@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Searing Flame",
+				"fr": "Flammes Calcinantes"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		554
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Darumaka",
+		"fr": "Darumarond"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bwp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

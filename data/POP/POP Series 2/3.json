@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Roar",
+				"fr": "Hurlement"
+			},
+			"effect": {
+				"en": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				"fr": "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange contre le Pokémon Défenseur."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder",
+				"fr": "Fatal-Foudre"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, Raikou does 20 damage to itself.",
+				"fr": "Lancez une pièce. Si c'est pile, Raikou s'inflige 20 dégâts."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		243
+	],
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Raikou",
+		"fr": "Raikou"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pop2",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting"
+		}
+	]
+}

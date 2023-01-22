@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Live Coal",
+				"fr": "Charbon Mutant",
+				"es": "Carbón Activado",
+				"it": "Carboni Ardenti",
+				"pt": "Carvão Vivo",
+				"de": "Glühende Kohlen"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fireworks",
+				"fr": "Feu d'Artifice",
+				"es": "Fuegos artificiales",
+				"it": "Fuochi d'Artificio",
+				"pt": "Fogos de Artifício",
+				"de": "Feuerwerk"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to this Pokémon.",
+				"fr": "Défaussez une Énergie attachée à ce Pokémon.",
+				"es": "Descarta 1 Energía unida a este Pokémon.",
+				"it": "Scarta un'Energia assegnata a questo Pokémon.",
+				"pt": "Descarte uma Energia ligada a este Pokémon.",
+				"de": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		513
+	],
+	"hp": 60,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Grillmak",
+		"en": "Pansear",
+		"es": "Pansear",
+		"fr": "Flamajou",
+		"it": "Pansear",
+		"pt": "Pansear"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

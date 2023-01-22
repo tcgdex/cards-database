@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Flipper Splash",
+				"fr": "Koud'palme"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Migraine",
+				"fr": "Maud'krâne"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser."
+	},
+	"dexId": [
+		54
+	],
+	"hp": 50,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Psyduck",
+		"fr": "Psykokwak"
+	},
+	"rarity": "Common",
+	"set": "neo4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

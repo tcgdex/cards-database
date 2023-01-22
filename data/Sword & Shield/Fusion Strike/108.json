@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Maximum Downer"
+			},
+			"effect": {
+				"en": "If all your Pokémon in play are Fusion Strike Pokémon, your opponent's Pokémon VMAX in play get -30 HP."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Head Bolt"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has an electrical organ on its chest. While generating electricity, it fills its surroundings with sounds like the strumming of a bass guitar."
+	},
+	"evolveFrom": {
+		"en": "Toxel",
+		"fr": "Toxizap",
+		"es": "Toxel",
+		"it": "Toxel",
+		"pt": "Toxel",
+		"de": "Toxel"
+	},
+	"hp": 120,
+	"illustrator": "nagimiso",
+	"name": {
+		"de": "Riffex",
+		"en": "Toxtricity",
+		"es": "Toxtricity",
+		"fr": "Salarsen",
+		"it": "Toxtricity",
+		"pt": "Toxtricity"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sleep Powder",
+				"fr": "Poudre dodo"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vine Whip",
+				"fr": "Fouet lianes"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		2
+	],
+	"evolveFrom": {
+		"en": "Bulbasaur"
+	},
+	"hp": 80,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Ivysaur",
+		"fr": "Herbizarre"
+	},
+	"rarity": "Uncommon",
+	"set": "ex14",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

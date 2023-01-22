@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Psychic Float",
+				"fr": "Psy-flotteur"
+			},
+			"effect": {
+				"en": "If you have any Psychic Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
+				"fr": "Si une ou plusieurs cartes Énergie Psychic sont attachées à votre Pokémon Actif, le Coût de retraite de ce dernier est de 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pulse Blast",
+				"fr": "Explosion vibrante"
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Double Leg Hammer",
+				"fr": "Marteau têtu"
+			},
+			"effect": {
+				"en": "Choose 2 of your opponent’s Benched Pokémon. This attack does 40 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez 2 des Pokémon se trouvant sur le Banc de votre adversaire. Cette attaque inflige 40 dégâts à chacun d’entre eux. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		376
+	],
+	"evolveFrom": {
+		"en": "Metang",
+		"fr": "Metang"
+	},
+	"hp": 130,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Metagross",
+		"fr": "Metalosse"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "hgss2",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

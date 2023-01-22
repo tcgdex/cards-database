@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse Vague"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		419
+	],
+	"evolveFrom": {
+		"en": "Buizel",
+		"fr": "Mustébouée"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Bojelin",
+		"en": "Floatzel",
+		"es": "Floatzel",
+		"fr": "Mustéflott",
+		"it": "Floatzel",
+		"pt": "Floatzel"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

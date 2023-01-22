@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Recover",
+				"fr": "Soin"
+			},
+			"effect": {
+				"en": "Discard a Water Energy attached to Corsola and remove all damage counters from Corsola.",
+				"fr": "Défaussez une carte Énergie Water attachée à Corayon et retirez tous les marqueurs de dégâts sur Corayon."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Cannon",
+				"fr": "Hyper canon"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If both of them are heads, this attack does 20 damage plus 50 more damage.",
+				"fr": "Lancez 2 pièces. Si les deux pièces tombent sur face, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty."
+	},
+	"dexId": [
+		222
+	],
+	"hp": 60,
+	"illustrator": "TOKIYA",
+	"name": {
+		"en": "Corsola",
+		"fr": "Corayon"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

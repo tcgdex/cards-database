@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Teatime",
+				"fr": "Thérémonie",
+				"es": "Hora del Té",
+				"it": "Ora del Tè",
+				"pt": "Hora do Chá",
+				"de": "Teatime"
+			},
+			"effect": {
+				"en": "Each player draws 2 cards.",
+				"fr": "Chaque joueur pioche 2 cartes.",
+				"es": "Cada jugador roba 2 cartas.",
+				"it": "Ciascun giocatore pesca due carte.",
+				"pt": "Cada jogador compra 2 cartas.",
+				"de": "Jeder Spieler zieht 2 Karten."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+	},
+	"dexId": [
+		854
+	],
+	"hp": 30,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Fatalitee",
+		"en": "Sinistea",
+		"es": "Sinistea",
+		"fr": "Théffroi",
+		"it": "Sinistea",
+		"pt": "Sinistea"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

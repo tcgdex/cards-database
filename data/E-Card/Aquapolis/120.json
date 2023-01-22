@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Prenez une carte Énergie de base attachée à l'un de vos Pokémon et attachez-la à un autre de vos Pokémon."
+	},
+	"illustrator": "Mikio Menjo",
+	"name": {
+		"en": "Energy Switch",
+		"fr": "Échange d'énergie"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard2"
+}

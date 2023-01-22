@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyshock",
+				"fr": "Choc psy"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Link Blast",
+				"fr": "Explosion en série"
+			},
+			"effect": {
+				"en": "If Kirlia and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 30 instead of 60.",
+				"fr": "Si Kirlia et le Pokémon Défenseur ont un total d'Énergie différent, les dégâts de base de cette attaque sont de 30 et non de 60."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		281
+	],
+	"evolveFrom": {
+		"en": "Ralts"
+	},
+	"hp": 70,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Kirlia",
+		"fr": "Kirlia"
+	},
+	"rarity": "Uncommon",
+	"set": "ex2",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

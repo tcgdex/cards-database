@@ -1,0 +1,12 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 113,
+	"id": "bw11",
+	"name": {
+		"en": "Legendary Treasures",
+		"pt": "Tesouros Lendários"
+	},
+	"releaseDate": "2013-11-06",
+	"serie": "bw",
+	"tcgOnline": "LTR"
+}

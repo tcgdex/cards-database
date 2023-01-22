@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bug Search",
+				"fr": "Recherche Insecte",
+				"es": "Búsqueda de Bichos",
+				"it": "Coleoricerca",
+				"pt": "Busca de Inseto",
+				"de": "Käfersuche"
+			},
+			"effect": {
+				"en": "Your opponent reveals their hand.",
+				"fr": "Votre adversaire dévoile sa main.",
+				"es": "Tu rival enseña las cartas de su mano.",
+				"it": "Il tuo avversario mostra le carte che ha in mano.",
+				"pt": "Seu oponente revela a própria mão.",
+				"de": "Dein Gegner zeigt dir seine Handkarten."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flap",
+				"fr": "Battement",
+				"es": "Aleteo",
+				"it": "Alabattito",
+				"pt": "Asa",
+				"de": "Flattern"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		396
+	],
+	"hp": 60,
+	"illustrator": "miki kudo",
+	"name": {
+		"de": "Staralili",
+		"en": "Starly",
+		"es": "Starly",
+		"fr": "Étourmi",
+		"it": "Starly",
+		"pt": "Starly"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

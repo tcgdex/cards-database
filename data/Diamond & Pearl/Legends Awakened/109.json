@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sharpen",
+				"fr": "Affûtage"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Nose Poke",
+				"fr": "Coup d'nez"
+			},
+			"effect": {
+				"en": "If Probopass is on your Bench, this attack does 20 damage plus 20 more damage.",
+				"fr": "Si Tarinorme se trouve sur votre Banc, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son nez est un aimant, c'est pourquoi ce Pokémon fait toujours face au nord."
+	},
+	"dexId": [
+		299
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Nosepass",
+		"fr": "Tarinor"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

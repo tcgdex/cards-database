@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Find a Friend"
+			},
+			"effect": {
+				"en": "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "This Pokémon also does 10 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It's very sensitive to danger. The sound of Corviknight's flapping will have Bunnelby digging a hole to hide underground in moments."
+	},
+	"hp": 60,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Scoppel",
+		"en": "Bunnelby",
+		"es": "Bunnelby",
+		"fr": "Sapereau",
+		"it": "Bunnelby",
+		"pt": "Bunnelby"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

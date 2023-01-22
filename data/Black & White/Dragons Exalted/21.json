@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Flame Screen",
+				"fr": "Barrière de Flammes"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				"fr": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flamethrower",
+				"fr": "Lance-Flamme"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to this Pokémon.",
+				"fr": "Défaussez une Énergie attachée à ce Pokémon."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		467
+	],
+	"evolveFrom": {
+		"en": "Magmar",
+		"fr": "Magmar"
+	},
+	"hp": 120,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Magbrant",
+		"en": "Magmortar",
+		"es": "Magmortar",
+		"fr": "Maganon",
+		"it": "Magmortar",
+		"pt": "Magmortar"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

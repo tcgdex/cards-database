@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sputter",
+				"fr": "Crachouilles"
+			},
+			"effect": {
+				"en": "All Pokémon Powers stop working until the end of your next turn.",
+				"fr": "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin de votre prochain tour."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Chaque fois qu'il respire, des braises ardentes tombent de sa bouche et de ses narines."
+	},
+	"dexId": [
+		240
+	],
+	"hp": 30,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Magby",
+		"fr": "Magby"
+	},
+	"rarity": "Rare",
+	"set": "neo1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	]
+}

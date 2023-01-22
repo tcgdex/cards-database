@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Stampede",
+				"fr": "Ruée",
+				"es": "Estampida",
+				"it": "Fuggi Fuggi",
+				"pt": "Estouro",
+				"de": "Zertrampeln"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vice Grip",
+				"fr": "Force Poigne",
+				"es": "Agarre",
+				"it": "Presa",
+				"pt": "Agarramento Viciado",
+				"de": "Klammer"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		98
+	],
+	"hp": 70,
+	"illustrator": "Sekio",
+	"name": {
+		"de": "Krabby",
+		"en": "Krabby",
+		"es": "Krabby",
+		"fr": "Krabby",
+		"it": "Krabby",
+		"pt": "Krabby"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

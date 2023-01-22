@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"en": "Darkness Energy",
+		"fr": "Énergie Darkness de base"
+	},
+	"rarity": "Common",
+	"set": "g1",
+	"stage": "Basic"
+}

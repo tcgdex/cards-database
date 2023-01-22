@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d’Boule",
+				"es": "Golpe Cabeza",
+				"it": "Bottintesta",
+				"pt": "Cabeçada",
+				"de": "Kopfnuss"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Hurl",
+				"fr": "Lance-Pierre",
+				"es": "Lanzamiento de Rocas",
+				"it": "Scaglia Pietre",
+				"pt": "Lançamento de Pedras",
+				"de": "Steinschleuderer"
+			},
+			"effect": {
+				"en": "This attack’s damage isn’t affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				"es": "El daño de este ataque no se ve afectado por Resistencia.",
+				"it": "I danni di questo attacco non sono influenzati dalla resistenza.",
+				"pt": "O dano deste ataque não é afetado por Resistência.",
+				"de": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		525
+	],
+	"evolveFrom": {
+		"en": "Roggenrola",
+		"fr": "Nodulithe"
+	},
+	"hp": 110,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Sedimantur",
+		"en": "Boldore",
+		"es": "Boldore",
+		"fr": "Géolithe",
+		"it": "Boldore",
+		"pt": "Boldore"
+	},
+	"rarity": "Uncommon",
+	"retreat": 4,
+	"set": "sm1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

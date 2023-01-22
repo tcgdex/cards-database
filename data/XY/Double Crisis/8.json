@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Sludge Festival",
+				"fr": "Festival de Boue"
+			},
+			"effect": {
+				"en": "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is Colorless more.",
+				"fr": "Le Coût de Retraite de chaque Pokémon en jeu (à part les Pokémon de la Team Aqua) est augmenté de Colorless."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pester",
+				"fr": "Tarabustage"
+			},
+			"effect": {
+				"en": "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 60 more damage.",
+				"fr": "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 60 dégâts supplémentaires."
+			},
+			"damage": "60＋"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		89
+	],
+	"evolveFrom": {
+		"en": "Team Aqua's Grimer",
+		"fr": "Tadmorv de la Team Aqua"
+	},
+	"hp": 110,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Team Aqua's Muk",
+		"fr": "Grotadmorv de la Team Aqua"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "dc1",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

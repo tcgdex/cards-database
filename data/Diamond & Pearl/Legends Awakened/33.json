@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Healing Tail",
+				"fr": "Queue guérisseuse"
+			},
+			"effect": {
+				"en": "As long as Lopunny is your Active Pokémon, remove 1 damage counter from each of your Benched Pokémon between turns.",
+				"fr": "Tant que Lockpin est votre Pokémon Actif, retirez à chacun de vos Pokémon de Banc 1 marqueur de dégât entre deux tours."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Collect",
+				"fr": "Collectionner"
+			},
+			"effect": {
+				"en": "Draw 3 cards.",
+				"fr": "Piochez 3 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cross-Cut",
+				"fr": "Coupe transversale"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger."
+	},
+	"dexId": [
+		428
+	],
+	"evolveFrom": {
+		"en": "Buneary",
+		"fr": "Haspiror"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Lopunny",
+		"fr": "Lockpin"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

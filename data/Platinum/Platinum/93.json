@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Heal Bell",
+				"fr": "Glas de soin"
+			},
+			"effect": {
+				"en": "Remove 1 damage counter from each of your Pokémon.",
+				"fr": "Retirez à chacun de vos Pokémon 1 marqueur de dégât."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down",
+				"fr": "Bélier"
+			},
+			"effect": {
+				"en": "Skitty does 10 damage to itself.",
+				"fr": "Skitty s'inflige 10 dégâts."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		300
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Skitty",
+		"fr": "Skitty"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

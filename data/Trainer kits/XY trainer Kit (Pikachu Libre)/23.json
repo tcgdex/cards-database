@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Elektek",
+		"en": "Electabuzz",
+		"es": "Electabuzz",
+		"fr": "Élektek",
+		"it": "Electabuzz",
+		"pt": "Electabuzz"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "tk-xy-p",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

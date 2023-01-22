@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 100,
+	"id": "dp5",
+	"name": {
+		"de": "Majestätischer Morgen",
+		"en": "Majestic Dawn",
+		"fr": "Aube Majestueuse",
+		"it": "Alba Suprema"
+	},
+	"releaseDate": "2008-05-01",
+	"serie": "dp",
+	"tcgOnline": "MD"
+}

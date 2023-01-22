@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Corkscrew Punch",
+				"fr": "Poing Tire-Bouchon",
+				"es": "Puño Tirabuzón",
+				"it": "Pugno Rotante",
+				"pt": "Soco Saca-rolha",
+				"de": "Korkenzieherhieb"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Headstrike",
+				"fr": "Coup de Tête",
+				"es": "Testarada",
+				"it": "Testata",
+				"pt": "Golpe de Cabeça",
+				"de": "Kopftreffer"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		408
+	],
+	"evolveFrom": {
+		"en": "Unidentified Fossil",
+		"fr": "Fossile Inconnu"
+	},
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Koknodon",
+		"en": "Cranidos",
+		"es": "Cranidos",
+		"fr": "Kranidos",
+		"it": "Cranidos",
+		"pt": "Cranidos"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "sm5",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

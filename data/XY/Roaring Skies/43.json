@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sweet Kiss",
+				"fr": "Doux Baiser",
+				"es": "Beso Dulce",
+				"it": "Dolcebacio",
+				"pt": "Beijo Doce",
+				"de": "Bitterkuss"
+			},
+			"effect": {
+				"en": "Your opponent draws a card.",
+				"fr": "Votre adversaire pioche une carte.",
+				"es": "Tu rival roba 1 carta.",
+				"it": "Il tuo avversario pesca una carta.",
+				"pt": "Seu oponente compra um card.",
+				"de": "Dein Gegner zieht 1 Karte."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		175
+	],
+	"hp": 40,
+	"illustrator": "HiRON",
+	"name": {
+		"de": "Togepi",
+		"en": "Togepi",
+		"es": "Togepi",
+		"fr": "Togepi",
+		"it": "Togepi",
+		"pt": "Togepi"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy6",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

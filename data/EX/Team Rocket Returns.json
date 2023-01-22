@@ -1,0 +1,12 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 109,
+	"id": "ex7",
+	"name": {
+		"en": "Team Rocket Returns",
+		"pt": "EX O Retorno da Equipe Rocket "
+	},
+	"releaseDate": "2004-11-01",
+	"serie": "ex",
+	"tcgOnline": "RR"
+}

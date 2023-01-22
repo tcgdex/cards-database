@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare",
+				"fr": "Intimidation"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flamethrower",
+				"fr": "Lance-flamme"
+			},
+			"effect": {
+				"en": "Discard an Energy attached to Quilava.",
+				"fr": "Défaussez-vous d’une carte Énergie attachée à Fleurisson."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack."
+	},
+	"dexId": [
+		156
+	],
+	"evolveFrom": {
+		"en": "Cyndaquil",
+		"fr": "Héricendre"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Quilava",
+		"fr": "Fleurisson"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

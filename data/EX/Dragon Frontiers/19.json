@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Lap Up",
+				"fr": "Gober"
+			},
+			"effect": {
+				"en": "Draw 2 cards.",
+				"fr": "Piochez 2 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Delta Mind",
+				"fr": "Esprit Delta"
+			},
+			"effect": {
+				"en": "Put 1 damage counter on 1 of your opponent's Pokémon. If that Pokémon has δ on its card, put 3 damage counters instead.",
+				"fr": "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire. Si ce Pokémon possède le symbole δ, placez 3 marqueurs de dégât au lieu d'1."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		108
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Lickitung δ",
+		"fr": "Excelangue δ ESPÈCES DELTA"
+	},
+	"rarity": "Rare",
+	"set": "ex15",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Bite"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Crushing Blow"
+			},
+			"damage": 40,
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow."
+	},
+	"evolveFrom": {
+		"en": "Impidimp",
+		"fr": "Grimalin",
+		"es": "Impidimp",
+		"it": "Impidimp",
+		"pt": "Impidimp",
+		"de": "Bähmon"
+	},
+	"hp": 90,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Pelzebub",
+		"en": "Morgrem",
+		"es": "Morgrem",
+		"fr": "Fourbelin",
+		"it": "Morgrem",
+		"pt": "Morgrem"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Natural Cure",
+				"fr": "Medic Nature"
+			},
+			"effect": {
+				"en": "When you attach a Fire Energy card from your hand to Combusken, remove all Special Conditions from Combusken.",
+				"fr": "Lorsque vous attachez une carte Énergie  de votre main à Galifeu, retirez-lui tous ses États Spéciaux."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunge",
+				"fr": "Coup rapide"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		256
+	],
+	"evolveFrom": {
+		"en": "Torchic"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Combusken",
+		"fr": "Galifeu"
+	},
+	"rarity": "Uncommon",
+	"set": "ex16",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

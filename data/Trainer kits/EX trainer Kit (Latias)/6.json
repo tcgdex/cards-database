@@ -1,0 +1,28 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"name": {
+				"en": "Lunge"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Skitty"
+	},
+	"rarity": "None",
+	"set": "tk-ex-latia",
+	"stage": "Basic"
+}

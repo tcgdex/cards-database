@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Tongue Slap"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wave Splash"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
+	},
+	"hp": 70,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Muschas",
+		"en": "Shellder",
+		"es": "Shellder",
+		"fr": "Kokiyas",
+		"it": "Shellder",
+		"pt": "Shellder"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

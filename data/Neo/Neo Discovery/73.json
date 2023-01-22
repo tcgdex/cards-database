@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez 1 de vos Pokémon évolués. Prenez la carte Évolution de niveau le plus élevé de ce Pokémon et replacez-la dans votre main. (Vous ne pouvez pas faire évoluer un Pokémon pendant le tour où il est rétrogradé.)"
+	},
+	"name": {
+		"en": "Hyper Devolution Spray",
+		"fr": "Vaporisateur hyper rétrograde"
+	},
+	"rarity": "Uncommon",
+	"set": "neo2"
+}

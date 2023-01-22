@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Bandeau de concentration à 1 de vos Pokémon qui n'a pas d'Outil Pokémon attaché sur lui.\n\nSi le Pokémon auquel est attaché Bandeau de concentration est mis K.O. par l'attaque de votre adversaire, lancez une pièce. Si c'est face, ce Pokémon n'est pas K.O. et il lui reste 10 PV. Ensuite, défaussez Bandeau de concentration."
+	},
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Focus Band",
+		"fr": "Bandeau"
+	},
+	"rarity": "Rare",
+	"set": "neo1"
+}

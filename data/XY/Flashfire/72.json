@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Gooey",
+				"fr": "Poisseux",
+				"es": "Baba",
+				"it": "Viscosità",
+				"pt": "Pegajoso",
+				"de": "Viskosität"
+			},
+			"effect": {
+				"en": "Heal 10 damage from this Pokémon.",
+				"fr": "Soignez 10 dégâts à ce Pokémon.",
+				"es": "Cura 10 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 10 danni.",
+				"pt": "Cure 30 de danos deste Pokémon.",
+				"de": "Heile 10 Schadenspunkte bei diesem Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Fairy"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		704
+	],
+	"hp": 50,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Viscora",
+		"en": "Goomy",
+		"es": "Goomy",
+		"fr": "Mucuscule",
+		"it": "Goomy",
+		"pt": "Goomy"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy2",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

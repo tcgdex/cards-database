@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Growl"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance)."
+			}
+		},
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Tiny Bolt"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
+	},
+	"hp": 60,
+	"illustrator": "kodama",
+	"name": {
+		"de": "Toxel",
+		"en": "Toxel",
+		"es": "Toxel",
+		"fr": "Toxizap",
+		"it": "Toxel",
+		"pt": "Toxel"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Les cartes Outil Pokémon en jeu (les vôtres et celles de votre adversaire) n’ont aucun effet.",
+		"en": "Pokémon Tool cards in play (both yours and your opponent’s) have no effect.",
+		"es": "Las cartas de Herramienta Pokémon en juego (tanto tuyas como de tu rival) no tienen efecto.",
+		"it": "Le carte Oggetto Pokémon in gioco, sia tue che del tuo avversario, non hanno effetto.",
+		"pt": "Cartas de Ferramenta Pokémon em jogo (suas e do seu oponente) não têm efeito.",
+		"de": "Pokémon-Ausrüstungen im Spiel (deine und die deines Gegners) haben keinen Effekt."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Labor von Flordelis",
+		"en": "Lysandre Labs",
+		"es": "Laboratorios Lysson",
+		"fr": "Labos Lysandre",
+		"it": "Laboratori Elisio",
+		"pt": "Laboratórios Lysandre"
+	},
+	"rarity": "Uncommon",
+	"set": "sm6",
+	"trainerType": "Stadium"
+}

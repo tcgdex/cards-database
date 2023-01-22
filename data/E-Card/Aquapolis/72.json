@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Teary Eyes",
+				"fr": "Des larmes dans les yeux"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20.",
+				"fr": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à Osselait par des attaques sont réduits de 20."
+			}
+		},
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		104
+	],
+	"hp": 40,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Cubone",
+		"fr": "Osselait"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-30"
+		}
+	],
+	"set": "ecard2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

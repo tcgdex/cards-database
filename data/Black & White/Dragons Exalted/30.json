@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Ball",
+				"fr": "Ball'Glace"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aurora Beam",
+				"fr": "Onde Boréale"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		364
+	],
+	"evolveFrom": {
+		"en": "Spheal",
+		"fr": "Obalie"
+	},
+	"hp": 80,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Seejong",
+		"en": "Sealeo",
+		"es": "Sealeo",
+		"fr": "Phogleur",
+		"it": "Sealeo",
+		"pt": "Sealeo"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

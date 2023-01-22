@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c’est face, piochez 3 cartes. Si c’est pile, piochez 2 cartes.",
+		"en": "Flip a coin. If heads, draw 3 cards. If tails, draw 2 cards."
+	},
+	"hp": 0,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Emcee’s Chatter",
+		"fr": "Bavardage du maître"
+	},
+	"rarity": "Uncommon",
+	"set": "hgss2",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

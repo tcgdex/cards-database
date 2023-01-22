@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Shear",
+				"fr": "Prospection"
+			},
+			"effect": {
+				"en": "Discard the top 5 cards of your deck. If any of those cards are Fighting Energy cards, attach them to this Pokémon.",
+				"fr": "Défaussez les 5 cartes du dessus de votre deck. Si vous y trouvez des cartes Énergie Fighting, attachez-les à ce Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Bullet",
+				"fr": "Fronde"
+			},
+			"effect": {
+				"en": "Does 20 more damage for each Fighting Energy attached to this Pokémon.",
+				"fr": "Inflige 20 dégâts supplémentaires pour chaque Énergie Fighting attachée à ce Pokémon."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		526
+	],
+	"evolveFrom": {
+		"en": "Boldore",
+		"fr": "Géolithe"
+	},
+	"hp": 140,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Brockoloss",
+		"en": "Gigalith",
+		"es": "Gigalith",
+		"fr": "Gigalithe",
+		"it": "Gigalith",
+		"pt": "Gigalith"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bw2",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

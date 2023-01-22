@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Poison Sting",
+				"fr": "Dard-Venin"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		331
+	],
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Tuska",
+		"en": "Cacnea",
+		"es": "Cacnea",
+		"fr": "Cacnea",
+		"it": "Cacnea",
+		"pt": "Cacnea"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

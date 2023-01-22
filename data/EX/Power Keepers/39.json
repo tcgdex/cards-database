@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rage",
+				"fr": "Frénésie"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each damage counter on Shelgon.",
+				"fr": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Drackhaus."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rolling Tackle",
+				"fr": "Roulé-boulé"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		372
+	],
+	"evolveFrom": {
+		"en": "Bagon"
+	},
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Shelgon",
+		"fr": "Drackhaus"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fire",
+			"value": "-30"
+		},
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex16",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

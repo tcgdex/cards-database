@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Water",
+				"Lightning"
+			],
+			"name": {
+				"en": "Elemental Blast",
+				"fr": "Explosion élémentaire"
+			},
+			"effect": {
+				"en": "Discard a Energy card, a Energy card, and a Energy card attached to Lugia in order to use this attack.",
+				"fr": "Défaussez une carte Énergie , une carte Énergie  et une carte Énergie  attachées à Lugia pour pouvoir utiliser cette attaque."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "On prétend qu'il passe le plus clair de son temps au fond des mers, car ses pouvoirs sont trop puissants."
+	},
+	"dexId": [
+		249
+	],
+	"hp": 90,
+	"illustrator": "Hironobu Yoshida",
+	"name": {
+		"en": "Lugia",
+		"fr": "Lugia"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "neo1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

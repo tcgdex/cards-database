@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tongue Slap",
+				"fr": "Gros Coup de Langue",
+				"es": "Bofetón Lengua",
+				"it": "Linguasberla",
+				"pt": "Tapa de Língua",
+				"de": "Zungenschelle"
+			},
+			"damage": 50,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncement",
+				"es": "Martillear",
+				"it": "Martello",
+				"pt": "Martelada",
+				"de": "Einhämmern"
+			},
+			"damage": 80,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable."
+	},
+	"hp": 110,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Schlurp",
+		"en": "Lickitung",
+		"es": "Lickitung",
+		"fr": "Excelangue",
+		"it": "Lickitung",
+		"pt": "Lickitung"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

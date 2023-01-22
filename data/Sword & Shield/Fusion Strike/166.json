@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Severe Poison"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 4 damage counters on that Pokémon instead of 1."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magnum Punch"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It booms out a victory croak when its prey goes down in defeat. This Pokémon and Seismitoad are related species."
+	},
+	"evolveFrom": {
+		"en": "Croagunk",
+		"fr": "Cradopaud",
+		"es": "Croagunk",
+		"it": "Croagunk",
+		"pt": "Croagunk",
+		"de": "Glibunkel"
+	},
+	"hp": 110,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Toxiquak",
+		"en": "Toxicroak",
+		"es": "Toxicroak",
+		"fr": "Coatox",
+		"it": "Toxicroak",
+		"pt": "Toxicroak"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Chaque joueur récupère l’un de ses Pokémon de Banc dans sa main, ainsi que toutes les cartes qui lui sont attachées. (Vous récupérez votre Pokémon en premier.)",
+		"en": "Each player returns 1 of his or her Benched Pokémon and all cards attached to it to his or her hand. (You return your Pokémon first."
+	},
+	"hp": 0,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Seeker",
+		"fr": "Détecteur"
+	},
+	"rarity": "Uncommon",
+	"set": "hgss4",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

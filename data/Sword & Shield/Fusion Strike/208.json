@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rear Kick"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wild Dive"
+			},
+			"damage": "30×",
+			"effect": {
+				"en": "This attack does 30 damage for each Energy attached to your opponent's Active Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The curved antlers subtly change the flow of air to create a strange space where reality is distorted."
+	},
+	"hp": 110,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Damhirplex",
+		"en": "Stantler",
+		"es": "Stantler",
+		"fr": "Cerfrousse",
+		"it": "Stantler",
+		"pt": "Stantler"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

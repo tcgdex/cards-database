@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Gold Rush"
+			},
+			"damage": "30×",
+			"effect": {
+				"en": "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate."
+	},
+	"hp": 60,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"en": "Alolan Dugtrio"
+	},
+	"rarity": "None",
+	"set": "2019sm",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

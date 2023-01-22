@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Ronge",
+				"en": "Gnaw",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 20,
+			"cost": [
+				"Grass"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
+	},
+	"hp": 50,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Sensect",
+		"en": "Blipbug",
+		"es": "Blipbug",
+		"fr": "Larvadar",
+		"it": "Blipbug",
+		"pt": "Blipbug"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

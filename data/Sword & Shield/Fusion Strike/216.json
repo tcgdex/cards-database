@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flying Stomp"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Discard a Special Energy from your opponent's Active Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack."
+	},
+	"hp": 90,
+	"illustrator": "Taira Akitsu",
+	"name": {
+		"de": "Resladero",
+		"en": "Hawlucha",
+		"es": "Hawlucha",
+		"fr": "Brutalibré",
+		"it": "Hawlucha",
+		"pt": "Hawlucha"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

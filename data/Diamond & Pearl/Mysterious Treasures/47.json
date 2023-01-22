@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Snake Hook",
+				"fr": "Crochet de serpent"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte."
+			}
+		},
+		{
+			"name": {
+				"en": "Bite and Run",
+				"fr": "Mordre et courrir"
+			},
+			"effect": {
+				"en": "Switch Dunsparce with 1 of your Benched Pokémon.",
+				"fr": "Échangez Insolourdo avec 1 de vos Pokémon de Banc."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler."
+	},
+	"dexId": [
+		206
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Dunsparce",
+		"fr": "Insolourdo"
+	},
+	"rarity": "Uncommon",
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

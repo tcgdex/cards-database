@@ -1,0 +1,39 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sweet Sleeping Face"
+			},
+			"effect": {
+				"en": "As long as Magby is Asleep, prevent all damage done to Magby by attacks."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Play with Fire"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned. Magby is now Asleep."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		240
+	],
+	"hp": 30,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Magby"
+	},
+	"rarity": "Uncommon",
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	]
+}

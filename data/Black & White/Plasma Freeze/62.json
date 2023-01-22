@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Continuous Slap",
+				"fr": "Gifles Sans Fin"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncer"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		296
+	],
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Makuhita",
+		"en": "Makuhita",
+		"es": "Makuhita",
+		"fr": "Makuhita",
+		"it": "Makuhita",
+		"pt": "Makuhita"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

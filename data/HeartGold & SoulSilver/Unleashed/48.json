@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lightning Ball",
+				"fr": "Boule éclair"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
+	},
+	"dexId": [
+		170
+	],
+	"hp": 60,
+	"illustrator": "sui",
+	"name": {
+		"en": "Chinchou",
+		"fr": "Loupio"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss2",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

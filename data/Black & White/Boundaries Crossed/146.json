@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Stream",
+				"fr": "Flux Draconique"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, attach a basic Energy card from your discard pile to this Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, attachez une carte Énergie de base de votre pile de défausse à ce Pokémon."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Burn",
+				"fr": "Feu Glacé"
+			},
+			"effect": {
+				"en": "Discard 2 Fire Energy attached to this Pokémon. The Defending Pokémon is now Burned.",
+				"fr": "Défaussez 2 Énergies Fire attachées à ce Pokémon. Le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		646
+	],
+	"hp": 180,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Weißes Kyurem-EX",
+		"en": "White Kyurem-EX",
+		"es": "Kyurem Blanco-EX",
+		"fr": "Kyurem Blanc EX",
+		"it": "Kyurem Bianco-EX",
+		"pt": "Kyurem Branco-EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 3,
+	"set": "bw7",
+	"suffix": "EX",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "If you have any cards in your hand, shuffle 1 of them into your deck, then draw 3 cards."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Bill’s Maintenance"
+	},
+	"rarity": "Uncommon",
+	"set": "pop5",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Scrounge",
+				"fr": "Fouissage",
+				"es": "Rebuscar",
+				"it": "Sbafo",
+				"pt": "Vasculhada",
+				"de": "Abstauben"
+			},
+			"effect": {
+				"en": "Put a Pokémon Tool card from your discard pile into your hand.",
+				"fr": "Ajoutez une carte Outil Pokémon de votre pile de défausse à votre main.",
+				"es": "Pon 1 carta de Herramienta Pokémon de tu pila de descartes en tu mano.",
+				"it": "Prendi una carta Oggetto Pokémon dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+				"pt": "Coloque uma carta de Ferramenta Pokémon da sua pilha de descarte na sua mão.",
+				"de": "Nimm 1 Pokémon-Ausrüstung aus deinem Ablagestapel auf deine Hand."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries."
+	},
+	"hp": 60,
+	"illustrator": "OKACHEKE",
+	"name": {
+		"de": "Raffel",
+		"en": "Skwovet",
+		"es": "Skwovet",
+		"fr": "Rongourmand",
+		"it": "Skwovet",
+		"pt": "Skwovet"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Piochez 2 cartes."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Bill",
+		"fr": "Léo"
+	},
+	"rarity": "Common",
+	"set": "base1"
+}

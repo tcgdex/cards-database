@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Icy Wind"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blizzard Loop"
+			},
+			"damage": 160,
+			"effect": {
+				"en": "Put all Energy attached to this Pokémon into your hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away."
+	},
+	"evolveFrom": {
+		"en": "Snom",
+		"fr": "Frissonille",
+		"es": "Snom",
+		"it": "Snom",
+		"pt": "Snom",
+		"de": "Snomnom"
+	},
+	"hp": 90,
+	"illustrator": "chibi",
+	"name": {
+		"de": "Mottineva",
+		"en": "Frosmoth",
+		"es": "Frosmoth",
+		"fr": "Beldeneige",
+		"it": "Frosmoth",
+		"pt": "Frosmoth"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

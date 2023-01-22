@@ -1,0 +1,10 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 10,
+	"id": "sp",
+	"name": {
+		"en": "Sample"
+	},
+	"releaseDate": "2002-08-01",
+	"serie": "ecard"
+}

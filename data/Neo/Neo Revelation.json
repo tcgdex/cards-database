@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 64,
+	"id": "neo3",
+	"name": {
+		"de": "Neo Revelation",
+		"en": "Neo Revelation",
+		"fr": "Neo Revelation",
+		"it": "Neo Revelation"
+	},
+	"releaseDate": "2001-09-21",
+	"serie": "neo",
+	"tcgOnline": "N3"
+}

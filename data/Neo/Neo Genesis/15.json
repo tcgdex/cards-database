@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Crush",
+				"fr": "Ecras'queue"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires ; si c'est pile cette attaque inflige 30 dégâts."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son corps a été compressé à une profondeur incroyable. Il en résulte qu'il est plus dur que le diamant."
+	},
+	"dexId": [
+		208
+	],
+	"evolveFrom": {
+		"en": "Onix"
+	},
+	"hp": 110,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Steelix",
+		"fr": "Steelix"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"set": "neo1",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nChaque Pokémon dont le nom ne comporte pas Team Aqua doit payer un  supplémentaire pour battre en retraite."
+	},
+	"illustrator": "Hiromichi Sugiyama",
+	"name": {
+		"en": "Team Aqua Hideout",
+		"fr": "Cachette de Team Aqua"
+	},
+	"rarity": "Uncommon",
+	"set": "ex4",
+	"trainerType": "Stadium"
+}

@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Underwater Dive",
+				"fr": "Plongée sous-marine"
+			},
+			"effect": {
+				"en": "Flip 2 coins. For each heads, remove 3 damage counters from Wailord.",
+				"fr": "Lancez 2 pièces. Pour chaque côté face, retirez 3 marqueurs de dégât à Wailord."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Swallow Up",
+				"fr": "Engloutir"
+			},
+			"effect": {
+				"en": "Before doing damage, count the remaining HP of the Defending Pokémon and Wailord. If the Defending Pokémon has fewer remaining HP than Wailord, this attack does 50 damage plus 50 more damage.",
+				"fr": "Avant d’infliger des dégâts, comptez les PV restant au Pokémon Défenseur et à Wailord. S’il reste moins de PV au Pokémon Défenseur qu’à Wailord, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires."
+			},
+			"damage": "50+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is the largest of all identified Pokémon. They jump as a pack to herd their prey."
+	},
+	"dexId": [
+		321
+	],
+	"evolveFrom": {
+		"en": "Wailmer",
+		"fr": "Wailmer"
+	},
+	"hp": 180,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Wailord",
+		"fr": "Wailord"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

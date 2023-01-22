@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Precognitive Aura",
+				"fr": "Aura Prémonitoire"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), if you have Garchomp in play, you may search your deck for a card and put it into your hand. Then, shuffle your deck.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), si vous avez Carchacrok en jeu, vous pouvez chercher une carte dans votre deck puis l’ajouter à votre main. Mélangez ensuite votre deck."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Missile Jab",
+				"fr": "Coup Propulsé"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		448
+	],
+	"evolveFrom": {
+		"en": "Riolu",
+		"fr": "Riolu"
+	},
+	"hp": 110,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Lucario",
+		"fr": "Lucario"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sma",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Jab"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Special Punch"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Hitmonchan"
+	},
+	"rarity": "None",
+	"set": "bog",
+	"stage": "Basic"
+}

@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Low Kick",
+				"fr": "Balayage",
+				"es": "Patada Baja",
+				"it": "Colpo Basso",
+				"pt": "Rasteira",
+				"de": "Fußkick"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Territorial Strike",
+				"fr": "Frappe Territoriale",
+				"es": "Golpe Territorial",
+				"it": "Attacco Limitrofo",
+				"pt": "Golpe Territorial",
+				"de": "Revierschlag"
+			},
+			"effect": {
+				"en": "If you don’t have a Stadium card in play, this attack does nothing.",
+				"fr": "Si vous n’avez pas de carte Stade en jeu, cette attaque ne fait rien.",
+				"es": "Si no tienes 1 carta de Estadio en juego, este ataque no hace nada.",
+				"it": "Se non hai una carta Stadio in gioco, questo attacco non ha effetto.",
+				"pt": "Se você não tiver uma carta de Estádio em jogo, este ataque não fará nada.",
+				"de": "Wenn du keine Stadionkarte im Spiel hast, hat diese Attacke keine Auswirkungen."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		185
+	],
+	"hp": 110,
+	"name": {
+		"de": "Mogelbaum",
+		"en": "Sudowoodo",
+		"es": "Sudowoodo",
+		"fr": "Simularbre",
+		"it": "Sudowoodo",
+		"pt": "Sudowoodo"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

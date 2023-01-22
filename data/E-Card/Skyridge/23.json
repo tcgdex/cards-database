@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Primal Stare"
+			},
+			"effect": {
+				"en": "As long as Omastar is your Active Pokémon, your opponent can't play Basic Pokémon or Evolution cards from his or her hand to evolve his or her Active Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spook"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		139
+	],
+	"evolveFrom": {
+		"en": "Omanyte"
+	},
+	"hp": 90,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Omastar"
+	},
+	"rarity": "Rare",
+	"set": "ecard3",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

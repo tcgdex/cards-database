@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Triple Spin"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 20 damage times the number of heads."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Frost Breath"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		583
+	],
+	"evolveFrom": {
+		"en": "Vanillite"
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Gelatroppo",
+		"en": "Vanillish",
+		"es": "Vanillish",
+		"fr": "Sorboul",
+		"it": "Vanillish",
+		"pt": "Vanillish"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

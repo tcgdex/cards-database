@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Smack",
+				"fr": "Coup de Queue",
+				"es": "Bofetón Cola",
+				"it": "Codasberla",
+				"pt": "Ataque de Cauda",
+				"de": "Schweifstreich"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		572
+	],
+	"hp": 50,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Picochilla",
+		"en": "Minccino",
+		"es": "Minccino",
+		"fr": "Chinchidou",
+		"it": "Minccino",
+		"pt": "Minccino"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy10",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

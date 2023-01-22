@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Swaddle Guard",
+				"fr": "Layette Protectrice"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).",
+				"fr": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance)."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surprise Attack",
+				"fr": "Attaque Surprise"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		541
+	],
+	"evolveFrom": {
+		"en": "Sewaddle",
+		"fr": "Larveyette"
+	},
+	"hp": 80,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Folikon",
+		"en": "Swadloon",
+		"es": "Swadloon",
+		"fr": "Couverdure",
+		"it": "Swadloon",
+		"pt": "Swadloon"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Discharge",
+				"fr": "Coup d'Jus"
+			},
+			"effect": {
+				"en": "Discard all Lightning Energy attached to this Pokémon. This attack does 30 damage times the number of Energy cards you discarded.",
+				"fr": "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Signal Beam",
+				"fr": "Rayon Signal"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		596
+	],
+	"evolveFrom": {
+		"en": "Joltik",
+		"fr": "Statitik"
+	},
+	"hp": 80,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"de": "Voltula",
+		"en": "Galvantula",
+		"es": "Galvantula",
+		"fr": "Mygavolt",
+		"it": "Galvantula",
+		"pt": "Galvantula"
+	},
+	"rarity": "Uncommon",
+	"retreat": 0,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

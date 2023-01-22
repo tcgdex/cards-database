@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crushing Punch",
+				"fr": "Poing Dévastateur",
+				"es": "Puñetazo Devastador",
+				"it": "Pugno Spaccatutto",
+				"pt": "Soco Esmagador",
+				"de": "Schmetterhieb"
+			},
+			"effect": {
+				"en": "Discard a Special Energy from your opponent's Active Pokémon.",
+				"fr": "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				"es": "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
+				"it": "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
+				"pt": "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
+				"de": "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cyclone Kick",
+				"fr": "Pied Cyclone",
+				"es": "Patada Ciclón",
+				"it": "Calciovento",
+				"pt": "Chute Ciclone",
+				"de": "Wirbeltritt"
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"hp": 210,
+	"name": {
+		"de": "Lucario V",
+		"en": "Lucario V",
+		"es": "Lucario V",
+		"fr": "Lucario V",
+		"it": "Lucario V",
+		"pt": "Lucario V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "F",
+	"retreat": 2,
+	"set": "swsh10",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

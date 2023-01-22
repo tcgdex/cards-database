@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Les Pokémon Grass de base et les Pokémon Lightning de base (les vôtres et ceux de votre adversaire) reçoivent 30 dégâts de moins des attaques de l’adversaire (après application de la Faiblesse et de la Résistance)."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Aether Paradise Conservation Area",
+		"fr": "Réserve Naturelle du Paradis Æther"
+	},
+	"rarity": "Common",
+	"set": "sma",
+	"trainerType": "Stadium"
+}

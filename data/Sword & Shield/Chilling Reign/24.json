@@ -1,0 +1,86 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise",
+				"es": "Combustión",
+				"it": "Fuoco Continuo",
+				"pt": "Combustão",
+				"de": "Glühen"
+			},
+			"damage": 50,
+			"cost": [
+				"Fire",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Fire Spin",
+				"fr": "Danse Flammes",
+				"es": "Giro Fuego",
+				"it": "Turbofuoco",
+				"pt": "Chama Furacão",
+				"de": "Feuerwirbel"
+			},
+			"effect": {
+				"en": "Discard 2 Energy from this Pokémon.",
+				"fr": "Défaussez 2 Énergies de ce Pokémon.",
+				"es": "Descarta 2 Energías de este Pokémon.",
+				"it": "Scarta due Energie da questo Pokémon.",
+				"pt": "Descarte 2 Energias deste Pokémon.",
+				"de": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 170,
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "According to legends, it was hatched from a flaming cocoon to save people and Pokémon that were suffering from the cold."
+	},
+	"evolveFrom": {
+		"en": "Larvesta",
+		"fr": "Pyronille",
+		"es": "Larvesta",
+		"it": "Larvesta",
+		"pt": "Larvesta",
+		"de": "Ignivor"
+	},
+	"hp": 130,
+	"illustrator": "Mika Pikazo",
+	"name": {
+		"de": "Ramoth",
+		"en": "Volcarona",
+		"es": "Volcarona",
+		"fr": "Pyrax",
+		"it": "Volcarona",
+		"pt": "Volcarona"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh6",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Slam"
+			},
+			"damage": "20×",
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage times the number of heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter."
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Snivy"
+	},
+	"rarity": "None",
+	"set": "2011bw",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

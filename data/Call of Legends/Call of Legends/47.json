@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sweet Sleeping Face",
+				"fr": "Joli visage endormi"
+			},
+			"effect": {
+				"en": "As long as Mime Jr. is Asleep, prevent all damage done to Mime Jr. by attacks.",
+				"fr": "Tant que Mime Jr. est Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Sleepy Lost",
+				"fr": "Berceuse perdue"
+			},
+			"effect": {
+				"en": "Put the top card of your opponent's deck in the Lost Zone. Mime Jr. is now Asleep.",
+				"fr": "Placez la carte du dessus du deck de votre adversaire dans la Zone Perdue. Mime Jr. est maintenant Endormi."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		439
+	],
+	"hp": 30,
+	"illustrator": "Noriko Hotta",
+	"name": {
+		"en": "Mime Jr.",
+		"fr": "Mime Jr."
+	},
+	"rarity": "Uncommon",
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	]
+}

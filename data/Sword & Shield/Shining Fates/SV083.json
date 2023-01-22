@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Bataille",
+				"en": "Beat",
+				"es": "Toque",
+				"it": "Battuta",
+				"pt": "Pulso",
+				"de": "Verprügler"
+			},
+			"damage": 10,
+			"cost": [
+				"Darkness"
+			]
+		},
+		{
+			"name": {
+				"fr": "Ruée",
+				"en": "Stampede",
+				"es": "Estampida",
+				"it": "Fuggi Fuggi",
+				"pt": "Estouro",
+				"de": "Zertrampeln"
+			},
+			"damage": 20,
+			"cost": [
+				"Darkness",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy."
+	},
+	"hp": 70,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Bähmon",
+		"en": "Impidimp",
+		"es": "Impidimp",
+		"fr": "Grimalin",
+		"it": "Impidimp",
+		"pt": "Impidimp"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

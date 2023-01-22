@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Shred"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Max Phantom"
+			},
+			"effect": {
+				"en": "Put 5 damage counters on your opponent's Benched Pokémon in any way you like."
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		887
+	],
+	"evolveFrom": {
+		"en": "Dragapult V"
+	},
+	"hp": 320,
+	"illustrator": "aky CG Works",
+	"name": {
+		"en": "Dragapult VMAX"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "VMAX",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Feuer-Energie",
+		"en": "Fire Energy",
+		"es": "Energía Fuego",
+		"fr": "Énergie Feu",
+		"it": "Energia Fuoco",
+		"pt": "Energia de Fogo"
+	},
+	"rarity": "Secret Rare",
+	"set": "swsh8"
+}

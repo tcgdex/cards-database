@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		515
+	],
+	"hp": 70,
+	"illustrator": "Reiko Tanoue",
+	"name": {
+		"de": "Sodamak",
+		"en": "Panpour",
+		"es": "Panpour",
+		"fr": "Flotajou",
+		"it": "Panpour",
+		"pt": "Panpour"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

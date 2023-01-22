@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Pierce",
+				"fr": "Transpercement",
+				"es": "Perforar",
+				"it": "Perforare",
+				"pt": "Perfurar",
+				"de": "Durchbohren"
+			},
+			"damage": 20,
+			"cost": [
+				"Grass"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+	},
+	"hp": 40,
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"de": "Hornliu",
+		"en": "Weedle",
+		"es": "Weedle",
+		"fr": "Aspicot",
+		"it": "Weedle",
+		"pt": "Weedle"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

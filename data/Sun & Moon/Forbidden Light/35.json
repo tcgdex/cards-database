@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Zap Cannon",
+				"fr": "Élecanon",
+				"es": "Electrocañón",
+				"it": "Falcecannone",
+				"pt": "Canhão Zap",
+				"de": "Blitzkanone"
+			},
+			"effect": {
+				"en": "This Pokémon can’t use Zap Cannon during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
+				"es": "Este Pokémon no puede usar Electrocañón durante tu próximo turno.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può usare Falcecannone.",
+				"pt": "Este Pokémon não poderá usar Canhão Zap durante a sua próxima vez de jogar.",
+				"de": "Dieses Pokémon kann Blitzkanone während deines nächsten Zuges nicht einsetzen."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		82
+	],
+	"evolveFrom": {
+		"en": "Magnemite",
+		"fr": "Magnéti"
+	},
+	"hp": 90,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Magneton",
+		"en": "Magneton",
+		"es": "Magneton",
+		"fr": "Magnéton",
+		"it": "Magneton",
+		"pt": "Magneton"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sm6",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

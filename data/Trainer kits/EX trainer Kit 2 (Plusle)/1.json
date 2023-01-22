@@ -1,0 +1,29 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Call for Family"
+			},
+			"effect": {
+				"en": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+			}
+		},
+		{
+			"name": {
+				"en": "Metal Ball"
+			},
+			"effect": {
+				"en": "Put 1 damage counter on the Defending Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Beldum"
+	},
+	"rarity": "None",
+	"set": "tk-ex-p",
+	"stage": "Basic"
+}

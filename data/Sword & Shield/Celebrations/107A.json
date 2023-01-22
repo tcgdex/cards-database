@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Exoskeleton"
+			},
+			"effect": {
+				"en": "Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Earthquake"
+			},
+			"effect": {
+				"en": "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 60,
+			"cost": [
+				"Fighting"
+			]
+		},
+		{
+			"name": {
+				"en": "Heavy Impact"
+			},
+			"damage": 90,
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"hp": 120,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Donphan"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "cel25",
+	"stage": "Stage1",
+	"suffix": "Prime",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

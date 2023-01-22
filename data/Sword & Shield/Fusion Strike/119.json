@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Chomp Chomp Hold"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "During your opponent's next turn, the Defending Pokémon's attacks cost Colorless more, and its Retreat Cost is Colorless more."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
+	},
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Flunkifer",
+		"en": "Mawile",
+		"es": "Mawile",
+		"fr": "Mysdibule",
+		"it": "Mawile",
+		"pt": "Mawile"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hot Lick"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Durant, this attack does 50 more damage."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Firebreathing"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		631
+	],
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Furnifraß",
+		"en": "Heatmor",
+		"es": "Heatmor",
+		"fr": "Aflamanoir",
+		"it": "Heatmor",
+		"pt": "Heatmor"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

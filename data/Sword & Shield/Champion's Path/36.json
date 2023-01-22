@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double-Edge",
+				"fr": "Damoclès",
+				"es": "Doble Filo",
+				"it": "Sdoppiatore",
+				"pt": "Faca de Dois Gumes",
+				"de": "Risikotackle"
+			},
+			"effect": {
+				"en": "This Pokémon also does 20 damage to itself.",
+				"fr": "Ce Pokémon s'inflige aussi 20 dégâts.",
+				"es": "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+				"it": "Questo Pokémon infligge anche 20 danni a se stesso.",
+				"pt": "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+				"de": "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully."
+	},
+	"evolveFrom": {
+		"en": "Galarian Zigzagoon",
+		"fr": "Zigzaton de Galar"
+	},
+	"hp": 100,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Galar-Geradaks",
+		"en": "Galarian Linoone",
+		"es": "Linoone de Galar",
+		"fr": "Linéon de Galar",
+		"it": "Linoone di Galar",
+		"pt": "Linoone de Galar"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh3.5",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

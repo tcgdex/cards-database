@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leaf Refresh",
+				"fr": "Feuille revigorante"
+			},
+			"effect": {
+				"en": "Remove 3 damage counters from each of your Benched Pokémon.",
+				"fr": "Retirez 3 marqueurs de dégât à chacun des Pokémon de votre Banc."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		493
+	],
+	"hp": 90,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Arceus",
+		"fr": "Arceus"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

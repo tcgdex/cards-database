@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Zzzt",
+				"fr": "Bzzz",
+				"es": "Bzzz",
+				"it": "Bzzz",
+				"pt": "Bzzz",
+				"de": "Piiieks"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Powerful Needles",
+				"fr": "Piquants Puissants",
+				"es": "Espinas Poderosas",
+				"it": "Spine Poderose",
+				"pt": "Espinhos Poderosos",
+				"de": "Kräftige Stacheln"
+			},
+			"effect": {
+				"en": "Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads.",
+				"fr": "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 60 dégâts pour chaque côté face.",
+				"es": "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 60 puntos de daño por cada cara.",
+				"it": "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 60 danni ogni volta che esce testa.",
+				"pt": "Jogue 1 moeda para cada Energia ligada a este Pokémon. Este ataque causa 60 pontos de dano para cada cara.",
+				"de": "Wirf für jede an dieses Pokémon angelegte Energie 1 Münze. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
+			},
+			"damage": "60×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "With noises that could be mistaken for the rattles of maracas, it creates an upbeat rhythm, startling bird Pokémon and making them fly off in a hurry."
+	},
+	"dexId": [
+		556
+	],
+	"hp": 110,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Maracamba",
+		"en": "Maractus",
+		"es": "Maractus",
+		"fr": "Maracachi",
+		"it": "Maractus",
+		"pt": "Maractus"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Shred"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Beam"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		445
+	],
+	"hp": 180,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Garchomp-EX"
+	},
+	"rarity": "Common",
+	"set": "xyp",
+	"suffix": "EX",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

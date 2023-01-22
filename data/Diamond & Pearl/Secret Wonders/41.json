@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Plant Cloak",
+				"fr": "Cape Plante"
+			},
+			"effect": {
+				"en": "If Wormadam Plant Cloak has 2 or more Grass Energy attached to it, Wormadam Plant Cloak gets +40 HP.",
+				"fr": "Si Cheniselle Cape Plante possède au moins 2 Énergies Grass, il obtient 40 PV de plus."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leaf Hurricane",
+				"fr": "Feuille ouragan"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon has fewer remaining HP than Wormadam Plant Cloak, the Defending Pokémon is now Confused.",
+				"fr": "S'il reste au Pokémon Défenseur moins de PV qu'à Cheniselle Cape Plante, le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		413
+	],
+	"evolveFrom": {
+		"en": "Burmy Plant Cloak",
+		"fr": "Cheniti Cape Plante"
+	},
+	"hp": 80,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Wormadam Plant Cloak",
+		"fr": "Cheniselle Cape Plante"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

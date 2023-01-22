@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Rain Splash"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful."
+	},
+	"hp": 70,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Karnimani",
+		"en": "Totodile",
+		"es": "Totodile",
+		"fr": "Kaiminus",
+		"it": "Totodile",
+		"pt": "Totodile"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

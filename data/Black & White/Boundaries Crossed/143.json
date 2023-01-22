@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Sparkling Particles",
+				"fr": "Particules Étincelantes",
+				"es": "Partículas Centelleantes",
+				"it": "Atomidiluce",
+				"pt": "Partículas Cintilantes",
+				"de": "Glitzerteilchen"
+			},
+			"effect": {
+				"en": "At any time between turns, heal 10 damage from this Pokémon.",
+				"fr": "N’importe quand entre chaque tour, soignez 10 dégâts à ce Pokémon.",
+				"es": "En cualquier momento entre turnos, cura 10 puntos de daño a este Pokémon.",
+				"it": "Tra un turno e l’altro, in qualsiasi momento, cura questo Pokémon da 10 danni.",
+				"pt": "A qualquer momento entre as vezes de jogar, cure 10 de danos deste Pokémon.",
+				"de": "Heile zu einem beliebigen Zeitpunkt zwischen den Zügen 10 Schadenspunkte bei diesem Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic Protection",
+				"fr": "Protection Psy"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, this Pokémon has no Weakness.",
+				"fr": "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		488
+	],
+	"hp": 170,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Cresselia-EX",
+		"en": "Cresselia-EX",
+		"es": "Cresselia-EX",
+		"fr": "Cresselia-EX",
+		"it": "Cresselia-EX",
+		"pt": "Cresselia-EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 1,
+	"set": "bw7",
+	"suffix": "EX",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

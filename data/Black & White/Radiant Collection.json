@@ -1,0 +1,11 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 25,
+	"id": "rc",
+	"name": {
+		"en": "Radiant Collection",
+		"fr": "Radiant Collection"
+	},
+	"releaseDate": "2013-11-06",
+	"serie": "bw"
+}

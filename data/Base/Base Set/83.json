@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Mélangez 2 des autres cartes de votre main avec votre deck pour piocher une carte."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Maintenance",
+		"fr": "Entretien"
+	},
+	"rarity": "Uncommon",
+	"set": "base1"
+}

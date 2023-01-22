@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Foul Odor",
+				"fr": "Odeur Fétide",
+				"es": "Olor Pestilente",
+				"it": "Puzza",
+				"pt": "Odor Sujo",
+				"de": "Fäulnisgeruch"
+			},
+			"effect": {
+				"en": "Both Active Pokémon are now Confused.",
+				"fr": "Les deux Pokémon Actifs sont maintenant Confus.",
+				"es": "Ambos Pokémon Activos pasan a estar Confundidos.",
+				"it": "Entrambi i Pokémon attivi vengono confusi.",
+				"pt": "Ambos os Pokémon Ativos agora estão Confusos.",
+				"de": "Beide Aktiven Pokémon sind jetzt verwirrt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		109
+	],
+	"hp": 70,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Smogon",
+		"en": "Koffing",
+		"es": "Koffing",
+		"fr": "Smogo",
+		"it": "Koffing",
+		"pt": "Koffing"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm10",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

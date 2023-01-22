@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Miasma Wind",
+				"fr": "Vent miasme"
+			},
+			"effect": {
+				"en": "Does 50 damage times the number of Special Conditions affecting the Defending Pokémon.",
+				"fr": "Inflige 50 dégâts multipliés par le nombre d’États Spéciaux affectant le Pokémon Défenseur."
+			},
+			"damage": "50×"
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Soothing Scent",
+				"fr": "Senteur apaisante"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air."
+	},
+	"dexId": [
+		470
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Evoli"
+	},
+	"hp": 90,
+	"illustrator": "Noriko Hotta",
+	"name": {
+		"en": "Leafeon",
+		"fr": "Phyllali"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

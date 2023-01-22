@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder Jolt",
+				"fr": "Secousse tonnerre"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, Charmeleon does 10 damage to itself.",
+				"fr": "Lancez une pièce. Si c'est pile, Reptincel s'inflige 10 dégâts."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		5
+	],
+	"evolveFrom": {
+		"en": "Charmander"
+	},
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Charmeleon δ",
+		"fr": "Reptincel δ ESPÈCES DELTA"
+	},
+	"rarity": "Uncommon",
+	"set": "ex14",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Dual Trans",
+				"fr": "Double trans"
+			},
+			"effect": {
+				"en": "Search your discard pile for up to 2 basic Energy cards and attach them to 1 of your Pokémon.",
+				"fr": "Choisissez dans votre pile de défausse jusqu'à 2 cartes Énergie et attachez-les à 1 de vos Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reflect Energy",
+				"fr": "Renvoi d'énergie"
+			},
+			"effect": {
+				"en": "Move an Energy card attached to Rotom to 1 of your Benched Pokémon.",
+				"fr": "Déplacez une carte Énergie attachée à Motisma sur 1 des Pokémon de votre Banc."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		479
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Rotom",
+		"fr": "Motisma"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+20"
+		}
+	]
+}

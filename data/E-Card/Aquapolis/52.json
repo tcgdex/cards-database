@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Attract",
+				"fr": "Attraction"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
+				"fr": "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		81
+	],
+	"hp": 40,
+	"illustrator": "Shin-ichi Yoshida",
+	"name": {
+		"en": "Magnemite",
+		"fr": "Magneti"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"set": "ecard2",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vine Whip"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass"
+			],
+			"name": {
+				"en": "Poisonpowder"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		2
+	],
+	"evolveFrom": {
+		"en": "Bulbasaur"
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Ivysaur"
+	},
+	"rarity": "Uncommon",
+	"set": "lc",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

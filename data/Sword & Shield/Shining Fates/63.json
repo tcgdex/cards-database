@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Soignez 50 dégâts des deux Pokémon Actifs.",
+		"en": "Heal 50 damage from both Active Pokémon.",
+		"es": "Cura 50 puntos de daño a ambos Pokémon Activos.",
+		"it": "Cura entrambi i Pokémon attivi da 50 danni.",
+		"pt": "Cure 50 pontos de dano de ambos os Pokémon Ativos.",
+		"de": "Heile 50 Schadenspunkte bei beiden Aktiven Pokémon."
+	},
+	"illustrator": "Studio Bora Inc.",
+	"name": {
+		"de": "Tuch von Team Yell",
+		"en": "Team Yell Towel",
+		"es": "Toalla del Team Yell",
+		"fr": "Bannière de la Team Yell",
+		"it": "Asciugamano del Team Yell",
+		"pt": "Toalha da Equipe Yell"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"set": "swsh4.5",
+	"trainerType": "Item",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

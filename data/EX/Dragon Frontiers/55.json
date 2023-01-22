@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Flop",
+				"fr": "Flop"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		177
+	],
+	"hp": 40,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Natu δ",
+		"fr": "Natu δ"
+	},
+	"rarity": "Common",
+	"set": "ex15",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Léviator-EX.",
+		"en": "Your turn does not end if the Pokémon this card is attached to becomes M Gyarados-EX.",
+		"es": "Tu turno no termina si el Pokémon al que está unida esta carta se convierte en M-Gyarados-EX.",
+		"it": "Il tuo turno non finisce se il Pokémon a cui è assegnata questa carta diventa M Gyarados-EX.",
+		"pt": "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se M-Gyarados-EX.",
+		"de": "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu M-Garados-EX wird."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Garados' Geistesbund",
+		"en": "Gyarados Spirit Link",
+		"es": "Vínculo Espiritual de Gyarados",
+		"fr": "Lien Spirituel Léviator",
+		"it": "Legame Mentale con Gyarados",
+		"pt": "Elo Espiritual de Gyarados"
+	},
+	"rarity": "Uncommon",
+	"set": "xy9",
+	"trainerType": "Tool"
+}

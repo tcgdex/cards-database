@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crabhammer",
+				"fr": "Pince-masse"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scissor Blow",
+				"fr": "Cou d'ciseaux"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon would be Knocked Out by this attack, Kingler does 30 damage to itself.",
+				"fr": "Si le Pokémon Défenseur est mis K.O par cette attaque, Krabboss s'inflige 30 dégâts."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		99
+	],
+	"evolveFrom": {
+		"en": "Krabby",
+		"fr": "Krabby"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Kingler",
+		"fr": "Krabboss"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

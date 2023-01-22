@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Conductivity",
+				"fr": "Conductivité"
+			},
+			"effect": {
+				"en": "Whenever your opponent attaches an Energy card from his or her hand to 1 of his or her Pokémon, put 1 damage counter on that Pokémon.",
+				"fr": "Lorsque votre adversaire attache une carte Énergie de sa main à l’un de ses Pokémon, appliquez un marqueur de dégâts à ce Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lightning Crush",
+				"fr": "Écras’éclair"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si c’est pile, défaussez-vous d’une carte Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		181
+	],
+	"evolveFrom": {
+		"en": "Flaaffy",
+		"fr": "Lainergie"
+	},
+	"hp": 140,
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Ampharos",
+		"fr": "Pharamp"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Stage2",
+	"suffix": "Prime",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

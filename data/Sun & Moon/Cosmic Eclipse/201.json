@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cherchez jusqu’à 3 Pokémon de base de types différents dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+		"en": "Search your deck for up to 3 Basic Pokémon of different types and put them onto your Bench. Then, shuffle your deck.",
+		"es": "",
+		"it": "",
+		"pt": "",
+		"de": ""
+	},
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"de": "Professor Eichs Vorbereitung",
+		"en": "Professor Oak’s Setup",
+		"es": "Disposición del Profesor Oak",
+		"fr": "Installation du Professeur Chen",
+		"it": "Allestimento del Professor Oak",
+		"pt": "Preparação do Professor Carvalho"
+	},
+	"rarity": "Uncommon",
+	"set": "sm12",
+	"trainerType": "Supporter"
+}

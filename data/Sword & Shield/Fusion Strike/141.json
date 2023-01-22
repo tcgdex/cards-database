@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut Down"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Discard an Energy from your opponent's Active Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Venomous Hit"
+			},
+			"damage": 100,
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Poisoned."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest."
+	},
+	"evolveFrom": {
+		"en": "Gligar",
+		"fr": "Scorplane",
+		"es": "Gligar",
+		"it": "Gligar",
+		"pt": "Gligar",
+		"de": "Skorgla"
+	},
+	"hp": 110,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Skorgro",
+		"en": "Gliscor",
+		"es": "Gliscor",
+		"fr": "Scorvol",
+		"it": "Gliscor",
+		"pt": "Gliscor"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Never Enough",
+				"fr": "Insatiable",
+				"es": "Nunca Suficiente",
+				"it": "Senza Fine",
+				"pt": "Nunca é o Suficiente",
+				"de": "Gier"
+			},
+			"effect": {
+				"en": "Discard a card from your hand. If you do, draw 2 cards.",
+				"fr": "Défaussez une carte de votre main. Dans ce cas, piochez 2 cartes.",
+				"es": "Descarta 1 carta de tu mano. Si lo haces, roba 2 cartas.",
+				"it": "Scarta una delle carte che hai in mano. Se lo fai, pesca due carte.",
+				"pt": "Descarte um card da sua mão. Se fizer isso, compre 2 cards.",
+				"de": "Lege 1 Karte von deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		443
+	],
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Kaumalat",
+		"en": "Gible",
+		"es": "Gible",
+		"fr": "Griknot",
+		"it": "Gible",
+		"pt": "Gible"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy9",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

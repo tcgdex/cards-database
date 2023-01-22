@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 101,
+	"id": "bw3",
+	"name": {
+		"de": "Königliche Siege",
+		"en": "Noble Victories",
+		"es": "Nobles Victorias",
+		"fr": "Nobles Victoires",
+		"it": "Vittorie Regali",
+		"pt": "Vitórias Nobres"
+	},
+	"releaseDate": "2011-11-16",
+	"serie": "bw",
+	"tcgOnline": "NVI"
+}

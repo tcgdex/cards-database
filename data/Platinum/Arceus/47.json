@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Searing Flame"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		78
+	],
+	"evolveFrom": {
+		"en": "Ponyta"
+	},
+	"hp": 90,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Rapidash"
+	},
+	"rarity": "Uncommon",
+	"set": "pl4",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Firebreathing"
+			},
+			"damage": "20+",
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "Hironobu Yoshida",
+	"name": {
+		"en": "Torchic"
+	},
+	"rarity": "None",
+	"set": "tk-ex-latia",
+	"stage": "Basic"
+}

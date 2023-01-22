@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 92,
+	"id": "ex12",
+	"name": {
+		"de": "EX Legend Maker",
+		"en": "Legend Maker",
+		"fr": "EX Créateurs de légendes",
+		"it": "EX La Leggenda di Mew"
+	},
+	"releaseDate": "2006-02-13",
+	"serie": "ex",
+	"tcgOnline": "LM"
+}

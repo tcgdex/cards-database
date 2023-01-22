@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Electro Ball",
+				"fr": "Boule Élek",
+				"es": "Bola Voltio",
+				"it": "Energisfera",
+				"pt": "Bola Elétrica",
+				"de": "Elektroball"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		100
+	],
+	"hp": 60,
+	"illustrator": "match",
+	"name": {
+		"de": "Voltobal",
+		"en": "Voltorb",
+		"es": "Voltorb",
+		"fr": "Voltorbe",
+		"it": "Voltorb",
+		"pt": "Voltorb"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm3.5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

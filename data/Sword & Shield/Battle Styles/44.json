@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Haymaker",
+				"fr": "Coup de Poing Fracassant",
+				"es": "Golpazo",
+				"it": "Pugno Tremendo",
+				"pt": "Golpe Arrasador",
+				"de": "Schwinger"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't use Haymaker.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup de Poing Fracassant.",
+				"es": "Durante tu próximo turno, este Pokémon no puede usar Golpazo.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può usare Pugno Tremendo.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Arrasador.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon Schwinger nicht einsetzen."
+			},
+			"damage": 30,
+			"cost": [
+				"Lightning"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
+	},
+	"hp": 80,
+	"illustrator": "Hasuno",
+	"name": {
+		"de": "Elektek",
+		"en": "Electabuzz",
+		"es": "Electabuzz",
+		"fr": "Élektek",
+		"it": "Electabuzz",
+		"pt": "Electabuzz"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

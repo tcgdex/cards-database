@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Hang Down",
+				"fr": "Suspension",
+				"es": "Prender",
+				"it": "Tirar Giù",
+				"pt": "Dependurar",
+				"de": "Herunterhängen"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sting",
+				"fr": "Dard",
+				"es": "Aguijonazo",
+				"it": "Puntura",
+				"pt": "Ferroada",
+				"de": "Einstich"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
+	},
+	"hp": 60,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Webarak",
+		"en": "Spinarak",
+		"es": "Spinarak",
+		"fr": "Mimigal",
+		"it": "Spinarak",
+		"pt": "Spinarak"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

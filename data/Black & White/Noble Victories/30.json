@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rain Splash",
+				"fr": "Pluie Éclaboussante"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		592
+	],
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Quabbel",
+		"en": "Frillish",
+		"es": "Frillish",
+		"fr": "Viskuse",
+		"it": "Frillish",
+		"pt": "Frillish"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

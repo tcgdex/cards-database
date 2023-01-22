@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Darkness Veil"
+			},
+			"effect": {
+				"en": "As long as Rocket's Articuno ex has any Darkness Energy attached to it prevent all effects except damage by an opponent's attack done to Rocket's Articuno ex.\""
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Freeze Solid"
+			},
+			"effect": {
+				"en": "Search your discard pile for a Water Energy card and attach it to Rocket's Articuno ex.\""
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Wing"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		144
+	],
+	"hp": 100,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Rocket's Articuno ex"
+	},
+	"rarity": "Rare",
+	"set": "ex7",
+	"suffix": "EX",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

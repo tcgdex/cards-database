@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 101,
+	"id": "bw10",
+	"name": {
+		"de": "Plasma-Blaster",
+		"en": "Plasma Blast",
+		"fr": "Explosion Plasma",
+		"pt": "Explosão de Plasma"
+	},
+	"releaseDate": "2013-08-14",
+	"serie": "bw",
+	"tcgOnline": "PLB"
+}

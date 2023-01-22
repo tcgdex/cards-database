@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Steal",
+				"fr": "Vol d'Ombre"
+			},
+			"effect": {
+				"en": "Does 50 damage times the number of Special Energy cards in your opponent's discard pile.",
+				"fr": "Inflige 50 dégâts multipliés par le nombre de cartes Énergie spéciale dans la pile de défausse de votre adversaire."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Plentiful Placement",
+				"fr": "Placement Multiple"
+			},
+			"effect": {
+				"en": "Put 4 damage counters on 1 of your opponent's Pokémon.",
+				"fr": "Placez 4 marqueurs de dégâts sur 1 des Pokémon de votre adversaire."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		426
+	],
+	"evolveFrom": {
+		"en": "Drifloon",
+		"fr": "Baudrive"
+	},
+	"hp": 100,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Drifzepeli",
+		"en": "Drifblim",
+		"es": "Drifblim",
+		"fr": "Grodrive",
+		"it": "Drifblim",
+		"pt": "Drifblim"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

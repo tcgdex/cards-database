@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Moonlight Fang",
+				"fr": "Croc lunaire"
+			},
+			"effect": {
+				"en": "During your opponent’s next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent’s Pokémon that has any Poké-Powers or Poké-Bodies.",
+				"fr": "Pendant le prochain tour de votre adversaire, prévenez tous les effets d’attaques (y compris les dégâts) infligés à Noctali par un Pokémon de votre adversaire possédant des Poké-Powers ou des Poké-Bodies."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Blow",
+				"fr": "Coup d’poing éclair"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores."
+	},
+	"dexId": [
+		197
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Evoli"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Umbreon",
+		"fr": "Noctali"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

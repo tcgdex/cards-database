@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Piochez 3 cartes.",
+		"en": "Draw 3 cards.",
+		"es": "Roba 3 cartas.",
+		"it": "Pesca tre carte.",
+		"pt": "Compre 3 cards.",
+		"de": "Ziehe 3 Karten."
+	},
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"de": "Cheren",
+		"en": "Cheren",
+		"es": "Cheren",
+		"fr": "Tcheren",
+		"it": "Komor",
+		"pt": "Cheren"
+	},
+	"rarity": "Ultra Rare",
+	"set": "bw7",
+	"trainerType": "Supporter"
+}

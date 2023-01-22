@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe",
+				"es": "Arañazo",
+				"it": "Graffio",
+				"pt": "Arranhão",
+				"de": "Kratzer"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Live Coal",
+				"fr": "Charbon Mutant",
+				"es": "Carbón Activado",
+				"it": "Carboni Ardenti",
+				"pt": "Carvão Vivo",
+				"de": "Glühende Kohlen"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		653
+	],
+	"hp": 60,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Fynx",
+		"en": "Fennekin",
+		"es": "Fennekin",
+		"fr": "Feunnec",
+		"it": "Fennekin",
+		"pt": "Fennekin"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "xy0",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

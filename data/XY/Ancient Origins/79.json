@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Défaussez toute carte Stade en jeu. Ensuite, piochez une carte.",
+		"en": "Discard any Stadium card in play. Then, draw a card.",
+		"es": "Descarta cualquier carta de Estadio en juego. Después, roba 1 carta.",
+		"it": "Scarta una carta Stadio in gioco. Poi, pesca una carta.",
+		"pt": "Descarte qualquer card de Estádio em jogo. Em seguida, compre um card.",
+		"de": "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Ziehe anschließend 1 Karte."
+	},
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Farbroller",
+		"en": "Paint Roller",
+		"es": "Rodillo de Pintura",
+		"fr": "Rouleau à Peinture",
+		"it": "Imbiancarullo",
+		"pt": "Rolo de Pintura"
+	},
+	"rarity": "Uncommon",
+	"set": "xy7",
+	"trainerType": "Item"
+}

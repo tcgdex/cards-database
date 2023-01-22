@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Surprise Short"
+			},
+			"effect": {
+				"en": "Discard all Pokémon Tools from all of your opponent's Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Static Shock"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others."
+	},
+	"hp": 80,
+	"illustrator": "Sekio",
+	"name": {
+		"de": "Rotom",
+		"en": "Rotom",
+		"es": "Rotom",
+		"fr": "Motisma",
+		"it": "Rotom",
+		"pt": "Rotom"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

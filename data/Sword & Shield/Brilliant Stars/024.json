@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche",
+				"es": "Ascuas",
+				"it": "Braciere",
+				"pt": "Brasa",
+				"de": "Glut"
+			},
+			"effect": {
+				"en": "Discard an Energy from this Pokémon.",
+				"fr": "Défaussez une Énergie de ce Pokémon.",
+				"es": "Descarta 1 Energía de este Pokémon.",
+				"it": "Scarta un'Energia da questo Pokémon.",
+				"pt": "Descarte 1 Energia deste Pokémon.",
+				"de": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"hp": 50,
+	"name": {
+		"de": "Panflam",
+		"en": "Chimchar",
+		"es": "Chimchar",
+		"fr": "Ouisticram",
+		"it": "Chimchar",
+		"pt": "Chimchar"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh9",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	]
+}

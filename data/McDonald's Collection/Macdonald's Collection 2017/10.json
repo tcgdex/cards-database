@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 30,
+	"name": {
+		"en": "Cutiefly"
+	},
+	"rarity": "None",
+	"set": "2017sm",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

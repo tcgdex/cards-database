@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Raid"
+			},
+			"effect": {
+				"en": "If you played Beedrill from your hand during this turn, this attack's base damage is 40 instead of 10."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fury Attack"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 30 damage times the number of heads."
+			},
+			"damage": "30x"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		15
+	],
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Beedrill"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

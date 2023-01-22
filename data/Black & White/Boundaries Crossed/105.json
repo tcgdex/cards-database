@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Gnaw Through",
+				"fr": "Grignotage"
+			},
+			"effect": {
+				"en": "Discard a Pokémon Tool card attached to the Defending Pokémon.",
+				"fr": "Défaussez une carte Outil Pokémon attachée au Pokémon Défenseur."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Fang",
+				"fr": "Croc Fatal"
+			},
+			"effect": {
+				"en": "Put damage counters on the Defending Pokémon until its remaining HP is 10.",
+				"fr": "Placez des marqueurs de dégâts sur le Pokémon Défenseur jusqu'à ce qu'il ait 10 PV."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		20
+	],
+	"evolveFrom": {
+		"en": "Rattata",
+		"fr": "Rattata"
+	},
+	"hp": 60,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Rattikarl",
+		"en": "Raticate",
+		"es": "Raticate",
+		"fr": "Rattatac",
+		"it": "Raticate",
+		"pt": "Raticate"
+	},
+	"rarity": "Uncommon",
+	"retreat": 0,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

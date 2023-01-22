@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": ""
+			},
+			"effect": {
+				"fr": "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		488
+	],
+	"effect": {
+		"en": "[2DD] Lost Crisis (100) Choose 2 Energy attached to Darkrai and Cresselia LEGEND and put them in the Lost Zone. If any of your opponent’s Pokémon would be Knocked Out by damage from the attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it."
+	},
+	"hp": 150,
+	"illustrator": "Shinji Higuchi + Noriko Takaya/樋口真嗣+高屋法子",
+	"name": {
+		"en": "Darkrai & Cresselia LEGEND",
+		"fr": "Darkrai & Cresselia LÉGENDE"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 0,
+	"set": "hgss4",
+	"stage": "Basic",
+	"suffix": "Legend",
+	"types": [
+		"Darkness",
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

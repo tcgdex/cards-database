@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Beckon",
+				"fr": "Invite",
+				"es": "Hacer Señas",
+				"it": "Appello",
+				"pt": "Aceno",
+				"de": "Herbeiwinken"
+			},
+			"effect": {
+				"en": "Put a Supporter card from your discard pile into your hand.",
+				"fr": "Ajoutez une carte Supporter de votre pile de défausse à votre main.",
+				"es": "Pon 1 carta de Partidario de tu pila de descartes en tu mano.",
+				"it": "Prendi una carta Aiuto dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+				"pt": "Coloque 1 carta de Apoiador da sua pilha de descarte na sua mão.",
+				"de": "Nimm 1 Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Beat",
+				"fr": "Bataille",
+				"es": "Toque",
+				"it": "Battuta",
+				"pt": "Pulso",
+				"de": "Verprügler"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		280
+	],
+	"hp": 50,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Trasla",
+		"en": "Ralts",
+		"es": "Ralts",
+		"fr": "Tarsal",
+		"it": "Ralts",
+		"pt": "Ralts"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

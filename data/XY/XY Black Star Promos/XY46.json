@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Clear Humming",
+				"fr": "Évolution Δ"
+			},
+			"effect": {
+				"en": "Each of your Colorless Pokémon has no Weakness.",
+				"fr": "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wing Attack",
+				"fr": "Cru-Aile"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		334
+	],
+	"evolveFrom": {
+		"en": "Swablu",
+		"fr": "Tylton"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"en": "Altaria",
+		"fr": "Altaria"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Strafe",
+				"fr": "Bombarder"
+			},
+			"effect": {
+				"en": "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Vous pouvez échanger ce Pokémon avec l’un de vos Pokémon de Banc."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Bullet",
+				"fr": "Kunaï Sournois"
+			},
+			"effect": {
+				"en": "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 90
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dark Call-GX",
+				"fr": "Appel Obscur-GX"
+			},
+			"effect": {
+				"en": "Discard 2 Energy from your opponent's Pokémon. (You can't use more than 1 GX attack in a game.)",
+				"fr": "Défaussez 2 Énergies des Pokémon de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		197
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Évoli"
+	},
+	"hp": 200,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Umbreon-GX",
+		"fr": "Noctali-GX"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sma",
+	"suffix": "GX",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

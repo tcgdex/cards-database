@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Loathe",
+				"fr": "Dégoût",
+				"es": "Desdén",
+				"it": "Avversione",
+				"pt": "Abominar",
+				"de": "Abscheu"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				"es": "Lanza 1 moneda. Si sale cara, cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				"it": "Lancia una moneta. Se esce testa, scambia questo Pokémon con uno della tua panchina.",
+				"pt": "Jogue uma moeda. Se sair cara, troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				"de": "Wirf 1 Münze. Tausche bei \"Kopf\" dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			}
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		102
+	],
+	"hp": 40,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Owei",
+		"en": "Exeggcute",
+		"es": "Exeggcute",
+		"fr": "Noeunoeuf",
+		"it": "Exeggcute",
+		"pt": "Exeggcute"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy6",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

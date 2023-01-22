@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Marine Guidance"
+			},
+			"effect": {
+				"en": "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Aqua Ring"
+			},
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		490
+	],
+	"hp": 70,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"en": "Manaphy"
+	},
+	"rarity": "Common",
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Feint Attack",
+				"fr": "Feinte"
+			},
+			"effect": {
+				"en": "Does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness, Resistance, or any other effects on that Pokémon.",
+				"fr": "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon ciblé."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Claw Rend",
+				"fr": "Déchirure"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
+				"fr": "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		510
+	],
+	"evolveFrom": {
+		"en": "Purrloin",
+		"fr": "Chacripan"
+	},
+	"hp": 80,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Kleoparda",
+		"en": "Liepard",
+		"es": "Liepard",
+		"fr": "Léopardus",
+		"it": "Liepard",
+		"pt": "Liepard"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

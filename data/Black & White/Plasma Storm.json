@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 135,
+	"id": "bw8",
+	"name": {
+		"de": "Plasma-Sturm",
+		"en": "Plasma Storm",
+		"es": "Tormenta Plasma",
+		"fr": "Tempète Plasma",
+		"it": "Uragano Plasma",
+		"pt": "Tempestade de Plasma"
+	},
+	"releaseDate": "2013-02-06",
+	"serie": "bw",
+	"tcgOnline": "PLS"
+}

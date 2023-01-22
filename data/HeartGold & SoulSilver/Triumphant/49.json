@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Mapping",
+				"fr": "Mappage"
+			},
+			"effect": {
+				"en": "Once during your turn, when you play Porygon2 from your hand to evolve 1 of your Pokémon, you may search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Une seule fois pendant votre tour, lorsque vous jouez Porygon2 dans votre main pour faire évoluer l’un de vos Pokémon, vous pouvez chercher une carte Stade dans votre deck, la montrer à votre adversaire et l’ajouter à votre main. Mélangez ensuite votre deck."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "3-D Attack",
+				"fr": "Attaque en 3-D"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": "20×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Further research enhanced its abilities. Sometimes, it may exhibit motions that were not programmed."
+	},
+	"dexId": [
+		233
+	],
+	"evolveFrom": {
+		"en": "Porygon",
+		"fr": "Porygon"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Porygon2",
+		"fr": "Porygon2"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

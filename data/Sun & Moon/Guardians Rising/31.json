@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Chilly",
+				"fr": "Glacial",
+				"es": "Fresquito",
+				"it": "Addiaccio",
+				"pt": "Frio",
+				"de": "Frösteln"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Frost Breath",
+				"fr": "Souffle Glacé",
+				"es": "Vaho Gélido",
+				"it": "Alitogelido",
+				"pt": "Respiração de Gelo",
+				"de": "Eisesodem"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		361
+	],
+	"hp": 60,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Schneppke",
+		"en": "Snorunt",
+		"es": "Snorunt",
+		"fr": "Stalgamin",
+		"it": "Snorunt",
+		"pt": "Snorunt"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

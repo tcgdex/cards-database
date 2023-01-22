@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Glare",
+				"fr": "Intimidation"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Fade Out",
+				"fr": "Faiblir"
+			},
+			"effect": {
+				"en": "Return Dunsparce and all cards attached to it to your hand.",
+				"fr": "Reprenez Insolourdo et toutes les cartes qui lui sont attachées dans votre main."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+	},
+	"dexId": [
+		206
+	],
+	"hp": 50,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Dunsparce",
+		"fr": "Insolourdo"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

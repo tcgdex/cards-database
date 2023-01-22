@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Rototiller",
+				"fr": "Fertilisation",
+				"es": "Fertilizante",
+				"it": "Aracampo",
+				"pt": "Rototiller",
+				"de": "Pflüger"
+			},
+			"effect": {
+				"en": "Shuffle 4 cards from your discard pile into your deck.",
+				"fr": "Mélangez 4 cartes de votre pile de défausse avec votre deck.",
+				"es": "Pon 4 cartas de tu pila de descartes en tu baraja y baraja todas las cartas.",
+				"it": "Rimischia quattro carte dalla tua pila degli scarti nel tuo mazzo.",
+				"pt": "Embaralhe 4 cartas da sua pilha de descarte no seu baralho.",
+				"de": "Mische 4 Karten aus deinem Ablagestapel in dein Deck."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche",
+				"es": "Cuchillada",
+				"it": "Lacerazione",
+				"pt": "Talho",
+				"de": "Schlitzer"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		530
+	],
+	"evolveFrom": {
+		"en": "Drilbur",
+		"fr": "Rototaupe"
+	},
+	"hp": 120,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Stalobor",
+		"en": "Excadrill",
+		"es": "Excadrill",
+		"fr": "Minotaupe",
+		"it": "Excadrill",
+		"pt": "Excadrill"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "sm11",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

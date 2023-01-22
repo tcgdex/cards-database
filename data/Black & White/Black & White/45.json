@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Leech Life",
+				"fr": "Vampirisme"
+			},
+			"effect": {
+				"en": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				"fr": "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		595
+	],
+	"hp": 30,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Wattzapf",
+		"en": "Joltik",
+		"es": "Joltik",
+		"fr": "Statitik",
+		"it": "Joltik",
+		"pt": "Joltik"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

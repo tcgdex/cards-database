@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Placez une carte Évolution de Niveau 2 de votre main sur le Pokémon de base correspondant. Vous ne pouvez jouer cette carte que quand il vous serait possible de faire évoluer ce Pokémon de toute façon."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Pokémon Breeder",
+		"fr": "Éleveur de Pokémon"
+	},
+	"rarity": "Rare",
+	"set": "base1"
+}

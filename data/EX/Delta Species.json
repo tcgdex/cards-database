@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 113,
+	"id": "ex11",
+	"name": {
+		"de": "EX Delta Species",
+		"en": "Delta Species",
+		"fr": "EX Espèces Delta",
+		"it": "EX Specie Delta"
+	},
+	"releaseDate": "2005-10-31",
+	"serie": "ex",
+	"tcgOnline": "DS"
+}

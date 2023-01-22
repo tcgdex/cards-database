@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+		"en": "Shuffle your hand into your deck. Then, draw 6 cards.",
+		"es": "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 6 cartas.",
+		"it": "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca sei carte.",
+		"pt": "Embaralhe a sua mão no seu baralho. Em seguida, compre 6 cartas.",
+		"de": "Mische deine Handkarten in dein Deck. Ziehe anschließend 6 Karten."
+	},
+	"illustrator": "nagimiso",
+	"name": {
+		"de": "Cynthia",
+		"en": "Cynthia",
+		"es": "Cintia",
+		"fr": "Cynthia",
+		"it": "Camilla",
+		"pt": "Cíntia"
+	},
+	"rarity": "Ultra Rare",
+	"set": "sm5",
+	"trainerType": "Supporter"
+}

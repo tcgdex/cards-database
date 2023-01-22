@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pickup Power",
+				"fr": "Pouvoir ramassage"
+			},
+			"effect": {
+				"en": "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
+				"fr": "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main."
+			}
+		},
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		52
+	],
+	"hp": 50,
+	"illustrator": "Hiroki Fuchino",
+	"name": {
+		"en": "Meowth",
+		"fr": "Miaouss"
+	},
+	"rarity": "Common",
+	"set": "ex11",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

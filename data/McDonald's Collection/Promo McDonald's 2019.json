@@ -1,0 +1,10 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 40,
+	"id": "2019sm-fr",
+	"name": {
+		"fr": "Promo McDonald's 2019"
+	},
+	"releaseDate": "2019-10-30",
+	"serie": "mc"
+}

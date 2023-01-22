@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"de": "Picochilla",
+		"en": "Minccino",
+		"es": "Minccino",
+		"fr": "Chinchidou",
+		"it": "Minccino",
+		"pt": "Minccino"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "tk-bw-z",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

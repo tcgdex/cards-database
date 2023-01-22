@@ -1,40 +1,50 @@
-import { Set, SupportedLanguages } from '../../../interfaces'
-import { DB_PATH, fetchRemoteFile, setIsLegal, smartGlob } from './util'
+import { Serie, Set, SupportedLanguages } from '../../../interfaces'
+import { DB_PATH, fetchRemoteFile, realPath, setIsLegal, smartGlob } from './util'
 import { cardToCardSimple, getCards } from './cardUtil'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
-
+import fs from 'fs/promises'
+import { objectValues } from '@dzeio/object-util'
+import { getSerie } from './serieUtil'
 interface t {
 	[key: string]: Set
 }
 
 const setCache: t = {}
 
+let sets: Array<Omit<Set, 'serie'> & {serie: Serie}> | null = null
+export async function loadSets() {
+	const rawSets = (await smartGlob(realPath(__dirname, `../../../data/*/*.json`)))
+	sets = []
+	for (const rawSet of rawSets) {
+		const set: Set = JSON.parse(await fs.readFile(rawSet, 'utf-8'))
+
+		sets.push({...set, serie: await getSerie(set.serie)})
+	}
+}
+
 export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
-	return lang in set.name && lang in set.serie.name
+	return lang in set.name // && lang in set.serie.name
 }
 
 /**
  * Return the set
  * @param name the name of the set
  */
-export async function getSet(name: string, serie = '*'): Promise<Set> {
-	if (!setCache[name]) {
-		try {
-			const [path] = await smartGlob(`${DB_PATH}/data/${serie}/${name}.js`)
-			setCache[name] = (await import(`../../${path}`)).default
-		} catch (error) {
-			console.error(error)
-			console.error(`Error trying to import importing (${`db/data/${serie}/${name}.js`})`)
-			process.exit(1)
-		}
+export async function getSet(name: string, serie?: string): Promise<Set & {serie: Serie}> {
+	if (!sets) {
+		await loadSets()
 	}
-	return setCache[name]
+	const set = sets?.find((it) => it.id === name || objectValues(it.name).includes(name))
+	if (!set) {
+		throw new Error(`Set not found! (${name}, ${serie})`)
+	}
+	return set
 }
 
 // Dont use cache as it wont necessary have them all
 export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Array<Set>> {
 	// list sets names
-	const rawSets = (await smartGlob(`${DB_PATH}/data/${serie}/*.js`)).map((set) => set.substring(set.lastIndexOf('/') + 1, set.lastIndexOf('.')))
+	const rawSets = (await smartGlob(realPath(__dirname, `../../../data/${serie}/*.json`))).map((set) => set.substring(set.lastIndexOf('/') + 1, set.lastIndexOf('.')))
 	// Fetch sets
 	const sets = (await Promise.all(rawSets.map((set) => getSet(set, serie))))
 		// Filter sets
@@ -47,8 +57,8 @@ export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Ar
 export async function getSetPictures(set: Set, lang: SupportedLanguages): Promise<[string | undefined, string | undefined]> {
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
-		const logoExists = file[lang]?.[set.serie.id]?.[set.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.serie.id}/${set.id}/logo` : undefined
-		const symbolExists = file.univ?.[set.serie.id]?.[set.id]?.symbol ? `https://assets.tcgdex.net/univ/${set.serie.id}/${set.id}/symbol` : undefined
+		const logoExists = file[lang]?.[set.serie]?.[set.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.serie}/${set.id}/logo` : undefined
+		const symbolExists = file.univ?.[set.serie]?.[set.id]?.symbol ? `https://assets.tcgdex.net/univ/${set.serie}/${set.id}/symbol` : undefined
 		return [
 			logoExists,
 			symbolExists
@@ -75,6 +85,7 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 
 export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promise<SetSingle> {
 	const cards = await getCards(lang, set)
+	const serie = await getSerie(set.serie)
 	const pics = await getSetPictures(set, lang)
 	return {
 		cardCount: {
@@ -95,8 +106,8 @@ export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promis
 		name: set.name[lang] as string,
 		releaseDate: set.releaseDate,
 		serie: {
-			id: set.serie.id,
-			name: set.serie.name[lang] as string
+			id: set.serie,
+			name: serie.name[lang] as string
 		},
 		symbol: pics[1],
 		tcgOnline: set.tcgOnline

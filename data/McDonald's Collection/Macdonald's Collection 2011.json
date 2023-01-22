@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 12,
+	"id": "2011bw",
+	"name": {
+		"de": "McDonald’s Kollektion 2011",
+		"en": "Macdonald's Collection 2011",
+		"es": "Colección de McDonald's 2011",
+		"fr": "Promo McDonald's 2012",
+		"it": "McDonald's Collection"
+	},
+	"releaseDate": "2011-06-17",
+	"serie": "mc"
+}

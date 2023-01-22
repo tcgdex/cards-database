@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Punch",
+				"fr": "Koud’Poing",
+				"es": "Puño",
+				"it": "Pugno",
+				"pt": "Soco",
+				"de": "Boxhieb"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crabhammer",
+				"fr": "Pince-Masse",
+				"es": "Martillazo",
+				"it": "Martellata",
+				"pt": "Martelo Caranguejo",
+				"de": "Krabbhammer"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		739
+	],
+	"hp": 80,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Krabbox",
+		"en": "Crabrawler",
+		"es": "Crabrawler",
+		"fr": "Crabagarre",
+		"it": "Crabrawler",
+		"pt": "Crabrawler"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

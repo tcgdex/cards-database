@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Harden",
+				"fr": "Armure"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, if Onix would be damaged by an attack, prevent that attack's damage done to Onix if that damage is 40 or less.",
+				"fr": "Lors du prochain tour de votre adversaire, si une attaque inflige des dégâts à Onix, prévenez ces dégâts s'ils sont de 40 ou moins."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bind",
+				"fr": "Étreinte"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h."
+	},
+	"dexId": [
+		95
+	],
+	"evolveFrom": {
+		"fr": "Onix"
+	},
+	"hp": 90,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Onix",
+		"fr": "Onix"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collecte",
+				"es": "Coleccionar",
+				"it": "Tassa",
+				"pt": "Coleta",
+				"de": "Sammeln"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre 1 carta.",
+				"de": "Ziehe 1 Karte."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rain Splash",
+				"fr": "Pluie Éclaboussante",
+				"es": "Golpe de Lluvia",
+				"it": "Spruzzapioggia",
+				"pt": "Chuva Borrifante",
+				"de": "Regenplatscher"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		771
+	],
+	"hp": 80,
+	"illustrator": "OOYAMA",
+	"name": {
+		"de": "Gufa",
+		"en": "Pyukumuku",
+		"es": "Pyukumuku",
+		"fr": "Concombaffe",
+		"it": "Pyukumuku",
+		"pt": "Pyukumuku"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

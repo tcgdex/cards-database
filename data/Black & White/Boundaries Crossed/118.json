@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Patrol",
+				"fr": "Patrouille"
+			},
+			"effect": {
+				"en": "Look at the top 3 cards of your deck and put them back on top of your deck in any order.",
+				"fr": "Regardez les 3 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		504
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Nagelotz",
+		"en": "Patrat",
+		"es": "Patrat",
+		"fr": "Ratentif",
+		"it": "Patrat",
+		"pt": "Patrat"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

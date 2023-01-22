@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cherchez dans votre deck une carte Supporter dont le nom comporte Holon, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Ou, cherchez dans votre pile de défausse une carte Supporter dont le nom comporte Holon, montrez-la à votre adversaire et placez-la dans votre main."
+	},
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Holon Transceiver",
+		"fr": "Émetteur-récepteur Holon"
+	},
+	"rarity": "Uncommon",
+	"set": "ex11",
+	"trainerType": "Tool"
+}

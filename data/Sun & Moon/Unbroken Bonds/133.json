@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Moon-Watching Dance",
+				"fr": "Danse au Clair de Lune",
+				"es": "Danza Contemplación Lunar",
+				"it": "Danza Lunare",
+				"pt": "Dança do Luar",
+				"de": "Mondschautanz"
+			},
+			"effect": {
+				"en": "This attack does 30 more damage for each of your Pokémon that has any Fairy Energy attached to it.",
+				"fr": "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon auquel de l’Énergie Fairy est attachée.",
+				"es": "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon que tenga alguna Energía Fairy unida a él.",
+				"it": "Questo attacco infligge 30 danni in più per ogni tuo Pokémon che abbia delle Energie Fairy assegnate.",
+				"pt": "Este ataque causa 30 pontos de dano a mais para cada um dos seus Pokémon que tiver alguma Energia Fairy ligada a ele.",
+				"de": "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl deiner Pokémon zu, an die mindestens 1 Fairy-Energie angelegt ist."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		36
+	],
+	"evolveFrom": {
+		"en": "Clefairy",
+		"fr": "Mélofée"
+	},
+	"hp": 110,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Pixi",
+		"en": "Clefable",
+		"es": "Clefable",
+		"fr": "Mélodelfe",
+		"it": "Clefable",
+		"pt": "Clefable"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Stage1",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

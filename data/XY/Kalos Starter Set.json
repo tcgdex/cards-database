@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 45,
+	"id": "xy0",
+	"name": {
+		"de": "Willkommen in Kalos",
+		"en": "Kalos Starter Set",
+		"fr": "Bienvenue à Kalos",
+		"it": "Benvenuti a Kalos",
+		"pt": "Conjunto para Iniciantes Kalos"
+	},
+	"releaseDate": "2013-11-08",
+	"serie": "xy",
+	"tcgOnline": "KSS"
+}

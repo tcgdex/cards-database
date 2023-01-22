@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche",
+				"es": "Cuchillada",
+				"it": "Lacerazione",
+				"pt": "Talho",
+				"de": "Schlitzer"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Raging Flames",
+				"fr": "Flammes Ardentes",
+				"es": "Llamas Rabiosas",
+				"it": "Fiamme Furiose",
+				"pt": "Chamas Furiosas",
+				"de": "Wütende Flammen"
+			},
+			"effect": {
+				"en": "Discard the top 3 cards of your deck.",
+				"fr": "Défaussez les 3 cartes du dessus de votre deck.",
+				"es": "Descarta las 3 primeras cartas de tu baraja.",
+				"it": "Scarta le prime tre carte del tuo mazzo.",
+				"pt": "Descarte as 3 cartas de cima do seu baralho.",
+				"de": "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws."
+	},
+	"evolveFrom": {
+		"en": "Charmander",
+		"fr": "Salamèche",
+		"es": "Charmander",
+		"it": "Charmander",
+		"pt": "Charmander",
+		"de": "Glumanda"
+	},
+	"hp": 90,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Glutexo",
+		"en": "Charmeleon",
+		"es": "Charmeleon",
+		"fr": "Reptincel",
+		"it": "Charmeleon",
+		"pt": "Charmeleon"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh4",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

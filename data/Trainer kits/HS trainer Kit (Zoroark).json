@@ -1,0 +1,12 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-bw-z",
+	"name": {
+		"en": "HS trainer Kit (Zoroark)",
+		"es": "Kit de Entrenador XY (Pikachu Enmascarada)",
+		"fr": "HS Kit du dresseur (Zoroark)"
+	},
+	"releaseDate": "2011-09-01",
+	"serie": "tk"
+}

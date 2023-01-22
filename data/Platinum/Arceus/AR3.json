@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bright Flame",
+				"fr": "Flamme éclatante"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard 2 Energy attached to Arceus.",
+				"fr": "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à Arceus."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		493
+	],
+	"hp": 80,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Arceus",
+		"fr": "Arceus"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Punch",
+				"fr": "Koud'Poing",
+				"es": "Puño",
+				"it": "Pugno",
+				"pt": "Soco",
+				"de": "Boxhieb"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
+	},
+	"dexId": [
+		852
+	],
+	"hp": 80,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Klopptopus",
+		"en": "Clobbopus",
+		"es": "Clobbopus",
+		"fr": "Poulpaf",
+		"it": "Clobbopus",
+		"pt": "Clobbopus"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

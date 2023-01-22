@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Burdensome Bone",
+				"fr": "Os Pesant",
+				"es": "Hueso Abrumador",
+				"it": "Osso Gravoso",
+				"pt": "Osso Penoso",
+				"de": "Last des Knochens"
+			},
+			"effect": {
+				"en": "This Pokémon can’t attack during your next turn.",
+				"fr": "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				"es": "Este Pokémon no puede atacar durante tu próximo turno.",
+				"it": "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				"pt": "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				"de": "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		104
+	],
+	"hp": 60,
+	"illustrator": "sowsow",
+	"name": {
+		"de": "Tragosso",
+		"en": "Cubone",
+		"es": "Cubone",
+		"fr": "Osselait",
+		"it": "Cubone",
+		"pt": "Cubone"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm6",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

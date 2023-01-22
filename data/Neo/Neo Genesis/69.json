@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Screech",
+				"fr": "Grincement"
+			},
+			"effect": {
+				"en": "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon.",
+				"fr": "Jusqu'à la fin de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 20 dégâts supplémentaires au Pokémon Défenseur."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Rage",
+				"fr": "Frénésie"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each damage counter on Onix.",
+				"fr": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Onix."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il serpente et ondule à travers le sol. Le rugissement bruyant de son excavation résonne très loin."
+	},
+	"dexId": [
+		95
+	],
+	"hp": 60,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Onix",
+		"fr": "Onix"
+	},
+	"rarity": "Common",
+	"set": "neo1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

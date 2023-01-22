@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-xy-sy",
+	"name": {
+		"en": "XY trainer Kit (Sylveon)",
+		"es": "Kit de Entrenador XY (Pikachu Enmascarada)",
+		"fr": "XY Kit du dresseur (Nymphali)",
+		"it": "XY trainer Kit (Sylveon)"
+	},
+	"releaseDate": "2014-03-12",
+	"serie": "tk"
+}

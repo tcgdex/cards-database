@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Knock Off"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Flip a coin. If heads, discard a random card from your opponent’s hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect."
+	},
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Purrloin"
+	},
+	"rarity": "None",
+	"set": "2012bw",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

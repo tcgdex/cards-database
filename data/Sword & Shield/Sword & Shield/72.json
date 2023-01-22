@@ -1,0 +1,83 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Spike Draw",
+				"fr": "Pique-Pioche",
+				"es": "Robo Pico",
+				"it": "Battipesca",
+				"pt": "Comprada Espinhosa",
+				"de": "Stachelzug"
+			},
+			"effect": {
+				"en": "Draw 2 cards.",
+				"fr": "Piochez 2 cartes.",
+				"es": "Roba 2 cartas.",
+				"it": "Pesca due carte.",
+				"pt": "Compre 2 cartas.",
+				"de": "Ziehe 2 Karten."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunderous Bolt",
+				"fr": "Éclair du Tonnerre",
+				"es": "Rayo Atronador",
+				"it": "Fulmine Tonante",
+				"pt": "Raio Estrondoso",
+				"de": "Donnernder Einschlag"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				"es": "Durante tu próximo turno, este Pokémon no puede atacar.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			},
+			"damage": 200
+		}
+	],
+	"category": "Pokemon",
+	"hp": 200,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"de": "Kapu-Riki V",
+		"en": "Tapu Koko V",
+		"es": "Tapu Koko V",
+		"fr": "Tokorico V",
+		"it": "Tapu Koko V",
+		"pt": "Tapu Koko V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 0,
+	"set": "swsh1",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

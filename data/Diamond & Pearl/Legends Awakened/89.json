@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Knock Off",
+				"fr": "Sabotage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
+				"fr": "Lancez une pièce. Si c'est face, choisissez sans regarder une carte de la main de votre adversaire et défaussez-la."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Irongrip",
+				"fr": "Poigne de fer"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Sa nature robuste lui permet de vivre sur n'importe quel terrain. Ses pinces ne lâchent jamais prise."
+	},
+	"dexId": [
+		341
+	],
+	"hp": 50,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Corphish",
+		"fr": "Ecrapince"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+10"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Flame Cloak"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Attach a Fire Energy card from your discard pile to this Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Exciting Flame"
+			},
+			"damage": 90,
+			"effect": {
+				"en": "If this Pokémon has at least 3 extra Energy attached (in addition to this attack's cost), this attack also does 180 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides."
+	},
+	"hp": 110,
+	"illustrator": "Oswaldo KATO",
+	"name": {
+		"de": "Furnifraß",
+		"en": "Heatmor",
+		"es": "Heatmor",
+		"fr": "Aflamanoir",
+		"it": "Heatmor",
+		"pt": "Heatmor"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

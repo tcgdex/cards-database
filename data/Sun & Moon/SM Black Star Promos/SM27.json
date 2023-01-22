@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Cloak",
+				"fr": "Manteau de Feu",
+				"es": "Manto Ígneo",
+				"it": "Radunafuoco",
+				"pt": "Manto de Chamas",
+				"de": "Flammenumhang"
+			},
+			"effect": {
+				"en": "Attach a Fire Energy card from your discard pile to this Pokémon.",
+				"fr": "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
+				"es": "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
+				"it": "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
+				"pt": "Ligue um card de Energia Fire da sua pilha de descarte a este Pokémon.",
+				"de": "Nimm 1 Fire-Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Blast",
+				"fr": "Explosion de Chaleur",
+				"es": "Explosión de Calor",
+				"it": "Caldobomba",
+				"pt": "Raio de Calor",
+				"de": "Hitzestoß"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		776
+	],
+	"hp": 130,
+	"illustrator": "TOKIYA",
+	"name": {
+		"de": "Tortunator",
+		"en": "Turtonator",
+		"es": "Turtonator",
+		"fr": "Boumata",
+		"it": "Turtonator",
+		"pt": "Turtonator"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

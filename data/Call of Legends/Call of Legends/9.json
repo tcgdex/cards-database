@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scorching Wing",
+				"fr": "Aile brûlante"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard all Fire Energy attached to Ho-Oh.",
+				"fr": "Lancez une pièce. Si c’est pile, défaussez toutes les Énergies Fire attachées à Ho-Oh."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		250
+	],
+	"hp": 100,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Ho-Oh",
+		"fr": "Ho-Oh"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

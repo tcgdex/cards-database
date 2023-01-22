@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Pikipek",
+		"fr": "Picassaut",
+		"es": "Pikipek",
+		"it": "Pikipek",
+		"pt": "Pikipek",
+		"de": "Peppeck"
+	},
+	"hp": 80,
+	"name": {
+		"de": "Trompeck",
+		"en": "Trumbeak",
+		"es": "Trumbeak",
+		"fr": "Piclairon",
+		"it": "Trumbeak",
+		"pt": "Trumbeak"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-sm-l",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Energy Mix"
+			},
+			"effect": {
+				"en": "Search your deck for an Energy card and attach it to 1 of your Fusion Strike Pokémon. Then, shuffle your deck."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic Leap"
+			},
+			"damage": 70,
+			"effect": {
+				"en": "You may shuffle this Pokémon and all attached cards into your deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 180,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Mew V",
+		"en": "Mew V",
+		"es": "Mew V",
+		"fr": "Mew V",
+		"it": "Mew V",
+		"pt": "Mew V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 0,
+	"set": "swsh8",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

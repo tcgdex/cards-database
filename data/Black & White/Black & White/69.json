@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Spit Acid",
+				"fr": "Crachat d’Acide"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.",
+				"fr": "Le Pokémon Défenseur est maintenant Brûlé. Lancez une pièce. Si c’est face, le Pokémon Défenseur est aussi Paralysé."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "High Jump Kick",
+				"fr": "Pied Voltige"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		560
+	],
+	"evolveFrom": {
+		"en": "Scraggy",
+		"fr": "Baggiguane"
+	},
+	"hp": 90,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Irokex",
+		"en": "Scrafty",
+		"es": "Scrafty",
+		"fr": "Baggaïd",
+		"it": "Scrafty",
+		"pt": "Scrafty"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw1",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

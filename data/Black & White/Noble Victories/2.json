@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "String Shot",
+				"fr": "Sécrétion"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		541
+	],
+	"evolveFrom": {
+		"en": "Sewaddle",
+		"fr": "Larveyette"
+	},
+	"hp": 70,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Folikon",
+		"en": "Swadloon",
+		"es": "Swadloon",
+		"fr": "Couverdure",
+		"it": "Swadloon",
+		"pt": "Swadloon"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

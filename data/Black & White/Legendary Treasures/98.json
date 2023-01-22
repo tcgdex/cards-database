@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crunch"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Dragon Claw"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		634
+	],
+	"evolveFrom": {
+		"en": "Deino"
+	},
+	"hp": 80,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Zweilous"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

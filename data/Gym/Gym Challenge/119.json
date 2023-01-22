@@ -1,0 +1,10 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Rocket's Minefield Gym"
+	},
+	"rarity": "Uncommon",
+	"set": "gym2"
+}

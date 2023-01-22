@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Déplacez une carte Énergie de base attachée à 1 de vos Pokémon sur un autre de vos Pokémon."
+	},
+	"illustrator": "Ken Ikuji",
+	"name": {
+		"en": "Energy Switch",
+		"fr": "Échange d'Énergie"
+	},
+	"rarity": "Uncommon",
+	"set": "ex10",
+	"trainerType": "Item"
+}

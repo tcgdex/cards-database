@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Misinformation",
+				"fr": "Intox"
+			},
+			"effect": {
+				"en": "Discard all Pokémon Tool cards attached to each of your opponent's Pokémon.",
+				"fr": "Défaussez toutes les cartes Outil Pokémon attachées à chacun des Pokémon de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tone-Deaf",
+				"fr": "Dur d'Oreille"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		441
+	],
+	"hp": 60,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Plaudagei",
+		"en": "Chatot",
+		"es": "Chatot",
+		"fr": "Pijako",
+		"it": "Chatot",
+		"pt": "Chatot"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw10",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

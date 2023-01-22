@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Psywave",
+				"fr": "Vague psy"
+			},
+			"effect": {
+				"en": "Does 20 damage times the amount of Energy attached to the Defending Pokémon.",
+				"fr": "Inflige 20 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur."
+			},
+			"damage": "20×"
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde folie"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "In South America, it is said that its right eye sees the future and its left eye views the past."
+	},
+	"dexId": [
+		178
+	],
+	"evolveFrom": {
+		"en": "Natu",
+		"fr": "Natu"
+	},
+	"hp": 90,
+	"illustrator": "sui",
+	"name": {
+		"en": "Xatu",
+		"fr": "Xatu"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss2",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

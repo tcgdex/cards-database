@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Collect",
+				"fr": "Collecte",
+				"es": "Coleccionar",
+				"it": "Tassa",
+				"pt": "Coleta",
+				"de": "Sammeln"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre 1 carta.",
+				"de": "Ziehe 1 Karte."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Punch",
+				"fr": "Koud'Poing",
+				"es": "Puño",
+				"it": "Pugno",
+				"pt": "Soco",
+				"de": "Boxhieb"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "These very cowardly Pokémon join together and use Reflect to protect their nest."
+	},
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Ledyba",
+		"en": "Ledyba",
+		"es": "Ledyba",
+		"fr": "Coxy",
+		"it": "Ledyba",
+		"pt": "Ledyba"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

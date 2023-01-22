@@ -1,0 +1,11 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 160,
+	"id": "jumbo",
+	"name": {
+		"en": "Jumbo cards",
+		"fr": "Cartes Jumbo"
+	},
+	"releaseDate": "2000-02-01",
+	"serie": "misc"
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 12,
+	"id": "tk-ex-n",
+	"name": {
+		"en": "EX trainer Kit 2 (Ninun)",
+		"es": "Kit de Entrenador EX (Ninun)",
+		"fr": "EX Kit dresseur (Négapi)",
+		"it": "EX trainer Kit (Ninun)"
+	},
+	"releaseDate": "2006-03-01",
+	"serie": "tk"
+}

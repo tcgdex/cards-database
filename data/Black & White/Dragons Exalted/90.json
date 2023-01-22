@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Mach Cut",
+				"fr": "Coupe Vive"
+			},
+			"effect": {
+				"en": "Discard a Special Energy attached to the Defending Pokémon.",
+				"fr": "Défaussez une Énergie spéciale attachée au Pokémon Défenseur."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Water",
+				"Fighting"
+			],
+			"name": {
+				"en": "Dragonblade",
+				"fr": "Draco-Lame"
+			},
+			"effect": {
+				"en": "Discard the top 2 cards of your deck.",
+				"fr": "Défaussez les 2 cartes du dessus de votre deck."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		445
+	],
+	"evolveFrom": {
+		"en": "Gabite",
+		"fr": "Carmache"
+	},
+	"hp": 140,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Knakrack",
+		"en": "Garchomp",
+		"es": "Garchomp",
+		"fr": "Carchacrok",
+		"it": "Garchomp",
+		"pt": "Garchomp"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw6",
+	"stage": "Stage2",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

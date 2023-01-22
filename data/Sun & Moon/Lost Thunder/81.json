@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Flop",
+				"fr": "Flop",
+				"es": "Vuelta",
+				"it": "Tonfo",
+				"pt": "Baque",
+				"de": "Plumps"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Zap Kick",
+				"fr": "Coup de Pied Ravageur",
+				"es": "Electropatada",
+				"it": "Dinamocalcio",
+				"pt": "Chute Zap",
+				"de": "Stromtritt"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		522
+	],
+	"hp": 70,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Elezeba",
+		"en": "Blitzle",
+		"es": "Blitzle",
+		"fr": "Zébibron",
+		"it": "Blitzle",
+		"pt": "Blitzle"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

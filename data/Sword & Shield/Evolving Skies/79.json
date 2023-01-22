@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Tricky Steps",
+				"fr": "Pas Délicats",
+				"es": "Pasos Astutos",
+				"it": "Passinganno",
+				"pt": "Tricky Steps",
+				"de": "Listiges Vorgehen"
+			},
+			"effect": {
+				"en": "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+				"fr": "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
+				"es": "Puedes mover 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
+				"it": "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
+				"pt": "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+				"de": "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben."
+			},
+			"damage": 30,
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Ribombee absolutely hate getting wet or rained on. In the cloudy Galar region, they are very seldom seen."
+	},
+	"dexId": [
+		743
+	],
+	"evolveFrom": {
+		"en": "Cutiefly",
+		"fr": "Bombydou",
+		"es": "Cutiefly",
+		"it": "Cutiefly",
+		"pt": "Cutiefly",
+		"de": "Wommel"
+	},
+	"hp": 70,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Bandelby",
+		"en": "Ribombee",
+		"es": "Ribombee",
+		"fr": "Rubombelle",
+		"it": "Ribombee",
+		"pt": "Ribombee"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 0,
+	"set": "swsh7",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

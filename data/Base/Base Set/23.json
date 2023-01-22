@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flamethrower",
+				"fr": "Lance-Flamme"
+			},
+			"effect": {
+				"en": "Discard 1 Energy card attached to Arcanine in order to use this attack.",
+				"fr": "Défaussez 1 carte Énergie  attachée à Arcanin pour pouvoir utiliser cette attaque."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down",
+				"fr": "Bélier"
+			},
+			"effect": {
+				"en": "Arcanine does 30 damage to itself.",
+				"fr": "Arcanin s'inflige 30 dégâts."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent."
+	},
+	"dexId": [
+		59
+	],
+	"evolveFrom": {
+		"en": "Growlithe"
+	},
+	"hp": 100,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Arcanine",
+		"fr": "Arcanin"
+	},
+	"rarity": "Uncommon",
+	"set": "base1",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Battery",
+				"fr": "Batterie",
+				"es": "Batería",
+				"it": "Batteria",
+				"pt": "Bateria",
+				"de": "Batterie"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may attach this card from your hand to 1 of your Vikavolt or Vikavolt-GX as a Special Energy card. This card provides 2 Lightning Energy only while it’s attached to a Pokémon.",
+				"fr": "L’attacher à Lucanon ou Lucanon-GX comme carte Énergie spéciale.",
+				"es": "Une a Vikavolt o Vikavolt-GX como una carta de Energía Especial.",
+				"it": "Assegna a Vikavolt o Vikavolt-GX come carta Energia speciale.",
+				"pt": "Ligar a Vikavolt ou Vikavolt-GX como uma carta de Energia Especial.",
+				"de": "Lege sie als Spezial-Energiekarte an Donarion oder Donarion-GX an."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pierce",
+				"fr": "Transpercement",
+				"es": "Perforar",
+				"it": "Perforare",
+				"pt": "Perfurar",
+				"de": "Durchbohren"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		737
+	],
+	"evolveFrom": {
+		"en": "Grubbin",
+		"fr": "Larvibule"
+	},
+	"hp": 80,
+	"illustrator": "Sekio",
+	"name": {
+		"de": "Akkup",
+		"en": "Charjabug",
+		"es": "Charjabug",
+		"fr": "Chrysapile",
+		"it": "Charjabug",
+		"pt": "Charjabug"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "sm10",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

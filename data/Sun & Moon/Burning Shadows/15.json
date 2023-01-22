@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bubble Net",
+				"fr": "Filet de Bulles",
+				"es": "Red Pompa",
+				"it": "Retebolla",
+				"pt": "Rede de Bolha",
+				"de": "Wasserblasennetz"
+			},
+			"effect": {
+				"en": "Energy can’t be attached to the Defending Pokémon from your opponent’s hand during their next turn.",
+				"fr": "Aucune Énergie ne peut être attachée au Pokémon Défenseur de la main de votre adversaire pendant son prochain tour.",
+				"es": "No se puede unir Energía al Pokémon Defensor de la mano de tu rival durante su próximo turno.",
+				"it": "Nessuna Energia può essere assegnata al Pokémon difensore dalla mano del tuo avversario durante il suo prossimo turno.",
+				"pt": "Energias não poderão ser ligadas ao Pokémon Defensor da mão do seu oponente durante a próxima vez dele(a) jogar.",
+				"de": "Energie aus der Hand deines Gegners kann während seines nächsten Zuges nicht an das Verteidigende Pokémon angelegt werden."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sharp Fang",
+				"fr": "Croc Aiguisé",
+				"es": "Colmillo Afilado",
+				"it": "Zannaffilata",
+				"pt": "Presa Afiada",
+				"de": "Scharfe Fänge"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		752
+	],
+	"evolveFrom": {
+		"en": "Dewpider",
+		"fr": "Araqua"
+	},
+	"hp": 100,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Aranestro",
+		"en": "Araquanid",
+		"es": "Araquanid",
+		"fr": "Tarenbulle",
+		"it": "Araquanid",
+		"pt": "Araquanid"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "sm3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

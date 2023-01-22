@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Pidove",
+		"fr": "Poichigeon",
+		"es": "Pidove",
+		"it": "Pidove",
+		"pt": "Pidove",
+		"de": "Dusselgurr"
+	},
+	"hp": 70,
+	"name": {
+		"de": "Navitaub",
+		"en": "Tranquill",
+		"es": "Tranquill",
+		"fr": "Colombeau",
+		"it": "Tranquill",
+		"pt": "Tranquill"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-bw-z",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

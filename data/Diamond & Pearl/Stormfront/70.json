@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pika Punch",
+				"fr": "Pika-poing"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Speed Bolt",
+				"fr": "Boulon vitesse"
+			},
+			"effect": {
+				"en": "If Pikachu evolved from Pichu during this turn, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn.",
+				"fr": "Si Pikachu a évolué de Pichu lors de ce tour, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Pikachu lors du prochain tour de votre adversaire."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
+	},
+	"dexId": [
+		25
+	],
+	"evolveFrom": {
+		"fr": "Pikachu"
+	},
+	"hp": 70,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Pikachu",
+		"fr": "Pikachu"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

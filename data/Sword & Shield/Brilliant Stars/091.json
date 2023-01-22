@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Trade",
+				"fr": "Troc",
+				"es": "Intercambiar",
+				"it": "Contraccambio",
+				"pt": "Troca",
+				"de": "Ersetzen"
+			},
+			"effect": {
+				"en": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards.",
+				"fr": "Vous devez défausser une carte de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher 2 cartes.",
+				"es": "Debes descartar 1 carta de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes robar 2 cartas.",
+				"it": "Devi scartare una carta che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare due carte.",
+				"pt": "Você deve descartar 1 carta da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar 2 cartas.",
+				"de": "Du musst 1 Karte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 2 Karten ziehen."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche",
+				"es": "Cuchillada",
+				"it": "Lacerazione",
+				"pt": "Talho",
+				"de": "Schlitzer"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Purrloin",
+		"fr": "Chacripan",
+		"es": "Purrloin",
+		"it": "Purrloin",
+		"pt": "Purrloin",
+		"de": "Felilou"
+	},
+	"hp": 100,
+	"name": {
+		"de": "Kleoparda",
+		"en": "Liepard",
+		"es": "Liepard",
+		"fr": "Léopardus",
+		"it": "Liepard",
+		"pt": "Liepard"
+	},
+	"rarity": "Rare",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh9",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	]
+}

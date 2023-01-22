@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe",
+				"es": "Arañazo",
+				"it": "Graffio",
+				"pt": "Arranhão",
+				"de": "Kratzer"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		677
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Psiau",
+		"en": "Espurr",
+		"es": "Espurr",
+		"fr": "Psystigri",
+		"it": "Espurr",
+		"pt": "Espurr"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy9",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

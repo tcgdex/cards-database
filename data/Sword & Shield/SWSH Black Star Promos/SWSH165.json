@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Union Gain"
+			},
+			"effect": {
+				"en": "Attach up to 2 Metal Energy cards from your discard pile to this Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dance of the Crowned Sword"
+			},
+			"damage": 150,
+			"effect": {
+				"en": "During your opponent's next turn, the Defending Pokémon's attacks do 150 less damage (before applying Weakness and Resistance)."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Steel Cut"
+			},
+			"damage": 200
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Master Blade"
+			},
+			"damage": 340,
+			"effect": {
+				"en": "Discard 3 Energy from this Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"hp": 320,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"en": "Zacian V-UNION"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"set": "swshp",
+	"stage": "V-UNION",
+	"suffix": "V",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

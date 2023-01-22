@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunderbolt",
+				"fr": "Tonnerre"
+			},
+			"effect": {
+				"en": "Discard all Energy cards attached to Pikachu in order to use this attack.",
+				"fr": "Défaussez toutes les cartes Énergie attachées à Pikachu."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue."
+	},
+	"dexId": [
+		25
+	],
+	"hp": 40,
+	"illustrator": "Gakuji Nomoto",
+	"name": {
+		"en": "Pikachu",
+		"fr": "Pikachu"
+	},
+	"rarity": "Common",
+	"set": "basep",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

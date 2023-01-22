@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Outrage"
+			},
+			"effect": {
+				"en": "Does 10 more damage for each damage counter on this Pokémon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blue Flare"
+			},
+			"effect": {
+				"en": "Discard 2 Fire Energy attached to this Pokémon."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		643
+	],
+	"hp": 130,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Reshiram"
+	},
+	"rarity": "Secret Rare",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

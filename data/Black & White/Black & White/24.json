@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Singe",
+				"fr": "Roussi"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned.",
+				"fr": "Le Pokémon Défenseur est maintenant Brûlé."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		554
+	],
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Flampion",
+		"en": "Darumaka",
+		"es": "Darumaka",
+		"fr": "Darumarond",
+		"it": "Darumaka",
+		"pt": "Darumaka"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

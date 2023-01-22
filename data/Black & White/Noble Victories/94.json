@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Si le Pokémon auquel cette carte est attachée est votre Pokémon Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même si le Pokémon est mis K.O.), placez 2 marqueurs de dégâts sur le Pokémon Attaquant.",
+		"en": "If the Pokémon this card is attached to is your Active Pokémon and is damaged by an opponent’s attack (even if that Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+		"es": "Si el Pokémon al que está unida esta carta es tu Pokémon Básico y resulta dañado por el ataque de un rival (incluso si ese Pokémon queda Fuera de Combate), pon 2 contadores de daño en el Pokémon Atacante.",
+		"it": "Se il Pokémon a cui è stata assegnata questa carta è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo K.O., metti due segnalini danno sul Pokémon attaccante.",
+		"pt": "Se este card estiver ligado a seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), coloque 2 marcadores de danos no Pokémon Atacante.",
+		"de": "Wenn das Pokémon, an dem diese Karte angelegt ist, dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Beulenhelm",
+		"en": "Rocky Helmet",
+		"es": "Casco Dentado",
+		"fr": "Casque Brut",
+		"it": "Bitorzolelmo",
+		"pt": "Capacete de Pedra"
+	},
+	"rarity": "Uncommon",
+	"set": "bw3",
+	"trainerType": "Tool"
+}

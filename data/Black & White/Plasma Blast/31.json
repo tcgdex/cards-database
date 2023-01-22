@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Razor Fin",
+				"fr": "Aileron-Rasoir"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		602
+	],
+	"hp": 30,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Zapplardin",
+		"en": "Tynamo",
+		"es": "Tynamo",
+		"fr": "Anchwatt",
+		"it": "Tynamo",
+		"pt": "Tynamo"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw10",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

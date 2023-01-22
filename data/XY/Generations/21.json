@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Vice Grip",
+				"fr": "Force Poigne"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Crabhammer",
+				"fr": "Pince-Masse"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		98
+	],
+	"hp": 70,
+	"illustrator": "kirisAki",
+	"name": {
+		"en": "Krabby",
+		"fr": "Krabby"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "g1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

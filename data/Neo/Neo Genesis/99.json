@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Baie à un de vos Pokémon qui n'a pas d'Outil Pokémon attaché à lui.\n\nN'importe quand entre deux tours, si le Pokémon auquel est attaché Baie a au moins 2 marqueurs de dégâts, vous pouvez retirer 2 de ces marqueurs et défausser Baie. Au début de chaque tour, si le Pokémon auquel est attaché Baie a au moins 2 marqueurs de dégâts, retirez 2 de ces marqueurs et défausser Baie."
+	},
+	"name": {
+		"en": "Berry",
+		"fr": "Baie"
+	},
+	"rarity": "Common",
+	"set": "neo1"
+}

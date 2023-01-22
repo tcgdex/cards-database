@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est face, choisissez 1 de vos Pokémon (Pokémon-ex exclus). Retirez à ce Pokémon tous ses États Spéciaux et 6 marqueurs de dégât (retirez-les lui tous s'il en a moins de 6)."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Life Herb",
+		"fr": "Herbe sauveuse"
+	},
+	"rarity": "Uncommon",
+	"set": "ex5",
+	"trainerType": "Item"
+}

@@ -1,0 +1,94 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Grass Knot",
+				"fr": "Nœud Herbe",
+				"es": "Hierba Lazo",
+				"it": "Laccioerboso",
+				"pt": "Grass Knot",
+				"de": "Strauchler"
+			},
+			"effect": {
+				"en": "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+				"fr": "Cette attaque inflige 60 dégâts pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				"es": "Este ataque hace 60 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+				"it": "Questo attacco infligge 60 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+				"pt": "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+				"de": "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 60 Schadenspunkte zu."
+			},
+			"damage": "60×",
+			"cost": [
+				"Grass",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Max Leaf",
+				"fr": "Feuillomax",
+				"es": "Maxihoja",
+				"it": "Dynafoglia",
+				"pt": "Max Leaf",
+				"de": "Dyna-Blatt"
+			},
+			"effect": {
+				"en": "Heal 30 damage from this Pokémon.",
+				"fr": "Soignez 30 dégâts de ce Pokémon.",
+				"es": "Cura 30 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 30 danni.",
+				"pt": "Heal 30 damage from this Pokémon.",
+				"de": "Heile 30 Schadenspunkte bei diesem Pokémon."
+			},
+			"damage": 170,
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		470
+	],
+	"evolveFrom": {
+		"en": "Leafeon V",
+		"fr": "Phyllali-V",
+		"es": "Leafeon V",
+		"it": "Leafeon-V",
+		"pt": "Leafeon V",
+		"de": "Folipurba-V"
+	},
+	"hp": 310,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"de": "Folipurba VMAX",
+		"en": "Leafeon VMAX",
+		"es": "Leafeon VMAX",
+		"fr": "Phyllali VMAX",
+		"it": "Leafeon VMAX",
+		"pt": "Leafeon VMAX"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh7",
+	"stage": "VMAX",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

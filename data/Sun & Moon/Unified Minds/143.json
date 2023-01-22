@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Dust Gathering",
+				"fr": "Ramasse Poussière",
+				"es": "Concentración de Polvo",
+				"it": "Coglipolvere",
+				"pt": "Coleta de Poeira",
+				"de": "Staubfänger"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre 1 carta.",
+				"de": "Ziehe 1 Karte."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		546
+	],
+	"hp": 60,
+	"illustrator": "Asako Ito",
+	"name": {
+		"de": "Waumboll",
+		"en": "Cottonee",
+		"es": "Cottonee",
+		"fr": "Doudouvet",
+		"it": "Cottonee",
+		"pt": "Cottonee"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

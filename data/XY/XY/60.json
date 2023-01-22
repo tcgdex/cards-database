@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Dig Out",
+				"fr": "Excavation",
+				"es": "Cavar",
+				"it": "Scavata",
+				"pt": "Escavar",
+				"de": "Freischaufeln"
+			},
+			"effect": {
+				"en": "Discard the top card of your deck. If that card is a Fighting Energy card, attach it to this Pokémon.",
+				"fr": "Défaussez la carte du dessus de votre deck. Si c'est une carte Énergie Fighting, attachez-la à ce Pokémon.",
+				"es": "Descarta la primera carta de tu baraja. Si es una carta de Energía Fighting, únela a este Pokémon.",
+				"it": "Scarta la carta in cima al tuo mazzo. Se è una carta Energia Fighting, assegnala a questo Pokémon.",
+				"pt": "Descarte o card de cima do seu baralho. Se esse card for um card de Energia Fighting, ligue-o a este Pokémon.",
+				"de": "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Handelt es sich um eine Fighting-Energiekarte, lege sie an dieses Pokémon an."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Drill",
+				"fr": "Empal'Korne",
+				"es": "Perforador",
+				"it": "Perforcorno",
+				"pt": "Chifre Broca",
+				"de": "Hornbohrer"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		111
+	],
+	"hp": 80,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Rihorn",
+		"en": "Rhyhorn",
+		"es": "Rhyhorn",
+		"fr": "Rhinocorne",
+		"it": "Rhyhorn",
+		"pt": "Rhyhorn"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "xy1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 146,
+	"id": "xy1",
+	"name": {
+		"de": "XY",
+		"en": "XY",
+		"es": "XY",
+		"fr": "XY",
+		"it": "XY",
+		"pt": "XY"
+	},
+	"releaseDate": "2014-02-05",
+	"serie": "xy",
+	"tcgOnline": "XY"
+}

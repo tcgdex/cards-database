@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Tranch'Herbe",
+				"en": "Razor Leaf",
+				"es": "Hoja Afilada",
+				"it": "Foglielama",
+				"pt": "Folha Navalha",
+				"de": "Rasierblatt"
+			},
+			"damage": 40,
+			"cost": [
+				"Grass"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
+	},
+	"evolveFrom": {
+		"fr": "Brindibou",
+		"en": "Rowlet"
+	},
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Arboretoss",
+		"en": "Dartrix",
+		"es": "Dartrix",
+		"fr": "Efflèche",
+		"it": "Dartrix",
+		"pt": "Dartrix"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

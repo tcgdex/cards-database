@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hang Down",
+				"fr": "Suspension",
+				"es": "Prender",
+				"it": "Tirar Giù",
+				"pt": "Dependurar",
+				"de": "Herunterhängen"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"hp": 60,
+	"name": {
+		"de": "Burmy",
+		"en": "Burmy",
+		"es": "Burmy",
+		"fr": "Cheniti",
+		"it": "Burmy",
+		"pt": "Burmy"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh9",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 100,
+	"id": "ex14",
+	"name": {
+		"de": "EX Crystal Guardians",
+		"en": "Crystal Guardians",
+		"fr": "EX Gardiens de Cristal",
+		"it": "EX Guardiani dei Cristalli"
+	},
+	"releaseDate": "2006-08-30",
+	"serie": "ex",
+	"tcgOnline": "CG"
+}

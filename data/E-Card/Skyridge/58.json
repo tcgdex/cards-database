@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Energy Patch"
+			},
+			"effect": {
+				"en": "Take a basic Energy card attached to 1 of your Pokémon and attach it to another of your Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Syncroblast"
+			},
+			"effect": {
+				"en": "If Girafarig and the Defending Pokémon don't have the same number of Energy cards attached to them, this attack's base damage is 10 instead of 40."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		203
+	],
+	"hp": 60,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Girafarig"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

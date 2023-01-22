@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Force Regeneration"
+			},
+			"effect": {
+				"en": "Put a Basic Pokémon V from your opponent's discard pile onto their Bench. If you do, put damage counters on that Pokémon until its remaining HP is 30."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spooky Shot"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Be cautious of the ectoplasmic body surrounding its soul. You'll become stiff as stone if you touch it."
+	},
+	"evolveFrom": {
+		"en": "Galarian Corsola",
+		"fr": "Corayon de Galar",
+		"es": "Corsola de Galar",
+		"it": "Corsola di Galar",
+		"pt": "Corsola de Galar",
+		"de": "Galar-Corasonn"
+	},
+	"hp": 100,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Galar-Gorgasonn",
+		"en": "Galarian Cursola",
+		"es": "Cursola de Galar",
+		"fr": "Corayôme de Galar",
+		"it": "Cursola di Galar",
+		"pt": "Cursola de Galar"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

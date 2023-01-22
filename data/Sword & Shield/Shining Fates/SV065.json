@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Attaque Imprudente",
+				"en": "Reckless Charge",
+				"es": "Carga Descuidada",
+				"it": "Carica Avventata",
+				"pt": "Carga Indomável",
+				"de": "Waghalsiger Sturmangriff"
+			},
+			"effect": {
+				"fr": "Ce Pokémon s'inflige aussi 30 dégâts.",
+				"en": "This Pokémon also does 30 damage to itself.",
+				"es": "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				"it": "Questo Pokémon infligge anche 30 danni a se stesso.",
+				"pt": "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				"de": "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			},
+			"damage": 50,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
+	},
+	"hp": 70,
+	"illustrator": "sowsow",
+	"name": {
+		"de": "Galar-Makabaja",
+		"en": "Galarian Yamask",
+		"es": "Yamask de Galar",
+		"fr": "Tutafeh de Galar",
+		"it": "Yamask di Galar",
+		"pt": "Yamask de Galar"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

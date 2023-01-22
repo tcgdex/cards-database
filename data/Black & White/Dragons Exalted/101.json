@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smack 'n' Slack",
+				"fr": "Raclée Dodo"
+			},
+			"effect": {
+				"en": "This Pokémon is now Asleep.",
+				"fr": "Ce Pokémon est maintenant Endormi."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		287
+	],
+	"hp": 60,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Bummelz",
+		"en": "Slakoth",
+		"es": "Slakoth",
+		"fr": "Parecool",
+		"it": "Slakoth",
+		"pt": "Slakoth"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw6",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

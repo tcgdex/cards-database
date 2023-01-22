@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Bounce",
+				"fr": "Faire des bonds"
+			},
+			"effect": {
+				"en": "You may switch Hoppip with 1 of your Benched Pokémon.",
+				"fr": "Vous pouvez échanger Granivol contre un Pokémon de votre Banc."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "To keep from being blown away by the wind, they gather in clusters. But they do enjoy gentle breezes."
+	},
+	"dexId": [
+		187
+	],
+	"hp": 30,
+	"illustrator": "sui",
+	"name": {
+		"en": "Hoppip",
+		"fr": "Granivol"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Astonish",
+				"fr": "Étonnement"
+			},
+			"effect": {
+				"en": "Choose 2 cards from your opponent’s hand without looking. Look at the cards you chose, then have your opponent shuffle those cards into his or her deck.",
+				"fr": "Choisissez au hasard 2 cartes dans la main de votre adversaire. Regardez les cartes que vous avez choisies, puis demandez à votre adversaire de les mélanger avec son deck."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Spank",
+				"fr": "Matraqueue"
+			},
+			"effect": {
+				"en": "Discard 2 cards from your hand. (If you can’t discard 2 cards from your hand, this attack does nothing.)",
+				"fr": "Défaussez 2 cartes de votre main. (Si vous ne pouvez pas, cette attaque ne fait rien.)"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They live on large trees. They are said to communicate by connecting their tails to those of others."
+	},
+	"dexId": [
+		424
+	],
+	"evolveFrom": {
+		"en": "Aipom",
+		"fr": "Capumain"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Ambipom",
+		"fr": "Capidextre"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

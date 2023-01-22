@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Time Reversal"
+			},
+			"effect": {
+				"en": "Once during your turn, when you put Celebi ex from your hand onto your Bench, you may search your discard pile for a card, show it to your opponent, and put it on top of your deck."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic Shield"
+			},
+			"effect": {
+				"en": "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent’s Pokémon-ex during your opponent’s next turn."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		251
+	],
+	"hp": 80,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Celebi ex"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pop2",
+	"stage": "Basic",
+	"suffix": "EX",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Écharde de cristal à 1 de vos Pokémon qui ne possède pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O., défaussez-la.\n\nTant que cette carte est attachée à un Pokémon, ce Pokémon est de type . S'il attaque, défaussez cette carte à la fin du tour."
+	},
+	"illustrator": "Jungo Suzuki",
+	"name": {
+		"en": "Crystal Shard",
+		"fr": "Écharde de cristal"
+	},
+	"rarity": "Uncommon",
+	"set": "ex8",
+	"trainerType": "Tool"
+}

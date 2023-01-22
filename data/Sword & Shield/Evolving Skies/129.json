@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Smack 'n' Slack",
+				"fr": "Raclée Dodo",
+				"es": "Manotazo y Relajo",
+				"it": "Schiaffopisolo",
+				"pt": "Smack 'n' Slack",
+				"de": "Raufen und Ratzen"
+			},
+			"effect": {
+				"en": "This Pokémon is now Asleep.",
+				"fr": "Ce Pokémon est maintenant Endormi.",
+				"es": "Este Pokémon pasa a estar Dormido.",
+				"it": "Questo Pokémon viene addormentato.",
+				"pt": "This Pokémon is now Asleep.",
+				"de": "Dieses Pokémon schläft jetzt."
+			},
+			"damage": 30,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day."
+	},
+	"dexId": [
+		287
+	],
+	"hp": 70,
+	"illustrator": "OKACHEKE",
+	"name": {
+		"de": "Bummelz",
+		"en": "Slakoth",
+		"es": "Slakoth",
+		"fr": "Parecool",
+		"it": "Slakoth",
+		"pt": "Slakoth"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

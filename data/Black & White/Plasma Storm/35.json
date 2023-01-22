@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Snow Squall",
+				"fr": "Rafale de Neige"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		582
+	],
+	"hp": 60,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Gelatini",
+		"en": "Vanillite",
+		"es": "Vanillite",
+		"fr": "Sorbébé",
+		"it": "Vanillite",
+		"pt": "Vanillite"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

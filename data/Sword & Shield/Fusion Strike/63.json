@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mud-Slap"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Energy Loop"
+			},
+			"damage": 80,
+			"effect": {
+				"en": "Put an Energy attached to this Pokémon into your hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Living on muddy ground that provides poor footing has made its legs sturdy."
+	},
+	"evolveFrom": {
+		"en": "Mudkip",
+		"fr": "Gobou",
+		"es": "Mudkip",
+		"it": "Mudkip",
+		"pt": "Mudkip",
+		"de": "Hydropi"
+	},
+	"hp": 90,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Moorabbel",
+		"en": "Marshtomp",
+		"es": "Marshtomp",
+		"fr": "Flobio",
+		"it": "Marshtomp",
+		"pt": "Marshtomp"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

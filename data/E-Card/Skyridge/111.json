@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Healing Dust"
+			},
+			"effect": {
+				"en": "Flip 2 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Miracle Powder"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose a Special Condition (Asleep, Burned, Confused, Paralyzed, or Poisoned). The Defending Pokémon is now affected by that Special Condition."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		49
+	],
+	"evolveFrom": {
+		"en": "Venonat"
+	},
+	"hp": 70,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Venomoth"
+	},
+	"rarity": "Common",
+	"set": "ecard3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Beat",
+				"fr": "Bataille"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fin Smack",
+				"fr": "Coup d’aileron"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": "20×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
+	},
+	"dexId": [
+		116
+	],
+	"hp": 50,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Horsea",
+		"fr": "Hypotrempe"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Pickup Power"
+			},
+			"effect": {
+				"en": "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand."
+			}
+		},
+		{
+			"name": {
+				"en": "Rear Spark"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "Katsura Tabata",
+	"name": {
+		"en": "Plusle"
+	},
+	"rarity": "None",
+	"set": "tk-ex-p",
+	"stage": "Basic"
+}

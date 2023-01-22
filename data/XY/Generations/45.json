@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stone Edge",
+				"fr": "Lame de Roc"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": "60+"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Explosion",
+				"fr": "Explosion"
+			},
+			"effect": {
+				"en": "This Pokémon does 100 damage to itself.",
+				"fr": "Ce Pokémon s'inflige 100 dégâts."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		76
+	],
+	"evolveFrom": {
+		"en": "Graveler",
+		"fr": "Gravalanch"
+	},
+	"hp": 150,
+	"illustrator": "Hasuno",
+	"name": {
+		"en": "Golem",
+		"fr": "Grolem"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "g1",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

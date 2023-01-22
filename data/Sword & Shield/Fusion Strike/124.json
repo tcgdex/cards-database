@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Melodious Echo"
+			},
+			"damage": "70×",
+			"effect": {
+				"en": "This attack does 70 damage for each Fusion Strike Energy attached to all of your Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it."
+	},
+	"hp": 90,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Meloetta",
+		"en": "Meloetta",
+		"es": "Meloetta",
+		"fr": "Meloetta",
+		"it": "Meloetta",
+		"pt": "Meloetta"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

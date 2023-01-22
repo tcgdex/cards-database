@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 214,
+	"id": "sm8",
+	"name": {
+		"de": "Echo des Donners",
+		"en": "Lost Thunder",
+		"es": "Truenos Perdidos",
+		"fr": "Tonnerre Perdu",
+		"it": "Tuoni Perduti",
+		"pt": "Trovões Perdidos"
+	},
+	"releaseDate": "2018-11-02",
+	"serie": "sm",
+	"tcgOnline": "LOT"
+}

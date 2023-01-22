@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Fury Swipes"
+			},
+			"damage": "10×",
+			"effect": {
+				"en": "Flip 3 coins. This attack does 10 damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can."
+	},
+	"hp": 60,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Alolan Sandshrew"
+	},
+	"rarity": "None",
+	"set": "2019sm",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Leech Life",
+				"fr": "Vampirisme"
+			},
+			"effect": {
+				"en": "After your attack, remove from Nincada the number of damage counters equal to the damage you did to the Defending Pokémon. If Nincada has fewer damage counters than that, remove all of them.",
+				"fr": "Après votre attaque, retirez à Ningale autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Ningale a moins de marqueurs de dégât que de dégâts infligés, retirez-les lui tous."
+			},
+			"cost": [
+				"Grass"
+			],
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		290
+	],
+	"hp": 50,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Nincada",
+		"fr": "Ningale"
+	},
+	"rarity": "Common",
+	"set": "ex3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

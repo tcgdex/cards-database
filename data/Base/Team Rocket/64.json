@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche"
+			},
+			"effect": {
+				"en": "Discard 1 Energy card attached to Ponyta in order to use this attack.",
+				"fr": "Défaussez 1 carte Énergie  attachée à Ponyta pour pouvoir utiliser cette attaque."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce gentil herbivore accepte d'être monté. Toutefois, il faut prendre garde à ne pas se brûler."
+	},
+	"dexId": [
+		77
+	],
+	"hp": 50,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Ponyta",
+		"fr": "Ponyta"
+	},
+	"rarity": "Common",
+	"set": "base5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

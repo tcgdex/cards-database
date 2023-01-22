@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crunch",
+				"fr": "Mâchouille"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Royal Flare",
+				"fr": "Flamme Royale"
+			},
+			"effect": {
+				"en": "Discard 2 Energy attached to this Pokémon.",
+				"fr": "Défaussez 2 Énergies attachées à ce Pokémon."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		668
+	],
+	"evolveFrom": {
+		"en": "Litleo",
+		"fr": "Hélionceau"
+	},
+	"hp": 100,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Pyroar",
+		"fr": "Némélios"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "xyp",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

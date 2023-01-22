@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 160,
+	"id": "xy5",
+	"name": {
+		"de": "Protoshock",
+		"en": "Primal Clash",
+		"es": "Duelos Primigenios",
+		"fr": "Primo-Choc",
+		"it": "Scontro Primordiale",
+		"pt": "Conflito Primitivo"
+	},
+	"releaseDate": "2015-02-04",
+	"serie": "xy",
+	"tcgOnline": "PRC"
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 107,
+	"id": "swshp",
+	"name": {
+		"de": "SCSC Promokarten",
+		"en": "SWSH Black Star Promos",
+		"es": "Cartas de promoción ESES",
+		"fr": "Promo SWSH",
+		"it": "SPSC Promo",
+		"pt": "ESES Promos"
+	},
+	"releaseDate": "2019-11-15",
+	"serie": "swsh"
+}

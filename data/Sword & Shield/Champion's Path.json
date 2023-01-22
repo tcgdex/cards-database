@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 70,
+	"id": "swsh3.5",
+	"name": {
+		"de": "Weg des Champs",
+		"en": "Champion's Path",
+		"es": "Camino de Campeones",
+		"fr": "La Voie du Maître",
+		"it": "Futuri Campioni",
+		"pt": "Caminho do Campeão"
+	},
+	"releaseDate": "2020-09-25",
+	"serie": "swsh"
+}

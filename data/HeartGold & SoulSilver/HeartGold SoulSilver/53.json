@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Cosmic Cyclone",
+				"fr": "Cyclone cosmique"
+			},
+			"effect": {
+				"en": "Choose as many Water Energy attached to your Pokémon as you like. This attack does 20 damage times the amount of Energy you chose. Shuffle those cards back into your deck.",
+				"fr": "Choisissez autant de cartes Énergie Water attachées à votre Pokémon que vous le souhaitez. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie que vous avez choisies. Mélangez ces cartes dans votre deck."
+			},
+			"damage": "20×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The middle section of its body is called the core. It glows in a different color each time it is seen."
+	},
+	"dexId": [
+		121
+	],
+	"evolveFrom": {
+		"en": "Staryu",
+		"fr": "Stari"
+	},
+	"hp": 90,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Starmie",
+		"fr": "Staross"
+	},
+	"rarity": "Uncommon",
+	"retreat": 0,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

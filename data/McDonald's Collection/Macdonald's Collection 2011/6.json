@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Quick Attack"
+			},
+			"damage": "10+",
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another."
+	},
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Blitzle"
+	},
+	"rarity": "None",
+	"set": "2011bw",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

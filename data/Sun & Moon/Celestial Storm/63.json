@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Headbutt",
+				"fr": "Coup d’Boule",
+				"es": "Golpe Cabeza",
+				"it": "Bottintesta",
+				"pt": "Cabeçada",
+				"de": "Kopfnuss"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Will-O-Wisp",
+				"fr": "Feu Follet",
+				"es": "Fuego Fatuo",
+				"it": "Fuocofatuo",
+				"pt": "Fogo Fátuo",
+				"de": "Irrlicht"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		353
+	],
+	"hp": 60,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Shuppet",
+		"en": "Shuppet",
+		"es": "Shuppet",
+		"fr": "Polichombr",
+		"it": "Shuppet",
+		"pt": "Shuppet"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm7",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bursting Inferno",
+				"fr": "Enfer explosif"
+			},
+			"effect": {
+				"en": "Each Defending Pokémon is now Burned.",
+				"fr": "Chaque Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"evolveFrom": {
+		"en": "Charmeleon"
+	},
+	"hp": 120,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Charizard",
+		"fr": "Dracaufeu"
+	},
+	"rarity": "Rare",
+	"set": "ex16",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

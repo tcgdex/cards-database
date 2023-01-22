@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 106,
+	"id": "ex9",
+	"name": {
+		"de": "EX Smaragd",
+		"en": "Emerald",
+		"fr": "EX Émeraude",
+		"it": "EX Smeraldo",
+		"pt": "EX Esmeralda"
+	},
+	"releaseDate": "2005-05-09",
+	"serie": "ex",
+	"tcgOnline": "EM"
+}

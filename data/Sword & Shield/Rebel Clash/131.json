@@ -1,0 +1,91 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Gravitational Drop",
+				"fr": "Chute Gravitationnelle",
+				"es": "Caída Gravitacional",
+				"it": "Caduta Gravitazionale",
+				"pt": "Queda Gravitacional",
+				"de": "Gravitationsfall"
+			},
+			"effect": {
+				"en": "This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+				"fr": "Cette attaque inflige 30 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				"es": "Este ataque hace 30 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+				"it": "Questo attacco infligge 30 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+				"pt": "Este ataque causa 30 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
+				"de": "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Impact",
+				"fr": "Gros Impact",
+				"es": "Impacto Pesado",
+				"it": "Impatto Pesante",
+				"pt": "Impacto Pesado",
+				"de": "Schwerer Einschlag"
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders."
+	},
+	"evolveFrom": {
+		"en": "Nosepass",
+		"fr": "Tarinor",
+		"es": "Nosepass",
+		"it": "Nosepass",
+		"pt": "Nosepass",
+		"de": "Nasgnet"
+	},
+	"hp": 140,
+	"illustrator": "Anesaki Dynamic",
+	"name": {
+		"de": "Voluminas",
+		"en": "Probopass",
+		"es": "Probopass",
+		"fr": "Tarinorme",
+		"it": "Probopass",
+		"pt": "Probopass"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 4,
+	"set": "swsh2",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

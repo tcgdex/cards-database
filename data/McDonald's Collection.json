@@ -1,0 +1,10 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "mc",
+	"name": {
+		"en": "McDonald's Collection",
+		"es": "Colección de McDonald's",
+		"fr": "Promo McDonald's",
+		"it": "McDonald's Collection"
+	}
+}

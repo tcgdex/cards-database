@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Chaque Pokémon en jeu n'a pas de Résistance.",
+		"en": "Each Pokémon in play has no Resistance.",
+		"es": "Los Pokémon en juego no tienen ninguna Resistencia.",
+		"it": "Nessun Pokémon in gioco ha resistenza.",
+		"pt": "Cada um dos Pokémon em jogo não possui Resistência.",
+		"de": "Jedes Pokémon im Spiel hat keine Resistenz."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Magnetsturm",
+		"en": "Magnetic Storm",
+		"es": "Tormenta Magnética",
+		"fr": "Tempête Magnétique",
+		"it": "Tempesta Magnetica",
+		"pt": "Tempestade Magnética"
+	},
+	"rarity": "Uncommon",
+	"set": "xy2",
+	"trainerType": "Stadium"
+}

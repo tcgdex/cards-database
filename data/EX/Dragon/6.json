@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic Boom",
+				"fr": "Psycho-boom"
+			},
+			"effect": {
+				"en": "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				"fr": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mind Trip",
+				"fr": "Avoir l'esprit ailleurs"
+			},
+			"effect": {
+				"en": "If Grumpig and the Defending Pokémon have the same amount of Energy attached to them, the Defending Pokémon is now Confused.",
+				"fr": "Si Groret et le Pokémon Défenseur possèdent le même total en Énergie, le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		326
+	],
+	"evolveFrom": {
+		"en": "Spoink"
+	},
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Grumpig",
+		"fr": "Groret"
+	},
+	"rarity": "Rare",
+	"set": "ex3",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

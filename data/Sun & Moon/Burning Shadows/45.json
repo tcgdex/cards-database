@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Small Appetite",
+				"fr": "Petit Appétit",
+				"es": "Pequeño Apetito",
+				"it": "Scarso Appetito",
+				"pt": "Apetite Pequeno",
+				"de": "Kleiner Hunger"
+			},
+			"effect": {
+				"en": "If your opponent’s Active Pokémon’s maximum HP is 100 or more, this attack does nothing.",
+				"fr": "Si les PV maximum du Pokémon Actif de votre adversaire sont de 100 ou plus, cette attaque ne fait rien.",
+				"es": "Si los PS máximos del Pokémon Activo de tu rival son 100 o más, este ataque no hace nada.",
+				"it": "Se i PS massimi del Pokémon attivo del tuo avversario sono 100 o più, questo attacco non ha effetto.",
+				"pt": "Se o PS máximo do Pokémon Ativo do seu oponente for 100 ou mais, este ataque não fará nada.",
+				"de": "Wenn die maximalen KP des Aktiven Pokémon deines Gegners 100 oder mehr betragen, hat diese Attacke keine Auswirkungen."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		603
+	],
+	"evolveFrom": {
+		"en": "Tynamo",
+		"fr": "Anchwatt"
+	},
+	"hp": 90,
+	"illustrator": "OOYAMA",
+	"name": {
+		"de": "Zapplalek",
+		"en": "Eelektrik",
+		"es": "Eelektrik",
+		"fr": "Lampéroie",
+		"it": "Eelektrik",
+		"pt": "Eelektrik"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sm3",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

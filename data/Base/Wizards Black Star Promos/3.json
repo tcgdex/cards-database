@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Energy Absorption",
+				"fr": "Absorption d'énergie"
+			},
+			"effect": {
+				"en": "Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo.",
+				"fr": "Choisissez jusqu'à 2 cartes Énergie de votre pile de défausse et attachez-les à Deuxmiaou."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyburn",
+				"fr": "Brûlepsy"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ce Pokémon violent, jamais vu auparavant, est le fruit de nombreuses années d'expériences génétiques."
+	},
+	"dexId": [
+		150
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Mewtwo",
+		"fr": "Deuxmiaou"
+	},
+	"rarity": "Common",
+	"set": "basep",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

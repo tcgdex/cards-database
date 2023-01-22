@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sleep Powder",
+				"fr": "Poudre Dodo",
+				"es": "Somnífero",
+				"it": "Sonnifero",
+				"pt": "Pó do Sono",
+				"de": "Schlafpuder"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		44
+	],
+	"evolveFrom": {
+		"en": "Oddish",
+		"fr": "Mystherbe"
+	},
+	"hp": 80,
+	"illustrator": "sui",
+	"name": {
+		"de": "Duflor",
+		"en": "Gloom",
+		"es": "Gloom",
+		"fr": "Ortide",
+		"it": "Gloom",
+		"pt": "Gloom"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm12",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

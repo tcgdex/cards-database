@@ -1,0 +1,30 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Roar"
+			},
+			"effect": {
+				"en": "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon."
+			}
+		},
+		{
+			"name": {
+				"en": "Gnaw"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+	},
+	"illustrator": "kirisAki",
+	"name": {
+		"en": "Vulpix"
+	},
+	"rarity": "None",
+	"set": "2016xy",
+	"stage": "Basic"
+}

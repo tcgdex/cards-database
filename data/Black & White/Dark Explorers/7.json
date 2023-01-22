@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Beat"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		557
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Lithomith",
+		"en": "Dwebble",
+		"es": "Dwebble",
+		"fr": "Crabicoque",
+		"it": "Dwebble",
+		"pt": "Dwebble"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

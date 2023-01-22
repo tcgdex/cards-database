@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+		"en": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+		"es": "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+		"it": "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+		"pt": "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+		"de": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+	},
+	"illustrator": "Yoshinobu Saito",
+	"name": {
+		"de": "Schutz",
+		"en": "Repel",
+		"es": "Repelente",
+		"fr": "Repousse",
+		"it": "Repellente",
+		"pt": "Repelente"
+	},
+	"rarity": "Uncommon",
+	"set": "sm1",
+	"trainerType": "Item"
+}

@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mirror Move"
+			},
+			"effect": {
+				"en": "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		21
+	],
+	"hp": 50,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Spearow"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "base4",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

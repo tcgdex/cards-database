@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Solar Revelation"
+			},
+			"effect": {
+				"en": "Prevent all effects of attacks from your opponent's Pokémon done to all of your Pokémon that have Energy attached.(Existing effects are not removed. Damage is not an effect.)"
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Mindstorm"
+			},
+			"damage": "60×",
+			"effect": {
+				"en": "This attack does 60 damage for each Energy attached to all of your opponent's Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Espeon V",
+		"fr": "Mentali-V",
+		"es": "Espeon V",
+		"it": "Espeon-V",
+		"pt": "Espeon V",
+		"de": "Psiana-V"
+	},
+	"hp": 310,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Psiana VMAX",
+		"en": "Espeon VMAX",
+		"es": "Espeon VMAX",
+		"fr": "Mentali VMAX",
+		"it": "Espeon VMAX",
+		"pt": "Espeon VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "VMAX",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

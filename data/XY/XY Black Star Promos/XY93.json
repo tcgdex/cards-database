@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Leap Through Time"
+			},
+			"effect": {
+				"en": "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't take a Prize card. Shuffle this Pokémon and all cards attached to it into your deck."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Sparkle Mine",
+				"fr": "Stop Θ"
+			},
+			"effect": {
+				"en": "Put 1 damage counter on each of your opponent's Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		251
+	],
+	"hp": 70,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Celebi",
+		"fr": "Celebi"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

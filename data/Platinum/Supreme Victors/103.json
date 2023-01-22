@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Reckless Charge",
+				"fr": "Attaque imprudente"
+			},
+			"effect": {
+				"en": "Drifloon does 10 damage to itself.",
+				"fr": "Baudrive s'inflige 10 dégâts."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collectionner"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		425
+	],
+	"hp": 40,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Drifloon",
+		"fr": "Baudrive"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "+10"
+		}
+	]
+}

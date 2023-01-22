@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque Pokémon en jeu possédant le symbole δ (les vôtres et ceux de votre adversaire) ne possède pas de Faiblesse et ne peut pas utiliser de Poké-Powers."
+	},
+	"illustrator": "Shizurow",
+	"name": {
+		"en": "Holon Legacy",
+		"fr": "Héritage Holon"
+	},
+	"rarity": "Uncommon",
+	"set": "ex15",
+	"trainerType": "Stadium"
+}

@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Super Psy"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Psychic",
+				"Lightning"
+			],
+			"name": {
+				"en": "Freeze Dry"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		381
+	],
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Latios"
+	},
+	"rarity": "Common",
+	"set": "np",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

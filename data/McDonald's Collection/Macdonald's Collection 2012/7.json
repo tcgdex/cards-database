@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Psy Bolt"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings."
+	},
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Woobat"
+	},
+	"rarity": "None",
+	"set": "2012bw",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

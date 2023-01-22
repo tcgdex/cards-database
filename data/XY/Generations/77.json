@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"en": "Water Energy",
+		"fr": "Énergie Water de base"
+	},
+	"rarity": "Common",
+	"set": "g1",
+	"stage": "Basic"
+}

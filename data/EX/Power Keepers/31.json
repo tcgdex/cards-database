@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hypnosis",
+				"fr": "Hypnose"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Asleep.",
+				"fr": "Le Pokémon Défenseur est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dream Eater",
+				"fr": "Dévorêve"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is not Asleep, this attack does nothing.",
+				"fr": "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		281
+	],
+	"evolveFrom": {
+		"en": "Ralts"
+	},
+	"hp": 70,
+	"illustrator": "Sachiko Adachi",
+	"name": {
+		"en": "Kirlia",
+		"fr": "Kirlia"
+	},
+	"rarity": "Uncommon",
+	"set": "ex16",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

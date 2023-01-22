@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Mach Cut"
+			},
+			"effect": {
+				"en": "Discard a Special Energy attached to the Defending Pokémon."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Water",
+				"Fighting"
+			],
+			"name": {
+				"en": "Dragonblade"
+			},
+			"effect": {
+				"en": "Discard the top 2 cards of your deck."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		445
+	],
+	"evolveFrom": {
+		"en": "Gabite"
+	},
+	"hp": 140,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Garchomp"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

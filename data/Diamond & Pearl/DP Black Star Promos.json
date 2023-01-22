@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 56,
+	"id": "dpp",
+	"name": {
+		"de": "Promo DP",
+		"en": "DP Black Star Promos",
+		"es": "DP Black Star Promos",
+		"fr": "Promo DP",
+		"it": "DP Black Star Promos"
+	},
+	"releaseDate": "2007-05-01",
+	"serie": "dp",
+	"tcgOnline": "PR-DPP"
+}

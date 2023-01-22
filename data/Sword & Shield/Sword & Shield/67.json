@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gentle Slap",
+				"fr": "Gifle Douce",
+				"es": "Bofetada Gentil",
+				"it": "Schiaffetto",
+				"pt": "Tapinha",
+				"de": "Sanfter Hieb"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "On the dark ocean floor, its only means of communication is its constantly flashing lights."
+	},
+	"dexId": [
+		170
+	],
+	"hp": 70,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"de": "Lampi",
+		"en": "Chinchou",
+		"es": "Chinchou",
+		"fr": "Loupio",
+		"it": "Chinchou",
+		"pt": "Chinchou"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

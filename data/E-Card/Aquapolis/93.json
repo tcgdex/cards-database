@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Charge",
+				"fr": "Recharge"
+			},
+			"effect": {
+				"en": "Attach 1 Energy card in your discard pile to Mareep.",
+				"fr": "Attachez une carte Énergie  de votre pile de défausse à Wattouat."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Slap",
+				"fr": "Attaque caudale"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		179
+	],
+	"hp": 40,
+	"illustrator": "Hizuki Misono",
+	"name": {
+		"en": "Mareep",
+		"fr": "Wattouat"
+	},
+	"rarity": "Common",
+	"set": "ecard2",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

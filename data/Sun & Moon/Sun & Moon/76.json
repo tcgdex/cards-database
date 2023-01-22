@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		19
+	],
+	"hp": 40,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Alola-Rattfratz",
+		"en": "Alolan Rattata",
+		"es": "Rattata de Alola",
+		"fr": "Rattata d’Alola",
+		"it": "Rattata di Alola",
+		"pt": "Rattata de Alola"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "sm1",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

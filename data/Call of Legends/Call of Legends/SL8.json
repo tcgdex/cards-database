@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Wormhole",
+				"fr": "Trou de ver"
+			},
+			"effect": {
+				"en": "Switch Palkia with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Échangez Palkia avec l’un des Pokémon de votre Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec l’un de ses Pokémon de Banc."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		484
+	],
+	"hp": 100,
+	"illustrator": "Ayaka Yoshida",
+	"name": {
+		"en": "Palkia",
+		"fr": "Palkia"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

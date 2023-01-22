@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 156,
+	"id": "sm5",
+	"name": {
+		"de": "Ultra-Prisma",
+		"en": "Ultra Prism",
+		"es": "Ultraprisma",
+		"fr": "Ultra-Prisme",
+		"it": "Ultraprisma",
+		"pt": "Ultra Prisma"
+	},
+	"releaseDate": "2018-02-02",
+	"serie": "sm",
+	"tcgOnline": "UPR"
+}

@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Suction",
+				"fr": "Succion Empoisonnée"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Poisoned, heal 60 damage from this Pokémon.",
+				"fr": "Si le Pokémon Défenseur est Empoisonné, soignez 60 dégâts à ce Pokémon."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sludge Crash",
+				"fr": "Flot de Vase"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. For each heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		89
+	],
+	"evolveFrom": {
+		"en": "Grimer",
+		"fr": "Tadmorv"
+	},
+	"hp": 100,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Sleimok",
+		"en": "Muk",
+		"es": "Muk",
+		"fr": "Grotadmorv",
+		"it": "Muk",
+		"pt": "Muk"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw9",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

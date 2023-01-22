@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leaf Drain"
+			},
+			"effect": {
+				"en": "Heal 30 damage from this Pokémon."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double-Edge"
+			},
+			"effect": {
+				"en": "This Pokémon also does 30 damage to itself."
+			},
+			"damage": 190
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		3
+	],
+	"hp": 220,
+	"illustrator": "aky CG Works",
+	"name": {
+		"en": "Venusaur V"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swshp",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

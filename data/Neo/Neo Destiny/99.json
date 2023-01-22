@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nUne fois durant le tour de chaque joueur (avant son attaque), ce joueur peut lancer une pièce. Si c'est face, ce joueur peut ajouter une carte Énergie de base de sa pile de défausse à sa main."
+	},
+	"illustrator": "Hideki Kazama",
+	"name": {
+		"en": "Energy Stadium",
+		"fr": "Stade Énergie"
+	},
+	"rarity": "Uncommon",
+	"set": "neo4"
+}

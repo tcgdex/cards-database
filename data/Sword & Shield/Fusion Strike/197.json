@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Slimy Room"
+			},
+			"effect": {
+				"en": "As long as this Pokémon is in the Active Spot, whenever your opponent tries to attach an Energy card from their hand to a Pokémon, they must flip a coin. If tails, your opponent discards that Energy card instead of attaching it, and this doesn't use up their Energy attachment for the turn."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Psychic"
+			],
+			"name": {
+				"en": "Buster Tail"
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its form of offense is forcefully stretching out its horns. The strikes land 100 times harder than any blow from a heavyweight boxer."
+	},
+	"evolveFrom": {
+		"en": "Sliggoo",
+		"fr": "Colimucus",
+		"es": "Sliggoo",
+		"it": "Sliggoo",
+		"pt": "Sliggoo",
+		"de": "Viscargot"
+	},
+	"hp": 160,
+	"illustrator": "Nagomi Nijo",
+	"name": {
+		"de": "Viscogon",
+		"en": "Goodra",
+		"es": "Goodra",
+		"fr": "Muplodocus",
+		"it": "Goodra",
+		"pt": "Goodra"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

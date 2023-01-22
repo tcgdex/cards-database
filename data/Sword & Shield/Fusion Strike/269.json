@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cross Fusion Strike"
+			},
+			"effect": {
+				"en": "Choose 1 of your Benched Fusion Strike Pokémon's attacks and use it as this attack."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Max Miracle"
+			},
+			"damage": 130,
+			"effect": {
+				"en": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Mew V",
+		"fr": "Mew-V",
+		"es": "Mew V",
+		"it": "Mew-V",
+		"pt": "Mew V",
+		"de": "Mew-V"
+	},
+	"hp": 310,
+	"illustrator": "AKIRA EGAWA",
+	"name": {
+		"de": "Mew VMAX",
+		"en": "Mew VMAX",
+		"es": "Mew VMAX",
+		"fr": "Mew VMAX",
+		"it": "Mew VMAX",
+		"pt": "Mew VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 0,
+	"set": "swsh8",
+	"stage": "VMAX",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

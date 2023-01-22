@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Singe",
+				"fr": "Roussi"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned.",
+				"fr": "Le Pokémon Défenseur est maintenant Brûlé."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Incinerate",
+				"fr": "Calcination"
+			},
+			"effect": {
+				"en": "Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.",
+				"fr": "Avant d'infliger des dégâts, défaussez une carte Outil Pokémon attachée au Pokémon Défenseur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		631
+	],
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Furnifraß",
+		"en": "Heatmor",
+		"es": "Heatmor",
+		"fr": "Aflamanoir",
+		"it": "Heatmor",
+		"pt": "Heatmor"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

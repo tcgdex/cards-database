@@ -1,0 +1,28 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Flare"
+			},
+			"damage": 20
+		},
+		{
+			"name": {
+				"en": "Heat Tackle"
+			},
+			"damage": 70,
+			"effect": {
+				"en": "Arcanine does 10 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Arcanine"
+	},
+	"rarity": "None",
+	"set": "tk-ex-n",
+	"stage": "Stage1"
+}

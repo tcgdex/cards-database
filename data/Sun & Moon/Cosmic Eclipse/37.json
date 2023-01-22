@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Swirling Inferno",
+				"fr": "Torsade Infernale",
+				"es": "Remolino Infernal",
+				"it": "Turbine Infernale",
+				"pt": "Turbilhão Infernal",
+				"de": "Wirbelndes Inferno"
+			},
+			"effect": {
+				"en": "Discard all Pokémon Tool cards and Special Energy from each of your opponent’s Pokémon.",
+				"fr": "Défaussez toutes les cartes Outil Pokémon et l’Énergie spéciale de chacun des Pokémon de votre adversaire.",
+				"es": "Descarta todas las cartas de Herramienta Pokémon y Energías Especiales de cada uno de los Pokémon de tu rival.",
+				"it": "Scarta tutte le carte Oggetto Pokémon e le Energie speciali assegnate a ciascuno dei Pokémon del tuo avversario.",
+				"pt": "Descarte todas as cartas de Ferramenta Pokémon e Energias Especiais de cada um dos Pokémon do seu oponente.",
+				"de": "Lege alle Pokémon-Ausrüstungen und Spezial-Energien von jedem Pokémon deines Gegners auf seinen Ablagestapel."
+			},
+			"damage": 70
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Blast",
+				"fr": "Explosion de Chaleur",
+				"es": "Explosión de Calor",
+				"it": "Caldobomba",
+				"pt": "Raio de Calor",
+				"de": "Hitzestoß"
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		668
+	],
+	"evolveFrom": {
+		"en": "Litleo",
+		"fr": "Hélionceau"
+	},
+	"hp": 130,
+	"illustrator": "KEIICHIRO ITO",
+	"name": {
+		"de": "Pyroleo",
+		"en": "Pyroar",
+		"es": "Pyroar",
+		"fr": "Némélios",
+		"it": "Pyroar",
+		"pt": "Pyroar"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm12",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

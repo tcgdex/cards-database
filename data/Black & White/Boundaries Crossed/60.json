@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psybeam",
+				"fr": "Rafale Psy"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Extrasensory",
+				"fr": "Extrasenseur"
+			},
+			"effect": {
+				"en": "If you have the same number of cards in your hand as your opponent, this attack does 60 more damage.",
+				"fr": "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 60 dégâts supplémentaires."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		326
+	],
+	"evolveFrom": {
+		"en": "Spoink",
+		"fr": "Spoink"
+	},
+	"hp": 110,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Groink",
+		"en": "Grumpig",
+		"es": "Grumpig",
+		"fr": "Groret",
+		"it": "Grumpig",
+		"pt": "Grumpig"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

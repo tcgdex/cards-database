@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Smack",
+				"fr": "Claque",
+				"es": "Palmetazo",
+				"it": "Schiaffo",
+				"pt": "Esbofetear",
+				"de": "Klatscher"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		120
+	],
+	"hp": 40,
+	"illustrator": "Hiroki Asanuma",
+	"name": {
+		"de": "Sterndu",
+		"en": "Staryu",
+		"es": "Staryu",
+		"fr": "Stari",
+		"it": "Staryu",
+		"pt": "Staryu"
+	},
+	"rarity": "Common",
+	"retreat": 0,
+	"set": "xy9",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

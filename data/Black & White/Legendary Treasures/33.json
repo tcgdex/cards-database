@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Splash"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		393
+	],
+	"hp": 60,
+	"illustrator": "Mizue",
+	"name": {
+		"en": "Piplup"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

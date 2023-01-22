@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Dig Claws",
+				"fr": "Creusogriffes",
+				"es": "Hundir Garras",
+				"it": "Scavazanne",
+				"pt": "Fincar Garras",
+				"de": "Schaufelkrallen"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		529
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Rotomurf",
+		"en": "Drilbur",
+		"es": "Drilbur",
+		"fr": "Rototaupe",
+		"it": "Drilbur",
+		"pt": "Drilbur"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

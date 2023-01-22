@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Fake Out",
+				"fr": "Bluff"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ambush",
+				"fr": "Embuscade"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		53
+	],
+	"evolveFrom": {
+		"en": "Meowth",
+		"fr": "Miaouss"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Persian",
+		"fr": "Persian"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "g1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

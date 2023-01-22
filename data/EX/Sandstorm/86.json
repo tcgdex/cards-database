@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Retirez à chacun de vos Pokémon Actifs ses États Spéciaux."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Double Full Heal",
+		"fr": "Double guérison totale"
+	},
+	"rarity": "Uncommon",
+	"set": "ex2",
+	"trainerType": "Item"
+}

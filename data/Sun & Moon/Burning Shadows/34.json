@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Bubble",
+				"fr": "Écume",
+				"es": "Burbuja",
+				"it": "Bolla",
+				"pt": "Bolha",
+				"de": "Blubber"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade",
+				"es": "Desenrollar",
+				"it": "Rotolamento",
+				"pt": "Rolagem",
+				"de": "Walzer"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		183
+	],
+	"hp": 60,
+	"illustrator": "Asako Ito",
+	"name": {
+		"de": "Marill",
+		"en": "Marill",
+		"es": "Marill",
+		"fr": "Marill",
+		"it": "Marill",
+		"pt": "Marill"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Tumble",
+				"fr": "Roule-Pierre"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pump-up Smash",
+				"fr": "Taurocharge"
+			},
+			"effect": {
+				"en": "Attach 2 basic Energy cards from your hand to your Benched Pokémon in any way you like.",
+				"fr": "Attachez 2 cartes Énergie de base de votre main à vos Pokémon de Banc, de la manière que vous voulez."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		639
+	],
+	"hp": 180,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Terrakium-EX",
+		"en": "Terrakion-EX",
+		"es": "Terrakion-EX",
+		"fr": "Terrakium-EX",
+		"it": "Terrakion-EX",
+		"pt": "Terrakion-EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 3,
+	"set": "bw6",
+	"suffix": "EX",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

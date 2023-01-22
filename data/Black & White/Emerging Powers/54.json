@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hone Claws",
+				"fr": "Aiguisage"
+			},
+			"effect": {
+				"en": "During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Resistance).",
+				"fr": "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+			}
+		},
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Scratch",
+				"fr": "Griffe"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		529
+	],
+	"hp": 70,
+	"illustrator": "match",
+	"name": {
+		"de": "Rotomurf",
+		"en": "Drilbur",
+		"es": "Drilbur",
+		"fr": "Rototaupe",
+		"it": "Drilbur",
+		"pt": "Drilbur"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Claw",
+				"fr": "Ergots",
+				"es": "Garra",
+				"it": "Artiglio",
+				"pt": "Garra",
+				"de": "Klaue"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				"es": "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				"it": "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				"pt": "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				"de": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Geronimatz",
+		"en": "Rufflet",
+		"es": "Rufflet",
+		"fr": "Furaiglon",
+		"it": "Rufflet",
+		"pt": "Rufflet"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh10",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

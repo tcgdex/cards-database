@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Sting",
+				"fr": "Dard-Venin",
+				"es": "Picotazo Veneno",
+				"it": "Velenospina",
+				"pt": "Ferrão Venenoso",
+				"de": "Giftstachel"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
+				"de": "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pierce",
+				"fr": "Transpercement",
+				"es": "Perforar",
+				"it": "Perforare",
+				"pt": "Perfurar",
+				"de": "Durchbohren"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		451
+	],
+	"hp": 70,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Pionskora",
+		"en": "Skorupi",
+		"es": "Skorupi",
+		"fr": "Rapion",
+		"it": "Skorupi",
+		"pt": "Skorupi"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Draining Kiss",
+				"fr": "Vampibaiser",
+				"es": "Beso Drenaje",
+				"it": "Assorbibacio",
+				"pt": "Beijo Drenante",
+				"de": "Diebeskuss"
+			},
+			"effect": {
+				"en": "Heal 10 damage from this Pokémon.",
+				"fr": "Soignez 10 dégâts à ce Pokémon.",
+				"es": "Cura 10 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 10 danni.",
+				"pt": "Cure 10 pontos de dano deste Pokémon.",
+				"de": "Heile 10 Schadenspunkte bei diesem Pokémon."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		280
+	],
+	"hp": 60,
+	"illustrator": "Yumi",
+	"name": {
+		"de": "Trasla",
+		"en": "Ralts",
+		"es": "Ralts",
+		"fr": "Tarsal",
+		"it": "Ralts",
+		"pt": "Ralts"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm3",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

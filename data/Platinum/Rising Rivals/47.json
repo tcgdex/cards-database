@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Pickup Power",
+				"fr": "Pouvoir ramassage"
+			},
+			"effect": {
+				"en": "Flip 3 coins. For each heads, search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.",
+				"fr": "Lancez 3 pièces. Pour chaque face, choisissez dans votre pile de défausse une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main."
+			}
+		},
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Mane",
+				"fr": "Crinière de feu"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		78
+	],
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Rapidash 4",
+		"fr": "Galopa  Niv. 53"
+	},
+	"rarity": "Uncommon",
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

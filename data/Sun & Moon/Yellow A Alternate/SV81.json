@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Ajoutez 3 Pokémon avec « d’Alola » dans leur nom, de votre pile de défausse à votre main."
+	},
+	"illustrator": "take",
+	"name": {
+		"en": "Aether Foundation Employee",
+		"fr": "Employés de la Fondation Æther"
+	},
+	"rarity": "Common",
+	"set": "sma",
+	"trainerType": "Supporter"
+}

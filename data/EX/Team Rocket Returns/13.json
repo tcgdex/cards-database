@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sheer Cold"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tonnage"
+			},
+			"effect": {
+				"en": "You may do 60 damage plus 40 more damage. If you do, Piloswine does 30 damage to itself."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		221
+	],
+	"evolveFrom": {
+		"en": "Swinub"
+	},
+	"hp": 100,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Piloswine"
+	},
+	"rarity": "Rare",
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

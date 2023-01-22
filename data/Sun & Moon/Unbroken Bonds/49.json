@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Enhanced Horn",
+				"fr": "Corne Améliorée",
+				"es": "Cuerno Mejorado",
+				"it": "Ipercorno",
+				"pt": "Chifre Acentuado",
+				"de": "Spezial-Horn"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage for each heads. If this Pokémon has a Pokémon Tool card attached to it, flip 6 coins instead.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face. Si une carte Outil Pokémon est attachée à ce Pokémon, lancez 6 pièces à la place.",
+				"es": "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara. Si este Pokémon tiene 1 carta de Herramienta Pokémon unida a él, lanza 6 monedas.",
+				"it": "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa. Se questo Pokémon ha una carta Oggetto Pokémon assegnata, invece, lancia sei volte una moneta.",
+				"pt": "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara. Se este Pokémon tiver uma carta de Ferramenta Pokémon ligada a ele, jogue 6 moedas ao invés de 2.",
+				"de": "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu. Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, wirf stattdessen 6 Münzen."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		119
+	],
+	"evolveFrom": {
+		"en": "Goldeen",
+		"fr": "Poissirène"
+	},
+	"hp": 100,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Golking",
+		"en": "Seaking",
+		"es": "Seaking",
+		"fr": "Poissoroy",
+		"it": "Seaking",
+		"pt": "Seaking"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Eon Connection",
+				"fr": "Connexion Éon"
+			},
+			"effect": {
+				"en": "Draw a card. If Latios is on your Bench, draw 1 more card.",
+				"fr": "Piochez une carte. Si Latios est sur votre Banc, piochez 1 carte supplémentaire."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Speed Wing"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		380
+	],
+	"hp": 90,
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"en": "Latias",
+		"fr": "Latias"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

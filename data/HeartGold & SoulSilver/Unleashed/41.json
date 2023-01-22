@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Smash Kick",
+				"fr": "Coud’pattes"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crimson Bull",
+				"fr": "Taurouge"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 30 damage times the number of heads. Tauros is now Confused.",
+				"fr": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Tauros est maintenant Confus."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns."
+	},
+	"dexId": [
+		128
+	],
+	"hp": 90,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Tauros",
+		"fr": "Tauros"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "hgss2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Lord's Valley",
+				"fr": "Vallée du Tyran"
+			},
+			"effect": {
+				"en": "If you have exactly 2, 4, or 6 Prize cards remaining, discard the top 10 cards of your deck.",
+				"fr": "S’il vous reste exactement 2, 4 ou 6 cartes Récompense, défaussez les 10 cartes du dessus de votre deck."
+			},
+			"damage": 160
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		799
+	],
+	"hp": 160,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Guzzlord",
+		"fr": "Engloutyran"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "sma",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

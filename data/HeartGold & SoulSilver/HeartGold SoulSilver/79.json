@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Defense Curl",
+				"fr": "Boul’armure"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent’s next turn.",
+				"fr": "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à Sabelette par des attaques pendant le prochain tour de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball."
+	},
+	"dexId": [
+		27
+	],
+	"hp": 60,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Sandshrew",
+		"fr": "Sabelette"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

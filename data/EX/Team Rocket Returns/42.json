@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Methane Leak"
+			},
+			"effect": {
+				"en": "As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smog"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Darkness Charge"
+			},
+			"effect": {
+				"en": "Put 2 damage counters on Dark Weezing."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		110
+	],
+	"evolveFrom": {
+		"en": "Koffing"
+	},
+	"hp": 80,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Dark Weezing"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Grass",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

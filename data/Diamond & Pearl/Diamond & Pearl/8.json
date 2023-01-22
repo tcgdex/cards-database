@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Magnetize",
+				"fr": "Magnétiser"
+			},
+			"effect": {
+				"en": "If you have any Metal Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
+				"fr": "Si votre Pokémon Actif possède des Énergies Metal, son Coût de retraite est de 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Blast",
+				"fr": "Explosion métallique"
+			},
+			"effect": {
+				"en": "Does 50 damage plus 10 more damage for each Metal Energy attached to Magnezone.",
+				"fr": "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Metal attachée à Magnézone."
+			},
+			"damage": "50+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		462
+	],
+	"evolveFrom": {
+		"en": "Magneton",
+		"fr": "Magneton"
+	},
+	"hp": 120,
+	"illustrator": "Nakaoka",
+	"name": {
+		"en": "Magnezone",
+		"fr": "Magnézone"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "dp1",
+	"stage": "Stage2",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+30"
+		}
+	]
+}

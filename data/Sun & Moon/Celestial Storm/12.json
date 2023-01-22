@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stampede",
+				"fr": "Ruée",
+				"es": "Estampida",
+				"it": "Fuggi Fuggi",
+				"pt": "Estouro",
+				"de": "Zertrampeln"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		273
+	],
+	"hp": 60,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Samurzel",
+		"en": "Seedot",
+		"es": "Seedot",
+		"fr": "Grainipiot",
+		"it": "Seedot",
+		"pt": "Seedot"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm7",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

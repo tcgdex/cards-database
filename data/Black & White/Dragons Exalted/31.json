@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aurora Beam",
+				"fr": "Onde Boréale"
+			},
+			"damage": 80
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ice Entomb",
+				"fr": "Cercueil de Glace"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Paralyzed. This Pokémon can't use Ice Entomb during your next turn.",
+				"fr": "Le Pokémon Défenseur est maintenant Paralysé. Ce Pokémon ne peut pas utiliser Cercueil de Glace pendant votre prochain tour."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		365
+	],
+	"evolveFrom": {
+		"en": "Sealeo",
+		"fr": "Phogleur"
+	},
+	"hp": 140,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Walraisa",
+		"en": "Walrein",
+		"es": "Walrein",
+		"fr": "Kaimorse",
+		"it": "Walrein",
+		"pt": "Walrein"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bw6",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Strafe"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "You may switch this Pokémon with 1 of your Benched Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Earthen Boom"
+			},
+			"damage": 120,
+			"effect": {
+				"en": "Move all Energy from this Pokémon to your Benched Pokémon in any way you like."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant."
+	},
+	"hp": 120,
+	"illustrator": "NC Empire",
+	"name": {
+		"de": "Demeteros",
+		"en": "Landorus",
+		"es": "Landorus",
+		"fr": "Démétéros",
+		"it": "Landorus",
+		"pt": "Landorus"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

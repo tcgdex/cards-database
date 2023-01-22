@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Supersonic",
+				"fr": "Ultrason"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hurricane Wing",
+				"fr": "Tornad’aile"
+			},
+			"effect": {
+				"en": "Flip 4 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest."
+	},
+	"dexId": [
+		169
+	],
+	"evolveFrom": {
+		"en": "Golbat",
+		"fr": "Nosferalto"
+	},
+	"hp": 110,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Crobat",
+		"fr": "Nostenfer"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "hgss2",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

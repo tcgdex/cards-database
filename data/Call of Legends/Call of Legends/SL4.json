@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Volcano Stomp",
+				"fr": "Écrasement volcanique"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard the top 4 cards of your opponent's deck. If tails, discard the top 4 cards of your deck.",
+				"fr": "Lancez une pièce. Si c’est face, défaussez les 4 premières cartes du deck de votre adversaire. Si c’est pile, défaussez les 4 premières cartes de votre deck."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		383
+	],
+	"hp": 100,
+	"illustrator": "Yuri Umemura",
+	"name": {
+		"en": "Groudon",
+		"fr": "Groudon"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

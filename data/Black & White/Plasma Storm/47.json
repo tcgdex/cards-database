@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Double Assist",
+				"fr": "Double Assistance"
+			},
+			"effect": {
+				"en": "Attach 2 basic Energy cards from your discard pile to 1 of your Pokémon.",
+				"fr": "Attachez 2 cartes Énergie de base de votre pile de défausse à 1 de vos Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tumbling Attack",
+				"fr": "Attaque Trébuchante"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		462
+	],
+	"evolveFrom": {
+		"en": "Magneton",
+		"fr": "Magnéton"
+	},
+	"hp": 140,
+	"illustrator": "match",
+	"name": {
+		"de": "Magnezone",
+		"en": "Magnezone",
+		"es": "Magnezone",
+		"fr": "Magnézone",
+		"it": "Magnezone",
+		"pt": "Magnezone"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw8",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

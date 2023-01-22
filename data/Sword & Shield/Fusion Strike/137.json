@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Desperate Blast"
+			},
+			"effect": {
+				"en": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, put 10 damage counters on the Attacking Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double-Edge"
+			},
+			"damage": 160,
+			"effect": {
+				"en": "This Pokémon also does 30 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It detonates its own body. The power from that explosion can propel it up steep mountain paths with amazing speed."
+	},
+	"evolveFrom": {
+		"en": "Graveler",
+		"fr": "Gravalanch",
+		"es": "Graveler",
+		"it": "Graveler",
+		"pt": "Graveler",
+		"de": "Georok"
+	},
+	"hp": 180,
+	"illustrator": "KEIICHIRO ITO",
+	"name": {
+		"de": "Geowaz",
+		"en": "Golem",
+		"es": "Golem",
+		"fr": "Grolem",
+		"it": "Golem",
+		"pt": "Golem"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bag Slash",
+				"fr": "Sac Lacéré",
+				"es": "Tajo Bolsa",
+				"it": "Laceraborsa",
+				"pt": "Rasga-bolsa",
+				"de": "Beutelschlitzer"
+			},
+			"effect": {
+				"en": "Your opponent reveals their hand. Discard an Item card you find there.",
+				"fr": "Votre adversaire dévoile sa main. Défaussez une carte Objet que vous y trouvez.",
+				"es": "Tu rival enseña las cartas de su mano. Descarta 1 carta de Objeto que encuentres entre ellas.",
+				"it": "Il tuo avversario mostra le carte che ha in mano. Scarta una carta Strumento presente tra esse.",
+				"pt": "Seu oponente revela a própria mão. Descarte 1 carta de Item que encontrar lá.",
+				"de": "Dein Gegner zeigt dir seine Handkarten. Lege 1 Itemkarte, die du dort findest, auf seinen Ablagestapel."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sting",
+				"fr": "Dard",
+				"es": "Aguijonazo",
+				"it": "Puntura",
+				"pt": "Ferroada",
+				"de": "Einstich"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		624
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Gladiantri",
+		"en": "Pawniard",
+		"es": "Pawniard",
+		"fr": "Scalpion",
+		"it": "Pawniard",
+		"pt": "Pawniard"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

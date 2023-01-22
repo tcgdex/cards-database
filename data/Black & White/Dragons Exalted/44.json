@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Energy Assist",
+				"fr": "Assistance Énergétique"
+			},
+			"effect": {
+				"en": "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
+				"fr": "Attachez 2 cartes Énergie de base de votre pile de défausse à 1 de vos Pokémon de Banc."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack",
+				"fr": "Vive-Attaque"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		310
+	],
+	"evolveFrom": {
+		"en": "Electrike",
+		"fr": "Dynavolt"
+	},
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Voltenso",
+		"en": "Manectric",
+		"es": "Manectric",
+		"fr": "Élecsprint",
+		"it": "Manectric",
+		"pt": "Manectric"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

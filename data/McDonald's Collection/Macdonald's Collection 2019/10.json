@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Spoil the Fun"
+			},
+			"damage": "10+",
+			"effect": {
+				"en": "If you go second, this attack does 60 more damage during your first turn."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage."
+	},
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Alolan Meowth"
+	},
+	"rarity": "None",
+	"set": "2019sm",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

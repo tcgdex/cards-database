@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 73,
+	"id": "sm3.5",
+	"name": {
+		"de": "Schimmernde Legenden",
+		"en": "Shining Legends",
+		"es": "Leyendas Luminosas",
+		"fr": "Légendes Brillantes",
+		"it": "Leggende Iridescenti",
+		"pt": "Lendas Luminescentes"
+	},
+	"releaseDate": "2017-10-06",
+	"serie": "sm",
+	"tcgOnline": "SLG"
+}

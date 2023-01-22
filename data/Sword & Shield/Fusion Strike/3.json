@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Tricolored Scales"
+			},
+			"effect": {
+				"en": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent's Active Pokémon Burned, Confused, and Poisoned."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gust"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest."
+	},
+	"evolveFrom": {
+		"en": "Metapod",
+		"fr": "Chrysacier",
+		"es": "Metapod",
+		"it": "Metapod",
+		"pt": "Metapod",
+		"de": "Safcon"
+	},
+	"hp": 120,
+	"illustrator": "ryoma uratsuka",
+	"name": {
+		"de": "Smettbo",
+		"en": "Butterfree",
+		"es": "Butterfree",
+		"fr": "Papilusion",
+		"it": "Butterfree",
+		"pt": "Butterfree"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

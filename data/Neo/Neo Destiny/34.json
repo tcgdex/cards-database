@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "High Voltage",
+				"fr": "Haut voltage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn.",
+				"fr": "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur pendant son prochain tour."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Stun Wave",
+				"fr": "Para-vague"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon has a Pokémon Power, that power stops working until the end of your next turn.",
+				"fr": "Si le Pokémon Défenseur a un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin de votre prochain tour."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps."
+	},
+	"dexId": [
+		180
+	],
+	"evolveFrom": {
+		"en": "Mareep"
+	},
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Dark Flaaffy",
+		"fr": "Lainergie obscur"
+	},
+	"rarity": "Uncommon",
+	"set": "neo4",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

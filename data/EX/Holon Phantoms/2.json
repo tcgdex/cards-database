@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Harsh Fluid",
+				"fr": "Fluide corrosif"
+			},
+			"effect": {
+				"en": "Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn.",
+				"fr": "Placez 5 marqueurs de dégât sur le Pokémon Défenseur à la fin du prochain tour de votre adversaire."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Tentacles",
+				"fr": "Tentacules empoisonnées"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		346
+	],
+	"evolveFrom": {
+		"en": "Lileep"
+	},
+	"hp": 100,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Cradily δ",
+		"fr": "Vacilys δ ESPÈCES DELTA"
+	},
+	"rarity": "Rare",
+	"set": "ex13",
+	"stage": "Stage2",
+	"types": [
+		"Darkness",
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

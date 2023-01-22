@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Slash",
+				"fr": "Tranche",
+				"es": "Cuchillada",
+				"it": "Lacerazione",
+				"pt": "Talho",
+				"de": "Schlitzer"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		83
+	],
+	"hp": 70,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Porenta",
+		"en": "Farfetch'd",
+		"es": "Farfetch'd",
+		"fr": "Canarticho",
+		"it": "Farfetch'd",
+		"pt": "Farfetch'd"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy0",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

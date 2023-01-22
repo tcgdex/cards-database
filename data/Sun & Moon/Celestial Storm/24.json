@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Smooth Over",
+				"fr": "Aplanir",
+				"es": "Terratemblor",
+				"it": "Risolvi Problemi",
+				"pt": "Atenuar",
+				"de": "Sanftes Gleiten"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may search your deck for a card, shuffle your deck, then put that card on top of it.",
+				"fr": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher une carte dans votre deck, mélanger votre deck, puis placer cette carte sur le dessus.",
+				"es": "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja 1 carta, barajar las cartas de tu baraja y luego poner esa carta en la parte superior de tu baraja.",
+				"it": "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare una carta nel tuo mazzo, rimischiare le carte del tuo mazzo e poi mettere quella carta in cima al mazzo.",
+				"pt": "Uma vez durante a sua vez de jogar (antes de atacar), você pode procurar por 1 carta no seu baralho, embaralhar o seu baralho e colocar aquela carta como a primeira carta do seu baralho.",
+				"de": "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 Karte durchsuchen, dein Deck mischen und anschließend jene Karte auf dein Deck legen."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise",
+				"es": "Combustión",
+				"it": "Fuoco Continuo",
+				"pt": "Combustão",
+				"de": "Glühen"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		219
+	],
+	"evolveFrom": {
+		"en": "Slugma",
+		"fr": "Limagma"
+	},
+	"hp": 90,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Magcargo",
+		"en": "Magcargo",
+		"es": "Magcargo",
+		"fr": "Volcaropod",
+		"it": "Magcargo",
+		"pt": "Magcargo"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "sm7",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

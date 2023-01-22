@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Smog",
+				"fr": "Purédpois",
+				"es": "Polución",
+				"it": "Smog",
+				"pt": "Nevoeiro de Fumaça",
+				"de": "Smog"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		92
+	],
+	"hp": 60,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Nebulak",
+		"en": "Gastly",
+		"es": "Gastly",
+		"fr": "Fantominus",
+		"it": "Gastly",
+		"pt": "Gastly"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

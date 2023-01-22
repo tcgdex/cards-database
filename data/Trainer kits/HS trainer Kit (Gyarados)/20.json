@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Hydro Splash"
+			},
+			"damage": 50
+		},
+		{
+			"name": {
+				"en": "Hyper Beam"
+			},
+			"damage": 80,
+			"effect": {
+				"en": "Discard an Energy card attached to the Defending Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
+	},
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Gyarados"
+	},
+	"rarity": "None",
+	"set": "tk-hs-g",
+	"stage": "Stage1"
+}

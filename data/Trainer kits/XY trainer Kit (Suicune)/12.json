@@ -1,0 +1,34 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Goldeen",
+		"fr": "Poissirène",
+		"es": "Goldeen",
+		"it": "Goldeen",
+		"pt": "Goldeen",
+		"de": "Goldini"
+	},
+	"hp": 90,
+	"name": {
+		"de": "Golking",
+		"en": "Seaking",
+		"es": "Seaking",
+		"fr": "Poissoroy",
+		"it": "Seaking",
+		"pt": "Seaking"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "tk-xy-su",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

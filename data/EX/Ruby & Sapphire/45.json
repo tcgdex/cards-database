@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Claw",
+				"fr": "Mâchoire"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, l'attaque est sans effet."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slack Off",
+				"fr": "Paresse"
+			},
+			"effect": {
+				"en": "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
+				"fr": "Retirez à Paracool tous ses marqueurs de dégât. Paracool ne pourra pas attaquer pendant votre prochain tour."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		287
+	],
+	"hp": 40,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Slakoth",
+		"fr": "Parecool"
+	},
+	"rarity": "Uncommon",
+	"set": "ex1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

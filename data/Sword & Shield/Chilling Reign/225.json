@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Put a Basic Pokémon from your opponent's discard pile onto their Bench.",
+		"fr": "Placez un Pokémon de base de la pile de défausse de votre adversaire sur son Banc.",
+		"es": "Pon 1 Pokémon Básico de la pila de descartes de tu rival en su Banca.",
+		"it": "Prendi un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua panchina.",
+		"pt": "Coloque 1 Pokémon Básico da pilha de descarte do seu oponente no Banco dele(a).",
+		"de": "Lege 1 Basis-Pokémon aus dem Ablagestapel deines Gegners auf seine Bank."
+	},
+	"illustrator": "Studio Bora Inc.",
+	"name": {
+		"de": "Echohorn",
+		"en": "Echoing Horn",
+		"es": "Cuerno Resonante",
+		"fr": "Corne Résonnante",
+		"it": "Corno Echeggiante",
+		"pt": "Berrante Retumbante"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"set": "swsh6",
+	"trainerType": "Item",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+	},
+	"illustrator": "Kai Ishikawa",
+	"name": {
+		"en": "Energy Search",
+		"fr": "Recherche d'énergie"
+	},
+	"rarity": "Common",
+	"set": "ex10",
+	"trainerType": "Item"
+}

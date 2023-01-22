@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Crystal Veil"
+			},
+			"effect": {
+				"en": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX, except any Glaceon VMAX."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Icicle"
+			},
+			"effect": {
+				"en": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		471
+	],
+	"evolveFrom": {
+		"en": "Glaceon V",
+		"fr": "Givrali-V",
+		"es": "Glaceon V",
+		"it": "Glaceon-V",
+		"pt": "Glaceon V",
+		"de": "Glaziola-V"
+	},
+	"hp": 310,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"de": "Glaziola VMAX",
+		"en": "Glaceon VMAX",
+		"es": "Glaceon VMAX",
+		"fr": "Givrali VMAX",
+		"it": "Glaceon VMAX",
+		"pt": "Glaceon VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh7",
+	"stage": "VMAX",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

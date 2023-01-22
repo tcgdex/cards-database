@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Electric Trans",
+				"fr": "Transe électrique"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may move a Lightning or Metal Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Magnezone is affected by a Special Condition.",
+				"fr": "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une Énergie Lightning ou Metal attachée à 1 de vos Pokémon sur un autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Magnézone est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Metal"
+			],
+			"name": {
+				"en": "Cyber Shock",
+				"fr": "Choc cyber"
+			},
+			"effect": {
+				"en": "Discard a Lightning Energy and a Metal Energy attached to Magnezone. The Defending Pokémon is now Paralyzed.",
+				"fr": "Défaussez une Énergie Lightning et une Énergie Metal attachée à Magnézone. Le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		462
+	],
+	"hp": 140,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Magnezone",
+		"fr": "Magnézone"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "dp6",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

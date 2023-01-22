@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Destructive Beam",
+				"fr": "Rayon Désintégrateur"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		233
+	],
+	"evolveFrom": {
+		"en": "Porygon",
+		"fr": "Porygon"
+	},
+	"hp": 80,
+	"illustrator": "HiRON",
+	"name": {
+		"de": "Porygon2",
+		"en": "Porygon2",
+		"es": "Porygon2",
+		"fr": "Porygon2",
+		"it": "Porygon2",
+		"pt": "Porygon2"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw10",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

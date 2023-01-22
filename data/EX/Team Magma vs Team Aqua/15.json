@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mystic Fang",
+				"fr": "Croc mystique"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		262
+	],
+	"hp": 70,
+	"illustrator": "Shin-ichi Yoshikawa",
+	"name": {
+		"en": "Team Aqua's Mightyena",
+		"fr": "Grahyena de Team Aqua"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "ex4",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

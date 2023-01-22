@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shakedown"
+			},
+			"effect": {
+				"en": "Choose a card from your opponent's hand without looking and discard it."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dark Fire"
+			},
+			"effect": {
+				"en": "You may discard a Fire Energy or Darkness Energy attached to Dark Houndoom. If you do, this attack does 40 damage plus 20 more damage.\""
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		229
+	],
+	"evolveFrom": {
+		"en": "Houndour"
+	},
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Dark Houndoom"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-30"
+		},
+		{
+			"type": "Psychic",
+			"value": "-30"
+		}
+	],
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Darkness",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		},
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

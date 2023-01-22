@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Takumi Akabane",
+	"name": {
+		"en": "Holon Energy WP",
+		"fr": "Énergie Holon WP"
+	},
+	"rarity": "Rare",
+	"set": "ex11"
+}

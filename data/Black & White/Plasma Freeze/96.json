@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down",
+				"fr": "Bélier"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				"fr": "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		397
+	],
+	"evolveFrom": {
+		"en": "Starly",
+		"fr": "Étourmi"
+	},
+	"hp": 80,
+	"illustrator": "sui",
+	"name": {
+		"de": "Staravia",
+		"en": "Staravia",
+		"es": "Staravia",
+		"fr": "Étourvol",
+		"it": "Staravia",
+		"pt": "Staravia"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

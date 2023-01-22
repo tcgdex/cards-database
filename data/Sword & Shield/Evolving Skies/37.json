@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Flail Around",
+				"fr": "Fléau Bougeant",
+				"es": "Aleteo Frenético",
+				"it": "Flagellamento",
+				"pt": "Flail Around",
+				"de": "Rumrudern"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 10 damage for each heads.",
+				"fr": "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+				"es": "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				"it": "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				"pt": "Flip 3 coins. This attack does 10 damage for each heads.",
+				"de": "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			},
+			"damage": "10×",
+			"cost": [
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+	},
+	"dexId": [
+		349
+	],
+	"hp": 30,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Barschwa",
+		"en": "Feebas",
+		"es": "Feebas",
+		"fr": "Barpau",
+		"it": "Feebas",
+		"pt": "Feebas"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

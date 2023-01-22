@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 147,
+	"id": "pl3",
+	"name": {
+		"de": "Ultimative Sieger",
+		"en": "Supreme Victors",
+		"fr": "Vainqueurs Suprêmes"
+	},
+	"releaseDate": "2009-08-19",
+	"serie": "pl",
+	"tcgOnline": "SV"
+}

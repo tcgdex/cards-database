@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est face, choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Energy Removal 2",
+		"fr": "Suppression d'Énergie 2"
+	},
+	"rarity": "Uncommon",
+	"set": "ex6",
+	"trainerType": "Item"
+}

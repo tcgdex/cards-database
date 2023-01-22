@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Freezing Headbutt",
+				"fr": "Coup d'Boule Gelant",
+				"es": "Cabezazo Paralizante",
+				"it": "Bottintesta Congelante",
+				"pt": "Cabeçada Congelante",
+				"de": "Frostige Kopfnuss"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				"de": "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aurora Beam",
+				"fr": "Onde Boréale",
+				"es": "Rayo Aurora",
+				"it": "Raggiaurora",
+				"pt": "Raio Aurora",
+				"de": "Aurorastrahl"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		364
+	],
+	"evolveFrom": {
+		"en": "Spheal",
+		"fr": "Obalie",
+		"es": "Spheal",
+		"it": "Spheal",
+		"pt": "Spheal",
+		"de": "Seemops"
+	},
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Seejong",
+		"en": "Sealeo",
+		"es": "Sealeo",
+		"fr": "Phogleur",
+		"it": "Sealeo",
+		"pt": "Sealeo"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "xy5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

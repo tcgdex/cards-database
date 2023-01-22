@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Vous ne pouvez jouer qu'une carte Supporter à chaque tour. Quand vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-vous de cette carte.\n\nSi vous avez des cartes dans votre main, mélangez-en une à votre deck et piochez ensuite 3 cartes."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Bill's Maintenance",
+		"fr": "Entretien de Léo"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard1"
+}

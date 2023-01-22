@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Incite",
+				"fr": "Inciter"
+			},
+			"effect": {
+				"en": "Search your discard pile for up to 2 Supporter cards, show them to your opponent, and put them into your hand.",
+				"fr": "Choisissez dans votre pile de défausse jusqu'à 2 cartes Supporter, montrez-les à votre adversaire et placez-les dans votre main."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Giant Wave",
+				"fr": "Vague géante"
+			},
+			"effect": {
+				"en": "Floatzel can't use Giant Wave during your next turn.",
+				"fr": "Mustéflott  ne peut pas utiliser Vague géante lors de votre prochain tour."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		419
+	],
+	"hp": 80,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Floatzel GL",
+		"fr": "Mustéflott  Niv. 37"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Muddy Maker"
+			},
+			"effect": {
+				"en": "Once during your turn, you may attach a Water Energy card or a Fighting Energy card from your hand to 1 of your Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Earthquake"
+			},
+			"damage": 180,
+			"effect": {
+				"en": "This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms."
+	},
+	"evolveFrom": {
+		"en": "Marshtomp",
+		"fr": "Flobio",
+		"es": "Marshtomp",
+		"it": "Marshtomp",
+		"pt": "Marshtomp",
+		"de": "Moorabbel"
+	},
+	"hp": 170,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Sumpex",
+		"en": "Swampert",
+		"es": "Swampert",
+		"fr": "Laggron",
+		"it": "Swampert",
+		"pt": "Swampert"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

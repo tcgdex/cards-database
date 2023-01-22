@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Watcheck",
+				"fr": "Contrôle Radar"
+			},
+			"effect": {
+				"en": "Look at the top 5 cards of your opponent's deck and put them back on top of his or her deck in any order.",
+				"fr": "Regardez les 5 cartes du dessus du deck de votre adversaire et replacez-les sur le dessus de son deck dans l'ordre de votre choix."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Tail Smash",
+				"fr": "Rapid'Claqueue"
+			},
+			"effect": {
+				"en": "Before doing damage, you may flip a coin. If heads, this attack does 60 more damage. If tails, this attack does nothing.",
+				"fr": "Avant d'infliger des dégâts, vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires. Si c'est pile, cette attaque ne fait rien."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		505
+	],
+	"evolveFrom": {
+		"en": "Patrat",
+		"fr": "Ratentif"
+	},
+	"hp": 90,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Kukmarda",
+		"en": "Watchog",
+		"es": "Watchog",
+		"fr": "Miradar",
+		"it": "Watchog",
+		"pt": "Watchog"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

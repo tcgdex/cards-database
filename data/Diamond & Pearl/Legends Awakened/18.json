@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Fossil Armor",
+				"fr": "Armure fossile"
+			},
+			"effect": {
+				"en": "If Armaldo would be damaged by an attack, prevent that attack's damage done to Armaldo if that damage is 60 or less.",
+				"fr": "Si une attaque inflige des dégâts à Armaldo, prévenez les dégâts de cette attaque si ces dégâts sont de 60 ou moins."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crush Claw",
+				"fr": "Éclategriffe"
+			},
+			"effect": {
+				"en": "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.",
+				"fr": "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il a gagné la côte après son évolution. Une armure robuste recouvre son corps."
+	},
+	"dexId": [
+		348
+	],
+	"evolveFrom": {
+		"en": "Anorith",
+		"fr": "Anorith"
+	},
+	"hp": 140,
+	"illustrator": "Kazuaki Aihara",
+	"name": {
+		"en": "Armaldo",
+		"fr": "Armaldo"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp6",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+30"
+		}
+	]
+}

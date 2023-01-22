@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wing Attack",
+				"fr": "Cru-Ailes",
+				"es": "Ataque Ala",
+				"it": "Attacco d'Ala",
+				"pt": "Ataque de Asa",
+				"de": "Flügelschlag"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Starly",
+		"fr": "Étourmi",
+		"es": "Starly",
+		"it": "Starly",
+		"pt": "Starly",
+		"de": "Staralili"
+	},
+	"hp": 90,
+	"name": {
+		"de": "Staravia",
+		"en": "Staravia",
+		"es": "Staravia",
+		"fr": "Étourvol",
+		"it": "Staravia",
+		"pt": "Staravia"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh9",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	]
+}

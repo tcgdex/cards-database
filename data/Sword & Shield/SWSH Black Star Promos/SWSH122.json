@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Dynamotor"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electro Ball"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
+	},
+	"dexId": [
+		180
+	],
+	"evolveFrom": {
+		"en": "Mareep"
+	},
+	"hp": 90,
+	"illustrator": "Pani Kobayashi",
+	"name": {
+		"en": "Flaaffy"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swshp",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

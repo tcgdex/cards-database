@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Kick"
+			},
+			"damage": "20×",
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage for each heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The reason it keeps one ear rolled up is so it can launch a swift counterattack if it's attacked by an enemy."
+	},
+	"hp": 50,
+	"illustrator": "Yuu Nishida",
+	"name": {
+		"de": "Haspiror",
+		"en": "Buneary",
+		"es": "Buneary",
+		"fr": "Laporeille",
+		"it": "Buneary",
+		"pt": "Buneary"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Dark Forest",
+				"fr": "Forêt Sombre",
+				"es": "Bosque Oscuro",
+				"it": "Boscoscuro",
+				"pt": "Floresta Sombria",
+				"de": "Dunkler Wald"
+			},
+			"effect": {
+				"en": "The Defending Pokémon can't retreat during your opponent's next turn.",
+				"fr": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				"es": "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				"it": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				"pt": "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				"de": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wood Blast",
+				"fr": "Explobois",
+				"es": "Estallido Arbolado",
+				"it": "Urtolegno",
+				"pt": "Explosão de Madeira",
+				"de": "Holzexplosion"
+			},
+			"effect": {
+				"en": "This attack does 20 more damage for each Grass Energy attached to this Pokémon.",
+				"fr": "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Grass attachée à ce Pokémon.",
+				"es": "Este ataque hace 20 puntos de daño más por cada Energía Grass unida a este Pokémon.",
+				"it": "Questo attacco infligge 20 danni in più per ogni Energia Grass assegnata a questo Pokémon.",
+				"pt": "Esse ataque causa 20 de danos adicionais para cada Energia Grass ligada a este Pokémon.",
+				"de": "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte Grass-Energie zu."
+			},
+			"damage": "50+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		709
+	],
+	"hp": 180,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Trombork EX",
+		"en": "Trevenant EX",
+		"es": "Trevenant EX",
+		"fr": "Desséliande EX",
+		"it": "Trevenant EX",
+		"pt": "Trevenant EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 3,
+	"set": "xy5",
+	"stage": "Basic",
+	"suffix": "EX",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Natural Cure",
+				"fr": "Guérison naturelle"
+			},
+			"effect": {
+				"en": "When you attach a Water Energy card from your hand to Lombre, remove all Special Conditions from Lombre.",
+				"fr": "Lorsque vous attachez une carte Énergie  de votre main à Lombre, retirez-lui tous ses États Spéciaux."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blot",
+				"fr": "Pâté"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Lombre.",
+				"fr": "Retirez à Lombre 2 marqueurs de dégât."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		271
+	],
+	"evolveFrom": {
+		"en": "Lotad"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Lombre",
+		"fr": "Lombre"
+	},
+	"rarity": "Uncommon",
+	"set": "ex8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

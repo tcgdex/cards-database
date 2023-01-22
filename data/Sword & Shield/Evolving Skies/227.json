@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Quick Shooting"
+			},
+			"effect": {
+				"en": "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		818
+	],
+	"evolveFrom": {
+		"en": "Drizzile",
+		"fr": "Arrozard",
+		"es": "Drizzile",
+		"it": "Drizzile",
+		"pt": "Drizzile",
+		"de": "Phlegleon"
+	},
+	"hp": 150,
+	"illustrator": "Saki Hayashiro",
+	"name": {
+		"de": "Intelleon",
+		"en": "Inteleon",
+		"es": "Inteleon",
+		"fr": "Lézargus",
+		"it": "Inteleon",
+		"pt": "Inteleon"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

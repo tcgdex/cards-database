@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "G-Max Drum Solo"
+			},
+			"damage": 180,
+			"effect": {
+				"en": "This attack also does 40 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Rillaboom V",
+		"fr": "Gorythmic-V",
+		"es": "Rillaboom V",
+		"it": "Rillaboom-V",
+		"pt": "Rillaboom V",
+		"de": "Gortrom-V"
+	},
+	"hp": 330,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Gortrom VMAX",
+		"en": "Rillaboom VMAX",
+		"es": "Rillaboom VMAX",
+		"fr": "Gorythmic VMAX",
+		"it": "Rillaboom VMAX",
+		"pt": "Rillaboom VMAX"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "VMAX",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

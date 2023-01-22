@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spore",
+				"fr": "Spore",
+				"es": "Espora",
+				"it": "Spora",
+				"pt": "Esporos",
+				"de": "Pilzspore"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		285
+	],
+	"hp": 60,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Knilz",
+		"en": "Shroomish",
+		"es": "Shroomish",
+		"fr": "Balignon",
+		"it": "Shroomish",
+		"pt": "Shroomish"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

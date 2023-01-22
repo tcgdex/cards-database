@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 17,
+	"id": "pop7",
+	"name": {
+		"de": "POP Serie 7",
+		"en": "POP Series 7",
+		"fr": "POP Série 7",
+		"it": "POP Serie 7"
+	},
+	"releaseDate": "2008-03-01",
+	"serie": "pop"
+}

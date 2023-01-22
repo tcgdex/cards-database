@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Fighting"
+			],
+			"name": {
+				"en": "Shred"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by any effects on the Defending Pokémon."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		444
+	],
+	"evolveFrom": {
+		"en": "Gible"
+	},
+	"hp": 80,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"en": "Gabite"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

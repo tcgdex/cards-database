@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ancient Trait",
+			"name": {
+				"en": "Δ Evolution",
+				"fr": "Évolution Δ"
+			},
+			"effect": {
+				"en": "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
+				"fr": "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez."
+			}
+		},
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Serene Grace"
+			},
+			"effect": {
+				"en": "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may look at the top 8 cards of your deck. Choose any basic Energy cards you find there and attach them to your Pokémon in any way you like. Shuffle the other cards back into your deck."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fairy",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fairy Wind",
+				"fr": "Vent Féérique",
+				"es": "Viento Feérico",
+				"it": "Vento di Fata",
+				"pt": "Vento de Fada",
+				"de": "Feenbrise"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		468
+	],
+	"evolveFrom": {
+		"en": "Togetic",
+		"fr": "Togetic",
+		"es": "Togetic",
+		"it": "Togetic",
+		"pt": "Togetic",
+		"de": "Togetic"
+	},
+	"hp": 130,
+	"illustrator": "PLANETA",
+	"name": {
+		"de": "Togekiss",
+		"en": "Togekiss",
+		"es": "Togekiss",
+		"fr": "Togekiss",
+		"it": "Togekiss",
+		"pt": "Togekiss"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy6",
+	"stage": "Stage2",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

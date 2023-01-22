@@ -1,0 +1,10 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"illustrator": "Katsura Tabata",
+	"name": {
+		"en": "Fast Ball"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard3"
+}

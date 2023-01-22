@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 110,
+	"id": "ex13",
+	"name": {
+		"de": "EX Holon Phantoms",
+		"en": "Holon Phantoms",
+		"fr": "EX Fantômes Holon",
+		"it": "EX Fantasmi di Holon"
+	},
+	"releaseDate": "2006-05-03",
+	"serie": "ex",
+	"tcgOnline": "HP"
+}

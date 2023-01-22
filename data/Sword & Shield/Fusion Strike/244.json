@@ -1,0 +1,25 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"effect": {
+		"en": "This card can only be attached to a Fusion Strike Pokémon. If this card is attached to anything other than a Fusion Strike Pokémon, discard this card.\nAs long as this card is attached to a Pokémon, it provides every type of Energy but provides only 1 Energy at a time. Prevent all effects of your opponent's Pokémon's Abilities done to the Pokémon this card is attached to."
+	},
+	"energyType": "Special",
+	"name": {
+		"de": "Fusionsangriff-Energie",
+		"en": "Fusion Strike Energy",
+		"es": "Energía Golpe Fusión",
+		"fr": "Énergie Poing de Fusion",
+		"it": "Energia Colpo Fusione",
+		"pt": "Energia Golpe Fusão"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"set": "swsh8",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

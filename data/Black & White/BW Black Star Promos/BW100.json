@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur pioche une carte pour chacune des cartes Récompense qu'il lui reste."
+	},
+	"illustrator": "Yusuke Ohmura",
+	"name": {
+		"en": "N",
+		"fr": "N"
+	},
+	"rarity": "Uncommon",
+	"set": "bwp",
+	"trainerType": "Supporter"
+}

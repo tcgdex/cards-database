@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Piochez 3 cartes du dessous de votre deck.",
+		"en": "Draw 3 cards from the bottom of your deck.",
+		"es": "Roba 3 cartas de la parte inferior de tu baraja.",
+		"it": "Pesca tre carte in fondo al tuo mazzo.",
+		"pt": "Compre as 3 últimas cartas do seu baralho.",
+		"de": "Ziehe 3 Karten von unten aus deinem Deck."
+	},
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "LeBelle",
+		"en": "Looker",
+		"es": "Handsome",
+		"fr": "Beladonis",
+		"it": "Bellocchio",
+		"pt": "Looker"
+	},
+	"rarity": "Ultra Rare",
+	"set": "sm5",
+	"trainerType": "Supporter"
+}

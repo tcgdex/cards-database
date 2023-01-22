@@ -1,0 +1,10 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Misty's Wrath"
+	},
+	"rarity": "Uncommon",
+	"set": "gym1"
+}

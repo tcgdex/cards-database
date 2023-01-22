@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"fr": "Rythme Voltaïque",
+				"en": "Voltage Beat",
+				"es": "Ritmo Voltaje",
+				"it": "Battuta Folgorante",
+				"pt": "Voltage Beat",
+				"de": "Blitztrommeln"
+			},
+			"effect": {
+				"fr": "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 cartes Énergie Grass, puis les attacher à l'un de vos Pokémon. Mélangez ensuite votre deck.",
+				"en": "Once during your turn, you may search your deck for up to 2 Grass Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+				"es": "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 cartas de Energía Grass y unirlas a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
+				"it": "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due carte Energia Grass e assegnarle a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+				"pt": "Once during your turn, you may search your deck for up to 2 Grass Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+				"de": "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Grass-Energiekarten durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"fr": "Enfoncement",
+				"en": "Hammer In",
+				"es": "Martillear",
+				"it": "Martello",
+				"pt": "Hammer In",
+				"de": "Einhämmern"
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
+	},
+	"dexId": [
+		812
+	],
+	"evolveFrom": {
+		"en": "Thwackey",
+		"fr": "Badabouin"
+	},
+	"hp": 170,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Gortrom",
+		"en": "Rillaboom",
+		"es": "Rillaboom",
+		"fr": "Gorythmic",
+		"it": "Rillaboom",
+		"pt": "Rillaboom"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swshp",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

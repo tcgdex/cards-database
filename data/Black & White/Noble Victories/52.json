@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Future Sight",
+				"fr": "Prescience"
+			},
+			"effect": {
+				"en": "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
+				"fr": "Regardez les 5 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Net Force",
+				"fr": "Force Accrue"
+			},
+			"effect": {
+				"en": "Does 40 damage times the number of Reuniclus you have in play.",
+				"fr": "Inflige 40 dégâts multipliés par le nombre de Symbios que vous avez en jeu."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		579
+	],
+	"evolveFrom": {
+		"en": "Duosion",
+		"fr": "Méios"
+	},
+	"hp": 90,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Zytomega",
+		"en": "Reuniclus",
+		"es": "Reuniclus",
+		"fr": "Symbios",
+		"it": "Reuniclus",
+		"pt": "Reuniclus"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw3",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

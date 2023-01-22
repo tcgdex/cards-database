@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Big Yawn",
+				"fr": "Gros Bâillement",
+				"es": "Gran Bostezo",
+				"it": "Gransbadiglio",
+				"pt": "Grande Bocejo",
+				"de": "Großer Gähner"
+			},
+			"effect": {
+				"en": "Both Active Pokémon are now Asleep.",
+				"fr": "Les deux Pokémon Actifs sont maintenant Endormis.",
+				"es": "Ambos Pokémon Activos pasan a estar Dormidos.",
+				"it": "Entrambi i Pokémon attivi vengono addormentati.",
+				"pt": "Ambos os Pokémon Ativos agora estão Adormecidos.",
+				"de": "Beide Aktiven Pokémon schlafen jetzt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		287
+	],
+	"hp": 60,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Bummelz",
+		"en": "Slakoth",
+		"es": "Slakoth",
+		"fr": "Parecool",
+		"it": "Slakoth",
+		"pt": "Slakoth"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "xy3",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

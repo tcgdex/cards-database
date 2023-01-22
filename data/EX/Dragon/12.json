@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Power Generation",
+				"fr": "Générateur de pouvoir"
+			},
+			"effect": {
+				"en": "Search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put them into your hand.",
+				"fr": "Choisissez dans votre pile de défausse jusqu'à deux cartes Énergie de base, montrez-les à votre adversaire et placez-les dans votre main."
+			}
+		},
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Scorching Smoke",
+				"fr": "Fumée brûlante"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned. Flip a coin. If tails, discard a Fire Energy card attached to Torkoal.",
+				"fr": "Le Pokémon Défenseur est maintenant Brûlé. Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Chartor."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		324
+	],
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Torkoal",
+		"fr": "Chartor"
+	},
+	"rarity": "Rare",
+	"set": "ex3",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

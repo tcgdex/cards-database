@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "",
+		"en": "",
+		"es": "",
+		"it": "",
+		"pt": "",
+		"de": ""
+	},
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Konterfänger",
+		"en": "Counter Catcher",
+		"es": "Capturador Contraataque",
+		"fr": "Attrape-Riposte",
+		"it": "Contracchiappa-Pokémon",
+		"pt": "Pegador de Contra-ataque"
+	},
+	"rarity": "Secret Rare",
+	"set": "sm4",
+	"trainerType": "Item"
+}

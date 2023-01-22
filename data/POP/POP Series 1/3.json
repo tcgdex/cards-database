@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Fly"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Rayquaza during your opponent’s next turn."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Lightning"
+			],
+			"name": {
+				"en": "Dragon Claw"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		384
+	],
+	"hp": 80,
+	"illustrator": "Katsura Tabata",
+	"name": {
+		"en": "Rayquaza",
+		"fr": "Rayquaza"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pop1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless"
+		}
+	]
+}

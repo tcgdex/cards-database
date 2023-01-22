@@ -1,0 +1,88 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Electrocharge",
+				"fr": "Électrocharge",
+				"es": "Electrocarga",
+				"it": "Carica Voltaica",
+				"pt": "Eletrocarga",
+				"de": "Elektroladung"
+			},
+			"effect": {
+				"en": "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+				"fr": "Cherchez jusqu’à 2 cartes Énergie Lightning dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+				"es": "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+				"it": "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+				"pt": "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
+				"de": "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "High-Voltage Knuckle",
+				"fr": "Poing Haute Tension",
+				"es": "Nudillo Alto Voltaje",
+				"it": "Pugno Folgorante",
+				"pt": "Punho de Alta Voltagem",
+				"de": "Starkstromfaust"
+			},
+			"effect": {
+				"en": "Discard 3 Energy from this Pokémon.",
+				"fr": "Défaussez 3 Énergies de ce Pokémon.",
+				"es": "Descarta 3 Energías de este Pokémon.",
+				"it": "Scarta tre Energie assegnate a questo Pokémon.",
+				"pt": "Descarte 3 Energias deste Pokémon.",
+				"de": "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 190
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		466
+	],
+	"evolveFrom": {
+		"en": "Electabuzz",
+		"fr": "Élektek"
+	},
+	"hp": 140,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Elevoltek",
+		"en": "Electivire",
+		"es": "Electivire",
+		"fr": "Élekable",
+		"it": "Electivire",
+		"pt": "Electivire"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "sm8",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

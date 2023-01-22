@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Clear Body",
+				"fr": "Corps sain"
+			},
+			"effect": {
+				"en": "Regice can't be affected by any Special Conditions.",
+				"fr": "Regice ne peut pas être affecté par des États Spéciaux."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icy Wind",
+				"fr": "Vent glacé"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		378
+	],
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Regice",
+		"fr": "Regice"
+	},
+	"rarity": "Rare",
+	"set": "ex13",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

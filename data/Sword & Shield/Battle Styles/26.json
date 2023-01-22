@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Flare",
+				"fr": "Flamboiement",
+				"es": "Llama",
+				"it": "Fiammata",
+				"pt": "Chama",
+				"de": "Flackern"
+			},
+			"damage": 20,
+			"cost": [
+				"Fire"
+			]
+		},
+		{
+			"name": {
+				"en": "Burning Licks",
+				"fr": "Léchures Brûlantes",
+				"es": "Lengüetazos Abrasadores",
+				"it": "Brucialeccate",
+				"pt": "Lambidas Abrasadoras",
+				"de": "Feuerzunge"
+			},
+			"effect": {
+				"en": "Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon.",
+				"fr": "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				"es": "Lanza 2 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+				"it": "Lancia due volte una moneta. Ogni volta che esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+				"pt": "Jogue 2 moedas. Para cada cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				"de": "Wirf 2 Münzen. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			},
+			"damage": 70,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides."
+	},
+	"hp": 120,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Furnifraß",
+		"en": "Heatmor",
+		"es": "Heatmor",
+		"fr": "Aflamanoir",
+		"it": "Heatmor",
+		"pt": "Heatmor"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

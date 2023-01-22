@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Rear Kick",
+				"fr": "Ruade",
+				"es": "Patada Trasera",
+				"it": "Retrocalcio",
+				"pt": "Chute Traseiro",
+				"de": "Rückwärtskick"
+			},
+			"damage": 20,
+			"cost": [
+				"Lightning"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
+	},
+	"hp": 60,
+	"illustrator": "sowsow",
+	"name": {
+		"de": "Sheinux",
+		"en": "Shinx",
+		"es": "Shinx",
+		"fr": "Lixy",
+		"it": "Shinx",
+		"pt": "Shinx"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

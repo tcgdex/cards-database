@@ -1,0 +1,88 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer Arm",
+				"fr": "Marto-Poing",
+				"es": "Machada",
+				"it": "Martelpugno",
+				"pt": "Braço de Martelo",
+				"de": "Hammerarm"
+			},
+			"effect": {
+				"en": "Discard the top card of your opponent's deck.",
+				"fr": "Défaussez la carte du dessus du deck de votre adversaire.",
+				"es": "Descarta la primera carta de la baraja de tu rival.",
+				"it": "Scarta la prima carta del mazzo del tuo avversario.",
+				"pt": "Descarte a carta de cima do baralho do seu oponente.",
+				"de": "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			},
+			"damage": 70
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Claw Slash",
+				"fr": "Tranch'Griffe",
+				"es": "Cuchillada Garra",
+				"it": "Lacerartiglio",
+				"pt": "Golpe de Garra",
+				"de": "Klauenschlitzer"
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+	},
+	"evolveFrom": {
+		"en": "Teddiursa",
+		"fr": "Teddiursa",
+		"es": "Teddiursa",
+		"it": "Teddiursa",
+		"pt": "Teddiursa",
+		"de": "Teddiursa"
+	},
+	"hp": 140,
+	"illustrator": "Uta",
+	"name": {
+		"de": "Ursaring",
+		"en": "Ursaring",
+		"es": "Ursaring",
+		"fr": "Ursaring",
+		"it": "Ursaring",
+		"pt": "Ursaring"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh3",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

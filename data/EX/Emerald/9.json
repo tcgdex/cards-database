@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Dance",
+				"fr": "Danse de dragon"
+			},
+			"effect": {
+				"en": "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before applying Weakness and Resistance).",
+				"fr": "Lors de votre prochain tour, si 1 de vos Pokémon Actifs inflige des dégâts à 1 des Pokémon Défenseurs, cette attaque inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Claw",
+				"fr": "Griffe de dragon"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		384
+	],
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Rayquaza",
+		"fr": "Rayquaza"
+	},
+	"rarity": "Rare",
+	"set": "ex9",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

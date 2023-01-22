@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Votre Pokémon Actif est maintenant Confus.",
+		"en": "Your Active Pokémon is now Confused."
+	},
+	"name": {
+		"en": "Imakuni?",
+		"fr": "Imakuni ?"
+	},
+	"rarity": "Uncommon",
+	"set": "g1",
+	"trainerType": "Supporter"
+}

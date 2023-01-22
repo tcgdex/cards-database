@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 80,
+	"name": {
+		"de": "Sonnfel",
+		"en": "Solrock",
+		"es": "Solrock",
+		"fr": "Solaroc",
+		"it": "Solrock",
+		"pt": "Solrock"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "tk-xy-latio",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

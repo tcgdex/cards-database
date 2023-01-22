@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch'herbe"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Foul Odor",
+				"fr": "Odeur fétide"
+			},
+			"effect": {
+				"en": "Both the Defending Pokémon and Gloom are now Confused (after doing damage).",
+				"fr": "Le Pokémon Défenseur et Ordide sont maintenant Confus (après avoir infligé les dégâts)."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		44
+	],
+	"evolveFrom": {
+		"en": "Oddish"
+	},
+	"hp": 70,
+	"illustrator": "Yuichi Sawayama",
+	"name": {
+		"en": "Gloom",
+		"fr": "Ortide"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard1",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

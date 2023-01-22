@@ -1,0 +1,11 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"illustrator": "Yusuke Ohmura",
+	"name": {
+		"en": "Elesa"
+	},
+	"rarity": "Common",
+	"set": "bw11",
+	"trainerType": "Supporter"
+}

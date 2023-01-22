@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 112,
+	"id": "ex6",
+	"name": {
+		"de": "EX Feuerrot & Blattgrün",
+		"en": "FireRed & LeafGreen",
+		"fr": "EX Rouge Feu & Vert Feuille",
+		"it": "EX RossoFuoco e VerdeFoglia"
+	},
+	"releaseDate": "2004-09-01",
+	"serie": "ex",
+	"tcgOnline": "RG"
+}

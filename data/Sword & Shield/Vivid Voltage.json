@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 185,
+	"id": "swsh4",
+	"name": {
+		"de": "Farbenschock",
+		"en": "Vivid Voltage",
+		"es": "Voltaje Vívido",
+		"fr": "Voltage Éclatant",
+		"it": "Voltaggio Sfolgorante",
+		"pt": "Voltagem Vívida"
+	},
+	"releaseDate": "2020-11-13",
+	"serie": "swsh"
+}

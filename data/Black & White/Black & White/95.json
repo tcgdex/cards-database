@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Retirez tous les États Spéciaux de votre Pokémon Actif.",
+		"en": "Remove all Special Conditions from your Active Pokémon.",
+		"es": "Elimina todas las Condiciones Especiales de tu Pokémon Activo.",
+		"it": "Rimuovi tutte le condizioni speciali dal tuo Pokémon attivo.",
+		"pt": "Remova todas as Condições Especiais do seu Pokémon Ativo.",
+		"de": "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Hyperheiler",
+		"en": "Full Heal",
+		"es": "Curación Total",
+		"fr": "Total Soin",
+		"it": "Recupero Totale",
+		"pt": "Água Fresca"
+	},
+	"rarity": "Uncommon",
+	"set": "bw1",
+	"trainerType": "Item"
+}

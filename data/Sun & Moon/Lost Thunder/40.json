@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncement",
+				"es": "Martillear",
+				"it": "Martello",
+				"pt": "Martelada",
+				"de": "Einhämmern"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		155
+	],
+	"hp": 70,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Feurigel",
+		"en": "Cyndaquil",
+		"es": "Cyndaquil",
+		"fr": "Héricendre",
+		"it": "Cyndaquil",
+		"pt": "Cyndaquil"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

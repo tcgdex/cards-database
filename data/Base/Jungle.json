@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 64,
+	"id": "base2",
+	"name": {
+		"de": "Dschungel",
+		"en": "Jungle",
+		"es": "Jungla",
+		"fr": "Jungle",
+		"it": "Jungle",
+		"pt": "Selva"
+	},
+	"releaseDate": "1999-06-16",
+	"serie": "base",
+	"tcgOnline": "JU"
+}

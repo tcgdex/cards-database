@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Ember",
+				"fr": "Flammèche"
+			},
+			"effect": {
+				"en": "Discard a Energy card attached to Growlithe.",
+				"fr": "Défaussez-vous d'une carte Énergie  attachée à Caninos."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		58
+	],
+	"hp": 60,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Growlithe",
+		"fr": "Caninos"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard2",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

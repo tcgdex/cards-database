@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Stir and Snooze",
+				"fr": "Sommeil Lourd"
+			},
+			"effect": {
+				"en": "If this Pokémon is Asleep, flip 2 coins instead of 1 between turns. If either of them is tails, this Pokémon is still Asleep.",
+				"fr": "Si ce Pokémon est Endormi, lancez 2 pièces au lieu d'une entre chaque tour. Si vous obtenez au moins un côté pile, ce Pokémon reste Endormi."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sleepy Press",
+				"fr": "Pression Torpide"
+			},
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon. This Pokémon is now Asleep.",
+				"fr": "Soignez 20 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		143
+	],
+	"hp": 130,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Snorlax",
+		"fr": "Ronflex"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "g1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

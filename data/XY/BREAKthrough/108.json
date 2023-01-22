@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Brat Snack",
+				"fr": "Goûter Galopin",
+				"es": "Bocado Consentido",
+				"it": "Spuntino Moccioso",
+				"pt": "Lanche de Pirralho",
+				"de": "Schlingelschmaus"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Claw",
+				"fr": "Dracogriffe",
+				"es": "Garra Dragón",
+				"it": "Dragartigli",
+				"pt": "Garra de Dragão",
+				"de": "Drachenklaue"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		610
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Milza",
+		"en": "Axew",
+		"es": "Axew",
+		"fr": "Coupenotte",
+		"it": "Axew",
+		"pt": "Axew"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy8",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Piochez 2 cartes. Ensuite, votre adversaire défausse une carte de sa main.",
+		"en": "Draw 2 cards. Then, your opponent discards a card from his or her hand."
+	},
+	"hp": 0,
+	"illustrator": "Takao Unno",
+	"name": {
+		"en": "Team Rocket’s Trickery",
+		"fr": "Fourberie de la Team Rocket"
+	},
+	"rarity": "Uncommon",
+	"set": "hgss3",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

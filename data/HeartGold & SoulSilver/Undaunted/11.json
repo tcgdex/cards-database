@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Retreat Aid",
+				"fr": "Soutien de retraite"
+			},
+			"effect": {
+				"en": "As long as Dodrio is on your Bench, your Active Pokémon’s Retreat Cost is ColorlessColorless less.",
+				"fr": "Tant que Dodrio est sur votre Banc, le Coût de retraite de votre Pokémon Actif est réduit de ColorlessColorless."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Incessant Peck",
+				"fr": "Rafal’Bec"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.",
+				"fr": "Lancez une pièce jusqu’à ce qu’elle tombe sur pile.  Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility."
+	},
+	"dexId": [
+		85
+	],
+	"evolveFrom": {
+		"en": "Doduo",
+		"fr": "Doduo"
+	},
+	"hp": 80,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Dodrio",
+		"fr": "Dodrio"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

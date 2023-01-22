@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Flail",
+				"fr": "Fléau"
+			},
+			"effect": {
+				"en": "Does 10 damage times the number of damage counters on Donphan.",
+				"fr": "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Donphan."
+			},
+			"damage": "10×"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Rapid Spin",
+				"fr": "Tour rapide"
+			},
+			"effect": {
+				"en": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)",
+				"fr": "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Actif, ensuite, si vous avez des Pokémon sur votre Banc, vous choisissez l'un d'eux et l'échangez avec votre Pokémon Actif. (Infligez les dégâts avant d'échanger les Pokémon.)"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il possède des défenses aiguisées et une peau épaisse. Ses charges sont suffisamment puissantes pour abattre une maison."
+	},
+	"dexId": [
+		232
+	],
+	"evolveFrom": {
+		"en": "Phanpy"
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Donphan",
+		"fr": "Donphan"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-30"
+		}
+	],
+	"set": "neo1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

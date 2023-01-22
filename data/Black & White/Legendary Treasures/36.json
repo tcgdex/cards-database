@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pull Out"
+			},
+			"effect": {
+				"en": "Put a card from your discard pile on top of your deck."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Aqua Boomerang"
+			},
+			"effect": {
+				"en": "Return this Pokémon and all cards attached to it to your hand."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		489
+	],
+	"hp": 70,
+	"illustrator": "kawayoo",
+	"name": {
+		"en": "Phione"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw11",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

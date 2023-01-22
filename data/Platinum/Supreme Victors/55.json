@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Petal Dance",
+				"fr": "Danse-fleur"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 30 damage times the number of heads. Cherrim is now Confused.",
+				"fr": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Ceriflor est maintenant Confus."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		421
+	],
+	"evolveFrom": {
+		"en": "Cherubi",
+		"fr": "Ceribou"
+	},
+	"hp": 80,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"en": "Cherrim",
+		"fr": "Ceriflor"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

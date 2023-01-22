@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Green Breath"
+			},
+			"effect": {
+				"en": "When you attach a Grass Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Leaf Blast"
+			},
+			"effect": {
+				"en": "Does 20 damage times the amount of Grass Energy attached to Sceptile."
+			},
+			"damage": "20x"
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Claws"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		254
+	],
+	"evolveFrom": {
+		"en": "Grovyle"
+	},
+	"illustrator": "Reiko Tanoue",
+	"name": {
+		"en": "Sceptile"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "pl4",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+30"
+		}
+	]
+}

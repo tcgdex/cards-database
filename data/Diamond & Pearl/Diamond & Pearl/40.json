@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Nasty Plot",
+				"fr": "Machination"
+			},
+			"effect": {
+				"en": "Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Choisissez dans votre deck n'importe quelle carte et placez-la dans votre main. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Dark Pulse",
+				"fr": "Vibrobscur"
+			},
+			"effect": {
+				"en": "Does 10 damage times the total amount of Darkness Energy attached to all of your Pokémon.",
+				"fr": "Inflige 10 dégâts multipliés par le nombre d'Énergies Darkness attachées à tous vos Pokémon."
+			},
+			"damage": "10×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ils vivent par groupe de 4 ou 5 en région froide et chassent de façon très organisée."
+	},
+	"dexId": [
+		461
+	],
+	"evolveFrom": {
+		"en": "Sneasel",
+		"fr": "Farfuret"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Weavile",
+		"fr": "Dimoret"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

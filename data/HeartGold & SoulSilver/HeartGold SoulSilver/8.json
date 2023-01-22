@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Night Sight",
+				"fr": "Vision de nuit"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may draw a card. This power can’t be used if Noctowl is affected by a Special Condition.",
+				"fr": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Extrasensory",
+				"fr": "Extrasenseur"
+			},
+			"effect": {
+				"en": "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.",
+				"fr": "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+	},
+	"dexId": [
+		164
+	],
+	"evolveFrom": {
+		"en": "Hoothoot",
+		"fr": "Hoothoot"
+	},
+	"hp": 90,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"en": "Noctowl",
+		"fr": "Noarfang"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

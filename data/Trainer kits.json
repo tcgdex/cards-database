@@ -1,0 +1,10 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "tk",
+	"name": {
+		"en": "Trainer kits",
+		"es": "Kits de Entrenador",
+		"fr": "Kits du dresseur",
+		"it": "Trainer Kit"
+	}
+}

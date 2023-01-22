@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Drool",
+				"fr": "Gluant",
+				"es": "Babeo",
+				"it": "Sbavare",
+				"pt": "Babar",
+				"de": "Sabbern"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		44
+	],
+	"evolveFrom": {
+		"en": "Oddish",
+		"fr": "Mystherbe",
+		"es": "Oddish",
+		"it": "Oddish",
+		"pt": "Oddish",
+		"de": "Myrapla"
+	},
+	"hp": 80,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Duflor",
+		"en": "Gloom",
+		"es": "Gloom",
+		"fr": "Ortide",
+		"it": "Gloom",
+		"pt": "Gloom"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "xy7",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Refreshing Rain",
+				"fr": "Ondée Rafraîchissante"
+			},
+			"effect": {
+				"en": "Heal 30 damage from each of your Pokémon.",
+				"fr": "Soignez 30 dégâts à chacun de vos Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gold Breaker",
+				"fr": "Goliastruction"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.",
+				"fr": "Si le Pokémon Défenseur est un Pokémon-EX, cette attaque inflige 50 dégâts supplémentaires."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		134
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Évoli"
+	},
+	"hp": 110,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Aquana",
+		"en": "Vaporeon",
+		"es": "Vaporeon",
+		"fr": "Aquali",
+		"it": "Vaporeon",
+		"pt": "Vaporeon"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw9",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

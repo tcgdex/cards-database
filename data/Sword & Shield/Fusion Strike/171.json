@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Claw"
+			},
+			"damage": "40×",
+			"effect": {
+				"en": "Flip 2 coins. This attack does 40 damage for each heads."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Night Daze"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods."
+	},
+	"evolveFrom": {
+		"en": "Zorua",
+		"fr": "Zorua",
+		"es": "Zorua",
+		"it": "Zorua",
+		"pt": "Zorua",
+		"de": "Zorua"
+	},
+	"hp": 120,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Zoroark",
+		"en": "Zoroark",
+		"es": "Zoroark",
+		"fr": "Zoroark",
+		"it": "Zoroark",
+		"pt": "Zoroark"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

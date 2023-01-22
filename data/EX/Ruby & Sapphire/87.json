@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est face, votre adversaire doit échanger un de ses Pokémon Actifs contre un des Pokémon de son Banc."
+	},
+	"illustrator": "Hiromichi Sugiyama",
+	"name": {
+		"en": "Pokémon Reversal",
+		"fr": "Inversion de Pokémon"
+	},
+	"rarity": "Uncommon",
+	"set": "ex1",
+	"trainerType": "Item"
+}

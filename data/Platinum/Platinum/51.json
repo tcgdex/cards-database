@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Teleportation Burst",
+				"fr": "Téléportation explosive"
+			},
+			"effect": {
+				"en": "You may switch Kirlia with 1 of your Benched Pokémon.",
+				"fr": "Vous pouvez échanger Kirlia avec 1 des Pokémon de Banc de votre adversaire."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Psy Bolt",
+				"fr": "Super psy"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		281
+	],
+	"evolveFrom": {
+		"en": "Ralts",
+		"fr": "Tarsal"
+	},
+	"hp": 80,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Kirlia",
+		"fr": "Kirlia"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "pl1",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

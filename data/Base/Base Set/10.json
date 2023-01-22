@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic",
+				"fr": "Psyko"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
+				"fr": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Barrier",
+				"fr": "Bouclier"
+			},
+			"effect": {
+				"en": "Discard 1 Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo.",
+				"fr": "Défaussez 1 carte Énergie  attachée à Mewtwo pour pouvoir utiliser cette attaque. Pendant le prochain tour de votre adversaire, prévenez tous les effets ou attaques, y compris les dégâts, infligés à Mewtwo."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il est le fruit de nombreuses expériences génétiques horribles et malsaines."
+	},
+	"dexId": [
+		150
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Mewtwo",
+		"fr": "Mewtwo"
+	},
+	"rarity": "Rare",
+	"set": "base1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

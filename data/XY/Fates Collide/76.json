@@ -1,0 +1,83 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure",
+				"es": "Mordisco",
+				"it": "Morso",
+				"pt": "Mordida",
+				"de": "Biss"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Jet Draft",
+				"fr": "Souffle Supersonique",
+				"es": "Corriente Jet",
+				"it": "Scia Jet",
+				"pt": "Vento de Jato",
+				"de": "Düsendurchzug"
+			},
+			"effect": {
+				"en": "Discard a Special Energy attached to your opponent's Active Pokémon.",
+				"fr": "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
+				"es": "Descarta 1 Energía Especial unida al Pokémon Activo de tu rival.",
+				"it": "Scarta un'Energia speciale assegnata al Pokémon attivo del tuo avversario.",
+				"pt": "Descarte uma Energia Especial ligada ao Pokémon Ativo do seu oponente.",
+				"de": "Lege 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		142
+	],
+	"evolveFrom": {
+		"en": "Old Amber Aerodactyl",
+		"fr": "Vieil Ambre Ptéra",
+		"es": "Ámbar Viejo Aerodactyl",
+		"it": "Ambra Antica di Aerodactyl",
+		"pt": "Âmbar Velho de Aerodactyl",
+		"de": "Altbernstein Aerodactyl"
+	},
+	"hp": 120,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Aerodactyl",
+		"en": "Aerodactyl",
+		"es": "Aerodactyl",
+		"fr": "Ptéra",
+		"it": "Aerodactyl",
+		"pt": "Aerodactyl"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "xy10",
+	"stage": "RESTORED",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

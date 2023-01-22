@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Doubleslap",
+				"fr": "Torgnoles"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+			},
+			"damage": "10×"
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Giant Wave",
+				"fr": "Vague géante"
+			},
+			"effect": {
+				"en": "Wartortle can't attack during your next turn.",
+				"fr": "Carabaffe ne peut pas attaquer pendant votre prochain tour."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		8
+	],
+	"evolveFrom": {
+		"en": "Squirtle"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Wartortle",
+		"fr": "Carabaffe"
+	},
+	"rarity": "Uncommon",
+	"set": "ecard1",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

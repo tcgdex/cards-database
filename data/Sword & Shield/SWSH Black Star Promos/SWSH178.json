@@ -1,0 +1,21 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Discard your hand and draw 7 cards."
+	},
+	"illustrator": "Yusuke Kozaki",
+	"name": {
+		"en": "Professor's Research"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"set": "swshp",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

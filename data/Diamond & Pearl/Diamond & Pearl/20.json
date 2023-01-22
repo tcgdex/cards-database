@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rest",
+				"fr": "Repos"
+			},
+			"effect": {
+				"en": "Remove all Special Conditions and 4 damage counters from Bibarel. Bibarel is now Asleep.",
+				"fr": "Retirez à Castorno tous ses États Spéciaux ainsi que 4 marqueurs de dégât. Castorno est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Take Down",
+				"fr": "Bélier"
+			},
+			"effect": {
+				"en": "Bibarel does 10 damage to itself.",
+				"fr": "Castorno s'inflige 10 dégâts."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il construit des barrages de boue et d'écorce le long des fleuves. C'est un ouvrier de renom."
+	},
+	"dexId": [
+		400
+	],
+	"evolveFrom": {
+		"en": "Bidoof",
+		"fr": "Keunotor"
+	},
+	"hp": 100,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Bibarel",
+		"fr": "Castorno"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp1",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

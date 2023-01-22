@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Vine Whip",
+				"fr": "Fouet Lianes",
+				"es": "Látigo Cepa",
+				"it": "Frustata",
+				"pt": "Chicote de Vinha",
+				"de": "Rankenhieb"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		511
+	],
+	"hp": 70,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Vegimak",
+		"en": "Pansage",
+		"es": "Pansage",
+		"fr": "Feuillajou",
+		"it": "Pansage",
+		"pt": "Pansage"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Gyro Swap",
+				"fr": "Gyro-échange"
+			},
+			"effect": {
+				"en": "Put a number of damage counters on the Defending Pokémon equal to the number of Colorless Energy in Bronzor's Retreat Cost (after applying effects to the Retreat Cost).",
+				"fr": "Placez autant de marqueurs de dégât sur le Pokémon Défenseur qu'il y a d'Énergies Colorless dans le Coût de Retraite d'Archéomire (après avoir appliqué les effets sur le Coût de Retraite)."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyshock",
+				"fr": "Choc psy"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il rappelle les objets trouvés dans des sépultures anciennes. Nul ne sait s'ils sont liés."
+	},
+	"dexId": [
+		436
+	],
+	"evolveFrom": {
+		"fr": "Archéomire"
+	},
+	"hp": 60,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Bronzor",
+		"fr": "Archéomire"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fire",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

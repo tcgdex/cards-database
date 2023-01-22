@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Static Shock",
+				"fr": "Choc Statique"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electro Ball",
+				"fr": "Boule Élek"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		101
+	],
+	"evolveFrom": {
+		"en": "Voltorb",
+		"fr": "Voltorbe"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Lektrobal",
+		"en": "Electrode",
+		"es": "Electrode",
+		"fr": "Électrode",
+		"it": "Electrode",
+		"pt": "Electrode"
+	},
+	"rarity": "Uncommon",
+	"retreat": 0,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

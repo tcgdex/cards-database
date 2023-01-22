@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Skyscraper"
+			},
+			"effect": {
+				"en": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Metal",
+				"Metal"
+			],
+			"name": {
+				"en": "G-Max Pulverization"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+			},
+			"damage": 220
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		884
+	],
+	"evolveFrom": {
+		"en": "Duraludon V",
+		"fr": "Duralugon-V",
+		"es": "Duraludon V",
+		"it": "Duraludon-V",
+		"pt": "Duraludon V",
+		"de": "Duraludon-V"
+	},
+	"hp": 330,
+	"illustrator": "Saki Hayashiro",
+	"name": {
+		"de": "Duraludon VMAX",
+		"en": "Duraludon VMAX",
+		"es": "Duraludon VMAX",
+		"fr": "Duralugon VMAX",
+		"it": "Duraludon VMAX",
+		"pt": "Duraludon VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh7",
+	"stage": "VMAX",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

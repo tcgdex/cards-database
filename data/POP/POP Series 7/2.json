@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sonic Blade"
+			},
+			"effect": {
+				"en": "Put damage counters on the Defending Pokémon until it is 50 HP away from being Knocked Out. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic Cut"
+			},
+			"effect": {
+				"en": "You may choose as many of your face-down Prize cards as you like and put them face up. If you do, this attack does 60 damage plus 20 more damage for each Prize card you chose. (These cards remain face up for the rest of the game.)"
+			},
+			"damage": "60+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A master of courtesy and swordsmanship, it fights using extending swords on it elbows."
+	},
+	"dexId": [
+		475
+	],
+	"evolveFrom": {
+		"en": "Kirlia"
+	},
+	"hp": 130,
+	"illustrator": "Daisuke Ito",
+	"name": {
+		"en": "Gallade"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "pop7",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+30"
+		}
+	]
+}

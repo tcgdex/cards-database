@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 102,
+	"id": "hgss4",
+	"name": {
+		"de": "Triumph",
+		"en": "Triumphant",
+		"fr": "Triomphant",
+		"it": "Battaglie Trionfali",
+		"pt": "Triunfante"
+	},
+	"releaseDate": "2010-11-03",
+	"serie": "hgss",
+	"tcgOnline": "TM"
+}

@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		58
+	],
+	"hp": 80,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Fukano",
+		"en": "Growlithe",
+		"es": "Growlithe",
+		"fr": "Caninos",
+		"it": "Growlithe",
+		"pt": "Growlithe"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

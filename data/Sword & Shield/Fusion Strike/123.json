@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Joust"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reflect Energy"
+			},
+			"damage": 60,
+			"effect": {
+				"en": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A discovery was made in the desert where Sigilyph fly. The ruins of what may have been an ancient city were found beneath the sands."
+	},
+	"hp": 100,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Symvolara",
+		"en": "Sigilyph",
+		"es": "Sigilyph",
+		"fr": "Cryptéro",
+		"it": "Sigilyph",
+		"pt": "Sigilyph"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

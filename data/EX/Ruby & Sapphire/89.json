@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez cette carte.\n\nPiochez des cartes dans votre deck jusqu'à ce que vous ayez six cartes en main."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Professor Birch",
+		"fr": "Prof. Seko"
+	},
+	"rarity": "Uncommon",
+	"set": "ex1",
+	"trainerType": "Supporter"
+}

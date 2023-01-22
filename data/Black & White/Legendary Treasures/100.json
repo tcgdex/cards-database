@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Fang"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Water",
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Freeze Shock"
+			},
+			"effect": {
+				"en": "This Pokémon can't attack during your next turn."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		646
+	],
+	"hp": 180,
+	"illustrator": "Eske Yoshinob",
+	"name": {
+		"en": "Black Kyurem-EX"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw11",
+	"suffix": "EX",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

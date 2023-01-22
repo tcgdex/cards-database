@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Howl",
+				"fr": "Grondement"
+			},
+			"effect": {
+				"en": "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward.",
+				"fr": "Cherchez Medhyena dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Lunge",
+				"fr": "Coup rapide"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		261
+	],
+	"hp": 50,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Poochyena",
+		"fr": "Medhyena"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl1",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

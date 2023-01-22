@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Knuckle Punch",
+				"fr": "Coud'Phalange",
+				"es": "Puño con Nudillos",
+				"it": "Nocca-Pugno",
+				"pt": "Soco com Punho",
+				"de": "Knöchelhieb"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electroslug",
+				"fr": "Électro Frappe",
+				"es": "Electropuñetazo",
+				"it": "Elettropugno",
+				"pt": "Lesma Elétrica",
+				"de": "Elektroschuss"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		466
+	],
+	"evolveFrom": {
+		"en": "Electabuzz",
+		"fr": "Élektek",
+		"es": "Electabuzz",
+		"it": "Electabuzz",
+		"pt": "Electabuzz",
+		"de": "Elektek"
+	},
+	"hp": 110,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Elevoltek",
+		"en": "Electivire",
+		"es": "Electivire",
+		"fr": "Élekable",
+		"it": "Electivire",
+		"pt": "Electivire"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "xy9",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

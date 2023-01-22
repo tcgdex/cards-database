@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Fade to Black",
+				"fr": "Fondu au Noir",
+				"es": "Ennegrecer",
+				"it": "Svanire nel Buio",
+				"pt": "Breu",
+				"de": "Schwarz vor Augen"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Duskull",
+		"fr": "Skelénox",
+		"es": "Duskull",
+		"it": "Duskull",
+		"pt": "Duskull",
+		"de": "Zwirrlicht"
+	},
+	"hp": 90,
+	"name": {
+		"de": "Zwirrklop",
+		"en": "Dusclops",
+		"es": "Dusclops",
+		"fr": "Téraclope",
+		"it": "Dusclops",
+		"pt": "Dusclops"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "F",
+	"retreat": 2,
+	"set": "swsh9",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	]
+}

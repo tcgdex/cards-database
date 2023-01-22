@@ -1,0 +1,21 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Search your deck for up to 2 cards and discard them. Then, shuffle your deck."
+	},
+	"illustrator": "Ryuta Fuse",
+	"name": {
+		"en": "Professor Burnet"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"set": "swshp",
+	"trainerType": "Supporter",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

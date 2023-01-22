@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Pare-chocs à 1 de vos Pokémon ne possédant pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O., défaussez cette carte.\n\nLes dégâts infligés par une attaque de votre adversaire au Pokémon auquel Pare-chocs est attachée sont réduits de 20 (après application de la Faiblesse et de la Résistance). À la fin du tour de votre adversaire au cours duquel vous avez joué Pare-chocs, défaussez-la."
+	},
+	"illustrator": "Katsura Tabata",
+	"name": {
+		"en": "Buffer Piece",
+		"fr": "Pare-chocs"
+	},
+	"rarity": "Uncommon",
+	"set": "ex15",
+	"trainerType": "Tool"
+}

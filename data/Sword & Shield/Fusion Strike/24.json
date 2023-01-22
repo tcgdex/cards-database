@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Leafage"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+	},
+	"hp": 50,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Cottini",
+		"en": "Gossifleur",
+		"es": "Gossifleur",
+		"fr": "Tournicoton",
+		"it": "Gossifleur",
+		"pt": "Gossifleur"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

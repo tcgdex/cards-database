@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 146,
+	"id": "dp6",
+	"name": {
+		"de": "Erwachte Legenden",
+		"en": "Legends Awakened",
+		"es": "Despertar de las Leyendas",
+		"fr": "Éveil des Légendes",
+		"it": "Il Risveglio dei Miti"
+	},
+	"releaseDate": "2008-08-01",
+	"serie": "dp",
+	"tcgOnline": "LA"
+}

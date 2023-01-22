@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Paralyzing Gaze",
+				"fr": "Regard paralysant"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Knock Off",
+				"fr": "Sabotage"
+			},
+			"effect": {
+				"en": "Choose 1 card from your opponent's hand without looking and discard it.",
+				"fr": "Choisissez sans regarder une carte de la main de votre adversaire et défaussez-la."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		302
+	],
+	"hp": 60,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Sableye",
+		"fr": "Tenefix"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-30"
+		}
+	],
+	"set": "ex13",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	]
+}

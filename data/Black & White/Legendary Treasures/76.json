@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Future Sight"
+			},
+			"effect": {
+				"en": "Look at the top 5 cards of your deck and put them back on top of your deck in any order."
+			}
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Net Force"
+			},
+			"effect": {
+				"en": "Does 40 damage times the number of Reuniclus you have in play."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		579
+	],
+	"evolveFrom": {
+		"en": "Duosion"
+	},
+	"hp": 90,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"en": "Reuniclus"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

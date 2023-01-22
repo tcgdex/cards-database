@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Seed Bomb",
+				"fr": "Canon Graine",
+				"es": "Bomba Germen",
+				"it": "Semebomba",
+				"pt": "Seed Bomb",
+				"de": "Samenbomben"
+			},
+			"damage": 20,
+			"cost": [
+				"Grass",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area."
+	},
+	"dexId": [
+		548
+	],
+	"hp": 60,
+	"illustrator": "Mika Pikazo",
+	"name": {
+		"de": "Lilminip",
+		"en": "Petilil",
+		"es": "Petilil",
+		"fr": "Chlorobule",
+		"it": "Petilil",
+		"pt": "Petilil"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

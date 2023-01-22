@@ -58,7 +58,7 @@ export type Types = 'Colorless' | 'Darkness' | 'Dragon' |
 export interface Set {
 	id: string
 	name: Languages
-	serie: Serie
+	serie: string
 	tcgOnline?: string
 
 	cardCount: {
@@ -109,7 +109,7 @@ export interface Card {
 	/**
 	 * Card Set
 	 */
-	set: Set
+	set: string
 
 	/**
 	 * Card regulation Mark

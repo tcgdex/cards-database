@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Triple Energy",
+				"fr": "Triple Énergie"
+			},
+			"effect": {
+				"en": "Search your deck for 3 different types of basic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.",
+				"fr": "Cherchez dans votre deck 3 différents types de cartes Énergie de base et attachez-les à vos Pokémon de la manière que vous voulez. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Drainpour",
+				"fr": "Sangsue-Déluge"
+			},
+			"effect": {
+				"en": "Heal 40 damage from each of your Benched Pokémon.",
+				"fr": "Soignez 40 dégâts à chacun de vos Pokémon de Banc."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		267
+	],
+	"evolveFrom": {
+		"en": "Silcoon",
+		"fr": "Armulys"
+	},
+	"hp": 120,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Papinella",
+		"en": "Beautifly",
+		"es": "Beautifly",
+		"fr": "Charmillon",
+		"it": "Beautifly",
+		"pt": "Beautifly"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw6",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

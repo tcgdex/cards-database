@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez dans votre deck un Pokémon de base (Pokémon-ex exclus) et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+	},
+	"illustrator": "Nakaoka",
+	"name": {
+		"en": "Great Ball",
+		"fr": "Super Ball"
+	},
+	"rarity": "Uncommon",
+	"set": "ex16",
+	"trainerType": "Item"
+}

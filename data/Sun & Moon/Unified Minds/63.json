@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Wild River",
+				"fr": "Rivière Sauvage",
+				"es": "Río Salvaje",
+				"it": "Fiume Selvaggio",
+				"pt": "Rio Selvagem",
+				"de": "Wilder Fluss"
+			},
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				"es": "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				"it": "Scambia questo Pokémon con uno della tua panchina.",
+				"pt": "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				"de": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		602
+	],
+	"hp": 30,
+	"illustrator": "Mina Nakai",
+	"name": {
+		"de": "Zapplardin",
+		"en": "Tynamo",
+		"es": "Tynamo",
+		"fr": "Anchwatt",
+		"it": "Tynamo",
+		"pt": "Tynamo"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

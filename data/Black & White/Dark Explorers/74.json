@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Joust"
+			},
+			"effect": {
+				"en": "Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cavalry Lance"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, this Pokémon has no Weakness."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		589
+	],
+	"evolveFrom": {
+		"en": "Karrablast"
+	},
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Cavalanzas",
+		"en": "Escavalier",
+		"es": "Escavalier",
+		"fr": "Lançargot",
+		"it": "Escavalier",
+		"pt": "Escavalier"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

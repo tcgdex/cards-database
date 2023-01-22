@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Savage Wing"
+			},
+			"effect": {
+				"en": "Discard as many basic Fire Energy attached to this Pokémon as you like. This attack does 40 more damage for each Energy card discarded in this way."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		373
+	],
+	"evolveFrom": {
+		"en": "Salamence-EX"
+	},
+	"hp": 230,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Salamence-EX"
+	},
+	"rarity": "Common",
+	"set": "xyp",
+	"stage": "MEGA",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

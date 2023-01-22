@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Singe",
+				"fr": "Roussi"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Live Coal",
+				"fr": "Charbon Mutant"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		607
+	],
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Lichtel",
+		"en": "Litwick",
+		"es": "Litwick",
+		"fr": "Funécire",
+		"it": "Litwick",
+		"pt": "Litwick"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

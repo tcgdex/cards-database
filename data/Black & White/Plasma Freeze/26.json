@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Seismic Punch",
+				"fr": "Poing Sismique"
+			},
+			"effect": {
+				"en": "Does 30 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 30 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Splashing Turn",
+				"fr": "Tour Éclaboussant"
+			},
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		537
+	],
+	"evolveFrom": {
+		"en": "Palpitoad",
+		"fr": "Batracné"
+	},
+	"hp": 140,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Branawarz",
+		"en": "Seismitoad",
+		"es": "Seismitoad",
+		"fr": "Crapustule",
+		"it": "Seismitoad",
+		"pt": "Seismitoad"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw9",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

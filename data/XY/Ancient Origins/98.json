@@ -1,0 +1,92 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "{title}:",
+				"fr": "{title}:",
+				"es": "{title}:",
+				"it": "{title}:",
+				"pt": "{title}:",
+				"de": "{title}:"
+			},
+			"effect": {
+				"en": "{title}: When 1 of your Pokémon becomes this Pokémon, heal all damage from it.",
+				"fr": "{title}: Lorsqu'un de vos Pokémon devient ce Pokémon, soignez tous les dégâts de ce Pokémon.",
+				"es": "{title}: Cuando 1 de tus Pokémon se convierte en este Pokémon, cura todos sus puntos de daño.",
+				"it": "{title}: Quando uno dei tuoi Pokémon diventa questo Pokémon, curane tutti i danni.",
+				"pt": "{title}: Quando 1 dos seus Pokémon se tornar este Pokémon, cure todos os danos dele.",
+				"de": "{title}: Wenn 1 deiner Pokémon zu diesem Pokémon wird, heile allen Schaden bei diesem Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Emerald Break",
+				"fr": "Bris'Émeraude",
+				"es": "Rotura Esmeralda",
+				"it": "Colposmeraldo",
+				"pt": "Quebra Esmeralda",
+				"de": "Grüner Einschnitt"
+			},
+			"effect": {
+				"en": "This attack does 30 damage times the number of your Benched Pokémon.",
+				"fr": "Cette attaque inflige 30 dégâts multipliés par le nombre de vos Pokémon de Banc.",
+				"es": "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca.",
+				"it": "Questo attacco infligge 30 danni per ogni Pokémon che hai in panchina.",
+				"pt": "Este ataque causa 30 de danos vezes o número de Pokémon no seu Banco.",
+				"de": "Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der Pokémon auf deiner Bank zu."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		384
+	],
+	"evolveFrom": {
+		"en": "Rayquaza-EX",
+		"fr": "Rayquaza-EX",
+		"es": "Rayquaza-EX",
+		"it": "Rayquaza-EX",
+		"pt": "Rayquaza-EX",
+		"de": "Rayquaza-EX"
+	},
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "M-Rayquaza EX",
+		"en": "M Rayquaza EX",
+		"es": "M-Rayquaza EX",
+		"fr": "M-Rayquaza EX",
+		"it": "M Rayquaza EX",
+		"pt": "M-Rayquaza EX"
+	},
+	"rarity": "Secret Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy7",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

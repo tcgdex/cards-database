@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Teeter Punch",
+				"fr": "Coup de Poing Fou",
+				"es": "Puño Vacilante",
+				"it": "Strampapugno",
+				"pt": "Soco Cambaleante",
+				"de": "Taumelnder Schlag"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		327
+	],
+	"hp": 80,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Pandir",
+		"en": "Spinda",
+		"es": "Spinda",
+		"fr": "Spinda",
+		"it": "Spinda",
+		"pt": "Spinda"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "sm1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

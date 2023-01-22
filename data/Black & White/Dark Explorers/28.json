@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Wing"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fury Attack"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 30 damage times the number of heads."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		394
+	],
+	"evolveFrom": {
+		"en": "Piplup"
+	},
+	"hp": 80,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Pliprin",
+		"en": "Prinplup",
+		"es": "Prinplup",
+		"fr": "Prinplouf",
+		"it": "Prinplup",
+		"pt": "Prinplup"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

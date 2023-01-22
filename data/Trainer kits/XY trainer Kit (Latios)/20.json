@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Look at the top 2 cards of your deck and put 1 of them into your hand. Discard the other card.",
+		"fr": "Regardez les 2 cartes du dessus de votre deck et ajoutez l’une d’entre elles à votre main. Défaussez l’autre carte.",
+		"es": "Mira las 2 primeras cartas de tu baraja y pon 1 de ellas en tu mano. Descarta la otra carta.",
+		"it": "Guarda le prime due carte del tuo mazzo e aggiungi una di esse alle carte che hai in mano. Scarta l’altra carta.",
+		"pt": "Olhe os 2 cards de cima do seu baralho e coloque 1 deles de volta na sua mão. Descarte o outro card.",
+		"de": "Schau dir die 2 obersten Karten deines Decks an und nimm 1 auf deine Hand. Lege die andere Karte auf deinen Ablagestapel."
+	},
+	"name": {
+		"de": "Kunstrad",
+		"en": "Acro Bike",
+		"es": "Bici Acrobática",
+		"fr": "Vélo Cross",
+		"it": "Bici da cross",
+		"pt": "Bicicleta Acro"
+	},
+	"rarity": "Uncommon",
+	"set": "tk-xy-latio",
+	"trainerType": "Item"
+}

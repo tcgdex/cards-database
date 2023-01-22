@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Smack Down",
+				"fr": "Anti-Air"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon has Fighting Resistance, this attack does 60 more damage.",
+				"fr": "Si le Pokémon Défenseur a une Résistance à Fighting, cette attaque inflige 60 dégâts supplémentaires."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Power Gem",
+				"fr": "Rayon Gemme"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		525
+	],
+	"evolveFrom": {
+		"en": "Roggenrola",
+		"fr": "Nodulithe"
+	},
+	"hp": 90,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Sedimantur",
+		"en": "Boldore",
+		"es": "Boldore",
+		"fr": "Géolithe",
+		"it": "Boldore",
+		"pt": "Boldore"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw2",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

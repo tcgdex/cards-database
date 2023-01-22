@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Crabhammer",
+				"fr": "Pince-masse"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		98
+	],
+	"hp": 50,
+	"illustrator": "Shin-ichi Yoshida",
+	"name": {
+		"en": "Krabby",
+		"fr": "Krabby"
+	},
+	"rarity": "Common",
+	"set": "ecard1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

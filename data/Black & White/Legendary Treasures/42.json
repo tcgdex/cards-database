@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Round"
+			},
+			"effect": {
+				"en": "Does 30 damage times the number of your Pokémon that have the Round attack."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Voice"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		537
+	],
+	"evolveFrom": {
+		"en": "Palpitoad"
+	},
+	"hp": 140,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Seismitoad"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

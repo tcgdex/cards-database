@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Evolutionary Light"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), if Dark Dragonair is your Active Pokémon, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Lightning"
+			],
+			"name": {
+				"en": "Dragon Rage"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		148
+	],
+	"evolveFrom": {
+		"en": "Dratini"
+	},
+	"hp": 70,
+	"illustrator": "Emi Miwa",
+	"name": {
+		"en": "Dark Dragonair"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		},
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex7",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

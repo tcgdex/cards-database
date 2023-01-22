@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Throw"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Body Splash"
+			},
+			"damage": 150,
+			"effect": {
+				"en": "Flip 3 coins. For each tails, discard an Energy from this Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
+	},
+	"evolveFrom": {
+		"en": "Slugma",
+		"fr": "Limagma",
+		"es": "Slugma",
+		"it": "Slugma",
+		"pt": "Slugma",
+		"de": "Schneckmag"
+	},
+	"hp": 130,
+	"illustrator": "Eri Yamaki",
+	"name": {
+		"de": "Magcargo",
+		"en": "Magcargo",
+		"es": "Magcargo",
+		"fr": "Volcaropod",
+		"it": "Magcargo",
+		"pt": "Magcargo"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

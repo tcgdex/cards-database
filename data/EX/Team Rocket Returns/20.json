@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sand Damage"
+			},
+			"effect": {
+				"en": "As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent's Benched Basic Pokémon between turns. You can't use more than 1 Sand Damage Poké-Body between turns."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Second Strike"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		248
+	],
+	"evolveFrom": {
+		"en": "Dark Pupitar"
+	},
+	"hp": 120,
+	"illustrator": "Kyoko Koizumi",
+	"name": {
+		"en": "Dark Tyranitar"
+	},
+	"rarity": "Rare",
+	"set": "ex7",
+	"stage": "Stage2",
+	"types": [
+		"Fighting",
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

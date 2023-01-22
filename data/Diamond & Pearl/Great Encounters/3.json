@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Reach Over",
+				"fr": "Bras tendu"
+			},
+			"effect": {
+				"en": "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Choisissez dans votre deck une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Darkness Pursuit",
+				"fr": "Poursuite obscure"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Cresselia, this attack's base damage is 100.",
+				"fr": "Si le Pokémon Défenseur est Cresselia, les dégâts de base de cette attaque sont de 100."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		491
+	],
+	"hp": 70,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Darkrai",
+		"fr": "Darkrai"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp4",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

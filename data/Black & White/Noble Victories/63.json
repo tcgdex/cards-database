@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Strength",
+				"fr": "Force"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pummel",
+				"fr": "Martelage"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		533
+	],
+	"evolveFrom": {
+		"en": "Timburr",
+		"fr": "Charpenti"
+	},
+	"hp": 80,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"de": "Strepoli",
+		"en": "Gurdurr",
+		"es": "Gurdurr",
+		"fr": "Ouvrifier",
+		"it": "Gurdurr",
+		"pt": "Gurdurr"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

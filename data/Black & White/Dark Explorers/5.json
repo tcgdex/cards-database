@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Lure Poison"
+			},
+			"effect": {
+				"en": "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Poisoned."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spit Squall"
+			},
+			"effect": {
+				"en": "Your opponent puts the Defending Pokémon and all cards attached to it into his or her hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		455
+	],
+	"hp": 90,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Venuflibis",
+		"en": "Carnivine",
+		"es": "Carnivine",
+		"fr": "Vortente",
+		"it": "Carnivine",
+		"pt": "Carnivine"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Spike Stab",
+				"fr": "Koud'pic"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing (not even damage).",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, cette attaque ne fait rien (pas même de dégâts)."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son dard empoisonné est très puissant. Son corps de couleur criarde est conçu pour repousser ses ennemis."
+	},
+	"dexId": [
+		13
+	],
+	"hp": 40,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Weedle",
+		"fr": "Aspicot"
+	},
+	"rarity": "Common",
+	"set": "neo2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

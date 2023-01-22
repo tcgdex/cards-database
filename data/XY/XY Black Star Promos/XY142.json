@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Shining Eyes",
+				"fr": "Yeux Brillants"
+			},
+			"effect": {
+				"en": "Put 2 damage counters on each of your opponent's Pokémon that has any damage counters on it.",
+				"fr": "Placez 2 marqueurs de dégâts sur chacun des Pokémon de votre adversaire ayant au moins un marqueur de dégâts."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mind Bend",
+				"fr": "Contrôleur d'Esprit"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		482
+	],
+	"hp": 70,
+	"illustrator": "chibi",
+	"name": {
+		"en": "Azelf",
+		"fr": "Créfadet"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

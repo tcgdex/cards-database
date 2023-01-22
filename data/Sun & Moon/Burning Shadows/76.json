@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Throw",
+				"fr": "Jet-Pierres",
+				"es": "Lanzarrocas",
+				"it": "Sassata",
+				"pt": "Lançamento de Rocha",
+				"de": "Steinwurf"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Accelerock",
+				"fr": "Vif Roc",
+				"es": "Roca Veloz",
+				"it": "Rocciarapida",
+				"pt": "Rocha Veloz",
+				"de": "Turbofelsen"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		745
+	],
+	"evolveFrom": {
+		"en": "Rockruff",
+		"fr": "Rocabot"
+	},
+	"hp": 110,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Wolwerock",
+		"en": "Lycanroc",
+		"es": "Lycanroc",
+		"fr": "Lougaroc",
+		"it": "Lycanroc",
+		"pt": "Lycanroc"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "sm3",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mud Bomb",
+				"fr": "Boue-Bombe",
+				"es": "Bomba Fango",
+				"it": "Pantanobomba",
+				"pt": "Bomba de Lama",
+				"de": "Schlammbombe"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heavy Slam",
+				"fr": "Tacle Lourd",
+				"es": "Cuerpo Pesado",
+				"it": "Pesobomba",
+				"pt": "Golpe Pesado",
+				"de": "Rammboss"
+			},
+			"effect": {
+				"en": "This attack does 30 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+				"fr": "Cette attaque inflige 30 dégâts de moins pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				"es": "Este ataque hace 30 puntos de daño menos por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+				"it": "Questo attacco infligge 30 danni in meno per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+				"pt": "Este ataque causa 30 pontos de dano a menos para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
+				"de": "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte weniger zu."
+			},
+			"damage": "180-"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Mud that hardens around a Mudsdale's legs sets harder than stone. It's so hard that it allows this Pokémon to scrap a truck with a single kick."
+	},
+	"evolveFrom": {
+		"en": "Mudbray",
+		"fr": "Tiboudet",
+		"es": "Mudbray",
+		"it": "Mudbray",
+		"pt": "Mudbray",
+		"de": "Pampuli"
+	},
+	"hp": 140,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Pampross",
+		"en": "Mudsdale",
+		"es": "Mudsdale",
+		"fr": "Bourrinos",
+		"it": "Mudsdale",
+		"pt": "Mudsdale"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh4",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

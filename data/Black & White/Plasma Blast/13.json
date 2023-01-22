@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Solar Transporter",
+				"fr": "Transporteur Solaire"
+			},
+			"effect": {
+				"en": "Reveal the top 5 cards of your deck and put all Team Plasma cards you find there into your hand. Discard the other cards.",
+				"fr": "Montrez les 5 cartes du dessus de votre deck et ajoutez toutes les cartes de la Team Plasma que vous y trouvez à votre main. Défaussez les autres cartes."
+			}
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leech Life",
+				"fr": "Vampirisme"
+			},
+			"effect": {
+				"en": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				"fr": "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		637
+	],
+	"evolveFrom": {
+		"en": "Larvesta",
+		"fr": "Pyronille"
+	},
+	"hp": 100,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Ramoth",
+		"en": "Volcarona",
+		"es": "Volcarona",
+		"fr": "Pyrax",
+		"it": "Volcarona",
+		"pt": "Volcarona"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw10",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Sunny Wind"
+			},
+			"damage": 50,
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
+	},
+	"evolveFrom": {
+		"en": "Gossifleur",
+		"fr": "Tournicoton",
+		"es": "Gossifleur",
+		"it": "Gossifleur",
+		"pt": "Gossifleur",
+		"de": "Cottini"
+	},
+	"hp": 90,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Cottomi",
+		"en": "Eldegoss",
+		"es": "Eldegoss",
+		"fr": "Blancoton",
+		"it": "Eldegoss",
+		"pt": "Eldegoss"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Teleportation",
+				"fr": "Téléportation"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), choose 1 of your Active Pokémon or 1 of your Benched Pokémon and switch Gardevoir with that Pokémon. This power can't be used if Gardevoir is affected by a Special Condition.",
+				"fr": "Une seule fois lors de votre tour (avant votre attaque), choisissez 1 de vos Pokémon Actifs ou 1 de vos Pokémon de Banc et échangez Gardevoir avec ce Pokémon. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Bring Down",
+				"fr": "Réduire en poussière"
+			},
+			"effect": {
+				"en": "Choose 1 Pokémon (yours or your opponent's) with the fewest remaining HP (excluding Gardevoir) and that Pokémon is now Knocked Out.",
+				"fr": "Choisissez 1 Pokémon (le vôtre ou celui de votre adversaire) avec le moins de PV (Gardevoir exclu). Ce Pokémon est maintenant K.O."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		282
+	],
+	"hp": 130,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Gardevoir",
+		"fr": "Gardevoir"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp3",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

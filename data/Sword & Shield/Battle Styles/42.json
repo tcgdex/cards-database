@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Sediment Sink",
+				"fr": "Sédiment Visqueux",
+				"es": "Sumidero de Sedimentos",
+				"it": "Sedimentazione",
+				"pt": "Sumidouro de Sedimentos",
+				"de": "Sedimentsenke"
+			},
+			"effect": {
+				"en": "This attack does 10 damage for each Water Energy card in your discard pile.",
+				"fr": "Cette attaque inflige 10 dégâts pour chaque carte Énergie Water dans votre pile de défausse.",
+				"es": "Este ataque hace 10 puntos de daño por cada carta de Energía Water en tu pila de descartes.",
+				"it": "Questo attacco infligge 10 danni per ogni carta Energia Water nella tua pila degli scarti.",
+				"pt": "Este ataque causa 10 pontos de dano para cada carta de Energia Water na sua pilha de descarte.",
+				"de": "Diese Attacke fügt für jede Water-Energiekarte in deinem Ablagestapel 10 Schadenspunkte zu."
+			},
+			"damage": "10×",
+			"cost": [
+				"Water",
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear."
+	},
+	"evolveFrom": {
+		"en": "Frillish",
+		"fr": "Viskuse",
+		"es": "Frillish",
+		"it": "Frillish",
+		"pt": "Frillish",
+		"de": "Quabbel"
+	},
+	"hp": 120,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Apoquallyp",
+		"en": "Jellicent",
+		"es": "Jellicent",
+		"fr": "Moyade",
+		"it": "Jellicent",
+		"pt": "Jellicent"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

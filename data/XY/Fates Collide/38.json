@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Mud Shot",
+				"fr": "Tir de Boue",
+				"es": "Disparo Lodo",
+				"it": "Colpodifango",
+				"pt": "Água Viscosa",
+				"de": "Lehmschuss"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		140
+	],
+	"evolveFrom": {
+		"en": "Dome Fossil Kabuto",
+		"fr": "Fossile Dôme Kabuto",
+		"es": "Fósil Domo Kabuto",
+		"it": "Domofossile di Kabuto",
+		"pt": "Fóssil Cúpula de Kabuto",
+		"de": "Domfossil Kabuto"
+	},
+	"hp": 80,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Kabuto",
+		"en": "Kabuto",
+		"es": "Kabuto",
+		"fr": "Kabuto",
+		"it": "Kabuto",
+		"pt": "Kabuto"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "xy10",
+	"stage": "RESTORED",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Attach Lucky Egg to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If\nthat Pokémon is Knocked Out, discard this card."
+	},
+	"illustrator": "Nobuyuki Fujimoto",
+	"name": {
+		"en": "Lucky Egg"
+	},
+	"rarity": "Uncommon",
+	"set": "pl4",
+	"trainerType": "Tool"
+}

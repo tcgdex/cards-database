@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psypunch",
+				"fr": "Coup de Poing Psy"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Destructive Beam",
+				"fr": "Rayon Désintégrateur"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		575
+	],
+	"evolveFrom": {
+		"en": "Gothita",
+		"fr": "Scrutella"
+	},
+	"hp": 80,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Hypnomorba",
+		"en": "Gothorita",
+		"es": "Gothorita",
+		"fr": "Mesmérella",
+		"it": "Gothorita",
+		"pt": "Gothorita"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

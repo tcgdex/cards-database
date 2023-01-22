@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dark Cutter"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It can lull people to sleep and make them dream. It is active during nights of the new moon."
+	},
+	"hp": 110,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"de": "Darkrai",
+		"en": "Darkrai",
+		"es": "Darkrai",
+		"fr": "Darkrai",
+		"it": "Darkrai",
+		"pt": "Darkrai"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

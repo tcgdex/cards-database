@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 82,
+	"id": "base5",
+	"name": {
+		"de": "Team Rocket",
+		"en": "Team Rocket",
+		"fr": "Team Rocket",
+		"it": "Team Rocket"
+	},
+	"releaseDate": "2000-04-24",
+	"serie": "base",
+	"tcgOnline": "TR"
+}

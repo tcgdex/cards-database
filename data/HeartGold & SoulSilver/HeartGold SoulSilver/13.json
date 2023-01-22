@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Return",
+				"fr": "Double retour"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Wobbuffet.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts sur Qulbutoke."
+			},
+			"damage": "20×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It hates light and shock. If attacked, it inflates its body to build up its counterstrike."
+	},
+	"dexId": [
+		202
+	],
+	"hp": 90,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Wobbuffet",
+		"fr": "Qulbutoke"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

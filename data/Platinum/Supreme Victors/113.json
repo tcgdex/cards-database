@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyshot",
+				"fr": "Piqûre psy"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Karate Chop",
+				"fr": "Poing-Karaté"
+			},
+			"effect": {
+				"en": "Does 30 damage minus 10 damage for each damage counter on Meditite.",
+				"fr": "Inflige 30 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Meditikka."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		307
+	],
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Meditite",
+		"fr": "Meditikka"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

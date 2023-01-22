@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Claws",
+				"fr": "Griffes Enflammées",
+				"es": "Garras de Fuego",
+				"it": "Artigli Infuocati",
+				"pt": "Garras de Fogo",
+				"de": "Feuerkrallen"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		758
+	],
+	"evolveFrom": {
+		"en": "Salandit",
+		"fr": "Tritox"
+	},
+	"hp": 100,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Amfira",
+		"en": "Salazzle",
+		"es": "Salazzle",
+		"fr": "Malamandre",
+		"it": "Salazzle",
+		"pt": "Salazzle"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

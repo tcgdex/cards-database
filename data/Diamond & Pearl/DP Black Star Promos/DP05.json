@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est face, retirez 2 marqueurs de dégât à chaque Pokémon Actif (ou un si un Pokémon n'en possède qu'un). Si c'est pile, chaque Pokémon Actif est maintenant Endormi."
+	},
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Tropical Wind",
+		"fr": "Vent tropical"
+	},
+	"rarity": "Common",
+	"set": "dpp"
+}

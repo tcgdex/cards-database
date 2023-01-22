@@ -1,0 +1,85 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Flare",
+				"fr": "Flamboiement",
+				"es": "Llama",
+				"it": "Fiammata",
+				"pt": "Chama",
+				"de": "Flackern"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Giga Impact",
+				"fr": "Giga Impact",
+				"es": "Gigaimpacto",
+				"it": "Gigaimpatto",
+				"pt": "Gigaimpacto",
+				"de": "Gigastoß"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				"es": "Durante tu próximo turno, este Pokémon no puede atacar.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
+	},
+	"evolveFrom": {
+		"en": "Pansear",
+		"fr": "Flamajou",
+		"es": "Pansear",
+		"it": "Pansear",
+		"pt": "Pansear",
+		"de": "Grillmak"
+	},
+	"hp": 100,
+	"illustrator": "0313",
+	"name": {
+		"de": "Grillchita",
+		"en": "Simisear",
+		"es": "Simisear",
+		"fr": "Flamoutan",
+		"it": "Simisear",
+		"pt": "Simisear"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

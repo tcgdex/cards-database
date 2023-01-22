@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Sand Spray",
+				"fr": "Jet Sableux",
+				"es": "Rociado de Arena",
+				"it": "Silicospruzzo",
+				"pt": "Spray de Areia",
+				"de": "Sandspray"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pierce",
+				"fr": "Transpercement",
+				"es": "Perforar",
+				"it": "Perforare",
+				"pt": "Perfurar",
+				"de": "Durchbohren"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
+	},
+	"hp": 70,
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"de": "Larvitar",
+		"en": "Larvitar",
+		"es": "Larvitar",
+		"fr": "Embrylex",
+		"it": "Larvitar",
+		"pt": "Larvitar"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

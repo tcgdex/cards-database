@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spore",
+				"fr": "Spore",
+				"es": "Espora",
+				"it": "Spora",
+				"pt": "Esporos",
+				"de": "Pilzspore"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flop",
+				"fr": "Flop",
+				"es": "Vuelta",
+				"it": "Tonfo",
+				"pt": "Baque",
+				"de": "Plumps"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
+	},
+	"hp": 60,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Bubungus",
+		"en": "Morelull",
+		"es": "Morelull",
+		"fr": "Spododo",
+		"it": "Morelull",
+		"pt": "Morelull"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Dimension Transfer",
+				"fr": "Transfert dimensionnel"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it on top of your deck. This power can’t be used if Porygon-Z is affected by a Special Condition.",
+				"fr": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c’est face, cherchez une carte Dresseur dans votre pile de défausse, montrez-la à votre adversaire, puis placez-la sur le dessus de votre deck. Ce Poké-Power ne peut pas être utilisé si Porygon-Z est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Suspicious Beam β",
+				"fr": "Rayon β douteux"
+			},
+			"effect": {
+				"en": "If Porygon-Z has no Rainbow Energy attached to it, Porygon-Z does 20 damage to itself and Porygon-Z is now Confused.",
+				"fr": "Si aucune Énergie Multicolore n’est attachée à Porygon-Z, Porygon-Z s’inflige 20 dégâts et est maintenant Confus."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error…"
+	},
+	"dexId": [
+		474
+	],
+	"evolveFrom": {
+		"en": "Porygon2",
+		"fr": "Porygon2"
+	},
+	"hp": 110,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Porygon-Z",
+		"fr": "Porygon-Z"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "hgss4",
+	"stage": "Stage2",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

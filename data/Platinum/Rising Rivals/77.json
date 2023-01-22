@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Find Ice",
+				"fr": "Trouver de la glace"
+			},
+			"effect": {
+				"en": "Search your deck for up to 2 Water Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				"fr": "Cherchez dans votre deck 2 cartes Énergie Water, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sheer Cold",
+				"fr": "Glaciation"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		364
+	],
+	"evolveFrom": {
+		"en": "Spheal",
+		"fr": "Obalie"
+	},
+	"hp": 80,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"en": "Sealeo",
+		"fr": "Phogleur Niv. 31"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "pl2",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "+20"
+		}
+	]
+}

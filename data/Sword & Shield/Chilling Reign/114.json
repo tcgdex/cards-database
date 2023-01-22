@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Headbang",
+				"fr": "Frappe de Tête",
+				"es": "Cabecear",
+				"it": "Scuotitesta",
+				"pt": "Baque de Cabeça",
+				"de": "Headbangen"
+			},
+			"damage": 40,
+			"cost": [
+				"Metal",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Metal Slash",
+				"fr": "Tranche Métallique",
+				"es": "Tajo Metálico",
+				"it": "Lacerametallo",
+				"pt": "Talho de Metal",
+				"de": "Metallschlitzer"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				"es": "Durante tu próximo turno, este Pokémon no puede atacar.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			},
+			"damage": 130,
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon."
+	},
+	"hp": 120,
+	"illustrator": "Kazuma Koda",
+	"name": {
+		"de": "Kobalium",
+		"en": "Cobalion",
+		"es": "Cobalion",
+		"fr": "Cobaltium",
+		"it": "Cobalion",
+		"pt": "Cobalion"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 2,
+	"set": "swsh6",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

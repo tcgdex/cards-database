@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Regardez les 7 cartes du dessus de votre deck. Si une ou plusieurs d'entre elles sont des cartes Dresseur, vous pouvez montrer l'une d'elles à votre adversaire et la placer dans votre main. Mélangez ensuite votre deck. Vous ne pouvez plus jouer de carte Dresseur pendant ce tour."
+	},
+	"name": {
+		"en": "PokéGear",
+		"fr": "Pokéquipement"
+	},
+	"rarity": "Rare",
+	"set": "neo1"
+}

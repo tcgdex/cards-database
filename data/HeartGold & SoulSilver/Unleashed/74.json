@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Cherchez 4 cartes Énergie de base dans votre pile de défausse, montrez-les à votre adversaire et mélangez-les à votre deck.",
+		"en": "Search your discard pile for 4 basic Energy cards, show them to your opponent, and shuffle them into your deck."
+	},
+	"hp": 0,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Energy Returner",
+		"fr": "Récupérateur d’énergie"
+	},
+	"rarity": "Uncommon",
+	"set": "hgss2",
+	"trainerType": "Item",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

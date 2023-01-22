@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-sm-r",
+	"name": {
+		"en": "SM trainer Kit (Alolan Raichu)",
+		"es": "Kit de Entrenador Sol y Luna (Raichu de Alola)",
+		"fr": "SM Kit du dresseur (Raichu d'Alola)",
+		"it": "Sole e Luna trainer Kit (Alolan Raichu)"
+	},
+	"releaseDate": "2017-04-21",
+	"serie": "tk"
+}

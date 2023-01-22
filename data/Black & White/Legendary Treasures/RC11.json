@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Brilliant Voice"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Round"
+			},
+			"effect": {
+				"en": "Does 30 damage times the number of your Pokémon that have the Round attack."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		648
+	],
+	"hp": 110,
+	"illustrator": "Eske Yoshinob",
+	"name": {
+		"en": "Meloetta-EX"
+	},
+	"rarity": "Rare",
+	"set": "bw11",
+	"suffix": "EX",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

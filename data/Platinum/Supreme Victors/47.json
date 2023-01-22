@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rest",
+				"fr": "Repos"
+			},
+			"effect": {
+				"en": "Remove all Special Conditions and 4 damage counters from Wailord. Wailord is now Asleep.",
+				"fr": "Retirez à Wailord tous ses États Spéciaux ainsi que 4 marqueurs de dégât. Wailord est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Giant Wave",
+				"fr": "Vague géante"
+			},
+			"effect": {
+				"en": "Wailord can't use Giant Wave during your next turn.",
+				"fr": "Wailord ne peut pas utiliser Vague géante lors de votre prochain tour."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		321
+	],
+	"evolveFrom": {
+		"en": "Wailmer",
+		"fr": "Wailmer"
+	},
+	"hp": 180,
+	"illustrator": "Midori Harada",
+	"name": {
+		"en": "Wailord",
+		"fr": "Wailord"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "pl3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

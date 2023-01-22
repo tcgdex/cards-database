@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Alert",
+				"fr": "Alerte"
+			},
+			"effect": {
+				"en": "Draw a card. Then, you may switch Combee with 1 of your Benched Pokémon.",
+				"fr": "Piochez une carte. Ensuite, vous pouvez échanger Apitrini avec 1 des Pokémon de votre Banc."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		415
+	],
+	"evolveFrom": {
+		"fr": "Apitrini"
+	},
+	"hp": 50,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Combee",
+		"fr": "Apitrini"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp7",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

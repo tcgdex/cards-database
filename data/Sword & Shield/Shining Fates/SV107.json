@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Tranch'Griffe",
+				"en": "Claw Slash",
+				"es": "Cuchillada Garra",
+				"it": "Lacerartiglio",
+				"pt": "Golpe de Garra",
+				"de": "Klauenschlitzer"
+			},
+			"damage": 100,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"fr": "Fournaise G-Max",
+				"en": "G-Max Wildfire",
+				"es": "Gigallamarada",
+				"it": "Gigavampa",
+				"pt": "Queimada G-Max",
+				"de": "Giga-Feuerflug"
+			},
+			"effect": {
+				"fr": "Défaussez 2 Énergies de ce Pokémon.",
+				"en": "Discard 2 Energy from this Pokémon.",
+				"es": "Descarta 2 Energías de este Pokémon.",
+				"it": "Scarta due Energie da questo Pokémon.",
+				"pt": "Descarte 2 Energias deste Pokémon.",
+				"de": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 300,
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"fr": "Dracaufeu-V",
+		"en": "Charizard V"
+	},
+	"hp": 330,
+	"illustrator": "aky CG Works",
+	"name": {
+		"de": "Glurak VMAX",
+		"en": "Charizard VMAX",
+		"es": "Charizard VMAX",
+		"fr": "Dracaufeu VMAX",
+		"it": "Charizard VMAX",
+		"pt": "Charizard VMAX"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh4.5",
+	"stage": "VMAX",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

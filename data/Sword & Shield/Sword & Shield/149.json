@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Pulse",
+				"fr": "Draco-Choc",
+				"es": "Pulso Dragón",
+				"it": "Dragopulsar",
+				"pt": "Pulso do Dragão",
+				"de": "Drachenpuls"
+			},
+			"effect": {
+				"en": "Discard the top 2 cards of your deck.",
+				"fr": "Défaussez les 2 cartes du dessus de votre deck.",
+				"es": "Descarta las 2 primeras cartas de tu baraja.",
+				"it": "Scarta le prime due carte del tuo mazzo.",
+				"pt": "Descarte as 2 cartas de cima do seu baralho.",
+				"de": "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below."
+	},
+	"dexId": [
+		780
+	],
+	"hp": 130,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Sen-Long",
+		"en": "Drampa",
+		"es": "Drampa",
+		"fr": "Draïeul",
+		"it": "Drampa",
+		"pt": "Drampa"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

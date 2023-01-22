@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Combustion"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flying Flare"
+			},
+			"effect": {
+				"en": "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself."
+			},
+			"damage": "80+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		146
+	],
+	"hp": 120,
+	"illustrator": "OOYAMA",
+	"name": {
+		"en": "Moltres"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

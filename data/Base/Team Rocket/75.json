@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez une pièce. Si c'est pile, infligez 10 dégâts à votre Pokémon Actif. Si c'est face, votre adversaire lance une pièce. Si c'est pile, votre adversaire inflige 10 dégâts à son Pokémon Actif. Si c'est face, vous lancez une pièce. Continuez ainsi jusqu'à ce que l'un des joueurs obtienne pile."
+	},
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Digger",
+		"fr": "Excavatrice"
+	},
+	"rarity": "Uncommon",
+	"set": "base5"
+}

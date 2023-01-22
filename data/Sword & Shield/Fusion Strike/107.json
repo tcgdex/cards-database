@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Punk Shock"
+			},
+			"damage": 70,
+			"effect": {
+				"en": "You may choose to make your opponent's Active Pokémon Paralyzed. If you do, this Pokémon also does 70 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This short-tempered and aggressive Pokémon chugs stagnant water to absorb any toxins it might contain."
+	},
+	"evolveFrom": {
+		"en": "Toxel",
+		"fr": "Toxizap",
+		"es": "Toxel",
+		"it": "Toxel",
+		"pt": "Toxel",
+		"de": "Toxel"
+	},
+	"hp": 130,
+	"illustrator": "Ryuta Fuse",
+	"name": {
+		"de": "Riffex",
+		"en": "Toxtricity",
+		"es": "Toxtricity",
+		"fr": "Salarsen",
+		"it": "Toxtricity",
+		"pt": "Toxtricity"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Mélangez 2 cartes Énergie spéciale de votre pile de défausse avec votre deck.",
+		"en": "Shuffle 2 Special Energy cards from your discard pile into your deck.",
+		"es": "Pon 2 cartas de Energía Especial de tu pila de descartes en tu baraja y barájalas todas.",
+		"it": "Rimischia due carte Energia speciale dalla tua pila degli scarti nel tuo mazzo.",
+		"pt": "Embaralhe 2 cards de Energia Especial da sua pilha de descarte em seu baralho.",
+		"de": "Mische 2 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+	},
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Spezial-Aufladung",
+		"en": "Special Charge",
+		"es": "Carga Especial",
+		"fr": "Recharge Spéciale",
+		"it": "Carica Speciale",
+		"pt": "Carga Especial"
+	},
+	"rarity": "Uncommon",
+	"set": "xy11",
+	"trainerType": "Item"
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Exoskeleton",
+				"fr": "Exosquelette"
+			},
+			"effect": {
+				"en": "Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				"fr": "Les dégâts infligés à Drackhaus par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Heat Blast",
+				"fr": "Explosion de chaleur"
+			},
+			"damage": 30,
+			"cost": [
+				"Fire",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		372
+	],
+	"evolveFrom": {
+		"en": "Bagon"
+	},
+	"hp": 70,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Shelgon δ",
+		"fr": "Drackhaus δ ESPÈCES DELTA"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		},
+		{
+			"type": "Fire",
+			"value": "-30"
+		}
+	],
+	"set": "ex11",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "×2"
+		}
+	]
+}

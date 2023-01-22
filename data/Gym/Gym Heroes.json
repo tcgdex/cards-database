@@ -1,0 +1,11 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 132,
+	"id": "gym1",
+	"name": {
+		"en": "Gym Heroes"
+	},
+	"releaseDate": "2000-08-14",
+	"serie": "gym",
+	"tcgOnline": "G1"
+}

@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Shake It Off",
+				"fr": "Bon Débarras",
+				"es": "Espantar",
+				"it": "Scrollavia",
+				"pt": "Deixar de lado",
+				"de": "Ausschütteln"
+			},
+			"effect": {
+				"en": "This attack does 20 damage times the number of Colorless Pokémon your opponent has in play.",
+				"fr": "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon Colorless que votre adversaire a en jeu.",
+				"es": "Este ataque hace 20 puntos de daño por cada carta de Pokémon Colorless que tu rival tenga en juego.",
+				"it": "Questo attacco infligge 20 danni per ogni Pokémon Colorless che il tuo avversario ha in gioco.",
+				"pt": "Este ataque causa 20 de danos vezes o número de Pokémon Colorless que o seu oponente tem em jogo.",
+				"de": "Dieser Angriff fügt 20 Schadenspunkte für jedes Colorless-Pokémon, das dein Gegner im Spiel hat, zu."
+			},
+			"damage": "20×"
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Seed Bomb",
+				"fr": "Canon Graine",
+				"es": "Bomba Germen",
+				"it": "Semebomba",
+				"pt": "Bomba de Sementes",
+				"de": "Samenbomben"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		103
+	],
+	"evolveFrom": {
+		"en": "Exeggcute",
+		"fr": "Noeunoeuf",
+		"es": "Exeggcute",
+		"it": "Exeggcute",
+		"pt": "Exeggcute",
+		"de": "Owei"
+	},
+	"hp": 120,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Kokowei",
+		"en": "Exeggutor",
+		"es": "Exeggutor",
+		"fr": "Noadkoko",
+		"it": "Exeggutor",
+		"pt": "Exeggutor"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "xy6",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

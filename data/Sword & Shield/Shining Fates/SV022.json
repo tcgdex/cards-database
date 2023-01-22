@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Grosse Vague",
+				"en": "Wave Splash",
+				"es": "Chapoteo Ondulante",
+				"it": "Schizzi d'Onda",
+				"pt": "Onda Borrifante",
+				"de": "Wellenplatscher"
+			},
+			"damage": 20,
+			"cost": [
+				"Water"
+			]
+		},
+		{
+			"name": {
+				"fr": "Boucle Aurore",
+				"en": "Aurora Loop",
+				"es": "Bucle Aurora",
+				"it": "Circuito Aurora",
+				"pt": "Loop da Aurora",
+				"de": "Auroraschleife"
+			},
+			"effect": {
+				"fr": "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
+				"en": "Put 2 Water Energy attached to this Pokémon into your hand.",
+				"es": "Pon 2 Energías Water unidas a este Pokémon en tu mano.",
+				"it": "Prendi due Energie Water assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
+				"pt": "Coloque 2 Energias Water ligadas a este Pokémon na sua mão.",
+				"de": "Nimm 2 an dieses Pokémon angelegte Water-Energien auf deine Hand."
+			},
+			"damage": 130,
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+	},
+	"hp": 120,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Suicune",
+		"en": "Suicune",
+		"es": "Suicune",
+		"fr": "Suicune",
+		"it": "Suicune",
+		"pt": "Suicune"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Karate Chop",
+				"fr": "Poing-Karaté"
+			},
+			"effect": {
+				"en": "Does 40 damage minus 10 damage for each damage counter on Machoke.",
+				"fr": "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur."
+			},
+			"damage": "40-"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Seismic Toss",
+				"fr": "Frappe Atlas"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "La force herculéenne du Machopeur est très dangereuse. Il utilise une ceinture pour contenir son énergie."
+	},
+	"dexId": [
+		67
+	],
+	"evolveFrom": {
+		"en": "Machop",
+		"fr": "Machoc"
+	},
+	"hp": 80,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Machoke",
+		"fr": "Machopeur"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "dp1",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

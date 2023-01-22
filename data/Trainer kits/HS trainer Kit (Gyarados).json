@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-hs-g",
+	"name": {
+		"en": "HS trainer Kit (Gyarados)",
+		"es": "Kit de Entrenador HeatGold & SoulSilver (Gyarados)",
+		"fr": "HS Kit du dresseur (Léviator)",
+		"it": "HS trainer Kit (Gyarados)"
+	},
+	"releaseDate": "2010-05-01",
+	"serie": "tk"
+}

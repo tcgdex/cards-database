@@ -1,0 +1,21 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Finsternis-Energie",
+		"en": "Darkness Energy",
+		"es": "Energía Oscura",
+		"fr": "Énergie Obscurité",
+		"it": "Energia Oscurità",
+		"pt": "Energia Noturna"
+	},
+	"rarity": "Secret Rare",
+	"set": "swsh7",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	}
+}

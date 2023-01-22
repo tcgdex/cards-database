@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rock Drill Dive",
+				"fr": "Plongée Perce-Roc"
+			},
+			"effect": {
+				"en": "This attack does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		142
+	],
+	"evolveFrom": {
+		"en": "Aerodactyl-EX",
+		"fr": "Ptéra-eEX"
+	},
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "M Aerodactyl EX",
+		"fr": "M Ptéra EX"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "MEGA",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

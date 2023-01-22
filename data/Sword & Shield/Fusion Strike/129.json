@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Spooky Shot"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "U-turn"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Without a Dreepy to place on its head and care for, it gets so uneasy it'll try to substitute any Pokémon it finds for the missing Dreepy."
+	},
+	"evolveFrom": {
+		"en": "Dreepy",
+		"fr": "Fantyrm",
+		"es": "Dreepy",
+		"it": "Dreepy",
+		"pt": "Dreepy",
+		"de": "Grolldra"
+	},
+	"hp": 90,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Phandra",
+		"en": "Drakloak",
+		"es": "Drakloak",
+		"fr": "Dispareptil",
+		"it": "Drakloak",
+		"pt": "Drakloak"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez 1 Pokémon du Banc votre adversaire et échangez-le avec son Pokémon actif."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Gust of Wind",
+		"fr": "Rafale de vent"
+	},
+	"rarity": "Common",
+	"set": "base1"
+}

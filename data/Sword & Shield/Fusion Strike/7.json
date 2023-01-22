@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Scratch"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
+	},
+	"hp": 60,
+	"illustrator": "Nagomi Nijo",
+	"name": {
+		"de": "Vegimak",
+		"en": "Pansage",
+		"es": "Pansage",
+		"fr": "Feuillajou",
+		"it": "Pansage",
+		"pt": "Pansage"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

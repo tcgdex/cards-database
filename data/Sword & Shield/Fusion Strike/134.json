@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Gut Punch"
+			},
+			"damage": "30+",
+			"effect": {
+				"en": "If your opponent's Active Pokémon is a Pokémon V, this attack does 60 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging."
+	},
+	"evolveFrom": {
+		"en": "Mankey",
+		"fr": "Férosinge",
+		"es": "Mankey",
+		"it": "Mankey",
+		"pt": "Mankey",
+		"de": "Menki"
+	},
+	"hp": 100,
+	"illustrator": "Yuya Oka",
+	"name": {
+		"de": "Rasaff",
+		"en": "Primeape",
+		"es": "Primeape",
+		"fr": "Colossinge",
+		"it": "Primeape",
+		"pt": "Primeape"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Supersonic",
+				"fr": "Ultrason"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Voice",
+				"fr": "Mégaphone"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		294
+	],
+	"evolveFrom": {
+		"en": "Whismur",
+		"fr": "Chuchmur"
+	},
+	"hp": 90,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"de": "Krakeelo",
+		"en": "Loudred",
+		"es": "Loudred",
+		"fr": "Ramboum",
+		"it": "Loudred",
+		"pt": "Loudred"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Raging Roar"
+			},
+			"effect": {
+				"en": "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may attach 1 Darkness Energy from your discard pile to this Pokémon for each Prize card your opponent has taken."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Darkness"
+			],
+			"name": {
+				"en": "Dark Mountain"
+			},
+			"effect": {
+				"en": "Discard the top 2 cards of your deck. This attack does 50 more damage for each Supporter card discarded in this way."
+			},
+			"damage": "150+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		248
+	],
+	"evolveFrom": {
+		"en": "Pupitar"
+	},
+	"hp": 160,
+	"illustrator": "Satoshi Shirai",
+	"name": {
+		"en": "Tyranitar"
+	},
+	"rarity": "None",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "xyp",
+	"stage": "Stage2",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde Folie"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Swift",
+				"fr": "Météores"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		121
+	],
+	"evolveFrom": {
+		"en": "Staryu",
+		"fr": "Stari"
+	},
+	"hp": 90,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Starmie",
+		"en": "Starmie",
+		"es": "Starmie",
+		"fr": "Staross",
+		"it": "Starmie",
+		"pt": "Starmie"
+	},
+	"rarity": "Uncommon",
+	"retreat": 0,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

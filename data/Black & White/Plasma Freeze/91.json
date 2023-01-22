@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Dual Draw",
+				"fr": "Pioche Mutuelle"
+			},
+			"effect": {
+				"en": "Each player draws 2 cards.",
+				"fr": "Chaque joueur pioche 2 cartes."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		163
+	],
+	"hp": 60,
+	"illustrator": "match",
+	"name": {
+		"de": "Hoothoot",
+		"en": "Hoothoot",
+		"es": "Hoothoot",
+		"fr": "Hoothoot",
+		"it": "Hoothoot",
+		"pt": "Hoothoot"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

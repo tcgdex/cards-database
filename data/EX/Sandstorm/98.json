@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Dazzle Blast",
+				"fr": "Explosion de lumière"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mega Thunderbolt",
+				"fr": "Méga tonnerre"
+			},
+			"effect": {
+				"en": "Discard all Energy cards attached to Raichu ex.",
+				"fr": "Défaussez toutes les cartes Énergie attachées à Raichu ex."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		26
+	],
+	"evolveFrom": {
+		"en": "Pikachu"
+	},
+	"hp": 100,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Raichu ex",
+		"fr": "Raichu ex"
+	},
+	"rarity": "Rare",
+	"set": "ex2",
+	"suffix": "EX",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

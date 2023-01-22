@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyperspace Punch",
+				"fr": "Poing Hyperespace"
+			},
+			"effect": {
+				"en": "This attack does 20 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Cette attaque inflige 20 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Pitfall",
+				"fr": "Frappe Dimensionnelle"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Pitfall during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Frappe Dimensionnelle pendant votre prochain tour."
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		720
+	],
+	"hp": 130,
+	"illustrator": "Yoshinobu Saito",
+	"name": {
+		"en": "Hoopa",
+		"fr": "Hoopa"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

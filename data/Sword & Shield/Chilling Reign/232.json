@@ -1,0 +1,21 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Psycho-Energie",
+		"en": "Psychic Energy",
+		"es": "Energía Psíquica",
+		"fr": "Énergie Psy",
+		"it": "Energia Psiche",
+		"pt": "Energia Psíquica"
+	},
+	"rarity": "Secret Rare",
+	"set": "swsh6",
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

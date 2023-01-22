@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Mega Drain"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon."
+			}
+		},
+		{
+			"name": {
+				"en": "Pin Missile"
+			},
+			"damage": "20×",
+			"effect": {
+				"en": "Flip 4 coins. This attack does 20 damage times the number of heads."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds."
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Maractus"
+	},
+	"rarity": "None",
+	"set": "2011bw",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Pulse Blast",
+				"fr": "Explosion vibrante",
+				"es": "Pulso explosivo",
+				"it": "Scoppimpulso",
+				"pt": "Pulso Explosivo",
+				"de": "Pulsierender Schuss"
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Land’s Wrath",
+				"fr": "Force Chtonienne",
+				"es": "Fuerza Telúrica",
+				"it": "Forza Tellurica",
+				"pt": "Ira da Terra",
+				"de": "Bodengewalt"
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		718
+	],
+	"hp": 130,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Zygarde",
+		"en": "Zygarde",
+		"es": "Zygarde",
+		"fr": "Zygarde",
+		"it": "Zygarde",
+		"pt": "Zygarde"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

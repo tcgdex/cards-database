@@ -1,0 +1,86 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Land's Pulse",
+				"fr": "Vibration Terrestre",
+				"es": "Pulso Telúrico",
+				"it": "Pulsazione Tellurica",
+				"pt": "Pulso da Terra",
+				"de": "Bodenpuls"
+			},
+			"effect": {
+				"en": "If a Stadium is in play, this attack does 30 more damage.",
+				"fr": "Si un Stade est en jeu, cette attaque inflige 30 dégâts supplémentaires.",
+				"es": "Si hay un Estadio en juego, este ataque hace 30 puntos de daño más.",
+				"it": "Se c'è in gioco una carta Stadio, questo attacco infligge 30 danni in più.",
+				"pt": "Se um Estádio estiver em jogo, este ataque causará 30 pontos de dano a mais.",
+				"de": "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+			},
+			"damage": "30+",
+			"cost": [
+				"Fighting",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Giga Hammer",
+				"fr": "Giga Marteau",
+				"es": "Gigamartillo",
+				"it": "Gigamartello",
+				"pt": "Gigamartelo",
+				"de": "Gigahammer"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't use Giga Hammer.",
+				"fr": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Giga Marteau.",
+				"es": "Durante tu próximo turno, este Pokémon no puede usar Gigamartillo.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può usare Gigamartello.",
+				"pt": "Durante o seu próximo turno, este Pokémon não poderá usar Gigamartelo.",
+				"de": "Während deines nächsten Zuges kann dieses Pokémon Gigahammer nicht einsetzen."
+			},
+			"damage": 120,
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle."
+	},
+	"hp": 130,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Humanolith",
+		"en": "Stonjourner",
+		"es": "Stonjourner",
+		"fr": "Dolman",
+		"it": "Stonjourner",
+		"pt": "Stonjourner"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunge"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		19
+	],
+	"hp": 30,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Rattata"
+	},
+	"rarity": "Common",
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

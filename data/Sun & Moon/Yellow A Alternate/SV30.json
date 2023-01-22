@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal"
+			],
+			"name": {
+				"en": "Core Beam",
+				"fr": "Faisceau Central"
+			},
+			"effect": {
+				"en": "Discard a Metal Energy from this Pokémon.",
+				"fr": "Défaussez une Énergie Metal de ce Pokémon."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		374
+	],
+	"hp": 60,
+	"illustrator": "Mizue",
+	"name": {
+		"en": "Beldum",
+		"fr": "Terhal"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sma",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

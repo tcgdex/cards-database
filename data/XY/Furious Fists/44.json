@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Knuckle Punch",
+				"fr": "Coud'Phalange",
+				"es": "Puño con Nudillos",
+				"it": "Nocca-Pugno",
+				"pt": "Soco com Punho",
+				"de": "Knöchelhieb"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		66
+	],
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Machollo",
+		"en": "Machop",
+		"es": "Machop",
+		"fr": "Machoc",
+		"it": "Machop",
+		"pt": "Machop"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "xy3",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

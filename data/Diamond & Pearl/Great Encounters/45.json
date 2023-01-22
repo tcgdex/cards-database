@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Magma Armor",
+				"fr": "Magmascudo"
+			},
+			"effect": {
+				"en": "Magcargo can't be Asleep or Paralyzed.",
+				"fr": "Volcaropod ne peut pas être Endormi ou Paralysé."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lava Plume",
+				"fr": "Ébullilave"
+			},
+			"effect": {
+				"en": "You may discard the top card of your deck. If you do, the Defending Pokémon is now Burned.",
+				"fr": "Vous pouvez défausser la carte du dessus de votre deck. Le Pokémon Défenseur est alors Brûlé."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		219
+	],
+	"evolveFrom": {
+		"en": "Slugma",
+		"fr": "Limagma"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Magcargo",
+		"fr": "Volcaropod"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "dp4",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

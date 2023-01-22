@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Extreme Speed",
+				"fr": "Vitesse extrême"
+			},
+			"effect": {
+				"en": "Raikou's Retreat Cost is Colorless less for each Lightning Energy attached to Raikou.",
+				"fr": "Le Coût de retraite de Raikou est Colorless de moins pour chaque Énergie Lightning attachée à Raikou"
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Raging Thunder",
+				"fr": "Tonnerre déchaîné"
+			},
+			"effect": {
+				"en": "Does 20 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.",
+				"fr": "Inflige 20 dégâts à 1 de vos Pokémon. N’appliquez ni la Faiblesse ni la Résistance à ces dégâts."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		243
+	],
+	"hp": 90,
+	"illustrator": "Noriko Hotta",
+	"name": {
+		"en": "Raikou",
+		"fr": "Raikou"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

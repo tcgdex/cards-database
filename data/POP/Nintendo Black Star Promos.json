@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 40,
+	"id": "np",
+	"name": {
+		"de": "Nintendo Black Star Promos",
+		"en": "Nintendo Black Star Promos",
+		"es": "Nintendo Black Star Promos",
+		"fr": "Promo Nintendo",
+		"it": "Nintendo Black Star Promos"
+	},
+	"releaseDate": "2003-10-01",
+	"serie": "pop",
+	"tcgOnline": "PR-NP"
+}

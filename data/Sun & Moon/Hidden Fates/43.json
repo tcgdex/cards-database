@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Happy Mime",
+				"fr": "Mime Heureux"
+			},
+			"effect": {
+				"en": "Each player draws a card.",
+				"fr": "Chaque joueur pioche une carte."
+			}
+		},
+		{
+			"cost": [
+				"Fairy",
+				"Fairy"
+			],
+			"name": {
+				"en": "Double Slap",
+				"fr": "Torgnoles"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 40 damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face."
+			},
+			"damage": "40×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		122
+	],
+	"hp": 90,
+	"illustrator": "Hideki Ishikawa",
+	"name": {
+		"en": "Mr. Mime",
+		"fr": "M. Mime"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm115",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

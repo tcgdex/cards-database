@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Attack",
+				"fr": "Koud'Korne",
+				"es": "Cornada",
+				"it": "Incornata",
+				"pt": "Ataque de Chifre",
+				"de": "Hornattacke"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots."
+	},
+	"dexId": [
+		118
+	],
+	"hp": 70,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"de": "Goldini",
+		"en": "Goldeen",
+		"es": "Goldeen",
+		"fr": "Poissirène",
+		"it": "Goldeen",
+		"pt": "Goldeen"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

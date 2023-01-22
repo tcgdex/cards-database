@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Upper Shock"
+			},
+			"damage": 40,
+			"effect": {
+				"en": "If this Pokémon evolved from Eelektrik during this turn, your opponent's Active Pokémon is now Paralyzed."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wild Charge"
+			},
+			"damage": 160,
+			"effect": {
+				"en": "This Pokémon also does 30 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean."
+	},
+	"evolveFrom": {
+		"en": "Eelektrik",
+		"fr": "Lampéroie",
+		"es": "Eelektrik",
+		"it": "Eelektrik",
+		"pt": "Eelektrik",
+		"de": "Zapplalek"
+	},
+	"hp": 160,
+	"illustrator": "OKACHEKE",
+	"name": {
+		"de": "Zapplarang",
+		"en": "Eelektross",
+		"es": "Eelektross",
+		"fr": "Ohmassacre",
+		"it": "Eelektross",
+		"pt": "Eelektross"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Jouez Fossile griffe comme si c'était un Pokémon de base. Lorsqu'elle est en jeu, Fossile griffe compte comme un Pokémon  (et comme une carte Dresseur). Fossile griffe ne possède pas d'attaques, ne peut pas battre en retraite, et ne peut pas être affectée par des États Spéciaux. Si Fossile griffe est mise K.O., elle ne compte pas comme un Pokémon K.O. (défaussez-la de toutes façons). N'importe quand lors de votre tour, avant votre attaque, vous pouvez défausser Fossile griffe."
+	},
+	"hp": 40,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Claw Fossil",
+		"fr": "Fossile griffe"
+	},
+	"rarity": "Common",
+	"set": "ex16",
+	"trainerType": "Item"
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Nasty Plot",
+				"fr": "Machination"
+			},
+			"effect": {
+				"en": "Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shadow Claw",
+				"fr": "Griffe Ombre"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, discard a random card from your opponent's hand.",
+				"fr": "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		53
+	],
+	"evolveFrom": {
+		"en": "Meowth",
+		"fr": "Miaouss"
+	},
+	"hp": 90,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Snobilikat",
+		"en": "Persian",
+		"es": "Persian",
+		"fr": "Persian",
+		"it": "Persian",
+		"pt": "Persian"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

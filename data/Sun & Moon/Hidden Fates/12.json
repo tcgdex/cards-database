@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Yawn",
+				"fr": "Bâillement"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		79
+	],
+	"hp": 70,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"en": "Slowpoke",
+		"fr": "Ramoloss"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm115",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Full On",
+				"fr": "Coup du Sort",
+				"es": "Al Límite",
+				"pt": "Full On",
+				"de": "Alles oder nichts"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				"es": "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				"pt": "Flip a coin. If tails, this attack does nothing.",
+				"de": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			},
+			"damage": 30,
+			"cost": [
+				"Grass"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+	},
+	"dexId": [
+		810
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Chimpep",
+		"en": "Grookey",
+		"es": "Grookey",
+		"fr": "Ouistempo",
+		"pt": "Grookey"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

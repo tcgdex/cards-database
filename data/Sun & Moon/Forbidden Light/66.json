@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Allotment",
+				"fr": "Attribution",
+				"es": "Asignación",
+				"it": "Assegnazione",
+				"pt": "Atribuição",
+				"de": "Anteil"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre 1 carta.",
+				"de": "Ziehe 1 Karte."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		688
+	],
+	"hp": 70,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Bithora",
+		"en": "Binacle",
+		"es": "Binacle",
+		"fr": "Opermine",
+		"it": "Binacle",
+		"pt": "Binacle"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "sm6",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spiral Drain",
+				"fr": "Spirale épuisante"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters from Vaporeon.",
+				"fr": "Retirez 2 marqueurs de dégât à Aquali."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dual Splash",
+				"fr": "Double splash"
+			},
+			"effect": {
+				"en": "Choose 2 of your opponent’s Pokémon. This attack does 30 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez 2 des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à chacun d’entre eux. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When Vaporeon’s fins begin to vibrate, it is a sign that rain will come within a few hours."
+	},
+	"dexId": [
+		134
+	],
+	"evolveFrom": {
+		"en": "Eevee",
+		"fr": "Evoli"
+	},
+	"hp": 90,
+	"illustrator": "sui",
+	"name": {
+		"en": "Vaporeon",
+		"fr": "Aquali"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

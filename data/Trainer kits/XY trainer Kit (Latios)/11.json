@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Machollo",
+		"en": "Machop",
+		"es": "Machop",
+		"fr": "Machoc",
+		"it": "Machop",
+		"pt": "Machop"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "tk-xy-latio",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

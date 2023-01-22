@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Fang",
+				"fr": "Crocs Feu",
+				"es": "Colmillo Ígneo",
+				"it": "Rogodenti",
+				"pt": "Presas de Fogo",
+				"de": "Feuerzahn"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Burned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				"it": "Il Pokémon attivo del tuo avversario viene bruciato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Queimado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		726
+	],
+	"evolveFrom": {
+		"en": "Litten",
+		"fr": "Flamiaou"
+	},
+	"hp": 80,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Miezunder",
+		"en": "Torracat",
+		"es": "Torracat",
+		"fr": "Matoufeu",
+		"it": "Torracat",
+		"pt": "Torracat"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "sm10",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

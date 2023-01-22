@@ -1,0 +1,87 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Absorb Life",
+				"fr": "Absorption",
+				"es": "Absorber Vida",
+				"it": "Spolpavita",
+				"pt": "Absorb Life",
+				"de": "Lebensverkoster"
+			},
+			"effect": {
+				"en": "Heal 30 damage from this Pokémon.",
+				"fr": "Soignez 30 dégâts de ce Pokémon.",
+				"es": "Cura 30 puntos de daño a este Pokémon.",
+				"it": "Cura questo Pokémon da 30 danni.",
+				"pt": "Heal 30 damage from this Pokémon.",
+				"de": "Heile 30 Schadenspunkte bei diesem Pokémon."
+			},
+			"damage": 30,
+			"cost": [
+				"Grass",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Shadow Claw",
+				"fr": "Griffe Ombre",
+				"es": "Garra Umbría",
+				"it": "Ombrartigli",
+				"pt": "Shadow Claw",
+				"de": "Dunkelklaue"
+			},
+			"effect": {
+				"en": "Discard a random card from your opponent's hand.",
+				"fr": "Défaussez au hasard une carte de la main de votre adversaire.",
+				"es": "Descarta 1 carta aleatoria de la mano de tu rival.",
+				"it": "Scarta una carta a caso dalla mano del tuo avversario.",
+				"pt": "Discard a random card from your opponent's hand.",
+				"de": "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			},
+			"damage": 120,
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		709
+	],
+	"hp": 210,
+	"illustrator": "MUGENUP",
+	"name": {
+		"de": "Trombork V",
+		"en": "Trevenant V",
+		"es": "Trevenant V",
+		"fr": "Desséliande V",
+		"it": "Trevenant V",
+		"pt": "Trevenant V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh7",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

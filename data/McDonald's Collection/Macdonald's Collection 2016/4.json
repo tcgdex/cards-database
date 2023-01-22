@@ -1,0 +1,25 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Epic Splash"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Flip 2 coins. If either of them is tails, this attack does nothing."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
+	},
+	"illustrator": "Akira Komayama",
+	"name": {
+		"en": "Magikarp"
+	},
+	"rarity": "None",
+	"set": "2016xy",
+	"stage": "Basic"
+}

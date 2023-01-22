@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Infiltrate",
+				"fr": "Mission Infiltration"
+			},
+			"effect": {
+				"en": "Your opponent reveals his or her hand.",
+				"fr": "Votre adversaire montre sa main."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		261
+	],
+	"hp": 60,
+	"illustrator": "TOKIYA",
+	"name": {
+		"en": "Team Magma's Poochyena",
+		"fr": "Medhyèna de la Team Magma"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dc1",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

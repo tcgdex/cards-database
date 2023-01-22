@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Iron Tail",
+				"fr": "Queue de Fer"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+				"fr": "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunderbolt",
+				"fr": "Tonnerre"
+			},
+			"effect": {
+				"en": "Discard all Energy from this Pokémon.",
+				"fr": "Défaussez toute l’Énergie de ce Pokémon."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 70,
+	"illustrator": "2017 Pikachu Project",
+	"name": {
+		"en": "Ash's Pikachu",
+		"fr": "Pikachu de Sacha"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

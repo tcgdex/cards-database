@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Flip 3 coins. For each heads, put a basic Energy card from your discard pile into your hand. If you don't have that many basic Energy cards in your discard pile, put all of them into your hand."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Energy Restore"
+	},
+	"rarity": "Uncommon",
+	"set": "pl4",
+	"trainerType": "Item"
+}

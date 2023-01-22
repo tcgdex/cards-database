@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leafage",
+				"fr": "Feuillage",
+				"es": "Follaje",
+				"it": "Fogliame",
+				"pt": "Folhagem",
+				"de": "Blattwerk"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		722
+	],
+	"hp": 60,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Bauz",
+		"en": "Rowlet",
+		"es": "Rowlet",
+		"fr": "Brindibou",
+		"it": "Rowlet",
+		"pt": "Rowlet"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

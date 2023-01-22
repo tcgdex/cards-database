@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Garbotoxin"
+			},
+			"effect": {
+				"en": "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Garbotoxin)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sludge Toss"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		569
+	],
+	"evolveFrom": {
+		"en": "Trubbish"
+	},
+	"hp": 100,
+	"illustrator": "Tomoaki Imakuni",
+	"name": {
+		"en": "Garbodor"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw11",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

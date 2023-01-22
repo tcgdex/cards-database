@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Yawn",
+				"fr": "Bâillement",
+				"es": "Bostezo",
+				"it": "Sbadiglio",
+				"pt": "Bocejo",
+				"de": "Gähner"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		79
+	],
+	"hp": 70,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Flegmon",
+		"en": "Slowpoke",
+		"es": "Slowpoke",
+		"fr": "Ramoloss",
+		"it": "Slowpoke",
+		"pt": "Slowpoke"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

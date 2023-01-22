@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Guard Press",
+				"fr": "Pression de garde"
+			},
+			"effect": {
+				"en": "During your opponent’s next turn, any damage done to Steelix by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				"fr": "Tous les dégâts infligés à Steelix par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Steel Swing",
+				"fr": "Frappe d’acier"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 80 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": "80×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond."
+	},
+	"dexId": [
+		208
+	],
+	"evolveFrom": {
+		"en": "Onix",
+		"fr": "Onix"
+	},
+	"hp": 120,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Steelix",
+		"fr": "Steelix"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "hgss2",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

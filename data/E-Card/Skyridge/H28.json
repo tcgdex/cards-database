@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Energy Burst"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage times the number of Energy cards attached to Starmie and the Defending Pokémon."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Star Back"
+			},
+			"effect": {
+				"en": "Attach a basic Energy card from your discard pile to 1 of your Pokémon."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		121
+	],
+	"evolveFrom": {
+		"en": "Staryu"
+	},
+	"hp": 80,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Starmie"
+	},
+	"rarity": "Rare",
+	"set": "ecard3",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

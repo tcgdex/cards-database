@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras’Face"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fairy",
+				"Colorless"
+			],
+			"name": {
+				"en": "Moon Dance",
+				"fr": "Danse à la Lune"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		35
+	],
+	"hp": 60,
+	"illustrator": "kirisAki",
+	"name": {
+		"en": "Clefairy",
+		"fr": "Mélofée"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm115",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

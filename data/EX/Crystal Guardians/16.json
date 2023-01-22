@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Focus Energy",
+				"fr": "Puissance"
+			},
+			"effect": {
+				"en": "During your next turn, Combusken's High Jump Kick attack's base damage is 70.",
+				"fr": "Lors de votre prochain tour, les dégâts de base de l'attaque Pied voltige de Galifeu sont de 70."
+			}
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "High Jump Kick",
+				"fr": "Pied voltige"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		256
+	],
+	"evolveFrom": {
+		"en": "Torchic"
+	},
+	"hp": 80,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"en": "Combusken",
+		"fr": "Galifeu"
+	},
+	"rarity": "Rare",
+	"set": "ex14",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

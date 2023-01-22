@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sweet Sleeping Face"
+			},
+			"effect": {
+				"en": "As long as Tyrogue is Asleep, prevent all damage done to Tyrogue by attacks."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Mischievous Punch"
+			},
+			"effect": {
+				"en": "This attack's damage isn't affected by Weakness or Resistance. Tyrogue is now Asleep."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		236
+	],
+	"hp": 30,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"en": "Tyrogue"
+	},
+	"rarity": "Rare",
+	"set": "col1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	]
+}

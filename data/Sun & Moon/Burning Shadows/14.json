@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Ambush",
+				"fr": "Embuscade",
+				"es": "Emboscada",
+				"it": "Imboscata",
+				"pt": "Emboscada",
+				"de": "Hinterhalt"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 more damage.",
+				"fr": "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+				"es": "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+				"it": "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+				"pt": "Jogue uma moeda. Se sair cara, esse ataque causará 10 de danos adicionais.",
+				"de": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		751
+	],
+	"hp": 60,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Araqua",
+		"en": "Dewpider",
+		"es": "Dewpider",
+		"fr": "Araqua",
+		"it": "Dewpider",
+		"pt": "Dewpider"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 12,
+	"id": "tk-ex-p",
+	"name": {
+		"en": "EX trainer Kit 2 (Plusle)",
+		"es": "Kit de Entrenador EX (Plusle)",
+		"fr": "EX Kit dresseur (Positi)",
+		"it": "EX trainer Kit (Plusle)"
+	},
+	"releaseDate": "2006-03-01",
+	"serie": "tk"
+}

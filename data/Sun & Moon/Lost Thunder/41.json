@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncement",
+				"es": "Martillear",
+				"it": "Martello",
+				"pt": "Martelada",
+				"de": "Einhämmern"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Fire"
+			],
+			"name": {
+				"en": "Super Singe",
+				"fr": "Super Roussi",
+				"es": "Superquemadura",
+				"it": "Super Scottata",
+				"pt": "Superchamuscada",
+				"de": "Super-Versengung"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Burned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				"it": "Il Pokémon attivo del tuo avversario viene bruciato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Queimado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		156
+	],
+	"evolveFrom": {
+		"en": "Cyndaquil",
+		"fr": "Héricendre"
+	},
+	"hp": 90,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Igelavar",
+		"en": "Quilava",
+		"es": "Quilava",
+		"fr": "Feurisson",
+		"it": "Quilava",
+		"pt": "Quilava"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm8",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

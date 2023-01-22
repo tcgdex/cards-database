@@ -1,0 +1,34 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Tangela",
+		"fr": "Saquedeneu",
+		"es": "Tangela",
+		"it": "Tangela",
+		"pt": "Tangela",
+		"de": "Tangela"
+	},
+	"hp": 130,
+	"name": {
+		"de": "Tangoloss",
+		"en": "Tangrowth",
+		"es": "Tangrowth",
+		"fr": "Bouldeneu",
+		"it": "Tangrowth",
+		"pt": "Tangrowth"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "tk-xy-latia",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,13 +1,15 @@
 /* eslint-disable max-statements */
 import { FileFunction } from './compilerInterfaces'
 import { promises as fs } from 'fs'
-import { fetchRemoteFile } from './utils/util'
+import { fetchRemoteFile, getTree } from './utils/util'
 import { objectValues } from '@dzeio/object-util'
-import { SupportedLanguages } from '../../interfaces'
+import { Serie, SupportedLanguages } from '../../interfaces'
 
 const LANGS: Array<SupportedLanguages> = ['en', 'fr', 'es', 'it', 'pt', 'de']
 
 const DIST_FOLDER = './generated'
+
+process.env.DEBUG = 'true'
 
 ;(async () => {
 	const paths = (await fs.readdir('./compiler/endpoints')).filter((p) => p.endsWith('.ts'))
@@ -23,6 +25,10 @@ const DIST_FOLDER = './generated'
 
 
 	console.log('Let\'s GO !')
+
+	console.log(
+		await getTree())
+	process.exit(0)
 
 	// Process each languages
 	for await (const lang of LANGS) {

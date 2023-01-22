@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spray Fluid",
+				"fr": "Fluide Éclaboussant",
+				"es": "Fluido Rociado",
+				"it": "Fluidospray",
+				"pt": "Fluido Spray",
+				"de": "Sprühwasser"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell."
+	},
+	"hp": 70,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"de": "Schnuthelm",
+		"en": "Shelmet",
+		"es": "Shelmet",
+		"fr": "Escargaume",
+		"it": "Shelmet",
+		"pt": "Shelmet"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

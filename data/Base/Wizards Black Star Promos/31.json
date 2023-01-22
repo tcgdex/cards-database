@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Eek",
+				"fr": "Hi !"
+			},
+			"effect": {
+				"en": "Draw 2 cards",
+				"fr": "Piochez 2 cartes."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
+	},
+	"dexId": [
+		173
+	],
+	"hp": 30,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Cleffa",
+		"fr": "Mélo"
+	},
+	"rarity": "Common",
+	"set": "basep",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sweet Sleeping Face",
+				"fr": "Joli visage endormi"
+			},
+			"effect": {
+				"en": "As long as Tyrogue is Asleep, prevent all damage done to Tyrogue by attacks.",
+				"fr": "Tant que Debugant reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Mischievous Punch",
+				"fr": "Coquipoing"
+			},
+			"effect": {
+				"en": "This attack’s damage isn’t affected by Weakness or Resistance. Tyrogue is now Asleep.",
+				"fr": "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Debugant est maintenant Endormi."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Even though it is small, it can’t be ignored because it will slug any handy target without warning."
+	},
+	"dexId": [
+		236
+	],
+	"hp": 30,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Tyrogue",
+		"fr": "Debugant"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

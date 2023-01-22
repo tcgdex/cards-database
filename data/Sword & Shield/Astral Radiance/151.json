@@ -1,0 +1,30 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Your Active Pokémon is now Burned. Heal 40 damage from it.",
+		"fr": "Votre Pokémon Actif est maintenant Brûlé. Soignez 40 dégâts de ce Pokémon.",
+		"es": "Tu Pokémon Activo pasa a estar Quemado. Cúrale 40 puntos de daño.",
+		"it": "Il tuo Pokémon attivo viene bruciato. Curalo da 40 danni.",
+		"pt": "O seu Pokémon Ativo agora está Queimado. Cure 40 pontos de dano dele.",
+		"de": "Dein Aktives Pokémon ist jetzt verbrannt. Heile 40 Schadenspunkte bei jenem Pokémon."
+	},
+	"name": {
+		"de": "Scharfes Gewürzcurry",
+		"en": "Spicy Seasoned Curry",
+		"es": "Curri Picante Especiado",
+		"fr": "Curry Épicé aux Piments",
+		"it": "Curry piccante alle spezie",
+		"pt": "Curry Temperado e Apimentado"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"set": "swsh10",
+	"trainerType": "Item",
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

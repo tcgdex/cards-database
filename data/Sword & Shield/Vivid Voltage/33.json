@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revólver d'Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Seashell Attack",
+				"fr": "Carap'Attaque",
+				"es": "Conchaataque",
+				"it": "Conchigliata",
+				"pt": "Ataque de Concha do Mar",
+				"de": "Seemuschelangriff"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
+	},
+	"hp": 70,
+	"illustrator": "nagimiso",
+	"name": {
+		"de": "Ottaro",
+		"en": "Oshawott",
+		"es": "Oshawott",
+		"fr": "Moustillon",
+		"it": "Oshawott",
+		"pt": "Oshawott"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

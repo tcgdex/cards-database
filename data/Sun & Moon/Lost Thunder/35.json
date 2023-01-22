@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Collect",
+				"fr": "Collecte",
+				"es": "Coleccionar",
+				"it": "Tassa",
+				"pt": "Coleta",
+				"de": "Sammeln"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre 1 carta.",
+				"de": "Ziehe 1 Karte."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vine Whip",
+				"fr": "Fouet Lianes",
+				"es": "Látigo Cepa",
+				"it": "Frustata",
+				"pt": "Chicote de Vinha",
+				"de": "Rankenhieb"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		672
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Mähikel",
+		"en": "Skiddo",
+		"es": "Skiddo",
+		"fr": "Cabriolaine",
+		"it": "Skiddo",
+		"pt": "Skiddo"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

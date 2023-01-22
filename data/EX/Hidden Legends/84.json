@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez cette carte à 1 des Pokémon Évolués que vous avez en jeu (Pokémon-ex et Pokémon dont le nom comporte un nom de Dresseur exclus). Ce Pokémon peut utiliser l'attaque de cette carte au lieu de ses propres attaques. À la fin du tour, défaussez Machine Technique Ancienne [Glace]."
+	},
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Ancient Technical Machine (Ice)",
+		"fr": "Machine Technique Ancienne [Glace]"
+	},
+	"rarity": "Uncommon",
+	"set": "ex5",
+	"trainerType": "Tool"
+}

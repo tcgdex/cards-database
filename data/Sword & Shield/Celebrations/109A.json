@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Bright Look"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), when you put Luxray GL LV.X from your hand onto your Active Luxray GL, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Flash Impact"
+			},
+			"effect": {
+				"en": "Does 30 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage."
+			},
+			"damage": 60,
+			"cost": [
+				"Lightning",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"hp": 110,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Luxray GL LV.X"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 0,
+	"set": "cel25",
+	"stage": "LEVEL-UP",
+	"suffix": "SP",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

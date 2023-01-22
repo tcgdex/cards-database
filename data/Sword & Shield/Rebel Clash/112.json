@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Suffocating Gas",
+				"fr": "Gaz Suffocant",
+				"es": "Gas Sofocante",
+				"it": "Gas Soffocante",
+				"pt": "Gás Asfixiante",
+				"de": "Würgegas"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
+	},
+	"hp": 70,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Smogon",
+		"en": "Koffing",
+		"es": "Koffing",
+		"fr": "Smogo",
+		"it": "Koffing",
+		"pt": "Koffing"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh2",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

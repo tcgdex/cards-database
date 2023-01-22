@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Collect"
+			},
+			"effect": {
+				"en": "Draw a card."
+			}
+		},
+		{
+			"name": {
+				"en": "Scratch"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic."
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Pansage"
+	},
+	"rarity": "None",
+	"set": "2012bw",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

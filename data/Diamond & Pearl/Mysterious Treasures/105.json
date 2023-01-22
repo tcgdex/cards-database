@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Rest",
+				"fr": "Repos"
+			},
+			"effect": {
+				"en": "Remove all Special Conditions and 2 damage counters from Teddiursa. Teddiursa is now Asleep.",
+				"fr": "Retirez à Teddiursa tous ses États Spéciaux ainsi que 2 marqueurs de dégât. Teddiursa est maintenant Endormi."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sweet Palm",
+				"fr": "Douce paume"
+			},
+			"effect": {
+				"en": "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
+				"fr": "Avant d'infliger des dégâts, retirez 1 marqueur de dégât au Pokémon Défenseur."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il baigne ses griffes dans le miel pour les lécher. Chaque paire de pattes a un goût unique."
+	},
+	"dexId": [
+		216
+	],
+	"hp": 60,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Teddiursa",
+		"fr": "Teddiursa"
+	},
+	"rarity": "Common",
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

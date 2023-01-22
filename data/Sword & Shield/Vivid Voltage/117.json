@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Claw",
+				"fr": "Griffe Acier",
+				"es": "Garra Metal",
+				"it": "Ferrartigli",
+				"pt": "Garra de Metal",
+				"de": "Metallklaue"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magnetic Blast",
+				"fr": "Explosion Magnétique",
+				"es": "Explosión Magnética",
+				"it": "Magnetebomba",
+				"pt": "Explosão Magnética",
+				"de": "Magnetstoß"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It flies at high speeds around the skies. When it finds its prey, Metang takes a firm grip with its sharp claws and never lets go."
+	},
+	"evolveFrom": {
+		"en": "Beldum",
+		"fr": "Terhal",
+		"es": "Beldum",
+		"it": "Beldum",
+		"pt": "Beldum",
+		"de": "Tanhel"
+	},
+	"hp": 100,
+	"illustrator": "Kazuma Koda",
+	"name": {
+		"de": "Metang",
+		"en": "Metang",
+		"es": "Metang",
+		"fr": "Métang",
+		"it": "Metang",
+		"pt": "Metang"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "swsh4",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

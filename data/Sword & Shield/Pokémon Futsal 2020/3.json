@@ -1,0 +1,39 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Tenacious Defense"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, the Defending Pokémon can't retreat."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Leaf"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+	},
+	"illustrator": "The Pokémon Company Art Team",
+	"name": {
+		"en": "Grookey on the Ball"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"set": "fut2020",
+	"stage": "Basic"
+}

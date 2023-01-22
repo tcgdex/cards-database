@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Curiosity",
+				"fr": "Curiosité"
+			},
+			"effect": {
+				"en": "Look at your opponent's hand.",
+				"fr": "Regardez la main de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Snowball Fight",
+				"fr": "Bataille de boules de neige"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, Snover does 10 damage to itself.",
+				"fr": "Lancez une pièce. Si c'est pile, Blizzi s'inflige 10 dégâts."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
+	},
+	"dexId": [
+		459
+	],
+	"hp": 60,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Snover",
+		"fr": "Blizzi"
+	},
+	"rarity": "Common",
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+10"
+		}
+	]
+}

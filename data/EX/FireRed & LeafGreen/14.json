@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Strange Behavior",
+				"fr": "Comportement étrange"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to Slowbro as long as you don't Knock Out Slowbro. This power can't be used if Slowbro is affected by a Special Condition.",
+				"fr": "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégât d'1 de vos Pokémon sur Flagadoss, tant que vous ne mettez pas Flagadoss K.O. Ce pouvoir ne peut être utilisé si Flagadoss est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyshock",
+				"fr": "Choc psy"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		80
+	],
+	"evolveFrom": {
+		"en": "Slowpoke"
+	},
+	"hp": 60,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"en": "Slowbro",
+		"fr": "Flagadoss"
+	},
+	"rarity": "Rare",
+	"set": "ex6",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

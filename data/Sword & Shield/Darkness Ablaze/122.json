@@ -1,0 +1,92 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Knock Away",
+				"fr": "Asticotage",
+				"es": "Derribar",
+				"it": "Scaraventa",
+				"pt": "Jogar Longe",
+				"de": "Zurückschlagen"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				"es": "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				"it": "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				"pt": "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				"de": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+			},
+			"damage": "30+"
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunge Out",
+				"fr": "Allonger",
+				"es": "Arremeter",
+				"it": "Affondo Lungo",
+				"pt": "Bote",
+				"de": "Sprungangriff"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It habitually shows off its strength with the sparks it creates by ramming its steel body into boulders."
+	},
+	"evolveFrom": {
+		"en": "Aron",
+		"fr": "Galekid",
+		"es": "Aron",
+		"it": "Aron",
+		"pt": "Aron",
+		"de": "Stollunior"
+	},
+	"hp": 100,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Stollrak",
+		"en": "Lairon",
+		"es": "Lairon",
+		"fr": "Galegon",
+		"it": "Lairon",
+		"pt": "Lairon"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "swsh3",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

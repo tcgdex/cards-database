@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revólver d'Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 10,
+			"cost": [
+				"Water"
+			]
+		},
+		{
+			"name": {
+				"en": "Sharp Fin",
+				"fr": "Aileron Aiguisé",
+				"es": "Cortaleta",
+				"it": "Pinnaffilata",
+				"pt": "Barbatana Afiada",
+				"de": "Schneidige Flosse"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
+	},
+	"hp": 60,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Remoraid",
+		"en": "Remoraid",
+		"es": "Remoraid",
+		"fr": "Rémoraid",
+		"it": "Remoraid",
+		"pt": "Remoraid"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

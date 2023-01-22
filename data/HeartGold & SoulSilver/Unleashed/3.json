@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Deep Sea Swirl",
+				"fr": "Remous abyssal"
+			},
+			"effect": {
+				"en": "Shuffle your hand into your deck. Then, draw 5 cards.",
+				"fr": "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes."
+			}
+		},
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse vague"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
+	},
+	"dexId": [
+		490
+	],
+	"hp": 60,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Manaphy",
+		"fr": "Manaphy"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "hgss2",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

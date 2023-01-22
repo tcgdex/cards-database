@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"name": {
+				"fr": "[Increase]"
+			},
+			"effect": {
+				"fr": "Quand vous jouez Zarbi [I] depuis votre main, vous pouvez chercher dans votre deck une autre carte Zarbi et la placer sur votre Banc. Mélangez ensuite votre deck. Vous ne pouvez pas utiliser ce pouvoir si votre Banc est plein."
+			},
+			"type": "Pokemon Power"
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Hidden Power",
+				"fr": "Puissance cachée"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+	},
+	"dexId": [
+		201
+	],
+	"hp": 40,
+	"illustrator": "CR CG gangs",
+	"name": {
+		"en": "Unown [I]",
+		"fr": "Zarbi I"
+	},
+	"rarity": "Common",
+	"set": "neo2",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

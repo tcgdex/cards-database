@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 124,
+	"id": "xy10",
+	"name": {
+		"de": "Schicksalsschmiede",
+		"en": "Fates Collide",
+		"es": "Destinos Enfrentados",
+		"fr": "Impact des Destins",
+		"it": "Destini Incrociati",
+		"pt": "Fusão de Destinos"
+	},
+	"releaseDate": "2016-05-02",
+	"serie": "xy",
+	"tcgOnline": "FCO"
+}

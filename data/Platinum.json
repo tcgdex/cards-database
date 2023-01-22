@@ -1,0 +1,21 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"energies": [
+		"Darkness",
+		"Fighting",
+		"Fire",
+		"Grass",
+		"Lightning",
+		"Metal",
+		"Psychic",
+		"Water"
+	],
+	"id": "pl",
+	"name": {
+		"de": "Platin",
+		"en": "Platinum",
+		"es": "Platino",
+		"fr": "Platine",
+		"it": "Platino"
+	}
+}

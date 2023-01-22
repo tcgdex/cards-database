@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 181,
+	"id": "sm9",
+	"name": {
+		"de": "Teams Sind Trumpf",
+		"en": "Team Up",
+		"es": "Union de Aliados",
+		"fr": "Duo de Choc",
+		"it": "Gioco di Squadra",
+		"pt": "União de Aliados"
+	},
+	"releaseDate": "2019-01-31",
+	"serie": "sm",
+	"tcgOnline": "TEU"
+}

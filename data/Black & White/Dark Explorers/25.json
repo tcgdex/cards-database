@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Muddy Water"
+			},
+			"effect": {
+				"en": "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spiral Drain"
+			},
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		134
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 110,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Aquana",
+		"en": "Vaporeon",
+		"es": "Vaporeon",
+		"fr": "Aquali",
+		"it": "Vaporeon",
+		"pt": "Vaporeon"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

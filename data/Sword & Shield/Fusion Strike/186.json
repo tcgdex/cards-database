@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Unlock"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "Draw 2 cards."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements."
+	},
+	"hp": 70,
+	"illustrator": "MAHOU",
+	"name": {
+		"de": "Clavion",
+		"en": "Klefki",
+		"es": "Klefki",
+		"fr": "Trousselin",
+		"it": "Klefki",
+		"pt": "Klefki"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

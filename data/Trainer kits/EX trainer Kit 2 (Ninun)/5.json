@@ -1,0 +1,30 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Minor Errand-Running"
+			},
+			"effect": {
+				"en": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+			}
+		},
+		{
+			"name": {
+				"en": "Quick Attack"
+			},
+			"damage": "10+",
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Mareep"
+	},
+	"rarity": "None",
+	"set": "tk-ex-n",
+	"stage": "Basic"
+}

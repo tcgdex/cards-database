@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		363
+	],
+	"hp": 60,
+	"illustrator": "Sanosuke Sakuma",
+	"name": {
+		"en": "Team Aqua's Spheal",
+		"fr": "Obalie de la Team Aqua"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "dc1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

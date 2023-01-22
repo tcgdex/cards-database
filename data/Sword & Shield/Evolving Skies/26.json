@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Gentle Slap",
+				"fr": "Gifle Douce",
+				"es": "Bofetada Gentil",
+				"it": "Schiaffetto",
+				"pt": "Gentle Slap",
+				"de": "Sanfter Hieb"
+			},
+			"damage": 30,
+			"cost": [
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its body is 99% water. The remaining 1% contains the organ that makes its poison."
+	},
+	"dexId": [
+		72
+	],
+	"hp": 60,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Tentacha",
+		"en": "Tentacool",
+		"es": "Tentacool",
+		"fr": "Tentacool",
+		"it": "Tentacool",
+		"pt": "Tentacool"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

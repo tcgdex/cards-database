@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vise Grip"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Head Bolt"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its digestive processes convert the leaves it eats into electricity. An electric sac in its belly stores the electricity for later use."
+	},
+	"evolveFrom": {
+		"en": "Grubbin",
+		"fr": "Larvibule",
+		"es": "Grubbin",
+		"it": "Grubbin",
+		"pt": "Grubbin",
+		"de": "Mabula"
+	},
+	"hp": 100,
+	"illustrator": "sowsow",
+	"name": {
+		"de": "Akkup",
+		"en": "Charjabug",
+		"es": "Charjabug",
+		"fr": "Chrysapile",
+		"it": "Charjabug",
+		"pt": "Charjabug"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wing Attack",
+				"fr": "Cru-Aile",
+				"es": "Ataque Ala",
+				"it": "Attacco d'Ala",
+				"pt": "Ataque de Asa",
+				"de": "Flügelschlag"
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion Blast",
+				"fr": "Explo-Combustion",
+				"es": "Estallido Fuego",
+				"it": "Combustibomba",
+				"pt": "Explosão de Combustão",
+				"de": "Brandbombe"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Combustion Blast during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
+				"es": "Este Pokémon no puede usar Estallido Fuego durante tu próximo turno.",
+				"it": "Durante il tuo prossimo turno, questo Pokémon non può usare Combustibomba.",
+				"pt": "Este Pokémon não poderá usar Explosão de Combustão durante sua próxima vez de jogar.",
+				"de": "Dieses Pokémon kann Brandbombe während deines nächsten Zuges nicht einsetzen."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		6
+	],
+	"hp": 180,
+	"illustrator": "PLANETA",
+	"name": {
+		"de": "Glurak EX",
+		"en": "Charizard EX",
+		"es": "Charizard EX",
+		"fr": "Dracaufeu EX",
+		"it": "Charizard EX",
+		"pt": "Charizard EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "xy2",
+	"stage": "Basic",
+	"suffix": "EX",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

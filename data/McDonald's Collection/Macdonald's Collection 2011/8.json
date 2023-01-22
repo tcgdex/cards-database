@@ -1,0 +1,35 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Sand Tomb"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun."
+	},
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Sandile"
+	},
+	"rarity": "None",
+	"set": "2011bw",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

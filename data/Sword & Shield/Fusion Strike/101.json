@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bite"
+			},
+			"damage": 70
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electro Blaster"
+			},
+			"effect": {
+				"en": "Discard 2 Lightning Energy from this Pokémon. This attack does 200 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If it carries a Charjabug to use as a spare battery, a flying Vikavolt can rapidly fire high-powered beams of electricity."
+	},
+	"evolveFrom": {
+		"en": "Charjabug",
+		"fr": "Chrysapile",
+		"es": "Charjabug",
+		"it": "Charjabug",
+		"pt": "Charjabug",
+		"de": "Akkup"
+	},
+	"hp": 150,
+	"illustrator": "nagimiso",
+	"name": {
+		"de": "Donarion",
+		"en": "Vikavolt",
+		"es": "Vikavolt",
+		"fr": "Lucanon",
+		"it": "Vikavolt",
+		"pt": "Vikavolt"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 0,
+	"set": "swsh8",
+	"stage": "Stage2",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

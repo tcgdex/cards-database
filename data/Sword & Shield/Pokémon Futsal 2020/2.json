@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Make the Assist"
+			},
+			"effect": {
+				"en": "Attach a basic Energy card from your hand to 1 of your Benched Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+	"illustrator": "The Pokémon Company Art Team",
+	"name": {
+		"en": "Eevee on the Ball"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"set": "fut2020",
+	"stage": "Basic"
+}

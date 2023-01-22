@@ -1,0 +1,37 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Psykiss",
+				"fr": "Psy'bisou"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose a Special Energy card attached to 1 of your opponent's Pokémon. Your opponent shuffles that card into his or her deck.",
+				"fr": "Lancez une pièce. Si c'est face, choisissez une carte Énergie Spéciale attachée à l'un des Pokémon de votre adversaire. Votre adversaire mélange ensuite cette carte à son deck."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il remue toujours la tête d'avant en arrière comme s'il essayait de faire des bisous."
+	},
+	"dexId": [
+		238
+	],
+	"hp": 30,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Smoochum",
+		"fr": "Lippouti"
+	},
+	"rarity": "Common",
+	"set": "neo3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	]
+}

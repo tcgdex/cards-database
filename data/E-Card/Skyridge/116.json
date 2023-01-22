@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Agility"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, during your opponent's next turn prevent all effects of attacks, including damage, done to Yanma."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Triple Smash"
+			},
+			"effect": {
+				"en": "Flip 3 coins. This attack does 20 damage plus 10 more damage for each heads."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		193
+	],
+	"hp": 60,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"en": "Yanma"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ecard3",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

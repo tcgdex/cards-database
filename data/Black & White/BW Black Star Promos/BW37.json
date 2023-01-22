@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Frozen Wings",
+				"fr": "Ailes Gelées"
+			},
+			"effect": {
+				"en": "Discard a Special Energy attached to the Defending Pokémon.",
+				"fr": "Défaussez une Énergie spéciale attachée au Pokémon Défenseur."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hail Blizzard",
+				"fr": "Tempêtegrêle"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Hail Blizzard during your next turn.",
+				"fr": "Ce Pokémon ne peut pas utiliser Tempêtegrêle pendant votre prochain tour."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		646
+	],
+	"hp": 180,
+	"illustrator": "Shizurow",
+	"name": {
+		"en": "Kyurem-EX",
+		"fr": "Kyurem ex"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bwp",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

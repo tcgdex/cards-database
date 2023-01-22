@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "G-Max Cuddle"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn't happen."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		133
+	],
+	"evolveFrom": {
+		"en": "Eevee V"
+	},
+	"hp": 300,
+	"illustrator": "PLANETA Mochizuki",
+	"name": {
+		"en": "Eevee VMAX"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swshp",
+	"stage": "VMAX",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

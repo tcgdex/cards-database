@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hopping Shot"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It's notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs."
+	},
+	"evolveFrom": {
+		"en": "Buneary",
+		"fr": "Laporeille",
+		"es": "Buneary",
+		"it": "Buneary",
+		"pt": "Buneary",
+		"de": "Haspiror"
+	},
+	"hp": 110,
+	"illustrator": "AKIRA EGAWA",
+	"name": {
+		"de": "Schlapor",
+		"en": "Lopunny",
+		"es": "Lopunny",
+		"fr": "Lockpin",
+		"it": "Lopunny",
+		"pt": "Lopunny"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

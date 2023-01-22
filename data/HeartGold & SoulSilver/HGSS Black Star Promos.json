@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 25,
+	"id": "hgssp",
+	"name": {
+		"de": "Promo HGSS",
+		"en": "HGSS Black Star Promos",
+		"es": "HGSS Black Star Promos",
+		"fr": "Promo HGSS",
+		"it": "HGSS Promo"
+	},
+	"releaseDate": "2010-02-11",
+	"serie": "hgss",
+	"tcgOnline": "PR-HS"
+}

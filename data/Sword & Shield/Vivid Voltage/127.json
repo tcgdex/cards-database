@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Max Hack",
+				"fr": "Taillomax",
+				"es": "Maxitajada",
+				"it": "Dynataglio",
+				"pt": "Ceifada Max",
+				"de": "Dyna-Hieb"
+			},
+			"effect": {
+				"en": "This attack does 30 more damage for each Prize card you have taken.",
+				"fr": "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
+				"es": "Este ataque hace 30 puntos de daño más por cada carta de Premio que hayas cogido.",
+				"it": "Questo attacco infligge 30 danni in più per ogni carta Premio che hai preso.",
+				"pt": "Este ataque causa 30 pontos de dano a mais para cada carta de Prêmio que você pegou.",
+				"de": "Diese Attacke fügt für jede von dir genommene Preiskarte 30 Schadenspunkte mehr zu."
+			},
+			"damage": "160+"
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Aegislash V",
+		"fr": "Exagide-V",
+		"es": "Aegislash V",
+		"it": "Aegislash-V",
+		"pt": "Aegislash V",
+		"de": "Durengard-V"
+	},
+	"hp": 320,
+	"illustrator": "aky CG Works",
+	"name": {
+		"de": "Durengard VMAX",
+		"en": "Aegislash VMAX",
+		"es": "Aegislash VMAX",
+		"fr": "Exagide VMAX",
+		"it": "Aegislash VMAX",
+		"pt": "Aegislash VMAX"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "swsh4",
+	"stage": "VMAX",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pay Day"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "Draw a card."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It washes its face regularly to keep the coin on its forehead spotless. It doesn't get along with Galarian Meowth."
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"de": "Mauzi",
+		"en": "Meowth",
+		"es": "Meowth",
+		"fr": "Miaouss",
+		"it": "Meowth",
+		"pt": "Meowth"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

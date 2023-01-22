@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Knuckle Punch",
+				"fr": "Coud'phalange"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il s'aide de ses bras pour gravir les pentes des montagnes les plus raides. Il fait tourner ses poings s'il est en colère."
+	},
+	"dexId": [
+		74
+	],
+	"hp": 40,
+	"illustrator": "Masako Yamashita",
+	"name": {
+		"en": "Geodude",
+		"fr": "Racaillou"
+	},
+	"rarity": "Common",
+	"set": "neo3",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

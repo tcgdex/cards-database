@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slap Down",
+				"fr": "Écraser"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 20 damage plus 10 more damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque côté face."
+			},
+			"damage": "20+"
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Slap Push",
+				"fr": "Gifle"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit."
+	},
+	"dexId": [
+		296
+	],
+	"hp": 70,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Makuhita",
+		"fr": "Makuhita"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "hgss3",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

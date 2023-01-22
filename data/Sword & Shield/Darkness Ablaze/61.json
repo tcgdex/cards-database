@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Allure",
+				"fr": "Allure",
+				"es": "Atractivo",
+				"it": "Affascinante",
+				"pt": "Fascinar",
+				"de": "Verlockung"
+			},
+			"effect": {
+				"en": "Draw 2 cards.",
+				"fr": "Piochez 2 cartes.",
+				"es": "Roba 2 cartas.",
+				"it": "Pesca due carte.",
+				"pt": "Compre 2 cartas.",
+				"de": "Ziehe 2 Karten."
+			}
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electric Ball",
+				"fr": "Boule de Foudre",
+				"es": "Bola Eléctrica",
+				"it": "Lamposfera",
+				"pt": "Bola de Eletricidade",
+				"de": "Stromball"
+			},
+			"damage": 110
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time."
+	},
+	"hp": 110,
+	"illustrator": "Hasuno",
+	"name": {
+		"de": "Kapu-Riki",
+		"en": "Tapu Koko",
+		"es": "Tapu Koko",
+		"fr": "Tokorico",
+		"it": "Tapu Koko",
+		"pt": "Tapu Koko"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"retreat": 0,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

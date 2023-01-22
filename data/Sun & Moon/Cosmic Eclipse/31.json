@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Live Coal",
+				"fr": "Charbon Mutant",
+				"es": "Carbón Activado",
+				"it": "Carboni Ardenti",
+				"pt": "Carvão Vivo",
+				"de": "Glühende Kohlen"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade",
+				"es": "Desenrollar",
+				"it": "Rotolamento",
+				"pt": "Rolagem",
+				"de": "Walzer"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		498
+	],
+	"hp": 80,
+	"illustrator": "Mina Nakai",
+	"name": {
+		"de": "Floink",
+		"en": "Tepig",
+		"es": "Tepig",
+		"fr": "Gruikui",
+		"it": "Tepig",
+		"pt": "Tepig"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

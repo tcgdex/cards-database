@@ -1,0 +1,83 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Tool Concealment",
+				"fr": "Outil Masqué",
+				"es": "Ocultación de Herramientas",
+				"it": "Nascondioggetto",
+				"pt": "Esconderijo de Ferramentas",
+				"de": "Ausrüstungsversteck"
+			},
+			"effect": {
+				"en": "Each Pokémon Tool card in play has no effect.",
+				"fr": "Chaque carte Outil Pokémon en jeu n'a aucun effet.",
+				"es": "Las cartas de Herramienta en juego no tienen efecto.",
+				"it": "Nessuna carta Oggetto Pokémon in gioco ha effetto.",
+				"pt": "Cada um dos cards de Ferramenta Pokémon em jogo não tem efeito.",
+				"de": "Alle Pokémon-Ausrüstungen im Spiel haben keine Wirkung."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psyshot",
+				"fr": "Piqûre Psy",
+				"es": "Disparo Psi",
+				"it": "Psicosparo",
+				"pt": "Tiro Psíquico",
+				"de": "Psychoschuss"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		354
+	],
+	"evolveFrom": {
+		"en": "Shuppet",
+		"fr": "Polichombr",
+		"es": "Shuppet",
+		"it": "Shuppet",
+		"pt": "Shuppet",
+		"de": "Shuppet"
+	},
+	"hp": 80,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"de": "Banette",
+		"en": "Banette",
+		"es": "Banette",
+		"fr": "Branette",
+		"it": "Banette",
+		"pt": "Banette"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy6",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

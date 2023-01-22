@@ -1,0 +1,29 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Pound"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		147
+	],
+	"hp": 40,
+	"illustrator": "Sachiko Adachi",
+	"name": {
+		"en": "Dratini"
+	},
+	"rarity": "Common",
+	"set": "ex7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	]
+}

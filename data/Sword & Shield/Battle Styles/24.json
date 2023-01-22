@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Aríete",
+				"de": "Ramme"
+			},
+			"damage": 30,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise",
+				"es": "Combustión",
+				"it": "Fuoco Continuo",
+				"pt": "Combustão",
+				"de": "Glühen"
+			},
+			"damage": 90,
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
+	},
+	"evolveFrom": {
+		"en": "Tepig",
+		"fr": "Gruikui",
+		"es": "Tepig",
+		"it": "Tepig",
+		"pt": "Tepig",
+		"de": "Floink"
+	},
+	"hp": 100,
+	"illustrator": "tetsuya koizumi",
+	"name": {
+		"de": "Ferkokel",
+		"en": "Pignite",
+		"es": "Pignite",
+		"fr": "Grotichon",
+		"it": "Pignite",
+		"pt": "Pignite"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh5",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

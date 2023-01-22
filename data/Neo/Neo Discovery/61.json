@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Burst",
+				"fr": "Explosion"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, Pineco does 40 damage to itself and 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If tails, this attack does nothing (not even damage).",
+				"fr": "Lancez une pièce. Si c'est face, Pomdepik s'inflige 40 dégâts et inflige 10 dégâts à chaque Pokémon du Banc de chaque joueur. (N'appliquez pas la Faiblesse et la Résistance pour les Pokémon du Banc.) Lancez une pièce. Si c'est face, cette attaque ne fait rien (pas même de dégâts)."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il aime faire épaissir sa carapace en y ajoutant des couches d'écorce. Le poids supplémentaire ne le dérange pas."
+	},
+	"dexId": [
+		204
+	],
+	"hp": 40,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Pineco",
+		"fr": "Pomdepik"
+	},
+	"rarity": "Common",
+	"set": "neo2",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Imposter Professor Oak"
+	},
+	"rarity": "Ultra Rare",
+	"set": "cel25",
+	"trainerType": "Supporter"
+}

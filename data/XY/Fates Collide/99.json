@@ -1,0 +1,24 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Soignez 50 dégâts à l'un de vos Pokémon auquel de l'Énergie Fairy est attachée.",
+		"en": "Heal 50 damage from 1 of your Pokémon that has any Fairy Energy attached to it.",
+		"es": "Cura 50 puntos de daño a 1 de tus Pokémon que tenga alguna Energía Fairy unida a él.",
+		"it": "Cura da 50 danni uno dei tuoi Pokémon che abbia delle Energie Fairy assegnate.",
+		"pt": "Cure 50 de danos de 1 dos seus Pokémon que possua qualquer Energia Fairy ligada a ele.",
+		"de": "Heile 50 Schadenspunkte bei 1 deiner Pokémon, an das Fairy-Energie angelegt ist."
+	},
+	"illustrator": "Toyste Beach",
+	"name": {
+		"de": "Feentropfen",
+		"en": "Fairy Drop",
+		"es": "Bolitas Hada",
+		"fr": "Pastilles Féériques",
+		"it": "Goccia Fatata",
+		"pt": "Bolinha de Fada"
+	},
+	"rarity": "Uncommon",
+	"set": "xy10",
+	"trainerType": "Item"
+}

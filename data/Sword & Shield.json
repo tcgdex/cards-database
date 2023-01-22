@@ -1,0 +1,23 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"energies": [
+		"Darkness",
+		"Dragon",
+		"Fighting",
+		"Fire",
+		"Grass",
+		"Lightning",
+		"Metal",
+		"Psychic",
+		"Water"
+	],
+	"id": "swsh",
+	"name": {
+		"de": "Schwert & Schild",
+		"en": "Sword & Shield",
+		"es": "Espada y Escudo",
+		"fr": "Épée et Bouclier",
+		"it": "Spada e Scudo",
+		"pt": "Espada e Escudo"
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Searing Flame",
+				"fr": "Flammes calcinantes"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned.",
+				"fr": "Le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Combustion",
+				"fr": "Fournaise"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		117
+	],
+	"evolveFrom": {
+		"en": "Horsea"
+	},
+	"hp": 70,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Seadra δ",
+		"fr": "Hypocéan δ ESPÈCES DELTA"
+	},
+	"rarity": "Uncommon",
+	"set": "ex13",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

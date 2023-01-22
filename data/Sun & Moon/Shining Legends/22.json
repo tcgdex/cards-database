@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Fin",
+				"fr": "Aileron-Rasoir",
+				"es": "Aleta Afilada",
+				"it": "Pinnalama",
+				"pt": "Barbatana Cortante",
+				"de": "Rasierflosse"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revólver d’Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		418
+	],
+	"hp": 60,
+	"illustrator": "Sekio",
+	"name": {
+		"de": "Bamelin",
+		"en": "Buizel",
+		"es": "Buizel",
+		"fr": "Mustébouée",
+		"it": "Buizel",
+		"pt": "Buizel"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm3.5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

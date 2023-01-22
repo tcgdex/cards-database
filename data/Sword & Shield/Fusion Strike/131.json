@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Dig It Up"
+			},
+			"effect": {
+				"en": "Look at the top card of your deck. You may discard that card."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Let's All Rollout"
+			},
+			"damage": "20×",
+			"effect": {
+				"en": "This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out."
+	},
+	"hp": 60,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Sandan",
+		"en": "Sandshrew",
+		"es": "Sandshrew",
+		"fr": "Sabelette",
+		"it": "Sandshrew",
+		"pt": "Sandshrew"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

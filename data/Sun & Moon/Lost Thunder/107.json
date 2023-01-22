@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Eye Opener",
+				"fr": "Ouvrir les Yeux",
+				"es": "Bebida Amanecer",
+				"it": "Sbirciata",
+				"pt": "Olhos Abertos",
+				"de": "Spähen"
+			},
+			"effect": {
+				"en": "Look at your face-down Prize cards.",
+				"fr": "Regardez vos cartes Récompense (actuellement face cachée).",
+				"es": "Mira tus cartas de Premio que están boca abajo.",
+				"it": "Guarda le tue carte Premio coperte.",
+				"pt": "Olhe as suas cartas de Prêmio viradas para baixo.",
+				"de": "Sieh dir deine verdeckten Preiskarten an."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Peck",
+				"fr": "Picpic",
+				"es": "Picotazo",
+				"it": "Beccata",
+				"pt": "Bicada",
+				"de": "Schnabel"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		803
+	],
+	"hp": 70,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Venicro",
+		"en": "Poipole",
+		"es": "Poipole",
+		"fr": "Vémini",
+		"it": "Poipole",
+		"pt": "Poipole"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

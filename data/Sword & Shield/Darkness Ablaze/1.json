@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Dizzying Poison",
+				"fr": "Poison Étourdissant",
+				"es": "Veneno Mareante",
+				"it": "Stordiveleno",
+				"pt": "Veneno Vertiginoso",
+				"de": "Schwindelerregendes Gift"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blasting Wind",
+				"fr": "Vent Impitoyable",
+				"es": "Vientos Explosivos",
+				"it": "Vento Distruttivo",
+				"pt": "Vendaval Avassalador",
+				"de": "Peitschender Wind"
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"hp": 190,
+	"illustrator": "Saki Hayashiro",
+	"name": {
+		"de": "Smettbo V",
+		"en": "Butterfree V",
+		"es": "Butterfree V",
+		"fr": "Papilusion V",
+		"it": "Butterfree V",
+		"pt": "Butterfree V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh3",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

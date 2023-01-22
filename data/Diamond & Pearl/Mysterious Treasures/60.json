@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fireworks",
+				"fr": "Feux d'artifice"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, discard a Fire Energy attached to Quilava.",
+				"fr": "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Feurisson."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "La chaleur de ses flammes intimide l'ennemi. Elles s'intensifient lorsqu'il se prépare à combattre."
+	},
+	"dexId": [
+		156
+	],
+	"evolveFrom": {
+		"en": "Cyndaquil"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Quilava",
+		"fr": "Feurisson"
+	},
+	"rarity": "Uncommon",
+	"set": "dp2",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "+20"
+		}
+	]
+}

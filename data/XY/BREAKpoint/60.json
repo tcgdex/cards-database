@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Stab",
+				"fr": "Blessure",
+				"es": "Puñalada",
+				"it": "Pugnalata",
+				"pt": "Facada",
+				"de": "Stich"
+			},
+			"effect": {
+				"en": "Put 1 damage counter on your opponent's Active Pokémon.",
+				"fr": "Placez 1 marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+				"es": "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
+				"it": "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
+				"pt": "Coloque 1 contador de danos no Pokémon Ativo do seu oponente.",
+				"de": "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		679
+	],
+	"hp": 60,
+	"illustrator": "kawayoo",
+	"name": {
+		"de": "Gramokles",
+		"en": "Honedge",
+		"es": "Honedge",
+		"fr": "Monorpale",
+		"it": "Honedge",
+		"pt": "Honedge"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "xy9",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

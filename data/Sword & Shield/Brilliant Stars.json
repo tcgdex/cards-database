@@ -1,0 +1,15 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 172,
+	"id": "swsh9",
+	"name": {
+		"de": "Strahlende Sterne",
+		"en": "Brilliant Stars",
+		"es": "Astros Brillantes",
+		"fr": "Stars Étincelantes",
+		"it": "Astri Lucenti",
+		"pt": "Astros Cintilantes"
+	},
+	"releaseDate": "2022-02-25",
+	"serie": "swsh"
+}

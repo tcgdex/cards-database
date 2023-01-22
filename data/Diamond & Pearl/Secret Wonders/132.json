@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Feint Attack",
+				"fr": "Feinte"
+			},
+			"effect": {
+				"en": "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				"fr": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Darkness Wing",
+				"fr": "Battement obscur"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon would be Knocked Out by damage from this attack, you may search your discard pile for any 1 card, show it to your opponent, and put it into your hand.",
+				"fr": "Si les dégâts de cette attaque mettent K.O le Pokémon Défenseur, vous pouvez choisir n'importe quelle carte dans votre pile de défausse. Montrez-la à votre adversaire et placez-la dans votre main."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		430
+	],
+	"hp": 110,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Honchkrow",
+		"fr": "Corboss"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"set": "dp3",
+	"stage": "LEVEL-UP",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+30"
+		}
+	]
+}

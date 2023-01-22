@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Regardez la main de votre adversaire et choisissez-y une carte. Votre adversaire mélange cette carte à son deck. Il peut ensuite piocher jusqu'à 2 cartes."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Team Rocket's Evil Deeds",
+		"fr": "Mauvaises actions des Team Rocket"
+	},
+	"rarity": "Uncommon",
+	"set": "neo4"
+}

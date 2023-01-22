@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Telekinesis",
+				"fr": "Lévikinésie"
+			},
+			"effect": {
+				"en": "This attack does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				"fr": "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dream Waltz",
+				"fr": "Valse Rêveuse"
+			},
+			"effect": {
+				"en": "This attack can be used even if this Pokémon is Asleep. If this Pokémon is Asleep, this attack does 30 more damage.",
+				"fr": "Cette attaque peut être utilisée même si ce Pokémon est Endormi. Si ce Pokémon est Endormi, cette attaque inflige 30 dégâts supplémentaires."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		518
+	],
+	"evolveFrom": {
+		"en": "Munna",
+		"fr": "Munna"
+	},
+	"hp": 100,
+	"illustrator": "Satoshi Shirai",
+	"name": {
+		"de": "Somnivora",
+		"en": "Musharna",
+		"es": "Musharna",
+		"fr": "Mushana",
+		"it": "Musharna",
+		"pt": "Musharna"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

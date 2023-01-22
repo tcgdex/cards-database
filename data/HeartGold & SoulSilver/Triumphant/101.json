@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": ""
+			},
+			"effect": {
+				"fr": "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l’autre moitié de Palkia & Dialga LÉGENDE."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		483
+	],
+	"hp": 160,
+	"illustrator": "Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子",
+	"name": {
+		"en": "Palkia & Dialga LEGEND",
+		"fr": "Palkia & Dialga LÉGENDE"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 0,
+	"set": "hgss4",
+	"stage": "Basic",
+	"suffix": "Legend",
+	"types": [
+		"Water",
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Stun Needle",
+				"fr": "Para-Dard",
+				"es": "Aguja Paralizante",
+				"it": "Ago Paralizzante",
+				"pt": "Agulha Estonteante",
+				"de": "Betäubungsnadel"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Shocking Pursuit",
+				"fr": "Poursuite Choquante",
+				"es": "Persecución Electrizante",
+				"it": "Inseguimento Fulminante",
+				"pt": "Perseguição Eletrizante",
+				"de": "Elektrojagd"
+			},
+			"effect": {
+				"en": "This attack does 20 damage for each damage counter on your opponent's Active Pokémon.",
+				"fr": "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
+				"es": "Este ataque hace 20 puntos de daño por cada contador de daño en el Pokémon Activo de tu rival.",
+				"it": "Questo attacco infligge 20 danni per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+				"pt": "Este ataque causa 20 pontos de dano para cada contador de dano no Pokémon Ativo do seu oponente.",
+				"de": "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 20 Schadenspunkte zu."
+			},
+			"damage": "20×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis."
+	},
+	"evolveFrom": {
+		"en": "Joltik",
+		"fr": "Statitik",
+		"es": "Joltik",
+		"it": "Joltik",
+		"pt": "Joltik",
+		"de": "Wattzapf"
+	},
+	"hp": 90,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Voltula",
+		"en": "Galvantula",
+		"es": "Galvantula",
+		"fr": "Mygavolt",
+		"it": "Galvantula",
+		"pt": "Galvantula"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

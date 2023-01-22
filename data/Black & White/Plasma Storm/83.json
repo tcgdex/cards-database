@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scout",
+				"fr": "Espionnage"
+			},
+			"effect": {
+				"en": "Your opponent reveals his or her hand.",
+				"fr": "Votre adversaire montre sa main."
+			}
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fasten Claws",
+				"fr": "Griffes Accrochantes"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 10 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		509
+	],
+	"hp": 50,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"de": "Felilou",
+		"en": "Purrloin",
+		"es": "Purrloin",
+		"fr": "Chacripan",
+		"it": "Purrloin",
+		"pt": "Purrloin"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

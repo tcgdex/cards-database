@@ -1,0 +1,32 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 50,
+	"name": {
+		"de": "Dusselgurr",
+		"en": "Pidove",
+		"es": "Pidove",
+		"fr": "Poichigeon",
+		"it": "Pidove",
+		"pt": "Pidove"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-bw-z",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

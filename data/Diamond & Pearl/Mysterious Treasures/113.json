@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez dans votre pile de défausse n'importe quelle combinaison de jusqu'à 3 Pokémon et cartes Énergie de base. Montrez-les à votre adversaire et mélangez-les à votre deck."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Night Maintenance",
+		"fr": "Maintenance nocturne"
+	},
+	"rarity": "Uncommon",
+	"set": "dp2",
+	"trainerType": "Item"
+}

@@ -1,0 +1,88 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Soothing Scent",
+				"fr": "Senteur Apaisante",
+				"es": "Aroma Sedante",
+				"it": "Aroma Calmante",
+				"pt": "Odor Calmante",
+				"de": "Beruhigender Duft"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			},
+			"damage": 80
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Megaton Lariat",
+				"fr": "Lasso Titanesque",
+				"es": "Lazo Megatón",
+				"it": "Lazo Megatonico",
+				"pt": "Lariat Megaton",
+				"de": "Megatonnenlasso"
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers."
+	},
+	"evolveFrom": {
+		"en": "Snover",
+		"fr": "Blizzi",
+		"es": "Snover",
+		"it": "Snover",
+		"pt": "Snover",
+		"de": "Shnebedeck"
+	},
+	"hp": 140,
+	"illustrator": "Kazuma Koda",
+	"name": {
+		"de": "Rexblisar",
+		"en": "Abomasnow",
+		"es": "Abomasnow",
+		"fr": "Blizzaroi",
+		"it": "Abomasnow",
+		"pt": "Abomasnow"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"retreat": 3,
+	"set": "swsh2",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Pound",
+				"fr": "Écras'Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Klaps"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Spinning Whip",
+				"fr": "Fouet Tournant",
+				"es": "Látigo Giratorio",
+				"it": "Frustata Rotante",
+				"pt": "Chicote Giratório",
+				"de": "Wirbelpeitsche"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused. Shuffle this Pokémon and all attached cards into your deck.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus. Mélangez dans votre deck ce Pokémon et toutes les cartes attachées.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido. Pon este Pokémon y todas las cartas unidas a él en tu baraja, y baraja todas las cartas.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso. Rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso. Embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Mische dieses Pokémon und alle angelegten Karten in dein Deck."
+			},
+			"damage": 90,
+			"cost": [
+				"Fighting",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When Mienshao lets out a bizarre wail, you're in danger. A flurry of kicks and chops too fast to see is about to be unleashed!"
+	},
+	"evolveFrom": {
+		"en": "Mienfoo",
+		"fr": "Kungfouine",
+		"es": "Mienfoo",
+		"it": "Mienfoo",
+		"pt": "Mienfoo",
+		"de": "Lin-Fu"
+	},
+	"hp": 90,
+	"illustrator": "Taira Akitsu",
+	"name": {
+		"de": "Wie-Shu",
+		"en": "Mienshao",
+		"es": "Mienshao",
+		"fr": "Shaofouine",
+		"it": "Mienshao",
+		"pt": "Mienshao"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

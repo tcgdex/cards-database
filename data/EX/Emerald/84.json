@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nChoisissez dans votre deck n'importe quelle combinaison de cartes Supporter et Stade (jusqu'à 3), montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Scott",
+		"fr": "Scott"
+	},
+	"rarity": "Uncommon",
+	"set": "ex9",
+	"trainerType": "Supporter"
+}

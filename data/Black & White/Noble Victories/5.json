@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Aromax",
+				"fr": "Parfum Régénérant"
+			},
+			"effect": {
+				"en": "Heal all damage from 1 of your Benched Pokémon.",
+				"fr": "Soignez tous les dégâts de l'un de vos Pokémon de Banc."
+			}
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Windmill",
+				"fr": "Moulin à Vent"
+			},
+			"effect": {
+				"en": "Switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		549
+	],
+	"evolveFrom": {
+		"en": "Petilil",
+		"fr": "Chlorobule"
+	},
+	"hp": 80,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Dressella",
+		"en": "Lilligant",
+		"es": "Lilligant",
+		"fr": "Fragilady",
+		"it": "Lilligant",
+		"pt": "Lilligant"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Water",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

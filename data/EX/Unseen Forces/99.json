@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Shin-ichi Yoshikawa",
+	"name": {
+		"en": "Cyclone Energy",
+		"fr": "Énergie Cyclone"
+	},
+	"rarity": "Uncommon",
+	"set": "ex10"
+}

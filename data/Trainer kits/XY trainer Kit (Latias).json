@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 30,
+	"id": "tk-xy-latia",
+	"name": {
+		"en": "XY trainer Kit (Latias)",
+		"es": "Kit de Entrenador XY (Latias)",
+		"fr": "XY Kit du dresseur (Latias)",
+		"it": "XY trainer Kit (Latias)"
+	},
+	"releaseDate": "2015-04-29",
+	"serie": "tk"
+}

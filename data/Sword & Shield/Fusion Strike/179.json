@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Explosive Discontent"
+			},
+			"damage": "30×",
+			"effect": {
+				"en": "This attack does 30 damage for each damage counter on this Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds."
+	},
+	"hp": 50,
+	"illustrator": "Teeziro",
+	"name": {
+		"de": "Morpeko",
+		"en": "Morpeko",
+		"es": "Morpeko",
+		"fr": "Morpeko",
+		"it": "Morpeko",
+		"pt": "Morpeko"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

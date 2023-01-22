@@ -1,0 +1,83 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Profane Punch",
+				"fr": "Poing Vulgaire",
+				"es": "Puñetazo Profano",
+				"it": "Pugno Ribelle",
+				"pt": "Soco Profano",
+				"de": "Ruchloshieb"
+			},
+			"effect": {
+				"en": "If your Benched Pokémon have any damage counters on them, this attack does 80 more damage.",
+				"fr": "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 80 dégâts supplémentaires.",
+				"es": "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 80 puntos de daño más.",
+				"it": "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 80 danni in più.",
+				"pt": "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 80 pontos de dano a mais.",
+				"de": "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			},
+			"damage": "50+"
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flare Blitz",
+				"fr": "Boutefeu",
+				"es": "Envite Ígneo",
+				"it": "Fuococarica",
+				"pt": "Blitz de Labaredas",
+				"de": "Flammenblitz"
+			},
+			"effect": {
+				"en": "Discard all Fire Energy from this Pokémon.",
+				"fr": "Défaussez toute l’Énergie Fire de ce Pokémon.",
+				"es": "Descarta todas las Energías Fire de este Pokémon.",
+				"it": "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
+				"pt": "Descarte todas as Energias Fire deste Pokémon.",
+				"de": "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+			},
+			"damage": 180
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		727
+	],
+	"evolveFrom": {
+		"en": "Torracat",
+		"fr": "Matoufeu"
+	},
+	"hp": 170,
+	"illustrator": "Emi Ando",
+	"name": {
+		"de": "Fuegro",
+		"en": "Incineroar",
+		"es": "Incineroar",
+		"fr": "Félinferno",
+		"it": "Incineroar",
+		"pt": "Incineroar"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "sm3.5",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

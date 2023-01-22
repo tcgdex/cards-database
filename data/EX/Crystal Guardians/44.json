@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Flail",
+				"fr": "Fléau"
+			},
+			"effect": {
+				"en": "Does 10 damage times the number of damage counters on Aron.",
+				"fr": "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Galekid."
+			},
+			"damage": "10×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		304
+	],
+	"hp": 50,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"en": "Aron",
+		"fr": "Galekid"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"set": "ex14",
+	"stage": "Basic",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Scarf Hold",
+				"fr": "Kesa-Gatame"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		538
+	],
+	"hp": 90,
+	"illustrator": "match",
+	"name": {
+		"de": "Jiutesto",
+		"en": "Throh",
+		"es": "Throh",
+		"fr": "Judokrak",
+		"it": "Throh",
+		"pt": "Throh"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "bw2",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

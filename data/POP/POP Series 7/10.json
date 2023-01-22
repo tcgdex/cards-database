@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Sandy Cloak"
+			},
+			"effect": {
+				"en": "Prevent all effects of attacks, excluding damage, done to Wormadam Sandy Cloak."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Push Over"
+			},
+			"effect": {
+				"en": "Does 40 damage plus 10 more damage for each Fighting Energy attached to Wormadam Sandy Cloak."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When BURMY evolved, it cloak became a part of this Pokémon’s body. The cloak is never shed."
+	},
+	"dexId": [
+		413
+	],
+	"evolveFrom": {
+		"en": "Burmy"
+	},
+	"hp": 80,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Wormadam Sandy Cloak"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pop7",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+20"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Lancez 2 pièces. Pour chaque face, cherchez dans votre deck une carte Énergie de base. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck."
+	},
+	"name": {
+		"en": "Energy Ark",
+		"fr": "Arche d'Énergie"
+	},
+	"rarity": "Common",
+	"set": "neo2"
+}

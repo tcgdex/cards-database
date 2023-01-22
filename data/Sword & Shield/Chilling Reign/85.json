@@ -1,0 +1,88 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Double Lariat",
+				"fr": "Double Lasso",
+				"es": "Doble Lazo",
+				"it": "Doppio Lazzo",
+				"pt": "Laço Duplo",
+				"de": "Doppel-Lasso"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 90 damage for each heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
+				"es": "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
+				"it": "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
+				"pt": "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",
+				"de": "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu."
+			},
+			"damage": "90×",
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Crabhammer",
+				"fr": "Pince-Masse",
+				"es": "Martillazo",
+				"it": "Martellata",
+				"pt": "Martelo Caranguejo",
+				"de": "Krabbhammer"
+			},
+			"damage": 130,
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches."
+	},
+	"evolveFrom": {
+		"en": "Crabrawler",
+		"fr": "Crabagarre",
+		"es": "Crabrawler",
+		"it": "Crabrawler",
+		"pt": "Crabrawler",
+		"de": "Krabbox"
+	},
+	"hp": 150,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Krawell",
+		"en": "Crabominable",
+		"es": "Crabominable",
+		"fr": "Crabominable",
+		"it": "Crabominable",
+		"pt": "Crabominable"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 4,
+	"set": "swsh6",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

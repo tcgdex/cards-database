@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Powder Snow"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Asleep."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Daruma Headbutt"
+			},
+			"damage": 130,
+			"effect": {
+				"en": "If this Pokémon has any damage counters on it, this attack can be used for Water."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Though it has a gentle disposition, it's also very strong. It will quickly freeze the snowball on its head before going for a headbutt."
+	},
+	"evolveFrom": {
+		"en": "Galarian Darumaka",
+		"fr": "Darumarond de Galar",
+		"es": "Darumaka de Galar",
+		"it": "Darumaka di Galar",
+		"pt": "Darumaka de Galar",
+		"de": "Galar-Flampion"
+	},
+	"hp": 130,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Galar-Flampivian",
+		"en": "Galarian Darmanitan",
+		"es": "Darmanitan de Galar",
+		"fr": "Darumacho de Galar",
+		"it": "Darmanitan di Galar",
+		"pt": "Darmanitan de Galar"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

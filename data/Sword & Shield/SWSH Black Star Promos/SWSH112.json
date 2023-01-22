@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Crisis Power"
+			},
+			"effect": {
+				"en": "This Pokémon's attacks do 30 more damage to your opponent's Active Pokémon for each Prize card your opponent has taken (before applying Weakness and Resistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Fireball Shot"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon can't attack."
+			},
+			"damage": 150
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+	},
+	"dexId": [
+		815
+	],
+	"evolveFrom": {
+		"en": "Raboot"
+	},
+	"hp": 170,
+	"illustrator": "Anesaki Dynamic",
+	"name": {
+		"en": "Cinderace"
+	},
+	"rarity": "None",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

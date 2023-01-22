@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Poison Payback",
+				"fr": "Retour de poison"
+			},
+			"effect": {
+				"en": "If Wurmple is your Active Pokémon and is damaged by an opponent's attack (even if Wurmple is Knocked Out), the Attacking Pokémon is now Poisoned.",
+				"fr": "Si Chenipotte est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Chenipotte est mis K.O), le Pokémon Attaquant est maintenant Empoisonné."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "String Pull",
+				"fr": "Tirer sur la ficelle"
+			},
+			"effect": {
+				"en": "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
+				"fr": "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		265
+	],
+	"hp": 50,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Wurmple",
+		"fr": "Chenipotte"
+	},
+	"rarity": "Common",
+	"set": "ex12",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

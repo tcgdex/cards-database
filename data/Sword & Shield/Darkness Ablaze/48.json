@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Chop",
+				"fr": "Coup Tranchant",
+				"es": "Cortar",
+				"it": "Ceffone",
+				"pt": "Trincar",
+				"de": "Hacker"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Icicle",
+				"fr": "Concrétion Glacée",
+				"es": "Témpano",
+				"it": "Stalattite",
+				"pt": "Pingente de Gelo",
+				"de": "Eiszapfen"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like."
+	},
+	"hp": 70,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Petznief",
+		"en": "Cubchoo",
+		"es": "Cubchoo",
+		"fr": "Polarhume",
+		"it": "Cubchoo",
+		"pt": "Cubchoo"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

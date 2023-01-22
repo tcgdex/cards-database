@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Pry"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "Your opponent reveals their hand."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large."
+	},
+	"hp": 60,
+	"illustrator": "Sekio",
+	"name": {
+		"de": "Sodamak",
+		"en": "Panpour",
+		"es": "Panpour",
+		"fr": "Flotajou",
+		"it": "Panpour",
+		"pt": "Panpour"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

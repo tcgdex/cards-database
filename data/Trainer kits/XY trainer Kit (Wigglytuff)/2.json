@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Pidgey",
+		"fr": "Roucool",
+		"es": "Pidgey",
+		"it": "Pidgey",
+		"pt": "Pidgey",
+		"de": "Taubsi"
+	},
+	"hp": 80,
+	"name": {
+		"de": "Tauboga",
+		"en": "Pidgeotto",
+		"es": "Pidgeotto",
+		"fr": "Roucoups",
+		"it": "Pidgeotto",
+		"pt": "Pidgeotto"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "tk-xy-w",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

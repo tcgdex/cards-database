@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Beat",
+				"fr": "Bataille",
+				"es": "Toque",
+				"it": "Battuta",
+				"pt": "Pulso",
+				"de": "Verprügler"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Super Psy Bolt",
+				"fr": "Super Psy",
+				"es": "Superrayo Psi",
+				"it": "Superpsico",
+				"pt": "Super-raio Psíquico",
+				"de": "Super-Psischlag"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
+	},
+	"evolveFrom": {
+		"en": "Hatenna",
+		"fr": "Bibichut"
+	},
+	"hp": 90,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Brimano",
+		"en": "Hattrem",
+		"es": "Hattrem",
+		"fr": "Chapotus",
+		"it": "Hattrem",
+		"pt": "Hattrem"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 2,
+	"set": "swsh3.5",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

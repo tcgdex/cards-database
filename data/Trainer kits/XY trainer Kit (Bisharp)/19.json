@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"en": "Draw 3 cards.",
+		"fr": "Piochez 3 cartes.",
+		"es": "Roba 3 cartas.",
+		"it": "Pesca tre carte.",
+		"pt": "Compre 3 cards.",
+		"de": "Ziehe 3 Karten."
+	},
+	"name": {
+		"de": "Tierno",
+		"en": "Tierno",
+		"es": "Beni",
+		"fr": "Tierno",
+		"it": "Tierno",
+		"pt": "Tierno"
+	},
+	"rarity": "Uncommon",
+	"set": "tk-xy-b",
+	"trainerType": "Supporter"
+}

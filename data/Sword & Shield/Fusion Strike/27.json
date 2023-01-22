@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Scratch"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wild Whip"
+			},
+			"damage": "40+",
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+	},
+	"hp": 110,
+	"illustrator": "Anesaki Dynamic",
+	"name": {
+		"de": "Zarude",
+		"en": "Zarude",
+		"es": "Zarude",
+		"fr": "Zarude",
+		"it": "Zarude",
+		"pt": "Zarude"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

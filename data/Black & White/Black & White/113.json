@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Outrage",
+				"fr": "Colère"
+			},
+			"effect": {
+				"en": "Does 10 more damage for each damage counter on this Pokémon.",
+				"fr": "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Blue Flare",
+				"fr": "Flamme Bleue"
+			},
+			"effect": {
+				"en": "Discard 2 Fire Energy attached to this Pokémon.",
+				"fr": "Défaussez 2 Énergies Fire attachées à ce Pokémon."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		643
+	],
+	"hp": 130,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Reshiram",
+		"en": "Reshiram",
+		"es": "Reshiram",
+		"fr": "Reshiram",
+		"it": "Reshiram",
+		"pt": "Reshiram"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "bw1",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

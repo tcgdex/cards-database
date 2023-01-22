@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunderbolt",
+				"fr": "Tonnerre"
+			},
+			"damage": 120
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spark Ball GX",
+				"fr": "Boule Étincelles-GX"
+			},
+			"effect": {
+				"en": "(You can’t use more than 1 GX attack in a game.)",
+				"fr": "(Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+			},
+			"damage": 200
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		26
+	],
+	"evolveFrom": {
+		"en": "Pikachu",
+		"fr": "Pikachu"
+	},
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Raichu GX",
+		"fr": "Raichu-GX"
+	},
+	"rarity": "Ultra Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm115",
+	"suffix": "GX",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

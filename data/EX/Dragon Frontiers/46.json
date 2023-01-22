@@ -1,0 +1,31 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Ram",
+				"fr": "Collision"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		147
+	],
+	"hp": 40,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Dratini δ",
+		"fr": "Minidraco δ ESPÈCES DELTA"
+	},
+	"rarity": "Common",
+	"set": "ex15",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	]
+}

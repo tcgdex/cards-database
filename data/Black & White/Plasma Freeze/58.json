@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lovestrike",
+				"fr": "Coup de Foudre"
+			},
+			"effect": {
+				"en": "Does 40 more damage for each Nidoqueen on your Bench.",
+				"fr": "Inflige 40 dégâts supplémentaires pour chaque Nidoqueen sur votre Banc."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Horn Drill",
+				"fr": "Empal'Korne"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		34
+	],
+	"evolveFrom": {
+		"en": "Nidorino",
+		"fr": "Nidorino"
+	},
+	"hp": 140,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Nidoking",
+		"en": "Nidoking",
+		"es": "Nidoking",
+		"fr": "Nidoking",
+		"it": "Nidoking",
+		"pt": "Nidoking"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Lightning",
+			"value": "-20"
+		}
+	],
+	"retreat": 3,
+	"set": "bw9",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

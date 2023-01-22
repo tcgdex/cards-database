@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Choisissez 1 de vos Pokémon en jeu et reprenez sa carte Pokémon de base dans votre main. (Défaussez toutes les cartes attachées à cette carte.)"
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Scoop Up",
+		"fr": "Rappel"
+	},
+	"rarity": "Rare",
+	"set": "base1"
+}

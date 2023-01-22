@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez une carte Énergie de votre main à l’un de vos Racaillou, Gravalanch, Grolem, Onix-GX, Osselait, Rhinocorne, Rhinoféros ou Simularbre.",
+		"en": "Attach an Energy card from your hand to 1 of your Geodude, Graveler, Golem, Onix-GX, Cubone, Rhyhorn, Rhydon, or Sudowoodo."
+	},
+	"illustrator": "TOKIYA",
+	"name": {
+		"en": "Brock’s Training",
+		"fr": "Entraînement de Pierre"
+	},
+	"rarity": "Rare",
+	"set": "sm115",
+	"trainerType": "Supporter"
+}

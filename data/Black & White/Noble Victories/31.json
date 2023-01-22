@@ -1,0 +1,72 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Cursed Body",
+				"fr": "Corps Maudit",
+				"es": "Cuerpo Maldito",
+				"it": "Corpofunesto",
+				"pt": "Corpo Amaldiçoado",
+				"de": "Tastfluch"
+			},
+			"effect": {
+				"en": "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Confused.",
+				"fr": "Si ce Pokémon est votre Pokémon Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même si ce Pokémon est mis K.O.), le Pokémon Attaquant est maintenant Confus.",
+				"es": "Si este Pokémon es tu Pokémon Activo y resulta dañado por el ataque de un rival (incluso si este Pokémon queda Fuera de Combate), el Pokémon Atacante pasa a estar Confundido.",
+				"it": "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo K.O., il Pokémon attaccante viene confuso.",
+				"pt": "Se este Pokémon for seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), o Pokémon Atacante ficará Confuso.",
+				"de": "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (oder dieses Pokémon sogar kampfunfähig wird), ist das Angreifende Pokémon jetzt verwirrt."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hydro Pump",
+				"fr": "Hydrocanon"
+			},
+			"effect": {
+				"en": "Does 20 more damage for each Water Energy attached to this Pokémon.",
+				"fr": "Inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		593
+	],
+	"evolveFrom": {
+		"en": "Frillish",
+		"fr": "Viskuse"
+	},
+	"hp": 110,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"de": "Apoquallyp",
+		"en": "Jellicent",
+		"es": "Jellicent",
+		"fr": "Moyade",
+		"it": "Jellicent",
+		"pt": "Jellicent"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "bw3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Headbutt"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Impact Blow"
+			},
+			"damage": 150,
+			"effect": {
+				"en": "During your next turn, this Pokémon can't use Impact Blow."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores."
+	},
+	"evolveFrom": {
+		"en": "Shroomish",
+		"fr": "Balignon",
+		"es": "Shroomish",
+		"it": "Shroomish",
+		"pt": "Shroomish",
+		"de": "Knilz"
+	},
+	"hp": 120,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"de": "Kapilz",
+		"en": "Breloom",
+		"es": "Breloom",
+		"fr": "Chapignon",
+		"it": "Breloom",
+		"pt": "Breloom"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

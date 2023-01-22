@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cleave",
+				"fr": "Frappe Adhésive"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
+				"fr": "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless"
+			],
+			"name": {
+				"en": "Leaf Blade",
+				"fr": "Lame-Feuille"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		542
+	],
+	"evolveFrom": {
+		"en": "Swadloon",
+		"fr": "Couverdure"
+	},
+	"hp": 140,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Matrifol",
+		"en": "Leavanny",
+		"es": "Leavanny",
+		"fr": "Manternel",
+		"it": "Leavanny",
+		"pt": "Leavanny"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "bw8",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

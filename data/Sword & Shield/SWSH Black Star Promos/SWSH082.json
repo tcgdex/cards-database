@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mad Party"
+			},
+			"effect": {
+				"en": "This attack does 20 damage for each Pokémon in your discard pile that has the Mad Party attack."
+			},
+			"damage": "20×"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+	},
+	"dexId": [
+		659
+	],
+	"hp": 40,
+	"illustrator": "sowsow",
+	"name": {
+		"en": "Bunnelby"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

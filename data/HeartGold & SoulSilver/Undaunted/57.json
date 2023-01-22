@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Mumble",
+				"fr": "Marmonner"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Dual Draw",
+				"fr": "Pioche mutuelle"
+			},
+			"effect": {
+				"en": "Each player draws 3 cards.",
+				"fr": "Chaque joueur pioche 3 cartes."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions."
+	},
+	"dexId": [
+		200
+	],
+	"hp": 60,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"en": "Misdreavus",
+		"fr": "Feuforeve"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Colorless",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss3",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

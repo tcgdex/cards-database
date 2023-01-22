@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Focus"
+			},
+			"effect": {
+				"en": "During your next turn, Rocket’s Scizor’s Agility attack’s damage is doubled."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Agility"
+			},
+			"damage": 20,
+			"effect": {
+				"en": "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Rocket’s Scizor."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "K. Hoshiba",
+	"name": {
+		"en": "Rocket’s Scizor"
+	},
+	"rarity": "None",
+	"set": "bog",
+	"stage": "Basic"
+}

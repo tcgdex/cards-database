@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Alert Headbutt",
+				"fr": "Réveil Coup d’Boule",
+				"es": "Cabezazo de Alerta",
+				"it": "Testata Prudente",
+				"pt": "Cabeçada Alerta",
+				"de": "Warnende Kopfnuss"
+			},
+			"effect": {
+				"en": "If your opponent’s Active Pokémon is a Pokémon-GX or Pokémon-EX, this attack’s base damage is 30.",
+				"fr": "Si le Pokémon Actif de votre adversaire est un Pokémon-GX ou un Pokémon-EX, les dégâts de base de cette attaque sont de 30.",
+				"es": "Si el Pokémon Activo de tu rival es un Pokémon-GX o un Pokémon-EX, el daño básico de este ataque es de 30.",
+				"it": "Se il Pokémon attivo del tuo avversario è un Pokémon-GX o un Pokémon-EX, i danni base di questo attacco sono 30.",
+				"pt": "Se o Pokémon Ativo do seu oponente for um Pokémon-GX ou um Pokémon-EX, o dano base deste ataque será 30.",
+				"de": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-GX oder Pokémon-EX ist, beträgt der Grundschaden dieser Attacke 30 Schadenspunkte."
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		735
+	],
+	"evolveFrom": {
+		"en": "Yungoos",
+		"fr": "Manglouton"
+	},
+	"hp": 100,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Manguspektor",
+		"en": "Gumshoos",
+		"es": "Gumshoos",
+		"fr": "Argouste",
+		"it": "Gumshoos",
+		"pt": "Gumshoos"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

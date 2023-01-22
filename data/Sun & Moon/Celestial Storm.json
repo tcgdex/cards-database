@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 168,
+	"id": "sm7",
+	"name": {
+		"de": "Sturm Am Firmament",
+		"en": "Celestial Storm",
+		"es": "Tormenta Celestial",
+		"fr": "Tempête Céleste",
+		"it": "Tempesta Astrale",
+		"pt": "Tempestade Celestial"
+	},
+	"releaseDate": "2018-08-03",
+	"serie": "sm",
+	"tcgOnline": "CES"
+}

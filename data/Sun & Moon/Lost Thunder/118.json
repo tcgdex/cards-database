@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Spoil the Fun",
+				"fr": "Plaisir Gâché",
+				"es": "Aguafiestas",
+				"it": "Guastafeste",
+				"pt": "Estraga-prazer",
+				"de": "Spielverderber"
+			},
+			"effect": {
+				"en": "If you go second, this attack does 60 more damage during your first turn.",
+				"fr": "Si vous jouez en second, cette attaque inflige 60 dégâts supplémentaires pendant votre premier tour.",
+				"es": "Si sales segundo, este ataque hace 60 puntos de daño más durante tu primer turno.",
+				"it": "Se inizi per secondo, questo attacco infligge 60 danni in più durante il tuo primo turno.",
+				"pt": "Se você for o segundo a jogar, este ataque causará 60 pontos de dano a mais durante a sua primeira vez de jogar.",
+				"de": "Wenn du als Zweiter am Zug bist, fügt diese Attacke während deines ersten Zuges 60 Schadenspunkte mehr zu."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		52
+	],
+	"hp": 60,
+	"illustrator": "Akira Komayama",
+	"name": {
+		"de": "Alola-Mauzi",
+		"en": "Alolan Meowth",
+		"es": "Meowth de Alola",
+		"fr": "Miaouss d’Alola",
+		"it": "Meowth di Alola",
+		"pt": "Meowth de Alola"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

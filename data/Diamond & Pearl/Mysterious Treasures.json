@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 122,
+	"id": "dp2",
+	"name": {
+		"de": "Geheimnisvolle Schätze",
+		"en": "Mysterious Treasures",
+		"es": "Tesoros Misteriosos",
+		"fr": "Trésors Mystérieux",
+		"it": "Tesori Misteriosi",
+		"pt": "Tesouros Misteriosos"
+	},
+	"releaseDate": "2007-08-01",
+	"serie": "dp",
+	"tcgOnline": "MT"
+}

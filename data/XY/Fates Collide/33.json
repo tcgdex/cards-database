@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mini Link",
+				"fr": "Mini Lien",
+				"es": "Miniconexión",
+				"it": "Minilegame",
+				"pt": "Miniconexão",
+				"de": "Miniband"
+			},
+			"effect": {
+				"en": "If Solosis is on your Bench, this attack does 30 more damage.",
+				"fr": "Si Nucléos est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires.",
+				"es": "Si Solosis está en tu Banca, este ataque hace 30 puntos de daño más.",
+				"it": "Se Solosis è nella tua panchina, questo attacco infligge 30 danni in più.",
+				"pt": "Se Solosis estiver no seu Banco, este ataque causará 30 de danos adicionais.",
+				"de": "Wenn sich Monozyto auf deiner Bank befindet, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		577
+	],
+	"hp": 30,
+	"illustrator": "match",
+	"name": {
+		"de": "Monozyto",
+		"en": "Solosis",
+		"es": "Solosis",
+		"fr": "Nucléos",
+		"it": "Solosis",
+		"pt": "Solosis"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy10",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

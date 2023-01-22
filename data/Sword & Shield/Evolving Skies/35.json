@@ -1,0 +1,71 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Ram",
+				"fr": "Collision",
+				"es": "Apisonar",
+				"it": "Carica",
+				"pt": "Ram",
+				"de": "Ramme"
+			},
+			"damage": 10,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Razor Fin",
+				"fr": "Aileron-Rasoir",
+				"es": "Aleta Afilada",
+				"it": "Pinnalama",
+				"pt": "Razor Fin",
+				"de": "Rasierflosse"
+			},
+			"damage": 20,
+			"cost": [
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+	},
+	"dexId": [
+		318
+	],
+	"hp": 50,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Kanivanha",
+		"en": "Carvanha",
+		"es": "Carvanha",
+		"fr": "Carvanha",
+		"it": "Carvanha",
+		"pt": "Carvanha"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

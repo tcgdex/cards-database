@@ -1,0 +1,11 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Kent Kanetsuna",
+	"name": {
+		"en": "Darkness Energy"
+	},
+	"rarity": "Uncommon",
+	"set": "col1"
+}

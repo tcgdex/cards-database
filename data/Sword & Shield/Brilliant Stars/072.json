@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Spinning Draw",
+				"fr": "Pioche Tournante",
+				"es": "Robo Giratorio",
+				"it": "Pesca Rotante",
+				"pt": "Compra Giratória",
+				"de": "Drehender Zug"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Compre 1 carta.",
+				"de": "Ziehe 1 Karte."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cyclone Kick",
+				"fr": "Pied Cyclone",
+				"es": "Patada Ciclón",
+				"it": "Calciovento",
+				"pt": "Chute Ciclone",
+				"de": "Wirbeltritt"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"hp": 100,
+	"name": {
+		"de": "Kapoera",
+		"en": "Hitmontop",
+		"es": "Hitmontop",
+		"fr": "Kapoera",
+		"it": "Hitmontop",
+		"pt": "Hitmontop"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh9",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	]
+}

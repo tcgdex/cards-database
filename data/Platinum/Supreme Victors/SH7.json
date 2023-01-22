@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Aqua Mirage"
+			},
+			"effect": {
+				"en": "If you have no cards in your hand, prevent all damage done to Milotic by attacks from your opponent's Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dwindling Wave"
+			},
+			"effect": {
+				"en": "Does 80 damage minus 10 damage for each damage counter on Milotic."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		350
+	],
+	"evolveFrom": {
+		"en": "Feebas"
+	},
+	"hp": 80,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Milotic"
+	},
+	"rarity": "Rare",
+	"set": "pl3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

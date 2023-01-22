@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Blinding Scythe",
+				"fr": "Pulvérisation Aveuglante",
+				"es": "Guadaña Cegadora",
+				"it": "Falceaccecante",
+				"pt": "Foice Ofuscante",
+				"de": "Blendende Sense"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"hp": 90,
+	"name": {
+		"de": "Sichlor",
+		"en": "Scyther",
+		"es": "Scyther",
+		"fr": "Insécateur",
+		"it": "Scyther",
+		"pt": "Scyther"
+	},
+	"rarity": "Common",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh10",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

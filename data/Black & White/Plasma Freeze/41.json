@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Poison Sting",
+				"fr": "Dard-Venin"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Kick",
+				"fr": "Double Pied"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				"fr": "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		30
+	],
+	"evolveFrom": {
+		"en": "Nidoran♀",
+		"fr": "Nidoran♀"
+	},
+	"hp": 90,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Nidorina",
+		"en": "Nidorina",
+		"es": "Nidorina",
+		"fr": "Nidorina",
+		"it": "Nidorina",
+		"pt": "Nidorina"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw9",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"effect": {
+		"en": "Double Colorless Energy provides ColorlessColorless Energy."
+	},
+	"energyType": "Special",
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Double Colorless Energy"
+	},
+	"rarity": "Uncommon",
+	"set": "bw11"
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Draw"
+			},
+			"effect": {
+				"en": "Draw 2 cards."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dazzle Dance"
+			},
+			"damage": 30,
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing."
+	},
+	"hp": 100,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Rossana",
+		"en": "Jynx",
+		"es": "Jynx",
+		"fr": "Lippoutou",
+		"it": "Jynx",
+		"pt": "Jynx"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

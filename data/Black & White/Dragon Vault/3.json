@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Tail Whap",
+				"fr": "Queue Battoir"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Pulse",
+				"fr": "Dracochoc"
+			},
+			"effect": {
+				"en": "Discard the top card of your deck.",
+				"fr": "Défaussez la carte du dessus de votre deck."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		148
+	],
+	"evolveFrom": {
+		"en": "Dratini",
+		"fr": "Minidraco"
+	},
+	"hp": 70,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Dragonair",
+		"fr": "Draco"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dv1",
+	"stage": "Stage1",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Dragon",
+			"value": "×2"
+		}
+	]
+}

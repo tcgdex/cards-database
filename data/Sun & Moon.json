@@ -1,0 +1,24 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"energies": [
+		"Darkness",
+		"Dragon",
+		"Fairy",
+		"Fighting",
+		"Fire",
+		"Grass",
+		"Lightning",
+		"Metal",
+		"Psychic",
+		"Water"
+	],
+	"id": "sm",
+	"name": {
+		"de": "Sonne & Mond",
+		"en": "Sun & Moon",
+		"es": "Sol y Luna",
+		"fr": "Soleil et Lune",
+		"it": "Sole e Luna",
+		"pt": "Sol e Lua"
+	}
+}

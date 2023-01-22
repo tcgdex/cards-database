@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Surf",
+				"en": "Surf",
+				"es": "Surf",
+				"it": "Surf",
+				"pt": "Surfar",
+				"de": "Surfer"
+			},
+			"damage": 50,
+			"cost": [
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft."
+	},
+	"evolveFrom": {
+		"fr": "Mustébouée",
+		"en": "Buizel"
+	},
+	"hp": 110,
+	"illustrator": "AKIRA EGAWA",
+	"name": {
+		"de": "Bojelin",
+		"en": "Floatzel",
+		"es": "Floatzel",
+		"fr": "Mustéflott",
+		"it": "Floatzel",
+		"pt": "Floatzel"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

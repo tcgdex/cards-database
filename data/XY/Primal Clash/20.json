@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Roar",
+				"fr": "Hurlement",
+				"es": "Rugido",
+				"it": "Boato",
+				"pt": "Rugido",
+				"de": "Brüller"
+			},
+			"effect": {
+				"en": "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				"es": "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				"it": "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+				"pt": "Seu oponente troca o Pokémon Ativo por 1 dos próprios Pokémon no Banco.",
+				"de": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			}
+		},
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		37
+	],
+	"hp": 60,
+	"illustrator": "kirisAki",
+	"name": {
+		"de": "Vulpix",
+		"en": "Vulpix",
+		"es": "Vulpix",
+		"fr": "Goupix",
+		"it": "Vulpix",
+		"pt": "Vulpix"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy5",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

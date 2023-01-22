@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Investida",
+				"de": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Tail",
+				"fr": "Queue de Flammes",
+				"es": "Cola de Fuego",
+				"it": "Codafiamma",
+				"pt": "Cauda de Chamas",
+				"de": "Flammenschweif"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		667
+	],
+	"hp": 70,
+	"illustrator": "HYOGONOSUKE",
+	"name": {
+		"de": "Leufeo",
+		"en": "Litleo",
+		"es": "Litleo",
+		"fr": "Hélionceau",
+		"it": "Litleo",
+		"pt": "Litleo"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "sm12",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

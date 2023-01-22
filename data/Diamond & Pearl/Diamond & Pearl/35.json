@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Minor Errand-Running",
+				"fr": "Rendez-vous mineur"
+			},
+			"effect": {
+				"en": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Thunder Jolt",
+				"fr": "Secousse tonnerre"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, Pachirisu does 10 damage to itself.",
+				"fr": "Lancez une pièce. Si c'est pile, Pachirisu s'inflige 10 dégâts."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il roule des boules de poils pleines d'électricité statique et les range dans des souches avec des Baies."
+	},
+	"dexId": [
+		417
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Pachirisu",
+		"fr": "Pachirisu"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp1",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+20"
+		}
+	]
+}

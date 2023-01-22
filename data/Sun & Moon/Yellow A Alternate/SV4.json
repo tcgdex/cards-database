@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Wimp Out",
+				"fr": "Escampette"
+			},
+			"effect": {
+				"en": "During your first turn, this Pokémon has no Retreat Cost.",
+				"fr": "Pendant votre premier tour, ce Pokémon n’a pas de Coût de Retraite."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		767
+	],
+	"hp": 70,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"en": "Wimpod",
+		"fr": "Sovkipou"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "sma",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

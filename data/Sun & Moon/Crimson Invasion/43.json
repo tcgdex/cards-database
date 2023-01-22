@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Bell of Silence",
+				"fr": "Cloche du Silence",
+				"es": "Campana de Silencio",
+				"it": "Campana del Silenzio",
+				"pt": "Sino do Silêncio",
+				"de": "Glocke des Schweigens"
+			},
+			"effect": {
+				"en": "Your opponent can’t play any Pokémon that has an Ability from their hand during their next turn.",
+				"fr": "Votre adversaire ne peut pas jouer de Pokémon ayant un talent de sa main pendant son prochain tour.",
+				"es": "Tu rival no puede jugar ningún Pokémon que tenga una habilidad de su mano durante su próximo turno.",
+				"it": "Il tuo avversario non può giocare nessun Pokémon che abbia un’abilità dalle carte che ha in mano durante il suo prossimo turno.",
+				"pt": "Seu oponente não poderá jogar nenhum Pokémon que tiver uma Habilidade da própria mão durante a próxima vez dele(a) jogar.",
+				"de": "Dein Gegner kann während seines nächsten Zuges kein Pokémon, das eine Fähigkeit hat, aus seiner Hand spielen."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		358
+	],
+	"hp": 70,
+	"illustrator": "Kanako Eo",
+	"name": {
+		"de": "Palimpalim",
+		"en": "Chimecho",
+		"es": "Chimecho",
+		"fr": "Éoko",
+		"it": "Chimecho",
+		"pt": "Chimecho"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

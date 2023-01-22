@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fairy"
+			],
+			"name": {
+				"en": "Pound",
+				"fr": "Écras’Face",
+				"es": "Destructor",
+				"it": "Botta",
+				"pt": "Pancada",
+				"de": "Pfund"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sing",
+				"fr": "Berceuse",
+				"es": "Canto",
+				"it": "Canto",
+				"pt": "Canção",
+				"de": "Gesang"
+			},
+			"effect": {
+				"en": "Your opponent’s Active Pokémon is now Asleep.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				"de": "Das Aktive Pokémon deines Gegners schläft jetzt."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		39
+	],
+	"hp": 70,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"de": "Pummeluff",
+		"en": "Jigglypuff",
+		"es": "Jigglypuff",
+		"fr": "Rondoudou",
+		"it": "Jigglypuff",
+		"pt": "Jigglypuff"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Darkness",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Fairy"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

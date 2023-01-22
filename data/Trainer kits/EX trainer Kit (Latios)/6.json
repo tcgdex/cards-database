@@ -1,0 +1,25 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Scratch"
+			},
+			"damage": 10
+		},
+		{
+			"name": {
+				"en": "Pika Bolt"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"en": "Pikachu"
+	},
+	"rarity": "None",
+	"set": "tk-ex-latio",
+	"stage": "Basic"
+}

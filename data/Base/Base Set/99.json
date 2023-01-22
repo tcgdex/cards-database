@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Grass Energy",
+		"fr": "Énergie Plante"
+	},
+	"rarity": "Common",
+	"set": "base1",
+	"stage": "Basic"
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 95,
+	"id": "hgss2",
+	"name": {
+		"de": "Entfesselt",
+		"en": "Unleashed",
+		"es": "Liberados",
+		"fr": "Déchaînement",
+		"it": "Forze Scatenate",
+		"pt": "Revelado"
+	},
+	"releaseDate": "2010-05-12",
+	"serie": "hgss",
+	"tcgOnline": "UL"
+}

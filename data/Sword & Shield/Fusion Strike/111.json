@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Find Treasure"
+			},
+			"effect": {
+				"en": "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+			}
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hyper Voice"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger!"
+	},
+	"evolveFrom": {
+		"en": "Jigglypuff",
+		"fr": "Rondoudou",
+		"es": "Jigglypuff",
+		"it": "Jigglypuff",
+		"pt": "Jigglypuff",
+		"de": "Pummeluff"
+	},
+	"hp": 120,
+	"illustrator": "Asako Ito",
+	"name": {
+		"de": "Knuddeluff",
+		"en": "Wigglytuff",
+		"es": "Wigglytuff",
+		"fr": "Grodoudou",
+		"it": "Wigglytuff",
+		"pt": "Wigglytuff"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

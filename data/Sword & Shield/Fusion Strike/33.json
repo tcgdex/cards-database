@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire"
+			],
+			"name": {
+				"en": "Fire Claws"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Tackle"
+			},
+			"damage": 160,
+			"effect": {
+				"en": "This Pokémon also does 30 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings."
+	},
+	"evolveFrom": {
+		"en": "Growlithe",
+		"fr": "Caninos",
+		"es": "Growlithe",
+		"it": "Growlithe",
+		"pt": "Growlithe",
+		"de": "Fukano"
+	},
+	"hp": 130,
+	"illustrator": "Yuu Nishida",
+	"name": {
+		"de": "Arkani",
+		"en": "Arcanine",
+		"es": "Arcanine",
+		"fr": "Arcanin",
+		"it": "Arcanine",
+		"pt": "Arcanine"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

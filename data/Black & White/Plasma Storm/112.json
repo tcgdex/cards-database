@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Fast Swipe",
+				"fr": "Fauchage Éclair"
+			},
+			"effect": {
+				"en": "Discard a random card from your opponent's hand.",
+				"fr": "Défaussez au hasard une carte de la main de votre adversaire."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Biting Fang",
+				"fr": "Croc Mordant"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		505
+	],
+	"evolveFrom": {
+		"en": "Patrat",
+		"fr": "Ratentif"
+	},
+	"hp": 90,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Kukmarda",
+		"en": "Watchog",
+		"es": "Watchog",
+		"fr": "Miradar",
+		"it": "Watchog",
+		"pt": "Watchog"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw8",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

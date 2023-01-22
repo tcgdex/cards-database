@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Échangez 1 de vos Pokémon Actifs avec 1 des Pokémon de votre Banc."
+	},
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Switch",
+		"fr": "Échange"
+	},
+	"rarity": "Common",
+	"set": "dp1",
+	"trainerType": "Item"
+}

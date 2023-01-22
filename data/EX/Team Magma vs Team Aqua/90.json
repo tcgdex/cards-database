@@ -1,0 +1,76 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Primal Vibes",
+				"fr": "Vibrations primales"
+			},
+			"effect": {
+				"en": "As long as Cradily ex is your Active Pokémon, your opponent can't play a Pokémon from his or her hand to evolve his or her Active Pokémon.",
+				"fr": "Tant que Vacilys ex est votre Pokémon Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon Actifs."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Eerie Light",
+				"fr": "Lumière étrange"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Acidic Poison",
+				"fr": "Poison acide"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Poisoned and Burned.",
+				"fr": "Le Pokémon Défenseur est maintenant Empoisonné et Brûlé."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		346
+	],
+	"hp": 150,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Cradily ex",
+		"fr": "Vacilys ex"
+	},
+	"rarity": "Rare",
+	"set": "ex4",
+	"suffix": "EX",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		},
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

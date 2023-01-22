@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer In",
+				"fr": "Enfoncer"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		554
+	],
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Flampion",
+		"en": "Darumaka",
+		"es": "Darumaka",
+		"fr": "Darumarond",
+		"it": "Darumaka",
+		"pt": "Darumaka"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "bw4",
+	"stage": "Basic",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

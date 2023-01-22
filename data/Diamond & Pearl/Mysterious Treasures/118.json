@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Special",
+	"illustrator": "Takumi Akabane",
+	"name": {
+		"en": "Multi Energy",
+		"fr": "Énergies multiples"
+	},
+	"rarity": "Rare",
+	"set": "dp2"
+}

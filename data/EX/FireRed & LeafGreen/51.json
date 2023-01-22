@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch'herbe"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Corrosive Acid",
+				"fr": "Acide corrosif"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Burned.",
+				"fr": "Le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		70
+	],
+	"evolveFrom": {
+		"en": "Bellsprout"
+	},
+	"hp": 70,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Weepinbell",
+		"fr": "Boustiflor"
+	},
+	"rarity": "Uncommon",
+	"set": "ex6",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

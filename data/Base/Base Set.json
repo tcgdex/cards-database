@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 102,
+	"id": "base1",
+	"name": {
+		"de": "Grundset",
+		"en": "Base Set",
+		"es": "Edición Básica",
+		"fr": "Set de Base",
+		"it": "Set Base",
+		"pt": "Coleção Básica"
+	},
+	"releaseDate": "1999-01-09",
+	"serie": "base",
+	"tcgOnline": "BS"
+}

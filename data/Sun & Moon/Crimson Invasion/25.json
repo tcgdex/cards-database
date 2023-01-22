@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Claws",
+				"fr": "Doubles Griffes",
+				"es": "Dos Pinzas",
+				"it": "Doppie Chele",
+				"pt": "Garras Duplas",
+				"de": "Doppelschere"
+			},
+			"effect": {
+				"en": "Discard 2 Energy from your opponent’s Active Pokémon.",
+				"fr": "Défaussez 2 Énergies du Pokémon Actif de votre adversaire.",
+				"es": "Descarta 2 Energías del Pokémon Activo de tu rival.",
+				"it": "Scarta due Energie assegnate al Pokémon attivo del tuo avversario.",
+				"pt": "Descarte 2 Energias do Pokémon Ativo do seu oponente.",
+				"de": "Lege 2 Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		342
+	],
+	"evolveFrom": {
+		"en": "Corphish",
+		"fr": "Écrapince"
+	},
+	"hp": 110,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Krebutack",
+		"en": "Crawdaunt",
+		"es": "Crawdaunt",
+		"fr": "Colhomard",
+		"it": "Crawdaunt",
+		"pt": "Crawdaunt"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "sm4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

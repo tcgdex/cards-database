@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Burning Draft",
+				"fr": "Souffle Enflammé"
+			},
+			"effect": {
+				"en": "Once during your turn (before your attack), you may attach a Fighting or Fire Energy card from your discard pile to this Pokémon.",
+				"fr": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Fighting ou Fire de votre pile de défausse à ce Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Flame Ball",
+				"fr": "Boule de Feu"
+			},
+			"effect": {
+				"en": "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.",
+				"fr": "Déplacez une Énergie de base de ce Pokémon vers l'un de vos Pokémon de Banc."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		323
+	],
+	"evolveFrom": {
+		"en": "Team Magma's Numel",
+		"fr": "Chamallot de la Team Magma"
+	},
+	"hp": 110,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Team Magma's Camerupt",
+		"fr": "Camérupt de la Team Magma"
+	},
+	"rarity": "Rare",
+	"retreat": 3,
+	"set": "dc1",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

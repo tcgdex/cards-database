@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Gnaw",
+				"fr": "Ronge",
+				"es": "Roer",
+				"it": "Rosicchiamento",
+				"pt": "Roída",
+				"de": "Nagen"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		220
+	],
+	"hp": 60,
+	"illustrator": "Eri Yamaki",
+	"name": {
+		"de": "Quiekel",
+		"en": "Swinub",
+		"es": "Swinub",
+		"fr": "Marcacrin",
+		"it": "Swinub",
+		"pt": "Swinub"
+	},
+	"rarity": "Common",
+	"retreat": 3,
+	"set": "sm4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

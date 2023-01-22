@@ -1,0 +1,26 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Pokemon",
+	"hp": 70,
+	"name": {
+		"de": "Rettan",
+		"en": "Ekans",
+		"es": "Ekans",
+		"fr": "Abo",
+		"it": "Ekans",
+		"pt": "Ekans"
+	},
+	"rarity": "Common",
+	"retreat": 2,
+	"set": "tk-xy-n",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

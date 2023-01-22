@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Kick",
+				"fr": "Koud’Pied",
+				"es": "Patada",
+				"it": "Calcio",
+				"pt": "Chute",
+				"de": "Tritt"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		447
+	],
+	"hp": 60,
+	"illustrator": "AKIRA EGAWA",
+	"name": {
+		"de": "Riolu",
+		"en": "Riolu",
+		"es": "Riolu",
+		"fr": "Riolu",
+		"it": "Riolu",
+		"pt": "Riolu"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm11",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

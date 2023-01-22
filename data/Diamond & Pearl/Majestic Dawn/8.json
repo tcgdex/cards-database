@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Aqua Skin",
+				"fr": "Aqua peau"
+			},
+			"effect": {
+				"en": "When you attach a Water Energy card from your hand to Manaphy, remove 2 damage counters from Manaphy.",
+				"fr": "Lorsque vous attachez une carte Énergie Water de votre main à Manaphy, retirez-lui 2 marqueurs de dégât."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Chase Up",
+				"fr": "Relancer"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+				"fr": "Lancez une pièce. Si c'est face, choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Fountain",
+				"fr": "Fontaine"
+			},
+			"effect": {
+				"en": "You may attach up to 2 basic Water Energy cards from your hand to your Benched Pokémon in any way you like.",
+				"fr": "Vous pouvez attacher jusqu'à 2 cartes Énergie de base Water de votre main à vos Pokémon de Banc de la façon que vous voulez."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		490
+	],
+	"hp": 70,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"en": "Manaphy",
+		"fr": "Manaphy"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "dp5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

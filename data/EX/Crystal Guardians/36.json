@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Roar",
+				"fr": "Hurlement"
+			},
+			"effect": {
+				"en": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				"fr": "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc, s'il en a."
+			}
+		},
+		{
+			"cost": [
+				"Metal",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Charge",
+				"fr": "Attaque métallique"
+			},
+			"effect": {
+				"en": "Put 1 damage counter on Lairon.",
+				"fr": "Placez 1 marqueur de dégât sur Galegon."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		305
+	],
+	"evolveFrom": {
+		"en": "Aron"
+	},
+	"hp": 80,
+	"illustrator": "Hajime Kusajima",
+	"name": {
+		"en": "Lairon",
+		"fr": "Galegon"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Grass",
+			"value": "-30"
+		}
+	],
+	"set": "ex14",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

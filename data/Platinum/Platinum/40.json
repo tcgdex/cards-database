@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Anticipation",
+				"fr": "Anticipation"
+			},
+			"effect": {
+				"en": "Prevent all effects of attacks, excluding damage, done to Toxicroak .",
+				"fr": "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Coatox ."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Deep Poison",
+				"fr": "Poison profond"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage.",
+				"fr": "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		454
+	],
+	"hp": 90,
+	"illustrator": "Ryota Saito",
+	"name": {
+		"en": "Toxicroak G",
+		"fr": "Coatox "
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "pl1",
+	"stage": "Basic",
+	"suffix": "SP",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

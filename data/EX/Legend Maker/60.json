@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Ancient Tentacles",
+				"fr": "Tentacules anciennes"
+			},
+			"effect": {
+				"en": "Damage done to your opponent's Pokémon by your Omanyte, Omastar, Kabuto, Kabutops, or Kabutops ex isn't affected by Resistance.",
+				"fr": "Les dégâts infligés aux Pokémon de votre adversaire par votre Amonita, Amonistar, Kabuto, Kabutops ou Kabutops ex ne sont pas affectés par la Résistance."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rising Lunge",
+				"fr": "Botte secrète"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "20+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		138
+	],
+	"evolveFrom": {
+		"en": "Mysterious Fossil"
+	},
+	"hp": 70,
+	"illustrator": "Kenkichi Toyama",
+	"name": {
+		"en": "Omanyte",
+		"fr": "Amonita"
+	},
+	"rarity": "Common",
+	"set": "ex12",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

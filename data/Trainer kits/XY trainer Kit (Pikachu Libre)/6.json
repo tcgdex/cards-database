@@ -1,0 +1,15 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Energy",
+	"energyType": "Normal",
+	"name": {
+		"de": "Elektro-Energie",
+		"en": "Lightning Energy",
+		"es": "Energía Rayo",
+		"fr": "Énergie Électrique",
+		"it": "Energia Lampo",
+		"pt": "Energia de Raios"
+	},
+	"rarity": "Common",
+	"set": "tk-xy-p"
+}

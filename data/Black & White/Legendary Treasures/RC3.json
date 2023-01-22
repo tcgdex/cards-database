@@ -1,0 +1,51 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Royal Garden"
+			},
+			"effect": {
+				"en": "If this Pokémon has any Grass Energy attached to it, this Pokémon has no Retreat Cost."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Solar Beam"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		497
+	],
+	"evolveFrom": {
+		"en": "Servine"
+	},
+	"hp": 140,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"en": "Serperior"
+	},
+	"rarity": "Uncommon",
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

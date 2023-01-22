@@ -1,0 +1,77 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Shoot Through",
+				"fr": "Passer à travers"
+			},
+			"effect": {
+				"en": "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "U-turn",
+				"fr": "Demi-Tour"
+			},
+			"effect": {
+				"en": "Switch Yanmega with 1 of your Benched Pokémon.",
+				"fr": "Échangez Yanmega avec l’un de vos Pokémon de Banc."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The beat of its wings is so powerful that it accidentally dislodges full-grown trees when it takes off in flight."
+	},
+	"dexId": [
+		469
+	],
+	"evolveFrom": {
+		"en": "Yanma",
+		"fr": "Yanma"
+	},
+	"hp": 90,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Yanmega",
+		"fr": "Yanmega"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

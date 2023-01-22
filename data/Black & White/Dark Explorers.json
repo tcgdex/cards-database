@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 108,
+	"id": "bw5",
+	"name": {
+		"de": "Erfoscher der Finsternis",
+		"en": "Dark Explorers",
+		"es": "Oscuros Exploradores",
+		"fr": "Explorateurs Obscurs",
+		"it": "Esploratori delle Tenebre",
+		"pt": "Exploradores da Escuridão"
+	},
+	"releaseDate": "2012-05-09",
+	"serie": "bw",
+	"tcgOnline": "DEX"
+}

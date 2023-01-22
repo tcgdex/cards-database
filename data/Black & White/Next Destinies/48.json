@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Disconnect",
+				"fr": "Déconnexion"
+			},
+			"effect": {
+				"en": "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
+				"fr": "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lightning Crash",
+				"fr": "Chute d'Éclairs"
+			},
+			"effect": {
+				"en": "Discard all Lightning Energy attached to this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 80 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		523
+	],
+	"evolveFrom": {
+		"en": "Blitzle",
+		"fr": "Zébibron"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Zebritz",
+		"en": "Zebstrika",
+		"es": "Zebstrika",
+		"fr": "Zéblitz",
+		"it": "Zebstrika",
+		"pt": "Zebstrika"
+	},
+	"rarity": "Rare",
+	"retreat": 0,
+	"set": "bw4",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

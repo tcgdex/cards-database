@@ -1,0 +1,68 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Max Shock",
+				"fr": "Éclairomax",
+				"es": "Maxidescarga",
+				"it": "Dynashock",
+				"pt": "Eletrochoque Max",
+				"de": "Dyna-Schock"
+			},
+			"damage": 180,
+			"effect": {
+				"en": "If you have more Prize cards remaining than your opponent, their Active Pokémon is now Paralyzed.",
+				"fr": "S'il vous reste plus de cartes Récompense qu'à votre adversaire, son Pokémon Actif est maintenant Paralysé.",
+				"es": "Si te quedan más cartas de Premio que a tu rival, su Pokémon Activo pasa a estar Paralizado.",
+				"it": "Se hai più carte Premio rimanenti del tuo avversario, il suo Pokémon attivo viene paralizzato.",
+				"pt": "Se você tiver mais cartas de Prêmio restantes do que seu oponente, o Pokémon Ativo dele(a) ficará Paralisado.",
+				"de": "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, ist sein Aktives Pokémon jetzt paralysiert."
+			},
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Tapu Koko V",
+		"fr": "Tokorico-V",
+		"es": "Tapu Koko V",
+		"it": "Tapu Koko-V",
+		"pt": "Tapu Koko V",
+		"de": "Kapu-Riki-V"
+	},
+	"hp": 320,
+	"illustrator": "PLANETA Tsuji",
+	"name": {
+		"de": "Kapu-Riki VMAX",
+		"en": "Tapu Koko VMAX",
+		"es": "Tapu Koko VMAX",
+		"fr": "Tokorico VMAX",
+		"it": "Tapu Koko VMAX",
+		"pt": "Tapu Koko VMAX"
+	},
+	"rarity": "Secret Rare",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "VMAX",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

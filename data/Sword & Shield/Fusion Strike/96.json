@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Lightning Ball"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Thunder"
+			},
+			"damage": 80,
+			"effect": {
+				"en": "This Pokémon also does 20 damage to itself."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity."
+	},
+	"evolveFrom": {
+		"en": "Tynamo",
+		"fr": "Anchwatt",
+		"es": "Tynamo",
+		"it": "Tynamo",
+		"pt": "Tynamo",
+		"de": "Zapplardin"
+	},
+	"hp": 90,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Zapplalek",
+		"en": "Eelektrik",
+		"es": "Eelektrik",
+		"fr": "Lampéroie",
+		"it": "Eelektrik",
+		"pt": "Eelektrik"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

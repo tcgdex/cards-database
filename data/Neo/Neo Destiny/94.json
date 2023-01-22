@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Regardez les cartes Récompense de votre adversaire. Vous pouvez l'obliger à les mélanger à son deck. Si c'est le cas, votre adversaire prend le même nombre de cartes au-dessus de son deck et les utilise comme nouvelles cartes Récompense (sans les regarder)."
+	},
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Impostor Professor Oak's Invention",
+		"fr": "L'invention du faux professeur Chen"
+	},
+	"rarity": "Rare",
+	"set": "neo4"
+}

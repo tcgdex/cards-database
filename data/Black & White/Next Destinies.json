@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 99,
+	"id": "bw4",
+	"name": {
+		"de": "Kommende Schicksale",
+		"en": "Next Destinies",
+		"es": "Próximos Destinos",
+		"fr": "Destinées Futures",
+		"it": "Destini Futuri",
+		"pt": "Próximos Destinos"
+	},
+	"releaseDate": "2012-02-08",
+	"serie": "bw",
+	"tcgOnline": "NXD"
+}

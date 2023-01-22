@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Deep Sea Pressure"
+			},
+			"effect": {
+				"en": "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless Colorless more."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aqua Wave"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		369
+	],
+	"hp": 80,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Relicanth"
+	},
+	"rarity": "Rare",
+	"set": "pl3",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+20"
+		}
+	]
+}

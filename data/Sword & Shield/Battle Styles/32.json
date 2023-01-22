@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O",
+				"es": "Pistola Agua",
+				"it": "Pistolacqua",
+				"pt": "Revólver d'Água",
+				"de": "Aquaknarre"
+			},
+			"damage": 40,
+			"cost": [
+				"Water"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail."
+	},
+	"evolveFrom": {
+		"en": "Horsea",
+		"fr": "Hypotrempe",
+		"es": "Horsea",
+		"it": "Horsea",
+		"pt": "Horsea",
+		"de": "Seeper"
+	},
+	"hp": 90,
+	"illustrator": "0313",
+	"name": {
+		"de": "Seemon",
+		"en": "Seadra",
+		"es": "Seadra",
+		"fr": "Hypocéan",
+		"it": "Seadra",
+		"pt": "Seadra"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

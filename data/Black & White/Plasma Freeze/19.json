@@ -1,0 +1,50 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Smokescreen",
+				"fr": "Brouillard"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				"fr": "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c’est pile, son attaque ne fait rien."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		117
+	],
+	"evolveFrom": {
+		"en": "Horsea",
+		"fr": "Hypotrempe"
+	},
+	"hp": 80,
+	"illustrator": "Kyoko Umemoto",
+	"name": {
+		"de": "Seemon",
+		"en": "Seadra",
+		"es": "Seadra",
+		"fr": "Hypocéan",
+		"it": "Seadra",
+		"pt": "Seadra"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw9",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

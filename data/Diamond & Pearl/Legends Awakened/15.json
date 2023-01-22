@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Slow Start",
+				"fr": "Début Calme"
+			},
+			"effect": {
+				"en": "Regigigas can't attack until your opponent has 3 or less Prize cards left.",
+				"fr": "Regigigas ne peut attaquer que s'il ne reste plus à votre adversaire qu'un maximum de 3 cartes Récompense."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Fighting",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crush Grip",
+				"fr": "Presse"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 40 instead of 120.",
+				"fr": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 40 au lieu de 120."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
+	},
+	"dexId": [
+		486
+	],
+	"hp": 120,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Regigigas",
+		"fr": "Regigigas"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "dp6",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

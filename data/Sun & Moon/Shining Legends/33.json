@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Tag Team Boost",
+				"fr": "Boost de Groupe",
+				"es": "Más Juego en Equipo",
+				"it": "Carica Squadra",
+				"pt": "Medalha de Impulso",
+				"de": "Tag-Team-Aufladung"
+			},
+			"effect": {
+				"en": "If Minun is on your Bench, this attack does 50 more damage.",
+				"fr": "Si Négapi est sur votre Banc, cette attaque inflige 50 dégâts supplémentaires.",
+				"es": "Si Minun está en tu Banca, este ataque hace 50 puntos de daño más.",
+				"it": "Se Minun è nella tua panchina, questo attacco infligge 50 danni in più.",
+				"pt": "Se Minun estiver no seu Banco, este ataque causará 50 pontos de dano a mais.",
+				"de": "Wenn sich Minun auf deiner Bank befindet, fügt diese Attacke 50 Schadenspunkte mehr zu."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		311
+	],
+	"hp": 70,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Plusle",
+		"en": "Plusle",
+		"es": "Plusle",
+		"fr": "Posipi",
+		"it": "Plusle",
+		"pt": "Plusle"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm3.5",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

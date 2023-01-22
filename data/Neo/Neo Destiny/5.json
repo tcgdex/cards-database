@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Pokemon Power",
+			"name": {
+				"en": "Scare",
+				"fr": "Frayeur"
+			},
+			"effect": {
+				"en": "As long as Dark Feraligatr is your Active Pokémon, all of your opponent's Baby Pokémon Powers stop working and your opponent's Baby Pokémon can't attack. This power stops working while Dark Feraligatr is Asleep, Confused, or Paralyzed.",
+				"fr": "Tant qu'Aligatueur obscur reste votre Pokémon Actif, tous les Pouvoirs des Bébés Pokémon de votre adversaire cessent de fonctionner et les Bébés Pokémon de votre adversaire ne peuvent pas attaquer. Ce pouvoir cesse de fonctionner si Aligatueur obscur est Endormi, Confus ou Paralysé."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Crushing Blow",
+				"fr": "Koud'dent"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those cards and discard it.",
+				"fr": "Si des cartes Énergie sont attachées au Pokémon Défenseur, lancez une pièce. Si c'est face, choisissez-en une et obligez votre adversaire à s'en défausser."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Ses muscles surpuissants lui permettent de se déplacer très vite et ce, malgré sa forte corpulence."
+	},
+	"dexId": [
+		160
+	],
+	"evolveFrom": {
+		"en": "Croconaw"
+	},
+	"hp": 80,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Dark Feraligatr",
+		"fr": "Aligatueur obscur"
+	},
+	"rarity": "Rare",
+	"set": "neo4",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

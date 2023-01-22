@@ -1,0 +1,57 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Super Poison Breath",
+				"fr": "Super haleine empoisonnée"
+			},
+			"effect": {
+				"en": "Each Defending Pokémon is now Poisoned.",
+				"fr": "Chaque Pokémon Défenseur est maintenant Empoisonné."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sonic Signal",
+				"fr": "Signal ultrason"
+			},
+			"effect": {
+				"en": "Choose 2 of your opponent's Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Choisissez 2 des Pokémon de votre adversaire. Cette attaque leur inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		42
+	],
+	"evolveFrom": {
+		"en": "Zubat"
+	},
+	"hp": 70,
+	"illustrator": "Yukiko Baba",
+	"name": {
+		"en": "Golbat",
+		"fr": "Nosferalto"
+	},
+	"rarity": "Uncommon",
+	"set": "ex11",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

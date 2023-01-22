@@ -1,0 +1,65 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Powder Snow",
+				"fr": "Poudreuse",
+				"es": "Nieve Polvo",
+				"it": "Polneve",
+				"pt": "Neve em Pó",
+				"de": "Pulverschnee"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent’s Active Pokémon is now Asleep.",
+				"fr": "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Adormecido.",
+				"de": "Wirf 1 Münze. Bei Kopf schläft das Aktive Pokémon deines Gegners jetzt."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Icy Snow",
+				"fr": "Verglas",
+				"es": "Nieve Helada",
+				"it": "Geloneve",
+				"pt": "Neve Congelada",
+				"de": "Eisiger Schnee"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		37
+	],
+	"hp": 60,
+	"illustrator": "Saya Tsuruta",
+	"name": {
+		"de": "Alola Vulpix",
+		"en": "Alolan Vulpix",
+		"es": "Vulpix de Alola",
+		"fr": "Goupix d’Alola",
+		"it": "Vulpix di Alola",
+		"pt": "Vulpix de Alola"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "sm3",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

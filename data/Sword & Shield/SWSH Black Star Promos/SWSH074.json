@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Happy Delivery",
+				"pt": "Happy Delivery"
+			},
+			"effect": {
+				"en": "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",
+				"pt": "Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Electro Ball",
+				"pt": "Electro Ball"
+			},
+			"damage": 30,
+			"cost": [
+				"Lightning",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+	},
+	"dexId": [
+		25
+	],
+	"hp": 60,
+	"illustrator": "Illus. & Direc. The Pokémon Company Art Team",
+	"name": {
+		"en": "Special Delivery Pikachu",
+		"pt": "Special Delivery Pikachu"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

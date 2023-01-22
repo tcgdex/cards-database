@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 106,
+	"id": "xy2",
+	"name": {
+		"de": "Flammenmeer",
+		"en": "Flashfire",
+		"es": "Destellos de Fuego",
+		"fr": "Étincelles",
+		"it": "Fuoco Infernale",
+		"pt": "Flash de Fogo"
+	},
+	"releaseDate": "2014-05-07",
+	"serie": "xy",
+	"tcgOnline": "FLF"
+}

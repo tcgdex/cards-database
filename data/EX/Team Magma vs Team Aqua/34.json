@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless"
+			],
+			"name": {
+				"en": "Target Scorch",
+				"fr": "Brûlure ciblée"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Burned.",
+				"fr": "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Brûlé."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Damage Burn",
+				"fr": "Dégâts brûlants"
+			},
+			"effect": {
+				"en": "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.",
+				"fr": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+			},
+			"damage": "40+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		229
+	],
+	"hp": 70,
+	"illustrator": "Ken Ikuji",
+	"name": {
+		"en": "Team Magma's Houndoom",
+		"fr": "Démolosse de Team Magma"
+	},
+	"rarity": "Uncommon",
+	"set": "ex4",
+	"stage": "Stage1",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

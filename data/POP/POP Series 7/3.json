@@ -1,0 +1,74 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Miraculous Light",
+				"fr": "Lumière miraculeuse"
+			},
+			"effect": {
+				"en": "Remove 2 damage counters and all Special Conditions from Latias.",
+				"fr": "Retirez à Latias 2 marqueurs de dégât ainsi que tous ses États Spéciaux."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Fire",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mist Ball",
+				"fr": "Boule de brume"
+			},
+			"effect": {
+				"en": "Discard a Fire Energy and a Water Energy attached to Latias.",
+				"fr": "Défaussez une Énergie  et une Énergie  attachée à Latias."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its body is covered with a down that can refract light in such a way that it becomes invisble.",
+		"fr": "Son corps est recouvert d'un duvet qui reflète la lumière et le rend invisible."
+	},
+	"dexId": [
+		380
+	],
+	"hp": 80,
+	"illustrator": "Daisuke Ito",
+	"name": {
+		"en": "Latias",
+		"fr": "Latias"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pop7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "+20"
+		}
+	]
+}

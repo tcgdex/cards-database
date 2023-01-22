@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Splash",
+				"fr": "Trempette",
+				"es": "Salpicadura",
+				"it": "Splash",
+				"pt": "Borrifada",
+				"de": "Platscher"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		325
+	],
+	"hp": 60,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"de": "Spoink",
+		"en": "Spoink",
+		"es": "Spoink",
+		"fr": "Spoink",
+		"it": "Spoink",
+		"pt": "Spoink"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy1",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

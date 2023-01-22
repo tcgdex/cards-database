@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Combo-Griffe",
+				"en": "Fury Swipes",
+				"es": "Golpes Furia",
+				"it": "Sfuriate",
+				"pt": "Golpes de Fúria",
+				"de": "Kratzfurie"
+			},
+			"effect": {
+				"fr": "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+				"en": "Flip 3 coins. This attack does 10 damage for each heads.",
+				"es": "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				"it": "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				"pt": "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+				"de": "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			},
+			"damage": "10×",
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+	},
+	"hp": 60,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Chimpep",
+		"en": "Grookey",
+		"es": "Grookey",
+		"fr": "Ouistempo",
+		"it": "Grookey",
+		"pt": "Grookey"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

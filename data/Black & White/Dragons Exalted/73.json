@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Whirlwind",
+				"fr": "Cyclone"
+			},
+			"effect": {
+				"en": "You may have your opponent switch the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				"fr": "Vous pouvez demander à votre adversaire d'échanger le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Diving Swipe",
+				"fr": "Rafle Plongeante"
+			},
+			"effect": {
+				"en": "Discard a random card from your opponent's hand.",
+				"fr": "Défaussez au hasard une carte de la main de votre adversaire."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		430
+	],
+	"evolveFrom": {
+		"en": "Murkrow",
+		"fr": "Cornèbre"
+	},
+	"hp": 110,
+	"illustrator": "Shin Nagasawa",
+	"name": {
+		"de": "Kramshef",
+		"en": "Honchkrow",
+		"es": "Honchkrow",
+		"fr": "Corboss",
+		"it": "Honchkrow",
+		"pt": "Honchkrow"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

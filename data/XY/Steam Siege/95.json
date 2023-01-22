@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Glide",
+				"fr": "Glissement",
+				"es": "Planeo",
+				"it": "Aliante",
+				"pt": "Planeio",
+				"de": "Gleiten"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		662
+	],
+	"evolveFrom": {
+		"en": "Fletchling",
+		"fr": "Passerouge",
+		"es": "Fletchling",
+		"it": "Fletchling",
+		"pt": "Fletchling",
+		"de": "Dartiri"
+	},
+	"hp": 70,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Dartignis",
+		"en": "Fletchinder",
+		"es": "Fletchinder",
+		"fr": "Braisillon",
+		"it": "Fletchinder",
+		"pt": "Fletchinder"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy11",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

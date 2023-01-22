@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Rolling Tackle",
+				"fr": "Roulé-Boulé",
+				"es": "Placaje Giro",
+				"it": "Rollazione",
+				"pt": "Golpe de Colisão Rolante",
+				"de": "Rolltackle"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth."
+	},
+	"hp": 60,
+	"illustrator": "Mizue",
+	"name": {
+		"de": "Waumboll",
+		"en": "Cottonee",
+		"es": "Cottonee",
+		"fr": "Doudouvet",
+		"it": "Cottonee",
+		"pt": "Cottonee"
+	},
+	"rarity": "Common",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

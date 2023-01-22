@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lightning Turn",
+				"fr": "Tour éclair"
+			},
+			"effect": {
+				"en": "Switch Arceus with 1 of your Benched Pokémon.",
+				"fr": "Échangez Arceus avec 1 des Pokémon de votre Banc."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		493
+	],
+	"hp": 70,
+	"illustrator": "Wataru Kawahara",
+	"name": {
+		"en": "Arceus",
+		"fr": "Arceus"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

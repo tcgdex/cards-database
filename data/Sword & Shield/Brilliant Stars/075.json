@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Razor Wing",
+				"fr": "Aile Tranchante",
+				"es": "Ala Cortante",
+				"it": "Ala Tagliente",
+				"pt": "Asa Cortante",
+				"de": "Rasierflügel"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"en": "Trapinch",
+		"fr": "Kraknoix",
+		"es": "Trapinch",
+		"it": "Trapinch",
+		"pt": "Trapinch",
+		"de": "Knacklion"
+	},
+	"hp": 90,
+	"name": {
+		"de": "Vibrava",
+		"en": "Vibrava",
+		"es": "Vibrava",
+		"fr": "Vibraninf",
+		"it": "Vibrava",
+		"pt": "Vibrava"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "F",
+	"retreat": 1,
+	"set": "swsh9",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	]
+}

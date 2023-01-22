@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Rain Dish",
+				"fr": "Cuvette"
+			},
+			"effect": {
+				"en": "At any time between turns, remove 1 damage counter from Lombre.",
+				"fr": "N'importe quand entre deux tours, retirez à Lombre un marqueur de dégât."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Double Scratch",
+				"fr": "Double écorchure"
+			},
+			"effect": {
+				"en": "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				"fr": "Lancez deux pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de face."
+			},
+			"damage": "30×"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		271
+	],
+	"evolveFrom": {
+		"en": "Lotad"
+	},
+	"hp": 60,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"en": "Lombre",
+		"fr": "Lombre"
+	},
+	"rarity": "Uncommon",
+	"set": "ex2",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

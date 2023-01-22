@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf",
+				"es": "Surf",
+				"it": "Surf",
+				"pt": "Surfe",
+				"de": "Surfer"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 50,
+	"illustrator": "Toshinao Aoki",
+	"name": {
+		"de": "Surfendes Pikachu",
+		"en": "Surfing Pikachu",
+		"es": "Pikachu Surf",
+		"fr": "Pikachu Surfeur",
+		"it": "Pikachu Surf",
+		"pt": "Pikachu Surfista"
+	},
+	"rarity": "Secret Rare",
+	"retreat": 1,
+	"set": "xy12",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

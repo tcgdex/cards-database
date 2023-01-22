@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wild Fury",
+				"fr": "Furie Sauvage",
+				"es": "Furia Salvaje",
+				"it": "Urtoferoce",
+				"pt": "Fúria Selvagem",
+				"de": "Wilde Wut"
+			},
+			"effect": {
+				"en": "Flip a coin until you get tails. This attack does 40 more damage for each heads.",
+				"fr": "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
+				"es": "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño más por cada cara.",
+				"it": "Lancia una moneta finché non esce croce. Ogni volta che esce testa, questo attacco infligge 40 danni in più.",
+				"pt": "Jogue uma moeda até sair coroa. Este ataque causa 40 de danos adicionais para cada cara.",
+				"de": "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 40 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			"damage": "130+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		405
+	],
+	"evolveFrom": {
+		"en": "Luxray",
+		"fr": "Luxray",
+		"es": "Luxray",
+		"it": "Luxray",
+		"pt": "Luxray",
+		"de": "Luxtra"
+	},
+	"hp": 170,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "Luxtra-TURBO",
+		"en": "Luxray BREAK",
+		"es": "Luxray TURBO",
+		"fr": "Luxray TURBO",
+		"it": "Luxray TURBO",
+		"pt": "Luxray TURBO"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 0,
+	"set": "xy9",
+	"stage": "BREAK",
+	"types": [
+		"Lightning"
+	]
+}

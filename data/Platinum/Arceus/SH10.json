@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Star Barrier"
+			},
+			"effect": {
+				"en": "As long as Bagon has any Energy attached to it, Bagon has no Weakness."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Rage"
+			},
+			"effect": {
+				"en": "Flip 2 coins. If either of them is tails, this attack does nothing."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		371
+	],
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"en": "Bagon"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl4",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Colorless",
+			"value": "+10"
+		}
+	]
+}

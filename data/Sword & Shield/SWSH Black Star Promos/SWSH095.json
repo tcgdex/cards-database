@@ -1,0 +1,79 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "First Step",
+				"fr": "Premier Pas",
+				"es": "Primer Paso",
+				"it": "Primo Passo",
+				"pt": "First Step",
+				"de": "Erster Schritt"
+			},
+			"effect": {
+				"en": "Draw a card.",
+				"fr": "Piochez une carte.",
+				"es": "Roba 1 carta.",
+				"it": "Pesca una carta.",
+				"pt": "Draw a card.",
+				"de": "Ziehe 1 Karte."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Tail Whap",
+				"fr": "Queue Battoir",
+				"es": "Coletón",
+				"it": "Codabotta",
+				"pt": "Tail Whap",
+				"de": "Schweifvertrimmer"
+			},
+			"damage": 30,
+			"cost": [
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+	"dexId": [
+		133
+	],
+	"hp": 60,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Evoli",
+		"en": "Eevee",
+		"es": "Eevee",
+		"fr": "Évoli",
+		"it": "Eevee",
+		"pt": "Eevee"
+	},
+	"rarity": "None",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swshp",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

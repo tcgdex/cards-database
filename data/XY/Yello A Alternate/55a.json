@@ -1,0 +1,41 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"fr": "Poing Imminent"
+			},
+			"effect": {
+				"fr": "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
+			},
+			"damage": 140
+		}
+	],
+	"category": "Pokemon",
+	"evolveFrom": {
+		"fr": "Lucario-ex"
+	},
+	"hp": 220,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"fr": "M-Lucario-ex"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "xya",
+	"stage": "MEGA",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

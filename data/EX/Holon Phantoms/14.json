@@ -1,0 +1,66 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Delta Reserve",
+				"fr": "Réserve Delta"
+			},
+			"effect": {
+				"en": "As long as Pidgeot has any Holon Energy cards attached to it, each player's Pokémon (excluding Pokémon that has δ on its card) can't use any Poké-Powers.",
+				"fr": "Tant que Roucarnage possède des cartes Énergie Holon, les Pokémon de chaque joueur (Pokémon possédant le symbole δ exclus) ne peuvent pas utiliser de Poké-Powers."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rotating Claws",
+				"fr": "Griffes tournantes"
+			},
+			"effect": {
+				"en": "You may discard an Energy card attached to Pidgeot. If you do, search your discard pile for an Energy card (excluding the one you discarded) and attach it to Pidgeot.",
+				"fr": "Vous pouvez défausser une carte Énergie attachée à Roucarnage. Choisissez alors dans votre pile de défausse une carte Énergie (celle que vous venez de défausser exclue) et attachez-la à Roucarnage."
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		18
+	],
+	"evolveFrom": {
+		"en": "Pidgeotto"
+	},
+	"hp": 100,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Pidgeot δ",
+		"fr": "Roucarnage δ ESPÈCES DELTA"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"set": "ex13",
+	"stage": "Stage2",
+	"types": [
+		"Lightning",
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Surprise Attack",
+				"fr": "Attaque Surprise",
+				"es": "Ataque Sorpresa",
+				"it": "Attacco a Sorpresa",
+				"pt": "Ataque Surpresa",
+				"de": "Überraschungsangriff"
+			},
+			"effect": {
+				"en": "Flip a coin. If tails, this attack does nothing.",
+				"fr": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				"es": "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				"it": "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				"pt": "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				"de": "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			},
+			"damage": 30,
+			"cost": [
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The powder that covers its body regulates its temperature, so it can live in any region or climate."
+	},
+	"hp": 40,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Purmel",
+		"en": "Scatterbug",
+		"es": "Scatterbug",
+		"fr": "Lépidonille",
+		"it": "Scatterbug",
+		"pt": "Scatterbug"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh5",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-POWER",
+			"name": {
+				"en": "Wash Out",
+				"fr": "Partir au lavage"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may move a Water or Fighting Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
+				"fr": "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une Énergie Water ou Fighting attachée à 1 des Pokémon de votre Banc sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hammer Arm",
+				"fr": "Matro-Poing"
+			},
+			"effect": {
+				"en": "Discard the top card from your opponent's deck.",
+				"fr": "Défaussez la carte du dessus du deck de votre adversaire."
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		260
+	],
+	"evolveFrom": {
+		"en": "Marshtomp",
+		"fr": "Flobio"
+	},
+	"hp": 130,
+	"illustrator": "Kouki Saitou",
+	"name": {
+		"en": "Swampert",
+		"fr": "Laggron"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "dp4",
+	"stage": "Stage2",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "+30"
+		}
+	]
+}

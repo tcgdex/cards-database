@@ -1,0 +1,73 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Pika Shield",
+				"fr": "Pika Bouclier",
+				"es": "Escudo Pika",
+				"it": "Pika-Difesa",
+				"pt": "Escudo Pikachu",
+				"de": "Pika-Schutz"
+			},
+			"effect": {
+				"en": "This Pokémon can’t be Paralyzed.",
+				"fr": "Ce Pokémon ne peut pas être Paralysé.",
+				"es": "Este Pokémon no puede pasar a estar Paralizado.",
+				"it": "Questo Pokémon non può venire paralizzato.",
+				"pt": "Este Pokémon não pode ser Paralisado.",
+				"de": "Dieses Pokémon kann nicht paralysiert werden."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Static Shock",
+				"fr": "Choc Statique",
+				"es": "Impacto Estático",
+				"it": "Shock statico",
+				"pt": "Choque de Estática",
+				"de": "Statischer Schock"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		25
+	],
+	"hp": 60,
+	"illustrator": "Megumi Mizutani",
+	"name": {
+		"de": "Pikachu",
+		"en": "Pikachu",
+		"es": "Pikachu",
+		"fr": "Pikachu",
+		"it": "Pikachu",
+		"pt": "Pikachu"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "smp",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 149,
+	"id": "bw7",
+	"name": {
+		"de": "Überschrittene Schwellen",
+		"en": "Boundaries Crossed",
+		"es": "Fronteras Cruzadas",
+		"fr": "Frontières Franchies",
+		"it": "Confini Varcati",
+		"pt": "Fronteiras Cruzadas"
+	},
+	"releaseDate": "2012-11-07",
+	"serie": "bw",
+	"tcgOnline": "BCR"
+}

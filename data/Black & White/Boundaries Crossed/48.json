@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Rising Lunge",
+				"fr": "Botte Secrète"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 20 more damage.",
+				"fr": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Hydro Kick",
+				"fr": "Pied Hydro"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		647
+	],
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Keldeo",
+		"en": "Keldeo",
+		"es": "Keldeo",
+		"fr": "Keldeo",
+		"it": "Keldeo",
+		"pt": "Keldeo"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

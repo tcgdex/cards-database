@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Focus Energy",
+				"fr": "Puissance",
+				"es": "Foco Energía",
+				"it": "Focalenergia",
+				"pt": "Focalizar Energia",
+				"de": "Energiefokus"
+			},
+			"effect": {
+				"en": "During your next turn, this Pokémon's Flop attack's base damage is 50.",
+				"fr": "Pendant votre prochain tour, les dégâts de base de l'attaque Flop de ce Pokémon sont de 50.",
+				"es": "Durante tu próximo turno, el daño básico del ataque Vuelta de este Pokémon es de 50.",
+				"it": "Durante il tuo prossimo turno, i danni base dell'attacco Tonfo di questo Pokémon sono 50.",
+				"pt": "Durante sua próxima vez de jogar, o dano base do ataque Baque deste Pokémon será 50.",
+				"de": "Während deines nächsten Zuges beträgt der Grundschaden der Attacke Plumps dieses Pokémon 50 Schadenspunkte."
+			}
+		},
+		{
+			"cost": [
+				"Fighting"
+			],
+			"name": {
+				"en": "Flop",
+				"fr": "Flop",
+				"es": "Vuelta",
+				"it": "Tonfo",
+				"pt": "Baque",
+				"de": "Plumps"
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		56
+	],
+	"hp": 60,
+	"illustrator": "Hitoshi Ariga",
+	"name": {
+		"de": "Menki",
+		"en": "Mankey",
+		"es": "Mankey",
+		"fr": "Férosinge",
+		"it": "Mankey",
+		"pt": "Mankey"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "xy11",
+	"stage": "Basic",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

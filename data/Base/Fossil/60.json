@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Mélangez votre main dans votre deck. Lancez une pièce. Si c'est face, piochez 8 cartes. Si c'est pile, piochez 1 carte."
+	},
+	"illustrator": "Keiji Kinebuchi",
+	"name": {
+		"en": "Gambler",
+		"fr": "Joueur"
+	},
+	"rarity": "Common",
+	"set": "base3"
+}

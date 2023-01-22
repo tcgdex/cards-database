@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tangle Drag",
+				"fr": "Lasso Piège"
+			},
+			"effect": {
+				"en": "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.",
+				"fr": "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur."
+			}
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Spiral Drain",
+				"fr": "Spirale Épuisante"
+			},
+			"effect": {
+				"en": "Heal 20 damage from this Pokémon.",
+				"fr": "Soignez 20 dégâts à ce Pokémon."
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		268
+	],
+	"evolveFrom": {
+		"en": "Wurmple",
+		"fr": "Chenipotte"
+	},
+	"hp": 80,
+	"illustrator": "match",
+	"name": {
+		"de": "Panekon",
+		"en": "Cascoon",
+		"es": "Cascoon",
+		"fr": "Blindalys",
+		"it": "Cascoon",
+		"pt": "Cascoon"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw6",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

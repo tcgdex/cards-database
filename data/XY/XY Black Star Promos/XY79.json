@@ -1,0 +1,53 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Glide",
+				"fr": "Glissement"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Sky Blade"
+			},
+			"effect": {
+				"en": "If Latias is on your Bench, this attack does 50 more damage."
+			},
+			"damage": "70+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		381
+	],
+	"hp": 100,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"en": "Latios",
+		"fr": "Latios"
+	},
+	"rarity": "None",
+	"retreat": 1,
+	"set": "xyp",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

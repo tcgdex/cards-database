@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Lightning"
+			],
+			"name": {
+				"en": "Plasma",
+				"fr": "Plasma"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Shinx.",
+				"fr": "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Lixy."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		403
+	],
+	"hp": 60,
+	"illustrator": "Lee HyunJung",
+	"name": {
+		"en": "Shinx",
+		"fr": "Lixy"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"set": "dp2",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "+10"
+		}
+	]
+}

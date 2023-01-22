@@ -1,0 +1,14 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 147,
+	"id": "ecard2",
+	"name": {
+		"de": "Aquapolis",
+		"en": "Aquapolis",
+		"fr": "Aquapolis",
+		"it": "Aquapolis"
+	},
+	"releaseDate": "2003-01-15",
+	"serie": "ecard",
+	"tcgOnline": "AQ"
+}

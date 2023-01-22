@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Flail",
+				"fr": "Nageoire"
+			},
+			"effect": {
+				"en": "Does 10 damage times the number of damage counters on Kingler.",
+				"fr": "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Krabboss."
+			},
+			"damage": "10×"
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Crabhammer",
+				"fr": "Pince-masse"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante."
+	},
+	"dexId": [
+		99
+	],
+	"evolveFrom": {
+		"en": "Krabby"
+	},
+	"hp": 60,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Kingler",
+		"fr": "Krabboss"
+	},
+	"rarity": "Uncommon",
+	"set": "base3",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

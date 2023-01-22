@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Water Gun"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Vise Grip"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight."
+	},
+	"hp": 70,
+	"illustrator": "Pani Kobayashi",
+	"name": {
+		"de": "Scampisto",
+		"en": "Clauncher",
+		"es": "Clauncher",
+		"fr": "Flingouste",
+		"it": "Clauncher",
+		"pt": "Clauncher"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

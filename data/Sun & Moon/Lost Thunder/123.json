@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Digging Dash",
+				"fr": "Cours et Creuse",
+				"es": "Choque Excavación",
+				"it": "Corsa Escavatrice",
+				"pt": "Arremetida Subterrânea",
+				"de": "Schaufellauf"
+			},
+			"effect": {
+				"en": "This attack’s damage isn’t affected by Weakness or Resistance.",
+				"fr": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				"es": "El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
+				"it": "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
+				"pt": "O dano deste ataque não é afetado por Fraqueza ou Resistência.",
+				"de": "Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		51
+	],
+	"evolveFrom": {
+		"en": "Alolan Diglett",
+		"fr": "Taupiqueur d’Alola"
+	},
+	"hp": 90,
+	"illustrator": "Yuka Morii",
+	"name": {
+		"de": "Alola-Digdri",
+		"en": "Alolan Dugtrio",
+		"es": "Dugtrio de Alola",
+		"fr": "Triopikeur d’Alola",
+		"it": "Dugtrio di Alola",
+		"pt": "Dugtrio de Alola"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

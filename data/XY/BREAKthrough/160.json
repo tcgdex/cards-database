@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psychic Infinity",
+				"fr": "Infinité Psy",
+				"es": "Infinidad Psíquica",
+				"it": "Infinito Psichico",
+				"pt": "Infinidade Psíquica",
+				"de": "Seelische Unendlichkeit"
+			},
+			"effect": {
+				"en": "This attack does 30 more damage times the amount of Energy attached to both Active Pokémon. This attack's damage isn't affected by Weakness.",
+				"fr": "Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d'Énergies attachées aux deux Pokémon Actifs. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse.",
+				"es": "Este ataque hace 30 puntos de daño más por cada Energía unida a ambos Pokémon Activos. El daño de este ataque no se ve afectado por Debilidad.",
+				"it": "Questo attacco infligge 30 danni in più per ogni Energia assegnata a ciascuno dei Pokémon attivi. I danni di questo attacco non sono influenzati dalla debolezza.",
+				"pt": "Este ataque causa 30 de danos adicionais vezes a quantidade de Energia ligada a ambos os Pokémon Ativos. Os danos deste ataque não são afetados por Fraqueza.",
+				"de": "Dieser Angriff fügt weitere 30 Schadenspunkte mal der Anzahl der an beide Aktiven Pokémon angelegten Energien zu. Der Schaden dieses Angriffs wird durch Schwäche nicht verändert."
+			},
+			"damage": "10+"
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		150
+	],
+	"evolveFrom": {
+		"en": "Mewtwo-EX",
+		"fr": "Mewtwo-EX",
+		"es": "Mewtwo-EX",
+		"it": "Mewtwo-EX",
+		"pt": "Mewtwo-EX",
+		"de": "Mewtu-EX"
+	},
+	"hp": 210,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"de": "M-Mewtu EX",
+		"en": "M Mewtwo EX",
+		"es": "M-Mewtwo EX",
+		"fr": "M-Mewtwo EX",
+		"it": "M Mewtwo EX",
+		"pt": "M-Mewtwo EX"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 2,
+	"set": "xy8",
+	"stage": "MEGA",
+	"suffix": "EX",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

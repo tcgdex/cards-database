@@ -1,0 +1,13 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Attachez Baie miracle à un de vos Pokémon qui n'a pas d'Outil Pokémon attaché à lui.\n\nN'importe quand entre deux tours, si le Pokémon auquel est attaché Baie miracle est Endormi, Confus, Paralysé ou Empoisonné, vous pouvez retirer tous ces effets de ce Pokémon et défausser Baie miracle. Au début de chaque tour, si le Pokémon auquel est attaché Baie miracle est Endormi, Confus, Paralysé ou Empoisonné, retirez tous ces effets de ce Pokémon et défaussez Baie miracle."
+	},
+	"name": {
+		"en": "Miracle Berry",
+		"fr": "Baie miracle"
+	},
+	"rarity": "Uncommon",
+	"set": "neo1"
+}

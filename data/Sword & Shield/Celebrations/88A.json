@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Versatile"
+			},
+			"effect": {
+				"en": "Mew ex can use the attacks of all Pokémon in play as its own. (You still need the necessary Energy to use each attack.)"
+			}
+		}
+	],
+	"attacks": [
+		{
+			"name": {
+				"en": "Power Move"
+			},
+			"effect": {
+				"en": "Search your deck for an Energy card and attach it to Mew ex. Shuffle your deck afterward. Then, you may switch Mew ex with 1 of your Benched Pokémon."
+			},
+			"cost": [
+				"Psychic",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"hp": 90,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Mew ex"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 1,
+	"set": "cel25",
+	"stage": "Basic",
+	"suffix": "EX",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": ""
+		}
+	]
+}

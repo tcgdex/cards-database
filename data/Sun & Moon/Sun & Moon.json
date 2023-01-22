@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 149,
+	"id": "sm1",
+	"name": {
+		"de": "Sonne & Mond",
+		"en": "Sun & Moon",
+		"es": "Sol y Luna",
+		"fr": "Soleil et Lune",
+		"it": "Sole e Luna",
+		"pt": "Sol e Lua"
+	},
+	"releaseDate": "2017-02-03",
+	"serie": "sm",
+	"tcgOnline": "SUM"
+}

@@ -1,0 +1,48 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Wave Splash",
+				"fr": "Grosse vague"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Razor Fin",
+				"fr": "Aileron-rasoir"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		318
+	],
+	"hp": 50,
+	"illustrator": "Hiromichi Sugiyama",
+	"name": {
+		"en": "Team Aqua's Carvanha",
+		"fr": "Carvanha de Team Aqua"
+	},
+	"rarity": "Common",
+	"set": "ex4",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

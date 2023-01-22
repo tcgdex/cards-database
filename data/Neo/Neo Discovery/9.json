@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Corkscrew Punch",
+				"fr": "Poing tire-bouchon"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Submission",
+				"fr": "Sacrifice"
+			},
+			"effect": {
+				"en": "Poliwrath does 20 damage to itself.",
+				"fr": "Tartard s'inflige 20 dégâts."
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
+	},
+	"dexId": [
+		62
+	],
+	"evolveFrom": {
+		"en": "Poliwhirl"
+	},
+	"hp": 90,
+	"illustrator": "Shin-ichi Yoshida",
+	"name": {
+		"en": "Poliwrath",
+		"fr": "Tartard"
+	},
+	"rarity": "Rare",
+	"set": "neo2",
+	"stage": "Stage2",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

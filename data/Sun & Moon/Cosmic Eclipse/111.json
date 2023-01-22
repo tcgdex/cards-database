@@ -1,0 +1,67 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Bug Bite",
+				"fr": "Piqûre",
+				"es": "Picadura",
+				"it": "Coleomorso",
+				"pt": "Picada",
+				"de": "Käferbiss"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Claw Slash",
+				"fr": "Tranch’Griffe",
+				"es": "Cuchillada Garra",
+				"it": "Lacerartiglio",
+				"pt": "Golpe de Garra",
+				"de": "Klauenschlitzer"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		347
+	],
+	"evolveFrom": {
+		"en": "Unidentified Fossil",
+		"fr": "Fossile Inconnu"
+	},
+	"hp": 90,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"de": "Anorith",
+		"en": "Anorith",
+		"es": "Anorith",
+		"fr": "Anorith",
+		"it": "Anorith",
+		"pt": "Anorith"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "sm12",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

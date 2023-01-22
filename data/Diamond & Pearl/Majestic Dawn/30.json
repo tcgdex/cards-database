@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Earthquake",
+				"fr": "Séisme"
+			},
+			"effect": {
+				"en": "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				"fr": "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Frenzy Plant",
+				"fr": "Vege-Attak"
+			},
+			"effect": {
+				"en": "Torterra can't use Frenzy Plant during your next turn.",
+				"fr": "Torterra ne peut pas utiliser Vege-Attak lors de votre prochain tour."
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		389
+	],
+	"evolveFrom": {
+		"en": "Grotle",
+		"fr": "Boskara"
+	},
+	"hp": 140,
+	"illustrator": "Daisuke Ito",
+	"name": {
+		"en": "Torterra",
+		"fr": "Torterra"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "dp5",
+	"stage": "Stage2",
+	"types": [
+		"Grass"
+	],
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "+30"
+		}
+	]
+}

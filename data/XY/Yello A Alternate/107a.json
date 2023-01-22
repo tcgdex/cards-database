@@ -1,0 +1,14 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Défaussez votre main et piochez 7 cartes."
+	},
+	"illustrator": "Naoki Saito",
+	"name": {
+		"fr": "Professeur Platane"
+	},
+	"rarity": "Uncommon",
+	"set": "xya",
+	"trainerType": "Supporter"
+}

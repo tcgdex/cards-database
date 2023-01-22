@@ -1,0 +1,78 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Lead",
+				"fr": "Mentor",
+				"es": "Liderazgo",
+				"it": "Guidare",
+				"pt": "Lead",
+				"de": "Führen"
+			},
+			"effect": {
+				"en": "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+				"fr": "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				"es": "Busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+				"it": "Cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				"pt": "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+				"de": "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			},
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Tackle",
+				"fr": "Charge",
+				"es": "Placaje",
+				"it": "Azione",
+				"pt": "Tackle",
+				"de": "Tackle"
+			},
+			"damage": 20,
+			"cost": [
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise."
+	},
+	"dexId": [
+		506
+	],
+	"hp": 60,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Yorkleff",
+		"en": "Lillipup",
+		"es": "Lillipup",
+		"fr": "Ponchiot",
+		"it": "Lillipup",
+		"pt": "Lillipup"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh7",
+	"stage": "Basic",
+	"types": [
+		"Colorless"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

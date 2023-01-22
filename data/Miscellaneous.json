@@ -1,0 +1,8 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"id": "misc",
+	"name": {
+		"en": "Miscellaneous",
+		"fr": "Autre"
+	}
+}

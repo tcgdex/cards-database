@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Razor Leaf",
+				"fr": "Tranch'Herbe",
+				"es": "Hoja Afilada",
+				"it": "Foglielama",
+				"pt": "Folha Navalha",
+				"de": "Rasierblatt"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy."
+	},
+	"evolveFrom": {
+		"en": "Seedot",
+		"fr": "Grainipiot",
+		"es": "Seedot",
+		"it": "Seedot",
+		"pt": "Seedot",
+		"de": "Samurzel"
+	},
+	"hp": 80,
+	"illustrator": "otumami",
+	"name": {
+		"de": "Blanas",
+		"en": "Nuzleaf",
+		"es": "Nuzleaf",
+		"fr": "Pifeuil",
+		"it": "Nuzleaf",
+		"pt": "Nuzleaf"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "D",
+	"retreat": 1,
+	"set": "swsh4",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

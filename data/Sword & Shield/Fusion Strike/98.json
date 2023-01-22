@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Gnaw"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electro Ball"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness."
+	},
+	"hp": 70,
+	"illustrator": "Mina Nakai",
+	"name": {
+		"de": "Eguana",
+		"en": "Helioptile",
+		"es": "Helioptile",
+		"fr": "Galvaran",
+		"it": "Helioptile",
+		"pt": "Helioptile"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Lightning"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

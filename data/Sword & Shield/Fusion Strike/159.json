@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Lick"
+			},
+			"damage": 10,
+			"effect": {
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
+	},
+	"hp": 60,
+	"illustrator": "Eri Yamaki",
+	"name": {
+		"de": "Galar-Zigzachs",
+		"en": "Galarian Zigzagoon",
+		"es": "Zigzagoon de Galar",
+		"fr": "Zigzaton de Galar",
+		"it": "Zigzagoon di Galar",
+		"pt": "Zigzagoon de Galar"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Darkness"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

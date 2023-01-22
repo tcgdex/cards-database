@@ -1,0 +1,84 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Slashing Claw",
+				"fr": "Griffe Taillante",
+				"es": "Garra Cuchillazo",
+				"it": "Artigli Laceranti",
+				"pt": "Garra Cortadora",
+				"de": "Schlitzende Klaue"
+			},
+			"damage": 40,
+			"cost": [
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Rapid-Fisted Rush",
+				"fr": "Mille Poings Chargés",
+				"es": "Embestida de Puño Fluido",
+				"it": "Pugni Raffica Rapida",
+				"pt": "Fúria de Punho Rápido",
+				"de": "Fließende Fäuste"
+			},
+			"effect": {
+				"en": "This attack does 30 damage for each of your Rapid Strike Pokémon in play.",
+				"fr": "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Mille Poings en jeu.",
+				"es": "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fluido en juego.",
+				"it": "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Rapido in gioco.",
+				"pt": "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fluido em jogo.",
+				"de": "Diese Attacke fügt für jedes deiner Fließender-Angriff-Pokémon im Spiel 30 Schadenspunkte zu."
+			},
+			"damage": "30×",
+			"cost": [
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river."
+	},
+	"evolveFrom": {
+		"en": "Kubfu",
+		"fr": "Wushours",
+		"es": "Kubfu",
+		"it": "Kubfu",
+		"pt": "Kubfu",
+		"de": "Dakuma"
+	},
+	"hp": 140,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Fließender-Angriff-Wulaosu",
+		"en": "Rapid Strike Urshifu",
+		"es": "Urshifu Golpe Fluido",
+		"fr": "Shifours Mille Poings",
+		"it": "Urshifu Pluricolpo",
+		"pt": "Urshifu Golpe Fluido"
+	},
+	"rarity": "Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh6",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

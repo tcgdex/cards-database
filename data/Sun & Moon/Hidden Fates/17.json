@@ -1,0 +1,40 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Aqua Wave",
+				"fr": "Aqua-Vague"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		131
+	],
+	"hp": 120,
+	"illustrator": "kodama",
+	"name": {
+		"en": "Lapras",
+		"fr": "Lokhlass"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "sm115",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

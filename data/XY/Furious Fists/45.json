@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Fighting"
+			],
+			"name": {
+				"en": "Beatdown",
+				"fr": "Dérouillée",
+				"es": "Derrumbar",
+				"it": "Batosta",
+				"pt": "Abater",
+				"de": "Niederprügler"
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		67
+	],
+	"evolveFrom": {
+		"en": "Machop",
+		"fr": "Machoc",
+		"es": "Machop",
+		"it": "Machop",
+		"pt": "Machop",
+		"de": "Machollo"
+	},
+	"hp": 90,
+	"illustrator": "Mitsuhiro Arita",
+	"name": {
+		"de": "Maschock",
+		"en": "Machoke",
+		"es": "Machoke",
+		"fr": "Machopeur",
+		"it": "Machoke",
+		"pt": "Machoke"
+	},
+	"rarity": "Uncommon",
+	"retreat": 2,
+	"set": "xy3",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

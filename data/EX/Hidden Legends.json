@@ -1,0 +1,13 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 101,
+	"id": "ex5",
+	"name": {
+		"en": "Hidden Legends",
+		"fr": "EX Légendes Oubliées",
+		"it": "EX Leggende Nascoste"
+	},
+	"releaseDate": "2004-06-01",
+	"serie": "ex",
+	"tcgOnline": "HL"
+}

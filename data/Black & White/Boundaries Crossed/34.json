@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Confuse Ray",
+				"fr": "Onde Folie"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused.",
+				"fr": "Le Pokémon Défenseur est maintenant Confus."
+			}
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		55
+	],
+	"evolveFrom": {
+		"en": "Psyduck",
+		"fr": "Psykokwak"
+	},
+	"hp": 80,
+	"illustrator": "match",
+	"name": {
+		"de": "Entoron",
+		"en": "Golduck",
+		"es": "Golduck",
+		"fr": "Akwakwak",
+		"it": "Golduck",
+		"pt": "Golduck"
+	},
+	"rarity": "Uncommon",
+	"retreat": 0,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

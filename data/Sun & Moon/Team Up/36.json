@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Rollout",
+				"fr": "Roulade",
+				"es": "Desenrollar",
+				"it": "Rotolamento",
+				"pt": "Rolagem",
+				"de": "Walzer"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Electroslug",
+				"fr": "Électro Frappe",
+				"es": "Electropuñetazo",
+				"it": "Elettropugno",
+				"pt": "Lesma Elétrica",
+				"de": "Elektroschuss"
+			},
+			"damage": 100
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		75
+	],
+	"evolveFrom": {
+		"en": "Alolan Geodude",
+		"fr": "Racaillou d’Alola"
+	},
+	"hp": 100,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Alola-Georok",
+		"en": "Alolan Graveler",
+		"es": "Graveler de Alola",
+		"fr": "Gravalanch d’Alola",
+		"it": "Graveler di Alola",
+		"pt": "Graveler de Alola"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Metal",
+			"value": "-20"
+		}
+	],
+	"retreat": 4,
+	"set": "sm9",
+	"stage": "Stage1",
+	"types": [
+		"Lightning"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

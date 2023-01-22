@@ -1,0 +1,55 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Water Gun",
+				"fr": "Pistolet à O"
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Surf",
+				"fr": "Surf"
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		564
+	],
+	"hp": 90,
+	"illustrator": "Naoyo Kimura",
+	"name": {
+		"de": "Galapaflos",
+		"en": "Tirtouga",
+		"es": "Tirtouga",
+		"fr": "Carapagos",
+		"it": "Tirtouga",
+		"pt": "Tirtouga"
+	},
+	"rarity": "Uncommon",
+	"retreat": 3,
+	"set": "bw3",
+	"stage": "RESTORED",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

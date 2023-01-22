@@ -1,0 +1,59 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Haunt",
+				"fr": "Hanter",
+				"es": "Espanto",
+				"it": "Infestare",
+				"pt": "Assombrar",
+				"de": "Spuk"
+			},
+			"effect": {
+				"en": "Put 1 damage counter on your opponent’s Active Pokémon.",
+				"fr": "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+				"es": "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
+				"it": "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
+				"pt": "Coloque 1 contador de dano no Pokémon Ativo do seu oponente.",
+				"de": "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		607
+	],
+	"hp": 60,
+	"illustrator": "Asako Ito",
+	"name": {
+		"de": "Lichtel",
+		"en": "Litwick",
+		"es": "Litwick",
+		"fr": "Funécire",
+		"it": "Litwick",
+		"pt": "Litwick"
+	},
+	"rarity": "Common",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "sm8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Cold Fat",
+				"fr": "Graisse froide"
+			},
+			"effect": {
+				"en": "As long as Dewgong is Asleep, any damage done to Dewgong by attacks is reduced by 40 (after applying Weakness and Resistance).",
+				"fr": "Tant que Lamantine est Endormi, tous dégâts qui lui sont infligés par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance)."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Collapse",
+				"fr": "Effondrement"
+			},
+			"effect": {
+				"en": "Dewgong is now Asleep.",
+				"fr": "Lamantine est maintenant Endormi."
+			},
+			"damage": 60
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Son corps est couvert d'un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs."
+	},
+	"dexId": [
+		87
+	],
+	"evolveFrom": {
+		"en": "Seel"
+	},
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Dewgong",
+		"fr": "Lamantine LV.36"
+	},
+	"rarity": "Uncommon",
+	"set": "dp2",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "+20"
+		}
+	]
+}

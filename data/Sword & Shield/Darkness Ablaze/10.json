@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Jet Headbutt",
+				"fr": "Bélier Volant",
+				"es": "Turbocabezazo",
+				"it": "Zuccata Jet",
+				"pt": "Cabeçada a Jato",
+				"de": "Flinke Kopfnuss"
+			},
+			"damage": 70
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It moves with blinding speed and lobs poison at foes. Featuring Accelgor as a main character is a surefire way to make a movie or comic popular."
+	},
+	"evolveFrom": {
+		"en": "Shelmet",
+		"fr": "Escargaume",
+		"es": "Shelmet",
+		"it": "Shelmet",
+		"pt": "Shelmet",
+		"de": "Schnuthelm"
+	},
+	"hp": 90,
+	"illustrator": "Shigenori Negishi",
+	"name": {
+		"de": "Hydragil",
+		"en": "Accelgor",
+		"es": "Accelgor",
+		"fr": "Limaspeed",
+		"it": "Accelgor",
+		"pt": "Accelgor"
+	},
+	"rarity": "Rare",
+	"regulationMark": "D",
+	"retreat": 0,
+	"set": "swsh3",
+	"stage": "Stage1",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

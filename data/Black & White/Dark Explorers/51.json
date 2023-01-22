@@ -1,0 +1,44 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Astonish"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, choose a card at random from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		562
+	],
+	"hp": 60,
+	"illustrator": "Aya Kusube",
+	"name": {
+		"de": "Makabaja",
+		"en": "Yamask",
+		"es": "Yamask",
+		"fr": "Tutafeh",
+		"it": "Yamask",
+		"pt": "Yamask"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

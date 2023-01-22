@@ -1,0 +1,63 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Channeling",
+				"fr": "Canaliser"
+			},
+			"effect": {
+				"en": "Your opponent draws 2 cards.",
+				"fr": "Votre adversaire pioche 2 cartes."
+			},
+			"damage": 60
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Chakra Points",
+				"fr": "Chakras"
+			},
+			"effect": {
+				"en": "Does 10 damage plus 10 more damage for each card in your opponent's hand.",
+				"fr": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque carte dans la main de votre adversaire."
+			},
+			"damage": 10
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		308
+	],
+	"evolveFrom": {
+		"en": "Meditite",
+		"fr": "Meditikka"
+	},
+	"hp": 90,
+	"illustrator": "Masakazu Fukuda",
+	"name": {
+		"en": "Medicham",
+		"fr": "Charmina"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "pl3",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+20"
+		}
+	]
+}

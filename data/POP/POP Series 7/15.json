@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Smack"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Confuse Ray"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It uses the horns on its head to sense human emotions. It is said to appear in front of cheerful people."
+	},
+	"dexId": [
+		280
+	],
+	"hp": 60,
+	"illustrator": "Sumiyoshi Kizuki",
+	"name": {
+		"en": "Ralts"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "pop7",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "+10"
+		}
+	]
+}

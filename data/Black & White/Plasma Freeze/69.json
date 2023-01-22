@@ -1,0 +1,64 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Darkness"
+			],
+			"name": {
+				"en": "Bite",
+				"fr": "Morsure"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Corkscrew Punch",
+				"fr": "Poing Tire-Bouchon"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		552
+	],
+	"evolveFrom": {
+		"en": "Sandile",
+		"fr": "Mascaïman"
+	},
+	"hp": 90,
+	"illustrator": "Midori Harada",
+	"name": {
+		"de": "Rokkaiman",
+		"en": "Krokorok",
+		"es": "Krokorok",
+		"fr": "Escroco",
+		"it": "Krokorok",
+		"pt": "Krokorok"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 2,
+	"set": "bw9",
+	"stage": "Stage1",
+	"types": [
+		"Darkness"
+	],
+	"weaknesses": [
+		{
+			"type": "Fighting",
+			"value": "×2"
+		}
+	]
+}

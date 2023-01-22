@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Tackle"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Psychic"
+			],
+			"name": {
+				"en": "Melt"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they've survived."
+	},
+	"hp": 50,
+	"illustrator": "Miki Tanaka",
+	"name": {
+		"de": "Viscora",
+		"en": "Goomy",
+		"es": "Goomy",
+		"fr": "Mucuscule",
+		"it": "Goomy",
+		"pt": "Goomy"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Dragon"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

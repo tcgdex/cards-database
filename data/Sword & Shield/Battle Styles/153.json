@@ -1,0 +1,75 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Strafe",
+				"fr": "Bombarder",
+				"es": "Pasada de Ataque",
+				"it": "Mitragliare",
+				"pt": "Bombardear",
+				"de": "Beharken"
+			},
+			"effect": {
+				"en": "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				"fr": "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+				"es": "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+				"it": "Puoi scambiare questo Pokémon con uno della tua panchina.",
+				"pt": "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+				"de": "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+			},
+			"damage": 30,
+			"cost": [
+				"Fighting"
+			]
+		},
+		{
+			"name": {
+				"en": "Hundred Furious Blows",
+				"fr": "Multicoups Furieux",
+				"es": "Cien Golpes Furiosos",
+				"it": "Cento Colpi Distruttivi",
+				"pt": "Centenas de Golpes Furiosos",
+				"de": "Hundert heftige Schläge"
+			},
+			"damage": 150,
+			"cost": [
+				"Fighting",
+				"Fighting",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"hp": 220,
+	"illustrator": "Ryota Murayama",
+	"name": {
+		"de": "Fließender-Angriff-Wulaosu V",
+		"en": "Rapid Strike Urshifu V",
+		"es": "Urshifu Golpe Fluido V",
+		"fr": "Shifours Mille Poings V",
+		"it": "Urshifu Pluricolpo V",
+		"pt": "Urshifu Golpe Fluido V"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh5",
+	"stage": "Basic",
+	"suffix": "V",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": false,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Rain Splash",
+				"fr": "Pluie Éclaboussante"
+			},
+			"damage": 20
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Waterfall",
+				"fr": "Cascade"
+			},
+			"damage": 50
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		502
+	],
+	"evolveFrom": {
+		"en": "Oshawott",
+		"fr": "Moustillon"
+	},
+	"hp": 90,
+	"illustrator": "match",
+	"name": {
+		"de": "Zwottronin",
+		"en": "Dewott",
+		"es": "Dewott",
+		"fr": "Mateloutre",
+		"it": "Dewott",
+		"pt": "Dewott"
+	},
+	"rarity": "Uncommon",
+	"retreat": 1,
+	"set": "bw7",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Grass",
+			"value": "×2"
+		}
+	]
+}

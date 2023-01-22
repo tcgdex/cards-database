@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"fr": "Poing Glace",
+				"en": "Ice Punch",
+				"es": "Puño Hielo",
+				"it": "Gelopugno",
+				"pt": "Soco de Gelo",
+				"de": "Eishieb"
+			},
+			"effect": {
+				"fr": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				"en": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				"es": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				"it": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				"pt": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				"de": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			"damage": 30,
+			"cost": [
+				"Water",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+	},
+	"hp": 80,
+	"illustrator": "SATOSHI NAKAI",
+	"name": {
+		"de": "Galar-Flampion",
+		"en": "Galarian Darumaka",
+		"es": "Darumaka de Galar",
+		"fr": "Darumarond de Galar",
+		"it": "Darumaka di Galar",
+		"pt": "Darumaka de Galar"
+	},
+	"rarity": "Ultra Rare",
+	"regulationMark": "D",
+	"retreat": 2,
+	"set": "swsh4.5",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

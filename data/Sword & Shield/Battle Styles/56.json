@@ -1,0 +1,92 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Dazzle Dance",
+				"fr": "Danse Éblouissante",
+				"es": "Danza Deslumbrante",
+				"it": "Accecadanza",
+				"pt": "Dança Fascinante",
+				"de": "Verwirrender Tanz"
+			},
+			"effect": {
+				"en": "Your opponent's Active Pokémon is now Confused.",
+				"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				"es": "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				"it": "Il Pokémon attivo del tuo avversario viene confuso.",
+				"pt": "O Pokémon Ativo do seu oponente agora está Confuso.",
+				"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			},
+			"damage": 30,
+			"cost": [
+				"Psychic",
+				"Colorless"
+			]
+		},
+		{
+			"name": {
+				"en": "Power Gem",
+				"fr": "Rayon Gemme",
+				"es": "Joya de Luz",
+				"it": "Gemmoforza",
+				"pt": "Gema Poderosa",
+				"de": "Juwelenkraft"
+			},
+			"damage": 120,
+			"cost": [
+				"Psychic",
+				"Psychic",
+				"Colorless"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
+	},
+	"evolveFrom": {
+		"en": "Spoink",
+		"fr": "Spoink",
+		"es": "Spoink",
+		"it": "Spoink",
+		"pt": "Spoink",
+		"de": "Spoink"
+	},
+	"hp": 130,
+	"illustrator": "Tomokazu Komiya",
+	"name": {
+		"de": "Groink",
+		"en": "Grumpig",
+		"es": "Grumpig",
+		"fr": "Groret",
+		"it": "Grumpig",
+		"pt": "Grumpig"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-30"
+		}
+	],
+	"retreat": 3,
+	"set": "swsh5",
+	"stage": "Stage1",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Darkness",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Smash Turn"
+			},
+			"effect": {
+				"en": "You may switch this Pokémon with 1 of your Benched Pokémon."
+			},
+			"damage": 30
+		},
+		{
+			"cost": [
+				"Water",
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dual Splash"
+			},
+			"effect": {
+				"en": "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		382
+	],
+	"hp": 170,
+	"illustrator": "Shizurow",
+	"name": {
+		"de": "Kyogre-EX",
+		"en": "Kyogre-EX",
+		"es": "Kyogre-EX",
+		"fr": "Kyogre-EX",
+		"it": "Kyogre-EX",
+		"pt": "Kyogre-EX"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bw5",
+	"suffix": "EX",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

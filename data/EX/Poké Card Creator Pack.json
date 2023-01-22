@@ -1,0 +1,10 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 5,
+	"id": "ex5.5",
+	"name": {
+		"en": "Poké Card Creator Pack"
+	},
+	"releaseDate": "2004-07-01",
+	"serie": "ex"
+}

@@ -1,0 +1,80 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Double Type",
+				"fr": "Type Double",
+				"es": "Doble Tipo",
+				"it": "Doppio Tipo",
+				"pt": "Tipo Duplo",
+				"de": "Doppeltyp"
+			},
+			"effect": {
+				"en": "As long as this Pokémon is in play, it is Psychic and Fighting type.",
+				"fr": "Tant que ce Pokémon est en jeu, il est de type Psychic et Fighting.",
+				"es": "Mientras este Pokémon esté en juego, es de tipo Psychic y Fighting.",
+				"it": "Fintanto che questo Pokémon è in gioco, è di tipo Psychic e Fighting.",
+				"pt": "Enquanto este Pokémon estiver em jogo, é do tipo Psychic e Fighting.",
+				"de": "Solang dieses Pokémon im Spiel ist, ist es vom Typ Psychic und Fighting."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Power Cyclone",
+				"fr": "Cyclone d’Énergie",
+				"es": "Ciclón Poderoso",
+				"it": "Ciclone Potente",
+				"pt": "Ciclone Poderoso",
+				"de": "Kraftwirbel"
+			},
+			"effect": {
+				"en": "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+				"fr": "Déplacez une Énergie de ce Pokémon vers l’un de vos Pokémon de Banc.",
+				"es": "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
+				"it": "Sposta un’Energia da questo Pokémon a uno di quelli nella tua panchina.",
+				"pt": "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+				"de": "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+			},
+			"damage": 120
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		475
+	],
+	"evolveFrom": {
+		"en": "Kirlia",
+		"fr": "Kirlia"
+	},
+	"hp": 160,
+	"illustrator": "Misa Tsutsui",
+	"name": {
+		"de": "Galagladi",
+		"en": "Gallade",
+		"es": "Gallade",
+		"fr": "Gallame",
+		"it": "Gallade",
+		"pt": "Gallade"
+	},
+	"rarity": "Rare",
+	"retreat": 2,
+	"set": "sm12",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

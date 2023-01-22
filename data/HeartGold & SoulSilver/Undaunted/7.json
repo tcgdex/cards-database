@@ -1,0 +1,70 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Cut",
+				"fr": "Coupe"
+			},
+			"damage": 50
+		},
+		{
+			"cost": [
+				"Metal",
+				"Metal",
+				"Colorless"
+			],
+			"name": {
+				"en": "Metal Claw",
+				"fr": "Griffe acier"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature."
+	},
+	"dexId": [
+		212
+	],
+	"evolveFrom": {
+		"en": "Scyther",
+		"fr": "Insecateur"
+	},
+	"hp": 90,
+	"illustrator": "Kent Kanetsuna/Direc. Shinji Higuchi",
+	"name": {
+		"en": "Scizor",
+		"fr": "Cizayox"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Psychic",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "hgss3",
+	"stage": "Stage1",
+	"types": [
+		"Metal"
+	],
+	"variants": {
+		"normal": false,
+		"reverse": true,
+		"holo": true,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Fire",
+			"value": "×2"
+		}
+	]
+}

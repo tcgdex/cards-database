@@ -1,0 +1,54 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic",
+				"Colorless"
+			],
+			"name": {
+				"en": "Psybeam"
+			},
+			"effect": {
+				"en": "The Defending Pokémon is now Confused."
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Eternal Radiance"
+			},
+			"effect": {
+				"en": "Move all damage counters from this Pokémon to the Defending Pokémon. This Pokémon can't use Eternal Radiance during your next turn."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		282
+	],
+	"evolveFrom": {
+		"en": "Kirlia"
+	},
+	"hp": 120,
+	"illustrator": "Atsuko Nishida",
+	"name": {
+		"en": "Gardevoir"
+	},
+	"rarity": "Uncommon",
+	"set": "bw11",
+	"stage": "Stage2",
+	"types": [
+		"Psychic"
+	],
+	"weaknesses": [
+		{
+			"type": "Psychic",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"name": {
+				"en": "Gold Scale"
+			},
+			"effect": {
+				"en": "Your opponent may draw 2 cards. Either way, you may draw 2 cards."
+			},
+			"cost": [
+				"Water"
+			]
+		},
+		{
+			"name": {
+				"en": "Dragon Bond"
+			},
+			"effect": {
+				"en": "Search your deck for a card named Gyarados, Dark Gyarados, or Shining Gyarados. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
+			},
+			"cost": [
+				"Psychic"
+			]
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet."
+	},
+	"hp": 30,
+	"illustrator": "Ken Sugimori",
+	"name": {
+		"en": "Shining Magikarp"
+	},
+	"rarity": "Ultra Rare",
+	"retreat": 1,
+	"set": "cel25",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": ""
+		}
+	]
+}

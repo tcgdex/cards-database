@@ -1,0 +1,16 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"effect": {
+		"fr": "Mettez un Pokémon de votre pile de défausse sur le dessus de votre deck.",
+		"en": "Put a Pokémon from your discard pile on top of your deck."
+	},
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Max Revive",
+		"fr": "Rappel Max"
+	},
+	"rarity": "Uncommon",
+	"set": "g1",
+	"trainerType": "Item"
+}

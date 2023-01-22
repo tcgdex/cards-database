@@ -1,0 +1,47 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water"
+			],
+			"name": {
+				"en": "Spinning Attack",
+				"fr": "Attaque tournante"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat."
+	},
+	"dexId": [
+		120
+	],
+	"hp": 50,
+	"illustrator": "Kagemaru Himeno",
+	"name": {
+		"en": "Staryu",
+		"fr": "Stari"
+	},
+	"rarity": "Common",
+	"retreat": 1,
+	"set": "hgss1",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 111,
+	"id": "xy3",
+	"name": {
+		"de": "Fliegende Fäuste",
+		"en": "Furious Fists",
+		"es": "Puños Furiosos",
+		"fr": "Poings Furieux",
+		"it": "Colpi Furiosi",
+		"pt": "Punhos Furiosos"
+	},
+	"releaseDate": "2014-08-13",
+	"serie": "xy",
+	"tcgOnline": "FFI"
+}

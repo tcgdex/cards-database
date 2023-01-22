@@ -1,0 +1,42 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Grass"
+			],
+			"name": {
+				"en": "Spit Beam"
+			},
+			"damage": 20
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "It has a strange physiology that responds to electricity. When together with Karrablast, Shelmet evolves for some reason."
+	},
+	"hp": 70,
+	"illustrator": "Shibuzoh.",
+	"name": {
+		"de": "Schnuthelm",
+		"en": "Shelmet",
+		"es": "Shelmet",
+		"fr": "Escargaume",
+		"it": "Shelmet",
+		"pt": "Shelmet"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Grass"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

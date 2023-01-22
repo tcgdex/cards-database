@@ -1,0 +1,16 @@
+{
+	"$schema": "../../meta/definitions/set.schema.json",
+	"cardCount": 147,
+	"id": "sm3",
+	"name": {
+		"de": "Nacht in Flammen",
+		"en": "Burning Shadows",
+		"es": "Sombras Ardientes",
+		"fr": "Ombres Ardentes",
+		"it": "Ombre Infuocate",
+		"pt": "Sombras Ardentes"
+	},
+	"releaseDate": "2017-08-04",
+	"serie": "sm",
+	"tcgOnline": "BUS"
+}

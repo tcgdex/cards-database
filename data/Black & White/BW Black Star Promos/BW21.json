@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Inferno Fandango"
+			},
+			"effect": {
+				"en": "As often as you like during your turn (before your attack), you may attach a Fire Energy card from your hand to 1 of your Pokémon."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Heat Crash",
+				"fr": "Tacle Feu"
+			},
+			"damage": 80
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		500
+	],
+	"evolveFrom": {
+		"en": "Pignite",
+		"fr": "Grotichon"
+	},
+	"hp": 150,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Emboar",
+		"fr": "Roitiflam"
+	},
+	"rarity": "Rare",
+	"retreat": 4,
+	"set": "bwp",
+	"stage": "Stage2",
+	"types": [
+		"Fire"
+	],
+	"weaknesses": [
+		{
+			"type": "Water",
+			"value": "×2"
+		}
+	]
+}

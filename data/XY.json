@@ -1,0 +1,24 @@
+{
+	"$schema": "../meta/definitions/serie.schema.json",
+	"energies": [
+		"Darkness",
+		"Dragon",
+		"Fairy",
+		"Fighting",
+		"Fire",
+		"Grass",
+		"Lightning",
+		"Metal",
+		"Psychic",
+		"Water"
+	],
+	"id": "xy",
+	"name": {
+		"de": "XY",
+		"en": "XY",
+		"es": "XY",
+		"fr": "XY",
+		"it": "XY",
+		"pt": "XY"
+	}
+}

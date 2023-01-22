@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Natural Remedy",
+				"fr": "Remède naturel"
+			},
+			"effect": {
+				"en": "Whenever you attach a Water Energy card from your hand to Golduck, remove 2 damage counters from Golduck.",
+				"fr": "Lorsque vous attachez une carte Énergie Water de votre main à Akwakwak, retirez-lui 2 marqueurs de dégât."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Powerful Splash",
+				"fr": "Trempette puissante"
+			},
+			"effect": {
+				"en": "Does 30 damage plus 10 more damage for each Water Energy attached to all of your Pokémon.",
+				"fr": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Water attachée à tous vos Pokémon."
+			},
+			"damage": "30+"
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow."
+	},
+	"dexId": [
+		55
+	],
+	"evolveFrom": {
+		"en": "Psyduck",
+		"fr": "Psykokwak"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"en": "Golduck",
+		"fr": "Akwakwak"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "hgss4",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": false,
+		"holo": false,
+		"firstEdition": false
+	},
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

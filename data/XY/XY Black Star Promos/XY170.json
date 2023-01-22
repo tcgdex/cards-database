@@ -1,0 +1,56 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fire",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Beastly Fang"
+			},
+			"effect": {
+				"en": "This attack does 50 more damage for each of your opponent's Pokémon-EX."
+			},
+			"damage": "10+"
+		},
+		{
+			"cost": [
+				"Fire",
+				"Water",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Dragon Strike"
+			},
+			"effect": {
+				"en": "This Pokémon can't use Dragon Strike during your next turn."
+			},
+			"damage": 130
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		373
+	],
+	"hp": 180,
+	"illustrator": "5ban Graphics",
+	"name": {
+		"en": "Salamence EX"
+	},
+	"rarity": "None",
+	"retreat": 2,
+	"set": "xyp",
+	"suffix": "EX",
+	"types": [
+		"Dragon"
+	],
+	"weaknesses": [
+		{
+			"type": "Fairy",
+			"value": "×2"
+		}
+	]
+}

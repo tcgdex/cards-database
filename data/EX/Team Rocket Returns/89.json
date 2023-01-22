@@ -1,0 +1,11 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"category": "Trainer",
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"en": "Rocket's Poké Ball"
+	},
+	"rarity": "Uncommon",
+	"set": "ex7",
+	"trainerType": "Item"
+}

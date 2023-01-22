@@ -1,0 +1,83 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Ancient Trait",
+			"name": {
+				"en": "Δ Evolution",
+				"fr": "Évolution Δ"
+			},
+			"effect": {
+				"en": "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
+				"fr": "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez."
+			}
+		},
+		{
+			"type": "Ability",
+			"name": {
+				"en": "Clear Humming"
+			},
+			"effect": {
+				"en": "Each of your Colorless Pokémon has no Weakness."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Wing Attack",
+				"fr": "Cru-Aile",
+				"es": "Ataque Ala",
+				"it": "Attacco d'Ala",
+				"pt": "Ataque de Asa",
+				"de": "Flügelschlag"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		334
+	],
+	"evolveFrom": {
+		"en": "Swablu",
+		"fr": "Tylton",
+		"es": "Swablu",
+		"it": "Swablu",
+		"pt": "Swablu",
+		"de": "Wablu"
+	},
+	"hp": 90,
+	"illustrator": "Naoki Saito",
+	"name": {
+		"de": "Altaria",
+		"en": "Altaria",
+		"es": "Altaria",
+		"fr": "Altaria",
+		"it": "Altaria",
+		"pt": "Altaria"
+	},
+	"rarity": "Rare",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "xy6",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "×2"
+		}
+	]
+}

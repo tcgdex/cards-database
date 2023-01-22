@@ -1,0 +1,60 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Colorless"
+			],
+			"name": {
+				"en": "Quick Attack"
+			},
+			"effect": {
+				"en": "Flip a coin. If heads, this attack does 30 more damage."
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Reflect Energy"
+			},
+			"effect": {
+				"en": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+			},
+			"damage": 40
+		}
+	],
+	"category": "Pokemon",
+	"dexId": [
+		471
+	],
+	"evolveFrom": {
+		"en": "Eevee"
+	},
+	"hp": 90,
+	"illustrator": "Ryo Ueda",
+	"name": {
+		"de": "Glaziola",
+		"en": "Glaceon",
+		"es": "Glaceon",
+		"fr": "Givrali",
+		"it": "Glaceon",
+		"pt": "Glaceon"
+	},
+	"rarity": "Rare",
+	"retreat": 1,
+	"set": "bw5",
+	"stage": "Stage1",
+	"types": [
+		"Water"
+	],
+	"weaknesses": [
+		{
+			"type": "Metal",
+			"value": "×2"
+		}
+	]
+}

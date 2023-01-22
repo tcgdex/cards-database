@@ -1,0 +1,69 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"abilities": [
+		{
+			"type": "Poke-BODY",
+			"name": {
+				"en": "Big Wing",
+				"fr": "Grande aile"
+			},
+			"effect": {
+				"en": "If Swellow has no Energy attached to it, Swellow's Retreat Cost is 0.",
+				"fr": "Si Heledelle ne possède pas d'Énergie, son Coût de retraite est de 0."
+			}
+		}
+	],
+	"attacks": [
+		{
+			"cost": [
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Mach Descent",
+				"fr": "Mach-attaque"
+			},
+			"effect": {
+				"en": "If Swellow was on your Bench this turn, this attack's base damage is 60 instead of 30.",
+				"fr": "Si Heledelle se trouve sur votre Banc lors de ce tour, les dégâts de base de cette attaque sont de 60 au lieu de 30."
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"fr": "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair."
+	},
+	"dexId": [
+		277
+	],
+	"evolveFrom": {
+		"en": "Taillow",
+		"fr": "Schwalbini"
+	},
+	"hp": 80,
+	"illustrator": "Suwama Chiaki",
+	"name": {
+		"en": "Swellow",
+		"fr": "Heledelle"
+	},
+	"rarity": "Uncommon",
+	"resistances": [
+		{
+			"type": "Fighting",
+			"value": "-20"
+		}
+	],
+	"retreat": 1,
+	"set": "dp6",
+	"stage": "Stage1",
+	"types": [
+		"Colorless"
+	],
+	"weaknesses": [
+		{
+			"type": "Lightning",
+			"value": "+20"
+		}
+	]
+}

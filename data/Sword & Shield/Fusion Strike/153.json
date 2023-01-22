@@ -1,0 +1,62 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Fighting",
+				"Colorless"
+			],
+			"name": {
+				"en": "Lunge Out"
+			},
+			"damage": 40
+		},
+		{
+			"cost": [
+				"Fighting",
+				"Colorless",
+				"Colorless"
+			],
+			"name": {
+				"en": "Magnum Punch"
+			},
+			"damage": 90
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
+	},
+	"evolveFrom": {
+		"en": "Clobbopus",
+		"fr": "Poulpaf",
+		"es": "Clobbopus",
+		"it": "Clobbopus",
+		"pt": "Clobbopus",
+		"de": "Klopptopus"
+	},
+	"hp": 130,
+	"illustrator": "Souichirou Gunjima",
+	"name": {
+		"de": "Kaocto",
+		"en": "Grapploct",
+		"es": "Grapploct",
+		"fr": "Krakos",
+		"it": "Grapploct",
+		"pt": "Grapploct"
+	},
+	"rarity": "Uncommon",
+	"regulationMark": "E",
+	"retreat": 2,
+	"set": "swsh8",
+	"stage": "Stage1",
+	"types": [
+		"Fighting"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

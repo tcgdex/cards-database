@@ -1,0 +1,52 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Psychic"
+			],
+			"name": {
+				"en": "Vibration"
+			},
+			"damage": 10
+		},
+		{
+			"cost": [
+				"Psychic",
+				"Psychic"
+			],
+			"name": {
+				"en": "Spooky Shot"
+			},
+			"damage": 30
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
+	},
+	"hp": 80,
+	"illustrator": "KIYOTAKA OSHIYAMA",
+	"name": {
+		"de": "Sankabuh",
+		"en": "Sandygast",
+		"es": "Sandygast",
+		"fr": "Bacabouh",
+		"it": "Sandygast",
+		"pt": "Sandygast"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 3,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Psychic"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}

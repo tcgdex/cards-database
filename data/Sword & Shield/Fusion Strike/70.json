@@ -1,0 +1,46 @@
+{
+	"$schema": "../../../meta/definitions/card.schema.json",
+	"attacks": [
+		{
+			"cost": [
+				"Water",
+				"Colorless"
+			],
+			"name": {
+				"en": "Swarm the Wound"
+			},
+			"damage": "30+",
+			"effect": {
+				"en": "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon."
+			}
+		}
+	],
+	"category": "Pokemon",
+	"description": {
+		"en": "Known for their violence, these Pokémon have the most fights with schools of red-striped Basculin."
+	},
+	"hp": 80,
+	"illustrator": "Souichirou Gunjima",
+	"name": {
+		"de": "Barschuft",
+		"en": "Basculin",
+		"es": "Basculin",
+		"fr": "Bargantua",
+		"it": "Basculin",
+		"pt": "Basculin"
+	},
+	"rarity": "Common",
+	"regulationMark": "E",
+	"retreat": 1,
+	"set": "swsh8",
+	"stage": "Basic",
+	"types": [
+		"Water"
+	],
+	"variants": {
+		"normal": true,
+		"reverse": true,
+		"holo": false,
+		"firstEdition": false
+	}
+}
