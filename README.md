@@ -17,7 +17,7 @@
 		<img src="https://img.shields.io/github/workflow/status/tcgdex/cards-database/Compile?style=flat-square" alt="Compiler build passing" />
 	</a>
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square" alt="All Contributors Badge" /></a>
+<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square" alt="All Contributors Badge" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
@@ -83,12 +83,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://www.avior.me/"><img src="https://avatars.githubusercontent.com/u/15822031?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avior</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/commits?author=Aviortheking" title="Code">💻</a> <a href="#data-Aviortheking" title="Data">🔣</a></td>
-    <td align="center"><a href="https://github.com/JuneTwooo"><img src="https://avatars.githubusercontent.com/u/1458019?v=4?s=100" width="100px;" alt=""/><br /><sub><b>June</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/issues?q=author%3AJuneTwooo" title="Bug reports">🐛</a> <a href="#data-JuneTwooo" title="Data">🔣</a></td>
-    <td align="center"><a href="https://github.com/Kevin-Adrea"><img src="https://avatars.githubusercontent.com/u/36231620?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin-Adrea</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/issues?q=author%3AKevin-Adrea" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/Maxopoly"><img src="https://avatars.githubusercontent.com/u/12138136?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Maxopoly</b></sub></a><br /><a href="#data-Maxopoly" title="Data">🔣</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.avior.me/"><img src="https://avatars.githubusercontent.com/u/15822031?v=4?s=100" width="100px;" alt="Avior"/><br /><sub><b>Avior</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/commits?author=Aviortheking" title="Code">💻</a> <a href="#data-Aviortheking" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JuneTwooo"><img src="https://avatars.githubusercontent.com/u/1458019?v=4?s=100" width="100px;" alt="June"/><br /><sub><b>June</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/issues?q=author%3AJuneTwooo" title="Bug reports">🐛</a> <a href="#data-JuneTwooo" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Kevin-Adrea"><img src="https://avatars.githubusercontent.com/u/36231620?v=4?s=100" width="100px;" alt="Kevin-Adrea"/><br /><sub><b>Kevin-Adrea</b></sub></a><br /><a href="https://github.com/tcgdex/cards-database/issues?q=author%3AKevin-Adrea" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Maxopoly"><img src="https://avatars.githubusercontent.com/u/12138136?v=4?s=100" width="100px;" alt="Maxopoly"/><br /><sub><b>Maxopoly</b></sub></a><br /><a href="#data-Maxopoly" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/calli23"><img src="https://avatars.githubusercontent.com/u/24553863?v=4?s=100" width="100px;" alt="calli23"/><br /><sub><b>calli23</b></sub></a><br /><a href="#data-calli23" title="Data">🔣</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
