@@ -25,7 +25,13 @@ const card: Card = {
 		de: "Verschiebe 1 Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
