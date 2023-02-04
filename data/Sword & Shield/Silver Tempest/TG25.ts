@@ -25,7 +25,13 @@ const card: Card = {
 		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
 	},
 
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	}
 }
 
 export default card
