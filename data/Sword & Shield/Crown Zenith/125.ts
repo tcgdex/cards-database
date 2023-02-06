@@ -25,7 +25,13 @@ const card: Card = {
 		de: "Wirf 1 Münze. Lege bei Kopf 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card

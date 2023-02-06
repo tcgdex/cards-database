@@ -25,7 +25,13 @@ const card: Card = {
 		de: "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	}
 }
 
 export default card
