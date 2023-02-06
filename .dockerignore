@@ -14,9 +14,6 @@ npm-debug.log*
 dist/
 *.asc
 
-/data/**/*.js
-
-
 # production
 /server/dist
 /server/generated

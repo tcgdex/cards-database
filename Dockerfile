@@ -2,6 +2,9 @@ FROM node:alpine as BUILD_IMAGE
 
 WORKDIR /app
 
+# Add git to fetch last edition datetime
+RUN apk add git
+
 ADD package.json package-lock.json ./
 ADD server/package.json server/package-lock.json ./server/
 
