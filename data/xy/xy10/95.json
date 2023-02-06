@@ -9,7 +9,9 @@
 		"pt": "Reverte cada um dos seus Pokémon evoluídos e coloca o card de Evolução de Estágio mais alto na sua mão. (Aquele Pokémon não pode evoluir nesta vez de jogar.)",
 		"de": "Rückentwickle 1 deiner entwickelten Pokémon und nimm die höchste daraufliegende Evolutionskarte auf deine Hand. (Das Pokémon kann sich während dieses Zuges nicht entwickeln.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Rückentwicklungsspray",
 		"en": "Devolution Spray",

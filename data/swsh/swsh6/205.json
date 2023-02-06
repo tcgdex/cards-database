@@ -57,7 +57,9 @@
 		"de": "Rappenreiter-Coronospa-V"
 	},
 	"hp": 320,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Rappenreiter-Coronospa VMAX",
 		"en": "Shadow Rider Calyrex VMAX",

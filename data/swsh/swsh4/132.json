@@ -47,7 +47,9 @@
 		"en": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
 	},
 	"hp": 130,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Lugia",
 		"en": "Lugia",

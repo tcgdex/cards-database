@@ -61,7 +61,9 @@
 		"de": "Ignivor"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Ramoth",
 		"en": "Volcarona",

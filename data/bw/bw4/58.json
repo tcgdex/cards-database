@@ -18,7 +18,9 @@
 		517
 	],
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Somniam",
 		"en": "Munna",

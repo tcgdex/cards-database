@@ -21,7 +21,9 @@
 		"en": "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic."
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Pansage"
 	},

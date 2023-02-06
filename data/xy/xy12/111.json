@@ -22,7 +22,9 @@
 		25
 	],
 	"hp": 50,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"de": "Surfendes Pikachu",
 		"en": "Surfing Pikachu",

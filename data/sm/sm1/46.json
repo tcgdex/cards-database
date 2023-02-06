@@ -48,7 +48,9 @@
 		"fr": "Araqua"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Aranestro",
 		"en": "Araquanid",

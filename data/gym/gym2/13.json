@@ -33,7 +33,9 @@
 		"en": "Magikarp"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Misty's Gyarados"
 	},

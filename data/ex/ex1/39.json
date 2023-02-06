@@ -41,7 +41,9 @@
 		"en": "Electrike"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Manectric",
 		"fr": "Elecsprint"

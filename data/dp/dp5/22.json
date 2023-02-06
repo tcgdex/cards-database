@@ -39,7 +39,9 @@
 		"fr": "Chimpenfeu"
 	},
 	"hp": 110,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Infernape",
 		"fr": "Simiabraz"

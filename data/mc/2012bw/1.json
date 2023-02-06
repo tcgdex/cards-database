@@ -22,7 +22,9 @@
 		"en": "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques."
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Servine"
 	},

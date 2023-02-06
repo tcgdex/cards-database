@@ -53,7 +53,9 @@
 		"de": "Wagong"
 	},
 	"hp": 160,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Montecarbo",
 		"en": "Coalossal",

@@ -42,7 +42,9 @@
 		"fr": "Archeomire"
 	},
 	"hp": 90,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Bronzong",
 		"fr": "Archéodong"

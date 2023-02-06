@@ -19,7 +19,9 @@
 		"en": "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Flunkifer",
 		"en": "Mawile",

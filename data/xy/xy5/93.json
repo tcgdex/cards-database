@@ -56,7 +56,9 @@
 		306
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Stolloss EX",
 		"en": "Aggron EX",

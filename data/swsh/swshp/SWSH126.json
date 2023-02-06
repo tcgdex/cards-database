@@ -32,7 +32,9 @@
 		79
 	],
 	"hp": 70,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"en": "Galarian Slowpoke"
 	},

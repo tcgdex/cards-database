@@ -54,7 +54,9 @@
 		"fr": "Magmar"
 	},
 	"hp": 110,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Magmortar",
 		"fr": "Maganon"

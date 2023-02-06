@@ -43,7 +43,9 @@
 		"fr": "Galegon de la Team Magma"
 	},
 	"hp": 140,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Team Magma's Aggron",
 		"fr": "Galeking de la Team Magma"

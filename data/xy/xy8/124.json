@@ -28,7 +28,9 @@
 		333
 	],
 	"hp": 40,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Wablu",
 		"en": "Swablu",

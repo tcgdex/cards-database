@@ -31,7 +31,9 @@
 		169
 	],
 	"hp": 180,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"en": "Crobat V"
 	},

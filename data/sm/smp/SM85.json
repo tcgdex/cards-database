@@ -51,7 +51,9 @@
 		802
 	],
 	"hp": 70,
-	"illustrator": "Emi Ando",
+	"illustrator": [
+		"Emi Ando"
+	],
 	"name": {
 		"de": "Marshadow",
 		"en": "Marshadow",

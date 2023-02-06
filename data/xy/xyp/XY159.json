@@ -1,7 +1,9 @@
 {
 	"$schema": "../../../meta/definitions/card.schema.json",
 	"category": "Trainer",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Beedrill Spirit Link"
 	},

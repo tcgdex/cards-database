@@ -26,7 +26,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 100,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Umbreon",
 		"fr": "Noctali"

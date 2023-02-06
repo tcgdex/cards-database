@@ -62,7 +62,9 @@
 		"de": "Chimstix"
 	},
 	"hp": 180,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Gortrom",
 		"en": "Rillaboom",

@@ -49,7 +49,9 @@
 		"fr": "Efflèche"
 	},
 	"hp": 240,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Decidueye-GX",
 		"fr": "Archéduc-GX"

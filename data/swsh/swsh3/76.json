@@ -38,7 +38,9 @@
 		"en": "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders."
 	},
 	"hp": 90,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Golbit",
 		"en": "Golett",

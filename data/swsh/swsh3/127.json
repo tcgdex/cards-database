@@ -54,7 +54,9 @@
 		"de": "Kliklak"
 	},
 	"hp": 150,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Klikdiklak",
 		"en": "Klinklang",

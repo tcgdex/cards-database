@@ -20,7 +20,9 @@
 	"description": {
 		"en": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Vulpix"
 	},

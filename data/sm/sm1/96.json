@@ -60,7 +60,9 @@
 		"fr": "Draco"
 	},
 	"hp": 160,
-	"illustrator": "Hiroyuki Yamamoto",
+	"illustrator": [
+		"Hiroyuki Yamamoto"
+	],
 	"name": {
 		"de": "Dragoran",
 		"en": "Dragonite",

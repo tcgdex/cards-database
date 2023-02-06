@@ -35,7 +35,9 @@
 		151
 	],
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Mew",
 		"fr": "Mew"

@@ -37,7 +37,9 @@
 		"fr": "Embrylex"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Pupitar",
 		"fr": "Ymphect"

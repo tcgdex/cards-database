@@ -52,7 +52,9 @@
 		"de": "Duodino"
 	},
 	"hp": 160,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Trikephalo",
 		"en": "Hydreigon",

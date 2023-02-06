@@ -9,7 +9,9 @@
 		"pt": "Embaralhe a sua mão no seu baralho. Em seguida, compre 6 cartas.",
 		"de": "Mische deine Handkarten in dein Deck. Ziehe anschließend 6 Karten."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Cynthia",
 		"en": "Cynthia",

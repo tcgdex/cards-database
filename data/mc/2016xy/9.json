@@ -15,7 +15,9 @@
 	"description": {
 		"en": "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
 	},
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"en": "Togepi"
 	},

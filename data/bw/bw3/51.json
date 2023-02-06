@@ -21,7 +21,9 @@
 		"fr": "Nucléos"
 	},
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Mitodos",
 		"en": "Duosion",

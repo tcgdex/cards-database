@@ -37,7 +37,9 @@
 		"en": "Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them."
 	},
 	"hp": 110,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Knirfish",
 		"en": "Bruxish",

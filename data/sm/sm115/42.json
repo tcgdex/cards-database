@@ -43,7 +43,9 @@
 		"fr": "Rondoudou"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Wigglytuff GX",
 		"fr": "Grodoudou-GX"

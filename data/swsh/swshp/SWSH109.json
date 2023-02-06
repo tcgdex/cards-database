@@ -56,7 +56,9 @@
 		248
 	],
 	"hp": 230,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Despotar V",
 		"en": "Tyranitar V",

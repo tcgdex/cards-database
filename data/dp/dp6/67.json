@@ -41,7 +41,9 @@
 		"fr": "Ningale"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Ninjask",
 		"fr": "Ninjask"

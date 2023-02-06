@@ -47,7 +47,9 @@
 		"en": "Houndour"
 	},
 	"hp": 130,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Hundemon",
 		"en": "Houndoom",

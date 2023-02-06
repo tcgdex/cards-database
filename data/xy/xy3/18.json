@@ -52,7 +52,9 @@
 		"de": "Quaputzi"
 	},
 	"hp": 130,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Quaxo",
 		"en": "Politoed",

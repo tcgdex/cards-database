@@ -21,7 +21,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Magikarp",
 		"fr": "Magicarpe"

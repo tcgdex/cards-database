@@ -55,7 +55,9 @@
 		"de": "Meikro"
 	},
 	"hp": 80,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Kranoviz",
 		"en": "Corvisquire",

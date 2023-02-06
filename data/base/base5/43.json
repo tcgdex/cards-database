@@ -41,7 +41,9 @@
 		"en": "Mankey"
 	},
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Primeape",
 		"fr": "Colossinge obscur"

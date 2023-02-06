@@ -60,7 +60,9 @@
 		"de": "Evoli"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Flamara",
 		"en": "Flareon",

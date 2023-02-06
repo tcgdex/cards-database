@@ -56,7 +56,9 @@
 		"fr": "Skelénox"
 	},
 	"hp": 90,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Zwirrklop",
 		"en": "Dusclops",

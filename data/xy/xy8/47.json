@@ -30,7 +30,9 @@
 		"de": "Froxy"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Amphizel",
 		"en": "Frogadier",

@@ -52,7 +52,9 @@
 		716
 	],
 	"hp": 130,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Xerneas",
 		"en": "Xerneas",

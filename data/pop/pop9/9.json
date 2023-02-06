@@ -45,7 +45,9 @@
 		"en": "Bastiodon"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Lopunny",
 		"fr": "Lockpin"

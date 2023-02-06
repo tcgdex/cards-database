@@ -75,7 +75,9 @@
 		"en": "Frogadier"
 	},
 	"hp": 230,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Quajutsu GX",
 		"en": "Greninja GX",

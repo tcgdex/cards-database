@@ -25,7 +25,9 @@
 		"en": "Holon's Magnemite"
 	},
 	"hp": 70,
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Holon's Magneton",
 		"fr": "Magneton d'Holon"

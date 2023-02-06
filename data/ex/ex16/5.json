@@ -39,7 +39,9 @@
 		"en": "Combusken"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Blaziken",
 		"fr": "Brasegali"

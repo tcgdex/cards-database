@@ -55,7 +55,9 @@
 		"de": "Enton"
 	},
 	"hp": 120,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Entoron",
 		"en": "Golduck",

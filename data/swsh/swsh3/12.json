@@ -29,7 +29,9 @@
 		"de": "Bauz"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Arboretoss",
 		"en": "Dartrix",

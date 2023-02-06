@@ -9,7 +9,9 @@
 		"pt": "Compre 4 cartas.\n\nNo final desta vez de jogar, se você tiver 3 ou mais cartas na sua mão, embaralhe cartas da sua mão no seu baralho até ter 2 cartas na sua mão.",
 		"de": "Ziehe 4 Karten.\n\nWenn du am Ende dieses Zuges 3 oder mehr Karten auf deiner Hand hast, mische so lang Karten aus deiner Hand in dein Deck, bis du 2 Karten auf deiner Hand hast."
 	},
-	"illustrator": "Noriko Uono",
+	"illustrator": [
+		"Noriko Uono"
+	],
 	"name": {
 		"de": "Lillys ganze Kraft",
 		"en": "Lillie’s Full Force",

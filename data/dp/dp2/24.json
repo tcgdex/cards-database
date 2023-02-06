@@ -40,7 +40,9 @@
 		"en": "Exeggcute"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Exeggutor",
 		"fr": "Noadkoko"

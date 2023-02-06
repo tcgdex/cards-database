@@ -36,7 +36,9 @@
 		59
 	],
 	"hp": 90,
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Arcanine G",
 		"fr": "Arcanin "

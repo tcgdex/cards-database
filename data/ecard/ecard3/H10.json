@@ -35,7 +35,9 @@
 		"en": "Magikarp"
 	},
 	"hp": 90,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Gyarados"
 	},

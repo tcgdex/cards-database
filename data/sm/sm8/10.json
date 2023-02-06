@@ -58,7 +58,9 @@
 		"fr": "Mimigal"
 	},
 	"hp": 110,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Ariados",
 		"en": "Ariados",

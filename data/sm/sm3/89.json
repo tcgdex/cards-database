@@ -43,7 +43,9 @@
 		686
 	],
 	"hp": 60,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Iscalar",
 		"en": "Inkay",

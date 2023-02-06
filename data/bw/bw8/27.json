@@ -43,7 +43,9 @@
 		"fr": "Marcacrin"
 	},
 	"hp": 100,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Keifel",
 		"en": "Piloswine",

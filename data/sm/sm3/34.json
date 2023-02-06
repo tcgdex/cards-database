@@ -43,7 +43,9 @@
 		183
 	],
 	"hp": 60,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Marill",
 		"en": "Marill",

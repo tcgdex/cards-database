@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Reprenez dans votre main 1 de vos Pokémon SP ainsi que toutes les cartes qui lui sont attachées."
 	},
-	"illustrator": "Makoto Imai",
+	"illustrator": [
+		"Makoto Imai"
+	],
 	"name": {
 		"en": "Team Galactic's Invention G-105 Poké Turn",
 		"fr": "Poké-Tour Invention G-105 de Team Galaxie"

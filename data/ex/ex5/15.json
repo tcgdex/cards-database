@@ -39,7 +39,9 @@
 		"en": "Sealeo"
 	},
 	"hp": 120,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Walrein",
 		"fr": "Kaimorse"

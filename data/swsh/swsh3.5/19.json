@@ -40,7 +40,9 @@
 		"fr": "Bibichut"
 	},
 	"hp": 90,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Brimano",
 		"en": "Hattrem",

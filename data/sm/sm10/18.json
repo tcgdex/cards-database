@@ -44,7 +44,9 @@
 		736
 	],
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Mabula",
 		"en": "Grubbin",

@@ -6,7 +6,9 @@
 		"en": "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can’t play this card."
 	},
 	"hp": 0,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Ruins of Alph",
 		"fr": "Ruines d’Alph"

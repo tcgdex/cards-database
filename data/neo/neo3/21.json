@@ -44,7 +44,9 @@
 		"en": "Pikachu"
 	},
 	"hp": 80,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Raichu",
 		"fr": "Raichu"

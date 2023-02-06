@@ -36,7 +36,9 @@
 		"fr": "Pichu"
 	},
 	"hp": 50,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Pichu",
 		"fr": "Pichu"

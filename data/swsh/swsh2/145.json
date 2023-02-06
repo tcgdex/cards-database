@@ -62,7 +62,9 @@
 		"de": "Navitaub"
 	},
 	"hp": 150,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Fasasnob",
 		"en": "Unfezant",

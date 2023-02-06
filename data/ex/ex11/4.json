@@ -38,7 +38,9 @@
 		"en": "Eevee"
 	},
 	"hp": 70,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Espeon δ",
 		"fr": "Mentali δ ESPÈCES DELTA"

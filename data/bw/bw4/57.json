@@ -49,7 +49,9 @@
 		"fr": "Kirlia"
 	},
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Guardevoir",
 		"en": "Gardevoir",

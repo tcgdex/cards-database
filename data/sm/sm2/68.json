@@ -49,7 +49,9 @@
 		"fr": "Scorplane"
 	},
 	"hp": 110,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Skorgro",
 		"en": "Gliscor",

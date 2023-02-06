@@ -37,7 +37,9 @@
 		449
 	],
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Hippopotas",
 		"fr": "Hippopotas Niv. 31"

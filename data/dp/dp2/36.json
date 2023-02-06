@@ -41,7 +41,9 @@
 		"en": "Croagunk"
 	},
 	"hp": 90,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Toxicroak",
 		"fr": "Coatox"

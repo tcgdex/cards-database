@@ -42,7 +42,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Barschwa",
 		"en": "Feebas",

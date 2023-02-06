@@ -42,7 +42,9 @@
 		491
 	],
 	"hp": 180,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Darkrai-EX",
 		"en": "Darkrai-EX",

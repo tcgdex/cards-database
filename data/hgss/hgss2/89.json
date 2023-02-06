@@ -53,7 +53,9 @@
 		"fr": "Teddiursa"
 	},
 	"hp": 110,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Ursaring",
 		"fr": "Ursaring"

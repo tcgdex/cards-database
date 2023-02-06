@@ -64,7 +64,9 @@
 		"de": "Tyracroc"
 	},
 	"hp": 150,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Impergator",
 		"en": "Feraligatr",

@@ -52,7 +52,9 @@
 		"de": "Parfi"
 	},
 	"hp": 90,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Parfinesse",
 		"en": "Aromatisse",

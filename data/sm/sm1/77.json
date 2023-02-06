@@ -57,7 +57,9 @@
 		"fr": "Rattata d’Alola"
 	},
 	"hp": 120,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Alola-Rattikarl",
 		"en": "Alolan Raticate",

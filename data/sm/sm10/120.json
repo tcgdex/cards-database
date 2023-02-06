@@ -68,7 +68,9 @@
 		448
 	],
 	"hp": 260,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Lucario & Melmetal GX",
 		"en": "Lucario & Melmetal GX",

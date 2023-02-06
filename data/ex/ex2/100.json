@@ -40,7 +40,9 @@
 		"en": "Wailmer"
 	},
 	"hp": 200,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Wailord ex",
 		"fr": "Wailord ex"

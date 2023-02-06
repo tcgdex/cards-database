@@ -38,7 +38,9 @@
 		"de": "Digda"
 	},
 	"hp": 90,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Digdri",
 		"en": "Dugtrio",

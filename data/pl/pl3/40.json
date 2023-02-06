@@ -36,7 +36,9 @@
 		407
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Roserade C",
 		"fr": "Roserade "

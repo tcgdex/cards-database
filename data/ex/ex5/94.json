@@ -50,7 +50,9 @@
 		382
 	],
 	"hp": 100,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Kyogre ex",
 		"fr": "Kyogre ex"

@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, esse jogador pode curar 30 de danos de cada um de seus próprios Pokémon Water e Pokémon Lightning.",
 		"de": "Einmal während seines Zuges darf jeder Spieler 30 Schadenspunkte bei jedem seiner Water-Pokémon und Lightning-Pokémon heilen."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Raue See",
 		"en": "Rough Seas",

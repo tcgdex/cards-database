@@ -37,7 +37,9 @@
 		"en": "Skitty"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Delcatty",
 		"fr": "Delcatty"

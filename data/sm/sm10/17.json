@@ -57,7 +57,9 @@
 		"fr": "Saquedeneu"
 	},
 	"hp": 130,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Tangoloss",
 		"en": "Tangrowth",

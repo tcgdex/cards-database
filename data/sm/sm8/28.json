@@ -47,7 +47,9 @@
 		"fr": "Blindalys"
 	},
 	"hp": 140,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Pudox",
 		"en": "Dustox",

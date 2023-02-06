@@ -39,7 +39,9 @@
 		379
 	],
 	"hp": 90,
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Registeel",
 		"fr": "Registeel"

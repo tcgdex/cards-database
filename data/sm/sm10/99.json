@@ -56,7 +56,9 @@
 		"fr": "Scorplane"
 	},
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Skorgro",
 		"en": "Gliscor",

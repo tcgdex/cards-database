@@ -40,7 +40,9 @@
 		"fr": "Cheniti Cape Sable"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Wormadam Sandy Cloak",
 		"fr": "Cheniselle Cape Sable"

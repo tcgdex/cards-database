@@ -55,7 +55,9 @@
 		646
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Kyurem EX",
 		"en": "Kyurem EX",

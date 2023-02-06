@@ -44,7 +44,9 @@
 		251
 	],
 	"hp": 110,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Celebi-EX",
 		"en": "Celebi-EX",

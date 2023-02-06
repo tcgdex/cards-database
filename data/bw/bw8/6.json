@@ -21,7 +21,9 @@
 		420
 	],
 	"hp": 40,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Kikugi",
 		"en": "Cherubi",

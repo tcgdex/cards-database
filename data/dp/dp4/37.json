@@ -42,7 +42,9 @@
 		"fr": "Mustébouée"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Floatzel",
 		"fr": "Mustéflott"

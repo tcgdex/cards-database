@@ -37,7 +37,9 @@
 		"de": "Larvitar"
 	},
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Pupitar",
 		"en": "Pupitar",

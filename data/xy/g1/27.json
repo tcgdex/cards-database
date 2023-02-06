@@ -42,7 +42,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Raichu",
 		"fr": "Raichu"

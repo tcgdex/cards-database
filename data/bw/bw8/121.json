@@ -9,7 +9,9 @@
 		"pt": "Revele o card de cima do seu baralho. Se esse card for um card de Energia básica, ligue-o a 1 dos seus Pokémon. Caso contrário, coloque-o de volta em cima do seu baralho.",
 		"de": "Decke die oberste Karte deines Decks auf. Handelt es sich um eine Basis-Energiekarte, lege sie an 1 deiner Pokémon an. Handelt es sich nicht um eine Basis-Energiekarte, lege sie zurück auf dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Äther",
 		"en": "Ether",

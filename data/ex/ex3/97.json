@@ -35,7 +35,9 @@
 		384
 	],
 	"hp": 100,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Rayquaza ex",
 		"fr": "Rayquaza ex"

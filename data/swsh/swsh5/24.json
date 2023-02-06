@@ -46,7 +46,9 @@
 		"de": "Floink"
 	},
 	"hp": 100,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Ferkokel",
 		"en": "Pignite",

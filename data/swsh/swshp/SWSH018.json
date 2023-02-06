@@ -52,7 +52,9 @@
 		888
 	],
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Zacian V",
 		"en": "Zacian V",

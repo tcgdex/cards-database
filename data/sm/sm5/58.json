@@ -68,7 +68,9 @@
 		487
 	],
 	"hp": 160,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Giratina ◇",
 		"en": "Giratina ◇",

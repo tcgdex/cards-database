@@ -38,7 +38,9 @@
 		"en": "Slugma"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Magcargo"
 	},

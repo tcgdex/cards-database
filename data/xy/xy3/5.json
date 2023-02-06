@@ -39,7 +39,9 @@
 		"de": "Skaraborn-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M Skaraborn EX",
 		"en": "M Heracross EX",

@@ -35,7 +35,9 @@
 		"en": "Gothita"
 	},
 	"hp": 80,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Gothorita"
 	},

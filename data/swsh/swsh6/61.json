@@ -60,7 +60,9 @@
 		"de": "Kirlia"
 	},
 	"hp": 140,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Guardevoir",
 		"en": "Gardevoir",

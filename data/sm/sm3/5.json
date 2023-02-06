@@ -47,7 +47,9 @@
 		"fr": "Mystherbe"
 	},
 	"hp": 80,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Duflor",
 		"en": "Gloom",

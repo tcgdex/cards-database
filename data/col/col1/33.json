@@ -39,7 +39,9 @@
 		143
 	],
 	"hp": 100,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Snorlax",
 		"fr": "Ronflex"

@@ -60,7 +60,9 @@
 		"de": "Ultrigaria"
 	},
 	"hp": 130,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Sarzenia",
 		"en": "Victreebel",

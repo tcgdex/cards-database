@@ -40,7 +40,9 @@
 		"fr": "Yanma"
 	},
 	"hp": 110,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Yanmega",
 		"fr": "Yanmega"

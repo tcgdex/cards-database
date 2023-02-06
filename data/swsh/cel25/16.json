@@ -52,7 +52,9 @@
 		888
 	],
 	"hp": 220,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Zacian V",
 		"en": "Zacian V",

@@ -38,7 +38,9 @@
 		"en": "Gloom"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Vileplume δ",
 		"fr": "Rafflesia δ ESPÈCES DELTA"

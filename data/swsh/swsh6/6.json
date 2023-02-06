@@ -44,7 +44,9 @@
 		"en": "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
 	},
 	"hp": 120,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Skaraborn",
 		"en": "Heracross",

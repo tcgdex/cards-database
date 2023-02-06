@@ -62,7 +62,9 @@
 		"de": "Rayquaza-EX"
 	},
 	"hp": 230,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M-Rayquaza EX",
 		"en": "M Rayquaza EX",

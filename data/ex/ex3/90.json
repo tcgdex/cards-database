@@ -55,7 +55,9 @@
 		"en": "Dragonair"
 	},
 	"hp": 150,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Dragonite ex",
 		"fr": "Dracolosse ex"

@@ -20,7 +20,9 @@
 		223
 	],
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Remoraid",
 		"fr": "Rémoraid"

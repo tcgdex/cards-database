@@ -60,7 +60,9 @@
 		"fr": "Bacabouh"
 	},
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Colossand",
 		"en": "Palossand",

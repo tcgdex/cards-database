@@ -17,7 +17,9 @@
 		177
 	],
 	"hp": 40,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Natu δ",
 		"fr": "Natu δ"

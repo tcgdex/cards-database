@@ -36,7 +36,9 @@
 		722
 	],
 	"hp": 60,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Bauz",
 		"en": "Rowlet",

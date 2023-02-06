@@ -6,7 +6,9 @@
 		"en": "Draw 3 cards. Your opponent may draw a card."
 	},
 	"hp": 0,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Cheerleader’s Cheer",
 		"fr": "Encouragements hystériques"

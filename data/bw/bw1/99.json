@@ -9,7 +9,9 @@
 		"pt": "Revele um Pokémon em sua mão e coloque-o em cima do seu baralho. Se fizer isso, procure um Pokémon em seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe seu baralho.",
 		"de": "Nimm 1 Pokémon von deiner Hand, zeige es deinem Gegner und lege es auf dein Deck. Wenn du das machst, durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Pokémon-Kommunikation",
 		"en": "Pokémon Communication",

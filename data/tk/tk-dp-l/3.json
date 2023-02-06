@@ -24,7 +24,9 @@
 	"description": {
 		"en": "It has the ability to sense the auras of all things. It understands human speech."
 	},
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Lucario"
 	},

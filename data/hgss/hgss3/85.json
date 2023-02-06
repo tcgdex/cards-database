@@ -36,7 +36,9 @@
 		"fr": "Ramoloss"
 	},
 	"hp": 100,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Slowking",
 		"fr": "Roigada"

@@ -37,7 +37,9 @@
 		332
 	],
 	"hp": 80,
-	"illustrator": "K. Utsunomiya",
+	"illustrator": [
+		"K. Utsunomiya"
+	],
 	"name": {
 		"en": "Team Aqua's Cacturne",
 		"fr": "Cacturne de Team Aqua"

@@ -33,7 +33,9 @@
 	"evolveFrom": {
 		"en": "Buneary"
 	},
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Lopunny"
 	},

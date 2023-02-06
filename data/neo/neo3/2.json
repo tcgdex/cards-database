@@ -43,7 +43,9 @@
 		"en": "Chansey"
 	},
 	"hp": 120,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Blissey",
 		"fr": "Leuphorie"

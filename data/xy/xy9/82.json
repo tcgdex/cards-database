@@ -61,7 +61,9 @@
 		"de": "Piepi"
 	},
 	"hp": 100,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Pixi",
 		"en": "Clefable",

@@ -50,7 +50,9 @@
 		774
 	],
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Meteno",
 		"en": "Minior",

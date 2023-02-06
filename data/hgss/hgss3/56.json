@@ -39,7 +39,9 @@
 		303
 	],
 	"hp": 60,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Mawile",
 		"fr": "Mysdibule"

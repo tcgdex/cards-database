@@ -35,7 +35,9 @@
 		196
 	],
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Espeon 4",
 		"fr": "Mentali  Niv. 55"

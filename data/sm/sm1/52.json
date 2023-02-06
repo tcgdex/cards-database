@@ -57,7 +57,9 @@
 		"fr": "Chrysapile"
 	},
 	"hp": 150,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Donarion",
 		"en": "Vikavolt",

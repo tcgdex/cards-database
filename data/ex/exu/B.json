@@ -31,7 +31,9 @@
 		201
 	],
 	"hp": 60,
-	"illustrator": "Shin-ichi Yoshikawa",
+	"illustrator": [
+		"Shin-ichi Yoshikawa"
+	],
 	"name": {
 		"en": "Unown"
 	},

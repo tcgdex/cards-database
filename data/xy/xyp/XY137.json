@@ -38,7 +38,9 @@
 		"fr": "Pérégrain"
 	},
 	"hp": 120,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Vivillon",
 		"fr": "Prismillon"

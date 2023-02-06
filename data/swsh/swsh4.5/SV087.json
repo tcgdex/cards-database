@@ -48,7 +48,9 @@
 		"en": "Galarian Meowth"
 	},
 	"hp": 120,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Galar-Mauzinger",
 		"en": "Galarian Perrserker",

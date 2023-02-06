@@ -22,7 +22,9 @@
 		211
 	],
 	"hp": 60,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Qwilfish",
 		"fr": "Qwilfish"

@@ -36,7 +36,9 @@
 		251
 	],
 	"hp": 60,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Celebi",
 		"fr": "Celebi"

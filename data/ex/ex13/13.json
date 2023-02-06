@@ -41,7 +41,9 @@
 		"en": "Omanyte"
 	},
 	"hp": 110,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Omastar δ",
 		"fr": "Amonistar δ ESPÈCES DELTA"

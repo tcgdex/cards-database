@@ -30,7 +30,9 @@
 		546
 	],
 	"hp": 40,
-	"illustrator": "Pani Kobayashi",
+	"illustrator": [
+		"Pani Kobayashi"
+	],
 	"name": {
 		"de": "Waumboll",
 		"en": "Cottonee",

@@ -36,7 +36,9 @@
 		95
 	],
 	"hp": 100,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Onix",
 		"en": "Onix",

@@ -44,7 +44,9 @@
 		"fr": "Reptincel"
 	},
 	"hp": 160,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Glurak",
 		"en": "Charizard",

@@ -41,7 +41,9 @@
 		113
 	],
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Chansey",
 		"fr": "Leveinard"

@@ -33,7 +33,9 @@
 		238
 	],
 	"hp": 40,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Smoochum δ",
 		"fr": "Lippouti δ ESPÈCES DELTA"

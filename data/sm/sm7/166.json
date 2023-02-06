@@ -9,7 +9,9 @@
 		"pt": "Escolha 1:\n\n• Embaralhe a sua mão no seu baralho. Em seguida, compre 5 cartas.\n• Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
 		"de": "Wähle 1 aus:\n\n•Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten.\n•Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Ben & Svenja",
 		"en": "Tate & Liza",

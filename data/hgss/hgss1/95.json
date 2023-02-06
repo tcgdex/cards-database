@@ -6,7 +6,9 @@
 		"en": "Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 	"hp": 0,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Poké Ball",
 		"fr": "Poké Ball"

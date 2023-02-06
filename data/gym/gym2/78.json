@@ -29,7 +29,9 @@
 		88
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Koga's Grimer"
 	},

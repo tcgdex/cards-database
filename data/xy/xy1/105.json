@@ -59,7 +59,9 @@
 		"de": "Eneco"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Enekoro",
 		"en": "Delcatty",

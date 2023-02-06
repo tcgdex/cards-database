@@ -56,7 +56,9 @@
 		"fr": "Floette"
 	},
 	"hp": 120,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Florges",
 		"en": "Florges",

@@ -64,7 +64,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 310,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"en": "Mewtwo V-UNION"
 	},

@@ -43,7 +43,9 @@
 		"en": "Its body gives off a sweet, fruity scent that is extremely appetizing to bird Pokémon."
 	},
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Frubberl",
 		"en": "Bounsweet",

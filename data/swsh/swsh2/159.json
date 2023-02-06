@@ -9,7 +9,9 @@
 		"pt": "O seu Pokémon Ativo se recupera de todas as Condições Especiais.",
 		"de": "Dein Aktives Pokémon erholt sich von allen Speziellen Zuständen."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Hyperheiler",
 		"en": "Full Heal",

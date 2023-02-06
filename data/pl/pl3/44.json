@@ -37,7 +37,9 @@
 		"fr": "Ningale"
 	},
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Shedinja",
 		"fr": "Munja"

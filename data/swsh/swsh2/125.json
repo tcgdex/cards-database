@@ -60,7 +60,9 @@
 		"de": "Pelzebub"
 	},
 	"hp": 170,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Olangaar",
 		"en": "Grimmsnarl",

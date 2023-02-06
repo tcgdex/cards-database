@@ -46,7 +46,9 @@
 		484
 	],
 	"hp": 130,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Palkia",
 		"en": "Palkia",

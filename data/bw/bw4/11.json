@@ -18,7 +18,9 @@
 		58
 	],
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Fukano",
 		"en": "Growlithe",

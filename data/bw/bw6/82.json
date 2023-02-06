@@ -42,7 +42,9 @@
 		"fr": "Tarinor"
 	},
 	"hp": 110,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Voluminas",
 		"en": "Probopass",

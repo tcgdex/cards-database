@@ -9,7 +9,9 @@
 		"pt": "Cada jogador embaralha a própria mão no próprio baralho e joga 1 moeda. Se sair cara, o jogador comprará 6 cartas. Se sair coroa, o jogador comprará 3 cartas.",
 		"de": "Jeder Spieler mischt seine Handkarten in sein Deck und wirft 1 Münze. Bei Kopf zieht der Spieler 6 Karten. Bei Zahl zieht der Spieler 3 Karten."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Elima",
 		"en": "Ilima",

@@ -39,7 +39,9 @@
 		376
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"en": "Metagross EX",
 		"fr": "Métalosse EX"

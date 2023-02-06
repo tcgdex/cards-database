@@ -40,7 +40,9 @@
 		"fr": "Viskuse"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Apoquallyp",
 		"en": "Jellicent",

@@ -31,7 +31,9 @@
 		490
 	],
 	"hp": 70,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"en": "Manaphy"
 	},

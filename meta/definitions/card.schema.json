@@ -110,7 +110,10 @@
 				},
 				"illustrator": {
 					"description": "Card illustrator",
-					"type": "string"
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
 				},
 				"item": {
 					"additionalProperties": false,
@@ -261,7 +264,6 @@
 							"type": "boolean"
 						},
 						"wPromo": {
-							"const": true,
 							"description": "Card has a W stamp",
 							"type": "boolean"
 						}
@@ -293,6 +295,7 @@
 				}
 			},
 			"required": [
+				"$schema",
 				"name",
 				"rarity",
 				"category",

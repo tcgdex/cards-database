@@ -34,7 +34,9 @@
 		3
 	],
 	"hp": 220,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"en": "Venusaur V"
 	},

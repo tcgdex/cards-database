@@ -54,7 +54,9 @@
 		"de": "Frubaila"
 	},
 	"hp": 140,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Fruyal",
 		"en": "Tsareena",

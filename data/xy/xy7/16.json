@@ -22,7 +22,9 @@
 		636
 	],
 	"hp": 70,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Ignivor",
 		"en": "Larvesta",

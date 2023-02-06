@@ -29,7 +29,9 @@
 		255
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Flemmli",
 		"en": "Torchic",

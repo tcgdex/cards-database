@@ -22,7 +22,9 @@
 		155
 	],
 	"hp": 40,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Cyndaquil δ",
 		"fr": "Héricendre δ ESPÈCES DELTA"

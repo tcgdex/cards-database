@@ -46,7 +46,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 170,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Tapu Fini-GX",
 		"fr": "Tokopisco-GX"

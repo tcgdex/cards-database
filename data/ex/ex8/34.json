@@ -38,7 +38,9 @@
 		"en": "Lotad"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Lombre",
 		"fr": "Lombre"

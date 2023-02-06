@@ -21,7 +21,9 @@
 		90
 	],
 	"hp": 40,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Shellder δ",
 		"fr": "Kokiyas δ ESPÈCES DELTA"

@@ -40,7 +40,9 @@
 		"fr": "Doduo"
 	},
 	"hp": 90,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Dodrio",
 		"fr": "Dodrio"

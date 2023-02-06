@@ -41,7 +41,9 @@
 		"fr": "Grindur"
 	},
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Tentantel",
 		"en": "Ferrothorn",

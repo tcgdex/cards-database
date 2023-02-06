@@ -28,7 +28,9 @@
 		177
 	],
 	"hp": 60,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Natu",
 		"en": "Natu",

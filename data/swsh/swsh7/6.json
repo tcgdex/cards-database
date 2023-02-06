@@ -49,7 +49,9 @@
 		357
 	],
 	"hp": 110,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Tropius",
 		"en": "Tropius",

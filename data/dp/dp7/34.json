@@ -44,7 +44,9 @@
 		"fr": "Skélénox"
 	},
 	"hp": 80,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Dusclops",
 		"fr": "Teraclope"

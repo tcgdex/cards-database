@@ -40,7 +40,9 @@
 		"fr": "Statitik"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Voltula",
 		"en": "Galvantula",

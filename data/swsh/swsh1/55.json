@@ -39,7 +39,9 @@
 		816
 	],
 	"hp": 70,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Memmeon",
 		"en": "Sobble",

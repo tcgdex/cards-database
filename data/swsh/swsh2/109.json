@@ -51,7 +51,9 @@
 		"en": "Five of them are troopers, and one is the brass. The brass's orders are absolute."
 	},
 	"hp": 90,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Legios",
 		"en": "Falinks",

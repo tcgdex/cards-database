@@ -28,7 +28,9 @@
 		16
 	],
 	"hp": 40,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Koga's Pidgey"
 	},

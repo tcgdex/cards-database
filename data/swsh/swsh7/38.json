@@ -62,7 +62,9 @@
 		"de": "Barschwa"
 	},
 	"hp": 120,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Milotic",
 		"en": "Milotic",

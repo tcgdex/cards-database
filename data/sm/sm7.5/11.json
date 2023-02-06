@@ -78,7 +78,9 @@
 		643
 	],
 	"hp": 180,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Reshiram GX",
 		"en": "Reshiram GX",

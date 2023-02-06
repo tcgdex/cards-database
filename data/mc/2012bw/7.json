@@ -16,7 +16,9 @@
 		"en": "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings."
 	},
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Woobat"
 	},

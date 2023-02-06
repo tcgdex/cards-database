@@ -28,7 +28,9 @@
 		123
 	],
 	"hp": 100,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"en": "Scyther",
 		"fr": "Insécateur"

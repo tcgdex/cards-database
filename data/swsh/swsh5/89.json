@@ -43,7 +43,9 @@
 		"en": "Their skin is so thin that they'll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another's bodies."
 	},
 	"hp": 50,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Zubat",
 		"en": "Zubat",

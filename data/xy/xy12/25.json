@@ -61,7 +61,9 @@
 		"de": "Quaputzi"
 	},
 	"hp": 140,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Quappo",
 		"en": "Poliwrath",

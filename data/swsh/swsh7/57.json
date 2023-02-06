@@ -32,7 +32,9 @@
 		587
 	],
 	"hp": 70,
-	"illustrator": "Nagomi Nijo",
+	"illustrator": [
+		"Nagomi Nijo"
+	],
 	"name": {
 		"de": "Emolga",
 		"en": "Emolga",

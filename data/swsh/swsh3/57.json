@@ -52,7 +52,9 @@
 		"de": "Waaty"
 	},
 	"hp": 150,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Ampharos",
 		"en": "Ampharos",

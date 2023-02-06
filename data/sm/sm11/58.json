@@ -28,7 +28,9 @@
 		81
 	],
 	"hp": 60,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Magnetilo",
 		"en": "Magnemite",

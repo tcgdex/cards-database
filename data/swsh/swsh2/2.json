@@ -51,7 +51,9 @@
 		"de": "Raupy"
 	},
 	"hp": 80,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Safcon",
 		"en": "Metapod",

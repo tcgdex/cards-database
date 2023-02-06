@@ -9,7 +9,9 @@
 		"pt": "Uma vez, durante a vez de jogar de cada jogador, aquele jogador poderá curar 20 de danos de 1 dos seus Pokémon no Banco.",
 		"de": "Einmal während seines Zuges darf jeder Spieler 20 Schadenspunkte bei 1 seiner Pokémon auf der Bank heilen."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Pokémon-Center",
 		"en": "Pokémon Center",

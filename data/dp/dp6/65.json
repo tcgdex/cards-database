@@ -45,7 +45,9 @@
 		"fr": "Terhal"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Metang",
 		"fr": "Metang"

@@ -21,7 +21,9 @@
 		"en": "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee."
 	},
 	"hp": 50,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Iscalar",
 		"en": "Inkay",

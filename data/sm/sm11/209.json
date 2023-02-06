@@ -9,7 +9,9 @@
 		"pt": "Mova até 2 Energias de 1 dos seus Pokémon ALIADOS para outro Pokémon seu.",
 		"de": "Verschiebe bis zu 2 Energien von 1 deiner TAG TEAM Pokémon auf 1 anderes deiner Pokémon."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Team-Wechsel",
 		"en": "Tag Switch",

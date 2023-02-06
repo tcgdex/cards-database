@@ -48,7 +48,9 @@
 		"en": "Remoraid"
 	},
 	"hp": 110,
-	"illustrator": "KIYOTAKA OSHIYAMA",
+	"illustrator": [
+		"KIYOTAKA OSHIYAMA"
+	],
 	"name": {
 		"de": "Octillery",
 		"en": "Octillery",

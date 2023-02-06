@@ -35,7 +35,9 @@
 		142
 	],
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Aerodactyl GL",
 		"fr": "Ptera  Niv. 62"

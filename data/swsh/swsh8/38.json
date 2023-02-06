@@ -36,7 +36,9 @@
 		"de": "Grillmak"
 	},
 	"hp": 100,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Grillchita",
 		"en": "Simisear",

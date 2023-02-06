@@ -55,7 +55,9 @@
 		"fr": "Pifeuil"
 	},
 	"hp": 130,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Shiftry",
 		"fr": "Tengalice Niv. 55"

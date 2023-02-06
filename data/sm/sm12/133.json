@@ -51,7 +51,9 @@
 		359
 	],
 	"hp": 100,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Absol",
 		"en": "Absol",

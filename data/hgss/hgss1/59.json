@@ -31,7 +31,9 @@
 		152
 	],
 	"hp": 60,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Chikorita",
 		"fr": "Germignon"

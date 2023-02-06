@@ -38,7 +38,9 @@
 		395
 	],
 	"hp": 90,
-	"illustrator": "Hiroki Fuchino",
+	"illustrator": [
+		"Hiroki Fuchino"
+	],
 	"name": {
 		"en": "Empoleon FB",
 		"fr": "Pingoléon "

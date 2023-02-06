@@ -17,7 +17,9 @@
 		147
 	],
 	"hp": 40,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Dratini δ",
 		"fr": "Minidraco δ ESPÈCES DELTA"

@@ -20,7 +20,9 @@
 		420
 	],
 	"hp": 50,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Cherubi",
 		"fr": "Ceribou"

@@ -31,7 +31,9 @@
 		648
 	],
 	"hp": 80,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"en": "Meloetta"
 	},

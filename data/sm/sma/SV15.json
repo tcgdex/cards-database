@@ -36,7 +36,9 @@
 		336
 	],
 	"hp": 100,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"en": "Seviper",
 		"fr": "Séviper"

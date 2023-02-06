@@ -43,7 +43,9 @@
 		"fr": "Skorgla"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Gliscor",
 		"fr": "Scorvol"

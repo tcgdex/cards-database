@@ -41,7 +41,9 @@
 		151
 	],
 	"hp": 120,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Mew-EX",
 		"en": "Mew-EX",

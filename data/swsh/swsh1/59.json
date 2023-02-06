@@ -63,7 +63,9 @@
 		"de": "Phlegleon"
 	},
 	"hp": 160,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Intelleon",
 		"en": "Inteleon",

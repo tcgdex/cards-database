@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Cherchez jusqu’à 4 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
 	},
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Lady",
 		"fr": "Mademoiselle"

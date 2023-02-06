@@ -53,7 +53,9 @@
 		637
 	],
 	"hp": 210,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Ramoth V",
 		"en": "Volcarona V",

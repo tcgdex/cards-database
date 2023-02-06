@@ -54,7 +54,9 @@
 		468
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Togekiss EX",
 		"en": "Togekiss EX",

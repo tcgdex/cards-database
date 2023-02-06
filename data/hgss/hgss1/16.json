@@ -43,7 +43,9 @@
 		"fr": "Chrysacier"
 	},
 	"hp": 120,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Butterfree",
 		"fr": "Papilusion"

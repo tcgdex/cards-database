@@ -51,7 +51,9 @@
 		"de": "Snomnom"
 	},
 	"hp": 90,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Mottineva",
 		"en": "Frosmoth",

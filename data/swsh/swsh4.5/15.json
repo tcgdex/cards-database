@@ -54,7 +54,9 @@
 		"en": "Gossifleur"
 	},
 	"hp": 90,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Cottomi",
 		"en": "Eldegoss",

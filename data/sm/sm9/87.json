@@ -48,7 +48,9 @@
 		"fr": "Medhyèna"
 	},
 	"hp": 100,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Magnayen",
 		"en": "Mightyena",

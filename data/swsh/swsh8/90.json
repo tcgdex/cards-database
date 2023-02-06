@@ -27,7 +27,9 @@
 		"en": "It cheers on friends. If its friends are losing, its body lets off more and more sparks."
 	},
 	"hp": 70,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Minun",
 		"en": "Minun",

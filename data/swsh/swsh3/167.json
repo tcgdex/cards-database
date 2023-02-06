@@ -10,7 +10,9 @@
 		"de": "Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 70 KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\n\nDiese Karte kann von keinen Speziellen Zuständen betroffen werden und sich nicht zurückziehen."
 	},
 	"hp": 70,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Seltenes Fossil",
 		"en": "Rare Fossil",

@@ -29,7 +29,9 @@
 		46
 	],
 	"hp": 60,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Paras",
 		"en": "Paras",

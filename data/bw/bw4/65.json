@@ -32,7 +32,9 @@
 		449
 	],
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Hippopotas",
 		"en": "Hippopotas",

@@ -36,7 +36,9 @@
 		"fr": "Bulbizarre"
 	},
 	"hp": 80,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Ivysaur",
 		"fr": "Herbizarre"

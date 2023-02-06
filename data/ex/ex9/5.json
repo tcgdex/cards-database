@@ -33,7 +33,9 @@
 		383
 	],
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Groudon",
 		"fr": "Groudon"

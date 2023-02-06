@@ -76,7 +76,9 @@
 		561
 	],
 	"hp": 170,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Symvolara GX",
 		"en": "Sigilyph GX",

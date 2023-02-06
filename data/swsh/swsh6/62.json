@@ -21,7 +21,9 @@
 		"en": "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
 	},
 	"hp": 50,
-	"illustrator": "OKACHEKE",
+	"illustrator": [
+		"OKACHEKE"
+	],
 	"name": {
 		"de": "Shuppet",
 		"en": "Shuppet",

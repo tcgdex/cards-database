@@ -44,7 +44,9 @@
 		"fr": "Machopeur"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Machomei",
 		"en": "Machamp",

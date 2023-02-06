@@ -52,7 +52,9 @@
 		890
 	],
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Endynalos V",
 		"en": "Eternatus V",

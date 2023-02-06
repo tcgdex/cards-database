@@ -9,7 +9,9 @@
 		"pt": "Procure por 1 Pokémon Metal no seu baralho, revele-o e coloque-o na sua mão. Se você for o segundo a jogar e esta for a sua primeira vez de jogar, procure por 5 Pokémon Metal ao invés de 1. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach 1 Metal-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach 5 Metal-Pokémon anstelle von 1. Mische anschließend dein Deck."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Jasmin",
 		"en": "Jasmine",

@@ -61,7 +61,9 @@
 		"de": "Galar-Makabaja"
 	},
 	"hp": 100,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Galar-Oghnatoll",
 		"en": "Galarian Runerigus",

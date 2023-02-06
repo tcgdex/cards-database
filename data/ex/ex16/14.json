@@ -41,7 +41,9 @@
 		"en": "Duskull"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Dusclops",
 		"fr": "Teraclope"

@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Choisissez 1 de vos Pokémon. Lancez 2 pièces. Si ce sont deux faces, retirez à ce Pokémon tous ses marqueurs de dégât. Si ce sont deux piles, défaussez toutes les cartes Énergie attachées à ce Pokémon."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Night Pokémon Center",
 		"fr": "Centre Pokémon de Nuit"

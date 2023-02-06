@@ -33,7 +33,9 @@
 		382
 	],
 	"hp": 170,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"de": "Kyogre-EX",
 		"en": "Kyogre-EX",

@@ -19,7 +19,9 @@
 		"en": "It shows its cute side by chasing its own tail until it gets dizzy."
 	},
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Eneco",
 		"en": "Skitty",

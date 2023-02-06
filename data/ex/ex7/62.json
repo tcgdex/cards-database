@@ -22,7 +22,9 @@
 		"en": "Larvitar"
 	},
 	"hp": 50,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Larvitar"
 	},

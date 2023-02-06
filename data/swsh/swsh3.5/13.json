@@ -50,7 +50,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 280,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Wailord V",
 		"en": "Wailord V",

@@ -27,7 +27,9 @@
 	"dexId": [
 		316
 	],
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Gulpin"
 	},

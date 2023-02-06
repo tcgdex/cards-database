@@ -40,7 +40,9 @@
 		"fr": "Axoloto"
 	},
 	"hp": 90,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Quagsire",
 		"fr": "Maraiste"

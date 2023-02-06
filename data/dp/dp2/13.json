@@ -43,7 +43,9 @@
 		"en": "Bayleef"
 	},
 	"hp": 130,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Meganium",
 		"fr": "Meganium"

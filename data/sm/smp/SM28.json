@@ -57,7 +57,9 @@
 		"fr": "Chrysapile"
 	},
 	"hp": 150,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Donarion",
 		"en": "Vikavolt",

@@ -65,7 +65,9 @@
 		133
 	],
 	"hp": 160,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Evoli GX",
 		"en": "Eevee GX",

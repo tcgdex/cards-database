@@ -39,7 +39,9 @@
 		"en": "Barboach"
 	},
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Whiscash",
 		"fr": "Barbicha"

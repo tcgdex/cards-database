@@ -53,7 +53,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 230,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Despotar V",
 		"en": "Tyranitar V",

@@ -38,7 +38,9 @@
 		"en": "Porygon"
 	},
 	"hp": 70,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Porygon2",
 		"fr": "Porygon2"

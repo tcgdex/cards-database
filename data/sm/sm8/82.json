@@ -47,7 +47,9 @@
 		"fr": "Zébibron"
 	},
 	"hp": 110,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Zebritz",
 		"en": "Zebstrika",

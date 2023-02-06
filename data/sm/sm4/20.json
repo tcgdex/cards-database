@@ -49,7 +49,9 @@
 		"fr": "Marcacrin"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Keifel",
 		"en": "Piloswine",

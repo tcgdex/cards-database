@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada for o seu Pokémon Ativo e ele for danificado por um ataque do seu oponente (mesmo que este Pokémon seja Nocauteado), o Pokémon Atacante será Envenenado.",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Giftstich",
 		"en": "Poison Barb",

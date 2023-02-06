@@ -56,7 +56,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 110,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Alola-Raichu",
 		"en": "Alolan Raichu",

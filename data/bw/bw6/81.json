@@ -39,7 +39,9 @@
 		379
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Registeel-EX",
 		"en": "Registeel-EX",

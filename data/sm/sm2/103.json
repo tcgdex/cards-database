@@ -29,7 +29,9 @@
 		276
 	],
 	"hp": 60,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Schwalbini",
 		"en": "Taillow",

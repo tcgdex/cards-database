@@ -41,7 +41,9 @@
 		"en": "Finneon"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Lumineon",
 		"fr": "Luminéon"

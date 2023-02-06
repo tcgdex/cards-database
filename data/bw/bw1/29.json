@@ -38,7 +38,9 @@
 		"fr": "Moustillon"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Zwottronin",
 		"en": "Dewott",

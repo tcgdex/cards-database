@@ -42,7 +42,9 @@
 		"en": "Snover"
 	},
 	"hp": 100,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Abomasnow",
 		"fr": "Blizzaroi"

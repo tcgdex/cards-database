@@ -37,7 +37,9 @@
 		"en": "Shroomish"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Breloom",
 		"fr": "Chapignon"

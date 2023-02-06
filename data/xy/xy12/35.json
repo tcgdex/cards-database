@@ -44,7 +44,9 @@
 		25
 	],
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Pikachu",
 		"en": "Pikachu",

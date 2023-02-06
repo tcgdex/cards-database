@@ -38,7 +38,9 @@
 		"en": "Slowpoke"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Slowking",
 		"fr": "Roigada"

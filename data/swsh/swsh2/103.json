@@ -31,7 +31,9 @@
 		"en": "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide."
 	},
 	"hp": 80,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Bithora",
 		"en": "Binacle",

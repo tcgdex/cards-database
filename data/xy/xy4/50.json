@@ -61,7 +61,9 @@
 		"de": "Sedimantur"
 	},
 	"hp": 140,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Brockoloss",
 		"en": "Gigalith",

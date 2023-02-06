@@ -13,7 +13,9 @@
 		"en": "Current studies show it can evolve into an incredible eight different species of Pokémon."
 	},
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Eevee"
 	},

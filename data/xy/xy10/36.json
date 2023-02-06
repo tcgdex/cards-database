@@ -21,7 +21,9 @@
 		50
 	],
 	"hp": 40,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Digda",
 		"en": "Diglett",

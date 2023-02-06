@@ -45,7 +45,9 @@
 		"de": "Nidoran♀"
 	},
 	"hp": 90,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Nidorina",
 		"en": "Nidorina",

@@ -43,7 +43,9 @@
 		152
 	],
 	"hp": 60,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Endivie",
 		"en": "Chikorita",

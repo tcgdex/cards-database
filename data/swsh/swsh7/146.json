@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se a tiver pegado como uma das cartas de Prêmio viradas para baixo, antes de colocá-la na sua mão.\nProcure por 1 Pokémon no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
 		"de": "Du kannst diese Karte nur spielen, wenn du sie als verdeckte Preiskarte genommen hast und bevor du sie auf deine Hand nimmst.\nDurchsuche dein Deck nach 1 Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Traumball",
 		"en": "Dream Ball",

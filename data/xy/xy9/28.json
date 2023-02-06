@@ -52,7 +52,9 @@
 		131
 	],
 	"hp": 120,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Lapras",
 		"en": "Lapras",

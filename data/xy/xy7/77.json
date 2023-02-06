@@ -9,7 +9,9 @@
 		"pt": "Sempre que o Pokémon ao qual este card estiver ligado for o seu Pokémon Ativo e for danificado pelo ataque de um oponente (mesmo se este Pokémon for Nocauteado), compre 2 cards.",
 		"de": "Ziehe jedes Mal 2 Karten, wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird)."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Glückshelm",
 		"en": "Lucky Helmet",

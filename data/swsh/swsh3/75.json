@@ -60,7 +60,9 @@
 		"de": "Hypnomorba"
 	},
 	"hp": 140,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Morbitesse",
 		"en": "Gothitelle",

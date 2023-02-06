@@ -35,7 +35,9 @@
 		114
 	],
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Tangela",
 		"fr": "Saquedeneu"

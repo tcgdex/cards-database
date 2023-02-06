@@ -35,7 +35,9 @@
 		146
 	],
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Moltres",
 		"fr": "Sulfura"

@@ -44,7 +44,9 @@
 		746
 	],
 	"hp": 180,
-	"illustrator": "Misaki Hashimoto",
+	"illustrator": [
+		"Misaki Hashimoto"
+	],
 	"name": {
 		"de": "Lusardin",
 		"en": "Wishiwashi",

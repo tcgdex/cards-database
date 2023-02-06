@@ -12,7 +12,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Torchic"
 	},

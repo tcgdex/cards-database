@@ -51,7 +51,9 @@
 		"de": "Evoli"
 	},
 	"hp": 110,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Aquana",
 		"en": "Vaporeon",

@@ -33,7 +33,9 @@
 		482
 	],
 	"hp": 90,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Azelf",
 		"fr": "Créfadet"

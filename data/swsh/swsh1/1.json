@@ -51,7 +51,9 @@
 		251
 	],
 	"hp": 180,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Celebi V",
 		"en": "Celebi V",

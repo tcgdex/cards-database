@@ -39,7 +39,9 @@
 		145
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Zapdos-EX",
 		"en": "Zapdos-EX",

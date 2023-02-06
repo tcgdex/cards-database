@@ -33,7 +33,9 @@
 		"en": "Pignite"
 	},
 	"hp": 150,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Emboar"
 	},

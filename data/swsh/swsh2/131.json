@@ -53,7 +53,9 @@
 		"de": "Nasgnet"
 	},
 	"hp": 140,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Voluminas",
 		"en": "Probopass",

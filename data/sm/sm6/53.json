@@ -55,7 +55,9 @@
 		"fr": "Venalgue"
 	},
 	"hp": 120,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Tandrak",
 		"en": "Dragalge",

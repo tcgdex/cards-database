@@ -17,7 +17,9 @@
 		"en": "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
 	},
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Puppance",
 		"en": "Baltoy",

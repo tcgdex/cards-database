@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Retirez jusqu'à 2 marqueurs de dégâts d'1 de vos Pokémon."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Potion",
 		"fr": "Potion"

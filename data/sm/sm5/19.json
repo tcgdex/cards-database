@@ -56,7 +56,9 @@
 		"fr": "Magmar"
 	},
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Magbrant",
 		"en": "Magmortar",

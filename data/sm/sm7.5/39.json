@@ -56,7 +56,9 @@
 		"fr": "Vibraninf"
 	},
 	"hp": 140,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Libelldra",
 		"en": "Flygon",

@@ -35,7 +35,9 @@
 		"fr": "Coupenotte"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Sharfax",
 		"en": "Fraxure",

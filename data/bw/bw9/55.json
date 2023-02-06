@@ -29,7 +29,9 @@
 		562
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Makabaja",
 		"en": "Yamask",

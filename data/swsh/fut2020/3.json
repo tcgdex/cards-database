@@ -28,7 +28,9 @@
 	"description": {
 		"en": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
-	"illustrator": "The Pokémon Company Art Team",
+	"illustrator": [
+		"The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Grookey on the Ball"
 	},

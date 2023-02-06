@@ -28,7 +28,9 @@
 		200
 	],
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Traunfugil",
 		"en": "Misdreavus",

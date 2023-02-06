@@ -31,7 +31,9 @@
 		380
 	],
 	"hp": 90,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"en": "Latias",
 		"fr": "Latias"

@@ -51,7 +51,9 @@
 		211
 	],
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Baldorfish",
 		"en": "Qwilfish",

@@ -55,7 +55,9 @@
 		"en": "Milcery"
 	},
 	"hp": 110,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Pokusan",
 		"en": "Alcremie",

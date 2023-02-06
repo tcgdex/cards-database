@@ -48,7 +48,9 @@
 		382
 	],
 	"hp": 150,
-	"illustrator": "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	"illustrator": [
+		"Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子"
+	],
 	"name": {
 		"en": "Kyogre & Groudon LEGEND",
 		"fr": "Kyogre & Groudon LÉGENDE"

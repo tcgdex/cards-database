@@ -56,7 +56,9 @@
 		"fr": "Magnéton"
 	},
 	"hp": 160,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Magnezone",
 		"en": "Magnezone",

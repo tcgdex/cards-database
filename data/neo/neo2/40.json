@@ -21,7 +21,9 @@
 		174
 	],
 	"hp": 30,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Igglybuff",
 		"fr": "Toudoudou"

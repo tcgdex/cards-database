@@ -39,7 +39,9 @@
 		249
 	],
 	"hp": 130,
-	"illustrator": "Shinji Higuchi",
+	"illustrator": [
+		"Shinji Higuchi"
+	],
 	"name": {
 		"en": "Lugia LEGEND",
 		"fr": "Lugia LÉGENDAIRE"

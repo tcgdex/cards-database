@@ -55,7 +55,9 @@
 		"fr": "Farfuret"
 	},
 	"hp": 90,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Snibunna",
 		"en": "Weavile",

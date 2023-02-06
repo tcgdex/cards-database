@@ -50,7 +50,9 @@
 		"fr": "Fossile Inconnu"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Amarino",
 		"en": "Amaura",

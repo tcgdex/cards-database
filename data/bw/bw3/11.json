@@ -30,7 +30,9 @@
 		616
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Schnuthelm",
 		"en": "Shelmet",

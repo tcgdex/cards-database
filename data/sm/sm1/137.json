@@ -10,7 +10,9 @@
 		"de": "Diese Karte liefert Colorless-Energie. Ist sie im Spiel, zählt sie als jeder beliebige Energietyp, spendet aber immer nur jeweils 1 Energie. Wenn du diese Karte aus deiner Hand an 1 deiner Pokémon anlegst, lege 1 Schadensmarke auf jenes Pokémon."
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Regenbogen-Energie",
 		"en": "Rainbow Energy",

@@ -35,7 +35,9 @@
 		446
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Munchlax",
 		"fr": "Goinfrex"

@@ -57,7 +57,9 @@
 		"fr": "Hoothoot"
 	},
 	"hp": 90,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Noctuh",
 		"en": "Noctowl",

@@ -50,7 +50,9 @@
 		479
 	],
 	"hp": 90,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Frost Rotom",
 		"fr": "Motisma Froid Niv. 46"

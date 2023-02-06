@@ -40,7 +40,9 @@
 		"de": "Dartiri"
 	},
 	"hp": 80,
-	"illustrator": "Yuya Oka",
+	"illustrator": [
+		"Yuya Oka"
+	],
 	"name": {
 		"de": "Dartignis",
 		"en": "Fletchinder",

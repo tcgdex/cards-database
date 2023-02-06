@@ -21,7 +21,9 @@
 		133
 	],
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Eevee δ",
 		"fr": "Evoli δ ESPÈCES DELTA"

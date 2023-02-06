@@ -79,7 +79,9 @@
 		249
 	],
 	"hp": 190,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Lugia GX",
 		"en": "Lugia GX",

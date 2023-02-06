@@ -61,7 +61,9 @@
 		"de": "Meditie"
 	},
 	"hp": 110,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Meditalis",
 		"en": "Medicham",

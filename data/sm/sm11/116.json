@@ -21,7 +21,9 @@
 		447
 	],
 	"hp": 60,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Riolu",
 		"en": "Riolu",

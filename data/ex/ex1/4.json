@@ -42,7 +42,9 @@
 		"en": "Numel"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Camerupt",
 		"fr": "Camerupt"

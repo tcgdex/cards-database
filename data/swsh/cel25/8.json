@@ -23,7 +23,9 @@
 		25
 	],
 	"hp": 200,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Surfendes Pikachu V",
 		"en": "Surfing Pikachu V",

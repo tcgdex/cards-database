@@ -9,7 +9,9 @@
 		"pt": "Sempre que você ligar um card de Energia da sua mão ao Pokémon ao qual este card está ligado, cure 20 de danos dele.",
 		"de": "Heile jedes Mal 20 Schadenspunkte bei dem Pokémon, an das diese Karte angelegt ist, wenn du 1 Energiekarte von deiner Hand an das Pokémon anlegst."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Heilender Schal",
 		"en": "Healing Scarf",

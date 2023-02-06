@@ -39,7 +39,9 @@
 		"fr": "Terhal"
 	},
 	"hp": 80,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Metang",
 		"fr": "Metang"

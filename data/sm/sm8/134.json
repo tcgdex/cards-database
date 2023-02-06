@@ -58,7 +58,9 @@
 		"fr": "Rondoudou"
 	},
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Knuddeluff",
 		"en": "Wigglytuff",

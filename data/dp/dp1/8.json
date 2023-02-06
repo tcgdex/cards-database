@@ -40,7 +40,9 @@
 		"fr": "Magneton"
 	},
 	"hp": 120,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Magnezone",
 		"fr": "Magnézone"

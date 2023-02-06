@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se ambos os Pokémon Ativos forem do mesmo tipo, compre 2 cartas a mais.",
 		"de": "Ziehe 2 Karten. Wenn beide Aktiven Pokémon denselben Typ haben, ziehe 2 Karten mehr."
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Samson Eich",
 		"en": "Samson Oak",

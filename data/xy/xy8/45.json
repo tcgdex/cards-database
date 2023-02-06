@@ -62,7 +62,9 @@
 		"de": "Gelatroppo"
 	},
 	"hp": 130,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Gelatwino",
 		"en": "Vanilluxe",

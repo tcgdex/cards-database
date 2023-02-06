@@ -51,7 +51,9 @@
 		"en": "Dark Pupitar"
 	},
 	"hp": 120,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Dark Tyranitar"
 	},

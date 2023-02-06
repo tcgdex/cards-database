@@ -31,7 +31,9 @@
 		454
 	],
 	"hp": 90,
-	"illustrator": "Ryota Saito",
+	"illustrator": [
+		"Ryota Saito"
+	],
 	"name": {
 		"en": "Toxicroak G"
 	},

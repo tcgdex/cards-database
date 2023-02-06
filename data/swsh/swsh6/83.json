@@ -60,7 +60,9 @@
 		"de": "Galar-Makabaja"
 	},
 	"hp": 120,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Galar-Oghnatoll",
 		"en": "Galarian Runerigus",

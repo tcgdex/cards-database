@@ -61,7 +61,9 @@
 		"de": "Staravia"
 	},
 	"hp": 150,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Staraptor",
 		"en": "Staraptor",

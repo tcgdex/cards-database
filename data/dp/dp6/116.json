@@ -35,7 +35,9 @@
 		261
 	],
 	"hp": 50,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Poochyena",
 		"fr": "Medhyena"

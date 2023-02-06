@@ -57,7 +57,9 @@
 		"fr": "Chaglam"
 	},
 	"hp": 110,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Shnurgarst",
 		"en": "Purugly",

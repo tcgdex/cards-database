@@ -48,7 +48,9 @@
 		"fr": "Scrutella"
 	},
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Hypnomorba",
 		"en": "Gothorita",

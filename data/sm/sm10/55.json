@@ -48,7 +48,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Raichu",
 		"en": "Raichu",

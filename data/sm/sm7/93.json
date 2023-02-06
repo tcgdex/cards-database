@@ -30,7 +30,9 @@
 		374
 	],
 	"hp": 70,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Tanhel",
 		"en": "Beldum",

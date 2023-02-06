@@ -34,7 +34,9 @@
 		"fr": "Écayon"
 	},
 	"hp": 90,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Lumineon",
 		"en": "Lumineon",

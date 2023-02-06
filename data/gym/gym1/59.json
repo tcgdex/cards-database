@@ -35,7 +35,9 @@
 		"en": "Smoochum"
 	},
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Sabrina's Jynx"
 	},

@@ -50,7 +50,9 @@
 		720
 	],
 	"hp": 80,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Hoopa",
 		"en": "Hoopa",

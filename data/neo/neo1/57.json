@@ -39,7 +39,9 @@
 		155
 	],
 	"hp": 50,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Cyndaquil",
 		"fr": "Héricendre"

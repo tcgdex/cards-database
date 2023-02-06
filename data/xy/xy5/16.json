@@ -54,7 +54,9 @@
 		"de": "Knilz"
 	},
 	"hp": 100,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Kapilz",
 		"en": "Breloom",

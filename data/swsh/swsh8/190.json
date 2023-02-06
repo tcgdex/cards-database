@@ -41,7 +41,9 @@
 		"de": "Kranoviz"
 	},
 	"hp": 170,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Krarmor",
 		"en": "Corviknight",

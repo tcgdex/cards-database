@@ -50,7 +50,9 @@
 		778
 	],
 	"hp": 70,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Mimigma",
 		"en": "Mimikyu",

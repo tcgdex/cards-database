@@ -42,7 +42,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Scherox V",
 		"en": "Scizor V",

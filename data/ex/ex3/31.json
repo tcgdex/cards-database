@@ -25,7 +25,9 @@
 		"en": "Treecko"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Grovyle",
 		"fr": "Massko"

@@ -44,7 +44,9 @@
 		25
 	],
 	"hp": 60,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Pikachu",
 		"en": "Pikachu",

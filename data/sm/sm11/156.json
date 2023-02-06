@@ -55,7 +55,9 @@
 		"fr": "Incisache"
 	},
 	"hp": 150,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Maxax",
 		"en": "Haxorus",

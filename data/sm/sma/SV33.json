@@ -22,7 +22,9 @@
 		798
 	],
 	"hp": 60,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"en": "Kartana",
 		"fr": "Katagami"

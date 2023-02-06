@@ -35,7 +35,9 @@
 		311
 	],
 	"hp": 60,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Plusle",
 		"fr": "Posipi"

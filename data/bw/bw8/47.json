@@ -41,7 +41,9 @@
 		"fr": "Magnéton"
 	},
 	"hp": 140,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Magnezone",
 		"en": "Magnezone",

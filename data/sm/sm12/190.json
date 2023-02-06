@@ -25,7 +25,9 @@
 		"pt": "",
 		"de": ""
 	},
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Dracium Z: Drachenklaue",
 		"en": "Dragonium Z: Dragon Claw",

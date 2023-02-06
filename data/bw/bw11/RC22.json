@@ -34,7 +34,9 @@
 		643
 	],
 	"hp": 130,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Reshiram"
 	},

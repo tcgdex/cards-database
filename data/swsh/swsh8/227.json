@@ -9,7 +9,9 @@
 		"pt": "Procure por até 3 Pokémon Golpe Fusão no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach bis zu 3 Fusionsangriff-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Maik & Benny & Colin",
 		"en": "Chili & Cilan & Cress",

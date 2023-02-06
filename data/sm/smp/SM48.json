@@ -48,7 +48,9 @@
 		718
 	],
 	"hp": 150,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Zygarde",
 		"en": "Zygarde",

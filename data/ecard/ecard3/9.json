@@ -37,7 +37,9 @@
 		"en": "Pineco"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Forretress"
 	},

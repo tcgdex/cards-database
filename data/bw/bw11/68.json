@@ -32,7 +32,9 @@
 		"en": "Trubbish"
 	},
 	"hp": 100,
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"en": "Garbodor"
 	},

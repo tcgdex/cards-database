@@ -48,7 +48,9 @@
 		"en": "Chewtle"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Kamalm",
 		"en": "Drednaw",

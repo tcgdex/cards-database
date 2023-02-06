@@ -53,7 +53,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 250,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Stahlos V",
 		"en": "Steelix V",

@@ -39,7 +39,9 @@
 		"en": "Charmeleon"
 	},
 	"hp": 160,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Charizard"
 	},

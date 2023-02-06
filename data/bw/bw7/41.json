@@ -39,7 +39,9 @@
 		"fr": "Mateloutre"
 	},
 	"hp": 140,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Admurai",
 		"en": "Samurott",

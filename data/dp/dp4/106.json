@@ -39,7 +39,9 @@
 		"fr": "Niveau Sup"
 	},
 	"hp": 120,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Palkia",
 		"fr": "Palkia"

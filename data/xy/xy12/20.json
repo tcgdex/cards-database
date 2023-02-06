@@ -46,7 +46,9 @@
 		126
 	],
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Magmar",
 		"en": "Magmar",

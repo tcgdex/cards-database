@@ -42,7 +42,9 @@
 		527
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Fleknoil",
 		"en": "Woobat",

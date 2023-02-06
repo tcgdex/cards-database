@@ -40,7 +40,9 @@
 		"en": "Marshtomp"
 	},
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Swampert",
 		"fr": "Laggron"

@@ -29,7 +29,9 @@
 	"description": {
 		"en": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
-	"illustrator": "The Pokémon Company Art Team",
+	"illustrator": [
+		"The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Pikachu on the Ball"
 	},

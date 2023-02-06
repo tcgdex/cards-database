@@ -46,7 +46,9 @@
 		151
 	],
 	"hp": 60,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"de": "Mew",
 		"en": "Mew",

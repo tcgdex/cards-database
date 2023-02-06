@@ -54,7 +54,9 @@
 		471
 	],
 	"hp": 170,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Glaziola EX",
 		"en": "Glaceon EX",

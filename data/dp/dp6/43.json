@@ -37,7 +37,9 @@
 		480
 	],
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Uxie",
 		"fr": "Créhelf"

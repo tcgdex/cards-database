@@ -41,7 +41,9 @@
 		"fr": "Feuforêve"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Mismagius",
 		"fr": "Magirêve"

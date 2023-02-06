@@ -22,7 +22,9 @@
 		607
 	],
 	"hp": 50,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Lichtel",
 		"en": "Litwick",

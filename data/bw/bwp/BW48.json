@@ -36,7 +36,9 @@
 		"fr": "Swablu"
 	},
 	"hp": 70,
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"en": "Altaria",
 		"fr": "Altaria"

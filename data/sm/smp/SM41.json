@@ -52,7 +52,9 @@
 		775
 	],
 	"hp": 80,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Koalelu",
 		"en": "Komala",

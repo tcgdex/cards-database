@@ -41,7 +41,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Liberlo V",
 		"en": "Cinderace V",

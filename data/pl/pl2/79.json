@@ -33,7 +33,9 @@
 		422
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Shellos East Sea",
 		"fr": "Sancoki Mer Orient Niv. 21"

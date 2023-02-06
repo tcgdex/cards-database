@@ -21,7 +21,9 @@
 		"en": "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
 	},
 	"hp": 40,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Seeper",
 		"en": "Horsea",

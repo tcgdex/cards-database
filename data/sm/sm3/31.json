@@ -54,7 +54,9 @@
 		"fr": "Hypocéan"
 	},
 	"hp": 140,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Seedraking",
 		"en": "Kingdra",

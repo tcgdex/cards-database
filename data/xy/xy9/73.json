@@ -61,7 +61,9 @@
 		"de": "Blanas"
 	},
 	"hp": 140,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Tengulist",
 		"en": "Shiftry",

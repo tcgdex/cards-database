@@ -9,7 +9,9 @@
 		"pt": "O Custo para Recuar de cada Pokémon Básico em jogo é de um Colorless a menos.",
 		"de": "Die Rückzugskosten aller Basis-Pokémon im Spiel verringern sich um Colorless."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Himmelspfeilbrücke",
 		"en": "Skyarrow Bridge",

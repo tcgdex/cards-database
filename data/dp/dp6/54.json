@@ -38,7 +38,9 @@
 		"fr": "Owei"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Exeggutor",
 		"fr": "Noadkoko"

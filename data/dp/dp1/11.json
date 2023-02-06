@@ -40,7 +40,9 @@
 		484
 	],
 	"hp": 90,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Palkia",
 		"fr": "Palkia"

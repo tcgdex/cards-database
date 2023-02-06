@@ -52,7 +52,9 @@
 		202
 	],
 	"hp": 220,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Woingenau V",
 		"en": "Wobbuffet V",

@@ -45,7 +45,9 @@
 		462
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Magnezone EX",
 		"en": "Magnezone EX",

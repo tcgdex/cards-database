@@ -9,7 +9,9 @@
 		"pt": "Jogue uma moeda. Se sair cara, coloque 1 dos seus Pokémon e todos os cards ligados a ele em sua mão.",
 		"de": "Wirf 1 Münze. Nimm bei „Kopf“ 1 deiner Pokémon und alle daran angelegten Karten zurück auf deine Hand."
 	},
-	"illustrator": "Daisuke Iwamoto",
+	"illustrator": [
+		"Daisuke Iwamoto"
+	],
 	"name": {
 		"de": "Super-Anziehungskraft",
 		"en": "Super Scoop Up",

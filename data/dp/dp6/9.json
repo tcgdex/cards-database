@@ -47,7 +47,9 @@
 		"fr": "Keifel"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Mamoswine",
 		"fr": "Mammochon"

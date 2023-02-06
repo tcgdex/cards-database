@@ -51,7 +51,9 @@
 		719
 	],
 	"hp": 90,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Diancie",
 		"en": "Diancie",

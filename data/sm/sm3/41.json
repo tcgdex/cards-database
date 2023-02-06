@@ -56,7 +56,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Raichu",
 		"en": "Raichu",

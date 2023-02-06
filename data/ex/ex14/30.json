@@ -37,7 +37,9 @@
 		"en": "Charmander"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Charmeleon δ",
 		"fr": "Reptincel δ ESPÈCES DELTA"

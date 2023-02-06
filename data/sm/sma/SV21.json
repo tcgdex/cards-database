@@ -30,7 +30,9 @@
 		447
 	],
 	"hp": 70,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"en": "Riolu",
 		"fr": "Riolu"

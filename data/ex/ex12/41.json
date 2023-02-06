@@ -35,7 +35,9 @@
 		"en": "Seedot"
 	},
 	"hp": 70,
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Nuzleaf",
 		"fr": "Pifeuil"

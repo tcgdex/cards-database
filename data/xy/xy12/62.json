@@ -37,7 +37,9 @@
 		107
 	],
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Nockchan",
 		"en": "Hitmonchan",

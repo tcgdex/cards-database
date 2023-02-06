@@ -56,7 +56,9 @@
 		"de": "Garados-V"
 	},
 	"hp": 330,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Garados VMAX",
 		"en": "Gyarados VMAX",

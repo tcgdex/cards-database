@@ -32,7 +32,9 @@
 		455
 	],
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Carnivine",
 		"fr": "Vortente"

@@ -47,7 +47,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 90,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Lektrobal",
 		"en": "Electrode",

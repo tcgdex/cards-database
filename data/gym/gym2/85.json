@@ -31,7 +31,9 @@
 		19
 	],
 	"hp": 30,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Lt. Surge's Rattata"
 	},

@@ -38,7 +38,9 @@
 		229
 	],
 	"hp": 90,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Houndoom G",
 		"fr": "Demolosse "

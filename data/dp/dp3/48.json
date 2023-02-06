@@ -43,7 +43,9 @@
 		"fr": "Phanpy"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Donphan",
 		"fr": "Donphan"

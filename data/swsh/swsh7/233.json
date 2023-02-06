@@ -9,7 +9,9 @@
 		"pt": "Troque 1 dos Pokémon no Banco do seu oponente que tiver PS restante de 50 ou menos pelo Pokémon Ativo dele(a).",
 		"de": "Tausche 1 Pokémon auf der Bank deines Gegners, das 50 oder weniger verbleibende KP hat, gegen das Aktive Pokémon deines Gegners aus."
 	},
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Spielzeugfänger",
 		"en": "Toy Catcher",

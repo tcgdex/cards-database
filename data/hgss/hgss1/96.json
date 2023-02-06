@@ -6,7 +6,9 @@
 		"en": "Look at the top 7 cards of your deck. Choose a Supporter card you find there, show it to your opponent, and put it into your hand. Shuffle the other cards back into your deck."
 	},
 	"hp": 0,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Pokégear3.0",
 		"fr": "Poké Gear3.0"

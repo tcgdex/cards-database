@@ -90,7 +90,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 270,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Evoli & Relaxo GX",
 		"en": "Eevee & Snorlax GX",

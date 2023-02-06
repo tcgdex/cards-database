@@ -42,7 +42,9 @@
 		"fr": "Insécateur"
 	},
 	"hp": 120,
-	"illustrator": "Hiroki Asanuma",
+	"illustrator": [
+		"Hiroki Asanuma"
+	],
 	"name": {
 		"de": "Scherox",
 		"en": "Scizor",

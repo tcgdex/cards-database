@@ -21,7 +21,9 @@
 		"en": "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
 	},
 	"hp": 60,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Brimova",
 		"en": "Hatenna",

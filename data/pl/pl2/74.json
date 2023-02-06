@@ -40,7 +40,9 @@
 		"fr": "Nidoran♂"
 	},
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Nidorino",
 		"fr": "Nidorino Niv. 30"

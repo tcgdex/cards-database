@@ -24,7 +24,9 @@
 		170
 	],
 	"hp": 70,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Lampi",
 		"en": "Chinchou",

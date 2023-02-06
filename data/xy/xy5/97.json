@@ -81,7 +81,9 @@
 		"de": "Rotomurf"
 	},
 	"hp": 110,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Stalobor",
 		"en": "Excadrill",

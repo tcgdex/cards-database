@@ -57,7 +57,9 @@
 		"en": "Poliwhirl"
 	},
 	"hp": 150,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Politoed ex",
 		"fr": "Tarpaud ex"

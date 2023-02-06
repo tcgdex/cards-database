@@ -40,7 +40,9 @@
 		"en": "Eevee"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Vaporeon δ",
 		"fr": "Aquali δ ESPÈCES DELTA"

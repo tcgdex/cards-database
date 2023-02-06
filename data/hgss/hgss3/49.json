@@ -25,7 +25,9 @@
 		207
 	],
 	"hp": 70,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Gligar",
 		"fr": "Scorplane"

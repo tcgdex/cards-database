@@ -9,7 +9,9 @@
 		"pt": "Coloque 1 carta da pilha de descarte do seu oponente como a última carta do baralho dele(a).",
 		"de": "Lege 1 Karte aus dem Ablagestapel deines Gegners unter sein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Rücksendeetikett",
 		"en": "Return Label",

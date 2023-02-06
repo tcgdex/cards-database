@@ -39,7 +39,9 @@
 		"fr": "Absol-EX"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Absol EX",
 		"fr": "M Absol EX"

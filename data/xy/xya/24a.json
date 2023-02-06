@@ -20,7 +20,9 @@
 		"fr": "Élecsprint-ex"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"fr": "M-Élecsprint-ex"
 	},

@@ -9,7 +9,9 @@
 		"pt": "Se esse card estiver ligado a Kyurem Preto-EX, seu PS máximo será 300.",
 		"de": "Wenn diese Karte an ein Schwarzes Kyurem-EX angelegt ist, verfügt es über 300 Grund-KP."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Kristallschild",
 		"en": "Crystal Wall",

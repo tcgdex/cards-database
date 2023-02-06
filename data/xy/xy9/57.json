@@ -61,7 +61,9 @@
 		"de": "Unratütox"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Deponitox",
 		"en": "Garbodor",

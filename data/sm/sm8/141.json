@@ -56,7 +56,9 @@
 		"fr": "Kirlia"
 	},
 	"hp": 130,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Guardevoir",
 		"en": "Gardevoir",

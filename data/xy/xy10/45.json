@@ -29,7 +29,9 @@
 		447
 	],
 	"hp": 70,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Riolu",
 		"en": "Riolu",

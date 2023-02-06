@@ -55,7 +55,9 @@
 		"fr": "Couaneton"
 	},
 	"hp": 110,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Swaroness",
 		"en": "Swanna",

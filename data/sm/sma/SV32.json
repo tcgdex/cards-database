@@ -25,7 +25,9 @@
 		797
 	],
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Celesteela",
 		"fr": "Bamboiselle"

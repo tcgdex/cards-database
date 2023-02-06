@@ -28,7 +28,9 @@
 		92
 	],
 	"hp": 50,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Nebulak",
 		"en": "Gastly",

@@ -50,7 +50,9 @@
 		357
 	],
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Tropius",
 		"fr": "Tropius"

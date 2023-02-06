@@ -9,7 +9,9 @@
 		"pt": "No final desta vez de jogar, compre cartas até ter 8 cartas na sua mão.",
 		"de": "Ziehe am Ende dieses Zuges so lang Karten, bis du 8 Karten auf deiner Hand hast."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Blaus Taktik",
 		"en": "Blue’s Tactics",

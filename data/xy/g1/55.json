@@ -35,7 +35,9 @@
 		84
 	],
 	"hp": 60,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"en": "Doduo",
 		"fr": "Doduo"

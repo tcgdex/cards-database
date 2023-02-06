@@ -41,7 +41,9 @@
 		"fr": "Evoli"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Glaceon",
 		"fr": "Givrali"

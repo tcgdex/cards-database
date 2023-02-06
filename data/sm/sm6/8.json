@@ -33,7 +33,9 @@
 		"fr": "Pérégrain"
 	},
 	"hp": 130,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Vivillon",
 		"en": "Vivillon",

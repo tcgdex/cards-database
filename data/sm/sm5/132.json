@@ -9,7 +9,9 @@
 		"pt": "Embaralhe 2 cartas de Apoiador da sua pilha de descarte no seu baralho.",
 		"de": "Mische 2 Unterstützerkarten aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Adressbuch",
 		"en": "Pal Pad",

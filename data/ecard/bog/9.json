@@ -25,7 +25,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Rocket’s Hitmonchan"
 	},

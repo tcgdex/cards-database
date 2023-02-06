@@ -39,7 +39,9 @@
 		"fr": "Mackogneur LV.X"
 	},
 	"hp": 150,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Machamp",
 		"fr": "Mackogneur"

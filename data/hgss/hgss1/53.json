@@ -28,7 +28,9 @@
 		"fr": "Stari"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Starmie",
 		"fr": "Staross"

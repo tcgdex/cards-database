@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, aquele jogador descartará quaisquer cartas de Prêmio que pegaria daquele Nocaute ao invés de colocá-las na mão dele(a).",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wird, legt jener Spieler alle Preiskarten, die er für jenen K. o. auf seine Hand nehmen würde, stattdessen auf seinen Ablagestapel."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rauchschwaden",
 		"en": "Billowing Smoke",

@@ -31,7 +31,9 @@
 		108
 	],
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Brock's Lickitung"
 	},

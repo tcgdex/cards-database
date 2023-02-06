@@ -56,7 +56,9 @@
 		"de": "Krabbox"
 	},
 	"hp": 150,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Krawell",
 		"en": "Crabominable",

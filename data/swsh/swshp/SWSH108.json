@@ -52,7 +52,9 @@
 		395
 	],
 	"hp": 210,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Impoleon V",
 		"en": "Empoleon V",

@@ -43,7 +43,9 @@
 		"en": "Quilava"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Typhlosion",
 		"fr": "Typhlosion"

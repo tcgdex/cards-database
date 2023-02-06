@@ -21,7 +21,9 @@
 		374
 	],
 	"hp": 50,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Beldum",
 		"fr": "Terhal"

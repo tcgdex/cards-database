@@ -30,7 +30,9 @@
 		759
 	],
 	"hp": 80,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Velursi",
 		"en": "Stufful",

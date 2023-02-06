@@ -47,7 +47,9 @@
 		381
 	],
 	"hp": 100,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Latios ex δ",
 		"fr": "Latios ex δ"

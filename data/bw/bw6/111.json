@@ -35,7 +35,9 @@
 		627
 	],
 	"hp": 50,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Geronimatz",
 		"en": "Rufflet",

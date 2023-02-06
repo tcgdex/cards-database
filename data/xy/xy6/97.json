@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Dragon-Pokémon angelegt werden. Diese Karte liefert Energie jeden Typs, aber immer nur jeweils 2 Energien, wenn sie an ein Dragon-Pokémon angelegt ist.\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Dragon-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "DoppelDrachenEnergie",
 		"en": "Double Dragon Energy",

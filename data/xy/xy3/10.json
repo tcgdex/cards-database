@@ -44,7 +44,9 @@
 		126
 	],
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Magmar",
 		"en": "Magmar",

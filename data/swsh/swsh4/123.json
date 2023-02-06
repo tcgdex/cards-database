@@ -29,7 +29,9 @@
 		"en": "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
 	},
 	"hp": 60,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Kastadur",
 		"en": "Ferroseed",

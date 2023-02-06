@@ -44,7 +44,9 @@
 		127
 	],
 	"hp": 110,
-	"illustrator": "DemizuPosuka",
+	"illustrator": [
+		"DemizuPosuka"
+	],
 	"name": {
 		"de": "Pinsir",
 		"en": "Pinsir",

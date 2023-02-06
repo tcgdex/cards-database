@@ -9,7 +9,9 @@
 		"pt": "Cure 60 pontos de dano de 1 dos seus Pokémon e aquele Pokémon se recupera de quaisquer Condições Especiais.",
 		"de": "Heile 60 Schadenspunkte bei 1 deiner Pokémon, und es erholt sich von allen Speziellen Zuständen."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Pokémon-Center-Dame",
 		"en": "Pokémon Center Lady",

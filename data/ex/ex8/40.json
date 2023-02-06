@@ -41,7 +41,9 @@
 		"en": "Beldum"
 	},
 	"hp": 80,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Metang",
 		"fr": "Metang"

@@ -63,7 +63,9 @@
 		"de": "Chimpep"
 	},
 	"hp": 100,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Chimstix",
 		"en": "Thwackey",

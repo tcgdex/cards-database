@@ -38,7 +38,9 @@
 		"fr": "Spectrum"
 	},
 	"hp": 130,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Gengar",
 		"fr": "Ectoplasma"

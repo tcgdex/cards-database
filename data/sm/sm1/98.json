@@ -54,7 +54,9 @@
 		"fr": "Piafabec"
 	},
 	"hp": 90,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Ibitak",
 		"en": "Fearow",

@@ -37,7 +37,9 @@
 		"en": "Pupitar"
 	},
 	"hp": 150,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Tyranitar ex",
 		"fr": "Tyranocif ex"

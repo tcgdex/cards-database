@@ -29,7 +29,9 @@
 		"en": "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet."
 	},
 	"hp": 30,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Shining Magikarp"
 	},

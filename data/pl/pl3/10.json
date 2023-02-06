@@ -43,7 +43,9 @@
 		"fr": "Rhinoféros"
 	},
 	"hp": 140,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Rhyperior",
 		"fr": "Rhinastoc"

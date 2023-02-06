@@ -44,7 +44,9 @@
 		"en": "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
 	},
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Galar-Porenta",
 		"en": "Galarian Farfetch'd",

@@ -42,7 +42,9 @@
 		366
 	],
 	"hp": 50,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Perlu",
 		"en": "Clamperl",

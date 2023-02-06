@@ -43,7 +43,9 @@
 		"en": "It can radiate chilliness from the bottoms of its feet. It'll spend the whole day tap-dancing on a frozen floor."
 	},
 	"hp": 80,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Galar-Pantimos",
 		"en": "Galarian Mr. Mime",

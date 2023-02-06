@@ -31,7 +31,9 @@
 		"en": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
 	},
 	"hp": 110,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Onix",
 		"en": "Onix",

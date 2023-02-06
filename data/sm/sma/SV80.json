@@ -50,7 +50,9 @@
 		780
 	],
 	"hp": 180,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Drampa-GX",
 		"fr": "Draïeul-GX"

@@ -9,7 +9,9 @@
 		"pt": "Compre 1 carta para cada Pokémon V no Banco do seu oponente.",
 		"de": "Ziehe 1 Karte für jedes Pokémon-V auf der Bank deines Gegners."
 	},
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Enia",
 		"en": "Honey",

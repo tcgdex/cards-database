@@ -43,7 +43,9 @@
 		"en": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
 	},
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Vulpix",
 		"en": "Vulpix",

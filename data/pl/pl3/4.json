@@ -36,7 +36,9 @@
 		466
 	],
 	"hp": 90,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Electivire FB",
 		"fr": "Elekable "

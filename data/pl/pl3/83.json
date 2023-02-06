@@ -36,7 +36,9 @@
 		227
 	],
 	"hp": 80,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Skarmory FB",
 		"fr": "Airmure "

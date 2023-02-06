@@ -52,7 +52,9 @@
 		"en": "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
 	},
 	"hp": 90,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Kapoera",
 		"en": "Hitmontop",

@@ -28,7 +28,9 @@
 		535
 	],
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Schallquap",
 		"en": "Tympole",

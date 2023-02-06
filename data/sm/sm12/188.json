@@ -9,7 +9,9 @@
 		"pt": "Descarte as 7 primeiras cartas do seu baralho. Se houver cartas de Item entre elas, coloque-as na sua mão.",
 		"de": "Lege die obersten 7 Karten deines Decks auf deinen Ablagestapel. Wenn unter jenen Karten Itemkarten sind, nimm sie auf deine Hand."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Turner",
 		"en": "Clay",

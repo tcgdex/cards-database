@@ -59,7 +59,9 @@
 		"de": "Nincada"
 	},
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Ninjask",
 		"en": "Ninjask",

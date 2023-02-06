@@ -44,7 +44,9 @@
 		564
 	],
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Galapaflos",
 		"en": "Tirtouga",

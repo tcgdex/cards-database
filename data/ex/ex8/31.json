@@ -38,7 +38,9 @@
 		"en": "Zubat"
 	},
 	"hp": 70,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Golbat",
 		"fr": "Nosferalto"

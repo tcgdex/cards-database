@@ -46,7 +46,9 @@
 		"fr": "Bombydou"
 	},
 	"hp": 70,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Bandelby",
 		"en": "Ribombee",

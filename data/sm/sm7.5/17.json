@@ -33,7 +33,9 @@
 		"fr": "Hypotrempe"
 	},
 	"hp": 90,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Seemon",
 		"en": "Seadra",

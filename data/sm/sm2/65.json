@@ -58,7 +58,9 @@
 		"fr": "Machopeur"
 	},
 	"hp": 160,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Machomei",
 		"en": "Machamp",

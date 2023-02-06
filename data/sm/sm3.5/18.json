@@ -36,7 +36,9 @@
 		158
 	],
 	"hp": 70,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Karnimani",
 		"en": "Totodile",

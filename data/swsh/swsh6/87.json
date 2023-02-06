@@ -38,7 +38,9 @@
 		"de": "Wuffels"
 	},
 	"hp": 120,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Wolwerock",
 		"en": "Lycanroc",

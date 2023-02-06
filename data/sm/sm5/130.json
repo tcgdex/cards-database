@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode colocar 2 cartas de Energia Metal da própria pilha de descarte na própria mão.",
 		"de": "Einmal während des Zuges jedes Spielers kann der Spieler 2 Metal-Energiekarten aus seinem Ablagestapel auf seine Hand nehmen."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Kraterberg",
 		"en": "Mt. Coronet",

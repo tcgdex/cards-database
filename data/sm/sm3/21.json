@@ -78,7 +78,9 @@
 		250
 	],
 	"hp": 190,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Ho-Oh GX",
 		"en": "Ho-Oh GX",

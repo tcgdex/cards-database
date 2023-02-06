@@ -49,7 +49,9 @@
 		"fr": "Grotichon"
 	},
 	"hp": 170,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Flambirex",
 		"en": "Emboar",

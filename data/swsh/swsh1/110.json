@@ -62,7 +62,9 @@
 		"de": "Salanga"
 	},
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Sanaconda",
 		"en": "Sandaconda",

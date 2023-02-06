@@ -41,7 +41,9 @@
 		"en": "Chinchou"
 	},
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Light Lanturn",
 		"fr": "Lanturn lumineux"

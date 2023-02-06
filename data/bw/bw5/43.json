@@ -35,7 +35,9 @@
 		"en": "Joltik"
 	},
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Voltula",
 		"en": "Galvantula",

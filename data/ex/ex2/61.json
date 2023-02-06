@@ -33,7 +33,9 @@
 		355
 	],
 	"hp": 40,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Duskull",
 		"fr": "Skelenox"

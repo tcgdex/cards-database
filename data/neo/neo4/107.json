@@ -28,7 +28,9 @@
 		6
 	],
 	"hp": 100,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Shining Charizard",
 		"fr": "Dracaufeu brillant"

@@ -48,7 +48,9 @@
 		"fr": "Ponyta"
 	},
 	"hp": 100,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Gallopa",
 		"en": "Rapidash",

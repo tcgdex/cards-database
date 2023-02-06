@@ -23,7 +23,9 @@
 		"en": "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
 	},
 	"hp": 80,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Shnebedeck",
 		"en": "Snover",

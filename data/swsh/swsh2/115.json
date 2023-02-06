@@ -54,7 +54,9 @@
 		"de": "Skunkapuh"
 	},
 	"hp": 120,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Skuntank",
 		"en": "Skuntank",

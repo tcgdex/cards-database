@@ -35,7 +35,9 @@
 		116
 	],
 	"hp": 50,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Horsea",
 		"fr": "Hypotrempe"

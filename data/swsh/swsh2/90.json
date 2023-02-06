@@ -51,7 +51,9 @@
 		"de": "Grolldra"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Phandra",
 		"en": "Drakloak",

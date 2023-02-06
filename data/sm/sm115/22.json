@@ -37,7 +37,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 100,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"en": "Electrode",
 		"fr": "Électrode"

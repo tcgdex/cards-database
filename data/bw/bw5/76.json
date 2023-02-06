@@ -34,7 +34,9 @@
 		"en": "Klink"
 	},
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Kliklak",
 		"en": "Klang",

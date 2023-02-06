@@ -32,7 +32,9 @@
 		320
 	],
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Wailmer",
 		"en": "Wailmer",

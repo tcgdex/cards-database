@@ -58,7 +58,9 @@
 		"fr": "Reptincel"
 	},
 	"hp": 170,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Glurak",
 		"en": "Charizard",

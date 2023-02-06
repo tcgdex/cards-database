@@ -29,7 +29,9 @@
 		23
 	],
 	"hp": 70,
-	"illustrator": "DemizuPosuka",
+	"illustrator": [
+		"DemizuPosuka"
+	],
 	"name": {
 		"de": "Rettan",
 		"en": "Ekans",

@@ -54,7 +54,9 @@
 		"fr": "Armulys"
 	},
 	"hp": 130,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Papinella",
 		"en": "Beautifly",

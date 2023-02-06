@@ -37,7 +37,9 @@
 		"en": "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
 	},
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Nasgnet",
 		"en": "Nosepass",

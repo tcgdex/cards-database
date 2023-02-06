@@ -31,7 +31,9 @@
 		220
 	],
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Swinub",
 		"fr": "Marcracrin"

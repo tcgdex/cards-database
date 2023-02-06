@@ -38,7 +38,9 @@
 		"fr": "Scrutella"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Hypnomorba",
 		"en": "Gothorita",

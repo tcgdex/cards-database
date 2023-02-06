@@ -37,7 +37,9 @@
 		"en": "Tentacool"
 	},
 	"hp": 70,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Tentacruel",
 		"fr": "Tentacruel"

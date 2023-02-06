@@ -32,7 +32,9 @@
 		566
 	],
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Flapteryx",
 		"en": "Archen",

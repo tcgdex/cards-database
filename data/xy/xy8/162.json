@@ -9,7 +9,9 @@
 		"pt": "Escolha 1: •Compre cards até ter 5 cards em sua mão.•Durante esta vez de jogar, os ataques dos seus Pokémon causam 20 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência).",
 		"de": "Wähle 1 aus: • Ziehe so lang Karten, bis du 5 Karten auf der Hand hast.• Während dieses Zuges fügen die Angriffe deiner Pokémon dem Aktiven Pokémon deines Gegners 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Giovannis Intrige",
 		"en": "Giovanni's Scheme",

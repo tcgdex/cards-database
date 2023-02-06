@@ -34,7 +34,9 @@
 		702
 	],
 	"hp": 60,
-	"illustrator": "kanahei",
+	"illustrator": [
+		"kanahei"
+	],
 	"name": {
 		"en": "Dedenne",
 		"fr": "Dedenne"

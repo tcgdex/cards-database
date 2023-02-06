@@ -28,7 +28,9 @@
 		"en": "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
 	},
 	"hp": 30,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Fatalitee",
 		"en": "Sinistea",

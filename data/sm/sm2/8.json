@@ -42,7 +42,9 @@
 		767
 	],
 	"hp": 70,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Reißlaus",
 		"en": "Wimpod",

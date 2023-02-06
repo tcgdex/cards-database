@@ -39,7 +39,9 @@
 		"en": "Pidgeotto"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Pidgeot δ",
 		"fr": "Roucarnage δ ESPÈCES DELTA"

@@ -49,7 +49,9 @@
 		"en": "Machoke"
 	},
 	"hp": 120,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Machamp"
 	},

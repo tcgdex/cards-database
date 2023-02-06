@@ -35,7 +35,9 @@
 		633
 	],
 	"hp": 60,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Kapuno",
 		"en": "Deino",

@@ -28,7 +28,9 @@
 		425
 	],
 	"hp": 60,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Driftlon",
 		"en": "Drifloon",

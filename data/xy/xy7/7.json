@@ -52,7 +52,9 @@
 		254
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Gewaldro EX",
 		"en": "Sceptile EX",

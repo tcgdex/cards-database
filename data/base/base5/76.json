@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Défaussez une carte de votre main pour pouvoir jouer cette carte. Votre adversaire mélange sa main avec son deck, puis pioche 4 cartes."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Imposter Oak's Revenge",
 		"fr": "La revanche de Chen, l'imposteur"

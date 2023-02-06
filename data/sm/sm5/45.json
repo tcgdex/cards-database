@@ -42,7 +42,9 @@
 		403
 	],
 	"hp": 50,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Sheinux",
 		"en": "Shinx",

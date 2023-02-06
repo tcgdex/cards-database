@@ -31,7 +31,9 @@
 		84
 	],
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Dodu",
 		"en": "Doduo",

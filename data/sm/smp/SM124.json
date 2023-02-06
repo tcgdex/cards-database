@@ -52,7 +52,9 @@
 		800
 	],
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Abendmähne-Necrozma",
 		"en": "Dusk Mane Necrozma",

@@ -33,7 +33,9 @@
 		"fr": "Floravol"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Papungha",
 		"en": "Jumpluff",

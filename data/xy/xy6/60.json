@@ -47,7 +47,9 @@
 		384
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Rayquaza EX",
 		"en": "Rayquaza EX",

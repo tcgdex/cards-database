@@ -43,7 +43,9 @@
 		"en": "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
 	},
 	"hp": 70,
-	"illustrator": "Narumi Sato",
+	"illustrator": [
+		"Narumi Sato"
+	],
 	"name": {
 		"de": "Manaphy",
 		"en": "Manaphy",

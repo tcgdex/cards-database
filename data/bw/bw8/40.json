@@ -32,7 +32,9 @@
 		613
 	],
 	"hp": 70,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Petznief",
 		"en": "Cubchoo",

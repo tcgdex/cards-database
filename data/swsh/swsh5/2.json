@@ -52,7 +52,9 @@
 		"de": "Knofensa"
 	},
 	"hp": 80,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Ultrigaria",
 		"en": "Weepinbell",

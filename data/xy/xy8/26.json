@@ -39,7 +39,9 @@
 		"de": "Fynx"
 	},
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Rutena",
 		"en": "Braixen",

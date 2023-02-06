@@ -39,7 +39,9 @@
 		"fr": "Keunotor"
 	},
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Bidoof",
 		"fr": "Keunotor"

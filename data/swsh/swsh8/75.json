@@ -37,7 +37,9 @@
 		"de": "Scampisto"
 	},
 	"hp": 110,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Wummer",
 		"en": "Clawitzer",

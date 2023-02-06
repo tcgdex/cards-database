@@ -42,7 +42,9 @@
 		"fr": "Couverdure"
 	},
 	"hp": 140,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Matrifol",
 		"en": "Leavanny",

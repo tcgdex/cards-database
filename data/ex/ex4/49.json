@@ -31,7 +31,9 @@
 		170
 	],
 	"hp": 50,
-	"illustrator": "Kazuo Yazawa",
+	"illustrator": [
+		"Kazuo Yazawa"
+	],
 	"name": {
 		"en": "Team Aqua's Chinchou",
 		"fr": "Loupio de Team Aqua"

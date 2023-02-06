@@ -56,7 +56,9 @@
 		"fr": "Spectrum"
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Gengar",
 		"en": "Gengar",

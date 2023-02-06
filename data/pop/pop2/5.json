@@ -38,7 +38,9 @@
 		128
 	],
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Tauros",
 		"fr": "Tauros"

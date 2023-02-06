@@ -54,7 +54,9 @@
 		"fr": "Balignon"
 	},
 	"hp": 120,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Kapilz",
 		"en": "Breloom",

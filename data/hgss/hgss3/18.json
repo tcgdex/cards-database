@@ -43,7 +43,9 @@
 		"fr": "Metang"
 	},
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Metagross",
 		"fr": "Metalosse"

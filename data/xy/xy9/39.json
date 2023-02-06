@@ -36,7 +36,9 @@
 		"de": "Froxy"
 	},
 	"hp": 70,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Amphizel",
 		"en": "Frogadier",

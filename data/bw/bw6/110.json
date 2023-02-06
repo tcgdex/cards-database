@@ -44,7 +44,9 @@
 		626
 	],
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Bisofank",
 		"en": "Bouffalant",

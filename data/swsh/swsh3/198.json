@@ -53,7 +53,9 @@
 		"de": "Wagong"
 	},
 	"hp": 160,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Montecarbo",
 		"en": "Coalossal",

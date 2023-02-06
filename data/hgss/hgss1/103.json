@@ -7,7 +7,9 @@
 	},
 	"energyType": "Special",
 	"hp": 0,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Double Colorless Energy",
 		"fr": "Énergie doublement incolore"

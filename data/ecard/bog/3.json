@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "Shuffle your hand into your deck. Then, draw 7 cards. You can’t play any more Trainer cards this turn."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Professor Elm"
 	},

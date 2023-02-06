@@ -9,7 +9,9 @@
 		"pt": "Você deve jogar 2 cartas Receptor Cruzado de uma vez (este efeito funciona uma vez para 2 cartas).\nColoque 1 Pokémon ou 1 carta de Apoiador da sua pilha de descarte na sua mão.",
 		"de": "Du musst 2 Cross-Transceiver-Karten gleichzeitig spielen. (Dieser Effekt funktioniert einmal für 2 Karten.)\nNimm 1 Pokémon oder 1 Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Cross-Transceiver",
 		"en": "Crossceiver",

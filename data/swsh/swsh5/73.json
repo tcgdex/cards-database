@@ -22,7 +22,9 @@
 		"en": "Timburr that have started carrying logs that are about three times their size are nearly ready to evolve."
 	},
 	"hp": 80,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Praktibalk",
 		"en": "Timburr",

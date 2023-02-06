@@ -33,7 +33,9 @@
 		"en": "Bayleef"
 	},
 	"hp": 150,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Meganium"
 	},

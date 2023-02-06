@@ -37,7 +37,9 @@
 		"fr": "Piafabec"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Fearow",
 		"fr": "Rapasdepic"

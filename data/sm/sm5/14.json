@@ -52,7 +52,9 @@
 		479
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Schneid-Rotom",
 		"en": "Mow Rotom",

@@ -37,7 +37,9 @@
 		386
 	],
 	"hp": 70,
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Deoxys Speed Forme",
 		"fr": "Deoxys Forme Vitesse"

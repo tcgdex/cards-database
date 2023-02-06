@@ -52,7 +52,9 @@
 		"en": "Lileep"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Cradily",
 		"fr": "Vacilys"

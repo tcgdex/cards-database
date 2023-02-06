@@ -51,7 +51,9 @@
 		"en": "Poliwhirl"
 	},
 	"hp": 110,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Politoed"
 	},

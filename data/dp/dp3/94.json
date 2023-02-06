@@ -32,7 +32,9 @@
 		179
 	],
 	"hp": 50,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Mareep",
 		"fr": "Wattouat"

@@ -53,7 +53,9 @@
 		"en": "Eevee"
 	},
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Espeon ex",
 		"fr": "Mentali ex"

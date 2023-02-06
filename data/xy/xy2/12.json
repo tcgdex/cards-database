@@ -48,7 +48,9 @@
 		6
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Glurak EX",
 		"en": "Charizard EX",

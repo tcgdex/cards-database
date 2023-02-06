@@ -34,7 +34,9 @@
 		"en": "Claw Fossil"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Anorith",
 		"fr": "Anorith"

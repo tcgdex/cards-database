@@ -37,7 +37,9 @@
 		561
 	],
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Symvolara",
 		"en": "Sigilyph",

@@ -56,7 +56,9 @@
 		"fr": "Tritox"
 	},
 	"hp": 110,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Amfira",
 		"en": "Salazzle",

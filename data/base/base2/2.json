@@ -40,7 +40,9 @@
 		"en": "Voltorb"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Electrode",
 		"fr": "Électrode"

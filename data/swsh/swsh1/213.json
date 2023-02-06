@@ -9,7 +9,9 @@
 		"pt": "O custo de Recuo do Pokémon ao qual esta carta está ligada é ColorlessColorless a menos.",
 		"de": "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um ColorlessColorless."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Luftballon",
 		"en": "Air Balloon",

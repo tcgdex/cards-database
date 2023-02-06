@@ -31,7 +31,9 @@
 		"en": "It's very sensitive to danger. The sound of Corviknight's flapping will have Bunnelby digging a hole to hide underground in moments."
 	},
 	"hp": 60,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Scoppel",
 		"en": "Bunnelby",

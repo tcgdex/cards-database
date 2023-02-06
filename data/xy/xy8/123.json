@@ -43,7 +43,9 @@
 		235
 	],
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Farbeagle",
 		"en": "Smeargle",

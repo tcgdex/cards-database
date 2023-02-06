@@ -1,48 +1,43 @@
-import { DB_PATH, realPath, smartGlob } from './util'
+import { FileListItem, FileListSerie, FileListSet, loadDatabase } from './util'
 import { setToSetSimple, getSets } from './setUtil'
-import { Serie, SupportedLanguages, Set } from '../../../interfaces'
+import { SupportedLanguages } from '../../../meta/definitions/database'
 import { Serie as SerieSingle, SerieResume } from '../../../meta/definitions/api'
-import fs from 'fs/promises'
 
-export async function getSerie(name: string): Promise<Serie> {
-	return JSON.parse(await fs.readFile(realPath(__dirname, `../../../data/${name}.json`), 'utf-8'))
-}
-
-export async function isSerieAvailable(serie: Serie, lang: SupportedLanguages): Promise<boolean> {
-	if (!serie.name[lang]) {
+export async function isSerieAvailable(serie: FileListSerie, lang: SupportedLanguages): Promise<boolean> {
+	if (!serie.data.name[lang]) {
 		return false
 	}
-	const sets = await getSets(serie.name.en, lang)
+	const sets = await getSets(serie.data.id, lang)
 	return sets.length > 0
 }
 
-export async function getSeries(lang: SupportedLanguages): Promise<Array<Serie>> {
-	let series: Array<Serie> = (await Promise.all((await smartGlob(realPath(__dirname, '../../../data/*.json')))
-		// Find Serie's name
-		.map((it) => it.substring(it.lastIndexOf('/') + 1, it.length - 3))
-		// Fetch the Serie
-		.map((it) => getSerie(it))))
-		// Filter the serie if no name's exists in the selected lang
-		.filter((serie) => Boolean(serie.name[lang]))
+export function isSerie(serie: FileListItem): serie is FileListSerie {
+	return serie.type === 'serie'
+}
+
+export async function getSeries(lang: SupportedLanguages): Promise<Array<FileListSerie>> {
+
+	let series = (await loadDatabase())
+		.filter<FileListSerie>(isSerie)
 
 	// Filter available series
 	const isAvailable = await Promise.all(series.map((serie) => isSerieAvailable(serie, lang)))
 	series = series.filter((_, index) => isAvailable[index])
 
 	// Sort series by the first set release date
-	const tmp: Array<[Serie, Set | undefined]> = await Promise.all(series.map(async (it) => [
+	const tmp: Array<[FileListSerie, FileListSet | undefined]> = await Promise.all(series.map(async (it) => [
 		it,
-		(await getSets(it.name.en, lang))
-			.reduce<Set | undefined>((p, c) => p ? p.releaseDate < c.releaseDate ? p : c : c, undefined) as Set
-	] as [Serie, Set]))
+		(await getSets(it.data.id, lang))
+			.reduce<FileListSet | undefined>((p, c) => p ? p.data.releaseDate < c.data.releaseDate ? p : c : c, undefined) as FileListSet
+	] as [FileListSerie, FileListSet]))
 
-	return tmp.sort((a, b) => (a[1] ? a[1].releaseDate : '0') > (b[1] ? b[1].releaseDate : '0') ? 1 : -1).map((it) => it[0])
+	return tmp.sort((a, b) => (a[1] ? a[1].data.releaseDate : '0') > (b[1] ? b[1].data.releaseDate : '0') ? 1 : -1).map((it) => it[0])
 }
 
-export async function serieToSerieSimple(serie: Serie, lang: SupportedLanguages): Promise<SerieResume> {
-	const setsTmp = await getSets(serie.name.en, lang)
+export async function serieToSerieSimple(serieFile: FileListSerie, lang: SupportedLanguages): Promise<SerieResume> {
+	const serie = serieFile.data
+	const setsTmp = await getSets(serie.id, lang)
 	const sets = await Promise.all(setsTmp
-		.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
 		.map((el) => setToSetSimple(el, lang)))
 	const logo = sets.find((set) => set.logo)?.logo
 	return {
@@ -52,10 +47,10 @@ export async function serieToSerieSimple(serie: Serie, lang: SupportedLanguages)
 	}
 }
 
-export async function serieToSerieSingle(serie: Serie, lang: SupportedLanguages): Promise<SerieSingle> {
-	const setsTmp = await getSets(serie.name.en, lang)
+export async function serieToSerieSingle(serieFile: FileListSerie, lang: SupportedLanguages): Promise<SerieSingle> {
+	const serie = serieFile.data
+	const setsTmp = await getSets(serie.id, lang)
 	const sets = await Promise.all(setsTmp
-		.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
 		.map((el) => setToSetSimple(el, lang)))
 	const logo = sets.find((set) => set.logo)?.logo
 

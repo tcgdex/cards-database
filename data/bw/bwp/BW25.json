@@ -32,7 +32,9 @@
 		559
 	],
 	"hp": 50,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Scraggy",
 		"fr": "Baggiguane"

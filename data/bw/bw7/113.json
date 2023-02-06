@@ -32,7 +32,9 @@
 		300
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Eneco",
 		"en": "Skitty",

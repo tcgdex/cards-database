@@ -16,7 +16,9 @@
 		"en": "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Tepig"
 	},

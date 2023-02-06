@@ -28,7 +28,9 @@
 		722
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Rowlet",
 		"fr": "Brindibou"

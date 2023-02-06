@@ -41,7 +41,9 @@
 		"fr": "Rhinocorne"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Rhydon",
 		"fr": "Rhinoféros"

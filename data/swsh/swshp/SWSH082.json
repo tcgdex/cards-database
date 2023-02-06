@@ -23,7 +23,9 @@
 		659
 	],
 	"hp": 40,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"en": "Bunnelby"
 	},

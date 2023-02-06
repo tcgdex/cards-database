@@ -35,7 +35,9 @@
 		257
 	],
 	"hp": 80,
-	"illustrator": "Motofumi Fujiwara",
+	"illustrator": [
+		"Motofumi Fujiwara"
+	],
 	"name": {
 		"en": "Blaziken FB",
 		"fr": "Brasegali "

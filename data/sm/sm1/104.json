@@ -48,7 +48,9 @@
 		"fr": "Ponchiot"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Terribark",
 		"en": "Herdier",

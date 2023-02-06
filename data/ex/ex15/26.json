@@ -25,7 +25,9 @@
 		"en": "Chikorita"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Bayleef δ",
 		"fr": "Macronium δ ESPÈCES DELTA"

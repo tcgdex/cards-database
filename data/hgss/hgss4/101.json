@@ -15,7 +15,9 @@
 		483
 	],
 	"hp": 160,
-	"illustrator": "Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子",
+	"illustrator": [
+		"Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子"
+	],
 	"name": {
 		"en": "Palkia & Dialga LEGEND",
 		"fr": "Palkia & Dialga LÉGENDE"

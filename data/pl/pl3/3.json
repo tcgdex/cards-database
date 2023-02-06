@@ -35,7 +35,9 @@
 		426
 	],
 	"hp": 80,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"en": "Drifblim FB",
 		"fr": "Grodrive "

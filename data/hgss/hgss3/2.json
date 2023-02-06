@@ -42,7 +42,9 @@
 		"fr": "Evoli"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Espeon",
 		"fr": "Mentali"

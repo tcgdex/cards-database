@@ -44,7 +44,9 @@
 		245
 	],
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Suicune",
 		"en": "Suicune",

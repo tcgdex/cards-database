@@ -60,7 +60,9 @@
 		"de": "Riolu"
 	},
 	"hp": 110,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Lucario",
 		"en": "Lucario",

@@ -32,7 +32,9 @@
 		261
 	],
 	"hp": 40,
-	"illustrator": "Shin-ichi Yoshikawa",
+	"illustrator": [
+		"Shin-ichi Yoshikawa"
+	],
 	"name": {
 		"en": "Team Aqua's Poochyena",
 		"fr": "Medhyena de Team Aqua"

@@ -55,7 +55,9 @@
 		"fr": "Floette"
 	},
 	"hp": 130,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Florges",
 		"en": "Florges",

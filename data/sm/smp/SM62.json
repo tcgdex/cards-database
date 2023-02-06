@@ -80,7 +80,9 @@
 		"en": "Wimpod"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Tectass GX",
 		"en": "Golisopod GX",

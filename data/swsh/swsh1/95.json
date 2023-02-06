@@ -47,7 +47,9 @@
 		107
 	],
 	"hp": 120,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Nockchan",
 		"en": "Hitmonchan",

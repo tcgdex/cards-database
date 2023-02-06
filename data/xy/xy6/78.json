@@ -43,7 +43,9 @@
 		519
 	],
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Dusselgurr",
 		"en": "Pidove",

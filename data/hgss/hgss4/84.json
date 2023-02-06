@@ -34,7 +34,9 @@
 		193
 	],
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Yanma",
 		"fr": "Yanma"

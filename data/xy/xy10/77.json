@@ -56,7 +56,9 @@
 		143
 	],
 	"hp": 140,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

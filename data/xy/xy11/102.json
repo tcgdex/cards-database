@@ -9,7 +9,9 @@
 		"pt": "Você pode jogar este card somente se o pegou dos seus cards de Prêmio virados para baixo, antes de colocá-lo na sua mão.Jogue uma moeda. Se sair cara, pegue mais 1 card de Prêmio.",
 		"de": "Du kannst diese Karte nur spielen, wenn du sie als verdeckte Preiskarte auf deine Hand genommen hast.Wirf 1 Münze. Nimm bei \"Kopf\" 1 zusätzliche Preiskarte."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Gierige Würfel",
 		"en": "Greedy Dice",

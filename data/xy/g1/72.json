@@ -5,7 +5,9 @@
 		"fr": "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
 		"en": "Shuffle your hand into your deck. Then, draw 5 cards."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Shauna",
 		"fr": "Sannah"

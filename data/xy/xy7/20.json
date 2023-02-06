@@ -64,7 +64,9 @@
 		"de": "Karpador"
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Garados",
 		"en": "Gyarados",

@@ -75,7 +75,9 @@
 		"fr": "Doudouvet"
 	},
 	"hp": 190,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Elfun GX",
 		"en": "Whimsicott GX",

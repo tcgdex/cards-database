@@ -49,7 +49,9 @@
 		126
 	],
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Magmar",
 		"fr": "Magmar"

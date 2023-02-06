@@ -31,7 +31,9 @@
 		261
 	],
 	"hp": 60,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Team Magma's Poochyena",
 		"fr": "Medhyèna de la Team Magma"

@@ -37,7 +37,9 @@
 		"fr": "Géolithe"
 	},
 	"hp": 150,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Brockoloss",
 		"en": "Gigalith",

@@ -47,7 +47,9 @@
 	"evolveFrom": {
 		"en": "Grovyle"
 	},
-	"illustrator": "Reiko Tanoue",
+	"illustrator": [
+		"Reiko Tanoue"
+	],
 	"name": {
 		"en": "Sceptile"
 	},

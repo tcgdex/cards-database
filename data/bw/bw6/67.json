@@ -44,7 +44,9 @@
 		"fr": "Géolithe"
 	},
 	"hp": 140,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Brockoloss",
 		"en": "Gigalith",

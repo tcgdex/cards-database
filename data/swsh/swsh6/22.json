@@ -56,7 +56,9 @@
 		351
 	],
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Formeo Sonnenform",
 		"en": "Castform Sunny Form",

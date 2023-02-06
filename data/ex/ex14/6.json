@@ -50,7 +50,9 @@
 		"en": "Lombre"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Ludicolo δ",
 		"fr": "Ludicolo δ"

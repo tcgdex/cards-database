@@ -45,7 +45,9 @@
 		79
 	],
 	"hp": 70,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Flegmon",
 		"en": "Slowpoke",

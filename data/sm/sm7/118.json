@@ -35,7 +35,9 @@
 		"fr": "Chuchmur"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Krakeelo",
 		"en": "Loudred",

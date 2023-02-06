@@ -39,7 +39,9 @@
 		243
 	],
 	"hp": 160,
-	"illustrator": "Shinji Higuchi + Noriko Takaya",
+	"illustrator": [
+		"Shinji Higuchi + Noriko Takaya"
+	],
 	"name": {
 		"en": "Raikou & Suicune LEGEND",
 		"fr": "Raikou & Suicune LÉGENDE (bas)"

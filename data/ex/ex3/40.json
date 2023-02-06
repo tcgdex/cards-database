@@ -37,7 +37,9 @@
 		"en": "Horsea"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Seadra",
 		"fr": "Hypocéan"

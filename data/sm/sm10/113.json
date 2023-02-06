@@ -42,7 +42,9 @@
 		551
 	],
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Ganovil",
 		"en": "Sandile",

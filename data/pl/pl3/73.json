@@ -38,7 +38,9 @@
 		"fr": "Ningale"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Ninjask",
 		"fr": "Ninjask"

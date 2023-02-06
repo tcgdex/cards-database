@@ -29,7 +29,9 @@
 		175
 	],
 	"hp": 40,
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"de": "Togepi",
 		"en": "Togepi",

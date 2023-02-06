@@ -36,7 +36,9 @@
 		"en": "Machoke"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Giovanni's Machamp"
 	},

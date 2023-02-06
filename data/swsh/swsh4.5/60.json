@@ -9,7 +9,9 @@
 		"pt": "Descarte a sua mão e compre 7 cartas.",
 		"de": "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Forschung des Professors",
 		"en": "Professor's Research (Professor Juniper)",

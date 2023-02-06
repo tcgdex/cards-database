@@ -42,7 +42,9 @@
 		"en": "Growlithe"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Light Arcanine",
 		"fr": "Arcanin lumineux"

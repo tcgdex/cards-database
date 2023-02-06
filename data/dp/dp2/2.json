@@ -42,7 +42,9 @@
 		"en": "Kadabra"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Alakazam",
 		"fr": "Alakazam"

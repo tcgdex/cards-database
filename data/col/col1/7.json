@@ -36,7 +36,9 @@
 		"en": "Magikarp"
 	},
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Gyarados"
 	},

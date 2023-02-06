@@ -52,7 +52,9 @@
 		"de": "Bronzel"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Bronzong",
 		"en": "Bronzong",

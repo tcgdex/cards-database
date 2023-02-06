@@ -51,7 +51,9 @@
 		213
 	],
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Pottrott",
 		"en": "Shuckle",

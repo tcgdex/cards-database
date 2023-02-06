@@ -32,7 +32,9 @@
 		"en": "Sewaddle"
 	},
 	"hp": 70,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Swadloon"
 	},

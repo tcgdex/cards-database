@@ -59,7 +59,9 @@
 		"de": "Eguana"
 	},
 	"hp": 110,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Elezard",
 		"en": "Heliolisk",

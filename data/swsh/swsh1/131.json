@@ -64,7 +64,9 @@
 		"de": "Kastadur"
 	},
 	"hp": 130,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Tentantel",
 		"en": "Ferrothorn",

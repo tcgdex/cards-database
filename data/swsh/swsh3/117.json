@@ -56,7 +56,9 @@
 		"de": "Endynalos-V"
 	},
 	"hp": 340,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Endynalos VMAX",
 		"en": "Eternatus VMAX",

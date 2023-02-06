@@ -62,7 +62,9 @@
 		"de": "Zwottronin"
 	},
 	"hp": 140,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Admurai",
 		"en": "Samurott",

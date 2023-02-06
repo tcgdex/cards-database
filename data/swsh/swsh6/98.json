@@ -52,7 +52,9 @@
 		"de": "Galar-Flegmon"
 	},
 	"hp": 120,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Galar-Laschoking",
 		"en": "Galarian Slowking",

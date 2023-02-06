@@ -37,7 +37,9 @@
 		"en": "Teddiursa"
 	},
 	"hp": 130,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"en": "Ursaring"
 	},

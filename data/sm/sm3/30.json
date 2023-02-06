@@ -32,7 +32,9 @@
 		"fr": "Hypotrempe"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Seemon",
 		"en": "Seadra",

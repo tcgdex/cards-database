@@ -43,7 +43,9 @@
 		753
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Imantis",
 		"en": "Fomantis",

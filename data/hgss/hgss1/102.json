@@ -6,7 +6,9 @@
 		"en": "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon."
 	},
 	"hp": 0,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Switch",
 		"fr": "Échange"

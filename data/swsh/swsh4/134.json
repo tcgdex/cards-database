@@ -60,7 +60,9 @@
 		"de": "Schwalbini"
 	},
 	"hp": 90,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Schwalboss",
 		"en": "Swellow",

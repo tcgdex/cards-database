@@ -38,7 +38,9 @@
 		9
 	],
 	"hp": 180,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Blastoise EX",
 		"fr": "Tortank EX"

@@ -40,7 +40,9 @@
 		"en": "Weavile"
 	},
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Golbat",
 		"fr": "Nosferalto obscur"

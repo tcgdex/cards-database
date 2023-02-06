@@ -45,7 +45,9 @@
 		370
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Liebiskus",
 		"en": "Luvdisc",

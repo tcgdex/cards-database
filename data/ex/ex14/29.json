@@ -41,7 +41,9 @@
 		"en": "Charmander"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Charmeleon",
 		"fr": "Reptincel"

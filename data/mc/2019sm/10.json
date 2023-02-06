@@ -16,7 +16,9 @@
 		"en": "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage."
 	},
 	"hp": 60,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Alolan Meowth"
 	},

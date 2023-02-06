@@ -9,7 +9,9 @@
 		"pt": "Embaralhe 1 carta da sua mão no seu baralho. Se fizer isto, compre 3 cartas.",
 		"de": "Mische 1 Karte aus deiner Hand in dein Deck. Wenn du das machst, ziehe 3 Karten."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Bills Wartung",
 		"en": "Bill’s Maintenance",

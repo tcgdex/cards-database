@@ -52,7 +52,9 @@
 		"de": "Piepi"
 	},
 	"hp": 100,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Pixi",
 		"en": "Clefable",

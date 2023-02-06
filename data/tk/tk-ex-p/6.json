@@ -20,7 +20,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Plusle"
 	},

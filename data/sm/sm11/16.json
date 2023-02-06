@@ -54,7 +54,9 @@
 		"fr": "Mimantis"
 	},
 	"hp": 110,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Mantidea",
 		"en": "Lurantis",

@@ -21,7 +21,9 @@
 		682
 	],
 	"hp": 50,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Parfi",
 		"en": "Spritzee",

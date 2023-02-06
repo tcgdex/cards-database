@@ -38,7 +38,9 @@
 		"en": "Omanyte"
 	},
 	"hp": 110,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Omastar",
 		"fr": "Amonistar"

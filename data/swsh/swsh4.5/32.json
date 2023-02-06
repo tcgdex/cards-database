@@ -46,7 +46,9 @@
 		"en": "Shinx"
 	},
 	"hp": 90,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Luxio",
 		"en": "Luxio",

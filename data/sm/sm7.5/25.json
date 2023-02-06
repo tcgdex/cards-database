@@ -36,7 +36,9 @@
 		194
 	],
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Felino",
 		"en": "Wooper",

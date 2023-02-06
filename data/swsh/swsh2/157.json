@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque do seu oponente, descarte as 2 cartas de cima do baralho do seu oponente.",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke deines Gegners kampfunfähig wird, lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Verfluchte Schaufel",
 		"en": "Cursed Shovel",

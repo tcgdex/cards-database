@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Regardez les 7 cartes du dessus de votre deck. Choisissez un Pokémon de base ou une carte Évolution parmi ces cartes, montrez-le (ou la) à votre adversaire et placez-le (ou la) dans votre main. Replacez les 6 autres cartes au dessus de votre deck. Ensuite, mélangez votre deck."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Master Ball",
 		"fr": "Master Ball"

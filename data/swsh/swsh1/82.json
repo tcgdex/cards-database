@@ -62,7 +62,9 @@
 		"de": "Galar-Ponita"
 	},
 	"hp": 100,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Galar-Gallopa",
 		"en": "Galarian Rapidash",

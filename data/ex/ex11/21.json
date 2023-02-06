@@ -25,7 +25,9 @@
 		"en": "Holon's Voltorb"
 	},
 	"hp": 70,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Holon's Electrode",
 		"fr": "Electrode d'Holon"

@@ -31,7 +31,9 @@
 		202
 	],
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Woingenau",
 		"en": "Wobbuffet",

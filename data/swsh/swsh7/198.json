@@ -46,7 +46,9 @@
 		884
 	],
 	"hp": 220,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Duraludon V",
 		"en": "Duraludon V",

@@ -64,7 +64,9 @@
 		"de": "Hippopotas"
 	},
 	"hp": 130,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Hippoterus",
 		"en": "Hippowdon",

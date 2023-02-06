@@ -33,7 +33,9 @@
 		201
 	],
 	"hp": 50,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Unown C",
 		"fr": "Zarbi C"

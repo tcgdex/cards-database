@@ -62,7 +62,9 @@
 		"de": "Geronimatz"
 	},
 	"hp": 120,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Washakwil",
 		"en": "Braviary",

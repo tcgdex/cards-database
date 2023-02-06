@@ -37,7 +37,9 @@
 		249
 	],
 	"hp": 90,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Lugia",
 		"fr": "Lugia"

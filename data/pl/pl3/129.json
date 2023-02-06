@@ -18,7 +18,9 @@
 		396
 	],
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Starly",
 		"fr": "Etourmi"

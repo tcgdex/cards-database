@@ -42,7 +42,9 @@
 		"fr": "Darumarond"
 	},
 	"hp": 120,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Flampivian",
 		"en": "Darmanitan",

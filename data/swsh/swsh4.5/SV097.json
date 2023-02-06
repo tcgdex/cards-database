@@ -30,7 +30,9 @@
 		"en": "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
 	},
 	"hp": 40,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Scoppel",
 		"en": "Bunnelby",

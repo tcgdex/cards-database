@@ -58,7 +58,9 @@
 		"de": "Schimmelreiter-Coronospa-V"
 	},
 	"hp": 320,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Schimmelreiter-Coronospa VMAX",
 		"en": "Ice Rider Calyrex VMAX",

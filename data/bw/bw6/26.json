@@ -42,7 +42,9 @@
 		"fr": "Wailmer"
 	},
 	"hp": 200,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Wailord",
 		"en": "Wailord",

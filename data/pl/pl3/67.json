@@ -36,7 +36,9 @@
 		"fr": "Gobou"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Marshtomp",
 		"fr": "Flobio"

@@ -9,7 +9,9 @@
 		"pt": "Mova 1 Energia Especial de 1 dos Pokémon do seu oponente para outro Pokémon dele(a).",
 		"de": "Verschiebe 1 Spezial-Energie von 1 Pokémon deines Gegners auf 1 anderes seiner Pokémon."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Enetransporter",
 		"en": "Eneporter",

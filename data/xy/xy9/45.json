@@ -52,7 +52,9 @@
 		"de": "Sheinux"
 	},
 	"hp": 80,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Luxio",
 		"en": "Luxio",

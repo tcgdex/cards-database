@@ -32,7 +32,9 @@
 		336
 	],
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Seviper",
 		"fr": "Seviper"

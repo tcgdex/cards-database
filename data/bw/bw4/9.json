@@ -47,7 +47,9 @@
 		"fr": "Trompignon"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Hutsassa",
 		"en": "Amoonguss",

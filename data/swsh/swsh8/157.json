@@ -55,7 +55,9 @@
 		"de": "Gengar-V"
 	},
 	"hp": 320,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Gengar VMAX",
 		"en": "Gengar VMAX",

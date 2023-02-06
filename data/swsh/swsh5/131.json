@@ -9,7 +9,9 @@
 		"pt": "O Pokémon Golpe Fluido ao qual esta carta está ligada pode usar o ataque desta carta (você ainda precisa da Energia necessária para usar este ataque).",
 		"de": "Das Fließender-Angriff-Pokémon, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)"
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Fließender-Angriff-Wirbelrolle",
 		"en": "Rapid Strike Scroll of Swirls",

@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se tiver mais cartas de Prêmio restantes do que seu oponente.\n\nDurante esta rodada, você pode jogar 3 cartas de Apoiador (incluindo esta carta).",
 		"de": "Du kannst diese Karte nur spielen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.\n\nDu kannst während dieses Zuges 3 Unterstützerkarten (einschließlich dieser Karte) spielen."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Major Bobs Strategie",
 		"en": "Lt. Surge’s Strategy",

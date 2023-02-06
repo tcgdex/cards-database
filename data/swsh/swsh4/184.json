@@ -9,7 +9,9 @@
 		"pt": "Jogue 2 moedas. Procure por um número de cartas no seu baralho até o número de caras, coloque-as na sua mão e embaralhe o seu baralho.",
 		"de": "Wirf 2 Münzen. Durchsuche dein Deck nach bis zu so vielen Karten, wie du Kopf geworfen hast, nimm sie auf deine Hand und mische dein Deck."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Papella",
 		"en": "Opal",

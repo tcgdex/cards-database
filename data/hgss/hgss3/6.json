@@ -45,7 +45,9 @@
 		"fr": "Limagma"
 	},
 	"hp": 100,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Magcargo",
 		"fr": "Volcaropod"

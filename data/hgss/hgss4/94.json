@@ -51,7 +51,9 @@
 		"fr": "Spectrum"
 	},
 	"hp": 130,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Gengar",
 		"fr": "Ectoplasma"

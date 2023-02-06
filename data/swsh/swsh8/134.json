@@ -27,7 +27,9 @@
 		"de": "Menki"
 	},
 	"hp": 100,
-	"illustrator": "Yuya Oka",
+	"illustrator": [
+		"Yuya Oka"
+	],
 	"name": {
 		"de": "Rasaff",
 		"en": "Primeape",

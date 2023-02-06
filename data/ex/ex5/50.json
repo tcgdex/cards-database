@@ -40,7 +40,9 @@
 		"en": "Gulpin"
 	},
 	"hp": 80,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Swalot",
 		"fr": "Avaltout"

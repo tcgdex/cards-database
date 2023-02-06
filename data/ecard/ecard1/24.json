@@ -40,7 +40,9 @@
 		"en": "Poliwhirl"
 	},
 	"hp": 100,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Poliwrath",
 		"fr": "Tartard"

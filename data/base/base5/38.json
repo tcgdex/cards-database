@@ -43,7 +43,9 @@
 		"en": "Eevee"
 	},
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Jolteon",
 		"fr": "Voltali obscur"

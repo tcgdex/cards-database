@@ -33,7 +33,9 @@
 		173
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Cleffa",
 		"fr": "Melo"

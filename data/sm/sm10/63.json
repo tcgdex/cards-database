@@ -56,7 +56,9 @@
 		"fr": "Abo"
 	},
 	"hp": 120,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Arbok",
 		"en": "Arbok",

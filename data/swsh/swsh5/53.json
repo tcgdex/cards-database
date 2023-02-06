@@ -61,7 +61,9 @@
 		"de": "Voldi"
 	},
 	"hp": 130,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Bellektro",
 		"en": "Boltund",

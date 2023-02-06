@@ -51,7 +51,9 @@
 		"de": "Frubberl"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Frubaila",
 		"en": "Steenee",

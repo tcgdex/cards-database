@@ -49,7 +49,9 @@
 		"en": "Eevee"
 	},
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Umbreon ex",
 		"fr": "Noctali ex"

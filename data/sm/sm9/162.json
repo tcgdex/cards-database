@@ -55,7 +55,9 @@
 		25
 	],
 	"hp": 240,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Pikachu & Zekrom GX",
 		"en": "Pikachu & Zekrom GX",

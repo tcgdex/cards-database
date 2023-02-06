@@ -48,7 +48,9 @@
 		"fr": "Balignon"
 	},
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Kapilz",
 		"en": "Breloom",

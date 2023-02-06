@@ -20,7 +20,9 @@
 		175
 	],
 	"hp": 40,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Togepi δ",
 		"fr": "Togepi δ ESPÈCES DELTA"

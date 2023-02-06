@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se ela for a última carta na sua mão.\n\nProcure por 1 Pokémon Golpe Decisivo no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho. Se você procurar no seu baralho desta forma, compre 5 cartas.",
 		"de": "Du kannst diese Karte nur spielen, wenn es die letzte Karte auf deiner Hand ist.\n\nDurchsuche dein Deck nach 1 Fokussierter-Angriff-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ziehe 5 Karten."
 	},
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Fokussierter-Stil-Mastrich",
 		"en": "Single Strike Style Mustard",

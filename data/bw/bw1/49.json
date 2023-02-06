@@ -40,7 +40,9 @@
 		"fr": "Munna"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Somnivora",
 		"en": "Musharna",

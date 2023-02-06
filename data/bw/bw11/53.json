@@ -32,7 +32,9 @@
 		150
 	],
 	"hp": 120,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"en": "Mewtwo"
 	},

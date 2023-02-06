@@ -22,7 +22,9 @@
 		"en": "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing."
 	},
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Klink"
 	},

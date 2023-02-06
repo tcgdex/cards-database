@@ -42,7 +42,9 @@
 		"en": "Doduo"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dodrio",
 		"fr": "Dodrio"

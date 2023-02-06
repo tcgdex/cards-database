@@ -49,7 +49,9 @@
 		"de": "Golbit"
 	},
 	"hp": 150,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Golgantes",
 		"en": "Golurk",

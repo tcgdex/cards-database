@@ -53,7 +53,9 @@
 		"de": "Seemops"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Seejong",
 		"en": "Sealeo",

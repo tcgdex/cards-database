@@ -51,7 +51,9 @@
 		"de": "Pliprin"
 	},
 	"hp": 140,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Impoleon",
 		"en": "Empoleon",

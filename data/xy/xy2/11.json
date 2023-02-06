@@ -53,7 +53,9 @@
 		6
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Glurak EX",
 		"en": "Charizard EX",

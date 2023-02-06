@@ -41,7 +41,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Raichu",
 		"en": "Raichu",

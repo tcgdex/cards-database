@@ -45,7 +45,9 @@
 		"fr": "Onix"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Steelix",
 		"fr": "Steelix"

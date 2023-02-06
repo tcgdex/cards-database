@@ -56,7 +56,9 @@
 		"de": "Victini-V"
 	},
 	"hp": 310,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Victini VMAX",
 		"en": "Victini VMAX",

@@ -36,7 +36,9 @@
 		352
 	],
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Kecleon",
 		"fr": "Kecleon Niv. 34"

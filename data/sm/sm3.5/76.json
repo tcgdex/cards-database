@@ -76,7 +76,9 @@
 		150
 	],
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Mewtu GX",
 		"en": "Mewtwo GX",

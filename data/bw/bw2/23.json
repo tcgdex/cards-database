@@ -42,7 +42,9 @@
 		"fr": "Flotajou"
 	},
 	"hp": 90,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Sodachita",
 		"en": "Simipour",

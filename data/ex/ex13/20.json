@@ -36,7 +36,9 @@
 		"en": "Combusken"
 	},
 	"hp": 100,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Blaziken",
 		"fr": "Brasegali"

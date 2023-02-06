@@ -19,7 +19,9 @@
 		"en": "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
 	},
 	"hp": 70,
-	"illustrator": "Megumi Higuchi",
+	"illustrator": [
+		"Megumi Higuchi"
+	],
 	"name": {
 		"de": "Plusle",
 		"en": "Plusle",

@@ -36,7 +36,9 @@
 		"fr": "Leveinard"
 	},
 	"hp": 130,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Blissey",
 		"fr": "Leuphorie"

@@ -60,7 +60,9 @@
 		"fr": "Hippopotas"
 	},
 	"hp": 140,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Hippoterus",
 		"en": "Hippowdon",

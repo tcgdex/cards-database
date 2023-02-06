@@ -34,7 +34,9 @@
 		122
 	],
 	"hp": 80,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Mr. Mime ex",
 		"fr": "M. Mime ex"

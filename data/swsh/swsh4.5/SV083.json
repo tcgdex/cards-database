@@ -36,7 +36,9 @@
 		"en": "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy."
 	},
 	"hp": 70,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Bähmon",
 		"en": "Impidimp",

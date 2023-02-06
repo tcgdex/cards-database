@@ -30,7 +30,9 @@
 		"en": "They seclude themselves in the mountains and devote themselves to training. The form of their kicks and chops differs from pack to pack."
 	},
 	"hp": 60,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Lin-Fu",
 		"en": "Mienfoo",

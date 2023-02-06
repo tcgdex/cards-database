@@ -28,7 +28,9 @@
 		194
 	],
 	"hp": 70,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"en": "Wooper",
 		"fr": "Axoloto"

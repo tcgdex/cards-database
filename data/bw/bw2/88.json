@@ -38,7 +38,9 @@
 		"fr": "Furaiglon"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Washakwil",
 		"en": "Braviary",

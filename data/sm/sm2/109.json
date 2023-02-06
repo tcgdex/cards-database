@@ -43,7 +43,9 @@
 		661
 	],
 	"hp": 50,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Dartiri",
 		"en": "Fletchling",

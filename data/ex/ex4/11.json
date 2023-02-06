@@ -38,7 +38,9 @@
 		112
 	],
 	"hp": 90,
-	"illustrator": "T. Honda",
+	"illustrator": [
+		"T. Honda"
+	],
 	"name": {
 		"en": "Team Magma's Rhydon",
 		"fr": "Rhinoféros de Team Magma"

@@ -55,7 +55,9 @@
 		249
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Lugia EX",
 		"en": "Lugia EX",

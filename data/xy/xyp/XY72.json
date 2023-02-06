@@ -36,7 +36,9 @@
 		381
 	],
 	"hp": 170,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"en": "Latios EX",
 		"fr": "Latios EX"

@@ -41,7 +41,9 @@
 		"en": "Mankey"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Primeape",
 		"fr": "Colossinge"

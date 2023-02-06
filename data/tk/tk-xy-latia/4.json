@@ -22,7 +22,9 @@
 		"en": "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
 	},
 	"hp": 50,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Dartiri",
 		"en": "Fletchling",

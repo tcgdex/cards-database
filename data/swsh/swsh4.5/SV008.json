@@ -47,7 +47,9 @@
 		"en": "Blipbug"
 	},
 	"hp": 70,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Keradar",
 		"en": "Dottler",

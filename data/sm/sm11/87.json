@@ -56,7 +56,9 @@
 		488
 	],
 	"hp": 130,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Cresselia",
 		"en": "Cresselia",

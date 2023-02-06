@@ -46,7 +46,9 @@
 		776
 	],
 	"hp": 130,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Tortunator",
 		"en": "Turtonator",

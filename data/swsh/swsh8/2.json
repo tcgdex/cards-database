@@ -35,7 +35,9 @@
 		"de": "Raupy"
 	},
 	"hp": 80,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Safcon",
 		"en": "Metapod",

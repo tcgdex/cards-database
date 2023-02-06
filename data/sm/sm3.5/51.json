@@ -50,7 +50,9 @@
 		"fr": "Baggiguane"
 	},
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Irokex",
 		"en": "Scrafty",

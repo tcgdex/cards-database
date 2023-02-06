@@ -48,7 +48,9 @@
 		"fr": "Axoloto"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Morlord",
 		"en": "Quagsire",

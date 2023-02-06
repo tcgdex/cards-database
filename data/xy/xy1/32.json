@@ -62,7 +62,9 @@
 		"de": "Muschas"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Austos",
 		"en": "Cloyster",

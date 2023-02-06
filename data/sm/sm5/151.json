@@ -9,7 +9,9 @@
 		"pt": "Compre cartas até ter 6 cartas na sua mão. Se for a sua primeira vez de jogar, compre cartas até ter 8 cartas na sua mão.",
 		"de": "Ziehe so lange Karten, bis du 6 Karten auf der Hand hast. Wenn es dein erster Zug ist, ziehe so lange Karten, bis du 8 Karten auf der Hand hast."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Lilly",
 		"en": "Lillie",

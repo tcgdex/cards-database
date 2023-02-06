@@ -35,7 +35,9 @@
 		631
 	],
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Furnifraß",
 		"en": "Heatmor",

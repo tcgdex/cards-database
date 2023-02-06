@@ -51,7 +51,9 @@
 		702
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Dedenne",
 		"en": "Dedenne",

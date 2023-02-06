@@ -45,7 +45,9 @@
 		"fr": "Ponyta"
 	},
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Rapidash",
 		"fr": "Galopa"

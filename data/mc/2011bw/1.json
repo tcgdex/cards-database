@@ -16,7 +16,9 @@
 		"en": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter."
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Snivy"
 	},

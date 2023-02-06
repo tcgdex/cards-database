@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "Move a basic Energy from 1 of your Pokémon to another of your Pokémon."
 	},
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Energy Switch"
 	},

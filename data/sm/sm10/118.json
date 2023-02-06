@@ -28,7 +28,9 @@
 		686
 	],
 	"hp": 60,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Iscalar",
 		"en": "Inkay",

@@ -56,7 +56,9 @@
 		"fr": "Rocabot"
 	},
 	"hp": 120,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Wolwerock",
 		"en": "Lycanroc",

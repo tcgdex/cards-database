@@ -39,7 +39,9 @@
 		"en": "Bayleef"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Meganium",
 		"fr": "Meganium"

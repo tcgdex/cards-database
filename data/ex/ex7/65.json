@@ -18,7 +18,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Magikarp"
 	},

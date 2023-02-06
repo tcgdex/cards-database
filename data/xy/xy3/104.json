@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Fighting-Pokémon angelegt werden. Diese Karte liefert nur dann Fighting-Energie, wenn sie an ein Fighting-Pokémon angelegt ist. Die Angriffe des Fighting-Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). (Lege diese Karte auf deinen Ablagestapel, wenn sie nicht an ein Fighting-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Stärke-Energie",
 		"en": "Strong Energy",

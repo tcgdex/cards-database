@@ -36,7 +36,9 @@
 		"en": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Yanma",
 		"en": "Yanma",

@@ -35,7 +35,9 @@
 		359
 	],
 	"hp": 170,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"en": "Absol EX",
 		"fr": "Absol EX"

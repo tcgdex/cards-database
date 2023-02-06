@@ -69,7 +69,9 @@
 		26
 	],
 	"hp": 260,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Raichu & Alola-Raichu GX",
 		"en": "Raichu & Alolan Raichu GX",

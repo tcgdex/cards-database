@@ -44,7 +44,9 @@
 		"fr": "Keunotor"
 	},
 	"hp": 100,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Bidifas",
 		"en": "Bibarel",

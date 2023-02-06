@@ -50,7 +50,9 @@
 		"fr": "Natu"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Xatu",
 		"en": "Xatu",

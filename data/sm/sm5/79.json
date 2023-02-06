@@ -30,7 +30,9 @@
 		"fr": "Taupiqueur d’Alola"
 	},
 	"hp": 60,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Alola-Digdri",
 		"en": "Alolan Dugtrio",

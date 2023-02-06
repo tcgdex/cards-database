@@ -37,7 +37,9 @@
 		378
 	],
 	"hp": 100,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Regice ex",
 		"fr": "Regice ex"

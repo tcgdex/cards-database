@@ -55,7 +55,9 @@
 		"fr": "Coconfort"
 	},
 	"hp": 130,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Bibor",
 		"en": "Beedrill",

@@ -49,7 +49,9 @@
 		355
 	],
 	"hp": 40,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Zwirrlicht",
 		"en": "Duskull",

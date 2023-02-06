@@ -31,7 +31,9 @@
 		639
 	],
 	"hp": 130,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"en": "Terrakion"
 	},

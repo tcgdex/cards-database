@@ -41,7 +41,9 @@
 		"fr": "Carmache"
 	},
 	"hp": 150,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Garchomp",
 		"fr": "Carchacrok"

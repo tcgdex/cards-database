@@ -31,7 +31,9 @@
 		"en": "This Pokémon was born from a bag stuffed with trash. Galarian Weezing relish the fumes belched by Trubbish."
 	},
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Unratütox",
 		"en": "Trubbish",

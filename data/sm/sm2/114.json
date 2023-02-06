@@ -52,7 +52,9 @@
 		775
 	],
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Koalelu",
 		"en": "Komala",

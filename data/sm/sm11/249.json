@@ -76,7 +76,9 @@
 		"en": "Poipole"
 	},
 	"hp": 210,
-	"illustrator": "ConceptLab",
+	"illustrator": [
+		"ConceptLab"
+	],
 	"name": {
 		"de": "Agoyon GX",
 		"en": "Naganadel GX",

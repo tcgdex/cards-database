@@ -29,7 +29,9 @@
 		887
 	],
 	"hp": 210,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"en": "Dragapult V"
 	},

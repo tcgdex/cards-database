@@ -55,7 +55,9 @@
 		"fr": "Goupix d’Alola"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Alolan Ninetales-GX",
 		"fr": "Feunard d’Alola-GX"

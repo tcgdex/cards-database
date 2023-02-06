@@ -39,7 +39,9 @@
 		"fr": "Magneton"
 	},
 	"hp": 140,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Magnezone",
 		"fr": "Magnézone"

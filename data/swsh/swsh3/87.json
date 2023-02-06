@@ -53,7 +53,9 @@
 		"de": "Larvitar"
 	},
 	"hp": 80,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Pupitar",
 		"en": "Pupitar",

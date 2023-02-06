@@ -37,7 +37,9 @@
 		"de": "Viscora"
 	},
 	"hp": 80,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Viscargot",
 		"en": "Sliggoo",

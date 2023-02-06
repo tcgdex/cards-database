@@ -32,7 +32,9 @@
 		479
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Rotom",
 		"fr": "Motisma"

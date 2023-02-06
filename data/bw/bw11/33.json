@@ -20,7 +20,9 @@
 		393
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Piplup"
 	},

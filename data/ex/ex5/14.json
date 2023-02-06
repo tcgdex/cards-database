@@ -41,7 +41,9 @@
 		"en": "Nuzleaf"
 	},
 	"hp": 110,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Shiftry",
 		"fr": "Tengalice"

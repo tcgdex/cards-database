@@ -9,7 +9,9 @@
 		"pt": "Cure 90 de danos do seu Pokémon Ativo.",
 		"de": "Heile 90 Schadenspunkte bei deinem Aktiven Pokémon."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Goldtrank",
 		"en": "Gold Potion",

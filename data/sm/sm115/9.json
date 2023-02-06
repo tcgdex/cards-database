@@ -41,7 +41,9 @@
 		"fr": "Reptincel"
 	},
 	"hp": 250,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"en": "Charizard GX",
 		"fr": "Dracaufeu-GX"

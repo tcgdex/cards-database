@@ -54,7 +54,9 @@
 		"de": "Meltan"
 	},
 	"hp": 150,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Melmetal",
 		"en": "Melmetal",

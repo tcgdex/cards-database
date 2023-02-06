@@ -47,7 +47,9 @@
 		"fr": "Flamiaou"
 	},
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Miezunder",
 		"en": "Torracat",

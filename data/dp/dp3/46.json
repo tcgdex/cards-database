@@ -41,7 +41,9 @@
 		"fr": "Salamèche"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Charmeleon",
 		"fr": "Reptincel"

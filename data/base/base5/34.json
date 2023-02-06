@@ -38,7 +38,9 @@
 		"en": "Voltorb"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Dark Electrode",
 		"fr": "Electrode obscur"

@@ -46,7 +46,9 @@
 		"en": "Some say it can change to an even more powerful form when battling those who threaten the ecosystem."
 	},
 	"hp": 140,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Zygarde",
 		"en": "Zygarde",

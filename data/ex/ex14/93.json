@@ -36,7 +36,9 @@
 		383
 	],
 	"hp": 100,
-	"illustrator": "Takabon",
+	"illustrator": [
+		"Takabon"
+	],
 	"name": {
 		"en": "Groudon ex",
 		"fr": "Groudon ex"

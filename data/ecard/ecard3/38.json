@@ -32,7 +32,9 @@
 		"en": "Machop"
 	},
 	"hp": 80,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Machoke"
 	},

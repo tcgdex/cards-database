@@ -57,7 +57,9 @@
 		"de": "Onix"
 	},
 	"hp": 190,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Stahlos",
 		"en": "Steelix",

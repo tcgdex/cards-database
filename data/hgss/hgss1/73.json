@@ -34,7 +34,9 @@
 		179
 	],
 	"hp": 40,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Mareep",
 		"fr": "Wattouat"

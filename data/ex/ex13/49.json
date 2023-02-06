@@ -25,7 +25,9 @@
 		"en": "Pidgey"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Pidgeotto δ",
 		"fr": "Roucoups δ ESPÈCES DELTA"

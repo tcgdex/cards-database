@@ -29,7 +29,9 @@
 		72
 	],
 	"hp": 60,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Tentacha",
 		"en": "Tentacool",

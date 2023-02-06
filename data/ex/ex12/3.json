@@ -50,7 +50,9 @@
 		"en": "Lileep"
 	},
 	"hp": 100,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Cradily",
 		"fr": "Vacilys"

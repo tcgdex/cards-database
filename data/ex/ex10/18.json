@@ -54,7 +54,9 @@
 		"en": "Teddiursa"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Ursaring",
 		"fr": "Ursaring"

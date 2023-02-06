@@ -57,7 +57,9 @@
 		244
 	],
 	"hp": 120,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Entei",
 		"en": "Entei",

@@ -33,7 +33,9 @@
 		143
 	],
 	"hp": 130,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Snorlax"
 	},

@@ -30,7 +30,9 @@
 		"en": "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies."
 	},
 	"hp": 60,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Flauschling",
 		"en": "Swirlix",

@@ -55,7 +55,9 @@
 		"de": "Galar-Mauzi"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Galar-Mauzinger",
 		"en": "Galarian Perrserker",

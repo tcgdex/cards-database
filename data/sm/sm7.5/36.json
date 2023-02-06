@@ -52,7 +52,9 @@
 		"fr": "Minidraco"
 	},
 	"hp": 100,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Dragonir",
 		"en": "Dragonair",

@@ -9,7 +9,9 @@
 		"pt": "Procure por até 4 cartas de Energia básica no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach bis zu 4 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Lady",
 		"en": "Lady",

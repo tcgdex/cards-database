@@ -44,7 +44,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Lohgock V",
 		"en": "Blaziken V",

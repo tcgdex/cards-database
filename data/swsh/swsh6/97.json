@@ -52,7 +52,9 @@
 		146
 	],
 	"hp": 220,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Galar-Lavados V",
 		"en": "Galarian Moltres V",

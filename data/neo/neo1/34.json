@@ -42,7 +42,9 @@
 		"en": "Mareep"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Flaaffy",
 		"fr": "Lainergie"

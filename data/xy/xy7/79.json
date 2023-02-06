@@ -9,7 +9,9 @@
 		"pt": "Descarte qualquer card de Estádio em jogo. Em seguida, compre um card.",
 		"de": "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Ziehe anschließend 1 Karte."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Farbroller",
 		"en": "Paint Roller",

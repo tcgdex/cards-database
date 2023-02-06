@@ -35,7 +35,9 @@
 		198
 	],
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Murkrow",
 		"fr": "Cornèbre"

@@ -57,7 +57,9 @@
 		"fr": "Flamiaou"
 	},
 	"hp": 90,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Miezunder",
 		"en": "Torracat",

@@ -48,7 +48,9 @@
 		"de": "Pikachu"
 	},
 	"hp": 130,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Raichu",
 		"en": "Raichu",

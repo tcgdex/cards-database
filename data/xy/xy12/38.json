@@ -62,7 +62,9 @@
 		"de": "Magnetilo"
 	},
 	"hp": 80,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Magneton",
 		"en": "Magneton",

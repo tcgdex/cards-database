@@ -20,7 +20,9 @@
 		425
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Driftlon",
 		"en": "Drifloon",

@@ -29,7 +29,9 @@
 		459
 	],
 	"hp": 90,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Shnebedeck",
 		"en": "Snover",

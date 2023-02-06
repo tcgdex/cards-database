@@ -40,7 +40,9 @@
 		"de": "Feelinara-V"
 	},
 	"hp": 310,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Feelinara VMAX",
 		"en": "Sylveon VMAX",

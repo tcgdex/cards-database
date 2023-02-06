@@ -40,7 +40,9 @@
 		"fr": "Racaillou"
 	},
 	"hp": 100,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Graveler",
 		"fr": "Gravalanch"

@@ -33,7 +33,9 @@
 		"en": "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting."
 	},
 	"hp": 130,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Latios",
 		"en": "Latios",

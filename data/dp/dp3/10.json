@@ -50,7 +50,9 @@
 		250
 	],
 	"hp": 90,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Ho-Oh",
 		"fr": "Ho-Oh"

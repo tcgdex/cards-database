@@ -31,7 +31,9 @@
 	"description": {
 		"en": "Normally found near power plants, it can wander away and cause major blackouts in cities."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Electabuzz"
 	},

@@ -44,7 +44,9 @@
 		"en": "Koffing"
 	},
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Weezing",
 		"fr": "Smogogo"

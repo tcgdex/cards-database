@@ -55,7 +55,9 @@
 		"fr": "Riolu"
 	},
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Lucario",
 		"en": "Lucario",

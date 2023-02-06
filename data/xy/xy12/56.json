@@ -54,7 +54,9 @@
 		"de": "Digda"
 	},
 	"hp": 90,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Digdri",
 		"en": "Dugtrio",

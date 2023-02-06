@@ -32,7 +32,9 @@
 		74
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Geodude",
 		"fr": "Racaillou"

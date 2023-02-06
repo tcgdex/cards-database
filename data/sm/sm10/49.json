@@ -33,7 +33,9 @@
 		"fr": "Poissirène"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Golking",
 		"en": "Seaking",

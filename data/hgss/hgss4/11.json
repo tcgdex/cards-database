@@ -42,7 +42,9 @@
 		"fr": "Mimitoss"
 	},
 	"hp": 80,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Venomoth",
 		"fr": "Aéromite"

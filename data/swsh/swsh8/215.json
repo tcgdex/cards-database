@@ -41,7 +41,9 @@
 		"de": "Scoppel"
 	},
 	"hp": 140,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Grebbit",
 		"en": "Diggersby",

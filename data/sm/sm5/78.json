@@ -26,7 +26,9 @@
 		50
 	],
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Alola-Digda",
 		"en": "Alolan Diglett",

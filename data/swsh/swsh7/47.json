@@ -48,7 +48,9 @@
 		875
 	],
 	"hp": 120,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Kubuin",
 		"en": "Eiscue",

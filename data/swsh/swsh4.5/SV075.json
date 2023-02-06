@@ -48,7 +48,9 @@
 		"en": "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
 	},
 	"hp": 140,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Humanolith",
 		"en": "Stonjourner",

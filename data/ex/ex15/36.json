@@ -37,7 +37,9 @@
 		"en": "Cyndaquil"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Quilava δ",
 		"fr": "Feurisson δ ESPÈCES DELTA"

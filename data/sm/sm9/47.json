@@ -29,7 +29,9 @@
 		595
 	],
 	"hp": 40,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Wattzapf",
 		"en": "Joltik",

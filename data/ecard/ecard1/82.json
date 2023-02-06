@@ -37,7 +37,9 @@
 		"en": "Bulbasaur"
 	},
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Ivysaur",
 		"fr": "Herbizarre"

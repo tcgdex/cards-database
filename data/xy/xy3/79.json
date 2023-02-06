@@ -64,7 +64,9 @@
 		"de": "Schlurp"
 	},
 	"hp": 120,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Schlurplek",
 		"en": "Lickilicky",

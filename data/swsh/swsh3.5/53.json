@@ -9,7 +9,9 @@
 		"pt": "Compre 3 cartas.",
 		"de": "Ziehe 3 Karten."
 	},
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Hop",
 		"en": "Hop",

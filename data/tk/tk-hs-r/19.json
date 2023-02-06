@@ -24,7 +24,9 @@
 	"description": {
 		"en": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up."
 	},
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Raichu"
 	},

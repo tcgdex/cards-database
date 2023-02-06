@@ -38,7 +38,9 @@
 		"fr": "Tarsal"
 	},
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Kirlia",
 		"en": "Kirlia",

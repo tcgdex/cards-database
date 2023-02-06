@@ -30,7 +30,9 @@
 		276
 	],
 	"hp": 50,
-	"illustrator": "Takao Unno",
+	"illustrator": [
+		"Takao Unno"
+	],
 	"name": {
 		"en": "Taillow",
 		"fr": "Nirondelle"

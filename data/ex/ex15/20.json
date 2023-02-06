@@ -34,7 +34,9 @@
 		226
 	],
 	"hp": 50,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Mantine δ",
 		"fr": "Demanta δ ESPÈCES DELTA"

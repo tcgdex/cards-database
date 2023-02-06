@@ -42,7 +42,9 @@
 		"en": "Seel"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dewgong",
 		"fr": "Lamantine"

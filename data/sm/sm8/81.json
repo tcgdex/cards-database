@@ -36,7 +36,9 @@
 		522
 	],
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Elezeba",
 		"en": "Blitzle",

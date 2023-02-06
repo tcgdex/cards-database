@@ -44,7 +44,9 @@
 		390
 	],
 	"hp": 60,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Panflam",
 		"en": "Chimchar",

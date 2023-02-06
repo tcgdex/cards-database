@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Défaussez-vous de votre main, puis piochez 7 cartes."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Professor Oak",
 		"fr": "Professeur Chen"

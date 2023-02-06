@@ -53,7 +53,9 @@
 		"en": "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon."
 	},
 	"hp": 110,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Zacian",
 		"en": "Zacian",

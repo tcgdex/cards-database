@@ -9,7 +9,9 @@
 		"pt": "Descarte 1 Energia Especial de 1 dos Pokémon do seu oponente e descarte 1 Estádio em jogo.",
 		"de": "Lege 1 Spezial-Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel und lege 1 Stadionkarte im Spiel auf den Ablagestapel."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Flavia",
 		"en": "Flannery",

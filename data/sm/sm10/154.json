@@ -42,7 +42,9 @@
 		137
 	],
 	"hp": 50,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Porygon",
 		"en": "Porygon",

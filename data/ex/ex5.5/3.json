@@ -33,7 +33,9 @@
 		255
 	],
 	"hp": 50,
-	"illustrator": "May Do",
+	"illustrator": [
+		"May Do"
+	],
 	"name": {
 		"en": "Torchic"
 	},

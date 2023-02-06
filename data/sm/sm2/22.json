@@ -79,7 +79,9 @@
 		"fr": "Goupix d’Alola"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Alola Vulnona GX",
 		"en": "Alolan Ninetales GX",

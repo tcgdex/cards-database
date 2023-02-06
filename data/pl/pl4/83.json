@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "Attach Bench Shield to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.\nIf that Pokémon is Knocked Out, discard this card."
 	},
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Bench Shield"
 	},

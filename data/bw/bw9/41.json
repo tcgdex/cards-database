@@ -42,7 +42,9 @@
 		"fr": "Nidoran♀"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Nidorina",
 		"en": "Nidorina",

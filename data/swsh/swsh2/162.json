@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se a tiver comprado do seu baralho no começo do seu turno, antes de colocá-la na sua mão.\n\nCompre 3 cartas.",
 		"de": "Du kannst diese Karte nur spielen, wenn du sie zu Beginn deines Zuges von deinem Deck gezogen hast und bevor du sie auf deine Hand nimmst.\n\nZiehe 3 Karten."
 	},
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Nugget",
 		"en": "Nugget",

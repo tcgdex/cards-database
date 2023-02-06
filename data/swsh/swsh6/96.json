@@ -51,7 +51,9 @@
 		"de": "Smogon"
 	},
 	"hp": 130,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Galar-Smogmog",
 		"en": "Galarian Weezing",

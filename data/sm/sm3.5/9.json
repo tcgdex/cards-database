@@ -52,7 +52,9 @@
 		649
 	],
 	"hp": 130,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Schimmerndes Genesect",
 		"en": "Shining Genesect",

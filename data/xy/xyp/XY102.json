@@ -35,7 +35,9 @@
 		699
 	],
 	"hp": 180,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"en": "Aurorus EX",
 		"fr": "Dragmara EX"

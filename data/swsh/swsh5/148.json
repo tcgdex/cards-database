@@ -46,7 +46,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 160,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Mimigma V",
 		"en": "Mimikyu V",

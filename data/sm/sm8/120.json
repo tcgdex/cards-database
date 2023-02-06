@@ -48,7 +48,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 110,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Nachtara",
 		"en": "Umbreon",

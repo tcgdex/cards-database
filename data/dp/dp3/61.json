@@ -39,7 +39,9 @@
 		"fr": "Rattata"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Raticate",
 		"fr": "Rattatac"

@@ -41,7 +41,9 @@
 		"fr": "Nidoran♀"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Nidorina",
 		"fr": "Nidorina Niv. 29"

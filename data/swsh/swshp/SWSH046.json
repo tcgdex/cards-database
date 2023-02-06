@@ -49,7 +49,9 @@
 		"fr": "Tournicoton"
 	},
 	"hp": 80,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Cottomi",
 		"en": "Eldegoss",

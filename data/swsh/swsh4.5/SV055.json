@@ -55,7 +55,9 @@
 		"en": "Hatenna"
 	},
 	"hp": 80,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"de": "Brimano",
 		"en": "Hattrem",

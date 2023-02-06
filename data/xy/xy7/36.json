@@ -51,7 +51,9 @@
 		720
 	],
 	"hp": 170,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Hoopa EX",
 		"en": "Hoopa EX",

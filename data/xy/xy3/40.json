@@ -51,7 +51,9 @@
 		"de": "Mollimorba"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Hypnomorba",
 		"en": "Gothorita",

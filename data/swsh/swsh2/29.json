@@ -44,7 +44,9 @@
 		"en": "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!"
 	},
 	"hp": 90,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Magmar",
 		"en": "Magmar",

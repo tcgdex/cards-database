@@ -43,7 +43,9 @@
 		237
 	],
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Kapoera",
 		"en": "Hitmontop",

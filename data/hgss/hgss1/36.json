@@ -44,7 +44,9 @@
 		"fr": "Leveinard"
 	},
 	"hp": 130,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Blissey",
 		"fr": "Leuphorie"

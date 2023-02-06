@@ -60,7 +60,9 @@
 		"de": "Jurob"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Jugong",
 		"en": "Dewgong",

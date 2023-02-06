@@ -52,7 +52,9 @@
 		"de": "Fukano"
 	},
 	"hp": 130,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Arkani",
 		"en": "Arcanine",

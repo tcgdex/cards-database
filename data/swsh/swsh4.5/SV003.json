@@ -55,7 +55,9 @@
 		"en": "Dartrix"
 	},
 	"hp": 140,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Silvarro",
 		"en": "Decidueye",

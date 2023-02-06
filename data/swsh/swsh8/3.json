@@ -36,7 +36,9 @@
 		"de": "Safcon"
 	},
 	"hp": 120,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Smettbo",
 		"en": "Butterfree",

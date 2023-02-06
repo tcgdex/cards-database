@@ -9,7 +9,9 @@
 		"pt": "Escolha até 2 cartas de Ferramenta Pokémon e de Estádio em jogo em qualquer combinação (suas e do seu oponente) e descarte-as.",
 		"de": "Wähle eine beliebige Kombination aus bis zu 2 Pokémon-Ausrüstungen und Stadionkarten im Spiel (deine oder die deines Gegners) und lege sie auf den Ablagestapel."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Feldgebläse",
 		"en": "Field Blower",

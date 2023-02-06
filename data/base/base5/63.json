@@ -36,7 +36,9 @@
 		43
 	],
 	"hp": 50,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Oddish",
 		"fr": "Mystherbe"

@@ -43,7 +43,9 @@
 		"en": "Though they're still only babies, there's psychic power stored in their ribbonlike feelers, and sometimes they use that power to fight."
 	},
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Mollimorba",
 		"en": "Gothita",

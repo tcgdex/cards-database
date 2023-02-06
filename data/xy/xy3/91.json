@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon Fighting ao qual este card está ligado possuir PS cheio e estiver prestes a ser Nocauteado por danos causados por um ataque do oponente, ele não será Nocauteado e seu PS restante se tornará 10. Em seguida descarte este card.",
 		"de": "Wenn das Fighting-Pokémon, an das diese Karte angelegt ist, volle KP hat und durch Schaden eines gegnerischen Angriffs kampfunfähig würde, wird dieses Pokémon nicht kampfunfähig und behält stattdessen 10 KP. Lege diese Karte anschließend auf deinen Ablagestapel."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Fokusgurt",
 		"en": "Focus Sash",

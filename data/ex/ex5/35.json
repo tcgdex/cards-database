@@ -41,7 +41,9 @@
 		"en": "Oddish"
 	},
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Gloom",
 		"fr": "Ortide"

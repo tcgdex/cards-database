@@ -39,7 +39,9 @@
 		130
 	],
 	"hp": 110,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Gyarados G",
 		"fr": "Leviator "

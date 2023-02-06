@@ -34,7 +34,9 @@
 		412
 	],
 	"hp": 40,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Burmy Plant Cloak",
 		"fr": "Cheniti Cape Plante"

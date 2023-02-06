@@ -60,7 +60,9 @@
 		"de": "Bubungus"
 	},
 	"hp": 110,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Lamellux",
 		"en": "Shiinotic",

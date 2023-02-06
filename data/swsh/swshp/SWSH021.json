@@ -52,7 +52,9 @@
 		855
 	],
 	"hp": 170,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Mortipot V",
 		"en": "Polteageist V",

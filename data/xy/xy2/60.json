@@ -59,7 +59,9 @@
 		"de": "Tannza"
 	},
 	"hp": 100,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Forstellka",
 		"en": "Forretress",

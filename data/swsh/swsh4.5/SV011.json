@@ -46,7 +46,9 @@
 		"en": "Gossifleur"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Cottomi",
 		"en": "Eldegoss",

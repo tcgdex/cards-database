@@ -9,7 +9,9 @@
 		"pt": "Compre cartas até ter 6 cartas na sua mão.",
 		"de": "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Connies Fokus",
 		"en": "Korrina's Focus",

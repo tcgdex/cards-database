@@ -54,7 +54,9 @@
 		"fr": "Massko"
 	},
 	"hp": 140,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Gewaldro",
 		"en": "Sceptile",

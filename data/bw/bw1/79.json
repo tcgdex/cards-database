@@ -40,7 +40,9 @@
 		"fr": "Ratentif"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Kukmarda",
 		"en": "Watchog",

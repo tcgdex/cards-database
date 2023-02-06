@@ -9,7 +9,9 @@
 		"pt": "Cure todos os danos de 1 dos seus Pokémon. Em seguida, descarte toda a Energia ligada a este Pokémon.",
 		"de": "Heile allen Schaden bei 1 deiner Pokémon. Lege alle Energien, die an das Pokémon angelegt sind, auf deinen Ablagestapel."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Top-Trank",
 		"en": "Max Potion",

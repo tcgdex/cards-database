@@ -41,7 +41,9 @@
 		113
 	],
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Chansey",
 		"fr": "Leveinard"

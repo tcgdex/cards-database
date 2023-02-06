@@ -33,7 +33,9 @@
 		878
 	],
 	"hp": 100,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Kupfanti",
 		"en": "Cufant",

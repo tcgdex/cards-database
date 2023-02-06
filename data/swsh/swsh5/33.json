@@ -58,7 +58,9 @@
 		"de": "Seemon"
 	},
 	"hp": 150,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Seedraking",
 		"en": "Kingdra",

@@ -36,7 +36,9 @@
 		694
 	],
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Eguana",
 		"en": "Helioptile",

@@ -46,7 +46,9 @@
 		739
 	],
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Krabbox",
 		"en": "Crabrawler",

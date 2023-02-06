@@ -22,7 +22,9 @@
 		115
 	],
 	"hp": 120,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"en": "Kangaskhan",
 		"fr": "Kangourex"

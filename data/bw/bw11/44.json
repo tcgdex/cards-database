@@ -36,7 +36,9 @@
 		646
 	],
 	"hp": 180,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Kyurem-EX"
 	},

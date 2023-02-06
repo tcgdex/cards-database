@@ -9,7 +9,9 @@
 		"pt": "Escolha 1 carta de Energia que está ligada a 1 dos seus Pokémon. Procure por 1 carta de Energia básica no seu baralho e troque-a por aquela carta. Embaralhe a primeira carta de Energia no seu baralho.",
 		"de": "Wähle 1 Energiekarte, die an 1 deiner Pokémon angelegt ist. Durchsuche dein Deck nach 1 Basis-Energiekarte und tausche sie gegen jene Karte aus. Mische die erste Energiekarte in dein Deck."
 	},
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Regenbogenpinsel",
 		"en": "Rainbow Brush",

@@ -60,7 +60,9 @@
 		"de": "Menki"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Rasaff",
 		"en": "Primeape",

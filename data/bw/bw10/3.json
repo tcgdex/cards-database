@@ -43,7 +43,9 @@
 		345
 	],
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Liliep",
 		"en": "Lileep",

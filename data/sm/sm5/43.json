@@ -46,7 +46,9 @@
 		125
 	],
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Elektek",
 		"en": "Electabuzz",

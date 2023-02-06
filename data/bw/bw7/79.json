@@ -42,7 +42,9 @@
 		"fr": "Sabelette"
 	},
 	"hp": 90,
-	"illustrator": "BERUBURI",
+	"illustrator": [
+		"BERUBURI"
+	],
 	"name": {
 		"de": "Sandamer",
 		"en": "Sandslash",

@@ -35,7 +35,9 @@
 		441
 	],
 	"hp": 60,
-	"illustrator": "Satoshi Ohta",
+	"illustrator": [
+		"Satoshi Ohta"
+	],
 	"name": {
 		"en": "Chatot",
 		"fr": "Pijako"

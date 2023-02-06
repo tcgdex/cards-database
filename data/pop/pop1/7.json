@@ -36,7 +36,9 @@
 		"en": "Surskit"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Masquerain",
 		"fr": "Maskadra"

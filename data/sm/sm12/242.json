@@ -29,7 +29,9 @@
 		81
 	],
 	"hp": 60,
-	"illustrator": "Fumie Kittaka",
+	"illustrator": [
+		"Fumie Kittaka"
+	],
 	"name": {
 		"de": "Magnetilo",
 		"en": "Magnemite",

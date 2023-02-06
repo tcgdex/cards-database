@@ -32,7 +32,9 @@
 	"evolveFrom": {
 		"en": "Wingull"
 	},
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Pelipper"
 	},

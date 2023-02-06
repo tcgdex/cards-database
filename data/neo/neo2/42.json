@@ -41,7 +41,9 @@
 		"en": "Caterpie"
 	},
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Metapod",
 		"fr": "Chrysacier"

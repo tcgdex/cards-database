@@ -54,7 +54,9 @@
 		643
 	],
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Reshiram",
 		"en": "Reshiram",

@@ -37,7 +37,9 @@
 		"en": "Dratini"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Dragonair δ",
 		"fr": "Draco δ ESPÈCES DELTA"

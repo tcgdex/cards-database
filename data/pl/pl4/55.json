@@ -17,7 +17,9 @@
 	"dexId": [
 		427
 	],
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Buneary"
 	},

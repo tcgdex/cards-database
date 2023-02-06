@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante o turno de cada jogador, aquele jogador poderá procurar por 1 Pokémon Grass de Evolução no próprio baralho, revelá-lo e colocá-lo na própria mão. Em seguida, aquele jogador embaralha o próprio baralho.",
 		"de": "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Entwicklungs-Grass-Pokémon durchsuchen, es seinem Gegner zeigen und auf seine Hand nehmen. Anschließend mischt jener Spieler sein Deck."
 	},
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Turffield-Stadion",
 		"en": "Turffield Stadium",

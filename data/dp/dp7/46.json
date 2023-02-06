@@ -47,7 +47,9 @@
 		"fr": "Marcacrin"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Piloswine",
 		"fr": "Cochignon"

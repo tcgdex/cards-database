@@ -55,7 +55,9 @@
 		"fr": "Rototaupe"
 	},
 	"hp": 140,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Stalobor",
 		"en": "Excadrill",

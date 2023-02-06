@@ -48,7 +48,9 @@
 		"fr": "Goupix d’Alola"
 	},
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Alola Vulnona",
 		"en": "Alolan Ninetales",

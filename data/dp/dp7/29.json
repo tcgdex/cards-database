@@ -56,7 +56,9 @@
 		"fr": "Saquedeneu"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Tangrowth",
 		"fr": "Bouldeneu"

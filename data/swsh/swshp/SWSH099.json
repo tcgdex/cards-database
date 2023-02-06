@@ -34,7 +34,9 @@
 		"en": "Crobat V"
 	},
 	"hp": 300,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"en": "Crobat VMAX"
 	},

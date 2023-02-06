@@ -41,7 +41,9 @@
 		"fr": "Smogo"
 	},
 	"hp": 120,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"en": "Weezing",
 		"fr": "Smogogo"

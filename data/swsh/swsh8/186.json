@@ -19,7 +19,9 @@
 		"en": "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements."
 	},
 	"hp": 70,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Clavion",
 		"en": "Klefki",

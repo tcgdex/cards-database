@@ -51,7 +51,9 @@
 		"fr": "Bulbizarre"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Bisaknosp",
 		"en": "Ivysaur",

@@ -16,7 +16,9 @@
 		"en": "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
 	},
 	"hp": 70,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Toxel",
 		"en": "Toxel",

@@ -48,7 +48,9 @@
 		"fr": "Parecool"
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Muntier",
 		"en": "Vigoroth",

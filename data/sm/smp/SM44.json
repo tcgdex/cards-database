@@ -44,7 +44,9 @@
 		777
 	],
 	"hp": 70,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Togedemaru",
 		"en": "Togedemaru",

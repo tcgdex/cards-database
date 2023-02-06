@@ -53,7 +53,9 @@
 		"de": "Piccolente"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Swaroness",
 		"en": "Swanna",

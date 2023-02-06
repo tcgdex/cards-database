@@ -38,7 +38,9 @@
 		"fr": "Tritonde"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Mebrana",
 		"en": "Palpitoad",

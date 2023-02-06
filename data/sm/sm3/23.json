@@ -48,7 +48,9 @@
 		"fr": "Flamajou"
 	},
 	"hp": 90,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Grillchita",
 		"en": "Simisear",

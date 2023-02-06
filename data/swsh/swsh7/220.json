@@ -40,7 +40,9 @@
 		"de": "Duraludon-V"
 	},
 	"hp": 330,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"de": "Duraludon VMAX",
 		"en": "Duraludon VMAX",

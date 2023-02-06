@@ -30,7 +30,9 @@
 		749
 	],
 	"hp": 80,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Pampuli",
 		"en": "Mudbray",

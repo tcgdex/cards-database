@@ -40,7 +40,9 @@
 		19
 	],
 	"hp": 40,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Alola-Rattfratz",
 		"en": "Alolan Rattata",

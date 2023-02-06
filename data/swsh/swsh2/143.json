@@ -43,7 +43,9 @@
 		"en": "Where people go, these Pokémon follow. If you're scattering food for them, be careful—several hundred of them can gather at once."
 	},
 	"hp": 60,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Dusselgurr",
 		"en": "Pidove",

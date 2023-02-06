@@ -48,7 +48,9 @@
 	"evolveFrom": {
 		"en": "Graveler"
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Golem"
 	},

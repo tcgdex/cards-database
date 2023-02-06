@@ -38,7 +38,9 @@
 		"en": "Pikachu"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Lt. Surge's Raichu"
 	},

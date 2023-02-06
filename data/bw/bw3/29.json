@@ -37,7 +37,9 @@
 		"fr": "Sorboul"
 	},
 	"hp": 130,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Gelatwino",
 		"en": "Vanilluxe",

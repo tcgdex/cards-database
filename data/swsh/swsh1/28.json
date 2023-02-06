@@ -63,7 +63,9 @@
 		"de": "Molunk"
 	},
 	"hp": 120,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Amfira",
 		"en": "Salazzle",

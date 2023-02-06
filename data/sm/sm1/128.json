@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Durante esta rodada, os ataques dos seus Pokémon causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		"de": "Ziehe 2 Karten. Während dieses Zuges fügen die Attacken deiner Pokémon dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Prof. Kukui",
 		"en": "Professor Kukui",

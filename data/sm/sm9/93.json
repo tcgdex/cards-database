@@ -56,7 +56,9 @@
 		"fr": "Vostourno"
 	},
 	"hp": 120,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Grypheldis",
 		"en": "Mandibuzz",

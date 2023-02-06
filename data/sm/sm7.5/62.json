@@ -9,7 +9,9 @@
 		"pt": "Troque o seu Pokémon Water Ativo por 1 dos seus Pokémon no Banco. Se fizer isto, cure 30 pontos de dano do Pokémon que você moveu para o seu Banco.",
 		"de": "Tausche dein Aktives Water-Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, heile 30 Schadenspunkte bei dem Pokémon, das du auf deine Bank verschoben hast."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Rettungsring",
 		"en": "Switch Raft",

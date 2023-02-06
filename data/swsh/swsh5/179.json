@@ -51,7 +51,9 @@
 		"de": "Hunduster"
 	},
 	"hp": 130,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Hundemon",
 		"en": "Houndoom",

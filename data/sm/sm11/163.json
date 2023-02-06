@@ -53,7 +53,9 @@
 		115
 	],
 	"hp": 130,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Kangama",
 		"en": "Kangaskhan",

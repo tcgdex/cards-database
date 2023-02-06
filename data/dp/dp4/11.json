@@ -40,7 +40,9 @@
 		"fr": "Togetic"
 	},
 	"hp": 120,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Togekiss",
 		"fr": "Togekiss"

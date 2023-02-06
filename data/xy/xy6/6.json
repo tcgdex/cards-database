@@ -58,7 +58,9 @@
 		"de": "Waumpel"
 	},
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Panekon",
 		"en": "Cascoon",

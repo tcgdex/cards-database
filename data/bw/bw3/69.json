@@ -28,7 +28,9 @@
 		619
 	],
 	"hp": 50,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Lin-Fu",
 		"en": "Mienfoo",

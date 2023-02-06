@@ -34,7 +34,9 @@
 		491
 	],
 	"hp": 110,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Darkrai",
 		"fr": "Darkrai"

@@ -78,7 +78,9 @@
 		"fr": "Cornèbre"
 	},
 	"hp": 210,
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Kramshef GX",
 		"en": "Honchkrow GX",

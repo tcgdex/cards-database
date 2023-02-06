@@ -41,7 +41,9 @@
 		"fr": "Zébibron"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Zebritz",
 		"en": "Zebstrika",

@@ -1,20 +1,17 @@
 /* eslint-disable sort-keys */
-import { getSet, setToSetSimple } from './setUtil'
-import { cardIsLegal, DB_PATH, fetchRemoteFile, realPath, smartGlob } from './util'
-import { Set, SupportedLanguages, Card, Types } from '../../../interfaces'
+import { setToSetSimple } from './setUtil'
+import { cardIsLegal, fetchRemoteFile, FileListCard, FileListItem, loadDatabase } from './util'
+import { SupportedLanguages, Types } from '../../../meta/definitions/database'
 import { Card as CardSingle, CardResume } from '../../../meta/definitions/api'
 import translate from './translationUtil'
-import { getSerie } from './serieUtil'
-import fs from 'fs/promises'
-import { posix as path } from 'path'
 
-export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
+export async function getCardPictures(cardId: string, card: FileListCard, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
-		const set = await getSet(card.set)
-		const fileExists = Boolean(file[lang]?.[set.serie]?.[set.id]?.[cardId])
+		const set = card.parent
+		const fileExists = Boolean(file[lang]?.[set.data.serie]?.[set.data.id]?.[cardId])
 		if (fileExists) {
-			return `https://assets.tcgdex.net/${lang}/${set.serie}/${card.set}/${cardId}`
+			return `https://assets.tcgdex.net/${lang}/${set.data.serie}/${card.data.set}/${cardId}`
 		}
 	} catch {
 		return undefined
@@ -22,14 +19,14 @@ export async function getCardPictures(cardId: string, card: Card, lang: Supporte
 	return undefined
 }
 
-export async function cardToCardSimple(id: string, card: Card, lang: SupportedLanguages): Promise<CardResume> {
-	const cardName = card.name[lang]
+export async function cardToCardSimple(id: string, card: FileListCard, lang: SupportedLanguages): Promise<CardResume> {
+	const cardName = card.data.name[lang]
 	if (!cardName) {
-		throw new Error(`Card (${card.set}-${id}) has no name in (${lang})`)
+		throw new Error(`Card (${card.path}) has no name in (${lang})`)
 	}
 	const img = await getCardPictures(id, card, lang)
 	return {
-		id: `${card.set}-${id}`,
+		id: `${card.data.set}-${id}`,
 		image: img,
 		localId: id,
 		name: cardName
@@ -37,8 +34,9 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 }
 
 // eslint-disable-next-line max-lines-per-function
-export async function cardToCardSingle(localId: string, card: Card, lang: SupportedLanguages): Promise<CardSingle> {
-	const image = await getCardPictures(localId, card, lang)
+export async function cardToCardSingle(localId: string, cardFile: FileListCard, lang: SupportedLanguages): Promise<CardSingle> {
+	const card = cardFile.data
+	const image = await getCardPictures(localId, cardFile, lang)
 
 	if (!card.name[lang]) {
 		throw new Error(`Card (${localId}) dont exist in (${lang})`)
@@ -53,7 +51,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		name: card.name[lang] as string,
 
 		rarity: translate('rarity', card.rarity, lang) as any,
-		set: await setToSetSimple(await getSet(card.set), lang),
+		set: await setToSetSimple(cardFile.parent, lang),
 		variants: {
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
 			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : true,
@@ -115,15 +113,16 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 	}
 }
 
-/**
- *
- * @param setName the setname of the card
- * @param id the local id of the card
- * @returns [the local id, the Card object]
- */
-export async function getCard(serie: string, setName: string, id: string): Promise<Card> {
+export function cardIsAvailable(card: FileListCard, lang: SupportedLanguages) {
+	return card.data.name[lang] && card.parent.data.name[lang] && card.parent.parent.data.name[lang]
+}
 
-	return JSON.parse(await fs.readFile(realPath(__dirname, `../../../data/${serie}/${setName}/${id}.json`), 'utf-8'))
+export function isCard(file: FileListItem): file is FileListCard {
+	return file.type === 'card'
+}
+
+export function getLocalId(file: FileListCard): string {
+	return file.path.slice(file.path.lastIndexOf('/') + 1, file.path.length - 5)
 }
 
 /**
@@ -132,30 +131,13 @@ export async function getCard(serie: string, setName: string, id: string): Promi
  * @param set the set to filter in (optional)
  * @returns An array with the 0 = localId, 1 = Card Object
  */
-export async function getCards(lang: SupportedLanguages, set?: Set): Promise<Array<[string, Card]>> {
-	const serie = set?.serie ? await getSerie(set?.serie) : undefined
-	const cards = await smartGlob(realPath(__dirname, `../../../data/${(serie && serie.name.en) ?? '*'}/${(set && set.name.en) ?? '*'}/*.json`))
-	const list: Array<[string, Card]> = []
-	for (const path of cards) {
-		const id = path.substring(path.lastIndexOf('/') + 1, path.lastIndexOf('.'))
-		const setName = (set && set.name.en) ?? (() => {
-			const part1 = path.substr(0, path.lastIndexOf(id) - 1)
-			return part1.substr(part1.lastIndexOf('/') + 1)
-		})()
-		const serieName = (serie && serie.name.en) ?? (() => {
-			const part1 = path.substr(0, path.lastIndexOf(setName) - 1)
-			return part1.substr(part1.lastIndexOf('/') + 1)
-		})()
-		// console.log(path, id, setName)
-		const c = await getCard(serieName, setName, id)
-		if (!c.name[lang]) {
-			continue
-		}
-		list.push([id, c])
-	}
-
+export async function getCards(lang: SupportedLanguages, setId?: string): Promise<Array<[string, FileListCard]>> {
+	const cards = ((await loadDatabase())
+		.filter((it) => isCard(it) && cardIsAvailable(it as FileListCard, lang) && (!setId || (it as FileListCard).parent.data.id === setId)) as Array<FileListCard>)
+		.map<[string, FileListCard]>((it) => [getLocalId(it), it])
+	return cards
 	// Sort by id when possible
-	return list.sort(([a], [b]) => {
+	return cards.sort(([a], [b]) => {
 		const ra = parseInt(a, 10)
 		const rb = parseInt(b, 10)
 		if (!isNaN(ra) && !isNaN(rb)) {

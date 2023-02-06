@@ -29,7 +29,9 @@
 		311
 	],
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Plusle",
 		"en": "Plusle",

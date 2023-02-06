@@ -28,7 +28,9 @@
 		280
 	],
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Trasla",
 		"en": "Ralts",

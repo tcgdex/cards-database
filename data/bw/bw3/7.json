@@ -42,7 +42,9 @@
 		"fr": "Crabicoque"
 	},
 	"hp": 100,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Castellith",
 		"en": "Crustle",

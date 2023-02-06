@@ -28,7 +28,9 @@
 		387
 	],
 	"hp": 60,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Turtwig",
 		"fr": "Tortipouss"

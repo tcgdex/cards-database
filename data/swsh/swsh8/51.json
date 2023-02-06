@@ -39,7 +39,9 @@
 		"de": "Muschas"
 	},
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Austos",
 		"en": "Cloyster",

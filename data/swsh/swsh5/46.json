@@ -21,7 +21,9 @@
 		"en": "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
 	},
 	"hp": 60,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Sheinux",
 		"en": "Shinx",

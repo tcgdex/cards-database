@@ -29,7 +29,9 @@
 		"de": "Kamehaps"
 	},
 	"hp": 140,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Kamalm",
 		"en": "Drednaw",

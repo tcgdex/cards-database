@@ -48,7 +48,9 @@
 		"en": "Koffing"
 	},
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Weezing",
 		"fr": "Smogogo"

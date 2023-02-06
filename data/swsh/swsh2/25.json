@@ -61,7 +61,9 @@
 		"de": "Vulpix"
 	},
 	"hp": 120,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Vulnona",
 		"en": "Ninetales",

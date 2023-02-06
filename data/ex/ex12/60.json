@@ -38,7 +38,9 @@
 		"en": "Mysterious Fossil"
 	},
 	"hp": 70,
-	"illustrator": "Kenkichi Toyama",
+	"illustrator": [
+		"Kenkichi Toyama"
+	],
 	"name": {
 		"en": "Omanyte",
 		"fr": "Amonita"

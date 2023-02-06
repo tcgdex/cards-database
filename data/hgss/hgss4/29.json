@@ -45,7 +45,9 @@
 		"fr": "Roucoups"
 	},
 	"hp": 120,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Pidgeot",
 		"fr": "Roucarnage"

@@ -41,7 +41,9 @@
 		"fr": "Prinplouf"
 	},
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Empoleon",
 		"fr": "Pingoléon"

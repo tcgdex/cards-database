@@ -36,7 +36,9 @@
 		386
 	],
 	"hp": 70,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Deoxys",
 		"fr": "Deoxys"

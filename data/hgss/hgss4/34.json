@@ -40,7 +40,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Electrode",
 		"fr": "Electrode"

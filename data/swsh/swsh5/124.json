@@ -9,7 +9,9 @@
 		"pt": "Embaralhe até 5 cartas de Energia básica da sua pilha de descarte no seu baralho.",
 		"de": "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Energieaufbereitung",
 		"en": "Energy Recycler",

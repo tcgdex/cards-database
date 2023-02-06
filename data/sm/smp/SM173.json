@@ -71,7 +71,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 200,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Blitza GX",
 		"en": "Jolteon GX",

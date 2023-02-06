@@ -35,7 +35,9 @@
 		150
 	],
 	"hp": 180,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"en": "Mewtwo GX",
 		"fr": "Mewtwo-GX"

@@ -62,7 +62,9 @@
 		"de": "Trompeck"
 	},
 	"hp": 150,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Tukanon",
 		"en": "Toucannon",

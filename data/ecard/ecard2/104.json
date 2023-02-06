@@ -28,7 +28,9 @@
 		54
 	],
 	"hp": 50,
-	"illustrator": "Keiko Fukuyama",
+	"illustrator": [
+		"Keiko Fukuyama"
+	],
 	"name": {
 		"en": "Psyduck",
 		"fr": "Psykokwak"

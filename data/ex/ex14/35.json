@@ -40,7 +40,9 @@
 		"en": "Bulbasaur"
 	},
 	"hp": 70,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Ivysaur",
 		"fr": "Herbizarre"

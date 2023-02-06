@@ -32,7 +32,9 @@
 		415
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Combee",
 		"fr": "Apitrini"

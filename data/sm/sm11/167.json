@@ -43,7 +43,9 @@
 		287
 	],
 	"hp": 50,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Bummelz",
 		"en": "Slakoth",

@@ -17,7 +17,9 @@
 	"dexId": [
 		493
 	],
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Arceus LV. X",
 		"fr": "Arceus"

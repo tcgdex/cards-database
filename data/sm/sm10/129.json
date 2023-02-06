@@ -46,7 +46,9 @@
 		"fr": "Meltan"
 	},
 	"hp": 150,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Melmetal",
 		"en": "Melmetal",

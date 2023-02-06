@@ -37,7 +37,9 @@
 		296
 	],
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Makuhita",
 		"fr": "Makuhita"

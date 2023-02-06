@@ -46,7 +46,9 @@
 		203
 	],
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Girafarig",
 		"en": "Girafarig",

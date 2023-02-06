@@ -48,7 +48,9 @@
 		"fr": "Larvibule"
 	},
 	"hp": 80,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Akkup",
 		"en": "Charjabug",

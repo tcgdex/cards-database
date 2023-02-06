@@ -37,7 +37,9 @@
 		"en": "Mysterious Fossil"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Omanyte δ",
 		"fr": "Amonita δ ESPÈCES DELTA"

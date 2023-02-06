@@ -35,7 +35,9 @@
 	"evolveFrom": {
 		"en": "Pikachu"
 	},
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Raichu"
 	},

@@ -25,7 +25,9 @@
 		827
 	],
 	"hp": 70,
-	"illustrator": "Hasegawa Saki",
+	"illustrator": [
+		"Hasegawa Saki"
+	],
 	"name": {
 		"de": "Kleptifux",
 		"en": "Nickit",

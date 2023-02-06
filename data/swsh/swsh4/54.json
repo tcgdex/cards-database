@@ -44,7 +44,9 @@
 		"de": "Elezeba"
 	},
 	"hp": 110,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Zebritz",
 		"en": "Zebstrika",

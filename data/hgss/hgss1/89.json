@@ -6,7 +6,9 @@
 		"en": "Draw 2 cards."
 	},
 	"hp": 0,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Bill",
 		"fr": "Leo"

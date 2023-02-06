@@ -9,7 +9,9 @@
 		"pt": "Cada Pokémon Básico em jogo, na mão de cada jogador e na pilha de descarte de cada jogador não possui Habilidades.",
 		"de": "Jedes Basis-Pokémon im Spiel, auf der Hand beider Spieler und im Ablagestapel beider Spieler hat keine Fähigkeit."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Silentiumlabor",
 		"en": "Silent Lab",

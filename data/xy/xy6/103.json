@@ -52,7 +52,9 @@
 		635
 	],
 	"hp": 180,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Trikephalo EX",
 		"en": "Hydreigon EX",

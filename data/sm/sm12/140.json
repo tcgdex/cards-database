@@ -50,7 +50,9 @@
 		303
 	],
 	"hp": 70,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Flunkifer",
 		"en": "Mawile",

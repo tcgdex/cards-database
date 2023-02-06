@@ -42,7 +42,9 @@
 		"en": "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating."
 	},
 	"hp": 80,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Sichlor",
 		"en": "Scyther",

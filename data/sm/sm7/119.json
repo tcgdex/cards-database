@@ -52,7 +52,9 @@
 		"fr": "Ramboum"
 	},
 	"hp": 150,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Krawumms",
 		"en": "Exploud",

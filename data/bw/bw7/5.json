@@ -32,7 +32,9 @@
 		114
 	],
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Tangela",
 		"en": "Tangela",

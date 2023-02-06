@@ -41,7 +41,9 @@
 		"fr": "Vigoroth"
 	},
 	"hp": 150,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Slaking",
 		"fr": "Monaflemit"

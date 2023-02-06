@@ -21,7 +21,9 @@
 		"en": "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off."
 	},
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Paras",
 		"en": "Paras",

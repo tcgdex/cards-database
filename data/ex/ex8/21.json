@@ -40,7 +40,9 @@
 		"en": "Wingull"
 	},
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Pelipper",
 		"fr": "Bekipan"

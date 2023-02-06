@@ -47,7 +47,9 @@
 		"fr": "Skitty"
 	},
 	"hp": 90,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Enekoro",
 		"en": "Delcatty",

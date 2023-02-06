@@ -42,7 +42,9 @@
 		"fr": "Fossile Inconnu"
 	},
 	"hp": 90,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Anorith",
 		"en": "Anorith",

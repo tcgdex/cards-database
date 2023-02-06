@@ -15,7 +15,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Lucario V",
 		"en": "Lucario V",

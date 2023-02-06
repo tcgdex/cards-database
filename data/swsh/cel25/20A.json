@@ -18,7 +18,9 @@
 		"en": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
 	},
 	"hp": 30,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Cleffa"
 	},

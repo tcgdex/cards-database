@@ -29,7 +29,9 @@
 		"de": "Habitak"
 	},
 	"hp": 90,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Ibitak",
 		"en": "Fearow",

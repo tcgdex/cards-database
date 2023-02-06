@@ -49,7 +49,9 @@
 		479
 	],
 	"hp": 80,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"en": "Heat Rotom",
 		"fr": "Motisma Chaleur Niv. 46"

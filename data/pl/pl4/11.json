@@ -34,7 +34,9 @@
 	"evolveFrom": {
 		"en": "Croagunk"
 	},
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Toxicroak"
 	},

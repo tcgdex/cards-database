@@ -56,7 +56,9 @@
 		483
 	],
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Dialga",
 		"en": "Dialga",

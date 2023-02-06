@@ -24,7 +24,9 @@
 		206
 	],
 	"hp": 30,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Dunsparce",
 		"fr": "Insolourdo"

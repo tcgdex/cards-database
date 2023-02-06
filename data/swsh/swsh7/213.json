@@ -40,7 +40,9 @@
 		"de": "Wolwerock-V"
 	},
 	"hp": 320,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Wolwerock VMAX",
 		"en": "Lycanroc VMAX",

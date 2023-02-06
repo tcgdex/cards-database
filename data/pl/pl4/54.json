@@ -28,7 +28,9 @@
 	"dexId": [
 		436
 	],
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Bronzor"
 	},

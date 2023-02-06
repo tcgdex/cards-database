@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Placez une carte Évolution de votre main devant vous, face cachée. Votre adversaire doit deviner s'il s'agit d'une carte Pokémon lumineux, Pokémon obscur ou ni l'une ni l'autre. Retournez la carte. Si votre adversaire a vu juste, il pioche 3 cartes. S'il s'est trompé, vous piochez 3 cartes. Dans tous les cas, replacez la carte dans votre main."
 	},
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Pokémon Personality Test",
 		"fr": "Test de personnalité des Pokémon"

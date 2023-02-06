@@ -63,7 +63,9 @@
 		"de": "Kickerlo"
 	},
 	"hp": 170,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Liberlo",
 		"en": "Cinderace",

@@ -52,7 +52,9 @@
 		717
 	],
 	"hp": 110,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Yveltal",
 		"en": "Yveltal",

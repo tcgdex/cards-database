@@ -41,7 +41,9 @@
 		"en": "Chikorita"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Bayleef",
 		"fr": "Macronium"

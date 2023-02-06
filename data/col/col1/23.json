@@ -36,7 +36,9 @@
 		"en": "Flaaffy"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Ampharos"
 	},

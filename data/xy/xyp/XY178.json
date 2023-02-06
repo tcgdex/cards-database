@@ -32,7 +32,9 @@
 		359
 	],
 	"hp": 100,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"en": "Absol"
 	},

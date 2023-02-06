@@ -21,7 +21,9 @@
 		151
 	],
 	"hp": 50,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Mew",
 		"fr": "Mew"

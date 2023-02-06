@@ -49,7 +49,9 @@
 		"en": "Skitty"
 	},
 	"hp": 90,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Delcatty ex",
 		"fr": "Delcatty ex"

@@ -55,7 +55,9 @@
 		"de": "Leufeo"
 	},
 	"hp": 130,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Pyroleo",
 		"en": "Pyroar",

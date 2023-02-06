@@ -29,7 +29,9 @@
 		"en": "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest."
 	},
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Skallyk",
 		"en": "Vullaby",

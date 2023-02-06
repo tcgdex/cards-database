@@ -49,7 +49,9 @@
 		479
 	],
 	"hp": 70,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Rotom",
 		"en": "Rotom",

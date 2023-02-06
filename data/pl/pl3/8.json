@@ -38,7 +38,9 @@
 		384
 	],
 	"hp": 100,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Rayquaza C",
 		"fr": "Rayquaza "

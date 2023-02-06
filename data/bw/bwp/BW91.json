@@ -41,7 +41,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 90,
-	"illustrator": "Illus.＆Direc.The Pokémon Company Art Team",
+	"illustrator": [
+		"Illus.＆Direc.The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Jolteon",
 		"fr": "Voltali"

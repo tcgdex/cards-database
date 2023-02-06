@@ -53,7 +53,9 @@
 		"fr": "Apitrini"
 	},
 	"hp": 100,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Vespiquen",
 		"fr": "Apireine"

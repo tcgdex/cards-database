@@ -36,7 +36,9 @@
 		631
 	],
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Furnifraß",
 		"en": "Heatmor",

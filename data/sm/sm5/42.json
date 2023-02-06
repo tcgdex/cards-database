@@ -50,7 +50,9 @@
 		490
 	],
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Manaphy",
 		"en": "Manaphy",

@@ -36,7 +36,9 @@
 		143
 	],
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

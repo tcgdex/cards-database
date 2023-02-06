@@ -73,7 +73,9 @@
 		"de": "Panekon"
 	},
 	"hp": 130,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Pudox",
 		"en": "Dustox",

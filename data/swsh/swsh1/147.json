@@ -61,7 +61,9 @@
 		"de": "Picochilla"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Chillabell",
 		"en": "Cinccino",

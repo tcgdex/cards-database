@@ -35,7 +35,9 @@
 		132
 	],
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Ditto",
 		"fr": "Metamorph"

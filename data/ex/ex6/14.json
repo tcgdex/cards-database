@@ -38,7 +38,9 @@
 		"en": "Slowpoke"
 	},
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Slowbro",
 		"fr": "Flagadoss"

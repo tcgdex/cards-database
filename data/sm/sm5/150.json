@@ -9,7 +9,9 @@
 		"pt": "Cure 50 pontos de dano de cada um dos seus Pokémon que tiver alguma Energia Water ligada a ele.",
 		"de": "Heile 50 Schadenspunkte bei jedem deiner Pokémon, an das mindestens 1 Water-Energie angelegt ist."
 	},
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Tracy",
 		"en": "Lana",

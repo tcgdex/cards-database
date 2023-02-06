@@ -52,7 +52,9 @@
 		"de": "Trasla"
 	},
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Kirlia",
 		"en": "Kirlia",

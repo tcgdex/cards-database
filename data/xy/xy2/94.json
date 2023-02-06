@@ -9,7 +9,9 @@
 		"pt": "Procure no seu baralho até 2 Pokémon Básicos, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Pokémon Fan Club",
 		"en": "Pokémon Fan Club",

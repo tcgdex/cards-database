@@ -55,7 +55,9 @@
 		"fr": "Smogo"
 	},
 	"hp": 120,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Smogmog",
 		"en": "Weezing",

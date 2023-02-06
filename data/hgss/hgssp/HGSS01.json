@@ -30,7 +30,9 @@
 		250
 	],
 	"hp": 100,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Ho-Oh"
 	},

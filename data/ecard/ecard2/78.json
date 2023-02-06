@@ -21,7 +21,9 @@
 		118
 	],
 	"hp": 40,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Goldeen",
 		"fr": "Poissirène"

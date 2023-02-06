@@ -29,7 +29,9 @@
 		175
 	],
 	"hp": 50,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Togepi",
 		"en": "Togepi",

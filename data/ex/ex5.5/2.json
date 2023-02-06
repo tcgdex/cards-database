@@ -32,7 +32,9 @@
 		265
 	],
 	"hp": 50,
-	"illustrator": "Katie Gross",
+	"illustrator": [
+		"Katie Gross"
+	],
 	"name": {
 		"en": "Wurmple"
 	},

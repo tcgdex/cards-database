@@ -1,9 +1,9 @@
 /* eslint-disable max-statements */
 import { FileFunction } from './compilerInterfaces'
 import { promises as fs } from 'fs'
-import { fetchRemoteFile, getTree } from './utils/util'
-import { objectValues } from '@dzeio/object-util'
-import { Serie, SupportedLanguages } from '../../interfaces'
+import { fetchRemoteFile, loadDatabase } from './utils/util'
+import { objectClone, objectValues } from '@dzeio/object-util'
+import { Serie, SupportedLanguages } from '../../meta/definitions/database'
 
 const LANGS: Array<SupportedLanguages> = ['en', 'fr', 'es', 'it', 'pt', 'de']
 
@@ -25,10 +25,6 @@ process.env.DEBUG = 'true'
 
 
 	console.log('Let\'s GO !')
-
-	console.log(
-		await getTree())
-	process.exit(0)
 
 	// Process each languages
 	for await (const lang of LANGS) {

@@ -45,7 +45,9 @@
 		"en": "Chansey"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Heiteira",
 		"en": "Blissey",

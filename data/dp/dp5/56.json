@@ -32,7 +32,9 @@
 		390
 	],
 	"hp": 40,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Chimchar",
 		"fr": "Ouisticram"

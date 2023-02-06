@@ -37,7 +37,9 @@
 		"en": "Psyduck"
 	},
 	"hp": 70,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Dark Golduck"
 	},

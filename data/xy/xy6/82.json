@@ -29,7 +29,9 @@
 		661
 	],
 	"hp": 40,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Dartiri",
 		"en": "Fletchling",

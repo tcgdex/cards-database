@@ -45,7 +45,9 @@
 		"fr": "Rhinocorne"
 	},
 	"hp": 90,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Rhydon",
 		"fr": "Rhinoféros"

@@ -43,7 +43,9 @@
 		"fr": "Pifeuil"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Shiftry",
 		"fr": "Tengalice"

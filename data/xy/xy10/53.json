@@ -54,7 +54,9 @@
 		718
 	],
 	"hp": 120,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Zygarde",
 		"en": "Zygarde",

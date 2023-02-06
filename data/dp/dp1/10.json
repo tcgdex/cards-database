@@ -40,7 +40,9 @@
 		"fr": "Feuforêve"
 	},
 	"hp": 90,
-	"illustrator": "Mikiko Takeda",
+	"illustrator": [
+		"Mikiko Takeda"
+	],
 	"name": {
 		"en": "Mismagius",
 		"fr": "Magirêve"

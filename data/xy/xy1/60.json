@@ -45,7 +45,9 @@
 		111
 	],
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Rihorn",
 		"en": "Rhyhorn",

@@ -41,7 +41,9 @@
 		88
 	],
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Alola-Sleima",
 		"en": "Alolan Grimer",

@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Choisissez 1 de vos Pokémon. Lancez 2 pièces. Retirez de ce Pokémon 2 marqueurs de dégâts multipliés par le nombre de faces. Si le Pokémon a moins de marqueurs de dégâts, retirez-les tous."
 	},
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Moo-Moo Milk",
 		"fr": "Lait Meumeu"

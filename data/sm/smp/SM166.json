@@ -59,7 +59,9 @@
 		129
 	],
 	"hp": 300,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Karpador & Wailord GX",
 		"en": "Magikarp & Wailord GX",

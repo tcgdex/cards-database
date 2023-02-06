@@ -53,7 +53,9 @@
 		379
 	],
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Registeel",
 		"en": "Registeel",

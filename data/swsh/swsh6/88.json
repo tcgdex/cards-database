@@ -49,7 +49,9 @@
 		"en": "Passimian live in groups of about 20, with each member performing an assigned role. Through cooperation, the group survives."
 	},
 	"hp": 110,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Quartermak",
 		"en": "Passimian",

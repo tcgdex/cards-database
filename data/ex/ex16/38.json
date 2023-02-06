@@ -41,7 +41,9 @@
 		"en": "Carvanha"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Sharpedo",
 		"fr": "Sharpedo"

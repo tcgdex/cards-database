@@ -50,7 +50,9 @@
 		225
 	],
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Botogel",
 		"en": "Delibird",

@@ -31,7 +31,9 @@
 		325
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Spoink",
 		"fr": "Spoink"

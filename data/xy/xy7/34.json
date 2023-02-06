@@ -30,7 +30,9 @@
 		622
 	],
 	"hp": 90,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Golbit",
 		"en": "Golett",

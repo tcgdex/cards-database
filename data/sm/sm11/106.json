@@ -70,7 +70,9 @@
 		"fr": "Fossile Inconnu"
 	},
 	"hp": 210,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Aerodactyl GX",
 		"en": "Aerodactyl GX",

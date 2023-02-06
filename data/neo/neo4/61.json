@@ -24,7 +24,9 @@
 		155
 	],
 	"hp": 40,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Cyndaquil",
 		"fr": "Héricendre"

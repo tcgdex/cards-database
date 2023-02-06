@@ -32,7 +32,9 @@
 		25
 	],
 	"hp": 30,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Pikachu"
 	},

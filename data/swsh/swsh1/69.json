@@ -56,7 +56,9 @@
 		"de": "Lampi"
 	},
 	"hp": 120,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Lanturn",
 		"en": "Lanturn",

@@ -49,7 +49,9 @@
 		"en": "Silicobra"
 	},
 	"hp": 140,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Sanaconda",
 		"en": "Sandaconda",

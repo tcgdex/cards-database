@@ -33,7 +33,9 @@
 		"fr": "Mélofée"
 	},
 	"hp": 110,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Pixi",
 		"en": "Clefable",

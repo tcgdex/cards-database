@@ -41,7 +41,9 @@
 		"fr": "Reptincel"
 	},
 	"hp": 160,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Charizard",
 		"fr": "Dracaufeu"

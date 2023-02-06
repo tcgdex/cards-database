@@ -36,7 +36,9 @@
 		"en": "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying."
 	},
 	"hp": 70,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Tragosso",
 		"en": "Cubone",

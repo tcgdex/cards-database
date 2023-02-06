@@ -39,7 +39,9 @@
 		"de": "Fliegendes Pikachu-V"
 	},
 	"hp": 310,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Fliegendes Pikachu VMAX",
 		"en": "Flying Pikachu VMAX",

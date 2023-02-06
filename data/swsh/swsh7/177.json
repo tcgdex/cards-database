@@ -52,7 +52,9 @@
 		135
 	],
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Blitza V",
 		"en": "Jolteon V",

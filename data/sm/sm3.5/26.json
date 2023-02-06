@@ -51,7 +51,9 @@
 		647
 	],
 	"hp": 110,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Keldeo",
 		"en": "Keldeo",

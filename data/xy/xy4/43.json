@@ -59,7 +59,9 @@
 		"de": "Laternecto"
 	},
 	"hp": 130,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Skelabra",
 		"en": "Chandelure",

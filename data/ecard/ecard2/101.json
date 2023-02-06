@@ -38,7 +38,9 @@
 		127
 	],
 	"hp": 60,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Pinsir",
 		"fr": "Scarabrute"

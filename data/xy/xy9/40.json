@@ -59,7 +59,9 @@
 		"de": "Amphizel"
 	},
 	"hp": 130,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Quajutsu",
 		"en": "Greninja",

@@ -38,7 +38,9 @@
 		"fr": "Feuillajou"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Vegichita",
 		"en": "Simisage",

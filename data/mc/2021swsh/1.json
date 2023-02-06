@@ -20,7 +20,9 @@
 		1
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Bulbasaur"
 	},

@@ -37,7 +37,9 @@
 		"en": "Quilava"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Typhlosion",
 		"fr": "Typhlosion obscur"

@@ -52,7 +52,9 @@
 		39
 	],
 	"hp": 240,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Mega-Schlapor & Pummeluff GX",
 		"en": "Mega Lopunny & Jigglypuff GX",

@@ -33,7 +33,9 @@
 	"evolveFrom": {
 		"en": "Burmy Trash Cloak"
 	},
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Wormadam Trash Cloak"
 	},

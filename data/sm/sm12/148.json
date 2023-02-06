@@ -55,7 +55,9 @@
 		"fr": "Doudouvet"
 	},
 	"hp": 70,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Elfun",
 		"en": "Whimsicott",

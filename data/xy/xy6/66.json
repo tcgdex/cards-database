@@ -54,7 +54,9 @@
 		"de": "Habitak"
 	},
 	"hp": 100,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Ibitak",
 		"en": "Fearow",

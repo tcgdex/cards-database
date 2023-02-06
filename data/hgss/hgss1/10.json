@@ -43,7 +43,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Raichu",
 		"fr": "Raichu"

@@ -42,7 +42,9 @@
 		"en": "One alone can emit only trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
 	},
 	"hp": 40,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Zapplardin",
 		"en": "Tynamo",

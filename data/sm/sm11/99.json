@@ -41,7 +41,9 @@
 		"fr": "Tritox"
 	},
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Amfira",
 		"en": "Salazzle",

@@ -57,7 +57,9 @@
 		"fr": "Gloupti"
 	},
 	"hp": 120,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Schlukwech",
 		"en": "Swalot",

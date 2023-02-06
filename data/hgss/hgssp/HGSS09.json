@@ -35,7 +35,9 @@
 		"en": "Quilava"
 	},
 	"hp": 140,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Typhlosion"
 	},

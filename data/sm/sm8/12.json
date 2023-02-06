@@ -21,7 +21,9 @@
 		187
 	],
 	"hp": 40,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Hoppspross",
 		"en": "Hoppip",

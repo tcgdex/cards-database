@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Placez 1 carte Énergie spéciale attachée à l’un des Pokémon de votre adversaire dans la Zone Perdue."
 	},
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Lost Remover",
 		"fr": "Nettoyeur perdu"

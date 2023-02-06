@@ -9,7 +9,9 @@
 		"pt": "O Pokémon Estágio 1 ao qual esta carta está ligada recebe 40 PS a mais.",
 		"de": "Das Phase-1-Pokémon, an das diese Karte angelegt ist, erhält 40 KP mehr."
 	},
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Bodybuilding-Hanteln",
 		"en": "Bodybuilding Dumbbells",

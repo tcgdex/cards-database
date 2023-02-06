@@ -77,7 +77,9 @@
 		"fr": "Zorua"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Zoroark GX",
 		"en": "Zoroark GX",

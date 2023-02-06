@@ -56,7 +56,9 @@
 		"de": "Celebi-V"
 	},
 	"hp": 310,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Celebi VMAX",
 		"en": "Celebi VMAX",

@@ -28,7 +28,9 @@
 		"en": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
 	},
 	"hp": 30,
-	"illustrator": "kanahei",
+	"illustrator": [
+		"kanahei"
+	],
 	"name": {
 		"de": "Karpador",
 		"en": "Magikarp",

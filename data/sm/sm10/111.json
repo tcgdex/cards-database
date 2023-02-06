@@ -56,7 +56,9 @@
 		"fr": "Carvanha"
 	},
 	"hp": 110,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Tohaido",
 		"en": "Sharpedo",

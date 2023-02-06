@@ -53,7 +53,9 @@
 		6
 	],
 	"hp": 270,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Glurak & Rutena GX",
 		"en": "Charizard & Braixen GX",

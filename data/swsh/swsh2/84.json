@@ -59,7 +59,9 @@
 		"de": "Brimova"
 	},
 	"hp": 80,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Brimano",
 		"en": "Hattrem",

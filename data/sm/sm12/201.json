@@ -9,7 +9,9 @@
 		"pt": "",
 		"de": ""
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Professor Eichs Vorbereitung",
 		"en": "Professor Oak’s Setup",

@@ -56,7 +56,9 @@
 		"de": "Hippopotas"
 	},
 	"hp": 150,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Hippoterus",
 		"en": "Hippowdon",

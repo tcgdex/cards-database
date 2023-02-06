@@ -62,7 +62,9 @@
 		"de": "Nidorina"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Nidoqueen",
 		"en": "Nidoqueen",

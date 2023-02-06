@@ -9,7 +9,9 @@
 		"pt": "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se M-Audino-EX.",
 		"de": "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu M-Ohrdoch-EX wird."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Ohrdochs Geistesbund",
 		"en": "Audino Spirit Link",

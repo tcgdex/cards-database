@@ -51,7 +51,9 @@
 		715
 	],
 	"hp": 200,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "UHaFnir V",
 		"en": "Noivern V",

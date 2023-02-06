@@ -41,7 +41,9 @@
 		"de": "Wattzapf"
 	},
 	"hp": 100,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Voltula",
 		"en": "Galvantula",

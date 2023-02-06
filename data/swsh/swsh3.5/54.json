@@ -9,7 +9,9 @@
 		"pt": "Cure 120 pontos de dano de 1 dos seus Pokémon que tiver pelo menos 2 Energias ligadas a ele. Se você curou qualquer dano desta forma, descarte 2 Energias daquele Pokémon.",
 		"de": "Heile 120 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 2 Energien angelegt sind. Wenn du auf diese Weise Schaden geheilt hast, lege 2 Energien von jenem Pokémon auf deinen Ablagestapel."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Hypertrank",
 		"en": "Hyper Potion",

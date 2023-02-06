@@ -24,7 +24,9 @@
 		236
 	],
 	"hp": 30,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Tyrogue",
 		"fr": "Débugant"

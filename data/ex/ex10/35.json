@@ -36,7 +36,9 @@
 		"en": "Chikorita"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Bayleef",
 		"fr": "Macronium"

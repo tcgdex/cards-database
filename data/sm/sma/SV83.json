@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Ajoutez 4 cartes Énergie de base de votre pile de défausse à votre main."
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Fisherman",
 		"fr": "Pêcheur"

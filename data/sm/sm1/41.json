@@ -58,7 +58,9 @@
 		"fr": "Otarlette"
 	},
 	"hp": 150,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Primarene",
 		"en": "Primarina",

@@ -28,7 +28,9 @@
 		111
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Rhyhorn",
 		"fr": "Rhinocorne"

@@ -68,7 +68,9 @@
 		448
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Lucario EX",
 		"en": "Lucario EX",

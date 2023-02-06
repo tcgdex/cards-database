@@ -22,7 +22,9 @@
 		"fr": "Sorbébé"
 	},
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Gelatroppo",
 		"en": "Vanillish",

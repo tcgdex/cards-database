@@ -31,7 +31,9 @@
 		"en": "Because the eggs on their bellies have been overharvested by people in the past, the Chansey population remains very small."
 	},
 	"hp": 110,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Chaneira",
 		"en": "Chansey",

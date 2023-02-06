@@ -9,7 +9,9 @@
 		"pt": "Descarte todos os cards de Ferramenta Pokémon ligados aos Pokémon do oponente.",
 		"de": "Lege alle an gegnerische Pokémon angelegte Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Schock-Megafon",
 		"en": "Startling Megaphone",

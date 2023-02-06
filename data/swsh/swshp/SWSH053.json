@@ -61,7 +61,9 @@
 		"fr": "Machopeur"
 	},
 	"hp": 170,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Machomei",
 		"en": "Machamp",

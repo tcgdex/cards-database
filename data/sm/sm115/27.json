@@ -40,7 +40,9 @@
 		"fr": "Abo"
 	},
 	"hp": 120,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Arbok",
 		"fr": "Arbok"

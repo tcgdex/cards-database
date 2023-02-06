@@ -47,7 +47,9 @@
 		"fr": "Taupiqueur d’Alola"
 	},
 	"hp": 80,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Alola-Digdri",
 		"en": "Alolan Dugtrio",

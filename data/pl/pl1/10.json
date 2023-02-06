@@ -48,7 +48,9 @@
 		487
 	],
 	"hp": 100,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Giratina",
 		"fr": "Giratina"

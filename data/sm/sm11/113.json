@@ -40,7 +40,9 @@
 		"fr": "Griknot"
 	},
 	"hp": 90,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Knarksel",
 		"en": "Gabite",

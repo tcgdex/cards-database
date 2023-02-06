@@ -9,7 +9,9 @@
 		"pt": "Ligue um card de Energia Darkness da sua pilha de descarte a 1 dos seus Pokémon Darkness no Banco.",
 		"de": "Lege 1 Darkness-Basis-Energiekarte von deinem Ablagestapel an 1 Darkness-Pokémon auf deiner Bank an."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Finsterpflaster",
 		"en": "Dark Patch",

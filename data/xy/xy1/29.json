@@ -54,7 +54,9 @@
 		9
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Turtok EX",
 		"en": "Blastoise EX",

@@ -48,7 +48,9 @@
 		"en": "Pineco"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Forretress"
 	},

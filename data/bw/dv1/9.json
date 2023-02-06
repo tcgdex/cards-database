@@ -35,7 +35,9 @@
 		380
 	],
 	"hp": 100,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Latias",
 		"fr": "Latias"

@@ -52,7 +52,9 @@
 		386
 	],
 	"hp": 130,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Deoxys",
 		"en": "Deoxys",

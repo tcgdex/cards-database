@@ -38,7 +38,9 @@
 		226
 	],
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Mantine",
 		"fr": "Demanta"

@@ -52,7 +52,9 @@
 		197
 	],
 	"hp": 270,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Nachtara & Darkrai GX",
 		"en": "Umbreon & Darkrai GX",

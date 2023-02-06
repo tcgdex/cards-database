@@ -29,7 +29,9 @@
 		"en": "It gathers things it likes and passes them through its loop to teleport them to a secret place."
 	},
 	"hp": 120,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Hoopa",
 		"en": "Hoopa",

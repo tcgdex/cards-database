@@ -55,7 +55,9 @@
 		"fr": "Nosferapti"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Golbat",
 		"en": "Golbat",

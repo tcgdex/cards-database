@@ -56,7 +56,9 @@
 		"fr": "Zorua"
 	},
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Zoroark",
 		"en": "Zoroark",

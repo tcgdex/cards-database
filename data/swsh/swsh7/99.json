@@ -57,7 +57,9 @@
 		"de": "Zurrokex"
 	},
 	"hp": 120,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Irokex",
 		"en": "Scrafty",

@@ -57,7 +57,9 @@
 		"de": "Mebrana"
 	},
 	"hp": 170,
-	"illustrator": "Pani Kobayashi",
+	"illustrator": [
+		"Pani Kobayashi"
+	],
 	"name": {
 		"de": "Branawarz",
 		"en": "Seismitoad",

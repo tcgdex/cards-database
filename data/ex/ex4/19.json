@@ -36,7 +36,9 @@
 		323
 	],
 	"hp": 80,
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Team Magma's Camerupt",
 		"fr": "Camerupt de Team Magma"

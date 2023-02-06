@@ -54,7 +54,9 @@
 		"de": "Krakeelo"
 	},
 	"hp": 160,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Krawumms",
 		"en": "Exploud",

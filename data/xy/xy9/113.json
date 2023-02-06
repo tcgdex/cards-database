@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Water-Pokémon angelegt werden. Diese Karte liefert nur dann Water-Energie, wenn sie an ein Water-Pokémon angelegt ist. Nimm das Water-Pokémon, an das diese Karte angelegt ist, auf deine Hand, wenn es durch Schaden eines gegnerischen Angriffs kampfunfähig wird. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.)(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Water-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Platsch-Energie",
 		"en": "Splash Energy",

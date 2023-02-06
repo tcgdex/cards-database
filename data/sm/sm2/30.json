@@ -60,7 +60,9 @@
 		"fr": "Wailmer"
 	},
 	"hp": 200,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Wailord",
 		"en": "Wailord",

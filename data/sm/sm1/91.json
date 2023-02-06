@@ -57,7 +57,9 @@
 		"fr": "Snubbull"
 	},
 	"hp": 110,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Granbull",
 		"en": "Granbull",

@@ -62,7 +62,9 @@
 		"de": "Duodino"
 	},
 	"hp": 150,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Trikephalo",
 		"en": "Hydreigon",

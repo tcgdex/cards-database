@@ -40,7 +40,9 @@
 		"fr": "Chimpenfeu"
 	},
 	"hp": 100,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Infernape",
 		"fr": "Simiabraz"

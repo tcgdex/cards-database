@@ -41,7 +41,9 @@
 		"fr": "Pifeuil"
 	},
 	"hp": 140,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"en": "Shiftry",
 		"fr": "Tengalice"

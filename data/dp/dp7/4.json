@@ -48,7 +48,9 @@
 		"fr": "Ecayon"
 	},
 	"hp": 80,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Lumineon",
 		"fr": "Luminéon"

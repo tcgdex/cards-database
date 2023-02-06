@@ -41,7 +41,9 @@
 		"en": "Kirlia"
 	},
 	"hp": 150,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Gardevoir ex",
 		"fr": "Gardevoir ex"

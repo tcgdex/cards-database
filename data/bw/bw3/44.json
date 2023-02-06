@@ -21,7 +21,9 @@
 		562
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Makabaja",
 		"en": "Yamask",

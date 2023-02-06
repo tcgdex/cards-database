@@ -29,7 +29,9 @@
 		371
 	],
 	"hp": 60,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Kindwurm",
 		"en": "Bagon",

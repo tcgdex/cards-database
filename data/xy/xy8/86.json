@@ -30,7 +30,9 @@
 		674
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Pam-Pam",
 		"en": "Pancham",

@@ -42,7 +42,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "D.A.G Inc.",
+	"illustrator": [
+		"D.A.G Inc."
+	],
 	"name": {
 		"de": "Schimmelreiter-Coronospa V",
 		"en": "Ice Rider Calyrex V",

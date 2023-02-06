@@ -46,7 +46,9 @@
 		"fr": "Larveyette"
 	},
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Folikon",
 		"en": "Swadloon",

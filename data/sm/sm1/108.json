@@ -58,7 +58,9 @@
 		"fr": "Piclairon"
 	},
 	"hp": 140,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Tukanon",
 		"en": "Toucannon",

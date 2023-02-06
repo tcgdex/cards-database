@@ -52,7 +52,9 @@
 		"de": "Kranoviz"
 	},
 	"hp": 160,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Krarmor",
 		"en": "Corviknight",

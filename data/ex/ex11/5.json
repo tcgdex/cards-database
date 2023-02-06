@@ -40,7 +40,9 @@
 		"en": "Eevee"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Flareon δ",
 		"fr": "Pyroli δ ESPÈCES DELTA"

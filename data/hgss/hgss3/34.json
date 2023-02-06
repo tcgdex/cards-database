@@ -42,7 +42,9 @@
 		"fr": "Rattata"
 	},
 	"hp": 80,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Raticate",
 		"fr": "Rattatac"

@@ -51,7 +51,9 @@
 		"fr": "Teddiursa"
 	},
 	"hp": 140,
-	"illustrator": "Hiroki Asanuma",
+	"illustrator": [
+		"Hiroki Asanuma"
+	],
 	"name": {
 		"de": "Ursaring",
 		"en": "Ursaring",

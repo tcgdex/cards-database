@@ -38,7 +38,9 @@
 		"en": "Cacnea"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Cacturne",
 		"fr": "Cacturne"

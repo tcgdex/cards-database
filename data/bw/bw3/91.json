@@ -9,7 +9,9 @@
 		"pt": "Se este card estiver ligado a um Pokémon Básico, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, ein Basis-Pokémon ist, wird der diesem Pokémon durch Angriffe zugefügte Schaden um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Evolith",
 		"en": "Eviolite",

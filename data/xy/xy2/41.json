@@ -53,7 +53,9 @@
 		454
 	],
 	"hp": 170,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Toxiquak EX",
 		"en": "Toxicroak EX",

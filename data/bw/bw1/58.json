@@ -18,7 +18,9 @@
 		532
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Praktibalk",
 		"en": "Timburr",

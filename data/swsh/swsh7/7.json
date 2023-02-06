@@ -52,7 +52,9 @@
 		470
 	],
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Folipurba V",
 		"en": "Leafeon V",

@@ -18,7 +18,9 @@
 		126
 	],
 	"hp": 90,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"en": "Magmar",
 		"fr": "Magmar"

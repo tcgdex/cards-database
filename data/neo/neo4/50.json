@@ -42,7 +42,9 @@
 		"en": "Vulpix"
 	},
 	"hp": 90,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Light Ninetales",
 		"fr": "Feunard lumineux"

@@ -43,7 +43,9 @@
 		"en": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon."
 	},
 	"hp": 60,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Piepi",
 		"en": "Clefairy",

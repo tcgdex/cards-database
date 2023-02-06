@@ -34,7 +34,9 @@
 		235
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Smeargle δ",
 		"fr": "Queulorior δ ESPÈCES DELTA"

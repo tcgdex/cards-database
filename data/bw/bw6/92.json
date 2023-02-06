@@ -40,7 +40,9 @@
 		487
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Giratina-EX",
 		"en": "Giratina-EX",

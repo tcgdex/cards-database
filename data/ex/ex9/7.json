@@ -41,7 +41,9 @@
 		"en": "Electrike"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Manectric",
 		"fr": "Elecsprint"

@@ -35,7 +35,9 @@
 		39
 	],
 	"hp": 60,
-	"illustrator": "Kenkichi Toyama",
+	"illustrator": [
+		"Kenkichi Toyama"
+	],
 	"name": {
 		"en": "Jigglypuff",
 		"fr": "Rondoudou"

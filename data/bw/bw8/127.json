@@ -10,7 +10,9 @@
 		"de": "Diese Karte liefert Colorless-Energie."
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Plasma-Energie",
 		"en": "Plasma Energy",

@@ -35,7 +35,9 @@
 		318
 	],
 	"hp": 50,
-	"illustrator": "Mt. TBT",
+	"illustrator": [
+		"Mt. TBT"
+	],
 	"name": {
 		"en": "Team Aqua's Carvanha",
 		"fr": "Carvanha de Team Aqua"

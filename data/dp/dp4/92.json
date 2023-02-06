@@ -35,7 +35,9 @@
 		313
 	],
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Volbeat",
 		"fr": "Muciole"

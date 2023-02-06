@@ -41,7 +41,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 230,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Gyarados GX",
 		"fr": "Léviator-GX"

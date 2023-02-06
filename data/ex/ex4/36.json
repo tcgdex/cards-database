@@ -33,7 +33,9 @@
 		305
 	],
 	"hp": 70,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Team Magma's Lairon",
 		"fr": "Galegon de Team Magma"

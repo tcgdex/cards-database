@@ -51,7 +51,9 @@
 		"de": "Psiau"
 	},
 	"hp": 90,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Psiaugon",
 		"en": "Meowstic",

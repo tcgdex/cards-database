@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas e cure 20 pontos de dano do seu Pokémon Ativo. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
 		"de": "Ziehe 2 Karten und heile 20 Schadenspunkte bei deinem Aktiven Pokémon. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
 	},
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Pokémon-Züchterin",
 		"en": "Pokémon Breeder",

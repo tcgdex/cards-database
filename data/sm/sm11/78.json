@@ -73,7 +73,9 @@
 		381
 	],
 	"hp": 170,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Latios GX",
 		"en": "Latios GX",

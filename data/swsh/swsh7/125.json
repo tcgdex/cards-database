@@ -46,7 +46,9 @@
 		133
 	],
 	"hp": 70,
-	"illustrator": "Atsushi Furusawa",
+	"illustrator": [
+		"Atsushi Furusawa"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

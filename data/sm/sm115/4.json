@@ -28,7 +28,9 @@
 		46
 	],
 	"hp": 70,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"en": "Paras",
 		"fr": "Paras"

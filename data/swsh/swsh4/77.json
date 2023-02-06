@@ -29,7 +29,9 @@
 		"en": "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
 	},
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Dedenne",
 		"en": "Dedenne",

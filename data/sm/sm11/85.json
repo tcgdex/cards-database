@@ -28,7 +28,9 @@
 		482
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Tobutz",
 		"en": "Azelf",

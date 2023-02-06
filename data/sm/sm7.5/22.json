@@ -50,7 +50,9 @@
 		158
 	],
 	"hp": 60,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"de": "Karnimani",
 		"en": "Totodile",

@@ -35,7 +35,9 @@
 		"en": "Porygon"
 	},
 	"hp": 80,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Porygon2"
 	},

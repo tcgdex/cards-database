@@ -31,7 +31,9 @@
 		363
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Spheal",
 		"fr": "Obalie Niv. 18"

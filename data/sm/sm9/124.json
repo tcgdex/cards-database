@@ -57,7 +57,9 @@
 		"fr": "Roucoups"
 	},
 	"hp": 130,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Tauboss",
 		"en": "Pidgeot",

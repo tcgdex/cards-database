@@ -61,7 +61,9 @@
 		"de": "Perlu"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Aalabyss",
 		"en": "Huntail",

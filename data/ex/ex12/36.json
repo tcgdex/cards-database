@@ -38,7 +38,9 @@
 		"en": "Mysterious Fossil"
 	},
 	"hp": 60,
-	"illustrator": "Takao Unno",
+	"illustrator": [
+		"Takao Unno"
+	],
 	"name": {
 		"en": "Kabuto",
 		"fr": "Kabuto"

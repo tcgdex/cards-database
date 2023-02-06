@@ -40,7 +40,9 @@
 		"fr": "Ouisticram"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Monferno",
 		"fr": "Chimpenfeu"

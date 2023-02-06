@@ -9,7 +9,9 @@
 		"pt": "Seu oponente revela a própria mão. Você pode fazer com que o seu oponente conte as cartas na própria mão, embaralhe aquelas cartas no baralho dele(a) e então compre aquele mesmo número de cartas.",
 		"de": "Dein Gegner zeigt dir seine Handkarten. Du kannst deinen Gegner dazu veranlassen, die Karten auf seiner Hand zu zählen, jene Karten in sein Deck zu mischen und anschließend dieselbe Anzahl Karten zu ziehen."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Rote Späher-Karte",
 		"en": "Peeking Red Card",

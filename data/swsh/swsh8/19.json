@@ -16,7 +16,9 @@
 		"en": "Dewpider normally lives underwater. When it comes onto land in search of food, it takes water with it in the form of a bubble on its head."
 	},
 	"hp": 50,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Araqua",
 		"en": "Dewpider",

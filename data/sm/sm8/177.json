@@ -9,7 +9,9 @@
 		"pt": "Previne todo o dano causado ao Pokémon Fairy ao qual esta carta está ligada por ataques dos Pokémon-GX Dragon e Pokémon-EX Dragon do seu oponente.",
 		"de": "Verhindere allen Schaden, der dem Fairy-Pokémon, an das diese Karte angelegt ist, durch Attacken von Dragon-Pokémon-GX und Dragon-Pokémon-EX deines Gegners zugefügt wird."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Feenschmuck Dragon",
 		"en": "Fairy Charm Dragon",

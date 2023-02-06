@@ -40,7 +40,9 @@
 		"fr": "Vibraninf"
 	},
 	"hp": 120,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Flygon",
 		"fr": "Libegon"

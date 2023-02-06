@@ -40,7 +40,9 @@
 		"fr": "Cheniti Cape Plante"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Wormadam Plant Cloak",
 		"fr": "Cheniselle Cape Plante"

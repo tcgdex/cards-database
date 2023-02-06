@@ -37,7 +37,9 @@
 		98
 	],
 	"hp": 70,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Krabby",
 		"en": "Krabby",

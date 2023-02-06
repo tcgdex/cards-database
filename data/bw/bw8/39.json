@@ -47,7 +47,9 @@
 		"fr": "Viskuse"
 	},
 	"hp": 100,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Apoquallyp",
 		"en": "Jellicent",

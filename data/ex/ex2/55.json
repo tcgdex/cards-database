@@ -37,7 +37,9 @@
 		"en": "Natu"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Xatu",
 		"fr": "Xatu"

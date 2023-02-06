@@ -37,7 +37,9 @@
 		384
 	],
 	"hp": 120,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Rayquaza",
 		"fr": "Rayquaza"

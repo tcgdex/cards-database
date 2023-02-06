@@ -30,7 +30,9 @@
 		"en": "From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away."
 	},
 	"hp": 70,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Skunkapuh",
 		"en": "Stunky",

@@ -33,7 +33,9 @@
 		"fr": "Coquiperl"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Saganabyss",
 		"en": "Gorebyss",

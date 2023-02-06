@@ -33,7 +33,9 @@
 		"fr": "Mascaïman"
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Rokkaiman",
 		"en": "Krokorok",

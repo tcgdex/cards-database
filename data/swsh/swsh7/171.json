@@ -48,7 +48,9 @@
 		130
 	],
 	"hp": 220,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Garados V",
 		"en": "Gyarados V",

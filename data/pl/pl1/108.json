@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, choisissez 1 de vos Pokémon et retirez-lui tous ses États Spéciaux ainsi que 6 marqueurs de dégât (retirez-les lui tous s'il en a moins de 6)."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Life Herb",
 		"fr": "Herbe sauveuse"

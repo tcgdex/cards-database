@@ -51,7 +51,9 @@
 		"en": "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin."
 	},
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Garstella",
 		"en": "Mareanie",

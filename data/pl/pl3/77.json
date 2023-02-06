@@ -41,7 +41,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 90,
-	"illustrator": "Takao Unno",
+	"illustrator": [
+		"Takao Unno"
+	],
 	"name": {
 		"en": "Raichu",
 		"fr": "Raichu"

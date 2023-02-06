@@ -44,7 +44,9 @@
 		385
 	],
 	"hp": 90,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Jirachi-EX",
 		"en": "Jirachi-EX",

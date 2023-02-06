@@ -51,7 +51,9 @@
 		492
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Shaymin",
 		"en": "Shaymin",

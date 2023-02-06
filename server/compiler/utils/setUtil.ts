@@ -1,80 +1,52 @@
-import { Serie, Set, SupportedLanguages } from '../../../interfaces'
-import { DB_PATH, fetchRemoteFile, realPath, setIsLegal, smartGlob } from './util'
+import { Set, SupportedLanguages } from '../../../meta/definitions/database'
+import { fetchRemoteFile, FileListCard, FileListItem, FileListSet, loadDatabase, setIsLegal } from './util'
 import { cardToCardSimple, getCards } from './cardUtil'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
-import fs from 'fs/promises'
-import { objectValues } from '@dzeio/object-util'
-import { getSerie } from './serieUtil'
 interface t {
 	[key: string]: Set
 }
 
-const setCache: t = {}
-
-let sets: Array<Omit<Set, 'serie'> & {serie: Serie}> | null = null
-export async function loadSets() {
-	const rawSets = (await smartGlob(realPath(__dirname, `../../../data/*/*.json`)))
-	sets = []
-	for (const rawSet of rawSets) {
-		const set: Set = JSON.parse(await fs.readFile(rawSet, 'utf-8'))
-
-		sets.push({...set, serie: await getSerie(set.serie)})
-	}
+export function isSetAvailable(set: FileListSet, lang: SupportedLanguages): boolean {
+	return lang in set.data.name // && lang in set.serie.name
 }
 
-export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
-	return lang in set.name // && lang in set.serie.name
+export function isSet(it: FileListItem): it is FileListSet {
+	return it.type === 'set'
 }
 
-/**
- * Return the set
- * @param name the name of the set
- */
-export async function getSet(name: string, serie?: string): Promise<Set & {serie: Serie}> {
-	if (!sets) {
-		await loadSets()
-	}
-	const set = sets?.find((it) => it.id === name || objectValues(it.name).includes(name))
-	if (!set) {
-		throw new Error(`Set not found! (${name}, ${serie})`)
-	}
-	return set
-}
-
-// Dont use cache as it wont necessary have them all
-export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Array<Set>> {
-	// list sets names
-	const rawSets = (await smartGlob(realPath(__dirname, `../../../data/${serie}/*.json`))).map((set) => set.substring(set.lastIndexOf('/') + 1, set.lastIndexOf('.')))
+export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Array<FileListSet>> {
 	// Fetch sets
-	const sets = (await Promise.all(rawSets.map((set) => getSet(set, serie))))
+	return (await loadDatabase())
+		.filter(isSet)
 		// Filter sets
-		.filter((set) => isSetAvailable(set, lang))
+		.filter((it) => serie === '*' || it.parent.data.id === serie)
+		.filter((it) => isSetAvailable(it, lang))
 		// Sort sets by release date
-		.sort((a, b) => a.releaseDate > b.releaseDate ? 1 : -1)
-	return sets
+		.sort((a, b) => a.data.releaseDate > b.data.releaseDate ? 1 : -1)
 }
 
-export async function getSetPictures(set: Set, lang: SupportedLanguages): Promise<[string | undefined, string | undefined]> {
+export async function getSetPictures(set: FileListSet, lang: SupportedLanguages): Promise<[string | undefined, string | undefined]> {
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
-		const logoExists = file[lang]?.[set.serie]?.[set.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.serie}/${set.id}/logo` : undefined
-		const symbolExists = file.univ?.[set.serie]?.[set.id]?.symbol ? `https://assets.tcgdex.net/univ/${set.serie}/${set.id}/symbol` : undefined
+		const logoExists = file[lang]?.[set.data.serie]?.[set.data.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.data.serie}/${set.data.id}/logo` : undefined
+		const symbolExists = file.univ?.[set.data.serie]?.[set.data.id]?.symbol ? `https://assets.tcgdex.net/univ/${set.data.serie}/${set.data.id}/symbol` : undefined
 		return [
 			logoExists,
 			symbolExists
 		]
-	} catch {
+	} catch (e) {
 		return [undefined, undefined]
 	}
 }
 
-export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promise<SetResume> {
-	const cards = await getCards(lang, set)
-	const pics = await getSetPictures(set, lang)
+export async function setToSetSimple(setFile: FileListSet, lang: SupportedLanguages): Promise<SetResume> {
+	const set = setFile.data
+	const cards = await getCards(lang, set.id)
+	const pics = await getSetPictures(setFile, lang)
 	return {
 		cardCount: {
-			official: set.cardCount.official,
-			total: Math.max(set.cardCount.official, cards.length)
+			official: set.cardCount,
+			total: Math.max(set.cardCount, cards.length)
 		},
 		id: set.id,
 		logo: pics[0],
@@ -83,18 +55,20 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 	}
 }
 
-export async function setToSetSingle(set: Set, lang: SupportedLanguages): Promise<SetSingle> {
-	const cards = await getCards(lang, set)
-	const serie = await getSerie(set.serie)
-	const pics = await getSetPictures(set, lang)
+export async function setToSetSingle(setFile: FileListSet, lang: SupportedLanguages): Promise<SetSingle> {
+	const set = setFile.data
+	const cards: Array<[string, FileListCard]> = (await getCards(lang, set.id))
+		.map((it) => [it[0], it[1]])
+	const serie = setFile.parent.data
+	const pics = await getSetPictures(setFile, lang)
 	return {
 		cardCount: {
-			firstEd: cards.reduce((count, card) => count + (card[1].variants?.firstEdition ? 1 : 0), 0),
-			holo: cards.reduce((count, card) => count + (card[1].variants?.holo ? 1 : 0), 0),
-			normal: cards.reduce((count, card) => count + (card[1].variants?.normal ? 1 : 0), 0),
-			official: set.cardCount.official,
-			reverse: cards.reduce((count, card) => count + (card[1].variants?.reverse ? 1 : 0), 0),
-			total: Math.max(set.cardCount.official, cards.length)
+			firstEd: cards.reduce((count, card) => count + (card[1].data.variants?.firstEdition ? 1 : 0), 0),
+			holo: cards.reduce((count, card) => count + (card[1].data.variants?.holo ? 1 : 0), 0),
+			normal: cards.reduce((count, card) => count + (card[1].data.variants?.normal ? 1 : 0), 0),
+			official: set.cardCount,
+			reverse: cards.reduce((count, card) => count + (card[1].data.variants?.reverse ? 1 : 0), 0),
+			total: Math.max(set.cardCount, cards.length)
 		},
 		cards: await Promise.all(cards.map(([id, card]) => cardToCardSimple(id, card, lang))),
 		id: set.id,

@@ -30,7 +30,9 @@
 		"fr": "Miaouss d’Alola"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Alola-Snobilikat",
 		"en": "Alolan Persian",

@@ -31,7 +31,9 @@
 		158
 	],
 	"hp": 50,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Totodile",
 		"fr": "Kaiminus"

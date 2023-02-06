@@ -52,7 +52,9 @@
 		"en": "Sealeo"
 	},
 	"hp": 150,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Walrein ex",
 		"fr": "Kaimorse ex"

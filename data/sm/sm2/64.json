@@ -55,7 +55,9 @@
 		"fr": "Machoc"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Maschock",
 		"en": "Machoke",

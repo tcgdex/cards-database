@@ -46,7 +46,9 @@
 		"en": "Nincada"
 	},
 	"hp": 70,
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Ninjask",
 		"fr": "Ninjask"

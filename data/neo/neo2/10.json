@@ -43,7 +43,9 @@
 		"en": "Scyther"
 	},
 	"hp": 80,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Scizor",
 		"fr": "Cizayox"

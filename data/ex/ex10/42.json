@@ -48,7 +48,9 @@
 		241
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Miltank",
 		"fr": "Ecremeuh"

@@ -52,7 +52,9 @@
 		"de": "Kiesling"
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Sedimantur",
 		"en": "Boldore",

@@ -52,7 +52,9 @@
 		143
 	],
 	"hp": 150,
-	"illustrator": "kanahei",
+	"illustrator": [
+		"kanahei"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

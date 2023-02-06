@@ -39,7 +39,9 @@
 		"en": "Wartortle"
 	},
 	"hp": 100,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Blastoise",
 		"fr": "Tortank"

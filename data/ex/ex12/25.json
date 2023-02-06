@@ -46,7 +46,9 @@
 		338
 	],
 	"hp": 70,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Solrock",
 		"fr": "Solaroc"

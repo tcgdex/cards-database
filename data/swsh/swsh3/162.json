@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante o turno de cada jogador, após aquele jogador jogar moedas para um ataque, ele(a) poderá ignorar os resultados das moedas e jogá-las novamente.",
 		"de": "Einmal Während des Zuges jedes Spielers, nachdem jener Spieler eine oder mehrere Münzen für eine Attacke geworfen hat, kann er alle Ergebnisse jener Münzwürfe ignorieren und jene Münzen erneut werfen."
 	},
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Wirrschein-Wald",
 		"en": "Glimwood Tangle",

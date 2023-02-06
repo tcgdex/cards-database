@@ -29,7 +29,9 @@
 		"de": "Samurzel"
 	},
 	"hp": 80,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Blanas",
 		"en": "Nuzleaf",

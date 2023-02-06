@@ -37,7 +37,9 @@
 		"de": "Makuhita"
 	},
 	"hp": 140,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Hariyama",
 		"en": "Hariyama",

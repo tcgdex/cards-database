@@ -36,7 +36,9 @@
 		90
 	],
 	"hp": 30,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Shellder",
 		"fr": "Kokiyas"

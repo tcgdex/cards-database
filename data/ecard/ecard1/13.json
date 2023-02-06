@@ -39,7 +39,9 @@
 		"en": "Haunter"
 	},
 	"hp": 90,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Gengar",
 		"fr": "Ectoplasma"

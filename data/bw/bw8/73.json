@@ -39,7 +39,9 @@
 		337
 	],
 	"hp": 90,
-	"illustrator": "Kouji Tajima",
+	"illustrator": [
+		"Kouji Tajima"
+	],
 	"name": {
 		"de": "Lunastein",
 		"en": "Lunatone",

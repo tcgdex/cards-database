@@ -50,7 +50,9 @@
 		"fr": "Venipatte"
 	},
 	"hp": 90,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Rollum",
 		"en": "Whirlipede",

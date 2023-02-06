@@ -52,7 +52,9 @@
 		39
 	],
 	"hp": 240,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Mega-Schlapor & Pummeluff GX",
 		"en": "Mega Lopunny & Jigglypuff GX",

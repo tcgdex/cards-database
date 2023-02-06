@@ -35,7 +35,9 @@
 		"fr": "Nucléos"
 	},
 	"hp": 60,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Mitodos",
 		"en": "Duosion",

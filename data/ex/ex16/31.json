@@ -38,7 +38,9 @@
 		"en": "Ralts"
 	},
 	"hp": 70,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Kirlia",
 		"fr": "Kirlia"

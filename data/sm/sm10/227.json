@@ -79,7 +79,9 @@
 		"en": "Meowth"
 	},
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Snobilikat GX",
 		"en": "Persian GX",

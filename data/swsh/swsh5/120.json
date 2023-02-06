@@ -51,7 +51,9 @@
 		"en": "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength."
 	},
 	"hp": 90,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Servol",
 		"en": "Indeedee",

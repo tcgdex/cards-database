@@ -47,7 +47,9 @@
 		479
 	],
 	"hp": 90,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"en": "Mow Rotom",
 		"fr": "Motisma Tonte Niv. 46"

@@ -61,7 +61,9 @@
 		"de": "Mebrana"
 	},
 	"hp": 150,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Branawarz",
 		"en": "Seismitoad",

@@ -40,7 +40,9 @@
 		475
 	],
 	"hp": 170,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"en": "Gallade EX",
 		"fr": "Gallame EX"

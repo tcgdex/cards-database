@@ -52,7 +52,9 @@
 		"de": "Digda"
 	},
 	"hp": 90,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Digdri",
 		"en": "Dugtrio",

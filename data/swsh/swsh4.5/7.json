@@ -25,7 +25,9 @@
 		"en": "Rowlet"
 	},
 	"hp": 80,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Arboretoss",
 		"en": "Dartrix",

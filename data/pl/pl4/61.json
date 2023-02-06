@@ -27,7 +27,9 @@
 	"dexId": [
 		453
 	],
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Croagunk"
 	},

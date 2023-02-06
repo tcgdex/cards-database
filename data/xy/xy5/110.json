@@ -60,7 +60,9 @@
 		"de": "Vibrava"
 	},
 	"hp": 140,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Libelldra",
 		"en": "Flygon",

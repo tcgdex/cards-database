@@ -29,7 +29,9 @@
 		"en": "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it."
 	},
 	"hp": 70,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Klonkett",
 		"en": "Rolycoly",

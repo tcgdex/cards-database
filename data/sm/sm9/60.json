@@ -29,7 +29,9 @@
 		72
 	],
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Tentacha",
 		"en": "Tentacool",

@@ -10,7 +10,9 @@
 		"de": "Doppel-Farblos-Energie liefert ColorlessColorless-Energie."
 	},
 	"energyType": "Special",
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Doppel-Farblos-Energie",
 		"en": "Double Colorless Energy",

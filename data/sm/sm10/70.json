@@ -56,7 +56,9 @@
 		"fr": "Spectrum"
 	},
 	"hp": 130,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Gengar",
 		"en": "Gengar",

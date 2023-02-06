@@ -55,7 +55,9 @@
 		"fr": "Blindalys"
 	},
 	"hp": 130,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Dustox",
 		"fr": "Papinox"

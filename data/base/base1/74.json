@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Défaussez 2 des autres cartes de votre main pour placer une carte Dresseur de votre pile de défausse dans votre main."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Item Finder",
 		"fr": "Récupérateur"

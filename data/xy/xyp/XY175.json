@@ -32,7 +32,9 @@
 		801
 	],
 	"hp": 160,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Magearna-EX"
 	},

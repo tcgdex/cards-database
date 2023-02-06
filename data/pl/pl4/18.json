@@ -36,7 +36,9 @@
 	"evolveFrom": {
 		"en": "Snorunt"
 	},
-	"illustrator": "Hiroki Fuchino",
+	"illustrator": [
+		"Hiroki Fuchino"
+	],
 	"name": {
 		"en": "Glalie"
 	},

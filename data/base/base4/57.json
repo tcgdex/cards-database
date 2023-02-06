@@ -36,7 +36,9 @@
 		"en": "Poliwag"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Poliwhirl"
 	},

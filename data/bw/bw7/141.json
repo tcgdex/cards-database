@@ -44,7 +44,9 @@
 		251
 	],
 	"hp": 110,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Celebi-EX",
 		"en": "Celebi-EX",

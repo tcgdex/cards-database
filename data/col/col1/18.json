@@ -35,7 +35,9 @@
 		417
 	],
 	"hp": 60,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Pachirisu",
 		"fr": "Pachirisu"

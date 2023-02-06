@@ -34,7 +34,9 @@
 		383
 	],
 	"hp": 180,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"de": "Groudon-EX",
 		"en": "Groudon-EX",

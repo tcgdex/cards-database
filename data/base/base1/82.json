@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Votre Pokémon actif n'est plus Endormi, Confus, Paralysé ou Empoisonné."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Full Heal",
 		"fr": "Guérison Totale"

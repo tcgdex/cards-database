@@ -28,7 +28,9 @@
 		"en": "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
 	},
 	"hp": 80,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Baldorfish",
 		"en": "Qwilfish",

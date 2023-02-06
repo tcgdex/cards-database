@@ -60,7 +60,9 @@
 		"fr": "Gravalanch"
 	},
 	"hp": 180,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Geowaz",
 		"en": "Golem",

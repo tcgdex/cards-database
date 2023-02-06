@@ -48,7 +48,9 @@
 		623
 	],
 	"hp": 220,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Golgantes V",
 		"en": "Golurk V",

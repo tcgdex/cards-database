@@ -55,7 +55,9 @@
 		"fr": "Capumain"
 	},
 	"hp": 100,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Ambidiffel",
 		"en": "Ambipom",

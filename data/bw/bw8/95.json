@@ -36,7 +36,9 @@
 		646
 	],
 	"hp": 180,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"de": "Schwarzes Kyurem-EX",
 		"en": "Black Kyurem-EX",

@@ -30,7 +30,9 @@
 		801
 	],
 	"hp": 90,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"en": "Magearna"
 	},

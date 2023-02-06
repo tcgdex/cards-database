@@ -54,7 +54,9 @@
 		"en": "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves."
 	},
 	"hp": 130,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Heatran",
 		"en": "Heatran",

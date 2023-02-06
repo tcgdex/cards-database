@@ -30,7 +30,9 @@
 		459
 	],
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Shnebedeck",
 		"en": "Snover",

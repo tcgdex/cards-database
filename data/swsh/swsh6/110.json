@@ -48,7 +48,9 @@
 		"de": "Stollunior"
 	},
 	"hp": 100,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Stollrak",
 		"en": "Lairon",

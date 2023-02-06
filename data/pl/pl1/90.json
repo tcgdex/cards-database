@@ -32,7 +32,9 @@
 		223
 	],
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Remoraid",
 		"fr": "Remoraid"

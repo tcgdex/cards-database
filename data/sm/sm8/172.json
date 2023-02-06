@@ -9,7 +9,9 @@
 		"pt": "Durante esta rodada, os ataques dos seus Pokémon Lightning causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		"de": "Während dieses Zuges fügen die Attacken deiner Lightning-Pokémon dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Elektrokraft",
 		"en": "Electropower",

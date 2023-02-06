@@ -52,7 +52,9 @@
 		25
 	],
 	"hp": 70,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Pikachu",
 		"en": "Pikachu",

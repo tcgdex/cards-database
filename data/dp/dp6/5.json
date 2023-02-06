@@ -39,7 +39,9 @@
 		"fr": "Skorgla"
 	},
 	"hp": 80,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Gliscor",
 		"fr": "Scorvol"

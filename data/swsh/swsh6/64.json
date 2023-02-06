@@ -55,7 +55,9 @@
 		488
 	],
 	"hp": 120,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Cresselia",
 		"en": "Cresselia",

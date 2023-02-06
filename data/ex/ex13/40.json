@@ -40,7 +40,9 @@
 		"en": "Phanpy"
 	},
 	"hp": 80,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Donphan",
 		"fr": "Donphan"

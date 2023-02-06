@@ -40,7 +40,9 @@
 		"en": "Quilava"
 	},
 	"hp": 100,
-	"illustrator": "Hiroaki Ito",
+	"illustrator": [
+		"Hiroaki Ito"
+	],
 	"name": {
 		"en": "Typhlosion",
 		"fr": "Typhlosion"

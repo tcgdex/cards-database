@@ -39,7 +39,9 @@
 		"fr": "Ptitard"
 	},
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Poliwhirl",
 		"fr": "Tetarte"

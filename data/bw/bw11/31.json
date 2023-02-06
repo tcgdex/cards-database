@@ -36,7 +36,9 @@
 		"en": "Magikarp"
 	},
 	"hp": 130,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"en": "Gyarados"
 	},

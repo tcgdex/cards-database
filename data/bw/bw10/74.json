@@ -48,7 +48,9 @@
 		"fr": "Porygon2"
 	},
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Porygon-Z",
 		"en": "Porygon-Z",

@@ -52,7 +52,9 @@
 		"de": "Ponita"
 	},
 	"hp": 90,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Gallopa",
 		"en": "Rapidash",

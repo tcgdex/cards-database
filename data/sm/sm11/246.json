@@ -73,7 +73,9 @@
 		303
 	],
 	"hp": 170,
-	"illustrator": "ConceptLab",
+	"illustrator": [
+		"ConceptLab"
+	],
 	"name": {
 		"de": "Flunkifer GX",
 		"en": "Mawile GX",

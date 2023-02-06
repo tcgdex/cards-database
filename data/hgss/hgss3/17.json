@@ -42,7 +42,9 @@
 		"fr": "Evoli"
 	},
 	"hp": 90,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Leafeon",
 		"fr": "Phyllali"

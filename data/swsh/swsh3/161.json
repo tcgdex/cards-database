@@ -9,7 +9,9 @@
 		"pt": "Procure por 1 Pokémon no seu baralho que tenha o mesmo nome de 1 dos Pokémon na sua pilha de descarte, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach 1 Pokémon mit demselben Namen wie ein Pokémon in deinem Ablagestapel, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Vertraute Glocke",
 		"en": "Familiar Bell",

@@ -9,7 +9,9 @@
 		"pt": "Procure por até 3 cartas de Item diferentes no seu baralho que tenham a palavra \"Bola” em seu nome, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach bis zu 3 verschiedenen Itemkarten, bei denen das Wort „Ball“ zum Namen gehört, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Ballduin",
 		"en": "Ball Guy",

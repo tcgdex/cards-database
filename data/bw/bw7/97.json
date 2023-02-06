@@ -22,7 +22,9 @@
 		599
 	],
 	"hp": 40,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Klikk",
 		"en": "Klink",

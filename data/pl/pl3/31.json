@@ -33,7 +33,9 @@
 		448
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Lucario C",
 		"fr": "Lucario "

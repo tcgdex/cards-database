@@ -35,7 +35,9 @@
 		"fr": "Chovsourir"
 	},
 	"hp": 90,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Fletiamo",
 		"en": "Swoobat",

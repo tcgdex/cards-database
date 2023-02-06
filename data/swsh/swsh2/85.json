@@ -57,7 +57,9 @@
 		"de": "Brimano"
 	},
 	"hp": 150,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Silembrim",
 		"en": "Hatterene",

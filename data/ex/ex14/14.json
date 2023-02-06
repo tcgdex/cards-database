@@ -39,7 +39,9 @@
 		"en": "Wartortle"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Blastoise",
 		"fr": "Tortank"

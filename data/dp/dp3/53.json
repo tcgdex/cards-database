@@ -39,7 +39,9 @@
 		"fr": "Tarsal"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Kirlia",
 		"fr": "Kirlia"

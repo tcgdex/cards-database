@@ -39,7 +39,9 @@
 		"en": "Flaaffy"
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Ampharos δ",
 		"fr": "Pharamp δ ESPÈCES DELTA"

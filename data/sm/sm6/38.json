@@ -49,7 +49,9 @@
 		"fr": "Galvaran"
 	},
 	"hp": 100,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Elezard",
 		"en": "Heliolisk",

@@ -6,7 +6,9 @@
 		"en": "Search your discard pile for 4 basic Energy cards, show them to your opponent, and put them into your hand."
 	},
 	"hp": 0,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Fisherman",
 		"fr": "Pêcheur"

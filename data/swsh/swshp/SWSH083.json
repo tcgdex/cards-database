@@ -51,7 +51,9 @@
 		65
 	],
 	"hp": 190,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Simsala V",
 		"en": "Alakazam V",

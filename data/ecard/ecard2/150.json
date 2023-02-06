@@ -54,7 +54,9 @@
 		"en": "Nidorino"
 	},
 	"hp": 100,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Nidoking",
 		"fr": "Nidoking"

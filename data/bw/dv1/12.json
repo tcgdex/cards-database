@@ -30,7 +30,9 @@
 		610
 	],
 	"hp": 40,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Axew",
 		"fr": "Coupenotte"

@@ -26,7 +26,9 @@
 		"en": "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight."
 	},
 	"hp": 70,
-	"illustrator": "Pani Kobayashi",
+	"illustrator": [
+		"Pani Kobayashi"
+	],
 	"name": {
 		"de": "Scampisto",
 		"en": "Clauncher",

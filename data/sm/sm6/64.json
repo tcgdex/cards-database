@@ -56,7 +56,9 @@
 		"fr": "Cradopaud"
 	},
 	"hp": 100,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Toxiquak",
 		"en": "Toxicroak",

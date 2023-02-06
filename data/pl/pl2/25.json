@@ -55,7 +55,9 @@
 		"fr": "Hippopotas"
 	},
 	"hp": 110,
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"en": "Hippowdon",
 		"fr": "Hippodocus Niv. 48"

@@ -21,7 +21,9 @@
 		"en": "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
 	},
 	"hp": 40,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Wattzapf",
 		"en": "Joltik",

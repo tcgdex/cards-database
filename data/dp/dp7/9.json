@@ -51,7 +51,9 @@
 		"fr": "Regigigas"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Regigigas",
 		"fr": "Regigigas"

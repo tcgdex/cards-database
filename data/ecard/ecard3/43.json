@@ -36,7 +36,9 @@
 		"en": "Swinub"
 	},
 	"hp": 80,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Piloswine"
 	},

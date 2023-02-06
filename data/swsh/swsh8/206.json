@@ -18,7 +18,9 @@
 		"en": "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it."
 	},
 	"hp": 160,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

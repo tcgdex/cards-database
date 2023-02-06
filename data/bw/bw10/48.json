@@ -37,7 +37,9 @@
 		"fr": "Machoc"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Maschock",
 		"en": "Machoke",

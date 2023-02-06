@@ -61,7 +61,9 @@
 		"de": "Anorith"
 	},
 	"hp": 150,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Armaldo",
 		"en": "Armaldo",

@@ -22,7 +22,9 @@
 		"en": "Honedge's soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge's body."
 	},
 	"hp": 60,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Gramokles",
 		"en": "Honedge",

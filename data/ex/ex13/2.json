@@ -41,7 +41,9 @@
 		"en": "Lileep"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Cradily δ",
 		"fr": "Vacilys δ ESPÈCES DELTA"

@@ -61,7 +61,9 @@
 		"de": "Arktip"
 	},
 	"hp": 120,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Arktilas",
 		"en": "Avalugg",

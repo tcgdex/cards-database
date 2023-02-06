@@ -35,7 +35,9 @@
 		"en": "Dark Pupitar"
 	},
 	"hp": 120,
-	"illustrator": "Kyoko Koizumi",
+	"illustrator": [
+		"Kyoko Koizumi"
+	],
 	"name": {
 		"en": "Dark Tyranitar"
 	},

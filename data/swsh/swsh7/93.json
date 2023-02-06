@@ -55,7 +55,9 @@
 		146
 	],
 	"hp": 120,
-	"illustrator": "Kazuma Koda",
+	"illustrator": [
+		"Kazuma Koda"
+	],
 	"name": {
 		"de": "Galar-Lavados",
 		"en": "Galarian Moltres",

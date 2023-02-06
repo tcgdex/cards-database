@@ -50,7 +50,9 @@
 		"fr": "Phanpy"
 	},
 	"hp": 120,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Donphan",
 		"fr": "Donphan"

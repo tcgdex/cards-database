@@ -50,7 +50,9 @@
 		442
 	],
 	"hp": 70,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Kryppuk",
 		"en": "Spiritomb",

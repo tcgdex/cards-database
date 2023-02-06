@@ -64,7 +64,9 @@
 		"de": "Muntier"
 	},
 	"hp": 150,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Letarking",
 		"en": "Slaking",

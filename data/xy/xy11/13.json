@@ -59,7 +59,9 @@
 		"de": "Tarnpignon"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Hutsassa",
 		"en": "Amoonguss",

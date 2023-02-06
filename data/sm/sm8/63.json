@@ -54,7 +54,9 @@
 		646
 	],
 	"hp": 130,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Weißes Kyurem",
 		"en": "White Kyurem",

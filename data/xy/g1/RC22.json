@@ -36,7 +36,9 @@
 		719
 	],
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Diancie",
 		"fr": "Diancie"

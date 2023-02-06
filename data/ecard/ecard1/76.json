@@ -35,7 +35,9 @@
 		125
 	],
 	"hp": 60,
-	"illustrator": "Hiroaki Ito",
+	"illustrator": [
+		"Hiroaki Ito"
+	],
 	"name": {
 		"en": "Electabuzz",
 		"fr": "Élektek"

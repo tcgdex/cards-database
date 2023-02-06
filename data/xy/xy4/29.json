@@ -45,7 +45,9 @@
 		694
 	],
 	"hp": 50,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Eguana",
 		"en": "Helioptile",

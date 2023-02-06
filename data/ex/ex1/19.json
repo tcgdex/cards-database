@@ -50,7 +50,9 @@
 		"en": "Wingull"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Pelipper",
 		"fr": "Bekipan"

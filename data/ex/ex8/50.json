@@ -34,7 +34,9 @@
 		"en": "Slakoth"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Vigoroth",
 		"fr": "Vigoroth"

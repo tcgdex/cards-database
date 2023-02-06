@@ -28,7 +28,9 @@
 		92
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Nebulak",
 		"en": "Gastly",

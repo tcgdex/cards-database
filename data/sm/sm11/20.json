@@ -43,7 +43,9 @@
 		781
 	],
 	"hp": 100,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Moruda",
 		"en": "Dhelmise",

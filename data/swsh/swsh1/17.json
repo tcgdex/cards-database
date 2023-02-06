@@ -31,7 +31,9 @@
 		824
 	],
 	"hp": 40,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Sensect",
 		"en": "Blipbug",

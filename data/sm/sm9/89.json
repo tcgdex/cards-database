@@ -42,7 +42,9 @@
 		442
 	],
 	"hp": 70,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Kryppuk",
 		"en": "Spiritomb",

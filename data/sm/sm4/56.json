@@ -56,7 +56,9 @@
 		"fr": "Nounourson"
 	},
 	"hp": 130,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Kosturso",
 		"en": "Bewear",

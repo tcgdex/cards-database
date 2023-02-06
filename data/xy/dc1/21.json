@@ -36,7 +36,9 @@
 		"fr": "Carvanha de la Team Aqua"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Team Aqua's Sharpedo",
 		"fr": "Sharpedo de la Team Aqua"

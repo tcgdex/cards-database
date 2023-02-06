@@ -54,7 +54,9 @@
 		"en": "Croconaw"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Feraligatr",
 		"fr": "Aligatueur"

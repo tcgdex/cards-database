@@ -30,7 +30,9 @@
 		"en": "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws."
 	},
 	"hp": 100,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Zeraora",
 		"en": "Zeraora",

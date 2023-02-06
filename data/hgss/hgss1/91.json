@@ -6,7 +6,9 @@
 		"en": "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon."
 	},
 	"hp": 0,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Energy Switch",
 		"fr": "Échange d’Énergie"

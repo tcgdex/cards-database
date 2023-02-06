@@ -39,7 +39,9 @@
 		"en": "Skitty"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Delcatty",
 		"fr": "Delcatty"

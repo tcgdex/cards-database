@@ -59,7 +59,9 @@
 		"de": "Taubsi"
 	},
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Tauboga",
 		"en": "Pidgeotto",

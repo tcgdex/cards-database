@@ -84,7 +84,9 @@
 		"fr": "Nounourson"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Kosturso GX",
 		"en": "Bewear GX",

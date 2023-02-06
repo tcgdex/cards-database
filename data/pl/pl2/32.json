@@ -39,7 +39,9 @@
 		464
 	],
 	"hp": 100,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Rhyperior 4",
 		"fr": "Rhinastoc  Niv. 55"

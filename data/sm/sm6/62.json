@@ -57,7 +57,9 @@
 		"fr": "Carmache"
 	},
 	"hp": 150,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Knakrack",
 		"en": "Garchomp",

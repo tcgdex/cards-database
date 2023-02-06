@@ -21,7 +21,9 @@
 		"en": "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Pignite"
 	},

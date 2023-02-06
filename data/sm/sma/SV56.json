@@ -55,7 +55,9 @@
 		"fr": "Croâporal"
 	},
 	"hp": 230,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Greninja-GX",
 		"fr": "Amphinobi-GX"

@@ -9,7 +9,9 @@
 		"pt": "Coloque 1 dos seus Pokémon que não seja um Pokémon V ou um Pokémon-GX na sua mão (descarte todas as cartas ligadas a ele).",
 		"de": "Nimm 1 deiner Pokémon, das kein Pokémon-V oder Pokémon-GX ist, auf deine Hand. (Lege alle angelegten Karten auf deinen Ablagestapel.)"
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Anziehungsnetz",
 		"en": "Scoop Up Net",

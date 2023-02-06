@@ -40,7 +40,9 @@
 		"fr": "Metang"
 	},
 	"hp": 130,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Metagross",
 		"fr": "Metalosse"

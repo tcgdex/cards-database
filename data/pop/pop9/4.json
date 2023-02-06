@@ -44,7 +44,9 @@
 		486
 	],
 	"hp": 100,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Regigigas",
 		"fr": "Regigigas"

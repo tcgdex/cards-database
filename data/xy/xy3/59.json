@@ -44,7 +44,9 @@
 		674
 	],
 	"hp": 60,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Pam-Pam",
 		"en": "Pancham",

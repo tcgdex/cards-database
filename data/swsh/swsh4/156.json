@@ -9,7 +9,9 @@
 		"pt": "Cure 30 pontos de dano de até 2 dos seus Pokémon que tenham Energia ligada a eles.",
 		"de": "Heile 30 Schadenspunkte von bis zu 2 deiner Pokémon, an die Energie angelegt ist."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Kuhmuh-Käse",
 		"en": "Moomoo Cheese",

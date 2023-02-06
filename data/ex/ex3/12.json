@@ -33,7 +33,9 @@
 		324
 	],
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Torkoal",
 		"fr": "Chartor"

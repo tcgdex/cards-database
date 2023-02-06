@@ -36,7 +36,9 @@
 		"en": "Seedot"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Nuzleaf",
 		"fr": "Pifeuil"

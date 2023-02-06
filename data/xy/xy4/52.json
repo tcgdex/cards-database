@@ -61,7 +61,9 @@
 		"de": "Kramurx"
 	},
 	"hp": 100,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Kramshef",
 		"en": "Honchkrow",

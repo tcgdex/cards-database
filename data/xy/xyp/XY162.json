@@ -34,7 +34,9 @@
 		"en": "Frogadier"
 	},
 	"hp": 130,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"en": "Greninja"
 	},

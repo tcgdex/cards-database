@@ -41,7 +41,9 @@
 		"fr": "Magnéton"
 	},
 	"hp": 150,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"en": "Magnezone",
 		"fr": "Magnézone"

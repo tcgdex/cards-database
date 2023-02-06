@@ -29,7 +29,9 @@
 		81
 	],
 	"hp": 60,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Magnetilo",
 		"en": "Magnemite",

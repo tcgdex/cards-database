@@ -9,7 +9,9 @@
 		"pt": "Cada Pokémon Colorless em jogo (tanto seu quanto do seu oponente) recebe +20 PS.",
 		"de": "Jedes Colorless-Pokémon im Spiel (deine und die deines Gegners) erhält +20 KP."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Eventura City-Arena",
 		"en": "Aspertia City Gym",

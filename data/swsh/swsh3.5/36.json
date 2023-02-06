@@ -34,7 +34,9 @@
 		"fr": "Zigzaton de Galar"
 	},
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Galar-Geradaks",
 		"en": "Galarian Linoone",

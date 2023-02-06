@@ -49,7 +49,9 @@
 		"fr": "Magnéti"
 	},
 	"hp": 90,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Magneton",
 		"en": "Magneton",

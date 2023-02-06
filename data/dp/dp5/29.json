@@ -41,7 +41,9 @@
 		"fr": "Insécateur"
 	},
 	"hp": 90,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Scizor",
 		"fr": "Cizayox"

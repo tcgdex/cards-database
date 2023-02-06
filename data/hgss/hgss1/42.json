@@ -43,7 +43,9 @@
 		"fr": "Wattouat"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Flaaffy",
 		"fr": "Lainergie"

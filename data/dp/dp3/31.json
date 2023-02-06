@@ -54,7 +54,9 @@
 		"fr": "Magmar"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Magmortar",
 		"fr": "Maganon"

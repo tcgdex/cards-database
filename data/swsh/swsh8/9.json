@@ -19,7 +19,9 @@
 		"en": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers."
 	},
 	"hp": 50,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Strawickl",
 		"en": "Sewaddle",

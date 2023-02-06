@@ -33,7 +33,9 @@
 		143
 	],
 	"hp": 90,
-	"illustrator": "Craig Turvey",
+	"illustrator": [
+		"Craig Turvey"
+	],
 	"name": {
 		"en": "Snorlax"
 	},

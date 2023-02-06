@@ -9,7 +9,9 @@
 		"pt": "Procure por 1 carta de Energia e 1 Pokémon Darkness no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach 1 Energiekarte und 1 Darkness-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "take",
+	"illustrator": [
+		"take"
+	],
 	"name": {
 		"de": "Nezz",
 		"en": "Piers",

@@ -30,7 +30,9 @@
 		"en": "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
 	},
 	"hp": 90,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Legios",
 		"en": "Falinks",

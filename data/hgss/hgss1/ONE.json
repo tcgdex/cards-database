@@ -6,7 +6,9 @@
 		"en": "Look at your opponent’s hand!"
 	},
 	"hp": 0,
-	"illustrator": "Milky Isobe",
+	"illustrator": [
+		"Milky Isobe"
+	],
 	"name": {
 		"en": "Alph Lithograph",
 		"fr": "Lithographie d’Alph"

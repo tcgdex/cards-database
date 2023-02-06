@@ -18,7 +18,9 @@
 		299
 	],
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Nasgnet",
 		"en": "Nosepass",

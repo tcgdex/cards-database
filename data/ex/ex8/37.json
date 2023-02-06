@@ -36,7 +36,9 @@
 		"en": "Slugma"
 	},
 	"hp": 80,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Magcargo",
 		"fr": "Volcaropod"

@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Attachez Manteau bulle à 1 de vos Pokémon qui ne possède pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O, défaussez-la."
 	},
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Bubble Coat",
 		"fr": "Manteau bulle"

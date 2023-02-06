@@ -58,7 +58,9 @@
 		"fr": "Nounourson"
 	},
 	"hp": 130,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Kosturso",
 		"en": "Bewear",

@@ -41,7 +41,9 @@
 		"fr": "Nidoran♂"
 	},
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Nidorino",
 		"fr": "Nidorino"

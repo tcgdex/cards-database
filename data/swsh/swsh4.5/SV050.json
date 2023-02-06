@@ -55,7 +55,9 @@
 		"en": "Galarian Corsola"
 	},
 	"hp": 100,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Galar-Gorgasonn",
 		"en": "Galarian Cursola",

@@ -42,7 +42,9 @@
 		"en": "Croconaw"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Dark Feraligatr",
 		"fr": "Aligatueur obscur"

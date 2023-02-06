@@ -36,7 +36,9 @@
 		258
 	],
 	"hp": 70,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Hydropi",
 		"en": "Mudkip",

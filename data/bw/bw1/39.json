@@ -38,7 +38,9 @@
 		594
 	],
 	"hp": 100,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Mamolida",
 		"en": "Alomomola",

@@ -40,7 +40,9 @@
 		"fr": "Axoloto"
 	},
 	"hp": 120,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Quagsire",
 		"fr": "Maraiste"

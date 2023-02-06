@@ -9,7 +9,9 @@
 		"pt": "Cure 60 de danos e remova todas as Condições Especiais de 1 dos seus Pokémon.",
 		"de": "Heile 60 Schadenspunkte bei 1 deiner Pokémon. Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Pokémon-Center-Dame",
 		"en": "Pokémon Center Lady",

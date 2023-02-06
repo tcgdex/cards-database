@@ -37,7 +37,9 @@
 		135
 	],
 	"hp": 160,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Jolteon EX",
 		"fr": "Voltali-EX"

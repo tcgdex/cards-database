@@ -37,7 +37,9 @@
 		"fr": "Draby"
 	},
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Shelgon",
 		"fr": "Drackhaus"

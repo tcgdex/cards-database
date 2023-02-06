@@ -76,7 +76,9 @@
 		131
 	],
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Lapras GX",
 		"en": "Lapras GX",

@@ -40,7 +40,9 @@
 		"fr": "Galvaran"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Heliolisk",
 		"fr": "Iguolta"

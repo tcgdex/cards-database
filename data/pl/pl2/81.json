@@ -52,7 +52,9 @@
 		143
 	],
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Snorlax",
 		"fr": "Ronflex Niv. 40"

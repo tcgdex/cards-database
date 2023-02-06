@@ -56,7 +56,9 @@
 		"fr": "Linéon de Galar"
 	},
 	"hp": 170,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Galar-Barrikadax",
 		"en": "Galarian Obstagoon",

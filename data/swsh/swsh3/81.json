@@ -43,7 +43,9 @@
 		"en": "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier."
 	},
 	"hp": 70,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Mimigma",
 		"en": "Mimikyu",

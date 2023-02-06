@@ -69,7 +69,9 @@
 		26
 	],
 	"hp": 260,
-	"illustrator": "ConceptLab",
+	"illustrator": [
+		"ConceptLab"
+	],
 	"name": {
 		"de": "Raichu & Alola-Raichu GX",
 		"en": "Raichu & Alolan Raichu GX",

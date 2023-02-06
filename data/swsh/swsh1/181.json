@@ -9,7 +9,9 @@
 		"pt": "Compre cartas até ter 6 cartas na sua mão. O seu turno acaba.",
 		"de": "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast. Dein Zug endet."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rotom-Rad",
 		"en": "Rotom Bike",

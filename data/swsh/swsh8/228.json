@@ -9,7 +9,9 @@
 		"pt": "Cure 70 pontos de dano do seu Pokémon Ativo.",
 		"de": "Heile 70 Schadenspunkte bei deinem Aktiven Pokémon."
 	},
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Küchenchef",
 		"en": "Cook",

@@ -39,7 +39,9 @@
 		241
 	],
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Miltank",
 		"fr": "Écrémeuh"

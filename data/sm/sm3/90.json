@@ -57,7 +57,9 @@
 		"fr": "Sepiatop"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Calamanero",
 		"en": "Malamar",

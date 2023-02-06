@@ -40,7 +40,9 @@
 		"fr": "Niveau Sup"
 	},
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Dialga",
 		"fr": "Dialga"

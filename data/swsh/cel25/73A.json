@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Imposter Professor Oak"
 	},

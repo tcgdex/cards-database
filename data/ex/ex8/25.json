@@ -39,7 +39,9 @@
 		"en": "Nuzleaf"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Shiftry",
 		"fr": "Tengalice"

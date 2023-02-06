@@ -42,7 +42,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Kapu-Riki V",
 		"en": "Tapu Koko V",

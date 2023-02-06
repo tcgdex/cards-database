@@ -20,7 +20,9 @@
 		92
 	],
 	"hp": 50,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"en": "Gastly",
 		"fr": "Fantominus"

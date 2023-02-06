@@ -55,7 +55,9 @@
 		"fr": "Sancoki Mer Occident"
 	},
 	"hp": 110,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Gastrodon West Sea",
 		"fr": "Tritosor Mer Occident Niv. 50"

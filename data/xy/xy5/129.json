@@ -9,7 +9,9 @@
 		"pt": "Cure 20 de danos de cada um dos seus Pokémon.",
 		"de": "Heile 20 Schadenspunkte bei jedem deiner Pokémon."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Tafelwasserpack",
 		"en": "Fresh Water Set",

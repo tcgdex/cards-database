@@ -32,7 +32,9 @@
 		642
 	],
 	"hp": 110,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Thundurus"
 	},

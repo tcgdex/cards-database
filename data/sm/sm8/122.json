@@ -25,7 +25,9 @@
 		50
 	],
 	"hp": 50,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Alola-Digda",
 		"en": "Alolan Diglett",

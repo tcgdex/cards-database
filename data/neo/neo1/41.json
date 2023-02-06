@@ -39,7 +39,9 @@
 		241
 	],
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Miltank",
 		"fr": "Écrémeuh"

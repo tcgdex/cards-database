@@ -36,7 +36,9 @@
 		"fr": "Carapuce"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Schillok",
 		"en": "Wartortle",

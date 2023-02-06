@@ -16,7 +16,9 @@
 		"en": "It has a strange physiology that responds to electricity. When together with Karrablast, Shelmet evolves for some reason."
 	},
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Schnuthelm",
 		"en": "Shelmet",

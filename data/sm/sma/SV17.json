@@ -20,7 +20,9 @@
 		686
 	],
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"en": "Inkay",
 		"fr": "Sepiatop"

@@ -33,7 +33,9 @@
 		6
 	],
 	"hp": 100,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Charizard G",
 		"fr": "Dracaufeu "

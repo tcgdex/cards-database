@@ -56,7 +56,9 @@
 		483
 	],
 	"hp": 180,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Dialga EX",
 		"en": "Dialga EX",

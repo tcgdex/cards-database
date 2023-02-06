@@ -9,7 +9,9 @@
 		"pt": "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco. Se fizer isto, compre 3 cartas.",
 		"de": "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, ziehe 3 Karten."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Vogel-Profi",
 		"en": "Bird Keeper",

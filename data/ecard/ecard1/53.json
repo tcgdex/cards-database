@@ -36,7 +36,9 @@
 		"en": "Bayleef"
 	},
 	"hp": 100,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Meganium",
 		"fr": "Meganium"

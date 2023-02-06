@@ -34,7 +34,9 @@
 		877
 	],
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Morpeko",
 		"en": "Morpeko",

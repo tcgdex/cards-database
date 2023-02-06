@@ -55,7 +55,9 @@
 		"en": "Onix"
 	},
 	"hp": 150,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Steelix ex",
 		"fr": "Steelix ex"

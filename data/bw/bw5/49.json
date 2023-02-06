@@ -36,7 +36,9 @@
 		"en": "Slowpoke"
 	},
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Laschoking",
 		"en": "Slowking",

@@ -51,7 +51,9 @@
 		"en": "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch."
 	},
 	"hp": 110,
-	"illustrator": "Atsushi Furusawa",
+	"illustrator": [
+		"Atsushi Furusawa"
+	],
 	"name": {
 		"de": "Lapras",
 		"en": "Lapras",

@@ -31,7 +31,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Feebas",
 		"fr": "Barpau"

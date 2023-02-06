@@ -51,7 +51,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Boreos V",
 		"en": "Tornadus V",

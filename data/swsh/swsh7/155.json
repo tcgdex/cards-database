@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon V ao qual esta carta está ligada tiver \"Sylveon\" em seu nome e for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, aquele jogador pegará 1 carta de Prêmio a menos.",
 		"de": "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Feelinara\" zum Namen gehört und es durch eine Attacke von Pokémon deines Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Schleifenorden",
 		"en": "Ribbon Badge",

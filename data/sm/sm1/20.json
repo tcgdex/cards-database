@@ -56,7 +56,9 @@
 		"fr": "Candine"
 	},
 	"hp": 140,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Fruyal",
 		"en": "Tsareena",

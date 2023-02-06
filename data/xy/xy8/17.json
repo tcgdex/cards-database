@@ -61,7 +61,9 @@
 		"de": "Mähikel"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Chevrumm",
 		"en": "Gogoat",

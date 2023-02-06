@@ -45,7 +45,9 @@
 		"en": "Dark Flaaffy"
 	},
 	"hp": 120,
-	"illustrator": "Emi Miwa",
+	"illustrator": [
+		"Emi Miwa"
+	],
 	"name": {
 		"en": "Dark Ampharos"
 	},

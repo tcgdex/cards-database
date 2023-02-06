@@ -41,7 +41,9 @@
 		"fr": "Draby"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Shelgon",
 		"fr": "Drackhaus"

@@ -16,7 +16,9 @@
 		"en": "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
 	},
 	"hp": 60,
-	"illustrator": "Nagomi Nijo",
+	"illustrator": [
+		"Nagomi Nijo"
+	],
 	"name": {
 		"de": "Glibunkel",
 		"en": "Croagunk",

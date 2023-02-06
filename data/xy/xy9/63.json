@@ -28,7 +28,9 @@
 		690
 	],
 	"hp": 50,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Algitt",
 		"en": "Skrelp",

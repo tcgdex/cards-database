@@ -44,7 +44,9 @@
 		647
 	],
 	"hp": 170,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Keldeo-EX",
 		"en": "Keldeo-EX",

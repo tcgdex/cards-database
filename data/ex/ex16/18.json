@@ -41,7 +41,9 @@
 		"en": "Poochyena"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Mightyena",
 		"fr": "Grahyena"

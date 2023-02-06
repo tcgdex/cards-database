@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée à l'un des Pokémon de votre adversaire et obligez-le à s'en défausser."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Energy Removal 2",
 		"fr": "Suppression d'énergie 2"

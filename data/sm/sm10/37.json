@@ -28,7 +28,9 @@
 		60
 	],
 	"hp": 60,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Quapsel",
 		"en": "Poliwag",

@@ -65,7 +65,9 @@
 		571
 	],
 	"hp": 250,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Quajutsu & Zoroark GX",
 		"en": "Greninja & Zoroark GX",

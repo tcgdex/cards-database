@@ -62,7 +62,9 @@
 		"de": "Quapsel"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Quaputzi",
 		"en": "Poliwhirl",

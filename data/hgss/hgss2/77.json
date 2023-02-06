@@ -6,7 +6,9 @@
 		"en": "Look at the top 8 cards of your deck. Choose as many Energy cards as you like, show them to your opponent, and put them into your hand. Shuffle the other cards back into your deck."
 	},
 	"hp": 0,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Interviewer’s Questions",
 		"fr": "Questionnaire d’interview"

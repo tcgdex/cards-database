@@ -52,7 +52,9 @@
 		"fr": "Drackhaus"
 	},
 	"hp": 140,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Salamence",
 		"fr": "Drattak"

@@ -36,7 +36,9 @@
 		"en": "Grovyle"
 	},
 	"hp": 100,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Sceptile"
 	},

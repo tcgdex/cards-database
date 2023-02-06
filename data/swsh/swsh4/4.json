@@ -21,7 +21,9 @@
 		"en": "Six of them form a single Pokémon. Should one of the six be lost, the next morning there will once more be six."
 	},
 	"hp": 60,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Owei",
 		"en": "Exeggcute",

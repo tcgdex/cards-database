@@ -36,7 +36,9 @@
 		"en": "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
 	},
 	"hp": 60,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Webarak",
 		"en": "Spinarak",

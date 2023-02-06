@@ -45,7 +45,9 @@
 		645
 	],
 	"hp": 120,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Demeteros",
 		"en": "Landorus",

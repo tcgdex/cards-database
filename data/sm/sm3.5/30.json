@@ -21,7 +21,9 @@
 		100
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Voltobal",
 		"en": "Voltorb",

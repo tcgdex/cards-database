@@ -40,7 +40,9 @@
 		"de": "Snomnom"
 	},
 	"hp": 90,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Mottineva",
 		"en": "Frosmoth",

@@ -28,7 +28,9 @@
 		137
 	],
 	"hp": 60,
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"de": "Porygon",
 		"en": "Porygon",

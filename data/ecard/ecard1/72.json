@@ -37,7 +37,9 @@
 		113
 	],
 	"hp": 90,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Chansey",
 		"fr": "Leveinard"

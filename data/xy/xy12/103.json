@@ -66,7 +66,9 @@
 		150
 	],
 	"hp": 180,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Mewtu EX",
 		"en": "Mewtwo EX",

@@ -60,7 +60,9 @@
 		"fr": "Caninos"
 	},
 	"hp": 130,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Arkani",
 		"en": "Arcanine",

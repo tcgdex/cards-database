@@ -33,7 +33,9 @@
 		"en": "Eevee"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Flareon"
 	},

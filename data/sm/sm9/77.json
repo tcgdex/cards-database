@@ -33,7 +33,9 @@
 		"fr": "Fossile Inconnu"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Kabuto",
 		"en": "Kabuto",

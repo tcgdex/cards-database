@@ -43,7 +43,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 220,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Volcanion V",
 		"en": "Volcanion V",

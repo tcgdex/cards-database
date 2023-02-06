@@ -38,7 +38,9 @@
 		"de": "Unratütox"
 	},
 	"hp": 120,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Deponitox",
 		"en": "Garbodor",

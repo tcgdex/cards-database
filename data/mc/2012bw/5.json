@@ -22,7 +22,9 @@
 		"en": "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops."
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Dewott"
 	},

@@ -52,7 +52,9 @@
 		"fr": "Yanma"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Yanmega",
 		"fr": "Yanmega"

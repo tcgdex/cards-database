@@ -48,7 +48,9 @@
 		"fr": "Pifeuil"
 	},
 	"hp": 130,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Tengulist",
 		"en": "Shiftry",

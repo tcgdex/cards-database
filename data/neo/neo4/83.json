@@ -34,7 +34,9 @@
 		191
 	],
 	"hp": 40,
-	"illustrator": "Etsuya Hattori",
+	"illustrator": [
+		"Etsuya Hattori"
+	],
 	"name": {
 		"en": "Sunkern",
 		"fr": "Tournegrin"

@@ -29,7 +29,9 @@
 		165
 	],
 	"hp": 40,
-	"illustrator": "Keiko Fukuyama",
+	"illustrator": [
+		"Keiko Fukuyama"
+	],
 	"name": {
 		"en": "Ledyba"
 	},

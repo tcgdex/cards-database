@@ -34,7 +34,9 @@
 		"fr": "Manglouton"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Manguspektor",
 		"en": "Gumshoos",

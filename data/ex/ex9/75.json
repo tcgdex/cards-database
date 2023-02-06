@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu.\n\nLes Pokémon Évolués ,  et  de chaque joueur ne peuvent pas utiliser de Poké-Powers ou de Poké-Bodies."
 	},
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Battle Frontier",
 		"fr": "Zone de combat"

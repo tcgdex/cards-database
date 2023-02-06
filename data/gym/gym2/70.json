@@ -19,7 +19,9 @@
 		43
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Erika's Oddish"
 	},

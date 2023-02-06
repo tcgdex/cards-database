@@ -31,7 +31,9 @@
 		568
 	],
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Trubbish"
 	},

@@ -51,7 +51,9 @@
 		"en": "Magnemite"
 	},
 	"hp": 70,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Magneton",
 		"fr": "Magneton"

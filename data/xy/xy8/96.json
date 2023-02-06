@@ -61,7 +61,9 @@
 		"de": "Bronzel"
 	},
 	"hp": 110,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Bronzong",
 		"en": "Bronzong",

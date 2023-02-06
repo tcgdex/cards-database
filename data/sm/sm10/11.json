@@ -54,7 +54,9 @@
 		"fr": "Mimitoss"
 	},
 	"hp": 90,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Omot",
 		"en": "Venomoth",

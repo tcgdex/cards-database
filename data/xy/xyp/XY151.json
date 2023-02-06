@@ -48,7 +48,9 @@
 		718
 	],
 	"hp": 190,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"en": "Zygarde EX",
 		"fr": "Zygarde EX"

@@ -54,7 +54,9 @@
 		"fr": "Polichombr"
 	},
 	"hp": 90,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Banette",
 		"en": "Banette",

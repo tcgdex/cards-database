@@ -55,7 +55,9 @@
 		"fr": "Chimpenfeu"
 	},
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Panferno",
 		"en": "Infernape",

@@ -29,7 +29,9 @@
 		"en": "Legends say this Pokémon confounded opponents with its swift movements."
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Viridium",
 		"en": "Virizion",

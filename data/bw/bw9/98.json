@@ -37,7 +37,9 @@
 		641
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Boreos-EX",
 		"en": "Tornadus-EX",

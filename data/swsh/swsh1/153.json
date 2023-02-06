@@ -40,7 +40,9 @@
 		831
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Wolly",
 		"en": "Wooloo",

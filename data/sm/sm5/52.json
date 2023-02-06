@@ -57,7 +57,9 @@
 		"fr": "Baudrive"
 	},
 	"hp": 110,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Drifzepeli",
 		"en": "Drifblim",

@@ -52,7 +52,9 @@
 		571
 	],
 	"hp": 250,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Quajutsu & Zoroark GX",
 		"en": "Greninja & Zoroark GX",

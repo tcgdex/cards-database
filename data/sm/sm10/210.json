@@ -9,7 +9,9 @@
 		"pt": "Olhe as 4 primeiras cartas do seu baralho e coloque 2 delas na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
 		"de": "Schau dir die obersten 4 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Mische die anderen Karten zurück in dein Deck."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Janina",
 		"en": "Janine",

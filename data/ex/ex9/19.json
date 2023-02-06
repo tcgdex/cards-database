@@ -38,7 +38,9 @@
 		"en": "Rhyhorn"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Rhydon",
 		"fr": "Rhinoferos"

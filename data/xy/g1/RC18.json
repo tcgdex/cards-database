@@ -35,7 +35,9 @@
 		"fr": "Flabébé"
 	},
 	"hp": 70,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"en": "Floette",
 		"fr": "Floette"

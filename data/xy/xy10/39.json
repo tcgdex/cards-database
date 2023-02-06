@@ -62,7 +62,9 @@
 		"de": "Kabuto"
 	},
 	"hp": 150,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Kabutops",
 		"en": "Kabutops",

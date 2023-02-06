@@ -30,7 +30,9 @@
 		9
 	],
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Blastoise V"
 	},

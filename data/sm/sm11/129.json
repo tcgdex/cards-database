@@ -21,7 +21,9 @@
 		198
 	],
 	"hp": 70,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Kramurx",
 		"en": "Murkrow",

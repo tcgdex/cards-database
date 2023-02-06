@@ -55,7 +55,9 @@
 		"de": "Voltilamm"
 	},
 	"hp": 90,
-	"illustrator": "OKACHEKE",
+	"illustrator": [
+		"OKACHEKE"
+	],
 	"name": {
 		"de": "Waaty",
 		"en": "Flaaffy",

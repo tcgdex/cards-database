@@ -24,7 +24,9 @@
 		799
 	],
 	"hp": 160,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Guzzlord",
 		"fr": "Engloutyran"

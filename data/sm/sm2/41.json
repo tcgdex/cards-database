@@ -60,7 +60,9 @@
 		"fr": "Racaillou d’Alola"
 	},
 	"hp": 110,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Alola-Georok",
 		"en": "Alolan Graveler",

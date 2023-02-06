@@ -31,7 +31,9 @@
 		158
 	],
 	"hp": 50,
-	"illustrator": "Aimi Tomita",
+	"illustrator": [
+		"Aimi Tomita"
+	],
 	"name": {
 		"en": "Totodile",
 		"fr": "Kaiminus"

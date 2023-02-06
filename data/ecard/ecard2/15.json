@@ -41,7 +41,9 @@
 		"en": "Houndour"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Houndoom",
 		"fr": "Démolosse"

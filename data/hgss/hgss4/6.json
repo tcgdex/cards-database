@@ -44,7 +44,9 @@
 		"fr": "Nidorino"
 	},
 	"hp": 140,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Nidoking",
 		"fr": "Nidoking"

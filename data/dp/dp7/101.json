@@ -38,7 +38,9 @@
 		"fr": "Salamèche"
 	},
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Charmander",
 		"fr": "Salamèche"

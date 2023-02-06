@@ -36,7 +36,9 @@
 		448
 	],
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Lucario GL",
 		"fr": "Lucario  Niv. 32"

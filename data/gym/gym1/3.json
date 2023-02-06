@@ -32,7 +32,9 @@
 		"en": "Clefairy"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Erika's Clefable"
 	},

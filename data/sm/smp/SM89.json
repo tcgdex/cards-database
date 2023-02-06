@@ -58,7 +58,9 @@
 		"fr": "Zorua"
 	},
 	"hp": 120,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Zoroark",
 		"en": "Zoroark",

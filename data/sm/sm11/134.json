@@ -52,7 +52,9 @@
 		"fr": "Rapion"
 	},
 	"hp": 140,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Piondragi",
 		"en": "Drapion",

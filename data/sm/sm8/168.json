@@ -9,7 +9,9 @@
 		"pt": "Coloque 3 Pokémon da sua pilha de descarte na sua mão que tenham “de Alola” no seu nome.",
 		"de": "Nimm 3 Pokémon, bei denen Alola zum Namen gehört, aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "take",
+	"illustrator": [
+		"take"
+	],
 	"name": {
 		"de": "Angestellte der Æther Foundation",
 		"en": "Aether Foundation Employee",

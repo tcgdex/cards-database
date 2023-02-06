@@ -36,7 +36,9 @@
 		341
 	],
 	"hp": 50,
-	"illustrator": "Jungo Suzuki",
+	"illustrator": [
+		"Jungo Suzuki"
+	],
 	"name": {
 		"en": "Team Aqua's Corphish",
 		"fr": "Écrapince de Team Aqua"

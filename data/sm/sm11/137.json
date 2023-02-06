@@ -44,7 +44,9 @@
 		559
 	],
 	"hp": 70,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Zurrokex",
 		"en": "Scraggy",

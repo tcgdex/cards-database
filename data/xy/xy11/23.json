@@ -62,7 +62,9 @@
 		"de": "Leufeo"
 	},
 	"hp": 120,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Pyroleo",
 		"en": "Pyroar",

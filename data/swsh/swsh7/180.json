@@ -44,7 +44,9 @@
 		196
 	],
 	"hp": 200,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Psiana V",
 		"en": "Espeon V",

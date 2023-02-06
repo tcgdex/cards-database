@@ -33,7 +33,9 @@
 		"fr": "Ouisticram"
 	},
 	"hp": 80,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Panpyro",
 		"en": "Monferno",

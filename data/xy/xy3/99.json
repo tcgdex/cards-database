@@ -9,7 +9,9 @@
 		"pt": "O Pokémon ao qual este card está ligado não poderá ser afetado por nenhuma Condição Especial. (Remova todas as Condições Especiais que afetam esse Pokémon.)",
 		"de": "Das Pokémon, an das diese Karte angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Glänzender Mantel",
 		"en": "Sparkling Robe",

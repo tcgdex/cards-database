@@ -56,7 +56,9 @@
 		351
 	],
 	"hp": 70,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Formeo",
 		"en": "Castform",

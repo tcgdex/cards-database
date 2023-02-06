@@ -17,7 +17,9 @@
 		333
 	],
 	"hp": 40,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Wablu",
 		"en": "Swablu",

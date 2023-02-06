@@ -43,7 +43,9 @@
 		759
 	],
 	"hp": 70,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Velursi",
 		"en": "Stufful",

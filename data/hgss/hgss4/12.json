@@ -42,7 +42,9 @@
 		"fr": "Boustiflor"
 	},
 	"hp": 110,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Victreebel",
 		"fr": "Empiflor"

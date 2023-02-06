@@ -52,7 +52,9 @@
 		"de": "Keradar"
 	},
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Maritellit",
 		"en": "Orbeetle",

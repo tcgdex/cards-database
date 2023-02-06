@@ -53,7 +53,9 @@
 		"en": "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill."
 	},
 	"hp": 120,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Furnifraß",
 		"en": "Heatmor",

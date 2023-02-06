@@ -52,7 +52,9 @@
 		"fr": "Krabby"
 	},
 	"hp": 130,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Kingler",
 		"en": "Kingler",

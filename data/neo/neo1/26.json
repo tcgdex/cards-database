@@ -37,7 +37,9 @@
 		190
 	],
 	"hp": 40,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Aipom",
 		"fr": "Capumain"

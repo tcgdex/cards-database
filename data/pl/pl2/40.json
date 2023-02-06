@@ -36,7 +36,9 @@
 		94
 	],
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Gengar GL",
 		"fr": "Ectoplasma  Niv. 65"

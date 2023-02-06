@@ -42,7 +42,9 @@
 		"fr": "Yanma"
 	},
 	"hp": 90,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Yanmega",
 		"fr": "Yanmega"

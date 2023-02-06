@@ -39,7 +39,9 @@
 		"de": "Bellektro-V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Bellektro VMAX",
 		"en": "Boltund VMAX",

@@ -43,7 +43,9 @@
 		"fr": "Carabaffe"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Blastoise",
 		"fr": "Tortank"

@@ -27,7 +27,9 @@
 		"de": "Wuffels"
 	},
 	"hp": 110,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Wolwerock",
 		"en": "Lycanroc",

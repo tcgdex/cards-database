@@ -72,7 +72,9 @@
 		"en": "Pupitar"
 	},
 	"hp": 160,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Tyranitar ex",
 		"fr": "Tyranocif ex"

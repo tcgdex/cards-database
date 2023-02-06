@@ -38,7 +38,9 @@
 		"en": "Lotad"
 	},
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Lombre",
 		"fr": "Lombre"

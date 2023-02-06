@@ -40,7 +40,9 @@
 		"en": "Croconaw"
 	},
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Feraligatr",
 		"fr": "Aligatueur"

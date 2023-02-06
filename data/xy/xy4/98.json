@@ -9,7 +9,9 @@
 		"pt": "Os ataques do Pokémon ao qual este card está ligado causam 20 de danos a menos a todos os Pokémon de seu oponente (antes da aplicação de Fraqueza e Resistência). (Não aplique Fraqueza e Resistência a Pokémon no Banco.)\n\nQuando esse card for removido de um Pokémon por um motivo qualquer, coloque-o na pilha de descarte do seu dono.",
 		"de": "Die Angriffe des Pokémon, an das diese Karte angelegt ist, fügen allen Verteidigenden Pokémon 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)\n\nLege diese Karte auf den Ablagestapel des Besitzers, wenn diese Karte aus irgendeinem Grund von einem Pokémon entfernt wird."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Störnetz Team Flare-Superzubehör",
 		"en": "Jamming Net Team Flare Hyper Gear",

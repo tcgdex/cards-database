@@ -34,7 +34,9 @@
 		145
 	],
 	"hp": 70,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Rocket's Zapdos"
 	},

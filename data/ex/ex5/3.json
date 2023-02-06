@@ -39,7 +39,9 @@
 		"en": "Golbat"
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Crobat",
 		"fr": "Nostenfer"

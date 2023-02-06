@@ -39,7 +39,9 @@
 		"en": "Swinub"
 	},
 	"hp": 90,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Piloswine"
 	},

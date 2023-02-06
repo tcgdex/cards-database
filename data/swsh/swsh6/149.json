@@ -9,7 +9,9 @@
 		"pt": "Coloque até 3 cartas de Prêmio na sua mão. Em seguida, para cada carta de Prêmio que você colocou em sua mão desta forma, coloque uma carta da sua mão virada para baixo como uma carta de Prêmio.",
 		"de": "Nimm bis zu 3 Preiskarten auf deine Hand. Lege anschließend für jede auf diese Weise auf deine Hand genommene Preiskarte 1 Karte aus deiner Hand verdeckt als Preiskarte ab."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Mila",
 		"en": "Peonia",

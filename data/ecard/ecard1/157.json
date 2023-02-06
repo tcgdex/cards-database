@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Échangez votre Pokémon Actif contre l'un des Pokémon de votre Banc."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Switch",
 		"fr": "Transfert"

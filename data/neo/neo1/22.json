@@ -21,7 +21,9 @@
 		239
 	],
 	"hp": 30,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Elekid",
 		"fr": "Elekid"

@@ -37,7 +37,9 @@
 		717
 	],
 	"hp": 130,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Yveltal",
 		"fr": "Yveltal"

@@ -43,7 +43,9 @@
 		"fr": "Rhinoféros"
 	},
 	"hp": 140,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Rhyperior",
 		"fr": "Rhinastoc"

@@ -31,7 +31,9 @@
 		314
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Illumise",
 		"fr": "Lumivole"

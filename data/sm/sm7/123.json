@@ -9,7 +9,9 @@
 		"pt": "Olhe as 2 primeiras cartas do seu baralho e coloque 1 delas na sua mão. Descarte a outra carta.",
 		"de": "Schau dir die obersten 2 Karten deines Decks an und nimm 1 von ihnen auf deine Hand. Lege die andere Karte auf deinen Ablagestapel."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Kunstrad",
 		"en": "Acro Bike",

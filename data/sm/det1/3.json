@@ -29,7 +29,9 @@
 		755
 	],
 	"hp": 50,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Bubungus",
 		"en": "Morelull",

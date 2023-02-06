@@ -38,7 +38,9 @@
 		"de": "Zorua"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Zoroark",
 		"en": "Zoroark",

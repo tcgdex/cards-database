@@ -38,7 +38,9 @@
 		"de": "Gramokles"
 	},
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Duokles",
 		"en": "Doublade",

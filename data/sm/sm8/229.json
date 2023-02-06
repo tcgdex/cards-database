@@ -9,7 +9,9 @@
 		"pt": "O Pokémon ao qual esta carta está ligada recebe 30 pontos de dano a menos dos ataques dos Pokémon-GX e Pokémon-EX do seu oponente (após a aplicação de Fraqueza e Resistência).",
 		"de": "Dem Pokémon, an das diese Karte angelegt ist, werden durch Attacken der Pokémon-GX und Pokémon-EX deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Wahlhelm",
 		"en": "Choice Helmet",

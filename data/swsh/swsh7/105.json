@@ -54,7 +54,9 @@
 		"de": "Kleptifux"
 	},
 	"hp": 100,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Gaunux",
 		"en": "Thievul",

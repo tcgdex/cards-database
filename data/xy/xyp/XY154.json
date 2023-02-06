@@ -45,7 +45,9 @@
 		"fr": "Ho-Oh"
 	},
 	"hp": 150,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Ho-Oh BREAK",
 		"fr": "Ho-Oh TURBO"

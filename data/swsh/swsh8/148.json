@@ -33,7 +33,9 @@
 		"en": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant."
 	},
 	"hp": 120,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Demeteros",
 		"en": "Landorus",

@@ -31,7 +31,9 @@
 		495
 	],
 	"hp": 60,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Snivy",
 		"fr": "Vipélierre"

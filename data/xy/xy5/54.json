@@ -55,7 +55,9 @@
 		382
 	],
 	"hp": 180,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Kyogre EX",
 		"en": "Kyogre EX",

@@ -9,7 +9,9 @@
 		"pt": "Compre 3 cartas.",
 		"de": "Ziehe 3 Karten."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Hop",
 		"en": "Hop",

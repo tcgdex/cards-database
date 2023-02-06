@@ -63,7 +63,9 @@
 		"de": "Petznief"
 	},
 	"hp": 130,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Siberio",
 		"en": "Beartic",

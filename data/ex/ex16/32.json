@@ -41,7 +41,9 @@
 		"en": "Aron"
 	},
 	"hp": 70,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Lairon",
 		"fr": "Galegon"

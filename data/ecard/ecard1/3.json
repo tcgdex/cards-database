@@ -38,7 +38,9 @@
 		"en": "Ekans"
 	},
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Arbok",
 		"fr": "Arbok"

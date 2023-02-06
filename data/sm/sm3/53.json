@@ -56,7 +56,9 @@
 		"fr": "Téraclope"
 	},
 	"hp": 150,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Zwirrfinst",
 		"en": "Dusknoir",

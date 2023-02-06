@@ -18,7 +18,9 @@
 		509
 	],
 	"hp": 50,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Purrloin"
 	},

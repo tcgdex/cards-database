@@ -49,7 +49,9 @@
 		"fr": "Machoc"
 	},
 	"hp": 110,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Maschock",
 		"en": "Machoke",

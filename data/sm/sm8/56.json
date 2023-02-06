@@ -51,7 +51,9 @@
 		131
 	],
 	"hp": 120,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Lapras",
 		"en": "Lapras",

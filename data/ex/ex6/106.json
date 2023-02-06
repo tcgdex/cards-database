@@ -35,7 +35,9 @@
 		"en": "Clefairy"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Clefable ex",
 		"fr": "Mélodelfe ex"

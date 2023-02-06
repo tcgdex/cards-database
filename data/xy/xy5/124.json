@@ -9,7 +9,9 @@
 		"pt": "Você poderá jogar este card somente quando ele for o último card da sua mão. Coloque um Pokémon Water da sua pilha de descarte no seu Banco. Em seguida, compre 5 cards.",
 		"de": "Du kannst diese Karte nur dann spielen, wenn es die letzte Karte auf deiner Hand ist. Nimm 1 Water-Pokémon von deinem Ablagestapel und lege es auf deine Bank. Ziehe anschließend 5 Karten."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Adrians Ass im Ärmel",
 		"en": "Archie's Ace in the Hole",

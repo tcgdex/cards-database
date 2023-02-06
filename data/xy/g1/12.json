@@ -28,7 +28,9 @@
 		"fr": "Dracaufeu-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Charizard EX",
 		"fr": "M-Dracaufeu-EX"

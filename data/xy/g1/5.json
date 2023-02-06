@@ -36,7 +36,9 @@
 		"fr": "Chrysacier"
 	},
 	"hp": 130,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"en": "Butterfree",
 		"fr": "Papilusion"

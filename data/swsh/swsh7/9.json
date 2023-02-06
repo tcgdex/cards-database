@@ -25,7 +25,9 @@
 		548
 	],
 	"hp": 60,
-	"illustrator": "Mika Pikazo",
+	"illustrator": [
+		"Mika Pikazo"
+	],
 	"name": {
 		"de": "Lilminip",
 		"en": "Petilil",

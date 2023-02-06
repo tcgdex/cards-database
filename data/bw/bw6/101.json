@@ -21,7 +21,9 @@
 		287
 	],
 	"hp": 60,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Bummelz",
 		"en": "Slakoth",

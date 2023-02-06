@@ -20,7 +20,9 @@
 		92
 	],
 	"hp": 40,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Gastly",
 		"fr": "Fantominus"

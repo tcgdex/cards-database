@@ -42,7 +42,9 @@
 		37
 	],
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Vulpix",
 		"en": "Vulpix",

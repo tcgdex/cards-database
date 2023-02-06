@@ -51,7 +51,9 @@
 		"de": "Frizelbliz"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Voltenso",
 		"en": "Manectric",

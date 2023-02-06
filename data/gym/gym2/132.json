@@ -2,7 +2,9 @@
 	"$schema": "../../../meta/definitions/card.schema.json",
 	"category": "Energy",
 	"energyType": "Normal",
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Water Energy"
 	},

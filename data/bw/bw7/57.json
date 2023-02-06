@@ -40,7 +40,9 @@
 		"fr": "Zébibron"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Zebritz",
 		"en": "Zebstrika",

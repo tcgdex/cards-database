@@ -38,7 +38,9 @@
 		"de": "Plinfa"
 	},
 	"hp": 80,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Pliprin",
 		"en": "Prinplup",

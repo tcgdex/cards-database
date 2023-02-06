@@ -39,7 +39,9 @@
 		"de": "UHaFnir"
 	},
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "UHaFnir-TURBO",
 		"en": "Noivern BREAK",

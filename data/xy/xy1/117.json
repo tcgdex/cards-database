@@ -9,7 +9,9 @@
 		"pt": "Qualquer Pokémon que possuir alguma Energia Fairy ligada a ele (seu e do seu oponente) não terá Custo para Recuar.",
 		"de": "Jedes Pokémon (deine und die deines Gegners), an das Fairy-Energie angelegt ist, hat keine Rückzugskosten."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Feenbeet",
 		"en": "Fairy Garden",

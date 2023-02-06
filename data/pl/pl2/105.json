@@ -35,7 +35,9 @@
 		330
 	],
 	"hp": 140,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Flygon",
 		"fr": "Libegon Niv. X"

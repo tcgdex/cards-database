@@ -45,7 +45,9 @@
 		631
 	],
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Furnifraß",
 		"en": "Heatmor",

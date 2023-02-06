@@ -9,7 +9,9 @@
 		"pt": "Os Pokémon (seus e do seu oponente) não podem ser curados.",
 		"de": "Pokémon (deine und die deines Gegners) können nicht geheilt werden."
 	},
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Hügel des Dyna-Baums",
 		"en": "Dyna Tree Hill",

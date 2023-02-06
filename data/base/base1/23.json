@@ -46,7 +46,9 @@
 		"en": "Growlithe"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Arcanine",
 		"fr": "Arcanin"

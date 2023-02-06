@@ -49,7 +49,9 @@
 		"en": "Corvisquire"
 	},
 	"hp": 170,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Krarmor",
 		"en": "Corviknight",

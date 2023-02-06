@@ -9,7 +9,9 @@
 		"pt": "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
 		"de": "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"de": "Tausch",
 		"en": "Switch",

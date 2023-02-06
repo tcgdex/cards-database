@@ -56,7 +56,9 @@
 		143
 	],
 	"hp": 220,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Relaxo V",
 		"en": "Snorlax V",

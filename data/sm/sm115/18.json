@@ -38,7 +38,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Vaporeon",
 		"fr": "Aquali"

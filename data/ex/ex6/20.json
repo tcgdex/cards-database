@@ -50,7 +50,9 @@
 		"en": "Shellder"
 	},
 	"hp": 70,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Cloyster",
 		"fr": "Crustabri"

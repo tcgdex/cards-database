@@ -45,7 +45,9 @@
 		701
 	],
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Resladero",
 		"en": "Hawlucha",

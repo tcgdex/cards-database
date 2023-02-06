@@ -43,7 +43,9 @@
 		436
 	],
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Bronzel",
 		"en": "Bronzor",

@@ -52,7 +52,9 @@
 		"de": "Safcon"
 	},
 	"hp": 140,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Smettbo",
 		"en": "Butterfree",

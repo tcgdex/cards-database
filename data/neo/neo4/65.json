@@ -24,7 +24,9 @@
 		92
 	],
 	"hp": 40,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Gastly",
 		"fr": "Fantominus"

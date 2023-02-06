@@ -35,7 +35,9 @@
 		494
 	],
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Victini",
 		"en": "Victini",

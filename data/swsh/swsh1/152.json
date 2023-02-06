@@ -33,7 +33,9 @@
 		831
 	],
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Wolly",
 		"en": "Wooloo",

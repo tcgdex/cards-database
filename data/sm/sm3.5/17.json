@@ -58,7 +58,9 @@
 		"fr": "Matoufeu"
 	},
 	"hp": 170,
-	"illustrator": "Emi Ando",
+	"illustrator": [
+		"Emi Ando"
+	],
 	"name": {
 		"de": "Fuegro",
 		"en": "Incineroar",

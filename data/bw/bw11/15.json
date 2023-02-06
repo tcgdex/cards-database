@@ -31,7 +31,9 @@
 		640
 	],
 	"hp": 110,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Virizion"
 	},

@@ -32,7 +32,9 @@
 		"fr": "Flabébé"
 	},
 	"hp": 70,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Floette",
 		"en": "Floette",

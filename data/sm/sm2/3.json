@@ -57,7 +57,9 @@
 		"fr": "Boustiflor"
 	},
 	"hp": 140,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Sarzenia",
 		"en": "Victreebel",

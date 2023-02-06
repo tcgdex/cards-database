@@ -28,7 +28,9 @@
 		116
 	],
 	"hp": 40,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Seeper",
 		"en": "Horsea",

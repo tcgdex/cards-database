@@ -36,7 +36,9 @@
 		136
 	],
 	"hp": 170,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Flareon EX",
 		"fr": "Pyroli-EX"

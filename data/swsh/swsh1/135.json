@@ -56,7 +56,9 @@
 		"de": "Kranoviz"
 	},
 	"hp": 170,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Krarmor",
 		"en": "Corviknight",

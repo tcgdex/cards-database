@@ -17,7 +17,9 @@
 		100
 	],
 	"hp": 50,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"en": "Voltorb",
 		"fr": "Voltorbe"

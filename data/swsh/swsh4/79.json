@@ -52,7 +52,9 @@
 		"en": "It can instantly create many diamonds by compressing the carbon in the air between its hands."
 	},
 	"hp": 90,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Diancie",
 		"en": "Diancie",

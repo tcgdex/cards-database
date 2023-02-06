@@ -40,7 +40,9 @@
 		"en": "Exeggcute"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Exeggutor",
 		"fr": "Noadkoko"

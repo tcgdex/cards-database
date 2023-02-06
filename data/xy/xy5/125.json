@@ -9,7 +9,9 @@
 		"pt": "Procure um Pokémon Water em seu baralho, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach 1 Water-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Tauchball",
 		"en": "Dive Ball",

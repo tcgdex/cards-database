@@ -50,7 +50,9 @@
 		803
 	],
 	"hp": 70,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Venicro",
 		"en": "Poipole",

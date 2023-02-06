@@ -36,7 +36,9 @@
 		243
 	],
 	"hp": 140,
-	"illustrator": "Shinji Higuchi + Sachiko Eba",
+	"illustrator": [
+		"Shinji Higuchi + Sachiko Eba"
+	],
 	"name": {
 		"en": "Entei & Raikou LEGEND",
 		"fr": "Entei & Raikou LÉGENDE (bas)"

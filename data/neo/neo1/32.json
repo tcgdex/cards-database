@@ -40,7 +40,9 @@
 		"en": "Totodile"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Croconaw",
 		"fr": "Crocrodil"

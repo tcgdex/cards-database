@@ -29,7 +29,9 @@
 		"de": "Helixfossil Amonitas"
 	},
 	"hp": 80,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Amonitas",
 		"en": "Omanyte",

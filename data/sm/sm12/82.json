@@ -55,7 +55,9 @@
 		"fr": "Kirlia"
 	},
 	"hp": 160,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Galagladi",
 		"en": "Gallade",

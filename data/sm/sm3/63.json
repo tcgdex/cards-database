@@ -75,7 +75,9 @@
 		800
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Necrozma GX",
 		"en": "Necrozma GX",

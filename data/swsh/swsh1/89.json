@@ -31,7 +31,9 @@
 		854
 	],
 	"hp": 30,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Fatalitee",
 		"en": "Sinistea",

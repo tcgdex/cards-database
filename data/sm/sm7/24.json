@@ -48,7 +48,9 @@
 		"fr": "Limagma"
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Magcargo",
 		"en": "Magcargo",

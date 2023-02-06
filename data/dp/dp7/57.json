@@ -23,7 +23,9 @@
 		"fr": "Apitrini"
 	},
 	"hp": 50,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Combee",
 		"fr": "Apitrini"

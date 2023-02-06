@@ -58,7 +58,9 @@
 		"de": "Schimmelreiter-Coronospa-V"
 	},
 	"hp": 320,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Schimmelreiter-Coronospa VMAX",
 		"en": "Ice Rider Calyrex VMAX",

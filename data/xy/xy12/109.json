@@ -38,7 +38,9 @@
 		"de": "Owei"
 	},
 	"hp": 80,
-	"illustrator": "Dr.Ooyama",
+	"illustrator": [
+		"Dr.Ooyama"
+	],
 	"name": {
 		"de": "Kokowei",
 		"en": "ナッシー[Exeggutor]",

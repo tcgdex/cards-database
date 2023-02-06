@@ -54,7 +54,9 @@
 		"en": "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
 	},
 	"hp": 110,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Venuflibis",
 		"en": "Carnivine",

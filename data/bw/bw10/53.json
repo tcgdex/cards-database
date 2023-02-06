@@ -39,7 +39,9 @@
 		566
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Flapteryx",
 		"en": "Archen",

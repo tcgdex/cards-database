@@ -31,7 +31,9 @@
 		35
 	],
 	"hp": 50,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Piepi",
 		"en": "Clefairy",

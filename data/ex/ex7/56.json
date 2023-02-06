@@ -31,7 +31,9 @@
 		88
 	],
 	"hp": 50,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Grimer"
 	},

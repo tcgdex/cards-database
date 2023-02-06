@@ -42,7 +42,9 @@
 		"fr": "Saquedeneu"
 	},
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Tangoloss",
 		"en": "Tangrowth",

@@ -36,7 +36,9 @@
 		379
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Registeel Star",
 		"fr": "Registeel ☆"

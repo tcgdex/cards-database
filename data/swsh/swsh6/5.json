@@ -61,7 +61,9 @@
 		"de": "Ledyba"
 	},
 	"hp": 90,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Ledian",
 		"en": "Ledian",

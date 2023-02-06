@@ -82,7 +82,9 @@
 		"de": "Reptain"
 	},
 	"hp": 140,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Gewaldro",
 		"en": "Sceptile",

@@ -31,7 +31,9 @@
 		280
 	],
 	"hp": 50,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Ralts δ",
 		"fr": "Tarsal δ ESPÈCES DELTA"

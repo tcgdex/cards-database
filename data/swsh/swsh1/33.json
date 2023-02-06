@@ -47,7 +47,9 @@
 		"de": "Hopplo"
 	},
 	"hp": 90,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Kickerlo",
 		"en": "Raboot",

@@ -30,7 +30,9 @@
 	"evolveFrom": {
 		"en": "Treecko"
 	},
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"en": "Grovyle"
 	},

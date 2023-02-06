@@ -22,7 +22,9 @@
 		86
 	],
 	"hp": 80,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Jurob",
 		"en": "Seel",

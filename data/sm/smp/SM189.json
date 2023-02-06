@@ -72,7 +72,9 @@
 		"fr": "Carabaffe"
 	},
 	"hp": 240,
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Turtok GX",
 		"en": "Blastoise GX",

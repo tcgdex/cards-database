@@ -39,7 +39,9 @@
 		"fr": "Armulys"
 	},
 	"hp": 120,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Beautifly",
 		"fr": "Charmillon"

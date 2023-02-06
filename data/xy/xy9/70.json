@@ -60,7 +60,9 @@
 		"de": "Knarksel"
 	},
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Knakrack",
 		"en": "Garchomp",

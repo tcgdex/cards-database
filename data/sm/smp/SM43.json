@@ -41,7 +41,9 @@
 		52
 	],
 	"hp": 60,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Alola-Mauzi",
 		"en": "Alolan Meowth",

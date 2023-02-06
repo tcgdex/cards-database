@@ -38,7 +38,9 @@
 		646
 	],
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "White Kyurem",
 		"fr": "Kyurem Blanc"

@@ -35,7 +35,9 @@
 		"fr": "Larveyette"
 	},
 	"hp": 70,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Folikon",
 		"en": "Swadloon",

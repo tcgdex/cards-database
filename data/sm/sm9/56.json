@@ -56,7 +56,9 @@
 		"fr": "Nidorina"
 	},
 	"hp": 160,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Nidoqueen",
 		"en": "Nidoqueen",

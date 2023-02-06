@@ -24,7 +24,9 @@
 		50
 	],
 	"hp": 60,
-	"illustrator": "Hasegawa Saki",
+	"illustrator": [
+		"Hasegawa Saki"
+	],
 	"name": {
 		"de": "Digda",
 		"en": "Diglett",

@@ -43,7 +43,9 @@
 		23
 	],
 	"hp": 70,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Rettan",
 		"en": "Ekans",

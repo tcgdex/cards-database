@@ -49,7 +49,9 @@
 		"fr": "Galvaran"
 	},
 	"hp": 100,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Elezard",
 		"en": "Heliolisk",

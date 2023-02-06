@@ -9,7 +9,9 @@
 		"pt": "Escolha 1 dos seus Pokémon e então jogue 2 moedas. Para cada cara, cure 30 pontos de dano daquele Pokémon.",
 		"de": "Wähle 1 deiner Pokémon und wirf anschließend 2 Münzen. Heile pro Kopf 30 Schadenspunkte bei jenem Pokémon."
 	},
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Kuhmuh-Milch",
 		"en": "Moomoo Milk",

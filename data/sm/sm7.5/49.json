@@ -53,7 +53,9 @@
 		718
 	],
 	"hp": 130,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Zygarde",
 		"en": "Zygarde",

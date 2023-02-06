@@ -23,7 +23,9 @@
 		493
 	],
 	"hp": 90,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Arceus",
 		"fr": "Arceus"

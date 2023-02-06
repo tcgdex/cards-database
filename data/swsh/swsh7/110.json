@@ -52,7 +52,9 @@
 		384
 	],
 	"hp": 210,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Rayquaza V",
 		"en": "Rayquaza V",

@@ -40,7 +40,9 @@
 		"de": "Sodamak"
 	},
 	"hp": 100,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Sodachita",
 		"en": "Simipour",

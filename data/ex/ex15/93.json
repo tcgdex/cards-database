@@ -39,7 +39,9 @@
 		"en": "Kirlia"
 	},
 	"hp": 150,
-	"illustrator": "Masahiko Ishii",
+	"illustrator": [
+		"Masahiko Ishii"
+	],
 	"name": {
 		"en": "Gardevoir ex δ",
 		"fr": "Gardevoir ex δ"

@@ -39,7 +39,9 @@
 		"de": "Surfendes Pikachu-V"
 	},
 	"hp": 310,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Surfendes Pikachu VMAX",
 		"en": "Surfing Pikachu VMAX",

@@ -42,7 +42,9 @@
 		"en": "Pineco"
 	},
 	"hp": 80,
-	"illustrator": "CR CG gangs",
+	"illustrator": [
+		"CR CG gangs"
+	],
 	"name": {
 		"en": "Forretress",
 		"fr": "Foretress"

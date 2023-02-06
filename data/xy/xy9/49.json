@@ -59,7 +59,9 @@
 		"de": "Elezeba"
 	},
 	"hp": 100,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Zebritz",
 		"en": "Zebstrika",

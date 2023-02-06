@@ -9,7 +9,9 @@
 		"pt": "Descarte uma Energia Especial ligada a 1 dos Pokémon do seu oponente.",
 		"de": "Lege 1 an ein gegnerisches Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Spezial-Hammer",
 		"en": "Enhanced Hammer",

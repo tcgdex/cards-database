@@ -37,7 +37,9 @@
 		"fr": "Macronium"
 	},
 	"hp": 150,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Meganium",
 		"fr": "Meganium"

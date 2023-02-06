@@ -26,7 +26,9 @@
 		"en": "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering."
 	},
 	"hp": 80,
-	"illustrator": "OKACHEKE",
+	"illustrator": [
+		"OKACHEKE"
+	],
 	"name": {
 		"de": "Kleinstein",
 		"en": "Geodude",

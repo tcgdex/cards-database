@@ -50,7 +50,9 @@
 		"fr": "Tarinor"
 	},
 	"hp": 130,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Voluminas",
 		"en": "Probopass",

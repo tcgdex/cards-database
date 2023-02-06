@@ -37,7 +37,9 @@
 		621
 	],
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Shardrago",
 		"en": "Druddigon",

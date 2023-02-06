@@ -33,7 +33,9 @@
 		"fr": "Mélancolux"
 	},
 	"hp": 140,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Skelabra",
 		"en": "Chandelure",

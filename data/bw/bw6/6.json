@@ -20,7 +20,9 @@
 		265
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Waumpel",
 		"en": "Wurmple",

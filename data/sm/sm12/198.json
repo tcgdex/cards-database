@@ -9,7 +9,9 @@
 		"pt": "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.\n\nQuando você joga esta carta, você pode descartar outras 2 cartas da sua mão. Se fizer isto, cure 120 pontos de dano do Pokémon que você moveu para o seu Banco.",
 		"de": "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus.\n\nWenn du diese Karte spielst, kannst du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, heile 120 Schadenspunkte bei dem Pokémon, das du auf deine Bank verschoben hast."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Maho & Tracy",
 		"en": "Mallow & Lana",

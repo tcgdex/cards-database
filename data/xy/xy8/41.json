@@ -29,7 +29,9 @@
 		515
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Sodamak",
 		"en": "Panpour",

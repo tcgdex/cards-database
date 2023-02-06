@@ -34,7 +34,9 @@
 		341
 	],
 	"hp": 50,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Corphish",
 		"fr": "Ecrapince"

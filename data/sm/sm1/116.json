@@ -9,7 +9,9 @@
 		"pt": "Coloque 2 cartas de Energia básica da sua pilha de descarte na sua mão.",
 		"de": "Nimm 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Energie-Zugewinn",
 		"en": "Energy Retrieval",

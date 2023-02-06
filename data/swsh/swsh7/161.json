@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante o turno de cada jogador, aquele jogador poderá procurar por 1 Pokémon Lightning Básico ou 1 Pokémon Dragon Básico no próprio baralho e colocá-lo no próprio Banco. Em seguida, aquele jogador embaralha o próprio baralho.",
 		"de": "Einmal während des Zuges jedes Spielers kann jener Spieler sein Deck nach 1 Basis-Lightning-Pokémon oder Basis-Dragon-Pokémon durchsuchen und es auf seine Bank legen. Anschließend mischt jener Spieler sein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Sturmgebirge",
 		"en": "Stormy Mountains",

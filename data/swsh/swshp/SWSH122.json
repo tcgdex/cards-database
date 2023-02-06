@@ -35,7 +35,9 @@
 		"en": "Mareep"
 	},
 	"hp": 90,
-	"illustrator": "Pani Kobayashi",
+	"illustrator": [
+		"Pani Kobayashi"
+	],
 	"name": {
 		"en": "Flaaffy"
 	},

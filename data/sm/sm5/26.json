@@ -55,7 +55,9 @@
 		"fr": "Tritox"
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Amfira",
 		"en": "Salazzle",

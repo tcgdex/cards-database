@@ -54,7 +54,9 @@
 		115
 	],
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Kangama",
 		"en": "Kangaskhan",

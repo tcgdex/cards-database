@@ -55,7 +55,9 @@
 		"fr": "Cornèbre"
 	},
 	"hp": 110,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Kramshef",
 		"en": "Honchkrow",

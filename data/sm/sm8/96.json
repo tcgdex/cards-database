@@ -49,7 +49,9 @@
 		302
 	],
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Zobiris",
 		"en": "Sableye",

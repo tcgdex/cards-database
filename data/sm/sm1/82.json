@@ -56,7 +56,9 @@
 		"fr": "Carvanha"
 	},
 	"hp": 110,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Tohaido",
 		"en": "Sharpedo",

@@ -44,7 +44,9 @@
 		"en": "Seel"
 	},
 	"hp": 80,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Light Dewgong",
 		"fr": "Lamantine lumineux"

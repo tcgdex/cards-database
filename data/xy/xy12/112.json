@@ -51,7 +51,9 @@
 		84
 	],
 	"hp": 50,
-	"illustrator": "Imakuni?",
+	"illustrator": [
+		"Imakuni?"
+	],
 	"name": {
 		"de": "Imakuni?s Dodu",
 		"en": "Imakuni?'s Doduo",

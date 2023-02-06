@@ -39,7 +39,9 @@
 		"en": "Vibrava"
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Flygon δ",
 		"fr": "Libegon δ ESPÈCES DELTA"

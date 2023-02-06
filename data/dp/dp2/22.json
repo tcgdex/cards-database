@@ -37,7 +37,9 @@
 		358
 	],
 	"hp": 70,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Chimecho",
 		"fr": "Éoko"

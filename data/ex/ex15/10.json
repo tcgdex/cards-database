@@ -18,7 +18,9 @@
 		143
 	],
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Snorlax δ",
 		"fr": "Ronflex δ ESPÈCES DELTA"

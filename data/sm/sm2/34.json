@@ -33,7 +33,9 @@
 		"fr": "Sorbébé"
 	},
 	"hp": 80,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Gelatroppo",
 		"en": "Vanillish",

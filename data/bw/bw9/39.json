@@ -40,7 +40,9 @@
 		644
 	],
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Zekrom",
 		"en": "Zekrom",

@@ -57,7 +57,9 @@
 		"fr": "Ymphect"
 	},
 	"hp": 160,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Tyranitar",
 		"fr": "Tyranocif"

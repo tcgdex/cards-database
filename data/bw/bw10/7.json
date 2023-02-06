@@ -31,7 +31,9 @@
 		616
 	],
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Schnuthelm",
 		"en": "Shelmet",

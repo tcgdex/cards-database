@@ -45,7 +45,9 @@
 		"de": "Riolu"
 	},
 	"hp": 110,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Lucario",
 		"en": "Lucario",

@@ -25,7 +25,9 @@
 	"dexId": [
 		172
 	],
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Pichu"
 	},

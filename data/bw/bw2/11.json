@@ -38,7 +38,9 @@
 		"fr": "Doudouvet"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Elfun",
 		"en": "Whimsicott",

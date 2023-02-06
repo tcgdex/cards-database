@@ -57,7 +57,9 @@
 		"de": "Sniebel"
 	},
 	"hp": 110,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Snibunna",
 		"en": "Weavile",

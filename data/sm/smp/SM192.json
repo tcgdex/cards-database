@@ -68,7 +68,9 @@
 		448
 	],
 	"hp": 260,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Lucario & Melmetal GX",
 		"en": "Lucario & Melmetal GX",

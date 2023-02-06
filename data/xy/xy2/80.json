@@ -53,7 +53,9 @@
 		143
 	],
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

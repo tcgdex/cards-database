@@ -39,7 +39,9 @@
 		"en": "Weepinbell"
 	},
 	"hp": 110,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Victreebel",
 		"fr": "Empiflor"

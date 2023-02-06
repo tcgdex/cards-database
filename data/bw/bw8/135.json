@@ -9,7 +9,9 @@
 		"pt": "Embaralhe sua mão no seu baralho. Em seguida, compre um número de cards igual ao número de Pokémon no Banco (tanto seus quanto do seu oponente).",
 		"de": "Mische deine Handkarten in dein Deck. Ziehe anschließend genauso viele Karten, wie sich Pokémon auf der Bank befinden (deiner und der deines Gegners)."
 	},
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Achromas",
 		"en": "Colress",

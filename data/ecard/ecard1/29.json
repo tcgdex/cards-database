@@ -40,7 +40,9 @@
 		"en": "Pupitar"
 	},
 	"hp": 120,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Tyranitar",
 		"fr": "Tyranocif"

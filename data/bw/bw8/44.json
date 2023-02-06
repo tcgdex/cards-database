@@ -35,7 +35,9 @@
 		"fr": "Magnéti"
 	},
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Magneton",
 		"en": "Magneton",

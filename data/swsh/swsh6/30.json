@@ -28,7 +28,9 @@
 		"en": "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs."
 	},
 	"hp": 70,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Sniebel",
 		"en": "Sneasel",

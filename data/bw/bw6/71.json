@@ -38,7 +38,9 @@
 		639
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Terrakium-EX",
 		"en": "Terrakion-EX",

@@ -36,7 +36,9 @@
 		"de": "Drapfel-V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Drapfel VMAX",
 		"en": "Flapple VMAX",

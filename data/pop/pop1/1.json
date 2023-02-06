@@ -37,7 +37,9 @@
 		"en": "Combusken"
 	},
 	"hp": 110,
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Blaziken",
 		"fr": "Brasegali"

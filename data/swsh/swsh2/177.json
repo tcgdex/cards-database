@@ -52,7 +52,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 200,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"de": "Vulnona V",
 		"en": "Ninetales V",

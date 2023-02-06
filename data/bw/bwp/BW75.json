@@ -41,7 +41,9 @@
 		"fr": "Métang"
 	},
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Metagross",
 		"fr": "Métalosse"

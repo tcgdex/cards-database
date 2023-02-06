@@ -9,7 +9,9 @@
 		"pt": "Os Pokémon Fire e os Pokémon Metal (seus e do seu oponente) não têm Fraqueza.",
 		"de": "Fire-Pokémon und Metal-Pokémon (deine und die deines Gegners) haben keine Schwäche."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Sonnenkreis-Podium",
 		"en": "Altar of the Sunne",

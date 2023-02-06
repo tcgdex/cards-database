@@ -33,7 +33,9 @@
 		"en": "Timburr"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Strepoli",
 		"en": "Gurdurr",

@@ -9,7 +9,9 @@
 		"pt": "Previne todos os efeitos dos ataques do seu oponente, exceto danos, causados ao Pokémon ao qual este card está ligado. (Efeitos existentes não são removidos.)",
 		"de": "Verhindere alle Effekte von gegnerischen Angriffen, außer Schaden, die dem Pokémon, an das diese Karte angelegt ist, zugefügt werden. (Bestehende Effekte werden nicht entfernt.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Verbogener Löffel",
 		"en": "Bent Spoon",

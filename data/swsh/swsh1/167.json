@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque do seu oponente, compre cartas até ter 7 cartas na sua mão.",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke deines Gegners kampfunfähig wird, ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Glücks-Ei",
 		"en": "Lucky Egg",

@@ -47,7 +47,9 @@
 		557
 	],
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Lithomith",
 		"en": "Dwebble",

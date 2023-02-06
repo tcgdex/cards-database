@@ -19,7 +19,9 @@
 		"en": "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore."
 	},
 	"hp": 100,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Alomomola"
 	},

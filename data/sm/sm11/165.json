@@ -30,7 +30,9 @@
 		163
 	],
 	"hp": 60,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Hoothoot",
 		"en": "Hoothoot",

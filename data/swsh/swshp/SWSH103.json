@@ -59,7 +59,9 @@
 		"en": "Blastoise V"
 	},
 	"hp": 330,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Turtok VMAX",
 		"en": "Blastoise VMAX",

@@ -55,7 +55,9 @@
 		"fr": "Moufouette"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Skuntank",
 		"fr": "Moufflair"

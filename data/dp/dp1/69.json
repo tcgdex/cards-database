@@ -33,7 +33,9 @@
 		298
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Azurill",
 		"fr": "Azurill"

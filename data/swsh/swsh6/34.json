@@ -56,7 +56,9 @@
 		351
 	],
 	"hp": 70,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Formeo Schneeform",
 		"en": "Castform Snowy Form",

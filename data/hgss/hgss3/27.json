@@ -29,7 +29,9 @@
 		"fr": "Mystherbe"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Gloom",
 		"fr": "Ortide"

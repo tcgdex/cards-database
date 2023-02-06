@@ -40,7 +40,9 @@
 		"fr": "Tentacha"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Tentacruel",
 		"fr": "Tentacruel"

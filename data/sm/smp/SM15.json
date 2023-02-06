@@ -40,7 +40,9 @@
 		718
 	],
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Zygarde",
 		"en": "Zygarde",

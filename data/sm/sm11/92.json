@@ -42,7 +42,9 @@
 		679
 	],
 	"hp": 50,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Gramokles",
 		"en": "Honedge",

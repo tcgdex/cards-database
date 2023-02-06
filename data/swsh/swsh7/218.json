@@ -39,7 +39,9 @@
 		"de": "Rayquaza-V"
 	},
 	"hp": 320,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Rayquaza VMAX",
 		"en": "Rayquaza VMAX",

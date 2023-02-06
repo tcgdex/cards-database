@@ -27,7 +27,9 @@
 	"dexId": [
 		412
 	],
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Burmy Trash Cloak"
 	},

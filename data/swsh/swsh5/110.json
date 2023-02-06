@@ -57,7 +57,9 @@
 		"de": "Krarmor-V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Krarmor VMAX",
 		"en": "Corviknight VMAX",

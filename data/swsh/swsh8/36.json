@@ -27,7 +27,9 @@
 		"en": "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Victini",
 		"en": "Victini",

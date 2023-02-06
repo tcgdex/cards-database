@@ -48,7 +48,9 @@
 		"fr": "Mélancolux"
 	},
 	"hp": 130,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Skelabra",
 		"en": "Chandelure",

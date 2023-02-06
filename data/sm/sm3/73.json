@@ -22,7 +22,9 @@
 		739
 	],
 	"hp": 80,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Krabbox",
 		"en": "Crabrawler",

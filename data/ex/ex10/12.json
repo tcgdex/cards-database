@@ -52,7 +52,9 @@
 		"en": "Porygon"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Porygon2",
 		"fr": "Porygon2"

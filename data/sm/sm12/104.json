@@ -29,7 +29,9 @@
 		806
 	],
 	"hp": 110,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Kopplosio",
 		"en": "Blacephalon",

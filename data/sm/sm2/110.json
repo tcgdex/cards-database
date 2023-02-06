@@ -48,7 +48,9 @@
 		"fr": "Passerouge"
 	},
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Dartignis",
 		"en": "Fletchinder",

@@ -44,7 +44,9 @@
 		"en": "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is."
 	},
 	"hp": 90,
-	"illustrator": "KIYOTAKA OSHIYAMA",
+	"illustrator": [
+		"KIYOTAKA OSHIYAMA"
+	],
 	"name": {
 		"de": "Kecleon",
 		"en": "Kecleon",

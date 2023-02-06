@@ -43,7 +43,9 @@
 		700
 	],
 	"hp": 200,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Feelinara V",
 		"en": "Sylveon V",

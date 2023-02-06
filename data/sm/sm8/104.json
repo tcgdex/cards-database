@@ -51,7 +51,9 @@
 		648
 	],
 	"hp": 80,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Meloetta",
 		"en": "Meloetta",

@@ -9,7 +9,9 @@
 		"pt": "Procure por até 2 Pokémon-GX no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach bis zu 2 Pokémon-GX, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Mayla",
 		"en": "Olivia",

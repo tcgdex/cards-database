@@ -35,7 +35,9 @@
 		452
 	],
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Drapion 4",
 		"fr": "Drascore  Niv. 53"

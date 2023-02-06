@@ -37,7 +37,9 @@
 		"fr": "Ceribou"
 	},
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Cherrim",
 		"fr": "Ceriflor"

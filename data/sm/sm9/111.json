@@ -48,7 +48,9 @@
 		"fr": "Goupix d’Alola"
 	},
 	"hp": 110,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Alola Vulnona",
 		"en": "Alolan Ninetales",

@@ -6,7 +6,9 @@
 		"en": "Attach PlusPower to 1 of your Pokémon. Discard this card at the end of your turn. \nIf the Pokémon PlusPower is attached to attacks, the attack does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
 	},
 	"hp": 0,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "PlusPower",
 		"fr": "PlusPower"

@@ -26,7 +26,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Dark Ivysaur"
 	},

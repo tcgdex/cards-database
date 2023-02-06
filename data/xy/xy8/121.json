@@ -22,7 +22,9 @@
 		216
 	],
 	"hp": 70,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Teddiursa",
 		"en": "Teddiursa",

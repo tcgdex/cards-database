@@ -52,7 +52,9 @@
 		386
 	],
 	"hp": 110,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Deoxys",
 		"en": "Deoxys",

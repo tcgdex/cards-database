@@ -21,7 +21,9 @@
 		353
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Shuppet",
 		"fr": "Polichombr"

@@ -39,7 +39,9 @@
 		343
 	],
 	"hp": 70,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Puppance",
 		"en": "Baltoy",

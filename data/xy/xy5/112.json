@@ -60,7 +60,9 @@
 		"de": "Zigzachs"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Geradaks",
 		"en": "Linoone",

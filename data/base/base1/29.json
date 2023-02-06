@@ -41,7 +41,9 @@
 		"en": "Gastly"
 	},
 	"hp": 60,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Haunter",
 		"fr": "Spectrum"

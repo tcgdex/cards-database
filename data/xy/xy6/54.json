@@ -30,7 +30,9 @@
 		371
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Kindwurm",
 		"en": "Bagon",

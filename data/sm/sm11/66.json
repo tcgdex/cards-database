@@ -57,7 +57,9 @@
 		"fr": "Lampéroie"
 	},
 	"hp": 150,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Zapplarang",
 		"en": "Eelektross",

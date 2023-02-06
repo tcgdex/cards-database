@@ -16,7 +16,9 @@
 		"en": "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
 	},
 	"hp": 60,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Menki",
 		"en": "Mankey",

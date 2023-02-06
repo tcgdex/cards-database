@@ -38,7 +38,9 @@
 		"fr": "Medhyèna de la Team Magma"
 	},
 	"hp": 100,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"en": "Team Magma's Mightyena",
 		"fr": "Grahyèna de la Team Magma"

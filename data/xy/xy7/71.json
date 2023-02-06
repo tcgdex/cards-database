@@ -9,7 +9,9 @@
 		"pt": "Embaralhe 3 cards de Ferramenta Pokémon da sua pilha de descarte no seu baralho.",
 		"de": "Mische 3 Pokémon-Ausrüstungen aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "ÖkoArm",
 		"en": "Eco Arm",

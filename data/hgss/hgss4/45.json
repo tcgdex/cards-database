@@ -40,7 +40,9 @@
 		"fr": "Nidoran♀"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Nidorina",
 		"fr": "Nidorina"

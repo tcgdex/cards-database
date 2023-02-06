@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se 1 dos seus Pokémon Psychic tiver sido Nocauteado durante a última vez de jogar do seu oponente.\n\nSeu oponente revela a própria mão. Escolha 2 cartas que encontrar lá. Seu oponente embaralha aquelas cartas no próprio baralho.",
 		"de": "Du kannst diese Karte nur spielen, wenn 1 deiner Psychic-Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nDein Gegner zeigt dir seine Handkarten. Wähle 2 Karten, die du dort findest. Dein Gegner mischt jene Karten in sein Deck."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Jens",
 		"en": "Morty",

@@ -62,7 +62,9 @@
 		"de": "Wagong"
 	},
 	"hp": 180,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Montecarbo",
 		"en": "Coalossal",

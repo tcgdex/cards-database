@@ -40,7 +40,9 @@
 		384
 	],
 	"hp": 100,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Rayquaza",
 		"fr": "Rayquaza"

@@ -57,7 +57,9 @@
 		145
 	],
 	"hp": 110,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Zapdos",
 		"en": "Zapdos",

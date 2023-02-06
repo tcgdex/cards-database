@@ -42,7 +42,9 @@
 		"en": "Horsea"
 	},
 	"hp": 70,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Seadra",
 		"fr": "Hypocéan"

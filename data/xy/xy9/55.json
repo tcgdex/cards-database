@@ -51,7 +51,9 @@
 		561
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Symvolara",
 		"en": "Sigilyph",

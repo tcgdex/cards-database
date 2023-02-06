@@ -21,7 +21,9 @@
 		"en": "Mandibuzz"
 	},
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Mandibuzz BREAK"
 	},

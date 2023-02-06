@@ -38,7 +38,9 @@
 		351
 	],
 	"hp": 70,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"en": "Castform Sunny Form",
 		"fr": "Morpheo Soleil"

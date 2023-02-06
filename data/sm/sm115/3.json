@@ -22,7 +22,9 @@
 		"fr": "Chrysacier"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Butterfree",
 		"fr": "Papilusion"

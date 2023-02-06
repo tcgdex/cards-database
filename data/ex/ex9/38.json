@@ -40,7 +40,9 @@
 		"en": "Vulpix"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Ninetales",
 		"fr": "Feunard"

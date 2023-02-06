@@ -41,7 +41,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 100,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Typ:Null",
 		"en": "Type: Null",

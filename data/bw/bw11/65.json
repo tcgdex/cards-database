@@ -30,7 +30,9 @@
 		"en": "Woobat"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Swoobat"
 	},

@@ -29,7 +29,9 @@
 		522
 	],
 	"hp": 60,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Elezeba",
 		"en": "Blitzle",

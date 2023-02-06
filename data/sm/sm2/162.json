@@ -9,7 +9,9 @@
 		"pt": "Descarte 1 Energia Especial de 1 dos Pokémon do seu oponente.",
 		"de": "Lege 1 Spezial-Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Spezial-Hammer",
 		"en": "Enhanced Hammer",

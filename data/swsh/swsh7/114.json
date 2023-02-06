@@ -50,7 +50,9 @@
 		"de": "Kapuno"
 	},
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Duodino",
 		"en": "Zweilous",

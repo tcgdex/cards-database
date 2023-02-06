@@ -44,7 +44,9 @@
 		"en": "Wartortle"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Blastoise",
 		"fr": "Tortank obscur"

@@ -36,7 +36,9 @@
 		463
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Lickilicky C",
 		"fr": "Coudlangue "

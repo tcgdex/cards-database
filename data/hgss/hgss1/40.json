@@ -47,7 +47,9 @@
 		"fr": "Phanpy"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Donphan",
 		"fr": "Donphan"

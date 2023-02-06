@@ -51,7 +51,9 @@
 		"fr": "Carvanha"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Sharpedo",
 		"fr": "Sharpedo Niv. 43"

@@ -47,7 +47,9 @@
 		556
 	],
 	"hp": 110,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Maracamba",
 		"en": "Maractus",

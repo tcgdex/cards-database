@@ -21,7 +21,9 @@
 		714
 	],
 	"hp": 50,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Noibat",
 		"fr": "Sonistrelle"

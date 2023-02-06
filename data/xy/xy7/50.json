@@ -84,7 +84,9 @@
 		"de": "Metang"
 	},
 	"hp": 150,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Metagross",
 		"en": "Metagross",

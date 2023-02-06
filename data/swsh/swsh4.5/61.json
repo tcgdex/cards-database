@@ -9,7 +9,9 @@
 		"pt": "O Zamazenta V ao qual esta carta está ligada recebe 70 PS a mais.",
 		"de": "Das Zamazenta-V, an das diese Karte angelegt ist, erhält +70 KP."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rostiger Schild",
 		"en": "Rusted Shield",

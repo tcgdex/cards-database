@@ -30,7 +30,9 @@
 		209
 	],
 	"hp": 70,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Snubbull",
 		"en": "Snubbull",

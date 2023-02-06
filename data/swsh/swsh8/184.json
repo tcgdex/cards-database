@@ -21,7 +21,9 @@
 		"en": "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda."
 	},
 	"hp": 70,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Fermicula",
 		"en": "Durant",

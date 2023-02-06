@@ -33,7 +33,9 @@
 		"en": "Koffing"
 	},
 	"hp": 100,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Weezing"
 	},

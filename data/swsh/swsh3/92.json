@@ -43,7 +43,9 @@
 		"en": "When it rotates itself, it gives off light similar to the sun, thus blinding its foes."
 	},
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Sonnfel",
 		"en": "Solrock",

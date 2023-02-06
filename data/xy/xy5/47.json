@@ -54,7 +54,9 @@
 		"de": "Seemops"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Seejong",
 		"en": "Sealeo",

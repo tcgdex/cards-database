@@ -40,7 +40,9 @@
 		"en": "Marshtomp"
 	},
 	"hp": 100,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Swampert",
 		"fr": "Laggron"

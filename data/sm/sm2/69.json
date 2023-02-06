@@ -46,7 +46,9 @@
 		299
 	],
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Nasgnet",
 		"en": "Nosepass",

@@ -41,7 +41,9 @@
 		"fr": "Chuchmur"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Loudred",
 		"fr": "Ramboum"

@@ -51,7 +51,9 @@
 		"de": "Amonitas"
 	},
 	"hp": 120,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Amoroso",
 		"en": "Omastar",

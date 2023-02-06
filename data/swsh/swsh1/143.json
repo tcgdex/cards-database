@@ -46,7 +46,9 @@
 		163
 	],
 	"hp": 70,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Hoothoot",
 		"en": "Hoothoot",

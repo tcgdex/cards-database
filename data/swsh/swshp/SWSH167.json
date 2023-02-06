@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "Search your deck for up to 2 cards and discard them. Then, shuffle your deck."
 	},
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"en": "Professor Burnet"
 	},

@@ -34,7 +34,9 @@
 		"en": "Prinplup"
 	},
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Empoleon"
 	},

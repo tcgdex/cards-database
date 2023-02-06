@@ -51,7 +51,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Ampharos V",
 		"en": "Ampharos V",

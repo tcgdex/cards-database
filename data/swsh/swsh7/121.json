@@ -63,7 +63,9 @@
 		"de": "Knapfel"
 	},
 	"hp": 90,
-	"illustrator": "Yuya Oka",
+	"illustrator": [
+		"Yuya Oka"
+	],
 	"name": {
 		"de": "Schlapfel",
 		"en": "Appletun",

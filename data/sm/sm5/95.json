@@ -53,7 +53,9 @@
 		"fr": "Noeunoeuf"
 	},
 	"hp": 130,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Alola-Kokowei",
 		"en": "Alolan Exeggutor",

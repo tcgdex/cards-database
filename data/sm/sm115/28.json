@@ -17,7 +17,9 @@
 		109
 	],
 	"hp": 60,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Koffing",
 		"fr": "Smogo"

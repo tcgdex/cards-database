@@ -30,7 +30,9 @@
 		66
 	],
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Machollo",
 		"en": "Machop",

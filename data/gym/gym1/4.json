@@ -38,7 +38,9 @@
 		"en": "Dratini"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Erika's Dragonair"
 	},

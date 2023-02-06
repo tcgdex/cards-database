@@ -68,7 +68,9 @@
 		"en": "Loudred"
 	},
 	"hp": 120,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Exploud",
 		"fr": "Brouhabam"

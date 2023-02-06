@@ -42,7 +42,9 @@
 		"fr": "Riolu"
 	},
 	"hp": 90,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Lucario",
 		"fr": "Lucario"

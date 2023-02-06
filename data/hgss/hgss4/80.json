@@ -24,7 +24,9 @@
 		72
 	],
 	"hp": 60,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Tentacool",
 		"fr": "Tentacool"

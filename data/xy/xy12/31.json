@@ -59,7 +59,9 @@
 		"de": "Sterndu"
 	},
 	"hp": 90,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Starmie",
 		"en": "Starmie",

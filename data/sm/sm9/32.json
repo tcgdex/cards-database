@@ -51,7 +51,9 @@
 		144
 	],
 	"hp": 110,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Arktos",
 		"en": "Articuno",

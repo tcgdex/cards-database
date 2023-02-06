@@ -46,7 +46,9 @@
 		"en": "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Zarude",
 		"en": "Zarude",

@@ -57,7 +57,9 @@
 		"fr": "Batracné"
 	},
 	"hp": 160,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Branawarz",
 		"en": "Seismitoad",

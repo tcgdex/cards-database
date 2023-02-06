@@ -37,7 +37,9 @@
 		"en": "Treecko"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Grovyle δ",
 		"fr": "Massko δ"

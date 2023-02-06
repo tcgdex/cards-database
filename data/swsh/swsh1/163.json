@@ -9,7 +9,9 @@
 		"pt": "Procure por 1 Pokémon de Evolução no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach 1 Entwicklungs-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Entwicklungsrauch",
 		"en": "Evolution Incense",

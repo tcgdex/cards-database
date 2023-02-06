@@ -39,7 +39,9 @@
 		843
 	],
 	"hp": 70,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Salanga",
 		"en": "Silicobra",

@@ -22,7 +22,9 @@
 		58
 	],
 	"hp": 70,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Fukano",
 		"en": "Growlithe",

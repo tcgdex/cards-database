@@ -51,7 +51,9 @@
 		311
 	],
 	"hp": 70,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Plusle",
 		"en": "Plusle",

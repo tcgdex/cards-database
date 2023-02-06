@@ -29,7 +29,9 @@
 		35
 	],
 	"hp": 60,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Piepi",
 		"en": "Clefairy",

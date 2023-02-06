@@ -32,7 +32,9 @@
 		198
 	],
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Murkrow",
 		"fr": "Cornebre"

@@ -42,7 +42,9 @@
 		"fr": "Lampéroie"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Zapplarang",
 		"en": "Eelektross",

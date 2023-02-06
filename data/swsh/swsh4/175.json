@@ -45,7 +45,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Piondragi V",
 		"en": "Drapion V",

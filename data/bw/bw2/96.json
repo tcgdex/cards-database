@@ -9,7 +9,9 @@
 		"pt": "Jogue uma moeda. Se sair cara, coloque um card da sua pilha de descarte em cima do seu baralho.",
 		"de": "Wirf 1 Münze. Lege bei „Kopf“ 1 Karte von deinem Ablagestapel auf dein Deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Aufbereitung",
 		"en": "Recycle",

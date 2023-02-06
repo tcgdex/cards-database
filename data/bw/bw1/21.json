@@ -29,7 +29,9 @@
 		513
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Grillmak",
 		"en": "Pansear",

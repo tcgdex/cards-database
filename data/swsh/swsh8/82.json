@@ -16,7 +16,9 @@
 		"en": "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up."
 	},
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Pikuda",
 		"en": "Arrokuda",

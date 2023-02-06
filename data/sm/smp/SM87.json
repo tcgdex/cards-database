@@ -50,7 +50,9 @@
 		380
 	],
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Latias",
 		"en": "Latias",

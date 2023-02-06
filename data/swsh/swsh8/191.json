@@ -30,7 +30,9 @@
 		"en": "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color."
 	},
 	"hp": 100,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Kupfanti",
 		"en": "Cufant",

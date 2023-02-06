@@ -54,7 +54,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 90,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Electrode",
 		"fr": "Electrode"

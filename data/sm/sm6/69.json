@@ -56,7 +56,9 @@
 		"fr": "Ptyranidur"
 	},
 	"hp": 160,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Monargoras",
 		"en": "Tyrantrum",

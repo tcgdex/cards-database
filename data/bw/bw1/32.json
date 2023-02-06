@@ -48,7 +48,9 @@
 		"fr": "Mateloutre"
 	},
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Admurai",
 		"en": "Samurott",

@@ -35,7 +35,9 @@
 		"en": "Caterpie"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Metapod"
 	},

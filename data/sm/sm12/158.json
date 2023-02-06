@@ -65,7 +65,9 @@
 		799
 	],
 	"hp": 280,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Agoyon & Schlingking GX",
 		"en": "Naganadel & Guzzlord GX",

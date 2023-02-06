@@ -35,7 +35,9 @@
 		39
 	],
 	"hp": 70,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Pummeluff",
 		"en": "Jigglypuff",

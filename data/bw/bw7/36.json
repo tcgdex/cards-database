@@ -30,7 +30,9 @@
 		183
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Marill",
 		"en": "Marill",

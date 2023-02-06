@@ -40,7 +40,9 @@
 		"fr": "Machopeur"
 	},
 	"hp": 150,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"en": "Machamp",
 		"fr": "Mackogneur"

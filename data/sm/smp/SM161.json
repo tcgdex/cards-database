@@ -43,7 +43,9 @@
 		385
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Jirachi",
 		"en": "Jirachi",

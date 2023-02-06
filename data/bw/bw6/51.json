@@ -39,7 +39,9 @@
 		"fr": "Baudrive"
 	},
 	"hp": 100,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Drifzepeli",
 		"en": "Drifblim",

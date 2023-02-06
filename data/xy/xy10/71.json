@@ -37,7 +37,9 @@
 		"de": "Waumboll"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Elfun",
 		"en": "Whimsicott",

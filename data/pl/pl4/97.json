@@ -30,7 +30,9 @@
 	"dexId": [
 		94
 	],
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Gengar LV. X"
 	},

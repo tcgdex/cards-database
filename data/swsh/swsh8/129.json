@@ -37,7 +37,9 @@
 		"de": "Grolldra"
 	},
 	"hp": 90,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Phandra",
 		"en": "Drakloak",

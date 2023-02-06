@@ -43,7 +43,9 @@
 	"evolveFrom": {
 		"en": "Charmeleon"
 	},
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Charizard"
 	},

@@ -9,7 +9,9 @@
 		"pt": "Escolha para onde este card ficará voltado antes de jogá-lo. O Pokémon deste jogador ↓ não pode ficar Adormecido ou Paralisado. (Se estes Pokémon já estiverem Adormecidos ou Paralisados, remova estas Condições Especiais.)\n\nO Pokémon deste jogador ↓ não pode ficar Confuso ou Envenenado. (Se estes Pokémon já estiverem Confusos ou Envenenados, remova estas Condições Especiais.)",
 		"de": "Entscheide dich vor dem Spielen dieser Karte, auf welchen Spieler \"↓\" zeigen soll. Die Pokémon des angezeigten Spielers können nicht von Schlaf oder Paralyse betroffen werden. (Wenn diese Pokémon schon von Schlaf oder Paralyse betroffen sind, entferne verlieren diese Speziellen Zustände ihre Wirkung.)\n\nDie Pokémon des angezeigten Spielers können nicht von Verwirrung oder Vergiftung betroffen werden. (Wenn diese Pokémon schon von Verwirrung oder Vergiftung betroffen sind, verlieren diese Speziellen Zustände ihre Wirkung.)"
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Chaosturm",
 		"en": "Chaos Tower",

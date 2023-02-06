@@ -37,7 +37,9 @@
 		167
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Spinarak",
 		"fr": "Mimigal"

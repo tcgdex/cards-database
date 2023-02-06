@@ -37,7 +37,9 @@
 		659
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Scoppel",
 		"en": "Bunnelby",

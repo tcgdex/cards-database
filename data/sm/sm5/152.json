@@ -9,7 +9,9 @@
 		"pt": "Compre as 3 últimas cartas do seu baralho.",
 		"de": "Ziehe 3 Karten von unten aus deinem Deck."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "LeBelle",
 		"en": "Looker",

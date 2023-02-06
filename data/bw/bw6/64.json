@@ -42,7 +42,9 @@
 		"fr": "Balbuto"
 	},
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Lepumentas",
 		"en": "Claydol",

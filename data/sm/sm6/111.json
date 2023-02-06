@@ -9,7 +9,9 @@
 		"pt": "Cartas de Ferramenta Pokémon em jogo (suas e do seu oponente) não têm efeito.",
 		"de": "Pokémon-Ausrüstungen im Spiel (deine und die deines Gegners) haben keinen Effekt."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Labor von Flordelis",
 		"en": "Lysandre Labs",

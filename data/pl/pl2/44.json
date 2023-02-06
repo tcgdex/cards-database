@@ -42,7 +42,9 @@
 		"fr": "Galekid"
 	},
 	"hp": 80,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Lairon",
 		"fr": "Galegon Niv. 37"

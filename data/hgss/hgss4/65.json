@@ -21,7 +21,9 @@
 		401
 	],
 	"hp": 50,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Kricketot",
 		"fr": "Crikzik"

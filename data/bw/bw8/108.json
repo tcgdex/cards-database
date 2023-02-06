@@ -45,7 +45,9 @@
 		249
 	],
 	"hp": 180,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Lugia-EX",
 		"en": "Lugia-EX",

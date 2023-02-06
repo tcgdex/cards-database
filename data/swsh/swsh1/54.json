@@ -24,7 +24,9 @@
 		816
 	],
 	"hp": 60,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Memmeon",
 		"en": "Sobble",

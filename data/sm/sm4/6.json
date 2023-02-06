@@ -55,7 +55,9 @@
 		"fr": "Cacnea"
 	},
 	"hp": 110,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Noktuska",
 		"en": "Cacturne",

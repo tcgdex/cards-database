@@ -43,7 +43,9 @@
 		10
 	],
 	"hp": 50,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Raupy",
 		"en": "Caterpie",

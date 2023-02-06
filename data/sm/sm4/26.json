@@ -29,7 +29,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Barschwa",
 		"en": "Feebas",

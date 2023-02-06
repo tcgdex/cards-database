@@ -26,7 +26,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Meltan",
 		"en": "Meltan",

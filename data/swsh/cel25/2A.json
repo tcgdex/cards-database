@@ -32,7 +32,9 @@
 		"en": "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles."
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Blastoise"
 	},

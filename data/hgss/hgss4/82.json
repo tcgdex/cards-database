@@ -39,7 +39,9 @@
 		313
 	],
 	"hp": 70,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Volbeat",
 		"fr": "Muciole"

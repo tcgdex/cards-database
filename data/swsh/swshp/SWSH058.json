@@ -58,7 +58,9 @@
 		"fr": "Crèmy"
 	},
 	"hp": 110,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Pokusan",
 		"en": "Alcremie",

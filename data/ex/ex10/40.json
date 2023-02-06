@@ -40,7 +40,9 @@
 		"en": "Chinchou"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Lanturn",
 		"fr": "Lanturn"

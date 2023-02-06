@@ -52,7 +52,9 @@
 		781
 	],
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Moruda",
 		"en": "Dhelmise",

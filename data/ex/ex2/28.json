@@ -36,7 +36,9 @@
 		"en": "Claw Fossil"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Anorith",
 		"fr": "Anorith"

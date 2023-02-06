@@ -38,7 +38,9 @@
 		477
 	],
 	"hp": 90,
-	"illustrator": "Motofumi Fujiwara",
+	"illustrator": [
+		"Motofumi Fujiwara"
+	],
 	"name": {
 		"en": "Dusknoir FB",
 		"fr": "Noctunoir "

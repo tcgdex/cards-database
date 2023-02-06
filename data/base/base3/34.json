@@ -41,7 +41,9 @@
 		"en": "Zubat"
 	},
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Golbat",
 		"fr": "Nosferalto"

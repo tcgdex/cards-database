@@ -62,7 +62,9 @@
 		"de": "Rokkaiman"
 	},
 	"hp": 150,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Rabigator",
 		"en": "Krookodile",

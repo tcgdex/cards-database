@@ -59,7 +59,9 @@
 		"de": "Mollimorba"
 	},
 	"hp": 80,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Hypnomorba",
 		"en": "Gothorita",

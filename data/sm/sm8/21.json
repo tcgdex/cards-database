@@ -47,7 +47,9 @@
 		"fr": "Arcko"
 	},
 	"hp": 80,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Reptain",
 		"en": "Grovyle",

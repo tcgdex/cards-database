@@ -55,7 +55,9 @@
 		"de": "Rihorn"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Rizeros",
 		"en": "Rhydon",

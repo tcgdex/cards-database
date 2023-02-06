@@ -40,7 +40,9 @@
 		"fr": "Statitik"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Voltula",
 		"en": "Galvantula",

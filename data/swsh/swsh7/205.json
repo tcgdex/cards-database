@@ -42,7 +42,9 @@
 		"de": "Folipurba-V"
 	},
 	"hp": 310,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Folipurba VMAX",
 		"en": "Leafeon VMAX",

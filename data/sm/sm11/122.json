@@ -48,7 +48,9 @@
 		639
 	],
 	"hp": 140,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Terrakium",
 		"en": "Terrakion",

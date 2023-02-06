@@ -30,7 +30,9 @@
 		81
 	],
 	"hp": 60,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"en": "Magnemite",
 		"fr": "Magnéti"

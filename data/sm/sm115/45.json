@@ -18,7 +18,9 @@
 		83
 	],
 	"hp": 80,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"en": "Farfetch’d",
 		"fr": "Canarticho"

@@ -28,7 +28,9 @@
 		422
 	],
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Shellos West Sea",
 		"fr": "Sancoki Mer Occident Niv. 27"

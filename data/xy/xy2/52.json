@@ -60,7 +60,9 @@
 		"de": "Sniebel"
 	},
 	"hp": 90,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Snibunna",
 		"en": "Weavile",

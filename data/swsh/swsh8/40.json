@@ -52,7 +52,9 @@
 		"de": "Skelabra-V"
 	},
 	"hp": 320,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Skelabra VMAX",
 		"en": "Chandelure VMAX",

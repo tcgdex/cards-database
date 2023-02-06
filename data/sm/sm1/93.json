@@ -46,7 +46,9 @@
 		"fr": "Bombydou"
 	},
 	"hp": 60,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Bandelby",
 		"en": "Ribombee",

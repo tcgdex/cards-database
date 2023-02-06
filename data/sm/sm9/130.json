@@ -56,7 +56,9 @@
 		"fr": "Fossile Inconnu"
 	},
 	"hp": 130,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Aerodactyl",
 		"en": "Aerodactyl",

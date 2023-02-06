@@ -46,7 +46,9 @@
 		25
 	],
 	"hp": 60,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Pikachu",
 		"en": "Pikachu",

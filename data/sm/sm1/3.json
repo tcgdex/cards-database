@@ -57,7 +57,9 @@
 		"fr": "Chrysacier"
 	},
 	"hp": 130,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Smettbo",
 		"en": "Butterfree",

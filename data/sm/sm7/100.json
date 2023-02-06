@@ -33,7 +33,9 @@
 		797
 	],
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Kaguron",
 		"en": "Celesteela",

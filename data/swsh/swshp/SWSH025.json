@@ -51,7 +51,9 @@
 		"fr": "Miamiasme"
 	},
 	"hp": 120,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Deponitox",
 		"en": "Garbodor",

@@ -57,7 +57,9 @@
 		"fr": "Dinoclier"
 	},
 	"hp": 130,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Bastiodon",
 		"fr": "Bastiodon"

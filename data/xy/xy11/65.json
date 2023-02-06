@@ -53,7 +53,9 @@
 		717
 	],
 	"hp": 130,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Yveltal",
 		"en": "Yveltal",

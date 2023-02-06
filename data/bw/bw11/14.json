@@ -34,7 +34,9 @@
 		"en": "Dwebble"
 	},
 	"hp": 100,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Crustle"
 	},

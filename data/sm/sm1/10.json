@@ -56,7 +56,9 @@
 		"fr": "Brindibou"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Arboretoss",
 		"en": "Dartrix",

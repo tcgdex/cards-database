@@ -31,7 +31,9 @@
 		656
 	],
 	"hp": 50,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Froakie",
 		"fr": "Grenousse"

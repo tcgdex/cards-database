@@ -53,7 +53,9 @@
 		621
 	],
 	"hp": 120,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Shardrago",
 		"en": "Druddigon",

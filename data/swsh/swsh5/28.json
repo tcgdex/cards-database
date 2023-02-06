@@ -59,7 +59,9 @@
 		"de": "Molunk"
 	},
 	"hp": 90,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Amfira",
 		"en": "Salazzle",

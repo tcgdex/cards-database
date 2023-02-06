@@ -64,7 +64,9 @@
 		"de": "Rokkaiman"
 	},
 	"hp": 140,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Rabigator",
 		"en": "Krookodile",

@@ -49,7 +49,9 @@
 		778
 	],
 	"hp": 70,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Mimigma",
 		"en": "Mimikyu",

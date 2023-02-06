@@ -63,7 +63,9 @@
 		"de": "Duokles"
 	},
 	"hp": 140,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Durengard",
 		"en": "Aegislash",

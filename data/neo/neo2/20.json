@@ -44,7 +44,9 @@
 		"en": "Eevee"
 	},
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Espeon",
 		"fr": "Mentali"

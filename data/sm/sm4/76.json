@@ -47,7 +47,9 @@
 		"fr": "Bébécaille"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Mediras",
 		"en": "Hakamo-o",

@@ -72,7 +72,9 @@
 		800
 	],
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Abendmähne-Necrozma GX",
 		"en": "Dusk Mane Necrozma GX",

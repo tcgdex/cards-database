@@ -52,7 +52,9 @@
 		"de": "Altbernstein Aerodactyl"
 	},
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Aerodactyl",
 		"en": "Aerodactyl",

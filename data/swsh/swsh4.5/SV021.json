@@ -56,7 +56,9 @@
 		"en": "Galarian Mr. Mime"
 	},
 	"hp": 120,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Galar-Pantifrost",
 		"en": "Galarian Mr. Rime",

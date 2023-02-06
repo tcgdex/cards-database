@@ -54,7 +54,9 @@
 		"en": "Poliwhirl"
 	},
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Poliwrath",
 		"fr": "Tartard"

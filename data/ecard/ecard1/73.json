@@ -41,7 +41,9 @@
 		"en": "Charmander"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Charmeleon",
 		"fr": "Reptincel"

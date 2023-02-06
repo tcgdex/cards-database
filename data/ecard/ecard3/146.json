@@ -50,7 +50,9 @@
 		"en": "Charmeleon"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Charizard"
 	},

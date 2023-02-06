@@ -44,7 +44,9 @@
 		123
 	],
 	"hp": 80,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Rocket's Scyther ex"
 	},

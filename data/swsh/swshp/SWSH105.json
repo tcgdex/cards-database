@@ -39,7 +39,9 @@
 		282
 	],
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Gardevoir V",
 		"es": "Gardevoir V",

@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, esse jogador pode jogar uma moeda. Se sair cara, o jogador deverá colocar um Pokémon Restaurado da mão dele ou dela em seu próprio Banco.",
 		"de": "Einmal während seines Zuges darf jeder Spieler 1 Münze werfen. Bei „Kopf“ durchsucht der Spieler sein Deck nach 1 Erweckt-Pokémon und legt es auf seine Bank."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Wendelberg",
 		"en": "Twist Mountain",

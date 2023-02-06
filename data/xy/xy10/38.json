@@ -29,7 +29,9 @@
 		"de": "Domfossil Kabuto"
 	},
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Kabuto",
 		"en": "Kabuto",

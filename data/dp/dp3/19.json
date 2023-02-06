@@ -39,7 +39,9 @@
 		"fr": "Suicune"
 	},
 	"hp": 70,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Suicune",
 		"fr": "Suicune"

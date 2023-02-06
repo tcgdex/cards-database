@@ -56,7 +56,9 @@
 		250
 	],
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Ho-Oh",
 		"en": "Ho-Oh",

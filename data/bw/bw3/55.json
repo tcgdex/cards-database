@@ -31,7 +31,9 @@
 		605
 	],
 	"hp": 60,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Pygraulon",
 		"en": "Elgyem",

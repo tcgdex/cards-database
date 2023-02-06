@@ -58,7 +58,9 @@
 		"de": "Sanaconda-V"
 	},
 	"hp": 320,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Sanaconda VMAX",
 		"en": "Sandaconda VMAX",

@@ -21,7 +21,9 @@
 		690
 	],
 	"hp": 60,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Algitt",
 		"en": "Skrelp",

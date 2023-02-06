@@ -28,7 +28,9 @@
 		509
 	],
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Felilou",
 		"en": "Purrloin",

@@ -36,7 +36,9 @@
 		250
 	],
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Ho-Oh ex",
 		"fr": "Ho-Oh ex"

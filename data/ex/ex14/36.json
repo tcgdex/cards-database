@@ -39,7 +39,9 @@
 		"en": "Aron"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Lairon",
 		"fr": "Galegon"

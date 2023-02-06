@@ -35,7 +35,9 @@
 		359
 	],
 	"hp": 100,
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Absol G",
 		"fr": "Absol "

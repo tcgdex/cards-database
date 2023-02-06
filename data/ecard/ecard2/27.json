@@ -38,7 +38,9 @@
 		"en": "Paras"
 	},
 	"hp": 70,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Parasect",
 		"fr": "Parasect"

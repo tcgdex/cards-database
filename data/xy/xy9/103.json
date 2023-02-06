@@ -9,7 +9,9 @@
 		"pt": "Cure todos os danos de 1 dos seus Pokémon. Se fizer isso, descarte todas as Energias ligadas àquele Pokémon.",
 		"de": "Heile allen Schaden bei 1 deiner Pokémon. Wenn du das machst, lege alle an jenes Pokémon angelegten Energien auf deinen Ablagestapel."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Top-Trank",
 		"en": "Max Potion",

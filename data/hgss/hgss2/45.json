@@ -24,7 +24,9 @@
 		418
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Buizel",
 		"fr": "Mustébouée"

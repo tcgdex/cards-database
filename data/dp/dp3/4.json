@@ -36,7 +36,9 @@
 		244
 	],
 	"hp": 80,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Entei",
 		"fr": "Entei"

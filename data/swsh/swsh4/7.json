@@ -55,7 +55,9 @@
 		"de": "Yanma"
 	},
 	"hp": 130,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Yanmega",
 		"en": "Yanmega",

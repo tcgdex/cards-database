@@ -56,7 +56,9 @@
 		"fr": "Nounourson"
 	},
 	"hp": 120,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Kosturso",
 		"en": "Bewear",

@@ -52,7 +52,9 @@
 		"de": "Skallyk"
 	},
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Grypheldis",
 		"en": "Mandibuzz",

@@ -42,7 +42,9 @@
 		"fr": "Kokiyas"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Cloyster",
 		"fr": "Crustabri"

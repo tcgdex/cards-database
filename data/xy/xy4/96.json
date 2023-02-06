@@ -9,7 +9,9 @@
 		"pt": "Seu oponente revela a própria mão.",
 		"de": "Dein Gegner deckt seine Handkarten auf."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Handperiskop",
 		"en": "Hand Scope",

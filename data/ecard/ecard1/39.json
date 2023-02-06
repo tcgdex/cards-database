@@ -40,7 +40,9 @@
 		"en": "Charmeleon"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Charizard",
 		"fr": "Dracaufeu"

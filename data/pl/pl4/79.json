@@ -25,7 +25,9 @@
 	"dexId": [
 		252
 	],
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Treecko"
 	},

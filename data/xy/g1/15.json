@@ -40,7 +40,9 @@
 		"fr": "Ponyta"
 	},
 	"hp": 90,
-	"illustrator": "DemizuPosuka",
+	"illustrator": [
+		"DemizuPosuka"
+	],
 	"name": {
 		"en": "Rapidash",
 		"fr": "Galopa"

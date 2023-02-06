@@ -64,7 +64,9 @@
 		"de": "Georok"
 	},
 	"hp": 150,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Geowaz",
 		"en": "Golem",

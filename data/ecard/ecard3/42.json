@@ -35,7 +35,9 @@
 		"en": "Meowth"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Persian"
 	},

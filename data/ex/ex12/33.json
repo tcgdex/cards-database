@@ -41,7 +41,9 @@
 		"en": "Sentret"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Furret",
 		"fr": "Fouinar"

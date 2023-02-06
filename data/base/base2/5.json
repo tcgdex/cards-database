@@ -40,7 +40,9 @@
 		115
 	],
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Kangaskhan",
 		"fr": "Kangourex"

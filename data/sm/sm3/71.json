@@ -48,7 +48,9 @@
 		"fr": "Riolu"
 	},
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Lucario",
 		"en": "Lucario",

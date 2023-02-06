@@ -28,7 +28,9 @@
 		1
 	],
 	"hp": 60,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Bisasam",
 		"en": "Bulbasaur",

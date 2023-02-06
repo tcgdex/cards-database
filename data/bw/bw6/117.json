@@ -10,7 +10,9 @@
 		"de": "Diese Karte liefert Colorless-Energie. Wenn diese Karte an ein Pokémon angelegt ist, zählt sie als Grass-, Fire-, Psychic- oder Darkness-Energie, spendet aber immer nur jeweils 1 Energie."
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Allerlei-Energie GrassFirePsychicDarkness",
 		"en": "Blend Energy Grass Fire Psychic Darkness",

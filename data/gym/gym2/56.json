@@ -34,7 +34,9 @@
 		"en": "Drowzee"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sabrina's Hypno"
 	},

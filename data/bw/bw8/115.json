@@ -22,7 +22,9 @@
 		627
 	],
 	"hp": 50,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Geronimatz",
 		"en": "Rufflet",

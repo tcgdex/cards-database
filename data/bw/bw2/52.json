@@ -38,7 +38,9 @@
 		"fr": "Nodulithe"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Sedimantur",
 		"en": "Boldore",

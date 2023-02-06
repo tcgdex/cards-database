@@ -46,7 +46,9 @@
 		218
 	],
 	"hp": 80,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Schneckmag",
 		"en": "Slugma",

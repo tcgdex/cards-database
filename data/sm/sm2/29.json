@@ -39,7 +39,9 @@
 		320
 	],
 	"hp": 120,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Wailmer",
 		"en": "Wailmer",

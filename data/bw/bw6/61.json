@@ -41,7 +41,9 @@
 		"fr": "Osselait"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Knogga",
 		"en": "Marowak",

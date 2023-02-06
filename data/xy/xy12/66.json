@@ -42,7 +42,9 @@
 		19
 	],
 	"hp": 40,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Rattfratz",
 		"en": "Rattata",

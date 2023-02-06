@@ -34,7 +34,9 @@
 		445
 	],
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Garchomp C",
 		"fr": "Carchacrok "

@@ -41,7 +41,9 @@
 		"fr": "Tutafeh"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Echnatoll",
 		"en": "Cofagrigus",

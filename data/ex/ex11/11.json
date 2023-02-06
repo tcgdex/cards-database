@@ -38,7 +38,9 @@
 		"en": "Metang"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Metagross δ",
 		"fr": "Metalosse δ ESPÈCES DELTA"

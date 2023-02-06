@@ -29,7 +29,9 @@
 		"en": "It's exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience."
 	},
 	"hp": 70,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Riolu",
 		"en": "Riolu",

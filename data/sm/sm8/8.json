@@ -49,7 +49,9 @@
 		"fr": "Macronium"
 	},
 	"hp": 150,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Meganie",
 		"en": "Meganium",

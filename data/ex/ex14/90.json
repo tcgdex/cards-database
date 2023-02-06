@@ -42,7 +42,9 @@
 		"en": "Combusken"
 	},
 	"hp": 150,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Blaziken ex",
 		"fr": "Brasegali ex"

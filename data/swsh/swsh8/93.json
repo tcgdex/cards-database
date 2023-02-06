@@ -25,7 +25,9 @@
 		"de": "Luxio"
 	},
 	"hp": 160,
-	"illustrator": "Atsushi Furusawa",
+	"illustrator": [
+		"Atsushi Furusawa"
+	],
 	"name": {
 		"de": "Luxtra",
 		"en": "Luxray",

@@ -31,7 +31,9 @@
 		50
 	],
 	"hp": 50,
-	"illustrator": "Takao Unno",
+	"illustrator": [
+		"Takao Unno"
+	],
 	"name": {
 		"en": "Diglett",
 		"fr": "Taupiqueur"

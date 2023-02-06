@@ -36,7 +36,9 @@
 		"de": "Klopptopus"
 	},
 	"hp": 130,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Kaocto",
 		"en": "Grapploct",

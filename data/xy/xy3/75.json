@@ -51,7 +51,9 @@
 		"de": "Knacklion"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Vibrava",
 		"en": "Vibrava",

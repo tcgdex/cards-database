@@ -9,7 +9,9 @@
 		"pt": "Compre 3 cartas. Em seguida, descarte 1 carta da sua mão. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
 		"de": "Ziehe 3 Karten. Lege anschließend 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
 	},
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "TV-Reporter",
 		"en": "TV Reporter",

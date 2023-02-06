@@ -36,7 +36,9 @@
 		"en": "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
 	},
 	"hp": 70,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Larvitar",
 		"en": "Larvitar",

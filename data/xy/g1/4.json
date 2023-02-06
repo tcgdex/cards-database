@@ -38,7 +38,9 @@
 		"fr": "Chenipan"
 	},
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Metapod",
 		"fr": "Chrysacier"

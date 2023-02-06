@@ -33,7 +33,9 @@
 		439
 	],
 	"hp": 50,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Mime Jr.",
 		"fr": "Mime Junior"

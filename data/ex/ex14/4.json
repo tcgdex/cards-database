@@ -40,7 +40,9 @@
 		"en": "Charmeleon"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Charizard δ",
 		"fr": "Dracaufeu δ"

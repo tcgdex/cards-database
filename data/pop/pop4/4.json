@@ -31,7 +31,9 @@
 		151
 	],
 	"hp": 70,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Mew"
 	},

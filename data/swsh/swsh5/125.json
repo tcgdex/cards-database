@@ -9,7 +9,9 @@
 		"pt": "Cada jogador troca seu Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela. (Seu oponente troca primeiro. Se um jogador não tiver um Pokémon no Banco, ele não trocará os Pokémon.)",
 		"de": "Jeder Spieler tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus. (Dein Gegner beginnt. Hat ein Spieler kein Pokémon auf der Bank, tauscht er kein Pokémon aus.)"
 	},
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Fluchtseil",
 		"en": "Escape Rope",

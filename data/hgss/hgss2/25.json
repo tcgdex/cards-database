@@ -34,7 +34,9 @@
 		324
 	],
 	"hp": 80,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Torkoal",
 		"fr": "Chartor"

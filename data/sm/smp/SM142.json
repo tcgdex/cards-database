@@ -54,7 +54,9 @@
 		646
 	],
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Kyurem",
 		"en": "Kyurem",

@@ -41,7 +41,9 @@
 		"en": "Nidorina"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Nidoqueen",
 		"fr": "Nidoqueen"

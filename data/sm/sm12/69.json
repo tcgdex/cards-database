@@ -48,7 +48,9 @@
 		"fr": "Magnéti"
 	},
 	"hp": 80,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Magneton",
 		"en": "Magneton",

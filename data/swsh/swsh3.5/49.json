@@ -47,7 +47,9 @@
 		"fr": "Tylton"
 	},
 	"hp": 110,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Altaria",
 		"en": "Altaria",

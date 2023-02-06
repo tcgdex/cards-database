@@ -36,7 +36,9 @@
 		"en": "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
 	"hp": 70,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

@@ -27,7 +27,9 @@
 		"en": "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita."
 	},
 	"hp": 90,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Makuhita",
 		"en": "Makuhita",

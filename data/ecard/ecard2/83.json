@@ -34,7 +34,9 @@
 		187
 	],
 	"hp": 40,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Hoppip",
 		"fr": "Granivol"

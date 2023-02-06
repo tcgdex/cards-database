@@ -37,7 +37,9 @@
 		"en": "Hoppip"
 	},
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Skiploom",
 		"fr": "Floravol"

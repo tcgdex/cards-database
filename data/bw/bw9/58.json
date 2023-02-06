@@ -39,7 +39,9 @@
 		"fr": "Nidorino"
 	},
 	"hp": 140,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Nidoking",
 		"en": "Nidoking",

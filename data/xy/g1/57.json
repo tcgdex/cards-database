@@ -37,7 +37,9 @@
 		128
 	],
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Tauros",
 		"fr": "Tauros"

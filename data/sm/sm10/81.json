@@ -50,7 +50,9 @@
 		802
 	],
 	"hp": 80,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Marshadow",
 		"en": "Marshadow",

@@ -56,7 +56,9 @@
 		"fr": "Spoink"
 	},
 	"hp": 120,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Groink",
 		"en": "Grumpig",

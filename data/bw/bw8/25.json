@@ -40,7 +40,9 @@
 		144
 	],
 	"hp": 170,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Arktos-EX",
 		"en": "Articuno-EX",

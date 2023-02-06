@@ -55,7 +55,9 @@
 		"fr": "Loupio"
 	},
 	"hp": 110,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Lanturn",
 		"en": "Lanturn",

@@ -9,7 +9,9 @@
 		"pt": "Olhe as 3 cartas de baixo do seu baralho e coloque-as como as cartas de cima do seu baralho em qualquer ordem.",
 		"de": "Schau dir die untersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge auf dein Deck."
 	},
-	"illustrator": "AYUMI ODASHIMA",
+	"illustrator": [
+		"AYUMI ODASHIMA"
+	],
 	"name": {
 		"de": "Entdecker-Set",
 		"en": "Expedition Uniform",

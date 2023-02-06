@@ -41,7 +41,9 @@
 		"fr": "Drackhaus"
 	},
 	"hp": 140,
-	"illustrator": "BERUBURI",
+	"illustrator": [
+		"BERUBURI"
+	],
 	"name": {
 		"en": "Salamence",
 		"fr": "Drattak"

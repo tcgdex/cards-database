@@ -55,7 +55,9 @@
 		"fr": "Ramboum"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Exploud",
 		"fr": "Brouhabam"

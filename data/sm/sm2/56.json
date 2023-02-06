@@ -50,7 +50,9 @@
 		741
 	],
 	"hp": 90,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Choreogel",
 		"en": "Oricorio",

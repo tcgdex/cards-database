@@ -38,7 +38,9 @@
 		"en": "Claw Fossil"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Anorith",
 		"fr": "Anorith"

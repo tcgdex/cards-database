@@ -52,7 +52,9 @@
 		"de": "Evoli"
 	},
 	"hp": 100,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Blitza",
 		"en": "Jolteon",

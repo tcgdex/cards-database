@@ -35,7 +35,9 @@
 		429
 	],
 	"hp": 100,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Mismagius GL",
 		"fr": "Magirêve  Niv. X"

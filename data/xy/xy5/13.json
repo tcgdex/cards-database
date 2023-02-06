@@ -21,7 +21,9 @@
 		283
 	],
 	"hp": 50,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Gehweiher",
 		"en": "Surskit",

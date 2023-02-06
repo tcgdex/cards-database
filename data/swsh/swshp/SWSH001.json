@@ -25,7 +25,9 @@
 		810
 	],
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Chimpep",
 		"en": "Grookey",

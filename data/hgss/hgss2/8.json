@@ -38,7 +38,9 @@
 		492
 	],
 	"hp": 70,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Shaymin",
 		"fr": "Shaymin"

@@ -9,7 +9,9 @@
 		"pt": "Cada jogador embaralha sua mão em seu baralho e compra 4 cards.",
 		"de": "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Richter",
 		"en": "Judge",

@@ -64,7 +64,9 @@
 		"de": "Stollrak"
 	},
 	"hp": 180,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Stolloss",
 		"en": "Aggron",

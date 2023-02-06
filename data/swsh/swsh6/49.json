@@ -60,7 +60,9 @@
 		"de": "Waaty"
 	},
 	"hp": 160,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Ampharos",
 		"en": "Ampharos",

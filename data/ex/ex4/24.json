@@ -35,7 +35,9 @@
 		331
 	],
 	"hp": 50,
-	"illustrator": "K. Utsunomiya",
+	"illustrator": [
+		"K. Utsunomiya"
+	],
 	"name": {
 		"en": "Team Aqua's Cacnea",
 		"fr": "Cacnea de Team Aqua"

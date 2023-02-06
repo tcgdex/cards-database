@@ -9,7 +9,9 @@
 		"pt": "Compre cards até ter 4 cards em sua mão.",
 		"de": "Ziehe so viele Karten, bis du 4 Karten auf der Hand hast."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Fahrrad",
 		"en": "Bicycle",

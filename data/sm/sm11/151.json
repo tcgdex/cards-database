@@ -57,7 +57,9 @@
 		"fr": "Draco"
 	},
 	"hp": 160,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Dragoran",
 		"en": "Dragonite",

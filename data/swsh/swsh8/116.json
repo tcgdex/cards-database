@@ -37,7 +37,9 @@
 		"de": "Snubbull"
 	},
 	"hp": 120,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Granbull",
 		"en": "Granbull",

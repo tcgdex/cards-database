@@ -20,7 +20,9 @@
 		252
 	],
 	"hp": 40,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Treecko",
 		"fr": "Arcko"

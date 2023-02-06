@@ -33,7 +33,9 @@
 		237
 	],
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"en": "Hitmontop"
 	},

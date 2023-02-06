@@ -20,7 +20,9 @@
 		590
 	],
 	"hp": 40,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Tarnpignon",
 		"en": "Foongus",

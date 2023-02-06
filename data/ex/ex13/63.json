@@ -31,7 +31,9 @@
 		341
 	],
 	"hp": 40,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Corphish",
 		"fr": "Ecrapince"

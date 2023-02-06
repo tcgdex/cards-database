@@ -45,7 +45,9 @@
 		"en": "Pupitar"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Tyranitar",
 		"fr": "Tyranocif"

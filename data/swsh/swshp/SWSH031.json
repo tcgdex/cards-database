@@ -54,7 +54,9 @@
 		877
 	],
 	"hp": 80,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Morpeko",
 		"en": "Morpeko",

@@ -30,7 +30,9 @@
 		108
 	],
 	"hp": 100,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Schlurp",
 		"en": "Lickitung",

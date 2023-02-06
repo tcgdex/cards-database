@@ -58,7 +58,9 @@
 		"fr": "Escroco"
 	},
 	"hp": 150,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Rabigator",
 		"en": "Krookodile",

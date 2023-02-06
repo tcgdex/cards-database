@@ -37,7 +37,9 @@
 		"en": "Beldum"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Metang δ",
 		"fr": "Metang δ ESPÈCES DELTA"

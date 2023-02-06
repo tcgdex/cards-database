@@ -36,7 +36,9 @@
 		"en": "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track."
 	},
 	"hp": 70,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Fiffyen",
 		"en": "Poochyena",

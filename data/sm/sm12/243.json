@@ -51,7 +51,9 @@
 		109
 	],
 	"hp": 60,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Smogon",
 		"en": "Koffing",

@@ -55,7 +55,9 @@
 		"fr": "Chlorobule"
 	},
 	"hp": 90,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Dressella",
 		"en": "Lilligant",

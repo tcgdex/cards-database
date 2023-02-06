@@ -46,7 +46,9 @@
 		"en": "Magnemite"
 	},
 	"hp": 60,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Magneton",
 		"fr": "Magneton"

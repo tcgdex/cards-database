@@ -60,7 +60,9 @@
 		"de": "Duraludon-V"
 	},
 	"hp": 330,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Duraludon VMAX",
 		"en": "Duraludon VMAX",

@@ -28,7 +28,9 @@
 		607
 	],
 	"hp": 60,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Lichtel",
 		"en": "Litwick",

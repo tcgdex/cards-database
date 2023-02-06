@@ -31,7 +31,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 170,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Mewtwo EX"
 	},

@@ -26,7 +26,9 @@
 		"en": "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
 	},
 	"hp": 80,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Schneckmag",
 		"en": "Slugma",

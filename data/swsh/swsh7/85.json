@@ -59,7 +59,9 @@
 		"de": "Hippopotas"
 	},
 	"hp": 150,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Hippoterus",
 		"en": "Hippowdon",

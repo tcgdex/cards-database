@@ -22,7 +22,9 @@
 		636
 	],
 	"hp": 80,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Ignivor",
 		"en": "Larvesta",

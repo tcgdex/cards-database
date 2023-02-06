@@ -62,7 +62,9 @@
 		"de": "Luxio"
 	},
 	"hp": 140,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Luxtra",
 		"en": "Luxray",

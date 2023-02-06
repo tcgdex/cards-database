@@ -41,7 +41,9 @@
 		"fr": "Kirlia"
 	},
 	"hp": 130,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Gallade",
 		"fr": "Gallame"

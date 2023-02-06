@@ -56,7 +56,9 @@
 		791
 	],
 	"hp": 270,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Solgaleo & Lunala GX",
 		"en": "Solgaleo & Lunala GX",

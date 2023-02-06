@@ -28,7 +28,9 @@
 		418
 	],
 	"hp": 50,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Buizel",
 		"fr": "Mustébouée"

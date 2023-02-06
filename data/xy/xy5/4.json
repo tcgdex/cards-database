@@ -46,7 +46,9 @@
 		114
 	],
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Tangela",
 		"en": "Tangela",

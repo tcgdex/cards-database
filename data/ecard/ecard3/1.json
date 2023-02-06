@@ -31,7 +31,9 @@
 		142
 	],
 	"hp": 70,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Aerodactyl"
 	},

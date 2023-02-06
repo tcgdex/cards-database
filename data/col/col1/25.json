@@ -35,7 +35,9 @@
 		"en": "Croconaw"
 	},
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Feraligatr"
 	},

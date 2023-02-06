@@ -43,7 +43,9 @@
 		782
 	],
 	"hp": 60,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Miniras",
 		"en": "Jangmo-o",

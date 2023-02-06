@@ -38,7 +38,9 @@
 		"en": "Surskit"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Masquerain",
 		"fr": "Maskadra"

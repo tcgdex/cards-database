@@ -39,7 +39,9 @@
 		243
 	],
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Raikou",
 		"fr": "Raikou"

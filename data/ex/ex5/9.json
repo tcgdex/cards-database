@@ -55,7 +55,9 @@
 		"en": "Machoke"
 	},
 	"hp": 120,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Machamp",
 		"fr": "Mackogneur"

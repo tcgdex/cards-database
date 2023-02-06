@@ -28,7 +28,9 @@
 		"en": "Pichu"
 	},
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Pikachu",
 		"fr": "Pikachu"

@@ -9,7 +9,9 @@
 		"pt": "Compre cards até ter em sua mão o mesmo número de cards do seu oponente.",
 		"de": "Ziehe so lang Karten, bis du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner."
 	},
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Kampfreporter",
 		"en": "Battle Reporter",

@@ -36,7 +36,9 @@
 		"en": "Karrablast"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Cavalanzas",
 		"en": "Escavalier",

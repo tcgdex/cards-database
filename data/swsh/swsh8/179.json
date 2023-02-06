@@ -19,7 +19,9 @@
 		"en": "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds."
 	},
 	"hp": 50,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Morpeko",
 		"en": "Morpeko",

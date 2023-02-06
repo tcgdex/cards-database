@@ -62,7 +62,9 @@
 		"de": "Reißlaus"
 	},
 	"hp": 130,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Tectass",
 		"en": "Golisopod",

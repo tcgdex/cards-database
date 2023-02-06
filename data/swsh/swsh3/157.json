@@ -9,7 +9,9 @@
 		"pt": "Enquanto o Pokémon ao qual esta carta está ligada estiver no Campo Ativo, previna todos os efeitos de ataques dos Pokémon do seu oponente causados a todos os seus Pokémon (efeitos existentes não são removidos e dano não é um efeito).",
 		"de": "Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, verhindere alle Effekte von Attacken der Pokémon deines Gegners, die allen deinen Pokémon zugefügt werden. (Bestehende Effekte werden nicht entfernt. Schaden ist kein Effekt.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Großer Parasol",
 		"en": "Big Parasol",

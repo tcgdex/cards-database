@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada descartar Energia para cobrir seu custo de Recuo, coloque aquelas Energias na sua mão ao invés de colocá-las na pilha de descarte.",
 		"de": "Wenn du für das Pokémon, an das diese Karte angelegt ist, Energie für seine Rückzugskosten auf deinen Ablagestapel legst, nimm jene Energie stattdessen auf deine Hand."
 	},
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Flotte Hüfttasche",
 		"en": "Dashing Pouch",

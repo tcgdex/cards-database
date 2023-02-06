@@ -46,7 +46,9 @@
 		"fr": "Doudouvet"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Elfun",
 		"en": "Whimsicott",

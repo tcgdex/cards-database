@@ -44,7 +44,9 @@
 		"fr": "Miamiasme"
 	},
 	"hp": 100,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Deponitox",
 		"en": "Garbodor",

@@ -32,7 +32,9 @@
 		92
 	],
 	"hp": 30,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sabrina's Gastly"
 	},

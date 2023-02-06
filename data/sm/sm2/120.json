@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode procurar por 1 Pokémon Water Básico ou por 1 Pokémon Fighting Básico no próprio baralho, colocá-lo no próprio Banco e embaralhar o próprio baralho.",
 		"de": "Einmal während des Zuges jedes Spielers kann der Spieler sein Deck nach 1 Water-Basis-Pokémon oder 1 Fighting-Basis-Pokémon durchsuchen, es auf seine Bank legen und sein Deck mischen."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Plätscherhügel",
 		"en": "Brooklet Hill",

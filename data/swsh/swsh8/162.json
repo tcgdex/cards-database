@@ -16,7 +16,9 @@
 		"en": "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
 	},
 	"hp": 50,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Kanivanha",
 		"en": "Carvanha",

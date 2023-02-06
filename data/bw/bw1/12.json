@@ -36,7 +36,9 @@
 		556
 	],
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Maracamba",
 		"en": "Maractus",

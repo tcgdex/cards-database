@@ -21,7 +21,9 @@
 		572
 	],
 	"hp": 50,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Picochilla",
 		"en": "Minccino",

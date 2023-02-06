@@ -20,7 +20,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Feebas",
 		"fr": "Barpau"

@@ -71,7 +71,9 @@
 		"fr": "Miaouss d’Alola"
 	},
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Alola-Snobilikat GX",
 		"en": "Alolan Persian GX",

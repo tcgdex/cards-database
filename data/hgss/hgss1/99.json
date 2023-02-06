@@ -6,7 +6,9 @@
 		"en": "Flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon and switch it with your opponent’s Active Pokémon."
 	},
 	"hp": 0,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Pokémon Reversal",
 		"fr": "Inversion de Pokémon"

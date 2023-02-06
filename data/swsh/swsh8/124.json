@@ -20,7 +20,9 @@
 		"en": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it."
 	},
 	"hp": 90,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Meloetta",
 		"en": "Meloetta",

@@ -9,7 +9,9 @@
 		"pt": "Sempre que algum jogador jogar 1 Pokémon da própria mão para evoluir 1 dos próprios Pokémon, coloque 3 contadores de dano naquele Pokémon.",
 		"de": "Lege jedes Mal, wenn ein Spieler 1 Pokémon aus seiner Hand spielt, um 1 seiner Pokémon zu entwickeln, 3 Schadensmarken auf jenes Pokémon."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Po’u",
 		"en": "Po Town",

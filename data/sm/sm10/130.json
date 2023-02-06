@@ -90,7 +90,9 @@
 		282
 	],
 	"hp": 260,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Guardevoir & Feelinara GX",
 		"en": "Gardevoir & Sylveon GX",

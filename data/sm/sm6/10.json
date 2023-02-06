@@ -56,7 +56,9 @@
 		"fr": "Cabriolaine"
 	},
 	"hp": 120,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Chevrumm",
 		"en": "Gogoat",

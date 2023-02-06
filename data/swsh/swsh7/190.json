@@ -46,7 +46,9 @@
 		569
 	],
 	"hp": 210,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Deponitox V",
 		"en": "Garbodor V",

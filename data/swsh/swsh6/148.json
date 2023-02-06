@@ -9,7 +9,9 @@
 		"pt": "Pokémon em jogo que tenham uma Caixa de Regras (seus e do seu oponente) não têm Habilidades (Pokémon V, Pokémon-GX, etc. têm Caixas de Regras).",
 		"de": "Pokémon im Spiel (deine und die deines Gegners), die ein Regelfeld haben, haben keine Fähigkeiten. (Pokémon-V, Pokémon-GX usw. haben Regelfelder.)"
 	},
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Schneegipfelpfad",
 		"en": "Path to the Peak",

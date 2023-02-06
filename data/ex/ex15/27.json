@@ -35,7 +35,9 @@
 		"en": "Totodile"
 	},
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Croconaw δ",
 		"fr": "Crocrodil δ ESPÈCES DELTA"

@@ -55,7 +55,9 @@
 		"en": "Dottler"
 	},
 	"hp": 130,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Maritellit",
 		"en": "Orbeetle",

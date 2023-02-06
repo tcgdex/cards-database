@@ -47,7 +47,9 @@
 		"de": "Memmeon"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Phlegleon",
 		"en": "Drizzile",

@@ -52,7 +52,9 @@
 		"fr": "Polychombr"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Banette",
 		"fr": "Branette"

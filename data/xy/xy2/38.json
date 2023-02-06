@@ -49,7 +49,9 @@
 		355
 	],
 	"hp": 50,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Zwirrlicht",
 		"en": "Duskull",

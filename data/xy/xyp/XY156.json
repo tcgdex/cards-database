@@ -35,7 +35,9 @@
 		249
 	],
 	"hp": 120,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Lugia",
 		"fr": "Lugia"

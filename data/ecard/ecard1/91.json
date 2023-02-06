@@ -37,7 +37,9 @@
 		"en": "Cyndaquil"
 	},
 	"hp": 70,
-	"illustrator": "Asuka Iwashita",
+	"illustrator": [
+		"Asuka Iwashita"
+	],
 	"name": {
 		"en": "Quilava",
 		"fr": "Feurisson"

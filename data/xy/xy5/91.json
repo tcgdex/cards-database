@@ -53,7 +53,9 @@
 		319
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Tohaido EX",
 		"en": "Sharpedo EX",

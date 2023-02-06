@@ -21,7 +21,9 @@
 		325
 	],
 	"hp": 50,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Spoink",
 		"en": "Spoink",

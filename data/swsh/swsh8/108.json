@@ -37,7 +37,9 @@
 		"de": "Toxel"
 	},
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Riffex",
 		"en": "Toxtricity",

@@ -59,7 +59,9 @@
 		"de": "Fatalitee"
 	},
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Mortipot",
 		"en": "Polteageist",

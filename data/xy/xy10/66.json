@@ -62,7 +62,9 @@
 		"de": "Pummeluff"
 	},
 	"hp": 100,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Knuddeluff",
 		"en": "Wigglytuff",

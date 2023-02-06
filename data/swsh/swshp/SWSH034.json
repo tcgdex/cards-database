@@ -48,7 +48,9 @@
 		889
 	],
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Zamazenta",
 		"en": "Zamazenta",

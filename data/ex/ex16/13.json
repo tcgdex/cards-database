@@ -40,7 +40,9 @@
 		"en": "Vigoroth"
 	},
 	"hp": 120,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Slaking",
 		"fr": "Monaflemit"

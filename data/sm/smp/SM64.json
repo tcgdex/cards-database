@@ -56,7 +56,9 @@
 		"fr": "Type:0"
 	},
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Amigento",
 		"en": "Silvally",

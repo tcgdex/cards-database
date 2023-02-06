@@ -53,7 +53,9 @@
 		799
 	],
 	"hp": 150,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Schlingking",
 		"en": "Guzzlord",

@@ -9,7 +9,9 @@
 		"pt": "Ligue 1 carta de Energia Water da sua pilha de descarte a 1 dos seus Pokémon V. Se fizer isto, compre 3 cartas.",
 		"de": "Lege 1 Water-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon-V an. Wenn du das machst, ziehe 3 Karten."
 	},
-	"illustrator": "take",
+	"illustrator": [
+		"take"
+	],
 	"name": {
 		"de": "Mel",
 		"en": "Melony",

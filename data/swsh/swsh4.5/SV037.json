@@ -60,7 +60,9 @@
 		"en": "Rare Fossil"
 	},
 	"hp": 150,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Pescryodon",
 		"en": "Arctovish",

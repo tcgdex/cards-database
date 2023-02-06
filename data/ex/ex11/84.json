@@ -28,7 +28,9 @@
 		120
 	],
 	"hp": 50,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Staryu",
 		"fr": "Stari"

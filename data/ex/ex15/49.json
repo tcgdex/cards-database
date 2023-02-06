@@ -21,7 +21,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Feebas δ",
 		"fr": "Barpau δ ESPÈCES DELTA"

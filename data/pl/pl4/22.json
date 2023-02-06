@@ -36,7 +36,9 @@
 	"evolveFrom": {
 		"en": "Electrike"
 	},
-	"illustrator": "Mana Ibe",
+	"illustrator": [
+		"Mana Ibe"
+	],
 	"name": {
 		"en": "Manectric"
 	},

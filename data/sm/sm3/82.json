@@ -52,7 +52,9 @@
 		"fr": "Rattata d’Alola"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Alola-Rattikarl",
 		"en": "Alolan Raticate",

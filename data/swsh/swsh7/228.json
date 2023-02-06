@@ -31,7 +31,9 @@
 		488
 	],
 	"hp": 120,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Cresselia",
 		"en": "Cresselia",

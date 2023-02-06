@@ -36,7 +36,9 @@
 		"de": "Phlegleon"
 	},
 	"hp": 150,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"de": "Intelleon",
 		"en": "Inteleon",

@@ -57,7 +57,9 @@
 		"de": "Voldi"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Bellektro",
 		"en": "Boltund",

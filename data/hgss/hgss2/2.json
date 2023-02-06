@@ -47,7 +47,9 @@
 		"fr": "Magmar"
 	},
 	"hp": 110,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Magmortar",
 		"fr": "Maganon"

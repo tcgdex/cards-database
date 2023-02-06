@@ -45,7 +45,9 @@
 		146
 	],
 	"hp": 120,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Lavados",
 		"en": "Moltres",

@@ -52,7 +52,9 @@
 		359
 	],
 	"hp": 100,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Absol",
 		"en": "Absol",

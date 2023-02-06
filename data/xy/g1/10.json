@@ -38,7 +38,9 @@
 		470
 	],
 	"hp": 170,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Leafeon EX",
 		"fr": "Phyllali-EX"

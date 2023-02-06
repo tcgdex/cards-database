@@ -52,7 +52,9 @@
 		"de": "Shnebedeck"
 	},
 	"hp": 140,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Rexblisar",
 		"en": "Abomasnow",

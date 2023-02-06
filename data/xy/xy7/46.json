@@ -58,7 +58,9 @@
 		"de": "Iscalar"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Calamanero",
 		"en": "Malamar",

@@ -52,7 +52,9 @@
 		"de": "Puponcho"
 	},
 	"hp": 120,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Vivillon",
 		"en": "Vivillon",

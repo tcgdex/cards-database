@@ -57,7 +57,9 @@
 		"fr": "Sonistrelle"
 	},
 	"hp": 120,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "UHaFnir",
 		"en": "Noivern",

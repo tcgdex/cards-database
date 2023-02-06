@@ -15,7 +15,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Bagon"
 	},

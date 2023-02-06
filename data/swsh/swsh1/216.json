@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se descartar outra carta da sua mão.\n\nProcure por 1 Pokémon Básico no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Du kannst diese Karte nur spielen, wenn du 1 andere Karte aus deiner Hand auf deinen Ablagestapel legst.\n\nDurchsuche dein Deck nach 1 Basis-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Flottball",
 		"en": "Quick Ball",

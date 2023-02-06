@@ -35,7 +35,9 @@
 		"en": "Munchlax"
 	},
 	"hp": 90,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Rocket's Snorlax"
 	},

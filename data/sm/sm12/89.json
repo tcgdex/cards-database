@@ -29,7 +29,9 @@
 		622
 	],
 	"hp": 90,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Golbit",
 		"en": "Golett",

@@ -51,7 +51,9 @@
 		517
 	],
 	"hp": 70,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Somniam",
 		"en": "Munna",

@@ -36,7 +36,9 @@
 		"de": "Mabula"
 	},
 	"hp": 100,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Akkup",
 		"en": "Charjabug",

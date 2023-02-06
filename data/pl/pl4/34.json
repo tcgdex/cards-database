@@ -29,7 +29,9 @@
 	"dexId": [
 		436
 	],
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Bronzor"
 	},

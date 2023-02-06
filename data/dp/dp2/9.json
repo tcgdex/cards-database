@@ -38,7 +38,9 @@
 		"en": "Gabite"
 	},
 	"hp": 130,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Garchomp",
 		"fr": "Carchacrok"

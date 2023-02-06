@@ -6,7 +6,9 @@
 		"en": "You may use this card only if you have more Prize cards left than your opponent. Search your deck for any 2 cards and put them into your hand. Shuffle your deck afterward."
 	},
 	"hp": 0,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Twins",
 		"fr": "Jumelles"

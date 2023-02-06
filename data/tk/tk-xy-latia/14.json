@@ -22,7 +22,9 @@
 		"en": "It can telepathically communicate with people. It changes its appearance using its down that refracts light."
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Latias",
 		"en": "Latias",

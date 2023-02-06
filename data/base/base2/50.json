@@ -38,7 +38,9 @@
 		104
 	],
 	"hp": 40,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Cubone",
 		"fr": "Osselait"

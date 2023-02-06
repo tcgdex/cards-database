@@ -32,7 +32,9 @@
 		385
 	],
 	"hp": 70,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Jirachi",
 		"fr": "Jirachi"

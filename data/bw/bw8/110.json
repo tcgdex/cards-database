@@ -21,7 +21,9 @@
 		504
 	],
 	"hp": 50,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Nagelotz",
 		"en": "Patrat",

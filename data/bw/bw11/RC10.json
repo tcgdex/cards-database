@@ -35,7 +35,9 @@
 		"en": "Kirlia"
 	},
 	"hp": 120,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Gardevoir"
 	},

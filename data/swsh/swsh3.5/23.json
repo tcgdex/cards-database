@@ -52,7 +52,9 @@
 		"fr": "Charmilly-V"
 	},
 	"hp": 310,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Pokusan VMAX",
 		"en": "Alcremie VMAX",

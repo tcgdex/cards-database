@@ -53,7 +53,9 @@
 		308
 	],
 	"hp": 210,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Meditalis V",
 		"en": "Medicham V",

@@ -31,7 +31,9 @@
 		"en": "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately."
 	},
 	"hp": 80,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Togedemaru",
 		"en": "Togedemaru",

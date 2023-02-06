@@ -52,7 +52,9 @@
 		"de": "Fynx"
 	},
 	"hp": 80,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Rutena",
 		"en": "Braixen",

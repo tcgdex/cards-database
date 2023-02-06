@@ -37,7 +37,9 @@
 		"en": "Wurmple"
 	},
 	"hp": 60,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Silcoon",
 		"fr": "Armulys"

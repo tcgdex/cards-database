@@ -9,7 +9,9 @@
 		"pt": "Cure 20 pontos de dano e remova 1 Condição Especial do seu Pokémon Ativo.",
 		"de": "Heile 20 Schadenspunkte und entferne 1 Speziellen Zustand von deinem Aktiven Pokémon."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Maxi-Malasada",
 		"en": "Big Malasada",

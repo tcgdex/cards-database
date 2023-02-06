@@ -28,7 +28,9 @@
 		"fr": "Granivol"
 	},
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Skiploom",
 		"fr": "Floravol"

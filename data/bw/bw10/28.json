@@ -40,7 +40,9 @@
 		"fr": "Carapagos"
 	},
 	"hp": 140,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Karippas",
 		"en": "Carracosta",

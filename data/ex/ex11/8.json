@@ -53,7 +53,9 @@
 		380
 	],
 	"hp": 70,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Latias δ",
 		"fr": "Latias δ ESPÈCES DELTA"

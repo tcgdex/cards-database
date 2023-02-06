@@ -42,7 +42,9 @@
 		"en": "Doduo"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Dodrio",
 		"fr": "Dodrio"

@@ -9,7 +9,9 @@
 		"pt": "Durante este turno, o dano dos ataques dos seus Pokémon VMAX não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
 		"de": "Während dieses Zuges wird der Schaden durch Attacken deiner Pokémon-VMAX durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 	},
-	"illustrator": "GAME FREAK inc.",
+	"illustrator": [
+		"GAME FREAK inc."
+	],
 	"name": {
 		"de": "Antonia",
 		"en": "Phoebe",

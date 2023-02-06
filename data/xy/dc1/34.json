@@ -6,7 +6,9 @@
 		"en": "This card can only be attached to Team Magma Pokémon. Discard this card at the end of the turn you attached it.\n\nThis card provides FightingFighting Energy only while it is attached to a Team Magma Pokémon.\n\n(If this card is attached to anything other than a Team Magma Pokémon, discard this card.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Double Magma Energy",
 		"fr": "Double Énergie Magma"

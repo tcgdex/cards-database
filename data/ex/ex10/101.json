@@ -49,7 +49,9 @@
 		"en": "Chansey ex"
 	},
 	"hp": 160,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Blissey ex",
 		"fr": "Leuphorie ex"

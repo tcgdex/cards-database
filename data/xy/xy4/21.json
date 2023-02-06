@@ -60,7 +60,9 @@
 		"de": "Quabbel"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Apoquallyp",
 		"en": "Jellicent",

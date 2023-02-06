@@ -31,7 +31,9 @@
 		108
 	],
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Lickitung"
 	},

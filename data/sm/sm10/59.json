@@ -57,7 +57,9 @@
 		"fr": "Chrysapile"
 	},
 	"hp": 150,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Donarion",
 		"en": "Vikavolt",

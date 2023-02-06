@@ -57,7 +57,9 @@
 		"de": "Zubat"
 	},
 	"hp": 70,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Golbat",
 		"en": "Golbat",

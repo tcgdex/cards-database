@@ -44,7 +44,9 @@
 		"en": "Cranidos"
 	},
 	"hp": 120,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Rampardos",
 		"fr": "Charkos"

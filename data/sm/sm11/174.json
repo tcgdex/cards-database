@@ -36,7 +36,9 @@
 		519
 	],
 	"hp": 60,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Dusselgurr",
 		"en": "Pidove",

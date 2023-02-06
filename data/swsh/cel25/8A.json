@@ -32,7 +32,9 @@
 		"en": "Normally found only in the deep ocean, it has recently been seen in shallow waters as well."
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Dark Gyarados"
 	},

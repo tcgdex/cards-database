@@ -38,7 +38,9 @@
 		700
 	],
 	"hp": 170,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Sylveon EX",
 		"fr": "Nymphali-EX"

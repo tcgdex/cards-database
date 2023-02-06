@@ -59,7 +59,9 @@
 		"de": "Zorua"
 	},
 	"hp": 100,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Zoroark",
 		"en": "Zoroark",

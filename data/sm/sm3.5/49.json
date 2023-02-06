@@ -48,7 +48,9 @@
 		"fr": "Chacripan"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Kleoparda",
 		"en": "Liepard",

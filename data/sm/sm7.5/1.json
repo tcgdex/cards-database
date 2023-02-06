@@ -30,7 +30,9 @@
 		4
 	],
 	"hp": 70,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Glumanda",
 		"en": "Charmander",

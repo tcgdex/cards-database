@@ -52,7 +52,9 @@
 		"de": "Puppance"
 	},
 	"hp": 120,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Lepumentas",
 		"en": "Claydol",

@@ -33,7 +33,9 @@
 		4
 	],
 	"hp": 40,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Charmander",
 		"fr": "Salamèche"

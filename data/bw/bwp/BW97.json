@@ -35,7 +35,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Eevee",
 		"fr": "Évoli"

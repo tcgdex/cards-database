@@ -48,7 +48,9 @@
 		357
 	],
 	"hp": 110,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Tropius",
 		"en": "Tropius",

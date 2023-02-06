@@ -47,7 +47,9 @@
 		799
 	],
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Guzzlord-GX"
 	},

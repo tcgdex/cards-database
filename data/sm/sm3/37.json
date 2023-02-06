@@ -48,7 +48,9 @@
 		"fr": "Flotajou"
 	},
 	"hp": 90,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Sodachita",
 		"en": "Simipour",

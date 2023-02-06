@@ -25,7 +25,9 @@
 		165
 	],
 	"hp": 40,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Ledyba",
 		"fr": "Coxy"

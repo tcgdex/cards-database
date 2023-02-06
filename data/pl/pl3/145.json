@@ -35,7 +35,9 @@
 		445
 	],
 	"hp": 110,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Garchomp C",
 		"fr": "Carchacrok "

@@ -51,7 +51,9 @@
 		"en": "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon."
 	},
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Lunastein",
 		"en": "Lunatone",

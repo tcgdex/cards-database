@@ -31,7 +31,9 @@
 		"en": "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
 	},
 	"hp": 120,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Reshiram",
 		"en": "Reshiram",

@@ -58,7 +58,9 @@
 		"de": "Brutalanda-V"
 	},
 	"hp": 320,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Brutalanda VMAX",
 		"en": "Salamence VMAX",

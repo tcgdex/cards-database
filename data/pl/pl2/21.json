@@ -48,7 +48,9 @@
 		"fr": "Sancoki Mer Orient"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Gastrodon East Sea",
 		"fr": "Tritosor Mer Orient Niv. 40"

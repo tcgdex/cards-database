@@ -57,7 +57,9 @@
 		"fr": "Ramoloss"
 	},
 	"hp": 110,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Lahmus",
 		"en": "Slowbro",

@@ -9,7 +9,9 @@
 		"pt": "Escolha para onde este card ficará voltado antes de jogá-lo. Este jogador ↓ não pode ter mais de 3 Pokémon no Banco.(Quando este card entra em jogo, este jogador ↓ descarta os Pokémon no Banco até ficar com 3 Pokémon no Banco.)\n\nQualquer dano causado por ataques de Pokémon Grass, Fire ou Water deste ↓ jogador será reduzido em 20 (antes da aplicação de Fraqueza e Resistência).",
 		"de": "Entscheide dich vor dem Spielen dieser Karte, auf welchen Spieler \"↓\" zeigen soll. Der angezeigte Spieler darf nicht mehr als 3 Pokémon auf der Bank haben.(Wenn diese Karte ins Spiel kommt, legt der angezeigte Spieler so lange Pokémon von seiner Bank auf seinen Ablagestapel, bis er 3 Pokémon auf seiner Bank hat.)\n\nSchaden durch Angriffe der Grass-, Fire- oder Water-Pokémon des angezeigten Spielers wird um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Parallelstadt",
 		"en": "Parallel City",

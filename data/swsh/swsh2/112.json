@@ -21,7 +21,9 @@
 		"en": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
 	},
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Smogon",
 		"en": "Koffing",

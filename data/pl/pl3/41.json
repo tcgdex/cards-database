@@ -29,7 +29,9 @@
 		302
 	],
 	"hp": 70,
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Sableye G",
 		"fr": "Tenefix "

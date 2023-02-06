@@ -36,7 +36,9 @@
 		570
 	],
 	"hp": 60,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Zorua",
 		"en": "Zorua",

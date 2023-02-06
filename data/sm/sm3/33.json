@@ -59,7 +59,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 150,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Garados",
 		"en": "Gyarados",

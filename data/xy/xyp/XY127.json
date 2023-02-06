@@ -31,7 +31,9 @@
 		146
 	],
 	"hp": 120,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"en": "Moltres"
 	},

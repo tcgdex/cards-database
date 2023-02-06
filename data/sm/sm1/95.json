@@ -48,7 +48,9 @@
 		"fr": "Minidraco"
 	},
 	"hp": 90,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Dragonir",
 		"en": "Dragonair",

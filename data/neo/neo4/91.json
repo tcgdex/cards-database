@@ -25,7 +25,9 @@
 		37
 	],
 	"hp": 50,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Vulpix",
 		"fr": "Goupix"

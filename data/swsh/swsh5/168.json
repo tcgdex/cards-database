@@ -53,7 +53,9 @@
 		"de": "Fokussierter-Angriff-Wulaosu-V"
 	},
 	"hp": 330,
-	"illustrator": "Kinu Nishimura",
+	"illustrator": [
+		"Kinu Nishimura"
+	],
 	"name": {
 		"de": "Fokussierter-Angriff-Wulaosu VMAX",
 		"en": "Single Strike Urshifu VMAX",

@@ -57,7 +57,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 150,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Garados",
 		"en": "Gyarados",

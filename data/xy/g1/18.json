@@ -28,7 +28,9 @@
 		"fr": "Tortank-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Blastoise EX",
 		"fr": "M-Tortank-EX"

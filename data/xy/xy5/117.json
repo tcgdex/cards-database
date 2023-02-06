@@ -51,7 +51,9 @@
 		399
 	],
 	"hp": 70,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Bidiza",
 		"en": "Bidoof",

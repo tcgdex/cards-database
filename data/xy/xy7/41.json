@@ -62,7 +62,9 @@
 		"de": "Golbit"
 	},
 	"hp": 130,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Golgantes",
 		"en": "Golurk",

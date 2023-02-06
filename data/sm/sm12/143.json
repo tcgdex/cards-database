@@ -53,7 +53,9 @@
 		173
 	],
 	"hp": 240,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Togepi & Pii & Fluffeluff GX",
 		"en": "Togepi & Cleffa & Igglybuff GX",

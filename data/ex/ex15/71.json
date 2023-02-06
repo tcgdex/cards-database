@@ -31,7 +31,9 @@
 		194
 	],
 	"hp": 40,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Wooper δ",
 		"fr": "Axoloto δ ESPÈCES DELTA"

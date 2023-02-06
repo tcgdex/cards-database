@@ -48,7 +48,9 @@
 		"fr": "Mimantis"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Mantidea",
 		"en": "Lurantis",

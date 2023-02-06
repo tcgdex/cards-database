@@ -35,7 +35,9 @@
 		590
 	],
 	"hp": 40,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Tarnpignon",
 		"en": "Foongus",

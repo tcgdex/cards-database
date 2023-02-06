@@ -29,7 +29,9 @@
 		95
 	],
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Brock's Onix"
 	},

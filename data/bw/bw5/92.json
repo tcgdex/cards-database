@@ -9,7 +9,9 @@
 		"pt": "Se este card estiver ligado a um Pokémon Darkness, cada um dos ataques desse Pokémon causará 20 de danos adicionais ao Pokémon Ativo (antes de aplicar Fraqueza e Resistência).",
 		"de": "Wenn diese Karte an ein Darkness Pokémon angelegt ist, fügen alle Angriffe dieses Pokémon den Aktiven Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Finsterklaue",
 		"en": "Dark Claw",

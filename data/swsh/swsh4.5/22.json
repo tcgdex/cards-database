@@ -21,7 +21,9 @@
 		"en": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on."
 	},
 	"hp": 70,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Bamelin",
 		"en": "Buizel",

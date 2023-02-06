@@ -33,7 +33,9 @@
 		132
 	],
 	"hp": 40,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Ditto ◇",
 		"en": "Ditto ◇",

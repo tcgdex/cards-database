@@ -50,7 +50,9 @@
 		"en": "Charizard V"
 	},
 	"hp": 330,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Glurak VMAX",
 		"en": "Charizard VMAX",

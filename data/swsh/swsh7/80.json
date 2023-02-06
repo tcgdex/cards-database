@@ -53,7 +53,9 @@
 		802
 	],
 	"hp": 80,
-	"illustrator": "Yuya Oka",
+	"illustrator": [
+		"Yuya Oka"
+	],
 	"name": {
 		"de": "Marshadow",
 		"en": "Marshadow",

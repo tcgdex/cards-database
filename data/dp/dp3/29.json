@@ -43,7 +43,9 @@
 		"fr": "Gravalanch"
 	},
 	"hp": 130,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Golem",
 		"fr": "Grolem"

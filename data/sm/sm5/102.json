@@ -53,7 +53,9 @@
 		108
 	],
 	"hp": 100,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Schlurp",
 		"en": "Lickitung",

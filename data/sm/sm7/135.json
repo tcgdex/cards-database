@@ -9,7 +9,9 @@
 		"pt": "Cure 120 pontos de dano de 1 dos seus Pokémon que tiver PS restante de 30 ou menos.",
 		"de": "Heile 120 Schadenspunkte bei 1 deiner Pokémon, dessen verbleibende KP 30 oder weniger betragen."
 	},
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Letzte-Chance-Trank",
 		"en": "Last Chance Potion",

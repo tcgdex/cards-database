@@ -42,7 +42,9 @@
 		102
 	],
 	"hp": 40,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Owei",
 		"en": "Exeggcute",

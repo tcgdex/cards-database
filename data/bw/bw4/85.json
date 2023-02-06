@@ -48,7 +48,9 @@
 		"fr": "Chinchidou"
 	},
 	"hp": 90,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Chillabell",
 		"en": "Cinccino",

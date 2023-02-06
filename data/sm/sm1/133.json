@@ -9,7 +9,9 @@
 		"pt": "Seu oponente revela a própria mão. Descarte 2 cartas de Energia da mão dele(a).",
 		"de": "Dein Gegner zeigt dir seine Handkarten. Lege 2 Energiekarten aus der Hand deines Gegners auf seinen Ablagestapel."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Team Skull-Rüpel",
 		"en": "Team Skull Grunt",

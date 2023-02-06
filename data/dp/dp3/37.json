@@ -40,7 +40,9 @@
 		"fr": "Carvanha"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sharpedo",
 		"fr": "Sharpedo"

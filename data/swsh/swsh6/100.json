@@ -35,7 +35,9 @@
 		"de": "Galar-Laschoking-V"
 	},
 	"hp": 320,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Galar-Laschoking VMAX",
 		"en": "Galarian Slowking VMAX",

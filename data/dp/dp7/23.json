@@ -54,7 +54,9 @@
 		"fr": "Roselia"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Roserade",
 		"fr": "Roserade"

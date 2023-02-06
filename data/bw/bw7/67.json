@@ -45,7 +45,9 @@
 		488
 	],
 	"hp": 170,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"de": "Cresselia-EX",
 		"en": "Cresselia-EX",

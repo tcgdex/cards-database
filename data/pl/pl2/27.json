@@ -37,7 +37,9 @@
 		473
 	],
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Mamoswine GL",
 		"fr": "Mammochon  Niv. 61"

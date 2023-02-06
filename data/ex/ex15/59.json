@@ -25,7 +25,9 @@
 		"en": "Larvitar"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Pupitar δ",
 		"fr": "Ymphect δ ESPÈCES DELTA"

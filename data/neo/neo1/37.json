@@ -40,7 +40,9 @@
 		"en": "Snubbull"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Granbull",
 		"fr": "Granbull"

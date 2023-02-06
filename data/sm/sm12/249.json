@@ -68,7 +68,9 @@
 		3
 	],
 	"hp": 270,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Bisaflor & Serpifeu GX",
 		"en": "Venusaur & Snivy GX",

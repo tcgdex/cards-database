@@ -30,7 +30,9 @@
 		"de": "Machollo"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Maschock",
 		"en": "Machoke",

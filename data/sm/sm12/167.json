@@ -42,7 +42,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

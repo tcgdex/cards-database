@@ -51,7 +51,9 @@
 		94
 	],
 	"hp": 240,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Gengar & Mimigma GX",
 		"en": "Gengar & Mimikyu GX",

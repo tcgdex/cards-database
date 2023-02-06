@@ -37,7 +37,9 @@
 		340
 	],
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Whiscash 4",
 		"fr": "Barbicha  Niv. 50"

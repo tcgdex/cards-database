@@ -61,7 +61,9 @@
 		"de": "Nasgnet"
 	},
 	"hp": 120,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Voluminas",
 		"en": "Probopass",

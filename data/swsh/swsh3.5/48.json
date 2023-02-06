@@ -21,7 +21,9 @@
 		"en": "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty."
 	},
 	"hp": 50,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Wablu",
 		"en": "Swablu",

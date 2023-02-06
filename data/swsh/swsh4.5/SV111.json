@@ -32,7 +32,9 @@
 		"en": "Lapras V"
 	},
 	"hp": 320,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Lapras VMAX",
 		"en": "Lapras VMAX",

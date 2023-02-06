@@ -55,7 +55,9 @@
 		"fr": "Arkéapti"
 	},
 	"hp": 130,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Aeropteryx",
 		"en": "Archeops",

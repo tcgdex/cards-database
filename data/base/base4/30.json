@@ -36,7 +36,9 @@
 		"en": "Munchlax"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Snorlax"
 	},

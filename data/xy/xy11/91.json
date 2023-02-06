@@ -61,7 +61,9 @@
 		"de": "Griffel"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Ambidiffel",
 		"en": "Ambipom",

@@ -33,7 +33,9 @@
 		494
 	],
 	"hp": 60,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Victini",
 		"en": "Victini",

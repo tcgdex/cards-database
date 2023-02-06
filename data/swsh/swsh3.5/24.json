@@ -44,7 +44,9 @@
 		"en": "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups."
 	},
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Machollo",
 		"en": "Machop",

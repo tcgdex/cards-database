@@ -27,7 +27,9 @@
 		493
 	],
 	"hp": 90,
-	"illustrator": "Kunihiko Yuyama",
+	"illustrator": [
+		"Kunihiko Yuyama"
+	],
 	"name": {
 		"en": "Arceus",
 		"fr": "Dialga"

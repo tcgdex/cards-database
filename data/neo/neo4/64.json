@@ -38,7 +38,9 @@
 		102
 	],
 	"hp": 40,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Exeggcute",
 		"fr": "Nœufnœuf"

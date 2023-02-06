@@ -37,7 +37,9 @@
 		"en": "Trapinch"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Vibrava δ",
 		"fr": "Vibraninf δ ESPÈCES DELTA"

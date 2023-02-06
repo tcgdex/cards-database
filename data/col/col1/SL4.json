@@ -24,7 +24,9 @@
 		383
 	],
 	"hp": 100,
-	"illustrator": "Yuri Umemura",
+	"illustrator": [
+		"Yuri Umemura"
+	],
 	"name": {
 		"en": "Groudon",
 		"fr": "Groudon"

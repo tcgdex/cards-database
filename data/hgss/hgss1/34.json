@@ -42,7 +42,9 @@
 		"fr": "Smogo"
 	},
 	"hp": 90,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Weezing",
 		"fr": "Smogogo"

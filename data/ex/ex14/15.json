@@ -48,7 +48,9 @@
 		"en": "Cacnea"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Cacturne δ",
 		"fr": "Cacturne δ"

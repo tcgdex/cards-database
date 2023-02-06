@@ -53,7 +53,9 @@
 		"de": "Gladiantri"
 	},
 	"hp": 110,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Caesurio",
 		"en": "Bisharp",

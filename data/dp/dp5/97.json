@@ -33,7 +33,9 @@
 		"fr": "Level-Up"
 	},
 	"hp": 140,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Garchomp",
 		"fr": "Carchacrok"

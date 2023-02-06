@@ -74,7 +74,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 240,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Garados GX",
 		"en": "Gyarados GX",

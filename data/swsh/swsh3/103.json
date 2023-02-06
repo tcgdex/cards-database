@@ -59,7 +59,9 @@
 		"de": "Webarak"
 	},
 	"hp": 110,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Ariados",
 		"en": "Ariados",

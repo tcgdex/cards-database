@@ -43,7 +43,9 @@
 		570
 	],
 	"hp": 50,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Zorua",
 		"en": "Zorua",

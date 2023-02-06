@@ -36,7 +36,9 @@
 		"de": "Hornliu"
 	},
 	"hp": 80,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Kokuna",
 		"en": "Kakuna",

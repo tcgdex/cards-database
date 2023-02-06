@@ -29,7 +29,9 @@
 		"en": "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
 	},
 	"hp": 60,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Pummeluff",
 		"en": "Jigglypuff",

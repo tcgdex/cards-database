@@ -9,7 +9,9 @@
 		"pt": "Compre 3 cards.",
 		"de": "Ziehe 3 Karten."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Tierno",
 		"en": "Tierno",

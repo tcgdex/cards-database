@@ -22,7 +22,9 @@
 		610
 	],
 	"hp": 50,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Axew",
 		"fr": "Coupenotte"

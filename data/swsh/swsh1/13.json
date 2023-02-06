@@ -57,7 +57,9 @@
 		"de": "Chimpep"
 	},
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Chimstix",
 		"en": "Thwackey",

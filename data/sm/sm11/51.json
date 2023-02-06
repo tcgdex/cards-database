@@ -57,7 +57,9 @@
 		"fr": "Sovkipou"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Tectass",
 		"en": "Golisopod",

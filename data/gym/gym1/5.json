@@ -35,7 +35,9 @@
 		"en": "Gloom"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Erika's Vileplume"
 	},

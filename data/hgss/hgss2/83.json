@@ -6,7 +6,9 @@
 		"en": "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand."
 	},
 	"hp": 0,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Super Scoop Up",
 		"fr": "Super rappel"

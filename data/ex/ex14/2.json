@@ -49,7 +49,9 @@
 		"en": "Wartortle"
 	},
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Blastoise δ",
 		"fr": "Tortank δ"

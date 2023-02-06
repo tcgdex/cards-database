@@ -61,7 +61,9 @@
 		"de": "Schalellos"
 	},
 	"hp": 110,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Gastrodon",
 		"en": "Gastrodon",

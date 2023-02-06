@@ -41,7 +41,9 @@
 		380
 	],
 	"hp": 80,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Latias",
 		"fr": "Latias"

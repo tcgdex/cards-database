@@ -39,7 +39,9 @@
 		"en": "Eevee"
 	},
 	"hp": 80,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Umbreon",
 		"fr": "Noctali"

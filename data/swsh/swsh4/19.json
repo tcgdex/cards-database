@@ -45,7 +45,9 @@
 		"en": "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon."
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Moruda",
 		"en": "Dhelmise",

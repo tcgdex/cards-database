@@ -41,7 +41,9 @@
 		"fr": "Massko"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Sceptile",
 		"fr": "Jungko"

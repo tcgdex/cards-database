@@ -9,7 +9,9 @@
 		"pt": "Vire todos os seus cards de Prêmio com a face para cima. (Os cards de Prêmio permanecerão virados para cima pelo resto do jogo.)",
 		"de": "Decke all deine Preiskarten auf. (Diese Preiskarten bleiben für den Rest des Spiels aufgedeckt.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Karte",
 		"en": "Town Map",

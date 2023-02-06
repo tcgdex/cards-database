@@ -36,7 +36,9 @@
 		"en": "Diglett"
 	},
 	"hp": 70,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Dugtrio",
 		"fr": "Triopikeur"

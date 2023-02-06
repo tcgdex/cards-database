@@ -38,7 +38,9 @@
 		"en": "Metang"
 	},
 	"hp": 100,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Metagross",
 		"fr": "Metalosse"

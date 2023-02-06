@@ -21,7 +21,9 @@
 		"en": "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon."
 	},
 	"hp": 50,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Habitak",
 		"en": "Spearow",

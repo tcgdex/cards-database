@@ -42,7 +42,9 @@
 		201
 	],
 	"hp": 60,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Icognito",
 		"en": "Unown",

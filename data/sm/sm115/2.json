@@ -22,7 +22,9 @@
 		"fr": "Chenipan"
 	},
 	"hp": 90,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"en": "Metapod",
 		"fr": "Chrysacier"

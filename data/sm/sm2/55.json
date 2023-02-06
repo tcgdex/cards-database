@@ -43,7 +43,9 @@
 		741
 	],
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Choreogel",
 		"en": "Oricorio",

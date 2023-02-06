@@ -54,7 +54,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 90,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Psiana",
 		"en": "Espeon",

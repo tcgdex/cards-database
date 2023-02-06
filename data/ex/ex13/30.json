@@ -35,7 +35,9 @@
 		369
 	],
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Relicanth",
 		"fr": "Relicanth"

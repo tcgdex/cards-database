@@ -50,7 +50,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

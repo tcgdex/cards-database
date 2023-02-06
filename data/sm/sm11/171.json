@@ -45,7 +45,9 @@
 		399
 	],
 	"hp": 70,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Bidiza",
 		"en": "Bidoof",

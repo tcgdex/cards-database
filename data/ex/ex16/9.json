@@ -37,7 +37,9 @@
 		"en": "Kirlia"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Gardevoir",
 		"fr": "Gardevoir"

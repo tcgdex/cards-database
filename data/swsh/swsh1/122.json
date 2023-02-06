@@ -67,7 +67,9 @@
 		"de": "Pionskora"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Piondragi",
 		"en": "Drapion",

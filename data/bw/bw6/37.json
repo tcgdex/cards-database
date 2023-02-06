@@ -38,7 +38,9 @@
 		594
 	],
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Mamolida",
 		"en": "Alomomola",

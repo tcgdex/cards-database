@@ -49,7 +49,9 @@
 		"en": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
 	},
 	"hp": 110,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Onix",
 		"en": "Onix",

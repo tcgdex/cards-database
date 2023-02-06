@@ -53,7 +53,9 @@
 		"de": "Bummelz"
 	},
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Muntier",
 		"en": "Vigoroth",

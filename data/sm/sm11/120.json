@@ -33,7 +33,9 @@
 		"fr": "Fossile Inconnu"
 	},
 	"hp": 80,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Flapteryx",
 		"en": "Archen",

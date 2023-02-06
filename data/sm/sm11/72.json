@@ -54,7 +54,9 @@
 		196
 	],
 	"hp": 260,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Psiana & Deoxys GX",
 		"en": "Espeon & Deoxys GX",

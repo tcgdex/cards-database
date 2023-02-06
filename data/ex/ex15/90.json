@@ -39,7 +39,9 @@
 		"en": "Swablu"
 	},
 	"hp": 100,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Altaria ex δ",
 		"fr": "Altaria ex δ"

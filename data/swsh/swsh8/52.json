@@ -27,7 +27,9 @@
 		"en": "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!"
 	},
 	"hp": 60,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Sterndu",
 		"en": "Staryu",

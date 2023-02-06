@@ -40,7 +40,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Gyarados",
 		"fr": "Léviator"

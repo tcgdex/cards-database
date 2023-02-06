@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nPiochez des cartes de votre deck jusqu'à ce que vous ayez 6 cartes en main."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Professor Birch",
 		"fr": "Prof. Seko"

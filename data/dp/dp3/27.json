@@ -36,7 +36,9 @@
 		"fr": "Fouinette"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Furret",
 		"fr": "Fouinar"

@@ -42,7 +42,9 @@
 		"en": "Murkrow"
 	},
 	"hp": 90,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Honchkrow",
 		"fr": "Corboss"

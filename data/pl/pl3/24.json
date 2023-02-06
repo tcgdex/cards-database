@@ -52,7 +52,9 @@
 		"fr": "Otaria"
 	},
 	"hp": 100,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Dewgong",
 		"fr": "Lamantine"

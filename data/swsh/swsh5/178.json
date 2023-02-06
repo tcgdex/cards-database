@@ -52,7 +52,9 @@
 		"de": "Remoraid"
 	},
 	"hp": 110,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Octillery",
 		"en": "Octillery",

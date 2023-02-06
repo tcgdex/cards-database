@@ -47,7 +47,9 @@
 		385
 	],
 	"hp": 90,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Jirachi ex",
 		"fr": "Jirachi ex"

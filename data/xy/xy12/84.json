@@ -9,7 +9,9 @@
 		"pt": "Compre cards até ter 7 cards em sua mão. Sua vez de jogar termina.",
 		"de": "Ziehe so viele Karten, bis du 7 Karten auf der Hand hast. Dein Zug endet."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Prof. Eichs Tipp",
 		"en": "Professor Oak's Hint",

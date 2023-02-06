@@ -41,7 +41,9 @@
 		"fr": "Nénupiot"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Lombre",
 		"fr": "Lombre"

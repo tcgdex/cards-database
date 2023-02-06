@@ -50,7 +50,9 @@
 		"fr": "Tadmorv d’Alola"
 	},
 	"hp": 140,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Alola-Sleimok",
 		"en": "Alolan Muk",

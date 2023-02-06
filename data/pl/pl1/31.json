@@ -40,7 +40,9 @@
 		"fr": "Chimpenfeu"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Infernape",
 		"fr": "Simiabraz"

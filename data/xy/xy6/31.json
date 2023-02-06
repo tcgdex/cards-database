@@ -52,7 +52,9 @@
 		"de": "Shuppet"
 	},
 	"hp": 80,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Banette",
 		"en": "Banette",

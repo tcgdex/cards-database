@@ -37,7 +37,9 @@
 		128
 	],
 	"hp": 70,
-	"illustrator": "Yuichi Sawayama",
+	"illustrator": [
+		"Yuichi Sawayama"
+	],
 	"name": {
 		"en": "Tauros",
 		"fr": "Tauros"

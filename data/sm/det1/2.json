@@ -56,7 +56,9 @@
 		"fr": "Lombre"
 	},
 	"hp": 140,
-	"illustrator": "Framestore",
+	"illustrator": [
+		"Framestore"
+	],
 	"name": {
 		"de": "Kappalores",
 		"en": "Ludicolo",

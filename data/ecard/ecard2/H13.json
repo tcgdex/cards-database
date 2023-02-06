@@ -37,7 +37,9 @@
 		"en": "Skiploom"
 	},
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Jumpluff",
 		"fr": "Cotovol"

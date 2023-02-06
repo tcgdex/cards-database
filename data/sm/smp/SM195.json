@@ -75,7 +75,9 @@
 		"en": "Charmeleon"
 	},
 	"hp": 250,
-	"illustrator": "Framestore",
+	"illustrator": [
+		"Framestore"
+	],
 	"name": {
 		"de": "Glurak GX",
 		"en": "Charizard GX",

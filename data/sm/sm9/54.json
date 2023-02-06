@@ -43,7 +43,9 @@
 		29
 	],
 	"hp": 60,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Nidoran♀",
 		"en": "Nidoran♀",

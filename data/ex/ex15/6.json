@@ -40,7 +40,9 @@
 		"en": "Nidorino"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Nidoking δ",
 		"fr": "Nidoking δ ESPÈCES DELTA"

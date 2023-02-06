@@ -33,7 +33,9 @@
 		"en": "Venonat"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sabrina's Venomoth"
 	},

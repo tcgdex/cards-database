@@ -42,7 +42,9 @@
 		77
 	],
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Ponita",
 		"en": "Ponyta",

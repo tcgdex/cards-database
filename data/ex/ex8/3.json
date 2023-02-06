@@ -40,7 +40,9 @@
 		"en": "Shroomish"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Breloom",
 		"fr": "Chapignon"

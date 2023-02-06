@@ -34,7 +34,9 @@
 		"fr": "Salamèche"
 	},
 	"hp": 100,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Charmeleon",
 		"fr": "Reptincel"

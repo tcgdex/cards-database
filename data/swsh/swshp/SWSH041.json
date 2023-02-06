@@ -55,7 +55,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 110,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Flamara",
 		"en": "Flareon",

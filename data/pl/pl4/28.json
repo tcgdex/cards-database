@@ -43,7 +43,9 @@
 	"evolveFrom": {
 		"en": "Ponyta"
 	},
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"en": "Rapidash"
 	},

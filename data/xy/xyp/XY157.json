@@ -31,7 +31,9 @@
 		15
 	],
 	"hp": 160,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"en": "Beedrill EX"
 	},

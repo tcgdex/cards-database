@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Retirez 2 marqueurs de dégât à 1 de vos Pokémon (retirez-en 1 s'il n'y en a qu'1)."
 	},
-	"illustrator": "Shin-ichi Yoshikawa",
+	"illustrator": [
+		"Shin-ichi Yoshikawa"
+	],
 	"name": {
 		"en": "Potion",
 		"fr": "Potion"

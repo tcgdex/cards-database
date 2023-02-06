@@ -43,7 +43,9 @@
 		"fr": "Teraclope"
 	},
 	"hp": 120,
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"en": "Dusknoir",
 		"fr": "Noctunoir"

@@ -37,7 +37,9 @@
 		"de": "Nachtara-V"
 	},
 	"hp": 310,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Nachtara VMAX",
 		"en": "Umbreon VMAX",

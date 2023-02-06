@@ -39,7 +39,9 @@
 		"de": "Velursi"
 	},
 	"hp": 130,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Kosturso",
 		"en": "Bewear",

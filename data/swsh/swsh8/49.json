@@ -35,7 +35,9 @@
 		"de": "Thermopod"
 	},
 	"hp": 130,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Infernopod",
 		"en": "Centiskorch",

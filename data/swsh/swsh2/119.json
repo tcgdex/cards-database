@@ -29,7 +29,9 @@
 		"en": "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
 	},
 	"hp": 60,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Skallyk",
 		"en": "Vullaby",

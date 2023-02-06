@@ -48,7 +48,9 @@
 		"fr": "Hoothoot"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Noctuh",
 		"en": "Noctowl",

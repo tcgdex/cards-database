@@ -39,7 +39,9 @@
 		"en": "Wooper"
 	},
 	"hp": 80,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Quagsire δ",
 		"fr": "Maraiste δ ESPÈCES DELTA"

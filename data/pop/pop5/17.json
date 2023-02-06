@@ -30,7 +30,9 @@
 		197
 	],
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Umbreon ★"
 	},

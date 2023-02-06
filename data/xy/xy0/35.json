@@ -9,7 +9,9 @@
 		"pt": "Jogue uma moeda. Se sair cara, procure um Pokémon no seu baralho, mostre-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		"de": "Wirf 1 Münze. Durchsuche bei \"Kopf\" dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Pokéball",
 		"en": "Poké Ball",

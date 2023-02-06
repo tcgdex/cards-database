@@ -56,7 +56,9 @@
 		"fr": "Tadmorv d’Alola"
 	},
 	"hp": 120,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Alola-Sleimok",
 		"en": "Alolan Muk",

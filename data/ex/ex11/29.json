@@ -35,7 +35,9 @@
 		351
 	],
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Snow-cloud Castform",
 		"fr": "Morpheo Neige"

@@ -42,7 +42,9 @@
 		"en": "Porygon"
 	},
 	"hp": 70,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Porygon2",
 		"fr": "Porygon2"

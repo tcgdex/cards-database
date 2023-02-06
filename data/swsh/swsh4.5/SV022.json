@@ -45,7 +45,9 @@
 		"en": "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Suicune",
 		"en": "Suicune",

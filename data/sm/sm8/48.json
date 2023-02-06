@@ -56,7 +56,9 @@
 		485
 	],
 	"hp": 140,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Heatran",
 		"en": "Heatran",

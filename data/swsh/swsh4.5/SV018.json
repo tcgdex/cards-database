@@ -37,7 +37,9 @@
 		"en": "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
 	},
 	"hp": 70,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Thermopod",
 		"en": "Sizzlipede",

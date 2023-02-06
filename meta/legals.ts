@@ -1,5 +1,3 @@
-import { Filter } from '../interfaces'
-
 /**
  * File Explanation
  *
@@ -24,6 +22,36 @@ import { Filter } from '../interfaces'
  * - if the card is in the `sets` list
  * - if the card is in the `cards` list
  */
+
+interface Filter {
+	includes: {
+		/**
+		 * series to be included
+		 */
+		series: Array<string>
+		/**
+		 * Set to be included in the filter
+		 * ex: swsh1
+		 */
+		sets: Array<string>
+		/**
+		 * Filter by regulation Marks on the cards
+		 * ex: 'D'
+		 */
+		regulationMark: Array<string>
+	}
+	excludes: {
+		/**
+		 * sets to be excluded
+		 */
+		sets: Array<string>
+		/**
+		 * Global Ids of banned cards
+		 * ex: swsh1-1
+		 */
+		cards: Array<string>
+	}
+}
 
 export const standard: Filter = {
 	includes: {

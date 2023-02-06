@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Retirez à chacun de vos Pokémon Actifs tous leurs États Spéciaux."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Double Full Heal",
 		"fr": "Double guérison totale"

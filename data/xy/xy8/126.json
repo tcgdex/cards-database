@@ -52,7 +52,9 @@
 		"de": "Staralili"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Staravia",
 		"en": "Staravia",

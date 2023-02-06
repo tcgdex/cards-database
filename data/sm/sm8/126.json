@@ -55,7 +55,9 @@
 		"fr": "Insécateur"
 	},
 	"hp": 120,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Scherox",
 		"en": "Scizor",

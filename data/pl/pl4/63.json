@@ -15,7 +15,9 @@
 	"dexId": [
 		309
 	],
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Electrike"
 	},

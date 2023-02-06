@@ -29,7 +29,9 @@
 		88
 	],
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Team Aqua's Grimer",
 		"fr": "Tadmorv de la Team Aqua"

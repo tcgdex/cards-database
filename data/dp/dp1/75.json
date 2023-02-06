@@ -38,7 +38,9 @@
 		420
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Cherubi",
 		"fr": "Ceribou"

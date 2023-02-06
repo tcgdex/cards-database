@@ -41,7 +41,9 @@
 		"fr": "Magmar"
 	},
 	"hp": 120,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Magbrant",
 		"en": "Magmortar",

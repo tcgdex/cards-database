@@ -43,7 +43,9 @@
 		"fr": "Élektek"
 	},
 	"hp": 120,
-	"illustrator": "BERUBURI",
+	"illustrator": [
+		"BERUBURI"
+	],
 	"name": {
 		"de": "Elevoltek",
 		"en": "Electivire",

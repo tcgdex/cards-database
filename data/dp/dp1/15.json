@@ -44,7 +44,9 @@
 		"fr": "Moufouette"
 	},
 	"hp": 90,
-	"illustrator": "Hiroaki Ito",
+	"illustrator": [
+		"Hiroaki Ito"
+	],
 	"name": {
 		"en": "Skuntank",
 		"fr": "Moufflair"

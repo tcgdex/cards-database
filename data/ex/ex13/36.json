@@ -41,7 +41,9 @@
 		"en": "Numel"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Camerupt",
 		"fr": "Camerupt"

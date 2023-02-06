@@ -35,7 +35,9 @@
 		"en": "Venonat"
 	},
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Venomoth"
 	},

@@ -48,7 +48,9 @@
 		143
 	],
 	"hp": 120,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

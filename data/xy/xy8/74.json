@@ -59,7 +59,9 @@
 		"de": "Pygraulon"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Megalon",
 		"en": "Beheeyem",

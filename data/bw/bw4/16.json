@@ -39,7 +39,9 @@
 		"fr": "Flamajou"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Grillchita",
 		"en": "Simisear",

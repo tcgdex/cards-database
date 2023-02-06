@@ -24,7 +24,9 @@
 		"en": "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don’t return."
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Klang"
 	},

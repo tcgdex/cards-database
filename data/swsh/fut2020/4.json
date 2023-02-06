@@ -31,7 +31,9 @@
 	"description": {
 		"en": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
 	},
-	"illustrator": "The Pokémon Company Art Team",
+	"illustrator": [
+		"The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Scorbunny on the Ball"
 	},

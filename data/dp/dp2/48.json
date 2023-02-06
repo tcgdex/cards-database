@@ -40,7 +40,9 @@
 		"en": "Gible"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Gabite",
 		"fr": "Carmache"

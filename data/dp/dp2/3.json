@@ -43,7 +43,9 @@
 		"en": "Aipom"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Ambipom",
 		"fr": "Capidextre"

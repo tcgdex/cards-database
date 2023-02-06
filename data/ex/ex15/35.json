@@ -37,7 +37,9 @@
 		"en": "Nidoran?"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Nidorino δ",
 		"fr": "Nidorino δ ESPÈCES DELTA"

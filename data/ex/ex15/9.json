@@ -45,7 +45,9 @@
 		127
 	],
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Pinsir δ",
 		"fr": "Scarabrute δ ESPÈCES DELTA"

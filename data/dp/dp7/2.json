@@ -55,7 +55,9 @@
 		"fr": "Prinplouf"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Empoleon",
 		"fr": "Pingoléon"

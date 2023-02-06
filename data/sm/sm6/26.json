@@ -53,7 +53,9 @@
 		"fr": "Flingouste"
 	},
 	"hp": 100,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Wummer",
 		"en": "Clawitzer",

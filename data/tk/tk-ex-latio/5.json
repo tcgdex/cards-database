@@ -18,7 +18,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Magneton"
 	},

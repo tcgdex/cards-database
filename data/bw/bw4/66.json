@@ -44,7 +44,9 @@
 		"fr": "Hippopotas"
 	},
 	"hp": 130,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Hippoterus",
 		"en": "Hippowdon",

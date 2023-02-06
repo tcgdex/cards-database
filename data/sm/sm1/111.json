@@ -22,7 +22,9 @@
 		759
 	],
 	"hp": 70,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Velursi",
 		"en": "Stufful",

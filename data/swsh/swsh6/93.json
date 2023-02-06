@@ -44,7 +44,9 @@
 		"en": "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly."
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Dakuma",
 		"en": "Kubfu",

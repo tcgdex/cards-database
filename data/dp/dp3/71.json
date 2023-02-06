@@ -34,7 +34,9 @@
 		201
 	],
 	"hp": 50,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Unown X",
 		"fr": "Zarbi X"

@@ -53,7 +53,9 @@
 		143
 	],
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

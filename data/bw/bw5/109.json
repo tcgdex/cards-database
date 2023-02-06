@@ -46,7 +46,9 @@
 		"en": "Kirlia"
 	},
 	"hp": 110,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Guardevoir",
 		"en": "Gardevoir",

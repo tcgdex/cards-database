@@ -49,7 +49,9 @@
 		417
 	],
 	"hp": 70,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Pachirisu",
 		"en": "Pachirisu",

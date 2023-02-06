@@ -60,7 +60,9 @@
 		"de": "Lorblatt"
 	},
 	"hp": 150,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Meganie",
 		"en": "Meganium",

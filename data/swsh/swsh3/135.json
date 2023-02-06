@@ -28,7 +28,9 @@
 		"en": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
 	},
 	"hp": 60,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Wiesor",
 		"en": "Sentret",

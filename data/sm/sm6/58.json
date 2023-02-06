@@ -60,7 +60,9 @@
 		"fr": "Boskara"
 	},
 	"hp": 180,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Chelterrar",
 		"en": "Torterra",

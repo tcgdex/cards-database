@@ -57,7 +57,9 @@
 		"en": "Sizzlipede"
 	},
 	"hp": 130,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Infernopod",
 		"en": "Centiskorch",

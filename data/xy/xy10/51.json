@@ -37,7 +37,9 @@
 		"de": "Rocara"
 	},
 	"hp": 110,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rocara-TURBO",
 		"en": "Carbink BREAK",

@@ -54,7 +54,9 @@
 		"fr": "Mélancolux"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Skelabra",
 		"en": "Chandelure",

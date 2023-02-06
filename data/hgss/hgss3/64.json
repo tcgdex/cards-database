@@ -20,7 +20,9 @@
 		19
 	],
 	"hp": 40,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Rattata",
 		"fr": "Rattata"

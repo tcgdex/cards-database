@@ -22,7 +22,9 @@
 		"en": "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	},
 	"hp": 100,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Suicune",
 		"en": "Suicune",

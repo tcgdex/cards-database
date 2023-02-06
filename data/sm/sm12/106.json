@@ -53,7 +53,9 @@
 		299
 	],
 	"hp": 80,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Nasgnet",
 		"en": "Nosepass",

@@ -28,7 +28,9 @@
 		79
 	],
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Flegmon",
 		"en": "Slowpoke",

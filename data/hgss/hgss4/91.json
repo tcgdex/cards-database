@@ -35,7 +35,9 @@
 		359
 	],
 	"hp": 80,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Absol",
 		"fr": "Absol"

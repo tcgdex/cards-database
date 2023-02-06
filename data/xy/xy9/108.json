@@ -9,7 +9,9 @@
 		"pt": "Seu oponente revela a própria mão.Descarte tantos cards quanto quiser da sua mão. Em seguida, compre aquele mesmo número de cards.",
 		"de": "Dein Gegner deckt seine Handkarten auf.Lege beliebig viele Karten von deiner Hand auf deinen Ablagestapel. Ziehe anschließend dieselbe Anzahl Karten."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Psychos siebter Sinn",
 		"en": "Psychic's Third Eye",

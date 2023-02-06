@@ -43,7 +43,9 @@
 		"en": "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
 	},
 	"hp": 50,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Hokumil",
 		"en": "Milcery",

@@ -49,7 +49,9 @@
 		"en": "Swablu"
 	},
 	"hp": 100,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Altaria ex",
 		"fr": "Altaria ex"

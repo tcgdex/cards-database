@@ -28,7 +28,9 @@
 		572
 	],
 	"hp": 50,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Minccino",
 		"fr": "Chinchidou"

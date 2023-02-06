@@ -19,7 +19,9 @@
 		529
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Rotomurf",
 		"en": "Drilbur",

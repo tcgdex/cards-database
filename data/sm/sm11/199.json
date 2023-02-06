@@ -9,7 +9,9 @@
 		"pt": "Mova até 3 contadores de dano de 1 dos Pokémon do seu oponente para outro Pokémon dele(a).",
 		"de": "Verschiebe bis zu 3 Schadensmarken von 1 Pokémon deines Gegners auf 1 anderes seiner Pokémon."
 	},
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Astor",
 		"en": "Grimsley",

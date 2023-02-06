@@ -25,7 +25,9 @@
 		"en": "Larvitar"
 	},
 	"hp": 70,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Pupitar",
 		"fr": "Ymphect"

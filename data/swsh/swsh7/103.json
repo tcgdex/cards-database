@@ -54,7 +54,9 @@
 		"de": "Zorua"
 	},
 	"hp": 120,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Zoroark",
 		"en": "Zoroark",

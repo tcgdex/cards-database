@@ -52,7 +52,9 @@
 		"fr": "Grelaçon"
 	},
 	"hp": 140,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Arktilas",
 		"en": "Avalugg",

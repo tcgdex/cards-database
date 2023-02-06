@@ -37,7 +37,9 @@
 		"en": "Poliwag"
 	},
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Poliwhirl",
 		"fr": "Têtarte"

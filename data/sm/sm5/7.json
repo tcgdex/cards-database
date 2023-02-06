@@ -38,7 +38,9 @@
 		387
 	],
 	"hp": 80,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Chelast",
 		"en": "Turtwig",

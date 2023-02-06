@@ -38,7 +38,9 @@
 		556
 	],
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Maracamba",
 		"en": "Maractus",

@@ -9,7 +9,9 @@
 		"pt": "Mova 1 Energia básica de 1 dos seus Pokémon para outro Pokémon seu.",
 		"de": "Verschiebe 1 Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Energie-Umschalter",
 		"en": "Energy Switch",

@@ -1,10 +1,12 @@
-import { SupportedLanguages } from '../../../interfaces'
-import { DataTree, FileFunction } from '../compilerInterfaces'
-import { cardToCardSingle, getCards } from '../utils/cardUtil'
+import { SupportedLanguages } from '../../../meta/definitions/database'
+import { FileFunction } from '../compilerInterfaces'
+import { cardToCardSingle, getCards, getLocalId } from '../utils/cardUtil'
+import { FileListCard, loadDatabase } from '../utils/util'
 
-const fn: FileFunction = async (lang: SupportedLanguages, data: DataTree) => {
-	const common = await getCards(lang)
-	return await Promise.all(common.map((card) => cardToCardSingle(card[0], card[1], lang)))
+const fn: FileFunction = async (lang: SupportedLanguages) => {
+	return await getCards(lang)
+		.then((cards) => Promise.all(
+			cards.map((it) => cardToCardSingle(it[0], it[1], lang))))
 }
 
 export default fn

@@ -33,7 +33,9 @@
 		250
 	],
 	"hp": 120,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"en": "Ho Oh",
 		"fr": "Ho-Oh"

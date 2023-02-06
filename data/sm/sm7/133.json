@@ -9,7 +9,9 @@
 		"pt": "Olhe as 5 primeiras cartas do baralho de qualquer um dos jogadores e escolha 1 delas. Aquele jogador embaralha as demais cartas de volta no próprio baralho. Em seguida, coloque a carta escolhida como a primeira carta daquele baralho.",
 		"de": "Schau dir die obersten 5 Karten des Decks eines der beiden Spieler an und wähle 1 Karte. Jener Spieler mischt die anderen Karten zurück in sein Deck. Lege anschließend die von dir gewählte Karte oben auf jenes Deck."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Wanderer",
 		"en": "Hiker",

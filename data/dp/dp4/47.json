@@ -35,7 +35,9 @@
 		"fr": "Chenipan"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Metapod",
 		"fr": "Chrysacier"

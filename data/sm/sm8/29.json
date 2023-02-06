@@ -29,7 +29,9 @@
 		290
 	],
 	"hp": 40,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Nincada",
 		"en": "Nincada",

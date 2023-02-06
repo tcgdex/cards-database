@@ -44,7 +44,9 @@
 		769
 	],
 	"hp": 80,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Sankabuh",
 		"en": "Sandygast",

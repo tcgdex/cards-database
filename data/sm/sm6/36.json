@@ -57,7 +57,9 @@
 		"fr": "Magnéton"
 	},
 	"hp": 150,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Magnezone",
 		"en": "Magnezone",

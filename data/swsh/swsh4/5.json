@@ -53,7 +53,9 @@
 		"de": "Owei"
 	},
 	"hp": 140,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Kokowei",
 		"en": "Exeggutor",

@@ -42,7 +42,9 @@
 		"fr": "Fouinette"
 	},
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Furret",
 		"fr": "Fouinar"

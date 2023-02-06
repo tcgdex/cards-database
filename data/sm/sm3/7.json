@@ -29,7 +29,9 @@
 		114
 	],
 	"hp": 80,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Tangela",
 		"en": "Tangela",

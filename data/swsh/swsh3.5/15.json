@@ -53,7 +53,9 @@
 		"fr": "Torgamord-V"
 	},
 	"hp": 320,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Kamalm VMAX",
 		"en": "Drednaw VMAX",

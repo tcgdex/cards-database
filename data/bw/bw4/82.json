@@ -40,7 +40,9 @@
 		486
 	],
 	"hp": 180,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"de": "Regigigas-EX",
 		"en": "Regigigas-EX",

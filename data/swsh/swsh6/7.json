@@ -48,7 +48,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 190,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Celebi V",
 		"en": "Celebi V",

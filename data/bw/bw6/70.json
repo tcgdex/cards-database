@@ -36,7 +36,9 @@
 		618
 	],
 	"hp": 100,
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"de": "Flunschlik",
 		"en": "Stunfisk",

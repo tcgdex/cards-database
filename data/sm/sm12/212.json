@@ -64,7 +64,9 @@
 		6
 	],
 	"hp": 270,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Glurak & Rutena GX",
 		"en": "Charizard & Braixen GX",

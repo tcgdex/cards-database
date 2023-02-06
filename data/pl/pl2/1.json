@@ -55,7 +55,9 @@
 		"fr": "Caninos"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Arcanine",
 		"fr": "Arcanin Niv. 53"

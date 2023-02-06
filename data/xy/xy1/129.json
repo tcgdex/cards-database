@@ -9,7 +9,9 @@
 		"pt": "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
 		"de": "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Team Flare-Rüpel",
 		"en": "Team Flare Grunt",

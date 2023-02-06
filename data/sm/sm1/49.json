@@ -44,7 +44,9 @@
 		170
 	],
 	"hp": 70,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Lampi",
 		"en": "Chinchou",

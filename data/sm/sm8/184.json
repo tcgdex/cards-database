@@ -9,7 +9,9 @@
 		"pt": "Você pode jogar 2 cartas Mistura de Ervas de uma vez.\n\n• Se você jogou 1 carta, remova 1 Condição Especial do seu Pokémon Ativo.\n• Se você jogou 2 cartas, cure 90 pontos de dano e remova todas as Condições Especiais do seu Pokémon Ativo (este efeito funciona uma vez para 2 cartas).",
 		"de": "Du kannst 2 Kräutermischung-Karten gleichzeitig spielen.\n\n• Wenn du 1 Karte gespielt hast, entferne 1 Speziellen Zustand von deinem Aktiven Pokémon.\n• Wenn du 2 Karten gespielt hast, heile 90 Schadenspunkte und entferne alle Speziellen Zustände von deinem Aktiven Pokémon. (Dieser Effekt funktioniert einmal für 2 Karten.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Kräutermischung",
 		"en": "Mixed Herbs",

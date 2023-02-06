@@ -43,7 +43,9 @@
 		"fr": "Anorith"
 	},
 	"hp": 140,
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Armaldo",
 		"fr": "Armaldo"

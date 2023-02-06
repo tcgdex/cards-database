@@ -48,7 +48,9 @@
 		"en": "Yanma"
 	},
 	"hp": 120,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Yanmega",
 		"en": "Yanmega",

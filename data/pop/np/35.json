@@ -31,7 +31,9 @@
 		25
 	],
 	"hp": 40,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Pikachu δ"
 	},

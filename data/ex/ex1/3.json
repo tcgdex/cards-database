@@ -39,7 +39,9 @@
 		"en": "Combusken"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Blaziken",
 		"fr": "Brasegali"

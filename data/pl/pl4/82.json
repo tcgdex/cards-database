@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "Search your deck for Arceus, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Beginning Door",
 		"fr": "Porte de départ"

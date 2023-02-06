@@ -9,7 +9,9 @@
 		"pt": "Procure por até 3 Pokémon V no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach bis zu 3 Pokémon-V, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Entdeckung der Abenteurerin",
 		"en": "Adventurer's Discovery",

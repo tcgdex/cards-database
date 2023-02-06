@@ -29,7 +29,9 @@
 		290
 	],
 	"hp": 40,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Nincada",
 		"en": "Nincada",

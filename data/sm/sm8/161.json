@@ -50,7 +50,9 @@
 		352
 	],
 	"hp": 80,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Kecleon",
 		"en": "Kecleon",

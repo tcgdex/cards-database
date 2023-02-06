@@ -38,7 +38,9 @@
 		"en": "Magnemite"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Magneton"
 	},

@@ -39,7 +39,9 @@
 		"fr": "Caninos"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Arcanine",
 		"fr": "Arcanin"

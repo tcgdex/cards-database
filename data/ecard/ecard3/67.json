@@ -18,7 +18,9 @@
 		174
 	],
 	"hp": 30,
-	"illustrator": "Keiko Fukuyama",
+	"illustrator": [
+		"Keiko Fukuyama"
+	],
 	"name": {
 		"en": "Igglybuff"
 	},

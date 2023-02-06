@@ -45,7 +45,9 @@
 		127
 	],
 	"hp": 110,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Pinsir",
 		"en": "Pinsir",

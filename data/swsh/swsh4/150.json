@@ -9,7 +9,9 @@
 		"pt": "Todos os Pokémon Básicos (seus e do seu oponente) recebem 20 pontos de dano a menos de ataques dos Pokémon do oponente (depois de aplicar Fraqueza e Resistência).",
 		"de": "Allen Basis-Pokémon (deinen und denen deines Gegners) werden durch Attacken von Pokémon des Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Circhester-Therme",
 		"en": "Circhester Bath",

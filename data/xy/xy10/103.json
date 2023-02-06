@@ -9,7 +9,9 @@
 		"pt": "Compre um card para cada Pokémon Básico no Banco do seu oponente.",
 		"de": "Ziehe 1 Karte für jedes Basis-Pokémon auf der Bank deines Gegners."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Görentalent",
 		"en": "Lass's Special",

@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon V ao qual esta carta está ligada tiver \"Espeon\" ou \"Umbreon\" em seu nome, sempre que seu oponente jogar 1 carta de Apoiador da própria mão, previna todos os efeitos daquela carta causados àquele Pokémon.",
 		"de": "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Psiana\" oder \"Nachtara\" zum Namen gehört, verhindere jedes Mal, wenn dein Gegner eine Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die jenem Pokémon zugefügt werden."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Mondsonnenorden",
 		"en": "Moon & Sun Badge",

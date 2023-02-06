@@ -9,7 +9,9 @@
 		"pt": "Qualquer Pokémon que possuir alguma Energia Darkness ligada a ele (seu e do seu oponente) não terá Fraqueza.",
 		"de": "Jedes Pokémon (deine und die deines Gegners), an das Darkness-Energie angelegt ist, hat keine Schwäche."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Schattenkreis",
 		"en": "Shadow Circle",

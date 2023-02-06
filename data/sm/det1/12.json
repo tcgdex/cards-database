@@ -54,7 +54,9 @@
 		150
 	],
 	"hp": 130,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Mewtu",
 		"en": "Mewtwo",

@@ -60,7 +60,9 @@
 		"de": "Garstella"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Aggrostella",
 		"en": "Toxapex",

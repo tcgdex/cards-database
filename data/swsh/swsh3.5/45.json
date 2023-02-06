@@ -58,7 +58,9 @@
 		"fr": "Sepiatop"
 	},
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Calamanero",
 		"en": "Malamar",

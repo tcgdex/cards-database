@@ -40,7 +40,9 @@
 		"de": "Feelinara-V"
 	},
 	"hp": 310,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Feelinara VMAX",
 		"en": "Sylveon VMAX",

@@ -9,7 +9,9 @@
 		"pt": "Cure 80 pontos de dano de 1 dos seus Pokémon que tiver pelo menos 1 Energia Psychic ligada a ele. Se você curou qualquer dano desta forma, descarte 1 Energia Psychic daquele Pokémon.",
 		"de": "Heile 80 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 1 Psychic-Energie angelegt ist. Wenn du auf diese Weise Schaden geheilt hast, lege 1 Psychic-Energie von jenem Pokémon auf deinen Ablagestapel."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Verdächtige Konserve",
 		"en": "Suspicious Food Tin",

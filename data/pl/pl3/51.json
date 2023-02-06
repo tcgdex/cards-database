@@ -38,7 +38,9 @@
 		"fr": "Keunotor"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Bibarel",
 		"fr": "Castorno"

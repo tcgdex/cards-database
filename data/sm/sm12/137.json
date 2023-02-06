@@ -40,7 +40,9 @@
 		27
 	],
 	"hp": 60,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Alola-Sandan",
 		"en": "Alolan Sandshrew",

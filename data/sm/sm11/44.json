@@ -41,7 +41,9 @@
 		"fr": "Fossile Inconnu"
 	},
 	"hp": 100,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Galapaflos",
 		"en": "Tirtouga",

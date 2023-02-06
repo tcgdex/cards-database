@@ -60,7 +60,9 @@
 		"de": "Galar-Flegmon"
 	},
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Galar-Lahmus",
 		"en": "Galarian Slowbro",

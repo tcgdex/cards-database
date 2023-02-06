@@ -39,7 +39,9 @@
 		37
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Alola Vulpix",
 		"en": "Alolan Vulpix",

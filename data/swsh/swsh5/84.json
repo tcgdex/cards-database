@@ -54,7 +54,9 @@
 		"en": "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle."
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Humanolith",
 		"en": "Stonjourner",

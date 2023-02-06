@@ -36,7 +36,9 @@
 		442
 	],
 	"hp": 60,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Spiritomb",
 		"fr": "Spiritomb"

@@ -33,7 +33,9 @@
 		177
 	],
 	"hp": 50,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Natu",
 		"fr": "Natu"

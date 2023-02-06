@@ -44,7 +44,9 @@
 		"en": "Pupitar"
 	},
 	"hp": 90,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Dark Tyranitar",
 		"fr": "Tyranocif obscur"

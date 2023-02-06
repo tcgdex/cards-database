@@ -10,7 +10,9 @@
 		"de": "Diese Karte liefert Colorless-Energie.\n\nDas Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Schwächewächter-Energie",
 		"en": "Weakness Guard Energy",

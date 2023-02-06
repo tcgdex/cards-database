@@ -58,7 +58,9 @@
 		"fr": "Écaïd"
 	},
 	"hp": 160,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Grandiras",
 		"en": "Kommo-o",

@@ -33,7 +33,9 @@
 		303
 	],
 	"hp": 150,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"en": "Mawile EX",
 		"fr": "Mysdibule EX"

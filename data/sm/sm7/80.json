@@ -53,7 +53,9 @@
 		377
 	],
 	"hp": 120,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Regirock",
 		"en": "Regirock",

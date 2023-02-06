@@ -29,7 +29,9 @@
 		447
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Riolu",
 		"en": "Riolu",

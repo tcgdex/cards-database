@@ -55,7 +55,9 @@
 		"fr": "Poussifeu"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Jungglut",
 		"en": "Combusken",

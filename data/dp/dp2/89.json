@@ -39,7 +39,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"en": "Magikarp",
 		"fr": "Magicarpe"

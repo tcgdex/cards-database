@@ -9,7 +9,9 @@
 		"pt": "Ligue 1 carta de Energia básica da sua mão a 1 dos seus Pokémon no Banco.",
 		"de": "Lege 1 Basis-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank an."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Betys",
 		"en": "Bede",

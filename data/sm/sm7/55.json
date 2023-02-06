@@ -44,7 +44,9 @@
 		741
 	],
 	"hp": 90,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Choreogel",
 		"en": "Oricorio",

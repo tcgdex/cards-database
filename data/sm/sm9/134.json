@@ -9,7 +9,9 @@
 		"pt": "Quando um Pokémon Darkness (seu ou do seu oponente) que tem alguma Energia Darkness ligada a ele é Nocauteado pelo dano do ataque de um oponente, aquele jogador pega 1 carta de Prêmio a menos.\n\nSempre que algum jogador jogar uma carta de Item ou Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados a esta carta de Estádio.",
 		"de": "Wenn ein Darkness-Pokémon (deins oder das deines Gegners), an das mindestens 1 Darkness-Energie angelegt ist, durch den Schaden einer Attacke des Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger. \n\nVerhindere jedes Mal, wenn ein Spieler eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dieser Stadionkarte zugefügt werden."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Schwarzmarkt ◇",
 		"en": "Black Market ◇",

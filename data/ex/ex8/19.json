@@ -39,7 +39,9 @@
 		"en": "Lombre"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Ludicolo",
 		"fr": "Ludicolo"

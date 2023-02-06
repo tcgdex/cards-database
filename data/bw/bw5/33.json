@@ -19,7 +19,9 @@
 		582
 	],
 	"hp": 50,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Gelatini",
 		"en": "Vanillite",

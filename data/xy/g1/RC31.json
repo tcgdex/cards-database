@@ -27,7 +27,9 @@
 		"fr": "Gardevoir-EX"
 	},
 	"hp": 210,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"en": "M Gardevoir EX",
 		"fr": "M-Gardevoir-EX"

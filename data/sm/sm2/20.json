@@ -56,7 +56,9 @@
 		"fr": "Sabelette d’Alola"
 	},
 	"hp": 110,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Alola-Sandamer",
 		"en": "Alolan Sandslash",

@@ -37,7 +37,9 @@
 		113
 	],
 	"hp": 90,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Chansey",
 		"fr": "Leveinard"

@@ -37,7 +37,9 @@
 		"fr": "Nosferapti"
 	},
 	"hp": 70,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Golbat",
 		"fr": "Nosferalto"

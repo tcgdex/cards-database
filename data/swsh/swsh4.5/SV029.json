@@ -60,7 +60,9 @@
 		"en": "Chewtle"
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Kamalm",
 		"en": "Drednaw",

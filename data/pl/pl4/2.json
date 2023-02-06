@@ -33,7 +33,9 @@
 	"evolveFrom": {
 		"en": "Snorunt"
 	},
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Froslass"
 	},

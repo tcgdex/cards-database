@@ -39,7 +39,9 @@
 		131
 	],
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Lapras",
 		"fr": "Lokhlass"

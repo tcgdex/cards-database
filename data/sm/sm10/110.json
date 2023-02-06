@@ -21,7 +21,9 @@
 		318
 	],
 	"hp": 60,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Kanivanha",
 		"en": "Carvanha",

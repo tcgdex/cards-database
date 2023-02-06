@@ -52,7 +52,9 @@
 		18
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Tauboss EX",
 		"en": "Pidgeot EX",

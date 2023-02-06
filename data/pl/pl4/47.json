@@ -32,7 +32,9 @@
 		"en": "Ponyta"
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Rapidash"
 	},

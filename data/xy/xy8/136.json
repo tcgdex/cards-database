@@ -9,7 +9,9 @@
 		"pt": "Coloque 4 cards de Energia básica da sua pilha de descarte em sua mão.",
 		"de": "Nimm 4 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Angler",
 		"en": "Fisherman",

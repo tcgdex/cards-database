@@ -75,7 +75,9 @@
 		491
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Darkrai GX",
 		"en": "Darkrai GX",

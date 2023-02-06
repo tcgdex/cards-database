@@ -9,7 +9,9 @@
 		"pt": "Procure em seu baralho até 2 Amaura ou Tyrunt em qualquer combinação e coloque-os em seu Banco. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 2 Amarino oder Balgoras und lege sie auf deine Bank. Mische anschließend dein Deck."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Fossilforscher",
 		"en": "Fossil Researcher",

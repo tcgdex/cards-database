@@ -37,7 +37,9 @@
 		"en": "Mareep"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Flaaffy",
 		"fr": "Lainergie"

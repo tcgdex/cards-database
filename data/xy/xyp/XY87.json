@@ -43,7 +43,9 @@
 		"fr": "Laggron-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Swampert EX",
 		"fr": "M Laggron EX"

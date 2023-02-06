@@ -49,7 +49,9 @@
 		"en": "Galarian Farfetch'd"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Galar-Lauchzelot",
 		"en": "Galarian Sirfetch'd",

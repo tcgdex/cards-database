@@ -42,7 +42,9 @@
 		"fr": "Makuhita"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Hariyama",
 		"fr": "Hariyama"

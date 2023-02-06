@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Ajoutez à votre main jusqu'à 2 cartes Énergie de base de votre pile de défausse.[1]"
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Energy Retrieval",
 		"fr": "Sauvegarde d'Énergie"

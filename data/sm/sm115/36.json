@@ -53,7 +53,9 @@
 		95
 	],
 	"hp": 200,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"en": "Onix GX",
 		"fr": "Onix-GX"

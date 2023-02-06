@@ -22,7 +22,9 @@
 		538
 	],
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Jiutesto",
 		"en": "Throh",

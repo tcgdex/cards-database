@@ -9,7 +9,9 @@
 		"pt": "Quando seu Pokémon Ativo for Nocauteado pelos danos causados por um ataque do oponente, você poderá mover 1 card de Energia básica que estava ligado àquele Pokémon para o Pokémon ao qual esse card está ligado.",
 		"de": "Wenn dein Aktives Pokémon durch den Schaden eines gegnerischen Angriffs kampfunfähig wird, kannst du 1 Basis-Energiekarte, die an dieses Pokémon angelegt war, auf das Pokémon verschieben, an das diese Karte angelegt ist."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "EP-Teiler",
 		"en": "Exp. Share",

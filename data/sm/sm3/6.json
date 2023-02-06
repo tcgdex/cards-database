@@ -56,7 +56,9 @@
 		"fr": "Ortide"
 	},
 	"hp": 140,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Giflor",
 		"en": "Vileplume",

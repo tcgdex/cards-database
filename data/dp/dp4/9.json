@@ -41,7 +41,9 @@
 		"fr": "Flobio"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Swampert",
 		"fr": "Laggron"

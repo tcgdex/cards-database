@@ -39,7 +39,9 @@
 		244
 	],
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Entei",
 		"fr": "Entei"

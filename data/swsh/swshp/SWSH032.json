@@ -43,7 +43,9 @@
 		143
 	],
 	"hp": 150,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

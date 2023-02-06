@@ -50,7 +50,9 @@
 		"en": "Ponyta"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Rapidash",
 		"fr": "Galopa"

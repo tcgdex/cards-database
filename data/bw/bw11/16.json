@@ -31,7 +31,9 @@
 		649
 	],
 	"hp": 110,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"en": "Genesect"
 	},

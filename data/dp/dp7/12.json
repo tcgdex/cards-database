@@ -55,7 +55,9 @@
 		"fr": "Blizzi"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Abomasnow",
 		"fr": "Blizzaroi"

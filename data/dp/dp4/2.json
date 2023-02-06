@@ -37,7 +37,9 @@
 		488
 	],
 	"hp": 80,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Cresselia",
 		"fr": "Cresselia"

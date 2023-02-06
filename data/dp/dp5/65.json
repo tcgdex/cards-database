@@ -9,7 +9,9 @@
 		"fr": "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 	},
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Glameow",
 		"fr": "Chaglam"

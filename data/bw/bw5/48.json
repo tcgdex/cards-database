@@ -45,7 +45,9 @@
 		"en": "Eevee"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Psiana",
 		"en": "Espeon",

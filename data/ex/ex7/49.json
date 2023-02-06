@@ -33,7 +33,9 @@
 		"en": "Hoppip"
 	},
 	"hp": 60,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Skiploom"
 	},

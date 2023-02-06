@@ -43,7 +43,9 @@
 		725
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Flamiau",
 		"en": "Litten",

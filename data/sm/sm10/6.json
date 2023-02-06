@@ -21,7 +21,9 @@
 		43
 	],
 	"hp": 60,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Myrapla",
 		"en": "Oddish",

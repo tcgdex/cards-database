@@ -33,7 +33,9 @@
 		381
 	],
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Latios",
 		"fr": "Latios"

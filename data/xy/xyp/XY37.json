@@ -21,7 +21,9 @@
 		255
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Torchic",
 		"fr": "Poussifeu"

@@ -37,7 +37,9 @@
 		"en": "Aron"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Lairon",
 		"fr": "Galegon"

@@ -53,7 +53,9 @@
 		"en": "Grimer"
 	},
 	"hp": 100,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Muk ex",
 		"fr": "Grotadmorv ex"

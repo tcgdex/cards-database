@@ -32,7 +32,9 @@
 		"en": "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap."
 	},
 	"hp": 70,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Mabula",
 		"en": "Grubbin",

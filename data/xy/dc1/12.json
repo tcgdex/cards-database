@@ -17,7 +17,9 @@
 		304
 	],
 	"hp": 60,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Team Magma's Aron",
 		"fr": "Galekid de la Team Magma"

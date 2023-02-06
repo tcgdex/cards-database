@@ -51,7 +51,9 @@
 		"de": "Kleptifux"
 	},
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Gaunux",
 		"en": "Thievul",

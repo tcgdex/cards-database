@@ -43,7 +43,9 @@
 		10
 	],
 	"hp": 40,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Raupy",
 		"en": "Caterpie",

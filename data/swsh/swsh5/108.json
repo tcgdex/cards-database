@@ -59,7 +59,9 @@
 		"de": "Duokles"
 	},
 	"hp": 150,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Durengard",
 		"en": "Aegislash",

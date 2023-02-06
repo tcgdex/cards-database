@@ -31,7 +31,9 @@
 		807
 	],
 	"hp": 210,
-	"illustrator": "Atsushi Furusawa",
+	"illustrator": [
+		"Atsushi Furusawa"
+	],
 	"name": {
 		"de": "Zeraora V",
 		"en": "Zeraora V",

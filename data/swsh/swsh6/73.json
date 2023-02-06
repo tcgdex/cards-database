@@ -59,7 +59,9 @@
 		"de": "Brimano"
 	},
 	"hp": 130,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Silembrim",
 		"en": "Hatterene",

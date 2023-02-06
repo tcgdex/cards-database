@@ -28,7 +28,9 @@
 		577
 	],
 	"hp": 30,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Solosis"
 	},

@@ -9,7 +9,9 @@
 		"pt": "Lance uma moeda. Se der “cara”, procure um Pokémon no seu deck, mostre-o ao seu oponente e coloque-o na sua mão. Em seguida, embaralhe seu deck.",
 		"de": "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Pokéball",
 		"en": "Poké Ball",

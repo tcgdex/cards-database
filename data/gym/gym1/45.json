@@ -34,7 +34,9 @@
 		"en": "Oddish"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Erika's Gloom"
 	},

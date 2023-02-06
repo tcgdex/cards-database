@@ -39,7 +39,9 @@
 		"en": "Anorith"
 	},
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Armaldo",
 		"fr": "Armaldo"

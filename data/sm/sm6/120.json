@@ -79,7 +79,9 @@
 		"fr": "Croâporal"
 	},
 	"hp": 230,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Quajutsu GX",
 		"en": "Greninja GX",

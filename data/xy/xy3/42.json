@@ -46,7 +46,9 @@
 		622
 	],
 	"hp": 90,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Golbit",
 		"en": "Golett",

@@ -40,7 +40,9 @@
 		203
 	],
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Girafarig",
 		"fr": "Girafarig"

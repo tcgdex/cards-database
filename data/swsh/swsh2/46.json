@@ -62,7 +62,9 @@
 		"de": "Mebrana"
 	},
 	"hp": 170,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Branawarz",
 		"en": "Seismitoad",

@@ -32,7 +32,9 @@
 		627
 	],
 	"hp": 60,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Geronimatz",
 		"en": "Rufflet",

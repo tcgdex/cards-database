@@ -49,7 +49,9 @@
 		"fr": "Ceribou"
 	},
 	"hp": 80,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Kinoso",
 		"en": "Cherrim",

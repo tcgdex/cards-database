@@ -55,7 +55,9 @@
 		"fr": "Psystigri"
 	},
 	"hp": 90,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Psiaugon",
 		"en": "Meowstic",

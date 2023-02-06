@@ -18,7 +18,9 @@
 		513
 	],
 	"hp": 70,
-	"illustrator": "James Turner",
+	"illustrator": [
+		"James Turner"
+	],
 	"name": {
 		"de": "Grillmak",
 		"en": "Pansear",

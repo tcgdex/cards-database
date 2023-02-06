@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Piochez 2 cartes."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Bill",
 		"fr": "Léo"

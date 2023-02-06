@@ -56,7 +56,9 @@
 		"fr": "Gravalanch d’Alola"
 	},
 	"hp": 180,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Alola-Geowaz",
 		"en": "Alolan Golem",

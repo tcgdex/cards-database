@@ -40,7 +40,9 @@
 		483
 	],
 	"hp": 90,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Dialga",
 		"fr": "Dialga"

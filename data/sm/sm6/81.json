@@ -58,7 +58,9 @@
 		"fr": "Prinplouf"
 	},
 	"hp": 160,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Impoleon",
 		"en": "Empoleon",

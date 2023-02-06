@@ -56,7 +56,9 @@
 		"fr": "Dinoclier"
 	},
 	"hp": 160,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Bollterus",
 		"en": "Bastiodon",

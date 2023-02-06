@@ -30,7 +30,9 @@
 		363
 	],
 	"hp": 60,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Seemops",
 		"en": "Spheal",

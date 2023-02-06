@@ -21,7 +21,9 @@
 		155
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Cyndaquil",
 		"fr": "Héricendre"

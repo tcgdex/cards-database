@@ -43,7 +43,9 @@
 		"fr": "Funécire"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Laternecto",
 		"en": "Lampent",

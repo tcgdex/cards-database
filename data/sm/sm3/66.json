@@ -60,7 +60,9 @@
 		"fr": "Rhinocorne"
 	},
 	"hp": 110,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Rizeros",
 		"en": "Rhydon",

@@ -28,7 +28,9 @@
 		"en": "It flies straight at its target's face, then clamps down on the startled victim to inject poison."
 	},
 	"hp": 70,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Skorgla",
 		"en": "Gligar",

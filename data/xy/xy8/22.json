@@ -38,7 +38,9 @@
 		"de": "Hundemon-EX"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M-Hundemon EX",
 		"en": "M Houndoom EX",

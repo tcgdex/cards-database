@@ -33,7 +33,9 @@
 	"evolveFrom": {
 		"en": "Old Amber"
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Aerodactyl"
 	},

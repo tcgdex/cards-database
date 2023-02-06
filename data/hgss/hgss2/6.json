@@ -43,7 +43,9 @@
 		"fr": "Remoraid"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Octillery",
 		"fr": "Octillery"

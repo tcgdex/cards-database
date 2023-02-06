@@ -38,7 +38,9 @@
 		"fr": "Racaillou"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Graveler",
 		"fr": "Gravalanch"

@@ -29,7 +29,9 @@
 		111
 	],
 	"hp": 60,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Rhyhorn"
 	},

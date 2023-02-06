@@ -33,7 +33,9 @@
 		"en": "Wooper"
 	},
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Quagsire"
 	},

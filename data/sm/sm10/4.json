@@ -48,7 +48,9 @@
 		"fr": "Chrysacier"
 	},
 	"hp": 130,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Smettbo",
 		"en": "Butterfree",

@@ -41,7 +41,9 @@
 		"en": "Slowpoke"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Light Slowbro",
 		"fr": "Flagadoss lumineux"

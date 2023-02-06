@@ -44,7 +44,9 @@
 		146
 	],
 	"hp": 100,
-	"illustrator": "Ken Ikuji",
+	"illustrator": [
+		"Ken Ikuji"
+	],
 	"name": {
 		"en": "Moltres ex"
 	},

@@ -33,7 +33,9 @@
 		123
 	],
 	"hp": 80,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Scyther ex",
 		"fr": "Insécateur ex"

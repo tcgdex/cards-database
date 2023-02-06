@@ -58,7 +58,9 @@
 		"fr": "Magmar"
 	},
 	"hp": 130,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Magbrant",
 		"en": "Magmortar",

@@ -29,7 +29,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Karpador",
 		"en": "Magikarp",

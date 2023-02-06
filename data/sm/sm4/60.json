@@ -46,7 +46,9 @@
 		633
 	],
 	"hp": 70,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Kapuno",
 		"en": "Deino",

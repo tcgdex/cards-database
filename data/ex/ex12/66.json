@@ -20,7 +20,9 @@
 		72
 	],
 	"hp": 50,
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"en": "Tentacool",
 		"fr": "Tentacool"

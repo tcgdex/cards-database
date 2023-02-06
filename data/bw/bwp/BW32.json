@@ -35,7 +35,9 @@
 		494
 	],
 	"hp": 60,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Victini",
 		"fr": "Victini"

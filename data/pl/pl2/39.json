@@ -35,7 +35,9 @@
 		101
 	],
 	"hp": 70,
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Electrode G",
 		"fr": "Electrode  Niv. 38"

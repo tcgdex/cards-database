@@ -29,7 +29,9 @@
 		742
 	],
 	"hp": 30,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Wommel",
 		"en": "Cutiefly",

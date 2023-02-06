@@ -9,7 +9,9 @@
 		"pt": "Sempre que qualquer um dos jogadores jogar uma carta de Estádio da própria mão, descarte aquela carta de Estádio após descartar esta (a nova carta de Estádio não tem efeito).",
 		"de": "Wenn ein Spieler eine Stadionkarte aus seiner Hand spielt, lege jene Stadionkarte auf den Ablagestapel, nachdem du diese Karte auf den Ablagestapel gelegt hast. (Die neue Stadionkarte hat keinen Effekt.)"
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Öde des Chaos",
 		"en": "Chaotic Swell",

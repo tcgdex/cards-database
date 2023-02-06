@@ -39,7 +39,9 @@
 		"de": "Kangama-EX"
 	},
 	"hp": 230,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M-Kangama EX",
 		"en": "M Kangaskhan EX",

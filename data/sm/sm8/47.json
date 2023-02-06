@@ -54,7 +54,9 @@
 		244
 	],
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Entei",
 		"en": "Entei",

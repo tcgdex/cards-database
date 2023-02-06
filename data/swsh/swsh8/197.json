@@ -36,7 +36,9 @@
 		"de": "Viscargot"
 	},
 	"hp": 160,
-	"illustrator": "Nagomi Nijo",
+	"illustrator": [
+		"Nagomi Nijo"
+	],
 	"name": {
 		"de": "Viscogon",
 		"en": "Goodra",

@@ -58,7 +58,9 @@
 		"fr": "Cradopaud"
 	},
 	"hp": 110,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Toxiquak",
 		"en": "Toxicroak",

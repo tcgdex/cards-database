@@ -38,7 +38,9 @@
 		484
 	],
 	"hp": 100,
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Palkia G",
 		"fr": "Palkia "

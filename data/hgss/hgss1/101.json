@@ -6,7 +6,9 @@
 		"en": "Shuffle your hand into your deck. Then, draw 6 cards."
 	},
 	"hp": 0,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Professor Oak’s New Theory",
 		"fr": "Nouvelle théorie du Prof. Chen"

@@ -37,7 +37,9 @@
 		"de": "Waumpel"
 	},
 	"hp": 80,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Schaloko",
 		"en": "Silcoon",

@@ -38,7 +38,9 @@
 		"en": "Jigglypuff"
 	},
 	"hp": 80,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Wigglytuff",
 		"fr": "Grodoudou"

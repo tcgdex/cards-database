@@ -45,7 +45,9 @@
 		766
 	],
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Quartermak",
 		"en": "Passimian",

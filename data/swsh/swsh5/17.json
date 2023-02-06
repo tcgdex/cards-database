@@ -21,7 +21,9 @@
 		"en": "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
 	},
 	"hp": 50,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Sensect",
 		"en": "Blipbug",

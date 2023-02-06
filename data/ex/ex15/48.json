@@ -33,7 +33,9 @@
 		239
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Elekid δ",
 		"fr": "Elekid δ ESPÈCES DELTA"

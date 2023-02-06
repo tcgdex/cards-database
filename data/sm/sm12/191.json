@@ -9,7 +9,9 @@
 		"pt": "Cada jogador pode comprar até 3 cartas. Você compra primeiro.",
 		"de": "Jeder Spieler kann bis zu 3 Karten ziehen. Du ziehst als Erster."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Erika",
 		"en": "Erika",

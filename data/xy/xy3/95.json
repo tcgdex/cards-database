@@ -9,7 +9,9 @@
 		"pt": "Procure em seu deck um Pokémon Fighting e um card de Item, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach 1 Fighting-Pokémon und 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Connie",
 		"en": "Korrina",

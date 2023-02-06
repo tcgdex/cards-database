@@ -37,7 +37,9 @@
 		"en": "Combusken"
 	},
 	"hp": 140,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Lohgock",
 		"en": "Blaziken",

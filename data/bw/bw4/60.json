@@ -39,7 +39,9 @@
 		"fr": "Darumarond"
 	},
 	"hp": 110,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Flampivian",
 		"en": "Darmanitan",

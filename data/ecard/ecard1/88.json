@@ -25,7 +25,9 @@
 		"en": "Pidgey"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Pidgeotto",
 		"fr": "Roucoups"

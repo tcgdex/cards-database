@@ -22,7 +22,9 @@
 		316
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Gulpin",
 		"fr": "Gloupti"

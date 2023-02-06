@@ -24,7 +24,9 @@
 		13
 	],
 	"hp": 40,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Weedle",
 		"fr": "Aspicot"

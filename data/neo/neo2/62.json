@@ -33,7 +33,9 @@
 		60
 	],
 	"hp": 40,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Poliwag",
 		"fr": "Ptitard"

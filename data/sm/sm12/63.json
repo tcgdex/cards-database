@@ -51,7 +51,9 @@
 		746
 	],
 	"hp": 130,
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Lusardin GX",
 		"en": "Wishiwashi GX",

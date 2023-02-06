@@ -40,7 +40,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Pikachu",
 		"fr": "Pikachu"

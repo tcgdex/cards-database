@@ -43,7 +43,9 @@
 		"fr": "Wailmer"
 	},
 	"hp": 180,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Wailord",
 		"fr": "Wailord"

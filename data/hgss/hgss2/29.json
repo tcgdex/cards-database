@@ -24,7 +24,9 @@
 		206
 	],
 	"hp": 60,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Dunsparce",
 		"fr": "Insolourdo"

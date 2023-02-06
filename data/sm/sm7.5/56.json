@@ -43,7 +43,9 @@
 		333
 	],
 	"hp": 50,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Wablu",
 		"en": "Swablu",

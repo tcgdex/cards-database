@@ -9,7 +9,9 @@
 		"pt": "No final de cada turno, se o Pokémon ao qual esta carta está ligada estiver afetado por quaisquer Condições Especiais, ele se recuperará delas, e você descartará esta carta.",
 		"de": "Am Ende jedes Zuges, wenn das Pokémon, an das diese Karte angelegt ist, von Speziellen Zuständen betroffen ist, erholt es sich von allen und du legst diese Karte auf deinen Ablagestapel."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Prunusbeere",
 		"en": "Lum Berry",

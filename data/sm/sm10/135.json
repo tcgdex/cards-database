@@ -56,7 +56,9 @@
 		"fr": "Rondoudou"
 	},
 	"hp": 110,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Knuddeluff",
 		"en": "Wigglytuff",

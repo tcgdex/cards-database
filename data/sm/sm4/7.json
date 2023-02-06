@@ -44,7 +44,9 @@
 		588
 	],
 	"hp": 60,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Laukaps",
 		"en": "Karrablast",

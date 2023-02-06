@@ -52,7 +52,9 @@
 		"fr": "Gringolem"
 	},
 	"hp": 140,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Golgantes",
 		"en": "Golurk",

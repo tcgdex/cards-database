@@ -41,7 +41,9 @@
 		"fr": "Fantominus"
 	},
 	"hp": 70,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Haunter",
 		"fr": "Spectrum"

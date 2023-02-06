@@ -36,7 +36,9 @@
 		183
 	],
 	"hp": 70,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Marill",
 		"en": "Marill",

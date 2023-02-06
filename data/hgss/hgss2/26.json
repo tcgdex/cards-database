@@ -47,7 +47,9 @@
 		"fr": "Ymphect"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Tyranitar",
 		"fr": "Tyranocif"

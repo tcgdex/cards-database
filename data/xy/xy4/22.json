@@ -45,7 +45,9 @@
 		594
 	],
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Mamolida",
 		"en": "Alomomola",

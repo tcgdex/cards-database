@@ -41,7 +41,9 @@
 		"de": "Irrbis"
 	},
 	"hp": 120,
-	"illustrator": "Megumi Higuchi",
+	"illustrator": [
+		"Megumi Higuchi"
+	],
 	"name": {
 		"de": "Pumpdjinn",
 		"en": "Gourgeist",

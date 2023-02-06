@@ -29,7 +29,9 @@
 		21
 	],
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Habitak",
 		"en": "Spearow",

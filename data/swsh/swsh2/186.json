@@ -50,7 +50,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Calamanero V",
 		"en": "Malamar V",

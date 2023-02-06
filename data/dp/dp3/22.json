@@ -41,7 +41,9 @@
 		"fr": "Caninos"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Arcanine",
 		"fr": "Arcanin"

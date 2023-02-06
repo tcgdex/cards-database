@@ -38,7 +38,9 @@
 		"fr": "Ramboum"
 	},
 	"hp": 130,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Exploud",
 		"fr": "Brouhabam"

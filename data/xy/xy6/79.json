@@ -38,7 +38,9 @@
 		"de": "Dusselgurr"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Navitaub",
 		"en": "Tranquill",

@@ -49,7 +49,9 @@
 		"en": "Wooper"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Quagsire",
 		"fr": "Maraiste"

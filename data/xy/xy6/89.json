@@ -9,7 +9,9 @@
 		"pt": "Cada jogador pode ter 8 Pokémon no Banco.",
 		"de": "Jeder Spieler kann 8 Pokémon auf seiner Bank haben."
 	},
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Himmelsfeld",
 		"en": "Sky Field",

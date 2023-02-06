@@ -47,7 +47,9 @@
 		"fr": "Tylton"
 	},
 	"hp": 80,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Altaria",
 		"en": "Altaria",

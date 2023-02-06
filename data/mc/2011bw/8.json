@@ -16,7 +16,9 @@
 		"en": "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun."
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sandile"
 	},

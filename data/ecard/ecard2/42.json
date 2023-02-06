@@ -39,7 +39,9 @@
 		"en": "Weepinbell"
 	},
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Victreebel",
 		"fr": "Empiflor"

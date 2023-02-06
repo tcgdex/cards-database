@@ -33,7 +33,9 @@
 		"en": "Larvitar"
 	},
 	"hp": 70,
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"en": "Dark Pupitar"
 	},

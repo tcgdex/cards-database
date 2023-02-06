@@ -6,7 +6,9 @@
 		"en": "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon."
 	},
 	"hp": 0,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Pokémon Circulator",
 		"fr": "Circulateur de Pokémon"

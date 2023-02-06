@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Échangez 1 de vos Pokémon Actifs avec 1 des Pokémon de votre Banc."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Switch",
 		"fr": "Échange"

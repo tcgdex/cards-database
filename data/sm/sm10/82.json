@@ -70,7 +70,9 @@
 		68
 	],
 	"hp": 270,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Marshadow & Machomei GX",
 		"en": "Marshadow & Machamp GX",

@@ -41,7 +41,9 @@
 		"fr": "Ouvrifier"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Meistagrif",
 		"en": "Conkeldurr",

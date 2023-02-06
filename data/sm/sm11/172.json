@@ -56,7 +56,9 @@
 		"fr": "Keunotor"
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Bidifas",
 		"en": "Bibarel",

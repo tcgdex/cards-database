@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Chaque joueur peut faire évoluer un Pokémon qu'il ou elle a joué ou fait évolué ce tour-ci."
 	},
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Broken Time-Space",
 		"fr": "Espace-Temps brisé"

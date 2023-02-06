@@ -55,7 +55,9 @@
 		"fr": "Croquine"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Frubaila",
 		"en": "Steenee",

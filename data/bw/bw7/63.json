@@ -49,7 +49,9 @@
 		"fr": "Téraclope"
 	},
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Zwirrfinst",
 		"en": "Dusknoir",

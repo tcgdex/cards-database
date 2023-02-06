@@ -30,7 +30,9 @@
 		"de": "Voltilamm"
 	},
 	"hp": 100,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Waaty",
 		"en": "Flaaffy",

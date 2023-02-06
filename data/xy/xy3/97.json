@@ -9,7 +9,9 @@
 		"pt": "Previne todos os danos causados a Pokémon no Banco por ataques (seus e do seu oponente).",
 		"de": "Verhindere allen Schaden, der Pokémon auf der Bank durch Angriffe zugefügt würde (deinen und denen deines Gegners)."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Gebirgsring",
 		"en": "Mountain Ring",

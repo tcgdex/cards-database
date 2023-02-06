@@ -32,7 +32,9 @@
 		"en": "Cramorant V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Urgl VMAX",
 		"en": "Cramorant VMAX",

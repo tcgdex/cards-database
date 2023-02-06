@@ -46,7 +46,9 @@
 		125
 	],
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Elektek",
 		"en": "Electabuzz",

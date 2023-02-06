@@ -43,7 +43,9 @@
 		35
 	],
 	"hp": 60,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Piepi",
 		"en": "Clefairy",

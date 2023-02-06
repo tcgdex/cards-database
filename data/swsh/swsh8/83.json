@@ -24,7 +24,9 @@
 		"de": "Pikuda"
 	},
 	"hp": 120,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Barrakiefa",
 		"en": "Barraskewda",

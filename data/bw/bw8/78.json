@@ -48,7 +48,9 @@
 		"fr": "Riolu"
 	},
 	"hp": 100,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Lucario",
 		"en": "Lucario",

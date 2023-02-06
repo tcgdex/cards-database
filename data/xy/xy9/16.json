@@ -22,7 +22,9 @@
 		54
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Enton",
 		"en": "Psyduck",

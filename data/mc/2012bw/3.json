@@ -21,7 +21,9 @@
 		"en": "The Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth."
 	},
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Dwebble"
 	},

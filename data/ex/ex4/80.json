@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, cherchez dans votre deck un Pokémon dont le nom comporte Team Magma, montrez-le à votre adversaire et placez-le dans votre main. Si c'est pile, cherchez dans votre deck un Pokémon de base dont le nom comporte Team Magma, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Team Magma Ball",
 		"fr": "Boule de Team Magma"

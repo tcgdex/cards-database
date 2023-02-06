@@ -54,7 +54,9 @@
 		250
 	],
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Ho-Oh-GX",
 		"fr": "Ho-Oh-GX"

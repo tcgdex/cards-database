@@ -43,7 +43,9 @@
 		122
 	],
 	"hp": 70,
-	"illustrator": "Hiroki Asanuma",
+	"illustrator": [
+		"Hiroki Asanuma"
+	],
 	"name": {
 		"de": "Pantimos",
 		"en": "Mr. Mime",

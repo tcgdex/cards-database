@@ -55,7 +55,9 @@
 		"fr": "Matoufeu"
 	},
 	"hp": 160,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Fuegro",
 		"en": "Incineroar",

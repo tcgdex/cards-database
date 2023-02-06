@@ -31,7 +31,9 @@
 		393
 	],
 	"hp": 60,
-	"illustrator": "Tomomi Kaneko",
+	"illustrator": [
+		"Tomomi Kaneko"
+	],
 	"name": {
 		"de": "Plinfa",
 		"en": "Piplup",

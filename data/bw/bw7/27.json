@@ -22,7 +22,9 @@
 		554
 	],
 	"hp": 70,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Flampion",
 		"en": "Darumaka",

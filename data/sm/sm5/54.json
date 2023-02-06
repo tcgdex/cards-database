@@ -43,7 +43,9 @@
 		451
 	],
 	"hp": 80,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Pionskora",
 		"en": "Skorupi",

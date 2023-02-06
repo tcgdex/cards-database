@@ -33,7 +33,9 @@
 		"fr": "Mystherbe"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Duflor",
 		"en": "Gloom",

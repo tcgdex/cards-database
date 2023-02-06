@@ -38,7 +38,9 @@
 		"de": "Scherox-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M-Scherox EX",
 		"en": "M Scizor EX",

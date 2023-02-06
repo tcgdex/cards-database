@@ -35,7 +35,9 @@
 		207
 	],
 	"hp": 60,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Gligar",
 		"fr": "Scorplane"

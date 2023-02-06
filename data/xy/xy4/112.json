@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Psychic-Pokémon angelegt werden. Diese Karte liefert nur dann Psychic-Energie, wenn sie an ein Psychic-Pokémon angelegt ist. Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um ColorlessColorless. (Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Psychic-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "GeheimnisEnergie",
 		"en": "Mystery Energy",

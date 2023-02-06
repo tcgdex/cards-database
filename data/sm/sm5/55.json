@@ -36,7 +36,9 @@
 		"fr": "Rapion"
 	},
 	"hp": 130,
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Piondragi",
 		"en": "Drapion",

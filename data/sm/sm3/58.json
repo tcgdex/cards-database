@@ -60,7 +60,9 @@
 		"fr": "Scobolide"
 	},
 	"hp": 160,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Cerapendra",
 		"en": "Scolipede",

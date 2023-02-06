@@ -37,7 +37,9 @@
 		"fr": "Minidraco"
 	},
 	"hp": 70,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Dragonir",
 		"en": "Dragonair",

@@ -36,7 +36,9 @@
 		"fr": "Sepiatop"
 	},
 	"hp": 90,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"en": "Malamar",
 		"fr": "Sepiatroce"

@@ -31,7 +31,9 @@
 		177
 	],
 	"hp": 50,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Natu"
 	},

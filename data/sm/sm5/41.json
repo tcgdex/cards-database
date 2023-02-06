@@ -51,7 +51,9 @@
 		479
 	],
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Frost-Rotom",
 		"en": "Frost Rotom",

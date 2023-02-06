@@ -57,7 +57,9 @@
 		"fr": "Stalgamin"
 	},
 	"hp": 120,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Firnontor",
 		"en": "Glalie",

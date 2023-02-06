@@ -22,7 +22,9 @@
 		193
 	],
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Yanma",
 		"en": "Yanma",

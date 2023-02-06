@@ -23,7 +23,9 @@
 		"en": "Beedrill-EX"
 	},
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Beedrill-EX"
 	},

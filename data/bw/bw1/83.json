@@ -42,7 +42,9 @@
 		"fr": "Ponchien"
 	},
 	"hp": 140,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Bissbark",
 		"en": "Stoutland",

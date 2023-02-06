@@ -41,7 +41,9 @@
 		"fr": "Zébibron"
 	},
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Zebritz",
 		"en": "Zebstrika",

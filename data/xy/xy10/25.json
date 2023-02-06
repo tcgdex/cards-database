@@ -50,7 +50,9 @@
 		65
 	],
 	"hp": 160,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Simsala EX",
 		"en": "Alakazam EX",

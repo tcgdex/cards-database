@@ -9,7 +9,9 @@
 		"pt": "Coloque uma carta de Apoiador Golpe Decisivo da sua pilha de descarte na sua mão.",
 		"de": "Nimm 1 Fokussierter-Angriff-Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Einladende Laterne",
 		"en": "Welcoming Lantern",

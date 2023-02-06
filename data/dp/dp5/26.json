@@ -39,7 +39,9 @@
 		"fr": "Amonita"
 	},
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Omastar",
 		"fr": "Amonistar"

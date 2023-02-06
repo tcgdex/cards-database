@@ -31,7 +31,9 @@
 		309
 	],
 	"hp": 50,
-	"illustrator": "M. Akiyama",
+	"illustrator": [
+		"M. Akiyama"
+	],
 	"name": {
 		"en": "Team Aqua's Electrike",
 		"fr": "Dynavolt de Team Aqua"

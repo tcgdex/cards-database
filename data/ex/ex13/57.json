@@ -36,7 +36,9 @@
 		"en": "Claw Fossil"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Anorith δ",
 		"fr": "Anorith δ ESPÈCES DELTA"

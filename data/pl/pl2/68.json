@@ -34,7 +34,9 @@
 		109
 	],
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Koffing",
 		"fr": "Smogo Niv. 22"

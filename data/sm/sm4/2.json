@@ -32,7 +32,9 @@
 		"fr": "Aspicot"
 	},
 	"hp": 80,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Kokuna",
 		"en": "Kakuna",

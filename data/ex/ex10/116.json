@@ -39,7 +39,9 @@
 		"en": "Rocket's Meowth"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Rocket's Persian ex",
 		"fr": "Persian ex de Rocket"

@@ -34,7 +34,9 @@
 		638
 	],
 	"hp": 120,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Cobalion"
 	},

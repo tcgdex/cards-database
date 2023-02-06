@@ -29,7 +29,9 @@
 		116
 	],
 	"hp": 50,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Seeper",
 		"en": "Horsea",

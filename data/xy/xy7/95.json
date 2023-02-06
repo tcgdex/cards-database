@@ -9,7 +9,9 @@
 		"pt": "Procure no seu baralho um card de Apoiador e um card de Energia básica, revele-os e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach 1 Unterstützerkarte und 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Troy",
 		"en": "Steven",

@@ -64,7 +64,9 @@
 		"de": "Sedimantur"
 	},
 	"hp": 180,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Brockoloss",
 		"en": "Gigalith",

@@ -37,7 +37,9 @@
 		"en": "Pidgeotto"
 	},
 	"hp": 120,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Pidgeot"
 	},

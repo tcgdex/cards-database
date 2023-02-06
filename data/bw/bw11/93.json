@@ -33,7 +33,9 @@
 		384
 	],
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Rayquaza"
 	},

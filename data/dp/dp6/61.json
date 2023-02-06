@@ -43,7 +43,9 @@
 		"fr": "Riolu"
 	},
 	"hp": 90,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Lucario",
 		"fr": "Lucario"

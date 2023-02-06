@@ -27,7 +27,9 @@
 	"dexId": [
 		77
 	],
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Ponyta"
 	},

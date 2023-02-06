@@ -33,7 +33,9 @@
 		25
 	],
 	"hp": 60,
-	"illustrator": "Sylvia Forrest",
+	"illustrator": [
+		"Sylvia Forrest"
+	],
 	"name": {
 		"en": "Pikachu"
 	},

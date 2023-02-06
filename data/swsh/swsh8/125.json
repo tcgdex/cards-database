@@ -26,7 +26,9 @@
 		"en": "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
 	},
 	"hp": 80,
-	"illustrator": "KIYOTAKA OSHIYAMA",
+	"illustrator": [
+		"KIYOTAKA OSHIYAMA"
+	],
 	"name": {
 		"de": "Sankabuh",
 		"en": "Sandygast",

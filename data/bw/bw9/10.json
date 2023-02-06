@@ -40,7 +40,9 @@
 		"fr": "Cacnea"
 	},
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Noktuska",
 		"en": "Cacturne",

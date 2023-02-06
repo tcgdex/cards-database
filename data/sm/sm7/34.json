@@ -50,7 +50,9 @@
 		"fr": "Gobou"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Moorabbel",
 		"en": "Marshtomp",

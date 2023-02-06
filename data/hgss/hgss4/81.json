@@ -36,7 +36,9 @@
 		48
 	],
 	"hp": 50,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Venonat",
 		"fr": "Mimitoss"

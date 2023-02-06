@@ -40,7 +40,9 @@
 		"en": "Eevee"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Espeon",
 		"fr": "Mentali"

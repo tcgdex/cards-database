@@ -9,7 +9,9 @@
 		"pt": "No final de cada turno, se o Pokémon ao qual esta carta está ligada tiver 3 ou mais contadores de dano nele, cure 30 pontos de dano dele e descarte esta carta.",
 		"de": "Am Ende jedes Zuges, wenn auf dem Pokémon, an das diese Karte angelegt ist, 3 oder mehr Schadensmarken liegen, heile 30 Schadenspunkte bei jenem Pokémon und lege diese Karte auf deinen Ablagestapel."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Tsitrubeere",
 		"en": "Sitrus Berry",

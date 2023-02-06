@@ -36,7 +36,9 @@
 		"en": "If it locks eyes with you, watch out! Nothing and no one is safe from the reckless headbutts of this troublesome Pokémon."
 	},
 	"hp": 70,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Zurrokex",
 		"en": "Scraggy",

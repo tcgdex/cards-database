@@ -59,7 +59,9 @@
 		"de": "Zwirrlicht"
 	},
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Zwirrklop",
 		"en": "Dusclops",

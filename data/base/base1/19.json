@@ -42,7 +42,9 @@
 		"en": "Diglett"
 	},
 	"hp": 70,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Dugtrio",
 		"fr": "Triopikeur"

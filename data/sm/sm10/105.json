@@ -50,7 +50,9 @@
 		"fr": "Crabagarre"
 	},
 	"hp": 140,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Krawell",
 		"en": "Crabominable",

@@ -30,7 +30,9 @@
 		108
 	],
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Lickitung"
 	},

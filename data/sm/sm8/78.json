@@ -54,7 +54,9 @@
 		"fr": "Lainergie"
 	},
 	"hp": 150,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Ampharos",
 		"en": "Ampharos",

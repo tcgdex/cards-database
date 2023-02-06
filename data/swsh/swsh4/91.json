@@ -44,7 +44,9 @@
 		"en": "It brings its claws together and whirls around at high speed before rushing toward its prey."
 	},
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Rotomurf",
 		"en": "Drilbur",

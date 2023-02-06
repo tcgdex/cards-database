@@ -47,7 +47,9 @@
 		"fr": "Tritox"
 	},
 	"hp": 100,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Amfira",
 		"en": "Salazzle",

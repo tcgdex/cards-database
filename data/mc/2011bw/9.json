@@ -22,7 +22,9 @@
 		"en": "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child."
 	},
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Zorua"
 	},

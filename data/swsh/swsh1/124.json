@@ -63,7 +63,9 @@
 		"de": "Glibunkel"
 	},
 	"hp": 110,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Toxiquak",
 		"en": "Toxicroak",

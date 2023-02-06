@@ -9,7 +9,9 @@
 		"pt": "Escolha 1 dos seus Pokémon Básicos em jogo. Procure em seu baralho 1 Pokémon Básico e troque-o com aquele Pokémon. (Quaisquer cards ligados, contadores de danos, Condições Especiais, vezes em jogo e quaisquer outros efeitos permanecem no novo Pokémon.) Embaralhe o primeiro Pokémon de volta no seu baralho.",
 		"de": "Wähle 1 deiner Basis-Pokémon im Spiel. Durchsuche dein Deck nach 1 Basis-Pokémon und tausche es gegen jenes Pokémon aus. (Alle angelegten Karten sowie alle Schadensmarken, Speziellen Zustände, Spielzüge und alle anderen Effekte verbleiben auf dem neuen Pokémon.) Mische das erste Pokémon in dein Deck."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Ninjajunge",
 		"en": "Ninja Boy",

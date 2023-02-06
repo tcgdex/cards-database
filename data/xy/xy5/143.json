@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Metal-Pokémon angelegt werden. Diese Karte liefert nur dann Metal-Energie, wenn sie an ein Metal-Pokémon angelegt ist.\n\nDie Angriffe der Pokémon deines Gegners fügen dem Metal-Pokémon, an das diese Karte angelegt ist, 10 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden).\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Metal-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "SchutzEnergie",
 		"en": "Shield Energy",

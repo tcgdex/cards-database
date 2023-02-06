@@ -32,7 +32,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

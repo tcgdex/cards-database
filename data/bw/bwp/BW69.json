@@ -33,7 +33,9 @@
 		648
 	],
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Meloetta",
 		"fr": "Meloetta"

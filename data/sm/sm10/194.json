@@ -93,7 +93,9 @@
 		6
 	],
 	"hp": 270,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Reshiram & Glurak GX",
 		"en": "Reshiram & Charizard GX",

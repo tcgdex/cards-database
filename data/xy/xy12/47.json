@@ -51,7 +51,9 @@
 		92
 	],
 	"hp": 40,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Nebulak",
 		"en": "Gastly",

@@ -47,7 +47,9 @@
 		"fr": "Kraknoix"
 	},
 	"hp": 80,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Vibrava",
 		"en": "Vibrava",

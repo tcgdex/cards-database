@@ -40,7 +40,9 @@
 		"fr": "Sorboul"
 	},
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Gelatwino",
 		"en": "Vanilluxe",

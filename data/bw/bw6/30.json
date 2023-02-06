@@ -34,7 +34,9 @@
 		"fr": "Obalie"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Seejong",
 		"en": "Sealeo",

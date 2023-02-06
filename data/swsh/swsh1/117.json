@@ -54,7 +54,9 @@
 		263
 	],
 	"hp": 70,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Galar-Zigzachs",
 		"en": "Galarian Zigzagoon",

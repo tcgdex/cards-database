@@ -52,7 +52,9 @@
 		"en": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it."
 	},
 	"hp": 90,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Coiffwaff",
 		"en": "Furfrou",

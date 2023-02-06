@@ -23,7 +23,9 @@
 		"en": "Squirtle"
 	},
 	"hp": 60,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Wartortle"
 	},

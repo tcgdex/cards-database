@@ -45,7 +45,9 @@
 		"en": "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides."
 	},
 	"hp": 120,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Furnifraß",
 		"en": "Heatmor",

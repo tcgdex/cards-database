@@ -50,7 +50,9 @@
 		"fr": "Cabriolaine"
 	},
 	"hp": 130,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Chevrumm",
 		"en": "Gogoat",

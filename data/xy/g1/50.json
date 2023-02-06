@@ -31,7 +31,9 @@
 		35
 	],
 	"hp": 60,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"en": "Clefairy",
 		"fr": "Mélofée"

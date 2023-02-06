@@ -30,7 +30,9 @@
 		731
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Peppeck",
 		"en": "Pikipek",

@@ -39,7 +39,9 @@
 		"en": "Magikarp"
 	},
 	"hp": 130,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Gyarados ex",
 		"fr": "Léviator ex"

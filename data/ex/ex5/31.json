@@ -37,7 +37,9 @@
 		"en": "Baltoy"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Claydol",
 		"fr": "Kaorine"

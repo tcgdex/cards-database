@@ -43,7 +43,9 @@
 		"en": "Marill"
 	},
 	"hp": 80,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Light Azumarill",
 		"fr": "Azumarill lumineux"

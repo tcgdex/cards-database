@@ -60,7 +60,9 @@
 		"de": "Duokles"
 	},
 	"hp": 150,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Durengard",
 		"en": "Aegislash",

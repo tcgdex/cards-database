@@ -30,7 +30,9 @@
 		538
 	],
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Jiutesto",
 		"en": "Throh",

@@ -30,7 +30,9 @@
 		524
 	],
 	"hp": 70,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Kiesling",
 		"en": "Roggenrola",

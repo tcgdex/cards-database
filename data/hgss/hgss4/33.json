@@ -36,7 +36,9 @@
 		125
 	],
 	"hp": 70,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Electabuzz",
 		"fr": "Elektek"

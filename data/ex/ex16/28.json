@@ -35,7 +35,9 @@
 		"en": "Charmander"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Charmeleon",
 		"fr": "Reptincel"

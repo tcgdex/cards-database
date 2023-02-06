@@ -64,7 +64,9 @@
 		"de": "Elektek"
 	},
 	"hp": 140,
-	"illustrator": "Megumi Higuchi",
+	"illustrator": [
+		"Megumi Higuchi"
+	],
 	"name": {
 		"de": "Elevoltek",
 		"en": "Electivire",

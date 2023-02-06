@@ -28,7 +28,9 @@
 		"en": "If it finds bad children who won't listen to their parents, it will spirit them away—or so it's said."
 	},
 	"hp": 60,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Zwirrlicht",
 		"en": "Duskull",

@@ -19,7 +19,9 @@
 		131
 	],
 	"hp": 120,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"en": "Lapras",
 		"fr": "Lokhlass"

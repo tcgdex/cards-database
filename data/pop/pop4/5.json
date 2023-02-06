@@ -39,7 +39,9 @@
 		"en": "Grovyle"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Sceptile",
 		"fr": "Jungko"

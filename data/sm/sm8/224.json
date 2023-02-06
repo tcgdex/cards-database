@@ -68,7 +68,9 @@
 		649
 	],
 	"hp": 180,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Genesect GX",
 		"en": "Genesect GX",

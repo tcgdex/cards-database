@@ -33,7 +33,9 @@
 		215
 	],
 	"hp": 90,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Rocket's Sneasel ex"
 	},

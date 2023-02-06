@@ -60,7 +60,9 @@
 		"de": "Pikachu"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Raichu",
 		"en": "Raichu",

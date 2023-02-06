@@ -55,7 +55,9 @@
 		"de": "Geronimatz"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Washakwil",
 		"en": "Braviary",

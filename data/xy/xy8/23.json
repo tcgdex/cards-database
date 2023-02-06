@@ -29,7 +29,9 @@
 		513
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Grillmak",
 		"en": "Pansear",

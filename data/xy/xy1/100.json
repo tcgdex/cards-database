@@ -53,7 +53,9 @@
 		128
 	],
 	"hp": 110,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Tauros",
 		"en": "Tauros",

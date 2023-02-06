@@ -9,7 +9,9 @@
 		"pt": "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Grass.",
 		"de": "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Grass-Pokémon."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Pflanzen-Disc",
 		"en": "Grass Memory",

@@ -36,7 +36,9 @@
 		144
 	],
 	"hp": 120,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Arktos",
 		"en": "Articuno",

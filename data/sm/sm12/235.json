@@ -9,7 +9,9 @@
 		"pt": "Descarte 1 carta da sua mão. Se fizer isto, compre 2 cartas. Se você descartou uma carta de Energia desta forma, compre 2 cartas a mais.",
 		"de": "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten. Wenn du auf diese Weise eine Energiekarte auf den Ablagestapel gelegt hast, ziehe 2 Karten mehr."
 	},
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Rollerskaterin",
 		"en": "Roller Skater",

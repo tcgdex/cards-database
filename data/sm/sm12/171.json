@@ -36,7 +36,9 @@
 		216
 	],
 	"hp": 60,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Teddiursa",
 		"en": "Teddiursa",

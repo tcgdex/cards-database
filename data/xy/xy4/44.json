@@ -45,7 +45,9 @@
 		710
 	],
 	"hp": 60,
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"de": "Irrbis",
 		"en": "Pumpkaboo",

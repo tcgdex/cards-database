@@ -39,7 +39,9 @@
 		"en": "Meditite"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Medicham",
 		"fr": "Charmina"

@@ -52,7 +52,9 @@
 		"fr": "Wagomine"
 	},
 	"hp": 160,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Montecarbo",
 		"en": "Coalossal",

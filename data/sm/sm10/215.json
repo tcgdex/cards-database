@@ -75,7 +75,9 @@
 		794
 	],
 	"hp": 260,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Schabelle & Masskito GX",
 		"en": "Pheromosa & Buzzwole GX",

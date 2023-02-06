@@ -31,7 +31,9 @@
 		179
 	],
 	"hp": 40,
-	"illustrator": "Hizuki Misono",
+	"illustrator": [
+		"Hizuki Misono"
+	],
 	"name": {
 		"en": "Mareep",
 		"fr": "Wattouat"

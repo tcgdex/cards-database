@@ -52,7 +52,9 @@
 		"de": "Flemmli"
 	},
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Jungglut",
 		"en": "Combusken",

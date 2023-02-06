@@ -81,7 +81,9 @@
 		"de": "Seemon"
 	},
 	"hp": 130,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Seedraking",
 		"en": "Kingdra",

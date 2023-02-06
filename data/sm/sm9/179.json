@@ -9,7 +9,9 @@
 		"pt": "Escolha 1 Pokémon Darkness Básico da sua pilha de descarte. Troque-o por 1 dos seus Pokémon em jogo. Quaisquer cartas ligadas, contadores de dano, Condições Especiais, vezes em jogo e quaisquer outros efeitos permanecem no novo Pokémon.",
 		"de": "Wähle 1 Darkness-Basis-Pokémon aus deinem Ablagestapel. Tausche es gegen 1 deiner Pokémon im Spiel aus. Alle an es angelegten Karten, Schadensmarken, Speziellen Zustände, Spielzüge sowie alle anderen Effekte verbleiben auf dem neuen Pokémon."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Yasu",
 		"en": "Nanu",

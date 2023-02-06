@@ -9,7 +9,9 @@
 		"pt": "Descarte algum card de Estádio em jogo. Se fizer isso, o seu oponente descarta 3 cards da própria mão.",
 		"de": "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Wenn du das machst, legt dein Gegner 3 seiner Handkarten auf seinen Ablagestapel."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Halbstarke",
 		"en": "Delinquent",

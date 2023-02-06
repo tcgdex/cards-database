@@ -63,7 +63,9 @@
 		"de": "Wingull"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Pelipper",
 		"en": "Pelipper",

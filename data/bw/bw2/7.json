@@ -39,7 +39,9 @@
 		"fr": "Couverdure"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Matrifol",
 		"en": "Leavanny",

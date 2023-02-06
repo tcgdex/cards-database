@@ -52,7 +52,9 @@
 		"de": "Kikugi"
 	},
 	"hp": 80,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Kinoso",
 		"en": "Cherrim",

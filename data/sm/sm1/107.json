@@ -33,7 +33,9 @@
 		"fr": "Picassaut"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Trompeck",
 		"en": "Trumbeak",

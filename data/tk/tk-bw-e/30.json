@@ -30,7 +30,9 @@
 		"de": "Rotomurf"
 	},
 	"hp": 110,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Stalobor",
 		"en": "Excadrill",

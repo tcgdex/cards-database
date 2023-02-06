@@ -29,7 +29,9 @@
 		"en": "Extremely loyal, it will fearlessly bark at any opponent to protect its own Trainer from harm."
 	},
 	"hp": 80,
-	"illustrator": "Narumi Sato",
+	"illustrator": [
+		"Narumi Sato"
+	],
 	"name": {
 		"de": "Fukano",
 		"en": "Growlithe",

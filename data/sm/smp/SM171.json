@@ -79,7 +79,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 210,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Flamara GX",
 		"en": "Flareon GX",

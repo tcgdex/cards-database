@@ -29,7 +29,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 190,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Genesect V",
 		"en": "Genesect V",

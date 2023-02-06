@@ -36,7 +36,9 @@
 		76
 	],
 	"hp": 180,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"en": "Golem EX",
 		"fr": "Grolem-EX"

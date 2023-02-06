@@ -40,7 +40,9 @@
 		481
 	],
 	"hp": 60,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Vesprit",
 		"en": "Mesprit",

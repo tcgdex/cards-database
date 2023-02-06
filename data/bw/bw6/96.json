@@ -36,7 +36,9 @@
 		"fr": "Solochi"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Duodino",
 		"en": "Zweilous",

@@ -9,7 +9,9 @@
 		"pt": "Compre 3 cartas.",
 		"de": "Ziehe 3 Karten."
 	},
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Tali",
 		"en": "Hau",

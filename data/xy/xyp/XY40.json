@@ -34,7 +34,9 @@
 		132
 	],
 	"hp": 70,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Ditto",
 		"fr": "Métamorph"

@@ -19,7 +19,9 @@
 		"en": "It washes its face regularly to keep the coin on its forehead spotless. It doesn't get along with Galarian Meowth."
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Mauzi",
 		"en": "Meowth",

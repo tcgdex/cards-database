@@ -21,7 +21,9 @@
 		"en": "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
 	},
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Pidove"
 	},

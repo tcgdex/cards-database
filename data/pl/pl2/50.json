@@ -52,7 +52,9 @@
 		"fr": "Stari"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Starmie",
 		"fr": "Staross Niv. 44"

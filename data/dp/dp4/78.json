@@ -32,7 +32,9 @@
 		296
 	],
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Makuhita",
 		"fr": "Makuhita"

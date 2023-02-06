@@ -39,7 +39,9 @@
 		"de": "Lectragon-V"
 	},
 	"hp": 330,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Lectragon VMAX",
 		"en": "Dracozolt VMAX",

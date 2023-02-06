@@ -9,7 +9,9 @@
 		"pt": "Procure por 1 carta de Estádio no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.\n\nQuando você joga esta carta, você pode descartar outras 2 cartas da sua mão. Se fizer isto, você também pode procurar por 1 carta de Ferramenta Pokémon e 1 carta de Energia Especial desta forma.",
 		"de": "Durchsuche dein Deck nach 1 Stadionkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.\n\nWenn du diese Karte spielst, kannst du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, kannst du auf diese Weise auch nach 1 Pokémon-Ausrüstung und 1 Spezial-Energiekarte suchen."
 	},
-	"illustrator": "Junsei Kuninobu",
+	"illustrator": [
+		"Junsei Kuninobu"
+	],
 	"name": {
 		"de": "Bromley & Hala",
 		"en": "Guzma & Hala",

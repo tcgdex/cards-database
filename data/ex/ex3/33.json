@@ -35,7 +35,9 @@
 		116
 	],
 	"hp": 40,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Horsea",
 		"fr": "Hypotrempe"

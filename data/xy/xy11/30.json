@@ -22,7 +22,9 @@
 		501
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Ottaro",
 		"en": "Oshawott",

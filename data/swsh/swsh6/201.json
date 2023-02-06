@@ -57,7 +57,9 @@
 		"de": "Lohgock-V"
 	},
 	"hp": 320,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Lohgock VMAX",
 		"en": "Blaziken VMAX",

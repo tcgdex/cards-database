@@ -38,7 +38,9 @@
 		229
 	],
 	"hp": 70,
-	"illustrator": "Ken Ikuji",
+	"illustrator": [
+		"Ken Ikuji"
+	],
 	"name": {
 		"en": "Team Magma's Houndoom",
 		"fr": "Démolosse de Team Magma"

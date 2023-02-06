@@ -48,7 +48,9 @@
 		884
 	],
 	"hp": 130,
-	"illustrator": "Kazuma Koda",
+	"illustrator": [
+		"Kazuma Koda"
+	],
 	"name": {
 		"de": "Duraludon",
 		"en": "Duraludon",

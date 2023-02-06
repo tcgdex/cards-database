@@ -15,7 +15,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Charmander"
 	},

@@ -36,7 +36,9 @@
 		136
 	],
 	"hp": 170,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Flareon EX",
 		"fr": "Pyroli-EX"

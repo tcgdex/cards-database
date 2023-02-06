@@ -41,7 +41,9 @@
 		"de": "Zapplalek"
 	},
 	"hp": 160,
-	"illustrator": "OKACHEKE",
+	"illustrator": [
+		"OKACHEKE"
+	],
 	"name": {
 		"de": "Zapplarang",
 		"en": "Eelektross",

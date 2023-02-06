@@ -33,7 +33,9 @@
 		201
 	],
 	"hp": 40,
-	"illustrator": "CR CG gangs",
+	"illustrator": [
+		"CR CG gangs"
+	],
 	"name": {
 		"en": "Unown [O]",
 		"fr": "Zarbi O"

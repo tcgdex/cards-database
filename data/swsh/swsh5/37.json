@@ -52,7 +52,9 @@
 		"de": "Remoraid"
 	},
 	"hp": 110,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Octillery",
 		"en": "Octillery",

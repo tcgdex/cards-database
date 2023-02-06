@@ -48,7 +48,9 @@
 		"en": "Luxio"
 	},
 	"hp": 160,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Luxtra",
 		"en": "Luxray",

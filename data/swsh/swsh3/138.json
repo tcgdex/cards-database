@@ -43,7 +43,9 @@
 		"en": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
 	},
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Teddiursa",
 		"en": "Teddiursa",

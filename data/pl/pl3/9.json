@@ -40,7 +40,9 @@
 		486
 	],
 	"hp": 100,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Regigigas FB",
 		"fr": "Regigigas "

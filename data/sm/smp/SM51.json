@@ -39,7 +39,9 @@
 		52
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Alola-Mauzi",
 		"en": "Alolan Meowth",

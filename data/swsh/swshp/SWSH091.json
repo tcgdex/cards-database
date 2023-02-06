@@ -48,7 +48,9 @@
 		"en": "Bronzor"
 	},
 	"hp": 110,
-	"illustrator": "Atsushi Furusawa",
+	"illustrator": [
+		"Atsushi Furusawa"
+	],
 	"name": {
 		"de": "Bronzong",
 		"en": "Bronzong",

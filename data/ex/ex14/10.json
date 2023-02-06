@@ -34,7 +34,9 @@
 		302
 	],
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Sableye",
 		"fr": "Tenefix"

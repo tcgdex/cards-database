@@ -54,7 +54,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 120,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Raichu",
 		"en": "Raichu",

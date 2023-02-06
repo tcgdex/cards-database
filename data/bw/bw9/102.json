@@ -9,7 +9,9 @@
 		"pt": "Coloque um card da Equipe Plasma da sua pilha de descarte em sua mão.",
 		"de": "Nimm 1 Team-Plasma-Karte von deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Finstrio",
 		"en": "Shadow Triad",

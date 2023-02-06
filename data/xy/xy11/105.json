@@ -9,7 +9,9 @@
 		"pt": "Embaralhe 2 cards de Energia Especial da sua pilha de descarte em seu baralho.",
 		"de": "Mische 2 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Spezial-Aufladung",
 		"en": "Special Charge",

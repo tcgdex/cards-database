@@ -29,7 +29,9 @@
 		126
 	],
 	"hp": 80,
-	"illustrator": "Hiroki Asanuma",
+	"illustrator": [
+		"Hiroki Asanuma"
+	],
 	"name": {
 		"de": "Magmar",
 		"en": "Magmar",

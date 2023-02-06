@@ -38,7 +38,9 @@
 		"en": "Goldeen"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Seaking",
 		"fr": "Poissoroy"

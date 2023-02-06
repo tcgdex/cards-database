@@ -55,7 +55,9 @@
 		323
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Camerupt EX",
 		"en": "Camerupt EX",

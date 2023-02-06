@@ -38,7 +38,9 @@
 		227
 	],
 	"hp": 60,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Skarmory",
 		"fr": "Airmure"

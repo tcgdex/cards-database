@@ -37,7 +37,9 @@
 	"evolveFrom": {
 		"en": "Wingull"
 	},
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Pelipper"
 	},

@@ -46,7 +46,9 @@
 		151
 	],
 	"hp": 60,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Mew",
 		"en": "Mew",

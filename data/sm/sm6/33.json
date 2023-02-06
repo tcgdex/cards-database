@@ -56,7 +56,9 @@
 		"fr": "Araqua"
 	},
 	"hp": 100,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Aranestro",
 		"en": "Araquanid",

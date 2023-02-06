@@ -30,7 +30,9 @@
 		209
 	],
 	"hp": 70,
-	"illustrator": "Framestore",
+	"illustrator": [
+		"Framestore"
+	],
 	"name": {
 		"de": "Snubbull",
 		"en": "Snubbull",

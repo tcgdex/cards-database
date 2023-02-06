@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode fazer com que o oponente dele(a) revele a própria mão.",
 		"de": "Einmal während des Zuges jedes Spielers kann der Spieler seinen Gegner dazu veranlassen, seine Handkarten zu zeigen."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Lavandia",
 		"en": "Lavender Town",

@@ -53,7 +53,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Milotic V",
 		"en": "Milotic V",

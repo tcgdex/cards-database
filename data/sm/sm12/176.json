@@ -56,7 +56,9 @@
 		"fr": "Ponchien"
 	},
 	"hp": 150,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Bissbark",
 		"en": "Stoutland",

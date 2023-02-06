@@ -56,7 +56,9 @@
 		"fr": "Sepiatop"
 	},
 	"hp": 100,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Calamanero",
 		"en": "Malamar",

@@ -50,7 +50,9 @@
 		"fr": "Nidorina"
 	},
 	"hp": 120,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Nidoqueen",
 		"fr": "Nidoqueen Niv. 54"

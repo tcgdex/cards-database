@@ -36,7 +36,9 @@
 		450
 	],
 	"hp": 130,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Hippowdon",
 		"fr": "Hippodocus Niv. X"

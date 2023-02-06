@@ -34,7 +34,9 @@
 		385
 	],
 	"hp": 70,
-	"illustrator": "Satoshi Ohta",
+	"illustrator": [
+		"Satoshi Ohta"
+	],
 	"name": {
 		"en": "Jirachi",
 		"fr": "Jirachi"

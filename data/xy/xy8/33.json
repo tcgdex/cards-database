@@ -60,7 +60,9 @@
 		"de": "Remoraid"
 	},
 	"hp": 90,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Octillery",
 		"en": "Octillery",

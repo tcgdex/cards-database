@@ -40,7 +40,9 @@
 		"en": "Cherrim"
 	},
 	"hp": 120,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Rampardos"
 	},

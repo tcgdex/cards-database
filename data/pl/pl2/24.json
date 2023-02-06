@@ -32,7 +32,9 @@
 		214
 	],
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Heracross 4",
 		"fr": "Scarhino  Niv. 51"

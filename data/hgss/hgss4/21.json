@@ -33,7 +33,9 @@
 		239
 	],
 	"hp": 30,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Elekid",
 		"fr": "Elekid"

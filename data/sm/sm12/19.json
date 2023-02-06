@@ -48,7 +48,9 @@
 		"fr": "Brindibou"
 	},
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Arboretoss",
 		"en": "Dartrix",

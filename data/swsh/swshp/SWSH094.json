@@ -58,7 +58,9 @@
 		"en": "Eevee"
 	},
 	"hp": 100,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Blitza",
 		"en": "Jolteon",

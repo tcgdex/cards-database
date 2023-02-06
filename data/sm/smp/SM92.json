@@ -54,7 +54,9 @@
 		787
 	],
 	"hp": 120,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Kapu-Kime",
 		"en": "Tapu Fini",

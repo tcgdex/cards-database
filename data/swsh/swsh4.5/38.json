@@ -32,7 +32,9 @@
 		"en": "Morpeko V"
 	},
 	"hp": 300,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Morpeko VMAX",
 		"en": "Morpeko VMAX",

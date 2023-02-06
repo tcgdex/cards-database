@@ -37,7 +37,9 @@
 		"de": "Voltilamm"
 	},
 	"hp": 90,
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Waaty",
 		"en": "Flaaffy",

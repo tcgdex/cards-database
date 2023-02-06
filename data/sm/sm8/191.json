@@ -9,7 +9,9 @@
 		"pt": "Os ataques dos Pokémon Lightning (seus e do seu oponente) custam Lightning a menos.\n\nSempre que algum jogador jogar uma carta de Item ou de Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados a esta carta de Estádio.",
 		"de": "Die Kosten der Attacken der Lightning-Pokémon (deiner und der deines Gegners) verringern sich um Lightning.\n\nVerhindere jedes Mal, wenn ein Spieler eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dieser Stadionkarte zugefügt werden."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Donnerberg ◇",
 		"en": "Thunder Mountain ◇",

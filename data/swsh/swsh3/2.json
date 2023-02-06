@@ -36,7 +36,9 @@
 		"de": "Smettbo-V"
 	},
 	"hp": 300,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Smettbo VMAX",
 		"en": "Butterfree VMAX",

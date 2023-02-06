@@ -56,7 +56,9 @@
 		"fr": "Miaouss"
 	},
 	"hp": 100,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Snobilikat",
 		"en": "Persian",

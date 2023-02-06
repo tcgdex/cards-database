@@ -54,7 +54,9 @@
 		"fr": "Tylton"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Altaria",
 		"en": "Altaria",

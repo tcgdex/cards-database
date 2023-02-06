@@ -54,7 +54,9 @@
 		"de": "Schallquap"
 	},
 	"hp": 90,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Mebrana",
 		"en": "Palpitoad",

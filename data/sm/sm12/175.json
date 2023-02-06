@@ -48,7 +48,9 @@
 		"fr": "Ponchiot"
 	},
 	"hp": 100,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Terribark",
 		"en": "Herdier",

@@ -52,7 +52,9 @@
 		133
 	],
 	"hp": 190,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Evoli V",
 		"en": "Eevee V",

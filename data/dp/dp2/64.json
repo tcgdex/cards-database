@@ -38,7 +38,9 @@
 		357
 	],
 	"hp": 80,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Tropius",
 		"fr": "Tropius"

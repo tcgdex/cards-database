@@ -35,7 +35,9 @@
 		492
 	],
 	"hp": 110,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Shaymin",
 		"fr": "Shaymin"

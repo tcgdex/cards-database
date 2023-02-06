@@ -40,7 +40,9 @@
 		150
 	],
 	"hp": 70,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Shining Mewtwo",
 		"fr": "Mewtwo brillant"

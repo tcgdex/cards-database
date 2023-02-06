@@ -43,7 +43,9 @@
 		"fr": "Makuhita"
 	},
 	"hp": 100,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Hariyama",
 		"fr": "Hariyama"

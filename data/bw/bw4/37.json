@@ -42,7 +42,9 @@
 		"fr": "Polarhume"
 	},
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Siberio",
 		"en": "Beartic",

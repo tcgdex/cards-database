@@ -31,7 +31,9 @@
 		"en": "Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival."
 	},
 	"hp": 110,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Vipitis",
 		"en": "Seviper",

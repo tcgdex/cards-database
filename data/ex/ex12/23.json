@@ -49,7 +49,9 @@
 		"en": "Omanyte"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Omastar",
 		"fr": "Amonistar"

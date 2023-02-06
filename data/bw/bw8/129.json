@@ -9,7 +9,9 @@
 		"pt": "Troque seu Pokémon Ativo por 1 dos Pokémon no seu Banco. Em seguida, você poderá mover tantas Energias ligadas ao antigo Pokémon Ativo para o novo Pokémon Ativo quanto desejar.",
 		"de": "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Du kannst anschließend beliebig viele der an dein altes Aktives Pokémon angelegten Energien auf dein neues Aktives Pokémon verschieben."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Wechselschalter",
 		"en": "Scramble Switch",

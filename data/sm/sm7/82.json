@@ -85,7 +85,9 @@
 		"fr": "Bacabouh"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Colossand GX",
 		"en": "Palossand GX",

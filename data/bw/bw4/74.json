@@ -41,7 +41,9 @@
 		"fr": "Baggiguane"
 	},
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Irokex",
 		"en": "Scrafty",

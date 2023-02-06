@@ -52,7 +52,9 @@
 		212
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Scherox EX",
 		"en": "Scizor EX",

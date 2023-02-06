@@ -26,7 +26,9 @@
 		"en": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled."
 	},
 	"hp": 60,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Knilz",
 		"en": "Shroomish",

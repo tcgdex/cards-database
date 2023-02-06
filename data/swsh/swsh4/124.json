@@ -37,7 +37,9 @@
 		"de": "Kastadur"
 	},
 	"hp": 110,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Tentantel",
 		"en": "Ferrothorn",

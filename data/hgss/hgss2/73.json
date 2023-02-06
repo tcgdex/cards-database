@@ -6,7 +6,9 @@
 		"en": "Flip a coin. If heads, draw 3 cards. If tails, draw 2 cards."
 	},
 	"hp": 0,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Emcee’s Chatter",
 		"fr": "Bavardage du maître"

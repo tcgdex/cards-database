@@ -32,7 +32,9 @@
 		471
 	],
 	"hp": 90,
-	"illustrator": "Rya Ueda",
+	"illustrator": [
+		"Rya Ueda"
+	],
 	"name": {
 		"fr": "Givrali"
 	},

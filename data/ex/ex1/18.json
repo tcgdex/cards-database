@@ -34,7 +34,9 @@
 		299
 	],
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Nosepass",
 		"fr": "Tarinor"

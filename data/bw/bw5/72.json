@@ -34,7 +34,9 @@
 		"en": "Pawniard"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Caesurio",
 		"en": "Bisharp",

@@ -33,7 +33,9 @@
 		243
 	],
 	"hp": 170,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Raikou-EX",
 		"en": "Raikou-EX",

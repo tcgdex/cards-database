@@ -43,7 +43,9 @@
 		179
 	],
 	"hp": 60,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Voltilamm",
 		"en": "Mareep",

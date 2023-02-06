@@ -35,7 +35,9 @@
 		158
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Totodile",
 		"fr": "Kaiminus"

@@ -53,7 +53,9 @@
 		720
 	],
 	"hp": 130,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Hoopa",
 		"en": "Hoopa",

@@ -35,7 +35,9 @@
 		"en": "Oddish"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Gloom δ",
 		"fr": "Ortide δ ESPÈCES DELTA"

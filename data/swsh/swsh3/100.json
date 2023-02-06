@@ -44,7 +44,9 @@
 		"en": "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction."
 	},
 	"hp": 80,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Sleima",
 		"en": "Grimer",

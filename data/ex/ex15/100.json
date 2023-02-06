@@ -40,7 +40,9 @@
 		6
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Charizard Star δ",
 		"fr": "Dracaufeu ☆ δ"

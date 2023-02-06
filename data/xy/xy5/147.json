@@ -54,7 +54,9 @@
 		321
 	],
 	"hp": 250,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Wailord EX",
 		"en": "Wailord EX",

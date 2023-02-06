@@ -38,7 +38,9 @@
 		"en": "Metapod"
 	},
 	"hp": 80,
-	"illustrator": "Keiko Fukuyama",
+	"illustrator": [
+		"Keiko Fukuyama"
+	],
 	"name": {
 		"en": "Butterfree"
 	},

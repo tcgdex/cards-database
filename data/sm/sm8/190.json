@@ -9,7 +9,9 @@
 		"pt": "Quando o Pokémon Psychic ao qual esta carta está ligada for Nocauteado pelo dano de um ataque do seu oponente, coloque 4 contadores de dano nos Pokémon do seu oponente como desejar.",
 		"de": "Wenn das Psychic-Pokémon, an das diese Karte angelegt ist, durch den Schaden einer Attacke deines Gegners kampfunfähig wird, lege 4 Schadensmarken beliebig auf die Pokémon deines Gegners."
 	},
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Bannsticker",
 		"en": "Spell Tag",

@@ -9,7 +9,9 @@
 		"pt": "Os ataques de cada Pokémon Psychic (seus e do seu oponente) custam Colorless a menos.",
 		"de": "Die Kosten jedes Angriffs von Psychic-Pokémon (deine und die deines Gegners) reduzieren sich um Colorless."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Dimensionstal",
 		"en": "Dimension Valley",

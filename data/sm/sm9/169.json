@@ -53,7 +53,9 @@
 		380
 	],
 	"hp": 250,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Latias & Latios GX",
 		"en": "Latias & Latios GX",

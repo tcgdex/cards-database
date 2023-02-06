@@ -35,7 +35,9 @@
 		"en": "Sandshrew"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Brock's Sandslash"
 	},

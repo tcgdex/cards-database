@@ -46,7 +46,9 @@
 		107
 	],
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Nockchan",
 		"en": "Hitmonchan",

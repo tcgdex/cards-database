@@ -41,7 +41,9 @@
 		"de": "Lilminip"
 	},
 	"hp": 100,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Dressella",
 		"en": "Lilligant",

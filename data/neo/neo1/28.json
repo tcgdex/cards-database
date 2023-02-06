@@ -44,7 +44,9 @@
 		"en": "Chikorita"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Bayleef",
 		"fr": "Macronium"

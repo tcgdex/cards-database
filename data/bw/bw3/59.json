@@ -35,7 +35,9 @@
 		"fr": "Funécire"
 	},
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Laternecto",
 		"en": "Lampent",

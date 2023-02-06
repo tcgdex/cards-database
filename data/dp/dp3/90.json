@@ -34,7 +34,9 @@
 		187
 	],
 	"hp": 30,
-	"illustrator": "Motofumi Fujiwara",
+	"illustrator": [
+		"Motofumi Fujiwara"
+	],
 	"name": {
 		"en": "Hoppip",
 		"fr": "Granivol"

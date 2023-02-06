@@ -56,7 +56,9 @@
 		"fr": "Diamat"
 	},
 	"hp": 160,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Trikephalo",
 		"en": "Hydreigon",

@@ -61,7 +61,9 @@
 		"de": "Thermopod"
 	},
 	"hp": 130,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Infernopod",
 		"en": "Centiskorch",

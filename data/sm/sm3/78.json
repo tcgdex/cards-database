@@ -60,7 +60,9 @@
 		"fr": "Tiboudet"
 	},
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Pampross",
 		"en": "Mudsdale",

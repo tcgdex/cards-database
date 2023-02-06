@@ -32,7 +32,9 @@
 		48
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sabrina's Venonat"
 	},

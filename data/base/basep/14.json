@@ -35,7 +35,9 @@
 		150
 	],
 	"hp": 70,
-	"illustrator": "Benimaru Itoh",
+	"illustrator": [
+		"Benimaru Itoh"
+	],
 	"name": {
 		"en": "Mewtwo",
 		"fr": "Mewtwo"

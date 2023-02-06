@@ -18,7 +18,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Kyoko Koizumi",
+	"illustrator": [
+		"Kyoko Koizumi"
+	],
 	"name": {
 		"en": "Latios"
 	},

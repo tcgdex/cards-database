@@ -53,7 +53,9 @@
 		"de": "Meikro"
 	},
 	"hp": 80,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Kranoviz",
 		"en": "Corvisquire",

@@ -9,7 +9,9 @@
 		"pt": "Procure no seu baralho até 3 Pokémon Colorless, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach bis zu 3 Colorless-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Wibke",
 		"en": "Winona",

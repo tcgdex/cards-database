@@ -58,7 +58,9 @@
 		208
 	],
 	"hp": 180,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Stahlos EX",
 		"en": "Steelix EX",

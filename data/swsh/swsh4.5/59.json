@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se algum dos seus Pokémon tiver sido Nocauteado durante o último turno do seu oponente, compre 2 cartas a mais.",
 		"de": "Ziehe 2 Karten. Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, ziehe 2 Karten mehr."
 	},
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Arenatrainer",
 		"en": "Gym Trainer",

@@ -32,7 +32,9 @@
 		419
 	],
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Floatzel GL",
 		"fr": "Mustéflott  Niv. 37"

@@ -45,7 +45,9 @@
 		"en": "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	},
 	"hp": 120,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Suicune",
 		"en": "Suicune",

@@ -44,7 +44,9 @@
 		"de": "Pam-Pam"
 	},
 	"hp": 140,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Pandagro",
 		"en": "Pangoro",

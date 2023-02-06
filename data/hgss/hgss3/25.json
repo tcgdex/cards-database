@@ -41,7 +41,9 @@
 		"fr": "Farfuret"
 	},
 	"hp": 80,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Weavile",
 		"fr": "Dimoret"

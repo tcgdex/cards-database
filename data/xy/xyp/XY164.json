@@ -36,7 +36,9 @@
 		721
 	],
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Volcanion"
 	},

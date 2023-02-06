@@ -52,7 +52,9 @@
 		226
 	],
 	"hp": 100,
-	"illustrator": "DemizuPosuka",
+	"illustrator": [
+		"DemizuPosuka"
+	],
 	"name": {
 		"de": "Mantax",
 		"en": "Mantine",

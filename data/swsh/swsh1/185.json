@@ -9,7 +9,9 @@
 		"pt": "Os ataques do Pokémon ao qual esta carta está ligada causam 10 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		"de": "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Vitalitätsband",
 		"en": "Vitality Band",

@@ -42,7 +42,9 @@
 		"fr": "Etourmi"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Staravia",
 		"fr": "Etourvol"

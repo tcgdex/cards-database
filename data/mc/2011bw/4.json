@@ -16,7 +16,9 @@
 		"en": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Oshawott"
 	},

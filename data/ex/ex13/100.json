@@ -47,7 +47,9 @@
 		151
 	],
 	"hp": 90,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Mew ex",
 		"fr": "Mew ex"

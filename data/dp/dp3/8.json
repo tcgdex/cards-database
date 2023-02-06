@@ -40,7 +40,9 @@
 		"fr": "Sancoki Mer Orient"
 	},
 	"hp": 100,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Gastrodon East Sea",
 		"fr": "Tritosor Mer Orient"

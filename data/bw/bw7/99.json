@@ -49,7 +49,9 @@
 		"fr": "Vibraninf"
 	},
 	"hp": 140,
-	"illustrator": "BERUBURI",
+	"illustrator": [
+		"BERUBURI"
+	],
 	"name": {
 		"de": "Libelldra",
 		"en": "Flygon",

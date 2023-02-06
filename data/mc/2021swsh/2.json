@@ -22,7 +22,9 @@
 		152
 	],
 	"hp": 70,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"en": "Chikorita"
 	},

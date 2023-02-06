@@ -51,7 +51,9 @@
 		"en": "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries."
 	},
 	"hp": 110,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Symvolara",
 		"en": "Sigilyph",

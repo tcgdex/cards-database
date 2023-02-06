@@ -13,7 +13,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 30,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Buried Fossil"
 	},

@@ -40,7 +40,9 @@
 		"en": "Onix"
 	},
 	"hp": 110,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Steelix",
 		"fr": "Steelix"

@@ -9,7 +9,9 @@
 		"pt": "Sempre que o Pokémon Ativo de um dos jogadores recuar, coloque qualquer Energia básica que seria descartada na mão do jogador ao invés da pilha de descarte.",
 		"de": "Jedes Mal, wenn sich das Aktive Pokémon eines Spielers zurückzieht, nimmt jener Spieler jede Basis-Energie, die auf den Ablagestapel gelegt würde, stattdessen auf seine Hand."
 	},
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Skatepark",
 		"en": "Skaters' Park",

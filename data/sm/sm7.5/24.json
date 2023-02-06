@@ -55,7 +55,9 @@
 		"fr": "Crocrodil"
 	},
 	"hp": 160,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Impergator",
 		"en": "Feraligatr",

@@ -31,7 +31,9 @@
 		843
 	],
 	"hp": 80,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Salanga",
 		"en": "Silicobra",

@@ -33,7 +33,9 @@
 		392
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Infernape 4",
 		"fr": "Simiabraz  Niv. 55"

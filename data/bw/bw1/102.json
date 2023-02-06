@@ -9,7 +9,9 @@
 		"pt": "Coloque um Pokémon Básico da sua pilha de descarte em seu Banco.",
 		"de": "Nimm 1 Basis-Pokémon von deinem Ablagestapel und lege es auf deine Bank."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Beleber",
 		"en": "Revive",

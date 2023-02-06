@@ -32,7 +32,9 @@
 		877
 	],
 	"hp": 90,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Morpeko",
 		"en": "Morpeko",

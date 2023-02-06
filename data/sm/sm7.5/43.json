@@ -47,7 +47,9 @@
 		"fr": "Draby"
 	},
 	"hp": 80,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Draschel",
 		"en": "Shelgon",

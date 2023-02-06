@@ -43,7 +43,9 @@
 		"fr": "Hoothoot"
 	},
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Noctowl",
 		"fr": "Noarfang"

@@ -32,7 +32,9 @@
 	"evolveFrom": {
 		"en": "Rattata"
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Raticate"
 	},

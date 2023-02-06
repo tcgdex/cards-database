@@ -50,7 +50,9 @@
 		"fr": "Fossile Inconnu"
 	},
 	"hp": 100,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Schilterus",
 		"en": "Shieldon",

@@ -37,7 +37,9 @@
 		25
 	],
 	"hp": 130,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"en": "Pikachu EX",
 		"fr": "Pikachu EX"

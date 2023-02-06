@@ -29,7 +29,9 @@
 		147
 	],
 	"hp": 60,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Dratini",
 		"en": "Dratini",

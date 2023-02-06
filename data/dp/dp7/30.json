@@ -56,7 +56,9 @@
 		"fr": "Ymphect"
 	},
 	"hp": 140,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Tyranitar",
 		"fr": "Tyranocif"

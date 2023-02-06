@@ -51,7 +51,9 @@
 		211
 	],
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Baldorfish",
 		"en": "Qwilfish",

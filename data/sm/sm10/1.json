@@ -87,7 +87,9 @@
 		794
 	],
 	"hp": 260,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Schabelle & Masskito GX",
 		"en": "Pheromosa & Buzzwole GX",

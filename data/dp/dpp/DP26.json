@@ -40,7 +40,9 @@
 		483
 	],
 	"hp": 90,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Dialga",
 		"fr": "Dialga"

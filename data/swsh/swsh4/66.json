@@ -51,7 +51,9 @@
 		"en": "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves."
 	},
 	"hp": 30,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Ninjatom",
 		"en": "Shedinja",

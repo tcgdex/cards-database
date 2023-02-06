@@ -54,7 +54,9 @@
 		"en": "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon."
 	},
 	"hp": 140,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Terrakium",
 		"en": "Terrakion",

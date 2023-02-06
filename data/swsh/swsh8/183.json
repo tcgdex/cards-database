@@ -39,7 +39,9 @@
 		"de": "Rotomurf"
 	},
 	"hp": 130,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"de": "Stalobor",
 		"en": "Excadrill",

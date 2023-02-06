@@ -52,7 +52,9 @@
 		479
 	],
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Rotom",
 		"en": "Rotom",

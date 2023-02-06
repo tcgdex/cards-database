@@ -9,7 +9,9 @@
 		"pt": "Os ataques da Ultracriatura ao qual esta carta está ligada causam 10 pontos de dano a mais ao Pokémon Ativo do seu oponente para cada carta de Prêmio que você pegou (antes de aplicar Fraqueza e Resistência).",
 		"de": "Die Attacken der Ultrabestie, an die diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr mal der Anzahl der von dir genommenen Preiskarten zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "inose yukie",
+	"illustrator": [
+		"inose yukie"
+	],
 	"name": {
 		"de": "Bestienit",
 		"en": "Beastite",

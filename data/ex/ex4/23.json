@@ -36,7 +36,9 @@
 		335
 	],
 	"hp": 70,
-	"illustrator": "Zu-Ka",
+	"illustrator": [
+		"Zu-Ka"
+	],
 	"name": {
 		"en": "Team Magma's Zangoose",
 		"fr": "Mangriff de Team Magma"

@@ -51,7 +51,9 @@
 		632
 	],
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Fermicula",
 		"en": "Durant",

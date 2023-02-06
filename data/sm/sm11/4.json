@@ -50,7 +50,9 @@
 		251
 	],
 	"hp": 80,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Celebi",
 		"en": "Celebi",

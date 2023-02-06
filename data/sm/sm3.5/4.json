@@ -30,7 +30,9 @@
 		285
 	],
 	"hp": 60,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Knilz",
 		"en": "Shroomish",

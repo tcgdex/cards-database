@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Défaussez 1 carte Énergie attachée à 1 de vos propres Pokémon et choisissez 1 Pokémon de votre adversaire et jusqu'à 2 cartes Énergie attachées à ce Pokémon. Défaussez ces cartes Énergie."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Super Energy Removal",
 		"fr": "Double Suppression d'Énergie"

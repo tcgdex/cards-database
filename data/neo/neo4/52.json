@@ -42,7 +42,9 @@
 		"en": "Eevee"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Light Vaporeon",
 		"fr": "Aquali lumineux"

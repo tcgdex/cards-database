@@ -33,7 +33,9 @@
 		"fr": "Crikzik"
 	},
 	"hp": 100,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Zirpeise",
 		"en": "Kricketune",

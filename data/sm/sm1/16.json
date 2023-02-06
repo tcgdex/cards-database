@@ -42,7 +42,9 @@
 		755
 	],
 	"hp": 60,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Bubungus",
 		"en": "Morelull",

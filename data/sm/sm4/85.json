@@ -29,7 +29,9 @@
 		572
 	],
 	"hp": 60,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Picochilla",
 		"en": "Minccino",

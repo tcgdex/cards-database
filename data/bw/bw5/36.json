@@ -35,7 +35,9 @@
 		"en": "Ducklett"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Swaroness",
 		"en": "Swanna",

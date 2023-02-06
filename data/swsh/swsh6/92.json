@@ -60,7 +60,9 @@
 		"de": "Klopptopus"
 	},
 	"hp": 140,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Kaocto",
 		"en": "Grapploct",

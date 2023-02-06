@@ -29,7 +29,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"en": "Rayquaza V"
 	},

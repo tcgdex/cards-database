@@ -52,7 +52,9 @@
 		"fr": "Racaillou"
 	},
 	"hp": 110,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Georok",
 		"en": "Graveler",

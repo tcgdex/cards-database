@@ -52,7 +52,9 @@
 		"de": "Boreos-V"
 	},
 	"hp": 320,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Boreos VMAX",
 		"en": "Tornadus VMAX",

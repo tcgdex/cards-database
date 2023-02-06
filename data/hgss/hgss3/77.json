@@ -6,7 +6,9 @@
 		"en": "Look at the top 5 cards of your deck. Choose any 2 cards you find there and put them into your hand. Discard the other cards."
 	},
 	"hp": 0,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Sage’s Training",
 		"fr": "Entraînement de Sage"

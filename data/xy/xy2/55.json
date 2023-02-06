@@ -62,7 +62,9 @@
 		"de": "Skunkapuh"
 	},
 	"hp": 100,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Skuntank",
 		"en": "Skuntank",

@@ -9,7 +9,9 @@
 		"pt": "O Pokémon VMAX ao qual esta carta está ligada recebe 100 PS a menos e, se for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, aquele jogador pegará 1 carta de Prêmio a menos. Você não pode ligar esta carta a um Pokémon VMAX que tiver PS restante de 100 ou menos.",
 		"de": "Das Pokémon-VMAX, an das diese Karte angelegt ist, erhält -100 KP, und wenn es durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger. Du kannst diese Karte nicht an ein Pokémon-VMAX anlegen, das 100 oder weniger verbleibende KP hat."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Heldenmedaille",
 		"en": "Hero's Medal",

@@ -34,7 +34,9 @@
 		26
 	],
 	"hp": 100,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Raichu"
 	},

@@ -47,7 +47,9 @@
 		"fr": "Cochignon"
 	},
 	"hp": 140,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Mamoswine",
 		"fr": "Mammochon"

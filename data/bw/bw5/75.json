@@ -20,7 +20,9 @@
 		599
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Klikk",
 		"en": "Klink",

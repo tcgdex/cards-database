@@ -21,7 +21,9 @@
 		513
 	],
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Grillmak",
 		"en": "Pansear",

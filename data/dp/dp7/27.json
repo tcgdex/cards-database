@@ -53,7 +53,9 @@
 		"fr": "Etourvol"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Staraptor",
 		"fr": "Etouraptor"

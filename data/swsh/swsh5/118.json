@@ -52,7 +52,9 @@
 		"en": "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt."
 	},
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Bisofank",
 		"en": "Bouffalant",

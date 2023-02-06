@@ -52,7 +52,9 @@
 		241
 	],
 	"hp": 100,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Miltank",
 		"en": "Miltank",

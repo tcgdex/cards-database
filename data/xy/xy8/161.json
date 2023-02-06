@@ -9,7 +9,9 @@
 		"pt": "Procure em seu baralho por 1 Pokémon-EX Básico ou 3 Pokémon Básicos (exceto Pokémon-EX), e coloque-os no seu Banco. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach 1 Basis-Pokémon-EX oder 3 Basis-Pokémon (außer Pokémon-EX) und lege sie auf deine Bank. Mische anschließend dein Deck."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Linette",
 		"en": "Brigette",

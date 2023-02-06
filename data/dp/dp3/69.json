@@ -34,7 +34,9 @@
 		201
 	],
 	"hp": 50,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Unown N",
 		"fr": "Zarbi N"

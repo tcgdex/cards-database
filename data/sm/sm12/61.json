@@ -55,7 +55,9 @@
 		646
 	],
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Schwarzes Kyurem",
 		"en": "Black Kyurem",

@@ -44,7 +44,9 @@
 		"en": "Slowpoke"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Lahmus",
 		"en": "Slowbro",

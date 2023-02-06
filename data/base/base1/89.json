@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Placez 1 carte Pokémon de base de votre pile de défausse sur votre Banc. Placez sur lui un nombre de marqueurs de dégâts égal à la moitié de ses PV (arrondis à la dizaine inférieure la plus proche). (Vous ne pouvez pas jouer Réanimation si votre Banc est plein.)"
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Revive",
 		"fr": "Réanimation"

@@ -59,7 +59,9 @@
 		"de": "Meditie"
 	},
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Meditalis",
 		"en": "Medicham",

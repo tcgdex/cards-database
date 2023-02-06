@@ -30,7 +30,9 @@
 		322
 	],
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Camaub",
 		"en": "Numel",

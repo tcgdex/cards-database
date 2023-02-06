@@ -42,7 +42,9 @@
 		"en": "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail."
 	},
 	"hp": 70,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Voldi",
 		"en": "Yamper",

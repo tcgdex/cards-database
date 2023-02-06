@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon Dragon ao qual esta carta está ligada for o seu Pokémon Ativo e ele for danificado por um ataque do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante.",
 		"de": "Wenn das Dragon-Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Drachenkralle",
 		"en": "Dragon Talon",

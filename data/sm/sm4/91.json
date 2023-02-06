@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se tiver mais cartas de Prêmio restantes do que seu oponente.\n\nTroque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
 		"de": "Du kannst diese Karte nur spielen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.\n\nTausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Konterfänger",
 		"en": "Counter Catcher",

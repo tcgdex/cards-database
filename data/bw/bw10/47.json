@@ -18,7 +18,9 @@
 		66
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Machollo",
 		"en": "Machop",

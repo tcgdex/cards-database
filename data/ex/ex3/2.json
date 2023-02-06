@@ -38,7 +38,9 @@
 		"en": "Swablu"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Altaria",
 		"fr": "Altaria"

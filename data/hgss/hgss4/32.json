@@ -44,7 +44,9 @@
 		"fr": "Minidraco"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dragonair",
 		"fr": "Draco"

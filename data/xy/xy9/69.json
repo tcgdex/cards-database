@@ -37,7 +37,9 @@
 		"de": "Kaumalat"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Knarksel",
 		"en": "Gabite",

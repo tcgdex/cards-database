@@ -29,7 +29,9 @@
 		725
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Flamiau",
 		"en": "Litten",

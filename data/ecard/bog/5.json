@@ -27,7 +27,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Rocket’s Sneasel"
 	},

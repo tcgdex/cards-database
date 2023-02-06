@@ -36,7 +36,9 @@
 		"en": "Croagunk"
 	},
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Toxicroak"
 	},

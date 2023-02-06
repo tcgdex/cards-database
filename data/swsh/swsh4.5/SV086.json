@@ -43,7 +43,9 @@
 		"en": "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
 	},
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Galar-Mauzi",
 		"en": "Galarian Meowth",

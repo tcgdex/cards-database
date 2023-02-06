@@ -32,7 +32,9 @@
 	"evolveFrom": {
 		"en": "Burmy Sandy Cloak"
 	},
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Wormadam Sandy Cloak"
 	},

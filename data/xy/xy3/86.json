@@ -54,7 +54,9 @@
 		641
 	],
 	"hp": 110,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Boreos",
 		"en": "Tornadus",

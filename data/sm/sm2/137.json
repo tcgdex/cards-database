@@ -72,7 +72,9 @@
 		786
 	],
 	"hp": 170,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Kapu-Fala GX",
 		"en": "Tapu Lele GX",

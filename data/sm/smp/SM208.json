@@ -57,7 +57,9 @@
 		"fr": "Chrysapile"
 	},
 	"hp": 150,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Donarion",
 		"en": "Vikavolt",

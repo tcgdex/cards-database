@@ -52,7 +52,9 @@
 		"de": "Ganovil"
 	},
 	"hp": 90,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Rokkaiman",
 		"en": "Krokorok",

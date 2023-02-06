@@ -38,7 +38,9 @@
 		"en": "Psyduck"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Golduck δ",
 		"fr": "Akwakwak δ ESPÈCES DELTA"

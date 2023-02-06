@@ -57,7 +57,9 @@
 		"fr": "Sonistrelle"
 	},
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Noivern-GX",
 		"fr": "Bruyverne-GX"

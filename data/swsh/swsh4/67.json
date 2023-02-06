@@ -28,7 +28,9 @@
 		"en": "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
 	},
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Shuppet",
 		"en": "Shuppet",

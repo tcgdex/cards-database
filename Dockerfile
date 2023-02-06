@@ -12,9 +12,10 @@ npm ci
 
 # Add project files
 ADD . .
+ADD ./.git ./.git
 
 # build
-RUN npm run compile && \
+RUN npm run validate && \
 cd server && \
 npm run compile && \
 npm run build

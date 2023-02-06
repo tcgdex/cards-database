@@ -37,7 +37,9 @@
 		409
 	],
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Rampardos GL",
 		"fr": "Charkos  Niv. 63"

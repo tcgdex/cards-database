@@ -37,7 +37,9 @@
 		"en": "Pupitar"
 	},
 	"hp": 160,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"en": "Tyranitar"
 	},

@@ -37,7 +37,9 @@
 		"de": "Eguana"
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Elezard",
 		"en": "Heliolisk",

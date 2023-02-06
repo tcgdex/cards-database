@@ -35,7 +35,9 @@
 		"en": "Trapinch"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Vibrava δ",
 		"fr": "Vibraninf δ ESPÈCES DELTA"

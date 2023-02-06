@@ -69,7 +69,9 @@
 		"fr": "Farfuret"
 	},
 	"hp": 200,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Snibunna GX",
 		"en": "Weavile GX",

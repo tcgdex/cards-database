@@ -42,7 +42,9 @@
 		39
 	],
 	"hp": 60,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Pummeluff",
 		"en": "Jigglypuff",

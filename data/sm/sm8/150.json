@@ -44,7 +44,9 @@
 		786
 	],
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Kapu-Fala",
 		"en": "Tapu Lele",

@@ -59,7 +59,9 @@
 		"de": "Tragosso"
 	},
 	"hp": 110,
-	"illustrator": "Narumi Sato",
+	"illustrator": [
+		"Narumi Sato"
+	],
 	"name": {
 		"de": "Knogga",
 		"en": "Marowak",

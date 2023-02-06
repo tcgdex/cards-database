@@ -45,7 +45,9 @@
 		"en": "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation."
 	},
 	"hp": 80,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Velursi",
 		"en": "Stufful",

@@ -50,7 +50,9 @@
 		124
 	],
 	"hp": 90,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Rossana",
 		"en": "Jynx",

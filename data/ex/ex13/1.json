@@ -41,7 +41,9 @@
 		"en": "Anorith"
 	},
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Armaldo δ",
 		"fr": "Armaldo δ ESPÈCES DELTA"

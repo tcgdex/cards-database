@@ -55,7 +55,9 @@
 		"fr": "Mélancolux"
 	},
 	"hp": 140,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Skelabra",
 		"en": "Chandelure",

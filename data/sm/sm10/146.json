@@ -34,7 +34,9 @@
 		"fr": "Piafabec"
 	},
 	"hp": 100,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Ibitak",
 		"en": "Fearow",

@@ -31,7 +31,9 @@
 		124
 	],
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Jynx δ",
 		"fr": "Lippoutou δ ESPÈCES DELTA"

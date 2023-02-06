@@ -20,7 +20,9 @@
 		"en": "The reason it keeps one ear rolled up is so it can launch a swift counterattack if it's attacked by an enemy."
 	},
 	"hp": 50,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Haspiror",
 		"en": "Buneary",

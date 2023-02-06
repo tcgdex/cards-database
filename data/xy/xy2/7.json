@@ -60,7 +60,9 @@
 		"de": "Blanas"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Tengulist",
 		"en": "Shiftry",

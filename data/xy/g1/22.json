@@ -21,7 +21,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Magikarp",
 		"fr": "Magicarpe"

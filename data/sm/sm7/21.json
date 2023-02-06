@@ -44,7 +44,9 @@
 		357
 	],
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Tropius",
 		"en": "Tropius",

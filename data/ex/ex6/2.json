@@ -50,7 +50,9 @@
 		"en": "Metapod"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Butterfree",
 		"fr": "Papilusion"

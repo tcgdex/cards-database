@@ -44,7 +44,9 @@
 		"en": "Graveler"
 	},
 	"hp": 120,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Golem",
 		"fr": "Grolem"

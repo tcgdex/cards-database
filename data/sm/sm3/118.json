@@ -9,7 +9,9 @@
 		"pt": "O custo de Recuo de cada Pokémon Básico em jogo (seus e do seu oponente) será Colorless a mais.",
 		"de": "Die Rückzugskosten jedes Basis-Pokémon im Spiel (deiner und der deines Gegners) erhöhen sich um Colorless."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Mount Lanakila",
 		"en": "Mount Lanakila",

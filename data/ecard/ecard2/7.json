@@ -40,7 +40,9 @@
 		"en": "Phanpy"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Donphan",
 		"fr": "Donphan"

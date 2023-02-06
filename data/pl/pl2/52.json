@@ -48,7 +48,9 @@
 		357
 	],
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Tropius",
 		"fr": "Tropius Niv. 35"

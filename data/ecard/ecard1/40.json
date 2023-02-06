@@ -40,7 +40,9 @@
 		"en": "Charmeleon"
 	},
 	"hp": 120,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Charizard",
 		"fr": "Dracaufeu"

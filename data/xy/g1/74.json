@@ -6,7 +6,9 @@
 		"en": "Double Colorless Energy provides ColorlessColorless Energy."
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Double Colorless Energy",
 		"fr": "Double Énergie Incolore"

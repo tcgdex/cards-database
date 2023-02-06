@@ -9,7 +9,9 @@
 		"pt": "Cada jogador embaralha todos os cards da própria pilha de descarte em seu próprio baralho (exceto o Coringa de Lysandre).",
 		"de": "Jeder Spieler mischt die Karten seines Ablagestapels zurück in sein Deck (außer Flordelis' Trumpfkarte)."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Flordelis' Trumpfkarte",
 		"en": "Lysandre's Trump Card",

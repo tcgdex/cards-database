@@ -29,7 +29,9 @@
 		688
 	],
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Bithora",
 		"en": "Binacle",

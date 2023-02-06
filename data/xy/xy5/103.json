@@ -62,7 +62,9 @@
 		"de": "Marill"
 	},
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Azumarill",
 		"en": "Azumarill",

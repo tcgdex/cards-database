@@ -62,7 +62,9 @@
 		"de": "Machollo"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Maschock",
 		"en": "Machoke",

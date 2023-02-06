@@ -37,7 +37,9 @@
 		158
 	],
 	"hp": 50,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Totodile",
 		"fr": "Kaiminus"

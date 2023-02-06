@@ -38,7 +38,9 @@
 		644
 	],
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Zekrom",
 		"fr": "Zekrom"

@@ -55,7 +55,9 @@
 		"fr": "Machopeur"
 	},
 	"hp": 160,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Machomei",
 		"en": "Machamp",

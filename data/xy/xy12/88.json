@@ -9,7 +9,9 @@
 		"pt": "Troque seu Pokémon Ativo por 1 dos Pokémon no seu Banco.",
 		"de": "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Tausch",
 		"en": "Switch",

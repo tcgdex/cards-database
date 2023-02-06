@@ -29,7 +29,9 @@
 		331
 	],
 	"hp": 60,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Tuska",
 		"en": "Cacnea",

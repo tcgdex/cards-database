@@ -38,7 +38,9 @@
 		"fr": "Colombeau"
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Fasasnob",
 		"en": "Unfezant",

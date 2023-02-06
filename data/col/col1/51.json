@@ -35,7 +35,9 @@
 		336
 	],
 	"hp": 90,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Seviper",
 		"fr": "Seviper"

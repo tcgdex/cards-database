@@ -62,7 +62,9 @@
 		"de": "Fatalitee"
 	},
 	"hp": 60,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Mortipot",
 		"en": "Polteageist",

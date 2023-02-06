@@ -31,7 +31,9 @@
 		"en": "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing."
 	},
 	"hp": 100,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Rossana",
 		"en": "Jynx",

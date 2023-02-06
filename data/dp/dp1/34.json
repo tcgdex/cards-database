@@ -43,7 +43,9 @@
 		"fr": "Hoothoot"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Noctowl",
 		"fr": "Noarfang"

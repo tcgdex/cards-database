@@ -44,7 +44,9 @@
 		"en": "Swinub"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Piloswine",
 		"fr": "Cochignon"

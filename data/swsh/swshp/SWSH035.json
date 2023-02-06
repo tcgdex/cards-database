@@ -58,7 +58,9 @@
 		"fr": "Efflèche"
 	},
 	"hp": 140,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Silvarro",
 		"en": "Decidueye",

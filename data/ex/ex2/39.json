@@ -47,7 +47,9 @@
 		"en": "Mysterious Fossil"
 	},
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Kabuto",
 		"fr": "Kabuto"

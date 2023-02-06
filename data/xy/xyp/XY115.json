@@ -37,7 +37,9 @@
 		492
 	],
 	"hp": 70,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"en": "Shaymin",
 		"fr": "Shaymin"

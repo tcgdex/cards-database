@@ -31,7 +31,9 @@
 		318
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Carvanha",
 		"fr": "Carvanha"

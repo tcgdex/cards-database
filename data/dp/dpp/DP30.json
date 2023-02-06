@@ -37,7 +37,9 @@
 		486
 	],
 	"hp": 150,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Regigigas",
 		"fr": "Regigigas"

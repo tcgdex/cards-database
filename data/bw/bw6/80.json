@@ -48,7 +48,9 @@
 		"fr": "Galegon"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Stolloss",
 		"en": "Aggron",

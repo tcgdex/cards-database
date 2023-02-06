@@ -61,7 +61,9 @@
 		"de": "Burmy"
 	},
 	"hp": 100,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Burmadame",
 		"en": "Wormadam",

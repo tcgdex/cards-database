@@ -55,7 +55,9 @@
 		"en": "Galarian Linoone"
 	},
 	"hp": 160,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Galar-Barrikadax",
 		"en": "Galarian Obstagoon",

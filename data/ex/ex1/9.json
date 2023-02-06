@@ -40,7 +40,9 @@
 		"en": "Electrike"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Manectric",
 		"fr": "Elecsprint"

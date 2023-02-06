@@ -45,7 +45,9 @@
 		144
 	],
 	"hp": 300,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Lavados & Zapdos & Arktos GX",
 		"en": "Moltres & Zapdos & Articuno GX",

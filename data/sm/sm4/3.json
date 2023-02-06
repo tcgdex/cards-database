@@ -47,7 +47,9 @@
 		"fr": "Coconfort"
 	},
 	"hp": 120,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Bibor",
 		"en": "Beedrill",

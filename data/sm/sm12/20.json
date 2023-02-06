@@ -55,7 +55,9 @@
 		"fr": "Efflèche"
 	},
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Silvarro",
 		"en": "Decidueye",

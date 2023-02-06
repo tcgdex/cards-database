@@ -61,7 +61,9 @@
 		"de": "Keifel"
 	},
 	"hp": 160,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Mamutel",
 		"en": "Mamoswine",

@@ -42,7 +42,9 @@
 		"fr": "Incisache"
 	},
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Haxorus",
 		"fr": "Tranchodon"

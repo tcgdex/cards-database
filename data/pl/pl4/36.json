@@ -31,7 +31,9 @@
 	"dexId": [
 		92
 	],
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Gastly"
 	},

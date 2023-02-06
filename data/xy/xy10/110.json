@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, esse jogador pode descartar um card de Energia Fire ou Fighting da própria mão. Se fizer isso, esse jogador deverá comprar 2 cards.",
 		"de": "Einmal während seines Zuges darf jeder Spieler 1 Fire- oder 1 Fighting-Energiekarte von seiner Hand auf seinen Ablagestapel legen. Wenn ein Spieler das tut, zieht er 2 Karten."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Verbrannte Erde",
 		"en": "Scorched Earth",

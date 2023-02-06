@@ -27,7 +27,9 @@
 		"fr": "Ptéra-eEX"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Aerodactyl EX",
 		"fr": "M Ptéra EX"

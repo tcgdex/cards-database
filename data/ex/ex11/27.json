@@ -50,7 +50,9 @@
 		"en": "Sandshrew"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Sandslash δ",
 		"fr": "Sablaireau δ ESPÈCES DELTA"

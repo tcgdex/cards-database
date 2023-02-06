@@ -24,7 +24,9 @@
 		"en": "Sharpedo-EX"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Sharpedo-EX"
 	},

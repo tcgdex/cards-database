@@ -51,7 +51,9 @@
 		"fr": "Stari"
 	},
 	"hp": 190,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"en": "Starmie GX",
 		"fr": "Staross-GX"

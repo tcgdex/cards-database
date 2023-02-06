@@ -25,7 +25,9 @@
 		"de": "Haspiror"
 	},
 	"hp": 110,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Schlapor",
 		"en": "Lopunny",

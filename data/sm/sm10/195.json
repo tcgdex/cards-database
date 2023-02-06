@@ -66,7 +66,9 @@
 		702
 	],
 	"hp": 160,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Dedenne GX",
 		"en": "Dedenne GX",

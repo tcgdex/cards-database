@@ -50,7 +50,9 @@
 		"fr": "Solochi"
 	},
 	"hp": 90,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Duodino",
 		"en": "Zweilous",

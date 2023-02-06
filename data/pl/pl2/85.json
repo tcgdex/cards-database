@@ -36,7 +36,9 @@
 		387
 	],
 	"hp": 90,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Turtwig GL",
 		"fr": "Tortipouss  Niv. 20"

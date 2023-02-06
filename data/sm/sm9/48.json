@@ -54,7 +54,9 @@
 		"fr": "Statitik"
 	},
 	"hp": 90,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Voltula",
 		"en": "Galvantula",

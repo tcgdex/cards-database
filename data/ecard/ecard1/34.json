@@ -40,7 +40,9 @@
 		"en": "Flaaffy"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Ampharos",
 		"fr": "Pharamp"

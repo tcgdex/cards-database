@@ -39,7 +39,9 @@
 		"fr": "Mimitoss"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Venomoth",
 		"fr": "Aéromite"

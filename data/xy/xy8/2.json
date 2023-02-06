@@ -59,7 +59,9 @@
 		"de": "Paras"
 	},
 	"hp": 100,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Parasek",
 		"en": "Parasect",

@@ -44,7 +44,9 @@
 		"fr": "Polarhume"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Siberio",
 		"en": "Beartic",

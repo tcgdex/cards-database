@@ -57,7 +57,9 @@
 		"de": "Katapuldra-V"
 	},
 	"hp": 320,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Katapuldra VMAX",
 		"en": "Dragapult VMAX",

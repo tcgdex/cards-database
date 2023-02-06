@@ -37,7 +37,9 @@
 		"en": "Sinistea"
 	},
 	"hp": 60,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"en": "Polteageist"
 	},

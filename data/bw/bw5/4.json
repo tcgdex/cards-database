@@ -21,7 +21,9 @@
 		123
 	],
 	"hp": 80,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Sichlor",
 		"en": "Scyther",

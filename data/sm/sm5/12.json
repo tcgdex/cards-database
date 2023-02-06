@@ -53,7 +53,9 @@
 		455
 	],
 	"hp": 90,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Venuflibis",
 		"en": "Carnivine",

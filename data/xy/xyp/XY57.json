@@ -41,7 +41,9 @@
 		"fr": "Piafabec"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Fearow",
 		"fr": "Rapasdepic"

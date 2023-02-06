@@ -52,7 +52,9 @@
 		"de": "Schwalbini"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Schwalboss",
 		"en": "Swellow",

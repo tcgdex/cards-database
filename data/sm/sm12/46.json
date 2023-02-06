@@ -44,7 +44,9 @@
 		"fr": "Wailmer"
 	},
 	"hp": 200,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Wailord",
 		"en": "Wailord",

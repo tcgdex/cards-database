@@ -52,7 +52,9 @@
 		"de": "Raffel"
 	},
 	"hp": 120,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Schlaraffel",
 		"en": "Greedent",

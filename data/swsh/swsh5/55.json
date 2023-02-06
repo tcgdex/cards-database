@@ -36,7 +36,9 @@
 		"en": "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
 	},
 	"hp": 60,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Spoink",
 		"en": "Spoink",

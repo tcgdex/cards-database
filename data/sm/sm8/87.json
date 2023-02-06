@@ -30,7 +30,9 @@
 		177
 	],
 	"hp": 40,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Natu",
 		"en": "Natu",

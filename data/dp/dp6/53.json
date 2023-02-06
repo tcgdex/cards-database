@@ -44,7 +44,9 @@
 		"fr": "Baudrive"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Drifblim",
 		"fr": "Grodrive"

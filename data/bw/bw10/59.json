@@ -43,7 +43,9 @@
 		"fr": "Galegon"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Stolloss",
 		"en": "Aggron",

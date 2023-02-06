@@ -42,7 +42,9 @@
 		425
 	],
 	"hp": 60,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Driftlon",
 		"en": "Drifloon",

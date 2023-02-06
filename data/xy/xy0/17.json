@@ -38,7 +38,9 @@
 		"de": "Fiffyen"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Magnayen",
 		"en": "Mightyena",

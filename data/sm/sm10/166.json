@@ -9,7 +9,9 @@
 		"pt": "Reverta a evolução de 1 dos seus Pokémon evoluídos embaralhando qualquer número de cartas de Evolução sobre ele no seu baralho (aquele Pokémon não pode evoluir durante esta vez de jogar).",
 		"de": "Rückentwickle 1 deiner entwickelten Pokémon, indem du beliebig viele auf ihm liegende Entwicklungskarten in dein Deck mischt. (Jenes Pokémon kann sich während dieses Zuges nicht entwickeln.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Rückentwicklungsspray Z",
 		"en": "Devolution Spray Z",

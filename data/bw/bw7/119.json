@@ -40,7 +40,9 @@
 		"fr": "Ratentif"
 	},
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Kukmarda",
 		"en": "Watchog",

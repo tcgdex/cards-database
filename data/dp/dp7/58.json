@@ -39,7 +39,9 @@
 		"fr": "Baudrive"
 	},
 	"hp": 50,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Drifloon",
 		"fr": "Baudrive"

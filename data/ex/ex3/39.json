@@ -39,7 +39,9 @@
 		"en": "Horsea"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Seadra",
 		"fr": "Hypocéan"

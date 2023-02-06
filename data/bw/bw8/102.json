@@ -20,7 +20,9 @@
 		175
 	],
 	"hp": 40,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Togepi",
 		"en": "Togepi",

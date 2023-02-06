@@ -38,7 +38,9 @@
 		"en": "Clamperl"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Gorebyss",
 		"fr": "Rosabyss"

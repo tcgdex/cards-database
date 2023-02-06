@@ -43,7 +43,9 @@
 		"fr": "Ouisticram"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Monferno",
 		"fr": "Chimpenfeu"

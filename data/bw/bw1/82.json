@@ -37,7 +37,9 @@
 		"fr": "Ponchiot"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Terribark",
 		"en": "Herdier",

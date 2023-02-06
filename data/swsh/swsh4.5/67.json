@@ -9,7 +9,9 @@
 		"pt": "Procure por até 2 cartas Fóssil Raro no seu baralho e coloque-as no seu Banco. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach bis zu 2 Seltenes Fossil-Karten und lege sie auf deine Bank. Mische anschließend dein Deck."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Petra Fakt",
 		"en": "Cara Liss",

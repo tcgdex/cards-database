@@ -43,7 +43,9 @@
 		"en": "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
 	},
 	"hp": 60,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Bubungus",
 		"en": "Morelull",

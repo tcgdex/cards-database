@@ -9,7 +9,9 @@
 		"pt": "Embaralhe 1 dos seus Pokémon e todos os cards ligados a ele em seu baralho.",
 		"de": "Mische 1 deiner Pokémon und alle an es angelegten Karten zurück in dein Deck."
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Olivier",
 		"en": "Cassius",

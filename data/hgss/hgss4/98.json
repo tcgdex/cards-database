@@ -54,7 +54,9 @@
 		"fr": "Yanma"
 	},
 	"hp": 110,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Yanmega",
 		"fr": "Yanmega"

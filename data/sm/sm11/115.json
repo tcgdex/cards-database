@@ -21,7 +21,9 @@
 		447
 	],
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Riolu",
 		"en": "Riolu",

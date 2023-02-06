@@ -9,7 +9,9 @@
 		"pt": "Coloque 1 Energia ligada a 1 dos Pokémon do seu oponente na mão dele(a).",
 		"de": "Gib deinem Gegner 1 an eins seiner Pokémon angelegte Energie auf seine Hand."
 	},
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Rüpel von Team Yell",
 		"en": "Team Yell Grunt",

@@ -29,7 +29,9 @@
 		228
 	],
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Houndour"
 	},

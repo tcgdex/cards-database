@@ -54,7 +54,9 @@
 		"de": "Krakeelo"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Krawumms",
 		"en": "Exploud",

@@ -33,7 +33,9 @@
 		243
 	],
 	"hp": 170,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"de": "Raikou-EX",
 		"en": "Raikou-EX",

@@ -24,7 +24,9 @@
 		702
 	],
 	"hp": 70,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"en": "Dedenne"
 	},

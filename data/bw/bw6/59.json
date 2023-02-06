@@ -44,7 +44,9 @@
 		"fr": "Gringolem"
 	},
 	"hp": 130,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Golgantes",
 		"en": "Golurk",

@@ -37,7 +37,9 @@
 		"fr": "Étourmi"
 	},
 	"hp": 80,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Staravia",
 		"fr": "Étourvol"

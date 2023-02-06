@@ -27,7 +27,9 @@
 	"dexId": [
 		412
 	],
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Burmy Sandy Cloak"
 	},

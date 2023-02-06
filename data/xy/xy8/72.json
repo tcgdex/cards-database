@@ -58,7 +58,9 @@
 		"de": "Fleknoil"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Fletiamo",
 		"en": "Swoobat",

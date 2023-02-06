@@ -38,7 +38,9 @@
 		"de": "Chimpep"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Chimstix",
 		"en": "Thwackey",

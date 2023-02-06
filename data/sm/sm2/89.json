@@ -57,7 +57,9 @@
 		"fr": "Mélofée"
 	},
 	"hp": 100,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Pixi",
 		"en": "Clefable",

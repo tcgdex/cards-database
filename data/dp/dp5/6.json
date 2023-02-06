@@ -40,7 +40,9 @@
 		"fr": "Kabuto"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Kabutops",
 		"fr": "Kabutops"

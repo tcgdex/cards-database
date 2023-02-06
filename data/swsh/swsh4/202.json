@@ -9,7 +9,9 @@
 		"pt": "O Pokémon ao qual esta carta está ligada pode usar qualquer ataque de suas Evoluções anteriores (você ainda precisa da Energia necessária para usar cada ataque).",
 		"de": "Das Pokémon, an das diese Karte angelegt ist, kann die Attacken aus vorangegangenen Entwicklungen einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)"
 	},
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Gedächtniskapsel",
 		"en": "Memory Capsule",

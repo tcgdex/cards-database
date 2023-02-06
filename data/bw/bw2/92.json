@@ -9,7 +9,9 @@
 		"pt": "Você pode jogar tantos cards de Item quanto desejar na sua vez (antes de atacar).",
 		"de": "Wirf 1 Münze. Lege bei „Kopf“ 1 an ein gegnerisches Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Schmetterhammer",
 		"en": "Crushing Hammer",

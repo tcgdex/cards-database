@@ -33,7 +33,9 @@
 		"fr": "Noeunoeuf"
 	},
 	"hp": 160,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Alola-Kokowei",
 		"en": "Alolan Exeggutor",

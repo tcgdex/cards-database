@@ -25,7 +25,9 @@
 		86
 	],
 	"hp": 50,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Seel",
 		"fr": "Otaria"

@@ -37,7 +37,9 @@
 		"en": "Houndour"
 	},
 	"hp": 70,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Houndoom"
 	},

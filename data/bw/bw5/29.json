@@ -43,7 +43,9 @@
 		"en": "Prinplup"
 	},
 	"hp": 140,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Impoleon",
 		"en": "Empoleon",

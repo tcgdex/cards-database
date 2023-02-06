@@ -29,7 +29,9 @@
 		21
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Habitak",
 		"en": "Spearow",

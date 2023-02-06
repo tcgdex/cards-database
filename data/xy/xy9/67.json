@@ -29,7 +29,9 @@
 		185
 	],
 	"hp": 90,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Mogelbaum",
 		"en": "Sudowoodo",

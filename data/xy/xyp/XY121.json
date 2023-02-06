@@ -20,7 +20,9 @@
 		6
 	],
 	"hp": 180,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Charizard EX",
 		"fr": "Dracaufeu EX"

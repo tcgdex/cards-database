@@ -16,7 +16,9 @@
 		595
 	],
 	"hp": 30,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Wattzapf",
 		"en": "Joltik",

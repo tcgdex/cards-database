@@ -31,7 +31,9 @@
 		"en": "Ditto V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Ditto VMAX",
 		"en": "Ditto VMAX",

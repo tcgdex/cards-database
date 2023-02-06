@@ -50,7 +50,9 @@
 		"en": "Spearow"
 	},
 	"hp": 80,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Fearow",
 		"fr": "Rapasdepic"

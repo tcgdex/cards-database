@@ -66,7 +66,9 @@
 		716
 	],
 	"hp": 160,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Xerneas ◇",
 		"en": "Xerneas ◇",

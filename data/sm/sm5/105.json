@@ -30,7 +30,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

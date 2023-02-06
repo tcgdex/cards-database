@@ -34,7 +34,9 @@
 		"en": "Burmy"
 	},
 	"hp": 80,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Mothim"
 	},

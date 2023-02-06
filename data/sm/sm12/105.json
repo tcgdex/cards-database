@@ -52,7 +52,9 @@
 		95
 	],
 	"hp": 110,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Onix",
 		"en": "Onix",

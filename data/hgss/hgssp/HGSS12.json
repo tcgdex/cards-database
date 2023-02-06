@@ -26,7 +26,9 @@
 		173
 	],
 	"hp": 30,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Cleffa"
 	},

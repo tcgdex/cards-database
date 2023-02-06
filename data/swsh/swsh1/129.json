@@ -54,7 +54,9 @@
 		303
 	],
 	"hp": 90,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Flunkifer",
 		"en": "Mawile",

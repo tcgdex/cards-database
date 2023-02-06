@@ -44,7 +44,9 @@
 		"fr": "Osselait"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Alola-Knogga",
 		"en": "Alolan Marowak",

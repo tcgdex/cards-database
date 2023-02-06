@@ -9,7 +9,9 @@
 		"pt": "Jogue 1 moeda. Se sair cara, procure por 1 carta de Item no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Bestellpad",
 		"en": "Order Pad",

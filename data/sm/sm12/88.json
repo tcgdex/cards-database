@@ -53,7 +53,9 @@
 		"fr": "Chovsourir"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Fletiamo",
 		"en": "Swoobat",

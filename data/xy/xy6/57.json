@@ -86,7 +86,9 @@
 		"de": "Draschel"
 	},
 	"hp": 160,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Brutalanda",
 		"en": "Salamence",

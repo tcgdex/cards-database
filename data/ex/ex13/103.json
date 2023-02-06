@@ -36,7 +36,9 @@
 		150
 	],
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Mewtwo Star",
 		"fr": "Mewtwo ☆"

@@ -53,7 +53,9 @@
 		"de": "Vegimak"
 	},
 	"hp": 100,
-	"illustrator": "Hasegawa Saki",
+	"illustrator": [
+		"Hasegawa Saki"
+	],
 	"name": {
 		"de": "Vegichita",
 		"en": "Simisage",

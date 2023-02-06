@@ -56,7 +56,9 @@
 		"fr": "Ponchien"
 	},
 	"hp": 150,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Bissbark",
 		"en": "Stoutland",

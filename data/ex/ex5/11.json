@@ -39,7 +39,9 @@
 		"en": "Metang"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Metagross",
 		"fr": "Metalosse"

@@ -29,7 +29,9 @@
 		712
 	],
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Arktip",
 		"en": "Bergmite",

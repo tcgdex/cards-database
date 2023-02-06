@@ -37,7 +37,9 @@
 		398
 	],
 	"hp": 80,
-	"illustrator": "Hiroki Fuchino",
+	"illustrator": [
+		"Hiroki Fuchino"
+	],
 	"name": {
 		"en": "Staraptor FB",
 		"fr": "Etouraptor "

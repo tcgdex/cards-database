@@ -42,7 +42,9 @@
 		151
 	],
 	"hp": 30,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Schimmerndes Mew",
 		"en": "Shining Mew",

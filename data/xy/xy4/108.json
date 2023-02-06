@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante sua vez de jogar, após jogar quaisquer moedas para um ataque do Pokémon ao qual este card está ligado, você pode ignorar todos os efeitos das moedas jogadas e começar a jogá-las novamente. (Você só poderá usar efeitos que permitem jogar moedas novamente, inclusive efeitos de outros cards, uma vez durante sua próxima vez de jogar.)",
 		"de": "Einmal während deines Zuges, nachdem du Münzen für einen Angriff des Pokémon, an das diese Karte angelegt ist, geworfen hast, kannst du alle daraus resultierenden Effekte ignorieren und diese Münzen erneut werfen. (Du kannst Effekte, die es dir erlauben, Münzen erneut zu werfen, einschließlich der Effekte anderer Karten, nur einmal während deines Zuges einsetzen.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Trickmünze",
 		"en": "Trick Coin",

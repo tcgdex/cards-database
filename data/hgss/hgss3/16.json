@@ -45,7 +45,9 @@
 		"fr": "Cornebre"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Honchkrow",
 		"fr": "Corboss"

@@ -9,7 +9,9 @@
 		"pt": "Coloque qualquer número de cartas da sua mão como as cartas de baixo do seu baralho em qualquer ordem. Em seguida, compre aquele mesmo número de cartas.",
 		"de": "Lege beliebig viele Karten aus deiner Hand in beliebiger Reihenfolge unter dein Deck. Ziehe anschließend genauso viele Karten."
 	},
-	"illustrator": "En Morikura",
+	"illustrator": [
+		"En Morikura"
+	],
 	"name": {
 		"de": "Kattlea",
 		"en": "Caitlin",

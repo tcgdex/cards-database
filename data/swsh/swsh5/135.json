@@ -9,7 +9,9 @@
 		"pt": "Escolha uma carta de Treinador da sua pilha de descarte. Em seguida, pergunte ao seu oponente se você pode colocá-la na sua mão. Se sim, coloque a carta na sua mão. Se não, compre 3 cartas.",
 		"de": "Wähle 1 Trainerkarte aus deinem Ablagestapel. Frage anschließend deinen Gegner, ob du sie auf deine Hand nehmen darfst. Wenn ja, nimm sie auf deine Hand. Wenn nein, ziehe 3 Karten."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Schwerthold & Schildrich",
 		"en": "Sordward & Shielbert",

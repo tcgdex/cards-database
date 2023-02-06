@@ -48,7 +48,9 @@
 		"fr": "Caninos"
 	},
 	"hp": 120,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Arkani",
 		"en": "Arcanine",

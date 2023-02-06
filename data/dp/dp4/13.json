@@ -41,7 +41,9 @@
 		"fr": "Coconfort"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Beedrill",
 		"fr": "Dardargnan"

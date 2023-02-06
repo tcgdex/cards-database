@@ -9,7 +9,9 @@
 		"pt": "Remove todos os efeitos de ataques em cada jogador e seus Pokémon.",
 		"de": "Alle Effekte von Angriffen verlieren bei beiden Spielern und ihren Pokémon ihre Wirkung."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Pokémon Ranger",
 		"en": "Pokémon Ranger",

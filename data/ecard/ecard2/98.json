@@ -22,7 +22,9 @@
 		95
 	],
 	"hp": 60,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Onix",
 		"fr": "Onix"

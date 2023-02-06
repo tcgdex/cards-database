@@ -46,7 +46,9 @@
 		381
 	],
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Latios δ",
 		"fr": "Latios δ ESPÈCES DELTA"

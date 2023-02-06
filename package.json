@@ -1,10 +1,12 @@
 {
 	"private": true,
 	"scripts": {
-		"compile": "tsc --project tsconfig.json"
+		"validate": "ts-node scripts/validate.ts",
+		"massedit": "ts-node scripts/massEdit.ts"
 	},
 	"devDependencies": {
 		"@types/node": "^16.11.6",
+		"jsonschema": "^1.4.1",
 		"ts-node": "^10.4.0",
 		"typescript": "^4.4.4"
 	}

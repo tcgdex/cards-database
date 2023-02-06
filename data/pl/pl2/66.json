@@ -37,7 +37,9 @@
 		"fr": "Aspicot"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Kakuna",
 		"fr": "Coconfort Niv. 8"

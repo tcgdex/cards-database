@@ -44,7 +44,9 @@
 		"en": "It has the power to travel across time, but it is said to appear only in peaceful times."
 	},
 	"hp": 70,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Celebi",
 		"en": "Celebi",

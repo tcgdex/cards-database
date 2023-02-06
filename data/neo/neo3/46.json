@@ -38,7 +38,9 @@
 		198
 	],
 	"hp": 40,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Murkrow",
 		"fr": "Cornèbre"

@@ -52,7 +52,9 @@
 		371
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Kindwurm",
 		"en": "Bagon",

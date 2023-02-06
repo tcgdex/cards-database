@@ -51,7 +51,9 @@
 		338
 	],
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Sonnfel",
 		"en": "Solrock",

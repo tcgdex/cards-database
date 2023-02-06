@@ -55,7 +55,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 110,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Aquana",
 		"en": "Vaporeon",

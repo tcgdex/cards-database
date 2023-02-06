@@ -28,7 +28,9 @@
 		"en": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
 	},
 	"hp": 40,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Hornliu",
 		"en": "Weedle",

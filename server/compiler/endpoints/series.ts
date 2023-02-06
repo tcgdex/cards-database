@@ -1,4 +1,4 @@
-import { SupportedLanguages } from '../../../interfaces'
+import { SupportedLanguages } from '../../../meta/definitions/database'
 import { FileFunction } from '../compilerInterfaces'
 import { getSeries, serieToSerieSingle } from '../utils/serieUtil'
 

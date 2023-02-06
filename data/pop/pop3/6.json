@@ -32,7 +32,9 @@
 		"en": "Diglett"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Vaporeon"
 	},

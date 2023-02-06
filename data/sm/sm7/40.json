@@ -36,7 +36,9 @@
 		"fr": "Wailmer"
 	},
 	"hp": 220,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Wailord",
 		"en": "Wailord",

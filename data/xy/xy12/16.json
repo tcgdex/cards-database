@@ -38,7 +38,9 @@
 		"de": "Vulnona"
 	},
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Vulnona-TURBO",
 		"en": "Ninetales BREAK",

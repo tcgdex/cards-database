@@ -17,7 +17,9 @@
 		278
 	],
 	"hp": 40,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Wingull",
 		"fr": "Goelise"

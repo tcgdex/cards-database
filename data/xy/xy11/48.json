@@ -28,7 +28,9 @@
 		607
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Lichtel",
 		"en": "Litwick",

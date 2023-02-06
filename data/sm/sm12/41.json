@@ -48,7 +48,9 @@
 		"fr": "Psykokwak"
 	},
 	"hp": 110,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Entoron",
 		"en": "Golduck",

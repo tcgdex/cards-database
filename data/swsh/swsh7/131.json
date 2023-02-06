@@ -63,7 +63,9 @@
 		"de": "Muntier"
 	},
 	"hp": 180,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Letarking",
 		"en": "Slaking",

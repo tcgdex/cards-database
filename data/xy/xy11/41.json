@@ -21,7 +21,9 @@
 		595
 	],
 	"hp": 30,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Wattzapf",
 		"en": "Joltik",

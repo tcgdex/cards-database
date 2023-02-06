@@ -57,7 +57,9 @@
 		"fr": "Barpau"
 	},
 	"hp": 120,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Milotic",
 		"en": "Milotic",

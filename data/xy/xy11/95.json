@@ -29,7 +29,9 @@
 		"de": "Dartiri"
 	},
 	"hp": 70,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Dartignis",
 		"en": "Fletchinder",

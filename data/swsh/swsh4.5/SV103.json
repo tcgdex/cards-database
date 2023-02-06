@@ -30,7 +30,9 @@
 		"en": "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong."
 	},
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Wolly",
 		"en": "Wooloo",

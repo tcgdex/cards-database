@@ -37,7 +37,9 @@
 		"fr": "Sepiatop"
 	},
 	"hp": 90,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Malamar",
 		"fr": "Sepiatroce"

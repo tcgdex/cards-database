@@ -52,7 +52,9 @@
 		771
 	],
 	"hp": 70,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Gufa",
 		"en": "Pyukumuku",

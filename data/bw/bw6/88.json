@@ -36,7 +36,9 @@
 		"fr": "Griknot"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Knarksel",
 		"en": "Gabite",

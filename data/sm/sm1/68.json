@@ -52,7 +52,9 @@
 		"fr": "Makuhita"
 	},
 	"hp": 130,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Hariyama",
 		"en": "Hariyama",

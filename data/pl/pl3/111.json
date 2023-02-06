@@ -32,7 +32,9 @@
 		81
 	],
 	"hp": 40,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Magnemite",
 		"fr": "Magneti"

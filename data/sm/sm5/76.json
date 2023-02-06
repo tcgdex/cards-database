@@ -50,7 +50,9 @@
 		"fr": "Moufouette"
 	},
 	"hp": 120,
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Skuntank",
 		"en": "Skuntank",

@@ -21,7 +21,9 @@
 		120
 	],
 	"hp": 40,
-	"illustrator": "Hiroki Asanuma",
+	"illustrator": [
+		"Hiroki Asanuma"
+	],
 	"name": {
 		"de": "Sterndu",
 		"en": "Staryu",

@@ -40,7 +40,9 @@
 		"fr": "Skitty"
 	},
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Enekoro",
 		"en": "Delcatty",

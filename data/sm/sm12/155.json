@@ -57,7 +57,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 110,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Feelinara",
 		"en": "Sylveon",

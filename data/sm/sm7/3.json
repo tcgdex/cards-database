@@ -56,7 +56,9 @@
 		"fr": "Boustiflor"
 	},
 	"hp": 140,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Sarzenia",
 		"en": "Victreebel",

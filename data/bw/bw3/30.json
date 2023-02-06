@@ -18,7 +18,9 @@
 		592
 	],
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Quabbel",
 		"en": "Frillish",

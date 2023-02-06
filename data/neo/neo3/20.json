@@ -27,7 +27,9 @@
 		249
 	],
 	"hp": 90,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Lugia",
 		"fr": "Lugia"

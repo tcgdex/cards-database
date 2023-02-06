@@ -36,7 +36,9 @@
 		"en": "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
 	},
 	"hp": 70,
-	"illustrator": "Motofumi Fujiwara",
+	"illustrator": [
+		"Motofumi Fujiwara"
+	],
 	"name": {
 		"de": "Pummeluff",
 		"en": "Jigglypuff",

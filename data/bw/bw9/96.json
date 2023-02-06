@@ -26,7 +26,9 @@
 		"fr": "Étourmi"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Staravia",
 		"en": "Staravia",

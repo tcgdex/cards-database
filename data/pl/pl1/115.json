@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Choisissez un Pokémon dans votre pile de défausse, montrez-le à votre adversaire et placez-le dans votre main."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Pokémon Rescue",
 		"fr": "Rescousse Pokémon"

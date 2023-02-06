@@ -34,7 +34,9 @@
 		"de": "Quajutsu"
 	},
 	"hp": 170,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Quajutsu-TURBO",
 		"en": "Greninja BREAK",

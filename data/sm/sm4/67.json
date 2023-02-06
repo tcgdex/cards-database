@@ -60,7 +60,9 @@
 		"fr": "Galegon"
 	},
 	"hp": 170,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Stolloss",
 		"en": "Aggron",

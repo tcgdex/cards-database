@@ -34,7 +34,9 @@
 		"en": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
 	},
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Reshiram"
 	},

@@ -42,7 +42,9 @@
 		"fr": "Roselia"
 	},
 	"hp": 90,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Roserade",
 		"fr": "Roserade"

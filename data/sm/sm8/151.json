@@ -53,7 +53,9 @@
 		788
 	],
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Kapu-Kime",
 		"en": "Tapu Fini",

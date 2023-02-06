@@ -68,7 +68,9 @@
 		741
 	],
 	"hp": 170,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Choreogel GX",
 		"en": "Oricorio GX",

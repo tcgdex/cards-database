@@ -32,7 +32,9 @@
 		481
 	],
 	"hp": 90,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Mesprit",
 		"fr": "Créfollet"

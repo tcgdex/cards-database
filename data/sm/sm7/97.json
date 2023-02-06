@@ -52,7 +52,9 @@
 		385
 	],
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Jirachi ◇",
 		"en": "Jirachi ◇",

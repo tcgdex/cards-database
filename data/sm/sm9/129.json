@@ -30,7 +30,9 @@
 		128
 	],
 	"hp": 130,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Tauros",
 		"en": "Tauros",

@@ -40,7 +40,9 @@
 		"fr": "Laporeille"
 	},
 	"hp": 90,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Schlapor",
 		"en": "Lopunny",

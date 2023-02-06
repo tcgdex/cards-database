@@ -47,7 +47,9 @@
 		"fr": "Skitty"
 	},
 	"hp": 90,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Enekoro",
 		"en": "Delcatty",

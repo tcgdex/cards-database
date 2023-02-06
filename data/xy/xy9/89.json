@@ -37,7 +37,9 @@
 		"de": "Rattikarl"
 	},
 	"hp": 110,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rattikarl-TURBO",
 		"en": "Raticate BREAK",

@@ -9,7 +9,9 @@
 		"pt": "Se este card estiver ligado a Victini-EX, Victini-EX poderá usar seus ataques independentemente da quantidade ou do tipo de Energia ligada a ele.",
 		"de": "Wenn diese Karte an Victini-EX angelegt ist, kann Victini-EX seine Angriffe ungeachtet der Anzahl oder des Typs der angelegten Energien einsetzen."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "TriumVant",
 		"en": "Victory Piece",

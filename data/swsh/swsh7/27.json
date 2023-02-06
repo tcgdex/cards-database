@@ -57,7 +57,9 @@
 		"de": "Tentacha"
 	},
 	"hp": 120,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Tentoxa",
 		"en": "Tentacruel",

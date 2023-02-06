@@ -36,7 +36,9 @@
 		386
 	],
 	"hp": 110,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Deoxys ex",
 		"fr": "Deoxys ex"

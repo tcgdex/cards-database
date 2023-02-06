@@ -56,7 +56,9 @@
 		"fr": "Ramoloss"
 	},
 	"hp": 120,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Laschoking",
 		"en": "Slowking",

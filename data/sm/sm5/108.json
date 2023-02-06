@@ -29,7 +29,9 @@
 		431
 	],
 	"hp": 60,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Charmian",
 		"en": "Glameow",

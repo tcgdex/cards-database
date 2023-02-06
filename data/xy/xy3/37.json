@@ -52,7 +52,9 @@
 		124
 	],
 	"hp": 70,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Rossana",
 		"en": "Jynx",

@@ -52,7 +52,9 @@
 		"fr": "Excelangue"
 	},
 	"hp": 130,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Schlurplek",
 		"en": "Lickilicky",

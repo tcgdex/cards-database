@@ -43,7 +43,9 @@
 		"fr": "Nasgnet"
 	},
 	"hp": 90,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Probopass",
 		"fr": "Tarinorme"

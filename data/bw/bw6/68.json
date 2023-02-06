@@ -40,7 +40,9 @@
 		538
 	],
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Jiutesto",
 		"en": "Throh",

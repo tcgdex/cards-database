@@ -9,7 +9,9 @@
 		"pt": "Os Pokémon Grass Básicos e os Pokémon Lightning Básicos (seus e do seu oponente) recebem 30 pontos de dano a menos de ataques do oponente (após a aplicação de Fraqueza e Resistência).",
 		"de": "Grass-Basis-Pokémon und Lightning-Basis-Pokémon (deine und die deines Gegners) werden durch Attacken des Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Schutzzone des Æther-Paradieses",
 		"en": "Aether Paradise Conservation Area",

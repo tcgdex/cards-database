@@ -44,7 +44,9 @@
 		214
 	],
 	"hp": 100,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Skaraborn",
 		"en": "Heracross",

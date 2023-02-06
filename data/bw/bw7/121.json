@@ -37,7 +37,9 @@
 		"fr": "Ponchiot"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Terribark",
 		"en": "Herdier",

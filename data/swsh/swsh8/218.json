@@ -39,7 +39,9 @@
 		"de": "Schlaraffel-V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Schlaraffel VMAX",
 		"en": "Greedent VMAX",

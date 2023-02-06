@@ -52,7 +52,9 @@
 		"de": "Seeper"
 	},
 	"hp": 80,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Seemon",
 		"en": "Seadra",

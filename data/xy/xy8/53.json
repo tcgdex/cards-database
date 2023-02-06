@@ -60,7 +60,9 @@
 		"de": "Magnetilo"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Magneton",
 		"en": "Magneton",

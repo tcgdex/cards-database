@@ -18,7 +18,9 @@
 		515
 	],
 	"hp": 70,
-	"illustrator": "Reiko Tanoue",
+	"illustrator": [
+		"Reiko Tanoue"
+	],
 	"name": {
 		"de": "Sodamak",
 		"en": "Panpour",

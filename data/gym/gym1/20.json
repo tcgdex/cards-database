@@ -36,7 +36,9 @@
 		"en": "Graveler"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Brock's Golem"
 	},

@@ -61,7 +61,9 @@
 		"de": "Metang"
 	},
 	"hp": 150,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Metagross",
 		"en": "Metagross",

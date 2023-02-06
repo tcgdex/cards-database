@@ -39,7 +39,9 @@
 		111
 	],
 	"hp": 100,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Rihorn",
 		"en": "Rhyhorn",

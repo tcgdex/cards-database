@@ -52,7 +52,9 @@
 		"de": "Zwirrklop"
 	},
 	"hp": 150,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Zwirrfinst",
 		"en": "Dusknoir",

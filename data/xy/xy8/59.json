@@ -58,7 +58,9 @@
 		"de": "Nebulak"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Alpollo",
 		"en": "Haunter",

@@ -9,7 +9,9 @@
 		"pt": "Pokémon com PS restante de 40 ou menos (seus e do seu oponente) não podem atacar.",
 		"de": "Pokémon (deine und die deines Gegners), deren verbleibende KP 40 oder weniger betragen, können nicht angreifen."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Blizzania",
 		"en": "Blizzard Town",

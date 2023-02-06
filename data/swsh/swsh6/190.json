@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se o Pokémon Ativo do seu oponente for um Pokémon VMAX, compre 2 cartas a mais.",
 		"de": "Ziehe 2 Karten. Wenn das Aktive Pokémon deines Gegners ein Pokémon-VMAX ist, ziehe 2 Karten mehr."
 	},
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Ärztin",
 		"en": "Doctor",

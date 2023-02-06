@@ -52,7 +52,9 @@
 		"de": "Duokles"
 	},
 	"hp": 140,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Durengard",
 		"en": "Aegislash",

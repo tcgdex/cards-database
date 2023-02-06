@@ -36,7 +36,9 @@
 		39
 	],
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Pummeluff",
 		"en": "Jigglypuff",

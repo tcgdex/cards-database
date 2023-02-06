@@ -9,7 +9,9 @@
 		"pt": "Mova até 3 contadores de dano do seu Pokémon Ativo para o Pokémon Ativo do seu oponente.",
 		"de": "Verschiebe bis zu 3 Schadensmarken von deinem Aktiven Pokémon auf das Aktive Pokémon deines Gegners."
 	},
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Agathe",
 		"en": "Agatha",

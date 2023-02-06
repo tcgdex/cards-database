@@ -41,7 +41,9 @@
 		"fr": "Darumarond"
 	},
 	"hp": 110,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Flampivian",
 		"en": "Darmanitan",

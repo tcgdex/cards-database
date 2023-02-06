@@ -45,7 +45,9 @@
 		"en": "Its entire body is made up of a single organ that generates electrical energy. Regieleki is capable of creating all Galar's electricity."
 	},
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Regieleki",
 		"en": "Regieleki",

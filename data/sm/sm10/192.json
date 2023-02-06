@@ -87,7 +87,9 @@
 		794
 	],
 	"hp": 260,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Schabelle & Masskito GX",
 		"en": "Pheromosa & Buzzwole GX",

@@ -48,7 +48,9 @@
 		352
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Kecleon",
 		"fr": "Kecleon"

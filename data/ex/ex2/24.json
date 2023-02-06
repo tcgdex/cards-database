@@ -36,7 +36,9 @@
 		"en": "Eevee"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Umbreon",
 		"fr": "Noctali"

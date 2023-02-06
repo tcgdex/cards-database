@@ -46,7 +46,9 @@
 		"fr": "Venalgue"
 	},
 	"hp": 120,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Tandrak",
 		"en": "Dragalge",

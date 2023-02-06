@@ -24,7 +24,9 @@
 		216
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Teddiursa",
 		"fr": "Teddiursa"

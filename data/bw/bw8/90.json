@@ -48,7 +48,9 @@
 		"fr": "Clic"
 	},
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Klikdiklak",
 		"en": "Klinklang",

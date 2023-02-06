@@ -54,7 +54,9 @@
 		"fr": "Galegon"
 	},
 	"hp": 130,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Aggron",
 		"fr": "Galeking Niv. 53"

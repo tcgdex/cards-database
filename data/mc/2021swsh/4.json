@@ -31,7 +31,9 @@
 		1
 	],
 	"hp": 80,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"en": "Turtwig"
 	},

@@ -21,7 +21,9 @@
 		456
 	],
 	"hp": 50,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Finneon",
 		"en": "Finneon",

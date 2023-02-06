@@ -76,7 +76,9 @@
 		647
 	],
 	"hp": 170,
-	"illustrator": "ConceptLab",
+	"illustrator": [
+		"ConceptLab"
+	],
 	"name": {
 		"de": "Keldeo GX",
 		"en": "Keldeo GX",

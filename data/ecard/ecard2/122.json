@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Attachez cette carte à l'un de vos Pokémon  en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de feu 01."
 	},
-	"illustrator": "\"Big Mama\" Tagawa",
+	"illustrator": [
+		"\"Big Mama\" Tagawa"
+	],
 	"name": {
 		"en": "Fire Cube 01",
 		"fr": "Cube de feu 01"

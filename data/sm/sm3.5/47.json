@@ -50,7 +50,9 @@
 		442
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Kryppuk",
 		"en": "Spiritomb",

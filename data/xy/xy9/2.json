@@ -52,7 +52,9 @@
 		"de": "Endivie"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Lorblatt",
 		"en": "Bayleef",

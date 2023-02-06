@@ -37,7 +37,9 @@
 		"de": "Wolly"
 	},
 	"hp": 130,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Zwollock",
 		"en": "Dubwool",

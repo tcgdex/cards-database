@@ -31,7 +31,9 @@
 		574
 	],
 	"hp": 60,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Gothita"
 	},

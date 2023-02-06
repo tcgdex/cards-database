@@ -54,7 +54,9 @@
 		230
 	],
 	"hp": 170,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Seedraking EX",
 		"en": "Kingdra EX",

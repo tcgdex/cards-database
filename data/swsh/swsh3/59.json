@@ -61,7 +61,9 @@
 		"de": "Frizelbliz"
 	},
 	"hp": 110,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Voltenso",
 		"en": "Manectric",

@@ -36,7 +36,9 @@
 		"fr": "Obalie"
 	},
 	"hp": 80,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Sealeo",
 		"fr": "Phogleur Niv. 31"

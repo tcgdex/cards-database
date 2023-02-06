@@ -47,7 +47,9 @@
 		"en": "Arrokuda"
 	},
 	"hp": 120,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Barrakiefa",
 		"en": "Barraskewda",

@@ -58,7 +58,9 @@
 		"fr": "Stalgamin"
 	},
 	"hp": 120,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Firnontor",
 		"en": "Glalie",

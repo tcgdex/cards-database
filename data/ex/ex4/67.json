@@ -36,7 +36,9 @@
 		111
 	],
 	"hp": 50,
-	"illustrator": "Yosuke Da Silva",
+	"illustrator": [
+		"Yosuke Da Silva"
+	],
 	"name": {
 		"en": "Team Magma's Rhyhorn",
 		"fr": "Rhinocorne de Team Magma"

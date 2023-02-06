@@ -9,7 +9,9 @@
 		"pt": "Mova 3 contadores de dano de 1 dos seus Pokémon para outro Pokémon seu.",
 		"de": "Verschiebe 3 Schadensmarken von 1 deiner Pokémon auf 1 anderes deiner Pokémon."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Schadenstransporter",
 		"en": "Damage Mover",

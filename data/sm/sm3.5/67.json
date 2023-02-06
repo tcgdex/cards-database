@@ -9,7 +9,9 @@
 		"pt": "",
 		"de": ""
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Tausch",
 		"en": "Switch",

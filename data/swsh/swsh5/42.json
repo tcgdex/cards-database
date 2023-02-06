@@ -38,7 +38,9 @@
 		"de": "Quabbel"
 	},
 	"hp": 120,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Apoquallyp",
 		"en": "Jellicent",

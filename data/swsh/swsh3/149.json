@@ -60,7 +60,9 @@
 		"de": "Piccolente"
 	},
 	"hp": 110,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Swaroness",
 		"en": "Swanna",

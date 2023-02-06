@@ -9,7 +9,9 @@
 		"pt": "Coloque 2 marcadores de danos adicionais nos Pokémon Envenenados (tanto seus quanto do seu oponente) entre as vezes de jogar.",
 		"de": "Lege zwischen den Zügen 2 weitere Schadensmarken auf vergiftete Pokémon (deine und die deines Gegners)."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Vapydro City-Arena",
 		"en": "Virbank City Gym",

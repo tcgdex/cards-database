@@ -47,7 +47,9 @@
 		"fr": "Roucool"
 	},
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Tauboga",
 		"en": "Pidgeotto",

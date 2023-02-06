@@ -20,7 +20,9 @@
 		150
 	],
 	"hp": 120,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Mewtwo",
 		"fr": "Mewtwo"

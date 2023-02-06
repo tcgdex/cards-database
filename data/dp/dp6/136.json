@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Attachez cette carte à 1 de vos Pokémon en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Technical Machine TS-1",
 		"fr": "Machine Technique TS-1"

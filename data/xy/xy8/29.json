@@ -29,7 +29,9 @@
 		120
 	],
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Sterndu",
 		"en": "Staryu",

@@ -44,7 +44,9 @@
 		511
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Vegimak",
 		"en": "Pansage",

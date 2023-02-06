@@ -9,7 +9,9 @@
 		"pt": "Qualquer Pokémon que possuir alguma Energia de Plasma ligada a ele (seu e do seu oponente) não terá Fraquezas.",
 		"de": "Jedes Pokémon (deine und die deines Gegners), an dem Plasma-Energie angelegt ist, hat keine Schwäche."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Plasma-Fregatte",
 		"en": "Plasma Frigate",

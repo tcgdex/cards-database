@@ -43,7 +43,9 @@
 		"fr": "Tadmorv"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Muk",
 		"fr": "Grotadmorv"

@@ -59,7 +59,9 @@
 		"de": "Phandra"
 	},
 	"hp": 150,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Katapuldra",
 		"en": "Dragapult",

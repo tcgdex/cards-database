@@ -45,7 +45,9 @@
 		380
 	],
 	"hp": 120,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Latias",
 		"en": "Latias",

@@ -73,7 +73,9 @@
 		807
 	],
 	"hp": 190,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Zeraora GX",
 		"en": "Zeraora GX",

@@ -33,7 +33,9 @@
 		151
 	],
 	"hp": 60,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Mew",
 		"fr": "Mew"

@@ -56,7 +56,9 @@
 		"de": "Galar-Zigzachs"
 	},
 	"hp": 100,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Galar-Geradaks",
 		"en": "Galarian Linoone",

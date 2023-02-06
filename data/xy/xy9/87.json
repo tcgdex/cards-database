@@ -28,7 +28,9 @@
 		19
 	],
 	"hp": 30,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Rattfratz",
 		"en": "Rattata",

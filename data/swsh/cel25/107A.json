@@ -38,7 +38,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 120,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Donphan"
 	},

@@ -31,7 +31,9 @@
 		757
 	],
 	"hp": 70,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Molunk",
 		"en": "Salandit",

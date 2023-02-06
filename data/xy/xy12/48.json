@@ -59,7 +59,9 @@
 		"de": "Nebulak"
 	},
 	"hp": 70,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Alpollo",
 		"en": "Haunter",

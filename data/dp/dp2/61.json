@@ -42,7 +42,9 @@
 		"en": "Sandshrew"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Sandslash",
 		"fr": "Sablaireau"

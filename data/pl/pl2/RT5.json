@@ -48,7 +48,9 @@
 		479
 	],
 	"hp": 90,
-	"illustrator": "Hiroki Fuchino",
+	"illustrator": [
+		"Hiroki Fuchino"
+	],
 	"name": {
 		"en": "Wash Rotom",
 		"fr": "Motisma Lavage Niv. 46"

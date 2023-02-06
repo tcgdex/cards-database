@@ -18,7 +18,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Latias"
 	},

@@ -59,7 +59,9 @@
 		"de": "Efoserp"
 	},
 	"hp": 140,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Serpiroyal",
 		"en": "Serperior",

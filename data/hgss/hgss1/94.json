@@ -6,7 +6,9 @@
 		"en": "Choose 1 of your Pokémon. Flip 2 coins. For each heads, remove 3 damage counters from that Pokémon."
 	},
 	"hp": 0,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Moomoo Milk",
 		"fr": "Lait Meumeu"

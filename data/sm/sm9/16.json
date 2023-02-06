@@ -48,7 +48,9 @@
 		"fr": "Goupix"
 	},
 	"hp": 100,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Vulnona",
 		"en": "Ninetales",

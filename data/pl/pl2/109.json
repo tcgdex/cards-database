@@ -35,7 +35,9 @@
 		405
 	],
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Luxray GL",
 		"fr": "Luxray  Niv. X"

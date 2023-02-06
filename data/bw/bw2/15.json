@@ -32,7 +32,9 @@
 		585
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Sesokitz",
 		"en": "Deerling",

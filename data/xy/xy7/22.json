@@ -52,7 +52,9 @@
 		"de": "Evoli"
 	},
 	"hp": 90,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Aquana",
 		"en": "Vaporeon",

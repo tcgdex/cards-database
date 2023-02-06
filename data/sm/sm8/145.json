@@ -28,7 +28,9 @@
 		742
 	],
 	"hp": 30,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Wommel",
 		"en": "Cutiefly",

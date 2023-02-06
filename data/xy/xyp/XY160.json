@@ -33,7 +33,9 @@
 		646
 	],
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Black Kyurem"
 	},

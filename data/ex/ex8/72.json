@@ -34,7 +34,9 @@
 		285
 	],
 	"hp": 40,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Shroomish",
 		"fr": "Balignon"

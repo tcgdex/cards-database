@@ -35,7 +35,9 @@
 		122
 	],
 	"hp": 70,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Mr. Mime",
 		"fr": "M. Mime"

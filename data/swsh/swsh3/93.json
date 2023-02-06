@@ -46,7 +46,9 @@
 		"en": "It moves through the sands with its mouth open, swallowing sand along with its prey. It gets rid of the sand by spouting it from its nose."
 	},
 	"hp": 100,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Hippopotas",
 		"en": "Hippopotas",

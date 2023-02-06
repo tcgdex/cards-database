@@ -59,7 +59,9 @@
 		"de": "Frubaila"
 	},
 	"hp": 150,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Fruyal",
 		"en": "Tsareena",

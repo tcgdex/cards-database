@@ -30,7 +30,9 @@
 		"en": "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
 	},
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Schwalbini",
 		"en": "Taillow",

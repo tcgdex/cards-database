@@ -52,7 +52,9 @@
 		800
 	],
 	"hp": 190,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Ultra-Necrozma GX",
 		"en": "Ultra Necrozma GX",

@@ -51,7 +51,9 @@
 		122
 	],
 	"hp": 80,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Pantimos",
 		"en": "Mr. Mime",

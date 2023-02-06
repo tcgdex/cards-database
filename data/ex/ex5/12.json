@@ -51,7 +51,9 @@
 		"en": "Feebas"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Milotic",
 		"fr": "Milobellus"

@@ -35,7 +35,9 @@
 		466
 	],
 	"hp": 120,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Electivire",
 		"fr": "Elekable"

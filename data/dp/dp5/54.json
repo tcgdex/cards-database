@@ -31,7 +31,9 @@
 		412
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Burmy Sandy Cloak",
 		"fr": "Cheniti Cape Sable"

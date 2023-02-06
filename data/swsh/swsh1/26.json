@@ -47,7 +47,9 @@
 		631
 	],
 	"hp": 110,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Furnifraß",
 		"en": "Heatmor",

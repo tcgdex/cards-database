@@ -33,7 +33,9 @@
 		145
 	],
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Zapdos",
 		"fr": "Électhor"

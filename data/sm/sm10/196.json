@@ -73,7 +73,9 @@
 		89
 	],
 	"hp": 270,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Sleimok & Alola-Sleimok GX",
 		"en": "Muk & Alolan Muk GX",

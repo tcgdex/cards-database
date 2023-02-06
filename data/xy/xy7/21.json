@@ -84,7 +84,9 @@
 		"de": "Karpador"
 	},
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Garados",
 		"en": "Gyarados",

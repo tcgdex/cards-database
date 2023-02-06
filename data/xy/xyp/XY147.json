@@ -36,7 +36,9 @@
 		720
 	],
 	"hp": 130,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"en": "Hoopa",
 		"fr": "Hoopa"

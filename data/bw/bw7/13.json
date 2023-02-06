@@ -42,7 +42,9 @@
 		"fr": "Lianaja"
 	},
 	"hp": 140,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Serpiroyal",
 		"en": "Serperior",

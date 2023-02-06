@@ -9,7 +9,9 @@
 		"pt": "Você só pode usar esta carta se descartar outra carta de Item da sua mão.\nJogue 1 moeda. Se sair cara, procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Du kannst diese Karte nur verwenden, wenn du 1 andere Itemkarte aus deiner Hand auf deinen Ablagestapel legst.\nWirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Urglmator",
 		"en": "Cram-o-matic",

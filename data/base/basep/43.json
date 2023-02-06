@@ -38,7 +38,9 @@
 		"en": "Machoke"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Machamp"
 	},

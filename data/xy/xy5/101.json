@@ -51,7 +51,9 @@
 		122
 	],
 	"hp": 80,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Pantimos",
 		"en": "Mr. Mime",

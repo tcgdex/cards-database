@@ -57,7 +57,9 @@
 		"fr": "Coxy"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Ledian",
 		"en": "Ledian",

@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Cherchez une carte Énergie de base dans votre deck et placez-la dans votre main. Mélangez ensuite votre deck."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Energy Search",
 		"fr": "Recherche d'Énergie"

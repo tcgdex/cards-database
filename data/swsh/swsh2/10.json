@@ -29,7 +29,9 @@
 		"en": "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar."
 	},
 	"hp": 50,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Gehweiher",
 		"en": "Surskit",

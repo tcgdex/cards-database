@@ -28,7 +28,9 @@
 		"en": "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world."
 	},
 	"hp": 60,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Lichtel",
 		"en": "Litwick",

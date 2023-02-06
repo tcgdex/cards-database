@@ -60,7 +60,9 @@
 		"de": "Paragoni"
 	},
 	"hp": 110,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Trombork",
 		"en": "Trevenant",

@@ -29,7 +29,9 @@
 		"en": "Sunkern"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Sunflora",
 		"fr": "Heliatronc"

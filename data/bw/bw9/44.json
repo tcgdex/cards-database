@@ -38,7 +38,9 @@
 		"fr": "Nidoran♂"
 	},
 	"hp": 90,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Nidorino",
 		"en": "Nidorino",

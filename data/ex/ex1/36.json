@@ -33,7 +33,9 @@
 		"en": "Aron"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Lairon",
 		"fr": "Galegon"

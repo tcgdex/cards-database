@@ -35,7 +35,9 @@
 		"fr": "Griknot"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Gabite",
 		"fr": "Carmache"

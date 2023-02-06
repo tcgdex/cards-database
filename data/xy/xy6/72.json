@@ -67,7 +67,9 @@
 		"de": "Schwalbini"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Schwalboss",
 		"en": "Swellow",

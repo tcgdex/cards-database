@@ -58,7 +58,9 @@
 		"fr": "Phogleur"
 	},
 	"hp": 160,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Walraisa",
 		"en": "Walrein",

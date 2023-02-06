@@ -51,7 +51,9 @@
 		442
 	],
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Kryppuk",
 		"en": "Spiritomb",

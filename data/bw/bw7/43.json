@@ -42,7 +42,9 @@
 		"fr": "Couaneton"
 	},
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Swaroness",
 		"en": "Swanna",

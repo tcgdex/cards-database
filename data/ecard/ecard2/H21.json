@@ -54,7 +54,9 @@
 		"en": "Scyther"
 	},
 	"hp": 80,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Scizor",
 		"fr": "Cizayox"

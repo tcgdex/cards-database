@@ -45,7 +45,9 @@
 		383
 	],
 	"hp": 100,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Groudon ex"
 	},

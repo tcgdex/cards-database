@@ -35,7 +35,9 @@
 		118
 	],
 	"hp": 50,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Goldeen",
 		"fr": "Poissirène"

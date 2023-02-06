@@ -46,7 +46,9 @@
 		"de": "Seemops"
 	},
 	"hp": 110,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Seejong",
 		"en": "Sealeo",

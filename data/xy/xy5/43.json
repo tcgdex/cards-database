@@ -29,7 +29,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Barschwa",
 		"en": "Feebas",

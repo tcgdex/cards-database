@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se o seu oponente tiver exatamente 1, 3 ou 5 cartas de Prêmio restantes, compre 2 cartas a mais.",
 		"de": "Ziehe 2 Karten. Wenn dein Gegner genau 1, 3 oder 5 verbleibende Preiskarten hat, ziehe 2 Karten mehr."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Schüler",
 		"en": "Schoolboy",

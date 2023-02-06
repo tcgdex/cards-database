@@ -52,7 +52,9 @@
 		25
 	],
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Pikachu",
 		"en": "Pikachu",

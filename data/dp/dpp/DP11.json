@@ -35,7 +35,9 @@
 		395
 	],
 	"hp": 140,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Empoleon",
 		"fr": "Pingoléon"

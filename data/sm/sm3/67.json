@@ -57,7 +57,9 @@
 		"fr": "Rhinoféros"
 	},
 	"hp": 160,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Rihornior",
 		"en": "Rhyperior",

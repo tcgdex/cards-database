@@ -29,7 +29,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Karpador",
 		"en": "Magikarp",

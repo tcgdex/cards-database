@@ -9,7 +9,9 @@
 		"pt": "Os ataques do Pokémon ao qual esta carta está ligada causam 30 pontos de dano a mais ao Pokémon-GX Ativo ou ao Pokémon-EX Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		"de": "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon-GX oder Aktiven Pokémon-EX deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Wahlband",
 		"en": "Choice Band",

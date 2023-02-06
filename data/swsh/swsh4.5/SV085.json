@@ -56,7 +56,9 @@
 		"en": "Morgrem"
 	},
 	"hp": 170,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Olangaar",
 		"en": "Grimmsnarl",

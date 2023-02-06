@@ -24,7 +24,9 @@
 		"de": "Galar-Zigzachs"
 	},
 	"hp": 90,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Galar-Geradaks",
 		"en": "Galarian Linoone",

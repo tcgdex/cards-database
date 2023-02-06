@@ -58,7 +58,9 @@
 		"fr": "Sancoki"
 	},
 	"hp": 120,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Gastrodon",
 		"en": "Gastrodon",

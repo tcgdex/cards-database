@@ -33,7 +33,9 @@
 		"en": "Weedle"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Kakuna",
 		"fr": "Coconfort"

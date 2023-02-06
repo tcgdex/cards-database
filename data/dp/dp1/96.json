@@ -38,7 +38,9 @@
 		315
 	],
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Roselia",
 		"fr": "Roselia"

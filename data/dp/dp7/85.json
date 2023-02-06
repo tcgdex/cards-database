@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 	},
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Great Ball",
 		"fr": "Super Ball"

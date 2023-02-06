@@ -43,7 +43,9 @@
 		613
 	],
 	"hp": 70,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Petznief",
 		"en": "Cubchoo",

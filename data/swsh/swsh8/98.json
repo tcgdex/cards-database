@@ -26,7 +26,9 @@
 		"en": "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness."
 	},
 	"hp": 70,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Eguana",
 		"en": "Helioptile",

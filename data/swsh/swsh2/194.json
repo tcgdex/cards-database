@@ -59,7 +59,9 @@
 		"de": "Liberlo-V"
 	},
 	"hp": 320,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Liberlo VMAX",
 		"en": "Cinderace VMAX",

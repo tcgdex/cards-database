@@ -30,7 +30,9 @@
 		574
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Mollimorba",
 		"en": "Gothita",

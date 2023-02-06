@@ -58,7 +58,9 @@
 		"de": "Klauenfossil"
 	},
 	"hp": 80,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Anorith",
 		"en": "Anorith",

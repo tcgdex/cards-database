@@ -37,7 +37,9 @@
 		"fr": "Lianaja"
 	},
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Serperior",
 		"fr": "Majaspic"

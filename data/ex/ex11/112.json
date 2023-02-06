@@ -39,7 +39,9 @@
 		382
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Kyogre Star",
 		"fr": "Kyogre ☆"

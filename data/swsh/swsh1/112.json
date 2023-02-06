@@ -25,7 +25,9 @@
 		852
 	],
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Klopptopus",
 		"en": "Clobbopus",

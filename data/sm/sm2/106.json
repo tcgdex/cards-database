@@ -46,7 +46,9 @@
 		384
 	],
 	"hp": 120,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Rayquaza",
 		"en": "Rayquaza",

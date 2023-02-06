@@ -49,7 +49,9 @@
 		"fr": "Snubbull"
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Granbull",
 		"en": "Granbull",

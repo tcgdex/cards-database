@@ -9,7 +9,9 @@
 		"pt": "Coloque 1 dos seus Pokémon que tiver algum contador de dano nele e todas as cartas ligadas a ele na sua mão.",
 		"de": "Nimm 1 deiner Pokémon, auf dem mindestens 1 Schadensmarke liegt, und alle an es angelegten Karten auf deine Hand."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Lola",
 		"en": "Acerola",

@@ -44,7 +44,9 @@
 		595
 	],
 	"hp": 30,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Wattzapf",
 		"en": "Joltik",

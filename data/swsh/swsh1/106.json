@@ -42,7 +42,9 @@
 		"de": "Pampuli"
 	},
 	"hp": 150,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Pampross",
 		"en": "Mudsdale",

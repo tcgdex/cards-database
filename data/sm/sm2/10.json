@@ -43,7 +43,9 @@
 		494
 	],
 	"hp": 70,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Victini",
 		"en": "Victini",

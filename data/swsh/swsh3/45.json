@@ -29,7 +29,9 @@
 		"en": "Unable to survive in hot areas, it makes itself comfortable by breathing out air cold enough to cause snow. It burrows into the snow to sleep."
 	},
 	"hp": 60,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Gelatini",
 		"en": "Vanillite",

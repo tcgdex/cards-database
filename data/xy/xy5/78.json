@@ -45,7 +45,9 @@
 		299
 	],
 	"hp": 80,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Nasgnet",
 		"en": "Nosepass",

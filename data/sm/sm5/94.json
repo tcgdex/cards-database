@@ -51,7 +51,9 @@
 		786
 	],
 	"hp": 110,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Kapu-Fala",
 		"en": "Tapu Lele",

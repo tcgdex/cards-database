@@ -28,7 +28,9 @@
 		"en": "Ledyba"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Ledian",
 		"fr": "Coxyclaque"

@@ -9,7 +9,9 @@
 		"pt": "Se este card estiver ligado a seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), coloque 2 marcadores de danos no Pokémon Atacante.",
 		"de": "Wenn das Pokémon, an dem diese Karte angelegt ist, dein Aktives Pokémon ist und es durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon,"
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Beulenhelm",
 		"en": "Rocky Helmet",

@@ -39,7 +39,9 @@
 		"en": "Squirtle"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Wartortle",
 		"fr": "Carabaffe"

@@ -43,7 +43,9 @@
 		"fr": "Soporifik"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Hypno",
 		"fr": "Hypnomade"

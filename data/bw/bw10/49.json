@@ -49,7 +49,9 @@
 		"fr": "Machopeur"
 	},
 	"hp": 150,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Machomei",
 		"en": "Machamp",

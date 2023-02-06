@@ -36,7 +36,9 @@
 		"de": "Durengard-V"
 	},
 	"hp": 320,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Durengard VMAX",
 		"en": "Aegislash VMAX",

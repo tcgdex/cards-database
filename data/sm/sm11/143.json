@@ -28,7 +28,9 @@
 		546
 	],
 	"hp": 60,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Waumboll",
 		"en": "Cottonee",

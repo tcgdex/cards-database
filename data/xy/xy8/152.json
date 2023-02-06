@@ -10,7 +10,9 @@
 		"de": "Lege Regenbogen-Energie an 1 deiner Pokémon an. Solange Regenbogen-Energie im Spiel ist, zählt sie als jeder beliebige Energietyp, spendet aber immer nur eine Energie auf einmal. (Sie hat keinen Effekt, außer dass sie Energie spendet.) Wenn du diese Karte von deiner Hand an 1 deiner Pokémon anlegst, lege 1 Schadensmarke auf dieses Pokémon. (Wenn Regenbogen-Energie nicht im Spiel ist, zählt sie als Colorless-Energie.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Regenbogen-Energie",
 		"en": "Rainbow Energy",

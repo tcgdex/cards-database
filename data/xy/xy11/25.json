@@ -45,7 +45,9 @@
 		721
 	],
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Volcanion",
 		"en": "Volcanion",

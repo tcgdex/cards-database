@@ -36,7 +36,9 @@
 		"fr": "Vigoroth"
 	},
 	"hp": 180,
-	"illustrator": "Framestore",
+	"illustrator": [
+		"Framestore"
+	],
 	"name": {
 		"de": "Letarking",
 		"en": "Slaking",

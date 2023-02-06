@@ -41,7 +41,9 @@
 		"fr": "Tic"
 	},
 	"hp": 80,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Kliklak",
 		"en": "Klang",

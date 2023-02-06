@@ -9,7 +9,9 @@
 		"pt": "Se você for primeiro, poderá jogar esta carta no seu primeiro turno.\n\nCompre 2 cartas.",
 		"de": "Wenn du als Erster am Zug bist, kannst du diese Karte während deines ersten Zuges spielen.\n\nZiehe 2 Karten."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Schönheit",
 		"en": "Beauty",

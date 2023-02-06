@@ -29,7 +29,9 @@
 		120
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Sterndu",
 		"en": "Staryu",

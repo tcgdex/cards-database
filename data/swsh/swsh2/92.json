@@ -41,7 +41,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Katapuldra V",
 		"en": "Dragapult V",

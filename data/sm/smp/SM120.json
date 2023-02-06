@@ -22,7 +22,9 @@
 		744
 	],
 	"hp": 50,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Wuffels",
 		"en": "Rockruff",

@@ -16,7 +16,9 @@
 		"en": "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls."
 	},
 	"hp": 60,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Perlu",
 		"en": "Clamperl",

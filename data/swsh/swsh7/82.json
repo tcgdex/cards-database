@@ -55,7 +55,9 @@
 		145
 	],
 	"hp": 110,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Galar-Zapdos",
 		"en": "Galarian Zapdos",

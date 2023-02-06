@@ -44,7 +44,9 @@
 		74
 	],
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Kleinstein",
 		"en": "Geodude",

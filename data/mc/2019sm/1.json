@@ -16,7 +16,9 @@
 		"en": "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey."
 	},
 	"hp": 50,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"en": "Caterpie"
 	},

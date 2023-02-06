@@ -21,7 +21,9 @@
 		374
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Beldum",
 		"fr": "Terhal"

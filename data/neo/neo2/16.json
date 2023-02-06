@@ -23,7 +23,9 @@
 		202
 	],
 	"hp": 90,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Wobbuffet",
 		"fr": "Qulbutoke"

@@ -21,7 +21,9 @@
 		422
 	],
 	"hp": 70,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Schalellos",
 		"en": "Shellos",

@@ -56,7 +56,9 @@
 		"fr": "Colimucus"
 	},
 	"hp": 160,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Viscogon",
 		"en": "Goodra",

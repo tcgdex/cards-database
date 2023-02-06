@@ -63,7 +63,9 @@
 		"de": "Velursi"
 	},
 	"hp": 140,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Kosturso",
 		"en": "Bewear",

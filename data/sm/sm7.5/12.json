@@ -29,7 +29,9 @@
 		725
 	],
 	"hp": 60,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Flamiau",
 		"en": "Litten",

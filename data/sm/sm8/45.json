@@ -42,7 +42,9 @@
 		228
 	],
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Hunduster",
 		"en": "Houndour",

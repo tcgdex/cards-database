@@ -50,7 +50,9 @@
 		"de": "Sheinux"
 	},
 	"hp": 90,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Luxio",
 		"en": "Luxio",

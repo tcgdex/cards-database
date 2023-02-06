@@ -46,7 +46,9 @@
 		"fr": "Togetic"
 	},
 	"hp": 140,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Togekiss",
 		"en": "Togekiss",

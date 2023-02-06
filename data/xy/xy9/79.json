@@ -29,7 +29,9 @@
 		597
 	],
 	"hp": 60,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Kastadur",
 		"en": "Ferroseed",

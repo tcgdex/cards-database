@@ -64,7 +64,9 @@
 		"de": "Seltenes Fossil"
 	},
 	"hp": 150,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Pescryodon",
 		"en": "Arctovish",

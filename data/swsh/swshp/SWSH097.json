@@ -35,7 +35,9 @@
 		"en": "Dragapult V"
 	},
 	"hp": 320,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"en": "Dragapult VMAX"
 	},

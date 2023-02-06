@@ -21,7 +21,9 @@
 		"en": "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!"
 	},
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Peppeck",
 		"en": "Pikipek",

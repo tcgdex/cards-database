@@ -9,7 +9,9 @@
 		"pt": "Cada jogador coloca um Pokémon da sua pilha de descarte na sua mão. (Seu oponente escolhe primeiro.)",
 		"de": "Jeder Spieler nimmt 1 Pokémon aus seinem Ablagestapel auf seine Hand. (Dein Gegner beginnt.)"
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Vetternhilfe",
 		"en": "Buddy-Buddy Rescue",

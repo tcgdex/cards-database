@@ -46,7 +46,9 @@
 		"fr": "Sabelette d’Alola"
 	},
 	"hp": 120,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Alola-Sandamer",
 		"en": "Alolan Sandslash",

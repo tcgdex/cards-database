@@ -38,7 +38,9 @@
 		"en": "Gloom"
 	},
 	"hp": 100,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Bellossom δ",
 		"fr": "Joliflor δ ESPÈCES DELTA"

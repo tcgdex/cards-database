@@ -67,7 +67,9 @@
 		"de": "Rizeros"
 	},
 	"hp": 190,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Rihornior",
 		"en": "Rhyperior",

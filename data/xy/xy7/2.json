@@ -30,7 +30,9 @@
 		"de": "Myrapla"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Duflor",
 		"en": "Gloom",

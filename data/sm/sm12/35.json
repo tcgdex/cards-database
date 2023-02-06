@@ -77,7 +77,9 @@
 		"fr": "Pyronille"
 	},
 	"hp": 210,
-	"illustrator": "Hiroyuki Yamamoto",
+	"illustrator": [
+		"Hiroyuki Yamamoto"
+	],
 	"name": {
 		"de": "Ramoth GX",
 		"en": "Volcarona GX",

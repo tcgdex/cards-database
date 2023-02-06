@@ -51,7 +51,9 @@
 		845
 	],
 	"hp": 200,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Urgl V",
 		"en": "Cramorant V",

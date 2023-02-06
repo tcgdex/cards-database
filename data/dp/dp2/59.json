@@ -43,7 +43,9 @@
 		"en": "Larvitar"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Pupitar",
 		"fr": "Ymphect"

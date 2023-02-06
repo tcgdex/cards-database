@@ -40,7 +40,9 @@
 		889
 	],
 	"hp": 230,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Zamazenta V",
 		"en": "Zamazenta V",

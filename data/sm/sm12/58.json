@@ -29,7 +29,9 @@
 		535
 	],
 	"hp": 60,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Schallquap",
 		"en": "Tympole",

@@ -44,7 +44,9 @@
 		88
 	],
 	"hp": 80,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Alola-Sleima",
 		"en": "Alolan Grimer",

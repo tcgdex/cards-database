@@ -49,7 +49,9 @@
 		793
 	],
 	"hp": 110,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Anego",
 		"en": "Nihilego",

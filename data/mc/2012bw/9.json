@@ -16,7 +16,9 @@
 		"en": "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect."
 	},
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Purrloin"
 	},

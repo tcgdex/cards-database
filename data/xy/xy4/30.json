@@ -52,7 +52,9 @@
 		"de": "Eguana"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Elezard",
 		"en": "Heliolisk",

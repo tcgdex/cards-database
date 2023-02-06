@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Attachez Baie Ballon à 1 de vos Pokémon qui ne possède pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O., défaussez-la.\n\nTant que Baie Ballon est attachée à un Pokémon, le Coût de retraite de ce Pokémon est de 0. Lorsqu'il bat en retraite, défaussez-la."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Balloon Berry",
 		"fr": "Baie Ballon"

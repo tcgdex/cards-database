@@ -53,7 +53,9 @@
 		"en": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away."
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Boreos",
 		"en": "Tornadus",

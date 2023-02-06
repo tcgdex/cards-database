@@ -31,7 +31,9 @@
 		594
 	],
 	"hp": 100,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Mamolida",
 		"en": "Alomomola",

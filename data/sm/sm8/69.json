@@ -55,7 +55,9 @@
 		"fr": "Vorastérie"
 	},
 	"hp": 120,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Aggrostella",
 		"en": "Toxapex",

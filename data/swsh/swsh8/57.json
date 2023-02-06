@@ -40,7 +40,9 @@
 		"de": "Tyracroc"
 	},
 	"hp": 170,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Impergator",
 		"en": "Feraligatr",

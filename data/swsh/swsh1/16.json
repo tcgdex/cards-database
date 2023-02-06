@@ -24,7 +24,9 @@
 		824
 	],
 	"hp": 50,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Sensect",
 		"en": "Blipbug",

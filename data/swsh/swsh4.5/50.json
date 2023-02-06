@@ -46,7 +46,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 170,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"de": "Ditto V",
 		"en": "Ditto V",

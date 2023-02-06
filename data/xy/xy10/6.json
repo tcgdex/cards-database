@@ -50,7 +50,9 @@
 		"de": "Serpifeu"
 	},
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Efoserp",
 		"en": "Servine",

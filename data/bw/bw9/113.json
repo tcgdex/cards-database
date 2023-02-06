@@ -38,7 +38,9 @@
 		381
 	],
 	"hp": 170,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Latios-EX",
 		"en": "Latios-EX",

@@ -31,7 +31,9 @@
 		29
 	],
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Nidoran♀",
 		"fr": "Nidoran♀ Niv. 14"

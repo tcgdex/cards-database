@@ -58,7 +58,9 @@
 		"de": "Picochilla"
 	},
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Chillabell",
 		"en": "Cinccino",

@@ -34,7 +34,9 @@
 		412
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Burmy Trash Cloak",
 		"fr": "Cheniti Cape Déchet"

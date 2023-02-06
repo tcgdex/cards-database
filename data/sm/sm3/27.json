@@ -40,7 +40,9 @@
 		37
 	],
 	"hp": 60,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Alola Vulpix",
 		"en": "Alolan Vulpix",

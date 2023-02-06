@@ -42,7 +42,9 @@
 		"fr": "Spectrum"
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Gengar",
 		"fr": "Ectoplasma"

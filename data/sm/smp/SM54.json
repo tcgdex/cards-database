@@ -48,7 +48,9 @@
 		"fr": "Riolu"
 	},
 	"hp": 120,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Lucario",
 		"en": "Lucario",

@@ -51,7 +51,9 @@
 		"fr": "Polichombr"
 	},
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Banette-GX",
 		"fr": "Branette-GX"

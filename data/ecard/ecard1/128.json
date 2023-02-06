@@ -21,7 +21,9 @@
 		19
 	],
 	"hp": 30,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Rattata",
 		"fr": "Rattata"

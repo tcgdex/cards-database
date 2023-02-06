@@ -38,7 +38,9 @@
 		"de": "Mitodos"
 	},
 	"hp": 90,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Zytomega",
 		"en": "Reuniclus",

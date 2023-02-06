@@ -60,7 +60,9 @@
 		"de": "Waaty"
 	},
 	"hp": 140,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Ampharos",
 		"en": "Ampharos",

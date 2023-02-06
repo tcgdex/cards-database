@@ -46,7 +46,9 @@
 		145
 	],
 	"hp": 120,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Zapdos",
 		"en": "Zapdos",

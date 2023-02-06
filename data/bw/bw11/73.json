@@ -16,7 +16,9 @@
 		577
 	],
 	"hp": 30,
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"en": "Solosis"
 	},

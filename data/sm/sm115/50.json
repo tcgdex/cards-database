@@ -20,7 +20,9 @@
 		143
 	],
 	"hp": 150,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Snorlax",
 		"fr": "Ronflex"

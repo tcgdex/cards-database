@@ -52,7 +52,9 @@
 		384
 	],
 	"hp": 210,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Rayquaza V",
 		"en": "Rayquaza V",

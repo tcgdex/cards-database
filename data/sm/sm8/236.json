@@ -9,7 +9,9 @@
 		"pt": "Você só pode usar esta carta se for o segundo a jogar e somente na sua primeira vez de jogar. \n\nDescarte 1 Energia de 1 dos Pokémon do seu oponente.",
 		"de": "Du kannst diese Attacke nur einsetzen, wenn du als Zweiter am Zug bist, und nur während deines ersten Zuges. \n\nLege 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Geduldhammer",
 		"en": "Wait and See Hammer",

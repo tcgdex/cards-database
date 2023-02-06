@@ -53,7 +53,9 @@
 		237
 	],
 	"hp": 80,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Kapoera",
 		"en": "Hitmontop",

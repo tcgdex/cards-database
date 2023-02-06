@@ -35,7 +35,9 @@
 		559
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Zurrokex",
 		"en": "Scraggy",

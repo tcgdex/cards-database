@@ -80,7 +80,9 @@
 		"fr": "Pifeuil"
 	},
 	"hp": 240,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Tengulist GX",
 		"en": "Shiftry GX",

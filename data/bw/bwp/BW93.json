@@ -42,7 +42,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 100,
-	"illustrator": "Illus.＆Direc.The Pokémon Company Art Team",
+	"illustrator": [
+		"Illus.＆Direc.The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Umbreon",
 		"fr": "Noctali"

@@ -56,7 +56,9 @@
 		"fr": "Tentacool"
 	},
 	"hp": 100,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Tentoxa",
 		"en": "Tentacruel",

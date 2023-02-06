@@ -58,7 +58,9 @@
 		208
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Stahlos EX",
 		"en": "Steelix EX",

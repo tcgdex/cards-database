@@ -56,7 +56,9 @@
 		"fr": "Soporifik"
 	},
 	"hp": 110,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Hypno",
 		"en": "Hypno",

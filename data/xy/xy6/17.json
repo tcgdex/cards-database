@@ -73,7 +73,9 @@
 		144
 	],
 	"hp": 120,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Arktos",
 		"en": "Articuno",

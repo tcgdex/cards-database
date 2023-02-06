@@ -44,7 +44,9 @@
 		316
 	],
 	"hp": 60,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Schluppuck",
 		"en": "Gulpin",

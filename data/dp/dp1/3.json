@@ -44,7 +44,9 @@
 		"fr": "Elektek"
 	},
 	"hp": 100,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Electivire",
 		"fr": "Elekable"

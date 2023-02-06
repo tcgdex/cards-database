@@ -42,7 +42,9 @@
 		"en": "Dratini"
 	},
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Dark Dragonair",
 		"fr": "Draco obscur"

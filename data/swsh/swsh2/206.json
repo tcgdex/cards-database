@@ -9,7 +9,9 @@
 		"pt": "O Pokémon ao qual esta carta está ligada recebe 30 PS a mais.",
 		"de": "Das Pokémon, an das diese Karte angelegt ist, erhält +30 KP."
 	},
-	"illustrator": "inose yukie",
+	"illustrator": [
+		"inose yukie"
+	],
 	"name": {
 		"de": "Großes Amulett",
 		"en": "Big Charm",

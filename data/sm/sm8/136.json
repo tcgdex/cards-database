@@ -56,7 +56,9 @@
 		"fr": "Marill"
 	},
 	"hp": 100,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Azumarill",
 		"en": "Azumarill",

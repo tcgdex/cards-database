@@ -17,7 +17,9 @@
 		"en": "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches."
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Galar-Corasonn",
 		"en": "Galarian Corsola",

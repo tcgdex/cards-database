@@ -47,7 +47,9 @@
 		"fr": "Couverdure"
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Matrifol",
 		"en": "Leavanny",

@@ -44,7 +44,9 @@
 		649
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Genesect-EX",
 		"en": "Genesect-EX",

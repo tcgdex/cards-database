@@ -32,7 +32,9 @@
 		116
 	],
 	"hp": 40,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Horsea δ",
 		"fr": "Hypotrempe δ ESPÈCES DELTA"

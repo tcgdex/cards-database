@@ -43,7 +43,9 @@
 		"fr": "Axoloto"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Quagsire",
 		"fr": "Maraiste"

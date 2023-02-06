@@ -38,7 +38,9 @@
 		"de": "Memmeon"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Phlegleon",
 		"en": "Drizzile",

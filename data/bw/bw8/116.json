@@ -48,7 +48,9 @@
 		"fr": "Furaiglon"
 	},
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Washakwil",
 		"en": "Braviary",

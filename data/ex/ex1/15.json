@@ -42,7 +42,9 @@
 		"en": "Combusken"
 	},
 	"hp": 110,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Blaziken",
 		"fr": "Brasegali"

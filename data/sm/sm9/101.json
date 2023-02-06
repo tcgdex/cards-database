@@ -56,7 +56,9 @@
 		"fr": "Archéomire"
 	},
 	"hp": 130,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Bronzong",
 		"en": "Bronzong",

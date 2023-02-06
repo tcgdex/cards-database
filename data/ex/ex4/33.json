@@ -37,7 +37,9 @@
 		344
 	],
 	"hp": 80,
-	"illustrator": "Zu-Ka",
+	"illustrator": [
+		"Zu-Ka"
+	],
 	"name": {
 		"en": "Team Magma's Claydol",
 		"fr": "Kaorine de Team Magma"

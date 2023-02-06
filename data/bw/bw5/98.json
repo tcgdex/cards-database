@@ -9,7 +9,9 @@
 		"pt": "Descarte sua mão e compre 7 cards.",
 		"de": "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 neue Karten."
 	},
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Prof. Esche",
 		"en": "Professor Juniper",

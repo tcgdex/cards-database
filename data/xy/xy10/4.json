@@ -52,7 +52,9 @@
 		"de": "Burmy"
 	},
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Moterpel",
 		"en": "Mothim",

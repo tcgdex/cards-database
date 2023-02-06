@@ -44,7 +44,9 @@
 		315
 	],
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Roselia",
 		"en": "Roselia",

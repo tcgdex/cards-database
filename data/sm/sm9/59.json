@@ -57,7 +57,9 @@
 		"fr": "Nidorino"
 	},
 	"hp": 160,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Nidoking",
 		"en": "Nidoking",

@@ -64,7 +64,9 @@
 		"de": "Galar-Flampion"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Galar-Flampivian",
 		"en": "Galarian Darmanitan",

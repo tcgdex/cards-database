@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, se o Pokémon Ativo daquele jogador estiver Adormecido, o jogador pode remover aquela Condição Especial e curar 30 de danos daquele Pokémon.",
 		"de": "Einmal während seines Zuges kann jeder Spieler, wenn sein Aktives Pokémon schläft, diesen Speziellen Zustand entfernen und 30 Schadenspunkte bei diesem Pokémon heilen."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Durchfeiern",
 		"en": "All-Night Party",

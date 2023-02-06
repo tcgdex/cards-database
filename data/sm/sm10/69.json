@@ -32,7 +32,9 @@
 		"fr": "Fantominus"
 	},
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Alpollo",
 		"en": "Haunter",

@@ -52,7 +52,9 @@
 		324
 	],
 	"hp": 110,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Qurtel",
 		"en": "Torkoal",

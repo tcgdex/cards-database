@@ -1,7 +1,9 @@
 {
 	"$schema": "../../../meta/definitions/card.schema.json",
 	"category": "Trainer",
-	"illustrator": "Jungo Suzuki",
+	"illustrator": [
+		"Jungo Suzuki"
+	],
 	"name": {
 		"en": "Crystal Shard"
 	},

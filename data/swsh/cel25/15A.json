@@ -30,7 +30,9 @@
 		"en": "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Venusaur"
 	},

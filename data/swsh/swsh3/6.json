@@ -36,7 +36,9 @@
 		"en": "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
 	},
 	"hp": 60,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Vegimak",
 		"en": "Pansage",

@@ -32,7 +32,9 @@
 		4
 	],
 	"hp": 50,
-	"illustrator": "Yuichi Sawayama",
+	"illustrator": [
+		"Yuichi Sawayama"
+	],
 	"name": {
 		"en": "Charmander",
 		"fr": "Salamèche"

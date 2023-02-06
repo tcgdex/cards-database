@@ -18,7 +18,9 @@
 		588
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Laukaps",
 		"en": "Karrablast",

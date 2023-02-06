@@ -52,7 +52,9 @@
 		"en": "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries."
 	},
 	"hp": 110,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Quartermak",
 		"en": "Passimian",

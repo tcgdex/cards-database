@@ -29,7 +29,9 @@
 		"en": "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight."
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Galar-Zigzachs",
 		"en": "Galarian Zigzagoon",

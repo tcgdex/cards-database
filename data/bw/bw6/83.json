@@ -35,7 +35,9 @@
 		632
 	],
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Fermicula",
 		"en": "Durant",

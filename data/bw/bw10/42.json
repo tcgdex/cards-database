@@ -20,7 +20,9 @@
 		577
 	],
 	"hp": 30,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Monozyto",
 		"en": "Solosis",

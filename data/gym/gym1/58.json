@@ -23,7 +23,9 @@
 		"en": "Gastly"
 	},
 	"hp": 50,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Sabrina's Haunter"
 	},

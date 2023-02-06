@@ -38,7 +38,9 @@
 		"en": "Marill"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Azumarill",
 		"fr": "Azumarill"

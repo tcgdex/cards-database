@@ -41,7 +41,9 @@
 		"fr": "Wailmer"
 	},
 	"hp": 200,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Wailord",
 		"fr": "Wailord"

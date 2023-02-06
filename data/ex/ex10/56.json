@@ -40,7 +40,9 @@
 		"en": "Mareep"
 	},
 	"hp": 80,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Flaaffy",
 		"fr": "Lainergie"

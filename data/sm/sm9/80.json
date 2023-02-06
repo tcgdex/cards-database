@@ -34,7 +34,9 @@
 		"fr": "Embrylex"
 	},
 	"hp": 80,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Pupitar",
 		"en": "Pupitar",

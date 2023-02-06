@@ -51,7 +51,9 @@
 		122
 	],
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Pantimos",
 		"en": "Mr. Mime",

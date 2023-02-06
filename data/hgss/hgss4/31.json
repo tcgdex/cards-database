@@ -45,7 +45,9 @@
 		"fr": "Wailmer"
 	},
 	"hp": 180,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Wailord",
 		"fr": "Wailord"

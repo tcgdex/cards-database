@@ -42,7 +42,9 @@
 		"en": "Psyduck"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Light Golduck",
 		"fr": "Akwakwak lumineux"

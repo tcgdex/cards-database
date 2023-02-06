@@ -39,7 +39,9 @@
 		"fr": "Baudrive"
 	},
 	"hp": 100,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Drifblim",
 		"fr": "Grodrive"

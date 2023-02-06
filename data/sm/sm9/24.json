@@ -42,7 +42,9 @@
 		"fr": "Carapuce"
 	},
 	"hp": 90,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Schillok",
 		"en": "Wartortle",

@@ -55,7 +55,9 @@
 		"fr": "Paras"
 	},
 	"hp": 100,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Parasek",
 		"en": "Parasect",

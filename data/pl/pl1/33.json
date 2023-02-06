@@ -43,7 +43,9 @@
 		"fr": "Excelangue"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Lickilicky",
 		"fr": "Coudlangue"

@@ -51,7 +51,9 @@
 		687
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Calamanero EX",
 		"en": "Malamar EX",

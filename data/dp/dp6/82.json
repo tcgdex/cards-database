@@ -33,7 +33,9 @@
 		201
 	],
 	"hp": 70,
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Unown ?",
 		"fr": "Zarbi ?"

@@ -37,7 +37,9 @@
 		383
 	],
 	"hp": 190,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"en": "Team Magma's Groudon EX",
 		"fr": "Groudon-EX de la Team Magma"

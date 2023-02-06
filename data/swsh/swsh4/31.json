@@ -31,7 +31,9 @@
 		"en": "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day."
 	},
 	"hp": 100,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Wailmer",
 		"en": "Wailmer",

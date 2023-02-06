@@ -51,7 +51,9 @@
 		744
 	],
 	"hp": 60,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Wuffels",
 		"en": "Rockruff",

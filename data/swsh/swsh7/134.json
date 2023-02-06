@@ -57,7 +57,9 @@
 		"de": "Yorkleff"
 	},
 	"hp": 100,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Terribark",
 		"en": "Herdier",

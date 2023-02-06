@@ -37,7 +37,9 @@
 		201
 	],
 	"hp": 50,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Unown J",
 		"fr": "Zarbi J"

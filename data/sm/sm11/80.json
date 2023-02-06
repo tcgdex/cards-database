@@ -21,7 +21,9 @@
 		425
 	],
 	"hp": 70,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Driftlon",
 		"en": "Drifloon",

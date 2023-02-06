@@ -56,7 +56,9 @@
 		143
 	],
 	"hp": 130,
-	"illustrator": "Narumi Sato",
+	"illustrator": [
+		"Narumi Sato"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

@@ -52,7 +52,9 @@
 		"de": "Staralili"
 	},
 	"hp": 80,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Staravia",
 		"en": "Staravia",

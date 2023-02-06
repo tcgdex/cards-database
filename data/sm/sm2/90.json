@@ -29,7 +29,9 @@
 		546
 	],
 	"hp": 50,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Waumboll",
 		"en": "Cottonee",

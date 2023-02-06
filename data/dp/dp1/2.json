@@ -42,7 +42,9 @@
 		"fr": "Teraclope"
 	},
 	"hp": 120,
-	"illustrator": "Takabon",
+	"illustrator": [
+		"Takabon"
+	],
 	"name": {
 		"en": "Dusknoir",
 		"fr": "Noctunoir"

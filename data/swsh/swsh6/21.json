@@ -57,7 +57,9 @@
 		"de": "Lohgock-V"
 	},
 	"hp": 320,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Lohgock VMAX",
 		"en": "Blaziken VMAX",

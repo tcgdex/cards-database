@@ -39,7 +39,9 @@
 		"en": "Ekans"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Arbok",
 		"fr": "Arbok"

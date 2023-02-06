@@ -28,7 +28,9 @@
 		109
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Smogon",
 		"en": "Koffing",

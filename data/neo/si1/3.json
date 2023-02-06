@@ -35,7 +35,9 @@
 		95
 	],
 	"hp": 90,
-	"illustrator": "Keiko Fukuyama",
+	"illustrator": [
+		"Keiko Fukuyama"
+	],
 	"name": {
 		"en": "Onix"
 	},

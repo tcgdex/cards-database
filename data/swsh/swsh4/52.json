@@ -52,7 +52,9 @@
 		"de": "Frizelbliz"
 	},
 	"hp": 120,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Voltenso",
 		"en": "Manectric",

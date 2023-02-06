@@ -33,7 +33,9 @@
 		"en": "Skiploom"
 	},
 	"hp": 90,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Jumpluff"
 	},

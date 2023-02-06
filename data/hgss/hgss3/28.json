@@ -40,7 +40,9 @@
 		"fr": "Evoli"
 	},
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Jolteon",
 		"fr": "Voltali"

@@ -62,7 +62,9 @@
 		"de": "Unratütox"
 	},
 	"hp": 120,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Deponitox",
 		"en": "Garbodor",

@@ -47,7 +47,9 @@
 		"fr": "Viskuse"
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Apoquallyp",
 		"en": "Jellicent",

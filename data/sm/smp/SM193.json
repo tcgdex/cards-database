@@ -75,7 +75,9 @@
 		445
 	],
 	"hp": 270,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Knakrack & Giratina GX",
 		"en": "Garchomp & Giratina GX",

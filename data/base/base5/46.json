@@ -41,7 +41,9 @@
 		"en": "Squirtle"
 	},
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Dark Wartortle",
 		"fr": "Carabaffe obscur"

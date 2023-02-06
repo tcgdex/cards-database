@@ -52,7 +52,9 @@
 		805
 	],
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Muramura",
 		"en": "Stakataka",

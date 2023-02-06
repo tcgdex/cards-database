@@ -20,7 +20,9 @@
 		79
 	],
 	"hp": 50,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Slowpoke",
 		"fr": "Ramoloss"

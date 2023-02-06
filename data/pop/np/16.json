@@ -28,7 +28,9 @@
 		252
 	],
 	"hp": 40,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Treecko"
 	},

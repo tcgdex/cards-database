@@ -54,7 +54,9 @@
 		"en": "Houndour"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Houndoom",
 		"fr": "Demolosse"

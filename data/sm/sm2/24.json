@@ -58,7 +58,9 @@
 		"fr": "Tentacool"
 	},
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Tentoxa",
 		"en": "Tentacruel",

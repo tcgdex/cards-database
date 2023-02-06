@@ -43,7 +43,9 @@
 		856
 	],
 	"hp": 60,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Brimova",
 		"en": "Hatenna",

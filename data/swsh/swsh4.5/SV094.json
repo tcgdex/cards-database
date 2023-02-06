@@ -54,7 +54,9 @@
 		"en": "Minccino"
 	},
 	"hp": 90,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Chillabell",
 		"en": "Cinccino",

@@ -29,7 +29,9 @@
 		618
 	],
 	"hp": 90,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Stunfisk"
 	},

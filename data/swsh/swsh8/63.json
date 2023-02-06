@@ -39,7 +39,9 @@
 		"de": "Hydropi"
 	},
 	"hp": 90,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Moorabbel",
 		"en": "Marshtomp",

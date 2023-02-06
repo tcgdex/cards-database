@@ -29,7 +29,9 @@
 		325
 	],
 	"hp": 60,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Spoink",
 		"en": "Spoink",

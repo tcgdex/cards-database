@@ -29,7 +29,9 @@
 		"en": "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
 	},
 	"hp": 50,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Digda",
 		"en": "Diglett",

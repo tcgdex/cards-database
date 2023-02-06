@@ -28,7 +28,9 @@
 		"en": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
 	},
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Hornliu",
 		"en": "Weedle",

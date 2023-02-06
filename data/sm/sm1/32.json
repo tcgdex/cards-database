@@ -57,7 +57,9 @@
 		"fr": "Têtarte"
 	},
 	"hp": 150,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Quappo",
 		"en": "Poliwrath",

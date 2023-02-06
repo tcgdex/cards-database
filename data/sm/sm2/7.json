@@ -58,7 +58,9 @@
 		"fr": "Brocélôme"
 	},
 	"hp": 120,
-	"illustrator": "Hiroyuki Yamamoto",
+	"illustrator": [
+		"Hiroyuki Yamamoto"
+	],
 	"name": {
 		"de": "Trombork",
 		"en": "Trevenant",

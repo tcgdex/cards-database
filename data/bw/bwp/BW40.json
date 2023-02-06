@@ -40,7 +40,9 @@
 		"fr": "Pyronille"
 	},
 	"hp": 110,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Volcarona",
 		"fr": "Pyrax"

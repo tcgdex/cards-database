@@ -43,7 +43,9 @@
 		"en": "Quilava"
 	},
 	"hp": 100,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Typhlosion",
 		"fr": "Typhlosion"

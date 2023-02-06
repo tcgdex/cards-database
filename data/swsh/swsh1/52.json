@@ -46,7 +46,9 @@
 		226
 	],
 	"hp": 110,
-	"illustrator": "Jumpei Akasaka",
+	"illustrator": [
+		"Jumpei Akasaka"
+	],
 	"name": {
 		"de": "Mantax",
 		"en": "Mantine",

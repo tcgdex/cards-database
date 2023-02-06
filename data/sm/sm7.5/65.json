@@ -78,7 +78,9 @@
 		643
 	],
 	"hp": 180,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Reshiram GX",
 		"en": "Reshiram GX",

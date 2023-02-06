@@ -37,7 +37,9 @@
 		"en": "Skitty"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Delcatty",
 		"fr": "Delcatty"

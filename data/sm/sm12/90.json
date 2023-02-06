@@ -56,7 +56,9 @@
 		"fr": "Gringolem"
 	},
 	"hp": 140,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Golgantes",
 		"en": "Golurk",

@@ -35,7 +35,9 @@
 		"en": "Ekans"
 	},
 	"hp": 90,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Dark Arbok"
 	},

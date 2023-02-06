@@ -52,7 +52,9 @@
 		"de": "Sodamak"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Sodachita",
 		"en": "Simipour",

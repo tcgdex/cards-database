@@ -45,7 +45,9 @@
 		"fr": "Minidraco"
 	},
 	"hp": 70,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Dragonair",
 		"fr": "Draco"

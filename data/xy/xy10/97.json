@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual este card está ligado for Nocauteado por danos causados pelo ataque de um oponente, coloque todas as Energias básicas ligadas a aquele Pokémon em sua mão.",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden eines gegnerischen Angriffs kampfunfähig wird, nimm alle an jenes Pokémon angelegten Basis-Energien auf deine Hand."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Energietasche",
 		"en": "Energy Pouch",

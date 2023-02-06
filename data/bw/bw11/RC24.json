@@ -29,7 +29,9 @@
 		151
 	],
 	"hp": 120,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Mew-EX"
 	},

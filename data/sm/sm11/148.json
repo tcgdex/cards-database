@@ -51,7 +51,9 @@
 		147
 	],
 	"hp": 60,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Dratini",
 		"en": "Dratini",

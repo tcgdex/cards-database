@@ -38,7 +38,9 @@
 		"fr": "Tiplouf"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Prinplup",
 		"fr": "Prinplouf"

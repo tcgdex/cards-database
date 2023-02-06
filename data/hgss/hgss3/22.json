@@ -35,7 +35,9 @@
 		357
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Tropius",
 		"fr": "Tropius"

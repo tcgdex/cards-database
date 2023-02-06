@@ -34,7 +34,9 @@
 	"dexId": [
 		485
 	],
-	"illustrator": "Keiko Moritsugu",
+	"illustrator": [
+		"Keiko Moritsugu"
+	],
 	"name": {
 		"en": "Heatran"
 	},

@@ -31,7 +31,9 @@
 	"dexId": [
 		474
 	],
-	"illustrator": "Nobuyuki Fujimoto",
+	"illustrator": [
+		"Nobuyuki Fujimoto"
+	],
 	"name": {
 		"en": "Porygon-Z"
 	},

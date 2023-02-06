@@ -33,7 +33,9 @@
 		"fr": "Lépidonille"
 	},
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Puponcho",
 		"en": "Spewpa",

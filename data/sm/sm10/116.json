@@ -60,7 +60,9 @@
 		"fr": "Escroco"
 	},
 	"hp": 150,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Rabigator",
 		"en": "Krookodile",

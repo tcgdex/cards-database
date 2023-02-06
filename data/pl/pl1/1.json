@@ -55,7 +55,9 @@
 		"fr": "Lainergie"
 	},
 	"hp": 130,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Ampharos",
 		"fr": "Pharamp"

@@ -61,7 +61,9 @@
 		"de": "Elektek"
 	},
 	"hp": 120,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Elevoltek",
 		"en": "Electivire",

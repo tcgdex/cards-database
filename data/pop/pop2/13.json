@@ -21,7 +21,9 @@
 		331
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Cacnea",
 		"fr": "Cacnea"

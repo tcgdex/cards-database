@@ -44,7 +44,9 @@
 		"fr": "Mélofée"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Pixi",
 		"en": "Clefable",

@@ -62,7 +62,9 @@
 		"de": "Jungglut"
 	},
 	"hp": 140,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Lohgock",
 		"en": "Blaziken",

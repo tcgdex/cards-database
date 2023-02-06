@@ -52,7 +52,9 @@
 		"en": "It can lull people to sleep and make them dream. It is active during nights of the new moon."
 	},
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Darkrai",
 		"en": "Darkrai",

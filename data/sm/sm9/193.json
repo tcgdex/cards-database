@@ -9,7 +9,9 @@
 		"pt": "Jogue 2 moedas. Para cada cara, embaralhe 1 carta Eletropoder da sua pilha de descarte no seu baralho.",
 		"de": "Wirf 2 Münzen. Mische pro Kopf 1 Elektrokraft-Karte aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Elektro-Ladegerät",
 		"en": "Electrocharger",

@@ -38,7 +38,9 @@
 		"en": "Grovyle"
 	},
 	"hp": 140,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Sceptile ex δ",
 		"fr": "Jungko ex δ"

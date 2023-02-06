@@ -28,7 +28,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Framestore",
+	"illustrator": [
+		"Framestore"
+	],
 	"name": {
 		"de": "Karpador",
 		"en": "Magikarp",

@@ -54,7 +54,9 @@
 		709
 	],
 	"hp": 210,
-	"illustrator": "MUGENUP",
+	"illustrator": [
+		"MUGENUP"
+	],
 	"name": {
 		"de": "Trombork V",
 		"en": "Trevenant V",

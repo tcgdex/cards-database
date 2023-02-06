@@ -35,7 +35,9 @@
 		"en": "Pidgey"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Pidgeotto",
 		"fr": "Roucoups"

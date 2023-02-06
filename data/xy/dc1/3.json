@@ -17,7 +17,9 @@
 		363
 	],
 	"hp": 60,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"en": "Team Aqua's Spheal",
 		"fr": "Obalie de la Team Aqua"

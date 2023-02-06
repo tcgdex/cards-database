@@ -5,7 +5,9 @@
 		243
 	],
 	"hp": 140,
-	"illustrator": "Shinji Higuchi + Sachiko Eba 樋口 真嗣 + 江場 左知子",
+	"illustrator": [
+		"Shinji Higuchi + Sachiko Eba 樋口 真嗣 + 江場 左知子"
+	],
 	"name": {
 		"en": "Entei & Raikou LEGEND",
 		"fr": "Entei & Raikou LÉGENDE (haut)"

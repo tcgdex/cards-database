@@ -56,7 +56,9 @@
 		324
 	],
 	"hp": 210,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Qurtel V",
 		"en": "Torkoal V",

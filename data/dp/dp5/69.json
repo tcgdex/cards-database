@@ -39,7 +39,9 @@
 		"fr": "Fossile Nautile"
 	},
 	"hp": 70,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Omanyte",
 		"fr": "Amonita"

@@ -81,7 +81,9 @@
 		"de": "Wadribie"
 	},
 	"hp": 90,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Honweisel",
 		"en": "Vespiquen",

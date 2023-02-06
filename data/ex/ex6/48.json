@@ -50,7 +50,9 @@
 		"en": "Rattata"
 	},
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Raticate",
 		"fr": "Rattatac"

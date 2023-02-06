@@ -55,7 +55,9 @@
 		"en": "Vigoroth"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Slaking",
 		"fr": "Monaflemit"

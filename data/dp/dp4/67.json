@@ -30,7 +30,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Feebas",
 		"fr": "Barpau"

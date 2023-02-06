@@ -9,7 +9,9 @@
 		"pt": "Cada jogador embaralha a própria mão e coloca-a como as cartas de baixo do próprio baralho. Se qualquer um dos jogadores tiver colocado qualquer carta como a carta de baixo do próprio baralho desta forma, você comprará 5 cartas e seu oponente comprará 4 cartas.",
 		"de": "Jeder Spieler mischt seine Handkarten und legt sie unter sein Deck. Wenn ein oder beide Spieler auf diese Weise mindestens 1 Karte unter ihr Deck gelegt haben, ziehst du 5 Karten und dein Gegner zieht 4 Karten."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Mary",
 		"en": "Marnie",

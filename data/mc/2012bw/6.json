@@ -25,7 +25,9 @@
 		"en": "The energy made in its cheeks’ electric pouches is stored inside its membranes and released while it is gliding."
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Emolga"
 	},

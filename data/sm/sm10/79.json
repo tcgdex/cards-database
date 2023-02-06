@@ -51,7 +51,9 @@
 		677
 	],
 	"hp": 60,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Psiau",
 		"en": "Espurr",

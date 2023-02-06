@@ -40,7 +40,9 @@
 		"fr": "Psystigri"
 	},
 	"hp": 90,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Meowstic",
 		"fr": "Mistigrix"

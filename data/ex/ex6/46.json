@@ -39,7 +39,9 @@
 		"en": "Poliwag"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Poliwhirl",
 		"fr": "Têtarte"

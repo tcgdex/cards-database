@@ -38,7 +38,9 @@
 		229
 	],
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Houndoom 4",
 		"fr": "Demolosse  Niv. 52"

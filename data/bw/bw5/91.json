@@ -9,7 +9,9 @@
 		"pt": "Compre 3 cards.",
 		"de": "Ziehe 3 Karten."
 	},
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Cheren",
 		"en": "Cheren",

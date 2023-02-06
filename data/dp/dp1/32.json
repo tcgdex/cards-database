@@ -43,7 +43,9 @@
 		"fr": "Meditikka"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Medicham",
 		"fr": "Charmina"

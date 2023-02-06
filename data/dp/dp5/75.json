@@ -32,7 +32,9 @@
 		396
 	],
 	"hp": 50,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Starly",
 		"fr": "Étourmi"

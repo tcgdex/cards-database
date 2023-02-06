@@ -55,7 +55,9 @@
 		"de": "Vulpix"
 	},
 	"hp": 120,
-	"illustrator": "Megumi Higuchi",
+	"illustrator": [
+		"Megumi Higuchi"
+	],
 	"name": {
 		"de": "Vulnona",
 		"en": "Ninetales",

@@ -73,7 +73,9 @@
 		3
 	],
 	"hp": 270,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Celebi & Bisaflor GX",
 		"en": "Celebi & Venusaur GX",

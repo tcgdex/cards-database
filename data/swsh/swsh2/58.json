@@ -37,7 +37,9 @@
 		"en": "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Elektek",
 		"en": "Electabuzz",

@@ -56,7 +56,9 @@
 		"fr": "Dimoclès"
 	},
 	"hp": 140,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Durengard",
 		"en": "Aegislash",

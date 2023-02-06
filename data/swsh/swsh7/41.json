@@ -60,7 +60,9 @@
 		"de": "Glaziola-V"
 	},
 	"hp": 310,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Glaziola VMAX",
 		"en": "Glaceon VMAX",

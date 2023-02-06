@@ -34,7 +34,9 @@
 		877
 	],
 	"hp": 80,
-	"illustrator": "Atsushi Furusawa",
+	"illustrator": [
+		"Atsushi Furusawa"
+	],
 	"name": {
 		"en": "Morpeko"
 	},

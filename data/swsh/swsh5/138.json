@@ -9,7 +9,9 @@
 		"pt": "O custo de Recuo de cada Pokémon Golpe Fluido em jogo (seus e do seu oponente) é ColorlessColorless a menos.",
 		"de": "Die Rückzugskosten aller Fließender-Angriff-Pokémon im Spiel (deiner und der deines Gegners) verringern sich um ColorlessColorless."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Turm des Wassers",
 		"en": "Tower of Waters",

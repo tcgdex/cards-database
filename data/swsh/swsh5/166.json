@@ -36,7 +36,9 @@
 		"de": "Kapu-Riki-V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Kapu-Riki VMAX",
 		"en": "Tapu Koko VMAX",

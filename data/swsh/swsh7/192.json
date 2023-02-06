@@ -54,7 +54,9 @@
 		149
 	],
 	"hp": 230,
-	"illustrator": "Atsushi Furusawa",
+	"illustrator": [
+		"Atsushi Furusawa"
+	],
 	"name": {
 		"de": "Dragoran V",
 		"en": "Dragonite V",

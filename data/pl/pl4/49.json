@@ -35,7 +35,9 @@
 	"evolveFrom": {
 		"en": "Burmy Plant Cloak"
 	},
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Wormadam Plant Cloak"
 	},

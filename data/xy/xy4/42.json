@@ -60,7 +60,9 @@
 		"de": "Lichtel"
 	},
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Laternecto",
 		"en": "Lampent",

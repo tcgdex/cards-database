@@ -30,7 +30,9 @@
 		"en": "It's said that this Pokémon was formed when an ancient clay tablet was drawn to a vengeful spirit."
 	},
 	"hp": 60,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Galar-Makabaja",
 		"en": "Galarian Yamask",

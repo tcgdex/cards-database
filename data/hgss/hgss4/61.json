@@ -38,7 +38,9 @@
 		50
 	],
 	"hp": 40,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Diglett",
 		"fr": "Taupiqueur"

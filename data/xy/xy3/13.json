@@ -54,7 +54,9 @@
 		"de": "Flemmli"
 	},
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Jungglut",
 		"en": "Combusken",

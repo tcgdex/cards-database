@@ -42,7 +42,9 @@
 		"en": "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
 	},
 	"hp": 80,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Quabbel",
 		"en": "Frillish",

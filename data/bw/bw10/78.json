@@ -9,7 +9,9 @@
 		"pt": "Coloque quantos cards da sua mão quiser na base de seu baralho, em qualquer ordem. A seguir, compre um card para cada card descartado.",
 		"de": "Lege beliebig viele Karten von deiner Hand in beliebiger Reihenfolge unter dein Deck. Ziehe anschließend 1 Karte für jede Karte, die du unter dein Deck gelegt hast."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Kattlea",
 		"en": "Caitlin",

@@ -22,7 +22,9 @@
 		215
 	],
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Sniebel",
 		"en": "Sneasel",

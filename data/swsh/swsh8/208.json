@@ -29,7 +29,9 @@
 		"en": "The curved antlers subtly change the flow of air to create a strange space where reality is distorted."
 	},
 	"hp": 110,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Damhirplex",
 		"en": "Stantler",

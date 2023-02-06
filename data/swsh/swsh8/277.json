@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se o seu oponente tiver exatamente 2, 4 ou 6 cartas de Prêmio restantes, compre 2 cartas a mais.",
 		"de": "Ziehe 2 Karten. Wenn dein Gegner genau 2, 4 oder 6 verbleibende Preiskarten hat, ziehe 2 Karten mehr."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Schülerin",
 		"en": "Schoolgirl",

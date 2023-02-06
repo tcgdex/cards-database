@@ -40,7 +40,9 @@
 		"fr": "Cheniti Cape Déchet"
 	},
 	"hp": 70,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Wormadam Trash Cloak",
 		"fr": "Cheniselle Cape Déchet"

@@ -37,7 +37,9 @@
 		479
 	],
 	"hp": 70,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Rotom",
 		"fr": "Motisma"

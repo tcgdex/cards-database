@@ -32,7 +32,9 @@
 		813
 	],
 	"hp": 60,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Hopplo",
 		"en": "Scorbunny",

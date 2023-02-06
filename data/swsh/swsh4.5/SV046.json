@@ -47,7 +47,9 @@
 		"en": "Rare Fossil"
 	},
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Lecryodon",
 		"en": "Arctozolt",

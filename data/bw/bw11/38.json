@@ -23,7 +23,9 @@
 		"en": "Oshawott"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Dewott"
 	},

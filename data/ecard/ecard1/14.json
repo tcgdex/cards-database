@@ -40,7 +40,9 @@
 		"en": "Graveler"
 	},
 	"hp": 100,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Golem",
 		"fr": "Grolem"

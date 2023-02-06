@@ -35,7 +35,9 @@
 		"en": "Swadloon"
 	},
 	"hp": 130,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Leavanny"
 	},

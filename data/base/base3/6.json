@@ -41,7 +41,9 @@
 		"en": "Gastly"
 	},
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Haunter",
 		"fr": "Spectrum"

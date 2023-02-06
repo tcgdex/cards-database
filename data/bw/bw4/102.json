@@ -38,7 +38,9 @@
 		"fr": "Zorua"
 	},
 	"hp": 100,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Zoroark",
 		"en": "Zoroark",

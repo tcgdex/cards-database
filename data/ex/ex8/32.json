@@ -54,7 +54,9 @@
 		"en": "Spoink"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Grumpig",
 		"fr": "Groret"

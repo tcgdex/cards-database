@@ -17,7 +17,9 @@
 		"en": "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm."
 	},
 	"hp": 70,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Vulpix",
 		"en": "Vulpix",

@@ -43,7 +43,9 @@
 		"fr": "Chamallot"
 	},
 	"hp": 120,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Camerupt",
 		"fr": "Camerupt"

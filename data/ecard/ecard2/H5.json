@@ -39,7 +39,9 @@
 		"en": "Gloom"
 	},
 	"hp": 90,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Bellossom",
 		"fr": "Joliflor"

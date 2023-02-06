@@ -51,7 +51,9 @@
 		"en": "Seadra"
 	},
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Kingdra δ",
 		"fr": "Hyporoi δ ESPÈCES DELTA"

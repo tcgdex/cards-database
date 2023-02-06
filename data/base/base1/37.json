@@ -42,7 +42,9 @@
 		"en": "Nidoran♂"
 	},
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Nidorino",
 		"fr": "Nidorino"

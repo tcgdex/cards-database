@@ -19,7 +19,9 @@
 		"en": "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack."
 	},
 	"hp": 90,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Resladero",
 		"en": "Hawlucha",

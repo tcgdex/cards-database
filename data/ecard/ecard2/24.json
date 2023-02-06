@@ -40,7 +40,9 @@
 		"en": "Nidorino"
 	},
 	"hp": 110,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Nidoking",
 		"fr": "Nidoking"

@@ -50,7 +50,9 @@
 		302
 	],
 	"hp": 70,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Zobiris",
 		"en": "Sableye",

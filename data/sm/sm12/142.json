@@ -57,7 +57,9 @@
 		"fr": "Cosmovum"
 	},
 	"hp": 170,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Solgaleo",
 		"en": "Solgaleo",

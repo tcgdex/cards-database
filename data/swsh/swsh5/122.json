@@ -9,7 +9,9 @@
 		"pt": "Procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho. O seu turno acaba.",
 		"de": "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck. Dein Zug endet."
 	},
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Camping-Set",
 		"en": "Camping Gear",

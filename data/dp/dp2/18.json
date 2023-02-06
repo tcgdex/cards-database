@@ -37,7 +37,9 @@
 		480
 	],
 	"hp": 60,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Uxie",
 		"fr": "Créhelf"

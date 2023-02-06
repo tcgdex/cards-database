@@ -42,7 +42,9 @@
 		56
 	],
 	"hp": 60,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Menki",
 		"en": "Mankey",

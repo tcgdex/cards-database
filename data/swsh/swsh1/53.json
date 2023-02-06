@@ -45,7 +45,9 @@
 		647
 	],
 	"hp": 210,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Keldeo V",
 		"en": "Keldeo V",

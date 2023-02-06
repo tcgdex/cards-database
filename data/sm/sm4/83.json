@@ -59,7 +59,9 @@
 		"fr": "Étourvol"
 	},
 	"hp": 140,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Staraptor",
 		"en": "Staraptor",

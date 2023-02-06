@@ -46,7 +46,9 @@
 		"de": "Tanhel"
 	},
 	"hp": 100,
-	"illustrator": "Kazuma Koda",
+	"illustrator": [
+		"Kazuma Koda"
+	],
 	"name": {
 		"de": "Metang",
 		"en": "Metang",

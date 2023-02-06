@@ -39,7 +39,9 @@
 		"fr": "Croâporal"
 	},
 	"hp": 130,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Greninja",
 		"fr": "Amphinobi"

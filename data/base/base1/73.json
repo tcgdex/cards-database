@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Impostor Professor Oak",
 		"fr": "Faux Professeur Chen"

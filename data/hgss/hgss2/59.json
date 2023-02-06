@@ -34,7 +34,9 @@
 		223
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Remoraid",
 		"fr": "Remoraid"

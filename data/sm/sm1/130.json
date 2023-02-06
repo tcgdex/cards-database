@@ -9,7 +9,9 @@
 		"pt": "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
 		"de": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Schutz",
 		"en": "Repel",

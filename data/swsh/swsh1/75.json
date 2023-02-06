@@ -65,7 +65,9 @@
 		"de": "Voldi"
 	},
 	"hp": 130,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Bellektro",
 		"en": "Boltund",

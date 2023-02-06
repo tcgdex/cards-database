@@ -40,7 +40,9 @@
 		487
 	],
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Giratina",
 		"en": "Giratina",

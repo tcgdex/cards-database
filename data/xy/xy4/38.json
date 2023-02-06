@@ -62,7 +62,9 @@
 		"de": "Schluppuck"
 	},
 	"hp": 110,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Schlukwech",
 		"en": "Swalot",

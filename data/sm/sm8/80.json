@@ -29,7 +29,9 @@
 		417
 	],
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Pachirisu",
 		"en": "Pachirisu",

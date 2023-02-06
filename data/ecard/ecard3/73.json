@@ -29,7 +29,9 @@
 		165
 	],
 	"hp": 50,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Ledyba"
 	},

@@ -32,7 +32,9 @@
 		312
 	],
 	"hp": 60,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Minun",
 		"fr": "Negapi"

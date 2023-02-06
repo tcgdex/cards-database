@@ -40,7 +40,9 @@
 		644
 	],
 	"hp": 180,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Zekrom-EX",
 		"fr": "Zekrom ex"

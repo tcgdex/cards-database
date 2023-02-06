@@ -38,7 +38,9 @@
 		81
 	],
 	"hp": 50,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Magnemite",
 		"fr": "Magneti"

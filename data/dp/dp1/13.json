@@ -45,7 +45,9 @@
 		"fr": "Roselia"
 	},
 	"hp": 90,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Roserade",
 		"fr": "Roserade"

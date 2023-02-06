@@ -44,7 +44,9 @@
 		"fr": "Lainergie"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Ampharos",
 		"fr": "Pharamp"

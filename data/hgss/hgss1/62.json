@@ -34,7 +34,9 @@
 		96
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Drowzee",
 		"fr": "Soporifik"

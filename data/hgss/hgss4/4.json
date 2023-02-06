@@ -43,7 +43,9 @@
 		"fr": "Rapion"
 	},
 	"hp": 100,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Drapion",
 		"fr": "Drascore"

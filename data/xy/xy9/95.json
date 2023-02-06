@@ -51,7 +51,9 @@
 		676
 	],
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Coiffwaff",
 		"en": "Furfrou",

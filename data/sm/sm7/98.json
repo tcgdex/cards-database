@@ -53,7 +53,9 @@
 		485
 	],
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Heatran",
 		"en": "Heatran",

@@ -40,7 +40,9 @@
 		"fr": "Canarticho"
 	},
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Farfetch'd",
 		"fr": "Canarticho"

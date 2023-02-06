@@ -41,7 +41,9 @@
 		"en": "Venonat"
 	},
 	"hp": 80,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Light Venomoth",
 		"fr": "Aéromite lumineux"

@@ -45,7 +45,9 @@
 		338
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Sonnfel",
 		"en": "Solrock",

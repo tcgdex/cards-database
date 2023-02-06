@@ -38,7 +38,9 @@
 		"de": "Strawickl"
 	},
 	"hp": 80,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Folikon",
 		"en": "Swadloon",

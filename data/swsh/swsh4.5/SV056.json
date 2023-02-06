@@ -53,7 +53,9 @@
 		"en": "Hattrem"
 	},
 	"hp": 150,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Silembrim",
 		"en": "Hatterene",

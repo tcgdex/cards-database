@@ -35,7 +35,9 @@
 		425
 	],
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Driftlon",
 		"en": "Drifloon",

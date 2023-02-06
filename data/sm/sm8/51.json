@@ -50,7 +50,9 @@
 		"fr": "Hélionceau"
 	},
 	"hp": 130,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Pyroleo",
 		"en": "Pyroar",

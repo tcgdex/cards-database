@@ -44,7 +44,9 @@
 		"fr": "Yanma"
 	},
 	"hp": 90,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Yanmega",
 		"fr": "Yanmega"

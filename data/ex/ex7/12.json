@@ -48,7 +48,9 @@
 		"en": "Seadra"
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Kingdra"
 	},

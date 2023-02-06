@@ -56,7 +56,9 @@
 		"en": "Seadra"
 	},
 	"hp": 110,
-	"illustrator": "Mikio Menjo",
+	"illustrator": [
+		"Mikio Menjo"
+	],
 	"name": {
 		"en": "Kingdra",
 		"fr": "Hyporoi"

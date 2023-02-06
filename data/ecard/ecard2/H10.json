@@ -37,7 +37,9 @@
 		"en": "Exeggcute"
 	},
 	"hp": 80,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Exeggutor",
 		"fr": "Noadkoko"

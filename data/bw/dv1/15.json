@@ -34,7 +34,9 @@
 		"fr": "Coupenotte"
 	},
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Fraxure",
 		"fr": "Incisache"

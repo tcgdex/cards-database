@@ -40,7 +40,9 @@
 		245
 	],
 	"hp": 100,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Suicune",
 		"en": "Suicune",

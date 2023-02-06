@@ -42,7 +42,9 @@
 		"en": "Poliwag"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Poliwhirl",
 		"fr": "Têtarte"

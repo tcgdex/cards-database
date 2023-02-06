@@ -34,7 +34,9 @@
 		"en": "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
 	},
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Zekrom"
 	},

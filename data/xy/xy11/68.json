@@ -41,7 +41,9 @@
 		"de": "Stahlos-EX"
 	},
 	"hp": 240,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M-Stahlos EX",
 		"en": "M Steelix EX",

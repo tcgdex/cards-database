@@ -36,7 +36,9 @@
 		"en": "Eevee"
 	},
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Flamara",
 		"en": "Flareon",

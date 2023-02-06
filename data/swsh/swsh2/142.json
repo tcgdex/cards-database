@@ -43,7 +43,9 @@
 		"en": "It can learn and speak human words. If they gather, they all learn the same saying."
 	},
 	"hp": 70,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Plaudagei",
 		"en": "Chatot",

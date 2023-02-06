@@ -53,7 +53,9 @@
 		25
 	],
 	"hp": 40,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"de": "Fliegendes Pikachu",
 		"en": "Flying Pikachu",

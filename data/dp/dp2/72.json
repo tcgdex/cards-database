@@ -23,7 +23,9 @@
 		339
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Barboach",
 		"fr": "Barloche"

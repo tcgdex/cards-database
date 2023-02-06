@@ -9,7 +9,9 @@
 		"pt": "Coloque um Pokémon da sua pilha de descarte em cima do seu baralho.",
 		"de": "Lege 1 Pokémon von deinem Ablagestapel auf dein Deck."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Top-Beleber",
 		"en": "Max Revive",

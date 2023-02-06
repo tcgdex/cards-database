@@ -9,7 +9,9 @@
 		"pt": "Jogue uma moeda. Se sair cara, escolha 3 cards aleatórios na mão do seu oponente. Seu oponente revela esses cards e os embaralha no baralho dele ou dela.",
 		"de": "Wirf 1 Münze. Wähle bei „Kopf“ 3 zufällige Karten aus der verdeckten Hand deines Gegners. Dein Gegner zeigt diese Karten und mischt sie zurück in sein Deck."
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Rabauken Bob & Rob",
 		"en": "Hooligans Jim & Cas",

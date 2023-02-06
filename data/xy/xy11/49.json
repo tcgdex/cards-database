@@ -59,7 +59,9 @@
 		"de": "Lichtel"
 	},
 	"hp": 80,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Laternecto",
 		"en": "Lampent",

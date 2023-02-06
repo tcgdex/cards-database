@@ -27,7 +27,9 @@
 		"de": "Cottini"
 	},
 	"hp": 90,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Cottomi",
 		"en": "Eldegoss",

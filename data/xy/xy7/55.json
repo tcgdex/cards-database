@@ -29,7 +29,9 @@
 		546
 	],
 	"hp": 40,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Waumboll",
 		"en": "Cottonee",

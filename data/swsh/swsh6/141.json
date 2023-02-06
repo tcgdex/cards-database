@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada tiver \"de Galar\" em seu nome, ele receberá 30 pontos de dano a menos dos ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência).",
 		"de": "Wenn bei dem Pokémon, an das diese Karte angelegt ist, \"Galar\" zum Namen gehört, werden ihm durch Attacken der Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
-	"illustrator": "inose yukie",
+	"illustrator": [
+		"inose yukie"
+	],
 	"name": {
 		"de": "Galar-Brustpanzer",
 		"en": "Galarian Chestplate",

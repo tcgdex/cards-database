@@ -43,7 +43,9 @@
 		"en": "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
 	},
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Pottrott",
 		"en": "Shuckle",

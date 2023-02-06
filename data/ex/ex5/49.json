@@ -39,7 +39,9 @@
 		"en": "Staryu"
 	},
 	"hp": 80,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Starmie",
 		"fr": "Staross"

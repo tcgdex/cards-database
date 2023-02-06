@@ -35,7 +35,9 @@
 		131
 	],
 	"hp": 130,
-	"illustrator": "Kazuma Koda",
+	"illustrator": [
+		"Kazuma Koda"
+	],
 	"name": {
 		"de": "Lapras",
 		"en": "Lapras",

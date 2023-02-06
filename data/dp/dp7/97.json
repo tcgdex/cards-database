@@ -21,7 +21,9 @@
 		"fr": "Heatran LV.X"
 	},
 	"hp": 120,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Heatran",
 		"fr": "Heatran"

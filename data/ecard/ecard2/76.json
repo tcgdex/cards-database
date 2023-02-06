@@ -34,7 +34,9 @@
 		102
 	],
 	"hp": 40,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Exeggcute",
 		"fr": "Nœufnœuf"

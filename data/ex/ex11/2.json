@@ -40,7 +40,9 @@
 		"en": "Golbat"
 	},
 	"hp": 90,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Crobat δ",
 		"fr": "Nostenfer δ ESPÈCES DELTA"

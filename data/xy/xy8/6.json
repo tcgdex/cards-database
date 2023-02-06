@@ -59,7 +59,9 @@
 		"de": "Vegimak"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Vegichita",
 		"en": "Simisage",

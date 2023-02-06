@@ -44,7 +44,9 @@
 		"en": "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
 	},
 	"hp": 110,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Zapdos",
 		"en": "Zapdos",

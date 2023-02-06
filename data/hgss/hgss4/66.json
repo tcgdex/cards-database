@@ -35,7 +35,9 @@
 		108
 	],
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Lickitung",
 		"fr": "Excelangue"

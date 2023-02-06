@@ -39,7 +39,9 @@
 		185
 	],
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Sudowoodo",
 		"fr": "Simularbre"

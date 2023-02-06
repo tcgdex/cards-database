@@ -25,7 +25,9 @@
 		37
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Vulpix",
 		"fr": "Goupix"

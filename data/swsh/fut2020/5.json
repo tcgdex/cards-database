@@ -27,7 +27,9 @@
 	"description": {
 		"en": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	},
-	"illustrator": "The Pokémon Company Art Team",
+	"illustrator": [
+		"The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Sobble on the Ball"
 	},

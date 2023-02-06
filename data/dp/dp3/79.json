@@ -34,7 +34,9 @@
 		412
 	],
 	"hp": 40,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Burmy Sandy Cloak",
 		"fr": "Cheniti Cape Sable"

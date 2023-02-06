@@ -55,7 +55,9 @@
 		"fr": "Evoli"
 	},
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Leafeon",
 		"fr": "Phyllali Niv. 49"

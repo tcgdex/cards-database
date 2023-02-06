@@ -31,7 +31,9 @@
 		343
 	],
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Puppance",
 		"en": "Baltoy",

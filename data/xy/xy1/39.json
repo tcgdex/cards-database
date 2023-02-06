@@ -29,7 +29,9 @@
 		656
 	],
 	"hp": 50,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Froxy",
 		"en": "Froakie",

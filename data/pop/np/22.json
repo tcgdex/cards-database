@@ -31,7 +31,9 @@
 		374
 	],
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Beldum"
 	},

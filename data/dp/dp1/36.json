@@ -44,7 +44,9 @@
 		"fr": "Chaglam"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Purugly",
 		"fr": "Chaffreux"

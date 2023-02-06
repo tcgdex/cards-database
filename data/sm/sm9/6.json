@@ -36,7 +36,9 @@
 		46
 	],
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Paras",
 		"en": "Paras",

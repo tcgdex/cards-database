@@ -30,7 +30,9 @@
 		161
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Sentret",
 		"fr": "Fouinette"

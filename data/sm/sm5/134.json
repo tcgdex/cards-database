@@ -10,7 +10,9 @@
 		"de": "Spiele diese Karte, als ob sie ein Colorless-Basis-Pokémon mit 60 KP wäre. Du kannst diese Karte jederzeit während deines Zuges (bevor du angreifst) aus dem Spiel nehmen und auf deinen Ablagestapel legen.\n\nDiese Karte kann sich nicht zurückziehen."
 	},
 	"hp": 60,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Unbekanntes Fossil",
 		"en": "Unidentified Fossil",

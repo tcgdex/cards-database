@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, choisissez 1 Pokémon dans votre deck, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck."
 	},
-	"illustrator": "Shin-ichi Yoshikawa",
+	"illustrator": [
+		"Shin-ichi Yoshikawa"
+	],
 	"name": {
 		"en": "Poké Ball",
 		"fr": "Poké Ball"

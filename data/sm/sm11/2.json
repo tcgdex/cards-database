@@ -36,7 +36,9 @@
 		193
 	],
 	"hp": 70,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Yanma",
 		"en": "Yanma",

@@ -34,7 +34,9 @@
 		360
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Wynaut",
 		"fr": "Okéoké"

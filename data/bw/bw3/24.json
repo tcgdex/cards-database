@@ -38,7 +38,9 @@
 		"fr": "Batracné"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Branawarz",
 		"en": "Seismitoad",

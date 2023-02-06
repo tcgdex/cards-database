@@ -47,7 +47,9 @@
 		"fr": "Amonita"
 	},
 	"hp": 130,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Amoroso",
 		"en": "Omastar",

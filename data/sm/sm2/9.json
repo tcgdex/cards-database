@@ -56,7 +56,9 @@
 		"fr": "Sovkipou"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Tectass",
 		"en": "Golisopod",

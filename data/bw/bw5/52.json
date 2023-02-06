@@ -36,7 +36,9 @@
 		"en": "Yamask"
 	},
 	"hp": 100,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Echnatoll",
 		"en": "Cofagrigus",

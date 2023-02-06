@@ -30,7 +30,9 @@
 		114
 	],
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Erika's Tangela"
 	},

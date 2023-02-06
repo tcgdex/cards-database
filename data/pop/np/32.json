@@ -44,7 +44,9 @@
 		144
 	],
 	"hp": 100,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Articuno ex"
 	},

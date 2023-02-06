@@ -45,7 +45,9 @@
 		"en": "Dark Golbat"
 	},
 	"hp": 90,
-	"illustrator": "Kyoko Koizumi",
+	"illustrator": [
+		"Kyoko Koizumi"
+	],
 	"name": {
 		"en": "Dark Crobat"
 	},

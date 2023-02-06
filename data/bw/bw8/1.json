@@ -32,7 +32,9 @@
 		387
 	],
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Chelast",
 		"en": "Turtwig",

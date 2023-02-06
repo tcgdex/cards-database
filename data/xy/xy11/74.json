@@ -51,7 +51,9 @@
 		638
 	],
 	"hp": 120,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Kobalium",
 		"en": "Cobalion",

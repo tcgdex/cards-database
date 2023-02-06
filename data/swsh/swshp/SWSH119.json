@@ -34,7 +34,9 @@
 		143
 	],
 	"hp": 140,
-	"illustrator": "Yuya Oka",
+	"illustrator": [
+		"Yuya Oka"
+	],
 	"name": {
 		"en": "Snorlax"
 	},

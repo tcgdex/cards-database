@@ -35,7 +35,9 @@
 		300
 	],
 	"hp": 50,
-	"illustrator": "Satoshi Ohta",
+	"illustrator": [
+		"Satoshi Ohta"
+	],
 	"name": {
 		"en": "Skitty",
 		"fr": "Skitty"

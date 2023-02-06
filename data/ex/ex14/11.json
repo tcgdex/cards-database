@@ -40,7 +40,9 @@
 		"en": "Gulpin"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Swalot",
 		"fr": "Avaltout"

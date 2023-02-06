@@ -32,7 +32,9 @@
 		126
 	],
 	"hp": 80,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"en": "Magmar",
 		"fr": "Magmar"

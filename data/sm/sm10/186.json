@@ -9,7 +9,9 @@
 		"pt": "Previne todos os efeitos das Habilidades do seu oponente causados ao Pokémon ao qual esta carta está ligada. Remova todos os efeitos existentes destas Habilidades.",
 		"de": "Verhindere alle Effekte der Fähigkeiten deines Gegners, die dem Pokémon, an das diese Karte angelegt ist, zugefügt werden. Entferne alle solche bestehenden Effekte."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Tarnkappe",
 		"en": "Stealthy Hood",

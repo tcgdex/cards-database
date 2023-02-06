@@ -41,7 +41,9 @@
 		"fr": "Roucool"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Pidgeotto",
 		"fr": "Roucoups"

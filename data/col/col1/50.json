@@ -21,7 +21,9 @@
 		447
 	],
 	"hp": 50,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Riolu",
 		"fr": "Riolu"

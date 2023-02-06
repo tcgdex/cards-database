@@ -25,7 +25,9 @@
 		"en": "Mareep"
 	},
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Flaaffy δ",
 		"fr": "Lainergie δ ESPÈCES DELTA"

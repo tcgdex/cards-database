@@ -48,7 +48,9 @@
 		"fr": "Chenipan"
 	},
 	"hp": 70,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Safcon",
 		"en": "Metapod",

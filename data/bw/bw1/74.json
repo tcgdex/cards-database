@@ -21,7 +21,9 @@
 		599
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Klikk",
 		"en": "Klink",

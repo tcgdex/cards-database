@@ -48,7 +48,9 @@
 		"fr": "Wattouat"
 	},
 	"hp": 90,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Waaty",
 		"en": "Flaaffy",

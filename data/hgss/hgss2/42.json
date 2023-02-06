@@ -39,7 +39,9 @@
 		"fr": "Carapuce"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Wartortle",
 		"fr": "Carabaffe"

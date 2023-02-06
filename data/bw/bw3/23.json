@@ -37,7 +37,9 @@
 		"fr": "Tritonde"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Mebrana",
 		"en": "Palpitoad",

@@ -41,7 +41,9 @@
 		"fr": "Nidoran♂"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Nidorino",
 		"en": "Nidorino",

@@ -33,7 +33,9 @@
 		"fr": "Moustillon"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Zwottronin",
 		"en": "Dewott",

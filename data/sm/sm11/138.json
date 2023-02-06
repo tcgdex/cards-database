@@ -50,7 +50,9 @@
 		"fr": "Baggiguane"
 	},
 	"hp": 110,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Irokex",
 		"en": "Scrafty",

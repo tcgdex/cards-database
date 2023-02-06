@@ -45,7 +45,9 @@
 		"fr": "Magneti"
 	},
 	"hp": 80,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Magneton",
 		"fr": "Magneton"

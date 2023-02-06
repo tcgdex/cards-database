@@ -37,7 +37,9 @@
 		"en": "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
 	},
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Charmian",
 		"en": "Glameow",

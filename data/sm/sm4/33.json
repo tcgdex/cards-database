@@ -50,7 +50,9 @@
 		"fr": "Racaillou d’Alola"
 	},
 	"hp": 100,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Alola-Georok",
 		"en": "Alolan Graveler",

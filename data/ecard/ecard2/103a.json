@@ -30,7 +30,9 @@
 		137
 	],
 	"hp": 40,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Porygon",
 		"fr": "Porygon"

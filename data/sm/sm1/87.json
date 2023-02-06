@@ -55,7 +55,9 @@
 		"fr": "Taupiqueur d’Alola"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Alola-Digdri",
 		"en": "Alolan Dugtrio",

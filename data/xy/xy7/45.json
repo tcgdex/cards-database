@@ -29,7 +29,9 @@
 		686
 	],
 	"hp": 50,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Iscalar",
 		"en": "Inkay",

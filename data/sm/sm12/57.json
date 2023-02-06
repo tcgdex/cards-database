@@ -42,7 +42,9 @@
 		489
 	],
 	"hp": 70,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Phione",
 		"en": "Phione",

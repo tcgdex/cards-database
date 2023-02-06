@@ -21,7 +21,9 @@
 		116
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Seeper",
 		"en": "Horsea",

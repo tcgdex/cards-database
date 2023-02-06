@@ -55,7 +55,9 @@
 		"en": "Machoke"
 	},
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Machamp",
 		"fr": "Mackogneur"

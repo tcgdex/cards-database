@@ -59,7 +59,9 @@
 		"de": "Zwirrklop"
 	},
 	"hp": 130,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Zwirrfinst",
 		"en": "Dusknoir",

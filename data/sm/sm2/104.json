@@ -55,7 +55,9 @@
 		"fr": "Nirondelle"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Schwalboss",
 		"en": "Swellow",

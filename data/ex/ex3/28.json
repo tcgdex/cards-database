@@ -40,7 +40,9 @@
 		"en": "Pineco"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Forretress",
 		"fr": "Foretress"

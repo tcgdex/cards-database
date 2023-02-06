@@ -29,7 +29,9 @@
 		692
 	],
 	"hp": 60,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Scampisto",
 		"en": "Clauncher",

@@ -37,7 +37,9 @@
 		"fr": "Sorbébé"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Gelatroppo",
 		"en": "Vanillish",

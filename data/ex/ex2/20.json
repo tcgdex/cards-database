@@ -33,7 +33,9 @@
 		172
 	],
 	"hp": 40,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Pichu",
 		"fr": "Pichu"

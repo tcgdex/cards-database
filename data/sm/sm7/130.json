@@ -9,7 +9,9 @@
 		"pt": "Coloque 4 cartas de Energia básica da sua pilha de descarte na sua mão.",
 		"de": "Nimm 4 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Angler",
 		"en": "Fisherman",

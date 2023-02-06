@@ -28,7 +28,9 @@
 		198
 	],
 	"hp": 70,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Kramurx",
 		"en": "Murkrow",

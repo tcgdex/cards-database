@@ -52,7 +52,9 @@
 		113
 	],
 	"hp": 100,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Chaneira",
 		"en": "Chansey",

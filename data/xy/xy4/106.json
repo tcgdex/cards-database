@@ -9,7 +9,9 @@
 		"pt": "Coloque um Pokémon Básico da pilha de descarte do seu oponente no Banco desse oponente.",
 		"de": "Nimm 1 Basis-Pokémon vom Ablagestapel deines Gegners und lege es auf seine Bank."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Visierflöte Team Flare-Zubehör",
 		"en": "Target Whistle Team Flare Gear",

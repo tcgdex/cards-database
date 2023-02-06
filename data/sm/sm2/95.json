@@ -47,7 +47,9 @@
 		"fr": "Mucuscule"
 	},
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Viscargot",
 		"en": "Sliggoo",

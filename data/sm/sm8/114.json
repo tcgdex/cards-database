@@ -42,7 +42,9 @@
 		246
 	],
 	"hp": 50,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Larvitar",
 		"en": "Larvitar",

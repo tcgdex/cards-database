@@ -39,7 +39,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 90,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Electrode",
 		"fr": "Electrode"

@@ -63,7 +63,9 @@
 		"de": "Schlurp"
 	},
 	"hp": 140,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Schlurplek",
 		"en": "Lickilicky",

@@ -37,7 +37,9 @@
 		126
 	],
 	"hp": 90,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Magmar ex",
 		"fr": "Magmar ex"

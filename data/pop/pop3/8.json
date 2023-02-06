@@ -32,7 +32,9 @@
 		232
 	],
 	"hp": 80,
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"en": "Donphan"
 	},

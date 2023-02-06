@@ -52,7 +52,9 @@
 		865
 	],
 	"hp": 210,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Galar-Lauchzelot V",
 		"en": "Galarian Sirfetch'd V",

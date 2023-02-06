@@ -38,7 +38,9 @@
 		"de": "Porygon"
 	},
 	"hp": 90,
-	"illustrator": "Nagomi Nijo",
+	"illustrator": [
+		"Nagomi Nijo"
+	],
 	"name": {
 		"de": "Porygon2",
 		"en": "Porygon2",

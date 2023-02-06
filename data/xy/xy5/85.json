@@ -47,7 +47,9 @@
 		383
 	],
 	"hp": 180,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Groudon EX",
 		"en": "Groudon EX",

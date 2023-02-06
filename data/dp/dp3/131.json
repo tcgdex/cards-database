@@ -34,7 +34,9 @@
 		282
 	],
 	"hp": 130,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Gardevoir",
 		"fr": "Gardevoir"

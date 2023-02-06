@@ -35,7 +35,9 @@
 		"en": "Jigglypuff"
 	},
 	"hp": 70,
-	"illustrator": "Hizuki Misono",
+	"illustrator": [
+		"Hizuki Misono"
+	],
 	"name": {
 		"en": "Wigglytuff"
 	},

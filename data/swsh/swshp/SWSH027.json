@@ -45,7 +45,9 @@
 		"en": "Hoothoot"
 	},
 	"hp": 110,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Noctuh",
 		"en": "Noctowl",

@@ -37,7 +37,9 @@
 		206
 	],
 	"hp": 50,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Dunsparce",
 		"fr": "Insolourdo"

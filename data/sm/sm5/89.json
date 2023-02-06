@@ -68,7 +68,9 @@
 		791
 	],
 	"hp": 160,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Solgaleo ◇",
 		"en": "Solgaleo ◇",

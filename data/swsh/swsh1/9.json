@@ -53,7 +53,9 @@
 		781
 	],
 	"hp": 220,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Moruda V",
 		"en": "Dhelmise V",

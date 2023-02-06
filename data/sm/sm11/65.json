@@ -33,7 +33,9 @@
 		"fr": "Anchwatt"
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Zapplalek",
 		"en": "Eelektrik",

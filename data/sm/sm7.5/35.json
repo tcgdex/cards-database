@@ -22,7 +22,9 @@
 		147
 	],
 	"hp": 70,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Dratini",
 		"en": "Dratini",

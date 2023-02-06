@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Une seule fois pendant le tour de chaque joueur, ce joueur peut placer 2 cartes Énergie Metal de sa pile de défausse dans sa main."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Mt. Coronet",
 		"fr": "Mont Couronné"

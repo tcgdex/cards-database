@@ -29,7 +29,9 @@
 		358
 	],
 	"hp": 70,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Palimpalim",
 		"en": "Chimecho",

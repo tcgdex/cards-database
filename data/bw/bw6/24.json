@@ -40,7 +40,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 130,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Garados",
 		"en": "Gyarados",

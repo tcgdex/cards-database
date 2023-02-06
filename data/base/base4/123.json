@@ -1,7 +1,9 @@
 {
 	"$schema": "../../../meta/definitions/card.schema.json",
 	"category": "Trainer",
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Switch"
 	},

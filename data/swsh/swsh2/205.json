@@ -52,7 +52,9 @@
 		"de": "Galar-Mauzi"
 	},
 	"hp": 120,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Galar-Mauzinger",
 		"en": "Galarian Perrserker",

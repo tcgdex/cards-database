@@ -43,7 +43,9 @@
 		"fr": "Escroco"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Rabigator",
 		"en": "Krookodile",

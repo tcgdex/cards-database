@@ -9,7 +9,9 @@
 		"pt": "Cure 50 pontos de dano do seu Pokémon-GX Ativo.",
 		"de": "Heile 50 Schadenspunkte bei deinem Aktiven Pokémon-GX."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Großartiger Trank",
 		"en": "Great Potion",

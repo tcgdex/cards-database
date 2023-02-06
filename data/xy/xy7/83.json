@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Lightning-Pokémon angelegt werden. Diese Karte liefert nur dann Lightning-Energie, wenn sie an ein Lightning-Pokémon angelegt ist.\n\nDas Lightning-Pokémon, an das diese Karte angelegt ist, hat keine Schwäche.\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Lightning-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "BlitzEnergie",
 		"en": "Flash Energy",

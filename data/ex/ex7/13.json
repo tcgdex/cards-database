@@ -38,7 +38,9 @@
 		"en": "Swinub"
 	},
 	"hp": 100,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Piloswine"
 	},

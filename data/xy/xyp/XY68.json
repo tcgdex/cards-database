@@ -42,7 +42,9 @@
 		"fr": "Boguérisse"
 	},
 	"hp": 160,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Chesnaught",
 		"fr": "Blindépique"

@@ -38,7 +38,9 @@
 		"fr": "Carapuce"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Wartortle",
 		"fr": "Carabaffe"

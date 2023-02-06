@@ -38,7 +38,9 @@
 		"en": "Doduo"
 	},
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Dodrio",
 		"fr": "Dodrio"

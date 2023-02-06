@@ -9,7 +9,9 @@
 		"pt": "Coloque até 4 cartas de Pokémon Water e de Energia Water da sua pilha de descarte na sua mão em qualquer combinação.",
 		"de": "Nimm eine beliebige Kombination aus bis zu 4 Water-Pokémon und Water-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Kate",
 		"en": "Nessa",

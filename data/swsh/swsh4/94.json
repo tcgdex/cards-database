@@ -36,7 +36,9 @@
 		"en": "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!"
 	},
 	"hp": 70,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Wuffels",
 		"en": "Rockruff",

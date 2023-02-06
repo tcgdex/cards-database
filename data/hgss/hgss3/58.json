@@ -24,7 +24,9 @@
 		198
 	],
 	"hp": 60,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Murkrow",
 		"fr": "Cornebre"

@@ -29,7 +29,9 @@
 		728
 	],
 	"hp": 70,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Robball",
 		"en": "Popplio",

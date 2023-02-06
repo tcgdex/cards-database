@@ -34,7 +34,9 @@
 		"en": "Spinarak"
 	},
 	"hp": 70,
-	"illustrator": "Kyoko Koizumi",
+	"illustrator": [
+		"Kyoko Koizumi"
+	],
 	"name": {
 		"en": "Dark Ariados"
 	},

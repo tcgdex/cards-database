@@ -42,7 +42,9 @@
 		"fr": "Scobolide"
 	},
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Cerapendra",
 		"en": "Scolipede",

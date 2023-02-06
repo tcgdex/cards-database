@@ -51,7 +51,9 @@
 		383
 	],
 	"hp": 130,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Groudon",
 		"en": "Groudon",

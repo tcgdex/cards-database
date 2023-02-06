@@ -49,7 +49,9 @@
 		"fr": "Sabelette d’Alola"
 	},
 	"hp": 120,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Alola-Sandamer",
 		"en": "Alolan Sandslash",

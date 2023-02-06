@@ -54,7 +54,9 @@
 		781
 	],
 	"hp": 130,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Moruda",
 		"en": "Dhelmise",

@@ -30,7 +30,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 200,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Bellektro V",
 		"en": "Boltund V",

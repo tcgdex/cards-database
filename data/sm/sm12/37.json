@@ -52,7 +52,9 @@
 		"fr": "Hélionceau"
 	},
 	"hp": 130,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Pyroleo",
 		"en": "Pyroar",

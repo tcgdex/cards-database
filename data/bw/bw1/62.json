@@ -28,7 +28,9 @@
 		539
 	],
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Karadonis",
 		"en": "Sawk",

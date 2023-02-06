@@ -9,7 +9,9 @@
 		"pt": "Nesta vez de jogar, os ataques do seu Pokémon causam 10 de danos extras ao Pokémon Ativo (antes de aplicar Fraqueza e Resistência).",
 		"de": "Während dieses Zuges fügen alle Angriffe deines Pokémon den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "PlusPower",
 		"en": "PlusPower",

@@ -37,7 +37,9 @@
 		"de": "Gramokles"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Duokles",
 		"en": "Doublade",

@@ -39,7 +39,6 @@ Architecture for a serie file
     "de": "string",
     "it": "string",
     "jp": "string"
-  },
-  "logo": "string"
+  }
 }
 ```

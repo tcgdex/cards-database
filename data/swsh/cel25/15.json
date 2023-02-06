@@ -64,7 +64,9 @@
 		"de": "Cosmovum"
 	},
 	"hp": 160,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Lunala",
 		"en": "Lunala",

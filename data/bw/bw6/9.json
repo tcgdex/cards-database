@@ -39,7 +39,9 @@
 		"fr": "Chenipotte"
 	},
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Panekon",
 		"en": "Cascoon",

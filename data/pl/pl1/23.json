@@ -39,7 +39,9 @@
 		483
 	],
 	"hp": 100,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Dialga",
 		"fr": "Dialga"

@@ -35,7 +35,9 @@
 		26
 	],
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Raichu GL",
 		"fr": "Raichu  Niv. 46"

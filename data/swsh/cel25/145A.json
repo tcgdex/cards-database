@@ -28,7 +28,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 110,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Garchomp C LV.X"
 	},

@@ -31,7 +31,9 @@
 		25
 	],
 	"hp": 60,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Pikachu"
 	},

@@ -9,7 +9,9 @@
 		"pt": "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
 		"de": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
 	},
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Kogas Falle",
 		"en": "Koga’s Trap",

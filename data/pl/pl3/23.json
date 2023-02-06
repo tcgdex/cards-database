@@ -37,7 +37,9 @@
 		342
 	],
 	"hp": 80,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Crawdaunt G",
 		"fr": "Colhomard "

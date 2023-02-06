@@ -45,7 +45,9 @@
 		"de": "Dartiri"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Dartignis",
 		"en": "Fletchinder",

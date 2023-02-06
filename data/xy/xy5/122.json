@@ -9,7 +9,9 @@
 		"pt": "Olhe os 2 cards de cima do seu baralho e coloque 1 deles de volta na sua mão. Descarte o outro card.",
 		"de": "Schau dir die 2 obersten Karten deines Decks an und nimm 1 auf deine Hand. Lege die andere Karte auf deinen Ablagestapel."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Kunstrad",
 		"en": "Acro Bike",

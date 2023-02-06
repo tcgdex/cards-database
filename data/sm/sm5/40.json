@@ -51,7 +51,9 @@
 		479
 	],
 	"hp": 90,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Wasch-Rotom",
 		"en": "Wash Rotom",

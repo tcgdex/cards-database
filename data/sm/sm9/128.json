@@ -44,7 +44,9 @@
 		115
 	],
 	"hp": 130,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Kangama",
 		"en": "Kangaskhan",

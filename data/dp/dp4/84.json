@@ -32,7 +32,9 @@
 		209
 	],
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Snubbull",
 		"fr": "Snubbull"

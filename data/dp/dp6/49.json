@@ -38,7 +38,9 @@
 		351
 	],
 	"hp": 70,
-	"illustrator": "Emi Yoshida",
+	"illustrator": [
+		"Emi Yoshida"
+	],
 	"name": {
 		"en": "Castform Rain Form",
 		"fr": "Morpheo Pluie"

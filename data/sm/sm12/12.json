@@ -51,7 +51,9 @@
 		357
 	],
 	"hp": 120,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Tropius",
 		"en": "Tropius",

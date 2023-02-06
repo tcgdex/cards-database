@@ -75,7 +75,9 @@
 		248
 	],
 	"hp": 280,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Mega-Zobiris & Despotar GX",
 		"en": "Mega Sableye & Tyranitar GX",

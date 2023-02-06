@@ -61,7 +61,9 @@
 		"de": "Digda"
 	},
 	"hp": 90,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Digdri",
 		"en": "Dugtrio",

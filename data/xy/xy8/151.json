@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Fire-Pokémon angelegt werden. Diese Karte liefert nur dann Fire-Energie, wenn sie an ein Fire-Pokémon angelegt ist.Wenn diese Karte aufgrund eines Angriffs des Fire-Pokémon, an das diese Karte angelegt ist, auf den Ablagestapel gelegt wird, lege diese Karte von deinem Ablagestapel wieder an jenes Pokémon an.(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Fire-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Brand-Energie",
 		"en": "Burning Energy",

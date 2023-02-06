@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se 1 dos seus Pokémon tiver sido Nocauteado durante a última vez de jogar do seu oponente.\n\nProcure por 1 Pokémon, 1 carta de Treinador e 1 carta de Energia básica no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Du kannst diese Karte nur spielen, wenn 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nDurchsuche dein Deck nach 1 Pokémon, 1 Trainerkarte und 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Rosy",
 		"en": "Rosa",

@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez trois pièces. Chaque fois que c'est face, prenez une carte Énergie de base de votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main. Si vous n'avez pas suffisamment de cartes Énergie dans votre pile de défausse, placez toutes vos cartes Énergie dans votre main."
 	},
-	"illustrator": "Hideyuki Nakajima",
+	"illustrator": [
+		"Hideyuki Nakajima"
+	],
 	"name": {
 		"en": "Energy Restore",
 		"fr": "Restauration d'énergie"

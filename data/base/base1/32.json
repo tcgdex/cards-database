@@ -39,7 +39,9 @@
 		"en": "Abra"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Kadabra",
 		"fr": "Kadabra"

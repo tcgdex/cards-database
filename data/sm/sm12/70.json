@@ -47,7 +47,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 100,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Blitza",
 		"en": "Jolteon",

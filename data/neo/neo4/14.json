@@ -42,7 +42,9 @@
 		"en": "Dragonair"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Light Dragonite",
 		"fr": "Dracolosse lumineux"

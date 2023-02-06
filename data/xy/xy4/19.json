@@ -59,7 +59,9 @@
 		"de": "Finneon"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Lumineon",
 		"en": "Lumineon",

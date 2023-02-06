@@ -60,7 +60,9 @@
 		"de": "Jungglut"
 	},
 	"hp": 170,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Lohgock",
 		"en": "Blaziken",

@@ -49,7 +49,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 190,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Fiaro V",
 		"en": "Talonflame V",

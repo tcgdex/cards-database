@@ -36,7 +36,9 @@
 		"fr": "Larveyette"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Folikon",
 		"en": "Swadloon",

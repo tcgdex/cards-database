@@ -33,7 +33,9 @@
 		780
 	],
 	"hp": 130,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Sen-Long",
 		"en": "Drampa",

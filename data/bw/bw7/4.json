@@ -41,7 +41,9 @@
 		"fr": "Ortide"
 	},
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Blubella",
 		"en": "Bellossom",

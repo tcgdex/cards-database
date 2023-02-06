@@ -55,7 +55,9 @@
 		"fr": "Taupiqueur"
 	},
 	"hp": 90,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Dugtrio",
 		"fr": "Triopikeur"

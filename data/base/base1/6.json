@@ -42,7 +42,9 @@
 		"en": "Magikarp"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Gyarados",
 		"fr": "Léviator"

@@ -53,7 +53,9 @@
 		"fr": "Osselait"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Alola-Knogga",
 		"en": "Alolan Marowak",

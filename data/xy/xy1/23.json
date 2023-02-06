@@ -60,7 +60,9 @@
 		"de": "Grillmak"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Grillchita",
 		"en": "Simisear",

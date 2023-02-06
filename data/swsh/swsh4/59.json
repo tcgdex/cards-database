@@ -61,7 +61,9 @@
 		"de": "Zapplalek"
 	},
 	"hp": 160,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Zapplarang",
 		"en": "Eelektross",

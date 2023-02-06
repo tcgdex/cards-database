@@ -54,7 +54,9 @@
 		"fr": "Tadmorv"
 	},
 	"hp": 130,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Sleimok",
 		"en": "Muk",

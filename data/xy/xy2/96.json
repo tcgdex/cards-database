@@ -9,7 +9,9 @@
 		"pt": "Embaralhe 5 Pokémon da sua pilha de descarte no seu baralho.",
 		"de": "Mische 5 Pokémon aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Zauberasche",
 		"en": "Sacred Ash",

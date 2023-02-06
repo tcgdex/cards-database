@@ -34,7 +34,9 @@
 		"fr": "Mélofée"
 	},
 	"hp": 120,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Clefable",
 		"fr": "Mélodelfe"

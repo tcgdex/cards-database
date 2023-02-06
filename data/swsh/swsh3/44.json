@@ -64,7 +64,9 @@
 		"de": "Galar-Flampion"
 	},
 	"hp": 140,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Galar-Flampivian",
 		"en": "Galarian Darmanitan",

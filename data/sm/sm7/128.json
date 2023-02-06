@@ -9,7 +9,9 @@
 		"pt": "Escolha 1:\n\n• Coloque 1 carta de Energia básica da sua pilha de descarte na sua mão.\n• Embaralhe 3 cartas de Energia básica da sua pilha de descarte no seu baralho.",
 		"de": "Wähle 1 aus:\n\n•Nimm 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand.\n•Mische 3 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Zu-Ka",
+	"illustrator": [
+		"Zu-Ka"
+	],
 	"name": {
 		"de": "Energie-Wiederverwertung",
 		"en": "Energy Recycle System",

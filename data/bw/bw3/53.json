@@ -41,7 +41,9 @@
 		"fr": "Méios"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Zytomega",
 		"en": "Reuniclus",

@@ -72,7 +72,9 @@
 		"fr": "Riolu"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Lucario GX",
 		"en": "Lucario GX",

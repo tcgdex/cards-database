@@ -22,7 +22,9 @@
 		568
 	],
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Unratütox",
 		"en": "Trubbish",

@@ -55,7 +55,9 @@
 		"fr": "Rémoraid"
 	},
 	"hp": 100,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Octillery",
 		"en": "Octillery",

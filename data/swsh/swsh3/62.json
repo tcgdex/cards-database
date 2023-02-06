@@ -36,7 +36,9 @@
 		"en": "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
 	},
 	"hp": 70,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Toxel",
 		"en": "Toxel",

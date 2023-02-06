@@ -44,7 +44,9 @@
 		299
 	],
 	"hp": 70,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Nasgnet",
 		"en": "Nosepass",

@@ -9,7 +9,9 @@
 		"pt": "O custo de Recuo de cada Pokémon (seus e do seu oponente) que tiver alguma Energia Psychic ou Darkness ligada a ele será ColorlessColorless a menos.",
 		"de": "Die Rückzugskosten jedes Pokémon (deine und die deines Gegners), an das mindestens 1 Psychic- oder 1 Darkness-Energie angelegt ist, verringern sich um ColorlessColorless."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Mondscheiben-Podium",
 		"en": "Altar of the Moone",

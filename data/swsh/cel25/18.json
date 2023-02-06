@@ -44,7 +44,9 @@
 		889
 	],
 	"hp": 220,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Zamazenta V",
 		"en": "Zamazenta V",

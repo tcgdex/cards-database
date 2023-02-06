@@ -42,7 +42,9 @@
 		"en": "Remoraid"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Octillery",
 		"fr": "Octillery"

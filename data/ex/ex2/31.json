@@ -33,7 +33,9 @@
 		298
 	],
 	"hp": 40,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Azurill",
 		"fr": "Azurill"

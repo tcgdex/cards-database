@@ -9,7 +9,9 @@
 		"pt": "Descarte as 6 primeiras cartas do seu baralho. Se houver cartas de Energia básica entre elas, ligue-as a 1 dos seus Pokémon Dragon no Banco.",
 		"de": "Lege die obersten 6 Karten deines Decks auf deinen Ablagestapel. Wenn unter jenen Karten Basis-Energiekarten sind, lege sie an 1 Dragon-Pokémon auf deiner Bank an."
 	},
-	"illustrator": "Mana Ibe",
+	"illustrator": [
+		"Mana Ibe"
+	],
 	"name": {
 		"de": "Ns Entschluss",
 		"en": "N’s Resolve",

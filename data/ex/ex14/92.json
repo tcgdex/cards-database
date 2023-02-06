@@ -54,7 +54,9 @@
 		"en": "Loudred"
 	},
 	"hp": 150,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Exploud ex",
 		"fr": "Brouhabam ex"

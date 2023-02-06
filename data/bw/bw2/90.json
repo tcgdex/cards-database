@@ -9,7 +9,9 @@
 		"pt": "Compre cards até ter 6 cards em sua mão.",
 		"de": "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Bell",
 		"en": "Bianca",

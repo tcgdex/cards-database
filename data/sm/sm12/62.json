@@ -44,7 +44,9 @@
 		746
 	],
 	"hp": 180,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Lusardin",
 		"en": "Wishiwashi",

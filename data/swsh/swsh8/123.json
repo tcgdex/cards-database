@@ -32,7 +32,9 @@
 		"en": "A discovery was made in the desert where Sigilyph fly. The ruins of what may have been an ancient city were found beneath the sands."
 	},
 	"hp": 100,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Symvolara",
 		"en": "Sigilyph",

@@ -9,7 +9,9 @@
 		"pt": "As Condições Especiais não são removidas quando os Pokémon (seus e do seu oponente) evoluem ou revertem sua evolução.",
 		"de": "Spezielle Zustände verlieren ihre Wirkung nicht, wenn Pokémon (deine und die deines Gegners) sich entwickeln oder rückentwicklen."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "See des Nichts",
 		"en": "Sea of Nothingness",

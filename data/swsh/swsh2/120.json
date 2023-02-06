@@ -59,7 +59,9 @@
 		"de": "Skallyk"
 	},
 	"hp": 120,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Grypheldis",
 		"en": "Mandibuzz",

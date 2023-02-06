@@ -51,7 +51,9 @@
 		202
 	],
 	"hp": 110,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Woingenau",
 		"en": "Wobbuffet",

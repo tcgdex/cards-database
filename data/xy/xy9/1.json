@@ -44,7 +44,9 @@
 		152
 	],
 	"hp": 60,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Endivie",
 		"en": "Chikorita",

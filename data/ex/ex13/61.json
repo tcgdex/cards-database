@@ -32,7 +32,9 @@
 		318
 	],
 	"hp": 40,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Carvanha δ",
 		"fr": "Carvanha δ ESPÈCES DELTA"

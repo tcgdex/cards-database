@@ -28,7 +28,9 @@
 		"en": "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
 	},
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Salanga",
 		"en": "Silicobra",

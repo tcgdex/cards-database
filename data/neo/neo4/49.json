@@ -41,7 +41,9 @@
 		"en": "Machop"
 	},
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Light Machoke",
 		"fr": "Machopeur lumineux"

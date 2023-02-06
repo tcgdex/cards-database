@@ -35,7 +35,9 @@
 		207
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Gligar",
 		"fr": "Scorplane"

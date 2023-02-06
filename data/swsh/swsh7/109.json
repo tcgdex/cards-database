@@ -62,7 +62,9 @@
 		"de": "Draschel"
 	},
 	"hp": 170,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Brutalanda",
 		"en": "Salamence",

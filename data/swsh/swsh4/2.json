@@ -50,7 +50,9 @@
 		"de": "Hornliu"
 	},
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Kokuna",
 		"en": "Kakuna",

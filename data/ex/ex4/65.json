@@ -20,7 +20,9 @@
 		261
 	],
 	"hp": 40,
-	"illustrator": "Shin-ichi Yoshikawa",
+	"illustrator": [
+		"Shin-ichi Yoshikawa"
+	],
 	"name": {
 		"en": "Team Magma's Poochyena",
 		"fr": "Medhyena de Team Magma"

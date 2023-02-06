@@ -38,7 +38,9 @@
 		"en": "Ledyba"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Ledian δ",
 		"fr": "Coxyclaque δ ESPÈCES DELTA"

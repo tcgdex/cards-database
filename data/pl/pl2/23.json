@@ -40,7 +40,9 @@
 		76
 	],
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Golem 4",
 		"fr": "Grolem  Niv. 52"

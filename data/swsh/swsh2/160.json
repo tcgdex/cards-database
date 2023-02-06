@@ -9,7 +9,9 @@
 		"pt": "O custo de Recuo de ambos os Pokémon Ativos é ColorlessColorless a mais.",
 		"de": "Die Rückzugskosten beider Aktiven Pokémon erhöhen sich um ColorlessColorless."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Galar-Mine 1",
 		"en": "Galar Mine",

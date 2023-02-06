@@ -52,7 +52,9 @@
 		"en": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Dialga",
 		"en": "Dialga",

@@ -47,7 +47,9 @@
 		"en": "Dreepy"
 	},
 	"hp": 90,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Phandra",
 		"en": "Drakloak",

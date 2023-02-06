@@ -56,7 +56,9 @@
 		"fr": "Axoloto"
 	},
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Morlord",
 		"en": "Quagsire",

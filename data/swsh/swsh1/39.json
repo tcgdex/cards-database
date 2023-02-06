@@ -64,7 +64,9 @@
 		"de": "Thermopod"
 	},
 	"hp": 130,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Infernopod",
 		"en": "Centiskorch",

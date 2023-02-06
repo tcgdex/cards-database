@@ -30,7 +30,9 @@
 		92
 	],
 	"hp": 30,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Gastly"
 	},

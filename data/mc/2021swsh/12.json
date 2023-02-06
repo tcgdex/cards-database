@@ -28,7 +28,9 @@
 		"fr": "Ouisticram"
 	},
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Chimchar",
 		"fr": "Chimpenfeu"

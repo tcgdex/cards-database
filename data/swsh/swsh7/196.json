@@ -51,7 +51,9 @@
 		715
 	],
 	"hp": 200,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "UHaFnir V",
 		"en": "Noivern V",

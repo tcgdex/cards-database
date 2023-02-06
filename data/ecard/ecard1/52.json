@@ -20,7 +20,9 @@
 		240
 	],
 	"hp": 30,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Magby",
 		"fr": "Magby"

@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual este card está ligado for Nocauteado, seu oponente levará 1 card de Prêmio a menos.",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, kampfunfähig wird, darf dein Gegner dafür 1 Preiskarte weniger als üblich nehmen."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Lebenstau",
 		"en": "Life Dew",

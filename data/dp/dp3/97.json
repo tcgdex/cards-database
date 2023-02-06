@@ -33,7 +33,9 @@
 		32
 	],
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Nidoran♂",
 		"fr": "Nidoran♂"

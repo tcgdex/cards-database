@@ -9,7 +9,9 @@
 		"pt": "Cada jogador embaralha a própria mão no próprio baralho e compra 4 cartas.",
 		"de": "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
 	},
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Richter",
 		"en": "Judge",

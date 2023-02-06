@@ -23,7 +23,9 @@
 		322
 	],
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Camaub",
 		"en": "Numel",

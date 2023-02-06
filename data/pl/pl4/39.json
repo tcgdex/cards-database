@@ -33,7 +33,9 @@
 	"evolveFrom": {
 		"en": "Treecko"
 	},
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Grovyle"
 	},

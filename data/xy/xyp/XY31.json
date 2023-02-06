@@ -40,7 +40,9 @@
 		716
 	],
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Xerneas",
 		"fr": "Xerneas"

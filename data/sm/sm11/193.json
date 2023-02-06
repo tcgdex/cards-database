@@ -9,7 +9,9 @@
 		"pt": "Pokémon Darkness Básicos em jogo (seus e do seu oponente) não têm custo de Recuo.",
 		"de": "Darkness-Basis-Pokémon im Spiel (deine und die deines Gegners) haben keine Rückzugskosten."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Dunkelstadt",
 		"en": "Dark City",

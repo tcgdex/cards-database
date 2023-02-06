@@ -40,7 +40,9 @@
 		"en": "Cubone"
 	},
 	"hp": 80,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Marowak",
 		"fr": "Ossatueur"

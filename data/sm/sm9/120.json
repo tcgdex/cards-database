@@ -78,7 +78,9 @@
 		133
 	],
 	"hp": 270,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Evoli & Relaxo GX",
 		"en": "Eevee & Snorlax GX",

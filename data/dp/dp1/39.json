@@ -43,7 +43,9 @@
 		"fr": "Apitrini"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Vespiquen",
 		"fr": "Apireine"

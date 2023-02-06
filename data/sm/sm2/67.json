@@ -28,7 +28,9 @@
 		207
 	],
 	"hp": 70,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Skorgla",
 		"en": "Gligar",

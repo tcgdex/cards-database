@@ -47,7 +47,9 @@
 		"en": "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
 	},
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Volcanion",
 		"en": "Volcanion",

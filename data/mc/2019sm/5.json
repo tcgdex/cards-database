@@ -25,7 +25,9 @@
 		"en": "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them."
 	},
 	"hp": 120,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Lapras"
 	},

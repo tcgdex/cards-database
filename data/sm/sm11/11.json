@@ -56,7 +56,9 @@
 		"fr": "Crabicoque"
 	},
 	"hp": 120,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Castellith",
 		"en": "Crustle",

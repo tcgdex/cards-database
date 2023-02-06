@@ -40,7 +40,9 @@
 		"en": "Pikachu"
 	},
 	"hp": 100,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Raichu ex",
 		"fr": "Raichu ex"

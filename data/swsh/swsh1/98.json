@@ -59,7 +59,9 @@
 		"de": "Rihorn"
 	},
 	"hp": 120,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Rizeros",
 		"en": "Rhydon",

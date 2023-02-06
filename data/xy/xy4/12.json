@@ -61,7 +61,9 @@
 		"de": "Leufeo"
 	},
 	"hp": 110,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Pyroleo",
 		"en": "Pyroar",

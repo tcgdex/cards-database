@@ -39,7 +39,9 @@
 		"en": "Pikachu"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Raichu δ",
 		"fr": "Raichu δ ESPÈCES DELTA"

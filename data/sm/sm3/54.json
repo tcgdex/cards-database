@@ -44,7 +44,9 @@
 		453
 	],
 	"hp": 60,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Glibunkel",
 		"en": "Croagunk",

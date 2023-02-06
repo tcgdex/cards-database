@@ -30,7 +30,9 @@
 		443
 	],
 	"hp": 60,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Gible",
 		"fr": "Griknot"

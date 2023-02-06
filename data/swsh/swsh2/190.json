@@ -9,7 +9,9 @@
 		"pt": "Descarte até 2 cartas da sua mão e compre 2 cartas para cada carta descartada desta forma.",
 		"de": "Lege bis zu 2 Karten aus deiner Hand auf deinen Ablagestapel und ziehe 2 Karten für jede auf diese Weise auf deinen Ablagestapel gelegte Karte."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Yarro",
 		"en": "Milo",

@@ -22,7 +22,9 @@
 		220
 	],
 	"hp": 60,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Quiekel",
 		"en": "Swinub",

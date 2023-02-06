@@ -58,7 +58,9 @@
 		"fr": "Pandespiègle"
 	},
 	"hp": 130,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Pandagro",
 		"en": "Pangoro",

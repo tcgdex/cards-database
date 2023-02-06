@@ -41,7 +41,9 @@
 		"en": "Numel"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Camerupt",
 		"fr": "Camerupt"

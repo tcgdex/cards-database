@@ -46,7 +46,9 @@
 		77
 	],
 	"hp": 70,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Galar-Ponita",
 		"en": "Galarian Ponyta",

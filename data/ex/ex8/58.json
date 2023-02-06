@@ -31,7 +31,9 @@
 		355
 	],
 	"hp": 40,
-	"illustrator": "Tomoko Wakai",
+	"illustrator": [
+		"Tomoko Wakai"
+	],
 	"name": {
 		"en": "Duskull",
 		"fr": "Skelenox"

@@ -20,7 +20,9 @@
 		328
 	],
 	"hp": 40,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Trapinch δ",
 		"fr": "Kraknoix δ ESPÈCES DELTA"

@@ -32,7 +32,9 @@
 	"dexId": [
 		373
 	],
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Salamence LV. X"
 	},

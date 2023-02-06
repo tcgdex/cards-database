@@ -60,7 +60,9 @@
 		"en": "Galarian Darumaka"
 	},
 	"hp": 140,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Galar-Flampivian",
 		"en": "Galarian Darmanitan",

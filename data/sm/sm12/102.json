@@ -48,7 +48,9 @@
 		"fr": "Cosmovum"
 	},
 	"hp": 160,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Lunala",
 		"en": "Lunala",

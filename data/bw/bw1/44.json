@@ -21,7 +21,9 @@
 		595
 	],
 	"hp": 40,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Wattzapf",
 		"en": "Joltik",

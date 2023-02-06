@@ -58,7 +58,9 @@
 		"fr": "Linéon de Galar"
 	},
 	"hp": 160,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Galar-Barrikadax",
 		"en": "Galarian Obstagoon",

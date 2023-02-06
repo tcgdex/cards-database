@@ -48,7 +48,9 @@
 		"de": "Teddiursa"
 	},
 	"hp": 140,
-	"illustrator": "Hasegawa Saki",
+	"illustrator": [
+		"Hasegawa Saki"
+	],
 	"name": {
 		"de": "Ursaring",
 		"en": "Ursaring",

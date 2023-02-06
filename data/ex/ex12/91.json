@@ -37,7 +37,9 @@
 		377
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Regirock Star",
 		"fr": "Regirock ☆"

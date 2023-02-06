@@ -58,7 +58,9 @@
 		"de": "Dartignis"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Fiaro",
 		"en": "Talonflame",

@@ -28,7 +28,9 @@
 		222
 	],
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Corasonn",
 		"en": "Corsola",

@@ -39,7 +39,9 @@
 		386
 	],
 	"hp": 100,
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Deoxys Defense Forme",
 		"fr": "Deoxys Forme Défense"

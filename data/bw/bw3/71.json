@@ -22,7 +22,9 @@
 		622
 	],
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Golbit",
 		"en": "Golett",

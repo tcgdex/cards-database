@@ -31,7 +31,9 @@
 		201
 	],
 	"hp": 60,
-	"illustrator": "Kyoko Koizumi",
+	"illustrator": [
+		"Kyoko Koizumi"
+	],
 	"name": {
 		"en": "Unown"
 	},

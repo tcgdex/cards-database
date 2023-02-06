@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Choisissez jusqu'à 3 cartes Pokémon de base, Évolution et/ou Énergie de base dans votre pile de défausse. Montrez-les à votre adversaire et mélangez-les avec votre deck."
 	},
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Nightly Garbage Run",
 		"fr": "Raid nocturne dans les poubelles"

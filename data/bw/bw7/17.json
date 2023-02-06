@@ -41,7 +41,9 @@
 		"fr": "Chlorobule"
 	},
 	"hp": 80,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Dressella",
 		"en": "Lilligant",

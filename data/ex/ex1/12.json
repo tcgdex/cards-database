@@ -40,7 +40,9 @@
 		"en": "Vigoroth"
 	},
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Slaking",
 		"fr": "Monaflemit"

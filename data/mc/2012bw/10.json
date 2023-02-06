@@ -13,7 +13,9 @@
 		"en": "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck."
 	},
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Scraggy"
 	},

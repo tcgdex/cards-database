@@ -44,7 +44,9 @@
 		"fr": "Cochignon"
 	},
 	"hp": 150,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Mamutel",
 		"en": "Mamoswine",

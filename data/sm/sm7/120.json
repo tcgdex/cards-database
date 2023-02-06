@@ -29,7 +29,9 @@
 		300
 	],
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Eneco",
 		"en": "Skitty",

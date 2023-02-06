@@ -44,7 +44,9 @@
 		"fr": "Boskara"
 	},
 	"hp": 140,
-	"illustrator": "Masahiko Ishii",
+	"illustrator": [
+		"Masahiko Ishii"
+	],
 	"name": {
 		"en": "Torterra",
 		"fr": "Torterra"

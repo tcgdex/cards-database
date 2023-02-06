@@ -21,7 +21,9 @@
 		742
 	],
 	"hp": 30,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Wommel",
 		"en": "Cutiefly",

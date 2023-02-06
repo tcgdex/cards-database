@@ -31,7 +31,9 @@
 		333
 	],
 	"hp": 40,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Wablu",
 		"en": "Swablu",

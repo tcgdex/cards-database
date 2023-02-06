@@ -21,7 +21,9 @@
 	"dexId": [
 		493
 	],
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Arceus",
 		"fr": "Arceus"

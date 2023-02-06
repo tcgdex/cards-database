@@ -39,7 +39,9 @@
 		"fr": "Dynavolt"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Voltenso",
 		"en": "Manectric",

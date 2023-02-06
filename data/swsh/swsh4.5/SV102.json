@@ -48,7 +48,9 @@
 		"en": "Rookidee"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Kranoviz",
 		"en": "Corvisquire",

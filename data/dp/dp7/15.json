@@ -53,7 +53,9 @@
 		"fr": "Rapion"
 	},
 	"hp": 110,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Drapion",
 		"fr": "Drascore"

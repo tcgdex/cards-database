@@ -36,7 +36,9 @@
 		487
 	],
 	"hp": 130,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Giratina",
 		"fr": "Giratina"

@@ -80,7 +80,9 @@
 		"fr": "Miaouss"
 	},
 	"hp": 200,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Snobilikat GX",
 		"en": "Persian GX",

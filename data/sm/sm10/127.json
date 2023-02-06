@@ -52,7 +52,9 @@
 		649
 	],
 	"hp": 130,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Genesect",
 		"en": "Genesect",

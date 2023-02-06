@@ -52,7 +52,9 @@
 		378
 	],
 	"hp": 120,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Regice",
 		"en": "Regice",

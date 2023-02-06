@@ -50,7 +50,9 @@
 		"fr": "Metang"
 	},
 	"hp": 130,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Metagross",
 		"fr": "Metalosse"

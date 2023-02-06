@@ -28,7 +28,9 @@
 		"en": "Graceful ripples running across the water's surface are a sure sign that Tympole are singing in high-pitched voices below."
 	},
 	"hp": 60,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Schallquap",
 		"en": "Tympole",

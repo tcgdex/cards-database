@@ -30,7 +30,9 @@
 		"en": "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped."
 	},
 	"hp": 60,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Chimpep",
 		"en": "Grookey",

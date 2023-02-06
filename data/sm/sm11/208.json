@@ -9,7 +9,9 @@
 		"pt": "Jogue 2 moedas. Para cada cara, procure por 1 carta de Estádio no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Wirf 2 Münzen. Durchsuche pro Kopf dein Deck nach 1 Stadionkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Stadion-Navi",
 		"en": "Stadium Nav",

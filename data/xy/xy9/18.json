@@ -34,7 +34,9 @@
 		"de": "Entoron"
 	},
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Entoron-TURBO",
 		"en": "Golduck BREAK",

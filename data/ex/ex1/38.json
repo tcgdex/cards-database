@@ -38,7 +38,9 @@
 		"en": "Zigzagoon"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Linoone",
 		"fr": "Lineon"

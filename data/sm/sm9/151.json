@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se o Pokémon Ativo do seu oponente for um Pokémon Básico.\n\nColoque 1 Energia do Pokémon Ativo do seu oponente como a primeira carta do baralho dele(a).",
 		"de": "Du kannst diese Karte nur spielen, wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist.\n\nLege 1 Energie vom Aktiven Pokémon deines Gegners oben auf sein Deck."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Nuit",
 		"en": "Nita",

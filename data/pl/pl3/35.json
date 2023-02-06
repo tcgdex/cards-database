@@ -37,7 +37,9 @@
 		350
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Milotic C",
 		"fr": "Milobellus "

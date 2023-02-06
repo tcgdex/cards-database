@@ -48,7 +48,9 @@
 		716
 	],
 	"hp": 120,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Xerneas",
 		"en": "Xerneas",

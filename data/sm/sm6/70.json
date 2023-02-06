@@ -45,7 +45,9 @@
 		701
 	],
 	"hp": 80,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Resladero",
 		"en": "Hawlucha",

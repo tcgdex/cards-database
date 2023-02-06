@@ -40,7 +40,9 @@
 		553
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"en": "Krookodile EX",
 		"fr": "Crocorible EX"

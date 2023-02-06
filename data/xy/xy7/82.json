@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Darkness-Pokémon angelegt werden. Diese Karte liefert nur dann Darkness-Energie, wenn sie an ein Darkness-Pokémon angelegt ist.\n\nLege jedes Mal 2 Schadensmarken auf das Angreifende Pokémon-EX, wenn das Darkness-Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch einen Angriff des Pokémon-EX deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird).\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Darkness-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "GefahrEnergie",
 		"en": "Dangerous Energy",

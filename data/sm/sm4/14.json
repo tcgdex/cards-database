@@ -60,7 +60,9 @@
 		"fr": "Chamallot"
 	},
 	"hp": 140,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Camerupt",
 		"en": "Camerupt",

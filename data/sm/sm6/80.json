@@ -32,7 +32,9 @@
 		799
 	],
 	"hp": 160,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Schlingking",
 		"en": "Guzzlord",

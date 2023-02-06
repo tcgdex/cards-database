@@ -56,7 +56,9 @@
 		"fr": "Mustébouée"
 	},
 	"hp": 100,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Bojelin",
 		"en": "Floatzel",

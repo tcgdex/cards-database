@@ -37,7 +37,9 @@
 		198
 	],
 	"hp": 50,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Murkrow",
 		"fr": "Cornèbre"

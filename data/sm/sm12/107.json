@@ -42,7 +42,9 @@
 		328
 	],
 	"hp": 50,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Knacklion",
 		"en": "Trapinch",

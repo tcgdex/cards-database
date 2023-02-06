@@ -43,7 +43,9 @@
 		782
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Miniras",
 		"en": "Jangmo-o",

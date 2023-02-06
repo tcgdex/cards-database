@@ -43,7 +43,9 @@
 		244
 	],
 	"hp": 100,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Rocket's Entei ex"
 	},

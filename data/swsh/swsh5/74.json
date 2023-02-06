@@ -46,7 +46,9 @@
 		"de": "Praktibalk"
 	},
 	"hp": 100,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Strepoli",
 		"en": "Gurdurr",

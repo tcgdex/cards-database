@@ -54,7 +54,9 @@
 		"de": "Karnimani"
 	},
 	"hp": 80,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Tyracroc",
 		"en": "Croconaw",

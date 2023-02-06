@@ -44,7 +44,9 @@
 		"de": "Meltan"
 	},
 	"hp": 150,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Melmetal",
 		"en": "Melmetal",

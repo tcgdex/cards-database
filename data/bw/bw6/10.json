@@ -21,7 +21,9 @@
 		290
 	],
 	"hp": 40,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Nincada",
 		"en": "Nincada",

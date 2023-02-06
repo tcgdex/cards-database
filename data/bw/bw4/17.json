@@ -18,7 +18,9 @@
 		554
 	],
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Flampion",
 		"en": "Darumaka",

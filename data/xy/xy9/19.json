@@ -43,7 +43,9 @@
 		79
 	],
 	"hp": 70,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Flegmon",
 		"en": "Slowpoke",

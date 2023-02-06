@@ -9,7 +9,9 @@
 		"pt": "Procure um Pokémon com 90 PS ou menos em seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach 1 Pokémon mit 90 oder weniger KP, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Levelball",
 		"en": "Level Ball",

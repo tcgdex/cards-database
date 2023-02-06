@@ -28,7 +28,9 @@
 		"en": "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky."
 	},
 	"hp": 60,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Dummisel",
 		"en": "Dunsparce",

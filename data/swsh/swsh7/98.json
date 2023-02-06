@@ -32,7 +32,9 @@
 		559
 	],
 	"hp": 70,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Zurrokex",
 		"en": "Scraggy",

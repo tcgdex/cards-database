@@ -53,7 +53,9 @@
 		661
 	],
 	"hp": 40,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Dartiri",
 		"en": "Fletchling",

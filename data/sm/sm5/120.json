@@ -9,7 +9,9 @@
 		"pt": "Você não pode jogar esta carta se não tiver nenhum Pokémon Water ou Metal em jogo.\n\nSeu oponente escolhe 2 Pokémon no Banco e embaralha os outros e todas as cartas ligadas a eles no próprio baralho.",
 		"de": "Du kannst diese Karte nicht spielen, wenn du nicht mindestens 1 Water- oder Metal-Pokémon im Spiel hast.\n\nDein Gegner wählt 2 Pokémon auf seiner Bank und mischt die anderen sowie alle an sie angelegten Karten in sein Deck."
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Zyrus ◇",
 		"en": "Cyrus ◇",

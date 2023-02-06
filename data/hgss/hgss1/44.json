@@ -31,7 +31,9 @@
 		174
 	],
 	"hp": 30,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Igglybuff",
 		"fr": "Toudoudou"

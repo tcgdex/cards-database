@@ -48,7 +48,9 @@
 		"fr": "Tiplouf"
 	},
 	"hp": 80,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Pliprin",
 		"en": "Prinplup",

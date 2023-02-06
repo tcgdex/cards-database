@@ -46,7 +46,9 @@
 		"fr": "Grenousse"
 	},
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Amphizel",
 		"en": "Frogadier",

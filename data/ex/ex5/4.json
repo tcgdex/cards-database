@@ -35,7 +35,9 @@
 		251
 	],
 	"hp": 70,
-	"illustrator": "Ken Ikuji",
+	"illustrator": [
+		"Ken Ikuji"
+	],
 	"name": {
 		"en": "Dark Celebi",
 		"fr": "Celebi Obscur"

@@ -24,7 +24,9 @@
 		"fr": "Aspicot"
 	},
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Kokuna",
 		"en": "Kakuna",

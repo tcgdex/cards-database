@@ -24,7 +24,9 @@
 		37
 	],
 	"hp": 60,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Vulpix",
 		"fr": "Goupix"

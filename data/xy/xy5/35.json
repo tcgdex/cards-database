@@ -55,7 +55,9 @@
 		"de": "Moorabbel"
 	},
 	"hp": 150,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Sumpex",
 		"en": "Swampert",

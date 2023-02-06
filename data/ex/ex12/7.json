@@ -53,7 +53,9 @@
 		"en": "Kabuto"
 	},
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Kabutops",
 		"fr": "Kabutops"

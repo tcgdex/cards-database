@@ -32,7 +32,9 @@
 		"fr": "Monorpale"
 	},
 	"hp": 80,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Duokles",
 		"en": "Doublade",

@@ -56,7 +56,9 @@
 		"de": "Shnebedeck"
 	},
 	"hp": 140,
-	"illustrator": "Kazuma Koda",
+	"illustrator": [
+		"Kazuma Koda"
+	],
 	"name": {
 		"de": "Rexblisar",
 		"en": "Abomasnow",

@@ -44,7 +44,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 90,
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"de": "Lektrobal",
 		"en": "Electrode",

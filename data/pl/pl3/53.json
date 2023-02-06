@@ -34,7 +34,9 @@
 		455
 	],
 	"hp": 80,
-	"illustrator": "Satoshi Ohta",
+	"illustrator": [
+		"Satoshi Ohta"
+	],
 	"name": {
 		"en": "Carnivine",
 		"fr": "Vortente"

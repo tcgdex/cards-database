@@ -58,7 +58,9 @@
 		"de": "Wiesor"
 	},
 	"hp": 110,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Wiesenior",
 		"en": "Furret",

@@ -50,7 +50,9 @@
 		"fr": "Yanma"
 	},
 	"hp": 120,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Yanmega",
 		"en": "Yanmega",

@@ -51,7 +51,9 @@
 		"en": "When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged."
 	},
 	"hp": 60,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Memmeon",
 		"en": "Sobble",

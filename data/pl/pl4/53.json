@@ -32,7 +32,9 @@
 	"dexId": [
 		15
 	],
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Beedrill"
 	},

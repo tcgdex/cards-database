@@ -43,7 +43,9 @@
 		385
 	],
 	"hp": 70,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Jirachi",
 		"en": "Jirachi",

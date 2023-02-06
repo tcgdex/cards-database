@@ -38,7 +38,9 @@
 		"fr": "Galekid de la Team Magma"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Team Magma's Lairon",
 		"fr": "Galegon de la Team Magma"

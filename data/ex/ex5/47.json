@@ -35,7 +35,9 @@
 		"en": "Spheal"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Sealeo",
 		"fr": "Phogleur"

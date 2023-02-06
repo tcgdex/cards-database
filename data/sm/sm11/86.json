@@ -52,7 +52,9 @@
 		487
 	],
 	"hp": 130,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Giratina",
 		"en": "Giratina",

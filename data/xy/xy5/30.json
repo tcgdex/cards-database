@@ -28,7 +28,9 @@
 		116
 	],
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Seeper",
 		"en": "Horsea",

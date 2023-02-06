@@ -32,7 +32,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"en": "Eevee"
 	},

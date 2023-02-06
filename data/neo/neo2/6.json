@@ -37,7 +37,9 @@
 		"en": "Kabuto"
 	},
 	"hp": 90,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Kabutops",
 		"fr": "Kabutops"

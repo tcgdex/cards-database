@@ -9,7 +9,9 @@
 		"pt": "Ligue um card de Energia básica da sua pilha de descarte a 1 dos seus Pokémon de Megaevolução.",
 		"de": "Lege 1 Basis-Energiekarte von deinem Ablagestapel an 1 deiner Mega-Entwicklungs-Pokémon an."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "MegaTurbo",
 		"en": "Mega Turbo",

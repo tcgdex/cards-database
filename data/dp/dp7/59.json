@@ -37,7 +37,9 @@
 		"fr": "Skélénox"
 	},
 	"hp": 50,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Duskull",
 		"fr": "Skélénox"

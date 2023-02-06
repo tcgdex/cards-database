@@ -28,7 +28,9 @@
 		602
 	],
 	"hp": 30,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Zapplardin",
 		"en": "Tynamo",

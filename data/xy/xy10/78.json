@@ -52,7 +52,9 @@
 		249
 	],
 	"hp": 120,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Lugia",
 		"en": "Lugia",

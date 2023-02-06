@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
 	},
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Ultimate Zone",
 		"fr": "Zone ultime"

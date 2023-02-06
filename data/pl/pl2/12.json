@@ -36,7 +36,9 @@
 		407
 	],
 	"hp": 80,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Roserade GL",
 		"fr": "Roserade  Niv. 22"

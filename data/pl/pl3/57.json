@@ -34,7 +34,9 @@
 		"fr": "Baudrive"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Drifblim",
 		"fr": "Grodrive"

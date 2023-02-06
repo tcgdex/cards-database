@@ -29,7 +29,9 @@
 		568
 	],
 	"hp": 70,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Unratütox",
 		"en": "Trubbish",

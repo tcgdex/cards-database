@@ -48,7 +48,9 @@
 		"fr": "Lainergie"
 	},
 	"hp": 140,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Ampharos",
 		"en": "Ampharos",

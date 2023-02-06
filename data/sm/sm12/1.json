@@ -68,7 +68,9 @@
 		3
 	],
 	"hp": 270,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Bisaflor & Serpifeu GX",
 		"en": "Venusaur & Snivy GX",

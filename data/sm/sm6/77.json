@@ -53,7 +53,9 @@
 		794
 	],
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Masskito",
 		"en": "Buzzwole",

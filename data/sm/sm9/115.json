@@ -52,7 +52,9 @@
 		"fr": "Noeunoeuf"
 	},
 	"hp": 160,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Alola-Kokowei",
 		"en": "Alolan Exeggutor",

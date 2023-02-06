@@ -53,7 +53,9 @@
 		131
 	],
 	"hp": 210,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Lapras V",
 		"en": "Lapras V",

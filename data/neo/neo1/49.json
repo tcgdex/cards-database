@@ -41,7 +41,9 @@
 		"en": "Hoppip"
 	},
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Skiploom",
 		"fr": "Floravol"

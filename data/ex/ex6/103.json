@@ -2,7 +2,9 @@
 	"$schema": "../../../meta/definitions/card.schema.json",
 	"category": "Energy",
 	"energyType": "Special",
-	"illustrator": "Tokumi Akabane",
+	"illustrator": [
+		"Tokumi Akabane"
+	],
 	"name": {
 		"en": "Multi Energy",
 		"fr": "Énergies multiples"

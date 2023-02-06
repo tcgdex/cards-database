@@ -22,7 +22,9 @@
 		494
 	],
 	"hp": 70,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Victini",
 		"en": "Victini",

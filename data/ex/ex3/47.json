@@ -37,7 +37,9 @@
 		"en": "Trapinch"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Vibrava",
 		"fr": "Vibraninf"

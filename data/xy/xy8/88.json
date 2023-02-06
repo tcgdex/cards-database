@@ -61,7 +61,9 @@
 		"de": "Tuska"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Noktuska",
 		"en": "Cacturne",

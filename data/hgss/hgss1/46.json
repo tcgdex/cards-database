@@ -36,7 +36,9 @@
 		"fr": "Chenipan"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Metapod",
 		"fr": "Chrysacier"

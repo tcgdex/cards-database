@@ -54,7 +54,9 @@
 		380
 	],
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Latias",
 		"en": "Latias",

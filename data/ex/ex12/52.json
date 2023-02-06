@@ -33,7 +33,9 @@
 		92
 	],
 	"hp": 40,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Gastly",
 		"fr": "Fantominus"

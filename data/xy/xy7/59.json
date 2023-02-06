@@ -51,7 +51,9 @@
 		"de": "Viscora"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Viscargot",
 		"en": "Sliggoo",

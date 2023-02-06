@@ -60,7 +60,9 @@
 		"de": "Floette"
 	},
 	"hp": 110,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Florges",
 		"en": "Florges",

@@ -45,7 +45,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 220,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Glurak V",
 		"en": "Charizard V",

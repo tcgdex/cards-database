@@ -46,7 +46,9 @@
 		98
 	],
 	"hp": 80,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Krabby",
 		"en": "Krabby",

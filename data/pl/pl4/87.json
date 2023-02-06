@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "Attach Expert Belt to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If\nthat Pokémon is Knocked Out, discard this card."
 	},
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Expert Belt"
 	},

@@ -29,7 +29,9 @@
 		374
 	],
 	"hp": 60,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Tanhel",
 		"en": "Beldum",

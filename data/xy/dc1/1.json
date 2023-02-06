@@ -22,7 +22,9 @@
 		322
 	],
 	"hp": 70,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Team Magma's Numel",
 		"fr": "Chamallot de la Team Magma"

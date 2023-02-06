@@ -53,7 +53,9 @@
 		"fr": "Cheniti"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Mothim",
 		"fr": "Papilord"

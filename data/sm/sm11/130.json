@@ -46,7 +46,9 @@
 		"fr": "Cornèbre"
 	},
 	"hp": 110,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Kramshef",
 		"en": "Honchkrow",

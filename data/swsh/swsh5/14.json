@@ -29,7 +29,9 @@
 		"en": "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration."
 	},
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Imantis",
 		"en": "Fomantis",

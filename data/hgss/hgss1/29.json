@@ -45,7 +45,9 @@
 		"fr": "Sabelette"
 	},
 	"hp": 80,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Sandslash",
 		"fr": "Sablaireau"

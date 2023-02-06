@@ -52,7 +52,9 @@
 		"en": "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
 	},
 	"hp": 130,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Xerneas",
 		"en": "Xerneas",

@@ -41,7 +41,9 @@
 		"fr": "Lixy"
 	},
 	"hp": 80,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Luxio",
 		"fr": "Luxio"

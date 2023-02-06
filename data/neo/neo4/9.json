@@ -39,7 +39,9 @@
 		"en": "Scyther"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Scizor",
 		"fr": "Cizayox obscur"

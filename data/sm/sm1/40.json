@@ -50,7 +50,9 @@
 		"fr": "Otaquin"
 	},
 	"hp": 90,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Marikeck",
 		"en": "Brionne",

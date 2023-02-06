@@ -52,7 +52,9 @@
 		386
 	],
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Deoxys",
 		"en": "Deoxys",

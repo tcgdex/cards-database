@@ -35,7 +35,9 @@
 		384
 	],
 	"hp": 80,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Rayquaza",
 		"fr": "Rayquaza"

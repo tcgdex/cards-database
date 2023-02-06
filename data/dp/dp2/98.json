@@ -21,7 +21,9 @@
 		403
 	],
 	"hp": 60,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"en": "Shinx",
 		"fr": "Lixy"

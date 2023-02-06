@@ -36,7 +36,9 @@
 		383
 	],
 	"hp": 100,
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Groudon",
 		"fr": "Groudon"

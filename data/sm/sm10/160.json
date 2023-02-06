@@ -50,7 +50,9 @@
 		"fr": "Chaglam"
 	},
 	"hp": 120,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Shnurgarst",
 		"en": "Purugly",

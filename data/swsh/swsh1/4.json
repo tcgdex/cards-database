@@ -64,7 +64,9 @@
 		"de": "Roselia"
 	},
 	"hp": 120,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Roserade",
 		"en": "Roserade",

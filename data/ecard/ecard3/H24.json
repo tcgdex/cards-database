@@ -35,7 +35,9 @@
 		"en": "Poliwhirl"
 	},
 	"hp": 110,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Poliwrath"
 	},

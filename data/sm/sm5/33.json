@@ -48,7 +48,9 @@
 		"fr": "Tiplouf"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Pliprin",
 		"en": "Prinplup",

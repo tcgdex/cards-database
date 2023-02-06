@@ -54,7 +54,9 @@
 		"en": "Makuhita"
 	},
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Hariyama ex",
 		"fr": "Hariyama ex"

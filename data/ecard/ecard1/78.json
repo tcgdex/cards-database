@@ -37,7 +37,9 @@
 		"en": "Oddish"
 	},
 	"hp": 70,
-	"illustrator": "Yuichi Sawayama",
+	"illustrator": [
+		"Yuichi Sawayama"
+	],
 	"name": {
 		"en": "Gloom",
 		"fr": "Ortide"

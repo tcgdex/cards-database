@@ -44,7 +44,9 @@
 		621
 	],
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Shardrago",
 		"en": "Druddigon",

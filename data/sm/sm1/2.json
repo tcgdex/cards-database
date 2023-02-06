@@ -48,7 +48,9 @@
 		"fr": "Chenipan"
 	},
 	"hp": 80,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Safcon",
 		"en": "Metapod",

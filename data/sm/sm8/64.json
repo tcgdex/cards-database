@@ -30,7 +30,9 @@
 		728
 	],
 	"hp": 60,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Robball",
 		"en": "Popplio",

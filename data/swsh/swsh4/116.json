@@ -43,7 +43,9 @@
 		"en": "If you anger it, it will do more than rampage. It will also burst out strong magnetism, causing nearby machines to break."
 	},
 	"hp": 70,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Tanhel",
 		"en": "Beldum",

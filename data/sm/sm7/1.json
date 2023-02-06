@@ -30,7 +30,9 @@
 		69
 	],
 	"hp": 60,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"de": "Knofensa",
 		"en": "Bellsprout",

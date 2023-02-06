@@ -39,7 +39,9 @@
 		"fr": "Ouisticram"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Panpyro",
 		"en": "Monferno",

@@ -9,7 +9,9 @@
 		"pt": "Troque 1 carta da sua mão pela carta de cima do seu baralho.",
 		"de": "Tausche 1 Karte aus deiner Hand gegen die oberste Karte deines Decks aus."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Tauschbecher",
 		"en": "Switching Cups",

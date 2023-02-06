@@ -42,7 +42,9 @@
 		"fr": "Makuhita"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Hariyama",
 		"en": "Hariyama",

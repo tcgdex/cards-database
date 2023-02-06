@@ -58,7 +58,9 @@
 		"de": "Nincada"
 	},
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Ninjask",
 		"en": "Ninjask",

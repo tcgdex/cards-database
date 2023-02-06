@@ -39,7 +39,9 @@
 		"en": "Remoraid"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Octillery",
 		"fr": "Octillery"

@@ -44,7 +44,9 @@
 		"en": "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
 	},
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Scoppel",
 		"en": "Bunnelby",

@@ -44,7 +44,9 @@
 		222
 	],
 	"hp": 80,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Corasonn",
 		"en": "Corsola",

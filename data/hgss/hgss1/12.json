@@ -42,7 +42,9 @@
 		"fr": "Ramoloss"
 	},
 	"hp": 80,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Slowking",
 		"fr": "Roigada"

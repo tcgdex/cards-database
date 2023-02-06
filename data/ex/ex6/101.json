@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "{{Infobox Faculté (JCC) | description=Retirez à 1 de vos Pokémon 2 marqueurs de dégât (ou un s'il n'y en a qu'un). }"
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Potion",
 		"fr": "Potion"

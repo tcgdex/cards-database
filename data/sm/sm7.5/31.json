@@ -42,7 +42,9 @@
 		746
 	],
 	"hp": 30,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Lusardin",
 		"en": "Wishiwashi",

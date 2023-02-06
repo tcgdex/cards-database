@@ -36,7 +36,9 @@
 		299
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Nosepass",
 		"fr": "Tarinor"

@@ -55,7 +55,9 @@
 		"en": "Galarian Ponyta"
 	},
 	"hp": 100,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Galar-Gallopa",
 		"en": "Galarian Rapidash",

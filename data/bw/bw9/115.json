@@ -9,7 +9,9 @@
 		"pt": "Seu oponente revela a mão e embaralha todos os cards de Item encontrados em sua mão no próprio baralho. Em seguida, compre um número de cards igual ao número de cards de Item que seu oponente embaralhou em seu deck.",
 		"de": "Dein Gegner deckt seine Handkarten auf und mischt alle dort gefundenen Itemkarten in sein Deck. Ziehe anschließend genauso viele Karten, wie dein Gegner Itemkarten in sein Deck gemischt hat."
 	},
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "G-Cis",
 		"en": "Ghetsis",

@@ -46,7 +46,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 180,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Tapu Bulu-GX",
 		"fr": "Tokotoro-GX"

@@ -50,7 +50,9 @@
 		"fr": "Croquine"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Frubaila",
 		"en": "Steenee",

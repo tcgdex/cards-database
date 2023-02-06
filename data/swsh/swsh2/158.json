@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Você e seu oponente jogam \"pedra, papel e tesoura\" até alguém vencer. Se você vencer, compre 2 cartas a mais.",
 		"de": "Ziehe 2 Karten. Du und dein Gegner spielt Schere/Stein/Papier, bis jemand gewinnt. Wenn du gewinnst, ziehe 2 Karten mehr."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Stuart",
 		"en": "Dan",

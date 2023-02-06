@@ -15,7 +15,9 @@
 		"en": "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there."
 	},
 	"hp": 50,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"en": "Gastly"
 	},

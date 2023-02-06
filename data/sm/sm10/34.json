@@ -55,7 +55,9 @@
 		"fr": "Carapuce"
 	},
 	"hp": 70,
-	"illustrator": "Hiroki Asanuma",
+	"illustrator": [
+		"Hiroki Asanuma"
+	],
 	"name": {
 		"de": "Schillok",
 		"en": "Wartortle",

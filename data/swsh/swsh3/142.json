@@ -52,7 +52,9 @@
 		"de": "Eneco"
 	},
 	"hp": 100,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Enekoro",
 		"en": "Delcatty",

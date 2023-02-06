@@ -40,7 +40,9 @@
 		"fr": "Magneton"
 	},
 	"hp": 120,
-	"illustrator": "Tomoaki Imakuni",
+	"illustrator": [
+		"Tomoaki Imakuni"
+	],
 	"name": {
 		"en": "Magnezone",
 		"fr": "Magnézone"

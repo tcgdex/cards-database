@@ -9,7 +9,9 @@
 		"pt": "Jogue 1 moeda. Se sair cara, ligue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon Básicos que não seja um Pokémon-GX.",
 		"de": "Wirf 1 Münze. Lege bei Kopf 1 Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Basis-Pokémon an, das kein Pokémon-GX ist."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Turbopflaster",
 		"en": "Turbo Patch",

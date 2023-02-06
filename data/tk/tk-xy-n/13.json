@@ -33,7 +33,9 @@
 		"de": "eF-eM"
 	},
 	"hp": 110,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "UHaFnir",
 		"en": "Noivern",

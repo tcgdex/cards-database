@@ -26,7 +26,9 @@
 		595
 	],
 	"hp": 30,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Wattzapf",
 		"en": "Joltik",

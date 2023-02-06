@@ -37,7 +37,9 @@
 		"en": "Bagon"
 	},
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Shelgon δ",
 		"fr": "Drackhaus δ ESPÈCES DELTA"

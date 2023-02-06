@@ -37,7 +37,9 @@
 		"fr": "Laporeille"
 	},
 	"hp": 80,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Lopunny",
 		"fr": "Lockpin"

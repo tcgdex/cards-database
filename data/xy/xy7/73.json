@@ -9,7 +9,9 @@
 		"pt": "A qualquer momento entre as vezes de jogar, coloque 2 contadores de danos em cada um dos Pokémon Megaevolução.",
 		"de": "Lege zu einem beliebigen Zeitpunkt zwischen den Zügen 2 Schadensmarken auf jedes Mega-Entwicklungs-Pokémon."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Verblasstes Dorf",
 		"en": "Faded Town",

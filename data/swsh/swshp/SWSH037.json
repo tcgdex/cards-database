@@ -51,7 +51,9 @@
 		"fr": "Diamat"
 	},
 	"hp": 160,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Trikephalo",
 		"en": "Hydreigon",

@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada tiver o ataque Investida, poderá usar o ataque GX desta carta (você ainda precisa da Energia necessária para usar este ataque).\n\nColorlessColorlessColorlessColorless Carreira Atropeladora GX 200+\nJogue 1 moeda até sair coroa. Este ataque causa 40 pontos de dano a mais para cada cara (você não pode usar mais de 1 ataque GX por partida).",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, die Attacke Tackle hat, kann es die GX-Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)\n\nColorlessColorlessColorlessColorless Sprintangriff GX 200+\nWirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 40 Schadenspunkte mehr pro Kopf zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Normium Z: Tackle",
 		"en": "Normalium Z: Tackle",

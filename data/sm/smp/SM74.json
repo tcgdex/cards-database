@@ -52,7 +52,9 @@
 		377
 	],
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Regirock",
 		"en": "Regirock",

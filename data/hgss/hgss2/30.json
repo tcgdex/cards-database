@@ -28,7 +28,9 @@
 		"fr": "Nosferapti"
 	},
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Golbat",
 		"fr": "Nosferalto"

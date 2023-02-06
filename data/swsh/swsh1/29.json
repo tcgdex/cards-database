@@ -50,7 +50,9 @@
 		776
 	],
 	"hp": 130,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Tortunator",
 		"en": "Turtonator",

@@ -58,7 +58,9 @@
 		"de": "Waumboll"
 	},
 	"hp": 90,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Elfun",
 		"en": "Whimsicott",

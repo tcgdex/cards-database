@@ -29,7 +29,9 @@
 		588
 	],
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Laukaps",
 		"en": "Karrablast",

@@ -37,7 +37,9 @@
 		"fr": "Insecateur"
 	},
 	"hp": 90,
-	"illustrator": "Kent Kanetsuna/Direc. Shinji Higuchi",
+	"illustrator": [
+		"Kent Kanetsuna/Direc. Shinji Higuchi"
+	],
 	"name": {
 		"en": "Scizor",
 		"fr": "Cizayox"

@@ -33,7 +33,9 @@
 		198
 	],
 	"hp": 50,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"en": "Murkrow",
 		"fr": "Cornèbre"

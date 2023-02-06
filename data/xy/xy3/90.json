@@ -9,7 +9,9 @@
 		"pt": "Os ataques de cada Pokémon Fighting em jogo (seus e do seu oponente) causam 20 de danos adicionais ao Pokémon -EX Defensor (antes da aplicação de Fraqueza e Resistência).",
 		"de": "Die Angriffe jedes Fighting-Pokémon im Spiel (deiner und der deines Gegners)fügen dem Verteidigenden Pokémon-EX 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Kampfhalle",
 		"en": "Fighting Stadium",

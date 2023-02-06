@@ -53,7 +53,9 @@
 		197
 	],
 	"hp": 200,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Nachtara V",
 		"en": "Umbreon V",

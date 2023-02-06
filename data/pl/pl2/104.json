@@ -35,7 +35,9 @@
 		419
 	],
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Floatzel GL",
 		"fr": "Mustéflott  Niv. X"

@@ -35,7 +35,9 @@
 		478
 	],
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Froslass GL",
 		"fr": "Momartik  Niv. 44"

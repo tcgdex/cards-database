@@ -6,7 +6,9 @@
 		"en": "LOOK AT ALL OF YOUR FACE DOWN PRIZE CARDS!"
 	},
 	"hp": 0,
-	"illustrator": "Milky Isobe",
+	"illustrator": [
+		"Milky Isobe"
+	],
 	"name": {
 		"en": "Alph Lithograph",
 		"fr": "Lithographie d’Alpha"

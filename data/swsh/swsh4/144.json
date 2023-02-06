@@ -52,7 +52,9 @@
 		"de": "Peppeck"
 	},
 	"hp": 80,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Trompeck",
 		"en": "Trumbeak",

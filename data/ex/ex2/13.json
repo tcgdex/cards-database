@@ -45,7 +45,9 @@
 		338
 	],
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Solrock",
 		"fr": "Solaroc"

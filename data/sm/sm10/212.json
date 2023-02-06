@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se descartar 2 cartas de Energia Metal da sua mão.\n\nEmbaralhe 1 carta de Treinador da sua pilha de descarte no seu baralho.",
 		"de": "Du kannst diese Karte nur spielen, wenn du 2 Metal-Energiekarten aus deiner Hand auf deinen Ablagestapel legst.\n\nMische 1 Trainerkarte aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Marlon",
 		"en": "Molayne",

@@ -38,7 +38,9 @@
 		251
 	],
 	"hp": 50,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Shining Celebi",
 		"fr": "Celebi brillant"

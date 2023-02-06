@@ -60,7 +60,9 @@
 		"fr": "Barloche"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Welsar",
 		"en": "Whiscash",

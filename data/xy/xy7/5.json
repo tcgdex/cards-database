@@ -28,7 +28,9 @@
 		167
 	],
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Webarak",
 		"en": "Spinarak",

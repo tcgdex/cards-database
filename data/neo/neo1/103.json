@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, déplacez une carte Évolution (s'il y en a) de votre pile de défausse vers votre main. Si c'est pile, déplacez une carte Pokémon de base (s'il y en a) de votre pile de défausse vers votre main."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Super Rod",
 		"fr": "Méga Canne"

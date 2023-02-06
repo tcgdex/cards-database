@@ -36,7 +36,9 @@
 		"fr": "Tritonde"
 	},
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Mebrana",
 		"en": "Palpitoad",

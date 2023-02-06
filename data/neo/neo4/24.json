@@ -42,7 +42,9 @@
 		"en": "Ledyba"
 	},
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Light Ledian",
 		"fr": "Coxyclaque lumineux"

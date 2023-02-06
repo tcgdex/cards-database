@@ -51,7 +51,9 @@
 		"de": "Sniebel"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Snibunna",
 		"en": "Weavile",

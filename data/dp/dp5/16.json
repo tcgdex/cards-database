@@ -50,7 +50,9 @@
 		"fr": "Archéomire"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Bronzong",
 		"fr": "Archéodong"

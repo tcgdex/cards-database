@@ -45,7 +45,9 @@
 		"fr": "Crikzik"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Kricketune",
 		"fr": "Mélokrik"

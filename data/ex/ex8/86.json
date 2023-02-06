@@ -5,7 +5,9 @@
 		"fr": "Lancez une pièce. Si c'est face, cherchez dans votre pile de défausse 2 cartes Énergie (ou 1 s'il n'y en a qu'1), montrez-les à votre adversaire et mélangez-les à votre deck."
 	},
 	"energyType": "Special",
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Energy Charge",
 		"fr": "Recharge de puissance"

@@ -64,7 +64,9 @@
 		"de": "Wolly"
 	},
 	"hp": 130,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Zwollock",
 		"en": "Dubwool",

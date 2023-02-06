@@ -49,7 +49,9 @@
 		"fr": "Carabing"
 	},
 	"hp": 130,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Cavalanzas",
 		"en": "Escavalier",

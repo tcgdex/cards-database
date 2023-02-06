@@ -51,7 +51,9 @@
 		"fr": "Écrémeuh"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Miltank",
 		"fr": "Écrémeuh"

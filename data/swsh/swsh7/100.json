@@ -46,7 +46,9 @@
 		569
 	],
 	"hp": 210,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Deponitox V",
 		"en": "Garbodor V",

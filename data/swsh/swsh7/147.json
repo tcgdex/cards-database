@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon V ao qual esta carta está ligada tiver \"Vaporeon\", \"Jolteon\" ou \"Flareon\" em seu nome, seus ataques custarão Colorless a menos.",
 		"de": "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Aquana\", \"Blitza\" oder \"Flamara\" zum Namen gehört, verringern sich die Kosten seiner Attacken um Colorless."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Elementarorden",
 		"en": "Elemental Badge",

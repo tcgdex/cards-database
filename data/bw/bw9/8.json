@@ -42,7 +42,9 @@
 		"fr": "Massko"
 	},
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Gewaldro",
 		"en": "Sceptile",

@@ -18,7 +18,9 @@
 		474
 	],
 	"hp": 130,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Porygon-Z",
 		"fr": "Porygon-Z"

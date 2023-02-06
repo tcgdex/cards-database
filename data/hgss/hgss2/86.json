@@ -40,7 +40,9 @@
 		"fr": "Loupio"
 	},
 	"hp": 110,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Lanturn",
 		"fr": "Lanturn"

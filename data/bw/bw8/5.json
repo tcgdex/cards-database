@@ -39,7 +39,9 @@
 		"fr": "Apitrini"
 	},
 	"hp": 100,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Honweisel",
 		"en": "Vespiquen",

@@ -40,7 +40,9 @@
 		"de": "Wommel"
 	},
 	"hp": 70,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Bandelby",
 		"en": "Ribombee",

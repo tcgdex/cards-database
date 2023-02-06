@@ -56,7 +56,9 @@
 		"fr": "Tentacool"
 	},
 	"hp": 100,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Tentoxa",
 		"en": "Tentacruel",

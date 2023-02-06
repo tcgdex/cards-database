@@ -41,7 +41,9 @@
 		"en": "Seedot"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Nuzleaf",
 		"fr": "Pifeuil"

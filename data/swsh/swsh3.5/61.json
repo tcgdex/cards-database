@@ -9,7 +9,9 @@
 		"pt": "Cura 30 de danos de 1 Pokémon seu.",
 		"de": "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Trank",
 		"en": "Potion",

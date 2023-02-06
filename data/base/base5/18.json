@@ -45,7 +45,9 @@
 		"en": "Kadabra"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Dark Alakazam",
 		"fr": "Alakazam obscur"

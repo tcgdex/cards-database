@@ -54,7 +54,9 @@
 		486
 	],
 	"hp": 180,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Regigigas",
 		"en": "Regigigas",

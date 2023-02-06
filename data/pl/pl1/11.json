@@ -52,7 +52,9 @@
 		"fr": "Dynavolt"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Manectric",
 		"fr": "Élecsprint"

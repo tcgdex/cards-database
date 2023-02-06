@@ -35,7 +35,9 @@
 		615
 	],
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Frigometri",
 		"en": "Cryogonal",

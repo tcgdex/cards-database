@@ -37,7 +37,9 @@
 		"en": "Magnemite"
 	},
 	"hp": 70,
-	"illustrator": "Emi Miwa",
+	"illustrator": [
+		"Emi Miwa"
+	],
 	"name": {
 		"en": "Dark Magneton"
 	},

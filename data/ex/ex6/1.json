@@ -40,7 +40,9 @@
 		"en": "Kakuna"
 	},
 	"hp": 90,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Beedrill",
 		"fr": "Dardargnan"

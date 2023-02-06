@@ -4,7 +4,9 @@
 	"effect": {
 		"en": "Discard your hand and draw 7 cards."
 	},
-	"illustrator": "Yusuke Kozaki",
+	"illustrator": [
+		"Yusuke Kozaki"
+	],
 	"name": {
 		"en": "Professor's Research"
 	},

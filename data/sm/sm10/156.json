@@ -47,7 +47,9 @@
 		"fr": "Porygon"
 	},
 	"hp": 80,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Porygon2",
 		"en": "Porygon2",

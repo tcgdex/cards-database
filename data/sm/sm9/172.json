@@ -9,7 +9,9 @@
 		"pt": "Embaralhe 6 cartas de Pokémon e de Energia básica da sua pilha de descarte no seu baralho em qualquer combinação.",
 		"de": "Mische eine beliebige Kombination aus 6 Pokémon und Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Rockos Durchhaltevermögen",
 		"en": "Brock’s Grit",

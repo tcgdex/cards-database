@@ -48,7 +48,9 @@
 		"fr": "Draco"
 	},
 	"hp": 160,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Dragoran",
 		"en": "Dragonite",

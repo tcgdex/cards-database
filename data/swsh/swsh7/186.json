@@ -53,7 +53,9 @@
 		308
 	],
 	"hp": 210,
-	"illustrator": "KIYOTAKA OSHIYAMA",
+	"illustrator": [
+		"KIYOTAKA OSHIYAMA"
+	],
 	"name": {
 		"de": "Meditalis V",
 		"en": "Medicham V",

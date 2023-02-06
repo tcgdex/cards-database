@@ -53,7 +53,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 230,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Despotar V",
 		"en": "Tyranitar V",

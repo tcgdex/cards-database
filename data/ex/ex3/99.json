@@ -39,7 +39,9 @@
 		"en": "Charmander"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Charmeleon",
 		"fr": "Reptincel"

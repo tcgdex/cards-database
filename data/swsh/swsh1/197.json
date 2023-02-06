@@ -56,7 +56,9 @@
 		143
 	],
 	"hp": 220,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Relaxo V",
 		"en": "Snorlax V",

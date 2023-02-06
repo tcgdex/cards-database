@@ -1,5 +1,5 @@
 import { getSets, setToSetSingle } from '../utils/setUtil'
-import { SupportedLanguages } from '../../../interfaces'
+import { SupportedLanguages } from '../../../meta/definitions/database'
 import { FileFunction } from '../compilerInterfaces'
 import { getCards } from '../utils/cardUtil'
 import { getSeries } from '../utils/serieUtil'
@@ -24,9 +24,9 @@ const fn: FileFunction = async (lang: SupportedLanguages) => {
 	const series = await getSeries(lang)
 
 	for (const serie of series) {
-		stats.sets[serie.id] = {}
-		for (const set of langSets.filter((set) => set.serie.id === serie.id)) {
-			stats.sets[serie.id][set.id] = {
+		stats.sets[serie.data.id] = {}
+		for (const set of langSets.filter((set) => set.serie.id === serie.data.id)) {
+			stats.sets[serie.data.id][set.id] = {
 				name: set.name,
 				count: set.cards.length,
 				images: set.cards.reduce((p, card) => p + (card.image ? 1 : 0), 0)

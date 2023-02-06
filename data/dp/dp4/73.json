@@ -35,7 +35,9 @@
 		"fr": "Aspicot"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Kakuna",
 		"fr": "Coconfort"

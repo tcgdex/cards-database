@@ -53,7 +53,9 @@
 		25
 	],
 	"hp": 190,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Fliegendes Pikachu V",
 		"en": "Flying Pikachu V",

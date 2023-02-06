@@ -5,7 +5,9 @@
 		"fr": "Énergie Sup fournit de l'Énergie Colorless. Si vous possédez plus de cartes Récompense que votre adversaire et que cette carte est attachée à un Pokémon (Pokémon LV.X exclus), Énergie Sup fournit de l'Énergie ColorlessColorless."
 	},
 	"energyType": "Special",
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Upper Energy",
 		"fr": "Énergie Sup"

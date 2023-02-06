@@ -28,7 +28,9 @@
 		353
 	],
 	"hp": 50,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Shuppet",
 		"en": "Shuppet",

@@ -38,7 +38,9 @@
 		"en": "Beldum"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Metang",
 		"fr": "Metang"

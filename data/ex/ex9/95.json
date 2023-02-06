@@ -53,7 +53,9 @@
 		"en": "Meditite"
 	},
 	"hp": 110,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Medicham ex",
 		"fr": "Charmina ex"

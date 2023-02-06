@@ -66,7 +66,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 240,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Pikachu & Zekrom GX",
 		"en": "Pikachu & Zekrom GX",

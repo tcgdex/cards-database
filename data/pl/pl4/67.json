@@ -30,7 +30,9 @@
 	"evolveFrom": {
 		"en": "Dome Fossil"
 	},
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Kabuto"
 	},

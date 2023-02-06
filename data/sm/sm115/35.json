@@ -40,7 +40,9 @@
 		"fr": "Gravalanch"
 	},
 	"hp": 170,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Golem",
 		"fr": "Grolem"

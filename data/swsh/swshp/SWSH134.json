@@ -31,7 +31,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 180,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"en": "Dark Sylveon V"
 	},

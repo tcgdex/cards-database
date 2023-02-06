@@ -52,7 +52,9 @@
 		818
 	],
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Intelleon V",
 		"en": "Inteleon V",

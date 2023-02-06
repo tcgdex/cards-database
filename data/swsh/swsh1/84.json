@@ -55,7 +55,9 @@
 		"de": "Nebulak"
 	},
 	"hp": 70,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Alpollo",
 		"en": "Haunter",

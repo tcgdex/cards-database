@@ -39,7 +39,9 @@
 		"en": "Quilava"
 	},
 	"hp": 100,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Typhlosion δ",
 		"fr": "Typhlosion δ ESPÈCES DELTA"

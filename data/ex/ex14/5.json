@@ -53,7 +53,9 @@
 		"en": "Diglett"
 	},
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Dugtrio",
 		"fr": "Triopikeur"

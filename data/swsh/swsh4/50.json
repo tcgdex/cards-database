@@ -31,7 +31,9 @@
 		"en": "This rough Pokémon stores energy inside its body, then sweeps across the land, shooting off electricity."
 	},
 	"hp": 110,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Raikou",
 		"en": "Raikou",

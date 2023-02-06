@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
 	},
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Sleep!",
 		"fr": "Bonne nuit, les petits !"

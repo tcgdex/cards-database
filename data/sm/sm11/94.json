@@ -33,7 +33,9 @@
 		"fr": "Monorpale"
 	},
 	"hp": 90,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Duokles",
 		"en": "Doublade",

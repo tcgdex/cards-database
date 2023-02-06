@@ -40,7 +40,9 @@
 		"en": "Seadra"
 	},
 	"hp": 120,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Kingdra",
 		"fr": "Hyporoi"

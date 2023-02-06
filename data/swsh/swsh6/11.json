@@ -43,7 +43,9 @@
 		"en": "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons."
 	},
 	"hp": 60,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"de": "Sesokitz",
 		"en": "Deerling",

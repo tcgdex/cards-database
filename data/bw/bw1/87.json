@@ -22,7 +22,9 @@
 		531
 	],
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Ohrdoch",
 		"en": "Audino",

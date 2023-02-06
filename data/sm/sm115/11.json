@@ -17,7 +17,9 @@
 		54
 	],
 	"hp": 60,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"en": "Psyduck",
 		"fr": "Psykokwak"

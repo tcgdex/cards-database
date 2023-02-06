@@ -53,7 +53,9 @@
 		880
 	],
 	"hp": 220,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Lectragon V",
 		"en": "Dracozolt V",

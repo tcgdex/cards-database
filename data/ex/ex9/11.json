@@ -52,7 +52,9 @@
 		"en": "Marshtomp"
 	},
 	"hp": 110,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Swampert",
 		"fr": "Laggron"

@@ -62,7 +62,9 @@
 		"de": "Seltenes Fossil"
 	},
 	"hp": 160,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Lectragon",
 		"en": "Dracozolt",

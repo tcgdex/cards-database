@@ -46,7 +46,9 @@
 		"fr": "Miaouss"
 	},
 	"hp": 90,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Snobilikat",
 		"en": "Persian",

@@ -51,7 +51,9 @@
 		776
 	],
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Turtonator-GX",
 		"fr": "Boumata-GX"

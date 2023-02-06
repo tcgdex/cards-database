@@ -38,7 +38,9 @@
 		"fr": "Bulbizarre"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Ivysaur",
 		"fr": "Herbizarre"

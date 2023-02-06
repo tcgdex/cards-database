@@ -52,7 +52,9 @@
 		"fr": "Wagomine"
 	},
 	"hp": 160,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Montecarbo",
 		"en": "Coalossal",

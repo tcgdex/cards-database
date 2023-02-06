@@ -37,7 +37,9 @@
 		"de": "Vegimak"
 	},
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Vegichita",
 		"en": "Simisage",

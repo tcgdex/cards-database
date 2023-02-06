@@ -37,7 +37,9 @@
 		"de": "Skallyk"
 	},
 	"hp": 120,
-	"illustrator": "Narumi Sato",
+	"illustrator": [
+		"Narumi Sato"
+	],
 	"name": {
 		"de": "Grypheldis",
 		"en": "Mandibuzz",

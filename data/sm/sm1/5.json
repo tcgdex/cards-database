@@ -58,7 +58,9 @@
 		"fr": "Paras"
 	},
 	"hp": 110,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Parasek",
 		"en": "Parasect",

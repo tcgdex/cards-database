@@ -56,7 +56,9 @@
 		"fr": "Écaïd"
 	},
 	"hp": 160,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Grandiras",
 		"en": "Kommo-o",

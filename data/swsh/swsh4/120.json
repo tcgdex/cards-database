@@ -61,7 +61,9 @@
 		"de": "Riolu"
 	},
 	"hp": 130,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Lucario",
 		"en": "Lucario",

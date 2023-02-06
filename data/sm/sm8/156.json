@@ -51,7 +51,9 @@
 		234
 	],
 	"hp": 110,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Damhirplex",
 		"en": "Stantler",

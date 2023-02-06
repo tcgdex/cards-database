@@ -36,7 +36,9 @@
 		"en": "Zweilous"
 	},
 	"hp": 150,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Hydreigon"
 	},

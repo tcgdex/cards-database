@@ -16,7 +16,9 @@
 		"en": "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
 	},
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Audino"
 	},

@@ -22,7 +22,9 @@
 		636
 	],
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Ignivor",
 		"en": "Larvesta",

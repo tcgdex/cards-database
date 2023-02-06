@@ -56,7 +56,9 @@
 		"fr": "Vémini"
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Agoyon",
 		"en": "Naganadel",

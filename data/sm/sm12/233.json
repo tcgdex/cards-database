@@ -9,7 +9,9 @@
 		"pt": "Procure por até 3 Pokémon Básicos de tipos diferentes no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon verschiedenen Typs und lege sie auf deine Bank. Mische anschließend dein Deck."
 	},
-	"illustrator": "Nabana Kensaku",
+	"illustrator": [
+		"Nabana Kensaku"
+	],
 	"name": {
 		"de": "Professor Eichs Vorbereitung",
 		"en": "Professor Oak’s Setup",

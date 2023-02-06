@@ -50,7 +50,9 @@
 		"fr": "Manglouton"
 	},
 	"hp": 110,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Manguspektor",
 		"en": "Gumshoos",

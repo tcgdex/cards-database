@@ -52,7 +52,9 @@
 		442
 	],
 	"hp": 70,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Kryppuk",
 		"en": "Spiritomb",

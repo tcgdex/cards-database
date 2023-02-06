@@ -33,7 +33,9 @@
 		35
 	],
 	"hp": 50,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Clefairy",
 		"fr": "Mélofée"

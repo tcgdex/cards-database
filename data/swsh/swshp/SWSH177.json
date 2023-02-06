@@ -32,7 +32,9 @@
 		"en": "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water."
 	},
 	"hp": 70,
-	"illustrator": "The Pokémon Company Art Team",
+	"illustrator": [
+		"The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Special Delivery Bidoof"
 	},

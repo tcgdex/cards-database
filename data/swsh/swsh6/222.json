@@ -52,7 +52,9 @@
 		"de": "Voltobal"
 	},
 	"hp": 90,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Lektrobal",
 		"en": "Electrode",

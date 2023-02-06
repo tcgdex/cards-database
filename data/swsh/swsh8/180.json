@@ -28,7 +28,9 @@
 		"en": "These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth."
 	},
 	"hp": 70,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Galar-Mauzi",
 		"en": "Galarian Meowth",

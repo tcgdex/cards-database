@@ -42,7 +42,9 @@
 		"en": "Quilava"
 	},
 	"hp": 110,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Typhlosion",
 		"fr": "Typhlosion"

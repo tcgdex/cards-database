@@ -61,7 +61,9 @@
 		"de": "Nasgnet"
 	},
 	"hp": 110,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Voluminas",
 		"en": "Probopass",

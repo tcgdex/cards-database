@@ -35,7 +35,9 @@
 		"en": "Togepi"
 	},
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Togetic δ",
 		"fr": "Togetic δ ESPÈCES DELTA"

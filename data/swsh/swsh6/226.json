@@ -9,7 +9,9 @@
 		"pt": "Coloque 1 Energia Especial ligada a 1 dos Pokémon do seu oponente como a carta de baixo do baralho dele(a).",
 		"de": "Lege 1 an ein Pokémon deines Gegners angelegte Spezial-Energie unter sein Deck."
 	},
-	"illustrator": "sadaji",
+	"illustrator": [
+		"sadaji"
+	],
 	"name": {
 		"de": "Wellenfächer",
 		"en": "Fan of Waves",

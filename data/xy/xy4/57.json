@@ -60,7 +60,9 @@
 		"de": "Felilou"
 	},
 	"hp": 90,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Kleoparda",
 		"en": "Liepard",

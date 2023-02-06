@@ -24,7 +24,9 @@
 		37
 	],
 	"hp": 70,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Vulpix",
 		"en": "Vulpix",

@@ -28,7 +28,9 @@
 		25
 	],
 	"hp": 90,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Meisterdetektiv Pikachu",
 		"en": "Detective Pikachu",

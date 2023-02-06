@@ -36,7 +36,9 @@
 		336
 	],
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Team Aqua's Seviper",
 		"fr": "Séviper de la Team Aqua"

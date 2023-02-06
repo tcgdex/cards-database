@@ -60,7 +60,9 @@
 		"de": "Driftlon"
 	},
 	"hp": 100,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Drifzepeli",
 		"en": "Drifblim",

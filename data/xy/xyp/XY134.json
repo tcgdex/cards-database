@@ -23,7 +23,9 @@
 		"en": "Empoleon"
 	},
 	"hp": 170,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Empoleon BREAK"
 	},

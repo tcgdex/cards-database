@@ -31,7 +31,9 @@
 		258
 	],
 	"hp": 60,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Mudkip",
 		"fr": "Gobou"

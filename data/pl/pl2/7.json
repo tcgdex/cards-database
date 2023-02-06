@@ -44,7 +44,9 @@
 		385
 	],
 	"hp": 60,
-	"illustrator": "Kenkichi Toyama",
+	"illustrator": [
+		"Kenkichi Toyama"
+	],
 	"name": {
 		"en": "Jirachi",
 		"fr": "Jirachi Niv. 39"

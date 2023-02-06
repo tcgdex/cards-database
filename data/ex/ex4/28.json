@@ -32,7 +32,9 @@
 		171
 	],
 	"hp": 80,
-	"illustrator": "Jungo Suzuki",
+	"illustrator": [
+		"Jungo Suzuki"
+	],
 	"name": {
 		"en": "Team Aqua's Lanturn",
 		"fr": "Lanturn de Team Aqua"

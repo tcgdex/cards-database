@@ -55,7 +55,9 @@
 		721
 	],
 	"hp": 130,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Schimmerndes Volcanion",
 		"en": "Shining Volcanion",

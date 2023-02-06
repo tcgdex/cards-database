@@ -35,7 +35,9 @@
 		213
 	],
 	"hp": 60,
-	"illustrator": "Emi Yoshida",
+	"illustrator": [
+		"Emi Yoshida"
+	],
 	"name": {
 		"en": "Shuckle",
 		"fr": "Caratroc"

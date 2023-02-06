@@ -34,7 +34,9 @@
 		436
 	],
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Bronzor",
 		"fr": "Archéomire"

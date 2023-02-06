@@ -40,7 +40,9 @@
 		"fr": "Fossile crâne"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Cranidos",
 		"fr": "Kranidos"

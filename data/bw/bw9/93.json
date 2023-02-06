@@ -32,7 +32,9 @@
 		241
 	],
 	"hp": 100,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Miltank",
 		"en": "Miltank",

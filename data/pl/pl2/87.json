@@ -51,7 +51,9 @@
 		"fr": "Smogo"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Weezing",
 		"fr": "Smogogo Niv. 47"

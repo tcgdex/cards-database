@@ -33,7 +33,9 @@
 	"evolveFrom": {
 		"en": "Charmander"
 	},
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Charmeleon"
 	},

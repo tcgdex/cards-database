@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon V ao qual esta carta está ligada tiver \"Leafeon\" ou \"Glaceon\" em seu nome, não terá custo de Recuo e não terá Fraqueza.",
 		"de": "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Folipurba\" oder \"Glaziola\" zum Namen gehört, hat es keine Rückzugskosten und keine Schwäche."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Schneeblattorden",
 		"en": "Snow Leaf Badge",

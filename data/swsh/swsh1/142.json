@@ -39,7 +39,9 @@
 		"de": "Relaxo V"
 	},
 	"hp": 340,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Relaxo VMAX",
 		"en": "Snorlax VMAX",

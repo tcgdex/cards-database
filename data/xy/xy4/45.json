@@ -60,7 +60,9 @@
 		"de": "Irrbis"
 	},
 	"hp": 100,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Pumpdjinn",
 		"en": "Gourgeist",

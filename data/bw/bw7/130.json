@@ -9,7 +9,9 @@
 		"pt": "Cada jogador compra ou descarta cards até ter 5 cards na mão. (Seu oponente faz isso primeiro.)",
 		"de": "Jeder Spieler muss so viele Karten ziehen oder ablegen, bis er 5 Karten auf der Hand hat. (Dein Gegner beginnt.)"
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Matisse",
 		"en": "Hugh",

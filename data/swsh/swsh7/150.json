@@ -9,7 +9,9 @@
 		"pt": "Cure 20 pontos de dano do seu Pokémon Ativo. Se você curou qualquer dano desta forma, jogue uma moeda. Se sair cara, coloque este Picolé da Sorte na sua mão ao invés da pilha de descarte.",
 		"de": "Heile 20 Schadenspunkte bei deinem Aktiven Pokémon. Wenn du auf diese Weise Schaden geheilt hast, wirf 1 Münze. Nimm bei Kopf dieses Glücks-Eis auf deine Hand, anstatt es auf deinen Ablagestapel zu legen."
 	},
-	"illustrator": "inose yukie",
+	"illustrator": [
+		"inose yukie"
+	],
 	"name": {
 		"de": "Glücks-Eis",
 		"en": "Lucky Ice Pop",

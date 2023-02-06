@@ -20,7 +20,9 @@
 		239
 	],
 	"hp": 30,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Elekid",
 		"fr": "Elékid"

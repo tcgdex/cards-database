@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se houver alguma carta de Estádio em jogo.\n\nDescarte aquela carta de Estádio. Durante esta vez de jogar, seu Zygarde-GX pode usar seu ataque GX mesmo se você já tiver usado um ataque GX.",
 		"de": "Du kannst diese Karte nur spielen, wenn 1 Stadionkarte im Spiel ist.\n\nLege jene Stadionkarte auf den Ablagestapel. Während dieses Zuges kann dein Zygarde-GX seine GX-Attacke einsetzen, auch wenn du deine GX-Attacke eingesetzt hast."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Heureka",
 		"en": "Bonnie",

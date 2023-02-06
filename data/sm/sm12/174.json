@@ -44,7 +44,9 @@
 		506
 	],
 	"hp": 60,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Yorkleff",
 		"en": "Lillipup",

@@ -40,7 +40,9 @@
 		"fr": "Malosse"
 	},
 	"hp": 110,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Houndoom",
 		"fr": "Demolosse"

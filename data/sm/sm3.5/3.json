@@ -49,7 +49,9 @@
 		"fr": "Herbizarre"
 	},
 	"hp": 160,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Bisaflor",
 		"en": "Venusaur",

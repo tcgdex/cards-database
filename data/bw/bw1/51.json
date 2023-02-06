@@ -35,7 +35,9 @@
 		"fr": "Chovsourir"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Fletiamo",
 		"en": "Swoobat",

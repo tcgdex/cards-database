@@ -9,7 +9,9 @@
 		"pt": "Jogue uma moeda. Se sair cara, procure um card de Apoiador em seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe seus cards.",
 		"de": "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Viso-Caster",
 		"en": "Xtransceiver",

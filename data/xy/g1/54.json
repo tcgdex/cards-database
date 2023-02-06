@@ -40,7 +40,9 @@
 		"fr": "Miaouss"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Persian",
 		"fr": "Persian"

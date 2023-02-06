@@ -32,7 +32,9 @@
 		143
 	],
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Snorlax"
 	},

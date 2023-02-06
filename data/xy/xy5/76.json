@@ -63,7 +63,9 @@
 		"de": "Rizeros"
 	},
 	"hp": 150,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Rihornior",
 		"en": "Rhyperior",

@@ -32,7 +32,9 @@
 		"en": "Shelmet"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Hydragil",
 		"en": "Accelgor",

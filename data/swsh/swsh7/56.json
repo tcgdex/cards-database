@@ -65,7 +65,9 @@
 		"de": "Waaty"
 	},
 	"hp": 150,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Ampharos",
 		"en": "Ampharos",

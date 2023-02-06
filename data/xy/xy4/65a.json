@@ -52,7 +52,9 @@
 		681
 	],
 	"hp": 170,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Durengard EX",
 		"en": "Aegislash EX",

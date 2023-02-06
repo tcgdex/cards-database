@@ -42,7 +42,9 @@
 		167
 	],
 	"hp": 50,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Webarak",
 		"en": "Spinarak",

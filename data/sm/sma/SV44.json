@@ -36,7 +36,9 @@
 		765
 	],
 	"hp": 120,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Oranguru",
 		"fr": "Gouroutan"

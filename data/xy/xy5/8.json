@@ -52,7 +52,9 @@
 		"de": "Reptain"
 	},
 	"hp": 130,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Gewaldro",
 		"en": "Sceptile",

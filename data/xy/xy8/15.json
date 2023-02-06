@@ -60,7 +60,9 @@
 		"de": "Puponcho"
 	},
 	"hp": 120,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Vivillon",
 		"en": "Vivillon",

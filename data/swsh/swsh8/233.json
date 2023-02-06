@@ -9,7 +9,9 @@
 		"pt": "Escolha até 2 dos seus Pokémon Golpe Fusão. Para cada um daqueles Pokémon, procure por 1 carta de Energia Golpe Fusão no seu baralho e ligue-a àquele Pokémon. Em seguida, embaralhe o seu baralho.",
 		"de": "Wähle bis zu 2 deiner Fusionsangriff-Pokémon. Durchsuche für jedes jener Pokémon dein Deck nach 1 Fusionsangriff-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Kamillas Glanz",
 		"en": "Elesa's Sparkle",

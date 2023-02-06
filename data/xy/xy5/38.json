@@ -54,7 +54,9 @@
 		321
 	],
 	"hp": 250,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Wailord EX",
 		"en": "Wailord EX",

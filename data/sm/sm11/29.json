@@ -33,7 +33,9 @@
 		"fr": "Funécire"
 	},
 	"hp": 80,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"de": "Laternecto",
 		"en": "Lampent",

@@ -31,7 +31,9 @@
 		"en": "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
 	},
 	"hp": 120,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rayquaza",
 		"en": "Rayquaza",

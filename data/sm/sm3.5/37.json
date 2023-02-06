@@ -56,7 +56,9 @@
 		"fr": "Abo"
 	},
 	"hp": 120,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Arbok",
 		"en": "Arbok",

@@ -38,7 +38,9 @@
 		"en": "Natu"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Xatu δ",
 		"fr": "Xatu δ ESPÈCES DELTA"

@@ -33,7 +33,9 @@
 		131
 	],
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Lapras",
 		"en": "Lapras",

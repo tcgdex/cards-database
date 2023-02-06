@@ -45,7 +45,9 @@
 		488
 	],
 	"hp": 150,
-	"illustrator": "Shinji Higuchi + Noriko Takaya/樋口真嗣+高屋法子",
+	"illustrator": [
+		"Shinji Higuchi + Noriko Takaya/樋口真嗣+高屋法子"
+	],
 	"name": {
 		"en": "Darkrai & Cresselia LEGEND",
 		"fr": "Darkrai & Cresselia LÉGENDE"

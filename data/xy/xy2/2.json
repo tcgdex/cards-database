@@ -58,7 +58,9 @@
 		"de": "Raupy"
 	},
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Safcon",
 		"en": "Metapod",

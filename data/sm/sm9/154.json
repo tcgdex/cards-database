@@ -9,7 +9,9 @@
 		"pt": "Seu oponente revela a própria mão. Você pode escolher 1 carta de Apoiador que encontrar lá e usar o efeito daquela carta como o efeito desta carta.",
 		"de": "Dein Gegner zeigt dir seine Handkarten. Du kannst 1 Unterstützerkarte, die du dort findest, wählen und den Effekt jener Karte als Effekt dieser Karte einsetzen."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Sabrinas Vorschlag",
 		"en": "Sabrina’s Suggestion",

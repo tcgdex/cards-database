@@ -36,7 +36,9 @@
 		"en": "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints."
 	},
 	"hp": 70,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Rettan",
 		"en": "Ekans",

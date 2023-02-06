@@ -59,7 +59,9 @@
 		"de": "Tragosso"
 	},
 	"hp": 100,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Knogga",
 		"en": "Marowak",

@@ -38,7 +38,9 @@
 		"fr": "Ponyta"
 	},
 	"hp": 50,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Ponyta",
 		"fr": "Ponyta"

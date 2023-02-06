@@ -31,7 +31,9 @@
 		309
 	],
 	"hp": 60,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Electrike",
 		"fr": "Dynavolt"

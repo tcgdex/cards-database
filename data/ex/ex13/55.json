@@ -40,7 +40,9 @@
 		"en": "Barboach"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Whiscash",
 		"fr": "Barbicha"

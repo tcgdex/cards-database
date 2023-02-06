@@ -51,7 +51,9 @@
 		287
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Bummelz",
 		"en": "Slakoth",

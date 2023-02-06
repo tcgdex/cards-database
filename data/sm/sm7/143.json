@@ -9,7 +9,9 @@
 		"pt": "Entre as vezes de jogar, coloque 1 contador de dano em cada Pokémon-GX e Pokémon-EX (seus e do seu oponente).",
 		"de": "Lege zwischen den Zügen 1 Schadensmarke auf jedes Pokémon-GX und Pokémon-EX (deine und die deines Gegners)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Schrein der Bestrafung",
 		"en": "Shrine of Punishment",

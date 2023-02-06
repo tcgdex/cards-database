@@ -33,7 +33,9 @@
 		"en": "Ivysaur"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Venusaur"
 	},

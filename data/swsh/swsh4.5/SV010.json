@@ -42,7 +42,9 @@
 		"en": "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
 	},
 	"hp": 50,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Cottini",
 		"en": "Gossifleur",

@@ -28,7 +28,9 @@
 		"en": "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
 	},
 	"hp": 60,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Natu",
 		"en": "Natu",

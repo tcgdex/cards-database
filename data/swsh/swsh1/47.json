@@ -54,7 +54,9 @@
 		"de": "Goldini"
 	},
 	"hp": 110,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Golking",
 		"en": "Seaking",

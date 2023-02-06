@@ -59,7 +59,9 @@
 		"de": "Puppance"
 	},
 	"hp": 100,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Lepumentas",
 		"en": "Claydol",

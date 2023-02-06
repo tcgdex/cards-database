@@ -19,7 +19,9 @@
 		629
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Skallyk",
 		"en": "Vullaby",

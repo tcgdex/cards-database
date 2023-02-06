@@ -62,7 +62,9 @@
 		"de": "Bidiza"
 	},
 	"hp": 100,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Bidifas",
 		"en": "Bibarel",

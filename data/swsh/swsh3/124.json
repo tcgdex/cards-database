@@ -52,7 +52,9 @@
 		"de": "Laukaps"
 	},
 	"hp": 120,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Cavalanzas",
 		"en": "Escavalier",

@@ -54,7 +54,9 @@
 		377
 	],
 	"hp": 220,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Regirock V",
 		"en": "Regirock V",

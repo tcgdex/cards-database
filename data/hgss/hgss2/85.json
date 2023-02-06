@@ -38,7 +38,9 @@
 		"fr": "Hypocean"
 	},
 	"hp": 130,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Kingdra",
 		"fr": "Hyporoi"

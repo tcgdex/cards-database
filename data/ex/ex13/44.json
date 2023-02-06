@@ -20,7 +20,9 @@
 		351
 	],
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Holon's Castform",
 		"fr": "Morpheo d'Holon"

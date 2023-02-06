@@ -31,7 +31,9 @@
 		776
 	],
 	"hp": 110,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Tortunator",
 		"en": "Turtonator",

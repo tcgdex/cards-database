@@ -17,7 +17,9 @@
 		669
 	],
 	"hp": 40,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Flabébé",
 		"fr": "Flabébé"

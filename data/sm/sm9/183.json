@@ -47,7 +47,9 @@
 		129
 	],
 	"hp": 300,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Karpador & Wailord GX",
 		"en": "Magikarp & Wailord GX",

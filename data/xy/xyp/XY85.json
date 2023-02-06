@@ -34,7 +34,9 @@
 		720
 	],
 	"hp": 140,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"en": "Hoopa EX",
 		"fr": "Hoopa EX"

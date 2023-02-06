@@ -36,7 +36,9 @@
 		469
 	],
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Yanmega 4",
 		"fr": "Yanmega  Niv. 49"

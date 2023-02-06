@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Attachez cette carte à l'un de vos Pokémon. Défaussez-vous en à la fin du prochain tour de votre adversaire.\n\nTant que cette carte est attachée, ce Pokémon n'a pas de Faiblesse."
 	},
-	"illustrator": "Jungo Suzuki",
+	"illustrator": [
+		"Jungo Suzuki"
+	],
 	"name": {
 		"en": "Weakness Guard",
 		"fr": "Garde faiblesse"

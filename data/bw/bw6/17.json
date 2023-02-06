@@ -21,7 +21,9 @@
 		590
 	],
 	"hp": 40,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Tarnpignon",
 		"en": "Foongus",

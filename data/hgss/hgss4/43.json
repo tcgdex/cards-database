@@ -39,7 +39,9 @@
 		"fr": "Magneti"
 	},
 	"hp": 80,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Magneton",
 		"fr": "Magneton"

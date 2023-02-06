@@ -37,7 +37,9 @@
 		"en": "Raboot"
 	},
 	"hp": 170,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"en": "Cinderace"
 	},

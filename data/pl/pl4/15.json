@@ -33,7 +33,9 @@
 	"evolveFrom": {
 		"en": "Cherubi"
 	},
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Cherrim"
 	},

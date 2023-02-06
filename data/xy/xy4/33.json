@@ -57,7 +57,9 @@
 		"de": "Golbat"
 	},
 	"hp": 130,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Iksbat",
 		"en": "Crobat",

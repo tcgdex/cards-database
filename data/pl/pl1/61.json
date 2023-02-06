@@ -47,7 +47,9 @@
 		336
 	],
 	"hp": 80,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Seviper",
 		"fr": "Seviper"

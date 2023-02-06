@@ -26,7 +26,9 @@
 		"en": "Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they've survived."
 	},
 	"hp": 50,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Viscora",
 		"en": "Goomy",

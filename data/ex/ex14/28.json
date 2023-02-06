@@ -53,7 +53,9 @@
 		"en": "Ivysaur"
 	},
 	"hp": 110,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Venusaur",
 		"fr": "Florizarre"

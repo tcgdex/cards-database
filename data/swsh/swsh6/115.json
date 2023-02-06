@@ -53,7 +53,9 @@
 		"en": "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
 	},
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Tauros",
 		"en": "Tauros",

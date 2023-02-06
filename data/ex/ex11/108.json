@@ -54,7 +54,9 @@
 		"en": "Eevee"
 	},
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Flareon ex",
 		"fr": "Pyroli ex"

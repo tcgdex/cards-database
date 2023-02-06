@@ -34,7 +34,9 @@
 		341
 	],
 	"hp": 40,
-	"illustrator": "Takao Unno",
+	"illustrator": [
+		"Takao Unno"
+	],
 	"name": {
 		"en": "Corphish",
 		"fr": "Écrapince"

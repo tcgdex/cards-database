@@ -60,7 +60,9 @@
 		"de": "Vibrava"
 	},
 	"hp": 150,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Libelldra",
 		"en": "Flygon",

@@ -33,7 +33,9 @@
 		648
 	],
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Meloetta"
 	},

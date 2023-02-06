@@ -58,7 +58,9 @@
 		"de": "Natu"
 	},
 	"hp": 120,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Xatu",
 		"en": "Xatu",

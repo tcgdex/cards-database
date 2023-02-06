@@ -35,7 +35,9 @@
 		359
 	],
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Absol",
 		"fr": "Absol"

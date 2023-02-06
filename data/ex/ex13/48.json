@@ -39,7 +39,9 @@
 		"en": "Meowth"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Persian δ",
 		"fr": "Persian δ ESPÈCES DELTA"

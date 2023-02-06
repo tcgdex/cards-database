@@ -37,7 +37,9 @@
 		225
 	],
 	"hp": 70,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Delibird",
 		"fr": "Cadoizo"

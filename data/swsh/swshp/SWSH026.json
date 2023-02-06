@@ -40,7 +40,9 @@
 		226
 	],
 	"hp": 110,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Mantax",
 		"en": "Mantine",

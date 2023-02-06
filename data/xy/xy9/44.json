@@ -42,7 +42,9 @@
 		403
 	],
 	"hp": 60,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Sheinux",
 		"en": "Shinx",

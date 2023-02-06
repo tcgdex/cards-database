@@ -9,7 +9,9 @@
 		"pt": "Procure por 1 carta de Energia Fairy no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach 1 Fairy-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 	},
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Matsurika",
 		"en": "Mina",

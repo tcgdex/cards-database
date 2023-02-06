@@ -38,7 +38,9 @@
 		"fr": "Embrylex"
 	},
 	"hp": 50,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Larvitar",
 		"fr": "Embrylex"

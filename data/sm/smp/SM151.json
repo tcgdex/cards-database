@@ -52,7 +52,9 @@
 		487
 	],
 	"hp": 130,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Giratina",
 		"en": "Giratina",

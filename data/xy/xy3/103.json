@@ -10,7 +10,9 @@
 		"de": "Diese Karte kann nur an Grass-Pokémon angelegt werden. Diese Karte liefert nur dann Grass-Energie, während sie an ein Grass-Pokémon angelegt ist.\n\nWenn du diese Karte von deiner Hand an 1 deiner Grass-Pokémon anlegst, heile 30 Schadenspunkte bei diesem Pokémon.\n\n(Lege diese Karte auf deinen Ablagestapel, wenn sie nicht an ein Grass-Pokémon angelegt ist.)"
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Kräuter-Energie",
 		"en": "Herbal Energy",

@@ -51,7 +51,9 @@
 		"fr": "Hypocéan"
 	},
 	"hp": 130,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"en": "Kingdra",
 		"fr": "Hyporoi"

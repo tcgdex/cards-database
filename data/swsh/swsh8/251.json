@@ -28,7 +28,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 180,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Mew V",
 		"en": "Mew V",

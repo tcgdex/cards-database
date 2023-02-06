@@ -40,7 +40,9 @@
 		"fr": "Vostourno"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Grypheldis",
 		"en": "Mandibuzz",

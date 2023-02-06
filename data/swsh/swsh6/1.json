@@ -21,7 +21,9 @@
 		"en": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
 	},
 	"hp": 40,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Hornliu",
 		"en": "Weedle",

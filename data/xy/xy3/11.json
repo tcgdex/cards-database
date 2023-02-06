@@ -62,7 +62,9 @@
 		"de": "Magmar"
 	},
 	"hp": 120,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Magbrant",
 		"en": "Magmortar",

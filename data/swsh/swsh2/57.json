@@ -51,7 +51,9 @@
 		"de": "Voltobal"
 	},
 	"hp": 90,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Lektrobal",
 		"en": "Electrode",

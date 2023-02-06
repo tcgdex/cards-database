@@ -52,7 +52,9 @@
 		"en": "Living in mud with a high iron content has given it a strong steel body."
 	},
 	"hp": 120,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Galar-Flunschlik",
 		"en": "Galarian Stunfisk",

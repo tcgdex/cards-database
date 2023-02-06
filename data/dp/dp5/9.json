@@ -42,7 +42,9 @@
 		150
 	],
 	"hp": 90,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Mewtwo",
 		"fr": "Mewtwo"

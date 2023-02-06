@@ -57,7 +57,9 @@
 		"fr": "Tadmorv d’Alola"
 	},
 	"hp": 120,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Alola-Sleimok",
 		"en": "Alolan Muk",

@@ -9,7 +9,9 @@
 		"pt": "Olhe a primeira carta do seu baralho e escolha 1:\n\n• Descarte a sua mão e compre 5 cartas.\n• Descarte a sua mão e compre as 5 últimas cartas do seu baralho.",
 		"de": "Schau dir die oberste Karte deines Decks an und wähle 1 aus:\n\n• Lege deine Handkarten auf deinen Ablagestapel und ziehe 5 Karten.\n• Lege deine Handkarten auf deinen Ablagestapel und ziehe 5 Karten von unten aus deinem Deck."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Hin & Her",
 		"en": "Ingo & Emmet",

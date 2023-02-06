@@ -60,7 +60,9 @@
 		"fr": "Amagara"
 	},
 	"hp": 160,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Amagarga",
 		"en": "Aurorus",

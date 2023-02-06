@@ -59,7 +59,9 @@
 		"de": "Arboretoss"
 	},
 	"hp": 140,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Silvarro",
 		"en": "Decidueye",

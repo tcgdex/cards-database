@@ -64,7 +64,9 @@
 		"de": "Golbit"
 	},
 	"hp": 150,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Golgantes",
 		"en": "Golurk",

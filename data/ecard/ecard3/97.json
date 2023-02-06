@@ -33,7 +33,9 @@
 		227
 	],
 	"hp": 60,
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Skarmory"
 	},

@@ -37,7 +37,9 @@
 		250
 	],
 	"hp": 100,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Ho-Oh",
 		"fr": "Ho-Oh"

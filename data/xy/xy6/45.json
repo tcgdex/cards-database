@@ -61,7 +61,9 @@
 		"de": "Togetic"
 	},
 	"hp": 140,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Togekiss",
 		"en": "Togekiss",

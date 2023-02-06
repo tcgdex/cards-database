@@ -69,7 +69,9 @@
 		26
 	],
 	"hp": 260,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Raichu & Alola-Raichu GX",
 		"en": "Raichu & Alolan Raichu GX",

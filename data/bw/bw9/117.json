@@ -46,7 +46,9 @@
 		"fr": "Prinplouf"
 	},
 	"hp": 140,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Impoleon",
 		"en": "Empoleon",

@@ -41,7 +41,9 @@
 		"fr": "Abo"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Arbok",
 		"fr": "Arbok"

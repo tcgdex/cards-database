@@ -61,7 +61,9 @@
 		"de": "Burmy"
 	},
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Burmadame",
 		"en": "Wormadam",

@@ -29,7 +29,9 @@
 		118
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Goldini",
 		"en": "Goldeen",

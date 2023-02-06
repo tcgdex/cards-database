@@ -23,7 +23,9 @@
 		"en": "Rattata"
 	},
 	"hp": 60,
-	"illustrator": "Keiko Fukuyama",
+	"illustrator": [
+		"Keiko Fukuyama"
+	],
 	"name": {
 		"en": "Raticate"
 	},

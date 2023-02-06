@@ -45,7 +45,9 @@
 		"fr": "Etourvol"
 	},
 	"hp": 100,
-	"illustrator": "Masahiko Ishii",
+	"illustrator": [
+		"Masahiko Ishii"
+	],
 	"name": {
 		"en": "Staraptor",
 		"fr": "Etouraptor"

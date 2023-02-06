@@ -36,7 +36,9 @@
 		12
 	],
 	"hp": 90,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"en": "Butterfree FB",
 		"fr": "Papilusion "

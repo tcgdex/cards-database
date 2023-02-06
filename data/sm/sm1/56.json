@@ -56,7 +56,9 @@
 		"fr": "Nosferalto"
 	},
 	"hp": 130,
-	"illustrator": "DemizuPosuka",
+	"illustrator": [
+		"DemizuPosuka"
+	],
 	"name": {
 		"de": "Iksbat",
 		"en": "Crobat",

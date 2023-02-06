@@ -52,7 +52,9 @@
 		488
 	],
 	"hp": 120,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Cresselia",
 		"en": "Cresselia",

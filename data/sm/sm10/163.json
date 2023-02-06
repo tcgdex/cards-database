@@ -73,7 +73,9 @@
 		797
 	],
 	"hp": 200,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Kaguron GX",
 		"en": "Celesteela GX",

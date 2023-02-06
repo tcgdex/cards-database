@@ -52,7 +52,9 @@
 		"en": "Magikarp"
 	},
 	"hp": 90,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Gyarados δ",
 		"fr": "Leviator δ ESPÈCES DELTA"

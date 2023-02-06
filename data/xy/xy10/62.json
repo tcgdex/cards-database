@@ -37,7 +37,9 @@
 		"de": "Bronzong"
 	},
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Bronzong-TURBO",
 		"en": "Bronzong BREAK",

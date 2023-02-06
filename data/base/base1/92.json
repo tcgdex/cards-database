@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Energy Removal",
 		"fr": "Suppression d'Énergie"

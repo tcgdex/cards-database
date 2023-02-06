@@ -29,7 +29,9 @@
 		"en": "It's covered in a slime that keeps its skin moist, allowing it to stay on land for days without drying up."
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Gufa",
 		"en": "Pyukumuku",

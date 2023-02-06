@@ -44,7 +44,9 @@
 		480
 	],
 	"hp": 70,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Selfe",
 		"en": "Uxie",

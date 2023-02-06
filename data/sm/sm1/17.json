@@ -55,7 +55,9 @@
 		"fr": "Spododo"
 	},
 	"hp": 100,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Lamellux",
 		"en": "Shiinotic",

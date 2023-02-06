@@ -40,7 +40,9 @@
 		"fr": "Tic"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Kliklak",
 		"en": "Klang",

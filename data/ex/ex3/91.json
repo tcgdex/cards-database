@@ -44,7 +44,9 @@
 		"en": "Graveler"
 	},
 	"hp": 160,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Golem ex",
 		"fr": "Grolem ex"

@@ -42,7 +42,9 @@
 		"en": "Bronzor"
 	},
 	"hp": 90,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Bronzong",
 		"fr": "Archéodong"

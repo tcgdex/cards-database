@@ -34,7 +34,9 @@
 		137
 	],
 	"hp": 50,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Cool Porygon"
 	},

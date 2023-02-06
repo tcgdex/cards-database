@@ -38,7 +38,9 @@
 		"de": "Araqua"
 	},
 	"hp": 120,
-	"illustrator": "KIYOTAKA OSHIYAMA",
+	"illustrator": [
+		"KIYOTAKA OSHIYAMA"
+	],
 	"name": {
 		"de": "Aranestro",
 		"en": "Araquanid",

@@ -60,7 +60,9 @@
 		"de": "Dragonir"
 	},
 	"hp": 150,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Dragoran",
 		"en": "Dragonite",

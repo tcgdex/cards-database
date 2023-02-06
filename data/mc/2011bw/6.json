@@ -16,7 +16,9 @@
 		"en": "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another."
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Blitzle"
 	},

@@ -62,7 +62,9 @@
 		"de": "Somniam"
 	},
 	"hp": 120,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Somnivora",
 		"en": "Musharna",

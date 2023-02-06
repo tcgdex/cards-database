@@ -48,7 +48,9 @@
 		"fr": "Cornèbre"
 	},
 	"hp": 110,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Kramshef",
 		"en": "Honchkrow",

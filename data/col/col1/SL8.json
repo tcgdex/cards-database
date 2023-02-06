@@ -24,7 +24,9 @@
 		484
 	],
 	"hp": 100,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"en": "Palkia",
 		"fr": "Palkia"

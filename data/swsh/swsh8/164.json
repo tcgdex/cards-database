@@ -30,7 +30,9 @@
 		"en": "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
 	},
 	"hp": 100,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Absol",
 		"en": "Absol",

@@ -47,7 +47,9 @@
 		"en": "Snom"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Mottineva",
 		"en": "Frosmoth",

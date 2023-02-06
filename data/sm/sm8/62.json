@@ -60,7 +60,9 @@
 		"fr": "Polarhume"
 	},
 	"hp": 140,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Siberio",
 		"en": "Beartic",

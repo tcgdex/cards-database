@@ -41,7 +41,9 @@
 		"fr": "Axoloto"
 	},
 	"hp": 120,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Morlord",
 		"en": "Quagsire",

@@ -53,7 +53,9 @@
 		"de": "Galar-Porenta"
 	},
 	"hp": 130,
-	"illustrator": "You Iribi",
+	"illustrator": [
+		"You Iribi"
+	],
 	"name": {
 		"de": "Galar-Lauchzelot",
 		"en": "Galarian Sirfetch'd",

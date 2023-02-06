@@ -37,7 +37,9 @@
 		"fr": "Vipélierre"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Efoserp",
 		"en": "Servine",

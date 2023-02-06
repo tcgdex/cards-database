@@ -9,7 +9,9 @@
 		"pt": "Mova uma Energia básica de 1 dos seus Pokémon para outro dos seus Pokémon.",
 		"de": "Verschiebe 1 an 1 deiner Pokémon angelegte Basis-Energie auf ein anderes deiner Pokémon."
 	},
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"de": "Energie-Umschalter",
 		"en": "Energy Switch",

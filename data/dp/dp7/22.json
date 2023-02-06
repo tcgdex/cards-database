@@ -49,7 +49,9 @@
 		"fr": "Ponyta"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Rapidash",
 		"fr": "Galopa"

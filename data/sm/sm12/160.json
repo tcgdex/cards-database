@@ -30,7 +30,9 @@
 		782
 	],
 	"hp": 60,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Miniras",
 		"en": "Jangmo-o",

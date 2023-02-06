@@ -22,7 +22,9 @@
 		383
 	],
 	"hp": 120,
-	"illustrator": "Kazuo Yazawa",
+	"illustrator": [
+		"Kazuo Yazawa"
+	],
 	"name": {
 		"en": "Groudon ex"
 	},

@@ -51,7 +51,9 @@
 		"en": "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
 	"hp": 60,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

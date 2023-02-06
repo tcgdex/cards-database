@@ -21,7 +21,9 @@
 		"en": "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon."
 	},
 	"hp": 60,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Samurzel",
 		"en": "Seedot",

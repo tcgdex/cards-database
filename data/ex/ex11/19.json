@@ -37,7 +37,9 @@
 		"en": "Marill"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Azumarill δ",
 		"fr": "Azumarill δ ESPÈCES DELTA"

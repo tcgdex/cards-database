@@ -65,7 +65,9 @@
 		799
 	],
 	"hp": 280,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Agoyon & Schlingking GX",
 		"en": "Naganadel & Guzzlord GX",

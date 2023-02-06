@@ -24,7 +24,9 @@
 		415
 	],
 	"hp": 30,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Combee",
 		"fr": "Apitrini"

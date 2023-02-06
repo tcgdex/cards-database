@@ -18,7 +18,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Numel"
 	},

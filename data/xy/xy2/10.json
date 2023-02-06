@@ -51,7 +51,9 @@
 		556
 	],
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Maracamba",
 		"en": "Maractus",

@@ -35,7 +35,9 @@
 		"en": "Haunter"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sabrina's Gengar"
 	},

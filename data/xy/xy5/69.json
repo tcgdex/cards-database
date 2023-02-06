@@ -82,7 +82,9 @@
 		"de": "Nidorina"
 	},
 	"hp": 140,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Nidoqueen",
 		"en": "Nidoqueen",

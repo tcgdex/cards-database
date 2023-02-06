@@ -21,7 +21,9 @@
 		661
 	],
 	"hp": 40,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Dartiri",
 		"en": "Fletchling",

@@ -54,7 +54,9 @@
 		"en": "Graveler"
 	},
 	"hp": 120,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Golem",
 		"fr": "Grolem"

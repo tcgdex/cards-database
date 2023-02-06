@@ -54,7 +54,9 @@
 		114
 	],
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Tangela",
 		"en": "Tangela",

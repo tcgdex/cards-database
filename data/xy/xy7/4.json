@@ -60,7 +60,9 @@
 		"de": "Duflor"
 	},
 	"hp": 120,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Blubella",
 		"en": "Bellossom",

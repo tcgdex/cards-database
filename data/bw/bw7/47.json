@@ -34,7 +34,9 @@
 		647
 	],
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Keldeo",
 		"en": "Keldeo",

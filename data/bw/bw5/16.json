@@ -36,7 +36,9 @@
 		"en": "Torchic"
 	},
 	"hp": 80,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Jungglut",
 		"en": "Combusken",

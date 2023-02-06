@@ -36,7 +36,9 @@
 		65
 	],
 	"hp": 100,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Alakazam 4",
 		"fr": "Alakazam  Niv. X"

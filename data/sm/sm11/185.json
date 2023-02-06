@@ -49,7 +49,9 @@
 		775
 	],
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Koalelu",
 		"en": "Komala",

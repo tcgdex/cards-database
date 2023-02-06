@@ -50,7 +50,9 @@
 		"fr": "Mascaïman"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Rokkaiman",
 		"en": "Krokorok",

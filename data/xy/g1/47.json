@@ -31,7 +31,9 @@
 		106
 	],
 	"hp": 90,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"en": "Hitmonlee",
 		"fr": "Kicklee"

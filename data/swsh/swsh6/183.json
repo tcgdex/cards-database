@@ -47,7 +47,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 250,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Heiteira V",
 		"en": "Blissey V",

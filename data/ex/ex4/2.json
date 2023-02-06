@@ -38,7 +38,9 @@
 		342
 	],
 	"hp": 80,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Team Aqua's Crawdaunt",
 		"fr": "Colhomard de Team Aqua"

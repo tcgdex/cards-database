@@ -9,7 +9,9 @@
 		"pt": "Embaralhe até 2 cartas de Apoiador da sua pilha de descarte no seu baralho.",
 		"de": "Mische bis zu 2 Unterstützerkarten aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Adressbuch",
 		"en": "Pal Pad",

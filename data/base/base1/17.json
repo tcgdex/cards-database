@@ -45,7 +45,9 @@
 		"en": "Kakuna"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Beedrill",
 		"fr": "Dardargnan"

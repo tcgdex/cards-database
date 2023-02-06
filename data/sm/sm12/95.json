@@ -68,7 +68,9 @@
 		741
 	],
 	"hp": 170,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Choreogel GX",
 		"en": "Oricorio GX",

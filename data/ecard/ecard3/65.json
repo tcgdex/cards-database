@@ -29,7 +29,9 @@
 		163
 	],
 	"hp": 40,
-	"illustrator": "Hizuki Misono",
+	"illustrator": [
+		"Hizuki Misono"
+	],
 	"name": {
 		"en": "Hoothoot"
 	},

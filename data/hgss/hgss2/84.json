@@ -37,7 +37,9 @@
 		"fr": "Nosferalto"
 	},
 	"hp": 130,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Crobat",
 		"fr": "Nostenfer"

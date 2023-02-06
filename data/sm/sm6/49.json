@@ -56,7 +56,9 @@
 		"fr": "Dimoclès"
 	},
 	"hp": 150,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Durengard",
 		"en": "Aegislash",

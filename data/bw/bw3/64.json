@@ -49,7 +49,9 @@
 		"fr": "Ouvrifier"
 	},
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Meistagrif",
 		"en": "Conkeldurr",

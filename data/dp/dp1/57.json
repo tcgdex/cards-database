@@ -42,7 +42,9 @@
 		"fr": "Grainipiot"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Nuzleaf",
 		"fr": "Pifeuil"

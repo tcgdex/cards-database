@@ -9,7 +9,9 @@
 		"pt": "Remova todas as Condições Especiais do seu Pokémon Ativo.",
 		"de": "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Hyperheiler",
 		"en": "Full Heal",

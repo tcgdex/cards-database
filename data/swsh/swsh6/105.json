@@ -29,7 +29,9 @@
 		"en": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
 	},
 	"hp": 70,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Toxiped",
 		"en": "Venipede",

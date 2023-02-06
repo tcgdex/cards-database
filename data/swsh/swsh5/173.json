@@ -9,7 +9,9 @@
 		"pt": "Cure todo o dano de cada um dos seus Pokémon de Evolução. Se fizer isto, descarte todas as Energias dos Pokémon que foram curados desta forma.",
 		"de": "Heile allen Schaden bei jedem deiner Entwicklungs-Pokémon. Wenn du das machst, lege alle Energien von den auf diese Weise geheilten Pokémon auf deinen Ablagestapel."
 	},
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Raissa",
 		"en": "Cheryl",

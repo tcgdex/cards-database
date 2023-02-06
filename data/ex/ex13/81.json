@@ -30,7 +30,9 @@
 		54
 	],
 	"hp": 50,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Psyduck δ",
 		"fr": "Psykokwak δ ESPÈCES DELTA"

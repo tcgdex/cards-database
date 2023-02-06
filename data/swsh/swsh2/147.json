@@ -56,7 +56,9 @@
 		"de": "Scoppel"
 	},
 	"hp": 130,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Grebbit",
 		"en": "Diggersby",

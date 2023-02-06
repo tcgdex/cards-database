@@ -29,7 +29,9 @@
 		95
 	],
 	"hp": 110,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Onix",
 		"en": "Onix",

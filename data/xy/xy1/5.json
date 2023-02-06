@@ -60,7 +60,9 @@
 		"de": "Kokuna"
 	},
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Bibor",
 		"en": "Beedrill",

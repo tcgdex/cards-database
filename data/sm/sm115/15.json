@@ -17,7 +17,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"en": "Magikarp",
 		"fr": "Magicarpe"

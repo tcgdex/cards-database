@@ -40,7 +40,9 @@
 		"fr": "Doudouvet"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Elfun",
 		"en": "Whimsicott",

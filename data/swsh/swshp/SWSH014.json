@@ -53,7 +53,9 @@
 		812
 	],
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Gortrom V",
 		"en": "Rillaboom V",

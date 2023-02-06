@@ -52,7 +52,9 @@
 		483
 	],
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Dialga",
 		"fr": "Dialga"

@@ -36,7 +36,9 @@
 		150
 	],
 	"hp": 70,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Mewtwo",
 		"fr": "Mewtwo"

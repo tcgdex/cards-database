@@ -48,7 +48,9 @@
 		"fr": "Porygon"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Porygon2",
 		"en": "Porygon2",

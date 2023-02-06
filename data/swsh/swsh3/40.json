@@ -43,7 +43,9 @@
 		"en": "The reason it hasn't changed at all in a hundred million years is that it's apparently already a perfect life-form."
 	},
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Relicanth",
 		"en": "Relicanth",

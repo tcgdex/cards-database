@@ -29,7 +29,9 @@
 		"en": "Wanting to make sure it's taken seriously, Pancham's always giving others a glare. But if it's not focusing, it ends up smiling."
 	},
 	"hp": 60,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Pam-Pam",
 		"en": "Pancham",

@@ -30,7 +30,9 @@
 		125
 	],
 	"hp": 80,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Elektek",
 		"en": "Electabuzz",

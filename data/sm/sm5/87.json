@@ -57,7 +57,9 @@
 		"fr": "Archéomire"
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Bronzong",
 		"en": "Bronzong",

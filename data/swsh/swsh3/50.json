@@ -42,7 +42,9 @@
 		"en": "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
 	},
 	"hp": 30,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Lusardin",
 		"en": "Wishiwashi",

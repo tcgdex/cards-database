@@ -9,7 +9,9 @@
 		"pt": "Coloque até 2 Pokémon, cada um com 90 PS ou menos, da sua pilha de descarte na sua mão.",
 		"de": "Nimm bis zu 2 Pokémon, jedes mit 90 oder weniger KP, aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Rettungsbox",
 		"en": "Rescue Carrier",

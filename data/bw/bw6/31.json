@@ -40,7 +40,9 @@
 		"fr": "Phogleur"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Walraisa",
 		"en": "Walrein",

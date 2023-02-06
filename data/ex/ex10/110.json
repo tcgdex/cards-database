@@ -40,7 +40,9 @@
 		"en": "Quilava"
 	},
 	"hp": 150,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Typhlosion ex",
 		"fr": "Typhlosion ex"

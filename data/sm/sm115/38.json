@@ -30,7 +30,9 @@
 		35
 	],
 	"hp": 60,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"en": "Clefairy",
 		"fr": "Mélofée"

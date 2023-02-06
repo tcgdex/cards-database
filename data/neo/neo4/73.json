@@ -31,7 +31,9 @@
 		66
 	],
 	"hp": 40,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Machop",
 		"fr": "Machoc"

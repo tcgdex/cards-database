@@ -31,7 +31,9 @@
 		261
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Team Aqua's Poochyena",
 		"fr": "Medhyèna de la Team Aqua"

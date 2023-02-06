@@ -58,7 +58,9 @@
 		"de": "Parfi"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Parfinesse",
 		"en": "Aromatisse",

@@ -49,7 +49,9 @@
 		798
 	],
 	"hp": 170,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Kartana-GX",
 		"fr": "Katagami-GX"

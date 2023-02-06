@@ -40,7 +40,9 @@
 		"fr": "Taupiqueur"
 	},
 	"hp": 80,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Dugtrio",
 		"fr": "Triopikeur"

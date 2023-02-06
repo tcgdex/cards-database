@@ -37,7 +37,9 @@
 		389
 	],
 	"hp": 160,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Torterra",
 		"fr": "Torterra"

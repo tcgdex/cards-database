@@ -32,7 +32,9 @@
 		"fr": "Statitik"
 	},
 	"hp": 90,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Voltula",
 		"en": "Galvantula",

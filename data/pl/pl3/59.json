@@ -36,7 +36,9 @@
 		"fr": "Griknot"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Gabite",
 		"fr": "Carmache"

@@ -39,7 +39,9 @@
 		712
 	],
 	"hp": 70,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Arktip",
 		"en": "Bergmite",

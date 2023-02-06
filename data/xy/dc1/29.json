@@ -5,7 +5,9 @@
 		"fr": "Ajoutez jusqu'à 3 Pokémon de la Team Magma de votre pile de défausse à votre main.",
 		"en": "Put up to 3 Team Magma Pokémon from your discard pile into your hand."
 	},
-	"illustrator": "GAME FREAK inc.",
+	"illustrator": [
+		"GAME FREAK inc."
+	],
 	"name": {
 		"en": "Team Magma Admin",
 		"fr": "Admin Team Magma"

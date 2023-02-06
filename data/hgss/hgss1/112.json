@@ -40,7 +40,9 @@
 		250
 	],
 	"hp": 140,
-	"illustrator": "Shinji Higuchi",
+	"illustrator": [
+		"Shinji Higuchi"
+	],
 	"name": {
 		"en": "Ho-Oh LEGEND",
 		"fr": "Ho-Oh LÉGENDAIRE"

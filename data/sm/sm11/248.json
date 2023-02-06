@@ -73,7 +73,9 @@
 		"en": "Dragonair"
 	},
 	"hp": 250,
-	"illustrator": "ConceptLab",
+	"illustrator": [
+		"ConceptLab"
+	],
 	"name": {
 		"de": "Dragoran GX",
 		"en": "Dragonite GX",

@@ -9,7 +9,9 @@
 		"pt": "Cure 30 de danos de 1 dos seus Pokémon.",
 		"de": "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Trank",
 		"en": "Potion",

@@ -38,7 +38,9 @@
 		751
 	],
 	"hp": 60,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Araqua",
 		"en": "Dewpider",

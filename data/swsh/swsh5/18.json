@@ -42,7 +42,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 190,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Drapfel V",
 		"en": "Flapple V",

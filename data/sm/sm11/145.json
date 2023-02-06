@@ -29,7 +29,9 @@
 		702
 	],
 	"hp": 70,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Dedenne",
 		"en": "Dedenne",

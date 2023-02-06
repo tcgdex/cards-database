@@ -53,7 +53,9 @@
 		250
 	],
 	"hp": 130,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Schimmerndes Ho-Oh",
 		"en": "Shining Ho-Oh",

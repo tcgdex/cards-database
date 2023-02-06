@@ -34,7 +34,9 @@
 		"fr": "Anchwatt"
 	},
 	"hp": 90,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Zapplalek",
 		"en": "Eelektrik",

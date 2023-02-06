@@ -20,7 +20,9 @@
 		100
 	],
 	"hp": 40,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Voltorb",
 		"fr": "Voltorbe"

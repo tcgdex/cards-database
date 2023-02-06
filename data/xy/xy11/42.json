@@ -58,7 +58,9 @@
 		"de": "Wattzapf"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Voltula",
 		"en": "Galvantula",

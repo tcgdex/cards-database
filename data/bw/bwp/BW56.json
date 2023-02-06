@@ -41,7 +41,9 @@
 		"fr": "Prinplouf"
 	},
 	"hp": 140,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Empoleon",
 		"fr": "Pingoléon"

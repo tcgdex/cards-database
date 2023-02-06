@@ -48,7 +48,9 @@
 		"fr": "Embrylex"
 	},
 	"hp": 80,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"de": "Pupitar",
 		"en": "Pupitar",

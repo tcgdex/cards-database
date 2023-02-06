@@ -35,7 +35,9 @@
 		"de": "Karnimani"
 	},
 	"hp": 100,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Tyracroc",
 		"en": "Croconaw",

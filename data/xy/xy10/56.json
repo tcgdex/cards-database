@@ -62,7 +62,9 @@
 		"de": "Pupitar"
 	},
 	"hp": 160,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Despotar",
 		"en": "Tyranitar",

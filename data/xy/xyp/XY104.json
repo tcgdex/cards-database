@@ -27,7 +27,9 @@
 		"fr": "Mysdibule-EX"
 	},
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Mawile EX",
 		"fr": "M Mysdibule EX"

@@ -34,7 +34,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"en": "Eevee"
 	},

@@ -45,7 +45,9 @@
 		766
 	],
 	"hp": 110,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Quartermak",
 		"en": "Passimian",

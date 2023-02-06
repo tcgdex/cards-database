@@ -22,7 +22,9 @@
 		736
 	],
 	"hp": 70,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Mabula",
 		"en": "Grubbin",

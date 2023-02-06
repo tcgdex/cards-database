@@ -51,7 +51,9 @@
 		94
 	],
 	"hp": 240,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Gengar & Mimigma GX",
 		"en": "Gengar & Mimikyu GX",

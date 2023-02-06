@@ -62,7 +62,9 @@
 		"de": "Cosmovum"
 	},
 	"hp": 170,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Solgaleo",
 		"en": "Solgaleo",

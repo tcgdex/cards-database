@@ -21,7 +21,9 @@
 		"fr": "Noctunoir LV.X"
 	},
 	"hp": 140,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Dusknoir",
 		"fr": "Noctunoir"

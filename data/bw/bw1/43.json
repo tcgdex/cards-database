@@ -37,7 +37,9 @@
 		"fr": "Zébibron"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Zebritz",
 		"en": "Zebstrika",

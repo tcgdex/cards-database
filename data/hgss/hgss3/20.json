@@ -36,7 +36,9 @@
 		479
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Rotom",
 		"fr": "Motisma"

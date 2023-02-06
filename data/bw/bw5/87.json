@@ -31,7 +31,9 @@
 		"en": "Lillipup"
 	},
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Terribark",
 		"en": "Herdier",

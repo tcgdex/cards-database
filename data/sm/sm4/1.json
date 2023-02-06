@@ -28,7 +28,9 @@
 		13
 	],
 	"hp": 50,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Hornliu",
 		"en": "Weedle",

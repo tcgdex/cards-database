@@ -19,7 +19,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

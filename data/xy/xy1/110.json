@@ -64,7 +64,9 @@
 		"de": "Terribark"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Bissbark",
 		"en": "Stoutland",

@@ -78,7 +78,9 @@
 		"fr": "Meltan"
 	},
 	"hp": 220,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Melmetal GX",
 		"en": "Melmetal GX",

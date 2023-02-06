@@ -57,7 +57,9 @@
 		"fr": "Roussil"
 	},
 	"hp": 150,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Fennexis",
 		"en": "Delphox",

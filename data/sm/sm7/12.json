@@ -22,7 +22,9 @@
 		273
 	],
 	"hp": 60,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Samurzel",
 		"en": "Seedot",

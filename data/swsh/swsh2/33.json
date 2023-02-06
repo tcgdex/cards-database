@@ -59,7 +59,9 @@
 		"de": "Laternecto"
 	},
 	"hp": 140,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Skelabra",
 		"en": "Chandelure",

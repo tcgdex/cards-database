@@ -20,7 +20,9 @@
 		"en": "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws."
 	},
 	"hp": 120,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Zeraora",
 		"en": "Zeraora",

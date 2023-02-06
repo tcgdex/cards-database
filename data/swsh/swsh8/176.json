@@ -19,7 +19,9 @@
 		"en": "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants."
 	},
 	"hp": 70,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Bähmon",
 		"en": "Impidimp",

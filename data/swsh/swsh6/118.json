@@ -60,7 +60,9 @@
 		"de": "Porygon2"
 	},
 	"hp": 140,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Porygon-Z",
 		"en": "Porygon-Z",

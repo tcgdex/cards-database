@@ -29,7 +29,9 @@
 		302
 	],
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Zobiris",
 		"en": "Sableye",

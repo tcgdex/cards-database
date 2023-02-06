@@ -29,7 +29,9 @@
 		"en": "Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead."
 	},
 	"hp": 40,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Nincada",
 		"en": "Nincada",

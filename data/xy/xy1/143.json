@@ -52,7 +52,9 @@
 		587
 	],
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Emolga EX",
 		"en": "Emolga EX",

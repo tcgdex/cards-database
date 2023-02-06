@@ -51,7 +51,9 @@
 		721
 	],
 	"hp": 120,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Volcanion",
 		"en": "Volcanion",

@@ -44,7 +44,9 @@
 		"fr": "Reptincel"
 	},
 	"hp": 160,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Glurak",
 		"en": "Charizard",

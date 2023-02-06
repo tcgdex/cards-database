@@ -40,7 +40,9 @@
 		646
 	],
 	"hp": 180,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Schwarzes Kyurem-EX",
 		"en": "Black Kyurem-EX",

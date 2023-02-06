@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Retirez tous les États spéciaux de votre Pokémon Actif."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Full Heal",
 		"fr": "Guérison totale"

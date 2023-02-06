@@ -35,7 +35,9 @@
 		"en": "Misdreavus"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Mismagius"
 	},

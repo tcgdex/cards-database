@@ -29,7 +29,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Barschwa",
 		"en": "Feebas",

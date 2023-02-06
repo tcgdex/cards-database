@@ -29,7 +29,9 @@
 		"en": "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away."
 	},
 	"hp": 70,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Galar-Ponita",
 		"en": "Galarian Ponyta",

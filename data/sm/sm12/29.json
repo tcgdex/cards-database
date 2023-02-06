@@ -52,7 +52,9 @@
 		324
 	],
 	"hp": 110,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Qurtel",
 		"en": "Torkoal",

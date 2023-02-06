@@ -49,7 +49,9 @@
 		"en": "Seel"
 	},
 	"hp": 80,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Dewgong",
 		"fr": "Lamantine"

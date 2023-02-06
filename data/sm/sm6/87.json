@@ -47,7 +47,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 90,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Feelinara",
 		"en": "Sylveon",

@@ -43,7 +43,9 @@
 		"en": "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
 	},
 	"hp": 70,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Victini",
 		"en": "Victini",

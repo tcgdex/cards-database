@@ -46,7 +46,9 @@
 		"en": "Piloswine"
 	},
 	"hp": 100,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Tyranitar",
 		"fr": "Tyranocif"

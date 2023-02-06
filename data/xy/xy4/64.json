@@ -61,7 +61,9 @@
 		"de": "Laukaps"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Cavalanzas",
 		"en": "Escavalier",

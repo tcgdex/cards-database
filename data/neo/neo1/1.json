@@ -29,7 +29,9 @@
 		"en": "Flaaffy"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Ampharos",
 		"fr": "Pharamp"

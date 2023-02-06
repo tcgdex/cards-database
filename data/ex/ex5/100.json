@@ -39,7 +39,9 @@
 		"en": "Gloom"
 	},
 	"hp": 140,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Vileplume ex",
 		"fr": "Rafflesia ex"

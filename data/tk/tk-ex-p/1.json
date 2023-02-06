@@ -19,7 +19,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Beldum"
 	},

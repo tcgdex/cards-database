@@ -60,7 +60,9 @@
 		"de": "Viscargot"
 	},
 	"hp": 150,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Viscogon",
 		"en": "Goodra",

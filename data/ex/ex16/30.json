@@ -54,7 +54,9 @@
 		"en": "Snorunt"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Glalie",
 		"fr": "Oniglali"

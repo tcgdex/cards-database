@@ -38,7 +38,9 @@
 		"en": "Magnemite"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Magneton",
 		"fr": "Magneton"

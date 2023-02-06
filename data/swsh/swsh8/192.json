@@ -41,7 +41,9 @@
 		"de": "Kupfanti"
 	},
 	"hp": 190,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Patinaraja",
 		"en": "Copperajah",

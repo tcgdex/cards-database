@@ -24,7 +24,9 @@
 		484
 	],
 	"hp": 100,
-	"illustrator": "Daisuke Iwamoto",
+	"illustrator": [
+		"Daisuke Iwamoto"
+	],
 	"name": {
 		"en": "Palkia",
 		"fr": "Palkia"

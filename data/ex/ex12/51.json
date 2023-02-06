@@ -30,7 +30,9 @@
 		366
 	],
 	"hp": 50,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Clamperl",
 		"fr": "Coquiperl"

@@ -37,7 +37,9 @@
 		125
 	],
 	"hp": 90,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Electabuzz ex",
 		"fr": "Elektek ex"

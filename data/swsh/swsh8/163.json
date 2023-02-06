@@ -25,7 +25,9 @@
 		"de": "Kanivanha"
 	},
 	"hp": 100,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Tohaido",
 		"en": "Sharpedo",

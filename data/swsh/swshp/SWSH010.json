@@ -31,7 +31,9 @@
 		829
 	],
 	"hp": 50,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Cottini",
 		"en": "Gossifleur",

@@ -33,7 +33,9 @@
 		649
 	],
 	"hp": 110,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"en": "Genesect"
 	},

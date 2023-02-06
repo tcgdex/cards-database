@@ -21,7 +21,9 @@
 		155
 	],
 	"hp": 70,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Cyndaquil",
 		"fr": "Héricendre"

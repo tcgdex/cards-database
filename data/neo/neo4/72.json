@@ -39,7 +39,9 @@
 		"en": "Sunkern"
 	},
 	"hp": 80,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Light Sunflora",
 		"fr": "Heliatronc lumineux"

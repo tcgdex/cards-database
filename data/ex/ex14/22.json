@@ -41,7 +41,9 @@
 		"en": "Krabby"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Kingler δ",
 		"fr": "Krabboss δ"

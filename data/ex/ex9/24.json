@@ -38,7 +38,9 @@
 		"en": "Baltoy"
 	},
 	"hp": 80,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Claydol",
 		"fr": "Kaorine"

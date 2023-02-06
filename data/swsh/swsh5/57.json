@@ -30,7 +30,9 @@
 		"en": "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
 	},
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Puppance",
 		"en": "Baltoy",

@@ -43,7 +43,9 @@
 		"en": "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
 	},
 	"hp": 110,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Tropius",
 		"en": "Tropius",

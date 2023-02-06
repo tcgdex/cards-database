@@ -38,7 +38,9 @@
 		719
 	],
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Diancie EX",
 		"fr": "Diancie EX"

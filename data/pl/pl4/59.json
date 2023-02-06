@@ -27,7 +27,9 @@
 	"dexId": [
 		4
 	],
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Charmander"
 	},

@@ -47,7 +47,9 @@
 		384
 	],
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Rayquaza ex δ",
 		"fr": "Rayquaza ex δ"

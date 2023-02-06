@@ -39,7 +39,9 @@
 		"de": "Somniam"
 	},
 	"hp": 120,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Somnivora",
 		"en": "Musharna",

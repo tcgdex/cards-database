@@ -19,7 +19,9 @@
 		562
 	],
 	"hp": 60,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Makabaja",
 		"en": "Yamask",

@@ -9,7 +9,9 @@
 		"pt": "Procure em seu baralho um Pokémon com o mesmo nome de 1 de seus Pokémon em jogo, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach 1 Pokémon mit demselben Namen wie 1 deiner Pokémon im Spiel, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Wiederball",
 		"en": "Repeat Ball",

@@ -52,7 +52,9 @@
 		716
 	],
 	"hp": 130,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Xerneas",
 		"en": "Xerneas",

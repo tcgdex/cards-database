@@ -35,7 +35,9 @@
 		"fr": "Rattata"
 	},
 	"hp": 70,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rattikarl",
 		"en": "Raticate",

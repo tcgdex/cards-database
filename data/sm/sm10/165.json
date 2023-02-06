@@ -9,7 +9,9 @@
 		"pt": "Olhe as 3 primeiras cartas do baralho do seu oponente e escolha 1 delas. Seu oponente embaralha as demais cartas de volta no próprio baralho. Em seguida, coloque a carta escolhida como a primeira carta do baralho dele(a).",
 		"de": "Schau dir die obersten 3 Karten des Decks deines Gegners an und wähle 1 Karte. Dein Gegner mischt die anderen Karten zurück in sein Deck. Lege anschließend die von dir gewählte Karte oben auf sein Deck."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Hackender Eispickel",
 		"en": "Chip-Chip Ice Axe",

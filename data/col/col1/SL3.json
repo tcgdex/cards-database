@@ -36,7 +36,9 @@
 		244
 	],
 	"hp": 90,
-	"illustrator": "Yuri Umemura",
+	"illustrator": [
+		"Yuri Umemura"
+	],
 	"name": {
 		"en": "Entei",
 		"fr": "Entei"

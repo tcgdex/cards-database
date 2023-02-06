@@ -49,7 +49,9 @@
 		"fr": "Mascaïman"
 	},
 	"hp": 90,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Rokkaiman",
 		"en": "Krokorok",

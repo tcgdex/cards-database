@@ -9,7 +9,9 @@
 		"pt": "Procure em seu baralho por até 2 cards de Energia básica, revele-os e coloque-os em sua mão. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Brief vom Prof.",
 		"en": "Professor's Letter",

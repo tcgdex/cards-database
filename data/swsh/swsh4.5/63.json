@@ -9,7 +9,9 @@
 		"pt": "Cure 50 pontos de dano de ambos os Pokémon Ativos.",
 		"de": "Heile 50 Schadenspunkte bei beiden Aktiven Pokémon."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Tuch von Team Yell",
 		"en": "Team Yell Towel",

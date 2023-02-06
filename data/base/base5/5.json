@@ -43,7 +43,9 @@
 		"en": "Dragonair"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Dragonite",
 		"fr": "Dracolosse obscur"

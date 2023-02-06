@@ -23,7 +23,9 @@
 		113
 	],
 	"hp": 130,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"en": "Chansey",
 		"fr": "Leveinard"

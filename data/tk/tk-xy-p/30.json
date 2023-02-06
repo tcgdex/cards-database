@@ -22,7 +22,9 @@
 		"en": "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
 	},
 	"hp": 80,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Wrestler-Pikachu",
 		"en": "Pikachu Libre",

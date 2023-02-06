@@ -39,7 +39,9 @@
 		"fr": "Arcko"
 	},
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Treecko",
 		"fr": "Arcko"

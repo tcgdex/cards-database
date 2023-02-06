@@ -31,7 +31,9 @@
 		684
 	],
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Swirlix",
 		"fr": "Sucroquin"

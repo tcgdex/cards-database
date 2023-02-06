@@ -42,7 +42,9 @@
 		"en": "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move."
 	},
 	"hp": 90,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Resladero",
 		"en": "Hawlucha",

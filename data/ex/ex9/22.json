@@ -40,7 +40,9 @@
 		"en": "Shroomish"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Breloom",
 		"fr": "Chapignon"

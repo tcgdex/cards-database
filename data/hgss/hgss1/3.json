@@ -39,7 +39,9 @@
 		"fr": "Mélofée"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Clefable",
 		"fr": "Mélodelfe"

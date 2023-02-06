@@ -55,7 +55,9 @@
 		"fr": "Vibraninf"
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Flygon",
 		"fr": "Flygon Niv. 65"

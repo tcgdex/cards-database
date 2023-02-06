@@ -28,7 +28,9 @@
 		187
 	],
 	"hp": 30,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Hoppspross",
 		"en": "Hoppip",

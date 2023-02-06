@@ -29,7 +29,9 @@
 		"en": "The powder that covers its body regulates its temperature, so it can live in any region or climate."
 	},
 	"hp": 40,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Purmel",
 		"en": "Scatterbug",

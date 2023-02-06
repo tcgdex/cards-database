@@ -54,7 +54,9 @@
 		144
 	],
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Galar-Arktos",
 		"en": "Galarian Articuno",

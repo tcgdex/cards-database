@@ -60,7 +60,9 @@
 		"de": "Loturzel"
 	},
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Lombrero",
 		"en": "Lombre",

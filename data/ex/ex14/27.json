@@ -39,7 +39,9 @@
 		"en": "Marshtomp"
 	},
 	"hp": 120,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Swampert",
 		"fr": "Laggron"

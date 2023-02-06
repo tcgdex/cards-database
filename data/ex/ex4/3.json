@@ -51,7 +51,9 @@
 		382
 	],
 	"hp": 100,
-	"illustrator": "K. Hoshiba",
+	"illustrator": [
+		"K. Hoshiba"
+	],
 	"name": {
 		"en": "Team Aqua's Kyogre",
 		"fr": "Kyogre de Team Aqua"

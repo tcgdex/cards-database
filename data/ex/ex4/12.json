@@ -36,7 +36,9 @@
 		324
 	],
 	"hp": 80,
-	"illustrator": "K. Hoshiba",
+	"illustrator": [
+		"K. Hoshiba"
+	],
 	"name": {
 		"en": "Team Magma's Torkoal",
 		"fr": "Chartor de Team Magma"

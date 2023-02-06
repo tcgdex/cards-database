@@ -22,7 +22,9 @@
 		25
 	],
 	"hp": 70,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Pikachu",
 		"en": "Pikachu",

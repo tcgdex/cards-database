@@ -41,7 +41,9 @@
 		"fr": "Bébécaille"
 	},
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Mediras",
 		"en": "Hakamo-o",

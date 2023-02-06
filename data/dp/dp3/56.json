@@ -40,7 +40,9 @@
 		"fr": "Tadmorv"
 	},
 	"hp": 80,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Muk",
 		"fr": "Grotadmorv"

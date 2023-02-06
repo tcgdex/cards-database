@@ -56,7 +56,9 @@
 		643
 	],
 	"hp": 130,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Reshiram",
 		"en": "Reshiram",

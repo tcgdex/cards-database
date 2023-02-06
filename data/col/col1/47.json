@@ -30,7 +30,9 @@
 		439
 	],
 	"hp": 30,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Mime Jr.",
 		"fr": "Mime Jr."

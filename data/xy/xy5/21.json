@@ -60,7 +60,9 @@
 		"de": "Vulpix"
 	},
 	"hp": 90,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Vulnona",
 		"en": "Ninetales",

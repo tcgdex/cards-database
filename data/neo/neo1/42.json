@@ -38,7 +38,9 @@
 		"en": "Hoothoot"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Noctowl",
 		"fr": "Noarfang"

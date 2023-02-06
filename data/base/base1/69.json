@@ -24,7 +24,9 @@
 		13
 	],
 	"hp": 40,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Weedle",
 		"fr": "Aspicot"

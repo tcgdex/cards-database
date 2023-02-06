@@ -29,7 +29,9 @@
 		"en": "It's nature's cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean."
 	},
 	"hp": 70,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Reißlaus",
 		"en": "Wimpod",

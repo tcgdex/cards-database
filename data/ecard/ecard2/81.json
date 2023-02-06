@@ -38,7 +38,9 @@
 		107
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Hitmonchan",
 		"fr": "Tygnon"

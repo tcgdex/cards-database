@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se fizer isto, descarte 1 carta aleatória da mão do seu oponente.",
 		"de": "Ziehe 2 Karten. Wenn du das machst, lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 	},
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Mars",
 		"en": "Mars",

@@ -36,7 +36,9 @@
 		"en": "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
 	},
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Galar-Flegmon",
 		"en": "Galarian Slowpoke",

@@ -13,7 +13,9 @@
 		"en": "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
 	},
 	"hp": 60,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Frizelbliz",
 		"en": "Electrike",

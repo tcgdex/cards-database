@@ -41,7 +41,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 190,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"de": "Smettbo V",
 		"en": "Butterfree V",

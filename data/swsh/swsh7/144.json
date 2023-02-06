@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante o turno de cada jogador, aquele jogador poderá curar 30 pontos de dano de cada um dos seus próprios Pokémon Metal e Pokémon Dragon.",
 		"de": "Einmal während des Zuges jedes Spielers kann jener Spieler 30 Schadenspunkte bei jedem seiner Metal-Pokémon und Dragon-Pokémon heilen."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Kristallhöhle",
 		"en": "Crystal Cave",

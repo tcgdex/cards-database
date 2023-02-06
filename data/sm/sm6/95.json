@@ -52,7 +52,9 @@
 		800
 	],
 	"hp": 190,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Ultra-Necrozma GX",
 		"en": "Ultra Necrozma GX",

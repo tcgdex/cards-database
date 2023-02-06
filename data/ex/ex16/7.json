@@ -39,7 +39,9 @@
 		"en": "Lileep"
 	},
 	"hp": 110,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Cradily",
 		"fr": "Vacilys"

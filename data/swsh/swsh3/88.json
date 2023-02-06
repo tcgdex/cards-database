@@ -64,7 +64,9 @@
 		"de": "Pupitar"
 	},
 	"hp": 180,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Despotar",
 		"en": "Tyranitar",

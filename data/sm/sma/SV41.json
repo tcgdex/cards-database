@@ -33,7 +33,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Eevee",
 		"fr": "Évoli"

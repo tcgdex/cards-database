@@ -51,7 +51,9 @@
 		"de": "Pikuda"
 	},
 	"hp": 120,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Barrakiefa",
 		"en": "Barraskewda",

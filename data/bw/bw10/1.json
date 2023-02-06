@@ -20,7 +20,9 @@
 		283
 	],
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Gehweiher",
 		"en": "Surskit",

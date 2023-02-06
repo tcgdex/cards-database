@@ -41,7 +41,9 @@
 		487
 	],
 	"hp": 100,
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Giratina",
 		"fr": "Giratina"

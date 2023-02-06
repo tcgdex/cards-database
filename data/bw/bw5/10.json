@@ -20,7 +20,9 @@
 		616
 	],
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Schnuthelm",
 		"en": "Shelmet",

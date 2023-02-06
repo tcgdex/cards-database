@@ -33,7 +33,9 @@
 		194
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Wooper",
 		"fr": "Axoloto"

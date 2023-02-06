@@ -57,7 +57,9 @@
 		"en": "Clobbopus"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Kaocto",
 		"en": "Grapploct",

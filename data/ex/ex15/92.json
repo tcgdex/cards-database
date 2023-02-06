@@ -39,7 +39,9 @@
 		"en": "Vibrava"
 	},
 	"hp": 150,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Flygon ex δ",
 		"fr": "Libegon ex δ"

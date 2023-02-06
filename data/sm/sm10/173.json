@@ -9,7 +9,9 @@
 		"pt": "Coloque 3 cartas de Energia Fire da sua pilha de descarte na sua mão.",
 		"de": "Nimm 3 Fire-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Feuerkristall",
 		"en": "Fire Crystal",

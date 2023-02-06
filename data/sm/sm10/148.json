@@ -48,7 +48,9 @@
 		"fr": "Miaouss"
 	},
 	"hp": 100,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Snobilikat",
 		"en": "Persian",

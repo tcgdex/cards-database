@@ -42,7 +42,9 @@
 		"fr": "Gruikui"
 	},
 	"hp": 110,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Ferkokel",
 		"en": "Pignite",

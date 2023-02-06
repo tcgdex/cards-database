@@ -44,7 +44,9 @@
 		"fr": "Prinplouf"
 	},
 	"hp": 130,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Empoleon",
 		"fr": "Pingoléon"

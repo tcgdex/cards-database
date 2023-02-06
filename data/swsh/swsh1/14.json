@@ -56,7 +56,9 @@
 		"de": "Chimstix"
 	},
 	"hp": 170,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Gortrom",
 		"en": "Rillaboom",

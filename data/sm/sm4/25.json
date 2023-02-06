@@ -36,7 +36,9 @@
 		"fr": "Écrapince"
 	},
 	"hp": 110,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Krebutack",
 		"en": "Crawdaunt",

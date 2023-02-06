@@ -60,7 +60,9 @@
 		"fr": "Rhinoféros"
 	},
 	"hp": 170,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Rihornior",
 		"en": "Rhyperior",

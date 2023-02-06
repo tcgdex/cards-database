@@ -41,7 +41,9 @@
 		"en": "Ralts"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Kirlia",
 		"fr": "Kirlia"

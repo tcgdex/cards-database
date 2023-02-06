@@ -40,7 +40,9 @@
 		"fr": "Salamèche"
 	},
 	"hp": 80,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"en": "Charmeleon",
 		"fr": "Reptincel"

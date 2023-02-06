@@ -41,7 +41,9 @@
 		"fr": "Phogleur"
 	},
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Walrein",
 		"fr": "Kaimorse Niv. 59"

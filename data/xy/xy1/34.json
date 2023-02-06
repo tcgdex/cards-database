@@ -60,7 +60,9 @@
 		"de": "Sterndu"
 	},
 	"hp": 90,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Starmie",
 		"en": "Starmie",

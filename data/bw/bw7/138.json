@@ -9,7 +9,9 @@
 		"pt": "Se este card estiver ligado a Kyurem Branco-EX, cada um de seus ataques causará 50 de danos adicionais ao Pokémon Ativo (antes da aplicação de Fraqueza e Resistência) .",
 		"de": "Wenn diese Karte an ein Weißes Kyurem-EX angelegt ist, fügen alle seine Angriffe den Aktiven Pokémon 50 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Kristallklinge",
 		"en": "Crystal Edge",

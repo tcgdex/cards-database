@@ -43,7 +43,9 @@
 		531
 	],
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Ohrdoch",
 		"en": "Audino",

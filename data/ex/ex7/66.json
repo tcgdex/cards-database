@@ -19,7 +19,9 @@
 		81
 	],
 	"hp": 50,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Magnemite"
 	},

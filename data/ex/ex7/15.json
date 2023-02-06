@@ -44,7 +44,9 @@
 		"en": "Dark Dragonair"
 	},
 	"hp": 120,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Dark Dragonite"
 	},

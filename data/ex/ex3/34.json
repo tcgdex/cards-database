@@ -40,7 +40,9 @@
 		"en": "Houndour"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Houndoom",
 		"fr": "Hypotrempe"

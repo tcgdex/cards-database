@@ -40,7 +40,9 @@
 		"fr": "Carabaffe"
 	},
 	"hp": 120,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Blastoise",
 		"fr": "Tortank"

@@ -55,7 +55,9 @@
 		"de": "Glumanda"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Glutexo",
 		"en": "Charmeleon",

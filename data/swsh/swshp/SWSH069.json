@@ -50,7 +50,9 @@
 		249
 	],
 	"hp": 130,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Lugia",
 		"en": "Lugia",

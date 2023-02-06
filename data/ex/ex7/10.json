@@ -35,7 +35,9 @@
 		"en": "Onix"
 	},
 	"hp": 110,
-	"illustrator": "Kyoko Koizumi",
+	"illustrator": [
+		"Kyoko Koizumi"
+	],
 	"name": {
 		"en": "Dark Steelix"
 	},

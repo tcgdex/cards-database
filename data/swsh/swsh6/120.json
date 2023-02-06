@@ -31,7 +31,9 @@
 		"en": "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes."
 	},
 	"hp": 110,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Sengo",
 		"en": "Zangoose",

@@ -45,7 +45,9 @@
 		745
 	],
 	"hp": 200,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Wolwerock V",
 		"en": "Lycanroc V",

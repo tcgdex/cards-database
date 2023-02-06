@@ -9,7 +9,9 @@
 		"pt": "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se M-Alakazam-EX.",
 		"de": "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu M-Simsala-EX wird."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Simsalas Geistesbund",
 		"en": "Alakazam Spirit Link",

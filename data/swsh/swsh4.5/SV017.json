@@ -56,7 +56,9 @@
 		"en": "Raboot"
 	},
 	"hp": 170,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Liberlo",
 		"en": "Cinderace",

@@ -48,7 +48,9 @@
 		"fr": "Marill"
 	},
 	"hp": 120,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Azumarill",
 		"en": "Azumarill",

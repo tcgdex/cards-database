@@ -55,7 +55,9 @@
 		"fr": "Limagma"
 	},
 	"hp": 120,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Magcargo",
 		"en": "Magcargo",

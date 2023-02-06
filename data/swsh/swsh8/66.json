@@ -49,7 +49,9 @@
 		"de": "Perlu"
 	},
 	"hp": 110,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Aalabyss",
 		"en": "Huntail",

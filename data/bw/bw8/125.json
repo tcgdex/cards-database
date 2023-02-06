@@ -9,7 +9,9 @@
 		"pt": "Descarte um card de Equipe Plasma da sua mão. (Se você não puder descartar um card de Equipe Plasma, não poderá jogar esse card.) Compre 4 cards.",
 		"de": "Lege 1 Team-Plasma-Karte von deiner Hand auf deinen Ablagestapel. (Wenn du keine Team-Plasma-Karte auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Ziehe 4 Karten."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Team Plasma Rüpel",
 		"en": "Team Plasma Grunt",

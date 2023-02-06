@@ -42,7 +42,9 @@
 		"en": "Dusclops"
 	},
 	"hp": 130,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Dusknoir",
 		"fr": "Noctunoir"

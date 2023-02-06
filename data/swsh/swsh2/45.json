@@ -38,7 +38,9 @@
 		"de": "Schallquap"
 	},
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Mebrana",
 		"en": "Palpitoad",

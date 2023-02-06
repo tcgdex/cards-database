@@ -33,7 +33,9 @@
 		58
 	],
 	"hp": 80,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"en": "Growlithe"
 	},

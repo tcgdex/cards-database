@@ -71,7 +71,9 @@
 		"fr": "Miaouss d’Alola"
 	},
 	"hp": 200,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Alola-Snobilikat GX",
 		"en": "Alolan Persian GX",

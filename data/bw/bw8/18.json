@@ -36,7 +36,9 @@
 		494
 	],
 	"hp": 110,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Victini-EX",
 		"en": "Victini-EX",

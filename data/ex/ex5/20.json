@@ -39,7 +39,9 @@
 		"en": "Surskit"
 	},
 	"hp": 70,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Masquerain",
 		"fr": "Maskadra"

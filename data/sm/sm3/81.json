@@ -39,7 +39,9 @@
 		19
 	],
 	"hp": 40,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Alola-Rattfratz",
 		"en": "Alolan Rattata",

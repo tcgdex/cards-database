@@ -40,7 +40,9 @@
 		"en": "Dodrio"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Espeon",
 		"fr": "Mentali"

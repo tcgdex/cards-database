@@ -36,7 +36,9 @@
 		"en": "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like."
 	},
 	"hp": 70,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Petznief",
 		"en": "Cubchoo",

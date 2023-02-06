@@ -9,7 +9,9 @@
 		"pt": "Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 60. A qualquer momento, durante a sua vez de jogar (antes de atacar), você pode descartar esta carta do jogo.\n\nEsta carta não pode recuar.",
 		"de": "Spiele diese Karte, als ob sie ein Colorless-Basis-Pokémon mit 60 KP wäre. Du kannst diese Karte jederzeit während deines Zuges (bevor du angreifst) aus dem Spiel nehmen und auf deinen Ablagestapel legen.\n\nDiese Karte kann sich nicht zurückziehen."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Unbekanntes Fossil",
 		"en": "Unidentified Fossil",

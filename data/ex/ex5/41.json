@@ -34,7 +34,9 @@
 		"en": "Machop"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Machoke",
 		"fr": "Machopeur"

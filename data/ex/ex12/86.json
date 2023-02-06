@@ -49,7 +49,9 @@
 		"en": "Cascoon"
 	},
 	"hp": 140,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dustox ex",
 		"fr": "Papinox ex"

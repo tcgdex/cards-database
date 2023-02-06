@@ -9,7 +9,9 @@
 		"pt": "Escolha 1 ou ambas:\n• Coloque até 2 Pokémon da sua pilha de descarte na sua mão.\n• Coloque até 2 cartas de Energia básica da sua pilha de descarte na sua mão.",
 		"de": "Wähle 1 oder beide aus:\n• Nimm bis zu 2 Pokémon aus deinem Ablagestapel auf deine Hand.\n• Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Sophora",
 		"en": "Klara",

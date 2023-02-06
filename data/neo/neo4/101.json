@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Attachez Loupe à un de vos Pokémon. A la fin de votre tour, défaussez-vous de Loupe. Si le Pokémon auquel Loupe est attachée attaque, n'appliquez pas la Résistance pour cette attaque."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Magnifier",
 		"fr": "Loupe"

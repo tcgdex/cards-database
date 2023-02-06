@@ -50,7 +50,9 @@
 		351
 	],
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Snow-cloud Castform",
 		"fr": "Morpheo Neige"

@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode curar 60 pontos de dano e remover todas as Condições Especiais de 1 dos próprios Pokémon Grass.\n\nSempre que algum jogador jogar uma carta de Item ou de Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados a esta carta de Estádio.",
 		"de": "Einmal während des Zuges jedes Spielers kann der Spieler bei 1 seiner Grass-Pokémon 60 Schadenspunkte heilen und alle Speziellen Zustände von jenem Pokémon entfernen.\n\nVerhindere jedes Mal, wenn ein Spieler eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dieser Stadionkarte zugefügt werden."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Lebenswald ◇",
 		"en": "Life Forest ◇",

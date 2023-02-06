@@ -36,7 +36,9 @@
 		"de": "Pikachu-V"
 	},
 	"hp": 310,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Pikachu VMAX",
 		"en": "Pikachu VMAX",

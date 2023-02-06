@@ -50,7 +50,9 @@
 		359
 	],
 	"hp": 100,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Absol",
 		"en": "Absol",

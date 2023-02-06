@@ -21,7 +21,9 @@
 		250
 	],
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Ho-oh"
 	},

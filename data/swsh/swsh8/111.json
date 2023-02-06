@@ -37,7 +37,9 @@
 		"de": "Pummeluff"
 	},
 	"hp": 120,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Knuddeluff",
 		"en": "Wigglytuff",

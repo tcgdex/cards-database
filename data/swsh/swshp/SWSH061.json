@@ -48,7 +48,9 @@
 		25
 	],
 	"hp": 190,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Pikachu V",
 		"en": "Pikachu V",

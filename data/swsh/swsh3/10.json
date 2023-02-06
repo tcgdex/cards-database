@@ -30,7 +30,9 @@
 		"de": "Schnuthelm"
 	},
 	"hp": 90,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Hydragil",
 		"en": "Accelgor",

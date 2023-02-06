@@ -29,7 +29,9 @@
 		447
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Riolu",
 		"en": "Riolu",

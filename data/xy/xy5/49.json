@@ -28,7 +28,9 @@
 		366
 	],
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Perlu",
 		"en": "Clamperl",

@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se o seu Pokémon Ativo for um Pokémon ALIADOS, compre 2 cartas a mais.",
 		"de": "Ziehe 2 Karten. Wenn dein Aktives Pokémon ein TAG TEAM Pokémon ist, ziehe 2 Karten mehr."
 	},
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Trainercoach",
 		"en": "Coach Trainer",

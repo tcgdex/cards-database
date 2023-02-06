@@ -57,7 +57,9 @@
 		"fr": "Galvaran"
 	},
 	"hp": 100,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Elezard",
 		"en": "Heliolisk",

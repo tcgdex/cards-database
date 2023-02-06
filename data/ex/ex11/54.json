@@ -34,7 +34,9 @@
 		"en": "Bagon"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Shelgon δ",
 		"fr": "Drackhaus δ ESPÈCES DELTA"

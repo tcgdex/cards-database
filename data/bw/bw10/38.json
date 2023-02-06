@@ -35,7 +35,9 @@
 		482
 	],
 	"hp": 60,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Tobutz",
 		"en": "Azelf",

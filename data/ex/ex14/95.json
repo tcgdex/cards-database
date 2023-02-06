@@ -35,7 +35,9 @@
 		382
 	],
 	"hp": 100,
-	"illustrator": "Yasuki Watanabe",
+	"illustrator": [
+		"Yasuki Watanabe"
+	],
 	"name": {
 		"en": "Kyogre ex",
 		"fr": "Kyogre ex"

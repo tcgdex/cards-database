@@ -54,7 +54,9 @@
 		"en": "Weepinbell"
 	},
 	"hp": 100,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Victreebel",
 		"fr": "Empiflor"

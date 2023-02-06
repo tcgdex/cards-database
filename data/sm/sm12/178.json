@@ -58,7 +58,9 @@
 		"fr": "Furaiglon"
 	},
 	"hp": 130,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Washakwil",
 		"en": "Braviary",

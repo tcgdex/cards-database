@@ -21,7 +21,9 @@
 		100
 	],
 	"hp": 40,
-	"illustrator": "Takao Unno",
+	"illustrator": [
+		"Takao Unno"
+	],
 	"name": {
 		"en": "Holon's Voltorb",
 		"fr": "Voltorbe d'Holon"

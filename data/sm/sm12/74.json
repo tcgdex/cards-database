@@ -30,7 +30,9 @@
 		777
 	],
 	"hp": 70,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Togedemaru",
 		"en": "Togedemaru",

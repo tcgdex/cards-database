@@ -54,7 +54,9 @@
 		149
 	],
 	"hp": 230,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"de": "Dragoran V",
 		"en": "Dragonite V",

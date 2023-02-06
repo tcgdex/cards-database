@@ -49,7 +49,9 @@
 		"fr": "Rocabot"
 	},
 	"hp": 120,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Wolwerock",
 		"en": "Lycanroc",

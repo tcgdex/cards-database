@@ -38,7 +38,9 @@
 		"en": "Gloom"
 	},
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Vileplume",
 		"fr": "Raflésia"

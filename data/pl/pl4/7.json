@@ -47,7 +47,9 @@
 	"evolveFrom": {
 		"en": "Nosepass"
 	},
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Probopass"
 	},

@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se ela for a última carta na sua mão.\n\nColoque 1 Pokémon Golpe Fluido da sua pilha de descarte no seu Banco. Se fizer isto, compre 5 cartas.",
 		"de": "Du kannst diese Karte nur spielen, wenn es die letzte Karte auf deiner Hand ist.\n\nLege 1 Fließender-Angriff-Pokémon aus deinem Ablagestapel auf deine Bank. Wenn du das machst, ziehe 5 Karten."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Fließender-Stil-Mastrich",
 		"en": "Rapid Strike Style Mustard",

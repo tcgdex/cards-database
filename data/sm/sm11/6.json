@@ -42,7 +42,9 @@
 		540
 	],
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Strawickl",
 		"en": "Sewaddle",

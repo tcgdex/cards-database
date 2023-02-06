@@ -21,7 +21,9 @@
 		"en": "They make repeated eerie howls before dawn to call attention to their pack."
 	},
 	"hp": 60,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Hunduster",
 		"en": "Houndour",

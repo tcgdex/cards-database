@@ -21,7 +21,9 @@
 		276
 	],
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Taillow",
 		"fr": "Nirondelle"

@@ -28,7 +28,9 @@
 		123
 	],
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Sichlor",
 		"en": "Scyther",

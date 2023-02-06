@@ -41,7 +41,9 @@
 		"en": "Carvanha"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Sharpedo δ",
 		"fr": "Sharpedo δ ESPÈCES DELTA"

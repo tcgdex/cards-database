@@ -41,7 +41,9 @@
 		"fr": "Chrysacier"
 	},
 	"hp": 120,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Butterfree",
 		"fr": "Papilusion"

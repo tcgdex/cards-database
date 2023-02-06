@@ -32,7 +32,9 @@
 		228
 	],
 	"hp": 50,
-	"illustrator": "Atsuko Ujiie",
+	"illustrator": [
+		"Atsuko Ujiie"
+	],
 	"name": {
 		"en": "Team Magma's Houndour",
 		"fr": "Malosse de Team Magma"

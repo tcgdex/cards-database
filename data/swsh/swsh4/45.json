@@ -22,7 +22,9 @@
 		"en": "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
 	},
 	"hp": 60,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Voltobal",
 		"en": "Voltorb",

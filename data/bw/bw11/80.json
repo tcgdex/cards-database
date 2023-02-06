@@ -34,7 +34,9 @@
 		"en": "Riolu"
 	},
 	"hp": 100,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Lucario"
 	},

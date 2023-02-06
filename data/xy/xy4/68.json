@@ -43,7 +43,9 @@
 		684
 	],
 	"hp": 60,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Flauschling",
 		"en": "Swirlix",

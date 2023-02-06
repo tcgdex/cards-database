@@ -16,7 +16,9 @@
 		"en": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp."
 	},
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Axew"
 	},

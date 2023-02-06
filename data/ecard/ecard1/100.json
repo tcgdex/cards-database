@@ -32,7 +32,9 @@
 		152
 	],
 	"hp": 50,
-	"illustrator": "Motofumi Fujiwara",
+	"illustrator": [
+		"Motofumi Fujiwara"
+	],
 	"name": {
 		"en": "Chikorita",
 		"fr": "Germignon"

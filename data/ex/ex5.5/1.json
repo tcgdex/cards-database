@@ -30,7 +30,9 @@
 		252
 	],
 	"hp": 60,
-	"illustrator": "Mark Kraus",
+	"illustrator": [
+		"Mark Kraus"
+	],
 	"name": {
 		"en": "Treecko"
 	},

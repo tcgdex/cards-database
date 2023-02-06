@@ -35,7 +35,9 @@
 		"fr": "Tylton"
 	},
 	"hp": 80,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Altaria",
 		"fr": "Altaria"

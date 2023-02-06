@@ -54,7 +54,9 @@
 		618
 	],
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Galar-Flunschlik",
 		"en": "Galarian Stunfisk",

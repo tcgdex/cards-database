@@ -58,7 +58,9 @@
 		"fr": "Excelangue"
 	},
 	"hp": 130,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Schlurplek",
 		"en": "Lickilicky",

@@ -24,7 +24,9 @@
 		"en": "Vulpix"
 	},
 	"hp": 90,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"en": "Ninetales"
 	},

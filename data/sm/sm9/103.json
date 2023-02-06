@@ -57,7 +57,9 @@
 		"fr": "Grindur"
 	},
 	"hp": 120,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Tentantel",
 		"en": "Ferrothorn",

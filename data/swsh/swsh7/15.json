@@ -32,7 +32,9 @@
 		829
 	],
 	"hp": 50,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Cottini",
 		"en": "Gossifleur",

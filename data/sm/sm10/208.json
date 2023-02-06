@@ -73,7 +73,9 @@
 		797
 	],
 	"hp": 200,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Kaguron GX",
 		"en": "Celesteela GX",

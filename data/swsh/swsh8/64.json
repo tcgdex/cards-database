@@ -40,7 +40,9 @@
 		"de": "Moorabbel"
 	},
 	"hp": 170,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Sumpex",
 		"en": "Swampert",

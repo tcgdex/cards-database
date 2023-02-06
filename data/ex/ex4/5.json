@@ -38,7 +38,9 @@
 		319
 	],
 	"hp": 70,
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Team Aqua's Sharpedo",
 		"fr": "Sharpedo de Team Aqua"

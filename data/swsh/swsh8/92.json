@@ -25,7 +25,9 @@
 		"de": "Sheinux"
 	},
 	"hp": 90,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Luxio",
 		"en": "Luxio",

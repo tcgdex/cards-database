@@ -9,7 +9,9 @@
 		"pt": "Jogue 1 moeda. Se sair cara, cure 60 pontos de dano e remova todas as Condições Especiais de 1 dos seus Pokémon.",
 		"de": "Wirf 1 Münze. Heile bei Kopf 60 Schadenspunkte und entferne alle Speziellen Zustände von 1 deiner Pokémon."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Lebenskräuter",
 		"en": "Life Herb",

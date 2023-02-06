@@ -9,7 +9,9 @@
 		"pt": "Cure 50 de danos de 1 dos seus Pokémon que possua qualquer Energia Fairy ligada a ele.",
 		"de": "Heile 50 Schadenspunkte bei 1 deiner Pokémon, an das Fairy-Energie angelegt ist."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Feentropfen",
 		"en": "Fairy Drop",

@@ -38,7 +38,9 @@
 		"en": "Omanyte"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Omastar",
 		"fr": "Amonistar"

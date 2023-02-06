@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode procurar por até 2 Pokémon que evoluam de Fóssil Não Identificado no próprio baralho, colocá-los no próprio Banco e embaralhar o próprio baralho. Se um jogador procurar no próprio baralho desta forma, a sua vez de jogar acaba.",
 		"de": "Einmal während des Zuges jedes Spielers kann der Spieler sein Deck nach bis zu 2 Pokémon, die sich aus Unbekanntes Fossil entwickeln, durchsuchen, jene Pokémon auf seine Bank legen und sein Deck mischen. Wenn ein Spieler sein Deck auf diese Weise durchsucht, endet sein Zug."
 	},
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Pokémon-Labor",
 		"en": "Pokémon Research Lab",

@@ -19,7 +19,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Magikarp"
 	},

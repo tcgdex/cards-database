@@ -48,7 +48,9 @@
 		"fr": "Sorboul"
 	},
 	"hp": 130,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Gelatwino",
 		"en": "Vanilluxe",

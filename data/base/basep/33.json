@@ -42,7 +42,9 @@
 		"en": "Scyther"
 	},
 	"hp": 70,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Scizor",
 		"fr": "Cizayox"

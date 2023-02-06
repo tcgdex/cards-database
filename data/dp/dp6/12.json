@@ -42,7 +42,9 @@
 		"fr": "Quaputzi"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Politoed",
 		"fr": "Tarpaud"

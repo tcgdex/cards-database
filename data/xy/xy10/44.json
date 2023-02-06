@@ -53,7 +53,9 @@
 		"de": "Burmy"
 	},
 	"hp": 110,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Burmadame",
 		"en": "Wormadam",

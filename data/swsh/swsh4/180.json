@@ -9,7 +9,9 @@
 		"pt": "Descarte as 5 cartas de cima do seu baralho e ligue quaisquer cartas de Energia que você descartou desta forma aos seus Pokémon Fighting no Banco como desejar.",
 		"de": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel und lege alle Energiekarten, die du auf diese Weise auf deinen Ablagestapel gelegt hast, beliebig an die Fighting-Pokémon auf deiner Bank an."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Saida",
 		"en": "Bea",

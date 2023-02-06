@@ -22,7 +22,9 @@
 		4
 	],
 	"hp": 70,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"en": "Charmander",
 		"fr": "Salamèche"

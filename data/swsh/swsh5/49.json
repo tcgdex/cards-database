@@ -43,7 +43,9 @@
 		"en": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
 	},
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Pachirisu",
 		"en": "Pachirisu",

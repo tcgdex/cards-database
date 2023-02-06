@@ -63,7 +63,9 @@
 		"de": "Panekon"
 	},
 	"hp": 140,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Pudox",
 		"en": "Dustox",

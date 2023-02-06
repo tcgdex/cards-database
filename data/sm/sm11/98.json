@@ -36,7 +36,9 @@
 		757
 	],
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Molunk",
 		"en": "Salandit",

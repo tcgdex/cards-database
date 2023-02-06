@@ -29,7 +29,9 @@
 		"de": "Nebulak"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Alpollo",
 		"en": "Haunter",

@@ -37,7 +37,9 @@
 		"en": "Eevee"
 	},
 	"hp": 70,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Umbreon δ",
 		"fr": "Noctali δ ESPÈCES DELTA"

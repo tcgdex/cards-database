@@ -50,7 +50,9 @@
 		718
 	],
 	"hp": 90,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Zygarde",
 		"en": "Zygarde",

@@ -46,7 +46,9 @@
 		618
 	],
 	"hp": 110,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Flunschlik",
 		"en": "Stunfisk",

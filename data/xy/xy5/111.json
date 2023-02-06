@@ -43,7 +43,9 @@
 		263
 	],
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Zigzachs",
 		"en": "Zigzagoon",

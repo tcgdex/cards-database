@@ -27,7 +27,9 @@
 		26
 	],
 	"hp": 70,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Shining Raichu",
 		"fr": "Raichu brillant"

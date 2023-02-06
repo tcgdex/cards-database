@@ -51,7 +51,9 @@
 		631
 	],
 	"hp": 110,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Furnifraß",
 		"en": "Heatmor",

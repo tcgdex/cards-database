@@ -33,7 +33,9 @@
 		440
 	],
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Happiny",
 		"fr": "Ptiravi"

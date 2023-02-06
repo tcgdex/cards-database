@@ -51,7 +51,9 @@
 		"de": "Sheinux"
 	},
 	"hp": 80,
-	"illustrator": "Megumi Higuchi",
+	"illustrator": [
+		"Megumi Higuchi"
+	],
 	"name": {
 		"de": "Luxio",
 		"en": "Luxio",

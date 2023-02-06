@@ -38,7 +38,9 @@
 		"fr": "Mustébouée"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Floatzel",
 		"fr": "Mustéflott"

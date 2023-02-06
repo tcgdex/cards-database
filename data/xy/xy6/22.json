@@ -61,7 +61,9 @@
 		"de": "Voltobal"
 	},
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Lektrobal",
 		"en": "Electrode",

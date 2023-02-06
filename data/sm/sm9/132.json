@@ -43,7 +43,9 @@
 		335
 	],
 	"hp": 100,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Sengo",
 		"en": "Zangoose",

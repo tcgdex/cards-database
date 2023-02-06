@@ -47,7 +47,9 @@
 		"fr": "Bébécaille"
 	},
 	"hp": 80,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Mediras",
 		"en": "Hakamo-o",

@@ -44,7 +44,9 @@
 		25
 	],
 	"hp": 190,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Pikachu V",
 		"en": "Pikachu V",

@@ -36,7 +36,9 @@
 		"fr": "Seemon"
 	},
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Kingdra",
 		"fr": "Hyporoi"

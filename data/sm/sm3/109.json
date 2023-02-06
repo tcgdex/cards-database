@@ -29,7 +29,9 @@
 		714
 	],
 	"hp": 50,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "eF-eM",
 		"en": "Noibat",

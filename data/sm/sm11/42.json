@@ -60,7 +60,9 @@
 		"fr": "Blizzi"
 	},
 	"hp": 140,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Rexblisar",
 		"en": "Abomasnow",

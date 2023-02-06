@@ -31,7 +31,9 @@
 		252
 	],
 	"hp": 40,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Treecko δ",
 		"fr": "Arcko δ"

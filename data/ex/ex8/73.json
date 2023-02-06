@@ -34,7 +34,9 @@
 		287
 	],
 	"hp": 40,
-	"illustrator": "Takao Unno",
+	"illustrator": [
+		"Takao Unno"
+	],
 	"name": {
 		"en": "Slakoth",
 		"fr": "Parecool"

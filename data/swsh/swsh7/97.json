@@ -63,7 +63,9 @@
 		"de": "Blanas"
 	},
 	"hp": 150,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Tengulist",
 		"en": "Shiftry",

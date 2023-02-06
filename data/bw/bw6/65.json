@@ -34,7 +34,9 @@
 		524
 	],
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Kiesling",
 		"en": "Roggenrola",

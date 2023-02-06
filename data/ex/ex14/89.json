@@ -55,7 +55,9 @@
 		"en": "Lairon"
 	},
 	"hp": 150,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Aggron ex",
 		"fr": "Galeking ex"

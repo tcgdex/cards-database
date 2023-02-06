@@ -5,7 +5,9 @@
 		"fr": "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 		"en": "Your opponent’s Active Pokémon is now Confused and Poisoned."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"en": "Koga’s Trap",
 		"fr": "Piège de Koga"

@@ -36,7 +36,9 @@
 		"en": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large."
 	},
 	"hp": 60,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Sodamak",
 		"en": "Panpour",

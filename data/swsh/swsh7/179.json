@@ -44,7 +44,9 @@
 		196
 	],
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Psiana V",
 		"en": "Espeon V",

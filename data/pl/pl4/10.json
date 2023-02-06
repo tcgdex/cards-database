@@ -37,7 +37,9 @@
 	"evolveFrom": {
 		"en": "Tangela"
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Tangrowth"
 	},

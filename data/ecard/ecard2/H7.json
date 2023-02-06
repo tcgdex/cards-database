@@ -38,7 +38,9 @@
 		"en": "Voltorb"
 	},
 	"hp": 70,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Electrode",
 		"fr": "Électrode"

@@ -69,7 +69,9 @@
 		"en": "Unidentified Fossil"
 	},
 	"hp": 210,
-	"illustrator": "ConceptLab",
+	"illustrator": [
+		"ConceptLab"
+	],
 	"name": {
 		"de": "Aerodactyl GX",
 		"en": "Aerodactyl GX",

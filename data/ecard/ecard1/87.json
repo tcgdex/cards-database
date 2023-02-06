@@ -33,7 +33,9 @@
 		"en": "Caterpie"
 	},
 	"hp": 60,
-	"illustrator": "Yuichi Sawayama",
+	"illustrator": [
+		"Yuichi Sawayama"
+	],
 	"name": {
 		"en": "Metapod",
 		"fr": "Chrysacier"

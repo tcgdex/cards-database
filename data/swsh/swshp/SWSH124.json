@@ -35,7 +35,9 @@
 		145
 	],
 	"hp": 110,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"en": "Galarian Zapdos"
 	},

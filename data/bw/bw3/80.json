@@ -42,7 +42,9 @@
 		"fr": "Carabing"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Cavalanzas",
 		"en": "Escavalier",

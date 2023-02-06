@@ -55,7 +55,9 @@
 		"fr": "Fluvetin"
 	},
 	"hp": 90,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Parfinesse",
 		"en": "Aromatisse",

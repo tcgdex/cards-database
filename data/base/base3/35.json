@@ -43,7 +43,9 @@
 		"en": "Psyduck"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Golduck",
 		"fr": "Akwakwak"

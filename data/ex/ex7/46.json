@@ -31,7 +31,9 @@
 		52
 	],
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Rocket's Meowth"
 	},

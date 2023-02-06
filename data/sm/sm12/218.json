@@ -80,7 +80,9 @@
 		"fr": "Vibraninf"
 	},
 	"hp": 240,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Libelldra GX",
 		"en": "Flygon GX",

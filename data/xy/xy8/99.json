@@ -61,7 +61,9 @@
 		"de": "Snubbull"
 	},
 	"hp": 120,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Granbull",
 		"en": "Granbull",

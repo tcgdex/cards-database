@@ -52,7 +52,9 @@
 		471
 	],
 	"hp": 210,
-	"illustrator": "Narumi Sato",
+	"illustrator": [
+		"Narumi Sato"
+	],
 	"name": {
 		"de": "Glaziola V",
 		"en": "Glaceon V",

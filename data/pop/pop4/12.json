@@ -22,7 +22,9 @@
 		16
 	],
 	"hp": 40,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Pidgey",
 		"fr": "Roucool"

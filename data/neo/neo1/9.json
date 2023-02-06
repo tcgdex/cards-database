@@ -26,7 +26,9 @@
 		249
 	],
 	"hp": 90,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Lugia",
 		"fr": "Lugia"

@@ -48,7 +48,9 @@
 		"fr": "Caninos"
 	},
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Arkani",
 		"en": "Arcanine",

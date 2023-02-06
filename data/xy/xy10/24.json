@@ -50,7 +50,9 @@
 		479
 	],
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Rotom",
 		"en": "Rotom",

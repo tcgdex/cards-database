@@ -33,7 +33,9 @@
 		"en": "Eevee"
 	},
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Jolteon"
 	},

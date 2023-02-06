@@ -32,7 +32,9 @@
 		403
 	],
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Sheinux",
 		"en": "Shinx",

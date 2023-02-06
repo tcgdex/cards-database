@@ -38,7 +38,9 @@
 		200
 	],
 	"hp": 50,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Misdreavus",
 		"fr": "Feuforêve"

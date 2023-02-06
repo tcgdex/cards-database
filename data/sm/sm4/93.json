@@ -9,7 +9,9 @@
 		"pt": "Os ataques dos Pokémon Darkness e Pokémon Dragon (seus e do seu oponente) causam 10 pontos de dano a mais ao Pokémon Ativo do oponente (antes de aplicar Fraqueza e Resistência).",
 		"de": "Die Attacken der Darkness-Pokémon und Dragon-Pokémon (deiner und der deines Gegners) fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Verschlungener Hain",
 		"en": "Devoured Field",

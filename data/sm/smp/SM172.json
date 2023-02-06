@@ -77,7 +77,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 210,
-	"illustrator": "PLANETA Otani",
+	"illustrator": [
+		"PLANETA Otani"
+	],
 	"name": {
 		"de": "Aquana GX",
 		"en": "Vaporeon GX",

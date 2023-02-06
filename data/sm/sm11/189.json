@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Jogue 1 moeda. Se sair cara, compre 2 cartas a mais.",
 		"de": "Ziehe 2 Karten. Wirf 1 Münze. Ziehe bei Kopf 2 Karten mehr."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Käfersammler",
 		"en": "Bug Catcher",

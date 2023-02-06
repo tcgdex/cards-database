@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, choisissez dans votre deck un Pokémon de base ou une carte Évolution, montrez la carte à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck."
 	},
-	"illustrator": "K. Hoshiba",
+	"illustrator": [
+		"K. Hoshiba"
+	],
 	"name": {
 		"en": "Poké Ball",
 		"fr": "Poké Balle"

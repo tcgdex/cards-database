@@ -34,7 +34,9 @@
 		236
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Tyrogue",
 		"fr": "Debugant"

@@ -17,7 +17,9 @@
 		81
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Magnetilo",
 		"en": "Magnemite",

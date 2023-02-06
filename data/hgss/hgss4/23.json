@@ -45,7 +45,9 @@
 		"fr": "Spoink"
 	},
 	"hp": 90,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Grumpig",
 		"fr": "Groret"

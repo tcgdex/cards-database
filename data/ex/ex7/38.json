@@ -35,7 +35,9 @@
 		"en": "Slugma"
 	},
 	"hp": 80,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Dark Magcargo"
 	},

@@ -43,7 +43,9 @@
 		"en": "Remoraid"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Octillery",
 		"fr": "Octillery"

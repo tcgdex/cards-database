@@ -56,7 +56,9 @@
 		"fr": "Porygon2"
 	},
 	"hp": 130,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Porygon-Z",
 		"en": "Porygon-Z",

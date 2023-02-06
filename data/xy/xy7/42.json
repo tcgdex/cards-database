@@ -48,7 +48,9 @@
 		248
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Despotar EX",
 		"en": "Tyranitar EX",

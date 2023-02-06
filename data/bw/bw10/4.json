@@ -40,7 +40,9 @@
 		"fr": "Lilia"
 	},
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Wielie",
 		"en": "Cradily",

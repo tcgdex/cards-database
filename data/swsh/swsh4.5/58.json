@@ -9,7 +9,9 @@
 		"pt": "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
 		"de": "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 	},
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Befehl vom Boss",
 		"en": "Boss's Orders (Lysandre)",

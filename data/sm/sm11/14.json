@@ -55,7 +55,9 @@
 		"fr": "Trompignon"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Hutsassa",
 		"en": "Amoonguss",

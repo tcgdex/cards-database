@@ -32,7 +32,9 @@
 		484
 	],
 	"hp": 120,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Palkia",
 		"fr": "Palkia"

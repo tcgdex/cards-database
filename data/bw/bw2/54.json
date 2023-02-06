@@ -30,7 +30,9 @@
 		529
 	],
 	"hp": 70,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Rotomurf",
 		"en": "Drilbur",

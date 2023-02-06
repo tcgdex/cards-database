@@ -36,7 +36,9 @@
 		385
 	],
 	"hp": 60,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Jirachi",
 		"fr": "Jirachi"

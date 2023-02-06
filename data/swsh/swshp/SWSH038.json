@@ -49,7 +49,9 @@
 		115
 	],
 	"hp": 130,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Kangama",
 		"en": "Kangaskhan",

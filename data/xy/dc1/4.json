@@ -41,7 +41,9 @@
 		"fr": "Obalie de la Team Aqua"
 	},
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Team Aqua's Sealeo",
 		"fr": "Phogleur de la Team Aqua"

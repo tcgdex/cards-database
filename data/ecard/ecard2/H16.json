@@ -39,7 +39,9 @@
 		"en": "Magnemite"
 	},
 	"hp": 70,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Magneton",
 		"fr": "Magneton"

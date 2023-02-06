@@ -37,7 +37,9 @@
 		"de": "Sterndu"
 	},
 	"hp": 90,
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"de": "Starmie",
 		"en": "Starmie",

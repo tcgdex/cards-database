@@ -54,7 +54,9 @@
 		"fr": "Teraclope"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dusknoir",
 		"fr": "Noctunoir"

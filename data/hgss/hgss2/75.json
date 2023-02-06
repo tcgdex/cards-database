@@ -6,7 +6,9 @@
 		"en": "Discard an Energy card from your hand. Then. draw 4 cards."
 	},
 	"hp": 0,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Engineer’s Adjustments",
 		"fr": "Réglages techniques"

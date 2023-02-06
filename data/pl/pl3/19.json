@@ -39,7 +39,9 @@
 		323
 	],
 	"hp": 100,
-	"illustrator": "Ryota Saito",
+	"illustrator": [
+		"Ryota Saito"
+	],
 	"name": {
 		"en": "Camerupt G",
 		"fr": "Camerupt "

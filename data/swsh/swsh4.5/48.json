@@ -56,7 +56,9 @@
 		"en": "Nickit"
 	},
 	"hp": 100,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Gaunux",
 		"en": "Thievul",

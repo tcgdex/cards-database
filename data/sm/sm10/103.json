@@ -51,7 +51,9 @@
 		645
 	],
 	"hp": 120,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Demeteros",
 		"en": "Landorus",

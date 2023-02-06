@@ -28,7 +28,9 @@
 		"en": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
 	},
 	"hp": 40,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Zapplardin",
 		"en": "Tynamo",

@@ -21,7 +21,9 @@
 		"en": "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!"
 	},
 	"hp": 50,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Kikugi",
 		"en": "Cherubi",

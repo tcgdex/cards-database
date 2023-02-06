@@ -40,7 +40,9 @@
 		"en": "Whismur"
 	},
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Loudred",
 		"fr": "Ramboum"

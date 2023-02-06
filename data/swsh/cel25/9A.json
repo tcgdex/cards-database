@@ -41,7 +41,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 100,
-	"illustrator": "Kazuo Yazawa",
+	"illustrator": [
+		"Kazuo Yazawa"
+	],
 	"name": {
 		"en": "Team Magma's Groudon"
 	},

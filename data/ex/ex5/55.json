@@ -21,7 +21,9 @@
 		"en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 	},
 	"hp": 50,
-	"illustrator": "Shin-ichi Yoshikawa",
+	"illustrator": [
+		"Shin-ichi Yoshikawa"
+	],
 	"name": {
 		"en": "Chikorita",
 		"fr": "Germignon"

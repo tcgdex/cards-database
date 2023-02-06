@@ -64,7 +64,9 @@
 		"de": "Tangela"
 	},
 	"hp": 130,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Tangoloss",
 		"en": "Tangrowth",

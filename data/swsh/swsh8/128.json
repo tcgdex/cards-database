@@ -19,7 +19,9 @@
 		"en": "If this weak Pokémon is by itself, a mere child could defeat it. But if Dreepy has friends to help it train, it can evolve and become much stronger."
 	},
 	"hp": 60,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Grolldra",
 		"en": "Dreepy",

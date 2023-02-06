@@ -44,7 +44,9 @@
 		701
 	],
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Resladero",
 		"en": "Hawlucha",

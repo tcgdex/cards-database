@@ -48,7 +48,9 @@
 		"en": "Skwovet"
 	},
 	"hp": 120,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Schlaraffel",
 		"en": "Greedent",

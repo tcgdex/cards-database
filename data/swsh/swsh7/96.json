@@ -40,7 +40,9 @@
 		"de": "Samurzel"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Blanas",
 		"en": "Nuzleaf",

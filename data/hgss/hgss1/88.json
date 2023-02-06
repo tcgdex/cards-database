@@ -33,7 +33,9 @@
 		194
 	],
 	"hp": 50,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Wooper",
 		"fr": "Axoloto"

@@ -30,7 +30,9 @@
 		231
 	],
 	"hp": 80,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Phanpy",
 		"en": "Phanpy",

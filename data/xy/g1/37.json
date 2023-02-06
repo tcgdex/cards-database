@@ -35,7 +35,9 @@
 		678
 	],
 	"hp": 160,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"en": "Meowstic EX",
 		"fr": "Mistigrix-EX"

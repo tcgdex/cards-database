@@ -9,7 +9,9 @@
 		"pt": "Embaralhe qualquer combinação de 3 cards entre Pokémon e Energia básica de sua pilha de descarte em seu baralho.",
 		"de": "Mische eine Kombination aus insgesamt 3 Pokémon- und Basis-Energiekarten von deinem Ablagestapel zurück in dein Deck."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Superangel",
 		"en": "Super Rod",

@@ -9,7 +9,9 @@
 		"pt": "Os Pokémon evoluídos de cada jogador podem usar qualquer ataque de suas Evoluções anteriores. (O jogador ainda assim precisa da Energia necessária para usar cada ataque.)",
 		"de": "Die entwickelten Pokémon beider Spieler können die Angriffe aus vorangegangenen Entwicklungsstufen verwenden. (Ein Spieler benötigt dazu die für jeden der Angriffe erforderlichen Energien.)"
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Erinnerungsstätte",
 		"en": "Shrine of Memories",

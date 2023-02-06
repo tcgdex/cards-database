@@ -32,7 +32,9 @@
 		104
 	],
 	"hp": 40,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Cubone",
 		"fr": "Osselait"

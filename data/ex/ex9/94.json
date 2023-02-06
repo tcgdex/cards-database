@@ -36,7 +36,9 @@
 		"en": "Duskull"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dusclops ex",
 		"fr": "Teraclope ex"

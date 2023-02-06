@@ -55,7 +55,9 @@
 		"fr": "Carmache"
 	},
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Garchomp",
 		"fr": "Carchacrok"

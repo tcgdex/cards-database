@@ -57,7 +57,9 @@
 		"fr": "Machopeur"
 	},
 	"hp": 150,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Machamp",
 		"fr": "Mackogneur"

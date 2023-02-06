@@ -59,7 +59,9 @@
 		"de": "Rattfratz"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Rattikarl",
 		"en": "Raticate",

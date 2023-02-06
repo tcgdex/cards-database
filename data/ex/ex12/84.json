@@ -52,7 +52,9 @@
 		"en": "Anorith"
 	},
 	"hp": 160,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Armaldo ex",
 		"fr": "Armaldo ex"

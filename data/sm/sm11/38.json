@@ -55,7 +55,9 @@
 		"fr": "Stalgamin"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Frosdedje",
 		"en": "Froslass",

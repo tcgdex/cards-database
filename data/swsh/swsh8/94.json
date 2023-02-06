@@ -27,7 +27,9 @@
 		"en": "With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others."
 	},
 	"hp": 80,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Rotom",
 		"en": "Rotom",

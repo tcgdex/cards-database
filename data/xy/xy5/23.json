@@ -61,7 +61,9 @@
 		"de": "Schneckmag"
 	},
 	"hp": 120,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Magcargo",
 		"en": "Magcargo",

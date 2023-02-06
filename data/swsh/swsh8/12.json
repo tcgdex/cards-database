@@ -29,7 +29,9 @@
 		"en": "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert."
 	},
 	"hp": 110,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Maracamba",
 		"en": "Maractus",

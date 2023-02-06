@@ -52,7 +52,9 @@
 		"de": "Lin-Fu"
 	},
 	"hp": 90,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Wie-Shu",
 		"en": "Mienshao",

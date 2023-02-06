@@ -59,7 +59,9 @@
 		"de": "Blanas"
 	},
 	"hp": 150,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Tengulist",
 		"en": "Shiftry",

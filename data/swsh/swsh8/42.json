@@ -30,7 +30,9 @@
 		"en": "This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry."
 	},
 	"hp": 90,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Choreogel",
 		"en": "Oricorio",

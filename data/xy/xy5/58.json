@@ -62,7 +62,9 @@
 		"de": "Lampi"
 	},
 	"hp": 100,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Lanturn",
 		"en": "Lanturn",

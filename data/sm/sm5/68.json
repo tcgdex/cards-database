@@ -31,7 +31,9 @@
 		449
 	],
 	"hp": 90,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Hippopotas",
 		"en": "Hippopotas",

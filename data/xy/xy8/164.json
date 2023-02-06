@@ -52,7 +52,9 @@
 		150
 	],
 	"hp": 170,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Mewtu EX",
 		"en": "Mewtwo EX",

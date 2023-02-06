@@ -56,7 +56,9 @@
 		"fr": "Kranidos"
 	},
 	"hp": 150,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Rameidon",
 		"en": "Rampardos",

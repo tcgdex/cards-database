@@ -55,7 +55,9 @@
 		"fr": "Malosse"
 	},
 	"hp": 110,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Hundemon",
 		"en": "Houndoom",

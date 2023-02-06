@@ -9,7 +9,9 @@
 		"pt": "Escolha 1:\n\n• Procure por 1 carta de Fóssil Não Identificado no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.\n• Coloque 1 carta de Fóssil Não Identificado da sua pilha de descarte na sua mão.",
 		"de": "Wähle 1 aus:\n\n•Durchsuche dein Deck nach 1 Unbekanntes Fossil-Karte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.\n•Nimm 1 Unbekanntes Fossil-Karte aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Fossilausgrabungskarte",
 		"en": "Fossil Excavation Map",

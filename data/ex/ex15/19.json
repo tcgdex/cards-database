@@ -33,7 +33,9 @@
 		108
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Lickitung δ",
 		"fr": "Excelangue δ ESPÈCES DELTA"

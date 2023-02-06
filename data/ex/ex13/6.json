@@ -34,7 +34,9 @@
 		386
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Deoxys δ",
 		"fr": "Deoxys δ ESPÈCES DELTA"

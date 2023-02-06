@@ -32,7 +32,9 @@
 		621
 	],
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Druddigon"
 	},

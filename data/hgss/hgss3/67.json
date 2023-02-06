@@ -35,7 +35,9 @@
 		218
 	],
 	"hp": 60,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Slugma",
 		"fr": "Limagma"

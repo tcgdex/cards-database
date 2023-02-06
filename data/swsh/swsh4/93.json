@@ -45,7 +45,9 @@
 		"en": "Born when all of Zygarde's cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
 	},
 	"hp": 150,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Zygarde",
 		"en": "Zygarde",

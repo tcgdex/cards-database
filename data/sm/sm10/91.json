@@ -57,7 +57,9 @@
 		"fr": "Osselait"
 	},
 	"hp": 110,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Knogga",
 		"en": "Marowak",

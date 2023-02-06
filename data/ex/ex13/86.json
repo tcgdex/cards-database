@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, cherchez dans votre deck un Amonita, Kabuto, Ptera, Ptera ex, Lilia ou Anorith et placez-le sur votre Banc. Ensuite, mélangez votre deck. Si c'est pile, placez un Amonita, Kabuto, Ptera, Ptera ex, Lilia ou Anorith de votre main sur votre Banc. Traitez le nouveau Pokémon comme un Pokémon de base."
 	},
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Holon Fossil",
 		"fr": "Fossile Holon"

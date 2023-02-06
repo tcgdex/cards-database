@@ -55,7 +55,9 @@
 		"fr": "Tadmorv"
 	},
 	"hp": 100,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Muk",
 		"fr": "Grotadmorv"

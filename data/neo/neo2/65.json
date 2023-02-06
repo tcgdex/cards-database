@@ -34,7 +34,9 @@
 		216
 	],
 	"hp": 40,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Teddiursa",
 		"fr": "Teddiursa"

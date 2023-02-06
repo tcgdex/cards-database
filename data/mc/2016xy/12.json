@@ -21,7 +21,9 @@
 	"description": {
 		"en": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Eevee"
 	},

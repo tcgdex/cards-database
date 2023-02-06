@@ -41,7 +41,9 @@
 		"en": "Meditite"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Medicham",
 		"fr": "Charmina"

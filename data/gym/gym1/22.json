@@ -34,7 +34,9 @@
 		111
 	],
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Brock's Rhyhorn"
 	},

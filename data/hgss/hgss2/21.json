@@ -45,7 +45,9 @@
 		"fr": "Tetarte"
 	},
 	"hp": 130,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Poliwrath",
 		"fr": "Tartard"

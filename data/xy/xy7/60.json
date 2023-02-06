@@ -62,7 +62,9 @@
 		"de": "Viscargot"
 	},
 	"hp": 150,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Viscogon",
 		"en": "Goodra",

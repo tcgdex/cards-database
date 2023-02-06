@@ -49,7 +49,9 @@
 		74
 	],
 	"hp": 70,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Alola-Kleinstein",
 		"en": "Alolan Geodude",

@@ -9,7 +9,9 @@
 		"pt": "Sempre que um jogador jogar uma moeda para a Condição Especial de Queimado entre as vezes de jogar, aquela Condição Especial não é removida, mesmo que o resultado seja cara.",
 		"de": "Jedes Mal, wenn ein Spieler zwischen den Zügen eine Münze für den Speziellen Zustand Verbrennung wirft, verliert jener Spezielle Zustand seine Wirkung nicht, auch wenn das Ergebnis Kopf ist."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Wela Vulkanpark",
 		"en": "Wela Volcano Park",

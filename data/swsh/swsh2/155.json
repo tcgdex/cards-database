@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon Fire ao qual esta carta está ligada estiver no Campo Ativo e for danificado por um ataque do seu oponente (mesmo que ele seja Nocauteado), o Pokémon Atacante ficará Queimado.",
 		"de": "Wenn das Fire-Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Flammenhalstuch",
 		"en": "Burning Scarf",

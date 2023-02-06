@@ -25,7 +25,9 @@
 		"en": "Salamence-EX"
 	},
 	"hp": 230,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Salamence-EX"
 	},

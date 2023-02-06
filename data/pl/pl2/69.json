@@ -34,7 +34,9 @@
 		446
 	],
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Munchlax",
 		"fr": "Goinfrex Niv. 13"

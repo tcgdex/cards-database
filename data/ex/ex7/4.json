@@ -33,7 +33,9 @@
 		"en": "Voltorb"
 	},
 	"hp": 70,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Dark Electrode"
 	},

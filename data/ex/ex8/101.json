@@ -40,7 +40,9 @@
 		"en": "Electrike"
 	},
 	"hp": 100,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Manectric ex",
 		"fr": "Elecsprint ex"

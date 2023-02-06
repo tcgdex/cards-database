@@ -29,7 +29,9 @@
 		679
 	],
 	"hp": 70,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Gramokles",
 		"en": "Honedge",

@@ -44,7 +44,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Gyarados",
 		"fr": "Léviator"

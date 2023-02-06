@@ -42,7 +42,9 @@
 		"fr": "Medhyèna de la Team Aqua"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Team Aqua's Mightyena",
 		"fr": "Grahyèna de la Team Aqua"

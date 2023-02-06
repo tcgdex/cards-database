@@ -9,7 +9,9 @@
 		"pt": "Seu oponente embaralha a mão no próprio deck e compra 4 cards.",
 		"de": "Dein Gegner mischt seine Hand zurück in sein Deck und zieht 4 Karten."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rote Karte",
 		"en": "Red Card",

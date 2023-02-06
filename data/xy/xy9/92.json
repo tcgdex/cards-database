@@ -52,7 +52,9 @@
 		250
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Ho-Oh EX",
 		"en": "Ho-Oh EX",

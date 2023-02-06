@@ -33,7 +33,9 @@
 		"en": "Zubat"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Brock's Golbat"
 	},

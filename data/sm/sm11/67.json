@@ -29,7 +29,9 @@
 		618
 	],
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Flunschlik",
 		"en": "Stunfisk",

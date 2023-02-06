@@ -37,7 +37,9 @@
 		"de": "Schnuthelm"
 	},
 	"hp": 90,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Hydragil",
 		"en": "Accelgor",

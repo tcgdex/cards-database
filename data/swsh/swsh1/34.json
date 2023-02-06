@@ -63,7 +63,9 @@
 		"de": "Kickerlo"
 	},
 	"hp": 170,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Liberlo",
 		"en": "Cinderace",

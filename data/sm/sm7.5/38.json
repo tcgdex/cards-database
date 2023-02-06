@@ -34,7 +34,9 @@
 		"fr": "Kraknoix"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Vibrava",
 		"en": "Vibrava",

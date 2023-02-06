@@ -50,7 +50,9 @@
 		"fr": "Têtarte"
 	},
 	"hp": 150,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Quappo",
 		"en": "Poliwrath",

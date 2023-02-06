@@ -9,7 +9,9 @@
 		"pt": "Procure por até 3 cartas de Apoiador no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach bis zu 3 Unterstützerkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Mistys Gunst",
 		"en": "Misty’s Favor",

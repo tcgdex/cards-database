@@ -17,7 +17,9 @@
 		84
 	],
 	"hp": 40,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Doduo",
 		"fr": "Doduo"

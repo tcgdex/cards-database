@@ -62,7 +62,9 @@
 		"de": "Schilterus"
 	},
 	"hp": 150,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Bollterus",
 		"en": "Bastiodon",

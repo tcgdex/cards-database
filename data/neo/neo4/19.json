@@ -41,7 +41,9 @@
 		"en": "Omanyte"
 	},
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Dark Omastar",
 		"fr": "Amonistar obscur"

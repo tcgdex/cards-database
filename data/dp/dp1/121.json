@@ -35,7 +35,9 @@
 		392
 	],
 	"hp": 120,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Infernape",
 		"fr": "Simiabraz"

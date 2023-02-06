@@ -32,7 +32,9 @@
 		207
 	],
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Skorgla",
 		"en": "Gligar",

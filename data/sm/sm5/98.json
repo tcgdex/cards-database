@@ -47,7 +47,9 @@
 		"fr": "Griknot"
 	},
 	"hp": 80,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Knarksel",
 		"en": "Gabite",

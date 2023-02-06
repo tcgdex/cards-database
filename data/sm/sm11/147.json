@@ -29,7 +29,9 @@
 		147
 	],
 	"hp": 60,
-	"illustrator": "Motofumi Fujiwara",
+	"illustrator": [
+		"Motofumi Fujiwara"
+	],
 	"name": {
 		"de": "Dratini",
 		"en": "Dratini",

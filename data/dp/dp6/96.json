@@ -42,7 +42,9 @@
 		"fr": "Myrapla"
 	},
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Gloom",
 		"fr": "Ortide"

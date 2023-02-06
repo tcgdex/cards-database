@@ -41,7 +41,9 @@
 		"fr": "Kaiminus"
 	},
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Croconaw",
 		"fr": "Crocodil"

@@ -51,7 +51,9 @@
 		25
 	],
 	"hp": 60,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Pikachu",
 		"en": "Pikachu",

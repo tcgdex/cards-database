@@ -32,7 +32,9 @@
 		150
 	],
 	"hp": 60,
-	"illustrator": "Christopher Rush",
+	"illustrator": [
+		"Christopher Rush"
+	],
 	"name": {
 		"en": "Mewtwo"
 	},

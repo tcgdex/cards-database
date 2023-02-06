@@ -33,7 +33,9 @@
 		151
 	],
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Mew Star δ",
 		"fr": "Mew ☆ δ"

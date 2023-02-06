@@ -56,7 +56,9 @@
 		"fr": "Scalpion"
 	},
 	"hp": 120,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Caesurio",
 		"en": "Bisharp",

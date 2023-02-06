@@ -53,7 +53,9 @@
 		"en": "Koffing"
 	},
 	"hp": 130,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Galar-Smogmog",
 		"en": "Galarian Weezing",

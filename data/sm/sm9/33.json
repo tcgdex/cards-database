@@ -55,7 +55,9 @@
 		25
 	],
 	"hp": 240,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Pikachu & Zekrom GX",
 		"en": "Pikachu & Zekrom GX",

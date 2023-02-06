@@ -22,7 +22,9 @@
 		418
 	],
 	"hp": 60,
-	"illustrator": "Kenkichi Toyama",
+	"illustrator": [
+		"Kenkichi Toyama"
+	],
 	"name": {
 		"en": "Buizel",
 		"fr": "Mustébouée"

@@ -63,7 +63,9 @@
 		"de": "Knapfel"
 	},
 	"hp": 80,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Drapfel",
 		"en": "Flapple",

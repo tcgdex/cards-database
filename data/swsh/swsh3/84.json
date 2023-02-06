@@ -21,7 +21,9 @@
 		"en": "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
 	},
 	"hp": 50,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Digda",
 		"en": "Diglett",

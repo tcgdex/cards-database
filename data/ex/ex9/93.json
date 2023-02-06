@@ -36,7 +36,9 @@
 		386
 	],
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Deoxys ex",
 		"fr": "Deoxys ex"

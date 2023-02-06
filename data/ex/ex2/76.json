@@ -21,7 +21,9 @@
 		273
 	],
 	"hp": 40,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Seedot",
 		"fr": "Grainipiot"

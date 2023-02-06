@@ -50,7 +50,9 @@
 		707
 	],
 	"hp": 70,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Clavion",
 		"en": "Klefki",

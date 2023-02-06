@@ -21,7 +21,9 @@
 		789
 	],
 	"hp": 40,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Cosmog",
 		"en": "Cosmog",

@@ -60,7 +60,9 @@
 		"de": "Bronzel"
 	},
 	"hp": 100,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Bronzong",
 		"en": "Bronzong",

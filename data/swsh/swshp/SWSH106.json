@@ -46,7 +46,9 @@
 		892
 	],
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Fokussierter-Angriff-Wulaosu V",
 		"en": "Single Strike Urshifu V",

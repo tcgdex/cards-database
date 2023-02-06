@@ -40,7 +40,9 @@
 		"fr": "Regigigas LV.X"
 	},
 	"hp": 150,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Regigigas",
 		"fr": "Regigigas"

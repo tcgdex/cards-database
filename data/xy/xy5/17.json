@@ -52,7 +52,9 @@
 		313
 	],
 	"hp": 70,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Volbeat",
 		"en": "Volbeat",

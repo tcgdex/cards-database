@@ -51,7 +51,9 @@
 		337
 	],
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Lunastein",
 		"en": "Lunatone",

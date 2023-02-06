@@ -5,7 +5,9 @@
 		"fr": "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 		"en": "Discard an Energy attached to your opponent's Active Pokémon."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"en": "Team Flare Grunt",
 		"fr": "Sbire de la Team Flare"

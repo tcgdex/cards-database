@@ -32,7 +32,9 @@
 		92
 	],
 	"hp": 60,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Nebulak",
 		"en": "Gastly",

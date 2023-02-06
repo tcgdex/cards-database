@@ -36,7 +36,9 @@
 		443
 	],
 	"hp": 60,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Kaumalat",
 		"en": "Gible",

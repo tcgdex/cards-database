@@ -50,7 +50,9 @@
 		"fr": "Rocabot"
 	},
 	"hp": 120,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Wolwerock",
 		"en": "Lycanroc",

@@ -27,7 +27,9 @@
 		"en": "Spheal"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Sealeo",
 		"fr": "Phogleur"

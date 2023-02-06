@@ -9,7 +9,9 @@
 		"pt": "Escolha até 2 cards de Ferramenta Pokémon ligados a seus Pokémon e coloque-os na sua mão.",
 		"de": "Wähle bis zu 2 Pokémon-Ausrüstungen, die an deine Pokémon angelegt sind, und nimm sie auf deine Hand."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Ausrüstungsgreifer",
 		"en": "Tool Retriever",

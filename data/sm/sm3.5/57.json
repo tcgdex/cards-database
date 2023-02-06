@@ -52,7 +52,9 @@
 		493
 	],
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Schimmerndes Arceus",
 		"en": "Shining Arceus",

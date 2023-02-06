@@ -30,7 +30,9 @@
 		532
 	],
 	"hp": 70,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Praktibalk",
 		"en": "Timburr",

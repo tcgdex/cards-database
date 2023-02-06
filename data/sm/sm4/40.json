@@ -57,7 +57,9 @@
 		"fr": "Feuforêve"
 	},
 	"hp": 110,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Traunmagil",
 		"en": "Mismagius",

@@ -37,7 +37,9 @@
 		"en": "Spinarak"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Ariados",
 		"fr": "Migalos"

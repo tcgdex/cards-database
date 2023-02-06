@@ -52,7 +52,9 @@
 		115
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Kangama EX",
 		"en": "Kangaskhan EX",

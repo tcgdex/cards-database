@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se descartar 2 outras cartas da sua mão.\nCompre 1 carta para cada um dos Pokémon do seu oponente em jogo.",
 		"de": "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\nZiehe 1 Karte für jedes Pokémon deines Gegners im Spiel."
 	},
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Amalias Entschluss",
 		"en": "Zinnia's Resolve",

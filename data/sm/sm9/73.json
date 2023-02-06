@@ -44,7 +44,9 @@
 		106
 	],
 	"hp": 100,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Kicklee",
 		"en": "Hitmonlee",

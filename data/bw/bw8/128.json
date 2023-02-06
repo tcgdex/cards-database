@@ -9,7 +9,9 @@
 		"pt": "Descarte 2 cards da sua mão. (Se você não puder descartar 2 cards, não poderá jogar esse card.) Coloque um card de Treinador da sua pilha de descarte em sua mão.",
 		"de": "Lege 2 Karten von deiner Hand auf deinen Ablagestapel. (Wenn du keine 2 Karten auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Nimm 1 Trainerkarte von deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Itemradar",
 		"en": "Dowsing Machine",

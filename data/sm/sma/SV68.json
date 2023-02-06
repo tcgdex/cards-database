@@ -53,7 +53,9 @@
 		794
 	],
 	"hp": 190,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Buzzwole-GX",
 		"fr": "Mouscoto-GX"

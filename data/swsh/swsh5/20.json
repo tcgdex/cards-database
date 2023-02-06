@@ -53,7 +53,9 @@
 		"en": "It is said that when it roars, a volcano erupts somewhere around the globe."
 	},
 	"hp": 130,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Entei",
 		"en": "Entei",

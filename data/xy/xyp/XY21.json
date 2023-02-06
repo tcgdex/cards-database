@@ -36,7 +36,9 @@
 		"fr": "Archéomire"
 	},
 	"hp": 90,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Bronzong",
 		"fr": "Archéodong"

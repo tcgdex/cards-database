@@ -9,7 +9,9 @@
 		"pt": "Jogue uma moeda. Se sair cara, procure um card em seu baralho, embaralhe o seu baralho e coloque o card sobre ele.",
 		"de": "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte, mische anschließend dein Deck und lege jene Karte auf dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Vorbestellte Fahrkarte",
 		"en": "Reserved Ticket",

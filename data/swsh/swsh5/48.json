@@ -59,7 +59,9 @@
 		"de": "Luxio"
 	},
 	"hp": 150,
-	"illustrator": "Kazuma Koda",
+	"illustrator": [
+		"Kazuma Koda"
+	],
 	"name": {
 		"de": "Luxtra",
 		"en": "Luxray",

@@ -31,7 +31,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Schlaraffel V",
 		"en": "Greedent V",

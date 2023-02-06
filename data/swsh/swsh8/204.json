@@ -30,7 +30,9 @@
 		"en": "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it."
 	},
 	"hp": 120,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Kangama",
 		"en": "Kangaskhan",

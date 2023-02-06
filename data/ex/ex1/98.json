@@ -37,7 +37,9 @@
 		107
 	],
 	"hp": 90,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Hitmonchan ex",
 		"fr": "Tygnon ex"

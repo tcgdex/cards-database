@@ -43,7 +43,9 @@
 		309
 	],
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Frizelbliz",
 		"en": "Electrike",

@@ -48,7 +48,9 @@
 		"en": "Rare Fossil"
 	},
 	"hp": 150,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Pescragon",
 		"en": "Dracovish",

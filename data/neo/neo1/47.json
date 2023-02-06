@@ -44,7 +44,9 @@
 		"en": "Cyndaquil"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Quilava",
 		"fr": "Feurisson"

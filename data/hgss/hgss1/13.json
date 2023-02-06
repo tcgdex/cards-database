@@ -25,7 +25,9 @@
 		202
 	],
 	"hp": 90,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Wobbuffet",
 		"fr": "Qulbutoke"

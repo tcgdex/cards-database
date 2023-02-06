@@ -43,7 +43,9 @@
 		664
 	],
 	"hp": 30,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Purmel",
 		"en": "Scatterbug",

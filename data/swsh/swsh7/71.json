@@ -31,7 +31,9 @@
 		669
 	],
 	"hp": 40,
-	"illustrator": "OKACHEKE",
+	"illustrator": [
+		"OKACHEKE"
+	],
 	"name": {
 		"de": "Flabébé",
 		"en": "Flabébé",

@@ -19,7 +19,9 @@
 		"en": "Solosis"
 	},
 	"hp": 60,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Duosion"
 	},

@@ -39,7 +39,9 @@
 		"de": "Trombork-V"
 	},
 	"hp": 320,
-	"illustrator": "MUGENUP",
+	"illustrator": [
+		"MUGENUP"
+	],
 	"name": {
 		"de": "Trombork VMAX",
 		"en": "Trevenant VMAX",

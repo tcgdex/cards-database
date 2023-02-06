@@ -36,7 +36,9 @@
 		377
 	],
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Regirock",
 		"fr": "Regirock"

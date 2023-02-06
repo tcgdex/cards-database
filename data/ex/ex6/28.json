@@ -36,7 +36,9 @@
 		"en": "Mankey"
 	},
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Primeape",
 		"fr": "Colossinge"

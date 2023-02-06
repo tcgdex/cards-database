@@ -38,7 +38,9 @@
 		"fr": "Hypocéan"
 	},
 	"hp": 140,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Seedraking",
 		"en": "Kingdra",

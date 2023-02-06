@@ -49,7 +49,9 @@
 		"en": "Carkol"
 	},
 	"hp": 160,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Montecarbo",
 		"en": "Coalossal",

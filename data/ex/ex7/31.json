@@ -31,7 +31,9 @@
 		"en": "Dratini"
 	},
 	"hp": 70,
-	"illustrator": "Emi Miwa",
+	"illustrator": [
+		"Emi Miwa"
+	],
 	"name": {
 		"en": "Dark Dragonair"
 	},

@@ -30,7 +30,9 @@
 		441
 	],
 	"hp": 60,
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Chatot G",
 		"fr": "Pijako "

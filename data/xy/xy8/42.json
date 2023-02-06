@@ -59,7 +59,9 @@
 		"de": "Sodamak"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Sodachita",
 		"en": "Simipour",

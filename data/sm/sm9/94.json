@@ -60,7 +60,9 @@
 		"fr": "Pandespiègle"
 	},
 	"hp": 140,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Pandagro",
 		"en": "Pangoro",

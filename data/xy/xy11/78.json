@@ -54,7 +54,9 @@
 		282
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Guardevoir EX",
 		"en": "Gardevoir EX",

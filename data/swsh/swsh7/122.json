@@ -46,7 +46,9 @@
 		884
 	],
 	"hp": 220,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Duraludon V",
 		"en": "Duraludon V",

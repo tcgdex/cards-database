@@ -43,7 +43,9 @@
 		490
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Manaphy",
 		"en": "Manaphy",

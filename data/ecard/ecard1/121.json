@@ -36,7 +36,9 @@
 		52
 	],
 	"hp": 50,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Meowth",
 		"fr": "Miaouss"

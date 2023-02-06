@@ -33,7 +33,9 @@
 		433
 	],
 	"hp": 40,
-	"illustrator": "Emi Yoshida",
+	"illustrator": [
+		"Emi Yoshida"
+	],
 	"name": {
 		"en": "Chingling",
 		"fr": "Korillon"

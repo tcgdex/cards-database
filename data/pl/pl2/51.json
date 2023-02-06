@@ -38,7 +38,9 @@
 		208
 	],
 	"hp": 110,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Steelix GL",
 		"fr": "Steelix  Niv. 38"

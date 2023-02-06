@@ -47,7 +47,9 @@
 		718
 	],
 	"hp": 130,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Zygarde",
 		"en": "Zygarde",

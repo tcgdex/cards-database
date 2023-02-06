@@ -54,7 +54,9 @@
 		785
 	],
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Kapu-Riki",
 		"en": "Tapu Koko",

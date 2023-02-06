@@ -56,7 +56,9 @@
 		"de": "Kamehaps"
 	},
 	"hp": 140,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Kamalm",
 		"en": "Drednaw",

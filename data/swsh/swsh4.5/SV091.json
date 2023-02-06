@@ -57,7 +57,9 @@
 		"en": "Cufant"
 	},
 	"hp": 190,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Patinaraja",
 		"en": "Copperajah",

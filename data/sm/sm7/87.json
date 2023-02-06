@@ -60,7 +60,9 @@
 		"fr": "Ymphect"
 	},
 	"hp": 170,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"de": "Despotar",
 		"en": "Tyranitar",

@@ -60,7 +60,9 @@
 		"fr": "Gravalanch d’Alola"
 	},
 	"hp": 160,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Alola-Geowaz",
 		"en": "Alolan Golem",

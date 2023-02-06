@@ -40,7 +40,9 @@
 		"de": "Chaneira"
 	},
 	"hp": 130,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Heiteira",
 		"en": "Blissey",

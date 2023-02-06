@@ -47,7 +47,9 @@
 		"fr": "Galegon"
 	},
 	"hp": 140,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Aggron",
 		"fr": "Galeking"

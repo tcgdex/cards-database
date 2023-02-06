@@ -53,7 +53,9 @@
 		149
 	],
 	"hp": 180,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Dragoran EX",
 		"en": "Dragonite EX",

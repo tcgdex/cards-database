@@ -35,7 +35,9 @@
 	"evolveFrom": {
 		"en": "Kabuto"
 	},
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Kabutops"
 	},

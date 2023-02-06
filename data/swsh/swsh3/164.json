@@ -9,7 +9,9 @@
 		"pt": "Jogue 2 moedas. Se ambas saírem cara, coloque 1 carta da sua pilha de descarte na sua mão.",
 		"de": "Wirf 2 Münzen. Zeigen beide Kopf, nimm 1 Karte aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Alter PC",
 		"en": "Old PC",

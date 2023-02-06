@@ -36,7 +36,9 @@
 		"en": "Meowth V"
 	},
 	"hp": 300,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Mauzi VMAX",
 		"en": "Meowth VMAX",

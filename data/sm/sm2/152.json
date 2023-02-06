@@ -82,7 +82,9 @@
 		"fr": "Chrysapile"
 	},
 	"hp": 240,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Donarion GX",
 		"en": "Vikavolt GX",

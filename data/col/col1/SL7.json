@@ -36,7 +36,9 @@
 		249
 	],
 	"hp": 100,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Lugia",
 		"fr": "Lugia"

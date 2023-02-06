@@ -39,7 +39,9 @@
 		"en": "Poochyena"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Mightyena",
 		"fr": "Grahyena"

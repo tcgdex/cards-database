@@ -35,7 +35,9 @@
 		262
 	],
 	"hp": 80,
-	"illustrator": "Shin-ichi Yoshikawa",
+	"illustrator": [
+		"Shin-ichi Yoshikawa"
+	],
 	"name": {
 		"en": "Team Magma's Mightyena",
 		"fr": "Grahyena de Team Magma"

@@ -74,7 +74,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 180,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Kangama GX",
 		"en": "Kangaskhan GX",

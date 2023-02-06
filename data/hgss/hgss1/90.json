@@ -6,7 +6,9 @@
 		"en": "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand."
 	},
 	"hp": 0,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Copycat",
 		"fr": "Copieuse"

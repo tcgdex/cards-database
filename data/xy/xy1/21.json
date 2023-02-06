@@ -54,7 +54,9 @@
 		"de": "Schneckmag"
 	},
 	"hp": 110,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Magcargo",
 		"en": "Magcargo",

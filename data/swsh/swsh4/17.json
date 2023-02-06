@@ -44,7 +44,9 @@
 		"en": "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back."
 	},
 	"hp": 70,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Mähikel",
 		"en": "Skiddo",

@@ -32,7 +32,9 @@
 		813
 	],
 	"hp": 60,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Hopplo",
 		"en": "Scorbunny",

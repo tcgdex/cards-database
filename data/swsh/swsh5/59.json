@@ -50,7 +50,9 @@
 		"en": "Emitting ultrasonic cries, it floats on winds to travel great distances."
 	},
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Palimpalim",
 		"en": "Chimecho",

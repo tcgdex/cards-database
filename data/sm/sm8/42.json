@@ -57,7 +57,9 @@
 		"fr": "Feurisson"
 	},
 	"hp": 160,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Tornupto",
 		"en": "Typhlosion",

@@ -33,7 +33,9 @@
 		"fr": "Coconfort"
 	},
 	"hp": 140,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Bibor",
 		"en": "Beedrill",

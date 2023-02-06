@@ -55,7 +55,9 @@
 		"fr": "Reptincel"
 	},
 	"hp": 150,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Glurak",
 		"en": "Charizard",

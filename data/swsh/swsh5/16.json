@@ -53,7 +53,9 @@
 		"en": "Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy."
 	},
 	"hp": 130,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Kapu-Toro",
 		"en": "Tapu Bulu",

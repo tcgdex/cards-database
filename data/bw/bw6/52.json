@@ -44,7 +44,9 @@
 		561
 	],
 	"hp": 90,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Symvolara",
 		"en": "Sigilyph",

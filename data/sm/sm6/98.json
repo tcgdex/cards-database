@@ -60,7 +60,9 @@
 		"fr": "Sapereau"
 	},
 	"hp": 130,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Grebbit",
 		"en": "Diggersby",

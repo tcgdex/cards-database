@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se descartar Diana, Véspera e Anita da sua mão.\n\nOlhe as 12 primeiras cartas do seu baralho e ligue qualquer número de cartas de Energia que encontrar lá aos seus Pokémon como desejar. Embaralhe as demais cartas de volta no seu baralho.",
 		"de": "Du kannst diese Karte nur spielen, wenn du Journée, Soir und Nuit aus deiner Hand auf deinen Ablagestapel legst.\n\nSchau dir die obersten 12 Karten deines Decks an und lege beliebig viele Energiekarten, die du dort findest, beliebig an deine Pokémon an. Mische die anderen Karten zurück in dein Deck."
 	},
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Matin",
 		"en": "Morgan",

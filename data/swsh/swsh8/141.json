@@ -42,7 +42,9 @@
 		"de": "Skorgla"
 	},
 	"hp": 110,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Skorgro",
 		"en": "Gliscor",

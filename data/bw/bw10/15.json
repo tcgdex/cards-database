@@ -40,7 +40,9 @@
 		"fr": "Carapuce"
 	},
 	"hp": 80,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Schillok",
 		"en": "Wartortle",

@@ -56,7 +56,9 @@
 		"fr": "Ramoloss"
 	},
 	"hp": 120,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Laschoking",
 		"en": "Slowking",

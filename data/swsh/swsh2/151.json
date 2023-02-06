@@ -36,7 +36,9 @@
 		"en": "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
 	},
 	"hp": 70,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Raffel",
 		"en": "Skwovet",

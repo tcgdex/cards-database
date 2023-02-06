@@ -31,7 +31,9 @@
 		261
 	],
 	"hp": 50,
-	"illustrator": "Aimi Tomita",
+	"illustrator": [
+		"Aimi Tomita"
+	],
 	"name": {
 		"en": "Poochyena",
 		"fr": "Medhyena"

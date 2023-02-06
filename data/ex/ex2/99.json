@@ -44,7 +44,9 @@
 		"en": "Quilava"
 	},
 	"hp": 160,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Typhlosion ex",
 		"fr": "Typhlosion ex"

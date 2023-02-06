@@ -30,7 +30,9 @@
 		653
 	],
 	"hp": 50,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Fynx",
 		"en": "Fennekin",

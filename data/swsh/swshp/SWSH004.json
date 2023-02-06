@@ -45,7 +45,9 @@
 		52
 	],
 	"hp": 180,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Mauzi V",
 		"en": "Meowth V",

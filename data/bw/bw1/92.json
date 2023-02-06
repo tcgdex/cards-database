@@ -9,7 +9,9 @@
 		"pt": "Coloque 2 cards de Energia básica da sua pilha de descarte em sua mão.",
 		"de": "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"de": "Energie-Rückgewinnung",
 		"en": "Energy Retrieval",

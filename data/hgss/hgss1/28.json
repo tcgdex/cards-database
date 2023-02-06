@@ -33,7 +33,9 @@
 		172
 	],
 	"hp": 30,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Pichu",
 		"fr": "Pichu"

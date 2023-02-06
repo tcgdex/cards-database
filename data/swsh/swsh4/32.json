@@ -61,7 +61,9 @@
 		"de": "Wailmer"
 	},
 	"hp": 200,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Wailord",
 		"en": "Wailord",

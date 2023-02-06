@@ -51,7 +51,9 @@
 		"de": "Shuppet"
 	},
 	"hp": 90,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Banette",
 		"en": "Banette",

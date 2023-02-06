@@ -56,7 +56,9 @@
 		"de": "Muschas"
 	},
 	"hp": 130,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Austos",
 		"en": "Cloyster",

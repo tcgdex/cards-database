@@ -35,7 +35,9 @@
 		"fr": "Grotichon"
 	},
 	"hp": 150,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Emboar",
 		"fr": "Roitiflam"

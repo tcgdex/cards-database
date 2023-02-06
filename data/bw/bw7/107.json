@@ -22,7 +22,9 @@
 		83
 	],
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Porenta",
 		"en": "Farfetch’d",

@@ -9,7 +9,9 @@
 		"pt": "Você só poderá usar este card se tiver mais cards de Prêmio restantes que o seu oponente.\n\nCada jogador embaralha a mão que tiver no próprio deck. Em seguida, compre 6 cards. O seu oponente compra 3 cards.",
 		"de": "Du kannst diese Karte nur dann spielen, wenn du mehr Preiskarten übrig hast als dein Gegner.\n\nJeder Spieler mischt seine Hand zurück in sein Deck. Ziehe anschließend 6 Karten. Dein Gegner zieht 3 Karten."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "AssTrainer",
 		"en": "Ace Trainer",

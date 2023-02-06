@@ -54,7 +54,9 @@
 		"de": "Schilterus' Panzerfossil"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Schilterus",
 		"en": "Shieldon",

@@ -41,7 +41,9 @@
 		"en": "Eevee"
 	},
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Vaporeon",
 		"fr": "Aquali obscur"

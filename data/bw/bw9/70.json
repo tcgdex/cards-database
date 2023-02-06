@@ -37,7 +37,9 @@
 		"fr": "Escroco"
 	},
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rabigator",
 		"en": "Krookodile",

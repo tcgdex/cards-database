@@ -21,7 +21,9 @@
 		"en": "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen."
 	},
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Deoxys",
 		"en": "Deoxys",

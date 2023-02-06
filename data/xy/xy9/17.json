@@ -53,7 +53,9 @@
 		"de": "Enton"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Entoron",
 		"en": "Golduck",

@@ -50,7 +50,9 @@
 		338
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Sonnfel",
 		"en": "Solrock",

@@ -28,7 +28,9 @@
 		669
 	],
 	"hp": 30,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Flabébé",
 		"en": "Flabébé",

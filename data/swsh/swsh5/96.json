@@ -51,7 +51,9 @@
 		"de": "Hunduster"
 	},
 	"hp": 130,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Hundemon",
 		"en": "Houndoom",

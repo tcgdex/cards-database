@@ -28,7 +28,9 @@
 		"en": "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun."
 	},
 	"hp": 70,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Ignivor",
 		"en": "Larvesta",

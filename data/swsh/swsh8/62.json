@@ -28,7 +28,9 @@
 		"en": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
 	},
 	"hp": 70,
-	"illustrator": "KIYOTAKA OSHIYAMA",
+	"illustrator": [
+		"KIYOTAKA OSHIYAMA"
+	],
 	"name": {
 		"de": "Hydropi",
 		"en": "Mudkip",

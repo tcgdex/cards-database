@@ -9,7 +9,9 @@
 		"pt": "Coloque um card de Apoiador da sua pilha de descarte em sua mão.",
 		"de": "Nimm 1 Unterstützerkarte von deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Kampffahnder",
 		"en": "VS Seeker",

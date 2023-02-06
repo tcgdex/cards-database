@@ -41,7 +41,9 @@
 		"fr": "Noeunoeuf"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Kokowei",
 		"en": "Exeggutor",

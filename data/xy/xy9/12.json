@@ -37,7 +37,9 @@
 		322
 	],
 	"hp": 80,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Camaub",
 		"en": "Numel",

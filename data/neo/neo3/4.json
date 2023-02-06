@@ -43,7 +43,9 @@
 		"en": "Golbat"
 	},
 	"hp": 90,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Crobat",
 		"fr": "Nostenfer"

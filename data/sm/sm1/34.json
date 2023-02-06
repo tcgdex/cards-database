@@ -58,7 +58,9 @@
 		"fr": "Kokiyas"
 	},
 	"hp": 120,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Austos",
 		"en": "Cloyster",

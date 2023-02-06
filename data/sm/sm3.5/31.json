@@ -33,7 +33,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 90,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Lektrobal",
 		"en": "Electrode",

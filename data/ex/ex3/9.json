@@ -47,7 +47,9 @@
 		315
 	],
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Roselia",
 		"fr": "Roselia"

@@ -42,7 +42,9 @@
 		"fr": "Obalie"
 	},
 	"hp": 100,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Seejong",
 		"en": "Sealeo",

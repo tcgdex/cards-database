@@ -32,7 +32,9 @@
 		767
 	],
 	"hp": 70,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"en": "Wimpod",
 		"fr": "Sovkipou"

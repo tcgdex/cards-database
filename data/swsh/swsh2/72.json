@@ -41,7 +41,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 170,
-	"illustrator": "PLANETA Igarashi",
+	"illustrator": [
+		"PLANETA Igarashi"
+	],
 	"name": {
 		"de": "Britzigel V",
 		"en": "Pincurchin V",

@@ -32,7 +32,9 @@
 		1
 	],
 	"hp": 50,
-	"illustrator": "Sachi Matoba",
+	"illustrator": [
+		"Sachi Matoba"
+	],
 	"name": {
 		"en": "Bulbasaur",
 		"fr": "Bulbizarre"

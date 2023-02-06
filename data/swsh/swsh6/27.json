@@ -38,7 +38,9 @@
 		"de": "Hopplo"
 	},
 	"hp": 90,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Kickerlo",
 		"en": "Raboot",

@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se tiver 4 ou menos outras cartas na sua mão.\n\nCompre 1 carta para cada um dos Pokémon do seu oponente em jogo.",
 		"de": "Du kannst diese Karte nur spielen, wenn du 4 oder weniger andere Karten auf deiner Hand hast.\n\n\nZiehe 1 Karte für jedes Pokémon deines Gegners im Spiel."
 	},
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Erikas Gastfreundschaft",
 		"en": "Erika’s Hospitality",

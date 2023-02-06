@@ -21,7 +21,9 @@
 		602
 	],
 	"hp": 40,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Zapplardin",
 		"en": "Tynamo",

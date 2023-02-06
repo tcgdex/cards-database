@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Vous ne pouvez jouer cette carte que si vous défaussez une autre carte de votre main. Cherchez dans votre deck un Pokémon de base, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.[1]"
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Quick Ball",
 		"fr": "Rapide Ball"

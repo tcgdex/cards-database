@@ -42,7 +42,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 210,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Guardevoir V",
 		"en": "Gardevoir V",

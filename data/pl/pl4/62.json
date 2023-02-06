@@ -28,7 +28,9 @@
 	"dexId": [
 		309
 	],
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Electrike"
 	},

@@ -36,7 +36,9 @@
 		"en": "Chinchou"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Lanturn",
 		"fr": "Lanturn"

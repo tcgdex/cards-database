@@ -52,7 +52,9 @@
 		"en": "Shelgon"
 	},
 	"hp": 160,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Salamence ex δ",
 		"fr": "Drattak ex δ"

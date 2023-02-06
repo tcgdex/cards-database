@@ -48,7 +48,9 @@
 		"fr": "Rototaupe"
 	},
 	"hp": 120,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Stalobor",
 		"en": "Excadrill",

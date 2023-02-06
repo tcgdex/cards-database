@@ -9,7 +9,9 @@
 		"pt": "Sempre que algum jogador ligar 1 carta de Energia da própria mão a 1 dos próprios Pokémon que não seja de tipo Psychic, coloque 2 contadores de dano naquele Pokémon.",
 		"de": "Lege jedes Mal, wenn ein Spieler 1 Energiekarte aus seiner Hand an 1 seiner Pokémon, das kein Psychic-Pokémon ist, anlegt, 2 Schadensmarken auf jenes Pokémon."
 	},
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Uralter Friedhof",
 		"en": "Old Cemetery",

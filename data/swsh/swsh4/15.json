@@ -51,7 +51,9 @@
 		"en": "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers."
 	},
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Shaymin",
 		"en": "Shaymin",

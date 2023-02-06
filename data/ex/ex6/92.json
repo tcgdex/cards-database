@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Cherchez dans votre deck un Pokémon de base (sauf les Pokémon-ex) et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 	},
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Great Ball",
 		"fr": "Super Ball"

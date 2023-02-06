@@ -45,7 +45,9 @@
 		835
 	],
 	"hp": 70,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Voldi",
 		"en": "Yamper",

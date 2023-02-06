@@ -28,7 +28,9 @@
 	"dexId": [
 		25
 	],
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Pikachu"
 	},

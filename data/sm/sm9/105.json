@@ -49,7 +49,9 @@
 		"fr": "Scalpion"
 	},
 	"hp": 110,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Caesurio",
 		"en": "Bisharp",

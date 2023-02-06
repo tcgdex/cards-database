@@ -35,7 +35,9 @@
 		25
 	],
 	"hp": 40,
-	"illustrator": "Gakuji Nomoto",
+	"illustrator": [
+		"Gakuji Nomoto"
+	],
 	"name": {
 		"en": "Pikachu",
 		"fr": "Pikachu"

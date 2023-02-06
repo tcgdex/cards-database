@@ -40,7 +40,9 @@
 		"fr": "Balbuto"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Claydol",
 		"fr": "Kaorine"

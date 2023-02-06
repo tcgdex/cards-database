@@ -24,7 +24,9 @@
 		309
 	],
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Electrike",
 		"fr": "Dynavolt"

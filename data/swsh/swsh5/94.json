@@ -60,7 +60,9 @@
 		"de": "Kramurx"
 	},
 	"hp": 130,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Kramshef",
 		"en": "Honchkrow",

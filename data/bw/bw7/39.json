@@ -28,7 +28,9 @@
 		501
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Ottaro",
 		"en": "Oshawott",

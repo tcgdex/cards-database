@@ -39,7 +39,9 @@
 		"en": "Marshtomp"
 	},
 	"hp": 150,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Swampert ex",
 		"fr": "Laggron ex"

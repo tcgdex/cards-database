@@ -36,7 +36,9 @@
 		467
 	],
 	"hp": 130,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Magmortar",
 		"fr": "Maganon"

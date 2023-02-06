@@ -39,7 +39,9 @@
 		"fr": "Étourvol"
 	},
 	"hp": 130,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Staraptor",
 		"en": "Staraptor",

@@ -59,7 +59,9 @@
 		"de": "Kokuna"
 	},
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Bibor",
 		"en": "Beedrill",

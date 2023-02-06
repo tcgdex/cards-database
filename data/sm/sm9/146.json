@@ -9,7 +9,9 @@
 		"pt": "Escolha 1:\n\n• Compre 1 carta.\n• Coloque 1 carta Juiz da sua pilha de descarte na sua mão.",
 		"de": "Wähle 1 aus:\n\n• Ziehe 1 Karte.\n• Nimm 1 Richter-Karte aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Richterpfeife",
 		"en": "Judge Whistle",

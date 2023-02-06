@@ -52,7 +52,9 @@
 		"de": "Klikk"
 	},
 	"hp": 90,
-	"illustrator": "NC Empire",
+	"illustrator": [
+		"NC Empire"
+	],
 	"name": {
 		"de": "Kliklak",
 		"en": "Klang",

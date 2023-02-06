@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Défaussez votre main et piochez 7 cartes."
 	},
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"fr": "Professeur Platane"
 	},

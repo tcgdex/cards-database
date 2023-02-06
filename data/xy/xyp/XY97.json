@@ -33,7 +33,9 @@
 		142
 	],
 	"hp": 170,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"en": "Aerodactyl EX",
 		"fr": "Ptéra EX"

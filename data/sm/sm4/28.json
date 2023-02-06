@@ -44,7 +44,9 @@
 		378
 	],
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Regice",
 		"en": "Regice",

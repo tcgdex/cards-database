@@ -31,7 +31,9 @@
 	"dexId": [
 		114
 	],
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Tangela"
 	},

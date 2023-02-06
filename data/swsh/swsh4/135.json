@@ -30,7 +30,9 @@
 		"en": "If it senses danger, it scares the foe by crying out with the volume of a jet-plane engine."
 	},
 	"hp": 60,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Flurmel",
 		"en": "Whismur",

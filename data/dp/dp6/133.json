@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Regardez les 5 cartes du dessus de votre deck, choisissez-y autant de Pokémon que vous le voulez, montrez-les à votre adversaire et placez-les dans votre main. Replacez les autres cartes au dessus de votre deck. Ensuite, mélangez votre deck."
 	},
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Poké Radar",
 		"fr": "Poké radar"

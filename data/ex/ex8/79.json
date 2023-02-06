@@ -30,7 +30,9 @@
 		333
 	],
 	"hp": 40,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Swablu",
 		"fr": "Tylton"

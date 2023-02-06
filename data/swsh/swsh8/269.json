@@ -37,7 +37,9 @@
 		"de": "Mew-V"
 	},
 	"hp": 310,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"de": "Mew VMAX",
 		"en": "Mew VMAX",

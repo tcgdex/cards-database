@@ -51,7 +51,9 @@
 		124
 	],
 	"hp": 80,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Rossana",
 		"en": "Jynx",

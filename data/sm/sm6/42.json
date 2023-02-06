@@ -51,7 +51,9 @@
 		481
 	],
 	"hp": 70,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Vesprit",
 		"en": "Mesprit",

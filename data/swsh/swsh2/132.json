@@ -44,7 +44,9 @@
 		"en": "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles."
 	},
 	"hp": 100,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Fermicula",
 		"en": "Durant",

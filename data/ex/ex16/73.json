@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Choisissez dans votre pile de défausse des cartes Énergie de base. Vous pouvez soit montrer 1 carte Énergie de base à votre adversaire et la placer dans votre main ou montrer 3 cartes Énergie de base à votre adversaire et les mélanger à votre deck."
 	},
-	"illustrator": "Zu-Ka",
+	"illustrator": [
+		"Zu-Ka"
+	],
 	"name": {
 		"en": "Energy Recycle System",
 		"fr": "Recyclage d'énergie"

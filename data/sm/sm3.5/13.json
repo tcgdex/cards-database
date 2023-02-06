@@ -47,7 +47,9 @@
 		"fr": "Pyronille"
 	},
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Ramoth",
 		"en": "Volcarona",

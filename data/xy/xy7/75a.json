@@ -9,7 +9,9 @@
 		"pt": "Até ao final da próxima vez de jogar do seu oponente, cada Pokémon em jogo, na mão de cada jogador e na pilha de descarte de cada jogador não possui Habilidades. (Isso inclui os cards que entram em jogo nessa rodada).",
 		"de": "Bis zum Ende des nächsten Zuges deines Gegners hat jedes Pokémon im Spiel, auf den Händen jedes Spielers und im Ablagestapel jedes Spielers keine Fähigkeiten. (Dazu gehören Karten, die während des Zuges ins Spiel kommen.)"
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Hexe",
 		"en": "Hex Maniac",

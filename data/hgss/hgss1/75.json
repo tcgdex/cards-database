@@ -35,7 +35,9 @@
 		52
 	],
 	"hp": 60,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Meowth",
 		"fr": "Miaouss"

@@ -24,7 +24,9 @@
 		546
 	],
 	"hp": 60,
-	"illustrator": "ryoma uratsuka",
+	"illustrator": [
+		"ryoma uratsuka"
+	],
 	"name": {
 		"de": "Waumboll",
 		"en": "Cottonee",

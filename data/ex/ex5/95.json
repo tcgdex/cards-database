@@ -42,7 +42,9 @@
 		"en": "Metang"
 	},
 	"hp": 150,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Metagross ex",
 		"fr": "Metalosse ex"

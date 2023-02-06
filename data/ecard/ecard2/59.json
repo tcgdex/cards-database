@@ -41,7 +41,9 @@
 		"en": "Goldeen"
 	},
 	"hp": 70,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Seaking",
 		"fr": "Poissoroy"

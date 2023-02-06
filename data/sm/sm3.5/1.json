@@ -22,7 +22,9 @@
 		1
 	],
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Bisasam",
 		"en": "Bulbasaur",

@@ -39,7 +39,9 @@
 		"de": "Lahmus-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M-Lahmus EX",
 		"en": "M Slowbro EX",

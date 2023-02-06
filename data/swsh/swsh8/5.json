@@ -38,7 +38,9 @@
 		"de": "Knilz"
 	},
 	"hp": 120,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Kapilz",
 		"en": "Breloom",

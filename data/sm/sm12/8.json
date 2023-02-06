@@ -49,7 +49,9 @@
 		"fr": "Tournegrin"
 	},
 	"hp": 90,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Sonnflora",
 		"en": "Sunflora",

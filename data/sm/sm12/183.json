@@ -27,7 +27,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 110,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"de": "Typ:Null",
 		"en": "Type: Null",

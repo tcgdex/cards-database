@@ -41,7 +41,9 @@
 		"fr": "Capumain"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Ambipom",
 		"fr": "Capidextre"

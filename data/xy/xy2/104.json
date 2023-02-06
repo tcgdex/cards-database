@@ -9,7 +9,9 @@
 		"pt": "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
 		"de": "Tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Flordelis",
 		"en": "Lysandre",

@@ -61,7 +61,9 @@
 		"de": "Igelavar"
 	},
 	"hp": 150,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Tornupto",
 		"en": "Typhlosion",

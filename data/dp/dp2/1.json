@@ -45,7 +45,9 @@
 		"en": "Lairon"
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Aggron",
 		"fr": "Galeking"

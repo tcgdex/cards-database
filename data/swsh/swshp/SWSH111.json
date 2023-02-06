@@ -36,7 +36,9 @@
 		78
 	],
 	"hp": 210,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"en": "Galarian Rapidash V",
 		"pt": "Galarian Rapidash V"

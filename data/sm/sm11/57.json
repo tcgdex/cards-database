@@ -48,7 +48,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Alola-Raichu",
 		"en": "Alolan Raichu",

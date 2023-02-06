@@ -33,7 +33,9 @@
 		351
 	],
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Castform",
 		"fr": "Morpheo"

@@ -9,7 +9,9 @@
 		"pt": "Seu oponente revela a própria mão. Coloque qualquer número de Pokémon Básico que encontrar lá no Banco do seu oponente.",
 		"de": "Dein Gegner deckt seine Handkarten auf. Lege beliebig viele Basis-Pokémon, die du dort findest, auf die Bank deines Gegners."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Bezauberndes Pofflé",
 		"en": "Captivating Poké Puff",

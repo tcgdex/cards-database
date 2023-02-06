@@ -36,7 +36,9 @@
 		"en": "Ivysaur"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Venusaur"
 	},

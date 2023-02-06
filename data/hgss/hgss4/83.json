@@ -24,7 +24,9 @@
 		100
 	],
 	"hp": 40,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Voltorb",
 		"fr": "Voltorbe"

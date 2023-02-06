@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Choisissez un Pokémon de votre Banc. Mélangez-le dans votre deck avec toutes les cartes qui lui sont attachées."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Mr. Fuji",
 		"fr": "M. Fuji"

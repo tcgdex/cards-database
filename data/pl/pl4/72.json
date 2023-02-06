@@ -28,7 +28,9 @@
 	"dexId": [
 		77
 	],
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Ponyta"
 	},

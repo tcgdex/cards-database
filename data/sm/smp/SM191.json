@@ -52,7 +52,9 @@
 		150
 	],
 	"hp": 270,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Mewtu & Mew GX",
 		"en": "Mewtwo & Mew GX",

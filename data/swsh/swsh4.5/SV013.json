@@ -55,7 +55,9 @@
 		"en": "Applin"
 	},
 	"hp": 80,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Drapfel",
 		"en": "Flapple",

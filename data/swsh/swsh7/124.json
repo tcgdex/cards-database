@@ -46,7 +46,9 @@
 		"en": "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon."
 	},
 	"hp": 130,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Regidrago",
 		"en": "Regidrago",

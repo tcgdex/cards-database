@@ -45,7 +45,9 @@
 		324
 	],
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Qurtel",
 		"en": "Torkoal",

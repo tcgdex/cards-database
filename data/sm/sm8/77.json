@@ -34,7 +34,9 @@
 		"fr": "Wattouat"
 	},
 	"hp": 80,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Waaty",
 		"en": "Flaaffy",

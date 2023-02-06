@@ -82,7 +82,9 @@
 		"de": "Lombrero"
 	},
 	"hp": 130,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Kappalores",
 		"en": "Ludicolo",

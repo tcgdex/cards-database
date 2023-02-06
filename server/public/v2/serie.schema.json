@@ -1,11 +1,13 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://api.tcgdex.net/serie.schema.json",
 	"title": "Serie",
 	"description": "Describe a pokémon TCG serie",
 	"additionalProperties": false,
 	"type": "object",
 	"properties": {
+		"$schema": {
+			"type": "string"
+		},
 		"id": {
 			"description": "Serie Unique Identifier",
 			"type": "string"
@@ -43,6 +45,7 @@
 		}
 	},
 	"required": [
+		"$schema",
 		"id",
 		"name"
 	]

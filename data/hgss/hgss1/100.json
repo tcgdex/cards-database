@@ -6,7 +6,9 @@
 		"en": "Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 	"hp": 0,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Professor Elm’s Training Method",
 		"fr": "Méthode d'entraînement du Prof.Orme"

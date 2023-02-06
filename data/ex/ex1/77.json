@@ -21,7 +21,9 @@
 		278
 	],
 	"hp": 40,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Wingull",
 		"fr": "Goelise"

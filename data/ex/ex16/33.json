@@ -36,7 +36,9 @@
 		"en": "Machop"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Machoke",
 		"fr": "Machopeur"

@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada não tiver Habilidades, ele receberá 20 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência).",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, keine Fähigkeiten hat, werden ihm durch Attacken der Pokémon deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 	},
-	"illustrator": "AYUMI ODASHIMA",
+	"illustrator": [
+		"AYUMI ODASHIMA"
+	],
 	"name": {
 		"de": "Gesichtsschutz",
 		"en": "Full Face Guard",

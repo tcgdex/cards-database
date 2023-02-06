@@ -38,7 +38,9 @@
 		"en": "Charmeleon"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Dark Charizard",
 		"fr": "Dracaufeu obscur"

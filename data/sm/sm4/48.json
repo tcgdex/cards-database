@@ -44,7 +44,9 @@
 		765
 	],
 	"hp": 110,
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Kommandutan",
 		"en": "Oranguru",

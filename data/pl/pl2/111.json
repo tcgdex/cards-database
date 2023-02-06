@@ -37,7 +37,9 @@
 		143
 	],
 	"hp": 130,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Snorlax",
 		"fr": "Ronflex Niv. X"

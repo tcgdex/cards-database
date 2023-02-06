@@ -23,7 +23,9 @@
 		382
 	],
 	"hp": 100,
-	"illustrator": "Yuri Umemura",
+	"illustrator": [
+		"Yuri Umemura"
+	],
 	"name": {
 		"en": "Kyogre",
 		"fr": "Kyogre"

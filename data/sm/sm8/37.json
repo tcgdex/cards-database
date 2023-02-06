@@ -54,7 +54,9 @@
 		787
 	],
 	"hp": 130,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Kapu-Toro",
 		"en": "Tapu Bulu",

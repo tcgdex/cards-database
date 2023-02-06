@@ -21,7 +21,9 @@
 		619
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Lin-Fu",
 		"en": "Mienfoo",

@@ -41,7 +41,9 @@
 		"fr": "Vibraninf"
 	},
 	"hp": 140,
-	"illustrator": "BERUBURI",
+	"illustrator": [
+		"BERUBURI"
+	],
 	"name": {
 		"en": "Flygon",
 		"fr": "Libégon"

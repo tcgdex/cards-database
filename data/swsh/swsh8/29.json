@@ -16,7 +16,9 @@
 		"en": "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm."
 	},
 	"hp": 70,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Vulpix",
 		"en": "Vulpix",

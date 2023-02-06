@@ -32,7 +32,9 @@
 		"en": "Sandile"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Rokkaiman",
 		"en": "Krokorok",

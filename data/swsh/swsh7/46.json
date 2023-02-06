@@ -54,7 +54,9 @@
 		746
 	],
 	"hp": 30,
-	"illustrator": "Teeziro",
+	"illustrator": [
+		"Teeziro"
+	],
 	"name": {
 		"de": "Lusardin",
 		"en": "Wishiwashi",

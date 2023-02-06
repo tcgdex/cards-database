@@ -43,7 +43,9 @@
 		"fr": "Skélénox"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Dusclops",
 		"fr": "Teraclope"

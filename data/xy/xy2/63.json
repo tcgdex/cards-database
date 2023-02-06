@@ -21,7 +21,9 @@
 		669
 	],
 	"hp": 40,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Flabébé",
 		"en": "Flabébé",

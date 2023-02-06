@@ -61,7 +61,9 @@
 		"de": "Rollum"
 	},
 	"hp": 160,
-	"illustrator": "Megumi Higuchi",
+	"illustrator": [
+		"Megumi Higuchi"
+	],
 	"name": {
 		"de": "Cerapendra",
 		"en": "Scolipede",

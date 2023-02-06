@@ -32,7 +32,9 @@
 		493
 	],
 	"hp": 120,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Arceus"
 	},

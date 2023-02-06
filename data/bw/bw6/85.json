@@ -35,7 +35,9 @@
 		384
 	],
 	"hp": 170,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Rayquaza-EX",
 		"en": "Rayquaza-EX",

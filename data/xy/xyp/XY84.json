@@ -35,7 +35,9 @@
 		25
 	],
 	"hp": 130,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"en": "Pikachu EX",
 		"fr": "Pikachu EX"

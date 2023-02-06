@@ -47,7 +47,9 @@
 		"fr": "Togetic"
 	},
 	"hp": 140,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Togekiss",
 		"en": "Togekiss",

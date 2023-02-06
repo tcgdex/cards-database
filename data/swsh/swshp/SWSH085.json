@@ -31,7 +31,9 @@
 		836
 	],
 	"hp": 200,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"en": "Boltund V"
 	},

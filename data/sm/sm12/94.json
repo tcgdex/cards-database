@@ -57,7 +57,9 @@
 		"fr": "Brocélôme"
 	},
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Trombork",
 		"en": "Trevenant",

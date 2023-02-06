@@ -37,7 +37,9 @@
 		127
 	],
 	"hp": 100,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"en": "Pinsir",
 		"fr": "Scarabrute"

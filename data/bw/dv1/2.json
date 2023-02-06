@@ -30,7 +30,9 @@
 		147
 	],
 	"hp": 40,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Dratini",
 		"fr": "Minidraco"

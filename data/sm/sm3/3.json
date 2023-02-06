@@ -56,7 +56,9 @@
 		"fr": "Chrysacier"
 	},
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Smettbo",
 		"en": "Butterfree",

@@ -38,7 +38,9 @@
 		351
 	],
 	"hp": 60,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Castform",
 		"fr": "Morpheo"

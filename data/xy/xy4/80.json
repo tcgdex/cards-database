@@ -52,7 +52,9 @@
 		113
 	],
 	"hp": 100,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Chaneira",
 		"en": "Chansey",

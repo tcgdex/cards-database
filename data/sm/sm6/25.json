@@ -21,7 +21,9 @@
 		692
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Scampisto",
 		"en": "Clauncher",

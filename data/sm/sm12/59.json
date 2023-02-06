@@ -30,7 +30,9 @@
 		580
 	],
 	"hp": 60,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Piccolente",
 		"en": "Ducklett",

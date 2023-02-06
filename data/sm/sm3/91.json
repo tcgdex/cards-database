@@ -29,7 +29,9 @@
 		280
 	],
 	"hp": 60,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Trasla",
 		"en": "Ralts",

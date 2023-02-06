@@ -40,7 +40,9 @@
 		"fr": "Scorplane"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Skorgro",
 		"en": "Gliscor",

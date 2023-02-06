@@ -29,7 +29,9 @@
 	"dexId": [
 		371
 	],
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Bagon"
 	},

@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se descartar outras 2 cartas da sua mão.\n\nSeu oponente revela a própria mão. Coloque 1 carta de Treinador que encontrar lá como a carta de baixo do baralho dele(a).",
 		"de": "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\n\nDein Gegner zeigt dir seine Handkarten. Lege 1 Trainerkarte, die du dort findest, unter sein Deck."
 	},
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Olivia",
 		"en": "Oleana",

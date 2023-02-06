@@ -9,7 +9,9 @@
 		"pt": "O Pokémon Básico ao qual esta carta está ligada recebe 50 PS a mais, exceto por Pokémon-GX.",
 		"de": "Das Basis-Pokémon, an das diese Karte angelegt ist, erhält +50 KP, außer Pokémon-GX."
 	},
-	"illustrator": "inose yukie",
+	"illustrator": [
+		"inose yukie"
+	],
 	"name": {
 		"de": "Umhang der Stärke",
 		"en": "Cape of Toughness",

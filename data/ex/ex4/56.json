@@ -21,7 +21,9 @@
 		363
 	],
 	"hp": 40,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Team Aqua's Spheal",
 		"fr": "Obalie de Team Aqua"

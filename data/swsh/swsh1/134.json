@@ -55,7 +55,9 @@
 		"de": "Gladiantri"
 	},
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Caesurio",
 		"en": "Bisharp",

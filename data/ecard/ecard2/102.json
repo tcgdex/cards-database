@@ -32,7 +32,9 @@
 		77
 	],
 	"hp": 40,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Ponyta",
 		"fr": "Ponyta"

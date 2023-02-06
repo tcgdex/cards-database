@@ -34,7 +34,9 @@
 		364
 	],
 	"hp": 80,
-	"illustrator": "T. Honda",
+	"illustrator": [
+		"T. Honda"
+	],
 	"name": {
 		"en": "Team Aqua's Sealeo",
 		"fr": "Phogleur de Team Aqua"

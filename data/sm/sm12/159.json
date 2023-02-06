@@ -45,7 +45,9 @@
 		780
 	],
 	"hp": 120,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Sen-Long",
 		"en": "Drampa",

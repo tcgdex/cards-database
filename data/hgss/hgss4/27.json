@@ -43,7 +43,9 @@
 		"fr": "Magmar"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Magmortar",
 		"fr": "Maganon"

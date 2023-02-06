@@ -28,7 +28,9 @@
 		4
 	],
 	"hp": 70,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Charmander"
 	},

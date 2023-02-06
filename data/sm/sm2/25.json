@@ -56,7 +56,9 @@
 		"fr": "Têtarte"
 	},
 	"hp": 130,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Quaxo",
 		"en": "Politoed",

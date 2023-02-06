@@ -29,7 +29,9 @@
 		757
 	],
 	"hp": 70,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Molunk",
 		"en": "Salandit",

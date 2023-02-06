@@ -68,7 +68,9 @@
 		491
 	],
 	"hp": 160,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Darkrai ◇",
 		"en": "Darkrai ◇",

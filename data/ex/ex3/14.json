@@ -41,7 +41,9 @@
 		"en": "Dratini"
 	},
 	"hp": 70,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Dragonair",
 		"fr": "Draco"

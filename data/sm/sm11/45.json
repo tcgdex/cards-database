@@ -56,7 +56,9 @@
 		"fr": "Carapagos"
 	},
 	"hp": 160,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Karippas",
 		"en": "Carracosta",

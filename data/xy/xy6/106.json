@@ -51,7 +51,9 @@
 		492
 	],
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Shaymin EX",
 		"en": "Shaymin EX",

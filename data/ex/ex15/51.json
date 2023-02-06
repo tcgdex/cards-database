@@ -28,7 +28,9 @@
 		246
 	],
 	"hp": 50,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Larvitar",
 		"fr": "Embrylex"

@@ -42,7 +42,9 @@
 		"fr": "Nidorina"
 	},
 	"hp": 130,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Nidoqueen",
 		"en": "Nidoqueen",

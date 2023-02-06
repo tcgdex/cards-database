@@ -59,7 +59,9 @@
 		"fr": "Ymphect"
 	},
 	"hp": 170,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Despotar",
 		"en": "Tyranitar",

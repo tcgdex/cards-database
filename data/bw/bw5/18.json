@@ -30,7 +30,9 @@
 		324
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Qurtel",
 		"en": "Torkoal",

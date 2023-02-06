@@ -22,7 +22,9 @@
 		320
 	],
 	"hp": 120,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Wailmer",
 		"en": "Wailmer",

@@ -30,7 +30,9 @@
 		193
 	],
 	"hp": 70,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Yanma",
 		"en": "Yanma",

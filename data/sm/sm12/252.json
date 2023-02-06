@@ -77,7 +77,9 @@
 		"fr": "Pyronille"
 	},
 	"hp": 210,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Ramoth GX",
 		"en": "Volcarona GX",

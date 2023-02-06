@@ -57,7 +57,9 @@
 		"fr": "Vigoroth"
 	},
 	"hp": 180,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Letarking",
 		"en": "Slaking",

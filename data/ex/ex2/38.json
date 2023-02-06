@@ -48,7 +48,9 @@
 		314
 	],
 	"hp": 60,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Illumise",
 		"fr": "Lumivole"

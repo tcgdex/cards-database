@@ -46,7 +46,9 @@
 		"de": "Dusselgurr"
 	},
 	"hp": 80,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Navitaub",
 		"en": "Tranquill",

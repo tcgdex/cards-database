@@ -9,7 +9,9 @@
 		"pt": "Procure até 3 cards em seu baralho e descarte-os. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach bis zu 3 Karten und lege sie auf deinen Ablagestapel. Mische anschließend dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Kampfverdichter Team Flare-Zubehör",
 		"en": "Battle Compressor Team Flare Gear",

@@ -20,7 +20,9 @@
 		"en": "Known for their violence, these Pokémon have the most fights with schools of red-striped Basculin."
 	},
 	"hp": 80,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Barschuft",
 		"en": "Basculin",

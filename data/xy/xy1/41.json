@@ -58,7 +58,9 @@
 		"de": "Amphizel"
 	},
 	"hp": 130,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Quajutsu",
 		"en": "Greninja",

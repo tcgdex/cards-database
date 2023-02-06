@@ -52,7 +52,9 @@
 		126
 	],
 	"hp": 80,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Magmar",
 		"en": "Magmar",

@@ -52,7 +52,9 @@
 		237
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Kapoera",
 		"en": "Hitmontop",

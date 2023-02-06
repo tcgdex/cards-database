@@ -60,7 +60,9 @@
 		"de": "Vibrava"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Libelldra",
 		"en": "Flygon",

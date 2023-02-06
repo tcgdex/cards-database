@@ -57,7 +57,9 @@
 		"fr": "Noeunoeuf"
 	},
 	"hp": 140,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Kokowei",
 		"en": "Exeggutor",

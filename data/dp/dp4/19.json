@@ -41,7 +41,9 @@
 		"fr": "Soporifik"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Hypno",
 		"fr": "Hypnomade"

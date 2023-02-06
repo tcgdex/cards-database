@@ -39,7 +39,9 @@
 		453
 	],
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Croagunk",
 		"fr": "Cradopaud"

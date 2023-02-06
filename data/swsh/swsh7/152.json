@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se algum dos seus Pokémon tiver sido Nocauteado durante o último turno do seu oponente.\nLigue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon. Se fizer isto, procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Du kannst diese Karte nur spielen, wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\nLege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an. Wenn du das machst, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "take",
+	"illustrator": [
+		"take"
+	],
 	"name": {
 		"de": "Roy",
 		"en": "Raihan",

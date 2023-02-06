@@ -44,7 +44,9 @@
 		"fr": "Lampi"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Lanturn",
 		"fr": "Lanturn"

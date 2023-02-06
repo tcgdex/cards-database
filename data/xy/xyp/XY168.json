@@ -25,7 +25,9 @@
 		"en": "Garchomp-EX"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Garchomp-EX"
 	},

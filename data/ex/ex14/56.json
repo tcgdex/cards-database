@@ -31,7 +31,9 @@
 		307
 	],
 	"hp": 50,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Meditite",
 		"fr": "Meditikka"

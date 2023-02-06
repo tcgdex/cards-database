@@ -55,7 +55,9 @@
 		"de": "Kiesling"
 	},
 	"hp": 110,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Sedimantur",
 		"en": "Boldore",

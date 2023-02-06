@@ -56,7 +56,9 @@
 		"fr": "Otarlette"
 	},
 	"hp": 150,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Primarene",
 		"en": "Primarina",

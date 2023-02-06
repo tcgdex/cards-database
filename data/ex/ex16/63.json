@@ -30,7 +30,9 @@
 		287
 	],
 	"hp": 40,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Slakoth",
 		"fr": "Parecool"

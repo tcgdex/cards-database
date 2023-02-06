@@ -28,7 +28,9 @@
 		"de": "Toxel"
 	},
 	"hp": 130,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Riffex",
 		"en": "Toxtricity",

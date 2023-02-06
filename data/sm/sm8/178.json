@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante a vez de jogar de cada jogador, aquele jogador pode descartar 1 carta de Energia Fire da própria mão. Se fizer isto, comprará 3 cartas.\n\nSempre que algum jogador jogar uma carta de Item ou de Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados a esta carta de Estádio.",
 		"de": "Einmal während des Zuges jedes Spielers kann der Spieler 1 Fire-Energiekarte aus seiner Hand auf seinen Ablagestapel legen. Wenn er das macht, zieht er 3 Karten.\n\nVerhindere jedes Mal, wenn ein Spieler eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dieser Stadionkarte zugefügt werden."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Hitzemanufaktur ◇",
 		"en": "Heat Factory ◇",

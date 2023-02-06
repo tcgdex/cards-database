@@ -56,7 +56,9 @@
 		"en": "Ducklett"
 	},
 	"hp": 110,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Swaroness",
 		"en": "Swanna",

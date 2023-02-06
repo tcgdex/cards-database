@@ -39,7 +39,9 @@
 		"en": "Duskull"
 	},
 	"hp": 70,
-	"illustrator": "Tomoko Wakai",
+	"illustrator": [
+		"Tomoko Wakai"
+	],
 	"name": {
 		"en": "Dusclops",
 		"fr": "Teraclope"

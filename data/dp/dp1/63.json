@@ -42,7 +42,9 @@
 		"fr": "Chenipotte"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Silcoon",
 		"fr": "Armulys"

@@ -55,7 +55,9 @@
 		"fr": "Kirlia"
 	},
 	"hp": 160,
-	"illustrator": "Huang Tzu En",
+	"illustrator": [
+		"Huang Tzu En"
+	],
 	"name": {
 		"de": "Galagladi",
 		"en": "Gallade",

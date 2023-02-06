@@ -30,7 +30,9 @@
 		"fr": "Taupiqueur d’Alola"
 	},
 	"hp": 90,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"de": "Alola-Digdri",
 		"en": "Alolan Dugtrio",

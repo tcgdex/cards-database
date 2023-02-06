@@ -43,7 +43,9 @@
 		494
 	],
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Victini ◇",
 		"en": "Victini ◇",

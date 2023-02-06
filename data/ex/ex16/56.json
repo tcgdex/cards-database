@@ -34,7 +34,9 @@
 		"en": "Mysterious Fossil"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Omanyte",
 		"fr": "Amonita"

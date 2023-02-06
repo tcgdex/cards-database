@@ -59,7 +59,9 @@
 		"de": "Rayquaza-V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Rayquaza VMAX",
 		"en": "Rayquaza VMAX",

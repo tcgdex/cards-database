@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Déplacez une carte Énergie de base d'1 de vos Pokémon à 1 autre de vos Pokémon."
 	},
-	"illustrator": "Ken Ikuji",
+	"illustrator": [
+		"Ken Ikuji"
+	],
 	"name": {
 		"en": "Energy Switch",
 		"fr": "Échange d'Énergie"

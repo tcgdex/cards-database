@@ -55,7 +55,9 @@
 		"fr": "Galifeu"
 	},
 	"hp": 130,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Blaziken",
 		"fr": "Brasegali"

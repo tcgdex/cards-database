@@ -22,7 +22,9 @@
 		418
 	],
 	"hp": 70,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Bamelin",
 		"en": "Buizel",

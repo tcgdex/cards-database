@@ -37,7 +37,9 @@
 		638
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Kobalium-EX",
 		"en": "Cobalion-EX",

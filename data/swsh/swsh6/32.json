@@ -43,7 +43,9 @@
 		"en": "It has a generous habit of sharing its food with people and Pokémon, so it's always scrounging around for more food."
 	},
 	"hp": 90,
-	"illustrator": "Narumi Sato",
+	"illustrator": [
+		"Narumi Sato"
+	],
 	"name": {
 		"de": "Botogel",
 		"en": "Delibird",

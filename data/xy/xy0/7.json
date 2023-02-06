@@ -51,7 +51,9 @@
 		513
 	],
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Grillmak",
 		"en": "Pansear",

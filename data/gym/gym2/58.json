@@ -32,7 +32,9 @@
 		"en": "Abra"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sabrina's Kadabra"
 	},

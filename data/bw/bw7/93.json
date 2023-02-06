@@ -39,7 +39,9 @@
 		"fr": "Vostourno"
 	},
 	"hp": 90,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Grypheldis",
 		"en": "Mandibuzz",

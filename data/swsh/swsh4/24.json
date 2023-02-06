@@ -52,7 +52,9 @@
 		"de": "Glumanda"
 	},
 	"hp": 90,
-	"illustrator": "SATOSHI NAKAI",
+	"illustrator": [
+		"SATOSHI NAKAI"
+	],
 	"name": {
 		"de": "Glutexo",
 		"en": "Charmeleon",

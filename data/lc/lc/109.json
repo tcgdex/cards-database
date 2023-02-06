@@ -2,7 +2,9 @@
 	"$schema": "../../../meta/definitions/card.schema.json",
 	"category": "Trainer",
 	"hp": 10,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Mysterious Fossil"
 	},

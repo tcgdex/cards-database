@@ -59,7 +59,9 @@
 		"de": "Galar-Geradaks"
 	},
 	"hp": 160,
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Galar-Barrikadax",
 		"en": "Galarian Obstagoon",

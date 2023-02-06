@@ -22,7 +22,9 @@
 		46
 	],
 	"hp": 60,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Paras",
 		"en": "Paras",

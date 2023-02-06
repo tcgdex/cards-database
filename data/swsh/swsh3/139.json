@@ -56,7 +56,9 @@
 		"de": "Teddiursa"
 	},
 	"hp": 140,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Ursaring",
 		"en": "Ursaring",

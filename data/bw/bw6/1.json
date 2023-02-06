@@ -21,7 +21,9 @@
 		187
 	],
 	"hp": 30,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Hoppspross",
 		"en": "Hoppip",

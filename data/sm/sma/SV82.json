@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"en": "Cynthia",
 		"fr": "Cynthia"

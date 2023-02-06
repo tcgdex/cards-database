@@ -40,7 +40,9 @@
 		"fr": "Psystigri"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Meowstic",
 		"fr": "Mistigrix"

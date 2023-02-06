@@ -36,7 +36,9 @@
 		739
 	],
 	"hp": 80,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Krabbox",
 		"en": "Crabrawler",

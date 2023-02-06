@@ -9,7 +9,9 @@
 		"pt": "Você só pode jogar esta carta se seu oponente tiver exatamente 3 cartas de Prêmio restantes.\n\nPrevenirá todo o dano causado às suas Ultracriaturas por ataques durante a próxima vez de jogar do seu oponente.",
 		"de": "Du kannst diese Karte nur spielen, wenn dein Gegner genau 3 verbleibende Preiskarten hat.\n\nVerhindere allen Schaden, der deinen Ultrabestien während des nächsten Zuges deines Gegners durch Attacken zugefügt wird."
 	},
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Samantha ◇",
 		"en": "Lusamine ◇",

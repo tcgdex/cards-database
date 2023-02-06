@@ -30,7 +30,9 @@
 		722
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Bauz",
 		"en": "Rowlet",

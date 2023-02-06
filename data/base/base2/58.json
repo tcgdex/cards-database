@@ -38,7 +38,9 @@
 		43
 	],
 	"hp": 50,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Oddish",
 		"fr": "Mystherbe"

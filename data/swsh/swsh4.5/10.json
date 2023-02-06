@@ -53,7 +53,9 @@
 		"en": "Dhelmise V"
 	},
 	"hp": 330,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Moruda VMAX",
 		"en": "Dhelmise VMAX",

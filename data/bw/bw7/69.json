@@ -40,7 +40,9 @@
 		"fr": "Munna"
 	},
 	"hp": 100,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Somnivora",
 		"en": "Musharna",

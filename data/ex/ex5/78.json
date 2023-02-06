@@ -20,7 +20,9 @@
 		175
 	],
 	"hp": 50,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Togepi",
 		"fr": "Togepi"

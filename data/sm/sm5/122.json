@@ -9,7 +9,9 @@
 		"pt": "O custo de Recuo do Pokémon ao qual esta carta está ligada é Colorless a menos e ele poderá recuar mesmo que esteja Adormecido ou Paralisado.",
 		"de": "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um Colorless und es kann sich zurückziehen, auch wenn es schläft oder paralysiert ist."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Fluchtboard",
 		"en": "Escape Board",

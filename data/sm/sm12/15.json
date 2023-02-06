@@ -21,7 +21,9 @@
 		585
 	],
 	"hp": 60,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Sesokitz",
 		"en": "Deerling",

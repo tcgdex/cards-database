@@ -45,7 +45,9 @@
 		803
 	],
 	"hp": 70,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Venicro",
 		"en": "Poipole",

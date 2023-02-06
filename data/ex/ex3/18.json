@@ -38,7 +38,9 @@
 		"en": "Nincada"
 	},
 	"hp": 70,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Ninjask",
 		"fr": "Ninjask"

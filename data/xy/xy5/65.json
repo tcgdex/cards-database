@@ -61,7 +61,9 @@
 		"de": "Zapplalek"
 	},
 	"hp": 140,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Zapplarang",
 		"en": "Eelektross",

@@ -32,7 +32,9 @@
 		437
 	],
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Bronzong 4",
 		"fr": "Archéodong  Niv. 54"

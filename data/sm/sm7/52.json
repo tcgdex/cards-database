@@ -54,7 +54,9 @@
 		"fr": "Dynavolt"
 	},
 	"hp": 110,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Voltenso",
 		"en": "Manectric",

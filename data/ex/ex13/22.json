@@ -38,7 +38,9 @@
 		381
 	],
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Latios δ",
 		"fr": "Latios δ ESPÈCES DELTA"

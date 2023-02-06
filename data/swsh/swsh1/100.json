@@ -53,7 +53,9 @@
 		185
 	],
 	"hp": 100,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Mogelbaum",
 		"en": "Sudowoodo",

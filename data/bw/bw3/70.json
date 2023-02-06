@@ -36,7 +36,9 @@
 		"fr": "Kungfouine"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Wie-Shu",
 		"en": "Mienshao",

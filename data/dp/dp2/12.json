@@ -44,7 +44,9 @@
 		"en": "Magmar"
 	},
 	"hp": 100,
-	"illustrator": "Hiroaki Ito",
+	"illustrator": [
+		"Hiroaki Ito"
+	],
 	"name": {
 		"en": "Magmortar",
 		"fr": "Maganon"

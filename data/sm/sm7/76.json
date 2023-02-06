@@ -43,7 +43,9 @@
 		307
 	],
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Meditie",
 		"en": "Meditite",

@@ -40,7 +40,9 @@
 		"de": "Sankabuh"
 	},
 	"hp": 140,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Colossand",
 		"en": "Palossand",

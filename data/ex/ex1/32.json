@@ -34,7 +34,9 @@
 		"en": "Treecko"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Grovyle",
 		"fr": "Massko"

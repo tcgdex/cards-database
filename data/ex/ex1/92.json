@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Échangez un de vos Pokémon Actifs contre un des Pokémon de votre Banc."
 	},
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Switch",
 		"fr": "Passe-passe"

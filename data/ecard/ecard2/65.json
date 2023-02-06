@@ -38,7 +38,9 @@
 		"en": "Bellsprout"
 	},
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Weepinbell",
 		"fr": "Boustiflor"

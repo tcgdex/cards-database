@@ -46,7 +46,9 @@
 		776
 	],
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Tortunator",
 		"en": "Turtonator",

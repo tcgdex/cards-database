@@ -31,7 +31,9 @@
 		81
 	],
 	"hp": 60,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Magnetilo",
 		"en": "Magnemite",

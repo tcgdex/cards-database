@@ -25,7 +25,9 @@
 	"dexId": [
 		420
 	],
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Cherubi"
 	},

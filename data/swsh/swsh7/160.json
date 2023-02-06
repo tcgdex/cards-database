@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que ele seja Nocauteado), o seu oponente descartará 1 carta da mão dele(a).",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), legt dein Gegner 1 Karte aus seiner Hand auf seinen Ablagestapel."
 	},
-	"illustrator": "AYUMI ODASHIMA",
+	"illustrator": [
+		"AYUMI ODASHIMA"
+	],
 	"name": {
 		"de": "Seelenmaske",
 		"en": "Spirit Mask",

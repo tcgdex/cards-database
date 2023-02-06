@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante o turno de cada jogador, aquele jogador poderá comprar 2 cartas. Para usar este efeito, aquele jogador deverá descartar 1 carta Golpe Decisivo da própria mão.",
 		"de": "Einmal während des Zuges jedes Spielers, kann jener Spieler 2 Karten ziehen. Um diesen Effekt einzusetzen, muss jener Spieler 1 Fokussierter-Angriff-Karte von seiner Hand auf seinen Ablagestapel legen."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Turm des Unlichts",
 		"en": "Tower of Darkness",

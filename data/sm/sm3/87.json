@@ -54,7 +54,9 @@
 		491
 	],
 	"hp": 120,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Darkrai",
 		"en": "Darkrai",

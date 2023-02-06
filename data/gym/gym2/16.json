@@ -36,7 +36,9 @@
 		"en": "Kadabra"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sabrina's Alakazam"
 	},

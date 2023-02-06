@@ -19,7 +19,9 @@
 		"en": "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
 	},
 	"hp": 60,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Galar-Zigzachs",
 		"en": "Galarian Zigzagoon",

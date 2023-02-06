@@ -39,7 +39,9 @@
 		"de": "Gengar-V"
 	},
 	"hp": 320,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Gengar VMAX",
 		"en": "Gengar VMAX",

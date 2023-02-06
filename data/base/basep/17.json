@@ -33,7 +33,9 @@
 		"en": "Meowth"
 	},
 	"hp": 60,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Dark Persian"
 	},

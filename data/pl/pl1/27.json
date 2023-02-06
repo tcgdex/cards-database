@@ -38,7 +38,9 @@
 		487
 	],
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Giratina",
 		"fr": "Giratina"

@@ -41,7 +41,9 @@
 		"en": "Gastly"
 	},
 	"hp": 50,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Dark Haunter",
 		"fr": "Spectrum obscur"

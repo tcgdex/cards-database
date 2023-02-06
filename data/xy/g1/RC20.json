@@ -36,7 +36,9 @@
 		"fr": "Sucroquin"
 	},
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Slurpuff",
 		"fr": "Cupcanaille"

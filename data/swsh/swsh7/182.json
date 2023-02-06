@@ -48,7 +48,9 @@
 		623
 	],
 	"hp": 220,
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Golgantes V",
 		"en": "Golurk V",

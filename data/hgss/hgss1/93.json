@@ -5,7 +5,9 @@
 		"fr": "Retirez tous les États spéciaux de votre Pokémon actif.",
 		"en": "Remove all Special Conditions from your Active Pokémon."
 	},
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Full Heal",
 		"fr": "Énergie guérisseuse"

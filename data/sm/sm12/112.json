@@ -58,7 +58,9 @@
 		"fr": "Anorith"
 	},
 	"hp": 150,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Armaldo",
 		"en": "Armaldo",

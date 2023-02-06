@@ -41,7 +41,9 @@
 		"fr": "Taupiqueur"
 	},
 	"hp": 90,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"en": "Dugtrio",
 		"fr": "Triopikeur"

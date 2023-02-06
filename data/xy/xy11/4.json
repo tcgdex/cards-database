@@ -29,7 +29,9 @@
 		"de": "Hoppspross"
 	},
 	"hp": 70,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Hubelupf",
 		"en": "Skiploom",

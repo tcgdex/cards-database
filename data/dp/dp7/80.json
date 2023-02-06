@@ -37,7 +37,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 60,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Voltorb",
 		"fr": "Voltorbe"

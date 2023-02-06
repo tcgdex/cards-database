@@ -49,7 +49,9 @@
 		"fr": "Ortide"
 	},
 	"hp": 140,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Giflor",
 		"en": "Vileplume",

@@ -9,7 +9,9 @@
 		"pt": "Substitua seu Pokémon Ativo por 1 dos Pokémon do seu Banco.",
 		"de": "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Tausch",
 		"en": "Switch",

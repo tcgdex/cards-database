@@ -38,7 +38,9 @@
 		"en": "Mysterious Fossil"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Aerodactyl δ",
 		"fr": "Ptera δ ESPÈCES DELTA"

@@ -37,7 +37,9 @@
 		"fr": "Psykokwak"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Golduck",
 		"fr": "Akwakwak"

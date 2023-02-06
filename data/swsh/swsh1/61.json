@@ -67,7 +67,9 @@
 		"de": "Kamehaps"
 	},
 	"hp": 130,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Kamalm",
 		"en": "Drednaw",

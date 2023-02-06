@@ -49,7 +49,9 @@
 		"en": "Scorbunny"
 	},
 	"hp": 90,
-	"illustrator": "Lee HyunJung",
+	"illustrator": [
+		"Lee HyunJung"
+	],
 	"name": {
 		"de": "Kickerlo",
 		"en": "Raboot",

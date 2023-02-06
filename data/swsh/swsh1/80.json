@@ -39,7 +39,9 @@
 		"de": "Morpeko-V"
 	},
 	"hp": 300,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Morpeko VMAX",
 		"en": "Morpeko VMAX",

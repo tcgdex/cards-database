@@ -35,7 +35,9 @@
 		"en": "Root Fossil"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Lileep",
 		"fr": "Lilia"

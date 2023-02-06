@@ -55,7 +55,9 @@
 		"en": "Cinderace V"
 	},
 	"hp": 320,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Liberlo VMAX",
 		"en": "Cinderace VMAX",

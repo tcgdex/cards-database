@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se Estádio de Wyndon estiver em jogo, compre mais 2 cartas.",
 		"de": "Ziehe 2 Karten. Wenn Score-Stadion im Spiel ist, ziehe 2 Karten mehr."
 	},
-	"illustrator": "Emi Ando",
+	"illustrator": [
+		"Emi Ando"
+	],
 	"name": {
 		"de": "Liga-Angestellte",
 		"en": "League Staff",

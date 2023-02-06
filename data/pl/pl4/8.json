@@ -46,7 +46,9 @@
 	"evolveFrom": {
 		"en": "Shelgon"
 	},
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Salamence"
 	},

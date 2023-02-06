@@ -43,7 +43,9 @@
 		311
 	],
 	"hp": 70,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Plusle",
 		"en": "Plusle",

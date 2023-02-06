@@ -35,7 +35,9 @@
 		385
 	],
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Jirachi",
 		"fr": "Jirachi"

@@ -44,7 +44,9 @@
 		145
 	],
 	"hp": 100,
-	"illustrator": "K. Hoshiba",
+	"illustrator": [
+		"K. Hoshiba"
+	],
 	"name": {
 		"en": "Zapdos ex"
 	},

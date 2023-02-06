@@ -34,7 +34,9 @@
 		"en": "Eevee"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Umbreon"
 	},

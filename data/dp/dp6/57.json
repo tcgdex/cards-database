@@ -56,7 +56,9 @@
 		"fr": "Hunduster"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Houndoom",
 		"fr": "Demolosse"

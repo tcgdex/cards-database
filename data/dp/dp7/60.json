@@ -38,7 +38,9 @@
 		"fr": "Skélénox"
 	},
 	"hp": 50,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Duskull",
 		"fr": "Skélénox"

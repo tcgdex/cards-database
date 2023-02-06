@@ -31,7 +31,9 @@
 		152
 	],
 	"hp": 50,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"en": "Chikorita",
 		"fr": "Germignon"

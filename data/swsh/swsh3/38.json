@@ -28,7 +28,9 @@
 		"en": "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research."
 	},
 	"hp": 30,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Barschwa",
 		"en": "Feebas",

@@ -9,7 +9,9 @@
 		"pt": "Coloque 1 Pokémon Básico da pilha de descarte do seu oponente no Banco dele(a).",
 		"de": "Lege 1 Basis-Pokémon aus dem Ablagestapel deines Gegners auf seine Bank."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Echohorn",
 		"en": "Echoing Horn",

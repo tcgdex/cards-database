@@ -51,7 +51,9 @@
 		"en": "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
 	},
 	"hp": 70,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Galar-Zigzachs",
 		"en": "Galarian Zigzagoon",

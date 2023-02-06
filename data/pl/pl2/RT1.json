@@ -50,7 +50,9 @@
 		479
 	],
 	"hp": 70,
-	"illustrator": "Motofumi Fujiwara",
+	"illustrator": [
+		"Motofumi Fujiwara"
+	],
 	"name": {
 		"en": "Fan Rotom",
 		"fr": "Motisma Hélice Niv. 46"

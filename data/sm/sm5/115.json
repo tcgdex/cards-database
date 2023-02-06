@@ -46,7 +46,9 @@
 		772
 	],
 	"hp": 110,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Typ:Null",
 		"en": "Type: Null",

@@ -45,7 +45,9 @@
 		144
 	],
 	"hp": 120,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Arktos",
 		"en": "Articuno",

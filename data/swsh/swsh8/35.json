@@ -39,7 +39,9 @@
 		"de": "Schneckmag"
 	},
 	"hp": 130,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Magcargo",
 		"en": "Magcargo",

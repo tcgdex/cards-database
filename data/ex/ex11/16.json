@@ -39,7 +39,9 @@
 		"en": "Pupitar"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Tyranitar δ",
 		"fr": "Tyranocif δ ESPÈCES DELTA"

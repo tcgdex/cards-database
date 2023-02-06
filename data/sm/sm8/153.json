@@ -56,7 +56,9 @@
 		"fr": "Leveinard"
 	},
 	"hp": 160,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Heiteira",
 		"en": "Blissey",

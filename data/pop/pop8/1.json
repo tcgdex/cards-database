@@ -38,7 +38,9 @@
 		485
 	],
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Heatran"
 	},

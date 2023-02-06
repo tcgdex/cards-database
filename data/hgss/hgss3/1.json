@@ -42,7 +42,9 @@
 		"fr": "Ortide"
 	},
 	"hp": 110,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Bellossom",
 		"fr": "Joliflor"

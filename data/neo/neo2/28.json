@@ -41,7 +41,9 @@
 		"en": "Poliwhirl"
 	},
 	"hp": 90,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Poliwrath",
 		"fr": "Tartard"

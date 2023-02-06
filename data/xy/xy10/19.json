@@ -34,7 +34,9 @@
 		"de": "Amoroso"
 	},
 	"hp": 140,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Amoroso-TURBO",
 		"en": "Omastar BREAK",

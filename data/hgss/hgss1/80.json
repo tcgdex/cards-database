@@ -33,7 +33,9 @@
 		161
 	],
 	"hp": 50,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Sentret",
 		"fr": "Fouinette"

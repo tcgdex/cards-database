@@ -40,7 +40,9 @@
 		"fr": "Chamallot de la Team Magma"
 	},
 	"hp": 110,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Team Magma's Camerupt",
 		"fr": "Camérupt de la Team Magma"

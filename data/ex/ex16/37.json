@@ -25,7 +25,9 @@
 		"en": "Spheal"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sealeo",
 		"fr": "Phogleur"

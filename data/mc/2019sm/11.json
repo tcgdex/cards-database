@@ -16,7 +16,9 @@
 		"en": "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate."
 	},
 	"hp": 60,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"en": "Alolan Dugtrio"
 	},

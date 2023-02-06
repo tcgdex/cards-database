@@ -62,7 +62,9 @@
 		"de": "Scoppel"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Grebbit",
 		"en": "Diggersby",

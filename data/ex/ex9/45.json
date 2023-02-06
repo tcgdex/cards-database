@@ -20,7 +20,9 @@
 		84
 	],
 	"hp": 40,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Doduo",
 		"fr": "Doduo"

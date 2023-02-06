@@ -53,7 +53,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 230,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Rihornior V",
 		"en": "Rhyperior V",

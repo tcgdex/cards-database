@@ -21,7 +21,9 @@
 		513
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Pansear",
 		"fr": "Flamajou"

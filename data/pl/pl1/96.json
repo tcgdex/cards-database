@@ -28,7 +28,9 @@
 		7
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Squirtle",
 		"fr": "Carapuce"

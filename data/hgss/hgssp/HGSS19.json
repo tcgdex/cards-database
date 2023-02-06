@@ -21,7 +21,9 @@
 		243
 	],
 	"hp": 80,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Raikou"
 	},

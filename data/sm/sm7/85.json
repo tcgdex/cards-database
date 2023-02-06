@@ -72,7 +72,9 @@
 		"fr": "Rattata d’Alola"
 	},
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Alola-Rattikarl GX",
 		"en": "Alolan Raticate GX",

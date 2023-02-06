@@ -43,7 +43,9 @@
 		"en": "Ekans"
 	},
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Arbok",
 		"fr": "Arbok obscur"

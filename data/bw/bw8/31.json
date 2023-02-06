@@ -48,7 +48,9 @@
 		"fr": "Lombre"
 	},
 	"hp": 130,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Kappalores",
 		"en": "Ludicolo",

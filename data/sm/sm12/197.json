@@ -9,7 +9,9 @@
 		"pt": "Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 30. A qualquer momento, durante a sua vez de jogar (antes de atacar), se este Pokémon for o seu Pokémon Ativo, você poderá descartar todas as cartas dele e colocá-lo como a última carta do seu baralho.\n\nEsta carta não pode recuar. Se esta carta for Nocauteada, seu oponente não poderá pegar cartas de Prêmio por isto.",
 		"de": "Spiele diese Karte, als ob sie ein Colorless-Basis-Pokémon mit 30 KP wäre. Wenn dieses Pokémon dein Aktives Pokémon ist, kannst du jederzeit während deines Zuges (bevor du angreifst) alle an es angelegten Karten auf deinen Ablagestapel legen und es unter dein Deck legen.\n\nDiese Karte kann sich nicht zurückziehen. Wenn diese Karte kampfunfähig wird, kann dein Gegner dafür keine Preiskarten nehmen."
 	},
-	"illustrator": "Studio Bora Inc.",
+	"illustrator": [
+		"Studio Bora Inc."
+	],
 	"name": {
 		"de": "Lillys Poképuppe",
 		"en": "Lillie’s Poké Doll",

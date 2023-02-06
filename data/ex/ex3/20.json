@@ -35,7 +35,9 @@
 		"en": "Bagon"
 	},
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Shelgon",
 		"fr": "Drackhaus"

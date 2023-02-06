@@ -1,5 +1,5 @@
 import { getSets, setToSetSingle } from '../utils/setUtil'
-import { SupportedLanguages } from '../../../interfaces'
+import { SupportedLanguages } from '../../../meta/definitions/database'
 import { FileFunction } from '../compilerInterfaces'
 
 

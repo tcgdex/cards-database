@@ -47,7 +47,9 @@
 		115
 	],
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Kangaskhan",
 		"fr": "Kangourex"

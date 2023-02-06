@@ -52,7 +52,9 @@
 		"fr": "Crabagarre"
 	},
 	"hp": 140,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Krawell",
 		"en": "Crabominable",

@@ -28,7 +28,9 @@
 		41
 	],
 	"hp": 30,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Brock's Zubat"
 	},

@@ -30,7 +30,9 @@
 		201
 	],
 	"hp": 60,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Unown"
 	},

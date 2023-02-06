@@ -64,7 +64,9 @@
 		"de": "Chaneira"
 	},
 	"hp": 130,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Heiteira",
 		"en": "Blissey",

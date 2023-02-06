@@ -55,7 +55,9 @@
 		"fr": "Herbizarre"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Venusaur",
 		"fr": "Florizarre"

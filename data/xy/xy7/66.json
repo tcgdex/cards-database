@@ -60,7 +60,9 @@
 		"de": "Porygon2"
 	},
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Porygon-Z",
 		"en": "Porygon-Z",

@@ -31,7 +31,9 @@
 		557
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Lithomith",
 		"en": "Dwebble",

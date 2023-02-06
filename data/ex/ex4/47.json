@@ -36,7 +36,9 @@
 		318
 	],
 	"hp": 40,
-	"illustrator": "Yosuke Da Silva",
+	"illustrator": [
+		"Yosuke Da Silva"
+	],
 	"name": {
 		"en": "Team Aqua's Carvanha",
 		"fr": "Carvanha de Team Aqua"

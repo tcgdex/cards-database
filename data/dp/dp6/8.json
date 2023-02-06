@@ -58,7 +58,9 @@
 		"fr": "Luxio"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Luxray",
 		"fr": "Luxray"

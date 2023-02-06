@@ -51,7 +51,9 @@
 		"de": "Samurzel"
 	},
 	"hp": 70,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Blanas",
 		"en": "Nuzleaf",

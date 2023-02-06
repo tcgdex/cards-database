@@ -31,7 +31,9 @@
 		222
 	],
 	"hp": 70,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Corsola",
 		"fr": "Corayon"

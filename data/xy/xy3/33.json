@@ -54,7 +54,9 @@
 		642
 	],
 	"hp": 120,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"de": "Voltolos",
 		"en": "Thundurus",

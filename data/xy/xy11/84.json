@@ -43,7 +43,9 @@
 		633
 	],
 	"hp": 60,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Kapuno",
 		"en": "Deino",

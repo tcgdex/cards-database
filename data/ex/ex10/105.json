@@ -36,7 +36,9 @@
 		249
 	],
 	"hp": 100,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Lugia ex",
 		"fr": "Lugia ex"

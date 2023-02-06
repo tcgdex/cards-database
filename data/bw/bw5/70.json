@@ -31,7 +31,9 @@
 		570
 	],
 	"hp": 60,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Zorua",
 		"en": "Zorua",

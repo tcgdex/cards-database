@@ -43,7 +43,9 @@
 		704
 	],
 	"hp": 40,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Viscora",
 		"en": "Goomy",

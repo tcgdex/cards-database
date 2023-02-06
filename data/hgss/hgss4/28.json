@@ -44,7 +44,9 @@
 		"fr": "Nidorina"
 	},
 	"hp": 130,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Nidoqueen",
 		"fr": "Nidoqueen"

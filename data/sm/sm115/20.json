@@ -39,7 +39,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Raichu GX",
 		"fr": "Raichu-GX"

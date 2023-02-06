@@ -44,7 +44,9 @@
 		801
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Magearna",
 		"en": "Magearna",

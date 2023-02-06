@@ -28,7 +28,9 @@
 		"en": "While inside a cave, if you look up and see lots of heart-shaped marks lining the walls, it's evidence that Woobat live there."
 	},
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Fleknoil",
 		"en": "Woobat",

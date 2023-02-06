@@ -47,7 +47,9 @@
 		"fr": "Chétiflor"
 	},
 	"hp": 80,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Ultrigaria",
 		"en": "Weepinbell",

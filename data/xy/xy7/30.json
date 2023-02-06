@@ -42,7 +42,9 @@
 		201
 	],
 	"hp": 60,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Icognito",
 		"en": "Unown",

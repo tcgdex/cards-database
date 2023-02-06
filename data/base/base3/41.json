@@ -39,7 +39,9 @@
 		"en": "Sandshrew"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Sandslash",
 		"fr": "Sablaireau"

@@ -18,7 +18,9 @@
 		399
 	],
 	"hp": 60,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"en": "Bidoof",
 		"fr": "Keunotor"

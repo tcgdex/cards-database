@@ -58,7 +58,9 @@
 		"fr": "Lampéroie"
 	},
 	"hp": 140,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Zapplarang",
 		"en": "Eelektross",

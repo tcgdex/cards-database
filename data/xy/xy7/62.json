@@ -60,7 +60,9 @@
 		"de": "Mauzi"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Snobilikat",
 		"en": "Persian",

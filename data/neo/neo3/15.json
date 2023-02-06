@@ -39,7 +39,9 @@
 		142
 	],
 	"hp": 60,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Aerodactyl",
 		"fr": "Ptera"

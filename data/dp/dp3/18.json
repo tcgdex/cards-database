@@ -42,7 +42,9 @@
 		"fr": "Drackhaus"
 	},
 	"hp": 140,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Salamence",
 		"fr": "Drattak"

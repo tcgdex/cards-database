@@ -9,7 +9,9 @@
 		"pt": "Escolha 1:• Coloque 1 Pokémon da sua pilha de descarte na sua mão.• Embaralhe 3 Pokémon da sua pilha de descarte no seu baralho.",
 		"de": "Wähle 1 aus:•Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand.•Mische 3 Pokémon aus deinem Ablagestapel in dein Deck."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Rettungstrage",
 		"en": "Rescue Stretcher",

@@ -36,7 +36,9 @@
 		150
 	],
 	"hp": 70,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Mewtwo δ",
 		"fr": "Mewtwo δ ESPÈCES DELTA"

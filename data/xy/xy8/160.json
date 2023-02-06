@@ -38,7 +38,9 @@
 		"de": "Mewtu-EX"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M-Mewtu EX",
 		"en": "M Mewtwo EX",

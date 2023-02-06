@@ -20,7 +20,9 @@
 		66
 	],
 	"hp": 60,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Machop",
 		"fr": "Machoc"

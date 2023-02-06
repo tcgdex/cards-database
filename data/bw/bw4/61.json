@@ -21,7 +21,9 @@
 		605
 	],
 	"hp": 60,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"de": "Pygraulon",
 		"en": "Elgyem",

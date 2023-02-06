@@ -28,7 +28,9 @@
 		504
 	],
 	"hp": 60,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Nagelotz",
 		"en": "Patrat",

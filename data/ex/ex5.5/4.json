@@ -33,7 +33,9 @@
 		258
 	],
 	"hp": 60,
-	"illustrator": "Rowan Laidlaw",
+	"illustrator": [
+		"Rowan Laidlaw"
+	],
 	"name": {
 		"en": "Mudkip"
 	},

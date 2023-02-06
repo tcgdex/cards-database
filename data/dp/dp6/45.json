@@ -43,7 +43,9 @@
 		"fr": "Duflor"
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Vileplume",
 		"fr": "Rafflesia"

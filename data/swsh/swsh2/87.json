@@ -59,7 +59,9 @@
 		"de": "Hokumil"
 	},
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Pokusan",
 		"en": "Alcremie",

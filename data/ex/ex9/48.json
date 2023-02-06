@@ -28,7 +28,9 @@
 		309
 	],
 	"hp": 40,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Electrike",
 		"fr": "Dynavolt"

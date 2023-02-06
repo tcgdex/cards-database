@@ -47,7 +47,9 @@
 		"fr": "Rosélia"
 	},
 	"hp": 90,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Roserade",
 		"en": "Roserade",

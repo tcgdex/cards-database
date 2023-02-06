@@ -69,7 +69,9 @@
 		9
 	],
 	"hp": 270,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Turtok & Plinfa GX",
 		"en": "Blastoise & Piplup GX",

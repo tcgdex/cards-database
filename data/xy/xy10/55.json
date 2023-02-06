@@ -53,7 +53,9 @@
 		197
 	],
 	"hp": 170,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Nachtara EX",
 		"en": "Umbreon EX",

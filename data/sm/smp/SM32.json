@@ -69,7 +69,9 @@
 		787
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Kapu-Toro GX",
 		"en": "Tapu Bulu GX",

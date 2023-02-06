@@ -33,7 +33,9 @@
 		"fr": "Flamiaou"
 	},
 	"hp": 80,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Miezunder",
 		"en": "Torracat",

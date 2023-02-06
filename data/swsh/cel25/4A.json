@@ -33,7 +33,9 @@
 		"en": "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires."
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Charizard"
 	},

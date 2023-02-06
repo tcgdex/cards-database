@@ -35,7 +35,9 @@
 		517
 	],
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"de": "Somniam",
 		"en": "Munna",

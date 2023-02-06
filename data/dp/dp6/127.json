@@ -36,7 +36,9 @@
 		"fr": "Knofensa"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Weepinbell",
 		"fr": "Boustiflor"

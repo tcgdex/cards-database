@@ -38,7 +38,9 @@
 		"fr": "Nénupiot"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Lombrero",
 		"en": "Lombre",

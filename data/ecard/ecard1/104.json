@@ -35,7 +35,9 @@
 		155
 	],
 	"hp": 40,
-	"illustrator": "Sachi Matoba",
+	"illustrator": [
+		"Sachi Matoba"
+	],
 	"name": {
 		"en": "Cyndaquil",
 		"fr": "Héricendre"

@@ -44,7 +44,9 @@
 		155
 	],
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Feurigel",
 		"en": "Cyndaquil",

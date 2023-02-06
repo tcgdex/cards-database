@@ -17,7 +17,9 @@
 		602
 	],
 	"hp": 30,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Zapplardin",
 		"en": "Tynamo",

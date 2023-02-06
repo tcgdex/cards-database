@@ -39,7 +39,9 @@
 		"fr": "Ramoloss"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Slowking",
 		"fr": "Roigada"

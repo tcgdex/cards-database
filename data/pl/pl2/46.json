@@ -39,7 +39,9 @@
 		68
 	],
 	"hp": 100,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Machamp GL",
 		"fr": "Mackogneur  Niv. 64"

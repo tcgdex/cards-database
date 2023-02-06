@@ -6,7 +6,9 @@
 		"en": "Each player returns 1 of his or her Benched Pokémon and all cards attached to it to his or her hand. (You return your Pokémon first."
 	},
 	"hp": 0,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Seeker",
 		"fr": "Détecteur"

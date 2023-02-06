@@ -36,7 +36,9 @@
 		195
 	],
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Quagsire GL",
 		"fr": "Maraiste  Niv. 34"

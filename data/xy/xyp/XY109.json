@@ -44,7 +44,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 130,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Gyarados",
 		"fr": "Léviator"

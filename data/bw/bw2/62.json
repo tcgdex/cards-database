@@ -48,7 +48,9 @@
 		"fr": "Escroco"
 	},
 	"hp": 140,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Rabigator",
 		"en": "Krookodile",

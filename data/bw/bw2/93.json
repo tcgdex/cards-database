@@ -9,7 +9,9 @@
 		"pt": "Olhe os 7 cards de cima do seu baralho. Você poderá revelar um Pokémon que encontrar lá e colocá-lo em sua mão. Embaralhe os demais cards de volta.",
 		"de": "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 darunter gefundenes Pokémon zeigen und es auf deine Hand nehmen. Mische die anderen Karten anschließend zurück in dein Deck."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Superball",
 		"en": "Great Ball",

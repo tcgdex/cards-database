@@ -22,7 +22,9 @@
 		69
 	],
 	"hp": 50,
-	"illustrator": "Masako Yamashita",
+	"illustrator": [
+		"Masako Yamashita"
+	],
 	"name": {
 		"en": "Bellsprout",
 		"fr": "Chétiflor"

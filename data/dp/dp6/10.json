@@ -43,7 +43,9 @@
 		"fr": "Metang"
 	},
 	"hp": 120,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Metagross",
 		"fr": "Metalosse"

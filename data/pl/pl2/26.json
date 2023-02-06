@@ -53,7 +53,9 @@
 		"fr": "Evoli"
 	},
 	"hp": 80,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Jolteon",
 		"fr": "Voltali Niv. 43"

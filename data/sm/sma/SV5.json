@@ -33,7 +33,9 @@
 		795
 	],
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Pheromosa",
 		"fr": "Cancrelove"

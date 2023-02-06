@@ -37,7 +37,9 @@
 		"en": "Horsea"
 	},
 	"hp": 70,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Seadra δ",
 		"fr": "Hypocéan δ ESPÈCES DELTA"

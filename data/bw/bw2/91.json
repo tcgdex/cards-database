@@ -9,7 +9,9 @@
 		"pt": "Compre 3 cards.",
 		"de": "Ziehe 3 Karten."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Cheren",
 		"en": "Cheren",

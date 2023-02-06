@@ -80,7 +80,9 @@
 		"fr": "Cosmovum"
 	},
 	"hp": 250,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Lunala GX",
 		"en": "Lunala GX",

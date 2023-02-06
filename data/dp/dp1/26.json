@@ -44,7 +44,9 @@
 		"fr": "Mustébouée"
 	},
 	"hp": 90,
-	"illustrator": "Masahiko Ishii",
+	"illustrator": [
+		"Masahiko Ishii"
+	],
 	"name": {
 		"en": "Floatzel",
 		"fr": "Mustéflott"

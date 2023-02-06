@@ -40,7 +40,9 @@
 		"de": "Fleknoil"
 	},
 	"hp": 90,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Fletiamo",
 		"en": "Swoobat",

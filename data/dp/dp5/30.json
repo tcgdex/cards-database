@@ -43,7 +43,9 @@
 		"fr": "Boskara"
 	},
 	"hp": 140,
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Torterra",
 		"fr": "Torterra"

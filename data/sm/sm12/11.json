@@ -56,7 +56,9 @@
 		"fr": "Lilia"
 	},
 	"hp": 150,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Wielie",
 		"en": "Cradily",

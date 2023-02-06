@@ -52,7 +52,9 @@
 		618
 	],
 	"hp": 110,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Flunschlik",
 		"en": "Stunfisk",

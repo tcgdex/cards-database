@@ -1,7 +1,9 @@
 {
 	"$schema": "../../../meta/definitions/card.schema.json",
 	"category": "Energy",
-	"illustrator": "Takumi Akabane",
+	"illustrator": [
+		"Takumi Akabane"
+	],
 	"name": {
 		"en": "Rainbow Energy",
 		"fr": "Énergie multicolore"

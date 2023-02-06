@@ -38,7 +38,9 @@
 		165
 	],
 	"hp": 40,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Ledyba",
 		"fr": "Coxy"

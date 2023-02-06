@@ -52,7 +52,9 @@
 		"fr": "Badabouin"
 	},
 	"hp": 170,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Gortrom",
 		"en": "Rillaboom",

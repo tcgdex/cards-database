@@ -36,7 +36,9 @@
 		"en": "Nidorino"
 	},
 	"hp": 120,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Giovanni's Nidoking"
 	},

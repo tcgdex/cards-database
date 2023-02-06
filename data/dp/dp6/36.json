@@ -39,7 +39,9 @@
 		378
 	],
 	"hp": 90,
-	"illustrator": "Kazuaki Aihara",
+	"illustrator": [
+		"Kazuaki Aihara"
+	],
 	"name": {
 		"en": "Regice",
 		"fr": "Regice"

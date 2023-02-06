@@ -28,7 +28,9 @@
 	"dexId": [
 		403
 	],
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Shinx"
 	},

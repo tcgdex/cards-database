@@ -48,7 +48,9 @@
 		"fr": "Baudrive"
 	},
 	"hp": 100,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Drifzepeli",
 		"en": "Drifblim",

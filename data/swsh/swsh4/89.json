@@ -54,7 +54,9 @@
 		"en": "The same rocks that form its body have been found in ground layers around the world."
 	},
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Regirock",
 		"en": "Regirock",

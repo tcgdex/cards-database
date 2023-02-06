@@ -6,7 +6,9 @@
 		"en": "Choose an Energy card from your hand, show it to your opponent, and put it on top of your deck. Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 	"hp": 0,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Energy Exchanger",
 		"fr": "Chang’Énergie"

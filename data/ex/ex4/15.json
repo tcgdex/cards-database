@@ -34,7 +34,9 @@
 		262
 	],
 	"hp": 70,
-	"illustrator": "Shin-ichi Yoshikawa",
+	"illustrator": [
+		"Shin-ichi Yoshikawa"
+	],
 	"name": {
 		"en": "Team Aqua's Mightyena",
 		"fr": "Grahyena de Team Aqua"

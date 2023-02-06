@@ -36,7 +36,9 @@
 		"en": "Sunkern"
 	},
 	"hp": 70,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Sunflora"
 	},

@@ -29,7 +29,9 @@
 		"en": "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper."
 	},
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Meditie",
 		"en": "Meditite",

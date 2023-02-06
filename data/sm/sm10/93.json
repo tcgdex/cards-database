@@ -39,7 +39,9 @@
 		111
 	],
 	"hp": 90,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Rihorn",
 		"en": "Rhyhorn",

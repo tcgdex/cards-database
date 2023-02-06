@@ -51,7 +51,9 @@
 		206
 	],
 	"hp": 40,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Dummisel",
 		"en": "Dunsparce",

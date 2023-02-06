@@ -9,7 +9,9 @@
 		"pt": "Involui 1 dos seus Pokémon evoluídos e coloca o card de Evolução de Estágio mais alto em sua mão. (Esse Pokémon não pode evoluir desta vez.)",
 		"de": "Rückentwickle 1 deiner entwickelten Pokémon und nimm die höchste daraufliegende Evolutionskarte auf deine Hand. (Das Pokémon kann sich während dieses Zuges nicht entwickeln.)"
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Rückentwicklungsspray",
 		"en": "Devolution Spray",

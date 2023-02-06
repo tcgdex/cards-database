@@ -55,7 +55,9 @@
 		"fr": "Darumarond"
 	},
 	"hp": 130,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Flampivian",
 		"en": "Darmanitan",

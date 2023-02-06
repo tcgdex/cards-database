@@ -62,7 +62,9 @@
 		"de": "Frizelbliz"
 	},
 	"hp": 100,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Voltenso",
 		"en": "Manectric",

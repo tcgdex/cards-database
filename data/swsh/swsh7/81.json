@@ -55,7 +55,9 @@
 		107
 	],
 	"hp": 110,
-	"illustrator": "Uta",
+	"illustrator": [
+		"Uta"
+	],
 	"name": {
 		"de": "Nockchan",
 		"en": "Hitmonchan",

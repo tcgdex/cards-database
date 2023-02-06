@@ -57,7 +57,9 @@
 		"de": "Fließender-Angriff-Wulaosu-V"
 	},
 	"hp": 330,
-	"illustrator": "KIYOTAKA OSHIYAMA",
+	"illustrator": [
+		"KIYOTAKA OSHIYAMA"
+	],
 	"name": {
 		"de": "Fließender-Angriff-Wulaosu VMAX",
 		"en": "Rapid Strike Urshifu VMAX",

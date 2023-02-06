@@ -40,7 +40,9 @@
 		25
 	],
 	"hp": 40,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Flying Pikachu",
 		"fr": "Pikachu volant"

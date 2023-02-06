@@ -56,7 +56,9 @@
 		"fr": "Massko"
 	},
 	"hp": 110,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"en": "Sceptile",
 		"fr": "Jungko"

@@ -49,7 +49,9 @@
 		"fr": "Carabaffe"
 	},
 	"hp": 140,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Turtok",
 		"en": "Blastoise",

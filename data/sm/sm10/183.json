@@ -9,7 +9,9 @@
 		"pt": "Os Pokémon-GX e Pokémon-EX em jogo (seus e do seu oponente) não têm Habilidades.",
 		"de": "Pokémon-GX und Pokémon-EX im Spiel (deine und die deines Gegners) haben keine Fähigkeiten."
 	},
-	"illustrator": "aky CG Works",
+	"illustrator": [
+		"aky CG Works"
+	],
 	"name": {
 		"de": "Kraftwerk",
 		"en": "Power Plant",

@@ -40,7 +40,9 @@
 		"fr": "Marcacrin"
 	},
 	"hp": 50,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Swinub",
 		"fr": "Marcacrin"

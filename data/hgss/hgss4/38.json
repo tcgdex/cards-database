@@ -43,7 +43,9 @@
 		"fr": "Excelangue"
 	},
 	"hp": 100,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Lickilicky",
 		"fr": "Coudlangue"

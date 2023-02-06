@@ -43,7 +43,9 @@
 		"fr": "Lampi"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Lanturn",
 		"fr": "Lanturn"

@@ -37,7 +37,9 @@
 		"en": "Eevee"
 	},
 	"hp": 100,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Nachtara",
 		"en": "Umbreon",

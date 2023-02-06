@@ -9,7 +9,9 @@
 		"pt": "Quando o Pokémon da Equipe Plasma que este card está ligado for Nocauteado por danos causados pelo ataque do oponente, procure um card em seu baralho e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
 		"de": "Wenn das Team Plasma-Pokémon, an das diese Karte angelegt ist, durch Schaden eines gegnerischen Angriffs kampfunfähig wird, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rückauslöser",
 		"en": "Reversal Trigger",

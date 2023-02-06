@@ -32,7 +32,9 @@
 		369
 	],
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Relicanth",
 		"fr": "Relicanth"

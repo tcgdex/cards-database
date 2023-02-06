@@ -62,7 +62,9 @@
 		"de": "Quiekel"
 	},
 	"hp": 100,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Keifel",
 		"en": "Piloswine",

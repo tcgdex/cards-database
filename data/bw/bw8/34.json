@@ -41,7 +41,9 @@
 		490
 	],
 	"hp": 70,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Manaphy",
 		"en": "Manaphy",

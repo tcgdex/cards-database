@@ -40,7 +40,9 @@
 		"en": "Marill"
 	},
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Azumarill",
 		"fr": "Azumarill"

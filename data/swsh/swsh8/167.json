@@ -18,7 +18,9 @@
 		"en": "It can lull people to sleep and make them dream. It is active during nights of the new moon."
 	},
 	"hp": 110,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Darkrai",
 		"en": "Darkrai",

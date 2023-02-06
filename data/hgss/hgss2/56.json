@@ -40,7 +40,9 @@
 		95
 	],
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Onix",
 		"fr": "Onix"

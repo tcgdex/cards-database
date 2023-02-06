@@ -59,7 +59,9 @@
 		"de": "Dartignis"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Fiaro",
 		"en": "Talonflame",

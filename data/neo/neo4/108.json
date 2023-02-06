@@ -43,7 +43,9 @@
 		141
 	],
 	"hp": 80,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Shining Kabutops",
 		"fr": "Kabutops brillant"

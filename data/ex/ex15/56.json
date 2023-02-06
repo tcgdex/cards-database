@@ -30,7 +30,9 @@
 		29
 	],
 	"hp": 40,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Nidoran♀ δ",
 		"fr": "Nidoran ♀ δ ESPÈCES DELTA"

@@ -39,7 +39,9 @@
 		"fr": "Racaillou d’Alola"
 	},
 	"hp": 100,
-	"illustrator": "Misa Tsutsui",
+	"illustrator": [
+		"Misa Tsutsui"
+	],
 	"name": {
 		"de": "Alola-Georok",
 		"en": "Alolan Graveler",

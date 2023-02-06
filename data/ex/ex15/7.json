@@ -39,7 +39,9 @@
 		"en": "Nidorina"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Nidoqueen δ",
 		"fr": "Nidoqueen δ ESPÈCES DELTA"

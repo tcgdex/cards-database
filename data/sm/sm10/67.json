@@ -43,7 +43,9 @@
 		92
 	],
 	"hp": 40,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Nebulak",
 		"en": "Gastly",

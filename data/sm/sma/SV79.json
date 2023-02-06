@@ -56,7 +56,9 @@
 		"fr": "Type:0"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Silvally-GX",
 		"fr": "Silvallié-GX"

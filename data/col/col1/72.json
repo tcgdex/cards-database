@@ -36,7 +36,9 @@
 		114
 	],
 	"hp": 70,
-	"illustrator": "Hideaki Hakozaki",
+	"illustrator": [
+		"Hideaki Hakozaki"
+	],
 	"name": {
 		"en": "Tangela",
 		"fr": "Saquedeneu"

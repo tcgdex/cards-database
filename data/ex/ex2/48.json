@@ -37,7 +37,9 @@
 		"en": "Seedot"
 	},
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Nuzleaf",
 		"fr": "Pifeuil"

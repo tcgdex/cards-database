@@ -5,7 +5,9 @@
 		"fr": "Énergie santé fournit de l'Énergie Colorless. Lorsque vous attachez cette carte de votre main à 1 de vos Pokémon, retirez-lui 1 marqueur de dégât."
 	},
 	"energyType": "Special",
-	"illustrator": "Takumi Akabane",
+	"illustrator": [
+		"Takumi Akabane"
+	],
 	"name": {
 		"en": "Health Energy",
 		"fr": "Énergie santé"

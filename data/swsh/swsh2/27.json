@@ -44,7 +44,9 @@
 		"en": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
 	},
 	"hp": 80,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Fukano",
 		"en": "Growlithe",

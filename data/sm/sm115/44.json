@@ -43,7 +43,9 @@
 		144
 	],
 	"hp": 300,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Moltres & Zapdos & Articuno GX",
 		"fr": "Sulfura, Électhor et Artikodin-GX"

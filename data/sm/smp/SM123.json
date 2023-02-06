@@ -53,7 +53,9 @@
 		800
 	],
 	"hp": 130,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Morgenschwingen-Necrozma",
 		"en": "Dawn Wings Necrozma",

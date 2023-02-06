@@ -63,7 +63,9 @@
 		"de": "Dartignis"
 	},
 	"hp": 140,
-	"illustrator": "Tika Matsuno",
+	"illustrator": [
+		"Tika Matsuno"
+	],
 	"name": {
 		"de": "Fiaro",
 		"en": "Talonflame",

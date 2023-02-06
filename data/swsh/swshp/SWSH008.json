@@ -51,7 +51,9 @@
 		"fr": "Miaouss de Galar"
 	},
 	"hp": 120,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Galar-Mauzinger",
 		"en": "Galarian Perrserker",

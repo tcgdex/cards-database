@@ -39,7 +39,9 @@
 		"de": "Thermopod"
 	},
 	"hp": 130,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Infernopod",
 		"en": "Centiskorch",

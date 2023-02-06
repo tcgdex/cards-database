@@ -51,7 +51,9 @@
 		104
 	],
 	"hp": 60,
-	"illustrator": "otumami",
+	"illustrator": [
+		"otumami"
+	],
 	"name": {
 		"de": "Tragosso",
 		"en": "Cubone",

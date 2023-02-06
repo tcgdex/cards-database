@@ -9,7 +9,9 @@
 		"pt": "Durante este turno, os ataques dos seus Pokémon Golpe Decisivo causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente para cada carta de Prêmio que ele(a) pegou (antes de aplicar Fraqueza e Resistência).",
 		"de": "Während dieses Zuges fügen die Attacken deiner Fokussierter-Angriff-Pokémon dem Aktiven Pokémon deines Gegners für jede von deinem Gegner genommene Preiskarte 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Melanies Überzeugung",
 		"en": "Karen's Conviction",

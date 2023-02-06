@@ -21,7 +21,9 @@
 		"en": "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
 	},
 	"hp": 60,
-	"illustrator": "sowsow",
+	"illustrator": [
+		"sowsow"
+	],
 	"name": {
 		"de": "Voltilamm",
 		"en": "Mareep",

@@ -54,7 +54,9 @@
 		572
 	],
 	"hp": 70,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Picochilla",
 		"en": "Minccino",

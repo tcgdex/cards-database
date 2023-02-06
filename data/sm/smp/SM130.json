@@ -54,7 +54,9 @@
 		"fr": "Dynavolt"
 	},
 	"hp": 110,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Voltenso",
 		"en": "Manectric",

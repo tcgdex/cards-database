@@ -66,7 +66,9 @@
 		719
 	],
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Diancie ◇",
 		"en": "Diancie ◇",

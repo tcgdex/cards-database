@@ -22,7 +22,9 @@
 		261
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Fiffyen",
 		"en": "Poochyena",

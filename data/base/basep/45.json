@@ -20,7 +20,9 @@
 		123
 	],
 	"hp": 60,
-	"illustrator": "Hironobu Yoshida",
+	"illustrator": [
+		"Hironobu Yoshida"
+	],
 	"name": {
 		"en": "Scyther"
 	},

@@ -51,7 +51,9 @@
 		227
 	],
 	"hp": 100,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Panzaeron",
 		"en": "Skarmory",

@@ -30,7 +30,9 @@
 		674
 	],
 	"hp": 60,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Pam-Pam",
 		"en": "Pancham",

@@ -31,7 +31,9 @@
 		152
 	],
 	"hp": 40,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Chikorita δ",
 		"fr": "Germignon δ ESPÈCES DELTA"

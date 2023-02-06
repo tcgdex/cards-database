@@ -31,7 +31,9 @@
 		527
 	],
 	"hp": 60,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Fleknoil",
 		"en": "Woobat",

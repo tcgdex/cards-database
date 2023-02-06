@@ -41,7 +41,9 @@
 		"en": "Pineco"
 	},
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Dark Forretress",
 		"fr": "Foretress obscur"

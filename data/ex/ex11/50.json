@@ -37,7 +37,9 @@
 		"en": "Meowth"
 	},
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Persian",
 		"fr": "Persian"

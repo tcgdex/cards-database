@@ -28,7 +28,9 @@
 	"dexId": [
 		465
 	],
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Tangrowth LV. X"
 	},

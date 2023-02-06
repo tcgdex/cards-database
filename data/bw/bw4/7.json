@@ -39,7 +39,9 @@
 		"fr": "Feuillajou"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Vegichita",
 		"en": "Simisage",

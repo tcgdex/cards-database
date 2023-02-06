@@ -39,7 +39,9 @@
 		"de": "Lucario-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M Lucario EX",
 		"en": "M Lucario EX",

@@ -52,7 +52,9 @@
 		"fr": "Riolu"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Lucario",
 		"fr": "Lucario"

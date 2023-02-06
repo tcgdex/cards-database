@@ -39,7 +39,9 @@
 		"fr": "Rémoraid"
 	},
 	"hp": 90,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Octillery",
 		"en": "Octillery",

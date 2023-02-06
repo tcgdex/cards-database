@@ -37,7 +37,9 @@
 		25
 	],
 	"hp": 70,
-	"illustrator": "2017 Pikachu Project",
+	"illustrator": [
+		"2017 Pikachu Project"
+	],
 	"name": {
 		"en": "Ash's Pikachu",
 		"fr": "Pikachu de Sacha"

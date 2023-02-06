@@ -36,7 +36,9 @@
 		"en": "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
 	},
 	"hp": 60,
-	"illustrator": "HYOGONOSUKE",
+	"illustrator": [
+		"HYOGONOSUKE"
+	],
 	"name": {
 		"de": "Remoraid",
 		"en": "Remoraid",

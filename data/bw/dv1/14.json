@@ -36,7 +36,9 @@
 		"fr": "Coupenotte"
 	},
 	"hp": 70,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Fraxure",
 		"fr": "Incisache"

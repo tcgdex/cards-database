@@ -43,7 +43,9 @@
 		"fr": "Elektek"
 	},
 	"hp": 100,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Electivire",
 		"fr": "Elekable"

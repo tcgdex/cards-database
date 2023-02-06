@@ -33,7 +33,9 @@
 		287
 	],
 	"hp": 70,
-	"illustrator": "OKACHEKE",
+	"illustrator": [
+		"OKACHEKE"
+	],
 	"name": {
 		"de": "Bummelz",
 		"en": "Slakoth",

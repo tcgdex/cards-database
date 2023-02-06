@@ -38,7 +38,9 @@
 		386
 	],
 	"hp": 90,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Deoxys Normal Forme",
 		"fr": "Deoxys Forme Normale"

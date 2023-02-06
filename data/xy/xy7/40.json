@@ -46,7 +46,9 @@
 		377
 	],
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Regirock",
 		"en": "Regirock",

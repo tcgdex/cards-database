@@ -58,7 +58,9 @@
 		"de": "Nincada"
 	},
 	"hp": 30,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Ninjatom",
 		"en": "Shedinja",

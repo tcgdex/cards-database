@@ -42,7 +42,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 200,
-	"illustrator": "PLANETA Mochizuki",
+	"illustrator": [
+		"PLANETA Mochizuki"
+	],
 	"name": {
 		"de": "Togekiss V",
 		"en": "Togekiss V",

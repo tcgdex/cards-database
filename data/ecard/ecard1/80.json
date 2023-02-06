@@ -40,7 +40,9 @@
 		"en": "Gastly"
 	},
 	"hp": 70,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Haunter",
 		"fr": "Spectrum"

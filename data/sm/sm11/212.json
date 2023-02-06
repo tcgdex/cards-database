@@ -10,7 +10,9 @@
 		"de": "Diese Karte liefert Colorless-Energie.\n\nWenn diese Karte aus dem Spiel genommen wird und auf deinen Ablagestapel gelegt würde, nimm sie stattdessen auf deine Hand."
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Wiederverwertungsenergie",
 		"en": "Recycle Energy",

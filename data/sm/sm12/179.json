@@ -44,7 +44,9 @@
 		694
 	],
 	"hp": 60,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Eguana",
 		"en": "Helioptile",

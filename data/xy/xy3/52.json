@@ -52,7 +52,9 @@
 		"de": "Makuhita"
 	},
 	"hp": 120,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Hariyama",
 		"en": "Hariyama",

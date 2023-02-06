@@ -58,7 +58,9 @@
 		"fr": "Rondoudou"
 	},
 	"hp": 120,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Knuddeluff",
 		"en": "Wigglytuff",

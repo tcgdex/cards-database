@@ -22,7 +22,9 @@
 		511
 	],
 	"hp": 60,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Pansage",
 		"fr": "Feuillajou"

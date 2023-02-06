@@ -53,7 +53,9 @@
 		"de": "Sodamak"
 	},
 	"hp": 100,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Sodachita",
 		"en": "Simipour",

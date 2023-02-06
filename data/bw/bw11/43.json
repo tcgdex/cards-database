@@ -33,7 +33,9 @@
 		646
 	],
 	"hp": 130,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Kyurem"
 	},

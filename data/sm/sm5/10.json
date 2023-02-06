@@ -29,7 +29,9 @@
 		420
 	],
 	"hp": 50,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Kikugi",
 		"en": "Cherubi",

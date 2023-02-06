@@ -34,7 +34,9 @@
 		446
 	],
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Munchlax",
 		"fr": "Goinfrex Niv. 15"

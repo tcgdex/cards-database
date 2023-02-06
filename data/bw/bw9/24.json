@@ -21,7 +21,9 @@
 		535
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Schallquap",
 		"en": "Tympole",

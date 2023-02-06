@@ -43,7 +43,9 @@
 		"fr": "Voltorbe"
 	},
 	"hp": 80,
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Electrode",
 		"fr": "Electrode"

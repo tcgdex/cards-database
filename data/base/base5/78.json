@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin du prochain tour de votre adversaire."
 	},
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Goop Gas Attack",
 		"fr": "Attaque au gaz gluant"

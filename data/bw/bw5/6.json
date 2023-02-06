@@ -35,7 +35,9 @@
 		"en": "Eevee"
 	},
 	"hp": 90,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Folipurba",
 		"en": "Leafeon",

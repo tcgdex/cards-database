@@ -43,7 +43,9 @@
 		"fr": "Cornebre"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Honchkrow",
 		"fr": "Corboss"

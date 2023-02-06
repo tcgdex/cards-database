@@ -42,7 +42,9 @@
 		"en": "Kadabra"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Alakazam",
 		"fr": "Alakazam"

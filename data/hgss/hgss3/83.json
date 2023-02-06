@@ -40,7 +40,9 @@
 		"fr": "Pikachu"
 	},
 	"hp": 100,
-	"illustrator": "Takashi Yamaguchi",
+	"illustrator": [
+		"Takashi Yamaguchi"
+	],
 	"name": {
 		"en": "Raichu",
 		"fr": "Raichu"

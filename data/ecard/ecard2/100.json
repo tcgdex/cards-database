@@ -32,7 +32,9 @@
 		231
 	],
 	"hp": 40,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Phanpy",
 		"fr": "Phanpy"

@@ -33,7 +33,9 @@
 		201
 	],
 	"hp": 40,
-	"illustrator": "Hideki Kazama",
+	"illustrator": [
+		"Hideki Kazama"
+	],
 	"name": {
 		"en": "Unown [J]",
 		"fr": "Zarbi J"

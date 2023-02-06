@@ -43,7 +43,9 @@
 		"en": "Slakoth"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Vigoroth",
 		"fr": "Vigoroth"

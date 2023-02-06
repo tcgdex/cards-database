@@ -43,7 +43,9 @@
 		703
 	],
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Rocara",
 		"en": "Carbink",

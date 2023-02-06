@@ -63,7 +63,9 @@
 		"de": "Seejong"
 	},
 	"hp": 150,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Walraisa",
 		"en": "Walrein",

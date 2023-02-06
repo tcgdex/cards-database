@@ -63,7 +63,9 @@
 		"de": "Alpollo"
 	},
 	"hp": 110,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Gengar",
 		"en": "Gengar",

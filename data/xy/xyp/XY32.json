@@ -40,7 +40,9 @@
 		717
 	],
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Yveltal",
 		"fr": "Yveltal"

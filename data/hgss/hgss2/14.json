@@ -44,7 +44,9 @@
 		"fr": "Nosferalto"
 	},
 	"hp": 110,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Crobat",
 		"fr": "Nostenfer"

@@ -1,7 +1,9 @@
 {
 	"$schema": "../../../meta/definitions/card.schema.json",
 	"category": "Trainer",
-	"illustrator": "Sumiyoshi Kizuki",
+	"illustrator": [
+		"Sumiyoshi Kizuki"
+	],
 	"name": {
 		"en": "Tropical Wind"
 	},

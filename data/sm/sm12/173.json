@@ -44,7 +44,9 @@
 		335
 	],
 	"hp": 100,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Sengo",
 		"en": "Zangoose",

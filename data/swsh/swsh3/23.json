@@ -53,7 +53,9 @@
 		"de": "Flemmli"
 	},
 	"hp": 90,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Jungglut",
 		"en": "Combusken",

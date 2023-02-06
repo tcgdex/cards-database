@@ -52,7 +52,9 @@
 		"de": "Dakuma"
 	},
 	"hp": 140,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Fließender-Angriff-Wulaosu",
 		"en": "Rapid Strike Urshifu",

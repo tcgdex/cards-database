@@ -9,7 +9,9 @@
 		"pt": "Embaralhe a mão no seu baralho e jogue uma moeda. Se sair cara, compre 7 cards. Se sair coroa, compre 4 cards.",
 		"de": "Mische deine Handkarten in dein Deck und wirf 1 Münze. Ziehe bei \"Kopf\" 7 Karten. Ziehe bei \"Zahl\" 4 Karten."
 	},
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Prof. Birks Beobachtungen",
 		"en": "Professor Birch's Observations",

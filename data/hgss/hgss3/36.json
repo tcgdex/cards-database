@@ -25,7 +25,9 @@
 		123
 	],
 	"hp": 60,
-	"illustrator": "Wataru Kawahara/Direc. Shinji Higuchi",
+	"illustrator": [
+		"Wataru Kawahara/Direc. Shinji Higuchi"
+	],
 	"name": {
 		"en": "Scyther",
 		"fr": "Insecateur"

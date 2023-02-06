@@ -50,7 +50,9 @@
 		701
 	],
 	"hp": 70,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Resladero",
 		"en": "Hawlucha",

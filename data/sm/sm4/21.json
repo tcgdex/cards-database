@@ -60,7 +60,9 @@
 		"fr": "Cochignon"
 	},
 	"hp": 180,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Mamutel",
 		"en": "Mamoswine",

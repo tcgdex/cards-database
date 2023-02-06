@@ -49,7 +49,9 @@
 		"fr": "Nosferapti"
 	},
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Golbat",
 		"en": "Golbat",

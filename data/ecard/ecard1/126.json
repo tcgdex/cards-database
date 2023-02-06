@@ -31,7 +31,9 @@
 		77
 	],
 	"hp": 40,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Ponyta",
 		"fr": "Ponyta"

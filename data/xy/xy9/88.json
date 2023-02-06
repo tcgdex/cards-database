@@ -57,7 +57,9 @@
 		"de": "Rattfratz"
 	},
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Rattikarl",
 		"en": "Raticate",

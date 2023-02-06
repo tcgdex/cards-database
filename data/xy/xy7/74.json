@@ -9,7 +9,9 @@
 		"pt": "O Pokémon Grass de cada jogador poderá evoluir durante a sua primeira vez de jogar ou na vez em que jogar este Pokémon.",
 		"de": "Die Grass-Pokémon beider Spieler können sich während des ersten Zuges eines Spielers oder während des Zuges, an dem ein Spieler diese Pokémon spielt, entwickeln."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Wald der großen Gewächse",
 		"en": "Forest of Giant Plants",

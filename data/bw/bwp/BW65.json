@@ -21,7 +21,9 @@
 		39
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Jigglypuff",
 		"fr": "Rondoudou"

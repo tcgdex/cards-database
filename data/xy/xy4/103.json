@@ -9,7 +9,9 @@
 		"pt": "Jogue uma moeda. Se sair cara, compre 3 cards.",
 		"de": "Wirf 1 Münze. Ziehe bei \"Kopf\" 3 Karten."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rollerskates",
 		"en": "Roller Skates",

@@ -40,7 +40,9 @@
 		"fr": "Colombeau"
 	},
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Fasasnob",
 		"en": "Unfezant",

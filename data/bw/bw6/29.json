@@ -22,7 +22,9 @@
 		363
 	],
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Seemops",
 		"en": "Spheal",

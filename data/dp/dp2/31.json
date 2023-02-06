@@ -42,7 +42,9 @@
 		"en": "Nidorina"
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Nidoqueen",
 		"fr": "Nidoqueen"

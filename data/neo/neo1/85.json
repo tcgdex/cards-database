@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Lancez une pièce. Si c'est face, mélangez jusqu'à 2 cartes Énergie de votre pile de défausse dans votre deck."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"en": "Energy Charge",
 		"fr": "Charge d'Énergie"

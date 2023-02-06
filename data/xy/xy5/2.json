@@ -29,7 +29,9 @@
 		"de": "Hornliu"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Kokuna",
 		"en": "Kakuna",

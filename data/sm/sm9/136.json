@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada tiver um custo de Recuo de exatamente 4, receberá 50 PS a mais.",
 		"de": "Wenn das Pokémon, an das diese Karte angelegt ist, Rückzugskosten von genau 4 hat, erhält es 50 KP mehr."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Dicke Polster",
 		"en": "Buff Padding",

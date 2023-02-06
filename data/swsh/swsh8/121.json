@@ -16,7 +16,9 @@
 		"en": "It eats dreams and releases mist. The mist is pink when it's eating a good dream, and black when it's eating a nightmare."
 	},
 	"hp": 80,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Somniam",
 		"en": "Munna",

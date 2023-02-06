@@ -33,7 +33,9 @@
 		"fr": "Grenousse"
 	},
 	"hp": 80,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Amphizel",
 		"en": "Frogadier",

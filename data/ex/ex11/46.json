@@ -35,7 +35,9 @@
 		"en": "Weedle"
 	},
 	"hp": 60,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Kakuna",
 		"fr": "Coconfort"

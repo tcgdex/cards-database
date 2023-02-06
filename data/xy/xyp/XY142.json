@@ -36,7 +36,9 @@
 		482
 	],
 	"hp": 70,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"en": "Azelf",
 		"fr": "Créfadet"

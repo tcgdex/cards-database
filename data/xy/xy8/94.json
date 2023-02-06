@@ -52,7 +52,9 @@
 		717
 	],
 	"hp": 130,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Yveltal",
 		"en": "Yveltal",

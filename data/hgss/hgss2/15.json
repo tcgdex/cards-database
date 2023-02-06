@@ -41,7 +41,9 @@
 		"fr": "Piafabec"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Fearow",
 		"fr": "Rapasdepic"

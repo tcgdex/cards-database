@@ -33,7 +33,9 @@
 		336
 	],
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Seviper",
 		"fr": "Seviper"

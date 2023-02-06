@@ -53,7 +53,9 @@
 		"en": "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Flunkifer",
 		"en": "Mawile",

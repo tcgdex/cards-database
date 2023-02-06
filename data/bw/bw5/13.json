@@ -34,7 +34,9 @@
 		244
 	],
 	"hp": 180,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"de": "Entei-EX",
 		"en": "Entei-EX",

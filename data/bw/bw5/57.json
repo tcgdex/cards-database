@@ -39,7 +39,9 @@
 		"en": "Drilbur"
 	},
 	"hp": 120,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Stalobor",
 		"en": "Excadrill",

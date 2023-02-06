@@ -20,7 +20,9 @@
 		41
 	],
 	"hp": 50,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Zubat",
 		"fr": "Nosferapti"

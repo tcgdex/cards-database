@@ -49,7 +49,9 @@
 		"en": "Gloom"
 	},
 	"hp": 100,
-	"illustrator": "Yuka Morii",
+	"illustrator": [
+		"Yuka Morii"
+	],
 	"name": {
 		"en": "Bellossom",
 		"fr": "Joliflor"

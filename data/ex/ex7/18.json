@@ -35,7 +35,9 @@
 		"en": "Sandshrew"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Dark Sandslash"
 	},

@@ -35,7 +35,9 @@
 		"en": "Kadabra"
 	},
 	"hp": 100,
-	"illustrator": "Kimiya Masago",
+	"illustrator": [
+		"Kimiya Masago"
+	],
 	"name": {
 		"en": "Alakazam"
 	},

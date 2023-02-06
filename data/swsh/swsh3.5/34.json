@@ -40,7 +40,9 @@
 		"fr": "Abo"
 	},
 	"hp": 120,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Arbok",
 		"en": "Arbok",

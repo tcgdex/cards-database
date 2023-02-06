@@ -9,7 +9,9 @@
 		"pt": "Descarte a sua mão e compre 7 cartas.",
 		"de": "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
 	},
-	"illustrator": "KIYOTAKA OSHIYAMA",
+	"illustrator": [
+		"KIYOTAKA OSHIYAMA"
+	],
 	"name": {
 		"de": "Forschung des Professors (Prof. Eich)",
 		"en": "Professor's Research (Professor Oak)",

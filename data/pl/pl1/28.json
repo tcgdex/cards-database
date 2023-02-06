@@ -34,7 +34,9 @@
 		487
 	],
 	"hp": 110,
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Giratina",
 		"fr": "Giratina"

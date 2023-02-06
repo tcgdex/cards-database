@@ -23,7 +23,9 @@
 	"description": {
 		"en": "Born on a cold seafloor, it will swim great distances to return to its birthplace."
 	},
-	"illustrator": "Daisuke Ito",
+	"illustrator": [
+		"Daisuke Ito"
+	],
 	"name": {
 		"en": "Manaphy"
 	},

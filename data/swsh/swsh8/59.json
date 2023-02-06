@@ -37,7 +37,9 @@
 		"de": "Marill"
 	},
 	"hp": 120,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Azumarill",
 		"en": "Azumarill",

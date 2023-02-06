@@ -51,7 +51,9 @@
 		"fr": "Rocabot"
 	},
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Lycanroc-GX",
 		"fr": "Lougaroc-GX"

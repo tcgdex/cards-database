@@ -40,7 +40,9 @@
 		643
 	],
 	"hp": 180,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Reshiram-EX",
 		"fr": "Reshiram ex"

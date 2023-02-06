@@ -54,7 +54,9 @@
 		643
 	],
 	"hp": 270,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Reshiram & Zekrom GX",
 		"en": "Reshiram & Zekrom GX",

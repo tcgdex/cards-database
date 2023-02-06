@@ -9,7 +9,9 @@
 		"pt": "Escolha um card de Ferramenta Pokémon ou Energia Especial ligado ao Pokémon em jogo (seu ou do seu oponente) e descarte-o.",
 		"de": "Wähle 1 Pokémon-Ausrüstung oder 1 Spezial-Energiekarte, die an 1 Pokémon im Spiel angelegt ist (an deine oder die deines Gegners), und lege sie auf den Ablagestapel."
 	},
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Xeros",
 		"en": "Xerosic",

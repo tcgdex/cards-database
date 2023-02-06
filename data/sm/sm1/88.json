@@ -53,7 +53,9 @@
 		227
 	],
 	"hp": 110,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Panzaeron",
 		"en": "Skarmory",

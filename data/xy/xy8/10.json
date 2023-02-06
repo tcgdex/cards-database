@@ -54,7 +54,9 @@
 		"de": "Igamaro"
 	},
 	"hp": 90,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Igastarnish",
 		"en": "Quilladin",

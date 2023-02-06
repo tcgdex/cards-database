@@ -33,7 +33,9 @@
 		644
 	],
 	"hp": 120,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"en": "Zekrom",
 		"fr": "Zekrom"

@@ -53,7 +53,9 @@
 		"fr": "Ningale"
 	},
 	"hp": 40,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Ninjatom",
 		"en": "Shedinja",

@@ -28,7 +28,9 @@
 		548
 	],
 	"hp": 50,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Lilminip",
 		"en": "Petilil",

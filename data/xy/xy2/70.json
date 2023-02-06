@@ -47,7 +47,9 @@
 		621
 	],
 	"hp": 110,
-	"illustrator": "Ryota Murayama",
+	"illustrator": [
+		"Ryota Murayama"
+	],
 	"name": {
 		"de": "Shardrago",
 		"en": "Druddigon",

@@ -41,7 +41,9 @@
 		"en": "Slugma"
 	},
 	"hp": 60,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Dark Magcargo",
 		"fr": "Volcaropod obscur"

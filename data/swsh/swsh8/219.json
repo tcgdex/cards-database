@@ -19,7 +19,9 @@
 		"en": "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents."
 	},
 	"hp": 60,
-	"illustrator": "OKACHEKE",
+	"illustrator": [
+		"OKACHEKE"
+	],
 	"name": {
 		"de": "Meikro",
 		"en": "Rookidee",

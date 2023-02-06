@@ -9,7 +9,9 @@
 		"pt": "Cure 80 pontos de dano de 1 dos seus Pokémon que tiver alguma Energia Grass ligada a ele.",
 		"de": "Heile 80 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 1 Grass-Energie angelegt ist."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Silvana",
 		"en": "Gardenia",

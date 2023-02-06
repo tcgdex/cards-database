@@ -22,7 +22,9 @@
 		165
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Ledyba",
 		"en": "Ledyba",

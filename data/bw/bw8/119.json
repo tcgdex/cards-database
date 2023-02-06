@@ -9,7 +9,9 @@
 		"pt": "Procure em seu baralho um card de Energia de Plasma e ligue-o a 1 dos seus Pokémon da Equipe Plasma. Em seguida, embaralhe seus cards.",
 		"de": "Durchsuche dein Deck nach einer Plasma-Energiekarte und lege sie an 1 deiner Team-Plasma-Pokémon an. Mische anschließend dein Deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Achromat",
 		"en": "Colress Machine",

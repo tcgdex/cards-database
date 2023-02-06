@@ -50,7 +50,9 @@
 		50
 	],
 	"hp": 40,
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Digda",
 		"en": "Diglett",

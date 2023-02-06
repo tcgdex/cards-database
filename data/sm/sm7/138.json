@@ -9,7 +9,9 @@
 		"pt": "Jogue 3 moedas. Para cada cara, coloque 1 Pokémon de Evolução da sua pilha de descarte na sua mão.",
 		"de": "Wirf 3 Münzen. Nimm pro Kopf 1 Entwicklungs-Pokémon aus deinem Ablagestapel auf deine Hand."
 	},
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"de": "Köderball",
 		"en": "Lure Ball",

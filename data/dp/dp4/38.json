@@ -36,7 +36,9 @@
 		"fr": "Coquiperl"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Gorebyss",
 		"fr": "Rosabyss"

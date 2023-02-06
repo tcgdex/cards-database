@@ -57,7 +57,9 @@
 		"fr": "Leveinard"
 	},
 	"hp": 160,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Heiteira",
 		"en": "Blissey",

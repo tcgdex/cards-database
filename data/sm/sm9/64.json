@@ -52,7 +52,9 @@
 		"fr": "Osselait"
 	},
 	"hp": 120,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Alola-Knogga",
 		"en": "Alolan Marowak",

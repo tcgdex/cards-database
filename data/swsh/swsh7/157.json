@@ -9,7 +9,9 @@
 		"pt": "Uma vez durante o turno de cada jogador, aquele jogador poderá colocar 1 Ferramenta Pokémon ligada a 1 dos próprios Pokémon na própria mão.",
 		"de": "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Pokémon-Ausrüstung, die an 1 seiner Pokémon angelegt ist, auf seine Hand nehmen."
 	},
-	"illustrator": "Oswaldo KATO",
+	"illustrator": [
+		"Oswaldo KATO"
+	],
 	"name": {
 		"de": "Shoppingcenter",
 		"en": "Shopping Center",

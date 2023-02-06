@@ -9,7 +9,9 @@
 		"pt": "Compre 1 carta. Em seguida, compre 2 cartas para cada uma das outras Whitney na sua pilha de descarte.",
 		"de": "Ziehe 1 Karte. Ziehe anschließend 2 Karten für jede andere Bianka-Karte in deinem Ablagestapel."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Bianka",
 		"en": "Whitney",

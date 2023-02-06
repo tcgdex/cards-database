@@ -9,7 +9,9 @@
 		"pt": "Coloque tantas Energias ligadas aos seus Pokémon quanto desejar em sua mão.",
 		"de": "Nimm beliebig viele an deine Pokémon angelegten Energien auf deine Hand."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Energierückstellung",
 		"en": "Energy Reset",

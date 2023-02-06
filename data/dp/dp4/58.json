@@ -34,7 +34,9 @@
 		320
 	],
 	"hp": 90,
-	"illustrator": "Satoshi Ohta",
+	"illustrator": [
+		"Satoshi Ohta"
+	],
 	"name": {
 		"en": "Wailmer",
 		"fr": "Wailmer"

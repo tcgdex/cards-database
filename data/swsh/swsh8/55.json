@@ -16,7 +16,9 @@
 		"en": "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful."
 	},
 	"hp": 70,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Karnimani",
 		"en": "Totodile",

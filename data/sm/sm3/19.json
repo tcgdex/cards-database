@@ -42,7 +42,9 @@
 		"fr": "Salamèche"
 	},
 	"hp": 90,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Glutexo",
 		"en": "Charmeleon",

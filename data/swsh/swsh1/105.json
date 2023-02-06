@@ -39,7 +39,9 @@
 		749
 	],
 	"hp": 80,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Pampuli",
 		"en": "Mudbray",

@@ -23,7 +23,9 @@
 		146
 	],
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Blaine's Moltres"
 	},

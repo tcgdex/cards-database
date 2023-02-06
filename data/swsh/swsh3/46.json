@@ -37,7 +37,9 @@
 		"de": "Gelatini"
 	},
 	"hp": 80,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Gelatroppo",
 		"en": "Vanillish",

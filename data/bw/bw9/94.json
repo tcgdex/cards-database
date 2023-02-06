@@ -41,7 +41,9 @@
 		352
 	],
 	"hp": 70,
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Kecleon",
 		"en": "Kecleon",

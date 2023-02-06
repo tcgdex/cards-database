@@ -52,7 +52,9 @@
 		"fr": "Phanpy"
 	},
 	"hp": 150,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Donphan",
 		"en": "Donphan",

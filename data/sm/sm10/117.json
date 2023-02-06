@@ -56,7 +56,9 @@
 		"fr": "Croâporal"
 	},
 	"hp": 130,
-	"illustrator": "Yusuke Ohmura",
+	"illustrator": [
+		"Yusuke Ohmura"
+	],
 	"name": {
 		"de": "Quajutsu",
 		"en": "Greninja",

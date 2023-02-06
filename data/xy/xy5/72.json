@@ -59,7 +59,9 @@
 		"de": "Tentacha"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Tentoxa",
 		"en": "Tentacruel",

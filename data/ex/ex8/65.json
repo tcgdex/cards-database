@@ -36,7 +36,9 @@
 		296
 	],
 	"hp": 50,
-	"illustrator": "Asuka Iwashita",
+	"illustrator": [
+		"Asuka Iwashita"
+	],
 	"name": {
 		"en": "Makuhita",
 		"fr": "Makuhita"

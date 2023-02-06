@@ -47,7 +47,9 @@
 		"fr": "Picassaut"
 	},
 	"hp": 80,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Trompeck",
 		"en": "Trumbeak",

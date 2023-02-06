@@ -9,7 +9,9 @@
 		"pt": "Procure por 1 carta de Item e por 1 carta de Energia Lightning no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Durchsuche dein Deck nach 1 Itemkarte und 1 Lightning-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Volkner",
 		"en": "Volkner",

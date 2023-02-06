@@ -37,7 +37,9 @@
 		382
 	],
 	"hp": 190,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"en": "Team Aqua's Kyogre EX",
 		"fr": "Kyogre-EX de la Team Aqua"

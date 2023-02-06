@@ -62,7 +62,9 @@
 		251
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Celebi ◇",
 		"en": "Celebi ◇",

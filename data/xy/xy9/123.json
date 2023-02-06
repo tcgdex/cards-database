@@ -53,7 +53,9 @@
 		130
 	],
 	"hp": 180,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Garados EX",
 		"en": "Gyarados EX",

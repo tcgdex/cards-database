@@ -27,7 +27,9 @@
 	"dexId": [
 		412
 	],
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Burmy Plant Cloak"
 	},

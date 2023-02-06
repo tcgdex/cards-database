@@ -35,7 +35,9 @@
 		"en": "Kabuto"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Kabutops"
 	},

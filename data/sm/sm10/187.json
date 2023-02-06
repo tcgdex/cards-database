@@ -9,7 +9,9 @@
 		"pt": "Coloque 1 carta da pilha de descarte do seu oponente na mão dele(a).",
 		"de": "Gib deinem Gegner 1 Karte aus seinem Ablagestapel auf seine Hand."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Überraschungskiste",
 		"en": "Surprise Box",

@@ -52,7 +52,9 @@
 		765
 	],
 	"hp": 120,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Kommandutan",
 		"en": "Oranguru",

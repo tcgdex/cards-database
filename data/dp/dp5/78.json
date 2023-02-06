@@ -31,7 +31,9 @@
 		387
 	],
 	"hp": 60,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Turtwig",
 		"fr": "Tortipouss"

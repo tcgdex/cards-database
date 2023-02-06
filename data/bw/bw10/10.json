@@ -36,7 +36,9 @@
 		649
 	],
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Genesect",
 		"en": "Genesect",

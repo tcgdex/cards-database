@@ -44,7 +44,9 @@
 		"en": "Armor Fossil"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Shieldon",
 		"fr": "Dinoclier"

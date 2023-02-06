@@ -38,7 +38,9 @@
 		"en": "Taillow"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Swellow",
 		"fr": "Heledelle"

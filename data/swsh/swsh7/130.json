@@ -55,7 +55,9 @@
 		"de": "Bummelz"
 	},
 	"hp": 90,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Muntier",
 		"en": "Vigoroth",

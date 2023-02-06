@@ -57,7 +57,9 @@
 		"en": "Toxel"
 	},
 	"hp": 120,
-	"illustrator": "Hideki Ishikawa",
+	"illustrator": [
+		"Hideki Ishikawa"
+	],
 	"name": {
 		"de": "Riffex",
 		"en": "Toxtricity",

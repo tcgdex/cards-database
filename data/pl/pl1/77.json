@@ -31,7 +31,9 @@
 		430
 	],
 	"hp": 80,
-	"illustrator": "Yusuke Ishikawa",
+	"illustrator": [
+		"Yusuke Ishikawa"
+	],
 	"name": {
 		"en": "Honchkrow G",
 		"fr": "Corboss "

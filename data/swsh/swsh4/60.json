@@ -46,7 +46,9 @@
 		"en": "When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings."
 	},
 	"hp": 130,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Zekrom",
 		"en": "Zekrom",

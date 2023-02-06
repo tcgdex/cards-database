@@ -73,7 +73,9 @@
 		103
 	],
 	"hp": 270,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Bauz & Alola-Kokowei GX",
 		"en": "Rowlet & Alolan Exeggutor GX",

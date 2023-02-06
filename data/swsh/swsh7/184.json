@@ -43,7 +43,9 @@
 		700
 	],
 	"hp": 200,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Feelinara V",
 		"en": "Sylveon V",

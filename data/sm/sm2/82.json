@@ -52,7 +52,9 @@
 		"fr": "Pandespiègle"
 	},
 	"hp": 130,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Pandagro",
 		"en": "Pangoro",

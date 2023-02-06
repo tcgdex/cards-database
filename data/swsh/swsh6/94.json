@@ -30,7 +30,9 @@
 		"en": "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now."
 	},
 	"hp": 70,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Smogon",
 		"en": "Koffing",

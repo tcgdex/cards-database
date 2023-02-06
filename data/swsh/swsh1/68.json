@@ -46,7 +46,9 @@
 		170
 	],
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Lampi",
 		"en": "Chinchou",

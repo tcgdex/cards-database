@@ -43,7 +43,9 @@
 		"fr": "Snubbull"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Granbull",
 		"fr": "Granbull"

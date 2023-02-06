@@ -34,7 +34,9 @@
 		25
 	],
 	"hp": 60,
-	"illustrator": "Illus. & Direc. The Pokémon Company Art Team",
+	"illustrator": [
+		"Illus. & Direc. The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Special Delivery Pikachu",
 		"pt": "Special Delivery Pikachu"

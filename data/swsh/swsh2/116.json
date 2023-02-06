@@ -50,7 +50,9 @@
 		"en": "It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago."
 	},
 	"hp": 60,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Kryppuk",
 		"en": "Spiritomb",

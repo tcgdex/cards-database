@@ -60,7 +60,9 @@
 		"de": "Wattzapf"
 	},
 	"hp": 80,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Voltula",
 		"en": "Galvantula",

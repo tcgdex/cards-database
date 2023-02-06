@@ -21,7 +21,9 @@
 		104
 	],
 	"hp": 60,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"en": "Cubone",
 		"fr": "Osselait"

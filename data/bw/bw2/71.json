@@ -18,7 +18,9 @@
 		597
 	],
 	"hp": 50,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Kastadur",
 		"en": "Ferroseed",

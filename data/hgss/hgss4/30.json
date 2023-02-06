@@ -44,7 +44,9 @@
 		"fr": "Carvanha"
 	},
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"en": "Sharpedo",
 		"fr": "Sharpedo"

@@ -21,7 +21,9 @@
 		"en": "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
 	},
 	"hp": 60,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Dartiri",
 		"en": "Fletchling",

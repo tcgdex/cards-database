@@ -47,7 +47,9 @@
 		"fr": "Psykokwak"
 	},
 	"hp": 90,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Entoron",
 		"en": "Golduck",

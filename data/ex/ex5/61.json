@@ -30,7 +30,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Feebas",
 		"fr": "Barpau"

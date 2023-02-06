@@ -39,7 +39,9 @@
 		"fr": "Vieil Ambre"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Aerodactyl",
 		"fr": "Ptera"

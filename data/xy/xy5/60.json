@@ -50,7 +50,9 @@
 		309
 	],
 	"hp": 50,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Frizelbliz",
 		"en": "Electrike",

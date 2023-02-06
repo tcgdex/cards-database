@@ -56,7 +56,9 @@
 		"fr": "Darumarond"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Flampivian",
 		"en": "Darmanitan",

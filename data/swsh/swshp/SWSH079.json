@@ -35,7 +35,9 @@
 		"en": "Galarian Mr. Mime"
 	},
 	"hp": 120,
-	"illustrator": "KEIICHIRO ITO",
+	"illustrator": [
+		"KEIICHIRO ITO"
+	],
 	"name": {
 		"en": "Galarian Mr. Rime"
 	},

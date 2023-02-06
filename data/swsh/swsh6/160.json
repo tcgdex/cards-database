@@ -48,7 +48,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 190,
-	"illustrator": "PLANETA Tsuji",
+	"illustrator": [
+		"PLANETA Tsuji"
+	],
 	"name": {
 		"de": "Celebi V",
 		"en": "Celebi V",

@@ -49,7 +49,9 @@
 		338
 	],
 	"hp": 90,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"de": "Sonnfel",
 		"en": "Solrock",

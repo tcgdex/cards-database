@@ -28,7 +28,9 @@
 		"fr": "Métalosse-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Metagross EX",
 		"fr": "M Métalosse EX"

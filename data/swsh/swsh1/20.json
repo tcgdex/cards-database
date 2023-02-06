@@ -45,7 +45,9 @@
 		829
 	],
 	"hp": 50,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Cottini",
 		"en": "Gossifleur",

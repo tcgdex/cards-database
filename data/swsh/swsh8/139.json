@@ -42,7 +42,9 @@
 		"de": "Onix"
 	},
 	"hp": 190,
-	"illustrator": "Ryuta Fuse",
+	"illustrator": [
+		"Ryuta Fuse"
+	],
 	"name": {
 		"de": "Stahlos",
 		"en": "Steelix",

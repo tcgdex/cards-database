@@ -44,7 +44,9 @@
 		741
 	],
 	"hp": 90,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Choreogel",
 		"en": "Oricorio",

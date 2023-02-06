@@ -46,7 +46,9 @@
 		"fr": "Bombydou"
 	},
 	"hp": 60,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Bandelby",
 		"en": "Ribombee",

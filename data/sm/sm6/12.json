@@ -52,7 +52,9 @@
 		"fr": "Osselait"
 	},
 	"hp": 120,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Alola-Knogga",
 		"en": "Alolan Marowak",

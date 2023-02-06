@@ -51,7 +51,9 @@
 		"en": "These intelligent Pokémon touch horns with each other to share information between them."
 	},
 	"hp": 100,
-	"illustrator": "Saya Tsuruta",
+	"illustrator": [
+		"Saya Tsuruta"
+	],
 	"name": {
 		"de": "Servol",
 		"en": "Indeedee",

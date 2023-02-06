@@ -27,7 +27,9 @@
 	"description": {
 		"en": "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
-	"illustrator": "The Pokémon Company Art Team",
+	"illustrator": [
+		"The Pokémon Company Art Team"
+	],
 	"name": {
 		"en": "Eevee on the Ball"
 	},

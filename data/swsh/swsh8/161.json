@@ -39,7 +39,9 @@
 		"de": "Galar-Geradaks"
 	},
 	"hp": 170,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Galar-Barrikadax",
 		"en": "Galarian Obstagoon",

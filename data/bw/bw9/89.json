@@ -35,7 +35,9 @@
 		133
 	],
 	"hp": 60,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

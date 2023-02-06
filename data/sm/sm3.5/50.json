@@ -43,7 +43,9 @@
 		559
 	],
 	"hp": 60,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Zurrokex",
 		"en": "Scraggy",

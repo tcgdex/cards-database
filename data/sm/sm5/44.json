@@ -52,7 +52,9 @@
 		"fr": "Élektek"
 	},
 	"hp": 140,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Elevoltek",
 		"en": "Electivire",

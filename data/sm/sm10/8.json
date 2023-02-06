@@ -56,7 +56,9 @@
 		"fr": "Ortide"
 	},
 	"hp": 140,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Giflor",
 		"en": "Vileplume",

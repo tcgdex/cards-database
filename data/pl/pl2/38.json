@@ -36,7 +36,9 @@
 		65
 	],
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Alakazam 4",
 		"fr": "Alakazam  Niv. 56"

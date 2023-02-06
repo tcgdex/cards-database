@@ -38,7 +38,9 @@
 		"en": "Spinarak"
 	},
 	"hp": 70,
-	"illustrator": "Shin-ichi Yoshida",
+	"illustrator": [
+		"Shin-ichi Yoshida"
+	],
 	"name": {
 		"en": "Ariados",
 		"fr": "Migalos"

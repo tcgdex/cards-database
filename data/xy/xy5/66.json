@@ -36,7 +36,9 @@
 		29
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Nidoran♀",
 		"en": "Nidoran♀",

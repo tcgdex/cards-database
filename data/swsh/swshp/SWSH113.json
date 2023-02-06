@@ -34,7 +34,9 @@
 		"en": "Drizzile"
 	},
 	"hp": 150,
-	"illustrator": "AKIRA EGAWA",
+	"illustrator": [
+		"AKIRA EGAWA"
+	],
 	"name": {
 		"en": "Inteleon"
 	},

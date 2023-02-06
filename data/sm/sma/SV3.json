@@ -40,7 +40,9 @@
 		"fr": "Brindibou"
 	},
 	"hp": 80,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"en": "Dartrix",
 		"fr": "Efflèche"

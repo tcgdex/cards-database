@@ -44,7 +44,9 @@
 		"fr": "Tylton"
 	},
 	"hp": 70,
-	"illustrator": "HiRON",
+	"illustrator": [
+		"HiRON"
+	],
 	"name": {
 		"de": "Altaria",
 		"en": "Altaria",

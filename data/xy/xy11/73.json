@@ -60,7 +60,9 @@
 		"de": "Kliklak"
 	},
 	"hp": 140,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"de": "Klikdiklak",
 		"en": "Klinklang",

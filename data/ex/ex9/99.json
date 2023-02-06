@@ -36,7 +36,9 @@
 		377
 	],
 	"hp": 110,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Regirock ex",
 		"fr": "Regirock ex"

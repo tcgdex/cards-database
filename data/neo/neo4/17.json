@@ -42,7 +42,9 @@
 		"en": "Spinarak"
 	},
 	"hp": 60,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Dark Ariados",
 		"fr": "Migalos obscur"

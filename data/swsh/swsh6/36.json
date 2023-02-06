@@ -59,7 +59,9 @@
 		"de": "Schneppke"
 	},
 	"hp": 90,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Frosdedje",
 		"en": "Froslass",

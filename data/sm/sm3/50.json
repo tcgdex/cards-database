@@ -52,7 +52,9 @@
 		336
 	],
 	"hp": 100,
-	"illustrator": "Eri Yamaki",
+	"illustrator": [
+		"Eri Yamaki"
+	],
 	"name": {
 		"de": "Vipitis",
 		"en": "Seviper",

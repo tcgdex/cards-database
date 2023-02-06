@@ -57,7 +57,9 @@
 		"fr": "Miamiasme"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Deponitox",
 		"en": "Garbodor",

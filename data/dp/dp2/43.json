@@ -38,7 +38,9 @@
 		"en": "Skull Fossil"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Cranidos",
 		"fr": "Kranidos"

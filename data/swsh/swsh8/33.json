@@ -38,7 +38,9 @@
 		"de": "Fukano"
 	},
 	"hp": 130,
-	"illustrator": "Yuu Nishida",
+	"illustrator": [
+		"Yuu Nishida"
+	],
 	"name": {
 		"de": "Arkani",
 		"en": "Arcanine",

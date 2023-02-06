@@ -34,7 +34,9 @@
 		338
 	],
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Solrock",
 		"fr": "Solaroc"

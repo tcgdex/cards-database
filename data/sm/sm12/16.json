@@ -55,7 +55,9 @@
 		"fr": "Vivaldaim"
 	},
 	"hp": 100,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Kronjuwild",
 		"en": "Sawsbuck",

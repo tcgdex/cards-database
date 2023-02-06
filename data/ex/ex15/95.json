@@ -36,7 +36,9 @@
 		380
 	],
 	"hp": 100,
-	"illustrator": "Shizurow",
+	"illustrator": [
+		"Shizurow"
+	],
 	"name": {
 		"en": "Latias ex δ",
 		"fr": "Latias ex δ"

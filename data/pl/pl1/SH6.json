@@ -46,7 +46,9 @@
 		37
 	],
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Vulpix",
 		"fr": "Goupix"

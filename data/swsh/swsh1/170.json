@@ -9,7 +9,9 @@
 		"pt": "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon Metal no Banco.",
 		"de": "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an 1 Metal-Pokémon auf deiner Bank an."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Metallplatte",
 		"en": "Metal Saucer",

@@ -27,7 +27,9 @@
 		"fr": "Poichigeon"
 	},
 	"hp": 80,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Navitaub",
 		"en": "Tranquill",

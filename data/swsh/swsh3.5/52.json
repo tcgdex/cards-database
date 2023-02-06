@@ -9,7 +9,9 @@
 		"pt": "Olhe as 7 cartas de cima do seu baralho. Você poderá revelar 1 Pokémon que encontrar lá e colocá-lo em sua mão. Embaralhe as demais cartas de volta no seu baralho.",
 		"de": "Schau dir die obersten 7 Karten deines Decks an. Du kannst 1 Pokémon, das du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Superball",
 		"en": "Great Ball",

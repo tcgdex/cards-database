@@ -20,7 +20,9 @@
 		333
 	],
 	"hp": 40,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Swablu"
 	},

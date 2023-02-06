@@ -35,7 +35,9 @@
 		211
 	],
 	"hp": 70,
-	"illustrator": "Kenkichi Toyama",
+	"illustrator": [
+		"Kenkichi Toyama"
+	],
 	"name": {
 		"en": "Qwilfish",
 		"fr": "Qwilfish"

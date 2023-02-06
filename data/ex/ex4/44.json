@@ -35,7 +35,9 @@
 		54
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Psyduck",
 		"fr": "Psykokwak"

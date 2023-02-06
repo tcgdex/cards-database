@@ -60,7 +60,9 @@
 		"de": "Nidorino"
 	},
 	"hp": 150,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Nidoking",
 		"en": "Nidoking",

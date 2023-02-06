@@ -21,7 +21,9 @@
 		175
 	],
 	"hp": 40,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Togepi",
 		"en": "Togepi",

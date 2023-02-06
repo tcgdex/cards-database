@@ -36,7 +36,9 @@
 		393
 	],
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Plinfa",
 		"en": "Piplup",

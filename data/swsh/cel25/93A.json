@@ -29,7 +29,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 150,
-	"illustrator": "Masahiko Ishii",
+	"illustrator": [
+		"Masahiko Ishii"
+	],
 	"name": {
 		"en": "Gardevoir ex"
 	},

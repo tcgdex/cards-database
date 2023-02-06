@@ -36,7 +36,9 @@
 		641
 	],
 	"hp": 110,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Tornadus",
 		"fr": "Boréas"

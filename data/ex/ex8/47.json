@@ -46,7 +46,9 @@
 		338
 	],
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Solrock",
 		"fr": "Solaroc"

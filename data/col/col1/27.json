@@ -36,7 +36,9 @@
 		"en": "Bayleef"
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"en": "Meganium"
 	},

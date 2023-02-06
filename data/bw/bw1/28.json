@@ -22,7 +22,9 @@
 		501
 	],
 	"hp": 60,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Ottaro",
 		"en": "Oshawott",

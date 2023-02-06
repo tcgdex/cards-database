@@ -9,7 +9,9 @@
 		"pt": "Jogue esse card como se ele fosse um Pokémon Básico Colorless com 30 de PS. A qualquer momento durante sua vez de jogar (antes de atacar), você pode descartar esse card do jogo. Esse card não pode recuar. Se este card for Nocauteado, seu oponente não poderá receber cards de Prêmio por ele.",
 		"de": "Spiele diese Karte, als sei sie ein Colorless-Basis-Pokémon mit 30 KP. Du kannst diese Karte zu einem beliebigen Zeitpunkt während deines Zuges (vor deinem Angriff) aus dem Spiel nehmen und auf den Ablagestapel legen. Diese Karte kann sich nicht zurückziehen. Wenn diese Karte kampfunfähig wird, darf dein Gegner dafür keine Preiskarte nehmen."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Robo-Ersatz Team Flare-Zubehör",
 		"en": "Robo Substitute Team Flare Gear",

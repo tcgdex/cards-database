@@ -9,7 +9,9 @@
 		"pt": "Procure em seu baralho um Pokémon que evolua de 1 dos seus Pokémon e coloque-o naquele Pokémon. (Isso conta como evoluir esse Pokémon.) Em seguida, embaralhe seus cards. Você não poderá usar esse card em sua primeira vez de jogar ou em um Pokémon que foi colocado em jogo na vez de jogar atual.",
 		"de": "Durchsuche dein Deck nach 1 Karte, zu der sich 1 deiner Pokémon entwickelt, und lege sie auf das entsprechende Pokémon. (Dies zählt als Entwicklung des Pokémon.) Mische anschließend dein Deck. Du kannst diese Karte nicht während deines ersten Zuges oder für ein Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Evobrause",
 		"en": "Evosoda",

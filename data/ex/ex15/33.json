@@ -37,7 +37,9 @@
 		"en": "Ralts"
 	},
 	"hp": 70,
-	"illustrator": "Kyoko Umemoto",
+	"illustrator": [
+		"Kyoko Umemoto"
+	],
 	"name": {
 		"en": "Kirlia δ",
 		"fr": "Kirlia δ ESPÈCES DELTA"

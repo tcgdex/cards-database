@@ -21,7 +21,9 @@
 		595
 	],
 	"hp": 30,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Wattzapf",
 		"en": "Joltik",

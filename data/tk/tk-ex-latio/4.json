@@ -15,7 +15,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Magnemite"
 	},

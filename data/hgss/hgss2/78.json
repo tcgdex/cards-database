@@ -6,7 +6,9 @@
 		"en": "Each player shuffles his or her hand into his or her deck and draws 4 cards."
 	},
 	"hp": 0,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Judge",
 		"fr": "Juge"

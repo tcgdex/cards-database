@@ -41,7 +41,9 @@
 		449
 	],
 	"hp": 100,
-	"illustrator": "Yuya Oka",
+	"illustrator": [
+		"Yuya Oka"
+	],
 	"name": {
 		"de": "Hippopotas",
 		"en": "Hippopotas",

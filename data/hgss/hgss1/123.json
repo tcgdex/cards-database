@@ -41,7 +41,9 @@
 		"fr": "Magicarpe"
 	},
 	"hp": 130,
-	"illustrator": "Wataru Kawahara",
+	"illustrator": [
+		"Wataru Kawahara"
+	],
 	"name": {
 		"en": "Gyarados",
 		"fr": "Léviator"

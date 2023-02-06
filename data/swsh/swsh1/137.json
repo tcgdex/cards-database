@@ -65,7 +65,9 @@
 		"de": "Kupfanti"
 	},
 	"hp": 190,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Patinaraja",
 		"en": "Copperajah",

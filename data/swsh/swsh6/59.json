@@ -28,7 +28,9 @@
 		"en": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
 	},
 	"hp": 60,
-	"illustrator": "Narumi Sato",
+	"illustrator": [
+		"Narumi Sato"
+	],
 	"name": {
 		"de": "Trasla",
 		"en": "Ralts",

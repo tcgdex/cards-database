@@ -31,7 +31,9 @@
 		54
 	],
 	"hp": 50,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Psyduck"
 	},

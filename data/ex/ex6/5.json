@@ -38,7 +38,9 @@
 		"en": "Exeggcute"
 	},
 	"hp": 80,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"en": "Exeggutor",
 		"fr": "Noadkoko"

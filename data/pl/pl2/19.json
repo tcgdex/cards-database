@@ -49,7 +49,9 @@
 		"fr": "Evoli"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Flareon",
 		"fr": "Pyroli Niv. 38"

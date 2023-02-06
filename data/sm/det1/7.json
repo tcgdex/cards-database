@@ -29,7 +29,9 @@
 		54
 	],
 	"hp": 80,
-	"illustrator": "Framestore",
+	"illustrator": [
+		"Framestore"
+	],
 	"name": {
 		"de": "Enton",
 		"en": "Psyduck",

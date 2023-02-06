@@ -41,7 +41,9 @@
 		"en": "Haunter"
 	},
 	"hp": 150,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Gengar ex",
 		"fr": "Ectoplasma ex"

@@ -39,7 +39,9 @@
 		"fr": "Ratentif"
 	},
 	"hp": 90,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Kukmarda",
 		"en": "Watchog",

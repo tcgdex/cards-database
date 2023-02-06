@@ -51,7 +51,9 @@
 		"en": "Shelgon"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Salamence",
 		"fr": "Drattak"

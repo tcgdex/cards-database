@@ -29,7 +29,9 @@
 		582
 	],
 	"hp": 50,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Gelatini",
 		"en": "Vanillite",

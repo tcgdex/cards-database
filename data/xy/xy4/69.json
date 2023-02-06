@@ -60,7 +60,9 @@
 		"de": "Flauschling"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Sabbaione",
 		"en": "Slurpuff",

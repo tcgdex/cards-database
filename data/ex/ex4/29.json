@@ -38,7 +38,9 @@
 		310
 	],
 	"hp": 80,
-	"illustrator": "K. Utsunomiya",
+	"illustrator": [
+		"K. Utsunomiya"
+	],
 	"name": {
 		"en": "Team Aqua's Manectric",
 		"fr": "Elecsprint de Team Aqua"

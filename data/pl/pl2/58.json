@@ -34,7 +34,9 @@
 		318
 	],
 	"hp": 40,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Carvanha",
 		"fr": "Carvanha Niv. 13"

@@ -29,7 +29,9 @@
 		722
 	],
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Bauz",
 		"en": "Rowlet",

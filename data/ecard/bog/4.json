@@ -28,7 +28,9 @@
 		}
 	],
 	"category": "Pokemon",
-	"illustrator": "K. Hoshiba",
+	"illustrator": [
+		"K. Hoshiba"
+	],
 	"name": {
 		"en": "Rocket’s Scizor"
 	},

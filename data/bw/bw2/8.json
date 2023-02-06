@@ -37,7 +37,9 @@
 		"fr": "Couverdure"
 	},
 	"hp": 130,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Matrifol",
 		"en": "Leavanny",

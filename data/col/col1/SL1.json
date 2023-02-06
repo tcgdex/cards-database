@@ -23,7 +23,9 @@
 		386
 	],
 	"hp": 80,
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"en": "Deoxys",
 		"fr": "Deoxys"

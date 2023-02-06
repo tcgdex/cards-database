@@ -50,7 +50,9 @@
 		"fr": "Fossile Rare"
 	},
 	"hp": 130,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Lecryodon",
 		"en": "Arctozolt",

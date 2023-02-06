@@ -44,7 +44,9 @@
 		418
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Bamelin",
 		"en": "Buizel",

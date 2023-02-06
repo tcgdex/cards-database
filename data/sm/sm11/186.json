@@ -9,7 +9,9 @@
 		"pt": "Coloque um Pokémon da sua mão virado para baixo na sua frente e diga o nome de um ataque dele ao seu oponente. Seu oponente adivinha o nome daquele Pokémon e você o revela. Se o seu oponente acertar, ele(a) comprará 4 cartas. Se o seu oponente errar, você comprará 4 cartas. Devolva o Pokémon à sua mão.",
 		"de": "Lege ein Pokémon aus deiner Hand verdeckt vor dir ab und sage deinem Gegner den Namen einer Attacke jenes Pokémon. Dein Gegner rät den Namen jenes Pokémon und anschließend zeigst du es ihm. Wenn dein Gegner richtig geraten hat, zieht er 4 Karten. Wenn er falsch geraten hat, ziehst du 4 Karten. Nimm das Pokémon zurück auf deine Hand."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Pyros Quizshow",
 		"en": "Blaine’s Quiz Show",

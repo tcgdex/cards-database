@@ -9,7 +9,9 @@
 		"pt": "Os ataques do Pokémon ao qual este card está ligado custam Colorless a mais.\n\nQuando esse card for removido de um Pokémon por um motivo qualquer, coloque-o na pilha de descarte do seu dono.",
 		"de": "Die Kosten der Angriffe des Pokémon, an das diese Karte angelegt ist, erhöhen sich um Colorless.\n\nLege diese Karte auf den Ablagestapel des Besitzers, wenn diese Karte aus irgendeinem Grund von einem Pokémon entfernt wird."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Kopfgeschirr Team Flare-Superzubehör",
 		"en": "Head Ringer Team Flare Hyper Gear",

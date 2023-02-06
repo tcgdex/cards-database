@@ -31,7 +31,9 @@
 		250
 	],
 	"hp": 130,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"de": "Ho-Oh",
 		"en": "Ho-Oh",

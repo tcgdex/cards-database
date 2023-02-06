@@ -41,7 +41,9 @@
 		"en": "Eevee"
 	},
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Jolteon",
 		"fr": "Voltali"

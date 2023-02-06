@@ -33,7 +33,9 @@
 		172
 	],
 	"hp": 40,
-	"illustrator": "Nakaoka",
+	"illustrator": [
+		"Nakaoka"
+	],
 	"name": {
 		"en": "Pichu",
 		"fr": "Pichu"

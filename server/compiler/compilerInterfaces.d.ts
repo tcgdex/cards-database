@@ -1,6 +1,6 @@
-import { Card, Serie, Set, SupportedLanguages } from '../../interfaces'
+import { Card, Serie, Set, SupportedLanguages } from '../../meta/definitions/database'
 
-export type FileFunction = (lang: SupportedLanguages, data: DataTree) => Promise<any>
+export type FileFunction = (lang: SupportedLanguages) => Promise<any>
 
 export interface FetchedFile {
 	path: string

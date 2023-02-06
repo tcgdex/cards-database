@@ -35,7 +35,9 @@
 		349
 	],
 	"hp": 30,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Feebas",
 		"fr": "Barpau"

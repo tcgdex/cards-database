@@ -9,7 +9,9 @@
 		"pt": "Embaralhe sua mão em seu baralho. Em seguida, compre 5 cards.",
 		"de": "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Sannah",
 		"en": "Shauna",

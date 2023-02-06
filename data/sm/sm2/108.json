@@ -56,7 +56,9 @@
 		"fr": "Ratentif"
 	},
 	"hp": 90,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Kukmarda",
 		"en": "Watchog",

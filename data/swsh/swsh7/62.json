@@ -61,7 +61,9 @@
 		"de": "Traumato"
 	},
 	"hp": 110,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"de": "Hypno",
 		"en": "Hypno",

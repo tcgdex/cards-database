@@ -19,7 +19,9 @@
 		"en": "Phantump"
 	},
 	"hp": 110,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Trevenant"
 	},

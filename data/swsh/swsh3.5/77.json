@@ -9,7 +9,9 @@
 		"pt": "Embaralhe a sua mão no seu baralho. Em seguida, compre 4 cartas. Se o seu Pokémon Ativo for o seu único Pokémon em jogo, compre 8 cartas ao invés de 4.",
 		"de": "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn dein Aktives Pokémon dein einziges Pokémon im Spiel ist, ziehe stattdessen 8 Karten."
 	},
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Kabu",
 		"en": "Kabu",

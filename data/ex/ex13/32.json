@@ -32,7 +32,9 @@
 		336
 	],
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Seviper",
 		"fr": "Seviper"

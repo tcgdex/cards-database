@@ -58,7 +58,9 @@
 		"fr": "Machopeur"
 	},
 	"hp": 170,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Machomei",
 		"en": "Machamp",

@@ -40,7 +40,9 @@
 		"en": "Wartortle"
 	},
 	"hp": 100,
-	"illustrator": "Hiromichi Sugiyama",
+	"illustrator": [
+		"Hiromichi Sugiyama"
+	],
 	"name": {
 		"en": "Blastoise",
 		"fr": "Tortank"

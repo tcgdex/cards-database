@@ -54,7 +54,9 @@
 		"fr": "Téraclope"
 	},
 	"hp": 160,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Zwirrfinst",
 		"en": "Dusknoir",

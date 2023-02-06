@@ -48,7 +48,9 @@
 		"en": "Marshtomp"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Swampert",
 		"fr": "Laggron"

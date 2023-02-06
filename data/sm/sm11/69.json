@@ -42,7 +42,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Kapu-Riki",
 		"en": "Tapu Koko",

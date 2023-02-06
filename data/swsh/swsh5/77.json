@@ -52,7 +52,9 @@
 		"de": "Lin-Fu"
 	},
 	"hp": 90,
-	"illustrator": "Taira Akitsu",
+	"illustrator": [
+		"Taira Akitsu"
+	],
 	"name": {
 		"de": "Wie-Shu",
 		"en": "Mienshao",

@@ -59,7 +59,9 @@
 		"de": "Arktip"
 	},
 	"hp": 150,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Arktilas",
 		"en": "Avalugg",

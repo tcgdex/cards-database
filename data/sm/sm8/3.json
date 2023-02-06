@@ -30,7 +30,9 @@
 		123
 	],
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Sichlor",
 		"en": "Scyther",

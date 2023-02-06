@@ -9,7 +9,9 @@
 		"pt": "Olhe as 3 primeiras cartas do seu baralho. Você poderá revelar 1 carta de Pokémon ou Energia que encontrar lá e colocá-la na sua mão. Coloque as demais cartas de volta em qualquer ordem.",
 		"de": "Schau dir die obersten 3 Karten deines Decks an. Du kannst 1 Pokémon oder 1 Energiekarte, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Lege die anderen Karten in beliebiger Reihenfolge zurück auf dein Deck."
 	},
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"de": "PokéNav",
 		"en": "PokéNav",

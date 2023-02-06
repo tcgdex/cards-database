@@ -9,7 +9,9 @@
 		"pt": "Enquanto o Pokémon ao qual esta carta está ligada estiver no Campo Ativo, Ferramentas Pokémon ligadas ao Pokémon Ativo do seu oponente não têm efeito, exceto por Bloqueador de Ferramentas.",
 		"de": "Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, haben an das Aktive Pokémon deines Gegners angelegte Pokémon-Ausrüstungen keinen Effekt, außer Ausrüstungsstörer."
 	},
-	"illustrator": "inose yukie",
+	"illustrator": [
+		"inose yukie"
+	],
 	"name": {
 		"de": "Ausrüstungsstörer",
 		"en": "Tool Jammer",

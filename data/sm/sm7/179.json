@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon ao qual esta carta está ligada tiver PS restante de 30 ou menos e tiver algum contador de dano nele, seus ataques causarão 60 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		"de": "Wenn die verbleibenden KP des Pokémon, an das diese Karte angelegt ist, 30 oder weniger betragen und auf ihm mindestens 1 Schadensmarke liegt, fügen die Attacken dieses Pokémon dem Aktiven Pokémon deines Gegners 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "Yoshinobu Saito",
+	"illustrator": [
+		"Yoshinobu Saito"
+	],
 	"name": {
 		"de": "Notgürtel",
 		"en": "Hustle Belt",

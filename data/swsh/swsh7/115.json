@@ -58,7 +58,9 @@
 		"de": "Duodino"
 	},
 	"hp": 170,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Trikephalo",
 		"en": "Hydreigon",

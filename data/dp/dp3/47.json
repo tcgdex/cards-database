@@ -35,7 +35,9 @@
 		"fr": "Kokiyas"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Cloyster",
 		"fr": "Crustabri"

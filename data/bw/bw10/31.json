@@ -17,7 +17,9 @@
 		602
 	],
 	"hp": 30,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Zapplardin",
 		"en": "Tynamo",

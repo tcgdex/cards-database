@@ -44,7 +44,9 @@
 		54
 	],
 	"hp": 60,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Enton",
 		"en": "Psyduck",

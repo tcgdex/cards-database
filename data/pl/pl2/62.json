@@ -32,7 +32,9 @@
 		472
 	],
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Gliscor 4",
 		"fr": "Scorvol  Niv. 53"

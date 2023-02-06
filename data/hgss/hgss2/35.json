@@ -35,7 +35,9 @@
 		322
 	],
 	"hp": 60,
-	"illustrator": "Hajime Kusajima",
+	"illustrator": [
+		"Hajime Kusajima"
+	],
 	"name": {
 		"en": "Numel",
 		"fr": "Chamallot"

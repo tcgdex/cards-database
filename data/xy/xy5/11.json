@@ -44,7 +44,9 @@
 		"de": "Loturzel"
 	},
 	"hp": 80,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Lombrero",
 		"en": "Lombre",

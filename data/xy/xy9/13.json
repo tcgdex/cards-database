@@ -54,7 +54,9 @@
 		"de": "Camaub"
 	},
 	"hp": 130,
-	"illustrator": "Shigenori Negishi",
+	"illustrator": [
+		"Shigenori Negishi"
+	],
 	"name": {
 		"de": "Camerupt",
 		"en": "Camerupt",

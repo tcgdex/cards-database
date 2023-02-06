@@ -35,7 +35,9 @@
 		492
 	],
 	"hp": 70,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Shaymin",
 		"en": "Shaymin",

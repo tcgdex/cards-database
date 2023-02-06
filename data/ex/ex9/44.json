@@ -21,7 +21,9 @@
 		331
 	],
 	"hp": 50,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Cacnea",
 		"fr": "Cacnea"

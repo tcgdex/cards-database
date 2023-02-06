@@ -39,7 +39,9 @@
 		"de": "Ohrdoch-EX"
 	},
 	"hp": 220,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "M-Ohrdoch EX",
 		"en": "M Audino EX",

@@ -49,7 +49,9 @@
 		"en": "Slugma"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Magcargo",
 		"fr": "Volcaropod"

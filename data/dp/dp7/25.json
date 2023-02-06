@@ -54,7 +54,9 @@
 		"fr": "Insécateur"
 	},
 	"hp": 100,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Scizor",
 		"fr": "Cizayox"

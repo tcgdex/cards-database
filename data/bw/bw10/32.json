@@ -36,7 +36,9 @@
 		"fr": "Anchwatt"
 	},
 	"hp": 80,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Zapplalek",
 		"en": "Eelektrik",

@@ -9,7 +9,9 @@
 		"pt": "Os ataques do Zacian V ao qual esta carta está ligada causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		"de": "Die Attacken des Zacian-V, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Rostiges Schwert",
 		"en": "Rusted Sword",

@@ -47,7 +47,9 @@
 		"fr": "Togepi"
 	},
 	"hp": 80,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"de": "Togetic",
 		"en": "Togetic",

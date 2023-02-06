@@ -44,7 +44,9 @@
 		"en": "Geodude"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Graveler",
 		"fr": "Gravalanch"

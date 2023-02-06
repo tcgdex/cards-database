@@ -28,7 +28,9 @@
 		677
 	],
 	"hp": 60,
-	"illustrator": "0313",
+	"illustrator": [
+		"0313"
+	],
 	"name": {
 		"de": "Psiau",
 		"en": "Espurr",

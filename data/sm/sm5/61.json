@@ -32,7 +32,9 @@
 		"fr": "Cosmog"
 	},
 	"hp": 90,
-	"illustrator": "Sanosuke Sakuma",
+	"illustrator": [
+		"Sanosuke Sakuma"
+	],
 	"name": {
 		"de": "Cosmovum",
 		"en": "Cosmoem",

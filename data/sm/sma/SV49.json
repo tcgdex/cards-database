@@ -56,7 +56,9 @@
 		"fr": "Reptincel"
 	},
 	"hp": 250,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Charizard-GX",
 		"fr": "Dracaufeu-GX"

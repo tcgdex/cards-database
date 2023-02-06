@@ -21,7 +21,9 @@
 		86
 	],
 	"hp": 80,
-	"illustrator": "Hasuno",
+	"illustrator": [
+		"Hasuno"
+	],
 	"name": {
 		"de": "Jurob",
 		"en": "Seel",

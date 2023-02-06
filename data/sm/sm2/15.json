@@ -44,7 +44,9 @@
 		757
 	],
 	"hp": 70,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Molunk",
 		"en": "Salandit",

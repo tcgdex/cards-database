@@ -56,7 +56,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 200,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Espeon-GX",
 		"fr": "Mentali-GX"

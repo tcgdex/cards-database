@@ -49,7 +49,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 190,
-	"illustrator": "Saki Hayashiro",
+	"illustrator": [
+		"Saki Hayashiro"
+	],
 	"name": {
 		"de": "Victini V",
 		"en": "Victini V",

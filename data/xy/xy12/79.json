@@ -9,7 +9,9 @@
 		"pt": "Embaralhe 2 cards da sua mão em seu baralho. (Se você não puder embaralhar 2 cards em seu baralho, não poderá jogar esse card.) Em seguida, compre um card.",
 		"de": "Mische 2 Karten von deiner Hand in dein Deck. (Wenn du keine 2 Karten in dein Deck mischen kannst, kannst du diese Karte nicht spielen.) Ziehe anschließend 1 Karte."
 	},
-	"illustrator": "Keiji Kinebuchi",
+	"illustrator": [
+		"Keiji Kinebuchi"
+	],
 	"name": {
 		"de": "Wartung",
 		"en": "Maintenance",

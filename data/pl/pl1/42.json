@@ -40,7 +40,9 @@
 		"fr": "Cacnea"
 	},
 	"hp": 90,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Cacturne",
 		"fr": "Cacturne"

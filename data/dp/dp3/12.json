@@ -42,7 +42,9 @@
 		"fr": "Excelangue"
 	},
 	"hp": 110,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Lickilicky",
 		"fr": "Coudlangue"

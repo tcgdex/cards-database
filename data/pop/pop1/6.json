@@ -41,7 +41,9 @@
 		"en": "Silcoon"
 	},
 	"hp": 100,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Beautifly",
 		"fr": "Charmillon"

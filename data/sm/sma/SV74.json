@@ -48,7 +48,9 @@
 		805
 	],
 	"hp": 180,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "Stakataka-GX",
 		"fr": "Ama-Ama-GX"

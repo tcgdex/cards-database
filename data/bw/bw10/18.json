@@ -22,7 +22,9 @@
 		223
 	],
 	"hp": 60,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"de": "Remoraid",
 		"en": "Remoraid",

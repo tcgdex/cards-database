@@ -37,7 +37,9 @@
 		"de": "Psiana-V"
 	},
 	"hp": 310,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Psiana VMAX",
 		"en": "Espeon VMAX",

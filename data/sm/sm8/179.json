@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Em seguida, jogue 1 moeda. Se sair cara, se você jogou esta Kahili da sua mão, coloque esta carta na sua mão ao invés de colocá-la na pilha de descarte. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
 		"de": "Ziehe 2 Karten. Wirf anschließend 1 Münze. Lege bei Kopf, wenn du diese Kahili-Karte aus deiner Hand gespielt hast, diese Karte nicht auf deinen Ablagestapel, sondern nimm sie auf deine Hand. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Kahili",
 		"en": "Kahili",

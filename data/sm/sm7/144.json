@@ -9,7 +9,9 @@
 		"pt": "Previne todos os efeitos dos ataques do oponente, incluindo dano, causados aos Pokémon no Banco (seus e do seu oponente).",
 		"de": "Verhindere alle Effekte von Attacken deines Gegners, einschließlich Schaden, die Pokémon auf der Bank (deiner und der deines Gegners) zugefügt werden."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Himmelturm",
 		"en": "Sky Pillar",

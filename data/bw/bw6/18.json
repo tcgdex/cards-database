@@ -20,7 +20,9 @@
 		37
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Vulpix",
 		"en": "Vulpix",

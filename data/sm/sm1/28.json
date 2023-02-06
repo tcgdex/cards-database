@@ -28,7 +28,9 @@
 		54
 	],
 	"hp": 70,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Enton",
 		"en": "Psyduck",

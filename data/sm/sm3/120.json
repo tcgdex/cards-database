@@ -9,7 +9,9 @@
 		"pt": "Descarte 2 cartas da sua mão. Se fizer isto, descarte 1 Energia de 1 dos Pokémon do seu oponente.",
 		"de": "Lege 2 Karten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, lege 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 	},
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Fran",
 		"en": "Plumeria",

@@ -20,7 +20,9 @@
 		574
 	],
 	"hp": 50,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"en": "Gothita"
 	},

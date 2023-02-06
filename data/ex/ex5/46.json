@@ -49,7 +49,9 @@
 		"en": "Rhyhorn"
 	},
 	"hp": 90,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Rhydon",
 		"fr": "Rhinoferos"

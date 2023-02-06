@@ -43,7 +43,9 @@
 		757
 	],
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Molunk",
 		"en": "Salandit",

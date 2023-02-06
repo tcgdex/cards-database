@@ -36,7 +36,9 @@
 		"en": "Luxio"
 	},
 	"hp": 120,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"en": "Luxray"
 	},

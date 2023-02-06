@@ -44,7 +44,9 @@
 		561
 	],
 	"hp": 90,
-	"illustrator": "Ayaka Yoshida",
+	"illustrator": [
+		"Ayaka Yoshida"
+	],
 	"name": {
 		"de": "Symvolara",
 		"en": "Sigilyph",

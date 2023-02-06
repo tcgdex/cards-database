@@ -28,7 +28,9 @@
 		43
 	],
 	"hp": 60,
-	"illustrator": "Yumi",
+	"illustrator": [
+		"Yumi"
+	],
 	"name": {
 		"de": "Myrapla",
 		"en": "Oddish",

@@ -41,7 +41,9 @@
 		"en": "Magikarp"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Gyarados",
 		"fr": "Leviator"

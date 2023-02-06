@@ -40,7 +40,9 @@
 		"fr": "Barpau"
 	},
 	"hp": 110,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Milotic",
 		"en": "Milotic",

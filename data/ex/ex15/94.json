@@ -54,7 +54,9 @@
 		"en": "Seadra"
 	},
 	"hp": 140,
-	"illustrator": "Masahiko Ishii",
+	"illustrator": [
+		"Masahiko Ishii"
+	],
 	"name": {
 		"en": "Kingdra ex δ",
 		"fr": "Hyporoi ex δ"

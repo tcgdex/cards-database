@@ -40,7 +40,9 @@
 		"de": "Puppance"
 	},
 	"hp": 120,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Lepumentas",
 		"en": "Claydol",

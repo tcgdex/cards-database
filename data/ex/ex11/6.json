@@ -53,7 +53,9 @@
 		"en": "Kirlia"
 	},
 	"hp": 100,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Gardevoir δ",
 		"fr": "Gardevoir δ ESPÈCES DELTA"

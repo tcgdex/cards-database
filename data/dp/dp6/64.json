@@ -41,7 +41,9 @@
 		"fr": "Terhal"
 	},
 	"hp": 80,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Metang",
 		"fr": "Metang"

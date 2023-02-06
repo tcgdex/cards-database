@@ -36,7 +36,9 @@
 		"en": "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
 	},
 	"hp": 70,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Stollunior",
 		"en": "Aron",

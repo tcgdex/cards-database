@@ -64,7 +64,9 @@
 		"de": "Igastarnish"
 	},
 	"hp": 160,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Brigaron",
 		"en": "Chesnaught",

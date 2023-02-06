@@ -28,7 +28,9 @@
 		200
 	],
 	"hp": 60,
-	"illustrator": "so-taro",
+	"illustrator": [
+		"so-taro"
+	],
 	"name": {
 		"de": "Traunfugil",
 		"en": "Misdreavus",

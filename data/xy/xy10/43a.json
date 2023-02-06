@@ -52,7 +52,9 @@
 		377
 	],
 	"hp": 180,
-	"illustrator": "PLANETA",
+	"illustrator": [
+		"PLANETA"
+	],
 	"name": {
 		"de": "Regirock EX",
 		"en": "Regirock EX",

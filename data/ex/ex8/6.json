@@ -54,7 +54,9 @@
 		"en": "Corphish"
 	},
 	"hp": 70,
-	"illustrator": "Tomoko Wakai",
+	"illustrator": [
+		"Tomoko Wakai"
+	],
 	"name": {
 		"en": "Crawdaunt",
 		"fr": "Colhomard"

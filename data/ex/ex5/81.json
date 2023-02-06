@@ -30,7 +30,9 @@
 		37
 	],
 	"hp": 50,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Vulpix",
 		"fr": "Goupix"

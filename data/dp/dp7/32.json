@@ -50,7 +50,9 @@
 		"fr": "Keunotor"
 	},
 	"hp": 100,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Bibarel",
 		"fr": "Castorno"

@@ -55,7 +55,9 @@
 		"fr": "Spododo"
 	},
 	"hp": 100,
-	"illustrator": "Suwama Chiaki",
+	"illustrator": [
+		"Suwama Chiaki"
+	],
 	"name": {
 		"de": "Lamellux",
 		"en": "Shiinotic",

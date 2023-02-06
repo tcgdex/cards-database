@@ -30,7 +30,9 @@
 		"de": "Zorua"
 	},
 	"hp": 100,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Zoroark",
 		"en": "Zoroark",

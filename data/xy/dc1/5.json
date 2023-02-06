@@ -41,7 +41,9 @@
 		"fr": "Phogleur de la Team Aqua"
 	},
 	"hp": 140,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"en": "Team Aqua's Walrein",
 		"fr": "Kaimorse de la Team Aqua"

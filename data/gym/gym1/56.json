@@ -36,7 +36,9 @@
 		"en": "Staryu"
 	},
 	"hp": 80,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Misty's Starmie"
 	},

@@ -42,7 +42,9 @@
 		"en": "Dragonair"
 	},
 	"hp": 90,
-	"illustrator": "Toshinao Aoki",
+	"illustrator": [
+		"Toshinao Aoki"
+	],
 	"name": {
 		"en": "Dragonite",
 		"fr": "Dragonite"

@@ -38,7 +38,9 @@
 		"en": "Shieldon"
 	},
 	"hp": 130,
-	"illustrator": "Kazuyuki Kano",
+	"illustrator": [
+		"Kazuyuki Kano"
+	],
 	"name": {
 		"en": "Bastiodon"
 	},

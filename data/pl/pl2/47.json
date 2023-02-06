@@ -27,7 +27,9 @@
 		78
 	],
 	"hp": 70,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Rapidash 4",
 		"fr": "Galopa  Niv. 53"

@@ -35,7 +35,9 @@
 		"fr": "Psykokwak"
 	},
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Entoron",
 		"en": "Golduck",

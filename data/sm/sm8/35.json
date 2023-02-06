@@ -43,7 +43,9 @@
 		672
 	],
 	"hp": 70,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Mähikel",
 		"en": "Skiddo",

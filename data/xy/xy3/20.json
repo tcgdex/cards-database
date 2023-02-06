@@ -54,7 +54,9 @@
 		537
 	],
 	"hp": 180,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Branawarz EX",
 		"en": "Seismitoad EX",

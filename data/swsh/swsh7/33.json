@@ -33,7 +33,9 @@
 		"de": "Loturzel"
 	},
 	"hp": 90,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Lombrero",
 		"en": "Lombre",

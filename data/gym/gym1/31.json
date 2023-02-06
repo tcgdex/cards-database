@@ -25,7 +25,9 @@
 		"en": "Poliwhirl"
 	},
 	"hp": 90,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"en": "Misty's Poliwrath"
 	},

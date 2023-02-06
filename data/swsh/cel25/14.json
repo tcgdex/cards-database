@@ -39,7 +39,9 @@
 		"de": "Cosmog"
 	},
 	"hp": 90,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Cosmovum",
 		"en": "Cosmoem",

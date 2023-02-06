@@ -20,7 +20,9 @@
 		498
 	],
 	"hp": 70,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Tepig"
 	},

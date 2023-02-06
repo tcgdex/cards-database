@@ -53,7 +53,9 @@
 		127
 	],
 	"hp": 100,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Pinsir",
 		"en": "Pinsir",

@@ -36,7 +36,9 @@
 		"en": "Fraxure"
 	},
 	"hp": 140,
-	"illustrator": "Akira Komayama",
+	"illustrator": [
+		"Akira Komayama"
+	],
 	"name": {
 		"de": "Maxax",
 		"en": "Haxorus",

@@ -79,7 +79,9 @@
 		150
 	],
 	"hp": 190,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Mewtu GX",
 		"en": "Mewtwo GX",

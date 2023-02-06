@@ -37,7 +37,9 @@
 		"en": "Surskit"
 	},
 	"hp": 60,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Masquerain",
 		"fr": "Maskadra"

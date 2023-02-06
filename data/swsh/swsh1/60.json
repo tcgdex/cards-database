@@ -41,7 +41,9 @@
 		833
 	],
 	"hp": 80,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Kamehaps",
 		"en": "Chewtle",

@@ -62,7 +62,9 @@
 		"de": "Knilz"
 	},
 	"hp": 100,
-	"illustrator": "Hitoshi Ariga",
+	"illustrator": [
+		"Hitoshi Ariga"
+	],
 	"name": {
 		"de": "Kapilz",
 		"en": "Breloom",

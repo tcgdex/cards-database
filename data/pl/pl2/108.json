@@ -36,7 +36,9 @@
 		392
 	],
 	"hp": 110,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Infernape 4",
 		"fr": "Simiabraz  Niv. X"

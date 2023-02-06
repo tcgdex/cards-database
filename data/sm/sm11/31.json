@@ -33,7 +33,9 @@
 		"fr": "Passerouge"
 	},
 	"hp": 80,
-	"illustrator": "Mina Nakai",
+	"illustrator": [
+		"Mina Nakai"
+	],
 	"name": {
 		"de": "Dartignis",
 		"en": "Fletchinder",

@@ -52,7 +52,9 @@
 		"de": "Zwirrlicht"
 	},
 	"hp": 90,
-	"illustrator": "Kazuma Koda",
+	"illustrator": [
+		"Kazuma Koda"
+	],
 	"name": {
 		"de": "Zwirrklop",
 		"en": "Dusclops",

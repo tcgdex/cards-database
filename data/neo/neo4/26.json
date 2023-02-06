@@ -40,7 +40,9 @@
 		"en": "Swinub"
 	},
 	"hp": 90,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Light Piloswine",
 		"fr": "Cochignon lumineux"

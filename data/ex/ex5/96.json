@@ -40,7 +40,9 @@
 		"en": "Vulpix"
 	},
 	"hp": 90,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Ninetales ex",
 		"fr": "Feunard ex"

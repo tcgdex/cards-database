@@ -48,7 +48,9 @@
 		"fr": "Ptitard"
 	},
 	"hp": 90,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Quaputzi",
 		"en": "Poliwhirl",

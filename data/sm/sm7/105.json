@@ -34,7 +34,9 @@
 		"fr": "Draby"
 	},
 	"hp": 90,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Draschel",
 		"en": "Shelgon",

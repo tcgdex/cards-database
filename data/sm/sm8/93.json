@@ -51,7 +51,9 @@
 		202
 	],
 	"hp": 110,
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Woingenau",
 		"en": "Wobbuffet",

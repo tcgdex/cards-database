@@ -40,7 +40,9 @@
 		"en": "Golbat"
 	},
 	"hp": 100,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Crobat",
 		"fr": "Nostenfer"

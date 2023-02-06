@@ -55,7 +55,9 @@
 		"en": "Pupitar"
 	},
 	"hp": 150,
-	"illustrator": "Yusuke Shimada",
+	"illustrator": [
+		"Yusuke Shimada"
+	],
 	"name": {
 		"en": "Tyranitar ex δ",
 		"fr": "Tyranocif ex δ"

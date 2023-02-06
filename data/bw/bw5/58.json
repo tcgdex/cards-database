@@ -27,7 +27,9 @@
 		532
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Praktibalk",
 		"en": "Timburr",

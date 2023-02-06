@@ -45,7 +45,9 @@
 		384
 	],
 	"hp": 140,
-	"illustrator": "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	"illustrator": [
+		"Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子"
+	],
 	"name": {
 		"en": "Rayquaza & Deoxys LEGEND",
 		"fr": "Rayquaza & Deoxys LÉGENDE"

@@ -54,7 +54,9 @@
 		"fr": "Mimigal"
 	},
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Ariados",
 		"en": "Ariados",

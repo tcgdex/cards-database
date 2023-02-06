@@ -44,7 +44,9 @@
 		"fr": "Venipatte"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Rollum",
 		"en": "Whirlipede",

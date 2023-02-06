@@ -37,7 +37,9 @@
 		550
 	],
 	"hp": 80,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Barschuft",
 		"en": "Basculin",

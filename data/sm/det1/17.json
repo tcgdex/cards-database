@@ -28,7 +28,9 @@
 		132
 	],
 	"hp": 60,
-	"illustrator": "MPC Film",
+	"illustrator": [
+		"MPC Film"
+	],
 	"name": {
 		"de": "Ditto",
 		"en": "Ditto",

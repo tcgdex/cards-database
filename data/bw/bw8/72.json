@@ -42,7 +42,9 @@
 		"fr": "Phanpy"
 	},
 	"hp": 130,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Donphan",
 		"en": "Donphan",

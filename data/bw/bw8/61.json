@@ -42,7 +42,9 @@
 		"fr": "Kirlia"
 	},
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Galagladi",
 		"en": "Gallade",

@@ -42,7 +42,9 @@
 		"fr": "Floravol"
 	},
 	"hp": 90,
-	"illustrator": "sui",
+	"illustrator": [
+		"sui"
+	],
 	"name": {
 		"en": "Jumpluff",
 		"fr": "Cotovol"

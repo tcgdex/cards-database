@@ -57,7 +57,9 @@
 		"de": "Karpador"
 	},
 	"hp": 180,
-	"illustrator": "hatachu",
+	"illustrator": [
+		"hatachu"
+	],
 	"name": {
 		"de": "Garados",
 		"en": "Gyarados",

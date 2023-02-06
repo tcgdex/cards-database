@@ -29,7 +29,9 @@
 		602
 	],
 	"hp": 40,
-	"illustrator": "Asako Ito",
+	"illustrator": [
+		"Asako Ito"
+	],
 	"name": {
 		"de": "Zapplardin",
 		"en": "Tynamo",

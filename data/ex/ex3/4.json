@@ -40,7 +40,9 @@
 		"en": "Vibrava"
 	},
 	"hp": 120,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Flygon",
 		"fr": "Libegon"

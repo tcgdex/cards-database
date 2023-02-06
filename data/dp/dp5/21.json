@@ -38,7 +38,9 @@
 		"fr": "Hippopotas"
 	},
 	"hp": 100,
-	"illustrator": "Kent Kanetsuna",
+	"illustrator": [
+		"Kent Kanetsuna"
+	],
 	"name": {
 		"en": "Hippowdon",
 		"fr": "Hippodocus"

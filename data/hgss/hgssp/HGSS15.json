@@ -31,7 +31,9 @@
 		213
 	],
 	"hp": 60,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Shuckle"
 	},

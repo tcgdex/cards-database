@@ -49,7 +49,9 @@
 		"fr": "Carapagos"
 	},
 	"hp": 140,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"de": "Karippas",
 		"en": "Carracosta",

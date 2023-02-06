@@ -67,7 +67,9 @@
 		115
 	],
 	"hp": 120,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"de": "Kangama",
 		"en": "Kangaskhan",

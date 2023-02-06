@@ -78,7 +78,9 @@
 		133
 	],
 	"hp": 270,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Evoli & Relaxo GX",
 		"en": "Eevee & Snorlax GX",

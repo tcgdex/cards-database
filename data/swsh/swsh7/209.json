@@ -40,7 +40,9 @@
 		"de": "Glaziola-V"
 	},
 	"hp": 310,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Glaziola VMAX",
 		"en": "Glaceon VMAX",

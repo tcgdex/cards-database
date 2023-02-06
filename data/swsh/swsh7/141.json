@@ -9,7 +9,9 @@
 		"pt": "Compre 2 cartas. Se fizer isto, seu Pokémon Ativo se recuperará de todas as Condições Especiais.",
 		"de": "Ziehe 2 Karten. Wenn du das machst, erholt sich dein Aktives Pokémon von allen Speziellen Zuständen."
 	},
-	"illustrator": "Megumi Mizutani",
+	"illustrator": [
+		"Megumi Mizutani"
+	],
 	"name": {
 		"de": "Aromalady",
 		"en": "Aroma Lady",

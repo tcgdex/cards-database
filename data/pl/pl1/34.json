@@ -55,7 +55,9 @@
 		"fr": "Lombre"
 	},
 	"hp": 120,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Ludicolo",
 		"fr": "Ludicolo"

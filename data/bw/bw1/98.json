@@ -9,7 +9,9 @@
 		"pt": "Olhe os 5 cards de cima do seu baralho e coloque-os de volta em cima do seu baralho em qualquer ordem.",
 		"de": "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
 	},
-	"illustrator": "Noriko Hotta",
+	"illustrator": [
+		"Noriko Hotta"
+	],
 	"name": {
 		"de": "Pokédex",
 		"en": "Pokédex",

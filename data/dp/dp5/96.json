@@ -5,7 +5,9 @@
 		"fr": "Énergie guérison fournit de l'Énergie Colorless. Lorsque vous attachez cette carte de votre main à 1 de vos Pokémon, retirez-lui tous ses États Spéciaux."
 	},
 	"energyType": "Special",
-	"illustrator": "Takumi Akabane",
+	"illustrator": [
+		"Takumi Akabane"
+	],
 	"name": {
 		"en": "Recover Energy",
 		"fr": "Énergie guérison"

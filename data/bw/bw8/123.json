@@ -9,7 +9,9 @@
 		"pt": "O Pokémon Ativo do seu oponente agora está Envenenado. Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente também ficará Adormecido.",
 		"de": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon jetzt auch noch."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Hypnotoxinlaser",
 		"en": "Hypnotoxic Laser",

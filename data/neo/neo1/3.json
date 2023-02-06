@@ -42,7 +42,9 @@
 		"en": "Gloom"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Bellossom",
 		"fr": "Joliflor"

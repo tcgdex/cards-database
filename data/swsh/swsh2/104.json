@@ -62,7 +62,9 @@
 		"de": "Bithora"
 	},
 	"hp": 120,
-	"illustrator": "Anesaki Dynamic",
+	"illustrator": [
+		"Anesaki Dynamic"
+	],
 	"name": {
 		"de": "Thanathora",
 		"en": "Barbaracle",

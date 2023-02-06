@@ -62,7 +62,9 @@
 		"de": "Elektek"
 	},
 	"hp": 140,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Elevoltek",
 		"en": "Electivire",

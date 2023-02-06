@@ -36,7 +36,9 @@
 		202
 	],
 	"hp": 80,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Wobbuffet",
 		"fr": "Qulbutoké"

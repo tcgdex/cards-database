@@ -9,7 +9,9 @@
 		"pt": "Cada jogador conta as cartas nas próprias mãos, embaralha-as no próprio baralho e em seguida compra aquele mesmo número de cartas.",
 		"de": "Jeder Spieler zählt die Karten auf seiner Hand, mischt jene Karten in sein Deck und zieht anschließend dieselbe Anzahl Karten."
 	},
-	"illustrator": "take",
+	"illustrator": [
+		"take"
+	],
 	"name": {
 		"de": "Pia",
 		"en": "Wicke",

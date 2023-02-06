@@ -9,7 +9,9 @@
 		"pt": "Nenhum Pokémon Metal (seus e do seu oponente) poderá ser afetado por Condições Especiais. (Remova todas as Condições Especiais que afetam esses Pokémon.)",
 		"de": "Kein Metal-Pokémon (deine und die deines Gegners) kann von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesen Pokémon verlieren ihre Wirkung.)"
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Stahlbunker",
 		"en": "Steel Shelter",

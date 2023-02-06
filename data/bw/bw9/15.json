@@ -38,7 +38,9 @@
 		"fr": "Funécire"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"de": "Laternecto",
 		"en": "Lampent",

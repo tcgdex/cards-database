@@ -60,7 +60,9 @@
 		"fr": "Galegon"
 	},
 	"hp": 170,
-	"illustrator": "Satoshi Shirai",
+	"illustrator": [
+		"Satoshi Shirai"
+	],
 	"name": {
 		"de": "Stolloss",
 		"en": "Aggron",

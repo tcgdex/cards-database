@@ -28,7 +28,9 @@
 		"fr": "Braségali-eEX"
 	},
 	"hp": 210,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"en": "M Blaziken EX",
 		"fr": "M Braségali EX"

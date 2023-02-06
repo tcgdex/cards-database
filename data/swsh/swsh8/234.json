@@ -9,7 +9,9 @@
 		"pt": "Se o Pokémon VMAX ao qual esta carta está ligada for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
 		"de": "Wenn das Pokémon-VMAX, an das diese Karte angelegt ist, durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wird, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 	},
-	"illustrator": "AYUMI ODASHIMA",
+	"illustrator": [
+		"AYUMI ODASHIMA"
+	],
 	"name": {
 		"de": "Abschiedsglocke",
 		"en": "Farewell Bell",

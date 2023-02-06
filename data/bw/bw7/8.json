@@ -33,7 +33,9 @@
 		214
 	],
 	"hp": 100,
-	"illustrator": "Naoki Saito",
+	"illustrator": [
+		"Naoki Saito"
+	],
 	"name": {
 		"de": "Skaraborn",
 		"en": "Heracross",

@@ -9,7 +9,9 @@
 		"pt": "Se um Pokémon estiver Adormecido, o dono dele jogará 2 moedas ao invés de 1 entre as vezes de jogar. Se qualquer uma delas sair coroa, aquele Pokémon permanecerá Adormecido.",
 		"de": "Wenn ein Pokémon schläft, wirft sein Besitzer zwischen den Zügen 2 Münzen anstelle von 1 Münze für jenen Speziellen Zustand. Wenn eine oder beide Münzen Zahl zeigen, schläft jenes Pokémon weiter."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"de": "Schlummerwald",
 		"en": "Slumbering Forest",

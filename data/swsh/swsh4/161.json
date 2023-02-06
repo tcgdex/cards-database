@@ -9,7 +9,9 @@
 		"pt": "Sempre que qualquer um dos jogadores jogar um Pokémon VMAX da própria mão para evoluir um Pokémon V durante o próprio turno, cure 100 pontos de dano daquele Pokémon.",
 		"de": "Jedes Mal, wenn einer der beiden Spieler ein Pokémon-VMAX aus seiner Hand spielt, um ein Pokémon-V während seines Zuges zu entwickeln, heile 100 Schadenspunkte bei jenem Pokémon."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Score-Stadion",
 		"en": "Wyndon Stadium",

@@ -54,7 +54,9 @@
 		"fr": "Métang"
 	},
 	"hp": 170,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"de": "Metagross",
 		"en": "Metagross",

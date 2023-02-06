@@ -38,7 +38,9 @@
 		475
 	],
 	"hp": 80,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Gallade 4",
 		"fr": "Gallame  Niv. 59"

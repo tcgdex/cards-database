@@ -52,7 +52,9 @@
 		"de": "Maschock"
 	},
 	"hp": 160,
-	"illustrator": "Ken Sugimori",
+	"illustrator": [
+		"Ken Sugimori"
+	],
 	"name": {
 		"de": "Machomei",
 		"en": "Machamp",

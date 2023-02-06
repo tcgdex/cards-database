@@ -30,7 +30,9 @@
 		102
 	],
 	"hp": 50,
-	"illustrator": "OOYAMA",
+	"illustrator": [
+		"OOYAMA"
+	],
 	"name": {
 		"de": "Owei",
 		"en": "Exeggcute",

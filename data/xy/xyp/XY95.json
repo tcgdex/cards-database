@@ -33,7 +33,9 @@
 		25
 	],
 	"hp": 60,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Pikachu",
 		"fr": "Pikachu"

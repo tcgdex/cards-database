@@ -32,7 +32,9 @@
 		150
 	],
 	"hp": 100,
-	"illustrator": "Katsura Tabata",
+	"illustrator": [
+		"Katsura Tabata"
+	],
 	"name": {
 		"en": "Mewtwo ex",
 		"fr": "Mewtwo ex"

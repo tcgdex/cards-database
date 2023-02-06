@@ -26,7 +26,9 @@
 		"en": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
 	},
 	"hp": 70,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Muschas",
 		"en": "Shellder",

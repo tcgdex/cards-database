@@ -40,7 +40,9 @@
 		"fr": "Férosinge"
 	},
 	"hp": 90,
-	"illustrator": "Midori Harada",
+	"illustrator": [
+		"Midori Harada"
+	],
 	"name": {
 		"en": "Primeape",
 		"fr": "Colossinge"

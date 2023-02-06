@@ -38,7 +38,9 @@
 		"en": "Snubbull"
 	},
 	"hp": 90,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"en": "Granbull"
 	},

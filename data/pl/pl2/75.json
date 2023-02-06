@@ -39,7 +39,9 @@
 		"fr": "Grainipiot"
 	},
 	"hp": 80,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"en": "Nuzleaf",
 		"fr": "Pifeuil Niv. 25"

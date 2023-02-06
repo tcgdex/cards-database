@@ -46,7 +46,9 @@
 		"en": "Vibrava"
 	},
 	"hp": 120,
-	"illustrator": "Hisao Nakamura",
+	"illustrator": [
+		"Hisao Nakamura"
+	],
 	"name": {
 		"en": "Flygon"
 	},

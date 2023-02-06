@@ -21,7 +21,9 @@
 		276
 	],
 	"hp": 40,
-	"illustrator": "Miki Tanaka",
+	"illustrator": [
+		"Miki Tanaka"
+	],
 	"name": {
 		"en": "Taillow δ",
 		"fr": "Nirondelle δ ESPÈCES DELTA"

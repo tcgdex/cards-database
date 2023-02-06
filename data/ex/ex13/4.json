@@ -35,7 +35,9 @@
 		386
 	],
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Deoxys δ",
 		"fr": "Deoxys δ ESPÈCES DELTA"

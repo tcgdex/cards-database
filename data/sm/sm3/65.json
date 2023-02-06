@@ -38,7 +38,9 @@
 		111
 	],
 	"hp": 80,
-	"illustrator": "miki kudo",
+	"illustrator": [
+		"miki kudo"
+	],
 	"name": {
 		"de": "Rihorn",
 		"en": "Rhyhorn",

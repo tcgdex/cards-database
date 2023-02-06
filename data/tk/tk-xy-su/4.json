@@ -22,7 +22,9 @@
 		"en": "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},
 	"hp": 60,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Evoli",
 		"en": "Eevee",

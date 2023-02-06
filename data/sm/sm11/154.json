@@ -43,7 +43,9 @@
 		610
 	],
 	"hp": 60,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Milza",
 		"en": "Axew",

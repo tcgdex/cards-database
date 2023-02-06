@@ -43,7 +43,9 @@
 		492
 	],
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Shaymin ◇",
 		"en": "Shaymin ◇",

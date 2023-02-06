@@ -28,7 +28,9 @@
 	],
 	"category": "Pokemon",
 	"hp": 180,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"de": "Mew V",
 		"en": "Mew V",

@@ -53,7 +53,9 @@
 		"de": "Bronzel"
 	},
 	"hp": 130,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Bronzong",
 		"en": "Bronzong",

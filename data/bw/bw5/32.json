@@ -23,7 +23,9 @@
 		"en": "Tympole"
 	},
 	"hp": 80,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Mebrana",
 		"en": "Palpitoad",

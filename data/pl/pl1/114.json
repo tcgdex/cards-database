@@ -4,7 +4,9 @@
 	"effect": {
 		"fr": "Regardez les 2 cartes du dessus de votre deck, choisissez-en 1 et placez-la dans votre main. Replacez l'autre carte au dessous de votre deck."
 	},
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Pokédex HANDY910is",
 		"fr": "Pokédex HANDY910is"

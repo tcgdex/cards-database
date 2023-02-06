@@ -60,7 +60,9 @@
 		"fr": "Élektek"
 	},
 	"hp": 140,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Elevoltek",
 		"en": "Electivire",

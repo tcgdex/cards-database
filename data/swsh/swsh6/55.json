@@ -29,7 +29,9 @@
 		"en": "With its gas-like body, it can sneak into any place it desires. However, it can be blown away by wind."
 	},
 	"hp": 50,
-	"illustrator": "Motofumi Fujiwara",
+	"illustrator": [
+		"Motofumi Fujiwara"
+	],
 	"name": {
 		"de": "Nebulak",
 		"en": "Gastly",

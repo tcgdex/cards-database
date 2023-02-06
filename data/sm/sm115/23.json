@@ -39,7 +39,9 @@
 		"fr": "Évoli"
 	},
 	"hp": 90,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"en": "Jolteon",
 		"fr": "Voltali"

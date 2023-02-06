@@ -43,7 +43,9 @@
 		"fr": "Tetarte"
 	},
 	"hp": 120,
-	"illustrator": "Naoyo Kimura",
+	"illustrator": [
+		"Naoyo Kimura"
+	],
 	"name": {
 		"en": "Politoed",
 		"fr": "Tarpaud"

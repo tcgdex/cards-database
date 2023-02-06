@@ -38,7 +38,9 @@
 		222
 	],
 	"hp": 60,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Corsola",
 		"fr": "Corayon"

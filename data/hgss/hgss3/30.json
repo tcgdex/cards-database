@@ -41,7 +41,9 @@
 		"fr": "Terhal"
 	},
 	"hp": 80,
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Metang",
 		"fr": "Metang"

@@ -26,7 +26,9 @@
 		"en": "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
 	},
 	"hp": 60,
-	"illustrator": "nagimiso",
+	"illustrator": [
+		"nagimiso"
+	],
 	"name": {
 		"de": "Zorua",
 		"en": "Zorua",

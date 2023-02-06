@@ -35,7 +35,9 @@
 		"en": "Aron"
 	},
 	"hp": 70,
-	"illustrator": "Atsuko Nishida",
+	"illustrator": [
+		"Atsuko Nishida"
+	],
 	"name": {
 		"en": "Lairon",
 		"fr": "Galegon"

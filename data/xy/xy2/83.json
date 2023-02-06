@@ -45,7 +45,9 @@
 		241
 	],
 	"hp": 100,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"de": "Miltank",
 		"en": "Miltank",

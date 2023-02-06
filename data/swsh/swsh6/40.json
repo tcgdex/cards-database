@@ -53,7 +53,9 @@
 		"en": "Although it's called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini."
 	},
 	"hp": 120,
-	"illustrator": "Shin Nagasawa",
+	"illustrator": [
+		"Shin Nagasawa"
+	],
 	"name": {
 		"de": "Kapu-Kime",
 		"en": "Tapu Fini",

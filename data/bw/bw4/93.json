@@ -10,7 +10,9 @@
 		"de": "Diese Karte liefert Colorless-Energie. Wenn diese Karte an ein Basis-Pokémon angelegt ist, zählt sie als jeder beliebige Energietyp, spendet aber immer nur jeweils 1 Energie."
 	},
 	"energyType": "Special",
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Prisma-Energie",
 		"en": "Prism Energy",

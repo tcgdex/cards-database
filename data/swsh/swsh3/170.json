@@ -9,7 +9,9 @@
 		"pt": "Sempre que o Pokémon Ativo de um dos jogadores for movido para o Banco durante o turno dele(a), coloque 2 contadores de dano naquele Pokémon.",
 		"de": "Lege jedes Mal, wenn das Aktive Pokémon eines Spielers während seines Zuges auf die Bank wechselt, 2 Schadensmarken auf jenes Pokémon."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Spikeford",
 		"en": "Spikemuth",

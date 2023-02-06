@@ -29,7 +29,9 @@
 		"en": "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
 	},
 	"hp": 60,
-	"illustrator": "MAHOU",
+	"illustrator": [
+		"MAHOU"
+	],
 	"name": {
 		"de": "Knacklion",
 		"en": "Trapinch",

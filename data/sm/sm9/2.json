@@ -42,7 +42,9 @@
 		13
 	],
 	"hp": 40,
-	"illustrator": "Shibuzoh.",
+	"illustrator": [
+		"Shibuzoh."
+	],
 	"name": {
 		"de": "Hornliu",
 		"en": "Weedle",

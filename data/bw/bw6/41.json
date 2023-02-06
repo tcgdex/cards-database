@@ -32,7 +32,9 @@
 		309
 	],
 	"hp": 60,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Frizelbliz",
 		"en": "Electrike",

@@ -41,7 +41,9 @@
 		"fr": "Étourmi"
 	},
 	"hp": 80,
-	"illustrator": "kawayoo",
+	"illustrator": [
+		"kawayoo"
+	],
 	"name": {
 		"de": "Staravia",
 		"en": "Staravia",

@@ -43,7 +43,9 @@
 		143
 	],
 	"hp": 150,
-	"illustrator": "chibi",
+	"illustrator": [
+		"chibi"
+	],
 	"name": {
 		"de": "Relaxo",
 		"en": "Snorlax",

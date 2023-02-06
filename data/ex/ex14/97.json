@@ -49,7 +49,9 @@
 		"en": "Nuzleaf"
 	},
 	"hp": 140,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Shiftry ex",
 		"fr": "Tengalice ex"

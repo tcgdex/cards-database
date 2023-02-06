@@ -29,7 +29,9 @@
 		129
 	],
 	"hp": 30,
-	"illustrator": "Yukiko Baba",
+	"illustrator": [
+		"Yukiko Baba"
+	],
 	"name": {
 		"de": "Karpador",
 		"en": "Magikarp",

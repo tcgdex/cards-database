@@ -39,7 +39,9 @@
 		"fr": "Incisache"
 	},
 	"hp": 140,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Maxax",
 		"en": "Haxorus",

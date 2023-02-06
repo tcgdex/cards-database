@@ -38,7 +38,9 @@
 		244
 	],
 	"hp": 160,
-	"illustrator": "Shinji Higuchi + Sachiko Eba",
+	"illustrator": [
+		"Shinji Higuchi + Sachiko Eba"
+	],
 	"name": {
 		"en": "Suicune & Entei LEGEND",
 		"fr": "Suicune & Entei LÉGENDE (bas)"

@@ -56,7 +56,9 @@
 		"fr": "Galifeu"
 	},
 	"hp": 150,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Lohgock",
 		"en": "Blaziken",

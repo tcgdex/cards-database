@@ -32,7 +32,9 @@
 		492
 	],
 	"hp": 110,
-	"illustrator": "Kanako Eo",
+	"illustrator": [
+		"Kanako Eo"
+	],
 	"name": {
 		"en": "Shaymin EX"
 	},

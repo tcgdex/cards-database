@@ -39,7 +39,9 @@
 		"en": "Kakuna"
 	},
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Beedrill δ",
 		"fr": "Dardargnan δ ESPÈCES DELTA"

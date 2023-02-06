@@ -42,7 +42,9 @@
 		"en": "Anorith"
 	},
 	"hp": 160,
-	"illustrator": "Hikaru Koike",
+	"illustrator": [
+		"Hikaru Koike"
+	],
 	"name": {
 		"en": "Armaldo ex",
 		"fr": "Armaldo ex"

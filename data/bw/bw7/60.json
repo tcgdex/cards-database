@@ -42,7 +42,9 @@
 		"fr": "Spoink"
 	},
 	"hp": 110,
-	"illustrator": "Kouki Saitou",
+	"illustrator": [
+		"Kouki Saitou"
+	],
 	"name": {
 		"de": "Groink",
 		"en": "Grumpig",

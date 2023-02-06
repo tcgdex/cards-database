@@ -37,7 +37,9 @@
 		378
 	],
 	"hp": 90,
-	"illustrator": "Masakazu Fukuda",
+	"illustrator": [
+		"Masakazu Fukuda"
+	],
 	"name": {
 		"en": "Regice Star",
 		"fr": "Regice ☆"

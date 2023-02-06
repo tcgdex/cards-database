@@ -34,7 +34,9 @@
 		"en": "Root Fossil"
 	},
 	"hp": 80,
-	"illustrator": "Kagemaru Himeno",
+	"illustrator": [
+		"Kagemaru Himeno"
+	],
 	"name": {
 		"en": "Lileep δ",
 		"fr": "Lilia δ ESPÈCES DELTA"

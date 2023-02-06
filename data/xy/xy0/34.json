@@ -9,7 +9,9 @@
 		"pt": "Jogue uma moeda. Se sair cara, descarte uma Energia ligada a 1 dos Pokémon do seu oponente.",
 		"de": "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das gegnerische Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 	},
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Schmetterhammer",
 		"en": "Crushing Hammer",

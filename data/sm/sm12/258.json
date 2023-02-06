@@ -52,7 +52,9 @@
 		483
 	],
 	"hp": 280,
-	"illustrator": "5ban Graphics",
+	"illustrator": [
+		"5ban Graphics"
+	],
 	"name": {
 		"de": "Arceus & Dialga & Palkia GX",
 		"en": "Arceus & Dialga & Palkia GX",

@@ -42,7 +42,9 @@
 		104
 	],
 	"hp": 60,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Tragosso",
 		"en": "Cubone",

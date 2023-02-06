@@ -31,7 +31,9 @@
 	"evolveFrom": {
 		"en": "Gastly"
 	},
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Haunter"
 	},

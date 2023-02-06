@@ -32,7 +32,9 @@
 		122
 	],
 	"hp": 70,
-	"illustrator": "Mitsuhiro Arita",
+	"illustrator": [
+		"Mitsuhiro Arita"
+	],
 	"name": {
 		"en": "Mr. Mime 4",
 		"fr": "M. Mime  Niv. 53"

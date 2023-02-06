@@ -24,7 +24,9 @@
 		443
 	],
 	"hp": 50,
-	"illustrator": "Hiroki Fuchino",
+	"illustrator": [
+		"Hiroki Fuchino"
+	],
 	"name": {
 		"en": "Gible",
 		"fr": "Griknot"

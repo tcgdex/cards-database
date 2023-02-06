@@ -9,7 +9,9 @@
 		"pt": "Os ataques do Pokémon ao qual esta carta está ligada causam 30 pontos de dano a mais aos Pokémon V e Pokémon-GX no Banco do seu oponente.",
 		"de": "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen den Pokémon-V und Pokémon-GX auf der Bank deines Gegners 30 Schadenspunkte mehr zu."
 	},
-	"illustrator": "Toyste Beach",
+	"illustrator": [
+		"Toyste Beach"
+	],
 	"name": {
 		"de": "Teleskopisches Visier",
 		"en": "Telescopic Sight",

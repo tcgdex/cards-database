@@ -52,7 +52,9 @@
 		719
 	],
 	"hp": 150,
-	"illustrator": "Eske Yoshinob",
+	"illustrator": [
+		"Eske Yoshinob"
+	],
 	"name": {
 		"de": "Diancie EX",
 		"en": "Diancie EX",

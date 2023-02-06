@@ -52,7 +52,9 @@
 		626
 	],
 	"hp": 110,
-	"illustrator": "Hiroki Asanuma",
+	"illustrator": [
+		"Hiroki Asanuma"
+	],
 	"name": {
 		"de": "Bisofank",
 		"en": "Bouffalant",

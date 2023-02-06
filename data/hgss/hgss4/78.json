@@ -24,7 +24,9 @@
 		333
 	],
 	"hp": 40,
-	"illustrator": "Ryo Ueda",
+	"illustrator": [
+		"Ryo Ueda"
+	],
 	"name": {
 		"en": "Swablu",
 		"fr": "Tylton"

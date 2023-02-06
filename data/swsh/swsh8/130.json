@@ -49,7 +49,9 @@
 		"de": "Phandra"
 	},
 	"hp": 150,
-	"illustrator": "Souichirou Gunjima",
+	"illustrator": [
+		"Souichirou Gunjima"
+	],
 	"name": {
 		"de": "Katapuldra",
 		"en": "Dragapult",

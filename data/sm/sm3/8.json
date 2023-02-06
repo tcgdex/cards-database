@@ -58,7 +58,9 @@
 		"fr": "Saquedeneu"
 	},
 	"hp": 140,
-	"illustrator": "tetsuya koizumi",
+	"illustrator": [
+		"tetsuya koizumi"
+	],
 	"name": {
 		"de": "Tangoloss",
 		"en": "Tangrowth",

@@ -28,7 +28,9 @@
 		789
 	],
 	"hp": 50,
-	"illustrator": "Mizue",
+	"illustrator": [
+		"Mizue"
+	],
 	"name": {
 		"de": "Cosmog",
 		"en": "Cosmog",

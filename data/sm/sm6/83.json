@@ -42,7 +42,9 @@
 		669
 	],
 	"hp": 30,
-	"illustrator": "kirisAki",
+	"illustrator": [
+		"kirisAki"
+	],
 	"name": {
 		"de": "Flabébé",
 		"en": "Flabébé",

@@ -45,7 +45,9 @@
 		107
 	],
 	"hp": 90,
-	"illustrator": "Tomokazu Komiya",
+	"illustrator": [
+		"Tomokazu Komiya"
+	],
 	"name": {
 		"de": "Nockchan",
 		"en": "Hitmonchan",

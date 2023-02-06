@@ -48,7 +48,9 @@
 		"fr": "Poichigeon"
 	},
 	"hp": 80,
-	"illustrator": "Sekio",
+	"illustrator": [
+		"Sekio"
+	],
 	"name": {
 		"de": "Navitaub",
 		"en": "Tranquill",

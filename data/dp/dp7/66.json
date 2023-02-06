@@ -25,7 +25,9 @@
 		"fr": "Magneti"
 	},
 	"hp": 50,
-	"illustrator": "Aya Kusube",
+	"illustrator": [
+		"Aya Kusube"
+	],
 	"name": {
 		"en": "Magnemite",
 		"fr": "Magneti"

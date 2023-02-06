@@ -34,7 +34,9 @@
 		"en": "Wurmple"
 	},
 	"hp": 70,
-	"illustrator": "Sachiko Adachi",
+	"illustrator": [
+		"Sachiko Adachi"
+	],
 	"name": {
 		"en": "Cascoon",
 		"fr": "Blindalys"

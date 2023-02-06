@@ -36,7 +36,9 @@
 		"en": "Zorua"
 	},
 	"hp": 100,
-	"illustrator": "match",
+	"illustrator": [
+		"match"
+	],
 	"name": {
 		"en": "Zoroark"
 	},

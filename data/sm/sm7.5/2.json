@@ -56,7 +56,9 @@
 		"fr": "Salamèche"
 	},
 	"hp": 80,
-	"illustrator": "kodama",
+	"illustrator": [
+		"kodama"
+	],
 	"name": {
 		"de": "Glutexo",
 		"en": "Charmeleon",

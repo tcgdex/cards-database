@@ -19,7 +19,9 @@
 	"dexId": [
 		252
 	],
-	"illustrator": "TOKIYA",
+	"illustrator": [
+		"TOKIYA"
+	],
 	"name": {
 		"en": "Treecko"
 	},
