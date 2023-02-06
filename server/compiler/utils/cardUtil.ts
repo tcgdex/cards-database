@@ -1,9 +1,9 @@
 /* eslint-disable sort-keys */
-import { setToSetSimple } from './setUtil'
-import { cardIsLegal, fetchRemoteFile, FileListCard, FileListItem, loadDatabase } from './util'
-import { SupportedLanguages, Types } from '../../../meta/definitions/database'
 import { Card as CardSingle, CardResume } from '../../../meta/definitions/api'
+import { SupportedLanguages, Types } from '../../../meta/definitions/database'
+import { setToSetSimple } from './setUtil'
 import translate from './translationUtil'
+import { cardIsLegal, fetchRemoteFile, FileListCard, FileListItem, loadDatabase } from './util'
 
 export async function getCardPictures(cardId: string, card: FileListCard, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -108,8 +108,8 @@ export async function cardToCardSingle(localId: string, cardFile: FileListCard, 
 		legal: {
 			standard: cardIsLegal('standard', card, localId),
 			expanded: cardIsLegal('expanded', card, localId)
-		}
-
+		},
+		updated: cardFile.updated.toISOString()
 	}
 }
 
@@ -135,14 +135,14 @@ export async function getCards(lang: SupportedLanguages, setId?: string): Promis
 	const cards = ((await loadDatabase())
 		.filter((it) => isCard(it) && cardIsAvailable(it as FileListCard, lang) && (!setId || (it as FileListCard).parent.data.id === setId)) as Array<FileListCard>)
 		.map<[string, FileListCard]>((it) => [getLocalId(it), it])
+		// Sort by id when possible
+		.sort(([a], [b]) => {
+			const ra = parseInt(a, 10)
+			const rb = parseInt(b, 10)
+			if (!isNaN(ra) && !isNaN(rb)) {
+				return ra - rb
+			}
+			return a >= b ? 1 : -1
+		})
 	return cards
-	// Sort by id when possible
-	return cards.sort(([a], [b]) => {
-		const ra = parseInt(a, 10)
-		const rb = parseInt(b, 10)
-		if (!isNaN(ra) && !isNaN(rb)) {
-			return ra - rb
-		}
-		return a >= b ? 1 : -1
-	})
 }

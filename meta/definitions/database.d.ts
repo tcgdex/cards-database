@@ -1,3 +1,7 @@
+/**
+ * Definition file for the differents elements in the database
+ */
+
 export type SupportedLanguages = 'en' | 'fr' | 'es' | 'it' | 'pt' | 'de'
 
 export type Languages<T = string> = Partial<Record<SupportedLanguages, T>>

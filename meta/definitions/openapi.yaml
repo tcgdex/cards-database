@@ -30,6 +30,7 @@ servers:
           - es
           - it
           - pt
+          - de
         default: en
 tags:
   - name: cards
@@ -748,6 +749,7 @@ components:
         - name
         - rarity
         - set
+        - updated
       type: object
       properties:
         id:
@@ -898,6 +900,9 @@ components:
             wrapped: true
           items:
             $ref: '#/components/schemas/WeakRes'
+        updated:
+          type: string
+          example: '2023-02-06T14:07:07.000Z'
       # xml:
       #   name: Card
     StringEndpoint:

@@ -1,11 +1,8 @@
-import { Card, Serie, Set } from '../../../meta/definitions/database'
-import glob from 'glob'
-import fetch from 'node-fetch'
-import { posix as path } from 'path'
-import * as legals from '../../../meta/legals'
-import { DataTree, FetchedFile, IntermediateCard, IntermediateSerie, IntermediateSet } from '../compilerInterfaces'
-import fs from 'fs/promises'
 import { exec } from 'child_process'
+import fs from 'fs/promises'
+import fetch from 'node-fetch'
+import { Card, Serie, Set } from '../../../meta/definitions/database'
+import * as legals from '../../../meta/legals'
 interface fileCacheInterface {
 	[key: string]: any
 }
@@ -113,7 +110,7 @@ async function exists(path: string) {
 
 export type FileListGlobal<T = any> = {
 	path: string
-	updated: string
+	updated: Date
 	data: T
 }
 
@@ -154,7 +151,7 @@ export async function loadDatabase() {
 		const serieData: FileListSerie = {
 			type: 'serie',
 			path: serieFile,
-			updated: await getLastEdit(serieFile),
+			updated: new Date(await getLastEdit(serieFile)),
 			data: await import(`../../${serieFile}`)
 		}
 
@@ -182,7 +179,7 @@ async function getSets(serieData: FileListSerie, serieFolder: string) {
 		const setData: FileListSet = {
 			type: 'set',
 			path: setFile,
-			updated: await getLastEdit(setFile),
+			updated: new Date(await getLastEdit(setFile)),
 			data: await import(`../../${setFile}`),
 			parent: serieData
 		}
@@ -207,7 +204,7 @@ async function getCards(setData: FileListSet, setFolder: string) {
 		const cardData: FileListCard = {
 			type: 'card',
 			path: card,
-			updated: await getLastEdit(card),
+			updated: new Date(await getLastEdit(card)),
 			data: await import(`../../${card}`),
 			parent: setData
 		}

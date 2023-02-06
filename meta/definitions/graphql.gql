@@ -87,6 +87,7 @@ type Card {
 	types: [String]
 	variants: Variants
 	weaknesses: [WeakResListItem]
+	updated: String!
 	# Currently not in any cards
 	# weight: String!
 }

@@ -1,5 +1,5 @@
 /**
- * This file define how the API is architectured for the Compiler and the Javascript/Typescript SDK
+ * Definition file for the JSON API endpoints
  */
 
 /**
@@ -262,6 +262,15 @@ export interface Card extends CardResume {
 		 */
 		expanded: boolean;
 	};
+
+	/**
+	 * last time this card was updated
+	 *
+	 * this is updated every time any fields from this cards is change/added/removed
+	 *
+	 * formatted as an ISO8601 string
+	 */
+	updated: string
 }
 
 /**

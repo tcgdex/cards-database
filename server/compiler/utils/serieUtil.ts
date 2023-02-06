@@ -1,7 +1,7 @@
-import { FileListItem, FileListSerie, FileListSet, loadDatabase } from './util'
-import { setToSetSimple, getSets } from './setUtil'
-import { SupportedLanguages } from '../../../meta/definitions/database'
 import { Serie as SerieSingle, SerieResume } from '../../../meta/definitions/api'
+import { SupportedLanguages } from '../../../meta/definitions/database'
+import { getSets, setToSetSimple } from './setUtil'
+import { FileListItem, FileListSerie, FileListSet, loadDatabase } from './util'
 
 export async function isSerieAvailable(serie: FileListSerie, lang: SupportedLanguages): Promise<boolean> {
 	if (!serie.data.name[lang]) {

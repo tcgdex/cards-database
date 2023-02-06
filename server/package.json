@@ -24,10 +24,8 @@
 	"devDependencies": {
 		"@types/apicache": "^1.6.0",
 		"@types/express": "^4.17.13",
-		"@types/glob": "^7.2.0",
 		"@types/node": "^16.11.6",
 		"@types/node-fetch": "^2.6.1",
-		"glob": "^7.2.0",
 		"node-fetch": "^2.6.6",
 		"ts-node": "^10.4.0",
 		"ts-node-dev": "^1.1.8",
