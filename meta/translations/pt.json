@@ -20,12 +20,16 @@
 	},
 	"rarity": {
 		"Amazing": "Amazing",
-		"Common": "Common",
+		"Common": "Comum",
 		"None": "None",
-		"Rare": "Rare",
+		"Rare": "Rara",
 		"Secret Rare": "Secret Rare",
-		"Ultra Rare": "Ultra Rare",
-		"Uncommon": "Uncommon"
+		"Ultra Rare": "Rara Ultra",
+		"Uncommon": "Incomum",
+		"Double rare": "Rara Dupla",
+		"Illustration rare": "Ilustração Rara",
+		"Special illustration rare": "Ilustração Rara Especial",
+		"Hyper rare": "Rara Hiper"
 	},
 	"stage": {
 		"BREAK": "TURBO",
