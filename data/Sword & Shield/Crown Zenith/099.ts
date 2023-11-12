@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Zamazenta VSTAR"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Metal"],
