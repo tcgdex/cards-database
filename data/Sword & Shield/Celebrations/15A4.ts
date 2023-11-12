@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

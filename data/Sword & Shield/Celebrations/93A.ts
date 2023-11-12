@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masahiko Ishii",
-	rarity: "Ultra Rare",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fire"],

@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Ultra Rare",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],

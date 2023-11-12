@@ -20,7 +20,7 @@ const card: Card = {
 		de: "Lunala"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	types: ["Psychic"],
 	illustrator: "kirisAki",

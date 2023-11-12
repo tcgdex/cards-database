@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kazuo Yazawa",
-	rarity: "Ultra Rare",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],

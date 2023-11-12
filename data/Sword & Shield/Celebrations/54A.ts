@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shizurow",
-	rarity: "Ultra Rare",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Psychic"],
