@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Strahlendes Fruyal"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Grass"],

@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Regieleki VMAX"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Lightning"],

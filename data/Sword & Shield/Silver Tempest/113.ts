@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Rabigator"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Darkness"],

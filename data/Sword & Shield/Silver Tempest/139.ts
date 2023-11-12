@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Lugia VSTAR"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Colorless"],

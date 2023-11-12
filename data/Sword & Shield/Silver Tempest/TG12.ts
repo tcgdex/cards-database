@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Zirpeise V"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Grass"],

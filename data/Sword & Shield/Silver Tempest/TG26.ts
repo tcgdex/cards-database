@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Prof. Burnett"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Full Art Trainer",
 	category: "Trainer",
 
 	effect: {

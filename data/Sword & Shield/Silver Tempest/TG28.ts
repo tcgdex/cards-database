@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Schwerthold & Schildrich"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Full Art Trainer",
 	category: "Trainer",
 
 	effect: {

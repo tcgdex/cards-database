@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Freunde aus Galar"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Full Art Trainer",
 	category: "Trainer",
 
 	effect: {

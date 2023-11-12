@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Guardevoir"
 	},
 
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],
