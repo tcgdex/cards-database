@@ -25,7 +25,11 @@
 		"Rare": "Rara",
 		"Secret Rare": "Rara Secreto",
 		"Ultra Rare": "Rara Ultra",
-		"Uncommon": "Uncommon"
+		"Uncommon": "Uncommon",
+		"Double rare": "Rara Doble",
+		"Illustration rare": "Rara Ilustración",
+		"Special illustration rare": "Rara Ilustración Especial",
+		"Hyper rare": "Rara Híper"
 	},
 	"stage": {
 		"BREAK": "TURBO",

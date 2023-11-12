@@ -86,6 +86,18 @@
 				},
 				"Uncommon": {
 					"type": "string"
+				},
+				"Double rare": {
+					"type": "string"
+				},
+				"Illustration rare": {
+					"type": "string"
+				},
+				"Special illustration rare": {
+					"type": "string"
+				},
+				"Hyper rare": {
+					"type": "string"
 				}
 			},
 			"required": [
@@ -95,7 +107,11 @@
 				"Rare",
 				"Secret Rare",
 				"Ultra Rare",
-				"Uncommon"
+				"Uncommon",
+				"Double rare",
+				"Illustration rare",
+				"Special illustration rare",
+				"Hyper rare"
 			]
 		},
 		"stage": {
