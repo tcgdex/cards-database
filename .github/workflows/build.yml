@@ -21,7 +21,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: ghcr.io/${{ github.repository }}
+        images: ghcr.io/tcgdex/server
         tags: |
           type=edge
           type=ref,event=pr
