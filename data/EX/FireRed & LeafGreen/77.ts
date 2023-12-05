@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Rattata",
-		fr: "Rattata"
+		fr: "Rattata",
+		de: "Rattfratz"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Collect"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Draw a card."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Scratch"
 			},
 
 			damage: 10,

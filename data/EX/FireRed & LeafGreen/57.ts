@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Singe",
-				fr: "Roussir"
+				fr: "Roussir",
+				de: "Singe"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "The Defending Pokémon is now Burned."
 			},
 
 		},

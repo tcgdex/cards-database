@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Seel",
-		fr: "Otaria"
+		fr: "Otaria",
+		de: "Jurob"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Hazard",
-				fr: "Chanc'korne"
+				fr: "Chanc'korne",
+				de: "Horn Hazard"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 30,
 

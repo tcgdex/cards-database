@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleepy Ball",
-				fr: "Boule dodo"
+				fr: "Boule dodo",
+				de: "Sleepy Ball"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

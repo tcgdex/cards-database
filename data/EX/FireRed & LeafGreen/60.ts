@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Cubone",
-		fr: "Osselait"
+		fr: "Osselait",
+		de: "Tragosso"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Beat",
-				fr: "Bataille"
+				fr: "Bataille",
+				de: "Beat"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Linear Attack",
-				fr: "Attaque linéaire"
+				fr: "Attaque linéaire",
+				de: "Linear Attack"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				de: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

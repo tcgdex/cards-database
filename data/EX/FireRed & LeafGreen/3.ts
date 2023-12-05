@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Dewgong",
-		fr: "Lamantine"
+		fr: "Lamantine",
+		de: "Jugong"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Safeguard",
-				fr: "Rune protectrice"
+				fr: "Rune protectrice",
+				de: "Safeguard"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Dewgong by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Lamantine par le Pokémon-ex de votre adversaire."
+				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Lamantine par le Pokémon-ex de votre adversaire.",
+				de: "Prevent all effects of attacks, including damage, done to Dewgong by your opponen´s Pokémon-ex."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Cold Breath",
-				fr: "Souffle Froid"
+				fr: "Souffle Froid",
+				de: "Cold Breath"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -60,7 +65,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
-				fr: "Onde boréale"
+				fr: "Onde boréale",
+				de: "Aurora Beam"
 			},
 
 			damage: 40,

@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Gastly",
-		fr: "Fantominus"
+		fr: "Fantominus",
+		de: "Nebulak"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slow Trip Gas",
-				fr: "Gaz ralentisseur"
+				fr: "Gaz ralentisseur",
+				de: "Slow Trip Gas"
 			},
 			effect: {
 				en: "At the end of your opponent's next turn, the Defending Pokémon is now Confused.",
-				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Confus."
+				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Confus.",
+				de: "At the end of your opponent's next turn, the Defending Pokémon is now Confused."
 			},
 
 		},

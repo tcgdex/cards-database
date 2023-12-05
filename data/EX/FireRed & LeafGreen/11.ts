@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Poliwrath",
-		fr: "Tartard"
+		fr: "Tartard",
+		de: "Quappo"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Spiral",
-				fr: "Spirale"
+				fr: "Spirale",
+				de: "Spirale"
 			},
 			effect: {
 				en: "As long as Poliwrath is your Active Pokémon, your opponent's Confused Pokémon can't retreat.",
-				fr: "Tant que Tartard est votre Pokémon Actif, le Pokémon Confus de votre adversaire ne peut pas battre en retraite."
+				fr: "Tant que Tartard est votre Pokémon Actif, le Pokémon Confus de votre adversaire ne peut pas battre en retraite.",
+				de: "Solange Quappo dein Aktives Pokémon ist, können die verwirrten Pokémon deines Gegner sich nicht zurückziehen."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Spiral Punch",
-				fr: "Coup d'poing en demi spirale"
+				fr: "Coup d'poing en demi spirale",
+				de: "Spiralhieb"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -61,11 +66,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Throw",
-				fr: "Méga lancer"
+				fr: "Méga lancer",
+				de: "Mega Wurf"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 50 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokmeon ein Pokémon-ex ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

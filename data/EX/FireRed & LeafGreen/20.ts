@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Cloyster",
-		fr: "Crustabri"
+		fr: "Crustabri",
+		de: "Austos"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Exoskeleton",
-				fr: "Exosquelette"
+				fr: "Exosquelette",
+				de: "Exoskelett"
 			},
 			effect: {
 				en: "Any damage done to Cloyster by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Crustabri par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+				fr: "Les dégâts infligés à Crustabri par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				de: "Jeder Schaden, der Austos durch Angriffe zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -44,13 +47,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Bubble",
-				fr: "Double bulle"
+				fr: "Double bulle",
+				de: "Doppel Seifenblase"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads. If either of the coins is heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces. Si l'un des deux lancers est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces. Si l'un des deux lancers est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Wenn mindestens einer der Münzen \"Kopf\" zeigt, ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -61,7 +66,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Shell Attack",
-				fr: "Carap'attaque"
+				fr: "Carap'attaque",
+				de: "Muschelangriff"
 			},
 
 			damage: 50,
