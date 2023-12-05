@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Probopass",
 		fr: "Tarinorme",
+		de: "Voluminas"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Stealth Rock",
 				fr: "Piège de Roc",
+				de: "Stealth Rock"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Beam",
 				fr: "Ultralaser",
+				de: "Hyper Beam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				de: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
 			},
 			damage: 70,
 

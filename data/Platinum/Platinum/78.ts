@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kricketot",
 		fr: "Crikzik",
+		de: "Zirpurze"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Lullaby",
 				fr: "Comptine",
+				de: "Lullaby"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Rollout"
 			},
 
 			damage: 20,

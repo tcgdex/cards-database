@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hitmonchan",
 		fr: "Tygnon",
+		de: "Nockchan"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Jab",
 				fr: "Taquet",
+				de: "Jab"
 			},
 
 			damage: 20,
@@ -44,6 +46,7 @@ const card: Card = {
 			name: {
 				en: "Special Punch",
 				fr: "Punch spécial",
+				de: "Special Punch"
 			},
 
 			damage: 40,
