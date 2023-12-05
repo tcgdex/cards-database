@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Shell Attack",
-				fr: "Carap'attaque"
+				fr: "Carap'attaque",
+				de: "Panzerangriff"
 			},
 
 			damage: 20,

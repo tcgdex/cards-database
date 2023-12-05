@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Dragonair",
-		fr: "Draco obscur"
+		fr: "Draco obscur",
+		de: "Dunkles Dragonir"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Evolutionary Light",
-				fr: "Lumière évolutive"
+				fr: "Lumière évolutive",
+				de: "Evolutionary Light"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez chercher une carte Évolution dans votre deck. Placez-la dans votre main, puis mélangez votre deck. Ce pouvoir ne peut être utilisé si Draco obscur est Endormi, Confus ou Paralysé."
+				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez chercher une carte Évolution dans votre deck. Placez-la dans votre main, puis mélangez votre deck. Ce pouvoir ne peut être utilisé si Draco obscur est Endormi, Confus ou Paralysé.",
+				de: "Once during your turn (before your attack), you may search your deck for an Evolution card. Shwo it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Strike",
-				fr: "Attaque codale"
+				fr: "Attaque codale",
+				de: "Tail Strike"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
 			},
 			damage: "20+",
 

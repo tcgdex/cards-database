@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Oddish",
-		fr: "Mystherbe"
+		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
-				fr: "Poudre dodo"
+				fr: "Poudre dodo",
+				de: "Sleep Powder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre toxik"
+				fr: "Poudre toxik",
+				de: "Poisonpowder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisoned."
 			}
 
 		},

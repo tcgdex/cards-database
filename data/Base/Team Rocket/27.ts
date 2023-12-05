@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Machamp",
-		fr: "Mackogneur obscur"
+		fr: "Mackogneur obscur",
+		de: "Dunkles Machomei"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Punch",
-				fr: "Ultimapoing"
+				fr: "Ultimapoing",
+				de: "Megahieb"
 			},
 
 			damage: 30,
@@ -51,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fling",
-				fr: "Lancer"
+				fr: "Lancer",
+				de: "Austoben"
 			},
 			effect: {
 				en: "Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon.",
-				fr: "Votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées à son deck. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc."
+				fr: "Votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées à son deck. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc.",
+				de: "Dein Gegnermischt sein oder ihr aktives Pokémon und alle darauf abgelegten Karten in sein oder ihr Deck. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf derBank hat."
 			},
 
 		},

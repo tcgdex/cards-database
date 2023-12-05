@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Raichu",
-		fr: "Raichu obscur"
+		fr: "Raichu obscur",
+		de: "Dunkles Raichu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -37,11 +38,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise Thunder",
-				fr: "Tonnerre surprise"
+				fr: "Tonnerre surprise",
+				de: "Surprise Thunder"
 			},
 			effect: {
 				en: "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, lancez une autre pièce. Si la seconde pièce tombe sur face, cette attaque inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. Si la seconde pièce tombe sur pile, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon du Banc.)"
+				fr: "Lancez une pièce. Si c'est face, lancez une autre pièce. Si la seconde pièce tombe sur face, cette attaque inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. Si la seconde pièce tombe sur pile, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				de: "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 

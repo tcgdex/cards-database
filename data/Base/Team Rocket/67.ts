@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Afternoon Nap",
-				fr: "Siestre"
+				fr: "Siestre",
+				de: "Afernoon Nap"
 			},
 			effect: {
 				en: "Search your deck for a Energy card and attach it to Slowpoke. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à Ramoloss. Mélangez ensuite votre deck."
+				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à Ramoloss. Mélangez ensuite votre deck.",
+				de: "Search your deck for a  Energy card and attach it to Slowpoke. Shuffle your deck afterward."
 			},
 
 		},
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'boule"
+				fr: "Coup d'boule",
+				de: "Headbutt"
 			},
 
 			damage: 10,

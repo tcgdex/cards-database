@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Rocket's Sneak Attack",
-		fr: "Attaque sournoise des Rocket"
+		fr: "Attaque sournoise des Rocket",
+		de: "Rockets Überraschungsangriff"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Regardez la main de votre adversaire. S'il possède des cartes Dresseur, choisissez l'une d'elles. Votre adversaire mélange cette carte dans son deck."
+		fr: "Regardez la main de votre adversaire. S'il possède des cartes Dresseur, choisissez l'une d'elles. Votre adversaire mélange cette carte dans son deck.",
+		de: "Look at your opponent's hand. If he or she has any Trainer cards, choose 1 of them. Your opponent shuffle that card into his or her deck."
 	}
 }
 

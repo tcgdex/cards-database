@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti"
+		fr: "Magneti",
+		de: "Magnetilo"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnetism",
-				fr: "Magnétisme"
+				fr: "Magnétisme",
+				de: "Magnetism"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Magnemite, Magneton, and Dark Magneton on your Bench.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Magneti, Magneton et Magneton obscur de votre Banc."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Magneti, Magneton et Magneton obscur de votre Banc.",
+				de: "Does 10 damage plus 10 more damage for each Magnemite, Megneton and Dark Magneton on your Bench."
 			},
 			damage: "10+",
 

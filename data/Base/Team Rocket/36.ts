@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Gloom",
-		fr: "Ortide obscur"
+		fr: "Ortide obscur",
+		de: "Dunkles Duflor"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Pollen Stench",
-				fr: "Pollen puant"
+				fr: "Pollen puant",
+				de: "Pollengestank"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Confused; if tails, your Active Pokémon is now Confused. This power can't be used if Dark Gloom is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus ; si c'est pile, votre Pokémon Actif est maintenant Confus. Ce pouvoir ne peut être utilisé si Ortide obscur est Endormi, Confus ou Paralysé."
+				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus ; si c'est pile, votre Pokémon Actif est maintenant Confus. Ce pouvoir ne peut être utilisé si Ortide obscur est Endormi, Confus ou Paralysé.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) darfst du eine Münze werfen. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt. Diese Fähigkeit kann nicht gespielt werden, falls Dunkles Duflor schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre toxik"
+				fr: "Poudre toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das vertdidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
