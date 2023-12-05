@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Golem ex",
-		fr: "Grolem ex"
+		fr: "Grolem ex",
+		de: "Geowaz ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnitude",
-				fr: "Ampleur"
+				fr: "Ampleur",
+				de: "Magnitude"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				de: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and resistance for Benched Pokémon.)"
 			},
 			damage: 60,
 
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Double-edge"
 			},
 			effect: {
 				en: "Golem ex does 50 damage to itself.",
-				fr: "Grolem ex s'inflige 50 dégâts."
+				fr: "Grolem ex s'inflige 50 dégâts.",
+				de: "Golem ex does 50 damage to itself."
 			},
 			damage: 120,
 

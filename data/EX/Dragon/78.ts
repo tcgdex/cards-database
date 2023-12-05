@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Trapinch",
-		fr: "Kraknoix"
+		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig",
-				fr: "Tunnel"
+				fr: "Tunnel",
+				de: "Schaufler"
 			},
 
 			damage: 10,

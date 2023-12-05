@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Meditite",
-		fr: "Meditikka"
+		fr: "Meditikka",
+		de: "Meditie"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Koud'poing"
+				fr: "Koud'poing",
+				de: "Punch"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Meditate",
-				fr: "Yoga"
+				fr: "Yoga",
+				de: "Meditate"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
+				de: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
 			},
 			damage: "10+",
 

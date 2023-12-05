@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Crawdaunt",
-		fr: "Colhomard"
+		fr: "Colhomard",
+		de: "Krebutack"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Power Pinchers",
-				fr: "Pinces puissantes"
+				fr: "Pinces puissantes",
+				de: "Kräftige Kneifzangen"
 			},
 			effect: {
 				en: "As long as Crawdaunt is your Active Pokémon, when any of your Active Pokémon does damage to the Defending Pokémon, the attack does 10 more damage (before applying Weakness and Resistance).",
-				fr: "Tant que Colhomard est votre Pokémon Actif, dès qu'un de vos Pokémon Actifs inflige des dégâts aux Pokémon Défenseurs, cette attaque inflige 10 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+				fr: "Tant que Colhomard est votre Pokémon Actif, dès qu'un de vos Pokémon Actifs inflige des dégâts aux Pokémon Défenseurs, cette attaque inflige 10 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				de: "Wenn Krebutack dein Aktives Pokémon ist und eins deiner Aktiven Pokémon einem verteidigenden Pokémon Schaden zufügt, fügt der Angriff 10 weitere Schadenspunkte zu. (bevor Schwäche und Resistenz verrechnet wurden.)"
 			},
 		},
 	],
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Guillotine",
-				fr: "Guillotine"
+				fr: "Guillotine",
+				de: "Guillotine"
 			},
 
 			damage: 50,
