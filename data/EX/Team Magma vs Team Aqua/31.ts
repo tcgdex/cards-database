@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Sealeo",
-		fr: "Phogleur de Team Aqua"
+		fr: "Phogleur de Team Aqua",
+		de: "Team Aquas Seejong"
 	},
 	illustrator: "T. Honda",
 	rarity: "Uncommon",
@@ -30,7 +31,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Aurora Beam",
-				fr: "Onde boréale"
+				fr: "Onde boréale",
+				de: "Aurora Beam"
 			},
 
 			damage: 20,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Knock Over",
-				fr: "Culbute"
+				fr: "Culbute",
+				de: "Knock Over"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
-				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu."
+				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
+				de: "You may discard any Stadium card in play."
 			},
 			damage: 40,
 

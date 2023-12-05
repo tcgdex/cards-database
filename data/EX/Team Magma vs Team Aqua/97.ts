@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Jirachi",
-		fr: "Jirachi"
+		fr: "Jirachi",
+		de: "Jirachi"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnoblast",
-				fr: "Hypnosion"
+				fr: "Hypnosion",
+				de: "Hypnoblast"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
-				fr: "Météores"
+				fr: "Météores",
+				de: "Swift"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies or any other effects on the Defending Pokémon."
 			},
 			damage: 20,
 

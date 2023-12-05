@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
-				fr: "Hâte"
+				fr: "Hâte",
+				de: "Agility"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Pikachu."
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Pikachu.",
+				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
-				fr: "Éclair"
+				fr: "Éclair",
+				de: "Thundershock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

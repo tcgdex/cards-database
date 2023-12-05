@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Corphish",
-		fr: "Écrapince de Team Aqua"
+		fr: "Écrapince de Team Aqua",
+		de: "Team Aquas Krebscorps"
 	},
 	illustrator: "Jungo Suzuki",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Slash"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slow-Acting Poison",
-				fr: "Poison à effet retardé"
+				fr: "Poison à effet retardé",
+				de: "Slow-Acting Poison"
 			},
 			effect: {
 				en: "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned.",
-				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Empoisonné."
+				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Empoisonné.",
+				de: "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 

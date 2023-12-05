@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Spheal",
-		fr: "Obalie de Team Aqua"
+		fr: "Obalie de Team Aqua",
+		de: "Team Aquas Seemops"
 	},
 	illustrator: "Nakaoka",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Powder Snow",
-				fr: "Poudreuse"
+				fr: "Poudreuse",
+				de: "Powder Snow"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

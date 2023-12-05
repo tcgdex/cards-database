@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		fr: "Bulbizarre",
+		de: "Bisasam"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Growth",
-				fr: "Croissance"
+				fr: "Croissance",
+				de: "Growth"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Bulbasaur.",
-				fr: "Attachez une carte Énergie  de votre main à Bulbizarre."
+				fr: "Attachez une carte Énergie  de votre main à Bulbizarre.",
+				de: "Attach a  Energy card from your hand to Bulbasaur."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				fr: "Tranch'herbe",
+				de: "Razor Leaf"
 			},
 
 			damage: 10,

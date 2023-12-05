@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Entei ex",
-		fr: "Entei ex"
+		fr: "Entei ex",
+		de: "Entei ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
-				fr: "Flammes calcinantes"
+				fr: "Flammes calcinantes",
+				de: "Searing Flame"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
 			},
 			damage: 10,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bright Flame",
-				fr: "Flamme éclatante"
+				fr: "Flamme éclatante",
+				de: "Bright Flame"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Entei ex.",
-				fr: "Défaussez 2 Énergies attachées à Entei ex."
+				fr: "Défaussez 2 Énergies attachées à Entei ex.",
+				de: "Discard 2 Energy attached to Entei ex."
 			},
 			damage: 90,
 
