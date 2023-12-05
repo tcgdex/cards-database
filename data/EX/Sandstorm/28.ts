@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Anorith",
-		fr: "Anorith"
+		fr: "Anorith",
+		de: "Anorith"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -45,13 +47,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Scratch",
-				fr: "Double écorchure"
+				fr: "Double écorchure",
+				de: "Doppelkratzer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face."
+				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "40×",
+			damage: "40x",
 
 		},
 	],

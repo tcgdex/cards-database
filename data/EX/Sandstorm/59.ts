@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Cyndaquil",
-		fr: "Héricendre"
+		fr: "Héricendre",
+		de: "Feurigel"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -41,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Singe",
-				fr: "Roussir"
+				fr: "Roussir",
+				de: "Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 		},

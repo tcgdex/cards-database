@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Sandshrew",
-		fr: "Sabelette"
+		fr: "Sabelette",
+		de: "Sandan"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Needle",
-				fr: "Dard-venin"
+				fr: "Dard-venin",
+				de: "Poison Needle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 

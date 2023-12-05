@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Cacnea",
-		fr: "Cacnea"
+		fr: "Cacnea",
+		de: "Tuska"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Poison Payback",
-				fr: "Retour de poison"
+				fr: "Retour de poison",
+				de: "Giftige Abrechnung"
 			},
 			effect: {
 				en: "If Cacnea is your Active Pokémon and is damaged by an opponent's attack (even if Cacnea is Knocked Out), the Attacking Pokémon is now Poisoned.",
-				fr: "Si Cacnea est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Cacnea est mis K.O), le Pokémon Attaquant est maintenant Empoisonné."
+				fr: "Si Cacnea est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Cacnea est mis K.O), le Pokémon Attaquant est maintenant Empoisonné.",
+				de: "Wenn Tuska dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird ( auch wenn Tuska kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
 			},
 		},
 	],
@@ -41,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Light Punch",
-				fr: "Poing léger"
+				fr: "Poing léger",
+				de: "Leichter Hieb"
 			},
 
 			damage: 10,

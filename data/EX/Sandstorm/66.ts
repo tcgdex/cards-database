@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Lotad",
-		fr: "Nenupiot"
+		fr: "Nenupiot",
+		de: "Loturzel"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Rain Dish",
-				fr: "Cuvette"
+				fr: "Cuvette",
+				de: "Regengenuss"
 			},
 			effect: {
 				en: "At any time between turns, remove 1 damage counter from Lotad.",
-				fr: "N'importe quand entre deux tours, retirez à Nenupiot un marqueur de dégât."
+				fr: "N'importe quand entre deux tours, retirez à Nenupiot un marqueur de dégât.",
+				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Loturzel."
 			},
 		},
 	],
@@ -41,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,

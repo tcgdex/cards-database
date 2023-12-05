@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Lombre",
-		fr: "Lombre"
+		fr: "Lombre",
+		de: "Lombrero"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Rain Dish",
-				fr: "Cuvette"
+				fr: "Cuvette",
+				de: "Rain Dish"
 			},
 			effect: {
 				en: "At any time between turns, remove 1 damage counter from Lombre.",
-				fr: "N'importe quand entre deux tours, retirez à Lombre un marqueur de dégât."
+				fr: "N'importe quand entre deux tours, retirez à Lombre un marqueur de dégât.",
+				de: "At any time between turns, remove 1 damage counter from Lombre."
 			},
 		},
 	],
@@ -44,13 +47,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Scratch",
-				fr: "Double écorchure"
+				fr: "Double écorchure",
+				de: "Double Scratch"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de face."
+				fr: "Lancez deux pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de face.",
+				de: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 	],

@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skelenox"
+		fr: "Skelenox",
+		de: "Zwirrlicht"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Haunt",
-				fr: "Hanter"
+				fr: "Hanter",
+				de: "Haunt"
 			},
 			effect: {
 				en: "Put 1 damage counter on the Defending Pokémon.",
-				fr: "Placez un marqueur de dégât sur le Pokémon Défenseur."
+				fr: "Placez un marqueur de dégât sur le Pokémon Défenseur.",
+				de: "Put 1 damage counter on the Defending Pokémon."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Mind",
-				fr: "Sombre-esprit"
+				fr: "Sombre-esprit",
+				de: "Dark Mind"
 			},
 			effect: {
 				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à un des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
+				fr: "Inflige 10 dégâts à un des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				de: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 10,
 
