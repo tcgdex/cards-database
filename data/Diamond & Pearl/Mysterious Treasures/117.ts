@@ -21,6 +21,7 @@ const card: Card = {
 	},
 
 	abilities: [{
+		type: 'Poke-BODY',
 		name: {
 			de: "Schädelstein"
 		},
