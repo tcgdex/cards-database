@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Rhyhorn",
-		fr: "Rhinocorne"
+		fr: "Rhinocorne",
+		de: "Rihorn"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Stab",
-				fr: "Coup double"
+				fr: "Coup double",
+				de: "Double Stab"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				de: "Take Down"
 			},
 			effect: {
 				en: "Rhyhorn does 10 damage to itself.",
-				fr: "Rhinocorne s'inflige 10 dégâts."
+				fr: "Rhinocorne s'inflige 10 dégâts.",
+				de: "Rhyhorn does 10 damage to itself."
 			},
 			damage: 50,
 

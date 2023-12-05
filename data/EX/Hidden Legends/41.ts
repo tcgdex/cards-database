@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Strikes Back",
-				fr: "Contre-attaque"
+				fr: "Contre-attaque",
+				de: "Strikes Back"
 			},
 			effect: {
 				en: "If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon.",
-				fr: "Si Machopeur est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Machopeur est mis K.O), placez 1 marqueur de dégât sur le Pokémon Attaquant."
+				fr: "Si Machopeur est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Machopeur est mis K.O), placez 1 marqueur de dégât sur le Pokémon Attaquant.",
+				de: "If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon."
 			},
 		},
 	],
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
-				fr: "Balayage"
+				fr: "Balayage",
+				de: "Low Kick"
 			},
 
 			damage: 30,

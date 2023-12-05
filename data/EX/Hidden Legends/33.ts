@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Dodrio",
-		fr: "Dodrio"
+		fr: "Dodrio",
+		de: "Dodri"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Fast Feet",
-				fr: "Fugafacile"
+				fr: "Fugafacile",
+				de: "Fast Feet"
 			},
 			effect: {
 				en: "Dodrio can retreat even when it is Asleep or Paralyzed.",
-				fr: "Dodrio peut battre en retraite même s'il est Endormi ou Paralysé."
+				fr: "Dodrio peut battre en retraite même s'il est Endormi ou Paralysé.",
+				de: "Dodrio can retreat even when it is Asleep or Paralyzed."
 			},
 		},
 	],
@@ -44,13 +47,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Retaliate",
-				fr: "Représailles"
+				fr: "Représailles",
+				de: "Retaliate"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Dodrio.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Dodrio."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Dodrio.",
+				de: "Does 10 damage times the number of damage counters on Dodrio."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -60,11 +65,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Strike",
-				fr: "Coup déchirant"
+				fr: "Coup déchirant",
+				de: "Slashing Strike"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Dodrio can't use Slashing Strike during your next turn.",
-				fr: "Lancez une pièce. Si c'est pile, Dodrio ne peut pas utiliser Coup déchirant lors de votre prochain tour."
+				fr: "Lancez une pièce. Si c'est pile, Dodrio ne peut pas utiliser Coup déchirant lors de votre prochain tour.",
+				de: "Flip a coin. If tails, Dodrio can't use Slashing Strike during your next turn."
 			},
 			damage: 40,
 

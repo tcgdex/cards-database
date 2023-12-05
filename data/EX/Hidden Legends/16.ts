@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Bellossom",
-		fr: "Joliflor"
+		fr: "Joliflor",
+		de: "Blubella"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Heal Dance",
-				fr: "Danse guérisseuse"
+				fr: "Danse guérisseuse",
+				de: "Heal Dance"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poké-Power each turn. This power can't be used if Bellossom is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 de vos Pokémon. Vous ne pouvez pas utiliser Danse guérisseuse plus d'une fois même s'il y a plus d'1 Joliflor en jeu. Ce pouvoir ne peut pas être utilisé si Joliflor est affecté par un État Spécial."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 de vos Pokémon. Vous ne pouvez pas utiliser Danse guérisseuse plus d'une fois même s'il y a plus d'1 Joliflor en jeu. Ce pouvoir ne peut pas être utilisé si Joliflor est affecté par un État Spécial.",
+				de: "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poké-Power each turn. This power can't be used if Bellossom is affected by a Special Condition."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Miracle Powder",
-				fr: "Poudre miracle"
+				fr: "Poudre miracle",
+				de: "Miracle Powder"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial."
+				fr: "Lancez une pièce. Si c'est face, choisissez 1 État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
+				de: "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition."
 			},
 			damage: 10,
 
@@ -60,7 +65,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Solarbeam",
-				fr: "Lance-soleil"
+				fr: "Lance-soleil",
+				de: "Solarbeam"
 			},
 
 			damage: 50,

@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Oddish",
-		fr: "Mystherbe"
+		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -27,15 +28,20 @@ const card: Card = {
 			cost: [
 				"Colorless",
 			],
+
 			name: {
 				en: "Poisonpowder",
-				fr: "Poudre Toxik"
-			},
-			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Poudre Toxik",
+				de: "Poisenpowder"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+			},
+
+			damage: 10
 		},
 		{
 			cost: [
@@ -43,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				fr: "Tranch'herbe",
+				de: "Razor Leaf"
 			},
 
 			damage: 10,
