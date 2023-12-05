@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aipom",
 		fr: "Capumain",
+		de: "Griffel"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Last Resort",
 				fr: "Dernierecour",
+				de: "Zuflucht"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 

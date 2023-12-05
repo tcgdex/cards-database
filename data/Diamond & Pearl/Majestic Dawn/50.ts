@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aipom",
 		fr: "Capumain",
+		de: "Griffel"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe eine Karte."
 			},
 
 		},
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Hand Trick",
 				fr: "Coup de la main",
+				de: "Handkniff"
 			},
 			effect: {
 				en: "Return Aipom and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)",
 				fr: "Reprenez Capumain dans votre main ainsi que toutes les cartes qui lui sont attachées. (Si vous ne possédez pas de Pokémon de Banc, cette attaque est sans effet.)",
+				de: "Nimm Griffel und alle an es angelegten Karten zurück auf die Hand. (Dieser Angriff hat keine Auswirkungen, wenn du keine Pokémon auf der Bank hast.)"
 			},
 			damage: 20,
 

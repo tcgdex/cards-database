@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Umbreon",
 		fr: "Noctali",
+		de: "Nachtara"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Moonlight Veil",
 				fr: "Voile lunaire",
+				de: "Mondschleier"
 			},
 			effect: {
 				en: "Each of your Pokémon that evolves from Eevee has no Weakness, and that Pokémon's Retreat Cost is 0.",
 				fr: "Chacun de vos Pokémon évoluant d'Evoli ne possède pas de Faiblesse et a un Coût de retraite de 0.",
+				de: "Jedes deiner Pokémon, das sich aus Evoli entwickelt hat, hat keine Schwäche mehr, und Rückzugskosten 0."
 			},
 		},
 	],
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
+				de: "Konfusstrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 50,
 

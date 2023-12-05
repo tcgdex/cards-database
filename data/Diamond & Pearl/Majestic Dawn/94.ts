@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Health Energy",
 		fr: "Énergie santé",
+		de: "Heil-Energie"
 	},
 	illustrator: "Takumi Akabane",
 	rarity: "Uncommon",
@@ -24,6 +25,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Énergie santé fournit de l'Énergie Colorless. Lorsque vous attachez cette carte de votre main à 1 de vos Pokémon, retirez-lui 1 marqueur de dégât.",
+		de: "Heil-Energie liefert -Energie. Wenn du diese Karte von deiner Hand an 1 deiner Pokémon anlegst, entferne 1 Schadensmarke von diesem Pokémon."
 	},
 
 energyType: "Special",

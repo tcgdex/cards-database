@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Spearow",
 		fr: "Piafabec",
+		de: "Habitak"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Claw",
 				fr: "Mâchoire",
+				de: "Klaue"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
