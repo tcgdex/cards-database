@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Dragonite",
-		fr: "Dracolosse"
+		fr: "Dracolosse",
+		de: "Dragoran"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Step In",
-				fr: "Intervention"
+				fr: "Intervention",
+				de: "Einfligen"
 			},
 			effect: {
 				en: "Once during your turn (before you attack) if Dragonite is on your Bench, you may switch it with your Active Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Dracolosse est sur votre Banc, vous pouvez l'échanger avec votre Pokémon Actif."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si Dracolosse est sur votre Banc, vous pouvez l'échanger avec votre Pokémon Actif.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Dragoran auf deiner Bank sitzt, es mit deinem aktiven Pokémon austauschen."
 			},
 		},
 	],
@@ -52,13 +55,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Slam",
-				fr: "Souplesse"
+				fr: "Souplesse",
+				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 40 Schadenspunkte zu."
 			},
-			damage: "40×",
+			damage: "40x",
 
 		},
 	],

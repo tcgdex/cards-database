@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Transparency",
-				fr: "Transparence"
+				fr: "Transparence",
+				de: "Durchschaubarkeit"
 			},
 			effect: {
 				en: "Whenever an attack does anything to Haunter, flip a coin. If heads, prevent all effects of that attack, including damage, done to Haunter. This power stops working while Haunter is Asleep.",
-				fr: "À chaque fois qu'une attaque affecte Spectrum, lancez une pièce. Si c'est face, prévenez tous les effets de cette attaque, y compris les dégâts, infligés à Spectrum. L'effet de ce pouvoir cesse lorsque Spectrum est Endormi, Confus ou Paralysé."
+				fr: "À chaque fois qu'une attaque affecte Spectrum, lancez une pièce. Si c'est face, prévenez tous les effets de cette attaque, y compris les dégâts, infligés à Spectrum. L'effet de ce pouvoir cesse lorsque Spectrum est Endormi, Confus ou Paralysé.",
+				de: "Immer wenn Alpollo angegriffen wird, kannst du eine Münze werfen. Bei 'Kopf' verhindere alle Auswirkungen dieses Angriffs auf Alpollo (einschließlich der Schadenspunkte). Diese Fähigkeit verliert ihre Wirkung, solange Alpollo schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Nightmare",
-				fr: "Cauchemar"
+				fr: "Cauchemar",
+				de: "Alptraum"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 

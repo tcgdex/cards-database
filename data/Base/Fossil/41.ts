@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Sandslash",
-		fr: "Sablaireau"
+		fr: "Sablaireau",
+		de: "Sandamer"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -49,13 +51,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
-				fr: "Combo-griffe"
+				fr: "Combo-griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt 20 Schadenspunkte zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

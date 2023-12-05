@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Gengar",
-		fr: "Ectoplasma"
+		fr: "Ectoplasma",
+		de: "Gengar"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -51,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Mind",
-				fr: "Sombre-esprit"
+				fr: "Sombre-esprit",
+				de: "Finsteres Gemüt"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)"
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)",
+				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 30,
 

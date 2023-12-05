@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Raichu",
-		fr: "Raichu"
+		fr: "Raichu",
+		de: "Raichu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -38,11 +39,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Gigashock",
-				fr: "Éléctrochok"
+				fr: "Éléctrochok",
+				de: "Gigaschock"
 			},
 			effect: {
 				en: "Choose 3 of your opponent's Benched Pokémon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) If your opponent has fewer than 3 Benched Pokémon, do the damage to each of them.",
-				fr: "Choisissez 3 Pokémon du Banc de votre adversaire et cette attaque inflige 10 dégâts à chacun d'eux. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Si votre adversaire a moins de 3 Pokémon, infligez les dégâts à chacun d'eux."
+				fr: "Choisissez 3 Pokémon du Banc de votre adversaire et cette attaque inflige 10 dégâts à chacun d'eux. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Si votre adversaire a moins de 3 Pokémon, infligez les dégâts à chacun d'eux.",
+				de: "Wähle 3 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt jedem von ihnen 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Falls dein Gegner weniger als 3 Pokémon auf seiner Bank hat, teile die Schadenspunkte an jedes von ihnen aus."
 			},
 			damage: 30,
 

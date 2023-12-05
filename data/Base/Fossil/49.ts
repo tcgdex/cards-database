@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Horsea",
-		fr: "Hypotrempe"
+		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Smokescreen",
-				fr: "Brouillard"
+				fr: "Brouillard",
+				de: "Rauchwolke"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque n'a aucun effet."
+				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque n'a aucun effet.",
+				de: "Falls das verteidgende Pokémon während des nächsten gegnerischen Zuges anzugreifen veruscht, wirft dein Gegner eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 

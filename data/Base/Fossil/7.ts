@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Hitmonlee",
-		fr: "Kicklee"
+		fr: "Kicklee",
+		de: "Kicklee"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stretch Kick",
-				fr: "Allonge"
+				fr: "Allonge",
+				de: "Streckkick"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 20 dégâts. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 20 dégâts. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				de: "Falls dein Gewgner irgendwelche Pokémon auf seiner Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 20 Schadenspunkte zu (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden)"
 			}
 
 		},
@@ -48,7 +51,8 @@ const card: Card = {
 			],
 			name: {
 				en: "High Jump Kick",
-				fr: "Pied Voltige"
+				fr: "Pied Voltige",
+				de: "Turmkick"
 			},
 
 			damage: 50,
