@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Raichu δ",
-		fr: "Raichu δ ESPÈCES DELTA"
+		fr: "Raichu δ ESPÈCES DELTA",
+		de: "Raichu"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Zzzap",
-				fr: "Zzzap"
+				fr: "Zzzap",
+				de: "Zzzapp!"
 			},
 			effect: {
 				en: "Does 20 damage to each Pokémon that has any Poké-Powers or Poké-Bodies (both yours and your opponent's). Don't apply Weakness or Resistance.",
-				fr: "Inflige 20 dégâts à chaque Pokémon possédant des Poké-Powers ou des Poké-Bodies (les vôtres et ceux de votre adversaire). Vous ne pouvez pas appliquer la Faiblesse ou la Résistance."
+				fr: "Inflige 20 dégâts à chaque Pokémon possédant des Poké-Powers ou des Poké-Bodies (les vôtres et ceux de votre adversaire). Vous ne pouvez pas appliquer la Faiblesse ou la Résistance.",
+				de: "Dieser Angriff fügt jedem Pokémon im Spiel, das Poké-Power oder Poké-Body hat, 20 Schadenspunkte zu (deinen und den gegnerischen). Wende Schwäche und Resistenz nicht an."
 			},
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Metallic Thunder",
-				fr: "Tonnerre métallique"
+				fr: "Tonnerre métallique",
+				de: "Metallischer Donner"
 			},
 			effect: {
 				en: "You may discard 2 Metal Energy attached to Raichu. If you do, this attack's base damage is 90 instead of 50.",
-				fr: "Vous pouvez défausser 2 Énergies  attachées à Raichu. Les dégâts de base de cette attaque sont alors de 90 au lieu de 50."
+				fr: "Vous pouvez défausser 2 Énergies  attachées à Raichu. Les dégâts de base de cette attaque sont alors de 90 au lieu de 50.",
+				de: "Du kannst 2 -Energien, die an Raichu angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 90 Schadenspunkte anstelle von 50 Schadenspunkten."
 			},
 			damage: 50,
 

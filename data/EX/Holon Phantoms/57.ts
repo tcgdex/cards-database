@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Anorith δ",
-		fr: "Anorith δ ESPÈCES DELTA"
+		fr: "Anorith δ ESPÈCES DELTA",
+		de: "Anorith"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
-				fr: "Griffe acier"
+				fr: "Griffe acier",
+				de: "Metallklaue"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Lunge",
-				fr: "Botte secrète"
+				fr: "Botte secrète",
+				de: "Aufwärtsstoß"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

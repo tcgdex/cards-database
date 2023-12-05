@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Regirock",
-		fr: "Regirock"
+		fr: "Regirock",
+		de: "Regirock"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Clear Body",
-				fr: "Corps sain"
+				fr: "Corps sain",
+				de: "Neutraltorso"
 			},
 			effect: {
 				en: "Regirock can't be affected by any Special Conditions.",
-				fr: "Regirock ne peut pas être affecté par des États Spéciaux."
+				fr: "Regirock ne peut pas être affecté par des États Spéciaux.",
+				de: "Regirock kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Slide",
-				fr: "Éboulement"
+				fr: "Éboulement",
+				de: "Steinhagel"
 			},
 			effect: {
 				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 2 gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu (1 falls nur 1 vorhanden). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 

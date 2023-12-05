@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Psyduck δ",
-		fr: "Psykokwak δ ESPÈCES DELTA"
+		fr: "Psykokwak δ ESPÈCES DELTA",
+		de: "Enton"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -41,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Disable",
-				fr: "Entrave"
+				fr: "Entrave",
+				de: "Aussetzer"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
+				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann diesen Angriff im nächsten Zug deines Gegners nicht einsetzen."
 			},
 
 		},

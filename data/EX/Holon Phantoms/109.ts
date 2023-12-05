@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
-		fr: "Énergie Psy"
+		fr: "Énergie Psy",
+		de: "Psychoenergie"
 	},
 	illustrator: undefined,
 	rarity: "Rare",
