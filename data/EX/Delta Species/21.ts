@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Holon's Electrode",
-		fr: "Electrode d'Holon"
+		fr: "Electrode d'Holon",
+		de: "Holon-Lektrobal"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Blast",
-				fr: "Explosion de lumière"
+				fr: "Explosion de lumière",
+				de: "Blendende Explosion"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 

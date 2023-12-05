@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Rapidash",
-		fr: "Galopa"
+		fr: "Galopa",
+		de: "Gallopa"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Singe",
-				fr: "Ça sent le roussi!"
+				fr: "Ça sent le roussi!",
+				de: "Super Singe"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "The Defending Pokémon is now Burned."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stomp",
-				fr: "Écrasement"
+				fr: "Écrasement",
+				de: "Stomp"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage."
 			},
 			damage: "30+",
 

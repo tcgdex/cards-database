@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Starmie δ",
-		fr: "Staross δ ESPÈCES DELTA"
+		fr: "Staross δ ESPÈCES DELTA",
+		de: "Starmie"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Surf",
-				fr: "Surf"
+				fr: "Surf",
+				de: "Surf"
 			},
 
 			damage: 20,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
-				fr: "Météores"
+				fr: "Météores",
+				de: "Swift"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 50,
 

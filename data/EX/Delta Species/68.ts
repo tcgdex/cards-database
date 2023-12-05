@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Eevee δ",
-		fr: "Evoli δ ESPÈCES DELTA"
+		fr: "Evoli δ ESPÈCES DELTA",
+		de: "Evoli"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Scoop",
-				fr: "Pelle métallique"
+				fr: "Pelle métallique",
+				de: "Metal Scoop"
 			},
 			effect: {
 				en: "Search your discard pile for a Metal Energy card and attach it to Eevee.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à Evoli."
+				fr: "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à Evoli.",
+				de: "Search your discard pile for a  Energy card and attach it to Eevee."
 			},
 			damage: 10,
 

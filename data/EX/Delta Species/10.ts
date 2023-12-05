@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Marowak δ",
-		fr: "Ossatueur δ ESPÈCES DELTA"
+		fr: "Ossatueur δ ESPÈCES DELTA",
+		de: "Knogga"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Bone",
-				fr: "Énergie-os"
+				fr: "Énergie-os",
+				de: "Energieknochen"
 			},
 			effect: {
 				en: "Choose a number of your opponent's Pokémon up to the amount of Energy attached to Marowak. This attack does 20 damage to each of them.",
-				fr: "Vous pouvez choisir autant de Pokémon de votre adversaire qu'il y a d'Énergie attachée à Ossatueur. Cette attaque inflige 20 dégâts à chacun de ces Pokémon."
+				fr: "Vous pouvez choisir autant de Pokémon de votre adversaire qu'il y a d'Énergie attachée à Ossatueur. Cette attaque inflige 20 dégâts à chacun de ces Pokémon.",
+				de: "Wähle eine Anzahl gegnerischer Pokémon, die maximal der Anzahl der an Knogga angelegten Energiekarten entspricht. Dieser Angriff fügt jedem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Crusher",
-				fr: "Écrase-métal"
+				fr: "Écrase-métal",
+				de: "Metallzermalmer"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Metal Pokémon, this attack's base damage is 90.",
-				fr: "Si le Pokémon Défenseur est un Pokémon , les dégâts de base de cette attaque sont de 90."
+				fr: "Si le Pokémon Défenseur est un Pokémon , les dégâts de base de cette attaque sont de 90.",
+				de: "Wenn das Verteidigende Pokémon ein -Pokémon ist, fügt dieser Angriff 90 Schadenspunkte zu."
 			},
 			damage: 50,
 
