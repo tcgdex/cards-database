@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Vulpix",
-		fr: "Goupix"
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect Fire",
-				fr: "Quête du feu"
+				fr: "Quête du feu",
+				de: "Feuersammeln"
 			},
 			effect: {
 				en: "If there are any Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Vulpix.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Goupix."
+				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Goupix.",
+				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" 1 davon an Vulpix an."
 			},
 			damage: 10,
 

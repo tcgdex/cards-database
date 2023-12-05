@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
-				fr: "Flammèche"
+				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Discard a Energy card attached to Ponyta.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Ponyta."
+				fr: "Défaussez-vous d'une carte Énergie  attachée à Ponyta.",
+				de: "Lege 1 an Ponita angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 

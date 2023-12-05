@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Larvitar",
-		fr: "Embrylex"
+		fr: "Embrylex",
+		de: "Larvitar"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mountain Eater",
-				fr: "Croque-montagne"
+				fr: "Croque-montagne",
+				de: "Bergfresser"
 			},
 			effect: {
 				en: "Your opponent discards the top card from his or her deck. Then you remove a damage counter from Larvitar.",
-				fr: "Votre adversaire se défausse de la carte du dessus de son deck. Retirez ensuite un marqueur de dégâts de Embrylex."
+				fr: "Votre adversaire se défausse de la carte du dessus de son deck. Retirez ensuite un marqueur de dégâts de Embrylex.",
+				de: "Dein Gegner legt die oberste Karte seines Decks auf seinen Ablagestapel. Dann entfernst du eine Schadensmarke von Larvitar."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Lunge",
-				fr: "Botte secrète"
+				fr: "Botte secrète",
+				de: "Aufwärtsstoß"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
