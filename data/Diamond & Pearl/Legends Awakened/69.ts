@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Piloswine",
 		fr: "Cochignon",
+		de: "Keifel"
 	},
 
 	illustrator: "Midori Harada",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Charge Dash",
 				fr: "Attaque précipitée",
+				de: "Sturmlauf"
 			},
 			effect: {
 				en: "You may do 30 damage plus 30 more damage. If you do, Piloswine does 30 damage to itself.",
 				fr: "Vous pouvez infliger 30 dégâts plus 30 dégâts supplémentaires. Cochignon s'inflige alors 30 dégâts.",
+				de: "Du kannst mit diesem Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zufügen. Wenn du das machst, fügt Keifel sich selbst 30 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Icy Wind",
 				fr: "Vent glacé",
+				de: "Eissturm"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 60,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Uxie",
 		fr: "Créhelf",
+		de: "Selfe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Set Up",
 				fr: "Mise en place",
+				de: "Aufbauen"
 			},
 			effect: {
 				en: "Once during your turn, when you put Uxie from your hand onto your Bench, you may draw cards until you have 7 cards in your hand.",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Créhelf de votre main sur votre Banc, vous pouvez piocher des cartes jusqu'à ce que vous ayez 7 cartes en main.",
+				de: "Einmal während deines Zuges kannst du, wenn du Selfe von deiner Hand auf deine Bank legst, so viele Karten ziehen, bis du 7 Karten auf der Hand hast."
 			},
 		},
 	],
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Psychic Restore",
 				fr: "Restitution psy",
+				de: "Psycho-Erneuerung"
 			},
 			effect: {
 				en: "You may put Uxie and all cards attached to it on the bottom of your deck in any order.",
 				fr: "Vous pouvez placer Créhelf ainsi que toutes les cartes qui lui sont attachées au dessous de votre deck dans n'importe quel ordre.",
+				de: "Du kannst Selfe und alle an es angelegten Karten in beliebiger Reihenfolge unter dein Deck legen."
 			},
 			damage: 20,
 

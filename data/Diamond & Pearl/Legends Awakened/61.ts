@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lucario",
 		fr: "Lucario",
+		de: "Lucario"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Focus Blast",
 				fr: "Exploforce",
+				de: "Fokusstoß"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Spike Lariat",
 				fr: "Lasso à piques",
+				de: "Stachellasso"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 60 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 

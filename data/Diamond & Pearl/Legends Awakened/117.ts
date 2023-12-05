@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud'poing",
+				de: "Boxhieb"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 30,

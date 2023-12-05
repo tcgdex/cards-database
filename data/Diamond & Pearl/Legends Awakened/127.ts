@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
+		de: "Ultrigaria"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -49,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 40,

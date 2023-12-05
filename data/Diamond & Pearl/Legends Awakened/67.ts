@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ninjask",
 		fr: "Ninjask",
+		de: "Ninjask"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Cast-off Shell",
 				fr: "Coquille libérante",
+				de: "Panzer abwerfen"
 			},
 			effect: {
 				en: "Once during your turn, when you play Ninjask from your hand to evolve 1 of your Pokémon and if your Bench isn't full, you may put Shedinja onto your Bench as a Basic Pokémon from your hand or your discard pile.",
 				fr: "Une seule fois lors de votre tour, lorsque vous jouez Ninjask de votre main pour faire évoluer 1 de vos Pokémon et si votre Banc n'est pas plein, vous pouvez placer Munja sur votre Banc comme Pokémon de base de votre main ou votre pile de défausse.",
+				de: "Einmal während deines Zuges, wenn du Ninjask von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, und deine Bank nicht voll besetzt ist, kannst du 1 Ninjatom-Karte aus deiner Hand oder deinem Ablagestapel als ein Basis-Pokémon auf deine Bank legen."
 			},
 		},
 	],
@@ -51,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Chip Off",
 				fr: "Grignoter",
+				de: "Abspalten"
 			},
 			effect: {
 				en: "If your opponent has 6 or more cards in his or her hand, discard a number of cards without looking until your opponent has 5 cards left in his or her hand.",
 				fr: "Si votre adversaire possède au moins 6 cartes en main, défaussez des cartes sans regarder jusqu'à ce qu'il ne lui reste plus que 5 cartes en main.",
+				de: "Wenn dein Gegner mindestens 6 Karten auf der Hand hat, wähle davon so viele Karten (ohne sie dir vorher anzusehen) und lege sie auf den Ablagestapel deines Gegners, bis dein Gegner nur noch 5 Karten auf der Hand hat."
 			},
 			damage: 30,
 

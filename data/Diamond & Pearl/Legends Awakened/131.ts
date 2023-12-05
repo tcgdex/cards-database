@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cynthia's Feelings",
 		fr: "Les sentiments de Cynthia",
+		de: "Cynthias Gefühle"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -24,6 +25,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
+		de: "Mische deine Handkarten in dein Deck. Ziehe danach 4 Karten. Wenn mindestens 1 deiner Pokémon im letzten Zug deines Gegners kampfunfähig wurde, ziehe 4 weitere Karten."
 	},
 	trainerType: "Supporter",
 

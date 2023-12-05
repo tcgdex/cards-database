@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Spoink",
 		fr: "Spoink",
+		de: "Spoink"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Psybeam",
 				fr: "Rafale psy",
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Bounce",
 				fr: "Faire des bonds",
+				de: "Sprungfeder"
 			},
 			effect: {
 				en: "You may switch Spoink with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Spoink avec 1 des Pokémon de votre Banc.",
+				de: "Du kannst Spoink gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 20,
 
