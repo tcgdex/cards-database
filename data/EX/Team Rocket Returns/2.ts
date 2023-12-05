@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Ampharos",
+		de: "Dunkles Ampharos"
 	},
 	illustrator: "Emi Miwa",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Darkest Impulse",
+				de: "Darkest Impulse"
 			},
 			effect: {
 				en: "As long as Dark Ampharos is in play, whenever your opponent plays an Evolution card from his or her hand to evolve 1 of his or her Pokémon, put 2 damage counters on that Pokémon. You can't use more than 1 Darkest Impulse Poké-Body each turn.",
+				de: "As long as Dark Ampharos is in play, whenever your opponent plays an Evolution card from his or her hand to evolve 1 of his or her Pokémon, put 2 damage counters on that Pokémon. You can't use more than 1 Darest Impulse Poke-Body each turn."
 			},
 		},
 	],
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
+				de: "Ram"
 			},
 
 			damage: 30,
@@ -55,9 +59,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Shock Bolt",
+				de: "Shock Bolt"
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to Dark Ampharos.",
+				de: "Discard all  Energy attached to Dark Ampharos."
 			},
 			damage: 70,
 

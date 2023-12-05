@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Grimer",
+		de: "Sleima"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Taunt",
+				de: "Taunt"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
+				de: "Choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spit Poison",
+				de: "Spit Poison"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				de: "The Defending Pokémo is now Poisoned."
 			},
 			damage: 10,
 

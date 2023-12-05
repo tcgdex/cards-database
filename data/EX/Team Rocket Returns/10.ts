@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Steelix",
+		de: "Dunkles Stahlos"
 	},
 	illustrator: "Kyoko Koizumi",
 	rarity: "Rare",
@@ -32,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Link",
+				de: "Energy Link"
 			},
 			effect: {
 				en: "Search your discard pile for an Energy card and attach it to Dark Steelix.",
+				de: "Search your discard pile for an Energy card and attack it to Dark Steelix."
 			},
 			damage: 20,
 
@@ -48,6 +51,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Impact",
+				de: "Heavy Impact"
 			},
 
 			damage: 60,

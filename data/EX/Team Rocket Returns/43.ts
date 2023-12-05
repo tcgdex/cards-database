@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Heracross",
+		de: "Skaraborn"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Crust",
+				de: "Crust"
 			},
 			effect: {
 				en: "Any damage done to Heracross by attacks from your opponent's Basic Pokémon is reduced by 20 (after applying Weakness and Resistance).",
+				de: "Any damage done to Heracross by attacks from your opponent's Basic Pokémon is reduced by 20 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -39,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Get Even",
+				de: "Get Even"
 			},
 			effect: {
 				en: "If you have more Prize cards left than your opponent, this attack does 20 damage plus 10 more damage for each Prize card more than your opponent.",
+				de: "If you hace more Prize cards left than your opponent, this attack does 20 damage plus 10 more damage for each Prize card more than your opponent."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

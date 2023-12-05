@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Tyranitar",
+		de: "Dunkles Despotar"
 	},
 	illustrator: "Kyoko Koizumi",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Sand Damage",
+				de: "Sand Damage"
 			},
 			effect: {
 				en: "As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent's Benched Basic Pokémon between turns. You can't use more than 1 Sand Damage Poké-Body between turns.",
+				de: "As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent's Benched Basic Pokémon between turns. You can't use more than 1 Sand Damage Poké-Body between turns."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Second Strike",
+				de: "Second Strike"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage.",
+				de: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

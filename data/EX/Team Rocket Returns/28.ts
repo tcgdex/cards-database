@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Yanma",
+		de: "Yanma"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Charge",
+				de: "Quick Charge"
 			},
 			effect: {
 				en: "Search your deck for up to 4 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				de: "Search your deck for up 4 different types of basic Energy cards, show then to your opponent, and put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
+				de: "Swift"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				de: "This attack's damage isn't affected by Weakness, resistance, Poke-Powers, Poke-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 20,
 

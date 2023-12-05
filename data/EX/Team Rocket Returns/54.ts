@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Drowzee",
+		de: "Traumato"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Insomnia",
+				de: "Insomnia"
 			},
 			effect: {
 				en: "Drowzee can't be Asleep.",
+				de: "Drowzee can't be Asleep."
 			},
 		},
 	],
@@ -38,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Soothing Wave",
+				de: "Soothing Wave"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Asleep.",
+				de: "Flip a coin. If heads, each Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

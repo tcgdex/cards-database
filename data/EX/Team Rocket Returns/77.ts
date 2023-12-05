@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Slugma",
+		de: "Schneckmag"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Singe",
+				de: "Singe"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Heat Tackle",
+				de: "Heat Tackle"
 			},
 			effect: {
 				en: "Slugma does 10 damage to itself.",
+				de: "Slugma does 10 damage to itself."
 			},
 			damage: 30,
 

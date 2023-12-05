@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Rocket's Meowth",
+		de: "Rockets Mauzi"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Snatch and Run",
+				de: "Snatch and Run"
 			},
 			effect: {
 				en: "Search your deck for a Pokémon Tool card or Rocket's Secret Machine card, show it to your opponent, and put it into your hand. If you do, you may switch Rocket's Meowth with 1 of your Benched Pokémon. Shuffle your deck afterward.",
+				de: "Search your deck for a Pokémon Tool card or Rocket's Secret Machine card, show it to your opponent, and put it into your hand. If you do, your may switch Rocket's Meowth with 1 of your Benched Pokémon. Shuffle your deck afterward."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Miraculous Comeback",
+				de: "Miraculous Comeback"
 			},
 			effect: {
 				en: "Flip a coin for each Pokémon in play (both yours and your opponent's). This attack does 10 damage times the number of heads. Rocket's Meowth does 10 damage times the number of tails to itself.",
+				de: "Flip a coin for each Pokémon in play (both yours and your opponent's). This attack does 10 damage times the number of heads. Rocket's Meowth does 10 damage times the number of tails to itself."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],
