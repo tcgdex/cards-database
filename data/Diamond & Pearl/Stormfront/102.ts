@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -39,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 30,
@@ -53,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard a fire Energy attached to Charmeleon.",
 				fr: "Défaussez une Énergie Fire attachée à Reptincel.",
+				de: "Lege eine an Glutexo angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 50,
 

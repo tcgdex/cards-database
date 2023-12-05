@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Miltank",
-		fr: "Écrémeuh"
+		fr: "Écrémeuh",
+		de: "Miltank"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Energy Milk",
 				fr: "Énergie lait",
+				de: "Energiemilch"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, remove 2 damage counters from 1 of your Pokémon.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Entferne pro \"Kopf\" 2 Schadensmarken von 1 deiner Pokémon."
 			},
 
 		},
@@ -61,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Stomp",
 				fr: "Écrasement",
+				de: "Stampfer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
