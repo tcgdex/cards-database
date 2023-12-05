@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Cyndaquil",
-		fr: "Héricendre"
+		fr: "Héricendre",
+		de: "Feurigel"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
-				fr: "Flammèche"
+				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Discard a Energy card attached to Cyndaquil.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Héricendre."
+				fr: "Défaussez-vous d'une carte Énergie  attachée à Héricendre.",
+				de: "Lege 1 an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 

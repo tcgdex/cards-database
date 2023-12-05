@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Switch",
-		fr: "Transfert"
+		fr: "Transfert",
+		de: "Tausch"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Échangez votre Pokémon Actif contre l'un des Pokémon de votre Banc."
+		fr: "Échangez votre Pokémon Actif contre l'un des Pokémon de votre Banc.",
+		de: "Tausche dein Aktives Pokémon mit 1 der Pokémon auf der Bank aus."
 	}
 }
 

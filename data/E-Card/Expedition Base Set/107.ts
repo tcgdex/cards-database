@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Dratini",
-		fr: "Minidraco"
+		fr: "Minidraco",
+		de: "Dratini"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -31,12 +32,14 @@ const card: Card = {
 
 			name: {
 				en: "Dragon Smash",
-				fr: "Coup du dragon"
+				fr: "Coup du dragon",
+				de: "Drachenschmetterschlag"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 40

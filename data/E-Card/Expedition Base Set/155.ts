@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Moo-Moo Milk",
-		fr: "Lait Meumeu"
+		fr: "Lait Meumeu",
+		de: "Kuhmuh-Milch"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Choisissez 1 de vos Pokémon. Lancez 2 pièces. Retirez de ce Pokémon 2 marqueurs de dégâts multipliés par le nombre de faces. Si le Pokémon a moins de marqueurs de dégâts, retirez-les tous."
+		fr: "Choisissez 1 de vos Pokémon. Lancez 2 pièces. Retirez de ce Pokémon 2 marqueurs de dégâts multipliés par le nombre de faces. Si le Pokémon a moins de marqueurs de dégâts, retirez-les tous.",
+		de: "Wähle eines deiner Pokémon. Wirf 2 Münzen. Entferne zwei Schadensmarken mal der Anzahl \"Kopf\" von diesem Pokémon. Falls das Pokémon weniger Schadensmarken hat, entferne alle."
 	}
 }
 

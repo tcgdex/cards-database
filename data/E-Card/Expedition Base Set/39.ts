@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Charizard",
-		fr: "Dracaufeu"
+		fr: "Dracaufeu",
+		de: "Glurak"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -32,12 +33,14 @@ const card: Card = {
 
 			name: {
 				en: "Tail Smash",
-				fr: "Éclate-queue"
+				fr: "Éclate-queue",
+				de: "Schwanzschmetterer"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei Zahl hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 40
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-flammes"
+				fr: "Lance-flammes",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charizard.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu."
+				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu.",
+				de: "Lege 1 an Glurak angelegte  Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 60,
 
