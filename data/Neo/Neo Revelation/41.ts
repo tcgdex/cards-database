@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Aipom",
-		fr: "Capumain"
+		fr: "Capumain",
+		de: "Griffel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Grab",
-				fr: "Vivacité"
+				fr: "Vivacité",
+				de: "Grabschen"
 			},
 			effect: {
 				en: "Choose a Trainer card attached to 1 of your opponent's Pokémon. Your opponent shuffles that card into his or her deck.",
-				fr: "Choisissez une carte Dresseur attachée à l'un des Pokémon de votre adversaire. Votre adversaire doit mélanger cette carte à son deck."
+				fr: "Choisissez une carte Dresseur attachée à l'un des Pokémon de votre adversaire. Votre adversaire doit mélanger cette carte à son deck.",
+				de: "Wähle eine Trainerkarte, die an ein Pokémon deines Gegners angelegt ist. Dein Gegner mischt diese Karte in sein Deck."
 			},
 
 		},
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Punch",
-				fr: "Coud'keu"
+				fr: "Coud'keu",
+				de: "Schwanzhieb"
 			},
 
 			damage: 20,

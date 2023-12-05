@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Jumpluff",
-		fr: "Cotovol"
+		fr: "Cotovol",
+		de: "Papungha"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Evolutionary Spore",
-				fr: "Spore évolutionnaire"
+				fr: "Spore évolutionnaire",
+				de: "Evolutionary Spore"
 			},
 			effect: {
 				en: "Choose any number of your Hoppips and Skiplooms. Then, for each Pokémon you chose in this way, you may search your deck for a card that evolves from that Pokémon and attach it to that Pokémon. (This counts as evolving those Pokémon.) Shuffle your deck afterward.",
-				fr: "Choisissez dans vos Granivol et Floravol en jeu le nombre de Pokémon désiré. Puis, pour chaque Pokémon choisi, vous pouvez chercher une carte évolution de ce Pokémon dans votre deck et l'attacher à ce Pokémon. (Cela revient à faire évoluer tous ces Pokémon). Mélangez ensuite votre deck."
+				fr: "Choisissez dans vos Granivol et Floravol en jeu le nombre de Pokémon désiré. Puis, pour chaque Pokémon choisi, vous pouvez chercher une carte évolution de ce Pokémon dans votre deck et l'attacher à ce Pokémon. (Cela revient à faire évoluer tous ces Pokémon). Mélangez ensuite votre deck.",
+				de: "Choose any number of your Hoppips and Skiplooms. Then, for each Pokémon you chose in this way, you may search your deck for a card that evolves from that Pokémon and attach it to that Pokémon. (This counts as evolving those Pokémon.) Shuffle your deck afterward."
 			},
 
 		},
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Solarbeam",
-				fr: "Lance-Soleil"
+				fr: "Lance-Soleil",
+				de: "Solarbeam"
 			},
 
 			damage: 30,

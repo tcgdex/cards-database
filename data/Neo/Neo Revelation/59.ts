@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Zubat",
-		fr: "Nosferapti"
+		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Spray",
-				fr: "Jet-venin"
+				fr: "Jet-venin",
+				de: "Poison Spray"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisoned."
 			}
 
 		},

@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Earthquake",
-				fr: "Séisme"
+				fr: "Séisme",
+				de: "Earthquake"
 			},
 			effect: {
 				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)"
+				fr: "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
+				de: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 40,
 
@@ -53,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Tumble",
-				fr: "Roule-pierre"
+				fr: "Roule-pierre",
+				de: "Rock Tumble"
 			},
 			effect: {
 				en: "Don't apply Resistance.",
-				fr: "N'appliquez pas la Résistance."
+				fr: "N'appliquez pas la Résistance.",
+				de: "Don't apply Resistance."
 			},
 			damage: 50,
 

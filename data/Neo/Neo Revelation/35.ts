@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Parasect",
-		fr: "Parasect"
+		fr: "Parasect",
+		de: "Parasek"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Pinchers",
-				fr: "Pince dodo"
+				fr: "Pince dodo",
+				de: "Sleep Pinchers"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 30,
 
@@ -60,11 +63,13 @@ const card: Card = {
 
 	abilities: [{
 		name: {
-			fr: "Pollen allergique"
+			fr: "Pollen allergique",
+			de: "Allergic Pollen"
 		},
 
 		effect: {
-			fr: "Tant que Parasect reste en jeu, les cartes des piles de défausse de tous les joueurs ne sont pas affectées par les attaques ou les Pouvoirs Pokémon. Ce pouvoir ne fonctionne pas si Parasect est Endormi, Confus ou Paralysé."
+			fr: "Tant que Parasect reste en jeu, les cartes des piles de défausse de tous les joueurs ne sont pas affectées par les attaques ou les Pouvoirs Pokémon. Ce pouvoir ne fonctionne pas si Parasect est Endormi, Confus ou Paralysé.",
+			de: "As long as Parasect is in play, cards in any player's discard piles are not affected by attacks or Pokémon Powers. This power stops working, if Parasect becomes Asleep, Confused, or Paralyzed."
 		},
 
 		type: "Pokemon Power"

@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Octillery",
-		fr: "Octillery"
+		fr: "Octillery",
+		de: "Octillery"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Constrict",
-				fr: "Constriction"
+				fr: "Constriction",
+				de: "Umklammerung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Octazooka",
-				fr: "Octazooka"
+				fr: "Octazooka",
+				de: "Octazooka"
 			},
 			effect: {
 				en: "Flip a coin. If heads, whenever the Defending Pokémon attacks, your opponent flips a coin. If tails that attack does nothing. (Benching or evolving that Pokémon ends this effect.)",
-				fr: "Lancez une pièce. Si c'est face, lorsque le Pokémon Défenseur attaque, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque ne fait rien. (Envoyer le Pokémon Défenseur sur son Banc ou le faire évoluer met fin à cet effet.)"
+				fr: "Lancez une pièce. Si c'est face, lorsque le Pokémon Défenseur attaque, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque ne fait rien. (Envoyer le Pokémon Défenseur sur son Banc ou le faire évoluer met fin à cet effet.)",
+				de: "Wirf eine Münze. Bei 'Kopf' wirft dein Gegner immer, wenn das verteidigende Pokémon angreift, eine Münze. Bei 'Zahl' hat dessen Angriff dann keine Auswirkungen. (Wenn jenes Pokémon auf die Bank kommt, oder sich entwickelt, endet dadurch dieser Effekt.)"
 			},
 			damage: 40,
 

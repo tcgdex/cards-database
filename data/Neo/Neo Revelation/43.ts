@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Farfetch'd",
-		fr: "Canarticho"
+		fr: "Canarticho",
+		de: "Porenta"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
-				fr: "Tornade"
+				fr: "Tornade",
+				de: "Gust"
 			},
 
 			damage: 10,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leek Jab",
-				fr: "Coud'poireau"
+				fr: "Coud'poireau",
+				de: "Leek Jab"
 			},
 			effect: {
 				en: "This attack can't be used during your next turn. (Benching Farfetch'd ends this effect.)",
-				fr: "Cette attaque ne peut pas être utilisée à nouveau durant votre prochain tour. (Envoyer Canarticho sur le Banc met fin à cet effet.)"
+				fr: "Cette attaque ne peut pas être utilisée à nouveau durant votre prochain tour. (Envoyer Canarticho sur le Banc met fin à cet effet.)",
+				de: "This attack can´t be used during your next turn. (Benching Farfetch´d ends this effect.)"
 			},
 			damage: 40,
 
