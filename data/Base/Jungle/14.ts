@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Victreebel",
-		fr: "Empiflor"
+		fr: "Empiflor",
+		de: "Sarzenia"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lure",
-				fr: "Attraction"
+				fr: "Attraction",
+				de: "Köder"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et échangez-le avec son Pokémon Actif."
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et échangez-le avec son Pokémon Actif.",
+				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausche es mit dem aktiven Pokémon aus."
 			},
 
 		},
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Acid",
-				fr: "Acide"
+				fr: "Acide",
+				de: "Kleber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Wirf eine Münze. Bei Kopf kann sich das verteidigende Pokémon während des nächsten Zuges des Gegnersnicht zurückziehen."
 			},
 			damage: 20,
 

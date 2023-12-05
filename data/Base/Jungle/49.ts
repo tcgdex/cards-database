@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Bellsprout",
-		fr: "Chétiflor"
+		fr: "Chétiflor",
+		de: "Knofensa"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Vine Whip",
-				fr: "Fouet liane"
+				fr: "Fouet liane",
+				de: "Rankenhieb"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
-				fr: "Appel à la famille"
+				fr: "Appel à la famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez dans votre deck un Pokémon de base appelé Chétiflor et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+				fr: "Cherchez dans votre deck un Pokémon de base appelé Chétiflor et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem namen Knofensa und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
 			},
 
 		},

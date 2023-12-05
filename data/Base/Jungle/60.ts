@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spark",
-				fr: "Étincelle"
+				fr: "Étincelle",
+				de: "Funkensprung"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux ; cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Faiblesse et la Résistance au Pokémon du Banc.)"
+				fr: "Si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux ; cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Faiblesse et la Résistance au Pokémon du Banc.)",
+				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 20,
 

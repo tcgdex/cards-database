@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Scyther",
-		fr: "Insécateur"
+		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Swords Dance",
-				fr: "Danse-lames"
+				fr: "Danse-lames",
+				de: "Schwerttanz"
 			},
 			effect: {
 				en: "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.",
-				fr: "Pendant votre prochain tour, l'attaque Tranche d'Insécateur inflige 60 dégâts de base au lieu de 30."
+				fr: "Pendant votre prochain tour, l'attaque Tranche d'Insécateur inflige 60 dégâts de base au lieu de 30.",
+				de: "Während deines nächsten Zuges betragen die Basis Schadenspunkte von Sichlors Schlitzer-Angriff 60 anstatt 30."
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 30,

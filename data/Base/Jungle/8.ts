@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Pidgeot",
-		fr: "Roucarnage"
+		fr: "Roucarnage",
+		de: "Tauboss"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
-				fr: "Cru-aile"
+				fr: "Cru-aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 20,
@@ -50,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hurricane",
-				fr: "Ouragan"
+				fr: "Ouragan",
+				de: "Hurrikan"
 			},
 			effect: {
 				en: "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.",
-				fr: "À moins que cette attaque ne mette le Pokémon Défenseur K.O., renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire."
+				fr: "À moins que cette attaque ne mette le Pokémon Défenseur K.O., renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
+				de: "Falls dieser Angriff den verteidigenden Pokémon nicht kampfunfähig macht, gib den verteidigenden Pokémon und alle daraufabgelegten Karten deinem Gegner auf die Hand zurück."
 			},
 			damage: 30,
 

@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Fearow",
-		fr: "Rapasdepic"
+		fr: "Rapasdepic",
+		de: "Ibitak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -37,11 +38,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
-				fr: "Hâte"
+				fr: "Hâte",
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Rapasdepic."
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Rapasdepic.",
+				de: "Wirf eine Münze. Bei 'Kopf' verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Ibitak (einschließlich der Schadenspunkte)."
 			},
 			damage: 20,
 
@@ -55,7 +58,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Drill Peck",
-				fr: "Bec vrille"
+				fr: "Bec vrille",
+				de: "Bohrschnabel"
 			},
 
 			damage: 40,

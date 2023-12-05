@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mirror Move",
-				fr: "Mimique"
+				fr: "Mimique",
+				de: "Spiegeltrick"
 			},
 			effect: {
 				en: "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon.",
-				fr: "Si Piafabec a été attaqué durant le tour précédent, infligez le résultat final de cette attaque sur Piafabec au Pokémon Défenseur."
+				fr: "Si Piafabec a été attaqué durant le tour précédent, infligez le résultat final de cette attaque sur Piafabec au Pokémon Défenseur.",
+				de: "Falls Habitak im letzten Zug angegriffen wurde, füge dem verteidigenden Pokémon Schadenspunkte in Höhe der Endstärke dieses Angriffs und ausserdem alle Auswirkungen, die dieser Angriff auf habitak hatte, zu."
 			},
 
 		},
