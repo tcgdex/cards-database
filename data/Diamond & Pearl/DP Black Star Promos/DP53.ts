@@ -4,7 +4,8 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Arceus",
-		fr: "Arceus"
+		fr: "Arceus",
+		de: "Arceus"
 	},
 	illustrator: "Shizurow",
 	rarity: "Common",
@@ -26,9 +27,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Multitype",
+				de: "Variabilität"
 			},
 			effect: {
 				en: "Arceus LV.X's type is the same type as its previous Level.",
+				de: "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
 			},
 		},
 	],

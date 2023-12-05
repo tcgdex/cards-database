@@ -4,7 +4,8 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Drifblim",
-		fr: "Grodrive"
+		fr: "Grodrive",
+		de: "Drifzepeli"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Wind Wave",
-				fr: "Bourrasque"
+				fr: "Bourrasque",
+				de: "Windwelle"
 			},
 			effect: {
 				en: "Search your discard pile for up to 5 in any combination of Pokémon and Supporter cards. Show them to your opponent and shuffle them into your deck.",
-				fr: "Choisissez dans votre pile de défausse n'importe quelle combinaison de jusqu'à 5 Pokémon et cartes Supporter. Montrez-les à votre adversaire et mélangez-les à votre deck."
+				fr: "Choisissez dans votre pile de défausse n'importe quelle combinaison de jusqu'à 5 Pokémon et cartes Supporter. Montrez-les à votre adversaire et mélangez-les à votre deck.",
+				de: "Durchsuche deinen Ablagestapel nach bis zu 5 Karten in beliebiger Kombination aus Pokémon- und Unterstützerkarten. Zeige sie deinem Gegner und mische sie in dein Deck."
 			},
 
 		},
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Explosive Smoke",
-				fr: "Fumée explosive"
+				fr: "Fumée explosive",
+				de: "Explosiver Qualm"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt allen Pokémon auf der Bank (deinen und denen deines Gegners) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
