@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Meganium",
-		fr: "Meganium"
+		fr: "Meganium",
+		de: "Meganie"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Wild Growth",
-				fr: "Luxuriance"
+				fr: "Luxuriance",
+				de: "Wild Growth"
 			},
 			effect: {
 				en: "As long as Meganium is in play, each Grass Energy card attached to your Grass Pokémon instead provides GrassGrass. This power stops working while Meganium is Asleep, Confused, or Paralyzed.",
-				fr: "Aussi longtemps que Meganium est en jeu, chaque carte Énergie  attachée à vos Pokémon  fournit  . Ce pouvoir disparaît pendant que Meganium est Endormi, Confus ou Paralysé."
+				fr: "Aussi longtemps que Meganium est en jeu, chaque carte Énergie  attachée à vos Pokémon  fournit  . Ce pouvoir disparaît pendant que Meganium est Endormi, Confus ou Paralysé.",
+				de: "As long as Meganium is in play, each  Energy card attached to your  Pokémon instead provides . This power stops working while Meganium is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Soothing Scent",
-				fr: "Senteur apaisante"
+				fr: "Senteur apaisante",
+				de: "Soothing Scent"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 40,
 

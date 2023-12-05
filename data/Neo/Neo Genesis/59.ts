@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Gligar",
-		fr: "Scorplane"
+		fr: "Scorplane",
+		de: "Skorgla"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -32,12 +33,14 @@ const card: Card = {
 
 			name: {
 				en: "Poison Sting",
-				fr: "Dard-venin"
+				fr: "Dard-venin",
+				de: "Poison Sting"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 			damage: 10
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Slash"
 			},
 
 			damage: 20,

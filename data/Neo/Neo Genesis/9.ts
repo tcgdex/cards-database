@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Lugia",
-		fr: "Lugia"
+		fr: "Lugia",
+		de: "Lugia"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Elemental Blast",
-				fr: "Explosion élémentaire"
+				fr: "Explosion élémentaire",
+				de: "Urgewalteexplosion"
 			},
 			effect: {
 				en: "Discard a Energy card, a Energy card, and a Energy card attached to Lugia in order to use this attack.",
-				fr: "Défaussez une carte Énergie , une carte Énergie  et une carte Énergie  attachées à Lugia pour pouvoir utiliser cette attaque."
+				fr: "Défaussez une carte Énergie , une carte Énergie  et une carte Énergie  attachées à Lugia pour pouvoir utiliser cette attaque.",
+				de: "Lege eine -Energiekarte, eine -Energiekarte und eine -Energiekarte ab, die an Lugia angelegt sind, um diesen Angriff zu verwenden."
 			},
 			damage: 90,
 

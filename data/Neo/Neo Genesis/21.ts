@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Donphan",
-		fr: "Donphan"
+		fr: "Donphan",
+		de: "Donphan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,13 +36,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fléau"
+				fr: "Fléau",
+				de: "Flail"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Donphan.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Donphan."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Donphan.",
+				de: "Does 10 damage times the number of damage counters on Donphan"
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rapid Spin",
-				fr: "Tour rapide"
+				fr: "Tour rapide",
+				de: "Rapid Spin"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Actif, ensuite, si vous avez des Pokémon sur votre Banc, vous choisissez l'un d'eux et l'échangez avec votre Pokémon Actif. (Infligez les dégâts avant d'échanger les Pokémon.)"
+				fr: "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Actif, ensuite, si vous avez des Pokémon sur votre Banc, vous choisissez l'un d'eux et l'échangez avec votre Pokémon Actif. (Infligez les dégâts avant d'échanger les Pokémon.)",
+				de: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 50,
 
