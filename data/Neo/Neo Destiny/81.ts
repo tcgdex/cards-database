@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Seel",
-		fr: "Otaria"
+		fr: "Otaria",
+		de: "Jurob"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				de: "Take Down"
 			},
 			effect: {
 				en: "Seel does 10 damage to itself.",
-				fr: "Otaria s'inflige 10 dégâts."
+				fr: "Otaria s'inflige 10 dégâts.",
+				de: "Seel does 10 damage to itself."
 			},
 			damage: 30,
 

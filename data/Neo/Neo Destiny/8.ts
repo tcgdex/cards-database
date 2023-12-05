@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Porygon2",
-		fr: "Porygon2 obscur"
+		fr: "Porygon2 obscur",
+		de: "Dunkles Porygon2"
 	},
 
 	illustrator: undefined,
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Spatial Distortion",
-				fr: "Distorsion spatiale"
+				fr: "Distorsion spatiale",
+				de: "Spatial Distortion"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, choose a Stadium card from your discard pile and put it into play. (If there's already a Stadium card in play, discard it.) This power can't be used if Dark Porygon2 is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, choisissez une carte Stade dans votre pile de défausse et mettez-la en jeu. (S'il y a déjà une carte Stade en jeu, défaussez-vous en.) Ce pouvoir ne fonctionne pas si Porygon2 obscur est Endormi, Confus ou Paralysé."
+				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, choisissez une carte Stade dans votre pile de défausse et mettez-la en jeu. (S'il y a déjà une carte Stade en jeu, défaussez-vous en.) Ce pouvoir ne fonctionne pas si Porygon2 obscur est Endormi, Confus ou Paralysé.",
+				de: "Once during your turn (before your attack), you may flip a coin. If heads, choose a Stadium card from your discard pile and put it into play. (If there's already a Stadium card in play, discard it.) This power can't be used if Dark Porygon2 is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Curve Attack",
-				fr: "Courbattaque"
+				fr: "Courbattaque",
+				de: "Curve Attack"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done by attacks to Dark Porygon2 during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts des attaques sur Porygon2 obscur pendant le prochain tour de votre adversaire. (Tous les autres effets dus à des attaques subsistent.)"
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts des attaques sur Porygon2 obscur pendant le prochain tour de votre adversaire. (Tous les autres effets dus à des attaques subsistent.)",
+				de: "Flip a coin. If heads, prevent all damage done by attacks to Dark Porygon2 during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 			damage: 20,
 

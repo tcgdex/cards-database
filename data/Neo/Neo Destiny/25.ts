@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Machamp",
-		fr: "Mackogneur lumineux"
+		fr: "Mackogneur lumineux",
+		de: "Helles Machomei"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -38,12 +39,14 @@ const card: Card = {
 
 			name: {
 				en: "Beatdown",
-				fr: "Combat"
+				fr: "Combat",
+				de: "Beatdown"
 			},
 
 			effect: {
 				en: "If the Defending Pokémon has Dark in its name or is a Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50.",
-				fr: "Si le Pokémon Défenseur est un Pokémon obscur ou si c'est un Pokémon , lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts au lieu de 50."
+				fr: "Si le Pokémon Défenseur est un Pokémon obscur ou si c'est un Pokémon , lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts au lieu de 50.",
+				de: "If the Defending Pokémon has Dark in its name or is a  Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50."
 			},
 
 			damage: 50
@@ -63,11 +66,13 @@ const card: Card = {
 
 	abilities: [{
 		name: {
-			fr: "Tandem"
+			fr: "Tandem",
+			de: "Tag Team"
 		},
 
 		effect: {
-			fr: "Quand vous jouez Mackogneur depuis votre main, si vous le placez sur votre Banc, retirez 3 marqueurs de dégâts de votre Pokémon Actif. S'il a moins de 3 marqueurs de dégâts, retirez-les tous. Échangez ensuite Mackogneur lumineux contre votre Pokémon Actif."
+			fr: "Quand vous jouez Mackogneur depuis votre main, si vous le placez sur votre Banc, retirez 3 marqueurs de dégâts de votre Pokémon Actif. S'il a moins de 3 marqueurs de dégâts, retirez-les tous. Échangez ensuite Mackogneur lumineux contre votre Pokémon Actif.",
+			de: "When you play Light Machamp from your hand, if is on your Bench, remove 3 damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon."
 		},
 
 		type: "Pokemon Power"

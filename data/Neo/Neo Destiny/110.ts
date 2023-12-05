@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Shining Noctowl",
-		fr: "Noarfang brillant"
+		fr: "Noarfang brillant",
+		de: "Schimmerndes Noctuh"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flashing Eyes",
-				fr: "Yeux clignotants"
+				fr: "Yeux clignotants",
+				de: "Leuchtende Augen"
 			},
 			effect: {
 				en: "Flip 3 coins. If exactly 1 is heads, the Defending Pokémon is now Asleep. If exactly 2 are heads, the Defending Pokémon is now Confused. If all 3 are heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez 3 pièces. S'il y a une face, le Pokémon Défenseur est maintenant Endormi. S'il y a 2 faces, le Pokémon Défenseur est maintenant Confus. S'il y a 3 faces, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez 3 pièces. S'il y a une face, le Pokémon Défenseur est maintenant Endormi. S'il y a 2 faces, le Pokémon Défenseur est maintenant Confus. S'il y a 3 faces, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf drei Münzen. Wenn genau einmal 'Kopf' fällt, schläft das verteidigende Pokémon jetzt. Wenn genau zweimal 'Kopf' fällt, ist das verteidigende Pokémon jetzt verwirrt. Wenn jedes Mal 'KopfÄ fällt, ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 

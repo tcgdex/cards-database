@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Mantine",
-		fr: "Demanta"
+		fr: "Demanta",
+		de: "Mantax"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Giant Wave",
-				fr: "Vague géante"
+				fr: "Vague géante",
+				de: "Giant Wave"
 			},
 			effect: {
 				en: "Mantine can't attack during your next turn.",
-				fr: "Demanta ne peut pas attaquer pendant votre prochain tour."
+				fr: "Demanta ne peut pas attaquer pendant votre prochain tour.",
+				de: "Mantine can't attack during your next turn."
 			},
 			damage: 40,
 

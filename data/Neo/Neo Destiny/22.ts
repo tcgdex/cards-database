@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Dragonair",
-		fr: "Draco lumineux"
+		fr: "Draco lumineux",
+		de: "Helles Dragonir"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Healing Light",
-				fr: "Lumière soignante"
+				fr: "Lumière soignante",
+				de: "Healing Light"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it.",
-				fr: "Retirez un marqueur de dégât de chacun de vos Pokémon ayant des marqueurs de dégâts."
+				fr: "Retirez un marqueur de dégât de chacun de vos Pokémon ayant des marqueurs de dégâts.",
+				de: "Remove 1 damage counter from each of you Pokémon that has any damage counters on it."
 			},
 
 		},
@@ -53,12 +56,14 @@ const card: Card = {
 
 			name: {
 				en: "Protective Wave",
-				fr: "Onde protectrice"
+				fr: "Onde protectrice",
+				de: "Protective Wave"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Light Dragonair.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Draco lumineux."
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Draco lumineux.",
+				de: "Flip a coin. If heads, during your opponent's turn, prevent all effects of attacks, including damage, done to Light Dragonair."
 			},
 
 			damage: 20

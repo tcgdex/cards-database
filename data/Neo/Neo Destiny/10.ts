@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Typhlosion",
-		fr: "Typhlosion obscur"
+		fr: "Typhlosion obscur",
+		de: "Dunkles Tornupto"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Claw Swipe",
-				fr: "Combo-serres"
+				fr: "Combo-serres",
+				de: "Klauenschlag"
 			},
 
 			damage: 20,
@@ -47,13 +49,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Rushing Flames",
-				fr: "Vague de flammes"
+				fr: "Vague de flammes",
+				de: "Brausende Flammen"
 			},
 			effect: {
 				en: "You may discard any number of Energy cards attached to your Pokémon. Flip a coin for each Energy card discarded in this way. This attack does 40 damage times the number of heads.",
-				fr: "Vous pouvez vous défausser de n'importe quel nombre de cartes Énergie  attachées à votre Pokémon. Lancez une pièce pour chaque carte Énergie  défaussée de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces."
+				fr: "Vous pouvez vous défausser de n'importe quel nombre de cartes Énergie  attachées à votre Pokémon. Lancez une pièce pour chaque carte Énergie  défaussée de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
+				de: "Du kannst eine beliebige Anzahl an dein Pokémon angelegte -Energiekarten auf deinen Ablagestapel legen. Wirf für jede -Energiekarte, die du auf diese Weise auf deinen Ablagestapel gelegt hast, eine Münze. Dieser angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "40×",
+			damage: "40x",
 
 		},
 	],

@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Pupitar",
-		fr: "Ymphect obscur"
+		fr: "Ymphect obscur",
+		de: "Dunkles Pupitar"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Tackle",
-				fr: "Plaquage roc"
+				fr: "Plaquage roc",
+				de: "Rock Tackle"
 			},
 			effect: {
 				en: "Dark Pupitar does 10 damage to itself. Dark Pupitar can't use this attack during your next turn.",
-				fr: "Ymphect obscur s'inflige 10 dégâts. Ymphect obscur ne peut pas utiliser cette attaque pendant votre prochain tour."
+				fr: "Ymphect obscur s'inflige 10 dégâts. Ymphect obscur ne peut pas utiliser cette attaque pendant votre prochain tour.",
+				de: "Dark Pupitar does 10 damage to itself. Dark Pupitar can't use this attack during your next turn."
 			},
 			damage: 40,
 
@@ -53,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Explosive Evolution",
-				fr: "Évolution explosive"
+				fr: "Évolution explosive",
+				de: "Explosive Evolution"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, search your deck for an Evolution card named Dark Tyranitar and put it on Dark Pupitar. (This counts as evolving Dark Pupitar.) Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon de votre adversaire. N'appliquez ni la Faiblesse, ni la Résistance. Cherchez ensuite dans votre deck une carte Évolution appelée Tyranocif obscur et placez-la sur Ymphect obscur. (Cela revient à faire évoluer Ymphect obscur.) Mélangez ensuite votre deck."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon de votre adversaire. N'appliquez ni la Faiblesse, ni la Résistance. Cherchez ensuite dans votre deck une carte Évolution appelée Tyranocif obscur et placez-la sur Ymphect obscur. (Cela revient à faire évoluer Ymphect obscur.) Mélangez ensuite votre deck.",
+				de: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, search your deck for an Evolution card named Dark Tyranitar and put it on Dark Pupitar. (This counts as evolving Dark Pupitar.) Shuffle your deck afterward."
 			},
 
 		},

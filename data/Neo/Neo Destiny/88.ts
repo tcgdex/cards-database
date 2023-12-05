@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Unown [T]",
-		fr: "Zarbi T"
+		fr: "Zarbi T",
+		de: "Icognito T"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "[Tell]",
-				fr: "[Tell]"
+				fr: "[Tell]",
+				de: "Tell"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand and show your hand to your opponent. This power can be used even if Unown T is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, regardez la main de votre adversaire et montrez-lui la vôtre. Ce pouvoir fonctionne même si Zarbi [T] est Endormi, Confus ou Paralysé."
+				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, regardez la main de votre adversaire et montrez-lui la vôtre. Ce pouvoir fonctionne même si Zarbi [T] est Endormi, Confus ou Paralysé.",
+				de: "Once during your turn (before you attack), you may flip a coun. If heads, look at your opponent's hand and show your hand to your opponent. This power can be used even if Unown T is Asleep, Confused or Paralyzed"
 			},
 		},
 	],
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puissance cachée"
+				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 20,

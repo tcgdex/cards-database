@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Donphan",
-		fr: "Donphan obscur"
+		fr: "Donphan obscur",
+		de: "Dunkles Donphan"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tusk Toss",
-				fr: "Koud'défense"
+				fr: "Koud'défense",
+				de: "Tusk Toss"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, flip a coin. If heads, return the Defending Pokémon and all cards attached to it to your opponent's hand. If tails, your opponent chooses 1 of his or her Benched Pokémon and switches it with the Defending Pokémon.",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, lancez une pièce. Si c'est face, renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire. Si c'est pile, votre adversaire choisit un des Pokémon de son Banc et l'échange contre le Pokémon Défenseur."
+				fr: "Si votre adversaire a des Pokémon sur son Banc, lancez une pièce. Si c'est face, renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire. Si c'est pile, votre adversaire choisit un des Pokémon de son Banc et l'échange contre le Pokémon Défenseur.",
+				de: "If your opponent has any Benched Pokémon, flip a coin. If heads, return the Defending Pokémon and all cards attached to it to your opponent's hand. If tails, your opponent chooses 1 of his or her Benched Pokémon and switches it with the Defending Pokémon."
 			},
 
 		},
@@ -52,7 +55,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Giant Tusk",
-				fr: "Défense géante"
+				fr: "Défense géante",
+				de: "Giant Tusk"
 			},
 
 			damage: 50,

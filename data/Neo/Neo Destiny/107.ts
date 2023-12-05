@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Shining Charizard",
-		fr: "Dracaufeu brillant"
+		fr: "Dracaufeu brillant",
+		de: "Schimmerndes Glurak"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "White-Hot Flame",
-				fr: "Flammes blanches"
+				fr: "Flammes blanches",
+				de: "Heiße weiße Flamme"
 			},
 			effect: {
 				en: "Discard 1 Energy card and 1 Energy card attached to Shining Charizard or this attack does nothing. Flip a coin. If tails, Shining Charizard does 30 damage to itself.",
-				fr: "Défaussez-vous d'une carte Énergie  et d'une carte Énergie  attachées à Dracaufeu brillant ou cette attaque ne fait rien. Lancez une pièce. Si c'est pile, Dracaufeu brillant s'inflige 30 dégâts."
+				fr: "Défaussez-vous d'une carte Énergie  et d'une carte Énergie  attachées à Dracaufeu brillant ou cette attaque ne fait rien. Lancez une pièce. Si c'est pile, Dracaufeu brillant s'inflige 30 dégâts.",
+				de: "Lege eine jeweils an Schimmerndes Glurak angelegte -Energiekarte und -Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Wirf eine Münze. Bei \"Zahl\" fügt sich Schimmerndes Glurak selbst 30 Schadenspunkte zu."
 			},
 			damage: 100,
 

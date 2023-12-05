@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Togepi",
-		fr: "Togepi"
+		fr: "Togepi",
+		de: "Togepi"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Charm",
-				fr: "Charme"
+				fr: "Charme",
+				de: "Charm"
 			},
 			effect: {
 				en: "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance).",
-				fr: "Si le Pokémon Défenseur attaque pendant le prochain tour de votre adversaire, tous les dégâts qu'il inflige sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
+				fr: "Si le Pokémon Défenseur attaque pendant le prochain tour de votre adversaire, tous les dégâts qu'il inflige sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
+				de: "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance)."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spike Ball Tackle",
-				fr: "Charge balle pic"
+				fr: "Charge balle pic",
+				de: "Spike Ball Tackle"
 			},
 			effect: {
 				en: "Togepi does 10 damage to itself.",
-				fr: "Togepi s'inflige 10 dégâts."
+				fr: "Togepi s'inflige 10 dégâts.",
+				de: "Togepi does 10 damage to itself."
 			},
 			damage: 20,
 

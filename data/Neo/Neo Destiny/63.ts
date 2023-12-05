@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dratini",
-		fr: "Minidraco"
+		fr: "Minidraco",
+		de: "Dratini"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shed",
-				fr: "Mue"
+				fr: "Mue",
+				de: "Shed"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Dratini.",
-				fr: "Retirez un marqueur de dégâts sur Minidraco."
+				fr: "Retirez un marqueur de dégâts sur Minidraco.",
+				de: "Remove 1 damage counter from Dratini."
 			},
 
 		},
@@ -45,13 +48,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
-				fr: "Furie"
+				fr: "Furie",
+				de: "Fury Attack"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],
