@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Gyarados",
-		fr: "Léviator"
+		fr: "Léviator",
+		de: "Garados"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -37,7 +38,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Rage",
-				fr: "Draco-Rage"
+				fr: "Draco-Rage",
+				de: "Drachenwut"
 			},
 
 			damage: 50,
@@ -52,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubblebeam",
-				fr: "Bulles d'O"
+				fr: "Bulles d'O",
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelähmt."
 			},
 			damage: 40,
 

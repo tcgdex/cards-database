@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Beedrill",
-		fr: "Dardargnan"
+		fr: "Dardargnan",
+		de: "Bibor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,13 +38,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Twineedle",
-				fr: "Double-Dard"
+				fr: "Double-Dard",
+				de: "Duonadel"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 30 Schadenspunkte zu."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 		{
@@ -54,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Sting",
-				fr: "Dard-Venin"
+				fr: "Dard-Venin",
+				de: "Giftstachel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon vergiftet."
 			},
 			damage: 40,
 

@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Haunter",
-		fr: "Spectrum"
+		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnosis",
-				fr: "Hypnose"
+				fr: "Hypnose",
+				de: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dream Eater",
-				fr: "Dévorêve"
+				fr: "Dévorêve",
+				de: "Traumfresser"
 			},
 			effect: {
 				en: "You can't this attack unless the Defending Pokémon is Asleep.",
-				fr: "Vous ne pouvez utiliser cette attaque que si le Pokémon Défenseur est Endormi."
+				fr: "Vous ne pouvez utiliser cette attaque que si le Pokémon Défenseur est Endormi.",
+				de: "Du kannst diesen Angriff nur einsetzen, wenn das verteidigende Pokémon schlafend ist."
 			},
 			damage: 50,
 

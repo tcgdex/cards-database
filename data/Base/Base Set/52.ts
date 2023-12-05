@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
-				fr: "Balayage"
+				fr: "Balayage",
+				de: "Kick"
 			},
 
 			damage: 20,

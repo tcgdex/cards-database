@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Dugtrio",
-		fr: "Triopikeur"
+		fr: "Triopikeur",
+		de: "Digdri"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -37,7 +38,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 40,
@@ -52,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Earthquake",
-				fr: "Séisme"
+				fr: "Séisme",
+				de: "Erdbeben"
 			},
 			effect: {
 				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon sur votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)"
+				fr: "Inflige 10 dégâts à chacun des Pokémon sur votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
+				de: "Fügt jedem Deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden!)"
 			},
 			damage: 70,
 

@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Abra",
-		fr: "Abra"
+		fr: "Abra",
+		de: "Abra"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,15 +28,17 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Psychic",
+				"Colorless",
 			],
 			name: {
 				en: "Psyshock",
-				fr: "Choc Psy"
+				fr: "Choc Psy",
+				de: "Psychoschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
 			},
 			damage: 10,
 

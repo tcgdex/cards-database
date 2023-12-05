@@ -4,27 +4,19 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Double Colorless Energy",
-		fr: "Double Énergie Incolore"
+		fr: "Double Énergie Incolore",
+		de: "Doppelte farblose Energie"
 	},
+
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Energy",
-
 	set: Set,
+	energyType: "Special",
 
-
-
-
-
-
-
-
-
-
-
-
-
-energyType: "Special",
+	effect: {
+		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte."
+	}
 }
 
 export default card

@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Clefairy",
-		fr: "Mélofée"
+		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sing",
-				fr: "Berceuse"
+				fr: "Berceuse",
+				de: "Gesang"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon schlafend."
 			},
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Metronome",
-				fr: "Métronome"
+				fr: "Métronome",
+				de: "Metronom"
 			},
 			effect: {
 				en: "Choose 1 of Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding energy cards. (No matter what type the defender is, Clefairy's type is still Colorless.)",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélofée demeure de type Incolore.)"
+				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélofée demeure de type Incolore.)",
+				de: "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des Verteidigenden Pokémon ist der Typ der Piepi immer noch farblos.)"
 			},
 
 		},

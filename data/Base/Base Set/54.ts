@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Metapod",
-		fr: "Chrysacier"
+		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stiffen",
-				fr: "Armure"
+				fr: "Armure",
+				de: "Verhärten"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Chrysacier pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)"
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Chrysacier pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 
 		},
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stun Spore",
-				fr: "Para-spore"
+				fr: "Para-spore",
+				de: "Stachelspore"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 

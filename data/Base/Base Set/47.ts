@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Diglett",
-		fr: "Taupiqueur"
+		fr: "Taupiqueur",
+		de: "Digda"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig",
-				fr: "Tunnel"
+				fr: "Tunnel",
+				de: "Schaufler"
 			},
 
 			damage: 10,
@@ -44,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
-				fr: "Jet de boue"
+				fr: "Jet de boue",
+				de: "Schlammbad"
 			},
 
 			damage: 30,

@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras' Face"
+				fr: "Écras' Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde Folie"
+				fr: "Onde Folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt."
 			},
 			damage: 10,
 
