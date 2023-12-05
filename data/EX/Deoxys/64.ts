@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leap Out",
-				fr: "Bondir"
+				fr: "Bondir",
+				de: "Leap Out"
 			},
 			effect: {
 				en: "Switch Magikarp with 1 of your Benched Pokémon.",
-				fr: "Échangez Magicarpe avec 1 des Pokémon de votre Banc."
+				fr: "Échangez Magicarpe avec 1 des Pokémon de votre Banc.",
+				de: "Switch Magikarp with 1 of your Benched Pokémon."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
-				fr: "Frénésie"
+				fr: "Frénésie",
+				de: "Rage"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Magikarp.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Magicarpe."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Magicarpe.",
+				de: "Does 10 damage plus 10 more damage for each damage counter on Magikarp."
 			},
 			damage: "10+",
 

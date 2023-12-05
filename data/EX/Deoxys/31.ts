@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Golbat",
-		fr: "Nosferalto"
+		fr: "Nosferalto",
+		de: "Golbat"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Self-control",
-				fr: "Sang-froid"
+				fr: "Sang-froid",
+				de: "Self-control"
 			},
 			effect: {
 				en: "Golbat can't be Paralyzed.",
-				fr: "Nosferalto ne peut pas être Paralysé."
+				fr: "Nosferalto ne peut pas être Paralysé.",
+				de: "Golbat can't be Paralyzed."
 			},
 		},
 	],
@@ -45,12 +48,14 @@ const card: Card = {
 
 			name: {
 				en: "Spiral Drain",
-				fr: "Spirale équisante"
+				fr: "Spirale équisante",
+				de: "Spiral Drain"
 			},
 
 			effect: {
 				en: "Remove 1 damage counter from Golbat.",
-				fr: "Retirez à Nosferalto 1 marqueur de dégât."
+				fr: "Retirez à Nosferalto 1 marqueur de dégât.",
+				de: "Remove 1 damage counter from Golbat."
 			},
 
 			damage: 20

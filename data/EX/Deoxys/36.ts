@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Lunatone",
-		fr: "Seleroc"
+		fr: "Seleroc",
+		de: "Lunastein"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Moonglow",
-				fr: "Éclat de lune"
+				fr: "Éclat de lune",
+				de: "Moonglow"
 			},
 			effect: {
 				en: "The Retreat Cost for each Solrock you have in play is 0.",
-				fr: "Le Coût de retraite de chaque Solaroc que vous avez en jeu est de 0."
+				fr: "Le Coût de retraite de chaque Solaroc que vous avez en jeu est de 0.",
+				de: "The Retreat Cost for each Solrock you have in play is 0."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Foresight",
-				fr: "Prévoyance"
+				fr: "Prévoyance",
+				de: "Foresight"
 			},
 			effect: {
 				en: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
-				fr: "Regardez les 5 cartes du dessus du deck d'1 joueur et replacez-les dans le deck de ce joueur dans n'importe quel ordre."
+				fr: "Regardez les 5 cartes du dessus du deck d'1 joueur et replacez-les dans le deck de ce joueur dans n'importe quel ordre.",
+				de: "Look at the top 5 cards of either player's deck and put them back on the top of that player's deck in any order."
 			},
 
 		},
@@ -56,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Target Beam",
-				fr: "Cible lumineuse"
+				fr: "Cible lumineuse",
+				de: "Target Beam"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Solrock you have in play.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Solaroc que vous avez en jeu."
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Solaroc que vous avez en jeu.",
+				de: "Does 20 damage plus 10 more damage for each Solrock you have in play."
 			},
 			damage: "20+",
 

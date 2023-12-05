@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Surskit",
-		fr: "Arakdo"
+		fr: "Arakdo",
+		de: "Gehweiher"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
-				fr: "Hâte"
+				fr: "Hâte",
+				de: "Agility"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Surskit during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Arakdo lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Arakdo lors du prochain tour de votre adversaire.",
+				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Surskit during your opponent's next turn."
 			},
 			damage: 10,
 

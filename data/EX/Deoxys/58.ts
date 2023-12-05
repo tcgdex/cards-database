@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skelenox"
+		fr: "Skelenox",
+		de: "Zwirrlicht"
 	},
 	illustrator: "Tomoko Wakai",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Paralyzing Gaze",
-				fr: "Regard paralysant"
+				fr: "Regard paralysant",
+				de: "Paralyzed Gaze"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Will-o'-the-wisp",
-				fr: "Feu follet"
+				fr: "Feu follet",
+				de: "Will-o'-the-wisp"
 			},
 
 			damage: 20,
