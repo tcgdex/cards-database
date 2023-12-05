@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Shroomish",
-		fr: "Balignon"
+		fr: "Balignon",
+		de: "Knilz"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ram"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'boule"
+				fr: "Coup d'boule",
+				de: "Headbutt"
 			},
 
 			damage: 20,

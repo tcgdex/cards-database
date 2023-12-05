@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Camerupt ex",
-		fr: "Camerupt ex"
+		fr: "Camerupt ex",
+		de: "Camerupt ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Magma Armor",
-				fr: "Magmascudo"
+				fr: "Magmascudo",
+				de: "Magma Armor"
 			},
 			effect: {
 				en: "Camerupt ex can't be Asleep or Paralyzed.",
-				fr: "Camerupt ex ne peut pas être Endormi ou Paralysé."
+				fr: "Camerupt ex ne peut pas être Endormi ou Paralysé.",
+				de: "Camerupt ex can't be Asleep or Paralyzed."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
-				fr: "Flammes calcinantes"
+				fr: "Flammes calcinantes",
+				de: "Searing Flame"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "The Defending Pokémon is now Burned."
 			},
 			damage: 30,
 
@@ -61,13 +66,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Eruption",
-				fr: "Éruption"
+				fr: "Éruption",
+				de: "Erruption"
 			},
 			effect: {
 				en: "Each player discards the top card of his or her deck. This attack does 60 damage plus 20 more damage for each Energy card discarded in this way.",
-				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon."
+				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				de: "Each player discards the top card of his or her deck. This attack does 60 damage plus 20 more damage for each Energy card discarded in this way."
 			},
-			damage: "60+",
+			damage: 60,
 
 		},
 	],

@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Rhyhorn",
-		fr: "Rhinocorne"
+		fr: "Rhinocorne",
+		de: "Rihorn"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud'korne"
+				fr: "Koud'korne",
+				de: "Horn Attack"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Drill",
-				fr: "Empal'korne"
+				fr: "Empal'korne",
+				de: "Horn Drill"
 			},
 
 			damage: 20,

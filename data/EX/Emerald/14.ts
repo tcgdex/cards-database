@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Groudon",
-		fr: "Groudon"
+		fr: "Groudon",
+		de: "Groudon"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -24,13 +25,11 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: [
-				"Fighting",
-				"Colorless",
-			],
+			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Slash"
 			},
 
 			damage: 20,
@@ -45,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Eruption",
-				fr: "Éruption"
+				fr: "Éruption",
+				de: "Eruption"
 			},
 			effect: {
 				en: "Each player discards the top card of his or her deck. This attack does 40 damage plus 20 more damage for each Energy card discarded in this way.",
-				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon."
+				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				de: "Each Player discards the top card of his or her deck. This attack does 40 damage plus 10 more for each energie discarded in this way."
 			},
 			damage: "40+",
 

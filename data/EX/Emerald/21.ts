@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Zangoose",
-		fr: "Mangriff"
+		fr: "Mangriff",
+		de: "Sengo"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Claws",
-				fr: "Griffes supplémentaires"
+				fr: "Griffes supplémentaires",
+				de: "Extra Claws"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				de: "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

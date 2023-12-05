@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Altaria ex",
-		fr: "Altaria ex"
+		fr: "Altaria ex",
+		de: "Altaria ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Mist",
-				fr: "Brume"
+				fr: "Brume",
+				de: "Mist"
 			},
 			effect: {
 				en: "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Altaria ex par des attaques de Pokémon Évolués de Niveau 2 (les vôtres et ceux de votre adversaire) sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+				fr: "Les dégâts infligés à Altaria ex par des attaques de Pokémon Évolués de Niveau 2 (les vôtres et ceux de votre adversaire) sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				de: "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dive",
-				fr: "Plongée"
+				fr: "Plongée",
+				de: "Dive"
 			},
 
 			damage: 20,
@@ -57,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Mist",
-				fr: "Brume de dragon"
+				fr: "Brume de dragon",
+				de: "Dragon Mist"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				de: "This attack's damage isn't affected by Resistance, Poke-Powers, Poke-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 70,
 

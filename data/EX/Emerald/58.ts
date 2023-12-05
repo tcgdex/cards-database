@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Numel",
-		fr: "Chamallot"
+		fr: "Chamallot",
+		de: "Camaub"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Stampede",
-				fr: "Sauve qui peut"
+				fr: "Sauve qui peut",
+				de: "Stampede"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Steady Firebreathing",
-				fr: "Crachage de feu régulier"
+				fr: "Crachage de feu régulier",
+				de: "Steady Firebreathing"
 			},
 
 			damage: 20,

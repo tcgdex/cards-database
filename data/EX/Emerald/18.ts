@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Relicanth",
-		fr: "Relicanth"
+		fr: "Relicanth",
+		de: "Relicanth"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Fin",
-				fr: "Aileron aiguisé"
+				fr: "Aileron aiguisé",
+				de: "Sharp Fin"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypno Splash",
-				fr: "Hypnoplouf"
+				fr: "Hypnoplouf",
+				de: "Hypno Splash"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 

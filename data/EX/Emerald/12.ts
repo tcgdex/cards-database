@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Chimecho",
-		fr: "Eoko"
+		fr: "Eoko",
+		de: "Palimpalim"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Collect"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Draw a card."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Warp Sounds",
-				fr: "Fausses notes"
+				fr: "Fausses notes",
+				de: "Warp Sounds"
 			},
 			effect: {
 				en: "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, il est maintenant Confus."
+				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, il est maintenant Confus.",
+				de: "If the Defending Pokémon an Evolved Pokémon, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 

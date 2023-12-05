@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skelenox"
+		fr: "Skelenox",
+		de: "Zwirrlicht"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'face"
+				fr: "Écras'face",
+				de: "Pound"
 			},
 
 			damage: 10,

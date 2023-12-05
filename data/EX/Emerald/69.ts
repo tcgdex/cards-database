@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Torchic",
-		fr: "Poussifeu"
+		fr: "Poussifeu",
+		de: "Flemmli"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnotic Gaze",
-				fr: "Regard hypnotique"
+				fr: "Regard hypnotique",
+				de: "Hypnotic Gaze"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 
 		},

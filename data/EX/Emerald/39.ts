@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Plusle",
-		fr: "Posipi"
+		fr: "Posipi",
+		de: "Plusle"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Collect"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Draw a card."
 			},
 
 		},
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
-				fr: "Éclair"
+				fr: "Éclair",
+				de: "Thundershock"
 			},
 			effect: {
 				en: "Flip a coin, If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

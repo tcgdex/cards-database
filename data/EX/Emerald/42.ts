@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Volbeat",
-		fr: "Muciole"
+		fr: "Muciole",
+		de: "Volbeat"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -29,26 +30,30 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Confuse Ray"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
 		{
 			cost: [
-				"Grass",
+				"Lightning",
 				"Colorless",
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Double-edge"
 			},
 			effect: {
 				en: "Volbeat does 10 damage to itself.",
-				fr: "Muciole s'inflige 10 dégâts."
+				fr: "Muciole s'inflige 10 dégâts.",
+				de: "Volbeat does 10 damage to itself."
 			},
 			damage: 30,
 
