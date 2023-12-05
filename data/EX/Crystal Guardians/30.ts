@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Charmeleon δ",
-		fr: "Reptincel δ ESPÈCES DELTA"
+		fr: "Reptincel δ ESPÈCES DELTA",
+		de: "Glutexo"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				fr: "Secousse tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Charmeleon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Reptincel s'inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est pile, Reptincel s'inflige 10 dégâts.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Glutexo selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 

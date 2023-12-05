@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Swampert",
-		fr: "Laggron"
+		fr: "Laggron",
+		de: "Sumpex"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Echo Draw",
-				fr: "Pioche renvoi"
+				fr: "Pioche renvoi",
+				de: "Echo Zug"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may draw a card. This power can't be used if Swampert is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial.",
+				de: "Ein Mal während deines Zuges (vor deinem Angriff) kannst du 1 Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Sumpex von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Hurl",
-				fr: "Lance-pierre"
+				fr: "Lance-pierre",
+				de: "Steinschleuderer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verringert."
 			},
 			damage: 60,
 

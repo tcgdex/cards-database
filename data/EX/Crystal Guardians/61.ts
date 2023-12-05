@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		de: "Habitak"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spearhead",
-				fr: "Meneur"
+				fr: "Meneur",
+				de: "Speerspitze"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez 1 carte."
+				fr: "Piochez 1 carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},

@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Wigglytuff",
-		fr: "Grodoudou"
+		fr: "Grodoudou",
+		de: "Knuddeluff"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Fluffy Fur",
-				fr: "Douce fourrure"
+				fr: "Douce fourrure",
+				de: "Kuscheliges Fell"
 			},
 			effect: {
 				en: "If Wigglytuff is your Active Pokémon and is damaged by an opponent's attack (even if Wigglytuff is Knocked Out), the Attacking Pokémon is now Asleep.",
-				fr: "Si Grodoudou est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Grodoudou est mis K.O), le Pokémon Attaquant est maintenant Endormi."
+				fr: "Si Grodoudou est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Grodoudou est mis K.O), le Pokémon Attaquant est maintenant Endormi.",
+				de: "Wenn Knuddeluff dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Knuddeluff kampfunfähig wird), schläft das Angreifende Pokémon jetzt."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes."
+				fr: "Piochez 3 cartes.",
+				de: "Ziehe 3 Karten."
 			},
 
 		},
@@ -58,11 +63,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pester",
-				fr: "Abattre"
+				fr: "Abattre",
+				de: "Verfolgung"
 			},
 			effect: {
 				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

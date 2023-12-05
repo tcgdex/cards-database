@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skelenox"
+		fr: "Skelenox",
+		de: "Zwirrlicht"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez 1 carte."
+				fr: "Piochez 1 carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Psy Bolt",
-				fr: "Super psy"
+				fr: "Super psy",
+				de: "Super-Psischlag"
 			},
 
 			damage: 10,
