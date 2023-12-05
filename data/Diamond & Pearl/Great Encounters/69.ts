@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Houndour",
 		fr: "Malosse",
+		de: "Hunduster"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Houndour.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Malosse.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Hunduster angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Smash Kick",
 				fr: "Coud'pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 20,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Latios",
 		fr: "Latios",
+		de: "Latios"
 	},
 	illustrator: "Daisuke Ito",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Energy Draw",
 				fr: "Absorption d'énergie",
+				de: "Energieanziehung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à Latios. Ensuite, mélangez votre deck.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an Latios an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Luster Purge",
 				fr: "Lumi-Eclat",
+				de: "Scheinwerfer"
 			},
 			effect: {
 				en: "Discard 3 Energy attached to Latios.",
 				fr: "Défaussez 3 Énergies attachées à Latios.",
+				de: "Lege 3 Energien, die an Latios angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 120,
 

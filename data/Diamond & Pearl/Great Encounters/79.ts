@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mankey",
 		fr: "Férosinge",
+		de: "Menki"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing léger",
+				de: "Leichter Hieb"
 			},
 
 			damage: 10,
@@ -43,12 +45,14 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Mankey.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Férosinge.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Menki zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

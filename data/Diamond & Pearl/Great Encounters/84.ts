@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Snubbull",
 		fr: "Snubbull",
+		de: "Snubbull"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Roar",
 				fr: "Hurlement",
+				de: "Gebrüll"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 30,

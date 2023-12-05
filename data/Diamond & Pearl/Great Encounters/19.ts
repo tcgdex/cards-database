@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hypno",
 		fr: "Hypnomade",
+		de: "Hypno"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Dream Catcher",
 				fr: "Attrap'rêve",
+				de: "Traumfänger"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Asleep, move all damage counters from Hypno to the Defending Pokémon.",
 				fr: "Si le Pokémon Défenseur est Endormi, déplacez tous les marqueurs de dégât d'Hypnomade sur le Pokémon Défenseur.",
+				de: "Wenn das Verteidigende Pokémon schläft, entferne alle Schadensmarken von Hypno und lege sie auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Hypnoblast",
 				fr: "Hypnoblast",
+				de: "Hypnoschuss"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 60,
 
