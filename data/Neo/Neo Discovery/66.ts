@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Tyrogue",
-		fr: "Débugant"
+		fr: "Débugant",
+		de: "Rabauz"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,12 +33,14 @@ const card: Card = {
 
 			name: {
 				en: "Smash Punch",
-				fr: "Boxe"
+				fr: "Boxe",
+				de: "Schmetterschlag"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 30

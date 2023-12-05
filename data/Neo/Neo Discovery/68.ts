@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Unown [I]",
-		fr: "Zarbi I"
+		fr: "Zarbi I",
+		de: "Icognito I"
 	},
 
 	illustrator: "CR CG gangs",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hidden Power",
-				fr: "Puissance cachée"
+				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,
@@ -52,11 +54,13 @@ const card: Card = {
 
 	abilities: [{
 		name: {
-			fr: "[Increase]"
+			fr: "[Increase]",
+			de: "Increase"
 		},
 
 		effect: {
-			fr: "Quand vous jouez Zarbi [I] depuis votre main, vous pouvez chercher dans votre deck une autre carte Zarbi et la placer sur votre Banc. Mélangez ensuite votre deck. Vous ne pouvez pas utiliser ce pouvoir si votre Banc est plein."
+			fr: "Quand vous jouez Zarbi [I] depuis votre main, vous pouvez chercher dans votre deck une autre carte Zarbi et la placer sur votre Banc. Mélangez ensuite votre deck. Vous ne pouvez pas utiliser ce pouvoir si votre Banc est plein.",
+			de: "Wenn du Icognito I aus deiner hand ausspielst, kannst du dein Deck nach einer Karte, die icognito in ihren Namen hat, durchsuchen und diese auf deine Bank legen. Mische danach dein Deck. Du kannst diese Fähigkeit nicht anwenden, wenn deine Bank voll ist."
 		},
 
 		type: "Pokemon Power"

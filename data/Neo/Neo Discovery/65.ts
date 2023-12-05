@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Teddiursa",
-		fr: "Teddiursa"
+		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap Time",
-				fr: "Sieste"
+				fr: "Sieste",
+				de: "Mittagsschlaf"
 			},
 			effect: {
 				en: "Remove all damage counters from Teddiursa. Teddiursa is now Asleep.",
-				fr: "Retirez tous les marqueurs de dégâts de Teddiursa. Teddiursa est maintenant Endormi."
+				fr: "Retirez tous les marqueurs de dégâts de Teddiursa. Teddiursa est maintenant Endormi.",
+				de: "Entferne alle Schadensmarken von Teddiursa. Teddiursa schläft jetzt."
 			},
 
 		},

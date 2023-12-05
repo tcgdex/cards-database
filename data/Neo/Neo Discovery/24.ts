@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	illustrator: "Aya Kusube",
@@ -32,12 +33,14 @@ const card: Card = {
 
 			name: {
 				en: "Smog",
-				fr: "Purédpois"
+				fr: "Purédpois",
+				de: "Smog"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect Fire",
-				fr: "Quête du feu"
+				fr: "Quête du feu",
+				de: "Feuersammeln"
 			},
 			effect: {
 				en: "If there are any Energy in your discard pile, choose 1 of them and attach it to Houndour.",
-				fr: "S'il y a des cartes Énergie  dans votre pile de défausse, choisissez l'une d'entre elles et attachez-la à Malosse."
+				fr: "S'il y a des cartes Énergie  dans votre pile de défausse, choisissez l'une d'entre elles et attachez-la à Malosse.",
+				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wähle eine davon und lege sie an Hunduster an."
 			},
 			damage: 20,
 

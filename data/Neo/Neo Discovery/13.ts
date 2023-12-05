@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Umbreon",
-		fr: "Noctali"
+		fr: "Noctali",
+		de: "Nachtara"
 	},
 
 	illustrator: "Kimiya Masago",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 20,
@@ -48,15 +50,20 @@ const card: Card = {
 				"Darkness",
 				"Colorless",
 			],
+
 			name: {
 				en: "Feint Attack",
-				fr: "Feinte"
+				fr: "Feinte",
+				de: "Feint Attack"
 			},
+
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers or any other effects on the Defending Pokémon.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts de l'attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoirs Pokémon ou tout autre effet en action sur le Pokémon Défenseur."
-			}
+				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts de l'attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoirs Pokémon ou tout autre effet en action sur le Pokémon Défenseur.",
+				de: "Choose 1 of your opponent's Pokémon. This attack doeas 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+			},
 
+			damage: "30+"
 		},
 	],
 

@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Xatu",
-		fr: "Xatu"
+		fr: "Xatu",
+		de: "Xatu"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -33,15 +34,20 @@ const card: Card = {
 			cost: [
 				"Psychic",
 			],
+
 			name: {
 				en: "Energy Cycle",
-				fr: "Cycle énergétique"
-			},
-			effect: {
-				en: "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée au Pokémon Défenseur et 1 Pokémon du Banc de votre adversaire. Attachez-lui cette carte Énergie."
+				fr: "Cycle énergétique",
+				de: "Energy Cycle"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée au Pokémon Défenseur et 1 Pokémon du Banc de votre adversaire. Attachez-lui cette carte Énergie.",
+				de: "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon."
+			},
+
+			damage: 10
 		},
 		{
 			cost: [
@@ -51,7 +57,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Psy",
-				fr: "Super psy"
+				fr: "Super psy",
+				de: "Super Psy"
 			},
 
 			damage: 50,

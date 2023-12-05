@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Hyper Devolution Spray",
-		fr: "Vaporisateur hyper rétrograde"
+		fr: "Vaporisateur hyper rétrograde",
+		de: "Hyper-Rückentwicklungs-Spray"
 	},
 
 	illustrator: undefined,
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Choisissez 1 de vos Pokémon évolués. Prenez la carte Évolution de niveau le plus élevé de ce Pokémon et replacez-la dans votre main. (Vous ne pouvez pas faire évoluer un Pokémon pendant le tour où il est rétrogradé.)"
+		fr: "Choisissez 1 de vos Pokémon évolués. Prenez la carte Évolution de niveau le plus élevé de ce Pokémon et replacez-la dans votre main. (Vous ne pouvez pas faire évoluer un Pokémon pendant le tour où il est rétrogradé.)",
+		de: "Choose 1 of your evolved Pokémon. Take the highest Stage Evolution card from that Pokémon and put it into your hand. (You can't evolve a Pokémon the turn you devolve it.)"
 	}
 }
 
