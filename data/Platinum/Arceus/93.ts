@@ -20,6 +20,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	abilities: [{
+		type: 'Poke-BODY',
 		name: {
 			de: "Aqua-Reaktion"
 		},
