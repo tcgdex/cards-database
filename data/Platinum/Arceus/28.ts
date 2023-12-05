@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Rapidash",
+		de: "Gallopa"
 	},
 	illustrator: "Lee HyunJung",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Wild Guard",
+				de: "Wildheitsschutz"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Rapidash by your opponent's Pokémon SP.",
+				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Gallopa von gegnerischen Pokémon SP zugefügt würden."
 			},
 		},
 	],
@@ -40,6 +43,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Mane",
+				de: "Flammenmähne"
 			},
 
 			damage: 20,
@@ -53,9 +57,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Lunge",
+				de: "Aufwärtsstoß"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

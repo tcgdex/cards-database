@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Rapidash",
+		de: "Gallopa"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Searing Flame",
+				de: "Sengende Flammen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -44,6 +47,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				de: "Flackern"
 			},
 
 			damage: 40,

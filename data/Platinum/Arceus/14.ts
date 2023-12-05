@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Bronzong",
+		de: "Bronzong"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Oracle Arrow",
+				de: "Orakelpfeil"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				de: "Wähle 1 Pokémon deines Gegners, auf den bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Antigravity",
+				de: "Anti-Schwerkraft"
 			},
 			effect: {
 				en: "The Retreat Cost for Bronzong is 0 until the end of your next turn.",
+				de: "Bronzong hat Rückzugskosten 0 bis zum Ende deines nächsten Zuges."
 			},
 			damage: 60,
 

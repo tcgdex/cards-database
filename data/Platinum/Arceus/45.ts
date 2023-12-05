@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Pelipper",
+		de: "Pelipper"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Ball",
+				de: "Wasserball"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Pelipper.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Pelipper angelegte -Energie zu."
 			},
 			damage: "20+",
 
@@ -45,6 +48,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
+				de: "Flügelschlag"
 			},
 
 			damage: 60,

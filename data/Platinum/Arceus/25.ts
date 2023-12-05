@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Pichu",
+		de: "Pichu"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Baby Evolution",
+				de: "Baby Evolution"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Pikachu von deiner Hand auf Pichu legen (das zählt als Entwickeln von Pichu). Entferne alle Schadensmarken von Pichu."
 			},
 		},
 	],
@@ -36,9 +39,11 @@ const card: Card = {
 
 			name: {
 				en: "Baby Steps",
+				de: "Babyschritte"
 			},
 			effect: {
 				en: "Look at the top 5 cards of your deck, choose 1 of them, and put it into your hand. Shuffle the other cards back into your deck.",
+				de: "Schau dir die obersten 5 Karten deines Decks an, wähle 1 von ihnen und nimm sie auf die Hand. Mische die anderen Karten in dein Deck zurück."
 			},
 
 		},

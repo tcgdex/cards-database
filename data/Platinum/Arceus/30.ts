@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Sceptile",
+		de: "Gewaldro"
 	},
 	illustrator: "Reiko Tanoue",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Green Breath",
+				de: "Grüner Atem"
 			},
 			effect: {
 				en: "When you attach a Grass Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile.",
+				de: "Wenn du 1 -Energiekarte von deiner Hand an Gewaldro anlegst, entferne 2 Schadensmarken von Gewaldro."
 			},
 		},
 	],
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Leaf Blast",
+				de: "Blätterkanonade"
 			},
 			effect: {
 				en: "Does 20 damage times the amount of Grass Energy attached to Sceptile.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Gewaldro angelegten -Energien zu."
 			},
 			damage: "20x",
 
@@ -56,9 +61,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Claws",
+				de: "Giftkrallen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 60,
 

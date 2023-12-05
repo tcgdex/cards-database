@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Ponyta",
+		de: "Ponita"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Star Barrier",
+				de: "Sternenbarriere"
 			},
 			effect: {
 				en: "As long as Ponyta has any Energy attached to it, Ponyta has no Weakness.",
+				de: "Solange an Ponita mindestens 1 Energie angelegt ist, hat Ponita keine Schwäche."
 			},
 		},
 	],
@@ -39,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Blue Fire",
+				de: "Blaufeuer"
 			},
 			effect: {
 				en: "Discard all Fire Energy attached to Ponyta.",
+				de: "Entferne alle -Energien von Ponita und lege sie auf deinen Ablagestapel."
 			},
 			damage: 50,
 

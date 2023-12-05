@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Arceus",
 		fr: "Arceus",
+		de: "Arceus"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Refresh",
 				fr: "Feuille revigorante",
+				de: "Blätterheilung"
 			},
 			effect: {
 				en: "Remove 3 damage counters from each of your Benched Pokémon.",
 				fr: "Retirez 3 marqueurs de dégât à chacun des Pokémon de votre Banc.",
+				de: "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank."
 			},
 			damage: 30,
 

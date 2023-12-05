@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Bronzor",
+		de: "Bronzel"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnosis",
+				de: "Hypnose"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -42,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Spinning Attack",
+				de: "Rundumangriff"
 			},
 
 			damage: 20,

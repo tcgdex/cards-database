@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Burmy Trash Cloak",
+		de: "Burmy Lumpenumhang"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Cloak Evolution",
+				de: "Umhang-Evolution"
 			},
 			effect: {
 				en: "Burmy Trash Cloak can evolve during the turn you play it.",
+				de: "Burmy Lumpenumhang kann in dem Zug entwickelt werden, in dem du es gespielt hast."
 			},
 		},
 	],
@@ -39,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 20,

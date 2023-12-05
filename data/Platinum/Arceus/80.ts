@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Wingull",
+		de: "Wingull"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Glide",
+				de: "Gleiten"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Slashing Strike",
+				de: "Schlitzender Schlag"
 			},
 			effect: {
 				en: "During your next turn, Wingull can't use Slashing Strike.",
+				de: "Wingull kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 30,
 
