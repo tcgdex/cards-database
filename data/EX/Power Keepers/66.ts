@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Swablu",
-		fr: "Tylton"
+		fr: "Tylton",
+		de: "Wablu"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
-				fr: "Furie"
+				fr: "Furie",
+				de: "Furienschlag"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

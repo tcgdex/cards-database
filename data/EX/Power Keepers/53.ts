@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Punch",
-				fr: "Poing écrasant"
+				fr: "Poing écrasant",
+				de: "Schmetterschlag"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Submission",
-				fr: "Sacrifice"
+				fr: "Sacrifice",
+				de: "Überroller"
 			},
 			effect: {
 				en: "Machop does 10 damage to itself.",
-				fr: "Machoc s'inflige 10 dégâts."
+				fr: "Machoc s'inflige 10 dégâts.",
+				de: "Machollo fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

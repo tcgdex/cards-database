@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig Deep",
-				fr: "Trou profond"
+				fr: "Trou profond",
+				de: "Tief graben"
 			},
 			effect: {
 				en: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main."
+				fr: "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main.",
+				de: "Durchsuche deinen Ablagestapel nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

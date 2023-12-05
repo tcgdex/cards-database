@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Fighting Energy",
-		fr: "Énergie Combat"
+		fr: "Énergie Combat",
+		de: "Kampfenergie"
 	},
 	illustrator: undefined,
 	rarity: "Rare",

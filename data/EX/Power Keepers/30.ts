@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Glalie",
-		fr: "Oniglali"
+		fr: "Oniglali",
+		de: "Firnontor"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Synergy Effect",
-				fr: "Effet synergie"
+				fr: "Effet synergie",
+				de: "Synergieeffekt"
 			},
 			effect: {
 				en: "If Glacia's Stadium is in play, any damage done to Glalie by attacks from your opponent's Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Si Stade de Glacia est en jeu, tous dégâts infligés à Oniglali par des attaques de Pokémon de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+				fr: "Si Stade de Glacia est en jeu, tous dégâts infligés à Oniglali par des attaques de Pokémon de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				de: "Wenn Frosinas Stadion im Spiel ist, wird aller Schaden, der Firnontor durch Angriffe gegnerischer Pokémon zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden.)"
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Powder Snow",
-				fr: "Poudreuse"
+				fr: "Poudreuse",
+				de: "Pulverschnee"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -61,11 +66,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Glalie does 10 damage to itself.",
-				fr: "Oniglali s'inflige 10 dégâts."
+				fr: "Oniglali s'inflige 10 dégâts.",
+				de: "Firnontor fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 

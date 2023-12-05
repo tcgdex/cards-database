@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Baltoy",
-		fr: "Balbuto"
+		fr: "Balbuto",
+		de: "Puppance"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psybeam",
-				fr: "Rafale psy"
+				fr: "Rafale psy",
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Spinning Attack",
-				fr: "Attaque tournante"
+				fr: "Attaque tournante",
+				de: "Rundumangriff"
 			},
 
 			damage: 20,
