@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Nidorina",
+		de: "Nidorina"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -31,6 +32,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -42,13 +44,18 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Poison Claws",
-			},
-			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				de: "Giftkrallen"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
+			},
+
+			damage: 30
 		},
 	],
 	weaknesses: [

@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Gyarados",
+		de: "Garados"
 	},
 	illustrator: "Kimiya Masago",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Flame Vapor",
+				de: "Flammendampf"
 			},
 			effect: {
 				en: "When you play Gyarados from your hand to evolve your Active Pokémon, you may flip 2 coins. For each heads, discard an Energy card attached to the Defending Pokémon.",
+				de: "Wenn du Garados aus deiner Hand spielst, um dein aktives Pokémon zu entwickeln, kannst du 2 Münzen werfen. Lege für jeden geworfenen 'Kopf' eine an das verteidigende Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
 			},
 		},
 	],
@@ -41,13 +44,18 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Dragon's Vengeance",
-			},
-			effect: {
-				en: "If Gyarados has 7 or more damage counters on it, this attack's base damage is 100.",
+				de: "Drachenrache"
 			},
 
+			effect: {
+				en: "If Gyarados has 7 or more damage counters on it, this attack's base damage is 100.",
+				de: "Verfügt Garados über 7 oder mehr Schadensmarken, beträgt der Basisschaden dieses Angriffs 100."
+			},
+
+			damage: 50
 		},
 	],
 	weaknesses: [

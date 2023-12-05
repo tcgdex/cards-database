@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Natu",
+		de: "Natu"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Foresight",
+				de: "Blick in die Zukunft"
 			},
 			effect: {
 				en: "Look at the top 3 cards of either player's deck and rearrange them as you like.",
+				de: "Schaue dir die drei obersten Karten entweder von deinem Deck oder dem Deck deines Gegners an und lege sie in einer beliebigen Reihnvolge wieder zurück."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Removal Beam",
+				de: "Entfernungsstrahl"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose one of those Energy cards and discard it.",
+				de: "Wirf eine Münze, falls an das verteidigende Pokémon mindestens eine Energiekarte angelegt ist. Wähle bei \"Kopf\" 1 dieser Energiekarten und lege sie auf den Ablagestapel deines Gegners."
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 	],

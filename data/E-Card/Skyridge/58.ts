@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Girafarig",
+		de: "Girafarig"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Patch",
+				de: "Energieflicken"
 			},
 			effect: {
 				en: "Take a basic Energy card attached to 1 of your Pokémon and attach it to another of your Pokémon.",
+				de: "Nimm eine Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, und lege sie an ein anderes deiner Pokémon an."
 			},
 
 		},
@@ -39,13 +42,18 @@ const card: Card = {
 				"Psychic",
 				"Colorless",
 			],
+
 			name: {
 				en: "Syncroblast",
-			},
-			effect: {
-				en: "If Girafarig and the Defending Pokémon don't have the same number of Energy cards attached to them, this attack's base damage is 10 instead of 40.",
+				de: "Synchroknall"
 			},
 
+			effect: {
+				en: "If Girafarig and the Defending Pokémon don't have the same number of Energy cards attached to them, this attack's base damage is 10 instead of 40.",
+				de: "Liegen an Girafarig und am verteidigenden Pokémon nicht die gleiche Anzahl an Energiekarten an, beträgt der Basis-Schaden dieses Angriffs 10 anstatt 40."
+			},
+
+			damage: 40
 		},
 	],
 	weaknesses: [

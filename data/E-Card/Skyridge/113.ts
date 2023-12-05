@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Voltorb",
+		de: "Voltobal"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnetic Pull",
+				de: "Magnetische Anziehung"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
+				de: "Wenn auf der Bank deines Gegners Pokémon vorhanden sind, wähle eines von diesen und tausche es mit dem verteidigenden Pokémon aus."
 			},
 
 		},
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Spin Tackle",
+				de: "Drehtackle"
 			},
 			effect: {
 				en: "Voltorb does 10 damage to itself.",
+				de: "Voltobal fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

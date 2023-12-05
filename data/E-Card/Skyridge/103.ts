@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Staryu",
+		de: "Sterndu"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Healing",
+				de: "Energieauffrischung"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Staryu for each energy attached to it. If it has fewer damage counters than that, remove all of them.",
+				de: "Entferne für jede an Sterndu angelegte Energie 2 Schadensmarken von ihm. Wenn es weniger Schadensmarken hat, entferne alle."
 			},
 
 		},
@@ -40,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Doubleslap",
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],

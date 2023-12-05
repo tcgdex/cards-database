@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Weedle",
+		de: "Hornliu"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Entangling Thread",
+				de: "Einwickelnder Faden"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Horn",
+				de: "Gifthorn"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},

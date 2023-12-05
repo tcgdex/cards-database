@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Pineco",
+		de: "Tannza"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Pineco does 10 damage to itself.",
+				de: "Tannza fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Slugma",
+		de: "Schneckmag"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Scorching Lava",
+				de: "Glühendheiße Lava"
 			},
 			effect: {
 				en: "Discard a Energy card attached to Slugma in order to use this attack. The Defending Pokémon is now Burned.",
+				de: "Lege eine an Schneckmag angelegte -Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Das verteidigende Pokémon ist jetzt verbrannt."
 			},
 
 		},

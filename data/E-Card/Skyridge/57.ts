@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Gastly",
+		de: "Nebulak"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -28,11 +29,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Haunt",
+				de: "Grusel"
 			},
 			effect: {
 				en: "Put a damage counter on the Defending Pokémon.",
-			},
-			damage: 10,
+				de: "Lege eine Schadensmarke auf das verteidigende Pokémon."
+			}
 
 		},
 	],

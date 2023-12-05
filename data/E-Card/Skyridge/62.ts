@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Growlithe",
+		de: "Fukano"
 	},
 	illustrator: "Masako Yamashita",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
+				de: "Flackern"
 			},
 
 			damage: 10,
@@ -40,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Kick",
+				de: "Doppelkick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],

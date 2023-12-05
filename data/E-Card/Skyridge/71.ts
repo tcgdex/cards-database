@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Lapras",
+		de: "Lapras"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Assist",
+				de: "Assistent"
 			},
 			effect: {
 				en: "Search your deck for a Supporter card, show it to your opponent and put it into your hand. Shuffle your deck afterward.",
+				de: "Durchsuche dein Deck nach einer Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnoblast",
+				de: "Hypnoschuss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 30,
 

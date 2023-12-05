@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Seel",
+		de: "Jurob"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -28,11 +29,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Headbutt",
+				de: "Doppelte Kopfnuss"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Beam",
+				de: "Eisstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

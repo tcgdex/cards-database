@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Venomoth",
+		de: "Omot"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Healing Dust",
+				de: "Heilender Staub"
 			},
 			effect: {
 				en: "Flip 2 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them.",
+				de: "Wirf 2 Münzen. Entferne für jeden geworfenen \"Kopf\" eine Schadensmarke von jedem deiner Pokémon. Hat ein Pokémon weniger Schadensmarken als du \"Kopf\" geworfen hast, entferne alle von ihm."
 			},
 
 		},
@@ -43,13 +46,18 @@ const card: Card = {
 				"Colorless",
 				"Colorless",
 			],
+
 			name: {
 				en: "Miracle Powder",
-			},
-			effect: {
-				en: "Flip a coin. If heads, choose a Special Condition (Asleep, Burned, Confused, Paralyzed, or Poisoned). The Defending Pokémon is now affected by that Special Condition.",
+				de: "Wunderpulver"
 			},
 
+			effect: {
+				en: "Flip a coin. If heads, choose a Special Condition (Asleep, Burned, Confused, Paralyzed, or Poisoned). The Defending Pokémon is now affected by that Special Condition.",
+				de: "Wirf eine Münze. Wähle bei \"Kopf\" einen speziellen Zustand (Schlaf, verbrannt, verwirrt, gelähmt oder vergiftet). Das verteidigende Pokémon ist jetzt von diesem Spezielen Zustand betroffen."
+			},
+
+			damage: 30
 		},
 	],
 	weaknesses: [

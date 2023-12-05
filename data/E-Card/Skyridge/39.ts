@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Misdreavus",
+		de: "Traunfugil"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnoblast",
+				de: "Hypnoschuss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				de: "Wirf eine Münze. bei \"Kopf\" schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Gift of Spite",
+				de: "Boshaftes Geschenk"
 			},
 			effect: {
 				en: "Count the number of your Pokémon in play with damage counters on them. Put that many damage counters on the Defending Pokémon.",
+				de: "Bestimme die Anzahl an Pokémon im Spiel, auf denen Schadensmarken liegen. Lege ebenso viele Schadensmarken auf das verteidigende Pokémon."
 			},
 
 		},
