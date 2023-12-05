@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Weezing",
-		fr: "Smogogo"
+		fr: "Smogogo",
+		de: "Smogmog"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Foul Gas",
-				fr: "Gaz infect"
+				fr: "Gaz infect",
+				de: "Foul Gas"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Misfire",
-				fr: "Raté"
+				fr: "Raté",
+				de: "Misfire"
 			},
 			effect: {
 				en: "Flip a coin. If tails, put 6 damage counters on Weezing.",
-				fr: "Lancez une pièce. Si c'est face, placez 6 marqueurs de dégâts sur Smogogo."
+				fr: "Lancez une pièce. Si c'est face, placez 6 marqueurs de dégâts sur Smogogo.",
+				de: "Flip a coin. If tails, put 6 damage counters on Weezing."
 			},
 			damage: 60,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Torchic",
 		fr: "Poussifeu",
+		de: "Flemmli"
 	},
 	illustrator: "Hiroki Fuchino",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -40,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Singe",
 				fr: "Roussir",
+				de: "Versengung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 
 		},

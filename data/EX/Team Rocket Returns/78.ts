@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Spinarak",
+		de: "Webarak"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				de: "Collect"
 			},
 			effect: {
 				en: "Draw a card.",
+				de: "Draw a card."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Lunge",
+				de: "Rising Lunge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

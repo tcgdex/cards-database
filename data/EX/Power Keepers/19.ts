@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Ninetales",
-		fr: "Feunard"
+		fr: "Feunard",
+		de: "Vulnona"
 	},
 	illustrator: "Tomoaki Imakuni",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Safeguard",
-				fr: "Rune protectrice"
+				fr: "Rune protectrice",
+				de: "Bodyguard"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Feunard par les Pokémon-ex de votre adversaire."
+				fr: "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Feunard par les Pokémon-ex de votre adversaire.",
+				de: "Verhindere alle Effekte von Angriffen inklusive Schaden, die Vulnona von gegnerischen Pokémon-ex zugefügt werden."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -61,7 +66,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Will-o'-the-wisp",
-				fr: "Feu follet"
+				fr: "Feu follet",
+				de: "Irrlicht"
 			},
 
 			damage: 50,

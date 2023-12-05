@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Bellsprout",
-		fr: "Chetiflor"
+		fr: "Chetiflor",
+		de: "Knofensa"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
-				fr: "Poudre dodo"
+				fr: "Poudre dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},

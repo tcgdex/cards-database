@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Electrike",
+		de: "Frizelbliz"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Zap Kick",
+				de: "Stromtritt"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Electrike does 10 damage to itself.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" fügt Frizelbliz sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

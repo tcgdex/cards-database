@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Ralts",
-		fr: "Tarsal"
+		fr: "Tarsal",
+		de: "Trasla"
 	},
 	illustrator: "Kenkichi Toyama",
 	rarity: "Common",
@@ -29,23 +30,27 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Collect"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Draw a card."
 			},
 
 		},
 		{
 			name: {
 				en: "Quick Blow",
-				fr: "Coup d'poing éclair"
+				fr: "Coup d'poing éclair",
+				de: "Quick Blow"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
 			},
 
 			damage: "10+",

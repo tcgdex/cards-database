@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Jolteon",
-		fr: "Voltali"
+		fr: "Voltali",
+		de: "Blitza"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -32,13 +33,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Kick",
-				fr: "Double pied"
+				fr: "Double pied",
+				de: "Double Kick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face."
+				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
+				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Strike",
-				fr: "Frap'éclair"
+				fr: "Frap'éclair",
+				de: "Lightning Strike"
 			},
 			effect: {
 				en: "You may discard all Lightning Energy cards attached to Jolteon. If you do, this attack's base damage is 70 instead of 40.",
-				fr: "Vous pouvez défausser toutes les cartes Énergie  attachées à Voltali. Dans ce cas, les dégâts de base de cette attaque sont de 70 et non de 40."
+				fr: "Vous pouvez défausser toutes les cartes Énergie  attachées à Voltali. Dans ce cas, les dégâts de base de cette attaque sont de 70 et non de 40.",
+				de: "You may discard all  Energy cards attached to Jolteon. If you do, this attack's base damage is 70 instead of 40."
 			},
 			damage: 40,
 

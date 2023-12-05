@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
-				fr: "Appel à la famille"
+				fr: "Appel à la famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for Magikarp and put as many of them as you like onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez des cartes Magicarpe dans votre deck et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck."
+				fr: "Cherchez des cartes Magicarpe dans votre deck et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach beliebig vielen Kopien von Karpador und lege sie auf die Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

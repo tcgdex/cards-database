@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gulpin",
 		fr: "Gloupti",
+		de: "Schluppuck"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Amnesia",
 				fr: "Amnésie",
+				de: "Amnesie"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann im nächsten Zug deines Gegners den gewählten Angriff nicht einsetzen."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Gastro Acid",
 				fr: "Suc Digestif",
+				de: "Magensäfte"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},

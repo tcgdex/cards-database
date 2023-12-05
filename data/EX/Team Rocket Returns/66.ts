@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Magnemite",
+		de: "Magnetilo"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Sonicboom",
+				de: "Sonicboom"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness or Resistance.",
+				de: "This attack's damage isn't affected by Weakness or Resistance."
 			},
 			damage: 10,
 

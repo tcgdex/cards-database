@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Wild Kick",
 				fr: "Coup déchaîné",
+				de: "Stürmischer Kick"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 

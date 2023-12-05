@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Primeape",
-		fr: "Colossinge obscur"
+		fr: "Colossinge obscur",
+		de: "Dunkles Rasaff"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Frenzy",
-				fr: "Pète les plombs"
+				fr: "Pète les plombs",
+				de: "Frenzy"
 			},
 			effect: {
 				en: "If Dark Primeape does any damage while it's Confused (even to itself), it does 30 more damage.",
-				fr: "Si Colossinge obscur inflige des dégâts lorsqu'il est Confus (y compris à lui-même), il inflige 30 dégâts supplémentaires."
+				fr: "Si Colossinge obscur inflige des dégâts lorsqu'il est Confus (y compris à lui-même), il inflige 30 dégâts supplémentaires.",
+				de: "If Dark Primeape does any damage while it's Confused (even to itself), it dies 20 more damage."
 			},
 		},
 	],
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Frenzied Attack",
-				fr: "Attaque frénétique"
+				fr: "Attaque frénétique",
+				de: "Frenzied Attack"
 			},
 			effect: {
 				en: "Dark Primeape is now Confused (after doing damage).",
-				fr: "Colossinge obscur est maintenant Confus (après application des dégâts)."
+				fr: "Colossinge obscur est maintenant Confus (après application des dégâts).",
+				de: "Dark Primeape is now Confused (after doing damage)."
 			},
 			damage: 40,
 

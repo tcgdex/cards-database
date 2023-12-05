@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Marill",
-		fr: "Marill"
+		fr: "Marill",
+		de: "Marill"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Rollout"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Jump On",
-				fr: "Sauter"
+				fr: "Sauter",
+				de: "Jump On"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 

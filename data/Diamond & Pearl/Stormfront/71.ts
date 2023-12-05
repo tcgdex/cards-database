@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -36,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Smash Kick",
 				fr: "Coud'pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 10,
@@ -49,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Agility",
 				fr: "Hâte",
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Ponyta during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ponyta lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Ponita zugefügt würden."
 			},
 			damage: 20,
 

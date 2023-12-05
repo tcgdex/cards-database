@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Energy Search",
-		fr: "Recherche d'énergie"
+		fr: "Recherche d'énergie",
+		de: "Energiesuche"
 	},
 
 	illustrator: "Kai Ishikawa",
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+		fr: "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+		de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	}
 }
 

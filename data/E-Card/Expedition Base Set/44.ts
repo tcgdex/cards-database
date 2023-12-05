@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Dugtrio",
-		fr: "Triopikeur"
+		fr: "Triopikeur",
+		de: "Digdri"
 	},
 	illustrator: "Masako Yamashita",
 	rarity: "Rare",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
-				fr: "Coud'boue"
+				fr: "Coud'boue",
+				de: "Mud Slap"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnitude",
-				fr: "Ampleur"
+				fr: "Ampleur",
+				de: "Magnitude"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)"
+				fr: "Inflige 10 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				de: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 40,
 

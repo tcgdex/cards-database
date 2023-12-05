@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Turtwig",
 		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,6 +44,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu Niv. 12",
+		de: "Pikachu"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Jolt",
 				fr: "Secousse tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
+				de: "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Chansey does 40 damage to itself.",
-				fr: "Leveinard s'inflige 40 dégâts."
+				fr: "Leveinard s'inflige 40 dégâts.",
+				de: "Chaneira fügt sich selber 40 Schadenspunkte zu."
 			},
 			damage: 40,
 

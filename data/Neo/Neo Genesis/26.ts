@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Aipom",
-		fr: "Capumain"
+		fr: "Capumain",
+		de: "Griffel"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pilfer",
-				fr: "Chapardage"
+				fr: "Chapardage",
+				de: "Stibitzen"
 			},
 			effect: {
 				en: "Shuffle Aipom and all cards attached to it into your deck. Flip a coin. If heads, shuffle a card from your discard pile into your deck.",
-				fr: "Mélangez Capumain et toutes les cartes qui lui sont attachées dans votre deck. Lancez une pièce. Si c'est face, mélangez une carte de votre pile de défausse dans votre deck."
+				fr: "Mélangez Capumain et toutes les cartes qui lui sont attachées dans votre deck. Lancez une pièce. Si c'est face, mélangez une carte de votre pile de défausse dans votre deck.",
+				de: "Mische Griffel und alle daran angelegten Karten zurück in dein Deck. Wirf eine Münze. Mische bei 'Kopf' eine Karte aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -45,13 +48,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Rap",
-				fr: "Frap'keu"
+				fr: "Frap'keu",
+				de: "Schweifklopfen"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

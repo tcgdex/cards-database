@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Bagon",
+		de: "Kindwurm"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
+				de: "Schmetterkick"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Singe",
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 

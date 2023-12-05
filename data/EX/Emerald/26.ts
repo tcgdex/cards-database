@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Dodrio",
-		fr: "Dodrio"
+		fr: "Dodrio",
+		de: "Dodri"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud'pattes"
+				fr: "Coud'pattes",
+				de: "Smash Kick"
 			},
 
 			damage: 30,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Turn",
-				fr: "Tour fracassant"
+				fr: "Tour fracassant",
+				de: "Smash Turn"
 			},
 			effect: {
 				en: "After your attack, you may switch Dodrio with 1 of your Benched Pokémon.",
-				fr: "Après votre attaque, vous pouvez échanger Dodrio avec 1 des Pokémon de votre Banc."
+				fr: "Après votre attaque, vous pouvez échanger Dodrio avec 1 des Pokémon de votre Banc.",
+				de: "After your attack, you may switch Dodrio with 1 of your benched Pokémon."
 			},
 			damage: 40,
 

@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Dusclops ex",
-		fr: "Teraclope ex"
+		fr: "Teraclope ex",
+		de: "Zwirrklop ex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dark Hole",
-				fr: "Trou obscur"
+				fr: "Trou obscur",
+				de: "Dark Hole"
 			},
 			effect: {
 				en: "As long as Dusclops ex is on your Bench, don't apply Darkness Weakness for all of your Pokémon in play.",
-				fr: "Tant que Teraclope ex est sur votre Banc, vous ne pouvez pas appliquer la Faiblesse  aux Pokémon que vous avez en jeu."
+				fr: "Tant que Teraclope ex est sur votre Banc, vous ne pouvez pas appliquer la Faiblesse  aux Pokémon que vous avez en jeu.",
+				de: "As long as Dusclops ex is on your Bench, don't apply  Weakness for all of your Pokémon in play."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shadow Beam",
-				fr: "Rayon d'ombre"
+				fr: "Rayon d'ombre",
+				de: "Shadow Beam"
 			},
 			effect: {
 				en: "Put 2 damage counters on the Defending Pokémon for each Energy attached to Dusclops ex.",
-				fr: "Placez 2 marqueurs de dégât sur le Pokémon Défenseur pour chaque Énergie attachée à Teraclope ex."
+				fr: "Placez 2 marqueurs de dégât sur le Pokémon Défenseur pour chaque Énergie attachée à Teraclope ex.",
+				de: "Put 2 damage counters on the Defending Pokémon for each Energy attached to Dusclops ex."
 			},
 
 		},

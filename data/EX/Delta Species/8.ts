@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Latias δ",
-		fr: "Latias δ ESPÈCES DELTA"
+		fr: "Latias δ ESPÈCES DELTA",
+		de: "Latias"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -27,46 +28,52 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Delta Aura",
-				fr: "Aura Delta"
+				fr: "Aura Delta",
+				de: "Delta-Aura"
 			},
 			effect: {
 				en: "If you have Latios or Latios ex in play, the attack cost of Latias's Extra Crush is now Lightning Metal Colorless.",
-				fr: "Si vous avez un Latios ou un Latios ex en jeu, le Coût de l'attaque Extra broyage de Latias est maintenant ."
+				fr: "Si vous avez un Latios ou un Latios ex en jeu, le Coût de l'attaque Extra broyage de Latias est maintenant .",
+				de: "Wenn du Latios oder Latios ex im Spiel hast, kostet Latias Extra Zerschmettern nur noch   ."
 			},
 		},
 	],
 	attacks: [
 		{
 			cost: [
-				"Metal",
 				"Colorless",
+				"Metal",
 			],
 			name: {
 				en: "Spiral Drain",
-				fr: "Spirale épuisante"
+				fr: "Spirale épuisante",
+				de: "Spiralsauger"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Latias.",
-				fr: "Retirez à Latias 2 marqueurs de dégât."
+				fr: "Retirez à Latias 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Latias."
 			},
 			damage: 20,
 
 		},
 		{
 			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
 				"Lightning",
 				"Metal",
-				"Colorless",
-				"Colorless",
-				"Colorless",
 			],
 			name: {
 				en: "Extra Crush",
-				fr: "Extra broyage"
+				fr: "Extra broyage",
+				de: "Extra Zerschmettern"
 			},
 			effect: {
 				en: "If your opponent has no Pokémon-ex in play, this attack does nothing.",
-				fr: "Si votre adversaire n'a pas de Pokémon-ex en jeu, cette attaque est sans effet."
+				fr: "Si votre adversaire n'a pas de Pokémon-ex en jeu, cette attaque est sans effet.",
+				de: "Wenn dein Gegner keine Pokémon-ex im Spiel hat, hat dieser Angriff keine Auswirkung."
 			},
 			damage: 80,
 

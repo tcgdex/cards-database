@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 	illustrator: "Kenkichi Toyama",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Hypnotic Gaze",
 				fr: "Regard hypnotique",
+				de: "Hypnotischer Blick"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Expand",
 				fr: "Pousstoidla",
+				de: "Ausdehnen"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Jigglypuff by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Rondoudou par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Pummeluff durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 

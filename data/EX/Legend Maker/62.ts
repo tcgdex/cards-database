@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Sentret",
-		fr: "Fouinette"
+		fr: "Fouinette",
+		de: "Wiesor"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

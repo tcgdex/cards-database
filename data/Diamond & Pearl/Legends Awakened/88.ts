@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	illustrator: "Midori Harada",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Razor Fin",
 				fr: "Aileron-rasoir",
+				de: "Rasierflosse"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Spark",
 				fr: "Aqua-étincelle",
+				de: "Aquafunke"
 			},
 			effect: {
 				en: "If Chinchou has any Water Energy attached to it, this attack does 20 damage plus 10 more damage.",
 				fr: "Si Loupio possède de l'Énergie Water, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wenn an Lampi mindestens 1 -Energie angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu"
 			},
 			damage: "20+",
 

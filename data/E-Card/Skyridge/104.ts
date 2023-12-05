@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Staryu",
+		de: "Sterndu"
 	},
 	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Slap",
+				de: "Slap"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
+				de: "Confuse Ray"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 

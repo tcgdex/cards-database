@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Mightyena",
-		fr: "Grahyena"
+		fr: "Grahyena",
+		de: "Magnayen"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ambush",
-				fr: "Embuscade"
+				fr: "Embuscade",
+				de: "Hinterhalt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts.",
+				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

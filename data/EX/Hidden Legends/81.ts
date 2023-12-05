@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Vulpix",
-		fr: "Goupix"
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Scratch"
 			},
 
 			damage: 10,
@@ -38,12 +40,14 @@ const card: Card = {
 		{
 			name: {
 				en: "Ascension",
-				fr: "Ascension"
+				fr: "Ascension",
+				de: "Ascension"
 			},
 
 			effect: {
 				en: "Search your deck for a card that evolves from Vulpix and put it on Vulpix. (This counts as evolving Vulpix.) Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte qui évolue de Goupix et placez-la sur Goupix. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck."
+				fr: "Choisissez dans votre deck une carte qui évolue de Goupix et placez-la sur Goupix. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
+				de: "Search your deck for a card that evolves from Vulpix and put it on Vulpix. (This counts as evolving Vulpix.) Shuffle your deck afterward."
 			},
 
 			cost: ["Fire"]

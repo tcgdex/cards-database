@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ninjask",
 		fr: "Ninjask",
+		de: "Ninjask"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Circling Dive",
 				fr: "Plongeon en cercle",
+				de: "Trudelsturzflug"
 			},
 			effect: {
 				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Switch Ninjask with 1 of your Benched Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Échangez Ninjask avec 1 des Pokémon de votre Banc.",
+				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Tausche Ninjask gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Parallel Drain",
 				fr: "Tuyau parallèle",
+				de: "Parallelsauger"
 			},
 			effect: {
 				en: "Remove from 1 of your Pokémon the number of damage counters equal to the damage you did to the Defending Pokémon.",
 				fr: "Retirez à 1 de vos Pokémon autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				de: "Entferne Schadensmarken von 1 deiner Pokémon entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 30,
 

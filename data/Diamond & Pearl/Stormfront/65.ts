@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Sea Spray",
 				fr: "Spray de mer",
+				de: "Gischt"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, draw a card.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, piochez une carte.",
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Ziehe pro \"Kopf\" 1 Karte."
 			},
 
 		},
@@ -48,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				de: "Platscher"
 			},
 
 			damage: 10,

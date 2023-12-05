@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Flaaffy",
 		fr: "Lainergie",
+		de: "Waaty"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Attract Current",
 				fr: "Courant électrique",
+				de: "Stromanziehung"
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Énergie Lightning et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie 1 deiner Pokémon an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -50,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Electromagnetic Kick",
 				fr: "Coup électromagnétique",
+				de: "Elektromagnetischer Kick"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Flaaffy does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 10 dégâts.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Waaty selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 

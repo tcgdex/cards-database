@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Gastly",
+		de: "Nebulak"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -40,6 +42,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Suffocating Gas",
+				de: "Würgegas"
 			},
 
 			damage: 20,

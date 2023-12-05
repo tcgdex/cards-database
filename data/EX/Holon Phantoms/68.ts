@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Lileep δ",
-		fr: "Lilia δ ESPÈCES DELTA"
+		fr: "Lilia δ ESPÈCES DELTA",
+		de: "Liliep"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Tentacles",
-				fr: "Tentacules empoisonnées"
+				fr: "Tentacules empoisonnées",
+				de: "Giftige Tentakel"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Shot",
-				fr: "Tir de boue"
+				fr: "Tir de boue",
+				de: "Lehmschuss"
 			},
 
 			damage: 20,

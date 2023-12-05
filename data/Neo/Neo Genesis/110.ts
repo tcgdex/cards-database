@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
-		fr: "Énergie Psy"
+		fr: "Énergie Psy",
+		de: "Psychoenergie"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",

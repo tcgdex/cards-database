@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skélénox"
+		fr: "Skélénox",
+		de: "Zwirrlicht"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Surprise Attack",
-				fr: "Attaque surprise"
+				fr: "Attaque surprise",
+				de: "Überraschungsangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 

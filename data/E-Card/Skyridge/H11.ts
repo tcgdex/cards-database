@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Houndoom",
+		de: "Hundemon"
 	},
 	illustrator: "Kimiya Masago",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ambush",
+				de: "Hinterhalt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lonely Fang",
+				de: "Einzelner Reißzahn"
 			},
 			effect: {
 				en: "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pokémon minus the number of your Benched Pokémon. (For example, if your opponent has 3 Benched Pokémon and you have 1, this attack will do 30 damage plus 40 more damage.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jedes Pokémon auf der Bank deines Gegners minus 20 Schadenspunkte für jedes Pokémon auf deiner Bank zu. (Hat zum Beispiel dein Gegner 3 Pokémon auf seiner Bank und du nur 1 auf deiner, fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu.)"
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

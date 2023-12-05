@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Forretress",
-		fr: "Foretress obscur"
+		fr: "Foretress obscur",
+		de: "Dunkles Forstellka"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Armor Up",
-				fr: "Blindage"
+				fr: "Blindage",
+				de: "Armor Up"
 			},
 			effect: {
 				en: "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead.",
-				fr: "Jusqu'à la fin de votre prochain tour, si Foretress obscur doit être mis K.O. par les dégâts d'une attaque, lancez une pièce. Si c'est face, Foretress obscur n'est pas mis K.O. et ses points de vie deviennent 10."
+				fr: "Jusqu'à la fin de votre prochain tour, si Foretress obscur doit être mis K.O. par les dégâts d'une attaque, lancez une pièce. Si c'est face, Foretress obscur n'est pas mis K.O. et ses points de vie deviennent 10.",
+				de: "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead."
 			},
 
 		},
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Explosion",
-				fr: "Explosion"
+				fr: "Explosion",
+				de: "Explosion"
 			},
 			effect: {
 				en: "Dark Forretress does 60 damage to itself.",
-				fr: "Foretress obscur s'inflige 60 dégâts."
+				fr: "Foretress obscur s'inflige 60 dégâts.",
+				de: "Dark Forretress does 60 damage to itself."
 			},
 			damage: 60,
 

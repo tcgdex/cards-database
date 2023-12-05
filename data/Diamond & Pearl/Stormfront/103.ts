@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Charizard",
-		fr: "Dracaufeu"
+		fr: "Dracaufeu",
+		de: "Glurak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Energy Burn",
 				fr: "Dépense d'énergie",
+				de: "Energie verbrennen"
 			},
 			effect: {
 				en: "All Energy attached to Charizard are fire Energy instead of their usual type.",
 				fr: "Toutes les Énergies attachées à Dracaufeu sont des Énergies Fire au lieu de leur type habituel.",
+				de: "Alle Energien, die an Glurak angelegt sind, liefern -Energie anstelle ihres normalen Typs."
 			},
 		},
 	],
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Fire Spin",
 				fr: "Danseflamme",
+				de: "Feuerwirbel"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Charizard.",
 				fr: "Défaussez 2 Énergies attachées à Dracaufeu.",
+				de: "Lege 2 an Glurak angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 

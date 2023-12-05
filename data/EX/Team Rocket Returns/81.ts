@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Wooper",
+		de: "Felino"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Saturation",
+				de: "Saturation"
 			},
 			effect: {
 				en: "When you attach a Water Energy card from your hand to Wooper, remove all Special Conditions and 1 damage counter from Wooper.\"",
+				de: "When you attach a  Energy card from your hand to Wooper, remoce all Special Conditions and 1 damage counter from Wooper."
 			},
 		},
 	],
@@ -38,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Wave Splash",
+				de: "Wave Splash"
 			},
 
 			damage: 10,

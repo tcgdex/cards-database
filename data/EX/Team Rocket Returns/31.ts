@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Dragonair",
+		de: "Dunkles Dragonir"
 	},
 	illustrator: "Emi Miwa",
 	rarity: "Uncommon",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Evolutionary Light",
+				de: "Evolutionary Light"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Dark Dragonair is your Active Pokémon, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition.",
+				de: "Once during your turn (before your attack), if Dark Dragonair is your Active Pokémon, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition."
 			},
 		},
 	],
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Rage",
+				de: "Dragon Rage"
 			},
 
 			damage: 30,

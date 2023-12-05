@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Latios δ",
-		fr: "Latios δ ESPÈCES DELTA"
+		fr: "Latios δ ESPÈCES DELTA",
+		de: "Latios"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -27,11 +28,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Delta Aura",
-				fr: "Aura Delta"
+				fr: "Aura Delta",
+				de: "Delta-Aura"
 			},
 			effect: {
 				en: "If you have Latias or Latias ex in play, the attack cost of Latios's Psychic Force is now Lightning Metal Colorless.",
-				fr: "Si vous avez un Latias ou un Latias ex en jeu, le Coût de l'attaque Force psychique de Latios est maintenant ."
+				fr: "Si vous avez un Latias ou un Latias ex en jeu, le Coût de l'attaque Force psychique de Latios est maintenant .",
+				de: "Wenn du Latias oder Latias ex im Spiel hast, kostet Latios Psychomacht nur noch   ."
 			},
 		},
 	],
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Claw",
-				fr: "Dracogriffe"
+				fr: "Dracogriffe",
+				de: "Drachenklaue"
 			},
 
 			damage: 20,
@@ -59,11 +63,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Force",
-				fr: "Force psychique"
+				fr: "Force psychique",
+				de: "Psychomacht"
 			},
 			effect: {
 				en: "If your opponent has no Stage 2 Evolved Pokémon in play, this attack does nothing.",
-				fr: "Si votre adversaire n'a pas de Pokémon Évolué de niveau 2 en jeu, cette attaque est sans effet."
+				fr: "Si votre adversaire n'a pas de Pokémon Évolué de niveau 2 en jeu, cette attaque est sans effet.",
+				de: "Wenn dein Gegner kein entwickeltes Pokémon der Phase 2 im Spiel hat, hat dieser Angriff keine Auswirkung."
 			},
 			damage: 80,
 

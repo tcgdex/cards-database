@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Dark Celebi",
-		fr: "Celebi Obscur"
+		fr: "Celebi Obscur",
+		de: "Dunkles Celebi"
 	},
 	illustrator: "Ken Ikuji",
 	rarity: "Rare",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Provide",
-				fr: "Fournisseur d'obscurité"
+				fr: "Fournisseur d'obscurité",
+				de: "Dark Provide"
 			},
 			effect: {
 				en: "Attach up to 1 Grass or Darkness Energy card from your hand to your Pokémon.",
-				fr: "Attachez à votre Pokémon jusqu'à 1 carte Énergie  ou  de votre main."
+				fr: "Attachez à votre Pokémon jusqu'à 1 carte Énergie  ou  de votre main.",
+				de: "Attack up to 1  or  Energy card from your hand to your Pokémon."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leaf Poison",
-				fr: "Feuille-poison"
+				fr: "Feuille-poison",
+				de: "Leaf Poison"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisened."
 			},
 			damage: 20,
 

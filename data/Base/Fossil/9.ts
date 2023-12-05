@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Kabutops",
-		fr: "Kabutops"
+		fr: "Kabutops",
+		de: "Kabutops"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharp Sickle",
-				fr: "Lame-aiguisée"
+				fr: "Lame-aiguisée",
+				de: "Scharfe Sichel"
 			},
 
 			damage: 30,
@@ -51,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Absorb",
-				fr: "Vol-vie"
+				fr: "Vol-vie",
+				de: "Absorber"
 			},
 			effect: {
 				en: "Remove a number of damage counters from Kabutops equal to half the damage done to Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them.",
-				fr: "Retirez de Kabutops un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondis à la dizaine la plus proche.) Si le nombre de marqueurs sur Kabutops est inférieur à ce résultat, retirez-les tous."
+				fr: "Retirez de Kabutops un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondis à la dizaine la plus proche.) Si le nombre de marqueurs sur Kabutops est inférieur à ce résultat, retirez-les tous.",
+				de: "Entferne von Kabutops Schadensmarke in Höhe der Hlftedes Schadens (auf die nächsten 10 aufgerundet), der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz abgerechnet wurden). Falls Kabutops weniger Schadensmarken at, erntferne sie alle."
 			},
 			damage: 40,
 

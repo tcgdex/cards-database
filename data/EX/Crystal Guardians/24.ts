@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Marshtomp",
-		fr: "Flobio"
+		fr: "Flobio",
+		de: "Moorabbel"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rain Splash",
-				fr: "Pluie éclaboussante"
+				fr: "Pluie éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Splash",
-				fr: "Ocroupi"
+				fr: "Ocroupi",
+				de: "Lehmbrühe"
 			},
 			effect: {
 				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 

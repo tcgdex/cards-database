@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Zubat",
-		fr: "Nosferapti"
+		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -44,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,

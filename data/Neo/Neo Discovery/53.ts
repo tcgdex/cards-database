@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Caterpie",
-		fr: "Chenipan"
+		fr: "Chenipan",
+		de: "Raupy"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spin Tackle",
-				fr: "Charge vrille"
+				fr: "Charge vrille",
+				de: "Drehtackle"
 			},
 			effect: {
 				en: "Caterpie does 10 damage to itself.",
-				fr: "Chenipan s'inflige 10 dégâts."
+				fr: "Chenipan s'inflige 10 dégâts.",
+				de: "Raupy fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 

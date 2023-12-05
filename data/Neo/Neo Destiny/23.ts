@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Lanturn",
-		fr: "Lanturn lumineux"
+		fr: "Lanturn lumineux",
+		de: "Helles Lanturn"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Searchlight",
-				fr: "Phare"
+				fr: "Phare",
+				de: "Searchlight"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each player may choose a card from his or her discard pile and put it into his or her hand.",
-				fr: "Lancez une pièce. Si c'est face, chaque joueur peut choisir une carte de sa pile de défausse et la placer dans sa main."
+				fr: "Lancez une pièce. Si c'est face, chaque joueur peut choisir une carte de sa pile de défausse et la placer dans sa main.",
+				de: "Flip a coin. If heads, each player may choose a card from his or her discard pile and put it into his or her hand."
 			},
 
 		},
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spark",
-				fr: "Étincelle"
+				fr: "Étincelle",
+				de: "Spark"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)"
+				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)",
+				de: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon)"
 			},
 			damage: 30,
 

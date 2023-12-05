@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Groudon",
 		fr: "Groudon",
+		de: "Groudon"
 	},
 
 	illustrator: "Kazuaki Aihara",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Drought",
 				fr: "Sécheresse",
+				de: "Dürre"
 			},
 			effect: {
 				en: "Choose up to 2 basic Fighting Energy cards from your hand and attach them to 1 of your Pokémon.",
 				fr: "Choisissez jusqu'à 2 cartes Énergie de base Fighting de votre main et attachez-les à 1 de vos Pokémon.",
+				de: "Wähle bis zu 2 -Basis-Energiekarten von deiner Hand und lege sie an 1 deiner Pokémon an."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Major Earthquake",
 				fr: "Gros tremblement de terre",
+				de: "Schweres Erdbeben"
 			},
 			effect: {
 				en: "Discard 2 Fighting Energy attached to Groudon and this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Défaussez 2 Énergies Fighting attachées à Groudon et cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Lege 2 an Groudon angelegte -Energien auf deinen Ablagestapel und dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 100,
 

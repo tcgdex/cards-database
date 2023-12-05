@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Tentacruel",
-		fr: "Tentacruel"
+		fr: "Tentacruel",
+		de: "Tentoxa"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
-				fr: "Ultrason"
+				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei 'Kopf' isdt das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Jellyfish Sting",
-				fr: "Dard-méduse"
+				fr: "Dard-méduse",
+				de: "Quallenstich"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das verteidgende Pokémon jetzt jetzt vergiftet."
 			},
 			damage: 10,
 

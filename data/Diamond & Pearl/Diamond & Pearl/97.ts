@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Seedot",
 		fr: "Grainipiot",
+		de: "Samurzel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Bide",
 				fr: "Patience",
+				de: "Geduld"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, if Seedot would be Knocked Out by damage from an attack, Seedot is not Knocked Out and its remaining HP becomes 10 instead.",
 				fr: "Lancez une pièce. Si c'est face, lors du prochain tour de votre adversaire, si Grainipiot doit être mis K.O par des dégâts infligés par une attaque, il n'est pas mis K.O et ses PV restants sont de 10.",
+				de: "Wirf 1 Münze. Bei 'Kopf' wird Samurzel im nächsten Zug deines Gegners, wenn er durch Schaden eines Angriffs kampfunfähig würde, nicht kampfunfähig und hat stattdessen 10 verbliebene KP."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,

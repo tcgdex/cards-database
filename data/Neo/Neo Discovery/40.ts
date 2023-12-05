@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Igglybuff",
-		fr: "Toudoudou"
+		fr: "Toudoudou",
+		de: "Fluffeluff"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Gaze",
-				fr: "Regard"
+				fr: "Regard",
+				de: "Anstarren"
 			},
 			effect: {
 				en: "Once during your turn (before you attack), choose 1 of your opponent's Benched Pokémon that has a Pokémon Power. That power stops working until the end of this turn. This effect ends if that Pokémon leaves the Bench. (Pokémon Power)",
-				fr: "Une fois pendant votre tour (avant votre attaque), choisissez 1 des Pokémon du Banc de votre adversaire qui a un Pouvoir Pokémon. Ce pouvoir cesse de fonctionner jusqu'à la fin du tour. L'effet de ce pouvoir cesse si le Pokémon quitte le Banc."
+				fr: "Une fois pendant votre tour (avant votre attaque), choisissez 1 des Pokémon du Banc de votre adversaire qui a un Pouvoir Pokémon. Ce pouvoir cesse de fonctionner jusqu'à la fin du tour. L'effet de ce pouvoir cesse si le Pokémon quitte le Banc.",
+				de: "Wähle einmal während deines Zuges (vor deinem Angriff) eines der Pokémon auf der Bank deines Gegners, dass eine Pokémon-Power hat. Diese Power verliert bis zum Ende dieses Zuges ihre Wirkung. Dieser Effekt endet, wenn dieses Pokémon die Bank verlässt.\n\nWenn dieses Baby-Pokémon dein aktives Pokémon ist und dein Gegner einen Angriff ankündigt, wirft dein Gegner eine Münze (noch bevor er alles andere tut). Bei \"Zahl\" endet der Zug deines Gegners."
 			},
 		},
 	],

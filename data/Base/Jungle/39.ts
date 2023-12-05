@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Marowak",
-		fr: "Ossatueur"
+		fr: "Ossatueur",
+		de: "Knogga"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -36,13 +37,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Bonemerang",
-				fr: "Osmerang"
+				fr: "Osmerang",
+				de: "Knochmerang"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 		{
@@ -53,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Friend",
-				fr: "À la rescousse !"
+				fr: "À la rescousse !",
+				de: "Freundesruf"
 			},
 			effect: {
 				en: "Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez dans votre deck une carte Pokémon  de base et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+				fr: "Cherchez dans votre deck une carte Pokémon  de base et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				de: "Suche in deinem Deck nach einer  Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine Bank voll ist.)"
 			},
 
 		},

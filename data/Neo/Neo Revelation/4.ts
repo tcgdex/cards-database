@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Crobat",
-		fr: "Nostenfer"
+		fr: "Nostenfer",
+		de: "Iksbat"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -36,12 +37,14 @@ const card: Card = {
 
 			name: {
 				en: "Triggered Poison",
-				fr: "Poison à retardement"
+				fr: "Poison à retardement",
+				de: "Triggered Poison"
 			},
 
 			effect: {
 				en: "If your opponent attaches an Energy card to the Defending Pokémon during his or her next turn, that Pokémon becomes Poisoned.",
-				fr: "Si votre adversaire attache une carte Énergie au Pokémon Défenseur durant son prochain tour, ce Pokémon devient Empoisonné."
+				fr: "Si votre adversaire attache une carte Énergie au Pokémon Défenseur durant son prochain tour, ce Pokémon devient Empoisonné.",
+				de: "If your opponent attaches an Energy card to the Defending Pokémon during his or her next turn, that Pokémon becomes Poisoned."
 			},
 
 			damage: 20
@@ -54,13 +57,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Cross Attack",
-				fr: "Attaque croisée"
+				fr: "Attaque croisée",
+				de: "Cross Attack"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez au moins deux faces, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez au moins deux faces, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

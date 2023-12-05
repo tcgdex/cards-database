@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dodrio",
 		fr: "Dodrio",
+		de: "Dodri"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Echo Draw",
 				fr: "Pioche renvoi",
+				de: "Echo-Zug"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may draw a card. This power can't be used if Dodrio is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Dodrio est affecté par un État Spécial.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Dodri von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Drill Peck",
 				fr: "Bec vrille",
+				de: "Bohrschnabel"
 			},
 
 			damage: 50,

@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Krabby",
-		fr: "Krabby"
+		fr: "Krabby",
+		de: "Krabby"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Irongrip",
-				fr: "Poigne de fer"
+				fr: "Poigne de fer",
+				de: "Irongrip"
 			},
 
 			damage: 10,
@@ -41,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
-				fr: "Tit'sieste"
+				fr: "Tit'sieste",
+				de: "Nap"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Krabby (remove 1 if there is only 1).",
-				fr: "Retirez à Krabby 2 marqueurs de dégât (ou 1 s'il n'y en a qu'1)."
+				fr: "Retirez à Krabby 2 marqueurs de dégât (ou 1 s'il n'y en a qu'1).",
+				de: "Remove 2 damage counters from Krabby (remove 1 if there is only 1)."
 			},
 
 		},

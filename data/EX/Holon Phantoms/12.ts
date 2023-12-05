@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Latios δ",
-		fr: "Latios δ ESPÈCES DELTA"
+		fr: "Latios δ ESPÈCES DELTA",
+		de: "Latios"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dual Aura (Duaru oora)",
-				fr: "Double aura"
+				fr: "Double aura",
+				de: "Doppel-Aura"
 			},
 			effect: {
 				en: "As long as you have Latias or Latias ex in play, each player's Evolved Pokémon (excluding Pokémon-ex) can't use any Poké-Bodies.",
-				fr: "Tant que vous avez Latias ou Latias ex en jeu, les Pokémon Évolués de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Bodies."
+				fr: "Tant que vous avez Latias ou Latias ex en jeu, les Pokémon Évolués de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Bodies.",
+				de: "Solange du Latias oder Latias ex im Spiel hast, können die entwickelten Pokémon beider Spieler (außer Pokémon ex) keine Poké-Body benutzen."
 			},
 		},
 	],
@@ -41,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dive",
-				fr: "Plongée"
+				fr: "Plongée",
+				de: "Taucher"
 			},
 
 			damage: 10,
@@ -55,11 +59,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Blast",
-				fr: "Explosion aquatique"
+				fr: "Explosion aquatique",
+				de: "Wasserschuss"
 			},
 			effect: {
 				en: "Discard a Water Energy attached to Latios.",
-				fr: "Défaussez une Énergie  attachée à Latios."
+				fr: "Défaussez une Énergie  attachée à Latios.",
+				de: "Lege eine -Energiekarte, die an Latios angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 50,
 

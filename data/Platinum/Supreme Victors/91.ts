@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bidoof",
 		fr: "Keunotor",
+		de: "Biditza"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Whimsy Tackle",
 				fr: "Charge capricieuse",
+				de: "Launischer Tackle"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 

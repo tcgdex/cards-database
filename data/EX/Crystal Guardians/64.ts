@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Solid Shell",
-				fr: "Coquille dure"
+				fr: "Coquille dure",
+				de: "Solider Panzer"
 			},
 			effect: {
 				en: "Any damage done to Squirtle by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Carapuce par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+				fr: "Tous dégâts infligés à Carapuce par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				de: "Jeder Schaden, der Schiggy durch Angriffe zugefügt wird, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubblebeam",
-				fr: "Bulle d'O"
+				fr: "Bulle d'O",
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

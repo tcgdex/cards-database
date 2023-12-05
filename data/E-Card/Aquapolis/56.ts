@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Pupitar",
-		fr: "Ymphect"
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
@@ -33,11 +34,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thrash",
-				fr: "Mania"
+				fr: "Mania",
+				de: "Fuchtler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Pupitar does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Ymphect s'inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Ymphect s'inflige 10 dégâts.",
+				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei 'Zahl' fügt sich Pupitar selber 10 Schadenspunkte zu."
 			},
 			damage: "30+",
 

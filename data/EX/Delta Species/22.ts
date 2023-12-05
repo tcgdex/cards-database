@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Holon's Magneton",
-		fr: "Magneton d'Holon"
+		fr: "Magneton d'Holon",
+		de: "Holon-Magneton"
 	},
 	illustrator: "Katsura Tabata",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Ball",
-				fr: "Boule supplémentaire"
+				fr: "Boule supplémentaire",
+				de: "Extra-Ball"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

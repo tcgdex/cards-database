@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Grotle",
 		fr: "Boskara",
+		de: "Chelcarain"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-vie",
+				de: "Absorb"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Grotle.",
 				fr: "Retirez à Boskara 1 marqueur de dégât.",
+				de: "Remove 1 damage counter from Grotle."
 			},
 			damage: 30,
 
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
+				de: "Razor Leaf"
 			},
 
 			damage: 60,

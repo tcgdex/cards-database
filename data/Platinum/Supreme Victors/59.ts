@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gabite",
 		fr: "Carmache",
+		de: "Knarksel"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Healing Scale",
 				fr: "Écaille guérisseuse",
+				de: "Heilschuppe"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon.",
 				fr: "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
+				de: "Entferne 1 Schadensmarke von jedem deiner Pokémon."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Sand Tomb",
 				fr: "Tombe de sable",
+				de: "Sandgrab"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 

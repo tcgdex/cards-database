@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
-		fr: "Lainergie"
+		fr: "Lainergie",
+		de: "Waaty"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'boule"
+				fr: "Coup d'boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				fr: "Secousse tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Flaaffy does 20 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 20 dégâts."
+				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 20 dégâts.",
+				de: "Wirf eine Münze. Bei 'Zahl' fügt sich Waaty selber 20 Schadenspunkte zu."
 			},
 			damage: 50,
 

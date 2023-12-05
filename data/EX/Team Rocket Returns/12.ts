@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Kingdra",
+		de: "Seedraking"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dragon Veil",
+				de: "Dragon Veil"
 			},
 			effect: {
 				en: "As long as Kingdra is in play, each of your Active Pokémon has no Weakness.",
+				de: "As long as Kingdra is in play, each of your Active Pokémon has no Weakness."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Whirlpool",
+				de: "Hyper Whirlpool"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
+				de: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon."
 			},
 			damage: 20,
 
@@ -56,9 +61,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Sonic",
+				de: "Aqua Sonic"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
+				de: "This attack's damage is not affected by Resistance."
 			},
 			damage: 50,
 

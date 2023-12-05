@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Psyduck",
+		de: "Enton"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Gentle Slap",
+				de: "Gentle Slap"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Headache",
+				de: "Headache"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play a Trainer card from his or her hand until the end of your opponent's next turn.",
+				de: "Flip a coin. If heads, your opponent can't play a Trainer card from his or her hand until the end of your opponent's next turn."
 			},
 
 		},

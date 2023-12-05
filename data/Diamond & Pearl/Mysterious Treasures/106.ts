@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Totodile",
-		fr: "Kaiminus"
+		fr: "Kaiminus",
+		de: "Karnimani"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,7 +30,8 @@ const card: Card = {
 
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -41,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shining Fang",
-				fr: "Croc brillant"
+				fr: "Croc brillant",
+				de: "Blitzende Reißzähne"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wenn bereits Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

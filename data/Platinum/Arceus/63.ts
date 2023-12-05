@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Electrike",
+		de: "Frizelbliz"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				de: "Biss"
 			},
 
 			damage: 10,

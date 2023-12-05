@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Baltoy",
-		fr: "Balbuto"
+		fr: "Balbuto",
+		de: "Puppance"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -42,13 +44,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Doubleslap",
-				fr: "Torgnoles"
+				fr: "Torgnoles",
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

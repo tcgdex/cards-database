@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Combee",
 		fr: "Apitrini",
+		de: "Wadribie"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Nap",
 				fr: "Tit'sieste",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Combee.",
 				fr: "Retirez à Apitrini 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Wadribie."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Zzzt",
 				fr: "Bzzz",
+				de: "Piiieks"
 			},
 
 			damage: 20,

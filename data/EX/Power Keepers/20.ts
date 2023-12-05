@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Omastar",
-		fr: "Amonistar"
+		fr: "Amonistar",
+		de: "Amoroso"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pull Down",
-				fr: "Mise à terre"
+				fr: "Mise à terre",
+				de: "Runterziehen"
 			},
 			effect: {
 				en: "If your opponent has any Evolved Pokémon in play, remove the highest Stage Evolution card from each of them and put those cards back into his or her hand.",
-				fr: "Si votre adversaire possède des Pokémon Évolués en jeu, retirez à chacun leur carte Évolution au niveau le plus élevé et replacez ces cartes dans sa main."
+				fr: "Si votre adversaire possède des Pokémon Évolués en jeu, retirez à chacun leur carte Évolution au niveau le plus élevé et replacez ces cartes dans sa main.",
+				de: "Falls dein Gegner mindestens 1 entwickeltes Pokémon im Spiel hat, entferne die höchste Evolutionskarte von allen seinen entwickelten Pokémon. Er nimmt diese Karten zurück auf die Hand."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hydrocannon",
-				fr: "Canon à O"
+				fr: "Canon à O",
+				de: "Aquahaubitze"
 			},
 			effect: {
 				en: "Does 30 damage plus 20 more damage for each Water Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
-				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Amonistar qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
+				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Amonistar qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon.",
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Amoroso angelegte -Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
 			},
 			damage: "30+",
 

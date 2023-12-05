@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Goldeen",
 		fr: "Poissirène",
+		de: "Goldini"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
+				de: "Hornattacke"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Goldeen does 10 damage to itself.",
 				fr: "Poissirène s'inflige 10 dégâts.",
+				de: "Goldini fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

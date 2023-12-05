@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Mew ex",
-		fr: "Mew ex"
+		fr: "Mew ex",
+		de: "Mew ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Psychic Vision",
-				fr: "Vision psy"
+				fr: "Vision psy",
+				de: "Psycho-Vision"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Mew ex is on your Bench, you may look at your opponent's hand.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Mew ex est sur votre Banc, vous pouvez regarder la main de votre adversaire."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Mew ex est sur votre Banc, vous pouvez regarder la main de votre adversaire.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dir, wenn Mew ex sich auf deiner Bank befindet, die Handkarten deines Gegners anschauen."
 			},
 		},
 	],
@@ -42,7 +45,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Psy Bolt",
-				fr: "Super psy"
+				fr: "Super psy",
+				de: "Super-Psischlag"
 			},
 
 			damage: 30,
@@ -56,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Devo Crush",
-				fr: "Devo broyage"
+				fr: "Devo broyage",
+				de: "Devo Zerschmetterer"
 			},
 			effect: {
 				en: "You may discard 2 Energy attached to Mew ex. If you do, you may remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck.",
-				fr: "Vous pouvez défausser 2 Énergies attachées à Mew ex. Vous pouvez alors retirer au Pokémon Défenseur la carte Évolution au niveau le plus élevé et la mélanger au deck de votre adversaire."
+				fr: "Vous pouvez défausser 2 Énergies attachées à Mew ex. Vous pouvez alors retirer au Pokémon Défenseur la carte Évolution au niveau le plus élevé et la mélanger au deck de votre adversaire.",
+				de: "Du kannst 2 Energien, die an Mew ex angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, kannst du die höchste Evolutionskarte vom Verteidigenden Pokémon entfernen. Dein Gegner mischt diese Karte in sein Deck."
 			},
 			damage: 50,
 

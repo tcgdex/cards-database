@@ -4,7 +4,8 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Chimchar",
-		fr: "Ouisticram"
+		fr: "Ouisticram",
+		de: "Panflam"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,7 +30,8 @@ const card: Card = {
 
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
-				fr: "Flammèche"
+				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Ouisticram."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Ouisticram.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" lege eine -Energie, die an Panflam angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 30,
 

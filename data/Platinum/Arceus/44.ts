@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Manectric",
+		de: "Voltenso"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -43,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Head Bolt",
+				de: "Kopf-Blitz"
 			},
 
 			damage: 60,

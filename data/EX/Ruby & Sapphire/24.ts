@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Weezing",
-		fr: "Smogogo"
+		fr: "Smogogo",
+		de: "Smogmog"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confusion Gas",
-				fr: "Confu-gaz"
+				fr: "Confu-gaz",
+				de: "Verwirrgas"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Smog",
-				fr: "Brouillard empoisonné"
+				fr: "Brouillard empoisonné",
+				de: "Giftiger Smog"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Poisoned. Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Chaque Pokémon Défenseur est maintenant Empoisonné. Inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
+				fr: "Chaque Pokémon Défenseur est maintenant Empoisonné. Inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				de: "Alle Verteidigenden Pokémon sind jetzt vergiftet. Dieser Angriff fügt allen gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

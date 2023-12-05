@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Forretress",
-		fr: "Foretress"
+		fr: "Foretress",
+		de: "Forstellka"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiky Shell",
-				fr: "Coquille pointue"
+				fr: "Coquille pointue",
+				de: "Spiky Shell"
 			},
 			effect: {
 				en: "Put 3 damage counters on the Defending Pokémon at the end of your opponent's next turn.",
-				fr: "Placez 3 marqueurs de dégât sur le Pokémon Défenseur à la fin du prochain tour de votre adversaire."
+				fr: "Placez 3 marqueurs de dégât sur le Pokémon Défenseur à la fin du prochain tour de votre adversaire.",
+				de: "Put 3 damage counters on the Defending Pokémon at the end of your opponent's next turn."
 			},
 			damage: 20,
 
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pop",
-				fr: "Pan!"
+				fr: "Pan!",
+				de: "Pop"
 			},
 			effect: {
 				en: "Put 7 damage counters on Forretress. Move all Energy cards attached to Forretress to your Benched Pokémon in any way you like. (Ignore this effect if you don't have any Benched Pokémon.)",
-				fr: "Placez 7 marqueurs de dégât sur Foretress. Déplacez toutes les cartes Énergie attachées à Foretress sur vos Pokémon de Banc, de la façon que vous voulez. (Ignorez cet effet si vous n'avez pas de Pokémon de Banc.)"
+				fr: "Placez 7 marqueurs de dégât sur Foretress. Déplacez toutes les cartes Énergie attachées à Foretress sur vos Pokémon de Banc, de la façon que vous voulez. (Ignorez cet effet si vous n'avez pas de Pokémon de Banc.)",
+				de: "Put 7 damage counters on Forretress. Move all Energy cards attached to Forretress to your Benched Pokémon in any way you like. (Ignore this effect if you don't have any Benched Pokémon.)"
 			},
 			damage: 100,
 

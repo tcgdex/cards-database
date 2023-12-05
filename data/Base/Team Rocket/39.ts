@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Kadabra",
-		fr: "Kadabra obscur"
+		fr: "Kadabra obscur",
+		de: "Dunkles Kadabra"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Matter Exchange",
-				fr: "Échange de matière"
+				fr: "Échange de matière",
+				de: "Matter Exchange"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may discard a card from your hand in order to draw a card. This power can't be used if Dark Kadabra is Asleep, Confused, or Paralyzed.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte de votre main afin de piocher une carte. Ce pouvoir ne peut être utilisé si Kadabra obscur est Endormi, Confus ou Paralysé."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte de votre main afin de piocher une carte. Ce pouvoir ne peut être utilisé si Kadabra obscur est Endormi, Confus ou Paralysé.",
+				de: "Once during your turn (before your attack), you may discard a card from your hand in order to draw a card. This power can't be used if Dark Kadabra is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Shock",
-				fr: "Choc cérébral"
+				fr: "Choc cérébral",
+				de: "Mind Shock"
 			},
 			effect: {
 				en: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
-				fr: "N'appliquez pas la Faiblesse et la Résistance à cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et la Résistance subsistent.)"
+				fr: "N'appliquez pas la Faiblesse et la Résistance à cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et la Résistance subsistent.)",
+				de: "Don't apply Weakness and resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
 			},
 			damage: 30,
 

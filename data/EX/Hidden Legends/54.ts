@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Beldum",
-		fr: "Terhal"
+		fr: "Terhal",
+		de: "Tanhel"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
-				fr: "Appel à la famille"
+				fr: "Appel à la famille",
+				de: "Call for Family"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+				fr: "Choisissez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Search your deck for a Basic Pokémon and put it into your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Ball",
-				fr: "Boule métallique"
+				fr: "Boule métallique",
+				de: "Metal Ball"
 			},
 			effect: {
 				en: "Put 1 damage counter on the Defending Pokémon.",
-				fr: "Placez 1 marqueur de dégât sur le Pokémon Défenseur."
+				fr: "Placez 1 marqueur de dégât sur le Pokémon Défenseur.",
+				de: "Put 1 damage counter on the Defending Pokémon."
 			},
 
 		},

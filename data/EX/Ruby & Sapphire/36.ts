@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Lairon",
-		fr: "Galegon"
+		fr: "Galegon",
+		de: "Stollrak"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Ram"
 			},
 
 			damage: 20,
@@ -46,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
-				fr: "Griffe acier"
+				fr: "Griffe acier",
+				de: "Metal Claw"
 			},
 
 			damage: 40,

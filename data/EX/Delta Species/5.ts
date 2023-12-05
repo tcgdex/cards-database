@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Flareon δ",
-		fr: "Pyroli δ ESPÈCES DELTA"
+		fr: "Pyroli δ ESPÈCES DELTA",
+		de: "Flamara"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Delta Search",
-				fr: "Recherche Delta"
+				fr: "Recherche Delta",
+				de: "Delta-Suche"
 			},
 			effect: {
 				en: "Search your deck for a Holon Energy card and attach it to Flareon. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Holon et attachez-la à Pyroli. Ensuite, mélangez votre deck."
+				fr: "Cherchez dans votre deck une carte Énergie Holon et attachez-la à Pyroli. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer Holon-Energiekarte und lege sie an Flamara an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -44,16 +47,18 @@ const card: Card = {
 		{
 			name: {
 				en: "Return Burn",
-				fr: "Retour de brûlure"
+				fr: "Retour de brûlure",
+				de: "Brennende Rückkehr"
 			},
 
 			effect: {
 				en: "You may return an Energy card attached to Flareon to your hand. If you do, the Defending Pokémon is now Burned.",
-				fr: "Vous pouvez reprendre dans votre main une carte Énergie attachée à Pyroli. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Vous pouvez reprendre dans votre main une carte Énergie attachée à Pyroli. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Du kannst 1 an Flamara angelegte Energiekarte zurück auf die Hand nehmen. Wenn du das machst, ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 			damage: 50,
-			cost: ["Fire", "Metal", "Colorless"]
+			cost: ["Colorless", "Fire", "Metal"]
 		},
 	],
 	weaknesses: [

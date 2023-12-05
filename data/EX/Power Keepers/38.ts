@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Sharpedo",
-		fr: "Sharpedo"
+		fr: "Sharpedo",
+		de: "Tohaido"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tight Jaw",
-				fr: "Mâchoire serrée"
+				fr: "Mâchoire serrée",
+				de: "Fester Biss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Darkness Charge",
-				fr: "Recharge obscurité"
+				fr: "Recharge obscurité",
+				de: "Finstere Attacke"
 			},
 			effect: {
 				en: "Put 1 damage counter on Sharpedo.",
-				fr: "Placez 1 marqueur de dégât sur Sharpedo."
+				fr: "Placez 1 marqueur de dégât sur Sharpedo.",
+				de: "Lege 1 Schadensmarke auf Tohaido."
 			},
 			damage: 50,
 

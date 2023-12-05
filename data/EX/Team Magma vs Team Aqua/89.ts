@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Blaziken ex",
-		fr: "Brasegali ex"
+		fr: "Brasegali ex",
+		de: "Lohgock ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Blaze Kick",
-				fr: "Pied Brûleur"
+				fr: "Pied Brûleur",
+				de: "Blaze Kick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c'est pile, cette attaque inflige 30 dégâts et le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c'est pile, cette attaque inflige 30 dégâts et le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Burned."
 			},
 			damage: "30+",
 
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Volcanic Ash",
-				fr: "Cendres volcaniques"
+				fr: "Cendres volcaniques",
+				de: "Volcanic Ash"
 			},
 			effect: {
 				en: "Discard 2 Fire Energy attached to Blaziken ex and then choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 2 Énergies  attachées à Brasegali ex puis choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 100 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Défaussez 2 Énergies  attachées à Brasegali ex puis choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 100 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Discard 2  Energy attached to Blaziken ex and then choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

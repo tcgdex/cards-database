@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Piloswine",
-		fr: "Cochignon"
+		fr: "Cochignon",
+		de: "Keifel"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Rouse",
 				fr: "Éveiller",
+				de: "Aufscheuchen"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each damage counter on Piloswine. Then, remove 4 damage counters from Piloswine.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Cochignon. Ensuite, retirez à Cochignon 4 marqueurs de dégât.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Keifel zu. Entferne danach 4 Schadensmarken von Keifel."
 			},
 			damage: "20+",
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Overrun",
 				fr: "Dépassement",
+				de: "Überrennen"
 			},
 			effect: {
 				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 

@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Ninetales",
-		fr: "Feunard"
+		fr: "Feunard",
+		de: "Vulnona"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Confuse Ray"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "The Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -43,16 +46,18 @@ const card: Card = {
 		{
 			cost: [
 				"Fire",
-				"Colorless",
+				"Fire",
 				"Colorless",
 			],
 			name: {
 				en: "Searing Flame",
-				fr: "Flammes calcinantes"
+				fr: "Flammes calcinantes",
+				de: "Searing Flame"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "The Defending Pokémon is now Burned."
 			},
 			damage: 40,
 

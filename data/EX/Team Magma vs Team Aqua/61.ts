@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Baltoy",
-		fr: "Balbuto de Team Magma"
+		fr: "Balbuto de Team Magma",
+		de: "Team Magmas Puppance"
 	},
 	illustrator: "Atsuko Ujiie",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Night Attack",
-				fr: "Attaque nocturne"
+				fr: "Attaque nocturne",
+				de: "Night Attack"
 			},
 			effect: {
 				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
-				fr: "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire."
+				fr: "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
+				de: "Put 1 damage counter on 1 of your opponent's Pokémon."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Spinning Attack",
-				fr: "Attaque tournante"
+				fr: "Attaque tournante",
+				de: "Spinning Attack"
 			},
 
 			damage: 20,

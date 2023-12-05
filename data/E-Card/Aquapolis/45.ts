@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Bellsprout",
-		fr: "Chétiflor"
+		fr: "Chétiflor",
+		de: "Knofensa"
 	},
 	illustrator: "Masako Yamashita",
 	rarity: "Uncommon",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
-				fr: "Pâté"
+				fr: "Pâté",
+				de: "Klecks"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Bellsprout, if any.",
-				fr: "Retirez un marqueur de dégâts sur Chétiflor."
+				fr: "Retirez un marqueur de dégâts sur Chétiflor.",
+				de: "Entferne eine Schadensmarke von Knofensa."
 			},
 			damage: 20,
 

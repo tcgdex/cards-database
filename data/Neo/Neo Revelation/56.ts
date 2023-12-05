@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Staryu",
-		fr: "Stari"
+		fr: "Stari",
+		de: "Sterndu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubblebeam",
-				fr: "Bulles d'O"
+				fr: "Bulles d'O",
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

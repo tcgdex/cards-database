@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Weedle",
-		fr: "Aspicot"
+		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,12 +33,14 @@ const card: Card = {
 
 			name: {
 				en: "Spike Stab",
-				fr: "Koud'pic"
+				fr: "Koud'pic",
+				de: "Stachelstich"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing (not even damage).",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, cette attaque ne fait rien (pas même de dégâts)."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist der verteidigende Pokémon jetzt vergiftet. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
 			},
 
 			damage: 20

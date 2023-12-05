@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hippopotas",
 		fr: "Hippopotas",
+		de: "Hippopotas"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Yawn",
 				fr: "Baillement",
+				de: "Gähnen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Sand Attack",
 				fr: "Jet de sable",
+				de: "Sandwirbel"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 

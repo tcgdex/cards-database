@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nosepass",
 		fr: "Tarinor",
+		de: "Nasgnet"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Pull",
 				fr: "Tirer",
+				de: "Pull"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				de: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Rollout"
 			},
 
 			damage: 20,

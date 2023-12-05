@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Conversion 1",
-				fr: "Adaptation 1"
+				fr: "Adaptation 1",
+				de: "Conversion 1"
 			},
 			effect: {
 				en: "If Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless.",
-				fr: "Si le Pokémon Défenseur avait une Faiblesse, vous pouvez la changer pour le type de votre choix, excepté incolore."
+				fr: "Si le Pokémon Défenseur avait une Faiblesse, vous pouvez la changer pour le type de votre choix, excepté incolore.",
+				de: "If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless."
 			},
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psybeam",
-				fr: "Rayon psy"
+				fr: "Rayon psy",
+				de: "Psybeam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. if heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 

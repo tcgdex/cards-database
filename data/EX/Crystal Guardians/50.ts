@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Diglett",
-		fr: "Taupiqueur"
+		fr: "Taupiqueur",
+		de: "Digda"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
-				fr: "Coud'boue"
+				fr: "Coud'boue",
+				de: "Lehmschelle"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand Pit",
-				fr: "Bac à sable"
+				fr: "Bac à sable",
+				de: "Sandgrube"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne pourra pas battre en retraite lors du prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne pourra pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 

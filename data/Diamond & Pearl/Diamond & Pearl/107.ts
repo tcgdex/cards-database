@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Energy Switch",
 		fr: "Échange d'énergie",
+		de: "Energie-Umschalter"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
@@ -24,6 +25,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Déplacez 1 carte Énergie de base attachée à 1 de vos Pokémon sur un autre de vos Pokémon.",
+		de: "Lege 1 Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, an ein anderes deiner Pokémon an."
 	},
 	trainerType: "Item",
 

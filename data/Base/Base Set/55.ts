@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Nidoran♂",
-		fr: "Nidoran ♂"
+		fr: "Nidoran ♂",
+		de: "Nidoran M"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Hazard",
-				fr: "Chanc' Korne"
+				fr: "Chanc' Korne",
+				de: "Gefährliches Horn"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung."
 			},
 			damage: 30,
 

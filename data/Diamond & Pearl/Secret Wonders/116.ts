@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Venonat",
 		fr: "Mimitoss",
+		de: "Bluzuk"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Stun Spore",
 				fr: "Para-spore",
+				de: "Stachelspore"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Signal Beam",
 				fr: "Rayon signal",
+				de: "Ampelleuchte"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 

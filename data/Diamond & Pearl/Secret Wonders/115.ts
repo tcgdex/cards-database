@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Trapinch",
 		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Inviting Trap",
 				fr: "Piège tentant",
+				de: "Einladende Falle"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Sand Tomb",
 				fr: "Tombe de sable",
+				de: "Sandgrab"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 

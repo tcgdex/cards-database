@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Snorunt",
-		fr: "Stalgamin"
+		fr: "Stalgamin",
+		de: "Schneppke"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
-				fr: "Collectionner"
+				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Snowball",
-				fr: "Boule de neige"
+				fr: "Boule de neige",
+				de: "Schneeball"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 

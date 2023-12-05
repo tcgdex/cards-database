@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Registeel",
-		fr: "Registeel"
+		fr: "Registeel",
+		de: "Registeel"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Clear Body",
-				fr: "Corps sain"
+				fr: "Corps sain",
+				de: "Neutraltorso"
 			},
 			effect: {
 				en: "Registeel can't be affected by any Special Conditions.",
-				fr: "Registeel ne peut pas être affecté par des États Spéciaux."
+				fr: "Registeel ne peut pas être affecté par des États Spéciaux.",
+				de: "Registeel kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
-				fr: "Ultralaser"
+				fr: "Ultralaser",
+				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
+				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte von dem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 

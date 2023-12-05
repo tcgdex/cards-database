@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Manectric",
+		de: "Voltenso"
 	},
 	illustrator: "Mana Ibe",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Second Bite",
+				de: "Wunde Stelle"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
 			damage: "20+",
 
@@ -46,9 +49,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				de: "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 50,
 

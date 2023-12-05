@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Slakoth",
-		fr: "Parecool"
+		fr: "Parecool",
+		de: "Bummelz"
 	},
 	illustrator: "Takao Unno",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Yawn",
-				fr: "Baillement"
+				fr: "Baillement",
+				de: "Yawn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -43,13 +46,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fléau"
+				fr: "Fléau",
+				de: "Flail"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Slakoth.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Parecool."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Parecool.",
+				de: "Does 10 damage plus the number of damage counters on Slakoth."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

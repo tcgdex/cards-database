@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Dragonair δ",
-		fr: "Draco δ ESPÈCES DELTA"
+		fr: "Draco δ ESPÈCES DELTA",
+		de: "Dragonir"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -32,13 +33,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Slam",
-				fr: "Souplesse"
+				fr: "Souplesse",
+				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Rage",
-				fr: "Draco-rage"
+				fr: "Draco-rage",
+				de: "Dragon Rage"
 			},
 
 			damage: 40,

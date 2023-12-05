@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Wingull",
+		de: "Wingull"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Rain Splash",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,

@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
-		fr: "Lainergie"
+		fr: "Lainergie",
+		de: "Waaty"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Recall",
-				fr: "Rappel d'énergie"
+				fr: "Rappel d'énergie",
+				de: "Energierückgewinnung"
 			},
 			effect: {
 				en: "Attach up to 2 basic Energy cards from your discard pile to Flaaffy.",
-				fr: "Attachez à Lainergie jusqu'à deux cartes Énergie de base de votre pile de défausse."
+				fr: "Attachez à Lainergie jusqu'à deux cartes Énergie de base de votre pile de défausse.",
+				de: "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an Waaty an."
 			},
 
 		},
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Lightning Ball",
-				fr: "Boule éclair"
+				fr: "Boule éclair",
+				de: "Kugelblitz"
 			},
 
 			damage: 30,

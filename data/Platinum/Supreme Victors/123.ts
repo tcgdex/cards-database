@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Roselia",
 		fr: "Roselia",
+		de: "Roselia"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Vine Slap",
 				fr: "Gifle de liane",
+				de: "Rankenklatscher"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Spit Poison",
 				fr: "Crache-venin",
+				de: "Giftspucke"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 

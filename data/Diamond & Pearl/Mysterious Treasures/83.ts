@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Finneon",
-		fr: "Ecayon"
+		fr: "Ecayon",
+		de: "Finneon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Elegant Swim",
-				fr: "Nage élégante"
+				fr: "Nage élégante",
+				de: "Elegantes Schwimmen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Finneon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ecayon lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ecayon lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Finneon zugefügt werden."
 			},
 
 		},
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

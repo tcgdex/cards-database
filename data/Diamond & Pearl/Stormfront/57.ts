@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Combee",
-		fr: "Apitrini"
+		fr: "Apitrini",
+		de: "Wadribie"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Alert",
 				fr: "Alerte",
+				de: "Alarmruf"
 			},
 			effect: {
 				en: "Draw a card. Then, you may switch Combee with 1 of your Benched Pokémon.",
 				fr: "Piochez une carte. Ensuite, vous pouvez échanger Apitrini avec 1 des Pokémon de votre Banc.",
+				de: "Ziehe 1 Karte. Danach kannst du Wadribie gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 
 		},

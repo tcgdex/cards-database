@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Skitty",
 		fr: "Skitty",
+		de: "Eneco"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Heal Bell",
 				fr: "Glas de soin",
+				de: "Heal Bell"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon.",
 				fr: "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
+				de: "Remove 1 damage counter from each of your Pokémon."
 			},
 
 		},
@@ -42,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Take Down"
 			},
 			effect: {
 				en: "Skitty does 10 damage to itself.",
 				fr: "Skitty s'inflige 10 dégâts.",
+				de: "Skitty does 10 damage to itself."
 			},
 			damage: 20,
 

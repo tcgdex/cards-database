@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Slaking",
 		fr: "Monaflemit",
+		de: "Letarking"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Lazy Paunch",
 				fr: "Ventre paresseux",
+				de: "Lazy Paunch"
 			},
 			effect: {
 				en: "If Slaking used any attacks during your last turn, Slaking can't attack.",
 				fr: "Si Monaflemit a utilisé des attaques lors de votre tour précédent, il ne peut pas attaquer.",
+				de: "If Slaking used any attacks during your last turn, Slaking can't attack."
 			},
 		},
 	],
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Best Dash",
 				fr: "Meilleure ruée",
+				de: "Best Dash"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Slaking by attacks is increased by 50 (after applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Monaflemit par des attaques sont augmentés de 50 (après application de la Faiblesse et de la Résistance).",
+				de: "During your opponent's next turn, any damage done to Slaking by attacks is increased by 50 (after applying Weakness and Resistance)."
 			},
 			damage: 150,
 

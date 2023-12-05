@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Light Togetic",
-		fr: "Togetic lumineux"
+		fr: "Togetic lumineux",
+		de: "Helles Togetic"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Gift",
-				fr: "Don"
+				fr: "Don",
+				de: "Gabe"
 			},
 			effect: {
 				en: "When you play Light Togetic from your hand, your opponent may search his or her deck for a Pokémon Tool card, show that card to you, and put it into his or her hand. Either way, you may do the same, and then each player who searched shuffles his or her deck.",
-				fr: "Quand vous jouez Togetic lumineux depuis votre main, votre adversaire peut chercher dans son deck une carte Outil Pokémon, vous la montrer et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même, et chaque joueur ayant agi ainsi mélange ensuite son deck."
+				fr: "Quand vous jouez Togetic lumineux depuis votre main, votre adversaire peut chercher dans son deck une carte Outil Pokémon, vous la montrer et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même, et chaque joueur ayant agi ainsi mélange ensuite son deck.",
+				de: "Wenn du Helles Togetic aus deiner Hand spielst, darf dein Gegner sein Deck nach einer Pokémon-Ausrüstungskarte durchsuchen, dir diese Karte zeigen und auf seine Hand nehmen. Unabhängig davon darfst du das selbe tun. Danach mischt jeder Spieler, der sein Deck durchsucht hat, sein Deck."
 			},
 		},
 	],
@@ -50,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sweet Kiss",
-				fr: "Doux baiser"
+				fr: "Doux baiser",
+				de: "Bitterkuss"
 			},
 			effect: {
 				en: "Your opponent may draw a card.",
-				fr: "Votre adversaire peut piocher une carte."
+				fr: "Votre adversaire peut piocher une carte.",
+				de: "Dein Gegner kann eine Karte ziehen."
 			},
 			damage: 30,
 

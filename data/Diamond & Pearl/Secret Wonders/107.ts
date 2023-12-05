@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shellos West Sea",
 		fr: "Sancoki Mer Occident",
+		de: "Schalellos Westliches Meer"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Mud Spatter",
 				fr: "Éclaboussure de boue",
+				de: "Lehmspritzer"
 			},
 
 			damage: 10,
@@ -42,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Recover",
 				fr: "Soin",
+				de: "Erholung"
 			},
 			effect: {
 				en: "Discard a Water Energy attached to Shellos West Sea and remove all damage counters from Shellos West Sea.",
 				fr: "Défaussez une Énergie Water attachée à Sancoki Mer Occident et retirez-lui tous ses marqueurs de dégât.",
+				de: "Lege 1 an Schalellos Westliches Meer angelegte -Energie auf deinen Ablagestapel und entferne alle Schadensmarken von Schalellos Westliches Meer."
 			},
 
 		},

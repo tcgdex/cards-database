@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Sunkern",
-		fr: "Tournegrin"
+		fr: "Tournegrin",
+		de: "Sonnkern"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Growth",
-				fr: "Croissance"
+				fr: "Croissance",
+				de: "Wachstum"
 			},
 			effect: {
 				en: "Flip a coin. If heads, you may attach up to 2 Energy cards from your hand to Sunkern.",
-				fr: "Lancez une pièce. Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Tournegrin."
+				fr: "Lancez une pièce. Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Tournegrin.",
+				de: "Wirf eine Münze. Bei 'Kopf' kannst du bis zu zwei -Energiekarten aus deiner Hand an Sonnkern anlegen."
 			},
 
 		},
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mega Drain",
-				fr: "Mega-sangsue"
+				fr: "Mega-sangsue",
+				de: "Megasauger"
 			},
 			effect: {
 				en: "Remove a number of damage counters from Sunkern equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Sunkern has fewer damage counters than that, remove all of them.",
-				fr: "Retirez de Tournegrin un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondi à la dizaine la plus proche). Si Tournegrin a moins de dégâts que cela, retirez-les tous."
+				fr: "Retirez de Tournegrin un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondi à la dizaine la plus proche). Si Tournegrin a moins de dégâts que cela, retirez-les tous.",
+				de: "Entferne Schaden von Sonnkern in Höhe der Hälfte des Schadens, der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz verrechnet wurden) (auf die nächsten 10 aufgerundet). Falls Sonnkern weniger Schaden hat, entferne alle."
 			},
 			damage: 30,
 

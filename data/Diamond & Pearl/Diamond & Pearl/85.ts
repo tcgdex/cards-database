@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hoothoot",
 		fr: "Hoothoot",
+		de: "Hoothoot"
 	},
 
 	illustrator: "Midori Harada",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Hypnosis",
 				fr: "Hypnose",
+				de: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Kick Shot",
 				fr: "Coup d'ergots",
+				de: "Kickschuss"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 

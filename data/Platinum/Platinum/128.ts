@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Electabuzz",
 		fr: "Elektek",
+		de: "Elektek"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
+				de: "Thundershock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -46,12 +49,14 @@ const card: Card = {
 			name: {
 				en: "Thunderpunch",
 				fr: "Poing-Éclair",
+				de: "Thunderpunch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Electabuzz does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Elektek s'inflige 10 dégâts.",
+				de: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Electabuzz does 10 damage to itself."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

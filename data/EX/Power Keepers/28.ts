@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		de: "Glutexo"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Scary Face",
-				fr: "Grimace"
+				fr: "Grimace",
+				de: "Grimasse"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flame Tail",
-				fr: "Queue de flammes"
+				fr: "Queue de flammes",
+				de: "Flammenschweif"
 			},
 
 			damage: 50,

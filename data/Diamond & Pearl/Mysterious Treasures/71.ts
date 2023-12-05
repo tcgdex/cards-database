@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	illustrator: "Yuka Morii",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Steel Tackle",
-				fr: "Charge d'acier"
+				fr: "Charge d'acier",
+				de: "Stahltackle"
 			},
 			effect: {
 				en: "Aron does 10 damage to itself.",
-				fr: "Galekid s'inflige 10 dégâts."
+				fr: "Galekid s'inflige 10 dégâts.",
+				de: "Stollunior fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

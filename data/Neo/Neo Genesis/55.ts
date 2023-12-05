@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Chinchou",
-		fr: "Loupio"
+		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
-				fr: "Ultrason"
+				fr: "Ultrason",
+				de: "Supersonic"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus"
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -45,13 +48,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fleau"
+				fr: "Fleau",
+				de: "Flail"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Chinchou.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Loupio."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Loupio.",
+				de: "Does 10 damage times the number of damage counters on Chinchou."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

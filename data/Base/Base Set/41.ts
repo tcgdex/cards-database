@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Seel",
-		fr: "Otaria"
+		fr: "Otaria",
+		de: "Jurob"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'Boule"
+				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,

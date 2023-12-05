@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Gible",
-		fr: "Griknot"
+		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	illustrator: "Hiroki Fuchino",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Push Down",
-				fr: "Renverser"
+				fr: "Renverser",
+				de: "Runterdrücken"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 

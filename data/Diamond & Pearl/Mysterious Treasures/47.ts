@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Dunsparce",
-		fr: "Insolourdo"
+		fr: "Insolourdo",
+		de: "Dummisel"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,11 +30,13 @@ const card: Card = {
 
 			name: {
 				en: "Snake Hook",
-				fr: "Crochet de serpent"
+				fr: "Crochet de serpent",
+				de: "Schlangenhaken"
 			},
 			effect: {
 				en: "Draw a card.",
-				fr: "Piochez une carte."
+				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -41,11 +44,13 @@ const card: Card = {
 
 			name: {
 				en: "Bite and Run",
-				fr: "Mordre et courrir"
+				fr: "Mordre et courrir",
+				de: "Zubeißen und Abhauen"
 			},
 			effect: {
 				en: "Switch Dunsparce with 1 of your Benched Pokémon.",
-				fr: "Échangez Insolourdo avec 1 de vos Pokémon de Banc."
+				fr: "Échangez Insolourdo avec 1 de vos Pokémon de Banc.",
+				de: "Tausche Dummisel gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Paras",
 		fr: "Paras",
+		de: "Paras"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Spore",
 				fr: "Spore",
+				de: "Pilzspore"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -44,12 +47,14 @@ const card: Card = {
 			name: {
 				en: "Stomp",
 				fr: "Écrasement",
+				de: "Stampfer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

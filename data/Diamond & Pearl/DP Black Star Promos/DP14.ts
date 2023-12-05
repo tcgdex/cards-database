@@ -4,6 +4,7 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Chatot",
+		de: "Plaudagei"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Me First",
+				de: "Egotrip"
 			},
 			effect: {
 				en: "Draw a card.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -40,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tone-Deaf",
+				de: "Unmusikalisch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 

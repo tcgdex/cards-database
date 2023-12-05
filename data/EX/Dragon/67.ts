@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Nincada",
-		fr: "Ningale"
+		fr: "Ningale",
+		de: "Nincada"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -37,18 +39,20 @@ const card: Card = {
 		},
 		{
 			cost: [
-				"Grass",
 				"Colorless",
+				"Grass",
 			],
 			name: {
 				en: "Double Scratch",
-				fr: "Double écorchure"
+				fr: "Double écorchure",
+				de: "Doppelkratzer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

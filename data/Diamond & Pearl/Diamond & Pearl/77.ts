@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Clefairy",
 		fr: "Melofée",
+		de: "Piepi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Sing",
 				fr: "Berceuse",
+				de: "Gesang"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Moon Impact",
 				fr: "Impact lunaire",
+				de: "Mondeinschlag"
 			},
 			effect: {
 				en: "If Clefairy is evolved from Cleffa, this attack does 20 damage plus 20 more damage.",
 				fr: "Si Melofée évolue de Melo, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn Piepi sich aus Pii entwickelt hat, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

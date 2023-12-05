@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Teddiursa",
-		fr: "Teddiursa"
+		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rest",
-				fr: "Repos"
+				fr: "Repos",
+				de: "Ruhe"
 			},
 			effect: {
 				en: "Remove all Special Conditions and 2 damage counters from Teddiursa. Teddiursa is now Asleep.",
-				fr: "Retirez à Teddiursa tous ses États Spéciaux ainsi que 2 marqueurs de dégât. Teddiursa est maintenant Endormi."
+				fr: "Retirez à Teddiursa tous ses États Spéciaux ainsi que 2 marqueurs de dégât. Teddiursa est maintenant Endormi.",
+				de: "Entferne alle Speziellen Zustände und 2 Schadensmarken von Teddiursa. Teddiursa schläft jetzt."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sweet Palm",
-				fr: "Douce paume"
+				fr: "Douce paume",
+				de: "Süße Tatze"
 			},
 			effect: {
 				en: "Before doing damage, remove 1 damage counter from the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, retirez 1 marqueur de dégât au Pokémon Défenseur."
+				fr: "Avant d'infliger des dégâts, retirez 1 marqueur de dégât au Pokémon Défenseur.",
+				de: "Bevor der Schaden zugefügt wird, entferne 1 Schadensmarke vom Verteidigenden Pokémon."
 			},
 			damage: 30,
 

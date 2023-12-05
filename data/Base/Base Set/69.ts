@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Weedle",
-		fr: "Aspicot"
+		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Sting",
-				fr: "Dard-Venin"
+				fr: "Dard-Venin",
+				de: "Giftstachel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné"
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet."
 			},
 			damage: 10,
 

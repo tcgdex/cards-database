@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Toxicroak",
 		fr: "Coatox",
+		de: "Toxiquak"
 	},
 	illustrator: "Kent Kanetsuna",
 	rarity: "Rare",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Paralyze Poison",
 				fr: "Poison paralysant",
+				de: "Lähmendes Gift"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt und vegiftet."
 			},
 			damage: 20,
 
@@ -50,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 60,

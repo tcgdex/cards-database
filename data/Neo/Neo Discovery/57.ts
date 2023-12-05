@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Larvitar",
-		fr: "Embrylex"
+		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,

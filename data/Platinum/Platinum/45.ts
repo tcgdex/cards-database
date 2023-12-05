@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Combusken",
 		fr: "Galifeu",
+		de: "Junglut"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
@@ -34,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Firebreathing",
 				fr: "Souffle-feu",
+				de: "Firebreathing"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "High Jump Kick",
 				fr: "Pied voltige",
+				de: "High Jump Kick"
 			},
 
 			damage: 60,

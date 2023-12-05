@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Horsea δ",
-		fr: "Hypotrempe δ ESPÈCES DELTA"
+		fr: "Hypotrempe δ ESPÈCES DELTA",
+		de: "Seeper"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Steady Firebreathing",
-				fr: "Crachage de feu régulier"
+				fr: "Crachage de feu régulier",
+				de: "Stetiger Feuerhauch"
 			},
 
 			damage: 20,

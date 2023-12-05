@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chimchar",
 		fr: "Ouisticram",
+		de: "Panflam"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Fire Punch",
 				fr: "Poing de feu",
+				de: "Fire Punch"
 			},
 
 			damage: 20,

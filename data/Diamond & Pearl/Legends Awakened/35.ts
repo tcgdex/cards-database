@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poliwrath",
 		fr: "Tartard",
+		de: "Quappo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Focus Punch",
 				fr: "Mitra-poing",
+				de: "Power-Punch"
 			},
 			effect: {
 				en: "If Poliwrath was damaged by an attack during your opponent's last turn, this attack does nothing.",
 				fr: "Si une attaque a infligé des dégâts à Tartard lors du dernier tour de votre adversaire, cette attaque est sans effet.",
+				de: "Wenn Quappo im letzten Zug deines Gegners durch einen Angriff Schaden zugefügt wurde, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Submission",
 				fr: "Sacrifice",
+				de: "Überroller"
 			},
 			effect: {
 				en: "Poliwrath does 20 damage to itself.",
 				fr: "Tartard s'inflige 20 dégâts.",
+				de: "Quappo fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 90,
 

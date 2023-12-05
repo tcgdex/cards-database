@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Espeon",
-		fr: "Mentali"
+		fr: "Mentali",
+		de: "Psiana"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 20,
@@ -50,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic",
-				fr: "Psyko"
+				fr: "Psyko",
+				de: "Psychic"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more for each Energy Card attached to the Defending Pokémon.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur."
+				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur.",
+				de: "Doaes 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
 			},
 			damage: "30+",
 

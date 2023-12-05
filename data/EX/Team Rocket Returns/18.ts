@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Sandslash",
+		de: "Dunkles Sandamer"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Poison Payback",
+				de: "Poison Payback"
 			},
 			effect: {
 				en: "If Dark Sandslash is your Active Pokémon and is damaged by an opponent's attack (even if Dark Sandslash is Knocked Out), the Attacking Pokémon is now Poisoned.",
+				de: "If Dark Sandslash is your Active Pokémon and is damaged by an opponent's attack (even if Dark Sandslash is Knocked Out), the Attacking Pokémon is now Poisoned."
 			},
 		},
 	],
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift",
+				de: "Swift"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				de: "This attack's damage isn't affected by Weakness, resistance, Poke-Pwers, Poke-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 50,
 

@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Snubbull",
-		fr: "Snubbull"
+		fr: "Snubbull",
+		de: "Snubbull"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Raging Headbutt",
-				fr: "Coup d'boule rageur"
+				fr: "Coup d'boule rageur",
+				de: "Raging Headbutt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 damage times the number of damage counters on Snubbull. If tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Snubbull. Si c'est pile, cette attaque inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Snubbull. Si c'est pile, cette attaque inflige 10 dégâts.",
+				de: "Flip a coin. If heads, this attack does 10 damage plus 10damage times the number of damage counters on Snubbull. If tails, this attack does 10 damage."
 			},
 			damage: "10+",
 

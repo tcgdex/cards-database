@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Nidorina",
-		fr: "Nidorina"
+		fr: "Nidorina",
+		de: "Nidorina"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rescue",
-				fr: "Rescousse"
+				fr: "Rescousse",
+				de: "Bergen"
 			},
 			effect: {
 				en: "Search your discard pile for up to 2 Pokémon, show them to your opponent, and put them into your hand.",
-				fr: "Choisissez dans votre pile de défausse jusqu'à 2 Pokémon, montrez-les à votre adversaire et placez-les dans votre main."
+				fr: "Choisissez dans votre pile de défausse jusqu'à 2 Pokémon, montrez-les à votre adversaire et placez-les dans votre main.",
+				de: "Durchsuche deinen Ablagestapel nach bis zu 2 Pokémon-Karten, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -50,7 +53,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 30,

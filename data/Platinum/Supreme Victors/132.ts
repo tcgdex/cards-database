@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Whismur",
 		fr: "Chuchmur",
+		de: "Flurmel"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Tone-Deaf",
 				fr: "Dur d'oreille",
+				de: "Unmusikalisch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,

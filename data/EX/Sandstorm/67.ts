@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Lotad",
-		fr: "Nenupiot"
+		fr: "Nenupiot",
+		de: "Loturzel"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
-				fr: "Pâté"
+				fr: "Pâté",
+				de: "Klecks"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Lotad.",
-				fr: "Retirez à Nenupiot un marqueur de dégât."
+				fr: "Retirez à Nenupiot un marqueur de dégât.",
+				de: "Entferne 1 Schadensmarke von Loturzel."
 			},
 			damage: 20,
 

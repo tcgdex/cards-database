@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Aerodactyl",
-		fr: "Ptera"
+		fr: "Ptera",
+		de: "Aerodactyl"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Prehistoric Memory",
-				fr: "Mémoire préhistorique"
+				fr: "Mémoire préhistorique",
+				de: "Prehistoric Memory"
 			},
 			effect: {
 				en: "Whenever an Evolved Pokémon attacks (even if it's your opponent's), it can use any attack from its Basic card or any Evolution card attached to it. It still has to pay for that attack's Energy cost. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed.",
-				fr: "Lorsqu'un Pokémon évolué attaque (même s'il s'agit de celui de votre adversaire), il peut utiliser n'importe quelle attaque de sa carte Pokémon de base ou de la carte Évolution qui lui est attachée. Il doit encore payer le coût en Énergie de l'attaque. Ce pouvoir cesse de fonctionner si Ptera est Endormi, Confus ou Paralysé."
+				fr: "Lorsqu'un Pokémon évolué attaque (même s'il s'agit de celui de votre adversaire), il peut utiliser n'importe quelle attaque de sa carte Pokémon de base ou de la carte Évolution qui lui est attachée. Il doit encore payer le coût en Énergie de l'attaque. Ce pouvoir cesse de fonctionner si Ptera est Endormi, Confus ou Paralysé.",
+				de: "Whenever an Evolved Pokémon attacks (even if it's your opponent's), it can use any attack from its Basic Pokémon card or any Evolution card attached to it. It still has to pay for that attack's Energy cost. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -48,12 +51,14 @@ const card: Card = {
 
 			name: {
 				en: "Fly",
-				fr: "Vol"
+				fr: "Vol",
+				de: "Fly"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Aerodactyl. If tails, this attack does nothing (not even damage).",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Ptera ; si c'est pile, cette attaque ne fait rien (pas même les dégâts)."
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Ptera ; si c'est pile, cette attaque ne fait rien (pas même les dégâts).",
+				de: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Aerodactyl. If tails, this attack does nothing (not even damage)."
 			},
 
 			damage: 30

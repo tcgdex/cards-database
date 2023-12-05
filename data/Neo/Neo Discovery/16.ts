@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Wobbuffet",
-		fr: "Qulbutoke"
+		fr: "Qulbutoke",
+		de: "Woingenau"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Counter",
-				fr: "Riposte"
+				fr: "Riposte",
+				de: "Counter"
 			},
 			effect: {
 				en: "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is knocked out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage.",
-				fr: "Si une attaque inflige des dégâts à Qulbutoke pendant le prochain tour de votre adversaire (même si Qulbutoke est K.O.), lancez 1 pièce. Si c'est face, Qulbutoke attaque le Pokémon Défenseur et lui inflige le même nombre de dégâts."
+				fr: "Si une attaque inflige des dégâts à Qulbutoke pendant le prochain tour de votre adversaire (même si Qulbutoke est K.O.), lancez 1 pièce. Si c'est face, Qulbutoke attaque le Pokémon Défenseur et lui inflige le même nombre de dégâts.",
+				de: "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
 			},
 
 		},

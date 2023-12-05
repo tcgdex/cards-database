@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti"
+		fr: "Magneti",
+		de: "Magnetilo"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hook",
-				fr: "Crochet"
+				fr: "Crochet",
+				de: "Haken"
 			},
 
 			damage: 20,

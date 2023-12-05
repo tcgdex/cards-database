@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Paranoid",
-				fr: "Paranoïaque"
+				fr: "Paranoïaque",
+				de: "Verfolgungswahn"
 			},
 			effect: {
 				en: "As long as Machoke is Confused, Machoke's attacks do 50 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Tant que Machopeur est Confus, ses attaques infligent au Pokémon Défenseur 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+				fr: "Tant que Machopeur est Confus, ses attaques infligent au Pokémon Défenseur 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				de: "Solange Maschock verwirrt ist, fügen Maschocks Angriffe dem Verteidigendem Pokémon 50 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Split Kick",
-				fr: "Coup en deux temps"
+				fr: "Coup en deux temps",
+				de: "Verteilter Tritt"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
-				fr: "Inflige 20 dégâts à chacun des Pokémon Défenseurs."
+				fr: "Inflige 20 dégâts à chacun des Pokémon Défenseurs.",
+				de: "Dieser Angriff fügt jedem Verteidigendem Pokémon 20 Schadenspunkte zu."
 			},
 
 		},
@@ -59,7 +64,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnum Punch",
-				fr: "Poing magnum"
+				fr: "Poing magnum",
+				de: "Magnum-Schlag"
 			},
 
 			damage: 40,

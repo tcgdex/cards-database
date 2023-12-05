@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Hariyama",
+		de: "Hariyama"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -32,9 +33,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Push Out",
+				de: "Verdrängen"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 50,
 
@@ -48,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Vortex Chop",
+				de: "Wirbelsturm-Schlag"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Resistance, this attack's base damage is 120 instead of 60.",
+				de: "Wenn das Verteidigende Pokémon mindestens eine Resistenz hat, beträgt der Grundschaden dieses Angriffs 120 Schadenspunkte anstelle von 60 Schadenspunkten."
 			},
 			damage: 60,
 

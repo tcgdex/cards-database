@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Sentret",
-		fr: "Fouinette"
+		fr: "Fouinette",
+		de: "Wiesor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,13 +32,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
-				fr: "Combo-griffe"
+				fr: "Combo-griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf drei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

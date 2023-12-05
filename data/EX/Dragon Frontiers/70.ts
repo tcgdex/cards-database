@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Vulpix δ",
-		fr: "Goupix δ ESPÈCES DELTA"
+		fr: "Goupix δ ESPÈCES DELTA",
+		de: "Vulpix"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypnotic Gaze",
-				fr: "Regard hypnotique"
+				fr: "Regard hypnotique",
+				de: "Hypnotischer Blick"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Will-o'-the-wisp",
-				fr: "Feu follet"
+				fr: "Feu follet",
+				de: "Irrlicht"
 			},
 
 			damage: 20,

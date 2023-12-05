@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Gas",
-				fr: "Gaz toxik"
+				fr: "Gaz toxik",
+				de: "Poison Gas"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sticky Hands",
-				fr: "Mains collantes"
+				fr: "Mains collantes",
+				de: "Sticky hands"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé ; si c'est pile, cette attaque inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé ; si c'est pile, cette attaque inflige 10 dégâts.",
+				de: "Flip a coin. if heads, this attack does 10 damage plus 20 more damage and the defending Pokémon is now Paralyzed; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 

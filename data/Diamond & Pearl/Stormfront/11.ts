@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Torterra",
-		fr: "Torterra"
+		fr: "Torterra",
+		de: "Chelterrar"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sunshine Song",
 				fr: "Chanson solaire",
+				de: "Sonnengesang"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), when you play Torterra from your hand to evolve 1 of your Pokémon, you may choose as many of your Grass Pokémon in play as you like. For each Grass Pokémon you choose, search your deck for an Evolution card that evolves from that Pokémon and evolve it. Shuffle your deck afterward.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Torterra de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez choisir autant de Pokémon Grass que vous avez en jeu que vous le voulez. Pour chaque Pokémon Grass que vous choisissez, cherchez dans votre deck une carte Évolution qui évolue de ce Pokémon et faites-le évoluer. Ensuite, mélangez votre deck.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Chelterrar von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, eine beliebige Anzahl deiner -Pokémon im Spiel wählen. Für jedes -Pokémon, das du auf diese Weise gewählt hast, kannst du dein Deck nach einer Evolutionskarte, die sich aus dem gewählten Pokémon entwickelt, durchsuchen und es damit entwickeln. Mische dein Deck danach."
 			},
 		},
 	],
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Crash Impact",
 				fr: "Cratère",
+				de: "Heftiger Zusammenstoß"
 			},
 			effect: {
 				en: "Torterra does 20 damage to itself. Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
 				fr: "Torterra s'inflige 20 dégâts. Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc, s'il en a.",
+				de: "Chelterrar fügt sich selbst 20 Schadenspunkte zu. Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 60,
 
@@ -64,10 +69,12 @@ const card: Card = {
 			name: {
 				en: "Land Shake",
 				fr: "Terre tremblante",
+				de: "Bebender Boden"
 			},
 			effect: {
 				en: "During your opponent's next turn, when your opponent puts a Basic Pokémon from his or her hand onto his or her Bench, put 2 damage counters on that Pokémon.",
 				fr: "Lors du prochain tour de votre adversaire, lorsque celui-ci place un Pokémon de base de sa main sur son Banc, placez 2 marqueurs de dégât sur ce Pokémon.",
+				de: "Wenn dein Gegner in seinem nächsten Zug ein Basis-Pokémon von seiner Hand auf seine Bank legt, lege 2 Schadensmarken auf dieses Pokémon."
 			},
 			damage: 80,
 

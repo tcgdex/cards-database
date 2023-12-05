@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Seel",
+		de: "Jurob"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Cold Breath",
+				de: "Kalter Atem"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				de: "Wirf eine Münze. Bei\"Kopf\" schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 

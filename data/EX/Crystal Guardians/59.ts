@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Numel",
-		fr: "Chamallot"
+		fr: "Chamallot",
+		de: "Camaub"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Numel does 10 damage to itself.",
-				fr: "Chamallot s'inflige 10 dégâts."
+				fr: "Chamallot s'inflige 10 dégâts.",
+				de: "Camaub fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

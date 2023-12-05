@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Natu",
-		fr: "Natu"
+		fr: "Natu",
+		de: "Natu"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				de: "Peck"
 			},
 
 			damage: 10,
@@ -41,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Soothing Wave",
-				fr: "Vague relaxante"
+				fr: "Vague relaxante",
+				de: "Soothing Wave"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi."
+				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
+				de: "Each Defending Pokémon is now Asleep."
 			},
 
 		},

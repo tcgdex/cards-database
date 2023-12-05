@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Bagon δ",
-		fr: "Draby δ ESPÈCES DELTA"
+		fr: "Draby δ ESPÈCES DELTA",
+		de: "Kindwurm"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -25,16 +26,18 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fire",
 				"Colorless",
+				"Fire",
 			],
 			name: {
 				en: "Ember",
-				fr: "Flammèche"
+				fr: "Flammèche",
+				de: "Ember"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Bagon.",
-				fr: "Défaussez une carte Énergie  attachée à Draby."
+				fr: "Défaussez une carte Énergie  attachée à Draby.",
+				de: "Discard a  Energy card attached to Bagon."
 			},
 			damage: 30,
 

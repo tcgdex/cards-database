@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Weezing",
+		de: "Dunkles Smogmog"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -28,9 +29,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Methane Leak",
+				de: "Methane Leak"
 			},
 			effect: {
 				en: "As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns.",
+				de: "As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Smog",
+				de: "Smog"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
+				de: "The Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -55,9 +60,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Darkness Charge",
+				de: "Darkness Charge"
 			},
 			effect: {
 				en: "Put 2 damage counters on Dark Weezing.",
+				de: "Put 2 damage counters on Dark Weezing."
 			},
 			damage: 50,
 

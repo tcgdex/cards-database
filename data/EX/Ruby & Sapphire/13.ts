@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Swampert",
-		fr: "Laggron"
+		fr: "Laggron",
+		de: "Sumpex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Water Call",
-				fr: "Appel d'eau"
+				fr: "Appel d'eau",
+				de: "Wasserruf"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to your Active Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre main à votre Pokémon Actif. Ce pouvoir ne peut être utilisé si Laggron est affecté par un État Spécial."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre main à votre Pokémon Actif. Ce pouvoir ne peut être utilisé si Laggron est affecté par un État Spécial.",
+				de: "Während deines Zuges (vor deinem Angriff) kannst du einmal eine  -Energiekarte von deiner Hand an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht verwendet werden, falls Sumpex von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hypno Splash",
-				fr: "Hypnoplouf"
+				fr: "Hypnoplouf",
+				de: "Hypnospritzer"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 50,
 

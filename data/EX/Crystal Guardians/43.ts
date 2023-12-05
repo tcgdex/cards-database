@@ -4,7 +4,8 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Wartortle",
-		fr: "Carabaffe"
+		fr: "Carabaffe",
+		de: "Schillok"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whip",
-				fr: "Mouvemend'keu"
+				fr: "Mouvemend'keu",
+				de: "Rutenschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne pourra pas attaquer lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne pourra pas attaquer lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 40,

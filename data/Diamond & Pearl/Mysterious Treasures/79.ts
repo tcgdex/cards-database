@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Cyndaquil",
-		fr: "Héricendre"
+		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,7 +30,8 @@ const card: Card = {
 
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Live Coal",
-				fr: "Charbon mutant"
+				fr: "Charbon mutant",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 20,

@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Omanyte",
-		fr: "Amonita"
+		fr: "Amonita",
+		de: "Amonitas"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Fossil",
-				fr: "Réanimation Fossile"
+				fr: "Réanimation Fossile",
+				de: "Fossil wiederbeleben"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it on your Bench. Shuffle your deck afterward. Treat that card as a Basic Pokémon. This power can't be used if Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is full).",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck une carte Évolution de Mystérieux Fossile et placez-la sur votre Banc. Utilisez cette carte comme un Pokémon de base. Ce pouvoir ne peut pas être utilisé si Amonita est Endormi, Confus ou Paralysé (ou si votre Banc est plein)."
+				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck une carte Évolution de Mystérieux Fossile et placez-la sur votre Banc. Utilisez cette carte comme un Pokémon de base. Ce pouvoir ne peut pas être utilisé si Amonita est Endormi, Confus ou Paralysé (ou si votre Banc est plein).",
+				de: "Du kannst einmal während deines Zuges (vor deinem Angriff) eine Münze werfen. Durchsuche bei \"Kopf\" dein Deck nach einer Karte, die aus dem Geheimnis-Fossil entsteht und lege sie auf deine Bank. Mische danach dein Deck. Behandle diese Karte wie ein basis-Pokémon. Diese Fähigkeit kann nicht verwendet werden, falls Amonitas schläft, verwirrt oder gelähmt ist (oder deine Bank voll ist)."
 			},
 		},
 	],
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bind",
-				fr: "Étreinte"
+				fr: "Étreinte",
+				de: "Klammergriff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Zapdos",
 		fr: "Electhor",
+		de: "Zapdos"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Drill Peck",
 				fr: "Bec vrille",
+				de: "Bohrschnabel"
 			},
 
 			damage: 30,
@@ -47,12 +49,14 @@ const card: Card = {
 			name: {
 				en: "Lightning Wing",
 				fr: "Aile éclair",
+				de: "Blitzflügel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],

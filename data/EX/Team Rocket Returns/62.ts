@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Larvitar",
+		de: "Larvitar"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
+				de: "Fury Attack"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],

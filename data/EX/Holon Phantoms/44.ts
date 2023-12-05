@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Holon's Castform",
-		fr: "Morpheo d'Holon"
+		fr: "Morpheo d'Holon",
+		de: "Holon-Formeo"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Delta Draw",
-				fr: "Pioche Delta"
+				fr: "Pioche Delta",
+				de: "Delta-Zug"
 			},
 			effect: {
 				en: "Count the number of Pokémon you have in play that has δ on its card. Draw up to that many cards.",
-				fr: "Comptabilisez le nombre de Pokémon possédant le symbole δ que vous avez en jeu. Piochez autant de cartes."
+				fr: "Comptabilisez le nombre de Pokémon possédant le symbole δ que vous avez en jeu. Piochez autant de cartes.",
+				de: "Zähle die Anzahl der Pokémon, die du im Spiel hast, auf denen δ zu sehen ist. Ziehe bis zu dieser Anzahl Karten."
 			},
 
 		},

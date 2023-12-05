@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Energy Removal 2",
-		fr: "Suppression d'énergie 2"
+		fr: "Suppression d'énergie 2",
+		de: "Energie-Absauger 2"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée à un des Pokémon de votre adversaire et défaussez-la."
+		fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée à un des Pokémon de votre adversaire et défaussez-la.",
+		de: "Wirf eine Münze. Wähle bei 'Kopf' 1 Energiekarte, die an ein Pokémon deines Gegners angelegt ist, und lege sie auf seinen Ablagestapel."
 	}
 }
 

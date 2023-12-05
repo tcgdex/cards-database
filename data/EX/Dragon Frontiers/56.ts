@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Nidoran♀ δ",
-		fr: "Nidoran ♀ δ ESPÈCES DELTA"
+		fr: "Nidoran ♀ δ ESPÈCES DELTA",
+		de: "Nidoran W"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whip",
-				fr: "Mouvemend'keu"
+				fr: "Mouvemend'keu",
+				de: "Rutenschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen"
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,

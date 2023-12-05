@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Charizard",
-		fr: "Dracaufeu"
+		fr: "Dracaufeu",
+		de: "Glurak"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
-				fr: "Fournaise"
+				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 30,
@@ -46,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bursting Inferno",
-				fr: "Enfer explosif"
+				fr: "Enfer explosif",
+				de: "Flammendes Inferno"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Burned.",
-				fr: "Chaque Pokémon Défenseur est maintenant Brûlé."
+				fr: "Chaque Pokémon Défenseur est maintenant Brûlé.",
+				de: "Verteidigende Pokémon sind jetzt verbrannt."
 			},
 			damage: 50,
 

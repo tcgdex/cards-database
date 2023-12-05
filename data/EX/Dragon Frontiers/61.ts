@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Ralts δ",
-		fr: "Tarsal δ ESPÈCES DELTA"
+		fr: "Tarsal δ ESPÈCES DELTA",
+		de: "Trasla"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Calm Mind",
-				fr: "Plénitude"
+				fr: "Plénitude",
+				de: "Gedankengut"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Ralts.",
-				fr: "Retirez à Tarsal 2 marqueurs de dégât."
+				fr: "Retirez à Tarsal 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Trasla."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Will-o'-the-wisp",
-				fr: "Feu follet"
+				fr: "Feu follet",
+				de: "Irrlicht"
 			},
 
 			damage: 20,

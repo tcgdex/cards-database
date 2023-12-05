@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Carnivine",
 		fr: "Vortente",
+		de: "Venuflibis"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Poison Breath",
 				fr: "Haleine empoisonnée",
+				de: "Poison Breath"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -43,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Sweet Saliva",
 				fr: "Douce salive",
+				de: "Sweet Saliva"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Benched Pokémon.",
 				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon de Banc.",
+				de: "Remove 1 damage counter from each of your Benched Pokémon."
 			},
 			damage: 20,
 

@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Groudon",
-		fr: "Groudon"
+		fr: "Groudon",
+		de: "Groudon"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Slash"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Tumble",
-				fr: "Roule-pierre"
+				fr: "Roule-pierre",
+				de: "Rock Tumble"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "This attack's damage isn't affected by Resistance,"
 			},
 			damage: 40,
 

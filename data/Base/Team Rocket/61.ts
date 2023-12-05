@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,26 +32,30 @@ const card: Card = {
 			],
 			name: {
 				en: "Mischief",
-				fr: "Éspièglerie"
+				fr: "Éspièglerie",
+				de: "Schabernack"
 			},
 			effect: {
 				en: "Shuffle your opponent's deck.",
-				fr: "Mélangez le deck de votre adversaire."
+				fr: "Mélangez le deck de votre adversaire.",
+				de: "Mische das Deck deines gegners."
 			},
 
 		},
 		{
 			cost: [
-				"Fighting",
 				"Colorless",
+				"Fighting",
 			],
 			name: {
 				en: "Anger",
-				fr: "Colère"
+				fr: "Colère",
+				de: "Zorn"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts.",
+				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei 'Zahl' fügt dieser Angriff 20 Schadenspunkte zu."
 			},
 			damage: "20+",
 

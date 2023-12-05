@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Staryu",
-		fr: "Stari"
+		fr: "Stari",
+		de: "Sterndu"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slap",
-				fr: "Gifle"
+				fr: "Gifle",
+				de: "Hieb"
 			},
 
 			damage: 20,

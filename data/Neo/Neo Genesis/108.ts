@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Grass Energy",
-		fr: "Énergie Plante"
+		fr: "Énergie Plante",
+		de: "Pflanzenenergie"
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",

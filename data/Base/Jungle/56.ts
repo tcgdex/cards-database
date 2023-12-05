@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Meowth",
-		fr: "Miaouss"
+		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pay Day",
-				fr: "Jackpot"
+				fr: "Jackpot",
+				de: "Zahltag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, draw a card.",
-				fr: "Lancez une pièce. Si c'est face, piochez une carte."
+				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
+				de: "Wirf eine Münze. Bei 'Kopf' ziehe eine Karte."
 			},
 			damage: 10,
 

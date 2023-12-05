@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Chimecho",
-		fr: "Éoko"
+		fr: "Éoko",
+		de: "Palimpalim"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call In",
-				fr: "Faire appel"
+				fr: "Faire appel",
+				de: "Einfordern"
 			},
 			effect: {
 				en: "Draw a card. If Chingling is anywhere under Chimecho, draw 2 more cards.",
-				fr: "Piochez une carte. Si Korillon se trouve sous Éoko, piochez 2 cartes supplémentaires."
+				fr: "Piochez une carte. Si Korillon se trouve sous Éoko, piochez 2 cartes supplémentaires.",
+				de: "Ziehe 1 Karte. Wenn Klingplim sich an beliebiger Stelle unter Palimpalim befindet, ziehe 2 weitere Karten."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Strange Bell",
-				fr: "Cloche étrange"
+				fr: "Cloche étrange",
+				de: "Seltsamer Glockenton"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Basic Pokémon, that Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon de base, il est maintenant Confus."
+				fr: "Si le Pokémon Défenseur est un Pokémon de base, il est maintenant Confus.",
+				de: "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, ist es jetzt verwirrt."
 			},
 			damage: 20,
 

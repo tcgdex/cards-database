@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Sealeo",
-		fr: "Phogleur"
+		fr: "Phogleur",
+		de: "Seejong"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ice Beam",
-				fr: "Laser glace"
+				fr: "Laser glace",
+				de: "Eisstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

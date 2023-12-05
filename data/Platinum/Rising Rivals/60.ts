@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Flareon 4",
 		fr: "Pyroli  Niv. 55",
+		de: "Flamara 4"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Fire Tail Slap",
 				fr: "Coup de queue enflammé",
+				de: "Feuerschweifschlag"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Flareon .",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Pyroli .",
+				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Flamara 4 angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 40,
 

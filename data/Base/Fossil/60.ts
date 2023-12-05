@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Gambler",
-		fr: "Joueur"
+		fr: "Joueur",
+		de: "Spieler"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,7 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Mélangez votre main dans votre deck. Lancez une pièce. Si c'est face, piochez 8 cartes. Si c'est pile, piochez 1 carte."
+		fr: "Mélangez votre main dans votre deck. Lancez une pièce. Si c'est face, piochez 8 cartes. Si c'est pile, piochez 1 carte.",
+		de: "Mische deine hand in dein Deck. Wirf eine Münze. Bei 'Kopf' ziehe acht Karten. Bei 'Zahl' ziehe eine Karte."
 	}
 }
 

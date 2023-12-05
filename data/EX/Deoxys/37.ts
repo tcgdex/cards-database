@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Magcargo",
-		fr: "Volcaropod"
+		fr: "Volcaropod",
+		de: "Magcargo"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Uncommon",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'boule"
+				fr: "Coup d'boule",
+				de: "Headbutt"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Burning Ball",
-				fr: "Boule brûlante"
+				fr: "Boule brûlante",
+				de: "Burning Ball"
 			},
 			effect: {
 				en: "If Magcargo has at least 2 Fire Energy attached to it, the Defending Pokémon is now Burned.",
-				fr: "Si Volcaropod possède au moins 2 Énergies , le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Si Volcaropod possède au moins 2 Énergies , le Pokémon Défenseur est maintenant Brûlé.",
+				de: "If Magcargo has at least 2  Energy attached to it, the Defending Pokémon is now Burned."
 			},
 			damage: 50,
 

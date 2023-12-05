@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Wingull",
-		fr: "Goélise"
+		fr: "Goélise",
+		de: "Wingull"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Quick Attack"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
 			},
 			damage: "10+",
 

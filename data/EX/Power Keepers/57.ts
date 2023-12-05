@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Charge",
-				fr: "Recharge"
+				fr: "Recharge",
+				de: "Laden"
 			},
 			effect: {
 				en: "Search your discard pile for a Lightning Energy card and attach it to Pikachu.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Pikachu."
+				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Pikachu.",
+				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Pikachu an."
 			},
 
 		},
@@ -44,13 +47,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Slam",
-				fr: "Souplesse"
+				fr: "Souplesse",
+				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Claydol",
-		fr: "Kaorine de Team Magma"
+		fr: "Kaorine de Team Magma",
+		de: "Team Magmas Lepumentas"
 	},
 	illustrator: "Zu-Ka",
 	rarity: "Uncommon",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Clay Curse",
-				fr: "Fléau d'argile"
+				fr: "Fléau d'argile",
+				de: "Lehmfluch"
 			},
 			effect: {
 				en: "Put 2 damage counters on your opponent's Pokémon in any way you like.",
-				fr: "Placez 2 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez."
+				fr: "Placez 2 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez.",
+				de: "Lege 2 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon."
 			},
 
 		},
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Clay Pulse",
-				fr: "Coup d'argile"
+				fr: "Coup d'argile",
+				de: "Lehmpuls"
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire qui possède des marqueurs de dégât. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire qui possède des marqueurs de dégât. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Fügt jedem gegnerischen Pokémon auf der Bank, auf dem bereits Schadensmarken liegen, 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 

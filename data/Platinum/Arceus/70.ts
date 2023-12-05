@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Omanyte",
+		de: "Amonitas"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -30,9 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Collect",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 3 cards.",
+				de: "Ziehe 3 Karten"
 			},
 
 		},
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tickle",
+				de: "Spaßkanone"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

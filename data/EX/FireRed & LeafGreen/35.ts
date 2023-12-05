@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Ivysaur",
-		fr: "Herbizarre"
+		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Seed",
-				fr: "Graine poison"
+				fr: "Graine poison",
+				de: "Poison Seed"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				fr: "Tranch'herbe",
+				de: "Razor Leaf"
 			},
 
 			damage: 50,

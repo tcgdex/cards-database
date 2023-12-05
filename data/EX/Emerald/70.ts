@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Treecko",
-		fr: "Arcko"
+		fr: "Arcko",
+		de: "Geckarbor"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Smash",
-				fr: "Éclate-queue"
+				fr: "Éclate-queue",
+				de: "Tail Smash"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 10,
 

@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Paras",
-		fr: "Paras"
+		fr: "Paras",
+		de: "Paras"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -45,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spore",
-				fr: "Spore"
+				fr: "Spore",
+				de: "Pilzspore"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},

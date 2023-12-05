@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chimchar",
 		fr: "Ouisticram",
+		de: "Panflam"
 	},
 	illustrator: "Daisuke Ito",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Intimidation",
+				de: "Flackern"
 			},
 
 			damage: 20,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Lunge",
 				fr: "Coup rapide",
+				de: "Ausfall"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 

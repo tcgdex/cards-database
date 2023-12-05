@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Heatran",
+		de: "Heatran"
 	},
 	illustrator: "Keiko Moritsugu",
 	rarity: "Rare",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Fang",
+				de: "Feuerzahn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Mantle",
+				de: "Magmahülle"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your deck. This attack does 60 damage plus 20 more damage for each Fire or Metal Energy card you discarded.",
+				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte - oder -Energiekarte zu."
 			},
 			damage: "60+",
 

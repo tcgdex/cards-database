@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Drifblim",
 		fr: "Grodrive",
+		de: "Drifzepeli"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -48,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 40,

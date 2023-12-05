@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -45,12 +47,14 @@ const card: Card = {
 
 			name: {
 				en: "Poison Gas",
-				fr: "Gaz toxik"
+				fr: "Gaz toxik",
+				de: "Poison Gas"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. if heads, the Defending Pokémon is now Poisoned."
 			},
 
 			damage: 20

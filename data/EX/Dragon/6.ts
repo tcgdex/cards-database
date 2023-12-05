@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Grumpig",
-		fr: "Groret"
+		fr: "Groret",
+		de: "Groink"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Boom",
-				fr: "Psycho-boom"
+				fr: "Psycho-boom",
+				de: "Psychic Boom"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
 			},
 			damage: "20+",
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Trip",
-				fr: "Avoir l'esprit ailleurs"
+				fr: "Avoir l'esprit ailleurs",
+				de: "Mind Trip"
 			},
 			effect: {
 				en: "If Grumpig and the Defending Pokémon have the same amount of Energy attached to them, the Defending Pokémon is now Confused.",
-				fr: "Si Groret et le Pokémon Défenseur possèdent le même total en Énergie, le Pokémon Défenseur est maintenant Confus."
+				fr: "Si Groret et le Pokémon Défenseur possèdent le même total en Énergie, le Pokémon Défenseur est maintenant Confus.",
+				de: "If grumpig and the Defending Pokémon have the same number off Energy attached to them, the Defending Pokémon is now Confused."
 			},
 			damage: 50,
 

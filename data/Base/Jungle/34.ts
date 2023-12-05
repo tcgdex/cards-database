@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Dodrio",
-		fr: "Dodrio"
+		fr: "Dodrio",
+		de: "Dodri"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Retreat Aid",
-				fr: "Soutien de retraite"
+				fr: "Soutien de retraite",
+				de: "Rückzugshilfe"
 			},
 			effect: {
 				en: "As long as Dodrio is Benched, pay 1 Colorless less to retreat your Active Pokémon.",
-				fr: "Tant que Dodrio est sur le Banc, payez  en moins pour faire battre en retraite votre Pokémon Actif."
+				fr: "Tant que Dodrio est sur le Banc, payez  en moins pour faire battre en retraite votre Pokémon Actif.",
+				de: "Solange Dodri auf der Bank sitzt, zahle  weniger, im dein aktives Pokémon zurückzuziehen."
 			},
 		},
 	],
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
-				fr: "Frénésie"
+				fr: "Frénésie",
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Dodrio.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur Dodrio."
+				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur Dodrio.",
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Dodri zu."
 			},
 			damage: "10+",
 

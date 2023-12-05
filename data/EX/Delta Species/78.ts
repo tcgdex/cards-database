@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Intimidation"
+				fr: "Intimidation",
+				de: "Flare"
 			},
 
 			damage: 10,

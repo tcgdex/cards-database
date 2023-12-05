@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Clefairy",
-		fr: "Melofée"
+		fr: "Melofée",
+		de: "Piepi"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'face"
+				fr: "Écras'face",
+				de: "Pound"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lullaby",
-				fr: "Comptine"
+				fr: "Comptine",
+				de: "Lullaby"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

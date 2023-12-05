@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
-				fr: "Flammèche"
+				fr: "Flammèche",
+				de: "Ember"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Ponyta in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Ponyta pour pouvoir utiliser cette attaque."
+				fr: "Défaussez 1 carte Énergie  attachée à Ponyta pour pouvoir utiliser cette attaque.",
+				de: "Discard 1  Energy card attached to Ponyta in order to use this attack."
 			},
 			damage: 30,
 

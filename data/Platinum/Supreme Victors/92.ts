@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Buizel",
 		fr: "Mustébouée",
+		de: "Bamelin"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,

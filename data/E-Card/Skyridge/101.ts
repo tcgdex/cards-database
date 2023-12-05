@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Snubbull",
+		de: "Snubbull"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Scary Face",
+				de: "Grimasse"
 			},
 			effect: {
 				en: "Flip a coin. If heads, until the end of your opponent's next turn the Defending Pokémon can't Retreat.",
+				de: "Wirf eine Münze. Bei 'Kopf' kann das verteidigende Pokémon bis zum Ende des nächsten gegnerischen Zugs weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				de: "Biss"
 			},
 
 			damage: 20,

@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
-		fr: "Lainergie"
+		fr: "Lainergie",
+		de: "Waaty"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -35,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Electric Punch",
-				fr: "Poing électrique"
+				fr: "Poing électrique",
+				de: "Electric Punch"
 			},
 
 			damage: 20,
@@ -49,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Shock",
-				fr: "Élektri-keu"
+				fr: "Élektri-keu",
+				de: "Tail Shock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				de: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 

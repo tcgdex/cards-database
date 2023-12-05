@@ -4,7 +4,8 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Manectric",
-		fr: "Elecsprint"
+		fr: "Elecsprint",
+		de: "Voltenso"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Blast",
-				fr: "Explosion de lumière"
+				fr: "Explosion de lumière",
+				de: "Dazzle Blast"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Zap Kick",
-				fr: "Coup de pied ravageur"
+				fr: "Coup de pied ravageur",
+				de: "Zap Kick"
 			},
 
 			damage: 40,

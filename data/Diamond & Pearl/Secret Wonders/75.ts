@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wartortle",
 		fr: "Carabaffe",
+		de: "Schillok"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Giant Wave",
 				fr: "Vague géante",
+				de: "Riesenwelle"
 			},
 			effect: {
 				en: "Wartortle can't use Giant Wave during your next turn.",
 				fr: "Carabaffe ne peut pas utiliser Vague géante lors de votre prochain tour.",
+				de: "Schillok kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 40,
 
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Shell Attack",
 				fr: "Coquill-attaque",
+				de: "Muschelangriff"
 			},
 
 			damage: 50,

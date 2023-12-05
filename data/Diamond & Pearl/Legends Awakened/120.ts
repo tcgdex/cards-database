@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sneasel",
 		fr: "Farfuret",
+		de: "Sniebel"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Rob",
 				fr: "Dérober",
+				de: "Räuber"
 			},
 			effect: {
 				en: "Look at your opponent's hand. If your opponent has any Pokémon Tool or Technical Machine cards in his or her hand, put those cards on top of his or her deck. Your opponent shuffles his or her deck afterward.",
 				fr: "Regardez la main de votre adversaire. S'il possède des cartes Outil Pokémon ou Machine Technique, placez ces cartes au dessus de son deck. Ensuite, votre adversaire mélange son deck.",
+				de: "Schau dir die Handkarten deines Gegners an. Lege alle Pokémon-Ausrüstungs- und Technische Maschine-Karten, die du dort gefunden hast, auf das Deck deines Gegners. Dein Gegner mischt sein Deck danach."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 20,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Leftovers",
 		fr: "Restes",
+		de: "Überreste"
 	},
 	illustrator: "Daisuke Ito",
 	rarity: "Uncommon",
@@ -24,6 +25,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Attachez Pièce rune à 1 de vos Pokémon qui ne posséde pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O, défaussez cette carte.",
+		de: "Wenn das Pokémon, an das Überreste angelegt ist, am Ende deines Zuges dein Aktives Pokémon ist, entferne 1 Schadensmarke von diesem Pokémon."
 	},
 	trainerType: "Tool",
 

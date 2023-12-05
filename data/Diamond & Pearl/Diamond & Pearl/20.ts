@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bibarel",
 		fr: "Castorno",
+		de: "Bidifas"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Rest",
 				fr: "Repos",
+				de: "Ruhe"
 			},
 			effect: {
 				en: "Remove all Special Conditions and 4 damage counters from Bibarel. Bibarel is now Asleep.",
 				fr: "Retirez à Castorno tous ses États Spéciaux ainsi que 4 marqueurs de dégât. Castorno est maintenant Endormi.",
+				de: "Entferne alle Speziellen Zustände und 4 Schadensmarken von Bidifas. Bidifas schläft jetzt."
 			},
 
 		},
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Bibarel does 10 damage to itself.",
 				fr: "Castorno s'inflige 10 dégâts.",
+				de: "Bidifas fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 

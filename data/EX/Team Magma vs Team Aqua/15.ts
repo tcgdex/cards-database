@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Aqua's Mightyena",
-		fr: "Grahyena de Team Aqua"
+		fr: "Grahyena de Team Aqua",
+		de: "Team Aquas Magnayen"
 	},
 	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Rare",
@@ -30,7 +31,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 20,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mystic Fang",
-				fr: "Croc mystique"
+				fr: "Croc mystique",
+				de: "Mystic Fang"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus."
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus.",
+				de: "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused."
 			},
 			damage: 50,
 

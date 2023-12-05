@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Seaking",
 		fr: "Poissoroy",
+		de: "Golking"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -38,12 +39,14 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Seaking.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissoroy.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Golking zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -54,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Horn Drill",
 				fr: "Empal'korne",
+				de: "Hornbohrer"
 			},
 
 			damage: 50,

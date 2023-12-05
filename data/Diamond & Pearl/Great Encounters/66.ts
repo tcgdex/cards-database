@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ekans",
 		fr: "Abo",
+		de: "Rettan"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Shed Skin",
 				fr: "Mue",
+				de: "Expidermis"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Ekans.",
 				fr: "Retirez à Abo 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Rettan."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Poison Fang",
 				fr: "Croc-poison",
+				de: "Giftzahn"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné,",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 

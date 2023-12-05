@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Beedrill",
+		de: "Bibor G"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Common",
@@ -28,9 +29,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Raid",
+				de: "Überfall"
 			},
 			effect: {
 				en: "If you played Beedrill from your hand during this turn, this attack's base damage is 40 instead of 10.",
+				de: "Wenn du Bibor G in diesem Zug aus deiner Hand gespielt hast, beträgt der Grundschaden dieses Angriffs 40 Schadenspunkte anstelle von 10 Schadenspunkten."
 			},
 			damage: 10,
 
@@ -43,9 +46,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
+				de: "Furienschlag"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30x",
 

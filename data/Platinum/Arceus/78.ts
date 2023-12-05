@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Treecko",
+		de: "Geckarbor"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Common",
@@ -29,9 +30,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Crush",
+				de: "Zerquetschender Schweif"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Stomp",
-				fr: "Écrasement"
+				fr: "Écrasement",
+				de: "Stomp"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

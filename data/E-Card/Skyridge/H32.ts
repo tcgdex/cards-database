@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Xatu",
+		de: "Xatu"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
@@ -27,9 +28,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Synchronicity",
+				de: "Synchronizität"
 			},
 			effect: {
 				en: "You may attach any Technical Machine to Xatu.",
+				de: "Du kannst beliebige technische Maschinen an Xatu anlegen."
 			},
 		},
 	],
@@ -42,9 +45,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Warp Hole",
+				de: "Verkrümmungsloch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose a card from your discard pile and put it on top of your deck.",
+				de: "Wirf eine Münze. Wähle bei \"Kopf\" eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck."
 			},
 			damage: 30,
 

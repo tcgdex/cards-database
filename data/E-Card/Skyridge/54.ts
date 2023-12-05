@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Eevee",
+		de: "Evoli"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
+				de: "Schmetterkick"
 			},
 
 			damage: 10,
@@ -40,9 +42,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Eevee does 10 damage to itself",
+				de: "Evoli fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Lombre",
-		fr: "Lombre"
+		fr: "Lombre",
+		de: "Lombrero"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Aqua Lift",
-				fr: "Aqua-élévation"
+				fr: "Aqua-élévation",
+				de: "Aqua Lift"
 			},
 			effect: {
 				en: "If Lombre has any Water Energy attached to it, the Retreat Cost for Lombre is 0.",
-				fr: "Si Lombre possède une Énergie , son Coût de retraite est de 0."
+				fr: "Si Lombre possède une Énergie , son Coût de retraite est de 0.",
+				de: "If Lombre has any  Energy attached to it, the Retreat Cost of Lombre is 0."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ambush",
-				fr: "Embuscade"
+				fr: "Embuscade",
+				de: "Ambush"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				de: "Flip a coin. if heads, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 

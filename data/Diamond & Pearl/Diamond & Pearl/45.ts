@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cherrim",
 		fr: "Ceriflor",
+		de: "Kinoso"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Worry Seed",
 				fr: "Soucigraine",
+				de: "Sorgensamen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Magical Leaf",
 				fr: "Feuillemagik",
+				de: "Zauberblatt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires et retirez à Ceriflor 3 marqueurs de dégât.",
+				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Kinoso."
 			},
 			damage: "20+",
 

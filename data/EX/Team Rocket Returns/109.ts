@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Treecko Star",
+		de: "Geckarbor *"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -40,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spring Back",
+				de: "Spring Back"
 			},
 			effect: {
 				en: "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Poisoned.",
+				de: "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Poisoned."
 			},
-			damage: 20,
+			damage: "50+",
 
 		},
 	],

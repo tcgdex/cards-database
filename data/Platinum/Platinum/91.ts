@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			name: {
 				en: "Light Punch",
 				fr: "Poing léger",
+				de: "Light Punch"
 			},
 
 			damage: 10,
@@ -41,12 +43,14 @@ const card: Card = {
 			name: {
 				en: "Steady Punch",
 				fr: "Poing énergétique",
+				de: "Steady Punch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

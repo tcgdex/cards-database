@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Swellow",
 		fr: "Heledelle",
+		de: "Schwalboss"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Big Wing",
 				fr: "Grande aile",
+				de: "Große Schwingen"
 			},
 			effect: {
 				en: "If Swellow has no Energy attached to it, Swellow's Retreat Cost is 0.",
 				fr: "Si Heledelle ne possède pas d'Énergie, son Coût de retraite est de 0.",
+				de: "Wenn an Schwalboss keine Energie angelegt ist, hat Schwalboss Rückzugskosten 0."
 			},
 		},
 	],
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Mach Descent",
 				fr: "Mach-attaque",
+				de: "Tempo-Sinkflug"
 			},
 			effect: {
 				en: "If Swellow was on your Bench this turn, this attack's base damage is 60 instead of 30.",
 				fr: "Si Heledelle se trouve sur votre Banc lors de ce tour, les dégâts de base de cette attaque sont de 60 au lieu de 30.",
+				de: "Wenn Schwalboss in diesem Zug auf deiner Bank war, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte."
 			},
 			damage: 30,
 

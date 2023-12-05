@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Espeon",
-		fr: "Mentali"
+		fr: "Mentali",
+		de: "Psiana"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Confuse Ray"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Crush",
-				fr: "Écras'énergie"
+				fr: "Écras'énergie",
+				de: "Energy Crush"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée aux Pokémon de votre adversaire."
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée aux Pokémon de votre adversaire.",
+				de: "Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon."
 			},
 			damage: "20+",
 

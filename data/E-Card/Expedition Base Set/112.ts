@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Hoppip",
-		fr: "Granivol"
+		fr: "Granivol",
+		de: "Hoppspross"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
@@ -22,23 +23,33 @@ const card: Card = {
 	stage: "Basic",
 
 
-	attacks: [
-		{
-			cost: [
-				"Grass",
-			],
-			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo"
-			},
-			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
-			},
-			damage: 10,
-
+	attacks: [{
+		cost: ["Water", "Colorless", "Colorless"],
+		name: {
+			en: "Sleep Powder",
+			fr: "Poudre dodo",
+			de: "Dornkanone"
 		},
-	],
+		effect: {
+			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+			fr: "Le Pokémon Défenseur est maintenant Endormi.",
+			de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+		},
+		damage: "20x",
+
+	}, {
+		name: {
+			de: "Schlafpuder"
+		},
+
+		damage: 10,
+
+		effect: {
+			de: "Das Verteidigende Pokémon schläft jetzt."
+		},
+
+		cost: ["Grass"]
+	}],
 	weaknesses: [
 		{
 			type: "Fire",

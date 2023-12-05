@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Dark Ariados",
+		de: "Dunkles Ariados"
 	},
 	illustrator: "Kyoko Koizumi",
 	rarity: "Uncommon",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Poison Breath",
+				de: "Super Poison Breath"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Poisoned.",
+				de: "Each Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -45,9 +48,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Breaking Impact",
+				de: "Breaking Impact"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage for each Colorless Energy in that Pokémon's Retreat Cost (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				de: "Choose 1 of your opponent's Pokémon. This attack does 20 damage for each  Energy in that Pokémon's Retreat Cost (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

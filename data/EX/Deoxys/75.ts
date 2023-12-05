@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Slugma",
-		fr: "Limagma"
+		fr: "Limagma",
+		de: "Schneckmag"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Ring",
-				fr: "Anneau magma"
+				fr: "Anneau magma",
+				de: "Magma Ring"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
+				de: "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 10,
 
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Intimidation"
+				fr: "Intimidation",
+				de: "Flare"
 			},
 
 			damage: 20,

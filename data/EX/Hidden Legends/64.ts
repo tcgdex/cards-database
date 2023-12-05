@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Knuckle Punch",
-				fr: "Coud'phalange"
+				fr: "Coud'phalange",
+				de: "Knuckle Punch"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Karate Chop",
-				fr: "Poing-Karaté"
+				fr: "Poing-Karaté",
+				de: "Karate Chop"
 			},
 			effect: {
 				en: "Does 30 damage minus 10 damage for each damage counter on Machop.",
-				fr: "Inflige 30 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machoc."
+				fr: "Inflige 30 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machoc.",
+				de: "Does 30 damage minus 10 damage for each damage counter on Machop."
 			},
 			damage: "30-",
 

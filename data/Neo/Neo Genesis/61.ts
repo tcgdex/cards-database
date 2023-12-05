@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Hoppip",
-		fr: "Granivol"
+		fr: "Granivol",
+		de: "Hoppspross"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hop",
-				fr: "Hop"
+				fr: "Hop",
+				de: "Hüpfer"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sprout",
-				fr: "Pousse"
+				fr: "Pousse",
+				de: "Sprössling"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Hoppip and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez un Pokémon de base nommé Granivol dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+				fr: "Cherchez un Pokémon de base nommé Granivol dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte mi dem Namen Hoppspross und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist."
 			},
 
 		},

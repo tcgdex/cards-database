@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Scyther ex",
-		fr: "Insécateur ex"
+		fr: "Insécateur ex",
+		de: "Sichlor ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
-				fr: "Hâte"
+				fr: "Hâte",
+				de: "Agility"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther ex during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Insécateur Ex."
+				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Insécateur Ex.",
+				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther ex during your opponent's next turn"
 			},
 			damage: 10,
 
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Slash"
 			},
 
 			damage: 50,

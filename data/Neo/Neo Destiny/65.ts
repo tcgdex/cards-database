@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Gastly",
-		fr: "Fantominus"
+		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	illustrator: "Aya Kusube",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Nightmare",
-				fr: "Cauchemar"
+				fr: "Cauchemar",
+				de: "Nightmare"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

@@ -4,7 +4,8 @@ import Set from '../Holon Phantoms'
 const card: Card = {
 	name: {
 		en: "Torkoal",
-		fr: "Chartor"
+		fr: "Chartor",
+		de: "Qurtel"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Grind",
-				fr: "Écrase"
+				fr: "Écrase",
+				de: "Zermahlen"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to Torkoal.",
-				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Chartor."
+				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Chartor.",
+				de: "Dieser Angriff fügt für jede an Qurtel angelegte Energie 10 Schadenspunkte zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Combustion",
-				fr: "Fournaise"
+				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 40,

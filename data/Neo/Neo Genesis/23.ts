@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Magby",
-		fr: "Magby"
+		fr: "Magby",
+		de: "Magby"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sputter",
-				fr: "Crachouilles"
+				fr: "Crachouilles",
+				de: "Stottern"
 			},
 			effect: {
 				en: "All Pokémon Powers stop working until the end of your next turn.",
-				fr: "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin de votre prochain tour."
+				fr: "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin de votre prochain tour.",
+				de: "Alle Pokémon-Power funktionieren bis zum Ende deines nächsten Zuges nicht mehr."
 			},
 			damage: 10,
 

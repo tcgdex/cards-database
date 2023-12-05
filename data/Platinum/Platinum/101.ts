@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Turtwig",
 		fr: "Tortipouss",
+		de: "Chelast"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ram"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
+				de: "Body Slam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

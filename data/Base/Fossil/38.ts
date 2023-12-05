@@ -4,7 +4,8 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Kingler",
-		fr: "Krabboss"
+		fr: "Krabboss",
+		de: "Kingler"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,13 +36,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Nageoire"
+				fr: "Nageoire",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Kingler.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Krabboss."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Krabboss.",
+				de: "Fügt 10 Schadenspunkte mal die Anzahl der Schadensmarken auf Kingler zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -52,7 +55,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Crabhammer",
-				fr: "Pince-masse"
+				fr: "Pince-masse",
+				de: "Krabbhammer"
 			},
 
 			damage: 40,

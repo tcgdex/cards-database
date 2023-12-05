@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnitude",
-				fr: "Ampleur"
+				fr: "Ampleur",
+				de: "Magnitude"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				de: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -49,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Rollout"
 			},
 
 			damage: 40,

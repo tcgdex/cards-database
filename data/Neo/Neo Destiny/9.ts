@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Dark Scizor",
-		fr: "Cizayox obscur"
+		fr: "Cizayox obscur",
+		de: "Dunkles Scherox"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Threaten",
-				fr: "Menace"
+				fr: "Menace",
+				de: "Threaten"
 			},
 			effect: {
 				en: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
-				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire. S'il a des cartes Dresseur, choisissez-en une. Votre adversaire mélange cette carte à son deck."
+				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire. S'il a des cartes Dresseur, choisissez-en une. Votre adversaire mélange cette carte à son deck.",
+				de: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck."
 			},
 
 		},
@@ -52,7 +55,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Slash"
 			},
 
 			damage: 30,

@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Chop",
-				fr: "Coup tranchant"
+				fr: "Coup tranchant",
+				de: "Chop"
 			},
 
 			damage: 10,
@@ -44,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Punch",
-				fr: "Koud'poing"
+				fr: "Koud'poing",
+				de: "Punch"
 			},
 
 			damage: 20,

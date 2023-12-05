@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Pupitar",
-		fr: "Ymphect"
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Skull Bash",
-				fr: "Coud'krane"
+				fr: "Coud'krane",
+				de: "Schädelwumme"
 			},
 
 			damage: 20,
@@ -49,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dust Devil",
-				fr: "Tempête de sable"
+				fr: "Tempête de sable",
+				de: "Sandteufel"
 			},
 			effect: {
 				en: "Does 10 damage to each non- Pokémon in play. Don't apply Weakness and Resistance.",
-				fr: "Inflige 10 dégâts à chaque Pokémon non- en jeu. N'appliquez pas la Faiblesse et la Résistance."
+				fr: "Inflige 10 dégâts à chaque Pokémon non- en jeu. N'appliquez pas la Faiblesse et la Résistance.",
+				de: "Fügt jedem Pokémon im Spiel, das nicht vom Typ  ist, 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
 			},
 
 		},

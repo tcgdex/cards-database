@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Parasect",
-		fr: "Parasect"
+		fr: "Parasect",
+		de: "Parasek"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Wild Spores",
-				fr: "Spores sauvages"
+				fr: "Spores sauvages",
+				de: "Wilde Sporen"
 			},
 			effect: {
 				en: "If Parasect evolved from Paras during this turn, this attack does 40 damage and the Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Si Parasect a évolué de Paras lors de ce tour, cette attaque inflige 40 dégâts et le Pokémon Défenseur est maintenant Endormi et Empoisonné."
+				fr: "Si Parasect a évolué de Paras lors de ce tour, cette attaque inflige 40 dégâts et le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				de: "Wenn Parasek sich in diesem Zug aus Paras entwickelt hat, fügt dieser Angriff 40 Schadenspunkte zu und das Verteidigende Pokémon schläft jetzt und ist vergiftet."
 			},
 			damage: 20,
 
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extend Fungus",
-				fr: "Champignon grandissant"
+				fr: "Champignon grandissant",
+				de: "Pilzausbreitung"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Parasect.",
-				fr: "Retirez à Parasect 2 marqueurs de dégât."
+				fr: "Retirez à Parasect 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Parasek."
 			},
 			damage: 60,
 

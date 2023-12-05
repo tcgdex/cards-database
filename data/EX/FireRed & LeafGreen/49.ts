@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Venomoth",
-		fr: "Aéromite"
+		fr: "Aéromite",
+		de: "Omot"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Protective Dust",
-				fr: "Poussière Protectrice"
+				fr: "Poussière Protectrice",
+				de: "Protective Dust"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pokémon.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Aéromite par le Pokémon Attaquant."
+				fr: "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Aéromite par le Pokémon Attaquant.",
+				de: "Prevent all effects of attacks, except damage, done to Venomoth by the Attacking Pokémon."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Poison",
-				fr: "Poison dodo"
+				fr: "Poison dodo",
+				de: "Sleep Poison"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				de: "The Defending Pokémon is now Asleep and Poisoned."
 			},
 
 		},
@@ -58,11 +63,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Wind",
-				fr: "Coupe-vent"
+				fr: "Coupe-vent",
+				de: "Razor Wind"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 60,
 

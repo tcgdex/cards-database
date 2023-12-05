@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Snorlax",
-		fr: "Ronflex"
+		fr: "Ronflex",
+		de: "Relaxo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Thick Skinned",
-				fr: "Dur à cuire"
+				fr: "Dur à cuire",
+				de: "Dickhäuter"
 			},
 			effect: {
 				en: "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.",
-				fr: "Ronflex ne peut pas devenir Endormi, Confus, Paralysé ou Empoisonné. Ce pouvoir ne peut être utilisé si Ronflex est déjà Endormi, Confus ou Paralysé."
+				fr: "Ronflex ne peut pas devenir Endormi, Confus, Paralysé ou Empoisonné. Ce pouvoir ne peut être utilisé si Ronflex est déjà Endormi, Confus ou Paralysé.",
+				de: "Relaxo kann nicht in den Schlaf versetzt, verwirrt, gelähmt oder vergiftet weden. Diese Fähigkeit kann nicht eingesetzt werden, falls Relaxo scchläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
-				fr: "Plaquage"
+				fr: "Plaquage",
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jezt gelähmt."
 			},
 			damage: 30,
 

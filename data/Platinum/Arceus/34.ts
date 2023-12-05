@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Bronzor",
+		de: "Bronzel"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Speed Dive",
+				de: "Tempohechtsprung"
 			},
 
 			damage: 10,
@@ -41,9 +43,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Extrasensory",
+				de: "Sondersensor"
 			},
 			effect: {
 				en: "If you have the same number of cards in your hand as your opponent, this attack does 30 damage plus 30 more damage.",
+				de: "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Meowth",
-		fr: "Miaouss"
+		fr: "Miaouss",
+		de: "Mauzi"
 	},
 	illustrator: "Hiroki Fuchino",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pickup Power",
-				fr: "Pouvoir ramassage"
+				fr: "Pouvoir ramassage",
+				de: "Pickup Power"
 			},
 			effect: {
 				en: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main."
+				fr: "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main.",
+				de: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 10,

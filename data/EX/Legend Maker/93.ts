@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Pikachu δ",
-		fr: "Pikachu δ ESPÈCES DELTA"
+		fr: "Pikachu δ ESPÈCES DELTA",
+		de: "Pikachu"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Wave",
-				fr: "Cage-éclair"
+				fr: "Cage-éclair",
+				de: "Donnerwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -44,13 +47,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Iron Tail",
-				fr: "Queue de fer"
+				fr: "Queue de fer",
+				de: "Eisenschweif"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf so lange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

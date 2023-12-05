@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Pidgey",
-		fr: "Roucool"
+		fr: "Roucool",
+		de: "Taubsi"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Corner",
-				fr: "Angle"
+				fr: "Angle",
+				de: "Corner"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
+				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gust",
-				fr: "Tornade"
+				fr: "Tornade",
+				de: "Gust"
 			},
 
 			damage: 20,

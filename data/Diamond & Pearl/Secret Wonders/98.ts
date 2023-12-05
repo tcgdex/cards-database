@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Phanpy",
 		fr: "Phanpy",
+		de: "Phanpy"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,12 +31,14 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Phanpy.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Phanpy.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Phanpy zu."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Phanpy does 10 damage to itself.",
 				fr: "Phanpy s'inflige 10 dégâts.",
+				de: "Phanpy fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

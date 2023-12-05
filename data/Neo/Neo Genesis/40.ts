@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Magmar",
-		fr: "Magmar"
+		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Slap",
-				fr: "Coud'keu"
+				fr: "Coud'keu",
+				de: "Schweifschlag"
 			},
 
 			damage: 20,
@@ -46,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Punch",
-				fr: "Poing magma"
+				fr: "Poing magma",
+				de: "Magmahieb"
 			},
 
 			damage: 40,

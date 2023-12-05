@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poliwag",
 		fr: "Ptitard",
+		de: "Quapsel"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Twiddle",
 				fr: "Tripoter",
+				de: "Däumchen drehen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt. Bei \"Zahl\" schläft das Verteidigende Pokémon jetzt."
 			},
 
 		},

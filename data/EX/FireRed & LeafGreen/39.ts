@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Metapod",
-		fr: "Chrysacier"
+		fr: "Chrysacier",
+		de: "Safcon"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Energy Protection",
-				fr: "Protection d'Énergie"
+				fr: "Protection d'Énergie",
+				de: "Energy Protection"
 			},
 			effect: {
 				en: "Any damage done to Metapod by attacks is reduced by 10 for each Energy card attached to Metapod. You can't reduce more than 30 damage in this way.",
-				fr: "Les dégâts infligés à Chrysacier par des attaques sont réduits de 10 pour chaque carte Énergie qui lui est attachée. Vous ne pouvez pas réduire de plus de 30 dégâts de cette façon."
+				fr: "Les dégâts infligés à Chrysacier par des attaques sont réduits de 10 pour chaque carte Énergie qui lui est attachée. Vous ne pouvez pas réduire de plus de 30 dégâts de cette façon.",
+				de: "Any damage done to Metapod by attacks is reduced by 10 for each Energy attached to Metapod. You can't reduce more than 30 damage in this way."
 			},
 		},
 	],
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Sharpen",
-				fr: "Affûtage"
+				fr: "Affûtage",
+				de: "Sharpen"
 			},
 
 			damage: 20,

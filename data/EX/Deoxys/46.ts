@@ -4,7 +4,8 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Silcoon",
-		fr: "Armulys"
+		fr: "Armulys",
+		de: "Schaloko"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ram"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Advanced Armor",
-				fr: "Super armure"
+				fr: "Super armure",
+				de: "Advanced Armor"
 			},
 			effect: {
 				en: "During your opponent's next turn, prevent all effects of attacks, including damage, done to Silcoon by your opponent's Evolved Pokémon.",
-				fr: "Lors du prochain tour de votre adversaire, prévenez tous les effets d'attaque, dégâts inclus, infligés à Armulys par le Pokémon Évolué de votre adversaire."
+				fr: "Lors du prochain tour de votre adversaire, prévenez tous les effets d'attaque, dégâts inclus, infligés à Armulys par le Pokémon Évolué de votre adversaire.",
+				de: "During your opponent's next turn, prevent all effects of attacks, including damage, done to Silcoon by your opponent's Evolved Pokémon."
 			},
 
 		},

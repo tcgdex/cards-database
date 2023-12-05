@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti"
+		fr: "Magneti",
+		de: "Magnetilo"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Wave",
-				fr: "Cage-Éclair"
+				fr: "Cage-Éclair",
+				de: "Donnerwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt."
 			},
 			damage: 10,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Selfdestruct",
-				fr: "Destruction"
+				fr: "Destruction",
+				de: "Finale"
 			},
 			effect: {
 				en: "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself.",
-				fr: "Inflige 10 dégâts à chaque Pokémon sur le Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.) Magneti s'inflige 40 dégâts."
+				fr: "Inflige 10 dégâts à chaque Pokémon sur le Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.) Magneti s'inflige 40 dégâts.",
+				de: "Fügt jedem Pokémon auf der Bank eines jeden Spielers 10 Schadenspunkte zu. (Schwäche und resistenz für Pokémon auf der Bank nicht anwenden!) Magnetilo fügt isch selbst 40 Schadenspunkte zu."
 			},
 			damage: 40,
 

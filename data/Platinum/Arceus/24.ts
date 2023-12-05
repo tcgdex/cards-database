@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Pelipper",
+		de: "Pelipper"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Rare",
@@ -31,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Pulse",
+				de: "Aquawelle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -47,9 +50,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Continuous Crush",
+				de: "Dauerzermalmer"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
+				de: "Wirf solange 1 Münze bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" eine an das Verteidigende Pokémon angelegt Energiekarte auf den Ablagestapel deines Gegners."
 			},
 			damage: 70,
 

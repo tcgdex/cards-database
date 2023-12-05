@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Sunflora",
-		fr: "Heliatronc"
+		fr: "Heliatronc",
+		de: "Sonnflora"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -37,13 +38,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Petal Dance",
-				fr: "Danse-fleur"
+				fr: "Danse-fleur",
+				de: "Blättertanz"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage).",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Heliatronc est maintenant Confus (après application des dégâts)."
+				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Heliatronc est maintenant Confus (après application des dégâts).",
+				de: "Wirf drei Münzen. Dieser Angriff fügt 30 Schdenspunkte mal der Anzahl 'Kopf' zu. Sonnflora ist jetzt verwirrt (nach der Schadensverteilung)."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 	],

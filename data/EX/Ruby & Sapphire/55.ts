@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Goldeen",
-		fr: "Poissirène"
+		fr: "Poissirène",
+		de: "Goldini"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fléau"
+				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage for each damage counter on Goldeen.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueur de dégât sur Poissirène."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueur de dégât sur Poissirène.",
+				de: "Dieser Angriff fügt für jede Schadensmarke auf Goldini 10 Schadenspunkte zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

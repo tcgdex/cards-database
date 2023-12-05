@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Zapdos",
-		fr: "Électhor"
+		fr: "Électhor",
+		de: "Zapdos"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder",
-				fr: "Tonnerre"
+				fr: "Tonnerre",
+				de: "Donner"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Zapdos does 30 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Électhor s'inflige 30 dégâts."
+				fr: "Lancez une pièce. Si c'est pile, Électhor s'inflige 30 dégâts.",
+				de: "Wirf eine Münze. Bei Zahl fügt sich Zapdos selbst 30 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
-				fr: "Fatal-Foudre"
+				fr: "Fatal-Foudre",
+				de: "Donnerblitz"
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Zapdos in order to use this attack.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Électhor pour pouvoir utiliser cette attaque."
+				fr: "Défaussez toutes les cartes Énergie attachées à Électhor pour pouvoir utiliser cette attaque.",
+				de: "Entferne alle auf Zapdos abgelegten Energiekarten, um diesen Angriff auszuführen."
 			},
 			damage: 100,
 

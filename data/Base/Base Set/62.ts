@@ -4,7 +4,8 @@ import Set from '../Base Set'
 const card: Card = {
 	name: {
 		en: "Sandshrew",
-		fr: "Sabelette"
+		fr: "Sabelette",
+		de: "Sandan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand-attack",
-				fr: "Jet de Sable"
+				fr: "Jet de Sable",
+				de: "Sandwirbel"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet."
+				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet.",
+				de: "Falls das verteidigende Pokémon während des nächsten gegnerischen Zugs anzugreifen versucht, wirft Dein Gegner eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung."
 			},
 			damage: 10,
 

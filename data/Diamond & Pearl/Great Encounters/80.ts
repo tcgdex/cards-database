@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mudkip",
 		fr: "Gobou",
+		de: "Hydropi"
 	},
 	illustrator: "Emi Yoshida",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Mud Spatter",
 				fr: "Éclaboussure de boue",
+				de: "Lehmspritzer"
 			},
 
 			damage: 10,
@@ -44,12 +46,14 @@ const card: Card = {
 			name: {
 				en: "Endeavor",
 				fr: "Effort",
+				de: "Notsituation"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

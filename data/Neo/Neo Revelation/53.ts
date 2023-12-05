@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Slugma",
-		fr: "Limagma"
+		fr: "Limagma",
+		de: "Schneckmag"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Flare",
-				fr: "Souffle-feu"
+				fr: "Souffle-feu",
+				de: "Flackern"
 			},
 
 			damage: 10,
@@ -44,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magma Ring",
-				fr: "Anneau magma"
+				fr: "Anneau magma",
+				de: "Magmaring"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				de: "Das verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 

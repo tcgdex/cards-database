@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Turtwig",
 		fr: "Tortipouss",
+		de: "Chelast"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -21,6 +22,16 @@ const card: Card = {
 
 	stage: "Basic",
 
+	item: {
+		name: {
+			fr: "Baie Kika",
+			de: 'Persimbeere'
+		},
+		effect: {
+			fr: "Si Tortipouss est Confus, retirez-lui l'État Spécial Confus à la fin du tour de chaque joueur.",
+			de: 'Wenn Chelast verwirrt ist, entferne am Ende jedes Zuges den Speziellen Zustand \'verwirrt\' von Chelast.'
+		}
+	},
 
 	attacks: [
 		{
@@ -30,26 +41,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Baie Kika",
-			},
-			effect: {
-				fr: "Si Tortipouss est Confus, retirez-lui l'État Spécial Confus à la fin du tour de chaque joueur.",
-			},
-			damage: 30,
-
-		},
-		{
-			cost: [
-				"Grass",
-				"Colorless",
-			],
-			name: {
 				fr: "Morsure",
+				de: 'Biss'
 			},
-
 			damage: 30,
 
-		},
+		}
 	],
 	weaknesses: [
 		{

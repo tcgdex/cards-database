@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sandshrew",
 		fr: "Sabelette",
+		de: "Sandan"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,

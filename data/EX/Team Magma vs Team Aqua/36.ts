@@ -4,7 +4,8 @@ import Set from '../Team Magma vs Team Aqua'
 const card: Card = {
 	name: {
 		en: "Team Magma's Lairon",
-		fr: "Galegon de Team Magma"
+		fr: "Galegon de Team Magma",
+		de: "Team Magmas Stollrak"
 	},
 	illustrator: "Hiromichi Sugiyama",
 	rarity: "Uncommon",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
-				fr: "Ronge"
+				fr: "Ronge",
+				de: "Gnaw"
 			},
 
 			damage: 20,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Land Sonic",
-				fr: "Terre sonique"
+				fr: "Terre sonique",
+				de: "Land Sonic"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Confus."
+				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Confus.",
+				de: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused."
 			},
 			damage: 40,
 

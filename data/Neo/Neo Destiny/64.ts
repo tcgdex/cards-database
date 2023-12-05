@@ -4,7 +4,8 @@ import Set from '../Neo Destiny'
 const card: Card = {
 	name: {
 		en: "Exeggcute",
-		fr: "Nœufnœuf"
+		fr: "Nœufnœuf",
+		de: "Owei"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Power",
-				fr: "Poudre dodo"
+				fr: "Poudre dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psyshock",
-				fr: "Choc psy"
+				fr: "Choc psy",
+				de: "Psyschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

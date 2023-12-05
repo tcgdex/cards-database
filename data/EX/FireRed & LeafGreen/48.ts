@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Raticate",
-		fr: "Rattatac"
+		fr: "Rattatac",
+		de: "Rattikarl"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Thick Skin",
-				fr: "Dur à cuire"
+				fr: "Dur à cuire",
+				de: "Dicke Haut"
 			},
 			effect: {
 				en: "Raticate can't be affected by any Special Conditions.",
-				fr: "Rattatac ne peut pas être affecté par des États Spéciaux."
+				fr: "Rattatac ne peut pas être affecté par des États Spéciaux.",
+				de: "Rattikarl kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Pickup",
-				fr: "Ramassage"
+				fr: "Ramassage",
+				de: "Aufsammeln"
 			},
 			effect: {
 				en: "Search your discard pile for a Basic Pokémon (or Evolution card), a Trainer card, and an Energy card. Show them to your opponent and put them into your hand.",
-				fr: "Cherchez dans votre pile de défausse un Pokémon de base (ou une carte Évolution), une carte Dresseur et une carte Énergie. Montrez-les à votre adversaire et placez-les dans votre main."
+				fr: "Cherchez dans votre pile de défausse un Pokémon de base (ou une carte Évolution), une carte Dresseur et une carte Énergie. Montrez-les à votre adversaire et placez-les dans votre main.",
+				de: "Durchsuche deinen Ablagestapel nach einem Basis-Pokémon (oder einer Evolutionskarte), einer Trainerkarte und einer Energiekarte. Zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -57,11 +62,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 40 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 40 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

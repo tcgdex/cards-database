@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Poliwhirl",
-		fr: "Tetarte"
+		fr: "Tetarte",
+		de: "Quaputzi"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Energy Ball",
-				fr: "Boule d'énergie"
+				fr: "Boule d'énergie",
+				de: "Energy Ball"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Tetarte qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Tetarte qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				de: "Does 30 damage plus 10 more damage for each Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "30+",
 

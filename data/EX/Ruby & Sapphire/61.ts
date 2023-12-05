@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Numel",
-		fr: "Chamallot"
+		fr: "Chamallot",
+		de: "Camaub"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'boule"
+				fr: "Coup d'boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Burn Off",
-				fr: "Crâmer"
+				fr: "Crâmer",
+				de: "Abbrennen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Brûlé."
+				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Brûlé.",
+				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verbrannt."
 			},
 
 		},

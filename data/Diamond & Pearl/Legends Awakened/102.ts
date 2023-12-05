@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Horsea",
 		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Smokescreen",
 				fr: "Brouillard",
+				de: "Smogwolke"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Reverse Thrust",
 				fr: "Poussée inverse",
+				de: "Umkehrschub"
 			},
 			effect: {
 				en: "Switch Horsea with 1 of your Benched Pokémon.",
 				fr: "Échangez Hypotrempe avec 1 des Pokémon de votre Banc.",
+				de: "Tausche Seeper gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 

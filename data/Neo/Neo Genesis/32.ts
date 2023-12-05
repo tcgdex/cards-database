@@ -4,7 +4,8 @@ import Set from '../Neo Genesis'
 const card: Card = {
 	name: {
 		en: "Croconaw",
-		fr: "Crocrodil"
+		fr: "Crocrodil",
+		de: "Tyracroc"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -50,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sweep Away",
-				fr: "Nettoyage"
+				fr: "Nettoyage",
+				de: "Wegfegen"
 			},
 			effect: {
 				en: "Discard the top 3 cards from your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck"
+				fr: "Défaussez les 3 cartes du dessus de votre deck",
+				de: "Lege die obersten drei Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 50,
 

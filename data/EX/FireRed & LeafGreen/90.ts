@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Energy Switch",
-		fr: "Échange d'Énergie"
+		fr: "Échange d'Énergie",
+		de: "Energie-Umschalter"
 	},
 
 	illustrator: "Ken Ikuji",
@@ -14,7 +15,8 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "Déplacez une carte Énergie de base d'1 de vos Pokémon à 1 autre de vos Pokémon."
+		fr: "Déplacez une carte Énergie de base d'1 de vos Pokémon à 1 autre de vos Pokémon.",
+		de: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon."
 	}
 }
 

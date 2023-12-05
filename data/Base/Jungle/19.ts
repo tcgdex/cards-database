@@ -4,7 +4,8 @@ import Set from '../Jungle'
 const card: Card = {
 	name: {
 		en: "Flareon",
-		fr: "Pyroli"
+		fr: "Pyroli",
+		de: "Flamara"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -36,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei \"Zahl\" fügt dieser Angriff 10 Schaden zu."
 			},
 			damage: "10+",
 
@@ -54,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Flamethrower",
-				fr: "Lance-flammes"
+				fr: "Lance-flammes",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Flareon in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Pyroli pour pouvoir utiliser cette attaque."
+				fr: "Défaussez 1 carte Énergie  attachée à Pyroli pour pouvoir utiliser cette attaque.",
+				de: "Entferne eine auf Flamara abgelegte -Energiekarte, um diesen Angriff auszuführen."
 			},
 			damage: 60,
 

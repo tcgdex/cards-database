@@ -4,7 +4,8 @@ import Set from '../FireRed & LeafGreen'
 const card: Card = {
 	name: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Floating Electrons",
-				fr: "Électrons flottants"
+				fr: "Électrons flottants",
+				de: "Schwebende Elektronen"
 			},
 			effect: {
 				en: "As long as Voltorb has any Energy attached to it, Voltorb's Retreat Cost is 0.",
-				fr: "Tant que Voltorbe possède des Énergies, son Coût de Retraite est de 0."
+				fr: "Tant que Voltorbe possède des Énergies, son Coût de Retraite est de 0.",
+				de: "Wenn mindestens 1 Eneregie an Voltobal angelegt ist, hat Voltobal Rückzugskosten 0."
 			},
 		},
 	],
@@ -42,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thundershock",
-				fr: "Éclair"
+				fr: "Éclair",
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

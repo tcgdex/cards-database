@@ -4,7 +4,8 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Bagon",
-		fr: "Draby"
+		fr: "Draby",
+		de: "Kindwurm"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Risky Kick",
-				fr: "Coup de pied risqué"
+				fr: "Coup de pied risqué",
+				de: "Risky Kick"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 10,
 
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Eye",
-				fr: "Oeil de dragon"
+				fr: "Oeil de dragon",
+				de: "Dragon Eye"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 

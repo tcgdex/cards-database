@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Blaziken",
-		fr: "Brasegali"
+		fr: "Brasegali",
+		de: "Lohgock"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Firestarter",
-				fr: "Pyroteknik"
+				fr: "Pyroteknik",
+				de: "Firestarter"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Blaziken is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une Carte Énergie  de votre pile de défausse à un des Pokémon de votre Banc. Ce pouvoir ne peut être utilisé si Brasegali est affecté par un État Spécial."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une Carte Énergie  de votre pile de défausse à un des Pokémon de votre Banc. Ce pouvoir ne peut être utilisé si Brasegali est affecté par un État Spécial.",
+				de: "Once during your turn (before your attack), you may attach a  Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Blaziken is affected by a Special Condition."
 			},
 		},
 	],
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fire Stream",
-				fr: "Courant de feu"
+				fr: "Courant de feu",
+				de: "Fire Stream"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Vous pouvez défausser une Carte Énergie  attachée à Brasegali. Cette attaque inflige alors 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+				fr: "Vous pouvez défausser une Carte Énergie  attachée à Brasegali. Cette attaque inflige alors 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				de: "Discard a  Energy card attached to Blaziken. If you do, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 50,
 

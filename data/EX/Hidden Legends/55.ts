@@ -4,7 +4,8 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Chikorita",
-		fr: "Germignon"
+		fr: "Germignon",
+		de: "Endivie"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -46,11 +47,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Poudre toxik"
+			fr: "Poudre toxik",
+			de: "Poisonpowder"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+			de: "Flip a coin. If heads, the defending Pokémon is now Poisoned."
 		}
 	}]
 }

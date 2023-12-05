@@ -4,7 +4,8 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Dragonair δ",
-		fr: "Draco δ ESPÈCES DELTA"
+		fr: "Draco δ ESPÈCES DELTA",
+		de: "Dragonir"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -27,16 +28,18 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Lightning",
 				"Colorless",
+				"Lightning",
 			],
 			name: {
 				en: "Twister",
-				fr: "Ouragan"
+				fr: "Ouragan",
+				de: "Twister"
 			},
 			effect: {
 				en: "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Si ce sont deux piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur."
+				fr: "Lancez 2 pièces. Si ce sont deux piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon."
 			},
 			damage: 20,
 

@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Magmar ex",
-		fr: "Magmar ex"
+		fr: "Magmar ex",
+		de: "Magmar ex"
 	},
 	illustrator: "Hikaru Koike",
 	rarity: "Rare",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Smokescreen",
-				fr: "Brouillard"
+				fr: "Brouillard",
+				de: "Smokescreen"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet."
+				fr: "Si le Pokémon Défenseur essaye d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet.",
+				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 10,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Singe",
-				fr: "Ça sent le roussi !"
+				fr: "Ça sent le roussi !",
+				de: "Super Singe"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "The Defending Pokémon is now Burned."
 			},
 			damage: 40,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos Niv. 26",
+		de: "Fukano"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Stoke",
 				fr: "Crémation",
+				de: "Anheizen"
 			},
 			effect: {
 				en: "Search your deck for a Fire Energy card and attach it to Growlithe. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Énergie Fire et attachez-la à Caninos. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an Fukano an. Mische dein Deck danach."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Growlithe does 10 damage to itself.",
 				fr: "Caninos s'inflige 10 dégâts.",
+				de: "Fukano fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 

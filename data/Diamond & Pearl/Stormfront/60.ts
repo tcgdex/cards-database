@@ -4,7 +4,8 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skélénox"
+		fr: "Skélénox",
+		de: "Zwirrlicht"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -36,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Surprise Attack",
 				fr: "Attaque surprise",
+				de: "Überraschungsangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 

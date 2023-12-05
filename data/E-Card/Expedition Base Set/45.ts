@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Fearow",
-		fr: "Rapasdepic"
+		fr: "Rapasdepic",
+		de: "Ibitak"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Clutch",
-				fr: "Serre"
+				fr: "Serre",
+				de: "Greifer"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during you opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -50,12 +53,14 @@ const card: Card = {
 
 			name: {
 				en: "Supersonic Flight",
-				fr: "Vol supersonique"
+				fr: "Vol supersonique",
+				de: "Superschallflug"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 50

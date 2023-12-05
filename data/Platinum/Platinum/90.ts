@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Remoraid",
 		fr: "Remoraid",
+		de: "Remoraid"
 	},
 	illustrator: "Miki Tanaka",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Splash",
 				fr: "Trempette",
+				de: "Splash"
 			},
 
 			damage: 10,
@@ -43,12 +45,14 @@ const card: Card = {
 			name: {
 				en: "Trickle",
 				fr: "Goutte à goutte",
+				de: "Trickle"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],

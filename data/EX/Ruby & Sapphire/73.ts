@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Torchic",
-		fr: "Poussifeu"
+		fr: "Poussifeu",
+		de: "Flemmli"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fireworks",
-				fr: "Feu d'artifice"
+				fr: "Feu d'artifice",
+				de: "Feuerwerk"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Poussifeu."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Poussifeu.",
+				de: "Wirf eine Münze. Entferne bei \"Zahl\" eine -Energiekarte von Flemmli."
 			},
 			damage: 30,
 

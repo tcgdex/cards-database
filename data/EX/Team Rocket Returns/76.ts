@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Slowpoke",
+		de: "Flegmon"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dense",
+				de: "Dense"
 			},
 			effect: {
 				en: "Any damage done to Slowpoke by attacks from your opponent's Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance).",
+				de: "Any damage done to Slowpoke by attacks from your opponent's Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -38,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
+				de: "Bite"
 			},
 
 			damage: 10,

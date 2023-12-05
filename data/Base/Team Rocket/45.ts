@@ -4,7 +4,8 @@ import Set from '../Team Rocket'
 const card: Card = {
 	name: {
 		en: "Dark Vaporeon",
-		fr: "Aquali obscur"
+		fr: "Aquali obscur",
+		de: "Dunkles Aquana"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -37,7 +38,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Bite"
 			},
 
 			damage: 30,
@@ -51,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlpool",
-				fr: "Tourbillon"
+				fr: "Tourbillon",
+				de: "Whirlpool"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
-				fr: "Si le Pokémon Défenseur a au moins 1 carte Énergie attachée à lui, choisissez l'une d'elle et défaussez-la."
+				fr: "Si le Pokémon Défenseur a au moins 1 carte Énergie attachée à lui, choisissez l'une d'elle et défaussez-la.",
+				de: "If the Defending Pokémon has any Energy attached to it, choose 1 of them and discard it."
 			},
 			damage: 20,
 

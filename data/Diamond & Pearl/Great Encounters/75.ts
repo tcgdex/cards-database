@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Krabby",
 		fr: "Krabby",
+		de: "Krabby"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Irongrip",
 				fr: "Force Poigne",
+				de: "Eiserner Griff"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Guillotine",
 				fr: "Guillotine",
+				de: "Guillotine"
 			},
 
 			damage: 30,

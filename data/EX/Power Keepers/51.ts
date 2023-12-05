@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Kabuto",
-		fr: "Kabuto"
+		fr: "Kabuto",
+		de: "Kabuto"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fast Evolution",
-				fr: "Évolution fulgurante"
+				fr: "Évolution fulgurante",
+				de: "Schnelle Evolution"
 			},
 			effect: {
 				en: "Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Évolution, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+				fr: "Choisissez dans votre deck une carte Évolution, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -46,13 +49,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Double Scratch",
-				fr: "Double écorchure"
+				fr: "Double écorchure",
+				de: "Doppelkratzer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

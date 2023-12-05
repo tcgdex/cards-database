@@ -4,7 +4,8 @@ import Set from '../Expedition Base Set'
 const card: Card = {
 	name: {
 		en: "Meganium",
-		fr: "Meganium"
+		fr: "Meganium",
+		de: "Meganie"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
-				fr: "Poudre dodo"
+				fr: "Poudre dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -48,7 +51,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Solarbeam",
-				fr: "Lance-soleil"
+				fr: "Lance-soleil",
+				de: "Solarstrahl"
 			},
 
 			damage: 50,

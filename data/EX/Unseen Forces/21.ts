@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Cleffa",
-		fr: "Melo"
+		fr: "Melo",
+		de: "Pii"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Baby Evolution",
-				fr: "Évolution bébé"
+				fr: "Évolution bébé",
+				de: "Baby Evolution"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may put Clefairy from your hand onto Cleffa (this counts as evolving Cleffa) and remove all damage counters from Cleffa.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Melofée de votre main sur Melo (vous faites ainsi évoluer Melo) et retirer à Melo tous ses marqueurs de dégât."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Melofée de votre main sur Melo (vous faites ainsi évoluer Melo) et retirer à Melo tous ses marqueurs de dégât.",
+				de: "Once during your turn (before your attack), you may put Clefairy from your hand onto Cleffa (this counts as evolving Cleffa) and remove all damage counters from Cleffa."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Eeeeeeek",
-				fr: "Arheuuuuu"
+				fr: "Arheuuuuu",
+				de: "Eeeeeeek"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck, then draw 6 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes."
+				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+				de: "Shuffle your hand into your deck, then draw 6 cards."
 			},
 
 		},

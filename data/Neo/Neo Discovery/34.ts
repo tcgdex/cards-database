@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Ursaring",
-		fr: "Ursaring"
+		fr: "Ursaring",
+		de: "Ursaring"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -37,12 +38,14 @@ const card: Card = {
 
 			name: {
 				en: "Headpress",
-				fr: "Press'tête"
+				fr: "Press'tête",
+				de: "Headpress"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé. Si c'est pile, cette attaque ne fait rien (pas même de dégâts)."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack dois nothing (not even damage)."
 			},
 
 			damage: 20
@@ -57,15 +60,17 @@ const card: Card = {
 
 			name: {
 				en: "Double Lariat",
-				fr: "Double lasso"
+				fr: "Double lasso",
+				de: "Double Lariat"
 			},
 
 			effect: {
 				en: "Flip 2 coins. This attack does 40 times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				de: "Flip 2 coins. This attack does 40 damage times the number of heads."
 			},
 
-			damage: "40×"
+			damage: "40x"
 		},
 	],
 

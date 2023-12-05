@@ -4,7 +4,8 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Blissey",
-		fr: "Leuphorie"
+		fr: "Leuphorie",
+		de: "Heiteira"
 	},
 
 	illustrator: "Yuka Morii",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Pokemon Power",
 			name: {
 				en: "Softboiled",
-				fr: "Œuf-coque"
+				fr: "Œuf-coque",
+				de: "Softboiled"
 			},
 			effect: {
 				en: "When you play Blissey from your hand, you may flip a coin. If heads, remove 8 damage counters from Blissey. If tails, remove 4 damage counters from Blissey. Either way, if Blissey has fewer damage counters than that, remove all of them.",
-				fr: "Lorsque vous jouez Leuphorie depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez 8 marqueurs de dégâts sur Leuphorie. Si c'est pile, retirez-en 4. Dans les deux cas, si le nombre de marqueurs de dégâts sur Leuphorie est inférieur au nombre demandé, retirez-les tous."
+				fr: "Lorsque vous jouez Leuphorie depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez 8 marqueurs de dégâts sur Leuphorie. Si c'est pile, retirez-en 4. Dans les deux cas, si le nombre de marqueurs de dégâts sur Leuphorie est inférieur au nombre demandé, retirez-les tous.",
+				de: "When you play Blissey from your hand, you may flip a coin. If heads, remove 8 damage counters from Blissey. If tails, remove 4 damage counters from Blissey. Either way, if Blissey has fewer damage counters than that, remove all of them."
 			},
 		},
 	],
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
-				fr: "Plaquage"
+				fr: "Plaquage",
+				de: "Body Slam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 

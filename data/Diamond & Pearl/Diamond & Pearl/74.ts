@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chatot",
 		fr: "Pijako",
+		de: "Plaudagei"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Me First",
 				fr: "Moi d'Abord",
+				de: "Egotrip"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Tone-Deaf",
 				fr: "Dur d'oreille",
+				de: "Unmusikalisch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 

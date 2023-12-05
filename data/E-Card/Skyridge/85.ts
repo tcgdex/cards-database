@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Pineco",
+		de: "Tannza"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -26,13 +27,18 @@ const card: Card = {
 			cost: [
 				"Colorless",
 			],
+
 			name: {
 				en: "Surprise Attack",
-			},
-			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Überraschungsangriff"
 			},
 
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+			},
+
+			damage: 20
 		},
 	],
 	weaknesses: [

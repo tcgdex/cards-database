@@ -4,7 +4,8 @@ import Set from '../Neo Discovery'
 const card: Card = {
 	name: {
 		en: "Sentret",
-		fr: "Fouinette"
+		fr: "Fouinette",
+		de: "Wiesor"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Scout",
-				fr: "Espion"
+				fr: "Espion",
+				de: "Späher"
 			},
 			effect: {
 				en: "Look at your opponent's hand.",
-				fr: "Regardez la main de votre adversaire."
+				fr: "Regardez la main de votre adversaire.",
+				de: "Schau dir die Karten auf der Hand deines gegners an."
 			},
 
 		},
@@ -46,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

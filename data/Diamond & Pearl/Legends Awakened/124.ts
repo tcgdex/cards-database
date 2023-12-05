@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Taillow",
 		fr: "Nirondelle",
+		de: "Schwalbini"
 	},
 	illustrator: "Takao Unno",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Focus Energy",
 				fr: "Puissance",
+				de: "Energiefokus"
 			},
 			effect: {
 				en: "During your next turn, Taillow's Peck attack's base damage is 30.",
 				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Picpic de Nirondelle sont de 30.",
+				de: "In deinem nächsten Zug beträgt der Grundschaden von Schwalbinis Angriff Schnabel 30 Schadenspunkte."
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,

@@ -4,7 +4,8 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Primeape",
-		fr: "Colossinge"
+		fr: "Colossinge",
+		de: "Rasaff"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
@@ -33,12 +34,14 @@ const card: Card = {
 
 			name: {
 				en: "Karate Chop",
-				fr: "Poing-Karaté"
+				fr: "Poing-Karaté",
+				de: "Karate Chop"
 			},
 
 			effect: {
 				en: "Damage from this attack is reduced by 10 for each damage counter on Primeape.",
-				fr: "Les dégâts de cette attaque sont réduits de 10 pour chaque marqueur de dégâts sur Colossinge."
+				fr: "Les dégâts de cette attaque sont réduits de 10 pour chaque marqueur de dégâts sur Colossinge.",
+				de: "Damage from this attack is reduced by 10 for each damage counter on Primeape."
 			},
 
 			damage: "40-"
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sudden Charge",
-				fr: "Charge soudaine"
+				fr: "Charge soudaine",
+				de: "Sudden Charge"
 			},
 			effect: {
 				en: "Primeape does 10 damage to itself. Then, switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
-				fr: "Colossinge s'inflige 30 dégâts. Ensuite, votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc, s'il en a."
+				fr: "Colossinge s'inflige 30 dégâts. Ensuite, votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc, s'il en a.",
+				de: "Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
 			},
 			damage: 40,
 

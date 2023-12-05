@@ -4,7 +4,8 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Metang",
-		fr: "Metang"
+		fr: "Metang",
+		de: "Metang"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Clear Body",
-				fr: "Corps sain"
+				fr: "Corps sain",
+				de: "Neutraltorso"
 			},
 			effect: {
 				en: "Metang can't be affected by any Special Conditions.",
-				fr: "Metang ne peut pas être affecté par des États Spéciaux."
+				fr: "Metang ne peut pas être affecté par des États Spéciaux.",
+				de: "Metang kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Comet Punch",
-				fr: "Poing météore"
+				fr: "Poing météore",
+				de: "Extra Kometenhieb"
 			},
 			effect: {
 				en: "During your next turn, Extra Comet Punch does 30 damage plus 30 more damage.",
-				fr: "Lors de votre prochain tour, Poing météore inflige 30 dégâts plus 30 dégâts supplémentaires."
+				fr: "Lors de votre prochain tour, Poing météore inflige 30 dégâts plus 30 dégâts supplémentaires.",
+				de: "In deinem nächsten Zug fügt der Extra Kometenhieb 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

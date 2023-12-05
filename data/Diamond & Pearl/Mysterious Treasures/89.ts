@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -31,13 +32,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fléau"
+				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Magikarp.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Magicarpe."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Magicarpe.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Karpador zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Rage",
-				fr: "Draco-rage"
+				fr: "Draco-rage",
+				de: "Drachenwut"
 			},
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez une pile, cette attaque est sans effet."
+				fr: "Lancez 2 pièces. Si vous obtenez une pile, cette attaque est sans effet.",
+				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen 'Zahl' gezeigt haben, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 

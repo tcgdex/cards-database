@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Salamence LV. X",
+		de: "Brutalanda"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
@@ -25,9 +26,11 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Double Fall",
+				de: "Doppelpreis"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), when you put Salamence LV.X from your hand onto your Active Salamence, you may use this power. For each of your opponent's Pokémon that is Knocked Out by damage from Salamence's attacks this turn, take 1 more Prize card.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Brutalanda LV.X auf dein Aktives Brutalanda legst, diese Poké-Power benutzen. Nimm für jedes Pokémon deines Gegners, das in diesem Zug durch Schaden von Brutalandas Angriffen kampfunfähig wird, 1 zusätzlichen Preis."
 			},
 		},
 	],
@@ -41,9 +44,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Steam Blast",
+				de: "Dampfstrahl"
 			},
 			effect: {
 				en: "Discard an Energy card attached to Salamence.",
+				de: "Entferne 1 an Brutalanda angelegte Energiekarte und lege sie auf deinen Ablagestapel."
 			},
 			damage: 100,
 

@@ -4,7 +4,8 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Pelipper",
-		fr: "Bekipan"
+		fr: "Bekipan",
+		de: "Pelipper"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Water Gun",
-				fr: "Pistolet à O"
+				fr: "Pistolet à O",
+				de: "Water Gun"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Water Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Bekipan qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+				fr: "Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Bekipan qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				de: "This attack does 30 damage plus 10 more damage for each  Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "30+",
 
