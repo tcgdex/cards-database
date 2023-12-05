@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Mudkip",
-		fr: "Gobou"
+		fr: "Gobou",
+		de: "Hydropi"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'face"
+				fr: "Écras'face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -42,13 +44,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
-				fr: "Combo-griffe"
+				fr: "Combo-griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez trois pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face."
+				fr: "Lancez trois pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Makuhita",
-		fr: "Makuhita"
+		fr: "Makuhita",
+		de: "Makuhita"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fling",
-				fr: "Lancer"
+				fr: "Lancer",
+				de: "Fling"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc."
+				fr: "Votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc.",
+				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
-				fr: "Balayage"
+				fr: "Balayage",
+				de: "Low Kick"
 			},
 
 			damage: 30,

@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dazzle Dance",
-				fr: "Danse éblouissante"
+				fr: "Danse éblouissante",
+				de: "Verwirrender Tanz"
 			},
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -45,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Life Drain",
-				fr: "Perte d'énergie"
+				fr: "Perte d'énergie",
+				de: "Lebensentzug"
 			},
 			effect: {
 				en: "Flip a coin. If heads, put damage counters on the Defending Pokémon until it is 10 HP away from being Knocked Out.",
-				fr: "Lancez une pièce. Si c'est face, placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne lui reste plus que 10 PV."
+				fr: "Lancez une pièce. Si c'est face, placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne lui reste plus que 10 PV.",
+				de: "Wirf eine Münze. Bei 'Kopf' legst du so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 10 Schadenspunkte davon entfernt ist, kampfunfähig zu werden."
 			},
 
 		},

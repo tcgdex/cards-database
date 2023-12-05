@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Taillow",
-		fr: "Nirondelle"
+		fr: "Nirondelle",
+		de: "Schwalbini"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
-				fr: "Cru-aile"
+				fr: "Cru-aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 20,

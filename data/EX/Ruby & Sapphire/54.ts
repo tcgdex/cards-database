@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		de: "Smogon"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Austeiler"
 			},
 			effect: {
 				en: "Koffing does 10 damage to itself.",
-				fr: "Smogo s'inflige 10 dégâts."
+				fr: "Smogo s'inflige 10 dégâts.",
+				de: "Smogon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

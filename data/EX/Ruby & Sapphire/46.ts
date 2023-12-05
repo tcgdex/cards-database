@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Swellow",
-		fr: "Heledelle"
+		fr: "Heledelle",
+		de: "Schwalboss"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Drive Off",
-				fr: "Déroute"
+				fr: "Déroute",
+				de: "Wegtreiben"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Swellow is your Active Pokémon, you may switch 1 of the Defending Pokémon with 1 of your opponent's Benched Pokémon. Your opponent picks the Benched Pokémon to switch. This power can't be used if Swellow is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), et si Heledelle est votre Pokémon Actif, vous pouvez échanger un des Pokémon Défenseur par un des Pokémon du Banc de votre adversaire. Votre adversaire peut choisir quel Pokémon de son Banc sera le remplaçant. Ce pouvoir ne peut être utilisé si Heledelle est affecté par un État Spécial."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), et si Heledelle est votre Pokémon Actif, vous pouvez échanger un des Pokémon Défenseur par un des Pokémon du Banc de votre adversaire. Votre adversaire peut choisir quel Pokémon de son Banc sera le remplaçant. Ce pouvoir ne peut être utilisé si Heledelle est affecté par un État Spécial.",
+				de: "Einmal in deinem Zug (vor deinem Angriff), wenn Schwalboss dein Aktives Pokémon ist, kannst du 1 Verteidigendes Pokémon mit einem gegnerischen Pokémon (dieses wählt dein Gegner aus) auf der Bank austauschen. Diese Poké-Power kann nicht verwendet werden, falls Schwalboss von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
-				fr: "Cru-aile"
+				fr: "Cru-aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 30,

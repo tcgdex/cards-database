@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Lairon",
-		fr: "Galegon"
+		fr: "Galegon",
+		de: "Stollrak"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnitude",
-				fr: "Ampleur"
+				fr: "Ampleur",
+				de: "Intensität"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
+				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				de: "Fügt allen Pokémon auf der Bank 10 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "One-Two Strike",
-				fr: "En deux coups"
+				fr: "En deux coups",
+				de: "Links-Rechts-Kombo"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face."
+				fr: "Lancez deux pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte für jede Münze, die das Ergebnis 'Kopf' zeigt, zu."
 			},
 			damage: "30+",
 

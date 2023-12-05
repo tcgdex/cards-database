@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Vigoroth",
-		fr: "Vigoroth"
+		fr: "Vigoroth",
+		de: "Muntier"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -32,13 +33,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Swipes",
-				fr: "Combo-griffe"
+				fr: "Combo-griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face."
+				fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rage",
-				fr: "Frénésie"
+				fr: "Frénésie",
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each damage counter on Vigoroth.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Vigoroth."
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Vigoroth.",
+				de: "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Muntier zu."
 			},
 			damage: "20+",
 

@@ -4,7 +4,8 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Slaking",
-		fr: "Monaflemit"
+		fr: "Monaflemit",
+		de: "Letarking"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Lazy",
-				fr: "Fainéant"
+				fr: "Fainéant",
+				de: "Lazy"
 			},
 			effect: {
 				en: "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers.",
-				fr: "Tant que Monaflemit est votre Pokémon Actif, le Pokémon de votre adversaire ne peut utiliser de Poké-Powers."
+				fr: "Tant que Monaflemit est votre Pokémon Actif, le Pokémon de votre adversaire ne peut utiliser de Poké-Powers.",
+				de: "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers."
 			},
 		},
 	],
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Critical Move",
-				fr: "Mouvement décisif"
+				fr: "Mouvement décisif",
+				de: "Critical Move"
 			},
 			effect: {
 				en: "Discard a basic Energy card attached to Slaking or this attack does nothing. Slaking can't attack during your next turn.",
-				fr: "Défaussez une carte Énergie de base attachée à Monaflemit ou cette attaque est sans effet. Monaflemit ne pourra pas attaquer pendant votre prochain tour."
+				fr: "Défaussez une carte Énergie de base attachée à Monaflemit ou cette attaque est sans effet. Monaflemit ne pourra pas attaquer pendant votre prochain tour.",
+				de: "Discard a basic Energy card attached to Slaking or this attack does nothing. Slaking can't attack during your next turn."
 			},
 			damage: 100,
 
