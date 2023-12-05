@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Machop",
 		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 20,

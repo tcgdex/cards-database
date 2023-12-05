@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
+		de: "Panpyro"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Flame Dance",
 				fr: "Danse enflammée",
+				de: "Flammentanz"
 			},
 			effect: {
 				en: "Search your discard pile for a Fire Energy card and attach it to Monferno.",
 				fr: "Chercher dans votre pile de défausse une carte Énergie Fire et attachez-la à Chimpenfeu.",
+				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Panpyro an."
 			},
 			damage: 30,
 
@@ -53,12 +56,14 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],

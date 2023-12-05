@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Snorlax",
 		fr: "Ronflex",
+		de: "Relaxo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Block",
 				fr: "Barrage",
+				de: "Rückentzug"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 
 		},
@@ -49,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Ease Up",
 				fr: "Se détendre",
+				de: "Entspannungsangriff"
 			},
 			effect: {
 				en: "Snorlax is now Asleep. If Snorlax is evolved from Munchlax, this attack does 40 damage plus 30 more damage.",
 				fr: "Ronflex est maintenant Endormi. Si Ronflex évolue en Goinfrex, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				de: "Relaxo schläft jetzt. Wenn Relaxo sich aus Mampfaxo entwickelt hat, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

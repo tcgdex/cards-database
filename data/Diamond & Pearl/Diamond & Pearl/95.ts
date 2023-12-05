@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
+		de: "Rihorn"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
+				de: "Hornattacke"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Rhyhorn does 10 damage to itself.",
 				fr: "Rhinocorne s'inflige 10 dégâts.",
+				de: "Rihorn fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

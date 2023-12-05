@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Azurill",
 		fr: "Azurill",
+		de: "Azurill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Baby Evolution",
 				fr: "Évolution bébé",
+				de: "Baby Evolution"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may put Marill from your hand onto Azurill (this counts as evolving Azurill) and remove all damage counters from Azurill.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Marill de votre main sur Azurill (vous le faites ainsi évoluer) et retirer à Azurill tous ses marqueurs de dégât.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Marill von deiner Hand auf Azurill legen (das zählt als Entwickeln von Azurill). Entferne alle Schadensmarken von Azurill."
 			},
 		},
 	],
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Delivery",
 				fr: "Livraison",
+				de: "Anlieferung"
 			},
 			effect: {
 				en: "Put any 1 card from your discard pile into your hand.",
 				fr: "Placez n'importe quelle carte de votre pile de défausse dans votre main.",
+				de: "Wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
 			},
 
 		},
