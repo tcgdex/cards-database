@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -36,13 +37,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Cannon",
-				fr: "Canon à pierres"
+				fr: "Canon à pierres",
+				de: "Felskanone"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis 'Zahl' kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 		{
@@ -53,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Slide",
-				fr: "Éboulement"
+				fr: "Éboulement",
+				de: "Steinhagel"
 			},
 			effect: {
 				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 

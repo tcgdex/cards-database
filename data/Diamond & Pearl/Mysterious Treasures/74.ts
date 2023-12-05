@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Bronzor",
-		fr: "Archéomire"
+		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dull Light",
-				fr: "Lumière tamisée"
+				fr: "Lumière tamisée",
+				de: "Gedämpftes Licht"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 

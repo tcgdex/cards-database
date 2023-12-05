@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Mantine",
-		fr: "Demanta"
+		fr: "Demanta",
+		de: "Mantax"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Jumbo Fin",
-				fr: "Nageoire géante"
+				fr: "Nageoire géante",
+				de: "Riesenflosse"
 			},
 			effect: {
 				en: "If Mantyke is anywhere under Mantine, the Retreat Cost for each of your Water Pokémon is ColorlessColorless less.",
-				fr: "Si Babimanta se trouve sous Demanta, le coût de retraite de chacun de vos Pokémon Water est ColorlessColorless de moins."
+				fr: "Si Babimanta se trouve sous Demanta, le coût de retraite de chacun de vos Pokémon Water est ColorlessColorless de moins.",
+				de: "Wenn Mantirps sich an beliebiger Stelle unter Mantax befindet, sind die Rückzugskosten deiner -Pokémon um   reduziert."
 			},
 		},
 	],
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Giant Wave",
-				fr: "Vague géante"
+				fr: "Vague géante",
+				de: "Riesenwelle"
 			},
 			effect: {
 				en: "Mantine can't use Giant Wave during your next turn.",
-				fr: "Demanta ne peut pas utiliser Vague géante lors de votre prochain tour."
+				fr: "Demanta ne peut pas utiliser Vague géante lors de votre prochain tour.",
+				de: "Mantax kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 50,
 

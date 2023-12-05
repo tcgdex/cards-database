@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Whiscash",
-		fr: "Barbicha"
+		fr: "Barbicha",
+		de: "Welsar"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -37,13 +38,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury",
-				fr: "Furieux"
+				fr: "Furieux",
+				de: "Tobsucht"
 			},
 			effect: {
 				en: "Does 20 damage times the number of damage counters on Whiscash.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégât sur Barbicha."
+				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégât sur Barbicha.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte für jede Schadensmarke auf Welsar zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 		{
@@ -55,11 +58,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Magnitude",
-				fr: "Ampleur"
+				fr: "Ampleur",
+				de: "Intensität"
 			},
 			effect: {
 				en: "Does 20 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+				fr: "Inflige 20 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 20 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 

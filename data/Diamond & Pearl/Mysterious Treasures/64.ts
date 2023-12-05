@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Tropius",
-		fr: "Tropius"
+		fr: "Tropius",
+		de: "Tropius"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -31,26 +32,30 @@ const card: Card = {
 			],
 			name: {
 				en: "Bonus Leaf",
-				fr: "Feuille bonus"
+				fr: "Feuille bonus",
+				de: "Extrablatt"
 			},
 			effect: {
 				en: "Remove 3 damage counters from each of your Benched Pokémon that has any Grass Energy attached to it.",
-				fr: "Retirez 3 marqueurs de dégât à chacun de vos Pokémon de Banc possédant une Énergie Grass."
+				fr: "Retirez 3 marqueurs de dégât à chacun de vos Pokémon de Banc possédant une Énergie Grass.",
+				de: "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank, an dem mindestens 1 -Energie angelegt ist."
 			},
 
 		},
 		{
 			cost: [
-				"Colorless",
+				"Grass",
 				"Colorless",
 			],
 			name: {
 				en: "Whirlwind",
-				fr: "Cyclone"
+				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 

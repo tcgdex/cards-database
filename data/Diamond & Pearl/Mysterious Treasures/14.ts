@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Mesprit",
-		fr: "Créfollet"
+		fr: "Créfollet",
+		de: "Vesprit"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Upper Material",
-				fr: "Matériel stimulant"
+				fr: "Matériel stimulant",
+				de: "Aufputschmittel"
 			},
 			effect: {
 				en: "If you have Uxie and Azelf in play, the Retreat Cost for each Uxie, Mesprit, and Azelf (both yours and your opponent's) is 0.",
-				fr: "Si vous avez Créhelf et Créfadet en jeu, le Coût de retraite pour chaque Créhelf, Créfollet et Créfadet (les vôtres et ceux de votre adversaire) est de 0."
+				fr: "Si vous avez Créhelf et Créfadet en jeu, le Coût de retraite pour chaque Créhelf, Créfollet et Créfadet (les vôtres et ceux de votre adversaire) est de 0.",
+				de: "Wenn du Selfe und Tobutz im Spiel hast, hat jedes Selfe, Vesprit und Tobutz im Spiel (deine und die deines Gegners) Rückzugskosten 0."
 			},
 		},
 	],
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Teleportation Burst",
-				fr: "Téléportation explosive"
+				fr: "Téléportation explosive",
+				de: "Blitz-Teleportation"
 			},
 			effect: {
 				en: "You may switch Mesprit with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Créfollet avec 1 des Pokémon de votre Banc."
+				fr: "Vous pouvez échanger Créfollet avec 1 des Pokémon de votre Banc.",
+				de: "Du kannst Vesprit gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 30,
 

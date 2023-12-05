@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Dodrio",
-		fr: "Dodrio"
+		fr: "Dodrio",
+		de: "Dodri"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,13 +36,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Attack",
-				fr: "Furie"
+				fr: "Furie",
+				de: "Furienschlag"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Triple Pick",
-				fr: "Triplette"
+				fr: "Triplette",
+				de: "Dreifachpick"
 			},
 			effect: {
 				en: "Choose 3 of your opponent's Evolved Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 3 des Pokémon Évolués de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Choisissez 3 des Pokémon Évolués de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Wähle 3 entwickelte Pokémon deines Gegners. Dieser Angriff fügt jedem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

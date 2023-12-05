@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Sudowoodo",
-		fr: "Simularbre"
+		fr: "Simularbre",
+		de: "Mogelbaum"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sidestep",
-				fr: "Pas de côté"
+				fr: "Pas de côté",
+				de: "Schritt zur Seite"
 			},
 			effect: {
 				en: "If Bonsly is anywhere under Sudowoodo, flip a coin. If heads, prevent all effects of an attack, including damage, done to Sudowoodo during your opponent's next turn.",
-				fr: "Si Manzaï se trouve en dessous de Simularbre, lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Simularbre lors du prochain tour de votre adversaire."
+				fr: "Si Manzaï se trouve en dessous de Simularbre, lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Simularbre lors du prochain tour de votre adversaire.",
+				de: "Wenn Mobai sich an beliebiger Stelle unter Mogelbaum befindet, wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Mogelbaum zugefügt werden."
 			},
 			damage: 20,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Persuade",
-				fr: "Persuader"
+				fr: "Persuader",
+				de: "Überreden"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon. The new Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc. Le nouveau Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc. Le nouveau Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus. Das neue Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 

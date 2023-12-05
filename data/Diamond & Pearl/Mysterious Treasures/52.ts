@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Happiny",
-		fr: "Ptiravi"
+		fr: "Ptiravi",
+		de: "Wonneira"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,11 +30,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Baby Evolution",
-				fr: "Évolution bébé"
+				fr: "Évolution bébé",
+				de: "Baby Evolution"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Leveinard de votre main sur Ptiravi (vous le faites ainsi évoluer) et retirer à Ptiravi tous ses marqueurs de dégât."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Leveinard de votre main sur Ptiravi (vous le faites ainsi évoluer) et retirer à Ptiravi tous ses marqueurs de dégât.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Chaneira von deiner Hand auf Wonneira legen (das zählt als Entwickeln von Wonneira). Entferne alle Schadensmarken von Wonneira."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 
 			name: {
 				en: "Lively",
-				fr: "Vitalité"
+				fr: "Vitalité",
+				de: "Aufpäppeln"
 			},
 			effect: {
 				en: "Remove 2 damage counters from 1 of your Pokémon.",
-				fr: "Retirez à 1 de vos Pokémon 2 marqueurs de dégât."
+				fr: "Retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von 1 deiner Pokémon."
 			},
 
 		},

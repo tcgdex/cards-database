@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Bastiodon",
-		fr: "Bastiodon"
+		fr: "Bastiodon",
+		de: "Bollterus"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -33,11 +34,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Protective Wall",
-				fr: "Mur protecteur"
+				fr: "Mur protecteur",
+				de: "Schutzwall"
 			},
 			effect: {
 				en: "Prevent all damage done to your Benched Pokémon by your opponent's attacks.",
-				fr: "Prévenez tous les dégâts infligés à vos Pokémon de Banc par des attaques de votre adversaire."
+				fr: "Prévenez tous les dégâts infligés à vos Pokémon de Banc par des attaques de votre adversaire.",
+				de: "Verhindere allen Schaden, der Pokémon auf deiner Bank durch gegnerische Angriffe zugefügt wird."
 			},
 		},
 	],
@@ -51,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Anger Revenge",
-				fr: "Vengeance furieuse"
+				fr: "Vengeance furieuse",
+				de: "Zornesrache"
 			},
 			effect: {
 				en: "If Bastiodon was damaged by an attack during your opponent's last turn, this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si des dégâts ont été infligés à Bastiodon par une attaque lors du dernier tour de votre adversaire, cette attaque inflige 40 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Si des dégâts ont été infligés à Bastiodon par une attaque lors du dernier tour de votre adversaire, cette attaque inflige 40 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Wenn Bollterus im letzten Zug deines Gegners durch einen Angriff Schaden zugefügt wurde, fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 

@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Octillery",
-		fr: "Octillery"
+		fr: "Octillery",
+		de: "Octillery"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -36,13 +37,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Crash Bomber",
-				fr: "Bombardier écrasant"
+				fr: "Bombardier écrasant",
+				de: "Trümmerbombe"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 30 more damage. Then, discard a Special Energy card attached to the Defending Pokémon.",
-				fr: "Si le Pokémon Défenseur possède des cartes Énergie Spéciale, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires. Ensuite, défaussez une carte Énergie Spéciale attachée au Pokémon Défenseur."
+				fr: "Si le Pokémon Défenseur possède des cartes Énergie Spéciale, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires. Ensuite, défaussez une carte Énergie Spéciale attachée au Pokémon Défenseur.",
+				de: "Wenn am Verteidigenden Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu. Danach wähle 1 am Verteidigenden Pokémon angelegte Spezialenergiekarte und lege sie auf den Ablagestapel deines Gegners."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -52,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aqua Liner",
-				fr: "Aqua-paquebot"
+				fr: "Aqua-paquebot",
+				de: "Wasserrohr"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

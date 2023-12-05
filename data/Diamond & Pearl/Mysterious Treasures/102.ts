@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Spheal",
-		fr: "Obalie"
+		fr: "Obalie",
+		de: "Seemops"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,7 +32,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rollout",
-				fr: "Roulade"
+				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -43,11 +45,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hustle",
-				fr: "Précipitation"
+				fr: "Précipitation",
+				de: "Übereifer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your next turn, Spheal's Rollout attack's base damage is 40.",
-				fr: "Lancez une pièce. Si c'est face, les dégâts de base de l'attaque Roulade d'Obalie sont de 40 lors de votre prochain tour."
+				fr: "Lancez une pièce. Si c'est face, les dégâts de base de l'attaque Roulade d'Obalie sont de 40 lors de votre prochain tour.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" beträgt in deinem nächsten Zug der Grundschaden von Seemops' Angriff Walzer 40 Schadenspunkte."
 			},
 
 		},

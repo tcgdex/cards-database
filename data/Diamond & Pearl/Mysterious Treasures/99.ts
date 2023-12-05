@@ -4,7 +4,8 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Slakoth",
-		fr: "Parecool"
+		fr: "Parecool",
+		de: "Bummelz"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Drowsy",
-				fr: "Ensommeillé"
+				fr: "Ensommeillé",
+				de: "Schlaftrunken"
 			},
 			effect: {
 				en: "Both Slakoth and the Defending Pokémon are now Asleep.",
-				fr: "Parecool et le Pokémon Défenseur sont maintenant Endormis."
+				fr: "Parecool et le Pokémon Défenseur sont maintenant Endormis.",
+				de: "Bummelz und das Verteidigende Pokémon schlafen jetzt."
 			},
 
 		},
