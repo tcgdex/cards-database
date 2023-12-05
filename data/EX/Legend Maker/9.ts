@@ -4,7 +4,8 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Machamp",
-		fr: "Mackogneur"
+		fr: "Mackogneur",
+		de: "Machomei"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Derail",
-				fr: "Dérailler"
+				fr: "Dérailler",
+				de: "Entgleisen"
 			},
 			effect: {
 				en: "Discard a Special Energy card, if any, attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a."
+				fr: "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a.",
+				de: "Lege eine Spezialenergiekarte, die an das Verteidigende Pokémon angelegt ist, auf den Ablagestapel des Gegners."
 			},
 			damage: 40,
 
@@ -49,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Swift Blow",
-				fr: "Coup surprise"
+				fr: "Coup surprise",
+				de: "Schneller Schlag"
 			},
 			effect: {
 				en: "Does 60 damage plus 20 damage for each React Energy card attached to Machamp.",
-				fr: "Inflige 60 dégâts plus 20 dégâts supplémentaires pour chaque Énergie réaction attachée à Mackogneur."
+				fr: "Inflige 60 dégâts plus 20 dégâts supplémentaires pour chaque Énergie réaction attachée à Mackogneur.",
+				de: "Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Machomei angelegte Reaktions-Energiekarte zu."
 			},
 			damage: "60+",
 
