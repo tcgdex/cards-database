@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Swellow δ",
-		fr: "Heledelle δ ESPÈCES DELTA"
+		fr: "Heledelle δ ESPÈCES DELTA",
+		de: "Schwalboss"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Extra Wing",
-				fr: "Aile supplémentaire"
+				fr: "Aile supplémentaire",
+				de: "Extra-Flügel"
 			},
 			effect: {
 				en: "The Retreat Cost for each of your Stage 2 Pokémon-ex is 0.",
-				fr: "Le Coût de retraite de chacun de vos Pokémon-ex de Niveau 2 est de 0."
+				fr: "Le Coût de retraite de chacun de vos Pokémon-ex de Niveau 2 est de 0.",
+				de: "Deine Pokémon-ex der Phase 2 haben Rückzugskosten 0."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
-				fr: "Hâte"
+				fr: "Hâte",
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Heledelle lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Heledelle lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Schwalboss zugefügt werden."
 			},
 			damage: 30,
 

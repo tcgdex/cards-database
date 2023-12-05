@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Trapinch δ",
-		fr: "Kraknoix δ ESPÈCES DELTA"
+		fr: "Kraknoix δ ESPÈCES DELTA",
+		de: "Knacklion"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
-				fr: "Rogne"
+				fr: "Rogne",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig",
-				fr: "Tunnel"
+				fr: "Tunnel",
+				de: "Schaufler"
 			},
 
 			damage: 20,

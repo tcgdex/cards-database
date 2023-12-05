@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Horsea δ",
-		fr: "Hypotrempe δ ESPÈCES DELTA"
+		fr: "Hypotrempe δ ESPÈCES DELTA",
+		de: "Seeper"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -42,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Reverse Thrust",
-				fr: "Poussée inverse"
+				fr: "Poussée inverse",
+				de: "Umkehrschub"
 			},
 			effect: {
 				en: "Switch Horsea with 1 of your Benched Pokémon.",
-				fr: "Échangez Hypotrempe avec 1 de vos Pokémon de Banc."
+				fr: "Échangez Hypotrempe avec 1 de vos Pokémon de Banc.",
+				de: "Tausche Seeper gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 

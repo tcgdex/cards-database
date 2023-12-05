@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Feebas δ",
-		fr: "Barpau δ ESPÈCES DELTA"
+		fr: "Barpau δ ESPÈCES DELTA",
+		de: "Barschwa"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -29,13 +30,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Flail",
-				fr: "Fléau"
+				fr: "Fléau",
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Feebas.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Barpau."
+				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Barpau.",
+				de: "Dieser Angriff fügt für jede Schadensmarke auf Barschwa 10 Schadenspunkte zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

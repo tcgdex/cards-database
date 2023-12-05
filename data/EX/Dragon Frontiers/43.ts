@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Bagon δ",
-		fr: "Draby δ ESPÈCES DELTA"
+		fr: "Draby δ ESPÈCES DELTA",
+		de: "Kindwurm"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Granite Head",
-				fr: "Tête de granit"
+				fr: "Tête de granit",
+				de: "Granitkopf"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to Bagon by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Draby par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Draby par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				de: "Im nächsten Zug deines Gegners wird Schaden, der Kindwurm durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 10,
 

@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Dragonair δ",
-		fr: "Draco δ ESPÈCES DELTA"
+		fr: "Draco δ ESPÈCES DELTA",
+		de: "Dragonir"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Wrap",
-				fr: "Ligotage"
+				fr: "Ligotage",
+				de: "Wickel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -47,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Horn Attack",
-				fr: "Koud'korne"
+				fr: "Koud'korne",
+				de: "Hornattacke"
 			},
 
 			damage: 40,

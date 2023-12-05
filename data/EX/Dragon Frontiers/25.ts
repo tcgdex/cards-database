@@ -4,7 +4,8 @@ import Set from '../Dragon Frontiers'
 const card: Card = {
 	name: {
 		en: "Xatu δ",
-		fr: "Xatu δ ESPÈCES DELTA"
+		fr: "Xatu δ ESPÈCES DELTA",
+		de: "Xatu"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Extra Feather",
-				fr: "Plume supplémentaire"
+				fr: "Plume supplémentaire",
+				de: "Extra-Feder"
 			},
 			effect: {
 				en: "Each of your Stage 2 Pokémon-ex does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Chacun de vos Pokémon-ex de Niveau 2 inflige 10 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
+				fr: "Chacun de vos Pokémon-ex de Niveau 2 inflige 10 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				de: "Jedes deiner Pokémon-ex der Phase 2 fügt dem Verteidigenden Pokémon 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde folie"
+				fr: "Onde folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
