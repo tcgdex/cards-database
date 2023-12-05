@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Remoraid",
-		fr: "Remoraid"
+		fr: "Remoraid",
+		de: "Remoraid"
 	},
 	illustrator: "Sachiko Adachi",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Call for Family",
-				fr: "Appel à la famille"
+				fr: "Appel à la famille",
+				de: "Call for Family"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Search your deck for a Basic Pokémonm and put it onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Splash",
-				fr: "Trempette"
+				fr: "Trempette",
+				de: "Splash"
 			},
 
 			damage: 10,

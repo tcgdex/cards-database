@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Octillery",
-		fr: "Octillery"
+		fr: "Octillery",
+		de: "Octillery"
 	},
 	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Super Suction Cups",
-				fr: "Super ventouses"
+				fr: "Super ventouses",
+				de: "Super Suction Cups"
 			},
 			effect: {
 				en: "As long as Octillery is your Active Pokémon, your opponent's Pokémon can't retreat.",
-				fr: "Tant qu'Octillery est votre Pokémon Actif, les Pokémon de votre adversaire ne peuvent pas battre en retraite."
+				fr: "Tant qu'Octillery est votre Pokémon Actif, les Pokémon de votre adversaire ne peuvent pas battre en retraite.",
+				de: "As long as Octillery is your Active Pokémon, your opponent's Pokémon can't retreat"
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Standing By",
-				fr: "État d'alerte"
+				fr: "État d'alerte",
+				de: "Standing By"
 			},
 			effect: {
 				en: "Discard an Energy card attached to Octillery. During your next turn, Octillery's Pulse Blast attack's base damage is 120.",
-				fr: "Défaussez une carte Énergie attachée à Octillery. Lors de votre prochain tour, les dégâts de base d'Explosion vibrante d'Octillery sont de 120."
+				fr: "Défaussez une carte Énergie attachée à Octillery. Lors de votre prochain tour, les dégâts de base d'Explosion vibrante d'Octillery sont de 120.",
+				de: "Discard an Energy card attached to Octillery. During your next turn, Octillery's Pulse Blast attack's base damage is 120."
 			},
 
 		},
@@ -58,7 +63,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pulse Blast",
-				fr: "Explosion vibrante"
+				fr: "Explosion vibrante",
+				de: "Pulse Blast"
 			},
 
 			damage: 30,

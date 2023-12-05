@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Mareep",
-		fr: "Wattouat"
+		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,

@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Wooper",
-		fr: "Axoloto"
+		fr: "Axoloto",
+		de: "Felino"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -29,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Shot",
-				fr: "Tir de boue"
+				fr: "Tir de boue",
+				de: "Mud Shot"
 			},
 
 			damage: 10,
@@ -42,7 +44,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
-				fr: "Queue battoir"
+				fr: "Queue battoir",
+				de: "Tail Whap"
 			},
 
 			damage: 20,

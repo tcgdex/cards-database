@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Tyranitar ex",
-		fr: "Tyranocif ex"
+		fr: "Tyranocif ex",
+		de: "Despotar ex"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shatter",
-				fr: "Fracasser"
+				fr: "Fracasser",
+				de: "Shatter"
 			},
 			effect: {
 				en: "Discard any Stadium card in play.",
-				fr: "Défaussez n'importe quelle carte Stade en jeu."
+				fr: "Défaussez n'importe quelle carte Stade en jeu.",
+				de: "Discard any Stadium card in play."
 			},
 			damage: 30,
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Derail",
-				fr: "Dérailler"
+				fr: "Dérailler",
+				de: "Derail"
 			},
 			effect: {
 				en: "Discard a Special Energy card, if any, attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a."
+				fr: "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a.",
+				de: "Discard a Special Energy card, if any, attached to the Defending Pokémon."
 			},
 			damage: 30,
 
@@ -64,11 +69,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mix-Up",
-				fr: "Mélange"
+				fr: "Mélange",
+				de: "Mix-Up"
 			},
 			effect: {
 				en: "Your opponent discards the top card of his or her deck.",
-				fr: "Votre adversaire défausse la carte du dessus de son deck."
+				fr: "Votre adversaire défausse la carte du dessus de son deck.",
+				de: "Your opponent discards the top card of his or her deck."
 			},
 			damage: 70,
 
@@ -82,11 +89,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Losing Control",
-				fr: "Perdre contrôle"
+				fr: "Perdre contrôle",
+				de: "Losing Control"
 			},
 			effect: {
 				en: "Discard the top 3 cards of your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck."
+				fr: "Défaussez les 3 cartes du dessus de votre deck.",
+				de: "Discard the top 3 cards of your deck."
 			},
 			damage: 120,
 

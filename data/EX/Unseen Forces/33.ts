@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Tyrogue",
-		fr: "Debugant"
+		fr: "Debugant",
+		de: "Rabauz"
 	},
 	illustrator: "Yuka Morii",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Baby Evolution",
-				fr: "Évolution bébé"
+				fr: "Évolution bébé",
+				de: "Baby Evolution"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Kicklee, Tygnon ou Kapoera de votre main sur Debugant (vous faites ainsi évoluer Debugant) et retirer à Debugant tous ses marqueurs de dégât."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Kicklee, Tygnon ou Kapoera de votre main sur Debugant (vous faites ainsi évoluer Debugant) et retirer à Debugant tous ses marqueurs de dégât.",
+				de: "Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue."
 			},
 		},
 	],
@@ -41,13 +44,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Desperate Punch",
-				fr: "Poing désespéré"
+				fr: "Poing désespéré",
+				de: "Desperate Punch"
 			},
 			effect: {
 				en: "Does 10 damage times the number of Pokémon in play your opponent has more than you.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu que votre adversaire a en plus par rapport à vous."
+				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu que votre adversaire a en plus par rapport à vous.",
+				de: "Does 10 damage times the number of Pokémon in play your opponent has more than you."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],

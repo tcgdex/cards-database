@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Gligar",
-		fr: "Scorplane"
+		fr: "Scorplane",
+		de: "Skorgla"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Free Flight",
-				fr: "Vol gratuit"
+				fr: "Vol gratuit",
+				de: "Free Flight"
 			},
 			effect: {
 				en: "If Gligar has no Energy attached to it, Gligar's Retreat Cost is 0.",
-				fr: "Si Scorplane ne possède pas d'Énergie, son Coût de retraite est de 0."
+				fr: "Si Scorplane ne possède pas d'Énergie, son Coût de retraite est de 0.",
+				de: "If Gligar has no Energy attached to it, Gligar's Retreat Cost is 0."
 			},
 		},
 	],
@@ -41,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Toxic Grip",
-				fr: "Pince empoisonnée"
+				fr: "Pince empoisonnée",
+				de: "Toxic Grip"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "The Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 

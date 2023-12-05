@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Onix",
-		fr: "Onix"
+		fr: "Onix",
+		de: "Onix"
 	},
 	illustrator: "Yukiko Baba",
 	rarity: "Common",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig Deep",
-				fr: "Trou profond"
+				fr: "Trou profond",
+				de: "Dig Deep"
 			},
 			effect: {
 				en: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main."
+				fr: "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main.",
+				de: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand."
 			},
 
 		},
@@ -44,7 +47,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
-				fr: "Coud'boue"
+				fr: "Coud'boue",
+				de: "Mud Slap"
 			},
 
 			damage: 20,

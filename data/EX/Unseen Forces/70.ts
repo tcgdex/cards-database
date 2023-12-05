@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Pupitar",
-		fr: "Ymphect"
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 	illustrator: "Aya Kusube",
 	rarity: "Common",
@@ -32,7 +33,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Slash"
 			},
 
 			damage: 20,
@@ -46,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Throw",
-				fr: "Jet-pierres"
+				fr: "Jet-pierres",
+				de: "Rock Throw"
 			},
 
 			damage: 40,

@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Quagsire",
-		fr: "Maraiste"
+		fr: "Maraiste",
+		de: "Morlord"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dense",
-				fr: "Épais"
+				fr: "Épais",
+				de: "Dense"
 			},
 			effect: {
 				en: "Any damage done to Quagsire by attacks from your opponent's Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Maraiste par des attaques de Pokémon Évolués de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+				fr: "Les dégâts infligés à Maraiste par des attaques de Pokémon Évolués de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				de: "Any damage done to Quagsire by attacks from your opponent's Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -43,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Shot",
-				fr: "Tir de boue"
+				fr: "Tir de boue",
+				de: "Mud Shot"
 			},
 
 			damage: 20,
@@ -57,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Hurl",
-				fr: "Lance-pierre"
+				fr: "Lance-pierre",
+				de: "Rock Hurl"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "This attack's damage isn't affected by Resistance."
 			},
 			damage: 50,
 

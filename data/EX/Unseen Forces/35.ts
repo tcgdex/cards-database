@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Bayleef",
-		fr: "Macronium"
+		fr: "Macronium",
+		de: "Lorblatt"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Soothing Scent",
-				fr: "Senteur apaisante"
+				fr: "Senteur apaisante",
+				de: "Soothing Scent"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -48,7 +51,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				fr: "Tranch'herbe",
+				de: "Razor Leaf"
 			},
 
 			damage: 50,

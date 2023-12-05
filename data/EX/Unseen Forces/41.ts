@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Magcargo",
-		fr: "Volcaropod"
+		fr: "Volcaropod",
+		de: "Magcargo"
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
@@ -28,11 +29,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Dual Armor",
-				fr: "Double armure"
+				fr: "Double armure",
+				de: "Dual Armor"
 			},
 			effect: {
 				en: "As long as Magcargo has any Fighting Energy attached to it, Magcargo is both Fire and Fighting type.",
-				fr: "Tant que Volcaropod possède des Énergies , il est de type  et ."
+				fr: "Tant que Volcaropod possède des Énergies , il est de type  et .",
+				de: "As long as Magcargo has any  Energy attached to it, Magcargo is both  and  type."
 			},
 		},
 	],
@@ -44,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Smokescreen",
-				fr: "Brouillard"
+				fr: "Brouillard",
+				de: "Smokescreen"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 30,
 
@@ -61,11 +66,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Extra Flame",
-				fr: "Flamme supplémentaire"
+				fr: "Flamme supplémentaire",
+				de: "Extra Flame"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires."
+				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				de: "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 30 more damage."
 			},
 			damage: "40+",
 

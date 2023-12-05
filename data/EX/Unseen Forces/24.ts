@@ -4,7 +4,8 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Hitmonchan",
-		fr: "Tygnon"
+		fr: "Tygnon",
+		de: "Nockchan"
 	},
 	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
@@ -26,11 +27,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Stages of Evolution",
-				fr: "Niveaux d'Évolution"
+				fr: "Niveaux d'Évolution",
+				de: "Stages of Evolution"
 			},
 			effect: {
 				en: "As long as Hitmonchan is an Evolved Pokémon, Hitmonchan gets +30 HP.",
-				fr: "Tant que Tygnon est un Pokémon Évolué, il obtient 30 Points de vie supplémentaires."
+				fr: "Tant que Tygnon est un Pokémon Évolué, il obtient 30 Points de vie supplémentaires.",
+				de: "As long as Hitmonchan is an Evolved Pokémon, Hitmonchan gets +30 HP."
 			},
 		},
 	],
@@ -42,13 +45,15 @@ const card: Card = {
 			],
 			name: {
 				en: "Heavy Punch",
-				fr: "Poing lourd"
+				fr: "Poing lourd",
+				de: "Heavy Punch"
 			},
 			effect: {
 				en: "Does 10 damage times the number of your opponent's Benched Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon sur le Banc de votre adversaire."
+				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon sur le Banc de votre adversaire.",
+				de: "Does 10 damage times the number of your opponent's Benched Pokémon."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 		{
@@ -59,11 +64,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Speedy Uppercut",
-				fr: "Uppercut super rapide"
+				fr: "Uppercut super rapide",
+				de: "Speedy Uppercut"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 50,
 
