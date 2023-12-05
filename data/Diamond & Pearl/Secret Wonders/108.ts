@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shroomish",
 		fr: "Balignon",
+		de: "Knilz"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Toxic Spore",
 				fr: "Spore toxik",
+				de: "Toxische Sporen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 20,
 

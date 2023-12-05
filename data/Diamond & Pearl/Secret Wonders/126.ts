@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Galactic's Mars",
 		fr: "Mars de la Team Galaxie",
+		de: "Team Galaktiks Mars"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -24,6 +25,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Piochez 2 cartes. Ensuite, choisissez sans regarder une carte de la main de votre adversaire et placez-la au dessous de son deck.",
+		de: "Ziehe 2 Karten. Danach wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie unter das Deck deines Gegners."
 	},
 	trainerType: "Supporter",
 

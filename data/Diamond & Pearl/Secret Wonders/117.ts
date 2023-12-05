@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 	illustrator: "Satoshi Ohta",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Speed Ball",
 				fr: "Balle rapide",
+				de: "Geschwindigkeitsball"
 			},
 
 			damage: 20,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Big Explosion",
 				fr: "Grosse explosion",
+				de: "Große Explosion"
 			},
 			effect: {
 				en: "Voltorb does 50 damage to itself.",
 				fr: "Voltorbe s'inflige 50 dégâts.",
+				de: "Voltobal fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 50,
 

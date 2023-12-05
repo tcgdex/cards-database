@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		de: "Enton"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Delusion",
 				fr: "Hallucination",
+				de: "Wahnvorstellung"
 			},
 			effect: {
 				en: "If Psyduck is Confused, draw 2 cards.",
 				fr: "Si Psykokwak est Confus, piochez 2 cartes.",
+				de: "Wenn Enton verwirrt ist, ziehe 2 Karten."
 			},
 
 		},
@@ -44,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Migraine",
 				fr: "Maud'krâne",
+				de: "Migräne"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt. Bei \"Zahl\" ist Enton jetzt verwirrt."
 			},
 			damage: 10,
 

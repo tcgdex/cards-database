@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lotad",
 		fr: "Nénupiot",
+		de: "Loturzel"
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
@@ -30,12 +31,14 @@ const card: Card = {
 			name: {
 				en: "Water Sport",
 				fr: "Tourniquet",
+				de: "Nassmacher"
 			},
 			effect: {
 				en: "If Lotad has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 20 more damage.",
 				fr: "Si Nénupiot possède moins d'Énergie que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Lotuzel, fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,

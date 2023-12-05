@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shellos East Sea",
 		fr: "Sancoki Mer Orient",
+		de: "Schalellos Östliches Meer"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Shell Hunting",
 				fr: "Chasse au coquillage",
+				de: "Panzersuche"
 			},
 			effect: {
 				en: "Search your deck for up to 2 in any combination of Shellos West Sea and Shellos East Sea and put them onto your Bench. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une combinaison de jusqu'à 2 Sancoki Mer Occident\net Sancoki Mer Orient et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach bis zu 2 Karten in beliebiger Kombination aus Schalellos Westliches Meer- und Schalellos Östliches Meer-Karten und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Sprinkle Water",
 				fr: "Eau aspergeante",
+				de: "Wassersprüher"
 			},
 
 			damage: 10,

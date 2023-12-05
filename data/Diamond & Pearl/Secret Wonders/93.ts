@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magmar",
 		fr: "Magmar",
+		de: "Magmar"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Fire Punch",
 				fr: "Poing de feu",
+				de: "Feuerschlag"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Smog",
 				fr: "Purédpois",
+				de: "Smog"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shuppet",
 		fr: "Polichombr",
+		de: "Shuppet"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Gossip",
 				fr: "Potin",
+				de: "Gemunkel"
 			},
 			effect: {
 				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
 				fr: "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
+				de: "Lege 1 Schadensmarke auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Hang Down",
 				fr: "Pendre",
+				de: "Herunterhängen"
 			},
 
 			damage: 20,

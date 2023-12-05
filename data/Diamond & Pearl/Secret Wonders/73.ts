@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Venomoth",
 		fr: "Aéromite",
+		de: "Omot"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Dangerous Scales",
 				fr: "Écailles dangereuses",
+				de: "Schadende Schuppen"
 			},
 			effect: {
 				en: "If Venomoth is your Active Pokémon and is damaged by an opponent's attack (even if Venomoth is Knocked Out), the Attacking Pokémon is now Asleep and Poisoned.",
 				fr: "Si Aéromite est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Aéromite est mis K.O), le Pokémon Attaquant est maintenant Endormi et Empoisonné.",
+				de: "Wenn Omot dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Omot dadurch kampfunfähig wird), schläft das Angreifende Pokémon jetzt und ist vergiftet."
 			},
 		},
 	],
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Disturbance Dive",
 				fr: "Plongeon perturbant",
+				de: "Abwehrsturzflug"
 			},
 			effect: {
 				en: "Prevent all effects of an attack, excluding damage, done to Venomoth during your opponent's next turn.",
 				fr: "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Aéromite lors du prochain tour de votre adversaire.",
+				de: "Verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, außer Schaden, die Omot zugefügt würden."
 			},
 			damage: 50,
 

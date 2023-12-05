@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		de: "Digda"
 	},
 	illustrator: "Takao Unno",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Down Draw",
 				fr: "Pioche du dessous",
+				de: "Tiefer Zug"
 			},
 			effect: {
 				en: "Draw a card from the bottom of your deck.",
 				fr: "Piochez une carte du dessous de votre deck.",
+				de: "Ziehe die unterste Karte deines Decks."
 			},
 
 		},
@@ -45,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Mud Spatter",
 				fr: "Éclaboussure de boue",
+				de: "Lehmspritzer"
 			},
 
 			damage: 30,

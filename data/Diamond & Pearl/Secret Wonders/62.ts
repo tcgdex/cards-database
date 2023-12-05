@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Roselia",
 		fr: "Roselia",
+		de: "Roselia"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Powder",
 				fr: "Poudre dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -44,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 10,
