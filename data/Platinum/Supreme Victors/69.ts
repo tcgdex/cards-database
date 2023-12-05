@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metang",
 		fr: "Metang",
+		de: "Metang"
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Metallic Lift",
 				fr: "Élévation métallique",
+				de: "Metalltransporter"
 			},
 			effect: {
 				en: "If Metang has any Metal Energy attached to it, the Retreat Cost for Metang is 0.",
 				fr: "Si Metang possède de l'Énergie Metal, son Coût de retraite est de 0.",
+				de: "Wenn an Metang mindestens 1 -Energie angelegt ist, hat Metang Rückzugskosten 0."
 			},
 		},
 	],
@@ -47,12 +50,14 @@ const card: Card = {
 			name: {
 				en: "Psychic",
 				fr: "Psyko",
+				de: "Psychokinese"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],

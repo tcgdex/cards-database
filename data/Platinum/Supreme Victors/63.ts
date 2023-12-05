@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lopunny",
 		fr: "Lockpin",
+		de: "Schlapor"
 	},
 	illustrator: "Kanako Eo",
 	rarity: "Uncommon",
@@ -34,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Ice Beam",
 				fr: "Laser glace",
+				de: "Eisstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -50,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Rear Kick",
 				fr: "Ruade",
+				de: "Rückwärtskick"
 			},
 
 			damage: 40,

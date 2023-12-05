@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mudkip",
 		fr: "Gobou",
+		de: "Hydropi"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -30,12 +31,14 @@ const card: Card = {
 			name: {
 				en: "Mud Sport",
 				fr: "Lance-boue",
+				de: "Lehmsuhler"
 			},
 			effect: {
 				en: "If Mudkip has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
 				fr: "Si Gobou possède moins d'Énergie que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Hydropi, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 20,

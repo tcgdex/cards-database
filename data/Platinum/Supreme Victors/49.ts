@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Altaria C",
 		fr: "Altaria ",
+		de: "Altaria C"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Sing",
 				fr: "Berceuse",
+				de: "Gesang"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Sonic Wing",
 				fr: "Aile supersonique",
+				de: "Überschallflügel"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 30,
 

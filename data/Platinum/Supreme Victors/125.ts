@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Seel",
 		fr: "Otaria",
+		de: "Jurob"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tail Slap",
 				fr: "Coud'keu",
+				de: "Schweifschlag"
 			},
 
 			damage: 10,
@@ -43,10 +45,12 @@ const card: Card = {
 			name: {
 				en: "Icy Wind",
 				fr: "Vent glacé",
+				de: "Eissturm"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 20,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Moltres",
 		fr: "Sulfura",
+		de: "Lavados"
 	},
 	illustrator: "Toshinao Aoki",
 	rarity: "Rare",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Flame",
 				fr: "Hyper-flamme",
+				de: "Hyperflamme"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard a Fire Energy attached to Moltres. If tails, discard all Energy attached to Moltres.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie Fire attachée à Sulfura. Si c'est pile, défaussez toutes les Énergies attachées à Sulfura.",
+				de: "Wirf 1 Münze. Bei \"Kopf\" entferne 1 -Energie, die an Lavados angelegt ist, und lege sie auf deinen Ablagestapel. Bei \"Zahl\" entferne alle Energien, die an Lavados angelegt sind, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 60,
 

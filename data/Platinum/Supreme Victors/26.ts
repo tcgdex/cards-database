@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dusknoir FB",
 		fr: "Noctunoir ",
+		de: "Zwirrfinst FB"
 	},
 	illustrator: "Motofumi Fujiwara",
 	rarity: "Rare",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Ghost Hand",
 				fr: "Main fantôme",
+				de: "Geisterhand"
 			},
 			effect: {
 				en: "Put 1 damage counter on 1 of your Benched Pokémon.",
 				fr: "Placez 1 marqueur de dégât sur 1 de vos Pokémon de Banc.",
+				de: "Lege 1 Schadensmarke auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 30,
 
@@ -48,12 +51,14 @@ const card: Card = {
 			name: {
 				en: "Cursed Wrath",
 				fr: "Colère ensorcelée",
+				de: "Zornesfluch"
 			},
 			effect: {
 				en: "Does 10 damage times the number of Pokémon SP in your discard pile.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon SP dans votre pile de défausse.",
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon SP in deinem Ablagestapel zu."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],

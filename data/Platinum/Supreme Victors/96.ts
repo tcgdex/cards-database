@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cherubi",
 		fr: "Ceribou",
+		de: "Kikugi"
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
@@ -28,10 +29,12 @@ const card: Card = {
 			name: {
 				en: "Growth",
 				fr: "Croissance",
+				de: "Wachstum"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Cherubi.",
 				fr: "Attachez une carte Énergie Grass de votre main à Ceribou.",
+				de: "Lege 1 -Energiekarte von deiner Hand an Kikugi an."
 			},
 
 		},
@@ -42,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 10,

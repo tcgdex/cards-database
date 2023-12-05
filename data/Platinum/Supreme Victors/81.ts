@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Roserade",
 		fr: "Roserade",
+		de: "Roserade"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Uncommon",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 20,
@@ -47,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Poison Seed",
 				fr: "Graine poison",
+				de: "Giftsamen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 30,
 

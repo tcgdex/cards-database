@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charizard G",
 		fr: "Dracaufeu ",
+		de: "Glurak G"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Rare",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Flame Jet",
 				fr: "Jet de flamme",
+				de: "Flammenstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Wirf 1 Münze. Dieser Angriff fügt 1 Pokémon deines Gegners 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Heat Blast",
 				fr: "Explosion de chaleur",
+				de: "Hitzestoß"
 			},
 
 			damage: 50,
