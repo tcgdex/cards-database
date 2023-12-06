@@ -38,16 +38,6 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	abilities: [{
-		name: {
-			de: "Heiliger Regenbogen"
-		},
-
-		effect: {
-			de: "Alle Energien, die an Ho-Oh-LEGENDE angelegt sind, liefern -Energie anstelle ihres normalen Typs."
-		}
-	}],
-
 	attacks: [{
 		name: {
 			de: "Strahlenschwinge"

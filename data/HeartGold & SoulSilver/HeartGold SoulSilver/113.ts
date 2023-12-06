@@ -38,16 +38,6 @@ const card: Card = {
 		firstEdition: false
 	},
 
-	abilities: [{
-		name: {
-			de: "Meereswachstum"
-		},
-
-		effect: {
-			de: "Einmal während deines Zuges, wenn du Lugia-LEGENDE von deiner Hand ins Spiel bringst, kannst du dir die obersten 5 Karten deines Decks anschauen und alle dabei gefundenen Energiekarten an Lugia-LEGENDE anlegen. Lege die anderen Karten auf deinen Ablagestapel."
-		}
-	}],
-
 	attacks: [{
 		name: {
 			de: "Urgewaltexplosion"

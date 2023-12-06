@@ -51,17 +51,7 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
-	},
-
-	abilities: [{
-		name: {
-			de: "Weltraumvirus"
-		},
-
-		effect: {
-			de: "Wenn ein Pokémon deines Gegners durch Schaden eines Angriffs von Rayquaza & Deoxys-LEGENDE kampfunfähig gemacht wurde, nimm 1 zusätzlichen Preis."
-		}
-	}]
+	}
 }
 
 export default card
