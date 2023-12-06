@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cyndaquil",
 		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Intimidation",
+				de: "Flackern"
 			},
 
 			damage: 20,

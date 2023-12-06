@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Whimsy Tackle",
 				fr: "Charge bizarre",
+				de: "Launischer Tackle"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 

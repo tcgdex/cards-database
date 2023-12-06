@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ledian",
 		fr: "Coxyclaque",
+		de: "Ledian"
 	},
 
 	illustrator: "Yuka Morii",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Quick Draw",
 				fr: "Pioche rapide",
+				de: "Schnellzieher"
 			},
 			effect: {
 				en: "Draw 3 cards.",
 				fr: "Piochez 3 cartes.",
+				de: "Ziehe 3 Karten."
 			},
 			damage: 10,
 
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Swift",
 				fr: "Météores",
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Power et les Poké-Body ou tout autre effet en action sur le Pokémon Défenseur.",
+				de: "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 40,
 

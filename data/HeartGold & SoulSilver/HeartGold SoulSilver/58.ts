@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chansey",
 		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	illustrator: "Kanako Eo",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras’face",
+				de: "Pfund"
 			},
 
 			damage: 20,
@@ -47,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Happy Punch",
 				fr: "Coup d’joie",
+				de: "Freudenschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, remove 3 damage counters from Chansey.",
 				fr: "Lancez une pièce. Si c’est face, retirez 3 marqueurs de dégâts de Leveinard.",
+				de: "Wirf eine Münze. Entferne bei \"Kopf\" 3 Schadensmarken von Chaneira."
 			},
 			damage: 30,
 

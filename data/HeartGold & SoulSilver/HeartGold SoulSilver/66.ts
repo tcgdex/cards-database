@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hoothoot",
 		fr: "Hoothoot",
+		de: "Hoothoot"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Hypnosis",
 				fr: "Hypnose",
+				de: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

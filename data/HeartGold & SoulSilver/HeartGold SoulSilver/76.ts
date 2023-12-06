@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Paras",
 		fr: "Paras",
+		de: "Paras"
 	},
 
 	illustrator: "Midori Harada",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -45,10 +47,12 @@ const card: Card = {
 			name: {
 				en: "Double-edge Claw",
 				fr: "Griffe Damoclès",
+				de: "Zweischneidige Klaue"
 			},
 			effect: {
 				en: "Paras does 10 damage to itself.",
 				fr: "Paras s’inflige 10 dégâts.",
+				de: "Paras fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

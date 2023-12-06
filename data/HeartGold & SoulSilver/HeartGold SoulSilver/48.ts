@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Parasect",
 		fr: "Parasect",
+		de: "Parasek"
 	},
 
 	illustrator: "Midori Harada",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Drain",
 				fr: "Aspirododo",
+				de: "Schlafentzug"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep. Remove 4 damage counters from Parasect.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi. Retirez 4 marqueurs de dégâts de Parasect.",
+				de: "Das Verteidigende Pokémon schläft jetzt. Entferne 4 Schadensmarken von Parasek."
 			},
 
 		},
@@ -53,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 60,

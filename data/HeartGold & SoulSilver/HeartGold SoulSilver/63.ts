@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,12 +33,14 @@ const card: Card = {
 			name: {
 				en: "Continuous Eggsplosion",
 				fr: "Éclate continue",
+				de: "Dauernde Eggsplosion"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				de: "Wirf solange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10×",
+			damage: "10x",
 
 		},
 	],
