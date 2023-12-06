@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lairon",
 		fr: "Galegon",
+		de: "Stollrak"
 	},
 
 	illustrator: "match",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Scrap Attack",
 				fr: "Attaque de ferraille",
+				de: "Rauferei"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Metal Energy card and attach it to Lairon.",
 				fr: "Lancez une pièce. Si c’est face, récupérez une carte Énergie Metal dans votre pile de défausse et attachez-la à Galegon.",
+				de: "Wirf eine Münze. Durchsuche bei \"Kopf\" deinen Ablagestapel nach einer -Energiekarte und lege sie an Stollrak an."
 			},
 			damage: 20,
 
@@ -54,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 60,

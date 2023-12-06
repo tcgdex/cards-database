@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vileplume",
 		fr: "Rafflesia",
+		de: "Giflor"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Allergy Flower",
 				fr: "Fleur allergène",
+				de: "Allergieblume"
 			},
 			effect: {
 				en: "Each player can’t play any Trainer cards from his or her hand.",
 				fr: "Aucun joueur ne peut jouer de carte Dresseur de sa main.",
+				de: "Kein Spieler darf Trainerkarten von seiner Hand spielen."
 			},
 		},
 	],
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Dazzling Pollen",
 				fr: "Pollen étincelant",
+				de: "Verwirrpollen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires. Si c’est pile, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: "50+",
 

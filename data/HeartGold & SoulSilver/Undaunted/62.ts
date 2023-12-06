@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pineco",
 		fr: "Pomdepik",
+		de: "Tannza"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 10,

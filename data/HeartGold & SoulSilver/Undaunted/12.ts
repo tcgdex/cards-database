@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Drifblim",
 		fr: "Grodrive",
+		de: "Drifzepeli"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Balloon Tackle",
 				fr: "Charge Ballon",
+				de: "Ballon-Tackle"
 			},
 			effect: {
 				en: "Drifblim does 20 damage to itself.",
 				fr: "Grodrive s’inflige 20 dégâts.",
+				de: "Drifzepeli fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Take Away",
 				fr: "Envolée",
+				de: "Wegschnappen"
 			},
 			effect: {
 				en: "Shuffle Drifblim and all cards attached to it back into your deck. Then, your opponent shuffles the Defending Pokémon and all cards attached to it into his or her deck. (You choose your new Active Pokémon first.)",
 				fr: "Mélangez Grodrive et toutes les cartes qui lui sont attachées avec votre deck. Ensuite, votre adversaire mélange le Pokémon Défenseur et toutes les cartes qui lui sont attachées avec son deck. (Vous choisissez votre nouveau Pokémon Actif en premier.)",
+				de: "Mische Drifzepeli und alle daran angelegten Karten zurück in dein Deck. Anschließend mischt dein Gegner das Verteidigende Pokémon und alle daran angelegten Karten zurück in sein Deck. (Du wählst dein neues Aktives Pokémon zuerst.)"
 			},
 
 		},

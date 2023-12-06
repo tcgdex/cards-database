@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gliscor",
 		fr: "Scorvol",
+		de: "Skorgro"
 	},
 
 	illustrator: "Naoki Saito",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Ninja Fang",
 				fr: "Croc Ninja",
+				de: "Ninjafänge"
 			},
 			effect: {
 				en: "If, before Gliscor does damage, the Defending Pokémon has no damage counters on it and is then damaged by this attack (after applying Weakness and Resistance), the Defending Pokémon is now Paralyzed.",
 				fr: "Si, avant que Scorvol n’inflige de dégâts, le Pokémon Défenseur n’a aucun marqueur de dégât et qu’il subit ensuite des dégâts à cause de cette attaque (après application de la Faiblesse et de la Résistance), il est maintenant Paralysé.",
+				de: "Falls auf dem Verteidigendem Pokémon vor durch Skorgro zugefügtem Schaden keine Schadensmarken liegen, und ihm durch diesen Angriff Schaden zugefügt wird (nachdem Schwäche und Resistenz verrechnet wurden), ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Poison Jab",
 				fr: "Direct Toxik",
+				de: "Gifthieb"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 50,
 

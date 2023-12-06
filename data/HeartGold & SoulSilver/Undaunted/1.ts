@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bellossom",
 		fr: "Joliflor",
+		de: "Blubella"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Hustle Step",
 				fr: "Foulée rapide",
+				de: "Übereifriger Schritt"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may remove 1 damage counter from each of your Pokémon. This power can’t be used if Bellossom is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Joliflor est affecté par un État Spécial.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von jedem deiner Pokémon entfernen. Diese Poké-Power kann nicht benutzt werden, wenn Blubella von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -52,12 +55,14 @@ const card: Card = {
 			name: {
 				en: "Dance ’til Dawn",
 				fr: "Danse nocturne",
+				de: "Tanz bis zum Morgen"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Bellossom is now Asleep.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Joliflor est maintenant Endormi.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu. Blubella schläft jetzt."
 			},
-			damage: "30×",
+			damage: "30x",
 
 		},
 	],

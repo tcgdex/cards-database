@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Murkrow",
 		fr: "Cornebre",
+		de: "Kramurx"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Glide",
 				fr: "Glissade",
+				de: "Gleiten"
 			},
 
 			damage: 10,
@@ -46,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Dark Cutter",
 				fr: "Tranch’Obscur",
+				de: "Dunkler Zerschneider"
 			},
 
 			damage: 30,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	illustrator: "TOKIYA",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Lunge Out",
 				fr: "Allonger",
+				de: "Sprungangriff"
 			},
 
 			damage: 10,
@@ -46,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Single Smash",
 				fr: "Simplécrasement",
+				de: "Einzelstoß"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 

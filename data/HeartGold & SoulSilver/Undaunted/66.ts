@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Rambunctious Party",
 				fr: "Méga-boum",
+				de: "Wilde Party"
 			},
 			effect: {
 				en: "Look at the top 5 cards of your deck. Choose as many Basic Pokémon as you like and put them onto your Bench. Shuffle the other cards back into your deck.",
 				fr: "Regardez les 5 cartes du dessus de votre deck. Choisissez autant de Pokémon de base que vous le voulez et placez-les sur votre Banc. Mélangez les autres cartes avec votre deck.",
+				de: "Schau dir die obersten 5 Karten deines Decks an. Wähle beliebig viele Basis-Pokémon-Karten und lege sie auf die Bank. Misch dein Deck anschließend."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hitmonlee",
 		fr: "Kicklee",
+		de: "Kicklee"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Kick",
 				fr: "Koud’pied",
+				de: "Tritt"
 			},
 
 			damage: 20,
@@ -46,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "High Jump Kick",
 				fr: "Pied voltige",
+				de: "Turmkick"
 			},
 
 			damage: 60,
