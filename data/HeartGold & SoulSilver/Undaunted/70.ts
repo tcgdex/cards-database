@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Togepi",
 		fr: "Togepi",
+		de: "Togepi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Plead",
 				fr: "Supplication",
+				de: "Flehen"
 			},
 			effect: {
 				en: "Ask your opponent if you may draw 2 cards. If yes, draw 2 cards. If no, this attack does 20 damage to the Defending Pokémon.",
 				fr: "Demandez à votre adversaire si vous pouvez piocher 2 cartes. S’il accepte, piochez 2 cartes. S’il refuse, cette attaque inflige 20 dégâts au Pokémon Défenseur.",
+				de: "Frage deinen Gegner, ob du 2 Karten ziehen darfst. Wenn ja, ziehe 2 Karten. Wenn nicht, fügt dieser Angriff dem Verteidigenden Pokémon 20 Schadenspunkte zu."
 			},
 
 		},

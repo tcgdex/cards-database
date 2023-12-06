@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Carvanha",
 		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	illustrator: "MAHOU",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Focus Energy",
 				fr: "Puissance",
+				de: "Energiefokus"
 			},
 			effect: {
 				en: "During your next turn, Carvanha’s Bite attack’s base damage is 40.",
 				fr: "Pendant votre prochain tour, l’attaque Morsure de Carvanha inflige 40 dégâts de base.",
+				de: "In deinem nächsten Zug beträgt der Grundschaden von Kanivanhas Biss 40 Schadenspunkte."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,

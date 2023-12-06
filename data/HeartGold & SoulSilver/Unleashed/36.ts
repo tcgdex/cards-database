@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Plusle",
 		fr: "Posipi",
+		de: "Plusle"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 2 cards.",
 				fr: "Piochez 2 cartes.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Jolt",
 				fr: "Secousse tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Plusle does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c’est pile, Posipi s’inflige 10 dégâts.",
+				de: "Wirf eine Münze. Bei \"Zahl\" fügt Plusle sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 

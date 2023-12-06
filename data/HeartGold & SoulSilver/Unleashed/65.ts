@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Teddiursa does 10 damage to itself.",
 				fr: "Teddiursa s’inflige 10 dégâts.",
+				de: "Teddiursa fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 

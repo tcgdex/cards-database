@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Girafarig",
 		fr: "Girafarig",
+		de: "Girafarig"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Show Off",
 				fr: "Crâneur",
+				de: "Vorzeigen"
 			},
 			effect: {
 				en: "Search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck jusqu’à deux cartes Énergie de base, montrez-les à votre adversaire et ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre psy",
+				de: "Psychoschuss"
 			},
 
 			damage: 20,

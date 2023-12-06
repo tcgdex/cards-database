@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Alph Lithograph",
 		fr: "Lithographie d’Alph",
+		de: "Alph Lithograph"
 	},
 
 	illustrator: "Milky Isobe",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Regardez la main de votre adversaire !",
-		en: "Look at your opponent’s hand!"
+		en: "Look at your opponent’s hand!",
+		de: "Schau dir die Handkarten deines Gegners an!"
 	},
 
 	trainerType: "Item",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dragonair",
 		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -38,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Search and Invite",
 				fr: "Rechercher et inviter",
+				de: "Suchen und Einladen"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez jusqu’à 2 Pokémon dans votre deck, montrez-les à votre adversaire et ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach bis zu 2 Pokémon-Karten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -54,12 +57,14 @@ const card: Card = {
 			name: {
 				en: "Slam",
 				fr: "Souplesse",
+				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "40×",
+			damage: "40x",
 
 		},
 	],

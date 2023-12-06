@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Venonat",
 		fr: "Mimitoss",
+		de: "Bluzuk"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Leech Life",
 				fr: "Vampirisme",
+				de: "Blutsauger"
 			},
 			effect: {
 				en: "Remove from Venomat the number of damage counters equal to the damage you did to the Definding Pokémon.",
 				fr: "Retirez à Mimitoss un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
+				de: "Entferne Schadensmarken von Bluzuk entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 10,
 
@@ -49,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,

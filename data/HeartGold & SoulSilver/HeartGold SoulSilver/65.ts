@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	illustrator: "Naoki Saito",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -46,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
+				de: "Glühen"
 			},
 
 			damage: 40,

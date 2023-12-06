@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Weedle",
 		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Speed Evolution",
 				fr: "Évolution rapide",
+				de: "Tempo-Evolution"
 			},
 			effect: {
 				en: "Search your deck for a card that evolves from Weedle and put it onto Weedle. (This counts as evolving Weedle.) Shuffle your deck afterward.",
 				fr: "Cherchez une carte Évolution d’Aspicot dans votre deck et placez-la sur Aspicot (cela équivaut à faire évoluer Aspicot). Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach einer Karte, die aus Hornliu entsteht, und lege sie auf Hornliu. (Dies zählt als Entwickeln von Hornliu.) Mische anschließend dein Deck."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Sting",
 				fr: "Dard",
+				de: "Stachel"
 			},
 
 			damage: 10,

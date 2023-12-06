@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dunsparce",
 		fr: "Insolourdo",
+		de: "Dummisel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Glare",
 				fr: "Intimidation",
+				de: "Giftblick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -46,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "Fade Out",
 				fr: "Faiblir",
+				de: "Ausblenden"
 			},
 			effect: {
 				en: "Return Dunsparce and all cards attached to it to your hand.",
 				fr: "Reprenez Insolourdo et toutes les cartes qui lui sont attachées dans votre main.",
+				de: "Nimm Dummisel und alle an es angelegten Karten auf deine Hand zurück."
 			},
 			damage: 20,
 

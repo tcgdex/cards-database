@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poliwag",
 		fr: "Ptitard",
+		de: "Quapsel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Pokémon de base et placez-la sur votre Banc. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Razor Fin",
 				fr: "Aileron-rasoir",
+				de: "Rasierflosse"
 			},
 
 			damage: 20,

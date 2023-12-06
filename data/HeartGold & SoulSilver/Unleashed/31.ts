@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Grotle",
 		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	illustrator: "match",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Powder",
 				fr: "Poudre dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf eine Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 50,
 

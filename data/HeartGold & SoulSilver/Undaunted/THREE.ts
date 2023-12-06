@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Alph Lithograph",
 		fr: "Lithographie d’Alph",
+		de: "Alph Lithograph"
 	},
 
 	illustrator: "Milky Isobe",
@@ -13,8 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Return any Stadium card in play to its player’s hand!",
 		fr: "Toutes les cartes Stade en jeu sont restituées dans la main de leur joueur !",
-		en: "Return any Stadium card in play to its player’s hand!"
+		de: "Gib eine Stadionkarte im Spiel auf die Hand des jeweiligen Spielers zurück!"
 	},
 
 	trainerType: "Item",

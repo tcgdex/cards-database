@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lairon",
 		fr: "Galegon",
+		de: "Stollrak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -39,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Lairon does 20 damage to itself.",
 				fr: "Galegon s’inflige 20 dégâts.",
+				de: "Stollrak fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 80,
 

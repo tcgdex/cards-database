@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Larvitar",
 		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Knuckle Punch",
 				fr: "Coud’phalange",
+				de: "Knöchelhieb"
 			},
 
 			damage: 20,

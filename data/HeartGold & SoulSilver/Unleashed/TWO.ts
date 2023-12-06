@@ -3,8 +3,9 @@ import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		fr: "Lithographie d'Alpha",
 		en: "Alph Lithograph",
+		fr: "Lithographie d'Alpha",
+		de: "Alph Lithograph"
 	},
 
 	illustrator: "Milky Isobe",
@@ -13,8 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Shuffle your deck!",
 		fr: "Mélangez votre deck.",
-		en: "Shuffle your deck!"
+		de: "Mische dein Deck!"
 	},
 
 	trainerType: "Item",

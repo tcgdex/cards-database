@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Natu",
 		fr: "Natu",
+		de: "Natu"
 	},
 
 	illustrator: "sui",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -44,10 +46,12 @@ const card: Card = {
 			name: {
 				en: "Teleport",
 				fr: "Téléport",
+				de: "Teleport"
 			},
 			effect: {
 				en: "Switch Natu with 1 of your Benched Pokémon.",
 				fr: "Échangez Natu avec l’un des Pokémon de votre Banc.",
+				de: "Tausche Natu gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},

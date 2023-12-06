@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Celebi",
 		fr: "Celebi",
+		de: "Celebi"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Future Sight",
 				fr: "Prescience",
+				de: "Seher"
 			},
 			effect: {
 				en: "Look at the top 5 cards of either player’s deck and put them back on top of that player’s deck in any order.",
 				fr: "Regardez les 5 cartes du dessus d’un deck (le vôtre ou celui de votre adversaire) et replacez-les au-dessus du même deck dans n’importe quel ordre.",
+				de: "Schau dir die obersten 5 Karten eines Decks an und lege sie danach in beliebiger Reihenfolge wieder auf das Deck des Spielers zurück."
 			},
 
 		},
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Bind",
 				fr: "Lassofeuille",
+				de: "Blattklammer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 

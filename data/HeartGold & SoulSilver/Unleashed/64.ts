@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Stantler",
 		fr: "Cerfrousse",
+		de: "Damhirplex"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck jusqu’à deux cartes Pokémon de base et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon-Karten und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -48,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Mystifying Horns",
 				fr: "Mysti-cornes",
+				de: "Mystik-Hörner"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 

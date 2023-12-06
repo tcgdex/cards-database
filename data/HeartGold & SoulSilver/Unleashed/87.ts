@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Steelix",
 		fr: "Steelix",
+		de: "Stahlos"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -35,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Perfect Metal",
 				fr: "Métal parfait",
+				de: "Perfektes Metall"
 			},
 			effect: {
 				en: "Steelix can’t be affected by any Special Conditions.",
 				fr: "Steelix ne peut pas être affecté par les États Spéciaux.",
+				de: "Stahlos kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Energy Stream",
 				fr: "Courant d’énergie",
+				de: "Energiestrom"
 			},
 			effect: {
 				en: "Search your discard pile for an Energy card and attach it to Steelix.",
 				fr: "Cherchez une carte Énergie dans votre pile de défausse et attachez-la à Steelix.",
+				de: "Durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Stahlos an."
 			},
 			damage: 30,
 
@@ -71,10 +76,12 @@ const card: Card = {
 			name: {
 				en: "Gaia Crush",
 				fr: "Anéantissement de Gaïa",
+				de: "Gaia-Zermalmer"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
 				fr: "Vous pouvez défausser n’importe quelle carte Stade en jeu.",
+				de: "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
 			},
 			damage: 100,
 

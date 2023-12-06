@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Magmortar",
+		de: "Magbrant"
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
@@ -32,11 +33,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hard Crush",
+				de: "Heftiger Zermalmer"
 			},
 			effect: {
 				en: "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.",
+				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
 			},
-			damage: 50,
+			damage: "50x",
 
 		},
 		{
@@ -48,9 +51,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Mantle Bazooka",
+				de: "Verhüllte Panzerfaust"
 			},
 			effect: {
 				en: "Discard 2 Fire Energy attached to Magmortar.",
+				de: "Lege 2 an Magbrant angelgte -Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 

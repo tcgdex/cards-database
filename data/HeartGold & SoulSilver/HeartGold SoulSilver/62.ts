@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Drowzee",
 		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Inducer",
 				fr: "Poussododo",
+				de: "Schlafeinflößer"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon. The new Defending Pokémon is now Asleep.",
 				fr: "Échangez le Pokémon Défenseur avec un Pokémon du Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Endormi.",
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Das neue Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Gentle Slap",
 				fr: "Gifle douce",
+				de: "Sanfter Hieb"
 			},
 
 			damage: 20,

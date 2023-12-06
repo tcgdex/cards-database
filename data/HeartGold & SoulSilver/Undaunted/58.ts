@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Murkrow",
 		fr: "Cornebre",
+		de: "Kramurx"
 	},
 
 	illustrator: "kawayoo",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Astonish",
 				fr: "Étonnement",
+				de: "Erstauner"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose 1 card from your opponent’s hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
 				fr: "Lancez une pièce. Si c’est face, choisissez au hasard une carte dans la main de votre adversaire. Regardez la carte que vous avez choisie, puis demandez à votre adversaire de la mélanger avec son deck.",
+				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Sieh dir die gewählte Karte an und gib sie deinem Gegner. Er mischt die Karte zurück in sein Deck."
 			},
 			damage: 10,
 

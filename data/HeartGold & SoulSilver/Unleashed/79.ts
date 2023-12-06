@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Life Herb",
 		fr: "Herbe sauveuse",
+		de: "Lebenskräuter"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, choisissez l’un de vos Pokémon et retirez à ce dernier jusqu’à 6 marqueurs de dégât. Tous les États Spéciaux de ce Pokémon sont également annulés.",
-		en: "Flip a coin. If heads, choose 1 of your Pokémon, and remove all Special Conditions and 6 damage counters from that Pokémon (all if there are less than 6)."
+		en: "Flip a coin. If heads, choose 1 of your Pokémon, and remove all Special Conditions and 6 damage counters from that Pokémon (all if there are less than 6).",
+		de: "Wirf eine Münze. Bei \"Kopf\" wähle 1 deiner Pokémon und entferne alle Speziellen Zustände und 6 Schadensmarken vom gewählten Pokémon (alle, falls weniger als 6 auf diesem Pokémon liegen)."
 	},
 
 	trainerType: "Item",

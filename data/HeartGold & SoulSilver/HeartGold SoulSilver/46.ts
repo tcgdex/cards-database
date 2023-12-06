@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metapod",
 		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,9 +35,11 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				fr: "Bouclier vert",
+				de: "Grüner Schild"
 			},
 			effect: {
 				fr: "Vos Pokémon Grass ne subissent plus la Faiblesse.",
+				de: "Jedes deiner -Pokémon hat keine Schwäche mehr."
 			},
 		},
 	],
@@ -50,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Sharpen",
 				fr: "Affûtage",
+				de: "Schärfer"
 			},
 
 			damage: 20,

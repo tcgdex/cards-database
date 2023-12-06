@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Blissey",
 		fr: "Leuphorie",
+		de: "Heiteira"
 	},
 
 	illustrator: "Kanako Eo",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Energy Link",
 				fr: "Chaîne d’énergie",
+				de: "Energie-Verbindung"
 			},
 			effect: {
 				en: "Search your discard pile for an Energy card and attach it to Blissey.",
 				fr: "Cherchez dans votre pile de défausse une carte Énergie et attachez-la à Leuphorie.",
+				de: "Durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Heiteira an."
 			},
 			damage: 10,
 
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Double-edge",
 				fr: "Damoclès",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Blissey does 40 damage to itself.",
 				fr: "Leuphorie s’inflige 40 dégâts.",
+				de: "Heiteira fügt sich selbst 40 Schadenspunkte zu."
 			},
 			damage: 80,
 

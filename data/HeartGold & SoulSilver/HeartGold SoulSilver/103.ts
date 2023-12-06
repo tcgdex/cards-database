@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Double Colorless Energy",
 		fr: "Énergie doublement incolore",
+		de: "Doppel-Farblos-Energie"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -14,7 +15,8 @@ const card: Card = {
 
 	effect: {
 		fr: "L’énergie doublement incolore fournit de l’énergie ColorlessColorless.",
-		en: "Double Colorless Energy provides Colorless Colorless Energy"
+		en: "Double Colorless Energy provides Colorless Colorless Energy",
+		de: "Doppel-Farblos-Energie liefert -Energie."
 	},
 
 	energyType: "Special",

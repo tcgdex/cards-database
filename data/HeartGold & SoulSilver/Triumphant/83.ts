@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Magnetic Bomb",
 				fr: "Bombe magnétique",
+				de: "Magnetische Bombe"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, Voltorb does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Si c’est pile, Voltorbe s’inflige 10 dégâts.",
+				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weiteren Schadenspunkte zu. Bei \"Zahl\" fügt Voltobal sich selbst 10 Schadenspunkte zu."
 			},
 			damage: "20+",
 

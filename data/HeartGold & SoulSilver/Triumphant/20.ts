@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Electivire",
 		fr: "Elekable",
+		de: "Elevoltek"
 	},
 
 	illustrator: "TOKIYA",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Plasma",
 				fr: "Plasma",
+				de: "Plasma"
 			},
 			effect: {
 				en: "Search your discard pile for a Lightning Energy card and attach it to Electivire.",
 				fr: "Cherchez une carte Énergie Lightning dans votre pile de défausse et attachez-la à Elekable.",
+				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Elevoltek an."
 			},
 			damage: 30,
 
@@ -54,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Shot",
 				fr: "Tir foudroyant",
+				de: "Donnerschuss"
 			},
 			effect: {
 				en: "This attack does 50 damage to each of your opponent’s Pokémon that has any Energy cards attached to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 50 dégâts à chacun des Pokémon de votre adversaire auxquels sont attachées des cartes Énergie. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon deines Gegners, an das Energiekarten angelegt sind, 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

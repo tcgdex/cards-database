@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Bayleef",
+		de: "Lorblatt"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
@@ -30,6 +31,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
+				de: "Einhämmern"
 			},
 
 			damage: 20,
@@ -43,6 +45,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				de: "Rasierblatt"
 			},
 
 			damage: 50,

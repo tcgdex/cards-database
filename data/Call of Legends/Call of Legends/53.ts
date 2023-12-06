@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chikorita",
 		fr: "Germignon",
+		de: "Endivie"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Nap",
 				fr: "Tit'sieste",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Chikorita.",
 				fr: "Retirez 1 marqueur de dégât à Germignon.",
+				de: "Entferne 1 Schadensmarke von Endivie."
 			},
 
 		},
@@ -45,10 +48,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "Chikorita does 10 damage to itself.",
 				fr: "Germignon s’inflige 10 dégâts.",
+				de: "Endivie fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

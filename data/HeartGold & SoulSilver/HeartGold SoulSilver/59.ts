@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chikorita",
 		fr: "Germignon",
+		de: "Endivie"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch’herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,

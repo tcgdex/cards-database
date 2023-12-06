@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Azumarill",
 		fr: "Azumarill",
+		de: "Azumarill"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
+				de: "Kaskade"
 			},
 
 			damage: 40,
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Bubblebeam",
 				fr: "Bulles d’o",
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 60,
 

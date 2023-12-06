@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Staryu",
 		fr: "Stari",
+		de: "Sterndu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque tournante",
+				de: "Rundumangriff"
 			},
 
 			damage: 20,

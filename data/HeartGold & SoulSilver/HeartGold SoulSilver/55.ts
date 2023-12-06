@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Unown",
 		fr: "Zarbi",
+		de: "Icognito"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "FLASH",
 				fr: "FLASH",
+				de: "FLASH"
 			},
 			effect: {
 				en: "Once during your turn, when you put Unown from your hand onto your Bench, you may look at the top 5 cards of your deck and put them back on top of your deck in any order.",
 				fr: "Une seule fois pendant votre tour, lorsque vous prenez Zarbi dans votre main et le placez sur votre Banc, vous pouvez regarder les 5 cartes du dessus de votre deck et les y replacer dans l’ordre de votre choix.",
+				de: "Einmal während deines Zuges kannst du, wenn du Icognito von deiner Hand auf deine Bank legst, dir die obersten 5 Karten deines Decks anschauen und sie in beliebiger Reihenfolge auf dein Deck zurücklegen."
 			},
 		},
 	],
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Hidden Power",
 				fr: "Puissance cachée",
+				de: "Kraftreserve"
 			},
 
 			damage: 10,

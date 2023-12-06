@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Quilava",
 		fr: "Fleurisson",
+		de: "Igelavar"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Intimidation",
+				de: "Flackern"
 			},
 
 			damage: 30,
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to Quilava.",
 				fr: "Défaussez-vous d’une carte Énergie attachée à Fleurisson.",
+				de: "Lege 1 an Igelavar angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Spearow",
 		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Roost",
 				fr: "Atterrissage",
+				de: "Ruheort"
 			},
 			effect: {
 				en: "Remove 4 damage counters from Spearow. Spearow can’t retreat during your next turn.",
 				fr: "Retirez 4 marqueurs de dégât à Piafabec. Piafabec ne peut pas battre en retraite pendant votre prochain tour.",
+				de: "Entferne 4 Schadensmarken von Habitak. Habitak kann sich in deinem nächsten Zug nicht zurückziehen."
 			},
 
 		},
@@ -46,6 +49,7 @@ const card: Card = {
 			name: {
 				en: "Flap",
 				fr: "Battement",
+				de: "Flattern"
 			},
 
 			damage: 10,

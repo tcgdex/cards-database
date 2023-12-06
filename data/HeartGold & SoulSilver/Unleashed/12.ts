@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Beedrill",
 		fr: "Dardargnan",
+		de: "Bibor"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -37,12 +38,14 @@ const card: Card = {
 			name: {
 				en: "Twineedle",
 				fr: "Double-dard",
+				de: "Duonadel"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "50×",
+			damage: "50x",
 
 		},
 		{
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Paralyze Poison",
 				fr: "Poison paralysant",
+				de: "Lähmendes Gift"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c’est face, le Pokémon Défenseur est aussi Paralysé.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon zusätzlich gelähmt."
 			},
 			damage: 20,
 

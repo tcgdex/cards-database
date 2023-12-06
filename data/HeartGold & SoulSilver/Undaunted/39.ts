@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Togetic",
 		fr: "Togetic",
+		de: "Togetic"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -37,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Chase Up",
 				fr: "Relancer",
+				de: "Dampf machen"
 			},
 			effect: {
 				en: "Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez une carte dans votre deck et placez-la dans votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -52,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Fly",
 				fr: "Vol",
+				de: "Fliegen"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to Togetic during your opponent’s next turn.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Togetic pendant le prochain tour de votre adversaire.",
+				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Togetic zugefügt werden."
 			},
 			damage: 30,
 

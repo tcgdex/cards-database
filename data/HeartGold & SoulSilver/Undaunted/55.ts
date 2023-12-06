@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Makuhita",
 		fr: "Makuhita",
+		de: "Makuhita"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Slap Down",
 				fr: "Écraser",
+				de: "Niederschlag"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage plus 10 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20+",
 
@@ -50,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Slap Push",
 				fr: "Gifle",
+				de: "Stoß"
 			},
 
 			damage: 40,

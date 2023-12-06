@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aron",
 		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Mountain Eater",
 				fr: "Mange-montagne",
+				de: "Bergfresser"
 			},
 			effect: {
 				en: "Discard the top card of your deck. Then, remove 2 damage counters from Aron.",
 				fr: "Défaussez la carte du dessus de votre deck. Ensuite, retirez 2 marqueurs de dégât à Galekid.",
+				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Entferne anschließend 2 Schadensmarken von Stollunior."
 			},
 
 		},
@@ -48,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Confront",
 				fr: "Confrontation",
+				de: "Konfrontieren"
 			},
 
 			damage: 30,

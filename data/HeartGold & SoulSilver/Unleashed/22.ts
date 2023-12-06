@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Primeape",
 		fr: "Colossinge",
+		de: "Rasaff"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 30,
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Bebop Punch",
 				fr: "Rythmofrappe",
+				de: "Bebop-Hieb"
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Pokémon. Flip a coin until you get tails. This attack does 50 damage times the number of heads to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez l’un des Pokémon de votre adversaire. Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige à ce Pokémon 50 dégâts multipliés par le nombre de côtés face. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Wähle 1 Pokémon deines Gegners. Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt dem gewählten Pokémon 50 Schadenspunkte mal der Anzahl \"Kopf\" zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an)."
 			},
 
 		},

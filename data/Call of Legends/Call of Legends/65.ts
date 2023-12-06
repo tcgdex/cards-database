@@ -4,6 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Misdreavus",
+		de: "Traunfugil"
 	},
 	illustrator: "Suwama Chiaki",
 	rarity: "Common",
@@ -28,6 +29,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Mumble",
+				de: "Grummeln"
 			},
 
 			damage: 10,
@@ -39,9 +41,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Dual Draw",
+				de: "Doppelzug"
 			},
 			effect: {
 				en: "Each player draws 3 cards.",
+				de: "Jeder Spieler zieht 3 Karten."
 			},
 
 		},

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Grimer",
 		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	illustrator: "Midori Harada",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Sticky Liquid",
 				fr: "Liquide gluant",
+				de: "Klebrige Flüssigkeit"
 			},
 			effect: {
 				en: "During your opponent’s next turn, the Defending Pokémon’s Retreat Cost is Colorless more.",
 				fr: "Pendant le prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est augmenté de Colorless.",
+				de: "Die Rückzugskosten für das Verteidigende Pokémon betragen im nächsten Zug deines Gegners  mehr."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Sludge Toss",
 				fr: "Décision vaseuse",
+				de: "Schleimwurf"
 			},
 
 			damage: 20,

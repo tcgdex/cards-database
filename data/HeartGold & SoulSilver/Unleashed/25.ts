@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Torkoal",
 		fr: "Chartor",
+		de: "Qurtel"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Hot Snort",
 				fr: "Grognement ardent",
+				de: "Hitzeschnauber"
 			},
 			effect: {
 				en: "Once during your turn when you put Torkoal from your hand onto your Bench, you may flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Une seule fois pendant votre tour, lorsque vous placez Chartor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Einmal während deines Zuges kannst du, wenn du Qurtel von deiner Hand auf deine Bank legst, 1 Münze werfen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 		},
 	],
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Intimidation",
+				de: "Flackern"
 			},
 
 			damage: 30,

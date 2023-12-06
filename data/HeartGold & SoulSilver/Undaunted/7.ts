@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Scizor",
 		fr: "Cizayox",
+		de: "Scherox"
 	},
 
 	illustrator: "Kent Kanetsuna/Direc. Shinji Higuchi",
@@ -38,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 50,
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Metal Claw",
 				fr: "Griffe acier",
+				de: "Metallklaue"
 			},
 
 			damage: 80,
